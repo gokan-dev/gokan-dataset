@@ -1,0 +1,92 @@
+[
+  {
+    "id": "124287",
+    "original": "東海道線は東京が終点だ。",
+    "en": [
+      {
+        "id": "279707",
+        "text": "The Tokaido line terminates at Tokyo."
+      },
+      {
+        "id": "3018412",
+        "text": "The final stop of Tokaido line is Tokyo."
+      }
+    ],
+    "indices": "NI{東海道線} は 東京 が 終点 だ",
+    "vocabIds": [
+      "5741079",
+      "1447690",
+      "1332950"
+    ],
+    "matches": {
+      "1332950": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "しゅうてん"
+        }
+      ],
+      "1447690": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "とうきょう"
+        }
+      ],
+      "5741079": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "とうかいどうせん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "124288",
+    "original": "東海道線は台風で麻痺状態になった。",
+    "en": [
+      {
+        "id": "279706",
+        "text": "The Tokaido Line was crippled by the typhoon."
+      }
+    ],
+    "indices": "NI{東海道線} は 台風 で(#2028980) 麻痺 状態 になる[01]{になった}",
+    "vocabIds": [
+      "5741079",
+      "1596780",
+      "1604160",
+      "1356730"
+    ],
+    "matches": {
+      "1356730": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "じょうたい"
+        }
+      ],
+      "1596780": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "たいふう"
+        }
+      ],
+      "1604160": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "まひ"
+        }
+      ],
+      "5741079": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "とうかいどうせん"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,133 @@
+{
+  "id": "1344970",
+  "writtenForm": {
+    "kanji": "女の子",
+    "alternatives": [
+      "女のコ",
+      "オンナの子",
+      "女のこ"
+    ],
+    "containedKanji": [
+      "女",
+      "子"
+    ]
+  },
+  "reading": {
+    "primary": "おんなのこ",
+    "alternatives": [
+      "めのこ"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 586,
+    "kanaRank": 62397
+  },
+  "jlptLevel": 5,
+  "progression": {
+    "kklcStep": 94
+  },
+  "senses": [
+    {
+      "pos": [
+        "exp",
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "girl",
+        "daughter",
+        "baby girl"
+      ],
+      "related": {
+        "compounds": [
+          "男の子"
+        ]
+      }
+    },
+    {
+      "pos": [
+        "exp",
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "young woman"
+      ],
+      "related": {
+        "compounds": [
+          "男の子"
+        ]
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "woman",
+        "girl"
+      ],
+      "related": {
+        "compounds": [
+          "男"
+        ]
+      },
+      "appliesToReadings": [
+        "めのこ"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1344970",
+      "isBase": true,
+      "originalPrimaryReading": "おんなのこ",
+      "originalGlosses": [
+        "girl",
+        "daughter",
+        "baby girl"
+      ]
+    },
+    {
+      "id": "2742860",
+      "isBase": false,
+      "originalPrimaryReading": "めのこ",
+      "originalGlosses": [
+        "woman",
+        "girl"
+      ]
+    }
+  ],
+  "components": [
+    "1344930",
+    "1307770"
+  ]
+}

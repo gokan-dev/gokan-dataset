@@ -1,0 +1,111 @@
+[
+  {
+    "id": "84590",
+    "original": "父は碁をやります。",
+    "en": [
+      {
+        "id": "319124",
+        "text": "Father goes in for the game of Go."
+      }
+    ],
+    "indices": "父 は 碁 を 遣る{やります}",
+    "vocabIds": [
+      "1497610",
+      "1270870"
+    ],
+    "matches": {
+      "1270870": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ご"
+        }
+      ],
+      "1497610": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ちち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "174233",
+    "original": "碁のよい相手同士だった。",
+    "en": [
+      {
+        "id": "240236",
+        "text": "They were good rivals at go."
+      }
+    ],
+    "indices": "碁 の 良い{よい} 相手 同士 だ{だった}",
+    "vocabIds": [
+      "1401000",
+      "1452400",
+      "1270870"
+    ],
+    "matches": {
+      "1270870": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ご"
+        }
+      ],
+      "1401000": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "あいて"
+        }
+      ],
+      "1452400": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "どうし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "228601",
+    "original": "いつ来てくれても、碁の相手をしますよ。",
+    "en": [
+      {
+        "id": "65960",
+        "text": "Whenever you come, I'll play Go with you."
+      }
+    ],
+    "indices": "何時(いつ){いつ} 来る(くる)[01]{来て} 呉れる{くれて} も 碁 の 相手をする{相手をします} よ[01]",
+    "vocabIds": [
+      "1547720",
+      "1401000",
+      "1270870"
+    ],
+    "matches": {
+      "1270870": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "ご"
+        }
+      ],
+      "1401000": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "あいて"
+        }
+      ],
+      "1547720": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "きてくれて"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,138 @@
+[
+  {
+    "id": "181518",
+    "original": "競争の後に、ジェーンは麦茶を２杯のみました。",
+    "en": [
+      {
+        "id": "19271",
+        "text": "Having run the race, Jane had two glasses of barley tea."
+      }
+    ],
+    "indices": "競争[01] の 後(あと) に は 麦茶~ を 杯(はい)[02] 飲む[01]{のみました}",
+    "vocabIds": [
+      "1234140",
+      "2640160",
+      "1476230",
+      "1461140",
+      "2019640",
+      "2257680"
+    ],
+    "matches": {
+      "1234140": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きょうそう"
+        }
+      ],
+      "1461140": [
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "に"
+        }
+      ],
+      "1476230": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "むぎちゃ"
+        }
+      ],
+      "2019640": [
+        {
+          "start": 15,
+          "length": 1,
+          "reading": "はい"
+        }
+      ],
+      "2257680": [
+        {
+          "start": 15,
+          "length": 1,
+          "reading": "はい"
+        }
+      ],
+      "2640160": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "のちに"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10906681",
+    "original": "麦茶のむ？",
+    "en": [
+      {
+        "id": "11009263",
+        "text": "Do you drink barley tea?"
+      },
+      {
+        "id": "11009264",
+        "text": "Do you drink wheat tea?"
+      },
+      {
+        "id": "11009266",
+        "text": "Will you drink wheat tea?"
+      },
+      {
+        "id": "11009267",
+        "text": "Will you drink barley tea?"
+      }
+    ],
+    "vocabIds": [
+      "1476230"
+    ],
+    "matches": {
+      "1476230": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "むぎちゃ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10906693",
+    "original": "「麦茶のむ？」「飲む！飲む！」",
+    "en": [
+      {
+        "id": "13721377",
+        "text": "\"Would you like a drink of barely tea?\" \"A drink, yes please!\""
+      },
+      {
+        "id": "13721379",
+        "text": "\"Would you like a drink of barely tea?\" \"A drink? Yes please!\""
+      }
+    ],
+    "vocabIds": [
+      "1476230",
+      "1169870"
+    ],
+    "matches": {
+      "1169870": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "のむ"
+        },
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "のむ"
+        }
+      ],
+      "1476230": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "むぎちゃ"
+        }
+      ]
+    }
+  }
+]

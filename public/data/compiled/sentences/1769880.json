@@ -1,0 +1,86 @@
+[
+  {
+    "id": "77538",
+    "original": "列車の待ち時間が長い。",
+    "en": [
+      {
+        "id": "326181",
+        "text": "There is a long wait between trains."
+      }
+    ],
+    "indices": "列車 の 待ち時間 が 長い",
+    "vocabIds": [
+      "1769880",
+      "1558370",
+      "1429750"
+    ],
+    "matches": {
+      "1429750": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "ながい"
+        }
+      ],
+      "1558370": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "れっしゃ"
+        }
+      ],
+      "1769880": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "まちじかん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "137940",
+    "original": "待ち時間はどのくらいですか。",
+    "en": [
+      {
+        "id": "918403",
+        "text": "How long do you think we'll have to wait?"
+      }
+    ],
+    "indices": "待ち時間~ は どの位{どのくらい} ですか",
+    "vocabIds": [
+      "1769880"
+    ],
+    "matches": {
+      "1769880": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "まちじかん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11559544",
+    "original": "待ち時間はどれくらいになりますか？",
+    "en": [
+      {
+        "id": "36864",
+        "text": "How long will we have to wait?"
+      }
+    ],
+    "vocabIds": [
+      "1769880"
+    ],
+    "matches": {
+      "1769880": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "まちじかん"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "id": "122692",
+    "original": "日本に販売代理店をお持ちですか。",
+    "en": [
+      {
+        "id": "281310",
+        "text": "Do you have any sales distributors in Japan?"
+      }
+    ],
+    "indices": "日本 に 販売代理店~ を 持つ{お持ち} ですか",
+    "vocabIds": [
+      "1481850",
+      "1315720",
+      "1582710"
+    ],
+    "matches": {
+      "1315720": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "もちです"
+        }
+      ],
+      "1481850": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "はんばいだいりてん"
+        }
+      ],
+      "1582710": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "にっぽん"
+        }
+      ]
+    }
+  }
+]

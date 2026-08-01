@@ -1,0 +1,142 @@
+[
+  {
+    "id": "142475",
+    "original": "税務署は控除を認めた。",
+    "en": [
+      {
+        "id": "272095",
+        "text": "The tax agent allowed the deduction."
+      }
+    ],
+    "indices": "税務署~ は 控除~ を 認める(みとめる){認めた}",
+    "vocabIds": [
+      "1382190",
+      "1467530",
+      "1279080"
+    ],
+    "matches": {
+      "1279080": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "こうじょ"
+        }
+      ],
+      "1382190": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ぜいむしょ"
+        }
+      ],
+      "1467530": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "みとめた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "150729",
+    "original": "慈善事業への寄付は課税所得から控除されます。",
+    "en": [
+      {
+        "id": "263828",
+        "text": "Donations to philanthropic programs are tax-exempt."
+      }
+    ],
+    "indices": "慈善事業 へ の 寄付 は 課税所得~ から 控除 為れる{されます}",
+    "vocabIds": [
+      "1315400",
+      "1195810",
+      "1591400",
+      "1279080"
+    ],
+    "matches": {
+      "1195810": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "かぜいしょとく"
+        }
+      ],
+      "1279080": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "こうじょ"
+        }
+      ],
+      "1315400": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "じぜんじぎょう"
+        }
+      ],
+      "1591400": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "きふ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "993726",
+    "original": "贅沢への支出は税控除の対象とはならない。",
+    "en": [
+      {
+        "id": "11492060",
+        "text": "Luxury spending is ineligible for tax deductions."
+      }
+    ],
+    "vocabIds": [
+      "1573150",
+      "1310180",
+      "1279080",
+      "1410120",
+      "2081570"
+    ],
+    "matches": {
+      "1279080": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "こうじょ"
+        }
+      ],
+      "1310180": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ししゅつ"
+        }
+      ],
+      "1410120": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "たいしょう"
+        }
+      ],
+      "1573150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ぜいたく"
+        }
+      ],
+      "2081570": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "ぜい"
+        }
+      ]
+    }
+  }
+]

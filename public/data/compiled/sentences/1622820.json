@@ -1,0 +1,212 @@
+[
+  {
+    "id": "220415",
+    "original": "この店は地の利をえている。",
+    "en": [
+      {
+        "id": "57737",
+        "text": "This store enjoys a geographical advantage."
+      }
+    ],
+    "indices": "此の{この} 店(みせ) は 地の利 を 得る(える){えている}",
+    "vocabIds": [
+      "1622820",
+      "1582120"
+    ],
+    "matches": {
+      "1582120": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "みせ"
+        }
+      ],
+      "1622820": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "ちのり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "234387",
+    "original": "あそこの食べ物はうまいし値段も安いが、地の利が悪いのが難点だね。",
+    "en": [
+      {
+        "id": "71763",
+        "text": "That place's food is great, and their prices are good, but the fly in the ointment is their terrible location."
+      },
+      {
+        "id": "2494082",
+        "text": "That place's food is delicious and their prices are low. However, their location isn't good."
+      }
+    ],
+    "indices": "彼処[01]{あそこ} の 食べ物 は 上手い[02]{うまい}~ 為る(する){し} 値段 も 安い[01] が 地の利~ が 悪い(わるい) の が 難点[01]~ だ ね(#2029080)[01]",
+    "vocabIds": [
+      "1358340",
+      "1622820",
+      "1153670",
+      "1600160",
+      "1151260",
+      "1403390",
+      "2772730",
+      "1461040"
+    ],
+    "matches": {
+      "1151260": [
+        {
+          "start": 23,
+          "length": 2,
+          "reading": "わるい"
+        }
+      ],
+      "1153670": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "やすいが"
+        }
+      ],
+      "1358340": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "たべもの"
+        }
+      ],
+      "1403390": [
+        {
+          "start": 23,
+          "length": 2,
+          "reading": "わるい"
+        }
+      ],
+      "1461040": [
+        {
+          "start": 27,
+          "length": 2,
+          "reading": "なんてん"
+        }
+      ],
+      "1600160": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "ねだん"
+        }
+      ],
+      "1622820": [
+        {
+          "start": 19,
+          "length": 3,
+          "reading": "ちのり"
+        }
+      ],
+      "2772730": [
+        {
+          "start": 23,
+          "length": 2,
+          "reading": "わるい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1485701",
+    "original": "天の時は地の利に如かず、地の利は人の和に如かず。",
+    "en": [
+      {
+        "id": "1485715",
+        "text": "Opportunities of time vouchsafed by Heaven are not equal to advantages of situation afforded by the Earth, and advantages of situation afforded by the Earth are not equal to the union arising from the accord of Men."
+      }
+    ],
+    "vocabIds": [
+      "1622820",
+      "2138820",
+      "2244480",
+      "1315840",
+      "1580640",
+      "1459650",
+      "1561920",
+      "2039460",
+      "2437530"
+    ],
+    "matches": {
+      "1315840": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "とき"
+        }
+      ],
+      "1459650": [
+        {
+          "start": 18,
+          "length": 1,
+          "reading": "わ"
+        }
+      ],
+      "1561920": [
+        {
+          "start": 18,
+          "length": 1,
+          "reading": "わ"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 16,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ],
+      "1622820": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "ちのり"
+        },
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "ちのり"
+        }
+      ],
+      "2039460": [
+        {
+          "start": 18,
+          "length": 1,
+          "reading": "わ"
+        }
+      ],
+      "2138820": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "しかず"
+        },
+        {
+          "start": 20,
+          "length": 3,
+          "reading": "しかず"
+        }
+      ],
+      "2244480": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "てんの"
+        }
+      ],
+      "2437530": [
+        {
+          "start": 18,
+          "length": 1,
+          "reading": "わ"
+        }
+      ]
+    }
+  }
+]

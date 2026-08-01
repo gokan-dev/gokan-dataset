@@ -1,0 +1,88 @@
+[
+  {
+    "id": "85590",
+    "original": "飛田課長が、太鼓判を押した企画書ならクライアントも一発ＯＫだろう。",
+    "en": [
+      {
+        "id": "318123",
+        "text": "When Tobita gives a plan his seal of approval, the client accepts it at first glance."
+      }
+    ],
+    "indices": "課長 が 太鼓判を押す{太鼓判を押した}~ 企画書~ なら クライアント も 一発[01] ＯＫ だろう",
+    "vocabIds": [
+      "1408290",
+      "1218160",
+      "1180470",
+      "1195840",
+      "1165730"
+    ],
+    "matches": {
+      "1165730": [
+        {
+          "start": 25,
+          "length": 2,
+          "reading": "いちはつ"
+        }
+      ],
+      "1180470": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "おした"
+        }
+      ],
+      "1195840": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "かちょう"
+        }
+      ],
+      "1218160": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "きかくしょ"
+        }
+      ],
+      "1408290": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "たいこばん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "138214",
+    "original": "太鼓判を押してくれた。",
+    "en": [
+      {
+        "id": "275021",
+        "text": "He gave me his stamp of approval."
+      }
+    ],
+    "indices": "太鼓判~ を 押す{押して} 呉れる{くれた}",
+    "vocabIds": [
+      "1180470",
+      "1408290"
+    ],
+    "matches": {
+      "1180470": [
+        {
+          "start": 4,
+          "length": 6,
+          "reading": "おしてくれた"
+        }
+      ],
+      "1408290": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "たいこばん"
+        }
+      ]
+    }
+  }
+]

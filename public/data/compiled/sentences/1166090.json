@@ -1,0 +1,88 @@
+[
+  {
+    "id": "76909",
+    "original": "あたし、最初は女の子がいいな！ほら、一姫二太郎っていうじゃない。",
+    "en": [
+      {
+        "id": "326811",
+        "text": "I'd like to have a girl the first time. Look, they say 'First a girl, then a boy' don't they?"
+      }
+    ],
+    "indices": "私(あたし){あたし} 最初 は 女の子(おんなのこ) が いい(#2820690)[01] な ほら 一姫二太郎~ って 言う{いう} だ{じゃない}",
+    "vocabIds": [
+      "1166090",
+      "1344970",
+      "1293990"
+    ],
+    "matches": {
+      "1166090": [
+        {
+          "start": 18,
+          "length": 5,
+          "reading": "いちひめにたろう"
+        }
+      ],
+      "1293990": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "さいしょ"
+        }
+      ],
+      "1344970": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "おんなのこ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "137178",
+    "original": "第二子は男の子だって。これでめでたく一姫二太郎ってわけだね。",
+    "en": [
+      {
+        "id": "276058",
+        "text": "Your second child is a boy? Lucky you! Things are going according to the saying - Have a girl first and a boy next."
+      }
+    ],
+    "indices": "第二 子(こ)[01] は 男の子(おとこのこ) だ って 此れ[01]{これ} で(#2028980) 目出度い[01]{めでたく} 一姫二太郎 って 訳(わけ)[01]{わけ} だ ね(#2029080)[01]",
+    "vocabIds": [
+      "1166090",
+      "2864029",
+      "1419990",
+      "1420010"
+    ],
+    "matches": {
+      "1166090": [
+        {
+          "start": 18,
+          "length": 5,
+          "reading": "いちひめにたろう"
+        }
+      ],
+      "1419990": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "おとこのこ"
+        }
+      ],
+      "1420010": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "おとこのこ"
+        }
+      ],
+      "2864029": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "だいにし"
+        }
+      ]
+    }
+  }
+]

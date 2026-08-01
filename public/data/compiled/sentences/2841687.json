@@ -1,0 +1,88 @@
+[
+  {
+    "id": "211867",
+    "original": "その会合は早くても来週になるでしょう。",
+    "en": [
+      {
+        "id": "49144",
+        "text": "The meeting will be held next week at the earliest."
+      }
+    ],
+    "indices": "其の[01]{その} 会合[01] は 早くても~ 来週 になる[01] でしょう[01]",
+    "vocabIds": [
+      "2841687",
+      "1198530",
+      "1548010"
+    ],
+    "matches": {
+      "1198530": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "かいごう"
+        }
+      ],
+      "1548010": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "らいしゅう"
+        }
+      ],
+      "2841687": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "はやくても"
+        }
+      ]
+    }
+  },
+  {
+    "id": "211901",
+    "original": "その会は早くても月曜日まで開けない。",
+    "en": [
+      {
+        "id": "49179",
+        "text": "The meeting can't be held until Monday at the earliest."
+      }
+    ],
+    "indices": "其の[01]{その} 会(かい) は 早くても 月曜日 迄{まで} 開く(ひらく){開けない}",
+    "vocabIds": [
+      "2841687",
+      "1202450",
+      "1255890",
+      "1198160"
+    ],
+    "matches": {
+      "1198160": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "かい"
+        }
+      ],
+      "1202450": [
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "あけない"
+        }
+      ],
+      "1255890": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "げつようび"
+        }
+      ],
+      "2841687": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "はやくても"
+        }
+      ]
+    }
+  }
+]

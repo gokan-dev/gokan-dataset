@@ -1,0 +1,103 @@
+[
+  {
+    "id": "170922",
+    "original": "左肩の関節が痛みます。",
+    "en": [
+      {
+        "id": "243558",
+        "text": "The joint of my left shoulder aches."
+      }
+    ],
+    "indices": "左肩~ の 関節 が 痛む[01]{痛みます}",
+    "vocabIds": [
+      "1432710",
+      "2006750",
+      "1215960"
+    ],
+    "matches": {
+      "1215960": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かんせつ"
+        }
+      ],
+      "1432710": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "いたみます"
+        }
+      ],
+      "2006750": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ひだりかた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1929028",
+    "original": "私は左肩の関節が痛い。",
+    "en": [
+      {
+        "id": "2693924",
+        "text": "The joint in my left elbow hurts."
+      }
+    ],
+    "vocabIds": [
+      "2006750",
+      "1215960",
+      "1432680",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1215960": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "かんせつ"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1432680": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "いたい"
+        }
+      ],
+      "2006750": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ひだりかた"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  }
+]

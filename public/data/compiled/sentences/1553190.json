@@ -1,0 +1,425 @@
+[
+  {
+    "id": "78132",
+    "original": "旅行代理店の人は、旅行者用小切手を持っていってはどうかと提案した。",
+    "en": [
+      {
+        "id": "325586",
+        "text": "The travel agent suggested that we take some traveller's cheques with us."
+      }
+    ],
+    "indices": "旅行代理店 の 人(ひと) は 旅行者 用[02] 小切手 を 持っていく{持っていって} は 如何(どう){どう} か と 提案 為る(する){した}",
+    "vocabIds": [
+      "2110090",
+      "1315720",
+      "1553190",
+      "1436320",
+      "1580640"
+    ],
+    "matches": {
+      "1315720": [
+        {
+          "start": 17,
+          "length": 6,
+          "reading": "もっていって"
+        }
+      ],
+      "1436320": [
+        {
+          "start": 28,
+          "length": 2,
+          "reading": "ていあん"
+        }
+      ],
+      "1553190": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "りょこうだいりてん"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ],
+      "2110090": [
+        {
+          "start": 9,
+          "length": 7,
+          "reading": "りょこうしゃようこぎって"
+        }
+      ]
+    }
+  },
+  {
+    "id": "78133",
+    "original": "旅行代理店に問い合わせてみよう。",
+    "en": [
+      {
+        "id": "325585",
+        "text": "Let's ask a travel agent."
+      }
+    ],
+    "indices": "旅行代理店 に 問い合わせる{問い合わせて} 見る[05]{みよう}",
+    "vocabIds": [
+      "1535960",
+      "1553190"
+    ],
+    "matches": {
+      "1535960": [
+        {
+          "start": 6,
+          "length": 9,
+          "reading": "といあわせてみよう"
+        }
+      ],
+      "1553190": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "りょこうだいりてん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "152336",
+    "original": "私は旅行代理店の人とチケットの値段を交渉した。",
+    "en": [
+      {
+        "id": "262214",
+        "text": "I negotiated with the travel agent about the ticket price."
+      }
+    ],
+    "indices": "私(わたし)[01] は 旅行代理店 の 人(ひと) と チケット の 値段 を 交渉[01] 為る(する){した}",
+    "vocabIds": [
+      "1553190",
+      "1600160",
+      "1272110",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1580640"
+    ],
+    "matches": {
+      "1272110": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "こうしょう"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1553190": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "りょこうだいりてん"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ],
+      "1600160": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "ねだん"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "152337",
+    "original": "私は旅行代理店で働いています。",
+    "en": [
+      {
+        "id": "252381",
+        "text": "I work for a travel agency."
+      },
+      {
+        "id": "4753790",
+        "text": "I work in a travel agency."
+      },
+      {
+        "id": "7156430",
+        "text": "I work at a travel agency."
+      }
+    ],
+    "indices": "私(わたし)[01] は 旅行代理店 で(#2028980) 働く[01]{働いています}",
+    "vocabIds": [
+      "1451150",
+      "1553190",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1451150": [
+        {
+          "start": 8,
+          "length": 6,
+          "reading": "はたらいています"
+        }
+      ],
+      "1553190": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "りょこうだいりてん"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "190097",
+    "original": "一番近い旅行代理店はどこにありますか。",
+    "en": [
+      {
+        "id": "27253",
+        "text": "Where's the nearest travel agency?"
+      }
+    ],
+    "indices": "一番(いちばん)[01] 近い 旅行代理店~ は 何処{どこ} に 有る{あります} か",
+    "vocabIds": [
+      "1553190",
+      "1165970",
+      "1242130"
+    ],
+    "matches": {
+      "1165970": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いちばん"
+        }
+      ],
+      "1242130": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ちかい"
+        }
+      ],
+      "1553190": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "りょこうだいりてん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "995026",
+    "original": "一番近い旅行代理店はどこですか？",
+    "en": [
+      {
+        "id": "1310423",
+        "text": "Where is the closest travel agency?"
+      }
+    ],
+    "vocabIds": [
+      "1553190",
+      "1165970",
+      "1242130"
+    ],
+    "matches": {
+      "1165970": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いちばん"
+        }
+      ],
+      "1242130": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ちかい"
+        }
+      ],
+      "1553190": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "りょこうだいりてん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "995028",
+    "original": "一番近い旅行代理店ってどこにあります？",
+    "en": [
+      {
+        "id": "1310428",
+        "text": "Where is the closet travel agent?"
+      }
+    ],
+    "vocabIds": [
+      "1553190",
+      "1165970",
+      "1242130"
+    ],
+    "matches": {
+      "1165970": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いちばん"
+        }
+      ],
+      "1242130": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ちかい"
+        }
+      ],
+      "1553190": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "りょこうだいりてん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1140551",
+    "original": "旅行代理店の人はトラベラーズチェックを持っていくことを提案した。",
+    "en": [
+      {
+        "id": "325586",
+        "text": "The travel agent suggested that we take some traveller's cheques with us."
+      },
+      {
+        "id": "1474121",
+        "text": "The travel agent suggested that we take some traveler's checks with us."
+      }
+    ],
+    "vocabIds": [
+      "1553190",
+      "1315700",
+      "1436320",
+      "1580640"
+    ],
+    "matches": {
+      "1315700": [
+        {
+          "start": 19,
+          "length": 5,
+          "reading": "もっていく"
+        }
+      ],
+      "1436320": [
+        {
+          "start": 27,
+          "length": 2,
+          "reading": "ていあん"
+        }
+      ],
+      "1553190": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "りょこうだいりてん"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11273095",
+    "original": "旅行代理店が全部手配してくれたよ。",
+    "en": [
+      {
+        "id": "67136",
+        "text": "A travel agent arranged everything for our trip."
+      }
+    ],
+    "vocabIds": [
+      "1553190",
+      "1396130",
+      "1328260"
+    ],
+    "matches": {
+      "1328260": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "てはい"
+        }
+      ],
+      "1396130": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ぜんぶ"
+        }
+      ],
+      "1553190": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "りょこうだいりてん"
+        }
+      ]
+    }
+  }
+]

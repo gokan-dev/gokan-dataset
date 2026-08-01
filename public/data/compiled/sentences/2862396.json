@@ -1,0 +1,933 @@
+[
+  {
+    "id": "123005",
+    "original": "二郎は今いません。",
+    "en": [
+      {
+        "id": "280996",
+        "text": "Jiro is not in."
+      },
+      {
+        "id": "1236859",
+        "text": "Jiro is not here."
+      },
+      {
+        "id": "2784761",
+        "text": "Jiro isn't here now."
+      }
+    ],
+    "indices": "は 今(いま) 居る(いる){いません}",
+    "vocabIds": [
+      "2862396",
+      "2833296"
+    ],
+    "matches": {
+      "2833296": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "いまい"
+        }
+      ],
+      "2862396": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じろう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "138032",
+    "original": "太郎を除けば、次郎がいちばん背が高い。",
+    "en": [
+      {
+        "id": "275203",
+        "text": "Next to Taro, Jiro is the tallest boy."
+      },
+      {
+        "id": "1349850",
+        "text": "Except for Taro, Jiro is the tallest."
+      }
+    ],
+    "indices": "を 除く{除けば} が 一番(いちばん)[01]{いちばん} 背が高い",
+    "vocabIds": [
+      "1472660",
+      "1345640",
+      "2862858",
+      "2862396"
+    ],
+    "matches": {
+      "1345640": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "のぞけば"
+        }
+      ],
+      "1472660": [
+        {
+          "start": 14,
+          "length": 4,
+          "reading": "せがたかい"
+        }
+      ],
+      "2862396": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "じろう"
+        }
+      ],
+      "2862858": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "たろう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "150180",
+    "original": "次郎は列車に乗り遅れたようだ。",
+    "en": [
+      {
+        "id": "264377",
+        "text": "Jiro seems to have missed the train."
+      }
+    ],
+    "indices": "は 列車 に 乗り遅れる{乗り遅れた} 様だ{ようだ}",
+    "vocabIds": [
+      "1355000",
+      "2862396",
+      "1558370"
+    ],
+    "matches": {
+      "1355000": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "のりおくれた"
+        }
+      ],
+      "1558370": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "れっしゃ"
+        }
+      ],
+      "2862396": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じろう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "150181",
+    "original": "次郎は服のことに無頓着だ。",
+    "en": [
+      {
+        "id": "264376",
+        "text": "Jiro is indifferent about clothing."
+      }
+    ],
+    "indices": "は 服(ふく)[01] の 事(こと){こと} に 無頓着~ だ",
+    "vocabIds": [
+      "1530740",
+      "2862396",
+      "1500940"
+    ],
+    "matches": {
+      "1500940": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "ふく"
+        }
+      ],
+      "1530740": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "むとんじゃく"
+        }
+      ],
+      "2862396": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じろう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "150182",
+    "original": "次郎は服にさっとブラシをかけた。",
+    "en": [
+      {
+        "id": "264375",
+        "text": "Jiro gave his suit a quick brush."
+      }
+    ],
+    "indices": "は 服(ふく)[01] に 颯と[01]{さっと} ブラシ(#1611450) を 掛ける{かけた}",
+    "vocabIds": [
+      "2862396",
+      "1500940"
+    ],
+    "matches": {
+      "1500940": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "ふく"
+        }
+      ],
+      "2862396": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じろう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "150183",
+    "original": "次郎は富士山をスケッチした。",
+    "en": [
+      {
+        "id": "264374",
+        "text": "Jiro made a sketch of Mt. Fuji."
+      }
+    ],
+    "indices": "は 富士山 を スケッチ~ 為る(する){した}",
+    "vocabIds": [
+      "1496800",
+      "2862396"
+    ],
+    "matches": {
+      "1496800": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "ふじさん"
+        }
+      ],
+      "2862396": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じろう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "150184",
+    "original": "次郎は私にどの本を買ったらいいか教えてくれた。",
+    "en": [
+      {
+        "id": "264373",
+        "text": "Jiro advised me on which book to buy."
+      },
+      {
+        "id": "1349847",
+        "text": "Jiro told me which book I should buy."
+      }
+    ],
+    "indices": "は 私(わたし)[01] に 何の(どの){どの} 本(ほん)[01] を 買う[01]{買ったら} いい(#2820690)[01] か 教える{教えて} 呉れる{くれた}",
+    "vocabIds": [
+      "1236900",
+      "1473740",
+      "2862396",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1260670",
+      "1522150"
+    ],
+    "matches": {
+      "1236900": [
+        {
+          "start": 16,
+          "length": 6,
+          "reading": "おしえてくれた"
+        }
+      ],
+      "1260670": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "ほん"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1473740": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "かったら"
+        }
+      ],
+      "1522150": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "ほん"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2862396": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じろう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "150185",
+    "original": "次郎はまだニューヨークから帰っていない。",
+    "en": [
+      {
+        "id": "264372",
+        "text": "Jiro has not come back from New York yet."
+      }
+    ],
+    "indices": "は 未だ[02]{まだ} 紐育{ニューヨーク} から 帰る[01]{帰っていない}",
+    "vocabIds": [
+      "1221270",
+      "2862396"
+    ],
+    "matches": {
+      "1221270": [
+        {
+          "start": 13,
+          "length": 6,
+          "reading": "かえっていない"
+        }
+      ],
+      "2862396": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じろう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "150186",
+    "original": "次郎はそれ以外の行動をとることができなかった。",
+    "en": [
+      {
+        "id": "264371",
+        "text": "Jiro could not act otherwise."
+      }
+    ],
+    "indices": "は 其れ[01]{それ} 以外[01] の 行動 を 取る{とる} 事が出来る{ことができなかった}",
+    "vocabIds": [
+      "2779520",
+      "2862396",
+      "1155090"
+    ],
+    "matches": {
+      "1155090": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "いがい"
+        }
+      ],
+      "2779520": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "こうどうをとる"
+        }
+      ],
+      "2862396": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じろう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "150187",
+    "original": "次郎はコカ・コーラが飲みたいと思っている。",
+    "en": [
+      {
+        "id": "264370",
+        "text": "Jiro wants to drink Coke."
+      }
+    ],
+    "indices": "は コカコーラ{コカ・コーラ} が 飲む[01]{飲み} たい[01] と 思う{思っている}",
+    "vocabIds": [
+      "1589350",
+      "1169870",
+      "2862396"
+    ],
+    "matches": {
+      "1169870": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "のみたい"
+        }
+      ],
+      "1589350": [
+        {
+          "start": 15,
+          "length": 5,
+          "reading": "おもっている"
+        }
+      ],
+      "2862396": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じろう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "150188",
+    "original": "次郎はケンと仲良くするのは難しいと思っている。",
+    "en": [
+      {
+        "id": "264369",
+        "text": "Jiro finds it difficult to make friends with Ken."
+      }
+    ],
+    "indices": "は と 仲良く 為る(する){する} の は 難しい と 思う{思っている}",
+    "vocabIds": [
+      "1589350",
+      "1426090",
+      "1460850",
+      "2862396"
+    ],
+    "matches": {
+      "1426090": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "なかよく"
+        }
+      ],
+      "1460850": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "むずかしい"
+        }
+      ],
+      "1589350": [
+        {
+          "start": 17,
+          "length": 5,
+          "reading": "おもっている"
+        }
+      ],
+      "2862396": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じろう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "150189",
+    "original": "次郎は今日学校へ行く必要がない。",
+    "en": [
+      {
+        "id": "264368",
+        "text": "Jiro doesn't have to go to school today."
+      }
+    ],
+    "indices": "は 今日(きょう) 学校 へ 行く 必要[02] が[01] 無い{ない}",
+    "vocabIds": [
+      "2862396",
+      "1579110",
+      "1206730",
+      "1578850",
+      "1487660"
+    ],
+    "matches": {
+      "1206730": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "がっこう"
+        }
+      ],
+      "1487660": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "ひつよう"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "いく"
+        }
+      ],
+      "1579110": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "きょう"
+        }
+      ],
+      "2862396": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じろう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "150190",
+    "original": "次郎はオーストラリアのペンパルと文通している。",
+    "en": [
+      {
+        "id": "264367",
+        "text": "Jiro communicates with his pen pal in Australia."
+      }
+    ],
+    "indices": "は 濠太剌利{オーストラリア} の ペンパル と 文通 為る(する){している}",
+    "vocabIds": [
+      "2862396",
+      "1505550"
+    ],
+    "matches": {
+      "1505550": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "ぶんつう"
+        }
+      ],
+      "2862396": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じろう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "150191",
+    "original": "次郎ここに来なさい。",
+    "en": [
+      {
+        "id": "264366",
+        "text": "Come on, Jiro."
+      }
+    ],
+    "indices": "此処{ここ} に 来る(くる)[01]{来} 為さい{なさい}",
+    "vocabIds": [
+      "1547720",
+      "2862396"
+    ],
+    "matches": {
+      "1547720": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "きなさい"
+        }
+      ],
+      "2862396": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じろう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "163000",
+    "original": "私の弟は、二郎さんほど背が高くありません。",
+    "en": [
+      {
+        "id": "251513",
+        "text": "My brother is not as tall as Jiro."
+      }
+    ],
+    "indices": "私(わたし)[01]{私の} 弟[01] は さん 程{ほど} 背が高い{背が高く} 有る{ありません}",
+    "vocabIds": [
+      "2862396",
+      "1283190",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1581930",
+      "2147990"
+    ],
+    "matches": {
+      "1283190": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "たかく"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1581930": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "おとうと"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2147990": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "せ"
+        }
+      ],
+      "2862396": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "じろう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "168104",
+    "original": "私、赤川次郎の小説大好き。",
+    "en": [
+      {
+        "id": "246392",
+        "text": "I really like Jiro Akagawa's novels."
+      }
+    ],
+    "indices": "私(わたし)[01] 之(の)[01]{の} 小説 大好き",
+    "vocabIds": [
+      "1413660",
+      "2862396",
+      "1348430",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1348430": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "しょうせつ"
+        }
+      ],
+      "1413660": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "だいすき"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2862396": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "じろう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "168955",
+    "original": "次郎はパチンコでガッポリもうけて上機嫌だった。",
+    "en": [
+      {
+        "id": "245532",
+        "text": "Jiro was all smiles after he made a bundle at the pachinko parlor."
+      }
+    ],
+    "indices": "は パチンコ[01]~ で(#2028980) がっぽり{ガッポリ} 儲ける{もうけて} 上機嫌 だ{だった}",
+    "vocabIds": [
+      "1352860",
+      "2862396"
+    ],
+    "matches": {
+      "1352860": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "じょうきげん"
+        }
+      ],
+      "2862396": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じろう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "172565",
+    "original": "今まで人前で泣いたことのなかった二郎が、オンオンと泣き出した。",
+    "en": [
+      {
+        "id": "241910",
+        "text": "Jiro, who had never cried in front of anyone before, started bawling."
+      },
+      {
+        "id": "1349831",
+        "text": "Jiro, who had never cried in front of anyone before, started crying."
+      }
+    ],
+    "indices": "今まで 人前(ひとまえ) で(#2028980) 泣く{泣いた} 事(こと){こと} の 無い{なかった} が おんおん{オンオンと}~ 泣き出す{泣き出した}",
+    "vocabIds": [
+      "1229840",
+      "1587590",
+      "1368500",
+      "2862396"
+    ],
+    "matches": {
+      "1229840": [
+        {
+          "start": 25,
+          "length": 5,
+          "reading": "なきだした"
+        },
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "ないた"
+        }
+      ],
+      "1368500": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "ひとまえで"
+        }
+      ],
+      "1587590": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "いままで"
+        }
+      ],
+      "2862396": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "じろう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1292312",
+    "original": "赤川次郎が小説を４８０作以上書きました。",
+    "en": [
+      {
+        "id": "1292313",
+        "text": "Jiro Akagawa has written over 480 novels."
+      }
+    ],
+    "vocabIds": [
+      "1343950",
+      "2862396",
+      "1348430",
+      "1155120",
+      "1579470",
+      "1583090",
+      "1557630",
+      "1297240"
+    ],
+    "matches": {
+      "1155120": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "いじょう"
+        }
+      ],
+      "1297240": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "さく"
+        }
+      ],
+      "1343950": [
+        {
+          "start": 14,
+          "length": 5,
+          "reading": "かきました"
+        }
+      ],
+      "1348430": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "しょうせつ"
+        }
+      ],
+      "1557630": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "ぜろ"
+        }
+      ],
+      "1579470": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "よん"
+        }
+      ],
+      "1583090": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "はち"
+        }
+      ],
+      "2862396": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "じろう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3475206",
+    "original": "兄は次郎ほど背が高くはない。",
+    "en": [
+      {
+        "id": "251513",
+        "text": "My brother is not as tall as Jiro."
+      }
+    ],
+    "vocabIds": [
+      "2862396",
+      "1283190",
+      "1249900",
+      "2147990"
+    ],
+    "matches": {
+      "1249900": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "あに"
+        }
+      ],
+      "1283190": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "たかく"
+        }
+      ],
+      "2147990": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "せ"
+        }
+      ],
+      "2862396": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "じろう"
+        }
+      ]
+    }
+  }
+]

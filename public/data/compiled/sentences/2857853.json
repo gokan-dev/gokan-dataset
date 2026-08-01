@@ -1,0 +1,80 @@
+[
+  {
+    "id": "187869",
+    "original": "何ヶ月か彼女と交際している。",
+    "en": [
+      {
+        "id": "25008",
+        "text": "I've been going out with her for months."
+      }
+    ],
+    "indices": "何 ヶ月 か 彼女 と 交際 為る(する){している}",
+    "vocabIds": [
+      "2857853",
+      "1483150",
+      "1271990"
+    ],
+    "matches": {
+      "1271990": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "こうさい"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "2857853": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "なんかげつか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "222876",
+    "original": "この何ヶ月かはひどい打撃を受けました。",
+    "en": [
+      {
+        "id": "60207",
+        "text": "I took such a hammering over recent months."
+      }
+    ],
+    "indices": "此の{この} 何ヶ月か~ は 酷い(ひどい){ひどい} 打撃[01]~ を 受ける{受けました}",
+    "vocabIds": [
+      "1329590",
+      "2857853",
+      "1408870"
+    ],
+    "matches": {
+      "1329590": [
+        {
+          "start": 13,
+          "length": 5,
+          "reading": "うけました"
+        }
+      ],
+      "1408870": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "だげき"
+        }
+      ],
+      "2857853": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "なんかげつか"
+        }
+      ]
+    }
+  }
+]

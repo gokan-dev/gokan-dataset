@@ -1,0 +1,283 @@
+[
+  {
+    "id": "201338",
+    "original": "どうぞここにあなたの住所、氏名、それに電話番号を書いて下さい。",
+    "en": [
+      {
+        "id": "38547",
+        "text": "Please write down your name, address, and phone number here."
+      }
+    ],
+    "indices": "どうぞ[01] 此処[01]{ここ} に 貴方(あなた)[01]{あなた} の 住所 氏名 其れ[01]{それ} に 電話 番号 を 書く{書いて} 下さい",
+    "vocabIds": [
+      "1343950",
+      "1443940",
+      "1334080",
+      "1311060"
+    ],
+    "matches": {
+      "1311060": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "しめい"
+        }
+      ],
+      "1334080": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "じゅうしょ"
+        }
+      ],
+      "1343950": [
+        {
+          "start": 24,
+          "length": 6,
+          "reading": "かいてください"
+        }
+      ],
+      "1443940": [
+        {
+          "start": 19,
+          "length": 4,
+          "reading": "でんわばんごう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "219970",
+    "original": "この封筒に住所・氏名を書きなさい。",
+    "en": [
+      {
+        "id": "57290",
+        "text": "Write your name and address on this envelope."
+      }
+    ],
+    "indices": "此の{この} 封筒 に 住所 氏名~ を 書く{書き} 為さい{なさい}",
+    "vocabIds": [
+      "1343950",
+      "1499690",
+      "1334080",
+      "1311060"
+    ],
+    "matches": {
+      "1311060": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "しめい"
+        }
+      ],
+      "1334080": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "じゅうしょ"
+        }
+      ],
+      "1343950": [
+        {
+          "start": 11,
+          "length": 5,
+          "reading": "かきなさい"
+        }
+      ],
+      "1499690": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ふうとう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "233253",
+    "original": "あなたの氏名は何ですか。",
+    "en": [
+      {
+        "id": "70623",
+        "text": "What is your name?"
+      },
+      {
+        "id": "408293",
+        "text": "What's your name?"
+      }
+    ],
+    "indices": "貴方(あなた)[01]{あなた} の 氏名 は 何(なに)[01] ですか",
+    "vocabIds": [
+      "1311060",
+      "1577100"
+    ],
+    "matches": {
+      "1311060": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "しめい"
+        }
+      ],
+      "1577100": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "なに"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8866543",
+    "original": "こちらに氏名・住所・電話番号をご記入ください。",
+    "en": [
+      {
+        "id": "38547",
+        "text": "Please write down your name, address, and phone number here."
+      }
+    ],
+    "vocabIds": [
+      "1443940",
+      "1311060",
+      "1334080",
+      "1223330"
+    ],
+    "matches": {
+      "1223330": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "きにゅう"
+        }
+      ],
+      "1311060": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "しめい"
+        }
+      ],
+      "1334080": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "じゅうしょ"
+        }
+      ],
+      "1443940": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "でんわばんごう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9467007",
+    "original": "氏名は五十音順です。",
+    "en": [
+      {
+        "id": "10207171",
+        "text": "The names are in Japanese alphabetical order."
+      }
+    ],
+    "vocabIds": [
+      "1268310",
+      "1311060"
+    ],
+    "matches": {
+      "1268310": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "ごじゅうおんじゅん"
+        }
+      ],
+      "1311060": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しめい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9467010",
+    "original": "氏名はあいうえお順です。",
+    "en": [
+      {
+        "id": "10207171",
+        "text": "The names are in Japanese alphabetical order."
+      },
+      {
+        "id": "10210765",
+        "text": "The names are in Japanese syllabary order."
+      },
+      {
+        "id": "10210768",
+        "text": "The names are in Japanese aiueo order."
+      }
+    ],
+    "vocabIds": [
+      "2029800",
+      "1311060"
+    ],
+    "matches": {
+      "1311060": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しめい"
+        }
+      ],
+      "2029800": [
+        {
+          "start": 3,
+          "length": 6,
+          "reading": "あいうえおじゅん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11336719",
+    "original": "氏名と住所をご記入ください。",
+    "en": [
+      {
+        "id": "2890396",
+        "text": "Put down your name and address."
+      }
+    ],
+    "vocabIds": [
+      "1311060",
+      "1334080",
+      "1223330"
+    ],
+    "matches": {
+      "1223330": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "きにゅう"
+        }
+      ],
+      "1311060": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しめい"
+        }
+      ],
+      "1334080": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "じゅうしょ"
+        }
+      ]
+    }
+  }
+]

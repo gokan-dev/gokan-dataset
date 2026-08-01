@@ -1,0 +1,87 @@
+[
+  {
+    "id": "190825",
+    "original": "医者は紺のスーツの上に白衣を着ていた。",
+    "en": [
+      {
+        "id": "27985",
+        "text": "The doctor was wearing a white coat over a blue suit."
+      }
+    ],
+    "indices": "医者 は 紺~ の スーツ の 上(うえ) に 白衣[02] を 着る[01]{着ていた}",
+    "vocabIds": [
+      "1423000",
+      "1159980",
+      "1474990",
+      "1290590",
+      "1352130"
+    ],
+    "matches": {
+      "1159980": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いしゃ"
+        }
+      ],
+      "1290590": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "こん"
+        }
+      ],
+      "1352130": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "うえ"
+        }
+      ],
+      "1423000": [
+        {
+          "start": 14,
+          "length": 4,
+          "reading": "きていた"
+        }
+      ],
+      "1474990": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "はくい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9286210",
+    "original": "メアリーは紺のワンピースを着ていた。",
+    "en": [
+      {
+        "id": "9286202",
+        "text": "Mary was wearing a navy blue dress."
+      }
+    ],
+    "vocabIds": [
+      "1423000",
+      "1290590"
+    ],
+    "matches": {
+      "1290590": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "こん"
+        }
+      ],
+      "1423000": [
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "きていた"
+        }
+      ]
+    }
+  }
+]

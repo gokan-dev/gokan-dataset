@@ -1,0 +1,83 @@
+[
+  {
+    "id": "234686",
+    "original": "あいつ、上司に胡麻を擂ってやがる。",
+    "en": [
+      {
+        "id": "72063",
+        "text": "He is buttering up to his boss."
+      },
+      {
+        "id": "1345922",
+        "text": "He's trying to get on his boss's good side."
+      }
+    ],
+    "indices": "彼奴(あいつ)[01]{あいつ} 上司 に 胡麻をする{胡麻を擂って}~ やがる~",
+    "vocabIds": [
+      "1595910",
+      "1353260",
+      "1267560"
+    ],
+    "matches": {
+      "1267560": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ごま"
+        }
+      ],
+      "1353260": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "じょうし"
+        }
+      ],
+      "1595910": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "すって"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8621593",
+    "original": "マヨネーズと胡麻ペーストの相性は抜群だ。",
+    "en": [
+      {
+        "id": "11560760",
+        "text": "Mayonnaise and sesame paste go really well together."
+      }
+    ],
+    "vocabIds": [
+      "1267560",
+      "1586070",
+      "1478250"
+    ],
+    "matches": {
+      "1267560": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ごま"
+        }
+      ],
+      "1478250": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "ばつぐん"
+        }
+      ],
+      "1586070": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "あいしょう"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,197 @@
+[
+  {
+    "id": "76823",
+    "original": "おはよう。春樹兄さん。寝癖ついてるよ。",
+    "en": [
+      {
+        "id": "326897",
+        "text": "Morning, Haruki. You've got bed hair."
+      },
+      {
+        "id": "525232",
+        "text": "Good morning, Haruki. Your hair got messed up while you were sleeping."
+      },
+      {
+        "id": "525233",
+        "text": "Good morning, Haruki. Your hair looks like you just got out of bed."
+      }
+    ],
+    "indices": "お早う{おはよう} 兄さん 寝癖[01] 付く(つく){ついてる} よ[01]",
+    "vocabIds": [
+      "1249910",
+      "1793060"
+    ],
+    "matches": {
+      "1249910": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "にいさん"
+        }
+      ],
+      "1793060": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "ねぐせ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "145626",
+    "original": "寝癖がついちゃった。",
+    "en": [
+      {
+        "id": "268936",
+        "text": "My hair got kinky."
+      }
+    ],
+    "indices": "寝癖[01]~ が 付く(つく){つい} じゃう{ちゃった}",
+    "vocabIds": [
+      "1793060"
+    ],
+    "matches": {
+      "1793060": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ねぐせ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9741219",
+    "original": "髪に寝癖がついてとれないよ。",
+    "en": [
+      {
+        "id": "10220144",
+        "text": "I'm not able to remove the tangles in my hair."
+      },
+      {
+        "id": "10220147",
+        "text": "I can't untangle my hair."
+      },
+      {
+        "id": "10220148",
+        "text": "I can't get the tangles out of my hair."
+      },
+      {
+        "id": "10220157",
+        "text": "I can't get rid of my bed head hair."
+      }
+    ],
+    "vocabIds": [
+      "1793060",
+      "1477950"
+    ],
+    "matches": {
+      "1477950": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かみ"
+        }
+      ],
+      "1793060": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ねぐせ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10623624",
+    "original": "「母さん、出かけてくる」「どこ行くの？」「大学？」「今、春休みだよね？何しに行くの？」「サークル？」「そんなおしゃれして？」「いいじゃんかぁ、どこでも」「いいけど。後ろ、寝癖ついてるわよ」「まじかぁ」",
+    "en": [
+      {
+        "id": "10784158",
+        "text": "\"Mum, I'm going out.\" \"Where to?\" \"University?\" \"Isn't it spring break now? What are you going there for?\" \"A club?\" \"Looking that smart?\" \"It's all right isn't it? It shouldn't matter where I go.\" \"Fine, but you've got bed hair at the back.\" \"Seriously?\""
+      }
+    ],
+    "vocabIds": [
+      "1598550",
+      "1609470",
+      "1341080",
+      "1578850",
+      "1413240",
+      "1269410",
+      "1793060",
+      "1288850",
+      "1577100"
+    ],
+    "matches": {
+      "1269410": [
+        {
+          "start": 82,
+          "length": 2,
+          "reading": "うしろ"
+        }
+      ],
+      "1288850": [
+        {
+          "start": 26,
+          "length": 1,
+          "reading": "いま"
+        }
+      ],
+      "1341080": [
+        {
+          "start": 28,
+          "length": 3,
+          "reading": "はるやすみ"
+        }
+      ],
+      "1413240": [
+        {
+          "start": 21,
+          "length": 2,
+          "reading": "だいがく"
+        }
+      ],
+      "1577100": [
+        {
+          "start": 35,
+          "length": 1,
+          "reading": "なに"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "いく"
+        },
+        {
+          "start": 38,
+          "length": 2,
+          "reading": "いく"
+        }
+      ],
+      "1598550": [
+        {
+          "start": 5,
+          "length": 6,
+          "reading": "でかけてくる"
+        }
+      ],
+      "1609470": [
+        {
+          "start": 1,
+          "length": 3,
+          "reading": "かあさん"
+        }
+      ],
+      "1793060": [
+        {
+          "start": 85,
+          "length": 2,
+          "reading": "ねぐせ"
+        }
+      ]
+    }
+  }
+]

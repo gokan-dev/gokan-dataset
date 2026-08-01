@@ -1,0 +1,123 @@
+{
+  "id": "1565750",
+  "writtenForm": {
+    "kanji": "埃",
+    "alternatives": [],
+    "containedKanji": [
+      "埃"
+    ]
+  },
+  "reading": {
+    "primary": "ほこり",
+    "alternatives": [
+      "ホコリ",
+      "あい"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 5566,
+    "kanaRank": 16381
+  },
+  "jlptLevel": 3,
+  "progression": {
+    "kklcStep": 99999
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "dust"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "one ten-billionth"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "あい"
+      ]
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": true,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "abbr"
+        ]
+      },
+      "glosses": [
+        "Egypt"
+      ],
+      "related": {
+        "compounds": [
+          "埃及"
+        ]
+      },
+      "appliesToReadings": [
+        "あい"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": true
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1565750",
+      "isBase": true,
+      "originalPrimaryReading": "ほこり",
+      "originalGlosses": [
+        "dust"
+      ]
+    },
+    {
+      "id": "2248500",
+      "isBase": false,
+      "originalPrimaryReading": "あい",
+      "originalGlosses": [
+        "one ten-billionth"
+      ]
+    }
+  ],
+  "parents": [
+    "1754510",
+    "2103360",
+    "1445620"
+  ]
+}

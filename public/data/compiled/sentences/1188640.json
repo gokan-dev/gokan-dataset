@@ -1,0 +1,142 @@
+[
+  {
+    "id": "122036",
+    "original": "妊娠何か月ですか。",
+    "en": [
+      {
+        "id": "281967",
+        "text": "How far along are you?"
+      },
+      {
+        "id": "451422",
+        "text": "How far gone are you?"
+      },
+      {
+        "id": "538064",
+        "text": "How long have you been pregnant?"
+      },
+      {
+        "id": "538065",
+        "text": "How many months pregnant are you?"
+      },
+      {
+        "id": "538066",
+        "text": "How many months have you been pregnant?"
+      }
+    ],
+    "indices": "妊娠 何か月~ ですか",
+    "vocabIds": [
+      "1188640",
+      "1467350"
+    ],
+    "matches": {
+      "1188640": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "なんかげつ"
+        }
+      ],
+      "1467350": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "にんしん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "187868",
+    "original": "何ヶ月もの間、彼はほとんど何もしなかった。",
+    "en": [
+      {
+        "id": "25007",
+        "text": "For months, he did almost nothing."
+      }
+    ],
+    "indices": "何 ヶ月 も の 間(あいだ) 彼(かれ)[01] は 殆ど{ほとんど} 何も[01] 為る(する){しなかった}",
+    "vocabIds": [
+      "1188640",
+      "1188490",
+      "1215230",
+      "1630250",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1188490": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "なにも"
+        }
+      ],
+      "1188640": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "なんかげつ"
+        }
+      ],
+      "1215230": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "かん"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1630250": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "かん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2055123",
+    "original": "トムを何カ月も見ていない。",
+    "en": [
+      {
+        "id": "1887390",
+        "text": "I haven't seen Tom in months."
+      }
+    ],
+    "vocabIds": [
+      "1259290",
+      "1188640"
+    ],
+    "matches": {
+      "1188640": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "なんかげつ"
+        }
+      ],
+      "1259290": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "みていない"
+        }
+      ]
+    }
+  }
+]

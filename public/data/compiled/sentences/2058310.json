@@ -1,0 +1,65 @@
+[
+  {
+    "id": "75327",
+    "original": "我々ACME Ltd.としては、全力を持って敵対的買収に対抗するものと、明言しておこう。",
+    "en": [
+      {
+        "id": "328392",
+        "text": "We, ACME Ltd., hereby announce that we will resist with all our strength this hostile takeover."
+      }
+    ],
+    "indices": "我々 としては 全力 を[01] 持つ{持って} 敵対的買収~ に 対抗 為る(する){する} 物(もの){もの} と 明言 為る(する){して} 置く[09]{おこう}",
+    "vocabIds": [
+      "2058310",
+      "1315720",
+      "1607050",
+      "1396390",
+      "1410020",
+      "1532430"
+    ],
+    "matches": {
+      "1315720": [
+        {
+          "start": 19,
+          "length": 3,
+          "reading": "もって"
+        }
+      ],
+      "1396390": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "ぜんりょく"
+        }
+      ],
+      "1410020": [
+        {
+          "start": 28,
+          "length": 2,
+          "reading": "たいこう"
+        }
+      ],
+      "1532430": [
+        {
+          "start": 36,
+          "length": 2,
+          "reading": "めいげん"
+        }
+      ],
+      "1607050": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "われわれ"
+        }
+      ],
+      "2058310": [
+        {
+          "start": 22,
+          "length": 5,
+          "reading": "てきたいてきばいしゅう"
+        }
+      ]
+    }
+  }
+]

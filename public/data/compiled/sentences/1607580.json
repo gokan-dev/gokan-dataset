@@ -1,0 +1,79 @@
+[
+  {
+    "id": "184482",
+    "original": "学校では学園音楽祭の準備をしています。",
+    "en": [
+      {
+        "id": "21610",
+        "text": "My school is getting ready for the campus music festival."
+      }
+    ],
+    "indices": "学校 で(#2028980) は 学園 音楽祭~ の 準備 を 為る(する){しています}",
+    "vocabIds": [
+      "1607580",
+      "1206730",
+      "1206570",
+      "1341670"
+    ],
+    "matches": {
+      "1206570": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "がくえん"
+        }
+      ],
+      "1206730": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "がっこう"
+        }
+      ],
+      "1341670": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "じゅんび"
+        }
+      ],
+      "1607580": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "おんがくさい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8657741",
+    "original": "トムは音楽祭に行った。",
+    "en": [
+      {
+        "id": "7849998",
+        "text": "Tom went to the music festival."
+      }
+    ],
+    "vocabIds": [
+      "1607580",
+      "1578850"
+    ],
+    "matches": {
+      "1578850": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "いった"
+        }
+      ],
+      "1607580": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "おんがくさい"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,111 @@
+[
+  {
+    "id": "74509",
+    "original": "雨くらいで電話が混線してたら日本なんて大変ですよね。",
+    "en": [
+      {
+        "id": "329210",
+        "text": "If rain was enough to get phone-lines crossed then Japan would be in a right mess, wouldn't it?"
+      }
+    ],
+    "indices": "雨 くらい で(#2028980) 電話 が 混線~ 為る(する){してたら} 日本 なんて 大変 です よ ね",
+    "vocabIds": [
+      "1443840",
+      "1669650",
+      "1582710",
+      "1415000",
+      "1171900"
+    ],
+    "matches": {
+      "1171900": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "あめ"
+        }
+      ],
+      "1415000": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "たいへん"
+        }
+      ],
+      "1443840": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "でんわ"
+        }
+      ],
+      "1582710": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "にっぽん"
+        }
+      ],
+      "1669650": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "こんせん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "124746",
+    "original": "電話が混線している。",
+    "en": [
+      {
+        "id": "243513",
+        "text": "The lines are crossed."
+      }
+    ],
+    "indices": "電話 が 混線 為る(する){している}",
+    "vocabIds": [
+      "1443840",
+      "1669650"
+    ],
+    "matches": {
+      "1443840": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "でんわ"
+        }
+      ],
+      "1669650": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "こんせん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "170967",
+    "original": "混線しています。",
+    "en": [
+      {
+        "id": "243513",
+        "text": "The lines are crossed."
+      }
+    ],
+    "indices": "混線 為る(する){しています}",
+    "vocabIds": [
+      "1669650"
+    ],
+    "matches": {
+      "1669650": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こんせん"
+        }
+      ]
+    }
+  }
+]

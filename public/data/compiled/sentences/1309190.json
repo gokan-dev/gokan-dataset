@@ -1,0 +1,107 @@
+[
+  {
+    "id": "205247",
+    "original": "それは君の思い過ごしだよ。",
+    "en": [
+      {
+        "id": "42489",
+        "text": "It is just your imagination."
+      }
+    ],
+    "indices": "其れ[01]{それ} は 君(きみ)[01]{君の} 思い過ごす{思い過ごし}~ だ よ[01]",
+    "vocabIds": [
+      "1309190",
+      "1247250"
+    ],
+    "matches": {
+      "1247250": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "きみ"
+        }
+      ],
+      "1309190": [
+        {
+          "start": 5,
+          "length": 6,
+          "reading": "おもいすごしだ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10104858",
+    "original": "思い過ごしだよ。",
+    "en": [
+      {
+        "id": "1890718",
+        "text": "You're imagining things."
+      }
+    ],
+    "vocabIds": [
+      "1309190"
+    ],
+    "matches": {
+      "1309190": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "おもいすごしだ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10104860",
+    "original": "トム、思い過ごしよ。",
+    "en": [
+      {
+        "id": "2821360",
+        "text": "You're imagining things, Tom."
+      }
+    ],
+    "vocabIds": [
+      "1309190"
+    ],
+    "matches": {
+      "1309190": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "おもいすごし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10192088",
+    "original": "それは、思い過ごしだよ。",
+    "en": [
+      {
+        "id": "10221858",
+        "text": "You're overthinking it."
+      },
+      {
+        "id": "2535041",
+        "text": "You're thinking too much."
+      },
+      {
+        "id": "240995",
+        "text": "You think too much."
+      }
+    ],
+    "vocabIds": [
+      "1309190"
+    ],
+    "matches": {
+      "1309190": [
+        {
+          "start": 4,
+          "length": 6,
+          "reading": "おもいすごしだ"
+        }
+      ]
+    }
+  }
+]

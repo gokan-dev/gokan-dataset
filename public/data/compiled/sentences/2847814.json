@@ -1,0 +1,41 @@
+[
+  {
+    "id": "187899",
+    "original": "何か飛行機酔いの薬をください。",
+    "en": [
+      {
+        "id": "25038",
+        "text": "Please bring me some medicine for airsickness."
+      }
+    ],
+    "indices": "何か 飛行機 酔い の 薬(くすり)[01] を 下さい[01]{ください}",
+    "vocabIds": [
+      "2847814",
+      "1188270",
+      "1538160"
+    ],
+    "matches": {
+      "1188270": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "なにか"
+        }
+      ],
+      "1538160": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "くすり"
+        }
+      ],
+      "2847814": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "ひこうきよい"
+        }
+      ]
+    }
+  }
+]

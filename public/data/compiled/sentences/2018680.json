@@ -1,0 +1,237 @@
+[
+  {
+    "id": "123479",
+    "original": "特にお好みの色とかおありですか。",
+    "en": [
+      {
+        "id": "280518",
+        "text": "Is there any particular color that you are interested in?"
+      }
+    ],
+    "indices": "特に 御(お){お} 好み(このみ) の 色(いろ)[01] と 顔(かお){かお} 有る{あり} ですか",
+    "vocabIds": [
+      "2018680",
+      "1454670",
+      "1357600"
+    ],
+    "matches": {
+      "1357600": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "いろ"
+        }
+      ],
+      "1454670": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とくに"
+        }
+      ],
+      "2018680": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "おこのみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "182305",
+    "original": "牛肉と小羊の肉のうちどちらがお好みですか。",
+    "en": [
+      {
+        "id": "19484",
+        "text": "Have you got any preference between beef and lamb?"
+      },
+      {
+        "id": "1256698",
+        "text": "Do you have any preference between beef and lamb?"
+      }
+    ],
+    "indices": "牛肉 と 子羊{小羊} の 肉(にく)[02] の 内(うち){うち} 何方(どちら){どちら} が 御(お){お} 好み(このみ) ですか",
+    "vocabIds": [
+      "2018680",
+      "1231580",
+      "1593390",
+      "1463520"
+    ],
+    "matches": {
+      "1231580": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ぎゅうにく"
+        }
+      ],
+      "1463520": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "にく"
+        }
+      ],
+      "1593390": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "しょうひつじ"
+        }
+      ],
+      "2018680": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "おこのみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "200389",
+    "original": "どのスカートがお好みですか。",
+    "en": [
+      {
+        "id": "37590",
+        "text": "Which skirt do you like?"
+      }
+    ],
+    "indices": "何の(どの){どの} スカート が 御(お){お} 好み(このみ) ですか",
+    "vocabIds": [
+      "2018680"
+    ],
+    "matches": {
+      "2018680": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "おこのみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "224922",
+    "original": "コーヒーのお好みは。",
+    "en": [
+      {
+        "id": "62257",
+        "text": "How do you take your coffee?"
+      }
+    ],
+    "indices": "珈琲{コーヒー} の 御(お){お} 好み(このみ) は",
+    "vocabIds": [
+      "2018680"
+    ],
+    "matches": {
+      "2018680": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "おこのみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "227149",
+    "original": "お好みに応じて塩とこしょうを加えてください。",
+    "en": [
+      {
+        "id": "64499",
+        "text": "Add salt and pepper to taste."
+      }
+    ],
+    "indices": "御(お){お} 好み(このみ) に応じて 塩 と 胡椒{こしょう} を 加える{加えて} 下さい{ください}",
+    "vocabIds": [
+      "1189960",
+      "1009700",
+      "2018680",
+      "1576630"
+    ],
+    "matches": {
+      "1009700": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "におうじて"
+        }
+      ],
+      "1189960": [
+        {
+          "start": 14,
+          "length": 7,
+          "reading": "くわえてください"
+        }
+      ],
+      "1576630": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "しお"
+        }
+      ],
+      "2018680": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "おこのみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10801974",
+    "original": "ワインはお好みじゃないですか？",
+    "en": [
+      {
+        "id": "7745477",
+        "text": "Don't you like wine?"
+      }
+    ],
+    "vocabIds": [
+      "2018680"
+    ],
+    "matches": {
+      "2018680": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "おこのみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10880227",
+    "original": "こういう色がお好みですか？",
+    "en": [
+      {
+        "id": "6283001",
+        "text": "Do you like these colors?"
+      }
+    ],
+    "vocabIds": [
+      "2018680",
+      "1357600"
+    ],
+    "matches": {
+      "1357600": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "いろ"
+        }
+      ],
+      "2018680": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "おこのみ"
+        }
+      ]
+    }
+  }
+]

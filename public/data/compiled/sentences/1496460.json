@@ -1,0 +1,138 @@
+[
+  {
+    "id": "219109",
+    "original": "コピーするページに付箋をつけておいてください。",
+    "en": [
+      {
+        "id": "56425",
+        "text": "Put a tag on the pages you want copied."
+      }
+    ],
+    "indices": "コピー[01] 為る(する){する} 頁(ページ)[01]{ページ} に 付箋~ を 付ける{つけて} 置く{おいて} 下さい{ください}",
+    "vocabIds": [
+      "1496460"
+    ],
+    "matches": {
+      "1496460": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "ふせん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "4246247",
+    "original": "付箋貼りすぎてもはや付箋の意味ない気がしてきた。",
+    "en": [
+      {
+        "id": "4275792",
+        "text": "Sticking labels on everything just makes the whole labelling thing feel pointless now."
+      }
+    ],
+    "vocabIds": [
+      "1427900",
+      "2772850",
+      "1496460",
+      "1221520"
+    ],
+    "matches": {
+      "1221520": [
+        {
+          "start": 17,
+          "length": 1,
+          "reading": "き"
+        }
+      ],
+      "1427900": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "はりすぎて"
+        }
+      ],
+      "1496460": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ふせん"
+        },
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "ふせん"
+        }
+      ],
+      "2772850": [
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "いみない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12135714",
+    "original": "修正が必要な箇所には、付箋を貼っておいてください。",
+    "en": [
+      {
+        "id": "13219485",
+        "text": "Please place a sticky note at any point that needs correction."
+      },
+      {
+        "id": "13569926",
+        "text": "Please put sticky notes on any parts that need revision."
+      },
+      {
+        "id": "13569929",
+        "text": "Please put a sticky note on any part that needs changed."
+      }
+    ],
+    "vocabIds": [
+      "1427900",
+      "1332130",
+      "1487660",
+      "1590250",
+      "1496460"
+    ],
+    "matches": {
+      "1332130": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しゅうせい"
+        }
+      ],
+      "1427900": [
+        {
+          "start": 14,
+          "length": 10,
+          "reading": "はっておいてください"
+        }
+      ],
+      "1487660": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ひつよう"
+        }
+      ],
+      "1496460": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "ふせん"
+        }
+      ],
+      "1590250": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "かしょ"
+        }
+      ]
+    }
+  }
+]

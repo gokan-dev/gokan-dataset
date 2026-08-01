@@ -1,0 +1,101 @@
+[
+  {
+    "id": "141173",
+    "original": "船で行く方がよかったのに。",
+    "en": [
+      {
+        "id": "273399",
+        "text": "You had better have gone by ship."
+      }
+    ],
+    "indices": "船(ふね)[01] で(#2028980) 行く 方が良い{方がよかった} のに",
+    "vocabIds": [
+      "2771560",
+      "1602800"
+    ],
+    "matches": {
+      "1602800": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ふね"
+        }
+      ],
+      "2771560": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "いくほう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9665616",
+    "original": "一人で行く方が好きです。",
+    "en": [
+      {
+        "id": "2208393",
+        "text": "I prefer to go alone."
+      }
+    ],
+    "vocabIds": [
+      "1163700",
+      "2771560",
+      "1277450"
+    ],
+    "matches": {
+      "1163700": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "いちにんで"
+        }
+      ],
+      "1277450": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "すき"
+        }
+      ],
+      "2771560": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "いくほう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9741078",
+    "original": "バスで行く方が安いよ。",
+    "en": [
+      {
+        "id": "35382",
+        "text": "It is cheaper to go by bus."
+      }
+    ],
+    "vocabIds": [
+      "2771560",
+      "1153670"
+    ],
+    "matches": {
+      "1153670": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "やすい"
+        }
+      ],
+      "2771560": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "いくほう"
+        }
+      ]
+    }
+  }
+]

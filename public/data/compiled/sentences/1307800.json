@@ -1,0 +1,80 @@
+[
+  {
+    "id": "85529",
+    "original": "美土里は時々子音が落ちる。",
+    "en": [
+      {
+        "id": "318183",
+        "text": "Midori sometimes drops consonants."
+      }
+    ],
+    "indices": "は 時々 子音~ が 落ちる[07]",
+    "vocabIds": [
+      "1548550",
+      "1598680",
+      "1307800"
+    ],
+    "matches": {
+      "1307800": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "しいん"
+        }
+      ],
+      "1548550": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "おちる"
+        }
+      ],
+      "1598680": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ときどき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "224068",
+    "original": "この２つの子音は相補分布をなしていそうである。",
+    "en": [
+      {
+        "id": "61404",
+        "text": "It is likely that these two consonants are in complementary distribution."
+      }
+    ],
+    "indices": "此の{この} 二つ{２つ} の 子音 は 相補~ 分布 を 成す[02]{なしてい} 然う[01]{そう} である",
+    "vocabIds": [
+      "2449740",
+      "1461160",
+      "1307800"
+    ],
+    "matches": {
+      "1307800": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "しいん"
+        }
+      ],
+      "1461160": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ふたつ"
+        }
+      ],
+      "2449740": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "そうほぶんぷ"
+        }
+      ]
+    }
+  }
+]

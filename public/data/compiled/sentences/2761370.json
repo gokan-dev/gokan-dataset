@@ -1,0 +1,204 @@
+[
+  {
+    "id": "137261",
+    "original": "大変遺憾ながら彼女が亡くなったことをお知らせします。",
+    "en": [
+      {
+        "id": "275975",
+        "text": "I am very sorry to inform you that she died."
+      }
+    ],
+    "indices": "大変 遺憾 乍ら[02]{ながら} 彼女 が 亡くなる{亡くなった} 事(こと){こと} を お知らせ 為る(する){します}",
+    "vocabIds": [
+      "2761370",
+      "1518540",
+      "1002420",
+      "1415000",
+      "1483150"
+    ],
+    "matches": {
+      "1002420": [
+        {
+          "start": 18,
+          "length": 4,
+          "reading": "おしらせ"
+        }
+      ],
+      "1415000": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "たいへん"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1518540": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "なくなった"
+        }
+      ],
+      "2761370": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "いかんながら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "190965",
+    "original": "遺憾ながらサービスはあまりよくない。",
+    "en": [
+      {
+        "id": "28125",
+        "text": "I'm sorry to say, but the service isn't very good."
+      }
+    ],
+    "indices": "遺憾 乍ら[02]{ながら} サービス[01] は 余り[02]{あまり} 良い{よくない}",
+    "vocabIds": [
+      "2761370"
+    ],
+    "matches": {
+      "2761370": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "いかんながら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "190966",
+    "original": "遺憾ながら、２月２７日のお約束を守ることが出来ません。",
+    "en": [
+      {
+        "id": "28126",
+        "text": "I regret to inform you that I will be unable to keep our appointment for February 27."
+      }
+    ],
+    "indices": "遺憾 乍ら[02]{ながら} 二月(にがつ){２月} 日(にち)[02] の 御(お){お} 約束を守る 事が出来る{ことが出来ません}",
+    "vocabIds": [
+      "2761370",
+      "2100680",
+      "1340450",
+      "2738430",
+      "1461560"
+    ],
+    "matches": {
+      "1340450": [
+        {
+          "start": 21,
+          "length": 5,
+          "reading": "できません"
+        }
+      ],
+      "1461560": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "にがつ"
+        }
+      ],
+      "2100680": [
+        {
+          "start": 13,
+          "length": 5,
+          "reading": "やくそくをまもる"
+        }
+      ],
+      "2738430": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "にななにち"
+        }
+      ],
+      "2761370": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "いかんながら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "205340",
+    "original": "それは遺憾ながら本当だ。",
+    "en": [
+      {
+        "id": "42582",
+        "text": "That, while regrettable, is true."
+      }
+    ],
+    "indices": "其れ[01]{それ} は 遺憾~ 乍ら[02]{ながら} 本当 だ",
+    "vocabIds": [
+      "2761370",
+      "1523060"
+    ],
+    "matches": {
+      "1523060": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "ほんとう"
+        }
+      ],
+      "2761370": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "いかんながら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10181512",
+    "original": "遺憾ながら、その報道は正しいです。",
+    "en": [
+      {
+        "id": "4876849",
+        "text": "Unfortunately, the report is correct."
+      }
+    ],
+    "vocabIds": [
+      "2761370",
+      "1376600",
+      "1515730"
+    ],
+    "matches": {
+      "1376600": [
+        {
+          "start": 11,
+          "length": 5,
+          "reading": "ただしいです"
+        }
+      ],
+      "1515730": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "ほうどう"
+        }
+      ],
+      "2761370": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "いかんながら"
+        }
+      ]
+    }
+  }
+]

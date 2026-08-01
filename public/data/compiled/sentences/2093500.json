@@ -1,0 +1,55 @@
+[
+  {
+    "id": "174461",
+    "original": "虎は肉食動物です。",
+    "en": [
+      {
+        "id": "240008",
+        "text": "A tiger is a beast of prey."
+      }
+    ],
+    "indices": "虎[01] は 肉食動物~ です",
+    "vocabIds": [
+      "2093500",
+      "1267610"
+    ],
+    "matches": {
+      "1267610": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "とら"
+        }
+      ],
+      "2093500": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "にくしょくどうぶつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "13337131",
+    "original": "ライオンは肉食動物です。",
+    "en": [
+      {
+        "id": "13344411",
+        "text": "Lions are carnivores."
+      }
+    ],
+    "vocabIds": [
+      "2093500"
+    ],
+    "matches": {
+      "2093500": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "にくしょくどうぶつ"
+        }
+      ]
+    }
+  }
+]

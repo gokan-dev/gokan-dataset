@@ -1,0 +1,133 @@
+{
+  "id": "1426650",
+  "writtenForm": {
+    "kanji": "注文",
+    "alternatives": [
+      "註文"
+    ],
+    "containedKanji": [
+      "注",
+      "文"
+    ]
+  },
+  "reading": {
+    "primary": "ちゅうもん",
+    "alternatives": [
+      "ちゅうぶん"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 2486,
+    "kanaRank": 60485
+  },
+  "jlptLevel": 3,
+  "progression": {
+    "kklcStep": 368
+  },
+  "senses": [
+    {
+      "pos": [
+        "n",
+        "vs",
+        "vt"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "order (for an item)"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n",
+        "vs",
+        "vt"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "request",
+        "demand",
+        "condition"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": true,
+        "rawTags": [
+          "rare"
+        ]
+      },
+      "glosses": [
+        "annotation",
+        "explanatory note"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "ちゅうぶん"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1426650",
+      "isBase": true,
+      "originalPrimaryReading": "ちゅうもん",
+      "originalGlosses": [
+        "order (for an item)"
+      ]
+    },
+    {
+      "id": "2732450",
+      "isBase": false,
+      "originalPrimaryReading": "ちゅうぶん",
+      "originalGlosses": [
+        "annotation",
+        "explanatory note"
+      ]
+    }
+  ],
+  "components": [
+    "1426520",
+    "1505090"
+  ],
+  "parents": [
+    "1930020",
+    "1942890",
+    "1942610",
+    "1426660",
+    "2846503",
+    "2844738"
+  ]
+}

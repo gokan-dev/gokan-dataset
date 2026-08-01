@@ -1,0 +1,186 @@
+[
+  {
+    "id": "76080",
+    "original": "私は病院で点滴を受けた。",
+    "en": [
+      {
+        "id": "327638",
+        "text": "I had an intravenous drip in hospital."
+      },
+      {
+        "id": "2744199",
+        "text": "I got an IV at the hospital."
+      }
+    ],
+    "indices": "私(わたし)[01] は 病院 で(#2028980) 点滴[02]~ を 受ける{受けた}",
+    "vocabIds": [
+      "1329590",
+      "1490220",
+      "1441720",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1329590": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "うけた"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1441720": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "てんてき"
+        }
+      ],
+      "1490220": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "びょういん"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "124942",
+    "original": "点滴石を穿つ。",
+    "en": [
+      {
+        "id": "279051",
+        "text": "Constant dripping wears away a stone."
+      }
+    ],
+    "indices": "点滴[01]~ 石(いし)[01] を 穿つ~",
+    "vocabIds": [
+      "1441720",
+      "1854810",
+      "1382440"
+    ],
+    "matches": {
+      "1382440": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "せき"
+        }
+      ],
+      "1441720": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "てんてき"
+        }
+      ],
+      "1854810": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "うがつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10560919",
+    "original": "「つわり」は軽く考えられがちですが、重症化すると「妊娠悪阻」と呼ばれ、点滴などの治療が必要になります。",
+    "en": [
+      {
+        "id": "11789736",
+        "text": "\"Morning sickness\" is often taken lightly, but when it becomes severe, it is called \"hyperemesis gravidarum\" and requires an IV and other forms of medical care."
+      }
+    ],
+    "vocabIds": [
+      "2750790",
+      "2844382",
+      "1281020",
+      "1252560",
+      "1266440",
+      "1441720",
+      "1316890",
+      "1487660"
+    ],
+    "matches": {
+      "1252560": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "かるく"
+        }
+      ],
+      "1266440": [
+        {
+          "start": 31,
+          "length": 2,
+          "reading": "よば"
+        }
+      ],
+      "1281020": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "かんがえ"
+        }
+      ],
+      "1316890": [
+        {
+          "start": 40,
+          "length": 2,
+          "reading": "ちりょう"
+        }
+      ],
+      "1441720": [
+        {
+          "start": 35,
+          "length": 2,
+          "reading": "てんてき"
+        }
+      ],
+      "1487660": [
+        {
+          "start": 43,
+          "length": 2,
+          "reading": "ひつよう"
+        }
+      ],
+      "2750790": [
+        {
+          "start": 25,
+          "length": 4,
+          "reading": "にんしんつわり"
+        }
+      ],
+      "2844382": [
+        {
+          "start": 18,
+          "length": 3,
+          "reading": "じゅうしょうか"
+        }
+      ]
+    }
+  }
+]

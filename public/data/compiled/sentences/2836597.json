@@ -1,0 +1,79 @@
+[
+  {
+    "id": "172153",
+    "original": "今度の新人は、チャレンジ精神旺盛でいいね。",
+    "en": [
+      {
+        "id": "242322",
+        "text": "I like the new guy. He's not afraid to take on challenging work."
+      }
+    ],
+    "indices": "今度 の 新人[01] は チャレンジ 精神 旺盛 で(#2028980) いい(#2820690)[01] ね(#2029080)[01]",
+    "vocabIds": [
+      "2836597",
+      "1289370",
+      "1361960",
+      "1180550"
+    ],
+    "matches": {
+      "1180550": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "おうせい"
+        }
+      ],
+      "1289370": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こんど"
+        }
+      ],
+      "1361960": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "しんじん"
+        }
+      ],
+      "2836597": [
+        {
+          "start": 7,
+          "length": 7,
+          "reading": "ちゃれんじせいしん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12296506",
+    "original": "チャレンジ精神旺盛だね。",
+    "en": [
+      {
+        "id": "13694667",
+        "text": "You are fully up to the challenge, right."
+      }
+    ],
+    "vocabIds": [
+      "2836597",
+      "1180550"
+    ],
+    "matches": {
+      "1180550": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "おうせい"
+        }
+      ],
+      "2836597": [
+        {
+          "start": 0,
+          "length": 7,
+          "reading": "ちゃれんじせいしん"
+        }
+      ]
+    }
+  }
+]

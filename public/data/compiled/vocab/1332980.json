@@ -1,0 +1,143 @@
+{
+  "id": "1332980",
+  "writtenForm": {
+    "kanji": "終日",
+    "alternatives": [
+      "日もすがら"
+    ],
+    "containedKanji": [
+      "終",
+      "日"
+    ]
+  },
+  "reading": {
+    "primary": "しゅうじつ",
+    "alternatives": [
+      "ひねもす",
+      "ひめもす",
+      "ひもすがら"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 28739
+  },
+  "jlptLevel": 1,
+  "progression": {
+    "kklcStep": 957
+  },
+  "senses": [
+    {
+      "pos": [
+        "n",
+        "adv"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "all day",
+        "for a whole day"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "adv"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "poet",
+          "uk"
+        ]
+      },
+      "glosses": [
+        "for the whole day",
+        "all day"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "ひねもす"
+      ]
+    },
+    {
+      "pos": [
+        "adv"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "poet"
+        ]
+      },
+      "glosses": [
+        "all day"
+      ],
+      "related": {
+        "compounds": [
+          "夜もすがら"
+        ]
+      },
+      "appliesToReadings": [
+        "ひもすがら"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1332980",
+      "isBase": true,
+      "originalPrimaryReading": "しゅうじつ",
+      "originalGlosses": [
+        "all day",
+        "for a whole day"
+      ]
+    },
+    {
+      "id": "2863123",
+      "isBase": false,
+      "originalPrimaryReading": "ひねもす",
+      "originalGlosses": [
+        "for the whole day",
+        "all day"
+      ]
+    },
+    {
+      "id": "2863124",
+      "isBase": false,
+      "originalPrimaryReading": "ひもすがら",
+      "originalGlosses": [
+        "all day"
+      ]
+    }
+  ],
+  "components": [
+    "2720360",
+    "1463770"
+  ],
+  "parents": [
+    "1655880",
+    "2646590"
+  ]
+}

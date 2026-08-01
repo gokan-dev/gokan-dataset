@@ -1,0 +1,109 @@
+[
+  {
+    "id": "180144",
+    "original": "教習所の教師にそう焦るなと言われています。",
+    "en": [
+      {
+        "id": "19004",
+        "text": "My driving instructor says I should be more patient."
+      }
+    ],
+    "indices": "教習所~ の 教師 に 然う[01]{そう} 焦る な[01] と 言う{言われています}",
+    "vocabIds": [
+      "1237180",
+      "1237130",
+      "1350780",
+      "1587040"
+    ],
+    "matches": {
+      "1237130": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "きょうし"
+        }
+      ],
+      "1237180": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きょうしゅうじょ"
+        }
+      ],
+      "1350780": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "あせる"
+        }
+      ],
+      "1587040": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "いわ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2432322",
+    "original": "ジムは教習所に通っている。",
+    "en": [
+      {
+        "id": "10128445",
+        "text": "Jim goes to driving school."
+      }
+    ],
+    "vocabIds": [
+      "1432850",
+      "1237180"
+    ],
+    "matches": {
+      "1237180": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "きょうしゅうじょ"
+        }
+      ],
+      "1432850": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "かよっている"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10910775",
+    "original": "教習所に通ってるんだ。",
+    "en": [
+      {
+        "id": "36963",
+        "text": "I go to a driving school."
+      }
+    ],
+    "vocabIds": [
+      "1432850",
+      "1237180"
+    ],
+    "matches": {
+      "1237180": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きょうしゅうじょ"
+        }
+      ],
+      "1432850": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "かよってる"
+        }
+      ]
+    }
+  }
+]

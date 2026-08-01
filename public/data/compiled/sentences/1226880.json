@@ -1,0 +1,162 @@
+[
+  {
+    "id": "74537",
+    "original": "脚本を書いていて、行き詰まった時はどうする？",
+    "en": [
+      {
+        "id": "329182",
+        "text": "What do you do when you get writer's block while writing a script?"
+      }
+    ],
+    "indices": "脚本~ を 書く{書いていて} 行き詰まる{行き詰まった} 時(とき) は 如何(どう){どう} 為る(する){する}",
+    "vocabIds": [
+      "1631350",
+      "1343950",
+      "1226880",
+      "1315840"
+    ],
+    "matches": {
+      "1226880": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きゃくほん"
+        }
+      ],
+      "1315840": [
+        {
+          "start": 15,
+          "length": 1,
+          "reading": "とき"
+        }
+      ],
+      "1343950": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "かいていて"
+        }
+      ],
+      "1631350": [
+        {
+          "start": 9,
+          "length": 6,
+          "reading": "いきづまった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "108506",
+    "original": "彼は脚本を書いている。",
+    "en": [
+      {
+        "id": "295180",
+        "text": "He writes scripts."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 脚本 を 書く{書いている}",
+    "vocabIds": [
+      "1343950",
+      "1226880",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1226880": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きゃくほん"
+        }
+      ],
+      "1343950": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "かいている"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2421298",
+    "original": "今日は友人が脚本を書いた演劇を観てきました。",
+    "en": [
+      {
+        "id": "2422044",
+        "text": "Today I watched a play of a script written by a friend."
+      },
+      {
+        "id": "2422608",
+        "text": "Today, I watched a play written by a friend of mine."
+      }
+    ],
+    "vocabIds": [
+      "1259290",
+      "1289400",
+      "1343950",
+      "1540150",
+      "1226880",
+      "1176860"
+    ],
+    "matches": {
+      "1176860": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "えんげき"
+        }
+      ],
+      "1226880": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "きゃくほん"
+        }
+      ],
+      "1259290": [
+        {
+          "start": 15,
+          "length": 6,
+          "reading": "みてきました"
+        }
+      ],
+      "1289400": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きょうは"
+        }
+      ],
+      "1343950": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "かいた"
+        }
+      ],
+      "1540150": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ゆうじん"
+        }
+      ]
+    }
+  }
+]

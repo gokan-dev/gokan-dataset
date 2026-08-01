@@ -1,0 +1,103 @@
+[
+  {
+    "id": "170025",
+    "original": "昨日の夜、特別試写会があった。",
+    "en": [
+      {
+        "id": "244461",
+        "text": "There was a special sneak preview last night."
+      }
+    ],
+    "indices": "昨日 の 夜 特別 試写~ 会(かい) が[01] 有る{あった}",
+    "vocabIds": [
+      "2829902",
+      "1579260",
+      "1455280",
+      "1536350"
+    ],
+    "matches": {
+      "1455280": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "とくべつ"
+        }
+      ],
+      "1536350": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "よる"
+        }
+      ],
+      "1579260": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きのう"
+        }
+      ],
+      "2829902": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "ししゃかい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1187709",
+    "original": "昨日、新作映画の試写会に行ってきた。",
+    "en": [
+      {
+        "id": "7911029",
+        "text": "I went to see an advance screening of the new movie yesterday."
+      }
+    ],
+    "vocabIds": [
+      "1578850",
+      "2829902",
+      "1579260",
+      "1361850",
+      "1173720"
+    ],
+    "matches": {
+      "1173720": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "えいが"
+        }
+      ],
+      "1361850": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "しんさく"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "いってきた"
+        }
+      ],
+      "1579260": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きのう"
+        }
+      ],
+      "2829902": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "ししゃかい"
+        }
+      ]
+    }
+  }
+]

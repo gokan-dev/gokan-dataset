@@ -1,0 +1,71 @@
+[
+  {
+    "id": "222039",
+    "original": "この湖についての不思議な伝説が言い伝えられている。",
+    "en": [
+      {
+        "id": "59363",
+        "text": "A mysterious legend has been handed down about this lake."
+      }
+    ],
+    "indices": "此の{この} 湖(みずうみ) に就いて{について} の 不思議{不思議な} 伝説 が 言い伝える[01]{言い伝えられている}~",
+    "vocabIds": [
+      "1264180",
+      "1492570",
+      "1442100",
+      "1267280"
+    ],
+    "matches": {
+      "1264180": [
+        {
+          "start": 15,
+          "length": 4,
+          "reading": "いいつたえ"
+        }
+      ],
+      "1267280": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "みずうみ"
+        }
+      ],
+      "1442100": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "でんせつ"
+        }
+      ],
+      "1492570": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "ふしぎ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11890780",
+    "original": "ただの言い伝えさ。",
+    "en": [
+      {
+        "id": "9149686",
+        "text": "It's just a saying."
+      }
+    ],
+    "vocabIds": [
+      "1264180"
+    ],
+    "matches": {
+      "1264180": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "いいつたえさ"
+        }
+      ]
+    }
+  }
+]

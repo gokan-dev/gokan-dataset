@@ -1,0 +1,95 @@
+[
+  {
+    "id": "189535",
+    "original": "雨模様だ。",
+    "en": [
+      {
+        "id": "26686",
+        "text": "It looks rainy."
+      }
+    ],
+    "indices": "雨 模様 だ",
+    "vocabIds": [
+      "1576450"
+    ],
+    "matches": {
+      "1576450": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あめもよう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "207331",
+    "original": "その日は朝から雨模様だった。",
+    "en": [
+      {
+        "id": "44583",
+        "text": "That day it had looked like rain since morning."
+      }
+    ],
+    "indices": "其の[01]{その} 日(ひ)[01] は 朝(あさ) から 雨模様 だ{だった}",
+    "vocabIds": [
+      "2002320",
+      "1576450",
+      "1428280"
+    ],
+    "matches": {
+      "1428280": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "あさ"
+        }
+      ],
+      "1576450": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "あめもよう"
+        }
+      ],
+      "2002320": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "そのひ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "222931",
+    "original": "この雨模様の天気はうんざりだ。",
+    "en": [
+      {
+        "id": "60262",
+        "text": "I am fed up with this wet weather."
+      }
+    ],
+    "indices": "此の{この} 雨模様~ の 天気 は うんざり だ",
+    "vocabIds": [
+      "1576450",
+      "1438690"
+    ],
+    "matches": {
+      "1438690": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "てんき"
+        }
+      ],
+      "1576450": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "あめもよう"
+        }
+      ]
+    }
+  }
+]

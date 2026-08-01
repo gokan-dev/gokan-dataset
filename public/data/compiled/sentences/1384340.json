@@ -1,0 +1,213 @@
+[
+  {
+    "id": "83016",
+    "original": "母は家事を切り盛りするのに忙しい。",
+    "en": [
+      {
+        "id": "320701",
+        "text": "Mother is busy keeping house."
+      }
+    ],
+    "indices": "母(はは) は 家事 を 切り盛り 為る(する){する} のに 忙しい(いそがしい)",
+    "vocabIds": [
+      "1384340",
+      "1519290",
+      "1191980",
+      "1514990"
+    ],
+    "matches": {
+      "1191980": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "かじ"
+        }
+      ],
+      "1384340": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "きりもり"
+        }
+      ],
+      "1514990": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "はは"
+        }
+      ],
+      "1519290": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "いそがしい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "90852",
+    "original": "彼女は家事を切り盛りするだけでなく学校の先生もしている。",
+    "en": [
+      {
+        "id": "312862",
+        "text": "Not only does she keep house, but she teaches at school."
+      },
+      {
+        "id": "388312",
+        "text": "Not only does she keep house, but she also works as a school teacher."
+      },
+      {
+        "id": "388313",
+        "text": "Not only does she do house work, she is a teacher."
+      }
+    ],
+    "indices": "彼女[01] は 家事 を 切り盛り~ 為る(する){する} だけでなく 学校 の 先生(せんせい)[01] も 為る(する){している}",
+    "vocabIds": [
+      "1384340",
+      "1483150",
+      "1191980",
+      "1206730",
+      "1387990"
+    ],
+    "matches": {
+      "1191980": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かじ"
+        }
+      ],
+      "1206730": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "がっこう"
+        }
+      ],
+      "1384340": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "きりもり"
+        }
+      ],
+      "1387990": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "せんせい"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "506786",
+    "original": "離婚して身一つで所帯を切り盛りしているのですから大変でしょう。",
+    "en": [
+      {
+        "id": "506787",
+        "text": "It must be terribly difficult, running her household on her own after divorcing."
+      }
+    ],
+    "indices": "離婚 為る(する){して} 身一つ~ で(#2028980) 世帯{所帯} を 切り盛り 為る(する){している} のです から 大変 でしょう",
+    "vocabIds": [
+      "1384340",
+      "1705770",
+      "1550880",
+      "1374170",
+      "1415000"
+    ],
+    "matches": {
+      "1374170": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "しょたい"
+        }
+      ],
+      "1384340": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "きりもり"
+        }
+      ],
+      "1415000": [
+        {
+          "start": 24,
+          "length": 2,
+          "reading": "たいへん"
+        }
+      ],
+      "1550880": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "りこん"
+        }
+      ],
+      "1705770": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "みひとつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10032335",
+    "original": "夫婦二人三脚で、このお店を切り盛りしてきました。",
+    "en": [
+      {
+        "id": "11153375",
+        "text": "The married couple was able to run this store with their seamless teamwork."
+      }
+    ],
+    "vocabIds": [
+      "1462490",
+      "1384340",
+      "1583640",
+      "2842661"
+    ],
+    "matches": {
+      "1384340": [
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "きりもり"
+        }
+      ],
+      "1462490": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "ににんさんきゃく"
+        }
+      ],
+      "1583640": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ふうふ"
+        }
+      ],
+      "2842661": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "おみせ"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,107 @@
+{
+  "id": "1582030",
+  "writtenForm": {
+    "kanji": "天皇",
+    "alternatives": [],
+    "containedKanji": [
+      "天",
+      "皇"
+    ]
+  },
+  "reading": {
+    "primary": "てんのう",
+    "alternatives": [
+      "すめらぎ",
+      "すめろぎ",
+      "すべらぎ",
+      "すめらき"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 19954,
+    "kanaRank": 85202
+  },
+  "jlptLevel": 2,
+  "progression": {
+    "kklcStep": 270
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "Emperor of Japan"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "Emperor of Japan"
+      ],
+      "related": {
+        "compounds": [
+          "天皇"
+        ]
+      },
+      "appliesToReadings": [
+        "すめらぎ"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1582030",
+      "isBase": true,
+      "originalPrimaryReading": "てんのう",
+      "originalGlosses": [
+        "Emperor of Japan"
+      ]
+    },
+    {
+      "id": "2837102",
+      "isBase": false,
+      "originalPrimaryReading": "すめらぎ",
+      "originalGlosses": [
+        "Emperor of Japan"
+      ]
+    }
+  ],
+  "components": [
+    "1438210"
+  ],
+  "parents": [
+    "1439060",
+    "1947520",
+    "2833502",
+    "1439030",
+    "1439040"
+  ]
+}

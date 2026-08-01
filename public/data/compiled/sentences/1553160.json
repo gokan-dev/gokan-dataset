@@ -1,0 +1,80 @@
+[
+  {
+    "id": "78191",
+    "original": "旅券をどこかに置き忘れました。",
+    "en": [
+      {
+        "id": "325527",
+        "text": "I left my passport somewhere."
+      }
+    ],
+    "indices": "旅券 を 何処か[01]{どこか} に 置き忘れる{置き忘れました}",
+    "vocabIds": [
+      "1849920",
+      "1553160"
+    ],
+    "matches": {
+      "1553160": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "りょけん"
+        }
+      ],
+      "1849920": [
+        {
+          "start": 7,
+          "length": 7,
+          "reading": "おきわすれました"
+        }
+      ]
+    }
+  },
+  {
+    "id": "115366",
+    "original": "彼は、旅券を余そうとした。",
+    "en": [
+      {
+        "id": "288305",
+        "text": "He tried to save something from his travel expenses."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 旅券~ を[01] 余す{余そう}~ とする{とした}",
+    "vocabIds": [
+      "1543860",
+      "1553160",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1543860": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "あまそう"
+        }
+      ],
+      "1553160": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "りょけん"
+        }
+      ]
+    }
+  }
+]

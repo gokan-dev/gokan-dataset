@@ -1,0 +1,1758 @@
+[
+  {
+    "id": "77493",
+    "original": "列車は今日の午後１時半に発車します。",
+    "en": [
+      {
+        "id": "326226",
+        "text": "The train leaves at one-thirty this afternoon."
+      }
+    ],
+    "indices": "列車 は 今日 の 午後 時半(じはん) に 発車 為る(する){します}",
+    "vocabIds": [
+      "1558370",
+      "1579110",
+      "1268990",
+      "1658480",
+      "2837919",
+      "1477500",
+      "1160790"
+    ],
+    "matches": {
+      "1160790": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "いち"
+        }
+      ],
+      "1268990": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ごご"
+        }
+      ],
+      "1477500": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "はっしゃ"
+        }
+      ],
+      "1558370": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "れっしゃ"
+        }
+      ],
+      "1579110": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "きょう"
+        }
+      ],
+      "1658480": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "じはん"
+        }
+      ],
+      "2837919": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "じはん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "77498",
+    "original": "列車は五時ちょうどに発車した。",
+    "en": [
+      {
+        "id": "326194",
+        "text": "The train left at five o'clock to the minute."
+      },
+      {
+        "id": "1424583",
+        "text": "The train left at exactly five o'clock."
+      }
+    ],
+    "indices": "列車 は 五 時(じ) 丁度{ちょうど} に 発車 為る(する){した}",
+    "vocabIds": [
+      "1558370",
+      "2845367",
+      "1477500"
+    ],
+    "matches": {
+      "1477500": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "はっしゃ"
+        }
+      ],
+      "1558370": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "れっしゃ"
+        }
+      ],
+      "2845367": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ごじ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "77525",
+    "original": "列車は５時きっかりに発車した。",
+    "en": [
+      {
+        "id": "326194",
+        "text": "The train left at five o'clock to the minute."
+      },
+      {
+        "id": "1424583",
+        "text": "The train left at exactly five o'clock."
+      }
+    ],
+    "indices": "列車 は 時(じ)[01] きっかり に 発車 為る(する){した}",
+    "vocabIds": [
+      "1558370",
+      "2845367",
+      "1477500"
+    ],
+    "matches": {
+      "1477500": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "はっしゃ"
+        }
+      ],
+      "1558370": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "れっしゃ"
+        }
+      ],
+      "2845367": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ごじ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "77563",
+    "original": "列車が発車しようとしているとき私たちは駅に着いた。",
+    "en": [
+      {
+        "id": "326156",
+        "text": "We arrived at the station as the train was leaving."
+      }
+    ],
+    "indices": "列車 が 発車 しようとする{しようとしている} 時(とき){とき} 私たち は 駅 に 着く(つく)[01]{着いた}",
+    "vocabIds": [
+      "1311300",
+      "1422970",
+      "1607260",
+      "1558370",
+      "1477500",
+      "1175140"
+    ],
+    "matches": {
+      "1175140": [
+        {
+          "start": 19,
+          "length": 1,
+          "reading": "えき"
+        }
+      ],
+      "1311300": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1422970": [
+        {
+          "start": 21,
+          "length": 3,
+          "reading": "ついた"
+        }
+      ],
+      "1477500": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "はっしゃ"
+        }
+      ],
+      "1558370": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "れっしゃ"
+        }
+      ],
+      "1607260": [
+        {
+          "start": 21,
+          "length": 3,
+          "reading": "ついた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "98729",
+    "original": "彼らが駅に着くと、列車はすでに発車していた。",
+    "en": [
+      {
+        "id": "304971",
+        "text": "When they got to the station, the train had already left."
+      }
+    ],
+    "indices": "彼ら(かれら) が 駅 に 着く(つく)[01] と 列車 は 既に(すでに)[01]{すでに} 発車 為る(する){していた}",
+    "vocabIds": [
+      "1422970",
+      "1607260",
+      "1483090",
+      "2397090",
+      "1558370",
+      "1477500",
+      "1175140"
+    ],
+    "matches": {
+      "1175140": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "えき"
+        }
+      ],
+      "1422970": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "つくと"
+        }
+      ],
+      "1477500": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "はっしゃ"
+        }
+      ],
+      "1483090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれら"
+        }
+      ],
+      "1558370": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "れっしゃ"
+        }
+      ],
+      "1607260": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "つくと"
+        }
+      ],
+      "2397090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "121315",
+    "original": "発車まであと５分しかないのに、彼女は姿を見せないわ。",
+    "en": [
+      {
+        "id": "282691",
+        "text": "There are only five minutes till the train starts, and she hasn't appeared."
+      },
+      {
+        "id": "388865",
+        "text": "There are only five minutes left till the train leaves and she hasn't appeared."
+      }
+    ],
+    "indices": "発車 迄{まで} 後(あと){あと} 分(ふん) しか無い{しかない} のに 彼女[01] は 姿を見せる{姿を見せない} わ",
+    "vocabIds": [
+      "1259210",
+      "1477500",
+      "2039350",
+      "1483150",
+      "1307710"
+    ],
+    "matches": {
+      "1259210": [
+        {
+          "start": 20,
+          "length": 4,
+          "reading": "みせない"
+        }
+      ],
+      "1307710": [
+        {
+          "start": 18,
+          "length": 1,
+          "reading": "すがた"
+        }
+      ],
+      "1477500": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "はっしゃ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "2039350": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ごふん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "121316",
+    "original": "発車ホームはどちらですか。",
+    "en": [
+      {
+        "id": "282690",
+        "text": "Which is the departure platform?"
+      }
+    ],
+    "indices": "発車 ホーム(#1121740)[01] は 何方(どちら){どちら} ですか",
+    "vocabIds": [
+      "1477500"
+    ],
+    "matches": {
+      "1477500": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "はっしゃ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "150338",
+    "original": "次のバスの発車時刻を確かめたほうがいいよ。",
+    "en": [
+      {
+        "id": "264219",
+        "text": "You would do well to make sure when the next bus starts."
+      }
+    ],
+    "indices": "次(つぎ)[01]{次の} バス(#1098390) 之(の)[01]{の} 発車 時刻 を 確かめる{確かめた} 方がいい{ほうがいい} よ[01]",
+    "vocabIds": [
+      "1205780",
+      "1477500",
+      "1316220",
+      "1316380"
+    ],
+    "matches": {
+      "1205780": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "たしかめた"
+        }
+      ],
+      "1316220": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "じこく"
+        }
+      ],
+      "1316380": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "つぎ"
+        }
+      ],
+      "1477500": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "はっしゃ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "150469",
+    "original": "時刻表を見れば発車の時刻が分かります。",
+    "en": [
+      {
+        "id": "264088",
+        "text": "You can depend on the timetable to tell you when trains leave."
+      }
+    ],
+    "indices": "時刻表 を 見る{見れば} 発車 之(の)[01]{の} 時刻 が 分かる{分かります}",
+    "vocabIds": [
+      "1606560",
+      "1316230",
+      "1259290",
+      "1316220",
+      "1477500"
+    ],
+    "matches": {
+      "1259290": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "みれば"
+        }
+      ],
+      "1316220": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "じこく"
+        }
+      ],
+      "1316230": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "じこくひょう"
+        }
+      ],
+      "1477500": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "はっしゃ"
+        }
+      ],
+      "1606560": [
+        {
+          "start": 13,
+          "length": 5,
+          "reading": "わかります"
+        }
+      ]
+    }
+  },
+  {
+    "id": "152043",
+    "original": "私達が乗った新幹線は１２時きっかりに発車した。",
+    "en": [
+      {
+        "id": "262510",
+        "text": "The bullet train we were on pulled out at 12 sharp."
+      }
+    ],
+    "indices": "私たち{私達} が 乗る[01]{乗った} 新幹線 は 時(じ)[01] きっかり に 発車 為る(する){した}",
+    "vocabIds": [
+      "1361590",
+      "1334960",
+      "1355120",
+      "1311300",
+      "1477500"
+    ],
+    "matches": {
+      "1311300": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "わたしたち"
+        }
+      ],
+      "1334960": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "いちにじ"
+        }
+      ],
+      "1355120": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "のった"
+        }
+      ],
+      "1361590": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "しんかんせん"
+        }
+      ],
+      "1477500": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "はっしゃ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "163286",
+    "original": "私の乗る列車は７時に発車し、９時に東京に到着する。",
+    "en": [
+      {
+        "id": "251226",
+        "text": "My train leaves at seven, arriving in Tokyo at nine."
+      }
+    ],
+    "indices": "私(わたし)[01]{私の} 乗る[01] 列車 は 時(じ)[01] に 発車 為る(する){し} 時(じ)[01] に 東京 に 到着 為る(する){する}",
+    "vocabIds": [
+      "1355120",
+      "1558370",
+      "2845363",
+      "2021540",
+      "1477500",
+      "1447690",
+      "1449870",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1578150"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1355120": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "のる"
+        }
+      ],
+      "1447690": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "とうきょう"
+        }
+      ],
+      "1449870": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "とうちゃく"
+        }
+      ],
+      "1477500": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "はっしゃ"
+        }
+      ],
+      "1558370": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "れっしゃ"
+        }
+      ],
+      "1578150": [
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "きゅう"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2021540": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "じに"
+        }
+      ],
+      "2845363": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ななじ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "167883",
+    "original": "私が駅に着くと、列車は今にも発車しかけていた。",
+    "en": [
+      {
+        "id": "246615",
+        "text": "The train was on the point of leaving when I got to the station."
+      },
+      {
+        "id": "1185342",
+        "text": "The train was about to leave when I arrived at the station."
+      }
+    ],
+    "indices": "私(わたし)[01] が 駅 に 着く(つく)[01] と 列車 は 今にも 発車 掛ける{しかけていた}",
+    "vocabIds": [
+      "1288950",
+      "1422970",
+      "1607260",
+      "1558370",
+      "1477500",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1175140"
+    ],
+    "matches": {
+      "1175140": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "えき"
+        }
+      ],
+      "1288950": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "いまにも"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1422970": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "つくと"
+        }
+      ],
+      "1477500": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "はっしゃ"
+        }
+      ],
+      "1558370": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "れっしゃ"
+        }
+      ],
+      "1607260": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "つくと"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "167884",
+    "original": "私が駅に着いた時、列車はすでに発車していた。",
+    "en": [
+      {
+        "id": "246614",
+        "text": "When I arrived at the station, the train had already left."
+      }
+    ],
+    "indices": "私(わたし)[01] が 駅 に 着く(つく)[01]{着いた} 時(とき) 列車 は 既に(すでに)[01]{すでに} 発車 為る(する){していた}",
+    "vocabIds": [
+      "1422970",
+      "1607260",
+      "1558370",
+      "1477500",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1175140",
+      "1315840"
+    ],
+    "matches": {
+      "1175140": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "えき"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1315840": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "とき"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1422970": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "ついた"
+        }
+      ],
+      "1477500": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "はっしゃ"
+        }
+      ],
+      "1558370": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "れっしゃ"
+        }
+      ],
+      "1607260": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "ついた"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "183133",
+    "original": "汽車はまさに発車しようとしている。",
+    "en": [
+      {
+        "id": "20255",
+        "text": "The train is ready to start."
+      }
+    ],
+    "indices": "汽車 は 正に[02]{まさに} 発車 しようとする{しようとしている}",
+    "vocabIds": [
+      "1222700",
+      "1477500"
+    ],
+    "matches": {
+      "1222700": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きしゃ"
+        }
+      ],
+      "1477500": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "はっしゃ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "188914",
+    "original": "駅に着く前に列車は発車していた。",
+    "en": [
+      {
+        "id": "26061",
+        "text": "The train left before we got to the station."
+      }
+    ],
+    "indices": "駅 に 着く(つく)[01] 前(まえ) に 列車 は 発車 為る(する){していた}",
+    "vocabIds": [
+      "1422970",
+      "1607260",
+      "1392590",
+      "1558370",
+      "1477500",
+      "1175140"
+    ],
+    "matches": {
+      "1175140": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "えき"
+        }
+      ],
+      "1392590": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "まえに"
+        }
+      ],
+      "1422970": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "つく"
+        }
+      ],
+      "1477500": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "はっしゃ"
+        }
+      ],
+      "1558370": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "れっしゃ"
+        }
+      ],
+      "1607260": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "つく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "198101",
+    "original": "バスは発車するところだった。",
+    "en": [
+      {
+        "id": "35290",
+        "text": "The bus was about to start."
+      }
+    ],
+    "indices": "バス(#1098390) は 発車 為る(する){する} 所(ところ){ところ} だ{だった}",
+    "vocabIds": [
+      "1477500"
+    ],
+    "matches": {
+      "1477500": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "はっしゃ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "198102",
+    "original": "バスは発車しようとしていた。",
+    "en": [
+      {
+        "id": "35290",
+        "text": "The bus was about to start."
+      }
+    ],
+    "indices": "バス(#1098390) は 発車 為る(する)[13]{しよう} とする[01]{としていた}",
+    "vocabIds": [
+      "1477500"
+    ],
+    "matches": {
+      "1477500": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "はっしゃ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "198114",
+    "original": "バスは五分後に発車します。",
+    "en": [
+      {
+        "id": "35305",
+        "text": "The bus leaves in five minutes."
+      },
+      {
+        "id": "12613157",
+        "text": "The bus will leave in five minutes."
+      }
+    ],
+    "indices": "バス(#1098390) は 五分(ごふん)~ 後(ご) に 発車~ 為る(する){します}",
+    "vocabIds": [
+      "1268590",
+      "2039350",
+      "2640160",
+      "1477500"
+    ],
+    "matches": {
+      "1268590": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ごふん"
+        }
+      ],
+      "1477500": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "はっしゃ"
+        }
+      ],
+      "2039350": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ごふん"
+        }
+      ],
+      "2640160": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ごに"
+        }
+      ]
+    }
+  },
+  {
+    "id": "206185",
+    "original": "その列車は午前７時１５分に発車する。",
+    "en": [
+      {
+        "id": "43431",
+        "text": "The train departs at 7:15 a.m."
+      }
+    ],
+    "indices": "其の[01]{その} 列車 は 午前 時(じ)[01] 分(ふん) に 発車 為る(する){する}",
+    "vocabIds": [
+      "1558370",
+      "1269060",
+      "2845363",
+      "1334590",
+      "1477500",
+      "1502860"
+    ],
+    "matches": {
+      "1269060": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ごぜん"
+        }
+      ],
+      "1334590": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "いちご"
+        }
+      ],
+      "1477500": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "はっしゃ"
+        }
+      ],
+      "1502860": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "ふん"
+        }
+      ],
+      "1558370": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "れっしゃ"
+        }
+      ],
+      "2845363": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ななじ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "206190",
+    "original": "その列車はみな、発車１０分前に満員で立錐の余地もなかった。",
+    "en": [
+      {
+        "id": "43436",
+        "text": "All the coaches of the train were packed to capacity ten minutes before it started."
+      }
+    ],
+    "indices": "其の[01]{その} 列車 は 皆{みな} 発車 分(ふん) 前(まえ) に 満員 で(#2028980) 立錐の余地もない{立錐の余地もなかった}~",
+    "vocabIds": [
+      "2081590",
+      "1335070",
+      "1558370",
+      "1477500",
+      "1392590",
+      "1526720"
+    ],
+    "matches": {
+      "1335070": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "いちぜろふん"
+        }
+      ],
+      "1392590": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "まえに"
+        }
+      ],
+      "1477500": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "はっしゃ"
+        }
+      ],
+      "1526720": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "まんいん"
+        }
+      ],
+      "1558370": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "れっしゃ"
+        }
+      ],
+      "2081590": [
+        {
+          "start": 18,
+          "length": 5,
+          "reading": "りっすいのよち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "210660",
+    "original": "その豪雪のため、私たちの列車は定刻に発車できなかった。",
+    "en": [
+      {
+        "id": "47930",
+        "text": "The heavy snowfall prevented our train from leaving on time."
+      }
+    ],
+    "indices": "其の[01]{その} 豪雪~ の 為(ため){ため} 私たち の 列車 は 定刻 に 発車 出来る{できなかった}",
+    "vocabIds": [
+      "1311300",
+      "1285610",
+      "1558370",
+      "1435580",
+      "1477500"
+    ],
+    "matches": {
+      "1285610": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ごうせつ"
+        }
+      ],
+      "1311300": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1435580": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "ていこく"
+        }
+      ],
+      "1477500": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "はっしゃ"
+        }
+      ],
+      "1558370": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "れっしゃ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "215341",
+    "original": "ジョンはルーシーを待っていますが、その列車はすでに発車してしまいました。",
+    "en": [
+      {
+        "id": "52642",
+        "text": "John is waiting for Lucy, but the train has already left."
+      }
+    ],
+    "indices": "は を 待つ[01]{待っています} が 其の[01]{その} 列車 は 既に(すでに)[01]{すでに} 発車 為る(する){して} 仕舞う{しまいました}",
+    "vocabIds": [
+      "1410590",
+      "1558370",
+      "1477500"
+    ],
+    "matches": {
+      "1410590": [
+        {
+          "start": 9,
+          "length": 7,
+          "reading": "まっていますが"
+        }
+      ],
+      "1477500": [
+        {
+          "start": 25,
+          "length": 2,
+          "reading": "はっしゃ"
+        }
+      ],
+      "1558370": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "れっしゃ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "338063",
+    "original": "電車は後五分で発車します。",
+    "en": [
+      {
+        "id": "338065",
+        "text": "The train leaves in 5 minutes."
+      }
+    ],
+    "vocabIds": [
+      "1443530",
+      "1268590",
+      "2039350",
+      "1477500",
+      "1269320",
+      "1269410",
+      "1270100",
+      "1358760"
+    ],
+    "matches": {
+      "1268590": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ごふん"
+        }
+      ],
+      "1269320": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "ご"
+        }
+      ],
+      "1269410": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "ご"
+        }
+      ],
+      "1270100": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "ご"
+        }
+      ],
+      "1358760": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "ご"
+        }
+      ],
+      "1443530": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "でんしゃ"
+        }
+      ],
+      "1477500": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "はっしゃ"
+        }
+      ],
+      "2039350": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ごふん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "4871830",
+    "original": "ただ今到着のバスは、国内線第1ターミナル行きです。国際線ターミナルにお越しの方は、しばらくそのままでお待ちください。国際線行き連絡バスもこのバス停から発車いたします。",
+    "en": [
+      {
+        "id": "4871909",
+        "text": "The bus now arriving is going to Domestic Terminal 1. Passengers for the International Terminal, please wait. The shuttle bus to the International Terminal also leaves from this stop."
+      }
+    ],
+    "vocabIds": [
+      "1538960",
+      "1935660",
+      "1935600",
+      "1981920",
+      "1098580",
+      "1449870",
+      "1578790",
+      "1559900",
+      "1477500",
+      "1415260",
+      "1545790",
+      "1512070",
+      "1516930"
+    ],
+    "matches": {
+      "1098580": [
+        {
+          "start": 70,
+          "length": 3,
+          "reading": "ばすてい"
+        }
+      ],
+      "1415260": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "だい"
+        }
+      ],
+      "1449870": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "とうちゃく"
+        }
+      ],
+      "1477500": [
+        {
+          "start": 75,
+          "length": 2,
+          "reading": "はっしゃ"
+        }
+      ],
+      "1512070": [
+        {
+          "start": 38,
+          "length": 1,
+          "reading": "ほう"
+        }
+      ],
+      "1516930": [
+        {
+          "start": 38,
+          "length": 1,
+          "reading": "ほう"
+        }
+      ],
+      "1538960": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ただこん"
+        }
+      ],
+      "1545790": [
+        {
+          "start": 38,
+          "length": 1,
+          "reading": "ほう"
+        }
+      ],
+      "1559900": [
+        {
+          "start": 63,
+          "length": 2,
+          "reading": "れんらく"
+        }
+      ],
+      "1578790": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "いき"
+        },
+        {
+          "start": 61,
+          "length": 2,
+          "reading": "いき"
+        }
+      ],
+      "1935600": [
+        {
+          "start": 25,
+          "length": 3,
+          "reading": "こくさいせん"
+        },
+        {
+          "start": 58,
+          "length": 3,
+          "reading": "こくさいせん"
+        }
+      ],
+      "1935660": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "こくないせん"
+        }
+      ],
+      "1981920": [
+        {
+          "start": 34,
+          "length": 3,
+          "reading": "おこし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8993543",
+    "original": "次のバスは２時30分に発車します。",
+    "en": [
+      {
+        "id": "8993536",
+        "text": "The next bus leaves at 2:30."
+      }
+    ],
+    "vocabIds": [
+      "2612170",
+      "1477500",
+      "1316380",
+      "1502860"
+    ],
+    "matches": {
+      "1316380": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "つぎ"
+        }
+      ],
+      "1477500": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "はっしゃ"
+        }
+      ],
+      "1502860": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "ふん"
+        }
+      ],
+      "2612170": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "にじ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10313927",
+    "original": "電車は６時に発車して、１０時に着きます。",
+    "en": [
+      {
+        "id": "10313905",
+        "text": "My train leaves at six o'clock and gets there at ten o'clock."
+      },
+      {
+        "id": "714280",
+        "text": "My train leaves at six o'clock and arrives there at ten o'clock."
+      }
+    ],
+    "vocabIds": [
+      "1422970",
+      "1607260",
+      "2845369",
+      "1443530",
+      "2583620",
+      "1477500"
+    ],
+    "matches": {
+      "1422970": [
+        {
+          "start": 15,
+          "length": 4,
+          "reading": "つきます"
+        }
+      ],
+      "1443530": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "でんしゃ"
+        }
+      ],
+      "1477500": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "はっしゃ"
+        }
+      ],
+      "1607260": [
+        {
+          "start": 15,
+          "length": 4,
+          "reading": "つきます"
+        }
+      ],
+      "2583620": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ろくじ"
+        }
+      ],
+      "2845369": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "いちぜろじ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10688635",
+    "original": "私が駅に着くと、ちょうど電車が発車するところだった。",
+    "en": [
+      {
+        "id": "26075",
+        "text": "The train was just on the point of starting when I got to the station."
+      }
+    ],
+    "vocabIds": [
+      "1422970",
+      "1607260",
+      "1443530",
+      "1477500",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1175140"
+    ],
+    "matches": {
+      "1175140": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "えき"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1422970": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "つくと"
+        }
+      ],
+      "1443530": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "でんしゃ"
+        }
+      ],
+      "1477500": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "はっしゃ"
+        }
+      ],
+      "1607260": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "つくと"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10808951",
+    "original": "列車が発車する準備が整った。",
+    "en": [
+      {
+        "id": "20255",
+        "text": "The train is ready to start."
+      }
+    ],
+    "vocabIds": [
+      "1897670",
+      "1558370",
+      "1477500",
+      "1341670"
+    ],
+    "matches": {
+      "1341670": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "じゅんび"
+        }
+      ],
+      "1477500": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "はっしゃ"
+        }
+      ],
+      "1558370": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "れっしゃ"
+        }
+      ],
+      "1897670": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "ととのった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11254080",
+    "original": "電車は時間通りに発車しました。",
+    "en": [
+      {
+        "id": "9854345",
+        "text": "The train left on schedule."
+      },
+      {
+        "id": "326254",
+        "text": "The train left on time."
+      },
+      {
+        "id": "5383969",
+        "text": "The train departed on time."
+      }
+    ],
+    "vocabIds": [
+      "2103620",
+      "1443530",
+      "1477500"
+    ],
+    "matches": {
+      "1443530": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "でんしゃ"
+        }
+      ],
+      "1477500": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "はっしゃ"
+        }
+      ],
+      "2103620": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "じかんどおり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11557822",
+    "original": "電車は時間通りに発車した。",
+    "en": [
+      {
+        "id": "326255",
+        "text": "The train pulled out on time."
+      },
+      {
+        "id": "2268600",
+        "text": "The train pulled out exactly on time."
+      },
+      {
+        "id": "5383969",
+        "text": "The train departed on time."
+      }
+    ],
+    "vocabIds": [
+      "2103620",
+      "1443530",
+      "1477500"
+    ],
+    "matches": {
+      "1443530": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "でんしゃ"
+        }
+      ],
+      "1477500": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "はっしゃ"
+        }
+      ],
+      "2103620": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "じかんどおり"
+        }
+      ]
+    }
+  }
+]

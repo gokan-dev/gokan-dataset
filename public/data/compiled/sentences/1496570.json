@@ -1,0 +1,103 @@
+[
+  {
+    "id": "77786",
+    "original": "隣じゃまた犬も食わない夫婦喧嘩をしているよ。",
+    "en": [
+      {
+        "id": "325932",
+        "text": "The couple next door are fighting again."
+      }
+    ],
+    "indices": "隣 じゃ(#2851029) 又{また} 犬も食わない~ 夫婦喧嘩 を 為る(する){している} よ[01]",
+    "vocabIds": [
+      "2260770",
+      "1496570",
+      "1555830"
+    ],
+    "matches": {
+      "1496570": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "ふうふけんか"
+        }
+      ],
+      "1555830": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "となり"
+        }
+      ],
+      "2260770": [
+        {
+          "start": 5,
+          "length": 6,
+          "reading": "いぬもくわない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "84972",
+    "original": "夫婦喧嘩したがすぐ仲直りした。",
+    "en": [
+      {
+        "id": "318735",
+        "text": "The couple quarreled, but soon made up."
+      }
+    ],
+    "indices": "夫婦喧嘩~ 為る(する){した} が 直ぐ{すぐ} 仲直り 為る(する){した}",
+    "vocabIds": [
+      "1496570",
+      "1426000"
+    ],
+    "matches": {
+      "1426000": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "なかなおり"
+        }
+      ],
+      "1496570": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "ふうふけんか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "84980",
+    "original": "夫婦げんかは犬も食わない。",
+    "en": [
+      {
+        "id": "318733",
+        "text": "No one in his right mind wants anything to do with a domestic quarrel."
+      }
+    ],
+    "indices": "夫婦喧嘩{夫婦げんか} は 犬も食わない",
+    "vocabIds": [
+      "2260770",
+      "1496570"
+    ],
+    "matches": {
+      "1496570": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "ふうふげんか"
+        }
+      ],
+      "2260770": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "いぬもくわない"
+        }
+      ]
+    }
+  }
+]

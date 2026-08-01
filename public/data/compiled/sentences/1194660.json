@@ -1,0 +1,363 @@
+[
+  {
+    "id": "157981",
+    "original": "私は花見に行ってきました。",
+    "en": [
+      {
+        "id": "256549",
+        "text": "I have been to see the cherry blossoms."
+      }
+    ],
+    "indices": "私(わたし)[01] は 花見 に 行って来る{行ってきました}",
+    "vocabIds": [
+      "1578850",
+      "1194660",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1194660": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "はなみ"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 5,
+          "length": 7,
+          "reading": "いってきました"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "186587",
+    "original": "花見ができる春が待ち遠しい。",
+    "en": [
+      {
+        "id": "23723",
+        "text": "I can't wait for spring to come so we can sit under the cherry trees."
+      }
+    ],
+    "indices": "花見~ が[01] 出来る{できる} 春[01] が 待ち遠しい",
+    "vocabIds": [
+      "1410480",
+      "1194660",
+      "1341000"
+    ],
+    "matches": {
+      "1194660": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "はなみ"
+        }
+      ],
+      "1341000": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "はる"
+        }
+      ],
+      "1410480": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "まちどおしい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "197416",
+    "original": "ヒラヒラと桜の花が舞っている。もうお花見の季節も終わりだな。",
+    "en": [
+      {
+        "id": "34601",
+        "text": "It looks like cherry blossom-viewing season is at an end. You can see the petals fluttering down."
+      }
+    ],
+    "indices": "ひらひら{ヒラヒラと} 桜[01] の 花[01] が 舞う[02]{舞っている}~ もう 御(お){お} 花見 の 季節 も 終わる{終わり} だ な",
+    "vocabIds": [
+      "1499100",
+      "1589600",
+      "1194660",
+      "1222840",
+      "1593710",
+      "1194500"
+    ],
+    "matches": {
+      "1194500": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "はな"
+        }
+      ],
+      "1194660": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "はなみ"
+        }
+      ],
+      "1222840": [
+        {
+          "start": 21,
+          "length": 2,
+          "reading": "きせつ"
+        }
+      ],
+      "1499100": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "まっている"
+        }
+      ],
+      "1589600": [
+        {
+          "start": 24,
+          "length": 4,
+          "reading": "おわりだ"
+        }
+      ],
+      "1593710": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "さくら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "227390",
+    "original": "お花見に行きませんか？",
+    "en": [
+      {
+        "id": "64742",
+        "text": "Why don't we go and see the cherry blossoms?"
+      }
+    ],
+    "indices": "御(お){お} 花見~ に 行く[01]{行きません} か",
+    "vocabIds": [
+      "1578850",
+      "1194660"
+    ],
+    "matches": {
+      "1194660": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "はなみ"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "いきません"
+        }
+      ]
+    }
+  },
+  {
+    "id": "422020",
+    "original": "今日は雲行きが怪しいです。お花見が中止にならないか心配です。",
+    "en": [
+      {
+        "id": "422024",
+        "text": "I don't like the look of the weather today. I'm worried the hanami party might be cancelled."
+      },
+      {
+        "id": "646961",
+        "text": "It looks like it may rain today. I'm worried that our cherry-blossom-viewing party might be canceled."
+      }
+    ],
+    "indices": "今日 は 雲行きが怪しい[01]~ です 御(お){お} 花見 が 中止[02] に 成る{ならない} か 心配 です",
+    "vocabIds": [
+      "2122910",
+      "1289400",
+      "1194660",
+      "1424410",
+      "1360930"
+    ],
+    "matches": {
+      "1194660": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "はなみ"
+        }
+      ],
+      "1289400": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きょうは"
+        }
+      ],
+      "1360930": [
+        {
+          "start": 25,
+          "length": 2,
+          "reading": "しんぱい"
+        }
+      ],
+      "1424410": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "ちゅうし"
+        }
+      ],
+      "2122910": [
+        {
+          "start": 3,
+          "length": 7,
+          "reading": "くもゆきがあやしい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8623887",
+    "original": "花見をしに来ました。",
+    "en": [
+      {
+        "id": "2300255",
+        "text": "I came to look at the cherry blossoms."
+      }
+    ],
+    "vocabIds": [
+      "1547720",
+      "1194660"
+    ],
+    "matches": {
+      "1194660": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "はなみ"
+        }
+      ],
+      "1547720": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "きました"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10049584",
+    "original": "私は花見に行きたいです。",
+    "en": [
+      {
+        "id": "10049583",
+        "text": "I want to go and see cherry trees blooming."
+      }
+    ],
+    "vocabIds": [
+      "1578850",
+      "1194660",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1194660": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "はなみ"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 5,
+          "length": 6,
+          "reading": "いきたいです"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12035425",
+    "original": "お花見に行こうよ。",
+    "en": [
+      {
+        "id": "64742",
+        "text": "Why don't we go and see the cherry blossoms?"
+      }
+    ],
+    "vocabIds": [
+      "1578850",
+      "1194660"
+    ],
+    "matches": {
+      "1194660": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "はなみ"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "いこう"
+        }
+      ]
+    }
+  }
+]

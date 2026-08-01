@@ -1,0 +1,477 @@
+[
+  {
+    "id": "88229",
+    "original": "彼女は洗い物のたびに皿を割る。",
+    "en": [
+      {
+        "id": "315478",
+        "text": "She breaks a dish every time she washes dishes."
+      }
+    ],
+    "indices": "彼女[01] は 洗い物 の 度に{たびに} 皿[01] を 割る",
+    "vocabIds": [
+      "1609080",
+      "1483150",
+      "1208000",
+      "1299680"
+    ],
+    "matches": {
+      "1208000": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "われる"
+        }
+      ],
+      "1299680": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "さら"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1609080": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "あらいもの"
+        }
+      ]
+    }
+  },
+  {
+    "id": "141222",
+    "original": "洗い物を手伝いに行って下さい。",
+    "en": [
+      {
+        "id": "273350",
+        "text": "Go and help wash up, will you?"
+      }
+    ],
+    "indices": "洗い物~ を 手伝い[02] に 行く[01]{行って} 下さい",
+    "vocabIds": [
+      "1578850",
+      "1609080",
+      "1328170"
+    ],
+    "matches": {
+      "1328170": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "てつだい"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 8,
+          "length": 6,
+          "reading": "いってください"
+        }
+      ],
+      "1609080": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あらいもの"
+        }
+      ]
+    }
+  },
+  {
+    "id": "993567",
+    "original": "ご飯はあなたが作ってくれたから洗い物は私がするわ。",
+    "en": [
+      {
+        "id": "371910",
+        "text": "I'll do the dishes, since you've cooked."
+      },
+      {
+        "id": "1224472",
+        "text": "Since you did the cooking, I'll do the dishes."
+      }
+    ],
+    "indices": "",
+    "vocabIds": [
+      "1597890",
+      "1609080",
+      "1270590",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1270590": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ごはん"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 19,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 19,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1597890": [
+        {
+          "start": 7,
+          "length": 8,
+          "reading": "つくってくれたから"
+        }
+      ],
+      "1609080": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "あらいもの"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 19,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2270826",
+    "original": "洗い物は私がします。",
+    "en": [
+      {
+        "id": "244973",
+        "text": "I'll wash the dishes."
+      }
+    ],
+    "vocabIds": [
+      "1609080",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1609080": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あらいもの"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2739360",
+    "original": "トムは台所で洗い物をしている。",
+    "en": [
+      {
+        "id": "2641297",
+        "text": "Tom is in the kitchen washing dishes."
+      }
+    ],
+    "vocabIds": [
+      "1609080",
+      "1412640"
+    ],
+    "matches": {
+      "1412640": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "だいどころ"
+        }
+      ],
+      "1609080": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "あらいもの"
+        }
+      ]
+    }
+  },
+  {
+    "id": "5690336",
+    "original": "洗い物お願いしてもいい？",
+    "en": [
+      {
+        "id": "5906629",
+        "text": "Would you mind doing the laundry?"
+      }
+    ],
+    "vocabIds": [
+      "1609080",
+      "2036870"
+    ],
+    "matches": {
+      "1609080": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あらいもの"
+        }
+      ],
+      "2036870": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "おねがい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9550105",
+    "original": "普段は自分が洗い物するんだ。",
+    "en": [
+      {
+        "id": "244971",
+        "text": "I usually do the dishes."
+      }
+    ],
+    "vocabIds": [
+      "1609080",
+      "1497180",
+      "1318610"
+    ],
+    "matches": {
+      "1318610": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "じぶん"
+        }
+      ],
+      "1497180": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ふだん"
+        }
+      ],
+      "1609080": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "あらいもの"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10603233",
+    "original": "お湯が沸くまで時間がかかるから、その間に洗い物を済ませちゃいましょう！",
+    "en": [
+      {
+        "id": "10765268",
+        "text": "It'll take some time for the water to boil, so in the meantime, let's get these dishes over with!"
+      }
+    ],
+    "vocabIds": [
+      "1295040",
+      "1884400",
+      "2712120",
+      "1609080",
+      "1002510",
+      "1606680"
+    ],
+    "matches": {
+      "1002510": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おゆ"
+        }
+      ],
+      "1295040": [
+        {
+          "start": 24,
+          "length": 10,
+          "reading": "すませちゃいましょう"
+        }
+      ],
+      "1606680": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "わく"
+        }
+      ],
+      "1609080": [
+        {
+          "start": 20,
+          "length": 3,
+          "reading": "あらいもの"
+        }
+      ],
+      "1884400": [
+        {
+          "start": 7,
+          "length": 6,
+          "reading": "じかんがかかる"
+        }
+      ],
+      "2712120": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "そのかん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11045527",
+    "original": "目が覚めたら11時だし、着替えしてたら荷物が来るし、昨日は洗い物やってなかったしで……もう、滅茶苦茶。",
+    "en": [
+      {
+        "id": "12615554",
+        "text": "When I woke up, it was already 11 o'clock, and, while I was changing clothes, my package arrived, and I didn't do the dishes yesterday... Everything's a mess already."
+      }
+    ],
+    "vocabIds": [
+      "1533000",
+      "1206070",
+      "1423160",
+      "2863475",
+      "1609080",
+      "1547720",
+      "1195430",
+      "1579260",
+      "1604890",
+      "1315840"
+    ],
+    "matches": {
+      "1195430": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "にもつ"
+        }
+      ],
+      "1206070": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "さめたら"
+        }
+      ],
+      "1315840": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "じ"
+        }
+      ],
+      "1423160": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "きがえ"
+        }
+      ],
+      "1533000": [
+        {
+          "start": 46,
+          "length": 4,
+          "reading": "めちゃくちゃ"
+        }
+      ],
+      "1547720": [
+        {
+          "start": 22,
+          "length": 3,
+          "reading": "くるし"
+        }
+      ],
+      "1579260": [
+        {
+          "start": 26,
+          "length": 2,
+          "reading": "きのう"
+        }
+      ],
+      "1604890": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "め"
+        }
+      ],
+      "1609080": [
+        {
+          "start": 29,
+          "length": 3,
+          "reading": "あらいもの"
+        }
+      ],
+      "2863475": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "きがえ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12698961",
+    "original": "洗い物してくれるの？",
+    "en": [
+      {
+        "id": "10276628",
+        "text": "Will you wash the dishes?"
+      }
+    ],
+    "vocabIds": [
+      "1609080"
+    ],
+    "matches": {
+      "1609080": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あらいもの"
+        }
+      ]
+    }
+  }
+]

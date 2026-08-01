@@ -1,0 +1,175 @@
+[
+  {
+    "id": "86339",
+    "original": "彼女は来週から産休に入る。",
+    "en": [
+      {
+        "id": "317372",
+        "text": "She will start her maternity leave next week."
+      }
+    ],
+    "indices": "彼女[01] は 来週 から 産休 に 入る(はいる)",
+    "vocabIds": [
+      "1483150",
+      "1548010",
+      "1303760",
+      "1465590"
+    ],
+    "matches": {
+      "1303760": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "さんきゅう"
+        }
+      ],
+      "1465590": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "はいる"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1548010": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "らいしゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "169323",
+    "original": "産休のあと彼女はまたもとの仕事に戻った。",
+    "en": [
+      {
+        "id": "245162",
+        "text": "After her maternity leave, she resumed her old job."
+      }
+    ],
+    "indices": "産休 の 後(あと)[02]{あと} 彼女[01] は 又{また} 基(もと)[01]{もと} の 仕事[01] に 戻る{戻った}",
+    "vocabIds": [
+      "1535880",
+      "1642200",
+      "1303760",
+      "1483150",
+      "1304970"
+    ],
+    "matches": {
+      "1303760": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "さんきゅう"
+        }
+      ],
+      "1304970": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "しごと"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1535880": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "もどった"
+        }
+      ],
+      "1642200": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "もどった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "234919",
+    "original": "９月３０日から１０月１４日まで産休を取ります。",
+    "en": [
+      {
+        "id": "72297",
+        "text": "I'm taking maternity leave from September 30th to October 14th."
+      },
+      {
+        "id": "11724673",
+        "text": "I'm going on maternity leave from 30th September to 14th October."
+      },
+      {
+        "id": "11724674",
+        "text": "I'll be on maternity leave from 30 September to 14 October."
+      }
+    ],
+    "indices": "九月{９月} 日(にち)[02] から[01] 十月{１０月} 十四日{１４日} 迄{まで} 産休~ を 取る{取ります}",
+    "vocabIds": [
+      "1326980",
+      "1300670",
+      "1334570",
+      "1629290",
+      "1243660",
+      "1303760"
+    ],
+    "matches": {
+      "1243660": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "くがつ"
+        }
+      ],
+      "1300670": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "さんぜろにち"
+        }
+      ],
+      "1303760": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "さんきゅう"
+        }
+      ],
+      "1326980": [
+        {
+          "start": 18,
+          "length": 4,
+          "reading": "とります"
+        }
+      ],
+      "1334570": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "じゅうがつ"
+        }
+      ],
+      "1629290": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "いちよんにち"
+        }
+      ]
+    }
+  }
+]

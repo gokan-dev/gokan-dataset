@@ -1,0 +1,64 @@
+[
+  {
+    "id": "150161",
+    "original": "耳の感染症によくかかります。",
+    "en": [
+      {
+        "id": "264396",
+        "text": "I often have ear infections."
+      }
+    ],
+    "indices": "耳[01] の 感染症~ に 良く[02]{よく} 罹る{かかります}",
+    "vocabIds": [
+      "1614180",
+      "1317170"
+    ],
+    "matches": {
+      "1317170": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "みみ"
+        }
+      ],
+      "1614180": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "かんせんしょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "183913",
+    "original": "感染症の病気ですか。",
+    "en": [
+      {
+        "id": "21039",
+        "text": "Can other people catch it?"
+      }
+    ],
+    "indices": "感染症 の 病気 ですか",
+    "vocabIds": [
+      "1614180",
+      "1490230"
+    ],
+    "matches": {
+      "1490230": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "びょうき"
+        }
+      ],
+      "1614180": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "かんせんしょう"
+        }
+      ]
+    }
+  }
+]

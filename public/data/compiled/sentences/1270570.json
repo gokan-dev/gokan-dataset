@@ -1,0 +1,117 @@
+[
+  {
+    "id": "226786",
+    "original": "お日様が明るく輝いています。",
+    "en": [
+      {
+        "id": "64135",
+        "text": "The sun is shining brightly."
+      }
+    ],
+    "indices": "お日様~ が 明るい[01]{明るく} 輝く{輝いています}",
+    "vocabIds": [
+      "1224020",
+      "1270570",
+      "1532350"
+    ],
+    "matches": {
+      "1224020": [
+        {
+          "start": 7,
+          "length": 6,
+          "reading": "かがやいています"
+        }
+      ],
+      "1270570": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "おひさま"
+        }
+      ],
+      "1532350": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "あかるく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9582930",
+    "original": "お日さまがその光で万事を照らします。",
+    "en": [
+      {
+        "id": "9582875",
+        "text": "The sun illuminates everything with its light."
+      }
+    ],
+    "vocabIds": [
+      "1350840",
+      "1270570",
+      "1526080",
+      "1272780"
+    ],
+    "matches": {
+      "1270570": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "おひさま"
+        }
+      ],
+      "1272780": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "ひかり"
+        }
+      ],
+      "1350840": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "てらします"
+        }
+      ],
+      "1526080": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "ばんじ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10539865",
+    "original": "お日様って、ケモナーなんだよ。知ってた？",
+    "en": [
+      {
+        "id": "10060716",
+        "text": "The Sun is a furry. Did you know that?"
+      }
+    ],
+    "vocabIds": [
+      "1420470",
+      "1270570"
+    ],
+    "matches": {
+      "1270570": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "おひさま"
+        }
+      ],
+      "1420470": [
+        {
+          "start": 15,
+          "length": 4,
+          "reading": "しってた"
+        }
+      ]
+    }
+  }
+]

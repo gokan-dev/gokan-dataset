@@ -1,0 +1,121 @@
+[
+  {
+    "id": "9855952",
+    "original": "何らかの数字をゼロで割り算すると未定義の解になる。",
+    "en": [
+      {
+        "id": "9418571",
+        "text": "The result of dividing any number by zero is undefined."
+      },
+      {
+        "id": "585689",
+        "text": "If you divide any number by zero, the result is undefined."
+      }
+    ],
+    "vocabIds": [
+      "1606880",
+      "1527840",
+      "1373060",
+      "2076480"
+    ],
+    "matches": {
+      "1373060": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "すうじ"
+        }
+      ],
+      "1527840": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "みていぎ"
+        }
+      ],
+      "1606880": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "わりざん"
+        }
+      ],
+      "2076480": [
+        {
+          "start": 20,
+          "length": 1,
+          "reading": "かい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10224909",
+    "original": "解はこれですか？",
+    "en": [
+      {
+        "id": "10221420",
+        "text": "Is this the solution?"
+      }
+    ],
+    "vocabIds": [
+      "2076480"
+    ],
+    "matches": {
+      "2076480": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11648521",
+    "original": "以下の方程式の解を求めよ。",
+    "en": [
+      {
+        "id": "11648522",
+        "text": "Find the solution to the following equation."
+      }
+    ],
+    "indices": "以下(いか)[03] の 方程式~ の 解(かい)[01]~ を 求める[03]{求め} よ",
+    "vocabIds": [
+      "1517060",
+      "1229350",
+      "1155060",
+      "2076480"
+    ],
+    "matches": {
+      "1155060": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いか"
+        }
+      ],
+      "1229350": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "もとめ"
+        }
+      ],
+      "1517060": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "ほうていしき"
+        }
+      ],
+      "2076480": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "かい"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,308 @@
+[
+  {
+    "id": "104630",
+    "original": "彼は車を電柱にぶつけた。",
+    "en": [
+      {
+        "id": "299060",
+        "text": "He ran the car into a lamppost."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 車(くるま) を 電柱~ に 打付ける(ぶつける)[01]{ぶつけた}",
+    "vocabIds": [
+      "1443630",
+      "1000420",
+      "1483070",
+      "1323080"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1323080": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1443630": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "でんちゅう"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "104637",
+    "original": "彼は車を角の電柱でこすって傷をつけてしまった。",
+    "en": [
+      {
+        "id": "299053",
+        "text": "He scraped his car on the utility pole at the corner."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 車(くるま)[01] を 角(かど) の 電柱 で(#2028980) 擦る(こする){こすって} 傷[03] を 付ける{つけて} 仕舞う{しまった}",
+    "vocabIds": [
+      "1443630",
+      "1000420",
+      "1483070",
+      "1323080",
+      "1206110",
+      "1246440",
+      "1580260"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1206110": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "かく"
+        }
+      ],
+      "1246440": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "かく"
+        }
+      ],
+      "1323080": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1443630": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "でんちゅう"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1580260": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "きず"
+        }
+      ]
+    }
+  },
+  {
+    "id": "120184",
+    "original": "彼が車をバックさせようとして電柱にぶつけたとき、彼の車をひどく壊れた。",
+    "en": [
+      {
+        "id": "283825",
+        "text": "His car was seriously damaged when he backed into a telephone pole."
+      }
+    ],
+    "indices": "彼(かれ) が 車(くるま) を バック(#1098760)[04] 為せる{させよう} として[04] 電柱 に 打付ける(ぶつける)[01]{ぶつけた} 時(とき){とき} 彼(かれ)[01]{彼の} 車(くるま) を 酷い(ひどい){ひどく} 壊れる[01]{壊れた}",
+    "vocabIds": [
+      "1199900",
+      "1443630",
+      "1000420",
+      "1483070",
+      "1323080"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 24,
+          "length": 2,
+          "reading": "かれの"
+        },
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1199900": [
+        {
+          "start": 31,
+          "length": 3,
+          "reading": "こわれた"
+        }
+      ],
+      "1323080": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "くるま"
+        },
+        {
+          "start": 26,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1443630": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "でんちゅう"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "148991",
+    "original": "車は電柱にぶつかった。",
+    "en": [
+      {
+        "id": "265568",
+        "text": "The car hit a telephone pole."
+      }
+    ],
+    "indices": "車 は 電柱 に ぶつかる{ぶつかった}",
+    "vocabIds": [
+      "1443630",
+      "1323080"
+    ],
+    "matches": {
+      "1323080": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1443630": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "でんちゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "182934",
+    "original": "技師が電柱を上った。",
+    "en": [
+      {
+        "id": "20055",
+        "text": "The engineer climbed the telephone pole."
+      }
+    ],
+    "indices": "技師 が 電柱 を 登る[01]{上った}",
+    "vocabIds": [
+      "1352290",
+      "1352570",
+      "1225110",
+      "1443630"
+    ],
+    "matches": {
+      "1225110": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ぎし"
+        }
+      ],
+      "1352290": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "のぼった"
+        }
+      ],
+      "1352570": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "のぼった"
+        }
+      ],
+      "1443630": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "でんちゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "212748",
+    "original": "そのバイクは電柱にぶつかった。",
+    "en": [
+      {
+        "id": "50031",
+        "text": "The motorbike struck the telephone pole."
+      }
+    ],
+    "indices": "其の[01]{その} バイク は 電柱 に ぶつかる{ぶつかった}",
+    "vocabIds": [
+      "1443630"
+    ],
+    "matches": {
+      "1443630": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "でんちゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "543046",
+    "original": "ぼくはうっかり電柱にぶつかった。",
+    "en": [
+      {
+        "id": "543051",
+        "text": "I carelessly ran into the telegraph pole."
+      }
+    ],
+    "vocabIds": [
+      "1443630"
+    ],
+    "matches": {
+      "1443630": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "でんちゅう"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,109 @@
+[
+  {
+    "id": "203747",
+    "original": "たくさん食べたので腹が膨れた。",
+    "en": [
+      {
+        "id": "40987",
+        "text": "I've had enough, so my stomach is full."
+      }
+    ],
+    "indices": "沢山{たくさん} 食べる{食べた} ので 腹[01] が 膨れる{膨れた}~",
+    "vocabIds": [
+      "1358280",
+      "1602550",
+      "1501110"
+    ],
+    "matches": {
+      "1358280": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "たべたので"
+        }
+      ],
+      "1501110": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "はら"
+        }
+      ],
+      "1602550": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "ふくれた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9779301",
+    "original": "トムってすぐ膨れるよね。",
+    "en": [
+      {
+        "id": "9987884",
+        "text": "Tom gets cross easily."
+      }
+    ],
+    "vocabIds": [
+      "1602550"
+    ],
+    "matches": {
+      "1602550": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "ふくれる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9779310",
+    "original": "炭酸を飲むとすぐにお腹が膨れる。",
+    "en": [
+      {
+        "id": "10180681",
+        "text": "When I drink carbonated water my stomach quickly starts feeling inflated."
+      }
+    ],
+    "vocabIds": [
+      "1602550",
+      "1169870",
+      "1418530",
+      "1002610"
+    ],
+    "matches": {
+      "1002610": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "おなか"
+        }
+      ],
+      "1169870": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "のむと"
+        }
+      ],
+      "1418530": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "たんさん"
+        }
+      ],
+      "1602550": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "ふくれる"
+        }
+      ]
+    }
+  }
+]

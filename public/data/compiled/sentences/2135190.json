@@ -1,0 +1,134 @@
+[
+  {
+    "id": "80519",
+    "original": "明日の朝一番に彼に電話しよう。",
+    "en": [
+      {
+        "id": "323198",
+        "text": "I'll call him first thing in the morning."
+      }
+    ],
+    "indices": "明日 の 朝一番 に 彼(かれ) に 電話 為る(する)[11]{しよう}",
+    "vocabIds": [
+      "2135190",
+      "1584660",
+      "1443840",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1443840": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "でんわ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1584660": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あした"
+        }
+      ],
+      "2135190": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "あさいちばん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "221312",
+    "original": "この手紙を朝一番で出すの忘れないでね。",
+    "en": [
+      {
+        "id": "58636",
+        "text": "Don't forget to mail this letter first thing in the morning."
+      }
+    ],
+    "indices": "此の{この} 手紙 を 朝一番~ で(#2028980) 出す[05] の 忘れる{忘れないで} ね",
+    "vocabIds": [
+      "1519210",
+      "2135190",
+      "1327720",
+      "1338180"
+    ],
+    "matches": {
+      "1327720": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "てがみ"
+        }
+      ],
+      "1338180": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "だす"
+        }
+      ],
+      "1519210": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "わすれないで"
+        }
+      ],
+      "2135190": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "あさいちばん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9124410",
+    "original": "朝一番に電話するよ。",
+    "en": [
+      {
+        "id": "2649650",
+        "text": "I'll call you first thing in the morning."
+      }
+    ],
+    "vocabIds": [
+      "2135190",
+      "1443840"
+    ],
+    "matches": {
+      "1443840": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "でんわ"
+        }
+      ],
+      "2135190": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あさいちばん"
+        }
+      ]
+    }
+  }
+]

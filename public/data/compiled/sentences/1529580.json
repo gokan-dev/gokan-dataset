@@ -1,0 +1,105 @@
+[
+  {
+    "id": "89534",
+    "original": "彼女は私にひどく不愛想だった。",
+    "en": [
+      {
+        "id": "314179",
+        "text": "She was very short with me."
+      },
+      {
+        "id": "10498061",
+        "text": "She was really mean to me."
+      }
+    ],
+    "indices": "彼女[01] は 私(わたし)[01] に 酷い(ひどい){ひどく} 不愛想~ だ{だった}",
+    "vocabIds": [
+      "1529580",
+      "1483150",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1529580": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "ふあいそ"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9776866",
+    "original": "トムって不愛想なのよ。",
+    "en": [
+      {
+        "id": "1024787",
+        "text": "Tom is unsociable."
+      }
+    ],
+    "vocabIds": [
+      "1529580"
+    ],
+    "matches": {
+      "1529580": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "ふあいそ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9940211",
+    "original": "トムね、無愛想だったよ。",
+    "en": [
+      {
+        "id": "3403513",
+        "text": "Tom was unfriendly."
+      }
+    ],
+    "vocabIds": [
+      "1529580"
+    ],
+    "matches": {
+      "1529580": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "ぶあいそう"
+        }
+      ]
+    }
+  }
+]

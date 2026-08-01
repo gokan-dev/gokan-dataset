@@ -1,0 +1,125 @@
+[
+  {
+    "id": "174369",
+    "original": "午前中に電話をすると割高になりますか。",
+    "en": [
+      {
+        "id": "240100",
+        "text": "Is it more expensive to call in the morning?"
+      }
+    ],
+    "indices": "午前中 に 電話 を 為る(する)[01]{する} と 割高~ になる[01]{になります} か",
+    "vocabIds": [
+      "1269070",
+      "1443840",
+      "1606890"
+    ],
+    "matches": {
+      "1269070": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ごぜんちゅう"
+        }
+      ],
+      "1443840": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "でんわ"
+        }
+      ],
+      "1606890": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "わりだか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1118884",
+    "original": "ちょっと割高だけど、ぬいぐるみが欲しかったのでコレクターズエディションの方を買うことにした。",
+    "en": [
+      {
+        "id": "1527984",
+        "text": "It was quite expensive, but I really wanted that plushy, so I decided to buy the collector's edition of it."
+      }
+    ],
+    "vocabIds": [
+      "1547330",
+      "1606890",
+      "1473740",
+      "1545790",
+      "1512070",
+      "1516930"
+    ],
+    "matches": {
+      "1473740": [
+        {
+          "start": 38,
+          "length": 2,
+          "reading": "かう"
+        }
+      ],
+      "1512070": [
+        {
+          "start": 36,
+          "length": 1,
+          "reading": "ほう"
+        }
+      ],
+      "1516930": [
+        {
+          "start": 36,
+          "length": 1,
+          "reading": "ほう"
+        }
+      ],
+      "1545790": [
+        {
+          "start": 36,
+          "length": 1,
+          "reading": "ほう"
+        }
+      ],
+      "1547330": [
+        {
+          "start": 16,
+          "length": 7,
+          "reading": "ほしかったので"
+        }
+      ],
+      "1606890": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "わりだか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10661515",
+    "original": "コンビニって、スーパーより割高だよね。",
+    "en": [
+      {
+        "id": "10663614",
+        "text": "Convenience stores are more expensive than supermarkets."
+      }
+    ],
+    "vocabIds": [
+      "1606890"
+    ],
+    "matches": {
+      "1606890": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "わりだか"
+        }
+      ]
+    }
+  }
+]

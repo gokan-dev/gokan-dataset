@@ -1,0 +1,86 @@
+[
+  {
+    "id": "143802",
+    "original": "水と油を混合させることはできない。",
+    "en": [
+      {
+        "id": "270764",
+        "text": "You can't mix oil with water."
+      }
+    ],
+    "indices": "水(みず) と 油 を 混合[01] 為せる{させる} 事が出来る{ことはできない}",
+    "vocabIds": [
+      "2119060",
+      "1290360"
+    ],
+    "matches": {
+      "1290360": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "こんごう"
+        }
+      ],
+      "2119060": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "みずとあぶら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "143803",
+    "original": "水と油はまざらない。",
+    "en": [
+      {
+        "id": "270763",
+        "text": "Oil and water don't blend."
+      }
+    ],
+    "indices": "水(みず) と 油 は 混ざる{まざらない}",
+    "vocabIds": [
+      "2119060"
+    ],
+    "matches": {
+      "2119060": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "みずとあぶら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10049452",
+    "original": "水と油は混ざらないよ。",
+    "en": [
+      {
+        "id": "3870062",
+        "text": "Water and oil don't mix."
+      }
+    ],
+    "vocabIds": [
+      "1603920",
+      "2119060"
+    ],
+    "matches": {
+      "1603920": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "まざらない"
+        }
+      ],
+      "2119060": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "みずとあぶら"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,128 @@
+{
+  "id": "1466920",
+  "writtenForm": {
+    "kanji": "如く",
+    "alternatives": [
+      "若く",
+      "及く"
+    ],
+    "containedKanji": [
+      "如"
+    ]
+  },
+  "reading": {
+    "primary": "ごとく",
+    "alternatives": [
+      "しく"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 4750,
+    "kanaRank": 3685
+  },
+  "progression": {
+    "kklcStep": 2197
+  },
+  "senses": [
+    {
+      "pos": [
+        "aux-v"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "like",
+        "as"
+      ],
+      "related": {
+        "compounds": [
+          "如し"
+        ]
+      }
+    },
+    {
+      "pos": [
+        "v5k",
+        "vi"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "form"
+        ]
+      },
+      "glosses": [
+        "to match",
+        "to equal"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "しく"
+      ]
+    },
+    {
+      "pos": [
+        "v4k",
+        "vi"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "to catch up with",
+        "to overtake"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "しく"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": false,
+  "mergedVocabs": [
+    {
+      "id": "1466920",
+      "isBase": true,
+      "originalPrimaryReading": "ごとく",
+      "originalGlosses": [
+        "like",
+        "as"
+      ]
+    },
+    {
+      "id": "2174560",
+      "isBase": false,
+      "originalPrimaryReading": "しく",
+      "originalGlosses": [
+        "to match",
+        "to equal"
+      ]
+    }
+  ]
+}

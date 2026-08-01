@@ -1,0 +1,104 @@
+[
+  {
+    "id": "123344",
+    "original": "突然、納屋が爆発炎上した。",
+    "en": [
+      {
+        "id": "280654",
+        "text": "All of a sudden, the barn went up in flames."
+      }
+    ],
+    "indices": "突然 納屋 が 爆発[01] 炎上[01] 為る(する){した}",
+    "vocabIds": [
+      "2841015",
+      "1457040",
+      "1470020"
+    ],
+    "matches": {
+      "1457040": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とつぜん"
+        }
+      ],
+      "1470020": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "なや"
+        }
+      ],
+      "2841015": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "ばくはつえんじょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "235378",
+    "original": "３０階建の超高層ビルが突然爆発炎上した。",
+    "en": [
+      {
+        "id": "72756",
+        "text": "All of a sudden, the thirty-story skyscraper went up in flames."
+      }
+    ],
+    "indices": "階建て{階建} の 超高層ビル~ が 突然 爆発[01] 炎上[01] 為る(する){した}",
+    "vocabIds": [
+      "2411220",
+      "2841015",
+      "2081140",
+      "1457040",
+      "1579350",
+      "1557630"
+    ],
+    "matches": {
+      "1457040": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "とつぜん"
+        }
+      ],
+      "1557630": [
+        {
+          "start": 1,
+          "length": 1,
+          "reading": "ぜろ"
+        }
+      ],
+      "1579350": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "さん"
+        }
+      ],
+      "2081140": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "かいけん"
+        }
+      ],
+      "2411220": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "ちょうこうそうびる"
+        }
+      ],
+      "2841015": [
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "ばくはつえんじょう"
+        }
+      ]
+    }
+  }
+]

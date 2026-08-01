@@ -1,0 +1,87 @@
+[
+  {
+    "id": "75162",
+    "original": "例文の選定がまずかったです。",
+    "en": [
+      {
+        "id": "328557",
+        "text": "The choice of example sentence wasn't wise."
+      }
+    ],
+    "indices": "例文~ の 選定~ が 不味い[02]{まずかった} です",
+    "vocabIds": [
+      "1556590",
+      "1392360"
+    ],
+    "matches": {
+      "1392360": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "せんてい"
+        }
+      ],
+      "1556590": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "れいぶん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "774520",
+    "original": "これは全国学校図書館協議会選定図書です。",
+    "en": [
+      {
+        "id": "10121933",
+        "text": "This book was selected by the National School Library Association."
+      }
+    ],
+    "vocabIds": [
+      "2405380",
+      "1235590",
+      "1581180",
+      "1392360",
+      "1370410"
+    ],
+    "matches": {
+      "1235590": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "きょうぎかい"
+        }
+      ],
+      "1370410": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "としょ"
+        }
+      ],
+      "1392360": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "せんてい"
+        }
+      ],
+      "1581180": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ぜんこく"
+        }
+      ],
+      "2405380": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "がっこうとしょかん"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,95 @@
+[
+  {
+    "id": "202559",
+    "original": "ツベルクリン反応は陽性でした。",
+    "en": [
+      {
+        "id": "39793",
+        "text": "The result of the tuberculin test was positive."
+      }
+    ],
+    "indices": "ツベルクリン~ 反応 は 陽性~ です{でした}",
+    "vocabIds": [
+      "2196480",
+      "1547040"
+    ],
+    "matches": {
+      "1547040": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "ようせい"
+        }
+      ],
+      "2196480": [
+        {
+          "start": 0,
+          "length": 8,
+          "reading": "つべるくりんはんのう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "202560",
+    "original": "ツベルクリン反応は疑陽性でした。",
+    "en": [
+      {
+        "id": "39794",
+        "text": "The tuberculin reaction was pseudopositive."
+      }
+    ],
+    "indices": "ツベルクリン 反応[02]~ は 疑陽性~ です{でした}",
+    "vocabIds": [
+      "2196480",
+      "2026530"
+    ],
+    "matches": {
+      "2026530": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "うたぐようせい"
+        }
+      ],
+      "2196480": [
+        {
+          "start": 0,
+          "length": 8,
+          "reading": "つべるくりんはんのう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "202561",
+    "original": "ツベルクリン反応は陰性でした。",
+    "en": [
+      {
+        "id": "39795",
+        "text": "The result of the tuberculin test was negative."
+      }
+    ],
+    "indices": "ツベルクリン 反応 は 陰性~ です{でした}",
+    "vocabIds": [
+      "2196480",
+      "1170380"
+    ],
+    "matches": {
+      "1170380": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "いんせい"
+        }
+      ],
+      "2196480": [
+        {
+          "start": 0,
+          "length": 8,
+          "reading": "つべるくりんはんのう"
+        }
+      ]
+    }
+  }
+]

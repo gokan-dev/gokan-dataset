@@ -1,0 +1,159 @@
+[
+  {
+    "id": "74378",
+    "original": "「どうしたの？」「あのね、植木の枝の剪定をして欲しかったのよ」",
+    "en": [
+      {
+        "id": "329342",
+        "text": "\"What is it?\" \"Well, you see, I wanted the shrubs pruned.\""
+      }
+    ],
+    "indices": "どうしたの[01] あのね~ 植木 の 枝(えだ) の 剪定~ を 為る(する){して} 欲しい{欲しかった} の よ",
+    "vocabIds": [
+      "1547330",
+      "1587970",
+      "1564660",
+      "1310530"
+    ],
+    "matches": {
+      "1310530": [
+        {
+          "start": 16,
+          "length": 1,
+          "reading": "えだ"
+        }
+      ],
+      "1547330": [
+        {
+          "start": 23,
+          "length": 5,
+          "reading": "ほしかった"
+        }
+      ],
+      "1564660": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "せんてい"
+        }
+      ],
+      "1587970": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "うえき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1937591",
+    "original": "この木は剪定できません。余りに高すぎます。",
+    "en": [
+      {
+        "id": "1686873",
+        "text": "I cannot prune this tree. It's too high."
+      },
+      {
+        "id": "2278753",
+        "text": "I can't prune this tree. It's too tall."
+      }
+    ],
+    "vocabIds": [
+      "1283190",
+      "1543890",
+      "1564660",
+      "1534520"
+    ],
+    "matches": {
+      "1283190": [
+        {
+          "start": 15,
+          "length": 5,
+          "reading": "たかすぎます"
+        }
+      ],
+      "1534520": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "き"
+        }
+      ],
+      "1543890": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "あまりに"
+        }
+      ],
+      "1564660": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "せんてい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10252823",
+    "original": "木の剪定って、したことある？",
+    "en": [
+      {
+        "id": "1722876",
+        "text": "Have you ever pruned a tree?"
+      }
+    ],
+    "vocabIds": [
+      "1564660",
+      "1534520"
+    ],
+    "matches": {
+      "1534520": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "き"
+        }
+      ],
+      "1564660": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "せんてい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10252825",
+    "original": "木の剪定をしたことはありますか？",
+    "en": [
+      {
+        "id": "1722876",
+        "text": "Have you ever pruned a tree?"
+      }
+    ],
+    "vocabIds": [
+      "1564660",
+      "1534520"
+    ],
+    "matches": {
+      "1534520": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "き"
+        }
+      ],
+      "1564660": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "せんてい"
+        }
+      ]
+    }
+  }
+]

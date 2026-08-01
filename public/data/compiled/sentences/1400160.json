@@ -1,0 +1,72 @@
+[
+  {
+    "id": "76657",
+    "original": "すみません。また早とちりをしてしまいました。",
+    "en": [
+      {
+        "id": "327063",
+        "text": "Sorry, I've gone and jumped to conclusions again."
+      }
+    ],
+    "indices": "済みません{すみません} 又{また} 早とちり~ を 為る(する){して} 仕舞う{しまいました}",
+    "vocabIds": [
+      "1400160"
+    ],
+    "matches": {
+      "1400160": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "はやとちり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "229627",
+    "original": "慌て者なので彼はきっと早とちりをするだろう。",
+    "en": [
+      {
+        "id": "66981",
+        "text": "Being a hasty person, he is likely to jump to conclusions."
+      }
+    ],
+    "indices": "慌て者~ なので~ 彼(かれ)[01] は 屹度{きっと} 早とちり を 為る(する){する} だろう",
+    "vocabIds": [
+      "1278830",
+      "1400160",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1278830": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "あわてしゃなので"
+        }
+      ],
+      "1400160": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "はやとちり"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  }
+]

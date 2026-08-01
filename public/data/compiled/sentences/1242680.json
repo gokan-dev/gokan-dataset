@@ -1,0 +1,127 @@
+[
+  {
+    "id": "179691",
+    "original": "金貨は思ったよりはるかに価値があった。",
+    "en": [
+      {
+        "id": "18550",
+        "text": "The gold coin was much more valuable than was supposed."
+      }
+    ],
+    "indices": "金貨~ は 思う{思った} より 遥かに[01]{はるかに} 価値 が[01] 有る{あった}",
+    "vocabIds": [
+      "1589350",
+      "1242680",
+      "1189600"
+    ],
+    "matches": {
+      "1189600": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "かち"
+        }
+      ],
+      "1242680": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きんか"
+        }
+      ],
+      "1589350": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "おもった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "179692",
+    "original": "金貨があります。",
+    "en": [
+      {
+        "id": "18551",
+        "text": "There is a gold coin."
+      }
+    ],
+    "indices": "金貨 が[01] 有る{あります}",
+    "vocabIds": [
+      "1242680"
+    ],
+    "matches": {
+      "1242680": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きんか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "422501",
+    "original": "クリスは金貨７枚を手に入れた！",
+    "en": [
+      {
+        "id": "422502",
+        "text": "Chris gets 7 gold coins!"
+      }
+    ],
+    "indices": "は 金貨 枚(まい) を 手に入れる{手に入れた}",
+    "vocabIds": [
+      "1465610",
+      "1242680",
+      "1319210",
+      "1516920",
+      "1524610",
+      "1327190"
+    ],
+    "matches": {
+      "1242680": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "きんか"
+        }
+      ],
+      "1319210": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "なな"
+        }
+      ],
+      "1327190": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "て"
+        }
+      ],
+      "1465610": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "いれた"
+        }
+      ],
+      "1516920": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "まい"
+        }
+      ],
+      "1524610": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "まい"
+        }
+      ]
+    }
+  }
+]

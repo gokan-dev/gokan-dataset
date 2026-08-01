@@ -1,0 +1,84 @@
+[
+  {
+    "id": "83997",
+    "original": "風雨をもろともせず駅まで歩いた。",
+    "en": [
+      {
+        "id": "319719",
+        "text": "We braved the elements to walk to the station."
+      }
+    ],
+    "indices": "風雨~ を 諸共{もろとも}~ 為る(する){せず} 駅 迄{まで} 歩く{歩いた}",
+    "vocabIds": [
+      "1514320",
+      "1499740",
+      "1175140"
+    ],
+    "matches": {
+      "1175140": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "えき"
+        }
+      ],
+      "1499740": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ふうう"
+        }
+      ],
+      "1514320": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "あるいた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "125859",
+    "original": "長年の風雨でこのアパートの壁はガサガサになっている。",
+    "en": [
+      {
+        "id": "278133",
+        "text": "After being out in the wind and rain for years and years the walls of this apartment building are weather-beaten and brittle."
+      },
+      {
+        "id": "485379",
+        "text": "The walls of this apartment are weather-beaten after many years of wind and rain."
+      }
+    ],
+    "indices": "長年 の 風雨 で(#2028980) 此の{この} アパート[01] の 壁[01] は がさがさ[02]{ガサガサ}~ になる[01]{になっている}",
+    "vocabIds": [
+      "1430100",
+      "1499740",
+      "1509290"
+    ],
+    "matches": {
+      "1430100": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ながねん"
+        }
+      ],
+      "1499740": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ふうう"
+        }
+      ],
+      "1509290": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "かべ"
+        }
+      ]
+    }
+  }
+]

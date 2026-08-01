@@ -1,0 +1,55 @@
+[
+  {
+    "id": "147833",
+    "original": "宿泊先を教えてください。",
+    "en": [
+      {
+        "id": "266727",
+        "text": "Let me know where you're staying."
+      }
+    ],
+    "indices": "宿泊先~ を 教える{教えて} 下さい{ください}",
+    "vocabIds": [
+      "1236900",
+      "1337310"
+    ],
+    "matches": {
+      "1236900": [
+        {
+          "start": 4,
+          "length": 7,
+          "reading": "おしえてください"
+        }
+      ],
+      "1337310": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "しゅくはくさき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12754558",
+    "original": "宿泊先はどうでしたか？",
+    "en": [
+      {
+        "id": "12754528",
+        "text": "How was the hotel you stayed at?"
+      }
+    ],
+    "vocabIds": [
+      "1337310"
+    ],
+    "matches": {
+      "1337310": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "しゅくはくさき"
+        }
+      ]
+    }
+  }
+]

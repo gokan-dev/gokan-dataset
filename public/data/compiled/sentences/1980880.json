@@ -1,0 +1,106 @@
+[
+  {
+    "id": "174346",
+    "original": "後で掛け直す。",
+    "en": [
+      {
+        "id": "240123",
+        "text": "I'm gonna have to call you back."
+      }
+    ],
+    "indices": "後で 掛ける[04]{掛け} 直す[01]",
+    "vocabIds": [
+      "1980880",
+      "1269350"
+    ],
+    "matches": {
+      "1269350": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あとで"
+        }
+      ],
+      "1980880": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "かけなおす"
+        }
+      ]
+    }
+  },
+  {
+    "id": "226425",
+    "original": "かけ直すよ。",
+    "en": [
+      {
+        "id": "63770",
+        "text": "I'll ring you back."
+      }
+    ],
+    "indices": "掛け直す{かけ直す} よ[01]",
+    "vocabIds": [
+      "1980880"
+    ],
+    "matches": {
+      "1980880": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "かけなおす"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11561747",
+    "original": "電話をかけ直すのを忘れたらしい。",
+    "en": [
+      {
+        "id": "10738839",
+        "text": "She forgot to call him back."
+      },
+      {
+        "id": "6303749",
+        "text": "He forgot to call her back."
+      },
+      {
+        "id": "10738838",
+        "text": "She forgot to call her back."
+      },
+      {
+        "id": "10738837",
+        "text": "He forgot to call him back."
+      }
+    ],
+    "vocabIds": [
+      "1519210",
+      "1980880",
+      "1443840"
+    ],
+    "matches": {
+      "1443840": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "でんわ"
+        }
+      ],
+      "1519210": [
+        {
+          "start": 9,
+          "length": 6,
+          "reading": "わすれたらしい"
+        }
+      ],
+      "1980880": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "かけなおす"
+        }
+      ]
+    }
+  }
+]

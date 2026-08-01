@@ -1,0 +1,87 @@
+[
+  {
+    "id": "125380",
+    "original": "泥棒が見つかって警官に毒づいた。",
+    "en": [
+      {
+        "id": "278613",
+        "text": "The thief cursed the police for finding him."
+      }
+    ],
+    "indices": "泥棒 が 見つかる{見つかって} 警官 に 毒突く{毒づいた}~",
+    "vocabIds": [
+      "1604550",
+      "1455620",
+      "1599340",
+      "1252330"
+    ],
+    "matches": {
+      "1252330": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "けいかん"
+        }
+      ],
+      "1455620": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "どくづいた"
+        }
+      ],
+      "1599340": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "どろぼう"
+        }
+      ],
+      "1604550": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "みつかって"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1779386",
+    "original": "イギリスにいる間、よく毒づいたものだった。",
+    "en": [
+      {
+        "id": "1779230",
+        "text": "When I was in England, I used to swear much."
+      }
+    ],
+    "vocabIds": [
+      "1455620",
+      "1215230",
+      "1630250"
+    ],
+    "matches": {
+      "1215230": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "ま"
+        }
+      ],
+      "1455620": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "どくづいた"
+        }
+      ],
+      "1630250": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "ま"
+        }
+      ]
+    }
+  }
+]

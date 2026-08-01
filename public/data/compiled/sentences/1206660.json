@@ -1,0 +1,143 @@
+[
+  {
+    "id": "80386",
+    "original": "明日までに、私は学期末レポートを仕上げることはできない。",
+    "en": [
+      {
+        "id": "323331",
+        "text": "It is impossible for me to finish my term paper by tomorrow."
+      },
+      {
+        "id": "9694295",
+        "text": "It'll be impossible for me to finish my term paper by tomorrow."
+      },
+      {
+        "id": "9694294",
+        "text": "It's impossible for me to finish my term paper by tomorrow."
+      }
+    ],
+    "indices": "明日 迄{まで} に 私(わたし)[01] は 学期末 レポート を 仕上げる 事が出来る{ことはできない}",
+    "vocabIds": [
+      "1305140",
+      "1206660",
+      "1584660",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1206660": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "がっきまつ"
+        }
+      ],
+      "1305140": [
+        {
+          "start": 16,
+          "length": 4,
+          "reading": "しあげる"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1584660": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あした"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "138045",
+    "original": "太郎は学期末のレポートを書いているところだ。",
+    "en": [
+      {
+        "id": "275190",
+        "text": "Taro is writing a term paper."
+      }
+    ],
+    "indices": "は 学期末 の レポート を 書く{書いている} 所(ところ){ところ} だ",
+    "vocabIds": [
+      "1343950",
+      "1206660",
+      "2862858"
+    ],
+    "matches": {
+      "1206660": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "がっきまつ"
+        }
+      ],
+      "1343950": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "かいている"
+        }
+      ],
+      "2862858": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "たろう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "184510",
+    "original": "学期末テストが近づいている。",
+    "en": [
+      {
+        "id": "21638",
+        "text": "The final exams are approaching."
+      }
+    ],
+    "indices": "学期末~ テスト[01] が 近づく{近づいている}",
+    "vocabIds": [
+      "1242170",
+      "1206660"
+    ],
+    "matches": {
+      "1206660": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "がっきまつ"
+        }
+      ],
+      "1242170": [
+        {
+          "start": 7,
+          "length": 6,
+          "reading": "ちかづいている"
+        }
+      ]
+    }
+  }
+]

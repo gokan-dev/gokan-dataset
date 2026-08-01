@@ -1,0 +1,138 @@
+[
+  {
+    "id": "79191",
+    "original": "遊歩道は海岸と平行に走っている。",
+    "en": [
+      {
+        "id": "324526",
+        "text": "The promenade runs parallel to the shore."
+      }
+    ],
+    "indices": "遊歩道 は 海岸 と 平行 に 走る{走っている}",
+    "vocabIds": [
+      "1402540",
+      "1542300",
+      "1201280",
+      "2835826"
+    ],
+    "matches": {
+      "1201280": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "かいがん"
+        }
+      ],
+      "1402540": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "はしっている"
+        }
+      ],
+      "1542300": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ゆうほどう"
+        }
+      ],
+      "2835826": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "へいこう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "168365",
+    "original": "市は遊歩道を拡張する計画だ。",
+    "en": [
+      {
+        "id": "246128",
+        "text": "The city is planning to extend the boardwalk."
+      }
+    ],
+    "indices": "市(し) は 遊歩道~ を 拡張 為る(する){する} 計画 だ",
+    "vocabIds": [
+      "1542300",
+      "1205220",
+      "1252090",
+      "1308090"
+    ],
+    "matches": {
+      "1205220": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "かくちょう"
+        }
+      ],
+      "1252090": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "けいかく"
+        }
+      ],
+      "1308090": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "し"
+        }
+      ],
+      "1542300": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "ゆうほどう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3081110",
+    "original": "それは川沿いの美しい遊歩道です。",
+    "en": [
+      {
+        "id": "8736466",
+        "text": "It is a lovely riverside promenade."
+      },
+      {
+        "id": "8736467",
+        "text": "It is a lovely riverside esplanade."
+      }
+    ],
+    "vocabIds": [
+      "1390040",
+      "1486360",
+      "1542300"
+    ],
+    "matches": {
+      "1390040": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "かわぞい"
+        }
+      ],
+      "1486360": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "うつくしい"
+        }
+      ],
+      "1542300": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "ゆうほどう"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,140 @@
+[
+  {
+    "id": "218285",
+    "original": "これは自家製のジャムです。",
+    "en": [
+      {
+        "id": "55597",
+        "text": "This is homemade jam."
+      }
+    ],
+    "indices": "此れ[01]{これ} は 自家製[01] の ジャム です",
+    "vocabIds": [
+      "1317430"
+    ],
+    "matches": {
+      "1317430": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "じかせい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "230416",
+    "original": "あの老人は５０年も自家製ウイスキーを作っていた。",
+    "en": [
+      {
+        "id": "67783",
+        "text": "The old man had been making white lightning for 50 years."
+      },
+      {
+        "id": "397874",
+        "text": "That old man had been making homemade whiskey for fifty years."
+      },
+      {
+        "id": "397875",
+        "text": "That old man had been making moonshine for fifty years."
+      }
+    ],
+    "indices": "彼の(あの){あの} 老人 は 年(ねん) も 自家製[01]~ ウイスキー を 作る[02]{作っていた}",
+    "vocabIds": [
+      "1597890",
+      "1317430",
+      "1561090",
+      "1268060",
+      "1557630",
+      "2084840"
+    ],
+    "matches": {
+      "1268060": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "ご"
+        }
+      ],
+      "1317430": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "じかせい"
+        }
+      ],
+      "1557630": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "ぜろ"
+        }
+      ],
+      "1561090": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ろうじん"
+        }
+      ],
+      "1597890": [
+        {
+          "start": 18,
+          "length": 5,
+          "reading": "つくっていた"
+        }
+      ],
+      "2084840": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "ねん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3496768",
+    "original": "自家製です。",
+    "en": [
+      {
+        "id": "2170801",
+        "text": "It's homemade."
+      }
+    ],
+    "vocabIds": [
+      "1317430"
+    ],
+    "matches": {
+      "1317430": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "じかせい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11505823",
+    "original": "このジャムは、自家製よ。",
+    "en": [
+      {
+        "id": "5670097",
+        "text": "This jam is homemade."
+      }
+    ],
+    "vocabIds": [
+      "1317430"
+    ],
+    "matches": {
+      "1317430": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "じかせい"
+        }
+      ]
+    }
+  }
+]

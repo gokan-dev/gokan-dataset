@@ -1,0 +1,133 @@
+[
+  {
+    "id": "171609",
+    "original": "今日は私達の記念日なので、夕御飯もスペシャルでいこう。",
+    "en": [
+      {
+        "id": "242866",
+        "text": "Today is our anniversary so let's make this a special dinner."
+      }
+    ],
+    "indices": "今日 は 私たち{私達} の 記念日~ なので 夕御飯~ も スペシャル で(#2028980) 行く{いこう}",
+    "vocabIds": [
+      "1289400",
+      "1223380",
+      "2013470",
+      "1311300"
+    ],
+    "matches": {
+      "1223380": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "きねんび"
+        }
+      ],
+      "1289400": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きょうは"
+        }
+      ],
+      "1311300": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "わたしたち"
+        }
+      ],
+      "2013470": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "ゆうごはん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1003769",
+    "original": "革命記念日万歳！",
+    "en": [
+      {
+        "id": "1214818",
+        "text": "Celebrate the revolution memorial day!"
+      }
+    ],
+    "vocabIds": [
+      "1223380",
+      "1206500",
+      "1601350",
+      "1526310"
+    ],
+    "matches": {
+      "1206500": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かくめい"
+        }
+      ],
+      "1223380": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "きねんび"
+        }
+      ],
+      "1526310": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "まんさい"
+        }
+      ],
+      "1601350": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "まんさい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10153781",
+    "original": "明日は僕らの記念日だよ。",
+    "en": [
+      {
+        "id": "10153769",
+        "text": "It's our anniversary tomorrow."
+      }
+    ],
+    "vocabIds": [
+      "1223380",
+      "1584660",
+      "1521410"
+    ],
+    "matches": {
+      "1223380": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "きねんび"
+        }
+      ],
+      "1521410": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ぼくら"
+        }
+      ],
+      "1584660": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あした"
+        }
+      ]
+    }
+  }
+]

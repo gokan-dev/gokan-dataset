@@ -1,0 +1,96 @@
+{
+  "id": "1196860",
+  "writtenForm": {
+    "kanji": "我人",
+    "alternatives": [
+      "和人"
+    ],
+    "containedKanji": [
+      "我",
+      "人"
+    ]
+  },
+  "reading": {
+    "primary": "われひと",
+    "alternatives": [
+      "わひと"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 135444
+  },
+  "progression": {
+    "kklcStep": 221
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "myself and others"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "pn"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "you"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "わひと"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": false,
+  "mergedVocabs": [
+    {
+      "id": "1196860",
+      "isBase": true,
+      "originalPrimaryReading": "われひと",
+      "originalGlosses": [
+        "myself and others"
+      ]
+    },
+    {
+      "id": "2411970",
+      "isBase": false,
+      "originalPrimaryReading": "わひと",
+      "originalGlosses": [
+        "you"
+      ]
+    }
+  ],
+  "components": [
+    "1196670",
+    "1580640"
+  ]
+}

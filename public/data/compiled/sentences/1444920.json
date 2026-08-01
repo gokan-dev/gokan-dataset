@@ -1,0 +1,134 @@
+[
+  {
+    "id": "166504",
+    "original": "私たちはシカゴで途中下車した。",
+    "en": [
+      {
+        "id": "247998",
+        "text": "We had a stopover in Chicago."
+      }
+    ],
+    "indices": "私たち は シカゴ で(#2028980) 途中下車 為る(する){した}",
+    "vocabIds": [
+      "1444920",
+      "1311300"
+    ],
+    "matches": {
+      "1311300": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1444920": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "とちゅうげしゃ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "182010",
+    "original": "京都で途中下車して古都見物はいかがですか。",
+    "en": [
+      {
+        "id": "19329",
+        "text": "How about stopping over at Kyoto and sightseeing at the old capital?"
+      }
+    ],
+    "indices": "京都 で(#2028980) 途中下車 為る(する){して} 古都 見物(けんぶつ) は 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "1444920",
+      "1652350",
+      "1265960",
+      "1260000"
+    ],
+    "matches": {
+      "1260000": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "けんぶつ"
+        }
+      ],
+      "1265960": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "こと"
+        }
+      ],
+      "1444920": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "とちゅうげしゃ"
+        }
+      ],
+      "1652350": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きょうと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "216370",
+    "original": "シカゴで途中下車できますか。",
+    "en": [
+      {
+        "id": "53673",
+        "text": "Can I stop over in Chicago?"
+      }
+    ],
+    "indices": "シカゴ で(#2028980) 途中下車 出来る{できます} か",
+    "vocabIds": [
+      "1444920"
+    ],
+    "matches": {
+      "1444920": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "とちゅうげしゃ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "220853",
+    "original": "この切符は途中下車できます。",
+    "en": [
+      {
+        "id": "58175",
+        "text": "This ticket allows you to stop over at any station."
+      }
+    ],
+    "indices": "此の{この} 切符 は 途中下車~ 出来る{できます}",
+    "vocabIds": [
+      "1444920",
+      "1385170"
+    ],
+    "matches": {
+      "1385170": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きっぷ"
+        }
+      ],
+      "1444920": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "とちゅうげしゃ"
+        }
+      ]
+    }
+  }
+]

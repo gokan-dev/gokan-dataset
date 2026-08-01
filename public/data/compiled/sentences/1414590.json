@@ -1,0 +1,71 @@
+[
+  {
+    "id": "226079",
+    "original": "ガンは人類の大敵である。",
+    "en": [
+      {
+        "id": "63419",
+        "text": "Cancer is a great enemy of humanity."
+      }
+    ],
+    "indices": "癌{ガン} は 人類 の 大敵~ である",
+    "vocabIds": [
+      "1369530",
+      "1414590"
+    ],
+    "matches": {
+      "1369530": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "じんるい"
+        }
+      ],
+      "1414590": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "たいてき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "886071",
+    "original": "夜更かしはお肌の大敵だよ。",
+    "en": [
+      {
+        "id": "888680",
+        "text": "Staying up late at night is very bad for your skin."
+      }
+    ],
+    "vocabIds": [
+      "1606000",
+      "1414590",
+      "1476450"
+    ],
+    "matches": {
+      "1414590": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "たいてき"
+        }
+      ],
+      "1476450": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "はだ"
+        }
+      ],
+      "1606000": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "よるふかし"
+        }
+      ]
+    }
+  }
+]

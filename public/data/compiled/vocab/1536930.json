@@ -1,0 +1,140 @@
+{
+  "id": "1536930",
+  "writtenForm": {
+    "kanji": "夜中",
+    "alternatives": [
+      "夜なか",
+      "夜じゅう"
+    ],
+    "containedKanji": [
+      "夜",
+      "中"
+    ]
+  },
+  "reading": {
+    "primary": "よなか",
+    "alternatives": [
+      "やちゅう",
+      "よじゅう"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 2907,
+    "kanaRank": 64693
+  },
+  "jlptLevel": 3,
+  "progression": {
+    "kklcStep": 467
+  },
+  "senses": [
+    {
+      "pos": [
+        "n",
+        "adv"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "middle of the night",
+        "dead of night"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n",
+        "adv"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "during the night",
+        "at night"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "やちゅう"
+      ]
+    },
+    {
+      "pos": [
+        "n",
+        "adv"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "all night",
+        "the whole night"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "よじゅう"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1536930",
+      "isBase": true,
+      "originalPrimaryReading": "よなか",
+      "originalGlosses": [
+        "middle of the night",
+        "dead of night"
+      ]
+    },
+    {
+      "id": "1584830",
+      "isBase": false,
+      "originalPrimaryReading": "やちゅう",
+      "originalGlosses": [
+        "during the night",
+        "at night"
+      ]
+    },
+    {
+      "id": "2581790",
+      "isBase": false,
+      "originalPrimaryReading": "よじゅう",
+      "originalGlosses": [
+        "all night",
+        "the whole night"
+      ]
+    }
+  ],
+  "components": [
+    "1536350",
+    "1423310"
+  ],
+  "parents": [
+    "1364380"
+  ]
+}

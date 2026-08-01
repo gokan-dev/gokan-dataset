@@ -1,0 +1,141 @@
+[
+  {
+    "id": "115889",
+    "original": "彼の立派な演説も豚に真珠に等しかった。",
+    "en": [
+      {
+        "id": "287780",
+        "text": "His great oration was like pearls before swine."
+      }
+    ],
+    "indices": "彼(かれ)[01]{彼の} 立派{立派な} 演説 も 豚に真珠 に 等しい{等しかった}",
+    "vocabIds": [
+      "1449330",
+      "1457400",
+      "1000420",
+      "1551790",
+      "1176960"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれの"
+        }
+      ],
+      "1176960": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "えんぜつ"
+        }
+      ],
+      "1449330": [
+        {
+          "start": 13,
+          "length": 5,
+          "reading": "ひとしかった"
+        }
+      ],
+      "1457400": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "ぶたにしんじゅ"
+        }
+      ],
+      "1551790": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "りっぱ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "123265",
+    "original": "豚に真珠とはまさにこのことだ。",
+    "en": [
+      {
+        "id": "280732",
+        "text": "This is like casting pearls before swine."
+      }
+    ],
+    "indices": "豚に真珠~ とは 正に[01]{まさに} 此の{この} 事(こと){こと} だ",
+    "vocabIds": [
+      "1457400"
+    ],
+    "matches": {
+      "1457400": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "ぶたにしんじゅ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "123266",
+    "original": "豚に真珠を与えるな。",
+    "en": [
+      {
+        "id": "280733",
+        "text": "Cast not pearls before swine."
+      },
+      {
+        "id": "280735",
+        "text": "Do not cast pearls before swine."
+      },
+      {
+        "id": "813180",
+        "text": "Don't cast pearls before swine."
+      }
+    ],
+    "indices": "豚に真珠 を 与える[01] な[01]",
+    "vocabIds": [
+      "1457400",
+      "1544730"
+    ],
+    "matches": {
+      "1457400": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "ぶたにしんじゅ"
+        }
+      ],
+      "1544730": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "あたえる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10565768",
+    "original": "それは、豚に真珠ってもんだよ。",
+    "en": [
+      {
+        "id": "43061",
+        "text": "It is like casting pearls before swine."
+      }
+    ],
+    "vocabIds": [
+      "1457400"
+    ],
+    "matches": {
+      "1457400": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "ぶたにしんじゅ"
+        }
+      ]
+    }
+  }
+]

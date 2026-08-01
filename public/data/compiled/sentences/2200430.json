@@ -1,0 +1,64 @@
+[
+  {
+    "id": "234361",
+    "original": "あたりは水を打ったように静まり返った。",
+    "en": [
+      {
+        "id": "71737",
+        "text": "There came a complete silence. You could hear a pin drop."
+      }
+    ],
+    "indices": "辺り(あたり)[01]{あたり} は 水を打ったよう{水を打ったように} 静まり返る{静まり返った}",
+    "vocabIds": [
+      "2200430",
+      "1660110"
+    ],
+    "matches": {
+      "1660110": [
+        {
+          "start": 12,
+          "length": 6,
+          "reading": "しずまりかえった"
+        }
+      ],
+      "2200430": [
+        {
+          "start": 4,
+          "length": 7,
+          "reading": "みずをうったよう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "234363",
+    "original": "あたりは水を打ったように静かだった。",
+    "en": [
+      {
+        "id": "71738",
+        "text": "There was complete silence. You could hear a pin drop."
+      }
+    ],
+    "indices": "辺り(あたり)[01]{あたり} は 水を打ったよう{水を打ったように}~ 静か だ{だった}",
+    "vocabIds": [
+      "2200430",
+      "1381820"
+    ],
+    "matches": {
+      "1381820": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "しずか"
+        }
+      ],
+      "2200430": [
+        {
+          "start": 4,
+          "length": 7,
+          "reading": "みずをうったよう"
+        }
+      ]
+    }
+  }
+]

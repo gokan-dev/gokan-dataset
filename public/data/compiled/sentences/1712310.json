@@ -1,0 +1,79 @@
+[
+  {
+    "id": "84137",
+    "original": "部屋は兎小屋みたいだけど。",
+    "en": [
+      {
+        "id": "319578",
+        "text": "But my place is like a rabbit hutch."
+      }
+    ],
+    "indices": "部屋[01] は 兎小屋~ みたい だ けど",
+    "vocabIds": [
+      "1712310",
+      "1499320"
+    ],
+    "matches": {
+      "1499320": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "へや"
+        }
+      ],
+      "1712310": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "うさぎこや"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9930544",
+    "original": "「トム、お家建てたんだってね」「あっ、はい。『うさぎ小屋』ですけど」「またまた、謙遜しちゃって」",
+    "en": [
+      {
+        "id": "10282907",
+        "text": "\"Tom, I heard you built your own house.\" \"Er, yeah. It's only small though.\" \"You're underselling yourself again.\""
+      }
+    ],
+    "vocabIds": [
+      "1712310",
+      "2213230",
+      "2609780",
+      "1260240"
+    ],
+    "matches": {
+      "1260240": [
+        {
+          "start": 40,
+          "length": 2,
+          "reading": "けんそん"
+        }
+      ],
+      "1712310": [
+        {
+          "start": 23,
+          "length": 5,
+          "reading": "うさぎこや"
+        }
+      ],
+      "2213230": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "おいえ"
+        }
+      ],
+      "2609780": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "だて"
+        }
+      ]
+    }
+  }
+]

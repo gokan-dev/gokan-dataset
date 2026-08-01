@@ -1,0 +1,41 @@
+[
+  {
+    "id": "137433",
+    "original": "大雪で交通が途絶えた。",
+    "en": [
+      {
+        "id": "275803",
+        "text": "The traffic was interrupted by the heavy snow."
+      }
+    ],
+    "indices": "大雪[01] で(#2028980) 交通[01] が 途絶える{途絶えた}",
+    "vocabIds": [
+      "1444900",
+      "1414350",
+      "1272280"
+    ],
+    "matches": {
+      "1272280": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "こうつう"
+        }
+      ],
+      "1414350": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おおゆき"
+        }
+      ],
+      "1444900": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "とだえた"
+        }
+      ]
+    }
+  }
+]

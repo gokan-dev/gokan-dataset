@@ -1,0 +1,95 @@
+{
+  "id": "1233370",
+  "writtenForm": {
+    "kanji": "京阪",
+    "alternatives": [
+      "京坂"
+    ],
+    "containedKanji": [
+      "京",
+      "阪"
+    ]
+  },
+  "reading": {
+    "primary": "けいはん",
+    "alternatives": []
+  },
+  "frequency": {
+    "kanjiRank": 60843
+  },
+  "progression": {
+    "kklcStep": 376
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "Kyoto and Osaka",
+        "Kyoto-Osaka area"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "company"
+        ]
+      },
+      "glosses": [
+        "Keihan Electric Railway (abbr)"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "けいはん"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1233370",
+      "isBase": true,
+      "originalPrimaryReading": "けいはん",
+      "originalGlosses": [
+        "Kyoto and Osaka",
+        "Kyoto-Osaka area"
+      ]
+    },
+    {
+      "id": "5219761",
+      "isBase": false,
+      "originalPrimaryReading": "けいはん",
+      "originalGlosses": [
+        "Keihan Electric Railway (abbr)"
+      ]
+    }
+  ],
+  "components": [
+    "1233320"
+  ]
+}

@@ -1,0 +1,632 @@
+[
+  {
+    "id": "88786",
+    "original": "彼女は週に１度両親に手紙を出す。",
+    "en": [
+      {
+        "id": "314921",
+        "text": "She writes to her parents once a week."
+      }
+    ],
+    "indices": "彼女[01] は 週 に 一度{１度} 両親 に 手紙を出す",
+    "vocabIds": [
+      "1895460",
+      "1483150",
+      "1576250",
+      "1602710",
+      "1333450"
+    ],
+    "matches": {
+      "1333450": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "しゅう"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1576250": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "いちど"
+        }
+      ],
+      "1602710": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "りょうしん"
+        }
+      ],
+      "1895460": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "てがみをだす"
+        }
+      ]
+    }
+  },
+  {
+    "id": "146747",
+    "original": "少なくとも月に一度は両親に手紙を出すことを忘れてはならない。",
+    "en": [
+      {
+        "id": "267814",
+        "text": "You must not forget to write to your parents at least once a month."
+      }
+    ],
+    "indices": "少なくとも 月(つき)[02] に 一度 は 両親 に 手紙を出す 事(こと){こと} を 忘れる{忘れて} は ならない",
+    "vocabIds": [
+      "1595610",
+      "1895460",
+      "1519210",
+      "1576250",
+      "1602710",
+      "1255430"
+    ],
+    "matches": {
+      "1255430": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "つき"
+        }
+      ],
+      "1519210": [
+        {
+          "start": 21,
+          "length": 3,
+          "reading": "わすれて"
+        }
+      ],
+      "1576250": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "いちど"
+        }
+      ],
+      "1595610": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すくなくとも"
+        }
+      ],
+      "1602710": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "りょうしん"
+        }
+      ],
+      "1895460": [
+        {
+          "start": 13,
+          "length": 5,
+          "reading": "てがみをだす"
+        }
+      ]
+    }
+  },
+  {
+    "id": "148564",
+    "original": "手紙を出す前に切手を貼るのを忘れた。",
+    "en": [
+      {
+        "id": "265995",
+        "text": "I forgot to put on the stamp before I mailed the letter."
+      }
+    ],
+    "indices": "手紙を出す 前(まえ) に 切手(きって) を 張る(はる)[01]{貼る} の を 忘れる{忘れた}",
+    "vocabIds": [
+      "1895460",
+      "1519210",
+      "1392590",
+      "1385070",
+      "1591920",
+      "1427900"
+    ],
+    "matches": {
+      "1385070": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "きって"
+        }
+      ],
+      "1392590": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "まえに"
+        }
+      ],
+      "1427900": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "はる"
+        }
+      ],
+      "1519210": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "わすれた"
+        }
+      ],
+      "1591920": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "きって"
+        }
+      ],
+      "1895460": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "てがみをだす"
+        }
+      ]
+    }
+  },
+  {
+    "id": "148565",
+    "original": "手紙を出すのを忘れないでね。",
+    "en": [
+      {
+        "id": "265994",
+        "text": "Remember to mail the letter."
+      }
+    ],
+    "indices": "手紙を出す の を 忘れる{忘れないで} ね(#2029080)[01]",
+    "vocabIds": [
+      "1895460",
+      "1519210"
+    ],
+    "matches": {
+      "1519210": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "わすれないで"
+        }
+      ],
+      "1895460": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "てがみをだす"
+        }
+      ]
+    }
+  },
+  {
+    "id": "148567",
+    "original": "手紙を出すのを忘れてたら、注意して下さい。",
+    "en": [
+      {
+        "id": "265993",
+        "text": "Please remind me to post the letters."
+      }
+    ],
+    "indices": "手紙を出す の を 忘れる{忘れてたら} 注意 為る(する){して} 下さい",
+    "vocabIds": [
+      "1895460",
+      "1519210",
+      "1184280",
+      "1426530"
+    ],
+    "matches": {
+      "1184280": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "ください"
+        }
+      ],
+      "1426530": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "ちゅうい"
+        }
+      ],
+      "1519210": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "わすれてたら"
+        }
+      ],
+      "1895460": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "てがみをだす"
+        }
+      ]
+    }
+  },
+  {
+    "id": "172032",
+    "original": "今日この手紙を出すつもりだよ。",
+    "en": [
+      {
+        "id": "242443",
+        "text": "I'll mail this letter today."
+      }
+    ],
+    "indices": "今日 此の{この} 手紙を出す 積もり{つもり} だ よ",
+    "vocabIds": [
+      "1895460",
+      "1579110"
+    ],
+    "matches": {
+      "1579110": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きょう"
+        }
+      ],
+      "1895460": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "てがみをだす"
+        }
+      ]
+    }
+  },
+  {
+    "id": "201624",
+    "original": "手紙を出すのを忘れないでくださいね。",
+    "en": [
+      {
+        "id": "38834",
+        "text": "Please don't forget to post the letter."
+      },
+      {
+        "id": "1243488",
+        "text": "Please don't forget to mail this letter."
+      }
+    ],
+    "indices": "手紙を出す の を 忘れる{忘れないで} 下さい{ください} ね",
+    "vocabIds": [
+      "1519210",
+      "1895460"
+    ],
+    "matches": {
+      "1519210": [
+        {
+          "start": 7,
+          "length": 9,
+          "reading": "わすれないでください"
+        }
+      ],
+      "1895460": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "てがみをだす"
+        }
+      ]
+    }
+  },
+  {
+    "id": "208561",
+    "original": "その手紙を出す前に切手をはるのを忘れないで下さい。",
+    "en": [
+      {
+        "id": "45820",
+        "text": "Please don't forget to put a stamp on the letter before mailing it."
+      }
+    ],
+    "indices": "其の[01]{その} 手紙を出す 前(まえ) に 切手(きって) を 張る(はる)[01]{はる} の を 忘れる{忘れないで} 下さい",
+    "vocabIds": [
+      "1519210",
+      "1895460",
+      "1392590",
+      "1385070",
+      "1591920"
+    ],
+    "matches": {
+      "1385070": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "きって"
+        }
+      ],
+      "1392590": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "まえに"
+        }
+      ],
+      "1519210": [
+        {
+          "start": 16,
+          "length": 8,
+          "reading": "わすれないでください"
+        }
+      ],
+      "1591920": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "きって"
+        }
+      ],
+      "1895460": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "てがみをだす"
+        }
+      ]
+    }
+  },
+  {
+    "id": "209485",
+    "original": "その手紙を出すのを忘れるな。",
+    "en": [
+      {
+        "id": "46743",
+        "text": "Don't forget to post the letter."
+      },
+      {
+        "id": "321128",
+        "text": "Don't forget to mail this letter."
+      }
+    ],
+    "indices": "其の[01]{その} 手紙を出す の を 忘れる な[01]",
+    "vocabIds": [
+      "1895460",
+      "1519210"
+    ],
+    "matches": {
+      "1519210": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "わすれる"
+        }
+      ],
+      "1895460": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "てがみをだす"
+        }
+      ]
+    }
+  },
+  {
+    "id": "221318",
+    "original": "この手紙を出すのを忘れないで下さいね。",
+    "en": [
+      {
+        "id": "58642",
+        "text": "Please remember to mail this letter."
+      }
+    ],
+    "indices": "此の{この} 手紙を出す の を 忘れる{忘れないで} 下さい ね",
+    "vocabIds": [
+      "1519210",
+      "1895460"
+    ],
+    "matches": {
+      "1519210": [
+        {
+          "start": 9,
+          "length": 8,
+          "reading": "わすれないでください"
+        }
+      ],
+      "1895460": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "てがみをだす"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9808997",
+    "original": "この手紙を出すの、忘れないでくださいよ。",
+    "en": [
+      {
+        "id": "1243488",
+        "text": "Please don't forget to mail this letter."
+      }
+    ],
+    "vocabIds": [
+      "1519210",
+      "1895460"
+    ],
+    "matches": {
+      "1519210": [
+        {
+          "start": 9,
+          "length": 9,
+          "reading": "わすれないでください"
+        }
+      ],
+      "1895460": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "てがみをだす"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10208736",
+    "original": "学校に行く時、この手紙を出すの忘れないでよ。",
+    "en": [
+      {
+        "id": "21498",
+        "text": "Don't forget to mail this letter on your way to school."
+      }
+    ],
+    "vocabIds": [
+      "1895460",
+      "1519210",
+      "1206730",
+      "1578850",
+      "1315840"
+    ],
+    "matches": {
+      "1206730": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "がっこう"
+        }
+      ],
+      "1315840": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "とき"
+        }
+      ],
+      "1519210": [
+        {
+          "start": 15,
+          "length": 5,
+          "reading": "わすれないで"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "いく"
+        }
+      ],
+      "1895460": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "てがみをだす"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10215416",
+    "original": "明日の朝、忘れずにこの手紙を出すんだよ。",
+    "en": [
+      {
+        "id": "323172",
+        "text": "Remember to mail this letter tomorrow morning."
+      }
+    ],
+    "vocabIds": [
+      "1895460",
+      "1519210",
+      "1584660",
+      "1428280"
+    ],
+    "matches": {
+      "1428280": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "あさ"
+        }
+      ],
+      "1519210": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "わすれず"
+        }
+      ],
+      "1584660": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あした"
+        }
+      ],
+      "1895460": [
+        {
+          "start": 11,
+          "length": 5,
+          "reading": "てがみをだす"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11216483",
+    "original": "学校に行く時、忘れずにこの手紙を出すんだよ。",
+    "en": [
+      {
+        "id": "1500436",
+        "text": "Remember to mail the letter on your way to school."
+      }
+    ],
+    "vocabIds": [
+      "1895460",
+      "1519210",
+      "1206730",
+      "1578850",
+      "1315840"
+    ],
+    "matches": {
+      "1206730": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "がっこう"
+        }
+      ],
+      "1315840": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "とき"
+        }
+      ],
+      "1519210": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "わすれず"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "いく"
+        }
+      ],
+      "1895460": [
+        {
+          "start": 13,
+          "length": 5,
+          "reading": "てがみをだす"
+        }
+      ]
+    }
+  }
+]

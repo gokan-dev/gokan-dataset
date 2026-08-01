@@ -1,0 +1,91 @@
+[
+  {
+    "id": "75090",
+    "original": "燃えるゴミと燃えないゴミの区別もよく分からないよね。",
+    "en": [
+      {
+        "id": "328629",
+        "text": "It's difficult to tell which is which for burnable and non-burnable rubbish as well, isn't it?"
+      }
+    ],
+    "indices": "燃える 塵(ごみ){ゴミ} と 燃える{燃えない} 塵(ごみ){ゴミ} 之(の)[01]{の} 区別 も 良く{よく} 分かる{分からない} よ ね",
+    "vocabIds": [
+      "2842184",
+      "2842183",
+      "1606560",
+      "1244250"
+    ],
+    "matches": {
+      "1244250": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "くべつ"
+        }
+      ],
+      "1606560": [
+        {
+          "start": 18,
+          "length": 5,
+          "reading": "わからない"
+        }
+      ],
+      "2842183": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "もえるごみ"
+        }
+      ],
+      "2842184": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "もえないごみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10388940",
+    "original": "今日は燃えないゴミの日だよ。",
+    "en": [
+      {
+        "id": "10365435",
+        "text": "Today is a non-burnable garbage day."
+      },
+      {
+        "id": "329525",
+        "text": "Today is a non-burnable rubbish day."
+      }
+    ],
+    "vocabIds": [
+      "2842184",
+      "1289400",
+      "1463770"
+    ],
+    "matches": {
+      "1289400": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きょうは"
+        }
+      ],
+      "1463770": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "ひ"
+        }
+      ],
+      "2842184": [
+        {
+          "start": 3,
+          "length": 6,
+          "reading": "もえないごみ"
+        }
+      ]
+    }
+  }
+]

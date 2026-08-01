@@ -1,0 +1,341 @@
+[
+  {
+    "id": "142064",
+    "original": "折り返し電話するよう伝えます。",
+    "en": [
+      {
+        "id": "272506",
+        "text": "I'll tell him to call you back."
+      }
+    ],
+    "indices": "折り返し[01]~ 電話 為る(する)[11]{する} 様(よう){よう} 伝える{伝えます}",
+    "vocabIds": [
+      "1385890",
+      "1441870",
+      "1443840"
+    ],
+    "matches": {
+      "1385890": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "おりかえし"
+        }
+      ],
+      "1441870": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "つたえます"
+        }
+      ],
+      "1443840": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "でんわ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "142065",
+    "original": "折り返し電話する。",
+    "en": [
+      {
+        "id": "508782",
+        "text": "I'll call you back."
+      }
+    ],
+    "indices": "折り返し[01] 電話 為る(する)[11]{する}",
+    "vocabIds": [
+      "1385890",
+      "1443840"
+    ],
+    "matches": {
+      "1385890": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "おりかえし"
+        }
+      ],
+      "1443840": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "でんわ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "142066",
+    "original": "折り返し商品を郵送するべし。",
+    "en": [
+      {
+        "id": "272504",
+        "text": "Please send the merchandise by return."
+      }
+    ],
+    "indices": "折り返し[01] 商品 を 郵送 為る(する){する} 可し[01]{べし}",
+    "vocabIds": [
+      "1385890",
+      "1347310",
+      "1542380"
+    ],
+    "matches": {
+      "1347310": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "しょうひん"
+        }
+      ],
+      "1385890": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "おりかえし"
+        }
+      ],
+      "1542380": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ゆうそう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "142067",
+    "original": "折り返しの見積書をメールで返信してください。",
+    "en": [
+      {
+        "id": "272503",
+        "text": "We look forward to receiving your quote by return mail."
+      }
+    ],
+    "indices": "折り返し[01]{折り返しの} 見積書 を メール(#1132620)[02]~ で(#2028980) 返信 為る(する){して} 下さい{ください}",
+    "vocabIds": [
+      "1385890",
+      "1259800",
+      "1512240"
+    ],
+    "matches": {
+      "1259800": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "みつもりしょ"
+        }
+      ],
+      "1385890": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "おりかえし"
+        }
+      ],
+      "1512240": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "へんしん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "174357",
+    "original": "後で、折り返し電話するわ。",
+    "en": [
+      {
+        "id": "240112",
+        "text": "Let me call you back later, OK?"
+      }
+    ],
+    "indices": "後で 折り返し[01] 電話 為る(する)[11]{する} わ",
+    "vocabIds": [
+      "1385890",
+      "1269350",
+      "1443840"
+    ],
+    "matches": {
+      "1269350": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あとで"
+        }
+      ],
+      "1385890": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "おりかえし"
+        }
+      ],
+      "1443840": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "でんわ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2063335",
+    "original": "折り返し電話します。",
+    "en": [
+      {
+        "id": "1860636",
+        "text": "Let me call you back."
+      }
+    ],
+    "vocabIds": [
+      "1385890",
+      "1443840"
+    ],
+    "matches": {
+      "1385890": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "おりかえし"
+        }
+      ],
+      "1443840": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "でんわ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9055011",
+    "original": "あいつらさ、折り返し電話してこなかったんだ。",
+    "en": [
+      {
+        "id": "9055003",
+        "text": "They didn't call me back."
+      }
+    ],
+    "vocabIds": [
+      "1385890",
+      "1443840"
+    ],
+    "matches": {
+      "1385890": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "おりかえし"
+        }
+      ],
+      "1443840": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "でんわ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11455301",
+    "original": "折り返し電話をくれ。",
+    "en": [
+      {
+        "id": "11455300",
+        "text": "Phone me back."
+      },
+      {
+        "id": "5800174",
+        "text": "Call me back."
+      },
+      {
+        "id": "11455299",
+        "text": "Ring me back."
+      },
+      {
+        "id": "11747243",
+        "text": "Give me a call back."
+      }
+    ],
+    "vocabIds": [
+      "1385890",
+      "1443840"
+    ],
+    "matches": {
+      "1385890": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "おりかえし"
+        }
+      ],
+      "1443840": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "でんわ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11561746",
+    "original": "折り返しの電話を忘れてたらしい。",
+    "en": [
+      {
+        "id": "10738838",
+        "text": "She forgot to call her back."
+      },
+      {
+        "id": "6303749",
+        "text": "He forgot to call her back."
+      },
+      {
+        "id": "10738837",
+        "text": "He forgot to call him back."
+      },
+      {
+        "id": "10738839",
+        "text": "She forgot to call him back."
+      }
+    ],
+    "vocabIds": [
+      "1519210",
+      "1385890",
+      "1443840"
+    ],
+    "matches": {
+      "1385890": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "おりかえし"
+        }
+      ],
+      "1443840": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "でんわ"
+        }
+      ],
+      "1519210": [
+        {
+          "start": 8,
+          "length": 7,
+          "reading": "わすれてたらしい"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,196 @@
+[
+  {
+    "id": "145242",
+    "original": "新鮮な伊勢エビを見たら、食欲がわいた。",
+    "en": [
+      {
+        "id": "269321",
+        "text": "The sight of fresh lobster gave me an appetite."
+      }
+    ],
+    "indices": "新鮮{新鮮な} 伊勢海老{伊勢エビ} を 見る{見たら} 食欲 が 湧く[03]{わいた}",
+    "vocabIds": [
+      "1587250",
+      "1259290",
+      "1362100",
+      "1358660"
+    ],
+    "matches": {
+      "1259290": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "みたら"
+        }
+      ],
+      "1358660": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "しょくよく"
+        }
+      ],
+      "1362100": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しんせん"
+        }
+      ],
+      "1587250": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "いせえび"
+        }
+      ]
+    }
+  },
+  {
+    "id": "191154",
+    "original": "伊勢エビが大好きなのですが、非常に高いのです。",
+    "en": [
+      {
+        "id": "28314",
+        "text": "I am very fond of lobsters, but they are very, very expensive."
+      }
+    ],
+    "indices": "伊勢海老{伊勢エビ}~ が 大好き なのだ{なのです} が[03] 非常に 高い[02] のです",
+    "vocabIds": [
+      "1587250",
+      "1413660",
+      "1484930",
+      "1283190"
+    ],
+    "matches": {
+      "1283190": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "たかい"
+        }
+      ],
+      "1413660": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "だいすき"
+        }
+      ],
+      "1484930": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "ひじょうに"
+        }
+      ],
+      "1587250": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "いせえび"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1222214",
+    "original": "僕は伊勢えびにアレルギーがあります。",
+    "en": [
+      {
+        "id": "1229128",
+        "text": "I'm allergic to spiny lobster."
+      },
+      {
+        "id": "1229129",
+        "text": "I'm allergic to Panulirus japonicus."
+      },
+      {
+        "id": "1229130",
+        "text": "I'm allergic to Japanese spiny lobster."
+      }
+    ],
+    "vocabIds": [
+      "1587250",
+      "1521400",
+      "2228300"
+    ],
+    "matches": {
+      "1521400": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ],
+      "1587250": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "いせえび"
+        }
+      ],
+      "2228300": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8646366",
+    "original": "美味しい伊勢海老が食べられるお店に連れて行って下さい。",
+    "en": [
+      {
+        "id": "9988613",
+        "text": "I want you to take me to a restaurant where you can eat delicious spiny lobster."
+      }
+    ],
+    "vocabIds": [
+      "1559290",
+      "2765050",
+      "1486650",
+      "1587250",
+      "2842661"
+    ],
+    "matches": {
+      "1486650": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "おいしい"
+        }
+      ],
+      "1559290": [
+        {
+          "start": 17,
+          "length": 9,
+          "reading": "つれていってください"
+        }
+      ],
+      "1587250": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "いせえび"
+        }
+      ],
+      "2765050": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "たべられる"
+        }
+      ],
+      "2842661": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "おみせ"
+        }
+      ]
+    }
+  }
+]

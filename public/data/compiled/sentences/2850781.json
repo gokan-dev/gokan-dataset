@@ -1,0 +1,148 @@
+[
+  {
+    "id": "123967",
+    "original": "当店のパイは、夜のうちに焼き上げて、次ぎ日にお出しする焼き立てです。",
+    "en": [
+      {
+        "id": "280028",
+        "text": "All our pies are baked fresh during the night for your dining pleasure the next day."
+      }
+    ],
+    "indices": "当店 の パイ は 夜 の 内(うち){うち} に 焼き上げる{焼き上げて} 次ぐ{次ぎ} 日(ひ)[01] に 出す{お出し} 為る(する)[12]{する} 焼き立て です",
+    "vocabIds": [
+      "1847610",
+      "1350590",
+      "2850781",
+      "1316400",
+      "1449200",
+      "1536350"
+    ],
+    "matches": {
+      "1316400": [
+        {
+          "start": 18,
+          "length": 3,
+          "reading": "つぎび"
+        }
+      ],
+      "1350590": [
+        {
+          "start": 27,
+          "length": 4,
+          "reading": "やきたて"
+        }
+      ],
+      "1449200": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とうてん"
+        }
+      ],
+      "1536350": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "よる"
+        }
+      ],
+      "1847610": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "やきあげて"
+        }
+      ],
+      "2850781": [
+        {
+          "start": 22,
+          "length": 3,
+          "reading": "おだし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "224859",
+    "original": "コーヒーを御出ししてください。",
+    "en": [
+      {
+        "id": "62193",
+        "text": "Serve the coffee, please."
+      }
+    ],
+    "indices": "珈琲{コーヒー} を 出す[07]{御出し} 為る(する){して} 下さい{ください}",
+    "vocabIds": [
+      "2850781"
+    ],
+    "matches": {
+      "2850781": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "ごだし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2270834",
+    "original": "処方箋をお出しします。",
+    "en": [
+      {
+        "id": "266989",
+        "text": "I'll give you a prescription."
+      }
+    ],
+    "vocabIds": [
+      "1655680",
+      "2850781"
+    ],
+    "matches": {
+      "1655680": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "しょほうせん"
+        }
+      ],
+      "2850781": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "おだし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10163012",
+    "original": "お出汁、熱いよ。",
+    "en": [
+      {
+        "id": "5821856",
+        "text": "The broth is hot."
+      }
+    ],
+    "vocabIds": [
+      "2850781",
+      "1467720"
+    ],
+    "matches": {
+      "1467720": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "あつい"
+        }
+      ],
+      "2850781": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "おだし"
+        }
+      ]
+    }
+  }
+]

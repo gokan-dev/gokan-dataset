@@ -1,0 +1,133 @@
+{
+  "id": "1583680",
+  "writtenForm": {
+    "kanji": "武士",
+    "alternatives": [
+      "物部",
+      "物夫"
+    ],
+    "containedKanji": [
+      "武",
+      "士"
+    ]
+  },
+  "reading": {
+    "primary": "ぶし",
+    "alternatives": [
+      "さむらい",
+      "もののふ"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 8732,
+    "kanaRank": 33799
+  },
+  "jlptLevel": 2,
+  "progression": {
+    "kklcStep": 350
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "samurai",
+        "warrior"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "poet"
+        ]
+      },
+      "glosses": [
+        "warrior",
+        "soldier",
+        "samurai"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "もののふ"
+      ]
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "hist"
+        ]
+      },
+      "glosses": [
+        "government official serving the imperial court during the Nara period"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "もののふ"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": true
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1583680",
+      "isBase": true,
+      "originalPrimaryReading": "ぶし",
+      "originalGlosses": [
+        "samurai",
+        "warrior"
+      ]
+    },
+    {
+      "id": "2855262",
+      "isBase": false,
+      "originalPrimaryReading": "もののふ",
+      "originalGlosses": [
+        "warrior",
+        "soldier",
+        "samurai"
+      ]
+    }
+  ],
+  "components": [
+    "2083510",
+    "2815550"
+  ],
+  "parents": [
+    "1498620"
+  ]
+}

@@ -1,0 +1,139 @@
+[
+  {
+    "id": "79460",
+    "original": "柳の枝に雪折れなし。",
+    "en": [
+      {
+        "id": "4571675",
+        "text": "Oaks may fall when reeds stand the storm."
+      },
+      {
+        "id": "5531610",
+        "text": "Willow branches don't break under the weight of snow."
+      }
+    ],
+    "indices": "柳(やなぎ)[01]~ の 枝(えだ) に 雪折れ~ 無し{なし}",
+    "vocabIds": [
+      "1842320",
+      "1538490",
+      "1310530"
+    ],
+    "matches": {
+      "1310530": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "えだ"
+        }
+      ],
+      "1538490": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "やなぎ"
+        }
+      ],
+      "1842320": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "ゆきおれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "79461",
+    "original": "柳の下の泥鰌。",
+    "en": [
+      {
+        "id": "324256",
+        "text": "A fox isn't caught twice in the same snare."
+      }
+    ],
+    "indices": "柳(やなぎ)[01] の 下(した) の 泥鰌[01]",
+    "vocabIds": [
+      "1599320",
+      "1538490",
+      "1184140",
+      "2867124"
+    ],
+    "matches": {
+      "1184140": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "した"
+        }
+      ],
+      "1538490": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "やなぎ"
+        }
+      ],
+      "1599320": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "どじょう"
+        }
+      ],
+      "2867124": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "した"
+        }
+      ]
+    }
+  },
+  {
+    "id": "187424",
+    "original": "いつも柳の下に泥鰌は居らぬ。",
+    "en": [
+      {
+        "id": "24561",
+        "text": "A fox is not caught twice in the same snare."
+      }
+    ],
+    "indices": "何時も{いつも} 柳(やなぎ)[01] の 下(した)[03] に 泥鰌[01] は 居る(いる){居らぬ}",
+    "vocabIds": [
+      "1577980",
+      "1881540",
+      "1599320",
+      "1538490"
+    ],
+    "matches": {
+      "1538490": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "やなぎ"
+        }
+      ],
+      "1577980": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "おらぬ"
+        }
+      ],
+      "1599320": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "どじょう"
+        }
+      ],
+      "1881540": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "したに"
+        }
+      ]
+    }
+  }
+]

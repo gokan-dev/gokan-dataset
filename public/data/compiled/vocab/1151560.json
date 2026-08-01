@@ -1,0 +1,103 @@
+{
+  "id": "1151560",
+  "writtenForm": {
+    "kanji": "悪気",
+    "alternatives": [],
+    "containedKanji": [
+      "悪",
+      "気"
+    ]
+  },
+  "reading": {
+    "primary": "わるぎ",
+    "alternatives": [
+      "あっき"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 7703,
+    "kanaRank": 199290
+  },
+  "progression": {
+    "kklcStep": 546
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "ill will",
+        "malice",
+        "evil intent"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": true,
+        "rawTags": [
+          "rare"
+        ]
+      },
+      "glosses": [
+        "foul-smelling air",
+        "noxious gas"
+      ],
+      "related": {
+        "compounds": [
+          "邪気"
+        ]
+      },
+      "appliesToReadings": [
+        "あっき"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1151560",
+      "isBase": true,
+      "originalPrimaryReading": "わるぎ",
+      "originalGlosses": [
+        "ill will",
+        "malice",
+        "evil intent"
+      ]
+    },
+    {
+      "id": "2064780",
+      "isBase": false,
+      "originalPrimaryReading": "あっき",
+      "originalGlosses": [
+        "foul-smelling air",
+        "noxious gas"
+      ]
+    }
+  ],
+  "components": [
+    "1151230",
+    "1221520"
+  ]
+}

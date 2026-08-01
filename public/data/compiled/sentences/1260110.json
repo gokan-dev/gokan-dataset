@@ -1,0 +1,80 @@
+[
+  {
+    "id": "172455",
+    "original": "今月は国際貿易見本市が開かれている。",
+    "en": [
+      {
+        "id": "242020",
+        "text": "We are having an international trade fair this month."
+      }
+    ],
+    "indices": "今月 は 国際~ 貿易 見本市 が 開く(ひらく){開かれている}",
+    "vocabIds": [
+      "2405460",
+      "1260110",
+      "1289100",
+      "1202440"
+    ],
+    "matches": {
+      "1202440": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "ひらか"
+        }
+      ],
+      "1260110": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "みほんいち"
+        }
+      ],
+      "1289100": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こんげつ"
+        }
+      ],
+      "2405460": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "こくさいぼうえき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "210928",
+    "original": "その見本市には注目に値するものはなにもなかった。",
+    "en": [
+      {
+        "id": "48199",
+        "text": "There was nothing worthy of remark at the fair."
+      }
+    ],
+    "indices": "其の[01]{その} 見本市~ には 注目に値する 物(もの){もの} は 何もない{なにもなかった}",
+    "vocabIds": [
+      "2398280",
+      "1260110"
+    ],
+    "matches": {
+      "1260110": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "みほんいち"
+        }
+      ],
+      "2398280": [
+        {
+          "start": 7,
+          "length": 6,
+          "reading": "ちゅうもくにあたいする"
+        }
+      ]
+    }
+  }
+]

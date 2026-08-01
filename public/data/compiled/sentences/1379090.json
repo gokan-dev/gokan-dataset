@@ -1,0 +1,33 @@
+[
+  {
+    "id": "220233",
+    "original": "この肉は生煮えだ。",
+    "en": [
+      {
+        "id": "57552",
+        "text": "The meat is only half cooked."
+      }
+    ],
+    "indices": "此の{この} 肉(にく)[02] は 生煮え[01]~ だ",
+    "vocabIds": [
+      "1379090",
+      "1463520"
+    ],
+    "matches": {
+      "1379090": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "なまにえ"
+        }
+      ],
+      "1463520": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "にく"
+        }
+      ]
+    }
+  }
+]

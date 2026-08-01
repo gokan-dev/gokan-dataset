@@ -1,0 +1,348 @@
+[
+  {
+    "id": "82179",
+    "original": "僕の飛行機の便が欠航になって、明日まで出発できないんだ。",
+    "en": [
+      {
+        "id": "321536",
+        "text": "My flight was canceled and I can't leave until tomorrow."
+      }
+    ],
+    "indices": "僕(ぼく)[01] の 飛行機 の 便(びん)[01] が 欠航 になる{になって} 明日 迄{まで} 出発 出来る{できない} のだ{んだ}",
+    "vocabIds": [
+      "1485470",
+      "1253980",
+      "1584660",
+      "1340000",
+      "1521400",
+      "2228300",
+      "1177490",
+      "1512360"
+    ],
+    "matches": {
+      "1177490": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "びん"
+        }
+      ],
+      "1253980": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "けっこう"
+        }
+      ],
+      "1340000": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "しゅっぱつ"
+        }
+      ],
+      "1485470": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "ひこうき"
+        }
+      ],
+      "1512360": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "びん"
+        }
+      ],
+      "1521400": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ],
+      "1584660": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "あした"
+        }
+      ],
+      "2228300": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "121752",
+    "original": "濃い霧のために飛行機は欠航した。",
+    "en": [
+      {
+        "id": "44350",
+        "text": "The flight was cancelled because of the thick fog."
+      }
+    ],
+    "indices": "濃い 霧 の 為に[02]{ために} 飛行機 は 欠航 為る(する){した}",
+    "vocabIds": [
+      "1485470",
+      "1469890",
+      "1253980",
+      "1531110"
+    ],
+    "matches": {
+      "1253980": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "けっこう"
+        }
+      ],
+      "1469890": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こい"
+        }
+      ],
+      "1485470": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "ひこうき"
+        }
+      ],
+      "1531110": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "きり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "137542",
+    "original": "大阪行きの最終便が欠航になった。",
+    "en": [
+      {
+        "id": "275693",
+        "text": "The last flight for Osaka has been canceled."
+      }
+    ],
+    "indices": "大阪 行き[01] の 最終 便(びん)[01] が 欠航 になる[01]{になった}",
+    "vocabIds": [
+      "2660300",
+      "2078800",
+      "1578790",
+      "1253980"
+    ],
+    "matches": {
+      "1253980": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "けっこう"
+        }
+      ],
+      "1578790": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "いき"
+        }
+      ],
+      "2078800": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おおさか"
+        }
+      ],
+      "2660300": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "さいしゅうびん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "207099",
+    "original": "その飛行機は濃霧のために欠航になった。",
+    "en": [
+      {
+        "id": "44350",
+        "text": "The flight was cancelled because of the thick fog."
+      }
+    ],
+    "indices": "其の[01]{その} 飛行機 は 濃霧 の 為に[02]{ために} 欠航~ になる[01]{になった}",
+    "vocabIds": [
+      "1485470",
+      "1469990",
+      "1253980"
+    ],
+    "matches": {
+      "1253980": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "けっこう"
+        }
+      ],
+      "1469990": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "のうむ"
+        }
+      ],
+      "1485470": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "ひこうき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1388957",
+    "original": "私たちのフライトが欠航になりました。",
+    "en": [
+      {
+        "id": "23341",
+        "text": "Our flight was canceled."
+      }
+    ],
+    "vocabIds": [
+      "1311300",
+      "1253980"
+    ],
+    "matches": {
+      "1253980": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "けっこう"
+        }
+      ],
+      "1311300": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10142685",
+    "original": "台風のため、多くの飛行機が欠航となりました。",
+    "en": [
+      {
+        "id": "1491080",
+        "text": "Many flights were canceled because of the typhoon."
+      }
+    ],
+    "vocabIds": [
+      "1485470",
+      "1596780",
+      "1861770",
+      "1253980"
+    ],
+    "matches": {
+      "1253980": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "けっこう"
+        }
+      ],
+      "1485470": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "ひこうき"
+        }
+      ],
+      "1596780": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "たいふう"
+        }
+      ],
+      "1861770": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "おおく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3083242",
+    "original": "その便は濃霧のため欠航になりました。",
+    "en": [
+      {
+        "id": "12455121",
+        "text": "The flight was canceled due to heavy fog."
+      },
+      {
+        "id": "12455122",
+        "text": "The flight was canceled because of the heavy fog."
+      },
+      {
+        "id": "44350",
+        "text": "The flight was cancelled because of the thick fog."
+      },
+      {
+        "id": "12455123",
+        "text": "The flight was canceled because of heavy fog."
+      }
+    ],
+    "vocabIds": [
+      "1469990",
+      "1253980",
+      "1177490",
+      "1512360"
+    ],
+    "matches": {
+      "1177490": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "びん"
+        }
+      ],
+      "1253980": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "けっこう"
+        }
+      ],
+      "1469990": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "のうむ"
+        }
+      ],
+      "1512360": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "びん"
+        }
+      ]
+    }
+  }
+]

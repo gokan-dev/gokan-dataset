@@ -1,0 +1,195 @@
+[
+  {
+    "id": "83549",
+    "original": "平熱です。",
+    "en": [
+      {
+        "id": "320167",
+        "text": "My temperature is normal."
+      }
+    ],
+    "indices": "平熱 です",
+    "vocabIds": [
+      "1507730"
+    ],
+    "matches": {
+      "1507730": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "へいねつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "94099",
+    "original": "彼女の熱は平熱に下がった。",
+    "en": [
+      {
+        "id": "309606",
+        "text": "Her fever came down to normal."
+      }
+    ],
+    "indices": "彼女[01]{彼女の} 熱(ねつ) は 平熱 に 下がる{下がった}",
+    "vocabIds": [
+      "1184160",
+      "1483150",
+      "1507730",
+      "1467710"
+    ],
+    "matches": {
+      "1184160": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "さがった"
+        }
+      ],
+      "1467710": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "ねつ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1507730": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "へいねつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "137988",
+    "original": "体温を計ってみましたが、平熱でした。",
+    "en": [
+      {
+        "id": "275247",
+        "text": "I took my temperature, but it was normal."
+      }
+    ],
+    "indices": "体温 を 計る[01]{計って} 見る[05]{みました} が 平熱~ です{でした}",
+    "vocabIds": [
+      "1600650",
+      "1409250",
+      "1507730"
+    ],
+    "matches": {
+      "1409250": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "たいおん"
+        }
+      ],
+      "1507730": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "へいねつ"
+        }
+      ],
+      "1600650": [
+        {
+          "start": 3,
+          "length": 8,
+          "reading": "はかってみましたが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2673291",
+    "original": "僕は平熱が37度くらいなんだ。",
+    "en": [
+      {
+        "id": "2673507",
+        "text": "My normal body temperature is around 37 degrees."
+      }
+    ],
+    "vocabIds": [
+      "1507730",
+      "1521400",
+      "2228300",
+      "1445160"
+    ],
+    "matches": {
+      "1445160": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "ど"
+        }
+      ],
+      "1507730": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "へいねつ"
+        }
+      ],
+      "1521400": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ],
+      "2228300": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10194975",
+    "original": "彼は平熱ですよ。",
+    "en": [
+      {
+        "id": "287079",
+        "text": "His temperature is normal."
+      }
+    ],
+    "vocabIds": [
+      "1507730",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1507730": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "へいねつ"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,151 @@
+{
+  "id": "1374420",
+  "writtenForm": {
+    "kanji": "畝",
+    "alternatives": [
+      "畦"
+    ],
+    "containedKanji": [
+      "畝"
+    ]
+  },
+  "reading": {
+    "primary": "うね",
+    "alternatives": [
+      "せ",
+      "ほ"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 40209,
+    "kanaRank": 42600
+  },
+  "progression": {
+    "kklcStep": 2243
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "ridge (in field)",
+        "row of raised earth when planting crops"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "rib (cloth, mountains, sea)",
+        "cord (e.g. corduroy)"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "obs"
+        ]
+      },
+      "glosses": [
+        "se (Japanese unit of area equal to 30 tsubo, approx. 99.174 m.sq.)"
+      ],
+      "related": {
+        "compounds": [
+          "畝"
+        ]
+      },
+      "appliesToReadings": [
+        "せ"
+      ]
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": true,
+        "rawTags": [
+          "rare"
+        ]
+      },
+      "glosses": [
+        "mu (Chinese measure of land area, formerly approx. 600 m.sq., currently approx. 667 m.sq.)"
+      ],
+      "related": {
+        "compounds": [
+          "畝"
+        ]
+      },
+      "appliesToReadings": [
+        "ほ"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1374420",
+      "isBase": true,
+      "originalPrimaryReading": "うね",
+      "originalGlosses": [
+        "ridge (in field)",
+        "row of raised earth when planting crops"
+      ]
+    },
+    {
+      "id": "1374430",
+      "isBase": false,
+      "originalPrimaryReading": "せ",
+      "originalGlosses": [
+        "se (Japanese unit of area equal to 30 tsubo, approx. 99.174 m.sq.)"
+      ]
+    },
+    {
+      "id": "2210770",
+      "isBase": false,
+      "originalPrimaryReading": "ほ",
+      "originalGlosses": [
+        "mu (Chinese measure of land area, formerly approx. 600 m.sq., currently approx. 667 m.sq.)"
+      ]
+    }
+  ]
+}

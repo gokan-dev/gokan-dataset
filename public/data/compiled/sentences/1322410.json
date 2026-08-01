@@ -1,0 +1,184 @@
+[
+  {
+    "id": "84917",
+    "original": "布を斜めに裁ちなさい。",
+    "en": [
+      {
+        "id": "318796",
+        "text": "Cut the cloth in a diagonal direction."
+      },
+      {
+        "id": "1439976",
+        "text": "Cut the cloth diagonally."
+      }
+    ],
+    "indices": "布 を 斜め に 裁つ{裁ち} 為さい{なさい}",
+    "vocabIds": [
+      "1296050",
+      "1322410",
+      "1496840",
+      "1500880"
+    ],
+    "matches": {
+      "1296050": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "たちなさい"
+        }
+      ],
+      "1322410": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "ななめに"
+        }
+      ],
+      "1496840": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぬの"
+        }
+      ],
+      "1500880": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぬの"
+        }
+      ]
+    }
+  },
+  {
+    "id": "100017",
+    "original": "彼は帽子を斜めにかぶっていた。",
+    "en": [
+      {
+        "id": "303680",
+        "text": "He wore his hat askew."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 帽子 を 斜め に 被る(かぶる)[01]{かぶっていた}",
+    "vocabIds": [
+      "1322410",
+      "1519170",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1322410": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "ななめに"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1519170": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ぼうし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8763986",
+    "original": "布を斜めにカットします。",
+    "en": [
+      {
+        "id": "1439976",
+        "text": "Cut the cloth diagonally."
+      }
+    ],
+    "vocabIds": [
+      "1322410",
+      "1496840",
+      "1500880"
+    ],
+    "matches": {
+      "1322410": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "ななめに"
+        }
+      ],
+      "1496840": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぬの"
+        }
+      ],
+      "1500880": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぬの"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8763985",
+    "original": "布を斜めに切ります。",
+    "en": [
+      {
+        "id": "1439976",
+        "text": "Cut the cloth diagonally."
+      }
+    ],
+    "vocabIds": [
+      "1384830",
+      "1322410",
+      "1496840",
+      "1500880"
+    ],
+    "matches": {
+      "1322410": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "ななめに"
+        }
+      ],
+      "1384830": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "きります"
+        }
+      ],
+      "1496840": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぬの"
+        }
+      ],
+      "1500880": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぬの"
+        }
+      ]
+    }
+  }
+]

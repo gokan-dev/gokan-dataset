@@ -1,0 +1,72 @@
+[
+  {
+    "id": "150137",
+    "original": "慈愛は我が家からはじまる。",
+    "en": [
+      {
+        "id": "28714",
+        "text": "Charity begins at home."
+      }
+    ],
+    "indices": "慈愛 は 我が家 から 始まる{はじまる}",
+    "vocabIds": [
+      "1606650",
+      "1315290"
+    ],
+    "matches": {
+      "1315290": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じあい"
+        }
+      ],
+      "1606650": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "わがや"
+        }
+      ]
+    }
+  },
+  {
+    "id": "150733",
+    "original": "慈愛は家庭から始まる。",
+    "en": [
+      {
+        "id": "28714",
+        "text": "Charity begins at home."
+      }
+    ],
+    "indices": "慈愛~ は 家庭 から 始まる",
+    "vocabIds": [
+      "1307500",
+      "1315290",
+      "1192280"
+    ],
+    "matches": {
+      "1192280": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かてい"
+        }
+      ],
+      "1307500": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "はじまる"
+        }
+      ],
+      "1315290": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じあい"
+        }
+      ]
+    }
+  }
+]

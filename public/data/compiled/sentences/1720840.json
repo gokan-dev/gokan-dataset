@@ -1,0 +1,115 @@
+[
+  {
+    "id": "74340",
+    "original": "トピ主さんが親思いの娘さんであることはわかります。",
+    "en": [
+      {
+        "id": "329380",
+        "text": "I can tell that you're a daughter who cares much for your parents."
+      },
+      {
+        "id": "4645732",
+        "text": "OP, I can tell that you're a daughter who cares a lot for her parents."
+      }
+    ],
+    "indices": "トピ主~ さん が 親思い の 娘(むすめ)[01] さん である 事(こと){こと} は 分かる{わかります}",
+    "vocabIds": [
+      "2275290",
+      "1720840",
+      "1531200"
+    ],
+    "matches": {
+      "1531200": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "むすめさん"
+        }
+      ],
+      "1720840": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "おやおもい"
+        }
+      ],
+      "2275290": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ぬし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "111570",
+    "original": "彼はとても親思いだ。",
+    "en": [
+      {
+        "id": "4632265",
+        "text": "He really cares for his parents."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 迚も[01]{とても} 親思い だ",
+    "vocabIds": [
+      "1720840",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1720840": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "おやおもい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "4645708",
+    "original": "親思いの娘さんであることはわかります。",
+    "en": [
+      {
+        "id": "4645711",
+        "text": "I can tell that you're a daughter who cares a lot for her parents."
+      }
+    ],
+    "indices": "親思い~ の 娘(むすめ)[01] さん である 事(こと){こと} は 分かる{わかります}",
+    "vocabIds": [
+      "1720840",
+      "1531200"
+    ],
+    "matches": {
+      "1531200": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "むすめさん"
+        }
+      ],
+      "1720840": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "おやおもい"
+        }
+      ]
+    }
+  }
+]

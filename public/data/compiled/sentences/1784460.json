@@ -1,0 +1,96 @@
+[
+  {
+    "id": "137613",
+    "original": "大学時代に私は英字新聞をとっていた。",
+    "en": [
+      {
+        "id": "275623",
+        "text": "I took an English newspaper when I was in college."
+      }
+    ],
+    "indices": "大学 時代 に 私(わたし)[01] は 英字新聞 を 取る{とっていた}",
+    "vocabIds": [
+      "1784460",
+      "1413240",
+      "1316300",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1316300": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "じだい"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1413240": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "だいがく"
+        }
+      ],
+      "1784460": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "えいじしんぶん"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "232269",
+    "original": "あなたは英字新聞を定期購読したことがありますか。",
+    "en": [
+      {
+        "id": "69639",
+        "text": "Have you ever subscribed to any English language newspaper?"
+      }
+    ],
+    "indices": "貴方(あなた)[01]{あなた} は 英字新聞~ を 定期購読 為る(する){した} 事がある{ことがあります} か",
+    "vocabIds": [
+      "1784460",
+      "2260370"
+    ],
+    "matches": {
+      "1784460": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "えいじしんぶん"
+        }
+      ],
+      "2260370": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "ていきこうどく"
+        }
+      ]
+    }
+  }
+]

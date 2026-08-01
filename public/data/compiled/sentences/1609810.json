@@ -1,0 +1,49 @@
+[
+  {
+    "id": "81467",
+    "original": "本日の株価は下がり気味です。",
+    "en": [
+      {
+        "id": "322248",
+        "text": "The stock prices are on the low side today."
+      }
+    ],
+    "indices": "本日 の 株価 は 下がる{下がり} 気味(ぎみ) です",
+    "vocabIds": [
+      "1609810",
+      "1523110",
+      "1208950",
+      "1222640"
+    ],
+    "matches": {
+      "1208950": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かぶか"
+        }
+      ],
+      "1222640": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "ぎみ"
+        }
+      ],
+      "1523110": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ほんじつ"
+        }
+      ],
+      "1609810": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "さがり"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,125 @@
+[
+  {
+    "id": "193404",
+    "original": "もし論文の量が不足したら、引用文で水増ししておけばいい。",
+    "en": [
+      {
+        "id": "30569",
+        "text": "If your essay is on the short side, you can always pad it out with a few quotations."
+      }
+    ],
+    "indices": "若し(もし){もし} 論文 の 量 が 不足 為る(する){したら} 引用文~ で(#2028980) 水増し 為る(する){して} 置く[09]{おけば} いい",
+    "vocabIds": [
+      "1169700",
+      "1371810",
+      "1561840",
+      "1493700",
+      "1554640",
+      "2817380"
+    ],
+    "matches": {
+      "1169700": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "いんようぶん"
+        }
+      ],
+      "1371810": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "みずまし"
+        }
+      ],
+      "1493700": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ふそく"
+        }
+      ],
+      "1554640": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "りょう"
+        }
+      ],
+      "1561840": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ろんぶん"
+        }
+      ],
+      "2817380": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "りょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11589792",
+    "original": "この引用文はどこから引っ張ってきたの？",
+    "en": [
+      {
+        "id": "10739367",
+        "text": "Where does this quote come from?"
+      }
+    ],
+    "vocabIds": [
+      "1601900",
+      "1169700"
+    ],
+    "matches": {
+      "1169700": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "いんようぶん"
+        }
+      ],
+      "1601900": [
+        {
+          "start": 10,
+          "length": 7,
+          "reading": "ひっぱってきた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11589794",
+    "original": "この引用文はどこで見つけたの？",
+    "en": [
+      {
+        "id": "10739368",
+        "text": "Where did you find this quote?"
+      }
+    ],
+    "vocabIds": [
+      "1604570",
+      "1169700"
+    ],
+    "matches": {
+      "1169700": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "いんようぶん"
+        }
+      ],
+      "1604570": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "みつけた"
+        }
+      ]
+    }
+  }
+]

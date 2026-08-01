@@ -1,0 +1,120 @@
+[
+  {
+    "id": "75810",
+    "original": "馬や羊が放牧されてて、牧羊犬もいるわ。一度訪ねてみてはどうかしら？",
+    "en": [
+      {
+        "id": "327908",
+        "text": "Sheep and horses are set out to pasture, there are sheepdogs too. How about giving it a visit once?"
+      }
+    ],
+    "indices": "馬[01] や 羊 が 放牧~ 為れる{されてて} 牧羊犬 も 居る(いる){いる} わ 一度 訪ねる{訪ねて} 見る[05]{みて} は どうかしら",
+    "vocabIds": [
+      "1518070",
+      "1783320",
+      "1516880",
+      "1576250",
+      "1471560",
+      "1546490"
+    ],
+    "matches": {
+      "1471560": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "うま"
+        }
+      ],
+      "1516880": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ほうぼく"
+        }
+      ],
+      "1518070": [
+        {
+          "start": 21,
+          "length": 5,
+          "reading": "たずねてみて"
+        }
+      ],
+      "1546490": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ひつじ"
+        }
+      ],
+      "1576250": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "いちど"
+        }
+      ],
+      "1783320": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "ぼくよういぬ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "81673",
+    "original": "牧羊犬が、羊の群を牧場へ連れていく。",
+    "en": [
+      {
+        "id": "322042",
+        "text": "A sheep dog drives the flock to the pasture."
+      }
+    ],
+    "indices": "牧羊犬~ が 羊 の 群[01]~ を 牧場[01] へ 連れて行く{連れていく}",
+    "vocabIds": [
+      "1598220",
+      "1783320",
+      "1584250",
+      "1546490",
+      "1247490"
+    ],
+    "matches": {
+      "1247490": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "ぐん"
+        }
+      ],
+      "1546490": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "ひつじ"
+        }
+      ],
+      "1584250": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "ぼくじょう"
+        }
+      ],
+      "1598220": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "つれていく"
+        }
+      ],
+      "1783320": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ぼくようけん"
+        }
+      ]
+    }
+  }
+]

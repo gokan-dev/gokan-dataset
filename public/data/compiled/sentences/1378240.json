@@ -1,0 +1,157 @@
+[
+  {
+    "id": "195208",
+    "original": "マユコは原稿の清書をした。",
+    "en": [
+      {
+        "id": "32382",
+        "text": "Mayuko made a fair copy of the draft."
+      }
+    ],
+    "indices": "は 原稿 の 清書 を 為る(する){した}",
+    "vocabIds": [
+      "1261340",
+      "1378240"
+    ],
+    "matches": {
+      "1261340": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "げんこう"
+        }
+      ],
+      "1378240": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "せいしょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "210922",
+    "original": "その原稿は手で清書されていた。",
+    "en": [
+      {
+        "id": "48193",
+        "text": "The manuscript had been written out by hand."
+      }
+    ],
+    "indices": "其の[01]{その} 原稿 は 手 で(#2028980) 清書 為れる{されていた}",
+    "vocabIds": [
+      "1261340",
+      "1378240",
+      "1327190"
+    ],
+    "matches": {
+      "1261340": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "げんこう"
+        }
+      ],
+      "1327190": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "て"
+        }
+      ],
+      "1378240": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "せいしょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "231903",
+    "original": "作文を清書する必要はありません。",
+    "en": [
+      {
+        "id": "69270",
+        "text": "You don't have to write out a clean copy of your composition."
+      }
+    ],
+    "indices": "作文(さくぶん) を 清書~ 為る(する){する} 必要[02] は 有る{ありません}",
+    "vocabIds": [
+      "1297960",
+      "1378240",
+      "1487660"
+    ],
+    "matches": {
+      "1297960": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "さくぶん"
+        }
+      ],
+      "1378240": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "せいしょ"
+        }
+      ],
+      "1487660": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ひつよう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11307452",
+    "original": "ガリ版刷りの原書をLATEXで清書した。",
+    "en": [
+      {
+        "id": "11307679",
+        "text": "I transcribed the original mimeographed edition into LATEX."
+      }
+    ],
+    "vocabIds": [
+      "1950040",
+      "1657910",
+      "1261850",
+      "1378240"
+    ],
+    "matches": {
+      "1261850": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "げんしょ"
+        }
+      ],
+      "1378240": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "せいしょ"
+        }
+      ],
+      "1657910": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ずり"
+        }
+      ],
+      "1950040": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "がりばん"
+        }
+      ]
+    }
+  }
+]

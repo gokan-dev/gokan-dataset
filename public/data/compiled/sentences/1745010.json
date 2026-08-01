@@ -1,0 +1,49 @@
+[
+  {
+    "id": "220325",
+    "original": "この踏台を使えばクローゼットの上に手が届くよ。",
+    "en": [
+      {
+        "id": "57645",
+        "text": "If you stand on this stool, you can reach the top of the closet."
+      }
+    ],
+    "indices": "此の{この} 踏台[01]~ を 使う{使えば} クローゼット~ の 上(うえ)[02] に 手が届く よ[01]",
+    "vocabIds": [
+      "2400050",
+      "1305990",
+      "1745010",
+      "1352130"
+    ],
+    "matches": {
+      "1305990": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "つかえば"
+        }
+      ],
+      "1352130": [
+        {
+          "start": 15,
+          "length": 1,
+          "reading": "うえ"
+        }
+      ],
+      "1745010": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ふみだい"
+        }
+      ],
+      "2400050": [
+        {
+          "start": 17,
+          "length": 4,
+          "reading": "てがとどく"
+        }
+      ]
+    }
+  }
+]

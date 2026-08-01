@@ -1,0 +1,213 @@
+[
+  {
+    "id": "137833",
+    "original": "台所で何か焦げ臭いにおいがしますよ。",
+    "en": [
+      {
+        "id": "275403",
+        "text": "I smell something burning in the kitchen."
+      }
+    ],
+    "indices": "台所 で(#2028980) 何か 焦げ臭い 匂いがする{においがします} よ",
+    "vocabIds": [
+      "1350740",
+      "1412640",
+      "1188270"
+    ],
+    "matches": {
+      "1188270": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "なにか"
+        }
+      ],
+      "1350740": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "こげくさい"
+        }
+      ],
+      "1412640": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "だいどころ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "198951",
+    "original": "「なんだか焦げ臭いね」「うっかりパンを黒こげにしちゃったの」",
+    "en": [
+      {
+        "id": "36148",
+        "text": "\"Can you smell something burning?\" \"Oh, I went and burnt the toast.\""
+      }
+    ],
+    "indices": "何だか{なんだか} 焦げ臭い ね(#2029080)[01] うっかり パン(#1103090)[01] を 黒焦げ{黒こげ}~ に 為る(する){し} じゃう{ちゃった} の",
+    "vocabIds": [
+      "1350740",
+      "1287780"
+    ],
+    "matches": {
+      "1287780": [
+        {
+          "start": 19,
+          "length": 3,
+          "reading": "くろこげ"
+        }
+      ],
+      "1350740": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "こげくさい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "201810",
+    "original": "ドアを開けたとたんに、彼は焦げ臭い匂いを嗅いだ。",
+    "en": [
+      {
+        "id": "39021",
+        "text": "The instant he opened the door, he smelt something burning."
+      },
+      {
+        "id": "1339451",
+        "text": "As soon as he opened the door, he smelled something burning."
+      }
+    ],
+    "indices": "ドア を[01] 開ける(あける){開けた} 途端に{とたんに} 彼(かれ)[01] は 焦げ臭い~ 匂い[01] を 嗅ぐ{嗅いだ}",
+    "vocabIds": [
+      "1350740",
+      "1202450",
+      "1565480",
+      "1599760",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1202450": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "あけた"
+        }
+      ],
+      "1350740": [
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "こげくさい"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1565480": [
+        {
+          "start": 20,
+          "length": 3,
+          "reading": "かいだ"
+        }
+      ],
+      "1599760": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "におい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1171705",
+    "original": "何か焦げ臭いよ。",
+    "en": [
+      {
+        "id": "25258",
+        "text": "I smell something burning."
+      }
+    ],
+    "vocabIds": [
+      "1350740",
+      "1188270"
+    ],
+    "matches": {
+      "1188270": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "なにか"
+        }
+      ],
+      "1350740": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "こげくさい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3523182",
+    "original": "なんか焦げ臭くない？",
+    "en": [
+      {
+        "id": "4529644",
+        "text": "Do you smell something burning?"
+      }
+    ],
+    "vocabIds": [
+      "1350740"
+    ],
+    "matches": {
+      "1350740": [
+        {
+          "start": 3,
+          "length": 6,
+          "reading": "こげくさくない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12047862",
+    "original": "なんか、焦げ臭いよ。",
+    "en": [
+      {
+        "id": "6346226",
+        "text": "It smells like something is burning."
+      }
+    ],
+    "vocabIds": [
+      "1350740"
+    ],
+    "matches": {
+      "1350740": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "こげくさい"
+        }
+      ]
+    }
+  }
+]

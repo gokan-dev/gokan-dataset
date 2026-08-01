@@ -1,0 +1,180 @@
+{
+  "id": "1549430",
+  "writtenForm": {
+    "kanji": "蘭",
+    "alternatives": [],
+    "containedKanji": [
+      "蘭"
+    ]
+  },
+  "reading": {
+    "primary": "らん",
+    "alternatives": [
+      "ラン",
+      "らに",
+      "あららぎ",
+      "アララギ"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 16173
+  },
+  "progression": {
+    "kklcStep": 1489
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "orchid"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": true,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "abbr"
+        ]
+      },
+      "glosses": [
+        "Netherlands",
+        "Holland"
+      ],
+      "related": {
+        "compounds": [
+          "阿蘭陀"
+        ]
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "thoroughwort (species of boneset, Eupatorium fortunei)"
+      ],
+      "related": {
+        "compounds": [
+          "藤袴"
+        ]
+      },
+      "appliesToReadings": [
+        "らに"
+      ]
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "Japanese yew (Taxus cuspidata)"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "あららぎ"
+      ]
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "wild rocambole (Allium grayi)"
+      ],
+      "related": {
+        "compounds": [
+          "野蒜"
+        ]
+      },
+      "appliesToReadings": [
+        "あららぎ"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": true
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1549430",
+      "isBase": true,
+      "originalPrimaryReading": "らん",
+      "originalGlosses": [
+        "orchid"
+      ]
+    },
+    {
+      "id": "2602300",
+      "isBase": false,
+      "originalPrimaryReading": "らに",
+      "originalGlosses": [
+        "thoroughwort (species of boneset, Eupatorium fortunei)"
+      ]
+    },
+    {
+      "id": "2448060",
+      "isBase": false,
+      "originalPrimaryReading": "あららぎ",
+      "originalGlosses": [
+        "Japanese yew (Taxus cuspidata)"
+      ]
+    }
+  ],
+  "parents": [
+    "1652680",
+    "1588480"
+  ]
+}

@@ -1,0 +1,313 @@
+[
+  {
+    "id": "99677",
+    "original": "彼は娘が万引きをしたと聞いてがくぜんとした。",
+    "en": [
+      {
+        "id": "304020",
+        "text": "He was shocked to hear that his daughter had shoplifted."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 娘(むすめ)[01] が 万引き を 為る(する){した} と 聞く{聞いて} 愕然{がくぜんと} 為る(する){した}",
+    "vocabIds": [
+      "1525800",
+      "1591110",
+      "1000420",
+      "1483070",
+      "1355930",
+      "1531190"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1355930": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "むすめ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1525800": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "まんびき"
+        }
+      ],
+      "1531190": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "むすめ"
+        }
+      ],
+      "1591110": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "きいて"
+        }
+      ]
+    }
+  },
+  {
+    "id": "114217",
+    "original": "彼はお金に困っていたので、昨日スーパーマーケットで万引きを働いた。",
+    "en": [
+      {
+        "id": "289455",
+        "text": "He was hard up for money and lifted goods in a supermarket yesterday."
+      }
+    ],
+    "indices": "彼(かれ)[01] は お金 に 困る[01]{困っていた} ので 昨日 スーパーマーケット で(#2028980) 万引き を 働く{働いた}",
+    "vocabIds": [
+      "1289590",
+      "1525800",
+      "1451150",
+      "1001820",
+      "1579260",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1001820": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "おかね"
+        }
+      ],
+      "1289590": [
+        {
+          "start": 5,
+          "length": 7,
+          "reading": "こまっていたので"
+        }
+      ],
+      "1451150": [
+        {
+          "start": 29,
+          "length": 3,
+          "reading": "はたらいた"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1525800": [
+        {
+          "start": 25,
+          "length": 3,
+          "reading": "まんびき"
+        }
+      ],
+      "1579260": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "きのう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "116106",
+    "original": "彼の万引きはどうしたものかわからない。",
+    "en": [
+      {
+        "id": "287564",
+        "text": "I don't know what to do about his shoplifting."
+      }
+    ],
+    "indices": "彼(かれ)[01]{彼の} 万引き~ は どうしたものか~ 分かる{わからない}",
+    "vocabIds": [
+      "1525800",
+      "1000420"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれの"
+        }
+      ],
+      "1525800": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "まんびき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2499127",
+    "original": "メアリーは万引きをして捕まった。",
+    "en": [
+      {
+        "id": "1397757",
+        "text": "Mary was arrested for shoplifting."
+      }
+    ],
+    "vocabIds": [
+      "1514110",
+      "1525800"
+    ],
+    "matches": {
+      "1514110": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "つかまった"
+        }
+      ],
+      "1525800": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "まんびき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1102448",
+    "original": "しらばっくれるな！君が万引きしたところを警備員が見ていたんだぞ。",
+    "en": [
+      {
+        "id": "10124112",
+        "text": "Stop playing dumb! The security guards saw you shoplifting!"
+      }
+    ],
+    "vocabIds": [
+      "1259290",
+      "1525800",
+      "1873310",
+      "1247250"
+    ],
+    "matches": {
+      "1247250": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "くん"
+        }
+      ],
+      "1259290": [
+        {
+          "start": 24,
+          "length": 4,
+          "reading": "みていた"
+        }
+      ],
+      "1525800": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "まんびき"
+        }
+      ],
+      "1873310": [
+        {
+          "start": 20,
+          "length": 3,
+          "reading": "けいびいん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10992023",
+    "original": "古い雰囲気の本屋だが、万引き対策は年々ハイテク化している。",
+    "en": [
+      {
+        "id": "11237860",
+        "text": "It's a bookstore with an old-fashioned feel, but their anti-shoplifting measures get more high tech year after year."
+      }
+    ],
+    "vocabIds": [
+      "1505070",
+      "1525800",
+      "1265070",
+      "1522240",
+      "1410050",
+      "1582860",
+      "2056760"
+    ],
+    "matches": {
+      "1265070": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ふるい"
+        }
+      ],
+      "1410050": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "たいさく"
+        }
+      ],
+      "1505070": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "ふんいき"
+        }
+      ],
+      "1522240": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ほんや"
+        }
+      ],
+      "1525800": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "まんびき"
+        }
+      ],
+      "1582860": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "ねんねん"
+        }
+      ],
+      "2056760": [
+        {
+          "start": 23,
+          "length": 1,
+          "reading": "か"
+        }
+      ]
+    }
+  }
+]

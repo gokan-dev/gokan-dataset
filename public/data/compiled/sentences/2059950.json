@@ -1,0 +1,77 @@
+[
+  {
+    "id": "139697",
+    "original": "早ければ早いほどいい。",
+    "en": [
+      {
+        "id": "2308",
+        "text": "The sooner, the better."
+      }
+    ],
+    "indices": "早い[02]{早ければ} 早い[02] 程{ほど} いい",
+    "vocabIds": [
+      "2059950"
+    ],
+    "matches": {
+      "2059950": [
+        {
+          "start": 0,
+          "length": 10,
+          "reading": "はやければはやいほどいい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10529467",
+    "original": "どうせやるんなら、早ければ早いほどいいよ。",
+    "en": [
+      {
+        "id": "3501612",
+        "text": "If you're planning on doing it anyway, the sooner, the better."
+      }
+    ],
+    "vocabIds": [
+      "2059950"
+    ],
+    "matches": {
+      "2059950": [
+        {
+          "start": 9,
+          "length": 10,
+          "reading": "はやければはやいほどいい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10529491",
+    "original": "行くんなら、早ければ早いほどいいよ。",
+    "en": [
+      {
+        "id": "9524959",
+        "text": "The sooner you go, the better."
+      }
+    ],
+    "vocabIds": [
+      "2059950",
+      "1578850"
+    ],
+    "matches": {
+      "1578850": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いく"
+        }
+      ],
+      "2059950": [
+        {
+          "start": 6,
+          "length": 10,
+          "reading": "はやければはやいほどいい"
+        }
+      ]
+    }
+  }
+]

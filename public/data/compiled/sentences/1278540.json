@@ -1,0 +1,71 @@
+[
+  {
+    "id": "173623",
+    "original": "広告代理店はこの仕事にかなり入れこんでいます。",
+    "en": [
+      {
+        "id": "240847",
+        "text": "The ad agency has a lot riding on this account."
+      }
+    ],
+    "indices": "広告代理店~ は 此の{この} 仕事[01] に 可也{かなり} 入れ込む[02]{入れこんでいます}~",
+    "vocabIds": [
+      "1465610",
+      "1278540",
+      "1304970"
+    ],
+    "matches": {
+      "1278540": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "こうこくだいりてん"
+        }
+      ],
+      "1304970": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "しごと"
+        }
+      ],
+      "1465610": [
+        {
+          "start": 14,
+          "length": 8,
+          "reading": "いれこんでいます"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2834239",
+    "original": "トムは広告代理店を立ち上げた。",
+    "en": [
+      {
+        "id": "680117",
+        "text": "Tom started an advertising agency."
+      }
+    ],
+    "vocabIds": [
+      "1278540",
+      "1597040"
+    ],
+    "matches": {
+      "1278540": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "こうこくだいりてん"
+        }
+      ],
+      "1597040": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "たちあげた"
+        }
+      ]
+    }
+  }
+]

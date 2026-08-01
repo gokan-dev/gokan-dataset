@@ -1,0 +1,59 @@
+[
+  {
+    "id": "142592",
+    "original": "請求額は合計３０００ドルになった。",
+    "en": [
+      {
+        "id": "271978",
+        "text": "The bill added up to three thousand dollars."
+      }
+    ],
+    "indices": "請求額~ は 合計 弗[01]{ドル} になる[01]{になった}",
+    "vocabIds": [
+      "1751500",
+      "1284740",
+      "1579350",
+      "1557630"
+    ],
+    "matches": {
+      "1284740": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ごうけい"
+        }
+      ],
+      "1557630": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "ぜろ"
+        },
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "ぜろ"
+        },
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "ぜろ"
+        }
+      ],
+      "1579350": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "さん"
+        }
+      ],
+      "1751500": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "せいきゅうがく"
+        }
+      ]
+    }
+  }
+]

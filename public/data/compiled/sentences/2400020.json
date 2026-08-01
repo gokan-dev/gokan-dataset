@@ -1,0 +1,121 @@
+[
+  {
+    "id": "215004",
+    "original": "スキー板と靴を貸して下さい。",
+    "en": [
+      {
+        "id": "52300",
+        "text": "I'd like to rent skis and ski boots."
+      }
+    ],
+    "indices": "スキー板~ と 靴 を 貸す{貸して} 下さい",
+    "vocabIds": [
+      "1411160",
+      "2400020",
+      "1246700"
+    ],
+    "matches": {
+      "1246700": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "くつ"
+        }
+      ],
+      "1411160": [
+        {
+          "start": 7,
+          "length": 6,
+          "reading": "かしてください"
+        }
+      ],
+      "2400020": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "すきーいた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1167420",
+    "original": "新しいスキー板を買わなくてはいけない。",
+    "en": [
+      {
+        "id": "269078",
+        "text": "I have to buy a new pair of skis."
+      },
+      {
+        "id": "1167424",
+        "text": "I need to buy new skis."
+      }
+    ],
+    "vocabIds": [
+      "1473740",
+      "2400020",
+      "1361490"
+    ],
+    "matches": {
+      "1361490": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あたらしい"
+        }
+      ],
+      "1473740": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "かわなくて"
+        }
+      ],
+      "2400020": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "すきーいた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8559853",
+    "original": "トムは新しいスキー板を買った。",
+    "en": [
+      {
+        "id": "8559842",
+        "text": "Tom bought a new pair of skis."
+      }
+    ],
+    "vocabIds": [
+      "2400020",
+      "1361490",
+      "1473740"
+    ],
+    "matches": {
+      "1361490": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "あたらしい"
+        }
+      ],
+      "1473740": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "かった"
+        }
+      ],
+      "2400020": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "すきーいた"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,87 @@
+[
+  {
+    "id": "227210",
+    "original": "お金を貸せといわれても無いそでは振れないよ。",
+    "en": [
+      {
+        "id": "64559",
+        "text": "I can't lend you money, because I don't have any myself."
+      }
+    ],
+    "indices": "お金 を 貸す{貸せ} と 言う{いわれて} も 無い袖は振れぬ{無いそでは振れない}~ よ[01]",
+    "vocabIds": [
+      "1361350",
+      "1001820",
+      "1411160",
+      "1529520"
+    ],
+    "matches": {
+      "1001820": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おかね"
+        }
+      ],
+      "1361350": [
+        {
+          "start": 16,
+          "length": 4,
+          "reading": "ふれない"
+        }
+      ],
+      "1411160": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かせ"
+        }
+      ],
+      "1529520": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "ない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1088974",
+    "original": "ない袖は振れない。",
+    "en": [
+      {
+        "id": "272208",
+        "text": "You cannot get blood out of a stone."
+      },
+      {
+        "id": "36530",
+        "text": "An empty bag can't stand upright."
+      },
+      {
+        "id": "318588",
+        "text": "You can't get blood out of a stone."
+      }
+    ],
+    "vocabIds": [
+      "1361350",
+      "1406000"
+    ],
+    "matches": {
+      "1361350": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "ふれない"
+        }
+      ],
+      "1406000": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "そで"
+        }
+      ]
+    }
+  }
+]

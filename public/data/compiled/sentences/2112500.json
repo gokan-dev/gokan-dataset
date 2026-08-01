@@ -1,0 +1,124 @@
+[
+  {
+    "id": "82220",
+    "original": "僕の姉が大躍進だよ。",
+    "en": [
+      {
+        "id": "321495",
+        "text": "My sister hit the jackpot!"
+      },
+      {
+        "id": "9808337",
+        "text": "My sister hit the jackpot."
+      }
+    ],
+    "indices": "僕(ぼく)[01] の 姉(あね) が 大(だい)[01] 躍進 だ よ[01]",
+    "vocabIds": [
+      "2112500",
+      "1521400",
+      "2228300",
+      "1307630"
+    ],
+    "matches": {
+      "1307630": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "あね"
+        }
+      ],
+      "1521400": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ],
+      "2112500": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "だいやくしん"
+        }
+      ],
+      "2228300": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "190931",
+    "original": "医師達は癌との戦いで大躍進を遂げた。",
+    "en": [
+      {
+        "id": "28091",
+        "text": "Doctors have made great strides in their fight against cancer."
+      }
+    ],
+    "indices": "医師(いし) 達 は 癌 と の 戦い[01] で(#2028980) 大(だい)[01] 躍進~ を 遂げる{遂げた}",
+    "vocabIds": [
+      "2112500",
+      "1372620",
+      "1159930",
+      "1538240",
+      "1596950",
+      "1416220",
+      "1217110"
+    ],
+    "matches": {
+      "1159930": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いし"
+        }
+      ],
+      "1217110": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "がん"
+        }
+      ],
+      "1372620": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "とげた"
+        }
+      ],
+      "1416220": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "たち"
+        }
+      ],
+      "1538240": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いし"
+        }
+      ],
+      "1596950": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "たたかい"
+        }
+      ],
+      "2112500": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "だいやくしん"
+        }
+      ]
+    }
+  }
+]

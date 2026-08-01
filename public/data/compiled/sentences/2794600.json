@@ -1,0 +1,49 @@
+[
+  {
+    "id": "175145",
+    "original": "見積書には配送料と保険料についての記載がありませんでした。",
+    "en": [
+      {
+        "id": "239321",
+        "text": "We found that there is no information about freight or insurance in your quote."
+      }
+    ],
+    "indices": "見積書 には 配送料~ と 保険料~ に就いて{について} の 記載 が[01] 有る{ありませんでした}",
+    "vocabIds": [
+      "1259800",
+      "2794600",
+      "1513510",
+      "1223230"
+    ],
+    "matches": {
+      "1223230": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "きさい"
+        }
+      ],
+      "1259800": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "みつもりしょ"
+        }
+      ],
+      "1513510": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "ほけんりょう"
+        }
+      ],
+      "2794600": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "はいそうりょう"
+        }
+      ]
+    }
+  }
+]

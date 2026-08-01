@@ -1,0 +1,133 @@
+[
+  {
+    "id": "110053",
+    "original": "彼は医者に見放された。",
+    "en": [
+      {
+        "id": "293635",
+        "text": "He was given up on by the doctors."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 医者 に 見放す{見放された}~",
+    "vocabIds": [
+      "1608010",
+      "1159980",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1159980": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "いしゃ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1608010": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "みはなさ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11264776",
+    "original": "僕は困ってる友達を見放したりしないよ。",
+    "en": [
+      {
+        "id": "257642",
+        "text": "I never turn my back on a friend in need."
+      }
+    ],
+    "vocabIds": [
+      "1289590",
+      "1608010",
+      "1540170",
+      "1521400",
+      "2228300"
+    ],
+    "matches": {
+      "1289590": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "こまってる"
+        }
+      ],
+      "1521400": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ],
+      "1540170": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ともだち"
+        }
+      ],
+      "1608010": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "みはなし"
+        }
+      ],
+      "2228300": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11277679",
+    "original": "みんなに見放された。",
+    "en": [
+      {
+        "id": "13138745",
+        "text": "I was given up on by everyone."
+      },
+      {
+        "id": "13138746",
+        "text": "I was deserted by everyone."
+      },
+      {
+        "id": "13138747",
+        "text": "I was abandoned by everyone."
+      }
+    ],
+    "vocabIds": [
+      "1608010"
+    ],
+    "matches": {
+      "1608010": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "みはなさ"
+        }
+      ]
+    }
+  }
+]

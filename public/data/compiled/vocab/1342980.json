@@ -1,0 +1,100 @@
+{
+  "id": "1342980",
+  "writtenForm": {
+    "kanji": "初日",
+    "alternatives": [],
+    "containedKanji": [
+      "初",
+      "日"
+    ]
+  },
+  "reading": {
+    "primary": "しょにち",
+    "alternatives": [
+      "しょじつ",
+      "はつひ"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 4778,
+    "kanaRank": 215570
+  },
+  "progression": {
+    "kklcStep": 710
+  },
+  "senses": [
+    {
+      "pos": [
+        "n",
+        "adv"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "first day",
+        "opening day"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "New Year's Day sunrise"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "はつひ"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": true
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1342980",
+      "isBase": true,
+      "originalPrimaryReading": "しょにち",
+      "originalGlosses": [
+        "first day",
+        "opening day"
+      ]
+    },
+    {
+      "id": "1342990",
+      "isBase": false,
+      "originalPrimaryReading": "はつひ",
+      "originalGlosses": [
+        "New Year's Day sunrise"
+      ]
+    }
+  ],
+  "components": [
+    "1342530",
+    "1463770"
+  ],
+  "parents": [
+    "1343000"
+  ]
+}

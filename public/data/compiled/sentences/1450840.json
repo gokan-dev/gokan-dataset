@@ -1,0 +1,80 @@
+[
+  {
+    "id": "123074",
+    "original": "二人はローンの頭金を捻出できなかった。",
+    "en": [
+      {
+        "id": "280926",
+        "text": "The couple wasn't able to produce the down payment for the loan."
+      }
+    ],
+    "indices": "二人 は ローン(#1147020) の 頭金 を 捻出[01]~ 出来る{できなかった}",
+    "vocabIds": [
+      "1582670",
+      "1450840",
+      "1469550"
+    ],
+    "matches": {
+      "1450840": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "あたまきん"
+        }
+      ],
+      "1469550": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "ねんしゅつ"
+        }
+      ],
+      "1582670": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ににん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "227209",
+    "original": "お金を貯めて頭金を作れますか。",
+    "en": [
+      {
+        "id": "64558",
+        "text": "Can you save enough money for the down payment?"
+      }
+    ],
+    "indices": "御(お){お} 金を貯める{金を貯めて} 頭金~ を 作る{作れます} か",
+    "vocabIds": [
+      "1427160",
+      "1001820",
+      "1450840"
+    ],
+    "matches": {
+      "1001820": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おかね"
+        }
+      ],
+      "1427160": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "ためて"
+        }
+      ],
+      "1450840": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "あたまきん"
+        }
+      ]
+    }
+  }
+]

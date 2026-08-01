@@ -1,0 +1,33 @@
+[
+  {
+    "id": "186664",
+    "original": "火事は風呂屋からでた。",
+    "en": [
+      {
+        "id": "23800",
+        "text": "The fire started in the bathhouse."
+      }
+    ],
+    "indices": "火事 は 風呂屋[01]~ から 出る{でた}",
+    "vocabIds": [
+      "1500110",
+      "1193950"
+    ],
+    "matches": {
+      "1193950": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かじ"
+        }
+      ],
+      "1500110": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "ふろや"
+        }
+      ]
+    }
+  }
+]

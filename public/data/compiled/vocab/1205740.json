@@ -1,0 +1,195 @@
+{
+  "id": "1205740",
+  "writtenForm": {
+    "kanji": "殻",
+    "alternatives": [
+      "骸"
+    ],
+    "containedKanji": [
+      "殻"
+    ]
+  },
+  "reading": {
+    "primary": "から",
+    "alternatives": [
+      "かく",
+      "がら"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 9445,
+    "kanaRank": 128801
+  },
+  "jlptLevel": 2,
+  "progression": {
+    "kklcStep": 2052
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "shell",
+        "husk",
+        "hull",
+        "pod",
+        "chaff"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "shell (e.g. electron shell)"
+      ],
+      "related": {
+        "compounds": [
+          "電子殻"
+        ]
+      },
+      "appliesToReadings": [
+        "かく"
+      ]
+    },
+    {
+      "pos": [
+        "n",
+        "n-pref"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "chicken bones (e.g. for soup)",
+        "chicken carcass"
+      ],
+      "related": {
+        "compounds": [
+          "鶏がら"
+        ]
+      },
+      "appliesToReadings": [
+        "がら"
+      ]
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "poor-quality coke (coal)"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "がら"
+      ]
+    },
+    {
+      "pos": [
+        "suf"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "left-overs",
+        "remnants"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "がら"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1205740",
+      "isBase": true,
+      "originalPrimaryReading": "から",
+      "originalGlosses": [
+        "shell",
+        "husk",
+        "hull"
+      ]
+    },
+    {
+      "id": "2396240",
+      "isBase": false,
+      "originalPrimaryReading": "かく",
+      "originalGlosses": [
+        "shell (e.g. electron shell)"
+      ]
+    },
+    {
+      "id": "2101970",
+      "isBase": false,
+      "originalPrimaryReading": "がら",
+      "originalGlosses": [
+        "chicken bones (e.g. for soup)",
+        "chicken carcass"
+      ]
+    }
+  ],
+  "parents": [
+    "1203130",
+    "1571980",
+    "1549150",
+    "1595510",
+    "1420940",
+    "1420950",
+    "1280110"
+  ]
+}

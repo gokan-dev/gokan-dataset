@@ -1,0 +1,178 @@
+[
+  {
+    "id": "174993",
+    "original": "原住民は雨水をためて飲料水にしている。",
+    "en": [
+      {
+        "id": "239474",
+        "text": "The natives collect and store rain-water to drink."
+      }
+    ],
+    "indices": "原住民 は 雨水[01] を 溜める[01]{ためて} 飲料(いんりょう) 水(みず) に 為る(する){している}",
+    "vocabIds": [
+      "1261840",
+      "1170000",
+      "1576440"
+    ],
+    "matches": {
+      "1170000": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "いんりょうすい"
+        }
+      ],
+      "1261840": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "げんじゅうみん"
+        }
+      ],
+      "1576440": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "あまみず"
+        }
+      ]
+    }
+  },
+  {
+    "id": "189519",
+    "original": "雨水はこのパイプを道ってはける。",
+    "en": [
+      {
+        "id": "26671",
+        "text": "The rainwater runs off through this pipe."
+      }
+    ],
+    "indices": "雨水[01] は 此の{この} パイプ[01] を 道(みち) って 捌ける{はける}",
+    "vocabIds": [
+      "1576440",
+      "1454080",
+      "2220470"
+    ],
+    "matches": {
+      "1454080": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "みち"
+        }
+      ],
+      "1576440": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あまみず"
+        }
+      ],
+      "2220470": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "みち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "189704",
+    "original": "雨が降ると必ず屋根から雨水が漏る。",
+    "en": [
+      {
+        "id": "26858",
+        "text": "Every time it rains, the roof leaks."
+      },
+      {
+        "id": "1418224",
+        "text": "The roof leaks every time it rains."
+      }
+    ],
+    "indices": "雨 が 降る(ふる) と 必ず 屋根 から 雨水[01] が 漏る~",
+    "vocabIds": [
+      "2851949",
+      "1487400",
+      "1182700",
+      "1576440",
+      "1560840"
+    ],
+    "matches": {
+      "1182700": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "やね"
+        }
+      ],
+      "1487400": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "かならず"
+        }
+      ],
+      "1560840": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "もる"
+        }
+      ],
+      "1576440": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "あまみず"
+        }
+      ],
+      "2851949": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "あめがふる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "197614",
+    "original": "ひさしから雨水が滴り落ちている。",
+    "en": [
+      {
+        "id": "34800",
+        "text": "The eaves are dripping."
+      }
+    ],
+    "indices": "庇[01]{ひさし}~ から 雨水[01]~ が 滴り落ちる{滴り落ちている}",
+    "vocabIds": [
+      "1548550",
+      "1576440",
+      "1437230"
+    ],
+    "matches": {
+      "1437230": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "したたり"
+        }
+      ],
+      "1548550": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "おちている"
+        }
+      ],
+      "1576440": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "あまみず"
+        }
+      ]
+    }
+  }
+]

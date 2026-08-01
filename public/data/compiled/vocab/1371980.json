@@ -1,0 +1,100 @@
+{
+  "id": "1371980",
+  "writtenForm": {
+    "kanji": "水瓶",
+    "alternatives": [
+      "水がめ",
+      "水甕"
+    ],
+    "containedKanji": [
+      "水",
+      "瓶"
+    ]
+  },
+  "reading": {
+    "primary": "みずがめ",
+    "alternatives": [
+      "すいびょう",
+      "すいびん"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 42808,
+    "kanaRank": 102336
+  },
+  "progression": {
+    "kklcStep": 2169
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "water jug"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "portable water vessel (for drinking or washing up)"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "すいびょう"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": false,
+  "mergedVocabs": [
+    {
+      "id": "1371980",
+      "isBase": true,
+      "originalPrimaryReading": "みずがめ",
+      "originalGlosses": [
+        "water jug"
+      ]
+    },
+    {
+      "id": "2684590",
+      "isBase": false,
+      "originalPrimaryReading": "すいびょう",
+      "originalGlosses": [
+        "portable water vessel (for drinking or washing up)"
+      ]
+    }
+  ],
+  "components": [
+    "1371260",
+    "1491120"
+  ],
+  "parents": [
+    "1371990"
+  ]
+}

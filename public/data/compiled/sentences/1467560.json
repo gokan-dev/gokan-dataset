@@ -1,0 +1,141 @@
+[
+  {
+    "id": "75363",
+    "original": "管理人によってアカウントの認証が行われたあと、あなたに確認のメールが送られます。",
+    "en": [
+      {
+        "id": "328356",
+        "text": "You will receive a confirmation email after your account has been activated by an administrator."
+      }
+    ],
+    "indices": "管理人~ に因って{によって} アカウント の 認証[01]~ が 行う{行われた} 後(あと)[02]{あと} 貴方(あなた)[01]{あなた} に 確認 の メール(#1132620)[01] が 送る{送られます}",
+    "vocabIds": [
+      "1214260",
+      "1467560",
+      "1589060",
+      "1205900",
+      "1402730"
+    ],
+    "matches": {
+      "1205900": [
+        {
+          "start": 27,
+          "length": 2,
+          "reading": "かくにん"
+        }
+      ],
+      "1214260": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "かんりじん"
+        }
+      ],
+      "1402730": [
+        {
+          "start": 34,
+          "length": 2,
+          "reading": "おくら"
+        }
+      ],
+      "1467560": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "にんしょう"
+        }
+      ],
+      "1589060": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "おこなわ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "75861",
+    "original": "定款が完成したら公証役場に行って、作成した定款の認証を受ける必要があります。",
+    "en": [
+      {
+        "id": "327857",
+        "text": "When the articles of incorporation are complete it is essential to go to the notary public's office to undertake certification of the articles drawn up."
+      }
+    ],
+    "indices": "定款 が 完成 為る(する){したら} 公証役場 に 行く[01]{行って} 作成 為る(する){した} 定款 の 認証[01] を 受ける 必要[02] が[01] 有る{あります}",
+    "vocabIds": [
+      "1274070",
+      "1329590",
+      "1578850",
+      "1435480",
+      "1211490",
+      "1297760",
+      "1467560",
+      "1487660"
+    ],
+    "matches": {
+      "1211490": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かんせい"
+        }
+      ],
+      "1274070": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "こうしょうやくば"
+        }
+      ],
+      "1297760": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "さくせい"
+        }
+      ],
+      "1329590": [
+        {
+          "start": 27,
+          "length": 3,
+          "reading": "うける"
+        }
+      ],
+      "1435480": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ていかん"
+        },
+        {
+          "start": 21,
+          "length": 2,
+          "reading": "ていかん"
+        }
+      ],
+      "1467560": [
+        {
+          "start": 24,
+          "length": 2,
+          "reading": "にんしょう"
+        }
+      ],
+      "1487660": [
+        {
+          "start": 30,
+          "length": 2,
+          "reading": "ひつよう"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "いって"
+        }
+      ]
+    }
+  }
+]

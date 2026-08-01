@@ -1,0 +1,203 @@
+[
+  {
+    "id": "86432",
+    "original": "彼女は友達に無理を言いすぎる。",
+    "en": [
+      {
+        "id": "317279",
+        "text": "She imposes on her friends too often."
+      }
+    ],
+    "indices": "彼女[01] は 友達 に 無理 を 言う{言い} 過ぎる(すぎる){すぎる}",
+    "vocabIds": [
+      "1848440",
+      "1483150",
+      "1540170",
+      "1530970"
+    ],
+    "matches": {
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1530970": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "むり"
+        }
+      ],
+      "1540170": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ともだち"
+        }
+      ],
+      "1848440": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "いいすぎる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "202780",
+    "original": "ちょっと言い過ぎました。",
+    "en": [
+      {
+        "id": "40015",
+        "text": "I really spoke too harshly."
+      }
+    ],
+    "indices": "一寸(ちょっと){ちょっと} 言い過ぎる{言い過ぎました}",
+    "vocabIds": [
+      "1848440"
+    ],
+    "matches": {
+      "1848440": [
+        {
+          "start": 4,
+          "length": 7,
+          "reading": "いいすぎました"
+        }
+      ]
+    }
+  },
+  {
+    "id": "202840",
+    "original": "ちょっときつく言い過ぎたかな、とずっと思っています。",
+    "en": [
+      {
+        "id": "40076",
+        "text": "I've been thinking that I may have been too critical."
+      }
+    ],
+    "indices": "一寸(ちょっと){ちょっと} きつい[01]{きつく} 言い過ぎる{言い過ぎた}~ かな と ずっと 思う{思っています}",
+    "vocabIds": [
+      "1589350",
+      "1848440"
+    ],
+    "matches": {
+      "1589350": [
+        {
+          "start": 19,
+          "length": 6,
+          "reading": "おもっています"
+        }
+      ],
+      "1848440": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "いいすぎた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10617635",
+    "original": "ごめん。言い過ぎた。今、私が言ったことは、気にしないで。",
+    "en": [
+      {
+        "id": "10766732",
+        "text": "Sorry. I said too much. Disregard what I just said."
+      }
+    ],
+    "vocabIds": [
+      "2771850",
+      "1848440",
+      "1587040",
+      "1288850",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1288850": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "いま"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1587040": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "いった"
+        }
+      ],
+      "1848440": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "いいすぎた"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2771850": [
+        {
+          "start": 21,
+          "length": 6,
+          "reading": "きにしないで"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11605109",
+    "original": "申し訳ありません。言い過ぎました。",
+    "en": [
+      {
+        "id": "3222836",
+        "text": "I'm sorry for what I said. I was out of line."
+      }
+    ],
+    "vocabIds": [
+      "1612030",
+      "1848440"
+    ],
+    "matches": {
+      "1612030": [
+        {
+          "start": 0,
+          "length": 8,
+          "reading": "もうしわけありません"
+        }
+      ],
+      "1848440": [
+        {
+          "start": 9,
+          "length": 7,
+          "reading": "いいすぎました"
+        }
+      ]
+    }
+  }
+]

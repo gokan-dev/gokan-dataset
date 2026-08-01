@@ -1,0 +1,119 @@
+[
+  {
+    "id": "140805",
+    "original": "全市は火に包まれていた。",
+    "en": [
+      {
+        "id": "273767",
+        "text": "The city was all flame."
+      }
+    ],
+    "indices": "全市 は 火(ひ) に 包む(つつむ)[02]{包まれていた}",
+    "vocabIds": [
+      "1395280",
+      "1584060",
+      "1193610"
+    ],
+    "matches": {
+      "1193610": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "ひ"
+        }
+      ],
+      "1395280": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ぜんし"
+        }
+      ],
+      "1584060": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "つつま"
+        }
+      ]
+    }
+  },
+  {
+    "id": "140806",
+    "original": "全市に夜間外出禁止令が布かれた。",
+    "en": [
+      {
+        "id": "273766",
+        "text": "A curfew was imposed on the city."
+      }
+    ],
+    "indices": "全市~ に 夜間外出禁止令~ が 敷く[06]{布かれた}",
+    "vocabIds": [
+      "2275980",
+      "1395280",
+      "1497020"
+    ],
+    "matches": {
+      "1395280": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ぜんし"
+        }
+      ],
+      "1497020": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "しか"
+        }
+      ],
+      "2275980": [
+        {
+          "start": 3,
+          "length": 7,
+          "reading": "やかんがいしゅつきんしれい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "220714",
+    "original": "この窓から全市が見渡せる。",
+    "en": [
+      {
+        "id": "58036",
+        "text": "This window overlooks the whole city."
+      }
+    ],
+    "indices": "此の{この} 窓 から 全市 が 見渡す{見渡せる}",
+    "vocabIds": [
+      "2502420",
+      "1395280",
+      "1401400"
+    ],
+    "matches": {
+      "1395280": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ぜんし"
+        }
+      ],
+      "1401400": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "まど"
+        }
+      ],
+      "2502420": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "みわたせる"
+        }
+      ]
+    }
+  }
+]

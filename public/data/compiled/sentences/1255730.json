@@ -1,0 +1,122 @@
+[
+  {
+    "id": "80662",
+    "original": "明日、月食が起こります。",
+    "en": [
+      {
+        "id": "323053",
+        "text": "There will be a lunar eclipse tomorrow."
+      }
+    ],
+    "indices": "明日 月食 が 起こる{起こります}",
+    "vocabIds": [
+      "1223680",
+      "1584660",
+      "1255730"
+    ],
+    "matches": {
+      "1223680": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "おこります"
+        }
+      ],
+      "1255730": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "げっしょく"
+        }
+      ],
+      "1584660": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あした"
+        }
+      ]
+    }
+  },
+  {
+    "id": "175617",
+    "original": "月食は珍しい現象だ。",
+    "en": [
+      {
+        "id": "238848",
+        "text": "An eclipse of the moon is a rare phenomenon."
+      }
+    ],
+    "indices": "月食~ は 珍しい 現象 だ",
+    "vocabIds": [
+      "1431850",
+      "1255730",
+      "1263750"
+    ],
+    "matches": {
+      "1255730": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "げっしょく"
+        }
+      ],
+      "1263750": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "げんしょう"
+        }
+      ],
+      "1431850": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "めずらしい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3552358",
+    "original": "昨日の月食見た？",
+    "en": [
+      {
+        "id": "3552394",
+        "text": "Did you see the eclipse yesterday?"
+      },
+      {
+        "id": "3552568",
+        "text": "Did you see the lunar eclipse yesterday?"
+      }
+    ],
+    "vocabIds": [
+      "1579260",
+      "1255730",
+      "1259290"
+    ],
+    "matches": {
+      "1255730": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "げっしょく"
+        }
+      ],
+      "1259290": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "みた"
+        }
+      ],
+      "1579260": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きのう"
+        }
+      ]
+    }
+  }
+]

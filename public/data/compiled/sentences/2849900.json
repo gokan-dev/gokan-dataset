@@ -1,0 +1,87 @@
+[
+  {
+    "id": "188283",
+    "original": "音楽の趣味がいいね。",
+    "en": [
+      {
+        "id": "25425",
+        "text": "You have good taste in music."
+      }
+    ],
+    "indices": "音楽 の 趣味 が いい(#2820690)[01] ね(#2029080)[01]",
+    "vocabIds": [
+      "2849900",
+      "1183720"
+    ],
+    "matches": {
+      "1183720": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おんがく"
+        }
+      ],
+      "2849900": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "しゅみがいい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "231590",
+    "original": "あなたは服装の趣味がいい。",
+    "en": [
+      {
+        "id": "68958",
+        "text": "You have good taste in clothes."
+      }
+    ],
+    "indices": "貴方(あなた)[01]{あなた} は 服装~ の 趣味 が いい",
+    "vocabIds": [
+      "2849900",
+      "1500970"
+    ],
+    "matches": {
+      "1500970": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ふくそう"
+        }
+      ],
+      "2849900": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "しゅみがいい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "228380",
+    "original": "インテリアの趣味がいいですね。",
+    "en": [
+      {
+        "id": "9779939",
+        "text": "You have a good taste in interior design."
+      }
+    ],
+    "indices": "インテリア の 趣味 が いい(#2820690)[01] です ね(#2029080)[01]",
+    "vocabIds": [
+      "2849900"
+    ],
+    "matches": {
+      "2849900": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "しゅみがいい"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "id": "87622",
+    "original": "彼女は日本初の宇宙飛行士となるだろう。",
+    "en": [
+      {
+        "id": "316086",
+        "text": "She will be the first Japanese woman astronaut."
+      }
+    ],
+    "indices": "彼女[01] は 日本初{日本初の}~ 宇宙飛行士 となる だろう",
+    "vocabIds": [
+      "1171400",
+      "2088300",
+      "1483150"
+    ],
+    "matches": {
+      "1171400": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "うちゅうひこうし"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "2088300": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "にっぽんはつ"
+        }
+      ]
+    }
+  }
+]

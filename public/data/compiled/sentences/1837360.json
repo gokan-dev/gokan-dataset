@@ -1,0 +1,65 @@
+[
+  {
+    "id": "123921",
+    "original": "今まで、一度、糖が出たことがありますが、今回は蛋白のみでした。",
+    "en": [
+      {
+        "id": "280074",
+        "text": "Until now sugar had been detected in my urine once, however this time there is only albumin."
+      }
+    ],
+    "indices": "今まで 一度 糖~ が 出る{出た} 事がある{ことがあります} が 今回 は 蛋白 のみ です{でした}",
+    "vocabIds": [
+      "1587590",
+      "1576250",
+      "1338240",
+      "1289070",
+      "1837360",
+      "1449610"
+    ],
+    "matches": {
+      "1289070": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "こんかい"
+        }
+      ],
+      "1338240": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "でた"
+        }
+      ],
+      "1449610": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "とう"
+        }
+      ],
+      "1576250": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "いちど"
+        }
+      ],
+      "1587590": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "いままで"
+        }
+      ],
+      "1837360": [
+        {
+          "start": 23,
+          "length": 2,
+          "reading": "たんぱく"
+        }
+      ]
+    }
+  }
+]

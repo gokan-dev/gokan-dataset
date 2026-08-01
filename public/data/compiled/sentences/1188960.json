@@ -1,0 +1,1200 @@
+[
+  {
+    "id": "79088",
+    "original": "夕食は何時ごろですか。",
+    "en": [
+      {
+        "id": "324628",
+        "text": "What time will dinner be served?"
+      }
+    ],
+    "indices": "夕食 は 何時(なんじ) 頃(ころ){ごろ} ですか",
+    "vocabIds": [
+      "1188960",
+      "1542730",
+      "1739970"
+    ],
+    "matches": {
+      "1188960": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "なんじごろ"
+        }
+      ],
+      "1542730": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ゆうしょく"
+        }
+      ],
+      "1739970": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ゆうしょく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "174382",
+    "original": "午後何時ごろうかがいましょうか。",
+    "en": [
+      {
+        "id": "240088",
+        "text": "When shall I call on you this afternoon?"
+      }
+    ],
+    "indices": "午後 何時(なんじ) 頃(ころ){ごろ} 伺う[01]{うかがい} ましょうか",
+    "vocabIds": [
+      "1188960",
+      "1268990"
+    ],
+    "matches": {
+      "1188960": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "なんじごろ"
+        }
+      ],
+      "1268990": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ごご"
+        }
+      ]
+    }
+  },
+  {
+    "id": "177923",
+    "original": "いつも何時頃に寝るの？",
+    "en": [
+      {
+        "id": "16775",
+        "text": "What time do you usually go to bed?"
+      }
+    ],
+    "indices": "何時も{いつも} 何時(なんじ) 頃(ころ) に 寝る[02] の",
+    "vocabIds": [
+      "1188960",
+      "1360010"
+    ],
+    "matches": {
+      "1188960": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "なんじごろ"
+        }
+      ],
+      "1360010": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ねる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "187461",
+    "original": "何時ごろ？",
+    "en": [
+      {
+        "id": "24599",
+        "text": "About what time?"
+      }
+    ],
+    "indices": "何時(なんじ) 頃(ころ){ごろ}",
+    "vocabIds": [
+      "1188960"
+    ],
+    "matches": {
+      "1188960": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "なんじごろ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "203071",
+    "original": "ダンスフロアは、何時頃混んできますか。",
+    "en": [
+      {
+        "id": "40307",
+        "text": "What time does the dance floor get crowded?"
+      }
+    ],
+    "indices": "ダンスフロア~ は 何時頃~ 混む[01]{混んで} 来る(くる){きます} か",
+    "vocabIds": [
+      "2849867",
+      "1188960"
+    ],
+    "matches": {
+      "1188960": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "なんじごろ"
+        }
+      ],
+      "2849867": [
+        {
+          "start": 11,
+          "length": 6,
+          "reading": "こんできます"
+        }
+      ]
+    }
+  },
+  {
+    "id": "221466",
+    "original": "この写真、いつ頃までに仕上がりますか。",
+    "en": [
+      {
+        "id": "58790",
+        "text": "How quickly can you finish these pictures?"
+      }
+    ],
+    "indices": "此の{この} 写真 何時(いつ){いつ} 頃(ころ) 迄{まで} に 仕上がる{仕上がります} か",
+    "vocabIds": [
+      "1305130",
+      "1188960",
+      "1321900"
+    ],
+    "matches": {
+      "1188960": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "いつころ"
+        }
+      ],
+      "1305130": [
+        {
+          "start": 11,
+          "length": 6,
+          "reading": "しあがります"
+        }
+      ],
+      "1321900": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "しゃしん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "223445",
+    "original": "このドレスはいつ頃、できあがりますか。",
+    "en": [
+      {
+        "id": "37632",
+        "text": "How soon can you have this dress ready?"
+      }
+    ],
+    "indices": "此の{この} ドレス は 何時(いつ){いつ} 頃(ころ) 出来上がる[01]{できあがります}~ か",
+    "vocabIds": [
+      "1188960"
+    ],
+    "matches": {
+      "1188960": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "いつころ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "228657",
+    "original": "いつ頃連絡をもらえますか。",
+    "en": [
+      {
+        "id": "66015",
+        "text": "When can you let me know the result?"
+      },
+      {
+        "id": "13481777",
+        "text": "When can I expect to hear from you?"
+      }
+    ],
+    "indices": "何時(いつ){いつ} 頃(ころ) 連絡[01] を 貰う{もらえます} か",
+    "vocabIds": [
+      "1188960",
+      "1559900"
+    ],
+    "matches": {
+      "1188960": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "いつころ"
+        }
+      ],
+      "1559900": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "れんらく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "228658",
+    "original": "いつ頃着きますか。",
+    "en": [
+      {
+        "id": "66016",
+        "text": "When will they arrive?"
+      }
+    ],
+    "indices": "何時(いつ){いつ} 頃(ころ) 着く(つく)[01]{着きます} か",
+    "vocabIds": [
+      "1422970",
+      "1607260",
+      "1188960"
+    ],
+    "matches": {
+      "1188960": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "いつころ"
+        }
+      ],
+      "1422970": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "つきます"
+        }
+      ],
+      "1607260": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "つきます"
+        }
+      ]
+    }
+  },
+  {
+    "id": "228659",
+    "original": "いつ頃お戻りになりますか。",
+    "en": [
+      {
+        "id": "378493",
+        "text": "When will he be back?"
+      },
+      {
+        "id": "2892727",
+        "text": "When are you going to be back?"
+      },
+      {
+        "id": "24604",
+        "text": "When will you be back?"
+      }
+    ],
+    "indices": "何時(いつ){いつ} 頃(ころ) 戻る{お戻り} になる[02]{になります} か",
+    "vocabIds": [
+      "1188960",
+      "1535860"
+    ],
+    "matches": {
+      "1188960": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "いつころ"
+        }
+      ],
+      "1535860": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "もどり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "236464",
+    "original": "「バイオテクノロジー」という言葉が普通に使われるようになったのは、いつ頃ですか。",
+    "en": [
+      {
+        "id": "73821",
+        "text": "When did the word \"biotechnology\" come into common use?"
+      }
+    ],
+    "indices": "バイオテクノロジー~ と言う{という} 言葉[02] が 普通に[01] 使う{使われる} 様になる{ようになった} の は 何時(いつ){いつ} 頃(ころ) ですか",
+    "vocabIds": [
+      "2847506",
+      "1188960",
+      "1264540",
+      "1305990"
+    ],
+    "matches": {
+      "1188960": [
+        {
+          "start": 33,
+          "length": 3,
+          "reading": "いつごろ"
+        }
+      ],
+      "1264540": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "ことば"
+        }
+      ],
+      "1305990": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "つかわ"
+        }
+      ],
+      "2847506": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "ふつうに"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1018444",
+    "original": "ひな祭りがいつ頃からある祭りなのか、はっきりとはしていないが、平安時代にはすでに流しびなの原形があったようだ。",
+    "en": [
+      {
+        "id": "1018446",
+        "text": "It is not known when the Hinamatsuri first started, but the Nagashibina, in its most primitive form, was already being celebrated during the Heian period."
+      }
+    ],
+    "vocabIds": [
+      "1373440",
+      "1506990",
+      "1552120",
+      "1188960",
+      "1604130",
+      "1261310"
+    ],
+    "matches": {
+      "1188960": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "いつころ"
+        }
+      ],
+      "1261310": [
+        {
+          "start": 45,
+          "length": 2,
+          "reading": "げんけい"
+        }
+      ],
+      "1373440": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "ひなまつり"
+        }
+      ],
+      "1506990": [
+        {
+          "start": 31,
+          "length": 4,
+          "reading": "へいあんじだい"
+        }
+      ],
+      "1552120": [
+        {
+          "start": 40,
+          "length": 4,
+          "reading": "ながしびな"
+        }
+      ],
+      "1604130": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "まつり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1697359",
+    "original": "何時ごろ犬の散歩をするんですか？",
+    "en": [
+      {
+        "id": "1697017",
+        "text": "What time do you walk the dog?"
+      }
+    ],
+    "vocabIds": [
+      "1188960",
+      "1303620",
+      "1258330"
+    ],
+    "matches": {
+      "1188960": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "なんじごろ"
+        }
+      ],
+      "1258330": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "いぬ"
+        }
+      ],
+      "1303620": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "さんぽ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1697804",
+    "original": "テレビは何時ごろ見ますか？",
+    "en": [
+      {
+        "id": "1696966",
+        "text": "What time do you watch TV?"
+      }
+    ],
+    "vocabIds": [
+      "1188960",
+      "1259290"
+    ],
+    "matches": {
+      "1188960": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "なんじごろ"
+        }
+      ],
+      "1259290": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "みます"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2290105",
+    "original": "何時ごろ出かけるの？",
+    "en": [
+      {
+        "id": "24574",
+        "text": "What time are you leaving?"
+      },
+      {
+        "id": "18072",
+        "text": "What time will you leave?"
+      },
+      {
+        "id": "4981087",
+        "text": "At what time will you be leaving?"
+      },
+      {
+        "id": "4981237",
+        "text": "What time will you be leaving?"
+      }
+    ],
+    "indices": "何時頃{何時ごろ} 出かける の",
+    "vocabIds": [
+      "1188960",
+      "1598550"
+    ],
+    "matches": {
+      "1188960": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "なんじごろ"
+        }
+      ],
+      "1598550": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "でかける"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3059415",
+    "original": "着くの何時ごろになりそう？",
+    "en": [
+      {
+        "id": "3059420",
+        "text": "What time do you think you'll likely arrive?"
+      }
+    ],
+    "vocabIds": [
+      "1188960",
+      "1422970",
+      "1607260"
+    ],
+    "matches": {
+      "1188960": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "なんじごろ"
+        }
+      ],
+      "1422970": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "つく"
+        }
+      ],
+      "1607260": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "つく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3070028",
+    "original": "電車だと、横浜へは何時頃に着きますか？",
+    "en": [
+      {
+        "id": "2167910",
+        "text": "What time will the train arrive in Yokohama?"
+      }
+    ],
+    "vocabIds": [
+      "1422970",
+      "1607260",
+      "1188960",
+      "1443530",
+      "2164610"
+    ],
+    "matches": {
+      "1188960": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "なんじごろ"
+        }
+      ],
+      "1422970": [
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "つきます"
+        }
+      ],
+      "1443530": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "でんしゃ"
+        }
+      ],
+      "1607260": [
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "つきます"
+        }
+      ],
+      "2164610": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "よこはま"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8218562",
+    "original": "あなたはいつも何時ごろに昼寝をしますか？",
+    "en": [
+      {
+        "id": "8215769",
+        "text": "What time do you usually take your afternoon nap?"
+      }
+    ],
+    "vocabIds": [
+      "1188960",
+      "1426370"
+    ],
+    "matches": {
+      "1188960": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "なんじごろ"
+        }
+      ],
+      "1426370": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "ひるね"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1751944",
+    "original": "何時ごろ来たの？",
+    "en": [
+      {
+        "id": "1900777",
+        "text": "When did you come?"
+      }
+    ],
+    "vocabIds": [
+      "1188960",
+      "1547720"
+    ],
+    "matches": {
+      "1188960": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "なんじごろ"
+        }
+      ],
+      "1547720": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "きた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8609771",
+    "original": "このビルをご購入されたのはいつ頃ですか？",
+    "en": [
+      {
+        "id": "3150487",
+        "text": "When did you buy this building?"
+      }
+    ],
+    "vocabIds": [
+      "1188960",
+      "1282440"
+    ],
+    "matches": {
+      "1188960": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "いつころ"
+        }
+      ],
+      "1282440": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "こうにゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9124930",
+    "original": "この木は、いつ頃植えられたものなの？",
+    "en": [
+      {
+        "id": "9124804",
+        "text": "When was this tree planted?"
+      }
+    ],
+    "vocabIds": [
+      "1188960",
+      "1357250",
+      "1534520"
+    ],
+    "matches": {
+      "1188960": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "いつころ"
+        }
+      ],
+      "1357250": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "うえ"
+        }
+      ],
+      "1534520": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "き"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9149493",
+    "original": "彼の新しい小説の発刊はいつ頃になりますか？",
+    "en": [
+      {
+        "id": "1938925",
+        "text": "When will his new novel be published?"
+      }
+    ],
+    "vocabIds": [
+      "1361490",
+      "1188960",
+      "1000420",
+      "1348430",
+      "1477210"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれの"
+        }
+      ],
+      "1188960": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "いつころ"
+        }
+      ],
+      "1348430": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "しょうせつ"
+        }
+      ],
+      "1361490": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "あたらしい"
+        }
+      ],
+      "1477210": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "はっかん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9196444",
+    "original": "日本にいらっしゃったのはいつ頃ですか？",
+    "en": [
+      {
+        "id": "16755",
+        "text": "When did you come to Japan?"
+      }
+    ],
+    "vocabIds": [
+      "1188960",
+      "1582710"
+    ],
+    "matches": {
+      "1188960": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "いつころ"
+        }
+      ],
+      "1582710": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "にっぽん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9250705",
+    "original": "フランス語を習い始めたのはいつ頃なの？",
+    "en": [
+      {
+        "id": "4664233",
+        "text": "When did you begin to learn French?"
+      },
+      {
+        "id": "2451370",
+        "text": "When did you begin studying French?"
+      },
+      {
+        "id": "2451368",
+        "text": "When did you start studying French?"
+      },
+      {
+        "id": "2451371",
+        "text": "When did you begin learning French?"
+      },
+      {
+        "id": "2451369",
+        "text": "When did you start learning French?"
+      }
+    ],
+    "vocabIds": [
+      "1111590",
+      "1333070",
+      "1188960"
+    ],
+    "matches": {
+      "1111590": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "ふらんすご"
+        }
+      ],
+      "1188960": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "いつころ"
+        }
+      ],
+      "1333070": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "ならいはじめた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9286186",
+    "original": "その本が市場に出るのはいつ頃でしょうか？",
+    "en": [
+      {
+        "id": "66305",
+        "text": "When are they going to put the book on the market?"
+      }
+    ],
+    "vocabIds": [
+      "1188960",
+      "1308305",
+      "1338240",
+      "1260670",
+      "1522150"
+    ],
+    "matches": {
+      "1188960": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "いつころ"
+        }
+      ],
+      "1260670": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ほん"
+        }
+      ],
+      "1308305": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "しじょう"
+        }
+      ],
+      "1338240": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "でる"
+        }
+      ],
+      "1522150": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ほん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9791911",
+    "original": "明日って、いつ頃が忙しい？",
+    "en": [
+      {
+        "id": "68906",
+        "text": "When will you be busy tomorrow?"
+      }
+    ],
+    "vocabIds": [
+      "1188960",
+      "1519290",
+      "1584660"
+    ],
+    "matches": {
+      "1188960": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "いつごろ"
+        }
+      ],
+      "1519290": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "いそがしい"
+        }
+      ],
+      "1584660": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あした"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9812343",
+    "original": "初来日はいつ頃でしたか？",
+    "en": [
+      {
+        "id": "9812220",
+        "text": "When did you first come to Japan?"
+      },
+      {
+        "id": "267017",
+        "text": "When did you first come over to Japan?"
+      }
+    ],
+    "vocabIds": [
+      "1188960",
+      "1548200",
+      "1342530",
+      "2646830"
+    ],
+    "matches": {
+      "1188960": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "いつころ"
+        }
+      ],
+      "1342530": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "はつ"
+        }
+      ],
+      "1548200": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "らいにち"
+        }
+      ],
+      "2646830": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "はつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2174970",
+    "original": "いつ頃パリに旅行なさいますか。",
+    "en": [
+      {
+        "id": "1731555",
+        "text": "When will you travel to Paris?"
+      }
+    ],
+    "vocabIds": [
+      "1188960",
+      "1553170"
+    ],
+    "matches": {
+      "1188960": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "いつころ"
+        }
+      ],
+      "1553170": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "りょこう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1751953",
+    "original": "何時ごろ帰るの？",
+    "en": [
+      {
+        "id": "2892632",
+        "text": "What time will you be home?"
+      },
+      {
+        "id": "10685559",
+        "text": "What time are you coming home?"
+      },
+      {
+        "id": "2923186",
+        "text": "What time will you be back home?"
+      },
+      {
+        "id": "398929",
+        "text": "When are you going home?"
+      },
+      {
+        "id": "10685560",
+        "text": "When will you be going home?"
+      },
+      {
+        "id": "6663056",
+        "text": "What time will you be going home?"
+      },
+      {
+        "id": "10685561",
+        "text": "What time are you going home?"
+      },
+      {
+        "id": "10685562",
+        "text": "What time are you going to go home?"
+      }
+    ],
+    "vocabIds": [
+      "1188960",
+      "1221270"
+    ],
+    "matches": {
+      "1188960": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "なんじごろ"
+        }
+      ],
+      "1221270": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "かえる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10768294",
+    "original": "この痛みはいつ頃からですか？",
+    "en": [
+      {
+        "id": "66355",
+        "text": "How long have you had this pain?"
+      }
+    ],
+    "vocabIds": [
+      "1188960",
+      "1587300"
+    ],
+    "matches": {
+      "1188960": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "いつころ"
+        }
+      ],
+      "1587300": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "いたみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11457345",
+    "original": "ご帰宅はいつ頃でしょうか？",
+    "en": [
+      {
+        "id": "310502",
+        "text": "When will she return home?"
+      }
+    ],
+    "vocabIds": [
+      "1188960",
+      "1221430"
+    ],
+    "matches": {
+      "1188960": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "いつころ"
+        }
+      ],
+      "1221430": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "きたく"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,64 @@
+[
+  {
+    "id": "77721",
+    "original": "類をもって集まる。",
+    "en": [
+      {
+        "id": "280288",
+        "text": "Birds of a feather flock together."
+      }
+    ],
+    "indices": "類(るい) を 持つ{もって} 集まる",
+    "vocabIds": [
+      "2844717"
+    ],
+    "matches": {
+      "2844717": [
+        {
+          "start": 0,
+          "length": 8,
+          "reading": "るいをもってあつまる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "77724",
+    "original": "類は類をもって集まる。",
+    "en": [
+      {
+        "id": "280288",
+        "text": "Birds of a feather flock together."
+      }
+    ],
+    "indices": "類(るい) は 類(るい) を 持つ{もって} 集まる",
+    "vocabIds": [
+      "2844717",
+      "1556040",
+      "1596870"
+    ],
+    "matches": {
+      "1556040": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "るい"
+        }
+      ],
+      "1596870": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "るい"
+        }
+      ],
+      "2844717": [
+        {
+          "start": 2,
+          "length": 8,
+          "reading": "るいをもってあつまる"
+        }
+      ]
+    }
+  }
+]

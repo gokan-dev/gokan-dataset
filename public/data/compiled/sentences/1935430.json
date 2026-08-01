@@ -1,0 +1,95 @@
+[
+  {
+    "id": "124521",
+    "original": "努力すれば、先生は彼に合格点を与えるつもりです。",
+    "en": [
+      {
+        "id": "279473",
+        "text": "The teacher will give him a passing grade if he shows effort."
+      }
+    ],
+    "indices": "努力 すれば 先生(せんせい)[01] は 彼(かれ) に 合格点~ を 与える[01] 積もり{つもり} です",
+    "vocabIds": [
+      "1935430",
+      "1544730",
+      "1445130",
+      "1387990",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1387990": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "せんせい"
+        }
+      ],
+      "1445130": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "どりょく"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1544730": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "あたえる"
+        }
+      ],
+      "1935430": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "ごうかくてん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "997267",
+    "original": "あなたのスピーチは合格点から程遠いものです。",
+    "en": [
+      {
+        "id": "70321",
+        "text": "Your speech was far from satisfactory."
+      }
+    ],
+    "vocabIds": [
+      "1935430",
+      "1735870"
+    ],
+    "matches": {
+      "1735870": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "ほどとおい"
+        }
+      ],
+      "1935430": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "ごうかくてん"
+        }
+      ]
+    }
+  }
+]

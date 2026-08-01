@@ -1,0 +1,76 @@
+[
+  {
+    "id": "75154",
+    "original": "・・・・おいおいおい、奢りとわかったらリミッター解除ですか二人とも。",
+    "en": [
+      {
+        "id": "328565",
+        "text": "... Hey-hey you two, is it no holds barred as soon as you know it's my treat?"
+      }
+    ],
+    "indices": "おい[01]~ おい[01] おい[01] 奢り~ と 分かる{わかったら} リミッター~ 解除[02] ですか 二人とも",
+    "vocabIds": [
+      "1462470",
+      "2060630",
+      "1199030"
+    ],
+    "matches": {
+      "1199030": [
+        {
+          "start": 24,
+          "length": 2,
+          "reading": "かいじょ"
+        }
+      ],
+      "1462470": [
+        {
+          "start": 29,
+          "length": 4,
+          "reading": "ににんとも"
+        }
+      ],
+      "2060630": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "おごり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12312132",
+    "original": "奢りなら、飲む飲む。",
+    "en": [
+      {
+        "id": "12311281",
+        "text": "If you're buying, I’m drinking."
+      }
+    ],
+    "vocabIds": [
+      "2060630",
+      "1169870"
+    ],
+    "matches": {
+      "1169870": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "のむ"
+        },
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "のむ"
+        }
+      ],
+      "2060630": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おごり"
+        }
+      ]
+    }
+  }
+]

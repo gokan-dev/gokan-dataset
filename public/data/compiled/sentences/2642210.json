@@ -1,0 +1,87 @@
+[
+  {
+    "id": "145824",
+    "original": "食事会は楽しかったですか。",
+    "en": [
+      {
+        "id": "268738",
+        "text": "Did you have a good time at the dinner?"
+      }
+    ],
+    "indices": "食事 会(かい) は 楽しい{楽しかった} ですか",
+    "vocabIds": [
+      "1207240",
+      "2642210"
+    ],
+    "matches": {
+      "1207240": [
+        {
+          "start": 4,
+          "length": 7,
+          "reading": "たのしかったです"
+        }
+      ],
+      "2642210": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "しょくじかい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10746584",
+    "original": "主人とは、お食事会で親しくなりました。",
+    "en": [
+      {
+        "id": "12455132",
+        "text": "My husband and I became friends at a dinner party."
+      }
+    ],
+    "vocabIds": [
+      "2642210",
+      "1365050",
+      "2080220",
+      "1324960",
+      "1579780"
+    ],
+    "matches": {
+      "1324960": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しゅじん"
+        }
+      ],
+      "1365050": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "したしく"
+        }
+      ],
+      "1579780": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しゅじん"
+        }
+      ],
+      "2080220": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "したしく"
+        }
+      ],
+      "2642210": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "しょくじかい"
+        }
+      ]
+    }
+  }
+]

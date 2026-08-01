@@ -1,0 +1,96 @@
+[
+  {
+    "id": "189472",
+    "original": "アラン君は運良く税理士試験に合格しました。",
+    "en": [
+      {
+        "id": "26623",
+        "text": "Allan was lucky and passed the tax accountant examination."
+      }
+    ],
+    "indices": "君(くん) は 運良く 税理士試験~ に 合格[01] 為る(する){しました}",
+    "vocabIds": [
+      "2557660",
+      "1172670",
+      "1284600",
+      "1247250"
+    ],
+    "matches": {
+      "1172670": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "うんよく"
+        }
+      ],
+      "1247250": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "くん"
+        }
+      ],
+      "1284600": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "ごうかく"
+        }
+      ],
+      "2557660": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "ぜいりししけん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "424404",
+    "original": "独学で税理士試験に合格出来るでしょうか。",
+    "en": [
+      {
+        "id": "424405",
+        "text": "Is it possible to pass the tax accountant exam by self study?"
+      }
+    ],
+    "indices": "独学 で(#2028980) 税理士試験 に 合格[01] 出来る でしょうか",
+    "vocabIds": [
+      "1340450",
+      "2557660",
+      "1455720",
+      "1284600"
+    ],
+    "matches": {
+      "1284600": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "ごうかく"
+        }
+      ],
+      "1340450": [
+        {
+          "start": 11,
+          "length": 7,
+          "reading": "できるでしょう"
+        }
+      ],
+      "1455720": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "どくがく"
+        }
+      ],
+      "2557660": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "ぜいりししけん"
+        }
+      ]
+    }
+  }
+]

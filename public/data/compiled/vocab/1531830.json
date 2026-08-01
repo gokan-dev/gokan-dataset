@@ -1,0 +1,106 @@
+{
+  "id": "1531830",
+  "writtenForm": {
+    "kanji": "名簿",
+    "alternatives": [
+      "名符"
+    ],
+    "containedKanji": [
+      "名",
+      "簿"
+    ]
+  },
+  "reading": {
+    "primary": "めいぼ",
+    "alternatives": [
+      "みょうぶ"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 11711,
+    "kanaRank": 215242
+  },
+  "jlptLevel": 1,
+  "progression": {
+    "kklcStep": 985
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "register of names",
+        "list of names",
+        "roll",
+        "register",
+        "roster"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "proof of identity (for nobles, doctors, etc.; Heian period)"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "みょうぶ"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1531830",
+      "isBase": true,
+      "originalPrimaryReading": "めいぼ",
+      "originalGlosses": [
+        "register of names",
+        "list of names",
+        "roll"
+      ]
+    },
+    {
+      "id": "2639540",
+      "isBase": false,
+      "originalPrimaryReading": "みょうぶ",
+      "originalGlosses": [
+        "proof of identity (for nobles, doctors, etc.; Heian period)"
+      ]
+    }
+  ],
+  "components": [
+    "1531330"
+  ],
+  "parents": [
+    "2830568"
+  ]
+}

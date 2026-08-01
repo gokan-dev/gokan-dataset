@@ -1,0 +1,126 @@
+[
+  {
+    "id": "108333",
+    "original": "彼は教師としての経験が浅い。",
+    "en": [
+      {
+        "id": "295353",
+        "text": "He has little experience in teaching."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 教師 として の 経験が浅い~",
+    "vocabIds": [
+      "1251280",
+      "1237130",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1237130": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きょうし"
+        }
+      ],
+      "1251280": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "けいけんがあさい"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "112856",
+    "original": "彼はその仕事にはまだ経験が浅い。",
+    "en": [
+      {
+        "id": "290820",
+        "text": "He is still green at the job."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 其の[01]{その} 仕事[01] には 未だ[01]{まだ} 経験が浅い",
+    "vocabIds": [
+      "1251280",
+      "1304970",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1251280": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "けいけんがあさい"
+        }
+      ],
+      "1304970": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "しごと"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2739616",
+    "original": "トムはまだ教師としての経験が浅い。",
+    "en": [
+      {
+        "id": "5425031",
+        "text": "Tom still doesn't have much experience as a professor."
+      }
+    ],
+    "vocabIds": [
+      "1251280",
+      "1237130"
+    ],
+    "matches": {
+      "1237130": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "きょうし"
+        }
+      ],
+      "1251280": [
+        {
+          "start": 11,
+          "length": 5,
+          "reading": "けいけんがあさい"
+        }
+      ]
+    }
+  }
+]

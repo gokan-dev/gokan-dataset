@@ -1,0 +1,102 @@
+{
+  "id": "1479890",
+  "writtenForm": {
+    "kanji": "半分",
+    "alternatives": [],
+    "containedKanji": [
+      "半",
+      "分"
+    ]
+  },
+  "reading": {
+    "primary": "はんぶん",
+    "alternatives": [
+      "はんぷん"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 912,
+    "kanaRank": 65882
+  },
+  "jlptLevel": 5,
+  "progression": {
+    "kklcStep": 335
+  },
+  "senses": [
+    {
+      "pos": [
+        "adv",
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "half"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "half minute"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "はんぷん"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1479890",
+      "isBase": true,
+      "originalPrimaryReading": "はんぶん",
+      "originalGlosses": [
+        "half"
+      ]
+    },
+    {
+      "id": "1479900",
+      "isBase": false,
+      "originalPrimaryReading": "はんぷん",
+      "originalGlosses": [
+        "half minute"
+      ]
+    }
+  ],
+  "components": [
+    "1478750",
+    "1502860"
+  ],
+  "parents": [
+    "1812080",
+    "1782910",
+    "1542130",
+    "2193950",
+    "1538150"
+  ]
+}

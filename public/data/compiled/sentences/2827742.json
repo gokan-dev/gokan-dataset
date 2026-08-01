@@ -1,0 +1,203 @@
+[
+  {
+    "id": "189916",
+    "original": "右に曲がると、白い塔が見えます。",
+    "en": [
+      {
+        "id": "27072",
+        "text": "Turning to the right, you will see a white tower."
+      }
+    ],
+    "indices": "右[01] に 曲がる[02] と 白い 塔 が 見える(みえる){見えます}",
+    "vocabIds": [
+      "2827742",
+      "1259140",
+      "1474910",
+      "1446740"
+    ],
+    "matches": {
+      "1259140": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "みえます"
+        }
+      ],
+      "1446740": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "とう"
+        }
+      ],
+      "1474910": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "しろい"
+        }
+      ],
+      "2827742": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "みぎにまがる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "189923",
+    "original": "右に曲がると、博物館に出ますよ。",
+    "en": [
+      {
+        "id": "27079",
+        "text": "Turning to the right, you will come to the museum."
+      }
+    ],
+    "indices": "右[01] に 曲がる[02] と 博物館 に 出る{出ます} よ[01]",
+    "vocabIds": [
+      "2827742",
+      "1474720",
+      "1338240"
+    ],
+    "matches": {
+      "1338240": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "でます"
+        }
+      ],
+      "1474720": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "はくぶつかん"
+        }
+      ],
+      "2827742": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "みぎにまがる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "189924",
+    "original": "右に曲がると、左手に病院があります。",
+    "en": [
+      {
+        "id": "27080",
+        "text": "Turning right, you'll find the hospital on your left."
+      }
+    ],
+    "indices": "右[01] に 曲がる[02] と 左手(ひだりて)[02] に 病院 が[01] 有る{あります}",
+    "vocabIds": [
+      "2827742",
+      "1290900",
+      "1840010",
+      "1490220"
+    ],
+    "matches": {
+      "1290900": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ひだりて"
+        }
+      ],
+      "1490220": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "びょういん"
+        }
+      ],
+      "1840010": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ひだりて"
+        }
+      ],
+      "2827742": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "みぎにまがる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "873991",
+    "original": "そう、真っ直ぐ行って、それから右に曲がる、それから？",
+    "en": [
+      {
+        "id": "873597",
+        "text": "So, straight on, then right, and then?"
+      }
+    ],
+    "vocabIds": [
+      "2827742",
+      "1580600",
+      "1578850"
+    ],
+    "matches": {
+      "1578850": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "いって"
+        }
+      ],
+      "1580600": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "まっすぐ"
+        }
+      ],
+      "2827742": [
+        {
+          "start": 15,
+          "length": 5,
+          "reading": "みぎにまがる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12990626",
+    "original": "右に曲がると、うちの事務所があるよ。",
+    "en": [
+      {
+        "id": "27059",
+        "text": "Turn to the right, and you'll find my office."
+      }
+    ],
+    "vocabIds": [
+      "2827742",
+      "1314400"
+    ],
+    "matches": {
+      "1314400": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "じむしょ"
+        }
+      ],
+      "2827742": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "みぎにまがる"
+        }
+      ]
+    }
+  }
+]

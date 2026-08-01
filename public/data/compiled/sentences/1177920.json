@@ -1,0 +1,664 @@
+[
+  {
+    "id": "109562",
+    "original": "彼は遠回しに言って、私の名声を傷つけるのをさけた。",
+    "en": [
+      {
+        "id": "294129",
+        "text": "He managed to avoid damaging my reputation by dropping a hint."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 遠回し{遠回しに} 言う{言って} 私(わたし)[01]{私の} 名声 を 傷つける[02] の を 避ける{さけた}",
+    "vocabIds": [
+      "1345930",
+      "1177920",
+      "1587040",
+      "1531690",
+      "1000420",
+      "1483070",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1177920": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "とおまわし"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1345930": [
+        {
+          "start": 15,
+          "length": 4,
+          "reading": "きずつける"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1531690": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "めいせい"
+        }
+      ],
+      "1587040": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "いって"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "110111",
+    "original": "彼は意向を遠回しに言った。",
+    "en": [
+      {
+        "id": "293577",
+        "text": "He hinted at his intention."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 意向 を 遠回し{遠回しに} 言う{言った}",
+    "vocabIds": [
+      "1177920",
+      "1587040",
+      "1587200",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1177920": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "とおまわし"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1587040": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "いった"
+        }
+      ],
+      "1587200": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "いこう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "188659",
+    "original": "遠回しの言い方はやめて、要点をお話しください。",
+    "en": [
+      {
+        "id": "25805",
+        "text": "Please stop beating around the bush and come straight to the point."
+      }
+    ],
+    "indices": "遠回し の 言い方 は 止める(やめる){やめて} 要点 を 御(お){お} 話す{話し} 下さい{ください}",
+    "vocabIds": [
+      "1177920",
+      "1264330",
+      "2581590",
+      "1546820"
+    ],
+    "matches": {
+      "1177920": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "とおまわし"
+        }
+      ],
+      "1264330": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "いいかた"
+        }
+      ],
+      "1546820": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "ようてん"
+        }
+      ],
+      "2581590": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "おはなしし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "188660",
+    "original": "遠回しに言わないでください。",
+    "en": [
+      {
+        "id": "25806",
+        "text": "Don't beat about the bush."
+      },
+      {
+        "id": "22322",
+        "text": "Don't beat around the bush."
+      }
+    ],
+    "indices": "遠回し{遠回しに} 言う{言わないで} 下さい{ください}",
+    "vocabIds": [
+      "1587040",
+      "1177920"
+    ],
+    "matches": {
+      "1177920": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "とおまわし"
+        }
+      ],
+      "1587040": [
+        {
+          "start": 4,
+          "length": 9,
+          "reading": "いわないでください"
+        }
+      ]
+    }
+  },
+  {
+    "id": "188661",
+    "original": "遠回しに言わないで、誰に責任があるか言って下さい。",
+    "en": [
+      {
+        "id": "25807",
+        "text": "Don't beat around the bush; tell me who is to blame."
+      }
+    ],
+    "indices": "遠回し{遠回しに} 言う{言わないで} 誰 に 責任 が[01] 有る{ある} か 言う{言って} 下さい",
+    "vocabIds": [
+      "1587040",
+      "1177920",
+      "1383180",
+      "1416830"
+    ],
+    "matches": {
+      "1177920": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "とおまわし"
+        }
+      ],
+      "1383180": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "せきにん"
+        }
+      ],
+      "1416830": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "だれ"
+        }
+      ],
+      "1587040": [
+        {
+          "start": 18,
+          "length": 6,
+          "reading": "いってください"
+        },
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "いわないで"
+        }
+      ]
+    }
+  },
+  {
+    "id": "188662",
+    "original": "遠回しに言うのは止めて要点を言ってくれ。",
+    "en": [
+      {
+        "id": "25808",
+        "text": "Stop beating around the bush and get to the point."
+      }
+    ],
+    "indices": "遠回し{遠回しに} 言う の は 止める(やめる){止めて} 要点 を 言う{言って} 呉れる{くれ}",
+    "vocabIds": [
+      "1587040",
+      "1177920",
+      "1310670",
+      "1598820",
+      "1546820"
+    ],
+    "matches": {
+      "1177920": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "とおまわし"
+        }
+      ],
+      "1310670": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "とめて"
+        }
+      ],
+      "1546820": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "ようてん"
+        }
+      ],
+      "1587040": [
+        {
+          "start": 14,
+          "length": 5,
+          "reading": "いってくれ"
+        },
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "いう"
+        }
+      ],
+      "1598820": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "とめて"
+        }
+      ]
+    }
+  },
+  {
+    "id": "188663",
+    "original": "遠回しに言うのは止めて、何が起こったのか言いなさい。",
+    "en": [
+      {
+        "id": "25809",
+        "text": "Stop beating around the bush and tell me what happened."
+      }
+    ],
+    "indices": "遠回し{遠回しに} 言う の は 止める(やめる){止めて} 何(なに)[01] が 起こる{起こった} の か 言う{言い} 為さい{なさい}",
+    "vocabIds": [
+      "1587040",
+      "1223680",
+      "1177920",
+      "1310670",
+      "1598820",
+      "1577100"
+    ],
+    "matches": {
+      "1177920": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "とおまわし"
+        }
+      ],
+      "1223680": [
+        {
+          "start": 14,
+          "length": 4,
+          "reading": "おこった"
+        }
+      ],
+      "1310670": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "とめて"
+        }
+      ],
+      "1577100": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "なに"
+        }
+      ],
+      "1587040": [
+        {
+          "start": 20,
+          "length": 5,
+          "reading": "いいなさい"
+        },
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "いう"
+        }
+      ],
+      "1598820": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "とめて"
+        }
+      ]
+    }
+  },
+  {
+    "id": "188664",
+    "original": "遠回しに言うな。",
+    "en": [
+      {
+        "id": "22322",
+        "text": "Don't beat around the bush."
+      }
+    ],
+    "indices": "遠回し{遠回しに} 言う な[01]",
+    "vocabIds": [
+      "1177920",
+      "1587040"
+    ],
+    "matches": {
+      "1177920": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "とおまわし"
+        }
+      ],
+      "1587040": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "いう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "188665",
+    "original": "遠回しに言うかわりに、ジョーンズはズバリ要点に迫った。",
+    "en": [
+      {
+        "id": "25811",
+        "text": "Instead of beating around the bush, Jones got straight to the point."
+      }
+    ],
+    "indices": "遠回し{遠回しに} 言う 代わりに{かわりに} は ずばり{ズバリ} 要点 に 迫る{迫った}",
+    "vocabIds": [
+      "1177920",
+      "1475720",
+      "1587040",
+      "1546820"
+    ],
+    "matches": {
+      "1177920": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "とおまわし"
+        }
+      ],
+      "1475720": [
+        {
+          "start": 23,
+          "length": 3,
+          "reading": "せまった"
+        }
+      ],
+      "1546820": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "ようてん"
+        }
+      ],
+      "1587040": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "いう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "188666",
+    "original": "遠まわしに物を言うな。",
+    "en": [
+      {
+        "id": "22322",
+        "text": "Don't beat around the bush."
+      }
+    ],
+    "indices": "遠回し{遠まわしに} 物(もの)[01]~ を 言う な[01]",
+    "vocabIds": [
+      "1177920",
+      "2112320"
+    ],
+    "matches": {
+      "1177920": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "とおまわし"
+        }
+      ],
+      "2112320": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "ものをいう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "188667",
+    "original": "遠まわしに彼の意見を探った。",
+    "en": [
+      {
+        "id": "25813",
+        "text": "I sounded him out about his views."
+      },
+      {
+        "id": "1310422",
+        "text": "I tried to investigate his opinion indirectly."
+      }
+    ],
+    "indices": "遠回し{遠まわしに}~ 彼(かれ)[01] の 意見 を 探る{探った}~",
+    "vocabIds": [
+      "1177920",
+      "1418260",
+      "1000420",
+      "1156530"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "かれの"
+        }
+      ],
+      "1156530": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "いけん"
+        }
+      ],
+      "1177920": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "とおまわし"
+        }
+      ],
+      "1418260": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "さぐった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8938763",
+    "original": "遠回しに言うのは止めて。言いたいことがあるなら、直接言ってよ。",
+    "en": [
+      {
+        "id": "10066771",
+        "text": "Cut to the point. If there is something you want to say then say it."
+      }
+    ],
+    "vocabIds": [
+      "1587040",
+      "1177920",
+      "1310670",
+      "1598820",
+      "1431110"
+    ],
+    "matches": {
+      "1177920": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "とおまわし"
+        }
+      ],
+      "1310670": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "とめて"
+        }
+      ],
+      "1431110": [
+        {
+          "start": 24,
+          "length": 2,
+          "reading": "ちょくせつ"
+        }
+      ],
+      "1587040": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "いいたい"
+        },
+        {
+          "start": 26,
+          "length": 3,
+          "reading": "いって"
+        },
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "いう"
+        }
+      ],
+      "1598820": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "とめて"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12576990",
+    "original": "遠回しな言い方するなよ。",
+    "en": [
+      {
+        "id": "2271345",
+        "text": "Don't sugarcoat it."
+      },
+      {
+        "id": "22322",
+        "text": "Don't beat around the bush."
+      }
+    ],
+    "vocabIds": [
+      "1177920",
+      "1264330"
+    ],
+    "matches": {
+      "1177920": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "とおまわし"
+        }
+      ],
+      "1264330": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "いいかた"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,113 @@
+{
+  "id": "1471780",
+  "writtenForm": {
+    "kanji": "馬車",
+    "alternatives": [],
+    "containedKanji": [
+      "馬",
+      "車"
+    ]
+  },
+  "reading": {
+    "primary": "ばしゃ",
+    "alternatives": [
+      "うまぐるま",
+      "マーチョ"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 3113,
+    "kanaRank": 34676
+  },
+  "progression": {
+    "kklcStep": 336
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "coach (horse-drawn)",
+        "carriage",
+        "wagon",
+        "cart"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": true,
+        "rawTags": [
+          "rare"
+        ]
+      },
+      "glosses": [
+        "coach (horse-drawn)",
+        "carriage",
+        "wagon",
+        "cart"
+      ],
+      "related": {
+        "compounds": [
+          "馬車"
+        ]
+      },
+      "appliesToReadings": [
+        "マーチョ"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": true
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1471780",
+      "isBase": true,
+      "originalPrimaryReading": "ばしゃ",
+      "originalGlosses": [
+        "coach (horse-drawn)",
+        "carriage",
+        "wagon"
+      ]
+    },
+    {
+      "id": "2843693",
+      "isBase": false,
+      "originalPrimaryReading": "マーチョ",
+      "originalGlosses": [
+        "coach (horse-drawn)",
+        "carriage",
+        "wagon"
+      ]
+    }
+  ],
+  "components": [
+    "1471560",
+    "1323080"
+  ],
+  "parents": [
+    "1195420",
+    "1982870",
+    "2668620"
+  ]
+}

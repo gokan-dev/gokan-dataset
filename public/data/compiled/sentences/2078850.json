@@ -1,0 +1,79 @@
+[
+  {
+    "id": "140532",
+    "original": "早めの返事をお待ちしております。",
+    "en": [
+      {
+        "id": "52108",
+        "text": "I look forward to hearing from you soon."
+      }
+    ],
+    "indices": "早め{早めの}~ 返事 を 待つ{お待ち} 為る(する)[12]{して} 居る(おる)[02]{おります}",
+    "vocabIds": [
+      "2078850",
+      "1512220"
+    ],
+    "matches": {
+      "1512220": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "へんじ"
+        }
+      ],
+      "2078850": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "はやめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10157825",
+    "original": "明日、トムは早めの朝食をとるつもりだ。",
+    "en": [
+      {
+        "id": "37323",
+        "text": "Tom will have breakfast early tomorrow."
+      }
+    ],
+    "vocabIds": [
+      "1584660",
+      "2078850",
+      "1428390",
+      "2863028"
+    ],
+    "matches": {
+      "1428390": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "ちょうしょく"
+        }
+      ],
+      "1584660": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あした"
+        }
+      ],
+      "2078850": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "はやめ"
+        }
+      ],
+      "2863028": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "ちょうしょく"
+        }
+      ]
+    }
+  }
+]

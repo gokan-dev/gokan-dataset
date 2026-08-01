@@ -1,0 +1,76 @@
+[
+  {
+    "id": "141427",
+    "original": "占い師に手相を見せました。",
+    "en": [
+      {
+        "id": "273144",
+        "text": "A fortune-teller read my hand."
+      }
+    ],
+    "indices": "占い師~ に 手相~ を 見せる{見せました}",
+    "vocabIds": [
+      "1259210",
+      "1588460",
+      "1328070"
+    ],
+    "matches": {
+      "1259210": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "みせました"
+        }
+      ],
+      "1328070": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "てそう"
+        }
+      ],
+      "1588460": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "うらないし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "148527",
+    "original": "手相に興味があるんです。",
+    "en": [
+      {
+        "id": "266032",
+        "text": "I am interested in palm reading."
+      },
+      {
+        "id": "6873078",
+        "text": "I'm interested in palm reading."
+      }
+    ],
+    "indices": "手相 に 興味 が[01] 有る{ある} のです{んです}",
+    "vocabIds": [
+      "1328070",
+      "1238410"
+    ],
+    "matches": {
+      "1238410": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "きょうみ"
+        }
+      ],
+      "1328070": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "てそう"
+        }
+      ]
+    }
+  }
+]

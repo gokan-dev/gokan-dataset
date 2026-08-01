@@ -1,0 +1,77 @@
+[
+  {
+    "id": "123066",
+    "original": "二人は手を取り合って月明かりの中を歩いた。",
+    "en": [
+      {
+        "id": "280934",
+        "text": "The couple walked holding hands in the moonlight."
+      },
+      {
+        "id": "11791141",
+        "text": "The two held hands and walked in the moonlight."
+      }
+    ],
+    "indices": "二人 は 手 を 取り合う[01]{取り合って} 月明かり~ の 中(なか)[04] を 歩く{歩いた}",
+    "vocabIds": [
+      "1327000",
+      "1597800",
+      "1514320",
+      "1582670",
+      "1327190",
+      "1423310",
+      "2098290"
+    ],
+    "matches": {
+      "1327000": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "とりあって"
+        }
+      ],
+      "1327190": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "て"
+        }
+      ],
+      "1423310": [
+        {
+          "start": 15,
+          "length": 1,
+          "reading": "なか"
+        }
+      ],
+      "1514320": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "あるいた"
+        }
+      ],
+      "1582670": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ににん"
+        }
+      ],
+      "1597800": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "つきあかり"
+        }
+      ],
+      "2098290": [
+        {
+          "start": 15,
+          "length": 1,
+          "reading": "なか"
+        }
+      ]
+    }
+  }
+]

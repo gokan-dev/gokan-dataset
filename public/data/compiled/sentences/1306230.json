@@ -1,0 +1,120 @@
+[
+  {
+    "id": "209592",
+    "original": "その車の使用許可が彼女に与えられた。",
+    "en": [
+      {
+        "id": "46854",
+        "text": "Permission to use the car was accorded to her."
+      },
+      {
+        "id": "446312",
+        "text": "Permission to use the car was accorded her."
+      },
+      {
+        "id": "4789691",
+        "text": "She got permission to use the car."
+      }
+    ],
+    "indices": "其の[01]{その} 車(くるま) の 使用許可 が 彼女 に 与える[01]{与えられた}",
+    "vocabIds": [
+      "1306230",
+      "1544730",
+      "1483150",
+      "1323080"
+    ],
+    "matches": {
+      "1306230": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "しようきょか"
+        }
+      ],
+      "1323080": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1544730": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "あたえ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "209692",
+    "original": "その自動車の使用許可が私に与えられた。",
+    "en": [
+      {
+        "id": "46954",
+        "text": "I was accorded permission to use the car."
+      }
+    ],
+    "indices": "其の[01]{その} 自動車 の 使用許可~ が 私(わたし)[01] に 与える[01]{与えられた}",
+    "vocabIds": [
+      "1306230",
+      "1318400",
+      "1544730",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1306230": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "しようきょか"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1318400": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "じどうしゃ"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1544730": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "あたえ"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  }
+]

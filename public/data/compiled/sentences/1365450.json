@@ -1,0 +1,2599 @@
+[
+  {
+    "id": "80298",
+    "original": "明日歯医者さんに診てもらおうと思っています。",
+    "en": [
+      {
+        "id": "323419",
+        "text": "I am going to see the dentist tomorrow."
+      }
+    ],
+    "indices": "明日 歯医者 さん に 見てもらう{診てもらおう} と 思う{思っています}",
+    "vocabIds": [
+      "1365450",
+      "1589350",
+      "1313080",
+      "1584660"
+    ],
+    "matches": {
+      "1313080": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "はいしゃ"
+        }
+      ],
+      "1365450": [
+        {
+          "start": 8,
+          "length": 6,
+          "reading": "みてもらおう"
+        }
+      ],
+      "1584660": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あした"
+        }
+      ],
+      "1589350": [
+        {
+          "start": 15,
+          "length": 6,
+          "reading": "おもっています"
+        }
+      ]
+    }
+  },
+  {
+    "id": "83389",
+    "original": "変なことをするから頭を診てもらいなさいよ。",
+    "en": [
+      {
+        "id": "320327",
+        "text": "You should have your head examined."
+      }
+    ],
+    "indices": "変[01]{変な} 事(こと){こと} を 為る(する)[01]{する} から 頭(あたま) を 見てもらう{診てもらい} 為さい{なさい} よ[01]",
+    "vocabIds": [
+      "1365450",
+      "1510640",
+      "1582310",
+      "2252700"
+    ],
+    "matches": {
+      "1365450": [
+        {
+          "start": 11,
+          "length": 8,
+          "reading": "みてもらいなさい"
+        }
+      ],
+      "1510640": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "へん"
+        }
+      ],
+      "1582310": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "あたま"
+        }
+      ],
+      "2252700": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "あたま"
+        }
+      ]
+    }
+  },
+  {
+    "id": "89529",
+    "original": "彼女は私に医者に診てもらうべきだと言いました。",
+    "en": [
+      {
+        "id": "314184",
+        "text": "She insisted that I should see the doctor."
+      }
+    ],
+    "indices": "彼女[01] は 私(わたし)[01] に 医者 に 見てもらう{診てもらう} 可き{べき} だ と 言う{言いました}",
+    "vocabIds": [
+      "1365450",
+      "1587040",
+      "1483150",
+      "1159980",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1159980": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "いしゃ"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1365450": [
+        {
+          "start": 8,
+          "length": 8,
+          "reading": "みてもらうべきだ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1587040": [
+        {
+          "start": 17,
+          "length": 5,
+          "reading": "いいました"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "91715",
+    "original": "彼女ははるばる医者に診てもらいに行ったが、医者は不在だった。",
+    "en": [
+      {
+        "id": "311997",
+        "text": "She went all the way to see her doctor only to find him absent."
+      }
+    ],
+    "indices": "彼女[01] は 遥々{はるばる} 医者 に 見てもらう{診てもらい} に 行く[01]{行った} が 医者 は 不在 だ{だった}",
+    "vocabIds": [
+      "1365450",
+      "1578850",
+      "1483150",
+      "1159980",
+      "1492460"
+    ],
+    "matches": {
+      "1159980": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "いしゃ"
+        },
+        {
+          "start": 21,
+          "length": 2,
+          "reading": "いしゃ"
+        }
+      ],
+      "1365450": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "みてもらい"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1492460": [
+        {
+          "start": 24,
+          "length": 2,
+          "reading": "ふざい"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 16,
+          "length": 4,
+          "reading": "いったが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "158500",
+    "original": "私は医者に診てもらいに行ったが、あいにく留守だった。",
+    "en": [
+      {
+        "id": "256029",
+        "text": "I went to see the doctor, only to find him absent."
+      }
+    ],
+    "indices": "私(わたし)[01] は 医者 に 見てもらう{診てもらい} に 行く[01]{行った} が 生憎{あいにく} 留守 だ{だった}",
+    "vocabIds": [
+      "1365450",
+      "1578850",
+      "1159980",
+      "1552760",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1159980": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "いしゃ"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1365450": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "みてもらい"
+        }
+      ],
+      "1552760": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "るす"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "いったが"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "158570",
+    "original": "私はわざわざ医者に診てもらいに行ったのに、不在だった。",
+    "en": [
+      {
+        "id": "255436",
+        "text": "I went all the way to see my doctor, only to find him absent."
+      }
+    ],
+    "indices": "私(わたし)[01] は 態々[01]{わざわざ} 医者 に 見てもらう{診てもらい} に 行く[01]{行った} のに 不在 だ{だった}",
+    "vocabIds": [
+      "1365450",
+      "1578850",
+      "1159980",
+      "1492460",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1159980": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "いしゃ"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1365450": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "みてもらい"
+        }
+      ],
+      "1492460": [
+        {
+          "start": 21,
+          "length": 2,
+          "reading": "ふざい"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 15,
+          "length": 5,
+          "reading": "いったのに"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "159089",
+    "original": "私ははるばる主治医に診てもらいに行ったが、彼はいなかった。",
+    "en": [
+      {
+        "id": "255436",
+        "text": "I went all the way to see my doctor, only to find him absent."
+      }
+    ],
+    "indices": "私(わたし)[01] は 遥々{はるばる} 主治医 に 見てもらう{診てもらい} に 行く[01]{行った} が 彼(かれ)[01] は 居る(いる){いなかった}",
+    "vocabIds": [
+      "1365450",
+      "1578850",
+      "1325560",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 21,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1325560": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "しゅじい"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1365450": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "みてもらい"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 21,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 16,
+          "length": 4,
+          "reading": "いったが"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "175441",
+    "original": "健康状態を医者に診てもらったほうがいい。",
+    "en": [
+      {
+        "id": "239024",
+        "text": "You should have a doctor examine your condition."
+      }
+    ],
+    "indices": "健康状態 を 医者 に 見てもらう{診てもらった} 方がいい{ほうがいい}",
+    "vocabIds": [
+      "1365450",
+      "1934120",
+      "1159980"
+    ],
+    "matches": {
+      "1159980": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "いしゃ"
+        }
+      ],
+      "1365450": [
+        {
+          "start": 8,
+          "length": 6,
+          "reading": "みてもらった"
+        }
+      ],
+      "1934120": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "けんこうじょうたい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "175443",
+    "original": "健康状態について医者に診てもらった方がいい。",
+    "en": [
+      {
+        "id": "239022",
+        "text": "You had better consult a doctor about your health."
+      }
+    ],
+    "indices": "健康状態 に就いて{について} 医者 に 見てもらう{診てもらった} 方がいい",
+    "vocabIds": [
+      "1365450",
+      "1934120",
+      "2160680",
+      "1159980"
+    ],
+    "matches": {
+      "1159980": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "いしゃ"
+        }
+      ],
+      "1365450": [
+        {
+          "start": 11,
+          "length": 6,
+          "reading": "みてもらった"
+        }
+      ],
+      "1934120": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "けんこうじょうたい"
+        }
+      ],
+      "2160680": [
+        {
+          "start": 17,
+          "length": 4,
+          "reading": "ほうがいい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "177221",
+    "original": "歯医者に診てもらうべきだ。",
+    "en": [
+      {
+        "id": "16070",
+        "text": "You ought to see a dentist."
+      }
+    ],
+    "indices": "歯医者 に 診る{診て}~ 貰う[02]{もらう} 可き{べき} だ",
+    "vocabIds": [
+      "1365450",
+      "1313080"
+    ],
+    "matches": {
+      "1313080": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "はいしゃ"
+        }
+      ],
+      "1365450": [
+        {
+          "start": 4,
+          "length": 8,
+          "reading": "みてもらうべきだ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "177301",
+    "original": "君は今すぐ医者に診てもらわなければいけない。",
+    "en": [
+      {
+        "id": "15889",
+        "text": "It is necessary for you to see a doctor at once."
+      }
+    ],
+    "indices": "君(きみ)[01] は 今すぐ 医者 に 見てもらう{診てもらわ} 無ければ{なければ} 行けない{いけない}",
+    "vocabIds": [
+      "1365450",
+      "2026850",
+      "1159980",
+      "1247250"
+    ],
+    "matches": {
+      "1159980": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "いしゃ"
+        }
+      ],
+      "1247250": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "きみ"
+        }
+      ],
+      "1365450": [
+        {
+          "start": 8,
+          "length": 13,
+          "reading": "みてもらわなければいけない"
+        }
+      ],
+      "2026850": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "いますぐ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "177302",
+    "original": "君は今すぐ医者に診てもらわなければならない。",
+    "en": [
+      {
+        "id": "15889",
+        "text": "It is necessary for you to see a doctor at once."
+      }
+    ],
+    "indices": "君(きみ)[01] は 今すぐ 医者 に 見てもらう{診てもらわ} ねばならない{なければならない}",
+    "vocabIds": [
+      "1365450",
+      "2026850",
+      "1159980",
+      "1247250"
+    ],
+    "matches": {
+      "1159980": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "いしゃ"
+        }
+      ],
+      "1247250": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "きみ"
+        }
+      ],
+      "1365450": [
+        {
+          "start": 8,
+          "length": 13,
+          "reading": "みてもらわなければならない"
+        }
+      ],
+      "2026850": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "いますぐ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "182440",
+    "original": "急患で診ていただきたいのですが。",
+    "en": [
+      {
+        "id": "19613",
+        "text": "I need medical help."
+      }
+    ],
+    "indices": "急患~ で(#2028980) 診る{診て} 頂く[01]{いただき} たい[01] のです が[03]",
+    "vocabIds": [
+      "1365450",
+      "1228670"
+    ],
+    "matches": {
+      "1228670": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きゅうかん"
+        }
+      ],
+      "1365450": [
+        {
+          "start": 3,
+          "length": 8,
+          "reading": "みていただきたい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "187529",
+    "original": "何回くらい歯医者さんに診てもらいにいかなくてはいけないの？",
+    "en": [
+      {
+        "id": "2794667",
+        "text": "How many times will you have to go to the dentist?"
+      },
+      {
+        "id": "2794668",
+        "text": "How many times do you have to go to the dentist?"
+      }
+    ],
+    "indices": "何回 くらい[01] 歯医者 さん に 見てもらう{診てもらい} に 行く{いか} 無くてはいけない{なくてはいけない} の",
+    "vocabIds": [
+      "1365450",
+      "1313080",
+      "1188650"
+    ],
+    "matches": {
+      "1188650": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "なんかい"
+        }
+      ],
+      "1313080": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "はいしゃ"
+        }
+      ],
+      "1365450": [
+        {
+          "start": 11,
+          "length": 5,
+          "reading": "みてもらい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "190878",
+    "original": "医者に診てもらった方がいいよ。",
+    "en": [
+      {
+        "id": "2659685",
+        "text": "You'd better see a doctor."
+      },
+      {
+        "id": "405716",
+        "text": "You should see a doctor."
+      },
+      {
+        "id": "28050",
+        "text": "You had better see the doctor."
+      },
+      {
+        "id": "1415904",
+        "text": "You should have a doctor look at that."
+      },
+      {
+        "id": "28061",
+        "text": "You should have a doctor check you out."
+      },
+      {
+        "id": "9684714",
+        "text": "You'd better see the doctor."
+      }
+    ],
+    "indices": "医者 に 見る{みて} 貰う[02]{もらった} 方(ほう){ほう} か いい",
+    "vocabIds": [
+      "1365450",
+      "2160680",
+      "1159980"
+    ],
+    "matches": {
+      "1159980": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いしゃ"
+        }
+      ],
+      "1365450": [
+        {
+          "start": 3,
+          "length": 6,
+          "reading": "みてもらった"
+        }
+      ],
+      "2160680": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "ほうがいい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "190879",
+    "original": "医者に診てもらったらどうですか。",
+    "en": [
+      {
+        "id": "28039",
+        "text": "What do you say to seeing a doctor?"
+      }
+    ],
+    "indices": "医者 に 見てもらう{診てもらったら} 如何(どう){どう} ですか",
+    "vocabIds": [
+      "1365450",
+      "1159980"
+    ],
+    "matches": {
+      "1159980": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いしゃ"
+        }
+      ],
+      "1365450": [
+        {
+          "start": 3,
+          "length": 7,
+          "reading": "みてもらったら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "190880",
+    "original": "医者に診てもらったのか。",
+    "en": [
+      {
+        "id": "28040",
+        "text": "Did you see a doctor?"
+      }
+    ],
+    "indices": "医者 に 見てもらう{診てもらった} の か",
+    "vocabIds": [
+      "1365450",
+      "1159980"
+    ],
+    "matches": {
+      "1159980": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いしゃ"
+        }
+      ],
+      "1365450": [
+        {
+          "start": 3,
+          "length": 6,
+          "reading": "みてもらった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "190884",
+    "original": "医者に診てもらいなさい。",
+    "en": [
+      {
+        "id": "28044",
+        "text": "You'd better consult your doctor."
+      }
+    ],
+    "indices": "医者 に 見てもらう{診てもらい} 為さい{なさい}",
+    "vocabIds": [
+      "1365450",
+      "1159980"
+    ],
+    "matches": {
+      "1159980": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いしゃ"
+        }
+      ],
+      "1365450": [
+        {
+          "start": 3,
+          "length": 8,
+          "reading": "みてもらいなさい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "190885",
+    "original": "医者に診てもらいたいのです。",
+    "en": [
+      {
+        "id": "28045",
+        "text": "I'd like to see a doctor."
+      }
+    ],
+    "indices": "医者 に 見てもらう{診てもらい} たい[01] のです",
+    "vocabIds": [
+      "1365450",
+      "1159980"
+    ],
+    "matches": {
+      "1159980": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いしゃ"
+        }
+      ],
+      "1365450": [
+        {
+          "start": 3,
+          "length": 7,
+          "reading": "みてもらいたい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "190887",
+    "original": "医者に行って診てもらいなさい。",
+    "en": [
+      {
+        "id": "28047",
+        "text": "Go and see the doctor."
+      }
+    ],
+    "indices": "医者 に 行く[01]{行って} 診る{診て} 貰う[02]{もらい} 為さい{なさい}",
+    "vocabIds": [
+      "1365450",
+      "1578850",
+      "1159980"
+    ],
+    "matches": {
+      "1159980": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いしゃ"
+        }
+      ],
+      "1365450": [
+        {
+          "start": 6,
+          "length": 8,
+          "reading": "みてもらいなさい"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "いって"
+        }
+      ]
+    }
+  },
+  {
+    "id": "190902",
+    "original": "医者に診てもらうべきですよ。",
+    "en": [
+      {
+        "id": "28052",
+        "text": "You ought to see a doctor."
+      },
+      {
+        "id": "54916",
+        "text": "You had better consult the doctor."
+      },
+      {
+        "id": "405716",
+        "text": "You should see a doctor."
+      }
+    ],
+    "indices": "医者 に 診る{診て} 貰う[02]{もらう} 可き{べき} です よ[01]",
+    "vocabIds": [
+      "1365450",
+      "1159980"
+    ],
+    "matches": {
+      "1159980": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いしゃ"
+        }
+      ],
+      "1365450": [
+        {
+          "start": 3,
+          "length": 9,
+          "reading": "みてもらうべきです"
+        }
+      ]
+    }
+  },
+  {
+    "id": "190925",
+    "original": "医者がよく診てくれたおかげで、患者は直ちに回復した。",
+    "en": [
+      {
+        "id": "28085",
+        "text": "The doctor's careful treatment of the patient brought about her quick recovery."
+      }
+    ],
+    "indices": "医者 が 良く{よく} 診る{診て} 呉れる{くれた} お陰で{おかげで} 患者 は 直ちに 回復[02] 為る(する){した}",
+    "vocabIds": [
+      "1365450",
+      "1430670",
+      "1159980",
+      "1212210",
+      "1199720"
+    ],
+    "matches": {
+      "1159980": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いしゃ"
+        }
+      ],
+      "1199720": [
+        {
+          "start": 21,
+          "length": 2,
+          "reading": "かいふく"
+        }
+      ],
+      "1212210": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "かんじゃ"
+        }
+      ],
+      "1365450": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "みてくれた"
+        }
+      ],
+      "1430670": [
+        {
+          "start": 18,
+          "length": 3,
+          "reading": "ただちに"
+        }
+      ]
+    }
+  },
+  {
+    "id": "190949",
+    "original": "医師が患者をよく診てくれたので回復した。",
+    "en": [
+      {
+        "id": "28109",
+        "text": "The doctor's careful treatment of the patient brought about her recovery."
+      }
+    ],
+    "indices": "医師(いし) が 患者 を 良く{よく} 診る{診て} 呉れる{くれた} ので 回復[02] 為る(する){した}",
+    "vocabIds": [
+      "1365450",
+      "1159930",
+      "1538240",
+      "1212210",
+      "1199720"
+    ],
+    "matches": {
+      "1159930": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いし"
+        }
+      ],
+      "1199720": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "かいふく"
+        }
+      ],
+      "1212210": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かんじゃ"
+        }
+      ],
+      "1365450": [
+        {
+          "start": 8,
+          "length": 7,
+          "reading": "みてくれたので"
+        }
+      ],
+      "1538240": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "190950",
+    "original": "医師がよく診てくれたおかげで、患者は直ちに回復した。",
+    "en": [
+      {
+        "id": "28085",
+        "text": "The doctor's careful treatment of the patient brought about her quick recovery."
+      }
+    ],
+    "indices": "医師(いし) が 良く{よく} 診る{診て} 呉れる{くれた} お陰で{おかげで} 患者 は 直ちに 回復[02] 為る(する){した}",
+    "vocabIds": [
+      "1365450",
+      "1430670",
+      "1159930",
+      "1538240",
+      "1212210",
+      "1199720"
+    ],
+    "matches": {
+      "1159930": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いし"
+        }
+      ],
+      "1199720": [
+        {
+          "start": 21,
+          "length": 2,
+          "reading": "かいふく"
+        }
+      ],
+      "1212210": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "かんじゃ"
+        }
+      ],
+      "1365450": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "みてくれた"
+        }
+      ],
+      "1430670": [
+        {
+          "start": 18,
+          "length": 3,
+          "reading": "ただちに"
+        }
+      ],
+      "1538240": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "190990",
+    "original": "胃痛のことで医者に診てもらいたい。",
+    "en": [
+      {
+        "id": "28149",
+        "text": "I want to see a doctor about my stomach-ache."
+      },
+      {
+        "id": "1449754",
+        "text": "I want to see a doctor about my stomachache."
+      }
+    ],
+    "indices": "胃痛 の 事(こと){こと} で(#2028980) 医者 に 見てもらう{診てもらい} たい",
+    "vocabIds": [
+      "1365450",
+      "1158620",
+      "1159980"
+    ],
+    "matches": {
+      "1158620": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いつう"
+        }
+      ],
+      "1159980": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "いしゃ"
+        }
+      ],
+      "1365450": [
+        {
+          "start": 9,
+          "length": 7,
+          "reading": "みてもらいたい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214921",
+    "original": "すぐに医者に診てもらったほうがいい。",
+    "en": [
+      {
+        "id": "52216",
+        "text": "You may as well see the doctor at once."
+      }
+    ],
+    "indices": "直ぐに{すぐに} 医者 に 見てもらう{診てもらった} 方がいい{ほうがいい}",
+    "vocabIds": [
+      "1365450",
+      "1159980"
+    ],
+    "matches": {
+      "1159980": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "いしゃ"
+        }
+      ],
+      "1365450": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "みてもらった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214922",
+    "original": "すぐに医者に診てもらった方がいいぞ。",
+    "en": [
+      {
+        "id": "52218",
+        "text": "You had better see a doctor at once."
+      },
+      {
+        "id": "8985542",
+        "text": "You'd better see a doctor at once."
+      }
+    ],
+    "indices": "直ぐに{すぐに} 医者 に 診てもらう{診てもらった}~ 方がいい ぞ",
+    "vocabIds": [
+      "1365450",
+      "2160680",
+      "1159980"
+    ],
+    "matches": {
+      "1159980": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "いしゃ"
+        }
+      ],
+      "1365450": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "みてもらった"
+        }
+      ],
+      "2160680": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "ほうがいい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "227412",
+    "original": "お医者さんに診てもらった方がいいですよ。",
+    "en": [
+      {
+        "id": "28044",
+        "text": "You'd better consult your doctor."
+      }
+    ],
+    "indices": "お医者さん に 見てもらう{診てもらった} 方がいい です よ[01]",
+    "vocabIds": [
+      "1365450",
+      "1612760",
+      "2160680"
+    ],
+    "matches": {
+      "1365450": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "みてもらった"
+        }
+      ],
+      "1612760": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "おいしゃさん"
+        }
+      ],
+      "2160680": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "ほうがいい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "232651",
+    "original": "あなたはすぐ医者に診てもらわねばならない。",
+    "en": [
+      {
+        "id": "70021",
+        "text": "You are to see a doctor at once."
+      }
+    ],
+    "indices": "貴方(あなた)[01]{あなた} は 直ぐ{すぐ} 医者 に 見てもらう{診てもらわ} ねばならない",
+    "vocabIds": [
+      "1365450",
+      "1159980"
+    ],
+    "matches": {
+      "1159980": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "いしゃ"
+        }
+      ],
+      "1365450": [
+        {
+          "start": 9,
+          "length": 11,
+          "reading": "みてもらわねばならない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "232668",
+    "original": "あなたはすぐに医者に診てもらわなければならない。",
+    "en": [
+      {
+        "id": "70021",
+        "text": "You are to see a doctor at once."
+      }
+    ],
+    "indices": "貴方(あなた)[01]{あなた} は 直ぐに{すぐに} 医者 に 見てもらう{診てもらわ} ねばならない{なければならない}",
+    "vocabIds": [
+      "1365450",
+      "1159980"
+    ],
+    "matches": {
+      "1159980": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "いしゃ"
+        }
+      ],
+      "1365450": [
+        {
+          "start": 10,
+          "length": 13,
+          "reading": "みてもらわなければならない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "236288",
+    "original": "「歯がひどく痛むのです」「すぐ歯医者に診てもらいなさい」",
+    "en": [
+      {
+        "id": "73652",
+        "text": "\"I have a terrible tooth-ache.\" \"You'd better see a dentist at once.\""
+      }
+    ],
+    "indices": "歯 が 酷い(ひどい){ひどく} 痛む[01] のです 直ぐ{すぐ} 歯医者 に 見てもらう{診てもらい} 為さい{なさい}",
+    "vocabIds": [
+      "1365450",
+      "1313080",
+      "1432710",
+      "1313000",
+      "1557940"
+    ],
+    "matches": {
+      "1313000": [
+        {
+          "start": 1,
+          "length": 1,
+          "reading": "は"
+        }
+      ],
+      "1313080": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "はいしゃ"
+        }
+      ],
+      "1365450": [
+        {
+          "start": 19,
+          "length": 8,
+          "reading": "みてもらいなさい"
+        }
+      ],
+      "1432710": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "いたむ"
+        }
+      ],
+      "1557940": [
+        {
+          "start": 1,
+          "length": 1,
+          "reading": "は"
+        }
+      ]
+    }
+  },
+  {
+    "id": "236358",
+    "original": "「近頃どうも調子が悪くてね」「一度診てもらった方がいいよ」",
+    "en": [
+      {
+        "id": "73724",
+        "text": "\"I haven't been feeling too good lately.\" \"You had better go to a doctor.\""
+      }
+    ],
+    "indices": "近頃[01] どうも 調子が悪い[01]{調子が悪くて} ね(#2029080)[01] 一度 見てもらう{診てもらった} 方がいい よ",
+    "vocabIds": [
+      "1365450",
+      "2160680",
+      "1151260",
+      "1403390",
+      "2772730",
+      "1242300",
+      "1429170",
+      "1576250"
+    ],
+    "matches": {
+      "1151260": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "わるくて"
+        }
+      ],
+      "1242300": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "ちかごろ"
+        }
+      ],
+      "1365450": [
+        {
+          "start": 17,
+          "length": 6,
+          "reading": "みてもらった"
+        }
+      ],
+      "1403390": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "わるくて"
+        }
+      ],
+      "1429170": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ちょうし"
+        }
+      ],
+      "1576250": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "いちど"
+        }
+      ],
+      "2160680": [
+        {
+          "start": 23,
+          "length": 4,
+          "reading": "ほうがいい"
+        }
+      ],
+      "2772730": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "わるくて"
+        }
+      ]
+    }
+  },
+  {
+    "id": "774477",
+    "original": "医者に診て貰わなくてはなりません。",
+    "en": [
+      {
+        "id": "890425",
+        "text": "You must be seen by a doctor."
+      }
+    ],
+    "vocabIds": [
+      "1535910",
+      "1159980",
+      "1365450"
+    ],
+    "matches": {
+      "1159980": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いしゃ"
+        }
+      ],
+      "1365450": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "みて"
+        }
+      ],
+      "1535910": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "もらわなくて"
+        }
+      ]
+    }
+  },
+  {
+    "id": "774480",
+    "original": "医者に診てもらうべきだと思います。",
+    "en": [
+      {
+        "id": "792751",
+        "text": "I think I should see a doctor."
+      }
+    ],
+    "vocabIds": [
+      "1365450",
+      "1589350",
+      "1159980"
+    ],
+    "matches": {
+      "1159980": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いしゃ"
+        }
+      ],
+      "1365450": [
+        {
+          "start": 3,
+          "length": 8,
+          "reading": "みてもらうべきだ"
+        }
+      ],
+      "1589350": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "おもいます"
+        }
+      ]
+    }
+  },
+  {
+    "id": "774798",
+    "original": "あなたは医者に診てもらった方が良いです。",
+    "en": [
+      {
+        "id": "774780",
+        "text": "You'd better call the doctor."
+      }
+    ],
+    "vocabIds": [
+      "1365450",
+      "2160680",
+      "1159980"
+    ],
+    "matches": {
+      "1159980": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "いしゃ"
+        }
+      ],
+      "1365450": [
+        {
+          "start": 7,
+          "length": 6,
+          "reading": "みてもらった"
+        }
+      ],
+      "2160680": [
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "ほうがよい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1005673",
+    "original": "医者に診てもらったほうがいいよ。",
+    "en": [
+      {
+        "id": "2659685",
+        "text": "You'd better see a doctor."
+      }
+    ],
+    "vocabIds": [
+      "1365450",
+      "1159980"
+    ],
+    "matches": {
+      "1159980": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いしゃ"
+        }
+      ],
+      "1365450": [
+        {
+          "start": 3,
+          "length": 6,
+          "reading": "みてもらった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1143516",
+    "original": "症状が悪くなったら医者に診てもらった方がいいよ。",
+    "en": [
+      {
+        "id": "268190",
+        "text": "You should consult a doctor if the symptoms get worse."
+      },
+      {
+        "id": "13204739",
+        "text": "You should go see a doctor if the symptoms get worse."
+      }
+    ],
+    "indices": "症状(しょうじょう) が 悪い(わるい){悪く} 成る(なる){なったら} 医者(いしゃ) に 診る(みる){診て} 貰う(もらう){もらった} 方がいい よ",
+    "vocabIds": [
+      "1365450",
+      "2160680",
+      "1351030",
+      "1151260",
+      "1403390",
+      "2772730",
+      "1159980"
+    ],
+    "matches": {
+      "1151260": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "わるく"
+        }
+      ],
+      "1159980": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "いしゃ"
+        }
+      ],
+      "1351030": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しょうじょう"
+        }
+      ],
+      "1365450": [
+        {
+          "start": 12,
+          "length": 6,
+          "reading": "みてもらった"
+        }
+      ],
+      "1403390": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "わるく"
+        }
+      ],
+      "2160680": [
+        {
+          "start": 18,
+          "length": 4,
+          "reading": "ほうがいい"
+        }
+      ],
+      "2772730": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "わるく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1219379",
+    "original": "トムは医者に診てもらった。",
+    "en": [
+      {
+        "id": "1164244",
+        "text": "Tom saw a doctor."
+      }
+    ],
+    "vocabIds": [
+      "1365450",
+      "1159980"
+    ],
+    "matches": {
+      "1159980": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "いしゃ"
+        }
+      ],
+      "1365450": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "みてもらった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1565644",
+    "original": "これはなるべく早くお医者さんに診てもらった方がいいですよ。",
+    "en": [
+      {
+        "id": "953623",
+        "text": "I suggest that you go and see a doctor about this as soon as you can."
+      }
+    ],
+    "vocabIds": [
+      "2834112",
+      "1365450",
+      "1612760",
+      "2160680"
+    ],
+    "matches": {
+      "1365450": [
+        {
+          "start": 15,
+          "length": 6,
+          "reading": "みてもらった"
+        }
+      ],
+      "1612760": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "おいしゃさん"
+        }
+      ],
+      "2160680": [
+        {
+          "start": 21,
+          "length": 4,
+          "reading": "ほうがいい"
+        }
+      ],
+      "2834112": [
+        {
+          "start": 3,
+          "length": 6,
+          "reading": "なるべくはやく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "6849923",
+    "original": "君は精神科に診てもらったほうがいい。",
+    "en": [
+      {
+        "id": "6376629",
+        "text": "You better go and see a psychiatrist."
+      }
+    ],
+    "vocabIds": [
+      "1365450",
+      "1379990",
+      "1247250"
+    ],
+    "matches": {
+      "1247250": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "きみ"
+        }
+      ],
+      "1365450": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "みてもらった"
+        }
+      ],
+      "1379990": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "せいしんか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9250777",
+    "original": "自分より年上の患者をたくさん診てるんだ。",
+    "en": [
+      {
+        "id": "5187492",
+        "text": "I have a lot of patients who are older than me."
+      }
+    ],
+    "vocabIds": [
+      "1365450",
+      "1318610",
+      "1468870",
+      "1212210"
+    ],
+    "matches": {
+      "1212210": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "かんじゃ"
+        }
+      ],
+      "1318610": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じぶん"
+        }
+      ],
+      "1365450": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "みてる"
+        }
+      ],
+      "1468870": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "としうえ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9360139",
+    "original": "お医者さんに診てもらったの？",
+    "en": [
+      {
+        "id": "64765",
+        "text": "Did you go to see a doctor?"
+      }
+    ],
+    "vocabIds": [
+      "1365450",
+      "1612760"
+    ],
+    "matches": {
+      "1365450": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "みてもらった"
+        }
+      ],
+      "1612760": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "おいしゃさん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9734390",
+    "original": "今日の午後に、お医者さんに診てもらいに行くよ。",
+    "en": [
+      {
+        "id": "63133",
+        "text": "I'm going to go to the doctor this afternoon."
+      }
+    ],
+    "vocabIds": [
+      "1612760",
+      "1365450",
+      "1579110",
+      "1268990",
+      "1578850"
+    ],
+    "matches": {
+      "1268990": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ごご"
+        }
+      ],
+      "1365450": [
+        {
+          "start": 13,
+          "length": 5,
+          "reading": "みてもらい"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "いく"
+        }
+      ],
+      "1579110": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きょう"
+        }
+      ],
+      "1612760": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "おいしゃさん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9851166",
+    "original": "医者に診てもらわないと駄目だよ。",
+    "en": [
+      {
+        "id": "28055",
+        "text": "You must see a doctor."
+      }
+    ],
+    "indices": "医者 に 診る(みる){診て} 貰う(もらう){もらわない} と 駄目(だめ) だ よ",
+    "vocabIds": [
+      "1365450",
+      "1159980",
+      "1409110"
+    ],
+    "matches": {
+      "1159980": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いしゃ"
+        }
+      ],
+      "1365450": [
+        {
+          "start": 3,
+          "length": 8,
+          "reading": "みてもらわないと"
+        }
+      ],
+      "1409110": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "だめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9862274",
+    "original": "医者に診てもらわなきゃ駄目よ。",
+    "en": [
+      {
+        "id": "28059",
+        "text": "You need to see a doctor."
+      }
+    ],
+    "vocabIds": [
+      "1365450",
+      "1159980",
+      "1409110"
+    ],
+    "matches": {
+      "1159980": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いしゃ"
+        }
+      ],
+      "1365450": [
+        {
+          "start": 3,
+          "length": 8,
+          "reading": "みてもらわなきゃ"
+        }
+      ],
+      "1409110": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "だめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9930725",
+    "original": "俺、肛門の専門家に診てもらわなきゃ。",
+    "en": [
+      {
+        "id": "9930726",
+        "text": "I gotta go see a proctologist."
+      }
+    ],
+    "vocabIds": [
+      "1365450",
+      "1389890",
+      "1570780",
+      "1266890",
+      "1576870"
+    ],
+    "matches": {
+      "1266890": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "おれ"
+        }
+      ],
+      "1365450": [
+        {
+          "start": 9,
+          "length": 8,
+          "reading": "みてもらわなきゃ"
+        }
+      ],
+      "1389890": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "せんもんか"
+        }
+      ],
+      "1570780": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "こうもん"
+        }
+      ],
+      "1576870": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "おれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9943115",
+    "original": "男性看護師に診てもらいたいですか？",
+    "en": [
+      {
+        "id": "9943107",
+        "text": "Would you prefer to be examined by a male nurse?"
+      }
+    ],
+    "vocabIds": [
+      "1365450",
+      "1928100",
+      "1420160"
+    ],
+    "matches": {
+      "1365450": [
+        {
+          "start": 6,
+          "length": 9,
+          "reading": "みてもらいたいです"
+        }
+      ],
+      "1420160": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "だんせい"
+        }
+      ],
+      "1928100": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "かんごし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10015904",
+    "original": "あのお医者さんに診てもらいたいよ。",
+    "en": [
+      {
+        "id": "252934",
+        "text": "I want to be that doctor's patient."
+      }
+    ],
+    "vocabIds": [
+      "1365450",
+      "1612760"
+    ],
+    "matches": {
+      "1365450": [
+        {
+          "start": 8,
+          "length": 7,
+          "reading": "みてもらいたい"
+        }
+      ],
+      "1612760": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "おいしゃさん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10043066",
+    "original": "先生に診てもらいたいです。",
+    "en": [
+      {
+        "id": "269792",
+        "text": "I'd like to see the doctor."
+      }
+    ],
+    "vocabIds": [
+      "1365450",
+      "1387990"
+    ],
+    "matches": {
+      "1365450": [
+        {
+          "start": 3,
+          "length": 9,
+          "reading": "みてもらいたいです"
+        }
+      ],
+      "1387990": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "せんせい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10085455",
+    "original": "女性看護師に診てもらいたいですか？",
+    "en": [
+      {
+        "id": "9943108",
+        "text": "Would you prefer to be examined by a female nurse?"
+      }
+    ],
+    "vocabIds": [
+      "1365450",
+      "1928100",
+      "1345250"
+    ],
+    "matches": {
+      "1345250": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じょせい"
+        }
+      ],
+      "1365450": [
+        {
+          "start": 6,
+          "length": 9,
+          "reading": "みてもらいたいです"
+        }
+      ],
+      "1928100": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "かんごし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10318353",
+    "original": "お医者さんに診てもらった方がいいと思うよ。",
+    "en": [
+      {
+        "id": "28054",
+        "text": "I think you should see a doctor."
+      }
+    ],
+    "vocabIds": [
+      "1365450",
+      "1612760",
+      "2160680",
+      "1589350"
+    ],
+    "matches": {
+      "1365450": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "みてもらった"
+        }
+      ],
+      "1589350": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "おもう"
+        }
+      ],
+      "1612760": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "おいしゃさん"
+        }
+      ],
+      "2160680": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "ほうがいい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10765423",
+    "original": "今週、先生に診てもらえますか？",
+    "en": [
+      {
+        "id": "272827",
+        "text": "Can the doctor see me this week?"
+      }
+    ],
+    "vocabIds": [
+      "1365450",
+      "1289220",
+      "1387990"
+    ],
+    "matches": {
+      "1289220": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こんしゅう"
+        }
+      ],
+      "1365450": [
+        {
+          "start": 6,
+          "length": 7,
+          "reading": "みてもらえます"
+        }
+      ],
+      "1387990": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "せんせい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10833005",
+    "original": "明日、先生に診てもらわなきゃ。",
+    "en": [
+      {
+        "id": "323358",
+        "text": "I must pay a visit to the doctor tomorrow."
+      }
+    ],
+    "vocabIds": [
+      "1365450",
+      "1584660",
+      "1387990"
+    ],
+    "matches": {
+      "1365450": [
+        {
+          "start": 6,
+          "length": 8,
+          "reading": "みてもらわなきゃ"
+        }
+      ],
+      "1387990": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "せんせい"
+        }
+      ],
+      "1584660": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あした"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11171002",
+    "original": "主治医の先生に診てもらった方がいいですよ。",
+    "en": [
+      {
+        "id": "28066",
+        "text": "You should consult your doctor."
+      }
+    ],
+    "vocabIds": [
+      "1365450",
+      "2160680",
+      "1325560",
+      "1387990"
+    ],
+    "matches": {
+      "1325560": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "しゅじい"
+        }
+      ],
+      "1365450": [
+        {
+          "start": 7,
+          "length": 6,
+          "reading": "みてもらった"
+        }
+      ],
+      "1387990": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "せんせい"
+        }
+      ],
+      "2160680": [
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "ほうがいい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11570857",
+    "original": "今、お医者さんが診てくださってるわ。",
+    "en": [
+      {
+        "id": "3783363",
+        "text": "The doctor is examining him right now."
+      }
+    ],
+    "vocabIds": [
+      "1365450",
+      "1612760",
+      "1288850"
+    ],
+    "matches": {
+      "1288850": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "いま"
+        }
+      ],
+      "1365450": [
+        {
+          "start": 8,
+          "length": 8,
+          "reading": "みてくださってる"
+        }
+      ],
+      "1612760": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "おいしゃさん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12574118",
+    "original": "冗談はさておき、頭痛は医者に診てもらった方がいい。",
+    "en": [
+      {
+        "id": "268455",
+        "text": "Joking aside, you ought to see a doctor about your headache."
+      }
+    ],
+    "indices": "冗談 は さて置き{さておき} 頭痛 は 医者 に 診る(みる){診て} 貰う(もらう){もらった} 方がいい",
+    "vocabIds": [
+      "1365450",
+      "2160680",
+      "1355540",
+      "1450890",
+      "1159980"
+    ],
+    "matches": {
+      "1159980": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "いしゃ"
+        }
+      ],
+      "1355540": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じょうだん"
+        }
+      ],
+      "1365450": [
+        {
+          "start": 14,
+          "length": 6,
+          "reading": "みてもらった"
+        }
+      ],
+      "1450890": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "ずつう"
+        }
+      ],
+      "2160680": [
+        {
+          "start": 20,
+          "length": 4,
+          "reading": "ほうがいい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12574119",
+    "original": "冗談はともかく、頭痛は医者に診てもらうべきだ。",
+    "en": [
+      {
+        "id": "268455",
+        "text": "Joking aside, you ought to see a doctor about your headache."
+      }
+    ],
+    "indices": "冗談 は 兎も角[02]{ともかく} 頭痛 は 医者 に 診る{診て} 貰う[02]{もらう} 可き{べき} だ",
+    "vocabIds": [
+      "1365450",
+      "1355540",
+      "1450890",
+      "1159980"
+    ],
+    "matches": {
+      "1159980": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "いしゃ"
+        }
+      ],
+      "1355540": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じょうだん"
+        }
+      ],
+      "1365450": [
+        {
+          "start": 14,
+          "length": 8,
+          "reading": "みてもらうべきだ"
+        }
+      ],
+      "1450890": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "ずつう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12829732",
+    "original": "すぐに医者に診てもらった方がいい。",
+    "en": [
+      {
+        "id": "12130300",
+        "text": "You should go see a doctor immediately."
+      },
+      {
+        "id": "8985540",
+        "text": "You should see a doctor right away."
+      }
+    ],
+    "vocabIds": [
+      "1365450",
+      "2160680",
+      "1159980"
+    ],
+    "matches": {
+      "1159980": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "いしゃ"
+        }
+      ],
+      "1365450": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "みてもらった"
+        }
+      ],
+      "2160680": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "ほうがいい"
+        }
+      ]
+    }
+  }
+]

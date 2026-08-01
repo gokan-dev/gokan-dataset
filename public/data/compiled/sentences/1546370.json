@@ -1,0 +1,143 @@
+[
+  {
+    "id": "145245",
+    "original": "新設校の用地が出来ました。",
+    "en": [
+      {
+        "id": "269318",
+        "text": "The site for the new school has been bought."
+      }
+    ],
+    "indices": "新設~ 校[01] の 用地 が[01] 出来る{出来ました}",
+    "vocabIds": [
+      "1340450",
+      "2134990",
+      "1546370"
+    ],
+    "matches": {
+      "1340450": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "できました"
+        }
+      ],
+      "1546370": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ようち"
+        }
+      ],
+      "2134990": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "しんせつこう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "145280",
+    "original": "新工場の建設用地はまだ未定である。",
+    "en": [
+      {
+        "id": "269283",
+        "text": "The site for the new factory has not been decided."
+      }
+    ],
+    "indices": "新(しん)[01] 工場 の 建設 用地 は 未だ{まだ} 未定 である",
+    "vocabIds": [
+      "1578700",
+      "1257420",
+      "1546370",
+      "1527830",
+      "1361480"
+    ],
+    "matches": {
+      "1257420": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "けんせつ"
+        }
+      ],
+      "1361480": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "しん"
+        }
+      ],
+      "1527830": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "みてい"
+        }
+      ],
+      "1546370": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ようち"
+        }
+      ],
+      "1578700": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "こうじょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "195132",
+    "original": "マンション用地は杭で囲まれている。",
+    "en": [
+      {
+        "id": "32306",
+        "text": "The site of the condominium is enclosed with stakes."
+      }
+    ],
+    "indices": "マンション 用地~ は 杭(くい)[01]~ で(#2028980) 囲む{囲まれている}",
+    "vocabIds": [
+      "1546370",
+      "1155980",
+      "1208920",
+      "1279450"
+    ],
+    "matches": {
+      "1155980": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "かこま"
+        }
+      ],
+      "1208920": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "くい"
+        }
+      ],
+      "1279450": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "くい"
+        }
+      ],
+      "1546370": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ようち"
+        }
+      ]
+    }
+  }
+]

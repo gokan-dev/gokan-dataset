@@ -1,0 +1,239 @@
+[
+  {
+    "id": "179956",
+    "original": "禁煙席か、喫煙席のどちらになさいますか。",
+    "en": [
+      {
+        "id": "18815",
+        "text": "Smoking or non smoking?"
+      }
+    ],
+    "indices": "禁煙席 か 喫煙席 の 何方(どちら){どちら} に 為さる{なさいます} か",
+    "vocabIds": [
+      "1933500",
+      "1637360"
+    ],
+    "matches": {
+      "1637360": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "きつえんせき"
+        }
+      ],
+      "1933500": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きんえんせき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "182797",
+    "original": "喫煙席を頼んでおいたのですが。",
+    "en": [
+      {
+        "id": "19918",
+        "text": "I asked for a seat in the smoking section."
+      }
+    ],
+    "indices": "喫煙席 を 頼む[01]{頼んで} 置く{おいた} のです が[03]",
+    "vocabIds": [
+      "1548370",
+      "1637360"
+    ],
+    "matches": {
+      "1548370": [
+        {
+          "start": 4,
+          "length": 6,
+          "reading": "たのんでおいた"
+        }
+      ],
+      "1637360": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きつえんせき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "182799",
+    "original": "喫煙席を頼んだのですが。",
+    "en": [
+      {
+        "id": "19918",
+        "text": "I asked for a seat in the smoking section."
+      }
+    ],
+    "indices": "喫煙席~ を 頼む[01]{頼んだ} のです が[03]",
+    "vocabIds": [
+      "1637360",
+      "1548370"
+    ],
+    "matches": {
+      "1548370": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "たのんだ"
+        }
+      ],
+      "1637360": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きつえんせき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "182800",
+    "original": "喫煙席をお願いします。",
+    "en": [
+      {
+        "id": "19920",
+        "text": "Smoking, please."
+      }
+    ],
+    "indices": "喫煙席 を お願いします",
+    "vocabIds": [
+      "1001720",
+      "1637360"
+    ],
+    "matches": {
+      "1001720": [
+        {
+          "start": 4,
+          "length": 6,
+          "reading": "おねがいします"
+        }
+      ],
+      "1637360": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きつえんせき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "182801",
+    "original": "喫煙席ですか、禁煙席ですか。",
+    "en": [
+      {
+        "id": "19921",
+        "text": "Smoking or non-smoking?"
+      },
+      {
+        "id": "5057508",
+        "text": "Smoking or nonsmoking?"
+      }
+    ],
+    "indices": "喫煙席 ですか 禁煙席 ですか",
+    "vocabIds": [
+      "1637360",
+      "1933500"
+    ],
+    "matches": {
+      "1637360": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きつえんせき"
+        }
+      ],
+      "1933500": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "きんえんせき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "182802",
+    "original": "喫煙席がいいのですが。",
+    "en": [
+      {
+        "id": "19923",
+        "text": "Could we have a table in the smoking section?"
+      }
+    ],
+    "indices": "喫煙席 が いい(#2820690)[01] のです が[03]",
+    "vocabIds": [
+      "1637360"
+    ],
+    "matches": {
+      "1637360": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きつえんせき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "230274",
+    "original": "アメリカでは、レストランに入った時喫煙席か禁煙席かを選ぶことができる。",
+    "en": [
+      {
+        "id": "67640",
+        "text": "In the U.S., you have the option, when you enter a restaurant, to sit in the smoking or non-smoking section."
+      }
+    ],
+    "indices": "亜米利加{アメリカ} で(#2028980) は レストラン に 入る(はいる){入った} 時(とき) 喫煙席 か 禁煙席 か を 選ぶ 事が出来る{ことができる}",
+    "vocabIds": [
+      "1637360",
+      "1933500",
+      "1465590",
+      "1588730",
+      "1315840"
+    ],
+    "matches": {
+      "1315840": [
+        {
+          "start": 16,
+          "length": 1,
+          "reading": "とき"
+        }
+      ],
+      "1465590": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "はいった"
+        }
+      ],
+      "1588730": [
+        {
+          "start": 26,
+          "length": 2,
+          "reading": "えらぶ"
+        }
+      ],
+      "1637360": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "きつえんせき"
+        }
+      ],
+      "1933500": [
+        {
+          "start": 21,
+          "length": 3,
+          "reading": "きんえんせき"
+        }
+      ]
+    }
+  }
+]

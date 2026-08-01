@@ -1,0 +1,97 @@
+{
+  "id": "1227190",
+  "writtenForm": {
+    "kanji": "逆風",
+    "alternatives": [],
+    "containedKanji": [
+      "逆",
+      "風"
+    ]
+  },
+  "reading": {
+    "primary": "ぎゃくふう",
+    "alternatives": [
+      "さかかぜ"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 48137
+  },
+  "progression": {
+    "kklcStep": 1775
+  },
+  "senses": [
+    {
+      "pos": [
+        "n",
+        "adj-no"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "headwind",
+        "adverse wind"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": true,
+        "rawTags": [
+          "rare"
+        ]
+      },
+      "glosses": [
+        "ascending vertical sword attack (kendo, etc.)"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "さかかぜ"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1227190",
+      "isBase": true,
+      "originalPrimaryReading": "ぎゃくふう",
+      "originalGlosses": [
+        "headwind",
+        "adverse wind"
+      ]
+    },
+    {
+      "id": "2847705",
+      "isBase": false,
+      "originalPrimaryReading": "さかかぜ",
+      "originalGlosses": [
+        "ascending vertical sword attack (kendo, etc.)"
+      ]
+    }
+  ],
+  "components": [
+    "1226960",
+    "1499720"
+  ]
+}

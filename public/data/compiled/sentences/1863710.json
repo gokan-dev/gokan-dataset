@@ -1,0 +1,103 @@
+[
+  {
+    "id": "157954",
+    "original": "私は会社勤めです。普通のサラリーマンです。",
+    "en": [
+      {
+        "id": "256576",
+        "text": "I'm a company man - an ordinary salaried office worker."
+      }
+    ],
+    "indices": "私(わたし)[01] は 会社勤め~ です 普通[01]{普通の} サラリーマン です",
+    "vocabIds": [
+      "1863710",
+      "1497190",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1497190": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "ふつう"
+        }
+      ],
+      "1863710": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "かいしゃつとめ"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10201278",
+    "original": "会社勤めをしている人の、ほぼ３分の１が眼鏡をかけている。",
+    "en": [
+      {
+        "id": "1496062",
+        "text": "Almost one-third of all office workers wear glasses."
+      }
+    ],
+    "vocabIds": [
+      "1863710",
+      "1949730",
+      "1577670",
+      "1580640"
+    ],
+    "matches": {
+      "1577670": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "めがね"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ],
+      "1863710": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "かいしゃつとめ"
+        }
+      ],
+      "1949730": [
+        {
+          "start": 14,
+          "length": 4,
+          "reading": "さんぶんのいち"
+        }
+      ]
+    }
+  }
+]

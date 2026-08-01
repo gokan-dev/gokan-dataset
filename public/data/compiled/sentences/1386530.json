@@ -1,0 +1,115 @@
+[
+  {
+    "id": "220798",
+    "original": "この川は雪解けの後氾濫することがある。",
+    "en": [
+      {
+        "id": "58120",
+        "text": "This river sometimes overflows after the thaw."
+      }
+    ],
+    "indices": "此の{この} 川[01] は 雪解け~ の 後(あと)[02] 氾濫 為る(する){する} 事がある{ことがある}",
+    "vocabIds": [
+      "1386530",
+      "1481420",
+      "1390020",
+      "1269320",
+      "1269410",
+      "1270100",
+      "1358760"
+    ],
+    "matches": {
+      "1269320": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "のち"
+        }
+      ],
+      "1269410": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "のち"
+        }
+      ],
+      "1270100": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "のち"
+        }
+      ],
+      "1358760": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "のち"
+        }
+      ],
+      "1386530": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "ゆきどけ"
+        }
+      ],
+      "1390020": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "かわ"
+        }
+      ],
+      "1481420": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "はんらん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9868268",
+    "original": "雪解けも間近です。",
+    "en": [
+      {
+        "id": "10201077",
+        "text": "In addition the snow thaw is near."
+      },
+      {
+        "id": "10201081",
+        "text": "Snow thaw is also near."
+      },
+      {
+        "id": "10317987",
+        "text": "The snow will thaw soon."
+      },
+      {
+        "id": "10317988",
+        "text": "It won't be long before the snow starts to thaw."
+      }
+    ],
+    "vocabIds": [
+      "1386530",
+      "1215400"
+    ],
+    "matches": {
+      "1215400": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "まぢか"
+        }
+      ],
+      "1386530": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ゆきどけ"
+        }
+      ]
+    }
+  }
+]

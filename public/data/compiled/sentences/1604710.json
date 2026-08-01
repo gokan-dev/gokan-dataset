@@ -1,0 +1,139 @@
+[
+  {
+    "id": "75906",
+    "original": "体温上昇、脈拍上昇・・・酸素欠乏状態です。",
+    "en": [
+      {
+        "id": "327812",
+        "text": "Body temperature rising, pulse rising ... he's in a state of oxygen deficiency."
+      }
+    ],
+    "indices": "体温 上昇 脈拍~ 上昇 酸素欠乏~ 状態 です",
+    "vocabIds": [
+      "2216290",
+      "1409250",
+      "1353450",
+      "1604710",
+      "1356730"
+    ],
+    "matches": {
+      "1353450": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "じょうしょう"
+        },
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "じょうしょう"
+        }
+      ],
+      "1356730": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "じょうたい"
+        }
+      ],
+      "1409250": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "たいおん"
+        }
+      ],
+      "1604710": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "みゃくはく"
+        }
+      ],
+      "2216290": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "さんそけつぼう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "99746",
+    "original": "彼は脈拍がおそい。",
+    "en": [
+      {
+        "id": "303951",
+        "text": "His pulse beats slow."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 脈拍 が 遅い{おそい}",
+    "vocabIds": [
+      "1604710",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1604710": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "みゃくはく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10273896",
+    "original": "脈拍が少し速いね。",
+    "en": [
+      {
+        "id": "10270764",
+        "text": "Your pulse is a little fast."
+      }
+    ],
+    "vocabIds": [
+      "1604710",
+      "1348870",
+      "1404975"
+    ],
+    "matches": {
+      "1348870": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "すこし"
+        }
+      ],
+      "1404975": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "はやい"
+        }
+      ],
+      "1604710": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "みゃくはく"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,181 @@
+{
+  "id": "1214540",
+  "writtenForm": {
+    "kanji": "缶",
+    "alternatives": [
+      "罐",
+      "鑵"
+    ],
+    "containedKanji": [
+      "缶"
+    ]
+  },
+  "reading": {
+    "primary": "かん",
+    "alternatives": [
+      "カン",
+      "ほとぎ",
+      "かま"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 8665,
+    "kanaRank": 132102
+  },
+  "jlptLevel": 3,
+  "progression": {
+    "kklcStep": 1368
+  },
+  "senses": [
+    {
+      "pos": [
+        "n",
+        "ctr"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "can",
+        "tin"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": true,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "abbr"
+        ]
+      },
+      "glosses": [
+        "canned food"
+      ],
+      "related": {
+        "compounds": [
+          "缶詰"
+        ]
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "fat-bodied, small-mouthed earthenware jar for carrying water"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "ほとぎ"
+      ]
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "water vessel used for a baby's first bath"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "ほとぎ"
+      ]
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "boiler"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "かま"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": true
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1214540",
+      "isBase": true,
+      "originalPrimaryReading": "かん",
+      "originalGlosses": [
+        "can",
+        "tin"
+      ]
+    },
+    {
+      "id": "2180930",
+      "isBase": false,
+      "originalPrimaryReading": "ほとぎ",
+      "originalGlosses": [
+        "fat-bodied, small-mouthed earthenware jar for carrying water"
+      ]
+    },
+    {
+      "id": "2085390",
+      "isBase": false,
+      "originalPrimaryReading": "かま",
+      "originalGlosses": [
+        "boiler"
+      ]
+    }
+  ],
+  "parents": [
+    "1214560",
+    "1245320",
+    "2134890",
+    "1932400",
+    "1613120",
+    "1605370",
+    "1214570"
+  ]
+}

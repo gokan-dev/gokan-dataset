@@ -1,0 +1,113 @@
+{
+  "id": "1429820",
+  "writtenForm": {
+    "kanji": "長官",
+    "alternatives": [],
+    "containedKanji": [
+      "長",
+      "官"
+    ]
+  },
+  "reading": {
+    "primary": "ちょうかん",
+    "alternatives": [
+      "かみ",
+      "かん",
+      "こう"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 13153
+  },
+  "jlptLevel": 1,
+  "progression": {
+    "kklcStep": 290
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "secretary (government)",
+        "director",
+        "chief"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n",
+        "adj-no"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch",
+          "hist"
+        ]
+      },
+      "glosses": [
+        "director (highest of the four administrative positions of the ritsuryō system)",
+        "chief"
+      ],
+      "related": {
+        "compounds": [
+          "四等官"
+        ]
+      },
+      "appliesToReadings": [
+        "かみ"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1429820",
+      "isBase": true,
+      "originalPrimaryReading": "ちょうかん",
+      "originalGlosses": [
+        "secretary (government)",
+        "director",
+        "chief"
+      ]
+    },
+    {
+      "id": "2249700",
+      "isBase": false,
+      "originalPrimaryReading": "かみ",
+      "originalGlosses": [
+        "director (highest of the four administrative positions of the ritsuryō system)",
+        "chief"
+      ]
+    }
+  ],
+  "components": [
+    "1429740",
+    "1983700"
+  ],
+  "parents": [
+    "1211820",
+    "1287150",
+    "1213320",
+    "1520820"
+  ]
+}

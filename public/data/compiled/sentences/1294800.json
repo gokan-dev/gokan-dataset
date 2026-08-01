@@ -1,0 +1,87 @@
+[
+  {
+    "id": "101992",
+    "original": "彼は庭でジャガイモを採取した。",
+    "en": [
+      {
+        "id": "10556064",
+        "text": "He harvested the potatoes in his garden."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 庭 で(#2028980) じゃが芋{ジャガイモ} を 採取~ 為る(する){した}",
+    "vocabIds": [
+      "1294800",
+      "1000420",
+      "1483070",
+      "1436130"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1294800": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "さいしゅ"
+        }
+      ],
+      "1436130": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "にわ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11965943",
+    "original": "警察はバンの指紋を採取した。",
+    "en": [
+      {
+        "id": "5806278",
+        "text": "The police dusted the van for fingerprints."
+      }
+    ],
+    "vocabIds": [
+      "1252390",
+      "1310040",
+      "1294800"
+    ],
+    "matches": {
+      "1252390": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "けいさつ"
+        }
+      ],
+      "1294800": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "さいしゅ"
+        }
+      ],
+      "1310040": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "しもん"
+        }
+      ]
+    }
+  }
+]

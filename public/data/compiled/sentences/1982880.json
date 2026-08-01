@@ -1,0 +1,88 @@
+[
+  {
+    "id": "74811",
+    "original": "自民党が小泉人気の尻馬に乗った。",
+    "en": [
+      {
+        "id": "328908",
+        "text": "The LDP rode on the wave of Koizumi's popularity."
+      }
+    ],
+    "indices": "自民党~ が 人気(にんき){人気の} 尻馬に乗る[02]{尻馬に乗った}~",
+    "vocabIds": [
+      "1608020",
+      "1355120",
+      "1367010",
+      "1982880"
+    ],
+    "matches": {
+      "1355120": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "のった"
+        }
+      ],
+      "1367010": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "にんき"
+        }
+      ],
+      "1608020": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "じみんとう"
+        }
+      ],
+      "1982880": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "しりうま"
+        }
+      ]
+    }
+  },
+  {
+    "id": "144595",
+    "original": "人の尻馬などに乗るな。",
+    "en": [
+      {
+        "id": "269969",
+        "text": "Don't follow anybody blindly."
+      }
+    ],
+    "indices": "人(ひと) の 尻馬[02]~ 等(など){など} に 乗る な[01]",
+    "vocabIds": [
+      "1982880",
+      "1355120",
+      "1580640"
+    ],
+    "matches": {
+      "1355120": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "のる"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ],
+      "1982880": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "しりうま"
+        }
+      ]
+    }
+  }
+]

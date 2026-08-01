@@ -1,0 +1,79 @@
+[
+  {
+    "id": "171604",
+    "original": "今日は借金の工面で東奔西走した。",
+    "en": [
+      {
+        "id": "242872",
+        "text": "I was on the go all day today looking for a loan."
+      }
+    ],
+    "indices": "今日 は 借金 の 工面~ で(#2028980) 東奔西走~ 為る(する){した}",
+    "vocabIds": [
+      "1448200",
+      "1289400",
+      "1323940",
+      "1278280"
+    ],
+    "matches": {
+      "1278280": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "くめん"
+        }
+      ],
+      "1289400": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きょうは"
+        }
+      ],
+      "1323940": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "しゃっきん"
+        }
+      ],
+      "1448200": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "とうほんせいそう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12700664",
+    "original": "なんとかして、お金を工面します。",
+    "en": [
+      {
+        "id": "4948472",
+        "text": "I'll find the money somehow."
+      }
+    ],
+    "vocabIds": [
+      "1001820",
+      "1278280"
+    ],
+    "matches": {
+      "1001820": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "おかね"
+        }
+      ],
+      "1278280": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "くめん"
+        }
+      ]
+    }
+  }
+]

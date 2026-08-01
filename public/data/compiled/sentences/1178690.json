@@ -1,0 +1,72 @@
+[
+  {
+    "id": "220658",
+    "original": "この沢庵は塩気が足りない。",
+    "en": [
+      {
+        "id": "57980",
+        "text": "The pickled radish needs a touch of salt."
+      }
+    ],
+    "indices": "此の{この} 沢庵~ は 塩気~ が 足りる[01]{足りない}",
+    "vocabIds": [
+      "2143050",
+      "1415860",
+      "1178690"
+    ],
+    "matches": {
+      "1178690": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "しおけ"
+        }
+      ],
+      "1415860": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "たくあん"
+        }
+      ],
+      "2143050": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "たりない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "223650",
+    "original": "このスープは塩気が足りない。",
+    "en": [
+      {
+        "id": "60986",
+        "text": "This soup needs more salt."
+      }
+    ],
+    "indices": "此の{この} スープ は 塩気 が 足りる[01]{足りない}",
+    "vocabIds": [
+      "2143050",
+      "1178690"
+    ],
+    "matches": {
+      "1178690": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "しおけ"
+        }
+      ],
+      "2143050": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "たりない"
+        }
+      ]
+    }
+  }
+]

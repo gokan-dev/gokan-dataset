@@ -1,0 +1,300 @@
+[
+  {
+    "id": "188133",
+    "original": "何かおもしろい読み物を貸してください。",
+    "en": [
+      {
+        "id": "25272",
+        "text": "Lend me something interesting to read."
+      }
+    ],
+    "indices": "何か 面白い{おもしろい} 読み物 を 貸す[01]{貸して} 下さい{ください}",
+    "vocabIds": [
+      "1411160",
+      "1606070",
+      "1188270"
+    ],
+    "matches": {
+      "1188270": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "なにか"
+        }
+      ],
+      "1411160": [
+        {
+          "start": 11,
+          "length": 7,
+          "reading": "かしてください"
+        }
+      ],
+      "1606070": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "よみもの"
+        }
+      ]
+    }
+  },
+  {
+    "id": "218431",
+    "original": "これは決してやさしい読み物ではない。",
+    "en": [
+      {
+        "id": "55741",
+        "text": "This is by no means easy reading."
+      }
+    ],
+    "indices": "此れ[01]{これ} は 決して 易しい{やさしい} 読み物 では無い{ではない}",
+    "vocabIds": [
+      "1254130",
+      "1606070"
+    ],
+    "matches": {
+      "1254130": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "けっして"
+        }
+      ],
+      "1606070": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "よみもの"
+        }
+      ]
+    }
+  },
+  {
+    "id": "219537",
+    "original": "この本は面白い読み物です。",
+    "en": [
+      {
+        "id": "56858",
+        "text": "This book makes pleasant reading."
+      },
+      {
+        "id": "1304633",
+        "text": "This book is interesting."
+      }
+    ],
+    "indices": "此の{この} 本(ほん)[01] は 面白い[03]~ 読み物~ です",
+    "vocabIds": [
+      "1533580",
+      "1606070",
+      "1260670",
+      "1522150"
+    ],
+    "matches": {
+      "1260670": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ほん"
+        }
+      ],
+      "1522150": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ほん"
+        }
+      ],
+      "1533580": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "おもしろい"
+        }
+      ],
+      "1606070": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "よみもの"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1221955",
+    "original": "女性は読み物をしている。",
+    "en": [
+      {
+        "id": "392338",
+        "text": "The woman is reading."
+      }
+    ],
+    "vocabIds": [
+      "1606070",
+      "1345250"
+    ],
+    "matches": {
+      "1345250": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じょせい"
+        }
+      ],
+      "1606070": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "よみもの"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1487309",
+    "original": "トムさんは背の低い人は背の高い人より長く睡眠をとらなければならないとどこかの読み物で読みました。",
+    "en": [
+      {
+        "id": "1103062",
+        "text": "Tom read somewhere that short people need more sleep than tall people."
+      }
+    ],
+    "vocabIds": [
+      "1456360",
+      "2152590",
+      "2152580",
+      "2692710",
+      "1606070",
+      "1429750",
+      "1372370",
+      "1580640"
+    ],
+    "matches": {
+      "1372370": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "すいみん"
+        }
+      ],
+      "1429750": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "ながく"
+        }
+      ],
+      "1456360": [
+        {
+          "start": 42,
+          "length": 5,
+          "reading": "よみました"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ],
+      "1606070": [
+        {
+          "start": 38,
+          "length": 3,
+          "reading": "よみもの"
+        }
+      ],
+      "2152580": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "せのたかい"
+        }
+      ],
+      "2152590": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "せのひくい"
+        }
+      ],
+      "2692710": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "ひとより"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3614734",
+    "original": "これはすごくおもしろい読み物です。",
+    "en": [
+      {
+        "id": "3614724",
+        "text": "It's a fascinating read."
+      }
+    ],
+    "vocabIds": [
+      "1606070"
+    ],
+    "matches": {
+      "1606070": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "よみもの"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214401",
+    "original": "すべての読み物が等しく読む価値があるわけではない。",
+    "en": [
+      {
+        "id": "6959633",
+        "text": "It is not the case that every piece of reading matter is worth reading."
+      }
+    ],
+    "indices": "全て{すべての} 読み物 が 等しい{等しく} 読む 価値 が[01] 有る{ある} 訳ではない{わけではない}",
+    "vocabIds": [
+      "1606070",
+      "1449330",
+      "1456360",
+      "1189600"
+    ],
+    "matches": {
+      "1189600": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "かち"
+        }
+      ],
+      "1449330": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "ひとしく"
+        }
+      ],
+      "1456360": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "よむ"
+        }
+      ],
+      "1606070": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "よみもの"
+        }
+      ]
+    }
+  }
+]

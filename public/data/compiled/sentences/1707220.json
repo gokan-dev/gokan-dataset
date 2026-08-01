@@ -1,0 +1,104 @@
+[
+  {
+    "id": "74638",
+    "original": "かつてはロードローラーは馬が曳いていたが、蒸気機関の発明により、スチームローラーが現れた。",
+    "en": [
+      {
+        "id": "329081",
+        "text": "Horses used to pull road-rollers, but the steamroller arrived with the invention of the steam engine."
+      }
+    ],
+    "indices": "嘗て[01]{かつて} は ロードローラー~ は 馬[01] が 引く[09]{曳いていた} が 蒸気機関 の 発明 に依り{により} スチームローラー~ が 現れる{現れた}",
+    "vocabIds": [
+      "1169250",
+      "1707220",
+      "1263510",
+      "1477910",
+      "1471560"
+    ],
+    "matches": {
+      "1169250": [
+        {
+          "start": 14,
+          "length": 6,
+          "reading": "ひいていたが"
+        }
+      ],
+      "1263510": [
+        {
+          "start": 41,
+          "length": 3,
+          "reading": "あらわれた"
+        }
+      ],
+      "1471560": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "うま"
+        }
+      ],
+      "1477910": [
+        {
+          "start": 26,
+          "length": 2,
+          "reading": "はつめい"
+        }
+      ],
+      "1707220": [
+        {
+          "start": 21,
+          "length": 4,
+          "reading": "じょうききかん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "146004",
+    "original": "蒸気機関は熱を力に変える。",
+    "en": [
+      {
+        "id": "268558",
+        "text": "A steam engine transforms heat into power."
+      }
+    ],
+    "indices": "蒸気機関~ は 熱(ねつ) を 力(ちから) に 変える",
+    "vocabIds": [
+      "1707220",
+      "1510650",
+      "1467710",
+      "1554820"
+    ],
+    "matches": {
+      "1467710": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "ねつ"
+        }
+      ],
+      "1510650": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "かえる"
+        }
+      ],
+      "1554820": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "ちから"
+        }
+      ],
+      "1707220": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "じょうききかん"
+        }
+      ]
+    }
+  }
+]

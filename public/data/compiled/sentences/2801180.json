@@ -1,0 +1,108 @@
+[
+  {
+    "id": "124528",
+    "original": "都庁舎に行き、そこでまた列の中で待った。",
+    "en": [
+      {
+        "id": "279466",
+        "text": "The woman left and went to the courthouse, where she waited in line again."
+      }
+    ],
+    "indices": "都(と) 庁舎 に 行く[01]{行き} 其処(そこ){そこ} で(#2028980) 又{また} 列 の 中(なか) で(#2028980) 待つ[01]{待った}",
+    "vocabIds": [
+      "2801180",
+      "2021970",
+      "1578850",
+      "1558330",
+      "1423310",
+      "2098290"
+    ],
+    "matches": {
+      "1423310": [
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "なか"
+        }
+      ],
+      "1558330": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "れつ"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "いき"
+        }
+      ],
+      "2021970": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "まった"
+        }
+      ],
+      "2098290": [
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "なか"
+        }
+      ],
+      "2801180": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "とちょうしゃ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "236216",
+    "original": "「都庁舎でもらえますよ」と係員が付け加えた。",
+    "en": [
+      {
+        "id": "73591",
+        "text": "\"You can get it at the courthouse,\" the clerk added."
+      },
+      {
+        "id": "8890264",
+        "text": "\"You can get it at the Metropolitan Government Office,\" the clerk added."
+      }
+    ],
+    "indices": "都(と)~ 庁舎~ で(#2028980) 貰う{もらえます} よ と 係員 が 付け加える{付け加えた}",
+    "vocabIds": [
+      "1495790",
+      "2801180",
+      "1589850"
+    ],
+    "matches": {
+      "1495790": [
+        {
+          "start": 16,
+          "length": 5,
+          "reading": "つけくわえた"
+        }
+      ],
+      "1589850": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "かかりいん"
+        }
+      ],
+      "2801180": [
+        {
+          "start": 1,
+          "length": 3,
+          "reading": "とちょうしゃ"
+        }
+      ]
+    }
+  }
+]

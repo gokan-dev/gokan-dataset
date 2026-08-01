@@ -1,0 +1,153 @@
+[
+  {
+    "id": "103175",
+    "original": "彼は精算をしてホテルを出た。",
+    "en": [
+      {
+        "id": "300518",
+        "text": "He checked out of the hotel."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 精算~ を 為る(する){して} ホテル を[05] 出る[02]{出た}",
+    "vocabIds": [
+      "1379930",
+      "1338240",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1338240": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "でた"
+        }
+      ],
+      "1379930": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "せいさん"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3030006",
+    "original": "未精算商品のトイレへのお持ち込みはご遠慮いただいております。",
+    "en": [
+      {
+        "id": "11123101",
+        "text": "Please do not bring unpaid goods into the toilet."
+      }
+    ],
+    "vocabIds": [
+      "1605220",
+      "1379930",
+      "1347310",
+      "1178450",
+      "2242840"
+    ],
+    "matches": {
+      "1178450": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "えんりょ"
+        }
+      ],
+      "1347310": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "しょうひん"
+        }
+      ],
+      "1379930": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "せいさん"
+        }
+      ],
+      "1605220": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "もちこみ"
+        }
+      ],
+      "2242840": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "み"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11005163",
+    "original": "二人はレジへ行き精算した。",
+    "en": [
+      {
+        "id": "12614528",
+        "text": "Those two went to the register to pay."
+      },
+      {
+        "id": "12614529",
+        "text": "The couple went to the register and paid."
+      },
+      {
+        "id": "12614530",
+        "text": "The two of them went to the register and paid."
+      },
+      {
+        "id": "12614531",
+        "text": "They went to the register to pay."
+      }
+    ],
+    "vocabIds": [
+      "1582670",
+      "1578850",
+      "1379930"
+    ],
+    "matches": {
+      "1379930": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "せいさん"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "いき"
+        }
+      ],
+      "1582670": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ににん"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,117 @@
+[
+  {
+    "id": "180116",
+    "original": "橋は大水で洗い流された。",
+    "en": [
+      {
+        "id": "18976",
+        "text": "The bridge was washed away by the flood."
+      }
+    ],
+    "indices": "橋(はし) は 大水~ で(#2028980) 洗い流す{洗い流された}~",
+    "vocabIds": [
+      "1390920",
+      "1414210",
+      "1237410"
+    ],
+    "matches": {
+      "1237410": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "はし"
+        }
+      ],
+      "1390920": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "あらいながさ"
+        }
+      ],
+      "1414210": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "おおみず"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10287484",
+    "original": "トムは服についた血を洗い流そうとしました。",
+    "en": [
+      {
+        "id": "4627636",
+        "text": "Tom tried to wash the blood off his clothes."
+      }
+    ],
+    "vocabIds": [
+      "1390920",
+      "1500940",
+      "1255060"
+    ],
+    "matches": {
+      "1255060": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "ち"
+        }
+      ],
+      "1390920": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "あらいながそう"
+        }
+      ],
+      "1500940": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "ふく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12203997",
+    "original": "雨が埃を洗い流した。",
+    "en": [
+      {
+        "id": "26793",
+        "text": "The rain washed away the dust."
+      }
+    ],
+    "vocabIds": [
+      "1390920",
+      "1171900",
+      "1565750"
+    ],
+    "matches": {
+      "1171900": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "あめ"
+        }
+      ],
+      "1390920": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "あらいながした"
+        }
+      ],
+      "1565750": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ほこり"
+        }
+      ]
+    }
+  }
+]

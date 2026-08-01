@@ -1,0 +1,130 @@
+{
+  "id": "1584100",
+  "writtenForm": {
+    "kanji": "方々",
+    "alternatives": [
+      "方方",
+      "方がた"
+    ],
+    "containedKanji": [
+      "方"
+    ]
+  },
+  "reading": {
+    "primary": "かたがた",
+    "alternatives": [
+      "ほうぼう"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 2644,
+    "kanaRank": 31997
+  },
+  "jlptLevel": 3,
+  "progression": {
+    "kklcStep": 173
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "hon"
+        ]
+      },
+      "glosses": [
+        "people",
+        "(all) persons",
+        "everyone",
+        "ladies and gentlemen"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "pn"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "hon",
+          "arch"
+        ]
+      },
+      "glosses": [
+        "you (usu. plural)"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "adv",
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "here and there",
+        "this way and that way",
+        "everywhere",
+        "all over"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "ほうぼう"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1584100",
+      "isBase": true,
+      "originalPrimaryReading": "かたがた",
+      "originalGlosses": [
+        "people",
+        "(all) persons",
+        "everyone"
+      ]
+    },
+    {
+      "id": "1584105",
+      "isBase": false,
+      "originalPrimaryReading": "ほうぼう",
+      "originalGlosses": [
+        "here and there",
+        "this way and that way",
+        "everywhere"
+      ]
+    }
+  ],
+  "components": [
+    "1516930"
+  ]
+}

@@ -1,0 +1,185 @@
+[
+  {
+    "id": "92133",
+    "original": "彼女はだれにでも愛想がいい。",
+    "en": [
+      {
+        "id": "311578",
+        "text": "She is amiable to everybody."
+      },
+      {
+        "id": "10585980",
+        "text": "She's amiable to everybody."
+      }
+    ],
+    "indices": "彼女[01] は 誰にでも{だれにでも} 愛想 が いい",
+    "vocabIds": [
+      "2850248",
+      "1483150"
+    ],
+    "matches": {
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "2850248": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "あいそがいい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "102301",
+    "original": "彼は誰にでも愛想がいい。",
+    "en": [
+      {
+        "id": "301392",
+        "text": "He makes himself agreeable to everybody."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 誰にでも 愛想 が いい",
+    "vocabIds": [
+      "2850248",
+      "2098260",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "2098260": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "だれにでも"
+        }
+      ],
+      "2850248": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "あいそがいい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "222375",
+    "original": "この牛肉を私に売ってくれた肉屋さんはいつも愛想がよい。",
+    "en": [
+      {
+        "id": "59702",
+        "text": "The butcher who sold me this beef is always friendly."
+      }
+    ],
+    "indices": "此の{この} 牛肉 を 私(わたし)[01] に 売る{売って} 呉れる{くれた} 肉屋 さん は 何時も[01]{いつも} 愛想 が 良い{よい}",
+    "vocabIds": [
+      "1473950",
+      "2850248",
+      "1231580",
+      "1463540",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1231580": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ぎゅうにく"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1463540": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "にくや"
+        }
+      ],
+      "1473950": [
+        {
+          "start": 7,
+          "length": 6,
+          "reading": "うってくれた"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2850248": [
+        {
+          "start": 21,
+          "length": 5,
+          "reading": "あいそがよい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2706848",
+    "original": "トムは誰にでも愛想がいい。",
+    "en": [
+      {
+        "id": "2543380",
+        "text": "Tom is friendly to everyone."
+      }
+    ],
+    "vocabIds": [
+      "2850248",
+      "2098260"
+    ],
+    "matches": {
+      "2098260": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "だれにでも"
+        }
+      ],
+      "2850248": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "あいそがいい"
+        }
+      ]
+    }
+  }
+]

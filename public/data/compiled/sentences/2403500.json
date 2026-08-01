@@ -1,0 +1,76 @@
+[
+  {
+    "id": "190287",
+    "original": "一難去ってまた一難。",
+    "en": [
+      {
+        "id": "27445",
+        "text": "Out of the frying pan and into the fire."
+      },
+      {
+        "id": "10208953",
+        "text": "If it isn't one thing, it's another."
+      }
+    ],
+    "indices": "一難~ 去る{去って} 又{また} 一難",
+    "vocabIds": [
+      "2403500"
+    ],
+    "matches": {
+      "2403500": [
+        {
+          "start": 0,
+          "length": 9,
+          "reading": "いちなんさってまたいちなん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "190288",
+    "original": "一難去ってまた一難、またまた難題が社長からトップダウンで降りてきたよ。",
+    "en": [
+      {
+        "id": "27446",
+        "text": "No sooner had we finished working on one tough problem than the president sent us yet another straight from the top."
+      }
+    ],
+    "indices": "一難去ってまた一難~ 又又[01]{またまた} 難題 が 社長 から トップダウン~ で(#2028980) 降りる{降りて} 来る(くる){きた} よ[01]",
+    "vocabIds": [
+      "2403500",
+      "1589500",
+      "1461020",
+      "1322920"
+    ],
+    "matches": {
+      "1322920": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "しゃちょう"
+        }
+      ],
+      "1461020": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "なんだい"
+        }
+      ],
+      "1589500": [
+        {
+          "start": 28,
+          "length": 5,
+          "reading": "おりてきた"
+        }
+      ],
+      "2403500": [
+        {
+          "start": 0,
+          "length": 9,
+          "reading": "いちなんさってまたいちなん"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,100 @@
+[
+  {
+    "id": "125074",
+    "original": "天気予報は必ずしも当てになるとは限らない。",
+    "en": [
+      {
+        "id": "278919",
+        "text": "The weather forecast is not necessarily reliable."
+      },
+      {
+        "id": "7492920",
+        "text": "The weather forecast isn't necessarily reliable."
+      }
+    ],
+    "indices": "天気予報 は 必ずしも 当て になる[01] とは限らない",
+    "vocabIds": [
+      "2070730",
+      "2840488",
+      "1438770",
+      "1487410"
+    ],
+    "matches": {
+      "1438770": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "てんきよほう"
+        }
+      ],
+      "1487410": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "かならずしも"
+        }
+      ],
+      "2070730": [
+        {
+          "start": 14,
+          "length": 6,
+          "reading": "とはかぎらない"
+        }
+      ],
+      "2840488": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "あてになる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "166822",
+    "original": "私たちの方向感覚はいつも当てになるとは限らないようだ。",
+    "en": [
+      {
+        "id": "247680",
+        "text": "It seems that our sense of direction is not always reliable."
+      }
+    ],
+    "indices": "私たち の 方向 感覚 は 何時も[01]{いつも} 当て になる[01] とは限らない 様だ{ようだ}",
+    "vocabIds": [
+      "2070730",
+      "2840488",
+      "2620260",
+      "1311300"
+    ],
+    "matches": {
+      "1311300": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "2070730": [
+        {
+          "start": 17,
+          "length": 6,
+          "reading": "とはかぎらない"
+        }
+      ],
+      "2620260": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "ほうこうかんかく"
+        }
+      ],
+      "2840488": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "あてになる"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "id": "151066",
+    "original": "試験官に読んでほしくない言葉はすべて消しなさい。",
+    "en": [
+      {
+        "id": "263490",
+        "text": "Cross out any words that you do not wish the examiner to read."
+      }
+    ],
+    "indices": "試験官 に 読む{読んで} 欲しい[02]{ほしくない} 言葉[02] は 全て{すべて} 消す[01]{消し} 為さい{なさい}",
+    "vocabIds": [
+      "1350110",
+      "1312360",
+      "1456360",
+      "1264540"
+    ],
+    "matches": {
+      "1264540": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "ことば"
+        }
+      ],
+      "1312360": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "しけんかん"
+        }
+      ],
+      "1350110": [
+        {
+          "start": 18,
+          "length": 5,
+          "reading": "けしなさい"
+        }
+      ],
+      "1456360": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "よんで"
+        }
+      ]
+    }
+  },
+  {
+    "id": "210083",
+    "original": "その志望者は試験官に好ましい印象を与えた。",
+    "en": [
+      {
+        "id": "47346",
+        "text": "The applicant impressed the examiner favorably."
+      }
+    ],
+    "indices": "其の[01]{その} 志望者~ は 試験官~ に 好ましい 印象を与える{印象を与えた}",
+    "vocabIds": [
+      "1277490",
+      "1816890",
+      "1312360",
+      "1544730",
+      "1168390"
+    ],
+    "matches": {
+      "1168390": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "いんしょう"
+        }
+      ],
+      "1277490": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "このましい"
+        }
+      ],
+      "1312360": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "しけんかん"
+        }
+      ],
+      "1544730": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "あたえた"
+        }
+      ],
+      "1816890": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "しぼうしゃ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8660424",
+    "original": "試験官は答案用紙・試験問題の配布および回収時には、ゴム手袋を着用してください。",
+    "en": [
+      {
+        "id": "11752431",
+        "text": "Examiners must wear rubber gloves when distributing and collecting answer sheets and test questions."
+      }
+    ],
+    "vocabIds": [
+      "2620590",
+      "1936680",
+      "2862342",
+      "1312360",
+      "1315860",
+      "1473190",
+      "1199470",
+      "1423270"
+    ],
+    "matches": {
+      "1199470": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "かいしゅう"
+        }
+      ],
+      "1312360": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "しけんかん"
+        }
+      ],
+      "1315860": [
+        {
+          "start": 21,
+          "length": 3,
+          "reading": "じには"
+        }
+      ],
+      "1423270": [
+        {
+          "start": 30,
+          "length": 2,
+          "reading": "ちゃくよう"
+        }
+      ],
+      "1473190": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "はいふ"
+        }
+      ],
+      "1936680": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "しけんもんだい"
+        }
+      ],
+      "2620590": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "とうあんようし"
+        }
+      ],
+      "2862342": [
+        {
+          "start": 25,
+          "length": 4,
+          "reading": "ごむてぶくろ"
+        }
+      ]
+    }
+  }
+]

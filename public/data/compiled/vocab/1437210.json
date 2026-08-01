@@ -1,0 +1,101 @@
+{
+  "id": "1437210",
+  "writtenForm": {
+    "kanji": "滴",
+    "alternatives": [
+      "雫"
+    ],
+    "containedKanji": [
+      "滴"
+    ]
+  },
+  "reading": {
+    "primary": "しずく",
+    "alternatives": [
+      "てき"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 16537,
+    "kanaRank": 19696
+  },
+  "progression": {
+    "kklcStep": 1119
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "drop (e.g. of water)",
+        "drip"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "ctr"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "counter for drops of liquid"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "てき"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1437210",
+      "isBase": true,
+      "originalPrimaryReading": "しずく",
+      "originalGlosses": [
+        "drop (e.g. of water)",
+        "drip"
+      ]
+    },
+    {
+      "id": "2831955",
+      "isBase": false,
+      "originalPrimaryReading": "てき",
+      "originalGlosses": [
+        "counter for drops of liquid"
+      ]
+    }
+  ],
+  "parents": [
+    "1165010",
+    "1437230",
+    "1371880",
+    "1880730",
+    "1441720",
+    "2182670",
+    "1437240"
+  ]
+}

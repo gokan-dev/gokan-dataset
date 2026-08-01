@@ -1,0 +1,128 @@
+{
+  "id": "1413730",
+  "writtenForm": {
+    "kanji": "大根",
+    "alternatives": [],
+    "containedKanji": [
+      "大",
+      "根"
+    ]
+  },
+  "reading": {
+    "primary": "だいこん",
+    "alternatives": [
+      "だいこ",
+      "ダイコン",
+      "おおね"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 12809,
+    "kanaRank": 79955
+  },
+  "progression": {
+    "kklcStep": 284
+  },
+  "senses": [
+    {
+      "pos": [
+        "n",
+        "adj-no"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "daikon (variety of large white Oriental radish, Raphanus sativus var. longipinnatus)"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n",
+        "adj-no"
+      ],
+      "misc": {
+        "isAbbreviation": true,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "abbr"
+        ]
+      },
+      "glosses": [
+        "ham actor"
+      ],
+      "related": {
+        "compounds": [
+          "大根役者"
+        ]
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "root",
+        "source",
+        "origin",
+        "basis"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "おおね"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": true
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1413730",
+      "isBase": true,
+      "originalPrimaryReading": "だいこん",
+      "originalGlosses": [
+        "daikon (variety of large white Oriental radish, Raphanus sativus var. longipinnatus)"
+      ]
+    },
+    {
+      "id": "2663490",
+      "isBase": false,
+      "originalPrimaryReading": "おおね",
+      "originalGlosses": [
+        "root",
+        "source",
+        "origin"
+      ]
+    }
+  ],
+  "components": [
+    "2082450",
+    "1290020"
+  ],
+  "parents": [
+    "1786440"
+  ]
+}

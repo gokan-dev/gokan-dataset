@@ -1,0 +1,94 @@
+[
+  {
+    "id": "177398",
+    "original": "君は何年生ですか。",
+    "en": [
+      {
+        "id": "16248",
+        "text": "What grade are you in?"
+      }
+    ],
+    "indices": "君(きみ)[01] は 何年生 ですか",
+    "vocabIds": [
+      "2006160",
+      "1247250"
+    ],
+    "matches": {
+      "1247250": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "きみ"
+        }
+      ],
+      "2006160": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "なんねんせい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "178052",
+    "original": "君の妹さんは何年生なの？",
+    "en": [
+      {
+        "id": "16905",
+        "text": "What grade is your sister in?"
+      }
+    ],
+    "indices": "君(きみ)[01]{君の} 妹さん は 何年生~ だ{な} の",
+    "vocabIds": [
+      "1524600",
+      "2006160",
+      "1247250"
+    ],
+    "matches": {
+      "1247250": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "きみ"
+        }
+      ],
+      "1524600": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "いもうとさん"
+        }
+      ],
+      "2006160": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "なんねんせい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1191255",
+    "original": "あなたは何年生ですか。",
+    "en": [
+      {
+        "id": "1191257",
+        "text": "What year are you in school?"
+      }
+    ],
+    "vocabIds": [
+      "2006160"
+    ],
+    "matches": {
+      "2006160": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "なんねんせい"
+        }
+      ]
+    }
+  }
+]

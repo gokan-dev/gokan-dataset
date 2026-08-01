@@ -1,0 +1,126 @@
+[
+  {
+    "id": "106277",
+    "original": "彼は私たちの予想に反して落選した。",
+    "en": [
+      {
+        "id": "297408",
+        "text": "He failed to get elected contrary to our expectation."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 私たち の 予想に反して~ 落選[01]~ 為る(する){した}",
+    "vocabIds": [
+      "2831040",
+      "1311300",
+      "1643910",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1311300": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1643910": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "らくせん"
+        }
+      ],
+      "2831040": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "よそうにはんして"
+        }
+      ]
+    }
+  },
+  {
+    "id": "393792",
+    "original": "予想に反して楽に勝てましたね。",
+    "en": [
+      {
+        "id": "393793",
+        "text": "Contrary to expectations, they won with ease."
+      }
+    ],
+    "indices": "予想に反して 楽(らく)[01]{楽に} 勝つ{勝てました} ね",
+    "vocabIds": [
+      "2831040",
+      "1207230"
+    ],
+    "matches": {
+      "1207230": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "らく"
+        }
+      ],
+      "2831040": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "よそうにはんして"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11013904",
+    "original": "予想に反してテストの点数は良かった。",
+    "en": [
+      {
+        "id": "11752285",
+        "text": "Contrary to all expectations, I scored well on the test."
+      }
+    ],
+    "vocabIds": [
+      "2831040",
+      "1605820",
+      "1441660"
+    ],
+    "matches": {
+      "1441660": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "てんすう"
+        }
+      ],
+      "1605820": [
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "よかった"
+        }
+      ],
+      "2831040": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "よそうにはんして"
+        }
+      ]
+    }
+  }
+]

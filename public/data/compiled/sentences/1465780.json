@@ -1,0 +1,110 @@
+[
+  {
+    "id": "85222",
+    "original": "品物は昨日入荷しました。",
+    "en": [
+      {
+        "id": "318491",
+        "text": "The goods arrived yesterday."
+      }
+    ],
+    "indices": "品物 は 昨日 入荷 為る(する){しました}",
+    "vocabIds": [
+      "1490670",
+      "1579260",
+      "1465780"
+    ],
+    "matches": {
+      "1465780": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "にゅうか"
+        }
+      ],
+      "1490670": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しなもの"
+        }
+      ],
+      "1579260": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "きのう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "145313",
+    "original": "新しく入荷したドレスはパリからのものです。",
+    "en": [
+      {
+        "id": "269250",
+        "text": "The new line of dresses is from Paris."
+      }
+    ],
+    "indices": "新しい{新しく} 入荷~ 為る(する){した} ドレス は 巴里{パリ} から の 物(もの){もの} です",
+    "vocabIds": [
+      "1361490",
+      "1465780"
+    ],
+    "matches": {
+      "1361490": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あたらしく"
+        }
+      ],
+      "1465780": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "にゅうか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3313247",
+    "original": "「トムとメアリー」グッズ、ご好評につき再入荷いたしました。",
+    "en": [
+      {
+        "id": "11523781",
+        "text": "\"Tom and Mary\" merchandise is back in stock due to popular demand."
+      }
+    ],
+    "vocabIds": [
+      "2863798",
+      "1465780",
+      "1292290"
+    ],
+    "matches": {
+      "1292290": [
+        {
+          "start": 19,
+          "length": 1,
+          "reading": "さい"
+        }
+      ],
+      "1465780": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "にゅうか"
+        }
+      ],
+      "2863798": [
+        {
+          "start": 14,
+          "length": 5,
+          "reading": "こうひょうにつき"
+        }
+      ]
+    }
+  }
+]

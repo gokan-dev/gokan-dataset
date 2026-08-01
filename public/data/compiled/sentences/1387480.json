@@ -1,0 +1,80 @@
+[
+  {
+    "id": "138025",
+    "original": "打開策を見つけるのが先決だ。",
+    "en": [
+      {
+        "id": "275210",
+        "text": "In the first place we must find a way out of this."
+      }
+    ],
+    "indices": "打開策 を 見つける[01] の が 先決 だ",
+    "vocabIds": [
+      "1604570",
+      "2133720",
+      "1387480"
+    ],
+    "matches": {
+      "1387480": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "せんけつ"
+        }
+      ],
+      "1604570": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "みつける"
+        }
+      ],
+      "2133720": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "だかいさく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "177435",
+    "original": "君は煙草を吸うのをやめるのが先決だ。",
+    "en": [
+      {
+        "id": "16285",
+        "text": "First, you have to stop smoking."
+      }
+    ],
+    "indices": "君(きみ)[01] は 煙草を吸う の を 止める(やめる){やめる} の が 先決~ だ",
+    "vocabIds": [
+      "1891810",
+      "1387480",
+      "1247250"
+    ],
+    "matches": {
+      "1247250": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "きみ"
+        }
+      ],
+      "1387480": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "せんけつ"
+        }
+      ],
+      "1891810": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "たばこをすう"
+        }
+      ]
+    }
+  }
+]

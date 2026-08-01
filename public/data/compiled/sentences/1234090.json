@@ -1,0 +1,80 @@
+[
+  {
+    "id": "181526",
+    "original": "競技者は気迫と自信に満ちていた。",
+    "en": [
+      {
+        "id": "19278",
+        "text": "The athlete was full of spirit and confidence."
+      }
+    ],
+    "indices": "競技者 は 気迫 と 自信 に 満ちる[01]{満ちていた}",
+    "vocabIds": [
+      "1604540",
+      "1234090",
+      "1222520",
+      "1317970"
+    ],
+    "matches": {
+      "1222520": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "きはく"
+        }
+      ],
+      "1234090": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きょうぎしゃ"
+        }
+      ],
+      "1317970": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "じしん"
+        }
+      ],
+      "1604540": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "みちていた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "211430",
+    "original": "その競技者は疲れがとれたようだった。",
+    "en": [
+      {
+        "id": "48706",
+        "text": "The athlete seemed immune to fatigue."
+      }
+    ],
+    "indices": "其の[01]{その} 競技者~ は 疲れ が 取れる[02]{とれた} 様(よう){よう} だ{だった}",
+    "vocabIds": [
+      "1234090",
+      "1483730"
+    ],
+    "matches": {
+      "1234090": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "きょうぎしゃ"
+        }
+      ],
+      "1483730": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "つかれ"
+        }
+      ]
+    }
+  }
+]

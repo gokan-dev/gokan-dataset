@@ -1,0 +1,72 @@
+[
+  {
+    "id": "79492",
+    "original": "薬の飲み方を教えてください。",
+    "en": [
+      {
+        "id": "324227",
+        "text": "Please explain how to take the medicine."
+      }
+    ],
+    "indices": "薬(くすり)[01] の 飲む[01]{飲み} 方(かた) を 教える{教えて} 下さい{ください}",
+    "vocabIds": [
+      "1236900",
+      "2034110",
+      "1538160"
+    ],
+    "matches": {
+      "1236900": [
+        {
+          "start": 6,
+          "length": 7,
+          "reading": "おしえてください"
+        }
+      ],
+      "1538160": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "くすり"
+        }
+      ],
+      "2034110": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "のみかた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "189949",
+    "original": "飲み方をご説明します。",
+    "en": [
+      {
+        "id": "27105",
+        "text": "I'll explain how to take this medicine."
+      }
+    ],
+    "indices": "飲む[01]{飲み} 方(かた) を 御(ご){ご} 説明 為る(する){します}",
+    "vocabIds": [
+      "2034110",
+      "2629650"
+    ],
+    "matches": {
+      "2034110": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "のみかた"
+        }
+      ],
+      "2629650": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "せつめいし"
+        }
+      ]
+    }
+  }
+]

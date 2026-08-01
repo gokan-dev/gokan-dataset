@@ -1,0 +1,141 @@
+[
+  {
+    "id": "179192",
+    "original": "君がいなくなると友達が寂しがるだろう。",
+    "en": [
+      {
+        "id": "18048",
+        "text": "You'll be missed by your friends."
+      }
+    ],
+    "indices": "君(きみ)[01] が 居なくなる{いなくなる} と 友達 が 淋しがる{寂しがる} だろう",
+    "vocabIds": [
+      "1324480",
+      "1540170",
+      "1247250"
+    ],
+    "matches": {
+      "1247250": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "きみ"
+        }
+      ],
+      "1324480": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "さびしがる"
+        }
+      ],
+      "1540170": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "ともだち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "197470",
+    "original": "ひとりぼっちにされたら、その子供はひどく淋しがるだろう。",
+    "en": [
+      {
+        "id": "34656",
+        "text": "Left to himself, the child would feel very lonely."
+      }
+    ],
+    "indices": "一人ぼっち{ひとりぼっち} に 為れる{されたら} 其の[01]{その} 子供 は 酷い(ひどい){ひどく} 淋しがる だろう",
+    "vocabIds": [
+      "1324480",
+      "1307850"
+    ],
+    "matches": {
+      "1307850": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "こども"
+        }
+      ],
+      "1324480": [
+        {
+          "start": 20,
+          "length": 4,
+          "reading": "さびしがる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "234254",
+    "original": "あなたがいなくなると友人が寂しがるでしょう。",
+    "en": [
+      {
+        "id": "18048",
+        "text": "You'll be missed by your friends."
+      },
+      {
+        "id": "418673",
+        "text": "You will be missed by your friends when you're gone."
+      },
+      {
+        "id": "6482359",
+        "text": "You'll be missed by your friends when you're gone."
+      }
+    ],
+    "indices": "貴方(あなた)[01]{あなた} が 居なくなる{いなくなる} と[01] 友人 が 淋しがる{寂しがる}~ でしょう[01]",
+    "vocabIds": [
+      "1324480",
+      "1540150"
+    ],
+    "matches": {
+      "1324480": [
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "さびしがる"
+        }
+      ],
+      "1540150": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "ゆうじん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9831585",
+    "original": "友達が寂しがるね。",
+    "en": [
+      {
+        "id": "18048",
+        "text": "You'll be missed by your friends."
+      }
+    ],
+    "vocabIds": [
+      "1324480",
+      "1540170"
+    ],
+    "matches": {
+      "1324480": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "さびしがる"
+        }
+      ],
+      "1540170": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ともだち"
+        }
+      ]
+    }
+  }
+]

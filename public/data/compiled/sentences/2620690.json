@@ -1,0 +1,33 @@
+[
+  {
+    "id": "222125",
+    "original": "この建物には公衆トイレがありますか。",
+    "en": [
+      {
+        "id": "59450",
+        "text": "Is there a public toilet in this building?"
+      }
+    ],
+    "indices": "此の{この} 建物 には 公衆~ トイレ が[01] 有る{あります} か",
+    "vocabIds": [
+      "2620690",
+      "1257540"
+    ],
+    "matches": {
+      "1257540": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "たてもの"
+        }
+      ],
+      "2620690": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "こうしゅうといれ"
+        }
+      ]
+    }
+  }
+]

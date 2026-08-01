@@ -1,0 +1,133 @@
+[
+  {
+    "id": "186551",
+    "original": "荷物にこの荷札を付けてください。",
+    "en": [
+      {
+        "id": "23688",
+        "text": "Attach this label to your package."
+      }
+    ],
+    "indices": "荷物 に 此の{この} 荷札 を 付ける[01]{付けて} 下さい{ください}",
+    "vocabIds": [
+      "1495770",
+      "1195430",
+      "1195280"
+    ],
+    "matches": {
+      "1195280": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "にふだ"
+        }
+      ],
+      "1195430": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "にもつ"
+        }
+      ],
+      "1495770": [
+        {
+          "start": 8,
+          "length": 7,
+          "reading": "つけてください"
+        }
+      ]
+    }
+  },
+  {
+    "id": "186555",
+    "original": "荷札がトランクについている。",
+    "en": [
+      {
+        "id": "23691",
+        "text": "The label is attached to the trunk."
+      }
+    ],
+    "indices": "荷札 が トランク に 付く(つく){ついている}",
+    "vocabIds": [
+      "1195280"
+    ],
+    "matches": {
+      "1195280": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "にふだ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "226243",
+    "original": "かばん全部に荷札をつけなさい。",
+    "en": [
+      {
+        "id": "63583",
+        "text": "Attach labels to all the bags."
+      }
+    ],
+    "indices": "鞄{かばん}~ 全部~ に 荷札~ を 付ける[01]{つけ} 為さい{なさい}",
+    "vocabIds": [
+      "1396130",
+      "1195280"
+    ],
+    "matches": {
+      "1195280": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "にふだ"
+        }
+      ],
+      "1396130": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ぜんぶ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "537493",
+    "original": "荷物にこの荷札を貼ってください。",
+    "en": [
+      {
+        "id": "537494",
+        "text": "Please stick this label to your baggage."
+      }
+    ],
+    "vocabIds": [
+      "1427900",
+      "1195430",
+      "1195280"
+    ],
+    "matches": {
+      "1195280": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "にふだ"
+        }
+      ],
+      "1195430": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "にもつ"
+        }
+      ],
+      "1427900": [
+        {
+          "start": 8,
+          "length": 7,
+          "reading": "はってください"
+        }
+      ]
+    }
+  }
+]

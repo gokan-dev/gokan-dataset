@@ -1,0 +1,150 @@
+[
+  {
+    "id": "186682",
+    "original": "火事の場合には、この非常階段を使いなさい。",
+    "en": [
+      {
+        "id": "23818",
+        "text": "In case of a fire, use this emergency stairway."
+      }
+    ],
+    "indices": "火事 の 場合 には 此の{この} 非常階段 を 使う[01]{使い} 為さい{なさい}",
+    "vocabIds": [
+      "1305990",
+      "1945740",
+      "1193950",
+      "1355810"
+    ],
+    "matches": {
+      "1193950": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かじ"
+        }
+      ],
+      "1305990": [
+        {
+          "start": 15,
+          "length": 5,
+          "reading": "つかいなさい"
+        }
+      ],
+      "1355810": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ばあい"
+        }
+      ],
+      "1945740": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "ひじょうかいだん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "223268",
+    "original": "このビルは非常階段を備えている。",
+    "en": [
+      {
+        "id": "60600",
+        "text": "The building is equipped with emergency stairs."
+      }
+    ],
+    "indices": "此の{この} ビル(#1106010)[01] は 非常階段~ を[01] 備える[01]{備えている}~",
+    "vocabIds": [
+      "1244960",
+      "1945740"
+    ],
+    "matches": {
+      "1244960": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "そなえている"
+        }
+      ],
+      "1945740": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "ひじょうかいだん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11044506",
+    "original": "非常階段を駆け下り、裏口から逃げた。",
+    "en": [
+      {
+        "id": "12037402",
+        "text": "He ran down the emergency stairs and escaped through the back door."
+      }
+    ],
+    "vocabIds": [
+      "1945740",
+      "1450330",
+      "1244720",
+      "1570710",
+      "1184160",
+      "1184450",
+      "1550270"
+    ],
+    "matches": {
+      "1184160": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "くだり"
+        }
+      ],
+      "1184450": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "くだり"
+        }
+      ],
+      "1244720": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "かけ"
+        }
+      ],
+      "1450330": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "にげた"
+        }
+      ],
+      "1550270": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "うらぐち"
+        }
+      ],
+      "1570710": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "かけ"
+        }
+      ],
+      "1945740": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "ひじょうかいだん"
+        }
+      ]
+    }
+  }
+]

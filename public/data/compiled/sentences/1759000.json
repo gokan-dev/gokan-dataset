@@ -1,0 +1,87 @@
+[
+  {
+    "id": "171540",
+    "original": "今日は底冷えのする日だ。",
+    "en": [
+      {
+        "id": "242934",
+        "text": "I feel chilled to the bone today."
+      }
+    ],
+    "indices": "今日 は 底冷え~ の 為る(する){する} 日(ひ)[01] だ",
+    "vocabIds": [
+      "1289400",
+      "1759000",
+      "1463770"
+    ],
+    "matches": {
+      "1289400": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きょうは"
+        }
+      ],
+      "1463770": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "ひ"
+        }
+      ],
+      "1759000": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "そこびえ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10606954",
+    "original": "ここの体育館、底冷えするね。寒くて凍え死にそう。",
+    "en": [
+      {
+        "id": "10919527",
+        "text": "This gym is like an ice box, right? It's so cold I feel as if I'm going to freeze to death."
+      }
+    ],
+    "vocabIds": [
+      "1446190",
+      "1409230",
+      "1759000",
+      "1210360"
+    ],
+    "matches": {
+      "1210360": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "さむくて"
+        }
+      ],
+      "1409230": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "たいいくかん"
+        }
+      ],
+      "1446190": [
+        {
+          "start": 17,
+          "length": 4,
+          "reading": "こごえしに"
+        }
+      ],
+      "1759000": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "そこびえ"
+        }
+      ]
+    }
+  }
+]

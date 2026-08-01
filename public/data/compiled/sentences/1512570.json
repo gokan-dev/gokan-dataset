@@ -1,0 +1,71 @@
+[
+  {
+    "id": "235743",
+    "original": "１週間便通がない。",
+    "en": [
+      {
+        "id": "73123",
+        "text": "I have not had a bowel movement for a week."
+      }
+    ],
+    "indices": "一週間{１週間} 便通~ が 無い{ない}",
+    "vocabIds": [
+      "1163270",
+      "1512570"
+    ],
+    "matches": {
+      "1163270": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "いちしゅうかん"
+        }
+      ],
+      "1512570": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "べんつう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "993896",
+    "original": "３日間便通がありません。",
+    "en": [
+      {
+        "id": "2660302",
+        "text": "I have been constipated for three days."
+      }
+    ],
+    "vocabIds": [
+      "2827650",
+      "1512570",
+      "1579350"
+    ],
+    "matches": {
+      "1512570": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "べんつう"
+        }
+      ],
+      "1579350": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "さん"
+        }
+      ],
+      "2827650": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "にちかん"
+        }
+      ]
+    }
+  }
+]

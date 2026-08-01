@@ -1,0 +1,108 @@
+[
+  {
+    "id": "108405",
+    "original": "彼は京都大学で学んでおります。",
+    "en": [
+      {
+        "id": "295281",
+        "text": "He is studying at Kyoto University."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 京都 大学 で(#2028980) 学ぶ{学んで} 居る(おる)[01]{おります}",
+    "vocabIds": [
+      "1206530",
+      "5220157",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1206530": [
+        {
+          "start": 7,
+          "length": 7,
+          "reading": "まなんでおります"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "5220157": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "きょうとだいがく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "157622",
+    "original": "私は京都大学を卒業しました。",
+    "en": [
+      {
+        "id": "256909",
+        "text": "I graduated from Kyoto University."
+      },
+      {
+        "id": "1084111",
+        "text": "I graduated from the University of Kyoto."
+      }
+    ],
+    "indices": "私(わたし)[01] は 京都 大学 を 卒業[01] 為る(する){しました}",
+    "vocabIds": [
+      "5220157",
+      "1405890",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1405890": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "そつぎょう"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "5220157": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "きょうとだいがく"
+        }
+      ]
+    }
+  }
+]

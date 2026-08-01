@@ -1,0 +1,111 @@
+[
+  {
+    "id": "148180",
+    "original": "秋風が立ち初める。",
+    "en": [
+      {
+        "id": "266378",
+        "text": "An autumn breeze begins to blow."
+      }
+    ],
+    "indices": "秋風~ が 立つ[07]{立ち} 初める",
+    "vocabIds": [
+      "1342560",
+      "1332720",
+      "1597040"
+    ],
+    "matches": {
+      "1332720": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あきかぜ"
+        }
+      ],
+      "1342560": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "そめる"
+        }
+      ],
+      "1597040": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "たち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "148181",
+    "original": "秋風に舞う木の葉のようだ。",
+    "en": [
+      {
+        "id": "266379",
+        "text": "Like a leaf in the autumn breeze."
+      }
+    ],
+    "indices": "秋風 に 舞う[02] 木の葉 の 様だ[02]{ようだ}",
+    "vocabIds": [
+      "1534560",
+      "1332720",
+      "1499100"
+    ],
+    "matches": {
+      "1332720": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あきかぜ"
+        }
+      ],
+      "1499100": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "まう"
+        }
+      ],
+      "1534560": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "このは"
+        }
+      ]
+    }
+  },
+  {
+    "id": "228102",
+    "original": "うまくいっていたあのふたりも、とうとう秋風が立ち始めたね。",
+    "en": [
+      {
+        "id": "65456",
+        "text": "Those two used to get along so well together but even with them you can sense a chill coming on."
+      }
+    ],
+    "indices": "うまく行く{うまくいっていた} 彼の(あの){あの} 二人{ふたり} も 到頭{とうとう} 秋風が立つ[02]{秋風が立ち}~ 始める[03]{始めた} ね(#2029080)[01]",
+    "vocabIds": [
+      "1597040",
+      "1332720"
+    ],
+    "matches": {
+      "1332720": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "あきかぜ"
+        }
+      ],
+      "1597040": [
+        {
+          "start": 22,
+          "length": 5,
+          "reading": "たちはじめた"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,64 @@
+[
+  {
+    "id": "74604",
+    "original": "ヘミングウェイの文章は悪文だった。",
+    "en": [
+      {
+        "id": "329115",
+        "text": "Hemingway had a poor writing style."
+      }
+    ],
+    "indices": "の 文章[01] は 悪文~ だ{だった}",
+    "vocabIds": [
+      "1505470",
+      "1152460"
+    ],
+    "matches": {
+      "1152460": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "あくぶん"
+        }
+      ],
+      "1505470": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "ぶんしょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "118267",
+    "original": "彼のは悪文だ。",
+    "en": [
+      {
+        "id": "285397",
+        "text": "He has a bad style."
+      }
+    ],
+    "indices": "彼(かれ) の は 悪文 だ",
+    "vocabIds": [
+      "1000420",
+      "1152460"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれの"
+        }
+      ],
+      "1152460": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "あくぶん"
+        }
+      ]
+    }
+  }
+]

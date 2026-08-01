@@ -1,0 +1,80 @@
+[
+  {
+    "id": "175613",
+    "original": "月賦によって人々は昔よりたくさんのものを購入できる。",
+    "en": [
+      {
+        "id": "238852",
+        "text": "By means of monthly payments, people can purchase more than in the past."
+      }
+    ],
+    "indices": "月賦 に因って{によって} 人々(ひとびと) は 昔 より 沢山{たくさん} の 物(もの){もの} を 購入 出来る{できる}",
+    "vocabIds": [
+      "1255800",
+      "1580650",
+      "1282440",
+      "1382370"
+    ],
+    "matches": {
+      "1255800": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "げっぷ"
+        }
+      ],
+      "1282440": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "こうにゅう"
+        }
+      ],
+      "1382370": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "むかし"
+        }
+      ],
+      "1580650": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ひとびと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "223492",
+    "original": "このテレビを月賦で買った。",
+    "en": [
+      {
+        "id": "60827",
+        "text": "I bought this TV on the installment plan."
+      }
+    ],
+    "indices": "此の{この} テレビ を 月賦~ で(#2028980) 買う[01]{買った}",
+    "vocabIds": [
+      "1473740",
+      "1255800"
+    ],
+    "matches": {
+      "1255800": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "げっぷ"
+        }
+      ],
+      "1473740": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "かった"
+        }
+      ]
+    }
+  }
+]

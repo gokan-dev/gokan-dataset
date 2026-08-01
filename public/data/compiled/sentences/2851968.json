@@ -1,0 +1,647 @@
+[
+  {
+    "id": "80269",
+    "original": "明日天気になあれ！",
+    "en": [
+      {
+        "id": "323447",
+        "text": "Rain, rain go away!"
+      }
+    ],
+    "indices": "明日 天気 になる{になあれ}",
+    "vocabIds": [
+      "2851968"
+    ],
+    "matches": {
+      "2851968": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "あしたてんき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "80270",
+    "original": "明日天気はどうなるだろうか。",
+    "en": [
+      {
+        "id": "323139",
+        "text": "I wonder what the weather will be tomorrow."
+      },
+      {
+        "id": "323448",
+        "text": "I wonder what the weather will be like tomorrow."
+      }
+    ],
+    "indices": "明日 天気 は 如何(どう){どう} 成る{なる} だろうか",
+    "vocabIds": [
+      "2851968"
+    ],
+    "matches": {
+      "2851968": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "あしたてんき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "80271",
+    "original": "明日天気なら外出します。",
+    "en": [
+      {
+        "id": "30582",
+        "text": "I will go out if it is fine tomorrow."
+      },
+      {
+        "id": "12602313",
+        "text": "If the weather is nice, I'll go out tomorrow."
+      }
+    ],
+    "indices": "明日 天気 なら 外出 為る(する){します}",
+    "vocabIds": [
+      "2851968",
+      "2062710"
+    ],
+    "matches": {
+      "2062710": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "がいしゅつし"
+        }
+      ],
+      "2851968": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "あしたてんき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "80272",
+    "original": "明日天気ならば私は散歩に出ます。",
+    "en": [
+      {
+        "id": "323445",
+        "text": "I will go for a walk if it is nice tomorrow."
+      },
+      {
+        "id": "9089184",
+        "text": "I'll go for a walk if it's nice tomorrow."
+      }
+    ],
+    "indices": "明日 天気 なら{ならば} 私(わたし)[01] は 散歩 に 出る{出ます}",
+    "vocabIds": [
+      "2851968",
+      "1338240",
+      "1303620",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1303620": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "さんぽ"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1338240": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "でます"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2851968": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "あしたてんき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "80273",
+    "original": "明日天気が良ければ、友達とヨット乗りに行きます。",
+    "en": [
+      {
+        "id": "323444",
+        "text": "If it is fine tomorrow, I will go sailing with my friends."
+      },
+      {
+        "id": "9089186",
+        "text": "If it's fine tomorrow, I'll go sailing with my friends."
+      }
+    ],
+    "indices": "明日 天気 が 良ければ 友達 と ヨット 乗り[01] に 行く[01]{行きます}",
+    "vocabIds": [
+      "2851968",
+      "2059390",
+      "1578850",
+      "1540170",
+      "1354720"
+    ],
+    "matches": {
+      "1354720": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "のり"
+        }
+      ],
+      "1540170": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "ともだち"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 19,
+          "length": 4,
+          "reading": "いきます"
+        }
+      ],
+      "2059390": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "よければ"
+        }
+      ],
+      "2851968": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "あしたてんき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "80274",
+    "original": "明日天気が良ければ、ハイキングに行きましょう。",
+    "en": [
+      {
+        "id": "323443",
+        "text": "If it is nice weather tomorrow, let's go on a hike."
+      },
+      {
+        "id": "695932",
+        "text": "If the weather is good tomorrow, let's go on a hike."
+      }
+    ],
+    "indices": "明日 天気 が 良ければ ハイキング に 行く[01]{行きましょう}",
+    "vocabIds": [
+      "1578850",
+      "2851968",
+      "2059390"
+    ],
+    "matches": {
+      "1578850": [
+        {
+          "start": 16,
+          "length": 6,
+          "reading": "いきましょう"
+        }
+      ],
+      "2059390": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "よければ"
+        }
+      ],
+      "2851968": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "あしたてんき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "80275",
+    "original": "明日天気がよければ、山に登るつもりです。",
+    "en": [
+      {
+        "id": "323442",
+        "text": "We'll climb the mountain if it is fine tomorrow."
+      },
+      {
+        "id": "9089204",
+        "text": "We'll climb the mountain if it's fine tomorrow."
+      }
+    ],
+    "indices": "明日 天気 が 良い{よければ} 山(やま)[01] に 登る 積もり{つもり} です",
+    "vocabIds": [
+      "2851968",
+      "1352570",
+      "1302680"
+    ],
+    "matches": {
+      "1302680": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "やま"
+        }
+      ],
+      "1352570": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "のぼる"
+        }
+      ],
+      "2851968": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "あしたてんき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "193417",
+    "original": "明日天気なら出かけます。",
+    "en": [
+      {
+        "id": "30582",
+        "text": "I will go out if it is fine tomorrow."
+      },
+      {
+        "id": "12602313",
+        "text": "If the weather is nice, I'll go out tomorrow."
+      }
+    ],
+    "indices": "明日 天気 なら 出かける{出かけます}",
+    "vocabIds": [
+      "1598550",
+      "2851968"
+    ],
+    "matches": {
+      "1598550": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "でかけます"
+        }
+      ],
+      "2851968": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "あしたてんき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "193418",
+    "original": "もし明日天気が良かったら、私たちはピクニックに行くつもりです。",
+    "en": [
+      {
+        "id": "30583",
+        "text": "If it is sunny tomorrow, we will go on a picnic."
+      }
+    ],
+    "indices": "若し(もし){もし} 明日 天気 が 良い{良かったら} 私たち は ピクニック に 行く 積もり{つもり} です",
+    "vocabIds": [
+      "1554530",
+      "2851968",
+      "1311300",
+      "1578850"
+    ],
+    "matches": {
+      "1311300": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1554530": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "よかったら"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 23,
+          "length": 2,
+          "reading": "いく"
+        }
+      ],
+      "2851968": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "あしたてんき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3807739",
+    "original": "明日天気だったら川に泳ぎに行こう。",
+    "en": [
+      {
+        "id": "3807772",
+        "text": "If the weather's good tomorrow, let's go to the river to swim."
+      },
+      {
+        "id": "3807774",
+        "text": "If it's a good day tomorrow, let's go to the river to swim."
+      }
+    ],
+    "vocabIds": [
+      "2851968",
+      "1578850",
+      "1613570",
+      "1390020"
+    ],
+    "matches": {
+      "1390020": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "かわ"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "いこう"
+        }
+      ],
+      "1613570": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "およぎ"
+        }
+      ],
+      "2851968": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "あしたてんき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "6110487",
+    "original": "明日天気はどうでしょうか。",
+    "en": [
+      {
+        "id": "6480666",
+        "text": "What'll tomorrow's weather be like?"
+      },
+      {
+        "id": "6110485",
+        "text": "How will the weather be tomorrow?"
+      },
+      {
+        "id": "6110486",
+        "text": "What will tomorrow's weather be like?"
+      },
+      {
+        "id": "9444572",
+        "text": "What's the weather going to be like tomorrow?"
+      }
+    ],
+    "vocabIds": [
+      "2851968"
+    ],
+    "matches": {
+      "2851968": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "あしたてんき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "4998458",
+    "original": "明日天気になぁれ。",
+    "en": [
+      {
+        "id": "6884584",
+        "text": "I want tomorrow to be fine."
+      }
+    ],
+    "vocabIds": [
+      "2851968"
+    ],
+    "matches": {
+      "2851968": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "あしたてんき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8555768",
+    "original": "明日天気が良かったら行きます。",
+    "en": [
+      {
+        "id": "2388860",
+        "text": "I'll go tomorrow if the weather is reasonable."
+      }
+    ],
+    "vocabIds": [
+      "1554530",
+      "2851968",
+      "1578850"
+    ],
+    "matches": {
+      "1554530": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "よかったら"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "いきます"
+        }
+      ],
+      "2851968": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "あしたてんき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9089208",
+    "original": "明日天気だったら、庭でバーベキューしようよ。",
+    "en": [
+      {
+        "id": "10071298",
+        "text": "Assuming it's nice weather tomorrow, let's have a barbeque in the garden."
+      }
+    ],
+    "vocabIds": [
+      "2851968",
+      "1436130"
+    ],
+    "matches": {
+      "1436130": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "にわ"
+        }
+      ],
+      "2851968": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "あしたてんき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10777382",
+    "original": "明日天気が良ければ散歩に行こうかな。",
+    "en": [
+      {
+        "id": "9089184",
+        "text": "I'll go for a walk if it's nice tomorrow."
+      }
+    ],
+    "vocabIds": [
+      "2851968",
+      "2059390",
+      "1578850",
+      "1303620"
+    ],
+    "matches": {
+      "1303620": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "さんぽ"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "いこう"
+        }
+      ],
+      "2059390": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "よければ"
+        }
+      ],
+      "2851968": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "あしたてんき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11591735",
+    "original": "「明日天気みたいだけど、カヤック行くん？」「風のきつさにもよるね」",
+    "en": [
+      {
+        "id": "11761001",
+        "text": "\"It looks like the weather's gonna be good tomorrow, you wanna go kayaking?\" \"Well, it depends on how strong the wind'll be too, though.\""
+      }
+    ],
+    "vocabIds": [
+      "2851968",
+      "1578850",
+      "1361130",
+      "1499720"
+    ],
+    "matches": {
+      "1361130": [
+        {
+          "start": 22,
+          "length": 1,
+          "reading": "かぜ"
+        }
+      ],
+      "1499720": [
+        {
+          "start": 22,
+          "length": 1,
+          "reading": "かぜ"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "いくん"
+        }
+      ],
+      "2851968": [
+        {
+          "start": 1,
+          "length": 4,
+          "reading": "あしたてんき"
+        }
+      ]
+    }
+  }
+]

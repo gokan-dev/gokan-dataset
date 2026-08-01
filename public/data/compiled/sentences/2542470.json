@@ -1,0 +1,103 @@
+[
+  {
+    "id": "184547",
+    "original": "覚えてろよ。いつか借りを返してやるからな。",
+    "en": [
+      {
+        "id": "21675",
+        "text": "I will get even with you someday. Remember that."
+      }
+    ],
+    "indices": "覚えてろ よ 何時か{いつか} 借りを返す[02]{借りを返して}~ 遣る[01]{やる} から な",
+    "vocabIds": [
+      "1512130",
+      "2542470",
+      "1323540"
+    ],
+    "matches": {
+      "1323540": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "かり"
+        }
+      ],
+      "1512130": [
+        {
+          "start": 12,
+          "length": 7,
+          "reading": "かえしてやるから"
+        }
+      ],
+      "2542470": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "おぼえてろ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "184548",
+    "original": "覚えてろよ。",
+    "en": [
+      {
+        "id": "21676",
+        "text": "I will get even with you some day."
+      }
+    ],
+    "indices": "覚える[01]{覚えてろ} よ[01]",
+    "vocabIds": [
+      "2542470"
+    ],
+    "matches": {
+      "2542470": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "おぼえてろ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "192866",
+    "original": "よーし！覚えてろ。後で悔やむなよ。",
+    "en": [
+      {
+        "id": "30032",
+        "text": "All right! You will be sorry for this."
+      }
+    ],
+    "indices": "よし{よーし} 覚えてろ~ 後(あと) で(#2028980) 悔やむ[02]~ な[01] よ[01]",
+    "vocabIds": [
+      "2542470",
+      "1200450",
+      "1269350"
+    ],
+    "matches": {
+      "1200450": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "くやむ"
+        }
+      ],
+      "1269350": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "あとで"
+        }
+      ],
+      "2542470": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "おぼえてろ"
+        }
+      ]
+    }
+  }
+]

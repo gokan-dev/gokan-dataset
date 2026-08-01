@@ -1,0 +1,96 @@
+[
+  {
+    "id": "78964",
+    "original": "予約係をお願いします。",
+    "en": [
+      {
+        "id": "324752",
+        "text": "The reservation desk, please."
+      }
+    ],
+    "indices": "予約係~ を お願いします",
+    "vocabIds": [
+      "1001720",
+      "1948200"
+    ],
+    "matches": {
+      "1001720": [
+        {
+          "start": 4,
+          "length": 6,
+          "reading": "おねがいします"
+        }
+      ],
+      "1948200": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "よやくがかり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "78965",
+    "original": "予約係の高橋一郎氏に、予約確認のためあなたのクレジットカード番号を連絡して下さい。",
+    "en": [
+      {
+        "id": "324751",
+        "text": "Please tell the reservation clerk, Mr Ichiro Takahashi, your credit card number to confirm your reservation."
+      }
+    ],
+    "indices": "予約係 の 氏(し)[01] に 予約[01] 確認 の 為(ため){ため} 貴方(あなた)[01]{あなた} の クレジットカード 番号 を 連絡[01] 為る(する){して} 下さい",
+    "vocabIds": [
+      "2636030",
+      "2837795",
+      "1948200",
+      "1184280",
+      "1559900",
+      "2101130"
+    ],
+    "matches": {
+      "1184280": [
+        {
+          "start": 37,
+          "length": 3,
+          "reading": "ください"
+        }
+      ],
+      "1559900": [
+        {
+          "start": 33,
+          "length": 2,
+          "reading": "れんらく"
+        }
+      ],
+      "1948200": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "よやくがかり"
+        }
+      ],
+      "2101130": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "し"
+        }
+      ],
+      "2636030": [
+        {
+          "start": 22,
+          "length": 10,
+          "reading": "くれじっとかーどばんごう"
+        }
+      ],
+      "2837795": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "よやくかくにん"
+        }
+      ]
+    }
+  }
+]

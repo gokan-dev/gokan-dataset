@@ -1,0 +1,163 @@
+[
+  {
+    "id": "153095",
+    "original": "私は標準英語を勉強したい。",
+    "en": [
+      {
+        "id": "261448",
+        "text": "I want to learn standard English."
+      },
+      {
+        "id": "2438453",
+        "text": "I would like to learn standard English."
+      }
+    ],
+    "indices": "私(わたし)[01] は 標準[01]~ 英語 を 勉強[01] したい",
+    "vocabIds": [
+      "2847295",
+      "1512670",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1512670": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "べんきょう"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2847295": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "ひょうじゅんえいご"
+        }
+      ]
+    }
+  },
+  {
+    "id": "176910",
+    "original": "君は標準英語を学ばなくてはいけない。",
+    "en": [
+      {
+        "id": "9588",
+        "text": "You have to learn standard English."
+      }
+    ],
+    "indices": "君(きみ)[01] は 標準[01] 英語 を 学ぶ{学ば} 無くてはいけない{なくてはいけない}",
+    "vocabIds": [
+      "1206530",
+      "2847295",
+      "1247250"
+    ],
+    "matches": {
+      "1206530": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "まなばなくて"
+        }
+      ],
+      "1247250": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "きみ"
+        }
+      ],
+      "2847295": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "ひょうじゅんえいご"
+        }
+      ]
+    }
+  },
+  {
+    "id": "236911",
+    "original": "いわゆる「標準英語」とは世界中で話されている数多い方言のうちの１つにすぎない。",
+    "en": [
+      {
+        "id": "65778",
+        "text": "What we call 'Standard English' is only one of the many dialects spoken all over the world."
+      }
+    ],
+    "indices": "所謂{いわゆる} 標準[01] 英語 とは 世界中 で(#2028980) 話す{話されている} 数多い 方言~ の 内(うち){うちの} 一つ[01]{１つ} に 過ぎる(すぎる){すぎない}",
+    "vocabIds": [
+      "2847295",
+      "1753790",
+      "2011740",
+      "1562350",
+      "1516980",
+      "1160820"
+    ],
+    "matches": {
+      "1160820": [
+        {
+          "start": 31,
+          "length": 2,
+          "reading": "ひとつ"
+        }
+      ],
+      "1516980": [
+        {
+          "start": 25,
+          "length": 2,
+          "reading": "ほうげん"
+        }
+      ],
+      "1562350": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "はなさ"
+        }
+      ],
+      "1753790": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "せかいじゅう"
+        }
+      ],
+      "2011740": [
+        {
+          "start": 22,
+          "length": 3,
+          "reading": "かずおおい"
+        }
+      ],
+      "2847295": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "ひょうじゅんえいご"
+        }
+      ]
+    }
+  }
+]

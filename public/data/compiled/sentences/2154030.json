@@ -1,0 +1,55 @@
+[
+  {
+    "id": "217307",
+    "original": "こんな夜遅くにいたずら電話をかけてくるなよな。",
+    "en": [
+      {
+        "id": "54615",
+        "text": "Hey! I don't want any crank calls - not at this hour."
+      }
+    ],
+    "indices": "こんな 夜遅く に 悪戯(いたずら)[01]{いたずら} 電話をかける{電話をかけて} 来る(くる){くる} な よ な",
+    "vocabIds": [
+      "2154030",
+      "2018890"
+    ],
+    "matches": {
+      "2018890": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "よるおそく"
+        }
+      ],
+      "2154030": [
+        {
+          "start": 7,
+          "length": 6,
+          "reading": "いたずらでんわ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11933074",
+    "original": "トムとメアリーは、いたずら電話をかけていた。",
+    "en": [
+      {
+        "id": "2640541",
+        "text": "Tom and Mary were making prank phone calls."
+      }
+    ],
+    "vocabIds": [
+      "2154030"
+    ],
+    "matches": {
+      "2154030": [
+        {
+          "start": 9,
+          "length": 6,
+          "reading": "いたずらでんわ"
+        }
+      ]
+    }
+  }
+]

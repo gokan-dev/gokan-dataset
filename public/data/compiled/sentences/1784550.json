@@ -1,0 +1,94 @@
+[
+  {
+    "id": "142069",
+    "original": "折り入って頼みたいことがある。",
+    "en": [
+      {
+        "id": "272501",
+        "text": "I want to ask you a big favor."
+      }
+    ],
+    "indices": "折り入って~ 頼む[01]{頼み} たい[01] 事(こと){こと} が[01] 有る{ある}",
+    "vocabIds": [
+      "1784550",
+      "1548370"
+    ],
+    "matches": {
+      "1548370": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "たのみたい"
+        }
+      ],
+      "1784550": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "おりはいって"
+        }
+      ]
+    }
+  },
+  {
+    "id": "142070",
+    "original": "折り入ってお願いしたいことがあるのですが。",
+    "en": [
+      {
+        "id": "272500",
+        "text": "May I ask a very special favor of you?"
+      }
+    ],
+    "indices": "折り入って お願い[01] したい 事(こと){こと} が[01] 有る{ある} のです が[03]",
+    "vocabIds": [
+      "1784550",
+      "2036870"
+    ],
+    "matches": {
+      "1784550": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "おりはいって"
+        }
+      ],
+      "2036870": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "おねがい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2107015",
+    "original": "あなたに折り入ってお話したいことがあるのですが。",
+    "en": [
+      {
+        "id": "1936316",
+        "text": "I'd like to tell you something in private."
+      }
+    ],
+    "vocabIds": [
+      "1784550",
+      "2581590"
+    ],
+    "matches": {
+      "1784550": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "おりはいって"
+        }
+      ],
+      "2581590": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "おはなしし"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "id": "198405",
+    "original": "パーマをかけたので、髪の毛が縮れています。",
+    "en": [
+      {
+        "id": "35595",
+        "text": "Now I have curly hair, because I had a perm."
+      }
+    ],
+    "indices": "パーマ を 掛ける{かけた} ので 髪の毛 が 縮れる{縮れています}~",
+    "vocabIds": [
+      "1337590",
+      "1477960"
+    ],
+    "matches": {
+      "1337590": [
+        {
+          "start": 14,
+          "length": 6,
+          "reading": "ちぢれています"
+        }
+      ],
+      "1477960": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "かみのけ"
+        }
+      ]
+    }
+  }
+]

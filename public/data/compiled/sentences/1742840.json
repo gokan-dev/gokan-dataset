@@ -1,0 +1,104 @@
+[
+  {
+    "id": "8613603",
+    "original": "トムは焼き飯を食べた。",
+    "en": [
+      {
+        "id": "8613599",
+        "text": "Tom ate fried rice."
+      }
+    ],
+    "vocabIds": [
+      "1742840",
+      "1358280"
+    ],
+    "matches": {
+      "1358280": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "たべた"
+        }
+      ],
+      "1742840": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "やきめし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10807023",
+    "original": "焼き飯が食べたいです。",
+    "en": [
+      {
+        "id": "6269198",
+        "text": "I want to eat fried rice."
+      }
+    ],
+    "vocabIds": [
+      "1358280",
+      "1742840"
+    ],
+    "matches": {
+      "1358280": [
+        {
+          "start": 4,
+          "length": 6,
+          "reading": "たべたいです"
+        }
+      ],
+      "1742840": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "やきめし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12736058",
+    "original": "今日のお昼は、焼き飯だった。",
+    "en": [
+      {
+        "id": "12736056",
+        "text": "I ate fried rice for lunch today."
+      },
+      {
+        "id": "12736055",
+        "text": "Today, I had fried rice for lunch."
+      }
+    ],
+    "vocabIds": [
+      "1742840",
+      "1579110",
+      "1660100"
+    ],
+    "matches": {
+      "1579110": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きょう"
+        }
+      ],
+      "1660100": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "おひる"
+        }
+      ],
+      "1742840": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "やきめし"
+        }
+      ]
+    }
+  }
+]

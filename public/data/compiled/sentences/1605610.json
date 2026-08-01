@@ -1,0 +1,65 @@
+[
+  {
+    "id": "75092",
+    "original": "失敗したらやり直しができないから、失敗するな。",
+    "en": [
+      {
+        "id": "328627",
+        "text": "If you mess-up it can't be redone, so don't mess-up!"
+      }
+    ],
+    "indices": "失敗 為る(する){したら} やり直し~ が 出来る{できない} から 失敗 為る(する){する} な",
+    "vocabIds": [
+      "1605610",
+      "1320140"
+    ],
+    "matches": {
+      "1320140": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しっぱい"
+        },
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "しっぱい"
+        }
+      ],
+      "1605610": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "やりなおし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "195473",
+    "original": "またやり直しですか。",
+    "en": [
+      {
+        "id": "433725",
+        "text": "Do I have to do it over again?"
+      },
+      {
+        "id": "672233",
+        "text": "Are you going to do it over again?"
+      }
+    ],
+    "indices": "又{また} やり直し ですか",
+    "vocabIds": [
+      "1605610"
+    ],
+    "matches": {
+      "1605610": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "やりなおし"
+        }
+      ]
+    }
+  }
+]

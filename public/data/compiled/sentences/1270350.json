@@ -1,0 +1,139 @@
+[
+  {
+    "id": "75040",
+    "original": "あの、私、残念ですが小用が御座いますので、この辺りで失礼致しますね。",
+    "en": [
+      {
+        "id": "328679",
+        "text": "Ah, unfortunately there is a small matter I need to attend to so I'll take my leave now."
+      }
+    ],
+    "indices": "彼の(あの){あの} 私(わたし)[01] 残念 です が 小用[01]~ が 御座います ので 此の{この} 辺り(あたり)[01] で(#2028980) 失礼 致す{致します} ね",
+    "vocabIds": [
+      "1270350",
+      "2759480",
+      "1421900",
+      "1304680",
+      "1649980",
+      "1320230",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1270350": [
+        {
+          "start": 13,
+          "length": 7,
+          "reading": "ございますので"
+        }
+      ],
+      "1304680": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ざんねん"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1320230": [
+        {
+          "start": 26,
+          "length": 2,
+          "reading": "しつれい"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1421900": [
+        {
+          "start": 28,
+          "length": 4,
+          "reading": "いたします"
+        }
+      ],
+      "1649980": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "しょうよう"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2759480": [
+        {
+          "start": 21,
+          "length": 4,
+          "reading": "このあたり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1626246",
+    "original": "何かデンマークに善くない事があるので御座ろう。",
+    "en": [
+      {
+        "id": "962549",
+        "text": "There's something rotten in the state of Denmark."
+      },
+      {
+        "id": "1172026",
+        "text": "There is something rotten in the state of Denmark."
+      }
+    ],
+    "vocabIds": [
+      "1004540",
+      "1605820",
+      "1270350",
+      "1188270"
+    ],
+    "matches": {
+      "1004540": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "ことがある"
+        }
+      ],
+      "1188270": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "なにか"
+        }
+      ],
+      "1270350": [
+        {
+          "start": 18,
+          "length": 3,
+          "reading": "ござろ"
+        }
+      ],
+      "1605820": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "よくない"
+        }
+      ]
+    }
+  }
+]

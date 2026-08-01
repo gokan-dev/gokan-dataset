@@ -1,0 +1,100 @@
+[
+  {
+    "id": "210500",
+    "original": "その作品は先月ついに日の目を見た。",
+    "en": [
+      {
+        "id": "47768",
+        "text": "The work finally saw the light last month."
+      }
+    ],
+    "indices": "其の[01]{その} 作品 は 先月 遂に[01]{ついに} 日の目を見る{日の目を見た}~",
+    "vocabIds": [
+      "1730210",
+      "1297910",
+      "1387500",
+      "1259290"
+    ],
+    "matches": {
+      "1259290": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "みた"
+        }
+      ],
+      "1297910": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "さくひん"
+        }
+      ],
+      "1387500": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "せんげつ"
+        }
+      ],
+      "1730210": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "ひのめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8271883",
+    "original": "その法案は結局日の目を見なかった。",
+    "en": [
+      {
+        "id": "8271884",
+        "text": "The bill was finally shelved."
+      },
+      {
+        "id": "12037797",
+        "text": "Ultimately this bill did not see the light of day."
+      }
+    ],
+    "indices": "其の[01]{その} 法案 は 結局 日の目を見る{日の目を見なかった}~",
+    "vocabIds": [
+      "1259290",
+      "1730210",
+      "1517160",
+      "1254730"
+    ],
+    "matches": {
+      "1254730": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "けっきょく"
+        }
+      ],
+      "1259290": [
+        {
+          "start": 11,
+          "length": 5,
+          "reading": "みなかった"
+        }
+      ],
+      "1517160": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ほうあん"
+        }
+      ],
+      "1730210": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "ひのめ"
+        }
+      ]
+    }
+  }
+]

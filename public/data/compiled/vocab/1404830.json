@@ -1,0 +1,124 @@
+{
+  "id": "1404830",
+  "writtenForm": {
+    "kanji": "足取り",
+    "alternatives": [
+      "足どり"
+    ],
+    "containedKanji": [
+      "足",
+      "取"
+    ]
+  },
+  "reading": {
+    "primary": "あしどり",
+    "alternatives": [
+      "あしとり"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 3673,
+    "kanaRank": 181436
+  },
+  "progression": {
+    "kklcStep": 59
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "gait",
+        "walk",
+        "stride",
+        "pace",
+        "step",
+        "manner of walking"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "trace (e.g. of route taken by hunted criminal)",
+        "track",
+        "trail",
+        "movements"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "downing an opponent by grabbing his leg"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "あしとり"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1404830",
+      "isBase": true,
+      "originalPrimaryReading": "あしどり",
+      "originalGlosses": [
+        "gait",
+        "walk",
+        "stride"
+      ]
+    },
+    {
+      "id": "1708890",
+      "isBase": false,
+      "originalPrimaryReading": "あしとり",
+      "originalGlosses": [
+        "downing an opponent by grabbing his leg"
+      ]
+    }
+  ],
+  "components": [
+    "1404630",
+    "2451270"
+  ]
+}

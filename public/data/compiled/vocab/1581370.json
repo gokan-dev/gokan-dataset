@@ -1,0 +1,104 @@
+{
+  "id": "1581370",
+  "writtenForm": {
+    "kanji": "存知",
+    "alternatives": [
+      "存じ"
+    ],
+    "containedKanji": [
+      "存",
+      "知"
+    ]
+  },
+  "reading": {
+    "primary": "ぞんち",
+    "alternatives": [
+      "ぞんじ"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 84837,
+    "kanaRank": 166811
+  },
+  "progression": {
+    "kklcStep": 560
+  },
+  "senses": [
+    {
+      "pos": [
+        "n",
+        "vs",
+        "vt"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "knowing"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "knowing",
+        "being aware (of)"
+      ],
+      "related": {
+        "compounds": [
+          "ご存知"
+        ]
+      },
+      "appliesToReadings": [
+        "ぞんじ"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": true
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1581370",
+      "isBase": true,
+      "originalPrimaryReading": "ぞんち",
+      "originalGlosses": [
+        "knowing"
+      ]
+    },
+    {
+      "id": "2258150",
+      "isBase": false,
+      "originalPrimaryReading": "ぞんじ",
+      "originalGlosses": [
+        "knowing",
+        "being aware (of)"
+      ]
+    }
+  ],
+  "components": [
+    "2081550"
+  ],
+  "parents": [
+    "1593570",
+    "2864843"
+  ]
+}

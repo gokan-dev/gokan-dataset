@@ -1,0 +1,138 @@
+[
+  {
+    "id": "137761",
+    "original": "おい、綾子、声を大きくしてください。",
+    "en": [
+      {
+        "id": "275475",
+        "text": "Hey, Ayako, make your voice louder."
+      },
+      {
+        "id": "954884",
+        "text": "Hey, Ayako! Please speak louder."
+      },
+      {
+        "id": "954885",
+        "text": "Hey, Ayako! Please speak more loudly."
+      },
+      {
+        "id": "954886",
+        "text": "Hey, Ayako. Please speak up."
+      }
+    ],
+    "indices": "大きく 為る(する){して}",
+    "vocabIds": [
+      "1588880",
+      "1738630",
+      "1380440"
+    ],
+    "matches": {
+      "1380440": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "こえ"
+        }
+      ],
+      "1588880": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "おおきく"
+        }
+      ],
+      "1738630": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "あやこ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "200599",
+    "original": "とても元気よ！ねえ、ローラ、こちら友達の綾子。",
+    "en": [
+      {
+        "id": "37801",
+        "text": "I'm fine, thanks. Oh, Laura, this is my friend, Ayako."
+      }
+    ],
+    "indices": "迚も{とても} 元気 よ ね(#2029080)[02]{ねえ} 此方(こちら)[05]{こちら} 友達 の 綾子",
+    "vocabIds": [
+      "1260720",
+      "1540170",
+      "1738630"
+    ],
+    "matches": {
+      "1260720": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "げんき"
+        }
+      ],
+      "1540170": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "ともだち"
+        }
+      ],
+      "1738630": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "あやこ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "774363",
+    "original": "綾子さんの日記をまた読むのを楽しみにしている。",
+    "en": [
+      {
+        "id": "1451760",
+        "text": "I'm looking forward to reading Ayako's diary again."
+      }
+    ],
+    "vocabIds": [
+      "1207250",
+      "1738630",
+      "1463930",
+      "1456360"
+    ],
+    "matches": {
+      "1207250": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "たのしみ"
+        }
+      ],
+      "1456360": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "よむ"
+        }
+      ],
+      "1463930": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "にっき"
+        }
+      ],
+      "1738630": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あやこ"
+        }
+      ]
+    }
+  }
+]

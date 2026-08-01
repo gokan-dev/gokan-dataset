@@ -1,0 +1,358 @@
+[
+  {
+    "id": "99869",
+    "original": "彼は本当に調子がいい。",
+    "en": [
+      {
+        "id": "303828",
+        "text": "He's really in good shape."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 本当に 調子がいい[01]",
+    "vocabIds": [
+      "2620870",
+      "1611580",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1611580": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "ほんとうに"
+        }
+      ],
+      "2620870": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "ちょうしがいい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "102541",
+    "original": "彼は体の調子がよい。",
+    "en": [
+      {
+        "id": "301153",
+        "text": "He is in good physical condition."
+      },
+      {
+        "id": "1743482",
+        "text": "He's in good physical condition."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 体(からだ) の 調子がいい[01]{調子がよい}",
+    "vocabIds": [
+      "2620870",
+      "1000420",
+      "1483070",
+      "1409140"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1409140": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "からだ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "2620870": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "ちょうしがよい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "172258",
+    "original": "今朝は体の調子がよい。",
+    "en": [
+      {
+        "id": "242217",
+        "text": "I feel good this morning."
+      }
+    ],
+    "indices": "今朝 は 体(からだ) の 調子がいい[01]{調子がよい}~",
+    "vocabIds": [
+      "2620870",
+      "1579100",
+      "1409140"
+    ],
+    "matches": {
+      "1409140": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "からだ"
+        }
+      ],
+      "1579100": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "けさ"
+        }
+      ],
+      "2620870": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "ちょうしがよい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "172561",
+    "original": "今、彼はずっと調子がよいようだ。",
+    "en": [
+      {
+        "id": "241914",
+        "text": "He looks much better now."
+      }
+    ],
+    "indices": "今(いま) 彼(かれ)[01] は ずっと 調子がいい[01]{調子がよい} 様だ{ようだ}",
+    "vocabIds": [
+      "2620870",
+      "1288850",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1288850": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "いま"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "2620870": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "ちょうしがよい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "209722",
+    "original": "その時計は私の祖父が買ったのだが、いまだに調子が良い。",
+    "en": [
+      {
+        "id": "46984",
+        "text": "The clock, which my grandfather bought, is still in good order."
+      }
+    ],
+    "indices": "其の[01]{その} 時計 は 私(わたし)[01]{私の} 祖父[01] が 買う[01]{買った} のだ が[03] 未だに{いまだに} 調子 が 良い",
+    "vocabIds": [
+      "2620870",
+      "1473740",
+      "1316140",
+      "1396840",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1316140": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "とけい"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1396840": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "そふ"
+        }
+      ],
+      "1473740": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "かった"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2620870": [
+        {
+          "start": 21,
+          "length": 5,
+          "reading": "ちょうしがよい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "215679",
+    "original": "ジョージ・ジョンソンは本当に調子がいいね。",
+    "en": [
+      {
+        "id": "52981",
+        "text": "George Johnson is in really fine form."
+      }
+    ],
+    "indices": "は 本当に 調子がいい[01] ね(#2029080)[01]",
+    "vocabIds": [
+      "2620870",
+      "1611580"
+    ],
+    "matches": {
+      "1611580": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "ほんとうに"
+        }
+      ],
+      "2620870": [
+        {
+          "start": 14,
+          "length": 5,
+          "reading": "ちょうしがいい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "221382",
+    "original": "この車は調子がいい。",
+    "en": [
+      {
+        "id": "58708",
+        "text": "This car is in good condition."
+      }
+    ],
+    "indices": "此の{この} 車(くるま) は 調子がいい[01]",
+    "vocabIds": [
+      "2620870",
+      "1323080"
+    ],
+    "matches": {
+      "1323080": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "2620870": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "ちょうしがいい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "231354",
+    "original": "あのカーディーラーはこの中古のトヨタが調子がいいなどと、まんまと一杯くわせやがった。",
+    "en": [
+      {
+        "id": "68721",
+        "text": "That car dealer gave me a bum steer when he told me this used Toyota was in good condition."
+      }
+    ],
+    "indices": "彼の(あの){あの} カーディーラー は 此の{この} 中古[01] の NI{トヨタ} が 調子がいい[01] 等(など){など} と まんまと 一杯食わす{一杯くわせ}~ やがる{やがった}",
+    "vocabIds": [
+      "2620870",
+      "1424150",
+      "1165670"
+    ],
+    "matches": {
+      "1165670": [
+        {
+          "start": 32,
+          "length": 2,
+          "reading": "いちはい"
+        }
+      ],
+      "1424150": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "ちゅうこ"
+        }
+      ],
+      "2620870": [
+        {
+          "start": 19,
+          "length": 5,
+          "reading": "ちょうしがいい"
+        }
+      ]
+    }
+  }
+]

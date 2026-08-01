@@ -1,0 +1,131 @@
+[
+  {
+    "id": "147972",
+    "original": "重体の赤ちゃんは医者の注意深い監視下に置かれていた。",
+    "en": [
+      {
+        "id": "266587",
+        "text": "The very sick baby was under careful observation by the doctors."
+      }
+    ],
+    "indices": "重態{重体の} 赤ちゃん は 医者 の 注意深い 監視 下(した)[01] に 置く[01]{置かれていた}",
+    "vocabIds": [
+      "1383260",
+      "1610330",
+      "2274220",
+      "1595360",
+      "1159980",
+      "1421850"
+    ],
+    "matches": {
+      "1159980": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "いしゃ"
+        }
+      ],
+      "1383260": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "あかちゃん"
+        }
+      ],
+      "1421850": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "おか"
+        }
+      ],
+      "1595360": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じゅうたい"
+        }
+      ],
+      "1610330": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "ちゅういぶかい"
+        }
+      ],
+      "2274220": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "かんしか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "194745",
+    "original": "メアリーは重態だ。死にかけているのではないだろうか。",
+    "en": [
+      {
+        "id": "31919",
+        "text": "Mary is very ill and I'm afraid she is dying."
+      },
+      {
+        "id": "10546671",
+        "text": "Mary is very sick and I'm afraid she's dying."
+      }
+    ],
+    "indices": "は 重態 だ 死に掛ける{死にかけている} の では無い{ではない} だろうか",
+    "vocabIds": [
+      "1881090",
+      "1595360"
+    ],
+    "matches": {
+      "1595360": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "じゅうたい"
+        }
+      ],
+      "1881090": [
+        {
+          "start": 9,
+          "length": 7,
+          "reading": "しにかけている"
+        }
+      ]
+    }
+  },
+  {
+    "id": "211601",
+    "original": "その患者は重態だ。",
+    "en": [
+      {
+        "id": "48878",
+        "text": "The patient is in critical condition."
+      }
+    ],
+    "indices": "其の[01]{その} 患者 は 重態~ だ",
+    "vocabIds": [
+      "1212210",
+      "1595360"
+    ],
+    "matches": {
+      "1212210": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "かんじゃ"
+        }
+      ],
+      "1595360": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "じゅうたい"
+        }
+      ]
+    }
+  }
+]

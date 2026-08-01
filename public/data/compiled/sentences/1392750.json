@@ -1,0 +1,160 @@
+[
+  {
+    "id": "123666",
+    "original": "同社の第４四半期の業績は前期に比べ、急激に改善した。",
+    "en": [
+      {
+        "id": "280329",
+        "text": "The company's fourth quarter results sharply improved from the preceding quarter."
+      }
+    ],
+    "indices": "同社[01] の 第 四半期 の 業績 は 前期 に 比べる[01]{比べ} 急激{急激に} 改善 為る(する){した}",
+    "vocabIds": [
+      "2856947",
+      "1009840",
+      "1452570",
+      "1239460",
+      "1392750",
+      "1228680",
+      "1200960"
+    ],
+    "matches": {
+      "1009840": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "にくらべ"
+        }
+      ],
+      "1200960": [
+        {
+          "start": 21,
+          "length": 2,
+          "reading": "かいぜん"
+        }
+      ],
+      "1228680": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "きゅうげき"
+        }
+      ],
+      "1239460": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "ぎょうせき"
+        }
+      ],
+      "1392750": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "ぜんき"
+        }
+      ],
+      "1452570": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "どうしゃ"
+        }
+      ],
+      "2856947": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "だいよんしはんき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "423344",
+    "original": "当期純利益は５０億円の見込みで、前期とほとんど変わりません。",
+    "en": [
+      {
+        "id": "423345",
+        "text": "Net profit for the period is estimated at 5 billion yen, largely unchanged from the previous one."
+      }
+    ],
+    "indices": "当期純利益~ は 億 円(えん) の 見込み で(#2028980) 前期~ と 殆ど{ほとんど} 変わる{変わりません}",
+    "vocabIds": [
+      "1510790",
+      "2556780",
+      "1604480",
+      "1392750",
+      "1268060",
+      "1557630",
+      "1182620",
+      "1175570",
+      "1216250"
+    ],
+    "matches": {
+      "1175570": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "えん"
+        }
+      ],
+      "1182620": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "おく"
+        }
+      ],
+      "1216250": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "えん"
+        }
+      ],
+      "1268060": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "ご"
+        }
+      ],
+      "1392750": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "ぜんき"
+        }
+      ],
+      "1510790": [
+        {
+          "start": 23,
+          "length": 6,
+          "reading": "かわりません"
+        }
+      ],
+      "1557630": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "ぜろ"
+        }
+      ],
+      "1604480": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "みこみ"
+        }
+      ],
+      "2556780": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "とうきじゅんりえき"
+        }
+      ]
+    }
+  }
+]

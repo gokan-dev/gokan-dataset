@@ -1,0 +1,111 @@
+[
+  {
+    "id": "136833",
+    "original": "誰ですか、「粗大ゴミ」なんていう人は？",
+    "en": [
+      {
+        "id": "276403",
+        "text": "Who calls me \"good for nothing\"?"
+      }
+    ],
+    "indices": "誰 ですか 粗大ごみ[02]~ なんて[01] 言う{いう} 人(ひと) は",
+    "vocabIds": [
+      "1397030",
+      "1416830",
+      "1580640"
+    ],
+    "matches": {
+      "1397030": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "そだいごみ"
+        }
+      ],
+      "1416830": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "だれ"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 16,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3447242",
+    "original": "粗大ごみの回収なら当社にお任せください。どこよりも安く迅速に対応いたします。",
+    "en": [
+      {
+        "id": "10126831",
+        "text": "If you need large-sized garbage collection, then you can rely on our company. We will deal with it cheaply, and at a higher speed than anywhere else."
+      }
+    ],
+    "vocabIds": [
+      "1467150",
+      "1397030",
+      "1199470",
+      "1449100",
+      "1153670",
+      "1370160",
+      "1409840"
+    ],
+    "matches": {
+      "1153670": [
+        {
+          "start": 25,
+          "length": 2,
+          "reading": "やすく"
+        }
+      ],
+      "1199470": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "かいしゅう"
+        }
+      ],
+      "1370160": [
+        {
+          "start": 27,
+          "length": 2,
+          "reading": "じんそく"
+        }
+      ],
+      "1397030": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "そだいごみ"
+        }
+      ],
+      "1409840": [
+        {
+          "start": 30,
+          "length": 2,
+          "reading": "たいおう"
+        }
+      ],
+      "1449100": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "とうしゃ"
+        }
+      ],
+      "1467150": [
+        {
+          "start": 13,
+          "length": 6,
+          "reading": "まかせください"
+        }
+      ]
+    }
+  }
+]

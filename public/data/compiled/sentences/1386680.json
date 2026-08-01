@@ -1,0 +1,126 @@
+[
+  {
+    "id": "74687",
+    "original": "雪道でアクシデントがなかったら、無事に帰って来れると思います。",
+    "en": [
+      {
+        "id": "329032",
+        "text": "If you don't have an accident on the snowy roads I think you should be able to get back safely."
+      }
+    ],
+    "indices": "雪道 で(#2028980) アクシデント~ が 無い{なかったら} 無事{無事に} 帰る{帰って} 来る(くる)[01]{来れる} と 思う{思います}",
+    "vocabIds": [
+      "1589350",
+      "1530040",
+      "1221270",
+      "1386680"
+    ],
+    "matches": {
+      "1221270": [
+        {
+          "start": 19,
+          "length": 3,
+          "reading": "かえって"
+        }
+      ],
+      "1386680": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ゆきどう"
+        }
+      ],
+      "1530040": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "ぶじに"
+        }
+      ],
+      "1589350": [
+        {
+          "start": 26,
+          "length": 4,
+          "reading": "おもいます"
+        }
+      ]
+    }
+  },
+  {
+    "id": "141958",
+    "original": "雪道で急ハンドルを切っちゃだめだよ。スリップしちゃうから。",
+    "en": [
+      {
+        "id": "272612",
+        "text": "If you whip the steering wheel around like that on a snowy road, the car is going to go into a slide."
+      }
+    ],
+    "indices": "雪道~ で(#2028980) 急(きゅう)[03] ハンドル[02] を 切る[13]{切っちゃ} 駄目{だめ} だ よ スリップ[01]~ 為る(する){し} じゃう{ちゃう} から",
+    "vocabIds": [
+      "2620670",
+      "1384830",
+      "1386680"
+    ],
+    "matches": {
+      "1384830": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "きっちゃ"
+        }
+      ],
+      "1386680": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ゆきどう"
+        }
+      ],
+      "2620670": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "きゅうはんどる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "13165129",
+    "original": "雪道の運転には慣れてないんだ。",
+    "en": [
+      {
+        "id": "5189217",
+        "text": "I'm not used to driving in the snow."
+      }
+    ],
+    "vocabIds": [
+      "1212670",
+      "1386680",
+      "1172830"
+    ],
+    "matches": {
+      "1172830": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "うんてん"
+        }
+      ],
+      "1212670": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "なれてない"
+        }
+      ],
+      "1386680": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ゆきどう"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,217 @@
+[
+  {
+    "id": "236802",
+    "original": "すみませんが胡椒をとって下さいませんか。",
+    "en": [
+      {
+        "id": "51425",
+        "text": "May I trouble you to pass me the pepper?"
+      },
+      {
+        "id": "518551",
+        "text": "Could you please pass me the pepper?"
+      },
+      {
+        "id": "1056331",
+        "text": "Could you pass me the pepper, please?"
+      }
+    ],
+    "indices": "済みません{すみません} が 胡椒 を 取る{とって} 下さる{下さいません} か",
+    "vocabIds": [
+      "1184280",
+      "1267600"
+    ],
+    "matches": {
+      "1184280": [
+        {
+          "start": 12,
+          "length": 6,
+          "reading": "くださいません"
+        }
+      ],
+      "1267600": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "こしょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "497421",
+    "original": "すみませんが塩と胡椒をこちらに回して下さい。",
+    "en": [
+      {
+        "id": "499445",
+        "text": "Excuse me, could you pass me the salt and pepper?"
+      }
+    ],
+    "vocabIds": [
+      "1199350",
+      "1267600",
+      "1576630"
+    ],
+    "matches": {
+      "1199350": [
+        {
+          "start": 15,
+          "length": 6,
+          "reading": "まわしてください"
+        }
+      ],
+      "1267600": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "こしょう"
+        }
+      ],
+      "1576630": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "しお"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10388960",
+    "original": "もう少し胡椒を入れて。",
+    "en": [
+      {
+        "id": "31307",
+        "text": "Add a little more pepper."
+      }
+    ],
+    "vocabIds": [
+      "2005870",
+      "1465610",
+      "1267600"
+    ],
+    "matches": {
+      "1267600": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "こしょう"
+        }
+      ],
+      "1465610": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "いれて"
+        }
+      ],
+      "2005870": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "もうすこし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10388986",
+    "original": "もうちょっと胡椒を加えて。",
+    "en": [
+      {
+        "id": "31307",
+        "text": "Add a little more pepper."
+      }
+    ],
+    "vocabIds": [
+      "1189960",
+      "1267600"
+    ],
+    "matches": {
+      "1189960": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "くわえて"
+        }
+      ],
+      "1267600": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "こしょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11582852",
+    "original": "塩・胡椒で味を調え、ナツメグを一つまみ加えましょう。",
+    "en": [
+      {
+        "id": "10782330",
+        "text": "Season with salt and pepper and add a pinch of nutmeg."
+      }
+    ],
+    "vocabIds": [
+      "1189960",
+      "1376140",
+      "1267600",
+      "1576630",
+      "1526960",
+      "1160790",
+      "1160820"
+    ],
+    "matches": {
+      "1160790": [
+        {
+          "start": 15,
+          "length": 1,
+          "reading": "いち"
+        }
+      ],
+      "1160820": [
+        {
+          "start": 15,
+          "length": 1,
+          "reading": "いち"
+        }
+      ],
+      "1189960": [
+        {
+          "start": 19,
+          "length": 6,
+          "reading": "くわえましょう"
+        }
+      ],
+      "1267600": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "こしょう"
+        }
+      ],
+      "1376140": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ととのえ"
+        }
+      ],
+      "1526960": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "あじ"
+        }
+      ],
+      "1576630": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "しお"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "id": "150087",
+    "original": "自然食品は体によい。",
+    "en": [
+      {
+        "id": "264470",
+        "text": "Natural food will do you good."
+      }
+    ],
+    "indices": "自然食品~ は 体(からだ) に 良い{よい}",
+    "vocabIds": [
+      "1726700",
+      "2864377"
+    ],
+    "matches": {
+      "1726700": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "しぜんしょくひん"
+        }
+      ],
+      "2864377": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "からだによい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "150088",
+    "original": "自然食品がつねに消化にいいとは限らない。",
+    "en": [
+      {
+        "id": "264469",
+        "text": "Natural food is not always good for our digestion."
+      }
+    ],
+    "indices": "自然食品 が 常に{つねに} 消化 に いい(#2820690)[01] とは限らない",
+    "vocabIds": [
+      "2070730",
+      "1726700",
+      "1350140"
+    ],
+    "matches": {
+      "1350140": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "しょうか"
+        }
+      ],
+      "1726700": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "しぜんしょくひん"
+        }
+      ],
+      "2070730": [
+        {
+          "start": 13,
+          "length": 6,
+          "reading": "とはかぎらない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "4587160",
+    "original": "この食料品店は自然食品のみを売っている。",
+    "en": [
+      {
+        "id": "4190431",
+        "text": "This grocery store only sells organic food."
+      }
+    ],
+    "vocabIds": [
+      "1473950",
+      "1650990",
+      "1726700"
+    ],
+    "matches": {
+      "1473950": [
+        {
+          "start": 14,
+          "length": 5,
+          "reading": "うっている"
+        }
+      ],
+      "1650990": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "しょくりょうひんてん"
+        }
+      ],
+      "1726700": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "しぜんしょくひん"
+        }
+      ]
+    }
+  }
+]

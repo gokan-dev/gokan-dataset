@@ -1,0 +1,287 @@
+[
+  {
+    "id": "4975",
+    "original": "往復旅行？片道だけです。",
+    "en": [
+      {
+        "id": "1569",
+        "text": "Round trip? Only one-way."
+      }
+    ],
+    "vocabIds": [
+      "1179760",
+      "1553170",
+      "1511760"
+    ],
+    "matches": {
+      "1179760": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おうふく"
+        }
+      ],
+      "1511760": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "かたみち"
+        }
+      ],
+      "1553170": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "りょこう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "81755",
+    "original": "僕は片道だけ歩いていった。",
+    "en": [
+      {
+        "id": "321961",
+        "text": "I went on foot only one way."
+      }
+    ],
+    "indices": "僕(ぼく)[01] は 片道 丈(だけ){だけ} 歩く{歩いて} 行く[01]{いった}",
+    "vocabIds": [
+      "1514320",
+      "1511760",
+      "1521400",
+      "2228300"
+    ],
+    "matches": {
+      "1511760": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "かたみち"
+        }
+      ],
+      "1514320": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "あるいていった"
+        }
+      ],
+      "1521400": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ],
+      "2228300": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "188543",
+    "original": "往復ですか、片道ですか。",
+    "en": [
+      {
+        "id": "25688",
+        "text": "Round trip or one-way?"
+      }
+    ],
+    "indices": "往復~ ですか 片道 ですか",
+    "vocabIds": [
+      "1179760",
+      "1511760"
+    ],
+    "matches": {
+      "1179760": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おうふく"
+        }
+      ],
+      "1511760": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "かたみち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "189469",
+    "original": "運賃は片道1ドルです。",
+    "en": [
+      {
+        "id": "26621",
+        "text": "The fare is one dollar each way."
+      }
+    ],
+    "indices": "運賃~ は 片道~ 弗[01]{ドル} です",
+    "vocabIds": [
+      "1172820",
+      "1511760"
+    ],
+    "matches": {
+      "1172820": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "うんちん"
+        }
+      ],
+      "1511760": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かたみち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "234873",
+    "original": "Ａ市からＢ市までのチケット、片道２まいください。",
+    "en": [
+      {
+        "id": "72250",
+        "text": "I'd like two one-way tickets from A to B."
+      }
+    ],
+    "indices": "市(し) から 市(し) 迄{まで} の チケット 片道 二枚{２まい}~ 下さい[02]{ください}",
+    "vocabIds": [
+      "1511760",
+      "1308090",
+      "1461140"
+    ],
+    "matches": {
+      "1308090": [
+        {
+          "start": 1,
+          "length": 1,
+          "reading": "し"
+        },
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "し"
+        }
+      ],
+      "1461140": [
+        {
+          "start": 16,
+          "length": 1,
+          "reading": "に"
+        }
+      ],
+      "1511760": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "かたみち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12344334",
+    "original": "「片道ですか？往復ですか？」「片道をお願いします」",
+    "en": [
+      {
+        "id": "10012893",
+        "text": "\"Single or return?\" \"Single, please.\""
+      },
+      {
+        "id": "1655645",
+        "text": "\"One way or round trip?\" \"One way, please.\""
+      }
+    ],
+    "vocabIds": [
+      "1001720",
+      "1511760",
+      "1179760"
+    ],
+    "matches": {
+      "1001720": [
+        {
+          "start": 18,
+          "length": 6,
+          "reading": "おねがいします"
+        }
+      ],
+      "1179760": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "おうふく"
+        }
+      ],
+      "1511760": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "かたみち"
+        },
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "かたみち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12344337",
+    "original": "「片道ですか？往復ですか？」「片道でお願いします」",
+    "en": [
+      {
+        "id": "10012893",
+        "text": "\"Single or return?\" \"Single, please.\""
+      },
+      {
+        "id": "1655645",
+        "text": "\"One way or round trip?\" \"One way, please.\""
+      }
+    ],
+    "vocabIds": [
+      "1001720",
+      "1511760",
+      "1179760"
+    ],
+    "matches": {
+      "1001720": [
+        {
+          "start": 18,
+          "length": 6,
+          "reading": "おねがいします"
+        }
+      ],
+      "1179760": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "おうふく"
+        }
+      ],
+      "1511760": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "かたみち"
+        },
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "かたみち"
+        }
+      ]
+    }
+  }
+]

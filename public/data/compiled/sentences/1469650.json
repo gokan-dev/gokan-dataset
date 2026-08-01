@@ -1,0 +1,577 @@
+[
+  {
+    "id": "221423",
+    "original": "この車の燃費はどれくらいですか。",
+    "en": [
+      {
+        "id": "58747",
+        "text": "What is the fuel mileage of this car?"
+      }
+    ],
+    "indices": "此の{この} 車(くるま) の 燃費 は 何れくらい{どれくらい} ですか",
+    "vocabIds": [
+      "1469650",
+      "1323080"
+    ],
+    "matches": {
+      "1323080": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1469650": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ねんぴ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "221424",
+    "original": "この車の燃費はどれくらい？",
+    "en": [
+      {
+        "id": "58748",
+        "text": "What mileage do you get with this car?"
+      }
+    ],
+    "indices": "此の{この} 車(くるま) の 燃費 は 何れくらい{どれくらい}",
+    "vocabIds": [
+      "1469650",
+      "1323080"
+    ],
+    "matches": {
+      "1323080": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1469650": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ねんぴ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "233219",
+    "original": "あなたの車は本当に燃費が悪いんですね。",
+    "en": [
+      {
+        "id": "70590",
+        "text": "This car of yours is a real gas guzzler."
+      }
+    ],
+    "indices": "貴方(あなた)[01]{あなた} の 車(くるま) は 本当に 燃費~ が 悪い(わるい) のです{んです} ね(#2029080)[01]",
+    "vocabIds": [
+      "1611580",
+      "1469650",
+      "1151260",
+      "1403390",
+      "2772730",
+      "1323080"
+    ],
+    "matches": {
+      "1151260": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "わるい"
+        }
+      ],
+      "1323080": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1403390": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "わるい"
+        }
+      ],
+      "1469650": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "ねんぴ"
+        }
+      ],
+      "1611580": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "ほんとうに"
+        }
+      ],
+      "2772730": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "わるい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10334492",
+    "original": "トムって燃費の悪い車に乗ってるんだよ。",
+    "en": [
+      {
+        "id": "10333415",
+        "text": "Tom drives a gas guzzler."
+      }
+    ],
+    "vocabIds": [
+      "1355120",
+      "1469650",
+      "1151260",
+      "1403390",
+      "2772730",
+      "1323080"
+    ],
+    "matches": {
+      "1151260": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "わるい"
+        }
+      ],
+      "1323080": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1355120": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "のってる"
+        }
+      ],
+      "1403390": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "わるい"
+        }
+      ],
+      "1469650": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ねんぴ"
+        }
+      ],
+      "2772730": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "わるい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11637393",
+    "original": "この車は燃費が悪い。",
+    "en": [
+      {
+        "id": "11637435",
+        "text": "This car gets bad gas mileage."
+      }
+    ],
+    "vocabIds": [
+      "1469650",
+      "1151260",
+      "1403390",
+      "2772730",
+      "1323080"
+    ],
+    "matches": {
+      "1151260": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "わるい"
+        }
+      ],
+      "1323080": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1403390": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "わるい"
+        }
+      ],
+      "1469650": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ねんぴ"
+        }
+      ],
+      "2772730": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "わるい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11637542",
+    "original": "この車、燃費がいいね。",
+    "en": [
+      {
+        "id": "4915855",
+        "text": "This car gets good gas mileage."
+      }
+    ],
+    "vocabIds": [
+      "1469650",
+      "1323080"
+    ],
+    "matches": {
+      "1323080": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1469650": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ねんぴ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11637550",
+    "original": "私の車、かなり燃費がいいのよ。",
+    "en": [
+      {
+        "id": "3017152",
+        "text": "My car gets pretty good gas mileage."
+      }
+    ],
+    "vocabIds": [
+      "1469650",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1323080"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1323080": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1469650": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ねんぴ"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11637560",
+    "original": "新しい車ね、前のより燃費がいいのよ。",
+    "en": [
+      {
+        "id": "10597664",
+        "text": "My new car gets better gas mileage than my old one."
+      }
+    ],
+    "vocabIds": [
+      "1361490",
+      "1469650",
+      "1323080",
+      "1387210",
+      "1392580"
+    ],
+    "matches": {
+      "1323080": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1361490": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あたらしい"
+        }
+      ],
+      "1387210": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "まえ"
+        }
+      ],
+      "1392580": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "まえ"
+        }
+      ],
+      "1469650": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "ねんぴ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11637874",
+    "original": "僕の車、結構燃費がいいんだ。",
+    "en": [
+      {
+        "id": "3017152",
+        "text": "My car gets pretty good gas mileage."
+      }
+    ],
+    "vocabIds": [
+      "1254760",
+      "1469650",
+      "1521400",
+      "2228300",
+      "1323080"
+    ],
+    "matches": {
+      "1254760": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "けっこう"
+        }
+      ],
+      "1323080": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1469650": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ねんぴ"
+        }
+      ],
+      "1521400": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ],
+      "2228300": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11638268",
+    "original": "普通、4駆は小型車よりかなり燃費が落ちるでしょう。",
+    "en": [
+      {
+        "id": "8985318",
+        "text": "A four-by-four will usually have much worse gas mileage than a compact."
+      }
+    ],
+    "vocabIds": [
+      "1548550",
+      "2011310",
+      "1497190",
+      "1469650",
+      "1244840"
+    ],
+    "matches": {
+      "1244840": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "か"
+        }
+      ],
+      "1469650": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "ねんぴ"
+        }
+      ],
+      "1497190": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ふつう"
+        }
+      ],
+      "1548550": [
+        {
+          "start": 17,
+          "length": 7,
+          "reading": "おちるでしょう"
+        }
+      ],
+      "2011310": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "こがたしゃ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11638270",
+    "original": "通常、4WDはコンパクトカーより燃費がかなり悪くなるでしょう。",
+    "en": [
+      {
+        "id": "8985318",
+        "text": "A four-by-four will usually have much worse gas mileage than a compact."
+      },
+      {
+        "id": "12381054",
+        "text": "Generally, a 4WD vehicle gets much worse gas mileage than a compact car."
+      }
+    ],
+    "vocabIds": [
+      "2691760",
+      "1433280",
+      "1469650"
+    ],
+    "matches": {
+      "1433280": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "つうじょう"
+        }
+      ],
+      "1469650": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "ねんぴ"
+        }
+      ],
+      "2691760": [
+        {
+          "start": 22,
+          "length": 4,
+          "reading": "わるくなる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11637875",
+    "original": "新しい車ね、この間のより燃費がいいのよ。",
+    "en": [
+      {
+        "id": "11827847",
+        "text": "My new car gets much better mileage than the old one."
+      }
+    ],
+    "vocabIds": [
+      "1361490",
+      "1004690",
+      "1469650",
+      "1323080"
+    ],
+    "matches": {
+      "1004690": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "このかん"
+        }
+      ],
+      "1323080": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1361490": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あたらしい"
+        }
+      ],
+      "1469650": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "ねんぴ"
+        }
+      ]
+    }
+  }
+]

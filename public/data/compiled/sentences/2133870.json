@@ -1,0 +1,88 @@
+[
+  {
+    "id": "123192",
+    "original": "難民キャンプの衛生状態はひどいものだった。",
+    "en": [
+      {
+        "id": "280808",
+        "text": "Sanitary conditions in the refugee camps were terrible."
+      }
+    ],
+    "indices": "難民 キャンプ の 衛生状態~ は 酷い(ひどい){ひどい} 物(もの)[02]{もの} だ{だった}",
+    "vocabIds": [
+      "2133870",
+      "1930690"
+    ],
+    "matches": {
+      "1930690": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "えいせいじょうたい"
+        }
+      ],
+      "2133870": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "なんみん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "123193",
+    "original": "難民キャンプでの死亡の主な原因は栄養不足である。",
+    "en": [
+      {
+        "id": "280807",
+        "text": "The principal cause of death in refugee camps is the lack of nourishment."
+      }
+    ],
+    "indices": "難民 キャンプ で(#2028980) の 死亡 の 主(おも){主な} 原因 は 栄養不足 である",
+    "vocabIds": [
+      "2133870",
+      "1174050",
+      "1310950",
+      "2272810",
+      "1261190"
+    ],
+    "matches": {
+      "1174050": [
+        {
+          "start": 16,
+          "length": 4,
+          "reading": "えいようふそく"
+        }
+      ],
+      "1261190": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "げんいん"
+        }
+      ],
+      "1310950": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "しぼう"
+        }
+      ],
+      "2133870": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "なんみん"
+        }
+      ],
+      "2272810": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "おもな"
+        }
+      ]
+    }
+  }
+]

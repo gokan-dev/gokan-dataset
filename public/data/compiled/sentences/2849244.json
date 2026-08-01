@@ -1,0 +1,72 @@
+[
+  {
+    "id": "189360",
+    "original": "雲を掴むような話だな。",
+    "en": [
+      {
+        "id": "26509",
+        "text": "What you are saying doesn't make sense."
+      },
+      {
+        "id": "17199",
+        "text": "What you are saying does not make sense."
+      },
+      {
+        "id": "10276600",
+        "text": "What you're saying doesn't make sense."
+      }
+    ],
+    "indices": "雲 を 掴む 様な{ような} 話(はなし) だ な",
+    "vocabIds": [
+      "2849244",
+      "1600900"
+    ],
+    "matches": {
+      "1600900": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "はなし"
+        }
+      ],
+      "2849244": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "くもをつかむよう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "205328",
+    "original": "それは雲をつかむような話だ。",
+    "en": [
+      {
+        "id": "1238297",
+        "text": "It's a vague story."
+      }
+    ],
+    "indices": "其れ[01]{それ} は 雲 を 掴む{つかむ} 様な{ような} 話(はなし)[01] だ",
+    "vocabIds": [
+      "2849244",
+      "1600900"
+    ],
+    "matches": {
+      "1600900": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "はなし"
+        }
+      ],
+      "2849244": [
+        {
+          "start": 3,
+          "length": 7,
+          "reading": "くもをつかむよう"
+        }
+      ]
+    }
+  }
+]

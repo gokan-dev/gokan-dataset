@@ -1,0 +1,64 @@
+[
+  {
+    "id": "214216",
+    "original": "スミス夫人は喪服を着ている。",
+    "en": [
+      {
+        "id": "51509",
+        "text": "Mrs. Smith is in black."
+      }
+    ],
+    "indices": "夫人 は 喪服~ を 着る[01]{着ている}",
+    "vocabIds": [
+      "1423000",
+      "1496540",
+      "1399340"
+    ],
+    "matches": {
+      "1399340": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "もふく"
+        }
+      ],
+      "1423000": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "きている"
+        }
+      ],
+      "1496540": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ふじん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "225530",
+    "original": "喪服をクリーニングに出せますか？",
+    "en": [
+      {
+        "id": "62866",
+        "text": "Is it possible to send mourning clothes to the cleaner?"
+      }
+    ],
+    "indices": "喪服 を クリーニング に 出す[05]{出せます} か",
+    "vocabIds": [
+      "1399340"
+    ],
+    "matches": {
+      "1399340": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "もふく"
+        }
+      ]
+    }
+  }
+]

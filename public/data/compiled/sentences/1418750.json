@@ -1,0 +1,64 @@
+[
+  {
+    "id": "226351",
+    "original": "カッコ内の言葉を短縮形にしなさい。",
+    "en": [
+      {
+        "id": "63692",
+        "text": "Put the words in parentheses into abbreviated form."
+      }
+    ],
+    "indices": "括弧{カッコ}~ 内(ない) の 言葉[02] を 短縮形 に 為る(する){し} 為さい{なさい}",
+    "vocabIds": [
+      "2595860",
+      "1418750",
+      "1264540"
+    ],
+    "matches": {
+      "1264540": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ことば"
+        }
+      ],
+      "1418750": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "たんしゅくがた"
+        }
+      ],
+      "2595860": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "かっこない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "234855",
+    "original": "Ｄｏｃはｄｏｃｔｏｒの短縮形である。",
+    "en": [
+      {
+        "id": "72233",
+        "text": "\"Doc\" is an abbreviation of \"doctor\"."
+      }
+    ],
+    "indices": "は の 短縮形~ である",
+    "vocabIds": [
+      "1418750"
+    ],
+    "matches": {
+      "1418750": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "たんしゅくがた"
+        }
+      ]
+    }
+  }
+]

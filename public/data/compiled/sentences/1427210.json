@@ -1,0 +1,127 @@
+[
+  {
+    "id": "207791",
+    "original": "その町は山の貯水池から水を供給されている。",
+    "en": [
+      {
+        "id": "45045",
+        "text": "The town is supplied with water from a reservoir in the hills."
+      }
+    ],
+    "indices": "其の[01]{その} 町(まち) は 山(やま)[01] の 貯水池~ から 水(みず) を 供給 為れる{されている}",
+    "vocabIds": [
+      "1427210",
+      "1233630",
+      "1603990",
+      "1302680",
+      "1371260"
+    ],
+    "matches": {
+      "1233630": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "きょうきゅう"
+        }
+      ],
+      "1302680": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "やま"
+        }
+      ],
+      "1371260": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "みず"
+        }
+      ],
+      "1427210": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "ちょすいち"
+        }
+      ],
+      "1603990": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "まち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11529715",
+    "original": "家の近くに貯水池があります。",
+    "en": [
+      {
+        "id": "10215820",
+        "text": "Near where I live is a reservoir."
+      },
+      {
+        "id": "10215819",
+        "text": "There's a reservoir near where I live."
+      },
+      {
+        "id": "12460844",
+        "text": "There is a reservoir near my house."
+      }
+    ],
+    "vocabIds": [
+      "1427210",
+      "1242160",
+      "1191730",
+      "2098290",
+      "2082160",
+      "2220300"
+    ],
+    "matches": {
+      "1191730": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ],
+      "1242160": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ちかく"
+        }
+      ],
+      "1427210": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "ちょすいち"
+        }
+      ],
+      "2082160": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ],
+      "2098290": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ],
+      "2220300": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ]
+    }
+  }
+]

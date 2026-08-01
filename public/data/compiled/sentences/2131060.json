@@ -1,0 +1,85 @@
+[
+  {
+    "id": "141464",
+    "original": "先日三日ばしかにかかりました。",
+    "en": [
+      {
+        "id": "273106",
+        "text": "He had three-day measles the other day."
+      }
+    ],
+    "indices": "先日 三日ばしか~ に 罹る{かかりました}",
+    "vocabIds": [
+      "2131060",
+      "1388300"
+    ],
+    "matches": {
+      "1388300": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "せんじつ"
+        }
+      ],
+      "2131060": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "さんにちばしか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1106413",
+    "original": "この間、三日ばしかにかかりました。",
+    "en": [
+      {
+        "id": "273106",
+        "text": "He had three-day measles the other day."
+      }
+    ],
+    "vocabIds": [
+      "2131060",
+      "1004690"
+    ],
+    "matches": {
+      "1004690": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "このかん"
+        }
+      ],
+      "2131060": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "さんにちばしか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1106414",
+    "original": "こないだ三日ばしかにかかりました。",
+    "en": [
+      {
+        "id": "273106",
+        "text": "He had three-day measles the other day."
+      }
+    ],
+    "vocabIds": [
+      "2131060"
+    ],
+    "matches": {
+      "2131060": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "さんにちばしか"
+        }
+      ]
+    }
+  }
+]

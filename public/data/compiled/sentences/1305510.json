@@ -1,0 +1,92 @@
+[
+  {
+    "id": "219901",
+    "original": "この文章はそう解釈するよりほかに解釈の仕様がない。",
+    "en": [
+      {
+        "id": "57221",
+        "text": "The passage admits of no other interpretation."
+      }
+    ],
+    "indices": "此の{この} 文章[01] は 然う[01]{そう} 解釈 為る(する){する} より[04] 他に{ほかに} 解釈 の 仕様が無い[01]{仕様がない}",
+    "vocabIds": [
+      "1305510",
+      "1505470",
+      "1199010"
+    ],
+    "matches": {
+      "1199010": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "かいしゃく"
+        },
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "かいしゃく"
+        }
+      ],
+      "1305510": [
+        {
+          "start": 19,
+          "length": 5,
+          "reading": "しようがない"
+        }
+      ],
+      "1505470": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ぶんしょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10202885",
+    "original": "運転しなかったら、車持ってても仕様がないでしょ？",
+    "en": [
+      {
+        "id": "265603",
+        "text": "What's the good of having a car if you don't drive?"
+      }
+    ],
+    "vocabIds": [
+      "1305510",
+      "1315720",
+      "1172830",
+      "1323080"
+    ],
+    "matches": {
+      "1172830": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "うんてん"
+        }
+      ],
+      "1305510": [
+        {
+          "start": 15,
+          "length": 5,
+          "reading": "しようがない"
+        }
+      ],
+      "1315720": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "もってて"
+        }
+      ],
+      "1323080": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ]
+    }
+  }
+]

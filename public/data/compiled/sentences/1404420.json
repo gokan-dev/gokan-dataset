@@ -1,0 +1,599 @@
+[
+  {
+    "id": "90543",
+    "original": "彼女は丘を登り下りして息切れがした。",
+    "en": [
+      {
+        "id": "313169",
+        "text": "She was out of breath from walking up and down hills."
+      }
+    ],
+    "indices": "彼女[01] は 丘(おか) を 登り下り 為る(する){して} 息切れ[01] が 為る(する){した}",
+    "vocabIds": [
+      "1352520",
+      "1404420",
+      "1483150",
+      "1588920",
+      "2251090"
+    ],
+    "matches": {
+      "1352520": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "のぼりくだり"
+        }
+      ],
+      "1404420": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "いきぎれ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1588920": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "おか"
+        }
+      ],
+      "2251090": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "おか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "102697",
+    "original": "彼は息切れしていた。ずっと走っていたから。",
+    "en": [
+      {
+        "id": "300997",
+        "text": "He was out of breath. He had been running."
+      },
+      {
+        "id": "401704",
+        "text": "He was out of breath because he had been running."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 息切れ[01] 為る(する){していた} ずっと 走る{走っていた} から",
+    "vocabIds": [
+      "1402540",
+      "1404420",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1402540": [
+        {
+          "start": 13,
+          "length": 7,
+          "reading": "はしっていたから"
+        }
+      ],
+      "1404420": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "いきぎれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "102698",
+    "original": "彼は息切れしていた。",
+    "en": [
+      {
+        "id": "300996",
+        "text": "He was out of breath."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 息切れ[01] 為る(する){していた}",
+    "vocabIds": [
+      "1404420",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1404420": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "いきぎれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "139895",
+    "original": "息切れがします。",
+    "en": [
+      {
+        "id": "274454",
+        "text": "I get out of breath."
+      }
+    ],
+    "indices": "息切れ[01] が 為る(する){します}",
+    "vocabIds": [
+      "1404420"
+    ],
+    "matches": {
+      "1404420": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "いきぎれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "147567",
+    "original": "初めから意気込みすぎると、途中で息切れするぞ。",
+    "en": [
+      {
+        "id": "266993",
+        "text": "You have to pace yourself or you'll choke halfway through."
+      }
+    ],
+    "indices": "初め(はじめ) から 意気込む{意気込み}~ 過ぎる(すぎる){すぎる} と 途中 で(#2028980) 息切れ[01] 為る(する){する} ぞ",
+    "vocabIds": [
+      "1156450",
+      "1307510",
+      "1404420",
+      "1582200"
+    ],
+    "matches": {
+      "1156450": [
+        {
+          "start": 4,
+          "length": 8,
+          "reading": "いきごみすぎると"
+        }
+      ],
+      "1307510": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "はじめから"
+        }
+      ],
+      "1404420": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "いきぎれ"
+        }
+      ],
+      "1582200": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "とちゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "157702",
+    "original": "私は丘を登り下りして息切れがした。",
+    "en": [
+      {
+        "id": "256829",
+        "text": "I was out of breath from walking up and down hills."
+      }
+    ],
+    "indices": "私(わたし)[01] は 丘(おか) を 登り下り~ 為る(する){して} 息切れ[01] が 為る(する){した}",
+    "vocabIds": [
+      "1352520",
+      "1404420",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1588920",
+      "2251090"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1352520": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "のぼりくだり"
+        }
+      ],
+      "1404420": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "いきぎれ"
+        }
+      ],
+      "1588920": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "おか"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2251090": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "おか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "172482",
+    "original": "今学期は本当に息切れした感じだわ。",
+    "en": [
+      {
+        "id": "241993",
+        "text": "I seem to have run out of steam this term."
+      }
+    ],
+    "indices": "今(こん)[01] 学期 は 本当に 息切れ[02]~ 為る(する){した} 感じ だ わ",
+    "vocabIds": [
+      "1611580",
+      "1404420",
+      "1206650",
+      "1212250",
+      "1288850"
+    ],
+    "matches": {
+      "1206650": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "がっき"
+        }
+      ],
+      "1212250": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "かんじ"
+        }
+      ],
+      "1288850": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "こん"
+        }
+      ],
+      "1404420": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "いきぎれ"
+        }
+      ],
+      "1611580": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "ほんとうに"
+        }
+      ]
+    }
+  },
+  {
+    "id": "182724",
+    "original": "丘を駆け登った後、私は完全に息切れしていた。",
+    "en": [
+      {
+        "id": "19851",
+        "text": "After running up the hill, I was completely out of breath."
+      }
+    ],
+    "indices": "丘(おか) を 駆け登る{駆け登った} 後(あと)[02] 私(わたし)[01] は 完全{完全に} 息切れ[01] 為る(する){していた}",
+    "vocabIds": [
+      "1404420",
+      "1352570",
+      "1244720",
+      "1570710",
+      "1211510",
+      "1588920",
+      "2251090",
+      "1269320",
+      "1269410",
+      "1270100",
+      "1358760",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1211510": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "かんぜん"
+        }
+      ],
+      "1244720": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "かけ"
+        }
+      ],
+      "1269320": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "のち"
+        }
+      ],
+      "1269410": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "のち"
+        }
+      ],
+      "1270100": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "のち"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1352570": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "のぼった"
+        }
+      ],
+      "1358760": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "のち"
+        }
+      ],
+      "1404420": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "いきぎれ"
+        }
+      ],
+      "1570710": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "かけ"
+        }
+      ],
+      "1588920": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "おか"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2251090": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "おか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "235098",
+    "original": "５分と走らないうちに息切れしてしまった。",
+    "en": [
+      {
+        "id": "72476",
+        "text": "I had not run five minutes when I got out of breath."
+      }
+    ],
+    "indices": "分(ふん) と 走る[01]{走ら} ない内に{ないうちに} 息切れ[01]~ 為る(する){して} 仕舞う{しまった}",
+    "vocabIds": [
+      "1402540",
+      "1404420",
+      "2039350"
+    ],
+    "matches": {
+      "1402540": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "はしらない"
+        }
+      ],
+      "1404420": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "いきぎれ"
+        }
+      ],
+      "2039350": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ごふん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8785943",
+    "original": "もう息切れしてるの？",
+    "en": [
+      {
+        "id": "5733219",
+        "text": "Are you already out of breath?"
+      }
+    ],
+    "vocabIds": [
+      "1404420"
+    ],
+    "matches": {
+      "1404420": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "いきぎれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9858913",
+    "original": "歩くと息切れしやすいですか？",
+    "en": [
+      {
+        "id": "9853833",
+        "text": "Do you get short of breath easily when walking?"
+      }
+    ],
+    "vocabIds": [
+      "1404420",
+      "1514320"
+    ],
+    "matches": {
+      "1404420": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "いきぎれ"
+        }
+      ],
+      "1514320": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あるく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9870226",
+    "original": "最近、息切れを感じたことはありますか？",
+    "en": [
+      {
+        "id": "9849459",
+        "text": "Have you experienced shortness of breath recently?"
+      }
+    ],
+    "vocabIds": [
+      "1404420",
+      "1212260",
+      "1293780"
+    ],
+    "matches": {
+      "1212260": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "かんじた"
+        }
+      ],
+      "1293780": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "さいきん"
+        }
+      ],
+      "1404420": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "いきぎれ"
+        }
+      ]
+    }
+  }
+]

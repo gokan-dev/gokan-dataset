@@ -1,0 +1,149 @@
+[
+  {
+    "id": "175414",
+    "original": "喧嘩を見ようと、野次馬が集まった。",
+    "en": [
+      {
+        "id": "239051",
+        "text": "A crowd collected to watch the fight."
+      }
+    ],
+    "indices": "喧嘩 を 見る{見よう} と 野次馬~ が 集まる{集まった}",
+    "vocabIds": [
+      "1333550",
+      "1259290",
+      "1711930",
+      "1257040"
+    ],
+    "matches": {
+      "1257040": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "けんか"
+        }
+      ],
+      "1259290": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "みようと"
+        }
+      ],
+      "1333550": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "あつまった"
+        }
+      ],
+      "1711930": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "やじうま"
+        }
+      ]
+    }
+  },
+  {
+    "id": "186660",
+    "original": "火事場はやじ馬で大変だった。",
+    "en": [
+      {
+        "id": "23796",
+        "text": "A big crowd gathered at the scene of the fire."
+      }
+    ],
+    "indices": "火事場~ は 野次馬{やじ馬} で(#2028980) 大変 だ{だった}",
+    "vocabIds": [
+      "1724420",
+      "1711930",
+      "1415000"
+    ],
+    "matches": {
+      "1415000": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "たいへん"
+        }
+      ],
+      "1711930": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "やじうま"
+        }
+      ],
+      "1724420": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "かじば"
+        }
+      ]
+    }
+  },
+  {
+    "id": "193105",
+    "original": "やじ馬はやめろ。",
+    "en": [
+      {
+        "id": "30269",
+        "text": "Don't be a busybody."
+      }
+    ],
+    "indices": "野次馬{やじ馬} は 止める(やめる){やめろ}",
+    "vocabIds": [
+      "1711930"
+    ],
+    "matches": {
+      "1711930": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "やじうま"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1278759",
+    "original": "現場に野次馬が集まった。",
+    "en": [
+      {
+        "id": "237748",
+        "text": "A crowd gathered at the scene."
+      }
+    ],
+    "vocabIds": [
+      "1333550",
+      "1711930",
+      "1263760"
+    ],
+    "matches": {
+      "1263760": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "げんば"
+        }
+      ],
+      "1333550": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "あつまった"
+        }
+      ],
+      "1711930": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "やじうま"
+        }
+      ]
+    }
+  }
+]

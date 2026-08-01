@@ -1,0 +1,227 @@
+[
+  {
+    "id": "137300",
+    "original": "大麦は我国の主産物である。",
+    "en": [
+      {
+        "id": "275935",
+        "text": "Barley is our main product."
+      }
+    ],
+    "indices": "大麦~ は 我が国{我国} の 主産物~ である",
+    "vocabIds": [
+      "1325520",
+      "1414780",
+      "1606630"
+    ],
+    "matches": {
+      "1325520": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "しゅさんぶつ"
+        }
+      ],
+      "1414780": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おおむぎ"
+        }
+      ],
+      "1606630": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "わがくに"
+        }
+      ]
+    }
+  },
+  {
+    "id": "137302",
+    "original": "大麦と小麦を一目見て見分けられますか。",
+    "en": [
+      {
+        "id": "275934",
+        "text": "Can you tell barley from wheat at first sight?"
+      },
+      {
+        "id": "1190167",
+        "text": "Can you tell barley and wheat apart by just quickly looking at it?"
+      }
+    ],
+    "indices": "大麦 と 小麦 を 一目[01] 見る{見て} 見分ける[01]{見分けられます} か",
+    "vocabIds": [
+      "1260020",
+      "1414780",
+      "1348630",
+      "1166950",
+      "1259290"
+    ],
+    "matches": {
+      "1166950": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ひとめ"
+        }
+      ],
+      "1259290": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "みて"
+        }
+      ],
+      "1260020": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "みわけ"
+        }
+      ],
+      "1348630": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "こむぎ"
+        }
+      ],
+      "1414780": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おおむぎ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "177064",
+    "original": "君は大麦と小麦の区別ができますか。",
+    "en": [
+      {
+        "id": "15911",
+        "text": "Can you tell wheat from barley?"
+      }
+    ],
+    "indices": "君(きみ)[01] は 大麦 と 小麦 の 区別 が[01] 出来る{できます} か",
+    "vocabIds": [
+      "1414780",
+      "1348630",
+      "1244250",
+      "1247250"
+    ],
+    "matches": {
+      "1244250": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "くべつ"
+        }
+      ],
+      "1247250": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "きみ"
+        }
+      ],
+      "1348630": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "こむぎ"
+        }
+      ],
+      "1414780": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "おおむぎ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9171199",
+    "original": "大麦と小麦って見分けれる？",
+    "en": [
+      {
+        "id": "7352547",
+        "text": "Can you tell barley from wheat?"
+      },
+      {
+        "id": "7352545",
+        "text": "Can you distinguish barley from wheat?"
+      }
+    ],
+    "vocabIds": [
+      "1260020",
+      "1414780",
+      "1348630"
+    ],
+    "matches": {
+      "1260020": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "みわけ"
+        }
+      ],
+      "1348630": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "こむぎ"
+        }
+      ],
+      "1414780": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おおむぎ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10638372",
+    "original": "小麦と大麦の見分けってつく？",
+    "en": [
+      {
+        "id": "15911",
+        "text": "Can you tell wheat from barley?"
+      }
+    ],
+    "vocabIds": [
+      "1611860",
+      "1348630",
+      "1414780"
+    ],
+    "matches": {
+      "1348630": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こむぎ"
+        }
+      ],
+      "1414780": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "おおむぎ"
+        }
+      ],
+      "1611860": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "みわけ"
+        }
+      ]
+    }
+  }
+]

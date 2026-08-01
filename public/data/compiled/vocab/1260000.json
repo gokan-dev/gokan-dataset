@@ -1,0 +1,135 @@
+{
+  "id": "1260000",
+  "writtenForm": {
+    "kanji": "見物",
+    "alternatives": [
+      "見もの"
+    ],
+    "containedKanji": [
+      "見",
+      "物"
+    ]
+  },
+  "reading": {
+    "primary": "けんぶつ",
+    "alternatives": [
+      "みもの"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 5719,
+    "kanaRank": 103565
+  },
+  "jlptLevel": 4,
+  "progression": {
+    "kklcStep": 172
+  },
+  "senses": [
+    {
+      "pos": [
+        "n",
+        "vs",
+        "vt"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "sightseeing",
+        "watching",
+        "viewing"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "sightseer",
+        "spectator",
+        "viewer",
+        "onlooker"
+      ],
+      "related": {
+        "compounds": [
+          "見物人",
+          "見物客"
+        ]
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "sight",
+        "attraction",
+        "spectacle",
+        "something worth seeing"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "みもの"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1260000",
+      "isBase": true,
+      "originalPrimaryReading": "けんぶつ",
+      "originalGlosses": [
+        "sightseeing",
+        "watching",
+        "viewing"
+      ]
+    },
+    {
+      "id": "1715690",
+      "isBase": false,
+      "originalPrimaryReading": "みもの",
+      "originalGlosses": [
+        "sight",
+        "attraction",
+        "spectacle"
+      ]
+    }
+  ],
+  "components": [
+    "1502390"
+  ],
+  "parents": [
+    "1260010",
+    "2778630"
+  ]
+}

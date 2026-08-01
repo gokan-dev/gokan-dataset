@@ -1,0 +1,101 @@
+[
+  {
+    "id": "173726",
+    "original": "工場はフル稼動している。",
+    "en": [
+      {
+        "id": "240744",
+        "text": "The factory is running at full capacity."
+      }
+    ],
+    "indices": "工場 は フル~ 稼動[01]~ 為る(する){している}",
+    "vocabIds": [
+      "1578700",
+      "1590520"
+    ],
+    "matches": {
+      "1578700": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こうじょう"
+        }
+      ],
+      "1590520": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "かどう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10133749",
+    "original": "今はこちらの機械は稼働していないんです。",
+    "en": [
+      {
+        "id": "55243",
+        "text": "These machines aren't working now."
+      }
+    ],
+    "vocabIds": [
+      "1220810",
+      "1590520",
+      "1288850"
+    ],
+    "matches": {
+      "1220810": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "きかい"
+        }
+      ],
+      "1288850": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "いま"
+        }
+      ],
+      "1590520": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "かどう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12086420",
+    "original": "ソーラーパネルは夜間は稼働しません。",
+    "en": [
+      {
+        "id": "7955954",
+        "text": "Solar panels don't work at night."
+      }
+    ],
+    "vocabIds": [
+      "1536530",
+      "1590520"
+    ],
+    "matches": {
+      "1536530": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "やかん"
+        }
+      ],
+      "1590520": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "かどう"
+        }
+      ]
+    }
+  }
+]

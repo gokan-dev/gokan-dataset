@@ -1,0 +1,101 @@
+{
+  "id": "1548200",
+  "writtenForm": {
+    "kanji": "来日",
+    "alternatives": [],
+    "containedKanji": [
+      "来",
+      "日"
+    ]
+  },
+  "reading": {
+    "primary": "らいにち",
+    "alternatives": [
+      "らいじつ"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 26508
+  },
+  "jlptLevel": 2,
+  "progression": {
+    "kklcStep": 274
+  },
+  "senses": [
+    {
+      "pos": [
+        "n",
+        "vs",
+        "vi"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "coming to Japan",
+        "visit to Japan",
+        "arrival in Japan"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "future day",
+        "later date"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "らいじつ"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1548200",
+      "isBase": true,
+      "originalPrimaryReading": "らいにち",
+      "originalGlosses": [
+        "coming to Japan",
+        "visit to Japan",
+        "arrival in Japan"
+      ]
+    },
+    {
+      "id": "2639500",
+      "isBase": false,
+      "originalPrimaryReading": "らいじつ",
+      "originalGlosses": [
+        "future day",
+        "later date"
+      ]
+    }
+  ],
+  "components": [
+    "1547710",
+    "1463770"
+  ]
+}

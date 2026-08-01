@@ -1,0 +1,80 @@
+[
+  {
+    "id": "76543",
+    "original": "データ化して、壁紙も作ってある。",
+    "en": [
+      {
+        "id": "327177",
+        "text": "I also digitized it and made a desktop image."
+      }
+    ],
+    "indices": "データ 化する{化して}~ 壁紙[02] も 作る{作ってある}",
+    "vocabIds": [
+      "1597890",
+      "2841005",
+      "1509330"
+    ],
+    "matches": {
+      "1509330": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "かべがみ"
+        }
+      ],
+      "1597890": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "つくってある"
+        }
+      ],
+      "2841005": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "でーたか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "202248",
+    "original": "デスクトップの壁紙を犬の写真にした。",
+    "en": [
+      {
+        "id": "39460",
+        "text": "I used a photo of my dog for my desktop wallpaper."
+      }
+    ],
+    "indices": "デスクトップ[03]~ の 壁紙[02]~ を 犬 の 写真 に 為る(する){した}",
+    "vocabIds": [
+      "1509330",
+      "1321900",
+      "1258330"
+    ],
+    "matches": {
+      "1258330": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "いぬ"
+        }
+      ],
+      "1321900": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "しゃしん"
+        }
+      ],
+      "1509330": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "かべがみ"
+        }
+      ]
+    }
+  }
+]

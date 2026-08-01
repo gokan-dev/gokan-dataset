@@ -1,0 +1,80 @@
+[
+  {
+    "id": "178087",
+    "original": "君の同意が無くてはどうしようもありません。",
+    "en": [
+      {
+        "id": "16939",
+        "text": "Without your consent, nothing can be done about it."
+      }
+    ],
+    "indices": "君(きみ)[01]{君の} 同意 が 無い{無くて} は どう仕様も無い{どうしようもありません}",
+    "vocabIds": [
+      "2098160",
+      "1451850",
+      "1247250"
+    ],
+    "matches": {
+      "1247250": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "きみ"
+        }
+      ],
+      "1451850": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "どうい"
+        }
+      ],
+      "2098160": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "なくては"
+        }
+      ]
+    }
+  },
+  {
+    "id": "221543",
+    "original": "この辞書が無くては済まされない。",
+    "en": [
+      {
+        "id": "58867",
+        "text": "I cannot do without this dictionary."
+      }
+    ],
+    "indices": "此の{この} 辞書[01] が 無い{無くて} は 済ます[03]{済まされない}",
+    "vocabIds": [
+      "2098160",
+      "1295030",
+      "1318970"
+    ],
+    "matches": {
+      "1295030": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "すまさ"
+        }
+      ],
+      "1318970": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "じしょ"
+        }
+      ],
+      "2098160": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "なくては"
+        }
+      ]
+    }
+  }
+]

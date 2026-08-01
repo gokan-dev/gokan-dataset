@@ -1,0 +1,68 @@
+[
+  {
+    "id": "220015",
+    "original": "この部屋はかび臭い。",
+    "en": [
+      {
+        "id": "237399",
+        "text": "This room smells musty."
+      }
+    ],
+    "indices": "此の{この} 部屋[01] は カビ臭い{かび臭い}~",
+    "vocabIds": [
+      "1575410",
+      "1499320"
+    ],
+    "matches": {
+      "1499320": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "へや"
+        }
+      ],
+      "1575410": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "かびくさい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "226241",
+    "original": "かび臭い味がする。",
+    "en": [
+      {
+        "id": "63581",
+        "text": "It tastes moldy."
+      },
+      {
+        "id": "562752",
+        "text": "This tastes moldy."
+      }
+    ],
+    "indices": "カビ臭い{かび臭い} 味がする{味がする}",
+    "vocabIds": [
+      "1575410",
+      "2831089"
+    ],
+    "matches": {
+      "1575410": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "かびくさい"
+        }
+      ],
+      "2831089": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "あじがする"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "id": "76273",
+    "original": "咳止めシロップ。本番前に一口飲まないと落ち着かない！",
+    "en": [
+      {
+        "id": "327447",
+        "text": "Cough syrup. If I don't drink a mouthful before going on stage I can't settle down!"
+      }
+    ],
+    "indices": "咳止め シロップ 本番[01]~ 前(まえ) に 一口[01] 飲む[01]{飲まない} と 落ちつく{落ち着かない}",
+    "vocabIds": [
+      "1589220",
+      "1169870",
+      "1645840",
+      "1523150",
+      "1392590",
+      "1162370"
+    ],
+    "matches": {
+      "1162370": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "いちくち"
+        }
+      ],
+      "1169870": [
+        {
+          "start": 14,
+          "length": 5,
+          "reading": "のまないと"
+        }
+      ],
+      "1392590": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "まえに"
+        }
+      ],
+      "1523150": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "ほんばん"
+        }
+      ],
+      "1589220": [
+        {
+          "start": 19,
+          "length": 6,
+          "reading": "おちつかない"
+        }
+      ],
+      "1645840": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "せきとめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "184710",
+    "original": "咳止めはありますか。",
+    "en": [
+      {
+        "id": "21838",
+        "text": "Do you have any cough medicine?"
+      }
+    ],
+    "indices": "咳止め~ は 有る{あります} か",
+    "vocabIds": [
+      "1645840"
+    ],
+    "matches": {
+      "1645840": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "せきとめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "184711",
+    "original": "咳止めとアスピリンが必要です。",
+    "en": [
+      {
+        "id": "21839",
+        "text": "You should buy some cough medicine and aspirin."
+      },
+      {
+        "id": "1431301",
+        "text": "You need some cough syrup and aspirin."
+      }
+    ],
+    "indices": "咳止め と アスピリン が 必要[01] です",
+    "vocabIds": [
+      "1645840",
+      "1487660"
+    ],
+    "matches": {
+      "1487660": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "ひつよう"
+        }
+      ],
+      "1645840": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "せきとめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "222622",
+    "original": "この咳止め用トローチは苦味があるがよくきく。",
+    "en": [
+      {
+        "id": "59952",
+        "text": "These cough lozenges taste bitter but they will do you much good."
+      }
+    ],
+    "indices": "此の{この} 咳止め 用[02] トローチ~ は 苦味(にがみ)~ が[01] 有る{ある} が[03] 良く[01]{よく} 効く{きく}",
+    "vocabIds": [
+      "1645840",
+      "1244630",
+      "1546200"
+    ],
+    "matches": {
+      "1244630": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "にがみ"
+        }
+      ],
+      "1546200": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "よう"
+        }
+      ],
+      "1645840": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "せきとめ"
+        }
+      ]
+    }
+  }
+]

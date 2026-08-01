@@ -1,0 +1,100 @@
+{
+  "id": "2191630",
+  "writtenForm": {
+    "kanji": "何時から",
+    "alternatives": [],
+    "containedKanji": [
+      "何",
+      "時"
+    ]
+  },
+  "reading": {
+    "primary": "なんじから",
+    "alternatives": [
+      "いつから"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 32847
+  },
+  "progression": {
+    "kklcStep": 815
+  },
+  "senses": [
+    {
+      "pos": [
+        "exp"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "from what time"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "exp"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "since when",
+        "from when",
+        "how long"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "いつから"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": false,
+  "mergedVocabs": [
+    {
+      "id": "2191630",
+      "isBase": true,
+      "originalPrimaryReading": "なんじから",
+      "originalGlosses": [
+        "from what time"
+      ]
+    },
+    {
+      "id": "1188800",
+      "isBase": false,
+      "originalPrimaryReading": "いつから",
+      "originalGlosses": [
+        "since when",
+        "from when",
+        "how long"
+      ]
+    }
+  ],
+  "components": [
+    "1577100",
+    "1188770",
+    "1188790",
+    "1315840"
+  ]
+}

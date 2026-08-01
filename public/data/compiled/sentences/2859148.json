@@ -1,0 +1,41 @@
+[
+  {
+    "id": "171643",
+    "original": "今日は魚の食いつきがいい。",
+    "en": [
+      {
+        "id": "242832",
+        "text": "The fish are striking well today."
+      }
+    ],
+    "indices": "今日 は 魚 の 食いつき~ が いい",
+    "vocabIds": [
+      "2859148",
+      "1289400",
+      "1578010"
+    ],
+    "matches": {
+      "1289400": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きょうは"
+        }
+      ],
+      "1578010": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "さかな"
+        }
+      ],
+      "2859148": [
+        {
+          "start": 5,
+          "length": 7,
+          "reading": "くいつきがいい"
+        }
+      ]
+    }
+  }
+]

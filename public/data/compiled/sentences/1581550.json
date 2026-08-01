@@ -1,0 +1,111 @@
+[
+  {
+    "id": "124354",
+    "original": "冬はやっぱり雪がないとね。",
+    "en": [
+      {
+        "id": "279640",
+        "text": "Winter does not look real without snow."
+      }
+    ],
+    "indices": "冬 は 矢っ張り[02]{やっぱり} 雪 が 無い{ない} と ね(#2029080)[01]",
+    "vocabIds": [
+      "1581550",
+      "1446070"
+    ],
+    "matches": {
+      "1446070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ふゆ"
+        }
+      ],
+      "1581550": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "そそがないと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "172206",
+    "original": "今、通りには全く雪がない。",
+    "en": [
+      {
+        "id": "242269",
+        "text": "The street is free from snow now."
+      }
+    ],
+    "indices": "今(いま) 通り(とおり) には 全く 雪 が 無い{ない}",
+    "vocabIds": [
+      "1581550",
+      "1432920",
+      "1394800",
+      "1288850"
+    ],
+    "matches": {
+      "1288850": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "いま"
+        }
+      ],
+      "1394800": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "まったく"
+        }
+      ],
+      "1432920": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "とおり"
+        }
+      ],
+      "1581550": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "そそがない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "198168",
+    "original": "バスの運行は雪がなくなるまでずっとないでしょう。",
+    "en": [
+      {
+        "id": "35359",
+        "text": "The bus service won't be available until the snow has melted."
+      }
+    ],
+    "indices": "バス(#1098390) の 運行[01] は 雪 が 無くなる{なくなる} 迄{まで} ずっと 無い{ない} でしょう[01]",
+    "vocabIds": [
+      "1581550",
+      "1172750"
+    ],
+    "matches": {
+      "1172750": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "うんこう"
+        }
+      ],
+      "1581550": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "そそがなく"
+        }
+      ]
+    }
+  }
+]

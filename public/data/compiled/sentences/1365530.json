@@ -1,0 +1,72 @@
+[
+  {
+    "id": "83669",
+    "original": "文句を言うなよ。身から出た錆だぞ。",
+    "en": [
+      {
+        "id": "320047",
+        "text": "Don't complain about that. You've asked for it."
+      },
+      {
+        "id": "2669128",
+        "text": "Don't complain about it. You've asked for it."
+      }
+    ],
+    "indices": "文句[01] を 言う な[01] よ 身から出た錆 だ ぞ",
+    "vocabIds": [
+      "1365530",
+      "2831372"
+    ],
+    "matches": {
+      "1365530": [
+        {
+          "start": 8,
+          "length": 6,
+          "reading": "みからでたさび"
+        }
+      ],
+      "2831372": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "もんくをいう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "178181",
+    "original": "君の身から出た錆だ。",
+    "en": [
+      {
+        "id": "17033",
+        "text": "You have no one but yourself to blame."
+      },
+      {
+        "id": "1165632",
+        "text": "You deserve it."
+      }
+    ],
+    "indices": "君(きみ)[01]{君の} 身から出た錆 だ",
+    "vocabIds": [
+      "1365530",
+      "1247250"
+    ],
+    "matches": {
+      "1247250": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "きみ"
+        }
+      ],
+      "1365530": [
+        {
+          "start": 2,
+          "length": 6,
+          "reading": "みからでたさび"
+        }
+      ]
+    }
+  }
+]

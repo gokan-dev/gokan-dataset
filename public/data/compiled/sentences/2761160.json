@@ -1,0 +1,84 @@
+[
+  {
+    "id": "88218",
+    "original": "彼女は善悪の区別をつけることができない。",
+    "en": [
+      {
+        "id": "315488",
+        "text": "She cannot distinguish right from wrong."
+      },
+      {
+        "id": "317457",
+        "text": "She can't tell right from wrong."
+      }
+    ],
+    "indices": "彼女[01] は 善悪の区別 を 付ける{つける} 事が出来る{ことができない}",
+    "vocabIds": [
+      "2761160",
+      "1483150",
+      "1394300"
+    ],
+    "matches": {
+      "1394300": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ぜんあく"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "2761160": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "くべつをつける"
+        }
+      ]
+    }
+  },
+  {
+    "id": "177092",
+    "original": "君は善悪の区別をつけるべきだ。",
+    "en": [
+      {
+        "id": "15940",
+        "text": "You should distinguish between right and wrong."
+      }
+    ],
+    "indices": "君(きみ)[01] は 善悪の区別 を 付ける{つける} 可き{べき} だ",
+    "vocabIds": [
+      "2761160",
+      "1394300",
+      "1247250"
+    ],
+    "matches": {
+      "1247250": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "きみ"
+        }
+      ],
+      "1394300": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ぜんあく"
+        }
+      ],
+      "2761160": [
+        {
+          "start": 5,
+          "length": 6,
+          "reading": "くべつをつける"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,71 @@
+[
+  {
+    "id": "223507",
+    "original": "このテストには落とし穴がある。",
+    "en": [
+      {
+        "id": "60842",
+        "text": "This test has a catch."
+      }
+    ],
+    "indices": "此の{この} テスト[01] には 落とし穴~ が[01] 有る{ある}",
+    "vocabIds": [
+      "1548640"
+    ],
+    "matches": {
+      "1548640": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "おとしあな"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11001559",
+    "original": "実際に落とし穴に落ちる人なんてそうそういない。",
+    "en": [
+      {
+        "id": "12010565",
+        "text": "Not many people actually fall into the pit."
+      }
+    ],
+    "vocabIds": [
+      "1548640",
+      "1321120",
+      "1548550",
+      "1580640"
+    ],
+    "matches": {
+      "1321120": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "じっさいに"
+        }
+      ],
+      "1548550": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "おちる"
+        }
+      ],
+      "1548640": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "おとしあな"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ]
+    }
+  }
+]

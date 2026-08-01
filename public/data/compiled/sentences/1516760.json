@@ -1,0 +1,92 @@
+[
+  {
+    "id": "82704",
+    "original": "放送局の前で待っているよ。",
+    "en": [
+      {
+        "id": "321012",
+        "text": "I will wait for you in front of the radio station."
+      },
+      {
+        "id": "9817207",
+        "text": "I'll wait for you in front of the radio station."
+      }
+    ],
+    "indices": "放送局 の 前(まえ) で(#2028980) 待つ[01]{待っている} よ[01]",
+    "vocabIds": [
+      "1410590",
+      "1516760",
+      "1387210",
+      "1392580"
+    ],
+    "matches": {
+      "1387210": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "まえ"
+        }
+      ],
+      "1392580": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "まえ"
+        }
+      ],
+      "1410590": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "まっている"
+        }
+      ],
+      "1516760": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ほうそうきょく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "121234",
+    "original": "反乱軍は放送局を占拠した。",
+    "en": [
+      {
+        "id": "282772",
+        "text": "The rebels have captured the broadcasting station."
+      }
+    ],
+    "indices": "反乱軍~ は 放送局~ を 占拠~ 為る(する){した}",
+    "vocabIds": [
+      "1481100",
+      "1516760",
+      "1389480"
+    ],
+    "matches": {
+      "1389480": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "せんきょ"
+        }
+      ],
+      "1481100": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "はんらんぐん"
+        }
+      ],
+      "1516760": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "ほうそうきょく"
+        }
+      ]
+    }
+  }
+]

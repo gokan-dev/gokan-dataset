@@ -1,0 +1,118 @@
+[
+  {
+    "id": "77918",
+    "original": "料理用具を一括して買いたい。",
+    "en": [
+      {
+        "id": "325800",
+        "text": "I want to buy cooking utensils in one lot."
+      }
+    ],
+    "indices": "料理 用具~ を 一括 為る(する){して} 買う[01]{買い} たい",
+    "vocabIds": [
+      "1473740",
+      "1554310",
+      "1546240",
+      "1161470"
+    ],
+    "matches": {
+      "1161470": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "いっかつ"
+        }
+      ],
+      "1473740": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "かいたい"
+        }
+      ],
+      "1546240": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ようぐ"
+        }
+      ],
+      "1554310": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "りょうり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "78864",
+    "original": "用具を一式貸してください。",
+    "en": [
+      {
+        "id": "324852",
+        "text": "Lend me a tool set please."
+      }
+    ],
+    "indices": "用具 を 一式[01]~ 貸す{貸して} 下さい{ください}",
+    "vocabIds": [
+      "1411160",
+      "1546240",
+      "1163080"
+    ],
+    "matches": {
+      "1163080": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "いっしき"
+        }
+      ],
+      "1411160": [
+        {
+          "start": 5,
+          "length": 7,
+          "reading": "かしてください"
+        }
+      ],
+      "1546240": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ようぐ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9069497",
+    "original": "チームのメンバーには、用具とユニフォームが支給されます。",
+    "en": [
+      {
+        "id": "40263",
+        "text": "Team members are provided with equipment and uniforms."
+      }
+    ],
+    "vocabIds": [
+      "1546240",
+      "1310130"
+    ],
+    "matches": {
+      "1310130": [
+        {
+          "start": 21,
+          "length": 2,
+          "reading": "しきゅう"
+        }
+      ],
+      "1546240": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "ようぐ"
+        }
+      ]
+    }
+  }
+]

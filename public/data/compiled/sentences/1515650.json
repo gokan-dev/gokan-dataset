@@ -1,0 +1,440 @@
+[
+  {
+    "id": "95658",
+    "original": "彼女がそのニュースを報じた。",
+    "en": [
+      {
+        "id": "308047",
+        "text": "She reported the news."
+      }
+    ],
+    "indices": "彼女 が 其の[01]{その} ニュース を 報じる{報じた}",
+    "vocabIds": [
+      "1515650",
+      "1483150"
+    ],
+    "matches": {
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1515650": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "ほうじた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "125076",
+    "original": "天気予報は雨が降るかどうか報じている。",
+    "en": [
+      {
+        "id": "278901",
+        "text": "The weather forecast predicts whether it will rain or not."
+      }
+    ],
+    "indices": "天気予報 は 雨 が 降る(ふる) か如何か{かどうか} 報じる{報じている}",
+    "vocabIds": [
+      "1515650",
+      "1438770",
+      "2851949"
+    ],
+    "matches": {
+      "1438770": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "てんきよほう"
+        }
+      ],
+      "1515650": [
+        {
+          "start": 13,
+          "length": 5,
+          "reading": "ほうじている"
+        }
+      ],
+      "2851949": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "あめがふる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "137332",
+    "original": "大統領は昨日ロンドンをたったと報じられている。",
+    "en": [
+      {
+        "id": "275904",
+        "text": "The report goes that the president left London yesterday."
+      }
+    ],
+    "indices": "大統領 は 昨日 倫敦{ロンドン} を 立つ[05]{たった} と 報じる{報じられている}",
+    "vocabIds": [
+      "1414650",
+      "1515650",
+      "1579260"
+    ],
+    "matches": {
+      "1414650": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "だいとうりょう"
+        }
+      ],
+      "1515650": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "ほうじ"
+        }
+      ],
+      "1579260": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "きのう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "145136",
+    "original": "新聞はまたアフリカでまた戦争が起こったと報じた。",
+    "en": [
+      {
+        "id": "269427",
+        "text": "The newspaper said another war broke out in Africa."
+      }
+    ],
+    "indices": "新聞 は 又{また} 阿弗利加{アフリカ} で(#2028980) 又{また} 戦争 が 起こる{起こった} と[04] 報じる{報じた}",
+    "vocabIds": [
+      "1223680",
+      "1515650",
+      "1362360",
+      "1390360"
+    ],
+    "matches": {
+      "1223680": [
+        {
+          "start": 15,
+          "length": 4,
+          "reading": "おこった"
+        }
+      ],
+      "1362360": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しんぶん"
+        }
+      ],
+      "1390360": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "せんそう"
+        }
+      ],
+      "1515650": [
+        {
+          "start": 20,
+          "length": 3,
+          "reading": "ほうじた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "145143",
+    "original": "新聞はそのニュースを報じなかった。",
+    "en": [
+      {
+        "id": "269420",
+        "text": "Newspapers did not report that news."
+      }
+    ],
+    "indices": "新聞 は 其の[01]{その} ニュース を 報じる{報じなかった}",
+    "vocabIds": [
+      "1515650",
+      "1362360"
+    ],
+    "matches": {
+      "1362360": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しんぶん"
+        }
+      ],
+      "1515650": [
+        {
+          "start": 10,
+          "length": 6,
+          "reading": "ほうじなかった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "145147",
+    "original": "新聞は２党間の抗争を報じた。",
+    "en": [
+      {
+        "id": "269416",
+        "text": "The newspaper reported friction between the two parties."
+      }
+    ],
+    "indices": "新聞 は 党(とう)[01] 間(かん) の 抗争~ を 報じる{報じた}",
+    "vocabIds": [
+      "1515650",
+      "1362360",
+      "1278950",
+      "1461140",
+      "1445980",
+      "1457310",
+      "1215230",
+      "1630250"
+    ],
+    "matches": {
+      "1215230": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "かん"
+        }
+      ],
+      "1278950": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "こうそう"
+        }
+      ],
+      "1362360": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しんぶん"
+        }
+      ],
+      "1445980": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "とう"
+        }
+      ],
+      "1457310": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "とう"
+        }
+      ],
+      "1461140": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "に"
+        }
+      ],
+      "1515650": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "ほうじた"
+        }
+      ],
+      "1630250": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "かん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "207262",
+    "original": "その俳優の死は各紙で大見出しで報じられた。",
+    "en": [
+      {
+        "id": "44513",
+        "text": "The actor's death made big headlines in all the papers."
+      }
+    ],
+    "indices": "其の[01]{その} 俳優 の 死[01] は 各紙~ で(#2028980) 大見出し~ で(#2028980) 報じる{報じられた}~",
+    "vocabIds": [
+      "2427740",
+      "1515650",
+      "1471970",
+      "1205000",
+      "1310720"
+    ],
+    "matches": {
+      "1205000": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "かくし"
+        }
+      ],
+      "1310720": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "し"
+        }
+      ],
+      "1471970": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "はいゆう"
+        }
+      ],
+      "1515650": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "ほうじ"
+        }
+      ],
+      "2427740": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "だいみだし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "210477",
+    "original": "その雑誌は早まってそのスキャンダルを報じてしまった。",
+    "en": [
+      {
+        "id": "47746",
+        "text": "The magazine jumped the gun and reported on the scandal."
+      }
+    ],
+    "indices": "其の[01]{その} 雑誌 は 早まる{早まって} 其の[01]{その} スキャンダル を 報じる{報じて} 仕舞う{しまった}",
+    "vocabIds": [
+      "1515650",
+      "1902480",
+      "1299400"
+    ],
+    "matches": {
+      "1299400": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ざっし"
+        }
+      ],
+      "1515650": [
+        {
+          "start": 18,
+          "length": 7,
+          "reading": "ほうじてしまった"
+        }
+      ],
+      "1902480": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "はやまって"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3246945",
+    "original": "ほとんどの報道機関は交渉の成果について、進展はあったものの時間切れで物別れに終わったと報じた。",
+    "en": [
+      {
+        "id": "3246946",
+        "text": "Most press reported the negotiations failed to produce an agreement although major progress was made, as time ran out."
+      }
+    ],
+    "vocabIds": [
+      "1515750",
+      "1316000",
+      "1589600",
+      "1722520",
+      "1515650",
+      "1272110",
+      "1375650",
+      "1366160"
+    ],
+    "matches": {
+      "1272110": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "こうしょう"
+        }
+      ],
+      "1316000": [
+        {
+          "start": 29,
+          "length": 4,
+          "reading": "じかんぎれ"
+        }
+      ],
+      "1366160": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "しんてん"
+        }
+      ],
+      "1375650": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "せいか"
+        }
+      ],
+      "1515650": [
+        {
+          "start": 43,
+          "length": 3,
+          "reading": "ほうじた"
+        }
+      ],
+      "1515750": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "ほうどうきかん"
+        }
+      ],
+      "1589600": [
+        {
+          "start": 38,
+          "length": 4,
+          "reading": "おわった"
+        }
+      ],
+      "1722520": [
+        {
+          "start": 34,
+          "length": 3,
+          "reading": "ものわかれ"
+        }
+      ]
+    }
+  }
+]

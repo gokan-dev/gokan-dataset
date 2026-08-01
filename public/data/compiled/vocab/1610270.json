@@ -1,0 +1,129 @@
+{
+  "id": "1610270",
+  "writtenForm": {
+    "kanji": "頼み",
+    "alternatives": [
+      "恃み",
+      "憑み"
+    ],
+    "containedKanji": [
+      "頼"
+    ]
+  },
+  "reading": {
+    "primary": "たのみ",
+    "alternatives": [
+      "だのみ"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 2821,
+    "kanaRank": 218941
+  },
+  "jlptLevel": 1,
+  "progression": {
+    "kklcStep": 1930
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "request",
+        "favor",
+        "favour"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "reliance",
+        "dependence",
+        "trust",
+        "hope"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n-suf"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "depending on",
+        "dependent upon",
+        "relying on"
+      ],
+      "related": {
+        "compounds": [
+          "頼み"
+        ]
+      },
+      "appliesToReadings": [
+        "だのみ"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1610270",
+      "isBase": true,
+      "originalPrimaryReading": "たのみ",
+      "originalGlosses": [
+        "request",
+        "favor",
+        "favour"
+      ]
+    },
+    {
+      "id": "2825976",
+      "isBase": false,
+      "originalPrimaryReading": "だのみ",
+      "originalGlosses": [
+        "depending on",
+        "dependent upon",
+        "relying on"
+      ]
+    }
+  ],
+  "parents": [
+    "1548360",
+    "2012310",
+    "1244330"
+  ]
+}

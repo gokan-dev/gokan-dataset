@@ -1,0 +1,71 @@
+[
+  {
+    "id": "229401",
+    "original": "イーストはビールを発酵させる。",
+    "en": [
+      {
+        "id": "66760",
+        "text": "Yeast makes beer ferment."
+      }
+    ],
+    "indices": "イースト(#2861181)~ は ビール(#2796520) を 発酵~ 為せる{させる}",
+    "vocabIds": [
+      "1477450"
+    ],
+    "matches": {
+      "1477450": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "はっこう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2656135",
+    "original": "発酵と腐敗の違いは何ですか？",
+    "en": [
+      {
+        "id": "2658344",
+        "text": "What's the difference between fermentation and putrescence?"
+      }
+    ],
+    "vocabIds": [
+      "1477450",
+      "1497870",
+      "1158870",
+      "1577100"
+    ],
+    "matches": {
+      "1158870": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ちがい"
+        }
+      ],
+      "1477450": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "はっこう"
+        }
+      ],
+      "1497870": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ふはい"
+        }
+      ],
+      "1577100": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "なに"
+        }
+      ]
+    }
+  }
+]

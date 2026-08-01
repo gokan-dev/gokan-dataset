@@ -1,0 +1,72 @@
+[
+  {
+    "id": "144854",
+    "original": "紳士の人からお先にどうぞ。",
+    "en": [
+      {
+        "id": "269710",
+        "text": "Gentlemen first."
+      }
+    ],
+    "indices": "紳士 の 人(ひと) から お先にどうぞ~",
+    "vocabIds": [
+      "2857842",
+      "1364950",
+      "1580640"
+    ],
+    "matches": {
+      "1364950": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しんし"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ],
+      "2857842": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "おさきにどうぞ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "226990",
+    "original": "お先にどうぞ。",
+    "en": [
+      {
+        "id": "505870",
+        "text": "After you."
+      },
+      {
+        "id": "17945",
+        "text": "You go first."
+      },
+      {
+        "id": "2249790",
+        "text": "Please go ahead."
+      }
+    ],
+    "indices": "お先に[01]~ どうぞ[01]",
+    "vocabIds": [
+      "2857842"
+    ],
+    "matches": {
+      "2857842": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "おさきにどうぞ"
+        }
+      ]
+    }
+  }
+]

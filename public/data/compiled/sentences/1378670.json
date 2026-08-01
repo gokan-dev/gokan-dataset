@@ -1,0 +1,33 @@
+[
+  {
+    "id": "224705",
+    "original": "ここが父が生まれた場所です。",
+    "en": [
+      {
+        "id": "62040",
+        "text": "This is the place where my father was born."
+      }
+    ],
+    "indices": "此処[01]{ここ} が 父 が 生まれる{生まれた} 場所 です",
+    "vocabIds": [
+      "1378670",
+      "1497610"
+    ],
+    "matches": {
+      "1378670": [
+        {
+          "start": 5,
+          "length": 6,
+          "reading": "うまれたばしょ"
+        }
+      ],
+      "1497610": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "ちち"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,103 @@
+{
+  "id": "2398720",
+  "writtenForm": {
+    "kanji": "再見",
+    "alternatives": [],
+    "containedKanji": [
+      "再",
+      "見"
+    ]
+  },
+  "reading": {
+    "primary": "さいけん",
+    "alternatives": [
+      "ツァイチェン",
+      "ツァイチエン"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 99849
+  },
+  "progression": {
+    "kklcStep": 911
+  },
+  "senses": [
+    {
+      "pos": [
+        "n",
+        "vs",
+        "vt"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "looking at again",
+        "watching again",
+        "discovering again",
+        "seeing again"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "int"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "good-bye",
+        "see you"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "ツァイチェン"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": false,
+  "mergedVocabs": [
+    {
+      "id": "2398720",
+      "isBase": true,
+      "originalPrimaryReading": "さいけん",
+      "originalGlosses": [
+        "looking at again",
+        "watching again",
+        "discovering again"
+      ]
+    },
+    {
+      "id": "2727370",
+      "isBase": false,
+      "originalPrimaryReading": "ツァイチェン",
+      "originalGlosses": [
+        "good-bye",
+        "see you"
+      ]
+    }
+  ],
+  "components": [
+    "1292290"
+  ]
+}

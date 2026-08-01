@@ -1,0 +1,112 @@
+[
+  {
+    "id": "170039",
+    "original": "昨日の試合で早稲田は慶応と引き分けた。",
+    "en": [
+      {
+        "id": "244447",
+        "text": "Waseda tied Keio in yesterday's game."
+      }
+    ],
+    "indices": "昨日 の 試合 で(#2028980) は と 引き分ける{引き分けた}~",
+    "vocabIds": [
+      "1169130",
+      "2183280",
+      "1579260",
+      "1312420",
+      "2092160"
+    ],
+    "matches": {
+      "1169130": [
+        {
+          "start": 13,
+          "length": 5,
+          "reading": "ひきわけた"
+        }
+      ],
+      "1312420": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "しあい"
+        }
+      ],
+      "1579260": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きのう"
+        }
+      ],
+      "2092160": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "けいおう"
+        }
+      ],
+      "2183280": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "わせだ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "171429",
+    "original": "今日早稲田対慶応の試合がある。",
+    "en": [
+      {
+        "id": "243046",
+        "text": "There is going to be a game between Waseda and Keio today."
+      }
+    ],
+    "indices": "今日 対(たい)[01]~ の 試合 が[01] 有る{ある}",
+    "vocabIds": [
+      "2183280",
+      "1579110",
+      "2092160",
+      "1312420",
+      "1409800"
+    ],
+    "matches": {
+      "1312420": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "しあい"
+        }
+      ],
+      "1409800": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "たい"
+        }
+      ],
+      "1579110": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きょう"
+        }
+      ],
+      "2092160": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "けいおう"
+        }
+      ],
+      "2183280": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "わせだ"
+        }
+      ]
+    }
+  }
+]

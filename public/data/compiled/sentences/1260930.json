@@ -1,0 +1,131 @@
+[
+  {
+    "id": "75591",
+    "original": "元栓、しまってる。",
+    "en": [
+      {
+        "id": "328127",
+        "text": "The stopcock's turned off."
+      },
+      {
+        "id": "1165794",
+        "text": "The main tap is turned off."
+      },
+      {
+        "id": "1165797",
+        "text": "The main valve is turned off."
+      }
+    ],
+    "indices": "元栓~ 閉まる{しまってる}",
+    "vocabIds": [
+      "1260930"
+    ],
+    "matches": {
+      "1260930": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "もとせん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3416688",
+    "original": "ガスの元栓は閉めた？",
+    "en": [
+      {
+        "id": "63743",
+        "text": "Did you turn off the gas?"
+      }
+    ],
+    "vocabIds": [
+      "1508590",
+      "1260930"
+    ],
+    "matches": {
+      "1260930": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "もとせん"
+        }
+      ],
+      "1508590": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "しめた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3416689",
+    "original": "ガスの元栓を閉めなさい。",
+    "en": [
+      {
+        "id": "63744",
+        "text": "Turn off the gas."
+      }
+    ],
+    "vocabIds": [
+      "1508590",
+      "1260930"
+    ],
+    "matches": {
+      "1260930": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "もとせん"
+        }
+      ],
+      "1508590": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "しめなさい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11483518",
+    "original": "ガスの元栓が閉まってるか、見といて。",
+    "en": [
+      {
+        "id": "4325097",
+        "text": "Check if the gas tap is closed."
+      }
+    ],
+    "vocabIds": [
+      "1436560",
+      "1259290",
+      "1260930"
+    ],
+    "matches": {
+      "1259290": [
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "みといて"
+        }
+      ],
+      "1260930": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "もとせん"
+        }
+      ],
+      "1436560": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "しまってる"
+        }
+      ]
+    }
+  }
+]

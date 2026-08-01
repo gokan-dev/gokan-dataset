@@ -1,0 +1,134 @@
+[
+  {
+    "id": "141427",
+    "original": "占い師に手相を見せました。",
+    "en": [
+      {
+        "id": "273144",
+        "text": "A fortune-teller read my hand."
+      }
+    ],
+    "indices": "占い師~ に 手相~ を 見せる{見せました}",
+    "vocabIds": [
+      "1259210",
+      "1588460",
+      "1328070"
+    ],
+    "matches": {
+      "1259210": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "みせました"
+        }
+      ],
+      "1328070": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "てそう"
+        }
+      ],
+      "1588460": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "うらないし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "230653",
+    "original": "あの占い師はうそつき同然だ。",
+    "en": [
+      {
+        "id": "68022",
+        "text": "That fortune-teller is no better than a liar."
+      }
+    ],
+    "indices": "彼の(あの){あの} 占い師 は 嘘つき{うそつき} 同然 だ",
+    "vocabIds": [
+      "1588460",
+      "1452950"
+    ],
+    "matches": {
+      "1452950": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "どうぜん"
+        }
+      ],
+      "1588460": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "うらないし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "237553",
+    "original": "私はいま、人気の占い師に占ってもらっている。",
+    "en": [
+      {
+        "id": "11931249",
+        "text": "I'm having my fortune told by a popular fortune-teller right now."
+      }
+    ],
+    "vocabIds": [
+      "1389430",
+      "1588460",
+      "1367010",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1367010": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "にんき"
+        }
+      ],
+      "1389430": [
+        {
+          "start": 12,
+          "length": 9,
+          "reading": "うらなってもらっている"
+        }
+      ],
+      "1588460": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "うらないし"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  }
+]

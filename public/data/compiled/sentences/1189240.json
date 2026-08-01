@@ -1,0 +1,908 @@
+[
+  {
+    "id": "171684",
+    "original": "今日は何日ですか。",
+    "en": [
+      {
+        "id": "408906",
+        "text": "What's the date today?"
+      }
+    ],
+    "indices": "今日 は 何日 ですか",
+    "vocabIds": [
+      "1289400",
+      "1189240"
+    ],
+    "matches": {
+      "1189240": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "なんにち"
+        }
+      ],
+      "1289400": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きょうは"
+        }
+      ]
+    }
+  },
+  {
+    "id": "177481",
+    "original": "君はロンドンに何日残るつもりですか。",
+    "en": [
+      {
+        "id": "16331",
+        "text": "How many days will you remain in London?"
+      }
+    ],
+    "indices": "君(きみ)[01] は 倫敦{ロンドン} に 何日 残る 積もり{つもり} ですか",
+    "vocabIds": [
+      "1189240",
+      "1304510",
+      "1247250"
+    ],
+    "matches": {
+      "1189240": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "なんにち"
+        }
+      ],
+      "1247250": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "きみ"
+        }
+      ],
+      "1304510": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "のこる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "187331",
+    "original": "何日滞在する予定ですか。",
+    "en": [
+      {
+        "id": "24467",
+        "text": "How long are you going to stay?"
+      }
+    ],
+    "indices": "何日[02]~ 滞在 為る(する){する} 予定 ですか",
+    "vocabIds": [
+      "1189240",
+      "1410930",
+      "1543240"
+    ],
+    "matches": {
+      "1189240": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "なんにち"
+        }
+      ],
+      "1410930": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "たいざい"
+        }
+      ],
+      "1543240": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "よてい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "187332",
+    "original": "何日前までに予約すれば格安料金の対象になりますか。",
+    "en": [
+      {
+        "id": "24469",
+        "text": "How early do I have to make a reservation to qualify for the discount?"
+      }
+    ],
+    "indices": "何日 前(まえ) 迄{まで} に 予約[01] すれば 格安~ 料金 の 対象 になる[01]{になります} か",
+    "vocabIds": [
+      "1189240",
+      "1543750",
+      "1205280",
+      "1554280",
+      "1410120",
+      "1387210",
+      "1392580"
+    ],
+    "matches": {
+      "1189240": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "なんにち"
+        }
+      ],
+      "1205280": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "かくやす"
+        }
+      ],
+      "1387210": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "まえ"
+        }
+      ],
+      "1392580": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "まえ"
+        }
+      ],
+      "1410120": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "たいしょう"
+        }
+      ],
+      "1543750": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "よやく"
+        }
+      ],
+      "1554280": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "りょうきん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "187336",
+    "original": "何日ぐらい滞在しますか。",
+    "en": [
+      {
+        "id": "24473",
+        "text": "How long are you going to stay here?"
+      }
+    ],
+    "indices": "何日 ぐらい[01] 滞在 為る(する){します} か",
+    "vocabIds": [
+      "1189240",
+      "1410930"
+    ],
+    "matches": {
+      "1189240": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "なんにち"
+        }
+      ],
+      "1410930": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "たいざい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "187337",
+    "original": "何日ぐらい行くの？",
+    "en": [
+      {
+        "id": "24474",
+        "text": "How long will you be gone?"
+      },
+      {
+        "id": "12556602",
+        "text": "How many days will you be there?"
+      }
+    ],
+    "indices": "何日 ぐらい[01] 行く の",
+    "vocabIds": [
+      "1189240",
+      "1578850"
+    ],
+    "matches": {
+      "1189240": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "なんにち"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "いく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "187338",
+    "original": "何日ぐらいで着きますか。",
+    "en": [
+      {
+        "id": "24475",
+        "text": "How many days does it usually take to get there?"
+      },
+      {
+        "id": "13482221",
+        "text": "How many days will it take to get there?"
+      },
+      {
+        "id": "24476",
+        "text": "About how many days will it take to get there?"
+      }
+    ],
+    "indices": "何日 ぐらい[01] で(#2028980) 着く(つく)[01]{着きます} か",
+    "vocabIds": [
+      "1422970",
+      "1607260",
+      "1189240"
+    ],
+    "matches": {
+      "1189240": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "なんにち"
+        }
+      ],
+      "1422970": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "つきます"
+        }
+      ],
+      "1607260": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "つきます"
+        }
+      ]
+    }
+  },
+  {
+    "id": "187339",
+    "original": "何日くらいで着きますか。",
+    "en": [
+      {
+        "id": "24476",
+        "text": "About how many days will it take to get there?"
+      }
+    ],
+    "indices": "何日 くらい[01] で(#2028980) 着く(つく)[01]{着きます} か",
+    "vocabIds": [
+      "1422970",
+      "1607260",
+      "1189240"
+    ],
+    "matches": {
+      "1189240": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "なんにち"
+        }
+      ],
+      "1422970": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "つきます"
+        }
+      ],
+      "1607260": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "つきます"
+        }
+      ]
+    }
+  },
+  {
+    "id": "187340",
+    "original": "何日ぐらいかかりますか。",
+    "en": [
+      {
+        "id": "24477",
+        "text": "How long will it take?"
+      },
+      {
+        "id": "11471630",
+        "text": "How many days will it take?"
+      }
+    ],
+    "indices": "何日 ぐらい[01] 掛かる[01]{かかります} か",
+    "vocabIds": [
+      "1189240"
+    ],
+    "matches": {
+      "1189240": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "なんにち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "190568",
+    "original": "一週間は何日ありますか。",
+    "en": [
+      {
+        "id": "535810",
+        "text": "How many days are there in a week?"
+      }
+    ],
+    "indices": "一週間 は 何日 有る{あります} か",
+    "vocabIds": [
+      "1163270",
+      "1189240"
+    ],
+    "matches": {
+      "1163270": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "いちしゅうかん"
+        }
+      ],
+      "1189240": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "なんにち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "190571",
+    "original": "一週間のうちで何日学校に通いますか。",
+    "en": [
+      {
+        "id": "27731",
+        "text": "How many days a week do you go to school?"
+      }
+    ],
+    "indices": "一週間 の 内(うち)[01]{うち} で(#2028980) 何日 学校 に 通う[02]{通います} か",
+    "vocabIds": [
+      "1432850",
+      "1163270",
+      "1189240",
+      "1206730"
+    ],
+    "matches": {
+      "1163270": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "いちしゅうかん"
+        }
+      ],
+      "1189240": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "なんにち"
+        }
+      ],
+      "1206730": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "がっこう"
+        }
+      ],
+      "1432850": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "かよいます"
+        }
+      ]
+    }
+  },
+  {
+    "id": "197797",
+    "original": "腫れが引くまで何日くらいかかりますか。",
+    "en": [
+      {
+        "id": "34985",
+        "text": "How many days will it take until the swelling goes down?"
+      }
+    ],
+    "indices": "腫れ~ が 引く[11]~ 迄{まで} 何日 くらい[01] 掛かる[01]{かかります} か",
+    "vocabIds": [
+      "1952290",
+      "1169250",
+      "1189240"
+    ],
+    "matches": {
+      "1169250": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ひく"
+        }
+      ],
+      "1189240": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "なんにち"
+        }
+      ],
+      "1952290": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "はれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "217634",
+    "original": "これを書留で送ると何日くらいかかりますか。",
+    "en": [
+      {
+        "id": "54944",
+        "text": "How many days will it take if I send this as registered mail?"
+      }
+    ],
+    "indices": "此れ[01]{これ} を 書留[01] で(#2028980) 送る と 何日 くらい[01] 掛かる[01]{かかります} か",
+    "vocabIds": [
+      "1402730",
+      "1589960",
+      "1189240"
+    ],
+    "matches": {
+      "1189240": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "なんにち"
+        }
+      ],
+      "1402730": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "おくると"
+        }
+      ],
+      "1589960": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かきとめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "225457",
+    "original": "クリスマスまであと何日ありますか。",
+    "en": [
+      {
+        "id": "62794",
+        "text": "How many days are there before Christmas?"
+      },
+      {
+        "id": "387463",
+        "text": "How many more days are there until Christmas?"
+      }
+    ],
+    "indices": "クリスマス 迄{まで} 後(あと){あと} 何日 有る{あります} か",
+    "vocabIds": [
+      "1189240"
+    ],
+    "matches": {
+      "1189240": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "なんにち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "440744",
+    "original": "今日は何日ですか？",
+    "en": [
+      {
+        "id": "332138",
+        "text": "What is the date today?"
+      },
+      {
+        "id": "408906",
+        "text": "What's the date today?"
+      }
+    ],
+    "vocabIds": [
+      "1289400",
+      "1189240"
+    ],
+    "matches": {
+      "1189240": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "なんにち"
+        }
+      ],
+      "1289400": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きょうは"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2654893",
+    "original": "「えっと、今日何日でしたっけ？」「8月5日ですよ」",
+    "en": [
+      {
+        "id": "2654992",
+        "text": "\"Um, what day was it today again?\" \"August 5th.\""
+      }
+    ],
+    "vocabIds": [
+      "1579110",
+      "1189240",
+      "1463770",
+      "1255430"
+    ],
+    "matches": {
+      "1189240": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "なんにち"
+        }
+      ],
+      "1255430": [
+        {
+          "start": 18,
+          "length": 1,
+          "reading": "つき"
+        }
+      ],
+      "1463770": [
+        {
+          "start": 20,
+          "length": 1,
+          "reading": "にち"
+        }
+      ],
+      "1579110": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "きょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "4661510",
+    "original": "冬休み何日から？",
+    "en": [
+      {
+        "id": "4662524",
+        "text": "When does your winter vacation begin?"
+      }
+    ],
+    "vocabIds": [
+      "1446090",
+      "1189240"
+    ],
+    "matches": {
+      "1189240": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "なんにち"
+        }
+      ],
+      "1446090": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ふゆやすみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10766992",
+    "original": "週に何日学校に行ってるの？",
+    "en": [
+      {
+        "id": "27731",
+        "text": "How many days a week do you go to school?"
+      }
+    ],
+    "vocabIds": [
+      "1578850",
+      "1189240",
+      "1206730",
+      "1333450"
+    ],
+    "matches": {
+      "1189240": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "なんにち"
+        }
+      ],
+      "1206730": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "がっこう"
+        }
+      ],
+      "1333450": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "しゅう"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "いってる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10993810",
+    "original": "お休みは何日あるの？",
+    "en": [
+      {
+        "id": "10993807",
+        "text": "How many days is your holiday?"
+      }
+    ],
+    "vocabIds": [
+      "1612680",
+      "1189240"
+    ],
+    "matches": {
+      "1189240": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "なんにち"
+        }
+      ],
+      "1612680": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "おやすみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11459574",
+    "original": "閏年って、何日あるんだっけ？",
+    "en": [
+      {
+        "id": "1453842",
+        "text": "How many days are there in a leap year?"
+      },
+      {
+        "id": "1454069",
+        "text": "How many days does a leap year have?"
+      }
+    ],
+    "vocabIds": [
+      "1588560",
+      "1189240"
+    ],
+    "matches": {
+      "1189240": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "なんにち"
+        }
+      ],
+      "1588560": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "うるうどし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11466923",
+    "original": "牛乳買ったのって、何日前だった？",
+    "en": [
+      {
+        "id": "6436781",
+        "text": "How many days ago did you buy milk?"
+      }
+    ],
+    "vocabIds": [
+      "1473740",
+      "1231590",
+      "1189240",
+      "1387210",
+      "1392580"
+    ],
+    "matches": {
+      "1189240": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "なんにち"
+        }
+      ],
+      "1231590": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ぎゅうにゅう"
+        }
+      ],
+      "1387210": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "まえ"
+        }
+      ],
+      "1392580": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "まえ"
+        }
+      ],
+      "1473740": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "かった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11561473",
+    "original": "一ヶ月って、何日あるの？",
+    "en": [
+      {
+        "id": "5069000",
+        "text": "How many days are in a month?"
+      }
+    ],
+    "vocabIds": [
+      "1587410",
+      "1189240"
+    ],
+    "matches": {
+      "1189240": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "なんにち"
+        }
+      ],
+      "1587410": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "いちかげつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11571745",
+    "original": "1年は何日あるの？",
+    "en": [
+      {
+        "id": "11518863",
+        "text": "How many days are in a year?"
+      }
+    ],
+    "vocabIds": [
+      "1189240",
+      "2084840"
+    ],
+    "matches": {
+      "1189240": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "なんにち"
+        }
+      ],
+      "2084840": [
+        {
+          "start": 1,
+          "length": 1,
+          "reading": "ねん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11825864",
+    "original": "一年って、何日？",
+    "en": [
+      {
+        "id": "10819665",
+        "text": "How many days are there in a year?"
+      }
+    ],
+    "vocabIds": [
+      "1576280",
+      "1189240"
+    ],
+    "matches": {
+      "1189240": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "なんにち"
+        }
+      ],
+      "1576280": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いちねん"
+        }
+      ]
+    }
+  }
+]

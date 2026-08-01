@@ -1,0 +1,116 @@
+[
+  {
+    "id": "226389",
+    "original": "かぜには大食、熱には小食。",
+    "en": [
+      {
+        "id": "63733",
+        "text": "Feed a cold and starve a fever."
+      }
+    ],
+    "indices": "風邪{かぜ} に は(#2028920)[02]~ 大食~ 熱(ねつ) に は[02] 小食~",
+    "vocabIds": [
+      "1786260",
+      "1348310",
+      "1467710"
+    ],
+    "matches": {
+      "1348310": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "しょうしょく"
+        }
+      ],
+      "1467710": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "ねつ"
+        }
+      ],
+      "1786260": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "たいしょく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "234611",
+    "original": "あいつは小食なんだ。",
+    "en": [
+      {
+        "id": "71986",
+        "text": "Oh, he eats like a bird."
+      }
+    ],
+    "indices": "彼奴(あいつ)[01]{あいつ} は 小食 なのだ{なんだ}",
+    "vocabIds": [
+      "1348310"
+    ],
+    "matches": {
+      "1348310": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "しょうしょく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9165239",
+    "original": "あなた、少食だね？",
+    "en": [
+      {
+        "id": "9165225",
+        "text": "You don't eat much, do you?"
+      }
+    ],
+    "vocabIds": [
+      "1348310"
+    ],
+    "matches": {
+      "1348310": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "しょうしょく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11031371",
+    "original": "あなたより、少食よ。",
+    "en": [
+      {
+        "id": "9509918",
+        "text": "I eat less than you."
+      },
+      {
+        "id": "9737992",
+        "text": "I don't eat as much as you."
+      },
+      {
+        "id": "9737993",
+        "text": "I don't eat as much as you do."
+      }
+    ],
+    "vocabIds": [
+      "1348310"
+    ],
+    "matches": {
+      "1348310": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "しょうしょく"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,126 @@
+[
+  {
+    "id": "163755",
+    "original": "私の結膜炎は慢性です。",
+    "en": [
+      {
+        "id": "250756",
+        "text": "My conjunctivitis is chronic."
+      }
+    ],
+    "indices": "私(わたし)[01]{私の} 結膜炎 は 慢性 です",
+    "vocabIds": [
+      "1255000",
+      "1526640",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1255000": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "けつまくえん"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1526640": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "まんせい"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "192784",
+    "original": "よく結膜炎を起こします。",
+    "en": [
+      {
+        "id": "29950",
+        "text": "I often get conjunctivitis."
+      }
+    ],
+    "indices": "良く[02]{よく} 結膜炎~ を 起こす{起こします}",
+    "vocabIds": [
+      "1223660",
+      "1255000"
+    ],
+    "matches": {
+      "1223660": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "おこします"
+        }
+      ],
+      "1255000": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "けつまくえん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9699045",
+    "original": "結膜炎のせいで目が痒い。",
+    "en": [
+      {
+        "id": "9986849",
+        "text": "My eyes are itching because of conjunctivitis."
+      }
+    ],
+    "vocabIds": [
+      "1255000",
+      "1569570",
+      "1604890"
+    ],
+    "matches": {
+      "1255000": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "けつまくえん"
+        }
+      ],
+      "1569570": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "かゆい"
+        }
+      ],
+      "1604890": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "め"
+        }
+      ]
+    }
+  }
+]

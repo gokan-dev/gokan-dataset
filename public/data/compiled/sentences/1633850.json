@@ -1,0 +1,214 @@
+[
+  {
+    "id": "123321",
+    "original": "突然の風で池の表面が波立った。",
+    "en": [
+      {
+        "id": "280677",
+        "text": "A sudden wind agitated the surface of the pond."
+      }
+    ],
+    "indices": "突然{突然の} 風(かぜ) で(#2028980) 池 の 表面(ひょうめん)~ が 波立つ{波立った}",
+    "vocabIds": [
+      "1633850",
+      "1457040",
+      "1489880",
+      "2858759",
+      "1361130",
+      "1499720",
+      "1421700"
+    ],
+    "matches": {
+      "1361130": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "かぜ"
+        }
+      ],
+      "1421700": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "いけ"
+        }
+      ],
+      "1457040": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とつぜん"
+        }
+      ],
+      "1489880": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ひょうめん"
+        }
+      ],
+      "1499720": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "かぜ"
+        }
+      ],
+      "1633850": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "なみだった"
+        }
+      ],
+      "2858759": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ひょうめん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "196544",
+    "original": "ボートは波立つ水の上で揺れ動いた。",
+    "en": [
+      {
+        "id": "33723",
+        "text": "The boat danced on the choppy water."
+      }
+    ],
+    "indices": "ボート は 波立つ[01]~ 水(みず) の 上(うえ) で(#2028980) 揺れ動く{揺れ動いた}~",
+    "vocabIds": [
+      "1545720",
+      "1633850"
+    ],
+    "matches": {
+      "1545720": [
+        {
+          "start": 11,
+          "length": 5,
+          "reading": "ゆれうごいた"
+        }
+      ],
+      "1633850": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "なみだつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1794117",
+    "original": "天の海に雲の波立ち月の船星の林に漕ぎ隠る見ゆ。",
+    "en": [
+      {
+        "id": "12589146",
+        "text": "In the heavenly sea, waves of clouds rise; the moon appears as if it were a boat, hidden among the starry groves."
+      }
+    ],
+    "vocabIds": [
+      "1633850",
+      "2244480",
+      "1400530",
+      "1593430",
+      "1985190",
+      "2783740",
+      "1201190",
+      "1173100",
+      "1255430",
+      "1602800",
+      "1376310",
+      "1555440"
+    ],
+    "matches": {
+      "1173100": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "くも"
+        }
+      ],
+      "1201190": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "うみ"
+        }
+      ],
+      "1255430": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "つき"
+        }
+      ],
+      "1376310": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "ぼし"
+        }
+      ],
+      "1400530": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "こぎ"
+        }
+      ],
+      "1555440": [
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "はやし"
+        }
+      ],
+      "1593430": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "こもる"
+        }
+      ],
+      "1602800": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "ふね"
+        }
+      ],
+      "1633850": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "なみだち"
+        }
+      ],
+      "1985190": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "こもる"
+        }
+      ],
+      "2244480": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "てんの"
+        }
+      ],
+      "2783740": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "みるゆ"
+        }
+      ]
+    }
+  }
+]

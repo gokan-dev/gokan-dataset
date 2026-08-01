@@ -1,0 +1,71 @@
+[
+  {
+    "id": "223382",
+    "original": "このバーは学生のたまり場として知られている。",
+    "en": [
+      {
+        "id": "60714",
+        "text": "This bar is a popular student hangout."
+      }
+    ],
+    "indices": "此の{この} バー[01] は 学生(がくせい) の 溜まり場{たまり場}~ として 知る{知られている}",
+    "vocabIds": [
+      "1840300",
+      "1206900",
+      "1420470"
+    ],
+    "matches": {
+      "1206900": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "がくせい"
+        }
+      ],
+      "1420470": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "しら"
+        }
+      ],
+      "1840300": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "たまりば"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11027934",
+    "original": "この駐車場はネコのたまり場になってる。",
+    "en": [
+      {
+        "id": "11040305",
+        "text": "This parking lot is a gathering place for cats."
+      }
+    ],
+    "vocabIds": [
+      "1840300",
+      "1426920"
+    ],
+    "matches": {
+      "1426920": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "ちゅうしゃじょう"
+        }
+      ],
+      "1840300": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "たまりば"
+        }
+      ]
+    }
+  }
+]

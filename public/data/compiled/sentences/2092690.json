@@ -1,0 +1,107 @@
+[
+  {
+    "id": "111705",
+    "original": "彼はどうもうだつが上がらないね。",
+    "en": [
+      {
+        "id": "291978",
+        "text": "He doesn't seem to get on in the world."
+      }
+    ],
+    "indices": "彼(かれ)[01] は どうも うだつが上がらない ね(#2029080)[01]",
+    "vocabIds": [
+      "2092690",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "2092690": [
+        {
+          "start": 5,
+          "length": 9,
+          "reading": "うだつがあがらない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "115689",
+    "original": "彼は、うだつが上がらないようだ。",
+    "en": [
+      {
+        "id": "287981",
+        "text": "It seems as he is not going to get ahead."
+      }
+    ],
+    "indices": "彼(かれ)[01] は うだつが上がらない 様だ{ようだ}",
+    "vocabIds": [
+      "2092690",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "2092690": [
+        {
+          "start": 3,
+          "length": 9,
+          "reading": "うだつがあがらない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "237475",
+    "original": "うだつが上がらない。",
+    "en": [
+      {
+        "id": "65613",
+        "text": "He can't get on in the world."
+      },
+      {
+        "id": "1293275",
+        "text": "He has no hope of getting ahead."
+      }
+    ],
+    "indices": "うだつが上がらない",
+    "vocabIds": [
+      "2092690"
+    ],
+    "matches": {
+      "2092690": [
+        {
+          "start": 0,
+          "length": 9,
+          "reading": "うだつがあがらない"
+        }
+      ]
+    }
+  }
+]

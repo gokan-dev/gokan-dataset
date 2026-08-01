@@ -1,0 +1,72 @@
+[
+  {
+    "id": "81071",
+    "original": "満点を取るつもりだ。",
+    "en": [
+      {
+        "id": "322644",
+        "text": "I intend to get full marks."
+      }
+    ],
+    "indices": "満点[01] を 取る 積もり{つもり} だ",
+    "vocabIds": [
+      "1909930"
+    ],
+    "matches": {
+      "1909930": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "まんてんをとる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "183898",
+    "original": "漢文の試験で満点を取る生徒はほとんどいません。",
+    "en": [
+      {
+        "id": "21024",
+        "text": "Almost no students get full marks in Chinese classics."
+      }
+    ],
+    "indices": "漢文~ の 試験 で(#2028980) 満点[01] を 取る 生徒 は 殆ど{ほとんど} 居る(いる){いません}",
+    "vocabIds": [
+      "1909930",
+      "1213220",
+      "1312350",
+      "1379380"
+    ],
+    "matches": {
+      "1213220": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かんぶん"
+        }
+      ],
+      "1312350": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "しけん"
+        }
+      ],
+      "1379380": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "せいと"
+        }
+      ],
+      "1909930": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "まんてんをとる"
+        }
+      ]
+    }
+  }
+]

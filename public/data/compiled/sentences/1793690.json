@@ -1,0 +1,113 @@
+[
+  {
+    "id": "230756",
+    "original": "あの人の言うことはどうも心もとないわね。",
+    "en": [
+      {
+        "id": "68123",
+        "text": "I cannot place confidence in his words."
+      }
+    ],
+    "indices": "あの人 の 言う 事(こと){こと} は どうも[05] 心許ない[02]{心もとない}~ わね",
+    "vocabIds": [
+      "1793690",
+      "1000440",
+      "1587040"
+    ],
+    "matches": {
+      "1000440": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あのひと"
+        }
+      ],
+      "1587040": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "いう"
+        }
+      ],
+      "1793690": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "こころもとない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9978611",
+    "original": "メアリーに独りで行かせるのは心もとないから、トム、あの子についてってあげて。",
+    "en": [
+      {
+        "id": "10121626",
+        "text": "I feel anxious about letting Mary go just by herself, so would you go with her, Tom?"
+      },
+      {
+        "id": "10131640",
+        "text": "Tom, I don't feel comfortable letting Mary go by herself, so please go with her."
+      }
+    ],
+    "vocabIds": [
+      "1793690",
+      "1163700",
+      "2707760",
+      "1578850"
+    ],
+    "matches": {
+      "1163700": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "ひとりで"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "いか"
+        }
+      ],
+      "1793690": [
+        {
+          "start": 14,
+          "length": 7,
+          "reading": "こころもとないから"
+        }
+      ],
+      "2707760": [
+        {
+          "start": 25,
+          "length": 3,
+          "reading": "あのこ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12700761",
+    "original": "ちょっと心もとないんだけど。",
+    "en": [
+      {
+        "id": "4813060",
+        "text": "I'm a bit anxious."
+      }
+    ],
+    "vocabIds": [
+      "1793690"
+    ],
+    "matches": {
+      "1793690": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "こころもとない"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,95 @@
+[
+  {
+    "id": "90589",
+    "original": "彼女は機転を大いにきかせてきわどい質問をかわした。",
+    "en": [
+      {
+        "id": "313123",
+        "text": "She showed a great deal of wit in handling the delicate question."
+      }
+    ],
+    "indices": "彼女[01] は 機転~ を 大いに 利かせる[02]{きかせて}~ 際どい{きわどい} 質問 を 躱す{かわした}",
+    "vocabIds": [
+      "1412880",
+      "1483150",
+      "1221050",
+      "1320760"
+    ],
+    "matches": {
+      "1221050": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "きてん"
+        }
+      ],
+      "1320760": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "しつもん"
+        }
+      ],
+      "1412880": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "おおいに"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1179852",
+    "original": "私はそうする機転がきかなかった。",
+    "en": [
+      {
+        "id": "249803",
+        "text": "I didn't have the sense to do so."
+      }
+    ],
+    "vocabIds": [
+      "1221050",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1221050": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "きてん"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  }
+]

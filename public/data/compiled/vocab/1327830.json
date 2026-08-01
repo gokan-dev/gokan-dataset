@@ -1,0 +1,117 @@
+{
+  "id": "1327830",
+  "writtenForm": {
+    "kanji": "手書き",
+    "alternatives": [
+      "手書",
+      "手がき"
+    ],
+    "containedKanji": [
+      "手",
+      "書"
+    ]
+  },
+  "reading": {
+    "primary": "てがき",
+    "alternatives": [
+      "てかき"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 17479,
+    "kanaRank": 226001
+  },
+  "progression": {
+    "kklcStep": 79
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "handwriting"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "adj-no"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "handwritten",
+        "hand-drawn",
+        "hand-painted"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "skilled penman"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "てかき"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1327830",
+      "isBase": true,
+      "originalPrimaryReading": "てがき",
+      "originalGlosses": [
+        "handwriting"
+      ]
+    },
+    {
+      "id": "2583680",
+      "isBase": false,
+      "originalPrimaryReading": "てかき",
+      "originalGlosses": [
+        "skilled penman"
+      ]
+    }
+  ],
+  "components": [
+    "1327190",
+    "2037940"
+  ]
+}

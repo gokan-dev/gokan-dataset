@@ -1,0 +1,76 @@
+[
+  {
+    "id": "75665",
+    "original": "裏には裏がある。",
+    "en": [
+      {
+        "id": "328053",
+        "text": "There are wheels within wheels."
+      },
+      {
+        "id": "531951",
+        "text": "There's more to this than meets the eye."
+      }
+    ],
+    "indices": "裏(うら)[04] には 裏(うら)[04] が[01] 有る{ある}",
+    "vocabIds": [
+      "2420040",
+      "2098290",
+      "1550190"
+    ],
+    "matches": {
+      "1550190": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "うら"
+        }
+      ],
+      "2098290": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "うら"
+        }
+      ],
+      "2420040": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "うらがある"
+        }
+      ]
+    }
+  },
+  {
+    "id": "76383",
+    "original": "ものにはたいてい表と裏がある。",
+    "en": [
+      {
+        "id": "327337",
+        "text": "With most things there's both what you see and what's behind it."
+      }
+    ],
+    "indices": "物(もの){もの} には 大抵{たいてい} 表(おもて)[06] と 裏(うら)[04] が[01] 有る{ある}",
+    "vocabIds": [
+      "2420040",
+      "1489340"
+    ],
+    "matches": {
+      "1489340": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "ひょう"
+        }
+      ],
+      "2420040": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "うらがある"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "id": "77569",
+    "original": "列車が脱線して、約30名の乗客が死傷した。",
+    "en": [
+      {
+        "id": "326150",
+        "text": "The train was derailed and about thirty passengers were either killed or injured."
+      }
+    ],
+    "indices": "列車 が 脱線{脱線して} 約 名(めい)[01] の 乗客 が 死傷{死傷した}",
+    "vocabIds": [
+      "1558370",
+      "1416560",
+      "1580490",
+      "1658260",
+      "1538100",
+      "1531330"
+    ],
+    "matches": {
+      "1416560": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "だっせん"
+        }
+      ],
+      "1531330": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "めい"
+        }
+      ],
+      "1538100": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "やく"
+        }
+      ],
+      "1558370": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "れっしゃ"
+        }
+      ],
+      "1580490": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "じょうきゃく"
+        }
+      ],
+      "1658260": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "ししょう"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "id": "198410",
+    "original": "ハーブの専門店を聞いたことがありませんか。",
+    "en": [
+      {
+        "id": "35601",
+        "text": "Do you know a good specialty store dealing in herbs?"
+      }
+    ],
+    "indices": "ハーブ~ の 専門店~ を 聞く{聞いた} 事がある{ことがありません} か",
+    "vocabIds": [
+      "1389930",
+      "1591110"
+    ],
+    "matches": {
+      "1389930": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "せんもんてん"
+        }
+      ],
+      "1591110": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "きいた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8828821",
+    "original": "近くに帽子の専門店はありますか？",
+    "en": [
+      {
+        "id": "3732058",
+        "text": "Is there a hat shop nearby?"
+      }
+    ],
+    "vocabIds": [
+      "1389930",
+      "1242160",
+      "1519170"
+    ],
+    "matches": {
+      "1242160": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ちかく"
+        }
+      ],
+      "1389930": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "せんもんてん"
+        }
+      ],
+      "1519170": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ぼうし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11931117",
+    "original": "ホテルの横にはホットドッグ専門店があるよ。",
+    "en": [
+      {
+        "id": "6454463",
+        "text": "There is a hotdog restaurant next door to the hotel."
+      }
+    ],
+    "vocabIds": [
+      "1389930",
+      "1632900"
+    ],
+    "matches": {
+      "1389930": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "せんもんてん"
+        }
+      ],
+      "1632900": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "よこに"
+        }
+      ]
+    }
+  }
+]

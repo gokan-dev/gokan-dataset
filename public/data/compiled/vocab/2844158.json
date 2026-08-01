@@ -1,0 +1,107 @@
+{
+  "id": "2844158",
+  "writtenForm": {
+    "kanji": "禍",
+    "alternatives": [
+      "曲"
+    ],
+    "containedKanji": [
+      "禍"
+    ]
+  },
+  "reading": {
+    "primary": "か",
+    "alternatives": [
+      "まが"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 28455
+  },
+  "progression": {
+    "kklcStep": 1486
+  },
+  "senses": [
+    {
+      "pos": [
+        "n",
+        "n-suf"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "disaster",
+        "calamity",
+        "misfortune"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "wickedness",
+        "evil",
+        "calamity",
+        "disaster"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "まが"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": false,
+  "mergedVocabs": [
+    {
+      "id": "2844158",
+      "isBase": true,
+      "originalPrimaryReading": "か",
+      "originalGlosses": [
+        "disaster",
+        "calamity",
+        "misfortune"
+      ]
+    },
+    {
+      "id": "2261020",
+      "isBase": false,
+      "originalPrimaryReading": "まが",
+      "originalGlosses": [
+        "wickedness",
+        "evil",
+        "calamity"
+      ]
+    }
+  ],
+  "parents": [
+    "1194410",
+    "1390160",
+    "2845216",
+    "1194420"
+  ]
+}

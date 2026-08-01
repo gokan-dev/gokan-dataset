@@ -1,0 +1,67 @@
+[
+  {
+    "id": "75873",
+    "original": "虫の音がきこえます。",
+    "en": [
+      {
+        "id": "327845",
+        "text": "I can hear the chirping of insects."
+      }
+    ],
+    "indices": "虫の音~ が 聞こえる[01]{きこえます}",
+    "vocabIds": [
+      "2096460"
+    ],
+    "matches": {
+      "2096460": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "むしのおと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10587766",
+    "original": "虫の音が庭から聞こえてくる。",
+    "en": [
+      {
+        "id": "12622790",
+        "text": "Insect sounds are coming from the garden."
+      },
+      {
+        "id": "13756786",
+        "text": "The sound of insects can be heard from the garden."
+      }
+    ],
+    "vocabIds": [
+      "1591150",
+      "2096460",
+      "1436130"
+    ],
+    "matches": {
+      "1436130": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "にわ"
+        }
+      ],
+      "1591150": [
+        {
+          "start": 7,
+          "length": 6,
+          "reading": "きこえてくる"
+        }
+      ],
+      "2096460": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "むしのおと"
+        }
+      ]
+    }
+  }
+]

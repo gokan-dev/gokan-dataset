@@ -1,0 +1,157 @@
+[
+  {
+    "id": "89915",
+    "original": "彼女は財布のひもをしっかり締めていた。",
+    "en": [
+      {
+        "id": "313800",
+        "text": "She kept a tight rein on the purse strings."
+      }
+    ],
+    "indices": "彼女[01] は 財布 の 紐[01]{ひも} を 確り{しっかり} 締める{締めていた}",
+    "vocabIds": [
+      "2867879",
+      "1436570",
+      "1483150"
+    ],
+    "matches": {
+      "1436570": [
+        {
+          "start": 13,
+          "length": 5,
+          "reading": "しめていた"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "2867879": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "さいふのひも"
+        }
+      ]
+    }
+  },
+  {
+    "id": "170205",
+    "original": "財布の紐を締めなくてはいけない。",
+    "en": [
+      {
+        "id": "244279",
+        "text": "We have to be careful with expenses."
+      }
+    ],
+    "indices": "財布 の 紐[01] を 締める{締め} 無くてはいけない{なくてはいけない}",
+    "vocabIds": [
+      "1436570",
+      "2867879"
+    ],
+    "matches": {
+      "1436570": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "しめなくて"
+        }
+      ],
+      "2867879": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "さいふのひも"
+        }
+      ]
+    }
+  },
+  {
+    "id": "186442",
+    "original": "我が家では女房が財布の紐を握っている。",
+    "en": [
+      {
+        "id": "23578",
+        "text": "My wife holds the purse strings in our family."
+      }
+    ],
+    "indices": "我が家 で(#2028980) は 女房 が 財布の紐を握る{財布の紐を握っている}~",
+    "vocabIds": [
+      "1152720",
+      "2867879",
+      "1606650",
+      "1345420"
+    ],
+    "matches": {
+      "1152720": [
+        {
+          "start": 13,
+          "length": 5,
+          "reading": "にぎっている"
+        }
+      ],
+      "1345420": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "にょうぼう"
+        }
+      ],
+      "1606650": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "わがや"
+        }
+      ],
+      "2867879": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "さいふのひも"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9519633",
+    "original": "今月は財布の紐を締めなくちゃ。",
+    "en": [
+      {
+        "id": "257503",
+        "text": "I have to reduce my expenses this month."
+      }
+    ],
+    "vocabIds": [
+      "1436570",
+      "2867879",
+      "1289100"
+    ],
+    "matches": {
+      "1289100": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こんげつ"
+        }
+      ],
+      "1436570": [
+        {
+          "start": 8,
+          "length": 6,
+          "reading": "しめなくちゃ"
+        }
+      ],
+      "2867879": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "さいふのひも"
+        }
+      ]
+    }
+  }
+]

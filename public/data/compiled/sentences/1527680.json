@@ -1,0 +1,196 @@
+[
+  {
+    "id": "81057",
+    "original": "未成年者は喫煙を禁じられている。",
+    "en": [
+      {
+        "id": "322657",
+        "text": "Persons under age are prohibited from smoking."
+      }
+    ],
+    "indices": "未成年者 は 喫煙 を 禁じる{禁じられている}",
+    "vocabIds": [
+      "1527680",
+      "1241470",
+      "1226390"
+    ],
+    "matches": {
+      "1226390": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "きつえん"
+        }
+      ],
+      "1241470": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "きんじ"
+        }
+      ],
+      "1527680": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "みせいねんしゃ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "81058",
+    "original": "未成年者はたばこを吸うのを禁じられている。",
+    "en": [
+      {
+        "id": "322657",
+        "text": "Persons under age are prohibited from smoking."
+      }
+    ],
+    "indices": "未成年者 は 煙草を吸う{たばこを吸う} の を 禁じる{禁じられている}",
+    "vocabIds": [
+      "1891810",
+      "1527680",
+      "1241470"
+    ],
+    "matches": {
+      "1241470": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "きんじ"
+        }
+      ],
+      "1527680": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "みせいねんしゃ"
+        }
+      ],
+      "1891810": [
+        {
+          "start": 5,
+          "length": 6,
+          "reading": "たばこをすう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "81059",
+    "original": "未成年者の喫煙は法律で禁じられている。",
+    "en": [
+      {
+        "id": "322656",
+        "text": "Minors are prohibited from smoking by law."
+      }
+    ],
+    "indices": "未成年者~ の 喫煙 は 法律 で(#2028980) 禁じる{禁じられている}",
+    "vocabIds": [
+      "1527680",
+      "1241470",
+      "1226390",
+      "1517480"
+    ],
+    "matches": {
+      "1226390": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "きつえん"
+        }
+      ],
+      "1241470": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "きんじ"
+        }
+      ],
+      "1517480": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "ほうりつ"
+        }
+      ],
+      "1527680": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "みせいねんしゃ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "81060",
+    "original": "未成年者お断り。",
+    "en": [
+      {
+        "id": "322655",
+        "text": "Adults only."
+      },
+      {
+        "id": "433988",
+        "text": "Minors aren't allowed to enter."
+      },
+      {
+        "id": "433990",
+        "text": "No minors allowed."
+      }
+    ],
+    "indices": "未成年者 お断わり{お断り}",
+    "vocabIds": [
+      "1527680",
+      "1631690"
+    ],
+    "matches": {
+      "1527680": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "みせいねんしゃ"
+        }
+      ],
+      "1631690": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "おことわり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9329717",
+    "original": "未成年者はお断りします。",
+    "en": [
+      {
+        "id": "433988",
+        "text": "Minors aren't allowed to enter."
+      }
+    ],
+    "vocabIds": [
+      "1527680",
+      "1631690"
+    ],
+    "matches": {
+      "1527680": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "みせいねんしゃ"
+        }
+      ],
+      "1631690": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "おことわり"
+        }
+      ]
+    }
+  }
+]

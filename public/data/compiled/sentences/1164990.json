@@ -1,0 +1,57 @@
+[
+  {
+    "id": "146152",
+    "original": "乗客は一定量の荷物を機内に持ち込むことができる。",
+    "en": [
+      {
+        "id": "268410",
+        "text": "Passengers can take a certain amount of baggage on the airplane."
+      }
+    ],
+    "indices": "乗客 は 一定量~ の 荷物[01] を 機内 に 持ち込む[01] 事が出来る{ことができる}",
+    "vocabIds": [
+      "1315590",
+      "1164990",
+      "1580490",
+      "1195430",
+      "1221120"
+    ],
+    "matches": {
+      "1164990": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "いっていりょう"
+        }
+      ],
+      "1195430": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "にもつ"
+        }
+      ],
+      "1221120": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "きない"
+        }
+      ],
+      "1315590": [
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "もちこむ"
+        }
+      ],
+      "1580490": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じょうきゃく"
+        }
+      ]
+    }
+  }
+]

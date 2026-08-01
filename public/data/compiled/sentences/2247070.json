@@ -1,0 +1,107 @@
+[
+  {
+    "id": "83862",
+    "original": "腹を空かした赤ちゃんはただ泣くばかりでした。",
+    "en": [
+      {
+        "id": "319854",
+        "text": "The hungry baby did nothing but cry."
+      }
+    ],
+    "indices": "腹を空かす{腹を空かした}~ 赤ちゃん は 唯[01]{ただ} 泣く 許り{ばかり} です{でした}",
+    "vocabIds": [
+      "1383260",
+      "2247070",
+      "1229840",
+      "1501110"
+    ],
+    "matches": {
+      "1229840": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "なく"
+        }
+      ],
+      "1383260": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "あかちゃん"
+        }
+      ],
+      "1501110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "はら"
+        }
+      ],
+      "2247070": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "すかした"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8596281",
+    "original": "私がお腹を空かしてたってどうしてわかったの？",
+    "en": [
+      {
+        "id": "7518624",
+        "text": "How did you know that I was hungry?"
+      },
+      {
+        "id": "5848299",
+        "text": "How did you know I was hungry?"
+      }
+    ],
+    "vocabIds": [
+      "2247070",
+      "1002610",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1002610": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "おなか"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2247070": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "すかして"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,139 @@
+[
+  {
+    "id": "224391",
+    "original": "ここに彼の書き置きがある。これはここに来たに違いない。",
+    "en": [
+      {
+        "id": "61726",
+        "text": "Here is a note he left. He must have been here."
+      }
+    ],
+    "indices": "此処[01]{ここ} に 彼(かれ)[01] の 書き置き~ が[01] 有る{ある} 此れ[01]{これ} は 此処[01]{ここ} に 来る(くる)[01]{来た} に 違いない",
+    "vocabIds": [
+      "1654040",
+      "1610740",
+      "1000420",
+      "1547720"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かれの"
+        }
+      ],
+      "1547720": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "きた"
+        }
+      ],
+      "1610740": [
+        {
+          "start": 22,
+          "length": 4,
+          "reading": "ちがいない"
+        }
+      ],
+      "1654040": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "かきおき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "869875",
+    "original": "私は机に書き置きを見つけたが、誰が書いたものか判らない。",
+    "en": [
+      {
+        "id": "788260",
+        "text": "I noticed a note on my desk, but I do not know who wrote it."
+      },
+      {
+        "id": "7492579",
+        "text": "I noticed a note on my desk, but I don't know who wrote it."
+      }
+    ],
+    "vocabIds": [
+      "1604570",
+      "1654040",
+      "1606560",
+      "1343950",
+      "2864173",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1220210"
+    ],
+    "matches": {
+      "1220210": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "つくえ"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1343950": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "かいた"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1604570": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "みつけたが"
+        }
+      ],
+      "1606560": [
+        {
+          "start": 23,
+          "length": 4,
+          "reading": "わからない"
+        }
+      ],
+      "1654040": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "かきおき"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2864173": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "だれが"
+        }
+      ]
+    }
+  }
+]

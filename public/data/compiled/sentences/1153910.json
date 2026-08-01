@@ -1,0 +1,163 @@
+[
+  {
+    "id": "191325",
+    "original": "安静にして寝ていてください。",
+    "en": [
+      {
+        "id": "28487",
+        "text": "You should stay in bed."
+      }
+    ],
+    "indices": "安静 に 為る(する){して} 寝る{寝ていて} 下さい{ください}",
+    "vocabIds": [
+      "1360010",
+      "1153910"
+    ],
+    "matches": {
+      "1153910": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あんせい"
+        }
+      ],
+      "1360010": [
+        {
+          "start": 5,
+          "length": 8,
+          "reading": "ねていてください"
+        }
+      ]
+    }
+  },
+  {
+    "id": "191326",
+    "original": "安静にしていてください。",
+    "en": [
+      {
+        "id": "28488",
+        "text": "Stay quiet and rest."
+      }
+    ],
+    "indices": "安静 に 為る(する){していて} 下さい{ください}",
+    "vocabIds": [
+      "1153910"
+    ],
+    "matches": {
+      "1153910": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あんせい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "216105",
+    "original": "しばらく安静にしておきなさい。",
+    "en": [
+      {
+        "id": "53405",
+        "text": "Keep quiet in bed for a while."
+      }
+    ],
+    "indices": "暫く{しばらく} 安静~ に 為る(する){して} 置く[09]{おきなさい}",
+    "vocabIds": [
+      "1153910"
+    ],
+    "matches": {
+      "1153910": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "あんせい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1123681",
+    "original": "彼女は彼に、もう二日間は安静にしているようにアドバイスした。",
+    "en": [
+      {
+        "id": "886872",
+        "text": "She advised him to stay in bed for two more days."
+      }
+    ],
+    "vocabIds": [
+      "2012690",
+      "1483150",
+      "1153910",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1153910": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "あんせい"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "2012690": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "ににちかん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9829014",
+    "original": "月曜まで、安静にしてください。",
+    "en": [
+      {
+        "id": "9814483",
+        "text": "Stay in bed until next Monday."
+      }
+    ],
+    "vocabIds": [
+      "1255880",
+      "1153910"
+    ],
+    "matches": {
+      "1153910": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "あんせい"
+        }
+      ],
+      "1255880": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "げつよう"
+        }
+      ]
+    }
+  }
+]

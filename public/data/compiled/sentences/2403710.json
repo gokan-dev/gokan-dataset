@@ -1,0 +1,203 @@
+[
+  {
+    "id": "223145",
+    "original": "このホテルは公共交通機関の点から見ると便利な所に位置している。",
+    "en": [
+      {
+        "id": "60476",
+        "text": "This hotel is conveniently located in terms of public transportation."
+      }
+    ],
+    "indices": "此の{この} ホテル は 公共 交通機関 の 点(てん) から 見る と 便利{便利な} 所(ところ) に 位置[01] 為る(する){している}",
+    "vocabIds": [
+      "2403710",
+      "1259290",
+      "1512610",
+      "1587310",
+      "1007860",
+      "1343100"
+    ],
+    "matches": {
+      "1007860": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "てん"
+        }
+      ],
+      "1259290": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "みると"
+        }
+      ],
+      "1343100": [
+        {
+          "start": 22,
+          "length": 1,
+          "reading": "ところ"
+        }
+      ],
+      "1512610": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "べんり"
+        }
+      ],
+      "1587310": [
+        {
+          "start": 24,
+          "length": 2,
+          "reading": "いち"
+        }
+      ],
+      "2403710": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "こうきょうこうつうきかん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8613812",
+    "original": "トムは公共交通機関を利用する。",
+    "en": [
+      {
+        "id": "5651231",
+        "text": "Tom uses public transportation."
+      }
+    ],
+    "vocabIds": [
+      "2403710",
+      "1549660"
+    ],
+    "matches": {
+      "1549660": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "りよう"
+        }
+      ],
+      "2403710": [
+        {
+          "start": 3,
+          "length": 6,
+          "reading": "こうきょうこうつうきかん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9841923",
+    "original": "ここは公共交通機関の便が悪いのよ。",
+    "en": [
+      {
+        "id": "460490",
+        "text": "This place isn't convenient for public transportation."
+      }
+    ],
+    "vocabIds": [
+      "2403710",
+      "1151260",
+      "1403390",
+      "2772730",
+      "1177490",
+      "1512360"
+    ],
+    "matches": {
+      "1151260": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "わるい"
+        }
+      ],
+      "1177490": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "びん"
+        }
+      ],
+      "1403390": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "わるい"
+        }
+      ],
+      "1512360": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "びん"
+        }
+      ],
+      "2403710": [
+        {
+          "start": 3,
+          "length": 6,
+          "reading": "こうきょうこうつうきかん"
+        }
+      ],
+      "2772730": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "わるい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10906882",
+    "original": "フィンランドの公共交通機関は時間を正確に守る。",
+    "en": [
+      {
+        "id": "6070337",
+        "text": "In Finland public transport is always on time."
+      }
+    ],
+    "vocabIds": [
+      "2403710",
+      "1315920",
+      "1376760",
+      "1327120"
+    ],
+    "matches": {
+      "1315920": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "じかん"
+        }
+      ],
+      "1327120": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "まもる"
+        }
+      ],
+      "1376760": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "せいかく"
+        }
+      ],
+      "2403710": [
+        {
+          "start": 7,
+          "length": 6,
+          "reading": "こうきょうこうつうきかん"
+        }
+      ]
+    }
+  }
+]

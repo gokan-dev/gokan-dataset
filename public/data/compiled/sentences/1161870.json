@@ -1,0 +1,87 @@
+[
+  {
+    "id": "230761",
+    "original": "あの人の一挙手一投足が注目の的です。",
+    "en": [
+      {
+        "id": "68128",
+        "text": "People notice every move he makes."
+      }
+    ],
+    "indices": "あの人 の 一挙手一投足~ が 注目 の 的(まと) です",
+    "vocabIds": [
+      "1161870",
+      "2726170",
+      "1000440"
+    ],
+    "matches": {
+      "1000440": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あのひと"
+        }
+      ],
+      "1161870": [
+        {
+          "start": 4,
+          "length": 6,
+          "reading": "いっきょしゅいっとうそく"
+        }
+      ],
+      "2726170": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "ちゅうもくのてき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10587770",
+    "original": "監視カメラによって人々の一挙手一投足が見張られている。",
+    "en": [
+      {
+        "id": "11347365",
+        "text": "Because of security cameras, everyone's every move is being watched."
+      }
+    ],
+    "vocabIds": [
+      "1161870",
+      "1990020",
+      "1259880",
+      "1580650"
+    ],
+    "matches": {
+      "1161870": [
+        {
+          "start": 12,
+          "length": 6,
+          "reading": "いっきょしゅいっとうそく"
+        }
+      ],
+      "1259880": [
+        {
+          "start": 19,
+          "length": 3,
+          "reading": "みはら"
+        }
+      ],
+      "1580650": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "ひとびと"
+        }
+      ],
+      "1990020": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "かんしかめら"
+        }
+      ]
+    }
+  }
+]

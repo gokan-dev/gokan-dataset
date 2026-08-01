@@ -1,0 +1,81 @@
+[
+  {
+    "id": "205052",
+    "original": "それは人気商品だ。",
+    "en": [
+      {
+        "id": "42294",
+        "text": "This is a real popular item."
+      }
+    ],
+    "indices": "其れ[01]{それ} は 人気(にんき) 商品 だ",
+    "vocabIds": [
+      "2862096"
+    ],
+    "matches": {
+      "2862096": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "にんきしょうひん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10705034",
+    "original": "これは、かなりの人気商品なんですよ。",
+    "en": [
+      {
+        "id": "10720797",
+        "text": "This is a very popular product."
+      },
+      {
+        "id": "10720798",
+        "text": "This is a very popular item."
+      }
+    ],
+    "vocabIds": [
+      "2862096"
+    ],
+    "matches": {
+      "2862096": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "にんきしょうひん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10763937",
+    "original": "これは正真正銘の人気商品ですよ。",
+    "en": [
+      {
+        "id": "42294",
+        "text": "This is a real popular item."
+      }
+    ],
+    "vocabIds": [
+      "1377430",
+      "2862096"
+    ],
+    "matches": {
+      "1377430": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "しょうしんしょうめい"
+        }
+      ],
+      "2862096": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "にんきしょうひん"
+        }
+      ]
+    }
+  }
+]

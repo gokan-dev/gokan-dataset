@@ -1,0 +1,142 @@
+[
+  {
+    "id": "96099",
+    "original": "彼らは木の皮を剥いだ。",
+    "en": [
+      {
+        "id": "307606",
+        "text": "They stripped the tree of its bark."
+      }
+    ],
+    "indices": "彼ら(かれら) は 木(き) の 皮 を 剥ぐ{剥いだ}",
+    "vocabIds": [
+      "2833873",
+      "1474370",
+      "1483090",
+      "2397090"
+    ],
+    "matches": {
+      "1474370": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "むいだ"
+        }
+      ],
+      "1483090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれら"
+        }
+      ],
+      "2397090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれら"
+        }
+      ],
+      "2833873": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "きのかわ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "146512",
+    "original": "少年は木の皮を剥いだ。",
+    "en": [
+      {
+        "id": "268050",
+        "text": "The boy stripped a tree of the bark."
+      }
+    ],
+    "indices": "少年[01] は 木(き) の 皮 を 剥ぐ{剥いだ}~",
+    "vocabIds": [
+      "2833873",
+      "1474370",
+      "1349170"
+    ],
+    "matches": {
+      "1349170": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しょうねん"
+        }
+      ],
+      "1474370": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "むいだ"
+        }
+      ],
+      "2833873": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "きのかわ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "991765",
+    "original": "熊は木の皮で背中を掻く習性がある。",
+    "en": [
+      {
+        "id": "992026",
+        "text": "Bears often scratch their backs on the bark of trees."
+      }
+    ],
+    "vocabIds": [
+      "2833873",
+      "1472800",
+      "1399970",
+      "1333130",
+      "1246850"
+    ],
+    "matches": {
+      "1246850": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "くま"
+        }
+      ],
+      "1333130": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "しゅうせい"
+        }
+      ],
+      "1399970": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "かく"
+        }
+      ],
+      "1472800": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "せなか"
+        }
+      ],
+      "2833873": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "きのかわ"
+        }
+      ]
+    }
+  }
+]

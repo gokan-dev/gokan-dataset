@@ -1,0 +1,501 @@
+[
+  {
+    "id": "149579",
+    "original": "失礼しますといって席を立った。",
+    "en": [
+      {
+        "id": "264981",
+        "text": "I excused myself from the table."
+      }
+    ],
+    "indices": "失礼[03] 為る(する){します} と 言う{いって} 席(せき) を 立つ[04]{立った}~",
+    "vocabIds": [
+      "2276200",
+      "1597040",
+      "1382250",
+      "1604880"
+    ],
+    "matches": {
+      "1382250": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "せき"
+        }
+      ],
+      "1597040": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "たった"
+        }
+      ],
+      "1604880": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "せき"
+        }
+      ],
+      "2276200": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "しつれいします"
+        }
+      ]
+    }
+  },
+  {
+    "id": "202142",
+    "original": "ではこれで失礼します。",
+    "en": [
+      {
+        "id": "39354",
+        "text": "I am afraid I must be going now."
+      }
+    ],
+    "indices": "では 此れ[01]{これ} で(#2028980) 失礼[03] 為る(する){します}",
+    "vocabIds": [
+      "2276200"
+    ],
+    "matches": {
+      "2276200": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "しつれいします"
+        }
+      ]
+    }
+  },
+  {
+    "id": "202758",
+    "original": "ちょっと失礼します。",
+    "en": [
+      {
+        "id": "39993",
+        "text": "Excuse me a minute."
+      },
+      {
+        "id": "3393231",
+        "text": "Excuse me a moment."
+      }
+    ],
+    "indices": "一寸(ちょっと){ちょっと} 失礼[02] 為る(する){します}",
+    "vocabIds": [
+      "2276200"
+    ],
+    "matches": {
+      "2276200": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "しつれいします"
+        }
+      ]
+    }
+  },
+  {
+    "id": "205767",
+    "original": "それではそろそろ失礼します。",
+    "en": [
+      {
+        "id": "43011",
+        "text": "Well, I must be going."
+      }
+    ],
+    "indices": "其れでは[01]{それでは} そろそろ 失礼[03]~ 為る(する){します}",
+    "vocabIds": [
+      "2276200"
+    ],
+    "matches": {
+      "2276200": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "しつれいします"
+        }
+      ]
+    }
+  },
+  {
+    "id": "226501",
+    "original": "お話中失礼します。",
+    "en": [
+      {
+        "id": "63846",
+        "text": "I'm sorry to interrupt you."
+      },
+      {
+        "id": "2738999",
+        "text": "Pardon me for interrupting."
+      },
+      {
+        "id": "63851",
+        "text": "Excuse me for interrupting you."
+      },
+      {
+        "id": "2267637",
+        "text": "Pardon me for interrupting you."
+      },
+      {
+        "id": "434013",
+        "text": "I'm sorry to disturb you while you're talking."
+      },
+      {
+        "id": "434012",
+        "text": "I'm sorry to interrupt you while you're talking."
+      }
+    ],
+    "indices": "お話し中{お話中} 失礼[02] 為る(する){します}",
+    "vocabIds": [
+      "2276200",
+      "1002750"
+    ],
+    "matches": {
+      "1002750": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "おはなしちゅう"
+        }
+      ],
+      "2276200": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "しつれいします"
+        }
+      ]
+    }
+  },
+  {
+    "id": "234913",
+    "original": "９時ですからもう失礼します。",
+    "en": [
+      {
+        "id": "72289",
+        "text": "It is nine. I'm afraid I must be leaving now."
+      }
+    ],
+    "indices": "時(じ)[01] ですから もう[02] 失礼[02] 為る(する){します}",
+    "vocabIds": [
+      "2276200",
+      "2845349"
+    ],
+    "matches": {
+      "2276200": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "しつれいします"
+        }
+      ],
+      "2845349": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きゅうじ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "507553",
+    "original": "失礼します。",
+    "en": [
+      {
+        "id": "31346",
+        "text": "May I be excused?"
+      },
+      {
+        "id": "433504",
+        "text": "Excuse me."
+      }
+    ],
+    "indices": "失礼[03] 為る(する){します}",
+    "vocabIds": [
+      "2276200"
+    ],
+    "matches": {
+      "2276200": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "しつれいします"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1191421",
+    "original": "お話し中失礼します。",
+    "en": [
+      {
+        "id": "434013",
+        "text": "I'm sorry to disturb you while you're talking."
+      }
+    ],
+    "vocabIds": [
+      "2276200",
+      "1002750"
+    ],
+    "matches": {
+      "1002750": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "おはなしちゅう"
+        }
+      ],
+      "2276200": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "しつれいします"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1368117",
+    "original": "「失礼します」と言った。ザンネンだと思う。",
+    "en": [
+      {
+        "id": "1487455",
+        "text": "\"If you'll excuse me...\" he said. I think it's a shame."
+      }
+    ],
+    "vocabIds": [
+      "2276200",
+      "2540200",
+      "1589350"
+    ],
+    "matches": {
+      "1589350": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "おもう"
+        }
+      ],
+      "2276200": [
+        {
+          "start": 1,
+          "length": 5,
+          "reading": "しつれいします"
+        }
+      ],
+      "2540200": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "といった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "632479",
+    "original": "最近では、「この辺で失礼します」という言葉は随分丁寧な表現になってしまいましたね。",
+    "en": [
+      {
+        "id": "5151663",
+        "text": "\"I'm sorry for these circumstances\" has ended up becoming quite a polite expression these days, hasn't it?"
+      },
+      {
+        "id": "5151664",
+        "text": "\"I must apologise for the state of things\" has ended up becoming quite a polite expression these days, hasn't it?"
+      }
+    ],
+    "vocabIds": [
+      "2276200",
+      "1004750",
+      "1293780",
+      "1264540",
+      "1372800",
+      "1427360",
+      "1489510"
+    ],
+    "matches": {
+      "1004750": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "このあたり"
+        }
+      ],
+      "1264540": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "ことば"
+        }
+      ],
+      "1293780": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "さいきん"
+        }
+      ],
+      "1372800": [
+        {
+          "start": 22,
+          "length": 2,
+          "reading": "ずいぶん"
+        }
+      ],
+      "1427360": [
+        {
+          "start": 24,
+          "length": 2,
+          "reading": "ていねい"
+        }
+      ],
+      "1489510": [
+        {
+          "start": 27,
+          "length": 2,
+          "reading": "ひょうげん"
+        }
+      ],
+      "2276200": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "しつれいします"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9519430",
+    "original": "失礼します。これってあなたのですか？",
+    "en": [
+      {
+        "id": "8808786",
+        "text": "Excuse me, is this yours?"
+      },
+      {
+        "id": "8808785",
+        "text": "Excuse me, does this belong to you?"
+      }
+    ],
+    "vocabIds": [
+      "2276200"
+    ],
+    "matches": {
+      "2276200": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "しつれいします"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8564886",
+    "original": "「また金曜日に来るからその時ね。ばいばい」「はい、失礼します」",
+    "en": [
+      {
+        "id": "10181972",
+        "text": "\"I'll be here again on Friday, so see you then. Bye-Bye.\" \"Yeah, I'll be off now.\""
+      }
+    ],
+    "vocabIds": [
+      "2276200",
+      "1547720",
+      "1243320",
+      "2002300"
+    ],
+    "matches": {
+      "1243320": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "きんようび"
+        }
+      ],
+      "1547720": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "くるから"
+        }
+      ],
+      "2002300": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "そのとき"
+        }
+      ],
+      "2276200": [
+        {
+          "start": 25,
+          "length": 5,
+          "reading": "しつれいします"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11018024",
+    "original": "行かなきゃいけないんで、失礼します。",
+    "en": [
+      {
+        "id": "5181050",
+        "text": "Excuse me. I need to go."
+      }
+    ],
+    "vocabIds": [
+      "1578850",
+      "2276200"
+    ],
+    "matches": {
+      "1578850": [
+        {
+          "start": 0,
+          "length": 11,
+          "reading": "いかなきゃいけないんで"
+        }
+      ],
+      "2276200": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "しつれいします"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10911484",
+    "original": "では失礼します。",
+    "en": [
+      {
+        "id": "12247986",
+        "text": "If you'll excuse me."
+      },
+      {
+        "id": "433504",
+        "text": "Excuse me."
+      }
+    ],
+    "vocabIds": [
+      "2276200"
+    ],
+    "matches": {
+      "2276200": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "しつれいします"
+        }
+      ]
+    }
+  }
+]

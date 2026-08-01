@@ -1,0 +1,80 @@
+[
+  {
+    "id": "138461",
+    "original": "他力本願じゃだめだよ。自分でなんとかしようという気持ちがなくちゃ。",
+    "en": [
+      {
+        "id": "274774",
+        "text": "You shouldn't rely on others. It's important to want to help yourself."
+      }
+    ],
+    "indices": "他力本願[02]~ じゃ(#2851029) 駄目{だめ} だ よ 自分で 何とか{なんとか} 為る(する){しよう} と言う{という} 気持ち が 無くちゃ{なくちゃ}",
+    "vocabIds": [
+      "1407440",
+      "2830519",
+      "1591430"
+    ],
+    "matches": {
+      "1407440": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "たりきほんがん"
+        }
+      ],
+      "1591430": [
+        {
+          "start": 24,
+          "length": 3,
+          "reading": "きもち"
+        }
+      ],
+      "2830519": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "じぶんで"
+        }
+      ]
+    }
+  },
+  {
+    "id": "138462",
+    "original": "他力本願じゃ、世の中渡っていけないよ。",
+    "en": [
+      {
+        "id": "274773",
+        "text": "You're overly reliant on people. You'll never make it in the world that way."
+      }
+    ],
+    "indices": "他力本願[02] じゃ(#2851029) 世の中 渡る{渡っていけない} よ[01]",
+    "vocabIds": [
+      "1444680",
+      "1407440",
+      "1373850"
+    ],
+    "matches": {
+      "1373850": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "よのなか"
+        }
+      ],
+      "1407440": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "たりきほんがん"
+        }
+      ],
+      "1444680": [
+        {
+          "start": 10,
+          "length": 7,
+          "reading": "わたっていけない"
+        }
+      ]
+    }
+  }
+]

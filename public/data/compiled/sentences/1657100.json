@@ -1,0 +1,92 @@
+[
+  {
+    "id": "75061",
+    "original": "花、元気ないわね。水をやりたいんだけど、水差しない？",
+    "en": [
+      {
+        "id": "328658",
+        "text": "The flowers don't look happy. I'd like to water them. Is there a watering can?"
+      },
+      {
+        "id": "696365",
+        "text": "The flowers don't look well. I'd like to water them. Is there a watering can?"
+      }
+    ],
+    "indices": "花[01] 元気 無い{ない} わね 水をやる{水をやり} たい[01] のだ{んだ} けど 水差し 無い{ない}",
+    "vocabIds": [
+      "1657100",
+      "1260720",
+      "1194500",
+      "1371260"
+    ],
+    "matches": {
+      "1194500": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "はな"
+        }
+      ],
+      "1260720": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "げんき"
+        }
+      ],
+      "1371260": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "みず"
+        }
+      ],
+      "1657100": [
+        {
+          "start": 20,
+          "length": 3,
+          "reading": "みずさしし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "143672",
+    "original": "水差しの取っ手が壊れた。",
+    "en": [
+      {
+        "id": "270895",
+        "text": "The handle of the pitcher was broken."
+      }
+    ],
+    "indices": "水差し~ の 取っ手 が 壊れる[01]{壊れた}",
+    "vocabIds": [
+      "1657100",
+      "1598780",
+      "1199900"
+    ],
+    "matches": {
+      "1199900": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "こわれた"
+        }
+      ],
+      "1598780": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "とって"
+        }
+      ],
+      "1657100": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "みずさし"
+        }
+      ]
+    }
+  }
+]

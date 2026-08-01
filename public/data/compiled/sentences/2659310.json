@@ -1,0 +1,71 @@
+[
+  {
+    "id": "212583",
+    "original": "町は昔のままだった。",
+    "en": [
+      {
+        "id": "49866",
+        "text": "The town was exactly the same as before."
+      }
+    ],
+    "indices": "町(まち) は 昔{昔の} 儘[01]{まま}~ だ{だった}",
+    "vocabIds": [
+      "2659310",
+      "1603990"
+    ],
+    "matches": {
+      "1603990": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "まち"
+        }
+      ],
+      "2659310": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "むかしのまま"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11065648",
+    "original": "俺は、昔のままだ。",
+    "en": [
+      {
+        "id": "4135339",
+        "text": "I'm still the same person I used to be."
+      }
+    ],
+    "vocabIds": [
+      "2659310",
+      "1266890",
+      "1576870"
+    ],
+    "matches": {
+      "1266890": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "おれ"
+        }
+      ],
+      "1576870": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "おれ"
+        }
+      ],
+      "2659310": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "むかしのまま"
+        }
+      ]
+    }
+  }
+]

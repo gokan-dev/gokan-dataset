@@ -1,0 +1,134 @@
+[
+  {
+    "id": "74455",
+    "original": "誤字・誤訳のご指摘等は下記メールアドレスよりお寄せください。",
+    "en": [
+      {
+        "id": "329264",
+        "text": "Please send reports of mistypings and mistranslations to the email address below."
+      }
+    ],
+    "indices": "誤字 誤訳~ の 御(ご){ご} 指摘 等(など) は 下記 メールアドレス より 寄せる[03]{お寄せ}~ 下さい{ください}",
+    "vocabIds": [
+      "1219560",
+      "1271350",
+      "1271490",
+      "1309940",
+      "1184690",
+      "1582305"
+    ],
+    "matches": {
+      "1184690": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "かき"
+        }
+      ],
+      "1219560": [
+        {
+          "start": 23,
+          "length": 6,
+          "reading": "よせください"
+        }
+      ],
+      "1271350": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ごじ"
+        }
+      ],
+      "1271490": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ごやく"
+        }
+      ],
+      "1309940": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "してき"
+        }
+      ],
+      "1582305": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "とう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "76964",
+    "original": "※誤字直しました。ご指摘サンクスです。",
+    "en": [
+      {
+        "id": "326756",
+        "text": "NOTE: Typo corrected. Thanks for pointing it out."
+      }
+    ],
+    "indices": "米印{※}~ 誤字 直す[01]{直しました} 御(ご){ご} 指摘 サンクス~ です",
+    "vocabIds": [
+      "1599390",
+      "1271350",
+      "1309940"
+    ],
+    "matches": {
+      "1271350": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "ごじ"
+        }
+      ],
+      "1309940": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "してき"
+        }
+      ],
+      "1599390": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "なおしました"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12072654",
+    "original": "あの手紙、誤字だらけだぞ。",
+    "en": [
+      {
+        "id": "10961048",
+        "text": "There are too many typos in that letter."
+      }
+    ],
+    "vocabIds": [
+      "1327720",
+      "1271350"
+    ],
+    "matches": {
+      "1271350": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ごじ"
+        }
+      ],
+      "1327720": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "てがみ"
+        }
+      ]
+    }
+  }
+]

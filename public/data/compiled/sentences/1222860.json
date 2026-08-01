@@ -1,0 +1,103 @@
+[
+  {
+    "id": "211795",
+    "original": "その会社は社員を季節的に採用する。",
+    "en": [
+      {
+        "id": "49072",
+        "text": "The company employs new staff seasonally."
+      }
+    ],
+    "indices": "其の[01]{その} 会社[01] は 社員[01] を 季節的{季節的に}~ 採用[02] 為る(する){する}",
+    "vocabIds": [
+      "1222860",
+      "1198550",
+      "1322670",
+      "1294890"
+    ],
+    "matches": {
+      "1198550": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "かいしゃ"
+        }
+      ],
+      "1222860": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "きせつてき"
+        }
+      ],
+      "1294890": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "さいよう"
+        }
+      ],
+      "1322670": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "しゃいん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3245690",
+    "original": "毎年のように4月にのど壊してる気がする。季節的なものなのかなあ。",
+    "en": [
+      {
+        "id": "10109453",
+        "text": "It's as if something goes wrong in my throat in April every year. I wonder if it's something seasonal?"
+      }
+    ],
+    "vocabIds": [
+      "1221540",
+      "1199890",
+      "1222860",
+      "1584360",
+      "1255430"
+    ],
+    "matches": {
+      "1199890": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "こわしてる"
+        }
+      ],
+      "1221540": [
+        {
+          "start": 15,
+          "length": 4,
+          "reading": "きがする"
+        }
+      ],
+      "1222860": [
+        {
+          "start": 20,
+          "length": 3,
+          "reading": "きせつてき"
+        }
+      ],
+      "1255430": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "つき"
+        }
+      ],
+      "1584360": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "まいとし"
+        }
+      ]
+    }
+  }
+]

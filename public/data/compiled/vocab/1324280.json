@@ -1,0 +1,96 @@
+{
+  "id": "1324280",
+  "writtenForm": {
+    "kanji": "錫",
+    "alternatives": [],
+    "containedKanji": [
+      "錫"
+    ]
+  },
+  "reading": {
+    "primary": "すず",
+    "alternatives": [
+      "スズ",
+      "しゃく"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 39835
+  },
+  "progression": {
+    "kklcStep": 99999
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "tin (Sn)"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": true,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "abbr"
+        ]
+      },
+      "glosses": [
+        "bishop's staff",
+        "khakkhara"
+      ],
+      "related": {
+        "compounds": [
+          "錫杖"
+        ]
+      },
+      "appliesToReadings": [
+        "しゃく"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": true
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1324280",
+      "isBase": true,
+      "originalPrimaryReading": "すず",
+      "originalGlosses": [
+        "tin (Sn)"
+      ]
+    },
+    {
+      "id": "2843028",
+      "isBase": false,
+      "originalPrimaryReading": "しゃく",
+      "originalGlosses": [
+        "bishop's staff",
+        "khakkhara"
+      ]
+    }
+  ]
+}

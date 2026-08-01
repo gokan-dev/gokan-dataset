@@ -1,0 +1,102 @@
+[
+  {
+    "id": "174625",
+    "original": "古い機種に比べてこちらのほうがずっと扱いやすい。",
+    "en": [
+      {
+        "id": "239844",
+        "text": "Compared with the old model, this is far easier to handle."
+      }
+    ],
+    "indices": "古い 機種 に 比べる[01]{比べて} 此方(こちら){こちら} の 方(ほう){ほう} が ずっと 扱う{扱い} 易い{やすい}",
+    "vocabIds": [
+      "2725180",
+      "1009840",
+      "1265070",
+      "1220980"
+    ],
+    "matches": {
+      "1009840": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "にくらべ"
+        }
+      ],
+      "1220980": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きしゅ"
+        }
+      ],
+      "1265070": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ふるい"
+        }
+      ],
+      "2725180": [
+        {
+          "start": 18,
+          "length": 5,
+          "reading": "あつかいやすい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "222474",
+    "original": "この機械は扱いやすい。",
+    "en": [
+      {
+        "id": "59803",
+        "text": "This machine is easy to handle."
+      }
+    ],
+    "indices": "此の{この} 機械 は 扱う{扱い} 易い{やすい}",
+    "vocabIds": [
+      "2725180",
+      "1220810"
+    ],
+    "matches": {
+      "1220810": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きかい"
+        }
+      ],
+      "2725180": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "あつかいやすい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11588322",
+    "original": "このプログラムは、すごく扱いやすいです。",
+    "en": [
+      {
+        "id": "6169752",
+        "text": "This program is very easy to use."
+      }
+    ],
+    "vocabIds": [
+      "2725180"
+    ],
+    "matches": {
+      "2725180": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "あつかいやすい"
+        }
+      ]
+    }
+  }
+]

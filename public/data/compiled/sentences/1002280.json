@@ -1,0 +1,68 @@
+[
+  {
+    "id": "75353",
+    "original": "「お先に失礼しま～す」「お、なんだ、また定時上がりかよ」",
+    "en": [
+      {
+        "id": "328366",
+        "text": "\"Bye, see you tomorrow.\" \"Oh, what's this? Leaving on the dot again?\""
+      }
+    ],
+    "indices": "お先に失礼します{お先に失礼しま～す} お 何だ{なんだ} 又{また} 定時上がり~ か よ",
+    "vocabIds": [
+      "2233730",
+      "1002280",
+      "1320230"
+    ],
+    "matches": {
+      "1002280": [
+        {
+          "start": 1,
+          "length": 3,
+          "reading": "おさきに"
+        }
+      ],
+      "1320230": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "しつれい"
+        }
+      ],
+      "2233730": [
+        {
+          "start": 20,
+          "length": 5,
+          "reading": "ていじあがり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "201380",
+    "original": "どうぞ、お先に！",
+    "en": [
+      {
+        "id": "38546",
+        "text": "Go ahead."
+      },
+      {
+        "id": "38590",
+        "text": "Go ahead!"
+      }
+    ],
+    "indices": "どうぞ[01] お先に[02]~",
+    "vocabIds": [
+      "1002280"
+    ],
+    "matches": {
+      "1002280": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "おさきに"
+        }
+      ]
+    }
+  }
+]

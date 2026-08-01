@@ -1,0 +1,103 @@
+{
+  "id": "2850327",
+  "writtenForm": {
+    "kanji": "灯火",
+    "alternatives": [
+      "燈火",
+      "灯",
+      "燭",
+      "灯し火"
+    ],
+    "containedKanji": [
+      "灯",
+      "火"
+    ]
+  },
+  "reading": {
+    "primary": "とうか",
+    "alternatives": [
+      "ともしび"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 20338
+  },
+  "progression": {
+    "kklcStep": 440
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "light",
+        "lamplight"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "light",
+        "lamp",
+        "torch"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "ともしび"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "2850327",
+      "isBase": true,
+      "originalPrimaryReading": "とうか",
+      "originalGlosses": [
+        "light",
+        "lamplight"
+      ]
+    },
+    {
+      "id": "2850328",
+      "isBase": false,
+      "originalPrimaryReading": "ともしび",
+      "originalGlosses": [
+        "light",
+        "lamp",
+        "torch"
+      ]
+    }
+  ],
+  "components": [
+    "2519560",
+    "1193610"
+  ]
+}

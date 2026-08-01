@@ -1,0 +1,37 @@
+[
+  {
+    "id": "146170",
+    "original": "乗り物酔いの薬をください。",
+    "en": [
+      {
+        "id": "268392",
+        "text": "Please give me some airsickness medicine."
+      },
+      {
+        "id": "10921238",
+        "text": "Please give me medicine for motion sickness."
+      }
+    ],
+    "indices": "乗り物酔い~ の 薬(くすり)[01] を 下さい[01]{ください}",
+    "vocabIds": [
+      "1706900",
+      "1538160"
+    ],
+    "matches": {
+      "1538160": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "くすり"
+        }
+      ],
+      "1706900": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "のりものよい"
+        }
+      ]
+    }
+  }
+]

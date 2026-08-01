@@ -1,0 +1,41 @@
+[
+  {
+    "id": "221026",
+    "original": "この新聞は購読者が多い。",
+    "en": [
+      {
+        "id": "58348",
+        "text": "This paper has a large circulation."
+      }
+    ],
+    "indices": "此の{この} 新聞 は 購読者~ が 多い",
+    "vocabIds": [
+      "1834300",
+      "1362360",
+      "1407460"
+    ],
+    "matches": {
+      "1362360": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "しんぶん"
+        }
+      ],
+      "1407460": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "おおい"
+        }
+      ],
+      "1834300": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "こうどくしゃ"
+        }
+      ]
+    }
+  }
+]

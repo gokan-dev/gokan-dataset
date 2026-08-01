@@ -1,0 +1,49 @@
+[
+  {
+    "id": "122886",
+    "original": "日経平均は200ポイント下げ、昨日は18,000で終えた。",
+    "en": [
+      {
+        "id": "281116",
+        "text": "The Nikkei Stock Average lost nearly 200 points to close yesterday at 18,000."
+      }
+    ],
+    "indices": "日経平均~ は ポイント[09] 下げる{下げ} 昨日 は で(#2028980) 終える{終えた}",
+    "vocabIds": [
+      "2861572",
+      "1332760",
+      "1184170",
+      "1579260"
+    ],
+    "matches": {
+      "1184170": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "さげ"
+        }
+      ],
+      "1332760": [
+        {
+          "start": 25,
+          "length": 3,
+          "reading": "おえた"
+        }
+      ],
+      "1579260": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "きのう"
+        }
+      ],
+      "2861572": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "にっけいへいきん"
+        }
+      ]
+    }
+  }
+]

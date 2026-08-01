@@ -1,0 +1,139 @@
+[
+  {
+    "id": "147494",
+    "original": "所持金を全部あげよう。",
+    "en": [
+      {
+        "id": "267066",
+        "text": "You shall have what money I have."
+      }
+    ],
+    "indices": "所持金~ を 全部 上げる{あげよう}",
+    "vocabIds": [
+      "1798490",
+      "1396130"
+    ],
+    "matches": {
+      "1396130": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ぜんぶ"
+        }
+      ],
+      "1798490": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "しょじきん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "147495",
+    "original": "所持金はいくらありますか。",
+    "en": [
+      {
+        "id": "64601",
+        "text": "How much money do you have with you?"
+      },
+      {
+        "id": "6437172",
+        "text": "How much money do you have on you?"
+      }
+    ],
+    "indices": "所持金 は 幾ら[01]{いくら}~ 有る{あります} か",
+    "vocabIds": [
+      "1798490"
+    ],
+    "matches": {
+      "1798490": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "しょじきん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "172708",
+    "original": "今の私の所持金では必要額に達しません。",
+    "en": [
+      {
+        "id": "241767",
+        "text": "The money I have now falls short of what I need."
+      }
+    ],
+    "indices": "今(いま) の 私(わたし)[01]{私の} 所持金 で(#2028980) は 必要 額(がく)[02] に 達する{達しません}",
+    "vocabIds": [
+      "2410080",
+      "1798490",
+      "1487660",
+      "1288850",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1207500"
+    ],
+    "matches": {
+      "1207500": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "がく"
+        }
+      ],
+      "1288850": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "いま"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1487660": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "ひつよう"
+        }
+      ],
+      "1798490": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "しょじきん"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2410080": [
+        {
+          "start": 13,
+          "length": 5,
+          "reading": "たっしません"
+        }
+      ]
+    }
+  }
+]

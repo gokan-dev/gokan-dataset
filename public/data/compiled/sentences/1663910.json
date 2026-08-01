@@ -1,0 +1,72 @@
+[
+  {
+    "id": "208439",
+    "original": "その船は雨風にさらされた。",
+    "en": [
+      {
+        "id": "45697",
+        "text": "The ships were buffeted by the wind and the rain."
+      }
+    ],
+    "indices": "其の[01]{その} 船(ふね)[01] は 雨風 に 晒す[01]{さらされた}",
+    "vocabIds": [
+      "1663910",
+      "1602800"
+    ],
+    "matches": {
+      "1602800": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ふね"
+        }
+      ],
+      "1663910": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "あめかぜ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "211934",
+    "original": "その花は雨風にさらされないように保護されている。",
+    "en": [
+      {
+        "id": "49212",
+        "text": "The flowers are protected against the weather."
+      }
+    ],
+    "indices": "其の[01]{その} 花[01] は 雨風~ に 晒す[01]{さらされない} ように 保護 為れる{されている}",
+    "vocabIds": [
+      "1663910",
+      "1513530",
+      "1194500"
+    ],
+    "matches": {
+      "1194500": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "はな"
+        }
+      ],
+      "1513530": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "ほご"
+        }
+      ],
+      "1663910": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "あめかぜ"
+        }
+      ]
+    }
+  }
+]

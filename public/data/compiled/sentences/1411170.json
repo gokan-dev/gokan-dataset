@@ -1,0 +1,177 @@
+[
+  {
+    "id": "137887",
+    "original": "貸し家を持っています。",
+    "en": [
+      {
+        "id": "275349",
+        "text": "We have a house for rent."
+      }
+    ],
+    "indices": "貸家{貸し家} を 持つ{持っています}",
+    "vocabIds": [
+      "1315720",
+      "1411170"
+    ],
+    "matches": {
+      "1315720": [
+        {
+          "start": 4,
+          "length": 6,
+          "reading": "もっています"
+        }
+      ],
+      "1411170": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "かしか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "191791",
+    "original": "わたしは貸家をさがしている。",
+    "en": [
+      {
+        "id": "28953",
+        "text": "I am looking for a house to rent."
+      },
+      {
+        "id": "6873062",
+        "text": "I'm looking for a house to rent."
+      }
+    ],
+    "indices": "私(わたし)[01]{わたし} は 貸家 を 探す{さがしている}",
+    "vocabIds": [
+      "1411170"
+    ],
+    "matches": {
+      "1411170": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "かしや"
+        }
+      ]
+    }
+  },
+  {
+    "id": "212066",
+    "original": "その家は貸家です。",
+    "en": [
+      {
+        "id": "49344",
+        "text": "The house is to let."
+      },
+      {
+        "id": "1258652",
+        "text": "That house is for rent."
+      }
+    ],
+    "indices": "其の[01]{その} 家(いえ)[01] は 貸家 です",
+    "vocabIds": [
+      "1411170",
+      "1191730",
+      "2098290",
+      "2082160",
+      "2220300"
+    ],
+    "matches": {
+      "1191730": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ],
+      "1411170": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "かしや"
+        }
+      ],
+      "2082160": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ],
+      "2098290": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ],
+      "2220300": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "218225",
+    "original": "これは貸家だ、売家ではない。",
+    "en": [
+      {
+        "id": "55537",
+        "text": "This is a house to let, not to be sold."
+      }
+    ],
+    "indices": "此れ[01]{これ} は 貸家~ だ 売家~ では無い{ではない}",
+    "vocabIds": [
+      "1411170",
+      "1473820"
+    ],
+    "matches": {
+      "1411170": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かしや"
+        }
+      ],
+      "1473820": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "うりか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "224000",
+    "original": "このいえは貸し家である。",
+    "en": [
+      {
+        "id": "61335",
+        "text": "This house is to let."
+      },
+      {
+        "id": "1452606",
+        "text": "This house is for rent."
+      }
+    ],
+    "indices": "此の{この} 家(いえ)[01]{いえ} は 貸家{貸し家} である",
+    "vocabIds": [
+      "1411170"
+    ],
+    "matches": {
+      "1411170": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "かしか"
+        }
+      ]
+    }
+  }
+]

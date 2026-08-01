@@ -1,0 +1,87 @@
+[
+  {
+    "id": "115626",
+    "original": "彼は、とても満足げに見える。",
+    "en": [
+      {
+        "id": "288044",
+        "text": "He looks like a cat that ate the canary."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 迚も{とても} 満足げ~ に 見える(みえる)",
+    "vocabIds": [
+      "2854543",
+      "1259140",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1259140": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "みえる"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "2854543": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "まんぞくげ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3450165",
+    "original": "トムは満足げに笑みを浮かべた。",
+    "en": [
+      {
+        "id": "2956827",
+        "text": "Tom had a satisfied smile on his face."
+      }
+    ],
+    "vocabIds": [
+      "1497360",
+      "2854543",
+      "1351370"
+    ],
+    "matches": {
+      "1351370": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "えみ"
+        }
+      ],
+      "1497360": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "うかべた"
+        }
+      ],
+      "2854543": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "まんぞくげ"
+        }
+      ]
+    }
+  }
+]

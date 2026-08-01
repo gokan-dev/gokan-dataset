@@ -1,0 +1,33 @@
+[
+  {
+    "id": "122081",
+    "original": "入院治療が必要です。",
+    "en": [
+      {
+        "id": "281922",
+        "text": "You should stay in the hospital for treatment."
+      }
+    ],
+    "indices": "入院 治療 が 必要[01] です",
+    "vocabIds": [
+      "2853195",
+      "1487660"
+    ],
+    "matches": {
+      "1487660": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ひつよう"
+        }
+      ],
+      "2853195": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "にゅういんちりょう"
+        }
+      ]
+    }
+  }
+]

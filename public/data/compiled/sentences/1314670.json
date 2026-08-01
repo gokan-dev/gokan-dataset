@@ -1,0 +1,150 @@
+[
+  {
+    "id": "88131",
+    "original": "彼女は息子に似合いの結婚相手だ。",
+    "en": [
+      {
+        "id": "315576",
+        "text": "She will make a fine match for my son."
+      }
+    ],
+    "indices": "彼女[01] は 息子[01] に 似合い{似合いの} 結婚 相手 だ",
+    "vocabIds": [
+      "2144080",
+      "1314670",
+      "1483150",
+      "1404390"
+    ],
+    "matches": {
+      "1314670": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "にあい"
+        }
+      ],
+      "1404390": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "むすこ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "2144080": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "けっこんあいて"
+        }
+      ]
+    }
+  },
+  {
+    "id": "96949",
+    "original": "彼らは似合いのカップルだ。",
+    "en": [
+      {
+        "id": "305577",
+        "text": "They are a good couple."
+      }
+    ],
+    "indices": "彼ら(かれら) は 似合い{似合いの} カップル だ",
+    "vocabIds": [
+      "1314670",
+      "1483090",
+      "2397090"
+    ],
+    "matches": {
+      "1314670": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "にあい"
+        }
+      ],
+      "1483090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれら"
+        }
+      ],
+      "2397090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "197707",
+    "original": "ピーターとエバは似合いのカップルだ。",
+    "en": [
+      {
+        "id": "34894",
+        "text": "Peter and Eve make a handsome couple."
+      }
+    ],
+    "indices": "と エバ~ は 似合い{似合いの}~ カップル だ",
+    "vocabIds": [
+      "1314670"
+    ],
+    "matches": {
+      "1314670": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "にあい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214224",
+    "original": "スミス夫妻は似合いの夫婦だ。",
+    "en": [
+      {
+        "id": "51515",
+        "text": "Mr. and Mrs. Smith are a good match."
+      }
+    ],
+    "indices": "夫妻 は 似合い{似合いの} 夫婦(ふうふ) だ",
+    "vocabIds": [
+      "1314670",
+      "1496520",
+      "1583640"
+    ],
+    "matches": {
+      "1314670": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "にあい"
+        }
+      ],
+      "1496520": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ふさい"
+        }
+      ],
+      "1583640": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "ふうふ"
+        }
+      ]
+    }
+  }
+]

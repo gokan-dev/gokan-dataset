@@ -1,0 +1,138 @@
+[
+  {
+    "id": "75395",
+    "original": "２０％増量って書いているとつい手が出ない？",
+    "en": [
+      {
+        "id": "328324",
+        "text": "Don't you find yourself reaching for things with '20% extra' written on them?"
+      }
+    ],
+    "indices": "増量~ って 書く{書いている} と つい 手 が 出る{出ない}",
+    "vocabIds": [
+      "1343950",
+      "2603750",
+      "1600650",
+      "1461140",
+      "1557630",
+      "2038270"
+    ],
+    "matches": {
+      "1343950": [
+        {
+          "start": 7,
+          "length": 6,
+          "reading": "かいていると"
+        }
+      ],
+      "1461140": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "に"
+        }
+      ],
+      "1557630": [
+        {
+          "start": 1,
+          "length": 1,
+          "reading": "ぜろ"
+        }
+      ],
+      "1600650": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "はかって"
+        }
+      ],
+      "2038270": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "ぞう"
+        }
+      ],
+      "2603750": [
+        {
+          "start": 15,
+          "length": 5,
+          "reading": "てがでない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "173243",
+    "original": "高くてとても手が出ないよ。",
+    "en": [
+      {
+        "id": "241228",
+        "text": "I can't afford to buy it."
+      }
+    ],
+    "indices": "高い{高くて} 迚も{とても} 手が出ない~ よ",
+    "vocabIds": [
+      "2603750",
+      "1283190"
+    ],
+    "matches": {
+      "1283190": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "たかくて"
+        }
+      ],
+      "2603750": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "てがでない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10654754",
+    "original": "この車は高くて手が出ないよ。",
+    "en": [
+      {
+        "id": "2601311",
+        "text": "This car is too expensive for me to buy."
+      },
+      {
+        "id": "10345560",
+        "text": "I can't afford to buy this car."
+      }
+    ],
+    "vocabIds": [
+      "2603750",
+      "1283190",
+      "1323080"
+    ],
+    "matches": {
+      "1283190": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "たかくて"
+        }
+      ],
+      "1323080": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "2603750": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "てがでない"
+        }
+      ]
+    }
+  }
+]

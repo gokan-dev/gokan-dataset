@@ -1,0 +1,72 @@
+[
+  {
+    "id": "74338",
+    "original": "せっかく採用した派遣社員がすぐに辞めてしまった。",
+    "en": [
+      {
+        "id": "329382",
+        "text": "The temporary workers that we managed to employ left work right away."
+      }
+    ],
+    "indices": "折角{せっかく} 採用 為る(する){した} 派遣社員~ が 直ぐに{すぐに} 辞める{辞めて} 仕舞う{しまった}",
+    "vocabIds": [
+      "1318950",
+      "1999690",
+      "1294890"
+    ],
+    "matches": {
+      "1294890": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "さいよう"
+        }
+      ],
+      "1318950": [
+        {
+          "start": 16,
+          "length": 7,
+          "reading": "やめてしまった"
+        }
+      ],
+      "1999690": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "はけんしゃいん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "87570",
+    "original": "彼女は派遣社員です。",
+    "en": [
+      {
+        "id": "316138",
+        "text": "She is a temp."
+      }
+    ],
+    "indices": "彼女[01] は 派遣社員 です",
+    "vocabIds": [
+      "1999690",
+      "1483150"
+    ],
+    "matches": {
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1999690": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "はけんしゃいん"
+        }
+      ]
+    }
+  }
+]

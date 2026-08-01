@@ -1,0 +1,145 @@
+[
+  {
+    "id": "176056",
+    "original": "警報機が鳴っているときは絶対に踏切を渡らないでください。",
+    "en": [
+      {
+        "id": "7015360",
+        "text": "Don't cross the tracks when the alarm is ringing."
+      }
+    ],
+    "indices": "警報器{警報機} が 鳴る{鳴っている} 時(とき){とき} は 絶対に 踏切[01]~ を[03] 渡る{渡らないで} 下さい{ください}",
+    "vocabIds": [
+      "1444680",
+      "1532910",
+      "1830980",
+      "1610070",
+      "1602840"
+    ],
+    "matches": {
+      "1444680": [
+        {
+          "start": 18,
+          "length": 9,
+          "reading": "わたらないでください"
+        }
+      ],
+      "1532910": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "なっている"
+        }
+      ],
+      "1602840": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "ふみきり"
+        }
+      ],
+      "1610070": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "ぜったいに"
+        }
+      ],
+      "1830980": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "けいほうき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9950391",
+    "original": "踏切でトラックが立ち往生してしまった。",
+    "en": [
+      {
+        "id": "10121930",
+        "text": "A truck got stuck on the railway crossing."
+      },
+      {
+        "id": "10123508",
+        "text": "A truck got stuck on the railroad crossing."
+      }
+    ],
+    "vocabIds": [
+      "1838030",
+      "1602840"
+    ],
+    "matches": {
+      "1602840": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ふみきり"
+        }
+      ],
+      "1838030": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "たちおうじょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3167096",
+    "original": "警報機が鳴り始めたら踏切内に入らないでください。",
+    "en": [
+      {
+        "id": "11526179",
+        "text": "Don't go onto the railroad crossing when the alarm starts going off."
+      }
+    ],
+    "vocabIds": [
+      "1465590",
+      "1532910",
+      "1830980",
+      "1602840",
+      "2098290"
+    ],
+    "matches": {
+      "1465590": [
+        {
+          "start": 14,
+          "length": 9,
+          "reading": "はいらないでください"
+        }
+      ],
+      "1532910": [
+        {
+          "start": 4,
+          "length": 6,
+          "reading": "なりはじめたら"
+        }
+      ],
+      "1602840": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "ふみきり"
+        }
+      ],
+      "1830980": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "けいほうき"
+        }
+      ],
+      "2098290": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "ない"
+        }
+      ]
+    }
+  }
+]

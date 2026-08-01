@@ -1,0 +1,82 @@
+[
+  {
+    "id": "124963",
+    "original": "転ばぬ先の杖。",
+    "en": [
+      {
+        "id": "238066",
+        "text": "Forewarned is forearmed."
+      },
+      {
+        "id": "406986",
+        "text": "A stitch in time saves nine."
+      }
+    ],
+    "indices": "転ぶ{転ばぬ} 先(さき){先の} 杖(つえ)",
+    "vocabIds": [
+      "2404390"
+    ],
+    "matches": {
+      "2404390": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "ころばぬさきのつえ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "236223",
+    "original": "「転ばぬ先の杖」はことわざである。",
+    "en": [
+      {
+        "id": "73599",
+        "text": "\"A stitch in time saves nine\" is a proverb."
+      }
+    ],
+    "indices": "転ぶ{転ばぬ} 先(さき)[03]{先の} 杖(つえ) は 諺{ことわざ} である",
+    "vocabIds": [
+      "2404390"
+    ],
+    "matches": {
+      "2404390": [
+        {
+          "start": 1,
+          "length": 6,
+          "reading": "ころばぬさきのつえ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1593013",
+    "original": "君もそのうち転ばぬ先の杖だということがわかるよ。",
+    "en": [
+      {
+        "id": "255020",
+        "text": "You'll learn in time that a stitch in time saves nine."
+      }
+    ],
+    "vocabIds": [
+      "2404390",
+      "1247250"
+    ],
+    "matches": {
+      "1247250": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "きみ"
+        }
+      ],
+      "2404390": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "ころばぬさきのつえ"
+        }
+      ]
+    }
+  }
+]

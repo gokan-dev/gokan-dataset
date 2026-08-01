@@ -1,0 +1,133 @@
+[
+  {
+    "id": "208302",
+    "original": "その村は海から何キロも隔たっている。",
+    "en": [
+      {
+        "id": "45559",
+        "text": "The village is many kilometers away from the seashore."
+      }
+    ],
+    "indices": "其の[01]{その} 村 は 海 から 何(なん)[03] キロ も 隔たる{隔たっている}~",
+    "vocabIds": [
+      "1206340",
+      "1406820",
+      "1201190",
+      "1577100"
+    ],
+    "matches": {
+      "1201190": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "うみ"
+        }
+      ],
+      "1206340": [
+        {
+          "start": 11,
+          "length": 6,
+          "reading": "へだたっている"
+        }
+      ],
+      "1406820": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "むら"
+        }
+      ],
+      "1577100": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "なん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "213554",
+    "original": "そして、こうしたものからほんのわずかしか隔たっていない知覚が、直接的な信号がまったくないのにおこる、「超感覚的な」というレッテルを付けざるを得ない知覚なのである。",
+    "en": [
+      {
+        "id": "50840",
+        "text": "And it is only a very short step from there, to perception which occurs in the absence of all immediate signals and has to be labeled extrasensory."
+      }
+    ],
+    "indices": "而して{そして} 斯うした{こうした} 物(もの){もの} から ほんの僅か{ほんのわずか} しか 隔たる{隔たっていない} 知覚 が 直接的{直接的な} 信号 が 全く{まったく} 無い{ない} のに 起こる{おこる} 超 感覚的{感覚的な} と言う{という} レッテル~ を 付ける{付け} ざるを得ない 知覚 なのである",
+    "vocabIds": [
+      "1206340",
+      "2060970",
+      "1431250",
+      "1683140",
+      "1420510",
+      "1359240",
+      "1495750",
+      "1429340"
+    ],
+    "matches": {
+      "1206340": [
+        {
+          "start": 20,
+          "length": 7,
+          "reading": "へだたっていない"
+        }
+      ],
+      "1359240": [
+        {
+          "start": 35,
+          "length": 2,
+          "reading": "しんごう"
+        }
+      ],
+      "1420510": [
+        {
+          "start": 27,
+          "length": 2,
+          "reading": "ちかく"
+        },
+        {
+          "start": 73,
+          "length": 2,
+          "reading": "ちかく"
+        }
+      ],
+      "1429340": [
+        {
+          "start": 51,
+          "length": 1,
+          "reading": "ちょう"
+        }
+      ],
+      "1431250": [
+        {
+          "start": 31,
+          "length": 3,
+          "reading": "ちょくせつてき"
+        }
+      ],
+      "1495750": [
+        {
+          "start": 65,
+          "length": 2,
+          "reading": "つけ"
+        }
+      ],
+      "1683140": [
+        {
+          "start": 52,
+          "length": 3,
+          "reading": "かんかくてき"
+        }
+      ],
+      "2060970": [
+        {
+          "start": 67,
+          "length": 6,
+          "reading": "ざるをえない"
+        }
+      ]
+    }
+  }
+]

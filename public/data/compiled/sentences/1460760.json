@@ -1,0 +1,96 @@
+[
+  {
+    "id": "74229",
+    "original": "椎間板ヘルニアは背骨の間にある椎間板という軟骨が飛び出すものです。",
+    "en": [
+      {
+        "id": "329491",
+        "text": "Disk herniation is when cartilage, called 'intervertebral disk' and found between each vertebra, slips out."
+      }
+    ],
+    "indices": "椎間板ヘルニア~ は 背骨 の 間(あいだ)[01] に 有る{ある} 椎間板~ と言う{という} 軟骨~ が 飛び出す[03] 物(もの){もの} です",
+    "vocabIds": [
+      "2398340",
+      "1215250",
+      "1485350",
+      "1713070",
+      "1472750",
+      "1460760"
+    ],
+    "matches": {
+      "1215250": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "まにある"
+        }
+      ],
+      "1460760": [
+        {
+          "start": 21,
+          "length": 2,
+          "reading": "なんこつ"
+        }
+      ],
+      "1472750": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "せぼね"
+        }
+      ],
+      "1485350": [
+        {
+          "start": 24,
+          "length": 4,
+          "reading": "とびだす"
+        }
+      ],
+      "1713070": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "ついかんばん"
+        }
+      ],
+      "2398340": [
+        {
+          "start": 0,
+          "length": 7,
+          "reading": "ついかんばんへるにあ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "224347",
+    "original": "ここの軟骨が飛び出しています。",
+    "en": [
+      {
+        "id": "61682",
+        "text": "The cartilage has slipped out here."
+      }
+    ],
+    "indices": "此処[01]{ここ} の 軟骨 が 飛び出す[03]{飛び出しています}",
+    "vocabIds": [
+      "1485350",
+      "1460760"
+    ],
+    "matches": {
+      "1460760": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "なんこつ"
+        }
+      ],
+      "1485350": [
+        {
+          "start": 6,
+          "length": 8,
+          "reading": "とびだしています"
+        }
+      ]
+    }
+  }
+]

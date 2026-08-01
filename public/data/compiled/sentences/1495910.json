@@ -1,0 +1,95 @@
+[
+  {
+    "id": "89144",
+    "original": "彼女は耳のつけ根まで赤くなった。",
+    "en": [
+      {
+        "id": "314561",
+        "text": "She colored up to her temples."
+      }
+    ],
+    "indices": "彼女[01] は 耳 の 付け根{つけ根}~ 迄{まで} 赤い[01]{赤く} 成る[01]{なった}",
+    "vocabIds": [
+      "1495910",
+      "1483150",
+      "1383240",
+      "1317170"
+    ],
+    "matches": {
+      "1317170": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "みみ"
+        }
+      ],
+      "1383240": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "あかく"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1495910": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "つけね"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3054217",
+    "original": "小沢の顔を見て、耳の附根まで赧くなった。",
+    "en": [
+      {
+        "id": "3054338",
+        "text": "When she saw Ozawa's face, she became red up to the base of her ears."
+      }
+    ],
+    "vocabIds": [
+      "1259290",
+      "1495910",
+      "1217730",
+      "1317170"
+    ],
+    "matches": {
+      "1217730": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "かお"
+        }
+      ],
+      "1259290": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "みて"
+        }
+      ],
+      "1317170": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "みみ"
+        }
+      ],
+      "1495910": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "つけたりね"
+        }
+      ]
+    }
+  }
+]

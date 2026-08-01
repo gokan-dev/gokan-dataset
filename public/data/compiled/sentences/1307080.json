@@ -1,0 +1,160 @@
+[
+  {
+    "id": "168970",
+    "original": "四つ葉のクローバーを見つけたことがありますか。",
+    "en": [
+      {
+        "id": "245517",
+        "text": "Have you ever found a four-leaf clover?"
+      }
+    ],
+    "indices": "四つ葉のクローバー~ を 見つける[01]{見つけた} 事がある{ことがあります} か",
+    "vocabIds": [
+      "1307080",
+      "1604570"
+    ],
+    "matches": {
+      "1307080": [
+        {
+          "start": 0,
+          "length": 9,
+          "reading": "よっつはのくろーばー"
+        }
+      ],
+      "1604570": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "みつけた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "194633",
+    "original": "メグは四つ葉のクローバーを見つけた。",
+    "en": [
+      {
+        "id": "31806",
+        "text": "Meg found a four leaf clover."
+      }
+    ],
+    "indices": "は 四つ葉のクローバー を 見つける[01]{見つけた}",
+    "vocabIds": [
+      "1307080",
+      "1604570"
+    ],
+    "matches": {
+      "1307080": [
+        {
+          "start": 3,
+          "length": 9,
+          "reading": "よっつはのくろーばー"
+        }
+      ],
+      "1604570": [
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "みつけた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10489101",
+    "original": "私、四つ葉のクローバー見つけるの上手なんだよ。",
+    "en": [
+      {
+        "id": "10489097",
+        "text": "I'm really good at finding four-leaf clovers."
+      }
+    ],
+    "vocabIds": [
+      "1307080",
+      "1604570",
+      "1353320",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1307080": [
+        {
+          "start": 2,
+          "length": 9,
+          "reading": "よっつはのくろーばー"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1353320": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "じょうず"
+        }
+      ],
+      "1604570": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "みつける"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10746416",
+    "original": "見て！四つ葉のクローバーよ！",
+    "en": [
+      {
+        "id": "3533931",
+        "text": "Look! A four-leafed clover!"
+      },
+      {
+        "id": "9723101",
+        "text": "Look! A four-leaf clover!"
+      }
+    ],
+    "vocabIds": [
+      "1307080",
+      "1259290"
+    ],
+    "matches": {
+      "1259290": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "みて"
+        }
+      ],
+      "1307080": [
+        {
+          "start": 3,
+          "length": 9,
+          "reading": "よっつはのくろーばー"
+        }
+      ]
+    }
+  }
+]

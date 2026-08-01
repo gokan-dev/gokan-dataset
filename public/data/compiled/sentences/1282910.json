@@ -1,0 +1,222 @@
+[
+  {
+    "id": "78997",
+    "original": "予報はさらに降雪があると伝えていた。",
+    "en": [
+      {
+        "id": "324719",
+        "text": "The prediction was for more snow."
+      }
+    ],
+    "indices": "予報 は 更に{さらに} 降雪~ が[01] 有る{ある} と 伝える{伝えていた}",
+    "vocabIds": [
+      "1441870",
+      "1543630",
+      "1282910"
+    ],
+    "matches": {
+      "1282910": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "こうせつ"
+        }
+      ],
+      "1441870": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "つたえていた"
+        }
+      ],
+      "1543630": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "よほう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "122548",
+    "original": "日本の北国に住む人々は、降雪を利用して冬にはスキーを楽しむ。",
+    "en": [
+      {
+        "id": "281455",
+        "text": "The people who live in the north of Japan enjoy skiing in the winter in the snow."
+      }
+    ],
+    "indices": "日本 の 北国[02]~ に 住む 人々(ひとびと) は 降雪 を 利用 為る(する){して} 冬 には スキー を 楽しむ",
+    "vocabIds": [
+      "1207270",
+      "1582710",
+      "1584170",
+      "1334040",
+      "1580650",
+      "1282910",
+      "1549660",
+      "1446070"
+    ],
+    "matches": {
+      "1207270": [
+        {
+          "start": 26,
+          "length": 3,
+          "reading": "たのしむ"
+        }
+      ],
+      "1282910": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "こうせつ"
+        }
+      ],
+      "1334040": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "すむ"
+        }
+      ],
+      "1446070": [
+        {
+          "start": 19,
+          "length": 1,
+          "reading": "ふゆ"
+        }
+      ],
+      "1549660": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "りよう"
+        }
+      ],
+      "1580650": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "ひとびと"
+        }
+      ],
+      "1582710": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "にっぽん"
+        }
+      ],
+      "1584170": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "きたぐに"
+        }
+      ]
+    }
+  },
+  {
+    "id": "167072",
+    "original": "私たちの遠足は異常な降雪で台無しになった。",
+    "en": [
+      {
+        "id": "247430",
+        "text": "Our school trip was spoiled by an unusual snowfall."
+      }
+    ],
+    "indices": "私たち の 遠足 は 異常{異常な} 降雪 で(#2028980) 台無しになる{台無しになった}",
+    "vocabIds": [
+      "1311300",
+      "1412770",
+      "1178260",
+      "1157760",
+      "1282910"
+    ],
+    "matches": {
+      "1157760": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "いじょう"
+        }
+      ],
+      "1178260": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "えんそく"
+        }
+      ],
+      "1282910": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "こうせつ"
+        }
+      ],
+      "1311300": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1412770": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "だいなし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "218926",
+    "original": "これが今まであったうちで一番すごい降雪だ。",
+    "en": [
+      {
+        "id": "56241",
+        "text": "We have never had such a heavy snowfall."
+      },
+      {
+        "id": "10527194",
+        "text": "This is the heaviest snowfall we've ever had."
+      },
+      {
+        "id": "11099596",
+        "text": "We've never had such a heavy snowfall."
+      }
+    ],
+    "indices": "此れ[01]{これ} が 今まで 有る{あった} 内(うち){うち} で(#2028980) 一番(いちばん) 凄い[02]{すごい} 降雪 だ",
+    "vocabIds": [
+      "1587590",
+      "1165970",
+      "1282910"
+    ],
+    "matches": {
+      "1165970": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "いちばん"
+        }
+      ],
+      "1282910": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "こうせつ"
+        }
+      ],
+      "1587590": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "いままで"
+        }
+      ]
+    }
+  }
+]

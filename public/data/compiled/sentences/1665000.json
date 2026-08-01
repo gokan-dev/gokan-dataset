@@ -1,0 +1,88 @@
+[
+  {
+    "id": "75382",
+    "original": "果樹栽培者がリンゴの接ぎ穂を台木に接ぎ木しました。",
+    "en": [
+      {
+        "id": "328337",
+        "text": "The orchardist grafted an apple bud onto the rootstock."
+      }
+    ],
+    "indices": "果樹栽培者~ が 林檎(りんご){リンゴ} の 接ぎ穂[01]~ を 台木[01]~ に 接ぎ木~ 為る(する){しました}",
+    "vocabIds": [
+      "1666130",
+      "1665000",
+      "1815150",
+      "1412800"
+    ],
+    "matches": {
+      "1412800": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "だいぎ"
+        }
+      ],
+      "1665000": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "はぎほ"
+        }
+      ],
+      "1666130": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "かじゅさいばいしゃ"
+        }
+      ],
+      "1815150": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "つぎき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "75383",
+    "original": "話の接ぎ穂がなくて困った。",
+    "en": [
+      {
+        "id": "328336",
+        "text": "He found it very hard to keep the conversation going."
+      }
+    ],
+    "indices": "話(はなし) の 接ぎ穂[02]~ が 無い{なくて} 困る[01]{困った}",
+    "vocabIds": [
+      "1665000",
+      "2823060",
+      "1600900"
+    ],
+    "matches": {
+      "1600900": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "はなし"
+        }
+      ],
+      "1665000": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "はぎほ"
+        }
+      ],
+      "2823060": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "こまった"
+        }
+      ]
+    }
+  }
+]

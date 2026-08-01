@@ -1,0 +1,104 @@
+[
+  {
+    "id": "173108",
+    "original": "国王とその家族は王宮に住んでいる。",
+    "en": [
+      {
+        "id": "241364",
+        "text": "The king and his family live in the royal palace."
+      }
+    ],
+    "indices": "国王 と 其の[01]{その} 家族 は 王宮~ に 住む{住んでいる}",
+    "vocabIds": [
+      "1334040",
+      "1286160",
+      "1192150",
+      "1181460"
+    ],
+    "matches": {
+      "1181460": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "おうきゅう"
+        }
+      ],
+      "1192150": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "かぞく"
+        }
+      ],
+      "1286160": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こくおう"
+        }
+      ],
+      "1334040": [
+        {
+          "start": 11,
+          "length": 5,
+          "reading": "すんでいる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "188505",
+    "original": "王宮は丘の上に建てられた。",
+    "en": [
+      {
+        "id": "25649",
+        "text": "The royal palace was built on a hill."
+      }
+    ],
+    "indices": "王宮 は 丘(おか) の 上(うえ)[03] に 建てる{建てられた}",
+    "vocabIds": [
+      "1257330",
+      "1181460",
+      "1588920",
+      "2251090",
+      "1352130"
+    ],
+    "matches": {
+      "1181460": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おうきゅう"
+        }
+      ],
+      "1257330": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "たて"
+        }
+      ],
+      "1352130": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "うえ"
+        }
+      ],
+      "1588920": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "おか"
+        }
+      ],
+      "2251090": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "おか"
+        }
+      ]
+    }
+  }
+]

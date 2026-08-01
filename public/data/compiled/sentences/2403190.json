@@ -1,0 +1,132 @@
+[
+  {
+    "id": "158700",
+    "original": "私はやっとの事で彼に返事をした。",
+    "en": [
+      {
+        "id": "255828",
+        "text": "I gave an answer to him with great difficulty."
+      }
+    ],
+    "indices": "私(わたし)[01] は やっとの事で 彼(かれ) に 返事 を 為る(する){した}",
+    "vocabIds": [
+      "2403190",
+      "1512220",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1512220": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "へんじ"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2403190": [
+        {
+          "start": 2,
+          "length": 6,
+          "reading": "やっとのことで"
+        }
+      ]
+    }
+  },
+  {
+    "id": "206082",
+    "original": "その老婦人はやっとの事で階段を上った。",
+    "en": [
+      {
+        "id": "43328",
+        "text": "The old lady climbed the stairs with difficulty."
+      },
+      {
+        "id": "1392881",
+        "text": "The old woman climbed the stairs with difficulty."
+      }
+    ],
+    "indices": "其の[01]{その} 老婦人 は やっとの事で~ 階段 を 登る[01]{上った}",
+    "vocabIds": [
+      "2403190",
+      "2158370",
+      "1352290",
+      "1352570",
+      "1203090"
+    ],
+    "matches": {
+      "1203090": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "かいだん"
+        }
+      ],
+      "1352290": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "のぼった"
+        }
+      ],
+      "1352570": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "のぼった"
+        }
+      ],
+      "2158370": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "ろうふじん"
+        }
+      ],
+      "2403190": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "やっとのことで"
+        }
+      ]
+    }
+  }
+]

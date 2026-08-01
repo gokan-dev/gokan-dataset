@@ -1,0 +1,201 @@
+[
+  {
+    "id": "80229",
+    "original": "迷子の子が交番でしくしく泣いていた。",
+    "en": [
+      {
+        "id": "323488",
+        "text": "A lost child was sobbing at the police box."
+      }
+    ],
+    "indices": "迷子 の 子(こ)[01] が 交番[01] で(#2028980) しくしく泣く{しくしく泣いていた}",
+    "vocabIds": [
+      "1229840",
+      "1532750",
+      "1272500",
+      "1307770",
+      "1320800",
+      "1324960"
+    ],
+    "matches": {
+      "1229840": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "ないていた"
+        }
+      ],
+      "1272500": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "こうばん"
+        }
+      ],
+      "1307770": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "こ"
+        }
+      ],
+      "1320800": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "こ"
+        }
+      ],
+      "1324960": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "こ"
+        }
+      ],
+      "1532750": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "まいご"
+        }
+      ]
+    }
+  },
+  {
+    "id": "173841",
+    "original": "向こうの交番で聞いてください。",
+    "en": [
+      {
+        "id": "1584073",
+        "text": "Ask at the police station over there."
+      },
+      {
+        "id": "240629",
+        "text": "Ask at the police box over there."
+      }
+    ],
+    "indices": "向こう[02] の 交番[01]~ で(#2028980) 聞く{聞いて} 下さい{ください}",
+    "vocabIds": [
+      "1591110",
+      "1277140",
+      "1272500"
+    ],
+    "matches": {
+      "1272500": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "こうばん"
+        }
+      ],
+      "1277140": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "むこう"
+        }
+      ],
+      "1591110": [
+        {
+          "start": 7,
+          "length": 7,
+          "reading": "きいてください"
+        }
+      ]
+    }
+  },
+  {
+    "id": "174098",
+    "original": "交番はどこにあるかわかりますか。",
+    "en": [
+      {
+        "id": "240372",
+        "text": "Do you know where the police station is?"
+      }
+    ],
+    "indices": "交番[01] は 何処{どこ} に 有る{ある} か 分かる{わかります} か",
+    "vocabIds": [
+      "1272500"
+    ],
+    "matches": {
+      "1272500": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こうばん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "174099",
+    "original": "交番が近くにある。",
+    "en": [
+      {
+        "id": "240370",
+        "text": "A police station is close at hand."
+      }
+    ],
+    "indices": "交番[01] が 近く[01] に 有る{ある}",
+    "vocabIds": [
+      "1272500",
+      "1242160"
+    ],
+    "matches": {
+      "1242160": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ちかく"
+        }
+      ],
+      "1272500": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こうばん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "174100",
+    "original": "交番の周りに人がたくさんいた。",
+    "en": [
+      {
+        "id": "240371",
+        "text": "I saw a number of people around the police box."
+      }
+    ],
+    "indices": "交番[01] の 周り[02] に 人(ひと) が 沢山{たくさん} 居る(いる){いた}",
+    "vocabIds": [
+      "1272500",
+      "1604290",
+      "1580640"
+    ],
+    "matches": {
+      "1272500": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こうばん"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ],
+      "1604290": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "まわり"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,111 @@
+[
+  {
+    "id": "74448",
+    "original": "別の理由があるね？どう？図星でしょう？",
+    "en": [
+      {
+        "id": "329271",
+        "text": "There's another reason, isn't there? Well, how did I do? I bet I hit the mark."
+      }
+    ],
+    "indices": "別(べつ){別の} 理由 が 有る{ある} ね 如何(どう){どう} 図星~ でしょう",
+    "vocabIds": [
+      "1550140",
+      "1654230",
+      "1509430"
+    ],
+    "matches": {
+      "1509430": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "べつ"
+        }
+      ],
+      "1550140": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "りゆう"
+        }
+      ],
+      "1654230": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "ずぼし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "143856",
+    "original": "図星です。",
+    "en": [
+      {
+        "id": "270709",
+        "text": "That's it."
+      },
+      {
+        "id": "11316518",
+        "text": "You hit the nail on the head."
+      },
+      {
+        "id": "69179",
+        "text": "You guessed right."
+      },
+      {
+        "id": "11316520",
+        "text": "You guessed correctly."
+      },
+      {
+        "id": "7670706",
+        "text": "Bingo!"
+      },
+      {
+        "id": "8227912",
+        "text": "Bullseye!"
+      }
+    ],
+    "indices": "図星 です",
+    "vocabIds": [
+      "1654230"
+    ],
+    "matches": {
+      "1654230": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ずぼし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "433700",
+    "original": "図星ですか？",
+    "en": [
+      {
+        "id": "433702",
+        "text": "Is that it?"
+      },
+      {
+        "id": "433703",
+        "text": "Have I hit the nail on the head?"
+      }
+    ],
+    "indices": "図星 ですか",
+    "vocabIds": [
+      "1654230"
+    ],
+    "matches": {
+      "1654230": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ずぼし"
+        }
+      ]
+    }
+  }
+]

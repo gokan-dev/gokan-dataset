@@ -1,0 +1,65 @@
+[
+  {
+    "id": "125580",
+    "original": "通勤列車に乗ると、鞄が棚にきちんと並べられていることが見える。",
+    "en": [
+      {
+        "id": "278412",
+        "text": "When you get into a commuter train, you see the briefcases neatly stacked on the racks."
+      }
+    ],
+    "indices": "通勤列車~ に 乗る[01] と 鞄 が 棚 に きちんと 並べる[01]{並べられている} 事(こと){こと} が 見える(みえる)",
+    "vocabIds": [
+      "1942940",
+      "1259140",
+      "1355120",
+      "1508390",
+      "1208910",
+      "1416700"
+    ],
+    "matches": {
+      "1208910": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "かばん"
+        }
+      ],
+      "1259140": [
+        {
+          "start": 27,
+          "length": 3,
+          "reading": "みえる"
+        }
+      ],
+      "1355120": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "のると"
+        }
+      ],
+      "1416700": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "たな"
+        }
+      ],
+      "1508390": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "ならべ"
+        }
+      ],
+      "1942940": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "つうきんれっしゃ"
+        }
+      ]
+    }
+  }
+]

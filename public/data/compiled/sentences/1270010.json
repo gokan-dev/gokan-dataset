@@ -1,0 +1,403 @@
+[
+  {
+    "id": "105649",
+    "original": "彼は私より３年後輩です。",
+    "en": [
+      {
+        "id": "298038",
+        "text": "He is my junior by three years."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 私(わたし)[01] より 年(ねん) 後輩~ です",
+    "vocabIds": [
+      "1814070",
+      "1270010",
+      "1000420",
+      "1483070",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1270010": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "こうはい"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1814070": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "さんねん"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "174282",
+    "original": "後輩にノートＰＣをかりた。",
+    "en": [
+      {
+        "id": "240187",
+        "text": "I borrowed the notebook PC from the junior staff member."
+      }
+    ],
+    "indices": "後輩 に ノートＰＣ~ を 借りる[01]{かりた}",
+    "vocabIds": [
+      "1270010"
+    ],
+    "matches": {
+      "1270010": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こうはい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "188349",
+    "original": "俺も後輩にアドバイスする歳になったか。",
+    "en": [
+      {
+        "id": "25492",
+        "text": "I guess I've reached the age where I have to dispense advice to my underlings."
+      }
+    ],
+    "indices": "俺(おれ) も 後輩 に アドバイス 為る(する){する} 歳(さい)[01] になる[01]{になった} か",
+    "vocabIds": [
+      "1270010",
+      "1266890",
+      "1576870",
+      "1294940",
+      "2084840"
+    ],
+    "matches": {
+      "1266890": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "おれ"
+        }
+      ],
+      "1270010": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "こうはい"
+        }
+      ],
+      "1294940": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "とし"
+        }
+      ],
+      "1576870": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "おれ"
+        }
+      ],
+      "2084840": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "とし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2280712",
+    "original": "トムは高校の後輩です。",
+    "en": [
+      {
+        "id": "2280778",
+        "text": "Tom and I went to the same high school."
+      },
+      {
+        "id": "2280781",
+        "text": "Tom and I went to the same high school. He was a year behind me."
+      },
+      {
+        "id": "2280782",
+        "text": "Tom and I went to the same high school. He was two years below me."
+      },
+      {
+        "id": "2280784",
+        "text": "Tom and I go to the same high school."
+      }
+    ],
+    "vocabIds": [
+      "1283500",
+      "1270010"
+    ],
+    "matches": {
+      "1270010": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "こうはい"
+        }
+      ],
+      "1283500": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "こうこう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2280817",
+    "original": "トムは高校時代の1つ下の後輩です。",
+    "en": [
+      {
+        "id": "2280781",
+        "text": "Tom and I went to the same high school. He was a year behind me."
+      }
+    ],
+    "vocabIds": [
+      "2651120",
+      "1270010",
+      "1184140",
+      "2867124"
+    ],
+    "matches": {
+      "1184140": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "した"
+        }
+      ],
+      "1270010": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "こうはい"
+        }
+      ],
+      "2651120": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "こうこうじだい"
+        }
+      ],
+      "2867124": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "した"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2280820",
+    "original": "トムは高校の2コ下の後輩です。",
+    "en": [
+      {
+        "id": "2280782",
+        "text": "Tom and I went to the same high school. He was two years below me."
+      }
+    ],
+    "vocabIds": [
+      "1283500",
+      "1270010",
+      "1184140",
+      "2867124"
+    ],
+    "matches": {
+      "1184140": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "か"
+        }
+      ],
+      "1270010": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "こうはい"
+        }
+      ],
+      "1283500": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "こうこう"
+        }
+      ],
+      "2867124": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "か"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10154487",
+    "original": "後輩いびりして何が楽しいのかしら。",
+    "en": [
+      {
+        "id": "10180183",
+        "text": "What could be so fun about picking on juniors."
+      }
+    ],
+    "vocabIds": [
+      "1207240",
+      "1270010",
+      "1577100"
+    ],
+    "matches": {
+      "1207240": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "たのしい"
+        }
+      ],
+      "1270010": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こうはい"
+        }
+      ],
+      "1577100": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "なに"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10075875",
+    "original": "後輩いじめは止めましょう。",
+    "en": [
+      {
+        "id": "10180257",
+        "text": "Let's stop picking on juniors."
+      }
+    ],
+    "vocabIds": [
+      "1310670",
+      "1598820",
+      "1270010"
+    ],
+    "matches": {
+      "1270010": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こうはい"
+        }
+      ],
+      "1310670": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "とめましょう"
+        }
+      ],
+      "1598820": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "とめましょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10154492",
+    "original": "後輩いびって、楽しいのかしら？",
+    "en": [
+      {
+        "id": "10221976",
+        "text": "Do they enjoy teasing juniors, I wonder?"
+      },
+      {
+        "id": "10221978",
+        "text": "I wonder, do they enjoy teasing juniors?"
+      },
+      {
+        "id": "10231186",
+        "text": "I wonder, do they enjoy teasing younger people?"
+      },
+      {
+        "id": "10231188",
+        "text": "Do they enjoy teasing younger people, I wonder?"
+      }
+    ],
+    "vocabIds": [
+      "1207240",
+      "1270010"
+    ],
+    "matches": {
+      "1207240": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "たのしい"
+        }
+      ],
+      "1270010": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こうはい"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "id": "180089",
+    "original": "胸焼けがします。",
+    "en": [
+      {
+        "id": "18950",
+        "text": "I have heartburn."
+      }
+    ],
+    "indices": "胸焼け~ が 為る(する){します}",
+    "vocabIds": [
+      "1237910"
+    ],
+    "matches": {
+      "1237910": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "むねやけ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9858909",
+    "original": "特定の食べ物を食べた後に、胸やけがするのですか？",
+    "en": [
+      {
+        "id": "9853846",
+        "text": "Do you get heartburn after eating certain foods?"
+      }
+    ],
+    "vocabIds": [
+      "1358340",
+      "1358280",
+      "1237910",
+      "1455210",
+      "2640160"
+    ],
+    "matches": {
+      "1237910": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "むねやけ"
+        }
+      ],
+      "1358280": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "たべた"
+        }
+      ],
+      "1358340": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "たべもの"
+        }
+      ],
+      "1455210": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とくてい"
+        }
+      ],
+      "2640160": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "のちに"
+        }
+      ]
+    }
+  }
+]

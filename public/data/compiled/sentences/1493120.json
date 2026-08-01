@@ -1,0 +1,96 @@
+[
+  {
+    "id": "85074",
+    "original": "不審な人をみかけたら警察に知らせてください。",
+    "en": [
+      {
+        "id": "318639",
+        "text": "If you see a suspicious person, please inform the police."
+      }
+    ],
+    "indices": "不審{不審な} 人(ひと) を 見かける{みかけたら} 警察 に 知らせる{知らせて} 下さい{ください}",
+    "vocabIds": [
+      "1420410",
+      "1493120",
+      "1252390",
+      "1580640"
+    ],
+    "matches": {
+      "1252390": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "けいさつ"
+        }
+      ],
+      "1420410": [
+        {
+          "start": 13,
+          "length": 8,
+          "reading": "しらせてください"
+        }
+      ],
+      "1493120": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ふしん"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "176382",
+    "original": "警官が不審な歩行者をじっと見つめていた。",
+    "en": [
+      {
+        "id": "238082",
+        "text": "A policeman was gazing at a suspicious pedestrian."
+      }
+    ],
+    "indices": "警官 が 不審{不審な}~ 歩行者~ を 凝乎と(じっと)[02]{じっと} 見つめる{見つめていた}",
+    "vocabIds": [
+      "1604580",
+      "1514380",
+      "1252330",
+      "1493120"
+    ],
+    "matches": {
+      "1252330": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "けいかん"
+        }
+      ],
+      "1493120": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ふしん"
+        }
+      ],
+      "1514380": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "ほこうしゃ"
+        }
+      ],
+      "1604580": [
+        {
+          "start": 13,
+          "length": 6,
+          "reading": "みつめていた"
+        }
+      ]
+    }
+  }
+]

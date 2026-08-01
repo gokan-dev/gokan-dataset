@@ -1,0 +1,91 @@
+[
+  {
+    "id": "203593",
+    "original": "たった５０ドルで、しかも靴クリームを２缶おまけいたします。",
+    "en": [
+      {
+        "id": "40831",
+        "text": "They're only $50 with two cans of shoe polish free of charge."
+      },
+      {
+        "id": "2833871",
+        "text": "They cost just 50 dollars, and I'll give you two cans of shoe polish free as well."
+      }
+    ],
+    "indices": "たった 弗[01]{ドル} で(#2028980) 然も(しかも){しかも} 靴 クリーム を 缶(かん) お負け[01]{おまけ} 致す{いたします}",
+    "vocabIds": [
+      "2832441",
+      "1268060",
+      "1557630",
+      "1461140",
+      "1214540"
+    ],
+    "matches": {
+      "1214540": [
+        {
+          "start": 19,
+          "length": 1,
+          "reading": "かん"
+        }
+      ],
+      "1268060": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "ご"
+        }
+      ],
+      "1461140": [
+        {
+          "start": 18,
+          "length": 1,
+          "reading": "に"
+        }
+      ],
+      "1557630": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "ぜろ"
+        }
+      ],
+      "2832441": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "くつくりーむ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10651785",
+    "original": "その靴クリーム、使ってもいい？",
+    "en": [
+      {
+        "id": "48605",
+        "text": "May I use the shoe polish?"
+      }
+    ],
+    "vocabIds": [
+      "2832441",
+      "1305990"
+    ],
+    "matches": {
+      "1305990": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "つかって"
+        }
+      ],
+      "2832441": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "くつくりーむ"
+        }
+      ]
+    }
+  }
+]

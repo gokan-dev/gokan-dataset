@@ -1,0 +1,104 @@
+{
+  "id": "1582280",
+  "writtenForm": {
+    "kanji": "東風",
+    "alternatives": [],
+    "containedKanji": [
+      "東",
+      "風"
+    ]
+  },
+  "reading": {
+    "primary": "こち",
+    "alternatives": [
+      "とうふう",
+      "ひがしかぜ",
+      "こちかぜ",
+      "あゆ"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 57544
+  },
+  "progression": {
+    "kklcStep": 425
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "east wind",
+        "spring wind"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "wind that blows from north to north-east during spring and summer along the coast of the Sea of Japan"
+      ],
+      "related": {
+        "compounds": [
+          "あゆの風"
+        ]
+      },
+      "appliesToReadings": [
+        "あゆ"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": true
+  },
+  "isCommon": false,
+  "mergedVocabs": [
+    {
+      "id": "1582280",
+      "isBase": true,
+      "originalPrimaryReading": "こち",
+      "originalGlosses": [
+        "east wind",
+        "spring wind"
+      ]
+    },
+    {
+      "id": "2711080",
+      "isBase": false,
+      "originalPrimaryReading": "あゆ",
+      "originalGlosses": [
+        "wind that blows from north to north-east during spring and summer along the coast of the Sea of Japan"
+      ]
+    }
+  ],
+  "components": [
+    "1447440",
+    "1499720"
+  ],
+  "parents": [
+    "1471620"
+  ]
+}

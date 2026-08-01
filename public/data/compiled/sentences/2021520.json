@@ -1,0 +1,113 @@
+[
+  {
+    "id": "226689",
+    "original": "お腹がすくと胃が痛みます。",
+    "en": [
+      {
+        "id": "64033",
+        "text": "I have hunger pangs."
+      }
+    ],
+    "indices": "お腹が空く{お腹がすく} と 胃[01] が 痛む[01]{痛みます}",
+    "vocabIds": [
+      "2021520",
+      "1432710",
+      "1158500"
+    ],
+    "matches": {
+      "1158500": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "い"
+        }
+      ],
+      "1432710": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "いたみます"
+        }
+      ],
+      "2021520": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "おなかがすく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10630244",
+    "original": "お腹すくとどうなるか分かってるでしょ。",
+    "en": [
+      {
+        "id": "3436676",
+        "text": "You know how you get when you're hungry."
+      }
+    ],
+    "vocabIds": [
+      "1606560",
+      "2021520"
+    ],
+    "matches": {
+      "1606560": [
+        {
+          "start": 10,
+          "length": 8,
+          "reading": "わかってるでしょ"
+        }
+      ],
+      "2021520": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "おなかすく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11165542",
+    "original": "赤ちゃんはお腹がすくと泣くのよ。",
+    "en": [
+      {
+        "id": "10276699",
+        "text": "Babies cry when they're hungry."
+      },
+      {
+        "id": "272372",
+        "text": "Babies cry when they are hungry."
+      }
+    ],
+    "vocabIds": [
+      "2021520",
+      "1383260",
+      "1229840"
+    ],
+    "matches": {
+      "1229840": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "なく"
+        }
+      ],
+      "1383260": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "あかちゃん"
+        }
+      ],
+      "2021520": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "おなかがすく"
+        }
+      ]
+    }
+  }
+]

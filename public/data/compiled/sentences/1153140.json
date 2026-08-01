@@ -1,0 +1,80 @@
+[
+  {
+    "id": "185975",
+    "original": "我々は圧勝した。",
+    "en": [
+      {
+        "id": "23108",
+        "text": "We were completely victorious."
+      }
+    ],
+    "indices": "我々 は 圧勝 為る(する){した}",
+    "vocabIds": [
+      "1607050",
+      "1153140"
+    ],
+    "matches": {
+      "1153140": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "あっしょう"
+        }
+      ],
+      "1607050": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "われわれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "207524",
+    "original": "その党は総選挙で圧勝した。",
+    "en": [
+      {
+        "id": "44777",
+        "text": "The party won a sweeping victory at the general election."
+      }
+    ],
+    "indices": "其の[01]{その} 党(とう)[01] は 総選挙 で(#2028980) 圧勝~ 為る(する){した}",
+    "vocabIds": [
+      "1401690",
+      "1153140",
+      "1445980",
+      "1457310"
+    ],
+    "matches": {
+      "1153140": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "あっしょう"
+        }
+      ],
+      "1401690": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "そうせんきょ"
+        }
+      ],
+      "1445980": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "とう"
+        }
+      ],
+      "1457310": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "とう"
+        }
+      ]
+    }
+  }
+]

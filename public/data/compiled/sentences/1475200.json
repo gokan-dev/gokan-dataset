@@ -1,0 +1,212 @@
+[
+  {
+    "id": "87541",
+    "original": "彼女は白紙答案を出した。",
+    "en": [
+      {
+        "id": "316167",
+        "text": "She handed in a blank test."
+      }
+    ],
+    "indices": "彼女[01] は 白紙 答案 を 出す{出した}",
+    "vocabIds": [
+      "1338180",
+      "1483150",
+      "1475200",
+      "1449550"
+    ],
+    "matches": {
+      "1338180": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "だした"
+        }
+      ],
+      "1449550": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "とうあん"
+        }
+      ],
+      "1475200": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "はくし"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "164337",
+    "original": "私に白紙を一枚ください。",
+    "en": [
+      {
+        "id": "250172",
+        "text": "Give me a blank sheet of paper."
+      }
+    ],
+    "indices": "私(わたし)[01] に 白紙~ を 一枚(いちまい) 下さい{ください}",
+    "vocabIds": [
+      "1475200",
+      "1166430",
+      "1166710",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1166430": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "いちまい"
+        }
+      ],
+      "1166710": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "いちまい"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1475200": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "はくし"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "175721",
+    "original": "結論を白紙にもどそう。",
+    "en": [
+      {
+        "id": "238744",
+        "text": "Let's forget everything about that conclusion."
+      }
+    ],
+    "indices": "結論[01] を 白紙 に 戻す{もどそう}",
+    "vocabIds": [
+      "1255020",
+      "1475200"
+    ],
+    "matches": {
+      "1255020": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "けつろん"
+        }
+      ],
+      "1475200": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "はくし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214369",
+    "original": "すべてを白紙に返そう。",
+    "en": [
+      {
+        "id": "51661",
+        "text": "Let's scrap everything and start over again with a clean slate."
+      }
+    ],
+    "indices": "全て{すべて} を 白紙に返す{白紙に返そう}~",
+    "vocabIds": [
+      "1512130",
+      "1475200"
+    ],
+    "matches": {
+      "1475200": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "はくし"
+        }
+      ],
+      "1512130": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "かえそう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2478325",
+    "original": "トムは白紙の答案を出した。",
+    "en": [
+      {
+        "id": "1024059",
+        "text": "Tom turned in a blank test paper."
+      }
+    ],
+    "vocabIds": [
+      "1338180",
+      "1475200",
+      "1449550"
+    ],
+    "matches": {
+      "1338180": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "だした"
+        }
+      ],
+      "1449550": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "とうあん"
+        }
+      ],
+      "1475200": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "はくし"
+        }
+      ]
+    }
+  }
+]

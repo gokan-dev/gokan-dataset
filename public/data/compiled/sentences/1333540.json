@@ -1,0 +1,67 @@
+[
+  {
+    "id": "214390",
+    "original": "すべての野獣が集う。",
+    "en": [
+      {
+        "id": "51682",
+        "text": "The wild beasts all gather."
+      }
+    ],
+    "indices": "全て{すべての} 野獣~ が 集う~",
+    "vocabIds": [
+      "1537420",
+      "1333540"
+    ],
+    "matches": {
+      "1333540": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "つどう"
+        }
+      ],
+      "1537420": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "やじゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9701060",
+    "original": "ゴミ袋にハエが集ってる。",
+    "en": [
+      {
+        "id": "9703328",
+        "text": "The flies are gathering round the rubbish bag."
+      },
+      {
+        "id": "9711107",
+        "text": "The flies are swarming around the trash bag."
+      }
+    ],
+    "vocabIds": [
+      "1333540",
+      "2106370"
+    ],
+    "matches": {
+      "1333540": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "つどってる"
+        }
+      ],
+      "2106370": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ごみぶくろ"
+        }
+      ]
+    }
+  }
+]

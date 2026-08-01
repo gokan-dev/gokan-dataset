@@ -1,0 +1,53 @@
+[
+  {
+    "id": "210961",
+    "original": "その犬は知らない人に吠えつく。",
+    "en": [
+      {
+        "id": "48232",
+        "text": "The dog barks at strangers."
+      },
+      {
+        "id": "9443769",
+        "text": "That dog barks at strangers."
+      }
+    ],
+    "indices": "其の[01]{その} 犬[01] は 知る{知らない} 人(ひと) に 吠え付く{吠えつく}",
+    "vocabIds": [
+      "1420420",
+      "2082590",
+      "1258330",
+      "1580640"
+    ],
+    "matches": {
+      "1258330": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "いぬ"
+        }
+      ],
+      "1420420": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "しらない"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ],
+      "2082590": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "ほえつく"
+        }
+      ]
+    }
+  }
+]

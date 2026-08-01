@@ -1,0 +1,398 @@
+[
+  {
+    "id": "189888",
+    "original": "右腕を伸ばせません。",
+    "en": [
+      {
+        "id": "27045",
+        "text": "I can't stretch my right arm."
+      },
+      {
+        "id": "8227649",
+        "text": "I can't straighten my right arm."
+      }
+    ],
+    "indices": "右腕 を 伸ばす[04]{伸ばせません}~",
+    "vocabIds": [
+      "1171290"
+    ],
+    "matches": {
+      "1171290": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "うわん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "189890",
+    "original": "右腕を上げられません。",
+    "en": [
+      {
+        "id": "27046",
+        "text": "I can't lift my right arm."
+      },
+      {
+        "id": "2806245",
+        "text": "I can't raise my right arm."
+      }
+    ],
+    "indices": "右腕 を 上げる[01]{上げられません}",
+    "vocabIds": [
+      "1352320",
+      "1171290"
+    ],
+    "matches": {
+      "1171290": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "うわん"
+        }
+      ],
+      "1352320": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "あげ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "189891",
+    "original": "右腕を骨折したようです。",
+    "en": [
+      {
+        "id": "27047",
+        "text": "I think my right arm is broken."
+      },
+      {
+        "id": "8282154",
+        "text": "I think that my right arm is broken."
+      }
+    ],
+    "indices": "右腕~ を 骨折~ 為る(する){した} 様(よう){よう} です",
+    "vocabIds": [
+      "1171290",
+      "1288640"
+    ],
+    "matches": {
+      "1171290": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "うわん"
+        }
+      ],
+      "1288640": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "こっせつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "189892",
+    "original": "右腕を曲げられません。",
+    "en": [
+      {
+        "id": "27048",
+        "text": "I can't bend my right arm."
+      }
+    ],
+    "indices": "右腕 を 曲げる{曲げられません}",
+    "vocabIds": [
+      "1239740",
+      "1171290"
+    ],
+    "matches": {
+      "1171290": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "うわん"
+        }
+      ],
+      "1239740": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "まげ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "189893",
+    "original": "右腕の関節が脱臼したようです。",
+    "en": [
+      {
+        "id": "27049",
+        "text": "I'm afraid I dislocated my right arm."
+      },
+      {
+        "id": "7217458",
+        "text": "I'm afraid that I dislocated my right arm."
+      }
+    ],
+    "indices": "右腕 の 関節 が 脱臼~ 為る(する){した} 様(よう){よう} です",
+    "vocabIds": [
+      "1171290",
+      "1215960",
+      "1416440"
+    ],
+    "matches": {
+      "1171290": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "うわん"
+        }
+      ],
+      "1215960": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かんせつ"
+        }
+      ],
+      "1416440": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "だっきゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "189894",
+    "original": "右腕にひびが入ったようです。",
+    "en": [
+      {
+        "id": "27050",
+        "text": "I'm afraid I have a crack in my right arm."
+      }
+    ],
+    "indices": "右腕 に ひびが入る{ひびが入った} 様(よう){よう} です",
+    "vocabIds": [
+      "1465590",
+      "1171290"
+    ],
+    "matches": {
+      "1171290": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "うわん"
+        }
+      ],
+      "1465590": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "はいった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2803449",
+    "original": "右腕が上がりません。",
+    "en": [
+      {
+        "id": "27046",
+        "text": "I can't lift my right arm."
+      },
+      {
+        "id": "2806245",
+        "text": "I can't raise my right arm."
+      }
+    ],
+    "vocabIds": [
+      "1352290",
+      "1171290"
+    ],
+    "matches": {
+      "1171290": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "うわん"
+        }
+      ],
+      "1352290": [
+        {
+          "start": 3,
+          "length": 6,
+          "reading": "あがりません"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2948407",
+    "original": "自由の女神の右腕の長さは12.8mである。",
+    "en": [
+      {
+        "id": "2947375",
+        "text": "The right arm of the Statue of Liberty is 42 feet long."
+      }
+    ],
+    "vocabIds": [
+      "2620790",
+      "1171290",
+      "1429750"
+    ],
+    "matches": {
+      "1171290": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "うわん"
+        }
+      ],
+      "1429750": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "ながさ"
+        }
+      ],
+      "2620790": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "じゆうのめがみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8988162",
+    "original": "右腕が上げれないの。",
+    "en": [
+      {
+        "id": "2806245",
+        "text": "I can't raise my right arm."
+      }
+    ],
+    "vocabIds": [
+      "1352320",
+      "1171290"
+    ],
+    "matches": {
+      "1171290": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "うわん"
+        }
+      ],
+      "1352320": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "あげ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9464056",
+    "original": "右腕を骨折したみたいなんだ。",
+    "en": [
+      {
+        "id": "27047",
+        "text": "I think my right arm is broken."
+      }
+    ],
+    "vocabIds": [
+      "1171290",
+      "1288640"
+    ],
+    "matches": {
+      "1171290": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "うわん"
+        }
+      ],
+      "1288640": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "こっせつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9838278",
+    "original": "トムは私の右腕でね、本当に頼りになるんですよ。",
+    "en": [
+      {
+        "id": "9838293",
+        "text": "Tom is my right-hand man. I can really count on him."
+      }
+    ],
+    "vocabIds": [
+      "2139790",
+      "1611580",
+      "1171290",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1171290": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "うわん"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1611580": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "ほんとうに"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2139790": [
+        {
+          "start": 13,
+          "length": 5,
+          "reading": "たよりになる"
+        }
+      ]
+    }
+  }
+]

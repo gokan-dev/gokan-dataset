@@ -1,0 +1,79 @@
+[
+  {
+    "id": "149084",
+    "original": "車に徐行するようにと合図した。",
+    "en": [
+      {
+        "id": "265474",
+        "text": "I signaled the car to go slow."
+      }
+    ],
+    "indices": "車 に 徐行~ 為る(する){する} 様に{ように} と 合図 為る(する){した}",
+    "vocabIds": [
+      "1345590",
+      "1284930",
+      "1323080"
+    ],
+    "matches": {
+      "1284930": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "あいず"
+        }
+      ],
+      "1323080": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1345590": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "じょこう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1466918",
+    "original": "車が徐行でついてきているような気がする。",
+    "en": [
+      {
+        "id": "1487419",
+        "text": "I think that that car is slowly following us."
+      }
+    ],
+    "vocabIds": [
+      "2839008",
+      "1345590",
+      "1323080"
+    ],
+    "matches": {
+      "1323080": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1345590": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "じょこう"
+        }
+      ],
+      "2839008": [
+        {
+          "start": 12,
+          "length": 7,
+          "reading": "ようなきがする"
+        }
+      ]
+    }
+  }
+]

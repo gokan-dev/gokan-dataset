@@ -1,0 +1,64 @@
+[
+  {
+    "id": "208830",
+    "original": "その新製品は発売中だ。",
+    "en": [
+      {
+        "id": "46089",
+        "text": "The new product is on sale."
+      }
+    ],
+    "indices": "其の[01]{その} 新製品 は 発売中 だ",
+    "vocabIds": [
+      "1362030",
+      "1477820"
+    ],
+    "matches": {
+      "1362030": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "しんせいひん"
+        }
+      ],
+      "1477820": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "はつばいちゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "217538",
+    "original": "コンサートチケットは当所で発売中です。",
+    "en": [
+      {
+        "id": "25910",
+        "text": "Concert tickets are on sale at this office."
+      }
+    ],
+    "indices": "コンサート チケット は 当所~ で(#2028980) 発売中~ です",
+    "vocabIds": [
+      "1477820",
+      "1784050"
+    ],
+    "matches": {
+      "1477820": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "はつばいちゅう"
+        }
+      ],
+      "1784050": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "とうしょ"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,194 @@
+[
+  {
+    "id": "121341",
+    "original": "肌を日にさらしすぎると、日焼け、場合によっては水ぶくれになります。",
+    "en": [
+      {
+        "id": "282665",
+        "text": "Exposing skin excessively to the sun causes sunburn, sometimes blisters."
+      }
+    ],
+    "indices": "肌[01] を 日(ひ)[02] に 晒す[01]{さらし} 過ぎる(すぎる){すぎる} と 日焼け[01] 場合によって は 水ぶくれ になる[01]{になります}",
+    "vocabIds": [
+      "1355820",
+      "1737890",
+      "1602220",
+      "1476450",
+      "1463770"
+    ],
+    "matches": {
+      "1355820": [
+        {
+          "start": 16,
+          "length": 6,
+          "reading": "ばあいによって"
+        }
+      ],
+      "1463770": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ひ"
+        }
+      ],
+      "1476450": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "はだ"
+        }
+      ],
+      "1602220": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "ひやけ"
+        }
+      ],
+      "1737890": [
+        {
+          "start": 23,
+          "length": 4,
+          "reading": "みずぶくれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "122868",
+    "original": "日焼けが水ぶくれになりました。",
+    "en": [
+      {
+        "id": "281134",
+        "text": "My sunburn has started to blister."
+      }
+    ],
+    "indices": "日焼け[01] が 水ぶくれ になる{になりました}",
+    "vocabIds": [
+      "1737890",
+      "1602220"
+    ],
+    "matches": {
+      "1602220": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ひやけ"
+        }
+      ],
+      "1737890": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "みずぶくれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "143728",
+    "original": "水ぶくれがかさぶたになってきました。",
+    "en": [
+      {
+        "id": "270838",
+        "text": "The blisters have formed scabs."
+      }
+    ],
+    "indices": "水ぶくれ~ が 瘡蓋{かさぶた}~ になる{になって} 来る(くる){きました}",
+    "vocabIds": [
+      "1737890"
+    ],
+    "matches": {
+      "1737890": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "みずぶくれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "193112",
+    "original": "やけどで水ぶくれができました。",
+    "en": [
+      {
+        "id": "30277",
+        "text": "I got blisters from the burn."
+      }
+    ],
+    "indices": "火傷(やけど){やけど} で(#2028980) 水ぶくれ が[01] 出来る{できました}",
+    "vocabIds": [
+      "1737890"
+    ],
+    "matches": {
+      "1737890": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "みずぶくれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "7894147",
+    "original": "水ぶくれを潰さないでくれ。",
+    "en": [
+      {
+        "id": "7894144",
+        "text": "Please don't pop the blisters."
+      }
+    ],
+    "vocabIds": [
+      "1433820",
+      "1737890"
+    ],
+    "matches": {
+      "1433820": [
+        {
+          "start": 5,
+          "length": 7,
+          "reading": "つぶさないでくれ"
+        }
+      ],
+      "1737890": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "みずぶくれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11563551",
+    "original": "火傷して水ぶくれになった。",
+    "en": [
+      {
+        "id": "30277",
+        "text": "I got blisters from the burn."
+      }
+    ],
+    "vocabIds": [
+      "1737890",
+      "1577310"
+    ],
+    "matches": {
+      "1577310": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かしょう"
+        }
+      ],
+      "1737890": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "みずぶくれ"
+        }
+      ]
+    }
+  }
+]

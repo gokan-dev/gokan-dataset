@@ -1,0 +1,102 @@
+[
+  {
+    "id": "87820",
+    "original": "彼女は爪を噛む癖がある。",
+    "en": [
+      {
+        "id": "315887",
+        "text": "She has a habit of biting her nails."
+      }
+    ],
+    "indices": "彼女[01] は 爪を噛む癖 が[01] 有る{ある}",
+    "vocabIds": [
+      "1895020",
+      "1483150"
+    ],
+    "matches": {
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1895020": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "つめをかむくせ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "102003",
+    "original": "彼は爪を噛む癖をやっと直した。",
+    "en": [
+      {
+        "id": "301691",
+        "text": "He managed to cure himself of his habit of nibbling his nails."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 爪を噛む癖 を 漸と[01]{やっと} 直す[01]{直した}",
+    "vocabIds": [
+      "1895020",
+      "1599390",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1599390": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "なおした"
+        }
+      ],
+      "1895020": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "つめをかむくせ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2400697",
+    "original": "トムは爪を噛む癖がある。",
+    "en": [
+      {
+        "id": "1093604",
+        "text": "Tom has the habit of biting his nails."
+      }
+    ],
+    "vocabIds": [
+      "1895020"
+    ],
+    "matches": {
+      "1895020": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "つめをかむくせ"
+        }
+      ]
+    }
+  }
+]

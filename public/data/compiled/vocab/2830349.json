@@ -1,0 +1,103 @@
+{
+  "id": "2830349",
+  "writtenForm": {
+    "kanji": "大輔",
+    "alternatives": [],
+    "containedKanji": [
+      "大",
+      "輔"
+    ]
+  },
+  "reading": {
+    "primary": "たいふ",
+    "alternatives": [
+      "たゆう",
+      "だゆう"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 31035,
+    "kanaRank": 83682
+  },
+  "progression": {
+    "kklcStep": 99999
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch",
+          "hist"
+        ]
+      },
+      "glosses": [
+        "vice-minister (ritsuryō system)",
+        "deputy minister"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "vice-minister (Meiji period)",
+        "undersecretary"
+      ],
+      "related": {
+        "compounds": [
+          "大輔",
+          "次官"
+        ]
+      },
+      "appliesToReadings": [
+        "だゆう"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": true
+  },
+  "isCommon": false,
+  "mergedVocabs": [
+    {
+      "id": "2830349",
+      "isBase": true,
+      "originalPrimaryReading": "たいふ",
+      "originalGlosses": [
+        "vice-minister (ritsuryō system)",
+        "deputy minister"
+      ]
+    },
+    {
+      "id": "2830350",
+      "isBase": false,
+      "originalPrimaryReading": "だゆう",
+      "originalGlosses": [
+        "vice-minister (Meiji period)",
+        "undersecretary"
+      ]
+    }
+  ],
+  "components": [
+    "2082450"
+  ]
+}

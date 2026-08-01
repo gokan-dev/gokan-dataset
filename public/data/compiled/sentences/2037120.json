@@ -1,0 +1,61 @@
+[
+  {
+    "id": "1540034",
+    "original": "農業家が小麦の種を畑に撒いた。",
+    "en": [
+      {
+        "id": "1540035",
+        "text": "The farmer seeded the field with wheat."
+      },
+      {
+        "id": "1543165",
+        "text": "The farmer scattered the wheat seeds in the field."
+      }
+    ],
+    "indices": "農業家 が 小麦 の 種(たね)[01] を 畑 に 撒く{撒いた}",
+    "vocabIds": [
+      "2037120",
+      "1303400",
+      "1348630",
+      "2735690",
+      "1476520"
+    ],
+    "matches": {
+      "1303400": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "まいた"
+        }
+      ],
+      "1348630": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "こむぎ"
+        }
+      ],
+      "1476520": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "はたけ"
+        }
+      ],
+      "2037120": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "のうぎょうか"
+        }
+      ],
+      "2735690": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "たね"
+        }
+      ]
+    }
+  }
+]

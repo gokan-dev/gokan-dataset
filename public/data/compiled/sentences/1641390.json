@@ -1,0 +1,83 @@
+[
+  {
+    "id": "105129",
+    "original": "彼は自分が名優だとうぬぼれた。",
+    "en": [
+      {
+        "id": "298560",
+        "text": "He flattered himself that he was the best actor."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 自分[01] が 名優~ だ と 自惚れる{うぬぼれた}",
+    "vocabIds": [
+      "1318610",
+      "1641390",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1318610": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "じぶん"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1641390": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "めいゆう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10350581",
+    "original": "トムって、名優だよね？",
+    "en": [
+      {
+        "id": "10356277",
+        "text": "Is Tom a famous actor?"
+      },
+      {
+        "id": "10356281",
+        "text": "Tom's a famous actor, isn't he?"
+      },
+      {
+        "id": "10356297",
+        "text": "Is Tom a great actor?"
+      },
+      {
+        "id": "10356298",
+        "text": "Tom's a great actor, isn't he?"
+      }
+    ],
+    "vocabIds": [
+      "1641390"
+    ],
+    "matches": {
+      "1641390": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "めいゆう"
+        }
+      ]
+    }
+  }
+]

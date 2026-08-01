@@ -1,0 +1,151 @@
+{
+  "id": "1280250",
+  "writtenForm": {
+    "kanji": "甲斐",
+    "alternatives": [
+      "詮",
+      "効"
+    ],
+    "containedKanji": [
+      "甲",
+      "斐"
+    ]
+  },
+  "reading": {
+    "primary": "かい",
+    "alternatives": [
+      "がい"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 7013
+  },
+  "progression": {
+    "kklcStep": 99999
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "result (that makes an act worthwhile)",
+        "worth (in doing something)",
+        "value",
+        "effect",
+        "use",
+        "benefit",
+        "avail"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "hist"
+        ]
+      },
+      "glosses": [
+        "Kai (former province located in present-day Yamanashi Prefecture)"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "かい"
+      ]
+    },
+    {
+      "pos": [
+        "suf"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "result (that makes an act worthwhile)",
+        "worth (in doing something)",
+        "value",
+        "effect",
+        "use",
+        "benefit",
+        "avail"
+      ],
+      "related": {
+        "compounds": [
+          "甲斐"
+        ]
+      },
+      "appliesToReadings": [
+        "がい"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1280250",
+      "isBase": true,
+      "originalPrimaryReading": "かい",
+      "originalGlosses": [
+        "result (that makes an act worthwhile)",
+        "worth (in doing something)",
+        "value"
+      ]
+    },
+    {
+      "id": "2862979",
+      "isBase": false,
+      "originalPrimaryReading": "かい",
+      "originalGlosses": [
+        "Kai (former province located in present-day Yamanashi Prefecture)"
+      ]
+    },
+    {
+      "id": "2606690",
+      "isBase": false,
+      "originalPrimaryReading": "がい",
+      "originalGlosses": [
+        "result (that makes an act worthwhile)",
+        "worth (in doing something)",
+        "value"
+      ]
+    }
+  ],
+  "components": [
+    "1578730"
+  ],
+  "parents": [
+    "1280270",
+    "1280260",
+    "2034280",
+    "1540180",
+    "1716680"
+  ]
+}

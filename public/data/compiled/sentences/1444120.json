@@ -1,0 +1,401 @@
+[
+  {
+    "id": "123325",
+    "original": "突然の吐き気が彼は抑えきれなかった。",
+    "en": [
+      {
+        "id": "280673",
+        "text": "A sudden wave of nausea overpowered him."
+      }
+    ],
+    "indices": "突然{突然の} 吐き気 が 彼(かれ)[01] は 抑える[01]{抑え} 切れる{きれなかった}",
+    "vocabIds": [
+      "2836285",
+      "1444120",
+      "1457040",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1444120": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "はきけ"
+        }
+      ],
+      "1457040": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とつぜん"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "2836285": [
+        {
+          "start": 9,
+          "length": 8,
+          "reading": "おさえきれなかった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "124615",
+    "original": "吐き気がします。",
+    "en": [
+      {
+        "id": "279379",
+        "text": "I feel like throwing up."
+      },
+      {
+        "id": "1887294",
+        "text": "I feel nauseous."
+      },
+      {
+        "id": "7549213",
+        "text": "I have nausea."
+      }
+    ],
+    "indices": "吐き気 が 為る(する){します}",
+    "vocabIds": [
+      "1444120"
+    ],
+    "matches": {
+      "1444120": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "はきけ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "173302",
+    "original": "講義の途中で彼女は吐き気を催した。",
+    "en": [
+      {
+        "id": "241169",
+        "text": "Halfway through the lecture, she began to feel sick."
+      }
+    ],
+    "indices": "講義 の 途中 で(#2028980) 彼女[01] は 吐き気を催す{吐き気を催した}~",
+    "vocabIds": [
+      "1444120",
+      "1292160",
+      "1282260",
+      "1582200",
+      "1483150"
+    ],
+    "matches": {
+      "1282260": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こうぎ"
+        }
+      ],
+      "1292160": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "もよおした"
+        }
+      ],
+      "1444120": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "はきけ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1582200": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "とちゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "192347",
+    "original": "レストランの不潔な皿に私達は吐き気を催させられた。",
+    "en": [
+      {
+        "id": "29510",
+        "text": "The dirty plates in the restaurant disgusted us."
+      }
+    ],
+    "indices": "レストラン の 不潔{不潔な}~ 皿[01] に 私たち{私達} は 吐き気を催す{吐き気を催させられた}",
+    "vocabIds": [
+      "1444120",
+      "1492160",
+      "1311300",
+      "1292160",
+      "1299680"
+    ],
+    "matches": {
+      "1292160": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "もよおさ"
+        }
+      ],
+      "1299680": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "さら"
+        }
+      ],
+      "1311300": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "わたしたち"
+        }
+      ],
+      "1444120": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "はきけ"
+        }
+      ],
+      "1492160": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ふけつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "198954",
+    "original": "なんだかめまいと吐き気がします。",
+    "en": [
+      {
+        "id": "36151",
+        "text": "I feel sort of dizzy and I feel like throwing up."
+      }
+    ],
+    "indices": "何だか{なんだか} 目眩{めまい} と 吐き気~ が 為る(する){します}",
+    "vocabIds": [
+      "1444120"
+    ],
+    "matches": {
+      "1444120": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "はきけ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2976161",
+    "original": "食べ物の写真を見るだけでも吐き気がします。",
+    "en": [
+      {
+        "id": "4357080",
+        "text": "Just seeing a picture of food is enough and I start to feel sick."
+      },
+      {
+        "id": "4357364",
+        "text": "Just looking at a picture of food makes me feel nauseous."
+      }
+    ],
+    "vocabIds": [
+      "1358340",
+      "1444120",
+      "1321900",
+      "1259290"
+    ],
+    "matches": {
+      "1259290": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "みる"
+        }
+      ],
+      "1321900": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "しゃしん"
+        }
+      ],
+      "1358340": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "たべもの"
+        }
+      ],
+      "1444120": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "はきけ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9870223",
+    "original": "最近、吐き気を感じたことはありますか？",
+    "en": [
+      {
+        "id": "9849462",
+        "text": "Have you experienced nausea recently?"
+      }
+    ],
+    "vocabIds": [
+      "1444120",
+      "1212260",
+      "1293780"
+    ],
+    "matches": {
+      "1212260": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "かんじた"
+        }
+      ],
+      "1293780": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "さいきん"
+        }
+      ],
+      "1444120": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "はきけ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9974725",
+    "original": "トムは血を見て吐き気に襲われ、気絶しました。",
+    "en": [
+      {
+        "id": "2834336",
+        "text": "Tom was very squeamish and would pass out at the sight of blood."
+      }
+    ],
+    "vocabIds": [
+      "1444120",
+      "1259290",
+      "1333330",
+      "1222400",
+      "1255060"
+    ],
+    "matches": {
+      "1222400": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "きぜつ"
+        }
+      ],
+      "1255060": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "ち"
+        }
+      ],
+      "1259290": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "みて"
+        }
+      ],
+      "1333330": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "おそわ"
+        }
+      ],
+      "1444120": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "はきけ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9974727",
+    "original": "トムは血を見ると吐き気を催します。",
+    "en": [
+      {
+        "id": "4976364",
+        "text": "Tom is squeamish at the sight of blood."
+      }
+    ],
+    "vocabIds": [
+      "2866455",
+      "1292160",
+      "1444120"
+    ],
+    "matches": {
+      "1292160": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "もよおします"
+        }
+      ],
+      "1444120": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "はきけ"
+        }
+      ],
+      "2866455": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "ちをみる"
+        }
+      ]
+    }
+  }
+]

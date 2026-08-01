@@ -1,0 +1,49 @@
+[
+  {
+    "id": "84186",
+    "original": "部屋の除湿のため窓を開けた。",
+    "en": [
+      {
+        "id": "319529",
+        "text": "I opened the windows to remove the damp from the room."
+      }
+    ],
+    "indices": "部屋[01] の 除湿~ の 為(ため){ため} 窓 を[01] 開ける(あける){開けた}",
+    "vocabIds": [
+      "1202450",
+      "1499320",
+      "1711240",
+      "1401400"
+    ],
+    "matches": {
+      "1202450": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "あけた"
+        }
+      ],
+      "1401400": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "まど"
+        }
+      ],
+      "1499320": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "へや"
+        }
+      ],
+      "1711240": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "じょしめ"
+        }
+      ]
+    }
+  }
+]

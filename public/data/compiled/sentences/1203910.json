@@ -1,0 +1,33 @@
+[
+  {
+    "id": "220380",
+    "original": "この電話で外線がかけられますか。",
+    "en": [
+      {
+        "id": "57701",
+        "text": "Can I make an outside call on this phone?"
+      }
+    ],
+    "indices": "此の{この} 電話 で(#2028980) 外線~ が 掛ける[04]{かけられます} か",
+    "vocabIds": [
+      "1443840",
+      "1203910"
+    ],
+    "matches": {
+      "1203910": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "がいせん"
+        }
+      ],
+      "1443840": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "でんわ"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,135 @@
+[
+  {
+    "id": "140816",
+    "original": "全工場が限界操業をしています。",
+    "en": [
+      {
+        "id": "273756",
+        "text": "All of the factories are nearing capacity."
+      }
+    ],
+    "indices": "全 工場 が 限界 操業 を 為る(する){しています}",
+    "vocabIds": [
+      "1578700",
+      "1264650",
+      "1400020",
+      "1394770"
+    ],
+    "matches": {
+      "1264650": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "げんかい"
+        }
+      ],
+      "1394770": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぜん"
+        }
+      ],
+      "1400020": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "そうぎょう"
+        }
+      ],
+      "1578700": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "こうじょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "186276",
+    "original": "我々の工場はフル操業している。",
+    "en": [
+      {
+        "id": "23412",
+        "text": "Our factories are working at full capacity."
+      }
+    ],
+    "indices": "我々 の 工場 は フル 操業 為る(する){している}",
+    "vocabIds": [
+      "1607050",
+      "1578700",
+      "1400020"
+    ],
+    "matches": {
+      "1400020": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "そうぎょう"
+        }
+      ],
+      "1578700": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "こうじょう"
+        }
+      ],
+      "1607050": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "われわれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "210727",
+    "original": "その工場は来月から操業を中止する。",
+    "en": [
+      {
+        "id": "47997",
+        "text": "The factory will cease operations next month."
+      }
+    ],
+    "indices": "其の[01]{その} 工場 は 来月 から[01] 操業~ を 中止[01] 為る(する){する}",
+    "vocabIds": [
+      "1578700",
+      "1547900",
+      "1400020",
+      "1424410"
+    ],
+    "matches": {
+      "1400020": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "そうぎょう"
+        }
+      ],
+      "1424410": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "ちゅうし"
+        }
+      ],
+      "1547900": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "らいげつ"
+        }
+      ],
+      "1578700": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "こうじょう"
+        }
+      ]
+    }
+  }
+]

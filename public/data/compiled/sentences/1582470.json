@@ -1,0 +1,127 @@
+[
+  {
+    "id": "211027",
+    "original": "その建物は内外ともぼろぼろになっている。",
+    "en": [
+      {
+        "id": "48298",
+        "text": "The building is rotten inside and out."
+      }
+    ],
+    "indices": "其の[01]{その} 建物 は 内外 共(とも)[03]{とも} ぼろぼろ[02] になる[01]{になっている}",
+    "vocabIds": [
+      "1257540",
+      "1582470"
+    ],
+    "matches": {
+      "1257540": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "たてもの"
+        }
+      ],
+      "1582470": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ないがい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "212023",
+    "original": "その科学者は国の内外で有名である。",
+    "en": [
+      {
+        "id": "49301",
+        "text": "The scientist is famous both at home and abroad."
+      }
+    ],
+    "indices": "其の[01]{その} 科学者 は 国[04]~ の 内外 で(#2028980) 有名[01] である",
+    "vocabIds": [
+      "1192750",
+      "1582470",
+      "1541620",
+      "1592250"
+    ],
+    "matches": {
+      "1192750": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "かがくしゃ"
+        }
+      ],
+      "1541620": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "ゆうめい"
+        }
+      ],
+      "1582470": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "ないがい"
+        }
+      ],
+      "1592250": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "くに"
+        }
+      ]
+    }
+  },
+  {
+    "id": "230677",
+    "original": "あの政治家は内外の事情に精通している。",
+    "en": [
+      {
+        "id": "68045",
+        "text": "That politician is well versed in internal and external conditions."
+      }
+    ],
+    "indices": "彼の(あの){あの} 政治家 は 内外~ の 事情 に 精通 為る(する){している}",
+    "vocabIds": [
+      "1375980",
+      "1582470",
+      "1314010",
+      "1380100"
+    ],
+    "matches": {
+      "1314010": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "じじょう"
+        }
+      ],
+      "1375980": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "せいじか"
+        }
+      ],
+      "1380100": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "せいつう"
+        }
+      ],
+      "1582470": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ないがい"
+        }
+      ]
+    }
+  }
+]

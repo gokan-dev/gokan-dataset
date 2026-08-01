@@ -1,0 +1,57 @@
+[
+  {
+    "id": "75341",
+    "original": "２時間毎に局部を湿布しなさい。",
+    "en": [
+      {
+        "id": "328378",
+        "text": "Apply a compress to the affected part every two hours."
+      }
+    ],
+    "indices": "時間[02] 毎に 局部[02]~ を 湿布~ 為る(する){し} 為さい{なさい}",
+    "vocabIds": [
+      "1315920",
+      "1524660",
+      "1239670",
+      "1320510",
+      "1461140"
+    ],
+    "matches": {
+      "1239670": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "きょくぶ"
+        }
+      ],
+      "1315920": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "じかん"
+        }
+      ],
+      "1320510": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "しっぷ"
+        }
+      ],
+      "1461140": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "に"
+        }
+      ],
+      "1524660": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ごとに"
+        }
+      ]
+    }
+  }
+]

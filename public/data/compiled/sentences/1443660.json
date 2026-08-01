@@ -1,0 +1,898 @@
+[
+  {
+    "id": "84115",
+    "original": "部屋を出るときは電灯を消して下さい。",
+    "en": [
+      {
+        "id": "319600",
+        "text": "Please put the light out when you leave the room."
+      },
+      {
+        "id": "1491086",
+        "text": "Please turn off the light when you leave the room."
+      }
+    ],
+    "indices": "部屋[01] を[05] 出る[02] 時(とき){とき} は 電灯 を 消す[02]{消して} 下さい",
+    "vocabIds": [
+      "1350110",
+      "1499320",
+      "1338240",
+      "1443660"
+    ],
+    "matches": {
+      "1338240": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "でる"
+        }
+      ],
+      "1350110": [
+        {
+          "start": 11,
+          "length": 6,
+          "reading": "けしてください"
+        }
+      ],
+      "1443660": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "でんとう"
+        }
+      ],
+      "1499320": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "へや"
+        }
+      ]
+    }
+  },
+  {
+    "id": "84116",
+    "original": "部屋を出るときは電灯をつけっぱなしにしないようにね。",
+    "en": [
+      {
+        "id": "319599",
+        "text": "Do not leave the lights on when you leave the room."
+      },
+      {
+        "id": "9251014",
+        "text": "Don't leave the lights on when you leave the room."
+      }
+    ],
+    "indices": "部屋[01] を[05] 出る[02] 時(とき){とき} は 電灯 を つけっ放し{つけっぱなし} に 為る(する){しない} 様に{ように} ね(#2029080)[01]",
+    "vocabIds": [
+      "1499320",
+      "1338240",
+      "1443660"
+    ],
+    "matches": {
+      "1338240": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "でる"
+        }
+      ],
+      "1443660": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "でんとう"
+        }
+      ],
+      "1499320": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "へや"
+        }
+      ]
+    }
+  },
+  {
+    "id": "90270",
+    "original": "彼女は月の光を楽しむために電灯を消した。",
+    "en": [
+      {
+        "id": "313444",
+        "text": "She turned off the lights so she could enjoy the moonlight."
+      }
+    ],
+    "indices": "彼女[01] は 月(つき)[01] の 光 を 楽しむ 為に{ために} 電灯 を 消す[02]{消した}",
+    "vocabIds": [
+      "1207270",
+      "1350110",
+      "1483150",
+      "1443660",
+      "1255430",
+      "1272780"
+    ],
+    "matches": {
+      "1207270": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "たのしむ"
+        }
+      ],
+      "1255430": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "つき"
+        }
+      ],
+      "1272780": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "ひかり"
+        }
+      ],
+      "1350110": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "けした"
+        }
+      ],
+      "1443660": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "でんとう"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "101885",
+    "original": "彼は電灯を消し忘れた。",
+    "en": [
+      {
+        "id": "301809",
+        "text": "He forgot to turn off the light."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 電灯 を 消す[02]{消し} 忘れる{忘れた}",
+    "vocabIds": [
+      "1519210",
+      "1443660",
+      "1350110",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1350110": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "けし"
+        }
+      ],
+      "1443660": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "でんとう"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1519210": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "わすれた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "103777",
+    "original": "彼は新しい電灯を止めるのに針金を使った。",
+    "en": [
+      {
+        "id": "299916",
+        "text": "He used a wire to connect the new light."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 新しい 電灯 を 止める(とめる) のに 針金 を 使う{使った}",
+    "vocabIds": [
+      "1310670",
+      "1598820",
+      "1361490",
+      "1305990",
+      "1443660",
+      "1366250",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1305990": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "つかった"
+        }
+      ],
+      "1310670": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "とめるのに"
+        }
+      ],
+      "1361490": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "あたらしい"
+        }
+      ],
+      "1366250": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "はりがね"
+        }
+      ],
+      "1443660": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "でんとう"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1598820": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "とめるのに"
+        }
+      ]
+    }
+  },
+  {
+    "id": "110183",
+    "original": "彼は暗闇で電灯のスイッチを手探りで探した。",
+    "en": [
+      {
+        "id": "293505",
+        "text": "He was feeling for the light switch in the dark."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 暗闇 で(#2028980) 電灯 の スイッチ[01] を 手探り で(#2028980) 探す{探した}",
+    "vocabIds": [
+      "1328100",
+      "1593670",
+      "1154370",
+      "1443660",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1154370": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "くらやみ"
+        }
+      ],
+      "1328100": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "てさぐり"
+        }
+      ],
+      "1443660": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "でんとう"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1593670": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "さがした"
+        }
+      ]
+    }
+  },
+  {
+    "id": "124761",
+    "original": "電灯を点けてくれ。何も見えないよ。",
+    "en": [
+      {
+        "id": "279232",
+        "text": "Switch on the light. I can't see anything."
+      },
+      {
+        "id": "5932898",
+        "text": "Turn on the light. I can't see anything."
+      },
+      {
+        "id": "9251164",
+        "text": "Turn the light on. I can't see anything."
+      }
+    ],
+    "indices": "電灯 を[01] 点ける{点けて} 呉れる{くれ} 何も 見える(みえる){見えない} よ[01]",
+    "vocabIds": [
+      "1441400",
+      "1259140",
+      "1443660",
+      "1188490"
+    ],
+    "matches": {
+      "1188490": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "なにも"
+        }
+      ],
+      "1259140": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "みえない"
+        }
+      ],
+      "1441400": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "つけてくれ"
+        }
+      ],
+      "1443660": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "でんとう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "124763",
+    "original": "電灯を消してくれよ。寝付けないんだよ。",
+    "en": [
+      {
+        "id": "279230",
+        "text": "Switch off the light. I can't get to sleep."
+      }
+    ],
+    "indices": "電灯 を 消す[02]{消して} 呉れる{くれよ} 寝付く[01]{寝付けない} ん[04] だ よ[01]",
+    "vocabIds": [
+      "1350110",
+      "1443660"
+    ],
+    "matches": {
+      "1350110": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "けしてくれ"
+        }
+      ],
+      "1443660": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "でんとう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "124764",
+    "original": "電灯を消してくれ。寝れないよ。",
+    "en": [
+      {
+        "id": "279230",
+        "text": "Switch off the light. I can't get to sleep."
+      }
+    ],
+    "indices": "電灯 を 消す[02]{消して} 呉れる{くれ} 寝る[01]{寝れない} よ[01]",
+    "vocabIds": [
+      "1350110",
+      "1443660",
+      "1360010"
+    ],
+    "matches": {
+      "1350110": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "けしてくれ"
+        }
+      ],
+      "1360010": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "ね"
+        }
+      ],
+      "1443660": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "でんとう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "124765",
+    "original": "電灯の発明はエジソンによるとされている。",
+    "en": [
+      {
+        "id": "279229",
+        "text": "The invention of electric light is accredited to Edison."
+      }
+    ],
+    "indices": "電灯 の 発明 は に依ると{によると} 為れる{されている}",
+    "vocabIds": [
+      "1443660",
+      "1477910"
+    ],
+    "matches": {
+      "1443660": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "でんとう"
+        }
+      ],
+      "1477910": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "はつめい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "124766",
+    "original": "電灯が消えた。",
+    "en": [
+      {
+        "id": "279228",
+        "text": "The electric light went out."
+      }
+    ],
+    "indices": "電灯 が 消える{消えた}",
+    "vocabIds": [
+      "1350040",
+      "1443660"
+    ],
+    "matches": {
+      "1350040": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "きえた"
+        }
+      ],
+      "1443660": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "でんとう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "137873",
+    "original": "退社前に電灯や暖房器を消すことになっている。",
+    "en": [
+      {
+        "id": "275364",
+        "text": "You are expected to put out lamps and heaters before you leave the office."
+      }
+    ],
+    "indices": "退社[02] 前(まえ) に 電灯 や 暖房器~ を 消す[03] ことになっている",
+    "vocabIds": [
+      "1419870",
+      "1411400",
+      "1392590",
+      "1443660",
+      "1350110"
+    ],
+    "matches": {
+      "1350110": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "けす"
+        }
+      ],
+      "1392590": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "まえに"
+        }
+      ],
+      "1411400": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "たいしゃ"
+        }
+      ],
+      "1419870": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "だんぼうき"
+        }
+      ],
+      "1443660": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "でんとう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "145647",
+    "original": "寝る前に電灯を消してください。",
+    "en": [
+      {
+        "id": "268915",
+        "text": "Please turn off the light before you go to bed."
+      }
+    ],
+    "indices": "寝る[02] 前(まえ) に 電灯 を 消す[02]{消して} 下さい{ください}",
+    "vocabIds": [
+      "1350110",
+      "1360010",
+      "1392590",
+      "1443660"
+    ],
+    "matches": {
+      "1350110": [
+        {
+          "start": 7,
+          "length": 7,
+          "reading": "けしてください"
+        }
+      ],
+      "1360010": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ねる"
+        }
+      ],
+      "1392590": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "まえに"
+        }
+      ],
+      "1443660": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "でんとう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "147793",
+    "original": "出かける前には必ず電灯を消すようにしなさい。",
+    "en": [
+      {
+        "id": "266767",
+        "text": "Make sure that the lights are turned off before you leave."
+      }
+    ],
+    "indices": "出かける 前(まえ) には 必ず 電灯 を 消す[02] 様にする{ようにし} 為さい{なさい}",
+    "vocabIds": [
+      "1598550",
+      "1392590",
+      "1487400",
+      "1443660",
+      "1350110"
+    ],
+    "matches": {
+      "1350110": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "けす"
+        }
+      ],
+      "1392590": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "まえに"
+        }
+      ],
+      "1443660": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "でんとう"
+        }
+      ],
+      "1487400": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "かならず"
+        }
+      ],
+      "1598550": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "でかける"
+        }
+      ]
+    }
+  },
+  {
+    "id": "184951",
+    "original": "皆留守だというのに、不思議なことに家中の電灯がついていた。",
+    "en": [
+      {
+        "id": "22082",
+        "text": "Strange to say, all the lights in the house were on, though no one was at home."
+      }
+    ],
+    "indices": "皆 留守 だ と言うのに{というのに}~ 不思議{不思議な} 事(こと){こと} に 家中[02]~ の 電灯 が 点く[02]{ついていた}",
+    "vocabIds": [
+      "1492570",
+      "1552760",
+      "1192250",
+      "1443660",
+      "1202150"
+    ],
+    "matches": {
+      "1192250": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "いえじゅう"
+        }
+      ],
+      "1202150": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かい"
+        }
+      ],
+      "1443660": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "でんとう"
+        }
+      ],
+      "1492570": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "ふしぎ"
+        }
+      ],
+      "1552760": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "るす"
+        }
+      ]
+    }
+  },
+  {
+    "id": "192401",
+    "original": "ルーシーは電灯のスイッチをつけた。",
+    "en": [
+      {
+        "id": "29565",
+        "text": "Lucy turned on the light switch."
+      }
+    ],
+    "indices": "は 電灯~ の スイッチ[01] を 付ける[12]{つけた}",
+    "vocabIds": [
+      "1443660"
+    ],
+    "matches": {
+      "1443660": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "でんとう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "201618",
+    "original": "どうか電灯を消して下さい。",
+    "en": [
+      {
+        "id": "29826",
+        "text": "Please turn off the light."
+      },
+      {
+        "id": "38829",
+        "text": "Turn off the light, please."
+      },
+      {
+        "id": "2510837",
+        "text": "Please turn off the lights."
+      },
+      {
+        "id": "12206344",
+        "text": "Please turn the light off."
+      }
+    ],
+    "indices": "どうか 電灯 を 消す[02]{消して} 下さい",
+    "vocabIds": [
+      "1350110",
+      "1443660"
+    ],
+    "matches": {
+      "1350110": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "けしてください"
+        }
+      ],
+      "1443660": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "でんとう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "227973",
+    "original": "エジソンは電燈を発明した。",
+    "en": [
+      {
+        "id": "65327",
+        "text": "Edison invented the electric lamp."
+      }
+    ],
+    "indices": "は 電灯{電燈} を 発明 為る(する){した}",
+    "vocabIds": [
+      "1443660",
+      "1477910"
+    ],
+    "matches": {
+      "1443660": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "でん"
+        }
+      ],
+      "1477910": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "はつめい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2485021",
+    "original": "部屋の天井には電灯が吊られていない。",
+    "en": [
+      {
+        "id": "8305417",
+        "text": "There are no lights hanging from the roof in the room."
+      }
+    ],
+    "vocabIds": [
+      "1499320",
+      "1438340",
+      "1443660",
+      "1434020"
+    ],
+    "matches": {
+      "1434020": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "つら"
+        }
+      ],
+      "1438340": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "てんじょう"
+        }
+      ],
+      "1443660": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "でんとう"
+        }
+      ],
+      "1499320": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "へや"
+        }
+      ]
+    }
+  }
+]

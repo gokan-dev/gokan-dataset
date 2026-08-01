@@ -1,0 +1,213 @@
+[
+  {
+    "id": "109829",
+    "original": "彼は宇宙を遊泳した最初の人間だった。",
+    "en": [
+      {
+        "id": "293861",
+        "text": "He was the first man to float in space."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 宇宙 を 遊泳[01]~ 為る(する){した} 最初{最初の} 人間(にんげん)[01] だ{だった}",
+    "vocabIds": [
+      "1171300",
+      "1620100",
+      "1293990",
+      "1366770",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1171300": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "うちゅう"
+        }
+      ],
+      "1293990": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "さいしょ"
+        }
+      ],
+      "1366770": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "にんげん"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1620100": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ゆうえい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1080707",
+    "original": "遊泳禁止。",
+    "en": [
+      {
+        "id": "350092",
+        "text": "No swimming."
+      }
+    ],
+    "vocabIds": [
+      "1620100",
+      "1241550"
+    ],
+    "matches": {
+      "1241550": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きんし"
+        }
+      ],
+      "1620100": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ゆうえい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10277362",
+    "original": "ここは遊泳禁止です。",
+    "en": [
+      {
+        "id": "483103",
+        "text": "You can't swim here."
+      },
+      {
+        "id": "1276141",
+        "text": "You aren't supposed to swim here."
+      }
+    ],
+    "vocabIds": [
+      "1620100",
+      "1241550"
+    ],
+    "matches": {
+      "1241550": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "きんし"
+        }
+      ],
+      "1620100": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ゆうえい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11161676",
+    "original": "ここは遊泳禁止区域です。",
+    "en": [
+      {
+        "id": "11161673",
+        "text": "No swimming in this area."
+      }
+    ],
+    "vocabIds": [
+      "1620100",
+      "1241550",
+      "1244090"
+    ],
+    "matches": {
+      "1241550": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "きんし"
+        }
+      ],
+      "1244090": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "くいき"
+        }
+      ],
+      "1620100": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ゆうえい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11161677",
+    "original": "この辺り一帯は遊泳禁止です。",
+    "en": [
+      {
+        "id": "11161673",
+        "text": "No swimming in this area."
+      }
+    ],
+    "vocabIds": [
+      "2759480",
+      "1164570",
+      "1620100",
+      "1241550"
+    ],
+    "matches": {
+      "1164570": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "いったい"
+        }
+      ],
+      "1241550": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "きんし"
+        }
+      ],
+      "1620100": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ゆうえい"
+        }
+      ],
+      "2759480": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "このあたり"
+        }
+      ]
+    }
+  }
+]

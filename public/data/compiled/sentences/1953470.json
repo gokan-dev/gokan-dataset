@@ -1,0 +1,99 @@
+[
+  {
+    "id": "124427",
+    "original": "怒った先生はジョニー君を教室から退室させました。",
+    "en": [
+      {
+        "id": "279567",
+        "text": "The teacher was really upset and threw Johnny out of class."
+      }
+    ],
+    "indices": "怒る(おこる){怒った} 先生(せんせい)[01] は 君(きみ) を 教室 から 退室~ 為せる{させました}",
+    "vocabIds": [
+      "1445690",
+      "1387990",
+      "1237150",
+      "1953470",
+      "1247250"
+    ],
+    "matches": {
+      "1237150": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "きょうしつ"
+        }
+      ],
+      "1247250": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "くん"
+        }
+      ],
+      "1387990": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "せんせい"
+        }
+      ],
+      "1445690": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "おこった"
+        }
+      ],
+      "1953470": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "たいしつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2800312",
+    "original": "退室の際は消灯してください。",
+    "en": [
+      {
+        "id": "1492176",
+        "text": "Please turn off the light before leaving the room."
+      },
+      {
+        "id": "2800313",
+        "text": "Please turn off the lights when you leave the room."
+      }
+    ],
+    "vocabIds": [
+      "1953470",
+      "1594990",
+      "1296300"
+    ],
+    "matches": {
+      "1296300": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "さい"
+        }
+      ],
+      "1594990": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "しょうとう"
+        }
+      ],
+      "1953470": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "たいしつ"
+        }
+      ]
+    }
+  }
+]

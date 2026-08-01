@@ -1,0 +1,125 @@
+[
+  {
+    "id": "74246",
+    "original": "1/4カットの白菜を太めの千切りにザクザク切る。",
+    "en": [
+      {
+        "id": "329474",
+        "text": "Cut the quartered pak-choi into, slightly wide, strips."
+      },
+      {
+        "id": "520679",
+        "text": "Cut the quartered Chinese cabbage into wide strips."
+      }
+    ],
+    "indices": "カット(#1037630)[01]~ の 白菜(パクチョイ)~ を 太め~ の 千切り~ に ざくざく[03]{ザクザク}~ 切る[01]",
+    "vocabIds": [
+      "1389000",
+      "1475170",
+      "2116670",
+      "1384830"
+    ],
+    "matches": {
+      "1384830": [
+        {
+          "start": 21,
+          "length": 2,
+          "reading": "きる"
+        }
+      ],
+      "1389000": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "せんぎり"
+        }
+      ],
+      "1475170": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "はくさい"
+        }
+      ],
+      "2116670": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "ふとめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2085632",
+    "original": "トムは少し太めだ。",
+    "en": [
+      {
+        "id": "1522787",
+        "text": "Tom is slightly overweight."
+      },
+      {
+        "id": "2783973",
+        "text": "Tom is a little chubby."
+      }
+    ],
+    "vocabIds": [
+      "1348870",
+      "2116670"
+    ],
+    "matches": {
+      "1348870": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "すこし"
+        }
+      ],
+      "2116670": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ふとめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8886284",
+    "original": "やっぱり太めの凛々しい眉毛だね。",
+    "en": [
+      {
+        "id": "13614721",
+        "text": "He really does have such thick, imposing eyebrows."
+      }
+    ],
+    "vocabIds": [
+      "1606330",
+      "2116670",
+      "1486330"
+    ],
+    "matches": {
+      "1486330": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "まゆげ"
+        }
+      ],
+      "1606330": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "りりしい"
+        }
+      ],
+      "2116670": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ふとめ"
+        }
+      ]
+    }
+  }
+]

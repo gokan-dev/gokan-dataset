@@ -1,0 +1,95 @@
+[
+  {
+    "id": "109445",
+    "original": "彼は何でもずばずば言う人だ。",
+    "en": [
+      {
+        "id": "294245",
+        "text": "He is the type of a person who calls a spade a spade."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 何でも ずばずば言う~ 人(ひと) だ",
+    "vocabIds": [
+      "1006390",
+      "1611030",
+      "1000420",
+      "1483070",
+      "1580640"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1006390": [
+        {
+          "start": 5,
+          "length": 6,
+          "reading": "ずばずばいう"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ],
+      "1611030": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "なにでも"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2734238",
+    "original": "トムは何でもずばずば言う人だ。",
+    "en": [
+      {
+        "id": "2734359",
+        "text": "Tom is the type of person who calls a spade a spade."
+      }
+    ],
+    "vocabIds": [
+      "1006390",
+      "1611030",
+      "1580640"
+    ],
+    "matches": {
+      "1006390": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "ずばずばいう"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ],
+      "1611030": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "なにでも"
+        }
+      ]
+    }
+  }
+]

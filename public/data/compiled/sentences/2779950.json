@@ -1,0 +1,115 @@
+[
+  {
+    "id": "74572",
+    "original": "その瞬間、大音響とともに爆発した。",
+    "en": [
+      {
+        "id": "329147",
+        "text": "At that instant it exploded with a great noise."
+      }
+    ],
+    "indices": "其の[01]{その} 瞬間 大(だい)[01] 音響~ と共に{とともに} 爆発[01] 為る(する){した}",
+    "vocabIds": [
+      "2779950",
+      "1341210",
+      "1475910"
+    ],
+    "matches": {
+      "1341210": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "しゅんかん"
+        }
+      ],
+      "1475910": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "ばくはつ"
+        }
+      ],
+      "2779950": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "だいおんきょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "137658",
+    "original": "大音響とともに爆発した。",
+    "en": [
+      {
+        "id": "275578",
+        "text": "It exploded with a loud noise."
+      }
+    ],
+    "indices": "大(だい)[01] 音響 と共に{とともに} 爆発[01] 為る(する){した}",
+    "vocabIds": [
+      "2779950",
+      "1475910"
+    ],
+    "matches": {
+      "1475910": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ばくはつ"
+        }
+      ],
+      "2779950": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "だいおんきょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "635031",
+    "original": "時限爆弾が大音響とともに爆発した。",
+    "en": [
+      {
+        "id": "635033",
+        "text": "The time-bomb exploded with a loud noise."
+      },
+      {
+        "id": "1500151",
+        "text": "The time bomb exploded with a loud noise."
+      }
+    ],
+    "indices": "時限爆弾 が 大(だい)[01] 音響 と共に{とともに} 爆発[01] 為る(する){した}",
+    "vocabIds": [
+      "1316200",
+      "2779950",
+      "1475910"
+    ],
+    "matches": {
+      "1316200": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "じげんばくだん"
+        }
+      ],
+      "1475910": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "ばくはつ"
+        }
+      ],
+      "2779950": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "だいおんきょう"
+        }
+      ]
+    }
+  }
+]

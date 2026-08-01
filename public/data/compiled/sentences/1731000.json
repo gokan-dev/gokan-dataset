@@ -1,0 +1,188 @@
+[
+  {
+    "id": "207607",
+    "original": "その店は年中無休です。",
+    "en": [
+      {
+        "id": "44860",
+        "text": "The store is open all the year round."
+      },
+      {
+        "id": "10564044",
+        "text": "That store is open all year round."
+      },
+      {
+        "id": "10564045",
+        "text": "That store is open every day of the year."
+      }
+    ],
+    "indices": "其の[01]{その} 店(みせ) は 年中無休 です",
+    "vocabIds": [
+      "1731000",
+      "1582120"
+    ],
+    "matches": {
+      "1582120": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "みせ"
+        }
+      ],
+      "1731000": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "ねんじゅうむきゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "236054",
+    "original": "１０時から６時まで年中無休でやっています。",
+    "en": [
+      {
+        "id": "73435",
+        "text": "It's open ten to six daily throughout the year."
+      }
+    ],
+    "indices": "時(じ)[01] から[01] 時(じ)[01] 迄{まで} 年中無休~ で(#2028980) 遣る{やっています}",
+    "vocabIds": [
+      "1731000",
+      "2845369",
+      "2583620"
+    ],
+    "matches": {
+      "1731000": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "ねんじゅうむきゅう"
+        }
+      ],
+      "2583620": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ろくじ"
+        }
+      ],
+      "2845369": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "いちぜろじ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2710598",
+    "original": "当店は年中無休です。",
+    "en": [
+      {
+        "id": "5907003",
+        "text": "Our company has no holidays year round."
+      },
+      {
+        "id": "9835441",
+        "text": "This store is open 365 days a year."
+      }
+    ],
+    "vocabIds": [
+      "1731000",
+      "1449200"
+    ],
+    "matches": {
+      "1449200": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とうてん"
+        }
+      ],
+      "1731000": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "ねんじゅうむきゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10763958",
+    "original": "年中無休です。",
+    "en": [
+      {
+        "id": "10945939",
+        "text": "It's open every day of the year."
+      }
+    ],
+    "vocabIds": [
+      "1731000"
+    ],
+    "matches": {
+      "1731000": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "ねんじゅうむきゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11203786",
+    "original": "あの店は、年中無休よ。",
+    "en": [
+      {
+        "id": "5228910",
+        "text": "That store is open all year."
+      }
+    ],
+    "vocabIds": [
+      "1731000",
+      "1582120"
+    ],
+    "matches": {
+      "1582120": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "みせ"
+        }
+      ],
+      "1731000": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "ねんじゅうむきゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12144431",
+    "original": "ありがたいことに、ドライブスルーは年中無休だった。",
+    "en": [
+      {
+        "id": "10735785",
+        "text": "Thankfully, the drive-thru was open 24/7."
+      }
+    ],
+    "vocabIds": [
+      "1731000"
+    ],
+    "matches": {
+      "1731000": [
+        {
+          "start": 17,
+          "length": 4,
+          "reading": "ねんじゅうむきゅう"
+        }
+      ]
+    }
+  }
+]

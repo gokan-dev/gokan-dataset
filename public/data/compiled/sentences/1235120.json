@@ -1,0 +1,96 @@
+[
+  {
+    "id": "101216",
+    "original": "彼は犯罪の共犯者です。",
+    "en": [
+      {
+        "id": "302480",
+        "text": "He is a partner in crime."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 犯罪 の 共犯者 です",
+    "vocabIds": [
+      "1235120",
+      "1481590",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1235120": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "きょうはんしゃ"
+        }
+      ],
+      "1481590": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "はんざい"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "108395",
+    "original": "彼は共犯者とみなされた。",
+    "en": [
+      {
+        "id": "295290",
+        "text": "He was considered an accomplice."
+      },
+      {
+        "id": "632486",
+        "text": "He was considered to be an accomplice."
+      },
+      {
+        "id": "632487",
+        "text": "They thought that he was an accomplice."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 共犯者~ と 見なす{みなされた}",
+    "vocabIds": [
+      "1235120",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1235120": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "きょうはんしゃ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  }
+]

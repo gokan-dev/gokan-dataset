@@ -1,0 +1,150 @@
+[
+  {
+    "id": "79242",
+    "original": "有料高速道路の通行料金を払うにはお釣りがあってはいけません。",
+    "en": [
+      {
+        "id": "324475",
+        "text": "You need to have exact change to pay the toll of the expressway."
+      }
+    ],
+    "indices": "有料 高速道路 の 通行 料金 を 払う[01] には お釣り が[01] 有る{あって} は 行けない[02]{いけません}",
+    "vocabIds": [
+      "1283720",
+      "2860001",
+      "1270550",
+      "1541690",
+      "1501620"
+    ],
+    "matches": {
+      "1270550": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "おつり"
+        }
+      ],
+      "1283720": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "こうそくどうろ"
+        }
+      ],
+      "1501620": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "はらう"
+        }
+      ],
+      "1541690": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ゆうりょう"
+        }
+      ],
+      "2860001": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "つうこうりょうきん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "121524",
+    "original": "配達は有料ですか。",
+    "en": [
+      {
+        "id": "282476",
+        "text": "Do you charge for delivery?"
+      }
+    ],
+    "indices": "配達 は 有料 ですか",
+    "vocabIds": [
+      "1473140",
+      "1541690"
+    ],
+    "matches": {
+      "1473140": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "はいたつ"
+        }
+      ],
+      "1541690": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ゆうりょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "121528",
+    "original": "配送は有料ですか。",
+    "en": [
+      {
+        "id": "282476",
+        "text": "Do you charge for delivery?"
+      }
+    ],
+    "indices": "配送 は 有料 ですか",
+    "vocabIds": [
+      "1473120",
+      "1541690"
+    ],
+    "matches": {
+      "1473120": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "はいそう"
+        }
+      ],
+      "1541690": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ゆうりょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "220252",
+    "original": "この道路は有料です。",
+    "en": [
+      {
+        "id": "57571",
+        "text": "We must pay a toll to drive on this road."
+      }
+    ],
+    "indices": "此の{この} 道路 は 有料~ です",
+    "vocabIds": [
+      "1454290",
+      "1541690"
+    ],
+    "matches": {
+      "1454290": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "どうろ"
+        }
+      ],
+      "1541690": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ゆうりょう"
+        }
+      ]
+    }
+  }
+]

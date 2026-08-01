@@ -1,0 +1,624 @@
+[
+  {
+    "id": "110869",
+    "original": "彼はまずめったに床屋へ行かない。",
+    "en": [
+      {
+        "id": "292817",
+        "text": "He seldom, if ever, goes to the barber's."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 先ず[01]{まず} 滅多に{めったに} 床屋 へ 行く[01]{行かない}",
+    "vocabIds": [
+      "1578850",
+      "1349410",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1349410": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "とこや"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "いかない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "146457",
+    "original": "床屋に行って髪を刈ってもらいなさい。",
+    "en": [
+      {
+        "id": "268105",
+        "text": "Go to the barber's to have your hair cut."
+      }
+    ],
+    "indices": "床屋 に 行く[01]{行って} 髪 を 刈る{刈って} 貰う[02]{もらい} 為さい{なさい}",
+    "vocabIds": [
+      "1209540",
+      "1578850",
+      "1349410",
+      "1477950"
+    ],
+    "matches": {
+      "1209540": [
+        {
+          "start": 8,
+          "length": 9,
+          "reading": "かってもらいなさい"
+        }
+      ],
+      "1349410": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とこや"
+        }
+      ],
+      "1477950": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "かみ"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "いって"
+        }
+      ]
+    }
+  },
+  {
+    "id": "146458",
+    "original": "床屋に行きなさい。",
+    "en": [
+      {
+        "id": "268104",
+        "text": "Go to the barber."
+      }
+    ],
+    "indices": "床屋 に 行く",
+    "vocabIds": [
+      "1578850",
+      "1349410"
+    ],
+    "matches": {
+      "1349410": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とこや"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "いきなさい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "146459",
+    "original": "床屋に行きなさいよ。",
+    "en": [
+      {
+        "id": "268103",
+        "text": "Why don't you get a haircut?"
+      },
+      {
+        "id": "949996",
+        "text": "Get a haircut."
+      },
+      {
+        "id": "949998",
+        "text": "Go to the barbershop."
+      },
+      {
+        "id": "950001",
+        "text": "You should go to the barbershop."
+      }
+    ],
+    "indices": "床屋 に 行く[01]{行き} 為さい{なさい} よ[01]",
+    "vocabIds": [
+      "1578850",
+      "1349410"
+    ],
+    "matches": {
+      "1349410": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とこや"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "いきなさい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "146460",
+    "original": "床屋さんがあなたの髪をとても短く切りましたね。",
+    "en": [
+      {
+        "id": "268102",
+        "text": "The barber has cut your hair very short."
+      }
+    ],
+    "indices": "床屋 さん が 貴方(あなた)[01]{あなた} の 髪 を 迚も[01]{とても} 短い{短く} 切る[01]{切りました} ね(#2029080)[01]",
+    "vocabIds": [
+      "1384830",
+      "1349410",
+      "1418620",
+      "1477950"
+    ],
+    "matches": {
+      "1349410": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とこや"
+        }
+      ],
+      "1384830": [
+        {
+          "start": 16,
+          "length": 5,
+          "reading": "きりました"
+        }
+      ],
+      "1418620": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "みじかく"
+        }
+      ],
+      "1477950": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "かみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "155835",
+    "original": "床屋に行くつもりだよ。",
+    "en": [
+      {
+        "id": "258702",
+        "text": "I intend to go to the barbershop."
+      }
+    ],
+    "indices": "床屋 に 行く 積もり{つもり} だ よ",
+    "vocabIds": [
+      "1349410",
+      "1578850"
+    ],
+    "matches": {
+      "1349410": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とこや"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "いく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "155836",
+    "original": "私は床屋で散髪した。",
+    "en": [
+      {
+        "id": "257885",
+        "text": "I had my hair cut at the barber's."
+      }
+    ],
+    "indices": "私(わたし)[01] は 床屋 で(#2028980) 散髪 為る(する){した}",
+    "vocabIds": [
+      "1349410",
+      "1303590",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1303590": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "さんぱつ"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1349410": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "とこや"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "155837",
+    "original": "私は床屋さんで髪を刈ってもらいました。",
+    "en": [
+      {
+        "id": "257885",
+        "text": "I had my hair cut at the barber's."
+      }
+    ],
+    "indices": "私(わたし)[01] は 床屋 さん で(#2028980) 髪 を 刈る{刈って} 貰う[02]{もらいました}",
+    "vocabIds": [
+      "1209540",
+      "1349410",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1477950"
+    ],
+    "matches": {
+      "1209540": [
+        {
+          "start": 9,
+          "length": 9,
+          "reading": "かってもらいました"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1349410": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "とこや"
+        }
+      ],
+      "1477950": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "かみ"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "162070",
+    "original": "１ヶ月に１回床屋に行くよ。",
+    "en": [
+      {
+        "id": "252445",
+        "text": "I usually go to the barber once a month."
+      },
+      {
+        "id": "257210",
+        "text": "I go to the barber's once a month."
+      }
+    ],
+    "indices": "ヶ月 に 回 床屋 に 行く よ",
+    "vocabIds": [
+      "1587410",
+      "1161310",
+      "1349410",
+      "1578850"
+    ],
+    "matches": {
+      "1161310": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "いちかい"
+        }
+      ],
+      "1349410": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "とこや"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "いく"
+        }
+      ],
+      "1587410": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "いちかげつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "169869",
+    "original": "昨日床屋で髪を切ってもらったんだ。",
+    "en": [
+      {
+        "id": "244617",
+        "text": "I had my hair cut at the barber shop yesterday."
+      }
+    ],
+    "indices": "昨日 床屋 で(#2028980) 髪を切る{髪を切って} 貰う[02]{もらった} のだ{んだ}",
+    "vocabIds": [
+      "1384830",
+      "1579260",
+      "1349410",
+      "1477950"
+    ],
+    "matches": {
+      "1349410": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "とこや"
+        }
+      ],
+      "1384830": [
+        {
+          "start": 7,
+          "length": 7,
+          "reading": "きってもらった"
+        }
+      ],
+      "1477950": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "かみ"
+        }
+      ],
+      "1579260": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きのう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "171433",
+    "original": "今日床屋で散髪しなければならない。",
+    "en": [
+      {
+        "id": "243023",
+        "text": "I must have a haircut at the barber's today."
+      }
+    ],
+    "indices": "今日 床屋 で(#2028980) 散髪 為る(する){し} ねばならない{なければならない}",
+    "vocabIds": [
+      "1579110",
+      "1349410",
+      "1303590"
+    ],
+    "matches": {
+      "1303590": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "さんぱつ"
+        }
+      ],
+      "1349410": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "とこや"
+        }
+      ],
+      "1579110": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "227485",
+    "original": "おや、床屋へ行ってきたのだね。",
+    "en": [
+      {
+        "id": "64838",
+        "text": "Oh, you've been to the barbershop."
+      }
+    ],
+    "indices": "おや 床屋~ へ 行って来る{行ってきた} のだ ね(#2029080)[01]",
+    "vocabIds": [
+      "1578850",
+      "1349410"
+    ],
+    "matches": {
+      "1349410": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "とこや"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "いってきた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "236498",
+    "original": "「どこへ行ってきたのですか」「床屋へ行ってきたところです」",
+    "en": [
+      {
+        "id": "73840",
+        "text": "\"Where have you been?\" \"I've been to the barber's.\""
+      }
+    ],
+    "indices": "何処{どこ} へ 行って来る{行ってきた} のです か 床屋 へ 行って来る{行ってきた} 所(ところ)[08]{ところ} です",
+    "vocabIds": [
+      "1578850",
+      "1349410"
+    ],
+    "matches": {
+      "1349410": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "とこや"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "いってきた"
+        },
+        {
+          "start": 18,
+          "length": 5,
+          "reading": "いってきた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11178869",
+    "original": "月に一度、床屋に行きます。",
+    "en": [
+      {
+        "id": "5172580",
+        "text": "Once a month, I go to the barber."
+      },
+      {
+        "id": "463862",
+        "text": "I go to the barber once a month."
+      },
+      {
+        "id": "257210",
+        "text": "I go to the barber's once a month."
+      }
+    ],
+    "vocabIds": [
+      "1578850",
+      "1576250",
+      "1349410",
+      "1255430"
+    ],
+    "matches": {
+      "1255430": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "つき"
+        }
+      ],
+      "1349410": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "とこや"
+        }
+      ],
+      "1576250": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "いちど"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "いきます"
+        }
+      ]
+    }
+  }
+]

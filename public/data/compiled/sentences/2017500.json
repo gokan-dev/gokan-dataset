@@ -1,0 +1,75 @@
+[
+  {
+    "id": "166001",
+    "original": "私たちは皆がやれるように順番にボール投げをした。",
+    "en": [
+      {
+        "id": "248503",
+        "text": "We threw the ball in turn so that everyone could have a try."
+      }
+    ],
+    "indices": "私たち は 皆 が 遣る{やれる} 様(よう){ように} 順番に ボール投げ~ を 為る(する){した}",
+    "vocabIds": [
+      "2017500",
+      "1311300",
+      "2704010",
+      "1202150"
+    ],
+    "matches": {
+      "1202150": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "みな"
+        }
+      ],
+      "1311300": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "2017500": [
+        {
+          "start": 15,
+          "length": 5,
+          "reading": "ぼーるなげ"
+        }
+      ],
+      "2704010": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "じゅんばんに"
+        }
+      ]
+    }
+  },
+  {
+    "id": "4272237",
+    "original": "そのボール投げて。",
+    "en": [
+      {
+        "id": "6713621",
+        "text": "Throw the ball."
+      },
+      {
+        "id": "2249764",
+        "text": "Pitch the ball."
+      }
+    ],
+    "vocabIds": [
+      "2017500"
+    ],
+    "matches": {
+      "2017500": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "ぼーるなげ"
+        }
+      ]
+    }
+  }
+]

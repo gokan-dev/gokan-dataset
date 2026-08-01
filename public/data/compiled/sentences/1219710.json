@@ -1,0 +1,116 @@
+[
+  {
+    "id": "88544",
+    "original": "彼女は新聞に論文を寄稿した。",
+    "en": [
+      {
+        "id": "315163",
+        "text": "She contributed an article to the newspaper."
+      }
+    ],
+    "indices": "彼女[01] は 新聞 に 論文 を 寄稿 為る(する){した}",
+    "vocabIds": [
+      "1483150",
+      "1362360",
+      "1561840",
+      "1219710"
+    ],
+    "matches": {
+      "1219710": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "きこう"
+        }
+      ],
+      "1362360": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "しんぶん"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1561840": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ろんぶん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "103757",
+    "original": "彼は新聞に何か寄稿しようと思った。",
+    "en": [
+      {
+        "id": "299937",
+        "text": "He purposed writing something for the paper."
+      },
+      {
+        "id": "646895",
+        "text": "He thought that he would write something for the newspaper."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 新聞 に 何か 寄稿~ 為る(する){しよう} と 思う{思った}",
+    "vocabIds": [
+      "1589350",
+      "1362360",
+      "1188270",
+      "1219710",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1188270": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "なにか"
+        }
+      ],
+      "1219710": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "きこう"
+        }
+      ],
+      "1362360": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "しんぶん"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1589350": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "おもった"
+        }
+      ]
+    }
+  }
+]

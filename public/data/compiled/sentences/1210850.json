@@ -1,0 +1,100 @@
+[
+  {
+    "id": "96641",
+    "original": "彼らは息子を勘当した。",
+    "en": [
+      {
+        "id": "307064",
+        "text": "They renounced their son."
+      }
+    ],
+    "indices": "彼ら(かれら) は 息子[01] を 勘当~ 為る(する){した}",
+    "vocabIds": [
+      "1483090",
+      "2397090",
+      "1404390",
+      "1210850"
+    ],
+    "matches": {
+      "1210850": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "かんどう"
+        }
+      ],
+      "1404390": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "むすこ"
+        }
+      ],
+      "1483090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれら"
+        }
+      ],
+      "2397090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11563497",
+    "original": "親が、弟がゲイだって知ったら、弟を勘当するでしょう。",
+    "en": [
+      {
+        "id": "10338399",
+        "text": "My parents will disown my brother if they find out that he's gay."
+      }
+    ],
+    "vocabIds": [
+      "1420470",
+      "1210850",
+      "1365040",
+      "1581930"
+    ],
+    "matches": {
+      "1210850": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "かんどう"
+        }
+      ],
+      "1365040": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "おや"
+        }
+      ],
+      "1420470": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "しったら"
+        }
+      ],
+      "1581930": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "おとうと"
+        },
+        {
+          "start": 15,
+          "length": 1,
+          "reading": "おとうと"
+        }
+      ]
+    }
+  }
+]

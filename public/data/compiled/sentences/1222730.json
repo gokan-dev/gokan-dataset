@@ -1,0 +1,241 @@
+[
+  {
+    "id": "183120",
+    "original": "汽船は見えなくなった。",
+    "en": [
+      {
+        "id": "20242",
+        "text": "The steamer is now out of sight."
+      },
+      {
+        "id": "504285",
+        "text": "The steam ship has gone out of sight."
+      }
+    ],
+    "indices": "汽船 は 見える(みえる){見えなく} 成る[01]{なった}",
+    "vocabIds": [
+      "1259140",
+      "1222730"
+    ],
+    "matches": {
+      "1222730": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きせん"
+        }
+      ],
+      "1259140": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "みえなく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "183121",
+    "original": "汽船は疑いもなくそれ自体１つの都市である。",
+    "en": [
+      {
+        "id": "20243",
+        "text": "A steamship is, without a doubt, a city in itself."
+      }
+    ],
+    "indices": "汽船 は 疑い も 無い{なく} それ自体 一つ{１つ} の 都市 である",
+    "vocabIds": [
+      "2454170",
+      "1222730",
+      "1225490",
+      "1160820",
+      "1444990"
+    ],
+    "matches": {
+      "1160820": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "ひとつ"
+        }
+      ],
+      "1222730": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きせん"
+        }
+      ],
+      "1225490": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "うたがい"
+        }
+      ],
+      "1444990": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "とし"
+        }
+      ],
+      "2454170": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "それじたい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "183122",
+    "original": "汽船と汽車ではどちらが速く走りますか。",
+    "en": [
+      {
+        "id": "20244",
+        "text": "Which goes faster, a ship or a train?"
+      }
+    ],
+    "indices": "汽船 と 汽車 で(#2028980) は 何方(どちら){どちら} が 早い[01]{速く} 走る[02]{走ります} か",
+    "vocabIds": [
+      "1402540",
+      "1222730",
+      "1222700",
+      "1404975"
+    ],
+    "matches": {
+      "1222700": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "きしゃ"
+        }
+      ],
+      "1222730": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きせん"
+        }
+      ],
+      "1402540": [
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "はしります"
+        }
+      ],
+      "1404975": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "はやく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "189473",
+    "original": "運よく汽船が通りかかって彼らは救助された。",
+    "en": [
+      {
+        "id": "26624",
+        "text": "As luck would have it, a steamer passed by and they were saved."
+      }
+    ],
+    "indices": "運良く{運よく} 汽船 が 通りかかる{通りかかって} 彼ら(かれら) は 救助 為れる{された}",
+    "vocabIds": [
+      "1433030",
+      "1172670",
+      "1222730",
+      "1483090",
+      "2397090",
+      "1229200"
+    ],
+    "matches": {
+      "1172670": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "うんよく"
+        }
+      ],
+      "1222730": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "きせん"
+        }
+      ],
+      "1229200": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "きゅうじょ"
+        }
+      ],
+      "1433030": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "とおりかかって"
+        }
+      ],
+      "1483090": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "かれら"
+        }
+      ],
+      "2397090": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "かれら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "211518",
+    "original": "その汽船は香港に立ち寄った。",
+    "en": [
+      {
+        "id": "48796",
+        "text": "The liner called at Hong Kong."
+      }
+    ],
+    "indices": "其の[01]{その} 汽船~ は 香港~ に 立ち寄る{立ち寄った}",
+    "vocabIds": [
+      "1551300",
+      "1222730",
+      "1283030"
+    ],
+    "matches": {
+      "1222730": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きせん"
+        }
+      ],
+      "1283030": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ほんこん"
+        }
+      ],
+      "1551300": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "たちよった"
+        }
+      ]
+    }
+  }
+]

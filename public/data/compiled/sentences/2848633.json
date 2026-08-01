@@ -1,0 +1,100 @@
+[
+  {
+    "id": "109911",
+    "original": "彼は一代で巨万の富を得た。",
+    "en": [
+      {
+        "id": "293778",
+        "text": "He made a great fortune in his lifetime."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 一代 で(#2028980) 巨万 の 富 を 得る(える)[01]{得た}",
+    "vocabIds": [
+      "2848633",
+      "1164590",
+      "1588760",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1164590": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "いちだい"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1588760": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "えた"
+        }
+      ],
+      "2848633": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "きょまんのとみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "206134",
+    "original": "その老人は巨万の富を所有している。",
+    "en": [
+      {
+        "id": "43380",
+        "text": "The old man possesses great wealth."
+      },
+      {
+        "id": "389485",
+        "text": "The old man is possessed of great wealth."
+      }
+    ],
+    "indices": "其の[01]{その} 老人 は 巨万~ の 富 を 所有 為る(する){している}",
+    "vocabIds": [
+      "2848633",
+      "1561090",
+      "1343390"
+    ],
+    "matches": {
+      "1343390": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "しょゆう"
+        }
+      ],
+      "1561090": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ろうじん"
+        }
+      ],
+      "2848633": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "きょまんのとみ"
+        }
+      ]
+    }
+  }
+]

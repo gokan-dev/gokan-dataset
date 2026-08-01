@@ -1,0 +1,76 @@
+[
+  {
+    "id": "179533",
+    "original": "苦は楽の種。",
+    "en": [
+      {
+        "id": "18390",
+        "text": "No pain, no gains."
+      },
+      {
+        "id": "18370",
+        "text": "No pain, no gain."
+      }
+    ],
+    "indices": "苦[01] は 楽(らく)[01] の 種(たね)[05]",
+    "vocabIds": [
+      "2152780"
+    ],
+    "matches": {
+      "2152780": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "くはらくのたね"
+        }
+      ]
+    }
+  },
+  {
+    "id": "184135",
+    "original": "楽は苦の種苦は楽の種。",
+    "en": [
+      {
+        "id": "400110",
+        "text": "One cannot have pain without pleasure, and one cannot have pleasure without pain."
+      }
+    ],
+    "indices": "楽(らく)[01] は 苦[01] の 種(たね)[05] 苦[01] は 楽(らく)[01] の 種(たね)[05]",
+    "vocabIds": [
+      "2152780",
+      "1207230",
+      "2037710",
+      "2735690"
+    ],
+    "matches": {
+      "1207230": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "らく"
+        }
+      ],
+      "2037710": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "く"
+        }
+      ],
+      "2152780": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "くはらくのたね"
+        }
+      ],
+      "2735690": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "たね"
+        }
+      ]
+    }
+  }
+]

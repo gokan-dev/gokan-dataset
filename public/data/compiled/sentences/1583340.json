@@ -1,0 +1,64 @@
+[
+  {
+    "id": "85505",
+    "original": "鼻声だね。",
+    "en": [
+      {
+        "id": "318208",
+        "text": "You are talking through the nose."
+      }
+    ],
+    "indices": "鼻声~ だ ね(#2029080)[01]",
+    "vocabIds": [
+      "1583340"
+    ],
+    "matches": {
+      "1583340": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "はなごえ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "224827",
+    "original": "ここ２週間鼻声が抜けません。",
+    "en": [
+      {
+        "id": "62162",
+        "text": "I've had a nasal voice for two weeks."
+      }
+    ],
+    "indices": "此処[02]{ここ} 週間 鼻声 が 抜ける[01]{抜けません}",
+    "vocabIds": [
+      "1478200",
+      "1461990",
+      "1583340"
+    ],
+    "matches": {
+      "1461990": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "にしゅうかん"
+        }
+      ],
+      "1478200": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "ぬけません"
+        }
+      ],
+      "1583340": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "はなごえ"
+        }
+      ]
+    }
+  }
+]

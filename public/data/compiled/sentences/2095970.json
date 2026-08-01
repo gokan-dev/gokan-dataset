@@ -1,0 +1,56 @@
+[
+  {
+    "id": "74097",
+    "original": "副作用としては、視力障害があります。",
+    "en": [
+      {
+        "id": "329623",
+        "text": "This has visual impairment as a side effect."
+      }
+    ],
+    "indices": "副作用 としては 視力障害~ が 有る{あります}",
+    "vocabIds": [
+      "2095970",
+      "1500400"
+    ],
+    "matches": {
+      "1500400": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ふくさよう"
+        }
+      ],
+      "2095970": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "しりょくしょうがい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "151171",
+    "original": "視力障害があります。",
+    "en": [
+      {
+        "id": "263385",
+        "text": "I have some damage to my vision."
+      }
+    ],
+    "indices": "視力障害 が[01] 有る{あります}",
+    "vocabIds": [
+      "2095970"
+    ],
+    "matches": {
+      "2095970": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "しりょくしょうがい"
+        }
+      ]
+    }
+  }
+]

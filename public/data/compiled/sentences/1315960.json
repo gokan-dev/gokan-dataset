@@ -1,0 +1,180 @@
+[
+  {
+    "id": "150530",
+    "original": "時間割をもらえますか。",
+    "en": [
+      {
+        "id": "264027",
+        "text": "May I have a class schedule?"
+      },
+      {
+        "id": "13490481",
+        "text": "Can I have the schedule?"
+      },
+      {
+        "id": "13490482",
+        "text": "Can I get the schedule?"
+      }
+    ],
+    "indices": "時間割 を 貰う{もらえます} か",
+    "vocabIds": [
+      "1315960"
+    ],
+    "matches": {
+      "1315960": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "じかんわり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "165707",
+    "original": "私たちは時間割に従って勉強する。",
+    "en": [
+      {
+        "id": "248798",
+        "text": "We study according to the schedule."
+      }
+    ],
+    "indices": "私たち は 時間割~ に 従って 勉強[01]{勉強する}",
+    "vocabIds": [
+      "2630530",
+      "1311300",
+      "1315960",
+      "1512670"
+    ],
+    "matches": {
+      "1311300": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1315960": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "じかんわり"
+        }
+      ],
+      "1512670": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "べんきょう"
+        }
+      ],
+      "2630530": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "にしたがって"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3710329",
+    "original": "明日の時間割教えてくんない？",
+    "en": [
+      {
+        "id": "6544481",
+        "text": "Can you tell me tomorrow's schedule?"
+      }
+    ],
+    "vocabIds": [
+      "1236900",
+      "1315960",
+      "1584660"
+    ],
+    "matches": {
+      "1236900": [
+        {
+          "start": 6,
+          "length": 7,
+          "reading": "おしえてくんない"
+        }
+      ],
+      "1315960": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "じかんわり"
+        }
+      ],
+      "1584660": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あした"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11906608",
+    "original": "新しい時間割だと、英語の授業は週に5回あります。",
+    "en": [
+      {
+        "id": "9953874",
+        "text": "According to the new schedule, we'll have five English classes per week."
+      }
+    ],
+    "vocabIds": [
+      "1361490",
+      "1315960",
+      "1174420",
+      "1330290",
+      "1333450",
+      "1199330"
+    ],
+    "matches": {
+      "1174420": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "えいご"
+        }
+      ],
+      "1199330": [
+        {
+          "start": 18,
+          "length": 1,
+          "reading": "かい"
+        }
+      ],
+      "1315960": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "じかんわり"
+        }
+      ],
+      "1330290": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "じゅぎょう"
+        }
+      ],
+      "1333450": [
+        {
+          "start": 15,
+          "length": 1,
+          "reading": "しゅう"
+        }
+      ],
+      "1361490": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あたらしい"
+        }
+      ]
+    }
+  }
+]

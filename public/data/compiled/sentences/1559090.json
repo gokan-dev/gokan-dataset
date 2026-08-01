@@ -1,0 +1,227 @@
+[
+  {
+    "id": "77126",
+    "original": "藁なしで煉瓦はできない。",
+    "en": [
+      {
+        "id": "326593",
+        "text": "You cannot make bricks without straw."
+      },
+      {
+        "id": "1411291",
+        "text": "You can't make bricks without straw."
+      },
+      {
+        "id": "1411292",
+        "text": "Bricks can't be made without straw."
+      }
+    ],
+    "indices": "藁 無しで{なしで} 煉瓦 は 出来る{できない}",
+    "vocabIds": [
+      "1559090",
+      "1562710",
+      "2714230"
+    ],
+    "matches": {
+      "1559090": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "れんが"
+        }
+      ],
+      "1562710": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わら"
+        }
+      ],
+      "2714230": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "77427",
+    "original": "煉瓦職人はその塀には５００個のレンガが必要だと見積もった。",
+    "en": [
+      {
+        "id": "326292",
+        "text": "The bricklayer calculated that he would need 500 bricks for the wall."
+      }
+    ],
+    "indices": "煉瓦 職人 は 其の[01]{その} 塀 には 個(こ)[01] の 煉瓦{レンガ} が 必要[01] だ と 見積もる{見積もった}",
+    "vocabIds": [
+      "1259790",
+      "1559090",
+      "1357550",
+      "1487660",
+      "1506870",
+      "1268060",
+      "1557630",
+      "1264740",
+      "2220330"
+    ],
+    "matches": {
+      "1259790": [
+        {
+          "start": 23,
+          "length": 5,
+          "reading": "みつもった"
+        }
+      ],
+      "1264740": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "こ"
+        }
+      ],
+      "1268060": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "ご"
+        }
+      ],
+      "1357550": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "しょくにん"
+        }
+      ],
+      "1487660": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "ひつよう"
+        }
+      ],
+      "1506870": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "へい"
+        }
+      ],
+      "1557630": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "ぜろ"
+        },
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "ぜろ"
+        }
+      ],
+      "1559090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "れんが"
+        }
+      ],
+      "2220330": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "こ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "77428",
+    "original": "煉瓦の大部分は粘土からなっている。",
+    "en": [
+      {
+        "id": "326291",
+        "text": "Bricks consist mostly of clay."
+      }
+    ],
+    "indices": "煉瓦 の 大部分 は 粘土 から 成る{なっている}",
+    "vocabIds": [
+      "1414850",
+      "1559090",
+      "1469760"
+    ],
+    "matches": {
+      "1414850": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "だいぶぶん"
+        }
+      ],
+      "1469760": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ねんど"
+        }
+      ],
+      "1559090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "れんが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "77429",
+    "original": "煉瓦の壁は透かして見ることはできない。",
+    "en": [
+      {
+        "id": "11124387",
+        "text": "One can't see through a brick wall."
+      }
+    ],
+    "indices": "煉瓦 の 壁[01] は 透かす[01]{透かして}~ 見る 事が出来る{ことはできない}",
+    "vocabIds": [
+      "1450500",
+      "1559090",
+      "1259290",
+      "1509290"
+    ],
+    "matches": {
+      "1259290": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "みる"
+        }
+      ],
+      "1450500": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "すかして"
+        }
+      ],
+      "1509290": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "かべ"
+        }
+      ],
+      "1559090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "れんが"
+        }
+      ]
+    }
+  }
+]

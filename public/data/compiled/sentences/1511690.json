@@ -1,0 +1,822 @@
+[
+  {
+    "id": "100136",
+    "original": "彼は片手に帽子を持って立ち上がった。",
+    "en": [
+      {
+        "id": "303561",
+        "text": "He stood up with his hat in his hand."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 片手 に 帽子 を 持つ{持って} 立ち上がる[01]{立ち上がった}",
+    "vocabIds": [
+      "1551370",
+      "1315720",
+      "1511690",
+      "1519170",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1315720": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "もって"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1511690": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "かたて"
+        }
+      ],
+      "1519170": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ぼうし"
+        }
+      ],
+      "1551370": [
+        {
+          "start": 11,
+          "length": 6,
+          "reading": "たちあがった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "100137",
+    "original": "彼は片手に火、片手に水を運ぶ。",
+    "en": [
+      {
+        "id": "303560",
+        "text": "He carries fire in one hand and water in the other."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 片手 に 火(ひ) 片手 に 水(みず) を 運ぶ",
+    "vocabIds": [
+      "1511690",
+      "1172660",
+      "1000420",
+      "1483070",
+      "1193610",
+      "1371260"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1172660": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "はこぶ"
+        }
+      ],
+      "1193610": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "ひ"
+        }
+      ],
+      "1371260": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "みず"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1511690": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "かたて"
+        },
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "かたて"
+        }
+      ]
+    }
+  },
+  {
+    "id": "100138",
+    "original": "彼は片手でハンドルを握り、もう一方の手を私のほうに振った。",
+    "en": [
+      {
+        "id": "303559",
+        "text": "He held the wheel with one hand and waved to me with the other."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 片手 で(#2028980) ハンドル[02] を 握る{握り} もう[03] 一方(いっぽう)[01] の 手 を 私(わたし)[01]{私の} 方(ほう){ほう} に 振る(ふる)[01]{振った}",
+    "vocabIds": [
+      "2836610",
+      "1361330",
+      "1511690",
+      "1152720",
+      "1000420",
+      "1483070",
+      "1327190",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1152720": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "にぎり"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 20,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1327190": [
+        {
+          "start": 18,
+          "length": 1,
+          "reading": "て"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 20,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1361330": [
+        {
+          "start": 25,
+          "length": 3,
+          "reading": "ふった"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1511690": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "かたて"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 20,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2836610": [
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "もういっぽう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "110377",
+    "original": "彼はよく片手をポケットに入れて歩いている。",
+    "en": [
+      {
+        "id": "293310",
+        "text": "He often walks with his hand in his pocket."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 良く[02]{よく} 片手 を ポケット に 入れる{入れて} 歩く{歩いている}",
+    "vocabIds": [
+      "1514320",
+      "1465610",
+      "1511690",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1465610": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "いれて"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1511690": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "かたて"
+        }
+      ],
+      "1514320": [
+        {
+          "start": 15,
+          "length": 5,
+          "reading": "あるいている"
+        }
+      ]
+    }
+  },
+  {
+    "id": "114972",
+    "original": "彼はあごを片手にもたせて食卓にひじを突いて座っていた。",
+    "en": [
+      {
+        "id": "288699",
+        "text": "He sat at the table with his chin cupped in one hand."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 顎(あご){あご} を 片手 に 凭せる{もたせて}~ 食卓 に 肘{ひじ} を 突く(つく)[03]{突いて} 座る[01]{座っていた}",
+    "vocabIds": [
+      "1291800",
+      "1456890",
+      "1511690",
+      "1358530",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1291800": [
+        {
+          "start": 21,
+          "length": 5,
+          "reading": "すわっていた"
+        }
+      ],
+      "1358530": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "しょくたく"
+        }
+      ],
+      "1456890": [
+        {
+          "start": 18,
+          "length": 3,
+          "reading": "ついて"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1511690": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "かたて"
+        }
+      ]
+    }
+  },
+  {
+    "id": "158945",
+    "original": "私はボールを片手で受けた。",
+    "en": [
+      {
+        "id": "255581",
+        "text": "I caught the ball with one hand."
+      }
+    ],
+    "indices": "私(わたし)[01] は ボール(#1123550)[01] を 片手~ で(#2028980) 受ける{受けた}",
+    "vocabIds": [
+      "1329590",
+      "1511690",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1329590": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "うけた"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1511690": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "かたて"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "168321",
+    "original": "市長は片手を目にかざした。",
+    "en": [
+      {
+        "id": "246172",
+        "text": "The mayor screened his eyes with his hand."
+      }
+    ],
+    "indices": "市長 は 片手 を 目(め)[01] に 翳す[03]{かざした}~",
+    "vocabIds": [
+      "1308610",
+      "1511690",
+      "1604890"
+    ],
+    "matches": {
+      "1308610": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しちょう"
+        }
+      ],
+      "1511690": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かたて"
+        }
+      ],
+      "1604890": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "め"
+        }
+      ]
+    }
+  },
+  {
+    "id": "207142",
+    "original": "その彼女は重い箱を片手で持ち上げた。",
+    "en": [
+      {
+        "id": "44393",
+        "text": "The girl lifted the heavy box with one hand."
+      }
+    ],
+    "indices": "其の[01]{その} 彼女[01] は 重い[01] 箱[01] を 片手 で(#2028980) 持ち上げる{持ち上げた}",
+    "vocabIds": [
+      "1315610",
+      "1483150",
+      "1335750",
+      "1511690",
+      "1585650"
+    ],
+    "matches": {
+      "1315610": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "もちあげた"
+        }
+      ],
+      "1335750": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "おもい"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1511690": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "かたて"
+        }
+      ],
+      "1585650": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "はこ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "208144",
+    "original": "その男の子は重い箱を片手で持ち上げた。",
+    "en": [
+      {
+        "id": "45400",
+        "text": "The boy lifted the heavy box with one hand."
+      }
+    ],
+    "indices": "其の[01]{その} 男の子(おとこのこ) は 重い[01] 箱[01] を 片手 で(#2028980) 持ち上げる{持ち上げた}",
+    "vocabIds": [
+      "1315610",
+      "1419990",
+      "1420010",
+      "1335750",
+      "1511690",
+      "1585650"
+    ],
+    "matches": {
+      "1315610": [
+        {
+          "start": 13,
+          "length": 5,
+          "reading": "もちあげた"
+        }
+      ],
+      "1335750": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "おもい"
+        }
+      ],
+      "1419990": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "おとこのこ"
+        }
+      ],
+      "1420010": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "おとこのこ"
+        }
+      ],
+      "1511690": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "かたて"
+        }
+      ],
+      "1585650": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "はこ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1222753",
+    "original": "卵を片手で割れる？",
+    "en": [
+      {
+        "id": "1223897",
+        "text": "Can you break an egg with one hand?"
+      }
+    ],
+    "vocabIds": [
+      "1208020",
+      "1511690",
+      "1549140"
+    ],
+    "matches": {
+      "1208020": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "われる"
+        }
+      ],
+      "1511690": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "かたて"
+        }
+      ],
+      "1549140": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "たまご"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9699177",
+    "original": "あれだけ重かった貯金箱も今では片手で軽々と上げ下げできる。",
+    "en": [
+      {
+        "id": "9988509",
+        "text": "The savings box that was that heavy can now be lifted easily with one hand."
+      }
+    ],
+    "vocabIds": [
+      "1352330",
+      "1335750",
+      "1427190",
+      "1288910",
+      "1511690"
+    ],
+    "matches": {
+      "1288910": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "いまでは"
+        }
+      ],
+      "1335750": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "おもかった"
+        }
+      ],
+      "1352330": [
+        {
+          "start": 21,
+          "length": 4,
+          "reading": "あげさげ"
+        }
+      ],
+      "1427190": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "ちょきんばこ"
+        }
+      ],
+      "1511690": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "かたて"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9020968",
+    "original": "トムは、片手腕立て伏せができないんだ。",
+    "en": [
+      {
+        "id": "10069058",
+        "text": "Tom can't do one handed push-ups."
+      },
+      {
+        "id": "10081554",
+        "text": "Tom can't do one-handed pushups."
+      }
+    ],
+    "vocabIds": [
+      "1562940",
+      "1511690"
+    ],
+    "matches": {
+      "1511690": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "かたて"
+        }
+      ],
+      "1562940": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "うでたてふせ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10087533",
+    "original": "トムは卵を片手で割ることができる。",
+    "en": [
+      {
+        "id": "10085973",
+        "text": "Tom can crack an egg with one hand."
+      }
+    ],
+    "vocabIds": [
+      "1511690",
+      "1208000",
+      "1549140"
+    ],
+    "matches": {
+      "1208000": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "われる"
+        }
+      ],
+      "1511690": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "かたて"
+        }
+      ],
+      "1549140": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "たまご"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10087601",
+    "original": "トムって、卵の片手割りができるんだよ。",
+    "en": [
+      {
+        "id": "10085973",
+        "text": "Tom can crack an egg with one hand."
+      }
+    ],
+    "vocabIds": [
+      "1511690",
+      "1606800",
+      "1549140"
+    ],
+    "matches": {
+      "1511690": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "かたて"
+        }
+      ],
+      "1549140": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "たまご"
+        }
+      ],
+      "1606800": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "わり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "13066207",
+    "original": "この箱は見た目よりも重みがあり、片手では持ち上げるのが難しかった。",
+    "en": [
+      {
+        "id": "13079826",
+        "text": "This box is heavier than I thought, it was difficult to lift with one hand."
+      }
+    ],
+    "vocabIds": [
+      "1315610",
+      "1460850",
+      "1611750",
+      "1589410",
+      "1511690",
+      "1585650"
+    ],
+    "matches": {
+      "1315610": [
+        {
+          "start": 20,
+          "length": 5,
+          "reading": "もちあげる"
+        }
+      ],
+      "1460850": [
+        {
+          "start": 27,
+          "length": 5,
+          "reading": "むずかしかった"
+        }
+      ],
+      "1511690": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "かたて"
+        }
+      ],
+      "1585650": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "はこ"
+        }
+      ],
+      "1589410": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "おもみ"
+        }
+      ],
+      "1611750": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "みため"
+        }
+      ]
+    }
+  }
+]

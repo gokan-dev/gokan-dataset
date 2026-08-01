@@ -1,0 +1,56 @@
+[
+  {
+    "id": "123441",
+    "original": "特別展をやってますか。",
+    "en": [
+      {
+        "id": "280556",
+        "text": "Do you have any special exhibits?"
+      }
+    ],
+    "indices": "特別展~ を 遣る{やってます} か",
+    "vocabIds": [
+      "2081100"
+    ],
+    "matches": {
+      "2081100": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "とくべつてん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "220861",
+    "original": "この切符で特別展をみられますか。",
+    "en": [
+      {
+        "id": "58183",
+        "text": "Can I see the special exhibit with this ticket?"
+      }
+    ],
+    "indices": "此の{この} 切符 で(#2028980) 特別展 を 見る[01]{みられます} か",
+    "vocabIds": [
+      "2081100",
+      "1385170"
+    ],
+    "matches": {
+      "1385170": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きっぷ"
+        }
+      ],
+      "2081100": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "とくべつてん"
+        }
+      ]
+    }
+  }
+]

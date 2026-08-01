@@ -1,0 +1,95 @@
+[
+  {
+    "id": "197575",
+    "original": "ピッチャーが誰であろうと、うちのナンバーワンバッターを三振させることはできないだろう。",
+    "en": [
+      {
+        "id": "34761",
+        "text": "Whoever the pitcher may be, he will not be able to strike out our best hitter."
+      }
+    ],
+    "indices": "ピッチャー が 誰 である{であろう} と 内(うち){うちの} ナンバーワン バッター を 三振 為せる{させる} 事が出来る{ことはできない} だろう",
+    "vocabIds": [
+      "1300990",
+      "1416830"
+    ],
+    "matches": {
+      "1300990": [
+        {
+          "start": 27,
+          "length": 2,
+          "reading": "さんしん"
+        }
+      ],
+      "1416830": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "だれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "197962",
+    "original": "バッターは空振りの三振をした。",
+    "en": [
+      {
+        "id": "35151",
+        "text": "The batter struck out swinging."
+      }
+    ],
+    "indices": "バッター は 空振り[01]~ の 三振~ を 為る(する){した}",
+    "vocabIds": [
+      "1630410",
+      "1300990"
+    ],
+    "matches": {
+      "1300990": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "さんしん"
+        }
+      ],
+      "1630410": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "からぶり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214273",
+    "original": "スミスはジョーンズを三振に打ちとった。",
+    "en": [
+      {
+        "id": "51565",
+        "text": "Smith struck Jones out."
+      }
+    ],
+    "indices": "は を 三振 に 打ち取る[03]{打ちとった}~",
+    "vocabIds": [
+      "1408810",
+      "1300990"
+    ],
+    "matches": {
+      "1300990": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "さんしん"
+        }
+      ],
+      "1408810": [
+        {
+          "start": 13,
+          "length": 5,
+          "reading": "うちとった"
+        }
+      ]
+    }
+  }
+]

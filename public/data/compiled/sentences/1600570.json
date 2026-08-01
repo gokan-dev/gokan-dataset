@@ -1,0 +1,64 @@
+[
+  {
+    "id": "197283",
+    "original": "ビルは本当に飲んべえだ。",
+    "en": [
+      {
+        "id": "34465",
+        "text": "Bill really drinks like a fish."
+      }
+    ],
+    "indices": "は 本当に 飲兵衛{飲んべえ}~ だ",
+    "vocabIds": [
+      "1600570",
+      "1611580"
+    ],
+    "matches": {
+      "1600570": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "のんべえ"
+        }
+      ],
+      "1611580": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "ほんとうに"
+        }
+      ]
+    }
+  },
+  {
+    "id": "227503",
+    "original": "おめーらアイルランド人は、みんな飲兵衛らしいじゃねーか。",
+    "en": [
+      {
+        "id": "64856",
+        "text": "I hear you Irish are a bunch of drinkin' fools."
+      }
+    ],
+    "indices": "お前{おめー} 等(ら)[01]{ら} アイルランド人 は 皆{みんな} 飲兵衛 らしい だ{じゃねー} か",
+    "vocabIds": [
+      "2133250",
+      "1600570"
+    ],
+    "matches": {
+      "1600570": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "のんべえ"
+        }
+      ],
+      "2133250": [
+        {
+          "start": 4,
+          "length": 7,
+          "reading": "あいるらんどじん"
+        }
+      ]
+    }
+  }
+]

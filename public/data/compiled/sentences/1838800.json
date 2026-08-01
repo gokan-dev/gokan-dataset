@@ -1,0 +1,72 @@
+[
+  {
+    "id": "208514",
+    "original": "その川には淡水魚がうようよしていた。",
+    "en": [
+      {
+        "id": "45773",
+        "text": "The river was alive with fresh water fish."
+      }
+    ],
+    "indices": "其の[01]{その} 川[01] には 淡水魚 が うようよ 為る(する){していた}",
+    "vocabIds": [
+      "1838800",
+      "1390020"
+    ],
+    "matches": {
+      "1390020": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "かわ"
+        }
+      ],
+      "1838800": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "たんすいぎょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "218464",
+    "original": "これは確か淡水魚だと思います。",
+    "en": [
+      {
+        "id": "55776",
+        "text": "I believe this fish is a freshwater fish."
+      }
+    ],
+    "indices": "此れ[01]{これ} は 確か[03]~ 淡水魚~ だ と 思う{思います}",
+    "vocabIds": [
+      "1589350",
+      "1838800",
+      "1596930"
+    ],
+    "matches": {
+      "1589350": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "おもいます"
+        }
+      ],
+      "1596930": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "たしか"
+        }
+      ],
+      "1838800": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "たんすいぎょ"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,913 @@
+[
+  {
+    "id": "75582",
+    "original": "豆腐は軽く重しをして、２０分ほどおいて水切りする。",
+    "en": [
+      {
+        "id": "328136",
+        "text": "Lightly weigh the tofu down, leave it for about 20 minutes then drain."
+      }
+    ],
+    "indices": "豆腐 は 軽い[01]{軽く} 重し[01]~ を[01] 為る(する){して} 分(ふん) 程{ほど} 置く{おいて} 水切り[01]~ 為る(する){する}",
+    "vocabIds": [
+      "1641810",
+      "1450070",
+      "1252560",
+      "1952390",
+      "1461140",
+      "1557630",
+      "1502860"
+    ],
+    "matches": {
+      "1252560": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かるく"
+        }
+      ],
+      "1450070": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とうふ"
+        }
+      ],
+      "1461140": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "に"
+        }
+      ],
+      "1502860": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "ふん"
+        }
+      ],
+      "1557630": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "ぜろ"
+        }
+      ],
+      "1641810": [
+        {
+          "start": 19,
+          "length": 3,
+          "reading": "みずきり"
+        }
+      ],
+      "1952390": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "おもし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "123895",
+    "original": "豆腐は良い酒の肴になる。",
+    "en": [
+      {
+        "id": "280101",
+        "text": "Tofu is a good accompaniment for sake."
+      },
+      {
+        "id": "1133493",
+        "text": "Tofu goes well with good sake."
+      }
+    ],
+    "indices": "豆腐 は 良い 酒(さけ) の 肴~ になる[01]",
+    "vocabIds": [
+      "2837206",
+      "1450070",
+      "1605820"
+    ],
+    "matches": {
+      "1450070": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とうふ"
+        }
+      ],
+      "1605820": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "よい"
+        }
+      ],
+      "2837206": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "さけのさかな"
+        }
+      ]
+    }
+  },
+  {
+    "id": "191502",
+    "original": "悪いけどお豆腐買ってきてくれない？",
+    "en": [
+      {
+        "id": "28665",
+        "text": "I really shouldn't ask, but could you go get some tofu for me?"
+      }
+    ],
+    "indices": "悪い(わるい)[08]~ けど 御(お){お} 豆腐~ 買う[01]{買って} 来る(くる){きて} 呉れる{くれない}",
+    "vocabIds": [
+      "1473740",
+      "1151260",
+      "1403390",
+      "2772730",
+      "1450070"
+    ],
+    "matches": {
+      "1151260": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "わるいけど"
+        }
+      ],
+      "1403390": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "わるいけど"
+        }
+      ],
+      "1450070": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "とうふ"
+        }
+      ],
+      "1473740": [
+        {
+          "start": 7,
+          "length": 9,
+          "reading": "かってきてくれない"
+        }
+      ],
+      "2772730": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "わるいけど"
+        }
+      ]
+    }
+  },
+  {
+    "id": "227924",
+    "original": "エミリーは夕食に豆腐をたべた。",
+    "en": [
+      {
+        "id": "65276",
+        "text": "Emily ate tofu at dinner."
+      }
+    ],
+    "indices": "は 夕食 に 豆腐 を 食べる{たべた}",
+    "vocabIds": [
+      "1542730",
+      "1739970",
+      "1450070"
+    ],
+    "matches": {
+      "1450070": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "とうふ"
+        }
+      ],
+      "1542730": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ゆうしょく"
+        }
+      ],
+      "1739970": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ゆうしょく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "576426",
+    "original": "私と、同僚とが、山の崖っぷちに立っている小屋に等しい二間の家ーー二間と云っても、上り口と、その次と、六畳に二畳の家に住んでいた。食べるものは、芋、干魚、豆腐、寒い山の上なので、冬になると芋が凍っている。",
+    "en": [
+      {
+        "id": "576441",
+        "text": "Me and my colleagues lived in a small 2 room cabin built on the edge of a cliff on the mountain. I say 2 rooms, but besides the entrance, there was a 6 by 2 tatami room. We ate potatoes, dried fish and tofu. Because we were on the top of a cold mountain, the potatoes would freeze during the winter."
+      }
+    ],
+    "vocabIds": [
+      "1597040",
+      "1334040",
+      "1593100",
+      "2006250",
+      "1449330",
+      "1352530",
+      "1358280",
+      "1587040",
+      "1453580",
+      "1347830",
+      "2628100",
+      "1212010",
+      "1450070",
+      "1210360",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1302680",
+      "1461140",
+      "1191730",
+      "2098290",
+      "2082160",
+      "2220300",
+      "1316380",
+      "1585310",
+      "1356750",
+      "1167960",
+      "1446070"
+    ],
+    "matches": {
+      "1167960": [
+        {
+          "start": 71,
+          "length": 1,
+          "reading": "いも"
+        },
+        {
+          "start": 93,
+          "length": 1,
+          "reading": "いも"
+        }
+      ],
+      "1191730": [
+        {
+          "start": 29,
+          "length": 1,
+          "reading": "いえ"
+        },
+        {
+          "start": 56,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ],
+      "1210360": [
+        {
+          "start": 79,
+          "length": 2,
+          "reading": "さむい"
+        }
+      ],
+      "1212010": [
+        {
+          "start": 73,
+          "length": 2,
+          "reading": "ひぎょ"
+        }
+      ],
+      "1302680": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "やま"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1316380": [
+        {
+          "start": 47,
+          "length": 1,
+          "reading": "つぎ"
+        }
+      ],
+      "1334040": [
+        {
+          "start": 58,
+          "length": 5,
+          "reading": "すんでいた"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347830": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "こや"
+        }
+      ],
+      "1352530": [
+        {
+          "start": 40,
+          "length": 3,
+          "reading": "のぼりぐち"
+        }
+      ],
+      "1356750": [
+        {
+          "start": 51,
+          "length": 1,
+          "reading": "じょう"
+        },
+        {
+          "start": 54,
+          "length": 1,
+          "reading": "じょう"
+        }
+      ],
+      "1358280": [
+        {
+          "start": 64,
+          "length": 3,
+          "reading": "たべる"
+        }
+      ],
+      "1446070": [
+        {
+          "start": 88,
+          "length": 1,
+          "reading": "ふゆ"
+        }
+      ],
+      "1449330": [
+        {
+          "start": 23,
+          "length": 3,
+          "reading": "ひとしい"
+        }
+      ],
+      "1450070": [
+        {
+          "start": 76,
+          "length": 2,
+          "reading": "とうふ"
+        }
+      ],
+      "1453580": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "どうりょう"
+        }
+      ],
+      "1461140": [
+        {
+          "start": 53,
+          "length": 1,
+          "reading": "に"
+        }
+      ],
+      "1585310": [
+        {
+          "start": 50,
+          "length": 1,
+          "reading": "ろく"
+        }
+      ],
+      "1587040": [
+        {
+          "start": 35,
+          "length": 3,
+          "reading": "ゆって"
+        }
+      ],
+      "1593100": [
+        {
+          "start": 95,
+          "length": 5,
+          "reading": "こおっている"
+        }
+      ],
+      "1597040": [
+        {
+          "start": 15,
+          "length": 5,
+          "reading": "たっている"
+        }
+      ],
+      "2006250": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "がけっぷち"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2082160": [
+        {
+          "start": 29,
+          "length": 1,
+          "reading": "いえ"
+        },
+        {
+          "start": 56,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ],
+      "2098290": [
+        {
+          "start": 29,
+          "length": 1,
+          "reading": "いえ"
+        },
+        {
+          "start": 56,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ],
+      "2220300": [
+        {
+          "start": 29,
+          "length": 1,
+          "reading": "いえ"
+        },
+        {
+          "start": 56,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ],
+      "2628100": [
+        {
+          "start": 26,
+          "length": 2,
+          "reading": "にけん"
+        },
+        {
+          "start": 32,
+          "length": 2,
+          "reading": "にけん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "889707",
+    "original": "帰る途中でお豆腐買ってきてよ。",
+    "en": [
+      {
+        "id": "890338",
+        "text": "Buy some tofu on your way home."
+      },
+      {
+        "id": "7963766",
+        "text": "Buy tofu on your way home."
+      },
+      {
+        "id": "5158159",
+        "text": "Get some tofu on the way back."
+      }
+    ],
+    "vocabIds": [
+      "1473740",
+      "1221270",
+      "1582200",
+      "1450070"
+    ],
+    "matches": {
+      "1221270": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かえる"
+        }
+      ],
+      "1450070": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "とうふ"
+        }
+      ],
+      "1473740": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "かってきて"
+        }
+      ],
+      "1582200": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "とちゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "4064892",
+    "original": "豆腐がこんなにおいしいなんて知らなかった。",
+    "en": [
+      {
+        "id": "4091896",
+        "text": "I didn't know tofu was this tasty."
+      },
+      {
+        "id": "8365264",
+        "text": "I didn't know that tofu tasted this good."
+      },
+      {
+        "id": "8365265",
+        "text": "I didn't know tofu tasted this good."
+      }
+    ],
+    "vocabIds": [
+      "1420470",
+      "1450070"
+    ],
+    "matches": {
+      "1420470": [
+        {
+          "start": 14,
+          "length": 6,
+          "reading": "しらなかった"
+        }
+      ],
+      "1450070": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とうふ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3658223",
+    "original": "あ、お豆腐買うの忘れてた。",
+    "en": [
+      {
+        "id": "3658487",
+        "text": "Ah, I forgot to buy tofu."
+      }
+    ],
+    "vocabIds": [
+      "1519210",
+      "1450070",
+      "1473740"
+    ],
+    "matches": {
+      "1450070": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "とうふ"
+        }
+      ],
+      "1473740": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "かう"
+        }
+      ],
+      "1519210": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "わすれてた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8826251",
+    "original": "帰る途中に豆腐を買ってきてください。",
+    "en": [
+      {
+        "id": "7480284",
+        "text": "Please buy some tofu on your way home."
+      }
+    ],
+    "vocabIds": [
+      "1473740",
+      "1221270",
+      "1582200",
+      "1450070"
+    ],
+    "matches": {
+      "1221270": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かえる"
+        }
+      ],
+      "1450070": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "とうふ"
+        }
+      ],
+      "1473740": [
+        {
+          "start": 8,
+          "length": 9,
+          "reading": "かってきてください"
+        }
+      ],
+      "1582200": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "とちゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8534154",
+    "original": "豆腐を食べます。",
+    "en": [
+      {
+        "id": "1370868",
+        "text": "I eat tofu."
+      }
+    ],
+    "vocabIds": [
+      "1358280",
+      "1450070"
+    ],
+    "matches": {
+      "1358280": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "たべます"
+        }
+      ],
+      "1450070": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とうふ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9966484",
+    "original": "豆腐は酒とよく合う。",
+    "en": [
+      {
+        "id": "1133493",
+        "text": "Tofu goes well with good sake."
+      }
+    ],
+    "vocabIds": [
+      "1450070",
+      "1284430",
+      "1329010"
+    ],
+    "matches": {
+      "1284430": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "あう"
+        }
+      ],
+      "1329010": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "さけ"
+        }
+      ],
+      "1450070": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とうふ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9966485",
+    "original": "豆腐はお酒のいいつまみになります。",
+    "en": [
+      {
+        "id": "1133493",
+        "text": "Tofu goes well with good sake."
+      }
+    ],
+    "vocabIds": [
+      "1450070",
+      "1329015"
+    ],
+    "matches": {
+      "1329015": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "おさけ"
+        }
+      ],
+      "1450070": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とうふ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11052333",
+    "original": "豆腐は好きですか？",
+    "en": [
+      {
+        "id": "2807659",
+        "text": "Do you like tofu?"
+      }
+    ],
+    "vocabIds": [
+      "1450070",
+      "1277450"
+    ],
+    "matches": {
+      "1277450": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "すき"
+        }
+      ],
+      "1450070": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とうふ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10739440",
+    "original": "今回ご紹介するのは、低カロリーで滑らかな口当たりの豆腐でできたケーキです。ぜひご賞味ください。",
+    "en": [
+      {
+        "id": "11252203",
+        "text": "Now, I present a low-calorie, velvety tofu cake. Please enjoy."
+      }
+    ],
+    "vocabIds": [
+      "2097840",
+      "1276680",
+      "1208560",
+      "1289070",
+      "1351430",
+      "1450070",
+      "1351970"
+    ],
+    "matches": {
+      "1208560": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "なめらか"
+        }
+      ],
+      "1276680": [
+        {
+          "start": 20,
+          "length": 4,
+          "reading": "くちあたり"
+        }
+      ],
+      "1289070": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こんかい"
+        }
+      ],
+      "1351430": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "しょうかい"
+        }
+      ],
+      "1351970": [
+        {
+          "start": 40,
+          "length": 2,
+          "reading": "しょうみ"
+        }
+      ],
+      "1450070": [
+        {
+          "start": 25,
+          "length": 2,
+          "reading": "とうふ"
+        }
+      ],
+      "2097840": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "ていかろりー"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11571571",
+    "original": "それは豆腐よ。",
+    "en": [
+      {
+        "id": "11568262",
+        "text": "That's tofu."
+      },
+      {
+        "id": "3377902",
+        "text": "That is tofu."
+      }
+    ],
+    "vocabIds": [
+      "1450070"
+    ],
+    "matches": {
+      "1450070": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "とうふ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12003635",
+    "original": "豆腐がこんなにおいしいとは思わなかった。",
+    "en": [
+      {
+        "id": "8142703",
+        "text": "I wouldn't have thought that tofu tastes this good."
+      }
+    ],
+    "vocabIds": [
+      "1589350",
+      "1450070"
+    ],
+    "matches": {
+      "1450070": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とうふ"
+        }
+      ],
+      "1589350": [
+        {
+          "start": 13,
+          "length": 6,
+          "reading": "おもわなかった"
+        }
+      ]
+    }
+  }
+]

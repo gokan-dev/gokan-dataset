@@ -1,0 +1,125 @@
+[
+  {
+    "id": "217087",
+    "original": "ご請求分の商品は欠陥品でしたので、私どもとしてはお支払いいたしかねます。",
+    "en": [
+      {
+        "id": "54394",
+        "text": "As your goods for which you are charging us were imperfect, we will not pay this account."
+      }
+    ],
+    "indices": "御(ご){ご} 請求 分(ぶん) の 商品 は 欠陥品~ です{でした} ので 私ども としては 御(お){お} 支払い 致す{いたし} 兼ねる[01]{かねます}",
+    "vocabIds": [
+      "2082930",
+      "1854980",
+      "1594480",
+      "1381320",
+      "2145670",
+      "1347310"
+    ],
+    "matches": {
+      "1347310": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "しょうひん"
+        }
+      ],
+      "1381320": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "せいきゅう"
+        }
+      ],
+      "1594480": [
+        {
+          "start": 25,
+          "length": 3,
+          "reading": "しはらい"
+        }
+      ],
+      "1854980": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "わたしども"
+        }
+      ],
+      "2082930": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "けっかんひん"
+        }
+      ],
+      "2145670": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ぶんの"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12652502",
+    "original": "この携帯は欠陥品だ。",
+    "en": [
+      {
+        "id": "10904973",
+        "text": "This phone is defective."
+      }
+    ],
+    "vocabIds": [
+      "2082930",
+      "1250680"
+    ],
+    "matches": {
+      "1250680": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "けいたい"
+        }
+      ],
+      "2082930": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "けっかんひん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12652501",
+    "original": "この梯子は欠陥品だ。",
+    "en": [
+      {
+        "id": "13023127",
+        "text": "This ladder is defective."
+      }
+    ],
+    "vocabIds": [
+      "2082930",
+      "1436480"
+    ],
+    "matches": {
+      "1436480": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "はしご"
+        }
+      ],
+      "2082930": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "けっかんひん"
+        }
+      ]
+    }
+  }
+]

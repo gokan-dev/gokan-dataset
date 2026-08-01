@@ -1,0 +1,360 @@
+[
+  {
+    "id": "81238",
+    "original": "毎年小麦は豊作だ。",
+    "en": [
+      {
+        "id": "322477",
+        "text": "The wheat crop bears a good harvest every year."
+      }
+    ],
+    "indices": "毎年 小麦 は 豊作 だ",
+    "vocabIds": [
+      "1584360",
+      "1348630",
+      "1518150"
+    ],
+    "matches": {
+      "1348630": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "こむぎ"
+        }
+      ],
+      "1518150": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ほうさく"
+        }
+      ],
+      "1584360": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "まいとし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "82620",
+    "original": "豊作で米の値段が下がった。",
+    "en": [
+      {
+        "id": "321097",
+        "text": "The good harvest brought down the price of rice."
+      }
+    ],
+    "indices": "豊作 で(#2028980) 米(こめ)[01] の 値段 が 下がる{下がった}",
+    "vocabIds": [
+      "1184160",
+      "1518150",
+      "1600160",
+      "1508750"
+    ],
+    "matches": {
+      "1184160": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "さがった"
+        }
+      ],
+      "1508750": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "べい"
+        }
+      ],
+      "1518150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ほうさく"
+        }
+      ],
+      "1600160": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ねだん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "83484",
+    "original": "米作は今年豊作だ。",
+    "en": [
+      {
+        "id": "320232",
+        "text": "The rice crop is large this year."
+      }
+    ],
+    "indices": "米作~ は 今年 豊作~ だ",
+    "vocabIds": [
+      "1508950",
+      "1579130",
+      "1518150"
+    ],
+    "matches": {
+      "1508950": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "べいさく"
+        }
+      ],
+      "1518150": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ほうさく"
+        }
+      ],
+      "1579130": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ことし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "171297",
+    "original": "今年は豊作だった。",
+    "en": [
+      {
+        "id": "243179",
+        "text": "We have had a heavy crop this year."
+      },
+      {
+        "id": "10553536",
+        "text": "We had a good crop this year."
+      },
+      {
+        "id": "10553535",
+        "text": "We had a good harvest this year."
+      }
+    ],
+    "indices": "今年 は 豊作 だ{だった}",
+    "vocabIds": [
+      "1579130",
+      "1518150"
+    ],
+    "matches": {
+      "1518150": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ほうさく"
+        }
+      ],
+      "1579130": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ことし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "171298",
+    "original": "今年は豊作の見込みだ。",
+    "en": [
+      {
+        "id": "243180",
+        "text": "This year promises an abundant harvest."
+      }
+    ],
+    "indices": "今年 は 豊作 の 見込み だ",
+    "vocabIds": [
+      "1604480",
+      "1579130",
+      "1518150"
+    ],
+    "matches": {
+      "1518150": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ほうさく"
+        }
+      ],
+      "1579130": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ことし"
+        }
+      ],
+      "1604480": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "みこみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "171334",
+    "original": "今年はりんごが豊作だった。",
+    "en": [
+      {
+        "id": "243141",
+        "text": "There has been a good apple harvest this year."
+      }
+    ],
+    "indices": "今年 は 林檎(りんご){りんご} が 豊作 だ{だった}",
+    "vocabIds": [
+      "1579130",
+      "1518150"
+    ],
+    "matches": {
+      "1518150": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ほうさく"
+        }
+      ],
+      "1579130": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ことし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "171355",
+    "original": "今年の豊作が去年の不作を埋め合わせるだろう。",
+    "en": [
+      {
+        "id": "243119",
+        "text": "This year's good harvest will make up for last year's bad one."
+      }
+    ],
+    "indices": "今年 の 豊作 が 去年 の 不作 を 埋め合わせる だろう",
+    "vocabIds": [
+      "1588420",
+      "1579130",
+      "1518150",
+      "1231690",
+      "1492500"
+    ],
+    "matches": {
+      "1231690": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "きょねん"
+        }
+      ],
+      "1492500": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "ふさく"
+        }
+      ],
+      "1518150": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ほうさく"
+        }
+      ],
+      "1579130": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ことし"
+        }
+      ],
+      "1588420": [
+        {
+          "start": 12,
+          "length": 9,
+          "reading": "うめあわせるだろう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "221989",
+    "original": "この好天が続けば豊作になるだろう。",
+    "en": [
+      {
+        "id": "59313",
+        "text": "We'll have a good crop if this good weather keeps up."
+      }
+    ],
+    "indices": "此の{この} 好天~ が 続く[01]{続けば} 豊作 になる[01] だろう",
+    "vocabIds": [
+      "1405790",
+      "1631250",
+      "1518150"
+    ],
+    "matches": {
+      "1405790": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "つづけば"
+        }
+      ],
+      "1518150": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "ほうさく"
+        }
+      ],
+      "1631250": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "こうてん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "13028919",
+    "original": "今年はモモが豊作だった。",
+    "en": [
+      {
+        "id": "12380623",
+        "text": "There was a large harvest of peaches this year."
+      }
+    ],
+    "vocabIds": [
+      "1579130",
+      "1518150"
+    ],
+    "matches": {
+      "1518150": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ほうさく"
+        }
+      ],
+      "1579130": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ことし"
+        }
+      ]
+    }
+  }
+]

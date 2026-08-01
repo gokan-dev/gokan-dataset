@@ -1,0 +1,80 @@
+[
+  {
+    "id": "122079",
+    "original": "入学は申し込み順に許可します。",
+    "en": [
+      {
+        "id": "281924",
+        "text": "Admission will be allotted in order of application."
+      }
+    ],
+    "indices": "入学 は 申し込み順 に 許可 為る(する){します}",
+    "vocabIds": [
+      "1362880",
+      "1465850",
+      "1232880"
+    ],
+    "matches": {
+      "1232880": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "きょか"
+        }
+      ],
+      "1362880": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "もうしこみじゅん"
+        }
+      ],
+      "1465850": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "にゅうがく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "142100",
+    "original": "切符は、申し込み順に割り当てます。",
+    "en": [
+      {
+        "id": "272470",
+        "text": "Tickets will be allotted in order of application."
+      }
+    ],
+    "indices": "切符 は 申し込み順~ に 割り当てる{割り当てます}",
+    "vocabIds": [
+      "1207880",
+      "1362880",
+      "1385170"
+    ],
+    "matches": {
+      "1207880": [
+        {
+          "start": 10,
+          "length": 6,
+          "reading": "わりあてます"
+        }
+      ],
+      "1362880": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "もうしこみじゅん"
+        }
+      ],
+      "1385170": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きっぷ"
+        }
+      ]
+    }
+  }
+]

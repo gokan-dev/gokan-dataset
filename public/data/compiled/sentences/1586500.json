@@ -1,0 +1,240 @@
+[
+  {
+    "id": "173044",
+    "original": "国際郵便料金は宛先によって異なる。",
+    "en": [
+      {
+        "id": "241428",
+        "text": "International postal rates differ according to destination."
+      }
+    ],
+    "indices": "国際 郵便料金 は 宛先 によって異なる",
+    "vocabIds": [
+      "1009650",
+      "2638420",
+      "1554280",
+      "1586500"
+    ],
+    "matches": {
+      "1009650": [
+        {
+          "start": 9,
+          "length": 7,
+          "reading": "によってことなる"
+        }
+      ],
+      "1554280": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "りょうきん"
+        }
+      ],
+      "1586500": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "あてさき"
+        }
+      ],
+      "2638420": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "こくさいゆうびん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "222967",
+    "original": "この宛先に送ってもらえますか？",
+    "en": [
+      {
+        "id": "60298",
+        "text": "Could you send it to this address?"
+      },
+      {
+        "id": "13481480",
+        "text": "Can you send it to this address?"
+      }
+    ],
+    "indices": "此の{この} 宛先~ に 送る{送って} 貰う[02]{もらえます} か",
+    "vocabIds": [
+      "1402730",
+      "1586500"
+    ],
+    "matches": {
+      "1402730": [
+        {
+          "start": 5,
+          "length": 8,
+          "reading": "おくってもらえます"
+        }
+      ],
+      "1586500": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "あてさき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11365781",
+    "original": "返事が欲しい時は、宛先を記載した封筒に切手を貼って同封してください。",
+    "en": [
+      {
+        "id": "6993616",
+        "text": "Include a stamped addressed envelope if you want a response."
+      },
+      {
+        "id": "13571835",
+        "text": "If you would like a reply, please enclose a self-addressed, stamped envelope."
+      }
+    ],
+    "vocabIds": [
+      "1547330",
+      "1427900",
+      "1512220",
+      "1586500",
+      "1223230",
+      "1499690",
+      "1385070",
+      "1591920",
+      "1453340",
+      "1315840"
+    ],
+    "matches": {
+      "1223230": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "きさい"
+        }
+      ],
+      "1315840": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "とき"
+        }
+      ],
+      "1385070": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "きって"
+        }
+      ],
+      "1427900": [
+        {
+          "start": 22,
+          "length": 3,
+          "reading": "はって"
+        }
+      ],
+      "1453340": [
+        {
+          "start": 25,
+          "length": 2,
+          "reading": "どうふう"
+        }
+      ],
+      "1499690": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "ふうとう"
+        }
+      ],
+      "1512220": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "へんじ"
+        }
+      ],
+      "1547330": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "ほしい"
+        }
+      ],
+      "1586500": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "あてさき"
+        }
+      ],
+      "1591920": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "きって"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11495413",
+    "original": "封筒の宛先、書き間違えちゃった。",
+    "en": [
+      {
+        "id": "1147404",
+        "text": "I wrote a wrong address on the envelope."
+      },
+      {
+        "id": "682501",
+        "text": "I wrote the wrong address on the envelope."
+      },
+      {
+        "id": "12747144",
+        "text": "I wrote the address on the envelope incorrectly."
+      },
+      {
+        "id": "12747145",
+        "text": "I made a mistake when writing the address on the envelope."
+      }
+    ],
+    "vocabIds": [
+      "1215330",
+      "1499690",
+      "1586500",
+      "1343950"
+    ],
+    "matches": {
+      "1215330": [
+        {
+          "start": 8,
+          "length": 7,
+          "reading": "まちがえちゃった"
+        }
+      ],
+      "1343950": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "かき"
+        }
+      ],
+      "1499690": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ふうとう"
+        }
+      ],
+      "1586500": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "あてさき"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "id": "190834",
+    "original": "医者は患者の胸に聴診器を当てた。",
+    "en": [
+      {
+        "id": "27994",
+        "text": "The doctor placed a stethoscope on the patient's chest."
+      }
+    ],
+    "indices": "医者 は 患者 の 胸 に 聴診器~ を 当てる{当てた}",
+    "vocabIds": [
+      "1428920",
+      "1448860",
+      "1159980",
+      "1212210",
+      "1237820"
+    ],
+    "matches": {
+      "1159980": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いしゃ"
+        }
+      ],
+      "1212210": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かんじゃ"
+        }
+      ],
+      "1237820": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "むね"
+        }
+      ],
+      "1428920": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "ちょうしんき"
+        }
+      ],
+      "1448860": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "あてた"
+        }
+      ]
+    }
+  }
+]

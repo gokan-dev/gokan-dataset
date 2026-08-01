@@ -1,0 +1,88 @@
+[
+  {
+    "id": "183522",
+    "original": "奇術師は子供たちの注目を集めていた。",
+    "en": [
+      {
+        "id": "20645",
+        "text": "The magician had the children's attention."
+      }
+    ],
+    "indices": "奇術師 は 子供たち の 注目を集める{注目を集めていた}",
+    "vocabIds": [
+      "1333560",
+      "1307870",
+      "1932650",
+      "1426670"
+    ],
+    "matches": {
+      "1307870": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "こどもたち"
+        }
+      ],
+      "1333560": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "あつめていた"
+        }
+      ],
+      "1426670": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "ちゅうもく"
+        }
+      ],
+      "1932650": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きじゅつし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "183523",
+    "original": "奇術師の手品に驚いた。",
+    "en": [
+      {
+        "id": "20646",
+        "text": "The magician's tricks surprised us."
+      }
+    ],
+    "indices": "奇術師~ の 手品 に  驚く[01]{驚いた}",
+    "vocabIds": [
+      "1932650",
+      "1238680",
+      "1328310"
+    ],
+    "matches": {
+      "1238680": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "おどろいた"
+        }
+      ],
+      "1328310": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "てじな"
+        }
+      ],
+      "1932650": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きじゅつし"
+        }
+      ]
+    }
+  }
+]

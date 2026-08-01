@@ -1,0 +1,71 @@
+[
+  {
+    "id": "76178",
+    "original": "御社のお考えを先におっしゃってください。",
+    "en": [
+      {
+        "id": "327540",
+        "text": "Please let us know your company's thoughts on this matter first."
+      }
+    ],
+    "indices": "御社~ の 御(お){お} 考え を[01] 先に(さきに)[02] 仰っしゃる{おっしゃって} 下さい{ください}",
+    "vocabIds": [
+      "1270380",
+      "1281000",
+      "1387280"
+    ],
+    "matches": {
+      "1270380": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おんしゃ"
+        }
+      ],
+      "1281000": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "かんがえ"
+        }
+      ],
+      "1387280": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "さきに"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2431704",
+    "original": "御社の社長もゴルフをなさいますか？",
+    "en": [
+      {
+        "id": "10906168",
+        "text": "Does the president of your company also play golf?"
+      }
+    ],
+    "vocabIds": [
+      "1270380",
+      "1322920"
+    ],
+    "matches": {
+      "1270380": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おんしゃ"
+        }
+      ],
+      "1322920": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "しゃちょう"
+        }
+      ]
+    }
+  }
+]

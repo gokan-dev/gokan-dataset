@@ -1,0 +1,78 @@
+{
+  "id": "1204890",
+  "writtenForm": {
+    "kanji": "各駅",
+    "alternatives": [],
+    "containedKanji": [
+      "各",
+      "駅"
+    ]
+  },
+  "reading": {
+    "primary": "かくえき",
+    "alternatives": []
+  },
+  "frequency": {
+    "kanjiRank": 88062
+  },
+  "progression": {
+    "kklcStep": 786
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "every station"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": true,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "col",
+          "abbr"
+        ]
+      },
+      "glosses": [
+        "local train",
+        "train that stops at every station"
+      ],
+      "related": {
+        "compounds": [
+          "各駅停車"
+        ]
+      }
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": false,
+  "components": [
+    "1204860",
+    "1175140"
+  ],
+  "parents": [
+    "1204900"
+  ]
+}

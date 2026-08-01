@@ -1,0 +1,80 @@
+[
+  {
+    "id": "162797",
+    "original": "私の父は電気技師です。",
+    "en": [
+      {
+        "id": "251716",
+        "text": "My father is an electric engineer."
+      }
+    ],
+    "indices": "私(わたし)[01]{私の} 父 は 電気[01] 技師 です",
+    "vocabIds": [
+      "2828526",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1497610"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1497610": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ちち"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2828526": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "でんきぎし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "199853",
+    "original": "トムは電気技師です。",
+    "en": [
+      {
+        "id": "37055",
+        "text": "Tom is an electrical engineer."
+      }
+    ],
+    "indices": "は 電気[01] 技師~ です",
+    "vocabIds": [
+      "2828526"
+    ],
+    "matches": {
+      "2828526": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "でんきぎし"
+        }
+      ]
+    }
+  }
+]

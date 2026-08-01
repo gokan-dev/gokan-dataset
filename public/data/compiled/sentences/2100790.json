@@ -1,0 +1,127 @@
+[
+  {
+    "id": "143226",
+    "original": "成績を確認したい学生は誰でも学生部長と面会の予約を取ることが出来ます。",
+    "en": [
+      {
+        "id": "271342",
+        "text": "Any student who wishes to review his grades may make an appointment with the college dean."
+      }
+    ],
+    "indices": "成績 を 確認 したい 学生(がくせい) は 誰でも 学生部長~ と 面会 の 予約[01] を 取る 事が出来る{ことが出来ます}",
+    "vocabIds": [
+      "2100790",
+      "1932130",
+      "1340450",
+      "1416850",
+      "1375760",
+      "1205900",
+      "1206900",
+      "1533440"
+    ],
+    "matches": {
+      "1205900": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かくにん"
+        }
+      ],
+      "1206900": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "がくせい"
+        }
+      ],
+      "1340450": [
+        {
+          "start": 30,
+          "length": 4,
+          "reading": "できます"
+        }
+      ],
+      "1375760": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "せいせき"
+        }
+      ],
+      "1416850": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "だれでも"
+        }
+      ],
+      "1533440": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "めんかい"
+        }
+      ],
+      "1932130": [
+        {
+          "start": 14,
+          "length": 4,
+          "reading": "がくせいぶちょう"
+        }
+      ],
+      "2100790": [
+        {
+          "start": 22,
+          "length": 5,
+          "reading": "よやくをとる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1587319",
+    "original": "予約を取るためには、彼女の名前を使わなければいけない。",
+    "en": [
+      {
+        "id": "324747",
+        "text": "In order to get a reservation, you must use her name."
+      }
+    ],
+    "vocabIds": [
+      "1305990",
+      "2100790",
+      "1483150",
+      "1531710"
+    ],
+    "matches": {
+      "1305990": [
+        {
+          "start": 16,
+          "length": 10,
+          "reading": "つかわなければいけない"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1531710": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "なまえ"
+        }
+      ],
+      "2100790": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "よやくをとる"
+        }
+      ]
+    }
+  }
+]

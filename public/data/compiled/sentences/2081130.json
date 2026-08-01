@@ -1,0 +1,88 @@
+[
+  {
+    "id": "76331",
+    "original": "延泊をお願いできますか？",
+    "en": [
+      {
+        "id": "327389",
+        "text": "Can I extend my stay?"
+      }
+    ],
+    "indices": "延泊 を お願いできますか",
+    "vocabIds": [
+      "2221720",
+      "2081130"
+    ],
+    "matches": {
+      "2081130": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "のべはく"
+        }
+      ],
+      "2221720": [
+        {
+          "start": 3,
+          "length": 8,
+          "reading": "おねがいできますか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "194279",
+    "original": "もう一日延泊できますか。",
+    "en": [
+      {
+        "id": "31452",
+        "text": "I'd like to stay another night if I can."
+      },
+      {
+        "id": "13482234",
+        "text": "Can I extend my stay for another day?"
+      },
+      {
+        "id": "13482238",
+        "text": "Can I extend my stay for one more day?"
+      }
+    ],
+    "indices": "もう 一日(いちにち) 延泊~ 出来る{できます} か",
+    "vocabIds": [
+      "1576260",
+      "2225030",
+      "2225040",
+      "2081130"
+    ],
+    "matches": {
+      "1576260": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "いちにち"
+        }
+      ],
+      "2081130": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "のべはく"
+        }
+      ],
+      "2225030": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "いちにち"
+        }
+      ],
+      "2225040": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "いちにち"
+        }
+      ]
+    }
+  }
+]

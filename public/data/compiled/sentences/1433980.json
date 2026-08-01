@@ -1,0 +1,141 @@
+[
+  {
+    "id": "101940",
+    "original": "彼は天井にランプを吊した。",
+    "en": [
+      {
+        "id": "301752",
+        "text": "He hung a lamp from the ceiling."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 天井 に ランプ(#1140360) を 吊るす{吊した}",
+    "vocabIds": [
+      "1433980",
+      "1438340",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1433980": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "つるした"
+        }
+      ],
+      "1438340": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "てんじょう"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2143382",
+    "original": "私はシャツを吊るしている。",
+    "en": [
+      {
+        "id": "6873169",
+        "text": "I'm hanging up my shirts."
+      }
+    ],
+    "vocabIds": [
+      "1433980",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1433980": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "つるしている"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9848116",
+    "original": "てるてる坊主、逆さまに吊るしてたら、あした雨になるかな？",
+    "en": [
+      {
+        "id": "10282653",
+        "text": "If you hang a teru teru bozu upside down, do you think it will bring rain tomorrow?"
+      }
+    ],
+    "vocabIds": [
+      "1350870",
+      "1433980",
+      "1593650",
+      "1171900"
+    ],
+    "matches": {
+      "1171900": [
+        {
+          "start": 21,
+          "length": 1,
+          "reading": "あめ"
+        }
+      ],
+      "1350870": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "てるてるぼうず"
+        }
+      ],
+      "1433980": [
+        {
+          "start": 11,
+          "length": 6,
+          "reading": "つるしてたら"
+        }
+      ],
+      "1593650": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "さかさま"
+        }
+      ]
+    }
+  }
+]

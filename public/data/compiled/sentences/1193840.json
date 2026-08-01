@@ -1,0 +1,93 @@
+[
+  {
+    "id": "186720",
+    "original": "火元は明らかでない。",
+    "en": [
+      {
+        "id": "23856",
+        "text": "The origin of the fire is unknown."
+      },
+      {
+        "id": "12986860",
+        "text": "The origin of the fire in not obvious."
+      }
+    ],
+    "indices": "火元~ は 明らか である{でない}",
+    "vocabIds": [
+      "1532310",
+      "1193840"
+    ],
+    "matches": {
+      "1193840": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ひもと"
+        }
+      ],
+      "1532310": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "あきらか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11332873",
+    "original": "火元はなに？",
+    "en": [
+      {
+        "id": "3045589",
+        "text": "What started the fire?"
+      },
+      {
+        "id": "11798804",
+        "text": "What is the origin of the fire?"
+      }
+    ],
+    "vocabIds": [
+      "1193840"
+    ],
+    "matches": {
+      "1193840": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ひもと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11798810",
+    "original": "火元は何ですか？",
+    "en": [
+      {
+        "id": "11798804",
+        "text": "What is the origin of the fire?"
+      }
+    ],
+    "vocabIds": [
+      "1193840",
+      "1577100"
+    ],
+    "matches": {
+      "1193840": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ひもと"
+        }
+      ],
+      "1577100": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "なに"
+        }
+      ]
+    }
+  }
+]

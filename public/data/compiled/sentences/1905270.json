@@ -1,0 +1,85 @@
+[
+  {
+    "id": "163123",
+    "original": "うちの息子は病気がちだ。",
+    "en": [
+      {
+        "id": "251389",
+        "text": "My son is subject to ill health."
+      }
+    ],
+    "indices": "家(うち)[01]{うち} の 息子[01] は 病気がち~ だ",
+    "vocabIds": [
+      "1905270",
+      "1404390"
+    ],
+    "matches": {
+      "1404390": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "むすこ"
+        }
+      ],
+      "1905270": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "びょうきがち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11462757",
+    "original": "子供の頃は病気がちだったんだ。",
+    "en": [
+      {
+        "id": "10136388",
+        "text": "I was sick a lot when I was a kid."
+      }
+    ],
+    "vocabIds": [
+      "2827554",
+      "1905270"
+    ],
+    "matches": {
+      "1905270": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "びょうきがち"
+        }
+      ],
+      "2827554": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "こどものころ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12725612",
+    "original": "病気がちだ。",
+    "en": [
+      {
+        "id": "10905871",
+        "text": "I get sick a lot."
+      }
+    ],
+    "vocabIds": [
+      "1905270"
+    ],
+    "matches": {
+      "1905270": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "びょうきがち"
+        }
+      ]
+    }
+  }
+]

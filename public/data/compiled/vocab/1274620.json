@@ -1,0 +1,158 @@
+{
+  "id": "1274620",
+  "writtenForm": {
+    "kanji": "公文",
+    "alternatives": [],
+    "containedKanji": [
+      "公",
+      "文"
+    ]
+  },
+  "reading": {
+    "primary": "こうぶん",
+    "alternatives": [
+      "くもん"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 100248
+  },
+  "progression": {
+    "kklcStep": 101
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "official document",
+        "archives"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "hist"
+        ]
+      },
+      "glosses": [
+        "kumon",
+        "official documents submitted to the central government (ritsuryō system)"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "くもん"
+      ]
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "place",
+          "surname"
+        ]
+      },
+      "glosses": [
+        "Kumon"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "くもん"
+      ]
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "organization"
+        ]
+      },
+      "glosses": [
+        "Kumon Institute of Education Co., Ltd"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "くもん"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1274620",
+      "isBase": true,
+      "originalPrimaryReading": "こうぶん",
+      "originalGlosses": [
+        "official document",
+        "archives"
+      ]
+    },
+    {
+      "id": "2849086",
+      "isBase": false,
+      "originalPrimaryReading": "くもん",
+      "originalGlosses": [
+        "kumon",
+        "official documents submitted to the central government (ritsuryō system)"
+      ]
+    },
+    {
+      "id": "5268481",
+      "isBase": false,
+      "originalPrimaryReading": "くもん",
+      "originalGlosses": [
+        "Kumon"
+      ]
+    }
+  ],
+  "components": [
+    "1578630",
+    "1505090"
+  ],
+  "parents": [
+    "1274630"
+  ]
+}

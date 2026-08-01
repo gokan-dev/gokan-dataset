@@ -1,0 +1,149 @@
+[
+  {
+    "id": "89198",
+    "original": "彼女は琴を弾くことがとても好きだ。",
+    "en": [
+      {
+        "id": "314508",
+        "text": "She likes to play the koto very much."
+      }
+    ],
+    "indices": "彼女[01] は 琴(こと)[01]~ を 弾く(ひく) 事(こと){こと} が 迚も[01]{とても} 好き(すき) だ",
+    "vocabIds": [
+      "1483150",
+      "1419370",
+      "1277450",
+      "1241450"
+    ],
+    "matches": {
+      "1241450": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "きん"
+        }
+      ],
+      "1277450": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "すき"
+        }
+      ],
+      "1419370": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ひく"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12015223",
+    "original": "お琴の魅力を分かってもらえて嬉しいです。ありがとう。",
+    "en": [
+      {
+        "id": "12016163",
+        "text": "Thank you for understanding the beauty of the koto. I'm very delighted."
+      }
+    ],
+    "vocabIds": [
+      "1606560",
+      "1219510",
+      "1528150",
+      "1241450"
+    ],
+    "matches": {
+      "1219510": [
+        {
+          "start": 14,
+          "length": 5,
+          "reading": "うれしいです"
+        }
+      ],
+      "1241450": [
+        {
+          "start": 1,
+          "length": 1,
+          "reading": "きん"
+        }
+      ],
+      "1528150": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "みりょく"
+        }
+      ],
+      "1606560": [
+        {
+          "start": 6,
+          "length": 8,
+          "reading": "わかってもらえて"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12483391",
+    "original": "僕の祖父は琴を弾いていたよ。",
+    "en": [
+      {
+        "id": "12483393",
+        "text": "My grandfather played the koto."
+      }
+    ],
+    "vocabIds": [
+      "1419370",
+      "1396840",
+      "1521400",
+      "2228300",
+      "1241450"
+    ],
+    "matches": {
+      "1241450": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "きん"
+        }
+      ],
+      "1396840": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "そふ"
+        }
+      ],
+      "1419370": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "ひいていた"
+        }
+      ],
+      "1521400": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ],
+      "2228300": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ]
+    }
+  }
+]

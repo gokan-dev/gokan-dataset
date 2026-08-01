@@ -1,0 +1,249 @@
+[
+  {
+    "id": "75661",
+    "original": "林さんには、言行を一致させる努力を求めたいと思います。",
+    "en": [
+      {
+        "id": "328057",
+        "text": "What I want from Mr Hayashi is the effort required for his actions to live up to his words."
+      }
+    ],
+    "indices": "さん には 言行 を 一致 為せる{させる} 努力 を 求める{求め} たい[01] と 思う{思います}",
+    "vocabIds": [
+      "1229350",
+      "1589350",
+      "1264470",
+      "1164740",
+      "1445130",
+      "1555440"
+    ],
+    "matches": {
+      "1164740": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "いっち"
+        }
+      ],
+      "1229350": [
+        {
+          "start": 17,
+          "length": 4,
+          "reading": "もとめたい"
+        }
+      ],
+      "1264470": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "げんこう"
+        }
+      ],
+      "1445130": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "どりょく"
+        }
+      ],
+      "1555440": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "はやし"
+        }
+      ],
+      "1589350": [
+        {
+          "start": 22,
+          "length": 4,
+          "reading": "おもいます"
+        }
+      ]
+    }
+  },
+  {
+    "id": "94457",
+    "original": "彼女の言行は一致している。",
+    "en": [
+      {
+        "id": "309249",
+        "text": "Her words correspond with her actions."
+      }
+    ],
+    "indices": "彼女[01]{彼女の} 言行 は 一致[01] 為る(する){している}",
+    "vocabIds": [
+      "1483150",
+      "1264470",
+      "1164740"
+    ],
+    "matches": {
+      "1164740": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "いっち"
+        }
+      ],
+      "1264470": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "げんこう"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "107577",
+    "original": "彼は言行が一致しない。",
+    "en": [
+      {
+        "id": "296108",
+        "text": "His words don't line up with his actions."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 言行~ が 一致[01] 為る(する){しない}",
+    "vocabIds": [
+      "1264470",
+      "1164740",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1164740": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "いっち"
+        }
+      ],
+      "1264470": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "げんこう"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "107578",
+    "original": "彼は言行、共に親切である。",
+    "en": [
+      {
+        "id": "296107",
+        "text": "He is kind in word and deed."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 言行 共に 親切 である",
+    "vocabIds": [
+      "1264470",
+      "1234260",
+      "1365250",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1234260": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ともに"
+        }
+      ],
+      "1264470": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "げんこう"
+        }
+      ],
+      "1365250": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "しんせつ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "117539",
+    "original": "彼の言行はあまり一致しない。",
+    "en": [
+      {
+        "id": "286125",
+        "text": "His words and actions do not go together well."
+      },
+      {
+        "id": "2717788",
+        "text": "His words and actions don't match."
+      }
+    ],
+    "indices": "彼(かれ)[01]{彼の} 言行 は 余り{あまり} 一致[01] 為る(する){しない}",
+    "vocabIds": [
+      "1000420",
+      "1264470",
+      "1164740"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれの"
+        }
+      ],
+      "1164740": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "いっち"
+        }
+      ],
+      "1264470": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "げんこう"
+        }
+      ]
+    }
+  }
+]

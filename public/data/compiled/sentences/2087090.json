@@ -1,0 +1,111 @@
+[
+  {
+    "id": "104483",
+    "original": "彼は手を伸ばして小さな皮表紙の本をとった。",
+    "en": [
+      {
+        "id": "299208",
+        "text": "He reached out and took down a small leather bound book."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 手 を 伸ばす[03]{伸ばして}~ 小さな 皮 表紙~ の 本(ほん)[01] を 取る[01]{とった}",
+    "vocabIds": [
+      "1600290",
+      "2136180",
+      "2087090",
+      "1000420",
+      "1483070",
+      "1327190",
+      "1260670",
+      "1522150"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1260670": [
+        {
+          "start": 15,
+          "length": 1,
+          "reading": "ほん"
+        }
+      ],
+      "1327190": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "て"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1522150": [
+        {
+          "start": 15,
+          "length": 1,
+          "reading": "ほん"
+        }
+      ],
+      "1600290": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "のばして"
+        }
+      ],
+      "2087090": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "かわひょうし"
+        }
+      ],
+      "2136180": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "ちいさな"
+        }
+      ]
+    }
+  },
+  {
+    "id": "387871",
+    "original": "ＭＹＳＴやＲＩＶＥＮででてくるような革表紙の本のようなブックカバーをつくりたい。",
+    "en": [
+      {
+        "id": "387872",
+        "text": "I want to make a book cover like the leather-bound books that you get in Myst and Riven."
+      }
+    ],
+    "vocabIds": [
+      "2087090",
+      "1011740"
+    ],
+    "matches": {
+      "1011740": [
+        {
+          "start": 22,
+          "length": 2,
+          "reading": "ほんの"
+        }
+      ],
+      "2087090": [
+        {
+          "start": 18,
+          "length": 3,
+          "reading": "かわひょうし"
+        }
+      ]
+    }
+  }
+]

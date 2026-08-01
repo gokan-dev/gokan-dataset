@@ -1,0 +1,121 @@
+[
+  {
+    "id": "144960",
+    "original": "真夜中の太陽は幻想的な自然現象の一つだ。",
+    "en": [
+      {
+        "id": "269603",
+        "text": "The midnight sun is a fantastic natural phenomenon."
+      }
+    ],
+    "indices": "真夜中 の 太陽 は 幻想的{幻想的な}~ 自然現象 の 一つ だ",
+    "vocabIds": [
+      "1726720",
+      "1364380",
+      "2085790",
+      "1408370",
+      "1160820"
+    ],
+    "matches": {
+      "1160820": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "ひとつ"
+        }
+      ],
+      "1364380": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "まよなか"
+        }
+      ],
+      "1408370": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "たいよう"
+        }
+      ],
+      "1726720": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "しぜんげんしょう"
+        }
+      ],
+      "2085790": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "げんそうてき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10231880",
+    "original": "とても幻想的でした。",
+    "en": [
+      {
+        "id": "5757432",
+        "text": "It was so mystical."
+      }
+    ],
+    "vocabIds": [
+      "2085790"
+    ],
+    "matches": {
+      "2085790": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "げんそうてき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10489330",
+    "original": "今夜の月は幻想的だね。",
+    "en": [
+      {
+        "id": "10494711",
+        "text": "This evening's moon is fantastic."
+      },
+      {
+        "id": "10494716",
+        "text": "The moon this evening is fantastic."
+      }
+    ],
+    "vocabIds": [
+      "2085790",
+      "1289520",
+      "1255430"
+    ],
+    "matches": {
+      "1255430": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "つき"
+        }
+      ],
+      "1289520": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こんや"
+        }
+      ],
+      "2085790": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "げんそうてき"
+        }
+      ]
+    }
+  }
+]

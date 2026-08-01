@@ -1,0 +1,101 @@
+{
+  "id": "1427010",
+  "writtenForm": {
+    "kanji": "猪",
+    "alternatives": [
+      "豬",
+      "豕"
+    ],
+    "containedKanji": [
+      "猪"
+    ]
+  },
+  "reading": {
+    "primary": "いのしし",
+    "alternatives": [
+      "イノシシ",
+      "い"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 12423,
+    "kanaRank": 74482
+  },
+  "progression": {
+    "kklcStep": 217
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "wild boar",
+        "wild pig"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "hog (esp. a wild boar, but also including the domesticated pig)"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "い"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": true
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1427010",
+      "isBase": true,
+      "originalPrimaryReading": "いのしし",
+      "originalGlosses": [
+        "wild boar",
+        "wild pig"
+      ]
+    },
+    {
+      "id": "2203230",
+      "isBase": false,
+      "originalPrimaryReading": "い",
+      "originalGlosses": [
+        "hog (esp. a wild boar, but also including the domesticated pig)"
+      ]
+    }
+  ],
+  "parents": [
+    "2203190"
+  ]
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "id": "182137",
+    "original": "許可書がなければその建物には入れません。",
+    "en": [
+      {
+        "id": "19379",
+        "text": "You can't enter the building without a permit."
+      }
+    ],
+    "indices": "許可書 が 無ければ{なければ} 其の[01]{その} 建物 には 入れる{入れません}",
+    "vocabIds": [
+      "1465610",
+      "1232890",
+      "1257540"
+    ],
+    "matches": {
+      "1232890": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きょかしょ"
+        }
+      ],
+      "1257540": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "たてもの"
+        }
+      ],
+      "1465610": [
+        {
+          "start": 14,
+          "length": 5,
+          "reading": "いれません"
+        }
+      ]
+    }
+  },
+  {
+    "id": "182138",
+    "original": "許可書がなければここへは入れない。",
+    "en": [
+      {
+        "id": "19380",
+        "text": "You can't enter here unless you have a pass."
+      }
+    ],
+    "indices": "許可書~ が 無ければ{なければ} 此処[01]{ここ} へ は 入れる{入れない}",
+    "vocabIds": [
+      "1465610",
+      "1232890"
+    ],
+    "matches": {
+      "1232890": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きょかしょ"
+        }
+      ],
+      "1465610": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "いれない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9678947",
+    "original": "銃の許可書はお持ちですか？",
+    "en": [
+      {
+        "id": "9353965",
+        "text": "Do you have a permit for a gun?"
+      }
+    ],
+    "vocabIds": [
+      "1315720",
+      "1232890",
+      "1337000"
+    ],
+    "matches": {
+      "1232890": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "きょかしょ"
+        }
+      ],
+      "1315720": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "もちです"
+        }
+      ],
+      "1337000": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "じゅう"
+        }
+      ]
+    }
+  }
+]

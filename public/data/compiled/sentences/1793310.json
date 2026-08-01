@@ -1,0 +1,72 @@
+[
+  {
+    "id": "145602",
+    "original": "心づくしのおもてなしを感謝します。",
+    "en": [
+      {
+        "id": "268959",
+        "text": "Thank you very much for your hearty hospitality."
+      }
+    ],
+    "indices": "心尽くし{心づくし}~ の お持て成し{おもてなし} を 感謝 為る(する){します}",
+    "vocabIds": [
+      "1793310",
+      "1212380"
+    ],
+    "matches": {
+      "1212380": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "かんしゃ"
+        }
+      ],
+      "1793310": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "こころづくし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "145603",
+    "original": "心づくしの品を頂きありがとうございます。",
+    "en": [
+      {
+        "id": "268960",
+        "text": "Thank you very much for your thoughtful present."
+      }
+    ],
+    "indices": "心尽くし{心づくし} の 品[01] を 頂く{頂き} 有難うございます{ありがとうございます}",
+    "vocabIds": [
+      "1793310",
+      "1587290",
+      "2648780"
+    ],
+    "matches": {
+      "1587290": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "いただき"
+        }
+      ],
+      "1793310": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "こころづくし"
+        }
+      ],
+      "2648780": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "しな"
+        }
+      ]
+    }
+  }
+]

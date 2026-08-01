@@ -1,0 +1,88 @@
+[
+  {
+    "id": "222075",
+    "original": "この顕微鏡は物を１００倍に拡大する。",
+    "en": [
+      {
+        "id": "59400",
+        "text": "This microscope magnifies objects by 100 times."
+      }
+    ],
+    "indices": "此の{この} 顕微鏡 は 物(もの)[01] を 倍[02] に 拡大[02]~ 為る(する){する}",
+    "vocabIds": [
+      "1488400",
+      "1260660",
+      "1205200",
+      "1502390"
+    ],
+    "matches": {
+      "1205200": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "かくだい"
+        }
+      ],
+      "1260660": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "けんびきょう"
+        }
+      ],
+      "1488400": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "いちぜろぜろばい"
+        }
+      ],
+      "1502390": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "もの"
+        }
+      ]
+    }
+  },
+  {
+    "id": "226121",
+    "original": "かわいさ余って憎さ百倍。",
+    "en": [
+      {
+        "id": "63461",
+        "text": "The greatest hate springs from the greatest love."
+      }
+    ],
+    "indices": "可愛い(かわいい)[01]{かわい} さ[01] 余る{余って} 憎い[01]{憎}~ さ[01] 百倍~",
+    "vocabIds": [
+      "1543910",
+      "1403390",
+      "1488400"
+    ],
+    "matches": {
+      "1403390": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "にくさ"
+        }
+      ],
+      "1488400": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "ひゃくばい"
+        }
+      ],
+      "1543910": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "あまって"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,118 @@
+[
+  {
+    "id": "172537",
+    "original": "今悪性の風邪がまん延している。",
+    "en": [
+      {
+        "id": "241938",
+        "text": "A bad cold is going about now."
+      }
+    ],
+    "indices": "今(いま) 悪性(あくせい)~ の 風邪 が 蔓延{まん延}~ 為る(する){している}",
+    "vocabIds": [
+      "1526950",
+      "1152060",
+      "1583720",
+      "1288850"
+    ],
+    "matches": {
+      "1152060": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "あくせい"
+        }
+      ],
+      "1288850": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "こん"
+        }
+      ],
+      "1526950": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "まんえん"
+        }
+      ],
+      "1583720": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "かぜ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "207059",
+    "original": "その病気は蔓延しつつあるようだ。",
+    "en": [
+      {
+        "id": "44309",
+        "text": "It is said that the disease has been spreading."
+      }
+    ],
+    "indices": "其の[01]{その} 病気 は 蔓延 為る(する){し} つつある 様だ{ようだ}",
+    "vocabIds": [
+      "1490230",
+      "1526950"
+    ],
+    "matches": {
+      "1490230": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "びょうき"
+        }
+      ],
+      "1526950": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "まんえん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8622223",
+    "original": "ジカウイルスは中南米で急速に蔓延した。",
+    "en": [
+      {
+        "id": "10072318",
+        "text": "The Zika virus spread rapidly across central and south America."
+      }
+    ],
+    "vocabIds": [
+      "1425170",
+      "1228890",
+      "1526950"
+    ],
+    "matches": {
+      "1228890": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "きゅうそく"
+        }
+      ],
+      "1425170": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "ちゅうなんべい"
+        }
+      ],
+      "1526950": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "まんえん"
+        }
+      ]
+    }
+  }
+]

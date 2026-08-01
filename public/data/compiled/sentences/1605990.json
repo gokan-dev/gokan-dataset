@@ -1,0 +1,71 @@
+[
+  {
+    "id": "174580",
+    "original": "呼び出しをお願いします。",
+    "en": [
+      {
+        "id": "239889",
+        "text": "I'd like to page someone."
+      }
+    ],
+    "indices": "呼び出し[01]~ を お願いします",
+    "vocabIds": [
+      "1001720",
+      "1605990"
+    ],
+    "matches": {
+      "1001720": [
+        {
+          "start": 5,
+          "length": 6,
+          "reading": "おねがいします"
+        }
+      ],
+      "1605990": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "よびだし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10073495",
+    "original": "呼び出しの放送をかけて欲しいんですが。",
+    "en": [
+      {
+        "id": "270165",
+        "text": "Could you page someone for me?"
+      }
+    ],
+    "vocabIds": [
+      "1605990",
+      "1547330",
+      "1516750"
+    ],
+    "matches": {
+      "1516750": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ほうそう"
+        }
+      ],
+      "1547330": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "ほしい"
+        }
+      ],
+      "1605990": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "よびだし"
+        }
+      ]
+    }
+  }
+]

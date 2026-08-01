@@ -1,0 +1,106 @@
+[
+  {
+    "id": "85573",
+    "original": "美しいバラもいつかは萎れる。",
+    "en": [
+      {
+        "id": "318140",
+        "text": "The fairest rose is at last withered."
+      }
+    ],
+    "indices": "美しい 薔薇{バラ} も 何時かは{いつかは}~ 萎れる",
+    "vocabIds": [
+      "1486360",
+      "1158690"
+    ],
+    "matches": {
+      "1158690": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "しおれる"
+        }
+      ],
+      "1486360": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "うつくしい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "147443",
+    "original": "暑さのために花は萎れた。",
+    "en": [
+      {
+        "id": "267117",
+        "text": "The hot sun made the flowers hang down."
+      }
+    ],
+    "indices": "暑い{暑} さ[01] の 為に{ために} 花[01] は 萎れる{萎れた}",
+    "vocabIds": [
+      "1158690",
+      "1343460",
+      "1194500"
+    ],
+    "matches": {
+      "1158690": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "しおれた"
+        }
+      ],
+      "1194500": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "はな"
+        }
+      ],
+      "1343460": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あつさ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9188921",
+    "original": "花が萎れたよ。",
+    "en": [
+      {
+        "id": "9187915",
+        "text": "The flowers wilted."
+      },
+      {
+        "id": "10748442",
+        "text": "The flowers have wilted."
+      }
+    ],
+    "vocabIds": [
+      "1158690",
+      "1194500"
+    ],
+    "matches": {
+      "1158690": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "しおれた"
+        }
+      ],
+      "1194500": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "はな"
+        }
+      ]
+    }
+  }
+]

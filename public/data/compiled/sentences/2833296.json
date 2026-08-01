@@ -1,0 +1,131 @@
+[
+  {
+    "id": "79867",
+    "original": "問題なのはバークさんなのよ。彼の秘書が今いないのよ。",
+    "en": [
+      {
+        "id": "323850",
+        "text": "The problem is Mr. Bark, the man whose secretary is away."
+      }
+    ],
+    "indices": "問題 だ{な} 之(の)[04]{の} は さん だ{な} の よ 彼(かれ) の 秘書 が 今(いま) 居る(いる){いない} の よ[01]",
+    "vocabIds": [
+      "1536010",
+      "1000420",
+      "1484060",
+      "2833296"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "かれの"
+        }
+      ],
+      "1484060": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "ひしょ"
+        }
+      ],
+      "1536010": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "もんだい"
+        }
+      ],
+      "2833296": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "いまい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "107223",
+    "original": "彼は今いません。",
+    "en": [
+      {
+        "id": "296462",
+        "text": "He's out now."
+      },
+      {
+        "id": "591771",
+        "text": "He isn't here now."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 今(いま) 居る(いる){いません}",
+    "vocabIds": [
+      "2833296",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "2833296": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "いまい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "123005",
+    "original": "二郎は今いません。",
+    "en": [
+      {
+        "id": "280996",
+        "text": "Jiro is not in."
+      },
+      {
+        "id": "1236859",
+        "text": "Jiro is not here."
+      },
+      {
+        "id": "2784761",
+        "text": "Jiro isn't here now."
+      }
+    ],
+    "indices": "は 今(いま) 居る(いる){いません}",
+    "vocabIds": [
+      "2862396",
+      "2833296"
+    ],
+    "matches": {
+      "2833296": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "いまい"
+        }
+      ],
+      "2862396": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じろう"
+        }
+      ]
+    }
+  }
+]

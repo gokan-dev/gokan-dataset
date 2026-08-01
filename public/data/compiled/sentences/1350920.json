@@ -1,0 +1,108 @@
+[
+  {
+    "id": "165971",
+    "original": "私たちは学生の成績の照合をした。",
+    "en": [
+      {
+        "id": "248533",
+        "text": "We made a check of the student' records."
+      }
+    ],
+    "indices": "私たち は 学生(がくせい) の 成績 の 照合~ を 為る(する){した}",
+    "vocabIds": [
+      "1311300",
+      "1206900",
+      "1375760",
+      "1350920"
+    ],
+    "matches": {
+      "1206900": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "がくせい"
+        }
+      ],
+      "1311300": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1350920": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "しょうごう"
+        }
+      ],
+      "1375760": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "せいせき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1233778",
+    "original": "警察は、銃の指紋とドアに付着した指紋を照合した。",
+    "en": [
+      {
+        "id": "238318",
+        "text": "The police compared the fingerprints on the gun with those on the door."
+      }
+    ],
+    "vocabIds": [
+      "1252390",
+      "1310040",
+      "1496400",
+      "1350920",
+      "1337000"
+    ],
+    "matches": {
+      "1252390": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "けいさつ"
+        }
+      ],
+      "1310040": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "しもん"
+        },
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "しもん"
+        }
+      ],
+      "1337000": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "じゅう"
+        }
+      ],
+      "1350920": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "しょうごう"
+        }
+      ],
+      "1496400": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "ふちゃく"
+        }
+      ]
+    }
+  }
+]

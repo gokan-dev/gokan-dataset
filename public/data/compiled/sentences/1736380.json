@@ -1,0 +1,179 @@
+[
+  {
+    "id": "141071",
+    "original": "船積みの予定日をご連絡ください。",
+    "en": [
+      {
+        "id": "273501",
+        "text": "Would you please inform me of the expected shipping date?"
+      }
+    ],
+    "indices": "船積み の 予定日~ を ご連絡[01] 下さい{ください}",
+    "vocabIds": [
+      "1736380",
+      "1543300",
+      "1270820"
+    ],
+    "matches": {
+      "1270820": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "ごれんらく"
+        }
+      ],
+      "1543300": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "よていび"
+        }
+      ],
+      "1736380": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ふなづみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "141072",
+    "original": "船積みの時壊れたに違いない。",
+    "en": [
+      {
+        "id": "273500",
+        "text": "It must have been broken during shipping."
+      },
+      {
+        "id": "6681186",
+        "text": "It must've been broken during shipping."
+      }
+    ],
+    "indices": "船積み の 時(とき) 壊れる[01]{壊れた} に 違いない",
+    "vocabIds": [
+      "1610740",
+      "1736380",
+      "1199900",
+      "1315840"
+    ],
+    "matches": {
+      "1199900": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "こわれた"
+        }
+      ],
+      "1315840": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "とき"
+        }
+      ],
+      "1610740": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "ちがいない"
+        }
+      ],
+      "1736380": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ふなづみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "179794",
+    "original": "近代的な港湾施設がないために、多くの船積み業者が不便を被った。",
+    "en": [
+      {
+        "id": "18655",
+        "text": "The lack of modern post facilities caused trouble for many shippers."
+      }
+    ],
+    "indices": "近代的{近代的な} 港湾~ 施設[01] が 無い{ない} 為に{ために} 多く の 船積み~ 業者 が 不便(ふべん) を[01] 被る(こうむる){被った}",
+    "vocabIds": [
+      "1242460",
+      "1736380",
+      "1484330",
+      "1280030",
+      "1310410",
+      "1861770",
+      "1239440",
+      "1494860",
+      "1602810"
+    ],
+    "matches": {
+      "1239440": [
+        {
+          "start": 21,
+          "length": 2,
+          "reading": "ぎょうしゃ"
+        }
+      ],
+      "1242460": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きんだいてき"
+        }
+      ],
+      "1280030": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "こうわん"
+        }
+      ],
+      "1310410": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "しせつ"
+        }
+      ],
+      "1484330": [
+        {
+          "start": 27,
+          "length": 3,
+          "reading": "こうむった"
+        }
+      ],
+      "1494860": [
+        {
+          "start": 24,
+          "length": 2,
+          "reading": "ふべん"
+        }
+      ],
+      "1602810": [
+        {
+          "start": 24,
+          "length": 2,
+          "reading": "ふべん"
+        }
+      ],
+      "1736380": [
+        {
+          "start": 18,
+          "length": 3,
+          "reading": "ふなづみ"
+        }
+      ],
+      "1861770": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "おおく"
+        }
+      ]
+    }
+  }
+]

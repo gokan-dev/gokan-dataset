@@ -1,0 +1,99 @@
+{
+  "id": "1638480",
+  "writtenForm": {
+    "kanji": "主神",
+    "alternatives": [],
+    "containedKanji": [
+      "主",
+      "神"
+    ]
+  },
+  "reading": {
+    "primary": "しゅしん",
+    "alternatives": [
+      "かんづかさ",
+      "かみづかさ",
+      "かむづかさ"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 33552
+  },
+  "progression": {
+    "kklcStep": 365
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "chief god"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch",
+          "hist"
+        ]
+      },
+      "glosses": [
+        "person who administered religious rituals within the dazaifu jurisdiction (ritsuryō system)"
+      ],
+      "related": {
+        "compounds": [
+          "大宰府"
+        ]
+      },
+      "appliesToReadings": [
+        "かんづかさ"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": false,
+  "mergedVocabs": [
+    {
+      "id": "1638480",
+      "isBase": true,
+      "originalPrimaryReading": "しゅしん",
+      "originalGlosses": [
+        "chief god"
+      ]
+    },
+    {
+      "id": "2736680",
+      "isBase": false,
+      "originalPrimaryReading": "かんづかさ",
+      "originalGlosses": [
+        "person who administered religious rituals within the dazaifu jurisdiction (ritsuryō system)"
+      ]
+    }
+  ],
+  "components": [
+    "1324960",
+    "1364440"
+  ]
+}

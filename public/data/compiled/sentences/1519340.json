@@ -1,0 +1,155 @@
+[
+  {
+    "id": "84175",
+    "original": "部屋の中で暴れまわってはいけない。",
+    "en": [
+      {
+        "id": "319540",
+        "text": "Don't run about wildly in the room."
+      }
+    ],
+    "indices": "部屋[01] の 中(なか) で(#2028980) 暴れる{暴れまわってはいけない}",
+    "vocabIds": [
+      "1519340",
+      "1499320",
+      "1423310",
+      "2098290"
+    ],
+    "matches": {
+      "1423310": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "なか"
+        }
+      ],
+      "1499320": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "へや"
+        }
+      ],
+      "1519340": [
+        {
+          "start": 5,
+          "length": 6,
+          "reading": "あばれまわって"
+        }
+      ],
+      "2098290": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "なか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "146626",
+    "original": "少年たちは２階でどたばた暴れていた。",
+    "en": [
+      {
+        "id": "267936",
+        "text": "The boys were banging about upstairs."
+      }
+    ],
+    "indices": "少年[01] 達{たち} は 階(かい)[02] で(#2028980) どたばた~ 暴れる{暴れていた}~",
+    "vocabIds": [
+      "1519340",
+      "1349170",
+      "1461420"
+    ],
+    "matches": {
+      "1349170": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しょうねん"
+        }
+      ],
+      "1461420": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "にかい"
+        }
+      ],
+      "1519340": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "あばれていた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9779213",
+    "original": "お酒を飲んで暴れる人とは一緒に飲みに行きたくない。",
+    "en": [
+      {
+        "id": "12249686",
+        "text": "I don't want to go drinking with someone who gets violent after drinking."
+      }
+    ],
+    "vocabIds": [
+      "1578850",
+      "1519340",
+      "1163420",
+      "1169870",
+      "1329015",
+      "1580640"
+    ],
+    "matches": {
+      "1163420": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "いっしょに"
+        }
+      ],
+      "1169870": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "のんで"
+        },
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "のみ"
+        }
+      ],
+      "1329015": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おさけ"
+        }
+      ],
+      "1519340": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "あばれる"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 18,
+          "length": 6,
+          "reading": "いきたくない"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ]
+    }
+  }
+]

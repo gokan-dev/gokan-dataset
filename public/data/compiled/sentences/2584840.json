@@ -1,0 +1,96 @@
+[
+  {
+    "id": "104278",
+    "original": "彼は準備不足のために試験に失敗したのだ。",
+    "en": [
+      {
+        "id": "299413",
+        "text": "He failed in the examination for lack of preparation."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 準備 不足 の 為に{ために} 試験 に 失敗 為る(する){した} のだ",
+    "vocabIds": [
+      "2584840",
+      "1312350",
+      "1320140",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1312350": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "しけん"
+        }
+      ],
+      "1320140": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "しっぱい"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "2584840": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "じゅんびふそく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "185783",
+    "original": "我々は準備不足で失敗した。",
+    "en": [
+      {
+        "id": "22915",
+        "text": "We failed due to a lack of preparation."
+      }
+    ],
+    "indices": "我々 は 準備 不足 で(#2028980) 失敗 為る(する){した}",
+    "vocabIds": [
+      "2584840",
+      "1607050",
+      "1320140"
+    ],
+    "matches": {
+      "1320140": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "しっぱい"
+        }
+      ],
+      "1607050": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "われわれ"
+        }
+      ],
+      "2584840": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "じゅんびふそく"
+        }
+      ]
+    }
+  }
+]

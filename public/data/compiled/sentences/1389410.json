@@ -1,0 +1,72 @@
+[
+  {
+    "id": "76121",
+    "original": "昨日の易者の占いなんか気にすることないよ。",
+    "en": [
+      {
+        "id": "327597",
+        "text": "What that fortuneteller said yesterday is nothing to be concerned about."
+      }
+    ],
+    "indices": "昨日 之(の)[01]{の} 易者~ 之(の)[01]{の} 占い なんか 気にする 事(こと){こと} 無い{ない} よ[01]",
+    "vocabIds": [
+      "1221680",
+      "1579260",
+      "1157050",
+      "1389410"
+    ],
+    "matches": {
+      "1157050": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "えきしゃ"
+        }
+      ],
+      "1221680": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "きにする"
+        }
+      ],
+      "1389410": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "うらない"
+        }
+      ],
+      "1579260": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きのう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "199707",
+    "original": "トランプ占いをしてあげましょう。",
+    "en": [
+      {
+        "id": "36909",
+        "text": "Let me tell you your fortune with cards."
+      }
+    ],
+    "indices": "トランプ 占い~ を 為る(する){して} 上げる[23]{あげましょう}",
+    "vocabIds": [
+      "1389410"
+    ],
+    "matches": {
+      "1389410": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "うらない"
+        }
+      ]
+    }
+  }
+]

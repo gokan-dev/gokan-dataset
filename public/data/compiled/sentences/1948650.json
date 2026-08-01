@@ -1,0 +1,126 @@
+[
+  {
+    "id": "77744",
+    "original": "隣町に住んでいます。",
+    "en": [
+      {
+        "id": "325974",
+        "text": "He lives in the next town."
+      }
+    ],
+    "indices": "隣町 に 住む{住んでいます}",
+    "vocabIds": [
+      "1334040",
+      "1948650"
+    ],
+    "matches": {
+      "1334040": [
+        {
+          "start": 3,
+          "length": 6,
+          "reading": "すんでいます"
+        }
+      ],
+      "1948650": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "となりまち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "96026",
+    "original": "彼らは隣町まで鉄道を延長することを計画している。",
+    "en": [
+      {
+        "id": "307679",
+        "text": "They are planning to extend the railroad to the next town."
+      }
+    ],
+    "indices": "彼ら(かれら) は 隣町~ 迄{まで} 鉄道 を 延長[01] 為る(する){する} 事(こと){こと} を 計画 為る(する){している}",
+    "vocabIds": [
+      "1483090",
+      "2397090",
+      "1948650",
+      "1437960",
+      "1176510",
+      "1252090"
+    ],
+    "matches": {
+      "1176510": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "えんちょう"
+        }
+      ],
+      "1252090": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "けいかく"
+        }
+      ],
+      "1437960": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "てつどう"
+        }
+      ],
+      "1483090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれら"
+        }
+      ],
+      "1948650": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "となりまち"
+        }
+      ],
+      "2397090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11017654",
+    "original": "トムなら、隣町で逮捕されたよ。",
+    "en": [
+      {
+        "id": "3388100",
+        "text": "Tom was arrested in the next town."
+      }
+    ],
+    "vocabIds": [
+      "1948650",
+      "1411470"
+    ],
+    "matches": {
+      "1411470": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "たいほ"
+        }
+      ],
+      "1948650": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "となりまち"
+        }
+      ]
+    }
+  }
+]

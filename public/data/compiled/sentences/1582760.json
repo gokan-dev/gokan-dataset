@@ -1,0 +1,56 @@
+[
+  {
+    "id": "122109",
+    "original": "乳房にしこりがあります。",
+    "en": [
+      {
+        "id": "281894",
+        "text": "I have a lump in my breast."
+      }
+    ],
+    "indices": "乳房~ に 凝り(しこり)[01]{しこり}~ が[01] 有る{あります}",
+    "vocabIds": [
+      "1582760"
+    ],
+    "matches": {
+      "1582760": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ちぶさ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "122110",
+    "original": "乳房が痛いです。",
+    "en": [
+      {
+        "id": "281893",
+        "text": "My breasts are tender."
+      }
+    ],
+    "indices": "乳房 が 痛い[01] です",
+    "vocabIds": [
+      "1432680",
+      "1582760"
+    ],
+    "matches": {
+      "1432680": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "いたいです"
+        }
+      ],
+      "1582760": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ちぶさ"
+        }
+      ]
+    }
+  }
+]

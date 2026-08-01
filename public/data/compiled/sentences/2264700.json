@@ -1,0 +1,104 @@
+[
+  {
+    "id": "74195",
+    "original": "今日は不燃物のゴミの日です。",
+    "en": [
+      {
+        "id": "329525",
+        "text": "Today is a non-burnable rubbish day."
+      }
+    ],
+    "indices": "今日 は 不燃物~ の ゴミの日 です",
+    "vocabIds": [
+      "2264700",
+      "1289400",
+      "1611430"
+    ],
+    "matches": {
+      "1289400": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きょうは"
+        }
+      ],
+      "1611430": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "ふねんぶつ"
+        }
+      ],
+      "2264700": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "ごみのひ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "74980",
+    "original": "しかし回収時間が早すぎるため、ゴミの日に出すことが難しいです。",
+    "en": [
+      {
+        "id": "328739",
+        "text": "Moreover it's difficult to get rubbish out for garbage day because the collection time is too early."
+      }
+    ],
+    "indices": "然し{しかし} 回収 時間 が 早い{早} 過ぎる(すぎる){すぎる} 為(ため)[03]{ため} ゴミの日~ に 出す 事(こと){こと} が 難しい です",
+    "vocabIds": [
+      "1460850",
+      "2762400",
+      "2264700",
+      "1199470",
+      "1315920",
+      "1338180"
+    ],
+    "matches": {
+      "1199470": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かいしゅう"
+        }
+      ],
+      "1315920": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "じかん"
+        }
+      ],
+      "1338180": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "だす"
+        }
+      ],
+      "1460850": [
+        {
+          "start": 25,
+          "length": 5,
+          "reading": "むずかしいです"
+        }
+      ],
+      "2264700": [
+        {
+          "start": 15,
+          "length": 4,
+          "reading": "ごみのひ"
+        }
+      ],
+      "2762400": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "はやすぎる"
+        }
+      ]
+    }
+  }
+]

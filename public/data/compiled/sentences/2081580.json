@@ -1,0 +1,95 @@
+[
+  {
+    "id": "203877",
+    "original": "タイヤの空気圧を調べてもらえますか。",
+    "en": [
+      {
+        "id": "41119",
+        "text": "Could you check the tire pressure?"
+      }
+    ],
+    "indices": "タイヤ の 空気圧~ を 調べる{調べて} 貰う[02]{もらえます} か",
+    "vocabIds": [
+      "1429060",
+      "2081580"
+    ],
+    "matches": {
+      "1429060": [
+        {
+          "start": 8,
+          "length": 8,
+          "reading": "しらべてもらえます"
+        }
+      ],
+      "2081580": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "くうきあつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1790825",
+    "original": "一本だけタイヤの空気圧が極端に減ってるんだ。釘でも刺さってるのかな。",
+    "en": [
+      {
+        "id": "1866379",
+        "text": "Only one of the tires is extremely flat. I wonder if it was punctured by a nail or something."
+      }
+    ],
+    "vocabIds": [
+      "1306390",
+      "1263120",
+      "2081580",
+      "1166600",
+      "1240380",
+      "1436840"
+    ],
+    "matches": {
+      "1166600": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いちほん"
+        }
+      ],
+      "1240380": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "きょくたん"
+        }
+      ],
+      "1263120": [
+        {
+          "start": 15,
+          "length": 4,
+          "reading": "へってる"
+        }
+      ],
+      "1306390": [
+        {
+          "start": 25,
+          "length": 5,
+          "reading": "ささってる"
+        }
+      ],
+      "1436840": [
+        {
+          "start": 22,
+          "length": 1,
+          "reading": "くぎ"
+        }
+      ],
+      "2081580": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "くうきあつ"
+        }
+      ]
+    }
+  }
+]

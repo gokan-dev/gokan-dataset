@@ -1,0 +1,49 @@
+[
+  {
+    "id": "234393",
+    "original": "あそこの会社から技術情報をもらうには、まず機密保持契約を結ばなければいけない。",
+    "en": [
+      {
+        "id": "71768",
+        "text": "To get technical information from that company, we first have to sign a non-disclosure agreement."
+      }
+    ],
+    "indices": "彼処[01]{あそこ} の 会社[01] から 技術 情報 を 貰う{もらう} には 先ず[01]{まず} 機密~ 保持~ 契約 を 結ぶ[01]{結ば} ねばならない{なければいけない}",
+    "vocabIds": [
+      "1254670",
+      "2837765",
+      "2851670",
+      "1198550"
+    ],
+    "matches": {
+      "1198550": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "かいしゃ"
+        }
+      ],
+      "1254670": [
+        {
+          "start": 28,
+          "length": 10,
+          "reading": "むすばなければいけない"
+        }
+      ],
+      "2837765": [
+        {
+          "start": 21,
+          "length": 6,
+          "reading": "きみつほじけいやく"
+        }
+      ],
+      "2851670": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "ぎじゅつじょうほう"
+        }
+      ]
+    }
+  }
+]

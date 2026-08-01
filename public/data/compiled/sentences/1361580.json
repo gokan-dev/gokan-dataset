@@ -1,0 +1,108 @@
+[
+  {
+    "id": "9834686",
+    "original": "こちらの本は新刊です。",
+    "en": [
+      {
+        "id": "56910",
+        "text": "This book is new."
+      }
+    ],
+    "vocabIds": [
+      "1361580",
+      "1260670",
+      "1522150"
+    ],
+    "matches": {
+      "1260670": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "ほん"
+        }
+      ],
+      "1361580": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "しんかん"
+        }
+      ],
+      "1522150": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "ほん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11879084",
+    "original": "図書館に新刊が入りました。",
+    "en": [
+      {
+        "id": "10018148",
+        "text": "Our library got some new books in."
+      }
+    ],
+    "vocabIds": [
+      "1465590",
+      "1370420",
+      "1361580"
+    ],
+    "matches": {
+      "1361580": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "しんかん"
+        }
+      ],
+      "1370420": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "としょかん"
+        }
+      ],
+      "1465590": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "はいりました"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12897232",
+    "original": "新刊を持っています。",
+    "en": [
+      {
+        "id": "12895537",
+        "text": "I have a new book."
+      }
+    ],
+    "vocabIds": [
+      "1315720",
+      "1361580"
+    ],
+    "matches": {
+      "1315720": [
+        {
+          "start": 3,
+          "length": 6,
+          "reading": "もっています"
+        }
+      ],
+      "1361580": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しんかん"
+        }
+      ]
+    }
+  }
+]

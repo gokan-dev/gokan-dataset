@@ -1,0 +1,111 @@
+[
+  {
+    "id": "104052",
+    "original": "彼は松江に７年間住んでいた。",
+    "en": [
+      {
+        "id": "299640",
+        "text": "He lived in Matsue for seven years."
+      }
+    ],
+    "indices": "彼(かれ)[01] は に 年間 住む{住んでいた}",
+    "vocabIds": [
+      "1334040",
+      "2845089",
+      "1468380",
+      "1000420",
+      "1483070",
+      "1319210"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1319210": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "なな"
+        }
+      ],
+      "1334040": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "すんでいた"
+        }
+      ],
+      "1468380": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ねんかん"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "2845089": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "まつえ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10999417",
+    "original": "島根県の県庁所在地は松江市です。",
+    "en": [
+      {
+        "id": "10999418",
+        "text": "Shimane Prefecture's capital is Matsue City."
+      }
+    ],
+    "vocabIds": [
+      "1258890",
+      "1446820",
+      "2845089",
+      "1308090"
+    ],
+    "matches": {
+      "1258890": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "けんちょうしょざいち"
+        }
+      ],
+      "1308090": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "し"
+        }
+      ],
+      "1446820": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "しまねけん"
+        }
+      ],
+      "2845089": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "まつえ"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "id": "75157",
+    "original": "関係代名詞のthatは、主格、目的格の2つであり、所有格はありません。",
+    "en": [
+      {
+        "id": "328562",
+        "text": "The relative pronoun 'that' has two states, a nominative case and objective case, but there is no possessive case."
+      }
+    ],
+    "indices": "関係代名詞 の は 主格 目的格~ の 二つ{2つ} である{であり} 所有格~ は 有る{ありません}",
+    "vocabIds": [
+      "1811780",
+      "1642010",
+      "1798450",
+      "1325120"
+    ],
+    "matches": {
+      "1325120": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "しゅかく"
+        }
+      ],
+      "1642010": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "もくてきかく"
+        }
+      ],
+      "1798450": [
+        {
+          "start": 25,
+          "length": 3,
+          "reading": "しょゆうかく"
+        }
+      ],
+      "1811780": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "かんけいだいめいし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "76935",
+    "original": "thatには、主格、目的格の２つしかなく、格による形の変化はない。",
+    "en": [
+      {
+        "id": "326785",
+        "text": "'That' has only the two cases, nominative and objective, and it does not inflect depending on the case."
+      }
+    ],
+    "indices": "には 主格~ 目的格 の 二つ{２つ} しか 無い{なく} 格(かく) に依る{による} 形(かたち)[01] の 変化(へんか) は 無い{ない}",
+    "vocabIds": [
+      "1642010",
+      "1325120",
+      "1461160",
+      "1510890",
+      "1205270",
+      "1250220"
+    ],
+    "matches": {
+      "1205270": [
+        {
+          "start": 21,
+          "length": 1,
+          "reading": "かく"
+        }
+      ],
+      "1250220": [
+        {
+          "start": 25,
+          "length": 1,
+          "reading": "かたち"
+        }
+      ],
+      "1325120": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "しゅかく"
+        }
+      ],
+      "1461160": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "ふたつ"
+        }
+      ],
+      "1510890": [
+        {
+          "start": 27,
+          "length": 2,
+          "reading": "へんか"
+        }
+      ],
+      "1642010": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "もくてきかく"
+        }
+      ]
+    }
+  }
+]

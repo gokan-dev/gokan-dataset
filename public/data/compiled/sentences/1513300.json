@@ -1,0 +1,224 @@
+[
+  {
+    "id": "190122",
+    "original": "一番下の子は毎日午前中を保育園ですごしました。",
+    "en": [
+      {
+        "id": "27279",
+        "text": "The youngest child spent every morning at a nursery."
+      }
+    ],
+    "indices": "一番(いちばん)[01] 下(した)[05] の 子(こ)[01] は 毎日 午前中 を 保育園 で(#2028980) 過ごす{すごしました}",
+    "vocabIds": [
+      "2038070",
+      "1269070",
+      "1513300",
+      "1165970",
+      "1524720"
+    ],
+    "matches": {
+      "1165970": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いちばん"
+        }
+      ],
+      "1269070": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "ごぜんちゅう"
+        }
+      ],
+      "1513300": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "ほいくえん"
+        }
+      ],
+      "1524720": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "まいにち"
+        }
+      ],
+      "2038070": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "かのこ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "216184",
+    "original": "しげみちゃんを保育園に迎えに行ってもらえる？",
+    "en": [
+      {
+        "id": "53487",
+        "text": "Could you please pick Shigemi up for me at the day-care center?"
+      },
+      {
+        "id": "2820094",
+        "text": "Could you pick up Shigemi from the daycare center?"
+      }
+    ],
+    "indices": "ちゃん[01] を 保育園~ に 迎えに行く{迎えに行って} 貰う[02]{もらえる}",
+    "vocabIds": [
+      "1578850",
+      "1513300",
+      "1253190"
+    ],
+    "matches": {
+      "1253190": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "むかえ"
+        }
+      ],
+      "1513300": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "ほいくえん"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 14,
+          "length": 7,
+          "reading": "いってもらえる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "413547",
+    "original": "息子の保育園の保母さんにクレームをつけたいと思っています。",
+    "en": [
+      {
+        "id": "413549",
+        "text": "I'm thinking about complaining about my son's teacher at the kindergarten."
+      }
+    ],
+    "vocabIds": [
+      "1589350",
+      "1513300",
+      "1404390",
+      "1603540"
+    ],
+    "matches": {
+      "1404390": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "むすこ"
+        }
+      ],
+      "1513300": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "ほいくえん"
+        }
+      ],
+      "1589350": [
+        {
+          "start": 22,
+          "length": 6,
+          "reading": "おもっています"
+        }
+      ],
+      "1603540": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ほぼ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1225695",
+    "original": "向かいの保育園から、保育士だろう男の声で「ガオー、食べちゃうぞ！」というのが聞こえて来る。",
+    "en": [
+      {
+        "id": "1528003",
+        "text": "I hear some guy, presumably a caretaker, going \"Rawr, I'm going to eat you!\" from the nursery school across the street."
+      }
+    ],
+    "vocabIds": [
+      "1591150",
+      "1358280",
+      "1604750",
+      "1513300",
+      "2685030",
+      "1419990",
+      "1589190",
+      "1380440"
+    ],
+    "matches": {
+      "1358280": [
+        {
+          "start": 25,
+          "length": 5,
+          "reading": "たべちゃう"
+        }
+      ],
+      "1380440": [
+        {
+          "start": 18,
+          "length": 1,
+          "reading": "こえ"
+        }
+      ],
+      "1419990": [
+        {
+          "start": 16,
+          "length": 1,
+          "reading": "おとこ"
+        }
+      ],
+      "1513300": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "ほいくえん"
+        }
+      ],
+      "1589190": [
+        {
+          "start": 16,
+          "length": 1,
+          "reading": "おとこ"
+        }
+      ],
+      "1591150": [
+        {
+          "start": 38,
+          "length": 6,
+          "reading": "きこえてくる"
+        }
+      ],
+      "1604750": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "むかい"
+        }
+      ],
+      "2685030": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "ほいくし"
+        }
+      ]
+    }
+  }
+]

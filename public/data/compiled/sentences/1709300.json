@@ -1,0 +1,142 @@
+[
+  {
+    "id": "124743",
+    "original": "電話が数度鳴った。",
+    "en": [
+      {
+        "id": "279251",
+        "text": "The telephone rang several times."
+      }
+    ],
+    "indices": "電話 が 数度~ 鳴る{鳴った}",
+    "vocabIds": [
+      "1532910",
+      "1443840",
+      "1709300"
+    ],
+    "matches": {
+      "1443840": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "でんわ"
+        }
+      ],
+      "1532910": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "なった"
+        }
+      ],
+      "1709300": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "すうど"
+        }
+      ]
+    }
+  },
+  {
+    "id": "183229",
+    "original": "気温が数度下がった。",
+    "en": [
+      {
+        "id": "20351",
+        "text": "The temperature fell several degrees."
+      }
+    ],
+    "indices": "気温 が 数度 下がる{下がった}",
+    "vocabIds": [
+      "1184160",
+      "1221950",
+      "1709300"
+    ],
+    "matches": {
+      "1184160": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "さがった"
+        }
+      ],
+      "1221950": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きおん"
+        }
+      ],
+      "1709300": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "すうど"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11883219",
+    "original": "睡眠中は、体温が数度下がります。",
+    "en": [
+      {
+        "id": "9943841",
+        "text": "When we sleep, our body temperature drops by several degrees."
+      }
+    ],
+    "vocabIds": [
+      "1184160",
+      "1372370",
+      "1409250",
+      "1709300",
+      "1423310",
+      "2098290"
+    ],
+    "matches": {
+      "1184160": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "さがります"
+        }
+      ],
+      "1372370": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "すいみん"
+        }
+      ],
+      "1409250": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "たいおん"
+        }
+      ],
+      "1423310": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ちゅう"
+        }
+      ],
+      "1709300": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "すうど"
+        }
+      ],
+      "2098290": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ちゅう"
+        }
+      ]
+    }
+  }
+]

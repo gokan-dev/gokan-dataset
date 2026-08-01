@@ -1,0 +1,108 @@
+{
+  "id": "1553210",
+  "writtenForm": {
+    "kanji": "旅人",
+    "alternatives": [
+      "たび人"
+    ],
+    "containedKanji": [
+      "旅",
+      "人"
+    ]
+  },
+  "reading": {
+    "primary": "たびびと",
+    "alternatives": [
+      "りょじん",
+      "たびと",
+      "たひと",
+      "たびにん"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 8831,
+    "kanaRank": 130946
+  },
+  "progression": {
+    "kklcStep": 569
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "traveller",
+        "traveler",
+        "wayfarer",
+        "tourist"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "itinerant (esp. itinerant gambler)",
+        "drifter",
+        "nomad",
+        "rover"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "たびにん"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": true
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1553210",
+      "isBase": true,
+      "originalPrimaryReading": "たびびと",
+      "originalGlosses": [
+        "traveller",
+        "traveler",
+        "wayfarer"
+      ]
+    },
+    {
+      "id": "2527580",
+      "isBase": false,
+      "originalPrimaryReading": "たびにん",
+      "originalGlosses": [
+        "itinerant (esp. itinerant gambler)",
+        "drifter",
+        "nomad"
+      ]
+    }
+  ],
+  "components": [
+    "1553120",
+    "1580640"
+  ]
+}

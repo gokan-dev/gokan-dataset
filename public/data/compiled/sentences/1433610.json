@@ -1,0 +1,219 @@
+[
+  {
+    "id": "125566",
+    "original": "通話の申し込みを取り消しましょうか。",
+    "en": [
+      {
+        "id": "278426",
+        "text": "Should I cancel the call?"
+      }
+    ],
+    "indices": "通話[01]~ の 申し込み を 取り消す{取り消し} ましょうか",
+    "vocabIds": [
+      "1326790",
+      "1605140",
+      "1433610"
+    ],
+    "matches": {
+      "1326790": [
+        {
+          "start": 8,
+          "length": 8,
+          "reading": "とりけしましょう"
+        }
+      ],
+      "1433610": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "つうわ"
+        }
+      ],
+      "1605140": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "もうしこみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "184632",
+    "original": "各ロボットには通話機が取り付けられています。",
+    "en": [
+      {
+        "id": "21760",
+        "text": "Each robot is equipped with a talking machine."
+      }
+    ],
+    "indices": "各(かく) ロボット には 通話[01] 機(き) が 取り付ける[01]{取り付けられています}",
+    "vocabIds": [
+      "1326910",
+      "1433610",
+      "1204860",
+      "2826190",
+      "2037700"
+    ],
+    "matches": {
+      "1204860": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かく"
+        }
+      ],
+      "1326910": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "とりつけ"
+        }
+      ],
+      "1433610": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "つうわ"
+        }
+      ],
+      "2037700": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "き"
+        }
+      ],
+      "2826190": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "203656",
+    "original": "ただいま通話中だ。",
+    "en": [
+      {
+        "id": "40891",
+        "text": "The line is busy now."
+      }
+    ],
+    "indices": "ただ今[02]{ただいま} 通話[01] 中(ちゅう)[04] だ",
+    "vocabIds": [
+      "1433610",
+      "1423310",
+      "2098290"
+    ],
+    "matches": {
+      "1423310": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "ちゅう"
+        }
+      ],
+      "1433610": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "つうわ"
+        }
+      ],
+      "2098290": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "ちゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3985798",
+    "original": "この通話は、サービス向上およびトレーニングのためにモニターまたは録音されることがあります。ご用件は何でしょう？",
+    "en": [
+      {
+        "id": "3985795",
+        "text": "This call maybe monitored or recorded for quality assurance or training purpose. How may I help you?"
+      }
+    ],
+    "vocabIds": [
+      "1433610",
+      "1277250",
+      "1561590",
+      "1546250",
+      "1577100"
+    ],
+    "matches": {
+      "1277250": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "こうじょう"
+        }
+      ],
+      "1433610": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "つうわ"
+        }
+      ],
+      "1546250": [
+        {
+          "start": 46,
+          "length": 2,
+          "reading": "ようけん"
+        }
+      ],
+      "1561590": [
+        {
+          "start": 32,
+          "length": 2,
+          "reading": "ろくおん"
+        }
+      ],
+      "1577100": [
+        {
+          "start": 49,
+          "length": 1,
+          "reading": "なに"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11924181",
+    "original": "この通話は無料です。",
+    "en": [
+      {
+        "id": "10857089",
+        "text": "This call is free of charge."
+      }
+    ],
+    "vocabIds": [
+      "1433610",
+      "1531040"
+    ],
+    "matches": {
+      "1433610": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "つうわ"
+        }
+      ],
+      "1531040": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "むりょう"
+        }
+      ]
+    }
+  }
+]

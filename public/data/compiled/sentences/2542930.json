@@ -1,0 +1,88 @@
+[
+  {
+    "id": "88723",
+    "original": "彼女は女子高校に通っている。",
+    "en": [
+      {
+        "id": "314983",
+        "text": "She goes to a girls' high school."
+      }
+    ],
+    "indices": "彼女[01] は 女子高校~ に 通う[02]{通っている}",
+    "vocabIds": [
+      "1432850",
+      "2542930",
+      "1483150"
+    ],
+    "matches": {
+      "1432850": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "かよっている"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "2542930": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "じょしこうこう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "88724",
+    "original": "彼女は女子高校の入学試験に合格した。",
+    "en": [
+      {
+        "id": "314984",
+        "text": "She passed the entrance examination to the girl's high school."
+      }
+    ],
+    "indices": "彼女[01] は 女子(じょし) 高校 の 入学試験 に 合格[01] 為る(する){した}",
+    "vocabIds": [
+      "2542930",
+      "1465900",
+      "1483150",
+      "1284600"
+    ],
+    "matches": {
+      "1284600": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "ごうかく"
+        }
+      ],
+      "1465900": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "にゅうがくしけん"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "2542930": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "じょしこうこう"
+        }
+      ]
+    }
+  }
+]

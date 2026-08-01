@@ -1,0 +1,139 @@
+[
+  {
+    "id": "137673",
+    "original": "大雨のためにダムが決壊した。",
+    "en": [
+      {
+        "id": "275563",
+        "text": "The dam burst owing to the heavy rain."
+      }
+    ],
+    "indices": "大雨 の 為に[02]{ために} ダム[01]~ が 決壊~ 為る(する){した}",
+    "vocabIds": [
+      "1413070",
+      "1254230"
+    ],
+    "matches": {
+      "1254230": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "けっかい"
+        }
+      ],
+      "1413070": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おおあめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11603933",
+    "original": "ダムは決壊し、谷は水に飲まれた。",
+    "en": [
+      {
+        "id": "8112705",
+        "text": "The dam burst and water flooded the valley."
+      }
+    ],
+    "vocabIds": [
+      "1254230",
+      "1169870",
+      "1581590",
+      "1371260"
+    ],
+    "matches": {
+      "1169870": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "のま"
+        }
+      ],
+      "1254230": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "けっかい"
+        }
+      ],
+      "1371260": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "みず"
+        }
+      ],
+      "1581590": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "たに"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11603938",
+    "original": "大雨でダムが決壊した。",
+    "en": [
+      {
+        "id": "275563",
+        "text": "The dam burst owing to the heavy rain."
+      }
+    ],
+    "vocabIds": [
+      "1413070",
+      "1254230"
+    ],
+    "matches": {
+      "1254230": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "けっかい"
+        }
+      ],
+      "1413070": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おおあめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11603941",
+    "original": "豪雨により、ダムが決壊しました。",
+    "en": [
+      {
+        "id": "275563",
+        "text": "The dam burst owing to the heavy rain."
+      }
+    ],
+    "vocabIds": [
+      "1285490",
+      "1254230"
+    ],
+    "matches": {
+      "1254230": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "けっかい"
+        }
+      ],
+      "1285490": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ごうう"
+        }
+      ]
+    }
+  }
+]

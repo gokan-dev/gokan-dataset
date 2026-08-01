@@ -1,0 +1,134 @@
+{
+  "id": "1356750",
+  "writtenForm": {
+    "kanji": "畳",
+    "alternatives": [
+      "疊"
+    ],
+    "containedKanji": [
+      "畳"
+    ]
+  },
+  "reading": {
+    "primary": "たたみ",
+    "alternatives": [
+      "たとう",
+      "じょう"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 6151,
+    "kanaRank": 46798
+  },
+  "jlptLevel": 4,
+  "progression": {
+    "kklcStep": 1520
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "tatami mat",
+        "Japanese straw floor coverings"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": true,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "abbr"
+        ]
+      },
+      "glosses": [
+        "folding paper-case",
+        "kimono wrapping paper"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "たとう"
+      ]
+    },
+    {
+      "pos": [
+        "ctr"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "tatami mat (esp. as a measure of room size, either 1.82 sqm or 1.54 sqm)"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "じょう"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1356750",
+      "isBase": true,
+      "originalPrimaryReading": "たたみ",
+      "originalGlosses": [
+        "tatami mat",
+        "Japanese straw floor coverings"
+      ]
+    },
+    {
+      "id": "2061060",
+      "isBase": false,
+      "originalPrimaryReading": "たとう",
+      "originalGlosses": [
+        "folding paper-case",
+        "kimono wrapping paper"
+      ]
+    },
+    {
+      "id": "1356740",
+      "isBase": false,
+      "originalPrimaryReading": "じょう",
+      "originalGlosses": [
+        "tatami mat (esp. as a measure of room size, either 1.82 sqm or 1.54 sqm)"
+      ]
+    }
+  ],
+  "parents": [
+    "1356780",
+    "1382670",
+    "1307280",
+    "2025650"
+  ]
+}

@@ -1,0 +1,143 @@
+[
+  {
+    "id": "83710",
+    "original": "分割払いでよろしいですか。",
+    "en": [
+      {
+        "id": "320006",
+        "text": "Can I buy it on easy payment?"
+      }
+    ],
+    "indices": "分割払い で(#2028980) 宜しい{よろしい} ですか",
+    "vocabIds": [
+      "1503300"
+    ],
+    "matches": {
+      "1503300": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "ぶんかつばらい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "149034",
+    "original": "車の代金は１２ヶ月分割払いである。",
+    "en": [
+      {
+        "id": "265524",
+        "text": "The payment for the car will be made in 12 monthly installments."
+      }
+    ],
+    "indices": "車 の 代金 は ヶ月 分割払い である",
+    "vocabIds": [
+      "1503300",
+      "1411790",
+      "1334890",
+      "1194480",
+      "1323080"
+    ],
+    "matches": {
+      "1194480": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "かげつ"
+        }
+      ],
+      "1323080": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1334890": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "いちに"
+        }
+      ],
+      "1411790": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "だいきん"
+        }
+      ],
+      "1503300": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "ぶんかつばらい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "152927",
+    "original": "私は分割払いより一括払いの方がいい。",
+    "en": [
+      {
+        "id": "261618",
+        "text": "I prefer payment in full to payment in part."
+      }
+    ],
+    "indices": "私(わたし)[01] は 分割払い~ より 一括払い の 方がいい",
+    "vocabIds": [
+      "1503300",
+      "2005920",
+      "2160680",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1503300": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "ぶんかつばらい"
+        }
+      ],
+      "2005920": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "いっかつばらい"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2160680": [
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "ほうがいい"
+        }
+      ]
+    }
+  }
+]

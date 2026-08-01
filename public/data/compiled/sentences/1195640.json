@@ -1,0 +1,71 @@
+[
+  {
+    "id": "147296",
+    "original": "女王は華麗な銀色のドレスを着ていた。",
+    "en": [
+      {
+        "id": "267264",
+        "text": "The queen was wearing a magnificent silver dress."
+      }
+    ],
+    "indices": "女王 は 華麗{華麗な}~ 銀色~ の ドレス を 着る[01]{着ていた}",
+    "vocabIds": [
+      "1423000",
+      "1345020",
+      "1195640",
+      "1243560"
+    ],
+    "matches": {
+      "1195640": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かれい"
+        }
+      ],
+      "1243560": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ぎんいろ"
+        }
+      ],
+      "1345020": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じょおう"
+        }
+      ],
+      "1423000": [
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "きていた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11136714",
+    "original": "すごく華麗だったわ。",
+    "en": [
+      {
+        "id": "6997245",
+        "text": "She was absolutely gorgeous."
+      }
+    ],
+    "vocabIds": [
+      "1195640"
+    ],
+    "matches": {
+      "1195640": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かれい"
+        }
+      ]
+    }
+  }
+]

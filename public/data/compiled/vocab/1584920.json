@@ -1,0 +1,131 @@
+{
+  "id": "1584920",
+  "writtenForm": {
+    "kanji": "予言",
+    "alternatives": [
+      "兼言",
+      "兼ね言"
+    ],
+    "containedKanji": [
+      "予",
+      "言"
+    ]
+  },
+  "reading": {
+    "primary": "よげん",
+    "alternatives": [
+      "かねごと"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 6641,
+    "kanaRank": 130399
+  },
+  "jlptLevel": 1,
+  "progression": {
+    "kklcStep": 163
+  },
+  "senses": [
+    {
+      "pos": [
+        "n",
+        "vs",
+        "vt"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "prediction",
+        "prophecy",
+        "prognostication",
+        "foretelling",
+        "forecast"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n",
+        "vs",
+        "vt"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "(religious) prophecy"
+      ],
+      "related": {
+        "compounds": [
+          "預言"
+        ]
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "promise",
+        "prediction"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "かねごと"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1584920",
+      "isBase": true,
+      "originalPrimaryReading": "よげん",
+      "originalGlosses": [
+        "prediction",
+        "prophecy",
+        "prognostication"
+      ]
+    },
+    {
+      "id": "2826481",
+      "isBase": false,
+      "originalPrimaryReading": "かねごと",
+      "originalGlosses": [
+        "promise",
+        "prediction"
+      ]
+    }
+  ],
+  "components": [
+    "1956230"
+  ]
+}

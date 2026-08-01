@@ -1,0 +1,63 @@
+[
+  {
+    "id": "223980",
+    "original": "このうわさの張本人はだれだ？",
+    "en": [
+      {
+        "id": "61315",
+        "text": "Who is at the bottom of these rumors?"
+      }
+    ],
+    "indices": "此の{この} 噂{うわさ} の 張本人~ は 誰{だれ} だ",
+    "vocabIds": [
+      "1610350"
+    ],
+    "matches": {
+      "1610350": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "ちょうほんにん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "4919240",
+    "original": "トムが事故を引き起こした張本人なんだ。",
+    "en": [
+      {
+        "id": "1892649",
+        "text": "Tom is the one who caused the accident."
+      }
+    ],
+    "vocabIds": [
+      "1168880",
+      "1610350",
+      "1313850"
+    ],
+    "matches": {
+      "1168880": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "ひきおこした"
+        }
+      ],
+      "1313850": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "じこ"
+        }
+      ],
+      "1610350": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "ちょうほんにん"
+        }
+      ]
+    }
+  }
+]

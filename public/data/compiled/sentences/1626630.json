@@ -1,0 +1,88 @@
+[
+  {
+    "id": "75146",
+    "original": "被弾しました。ダメージは軽微です。",
+    "en": [
+      {
+        "id": "328573",
+        "text": "We've taken a hit. Trivial damage."
+      }
+    ],
+    "indices": "被弾~ 為る(する){しました} ダメージ~ は 軽微~ です",
+    "vocabIds": [
+      "1626630",
+      "1615650"
+    ],
+    "matches": {
+      "1615650": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "けいび"
+        }
+      ],
+      "1626630": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ひだん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "75259",
+    "original": "なるほど、言われてみれば確かに、田中さんは模擬戦で一度も被弾していませんでしたね。",
+    "en": [
+      {
+        "id": "328460",
+        "text": "Of course. Now that you say that, certainly Ms Tanaka wasn't shot even once in the mock battles."
+      }
+    ],
+    "indices": "成程{なるほど} 言われてみれば~ 確かに さん は 模擬戦~ で(#2028980) 一度 も 被弾 為る(する){していませんでした} ね",
+    "vocabIds": [
+      "2249850",
+      "1205770",
+      "1671020",
+      "2266600",
+      "1626630"
+    ],
+    "matches": {
+      "1205770": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "たしかに"
+        }
+      ],
+      "1626630": [
+        {
+          "start": 28,
+          "length": 2,
+          "reading": "ひだん"
+        }
+      ],
+      "1671020": [
+        {
+          "start": 21,
+          "length": 3,
+          "reading": "もぎせん"
+        }
+      ],
+      "2249850": [
+        {
+          "start": 5,
+          "length": 7,
+          "reading": "いわれてみれば"
+        }
+      ],
+      "2266600": [
+        {
+          "start": 25,
+          "length": 3,
+          "reading": "いちども"
+        }
+      ]
+    }
+  }
+]

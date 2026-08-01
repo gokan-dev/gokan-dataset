@@ -1,0 +1,184 @@
+[
+  {
+    "id": "207050",
+    "original": "その品は品切れになりました。",
+    "en": [
+      {
+        "id": "44300",
+        "text": "That article is out of stock."
+      }
+    ],
+    "indices": "其の[01]{その} 品[01] は 品切れ になる{になりました}",
+    "vocabIds": [
+      "1490640",
+      "2648780"
+    ],
+    "matches": {
+      "1490640": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "しなぎれ"
+        }
+      ],
+      "2648780": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "しな"
+        }
+      ]
+    }
+  },
+  {
+    "id": "223589",
+    "original": "このタイプのセーターはただ今、全部品切れでございます。東京の本店から取り寄せましょう。",
+    "en": [
+      {
+        "id": "60924",
+        "text": "All sweaters of this type are out of stock now. We'll order them from the main store in Tokyo."
+      }
+    ],
+    "indices": "此の{この} タイプ の セーター は ただ今[02] 全部 品切れ で御座います{でございます} 東京 の 本店 から 取り寄せる{取り寄せましょう}",
+    "vocabIds": [
+      "1326620",
+      "1538960",
+      "1490640",
+      "1396130",
+      "1447690",
+      "1523020"
+    ],
+    "matches": {
+      "1326620": [
+        {
+          "start": 34,
+          "length": 8,
+          "reading": "とりよせましょう"
+        }
+      ],
+      "1396130": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "ぜんぶ"
+        }
+      ],
+      "1447690": [
+        {
+          "start": 27,
+          "length": 2,
+          "reading": "とうきょう"
+        }
+      ],
+      "1490640": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "しなぎれ"
+        }
+      ],
+      "1523020": [
+        {
+          "start": 30,
+          "length": 2,
+          "reading": "ほんてん"
+        }
+      ],
+      "1538960": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "ただいま"
+        }
+      ]
+    }
+  },
+  {
+    "id": "234556",
+    "original": "あいにく品切れになってしまったんですが。",
+    "en": [
+      {
+        "id": "71932",
+        "text": "I'm afraid we don't have any left."
+      },
+      {
+        "id": "7217743",
+        "text": "I'm afraid that we don't have any left."
+      }
+    ],
+    "indices": "生憎{あいにく} 品切れ~ になる{になって} 仕舞う{しまった} のです{んです} が[03]",
+    "vocabIds": [
+      "1490640"
+    ],
+    "matches": {
+      "1490640": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "しなぎれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1486968",
+    "original": "大変申し訳ございませんが、もう品切れでございます。",
+    "en": [
+      {
+        "id": "1228331",
+        "text": "I'm sorry, but we're out of stock."
+      }
+    ],
+    "vocabIds": [
+      "2060820",
+      "1490640",
+      "1415000"
+    ],
+    "matches": {
+      "1415000": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "たいへん"
+        }
+      ],
+      "1490640": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "しなぎれ"
+        }
+      ],
+      "2060820": [
+        {
+          "start": 2,
+          "length": 9,
+          "reading": "もうしわけございません"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3419603",
+    "original": "ただいま品切れとなっております。",
+    "en": [
+      {
+        "id": "40894",
+        "text": "We're out of stock now."
+      }
+    ],
+    "indices": "ただ今[02]{ただいま} 品切れ と 成る(なる){なって} 居る(おる){おります}",
+    "vocabIds": [
+      "1490640"
+    ],
+    "matches": {
+      "1490640": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "しなぎれ"
+        }
+      ]
+    }
+  }
+]

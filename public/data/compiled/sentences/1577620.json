@@ -1,0 +1,110 @@
+[
+  {
+    "id": "141545",
+    "original": "先生は生徒の作った花の冠をかぶった。",
+    "en": [
+      {
+        "id": "273025",
+        "text": "The teacher put on a crown of flowers made by her pupils."
+      }
+    ],
+    "indices": "先生(せんせい)[01] は 生徒 の 作る{作った} 花[01] の 冠(かんむり)[01] を[01] 被る(かぶる)[01]{かぶった}",
+    "vocabIds": [
+      "1597890",
+      "1387990",
+      "1379380",
+      "1194500",
+      "1577620"
+    ],
+    "matches": {
+      "1194500": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "はな"
+        }
+      ],
+      "1379380": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "せいと"
+        }
+      ],
+      "1387990": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "せんせい"
+        }
+      ],
+      "1577620": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "かんむり"
+        }
+      ],
+      "1597890": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "つくった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "195210",
+    "original": "マユコは花の冠をつけていた。",
+    "en": [
+      {
+        "id": "32384",
+        "text": "Mayuko wore a flower crown."
+      }
+    ],
+    "indices": "は 花[01] の 冠(かんむり)[01] を 付ける{つけていた}",
+    "vocabIds": [
+      "1194500",
+      "1577620"
+    ],
+    "matches": {
+      "1194500": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "はな"
+        }
+      ],
+      "1577620": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "かんむり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1400004",
+    "original": "ここに冠がある。",
+    "en": [
+      {
+        "id": "880576",
+        "text": "There's a crown here."
+      }
+    ],
+    "vocabIds": [
+      "1577620"
+    ],
+    "matches": {
+      "1577620": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "かんむり"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "id": "74255",
+    "original": "細菌などから隔離するため、面会謝絶となっています。",
+    "en": [
+      {
+        "id": "329465",
+        "text": "In order to isolate him from bacteria, and such, he is not allowed visitors."
+      }
+    ],
+    "indices": "細菌 等(など){など} から 隔離 為る(する){する} 為(ため){ため} 面会謝絶~ となる{となっています}",
+    "vocabIds": [
+      "1812150",
+      "1295590",
+      "1206440"
+    ],
+    "matches": {
+      "1206440": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "かくり"
+        }
+      ],
+      "1295590": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "さいきん"
+        }
+      ],
+      "1812150": [
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "めんかいしゃぜつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "99554",
+    "original": "彼は面会謝絶だ。",
+    "en": [
+      {
+        "id": "304142",
+        "text": "He sees no company."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 面会謝絶 だ",
+    "vocabIds": [
+      "1812150",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1812150": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "めんかいしゃぜつ"
+        }
+      ]
+    }
+  }
+]

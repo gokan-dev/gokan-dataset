@@ -1,0 +1,153 @@
+[
+  {
+    "id": "141957",
+    "original": "雪崩で道路がふさがった。",
+    "en": [
+      {
+        "id": "272613",
+        "text": "A snowslide obstructed the road."
+      },
+      {
+        "id": "12271141",
+        "text": "The road was obstructed by a snowslide."
+      },
+      {
+        "id": "12271251",
+        "text": "The road was blocked by an avalanche."
+      },
+      {
+        "id": "12271252",
+        "text": "The road was blocked by a snowslide."
+      }
+    ],
+    "indices": "雪崩~ で(#2028980) 道路 が 塞がる[01]{ふさがった}",
+    "vocabIds": [
+      "1386690",
+      "1454290"
+    ],
+    "matches": {
+      "1386690": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "なだれ"
+        }
+      ],
+      "1454290": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "どうろ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10243652",
+    "original": "雪崩で道が塞がっていた。",
+    "en": [
+      {
+        "id": "272613",
+        "text": "A snowslide obstructed the road."
+      }
+    ],
+    "vocabIds": [
+      "1602570",
+      "1386690",
+      "1454080",
+      "2220470"
+    ],
+    "matches": {
+      "1386690": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "なだれ"
+        }
+      ],
+      "1454080": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "みち"
+        }
+      ],
+      "1602570": [
+        {
+          "start": 5,
+          "length": 6,
+          "reading": "ふさがっていた"
+        }
+      ],
+      "2220470": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "みち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11001647",
+    "original": "雪崩の起こりやすい谷では、地上基地を建てることができない。",
+    "en": [
+      {
+        "id": "11405997",
+        "text": "Above-ground bases cannot be built in valleys where avalanches are likely to occur."
+      }
+    ],
+    "vocabIds": [
+      "1223680",
+      "1257330",
+      "1386690",
+      "1421180",
+      "1219110",
+      "1581590"
+    ],
+    "matches": {
+      "1219110": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "きち"
+        }
+      ],
+      "1223680": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "おこり"
+        }
+      ],
+      "1257330": [
+        {
+          "start": 18,
+          "length": 3,
+          "reading": "たてる"
+        }
+      ],
+      "1386690": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "なだれ"
+        }
+      ],
+      "1421180": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "ちじょう"
+        }
+      ],
+      "1581590": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "たに"
+        }
+      ]
+    }
+  }
+]

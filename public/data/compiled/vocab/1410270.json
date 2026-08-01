@@ -1,0 +1,152 @@
+{
+  "id": "1410270",
+  "writtenForm": {
+    "kanji": "対面",
+    "alternatives": [],
+    "containedKanji": [
+      "対",
+      "面"
+    ]
+  },
+  "reading": {
+    "primary": "たいめん",
+    "alternatives": [
+      "たいめ",
+      "トイメン"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 5217,
+    "kanaRank": 148630
+  },
+  "jlptLevel": 1,
+  "progression": {
+    "kklcStep": 650
+  },
+  "senses": [
+    {
+      "pos": [
+        "n",
+        "vs",
+        "vi"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "meeting face-to-face",
+        "seeing in person"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n",
+        "vs",
+        "vi",
+        "adj-no"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "facing (each other)",
+        "opposing (traffic, etc.)",
+        "confronting"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "opposite player"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "トイメン"
+      ]
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "col"
+        ]
+      },
+      "glosses": [
+        "opposite side",
+        "(person) directly opposite"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "トイメン"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": true
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1410270",
+      "isBase": true,
+      "originalPrimaryReading": "たいめん",
+      "originalGlosses": [
+        "meeting face-to-face",
+        "seeing in person"
+      ]
+    },
+    {
+      "id": "2752960",
+      "isBase": false,
+      "originalPrimaryReading": "トイメン",
+      "originalGlosses": [
+        "opposite player"
+      ]
+    }
+  ],
+  "components": [
+    "1409800",
+    "1584695"
+  ],
+  "parents": [
+    "1342890",
+    "2558600"
+  ]
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "93365",
+    "original": "彼女はある人気歌手に似ている。",
+    "en": [
+      {
+        "id": "310343",
+        "text": "She resembles a popular singer."
+      }
+    ],
+    "indices": "彼女[01] は 有る{ある} 人気(にんき) 歌手 に 似る{似ている}",
+    "vocabIds": [
+      "2852758",
+      "1314600",
+      "1483150"
+    ],
+    "matches": {
+      "1314600": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "にている"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "2852758": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "にんきかしゅ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "208744",
+    "original": "その人気歌手は自殺した。",
+    "en": [
+      {
+        "id": "46003",
+        "text": "The popular singer committed suicide."
+      }
+    ],
+    "indices": "其の[01]{その} 人気(にんき) 歌手 は 自殺 為る(する){した}",
+    "vocabIds": [
+      "2852758",
+      "1317770"
+    ],
+    "matches": {
+      "1317770": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "じさつ"
+        }
+      ],
+      "2852758": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "にんきかしゅ"
+        }
+      ]
+    }
+  }
+]

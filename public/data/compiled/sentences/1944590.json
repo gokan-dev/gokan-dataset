@@ -1,0 +1,37 @@
+[
+  {
+    "id": "174194",
+    "original": "交換手です。内線番号をどうぞ。",
+    "en": [
+      {
+        "id": "240275",
+        "text": "This is the operator. Which extension would you like?"
+      },
+      {
+        "id": "6980660",
+        "text": "Operator. Which extension would you like?"
+      }
+    ],
+    "indices": "交換手 です 内線番号~ を どうぞ[01]",
+    "vocabIds": [
+      "1944590",
+      "1271820"
+    ],
+    "matches": {
+      "1271820": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "こうかんしゅ"
+        }
+      ],
+      "1944590": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "ないせんばんごう"
+        }
+      ]
+    }
+  }
+]

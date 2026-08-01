@@ -1,0 +1,86 @@
+[
+  {
+    "id": "186626",
+    "original": "花に浮かれて踊っている。",
+    "en": [
+      {
+        "id": "23762",
+        "text": "They are dancing, intoxicated with the beauty of cherry blossoms."
+      }
+    ],
+    "indices": "花[01] に 浮かれる{浮かれて} 踊る{踊っている}",
+    "vocabIds": [
+      "1538440",
+      "1497370",
+      "1194500"
+    ],
+    "matches": {
+      "1194500": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "はな"
+        }
+      ],
+      "1497370": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "うかれて"
+        }
+      ],
+      "1538440": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "おどっている"
+        }
+      ]
+    }
+  },
+  {
+    "id": "198513",
+    "original": "パーティーでみんな浮かれている。",
+    "en": [
+      {
+        "id": "35706",
+        "text": "The party puts everyone in high spirits."
+      }
+    ],
+    "indices": "パーティー で(#2028980) 皆{みんな} 浮かれる{浮かれている}~",
+    "vocabIds": [
+      "1497370"
+    ],
+    "matches": {
+      "1497370": [
+        {
+          "start": 9,
+          "length": 6,
+          "reading": "うかれている"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11038411",
+    "original": "なんでみんなそんなに浮かれてるの？",
+    "en": [
+      {
+        "id": "3555989",
+        "text": "Why is everyone so excited?"
+      }
+    ],
+    "vocabIds": [
+      "1497370"
+    ],
+    "matches": {
+      "1497370": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "うかれてる"
+        }
+      ]
+    }
+  }
+]

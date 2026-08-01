@@ -1,0 +1,88 @@
+[
+  {
+    "id": "213860",
+    "original": "そうすれば一挙両得だ。",
+    "en": [
+      {
+        "id": "51147",
+        "text": "It will kill two birds with one stone."
+      }
+    ],
+    "indices": "然うすれば{そうすれば} 一挙両得 だ",
+    "vocabIds": [
+      "1161880"
+    ],
+    "matches": {
+      "1161880": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "いっきょりょうとく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "234854",
+    "original": "ＤＴＰで本を作れば、安いし早いし、まさに一挙両得だ。",
+    "en": [
+      {
+        "id": "72231",
+        "text": "Desktop publishing lets you produce books quickly and cheaply. It's like killing two birds with one stone."
+      }
+    ],
+    "indices": "で 本(ほん)[01] を 作る[06]{作れば}~ 安い[01] 為る(する){し} 早い[01] 為る(する){し} 正に[01]{まさに}~ 一挙両得~ だ",
+    "vocabIds": [
+      "1161880",
+      "1597890",
+      "1153670",
+      "1404975",
+      "1260670",
+      "1522150"
+    ],
+    "matches": {
+      "1153670": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "やすいし"
+        }
+      ],
+      "1161880": [
+        {
+          "start": 20,
+          "length": 4,
+          "reading": "いっきょりょうとく"
+        }
+      ],
+      "1260670": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "ほん"
+        }
+      ],
+      "1404975": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "はやいし"
+        }
+      ],
+      "1522150": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "ほん"
+        }
+      ],
+      "1597890": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "つくれば"
+        }
+      ]
+    }
+  }
+]

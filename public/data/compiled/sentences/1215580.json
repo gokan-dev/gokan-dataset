@@ -1,0 +1,79 @@
+[
+  {
+    "id": "225696",
+    "original": "くしを少しの間貸してくれませんか。",
+    "en": [
+      {
+        "id": "63034",
+        "text": "Lend me your comb for a minute, will you?"
+      }
+    ],
+    "indices": "櫛{くし} を 少し の 間(あいだ) 貸す{貸して} 呉れる{くれません} か",
+    "vocabIds": [
+      "1215580",
+      "1348870"
+    ],
+    "matches": {
+      "1215580": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "まがしし"
+        }
+      ],
+      "1348870": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "すこし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1107983",
+    "original": "この間貸した本を返してもらいたい。",
+    "en": [
+      {
+        "id": "273120",
+        "text": "I want you to return the book I lent you the other day."
+      }
+    ],
+    "vocabIds": [
+      "1512130",
+      "1215580",
+      "1260670",
+      "1522150"
+    ],
+    "matches": {
+      "1215580": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "まがしし"
+        }
+      ],
+      "1260670": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "ほん"
+        }
+      ],
+      "1512130": [
+        {
+          "start": 8,
+          "length": 8,
+          "reading": "かえしてもらいたい"
+        }
+      ],
+      "1522150": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "ほん"
+        }
+      ]
+    }
+  }
+]

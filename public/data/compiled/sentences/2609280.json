@@ -1,0 +1,41 @@
+[
+  {
+    "id": "147832",
+    "original": "宿泊費込みの値段ですか。",
+    "en": [
+      {
+        "id": "266728",
+        "text": "Does the price include accommodation?"
+      }
+    ],
+    "indices": "宿泊 費(ひ) 込み[01] の 値段 ですか",
+    "vocabIds": [
+      "2609280",
+      "2078750",
+      "1600160"
+    ],
+    "matches": {
+      "1600160": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ねだん"
+        }
+      ],
+      "2078750": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "こみ"
+        }
+      ],
+      "2609280": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "しゅくはくひ"
+        }
+      ]
+    }
+  }
+]

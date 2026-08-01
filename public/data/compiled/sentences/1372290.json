@@ -1,0 +1,155 @@
+[
+  {
+    "id": "83547",
+    "original": "平野を横切って水路が枝分かれしている。",
+    "en": [
+      {
+        "id": "320169",
+        "text": "The waterways ramify across the plain."
+      },
+      {
+        "id": "614500",
+        "text": "The waterways branch out across the plain."
+      }
+    ],
+    "indices": "平野 を 横切る{横切って} 水路[01] が 枝分かれ~ 為る(する){している}",
+    "vocabIds": [
+      "1861290",
+      "1180860",
+      "1508030",
+      "1372290"
+    ],
+    "matches": {
+      "1180860": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "よこぎって"
+        }
+      ],
+      "1372290": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "すいろ"
+        }
+      ],
+      "1508030": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "へいや"
+        }
+      ],
+      "1861290": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "えだわかれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "141114",
+    "original": "船は水路を下った。",
+    "en": [
+      {
+        "id": "273458",
+        "text": "The ship sailed down the channel."
+      }
+    ],
+    "indices": "船(ふね)[01] は 水路[01]~ を[03] 下る(くだる)[01]{下った}",
+    "vocabIds": [
+      "1184160",
+      "1184450",
+      "1372290",
+      "1602800"
+    ],
+    "matches": {
+      "1184160": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "くだった"
+        }
+      ],
+      "1184450": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "くだった"
+        }
+      ],
+      "1372290": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "すいろ"
+        }
+      ],
+      "1602800": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ふね"
+        }
+      ]
+    }
+  },
+  {
+    "id": "145368",
+    "original": "新しい水路を作るために岩が爆破された。",
+    "en": [
+      {
+        "id": "269195",
+        "text": "The rock has been blasted to make a new course for the stream."
+      }
+    ],
+    "indices": "新しい 水路[01] を 作る 為に{ために} 岩 が 爆破 為れる{された}",
+    "vocabIds": [
+      "1361490",
+      "1372290",
+      "1597890",
+      "1475900",
+      "1217270"
+    ],
+    "matches": {
+      "1217270": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "いわ"
+        }
+      ],
+      "1361490": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あたらしい"
+        }
+      ],
+      "1372290": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "すいろ"
+        }
+      ],
+      "1475900": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "ばくは"
+        }
+      ],
+      "1597890": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "つくる"
+        }
+      ]
+    }
+  }
+]

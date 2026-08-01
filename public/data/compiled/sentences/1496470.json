@@ -1,0 +1,366 @@
+[
+  {
+    "id": "100440",
+    "original": "彼は埠頭に座っていた。",
+    "en": [
+      {
+        "id": "303258",
+        "text": "He was sitting on the quay."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 埠頭 に 座る[01]{座っていた}",
+    "vocabIds": [
+      "1291800",
+      "1496470",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1291800": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "すわっていた"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1496470": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ふとう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "123289",
+    "original": "突然船は埠頭を離れた。",
+    "en": [
+      {
+        "id": "280709",
+        "text": "All at once the ship left the pier."
+      }
+    ],
+    "indices": "突然 船(ふね)[01] は 埠頭 を[05] 離れる{離れた}",
+    "vocabIds": [
+      "1550840",
+      "1457040",
+      "1496470",
+      "1602800"
+    ],
+    "matches": {
+      "1457040": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とつぜん"
+        }
+      ],
+      "1496470": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ふとう"
+        }
+      ],
+      "1550840": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "はなれた"
+        }
+      ],
+      "1602800": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ふね"
+        }
+      ]
+    }
+  },
+  {
+    "id": "150562",
+    "original": "時間までに埠頭に着けないよ。近道しよう。",
+    "en": [
+      {
+        "id": "263995",
+        "text": "We won't be able to arrive at the harbor in time. Let's take a shortcut."
+      }
+    ],
+    "indices": "時間 迄{まで} に 埠頭 に 着く(つく){着けない} よ 近道{近道しよう}",
+    "vocabIds": [
+      "1495770",
+      "1315920",
+      "1496470",
+      "1597380"
+    ],
+    "matches": {
+      "1315920": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じかん"
+        }
+      ],
+      "1495770": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "つけない"
+        }
+      ],
+      "1496470": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ふとう"
+        }
+      ],
+      "1597380": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "ちかみち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "215932",
+    "original": "ジムは埠頭へ釣りに行った。",
+    "en": [
+      {
+        "id": "53232",
+        "text": "Jim went fishing from the pier."
+      }
+    ],
+    "indices": "は 埠頭~ へ 釣りに行く{釣りに行った}",
+    "vocabIds": [
+      "1578850",
+      "1496470",
+      "1434040"
+    ],
+    "matches": {
+      "1434040": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "つり"
+        }
+      ],
+      "1496470": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ふとう"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "いった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1502269",
+    "original": "彼女は彼を埠頭から突き落とした。",
+    "en": [
+      {
+        "id": "887346",
+        "text": "She pushed him off the pier."
+      }
+    ],
+    "vocabIds": [
+      "1456870",
+      "1483150",
+      "1496470",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1456870": [
+        {
+          "start": 9,
+          "length": 6,
+          "reading": "つきおとした"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1496470": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ふとう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10136241",
+    "original": "船は汽笛を鳴らして、埠頭を離れました。",
+    "en": [
+      {
+        "id": "10136203",
+        "text": "The ship sounded its whistle and pulled away from the wharf."
+      },
+      {
+        "id": "10136204",
+        "text": "The ship sounded its whistle and pulled away from the pier."
+      },
+      {
+        "id": "10136205",
+        "text": "The ship sounded its whistle and pulled away from the dock."
+      }
+    ],
+    "vocabIds": [
+      "1550840",
+      "1532880",
+      "1222740",
+      "1496470",
+      "1602800"
+    ],
+    "matches": {
+      "1222740": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きてき"
+        }
+      ],
+      "1496470": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "ふとう"
+        }
+      ],
+      "1532880": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "ならして"
+        }
+      ],
+      "1550840": [
+        {
+          "start": 13,
+          "length": 5,
+          "reading": "はなれました"
+        }
+      ],
+      "1602800": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ふね"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10175895",
+    "original": "埠頭の近くのホテルに泊まってるよ。",
+    "en": [
+      {
+        "id": "10175892",
+        "text": "I'm staying at a hotel near the pier."
+      }
+    ],
+    "vocabIds": [
+      "1474850",
+      "1496470",
+      "1242160"
+    ],
+    "matches": {
+      "1242160": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ちかく"
+        }
+      ],
+      "1474850": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "とまってる"
+        }
+      ],
+      "1496470": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ふとう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11252744",
+    "original": "埠頭には誰もいなかった。",
+    "en": [
+      {
+        "id": "10624082",
+        "text": "There was no one on the dock."
+      }
+    ],
+    "vocabIds": [
+      "1496470",
+      "1416860"
+    ],
+    "matches": {
+      "1416860": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "だれも"
+        }
+      ],
+      "1496470": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ふとう"
+        }
+      ]
+    }
+  }
+]

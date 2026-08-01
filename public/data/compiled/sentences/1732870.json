@@ -1,0 +1,71 @@
+[
+  {
+    "id": "203019",
+    "original": "チェスの盤面はこの世に似ている。",
+    "en": [
+      {
+        "id": "40254",
+        "text": "The chessboard is the world."
+      }
+    ],
+    "indices": "チェス の 盤面~ は この世 に 似る{似ている}",
+    "vocabIds": [
+      "1314600",
+      "2002260",
+      "1732870"
+    ],
+    "matches": {
+      "1314600": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "にている"
+        }
+      ],
+      "1732870": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ばんめん"
+        }
+      ],
+      "2002260": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "このよ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10125518",
+    "original": "オセロの盤面は真っ白になった。",
+    "en": [
+      {
+        "id": "10184327",
+        "text": "The Othello board turned entirely to white."
+      }
+    ],
+    "vocabIds": [
+      "1580620",
+      "1732870"
+    ],
+    "matches": {
+      "1580620": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "まっしろ"
+        }
+      ],
+      "1732870": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ばんめん"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "id": "80827",
+    "original": "娘は未熟児でした。",
+    "en": [
+      {
+        "id": "322888",
+        "text": "My daughter was premature."
+      }
+    ],
+    "indices": "娘(むすめ)[01] は 未熟児~ です{でした}",
+    "vocabIds": [
+      "1527570",
+      "1355930",
+      "1531190"
+    ],
+    "matches": {
+      "1355930": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "むすめ"
+        }
+      ],
+      "1527570": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "みじゅくじ"
+        }
+      ],
+      "1531190": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "むすめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "168499",
+    "original": "子供は未熟児でした。",
+    "en": [
+      {
+        "id": "245993",
+        "text": "I had a premature baby."
+      }
+    ],
+    "indices": "子供 は 未熟児 です{でした}",
+    "vocabIds": [
+      "1527570",
+      "1307850"
+    ],
+    "matches": {
+      "1307850": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こども"
+        }
+      ],
+      "1527570": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "みじゅくじ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2129446",
+    "original": "トムは未熟児で生まれた。",
+    "en": [
+      {
+        "id": "1867769",
+        "text": "Tom was born premature."
+      }
+    ],
+    "vocabIds": [
+      "1378690",
+      "1527570"
+    ],
+    "matches": {
+      "1378690": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "うまれた"
+        }
+      ],
+      "1527570": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "みじゅくじ"
+        }
+      ]
+    }
+  }
+]

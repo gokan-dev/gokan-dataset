@@ -1,0 +1,138 @@
+{
+  "id": "1000420",
+  "writtenForm": {
+    "kanji": "彼の",
+    "alternatives": [
+      "彼"
+    ],
+    "containedKanji": [
+      "彼"
+    ]
+  },
+  "reading": {
+    "primary": "あの",
+    "alternatives": [
+      "あん",
+      "かの"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 273790,
+    "kanaRank": 49
+  },
+  "jlptLevel": 1,
+  "progression": {
+    "kklcStep": 597
+  },
+  "senses": [
+    {
+      "pos": [
+        "adj-pn"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "that",
+        "those",
+        "the"
+      ],
+      "related": {
+        "compounds": [
+          "どの",
+          "この",
+          "その"
+        ]
+      }
+    },
+    {
+      "pos": [
+        "adj-pn"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "that well-known ...",
+        "the one and only ..."
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "かの"
+      ]
+    },
+    {
+      "pos": [
+        "adj-pn"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "form",
+          "uk"
+        ]
+      },
+      "glosses": [
+        "that",
+        "those",
+        "the"
+      ],
+      "related": {
+        "compounds": [
+          "あの"
+        ]
+      },
+      "appliesToReadings": [
+        "かの"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": true
+  },
+  "isCommon": false,
+  "mergedVocabs": [
+    {
+      "id": "1000420",
+      "isBase": true,
+      "originalPrimaryReading": "あの",
+      "originalGlosses": [
+        "that",
+        "those",
+        "the"
+      ]
+    },
+    {
+      "id": "2845746",
+      "isBase": false,
+      "originalPrimaryReading": "かの",
+      "originalGlosses": [
+        "that well-known ...",
+        "the one and only ..."
+      ]
+    }
+  ],
+  "components": [
+    "1483070"
+  ]
+}

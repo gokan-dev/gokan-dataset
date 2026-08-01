@@ -1,0 +1,120 @@
+{
+  "id": "1582400",
+  "writtenForm": {
+    "kanji": "読本",
+    "alternatives": [],
+    "containedKanji": [
+      "読",
+      "本"
+    ]
+  },
+  "reading": {
+    "primary": "とくほん",
+    "alternatives": [
+      "どくほん",
+      "よみほん"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 55329
+  },
+  "progression": {
+    "kklcStep": 355
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "reading-book",
+        "reader",
+        "guidebook",
+        "manual"
+      ],
+      "related": {
+        "compounds": [
+          "入門書"
+        ]
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "textbook (esp. a pre-war elementary school Japanese language textbook)"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "hist"
+        ]
+      },
+      "glosses": [
+        "yomihon (type of popular literature from the late Edo period)"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "よみほん"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": true
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1582400",
+      "isBase": true,
+      "originalPrimaryReading": "とくほん",
+      "originalGlosses": [
+        "reading-book",
+        "reader",
+        "guidebook"
+      ]
+    },
+    {
+      "id": "2589520",
+      "isBase": false,
+      "originalPrimaryReading": "よみほん",
+      "originalGlosses": [
+        "yomihon (type of popular literature from the late Edo period)"
+      ]
+    }
+  ],
+  "components": [
+    "1522150"
+  ]
+}

@@ -1,0 +1,158 @@
+[
+  {
+    "id": "83483",
+    "original": "米作は今年は凶作だ。",
+    "en": [
+      {
+        "id": "320233",
+        "text": "The rice crop is poor this year."
+      }
+    ],
+    "indices": "米作 は 今年 は 凶作 だ",
+    "vocabIds": [
+      "1508950",
+      "1579130",
+      "1235440"
+    ],
+    "matches": {
+      "1235440": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "きょうさく"
+        }
+      ],
+      "1508950": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "べいさく"
+        }
+      ],
+      "1579130": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ことし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "83484",
+    "original": "米作は今年豊作だ。",
+    "en": [
+      {
+        "id": "320232",
+        "text": "The rice crop is large this year."
+      }
+    ],
+    "indices": "米作~ は 今年 豊作~ だ",
+    "vocabIds": [
+      "1508950",
+      "1579130",
+      "1518150"
+    ],
+    "matches": {
+      "1508950": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "べいさく"
+        }
+      ],
+      "1518150": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ほうさく"
+        }
+      ],
+      "1579130": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ことし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "171296",
+    "original": "今年は米作は不作だった。",
+    "en": [
+      {
+        "id": "243178",
+        "text": "The rice crop was scanty this year."
+      }
+    ],
+    "indices": "今年 は 米作 は 不作 だ{だった}",
+    "vocabIds": [
+      "1579130",
+      "1508950",
+      "1492500"
+    ],
+    "matches": {
+      "1492500": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ふさく"
+        }
+      ],
+      "1508950": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "べいさく"
+        }
+      ],
+      "1579130": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ことし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "203914",
+    "original": "タイではすでに乾燥しすぎて米作ができなくなった地方もある。",
+    "en": [
+      {
+        "id": "41156",
+        "text": "In Thailand it has already become too dry to grow rice in some parts of the country."
+      }
+    ],
+    "indices": "泰{タイ} で(#2028980) は 既に(すでに)[01]{すでに} 乾燥[01] 為る(する){し} 過ぎる(すぎる){すぎて} 米作 が 出来る{できなく} 成る[01]{なった} 地方 も 有る{ある}",
+    "vocabIds": [
+      "1209920",
+      "1508950",
+      "1421450"
+    ],
+    "matches": {
+      "1209920": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "かんそう"
+        }
+      ],
+      "1421450": [
+        {
+          "start": 23,
+          "length": 2,
+          "reading": "ちほう"
+        }
+      ],
+      "1508950": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "べいさく"
+        }
+      ]
+    }
+  }
+]

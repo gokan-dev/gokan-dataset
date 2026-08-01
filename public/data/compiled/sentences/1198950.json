@@ -1,0 +1,107 @@
+[
+  {
+    "id": "191344",
+    "original": "鮎漁が解禁になった。",
+    "en": [
+      {
+        "id": "28506",
+        "text": "The ayu season has opened."
+      }
+    ],
+    "indices": "鮎漁~ が 解禁~ になる[01]{になった}",
+    "vocabIds": [
+      "2543140",
+      "1198950"
+    ],
+    "matches": {
+      "1198950": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かいきん"
+        }
+      ],
+      "2543140": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あゆりょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "211495",
+    "original": "その記事は昨日記事解禁となった。",
+    "en": [
+      {
+        "id": "48772",
+        "text": "The press ban on the case was removed yesterday."
+      }
+    ],
+    "indices": "其の[01]{その} 記事 は 昨日 記事 解禁 となる{となった}",
+    "vocabIds": [
+      "1223240",
+      "1579260",
+      "1198950"
+    ],
+    "matches": {
+      "1198950": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "かいきん"
+        }
+      ],
+      "1223240": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きじ"
+        },
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1579260": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "きのう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9077909",
+    "original": "アユ釣りが解禁されました。",
+    "en": [
+      {
+        "id": "28506",
+        "text": "The ayu season has opened."
+      }
+    ],
+    "vocabIds": [
+      "1434040",
+      "1198950"
+    ],
+    "matches": {
+      "1198950": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "かいきん"
+        }
+      ],
+      "1434040": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "づり"
+        }
+      ]
+    }
+  }
+]

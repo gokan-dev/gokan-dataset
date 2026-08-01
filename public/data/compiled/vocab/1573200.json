@@ -1,0 +1,181 @@
+{
+  "id": "1573200",
+  "writtenForm": {
+    "kanji": "贔屓",
+    "alternatives": [
+      "贔負"
+    ],
+    "containedKanji": [
+      "贔",
+      "屓"
+    ]
+  },
+  "reading": {
+    "primary": "ひいき",
+    "alternatives": [
+      "ひき",
+      "びし",
+      "びいき"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 16324,
+    "kanaRank": 22381
+  },
+  "progression": {
+    "kklcStep": 99999
+  },
+  "senses": [
+    {
+      "pos": [
+        "n",
+        "vs",
+        "vt"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "favour",
+        "favor",
+        "patronage",
+        "favouritism",
+        "favoritism",
+        "partiality"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "adj-no"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "favourite",
+        "favorite"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "patron",
+        "supporter",
+        "backer"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "bixi",
+        "dragon with the shell of a turtle (Chinese mythology)"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "ひき"
+      ]
+    },
+    {
+      "pos": [
+        "n-suf"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "liking something",
+        "being partial to something",
+        "-phile"
+      ],
+      "related": {
+        "compounds": [
+          "贔屓"
+        ]
+      },
+      "appliesToReadings": [
+        "びいき"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1573200",
+      "isBase": true,
+      "originalPrimaryReading": "ひいき",
+      "originalGlosses": [
+        "favour",
+        "favor",
+        "patronage"
+      ]
+    },
+    {
+      "id": "2839925",
+      "isBase": false,
+      "originalPrimaryReading": "ひき",
+      "originalGlosses": [
+        "bixi",
+        "dragon with the shell of a turtle (Chinese mythology)"
+      ]
+    },
+    {
+      "id": "2543850",
+      "isBase": false,
+      "originalPrimaryReading": "びいき",
+      "originalGlosses": [
+        "liking something",
+        "being partial to something",
+        "-phile"
+      ]
+    }
+  ]
+}

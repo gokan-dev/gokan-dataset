@@ -1,0 +1,41 @@
+[
+  {
+    "id": "219089",
+    "original": "ゴミ収集は週に３回やっています。",
+    "en": [
+      {
+        "id": "56405",
+        "text": "The garbage collector comes three times a week."
+      }
+    ],
+    "indices": "塵(ごみ){ゴミ} 収集 は 週 に 三回{３回} 遣る{やっています}",
+    "vocabIds": [
+      "2836366",
+      "1299940",
+      "1333450"
+    ],
+    "matches": {
+      "1299940": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "さんかい"
+        }
+      ],
+      "1333450": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "しゅう"
+        }
+      ],
+      "2836366": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "ごみしゅうしゅう"
+        }
+      ]
+    }
+  }
+]

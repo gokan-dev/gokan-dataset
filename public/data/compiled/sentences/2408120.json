@@ -1,0 +1,158 @@
+[
+  {
+    "id": "77479",
+    "original": "列車は石油で走らせるのですか。",
+    "en": [
+      {
+        "id": "326240",
+        "text": "Do the trains run on diesel oil?"
+      }
+    ],
+    "indices": "列車 は 石油 で(#2028980) 走らせる{走らせる} のです か",
+    "vocabIds": [
+      "2408120",
+      "1558370",
+      "1382830"
+    ],
+    "matches": {
+      "1382830": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "せきゆ"
+        }
+      ],
+      "1558370": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "れっしゃ"
+        }
+      ],
+      "2408120": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "はしらせる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "125664",
+    "original": "通りが凍っていたので、車を走らせることが出来なかった。",
+    "en": [
+      {
+        "id": "278328",
+        "text": "Because of the icy streets, we could not drive the car."
+      }
+    ],
+    "indices": "通り(とおり) が 凍る{凍っていた} ので 車(くるま) を 走らせる{走らせる} 事が出来る{ことが出来なかった}",
+    "vocabIds": [
+      "1593100",
+      "1340450",
+      "2408120",
+      "1432920",
+      "1323080"
+    ],
+    "matches": {
+      "1323080": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1340450": [
+        {
+          "start": 20,
+          "length": 6,
+          "reading": "できなかった"
+        }
+      ],
+      "1432920": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とおり"
+        }
+      ],
+      "1593100": [
+        {
+          "start": 3,
+          "length": 7,
+          "reading": "こおっていたので"
+        }
+      ],
+      "2408120": [
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "はしらせる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11007652",
+    "original": "おしゃれとは縁がなく、ジーパンにティーシャツ、ジャンパーといった格好で、駅まで自転車を走らせる。",
+    "en": [
+      {
+        "id": "11740030",
+        "text": "Unfashionable as it is, he rides his bike to the station dressed in jeans, a tee shirt, and a jacket."
+      }
+    ],
+    "vocabIds": [
+      "2408120",
+      "1318290",
+      "1590480",
+      "1177490",
+      "1541760",
+      "1175140"
+    ],
+    "matches": {
+      "1175140": [
+        {
+          "start": 36,
+          "length": 1,
+          "reading": "えき"
+        }
+      ],
+      "1177490": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "えん"
+        }
+      ],
+      "1318290": [
+        {
+          "start": 39,
+          "length": 3,
+          "reading": "じてんしゃ"
+        }
+      ],
+      "1541760": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "えん"
+        }
+      ],
+      "1590480": [
+        {
+          "start": 32,
+          "length": 2,
+          "reading": "かっこう"
+        }
+      ],
+      "2408120": [
+        {
+          "start": 43,
+          "length": 4,
+          "reading": "はしらせる"
+        }
+      ]
+    }
+  }
+]

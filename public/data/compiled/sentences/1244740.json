@@ -1,0 +1,33 @@
+[
+  {
+    "id": "175307",
+    "original": "犬はぐるぐる駆け回った。",
+    "en": [
+      {
+        "id": "239160",
+        "text": "The dog ran around and around."
+      }
+    ],
+    "indices": "犬[01] は ぐるぐる~ 駆け回る{駆け回った}",
+    "vocabIds": [
+      "1244740",
+      "1258330"
+    ],
+    "matches": {
+      "1244740": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "かけまわった"
+        }
+      ],
+      "1258330": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "いぬ"
+        }
+      ]
+    }
+  }
+]

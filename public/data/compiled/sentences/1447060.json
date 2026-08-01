@@ -1,0 +1,236 @@
+[
+  {
+    "id": "107512",
+    "original": "彼は湖に石を投げ入れた。",
+    "en": [
+      {
+        "id": "453336",
+        "text": "He threw a stone into the lake."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 湖(みずうみ) に 石(いし)[01] を 投げ入れる{投げ入れた}~",
+    "vocabIds": [
+      "1447060",
+      "1000420",
+      "1483070",
+      "1267280",
+      "1382440"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1267280": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "みずうみ"
+        }
+      ],
+      "1382440": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "いし"
+        }
+      ],
+      "1447060": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "なげいれた"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "125555",
+    "original": "釣り師は釣り糸を水中へ投げ入れた。",
+    "en": [
+      {
+        "id": "278437",
+        "text": "The fisherman cast the fishing line into the water."
+      }
+    ],
+    "indices": "釣り師~ は 釣り糸 を 水中 へ 投げ入れる{投げ入れた}",
+    "vocabIds": [
+      "1447060",
+      "1895150",
+      "1598120",
+      "1371840"
+    ],
+    "matches": {
+      "1371840": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "すいちゅう"
+        }
+      ],
+      "1447060": [
+        {
+          "start": 11,
+          "length": 5,
+          "reading": "なげいれた"
+        }
+      ],
+      "1598120": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "つりいと"
+        }
+      ],
+      "1895150": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "つりし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "154979",
+    "original": "私は釣り糸を海に投げ入れた。",
+    "en": [
+      {
+        "id": "259560",
+        "text": "I cast my fishing line into the sea."
+      }
+    ],
+    "indices": "私(わたし)[01] は 釣り糸 を 海 に 投げ入れる{投げ入れた}",
+    "vocabIds": [
+      "1447060",
+      "1598120",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1201190"
+    ],
+    "matches": {
+      "1201190": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "うみ"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1447060": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "なげいれた"
+        }
+      ],
+      "1598120": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "つりいと"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "185117",
+    "original": "海に網を投げ入れた。",
+    "en": [
+      {
+        "id": "22248",
+        "text": "I cast my net into the sea."
+      }
+    ],
+    "indices": "海 に 網(あみ) を 投げ入れる{投げ入れた}",
+    "vocabIds": [
+      "1447060",
+      "1201190",
+      "1534380"
+    ],
+    "matches": {
+      "1201190": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "うみ"
+        }
+      ],
+      "1447060": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "なげいれた"
+        }
+      ],
+      "1534380": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "あみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11332865",
+    "original": "トムはコインを泉に投げ入れた。",
+    "en": [
+      {
+        "id": "7027842",
+        "text": "Tom tossed a coin into the fountain."
+      }
+    ],
+    "vocabIds": [
+      "1447060",
+      "1390780"
+    ],
+    "matches": {
+      "1390780": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "いずみ"
+        }
+      ],
+      "1447060": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "なげいれた"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "id": "125705",
+    "original": "椎茸を乾燥させて保存します。",
+    "en": [
+      {
+        "id": "278287",
+        "text": "We keep shiitake mushrooms dry."
+      }
+    ],
+    "indices": "椎茸~ を 乾燥[01]~ 為せる{させて} 保存 為る(する){します}",
+    "vocabIds": [
+      "1432250",
+      "1209920",
+      "1513940"
+    ],
+    "matches": {
+      "1209920": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かんそう"
+        }
+      ],
+      "1432250": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しいたけ"
+        }
+      ],
+      "1513940": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "ほぞん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "236228",
+    "original": "「椎茸」はキノコの一種だ。",
+    "en": [
+      {
+        "id": "73604",
+        "text": "\"Shiitake\" is a sort of mushroom."
+      },
+      {
+        "id": "1341419",
+        "text": "A \"shiitake\" is a kind of mushroom."
+      },
+      {
+        "id": "1341420",
+        "text": "A \"shiitake\" is a type of mushroom."
+      }
+    ],
+    "indices": "椎茸 は 茸{キノコ} の 一種[01] だ",
+    "vocabIds": [
+      "1432250",
+      "1163170"
+    ],
+    "matches": {
+      "1163170": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "いっしゅ"
+        }
+      ],
+      "1432250": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "しいたけ"
+        }
+      ]
+    }
+  }
+]

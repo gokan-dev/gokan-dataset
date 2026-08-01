@@ -1,0 +1,202 @@
+[
+  {
+    "id": "142488",
+    "original": "税関を通り抜けると、私は好きなところへどこへでも自由に行くことができた。",
+    "en": [
+      {
+        "id": "272082",
+        "text": "After getting through customs, I was free to go wherever I wanted."
+      }
+    ],
+    "indices": "税関 を 通り抜ける と 私(わたし)[01] は 好き(すき){好きな} 所(ところ){ところ} へ 何処{どこ} へ でも 自由に 行く 事が出来る{ことができた}",
+    "vocabIds": [
+      "1433010",
+      "1318740",
+      "1382090",
+      "1277450",
+      "1578850",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1277450": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "すき"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1318740": [
+        {
+          "start": 24,
+          "length": 3,
+          "reading": "じゆうに"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1382090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ぜいかん"
+        }
+      ],
+      "1433010": [
+        {
+          "start": 3,
+          "length": 6,
+          "reading": "とおりぬけると"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 27,
+          "length": 2,
+          "reading": "いく"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "142489",
+    "original": "税関はどこですか。",
+    "en": [
+      {
+        "id": "272081",
+        "text": "Where is the Customs Service?"
+      },
+      {
+        "id": "446119",
+        "text": "Where is Customs?"
+      }
+    ],
+    "indices": "税関 は 何処{どこ} ですか",
+    "vocabIds": [
+      "1382090"
+    ],
+    "matches": {
+      "1382090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ぜいかん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "142490",
+    "original": "税関の役人は箱を検査した。",
+    "en": [
+      {
+        "id": "272080",
+        "text": "The customs officials examined the boxes."
+      }
+    ],
+    "indices": "税関 の 役人 は 箱[01] を 検査 為る(する){した}",
+    "vocabIds": [
+      "1382090",
+      "1538050",
+      "1257890",
+      "1585650"
+    ],
+    "matches": {
+      "1257890": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "けんさ"
+        }
+      ],
+      "1382090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ぜいかん"
+        }
+      ],
+      "1538050": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "やくにん"
+        }
+      ],
+      "1585650": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "はこ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "142491",
+    "original": "税関では長い列が出来ているだろう。",
+    "en": [
+      {
+        "id": "272079",
+        "text": "There will be long lines at the Customs."
+      }
+    ],
+    "indices": "税関~ で(#2028980) は 長い 列 が[01] 出来る{出来ている} だろう",
+    "vocabIds": [
+      "1340450",
+      "1382090",
+      "1429750",
+      "1558330"
+    ],
+    "matches": {
+      "1340450": [
+        {
+          "start": 8,
+          "length": 8,
+          "reading": "できているだろう"
+        }
+      ],
+      "1382090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ぜいかん"
+        }
+      ],
+      "1429750": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ながい"
+        }
+      ],
+      "1558330": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "れつ"
+        }
+      ]
+    }
+  }
+]

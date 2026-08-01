@@ -1,0 +1,80 @@
+[
+  {
+    "id": "78974",
+    "original": "予約は全て前売りである。",
+    "en": [
+      {
+        "id": "324742",
+        "text": "All the seats are sold in advance."
+      }
+    ],
+    "indices": "予約[01] は 全て 前売り~ である",
+    "vocabIds": [
+      "1603780",
+      "1543750",
+      "1595730"
+    ],
+    "matches": {
+      "1543750": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "よやく"
+        }
+      ],
+      "1595730": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "すべて"
+        }
+      ],
+      "1603780": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "まえうり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "138320",
+    "original": "多くの切符は前売りされている。",
+    "en": [
+      {
+        "id": "274915",
+        "text": "A number of tickets are sold in advance."
+      }
+    ],
+    "indices": "多く の 切符 は 前売り 為れる{されている}",
+    "vocabIds": [
+      "1603780",
+      "1861770",
+      "1385170"
+    ],
+    "matches": {
+      "1385170": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "きっぷ"
+        }
+      ],
+      "1603780": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "まえうり"
+        }
+      ],
+      "1861770": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おおく"
+        }
+      ]
+    }
+  }
+]

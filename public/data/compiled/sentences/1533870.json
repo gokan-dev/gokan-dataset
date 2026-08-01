@@ -1,0 +1,80 @@
+[
+  {
+    "id": "165399",
+    "original": "私たちは冬に毛織物を着る。",
+    "en": [
+      {
+        "id": "249106",
+        "text": "We wear wool in winter."
+      }
+    ],
+    "indices": "私たち は 冬 に 毛織物 を 着る[01]",
+    "vocabIds": [
+      "1311300",
+      "1533870",
+      "1423000",
+      "1446070"
+    ],
+    "matches": {
+      "1311300": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1423000": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "きる"
+        }
+      ],
+      "1446070": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "ふゆ"
+        }
+      ],
+      "1533870": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "けおりもの"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214696",
+    "original": "スコットランドは毛織物で有名だ。",
+    "en": [
+      {
+        "id": "51990",
+        "text": "Scotland is famous for its woollen textiles."
+      }
+    ],
+    "indices": "蘇格蘭{スコットランド} は 毛織物~ で(#2028980) 有名[01] だ",
+    "vocabIds": [
+      "1533870",
+      "1541620"
+    ],
+    "matches": {
+      "1533870": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "けおりもの"
+        }
+      ],
+      "1541620": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "ゆうめい"
+        }
+      ]
+    }
+  }
+]

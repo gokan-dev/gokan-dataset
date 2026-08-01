@@ -1,0 +1,95 @@
+[
+  {
+    "id": "126324",
+    "original": "注文書の発行から３０日以内に製品を納品します。",
+    "en": [
+      {
+        "id": "277668",
+        "text": "We will deliver the products within 30 days after the date of Purchase Order."
+      }
+    ],
+    "indices": "注文書 の 発行[02] から 日(ひ)[01] 以内 に 製品 を 納品~ 為る(する){します}",
+    "vocabIds": [
+      "1942610",
+      "1300670",
+      "1477390",
+      "1155180",
+      "1380760",
+      "1470100"
+    ],
+    "matches": {
+      "1155180": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "いない"
+        }
+      ],
+      "1300670": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "さんぜろにち"
+        }
+      ],
+      "1380760": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "せいひん"
+        }
+      ],
+      "1470100": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "のうひん"
+        }
+      ],
+      "1477390": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "はっこう"
+        }
+      ],
+      "1942610": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ちゅうぶんしょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11790317",
+    "original": "納品は、5営業日かかります。",
+    "en": [
+      {
+        "id": "11790327",
+        "text": "Delivery will take 5 business days."
+      }
+    ],
+    "vocabIds": [
+      "1981160",
+      "1470100"
+    ],
+    "matches": {
+      "1470100": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "のうひん"
+        }
+      ],
+      "1981160": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "えいぎょうび"
+        }
+      ]
+    }
+  }
+]

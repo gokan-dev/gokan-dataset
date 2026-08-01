@@ -1,0 +1,108 @@
+[
+  {
+    "id": "94675",
+    "original": "彼女のドレスは青い地に白の水玉模様がある。",
+    "en": [
+      {
+        "id": "309030",
+        "text": "Her dress has white spots on a blue background."
+      },
+      {
+        "id": "902963",
+        "text": "Her dress is blue with white polka dots."
+      }
+    ],
+    "indices": "彼女[01]{彼女の} ドレス は 青い[01] 地(じ)[04]~ に 白[01] の 水玉模様 が[01] 有る{ある}",
+    "vocabIds": [
+      "1371420",
+      "1483150",
+      "1381390",
+      "1420730",
+      "1445270",
+      "1474900"
+    ],
+    "matches": {
+      "1371420": [
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "みずたまもよう"
+        }
+      ],
+      "1381390": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "あおい"
+        }
+      ],
+      "1420730": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "ち"
+        }
+      ],
+      "1445270": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "ち"
+        }
+      ],
+      "1474900": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "しろ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "94699",
+    "original": "彼女のスカートは黄色で水玉模様がついている。",
+    "en": [
+      {
+        "id": "309007",
+        "text": "Her skirt is yellow with polka dots."
+      }
+    ],
+    "indices": "彼女[01]{彼女の} スカート は 黄色 で(#2028980) 水玉模様~ が 付く(つく){ついている}",
+    "vocabIds": [
+      "1371420",
+      "1483150",
+      "1576760"
+    ],
+    "matches": {
+      "1371420": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "みずたまもよう"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1576760": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "きいろ"
+        }
+      ]
+    }
+  }
+]

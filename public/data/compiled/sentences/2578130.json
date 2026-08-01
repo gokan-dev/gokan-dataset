@@ -1,0 +1,93 @@
+[
+  {
+    "id": "150164",
+    "original": "耳が痛いのです。",
+    "en": [
+      {
+        "id": "264393",
+        "text": "I have an earache."
+      }
+    ],
+    "indices": "耳[01] が 痛い[01] のです",
+    "vocabIds": [
+      "2578130"
+    ],
+    "matches": {
+      "2578130": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "みみがいたい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "500774",
+    "original": "父からの注意は耳が痛い。",
+    "en": [
+      {
+        "id": "502664",
+        "text": "My father's admonishment was hard to bear."
+      }
+    ],
+    "vocabIds": [
+      "2578130",
+      "1426530",
+      "1497610"
+    ],
+    "matches": {
+      "1426530": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ちゅうい"
+        }
+      ],
+      "1497610": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ちち"
+        }
+      ],
+      "2578130": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "みみがいたい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1179492",
+    "original": "それを言われると耳が痛いなあ。",
+    "en": [
+      {
+        "id": "2673550",
+        "text": "That's painfully true."
+      }
+    ],
+    "vocabIds": [
+      "2578130",
+      "1587040"
+    ],
+    "matches": {
+      "1587040": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "いわ"
+        }
+      ],
+      "2578130": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "みみがいたい"
+        }
+      ]
+    }
+  }
+]

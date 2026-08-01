@@ -1,0 +1,110 @@
+[
+  {
+    "id": "198097",
+    "original": "パスポートがなければ、出国など論外だ。",
+    "en": [
+      {
+        "id": "35286",
+        "text": "Without a passport, leaving a country is out of the question."
+      }
+    ],
+    "indices": "パスポート が 無ければ[01]{なければ} 出国 等(など){など} 論外 だ",
+    "vocabIds": [
+      "1580020",
+      "1561650"
+    ],
+    "matches": {
+      "1561650": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "ろんがい"
+        }
+      ],
+      "1580020": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "しゅっこく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "234008",
+    "original": "あなたが出国するまでお預かりします。",
+    "en": [
+      {
+        "id": "71382",
+        "text": "We will keep it for you until you leave."
+      }
+    ],
+    "indices": "貴方(あなた)[01]{あなた} が 出国~ 為る(する){する} 迄{まで} 御(お){お} 預かる{預かりします}",
+    "vocabIds": [
+      "1544970",
+      "1580020"
+    ],
+    "matches": {
+      "1544970": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "あずかり"
+        }
+      ],
+      "1580020": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "しゅっこく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8577514",
+    "original": "スミス先生は今朝方、日本を出国されました。",
+    "en": [
+      {
+        "id": "51524",
+        "text": "Mr Smith left Japan this morning."
+      }
+    ],
+    "vocabIds": [
+      "1289350",
+      "1387990",
+      "1582710",
+      "1580020"
+    ],
+    "matches": {
+      "1289350": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "いまあさがた"
+        }
+      ],
+      "1387990": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "せんせい"
+        }
+      ],
+      "1580020": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "しゅっこく"
+        }
+      ],
+      "1582710": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "にっぽん"
+        }
+      ]
+    }
+  }
+]

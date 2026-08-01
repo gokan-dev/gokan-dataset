@@ -1,0 +1,519 @@
+[
+  {
+    "id": "94124",
+    "original": "彼女の電話番号は電話帳でわかりますよ。",
+    "en": [
+      {
+        "id": "309581",
+        "text": "You can find her phone number in the directory."
+      }
+    ],
+    "indices": "彼女[01]{彼女の} 電話番号 は 電話帳 で(#2028980) 分かる{わかります} よ[01]",
+    "vocabIds": [
+      "1443940",
+      "1443920",
+      "1483150"
+    ],
+    "matches": {
+      "1443920": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "でんわちょう"
+        }
+      ],
+      "1443940": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "でんわばんごう"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "124627",
+    "original": "電話帳をみて。",
+    "en": [
+      {
+        "id": "279367",
+        "text": "Look in the phone book."
+      }
+    ],
+    "indices": "電話帳 を 見る{みて}",
+    "vocabIds": [
+      "1443920"
+    ],
+    "matches": {
+      "1443920": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "でんわちょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "124628",
+    "original": "電話帳をみせてもらえますか。",
+    "en": [
+      {
+        "id": "279366",
+        "text": "May I see the telephone directory?"
+      }
+    ],
+    "indices": "電話帳 を 見せる{みせて} 貰う[02]{もらえます} か",
+    "vocabIds": [
+      "1443920"
+    ],
+    "matches": {
+      "1443920": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "でんわちょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "124629",
+    "original": "電話帳はどこ？",
+    "en": [
+      {
+        "id": "378515",
+        "text": "Where is the telephone book?"
+      },
+      {
+        "id": "7706656",
+        "text": "Where's the telephone book?"
+      }
+    ],
+    "indices": "電話帳 は 何処{どこ}",
+    "vocabIds": [
+      "1443920"
+    ],
+    "matches": {
+      "1443920": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "でんわちょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "124630",
+    "original": "電話帳で彼の電話番号を調べた。",
+    "en": [
+      {
+        "id": "279364",
+        "text": "I looked up his phone number in the telephone book."
+      }
+    ],
+    "indices": "電話帳 で(#2028980) 彼(かれ)[01]{彼の} 電話番号 を 調べる{調べた}",
+    "vocabIds": [
+      "1443940",
+      "1443920",
+      "1429060",
+      "1000420"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "かれの"
+        }
+      ],
+      "1429060": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "しらべた"
+        }
+      ],
+      "1443920": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "でんわちょう"
+        }
+      ],
+      "1443940": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "でんわばんごう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "124631",
+    "original": "電話帳で番号をしらべよ。",
+    "en": [
+      {
+        "id": "279363",
+        "text": "Look up the number in the telephone book."
+      }
+    ],
+    "indices": "電話帳~ で(#2028980) 番号 を 調べる{しらべよ}",
+    "vocabIds": [
+      "1443920",
+      "1482290"
+    ],
+    "matches": {
+      "1443920": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "でんわちょう"
+        }
+      ],
+      "1482290": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ばんごう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "127090",
+    "original": "知らないよ。電話帳で調べてみたら？",
+    "en": [
+      {
+        "id": "277000",
+        "text": "No, I don't. You had better look it up in a telephone directory."
+      }
+    ],
+    "indices": "知る{知らない} よ 電話帳 で(#2028980) 調べる{調べて} 見る[05]{みたら}",
+    "vocabIds": [
+      "1429060",
+      "1420420",
+      "1443920"
+    ],
+    "matches": {
+      "1420420": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "しらない"
+        }
+      ],
+      "1429060": [
+        {
+          "start": 10,
+          "length": 6,
+          "reading": "しらべてみたら"
+        }
+      ],
+      "1443920": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "でんわちょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "154909",
+    "original": "私は電話帳で彼の電話番号を調べた。",
+    "en": [
+      {
+        "id": "259630",
+        "text": "I looked up his telephone number in a telephone directory."
+      }
+    ],
+    "indices": "私(わたし)[01] は 電話帳 で(#2028980) 彼(かれ)[01]{彼の} 電話番号 を 調べる{調べた}",
+    "vocabIds": [
+      "1443940",
+      "1443920",
+      "1429060",
+      "1000420",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "かれの"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1429060": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "しらべた"
+        }
+      ],
+      "1443920": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "でんわちょう"
+        }
+      ],
+      "1443940": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "でんわばんごう"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "204544",
+    "original": "電話帳で調べたらどうですか。",
+    "en": [
+      {
+        "id": "41785",
+        "text": "Why don't you look it up in the phone book?"
+      }
+    ],
+    "indices": "電話帳 で(#2028980) 調べる{調べたら} 如何(どう){どう} ですか",
+    "vocabIds": [
+      "1429060",
+      "1443920"
+    ],
+    "matches": {
+      "1429060": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "しらべたら"
+        }
+      ],
+      "1443920": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "でんわちょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "220373",
+    "original": "この電話帳を使ってください。",
+    "en": [
+      {
+        "id": "57694",
+        "text": "There's a telephone book for you to see."
+      }
+    ],
+    "indices": "此の{この} 電話帳 を 使う{使って} 下さい{ください}",
+    "vocabIds": [
+      "1305990",
+      "1443920"
+    ],
+    "matches": {
+      "1305990": [
+        {
+          "start": 6,
+          "length": 7,
+          "reading": "つかってください"
+        }
+      ],
+      "1443920": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "でんわちょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "232704",
+    "original": "あなたはこの電話帳で彼の番号を探すことができる。",
+    "en": [
+      {
+        "id": "70073",
+        "text": "You can search for his number in this telephone book."
+      }
+    ],
+    "indices": "貴方(あなた)[01]{あなた} は 此の{この} 電話帳 で(#2028980) 彼(かれ)[01] の 番号 を 探す 事が出来る{ことができる}",
+    "vocabIds": [
+      "1443920",
+      "1000420",
+      "1482290",
+      "1593670"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "かれの"
+        }
+      ],
+      "1443920": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "でんわちょう"
+        }
+      ],
+      "1482290": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "ばんごう"
+        }
+      ],
+      "1593670": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "さがす"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1055825",
+    "original": "私は電話帳で彼の番号を調べた。",
+    "en": [
+      {
+        "id": "259630",
+        "text": "I looked up his telephone number in a telephone directory."
+      }
+    ],
+    "vocabIds": [
+      "1443920",
+      "1429060",
+      "1000420",
+      "1482290",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "かれの"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1429060": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "しらべた"
+        }
+      ],
+      "1443920": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "でんわちょう"
+        }
+      ],
+      "1482290": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "ばんごう"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8500938",
+    "original": "新しい電話帳が届きました。",
+    "en": [
+      {
+        "id": "1435831",
+        "text": "The new phone book has arrived!"
+      }
+    ],
+    "vocabIds": [
+      "1457200",
+      "1361490",
+      "1443920"
+    ],
+    "matches": {
+      "1361490": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あたらしい"
+        }
+      ],
+      "1443920": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "でんわちょう"
+        }
+      ],
+      "1457200": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "とどきました"
+        }
+      ]
+    }
+  }
+]

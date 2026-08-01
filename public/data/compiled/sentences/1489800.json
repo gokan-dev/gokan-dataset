@@ -1,0 +1,96 @@
+[
+  {
+    "id": "79780",
+    "original": "門を通って表通りに出た。",
+    "en": [
+      {
+        "id": "323937",
+        "text": "I went through the gate out onto the street."
+      }
+    ],
+    "indices": "門(もん)[01] を 通る{通って} 表通り に 出る{出た}",
+    "vocabIds": [
+      "1489800",
+      "1433030",
+      "1338240",
+      "1266970",
+      "1584800"
+    ],
+    "matches": {
+      "1266970": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "もん"
+        }
+      ],
+      "1338240": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "でた"
+        }
+      ],
+      "1433030": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "とおって"
+        }
+      ],
+      "1489800": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "おもてどおり"
+        }
+      ],
+      "1584800": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "もん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "203769",
+    "original": "たくさんの人達が表通りを通り過ぎた。",
+    "en": [
+      {
+        "id": "41009",
+        "text": "A lot of people went by on the main street."
+      }
+    ],
+    "indices": "沢山{たくさん} の 人達 が 表通り~ を 通り過ぎる{通り過ぎた}",
+    "vocabIds": [
+      "1432980",
+      "1489800",
+      "1368740"
+    ],
+    "matches": {
+      "1368740": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ひとたち"
+        }
+      ],
+      "1432980": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "とおりすぎた"
+        }
+      ],
+      "1489800": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "おもてどおり"
+        }
+      ]
+    }
+  }
+]

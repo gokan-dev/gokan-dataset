@@ -1,0 +1,632 @@
+[
+  {
+    "id": "78999",
+    "original": "予備の毛布をください。",
+    "en": [
+      {
+        "id": "324716",
+        "text": "I need an extra blanket."
+      },
+      {
+        "id": "1009275",
+        "text": "Please give me a spare blanket."
+      }
+    ],
+    "indices": "予備{予備の} 毛布 を 下さい[01]{ください}",
+    "vocabIds": [
+      "1543320",
+      "1533950"
+    ],
+    "matches": {
+      "1533950": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "もうふ"
+        }
+      ],
+      "1543320": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "よび"
+        }
+      ]
+    }
+  },
+  {
+    "id": "79001",
+    "original": "予備の枕をください。",
+    "en": [
+      {
+        "id": "324715",
+        "text": "I need an extra pillow."
+      },
+      {
+        "id": "10548015",
+        "text": "Please give me an extra pillow."
+      }
+    ],
+    "indices": "予備{予備の} 枕 を 下さい[01]{ください}",
+    "vocabIds": [
+      "1543320",
+      "1524860"
+    ],
+    "matches": {
+      "1524860": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "まくら"
+        }
+      ],
+      "1543320": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "よび"
+        }
+      ]
+    }
+  },
+  {
+    "id": "99197",
+    "original": "彼は予備の部品を次々と調べていった。",
+    "en": [
+      {
+        "id": "304502",
+        "text": "He examined the spare parts one after another."
+      },
+      {
+        "id": "1009278",
+        "text": "He examined the spare parts one by one."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 予備{予備の} 部品 を 次々{次々と} 調べる{調べて} 行く{いった}",
+    "vocabIds": [
+      "1429060",
+      "1543320",
+      "1499480",
+      "1597850",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1429060": [
+        {
+          "start": 11,
+          "length": 6,
+          "reading": "しらべていった"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1499480": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ぶひん"
+        }
+      ],
+      "1543320": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "よび"
+        }
+      ],
+      "1597850": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "つぎつぎ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "151773",
+    "original": "私達はその食料のうちの少しを予備に取っておくべきだ。",
+    "en": [
+      {
+        "id": "262782",
+        "text": "We should hold some food in reserve."
+      }
+    ],
+    "indices": "私たち{私達} は 其の[01]{その} 食料 の 内(うち){うちの} 少し を 予備 に 取る{取って} 置く[09]{おく} 可き{べき} だ",
+    "vocabIds": [
+      "1326980",
+      "1311300",
+      "1358670",
+      "1348870",
+      "1543320"
+    ],
+    "matches": {
+      "1311300": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "わたしたち"
+        }
+      ],
+      "1326980": [
+        {
+          "start": 17,
+          "length": 8,
+          "reading": "とっておくべきだ"
+        }
+      ],
+      "1348870": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "すこし"
+        }
+      ],
+      "1358670": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "しょくりょう"
+        }
+      ],
+      "1543320": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "よび"
+        }
+      ]
+    }
+  },
+  {
+    "id": "200849",
+    "original": "ところで、予備の電池はあるの？",
+    "en": [
+      {
+        "id": "38051",
+        "text": "By the way, do you have any spare batteries?"
+      }
+    ],
+    "indices": "所で[01]{ところで} 予備{予備の} 電池 は 有る{ある} の",
+    "vocabIds": [
+      "1543320",
+      "1443620"
+    ],
+    "matches": {
+      "1443620": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "でんち"
+        }
+      ],
+      "1543320": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "よび"
+        }
+      ]
+    }
+  },
+  {
+    "id": "200903",
+    "original": "どこの病院にも全て停電に備えて予備の発電機を備えている。",
+    "en": [
+      {
+        "id": "38107",
+        "text": "Every hospital has a back-up electric generator in case of blackout."
+      },
+      {
+        "id": "1009274",
+        "text": "All hospitals are equipped with a spare generator in case of a power outage."
+      }
+    ],
+    "indices": "何処{どこ} の 病院 にも 全て 停電 に 備える[01]{備えて} 予備{予備の} 発電機 を[01] 備える[01]{備えている}",
+    "vocabIds": [
+      "1244960",
+      "2763540",
+      "1477760",
+      "1490220",
+      "1595730",
+      "1435020",
+      "1543320"
+    ],
+    "matches": {
+      "1244960": [
+        {
+          "start": 22,
+          "length": 5,
+          "reading": "そなえている"
+        }
+      ],
+      "1435020": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "ていでん"
+        }
+      ],
+      "1477760": [
+        {
+          "start": 18,
+          "length": 3,
+          "reading": "はつでんき"
+        }
+      ],
+      "1490220": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "びょういん"
+        }
+      ],
+      "1543320": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "よび"
+        }
+      ],
+      "1595730": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "すべて"
+        }
+      ],
+      "2763540": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "にそなえて"
+        }
+      ]
+    }
+  },
+  {
+    "id": "221422",
+    "original": "この車の予備の部品を買うことができない。",
+    "en": [
+      {
+        "id": "58746",
+        "text": "I cannot buy spare parts for this car."
+      },
+      {
+        "id": "6873325",
+        "text": "I can't buy spare parts for this car."
+      }
+    ],
+    "indices": "此の{この} 車(くるま) の 予備{予備の} 部品~ を 買う[01] 事が出来る{ことができない}",
+    "vocabIds": [
+      "1543320",
+      "1499480",
+      "1473740",
+      "1323080"
+    ],
+    "matches": {
+      "1323080": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1473740": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "かう"
+        }
+      ],
+      "1499480": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ぶひん"
+        }
+      ],
+      "1543320": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "よび"
+        }
+      ]
+    }
+  },
+  {
+    "id": "226381",
+    "original": "ガソリンがなくなったので、予備タンクに頼った。",
+    "en": [
+      {
+        "id": "63725",
+        "text": "I fell back on the reserve tank when the gas ran out."
+      }
+    ],
+    "indices": "ガソリン が 無くなる{なくなった} ので 予備 タンク~ に 頼る{頼った}",
+    "vocabIds": [
+      "1597200",
+      "1543320"
+    ],
+    "matches": {
+      "1543320": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "よび"
+        }
+      ],
+      "1597200": [
+        {
+          "start": 19,
+          "length": 3,
+          "reading": "たよった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "235519",
+    "original": "２階に予備の部屋が二部屋ありますが、そのどちらもここ数年使用されていません。",
+    "en": [
+      {
+        "id": "72898",
+        "text": "We have two spare rooms upstairs, neither of which has been used for years."
+      }
+    ],
+    "indices": "二階{２階} に 予備[01]{予備の}~ 部屋[01] が 二 部屋[01] 有る{あります} が 其の[01]{その} 何方(どちら)[02]{どちら} も 此処[01]{ここ} 数年 使用 為れる{されていません}",
+    "vocabIds": [
+      "1461420",
+      "1543320",
+      "1499320",
+      "1373230",
+      "1306200",
+      "1461140"
+    ],
+    "matches": {
+      "1306200": [
+        {
+          "start": 28,
+          "length": 2,
+          "reading": "しよう"
+        }
+      ],
+      "1373230": [
+        {
+          "start": 26,
+          "length": 2,
+          "reading": "すうねん"
+        }
+      ],
+      "1461140": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "に"
+        }
+      ],
+      "1461420": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "にかい"
+        }
+      ],
+      "1499320": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "へや"
+        },
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "へや"
+        }
+      ],
+      "1543320": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "よび"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8849812",
+    "original": "トムは自分の車のトランクに、予備の靴を一足入れてある。",
+    "en": [
+      {
+        "id": "1024644",
+        "text": "Tom keeps an extra pair of shoes in the trunk of his car."
+      }
+    ],
+    "vocabIds": [
+      "1465610",
+      "1318610",
+      "1543320",
+      "1164400",
+      "1323080",
+      "1246700"
+    ],
+    "matches": {
+      "1164400": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "いっそく"
+        }
+      ],
+      "1246700": [
+        {
+          "start": 17,
+          "length": 1,
+          "reading": "くつ"
+        }
+      ],
+      "1318610": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "じぶん"
+        }
+      ],
+      "1323080": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1465610": [
+        {
+          "start": 21,
+          "length": 5,
+          "reading": "いれてある"
+        }
+      ],
+      "1543320": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "よび"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8959940",
+    "original": "予備はありますか？",
+    "en": [
+      {
+        "id": "3168280",
+        "text": "Do you have an extra one?"
+      }
+    ],
+    "vocabIds": [
+      "1543320"
+    ],
+    "matches": {
+      "1543320": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "よび"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10066288",
+    "original": "鉄インゴットの予備は持ってる？",
+    "en": [
+      {
+        "id": "10059221",
+        "text": "Do you have any spare iron ingots?"
+      }
+    ],
+    "vocabIds": [
+      "1315720",
+      "1543320",
+      "1437780",
+      "1592460"
+    ],
+    "matches": {
+      "1315720": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "もってる"
+        }
+      ],
+      "1437780": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "てつ"
+        }
+      ],
+      "1543320": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "よび"
+        }
+      ],
+      "1592460": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "てつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10979951",
+    "original": "予備のシューズでも買っておこうか。",
+    "en": [
+      {
+        "id": "11717732",
+        "text": "Should we buy some spare shoes as well?"
+      }
+    ],
+    "vocabIds": [
+      "1473740",
+      "1543320"
+    ],
+    "matches": {
+      "1473740": [
+        {
+          "start": 9,
+          "length": 6,
+          "reading": "かっておこう"
+        }
+      ],
+      "1543320": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "よび"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12143035",
+    "original": "予備のタイヤはありますか？",
+    "en": [
+      {
+        "id": "10116523",
+        "text": "Do you have a spare tire?"
+      }
+    ],
+    "vocabIds": [
+      "1543320"
+    ],
+    "matches": {
+      "1543320": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "よび"
+        }
+      ]
+    }
+  }
+]

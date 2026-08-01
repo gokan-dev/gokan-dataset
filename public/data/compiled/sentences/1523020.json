@@ -1,0 +1,112 @@
+[
+  {
+    "id": "81572",
+    "original": "本店は警察の手入れを受けた。",
+    "en": [
+      {
+        "id": "322143",
+        "text": "The main office was raided by the police."
+      }
+    ],
+    "indices": "本店~ は 警察 の 手入れ[02]~ を 受ける{受けた}",
+    "vocabIds": [
+      "1328250",
+      "1329590",
+      "1523020",
+      "1252390"
+    ],
+    "matches": {
+      "1252390": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "けいさつ"
+        }
+      ],
+      "1328250": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "ていれ"
+        }
+      ],
+      "1329590": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "うけた"
+        }
+      ],
+      "1523020": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ほんてん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "223589",
+    "original": "このタイプのセーターはただ今、全部品切れでございます。東京の本店から取り寄せましょう。",
+    "en": [
+      {
+        "id": "60924",
+        "text": "All sweaters of this type are out of stock now. We'll order them from the main store in Tokyo."
+      }
+    ],
+    "indices": "此の{この} タイプ の セーター は ただ今[02] 全部 品切れ で御座います{でございます} 東京 の 本店 から 取り寄せる{取り寄せましょう}",
+    "vocabIds": [
+      "1326620",
+      "1538960",
+      "1490640",
+      "1396130",
+      "1447690",
+      "1523020"
+    ],
+    "matches": {
+      "1326620": [
+        {
+          "start": 34,
+          "length": 8,
+          "reading": "とりよせましょう"
+        }
+      ],
+      "1396130": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "ぜんぶ"
+        }
+      ],
+      "1447690": [
+        {
+          "start": 27,
+          "length": 2,
+          "reading": "とうきょう"
+        }
+      ],
+      "1490640": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "しなぎれ"
+        }
+      ],
+      "1523020": [
+        {
+          "start": 30,
+          "length": 2,
+          "reading": "ほんてん"
+        }
+      ],
+      "1538960": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "ただいま"
+        }
+      ]
+    }
+  }
+]

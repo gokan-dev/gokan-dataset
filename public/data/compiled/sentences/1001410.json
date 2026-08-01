@@ -1,0 +1,125 @@
+[
+  {
+    "id": "76292",
+    "original": "火力とお鍋と貝の種類によるわ。",
+    "en": [
+      {
+        "id": "327428",
+        "text": "It depends on the strength of the flame, the pan used and the type of ingredients."
+      }
+    ],
+    "indices": "火力~ と 御(お){お} 鍋 と 貝(かい) 之(の)[01]{の} 種類 に依る{による} わ",
+    "vocabIds": [
+      "1194300",
+      "1001410",
+      "1328890",
+      "1203100"
+    ],
+    "matches": {
+      "1001410": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "おなべ"
+        }
+      ],
+      "1194300": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かりょく"
+        }
+      ],
+      "1203100": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "かい"
+        }
+      ],
+      "1328890": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "しゅるい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1175168",
+    "original": "どうしよう、お鍋を焦がしちゃった！",
+    "en": [
+      {
+        "id": "1556956",
+        "text": "What should I do? I burned the pot!"
+      }
+    ],
+    "vocabIds": [
+      "1350710",
+      "1001410"
+    ],
+    "matches": {
+      "1001410": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "おなべ"
+        }
+      ],
+      "1350710": [
+        {
+          "start": 9,
+          "length": 7,
+          "reading": "こがしちゃった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11508339",
+    "original": "リンゴは棚の上よ。お鍋の横。",
+    "en": [
+      {
+        "id": "8416168",
+        "text": "The apple is on the shelves, next to the pot."
+      }
+    ],
+    "vocabIds": [
+      "1001410",
+      "1416700",
+      "1352130",
+      "1180570"
+    ],
+    "matches": {
+      "1001410": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "おなべ"
+        }
+      ],
+      "1180570": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "よこ"
+        }
+      ],
+      "1352130": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "うえ"
+        }
+      ],
+      "1416700": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "たな"
+        }
+      ]
+    }
+  }
+]

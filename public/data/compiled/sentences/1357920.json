@@ -1,0 +1,140 @@
+[
+  {
+    "id": "145946",
+    "original": "色盲のために、色彩の区別ができない人もいる。",
+    "en": [
+      {
+        "id": "268616",
+        "text": "Some people are color blind; they cannot tell one color from another."
+      }
+    ],
+    "indices": "色盲{色盲の}~ 為に{ために} 色彩 の 区別 が[01] 出来る{できない} 人(ひと) も 居る(いる){いる}",
+    "vocabIds": [
+      "1357920",
+      "1357720",
+      "1244250",
+      "1580640"
+    ],
+    "matches": {
+      "1244250": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "くべつ"
+        }
+      ],
+      "1357720": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "しきさい"
+        }
+      ],
+      "1357920": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しきもう"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 17,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "145947",
+    "original": "色盲です。",
+    "en": [
+      {
+        "id": "268615",
+        "text": "I'm color-blind."
+      },
+      {
+        "id": "5150191",
+        "text": "I'm colour-blind."
+      }
+    ],
+    "indices": "色盲 です",
+    "vocabIds": [
+      "1357920"
+    ],
+    "matches": {
+      "1357920": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しきもう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1609118",
+    "original": "人が僕が色盲だと聞いたらいつも僕をからかうものだ。",
+    "en": [
+      {
+        "id": "1610754",
+        "text": "People always make fun of me when they find out I'm colorblind."
+      }
+    ],
+    "vocabIds": [
+      "1591110",
+      "1357920",
+      "1580640",
+      "1521400",
+      "2228300"
+    ],
+    "matches": {
+      "1357920": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "しきもう"
+        }
+      ],
+      "1521400": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ぼく"
+        },
+        {
+          "start": 15,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ],
+      "1591110": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "きいたら"
+        }
+      ],
+      "2228300": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ぼく"
+        },
+        {
+          "start": 15,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ]
+    }
+  }
+]

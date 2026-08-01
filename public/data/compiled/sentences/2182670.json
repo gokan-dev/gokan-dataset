@@ -1,0 +1,84 @@
+[
+  {
+    "id": "103497",
+    "original": "彼は水も滴るいい男だ。",
+    "en": [
+      {
+        "id": "300195",
+        "text": "He is tremendously handsome."
+      },
+      {
+        "id": "10596975",
+        "text": "He's tremendously handsome."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 水も滴る~ いい男[01]~ だ",
+    "vocabIds": [
+      "2182670",
+      "1914290",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1914290": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "いいおとこ"
+        }
+      ],
+      "2182670": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "みずもしたたる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "143725",
+    "original": "水も滴る美人。",
+    "en": [
+      {
+        "id": "270841",
+        "text": "She is a graceful beauty."
+      }
+    ],
+    "indices": "水も滴る 美人",
+    "vocabIds": [
+      "2182670",
+      "1486530"
+    ],
+    "matches": {
+      "1486530": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "びじん"
+        }
+      ],
+      "2182670": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "みずもしたたる"
+        }
+      ]
+    }
+  }
+]

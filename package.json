@@ -1,0 +1,21 @@
+{
+  "name": "gokan-dataset",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build:data": "rimraf ./public/data/compiled/vocab && rimraf ./public/data/compiled/sentences && bun run build:kanji && bun scripts/build-data.ts && bun run build:jlpt",
+    "build:kanji": "bun scripts/build-kanji.ts",
+    "build:jlpt": "bun scripts/build-jlpt-index.ts",
+    "build:jpdb": "node scripts/jpdb-v2.2-tsv-to-json.js",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@types/kuromoji": "^0.1.3",
+    "@types/node": "^24.10.1",
+    "kuromoji": "^0.1.2",
+    "rimraf": "^6.1.2",
+    "typescript": "~5.9.3",
+    "vitest": "^4.0.17"
+  }
+}

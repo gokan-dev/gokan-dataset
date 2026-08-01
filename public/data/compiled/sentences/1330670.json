@@ -1,0 +1,87 @@
+[
+  {
+    "id": "167090",
+    "original": "瞳は日のあたる所では収縮する。",
+    "en": [
+      {
+        "id": "247412",
+        "text": "The pupils of the eyes contract in sunlight."
+      }
+    ],
+    "indices": "瞳[01]~ は 日(ひ)[02] の 当たる{あたる} 所(ところ) で(#2028980) は 収縮~ 為る(する){する}",
+    "vocabIds": [
+      "1897510",
+      "1330670",
+      "1453900",
+      "1463770"
+    ],
+    "matches": {
+      "1330670": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "しゅうしゅく"
+        }
+      ],
+      "1453900": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ひとみ"
+        }
+      ],
+      "1463770": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ひ"
+        }
+      ],
+      "1897510": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "ところでは"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12403325",
+    "original": "瞳孔は陽が差すところでは収縮します。",
+    "en": [
+      {
+        "id": "247412",
+        "text": "The pupils of the eyes contract in sunlight."
+      }
+    ],
+    "vocabIds": [
+      "2273190",
+      "1453910",
+      "1330670"
+    ],
+    "matches": {
+      "1330670": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "しゅうしゅく"
+        }
+      ],
+      "1453910": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "どうこう"
+        }
+      ],
+      "2273190": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "ひがさす"
+        }
+      ]
+    }
+  }
+]

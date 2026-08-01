@@ -1,0 +1,588 @@
+[
+  {
+    "id": "127136",
+    "original": "値札を取りはずしていただけますか。",
+    "en": [
+      {
+        "id": "276953",
+        "text": "Could you take off the price tag for me?"
+      }
+    ],
+    "indices": "値札 を 取り外す{取りはずして} 頂ける[01]{いただけます} か",
+    "vocabIds": [
+      "1326590",
+      "1642810"
+    ],
+    "matches": {
+      "1326590": [
+        {
+          "start": 3,
+          "length": 6,
+          "reading": "とりはずして"
+        }
+      ],
+      "1642810": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ねふだ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "205808",
+    "original": "それぞれの品物に値札をつけなさい。",
+    "en": [
+      {
+        "id": "43054",
+        "text": "Put price labels on each individual item."
+      }
+    ],
+    "indices": "夫れ夫れ{それぞれ} の 品物 に 値札~ を 付ける{つけ} 為さい{なさい}",
+    "vocabIds": [
+      "1490670",
+      "1642810"
+    ],
+    "matches": {
+      "1490670": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "しなもの"
+        }
+      ],
+      "1642810": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "ねふだ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8652460",
+    "original": "値札が見えないな。",
+    "en": [
+      {
+        "id": "3147993",
+        "text": "I can't see the price tag."
+      }
+    ],
+    "vocabIds": [
+      "1259140",
+      "1642810"
+    ],
+    "matches": {
+      "1259140": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "みえない"
+        }
+      ],
+      "1642810": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ねふだ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8652477",
+    "original": "値札が見えた。",
+    "en": [
+      {
+        "id": "6267917",
+        "text": "I looked at the price tag."
+      }
+    ],
+    "vocabIds": [
+      "1259140",
+      "1642810"
+    ],
+    "matches": {
+      "1259140": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "みえた"
+        }
+      ],
+      "1642810": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ねふだ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8652478",
+    "original": "値札を見た。",
+    "en": [
+      {
+        "id": "6267917",
+        "text": "I looked at the price tag."
+      }
+    ],
+    "vocabIds": [
+      "1642810",
+      "1259290"
+    ],
+    "matches": {
+      "1259290": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "みた"
+        }
+      ],
+      "1642810": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ねふだ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8652501",
+    "original": "赤い値札の商品はセール中です。",
+    "en": [
+      {
+        "id": "3147964",
+        "text": "Items with a red price tag are on sale."
+      }
+    ],
+    "vocabIds": [
+      "1383240",
+      "1642810",
+      "1347310",
+      "1423310",
+      "2098290"
+    ],
+    "matches": {
+      "1347310": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "しょうひん"
+        }
+      ],
+      "1383240": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あかい"
+        }
+      ],
+      "1423310": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "ちゅう"
+        }
+      ],
+      "1642810": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ねふだ"
+        }
+      ],
+      "2098290": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "ちゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8652502",
+    "original": "赤い色の値札がついた商品は特売品です。",
+    "en": [
+      {
+        "id": "3147964",
+        "text": "Items with a red price tag are on sale."
+      }
+    ],
+    "vocabIds": [
+      "1788940",
+      "1383240",
+      "1642810",
+      "1347310",
+      "1357600"
+    ],
+    "matches": {
+      "1347310": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "しょうひん"
+        }
+      ],
+      "1357600": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "いろ"
+        }
+      ],
+      "1383240": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あかい"
+        }
+      ],
+      "1642810": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ねふだ"
+        }
+      ],
+      "1788940": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "とくばいひん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8652553",
+    "original": "トムはもう一度、値札を見た。",
+    "en": [
+      {
+        "id": "3147904",
+        "text": "Tom looked at the price tag once again."
+      }
+    ],
+    "vocabIds": [
+      "2005860",
+      "1642810",
+      "1259290"
+    ],
+    "matches": {
+      "1259290": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "みた"
+        }
+      ],
+      "1642810": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "ねふだ"
+        }
+      ],
+      "2005860": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "もういちど"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8652561",
+    "original": "トムは値札を見返した。",
+    "en": [
+      {
+        "id": "3147904",
+        "text": "Tom looked at the price tag once again."
+      }
+    ],
+    "vocabIds": [
+      "1260050",
+      "1642810"
+    ],
+    "matches": {
+      "1260050": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "みかえした"
+        }
+      ],
+      "1642810": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ねふだ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8652590",
+    "original": "値札を見て。",
+    "en": [
+      {
+        "id": "3147960",
+        "text": "Look at the price tag."
+      }
+    ],
+    "vocabIds": [
+      "1642810",
+      "1259290"
+    ],
+    "matches": {
+      "1259290": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "みて"
+        }
+      ],
+      "1642810": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ねふだ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8652592",
+    "original": "値札を見てください。",
+    "en": [
+      {
+        "id": "3147960",
+        "text": "Look at the price tag."
+      }
+    ],
+    "vocabIds": [
+      "1259290",
+      "1642810"
+    ],
+    "matches": {
+      "1259290": [
+        {
+          "start": 3,
+          "length": 6,
+          "reading": "みてください"
+        }
+      ],
+      "1642810": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ねふだ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8652613",
+    "original": "トムは値札を見て、お金が足りないことに気づいた。",
+    "en": [
+      {
+        "id": "2821012",
+        "text": "Tom looked at the price tag and realized he didn't have enough money."
+      }
+    ],
+    "vocabIds": [
+      "2143050",
+      "1591330",
+      "1642810",
+      "1259290",
+      "1001820"
+    ],
+    "matches": {
+      "1001820": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "おかね"
+        }
+      ],
+      "1259290": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "みて"
+        }
+      ],
+      "1591330": [
+        {
+          "start": 19,
+          "length": 4,
+          "reading": "きづいた"
+        }
+      ],
+      "1642810": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ねふだ"
+        }
+      ],
+      "2143050": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "たりない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8652639",
+    "original": "トムは値札をとるのを忘れた。",
+    "en": [
+      {
+        "id": "6570592",
+        "text": "Tom forgot to remove the price tag."
+      }
+    ],
+    "vocabIds": [
+      "1519210",
+      "1642810"
+    ],
+    "matches": {
+      "1519210": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "わすれた"
+        }
+      ],
+      "1642810": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ねふだ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8652641",
+    "original": "トムは値札を外すのを忘れていた。",
+    "en": [
+      {
+        "id": "6570592",
+        "text": "Tom forgot to remove the price tag."
+      }
+    ],
+    "vocabIds": [
+      "1519210",
+      "1642810",
+      "1203270"
+    ],
+    "matches": {
+      "1203270": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "はずす"
+        }
+      ],
+      "1519210": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "わすれていた"
+        }
+      ],
+      "1642810": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ねふだ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10329552",
+    "original": "製品には高額の値札が付いている。",
+    "en": [
+      {
+        "id": "45895",
+        "text": "The product carries a high price tag."
+      }
+    ],
+    "vocabIds": [
+      "1894260",
+      "1380760",
+      "1283320",
+      "1642810"
+    ],
+    "matches": {
+      "1283320": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "こうがく"
+        }
+      ],
+      "1380760": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "せいひん"
+        }
+      ],
+      "1642810": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ねふだ"
+        }
+      ],
+      "1894260": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "ついている"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12593258",
+    "original": "値札が見当たらない。",
+    "en": [
+      {
+        "id": "11865415",
+        "text": "I can't find the price tag."
+      }
+    ],
+    "vocabIds": [
+      "1909960",
+      "1642810"
+    ],
+    "matches": {
+      "1642810": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ねふだ"
+        }
+      ],
+      "1909960": [
+        {
+          "start": 3,
+          "length": 6,
+          "reading": "みあたらない"
+        }
+      ]
+    }
+  }
+]

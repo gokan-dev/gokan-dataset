@@ -1,0 +1,129 @@
+[
+  {
+    "id": "184104",
+    "original": "渇しても盗泉の水は飲まず。",
+    "en": [
+      {
+        "id": "21232",
+        "text": "The eagle does not catch flies."
+      }
+    ],
+    "indices": "渇しても盗泉の水を飲まず{渇しても盗泉の水は飲まず}~",
+    "vocabIds": [
+      "2006610",
+      "1169870",
+      "1922860",
+      "1390780",
+      "1371260"
+    ],
+    "matches": {
+      "1169870": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "のまず"
+        }
+      ],
+      "1371260": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "みず"
+        }
+      ],
+      "1390780": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "いずみ"
+        }
+      ],
+      "1922860": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "と"
+        }
+      ],
+      "2006610": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "かっして"
+        }
+      ]
+    }
+  },
+  {
+    "id": "459044",
+    "original": "渇した者に水を、飢えたる者には糧を与えよ。",
+    "en": [
+      {
+        "id": "459045",
+        "text": "Give water to the thirsty and food to the hungry."
+      },
+      {
+        "id": "1009286",
+        "text": "Provide water to the thirsty and food to the hungry."
+      }
+    ],
+    "indices": "渇する{渇した}~ 者(もの) に 水(みず) を 飢える{飢えたる} 者(もの) には 糧[01]~ を 与える{与えよ}",
+    "vocabIds": [
+      "1224080",
+      "2006610",
+      "1544730",
+      "1322990",
+      "1371260",
+      "2017850"
+    ],
+    "matches": {
+      "1224080": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "うえたる"
+        }
+      ],
+      "1322990": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "もの"
+        },
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "もの"
+        }
+      ],
+      "1371260": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "みず"
+        }
+      ],
+      "1544730": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "あたえよ"
+        }
+      ],
+      "2006610": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "かっした"
+        }
+      ],
+      "2017850": [
+        {
+          "start": 15,
+          "length": 1,
+          "reading": "かて"
+        }
+      ]
+    }
+  }
+]

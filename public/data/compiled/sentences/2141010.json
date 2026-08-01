@@ -1,0 +1,111 @@
+[
+  {
+    "id": "123123",
+    "original": "二人とも今は舞い上がっているけど、会うは別れの始め、ってこと知っているのかね。",
+    "en": [
+      {
+        "id": "280877",
+        "text": "Those two are blindly enraptured with each other right now but they say first meeting someone is the first step toward goodbye. I wonder if they're aware of that."
+      }
+    ],
+    "indices": "二人とも 今(いま) は 舞い上がる{舞い上がっている} けど 会う[01] は 別れ の 始める[01]{始め} って 事(こと){こと} 知る{知っている} の か ね(#2029080)[01]",
+    "vocabIds": [
+      "1499080",
+      "2141010",
+      "1420470",
+      "1462470",
+      "1288850"
+    ],
+    "matches": {
+      "1288850": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "いま"
+        }
+      ],
+      "1420470": [
+        {
+          "start": 30,
+          "length": 5,
+          "reading": "しっている"
+        }
+      ],
+      "1462470": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "ににんとも"
+        }
+      ],
+      "1499080": [
+        {
+          "start": 6,
+          "length": 10,
+          "reading": "まいあがっているけど"
+        }
+      ],
+      "2141010": [
+        {
+          "start": 17,
+          "length": 8,
+          "reading": "あうはわかれのはじめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "185457",
+    "original": "会うは別れの始め。",
+    "en": [
+      {
+        "id": "22589",
+        "text": "We never meet without parting."
+      },
+      {
+        "id": "355631",
+        "text": "To meet is to part."
+      },
+      {
+        "id": "2811829",
+        "text": "Meeting is the beginning of separation."
+      }
+    ],
+    "indices": "会う[01] は 別れ~ の 始め(はじめ)[01]~",
+    "vocabIds": [
+      "2141010"
+    ],
+    "matches": {
+      "2141010": [
+        {
+          "start": 0,
+          "length": 8,
+          "reading": "あうはわかれのはじめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "191513",
+    "original": "逢うは別れの始め。",
+    "en": [
+      {
+        "id": "28674",
+        "text": "We never meet without a parting."
+      }
+    ],
+    "indices": "会う[01]{逢う} は 別れ の 初め(はじめ){始め}",
+    "vocabIds": [
+      "2141010"
+    ],
+    "matches": {
+      "2141010": [
+        {
+          "start": 0,
+          "length": 8,
+          "reading": "あうはわかれのはじめ"
+        }
+      ]
+    }
+  }
+]

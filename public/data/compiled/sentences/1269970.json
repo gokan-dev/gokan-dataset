@@ -1,0 +1,88 @@
+[
+  {
+    "id": "175718",
+    "original": "彼女の後頭部の傷から血が流れている。",
+    "en": [
+      {
+        "id": "238747",
+        "text": "Blood is flowing from the wound at the back of her head."
+      }
+    ],
+    "indices": "彼女 之(の)[01]{の} 後頭部 の 傷(きず) から[01] 血 が 流れる[01]{流れている}",
+    "vocabIds": [
+      "1552140",
+      "1269970",
+      "1483150",
+      "1580260",
+      "1255060"
+    ],
+    "matches": {
+      "1255060": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "ち"
+        }
+      ],
+      "1269970": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "こうとうぶ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1552140": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "ながれている"
+        }
+      ],
+      "1580260": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "きず"
+        }
+      ]
+    }
+  },
+  {
+    "id": "216802",
+    "original": "サッカーをしていて後頭部にボールが当たりました。",
+    "en": [
+      {
+        "id": "54108",
+        "text": "A ball hit the back of my head while I was playing soccer."
+      }
+    ],
+    "indices": "サッカー(#1056700) を 為る(する){していて} 後頭部~ に ボール(#1123550)[01] が 当たる{当たりました}",
+    "vocabIds": [
+      "1448810",
+      "1269970"
+    ],
+    "matches": {
+      "1269970": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "こうとうぶ"
+        }
+      ],
+      "1448810": [
+        {
+          "start": 17,
+          "length": 6,
+          "reading": "あたりました"
+        }
+      ]
+    }
+  }
+]

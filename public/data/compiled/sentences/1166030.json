@@ -1,0 +1,182 @@
+[
+  {
+    "id": "185265",
+    "original": "会社は、お客様からの苦情が一番多い停電の問題に取り組みました。",
+    "en": [
+      {
+        "id": "22397",
+        "text": "The company went after its no. 1 customer complaint: power outages."
+      }
+    ],
+    "indices": "会社 は お客様 から の 苦情 が 一番(いちばん)[01] 多い 停電 の 問題 に 取り組む[02]{取り組みました}",
+    "vocabIds": [
+      "1326820",
+      "1166030",
+      "1001770",
+      "1198550",
+      "1244520",
+      "1435020",
+      "1536010"
+    ],
+    "matches": {
+      "1001770": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "おきゃくさま"
+        }
+      ],
+      "1166030": [
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "いちばんおおい"
+        }
+      ],
+      "1198550": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かいしゃ"
+        }
+      ],
+      "1244520": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "くじょう"
+        }
+      ],
+      "1326820": [
+        {
+          "start": 23,
+          "length": 7,
+          "reading": "とりくみました"
+        }
+      ],
+      "1435020": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "ていでん"
+        }
+      ],
+      "1536010": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "もんだい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "203393",
+    "original": "タバコを吸う人の数は、増えている。だから、ガンは間もなく、一番多い死因となるだろう。",
+    "en": [
+      {
+        "id": "40631",
+        "text": "The number of people who smoke is increasing, so cancer will soon be the most common cause of death."
+      }
+    ],
+    "indices": "煙草を吸う{タバコを吸う} 人(ひと) の 数(かず) は 増える{増えている} だから 癌{ガン} は 間もなく[01] 一番(いちばん)[01] 多い 死因 となる だろう",
+    "vocabIds": [
+      "1891810",
+      "1602440",
+      "1215290",
+      "1166030",
+      "1310740",
+      "1580640",
+      "1005580",
+      "1580820"
+    ],
+    "matches": {
+      "1005580": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "かず"
+        }
+      ],
+      "1166030": [
+        {
+          "start": 29,
+          "length": 4,
+          "reading": "いちばんおおい"
+        }
+      ],
+      "1215290": [
+        {
+          "start": 24,
+          "length": 4,
+          "reading": "まもなく"
+        }
+      ],
+      "1310740": [
+        {
+          "start": 33,
+          "length": 2,
+          "reading": "しいん"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ],
+      "1580820": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "かず"
+        }
+      ],
+      "1602440": [
+        {
+          "start": 11,
+          "length": 5,
+          "reading": "ふえている"
+        }
+      ],
+      "1891810": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "たばこをすう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1055248",
+    "original": "世界で一番多いファーストネームはモハメッドだ。",
+    "en": [
+      {
+        "id": "1055297",
+        "text": "The most common first name in the world is Mohammed."
+      }
+    ],
+    "vocabIds": [
+      "1166030",
+      "1373860"
+    ],
+    "matches": {
+      "1166030": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "いちばんおおい"
+        }
+      ],
+      "1373860": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "せかい"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "id": "75997",
+    "original": "食物繊維はダイエットに効果的だ。",
+    "en": [
+      {
+        "id": "327721",
+        "text": "Dietary fibre is good for losing weight."
+      }
+    ],
+    "indices": "食物繊維~ は ダイエット[01] に 効果 的(てき) だ",
+    "vocabIds": [
+      "1358630",
+      "1275150"
+    ],
+    "matches": {
+      "1275150": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "こうかてき"
+        }
+      ],
+      "1358630": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "しょくもつせんい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10017209",
+    "original": "イチジクには食物繊維が含まれています。",
+    "en": [
+      {
+        "id": "10017808",
+        "text": "Figs contain dietary fibre."
+      },
+      {
+        "id": "10059139",
+        "text": "Figs contain dietary fiber."
+      }
+    ],
+    "vocabIds": [
+      "1358630",
+      "1216880"
+    ],
+    "matches": {
+      "1216880": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "ふくま"
+        }
+      ],
+      "1358630": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "しょくもつせんい"
+        }
+      ]
+    }
+  }
+]

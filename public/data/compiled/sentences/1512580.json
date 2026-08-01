@@ -1,0 +1,141 @@
+[
+  {
+    "id": "81086",
+    "original": "慢性的な便秘で苦しんでいます。",
+    "en": [
+      {
+        "id": "322629",
+        "text": "I'm suffering from chronic constipation."
+      }
+    ],
+    "indices": "慢性的{慢性的な}~ 便秘 で(#2028980) 苦しむ{苦しんでいます}",
+    "vocabIds": [
+      "1244350",
+      "1526650",
+      "1512580"
+    ],
+    "matches": {
+      "1244350": [
+        {
+          "start": 7,
+          "length": 7,
+          "reading": "くるしんでいます"
+        }
+      ],
+      "1512580": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "べんぴ"
+        }
+      ],
+      "1526650": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "まんせいてき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "83331",
+    "original": "便秘をしています。",
+    "en": [
+      {
+        "id": "320385",
+        "text": "I am constipated."
+      }
+    ],
+    "indices": "便秘 を 為る(する){しています}",
+    "vocabIds": [
+      "1512580"
+    ],
+    "matches": {
+      "1512580": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "べんぴ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "235268",
+    "original": "３日間便秘しています。",
+    "en": [
+      {
+        "id": "2660302",
+        "text": "I have been constipated for three days."
+      }
+    ],
+    "indices": "三日間{３日間} 便秘~ 為る(する){しています}",
+    "vocabIds": [
+      "2827650",
+      "1512580",
+      "1579350"
+    ],
+    "matches": {
+      "1512580": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "べんぴ"
+        }
+      ],
+      "1579350": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "さん"
+        }
+      ],
+      "2827650": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "にちかん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12604473",
+    "original": "便秘の様に見えます。",
+    "en": [
+      {
+        "id": "12604464",
+        "text": "You look constipated."
+      }
+    ],
+    "vocabIds": [
+      "1259140",
+      "1010030",
+      "1512580"
+    ],
+    "matches": {
+      "1010030": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "のように"
+        }
+      ],
+      "1259140": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "みえます"
+        }
+      ],
+      "1512580": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "べんぴ"
+        }
+      ]
+    }
+  }
+]

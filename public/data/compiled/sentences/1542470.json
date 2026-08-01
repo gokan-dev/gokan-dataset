@@ -1,0 +1,84 @@
+[
+  {
+    "id": "79156",
+    "original": "郵便配達は２日おきにやって来ます。",
+    "en": [
+      {
+        "id": "324561",
+        "text": "The mailman comes around every three days."
+      },
+      {
+        "id": "5370371",
+        "text": "The letter carrier comes every three days."
+      }
+    ],
+    "indices": "郵便配達 は 日(ひ)[01] 置きに{おきに} やって来る{やって来ます}",
+    "vocabIds": [
+      "1012790",
+      "1542470",
+      "1462900"
+    ],
+    "matches": {
+      "1012790": [
+        {
+          "start": 10,
+          "length": 6,
+          "reading": "やってきます"
+        }
+      ],
+      "1462900": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ににち"
+        }
+      ],
+      "1542470": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "ゆうびんはいたつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "79157",
+    "original": "郵便配達の人があの犬にかみつかれた。",
+    "en": [
+      {
+        "id": "324560",
+        "text": "The postman was bitten by that dog."
+      }
+    ],
+    "indices": "郵便配達~ の 人(ひと) が 彼の(あの){あの} 犬[01] に 噛み付く{かみつかれた}",
+    "vocabIds": [
+      "1542470",
+      "1580640",
+      "1258330"
+    ],
+    "matches": {
+      "1258330": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "いぬ"
+        }
+      ],
+      "1542470": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "ゆうびんはいたつ"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "id": "87089",
+    "original": "彼女は美しい古風な家具をいくつか持っている。",
+    "en": [
+      {
+        "id": "316619",
+        "text": "She has some beautiful antique furniture."
+      }
+    ],
+    "indices": "彼女[01] は 美しい 古風{古風な} 家具 を 幾つか{いくつか} 持つ{持っている}",
+    "vocabIds": [
+      "1315720",
+      "1486360",
+      "1483150",
+      "1266070",
+      "1191870"
+    ],
+    "matches": {
+      "1191870": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "かぐ"
+        }
+      ],
+      "1266070": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "こふう"
+        }
+      ],
+      "1315720": [
+        {
+          "start": 16,
+          "length": 5,
+          "reading": "もっている"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1486360": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "うつくしい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "162683",
+    "original": "私の母はとても古風なんです。",
+    "en": [
+      {
+        "id": "251831",
+        "text": "My mother is really of the old school."
+      }
+    ],
+    "indices": "私(わたし)[01]{私の} 母(はは) は 迚も{とても} 古風~ なんです",
+    "vocabIds": [
+      "1266070",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1514990"
+    ],
+    "matches": {
+      "1266070": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "こふう"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1514990": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "はは"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10657887",
+    "original": "父はちょっと古風なんですよ。",
+    "en": [
+      {
+        "id": "2889415",
+        "text": "My father is a little old-fashioned."
+      }
+    ],
+    "vocabIds": [
+      "1266070",
+      "1497610"
+    ],
+    "matches": {
+      "1266070": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "こふう"
+        }
+      ],
+      "1497610": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ちち"
+        }
+      ]
+    }
+  }
+]

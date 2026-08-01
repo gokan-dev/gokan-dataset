@@ -1,0 +1,136 @@
+[
+  {
+    "id": "84087",
+    "original": "部屋番号をお願いします。",
+    "en": [
+      {
+        "id": "319629",
+        "text": "Your room number, please?"
+      },
+      {
+        "id": "1415601",
+        "text": "Your room number, please."
+      },
+      {
+        "id": "1415602",
+        "text": "May I have your room number?"
+      },
+      {
+        "id": "1415603",
+        "text": "Could you please tell me your room number?"
+      }
+    ],
+    "indices": "部屋[01] 番号 を お願い[02] 為る(する){します}",
+    "vocabIds": [
+      "1001720",
+      "2661270"
+    ],
+    "matches": {
+      "1001720": [
+        {
+          "start": 5,
+          "length": 6,
+          "reading": "おねがいします"
+        }
+      ],
+      "2661270": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "へやばんごう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "226574",
+    "original": "お名前と部屋番号をお願いします。",
+    "en": [
+      {
+        "id": "63919",
+        "text": "May I have your name and room number, please?"
+      }
+    ],
+    "indices": "御(お){お} 名前[01] と 部屋[01] 番号 を お願いします",
+    "vocabIds": [
+      "1001720",
+      "2661270",
+      "2853328"
+    ],
+    "matches": {
+      "1001720": [
+        {
+          "start": 9,
+          "length": 6,
+          "reading": "おねがいします"
+        }
+      ],
+      "2661270": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "へやばんごう"
+        }
+      ],
+      "2853328": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "おなまえ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1487129",
+    "original": "あなたの部屋番号はなんでしょうか。",
+    "en": [
+      {
+        "id": "319629",
+        "text": "Your room number, please?"
+      }
+    ],
+    "vocabIds": [
+      "2661270"
+    ],
+    "matches": {
+      "2661270": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "へやばんごう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3576142",
+    "original": "部屋番号は５です。",
+    "en": [
+      {
+        "id": "514759",
+        "text": "My room number is 5."
+      }
+    ],
+    "vocabIds": [
+      "2661270",
+      "1268060"
+    ],
+    "matches": {
+      "1268060": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "ご"
+        }
+      ],
+      "2661270": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "へやばんごう"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,145 @@
+[
+  {
+    "id": "108421",
+    "original": "彼は居眠り運転をしていて事故を起こした。",
+    "en": [
+      {
+        "id": "295265",
+        "text": "He fell asleep at the wheel and had an accident."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 居眠り運転~ を 為る(する){していて} 事故 を 起こす{起こした}",
+    "vocabIds": [
+      "1717920",
+      "1223660",
+      "1313850",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1223660": [
+        {
+          "start": 15,
+          "length": 4,
+          "reading": "おこした"
+        }
+      ],
+      "1313850": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "じこ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1717920": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "いねむりうんてん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "4307619",
+    "original": "彼は居眠り運転して事故を起こした。",
+    "en": [
+      {
+        "id": "4300708",
+        "text": "He fell asleep while driving and caused an accident."
+      },
+      {
+        "id": "4308204",
+        "text": "He fell asleep while he was driving and caused an accident."
+      }
+    ],
+    "vocabIds": [
+      "1717920",
+      "1223660",
+      "1313850",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1223660": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "おこした"
+        }
+      ],
+      "1313850": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "じこ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1717920": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "いねむりうんてん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11795590",
+    "original": "運転手は居眠り運転をしてしまった。",
+    "en": [
+      {
+        "id": "11330802",
+        "text": "The driver fell asleep at the wheel."
+      }
+    ],
+    "vocabIds": [
+      "1717920",
+      "1172870"
+    ],
+    "matches": {
+      "1172870": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "うんてんしゅ"
+        }
+      ],
+      "1717920": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "いねむりうんてん"
+        }
+      ]
+    }
+  }
+]

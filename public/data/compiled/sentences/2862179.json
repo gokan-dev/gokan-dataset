@@ -1,0 +1,137 @@
+[
+  {
+    "id": "184909",
+    "original": "階段をおりる時には足元に気をつけなさい。",
+    "en": [
+      {
+        "id": "22040",
+        "text": "Watch your step when going down the stairs."
+      }
+    ],
+    "indices": "階段 を[03] 降りる[01]{おりる} 時(とき) には 足元 に 気をつける{気をつけ} 為さい{なさい}",
+    "vocabIds": [
+      "2862179",
+      "1221860",
+      "1315860",
+      "1586390"
+    ],
+    "matches": {
+      "1221860": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "きをつけ"
+        }
+      ],
+      "1315860": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "ときには"
+        }
+      ],
+      "1586390": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "あしもと"
+        }
+      ],
+      "2862179": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "かいだんをおりる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11935748",
+    "original": "階段を下りるのがつらくてね。",
+    "en": [
+      {
+        "id": "5937285",
+        "text": "I have trouble walking down stairs."
+      },
+      {
+        "id": "12273011",
+        "text": "It's hard for me to go down stairs."
+      }
+    ],
+    "vocabIds": [
+      "2862179"
+    ],
+    "matches": {
+      "2862179": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "かいだんをおりる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "13066422",
+    "original": "運動のしすぎで筋肉が痛み、階段を下りるのが大変だった。",
+    "en": [
+      {
+        "id": "13459003",
+        "text": "It was difficult going down the stairs due to the soreness from working out too much."
+      }
+    ],
+    "vocabIds": [
+      "2862179",
+      "1172910",
+      "1241810",
+      "2206880",
+      "1432710",
+      "1415000"
+    ],
+    "matches": {
+      "1172910": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "うんどう"
+        }
+      ],
+      "1241810": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "きんにく"
+        }
+      ],
+      "1415000": [
+        {
+          "start": 21,
+          "length": 2,
+          "reading": "たいへん"
+        }
+      ],
+      "1432710": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "いたみ"
+        }
+      ],
+      "2206880": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "きんにく"
+        }
+      ],
+      "2862179": [
+        {
+          "start": 13,
+          "length": 6,
+          "reading": "かいだんをおりる"
+        }
+      ]
+    }
+  }
+]

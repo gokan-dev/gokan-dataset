@@ -1,0 +1,404 @@
+[
+  {
+    "id": "183688",
+    "original": "館内に案内所がありますか。",
+    "en": [
+      {
+        "id": "20811",
+        "text": "Is there an information counter?"
+      },
+      {
+        "id": "13274252",
+        "text": "Is there an information desk in the building?"
+      }
+    ],
+    "indices": "館内~ に 案内所~ が[01] 有る{あります} か",
+    "vocabIds": [
+      "1154880",
+      "1614320"
+    ],
+    "matches": {
+      "1154880": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "あんないしょ"
+        }
+      ],
+      "1614320": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かんない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "189287",
+    "original": "映画館内は禁煙です。",
+    "en": [
+      {
+        "id": "26435",
+        "text": "Smoking is not permitted in the cinema."
+      }
+    ],
+    "indices": "映画館 内(ない) は 禁煙[01] です",
+    "vocabIds": [
+      "1173720",
+      "1614320",
+      "1241490"
+    ],
+    "matches": {
+      "1173720": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "えいが"
+        }
+      ],
+      "1241490": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "きんえん"
+        }
+      ],
+      "1614320": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "かんない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "190107",
+    "original": "一番近い館内電話はどこにあるか教えて下さい。",
+    "en": [
+      {
+        "id": "27264",
+        "text": "Can you tell me where the nearest courtesy phone is?"
+      }
+    ],
+    "indices": "一番(いちばん)[01] 近い 館内 電話 は 何処{どこ} に 有る{ある} か 教える{教えて} 下さい",
+    "vocabIds": [
+      "1236900",
+      "1165970",
+      "1242130",
+      "1614320",
+      "1443840"
+    ],
+    "matches": {
+      "1165970": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いちばん"
+        }
+      ],
+      "1236900": [
+        {
+          "start": 15,
+          "length": 6,
+          "reading": "おしえてください"
+        }
+      ],
+      "1242130": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ちかい"
+        }
+      ],
+      "1443840": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "でんわ"
+        }
+      ],
+      "1614320": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "かんない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "190108",
+    "original": "一番近い館内電話はどこにあるか教えていただけますか。",
+    "en": [
+      {
+        "id": "27264",
+        "text": "Can you tell me where the nearest courtesy phone is?"
+      }
+    ],
+    "indices": "一番(いちばん)[01] 近い 館内 電話 は 何処{どこ} に 有る{ある} か 教える{教えて} 頂ける[01]{いただけます} か",
+    "vocabIds": [
+      "1236900",
+      "1165970",
+      "1242130",
+      "1614320",
+      "1443840"
+    ],
+    "matches": {
+      "1165970": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いちばん"
+        }
+      ],
+      "1236900": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "おしえて"
+        }
+      ],
+      "1242130": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ちかい"
+        }
+      ],
+      "1443840": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "でんわ"
+        }
+      ],
+      "1614320": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "かんない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "190111",
+    "original": "一番近いホテルの館内電話はどこにあるか教えていただけますか。",
+    "en": [
+      {
+        "id": "27268",
+        "text": "Can you tell me where the nearest hotel service phone is?"
+      }
+    ],
+    "indices": "一番(いちばん)[01] 近い ホテル の 館内 電話 は 何処{どこ} に 有る{ある} か 教える{教えて} 頂ける[01]{いただけます} か",
+    "vocabIds": [
+      "1236900",
+      "1165970",
+      "1242130",
+      "1614320",
+      "1443840"
+    ],
+    "matches": {
+      "1165970": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いちばん"
+        }
+      ],
+      "1236900": [
+        {
+          "start": 19,
+          "length": 3,
+          "reading": "おしえて"
+        }
+      ],
+      "1242130": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ちかい"
+        }
+      ],
+      "1443840": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "でんわ"
+        }
+      ],
+      "1614320": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "かんない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9550236",
+    "original": "館内は禁煙です。",
+    "en": [
+      {
+        "id": "7708268",
+        "text": "No smoking indoors."
+      }
+    ],
+    "vocabIds": [
+      "1614320",
+      "1241490"
+    ],
+    "matches": {
+      "1241490": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "きんえん"
+        }
+      ],
+      "1614320": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かんない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10693891",
+    "original": "広島平和資料館内には、「広島への原爆投下からの日数」および「最後の核実験からの日数」を刻む『地球平和監視時計』が設置されています。",
+    "en": [
+      {
+        "id": "10789580",
+        "text": "Inside the Hiroshima Peace Memorial Museum, there is a \"Peace Watch Tower\" that counts both the number of days since the nuclear bombing on Hiroshima as well as the days passed since the most recent nuclear weapons testing."
+      }
+    ],
+    "vocabIds": [
+      "2868651",
+      "1205580",
+      "2164670",
+      "1508070",
+      "1312820",
+      "1614320",
+      "1582700",
+      "1293810",
+      "1285890",
+      "1420970",
+      "1213680",
+      "1316140",
+      "1386050"
+    ],
+    "matches": {
+      "1205580": [
+        {
+          "start": 33,
+          "length": 3,
+          "reading": "かくじっけん"
+        }
+      ],
+      "1213680": [
+        {
+          "start": 50,
+          "length": 2,
+          "reading": "かんし"
+        }
+      ],
+      "1285890": [
+        {
+          "start": 43,
+          "length": 2,
+          "reading": "きざむ"
+        }
+      ],
+      "1293810": [
+        {
+          "start": 30,
+          "length": 2,
+          "reading": "さいご"
+        }
+      ],
+      "1312820": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "しりょう"
+        }
+      ],
+      "1316140": [
+        {
+          "start": 52,
+          "length": 2,
+          "reading": "とけい"
+        }
+      ],
+      "1386050": [
+        {
+          "start": 56,
+          "length": 2,
+          "reading": "せっち"
+        }
+      ],
+      "1420970": [
+        {
+          "start": 46,
+          "length": 2,
+          "reading": "ちきゅう"
+        }
+      ],
+      "1508070": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "へいわ"
+        },
+        {
+          "start": 48,
+          "length": 2,
+          "reading": "へいわ"
+        }
+      ],
+      "1582700": [
+        {
+          "start": 23,
+          "length": 2,
+          "reading": "にっすう"
+        },
+        {
+          "start": 39,
+          "length": 2,
+          "reading": "にっすう"
+        }
+      ],
+      "1614320": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "かんない"
+        }
+      ],
+      "2164670": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ひろしま"
+        },
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "ひろしま"
+        }
+      ],
+      "2868651": [
+        {
+          "start": 16,
+          "length": 4,
+          "reading": "げんばくとうか"
+        }
+      ]
+    }
+  }
+]

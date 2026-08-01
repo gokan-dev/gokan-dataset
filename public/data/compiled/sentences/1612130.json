@@ -1,0 +1,95 @@
+[
+  {
+    "id": "185170",
+    "original": "壊れた湯飲みの補充をした。",
+    "en": [
+      {
+        "id": "22301",
+        "text": "I replaced the broken cups with new ones."
+      }
+    ],
+    "indices": "壊れる[01]{壊れた} 湯飲み~ の 補充[02] を 為る(する){した}",
+    "vocabIds": [
+      "1199900",
+      "1612130",
+      "1514580"
+    ],
+    "matches": {
+      "1199900": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "こわれた"
+        }
+      ],
+      "1514580": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ほじゅう"
+        }
+      ],
+      "1612130": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "ゆのみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "13714041",
+    "original": "湯飲みにはお茶を入れてお茶碗にはご飯をよそいます。",
+    "en": [
+      {
+        "id": "13714042",
+        "text": "We pour tea in a teacup and serve rice in a rice bowl."
+      }
+    ],
+    "vocabIds": [
+      "1612130",
+      "1465610",
+      "1002430",
+      "1597530",
+      "1270590"
+    ],
+    "matches": {
+      "1002430": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "おちゃ"
+        }
+      ],
+      "1270590": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "ごはん"
+        }
+      ],
+      "1465610": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "いれて"
+        }
+      ],
+      "1597530": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "ちゃわん"
+        }
+      ],
+      "1612130": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ゆのみ"
+        }
+      ]
+    }
+  }
+]

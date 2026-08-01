@@ -1,0 +1,83 @@
+[
+  {
+    "id": "180216",
+    "original": "教会堂の鐘が鳴っている。",
+    "en": [
+      {
+        "id": "19078",
+        "text": "The church bells are ringing."
+      }
+    ],
+    "indices": "教会堂~ の 鐘 が 鳴る{鳴っている}",
+    "vocabIds": [
+      "1532910",
+      "1761440",
+      "1352030"
+    ],
+    "matches": {
+      "1352030": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "かね"
+        }
+      ],
+      "1532910": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "なっている"
+        }
+      ],
+      "1761440": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きょうかいどう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1483539",
+    "original": "教会堂の前には車がある。",
+    "en": [
+      {
+        "id": "882665",
+        "text": "There is a car in front of the church."
+      },
+      {
+        "id": "9041953",
+        "text": "There's a car in front of the church."
+      }
+    ],
+    "vocabIds": [
+      "1761440",
+      "1392590",
+      "1323080"
+    ],
+    "matches": {
+      "1323080": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1392590": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "まえに"
+        }
+      ],
+      "1761440": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きょうかいどう"
+        }
+      ]
+    }
+  }
+]

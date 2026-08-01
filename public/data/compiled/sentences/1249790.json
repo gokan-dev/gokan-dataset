@@ -1,0 +1,112 @@
+[
+  {
+    "id": "108017",
+    "original": "彼は刑法の権威だ。",
+    "en": [
+      {
+        "id": "295669",
+        "text": "He is an authority on criminal law."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 刑法 の 権威[02] だ",
+    "vocabIds": [
+      "1249790",
+      "1258090",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1249790": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "けいほう"
+        }
+      ],
+      "1258090": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "けんい"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "146330",
+    "original": "証人が事実を隠せば刑法の罪に問われる。",
+    "en": [
+      {
+        "id": "268232",
+        "text": "The concealment of facts by a witness is a criminal offense."
+      }
+    ],
+    "indices": "証人 が 事実 を 隠す{隠せば} 刑法~ の 罪{罪に} 問う[02]{問われる}",
+    "vocabIds": [
+      "1170650",
+      "1351660",
+      "1313960",
+      "1249790",
+      "1536000",
+      "1296680"
+    ],
+    "matches": {
+      "1170650": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "かくせば"
+        }
+      ],
+      "1249790": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "けいほう"
+        }
+      ],
+      "1296680": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "つみ"
+        }
+      ],
+      "1313960": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "じじつ"
+        }
+      ],
+      "1351660": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しょうにん"
+        }
+      ],
+      "1536000": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "とわ"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,95 @@
+[
+  {
+    "id": "124613",
+    "original": "塗り立てのペンキに触るな。",
+    "en": [
+      {
+        "id": "279381",
+        "text": "Don't touch the wet paint."
+      }
+    ],
+    "indices": "塗り立てる{塗り立て} の 番瀝青{ペンキ} に 触る な[01]",
+    "vocabIds": [
+      "1600000",
+      "1357980"
+    ],
+    "matches": {
+      "1357980": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "さわる"
+        }
+      ],
+      "1600000": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "ぬりだて"
+        }
+      ]
+    }
+  },
+  {
+    "id": "196634",
+    "original": "ベンチに腰かけたとたんに、ペンキが塗りたてなのに気づいた。",
+    "en": [
+      {
+        "id": "33812",
+        "text": "I had hardly sat down on the bench when I found it had just been painted."
+      }
+    ],
+    "indices": "ベンチ に 腰掛ける{腰かけた} 途端に{とたんに} 番瀝青{ペンキ} が 塗り立て{塗りたて} だ{な} 之(の)[04]{の} に 気付く{気づいた}",
+    "vocabIds": [
+      "1288350",
+      "1600000",
+      "1591330"
+    ],
+    "matches": {
+      "1288350": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "こしかけた"
+        }
+      ],
+      "1591330": [
+        {
+          "start": 24,
+          "length": 4,
+          "reading": "きづいた"
+        }
+      ],
+      "1600000": [
+        {
+          "start": 17,
+          "length": 4,
+          "reading": "ぬりたて"
+        }
+      ]
+    }
+  },
+  {
+    "id": "199657",
+    "original": "ドレスが塗りたてのペンキがついてるよ。",
+    "en": [
+      {
+        "id": "36860",
+        "text": "Your dress is touching the wet paint."
+      }
+    ],
+    "indices": "ドレス が 塗り立て{塗りたて}~ の 番瀝青{ペンキ} が 付く(つく){ついてる} よ[01]",
+    "vocabIds": [
+      "1600000"
+    ],
+    "matches": {
+      "1600000": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "ぬりたて"
+        }
+      ]
+    }
+  }
+]

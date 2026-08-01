@@ -1,0 +1,333 @@
+[
+  {
+    "id": "82229",
+    "original": "僕の犬は君のより小さい。",
+    "en": [
+      {
+        "id": "321486",
+        "text": "My dog is smaller than yours is."
+      }
+    ],
+    "indices": "僕(ぼく)[01] の 犬[01] は 君(きみ)[01]{君の} より 小さい",
+    "vocabIds": [
+      "2277490",
+      "1521400",
+      "2228300",
+      "1258330",
+      "1247250"
+    ],
+    "matches": {
+      "1247250": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "きみ"
+        }
+      ],
+      "1258330": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "いぬ"
+        }
+      ],
+      "1521400": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ],
+      "2228300": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ],
+      "2277490": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "よりちいさい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "122512",
+    "original": "日本はカナダより小さい。",
+    "en": [
+      {
+        "id": "281491",
+        "text": "Japan is smaller than Canada."
+      }
+    ],
+    "indices": "日本 は 加奈陀{カナダ} より 小さい",
+    "vocabIds": [
+      "2277490",
+      "1582710"
+    ],
+    "matches": {
+      "1582710": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "にっぽん"
+        }
+      ],
+      "2277490": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "よりちいさい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "204968",
+    "original": "それは東京より小さい。",
+    "en": [
+      {
+        "id": "42210",
+        "text": "It is smaller than Tokyo."
+      }
+    ],
+    "indices": "其れ[01]{それ} は 東京 より 小さい",
+    "vocabIds": [
+      "2277490",
+      "1447690"
+    ],
+    "matches": {
+      "1447690": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "とうきょう"
+        }
+      ],
+      "2277490": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "よりちいさい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "218012",
+    "original": "これより小さいのはないんですか？",
+    "en": [
+      {
+        "id": "55321",
+        "text": "Don't you have anything smaller than this?"
+      }
+    ],
+    "indices": "此れ[01]{これ} より 小さい の は 無い{ない} ん[03] ですか",
+    "vocabIds": [
+      "2277490"
+    ],
+    "matches": {
+      "2277490": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "よりちいさい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "227791",
+    "original": "オーストラリアは南アメリカより小さい。",
+    "en": [
+      {
+        "id": "65144",
+        "text": "Australia is smaller than South America."
+      }
+    ],
+    "indices": "濠太剌利{オーストラリア} は 南(みなみ) 亜米利加{アメリカ} より 小さい",
+    "vocabIds": [
+      "1641680",
+      "2277490"
+    ],
+    "matches": {
+      "1641680": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "みなみあめりか"
+        }
+      ],
+      "2277490": [
+        {
+          "start": 13,
+          "length": 5,
+          "reading": "よりちいさい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "5065468",
+    "original": "三分の一は二分の一より小さい。",
+    "en": [
+      {
+        "id": "5071643",
+        "text": "One-third is less than one-half."
+      },
+      {
+        "id": "1808386",
+        "text": "A third is less than a half."
+      }
+    ],
+    "vocabIds": [
+      "2277490",
+      "1949730",
+      "2004250"
+    ],
+    "matches": {
+      "1949730": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "さんぶんのいち"
+        }
+      ],
+      "2004250": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "にぶんのいち"
+        }
+      ],
+      "2277490": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "よりちいさい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9203175",
+    "original": "こっちの方がそっちのより小さいよ。",
+    "en": [
+      {
+        "id": "55961",
+        "text": "This is smaller than that."
+      },
+      {
+        "id": "12598554",
+        "text": "This one is smaller than that one."
+      }
+    ],
+    "vocabIds": [
+      "2277490",
+      "1545790",
+      "1512070",
+      "1516930"
+    ],
+    "matches": {
+      "1512070": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "ほう"
+        }
+      ],
+      "1516930": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "ほう"
+        }
+      ],
+      "1545790": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "ほう"
+        }
+      ],
+      "2277490": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "よりちいさい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10339702",
+    "original": "猫は犬より小さい。",
+    "en": [
+      {
+        "id": "10339791",
+        "text": "Cats are smaller than dogs."
+      }
+    ],
+    "vocabIds": [
+      "2277490",
+      "1467640",
+      "1258330"
+    ],
+    "matches": {
+      "1258330": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "いぬ"
+        }
+      ],
+      "1467640": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ねこ"
+        }
+      ],
+      "2277490": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "よりちいさい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11156698",
+    "original": "東京より小さいですね。",
+    "en": [
+      {
+        "id": "2900746",
+        "text": "It's smaller than in Tokyo."
+      }
+    ],
+    "vocabIds": [
+      "2277490",
+      "1447690"
+    ],
+    "matches": {
+      "1447690": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とうきょう"
+        }
+      ],
+      "2277490": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "よりちいさい"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,97 @@
+[
+  {
+    "id": "83460",
+    "original": "壁に耳あり障子に目あり。",
+    "en": [
+      {
+        "id": "320256",
+        "text": "Walls have ears, shouji have eyes."
+      },
+      {
+        "id": "522153",
+        "text": "Walls have ears. Sliding paper doors have eyes."
+      }
+    ],
+    "indices": "壁 に 耳[01] 有る{あり} 障子~ に 目(め)[01] 有り{あり}~",
+    "vocabIds": [
+      "2145870",
+      "2141350"
+    ],
+    "matches": {
+      "2141350": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "かべにみみあり"
+        }
+      ],
+      "2145870": [
+        {
+          "start": 5,
+          "length": 6,
+          "reading": "しょうじにめあり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "475287",
+    "original": "壁に耳あり、障子に目あり。",
+    "en": [
+      {
+        "id": "504653",
+        "text": "Walls have ears, shoji have eyes."
+      },
+      {
+        "id": "1561191",
+        "text": "The walls have ears, the doors have eyes."
+      }
+    ],
+    "vocabIds": [
+      "2145870",
+      "2141350"
+    ],
+    "matches": {
+      "2141350": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "かべにみみあり"
+        }
+      ],
+      "2145870": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "しょうじにめあり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1148685",
+    "original": "壁に耳あり。",
+    "en": [
+      {
+        "id": "2376",
+        "text": "The walls have ears."
+      },
+      {
+        "id": "1290848",
+        "text": "Walls have ears."
+      }
+    ],
+    "vocabIds": [
+      "2141350"
+    ],
+    "matches": {
+      "2141350": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "かべにみみあり"
+        }
+      ]
+    }
+  }
+]

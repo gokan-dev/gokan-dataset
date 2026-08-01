@@ -1,0 +1,88 @@
+[
+  {
+    "id": "166850",
+    "original": "私たちの町はその川の東岸にある。",
+    "en": [
+      {
+        "id": "247652",
+        "text": "Our town is on the East Side of the river."
+      }
+    ],
+    "indices": "私たち の 町(まち) は 其の[01]{その} 川[01] の 東岸 に 有る{ある}",
+    "vocabIds": [
+      "1311300",
+      "1447640",
+      "1603990",
+      "1390020"
+    ],
+    "matches": {
+      "1311300": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1390020": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "かわ"
+        }
+      ],
+      "1447640": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "とうがん"
+        }
+      ],
+      "1603990": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "まち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "210093",
+    "original": "その市はハドソン川の東岸にある。",
+    "en": [
+      {
+        "id": "47357",
+        "text": "The city is on the eastern bank of the Hudson."
+      }
+    ],
+    "indices": "其の[01]{その} 市(し) は 川[01] の 東岸~ に 有る{ある}",
+    "vocabIds": [
+      "1447640",
+      "1308090",
+      "1390020"
+    ],
+    "matches": {
+      "1308090": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "し"
+        }
+      ],
+      "1390020": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "がわ"
+        }
+      ],
+      "1447640": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "とうがん"
+        }
+      ]
+    }
+  }
+]

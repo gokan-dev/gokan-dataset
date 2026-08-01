@@ -1,0 +1,72 @@
+[
+  {
+    "id": "75734",
+    "original": "付き人も連れずどこほっつき歩いてんですか。",
+    "en": [
+      {
+        "id": "327984",
+        "text": "Just where have you been loitering around without your attendants?"
+      }
+    ],
+    "indices": "付き人 も 連れる{連れず} 何処{どこ} ほっつき歩く{ほっつき歩いて}~ のです{んです} か",
+    "vocabIds": [
+      "1728730",
+      "1559290",
+      "1514320"
+    ],
+    "matches": {
+      "1514320": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "あるいて"
+        }
+      ],
+      "1559290": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "つれず"
+        }
+      ],
+      "1728730": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "つきびと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "207032",
+    "original": "その付き人はお世辞がうまい。",
+    "en": [
+      {
+        "id": "44282",
+        "text": "The attendant is good at flattery."
+      }
+    ],
+    "indices": "其の[01]{その} 付き人~ は お世辞 が 上手い[01]{うまい}",
+    "vocabIds": [
+      "1728730",
+      "1002250"
+    ],
+    "matches": {
+      "1002250": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "おせじ"
+        }
+      ],
+      "1728730": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "つきびと"
+        }
+      ]
+    }
+  }
+]

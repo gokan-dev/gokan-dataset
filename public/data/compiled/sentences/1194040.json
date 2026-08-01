@@ -1,0 +1,120 @@
+[
+  {
+    "id": "75983",
+    "original": "薪が足りず、はやくも火勢が衰えはじめた暖炉。",
+    "en": [
+      {
+        "id": "327735",
+        "text": "The fireplace, lacking firewood, flames already starting to lose their vigour."
+      }
+    ],
+    "indices": "薪[02] が 足りる[01]{足りず} 早くも{はやくも} 火勢~ が 衰え 始める[03]{はじめた} 暖炉",
+    "vocabIds": [
+      "1372430",
+      "1404740",
+      "1194040",
+      "1419900",
+      "1365010"
+    ],
+    "matches": {
+      "1194040": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "かせい"
+        }
+      ],
+      "1365010": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "たきぎ"
+        }
+      ],
+      "1372430": [
+        {
+          "start": 13,
+          "length": 6,
+          "reading": "おとろえはじめた"
+        }
+      ],
+      "1404740": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "たりず"
+        }
+      ],
+      "1419900": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "だんろ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10154950",
+    "original": "暖炉には薪が足りず、早くも火勢が衰え始めている。",
+    "en": [
+      {
+        "id": "10137088",
+        "text": "Without enough wood on the fire, the flames are already beginning to die down."
+      }
+    ],
+    "indices": "暖炉 には 薪[01] が 足りる{足りず} 早くも 火勢~ が 衰える{衰え} 始める{始めている}",
+    "vocabIds": [
+      "1372430",
+      "1404740",
+      "1953300",
+      "1419900",
+      "1194040",
+      "1365010"
+    ],
+    "matches": {
+      "1194040": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "かせい"
+        }
+      ],
+      "1365010": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "たきぎ"
+        }
+      ],
+      "1372430": [
+        {
+          "start": 16,
+          "length": 7,
+          "reading": "おとろえはじめている"
+        }
+      ],
+      "1404740": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "たりず"
+        }
+      ],
+      "1419900": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "だんろ"
+        }
+      ],
+      "1953300": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "はやくも"
+        }
+      ]
+    }
+  }
+]

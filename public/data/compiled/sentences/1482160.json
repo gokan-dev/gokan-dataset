@@ -1,0 +1,202 @@
+[
+  {
+    "id": "89613",
+    "original": "彼女は私たちを晩餐に招いた。",
+    "en": [
+      {
+        "id": "314102",
+        "text": "She asked us to dinner."
+      }
+    ],
+    "indices": "彼女[01] は 私たち を 晩餐 に 招く{招いた}",
+    "vocabIds": [
+      "1311300",
+      "1349590",
+      "1483150",
+      "1482160"
+    ],
+    "matches": {
+      "1311300": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1349590": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "まねいた"
+        }
+      ],
+      "1482160": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ばんさん"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "121180",
+    "original": "晩餐に送れるのは礼儀正しくない。",
+    "en": [
+      {
+        "id": "282826",
+        "text": "It is not proper to be late for a dinner party."
+      }
+    ],
+    "indices": "晩餐 に 送る{送れる} の は 礼儀正しい{礼儀正しくない}",
+    "vocabIds": [
+      "1376600",
+      "1482160",
+      "1557470"
+    ],
+    "matches": {
+      "1376600": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "ただしくない"
+        }
+      ],
+      "1482160": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ばんさん"
+        }
+      ],
+      "1557470": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "れいぎ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "137388",
+    "original": "大抵の晩餐は１１時頃に終わります。",
+    "en": [
+      {
+        "id": "275848",
+        "text": "Most dinner parties break up about eleven o'clock."
+      },
+      {
+        "id": "1492051",
+        "text": "Most dinner parties end about eleven o'clock."
+      }
+    ],
+    "indices": "大抵{大抵の} 晩餐~ は 時(じ)[01] 頃(ごろ)[01]~ に 終わる{終わります}",
+    "vocabIds": [
+      "1589600",
+      "2845370",
+      "1414580",
+      "1482160",
+      "1579080",
+      "2269320"
+    ],
+    "matches": {
+      "1414580": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "たいてい"
+        }
+      ],
+      "1482160": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ばんさん"
+        }
+      ],
+      "1579080": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "ごろ"
+        }
+      ],
+      "1589600": [
+        {
+          "start": 11,
+          "length": 5,
+          "reading": "おわります"
+        }
+      ],
+      "2269320": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "ごろ"
+        }
+      ],
+      "2845370": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "いちいちじ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "142594",
+    "original": "誓子は彼の晩餐の招待を受けた。",
+    "en": [
+      {
+        "id": "271976",
+        "text": "Seiko accepted his dinner invitation."
+      }
+    ],
+    "indices": "は 彼(かれ)[01]{彼の} 晩餐 の 招待 を 受ける{受けた}",
+    "vocabIds": [
+      "1329590",
+      "1000420",
+      "1482160",
+      "1349610"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かれの"
+        }
+      ],
+      "1329590": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "うけた"
+        }
+      ],
+      "1349610": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "しょうたい"
+        }
+      ],
+      "1482160": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ばんさん"
+        }
+      ]
+    }
+  }
+]

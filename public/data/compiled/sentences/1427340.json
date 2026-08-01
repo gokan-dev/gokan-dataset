@@ -1,0 +1,607 @@
+[
+  {
+    "id": "79380",
+    "original": "友人が亡くなってから丁度１年が経過した。",
+    "en": [
+      {
+        "id": "324337",
+        "text": "Just one year has gone by since my friend died."
+      }
+    ],
+    "indices": "友人 が 亡くなる{亡くなって} から[06] 丁度 一年{１年} が 経過 為る(する){した}",
+    "vocabIds": [
+      "1518540",
+      "1540150",
+      "1427340",
+      "1576280",
+      "1251250"
+    ],
+    "matches": {
+      "1251250": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "けいか"
+        }
+      ],
+      "1427340": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "ちょうど"
+        }
+      ],
+      "1518540": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "なくなって"
+        }
+      ],
+      "1540150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ゆうじん"
+        }
+      ],
+      "1576280": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "いちねん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "124776",
+    "original": "電車は丁度出たところだ。",
+    "en": [
+      {
+        "id": "279218",
+        "text": "The train has just left."
+      }
+    ],
+    "indices": "電車 は 丁度 出る[02]{出た} 所(ところ){ところ} だ",
+    "vocabIds": [
+      "1443530",
+      "1427340",
+      "1338240"
+    ],
+    "matches": {
+      "1338240": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "でた"
+        }
+      ],
+      "1427340": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ちょうど"
+        }
+      ],
+      "1443530": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "でんしゃ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "126274",
+    "original": "丁度欲しかった物です。",
+    "en": [
+      {
+        "id": "55891",
+        "text": "This is just what I wanted."
+      },
+      {
+        "id": "67099",
+        "text": "That is just what I wanted."
+      },
+      {
+        "id": "277718",
+        "text": "It's just what I wanted."
+      },
+      {
+        "id": "693555",
+        "text": "It's exactly what I wanted."
+      },
+      {
+        "id": "56128",
+        "text": "That's just what I wanted."
+      },
+      {
+        "id": "3716241",
+        "text": "This is exactly what I wanted."
+      }
+    ],
+    "indices": "丁度 欲しい{欲しかった} 物(もの)[01] です",
+    "vocabIds": [
+      "1547330",
+      "1427340",
+      "1502390"
+    ],
+    "matches": {
+      "1427340": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ちょうど"
+        }
+      ],
+      "1502390": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "もの"
+        }
+      ],
+      "1547330": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "ほしかった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "126276",
+    "original": "丁度おじさんの家に行ってきたところ。",
+    "en": [
+      {
+        "id": "40174",
+        "text": "I've just been to my uncle's house."
+      }
+    ],
+    "indices": "丁度{ちょうど} 伯父さん{おじさん} の 家(いえ)[01] へ 行って来る{いってきた} 所(ところ){ところ} だ",
+    "vocabIds": [
+      "1578850",
+      "1427340",
+      "1191730",
+      "2098290",
+      "2082160",
+      "2220300"
+    ],
+    "matches": {
+      "1191730": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ],
+      "1427340": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ちょうど"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "いってきた"
+        }
+      ],
+      "2082160": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ],
+      "2098290": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ],
+      "2220300": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "155072",
+    "original": "私は丁度手紙を書こうとした。",
+    "en": [
+      {
+        "id": "259467",
+        "text": "I was just going to write a letter."
+      }
+    ],
+    "indices": "私(わたし)[01] は 丁度 手紙 を 書く{書こう} とする{とした}",
+    "vocabIds": [
+      "1343950",
+      "1427340",
+      "1327720",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1327720": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "てがみ"
+        }
+      ],
+      "1343950": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "かこう"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1427340": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ちょうど"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "178600",
+    "original": "君に電話をしようとしたら、丁度君の電報が届いた。",
+    "en": [
+      {
+        "id": "17452",
+        "text": "Your telegram arrived just as I was about to telephone you."
+      }
+    ],
+    "indices": "君(きみ)[01] に 電話 を 為る(する)[13]{しよう} とする[01]{としたら} 丁度 君(きみ)[01]{君の} 電報 が 届く[02]{届いた}",
+    "vocabIds": [
+      "1457200",
+      "1443840",
+      "1427340",
+      "1443760",
+      "1247250"
+    ],
+    "matches": {
+      "1247250": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "きみ"
+        },
+        {
+          "start": 15,
+          "length": 1,
+          "reading": "きみ"
+        }
+      ],
+      "1427340": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "ちょうど"
+        }
+      ],
+      "1443760": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "でんぽう"
+        }
+      ],
+      "1443840": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "でんわ"
+        }
+      ],
+      "1457200": [
+        {
+          "start": 20,
+          "length": 3,
+          "reading": "とどいた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "178925",
+    "original": "君が電話をくれたとき丁度君の事を話していた。",
+    "en": [
+      {
+        "id": "17778",
+        "text": "We were just talking about you when you called."
+      }
+    ],
+    "indices": "君(きみ)[01] が 電話 を 呉れる{くれた} 時(とき){とき} 丁度 君(きみ)[01] の 事(こと) を 話す{話していた}",
+    "vocabIds": [
+      "1562350",
+      "1443840",
+      "1427340",
+      "1247250",
+      "1313580"
+    ],
+    "matches": {
+      "1247250": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "きみ"
+        },
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "きみ"
+        }
+      ],
+      "1313580": [
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "こと"
+        }
+      ],
+      "1427340": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "ちょうど"
+        }
+      ],
+      "1443840": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "でんわ"
+        }
+      ],
+      "1562350": [
+        {
+          "start": 16,
+          "length": 5,
+          "reading": "はなしていた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1184446",
+    "original": "わたしは丁度シャワーを浴びているところでした。",
+    "en": [
+      {
+        "id": "1078073",
+        "text": "I was just taking a shower."
+      }
+    ],
+    "vocabIds": [
+      "1547450",
+      "1427340"
+    ],
+    "matches": {
+      "1427340": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ちょうど"
+        }
+      ],
+      "1547450": [
+        {
+          "start": 11,
+          "length": 5,
+          "reading": "あびている"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11015425",
+    "original": "家に来た年賀状は、三百枚ほどで、丁度、出した分と同じぐらいだ。",
+    "en": [
+      {
+        "id": "11564544",
+        "text": "I received around 300 New Year's cards, just about as many as I had sent out."
+      }
+    ],
+    "vocabIds": [
+      "1468250",
+      "1338180",
+      "1547720",
+      "1427340",
+      "1502920",
+      "2760620",
+      "1451750",
+      "1191730",
+      "2098290",
+      "2082160",
+      "2220300",
+      "1579350",
+      "1488000",
+      "1516920",
+      "1524610"
+    ],
+    "matches": {
+      "1191730": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ],
+      "1338180": [
+        {
+          "start": 19,
+          "length": 3,
+          "reading": "だした"
+        }
+      ],
+      "1427340": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "ちょうど"
+        }
+      ],
+      "1451750": [
+        {
+          "start": 24,
+          "length": 2,
+          "reading": "おなじ"
+        }
+      ],
+      "1468250": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "ねんがじょう"
+        }
+      ],
+      "1488000": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "ひゃく"
+        }
+      ],
+      "1502920": [
+        {
+          "start": 22,
+          "length": 2,
+          "reading": "わかと"
+        }
+      ],
+      "1516920": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "まい"
+        }
+      ],
+      "1524610": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "まい"
+        }
+      ],
+      "1547720": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きた"
+        }
+      ],
+      "1579350": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "さん"
+        }
+      ],
+      "2082160": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ],
+      "2098290": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ],
+      "2220300": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ],
+      "2760620": [
+        {
+          "start": 22,
+          "length": 2,
+          "reading": "わかと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11682458",
+    "original": "丁度、ランチを食べてたんです。",
+    "en": [
+      {
+        "id": "6301601",
+        "text": "We were just eating lunch."
+      },
+      {
+        "id": "12375552",
+        "text": "I was just having lunch."
+      },
+      {
+        "id": "12375553",
+        "text": "I was just eating lunch."
+      },
+      {
+        "id": "12375554",
+        "text": "We were just having lunch."
+      }
+    ],
+    "vocabIds": [
+      "1358280",
+      "1427340"
+    ],
+    "matches": {
+      "1358280": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "たべてた"
+        }
+      ],
+      "1427340": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ちょうど"
+        }
+      ]
+    }
+  }
+]

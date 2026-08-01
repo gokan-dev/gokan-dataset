@@ -1,0 +1,122 @@
+[
+  {
+    "id": "121176",
+    "original": "晩飯をおごるよ。",
+    "en": [
+      {
+        "id": "282830",
+        "text": "I'll stand you a dinner."
+      },
+      {
+        "id": "1225375",
+        "text": "I'll treat you to dinner."
+      }
+    ],
+    "indices": "晩飯 を 奢る[01]{おごる} よ[01]",
+    "vocabIds": [
+      "1482240"
+    ],
+    "matches": {
+      "1482240": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ばんめし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "204214",
+    "original": "そんなの忘れてちょっくら晩飯でも食いにこいや。",
+    "en": [
+      {
+        "id": "41457",
+        "text": "Forget your troubles for a while and come and have dinner with us."
+      }
+    ],
+    "indices": "そんな の 忘れる{忘れて} ちょっくら~ 晩飯~ でも 食う[01]{食い} に 来る(くる)[01]{こい} や",
+    "vocabIds": [
+      "1519210",
+      "1482240",
+      "1592100"
+    ],
+    "matches": {
+      "1482240": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "ばんめし"
+        }
+      ],
+      "1519210": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "わすれて"
+        }
+      ],
+      "1592100": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "くい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10177635",
+    "original": "払わなくていいよ。今日の晩メシは、俺のおごりだ。",
+    "en": [
+      {
+        "id": "9883320",
+        "text": "You don't need to pay anything. Today, dinner is on me."
+      }
+    ],
+    "vocabIds": [
+      "1501620",
+      "1482240",
+      "1579110",
+      "1266890",
+      "1576870"
+    ],
+    "matches": {
+      "1266890": [
+        {
+          "start": 17,
+          "length": 1,
+          "reading": "おれ"
+        }
+      ],
+      "1482240": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "ばんめし"
+        }
+      ],
+      "1501620": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "はらわなくて"
+        }
+      ],
+      "1576870": [
+        {
+          "start": 17,
+          "length": 1,
+          "reading": "おれ"
+        }
+      ],
+      "1579110": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "きょう"
+        }
+      ]
+    }
+  }
+]

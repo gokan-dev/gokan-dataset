@@ -1,0 +1,208 @@
+[
+  {
+    "id": "114739",
+    "original": "彼はあんな小さい字が読めるのだから近視どころではない。",
+    "en": [
+      {
+        "id": "288932",
+        "text": "Since he can read such tiny print, he is far from being near-sighted."
+      }
+    ],
+    "indices": "彼(かれ)[01] は あんな 小さい 字(じ) が 読む{読める} の だから 近視 所ではない{どころではない}",
+    "vocabIds": [
+      "1347750",
+      "2859455",
+      "1242320",
+      "1000420",
+      "1483070",
+      "1315130"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1242320": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "きんし"
+        }
+      ],
+      "1315130": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "じ"
+        }
+      ],
+      "1347750": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "ちいさい"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "2859455": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "よめる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "157574",
+    "original": "私は近視なので、あの看板に何が書いてあるか分からない。",
+    "en": [
+      {
+        "id": "256957",
+        "text": "I am near-sighted, so I cannot make out what is written on that signboard."
+      },
+      {
+        "id": "10104916",
+        "text": "I'm near-sighted, so I can't make out what is written on that signboard."
+      }
+    ],
+    "indices": "私(わたし)[01] は 近視~ なので 彼の(あの){あの} 看板 に 何(なに)[01] が 書く{書いてある} か 分かる{分からない}",
+    "vocabIds": [
+      "1606560",
+      "1343950",
+      "1242320",
+      "1213990",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1577100"
+    ],
+    "matches": {
+      "1213990": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "かんばん"
+        }
+      ],
+      "1242320": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きんし"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1343950": [
+        {
+          "start": 15,
+          "length": 5,
+          "reading": "かいてある"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1577100": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "なに"
+        }
+      ],
+      "1606560": [
+        {
+          "start": 21,
+          "length": 5,
+          "reading": "わからない"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8834132",
+    "original": "近視なんですか？",
+    "en": [
+      {
+        "id": "5075305",
+        "text": "Are you nearsighted?"
+      }
+    ],
+    "vocabIds": [
+      "1242320"
+    ],
+    "matches": {
+      "1242320": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きんし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9699055",
+    "original": "トムは近視だから遠くが見えないんだ。",
+    "en": [
+      {
+        "id": "10118988",
+        "text": "Tom is short-sighted, so he can't see far."
+      }
+    ],
+    "vocabIds": [
+      "1259140",
+      "1242320",
+      "1177820"
+    ],
+    "matches": {
+      "1177820": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "とおく"
+        }
+      ],
+      "1242320": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "きんし"
+        }
+      ],
+      "1259140": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "みえない"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,161 @@
+[
+  {
+    "id": "141361",
+    "original": "川は太平洋に流れ込んでいる。",
+    "en": [
+      {
+        "id": "273210",
+        "text": "The river flows into the Pacific Ocean."
+      }
+    ],
+    "indices": "川[01] は 太平洋 に 流れ込む{流れ込んでいる}",
+    "vocabIds": [
+      "1552150",
+      "1408360",
+      "1390020"
+    ],
+    "matches": {
+      "1390020": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かわ"
+        }
+      ],
+      "1408360": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "たいへいよう"
+        }
+      ],
+      "1552150": [
+        {
+          "start": 6,
+          "length": 7,
+          "reading": "ながれこんでいる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "208724",
+    "original": "その水は池に流れ込む。",
+    "en": [
+      {
+        "id": "45983",
+        "text": "The water runs downward to the pond."
+      }
+    ],
+    "indices": "其の[01]{その} 水(みず) は 池 に 流れ込む",
+    "vocabIds": [
+      "1552150",
+      "1371260",
+      "1421700"
+    ],
+    "matches": {
+      "1371260": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "みず"
+        }
+      ],
+      "1421700": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "いけ"
+        }
+      ],
+      "1552150": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "ながれこむ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "220817",
+    "original": "この川はオンタリオ湖に流れ込む。",
+    "en": [
+      {
+        "id": "58139",
+        "text": "This river runs into Lake Ontario."
+      }
+    ],
+    "indices": "此の{この} 川[01] は オンタリオ~ 湖(こ)~ に 流れ込む~",
+    "vocabIds": [
+      "1552150",
+      "1390020",
+      "1267280"
+    ],
+    "matches": {
+      "1267280": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "こ"
+        }
+      ],
+      "1390020": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "かわ"
+        }
+      ],
+      "1552150": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "ながれこむ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3073603",
+    "original": "この川は太平洋に流れ込みます。",
+    "en": [
+      {
+        "id": "3073621",
+        "text": "This river flows into the Pacific Ocean."
+      },
+      {
+        "id": "11837051",
+        "text": "This river flows into the Pacific."
+      }
+    ],
+    "vocabIds": [
+      "1552150",
+      "1408360",
+      "1390020"
+    ],
+    "matches": {
+      "1390020": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "かわ"
+        }
+      ],
+      "1408360": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "たいへいよう"
+        }
+      ],
+      "1552150": [
+        {
+          "start": 8,
+          "length": 6,
+          "reading": "ながれこみます"
+        }
+      ]
+    }
+  }
+]

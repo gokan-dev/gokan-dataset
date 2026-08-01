@@ -1,0 +1,102 @@
+[
+  {
+    "id": "170667",
+    "original": "最近は異常気象がよくある。",
+    "en": [
+      {
+        "id": "243815",
+        "text": "We often have unusual weather these days."
+      }
+    ],
+    "indices": "最近 は 異常気象 が 良くある{よくある}",
+    "vocabIds": [
+      "1930170",
+      "1293780"
+    ],
+    "matches": {
+      "1293780": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "さいきん"
+        }
+      ],
+      "1930170": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "いじょうきしょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "224238",
+    "original": "ここ何年か異常気象がつづいている。",
+    "en": [
+      {
+        "id": "61573",
+        "text": "We've been having strange weather the past few years."
+      }
+    ],
+    "indices": "此処[02]{ここ} 何年 か 異常気象~ が 続く[01]{つづいている}",
+    "vocabIds": [
+      "1930170",
+      "1189250"
+    ],
+    "matches": {
+      "1189250": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "なんねん"
+        }
+      ],
+      "1930170": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "いじょうきしょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9112507",
+    "original": "環境汚染は、異常気象を誘発している。",
+    "en": [
+      {
+        "id": "21016",
+        "text": "Environmental pollution is causing abnormal weather conditions."
+      }
+    ],
+    "vocabIds": [
+      "1666030",
+      "1930170",
+      "1542030"
+    ],
+    "matches": {
+      "1542030": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "ゆうはつ"
+        }
+      ],
+      "1666030": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "かんきょうおせん"
+        }
+      ],
+      "1930170": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "いじょうきしょう"
+        }
+      ]
+    }
+  }
+]

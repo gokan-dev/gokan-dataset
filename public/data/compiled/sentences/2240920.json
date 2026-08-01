@@ -1,0 +1,71 @@
+[
+  {
+    "id": "74728",
+    "original": "「くだらねえ都市伝説だろう」「でも、火のないところに煙は立たないというけどね」",
+    "en": [
+      {
+        "id": "328991",
+        "text": "\"Probably just a stupid urban legend\" \"But they do say 'there's no smoke without fire', don't they?\""
+      }
+    ],
+    "indices": "下らない{くだらねえ} 都市伝説~ だろう でも 火のないところに煙は立たない~ と 言う{いう} けど ね",
+    "vocabIds": [
+      "2240920",
+      "1597040",
+      "1193610",
+      "1177180"
+    ],
+    "matches": {
+      "1177180": [
+        {
+          "start": 26,
+          "length": 1,
+          "reading": "けむり"
+        }
+      ],
+      "1193610": [
+        {
+          "start": 18,
+          "length": 1,
+          "reading": "ひ"
+        }
+      ],
+      "1597040": [
+        {
+          "start": 28,
+          "length": 4,
+          "reading": "たたない"
+        }
+      ],
+      "2240920": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "としでんせつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8204451",
+    "original": "これは都市伝説です。",
+    "en": [
+      {
+        "id": "8110409",
+        "text": "This is an urban legend."
+      }
+    ],
+    "vocabIds": [
+      "2240920"
+    ],
+    "matches": {
+      "2240920": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "としでんせつ"
+        }
+      ]
+    }
+  }
+]

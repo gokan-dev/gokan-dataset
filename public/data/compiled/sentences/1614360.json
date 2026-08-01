@@ -1,0 +1,144 @@
+[
+  {
+    "id": "154355",
+    "original": "私は彼とは顔見知りであるが実際に彼と話したことはない。",
+    "en": [
+      {
+        "id": "260187",
+        "text": "I know him by sight, but I have never actually spoken to him."
+      }
+    ],
+    "indices": "私(わたし)[01] は 彼(かれ) とは 顔見知り である が 実際に 彼(かれ) と 話す{話した} 事(こと){こと} は 無い{ない}",
+    "vocabIds": [
+      "1614360",
+      "1321120",
+      "1562350",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "かれ"
+        },
+        {
+          "start": 16,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1321120": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "じっさいに"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "かれ"
+        },
+        {
+          "start": 16,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1562350": [
+        {
+          "start": 18,
+          "length": 3,
+          "reading": "はなした"
+        }
+      ],
+      "1614360": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "かおみしり"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "203298",
+    "original": "たまたま彼女とは顔見知りだった。",
+    "en": [
+      {
+        "id": "40534",
+        "text": "It happened that I knew her by sight."
+      }
+    ],
+    "indices": "偶々[01]{たまたま} 彼女 とは 顔見知り~ だ{だった}",
+    "vocabIds": [
+      "1614360",
+      "1483150"
+    ],
+    "matches": {
+      "1483150": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1614360": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "かおみしり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10914133",
+    "original": "みんな顔見知りなんです。",
+    "en": [
+      {
+        "id": "10527011",
+        "text": "Everyone knows each other."
+      }
+    ],
+    "vocabIds": [
+      "1614360"
+    ],
+    "matches": {
+      "1614360": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "かおみしり"
+        }
+      ]
+    }
+  }
+]

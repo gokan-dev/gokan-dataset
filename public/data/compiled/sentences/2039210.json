@@ -1,0 +1,64 @@
+[
+  {
+    "id": "143393",
+    "original": "世界地図を見てごらん。",
+    "en": [
+      {
+        "id": "271174",
+        "text": "Have a look at the world map."
+      }
+    ],
+    "indices": "世界地図~ を 見る{見て} ご覧[01]{ごらん}",
+    "vocabIds": [
+      "2039210",
+      "1259290"
+    ],
+    "matches": {
+      "1259290": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "みて"
+        }
+      ],
+      "2039210": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "せかいちず"
+        }
+      ]
+    }
+  },
+  {
+    "id": "143394",
+    "original": "世界地図を見せていただけませんか。",
+    "en": [
+      {
+        "id": "271173",
+        "text": "Will you show me a map of the world?"
+      }
+    ],
+    "indices": "世界地図 を 見せる{見せて} 頂ける[01]{いただけません} か",
+    "vocabIds": [
+      "1259210",
+      "2039210"
+    ],
+    "matches": {
+      "1259210": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "みせていた"
+        }
+      ],
+      "2039210": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "せかいちず"
+        }
+      ]
+    }
+  }
+]

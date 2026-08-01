@@ -1,0 +1,158 @@
+[
+  {
+    "id": "137742",
+    "original": "大きな渦巻きと急流があります。",
+    "en": [
+      {
+        "id": "275494",
+        "text": "It has a big whirlpool and a strong current."
+      }
+    ],
+    "indices": "大きな 渦巻き~ と 急流 が[01] 有る{あります}",
+    "vocabIds": [
+      "1412890",
+      "1172320",
+      "1229010"
+    ],
+    "matches": {
+      "1172320": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "うずまき"
+        }
+      ],
+      "1229010": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "きゅうりゅう"
+        }
+      ],
+      "1412890": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "おおきな"
+        }
+      ]
+    }
+  },
+  {
+    "id": "196551",
+    "original": "ボートは急流に巻き込まれた。",
+    "en": [
+      {
+        "id": "33730",
+        "text": "The boat was sucked in."
+      }
+    ],
+    "indices": "ボート は 急流 に 巻き込む[01]{巻き込まれた}~",
+    "vocabIds": [
+      "1211150",
+      "1229010"
+    ],
+    "matches": {
+      "1211150": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "まきこま"
+        }
+      ],
+      "1229010": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "きゅうりゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "222381",
+    "original": "この急流で泳ぐのは危険に違いない。",
+    "en": [
+      {
+        "id": "59709",
+        "text": "It must be dangerous to swim in this rapid stream."
+      }
+    ],
+    "indices": "此の{この} 急流 で(#2028980) 泳ぐ の は 危険 に 違いない",
+    "vocabIds": [
+      "1610740",
+      "1229010",
+      "1174340",
+      "1218560"
+    ],
+    "matches": {
+      "1174340": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "およぐ"
+        }
+      ],
+      "1218560": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "きけん"
+        }
+      ],
+      "1229010": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きゅうりゅう"
+        }
+      ],
+      "1610740": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "ちがいない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "222382",
+    "original": "この急流で泳ぐのはとても無謀なことだ。",
+    "en": [
+      {
+        "id": "59708",
+        "text": "It is very imprudent to swim in the rapids."
+      }
+    ],
+    "indices": "此の{この} 急流~ で(#2028980) 泳ぐ の は 迚も[01]{とても} 無謀{無謀な} 事(こと){こと} だ",
+    "vocabIds": [
+      "1229010",
+      "1174340",
+      "1530880"
+    ],
+    "matches": {
+      "1174340": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "およぐ"
+        }
+      ],
+      "1229010": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きゅうりゅう"
+        }
+      ],
+      "1530880": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "むぼう"
+        }
+      ]
+    }
+  }
+]

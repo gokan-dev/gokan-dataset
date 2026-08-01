@@ -1,0 +1,2351 @@
+[
+  {
+    "id": "90360",
+    "original": "彼女は靴下を二足買った。",
+    "en": [
+      {
+        "id": "313354",
+        "text": "She bought two pairs of socks."
+      }
+    ],
+    "indices": "彼女[01] は 靴下 を 二足[02] 買う[01]{買った}",
+    "vocabIds": [
+      "1473740",
+      "1483150",
+      "1246740",
+      "1462630"
+    ],
+    "matches": {
+      "1246740": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "くつした"
+        }
+      ],
+      "1462630": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "にそく"
+        }
+      ],
+      "1473740": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "かった"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "90361",
+    "original": "彼女は靴下を直した。",
+    "en": [
+      {
+        "id": "313353",
+        "text": "She mended her socks."
+      }
+    ],
+    "indices": "彼女[01] は 靴下 を 直す[01]{直した}",
+    "vocabIds": [
+      "1599390",
+      "1483150",
+      "1246740"
+    ],
+    "matches": {
+      "1246740": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "くつした"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1599390": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "なおした"
+        }
+      ]
+    }
+  },
+  {
+    "id": "108075",
+    "original": "彼は靴下を裏返しに履いていた。",
+    "en": [
+      {
+        "id": "295611",
+        "text": "He had his socks on inside out."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 靴下 を 裏返す{裏返し} に 履く[01]{履いていた}",
+    "vocabIds": [
+      "1607260",
+      "1550630",
+      "1246740",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1246740": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "くつした"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1550630": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "うらがえし"
+        }
+      ],
+      "1607260": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "はいていた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "108076",
+    "original": "彼は靴下の片方を裏返しにはいていた。",
+    "en": [
+      {
+        "id": "295610",
+        "text": "He had one of his socks on inside out."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 靴下 の 片方 を 裏返す{裏返し} に 履く[01]{はいていた}",
+    "vocabIds": [
+      "1550630",
+      "1246740",
+      "1511810",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1246740": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "くつした"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1511810": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "かたほう"
+        }
+      ],
+      "1550630": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "うらがえし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "113495",
+    "original": "彼はスーツにあう靴下を選んだ。",
+    "en": [
+      {
+        "id": "290178",
+        "text": "He selected a pair of socks to match his suit."
+      }
+    ],
+    "indices": "彼(かれ)[01] は スーツ に 合う{あう} 靴下 を 選ぶ{選んだ}",
+    "vocabIds": [
+      "1588730",
+      "1246740",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1246740": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "くつした"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1588730": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "えらんだ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "117752",
+    "original": "彼の靴下には穴があいている。",
+    "en": [
+      {
+        "id": "285912",
+        "text": "There is a hole in his sock."
+      }
+    ],
+    "indices": "彼(かれ)[01]{彼の} 靴下 には 穴が開く{穴があいている}",
+    "vocabIds": [
+      "1000420",
+      "1246740",
+      "1254480",
+      "2159590"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれの"
+        }
+      ],
+      "1246740": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "くつした"
+        }
+      ],
+      "1254480": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "あな"
+        }
+      ],
+      "2159590": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "あな"
+        }
+      ]
+    }
+  },
+  {
+    "id": "163834",
+    "original": "私の靴下は繕いが必要だ。",
+    "en": [
+      {
+        "id": "250676",
+        "text": "My socks are in need of mending."
+      }
+    ],
+    "indices": "私(わたし)[01]{私の} 靴下 は 繕い が 必要[01] だ",
+    "vocabIds": [
+      "1246740",
+      "1396480",
+      "1487660",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1246740": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "くつした"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1396480": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "つくろい"
+        }
+      ],
+      "1487660": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "ひつよう"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "177343",
+    "original": "靴下を裏返しにはいてるよ。",
+    "en": [
+      {
+        "id": "16193",
+        "text": "You are wearing your socks inside out."
+      },
+      {
+        "id": "8983793",
+        "text": "You're wearing your socks inside out."
+      }
+    ],
+    "indices": "靴下 を 裏返す{裏返し} に 履く[01]{はいてる} よ[01]",
+    "vocabIds": [
+      "1550630",
+      "1246740"
+    ],
+    "matches": {
+      "1246740": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "くつした"
+        }
+      ],
+      "1550630": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "うらがえし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "178409",
+    "original": "靴下に大きな穴があいてるよ。",
+    "en": [
+      {
+        "id": "17262",
+        "text": "There is a big hole in your stocking."
+      },
+      {
+        "id": "1311406",
+        "text": "There's a big hole in your sock."
+      }
+    ],
+    "indices": "靴下 に 大きな 穴(あな)[01] が 開く(あく)[01]{あいてる} よ[01]",
+    "vocabIds": [
+      "1412890",
+      "1246740",
+      "1254480",
+      "2159590"
+    ],
+    "matches": {
+      "1246740": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "くつした"
+        }
+      ],
+      "1254480": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "あな"
+        }
+      ],
+      "1412890": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "おおきな"
+        }
+      ],
+      "2159590": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "あな"
+        }
+      ]
+    }
+  },
+  {
+    "id": "179230",
+    "original": "靴下を脱いでください。",
+    "en": [
+      {
+        "id": "18086",
+        "text": "Take off your socks, please."
+      }
+    ],
+    "indices": "靴下 を 脱ぐ{脱いで} 下さい{ください}",
+    "vocabIds": [
+      "1416400",
+      "1246740"
+    ],
+    "matches": {
+      "1246740": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "くつした"
+        }
+      ],
+      "1416400": [
+        {
+          "start": 3,
+          "length": 7,
+          "reading": "ぬいでください"
+        }
+      ]
+    }
+  },
+  {
+    "id": "179231",
+    "original": "靴下は適当な大きさのものがよい。",
+    "en": [
+      {
+        "id": "18087",
+        "text": "Stockings should be of the proper size."
+      }
+    ],
+    "indices": "靴下 は 適当[01]{適当な} 大きい{大き} さ[01] の 物(もの){もの} が 良い{よい}",
+    "vocabIds": [
+      "1588880",
+      "1246740",
+      "1437450"
+    ],
+    "matches": {
+      "1246740": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "くつした"
+        }
+      ],
+      "1437450": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "てきとう"
+        }
+      ],
+      "1588880": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "おおきさ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "179232",
+    "original": "靴下はもう乾いたのですか。",
+    "en": [
+      {
+        "id": "18088",
+        "text": "Are my socks dry already?"
+      }
+    ],
+    "indices": "靴下 は もう[01] 乾く{乾いた} のです か",
+    "vocabIds": [
+      "2677700",
+      "1246740"
+    ],
+    "matches": {
+      "1246740": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "くつした"
+        }
+      ],
+      "2677700": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "かわいた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "179233",
+    "original": "靴下に穴が開いているよ。",
+    "en": [
+      {
+        "id": "18089",
+        "text": "There is a hole in your sock."
+      }
+    ],
+    "indices": "靴下 に 穴が開く{穴が開いている} よ[01]",
+    "vocabIds": [
+      "1202440",
+      "1246740",
+      "1254480",
+      "2159590"
+    ],
+    "matches": {
+      "1202440": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "ひらいている"
+        }
+      ],
+      "1246740": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "くつした"
+        }
+      ],
+      "1254480": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "あな"
+        }
+      ],
+      "2159590": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "あな"
+        }
+      ]
+    }
+  },
+  {
+    "id": "179234",
+    "original": "靴下にも流行がある。",
+    "en": [
+      {
+        "id": "18090",
+        "text": "There are fashions for socks as well."
+      }
+    ],
+    "indices": "靴下 にも 流行 が[01] 有る{ある}",
+    "vocabIds": [
+      "1246740",
+      "1585110",
+      "2834093"
+    ],
+    "matches": {
+      "1246740": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "くつした"
+        }
+      ],
+      "1585110": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "りゅうこう"
+        }
+      ],
+      "2834093": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "りゅうこう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "189921",
+    "original": "右の靴下が裏返しだよ。",
+    "en": [
+      {
+        "id": "27077",
+        "text": "You have your right sock on wrong side out."
+      }
+    ],
+    "indices": "右[01] の 靴下 が 裏返し だ よ[01]",
+    "vocabIds": [
+      "1550620",
+      "1246740",
+      "1171010"
+    ],
+    "matches": {
+      "1171010": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "みぎ"
+        }
+      ],
+      "1246740": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "くつした"
+        }
+      ],
+      "1550620": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "うらがえし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "196288",
+    "original": "ポケットの計算機は靴下と同じくらい安く買え、また、鉛筆や消しゴムと同じくらい、何千人というイギリスの学童にとっては生活に不可欠のものである。",
+    "en": [
+      {
+        "id": "33466",
+        "text": "Pocket calculators are as cheap to buy as a pair of socks, and as essential to thousands of British school children as a pencil and eraser."
+      }
+    ],
+    "indices": "ポケット の 計算機 は 靴下 と 同じくらい 安く 買う[01]{買え} 又{また} 鉛筆 や 消しゴム と 同じくらい 何千 人(にん) と言う{という} 英吉利{イギリス} の 学童 に取って{にとって} は 生活 に 不可欠 の ものである",
+    "vocabIds": [
+      "2068060",
+      "1350080",
+      "1592560",
+      "1491400",
+      "1246740",
+      "1153670",
+      "1178590",
+      "1189120",
+      "1207010",
+      "1378860",
+      "1580640"
+    ],
+    "matches": {
+      "1153670": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "やすく"
+        }
+      ],
+      "1178590": [
+        {
+          "start": 25,
+          "length": 2,
+          "reading": "えんぴつ"
+        }
+      ],
+      "1189120": [
+        {
+          "start": 39,
+          "length": 2,
+          "reading": "なんせん"
+        }
+      ],
+      "1207010": [
+        {
+          "start": 50,
+          "length": 2,
+          "reading": "がくどう"
+        }
+      ],
+      "1246740": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "くつした"
+        }
+      ],
+      "1350080": [
+        {
+          "start": 28,
+          "length": 4,
+          "reading": "けしごむ"
+        }
+      ],
+      "1378860": [
+        {
+          "start": 57,
+          "length": 2,
+          "reading": "せいかつ"
+        }
+      ],
+      "1491400": [
+        {
+          "start": 60,
+          "length": 3,
+          "reading": "ふかけつ"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 41,
+          "length": 1,
+          "reading": "にん"
+        }
+      ],
+      "1592560": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "けいさんき"
+        }
+      ],
+      "2068060": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "おなじくらい"
+        },
+        {
+          "start": 33,
+          "length": 5,
+          "reading": "おなじくらい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "209100",
+    "original": "その少年は靴下を履いたまま寝た。",
+    "en": [
+      {
+        "id": "46361",
+        "text": "The boy went to bed with his socks on."
+      }
+    ],
+    "indices": "其の[01]{その} 少年[01] は 靴下 を 履く[01]{履いた} 儘{まま} 寝る{寝た}",
+    "vocabIds": [
+      "1607260",
+      "1349170",
+      "1246740",
+      "1360010"
+    ],
+    "matches": {
+      "1246740": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "くつした"
+        }
+      ],
+      "1349170": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "しょうねん"
+        }
+      ],
+      "1360010": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "ねた"
+        }
+      ],
+      "1607260": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "はいた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "211332",
+    "original": "その靴下工場では一日６０万足の靴下が製造されている。",
+    "en": [
+      {
+        "id": "48606",
+        "text": "The hosiery factory produces 600,000 pairs of socks a day."
+      }
+    ],
+    "indices": "其の[01]{その} 靴下 工場 で(#2028980) は 一日(いちにち) 万(まん)[01] 足(そく)~ の 靴下 が 製造 為れる{されている}",
+    "vocabIds": [
+      "1246740",
+      "1578700",
+      "1576260",
+      "2225030",
+      "2225040",
+      "1380690",
+      "1585310",
+      "1557630",
+      "1584460",
+      "1404630"
+    ],
+    "matches": {
+      "1246740": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "くつした"
+        },
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "くつした"
+        }
+      ],
+      "1380690": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "せいぞう"
+        }
+      ],
+      "1404630": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "そく"
+        }
+      ],
+      "1557630": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "ぜろ"
+        }
+      ],
+      "1576260": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "いちにち"
+        }
+      ],
+      "1578700": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "こうじょう"
+        }
+      ],
+      "1584460": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "まん"
+        }
+      ],
+      "1585310": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "ろく"
+        }
+      ],
+      "2225030": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "いちにち"
+        }
+      ],
+      "2225040": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "いちにち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "219458",
+    "original": "この綿の靴下は洗濯がきく。",
+    "en": [
+      {
+        "id": "56778",
+        "text": "These cotton socks bear washing well."
+      }
+    ],
+    "indices": "此の{この} 綿(めん) の 靴下 は 洗濯 が 効く{きく}",
+    "vocabIds": [
+      "1246740",
+      "1390980",
+      "1533340"
+    ],
+    "matches": {
+      "1246740": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "くつした"
+        }
+      ],
+      "1390980": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "せんたく"
+        }
+      ],
+      "1533340": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "めん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "222242",
+    "original": "この靴下の片方はどこだ。",
+    "en": [
+      {
+        "id": "59569",
+        "text": "Where is the mate to this sock?"
+      }
+    ],
+    "indices": "此の{この} 靴下~ の 片方~ は 何処{どこ} だ",
+    "vocabIds": [
+      "1246740",
+      "1511810"
+    ],
+    "matches": {
+      "1246740": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "くつした"
+        }
+      ],
+      "1511810": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "かたほう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "222243",
+    "original": "この靴下には穴があいている。",
+    "en": [
+      {
+        "id": "59570",
+        "text": "There's a hole in this sock."
+      }
+    ],
+    "indices": "此の{この} 靴下 には 穴が開く{穴があいている}",
+    "vocabIds": [
+      "1246740",
+      "1254480",
+      "2159590"
+    ],
+    "matches": {
+      "1246740": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "くつした"
+        }
+      ],
+      "1254480": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "あな"
+        }
+      ],
+      "2159590": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "あな"
+        }
+      ]
+    }
+  },
+  {
+    "id": "235391",
+    "original": "２枚の靴下は１足の靴下と呼ばれる。",
+    "en": [
+      {
+        "id": "72769",
+        "text": "Two stockings are called a pair of stockings."
+      }
+    ],
+    "indices": "枚(まい) の 靴下 は 一足(いっそく){１足} の 靴下 と 呼ばれる[02]",
+    "vocabIds": [
+      "1631030",
+      "1954200",
+      "1246740",
+      "1164400"
+    ],
+    "matches": {
+      "1164400": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "いちそく"
+        }
+      ],
+      "1246740": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "くつした"
+        },
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "くつした"
+        }
+      ],
+      "1631030": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "よばれる"
+        }
+      ],
+      "1954200": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "にまい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "237401",
+    "original": "この靴下はちぐはぐだ。",
+    "en": [
+      {
+        "id": "59568",
+        "text": "These socks do not match."
+      }
+    ],
+    "indices": "此の{この} 靴下 は ちぐはぐ~ だ",
+    "vocabIds": [
+      "1246740"
+    ],
+    "matches": {
+      "1246740": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "くつした"
+        }
+      ]
+    }
+  },
+  {
+    "id": "543734",
+    "original": "息子は靴下の片割れを捜した。",
+    "en": [
+      {
+        "id": "543979",
+        "text": "My son looked for the other half of a pair of socks."
+      }
+    ],
+    "vocabIds": [
+      "1681220",
+      "1593670",
+      "1404390",
+      "1246740"
+    ],
+    "matches": {
+      "1246740": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "くつした"
+        }
+      ],
+      "1404390": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "むすこ"
+        }
+      ],
+      "1593670": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "さがした"
+        }
+      ],
+      "1681220": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "かたわれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1484804",
+    "original": "彼女は靴下に落書きします。",
+    "en": [
+      {
+        "id": "710841",
+        "text": "She draws on her socks."
+      }
+    ],
+    "vocabIds": [
+      "1548770",
+      "1483150",
+      "1246740"
+    ],
+    "matches": {
+      "1246740": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "くつした"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1548770": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "らくがき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2105549",
+    "original": "靴下はお脱ぎください。",
+    "en": [
+      {
+        "id": "18086",
+        "text": "Take off your socks, please."
+      },
+      {
+        "id": "13573702",
+        "text": "Please take off your socks."
+      }
+    ],
+    "vocabIds": [
+      "1416400",
+      "1246740"
+    ],
+    "matches": {
+      "1246740": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "くつした"
+        }
+      ],
+      "1416400": [
+        {
+          "start": 4,
+          "length": 6,
+          "reading": "ぬぎください"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2654933",
+    "original": "トムは靴下を履いた。",
+    "en": [
+      {
+        "id": "2658348",
+        "text": "Tom put on his socks."
+      },
+      {
+        "id": "6123154",
+        "text": "Tom put his socks on."
+      }
+    ],
+    "vocabIds": [
+      "1607260",
+      "1246740"
+    ],
+    "matches": {
+      "1246740": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "くつした"
+        }
+      ],
+      "1607260": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "はいた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2654934",
+    "original": "トムは靴下を脱いだ。",
+    "en": [
+      {
+        "id": "2658347",
+        "text": "Tom removed his socks."
+      },
+      {
+        "id": "2731161",
+        "text": "Tom took off his socks."
+      },
+      {
+        "id": "2733648",
+        "text": "Tom took his socks off."
+      }
+    ],
+    "vocabIds": [
+      "1416400",
+      "1246740"
+    ],
+    "matches": {
+      "1246740": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "くつした"
+        }
+      ],
+      "1416400": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "ぬいだ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2853030",
+    "original": "トムは靴下を裏返しに履いていた。",
+    "en": [
+      {
+        "id": "2853105",
+        "text": "Tom had his socks on inside out."
+      }
+    ],
+    "vocabIds": [
+      "1607260",
+      "1550630",
+      "1246740"
+    ],
+    "matches": {
+      "1246740": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "くつした"
+        }
+      ],
+      "1550630": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "うらがえし"
+        }
+      ],
+      "1607260": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "はいていた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2997554",
+    "original": "「どうして靴下っていつも片一方だけなくなるんだろう？」「両方なくなったらなくなったことに気づかないんだよ」「あ、そっか」",
+    "en": [
+      {
+        "id": "5469069",
+        "text": "\"I wonder why you always lose just one sock out of a pair.\" \"If you lost both, you wouldn't notice it, right?\" \"Yeah, I guess you're right.\""
+      }
+    ],
+    "vocabIds": [
+      "1591330",
+      "1511590",
+      "1246740",
+      "1554010"
+    ],
+    "matches": {
+      "1246740": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "くつした"
+        }
+      ],
+      "1511590": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "かたいっぽう"
+        }
+      ],
+      "1554010": [
+        {
+          "start": 28,
+          "length": 2,
+          "reading": "りょうほう"
+        }
+      ],
+      "1591330": [
+        {
+          "start": 44,
+          "length": 5,
+          "reading": "きづかない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2719653",
+    "original": "トムは靴下を裏返しに履いている。",
+    "en": [
+      {
+        "id": "6333096",
+        "text": "Tom has his socks on inside out."
+      }
+    ],
+    "vocabIds": [
+      "1607260",
+      "1550630",
+      "1246740"
+    ],
+    "matches": {
+      "1246740": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "くつした"
+        }
+      ],
+      "1550630": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "うらがえし"
+        }
+      ],
+      "1607260": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "はいている"
+        }
+      ]
+    }
+  },
+  {
+    "id": "7798741",
+    "original": "トムの靴下がどこにあるか知らない。",
+    "en": [
+      {
+        "id": "7798729",
+        "text": "I don't know where Tom's socks are."
+      }
+    ],
+    "vocabIds": [
+      "1420420",
+      "1246740"
+    ],
+    "matches": {
+      "1246740": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "くつした"
+        }
+      ],
+      "1420420": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "しらない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "7865982",
+    "original": "一足もきれいな靴下を持っていない。",
+    "en": [
+      {
+        "id": "7864125",
+        "text": "I don't have any clean socks."
+      }
+    ],
+    "vocabIds": [
+      "1315720",
+      "1164400",
+      "1246740"
+    ],
+    "matches": {
+      "1164400": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ひとあし"
+        }
+      ],
+      "1246740": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "くつした"
+        }
+      ],
+      "1315720": [
+        {
+          "start": 10,
+          "length": 6,
+          "reading": "もっていない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8995003",
+    "original": "私の靴下って、もう乾いた？",
+    "en": [
+      {
+        "id": "18088",
+        "text": "Are my socks dry already?"
+      }
+    ],
+    "vocabIds": [
+      "2677700",
+      "1246740",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1246740": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "くつした"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2677700": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "かわいた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9501458",
+    "original": "君の靴下臭いよ。",
+    "en": [
+      {
+        "id": "9357845",
+        "text": "Your socks stink."
+      }
+    ],
+    "vocabIds": [
+      "1246740",
+      "1333150",
+      "1599760",
+      "1247250"
+    ],
+    "matches": {
+      "1246740": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "くつした"
+        }
+      ],
+      "1247250": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "きみ"
+        }
+      ],
+      "1333150": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "くさい"
+        }
+      ],
+      "1599760": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "くさい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9504746",
+    "original": "あなたの靴下、くさっ。",
+    "en": [
+      {
+        "id": "9357845",
+        "text": "Your socks stink."
+      }
+    ],
+    "vocabIds": [
+      "1246740"
+    ],
+    "matches": {
+      "1246740": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "くつした"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9540529",
+    "original": "トムは靴は履いてたけど、靴下は履いてなかったよ。",
+    "en": [
+      {
+        "id": "6876049",
+        "text": "Tom was wearing shoes, but he wasn't wearing socks."
+      }
+    ],
+    "vocabIds": [
+      "1607260",
+      "1246740",
+      "1246700"
+    ],
+    "matches": {
+      "1246700": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "くつ"
+        }
+      ],
+      "1246740": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "くつした"
+        }
+      ],
+      "1607260": [
+        {
+          "start": 15,
+          "length": 7,
+          "reading": "はいてなかった"
+        },
+        {
+          "start": 5,
+          "length": 6,
+          "reading": "はいてたけど"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9696507",
+    "original": "靴下は脱ぎなさい。",
+    "en": [
+      {
+        "id": "50756",
+        "text": "Take off your socks."
+      }
+    ],
+    "vocabIds": [
+      "1416400",
+      "1246740"
+    ],
+    "matches": {
+      "1246740": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "くつした"
+        }
+      ],
+      "1416400": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "ぬぎなさい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9712431",
+    "original": "靴下履き忘れた。",
+    "en": [
+      {
+        "id": "9987482",
+        "text": "I forgot to wear my socks."
+      }
+    ],
+    "vocabIds": [
+      "1519210",
+      "1246740",
+      "1607260"
+    ],
+    "matches": {
+      "1246740": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "くつした"
+        }
+      ],
+      "1519210": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "わすれた"
+        }
+      ],
+      "1607260": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "はき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10075544",
+    "original": "彼は靴下と靴を履いている。",
+    "en": [
+      {
+        "id": "10071096",
+        "text": "He's wearing shoes and stockings."
+      }
+    ],
+    "vocabIds": [
+      "1607260",
+      "1246740",
+      "1000420",
+      "1483070",
+      "1246700"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1246700": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "くつ"
+        }
+      ],
+      "1246740": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "くつした"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1607260": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "はいている"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10548180",
+    "original": "靴下が裏返しになってるよ。",
+    "en": [
+      {
+        "id": "9494157",
+        "text": "Your socks are inside out."
+      },
+      {
+        "id": "8983793",
+        "text": "You're wearing your socks inside out."
+      }
+    ],
+    "vocabIds": [
+      "1550620",
+      "1246740"
+    ],
+    "matches": {
+      "1246740": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "くつした"
+        }
+      ],
+      "1550620": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "うらがえし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10640467",
+    "original": "靴下の臭いが気になる時は、クエン酸水に漬けるといいそうよ。",
+    "en": [
+      {
+        "id": "10641185",
+        "text": "If you're worried about your socks smelling, dipping them in citric acid solution might do the trick."
+      }
+    ],
+    "vocabIds": [
+      "1221690",
+      "1568020",
+      "1433680",
+      "1246740",
+      "1333150",
+      "1599760",
+      "1315840",
+      "1371260"
+    ],
+    "matches": {
+      "1221690": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "きになる"
+        }
+      ],
+      "1246740": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "くつした"
+        }
+      ],
+      "1315840": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "とき"
+        }
+      ],
+      "1333150": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "におい"
+        }
+      ],
+      "1371260": [
+        {
+          "start": 17,
+          "length": 1,
+          "reading": "すい"
+        }
+      ],
+      "1433680": [
+        {
+          "start": 19,
+          "length": 3,
+          "reading": "つける"
+        }
+      ],
+      "1568020": [
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "さん"
+        }
+      ],
+      "1599760": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "におい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10079762",
+    "original": "靴下履き忘れた日に豪雨とはラッキー。",
+    "en": [
+      {
+        "id": "10794311",
+        "text": "Lucky of me to have forgotten to wear socks on the day it rains like hell."
+      }
+    ],
+    "vocabIds": [
+      "1519210",
+      "1246740",
+      "1607260",
+      "1285490",
+      "1463770"
+    ],
+    "matches": {
+      "1246740": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "くつした"
+        }
+      ],
+      "1285490": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "ごうう"
+        }
+      ],
+      "1463770": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "ひ"
+        }
+      ],
+      "1519210": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "わすれた"
+        }
+      ],
+      "1607260": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "はき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11065794",
+    "original": "僕の靴下、まだ乾いてないの？",
+    "en": [
+      {
+        "id": "10716439",
+        "text": "Are my socks dry yet?"
+      }
+    ],
+    "vocabIds": [
+      "1209650",
+      "1246740",
+      "1521400",
+      "2228300"
+    ],
+    "matches": {
+      "1209650": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "かわいてない"
+        }
+      ],
+      "1246740": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "くつした"
+        }
+      ],
+      "1521400": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ],
+      "2228300": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11332118",
+    "original": "靴下が3足欲しい。",
+    "en": [
+      {
+        "id": "3030986",
+        "text": "I want three pairs of socks."
+      }
+    ],
+    "vocabIds": [
+      "1547330",
+      "1246740",
+      "1404630"
+    ],
+    "matches": {
+      "1246740": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "くつした"
+        }
+      ],
+      "1404630": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "そく"
+        }
+      ],
+      "1547330": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "ほしい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11436376",
+    "original": "私の赤い靴下どこ？",
+    "en": [
+      {
+        "id": "9669019",
+        "text": "Where are my red socks?"
+      }
+    ],
+    "vocabIds": [
+      "1383240",
+      "1246740",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1246740": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "くつした"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1383240": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "あかい"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11524861",
+    "original": "トムは靴下をはいていなかった。",
+    "en": [
+      {
+        "id": "8574839",
+        "text": "Tom didn't have any socks on."
+      },
+      {
+        "id": "3331520",
+        "text": "Tom wasn't wearing socks."
+      }
+    ],
+    "vocabIds": [
+      "1246740"
+    ],
+    "matches": {
+      "1246740": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "くつした"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11570835",
+    "original": "靴下の片方が見当たらないんだけど。",
+    "en": [
+      {
+        "id": "2885782",
+        "text": "I'm not finding the second sock."
+      }
+    ],
+    "vocabIds": [
+      "1909960",
+      "1246740",
+      "1511810"
+    ],
+    "matches": {
+      "1246740": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "くつした"
+        }
+      ],
+      "1511810": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かたほう"
+        }
+      ],
+      "1909960": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "みあたらない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11570838",
+    "original": "靴下の片方、どこいった？",
+    "en": [
+      {
+        "id": "1605371",
+        "text": "Where's my other sock?"
+      }
+    ],
+    "vocabIds": [
+      "1246740",
+      "1511810"
+    ],
+    "matches": {
+      "1246740": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "くつした"
+        }
+      ],
+      "1511810": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かたほう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11592330",
+    "original": "靴下がまだ湿ってる。",
+    "en": [
+      {
+        "id": "2571533",
+        "text": "My socks are still damp."
+      }
+    ],
+    "vocabIds": [
+      "1320390",
+      "1246740"
+    ],
+    "matches": {
+      "1246740": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "くつした"
+        }
+      ],
+      "1320390": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "しめってる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12072870",
+    "original": "靴下脱がなきゃ。",
+    "en": [
+      {
+        "id": "1744757",
+        "text": "I have to take off my socks."
+      }
+    ],
+    "vocabIds": [
+      "1246740",
+      "2601360"
+    ],
+    "matches": {
+      "1246740": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "くつした"
+        }
+      ],
+      "2601360": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "だっ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12254413",
+    "original": "あの靴下、すごくあったかそう。",
+    "en": [
+      {
+        "id": "10153037",
+        "text": "Those socks look really warm."
+      }
+    ],
+    "vocabIds": [
+      "1246740"
+    ],
+    "matches": {
+      "1246740": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "くつした"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12300817",
+    "original": "その靴下はどこで買ったの？",
+    "en": [
+      {
+        "id": "9404276",
+        "text": "Where did you buy those socks?"
+      }
+    ],
+    "vocabIds": [
+      "1473740",
+      "1246740"
+    ],
+    "matches": {
+      "1246740": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "くつした"
+        }
+      ],
+      "1473740": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "かった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12468221",
+    "original": "トムは片方の靴下を裏返しにはいていた。",
+    "en": [
+      {
+        "id": "3168111",
+        "text": "Tom had one of his socks on inside out."
+      }
+    ],
+    "vocabIds": [
+      "1550630",
+      "1511810",
+      "1246740"
+    ],
+    "matches": {
+      "1246740": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "くつした"
+        }
+      ],
+      "1511810": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かたほう"
+        }
+      ],
+      "1550630": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "うらがえし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11023059",
+    "original": "すぐ靴下に穴があく。",
+    "en": [
+      {
+        "id": "13140615",
+        "text": "Holes soon open up in my socks."
+      }
+    ],
+    "vocabIds": [
+      "1856910",
+      "1246740"
+    ],
+    "matches": {
+      "1246740": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "くつした"
+        }
+      ],
+      "1856910": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "あながあく"
+        }
+      ]
+    }
+  }
+]

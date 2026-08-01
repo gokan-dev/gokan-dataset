@@ -1,0 +1,164 @@
+[
+  {
+    "id": "93211",
+    "original": "彼女はいつも有名な美容師に髪を結ってもらう。",
+    "en": [
+      {
+        "id": "310497",
+        "text": "She always has her hair done by a famous hairdresser."
+      }
+    ],
+    "indices": "彼女[01] は 何時も[01]{いつも} 有名[01]{有名な} 美容師 に 髪 を 結う{結って} 貰う[02]{もらう}",
+    "vocabIds": [
+      "1254600",
+      "1486690",
+      "1483150",
+      "1541620",
+      "1477950"
+    ],
+    "matches": {
+      "1254600": [
+        {
+          "start": 15,
+          "length": 6,
+          "reading": "ゆってもらう"
+        }
+      ],
+      "1477950": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "かみ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1486690": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "びようし"
+        }
+      ],
+      "1541620": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ゆうめい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "200256",
+    "original": "どの美容師をご指名ですか。",
+    "en": [
+      {
+        "id": "37457",
+        "text": "Which beautician would you like?"
+      }
+    ],
+    "indices": "何の(どの){どの} 美容師~ を 御(ご){ご} 指名~ ですか",
+    "vocabIds": [
+      "1486690",
+      "1310000"
+    ],
+    "matches": {
+      "1310000": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "しめい"
+        }
+      ],
+      "1486690": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "びようし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "4215013",
+    "original": "彼女はいつも有名な美容師に髪型をセットしてもらっている。",
+    "en": [
+      {
+        "id": "310497",
+        "text": "She always has her hair done by a famous hairdresser."
+      }
+    ],
+    "vocabIds": [
+      "1486690",
+      "1483150",
+      "1541620",
+      "1954390"
+    ],
+    "matches": {
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1486690": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "びようし"
+        }
+      ],
+      "1541620": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ゆうめい"
+        }
+      ],
+      "1954390": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "かみがた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10612136",
+    "original": "彼女は美容師なのよ。",
+    "en": [
+      {
+        "id": "8910490",
+        "text": "She is a hairdresser."
+      }
+    ],
+    "vocabIds": [
+      "1486690",
+      "1483150"
+    ],
+    "matches": {
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1486690": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "びようし"
+        }
+      ]
+    }
+  }
+]

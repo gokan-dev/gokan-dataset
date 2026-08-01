@@ -1,0 +1,127 @@
+[
+  {
+    "id": "79977",
+    "original": "目に悪いから暗いところで本を読んではいけない。",
+    "en": [
+      {
+        "id": "323740",
+        "text": "Don't read under insufficient light, for it is bad for your eyes."
+      }
+    ],
+    "indices": "目(め)[01] に 悪い(わるい) から 暗い[01] 所(ところ){ところ} で(#2028980) 本(ほん)[01] を 読む{読んで} は 行けない[02]{いけない}",
+    "vocabIds": [
+      "1911970",
+      "1456360",
+      "1154330",
+      "1260670",
+      "1522150"
+    ],
+    "matches": {
+      "1154330": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "くらい"
+        }
+      ],
+      "1260670": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "ほん"
+        }
+      ],
+      "1456360": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "よんで"
+        }
+      ],
+      "1522150": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "ほん"
+        }
+      ],
+      "1911970": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "めにわるい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "174070",
+    "original": "光をあまり入れると目に悪い。",
+    "en": [
+      {
+        "id": "240400",
+        "text": "Too much light hurts the eye."
+      }
+    ],
+    "indices": "光 を 余り{あまり} 入れる と 目に悪い",
+    "vocabIds": [
+      "1911970",
+      "1465610",
+      "1272780"
+    ],
+    "matches": {
+      "1272780": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ひかり"
+        }
+      ],
+      "1465610": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "いれると"
+        }
+      ],
+      "1911970": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "めにわるい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "212915",
+    "original": "そのどぎつい光は目に悪い。",
+    "en": [
+      {
+        "id": "50200",
+        "text": "The glaring light is hurtful to the eyes."
+      }
+    ],
+    "indices": "其の[01]{その} どぎつい~ 光 は 目に悪い~",
+    "vocabIds": [
+      "1911970",
+      "1272780"
+    ],
+    "matches": {
+      "1272780": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "ひかり"
+        }
+      ],
+      "1911970": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "めにわるい"
+        }
+      ]
+    }
+  }
+]

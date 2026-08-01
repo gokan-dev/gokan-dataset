@@ -1,0 +1,271 @@
+[
+  {
+    "id": "84335",
+    "original": "父は郵便受けを赤い色に塗った。",
+    "en": [
+      {
+        "id": "319380",
+        "text": "My father painted the mailbox red."
+      }
+    ],
+    "indices": "父 は 郵便受け を 赤い[01] 色(いろ)[01] に 塗る(ぬる){塗った}",
+    "vocabIds": [
+      "1747000",
+      "1444270",
+      "1383240",
+      "1497610",
+      "1357600"
+    ],
+    "matches": {
+      "1357600": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "いろ"
+        }
+      ],
+      "1383240": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "あかい"
+        }
+      ],
+      "1444270": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "ぬった"
+        }
+      ],
+      "1497610": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ちち"
+        }
+      ],
+      "1747000": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "ゆうびんうけ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "95552",
+    "original": "彼女からの手紙が郵便受けにはいっていた。",
+    "en": [
+      {
+        "id": "308153",
+        "text": "I found her letter in the mailbox."
+      }
+    ],
+    "indices": "彼女 から の 手紙 が 郵便受け~ に 入る(はいる){はいっていた}",
+    "vocabIds": [
+      "1747000",
+      "1483150",
+      "1327720"
+    ],
+    "matches": {
+      "1327720": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "てがみ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1747000": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "ゆうびんうけ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "234142",
+    "original": "あなたからの手紙が郵便受けに入ってたよ。",
+    "en": [
+      {
+        "id": "71515",
+        "text": "I found your letter in the mailbox."
+      }
+    ],
+    "indices": "貴方(あなた)[01]{あなた} から の 手紙 が 郵便受け に 入る(はいる){入ってた} よ",
+    "vocabIds": [
+      "1747000",
+      "1465590",
+      "1327720"
+    ],
+    "matches": {
+      "1327720": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "てがみ"
+        }
+      ],
+      "1465590": [
+        {
+          "start": 14,
+          "length": 4,
+          "reading": "はいってた"
+        }
+      ],
+      "1747000": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "ゆうびんうけ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8611568",
+    "original": "鍵は郵便受けに入れといてね。",
+    "en": [
+      {
+        "id": "4132423",
+        "text": "Put the key in the mailbox."
+      }
+    ],
+    "vocabIds": [
+      "1465610",
+      "1747000",
+      "1260490"
+    ],
+    "matches": {
+      "1260490": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かぎ"
+        }
+      ],
+      "1465610": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "いれといて"
+        }
+      ],
+      "1747000": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "ゆうびんうけ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10194949",
+    "original": "荷物が郵便受けに収まらないよ。",
+    "en": [
+      {
+        "id": "9668346",
+        "text": "The package won't fit in the mailbox."
+      }
+    ],
+    "vocabIds": [
+      "1330490",
+      "1747000",
+      "1195430"
+    ],
+    "matches": {
+      "1195430": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "にもつ"
+        }
+      ],
+      "1330490": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "おさまらない"
+        }
+      ],
+      "1747000": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "ゆうびんうけ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11853698",
+    "original": "郵便受け、見た？",
+    "en": [
+      {
+        "id": "10742542",
+        "text": "Did you check the mailbox?"
+      }
+    ],
+    "vocabIds": [
+      "1747000",
+      "1259290"
+    ],
+    "matches": {
+      "1259290": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "みた"
+        }
+      ],
+      "1747000": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "ゆうびんうけ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11928939",
+    "original": "「それ、どうしたの？」「郵便受けに入ってたんだ」",
+    "en": [
+      {
+        "id": "10729543",
+        "text": "\"Where did you get that?\" \"It was in the mailbox.\""
+      }
+    ],
+    "vocabIds": [
+      "1747000",
+      "1465590"
+    ],
+    "matches": {
+      "1465590": [
+        {
+          "start": 17,
+          "length": 4,
+          "reading": "はいってた"
+        }
+      ],
+      "1747000": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "ゆうびんうけ"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "id": "138015",
+    "original": "体が熱っぽいんだ。",
+    "en": [
+      {
+        "id": "275220",
+        "text": "I feel feverish."
+      }
+    ],
+    "indices": "体(からだ) が 熱っぽい[01] のだ{んだ}",
+    "vocabIds": [
+      "2012730",
+      "1409140"
+    ],
+    "matches": {
+      "1409140": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "からだ"
+        }
+      ],
+      "2012730": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "ねつっぽい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "171230",
+    "original": "今晩は少し熱っぽいのです。",
+    "en": [
+      {
+        "id": "243247",
+        "text": "I feel a bit feverish tonight."
+      }
+    ],
+    "indices": "今晩~ は 少し 熱っぽい[01]~ のです",
+    "vocabIds": [
+      "2012730",
+      "1289480",
+      "1348870"
+    ],
+    "matches": {
+      "1289480": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "こんばんは"
+        }
+      ],
+      "1348870": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "すこし"
+        }
+      ],
+      "2012730": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "ねつっぽい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10015164",
+    "original": "熱っぽい感じがありますか？",
+    "en": [
+      {
+        "id": "9849457",
+        "text": "Do you feel like you have a fever?"
+      }
+    ],
+    "vocabIds": [
+      "2012730",
+      "1212250"
+    ],
+    "matches": {
+      "1212250": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "かんじ"
+        }
+      ],
+      "2012730": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "ねつっぽい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10015194",
+    "original": "熱っぽいの。",
+    "en": [
+      {
+        "id": "275220",
+        "text": "I feel feverish."
+      }
+    ],
+    "vocabIds": [
+      "2012730"
+    ],
+    "matches": {
+      "2012730": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "ねつっぽい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10016580",
+    "original": "風邪を引いたみたい。少し熱っぽいの。",
+    "en": [
+      {
+        "id": "319771",
+        "text": "I seem to have caught cold. I'm a little feverish."
+      }
+    ],
+    "vocabIds": [
+      "2012730",
+      "1169250",
+      "1583720",
+      "1348870"
+    ],
+    "matches": {
+      "1169250": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "ひいた"
+        }
+      ],
+      "1348870": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "すこし"
+        }
+      ],
+      "1583720": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かぜ"
+        }
+      ],
+      "2012730": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "ねつっぽい"
+        }
+      ]
+    }
+  }
+]

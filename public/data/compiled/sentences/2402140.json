@@ -1,0 +1,83 @@
+[
+  {
+    "id": "81230",
+    "original": "毎晩夜更かししていると、体を壊すよ。",
+    "en": [
+      {
+        "id": "322485",
+        "text": "It'll do harm to you to sit up late every night."
+      },
+      {
+        "id": "10529546",
+        "text": "Staying up late every night isn't good for you."
+      }
+    ],
+    "indices": "毎晩 夜更かし 為る(する){している} と 体(からだ) を 壊す よ[01]",
+    "vocabIds": [
+      "1606000",
+      "2402140",
+      "1524730"
+    ],
+    "matches": {
+      "1524730": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "まいばん"
+        }
+      ],
+      "1606000": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "よるふかし"
+        }
+      ],
+      "2402140": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "からだをこわす"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1587318",
+    "original": "昼も夜も働いたら、体を壊すよ。",
+    "en": [
+      {
+        "id": "277626",
+        "text": "If you work day and night, you will lose your health."
+      }
+    ],
+    "vocabIds": [
+      "1426260",
+      "2402140",
+      "1451150"
+    ],
+    "matches": {
+      "1426260": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "ひるもよるも"
+        }
+      ],
+      "1451150": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "はたらいたら"
+        }
+      ],
+      "2402140": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "からだをこわす"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,164 @@
+[
+  {
+    "id": "77345",
+    "original": "廊下の突き当たりで火事が起きました。",
+    "en": [
+      {
+        "id": "326374",
+        "text": "There's a fire down the hall."
+      }
+    ],
+    "indices": "廊下 の 突き当たる{突き当たり} で(#2028980) 火事 が 起きる{起きました}",
+    "vocabIds": [
+      "1456770",
+      "1223640",
+      "1560670",
+      "1193950"
+    ],
+    "matches": {
+      "1193950": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "かじ"
+        }
+      ],
+      "1223640": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "おきました"
+        }
+      ],
+      "1456770": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "つきあたり"
+        }
+      ],
+      "1560670": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ろうか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "79475",
+    "original": "薬屋はこの道の突き当たりにあります。",
+    "en": [
+      {
+        "id": "324244",
+        "text": "The drugstore is at the end of this road."
+      }
+    ],
+    "indices": "薬屋~ は 此の{この} 道(みち) の 突き当たる{突き当たり} に 有る{あります}",
+    "vocabIds": [
+      "1456770",
+      "1538170",
+      "1454080",
+      "2220470"
+    ],
+    "matches": {
+      "1454080": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "みち"
+        }
+      ],
+      "1456770": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "つきあたり"
+        }
+      ],
+      "1538170": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "くすりや"
+        }
+      ],
+      "2220470": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "みち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1772661",
+    "original": "バスルームは廊下の突き当たりにある。",
+    "en": [
+      {
+        "id": "35263",
+        "text": "The bathroom is at the end of the hall."
+      }
+    ],
+    "vocabIds": [
+      "1456770",
+      "1560670"
+    ],
+    "matches": {
+      "1456770": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "つきあたり"
+        }
+      ],
+      "1560670": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ろうか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "13028921",
+    "original": "お手洗いは、廊下の突き当たりにございます。",
+    "en": [
+      {
+        "id": "12070015",
+        "text": "The bathroom is at the end of the hallway."
+      }
+    ],
+    "vocabIds": [
+      "1456770",
+      "1002100",
+      "1560670"
+    ],
+    "matches": {
+      "1002100": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "おてあらい"
+        }
+      ],
+      "1456770": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "つきあたり"
+        }
+      ],
+      "1560670": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ろうか"
+        }
+      ]
+    }
+  }
+]

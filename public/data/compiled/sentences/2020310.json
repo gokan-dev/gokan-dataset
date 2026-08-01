@@ -1,0 +1,272 @@
+[
+  {
+    "id": "90576",
+    "original": "彼女は気を失ったが、数分後に正気に戻った。",
+    "en": [
+      {
+        "id": "313135",
+        "text": "She fainted but came to after a few minutes."
+      },
+      {
+        "id": "1503856",
+        "text": "She fainted, but came to after a few minutes."
+      }
+    ],
+    "indices": "彼女[01] は 気を失う{気を失った} が 数分後 に 正気(しょうき) に 戻る{戻った}",
+    "vocabIds": [
+      "1319750",
+      "2020310",
+      "1535880",
+      "1642200",
+      "1483150",
+      "1580850",
+      "1221520"
+    ],
+    "matches": {
+      "1221520": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "き"
+        }
+      ],
+      "1319750": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "うしなったが"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1535880": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "もどった"
+        }
+      ],
+      "1580850": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "しょうき"
+        }
+      ],
+      "1642200": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "もどった"
+        }
+      ],
+      "2020310": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "すうふんご"
+        }
+      ]
+    }
+  },
+  {
+    "id": "90577",
+    "original": "彼女は気を失ったが、数分後に意識を取り戻した。",
+    "en": [
+      {
+        "id": "313135",
+        "text": "She fainted but came to after a few minutes."
+      },
+      {
+        "id": "1503856",
+        "text": "She fainted, but came to after a few minutes."
+      }
+    ],
+    "indices": "彼女[01] は 気を失う{気を失った} が 数分後~ に 意識 を 取り戻す{取り戻した}",
+    "vocabIds": [
+      "1326940",
+      "1319750",
+      "2020310",
+      "1483150",
+      "1156640",
+      "1221520"
+    ],
+    "matches": {
+      "1156640": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "いしき"
+        }
+      ],
+      "1221520": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "き"
+        }
+      ],
+      "1319750": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "うしなったが"
+        }
+      ],
+      "1326940": [
+        {
+          "start": 17,
+          "length": 5,
+          "reading": "とりもどした"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "2020310": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "すうふんご"
+        }
+      ]
+    }
+  },
+  {
+    "id": "124849",
+    "original": "電気は数分後にまたついた。",
+    "en": [
+      {
+        "id": "279144",
+        "text": "The electricity came on again in a few minutes."
+      }
+    ],
+    "indices": "電気[01] は 数分後 に 又{また} 点く[02]{ついた}",
+    "vocabIds": [
+      "2020310",
+      "1443000"
+    ],
+    "matches": {
+      "1443000": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "でんき"
+        }
+      ],
+      "2020310": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "すうふんご"
+        }
+      ]
+    }
+  },
+  {
+    "id": "143497",
+    "original": "数分後に電話が鳴った。",
+    "en": [
+      {
+        "id": "271070",
+        "text": "A few minutes later the telephone rang."
+      },
+      {
+        "id": "1413787",
+        "text": "The telephone rang a few minutes later."
+      },
+      {
+        "id": "7780178",
+        "text": "A few minutes later, the telephone rang."
+      },
+      {
+        "id": "3274174",
+        "text": "Several minutes later, the telephone rang."
+      }
+    ],
+    "indices": "数分後 に 電話 が 鳴る{鳴った}",
+    "vocabIds": [
+      "2020310",
+      "1532910",
+      "1443840"
+    ],
+    "matches": {
+      "1443840": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "でんわ"
+        }
+      ],
+      "1532910": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "なった"
+        }
+      ],
+      "2020310": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "すうふんご"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11808923",
+    "original": "数分後、警察が来ました。",
+    "en": [
+      {
+        "id": "10109940",
+        "text": "The police arrived a few minutes later."
+      },
+      {
+        "id": "11809273",
+        "text": "A few minutes later, the police came."
+      },
+      {
+        "id": "12351622",
+        "text": "A few minutes later, the police arrived."
+      }
+    ],
+    "vocabIds": [
+      "1547720",
+      "2020310",
+      "1252390"
+    ],
+    "matches": {
+      "1252390": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "けいさつ"
+        }
+      ],
+      "1547720": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "きました"
+        }
+      ],
+      "2020310": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "すうふんご"
+        }
+      ]
+    }
+  }
+]

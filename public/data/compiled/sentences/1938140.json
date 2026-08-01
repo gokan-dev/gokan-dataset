@@ -1,0 +1,105 @@
+[
+  {
+    "id": "204453",
+    "original": "そろそろ出発時間だ。",
+    "en": [
+      {
+        "id": "31574",
+        "text": "It's about time to start."
+      },
+      {
+        "id": "6267500",
+        "text": "It's almost time to leave."
+      }
+    ],
+    "indices": "そろそろ 出発時間~ だ",
+    "vocabIds": [
+      "1938140"
+    ],
+    "matches": {
+      "1938140": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "しゅっぱつじかん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1160393",
+    "original": "その電車の出発時間を教えてください。",
+    "en": [
+      {
+        "id": "24588",
+        "text": "Can you please tell me what time the train leaves?"
+      }
+    ],
+    "vocabIds": [
+      "1236900",
+      "1938140",
+      "1443530"
+    ],
+    "matches": {
+      "1236900": [
+        {
+          "start": 10,
+          "length": 7,
+          "reading": "おしえてください"
+        }
+      ],
+      "1443530": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "でんしゃ"
+        }
+      ],
+      "1938140": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "しゅっぱつじかん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10578173",
+    "original": "飛行機の出発時間は何時なの？",
+    "en": [
+      {
+        "id": "70418",
+        "text": "What time does your plane depart?"
+      }
+    ],
+    "vocabIds": [
+      "1938140",
+      "1485470",
+      "1188770"
+    ],
+    "matches": {
+      "1188770": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "なんじ"
+        }
+      ],
+      "1485470": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ひこうき"
+        }
+      ],
+      "1938140": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "しゅっぱつじかん"
+        }
+      ]
+    }
+  }
+]

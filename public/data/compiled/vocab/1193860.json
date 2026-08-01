@@ -1,0 +1,153 @@
+{
+  "id": "1193860",
+  "writtenForm": {
+    "kanji": "火口",
+    "alternatives": [],
+    "containedKanji": [
+      "火",
+      "口"
+    ]
+  },
+  "reading": {
+    "primary": "かこう",
+    "alternatives": [
+      "ほくち",
+      "ひぐち"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 32331
+  },
+  "jlptLevel": 2,
+  "progression": {
+    "kklcStep": 26
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "(volcanic) crater",
+        "caldera"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "burner (of a boiler)"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "tinder",
+        "touchwood",
+        "charcloth"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "ほくち"
+      ]
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "burner",
+        "nozzle",
+        "origin of a fire"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "ひぐち"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1193860",
+      "isBase": true,
+      "originalPrimaryReading": "かこう",
+      "originalGlosses": [
+        "(volcanic) crater",
+        "caldera"
+      ]
+    },
+    {
+      "id": "2706740",
+      "isBase": false,
+      "originalPrimaryReading": "ほくち",
+      "originalGlosses": [
+        "tinder",
+        "touchwood",
+        "charcloth"
+      ]
+    },
+    {
+      "id": "1724250",
+      "isBase": false,
+      "originalPrimaryReading": "ひぐち",
+      "originalGlosses": [
+        "burner",
+        "nozzle",
+        "origin of a fire"
+      ]
+    }
+  ],
+  "components": [
+    "1193610",
+    "1275640"
+  ]
+}

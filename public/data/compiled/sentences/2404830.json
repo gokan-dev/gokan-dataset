@@ -1,0 +1,79 @@
+[
+  {
+    "id": "225723",
+    "original": "クイズ番組は７時のニュースのあとだ。",
+    "en": [
+      {
+        "id": "63060",
+        "text": "The quiz show follows the 7 o'clock news."
+      }
+    ],
+    "indices": "クイズ番組~ は 時(じ)[01]{時の} ニュース の 後(あと){あと} だ",
+    "vocabIds": [
+      "2404830",
+      "2845363"
+    ],
+    "matches": {
+      "2404830": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "くいずばんぐみ"
+        }
+      ],
+      "2845363": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ななじ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8923777",
+    "original": "あまりにも難しいクイズ番組なのに、賞金は意外と低い。",
+    "en": [
+      {
+        "id": "12392529",
+        "text": "Even though it is an unnecessarily difficult quiz show, the prize money is surprisingly little."
+      }
+    ],
+    "vocabIds": [
+      "2404830",
+      "1460850",
+      "1351930",
+      "1434180"
+    ],
+    "matches": {
+      "1351930": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "しょうきん"
+        }
+      ],
+      "1434180": [
+        {
+          "start": 23,
+          "length": 2,
+          "reading": "ひくい"
+        }
+      ],
+      "1460850": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "むずかしい"
+        }
+      ],
+      "2404830": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "くいずばんぐみ"
+        }
+      ]
+    }
+  }
+]

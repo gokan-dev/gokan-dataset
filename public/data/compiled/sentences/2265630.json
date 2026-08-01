@@ -1,0 +1,257 @@
+[
+  {
+    "id": "74914",
+    "original": "お肉の焼き加減は、いかがなさいますか？",
+    "en": [
+      {
+        "id": "328805",
+        "text": "How would you like your steak cooked?"
+      }
+    ],
+    "indices": "御(お){お} 肉(にく)[02] の 焼く[01]{焼き} 加減[01]~ は 如何(いかが){いかが} 為さる{なさいます} か",
+    "vocabIds": [
+      "2265630",
+      "1190080",
+      "1463520"
+    ],
+    "matches": {
+      "1190080": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "かげん"
+        }
+      ],
+      "1463520": [
+        {
+          "start": 1,
+          "length": 1,
+          "reading": "にく"
+        }
+      ],
+      "2265630": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "やき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "117337",
+    "original": "彼の今回の判断、理解に苦しむね。焼きが回ったということかね。",
+    "en": [
+      {
+        "id": "286327",
+        "text": "I have a hard time seeing the logic of this latest decision of his. He just isn't as sharp as he used to be."
+      }
+    ],
+    "indices": "彼(かれ)[01]{彼の} 今回 の 判断 理解 に 苦しむ ね(#2029080)[01] 焼きが回る{焼きが回った}~ と[04] 言う{いう} 事(こと){こと} か ね(#2029080)[01]",
+    "vocabIds": [
+      "2835593",
+      "1342050",
+      "1604300",
+      "2255060",
+      "1000420",
+      "1289070",
+      "1478620",
+      "2265630"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれの"
+        }
+      ],
+      "1289070": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "こんかい"
+        }
+      ],
+      "1342050": [
+        {
+          "start": 19,
+          "length": 3,
+          "reading": "まわった"
+        }
+      ],
+      "1478620": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "はんだん"
+        }
+      ],
+      "1604300": [
+        {
+          "start": 19,
+          "length": 3,
+          "reading": "まわった"
+        }
+      ],
+      "2255060": [
+        {
+          "start": 19,
+          "length": 3,
+          "reading": "まわった"
+        }
+      ],
+      "2265630": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "やき"
+        }
+      ],
+      "2835593": [
+        {
+          "start": 8,
+          "length": 6,
+          "reading": "りかいにくるしむ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9803183",
+    "original": "ステーキの焼き加減はどういたしましょう？",
+    "en": [
+      {
+        "id": "51914",
+        "text": "How would you like your steak?"
+      }
+    ],
+    "vocabIds": [
+      "2265630",
+      "1190080"
+    ],
+    "matches": {
+      "1190080": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "かげん"
+        }
+      ],
+      "2265630": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "やき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10701592",
+    "original": "「昨日ね、お好み焼き食べに行ってきた」「いいね！羨ましいな〜」「写真も撮ったよ。見る？」「うん！あー、おいしそう」「この白いのはね、ダブルチーズ焼きよ。一緒に行ったら、これにしようね」",
+    "en": [
+      {
+        "id": "10712754",
+        "text": "\"I went out for some okonomiyaki yesterday.\" \"Nice! I'm jealous.\" \"I also took some pictures. Want to see them?\" \"Yeah! Ohh, they look so good.\" \"This white one over here is double cheese. Let's try it whenever we go together.\""
+      }
+    ],
+    "vocabIds": [
+      "1001890",
+      "1578850",
+      "1391940",
+      "1163420",
+      "1298790",
+      "1358280",
+      "1579260",
+      "1321900",
+      "1259290",
+      "1474910",
+      "2265630"
+    ],
+    "matches": {
+      "1001890": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "おこのみやき"
+        }
+      ],
+      "1163420": [
+        {
+          "start": 76,
+          "length": 3,
+          "reading": "いっしょに"
+        }
+      ],
+      "1259290": [
+        {
+          "start": 40,
+          "length": 2,
+          "reading": "みる"
+        }
+      ],
+      "1298790": [
+        {
+          "start": 35,
+          "length": 3,
+          "reading": "とった"
+        }
+      ],
+      "1321900": [
+        {
+          "start": 32,
+          "length": 2,
+          "reading": "しゃしん"
+        }
+      ],
+      "1358280": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "たべ"
+        }
+      ],
+      "1391940": [
+        {
+          "start": 24,
+          "length": 4,
+          "reading": "うらやましい"
+        }
+      ],
+      "1474910": [
+        {
+          "start": 60,
+          "length": 2,
+          "reading": "しろい"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 13,
+          "length": 5,
+          "reading": "いってきた"
+        },
+        {
+          "start": 79,
+          "length": 4,
+          "reading": "いったら"
+        }
+      ],
+      "1579260": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "きのう"
+        }
+      ],
+      "2265630": [
+        {
+          "start": 72,
+          "length": 2,
+          "reading": "やき"
+        }
+      ]
+    }
+  }
+]

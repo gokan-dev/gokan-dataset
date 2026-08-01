@@ -1,0 +1,132 @@
+[
+  {
+    "id": "109458",
+    "original": "彼は何か気にかかることがあるようだ。",
+    "en": [
+      {
+        "id": "294232",
+        "text": "He seems to have something on his mind."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 何か 気に掛かる{気にかかる}~ 事がある{ことがある} 様だ{ようだ}",
+    "vocabIds": [
+      "1639560",
+      "1188270",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1188270": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "なにか"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1639560": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "きにかかる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "212848",
+    "original": "そのニュースが気にかかる。",
+    "en": [
+      {
+        "id": "50134",
+        "text": "The news makes us uneasy."
+      }
+    ],
+    "indices": "其の[01]{その} ニュース が 気に掛かる{気にかかる}",
+    "vocabIds": [
+      "1639560"
+    ],
+    "matches": {
+      "1639560": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "きにかかる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1200724",
+    "original": "体重が気にかかる。",
+    "en": [
+      {
+        "id": "1200741",
+        "text": "I'm worried about my weight."
+      }
+    ],
+    "vocabIds": [
+      "1639560",
+      "1409540"
+    ],
+    "matches": {
+      "1409540": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "たいじゅう"
+        }
+      ],
+      "1639560": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "きにかかる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8758035",
+    "original": "豚インフルエンザのことが気に掛かるんですか？",
+    "en": [
+      {
+        "id": "7131628",
+        "text": "Are you concerned about swine flu?"
+      }
+    ],
+    "vocabIds": [
+      "2444970",
+      "1639560"
+    ],
+    "matches": {
+      "1639560": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "きにかかる"
+        }
+      ],
+      "2444970": [
+        {
+          "start": 0,
+          "length": 8,
+          "reading": "ぶたいんふるえんざ"
+        }
+      ]
+    }
+  }
+]

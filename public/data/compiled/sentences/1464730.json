@@ -1,0 +1,678 @@
+[
+  {
+    "id": "101443",
+    "original": "彼は日本製の車を持っています。",
+    "en": [
+      {
+        "id": "302252",
+        "text": "He has a Japanese car."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 日本製 の 車(くるま) を 持つ{持っています}",
+    "vocabIds": [
+      "1315720",
+      "1464730",
+      "1000420",
+      "1483070",
+      "1323080"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1315720": [
+        {
+          "start": 8,
+          "length": 6,
+          "reading": "もっています"
+        }
+      ],
+      "1323080": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1464730": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "にっぽんせい"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "122211",
+    "original": "日本製の車を見て下さい。",
+    "en": [
+      {
+        "id": "281792",
+        "text": "Look at the car made in Japan."
+      }
+    ],
+    "indices": "日本 製 の 車(くるま) を 見る{見て} 下さい",
+    "vocabIds": [
+      "1259290",
+      "1464730",
+      "1323080"
+    ],
+    "matches": {
+      "1259290": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "みてください"
+        }
+      ],
+      "1323080": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1464730": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "にっぽんせい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "122212",
+    "original": "日本製の時計を持っていますが、とても時間が正確です。",
+    "en": [
+      {
+        "id": "281791",
+        "text": "I have a watch of Japanese make, which keeps very good time."
+      }
+    ],
+    "indices": "日本 製 の 時計 を 持つ{持っています} が 迚も[01]{とても} 時間 が 正確 です",
+    "vocabIds": [
+      "1315720",
+      "1464730",
+      "1316140",
+      "1315920",
+      "1376760"
+    ],
+    "matches": {
+      "1315720": [
+        {
+          "start": 7,
+          "length": 7,
+          "reading": "もっていますが"
+        }
+      ],
+      "1315920": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "じかん"
+        }
+      ],
+      "1316140": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "とけい"
+        }
+      ],
+      "1376760": [
+        {
+          "start": 21,
+          "length": 2,
+          "reading": "せいかく"
+        }
+      ],
+      "1464730": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "にっぽんせい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "215234",
+    "original": "ジョンは日本製の車をもっている。",
+    "en": [
+      {
+        "id": "52532",
+        "text": "John has a car made in Japan."
+      }
+    ],
+    "indices": "は 日本製 の 車(くるま) を 持つ{もっている}",
+    "vocabIds": [
+      "1464730",
+      "1323080"
+    ],
+    "matches": {
+      "1323080": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1464730": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "にっぽんせい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "217890",
+    "original": "これらの自動車は大部分が日本製だ。",
+    "en": [
+      {
+        "id": "55200",
+        "text": "These automobiles, for the most part, are manufactured in Japan."
+      }
+    ],
+    "indices": "此れ等{これらの} 自動車 は 大部分 が 日本製 だ",
+    "vocabIds": [
+      "1318400",
+      "1414850",
+      "1464730"
+    ],
+    "matches": {
+      "1318400": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "じどうしゃ"
+        }
+      ],
+      "1414850": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "だいぶぶん"
+        }
+      ],
+      "1464730": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "にっぽんせい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "217991",
+    "original": "これらのカメラは日本製です。",
+    "en": [
+      {
+        "id": "55300",
+        "text": "These cameras are made in Japan."
+      }
+    ],
+    "indices": "此れ等{これらの} カメラ は 日本製 です",
+    "vocabIds": [
+      "1464730"
+    ],
+    "matches": {
+      "1464730": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "にっぽんせい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "218155",
+    "original": "これは日本製の時計です。",
+    "en": [
+      {
+        "id": "55467",
+        "text": "This is a watch made in Japan."
+      }
+    ],
+    "indices": "此れ[01]{これ} は 日本製 の 時計 です",
+    "vocabIds": [
+      "1464730",
+      "1316140"
+    ],
+    "matches": {
+      "1316140": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "とけい"
+        }
+      ],
+      "1464730": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "にっぽんせい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "218156",
+    "original": "これは日本製のストップウオッチ。",
+    "en": [
+      {
+        "id": "55468",
+        "text": "This is a stop watch made in Japan."
+      }
+    ],
+    "indices": "此れ[01]{これ} は 日本製 の ストップウオッチ~",
+    "vocabIds": [
+      "1464730"
+    ],
+    "matches": {
+      "1464730": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "にっぽんせい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "218162",
+    "original": "これは日本で作られた日本製の車です。",
+    "en": [
+      {
+        "id": "55474",
+        "text": "This is the car made in Japan."
+      }
+    ],
+    "indices": "此れ[01]{これ} は 日本 で(#2028980) 作る[01]{作られた} 日本製 の 車(くるま) です",
+    "vocabIds": [
+      "1464730",
+      "1582710",
+      "1597890",
+      "1323080"
+    ],
+    "matches": {
+      "1323080": [
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1464730": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "にっぽんせい"
+        }
+      ],
+      "1582710": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "にっぽん"
+        }
+      ],
+      "1597890": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "つくら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "221377",
+    "original": "この車は日本製です。",
+    "en": [
+      {
+        "id": "58703",
+        "text": "This car is made in Japan."
+      },
+      {
+        "id": "8268884",
+        "text": "It's a Japanese car."
+      }
+    ],
+    "indices": "此の{この} 車(くるま) は 日本製 です",
+    "vocabIds": [
+      "1464730",
+      "1323080"
+    ],
+    "matches": {
+      "1323080": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1464730": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "にっぽんせい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "221588",
+    "original": "この時計は日本製です。",
+    "en": [
+      {
+        "id": "58912",
+        "text": "This watch is made in Japan."
+      }
+    ],
+    "indices": "此の{この} 時計 は 日本製 です",
+    "vocabIds": [
+      "1464730",
+      "1316140"
+    ],
+    "matches": {
+      "1316140": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "とけい"
+        }
+      ],
+      "1464730": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "にっぽんせい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "995343",
+    "original": "この車は日本製だ。",
+    "en": [
+      {
+        "id": "58702",
+        "text": "This car was made in Japan."
+      }
+    ],
+    "vocabIds": [
+      "1464730",
+      "1323080"
+    ],
+    "matches": {
+      "1323080": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1464730": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "にっぽんせい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "995346",
+    "original": "この自動車は日本製だ。",
+    "en": [
+      {
+        "id": "58702",
+        "text": "This car was made in Japan."
+      }
+    ],
+    "vocabIds": [
+      "1318400",
+      "1464730"
+    ],
+    "matches": {
+      "1318400": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "じどうしゃ"
+        }
+      ],
+      "1464730": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "にっぽんせい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3465007",
+    "original": "日本製の車は世界中で使われている。",
+    "en": [
+      {
+        "id": "281260",
+        "text": "Cars made in Japan are used all over the world."
+      }
+    ],
+    "vocabIds": [
+      "1464730",
+      "1753790",
+      "1305990",
+      "1323080"
+    ],
+    "matches": {
+      "1305990": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "つかわ"
+        }
+      ],
+      "1323080": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1464730": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "にっぽんせい"
+        }
+      ],
+      "1753790": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "せかいじゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9826197",
+    "original": "こちらの車は日本製です。",
+    "en": [
+      {
+        "id": "55193",
+        "text": "These cars are made in Japan."
+      }
+    ],
+    "vocabIds": [
+      "1464730",
+      "1323080"
+    ],
+    "matches": {
+      "1323080": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1464730": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "にっぽんせい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11365175",
+    "original": "トムは日本製のカメラを買ったんだ。",
+    "en": [
+      {
+        "id": "1026991",
+        "text": "Tom bought a camera that was made in Japan."
+      }
+    ],
+    "vocabIds": [
+      "1464730",
+      "1473740"
+    ],
+    "matches": {
+      "1464730": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "にっぽんせい"
+        }
+      ],
+      "1473740": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "かった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11605340",
+    "original": "私が買った日本製の高性能炊飯ジャーなんだけど、買うだけのことはあるわ。",
+    "en": [
+      {
+        "id": "3076630",
+        "text": "The Japanese high tech rice cooker that I bought is really worth every penny."
+      }
+    ],
+    "vocabIds": [
+      "2749070",
+      "1464730",
+      "1283650",
+      "1473740",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1283650": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "こうせいのう"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1464730": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "にっぽんせい"
+        }
+      ],
+      "1473740": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "かった"
+        },
+        {
+          "start": 23,
+          "length": 2,
+          "reading": "かう"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2749070": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "すいはんじゃー"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11771632",
+    "original": "こちらは日本製のカメラです。",
+    "en": [
+      {
+        "id": "55475",
+        "text": "This is a camera made in Japan."
+      },
+      {
+        "id": "12369202",
+        "text": "This is a Japanese camera."
+      }
+    ],
+    "vocabIds": [
+      "1464730"
+    ],
+    "matches": {
+      "1464730": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "にっぽんせい"
+        }
+      ]
+    }
+  }
+]

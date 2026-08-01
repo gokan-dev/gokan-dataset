@@ -1,0 +1,76 @@
+[
+  {
+    "id": "221029",
+    "original": "この新人歌手は本当にすばらしい。",
+    "en": [
+      {
+        "id": "58351",
+        "text": "This new singer is really great."
+      }
+    ],
+    "indices": "此の{この} 新人歌手~ は 本当に 素晴らしい{すばらしい}",
+    "vocabIds": [
+      "1939030",
+      "1611580"
+    ],
+    "matches": {
+      "1611580": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "ほんとうに"
+        }
+      ],
+      "1939030": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "しんじんかしゅ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "225358",
+    "original": "ケイトはよくテレビに出演する新人歌手に夢中になっています。",
+    "en": [
+      {
+        "id": "62695",
+        "text": "Kate is crazy about the new singer who appears on television frequently."
+      },
+      {
+        "id": "661118",
+        "text": "Kate is crazy about a new singer who often appears on TV."
+      }
+    ],
+    "indices": "は 良く{よく} テレビ に 出演[01] 為る(する){する} 新人歌手 に 夢中 になる{になっています}",
+    "vocabIds": [
+      "1939030",
+      "1338290",
+      "1529500"
+    ],
+    "matches": {
+      "1338290": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "しゅつえん"
+        }
+      ],
+      "1529500": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "むちゅう"
+        }
+      ],
+      "1939030": [
+        {
+          "start": 14,
+          "length": 4,
+          "reading": "しんじんかしゅ"
+        }
+      ]
+    }
+  }
+]

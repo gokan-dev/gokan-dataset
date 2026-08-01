@@ -1,0 +1,147 @@
+[
+  {
+    "id": "74242",
+    "original": "偏頭痛がおこったときに対処するだけではなく、普段の生活のなかで、偏頭痛をなるべく防いでいくのも大事なことです。",
+    "en": [
+      {
+        "id": "329478",
+        "text": "It's the prevention of migraines during daily life that's important, not dealing with migraines when they occur."
+      }
+    ],
+    "indices": "偏頭痛~ が 起こる{おこった} 時(とき){とき} に 対処 為る(する){する} 丈(だけ){だけ} だ{ではなく} 普段 の 生活 の 中(なか){なか} で(#2028980) 偏頭痛 を 成るべく{なるべく} 防ぐ{防いで} 行く{いく} の も 大事(だいじ)[01]{大事な} 事(こと){こと} です",
+    "vocabIds": [
+      "1520190",
+      "1583940",
+      "1410070",
+      "1497180",
+      "1378860",
+      "1413940"
+    ],
+    "matches": {
+      "1378860": [
+        {
+          "start": 25,
+          "length": 2,
+          "reading": "せいかつ"
+        }
+      ],
+      "1410070": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "たいしょ"
+        }
+      ],
+      "1413940": [
+        {
+          "start": 47,
+          "length": 2,
+          "reading": "だいじ"
+        }
+      ],
+      "1497180": [
+        {
+          "start": 22,
+          "length": 2,
+          "reading": "ふだん"
+        }
+      ],
+      "1520190": [
+        {
+          "start": 40,
+          "length": 5,
+          "reading": "ふせいでいく"
+        }
+      ],
+      "1583940": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "へんずつう"
+        },
+        {
+          "start": 32,
+          "length": 3,
+          "reading": "へんずつう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "83390",
+    "original": "偏頭痛がします。",
+    "en": [
+      {
+        "id": "320325",
+        "text": "I have a migraine."
+      },
+      {
+        "id": "9353173",
+        "text": "I've got a migraine."
+      },
+      {
+        "id": "6665835",
+        "text": "I have a migraine headache."
+      },
+      {
+        "id": "9738080",
+        "text": "I've got a migraine headache."
+      }
+    ],
+    "indices": "偏頭痛 が 為る(する){します}",
+    "vocabIds": [
+      "1583940"
+    ],
+    "matches": {
+      "1583940": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "へんずつう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "5845216",
+    "original": "トムは何年も偏頭痛に苦しんだ。",
+    "en": [
+      {
+        "id": "5922347",
+        "text": "Tom suffered from migraine headaches for years."
+      },
+      {
+        "id": "682105",
+        "text": "For years, Tom suffered from migraine headaches."
+      }
+    ],
+    "vocabIds": [
+      "1244350",
+      "1583940",
+      "1189250"
+    ],
+    "matches": {
+      "1189250": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "なんねん"
+        }
+      ],
+      "1244350": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "くるしんだ"
+        }
+      ],
+      "1583940": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "へんずつう"
+        }
+      ]
+    }
+  }
+]

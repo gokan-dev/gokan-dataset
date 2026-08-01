@@ -1,0 +1,101 @@
+[
+  {
+    "id": "76976",
+    "original": "「怒ってない。ほら見て、このにこやかな笑顔」「それは作り笑いっていうんですよ」",
+    "en": [
+      {
+        "id": "326744",
+        "text": "\"I'm not angry. Look, see this smiling face?\" \"That's what they call a forced smile!\""
+      }
+    ],
+    "indices": "怒る(おこる){怒ってない} ほら 見る[01]{見て} 此の{この} 和やか(にこやか){にこやかな}~ 笑顔 其れ[01]{それ} は 作り笑い~ って 言う{いう} のです{んです} よ",
+    "vocabIds": [
+      "1445690",
+      "1297310",
+      "1259290",
+      "1351400"
+    ],
+    "matches": {
+      "1259290": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "みて"
+        }
+      ],
+      "1297310": [
+        {
+          "start": 26,
+          "length": 4,
+          "reading": "つくりわらい"
+        }
+      ],
+      "1351400": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "えがお"
+        }
+      ],
+      "1445690": [
+        {
+          "start": 1,
+          "length": 5,
+          "reading": "おこってない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2916988",
+    "original": "トムは作り笑いをした。",
+    "en": [
+      {
+        "id": "2548611",
+        "text": "Tom forced a smile."
+      }
+    ],
+    "vocabIds": [
+      "1297310"
+    ],
+    "matches": {
+      "1297310": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "つくりわらい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12470056",
+    "original": "トムは作り笑いを浮かべた。",
+    "en": [
+      {
+        "id": "6979647",
+        "text": "Tom forced himself to smile."
+      }
+    ],
+    "vocabIds": [
+      "1297310",
+      "1497360"
+    ],
+    "matches": {
+      "1297310": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "つくりわらい"
+        }
+      ],
+      "1497360": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "うかべた"
+        }
+      ]
+    }
+  }
+]

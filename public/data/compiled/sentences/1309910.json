@@ -1,0 +1,537 @@
+[
+  {
+    "id": "74326",
+    "original": "カウンターの値が指定の「キリ番」になったら記念メッセージを表示させます。",
+    "en": [
+      {
+        "id": "329394",
+        "text": "When the counter value reaches the assigned 'lucky-number' it displays a congratulatory message."
+      }
+    ],
+    "indices": "カウンター[01]~ の 値(あたい) が 指定 の キリ番~ になる[01]{になったら} 記念[01] メッセージ を 表示 為れる{させます}",
+    "vocabIds": [
+      "2206350",
+      "1309910",
+      "1223340",
+      "1489610",
+      "1581630"
+    ],
+    "matches": {
+      "1223340": [
+        {
+          "start": 21,
+          "length": 2,
+          "reading": "きねん"
+        }
+      ],
+      "1309910": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "してい"
+        }
+      ],
+      "1489610": [
+        {
+          "start": 29,
+          "length": 2,
+          "reading": "ひょうじ"
+        }
+      ],
+      "1581630": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "ね"
+        }
+      ],
+      "2206350": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "きりばん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "83409",
+    "original": "別の日をご指定いただけませんか。",
+    "en": [
+      {
+        "id": "320307",
+        "text": "Could you suggest an alternative date?"
+      }
+    ],
+    "indices": "別(べつ){別の} 日(ひ)[04] を 御(ご){ご} 指定 頂ける[01]{いただけません} か",
+    "vocabIds": [
+      "1309910",
+      "1509430",
+      "1463770"
+    ],
+    "matches": {
+      "1309910": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "してい"
+        }
+      ],
+      "1463770": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ひ"
+        }
+      ],
+      "1509430": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "べつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "105993",
+    "original": "彼は私に読むべき本を３冊指定した。",
+    "en": [
+      {
+        "id": "297693",
+        "text": "He assigned me three books to read."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 私(わたし)[01] に 読む 可き{べき} 本(ほん)[01] を 冊(さつ)[02] 指定 為る(する){した}",
+    "vocabIds": [
+      "1456360",
+      "1309910",
+      "1000420",
+      "1483070",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1260670",
+      "1522150",
+      "1579350",
+      "1298520"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1260670": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "ほん"
+        }
+      ],
+      "1298520": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "さつ"
+        }
+      ],
+      "1309910": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "してい"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1456360": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "よむべき"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1522150": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "ほん"
+        }
+      ],
+      "1579350": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "さん"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "122870",
+    "original": "日時は指定されたが、場所は指定されていない。",
+    "en": [
+      {
+        "id": "281132",
+        "text": "The date has been appointed but the place has not."
+      }
+    ],
+    "indices": "日時 は 指定 為れる{された} が 場所 は 指定 為れる{されていない}",
+    "vocabIds": [
+      "1464110",
+      "1309910",
+      "1355850"
+    ],
+    "matches": {
+      "1309910": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "してい"
+        },
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "してい"
+        }
+      ],
+      "1355850": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "ばしょ"
+        }
+      ],
+      "1464110": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "にちじ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "142085",
+    "original": "切符を申し込まれる際は代替日もご指定ください。",
+    "en": [
+      {
+        "id": "272485",
+        "text": "When applying for tickets, please give alternative dates."
+      }
+    ],
+    "indices": "切符 を 申し込む{申し込まれる} 際(さい) は 代替(だいたい)[02]~ 日(ひ)[04] も 御(ご){ご} 指定~ 下さい{ください}",
+    "vocabIds": [
+      "1362890",
+      "1385170",
+      "1581470",
+      "1824770",
+      "1309910",
+      "1296300",
+      "1463770"
+    ],
+    "matches": {
+      "1296300": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "さい"
+        }
+      ],
+      "1309910": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "してい"
+        }
+      ],
+      "1362890": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "もうしこま"
+        }
+      ],
+      "1385170": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きっぷ"
+        }
+      ],
+      "1463770": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "び"
+        }
+      ],
+      "1581470": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "だいたい"
+        }
+      ],
+      "1824770": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "だいたい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "219853",
+    "original": "この母音変化はそれぞれの単語に指定される全体のアクセントパターンと大いに関係している。",
+    "en": [
+      {
+        "id": "57173",
+        "text": "This vowel change has much to do with the overall accent pattern assigned to each word."
+      }
+    ],
+    "indices": "此の{この} 母音~ 変化(へんか)[01] は 夫れ夫れ{それぞれ} の 単語 に 指定 為れる{される} 全体 の アクセント[02] パターン~ と 大いに 関係 為る(する){している}",
+    "vocabIds": [
+      "1412880",
+      "1515020",
+      "1510890",
+      "1417330",
+      "1309910",
+      "1395660",
+      "1215810"
+    ],
+    "matches": {
+      "1215810": [
+        {
+          "start": 36,
+          "length": 2,
+          "reading": "かんけい"
+        }
+      ],
+      "1309910": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "してい"
+        }
+      ],
+      "1395660": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "ぜんたい"
+        }
+      ],
+      "1412880": [
+        {
+          "start": 33,
+          "length": 3,
+          "reading": "おおいに"
+        }
+      ],
+      "1417330": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "たんご"
+        }
+      ],
+      "1510890": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "へんか"
+        }
+      ],
+      "1515020": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ぼいん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "220596",
+    "original": "この地域は保全地域に指定されています。",
+    "en": [
+      {
+        "id": "57918",
+        "text": "This has been designated a conservation area."
+      }
+    ],
+    "indices": "此の{この} 地域 は 保全~ 地域 に 指定 為れる{されています}",
+    "vocabIds": [
+      "1420800",
+      "1513910",
+      "1309910"
+    ],
+    "matches": {
+      "1309910": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "してい"
+        }
+      ],
+      "1420800": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ちいき"
+        },
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ちいき"
+        }
+      ],
+      "1513910": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ほぜん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "509236",
+    "original": "川魚の中には、天然記念物等に指定され保護されているものがいます。捕ったり、購入したりすることもダメです。",
+    "en": [
+      {
+        "id": "509499",
+        "text": "Fresh-water fish include some designated as protected species. You're not allowed to catch or buy them."
+      }
+    ],
+    "vocabIds": [
+      "1439610",
+      "1423320",
+      "1636700",
+      "1309910",
+      "1513530",
+      "1514140",
+      "1282440",
+      "1582305"
+    ],
+    "matches": {
+      "1282440": [
+        {
+          "start": 37,
+          "length": 2,
+          "reading": "こうにゅう"
+        }
+      ],
+      "1309910": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "してい"
+        }
+      ],
+      "1423320": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "なかには"
+        }
+      ],
+      "1439610": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "てんねんきねんぶつ"
+        }
+      ],
+      "1513530": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "ほご"
+        }
+      ],
+      "1514140": [
+        {
+          "start": 32,
+          "length": 2,
+          "reading": "とっ"
+        }
+      ],
+      "1582305": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "とう"
+        }
+      ],
+      "1636700": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かわぎょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9961182",
+    "original": "その映画はアダルト指定だよ。",
+    "en": [
+      {
+        "id": "49531",
+        "text": "The movie is X-rated."
+      }
+    ],
+    "vocabIds": [
+      "1173720",
+      "1309910"
+    ],
+    "matches": {
+      "1173720": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "えいが"
+        }
+      ],
+      "1309910": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "してい"
+        }
+      ]
+    }
+  }
+]

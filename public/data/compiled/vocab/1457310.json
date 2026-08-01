@@ -1,0 +1,125 @@
+{
+  "id": "1457310",
+  "writtenForm": {
+    "kanji": "屯",
+    "alternatives": [
+      "党",
+      "噸",
+      "瓲"
+    ],
+    "containedKanji": [
+      "屯"
+    ]
+  },
+  "reading": {
+    "primary": "たむろ",
+    "alternatives": [
+      "たむら",
+      "トン"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 47043,
+    "kanaRank": 58984
+  },
+  "progression": {
+    "kklcStep": 1100
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "gathering",
+        "place where people gather"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "police station",
+        "camp",
+        "barracks"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "ton (esp. a metric ton, i.e. 1000 kg)",
+        "tonne"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "トン"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": true
+  },
+  "isCommon": false,
+  "mergedVocabs": [
+    {
+      "id": "1457310",
+      "isBase": true,
+      "originalPrimaryReading": "たむろ",
+      "originalGlosses": [
+        "gathering",
+        "place where people gather"
+      ]
+    },
+    {
+      "id": "1457320",
+      "isBase": false,
+      "originalPrimaryReading": "トン",
+      "originalGlosses": [
+        "ton (esp. a metric ton, i.e. 1000 kg)",
+        "tonne"
+      ]
+    }
+  ],
+  "parents": [
+    "1426940"
+  ]
+}

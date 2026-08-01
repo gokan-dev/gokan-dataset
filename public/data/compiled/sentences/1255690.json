@@ -1,0 +1,56 @@
+[
+  {
+    "id": "197722",
+    "original": "ピアノの月謝ちょうだい。",
+    "en": [
+      {
+        "id": "34909",
+        "text": "Could I have money for my piano lesson?"
+      }
+    ],
+    "indices": "ピアノ[01] の 月謝 頂戴[02]{ちょうだい}",
+    "vocabIds": [
+      "1255690"
+    ],
+    "matches": {
+      "1255690": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "げっしゃ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "223672",
+    "original": "このスイミングスクールの毎月の月謝はいくらですか。",
+    "en": [
+      {
+        "id": "61008",
+        "text": "How much is the monthly fee of this swimming school?"
+      }
+    ],
+    "indices": "此の{この} スイミングスクール~ の 毎月 の 月謝~ は 幾ら{いくら} ですか",
+    "vocabIds": [
+      "1584350",
+      "1255690"
+    ],
+    "matches": {
+      "1255690": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "げっしゃ"
+        }
+      ],
+      "1584350": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "まいつき"
+        }
+      ]
+    }
+  }
+]

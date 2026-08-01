@@ -1,0 +1,96 @@
+[
+  {
+    "id": "104342",
+    "original": "彼は重荷に喘いだ。",
+    "en": [
+      {
+        "id": "299349",
+        "text": "He panted under a heavy load."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 重荷 に 喘ぐ{喘いだ}",
+    "vocabIds": [
+      "1565350",
+      "1579940",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1565350": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "あえいだ"
+        }
+      ],
+      "1579940": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "おもに"
+        }
+      ]
+    }
+  },
+  {
+    "id": "627718",
+    "original": "不況に喘ぐ店が急増している。",
+    "en": [
+      {
+        "id": "627719",
+        "text": "There is a rapid increase in shops struggling in the depression."
+      }
+    ],
+    "indices": "不況 に 喘ぐ 店(みせ) が 急増 為る(する){している}",
+    "vocabIds": [
+      "1491950",
+      "1565350",
+      "1228870",
+      "1582120"
+    ],
+    "matches": {
+      "1228870": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "きゅうぞう"
+        }
+      ],
+      "1491950": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ふきょう"
+        }
+      ],
+      "1565350": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "あえぐ"
+        }
+      ],
+      "1582120": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "みせ"
+        }
+      ]
+    }
+  }
+]

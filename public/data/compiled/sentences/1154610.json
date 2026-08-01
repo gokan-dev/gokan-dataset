@@ -1,0 +1,236 @@
+[
+  {
+    "id": "74885",
+    "original": "偽造カードと暗証番号が揃えば、口座にある限りの現金が引き出されてしまう。",
+    "en": [
+      {
+        "id": "328834",
+        "text": "If they can get both a forged card and its PIN then all the cash in the bank account will be withdrawn."
+      }
+    ],
+    "indices": "偽造カード~ と 暗証番号~ が 揃う[01]{揃えば} 口座 に ある限り[02] 之(の)[01]{の} 現金 が 引き出す{引き出されて} 仕舞う{しまう}",
+    "vocabIds": [
+      "2268010",
+      "1154610",
+      "1745510",
+      "1601660",
+      "1406110",
+      "1276150",
+      "1263550"
+    ],
+    "matches": {
+      "1154610": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "あんしょうばんごう"
+        }
+      ],
+      "1263550": [
+        {
+          "start": 23,
+          "length": 2,
+          "reading": "げんきん"
+        }
+      ],
+      "1276150": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "こうざ"
+        }
+      ],
+      "1406110": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "そろえば"
+        }
+      ],
+      "1601660": [
+        {
+          "start": 26,
+          "length": 4,
+          "reading": "ひきださ"
+        }
+      ],
+      "1745510": [
+        {
+          "start": 18,
+          "length": 4,
+          "reading": "あるかぎり"
+        }
+      ],
+      "2268010": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "ぎぞうかーど"
+        }
+      ]
+    }
+  },
+  {
+    "id": "191248",
+    "original": "暗証番号を押してください。",
+    "en": [
+      {
+        "id": "28408",
+        "text": "Please input your PIN number."
+      }
+    ],
+    "indices": "暗証番号 を 押す[01]{押して} 下さい{ください}",
+    "vocabIds": [
+      "1180470",
+      "1154610"
+    ],
+    "matches": {
+      "1154610": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "あんしょうばんごう"
+        }
+      ],
+      "1180470": [
+        {
+          "start": 5,
+          "length": 7,
+          "reading": "おしてください"
+        }
+      ]
+    }
+  },
+  {
+    "id": "539561",
+    "original": "暗証番号を忘れちゃった！",
+    "en": [
+      {
+        "id": "539557",
+        "text": "I forgot my PIN number!"
+      }
+    ],
+    "vocabIds": [
+      "1519210",
+      "1154610"
+    ],
+    "matches": {
+      "1154610": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "あんしょうばんごう"
+        }
+      ],
+      "1519210": [
+        {
+          "start": 5,
+          "length": 6,
+          "reading": "わすれちゃった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10063868",
+    "original": "暗証番号を入力してください。",
+    "en": [
+      {
+        "id": "28408",
+        "text": "Please input your PIN number."
+      },
+      {
+        "id": "11406696",
+        "text": "Please enter your PIN."
+      }
+    ],
+    "vocabIds": [
+      "1154610",
+      "1466850"
+    ],
+    "matches": {
+      "1154610": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "あんしょうばんごう"
+        }
+      ],
+      "1466850": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "にゅうりょく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11001507",
+    "original": "暗証番号をど忘れしてお金を引き出せない。",
+    "en": [
+      {
+        "id": "11243566",
+        "text": "I forgot my PIN and can't withdraw any money."
+      }
+    ],
+    "vocabIds": [
+      "1154610",
+      "1445240",
+      "1001820"
+    ],
+    "matches": {
+      "1001820": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "おかね"
+        }
+      ],
+      "1154610": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "あんしょうばんごう"
+        }
+      ],
+      "1445240": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "どわすれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11257846",
+    "original": "セーフティボックスの暗証番号を忘れてしまった。",
+    "en": [
+      {
+        "id": "10489899",
+        "text": "I forgot the code for the safe deposit box."
+      }
+    ],
+    "vocabIds": [
+      "1519210",
+      "1154610"
+    ],
+    "matches": {
+      "1154610": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "あんしょうばんごう"
+        }
+      ],
+      "1519210": [
+        {
+          "start": 15,
+          "length": 7,
+          "reading": "わすれてしまった"
+        }
+      ]
+    }
+  }
+]

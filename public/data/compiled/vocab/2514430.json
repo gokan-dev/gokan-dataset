@@ -1,0 +1,134 @@
+{
+  "id": "2514430",
+  "writtenForm": {
+    "kanji": "夏中",
+    "alternatives": [
+      "夏じゅう"
+    ],
+    "containedKanji": [
+      "夏",
+      "中"
+    ]
+  },
+  "reading": {
+    "primary": "げちゅう",
+    "alternatives": [
+      "なつじゅう",
+      "なつなか"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 74815
+  },
+  "progression": {
+    "kklcStep": 363
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "period during which monks may go into a summer retreat"
+      ],
+      "related": {
+        "compounds": [
+          "夏安居"
+        ]
+      }
+    },
+    {
+      "pos": [
+        "n",
+        "adv"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "whole summer",
+        "summer long"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "なつじゅう"
+      ]
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "midsummer",
+        "height of summer"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "なつなか"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": false,
+  "mergedVocabs": [
+    {
+      "id": "2514430",
+      "isBase": true,
+      "originalPrimaryReading": "げちゅう",
+      "originalGlosses": [
+        "period during which monks may go into a summer retreat"
+      ]
+    },
+    {
+      "id": "2514440",
+      "isBase": false,
+      "originalPrimaryReading": "なつじゅう",
+      "originalGlosses": [
+        "whole summer",
+        "summer long"
+      ]
+    },
+    {
+      "id": "2667980",
+      "isBase": false,
+      "originalPrimaryReading": "なつなか",
+      "originalGlosses": [
+        "midsummer",
+        "height of summer"
+      ]
+    }
+  ],
+  "components": [
+    "1191320",
+    "1423310"
+  ]
+}

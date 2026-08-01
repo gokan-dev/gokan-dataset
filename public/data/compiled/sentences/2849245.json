@@ -1,0 +1,104 @@
+[
+  {
+    "id": "102415",
+    "original": "彼は大工仕事がうまい。",
+    "en": [
+      {
+        "id": "301279",
+        "text": "He is a good carpenter."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 大工 仕事[01] が 上手い[01]{うまい}",
+    "vocabIds": [
+      "2849245",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "2849245": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "だいくしごと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "155205",
+    "original": "私は大工仕事が下手です。",
+    "en": [
+      {
+        "id": "259334",
+        "text": "I'm a poor carpenter."
+      },
+      {
+        "id": "1228974",
+        "text": "I'm not a very good carpenter."
+      },
+      {
+        "id": "1228975",
+        "text": "I'm not good at carpentry."
+      }
+    ],
+    "indices": "私(わたし)[01] は 大工 仕事[01] が 下手(へた)[01] です",
+    "vocabIds": [
+      "2849245",
+      "1185190",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1185190": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "へた"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2849245": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "だいくしごと"
+        }
+      ]
+    }
+  }
+]

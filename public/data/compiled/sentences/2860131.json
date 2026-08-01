@@ -1,0 +1,113 @@
+[
+  {
+    "id": "100999",
+    "original": "彼は彼女に見覚えがある。",
+    "en": [
+      {
+        "id": "302698",
+        "text": "He knows her by sight."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 彼女 に 見覚え~ が[01] 有る{ある}",
+    "vocabIds": [
+      "2860131",
+      "1483150",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "2860131": [
+        {
+          "start": 5,
+          "length": 6,
+          "reading": "みおぼえがある"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2121387",
+    "original": "トムに見覚えがあると思った。",
+    "en": [
+      {
+        "id": "1961259",
+        "text": "I thought I recognized Tom."
+      },
+      {
+        "id": "7174163",
+        "text": "I thought that I recognized Tom."
+      }
+    ],
+    "vocabIds": [
+      "2860131",
+      "1589350"
+    ],
+    "matches": {
+      "1589350": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "おもった"
+        }
+      ],
+      "2860131": [
+        {
+          "start": 3,
+          "length": 6,
+          "reading": "みおぼえがある"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10183587",
+    "original": "あの顔に見覚えがある。",
+    "en": [
+      {
+        "id": "9471917",
+        "text": "I've seen that face before."
+      }
+    ],
+    "vocabIds": [
+      "2860131",
+      "1217730"
+    ],
+    "matches": {
+      "1217730": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "かお"
+        }
+      ],
+      "2860131": [
+        {
+          "start": 4,
+          "length": 6,
+          "reading": "みおぼえがある"
+        }
+      ]
+    }
+  }
+]

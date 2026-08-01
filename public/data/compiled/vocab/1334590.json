@@ -1,0 +1,103 @@
+{
+  "id": "1334590",
+  "writtenForm": {
+    "kanji": "十五",
+    "alternatives": [
+      "１５",
+      "一五"
+    ],
+    "containedKanji": [
+      "十",
+      "五"
+    ]
+  },
+  "reading": {
+    "primary": "じゅうご",
+    "alternatives": [
+      "トゴ"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 3642,
+    "kanaRank": 137758
+  },
+  "progression": {
+    "kklcStep": 7
+  },
+  "senses": [
+    {
+      "pos": [
+        "num"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "fifteen",
+        "15"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "black-market loan charging 50% interest every ten days"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "トゴ"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1334590",
+      "isBase": true,
+      "originalPrimaryReading": "じゅうご",
+      "originalGlosses": [
+        "fifteen",
+        "15"
+      ]
+    },
+    {
+      "id": "2855820",
+      "isBase": false,
+      "originalPrimaryReading": "トゴ",
+      "originalGlosses": [
+        "black-market loan charging 50% interest every ten days"
+      ]
+    }
+  ],
+  "components": [
+    "1579840",
+    "1268060"
+  ],
+  "parents": [
+    "1334600"
+  ]
+}

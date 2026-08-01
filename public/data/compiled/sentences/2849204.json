@@ -1,0 +1,135 @@
+[
+  {
+    "id": "12070401",
+    "original": "完読した？",
+    "en": [
+      {
+        "id": "6110401",
+        "text": "Have you read the whole book?"
+      }
+    ],
+    "indices": "完読~ 為る(する){した}",
+    "vocabIds": [
+      "2849204"
+    ],
+    "matches": {
+      "2849204": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12076731",
+    "original": "一晩で完読しました。",
+    "en": [
+      {
+        "id": "27300",
+        "text": "I read the whole book in one evening."
+      }
+    ],
+    "vocabIds": [
+      "1165960",
+      "2849204"
+    ],
+    "matches": {
+      "1165960": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いちばん"
+        }
+      ],
+      "2849204": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12076732",
+    "original": "一日で完読しました。",
+    "en": [
+      {
+        "id": "5287197",
+        "text": "I read the whole book in a day."
+      },
+      {
+        "id": "5287198",
+        "text": "I read the whole book in one day."
+      }
+    ],
+    "vocabIds": [
+      "1576260",
+      "2225030",
+      "2225040",
+      "2849204"
+    ],
+    "matches": {
+      "1576260": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いちにち"
+        }
+      ],
+      "2225030": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いちにち"
+        }
+      ],
+      "2225040": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いちにち"
+        }
+      ],
+      "2849204": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12076735",
+    "original": "昨夜、完読しました。",
+    "en": [
+      {
+        "id": "257823",
+        "text": "I finished reading the book last night."
+      }
+    ],
+    "vocabIds": [
+      "1542640",
+      "2849204"
+    ],
+    "matches": {
+      "1542640": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "さくや"
+        }
+      ],
+      "2849204": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かん"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "75906",
+    "original": "体温上昇、脈拍上昇・・・酸素欠乏状態です。",
+    "en": [
+      {
+        "id": "327812",
+        "text": "Body temperature rising, pulse rising ... he's in a state of oxygen deficiency."
+      }
+    ],
+    "indices": "体温 上昇 脈拍~ 上昇 酸素欠乏~ 状態 です",
+    "vocabIds": [
+      "2216290",
+      "1409250",
+      "1353450",
+      "1604710",
+      "1356730"
+    ],
+    "matches": {
+      "1353450": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "じょうしょう"
+        },
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "じょうしょう"
+        }
+      ],
+      "1356730": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "じょうたい"
+        }
+      ],
+      "1409250": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "たいおん"
+        }
+      ],
+      "1604710": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "みゃくはく"
+        }
+      ],
+      "2216290": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "さんそけつぼう"
+        }
+      ]
+    }
+  }
+]

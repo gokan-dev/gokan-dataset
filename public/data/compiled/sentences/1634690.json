@@ -1,0 +1,502 @@
+[
+  {
+    "id": "103099",
+    "original": "彼は赤信号にも車を止めなかった。",
+    "en": [
+      {
+        "id": "300594",
+        "text": "He did not stop his car at the red light."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 赤信号 にも 車(くるま) を 止める(とめる){止めなかった}",
+    "vocabIds": [
+      "1310670",
+      "1598820",
+      "1634690",
+      "1000420",
+      "1483070",
+      "1323080"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1310670": [
+        {
+          "start": 9,
+          "length": 6,
+          "reading": "とめなかった"
+        }
+      ],
+      "1323080": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1598820": [
+        {
+          "start": 9,
+          "length": 6,
+          "reading": "とめなかった"
+        }
+      ],
+      "1634690": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "あかしんごう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "142122",
+    "original": "赤信号みんなで渡れば怖くない。",
+    "en": [
+      {
+        "id": "272448",
+        "text": "When everybody's crossing on a red, it's not so scary."
+      }
+    ],
+    "indices": "赤信号 皆{みんな} で(#2028980) 渡る{渡れば} 怖い{怖くない}",
+    "vocabIds": [
+      "1593480",
+      "1634690",
+      "1444680"
+    ],
+    "matches": {
+      "1444680": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "わたれば"
+        }
+      ],
+      "1593480": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "こわくない"
+        }
+      ],
+      "1634690": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あかしんごう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "142123",
+    "original": "赤信号は、「止まれ」を示す。",
+    "en": [
+      {
+        "id": "272447",
+        "text": "The red traffic light indicates \"stop\"."
+      }
+    ],
+    "indices": "赤信号 は 止まる(とまる)[01]{止まれ} を 示す",
+    "vocabIds": [
+      "1634690",
+      "1310620",
+      "1317110"
+    ],
+    "matches": {
+      "1310620": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "とまれ"
+        }
+      ],
+      "1317110": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "しめす"
+        }
+      ],
+      "1634690": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あかしんごう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "142124",
+    "original": "赤信号の時に横断してはいけないと警官は私たちに言いました。",
+    "en": [
+      {
+        "id": "272446",
+        "text": "The policeman told us not to cross the street against the red light."
+      }
+    ],
+    "indices": "赤信号 の 時(とき) に 横断[01] 為る(する){して} は 行けない[02]{いけない} と 警官 は 私たち に 言う{言いました}",
+    "vocabIds": [
+      "1587040",
+      "1634690",
+      "1311300",
+      "2021540",
+      "1180900",
+      "1252330"
+    ],
+    "matches": {
+      "1180900": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "おうだん"
+        }
+      ],
+      "1252330": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "けいかん"
+        }
+      ],
+      "1311300": [
+        {
+          "start": 19,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1587040": [
+        {
+          "start": 23,
+          "length": 5,
+          "reading": "いいました"
+        }
+      ],
+      "1634690": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あかしんごう"
+        }
+      ],
+      "2021540": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ときに"
+        }
+      ]
+    }
+  },
+  {
+    "id": "142125",
+    "original": "赤信号で通りを渡るのは危険だ。",
+    "en": [
+      {
+        "id": "272445",
+        "text": "It's dangerous for you to cross the street when the light is red."
+      }
+    ],
+    "indices": "赤信号[01]~ で(#2028980) 通り(とおり) を[03] 渡る の は 危険 だ",
+    "vocabIds": [
+      "1634690",
+      "1432920",
+      "1444680",
+      "1218560"
+    ],
+    "matches": {
+      "1218560": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "きけん"
+        }
+      ],
+      "1432920": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "とおり"
+        }
+      ],
+      "1444680": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "わたる"
+        }
+      ],
+      "1634690": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あかしんごう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "142126",
+    "original": "赤信号で止まりましたか。",
+    "en": [
+      {
+        "id": "272444",
+        "text": "Did you stop at the red light?"
+      }
+    ],
+    "indices": "赤信号 で(#2028980) 止まる(とまる)[01]{止まりました} か",
+    "vocabIds": [
+      "1310620",
+      "1634690"
+    ],
+    "matches": {
+      "1310620": [
+        {
+          "start": 4,
+          "length": 6,
+          "reading": "とまりました"
+        }
+      ],
+      "1634690": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あかしんごう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "142128",
+    "original": "赤信号が青に変った。",
+    "en": [
+      {
+        "id": "272443",
+        "text": "The light changed from red to green."
+      }
+    ],
+    "indices": "赤信号 が 青 に 変わる{変った}",
+    "vocabIds": [
+      "1634690",
+      "1510790",
+      "1381380"
+    ],
+    "matches": {
+      "1381380": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "あお"
+        }
+      ],
+      "1510790": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "かわった"
+        }
+      ],
+      "1634690": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あかしんごう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "177102",
+    "original": "君は赤信号を無視して走りましたね。",
+    "en": [
+      {
+        "id": "15950",
+        "text": "You ran a red light."
+      }
+    ],
+    "indices": "君(きみ)[01] は 赤信号 を 無視 為る(する){して} 走る{走りました} ね(#2029080)[01]",
+    "vocabIds": [
+      "1402540",
+      "1634690",
+      "1530020",
+      "1247250"
+    ],
+    "matches": {
+      "1247250": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "きみ"
+        }
+      ],
+      "1402540": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "はしりました"
+        }
+      ],
+      "1530020": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "むし"
+        }
+      ],
+      "1634690": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "あかしんごう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "205098",
+    "original": "それは実業人にとって一つの赤信号になる。",
+    "en": [
+      {
+        "id": "42340",
+        "text": "It raises a red flag for businessmen."
+      }
+    ],
+    "indices": "其れ[01]{それ} は 実業~ 人(ひと) に取って{にとって} 一つ の 赤信号[02]~ になる[01]",
+    "vocabIds": [
+      "1634690",
+      "1320940",
+      "1160820",
+      "1580640"
+    ],
+    "matches": {
+      "1160820": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "ひとつ"
+        }
+      ],
+      "1320940": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "じつぎょう"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "じん"
+        }
+      ],
+      "1634690": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "あかしんごう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214034",
+    "original": "せっかちな運転者が赤信号を無視して交差点を通りぬけた。",
+    "en": [
+      {
+        "id": "51324",
+        "text": "An impatient driver forced his way through the crossing against the red light."
+      }
+    ],
+    "indices": "せっかち{せっかちな}~ 運転者 が 赤信号 を 無視 為る(する){して} 交差点 を 通り抜ける{通りぬけた}",
+    "vocabIds": [
+      "1172860",
+      "1634690",
+      "1592970",
+      "1530020",
+      "1432920"
+    ],
+    "matches": {
+      "1172860": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "うんてんしゃ"
+        }
+      ],
+      "1432920": [
+        {
+          "start": 21,
+          "length": 2,
+          "reading": "とおり"
+        }
+      ],
+      "1530020": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "むし"
+        }
+      ],
+      "1592970": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "こうさてん"
+        }
+      ],
+      "1634690": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "あかしんごう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11510695",
+    "original": "あいつ、赤信号で渡ったぞ。",
+    "en": [
+      {
+        "id": "2388920",
+        "text": "He crossed the road on foot at the red light."
+      }
+    ],
+    "vocabIds": [
+      "1634690",
+      "1444680"
+    ],
+    "matches": {
+      "1444680": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "わたった"
+        }
+      ],
+      "1634690": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "あかしんごう"
+        }
+      ]
+    }
+  }
+]

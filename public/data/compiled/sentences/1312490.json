@@ -1,0 +1,110 @@
+[
+  {
+    "id": "95412",
+    "original": "彼女が作ったケーキを試食した。",
+    "en": [
+      {
+        "id": "308293",
+        "text": "I tasted the cake she cooked."
+      }
+    ],
+    "indices": "彼女 が 作る[02]{作った} ケーキ を 試食 為る(する){した}",
+    "vocabIds": [
+      "1597890",
+      "1483150",
+      "1312490"
+    ],
+    "matches": {
+      "1312490": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "ししょく"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1597890": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "つくった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "223826",
+    "original": "このケーキを試食してみよう。",
+    "en": [
+      {
+        "id": "61162",
+        "text": "Let's try this cake."
+      }
+    ],
+    "indices": "此の{この} ケーキ を 試食 為る(する){して} 見る[05]{みよう}",
+    "vocabIds": [
+      "1312490"
+    ],
+    "matches": {
+      "1312490": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ししょく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9712454",
+    "original": "外国人に梅干しを試食させることが大好きです。",
+    "en": [
+      {
+        "id": "9714958",
+        "text": "I love making foreigners try Japanese pickled plums."
+      }
+    ],
+    "vocabIds": [
+      "1203650",
+      "1473500",
+      "1413660",
+      "1312490"
+    ],
+    "matches": {
+      "1203650": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "がいこくじん"
+        }
+      ],
+      "1312490": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "ししょく"
+        }
+      ],
+      "1413660": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "だいすき"
+        }
+      ],
+      "1473500": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "うめぼし"
+        }
+      ]
+    }
+  }
+]

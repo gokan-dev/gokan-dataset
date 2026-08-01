@@ -1,0 +1,84 @@
+[
+  {
+    "id": "187698",
+    "original": "何の略字ですか。",
+    "en": [
+      {
+        "id": "24838",
+        "text": "What does this stand for?"
+      },
+      {
+        "id": "594681",
+        "text": "What is this the abbreviation for?"
+      }
+    ],
+    "indices": "何 の 略字 ですか",
+    "vocabIds": [
+      "1920245",
+      "1552000"
+    ],
+    "matches": {
+      "1552000": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "りゃくじ"
+        }
+      ],
+      "1920245": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "なにの"
+        }
+      ]
+    }
+  },
+  {
+    "id": "234777",
+    "original": "ＷＨＯと言う文字は何の略字ですか。",
+    "en": [
+      {
+        "id": "72155",
+        "text": "What do the letters WHO stand for?"
+      }
+    ],
+    "indices": "と 言う 文字[01] は 何の(なんの) 略字~ ですか",
+    "vocabIds": [
+      "1922760",
+      "1505390",
+      "1920245",
+      "1552000"
+    ],
+    "matches": {
+      "1505390": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "もじ"
+        }
+      ],
+      "1552000": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "りゃくじ"
+        }
+      ],
+      "1920245": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "なにの"
+        }
+      ],
+      "1922760": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "という"
+        }
+      ]
+    }
+  }
+]

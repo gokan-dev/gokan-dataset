@@ -1,0 +1,939 @@
+[
+  {
+    "id": "75502",
+    "original": "食べすぎさえしなければ、必ず痩せると思います。",
+    "en": [
+      {
+        "id": "328216",
+        "text": "I think that as long as I don't overeat, I will certainly lose weight."
+      }
+    ],
+    "indices": "食べる{食べ} 過ぎる(すぎる){すぎ} さえ 為る(する){し} 無ければ{なければ} 必ず 痩せる と 思う{思います}",
+    "vocabIds": [
+      "1358290",
+      "1589350",
+      "1605510",
+      "1487400"
+    ],
+    "matches": {
+      "1358290": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "たべすぎ"
+        }
+      ],
+      "1487400": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "かならず"
+        }
+      ],
+      "1589350": [
+        {
+          "start": 18,
+          "length": 4,
+          "reading": "おもいます"
+        }
+      ],
+      "1605510": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "やせる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "103920",
+    "original": "彼は食べ過ぎに注意した。",
+    "en": [
+      {
+        "id": "299772",
+        "text": "He was cautious about overeating."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 食べ過ぎ~ に 注意 為る(する){した}",
+    "vocabIds": [
+      "1358290",
+      "1426530",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1358290": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "たべすぎ"
+        }
+      ],
+      "1426530": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ちゅうい"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "103921",
+    "original": "彼は食べ過ぎで亡くなった。",
+    "en": [
+      {
+        "id": "299771",
+        "text": "He died from eating too much."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 食べ過ぎる{食べ過ぎ} で(#2028980) 亡くなる{亡くなった}",
+    "vocabIds": [
+      "1518540",
+      "1358290",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1358290": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "たべすぎ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1518540": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "なくなった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "116276",
+    "original": "彼の病気は食べ過ぎが原因だった。",
+    "en": [
+      {
+        "id": "287393",
+        "text": "His illness resulted from eating too much."
+      }
+    ],
+    "indices": "彼(かれ)[01]{彼の} 病気 は 食べ過ぎ が 原因 だ{だった}",
+    "vocabIds": [
+      "1358290",
+      "1000420",
+      "1490230",
+      "1261190"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれの"
+        }
+      ],
+      "1261190": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "げんいん"
+        }
+      ],
+      "1358290": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "たべすぎ"
+        }
+      ],
+      "1490230": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "びょうき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "145920",
+    "original": "食べ過ぎは健康に悪い。",
+    "en": [
+      {
+        "id": "268641",
+        "text": "Eating too much is bad for the health."
+      },
+      {
+        "id": "536360",
+        "text": "Eating too much is bad for your health."
+      }
+    ],
+    "indices": "食べ過ぎ は 健康{健康に} 悪い(わるい)",
+    "vocabIds": [
+      "1358290",
+      "1256170",
+      "1151260",
+      "1403390",
+      "2772730"
+    ],
+    "matches": {
+      "1151260": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "わるい"
+        }
+      ],
+      "1256170": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "けんこう"
+        }
+      ],
+      "1358290": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "たべすぎ"
+        }
+      ],
+      "1403390": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "わるい"
+        }
+      ],
+      "2772730": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "わるい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "145921",
+    "original": "食べ過ぎは健康によくない。",
+    "en": [
+      {
+        "id": "268641",
+        "text": "Eating too much is bad for the health."
+      },
+      {
+        "id": "536360",
+        "text": "Eating too much is bad for your health."
+      }
+    ],
+    "indices": "食べ過ぎ は 健康に良い{健康によくない}",
+    "vocabIds": [
+      "1358290",
+      "1256170"
+    ],
+    "matches": {
+      "1256170": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "けんこう"
+        }
+      ],
+      "1358290": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "たべすぎ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "145922",
+    "original": "食べ過ぎに注意しなければならないことを覚えておきなさい。",
+    "en": [
+      {
+        "id": "268640",
+        "text": "Bear in mind that we must guard against overeating."
+      }
+    ],
+    "indices": "食べ過ぎ に 注意 為る(する){し} ねばならない{なければならない} 事(こと){こと} を 覚える[01]{覚えて} 置く[09]{おきなさい}",
+    "vocabIds": [
+      "1206050",
+      "1358290",
+      "1426530"
+    ],
+    "matches": {
+      "1206050": [
+        {
+          "start": 19,
+          "length": 8,
+          "reading": "おぼえておきなさい"
+        }
+      ],
+      "1358290": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "たべすぎ"
+        }
+      ],
+      "1426530": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ちゅうい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "145937",
+    "original": "食べすぎはいけない。",
+    "en": [
+      {
+        "id": "268625",
+        "text": "You shouldn't eat to excess."
+      }
+    ],
+    "indices": "食べ過ぎ{食べすぎ} は 行けない[02]{いけない}",
+    "vocabIds": [
+      "1358290"
+    ],
+    "matches": {
+      "1358290": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "たべすぎ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "145938",
+    "original": "食べすぎはいいことじゃないわ。",
+    "en": [
+      {
+        "id": "268624",
+        "text": "It's not good to overeat."
+      },
+      {
+        "id": "7197792",
+        "text": "It isn't good to overeat."
+      }
+    ],
+    "indices": "食べ過ぎ{食べすぎ} は いい(#2820690)[01] 事(こと){こと} だ{じゃない} わ",
+    "vocabIds": [
+      "1358290"
+    ],
+    "matches": {
+      "1358290": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "たべすぎ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "155793",
+    "original": "私は食べ過ぎないようにしてる。なぜなら食べ過ぎが健康に悪い事は明らかだから。",
+    "en": [
+      {
+        "id": "258744",
+        "text": "I make it a rule not to eat too much, for it is plain that overeating is bad for the health."
+      },
+      {
+        "id": "478161",
+        "text": "I make it a rule not to eat too much, for it is plain that overeating is bad for your health."
+      }
+    ],
+    "indices": "私(わたし)[01] は 食べ過ぎる{食べ過ぎない} 様にする{ようにしてる} 何故なら{なぜなら} 食べ過ぎ が 健康{健康に} 悪い(わるい) 事(こと) は 明らか だから",
+    "vocabIds": [
+      "1358280",
+      "1358290",
+      "1532310",
+      "1256170",
+      "1151260",
+      "1403390",
+      "2772730",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1313580"
+    ],
+    "matches": {
+      "1151260": [
+        {
+          "start": 27,
+          "length": 2,
+          "reading": "わるい"
+        }
+      ],
+      "1256170": [
+        {
+          "start": 24,
+          "length": 2,
+          "reading": "けんこう"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1313580": [
+        {
+          "start": 29,
+          "length": 1,
+          "reading": "こと"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1358280": [
+        {
+          "start": 2,
+          "length": 6,
+          "reading": "たべすぎない"
+        }
+      ],
+      "1358290": [
+        {
+          "start": 19,
+          "length": 4,
+          "reading": "たべすぎ"
+        }
+      ],
+      "1403390": [
+        {
+          "start": 27,
+          "length": 2,
+          "reading": "わるい"
+        }
+      ],
+      "1532310": [
+        {
+          "start": 31,
+          "length": 3,
+          "reading": "あきらか"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2772730": [
+        {
+          "start": 27,
+          "length": 2,
+          "reading": "わるい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "175499",
+    "original": "健康のために、食べすぎを避けるよう努力している。",
+    "en": [
+      {
+        "id": "238966",
+        "text": "I try to avoid eating too much for my health."
+      }
+    ],
+    "indices": "健康 の 為に{ために} 食べ過ぎ{食べすぎ} を 避ける[02] 様(よう){よう} 努力 為る(する){している}",
+    "vocabIds": [
+      "1358290",
+      "1583260",
+      "1256170",
+      "1445130"
+    ],
+    "matches": {
+      "1256170": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "けんこう"
+        }
+      ],
+      "1358290": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "たべすぎ"
+        }
+      ],
+      "1445130": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "どりょく"
+        }
+      ],
+      "1583260": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "さける"
+        }
+      ]
+    }
+  },
+  {
+    "id": "872726",
+    "original": "アイスクリームとスパゲッティの食べ過ぎはダメだよ。",
+    "en": [
+      {
+        "id": "378537",
+        "text": "You mustn't eat too much ice cream and spaghetti."
+      }
+    ],
+    "vocabIds": [
+      "1358290"
+    ],
+    "matches": {
+      "1358290": [
+        {
+          "start": 15,
+          "length": 4,
+          "reading": "たべすぎ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2935072",
+    "original": "トムの病気は食べすぎが原因だった。",
+    "en": [
+      {
+        "id": "2935084",
+        "text": "Tom's illness resulted from eating too much."
+      },
+      {
+        "id": "2935127",
+        "text": "The cause of Tom's illness was overeating."
+      },
+      {
+        "id": "2935128",
+        "text": "The reason Tom got sick was because he overate."
+      },
+      {
+        "id": "2935129",
+        "text": "Tom got sick because he ate too much."
+      }
+    ],
+    "vocabIds": [
+      "1358290",
+      "1490230",
+      "1261190"
+    ],
+    "matches": {
+      "1261190": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "げんいん"
+        }
+      ],
+      "1358290": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "たべすぎ"
+        }
+      ],
+      "1490230": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "びょうき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2935135",
+    "original": "トムは食べすぎが原因で病気になった。",
+    "en": [
+      {
+        "id": "2935129",
+        "text": "Tom got sick because he ate too much."
+      },
+      {
+        "id": "2935127",
+        "text": "The cause of Tom's illness was overeating."
+      },
+      {
+        "id": "2935128",
+        "text": "The reason Tom got sick was because he overate."
+      },
+      {
+        "id": "7194639",
+        "text": "The reason that Tom got sick was because he overate."
+      },
+      {
+        "id": "2935084",
+        "text": "Tom's illness resulted from eating too much."
+      }
+    ],
+    "vocabIds": [
+      "1358290",
+      "1261190",
+      "1490230"
+    ],
+    "matches": {
+      "1261190": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "げんいん"
+        }
+      ],
+      "1358290": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "たべすぎ"
+        }
+      ],
+      "1490230": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "びょうき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9147586",
+    "original": "食べ過ぎは禁物です。",
+    "en": [
+      {
+        "id": "69199",
+        "text": "You must not eat too much."
+      }
+    ],
+    "vocabIds": [
+      "1358290",
+      "1241660"
+    ],
+    "matches": {
+      "1241660": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "きんもつ"
+        }
+      ],
+      "1358290": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "たべすぎ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10628762",
+    "original": "病気は食べ過ぎが原因で起こることが多いのです。",
+    "en": [
+      {
+        "id": "318460",
+        "text": "Sickness often results from eating too much."
+      }
+    ],
+    "vocabIds": [
+      "1358290",
+      "1223680",
+      "1490230",
+      "1261190",
+      "1407460"
+    ],
+    "matches": {
+      "1223680": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "おこる"
+        }
+      ],
+      "1261190": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "げんいん"
+        }
+      ],
+      "1358290": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "たべすぎ"
+        }
+      ],
+      "1407460": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "おおい"
+        }
+      ],
+      "1490230": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "びょうき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10624573",
+    "original": "梨や柿を食べ過ぎるとお腹が下ることがあるので、食べ過ぎには注意しましょう。",
+    "en": [
+      {
+        "id": "10632712",
+        "text": "If you eat too many pears and persimmons you can become sick, so be cautious to not eat too much."
+      }
+    ],
+    "vocabIds": [
+      "1358280",
+      "1358290",
+      "1002610",
+      "1184160",
+      "1184450",
+      "1426530",
+      "1549860",
+      "1204810",
+      "2097450"
+    ],
+    "matches": {
+      "1002610": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "おなか"
+        }
+      ],
+      "1184160": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "くだる"
+        }
+      ],
+      "1184450": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "くだる"
+        }
+      ],
+      "1204810": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "かき"
+        }
+      ],
+      "1358280": [
+        {
+          "start": 4,
+          "length": 6,
+          "reading": "たべすぎると"
+        }
+      ],
+      "1358290": [
+        {
+          "start": 23,
+          "length": 4,
+          "reading": "たべすぎ"
+        }
+      ],
+      "1426530": [
+        {
+          "start": 29,
+          "length": 2,
+          "reading": "ちゅうい"
+        }
+      ],
+      "1549860": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "なし"
+        }
+      ],
+      "2097450": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "かき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10690137",
+    "original": "食べ過ぎは体に悪いよ。",
+    "en": [
+      {
+        "id": "536360",
+        "text": "Eating too much is bad for your health."
+      }
+    ],
+    "vocabIds": [
+      "1358290",
+      "2855326"
+    ],
+    "matches": {
+      "1358290": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "たべすぎ"
+        }
+      ],
+      "2855326": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "からだにわるい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10624568",
+    "original": "梨や柿を食べ過ぎるとお腹を下すことがあるので、食べ過ぎには注意しましょう。",
+    "en": [
+      {
+        "id": "10808651",
+        "text": "You can get diarrhoea if you eat too many pears and persimmons, so be careful how much you eat."
+      }
+    ],
+    "vocabIds": [
+      "1358280",
+      "1358290",
+      "1002610",
+      "1184320",
+      "1589580",
+      "1426530",
+      "1549860",
+      "1204810",
+      "2097450"
+    ],
+    "matches": {
+      "1002610": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "おなか"
+        }
+      ],
+      "1184320": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "くだす"
+        }
+      ],
+      "1204810": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "かき"
+        }
+      ],
+      "1358280": [
+        {
+          "start": 4,
+          "length": 6,
+          "reading": "たべすぎると"
+        }
+      ],
+      "1358290": [
+        {
+          "start": 23,
+          "length": 4,
+          "reading": "たべすぎ"
+        }
+      ],
+      "1426530": [
+        {
+          "start": 29,
+          "length": 2,
+          "reading": "ちゅうい"
+        }
+      ],
+      "1549860": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "なし"
+        }
+      ],
+      "1589580": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "くだす"
+        }
+      ],
+      "2097450": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "かき"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,640 @@
+[
+  {
+    "id": "123295",
+    "original": "突然私たちは銃声を聞いた。",
+    "en": [
+      {
+        "id": "280703",
+        "text": "All at once we heard a shot."
+      }
+    ],
+    "indices": "突然 私たち は 銃声 を 聞く{聞いた}",
+    "vocabIds": [
+      "1311300",
+      "1591110",
+      "1457040",
+      "1337070"
+    ],
+    "matches": {
+      "1311300": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1337070": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "じゅうせい"
+        }
+      ],
+      "1457040": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とつぜん"
+        }
+      ],
+      "1591110": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "きいた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "123304",
+    "original": "突然外で銃声が聞こえた。",
+    "en": [
+      {
+        "id": "280694",
+        "text": "All at once we heard a shot outside."
+      }
+    ],
+    "indices": "突然 外(そと) で(#2028980) 銃声 が 聞こえる[01]{聞こえた}",
+    "vocabIds": [
+      "1591150",
+      "1457040",
+      "1337070",
+      "1203250",
+      "1203260",
+      "1605940"
+    ],
+    "matches": {
+      "1203250": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "そと"
+        }
+      ],
+      "1203260": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "そと"
+        }
+      ],
+      "1337070": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "じゅうせい"
+        }
+      ],
+      "1457040": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とつぜん"
+        }
+      ],
+      "1591150": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "きこえた"
+        }
+      ],
+      "1605940": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "そと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "123313",
+    "original": "突然ライフルの銃声がした。",
+    "en": [
+      {
+        "id": "280685",
+        "text": "Suddenly there was a rifle shot."
+      }
+    ],
+    "indices": "突然 ライフル~ の 銃声 が 為る(する){した}",
+    "vocabIds": [
+      "1457040",
+      "1337070"
+    ],
+    "matches": {
+      "1337070": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "じゅうせい"
+        }
+      ],
+      "1457040": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とつぜん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "147944",
+    "original": "銃声がひびき渡った。",
+    "en": [
+      {
+        "id": "266616",
+        "text": "A shot rang out."
+      }
+    ],
+    "indices": "銃声 が 響き渡る{ひびき渡った}",
+    "vocabIds": [
+      "1444680",
+      "1337070"
+    ],
+    "matches": {
+      "1337070": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じゅうせい"
+        }
+      ],
+      "1444680": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "わたった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "188686",
+    "original": "遠くで銃声が聞こえた。",
+    "en": [
+      {
+        "id": "25832",
+        "text": "Shots were heard in the distance."
+      }
+    ],
+    "indices": "遠く[01] で 銃声 が 聞こえる[01]{聞こえた}",
+    "vocabIds": [
+      "1591150",
+      "1177820",
+      "1337070"
+    ],
+    "matches": {
+      "1177820": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とおく"
+        }
+      ],
+      "1337070": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "じゅうせい"
+        }
+      ],
+      "1591150": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "きこえた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "188696",
+    "original": "遠くで銃声がした。",
+    "en": [
+      {
+        "id": "25842",
+        "text": "We heard shots in the distance."
+      }
+    ],
+    "indices": "遠く[01] で(#2028980) 銃声 が 為る(する){した}",
+    "vocabIds": [
+      "1177820",
+      "1337070"
+    ],
+    "matches": {
+      "1177820": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とおく"
+        }
+      ],
+      "1337070": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "じゅうせい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "202888",
+    "original": "ちょうど彼が演説していた時に、銃声がひびき渡った。",
+    "en": [
+      {
+        "id": "40124",
+        "text": "Even as he was speaking, a shot rang out."
+      },
+      {
+        "id": "394109",
+        "text": "While he was giving the speech, the sound of a gunshot could be heard."
+      }
+    ],
+    "indices": "丁度{ちょうど} 彼(かれ)[01] が 演説 為る(する){していた} 時(とき) に 銃声 が 響き渡る{ひびき渡った}",
+    "vocabIds": [
+      "1444680",
+      "1176960",
+      "2021540",
+      "1337070",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1176960": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "えんぜつ"
+        }
+      ],
+      "1337070": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "じゅうせい"
+        }
+      ],
+      "1444680": [
+        {
+          "start": 21,
+          "length": 3,
+          "reading": "わたった"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "2021540": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "ときに"
+        }
+      ]
+    }
+  },
+  {
+    "id": "203581",
+    "original": "たった今銃声がした。",
+    "en": [
+      {
+        "id": "40819",
+        "text": "I heard a shot just now."
+      }
+    ],
+    "indices": "たった今 銃声 が 為る(する){した}",
+    "vocabIds": [
+      "1632090",
+      "1337070"
+    ],
+    "matches": {
+      "1337070": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "じゅうせい"
+        }
+      ],
+      "1632090": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "たったいま"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2749660",
+    "original": "私以外の誰も銃声を聞いていないことに驚いた。",
+    "en": [
+      {
+        "id": "1923438",
+        "text": "I'm surprised no one else heard the gunshots."
+      }
+    ],
+    "vocabIds": [
+      "1591110",
+      "1238680",
+      "1155090",
+      "1416860",
+      "1337070",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1155090": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "いがい"
+        }
+      ],
+      "1238680": [
+        {
+          "start": 18,
+          "length": 3,
+          "reading": "おどろいた"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1337070": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "じゅうせい"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1416860": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "だれも"
+        }
+      ],
+      "1591110": [
+        {
+          "start": 9,
+          "length": 6,
+          "reading": "きいていない"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3419657",
+    "original": "たった今、銃声が聞こえた。",
+    "en": [
+      {
+        "id": "40819",
+        "text": "I heard a shot just now."
+      }
+    ],
+    "vocabIds": [
+      "1632090",
+      "1591150",
+      "1337070"
+    ],
+    "matches": {
+      "1337070": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "じゅうせい"
+        }
+      ],
+      "1591150": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "きこえた"
+        }
+      ],
+      "1632090": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "たったいま"
+        }
+      ]
+    }
+  },
+  {
+    "id": "5348335",
+    "original": "トムは銃声を数発聞いた。",
+    "en": [
+      {
+        "id": "5105733",
+        "text": "Tom heard some shots."
+      }
+    ],
+    "vocabIds": [
+      "1591110",
+      "1337070",
+      "2201310"
+    ],
+    "matches": {
+      "1337070": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "じゅうせい"
+        }
+      ],
+      "1591110": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "きいた"
+        }
+      ],
+      "2201310": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "すうはつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9952224",
+    "original": "銃声のせいで鼓膜が破れた。",
+    "en": [
+      {
+        "id": "9952482",
+        "text": "My eardrums burst because of the gunshot."
+      }
+    ],
+    "vocabIds": [
+      "1208020",
+      "1471210",
+      "1337070",
+      "1268050"
+    ],
+    "matches": {
+      "1208020": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "やぶれた"
+        }
+      ],
+      "1268050": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "こまく"
+        }
+      ],
+      "1337070": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じゅうせい"
+        }
+      ],
+      "1471210": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "やぶれた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10632883",
+    "original": "銃声を聞いて、すぐに警察がやって来た。",
+    "en": [
+      {
+        "id": "34778",
+        "text": "The police came as soon as they heard the gunfire."
+      }
+    ],
+    "vocabIds": [
+      "1012790",
+      "1591110",
+      "1337070",
+      "1252390"
+    ],
+    "matches": {
+      "1012790": [
+        {
+          "start": 13,
+          "length": 5,
+          "reading": "やってきた"
+        }
+      ],
+      "1252390": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "けいさつ"
+        }
+      ],
+      "1337070": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じゅうせい"
+        }
+      ],
+      "1591110": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "きいて"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10698729",
+    "original": "よくわからないけど、銃声のような音がしたよ。",
+    "en": [
+      {
+        "id": "1923440",
+        "text": "I'm not sure what it was, but it sounded like a gunshot."
+      }
+    ],
+    "vocabIds": [
+      "1337070",
+      "1576900"
+    ],
+    "matches": {
+      "1337070": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "じゅうせい"
+        }
+      ],
+      "1576900": [
+        {
+          "start": 16,
+          "length": 1,
+          "reading": "おと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10698738",
+    "original": "よくわからないけど、銃声みたいだったよ。",
+    "en": [
+      {
+        "id": "1923440",
+        "text": "I'm not sure what it was, but it sounded like a gunshot."
+      }
+    ],
+    "vocabIds": [
+      "1337070"
+    ],
+    "matches": {
+      "1337070": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "じゅうせい"
+        }
+      ]
+    }
+  }
+]

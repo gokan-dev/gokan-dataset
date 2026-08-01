@@ -1,0 +1,113 @@
+[
+  {
+    "id": "228139",
+    "original": "ウッ、嘘をついているのを見透かされて、答えに困った。",
+    "en": [
+      {
+        "id": "65493",
+        "text": "Uh-oh. He knew I was lying - saw right through me. I didn't know what to say."
+      }
+    ],
+    "indices": "ウッ~ 嘘をつく{嘘をついている} の を 見透かす{見透かされて}~ 答え(#1449530) に 困る[01]{困った}",
+    "vocabIds": [
+      "1259960",
+      "2823060",
+      "1449530",
+      "2852531",
+      "1172400"
+    ],
+    "matches": {
+      "1172400": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "うそ"
+        }
+      ],
+      "1259960": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "みすかさ"
+        }
+      ],
+      "1449530": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "こたえ"
+        }
+      ],
+      "2823060": [
+        {
+          "start": 22,
+          "length": 3,
+          "reading": "こまった"
+        }
+      ],
+      "2852531": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "こたえ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11006128",
+    "original": "あいつの卑劣なたくらみをみんな見透かしていた。",
+    "en": [
+      {
+        "id": "11281993",
+        "text": "Everyone saw through his despicable schemes."
+      }
+    ],
+    "vocabIds": [
+      "1259960",
+      "1482820"
+    ],
+    "matches": {
+      "1259960": [
+        {
+          "start": 15,
+          "length": 7,
+          "reading": "みすかしていた"
+        }
+      ],
+      "1482820": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ひれつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11056075",
+    "original": "見透かされてる。",
+    "en": [
+      {
+        "id": "12968894",
+        "text": "My intentions were instantly clear to them."
+      },
+      {
+        "id": "12968895",
+        "text": "My motives were seen through."
+      }
+    ],
+    "vocabIds": [
+      "1259960"
+    ],
+    "matches": {
+      "1259960": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "みすかさ"
+        }
+      ]
+    }
+  }
+]

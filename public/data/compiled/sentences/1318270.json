@@ -1,0 +1,239 @@
+[
+  {
+    "id": "126959",
+    "original": "地球は自転する。",
+    "en": [
+      {
+        "id": "277131",
+        "text": "The earth rotates."
+      }
+    ],
+    "indices": "地球 は 自転 為る(する){する}",
+    "vocabIds": [
+      "1420970",
+      "1318270"
+    ],
+    "matches": {
+      "1318270": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "じてん"
+        }
+      ],
+      "1420970": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ちきゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "126960",
+    "original": "地球は自転している。",
+    "en": [
+      {
+        "id": "277130",
+        "text": "The earth revolves on its axis."
+      }
+    ],
+    "indices": "地球 は 自転~ 為る(する){している}",
+    "vocabIds": [
+      "1420970",
+      "1318270"
+    ],
+    "matches": {
+      "1318270": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "じてん"
+        }
+      ],
+      "1420970": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ちきゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "126985",
+    "original": "地球の自転が止まったら、いったいどうなるんだろう。",
+    "en": [
+      {
+        "id": "277105",
+        "text": "What would happen supposing the earth stopped spinning?"
+      }
+    ],
+    "indices": "地球{地球の} 自転 が 止まる(とまる)[01]{止まったら} 一体[01]{いったい} 如何(どう){どう} 成る{なる} ん[03] だろう",
+    "vocabIds": [
+      "1310620",
+      "1420970",
+      "1318270"
+    ],
+    "matches": {
+      "1310620": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "とまったら"
+        }
+      ],
+      "1318270": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "じてん"
+        }
+      ],
+      "1420970": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ちきゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "126990",
+    "original": "地球が自転しているのは常識だ。",
+    "en": [
+      {
+        "id": "277100",
+        "text": "It's common knowledge that the earth turns on its axis."
+      }
+    ],
+    "indices": "地球 が 自転 為る(する){している} の は 常識 だ",
+    "vocabIds": [
+      "1420970",
+      "1318270",
+      "1356000"
+    ],
+    "matches": {
+      "1318270": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "じてん"
+        }
+      ],
+      "1356000": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "じょうしき"
+        }
+      ],
+      "1420970": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ちきゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "188183",
+    "original": "仮に地球が自転をやめれば、どうなると思いますか。",
+    "en": [
+      {
+        "id": "25323",
+        "text": "Were the earth to stop revolving, what do you suppose would happen?"
+      }
+    ],
+    "indices": "仮に 地球 が 自転 を 止める(やめる){やめれば} 如何(どう){どう} 成る{なる} と 思う{思います} か",
+    "vocabIds": [
+      "1589350",
+      "1187300",
+      "1420970",
+      "1318270"
+    ],
+    "matches": {
+      "1187300": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かりに"
+        }
+      ],
+      "1318270": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "じてん"
+        }
+      ],
+      "1420970": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ちきゅう"
+        }
+      ],
+      "1589350": [
+        {
+          "start": 18,
+          "length": 4,
+          "reading": "おもいます"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3352275",
+    "original": "もしも地球の自転が止まったらどうなると思う？",
+    "en": [
+      {
+        "id": "3353685",
+        "text": "What do you think would happen if the earth stopped spinning?"
+      },
+      {
+        "id": "25323",
+        "text": "Were the earth to stop revolving, what do you suppose would happen?"
+      }
+    ],
+    "vocabIds": [
+      "1310620",
+      "1420970",
+      "1318270",
+      "1589350"
+    ],
+    "matches": {
+      "1310620": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "とまったら"
+        }
+      ],
+      "1318270": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "じてん"
+        }
+      ],
+      "1420970": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ちきゅう"
+        }
+      ],
+      "1589350": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "おもう"
+        }
+      ]
+    }
+  }
+]

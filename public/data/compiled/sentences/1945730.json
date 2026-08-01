@@ -1,0 +1,87 @@
+[
+  {
+    "id": "85834",
+    "original": "被害額は相当なものになるだろう。",
+    "en": [
+      {
+        "id": "317878",
+        "text": "The damage will cost us a lot of money."
+      }
+    ],
+    "indices": "被害額~ は 相当[04]{相当な} 物(もの){もの} になる[01] だろう",
+    "vocabIds": [
+      "1945730",
+      "1401240"
+    ],
+    "matches": {
+      "1401240": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "そうとう"
+        }
+      ],
+      "1945730": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ひがいがく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11488296",
+    "original": "被害額は500万円にも及んだ。",
+    "en": [
+      {
+        "id": "274551",
+        "text": "The damage amounted to five million yen."
+      }
+    ],
+    "vocabIds": [
+      "1945730",
+      "1228170",
+      "1584460",
+      "1175570",
+      "1216250"
+    ],
+    "matches": {
+      "1175570": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "えん"
+        }
+      ],
+      "1216250": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "えん"
+        }
+      ],
+      "1228170": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "およんだ"
+        }
+      ],
+      "1584460": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "まん"
+        }
+      ],
+      "1945730": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ひがいがく"
+        }
+      ]
+    }
+  }
+]

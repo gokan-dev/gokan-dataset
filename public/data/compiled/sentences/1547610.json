@@ -1,0 +1,68 @@
+[
+  {
+    "id": "195240",
+    "original": "まもなく木々は裸になるだろう。",
+    "en": [
+      {
+        "id": "32414",
+        "text": "It won't be long before the trees are bare."
+      },
+      {
+        "id": "323621",
+        "text": "The trees will soon be bare."
+      }
+    ],
+    "indices": "間もなく[01]{まもなく} 木々 は 裸 になる[01] だろう",
+    "vocabIds": [
+      "1547610",
+      "1591090"
+    ],
+    "matches": {
+      "1547610": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "はだかになる"
+        }
+      ],
+      "1591090": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "きぎ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "196173",
+    "original": "ホテル内で裸になるな。",
+    "en": [
+      {
+        "id": "16846",
+        "text": "You can't go naked in this hotel."
+      }
+    ],
+    "indices": "ホテル 内(ない) で(#2028980) 裸 になる[01] な[01]",
+    "vocabIds": [
+      "1547610",
+      "2098290"
+    ],
+    "matches": {
+      "1547610": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "はだかになる"
+        }
+      ],
+      "2098290": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "ない"
+        }
+      ]
+    }
+  }
+]

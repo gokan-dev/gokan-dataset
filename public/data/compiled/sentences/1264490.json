@@ -1,0 +1,80 @@
+[
+  {
+    "id": "76938",
+    "original": "ＯＫ。隣にいるから、言質とれたら教えて。",
+    "en": [
+      {
+        "id": "326782",
+        "text": "OK. I'm just next door so if you can get that assurance let me know."
+      }
+    ],
+    "indices": "ＯＫ 隣 に 居る(いる)[01]{いる} から 言質 取る{とれたら} 教える{教えて}",
+    "vocabIds": [
+      "1236900",
+      "1264490",
+      "1555830"
+    ],
+    "matches": {
+      "1236900": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "おしえて"
+        }
+      ],
+      "1264490": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "げんち"
+        }
+      ],
+      "1555830": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "となり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "107575",
+    "original": "彼は言質をとられた。",
+    "en": [
+      {
+        "id": "296110",
+        "text": "He got himself committed to it."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 言質~ を 取る{とられた}",
+    "vocabIds": [
+      "1264490",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1264490": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "げんち"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  }
+]

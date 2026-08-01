@@ -1,0 +1,136 @@
+[
+  {
+    "id": "78194",
+    "original": "旅客は歩道橋を使って路線を渡ってください。",
+    "en": [
+      {
+        "id": "325524",
+        "text": "Passengers must take the footbridge to cross the railroad tracks."
+      }
+    ],
+    "indices": "旅客 は 歩道橋~ を 使う{使って} 路線 を[03] 渡る{渡って} 下さい{ください}",
+    "vocabIds": [
+      "1444680",
+      "1514430",
+      "1305990",
+      "1553140",
+      "1560040"
+    ],
+    "matches": {
+      "1305990": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "つかって"
+        }
+      ],
+      "1444680": [
+        {
+          "start": 13,
+          "length": 7,
+          "reading": "わたってください"
+        }
+      ],
+      "1514430": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "ほどうきょう"
+        }
+      ],
+      "1553140": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "りょかく"
+        }
+      ],
+      "1560040": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "ろせん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "83850",
+    "original": "覆面をした男達が旅客を襲って金を奪った。",
+    "en": [
+      {
+        "id": "319866",
+        "text": "Masked men held up the passengers and robbed them of their money."
+      }
+    ],
+    "indices": "覆面~ を 為る(する){した} 男 達 が 旅客~ を 襲う[01]{襲って} 金(かね)[01] を 奪う{奪った}",
+    "vocabIds": [
+      "1333330",
+      "1416340",
+      "1501520",
+      "1792570",
+      "2854195",
+      "1553140",
+      "1181860",
+      "1242590"
+    ],
+    "matches": {
+      "1181860": [
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "きん"
+        }
+      ],
+      "1242590": [
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "きん"
+        }
+      ],
+      "1333330": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "おそって"
+        }
+      ],
+      "1416340": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "うばった"
+        }
+      ],
+      "1501520": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ふくめん"
+        }
+      ],
+      "1553140": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "りょかく"
+        }
+      ],
+      "1792570": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "おとこたち"
+        }
+      ],
+      "2854195": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "おとこたち"
+        }
+      ]
+    }
+  }
+]

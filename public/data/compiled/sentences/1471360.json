@@ -1,0 +1,68 @@
+[
+  {
+    "id": "74228",
+    "original": "予定日の夕方に破水しました。",
+    "en": [
+      {
+        "id": "329492",
+        "text": "My water broke on the evening of the predicted birth date."
+      }
+    ],
+    "indices": "予定日 の 夕方 に 破水~ 為る(する){しました}",
+    "vocabIds": [
+      "1543300",
+      "1542790",
+      "1471360"
+    ],
+    "matches": {
+      "1471360": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "はすい"
+        }
+      ],
+      "1542790": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ゆうがた"
+        }
+      ],
+      "1543300": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "よていび"
+        }
+      ]
+    }
+  },
+  {
+    "id": "121648",
+    "original": "破水しました。",
+    "en": [
+      {
+        "id": "282357",
+        "text": "My water broke."
+      },
+      {
+        "id": "12047157",
+        "text": "My water broke!"
+      }
+    ],
+    "indices": "破水 為る(する){しました}",
+    "vocabIds": [
+      "1471360"
+    ],
+    "matches": {
+      "1471360": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "はすい"
+        }
+      ]
+    }
+  }
+]

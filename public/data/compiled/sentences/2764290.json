@@ -1,0 +1,41 @@
+[
+  {
+    "id": "148092",
+    "original": "住所変更のお知らせです。住所録をお改めください。",
+    "en": [
+      {
+        "id": "266467",
+        "text": "This is to inform you of my address change. Please update your mailing list."
+      }
+    ],
+    "indices": "住所 変更 の お知らせ です 住所録 を[01] 御(お){お} 改める{改め} 下さい{ください}",
+    "vocabIds": [
+      "2764290",
+      "1002420",
+      "1334090"
+    ],
+    "matches": {
+      "1002420": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "おしらせ"
+        }
+      ],
+      "1334090": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "じゅうしょろく"
+        }
+      ],
+      "2764290": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "じゅうしょへんこう"
+        }
+      ]
+    }
+  }
+]

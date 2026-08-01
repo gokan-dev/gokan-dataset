@@ -1,0 +1,182 @@
+[
+  {
+    "id": "80839",
+    "original": "娘の永久歯がはえてきました。",
+    "en": [
+      {
+        "id": "322876",
+        "text": "My daughter is cutting her permanent teeth."
+      },
+      {
+        "id": "12494732",
+        "text": "My daughter's permanent teeth are coming in."
+      },
+      {
+        "id": "12494733",
+        "text": "My daughter's adult teeth are coming in."
+      }
+    ],
+    "indices": "娘(むすめ)[01] の 永久歯 が 生える[02]{はえて} 来る(くる){きました}",
+    "vocabIds": [
+      "1174080",
+      "1355930",
+      "1531190"
+    ],
+    "matches": {
+      "1174080": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "えいきゅうし"
+        }
+      ],
+      "1355930": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "むすめ"
+        }
+      ],
+      "1531190": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "むすめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "122113",
+    "original": "乳歯の横に永久歯がはえてきました。",
+    "en": [
+      {
+        "id": "281890",
+        "text": "An adult tooth came in right next to a baby tooth."
+      }
+    ],
+    "indices": "乳歯 の 横[04] に 永久歯 が 生える[02]{はえて} 来る(くる){きました}",
+    "vocabIds": [
+      "1174080",
+      "1465140",
+      "1632900"
+    ],
+    "matches": {
+      "1174080": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "えいきゅうし"
+        }
+      ],
+      "1465140": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "にゅうし"
+        }
+      ],
+      "1632900": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "よこに"
+        }
+      ]
+    }
+  },
+  {
+    "id": "122114",
+    "original": "乳歯が抜けないうちに後ろから永久歯がはえてきました。",
+    "en": [
+      {
+        "id": "281889",
+        "text": "His permanent tooth is coming in behind his baby tooth."
+      }
+    ],
+    "indices": "乳歯 が 抜ける[01]{抜け} ない内に{ないうちに} 後ろ から 永久歯 が 生える[02]{はえて} 来る(くる){きました}",
+    "vocabIds": [
+      "1478200",
+      "1174080",
+      "1465140",
+      "1269410"
+    ],
+    "matches": {
+      "1174080": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "えいきゅうし"
+        }
+      ],
+      "1269410": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "うしろ"
+        }
+      ],
+      "1465140": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "にゅうし"
+        }
+      ],
+      "1478200": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "ぬけない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "140067",
+    "original": "息子の乳歯が永久歯に変わりました。",
+    "en": [
+      {
+        "id": "274416",
+        "text": "All my son's adult teeth are in."
+      }
+    ],
+    "indices": "息子[01] の 乳歯~ が 永久歯~ に 変わる{変わりました}",
+    "vocabIds": [
+      "1510790",
+      "1174080",
+      "1404390",
+      "1465140"
+    ],
+    "matches": {
+      "1174080": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "えいきゅうし"
+        }
+      ],
+      "1404390": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "むすこ"
+        }
+      ],
+      "1465140": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "にゅうし"
+        }
+      ],
+      "1510790": [
+        {
+          "start": 10,
+          "length": 6,
+          "reading": "かわりました"
+        }
+      ]
+    }
+  }
+]

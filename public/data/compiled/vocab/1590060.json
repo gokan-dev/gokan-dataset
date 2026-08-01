@@ -1,0 +1,128 @@
+{
+  "id": "1590060",
+  "writtenForm": {
+    "kanji": "掛け金",
+    "alternatives": [
+      "掛金",
+      "掛けがね"
+    ],
+    "containedKanji": [
+      "掛",
+      "金"
+    ]
+  },
+  "reading": {
+    "primary": "かけきん",
+    "alternatives": [
+      "かけがね"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 46467
+  },
+  "progression": {
+    "kklcStep": 1117
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "installment",
+        "instalment",
+        "premium",
+        "bill"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "latch",
+        "lock",
+        "sneck"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "かけがね"
+      ]
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "joint of the jaw"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "かけがね"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1590060",
+      "isBase": true,
+      "originalPrimaryReading": "かけきん",
+      "originalGlosses": [
+        "installment",
+        "instalment",
+        "premium"
+      ]
+    },
+    {
+      "id": "1821210",
+      "isBase": false,
+      "originalPrimaryReading": "かけがね",
+      "originalGlosses": [
+        "latch",
+        "lock",
+        "sneck"
+      ]
+    }
+  ],
+  "components": [
+    "2148680",
+    "1242590"
+  ]
+}

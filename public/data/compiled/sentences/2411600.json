@@ -1,0 +1,142 @@
+[
+  {
+    "id": "150319",
+    "original": "次の駅でおります。どうぞおかけ下さい。",
+    "en": [
+      {
+        "id": "264238",
+        "text": "I'm getting off at the next stop, please keep your seat."
+      }
+    ],
+    "indices": "次(つぎ)[01]{次の} 駅 で(#2028980) 降りる[02]{おります} どうぞ[01] 掛ける[22]{おかけ} 下さい",
+    "vocabIds": [
+      "2411600",
+      "1316380",
+      "1175140"
+    ],
+    "matches": {
+      "1175140": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "えき"
+        }
+      ],
+      "1316380": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "つぎ"
+        }
+      ],
+      "2411600": [
+        {
+          "start": 12,
+          "length": 6,
+          "reading": "おかけください"
+        }
+      ]
+    }
+  },
+  {
+    "id": "227758",
+    "original": "おかけ下さい。",
+    "en": [
+      {
+        "id": "38571",
+        "text": "Sit down, please."
+      },
+      {
+        "id": "38572",
+        "text": "Please have a seat."
+      }
+    ],
+    "indices": "掛ける[02]{おかけ} 下さい",
+    "vocabIds": [
+      "2411600"
+    ],
+    "matches": {
+      "2411600": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "おかけください"
+        }
+      ]
+    }
+  },
+  {
+    "id": "229449",
+    "original": "いいえ、はじめに９番におかけ下さい。",
+    "en": [
+      {
+        "id": "66808",
+        "text": "No, please dial nine first."
+      }
+    ],
+    "indices": "いいえ(#1583250)[01] 初めに{はじめに}~ 番(ばん)[01] に 掛ける[11]{おかけ} 下さい",
+    "vocabIds": [
+      "2411600",
+      "1578150",
+      "2022640",
+      "2199920"
+    ],
+    "matches": {
+      "1578150": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "きゅう"
+        }
+      ],
+      "2022640": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "ばん"
+        }
+      ],
+      "2199920": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "ばん"
+        }
+      ],
+      "2411600": [
+        {
+          "start": 11,
+          "length": 6,
+          "reading": "おかけください"
+        }
+      ]
+    }
+  },
+  {
+    "id": "236991",
+    "original": "どうぞおかけ下さい。",
+    "en": [
+      {
+        "id": "38572",
+        "text": "Please have a seat."
+      },
+      {
+        "id": "38593",
+        "text": "Please take a seat."
+      }
+    ],
+    "indices": "どうぞ[01] 掛ける[11]{おかけ}~ 下さい",
+    "vocabIds": [
+      "2411600"
+    ],
+    "matches": {
+      "2411600": [
+        {
+          "start": 3,
+          "length": 6,
+          "reading": "おかけください"
+        }
+      ]
+    }
+  }
+]

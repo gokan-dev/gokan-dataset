@@ -1,0 +1,288 @@
+[
+  {
+    "id": "91194",
+    "original": "彼女は胃がんで死んだ。",
+    "en": [
+      {
+        "id": "312520",
+        "text": "She died of stomach cancer."
+      }
+    ],
+    "indices": "彼女[01] は 胃癌{胃がん} で(#2028980) 死ぬ{死んだ}",
+    "vocabIds": [
+      "1158540",
+      "1310730",
+      "1483150"
+    ],
+    "matches": {
+      "1158540": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "いがん"
+        }
+      ],
+      "1310730": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "しんだ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "110099",
+    "original": "彼は胃ガンで死んだ。",
+    "en": [
+      {
+        "id": "293589",
+        "text": "He died of cancer of the stomach."
+      },
+      {
+        "id": "1699699",
+        "text": "He died of gastric cancer."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 胃癌{胃ガン}~ で(#2028980) 死ぬ{死んだ}",
+    "vocabIds": [
+      "1158540",
+      "1310730",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1158540": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "いがん"
+        }
+      ],
+      "1310730": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "しんだ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "149415",
+    "original": "実を言うと、その未亡人は胃ガンを病んでいた。",
+    "en": [
+      {
+        "id": "265143",
+        "text": "To tell the truth, the widow suffered from stomach cancer."
+      }
+    ],
+    "indices": "実を言うと 其の[01]{その} 未亡人 は 胃癌{胃ガン} を 病む{病んでいた}",
+    "vocabIds": [
+      "2137810",
+      "1490210",
+      "1528030",
+      "1158540"
+    ],
+    "matches": {
+      "1158540": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "いがん"
+        }
+      ],
+      "1490210": [
+        {
+          "start": 16,
+          "length": 5,
+          "reading": "やんでいた"
+        }
+      ],
+      "1528030": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "みぼうじん"
+        }
+      ],
+      "2137810": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "みをいうと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "164252",
+    "original": "私のおじは昨日胃がんで亡くなった。",
+    "en": [
+      {
+        "id": "250257",
+        "text": "My uncle died of cancer of the stomach yesterday."
+      }
+    ],
+    "indices": "私(わたし)[01]{私の} 伯父(おじ){おじ} は 昨日 胃癌{胃がん} で(#2028980) 亡くなる{亡くなった}",
+    "vocabIds": [
+      "1518540",
+      "1158540",
+      "1579260",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1158540": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "いがん"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1518540": [
+        {
+          "start": 11,
+          "length": 5,
+          "reading": "なくなった"
+        }
+      ],
+      "1579260": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "きのう"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "206591",
+    "original": "その未亡人は胃ガンで痛んでいた。",
+    "en": [
+      {
+        "id": "43839",
+        "text": "The widow suffered from stomach cancer."
+      }
+    ],
+    "indices": "其の[01]{その} 未亡人 は 胃癌{胃ガン} で(#2028980) 痛む[01]{痛んでいた}",
+    "vocabIds": [
+      "1432710",
+      "1528030",
+      "1158540"
+    ],
+    "matches": {
+      "1158540": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "いがん"
+        }
+      ],
+      "1432710": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "いたんでいた"
+        }
+      ],
+      "1528030": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "みぼうじん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "209525",
+    "original": "その弱々しい患者は胃癌に苦しんでいる。",
+    "en": [
+      {
+        "id": "46787",
+        "text": "The feeble patient is suffering from stomach cancer."
+      }
+    ],
+    "indices": "其の[01]{その} 弱々しい~ 患者 は 胃癌 に 苦しむ{苦しんでいる}",
+    "vocabIds": [
+      "1244350",
+      "1606170",
+      "1212210",
+      "1158540"
+    ],
+    "matches": {
+      "1158540": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "いがん"
+        }
+      ],
+      "1212210": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "かんじゃ"
+        }
+      ],
+      "1244350": [
+        {
+          "start": 12,
+          "length": 6,
+          "reading": "くるしんでいる"
+        }
+      ],
+      "1606170": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "よわよわしい"
+        }
+      ]
+    }
+  }
+]

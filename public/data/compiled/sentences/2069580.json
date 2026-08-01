@@ -1,0 +1,102 @@
+[
+  {
+    "id": "76888",
+    "original": "あらまあ、馬子にも衣装とはこのことだねぇ。スーツ着ると結構格好いいじゃん。",
+    "en": [
+      {
+        "id": "326832",
+        "text": "Well, it's just like the proverb \"fine feathers make a fine bird\". You look really good when you wear a suit."
+      }
+    ],
+    "indices": "あらまあ 馬子にも衣装~ とは 此の{この} 事(こと){こと} だ ね(#2029080)[01]{ねぇ} スーツ 着る[01] と 結構[04] 格好いい じゃん(#2135280)",
+    "vocabIds": [
+      "1577490",
+      "2069580",
+      "1423000",
+      "1254760"
+    ],
+    "matches": {
+      "1254760": [
+        {
+          "start": 27,
+          "length": 2,
+          "reading": "けっこう"
+        }
+      ],
+      "1423000": [
+        {
+          "start": 24,
+          "length": 3,
+          "reading": "きると"
+        }
+      ],
+      "1577490": [
+        {
+          "start": 29,
+          "length": 7,
+          "reading": "かっこういいじゃん"
+        }
+      ],
+      "2069580": [
+        {
+          "start": 5,
+          "length": 6,
+          "reading": "まごにもいしょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "196861",
+    "original": "へえ、今日はおしゃれじゃない。馬子にも衣装てのはこのことだね。",
+    "en": [
+      {
+        "id": "34040",
+        "text": "Look at you - all scrubbed and dressed. They say the clothes make the man."
+      }
+    ],
+    "indices": "へえ 今日 は お洒落[01]{おしゃれ} だ{じゃない} 馬子にも衣装 って{て} の は 此の{この} 事(こと){こと} だ ね(#2029080)[01]",
+    "vocabIds": [
+      "2069580",
+      "1289400"
+    ],
+    "matches": {
+      "1289400": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "きょうは"
+        }
+      ],
+      "2069580": [
+        {
+          "start": 15,
+          "length": 6,
+          "reading": "まごにもいしょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11257751",
+    "original": "馬子にも衣装だな。",
+    "en": [
+      {
+        "id": "269812",
+        "text": "Clothes make the man."
+      }
+    ],
+    "vocabIds": [
+      "2069580"
+    ],
+    "matches": {
+      "2069580": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "まごにもいしょう"
+        }
+      ]
+    }
+  }
+]

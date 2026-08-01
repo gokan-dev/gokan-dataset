@@ -1,0 +1,104 @@
+[
+  {
+    "id": "122810",
+    "original": "日本では、通常所得税は月給から天引きされる。",
+    "en": [
+      {
+        "id": "281192",
+        "text": "In Japan, the payroll tax is usually withheld from the monthly salary."
+      }
+    ],
+    "indices": "日本 で(#2028980) は 通常 所得税 は 月給 から 天引き 為れる{される}",
+    "vocabIds": [
+      "1343370",
+      "1598490",
+      "1582710",
+      "1433280",
+      "1255560"
+    ],
+    "matches": {
+      "1255560": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "げっきゅう"
+        }
+      ],
+      "1343370": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "しょとくぜい"
+        }
+      ],
+      "1433280": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "つうじょう"
+        }
+      ],
+      "1582710": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "にっぽん"
+        }
+      ],
+      "1598490": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "てんびき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "233254",
+    "original": "あなたの支払から１０％を税として天引きします。",
+    "en": [
+      {
+        "id": "70624",
+        "text": "A 10% tax will be withheld from the payment to you."
+      }
+    ],
+    "indices": "貴方(あなた)[01]{あなた} の 支払い{支払} から を 税 として 天引き~ 為る(する){します}",
+    "vocabIds": [
+      "1598490",
+      "1594480",
+      "1579840",
+      "2081570"
+    ],
+    "matches": {
+      "1579840": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "いちぜろ"
+        }
+      ],
+      "1594480": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "しはらい"
+        }
+      ],
+      "1598490": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "てんびき"
+        }
+      ],
+      "2081570": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "ぜい"
+        }
+      ]
+    }
+  }
+]

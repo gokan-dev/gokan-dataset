@@ -1,0 +1,116 @@
+[
+  {
+    "id": "75467",
+    "original": "じゃあ２人乗りを許してやるからお前漕げ、俺が荷台に乗るから。",
+    "en": [
+      {
+        "id": "328251",
+        "text": "Well then I'll allow two on a bike, but you pedal, because I'll ride on the rack."
+      }
+    ],
+    "indices": "じゃあ 二人乗り{２人乗り}~ を[01] 許す{許して} 遣る[01]{やる} から お前 漕ぐ[02]{漕げ} 俺(おれ) が 荷台 に 乗る[01] から",
+    "vocabIds": [
+      "1232870",
+      "2224830",
+      "1355120",
+      "1002290",
+      "1195370",
+      "1266890",
+      "1576870"
+    ],
+    "matches": {
+      "1002290": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "おまえ"
+        }
+      ],
+      "1195370": [
+        {
+          "start": 22,
+          "length": 2,
+          "reading": "にだい"
+        }
+      ],
+      "1232870": [
+        {
+          "start": 8,
+          "length": 7,
+          "reading": "ゆるしてやるから"
+        }
+      ],
+      "1266890": [
+        {
+          "start": 20,
+          "length": 1,
+          "reading": "おれ"
+        }
+      ],
+      "1355120": [
+        {
+          "start": 25,
+          "length": 4,
+          "reading": "のるから"
+        }
+      ],
+      "1576870": [
+        {
+          "start": 20,
+          "length": 1,
+          "reading": "おれ"
+        }
+      ],
+      "2224830": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "ににんのり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "150071",
+    "original": "自転車の二人乗りは危険だ。",
+    "en": [
+      {
+        "id": "264487",
+        "text": "Two people riding on a bicycle at the same time is dangerous."
+      },
+      {
+        "id": "418444",
+        "text": "Riding double on a bicycle is dangerous."
+      }
+    ],
+    "indices": "自転車 の 二人 乗り[01]~ は 危険 だ",
+    "vocabIds": [
+      "2224830",
+      "1318290",
+      "1218560"
+    ],
+    "matches": {
+      "1218560": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "きけん"
+        }
+      ],
+      "1318290": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "じてんしゃ"
+        }
+      ],
+      "2224830": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "ににんのり"
+        }
+      ]
+    }
+  }
+]

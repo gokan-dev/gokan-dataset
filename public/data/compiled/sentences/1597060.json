@@ -1,0 +1,88 @@
+[
+  {
+    "id": "78214",
+    "original": "竜巻で村全体が破壊された。",
+    "en": [
+      {
+        "id": "325504",
+        "text": "The tornado destroyed the whole village."
+      }
+    ],
+    "indices": "竜巻 で(#2028980) 村 全体 が 破壊[01] 為れる{された}",
+    "vocabIds": [
+      "1597060",
+      "1395660",
+      "1471250",
+      "1406820"
+    ],
+    "matches": {
+      "1395660": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ぜんたい"
+        }
+      ],
+      "1406820": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "むら"
+        }
+      ],
+      "1471250": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "はかい"
+        }
+      ],
+      "1597060": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "たつまき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "139244",
+    "original": "村に竜巻が起こった。",
+    "en": [
+      {
+        "id": "274566",
+        "text": "There was a tornado in the village."
+      }
+    ],
+    "indices": "村 に 竜巻~ が 起こる{起こった}",
+    "vocabIds": [
+      "1223680",
+      "1597060",
+      "1406820"
+    ],
+    "matches": {
+      "1223680": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "おこった"
+        }
+      ],
+      "1406820": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "むら"
+        }
+      ],
+      "1597060": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "たつまき"
+        }
+      ]
+    }
+  }
+]

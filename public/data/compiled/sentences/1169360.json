@@ -1,0 +1,115 @@
+[
+  {
+    "id": "88647",
+    "original": "彼女は上着を引っかけると外へ出た。",
+    "en": [
+      {
+        "id": "11718763",
+        "text": "She threw on a coat and went outside."
+      },
+      {
+        "id": "315060",
+        "text": "She threw on a coat and went out."
+      }
+    ],
+    "indices": "彼女[01] は 上着 を 引っ掛ける[01]{引っかける}~ と 外(そと) へ 出る{出た}",
+    "vocabIds": [
+      "1169360",
+      "1483150",
+      "1580340",
+      "1338240",
+      "1203250",
+      "1203260",
+      "1605940"
+    ],
+    "matches": {
+      "1169360": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "ひっかけると"
+        }
+      ],
+      "1203250": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "そと"
+        }
+      ],
+      "1203260": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "そと"
+        }
+      ],
+      "1338240": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "でた"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1580340": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "うわぎ"
+        }
+      ],
+      "1605940": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "そと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "13714047",
+    "original": "その選手はハードルに足を引っ掛けたんだ。",
+    "en": [
+      {
+        "id": "13714048",
+        "text": "The athlete caught his foot on the hurdle."
+      }
+    ],
+    "vocabIds": [
+      "1169360",
+      "1392250",
+      "1404630"
+    ],
+    "matches": {
+      "1169360": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "ひっかけた"
+        }
+      ],
+      "1392250": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "せんしゅ"
+        }
+      ],
+      "1404630": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "あし"
+        }
+      ]
+    }
+  }
+]

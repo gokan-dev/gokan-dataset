@@ -1,0 +1,127 @@
+[
+  {
+    "id": "74949",
+    "original": "「あの、かりんさん・・・、そろそろお開きにしませんか？」「駄目、勝ち逃げ禁止！今度こそボクが勝つの！」",
+    "en": [
+      {
+        "id": "328770",
+        "text": "\"Er, Karin ..., shouldn't we call it a night soon?\" \"No! No quitting while ahead! Next time I'll win for sure!\""
+      }
+    ],
+    "indices": "あのう{あの} さん そろそろ お開きにする{お開きにしません} か 駄目[03] 勝ち逃げ~ 禁止 今度 こそ 僕(ぼく){ボク} が 勝つ の",
+    "vocabIds": [
+      "1706710",
+      "1862840",
+      "1409110",
+      "1241550",
+      "1289370",
+      "1346150"
+    ],
+    "matches": {
+      "1241550": [
+        {
+          "start": 36,
+          "length": 2,
+          "reading": "きんし"
+        }
+      ],
+      "1289370": [
+        {
+          "start": 39,
+          "length": 2,
+          "reading": "こんど"
+        }
+      ],
+      "1346150": [
+        {
+          "start": 46,
+          "length": 2,
+          "reading": "かつ"
+        }
+      ],
+      "1409110": [
+        {
+          "start": 29,
+          "length": 2,
+          "reading": "だめ"
+        }
+      ],
+      "1706710": [
+        {
+          "start": 32,
+          "length": 4,
+          "reading": "かちにげ"
+        }
+      ],
+      "1862840": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "おひらき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "75052",
+    "original": "そろそろお開きにしよかー。",
+    "en": [
+      {
+        "id": "328667",
+        "text": "Well, shall we call it a day?"
+      }
+    ],
+    "indices": "そろそろ お開きにする{お開きにしよ}~ か{かー}",
+    "vocabIds": [
+      "1862840"
+    ],
+    "matches": {
+      "1862840": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "おひらき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "76144",
+    "original": "今日の活動は、これでお開き。",
+    "en": [
+      {
+        "id": "327574",
+        "text": "With this, today's activities come to a close."
+      }
+    ],
+    "indices": "今日 之(の)[01]{の} 活動 は 此れ[01]{これ} で(#2028980) お開き~",
+    "vocabIds": [
+      "1862840",
+      "1579110",
+      "1208360"
+    ],
+    "matches": {
+      "1208360": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かつどう"
+        }
+      ],
+      "1579110": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きょう"
+        }
+      ],
+      "1862840": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "おひらき"
+        }
+      ]
+    }
+  }
+]

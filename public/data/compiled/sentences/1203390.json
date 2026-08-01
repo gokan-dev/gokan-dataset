@@ -1,0 +1,746 @@
+[
+  {
+    "id": "84444",
+    "original": "父は熟練した外科医です。",
+    "en": [
+      {
+        "id": "319271",
+        "text": "My father is an expert surgeon."
+      }
+    ],
+    "indices": "父 は 熟練した~ 外科医~ です",
+    "vocabIds": [
+      "1885520",
+      "1203390",
+      "1497610"
+    ],
+    "matches": {
+      "1203390": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "げかい"
+        }
+      ],
+      "1497610": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ちち"
+        }
+      ],
+      "1885520": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "じゅくれんした"
+        }
+      ]
+    }
+  },
+  {
+    "id": "108967",
+    "original": "彼は外科医である上に著名な作家であった。",
+    "en": [
+      {
+        "id": "294723",
+        "text": "Besides being a surgeon, he was a famous writer."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 外科医 である 上(うえ) に 著名{著名な} 作家 である{であった}",
+    "vocabIds": [
+      "1203390",
+      "1427150",
+      "1297510",
+      "1000420",
+      "1483070",
+      "1352130"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1203390": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "げかい"
+        }
+      ],
+      "1297510": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "さっか"
+        }
+      ],
+      "1352130": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "うえ"
+        }
+      ],
+      "1427150": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "ちょめい"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "113692",
+    "original": "彼はこれまでにいなかったほどの腕前の外科医だ。",
+    "en": [
+      {
+        "id": "289981",
+        "text": "He is as skillful a surgeon as ever lived."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 此れ迄に{これまでに} 居る(いる)[01]{いなかった} 程{ほど} の 腕前 の 外科医 だ",
+    "vocabIds": [
+      "1203390",
+      "1562890",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1203390": [
+        {
+          "start": 18,
+          "length": 3,
+          "reading": "げかい"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1562890": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "うでまえ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "115942",
+    "original": "彼の友人には医者が二人いる。一人は外科医で、もう一人は眼科医だ。",
+    "en": [
+      {
+        "id": "287727",
+        "text": "There are two doctors in his circle of friends, a surgeon and an ophthalmologist."
+      }
+    ],
+    "indices": "彼(かれ)[01]{彼の} 友人 には 医者 が 二人 居る(いる){いる} 一人 は 外科医 で(#2028980) もう一人 は 眼科医~ だ",
+    "vocabIds": [
+      "2267340",
+      "1203390",
+      "1217160",
+      "1000420",
+      "1540150",
+      "1159980",
+      "1582670",
+      "1576150"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれの"
+        }
+      ],
+      "1159980": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "いしゃ"
+        }
+      ],
+      "1203390": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "げかい"
+        }
+      ],
+      "1217160": [
+        {
+          "start": 27,
+          "length": 3,
+          "reading": "がんかい"
+        }
+      ],
+      "1540150": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ゆうじん"
+        }
+      ],
+      "1576150": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "いちにん"
+        }
+      ],
+      "1582670": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "ににん"
+        }
+      ],
+      "2267340": [
+        {
+          "start": 22,
+          "length": 4,
+          "reading": "もういちにん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "123241",
+    "original": "内科医は普通外科医と区別されている。",
+    "en": [
+      {
+        "id": "280758",
+        "text": "Physicians are usually distinguished from surgeons."
+      }
+    ],
+    "indices": "内科医 は 普通 外科医 と 区別 為れる{されている}",
+    "vocabIds": [
+      "1457840",
+      "1203390",
+      "1497190",
+      "1244250"
+    ],
+    "matches": {
+      "1203390": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "げかい"
+        }
+      ],
+      "1244250": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "くべつ"
+        }
+      ],
+      "1457840": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ないかい"
+        }
+      ],
+      "1497190": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ふつう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "176576",
+    "original": "兄は全く不器用なのに、彼は優秀な外科医だ。",
+    "en": [
+      {
+        "id": "237887",
+        "text": "His brother is all thumbs, but he is a skillful surgeon."
+      }
+    ],
+    "indices": "兄(あに) は 全く 不器用{不器用な} のに 彼(かれ)[01] は 優秀{優秀な} 外科医 だ",
+    "vocabIds": [
+      "1491790",
+      "1203390",
+      "1394800",
+      "1539230",
+      "1249900",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1203390": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "げかい"
+        }
+      ],
+      "1249900": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "あに"
+        }
+      ],
+      "1394800": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "まったく"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1491790": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "ぶきよう"
+        }
+      ],
+      "1539230": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "ゆうしゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "184852",
+    "original": "外科医は患者の盲腸を摘出した。",
+    "en": [
+      {
+        "id": "21983",
+        "text": "The surgeon took out his patient's appendix."
+      }
+    ],
+    "indices": "外科医 は 患者 の 盲腸[02]~ を 摘出[01]~ 為る(する){した}",
+    "vocabIds": [
+      "1203390",
+      "1212210",
+      "1534260",
+      "1437070"
+    ],
+    "matches": {
+      "1203390": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "げかい"
+        }
+      ],
+      "1212210": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "かんじゃ"
+        }
+      ],
+      "1437070": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "てきしゅつ"
+        }
+      ],
+      "1534260": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "もうちょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "184853",
+    "original": "外科医は私を説得して、臓器の移植手術を受けることに同意させた。",
+    "en": [
+      {
+        "id": "21982",
+        "text": "The surgeon persuaded me to undergo an organ transplant operation."
+      }
+    ],
+    "indices": "外科医 は 私(わたし)[01] を 説得 為る(する){して} 臓器~ の 移植 手術を受ける 事(こと){こと} に 同意 為せる{させた}",
+    "vocabIds": [
+      "2573890",
+      "1203390",
+      "1386440",
+      "1403480",
+      "1158310",
+      "1451850",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1158310": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "いしょく"
+        }
+      ],
+      "1203390": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "げかい"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1386440": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "せっとく"
+        }
+      ],
+      "1403480": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "ぞうき"
+        }
+      ],
+      "1451850": [
+        {
+          "start": 25,
+          "length": 2,
+          "reading": "どうい"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2573890": [
+        {
+          "start": 16,
+          "length": 6,
+          "reading": "しゅじゅつをうける"
+        }
+      ]
+    }
+  },
+  {
+    "id": "184854",
+    "original": "外科医に説得されて、彼は臓器移植手術を受けることにした。",
+    "en": [
+      {
+        "id": "21984",
+        "text": "The surgeon persuaded him to undergo an organ transplant."
+      }
+    ],
+    "indices": "外科医 に 説得 為れる{されて} 彼(かれ) は 臓器移植~ 手術を受ける~ 事にする{ことにした}",
+    "vocabIds": [
+      "2573890",
+      "1403490",
+      "1203390",
+      "1386440",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1203390": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "げかい"
+        }
+      ],
+      "1386440": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "せっとく"
+        }
+      ],
+      "1403490": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "ぞうきいしょく"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "2573890": [
+        {
+          "start": 16,
+          "length": 6,
+          "reading": "しゅじゅつをうける"
+        }
+      ]
+    }
+  },
+  {
+    "id": "184855",
+    "original": "外科医は私に手術を受けるよう説得した。",
+    "en": [
+      {
+        "id": "21985",
+        "text": "The surgeon persuaded me to undergo an operation."
+      }
+    ],
+    "indices": "外科医 は 私(わたし)[01] に 手術を受ける 様(よう)[01]{よう} 説得 為る(する){した}",
+    "vocabIds": [
+      "2573890",
+      "1203390",
+      "1386440",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1203390": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "げかい"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1386440": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "せっとく"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2573890": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "しゅじゅつをうける"
+        }
+      ]
+    }
+  },
+  {
+    "id": "196895",
+    "original": "フレッドは成長して外科医になった。",
+    "en": [
+      {
+        "id": "34074",
+        "text": "Fred grew up to be a surgeon."
+      }
+    ],
+    "indices": "は 成長 為る(する){して} 外科医 になる[01]{になった}",
+    "vocabIds": [
+      "1203390",
+      "1375790"
+    ],
+    "matches": {
+      "1203390": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "げかい"
+        }
+      ],
+      "1375790": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "せいちょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "211700",
+    "original": "その外科医はその患者を手術した。",
+    "en": [
+      {
+        "id": "48977",
+        "text": "The surgeon operated on the patient."
+      }
+    ],
+    "indices": "其の[01]{その} 外科医 は 其の[01]{その} 患者 を 手術 為る(する){した}",
+    "vocabIds": [
+      "1203390",
+      "1212210",
+      "1327790"
+    ],
+    "matches": {
+      "1203390": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "げかい"
+        }
+      ],
+      "1212210": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "かんじゃ"
+        }
+      ],
+      "1327790": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "しゅじゅつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1487310",
+    "original": "ブリッグス氏はただの医者ではなく、優れた外科医だ。",
+    "en": [
+      {
+        "id": "1105323",
+        "text": "Mr Briggs is not any doctor, he is an excellent surgeon."
+      }
+    ],
+    "vocabIds": [
+      "1539080",
+      "1203390",
+      "1159980",
+      "2101130"
+    ],
+    "matches": {
+      "1159980": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "いしゃ"
+        }
+      ],
+      "1203390": [
+        {
+          "start": 20,
+          "length": 3,
+          "reading": "げかい"
+        }
+      ],
+      "1539080": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "すぐれた"
+        }
+      ],
+      "2101130": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "し"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11102907",
+    "original": "外科医になりたいよ。",
+    "en": [
+      {
+        "id": "8973009",
+        "text": "I want to be a surgeon."
+      }
+    ],
+    "vocabIds": [
+      "1203390"
+    ],
+    "matches": {
+      "1203390": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "げかい"
+        }
+      ]
+    }
+  }
+]

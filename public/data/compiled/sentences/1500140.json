@@ -1,0 +1,228 @@
+[
+  {
+    "id": "82954",
+    "original": "母は私に風呂場の掃除をさせた。",
+    "en": [
+      {
+        "id": "320610",
+        "text": "Mother made me clean the bathroom."
+      },
+      {
+        "id": "1891463",
+        "text": "My mother made me clean the bathroom."
+      }
+    ],
+    "indices": "母(はは) は 私(わたし)[01] に 風呂場~ の 掃除 を 為せる{させた}",
+    "vocabIds": [
+      "1500140",
+      "1399790",
+      "1514990",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1399790": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "そうじ"
+        }
+      ],
+      "1500140": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "ふろじょう"
+        }
+      ],
+      "1514990": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "はは"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "83906",
+    "original": "風呂場はどこですか。",
+    "en": [
+      {
+        "id": "2136",
+        "text": "Where is the bathroom?"
+      }
+    ],
+    "indices": "風呂場 は 何処{どこ} ですか",
+    "vocabIds": [
+      "1500140"
+    ],
+    "matches": {
+      "1500140": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ふろじょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "116164",
+    "original": "彼の母は彼に風呂場の掃除をさせた。",
+    "en": [
+      {
+        "id": "287505",
+        "text": "His mother made him clean the bathroom."
+      }
+    ],
+    "indices": "彼(かれ)[01]{彼の} 母(はは) は 彼(かれ) に 風呂場 の 掃除 を 為せる{させた}",
+    "vocabIds": [
+      "1500140",
+      "1000420",
+      "1399790",
+      "1483070",
+      "1514990"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれの"
+        },
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1399790": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "そうじ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1500140": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "ふろじょう"
+        }
+      ],
+      "1514990": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "はは"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1130356",
+    "original": "風呂場の体重計で体重を測った。",
+    "en": [
+      {
+        "id": "324956",
+        "text": "I weighed myself on the bathroom scales."
+      }
+    ],
+    "vocabIds": [
+      "1500140",
+      "1759540",
+      "1600650",
+      "1409540"
+    ],
+    "matches": {
+      "1409540": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "たいじゅう"
+        }
+      ],
+      "1500140": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ふろじょう"
+        }
+      ],
+      "1600650": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "はかった"
+        }
+      ],
+      "1759540": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "たいじゅうけい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1624961",
+    "original": "風呂場に蜘蛛がいる。",
+    "en": [
+      {
+        "id": "1624874",
+        "text": "There's a spider in the bathroom."
+      }
+    ],
+    "vocabIds": [
+      "1500140",
+      "1421960"
+    ],
+    "matches": {
+      "1421960": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "くも"
+        }
+      ],
+      "1500140": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ふろじょう"
+        }
+      ]
+    }
+  }
+]

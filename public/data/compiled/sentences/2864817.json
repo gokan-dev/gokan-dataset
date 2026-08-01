@@ -1,0 +1,246 @@
+[
+  {
+    "id": "90492",
+    "original": "彼女は魚をサラダ油で揚げた。",
+    "en": [
+      {
+        "id": "313221",
+        "text": "She fried fish in salad oil."
+      }
+    ],
+    "indices": "彼女[01] は 魚 を サラダ油~ で(#2028980) 揚げる[01]{揚げた}",
+    "vocabIds": [
+      "1853150",
+      "2864817",
+      "1483150",
+      "1578010"
+    ],
+    "matches": {
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1578010": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "さかな"
+        }
+      ],
+      "1853150": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "さらだゆ"
+        }
+      ],
+      "2864817": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "あげた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "99189",
+    "original": "彼は揚げ足とりの天才だ。",
+    "en": [
+      {
+        "id": "304510",
+        "text": "He is excellent at finding fault with other people."
+      },
+      {
+        "id": "1667394",
+        "text": "He is excellent at finding faults."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 揚げ足 取る{とり} の 天才 だ",
+    "vocabIds": [
+      "2864817",
+      "1439090",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1439090": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "てんさい"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "2864817": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "あげ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "112044",
+    "original": "彼はたこを揚げた。",
+    "en": [
+      {
+        "id": "291633",
+        "text": "He flew a kite."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 凧{たこ} を 揚げる[03]{揚げた}",
+    "vocabIds": [
+      "2864817",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "2864817": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "あげた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "222186",
+    "original": "この鶏肉はよく揚げられている。",
+    "en": [
+      {
+        "id": "59511",
+        "text": "This chicken is fried well."
+      }
+    ],
+    "indices": "此の{この} 鶏肉~ は 良く[01]{よく} 揚げる[01]{揚げられている}~",
+    "vocabIds": [
+      "2864817",
+      "1253020"
+    ],
+    "matches": {
+      "1253020": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "けいにく"
+        }
+      ],
+      "2864817": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "あげ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3419592",
+    "original": "凧を揚げるのは危険かもしれない。",
+    "en": [
+      {
+        "id": "40912",
+        "text": "Flying a kite can be dangerous."
+      }
+    ],
+    "vocabIds": [
+      "2864817",
+      "1218560",
+      "1581560"
+    ],
+    "matches": {
+      "1218560": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "きけん"
+        }
+      ],
+      "1581560": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "たこ"
+        }
+      ],
+      "2864817": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "あげる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10017263",
+    "original": "ミルクを固めて揚げるというのは、想像がつきません。",
+    "en": [
+      {
+        "id": "11697515",
+        "text": "I can't imagine what fried frozen milk would be like."
+      }
+    ],
+    "vocabIds": [
+      "1266570",
+      "2864817",
+      "1399610"
+    ],
+    "matches": {
+      "1266570": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "かためて"
+        }
+      ],
+      "1399610": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "そうぞう"
+        }
+      ],
+      "2864817": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "あげる"
+        }
+      ]
+    }
+  }
+]

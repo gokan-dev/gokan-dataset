@@ -1,0 +1,103 @@
+[
+  {
+    "id": "228143",
+    "original": "うちは朝日新聞と読売新聞を購読しています。",
+    "en": [
+      {
+        "id": "65497",
+        "text": "We take the Asahi and Yomiuri."
+      }
+    ],
+    "indices": "家(うち){うち} は 朝日 新聞 と NI{読売} 新聞 を 購読 為る(する){しています}",
+    "vocabIds": [
+      "5524869",
+      "5567634",
+      "1282420"
+    ],
+    "matches": {
+      "1282420": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "こうどく"
+        }
+      ],
+      "5524869": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "あさひしんぶん"
+        }
+      ],
+      "5567634": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "よみうりしんぶん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "589586",
+    "original": "女房は婦人記者として、読売新聞へ勤める事になった。",
+    "en": [
+      {
+        "id": "589587",
+        "text": "My wife started to work as a female reporter for the newspaper Yomiuri."
+      }
+    ],
+    "vocabIds": [
+      "5567634",
+      "1240825",
+      "1345420",
+      "1496670",
+      "1223250",
+      "1313580"
+    ],
+    "matches": {
+      "1223250": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "きしゃ"
+        }
+      ],
+      "1240825": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "つとめる"
+        }
+      ],
+      "1313580": [
+        {
+          "start": 19,
+          "length": 1,
+          "reading": "こと"
+        }
+      ],
+      "1345420": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "にょうぼう"
+        }
+      ],
+      "1496670": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ふじん"
+        }
+      ],
+      "5567634": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "よみうりしんぶん"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,100 @@
+[
+  {
+    "id": "77025",
+    "original": "「その人なんて言ってたんスか？」「露語が全く通じなかったので露語でなじってやった」",
+    "en": [
+      {
+        "id": "326694",
+        "text": "\"What was that person saying?\" \"He couldn't communicate in Russian at all so I told him off in Russian.\""
+      }
+    ],
+    "indices": "其の[01]{その} 人(ひと) 何て{なんて} 言う{言ってた} のだ{んス} か 露語~ が 全く 通じる{通じなかった} ので 露語 で(#2028980) 詰る{なじって} 遣る[01]{やった}",
+    "vocabIds": [
+      "1432880",
+      "2832864",
+      "1587040",
+      "1560100",
+      "1394800"
+    ],
+    "matches": {
+      "1394800": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "まったく"
+        }
+      ],
+      "1432880": [
+        {
+          "start": 22,
+          "length": 8,
+          "reading": "つうじなかったので"
+        }
+      ],
+      "1560100": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "ろご"
+        },
+        {
+          "start": 30,
+          "length": 2,
+          "reading": "ろご"
+        }
+      ],
+      "1587040": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "いって"
+        }
+      ],
+      "2832864": [
+        {
+          "start": 1,
+          "length": 3,
+          "reading": "そのひと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "857448",
+    "original": "彼女は露語が話せます。",
+    "en": [
+      {
+        "id": "857403",
+        "text": "She speaks Russian."
+      }
+    ],
+    "vocabIds": [
+      "1562360",
+      "1483150",
+      "1560100"
+    ],
+    "matches": {
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1560100": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ろご"
+        }
+      ],
+      "1562360": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "はなせます"
+        }
+      ]
+    }
+  }
+]

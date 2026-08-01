@@ -1,0 +1,166 @@
+[
+  {
+    "id": "75426",
+    "original": "アリさん、今日もご苦労さんだよ。はい、角砂糖あげるよ。",
+    "en": [
+      {
+        "id": "328292",
+        "text": "Hi Mr Ant, keeping up the good work today as well. Here's a sugar cube."
+      }
+    ],
+    "indices": "蟻{アリ} さん 今日 も ご苦労さん~ だ よ はい[02] 角砂糖 上げる{あげる} よ[01]",
+    "vocabIds": [
+      "1005040",
+      "1206140",
+      "1579110"
+    ],
+    "matches": {
+      "1005040": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "ごくろうさん"
+        }
+      ],
+      "1206140": [
+        {
+          "start": 19,
+          "length": 3,
+          "reading": "かくざとう"
+        }
+      ],
+      "1579110": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "きょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "173498",
+    "original": "紅茶に角砂糖を２つ入れて下さい。",
+    "en": [
+      {
+        "id": "240972",
+        "text": "Put two lumps in my tea, please."
+      }
+    ],
+    "indices": "紅茶 に 角砂糖~ を 二つ{２つ} 入れる[07]{入れて} 下さい",
+    "vocabIds": [
+      "1465610",
+      "1206140",
+      "1280770",
+      "1461160"
+    ],
+    "matches": {
+      "1206140": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "かくざとう"
+        }
+      ],
+      "1280770": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こうちゃ"
+        }
+      ],
+      "1461160": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ふたつ"
+        }
+      ],
+      "1465610": [
+        {
+          "start": 9,
+          "length": 6,
+          "reading": "いれてください"
+        }
+      ]
+    }
+  },
+  {
+    "id": "184535",
+    "original": "角砂糖を一個入れて下さい。",
+    "en": [
+      {
+        "id": "21663",
+        "text": "One lump of sugar, please."
+      }
+    ],
+    "indices": "角砂糖 を 一個 入れる{入れて} 下さい",
+    "vocabIds": [
+      "1465610",
+      "1206140",
+      "1162290"
+    ],
+    "matches": {
+      "1162290": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "いちこ"
+        }
+      ],
+      "1206140": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "かくざとう"
+        }
+      ],
+      "1465610": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "いれてください"
+        }
+      ]
+    }
+  },
+  {
+    "id": "184537",
+    "original": "角砂糖を１個コーヒーに入れて下さい。",
+    "en": [
+      {
+        "id": "21664",
+        "text": "Please put a lump of sugar in my coffee."
+      }
+    ],
+    "indices": "角砂糖 を 一個{１個} 珈琲{コーヒー} に 入れる[07]{入れて} 下さい",
+    "vocabIds": [
+      "1465610",
+      "1206140",
+      "1162290"
+    ],
+    "matches": {
+      "1162290": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "いちこ"
+        }
+      ],
+      "1206140": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "かくざとう"
+        }
+      ],
+      "1465610": [
+        {
+          "start": 11,
+          "length": 6,
+          "reading": "いれてください"
+        }
+      ]
+    }
+  }
+]

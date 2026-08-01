@@ -1,0 +1,162 @@
+[
+  {
+    "id": "156648",
+    "original": "私は散髪屋で髪を刈ってもらった。",
+    "en": [
+      {
+        "id": "257885",
+        "text": "I had my hair cut at the barber's."
+      }
+    ],
+    "indices": "私(わたし)[01] は 散髪屋~ で(#2028980) 髪 を 刈る{刈って} 貰う[02]{もらった}",
+    "vocabIds": [
+      "1209540",
+      "1754710",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1477950"
+    ],
+    "matches": {
+      "1209540": [
+        {
+          "start": 8,
+          "length": 7,
+          "reading": "かってもらった"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1477950": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "かみ"
+        }
+      ],
+      "1754710": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "さんぱつや"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "194199",
+    "original": "もう散髪屋さんに、行ってもいい頃です。",
+    "en": [
+      {
+        "id": "31369",
+        "text": "It's time you went to the barber's."
+      },
+      {
+        "id": "1341429",
+        "text": "It's about time you went to the barber's."
+      }
+    ],
+    "indices": "もう 散髪屋 さん に 行く[01]{行って} も いい頃 です",
+    "vocabIds": [
+      "1754710",
+      "2118250",
+      "1578850"
+    ],
+    "matches": {
+      "1578850": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "いって"
+        }
+      ],
+      "1754710": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "さんぱつや"
+        }
+      ],
+      "2118250": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "いいころ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11178870",
+    "original": "月に一回、散髪屋に行きます。",
+    "en": [
+      {
+        "id": "5172580",
+        "text": "Once a month, I go to the barber."
+      },
+      {
+        "id": "463862",
+        "text": "I go to the barber once a month."
+      },
+      {
+        "id": "257210",
+        "text": "I go to the barber's once a month."
+      }
+    ],
+    "vocabIds": [
+      "1578850",
+      "1754710",
+      "1161310",
+      "1255430"
+    ],
+    "matches": {
+      "1161310": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "いちかい"
+        }
+      ],
+      "1255430": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "つき"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "いきます"
+        }
+      ],
+      "1754710": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "さんぱつや"
+        }
+      ]
+    }
+  }
+]

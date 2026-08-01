@@ -1,0 +1,88 @@
+[
+  {
+    "id": "85821",
+    "original": "被告は判決に不服でためらわずに控訴した。",
+    "en": [
+      {
+        "id": "317891",
+        "text": "The defendant appealed against the sentence without hesitation."
+      }
+    ],
+    "indices": "被告 は 判決 に 不服 で(#2028980) 躊躇わずに{ためらわずに} 控訴{控訴した}",
+    "vocabIds": [
+      "1484410",
+      "1478520",
+      "1494700",
+      "1279090"
+    ],
+    "matches": {
+      "1279090": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "こうそ"
+        }
+      ],
+      "1478520": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "はんけつ"
+        }
+      ],
+      "1484410": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ひこく"
+        }
+      ],
+      "1494700": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ふふく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "85824",
+    "original": "被告は上級裁判所に控訴するだろう。",
+    "en": [
+      {
+        "id": "317889",
+        "text": "The defendant will appeal to a higher court."
+      }
+    ],
+    "indices": "被告 は 上級裁判所~ に 控訴~ 為る(する){する} だろう",
+    "vocabIds": [
+      "1774960",
+      "1484410",
+      "1279090"
+    ],
+    "matches": {
+      "1279090": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "こうそ"
+        }
+      ],
+      "1484410": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ひこく"
+        }
+      ],
+      "1774960": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "じょうきゅうさいばんしょ"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,105 @@
+[
+  {
+    "id": "99111",
+    "original": "彼は頼もしい男だ。",
+    "en": [
+      {
+        "id": "304588",
+        "text": "He is a man to be depended on."
+      },
+      {
+        "id": "3526702",
+        "text": "He's a reliable man."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 頼もしい~ 男 だ",
+    "vocabIds": [
+      "1548380",
+      "1000420",
+      "1483070",
+      "1419990",
+      "1589190"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1419990": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "おとこ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1548380": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "たのもしい"
+        }
+      ],
+      "1589190": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "おとこ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10077631",
+    "original": "トムって、頼もしい。",
+    "en": [
+      {
+        "id": "2203263",
+        "text": "Tom is reliable."
+      }
+    ],
+    "vocabIds": [
+      "1548380"
+    ],
+    "matches": {
+      "1548380": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "たのもしい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10077632",
+    "original": "ヤニーって、頼もしい。",
+    "en": [
+      {
+        "id": "9804364",
+        "text": "Yanni is reliable."
+      }
+    ],
+    "vocabIds": [
+      "1548380"
+    ],
+    "matches": {
+      "1548380": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "たのもしい"
+        }
+      ]
+    }
+  }
+]

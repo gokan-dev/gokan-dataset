@@ -1,0 +1,87 @@
+[
+  {
+    "id": "183844",
+    "original": "管から水が吹き出した。",
+    "en": [
+      {
+        "id": "20968",
+        "text": "Water shot from the pipe."
+      }
+    ],
+    "indices": "管(かん)~ から 水(みず) が 吹き出す{吹き出した}~",
+    "vocabIds": [
+      "1602500",
+      "1577650",
+      "1371260"
+    ],
+    "matches": {
+      "1371260": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "みず"
+        }
+      ],
+      "1577650": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かん"
+        }
+      ],
+      "1602500": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "ふきだした"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1727020",
+    "original": "水圧が原因で管は破裂しました。",
+    "en": [
+      {
+        "id": "681783",
+        "text": "The water pressure caused the pipe to burst."
+      }
+    ],
+    "vocabIds": [
+      "1657070",
+      "1261190",
+      "1471470",
+      "1577650"
+    ],
+    "matches": {
+      "1261190": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "げんいん"
+        }
+      ],
+      "1471470": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "はれつ"
+        }
+      ],
+      "1577650": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "かん"
+        }
+      ],
+      "1657070": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "すいあつ"
+        }
+      ]
+    }
+  }
+]

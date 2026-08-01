@@ -1,0 +1,177 @@
+[
+  {
+    "id": "190996",
+    "original": "胃に腫瘍ができたので切ってもらった。",
+    "en": [
+      {
+        "id": "28156",
+        "text": "I got a stomach tumor and had to have it operated on."
+      }
+    ],
+    "indices": "胃[01] に 腫瘍~ が[01] 出来る{できた} ので 切る{切って} 貰う[02]{もらった}",
+    "vocabIds": [
+      "1384830",
+      "1328950",
+      "1158500"
+    ],
+    "matches": {
+      "1158500": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "い"
+        }
+      ],
+      "1328950": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "しゅよう"
+        }
+      ],
+      "1384830": [
+        {
+          "start": 10,
+          "length": 7,
+          "reading": "きってもらった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10764027",
+    "original": "腫瘍は良性でした。",
+    "en": [
+      {
+        "id": "3307520",
+        "text": "The tumor was benign."
+      }
+    ],
+    "vocabIds": [
+      "1328950",
+      "1554610"
+    ],
+    "matches": {
+      "1328950": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しゅよう"
+        }
+      ],
+      "1554610": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "りょうせい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10764028",
+    "original": "腫瘍は悪性です。",
+    "en": [
+      {
+        "id": "3307526",
+        "text": "The tumor is malignant."
+      }
+    ],
+    "vocabIds": [
+      "1328950",
+      "1152060"
+    ],
+    "matches": {
+      "1152060": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "あくしょう"
+        }
+      ],
+      "1328950": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しゅよう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10764029",
+    "original": "腫瘍は進行しています。",
+    "en": [
+      {
+        "id": "9618810",
+        "text": "The tumor is growing."
+      }
+    ],
+    "vocabIds": [
+      "1328950",
+      "1366060"
+    ],
+    "matches": {
+      "1328950": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しゅよう"
+        }
+      ],
+      "1366060": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "しんこう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12751568",
+    "original": "私、腫瘍があるんだ。",
+    "en": [
+      {
+        "id": "12118843",
+        "text": "I have a tumor."
+      }
+    ],
+    "vocabIds": [
+      "1328950",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1328950": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "しゅよう"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  }
+]

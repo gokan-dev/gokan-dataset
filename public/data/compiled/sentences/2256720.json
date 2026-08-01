@@ -1,0 +1,105 @@
+[
+  {
+    "id": "231724",
+    "original": "あなたは朝型？",
+    "en": [
+      {
+        "id": "69091",
+        "text": "Would you say you're a morning person?"
+      }
+    ],
+    "indices": "貴方(あなた)[01]{あなた} は 朝型~",
+    "vocabIds": [
+      "2256720"
+    ],
+    "matches": {
+      "2256720": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "あさがた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10682395",
+    "original": "私は朝型です。",
+    "en": [
+      {
+        "id": "8977761",
+        "text": "I am a morning person."
+      },
+      {
+        "id": "2565541",
+        "text": "I'm a morning person."
+      }
+    ],
+    "vocabIds": [
+      "2256720",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2256720": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "あさがた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11052448",
+    "original": "朝型？それとも夜型？",
+    "en": [
+      {
+        "id": "11052443",
+        "text": "Are you a morning person or a night person?"
+      }
+    ],
+    "vocabIds": [
+      "2256720",
+      "2115150"
+    ],
+    "matches": {
+      "2115150": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "よるがた"
+        }
+      ],
+      "2256720": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ちょうがた"
+        }
+      ]
+    }
+  }
+]

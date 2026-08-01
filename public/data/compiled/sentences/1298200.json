@@ -1,0 +1,230 @@
+[
+  {
+    "id": "169812",
+    "original": "昨日本を買った。",
+    "en": [
+      {
+        "id": "244674",
+        "text": "I bought a book yesterday."
+      },
+      {
+        "id": "453344",
+        "text": "Yesterday I bought a book."
+      },
+      {
+        "id": "971763",
+        "text": "Yesterday, I bought a book."
+      }
+    ],
+    "indices": "昨日 本(ほん)[01] を 買う[01]{買った}",
+    "vocabIds": [
+      "1473740",
+      "1582710",
+      "1298200"
+    ],
+    "matches": {
+      "1298200": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "さく"
+        }
+      ],
+      "1473740": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "かった"
+        }
+      ],
+      "1582710": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "にっぽん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "169854",
+    "original": "彼は昨日大酒を飲んだ。",
+    "en": [
+      {
+        "id": "244632",
+        "text": "He drank hard yesterday."
+      },
+      {
+        "id": "435643",
+        "text": "He drank a lot yesterday."
+      },
+      {
+        "id": "9690915",
+        "text": "He had a lot to drink last night."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 昨日 大酒(おおざけ) を 飲む[01]{飲んだ}",
+    "vocabIds": [
+      "1169870",
+      "5581562",
+      "1000420",
+      "1483070",
+      "1298200",
+      "1329010"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1169870": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "のんだ"
+        }
+      ],
+      "1298200": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "さく"
+        }
+      ],
+      "1329010": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "しゅ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "5581562": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "にちだい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "213414",
+    "original": "そのあかりは昨夜嵐で消えた。",
+    "en": [
+      {
+        "id": "50699",
+        "text": "The light went off last night in the storm."
+      }
+    ],
+    "indices": "其の[01]{その} 明かり{あかり} は 昨夜(ゆうべ)[02] 嵐 で(#2028980) 消える{消えた}",
+    "vocabIds": [
+      "1350040",
+      "1537210",
+      "1298200"
+    ],
+    "matches": {
+      "1298200": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "さく"
+        }
+      ],
+      "1350040": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "きえた"
+        }
+      ],
+      "1537210": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "よあらし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "227708",
+    "original": "おじは私に昨日本をくれました。これがその本です。",
+    "en": [
+      {
+        "id": "65061",
+        "text": "My uncle gave me a book yesterday. This is the book."
+      }
+    ],
+    "indices": "伯父(おじ){おじ} は 私(わたし)[01] に 昨日 本 を 呉れる{くれました} 此れ[01]{これ} が 其の[01]{その} 本(ほん)[01] です",
+    "vocabIds": [
+      "1582710",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1298200",
+      "1260670",
+      "1522150"
+    ],
+    "matches": {
+      "1260670": [
+        {
+          "start": 20,
+          "length": 1,
+          "reading": "ほん"
+        }
+      ],
+      "1298200": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "さく"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1522150": [
+        {
+          "start": 20,
+          "length": 1,
+          "reading": "ほん"
+        }
+      ],
+      "1582710": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "にっぽん"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,156 @@
+[
+  {
+    "id": "125670",
+    "original": "痛み止めを下さい。",
+    "en": [
+      {
+        "id": "278322",
+        "text": "Please give me a painkiller."
+      }
+    ],
+    "indices": "痛み止め を 下さい[01]",
+    "vocabIds": [
+      "1432690",
+      "1184280"
+    ],
+    "matches": {
+      "1184280": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "ください"
+        }
+      ],
+      "1432690": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "いたみとめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "125671",
+    "original": "痛み止めの注射をします。",
+    "en": [
+      {
+        "id": "278321",
+        "text": "I'll give you a painkilling injection."
+      }
+    ],
+    "indices": "痛み止め~ の 注射 を 為る(する){します}",
+    "vocabIds": [
+      "1432690",
+      "1426590"
+    ],
+    "matches": {
+      "1426590": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ちゅうしゃ"
+        }
+      ],
+      "1432690": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "いたみとめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1754125",
+    "original": "頭痛の時にはどうしても痛み止めを飲んでしまう。",
+    "en": [
+      {
+        "id": "259699",
+        "text": "I can't help taking painkillers when I have a headache."
+      }
+    ],
+    "vocabIds": [
+      "1169870",
+      "1432690",
+      "1315860",
+      "1450890"
+    ],
+    "matches": {
+      "1169870": [
+        {
+          "start": 16,
+          "length": 6,
+          "reading": "のんでしまう"
+        }
+      ],
+      "1315860": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "ときには"
+        }
+      ],
+      "1432690": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "いたみとめ"
+        }
+      ],
+      "1450890": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ずつう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11243057",
+    "original": "痛い時は、痛み止めを飲んでください。",
+    "en": [
+      {
+        "id": "278303",
+        "text": "If you have pain, take a painkiller."
+      }
+    ],
+    "vocabIds": [
+      "1169870",
+      "1432690",
+      "1432680",
+      "1315840"
+    ],
+    "matches": {
+      "1169870": [
+        {
+          "start": 10,
+          "length": 7,
+          "reading": "のんでください"
+        }
+      ],
+      "1315840": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "とき"
+        }
+      ],
+      "1432680": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いたい"
+        }
+      ],
+      "1432690": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "いたみとめ"
+        }
+      ]
+    }
+  }
+]

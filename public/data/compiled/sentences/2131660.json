@@ -1,0 +1,64 @@
+[
+  {
+    "id": "79549",
+    "original": "約束どおりにピアノをひいた。",
+    "en": [
+      {
+        "id": "324169",
+        "text": "She played the piano as promised."
+      }
+    ],
+    "indices": "約束[01] 通り(どおり)[01]{どおり} に ピアノ[01] を 弾く(ひく){ひいた}",
+    "vocabIds": [
+      "2131660"
+    ],
+    "matches": {
+      "2131660": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "やくそくどおり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "99372",
+    "original": "彼は約束通りにきた。",
+    "en": [
+      {
+        "id": "304326",
+        "text": "He came according to his promise."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 約束[01] 通り(とおり) に 来る(くる){きた}",
+    "vocabIds": [
+      "2131660",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "2131660": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "やくそくどおり"
+        }
+      ]
+    }
+  }
+]

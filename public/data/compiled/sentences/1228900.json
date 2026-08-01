@@ -1,0 +1,130 @@
+[
+  {
+    "id": "198105",
+    "original": "バスは通りの真中で急停車した。",
+    "en": [
+      {
+        "id": "35294",
+        "text": "The bus stopped suddenly in the middle of the street."
+      }
+    ],
+    "indices": "バス(#1098390) は 通り(とおり) の 真ん中{真中} で(#2028980) 急停車 為る(する){した}",
+    "vocabIds": [
+      "1228900",
+      "1432920",
+      "2838012"
+    ],
+    "matches": {
+      "1228900": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "きゅうていしゃ"
+        }
+      ],
+      "1432920": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "とおり"
+        }
+      ],
+      "2838012": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "まんなか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "198115",
+    "original": "バスは急停車した。",
+    "en": [
+      {
+        "id": "35304",
+        "text": "The bus stopped sharply."
+      },
+      {
+        "id": "8429064",
+        "text": "The bus stopped suddenly."
+      }
+    ],
+    "indices": "バス(#1098390) は 急停車 為る(する){した}",
+    "vocabIds": [
+      "1228900"
+    ],
+    "matches": {
+      "1228900": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "きゅうていしゃ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "203710",
+    "original": "タクシーは信号のところで急停車した。",
+    "en": [
+      {
+        "id": "40949",
+        "text": "The taxi stopped dead at the traffic signal."
+      }
+    ],
+    "indices": "タクシー は 信号 の 所(ところ){ところ} で(#2028980) 急停車 為る(する){した}",
+    "vocabIds": [
+      "1228900",
+      "1359240"
+    ],
+    "matches": {
+      "1228900": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "きゅうていしゃ"
+        }
+      ],
+      "1359240": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "しんごう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "209572",
+    "original": "その車は急停車した。",
+    "en": [
+      {
+        "id": "46834",
+        "text": "The car came to an abrupt stop."
+      }
+    ],
+    "indices": "其の[01]{その} 車(くるま) は 急停車~ 為る(する){した}",
+    "vocabIds": [
+      "1228900",
+      "1323080"
+    ],
+    "matches": {
+      "1228900": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "きゅうていしゃ"
+        }
+      ],
+      "1323080": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ]
+    }
+  }
+]

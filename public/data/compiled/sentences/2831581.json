@@ -1,0 +1,111 @@
+[
+  {
+    "id": "165413",
+    "original": "私たちは通常パン一切れとコーヒー１杯をいただきます。",
+    "en": [
+      {
+        "id": "249092",
+        "text": "We usually have a slice of bread and a cup of coffee."
+      }
+    ],
+    "indices": "私たち は 通常 パン(#1103090)[01] 一切れ と 珈琲{コーヒー} 一杯[01]{１杯} を 頂く{いただきます}",
+    "vocabIds": [
+      "1311300",
+      "2831581",
+      "1433280",
+      "1384840",
+      "1165670"
+    ],
+    "matches": {
+      "1165670": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "いちはい"
+        }
+      ],
+      "1311300": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1384840": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "きれ"
+        }
+      ],
+      "1433280": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "つうじょう"
+        }
+      ],
+      "2831581": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "ぱんいち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10690425",
+    "original": "サンドラの朝食は、パン一枚とコーヒーでした。",
+    "en": [
+      {
+        "id": "5068916",
+        "text": "For breakfast, Sandra had a slice of bread and a cup of coffee."
+      }
+    ],
+    "vocabIds": [
+      "2831581",
+      "1428390",
+      "2863028",
+      "1516920",
+      "1524610"
+    ],
+    "matches": {
+      "1428390": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ちょうしょく"
+        }
+      ],
+      "1516920": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "まい"
+        }
+      ],
+      "1524610": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "まい"
+        }
+      ],
+      "2831581": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "ぱんいち"
+        }
+      ],
+      "2863028": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ちょうしょく"
+        }
+      ]
+    }
+  }
+]

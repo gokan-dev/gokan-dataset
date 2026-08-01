@@ -1,0 +1,60 @@
+[
+  {
+    "id": "74931",
+    "original": "場合によるがな、そうだったり、そうでなかったり。",
+    "en": [
+      {
+        "id": "328788",
+        "text": "Depending on the case; sometimes it is so, sometimes not."
+      }
+    ],
+    "indices": "場合による が な 然う{そう} だ{だったり} 然う{そう} である{でなかったり}",
+    "vocabIds": [
+      "1355830"
+    ],
+    "matches": {
+      "1355830": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "ばあいによる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "205355",
+    "original": "それはよく分かりません。場合によるでしょうね。",
+    "en": [
+      {
+        "id": "42599",
+        "text": "I'm not sure about that. It depends."
+      },
+      {
+        "id": "3156605",
+        "text": "I'm not so sure about that. I suppose it depends on the situation."
+      }
+    ],
+    "indices": "其れ[01]{それ} は 良く[01]{よく} 分かる{分かりません} 場合による~ でしょう[01] ね(#2029080)[01]",
+    "vocabIds": [
+      "1606560",
+      "1355830"
+    ],
+    "matches": {
+      "1355830": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "ばあいによる"
+        }
+      ],
+      "1606560": [
+        {
+          "start": 5,
+          "length": 6,
+          "reading": "わかりません"
+        }
+      ]
+    }
+  }
+]

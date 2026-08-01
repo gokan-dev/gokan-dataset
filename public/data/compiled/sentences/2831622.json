@@ -1,0 +1,111 @@
+[
+  {
+    "id": "9190984",
+    "original": "会社の利用規約を作成する際は、弁護士にご相談ください。",
+    "en": [
+      {
+        "id": "9190985",
+        "text": "Please consult with an attorney when creating your company’s terms of service."
+      }
+    ],
+    "indices": "会社 の 利用規約~ を 作成 為る(する){する} 際(さい) は 弁護士 に 相談{ご相談} 下さる{ください}",
+    "vocabIds": [
+      "2831622",
+      "1512850",
+      "1198550",
+      "1297760",
+      "1401210",
+      "1296300"
+    ],
+    "matches": {
+      "1198550": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かいしゃ"
+        }
+      ],
+      "1296300": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "さい"
+        }
+      ],
+      "1297760": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "さくせい"
+        }
+      ],
+      "1401210": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "そうだん"
+        }
+      ],
+      "1512850": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "べんごし"
+        }
+      ],
+      "2831622": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "りようきやく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10071036",
+    "original": "利用規約に違反すると、アカウントは停止されます。",
+    "en": [
+      {
+        "id": "12154938",
+        "text": "If you violate the terms of service, your account will be suspended."
+      }
+    ],
+    "vocabIds": [
+      "2831622",
+      "1158950",
+      "2825941",
+      "1434920"
+    ],
+    "matches": {
+      "1158950": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "いはん"
+        }
+      ],
+      "1434920": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "ていし"
+        }
+      ],
+      "2825941": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "いはん"
+        }
+      ],
+      "2831622": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "りようきやく"
+        }
+      ]
+    }
+  }
+]

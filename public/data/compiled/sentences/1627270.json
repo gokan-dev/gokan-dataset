@@ -1,0 +1,80 @@
+[
+  {
+    "id": "100049",
+    "original": "彼は放校処分にされた。",
+    "en": [
+      {
+        "id": "303648",
+        "text": "He was expelled from school."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 放校 処分 に 為れる{された}",
+    "vocabIds": [
+      "1627270",
+      "1342490",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1342490": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "しょぶん"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1627270": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ほうこう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "208324",
+    "original": "その息子は放校された。",
+    "en": [
+      {
+        "id": "45581",
+        "text": "His son was expelled from school."
+      }
+    ],
+    "indices": "其の[01]{その} 息子[01] は 放校~ 為れる{された}",
+    "vocabIds": [
+      "1404390",
+      "1627270"
+    ],
+    "matches": {
+      "1404390": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "むすこ"
+        }
+      ],
+      "1627270": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ほうこう"
+        }
+      ]
+    }
+  }
+]

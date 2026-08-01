@@ -1,0 +1,71 @@
+[
+  {
+    "id": "199115",
+    "original": "なにかギリシャ神話を、知っていますか。",
+    "en": [
+      {
+        "id": "36314",
+        "text": "Do you know any Greek myths?"
+      }
+    ],
+    "indices": "何か{なにか} 希臘{ギリシャ} 神話 を 知る{知っています} か",
+    "vocabIds": [
+      "1043200",
+      "1420470"
+    ],
+    "matches": {
+      "1043200": [
+        {
+          "start": 3,
+          "length": 6,
+          "reading": "ぎりしゃしんわ"
+        }
+      ],
+      "1420470": [
+        {
+          "start": 11,
+          "length": 6,
+          "reading": "しっています"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10886085",
+    "original": "ギリシャ神話では、アレスは戦争の神でした。",
+    "en": [
+      {
+        "id": "5617841",
+        "text": "In Greek mythology, Ares was the god of war."
+      }
+    ],
+    "vocabIds": [
+      "1043200",
+      "1390360",
+      "1364440"
+    ],
+    "matches": {
+      "1043200": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "ぎりしゃしんわ"
+        }
+      ],
+      "1364440": [
+        {
+          "start": 16,
+          "length": 1,
+          "reading": "かみ"
+        }
+      ],
+      "1390360": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "せんそう"
+        }
+      ]
+    }
+  }
+]

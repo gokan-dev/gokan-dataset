@@ -1,0 +1,118 @@
+[
+  {
+    "id": "85410",
+    "original": "標高がぐんと高くなると呼吸困難を感じる。",
+    "en": [
+      {
+        "id": "318303",
+        "text": "In high altitudes, people find it hard to breathe."
+      }
+    ],
+    "indices": "標高 が ぐんと~ 高い{高く} 成る[01]{なる} と 呼吸困難~ を 感じる",
+    "vocabIds": [
+      "1844970",
+      "1212260",
+      "1488690",
+      "1283190"
+    ],
+    "matches": {
+      "1212260": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "かんじる"
+        }
+      ],
+      "1283190": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "たかく"
+        }
+      ],
+      "1488690": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ひょうこう"
+        }
+      ],
+      "1844970": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "こきゅうこんなん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "121532",
+    "original": "肺炎にかかると呼吸困難になる。",
+    "en": [
+      {
+        "id": "282473",
+        "text": "Pneumonia causes difficulty in breathing."
+      }
+    ],
+    "indices": "肺炎 に 罹る{かかる} と 呼吸困難 になる[01]",
+    "vocabIds": [
+      "1844970",
+      "1472880"
+    ],
+    "matches": {
+      "1472880": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "はいえん"
+        }
+      ],
+      "1844970": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "こきゅうこんなん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "992926",
+    "original": "肺炎は呼吸困難を引き起こす。",
+    "en": [
+      {
+        "id": "282473",
+        "text": "Pneumonia causes difficulty in breathing."
+      }
+    ],
+    "vocabIds": [
+      "1168880",
+      "1844970",
+      "1472880"
+    ],
+    "matches": {
+      "1168880": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "ひきおこす"
+        }
+      ],
+      "1472880": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "はいえん"
+        }
+      ],
+      "1844970": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "こきゅうこんなん"
+        }
+      ]
+    }
+  }
+]

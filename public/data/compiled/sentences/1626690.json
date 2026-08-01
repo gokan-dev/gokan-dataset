@@ -1,0 +1,76 @@
+[
+  {
+    "id": "81446",
+    "original": "摩擦でマッチに火がつくようになる。",
+    "en": [
+      {
+        "id": "322269",
+        "text": "Friction causes a match to light."
+      }
+    ],
+    "indices": "摩擦[01] で(#2028980) 燐寸{マッチ} に 火がつく~ 様になる{ようになる}",
+    "vocabIds": [
+      "1626690",
+      "1523830"
+    ],
+    "matches": {
+      "1523830": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "まさつ"
+        }
+      ],
+      "1626690": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "ひがつく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "186767",
+    "original": "火がつくとすぐに、その化学工場は爆発した。",
+    "en": [
+      {
+        "id": "23903",
+        "text": "Immediately after it caught fire, the chemical factory blew up."
+      },
+      {
+        "id": "9414945",
+        "text": "Once the chemical plant caught fire, it exploded."
+      }
+    ],
+    "indices": "火がつく と 直ぐに{すぐに} 其の[01]{その} 化学[01] 工場 は 爆発[01] 為る(する){した}",
+    "vocabIds": [
+      "1626690",
+      "2660920",
+      "1475910"
+    ],
+    "matches": {
+      "1475910": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "ばくはつ"
+        }
+      ],
+      "1626690": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "ひがつく"
+        }
+      ],
+      "2660920": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "かがくこうじょう"
+        }
+      ]
+    }
+  }
+]

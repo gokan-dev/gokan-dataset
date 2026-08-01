@@ -1,0 +1,161 @@
+[
+  {
+    "id": "150252",
+    "original": "次の土曜日にオフィスの大掃除をしましょう。",
+    "en": [
+      {
+        "id": "264305",
+        "text": "Let's clean the entire office next Saturday."
+      }
+    ],
+    "indices": "次(つぎ)[01]{次の} 土曜日 に オフィス の 大掃除~ を 為る(する){しましょう}",
+    "vocabIds": [
+      "1445590",
+      "1414390",
+      "1316380"
+    ],
+    "matches": {
+      "1316380": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "つぎ"
+        }
+      ],
+      "1414390": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "だいそうじ"
+        }
+      ],
+      "1445590": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "どようび"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9533434",
+    "original": "大掃除の時間よ。",
+    "en": [
+      {
+        "id": "6888854",
+        "text": "It's time for spring cleaning."
+      }
+    ],
+    "vocabIds": [
+      "1414390",
+      "1315920"
+    ],
+    "matches": {
+      "1315920": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "じかん"
+        }
+      ],
+      "1414390": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "だいそうじ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9533438",
+    "original": "大掃除の時間だよ！",
+    "en": [
+      {
+        "id": "6887051",
+        "text": "It's time for spring cleaning!"
+      }
+    ],
+    "vocabIds": [
+      "1414390",
+      "1315920"
+    ],
+    "matches": {
+      "1315920": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "じかん"
+        }
+      ],
+      "1414390": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "だいそうじ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9533004",
+    "original": "台所の大掃除しなくちゃね。",
+    "en": [
+      {
+        "id": "10124985",
+        "text": "I need to do a major clean of my kitchen."
+      }
+    ],
+    "vocabIds": [
+      "1414390",
+      "1412640"
+    ],
+    "matches": {
+      "1412640": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "だいどころ"
+        }
+      ],
+      "1414390": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "だいそうじ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10553450",
+    "original": "大掃除、手伝って。",
+    "en": [
+      {
+        "id": "10558948",
+        "text": "Help me with the spring cleaning."
+      }
+    ],
+    "vocabIds": [
+      "1328190",
+      "1414390"
+    ],
+    "matches": {
+      "1328190": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "てつだって"
+        }
+      ],
+      "1414390": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "だいそうじ"
+        }
+      ]
+    }
+  }
+]

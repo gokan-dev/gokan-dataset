@@ -1,0 +1,95 @@
+[
+  {
+    "id": "219111",
+    "original": "この齧歯動物は冬に木の実を貯える。",
+    "en": [
+      {
+        "id": "56427",
+        "text": "These small rodents store up nuts in the winter."
+      }
+    ],
+    "indices": "此の{この} 齧歯動物~ は 冬 に 木の実 を 蓄える{貯える}",
+    "vocabIds": [
+      "2444900",
+      "1534550",
+      "1596860",
+      "1446070"
+    ],
+    "matches": {
+      "1446070": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "ふゆ"
+        }
+      ],
+      "1534550": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "このみ"
+        }
+      ],
+      "1596860": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "たくわえる"
+        }
+      ],
+      "2444900": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "かじはどうぶつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3322511",
+    "original": "クズリは多くのウサギやクロライチョウ、エゾライチョウ、小さなげっ歯動物を捕獲する。",
+    "en": [
+      {
+        "id": "3322509",
+        "text": "Wolverines catch a lot of hares, black grouse, hazel grouse, and small rodents."
+      }
+    ],
+    "vocabIds": [
+      "2444900",
+      "2136180",
+      "1861770",
+      "1514160"
+    ],
+    "matches": {
+      "1514160": [
+        {
+          "start": 36,
+          "length": 2,
+          "reading": "ほかく"
+        }
+      ],
+      "1861770": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "おおく"
+        }
+      ],
+      "2136180": [
+        {
+          "start": 27,
+          "length": 3,
+          "reading": "ちいさな"
+        }
+      ],
+      "2444900": [
+        {
+          "start": 30,
+          "length": 5,
+          "reading": "げっはどうぶつ"
+        }
+      ]
+    }
+  }
+]

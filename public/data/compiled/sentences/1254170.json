@@ -1,0 +1,88 @@
+[
+  {
+    "id": "175921",
+    "original": "決まり文句は便利だ、熟慮の必要がないのだから。",
+    "en": [
+      {
+        "id": "238544",
+        "text": "A formula is very convenient, because you need not think about it."
+      }
+    ],
+    "indices": "決まり文句~ は 便利 だ 熟慮~ の 必要[02] が[01] 無い{ない} の だから",
+    "vocabIds": [
+      "1254170",
+      "1512610",
+      "1337910",
+      "1487660"
+    ],
+    "matches": {
+      "1254170": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "きまりもんく"
+        }
+      ],
+      "1337910": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "じゅくりょ"
+        }
+      ],
+      "1487660": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "ひつよう"
+        }
+      ],
+      "1512610": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "べんり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "218840",
+    "original": "これが彼の決まり文句です。",
+    "en": [
+      {
+        "id": "56154",
+        "text": "This is his formula."
+      },
+      {
+        "id": "396106",
+        "text": "This is a set phrase of his."
+      },
+      {
+        "id": "396107",
+        "text": "This is one of the things he always says."
+      }
+    ],
+    "indices": "此れ[01]{これ} が 彼(かれ)[01] の 決まり文句 です",
+    "vocabIds": [
+      "1254170",
+      "1000420"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かれの"
+        }
+      ],
+      "1254170": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "きまりもんく"
+        }
+      ]
+    }
+  }
+]

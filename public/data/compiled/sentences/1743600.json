@@ -1,0 +1,83 @@
+[
+  {
+    "id": "155896",
+    "original": "小休止を提案します。",
+    "en": [
+      {
+        "id": "258640",
+        "text": "I propose a short rest."
+      }
+    ],
+    "indices": "小休止~ を 提案 為る(する){します}",
+    "vocabIds": [
+      "1743600",
+      "1436320"
+    ],
+    "matches": {
+      "1436320": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ていあん"
+        }
+      ],
+      "1743600": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "しょうきゅうし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "971372",
+    "original": "彼はちょっと小休止しようと提案した。",
+    "en": [
+      {
+        "id": "970143",
+        "text": "He suggested that we take a short rest."
+      },
+      {
+        "id": "975499",
+        "text": "He proposed that we take a small break."
+      }
+    ],
+    "vocabIds": [
+      "1743600",
+      "1436320",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1436320": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "ていあん"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1743600": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "しょうきゅうし"
+        }
+      ]
+    }
+  }
+]

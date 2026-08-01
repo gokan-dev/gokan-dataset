@@ -1,0 +1,87 @@
+[
+  {
+    "id": "90756",
+    "original": "彼女は海外の合唱団で歌わないかと誘われています。",
+    "en": [
+      {
+        "id": "312956",
+        "text": "She has been invited to sing in a choir in a foreign country."
+      }
+    ],
+    "indices": "彼女[01] は 海外 の 合唱団~ で(#2028980) 歌う[01]{歌わない} か と 誘う[01]{誘われています}",
+    "vocabIds": [
+      "1588120",
+      "1284910",
+      "1483150",
+      "1201260",
+      "1541900"
+    ],
+    "matches": {
+      "1201260": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かいがい"
+        }
+      ],
+      "1284910": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "がっしょうだん"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1541900": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "さそわ"
+        }
+      ],
+      "1588120": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "うたわない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8782811",
+    "original": "合唱団に入るつもりなの？",
+    "en": [
+      {
+        "id": "4016662",
+        "text": "Are you going to join the glee club?"
+      }
+    ],
+    "vocabIds": [
+      "1284910",
+      "1465590"
+    ],
+    "matches": {
+      "1284910": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "がっしょうだん"
+        }
+      ],
+      "1465590": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "はいる"
+        }
+      ]
+    }
+  }
+]

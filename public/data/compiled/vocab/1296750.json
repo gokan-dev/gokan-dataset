@@ -1,0 +1,105 @@
+{
+  "id": "1296750",
+  "writtenForm": {
+    "kanji": "罪人",
+    "alternatives": [],
+    "containedKanji": [
+      "罪",
+      "人"
+    ]
+  },
+  "reading": {
+    "primary": "ざいにん",
+    "alternatives": [
+      "つみびと"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 8948
+  },
+  "progression": {
+    "kklcStep": 741
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "criminal",
+        "lawbreaker",
+        "wrongdoer",
+        "offender"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "sinner",
+        "evildoer",
+        "wrongdoer"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "つみびと"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1296750",
+      "isBase": true,
+      "originalPrimaryReading": "ざいにん",
+      "originalGlosses": [
+        "criminal",
+        "lawbreaker",
+        "wrongdoer"
+      ]
+    },
+    {
+      "id": "1296760",
+      "isBase": false,
+      "originalPrimaryReading": "つみびと",
+      "originalGlosses": [
+        "sinner",
+        "evildoer",
+        "wrongdoer"
+      ]
+    }
+  ],
+  "components": [
+    "1296680",
+    "1580640"
+  ],
+  "parents": [
+    "2640860",
+    "1801780"
+  ]
+}

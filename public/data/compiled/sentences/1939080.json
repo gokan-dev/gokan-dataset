@@ -1,0 +1,108 @@
+[
+  {
+    "id": "115465",
+    "original": "彼は、新聞配達をしてお金をかせいだ。",
+    "en": [
+      {
+        "id": "288205",
+        "text": "He earned money by delivering newspapers."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 新聞配達 を 為る(する){して} お金 を 稼ぐ{かせいだ}",
+    "vocabIds": [
+      "1939080",
+      "1001820",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1001820": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "おかね"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1939080": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "しんぶんはいたつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "145104",
+    "original": "新聞配達の少年はどんな天気でも新聞を配達する。",
+    "en": [
+      {
+        "id": "269459",
+        "text": "The newspaper boy delivers papers in any kind of weather."
+      },
+      {
+        "id": "1053759",
+        "text": "The newspaper boy delivers newspapers no matter what the weather is like."
+      }
+    ],
+    "indices": "新聞配達~ の 少年[01] は どんな 天気 でも 新聞 を 配達 為る(する){する}",
+    "vocabIds": [
+      "1939080",
+      "1362360",
+      "1473140",
+      "1349170",
+      "1438690"
+    ],
+    "matches": {
+      "1349170": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "しょうねん"
+        }
+      ],
+      "1362360": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "しんぶん"
+        }
+      ],
+      "1438690": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "てんき"
+        }
+      ],
+      "1473140": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "はいたつ"
+        }
+      ],
+      "1939080": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "しんぶんはいたつ"
+        }
+      ]
+    }
+  }
+]

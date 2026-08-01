@@ -1,0 +1,56 @@
+[
+  {
+    "id": "139775",
+    "original": "足掻きがとれない。",
+    "en": [
+      {
+        "id": "274503",
+        "text": "She is struggling helplessly."
+      }
+    ],
+    "indices": "足掻き[01]~ が 取れる{とれない}",
+    "vocabIds": [
+      "2015800"
+    ],
+    "matches": {
+      "2015800": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あがき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "148885",
+    "original": "借金で足掻きがとれない。",
+    "en": [
+      {
+        "id": "265672",
+        "text": "He is up to his ears in debt."
+      }
+    ],
+    "indices": "借金 で(#2028980) 足掻き[01] が 取れる{とれない}",
+    "vocabIds": [
+      "2015800",
+      "1323940"
+    ],
+    "matches": {
+      "1323940": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しゃっきん"
+        }
+      ],
+      "2015800": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "あがき"
+        }
+      ]
+    }
+  }
+]

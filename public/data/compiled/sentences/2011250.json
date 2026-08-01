@@ -1,0 +1,122 @@
+[
+  {
+    "id": "84749",
+    "original": "父はいつも「天は自ら助くる者を助く」と言っていました。",
+    "en": [
+      {
+        "id": "318965",
+        "text": "My father always said that heaven helps those who help themselves."
+      }
+    ],
+    "indices": "父 は 何時も[01]{いつも} 天(てん)[02] は 自ら(みずから) 助く{助くる} 者(もの)[01] を 助く と 言う{言っていました}",
+    "vocabIds": [
+      "1587040",
+      "2011250",
+      "1317330",
+      "1317340",
+      "1497610",
+      "1438210"
+    ],
+    "matches": {
+      "1317330": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "みずから"
+        }
+      ],
+      "1317340": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "みずから"
+        }
+      ],
+      "1438210": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "てん"
+        }
+      ],
+      "1497610": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ちち"
+        }
+      ],
+      "1587040": [
+        {
+          "start": 19,
+          "length": 7,
+          "reading": "いっていました"
+        }
+      ],
+      "2011250": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "たすくるしゃ"
+        },
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "たすく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "144910",
+    "original": "神は自ら助くる者を助く。",
+    "en": [
+      {
+        "id": "269654",
+        "text": "God helps those who help themselves."
+      }
+    ],
+    "indices": "神(かみ) は 自ら(みずから) 助く{助くる} 者(もの) を 助く",
+    "vocabIds": [
+      "2011250",
+      "1317330",
+      "1317340",
+      "1364440"
+    ],
+    "matches": {
+      "1317330": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "みずから"
+        }
+      ],
+      "1317340": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "みずから"
+        }
+      ],
+      "1364440": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かみ"
+        }
+      ],
+      "2011250": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "たすくるしゃ"
+        },
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "たすく"
+        }
+      ]
+    }
+  }
+]

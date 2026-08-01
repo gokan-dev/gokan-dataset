@@ -1,0 +1,80 @@
+[
+  {
+    "id": "102989",
+    "original": "彼は選挙で大勝した。",
+    "en": [
+      {
+        "id": "300704",
+        "text": "He won the election by a large majority."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 選挙 で(#2028980) 大勝 為る(する){した}",
+    "vocabIds": [
+      "1392190",
+      "1414100",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1392190": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "せんきょ"
+        }
+      ],
+      "1414100": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "たいしょう"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "167098",
+    "original": "私たちのチームは大勝した。",
+    "en": [
+      {
+        "id": "247404",
+        "text": "Our team gained a great victory."
+      }
+    ],
+    "indices": "私たち の チーム は 大勝~ 為る(する){した}",
+    "vocabIds": [
+      "1311300",
+      "1414100"
+    ],
+    "matches": {
+      "1311300": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1414100": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "たいしょう"
+        }
+      ]
+    }
+  }
+]

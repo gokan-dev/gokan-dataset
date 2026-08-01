@@ -1,0 +1,96 @@
+[
+  {
+    "id": "75019",
+    "original": "オフ会ではお会いできて嬉しかったです。",
+    "en": [
+      {
+        "id": "328700",
+        "text": "I was very happy to see you at the offline-party."
+      }
+    ],
+    "indices": "オフ会 で(#2028980) は 会う{お会い} 出来る{できて} 嬉しい{嬉しかった} です",
+    "vocabIds": [
+      "1219510",
+      "1198180",
+      "1637730"
+    ],
+    "matches": {
+      "1198180": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "あいできて"
+        }
+      ],
+      "1219510": [
+        {
+          "start": 11,
+          "length": 7,
+          "reading": "うれしかったです"
+        }
+      ],
+      "1637730": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "かい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "76957",
+    "original": "２人っきりでデート・・もとい、ＯＦＦ会だと思ったけど、そこまで甘くもないよな。",
+    "en": [
+      {
+        "id": "326763",
+        "text": "So I thought my date, er rather, offline-meeting was going to be just me and her but things aren't that easy."
+      }
+    ],
+    "indices": "二人っきり{２人っきり}~ で(#2028980) デート 元い[02]{もとい}~ オフ会{ＯＦＦ会}~ だ と 思う{思った} けど 其処(そこ){そこ} 迄{まで} 甘い(あまい){甘く} も 無い{ない} よ な[04]",
+    "vocabIds": [
+      "2253240",
+      "1589350",
+      "1637730",
+      "1213400",
+      "1310460"
+    ],
+    "matches": {
+      "1213400": [
+        {
+          "start": 31,
+          "length": 2,
+          "reading": "あまく"
+        }
+      ],
+      "1310460": [
+        {
+          "start": 31,
+          "length": 2,
+          "reading": "あまく"
+        }
+      ],
+      "1589350": [
+        {
+          "start": 21,
+          "length": 5,
+          "reading": "おもったけど"
+        }
+      ],
+      "1637730": [
+        {
+          "start": 15,
+          "length": 4,
+          "reading": "かい"
+        }
+      ],
+      "2253240": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "ににんっきり"
+        }
+      ]
+    }
+  }
+]

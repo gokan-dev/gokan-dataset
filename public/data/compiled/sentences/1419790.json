@@ -1,0 +1,131 @@
+[
+  {
+    "id": "223339",
+    "original": "このパズルには５００の断片がある。",
+    "en": [
+      {
+        "id": "60672",
+        "text": "This puzzle has 500 pieces."
+      }
+    ],
+    "indices": "此の{この} パズル には の 断片 が[01] 有る{ある}",
+    "vocabIds": [
+      "1419790",
+      "1268060",
+      "1557630"
+    ],
+    "matches": {
+      "1268060": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "ご"
+        }
+      ],
+      "1419790": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "だんぺん"
+        }
+      ],
+      "1557630": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "ぜろ"
+        },
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "ぜろ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "228420",
+    "original": "いわゆる英知は単に知識の断片ではないことを心にとめておくべきだ。",
+    "en": [
+      {
+        "id": "65776",
+        "text": "We should bear in mind what is called wisdom is not a mere item of knowledge."
+      }
+    ],
+    "indices": "所謂{いわゆる} 英知~ は 単に 知識 の 断片 では無い{ではない} 事(こと){こと} を 心に留める{心にとめて} 置く[09]{おく} 可き{べき} だ",
+    "vocabIds": [
+      "1588680",
+      "1417030",
+      "1420590",
+      "1419790",
+      "1360480"
+    ],
+    "matches": {
+      "1360480": [
+        {
+          "start": 21,
+          "length": 1,
+          "reading": "こころ"
+        }
+      ],
+      "1417030": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "たんに"
+        }
+      ],
+      "1419790": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "だんぺん"
+        }
+      ],
+      "1420590": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "ちしき"
+        }
+      ],
+      "1588680": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "えいち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1396953",
+    "original": "この断片は組み合わない。",
+    "en": [
+      {
+        "id": "1396955",
+        "text": "This piece doesn't match."
+      }
+    ],
+    "vocabIds": [
+      "1397460",
+      "1419790"
+    ],
+    "matches": {
+      "1397460": [
+        {
+          "start": 5,
+          "length": 6,
+          "reading": "くみあわない"
+        }
+      ],
+      "1419790": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "だんぺん"
+        }
+      ]
+    }
+  }
+]

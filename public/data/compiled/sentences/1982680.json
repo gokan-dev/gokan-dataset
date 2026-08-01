@@ -1,0 +1,186 @@
+[
+  {
+    "id": "91004",
+    "original": "彼女は園芸の入門書を読んでいる。",
+    "en": [
+      {
+        "id": "312710",
+        "text": "She is reading a manual on gardening."
+      },
+      {
+        "id": "11008909",
+        "text": "She is reading a beginner's manual on gardening."
+      }
+    ],
+    "indices": "彼女[01] は 園芸 の 入門書 を 読む{読んでいる}",
+    "vocabIds": [
+      "1456360",
+      "1982680",
+      "1483150",
+      "1176260"
+    ],
+    "matches": {
+      "1176260": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "えんげい"
+        }
+      ],
+      "1456360": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "よんでいる"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1982680": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "にゅうもんしょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "161327",
+    "original": "私はインターネットに関するよい入門書を探しています。",
+    "en": [
+      {
+        "id": "253190",
+        "text": "I'm on the lookout for a good introductory book about the Internet."
+      }
+    ],
+    "indices": "私(わたし)[01] は インターネット に 関する 良い{よい} 入門書~ を 探す{探しています}",
+    "vocabIds": [
+      "1593670",
+      "1982680",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1593670": [
+        {
+          "start": 19,
+          "length": 6,
+          "reading": "さがしています"
+        }
+      ],
+      "1982680": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "にゅうもんしょ"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2948322",
+    "original": "入門書とは書いてあるけど、ある程度は化学の基礎が分かってないと難しいと思う。",
+    "en": [
+      {
+        "id": "9980072",
+        "text": "It says that it's an entry-level book, but I think without knowing some of chemistries fundamentals it'd be quite difficult."
+      }
+    ],
+    "vocabIds": [
+      "1606560",
+      "1343950",
+      "1981700",
+      "1982680",
+      "1460850",
+      "1186760",
+      "1219060",
+      "1589350"
+    ],
+    "matches": {
+      "1186760": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "かがく"
+        }
+      ],
+      "1219060": [
+        {
+          "start": 21,
+          "length": 2,
+          "reading": "きそ"
+        }
+      ],
+      "1343950": [
+        {
+          "start": 5,
+          "length": 7,
+          "reading": "かいてあるけど"
+        }
+      ],
+      "1460850": [
+        {
+          "start": 31,
+          "length": 3,
+          "reading": "むずかしい"
+        }
+      ],
+      "1589350": [
+        {
+          "start": 35,
+          "length": 2,
+          "reading": "おもう"
+        }
+      ],
+      "1606560": [
+        {
+          "start": 24,
+          "length": 7,
+          "reading": "わかってないと"
+        }
+      ],
+      "1981700": [
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "あるていど"
+        }
+      ],
+      "1982680": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "にゅうもんしょ"
+        }
+      ]
+    }
+  }
+]

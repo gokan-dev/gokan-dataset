@@ -1,0 +1,162 @@
+{
+  "id": "1490230",
+  "writtenForm": {
+    "kanji": "病気",
+    "alternatives": [
+      "病氣"
+    ],
+    "containedKanji": [
+      "病",
+      "気"
+    ]
+  },
+  "reading": {
+    "primary": "びょうき",
+    "alternatives": [
+      "ビョーキ",
+      "やまいけ"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 1258,
+    "kanaRank": 80601
+  },
+  "jlptLevel": 5,
+  "progression": {
+    "kklcStep": 617
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "illness (usu. excluding minor ailments, e.g. common cold)",
+        "disease",
+        "sickness"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "bad habit",
+        "bad behaviour",
+        "weakness",
+        "failing"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "adj-no"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "col"
+        ]
+      },
+      "glosses": [
+        "crazy",
+        "insane",
+        "disturbed",
+        "sick in the head"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "feeling ill",
+        "sensation of illness",
+        "signs of illness"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "やまいけ"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": true
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1490230",
+      "isBase": true,
+      "originalPrimaryReading": "びょうき",
+      "originalGlosses": [
+        "illness (usu. excluding minor ailments, e.g. common cold)",
+        "disease",
+        "sickness"
+      ]
+    },
+    {
+      "id": "2839802",
+      "isBase": false,
+      "originalPrimaryReading": "やまいけ",
+      "originalGlosses": [
+        "feeling ill",
+        "sensation of illness",
+        "signs of illness"
+      ]
+    }
+  ],
+  "components": [
+    "1490160",
+    "1221520"
+  ],
+  "parents": [
+    "1905320",
+    "1905290",
+    "1905270",
+    "2838252",
+    "2040730",
+    "2785630",
+    "2837837"
+  ]
+}

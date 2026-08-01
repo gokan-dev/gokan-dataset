@@ -1,0 +1,112 @@
+[
+  {
+    "id": "123599",
+    "original": "道の左端に車を止めた。",
+    "en": [
+      {
+        "id": "280398",
+        "text": "I pulled my car to the left side of the road."
+      }
+    ],
+    "indices": "道(みち) の 左端 に 車(くるま) を 止める(とめる){止めた}",
+    "vocabIds": [
+      "1310670",
+      "1598820",
+      "1290990",
+      "1454080",
+      "2220470",
+      "1323080"
+    ],
+    "matches": {
+      "1290990": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ひだりはし"
+        }
+      ],
+      "1310670": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "とめた"
+        }
+      ],
+      "1323080": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1454080": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "みち"
+        }
+      ],
+      "1598820": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "とめた"
+        }
+      ],
+      "2220470": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "みち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "146281",
+    "original": "上の左端の動物は、竜のつもりでしょう。",
+    "en": [
+      {
+        "id": "268281",
+        "text": "The animal in the top left-hand corner is meant to be a dragon."
+      }
+    ],
+    "indices": "上(うえ){上の} 左端~ の 動物 は 竜[01] の 積もり{つもり} でしょう[01]",
+    "vocabIds": [
+      "1290990",
+      "1451470",
+      "1352130",
+      "1629170"
+    ],
+    "matches": {
+      "1290990": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ひだりはし"
+        }
+      ],
+      "1352130": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "うえ"
+        }
+      ],
+      "1451470": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "どうぶつ"
+        }
+      ],
+      "1629170": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "りゅう"
+        }
+      ]
+    }
+  }
+]

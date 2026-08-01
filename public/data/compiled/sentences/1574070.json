@@ -1,0 +1,160 @@
+[
+  {
+    "id": "77062",
+    "original": "雹が降るのを見たことがありますか。",
+    "en": [
+      {
+        "id": "326657",
+        "text": "Have you ever seen it hail?"
+      }
+    ],
+    "indices": "雹 が 降る(ふる) の を 見る{見た} 事がある{ことがあります} か",
+    "vocabIds": [
+      "1184450",
+      "1282790",
+      "1259290",
+      "1574070"
+    ],
+    "matches": {
+      "1184450": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ふる"
+        }
+      ],
+      "1259290": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "みた"
+        }
+      ],
+      "1282790": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ふる"
+        }
+      ],
+      "1574070": [
+        {
+          "start": 0,
+          "length": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "77063",
+    "original": "雹が降っています。",
+    "en": [
+      {
+        "id": "456217",
+        "text": "It's hailing."
+      }
+    ],
+    "indices": "雹 が 降る(ふる){降っています}",
+    "vocabIds": [
+      "1184450",
+      "1282790",
+      "1574070"
+    ],
+    "matches": {
+      "1184450": [
+        {
+          "start": 2,
+          "length": 6,
+          "reading": "ふっています"
+        }
+      ],
+      "1282790": [
+        {
+          "start": 2,
+          "length": 6,
+          "reading": "ふっています"
+        }
+      ],
+      "1574070": [
+        {
+          "start": 0,
+          "length": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "10156823",
+    "original": "雹で死ぬなんてとんだ誤算よ。",
+    "en": [
+      {
+        "id": "10765287",
+        "text": "Dying because of... hail? Now that's a miscalculation and a half."
+      }
+    ],
+    "vocabIds": [
+      "1310730",
+      "1271340",
+      "1574070"
+    ],
+    "matches": {
+      "1271340": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "ごさん"
+        }
+      ],
+      "1310730": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "しぬ"
+        }
+      ],
+      "1574070": [
+        {
+          "start": 0,
+          "length": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "11310770",
+    "original": "雨が雹に変わった。",
+    "en": [
+      {
+        "id": "9453337",
+        "text": "The rain turned to hail."
+      }
+    ],
+    "vocabIds": [
+      "1510690",
+      "1171900",
+      "1574070"
+    ],
+    "matches": {
+      "1171900": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "あめ"
+        }
+      ],
+      "1510690": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "かわった"
+        }
+      ],
+      "1574070": [
+        {
+          "start": 2,
+          "length": 1
+        }
+      ]
+    }
+  }
+]

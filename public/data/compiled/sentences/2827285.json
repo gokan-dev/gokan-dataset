@@ -1,0 +1,233 @@
+[
+  {
+    "id": "122118",
+    "original": "日用品売り場は何階でしょうか。",
+    "en": [
+      {
+        "id": "281885",
+        "text": "What floor is the daily goods department on?"
+      }
+    ],
+    "indices": "日用品 売り場 は 何(なに)[01] 階(かい)[01] でしょうか",
+    "vocabIds": [
+      "1464910",
+      "1588550",
+      "2827285"
+    ],
+    "matches": {
+      "1464910": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "にちようひん"
+        }
+      ],
+      "1588550": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "うりば"
+        }
+      ],
+      "2827285": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "なんかい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "4561523",
+    "original": "何階なの？",
+    "en": [
+      {
+        "id": "4764613",
+        "text": "What floor?"
+      }
+    ],
+    "vocabIds": [
+      "2827285"
+    ],
+    "matches": {
+      "2827285": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "なんかい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "4561521",
+    "original": "何階ですか。",
+    "en": [
+      {
+        "id": "4764614",
+        "text": "What floor is it?"
+      }
+    ],
+    "vocabIds": [
+      "2827285"
+    ],
+    "matches": {
+      "2827285": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "なんかい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11065677",
+    "original": "私の部屋は何階ですか？",
+    "en": [
+      {
+        "id": "8954405",
+        "text": "What floor is my room on?"
+      },
+      {
+        "id": "8954404",
+        "text": "Which floor is my room on?"
+      }
+    ],
+    "vocabIds": [
+      "1499320",
+      "2827285",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1499320": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "へや"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2827285": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "なんかい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11065678",
+    "original": "部屋は何階ですか？",
+    "en": [
+      {
+        "id": "8954405",
+        "text": "What floor is my room on?"
+      }
+    ],
+    "vocabIds": [
+      "1499320",
+      "2827285"
+    ],
+    "matches": {
+      "1499320": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "へや"
+        }
+      ],
+      "2827285": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "なんかい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11895775",
+    "original": "メアリーは何階に住んでるんですか？",
+    "en": [
+      {
+        "id": "11590812",
+        "text": "Which floor does Mary live on?"
+      }
+    ],
+    "vocabIds": [
+      "1334040",
+      "2827285"
+    ],
+    "matches": {
+      "1334040": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "すんでる"
+        }
+      ],
+      "2827285": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "なんかい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12041855",
+    "original": "何階にお住まいですか？",
+    "en": [
+      {
+        "id": "2079351",
+        "text": "Which floor do you live on?"
+      }
+    ],
+    "vocabIds": [
+      "1595750",
+      "2827285"
+    ],
+    "matches": {
+      "1595750": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "すまい"
+        }
+      ],
+      "2827285": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "なんかい"
+        }
+      ]
+    }
+  }
+]

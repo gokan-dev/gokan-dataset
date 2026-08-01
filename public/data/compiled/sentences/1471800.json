@@ -1,0 +1,72 @@
+[
+  {
+    "id": "121712",
+    "original": "農家のちょうど後ろに馬小屋がある。",
+    "en": [
+      {
+        "id": "282293",
+        "text": "The stable is right behind the farm house."
+      }
+    ],
+    "indices": "農家 の 丁度{ちょうど} 後ろ に 馬小屋 が[01] 有る{ある}",
+    "vocabIds": [
+      "1471800",
+      "1470620",
+      "1269410"
+    ],
+    "matches": {
+      "1269410": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "うしろ"
+        }
+      ],
+      "1470620": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "のうか"
+        }
+      ],
+      "1471800": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "うまごや"
+        }
+      ]
+    }
+  },
+  {
+    "id": "220212",
+    "original": "この馬小屋にはしきりが１２ある。",
+    "en": [
+      {
+        "id": "57530",
+        "text": "This stable contains twelve stalls."
+      }
+    ],
+    "indices": "此の{この} 馬小屋~ には 仕切り{しきり} が[01] 有る{ある}",
+    "vocabIds": [
+      "1471800",
+      "1334890"
+    ],
+    "matches": {
+      "1334890": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "いちに"
+        }
+      ],
+      "1471800": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "うまごや"
+        }
+      ]
+    }
+  }
+]

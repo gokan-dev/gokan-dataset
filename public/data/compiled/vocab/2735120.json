@@ -1,0 +1,96 @@
+{
+  "id": "2735120",
+  "writtenForm": {
+    "kanji": "頭数",
+    "alternatives": [],
+    "containedKanji": [
+      "頭",
+      "数"
+    ]
+  },
+  "reading": {
+    "primary": "とうすう",
+    "alternatives": [
+      "あたまかず"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 24751
+  },
+  "progression": {
+    "kklcStep": 309
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "number of (large) animals"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "number of persons",
+        "numerical strength",
+        "head count"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "あたまかず"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": false,
+  "mergedVocabs": [
+    {
+      "id": "2735120",
+      "isBase": true,
+      "originalPrimaryReading": "とうすう",
+      "originalGlosses": [
+        "number of (large) animals"
+      ]
+    },
+    {
+      "id": "1582320",
+      "isBase": false,
+      "originalPrimaryReading": "あたまかず",
+      "originalGlosses": [
+        "number of persons",
+        "numerical strength",
+        "head count"
+      ]
+    }
+  ],
+  "components": [
+    "1582310",
+    "1580820"
+  ]
+}

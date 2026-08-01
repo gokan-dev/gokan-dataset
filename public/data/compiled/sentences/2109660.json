@@ -1,0 +1,117 @@
+[
+  {
+    "id": "146187",
+    "original": "乗っ取り犯人は２００万ドルの身の代金を要求した。",
+    "en": [
+      {
+        "id": "50030",
+        "text": "The hijacker demanded a ransom of two million dollars."
+      }
+    ],
+    "indices": "乗っ取る(#1354700)[02]{乗っ取り} 犯人 は 万(まん)[01] 弗[01]{ドル} の 身代金{身の代金} を 要求 為る(する){した}",
+    "vocabIds": [
+      "2109660",
+      "1365610",
+      "1546680",
+      "1461140",
+      "1557630",
+      "1584460"
+    ],
+    "matches": {
+      "1365610": [
+        {
+          "start": 14,
+          "length": 4,
+          "reading": "みのしろきん"
+        }
+      ],
+      "1461140": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "に"
+        }
+      ],
+      "1546680": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "ようきゅう"
+        }
+      ],
+      "1557630": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "ぜろ"
+        },
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "ぜろ"
+        }
+      ],
+      "1584460": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "まん"
+        }
+      ],
+      "2109660": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "のっとりはんにん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "146188",
+    "original": "乗っ取り犯人の要求には応じられない。",
+    "en": [
+      {
+        "id": "268374",
+        "text": "We cannot meet the demands of the hijackers."
+      },
+      {
+        "id": "6873379",
+        "text": "We can't meet the demands of the hijackers."
+      },
+      {
+        "id": "10821549",
+        "text": "We can't meet the hijackers' demands."
+      }
+    ],
+    "indices": "乗っ取る(#1354700)[02]{乗っ取り}~ 犯人 の 要求 には 応じる{応じられない}",
+    "vocabIds": [
+      "2109660",
+      "1179830",
+      "1546680"
+    ],
+    "matches": {
+      "1179830": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "おうじ"
+        }
+      ],
+      "1546680": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ようきゅう"
+        }
+      ],
+      "2109660": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "のっとりはんにん"
+        }
+      ]
+    }
+  }
+]

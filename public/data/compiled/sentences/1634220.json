@@ -1,0 +1,95 @@
+[
+  {
+    "id": "77078",
+    "original": "藪をつついてヘビを出す。",
+    "en": [
+      {
+        "id": "326641",
+        "text": "It's not good to wake a sleeping snake."
+      }
+    ],
+    "indices": "藪~ を 突く(つつく)[01]{つついて}~ 蛇[01]{ヘビ} を 出す",
+    "vocabIds": [
+      "1338180",
+      "1634220"
+    ],
+    "matches": {
+      "1338180": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "だす"
+        }
+      ],
+      "1634220": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "やぶ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10156094",
+    "original": "僕の母さん、その医者は藪だと思ってるんだ。",
+    "en": [
+      {
+        "id": "4891793",
+        "text": "My mom thinks the doctor is a quack."
+      }
+    ],
+    "vocabIds": [
+      "1589350",
+      "1609470",
+      "1159980",
+      "1521400",
+      "2228300",
+      "1634220"
+    ],
+    "matches": {
+      "1159980": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "いしゃ"
+        }
+      ],
+      "1521400": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ],
+      "1589350": [
+        {
+          "start": 14,
+          "length": 4,
+          "reading": "おもってる"
+        }
+      ],
+      "1609470": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "かあさん"
+        }
+      ],
+      "1634220": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "やぶ"
+        }
+      ],
+      "2228300": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ]
+    }
+  }
+]

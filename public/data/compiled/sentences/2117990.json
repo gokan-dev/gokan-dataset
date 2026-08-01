@@ -1,0 +1,49 @@
+[
+  {
+    "id": "75946",
+    "original": "静かに！みんなその場を動かないで。これから持ち物検査をはじめます。",
+    "en": [
+      {
+        "id": "327772",
+        "text": "Quiet! Everybody stay where they are, there will now be a possessions check."
+      }
+    ],
+    "indices": "静かに 皆{みんな} その場[01] を 動く{動かないで} 此れ[01]{これ} から 持ち物検査~ を 始める[01]{はじめます}",
+    "vocabIds": [
+      "2117990",
+      "1451210",
+      "2119870",
+      "2205240"
+    ],
+    "matches": {
+      "1451210": [
+        {
+          "start": 11,
+          "length": 5,
+          "reading": "うごかないで"
+        }
+      ],
+      "2117990": [
+        {
+          "start": 21,
+          "length": 5,
+          "reading": "もちものけんさ"
+        }
+      ],
+      "2119870": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "しずかに"
+        }
+      ],
+      "2205240": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "そのば"
+        }
+      ]
+    }
+  }
+]

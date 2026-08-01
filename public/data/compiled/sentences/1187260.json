@@ -1,0 +1,79 @@
+[
+  {
+    "id": "147213",
+    "original": "傷が化膿しました。",
+    "en": [
+      {
+        "id": "267348",
+        "text": "Pus has formed in the wound."
+      }
+    ],
+    "indices": "傷[01] が 化膿~ 為る(する){しました}",
+    "vocabIds": [
+      "1187260",
+      "1580260"
+    ],
+    "matches": {
+      "1187260": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "かのう"
+        }
+      ],
+      "1580260": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "きず"
+        }
+      ]
+    }
+  },
+  {
+    "id": "892491",
+    "original": "膝の擦り傷が化膿してきた。",
+    "en": [
+      {
+        "id": "892629",
+        "text": "The knee wound is now festering."
+      }
+    ],
+    "vocabIds": [
+      "1595820",
+      "2850490",
+      "1187260",
+      "1487320"
+    ],
+    "matches": {
+      "1187260": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "かのう"
+        }
+      ],
+      "1487320": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ひざ"
+        }
+      ],
+      "1595820": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "すりきず"
+        }
+      ],
+      "2850490": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "すりきず"
+        }
+      ]
+    }
+  }
+]

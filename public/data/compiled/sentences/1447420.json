@@ -1,0 +1,210 @@
+[
+  {
+    "id": "124299",
+    "original": "搭乗券を拝見します。",
+    "en": [
+      {
+        "id": "279695",
+        "text": "May I see your boarding pass, please?"
+      }
+    ],
+    "indices": "搭乗券 を 拝見 為る(する){します}",
+    "vocabIds": [
+      "1447420",
+      "1472270"
+    ],
+    "matches": {
+      "1447420": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "とうじょうけん"
+        }
+      ],
+      "1472270": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "はいけん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "124300",
+    "original": "搭乗券を見せていただけますか。",
+    "en": [
+      {
+        "id": "279694",
+        "text": "Can you show me your boarding pass?"
+      },
+      {
+        "id": "779455",
+        "text": "Could you please show me your boarding pass?"
+      },
+      {
+        "id": "11724716",
+        "text": "Could I see your boarding pass?"
+      }
+    ],
+    "indices": "搭乗券 を 見せる{見せて} 頂ける[01]{いただけます} か",
+    "vocabIds": [
+      "1447420",
+      "1259210"
+    ],
+    "matches": {
+      "1259210": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "みせて"
+        }
+      ],
+      "1447420": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "とうじょうけん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "124301",
+    "original": "搭乗券と荷物の引き換え証です。",
+    "en": [
+      {
+        "id": "279693",
+        "text": "Here are your boarding pass and your baggage claim."
+      }
+    ],
+    "indices": "搭乗券 と 荷物[01] の 引き換え証~ です",
+    "vocabIds": [
+      "2056090",
+      "1447420",
+      "1195430"
+    ],
+    "matches": {
+      "1195430": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "にもつ"
+        }
+      ],
+      "1447420": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "とうじょうけん"
+        }
+      ],
+      "2056090": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "ひきかえしょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "217041",
+    "original": "ご搭乗のみなさんは搭乗券をご用意ください。",
+    "en": [
+      {
+        "id": "54348",
+        "text": "Please have your boarding pass ready. Thank you."
+      }
+    ],
+    "indices": "御(ご){ご} 搭乗 の 皆さん{みなさん} は 搭乗券~ を 御(ご){ご} 用意 下さい{ください}",
+    "vocabIds": [
+      "1447420",
+      "1447400",
+      "1546220"
+    ],
+    "matches": {
+      "1447400": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "とうじょう"
+        }
+      ],
+      "1447420": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "とうじょうけん"
+        }
+      ],
+      "1546220": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "ようい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "774440",
+    "original": "パスポートと搭乗券を拝見させてください。",
+    "en": [
+      {
+        "id": "1008015",
+        "text": "Please let me see your passport and boarding pass."
+      }
+    ],
+    "vocabIds": [
+      "1447420",
+      "1472270"
+    ],
+    "matches": {
+      "1447420": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "とうじょうけん"
+        }
+      ],
+      "1472270": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "はいけん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "7217981",
+    "original": "メアリーは搭乗券を失くした。",
+    "en": [
+      {
+        "id": "6428194",
+        "text": "Mary lost her boarding pass."
+      }
+    ],
+    "vocabIds": [
+      "1447420",
+      "2838586"
+    ],
+    "matches": {
+      "1447420": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "とうじょうけん"
+        }
+      ],
+      "2838586": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "しつ"
+        }
+      ]
+    }
+  }
+]

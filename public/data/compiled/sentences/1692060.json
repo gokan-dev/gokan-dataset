@@ -1,0 +1,271 @@
+[
+  {
+    "id": "126301",
+    "original": "駐車禁止区域に車を止めてはいけません。",
+    "en": [
+      {
+        "id": "277691",
+        "text": "You must not park your car in a no parking zone."
+      }
+    ],
+    "indices": "駐車禁止~ 区域[01]~ に 車(くるま) を 止める(とめる){止めて} は 行けない[02]{いけません}",
+    "vocabIds": [
+      "1692060",
+      "1310670",
+      "1598820",
+      "1244090",
+      "1323080"
+    ],
+    "matches": {
+      "1244090": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "くいき"
+        }
+      ],
+      "1310670": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "とめて"
+        }
+      ],
+      "1323080": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1598820": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "とめて"
+        }
+      ],
+      "1692060": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "ちゅうしゃきんし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "126302",
+    "original": "駐車禁止。",
+    "en": [
+      {
+        "id": "277690",
+        "text": "No parking."
+      },
+      {
+        "id": "5918705",
+        "text": "Parking is prohibited."
+      }
+    ],
+    "indices": "駐車禁止",
+    "vocabIds": [
+      "1692060"
+    ],
+    "matches": {
+      "1692060": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "ちゅうしゃきんし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "220255",
+    "original": "この道路は車は駐車禁止になっています。",
+    "en": [
+      {
+        "id": "57575",
+        "text": "This road is closed to cars."
+      }
+    ],
+    "indices": "此の{この} 道路 は 車(くるま) は 駐車禁止 になる{になっています}",
+    "vocabIds": [
+      "1692060",
+      "1454290",
+      "1323080"
+    ],
+    "matches": {
+      "1323080": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1454290": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "どうろ"
+        }
+      ],
+      "1692060": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "ちゅうしゃきんし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "224287",
+    "original": "ここは駐車禁止です。",
+    "en": [
+      {
+        "id": "61622",
+        "text": "Parking is prohibited here."
+      },
+      {
+        "id": "890575",
+        "text": "It's a no parking area here."
+      },
+      {
+        "id": "10800016",
+        "text": "Parking here is prohibited."
+      }
+    ],
+    "indices": "此処[01]{ここ} は 駐車禁止 です",
+    "vocabIds": [
+      "1692060"
+    ],
+    "matches": {
+      "1692060": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "ちゅうしゃきんし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2764096",
+    "original": "この付近は駐車禁止です。",
+    "en": [
+      {
+        "id": "2777229",
+        "text": "You can't park around here."
+      },
+      {
+        "id": "2777230",
+        "text": "You're not allowed to park around here."
+      }
+    ],
+    "vocabIds": [
+      "1692060",
+      "1496240"
+    ],
+    "matches": {
+      "1496240": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ふきん"
+        }
+      ],
+      "1692060": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "ちゅうしゃきんし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10325368",
+    "original": "この通りは駐車禁止ですよ。",
+    "en": [
+      {
+        "id": "2882914",
+        "text": "You can't park on this street."
+      }
+    ],
+    "vocabIds": [
+      "2233930",
+      "1692060"
+    ],
+    "matches": {
+      "1692060": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "ちゅうしゃきんし"
+        }
+      ],
+      "2233930": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "このとおり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "220484",
+    "original": "この通りは駐車禁止です。",
+    "en": [
+      {
+        "id": "11839555",
+        "text": "Parking is prohibited on this street."
+      }
+    ],
+    "indices": "此の{この} 通り(とおり) は 駐車禁止 です",
+    "vocabIds": [
+      "2233930",
+      "1692060"
+    ],
+    "matches": {
+      "1692060": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "ちゅうしゃきんし"
+        }
+      ],
+      "2233930": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "このとおり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "13177727",
+    "original": "駐車禁止！",
+    "en": [
+      {
+        "id": "9473934",
+        "text": "No parking!"
+      }
+    ],
+    "vocabIds": [
+      "1692060"
+    ],
+    "matches": {
+      "1692060": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "ちゅうしゃきんし"
+        }
+      ]
+    }
+  }
+]

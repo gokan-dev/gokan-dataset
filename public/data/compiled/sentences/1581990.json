@@ -1,0 +1,45 @@
+[
+  {
+    "id": "222791",
+    "original": "この果物は摘み取られるほどのは成長していない。",
+    "en": [
+      {
+        "id": "60121",
+        "text": "This fruit isn't ripe enough to pick yet."
+      },
+      {
+        "id": "9953325",
+        "text": "This fruit's not ripe enough to pick yet."
+      }
+    ],
+    "indices": "此の{この} 果物 は 摘み取る{摘み取られる}~ 程{ほど} の は 成長 為る(する){していない}",
+    "vocabIds": [
+      "1581990",
+      "1193060",
+      "1375790"
+    ],
+    "matches": {
+      "1193060": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "くだもの"
+        }
+      ],
+      "1375790": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "せいちょう"
+        }
+      ],
+      "1581990": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "つみとら"
+        }
+      ]
+    }
+  }
+]

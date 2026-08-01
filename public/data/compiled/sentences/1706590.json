@@ -1,0 +1,63 @@
+[
+  {
+    "id": "147175",
+    "original": "勝手口から入ってはいけないよ。",
+    "en": [
+      {
+        "id": "267386",
+        "text": "Don't enter at the kitchen door."
+      }
+    ],
+    "indices": "勝手口~ から 入る(はいる){入って} は 行けない[02]{いけない} よ[01]",
+    "vocabIds": [
+      "1706590",
+      "1465590"
+    ],
+    "matches": {
+      "1465590": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "はいって"
+        }
+      ],
+      "1706590": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "かってぐち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10625852",
+    "original": "トムは勝手口から出てったよ。",
+    "en": [
+      {
+        "id": "4876387",
+        "text": "Tom left through the back door."
+      }
+    ],
+    "vocabIds": [
+      "1338240",
+      "1706590"
+    ],
+    "matches": {
+      "1338240": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "でてった"
+        }
+      ],
+      "1706590": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "かってぐち"
+        }
+      ]
+    }
+  }
+]

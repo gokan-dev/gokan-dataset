@@ -1,0 +1,37 @@
+[
+  {
+    "id": "150259",
+    "original": "次の停車駅はどこですか。",
+    "en": [
+      {
+        "id": "264297",
+        "text": "What is the next stop?"
+      },
+      {
+        "id": "2713620",
+        "text": "What's the next stop?"
+      }
+    ],
+    "indices": "次(つぎ)[01]{次の} 停車駅~ は 何処{どこ} ですか",
+    "vocabIds": [
+      "2080810",
+      "1316380"
+    ],
+    "matches": {
+      "1316380": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "つぎ"
+        }
+      ],
+      "2080810": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "ていしゃえき"
+        }
+      ]
+    }
+  }
+]

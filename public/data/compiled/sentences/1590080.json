@@ -1,0 +1,75 @@
+[
+  {
+    "id": "168737",
+    "original": "子供たちは掛け算を暗記している。",
+    "en": [
+      {
+        "id": "245754",
+        "text": "The children are learning the multiplication tables by heart."
+      }
+    ],
+    "indices": "子供たち は 掛け算~ を 暗記 為る(する){している}",
+    "vocabIds": [
+      "1307870",
+      "1590080",
+      "1586910"
+    ],
+    "matches": {
+      "1307870": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "こどもたち"
+        }
+      ],
+      "1586910": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "あんき"
+        }
+      ],
+      "1590080": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "かけざん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10615180",
+    "original": "トムくんは、掛け算が苦手みたいですね。",
+    "en": [
+      {
+        "id": "10768214",
+        "text": "Looks like Tom is bad at multiplication."
+      },
+      {
+        "id": "10768217",
+        "text": "It looks like Tom is bad at multiplication."
+      }
+    ],
+    "vocabIds": [
+      "1590080",
+      "1244470"
+    ],
+    "matches": {
+      "1244470": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "にがて"
+        }
+      ],
+      "1590080": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "かけざん"
+        }
+      ]
+    }
+  }
+]

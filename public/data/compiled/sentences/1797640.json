@@ -1,0 +1,64 @@
+[
+  {
+    "id": "125891",
+    "original": "長雨は植物に害をおよぼす。",
+    "en": [
+      {
+        "id": "278101",
+        "text": "A long spell of rainy weather is harmful to plants."
+      }
+    ],
+    "indices": "長雨~ は 植物 に 害 を[01] 及ぼす{およぼす}",
+    "vocabIds": [
+      "1797640",
+      "1357300",
+      "1204330"
+    ],
+    "matches": {
+      "1204330": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "がい"
+        }
+      ],
+      "1357300": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "しょくぶつ"
+        }
+      ],
+      "1797640": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ながあめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "234731",
+    "original": "あーあ、この長雨にはもう、うんざり。",
+    "en": [
+      {
+        "id": "72108",
+        "text": "The long rain makes me sick."
+      }
+    ],
+    "indices": "あーあ 此の{この} 長雨 には もう うんざり",
+    "vocabIds": [
+      "1797640"
+    ],
+    "matches": {
+      "1797640": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ながあめ"
+        }
+      ]
+    }
+  }
+]

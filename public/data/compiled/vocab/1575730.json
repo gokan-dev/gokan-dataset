@@ -1,0 +1,119 @@
+{
+  "id": "1575730",
+  "writtenForm": {
+    "kanji": "悪口",
+    "alternatives": [
+      "惡口"
+    ],
+    "containedKanji": [
+      "悪",
+      "口"
+    ]
+  },
+  "reading": {
+    "primary": "わるぐち",
+    "alternatives": [
+      "わるくち",
+      "あっこう"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 6772,
+    "kanaRank": 312983
+  },
+  "jlptLevel": 1,
+  "progression": {
+    "kklcStep": 546
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "(verbal) abuse",
+        "speaking ill of people",
+        "bad-mouthing",
+        "name-calling",
+        "slander",
+        "abusive language",
+        "insulting remarks"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n",
+        "vs",
+        "vi"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "dated"
+        ]
+      },
+      "glosses": [
+        "(verbal) abuse",
+        "name-calling",
+        "abusive language",
+        "insulting remarks"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "あっこう"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": true
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1575730",
+      "isBase": true,
+      "originalPrimaryReading": "わるぐち",
+      "originalGlosses": [
+        "(verbal) abuse",
+        "speaking ill of people",
+        "bad-mouthing"
+      ]
+    },
+    {
+      "id": "2862924",
+      "isBase": false,
+      "originalPrimaryReading": "あっこう",
+      "originalGlosses": [
+        "(verbal) abuse",
+        "name-calling",
+        "abusive language"
+      ]
+    }
+  ],
+  "components": [
+    "1151230",
+    "1275640"
+  ],
+  "parents": [
+    "2776800",
+    "1151740",
+    "2402350"
+  ]
+}

@@ -1,0 +1,84 @@
+[
+  {
+    "id": "185033",
+    "original": "海草を食べたのは初めてです。",
+    "en": [
+      {
+        "id": "22164",
+        "text": "This is the first time I've had seaweed."
+      },
+      {
+        "id": "7185545",
+        "text": "This is the first time that I've had seaweed."
+      }
+    ],
+    "indices": "海草 を 食べる{食べた} の は 初めて です",
+    "vocabIds": [
+      "1358280",
+      "1342550",
+      "1201580"
+    ],
+    "matches": {
+      "1201580": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かいそう"
+        }
+      ],
+      "1342550": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "はじめて"
+        }
+      ],
+      "1358280": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "たべた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "233289",
+    "original": "あなたの国では海草を食べますか。",
+    "en": [
+      {
+        "id": "70660",
+        "text": "Do you eat seaweed in your country?"
+      }
+    ],
+    "indices": "貴方(あなた)[01]{あなた} の 国[01] で(#2028980) は 海草~ を 食べる{食べます} か",
+    "vocabIds": [
+      "1358280",
+      "1201580",
+      "1592250"
+    ],
+    "matches": {
+      "1201580": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "かいそう"
+        }
+      ],
+      "1358280": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "たべます"
+        }
+      ],
+      "1592250": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "くに"
+        }
+      ]
+    }
+  }
+]

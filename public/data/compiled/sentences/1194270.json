@@ -1,0 +1,220 @@
+[
+  {
+    "id": "210241",
+    "original": "その子はライターで火遊びをしていた。",
+    "en": [
+      {
+        "id": "47506",
+        "text": "He was playing with a lighter."
+      }
+    ],
+    "indices": "其の[01]{その} 子(こ)[01] は ライター(#1137880) で(#2028980) 火遊び[01]~ を 為る(する){していた}",
+    "vocabIds": [
+      "1194270",
+      "1307770",
+      "1320800",
+      "1324960"
+    ],
+    "matches": {
+      "1194270": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "ひあそび"
+        }
+      ],
+      "1307770": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "こ"
+        }
+      ],
+      "1320800": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "こ"
+        }
+      ],
+      "1324960": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "こ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "211944",
+    "original": "その火事は子供のマッチでの火遊びが原因で起こった。",
+    "en": [
+      {
+        "id": "49222",
+        "text": "The fire was brought about by children's playing with matches."
+      }
+    ],
+    "indices": "其の[01]{その} 火事 は 子供 の 燐寸{マッチ} で(#2028980) の 火遊び[01] が 原因 で(#2028980) 起こる{起こった}",
+    "vocabIds": [
+      "1223680",
+      "1194270",
+      "1193950",
+      "1307850",
+      "1261190"
+    ],
+    "matches": {
+      "1193950": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "かじ"
+        }
+      ],
+      "1194270": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "ひあそび"
+        }
+      ],
+      "1223680": [
+        {
+          "start": 20,
+          "length": 4,
+          "reading": "おこった"
+        }
+      ],
+      "1261190": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "げんいん"
+        }
+      ],
+      "1307850": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "こども"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2996265",
+    "original": "火遊びは危ないよ。",
+    "en": [
+      {
+        "id": "954075",
+        "text": "It's dangerous to play with fire."
+      },
+      {
+        "id": "2996266",
+        "text": "Playing with fire is dangerous."
+      }
+    ],
+    "vocabIds": [
+      "1194270",
+      "1218380"
+    ],
+    "matches": {
+      "1194270": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ひあそび"
+        }
+      ],
+      "1218380": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "あぶない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "4203400",
+    "original": "火遊びするな。",
+    "en": [
+      {
+        "id": "3824681",
+        "text": "Don't mess with fire."
+      }
+    ],
+    "vocabIds": [
+      "1194270"
+    ],
+    "matches": {
+      "1194270": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ひあそび"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10593082",
+    "original": "トムは火遊びが好きなのよ。",
+    "en": [
+      {
+        "id": "5379091",
+        "text": "Tom likes playing with fire."
+      }
+    ],
+    "vocabIds": [
+      "1194270",
+      "1277450"
+    ],
+    "matches": {
+      "1194270": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "ひあそび"
+        }
+      ],
+      "1277450": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "すき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11257838",
+    "original": "火遊びしてたら、火傷するよ。",
+    "en": [
+      {
+        "id": "8577585",
+        "text": "If you keep playing with fire, expect to get burned."
+      }
+    ],
+    "vocabIds": [
+      "1194270",
+      "1577310"
+    ],
+    "matches": {
+      "1194270": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ひあそび"
+        }
+      ],
+      "1577310": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "かしょう"
+        }
+      ]
+    }
+  }
+]

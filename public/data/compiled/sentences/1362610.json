@@ -1,0 +1,95 @@
+[
+  {
+    "id": "212641",
+    "original": "そのボートは浸水し始めてまもなく沈んだ。",
+    "en": [
+      {
+        "id": "49924",
+        "text": "The boat began to take in water and soon sank."
+      }
+    ],
+    "indices": "其の[01]{その} ボート は 浸水~ し始める{し始めて} 間もなく[01]{まもなく} 沈む{沈んだ}",
+    "vocabIds": [
+      "1307550",
+      "1431670",
+      "1362610"
+    ],
+    "matches": {
+      "1307550": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "はじめて"
+        }
+      ],
+      "1362610": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "しんすい"
+        }
+      ],
+      "1431670": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "しずんだ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10837241",
+    "original": "津波が水田を押し流し、町は浸水しました。",
+    "en": [
+      {
+        "id": "789369",
+        "text": "Tsunamis swept through rice fields and flooded the towns."
+      }
+    ],
+    "vocabIds": [
+      "1180450",
+      "1432220",
+      "1371890",
+      "1362610",
+      "1603990"
+    ],
+    "matches": {
+      "1180450": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "おしながし"
+        }
+      ],
+      "1362610": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "しんすい"
+        }
+      ],
+      "1371890": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "すいでん"
+        }
+      ],
+      "1432220": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "つなみ"
+        }
+      ],
+      "1603990": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "まち"
+        }
+      ]
+    }
+  }
+]

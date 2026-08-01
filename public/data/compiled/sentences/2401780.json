@@ -1,0 +1,68 @@
+[
+  {
+    "id": "189484",
+    "original": "噂をすれば影がさす。",
+    "en": [
+      {
+        "id": "26635",
+        "text": "Speak of angels and you hear their wings."
+      },
+      {
+        "id": "28533",
+        "text": "Speak of the devil and he is sure to appear."
+      },
+      {
+        "id": "1962369",
+        "text": "Talk of the devil and he's sure to appear."
+      },
+      {
+        "id": "8366265",
+        "text": "Talk about someone, and they will appear."
+      }
+    ],
+    "indices": "噂 を すれば 影 が 差す{さす}",
+    "vocabIds": [
+      "2401780"
+    ],
+    "matches": {
+      "2401780": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "うわさをすればかげ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "189485",
+    "original": "噂をすれば影、キャシーが来たわ。",
+    "en": [
+      {
+        "id": "26636",
+        "text": "Speak of the devil, here comes Kathy."
+      }
+    ],
+    "indices": "噂をすれば影~ が 来る(くる)[01]{来た} わ",
+    "vocabIds": [
+      "2401780",
+      "1547720"
+    ],
+    "matches": {
+      "1547720": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "きた"
+        }
+      ],
+      "2401780": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "うわさをすればかげ"
+        }
+      ]
+    }
+  }
+]

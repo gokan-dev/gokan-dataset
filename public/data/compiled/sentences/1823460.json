@@ -1,0 +1,160 @@
+[
+  {
+    "id": "124702",
+    "original": "電話の声は私には聞き覚えのないものだった。",
+    "en": [
+      {
+        "id": "279292",
+        "text": "The voice on the phone was unfamiliar to me."
+      }
+    ],
+    "indices": "電話 の 声 は 私(わたし)[01] には 聞き覚え[02]~ 之(の)[03]{の} 無い{ない} 物(もの)[02]{もの} だ{だった}",
+    "vocabIds": [
+      "1823460",
+      "1443840",
+      "1380440",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1380440": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "こえ"
+        }
+      ],
+      "1443840": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "でんわ"
+        }
+      ],
+      "1823460": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "ききおぼえ"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "206575",
+    "original": "その名にどこか聞き覚えがあった。",
+    "en": [
+      {
+        "id": "43823",
+        "text": "That name struck a chord."
+      },
+      {
+        "id": "12269812",
+        "text": "That name seemed familiar."
+      }
+    ],
+    "indices": "其の[01]{その} 名(な) に 何処か[01]{どこか} 聞き覚えがある{聞き覚えがあった}~",
+    "vocabIds": [
+      "1823460",
+      "1531330"
+    ],
+    "matches": {
+      "1531330": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "な"
+        }
+      ],
+      "1823460": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "ききおぼえ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1566671",
+    "original": "あなたの名前に聞き覚えがあります。",
+    "en": [
+      {
+        "id": "1559605",
+        "text": "Your name sounds familiar to me."
+      }
+    ],
+    "vocabIds": [
+      "1823460",
+      "1531710"
+    ],
+    "matches": {
+      "1531710": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "なまえ"
+        }
+      ],
+      "1823460": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "ききおぼえ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10579881",
+    "original": "その名前に聞き覚えある？",
+    "en": [
+      {
+        "id": "7428996",
+        "text": "Does that name ring a bell?"
+      }
+    ],
+    "vocabIds": [
+      "1823460",
+      "1531710"
+    ],
+    "matches": {
+      "1531710": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "なまえ"
+        }
+      ],
+      "1823460": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "ききおぼえ"
+        }
+      ]
+    }
+  }
+]

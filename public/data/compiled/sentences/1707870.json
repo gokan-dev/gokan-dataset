@@ -1,0 +1,79 @@
+[
+  {
+    "id": "148677",
+    "original": "取り越し苦労をするな。",
+    "en": [
+      {
+        "id": "265882",
+        "text": "Don't cross the bridge till you come to it."
+      }
+    ],
+    "indices": "取り越し苦労 を 為る(する)[01]{する} な[01]",
+    "vocabIds": [
+      "1707870"
+    ],
+    "matches": {
+      "1707870": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "とりこしぐろう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "148678",
+    "original": "取り越し苦労はするな。",
+    "en": [
+      {
+        "id": "265881",
+        "text": "If the sky falls we shall catch larks."
+      }
+    ],
+    "indices": "取り越し苦労 は 為る(する){する} な[01]",
+    "vocabIds": [
+      "1707870"
+    ],
+    "matches": {
+      "1707870": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "とりこしぐろう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "177916",
+    "original": "君はいつも取り越し苦労をしている。",
+    "en": [
+      {
+        "id": "16768",
+        "text": "You're always anticipating trouble."
+      }
+    ],
+    "indices": "君(きみ)[01] は 何時も[01]{いつも} 取り越し苦労~ を 為る(する){している}",
+    "vocabIds": [
+      "1707870",
+      "1247250"
+    ],
+    "matches": {
+      "1247250": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "きみ"
+        }
+      ],
+      "1707870": [
+        {
+          "start": 5,
+          "length": 6,
+          "reading": "とりこしぐろう"
+        }
+      ]
+    }
+  }
+]

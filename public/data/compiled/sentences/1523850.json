@@ -1,0 +1,88 @@
+[
+  {
+    "id": "206592",
+    "original": "その摩天楼はまわりの他の建物の上方にそびえていた。",
+    "en": [
+      {
+        "id": "43841",
+        "text": "The skyscraper rose above the other buildings around."
+      }
+    ],
+    "indices": "其の[01]{その} 摩天楼~ は 回り[02]{まわり} の 他(ほか){他の} 建物 の 上方(じょうほう)~ に 聳える{そびえていた}",
+    "vocabIds": [
+      "1523850",
+      "1257540",
+      "1580460",
+      "1203260"
+    ],
+    "matches": {
+      "1203260": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "ほか"
+        }
+      ],
+      "1257540": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "たてもの"
+        }
+      ],
+      "1523850": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "まてんろう"
+        }
+      ],
+      "1580460": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "かみがた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "212689",
+    "original": "そのビルはニューヨークの摩天楼と比べると小さい。",
+    "en": [
+      {
+        "id": "49972",
+        "text": "The buildings are small in comparison with the skyscrapers in New York."
+      }
+    ],
+    "indices": "其の[01]{その} ビル(#1106010)[01] は 紐育{ニューヨーク} の 摩天楼 と 比べる[01] と 小さい",
+    "vocabIds": [
+      "1483540",
+      "1523850",
+      "1347750"
+    ],
+    "matches": {
+      "1347750": [
+        {
+          "start": 20,
+          "length": 3,
+          "reading": "ちいさい"
+        }
+      ],
+      "1483540": [
+        {
+          "start": 16,
+          "length": 4,
+          "reading": "くらべると"
+        }
+      ],
+      "1523850": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "まてんろう"
+        }
+      ]
+    }
+  }
+]

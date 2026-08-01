@@ -1,0 +1,147 @@
+{
+  "id": "1387820",
+  "writtenForm": {
+    "kanji": "先手",
+    "alternatives": [],
+    "containedKanji": [
+      "先",
+      "手"
+    ]
+  },
+  "reading": {
+    "primary": "さきて",
+    "alternatives": [
+      "せんて"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 20004,
+    "kanaRank": 315829
+  },
+  "progression": {
+    "kklcStep": 134
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "front lines",
+        "vanguard"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "moving first",
+        "person with the first move"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "せんて"
+      ]
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "forestalling",
+        "(seizing the) initiative"
+      ],
+      "related": {
+        "compounds": [
+          "後手"
+        ]
+      },
+      "appliesToReadings": [
+        "せんて"
+      ]
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "sente",
+        "move that forces a response from the opponent, allowing the player to retain the initiative"
+      ],
+      "related": {
+        "compounds": [
+          "後手"
+        ]
+      },
+      "appliesToReadings": [
+        "せんて"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1387820",
+      "isBase": true,
+      "originalPrimaryReading": "さきて",
+      "originalGlosses": [
+        "front lines",
+        "vanguard"
+      ]
+    },
+    {
+      "id": "1387830",
+      "isBase": false,
+      "originalPrimaryReading": "せんて",
+      "originalGlosses": [
+        "moving first",
+        "person with the first move"
+      ]
+    }
+  ],
+  "components": [
+    "1387210",
+    "1327190"
+  ]
+}

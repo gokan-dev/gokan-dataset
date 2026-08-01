@@ -1,0 +1,144 @@
+{
+  "id": "1337200",
+  "writtenForm": {
+    "kanji": "宿す",
+    "alternatives": [],
+    "containedKanji": [
+      "宿"
+    ]
+  },
+  "reading": {
+    "primary": "やどす",
+    "alternatives": [
+      "しゅくす"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 5761,
+    "kanaRank": 86151
+  },
+  "progression": {
+    "kklcStep": 292
+  },
+  "senses": [
+    {
+      "pos": [
+        "v5s",
+        "vt"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "to house",
+        "to contain",
+        "to harbour (a feeling)",
+        "to hold (e.g. dew on leaves)"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "v5s",
+        "vt"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "to carry (a baby)",
+        "to be pregnant"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "v5s",
+        "vt"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "to give lodging to",
+        "to accommodate"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "v5s",
+        "vi"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "to stay (at)",
+        "to stop (at)"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "しゅくす"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1337200",
+      "isBase": true,
+      "originalPrimaryReading": "やどす",
+      "originalGlosses": [
+        "to house",
+        "to contain",
+        "to harbour (a feeling)"
+      ]
+    },
+    {
+      "id": "2842573",
+      "isBase": false,
+      "originalPrimaryReading": "しゅくす",
+      "originalGlosses": [
+        "to stay (at)",
+        "to stop (at)"
+      ]
+    }
+  ],
+  "components": [
+    "1337190"
+  ]
+}

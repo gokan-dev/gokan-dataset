@@ -1,0 +1,99 @@
+[
+  {
+    "id": "85504",
+    "original": "鼻風邪をひきました。",
+    "en": [
+      {
+        "id": "318209",
+        "text": "I have a head cold."
+      },
+      {
+        "id": "1008805",
+        "text": "I caught a head cold."
+      }
+    ],
+    "indices": "鼻風邪 を 引く[06]{ひきました}",
+    "vocabIds": [
+      "1600870"
+    ],
+    "matches": {
+      "1600870": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "はなかぜ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "111156",
+    "original": "彼はひどい鼻風邪をひいている。",
+    "en": [
+      {
+        "id": "292529",
+        "text": "He is suffering from a bad cold in the nose."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 酷い(ひどい){ひどい} 鼻風邪~ を 引く[06]{ひいている}",
+    "vocabIds": [
+      "1600870",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1600870": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "はなかぜ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "236820",
+    "original": "彼女はヒドイ鼻かぜをひいている。",
+    "en": [
+      {
+        "id": "312061",
+        "text": "She has a bad head cold."
+      }
+    ],
+    "indices": "彼女[01] は 酷い(ひどい){ヒドイ} 鼻風邪{鼻かぜ} を 引く[06]{ひいている}",
+    "vocabIds": [
+      "1600870",
+      "1483150"
+    ],
+    "matches": {
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1600870": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "はなかぜ"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,99 @@
+[
+  {
+    "id": "127239",
+    "original": "男の子は口一杯にケーキを頬張った。",
+    "en": [
+      {
+        "id": "276850",
+        "text": "The boy stuffed cake into his mouth."
+      }
+    ],
+    "indices": "男の子(おとこのこ) は 口(くち)[01] 一杯[03]{一杯に} ケーキ を 頬張る{頬張った}",
+    "vocabIds": [
+      "1851260",
+      "1419990",
+      "1420010",
+      "1165670",
+      "1275640"
+    ],
+    "matches": {
+      "1165670": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "いちはい"
+        }
+      ],
+      "1275640": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "くち"
+        }
+      ],
+      "1419990": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "おとこのこ"
+        }
+      ],
+      "1420010": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "おとこのこ"
+        }
+      ],
+      "1851260": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "ほおばった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11149255",
+    "original": "口に頬張ったまま喋るな。",
+    "en": [
+      {
+        "id": "240513",
+        "text": "Don't speak with your mouth full."
+      },
+      {
+        "id": "240525",
+        "text": "Don't speak with your mouth full!"
+      }
+    ],
+    "vocabIds": [
+      "1851260",
+      "1427510",
+      "1275640"
+    ],
+    "matches": {
+      "1275640": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "くち"
+        }
+      ],
+      "1427510": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "しゃべる"
+        }
+      ],
+      "1851260": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "ほおばった"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,135 @@
+[
+  {
+    "id": "74823",
+    "original": "「そんなに舐められた相手じゃないけどなぁ・・・」「そうだよ、窮鼠猫を噛むって言うじゃないか」",
+    "en": [
+      {
+        "id": "328896",
+        "text": "\"I don't think she's an opponent you can ignore like that ...\" \"That's right, they say a cornered rat bites back, don't they?\""
+      }
+    ],
+    "indices": "そんな{そんなに} 舐める[04]{舐められた} 相手 だ{じゃない} けど なあ{なぁ} そうだ よ 窮鼠猫を噛む~ って 言う だ{じゃない} か",
+    "vocabIds": [
+      "2103200",
+      "2757880",
+      "1571320",
+      "1401000"
+    ],
+    "matches": {
+      "1401000": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "あいて"
+        }
+      ],
+      "1571320": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "なめ"
+        }
+      ],
+      "2103200": [
+        {
+          "start": 30,
+          "length": 6,
+          "reading": "きゅうそねこをかむ"
+        }
+      ],
+      "2757880": [
+        {
+          "start": 36,
+          "length": 4,
+          "reading": "っていう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "182372",
+    "original": "窮鼠猫を噛む。",
+    "en": [
+      {
+        "id": "19548",
+        "text": "A cornered rat will bite a cat."
+      }
+    ],
+    "indices": "窮鼠 猫(ねこ)[01] を 噛む[01]",
+    "vocabIds": [
+      "2103200"
+    ],
+    "matches": {
+      "2103200": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "きゅうそねこをかむ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "234587",
+    "original": "あいつ追いつめられたら何するか分からないぞ。窮鼠猫を噛むってこともあるからな。気を付けるに越したことはない。",
+    "en": [
+      {
+        "id": "71963",
+        "text": "I wouldn't push him too far. You don't know what he might do. I'd say you can't be too careful. They say even a doomed mouse will bite a cat if he has no choice."
+      }
+    ],
+    "indices": "彼奴(あいつ)[01]{あいつ} 追い詰める{追いつめられたら} 何(なに)[01] 為る(する){する} か 分かる{分からない} ぞ 窮鼠 猫(ねこ)[01] を 噛む[01] って 事(こと){こと} も 有る{ある} から な 気をつける{気を付ける} 越したことはない{に越したことはない}",
+    "vocabIds": [
+      "2103200",
+      "1591990",
+      "1606560",
+      "1432300",
+      "1175300",
+      "1577100"
+    ],
+    "matches": {
+      "1175300": [
+        {
+          "start": 45,
+          "length": 3,
+          "reading": "こした"
+        }
+      ],
+      "1432300": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "おいつめ"
+        }
+      ],
+      "1577100": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "なに"
+        }
+      ],
+      "1591990": [
+        {
+          "start": 39,
+          "length": 5,
+          "reading": "きをつける"
+        }
+      ],
+      "1606560": [
+        {
+          "start": 15,
+          "length": 5,
+          "reading": "わからない"
+        }
+      ],
+      "2103200": [
+        {
+          "start": 22,
+          "length": 6,
+          "reading": "きゅうそねこをかむ"
+        }
+      ]
+    }
+  }
+]

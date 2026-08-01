@@ -1,0 +1,502 @@
+[
+  {
+    "id": "122231",
+    "original": "日本人は米を主食としている。",
+    "en": [
+      {
+        "id": "281772",
+        "text": "The Japanese live on rice."
+      }
+    ],
+    "indices": "日本人 は 米(こめ)[01] を 主食 とする{としている}",
+    "vocabIds": [
+      "1464700",
+      "1325640",
+      "1508750"
+    ],
+    "matches": {
+      "1325640": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "しゅしょく"
+        }
+      ],
+      "1464700": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "にっぽんじん"
+        }
+      ],
+      "1508750": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "こめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "122232",
+    "original": "日本人は米と魚を主食にしています。",
+    "en": [
+      {
+        "id": "1537241",
+        "text": "The Japanese live on rice and fish."
+      },
+      {
+        "id": "1538169",
+        "text": "The basic diet of the Japanese consists of rice and fish."
+      },
+      {
+        "id": "1538285",
+        "text": "The basic Japanese diet consists mainly of rice and fish."
+      }
+    ],
+    "indices": "日本人 は 米(こめ)[01] と 魚 を 主食 に 為る(する){しています}",
+    "vocabIds": [
+      "1464700",
+      "1325640",
+      "1508750",
+      "1578010"
+    ],
+    "matches": {
+      "1325640": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "しゅしょく"
+        }
+      ],
+      "1464700": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "にっぽんじん"
+        }
+      ],
+      "1508750": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "こめ"
+        }
+      ],
+      "1578010": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "さかな"
+        }
+      ]
+    }
+  },
+  {
+    "id": "122263",
+    "original": "日本人は以前は主に米を主食としていた。",
+    "en": [
+      {
+        "id": "281740",
+        "text": "The Japanese used to live mainly on rice."
+      }
+    ],
+    "indices": "日本人 は 以前[02] は 主に 米(こめ)[01] を 主食 とする{としていた}",
+    "vocabIds": [
+      "1464700",
+      "1155150",
+      "1324990",
+      "1325640",
+      "1508750"
+    ],
+    "matches": {
+      "1155150": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "いぜん"
+        }
+      ],
+      "1324990": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "おもに"
+        }
+      ],
+      "1325640": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "しゅしょく"
+        }
+      ],
+      "1464700": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "にっぽんじん"
+        }
+      ],
+      "1508750": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "こめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "122749",
+    "original": "日本では米が主食です。",
+    "en": [
+      {
+        "id": "281253",
+        "text": "The main diet in Japan is rice."
+      }
+    ],
+    "indices": "日本 で(#2028980) は 米(こめ)[01] が 主食~ です",
+    "vocabIds": [
+      "1582710",
+      "1325640",
+      "1508750"
+    ],
+    "matches": {
+      "1325640": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "しゅしょく"
+        }
+      ],
+      "1508750": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "こめ"
+        }
+      ],
+      "1582710": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "にっぽん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "124294",
+    "original": "東アフリカの種族の中には、乳製品を主食にしているのがあるそうだ。",
+    "en": [
+      {
+        "id": "279700",
+        "text": "I hear some tribes in eastern Africa live on milk products."
+      }
+    ],
+    "indices": "東(ひがし) 阿弗利加{アフリカ} の 種族 の 中(なか) には 乳製品~ を 主食 に 為る(する){している} の が[01] 有る{ある} そうだ[02]",
+    "vocabIds": [
+      "1447470",
+      "1423320",
+      "1465260",
+      "1328840",
+      "1325640"
+    ],
+    "matches": {
+      "1325640": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "しゅしょく"
+        }
+      ],
+      "1328840": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "しゅぞく"
+        }
+      ],
+      "1423320": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "なかには"
+        }
+      ],
+      "1447470": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "ひがしあふりか"
+        }
+      ],
+      "1465260": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "にゅうせいひん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "197733",
+    "original": "パンを主食にする日本人の数は増えた。",
+    "en": [
+      {
+        "id": "34918",
+        "text": "The number of Japanese who live on bread has increased."
+      }
+    ],
+    "indices": "パン(#1103090)[01] を 主食 に 為る(する){する} 日本人 の 数(かず) は 増える{増えた}",
+    "vocabIds": [
+      "1464700",
+      "1602440",
+      "1325640",
+      "1005580",
+      "1580820"
+    ],
+    "matches": {
+      "1005580": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "かず"
+        }
+      ],
+      "1325640": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "しゅしょく"
+        }
+      ],
+      "1464700": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "にっぽんじん"
+        }
+      ],
+      "1580820": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "かず"
+        }
+      ],
+      "1602440": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "ふえた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "203926",
+    "original": "たいていの日本人は米を主食にしている。",
+    "en": [
+      {
+        "id": "41168",
+        "text": "Most Japanese live on rice."
+      }
+    ],
+    "indices": "大抵[03]{たいていの} 日本人 は 米(こめ)[01] を 主食 に 為る(する){している}",
+    "vocabIds": [
+      "1464700",
+      "1325640",
+      "1508750"
+    ],
+    "matches": {
+      "1325640": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "しゅしょく"
+        }
+      ],
+      "1464700": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "にっぽんじん"
+        }
+      ],
+      "1508750": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "こめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "224034",
+    "original": "このあたりではジャガイモを主食としている。",
+    "en": [
+      {
+        "id": "61370",
+        "text": "They live on potatoes around here."
+      }
+    ],
+    "indices": "この辺り{このあたり} で(#2028980) は じゃが芋{ジャガイモ} を 主食 とする{としている}",
+    "vocabIds": [
+      "1325640"
+    ],
+    "matches": {
+      "1325640": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "しゅしょく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8584445",
+    "original": "私は世界でもっとも人口が多い島、インドネシア・ジャワ島出身の風来坊です。私は猫をこよなく愛し、コーヒーは私の主食です。",
+    "en": [
+      {
+        "id": "9895434",
+        "text": "I am a wanderer from the most populous island in the world, Java, Indonesia. I love cats more than anything in the world, and I live on coffee."
+      }
+    ],
+    "vocabIds": [
+      "1624930",
+      "1373860",
+      "1367300",
+      "1407460",
+      "1339260",
+      "2408840",
+      "1325640",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1446760",
+      "1467640"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        },
+        {
+          "start": 36,
+          "length": 1,
+          "reading": "わたし"
+        },
+        {
+          "start": 52,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1325640": [
+        {
+          "start": 54,
+          "length": 2,
+          "reading": "しゅしょく"
+        }
+      ],
+      "1339260": [
+        {
+          "start": 27,
+          "length": 2,
+          "reading": "しゅっしん"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        },
+        {
+          "start": 36,
+          "length": 1,
+          "reading": "わたし"
+        },
+        {
+          "start": 52,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1367300": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "じんこう"
+        }
+      ],
+      "1373860": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "せかい"
+        }
+      ],
+      "1407460": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "おおい"
+        }
+      ],
+      "1446760": [
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "しま"
+        }
+      ],
+      "1467640": [
+        {
+          "start": 38,
+          "length": 1,
+          "reading": "ねこ"
+        }
+      ],
+      "1624930": [
+        {
+          "start": 30,
+          "length": 3,
+          "reading": "ふうらいぼう"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        },
+        {
+          "start": 36,
+          "length": 1,
+          "reading": "わたし"
+        },
+        {
+          "start": 52,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2408840": [
+        {
+          "start": 44,
+          "length": 2,
+          "reading": "あいし"
+        }
+      ]
+    }
+  }
+]

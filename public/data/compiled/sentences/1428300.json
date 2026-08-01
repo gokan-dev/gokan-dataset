@@ -1,0 +1,109 @@
+[
+  {
+    "id": "155066",
+    "original": "私は朝シャンをしないからよ。",
+    "en": [
+      {
+        "id": "259473",
+        "text": "I don't shampoo my hair in the morning."
+      }
+    ],
+    "indices": "私(わたし)[01] は 朝シャン~ を 為る(する){しない} から よ[01]",
+    "vocabIds": [
+      "1428300",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1428300": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "あさしゃん"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1167758",
+    "original": "朝シャンはしません。",
+    "en": [
+      {
+        "id": "259473",
+        "text": "I don't shampoo my hair in the morning."
+      }
+    ],
+    "vocabIds": [
+      "1428300"
+    ],
+    "matches": {
+      "1428300": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "あさしゃん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10221159",
+    "original": "うちのお姉ちゃん、毎日朝シャンしてるの。",
+    "en": [
+      {
+        "id": "251920",
+        "text": "My sister washes her hair every morning."
+      }
+    ],
+    "vocabIds": [
+      "2222580",
+      "1428300",
+      "1524720"
+    ],
+    "matches": {
+      "1428300": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "あさしゃん"
+        }
+      ],
+      "1524720": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "まいにち"
+        }
+      ],
+      "2222580": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "おねえちゃん"
+        }
+      ]
+    }
+  }
+]

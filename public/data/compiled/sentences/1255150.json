@@ -1,0 +1,227 @@
+[
+  {
+    "id": "233360",
+    "original": "あなたの血液型は何ですか。",
+    "en": [
+      {
+        "id": "70730",
+        "text": "What's your blood group?"
+      },
+      {
+        "id": "372352",
+        "text": "What is your blood type?"
+      },
+      {
+        "id": "528304",
+        "text": "What's your blood type?"
+      }
+    ],
+    "indices": "貴方(あなた)[01]{あなた} の 血液型~ は 何(なに)[01] ですか",
+    "vocabIds": [
+      "1255150",
+      "1577100"
+    ],
+    "matches": {
+      "1255150": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "けつえきがた"
+        }
+      ],
+      "1577100": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "なに"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1005737",
+    "original": "自分の血液型って知ってる？",
+    "en": [
+      {
+        "id": "1007971",
+        "text": "Do you know your blood type?"
+      }
+    ],
+    "vocabIds": [
+      "1420470",
+      "1255150",
+      "1318610"
+    ],
+    "matches": {
+      "1255150": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "けつえきがた"
+        }
+      ],
+      "1318610": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じぶん"
+        }
+      ],
+      "1420470": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "しってる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2738911",
+    "original": "トムの血液型知ってる？",
+    "en": [
+      {
+        "id": "2738872",
+        "text": "Do you know Tom's blood type?"
+      }
+    ],
+    "vocabIds": [
+      "1420470",
+      "1255150"
+    ],
+    "matches": {
+      "1255150": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "けつえきがた"
+        }
+      ],
+      "1420470": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "しってる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3252952",
+    "original": "血液型何型？",
+    "en": [
+      {
+        "id": "528304",
+        "text": "What's your blood type?"
+      },
+      {
+        "id": "372352",
+        "text": "What is your blood type?"
+      }
+    ],
+    "vocabIds": [
+      "1255150",
+      "2831570"
+    ],
+    "matches": {
+      "1255150": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "けつえきがた"
+        }
+      ],
+      "2831570": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "なんがた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "4102631",
+    "original": "血液型と性格の関連性は科学的には証明されていない。",
+    "en": [
+      {
+        "id": "4197966",
+        "text": "A connection between personality and blood type has not been scientifically proven."
+      }
+    ],
+    "vocabIds": [
+      "1255150",
+      "1216100",
+      "1192760",
+      "1375290",
+      "1351680"
+    ],
+    "matches": {
+      "1192760": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "かがくてき"
+        }
+      ],
+      "1216100": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "かんれんせい"
+        }
+      ],
+      "1255150": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "けつえきがた"
+        }
+      ],
+      "1351680": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "しょうめい"
+        }
+      ],
+      "1375290": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "せいかく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10287833",
+    "original": "トムの血液型はＡ型です。",
+    "en": [
+      {
+        "id": "10287830",
+        "text": "Tom's blood type is A."
+      }
+    ],
+    "vocabIds": [
+      "1255150",
+      "2236420"
+    ],
+    "matches": {
+      "1255150": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "けつえきがた"
+        }
+      ],
+      "2236420": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "えいかた"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,122 @@
+{
+  "id": "1254010",
+  "writtenForm": {
+    "kanji": "欠伸",
+    "alternatives": [
+      "欠"
+    ],
+    "containedKanji": [
+      "欠",
+      "伸"
+    ]
+  },
+  "reading": {
+    "primary": "あくび",
+    "alternatives": [
+      "アクビ",
+      "けんしん"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 11457,
+    "kanaRank": 6684
+  },
+  "progression": {
+    "kklcStep": 873
+  },
+  "senses": [
+    {
+      "pos": [
+        "n",
+        "vs",
+        "vi"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "yawn",
+        "yawning"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "kanji \"yawning\" radical (radical 76)"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": true,
+        "rawTags": [
+          "rare"
+        ]
+      },
+      "glosses": [
+        "yawning and stretching oneself"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "けんしん"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": true
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1254010",
+      "isBase": true,
+      "originalPrimaryReading": "あくび",
+      "originalGlosses": [
+        "yawn",
+        "yawning"
+      ]
+    },
+    {
+      "id": "2859266",
+      "isBase": false,
+      "originalPrimaryReading": "けんしん",
+      "originalGlosses": [
+        "yawning and stretching oneself"
+      ]
+    }
+  ],
+  "parents": [
+    "2039950"
+  ]
+}

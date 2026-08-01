@@ -1,0 +1,117 @@
+[
+  {
+    "id": "230784",
+    "original": "あの人って本当に気分屋ね。私、ついていけない。",
+    "en": [
+      {
+        "id": "68151",
+        "text": "He's so moody I have trouble keeping up with him."
+      }
+    ],
+    "indices": "あの人 って 本当に 気分屋~ ね(#2029080)[01] 私(わたし)[01] 付いて行ける{ついていけない}",
+    "vocabIds": [
+      "1000440",
+      "1611580",
+      "1222600",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1000440": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あのひと"
+        }
+      ],
+      "1222600": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "きぶんや"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1611580": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "ほんとうに"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3594833",
+    "original": "トムって気分屋だよね。",
+    "en": [
+      {
+        "id": "3183887",
+        "text": "I think Tom is moody."
+      },
+      {
+        "id": "7168762",
+        "text": "I think that Tom is moody."
+      },
+      {
+        "id": "12805525",
+        "text": "Tom is a moody guy."
+      }
+    ],
+    "vocabIds": [
+      "1222600"
+    ],
+    "matches": {
+      "1222600": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "きぶんや"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11571947",
+    "original": "気分屋なんだから。",
+    "en": [
+      {
+        "id": "9631758",
+        "text": "You are moody."
+      }
+    ],
+    "vocabIds": [
+      "1222600"
+    ],
+    "matches": {
+      "1222600": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きぶんや"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,135 @@
+[
+  {
+    "id": "122319",
+    "original": "日本国憲法を読んだことがありますか。",
+    "en": [
+      {
+        "id": "281684",
+        "text": "Have you ever read the Constitution of Japan?"
+      }
+    ],
+    "indices": "日本国憲法 を 読む{読んだ} 事がある{ことがあります} か",
+    "vocabIds": [
+      "1730110",
+      "1456360"
+    ],
+    "matches": {
+      "1456360": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "よんだ"
+        }
+      ],
+      "1730110": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "にっぽんこくけんぽう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "122698",
+    "original": "日本に住む人々は日本国憲法に従って行動しなければならない。",
+    "en": [
+      {
+        "id": "281304",
+        "text": "The people who live in Japan must act according to the Japanese Constitution."
+      }
+    ],
+    "indices": "日本 に 住む 人々(ひとびと) は 日本国憲法 に 従って 行動 為る(する){し} ねばならない{なければならない}",
+    "vocabIds": [
+      "1730110",
+      "2630530",
+      "1582710",
+      "1334040",
+      "1580650",
+      "1282100"
+    ],
+    "matches": {
+      "1282100": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "こうどう"
+        }
+      ],
+      "1334040": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "すむ"
+        }
+      ],
+      "1580650": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ひとびと"
+        }
+      ],
+      "1582710": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "にっぽん"
+        }
+      ],
+      "1730110": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "にっぽんこくけんぽう"
+        }
+      ],
+      "2630530": [
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "にしたがって"
+        }
+      ]
+    }
+  },
+  {
+    "id": "185646",
+    "original": "我々は日本国憲法に従わないといけない。",
+    "en": [
+      {
+        "id": "22778",
+        "text": "We are subject to the Constitution of Japan."
+      }
+    ],
+    "indices": "我々 は 日本国憲法~ に 従う{従わ} ないと行けない[01]{ないといけない}",
+    "vocabIds": [
+      "1335210",
+      "1730110",
+      "1607050"
+    ],
+    "matches": {
+      "1335210": [
+        {
+          "start": 9,
+          "length": 9,
+          "reading": "したがわないといけない"
+        }
+      ],
+      "1607050": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "われわれ"
+        }
+      ],
+      "1730110": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "にっぽんこくけんぽう"
+        }
+      ]
+    }
+  }
+]

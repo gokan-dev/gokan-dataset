@@ -1,0 +1,319 @@
+[
+  {
+    "id": "198716",
+    "original": "ニューヨークの郵便番号を教えていただけますか。",
+    "en": [
+      {
+        "id": "35909",
+        "text": "Can you tell me what the zip code is for New York?"
+      }
+    ],
+    "indices": "ニューヨーク の 郵便番号~ を 教える{教えて} 頂ける[01]{いただけます} か",
+    "vocabIds": [
+      "1542480",
+      "1236900"
+    ],
+    "matches": {
+      "1236900": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "おしえて"
+        }
+      ],
+      "1542480": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "ゆうびんばんごう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11491020",
+    "original": "郵便局に行って、新しい郵便番号が何番か聞いてきて。",
+    "en": [
+      {
+        "id": "9193472",
+        "text": "Go to the post office and ask what's our new postal code."
+      }
+    ],
+    "vocabIds": [
+      "1591110",
+      "1542480",
+      "1542430",
+      "1361490",
+      "1578850",
+      "1189260"
+    ],
+    "matches": {
+      "1189260": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "なんばん"
+        }
+      ],
+      "1361490": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "あたらしい"
+        }
+      ],
+      "1542430": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ゆうびんきょく"
+        }
+      ],
+      "1542480": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "ゆうびんばんごう"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "いって"
+        }
+      ],
+      "1591110": [
+        {
+          "start": 19,
+          "length": 5,
+          "reading": "きいてきて"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11700281",
+    "original": "封書には郵便番号を書かないと。",
+    "en": [
+      {
+        "id": "8960774",
+        "text": "You have to write the postcode on the envelope."
+      }
+    ],
+    "vocabIds": [
+      "1343950",
+      "1542480",
+      "1499670"
+    ],
+    "matches": {
+      "1343950": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "かかないと"
+        }
+      ],
+      "1499670": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ふうしょ"
+        }
+      ],
+      "1542480": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "ゆうびんばんごう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11741580",
+    "original": "郵便番号って、なに？",
+    "en": [
+      {
+        "id": "10181762",
+        "text": "What is a postal code?"
+      },
+      {
+        "id": "11746280",
+        "text": "What is a zip code?"
+      }
+    ],
+    "vocabIds": [
+      "1542480"
+    ],
+    "matches": {
+      "1542480": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "ゆうびんばんごう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3135680",
+    "original": "あ、郵便番号の欄に電話番号書いちゃった。",
+    "en": [
+      {
+        "id": "11246112",
+        "text": "Oh, I've mistakenly written the telephone number where I should've put the postcode."
+      }
+    ],
+    "vocabIds": [
+      "1343950",
+      "1542480",
+      "1443940",
+      "1549350"
+    ],
+    "matches": {
+      "1343950": [
+        {
+          "start": 13,
+          "length": 6,
+          "reading": "かいちゃった"
+        }
+      ],
+      "1443940": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "でんわばんごう"
+        }
+      ],
+      "1542480": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "ゆうびんばんごう"
+        }
+      ],
+      "1549350": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "らん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12486178",
+    "original": "郵便番号って、全部で何個あるの？",
+    "en": [
+      {
+        "id": "12121405",
+        "text": "How many postcodes are there in total?"
+      }
+    ],
+    "vocabIds": [
+      "1542480",
+      "1396130",
+      "1599720"
+    ],
+    "matches": {
+      "1396130": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ぜんぶ"
+        }
+      ],
+      "1542480": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "ゆうびんばんごう"
+        }
+      ],
+      "1599720": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "なんこ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12486179",
+    "original": "郵便番号は、全部で何種類あるんですか？",
+    "en": [
+      {
+        "id": "12121405",
+        "text": "How many postcodes are there in total?"
+      }
+    ],
+    "vocabIds": [
+      "1542480",
+      "2451280",
+      "1396130"
+    ],
+    "matches": {
+      "1396130": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ぜんぶ"
+        }
+      ],
+      "1542480": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "ゆうびんばんごう"
+        }
+      ],
+      "2451280": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "なにしゅるい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12486181",
+    "original": "郵便番号は、全部で幾つあるんだっけ？",
+    "en": [
+      {
+        "id": "12121405",
+        "text": "How many postcodes are there in total?"
+      }
+    ],
+    "vocabIds": [
+      "1542480",
+      "1396130",
+      "1219960"
+    ],
+    "matches": {
+      "1219960": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "いくつ"
+        }
+      ],
+      "1396130": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ぜんぶ"
+        }
+      ],
+      "1542480": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "ゆうびんばんごう"
+        }
+      ]
+    }
+  }
+]

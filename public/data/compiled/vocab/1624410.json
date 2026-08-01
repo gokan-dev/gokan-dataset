@@ -1,0 +1,127 @@
+{
+  "id": "1624410",
+  "writtenForm": {
+    "kanji": "赤子",
+    "alternatives": [
+      "赤児"
+    ],
+    "containedKanji": [
+      "赤",
+      "子"
+    ]
+  },
+  "reading": {
+    "primary": "あかご",
+    "alternatives": [
+      "せきし"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 9364,
+    "kanaRank": 67177
+  },
+  "progression": {
+    "kklcStep": 774
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "baby"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "baby"
+      ],
+      "related": {
+        "compounds": [
+          "赤子"
+        ]
+      },
+      "appliesToReadings": [
+        "せきし"
+      ]
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "subject",
+        "people"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "せきし"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": false,
+  "mergedVocabs": [
+    {
+      "id": "1624410",
+      "isBase": true,
+      "originalPrimaryReading": "あかご",
+      "originalGlosses": [
+        "baby"
+      ]
+    },
+    {
+      "id": "1624420",
+      "isBase": false,
+      "originalPrimaryReading": "せきし",
+      "originalGlosses": [
+        "baby"
+      ]
+    }
+  ],
+  "components": [
+    "2013900",
+    "1307770"
+  ],
+  "parents": [
+    "2141550"
+  ]
+}

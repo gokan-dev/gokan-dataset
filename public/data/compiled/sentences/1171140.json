@@ -1,0 +1,141 @@
+[
+  {
+    "id": "76340",
+    "original": "右上にある「バッテン」のボタンが、ウィンドウを消すボタンだよ。",
+    "en": [
+      {
+        "id": "327380",
+        "text": "The \"X\" button in the top right shuts the window."
+      }
+    ],
+    "indices": "右上 に 有る{ある} 罰点{バッテン}~ の 牡丹{ボタン} が ウィンドウ[01]~ を 消す[01] 牡丹{ボタン} だ よ[01]",
+    "vocabIds": [
+      "1171140",
+      "1350110"
+    ],
+    "matches": {
+      "1171140": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "みぎじょう"
+        }
+      ],
+      "1350110": [
+        {
+          "start": 23,
+          "length": 2,
+          "reading": "けす"
+        }
+      ]
+    }
+  },
+  {
+    "id": "189904",
+    "original": "右上の親知らずが痛みます。",
+    "en": [
+      {
+        "id": "27060",
+        "text": "My upper right wisdom tooth hurts."
+      }
+    ],
+    "indices": "右上~ の 親知らず が 痛む[01]{痛みます}",
+    "vocabIds": [
+      "1365280",
+      "1432710",
+      "1171140"
+    ],
+    "matches": {
+      "1171140": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "みぎじょう"
+        }
+      ],
+      "1365280": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "おやしらず"
+        }
+      ],
+      "1432710": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "いたみます"
+        }
+      ]
+    }
+  },
+  {
+    "id": "451433",
+    "original": "ダイアログボックスを閉じるには、ウィンドウの右上にある Ｘ ボタンをクリックする必要があります。",
+    "en": [
+      {
+        "id": "451434",
+        "text": "To dismiss the dialog box you need to click the X at the top right of the window."
+      }
+    ],
+    "indices": "ダイアログボックス~ を 閉じる には ウィンドウ の 右上 に 有る{ある} 牡丹{ボタン} を クリック 為る(する){する} 必要 が 有る{あります}",
+    "vocabIds": [
+      "1508550",
+      "1171140",
+      "1487660"
+    ],
+    "matches": {
+      "1171140": [
+        {
+          "start": 22,
+          "length": 2,
+          "reading": "みぎじょう"
+        }
+      ],
+      "1487660": [
+        {
+          "start": 40,
+          "length": 2,
+          "reading": "ひつよう"
+        }
+      ],
+      "1508550": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "とじる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3717942",
+    "original": "画面右上の「ログイン」をクリックしてください。",
+    "en": [
+      {
+        "id": "4539272",
+        "text": "Click on \"log in\" at the top-right corner of the screen."
+      }
+    ],
+    "vocabIds": [
+      "1197610",
+      "1171140"
+    ],
+    "matches": {
+      "1171140": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "みぎじょう"
+        }
+      ],
+      "1197610": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "がめん"
+        }
+      ]
+    }
+  }
+]

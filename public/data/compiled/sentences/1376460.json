@@ -1,0 +1,831 @@
+[
+  {
+    "id": "80426",
+    "original": "明日は晴れだろうか。",
+    "en": [
+      {
+        "id": "323291",
+        "text": "Will it be fine weather tomorrow?"
+      }
+    ],
+    "indices": "明日 は 晴れ[01] だろうか",
+    "vocabIds": [
+      "1584660",
+      "1376460"
+    ],
+    "matches": {
+      "1376460": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "はれ"
+        }
+      ],
+      "1584660": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あした"
+        }
+      ]
+    }
+  },
+  {
+    "id": "80427",
+    "original": "明日は晴れかどうか知りたいな。",
+    "en": [
+      {
+        "id": "323290",
+        "text": "We want to know if it will be sunny tomorrow."
+      },
+      {
+        "id": "9694312",
+        "text": "We want to know if it'll be sunny tomorrow."
+      }
+    ],
+    "indices": "明日 は 晴れ[01] か如何か{かどうか} 知る{知り} たい な",
+    "vocabIds": [
+      "1420470",
+      "1584660",
+      "1376460"
+    ],
+    "matches": {
+      "1376460": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "はれ"
+        }
+      ],
+      "1420470": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "しりたい"
+        }
+      ],
+      "1584660": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あした"
+        }
+      ]
+    }
+  },
+  {
+    "id": "80501",
+    "original": "明日の天気は晴れ時々雨でしょう。",
+    "en": [
+      {
+        "id": "323216",
+        "text": "Tomorrow's weather should be sunny with occasional rain."
+      }
+    ],
+    "indices": "明日 の 天気 は 晴れ[01] 時々 雨 でしょう[01]",
+    "vocabIds": [
+      "1584660",
+      "1438690",
+      "1376460",
+      "1598680",
+      "1171900"
+    ],
+    "matches": {
+      "1171900": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "あめ"
+        }
+      ],
+      "1376460": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "はれ"
+        }
+      ],
+      "1438690": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "てんき"
+        }
+      ],
+      "1584660": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あした"
+        }
+      ],
+      "1598680": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "じ々"
+        }
+      ]
+    }
+  },
+  {
+    "id": "125093",
+    "original": "天気予報では明日は晴れです。",
+    "en": [
+      {
+        "id": "278900",
+        "text": "The weather forecast says it will be fine tomorrow."
+      }
+    ],
+    "indices": "天気予報 で(#2028980) は 明日 は 晴れ[01] です",
+    "vocabIds": [
+      "1438770",
+      "1584660",
+      "1376460"
+    ],
+    "matches": {
+      "1376460": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "はれ"
+        }
+      ],
+      "1438770": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "てんきよほう"
+        }
+      ],
+      "1584660": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "あした"
+        }
+      ]
+    }
+  },
+  {
+    "id": "143007",
+    "original": "晴れにならないと思う。",
+    "en": [
+      {
+        "id": "271560",
+        "text": "I don't suppose it's going to be sunny."
+      }
+    ],
+    "indices": "晴れ[01] になる{にならない} と 思う",
+    "vocabIds": [
+      "1376460",
+      "1589350"
+    ],
+    "matches": {
+      "1376460": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "はれ"
+        }
+      ],
+      "1589350": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "おもう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "143025",
+    "original": "晴れだと思うよ。",
+    "en": [
+      {
+        "id": "271543",
+        "text": "I think it will be sunny."
+      },
+      {
+        "id": "8240907",
+        "text": "I think it'll be sunny."
+      }
+    ],
+    "indices": "晴れ[01] だ と 思う[01]~ よ[01]",
+    "vocabIds": [
+      "1376460",
+      "1589350"
+    ],
+    "matches": {
+      "1376460": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "はれ"
+        }
+      ],
+      "1589350": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "おもう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "169486",
+    "original": "三日間晴れが続いた。",
+    "en": [
+      {
+        "id": "245000",
+        "text": "The weather stayed fine for three days."
+      }
+    ],
+    "indices": "三日[02] 間(かん)[01] 晴れ[01] が 続く{続いた}",
+    "vocabIds": [
+      "1405790",
+      "2827650",
+      "1376460",
+      "1579350"
+    ],
+    "matches": {
+      "1376460": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "はれ"
+        }
+      ],
+      "1405790": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "つづいた"
+        }
+      ],
+      "1579350": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "さん"
+        }
+      ],
+      "2827650": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "にちかん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "171566",
+    "original": "今日は晴れだ。",
+    "en": [
+      {
+        "id": "242909",
+        "text": "It is sunny today."
+      },
+      {
+        "id": "2035759",
+        "text": "It's sunny today."
+      }
+    ],
+    "indices": "今日 は 晴れ[01] だ",
+    "vocabIds": [
+      "1289400",
+      "1376460"
+    ],
+    "matches": {
+      "1289400": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きょうは"
+        }
+      ],
+      "1376460": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "はれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "173277",
+    "original": "降っても晴れでも行きます。",
+    "en": [
+      {
+        "id": "241194",
+        "text": "Rain or shine, I'll go."
+      }
+    ],
+    "indices": "降る(ふる){降って} も 晴れ[01] でも 行く[01]{行きます}",
+    "vocabIds": [
+      "1578850",
+      "2257460",
+      "1376460"
+    ],
+    "matches": {
+      "1376460": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "はれ"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "いきます"
+        }
+      ],
+      "2257460": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ふって"
+        }
+      ]
+    }
+  },
+  {
+    "id": "173679",
+    "original": "幸運にも、天気は晴れになった。",
+    "en": [
+      {
+        "id": "240791",
+        "text": "Luckily, the weather turned out fine."
+      }
+    ],
+    "indices": "幸運 にも 天気 は 晴れ[01] になる[01]{になった}",
+    "vocabIds": [
+      "1592930",
+      "1438690",
+      "1376460"
+    ],
+    "matches": {
+      "1376460": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "はれ"
+        }
+      ],
+      "1438690": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "てんき"
+        }
+      ],
+      "1592930": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こううん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "180421",
+    "original": "恐らく明日は晴れでしょう。",
+    "en": [
+      {
+        "id": "19171",
+        "text": "It will be fine weather tomorrow, perhaps."
+      }
+    ],
+    "indices": "恐らく 明日 は 晴れ[01] でしょう[01]",
+    "vocabIds": [
+      "1236650",
+      "1584660",
+      "1376460"
+    ],
+    "matches": {
+      "1236650": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "おそらく"
+        }
+      ],
+      "1376460": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "はれ"
+        }
+      ],
+      "1584660": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "あした"
+        }
+      ]
+    }
+  },
+  {
+    "id": "192149",
+    "original": "ロンドンの天気は晴れです。",
+    "en": [
+      {
+        "id": "29311",
+        "text": "The weather is fine in London."
+      }
+    ],
+    "indices": "ロンドン の 天気 は 晴れ[01] です",
+    "vocabIds": [
+      "1438690",
+      "1376460"
+    ],
+    "matches": {
+      "1376460": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "はれ"
+        }
+      ],
+      "1438690": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "てんき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "193420",
+    "original": "もし明日晴れなら、私たちは野球をします。",
+    "en": [
+      {
+        "id": "30585",
+        "text": "If it is fine tomorrow, we will play baseball."
+      },
+      {
+        "id": "11169404",
+        "text": "If it's fine tomorrow, we'll play baseball."
+      }
+    ],
+    "indices": "若し(もし){もし} 明日 晴れ[01] なら 私たち は 野球 を 為る(する){します}",
+    "vocabIds": [
+      "1311300",
+      "1584660",
+      "1376460",
+      "1537300"
+    ],
+    "matches": {
+      "1311300": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1376460": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "はれ"
+        }
+      ],
+      "1537300": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "やきゅう"
+        }
+      ],
+      "1584660": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "あした"
+        }
+      ]
+    }
+  },
+  {
+    "id": "193774",
+    "original": "もしも明日晴れなら私たちはピクニックに行くでしょう。",
+    "en": [
+      {
+        "id": "30583",
+        "text": "If it is sunny tomorrow, we will go on a picnic."
+      }
+    ],
+    "indices": "若しも{もしも} 明日 晴れ[01] なら 私たち は ピクニック に 行く でしょう[01]",
+    "vocabIds": [
+      "1578850",
+      "1311300",
+      "1584660",
+      "1376460"
+    ],
+    "matches": {
+      "1311300": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1376460": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "はれ"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 19,
+          "length": 6,
+          "reading": "いくでしょう"
+        }
+      ],
+      "1584660": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "あした"
+        }
+      ]
+    }
+  },
+  {
+    "id": "207332",
+    "original": "その日は晴れだったので、私たちは泳ぎに行った。",
+    "en": [
+      {
+        "id": "44584",
+        "text": "It was a fine day, so we went swimming."
+      },
+      {
+        "id": "389486",
+        "text": "The day being fine, we went swimming."
+      }
+    ],
+    "indices": "其の[01]{その} 日(ひ)[01] は 晴れ[01]~ だ{だった} ので 私たち は 泳ぐ{泳ぎ} に 行く[01]{行った}",
+    "vocabIds": [
+      "2002320",
+      "1311300",
+      "1578850",
+      "1376460",
+      "1613570"
+    ],
+    "matches": {
+      "1311300": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1376460": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "はれ"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 19,
+          "length": 3,
+          "reading": "いった"
+        }
+      ],
+      "1613570": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "およぎ"
+        }
+      ],
+      "2002320": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "そのひ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "719261",
+    "original": "イタリアでは、いつも晴れです。",
+    "en": [
+      {
+        "id": "719230",
+        "text": "It's always sunny in Italy."
+      }
+    ],
+    "vocabIds": [
+      "1376460"
+    ],
+    "matches": {
+      "1376460": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "はれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1602142",
+    "original": "天気は晴れのち曇りでしょう。",
+    "en": [
+      {
+        "id": "1602144",
+        "text": "The weather will be clear, followed by clouds later on."
+      }
+    ],
+    "vocabIds": [
+      "1457560",
+      "1438690",
+      "1376460"
+    ],
+    "matches": {
+      "1376460": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "はれ"
+        }
+      ],
+      "1438690": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "てんき"
+        }
+      ],
+      "1457560": [
+        {
+          "start": 7,
+          "length": 6,
+          "reading": "くもりでしょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2237946",
+    "original": "天気予報によると明日は晴れです。",
+    "en": [
+      {
+        "id": "278900",
+        "text": "The weather forecast says it will be fine tomorrow."
+      }
+    ],
+    "vocabIds": [
+      "1438770",
+      "1584660",
+      "1376460"
+    ],
+    "matches": {
+      "1376460": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "はれ"
+        }
+      ],
+      "1438770": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "てんきよほう"
+        }
+      ],
+      "1584660": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "あした"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9949500",
+    "original": "明日はほぼ確実に晴れだよ。",
+    "en": [
+      {
+        "id": "323298",
+        "text": "It ought to be fine tomorrow."
+      }
+    ],
+    "vocabIds": [
+      "1584660",
+      "1205830",
+      "1376460"
+    ],
+    "matches": {
+      "1205830": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "かくじつ"
+        }
+      ],
+      "1376460": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "はれ"
+        }
+      ],
+      "1584660": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あした"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12412346",
+    "original": "明日は晴れよ。",
+    "en": [
+      {
+        "id": "11665233",
+        "text": "It will be sunny tomorrow."
+      },
+      {
+        "id": "11665234",
+        "text": "It'll be sunny tomorrow."
+      }
+    ],
+    "vocabIds": [
+      "1584660",
+      "1376460"
+    ],
+    "matches": {
+      "1376460": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "はれ"
+        }
+      ],
+      "1584660": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あした"
+        }
+      ]
+    }
+  },
+  {
+    "id": "13029024",
+    "original": "雨だろうが晴れだろうが、行くよ。",
+    "en": [
+      {
+        "id": "7113672",
+        "text": "I'll go, rain or shine."
+      }
+    ],
+    "vocabIds": [
+      "1376460",
+      "1578850",
+      "1171900"
+    ],
+    "matches": {
+      "1171900": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "あめ"
+        }
+      ],
+      "1376460": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "はれ"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "いく"
+        }
+      ]
+    }
+  }
+]

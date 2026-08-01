@@ -1,0 +1,105 @@
+{
+  "id": "1724720",
+  "writtenForm": {
+    "kanji": "門前",
+    "alternatives": [],
+    "containedKanji": [
+      "門",
+      "前"
+    ]
+  },
+  "reading": {
+    "primary": "もんぜん",
+    "alternatives": [
+      "メンゼン"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 15802,
+    "kanaRank": 197653
+  },
+  "progression": {
+    "kklcStep": 447
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "before the gate",
+        "in front of the gate"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": true,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "abbr"
+        ]
+      },
+      "glosses": [
+        "one's hand being completely concealed",
+        "not having called any tiles"
+      ],
+      "related": {
+        "compounds": [
+          "門前清"
+        ]
+      },
+      "appliesToReadings": [
+        "メンゼン"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1724720",
+      "isBase": true,
+      "originalPrimaryReading": "もんぜん",
+      "originalGlosses": [
+        "before the gate",
+        "in front of the gate"
+      ]
+    },
+    {
+      "id": "2750630",
+      "isBase": false,
+      "originalPrimaryReading": "メンゼン",
+      "originalGlosses": [
+        "one's hand being completely concealed",
+        "not having called any tiles"
+      ]
+    }
+  ],
+  "components": [
+    "1584800",
+    "1392580"
+  ],
+  "parents": [
+    "1724730",
+    "2799290"
+  ]
+}

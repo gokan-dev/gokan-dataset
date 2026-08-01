@@ -1,0 +1,126 @@
+[
+  {
+    "id": "172231",
+    "original": "今朝起きてみると、山の頂が雪におおわれていた。",
+    "en": [
+      {
+        "id": "242244",
+        "text": "I awoke this morning to find the summit of the mountain covered with snow."
+      }
+    ],
+    "indices": "今朝 起きる[01]{起きて} 見る[05]{みる} と 山(やま)[01] の 頂[01]~ が 雪 に 覆う{おおわれていた}",
+    "vocabIds": [
+      "1223640",
+      "1302700",
+      "1579100",
+      "1386500"
+    ],
+    "matches": {
+      "1223640": [
+        {
+          "start": 2,
+          "length": 6,
+          "reading": "おきてみると"
+        }
+      ],
+      "1302700": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "やまのいただき"
+        }
+      ],
+      "1386500": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "ゆき"
+        }
+      ],
+      "1579100": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "けさ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "210457",
+    "original": "その山の頂は、雪で覆われている。",
+    "en": [
+      {
+        "id": "47725",
+        "text": "The summit of the mountain is covered with snow."
+      }
+    ],
+    "indices": "其の[01]{その} 山(やま)[01] の 頂[01] は 雪 で(#2028980) 覆う{覆われている}",
+    "vocabIds": [
+      "1302700",
+      "2016900",
+      "1386500"
+    ],
+    "matches": {
+      "1302700": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "やまのいただき"
+        }
+      ],
+      "1386500": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "ゆき"
+        }
+      ],
+      "2016900": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "おおわれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "869851",
+    "original": "その山の頂は雪に覆われている。",
+    "en": [
+      {
+        "id": "388009",
+        "text": "The top of the mountain is covered in snow."
+      }
+    ],
+    "vocabIds": [
+      "1302700",
+      "2016900",
+      "1386500"
+    ],
+    "matches": {
+      "1302700": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "やまのいただき"
+        }
+      ],
+      "1386500": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "ゆき"
+        }
+      ],
+      "2016900": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "おおわれ"
+        }
+      ]
+    }
+  }
+]

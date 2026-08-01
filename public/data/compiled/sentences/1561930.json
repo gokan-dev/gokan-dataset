@@ -1,0 +1,113 @@
+[
+  {
+    "id": "80082",
+    "original": "木を見ると心が和んだ。",
+    "en": [
+      {
+        "id": "323635",
+        "text": "The trees comforted me."
+      }
+    ],
+    "indices": "木(き) を 見る と 心(こころ) が 和む{和んだ}",
+    "vocabIds": [
+      "1259290",
+      "1561930",
+      "1534520",
+      "1360480"
+    ],
+    "matches": {
+      "1259290": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "みると"
+        }
+      ],
+      "1360480": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "こころ"
+        }
+      ],
+      "1534520": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "き"
+        }
+      ],
+      "1561930": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "なごんだ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10025696",
+    "original": "トムは場を和ませようとした。",
+    "en": [
+      {
+        "id": "5844775",
+        "text": "Tom tried to break the ice."
+      }
+    ],
+    "vocabIds": [
+      "1561930",
+      "1355790"
+    ],
+    "matches": {
+      "1355790": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "ば"
+        }
+      ],
+      "1561930": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "なごま"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10618141",
+    "original": "メアリーがいるだけで、場が和むわね。",
+    "en": [
+      {
+        "id": "12601154",
+        "text": "Just having Mary around makes the atmosphere relaxed."
+      },
+      {
+        "id": "12601155",
+        "text": "Having Mary nearby makes everything feel so calm."
+      }
+    ],
+    "vocabIds": [
+      "1561930",
+      "1355790"
+    ],
+    "matches": {
+      "1355790": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "ば"
+        }
+      ],
+      "1561930": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "なごむ"
+        }
+      ]
+    }
+  }
+]

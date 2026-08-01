@@ -1,0 +1,72 @@
+[
+  {
+    "id": "74243",
+    "original": "流産はとても辛い経験です。",
+    "en": [
+      {
+        "id": "329477",
+        "text": "Miscarriage is a heart-breaking experience."
+      }
+    ],
+    "indices": "流産~ は 迚も{とても} 辛い(つらい) 経験 です",
+    "vocabIds": [
+      "1552340",
+      "1365860",
+      "1251270"
+    ],
+    "matches": {
+      "1251270": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "けいけん"
+        }
+      ],
+      "1365860": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "つらい"
+        }
+      ],
+      "1552340": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "りゅうざん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "182195",
+    "original": "去年流産しました。",
+    "en": [
+      {
+        "id": "19408",
+        "text": "I had a miscarriage last year."
+      }
+    ],
+    "indices": "去年 流産 為る(する){しました}",
+    "vocabIds": [
+      "1231690",
+      "1552340"
+    ],
+    "matches": {
+      "1231690": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きょねん"
+        }
+      ],
+      "1552340": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "りゅうざん"
+        }
+      ]
+    }
+  }
+]

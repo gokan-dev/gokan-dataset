@@ -1,0 +1,83 @@
+[
+  {
+    "id": "163580",
+    "original": "私の仕事はまだ未完成です。",
+    "en": [
+      {
+        "id": "250932",
+        "text": "My work is not complete yet."
+      },
+      {
+        "id": "7492937",
+        "text": "My work isn't complete yet."
+      }
+    ],
+    "indices": "私(わたし)[01]{私の} 仕事[01] は 未だ[02]{まだ} 未完成~ です",
+    "vocabIds": [
+      "1527300",
+      "1304970",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1304970": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "しごと"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1527300": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "みかんせい"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10586073",
+    "original": "このリストは未完成です。",
+    "en": [
+      {
+        "id": "9360202",
+        "text": "This list is incomplete."
+      }
+    ],
+    "vocabIds": [
+      "1527300"
+    ],
+    "matches": {
+      "1527300": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "みかんせい"
+        }
+      ]
+    }
+  }
+]

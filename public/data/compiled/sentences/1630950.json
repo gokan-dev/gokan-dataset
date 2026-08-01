@@ -1,0 +1,548 @@
+[
+  {
+    "id": "91801",
+    "original": "彼女はネックレスを盗もうとして現行犯でつかまった。",
+    "en": [
+      {
+        "id": "311911",
+        "text": "She was caught red-handed trying to steal a necklace."
+      }
+    ],
+    "indices": "彼女[01] は ネックレス を 盗む{盗もう} として[04] 現行犯 で(#2028980) 捕まる[01]{つかまった}",
+    "vocabIds": [
+      "1630950",
+      "1448440",
+      "1483150"
+    ],
+    "matches": {
+      "1448440": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "ぬすもう"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1630950": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "げんこうはん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "113296",
+    "original": "彼はすりの現行犯でつかまった。",
+    "en": [
+      {
+        "id": "290378",
+        "text": "He was caught in the act of pickpocketing."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 掏摸{すり} の 現行犯 で(#2028980) 捕まる[01]{つかまった}",
+    "vocabIds": [
+      "1630950",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1630950": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "げんこうはん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "125350",
+    "original": "泥棒は現行犯でつかまった。",
+    "en": [
+      {
+        "id": "278644",
+        "text": "The thief was caught in the act."
+      }
+    ],
+    "indices": "泥棒 は 現行犯~ で(#2028980) 捕まる[01]{つかまった}",
+    "vocabIds": [
+      "1630950",
+      "1599340"
+    ],
+    "matches": {
+      "1599340": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "どろぼう"
+        }
+      ],
+      "1630950": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "げんこうはん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "125368",
+    "original": "泥棒は、現行犯で捕まった。",
+    "en": [
+      {
+        "id": "278625",
+        "text": "The thief was arrested red-handed."
+      }
+    ],
+    "indices": "泥棒 は 現行犯 で(#2028980) 捕まる[01]{捕まった}",
+    "vocabIds": [
+      "1514110",
+      "1630950",
+      "1599340"
+    ],
+    "matches": {
+      "1514110": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "つかまった"
+        }
+      ],
+      "1599340": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "どろぼう"
+        }
+      ],
+      "1630950": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "げんこうはん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "172099",
+    "original": "今度は見逃してやるが、またお前を盗みの現行犯で捕らえたくないもんだね。",
+    "en": [
+      {
+        "id": "242376",
+        "text": "I'll let you off this time, but I don't ever want to catch you stealing again."
+      }
+    ],
+    "indices": "今度[01] は 見逃す{見逃して} 遣る[01]{やる} が[03] 又{また} お前[01] を 盗み の 現行犯 で(#2028980) 捕らえる{捕らえ} たい{たくない} 物(もの){もん} だ ね(#2029080)[01]",
+    "vocabIds": [
+      "1598960",
+      "1604670",
+      "1630950",
+      "1289370",
+      "1002290",
+      "1448400"
+    ],
+    "matches": {
+      "1002290": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "おまえ"
+        }
+      ],
+      "1289370": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こんど"
+        }
+      ],
+      "1448400": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "ぬすみ"
+        }
+      ],
+      "1598960": [
+        {
+          "start": 23,
+          "length": 7,
+          "reading": "とらえたくない"
+        }
+      ],
+      "1604670": [
+        {
+          "start": 3,
+          "length": 7,
+          "reading": "みのがしてやるが"
+        }
+      ],
+      "1630950": [
+        {
+          "start": 19,
+          "length": 3,
+          "reading": "げんこうはん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "176112",
+    "original": "警察は彼を現行犯で逮捕した。",
+    "en": [
+      {
+        "id": "238353",
+        "text": "The police caught him at it."
+      }
+    ],
+    "indices": "警察 は 彼(かれ) を 現行犯 で(#2028980) 逮捕 為る(する){した}",
+    "vocabIds": [
+      "1630950",
+      "1252390",
+      "1411470",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1252390": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "けいさつ"
+        }
+      ],
+      "1411470": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "たいほ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1630950": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "げんこうはん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "176201",
+    "original": "警察は強盗を現行犯で捕まえた。",
+    "en": [
+      {
+        "id": "238264",
+        "text": "The police caught the burglar red-handed."
+      }
+    ],
+    "indices": "警察 は 強盗 を 現行犯 で(#2028980) 捕まえる{捕まえた}",
+    "vocabIds": [
+      "1597780",
+      "1630950",
+      "1252390",
+      "1236500"
+    ],
+    "matches": {
+      "1236500": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ごうとう"
+        }
+      ],
+      "1252390": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "けいさつ"
+        }
+      ],
+      "1597780": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "つかまえた"
+        }
+      ],
+      "1630950": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "げんこうはん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "176254",
+    "original": "警察はすりを現行犯で取り押さえた。",
+    "en": [
+      {
+        "id": "238210",
+        "text": "The police arrested the pickpocket in the act."
+      }
+    ],
+    "indices": "警察 は 掏摸{すり} を 現行犯 で(#2028980) 取り押さえる[01]{取り押さえた}",
+    "vocabIds": [
+      "2011120",
+      "1630950",
+      "1252390"
+    ],
+    "matches": {
+      "1252390": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "けいさつ"
+        }
+      ],
+      "1630950": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "げんこうはん"
+        }
+      ],
+      "2011120": [
+        {
+          "start": 10,
+          "length": 6,
+          "reading": "とりおさえた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1251960",
+    "original": "警察はスリを現行犯で逮捕した。",
+    "en": [
+      {
+        "id": "238210",
+        "text": "The police arrested the pickpocket in the act."
+      }
+    ],
+    "vocabIds": [
+      "1630950",
+      "1252390",
+      "1411470"
+    ],
+    "matches": {
+      "1252390": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "けいさつ"
+        }
+      ],
+      "1411470": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "たいほ"
+        }
+      ],
+      "1630950": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "げんこうはん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8980615",
+    "original": "彼女を現行犯で逮捕した。",
+    "en": [
+      {
+        "id": "8945695",
+        "text": "We caught her red-handed."
+      }
+    ],
+    "vocabIds": [
+      "1630950",
+      "1483150",
+      "1411470"
+    ],
+    "matches": {
+      "1411470": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "たいほ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1630950": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "げんこうはん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8980618",
+    "original": "彼女を現行犯で捕まえた。",
+    "en": [
+      {
+        "id": "8945695",
+        "text": "We caught her red-handed."
+      }
+    ],
+    "vocabIds": [
+      "1597780",
+      "1630950",
+      "1483150"
+    ],
+    "matches": {
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1597780": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "つかまえた"
+        }
+      ],
+      "1630950": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "げんこうはん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8980619",
+    "original": "彼女を現行犯で取り押さえた。",
+    "en": [
+      {
+        "id": "8945695",
+        "text": "We caught her red-handed."
+      }
+    ],
+    "vocabIds": [
+      "2011120",
+      "1630950",
+      "1483150"
+    ],
+    "matches": {
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1630950": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "げんこうはん"
+        }
+      ],
+      "2011120": [
+        {
+          "start": 7,
+          "length": 6,
+          "reading": "とりおさえた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "13561627",
+    "original": "犯人は現行犯で逮捕された。",
+    "en": [
+      {
+        "id": "13700955",
+        "text": "The criminal was caught in the act."
+      },
+      {
+        "id": "13700956",
+        "text": "The suspect got caught red-handed."
+      }
+    ],
+    "vocabIds": [
+      "1630950",
+      "1481630",
+      "1411470"
+    ],
+    "matches": {
+      "1411470": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "たいほ"
+        }
+      ],
+      "1481630": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "はんにん"
+        }
+      ],
+      "1630950": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "げんこうはん"
+        }
+      ]
+    }
+  }
+]

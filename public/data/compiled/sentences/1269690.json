@@ -1,0 +1,110 @@
+[
+  {
+    "id": "147791",
+    "original": "出かける前に火の後始末をしなさい。",
+    "en": [
+      {
+        "id": "17886",
+        "text": "Be sure to put out the fire before you leave."
+      }
+    ],
+    "indices": "出かける 前(まえ) に 火(ひ) の 後始末[02]~ を 為る(する){し} 為さい{なさい}",
+    "vocabIds": [
+      "1598550",
+      "1269690",
+      "1392590",
+      "1193610"
+    ],
+    "matches": {
+      "1193610": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "ひ"
+        }
+      ],
+      "1269690": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "あとしまつ"
+        }
+      ],
+      "1392590": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "まえに"
+        }
+      ],
+      "1598550": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "でかける"
+        }
+      ]
+    }
+  },
+  {
+    "id": "174293",
+    "original": "後始末が大変だよ。",
+    "en": [
+      {
+        "id": "240176",
+        "text": "Afterwards there will be hell to pay."
+      }
+    ],
+    "indices": "後始末[01] が 大変 だ よ[01]",
+    "vocabIds": [
+      "1269690",
+      "1415000"
+    ],
+    "matches": {
+      "1269690": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あとしまつ"
+        }
+      ],
+      "1415000": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "たいへん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11582808",
+    "original": "後始末は自分でします。",
+    "en": [
+      {
+        "id": "8554094",
+        "text": "I'll clean up this mess myself."
+      }
+    ],
+    "vocabIds": [
+      "1269690",
+      "1318610"
+    ],
+    "matches": {
+      "1269690": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あとしまつ"
+        }
+      ],
+      "1318610": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "じぶん"
+        }
+      ]
+    }
+  }
+]

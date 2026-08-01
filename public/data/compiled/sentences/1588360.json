@@ -1,0 +1,126 @@
+[
+  {
+    "id": "142787",
+    "original": "生計費は昨年うなぎ上りでした。",
+    "en": [
+      {
+        "id": "271782",
+        "text": "The cost of living has shot through the ceiling in the last year."
+      }
+    ],
+    "indices": "生計費~ は 昨年 うなぎ上り です{でした}",
+    "vocabIds": [
+      "1588360",
+      "1830230",
+      "1298230"
+    ],
+    "matches": {
+      "1298230": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "さくねん"
+        }
+      ],
+      "1588360": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "うなぎのぼり"
+        }
+      ],
+      "1830230": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "せいけいひ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "189347",
+    "original": "営業成績はまさに鰻上り、というところかね。",
+    "en": [
+      {
+        "id": "26496",
+        "text": "Our sales performance is just skyrocketing."
+      }
+    ],
+    "indices": "営業 成績 は 正に[01]{まさに} うなぎ上り{鰻上り}~ と言うところ[03]{というところ} か ね(#2029080)[01]",
+    "vocabIds": [
+      "2828700",
+      "1588360"
+    ],
+    "matches": {
+      "1588360": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "うなぎのぼり"
+        }
+      ],
+      "2828700": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "えいぎょうせいせき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10637228",
+    "original": "ここ最近、原油価格が高騰していて、ガソリン代が鰻登りです。",
+    "en": [
+      {
+        "id": "10637320",
+        "text": "Recently, the price of crude oil has shot up, and the cost of gasoline is going up."
+      }
+    ],
+    "vocabIds": [
+      "2404820",
+      "1992080",
+      "1588360",
+      "1293780",
+      "1283870"
+    ],
+    "matches": {
+      "1283870": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "こうとう"
+        }
+      ],
+      "1293780": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "さいきん"
+        }
+      ],
+      "1588360": [
+        {
+          "start": 23,
+          "length": 3,
+          "reading": "うなぎのぼり"
+        }
+      ],
+      "1992080": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "げんゆかかく"
+        }
+      ],
+      "2404820": [
+        {
+          "start": 17,
+          "length": 5,
+          "reading": "がそりんだい"
+        }
+      ]
+    }
+  }
+]

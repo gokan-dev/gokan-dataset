@@ -1,0 +1,150 @@
+[
+  {
+    "id": "183352",
+    "original": "機械を始動するには、このボタンを押しなさい。",
+    "en": [
+      {
+        "id": "20475",
+        "text": "Press this button to start the machine."
+      }
+    ],
+    "indices": "機械 を 始動[01]~ 為る(する){する} には 此の{この} 釦{ボタン} を 押す[01]{押し} 為さい{なさい}",
+    "vocabIds": [
+      "1180470",
+      "1220810",
+      "1307600"
+    ],
+    "matches": {
+      "1180470": [
+        {
+          "start": 16,
+          "length": 5,
+          "reading": "おしなさい"
+        }
+      ],
+      "1220810": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きかい"
+        }
+      ],
+      "1307600": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "しどう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "183353",
+    "original": "機械を始動させた。",
+    "en": [
+      {
+        "id": "20476",
+        "text": "I got the machine running."
+      }
+    ],
+    "indices": "機械 を 始動[01] 為せる{させた}",
+    "vocabIds": [
+      "1220810",
+      "1307600"
+    ],
+    "matches": {
+      "1220810": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きかい"
+        }
+      ],
+      "1307600": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "しどう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "184040",
+    "original": "寒い朝に車を始動させることは難しい。",
+    "en": [
+      {
+        "id": "21168",
+        "text": "It's difficult to get the car going on cold mornings."
+      }
+    ],
+    "indices": "寒い 朝(あさ) に 車(くるま) を 始動[01] 為せる{させる} 事(こと){こと} は 難しい",
+    "vocabIds": [
+      "1460850",
+      "1210360",
+      "1307600",
+      "1428280",
+      "1323080"
+    ],
+    "matches": {
+      "1210360": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "さむい"
+        }
+      ],
+      "1307600": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "しどう"
+        }
+      ],
+      "1323080": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1428280": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "あさ"
+        }
+      ],
+      "1460850": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "むずかしい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "227859",
+    "original": "エンジンを始動させた。",
+    "en": [
+      {
+        "id": "65212",
+        "text": "I got the engine going."
+      }
+    ],
+    "indices": "エンジン を 始動[01] 為せる{させた}",
+    "vocabIds": [
+      "1307600"
+    ],
+    "matches": {
+      "1307600": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "しどう"
+        }
+      ]
+    }
+  }
+]

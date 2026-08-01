@@ -1,0 +1,83 @@
+[
+  {
+    "id": "177334",
+    "original": "君は計画を遣り通さなければならない。",
+    "en": [
+      {
+        "id": "16184",
+        "text": "You must go through with your plan."
+      }
+    ],
+    "indices": "君(きみ)[01] は 計画 を 遣り通す{遣り通さ}~ ねばならない{なければならない}",
+    "vocabIds": [
+      "1432900",
+      "1252090",
+      "1012980",
+      "1247250"
+    ],
+    "matches": {
+      "1012980": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "やり"
+        }
+      ],
+      "1247250": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "きみ"
+        }
+      ],
+      "1252090": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "けいかく"
+        }
+      ],
+      "1432900": [
+        {
+          "start": 7,
+          "length": 10,
+          "reading": "とおさなければならない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10213993",
+    "original": "それが彼女の遣り方なのよ。",
+    "en": [
+      {
+        "id": "10214021",
+        "text": "It's her way of doing things."
+      },
+      {
+        "id": "10214022",
+        "text": "It's the way she does things."
+      }
+    ],
+    "vocabIds": [
+      "1012980",
+      "1483150"
+    ],
+    "matches": {
+      "1012980": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "やりかたな"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ]
+    }
+  }
+]

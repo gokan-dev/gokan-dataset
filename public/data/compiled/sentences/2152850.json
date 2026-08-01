@@ -1,0 +1,60 @@
+[
+  {
+    "id": "74859",
+    "original": "病は気からとはうまく言ったものですね。",
+    "en": [
+      {
+        "id": "328860",
+        "text": "It is aptly said that illness starts from the mind."
+      }
+    ],
+    "indices": "病は気から~ とは 上手い{うまく} 言う{言った} 物(もの){もの} です ね",
+    "vocabIds": [
+      "2152850",
+      "1587040"
+    ],
+    "matches": {
+      "1587040": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "いった"
+        }
+      ],
+      "2152850": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "やまいはきから"
+        }
+      ]
+    }
+  },
+  {
+    "id": "85345",
+    "original": "病は気から。",
+    "en": [
+      {
+        "id": "269036",
+        "text": "Care killed a cat."
+      },
+      {
+        "id": "5278372",
+        "text": "Sickness and health start with the mind."
+      }
+    ],
+    "indices": "病(やまい) は 気(き)[06] から",
+    "vocabIds": [
+      "2152850"
+    ],
+    "matches": {
+      "2152850": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "やまいはきから"
+        }
+      ]
+    }
+  }
+]

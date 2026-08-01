@@ -1,0 +1,106 @@
+[
+  {
+    "id": "209102",
+    "original": "その少年は恐れおののき立ちつくした。",
+    "en": [
+      {
+        "id": "46363",
+        "text": "The boy stood still in horror."
+      }
+    ],
+    "indices": "其の[01]{その} 少年[01] は 恐れ戦く{恐れおののき} 立ち尽くす{立ちつくした}~",
+    "vocabIds": [
+      "1852180",
+      "1589200",
+      "1349170"
+    ],
+    "matches": {
+      "1349170": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "しょうねん"
+        }
+      ],
+      "1589200": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "おそれ"
+        }
+      ],
+      "1852180": [
+        {
+          "start": 11,
+          "length": 6,
+          "reading": "たちつくした"
+        }
+      ]
+    }
+  },
+  {
+    "id": "209135",
+    "original": "その少年はしばらくの間立ちつくしていた。",
+    "en": [
+      {
+        "id": "46396",
+        "text": "The boy kept standing for a while."
+      },
+      {
+        "id": "10865989",
+        "text": "The boy remained standing for a while."
+      }
+    ],
+    "indices": "其の[01]{その} 少年[01] は しばらくの間 立ち尽くす{立ちつくしていた}",
+    "vocabIds": [
+      "1852180",
+      "2182800",
+      "1349170"
+    ],
+    "matches": {
+      "1349170": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "しょうねん"
+        }
+      ],
+      "1852180": [
+        {
+          "start": 11,
+          "length": 8,
+          "reading": "たちつくしていた"
+        }
+      ],
+      "2182800": [
+        {
+          "start": 5,
+          "length": 6,
+          "reading": "しばらくのま"
+        }
+      ]
+    }
+  },
+  {
+    "id": "6849951",
+    "original": "ただただ立ち尽くすことしかできなかった。",
+    "en": [
+      {
+        "id": "10118974",
+        "text": "I couldn't do anything at all except stand there."
+      }
+    ],
+    "vocabIds": [
+      "1852180"
+    ],
+    "matches": {
+      "1852180": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "たちつくす"
+        }
+      ]
+    }
+  }
+]

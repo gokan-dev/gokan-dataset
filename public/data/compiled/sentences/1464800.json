@@ -1,0 +1,72 @@
+[
+  {
+    "id": "182175",
+    "original": "居酒屋は日本風のパブのことです。",
+    "en": [
+      {
+        "id": "19399",
+        "text": "An izakaya is a Japanese-style pub."
+      }
+    ],
+    "indices": "居酒屋 は 日本 風(ふう) の パブ の 事(こと){こと} です",
+    "vocabIds": [
+      "1231800",
+      "1464800"
+    ],
+    "matches": {
+      "1231800": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "いざかや"
+        }
+      ],
+      "1464800": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "にっぽんふう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "227967",
+    "original": "エスニック料理の味は日本風になっている。",
+    "en": [
+      {
+        "id": "65320",
+        "text": "This ethnic dish is arranged in a Japanese style."
+      }
+    ],
+    "indices": "エスニック~ 料理[01] の 味(あじ) は 日本 風(ふう)[02] になる[01]{になっている}",
+    "vocabIds": [
+      "2266390",
+      "1464800",
+      "1526960"
+    ],
+    "matches": {
+      "1464800": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "にっぽんふう"
+        }
+      ],
+      "1526960": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "あじ"
+        }
+      ],
+      "2266390": [
+        {
+          "start": 0,
+          "length": 7,
+          "reading": "えすにっくりょうり"
+        }
+      ]
+    }
+  }
+]

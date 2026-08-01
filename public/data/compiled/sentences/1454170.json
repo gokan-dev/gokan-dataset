@@ -1,0 +1,177 @@
+[
+  {
+    "id": "123555",
+    "original": "道筋からそれてしまった。",
+    "en": [
+      {
+        "id": "280442",
+        "text": "We wandered from the course."
+      }
+    ],
+    "indices": "道筋 から 逸れる(それる)[01]{それて} 仕舞う{しまった}",
+    "vocabIds": [
+      "1454170"
+    ],
+    "matches": {
+      "1454170": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "みちすじ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "125231",
+    "original": "鉄道の道筋を決めるのは一体何だろうか。",
+    "en": [
+      {
+        "id": "278762",
+        "text": "What is it that determines the route a railway takes?"
+      }
+    ],
+    "indices": "鉄道 の 道筋~ を 決める の は 一体[01] 何(なに)[01] だろうか",
+    "vocabIds": [
+      "1254180",
+      "1437960",
+      "1454170",
+      "1164510",
+      "1577100"
+    ],
+    "matches": {
+      "1164510": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "いったい"
+        }
+      ],
+      "1254180": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "きめる"
+        }
+      ],
+      "1437960": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "てつどう"
+        }
+      ],
+      "1454170": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "みちすじ"
+        }
+      ],
+      "1577100": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "なに"
+        }
+      ]
+    }
+  },
+  {
+    "id": "205926",
+    "original": "それからその路線の通る最良の道筋を決める必要がある。それは何よりもその路線が通る地形によって決まる。",
+    "en": [
+      {
+        "id": "43172",
+        "text": "It then became necessary to settle the best route for the line to follow; and that was determined, in the first place, by the shape of the land it had to cross."
+      }
+    ],
+    "indices": "其れから{それから} 其の[01]{その} 路線 の 通る 最良 の 道筋 を 決める 必要[02] が[01] 有る{ある} 其れ[01]{それ} は 何よりも 其の[01]{その} 路線 が 通る 地形 に因って{によって} 決まる[01]",
+    "vocabIds": [
+      "2141560",
+      "1254180",
+      "1591420",
+      "1560040",
+      "1433030",
+      "1294300",
+      "1454170",
+      "1487660",
+      "1421030"
+    ],
+    "matches": {
+      "1254180": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "きめる"
+        }
+      ],
+      "1294300": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "さいりょう"
+        }
+      ],
+      "1421030": [
+        {
+          "start": 40,
+          "length": 2,
+          "reading": "ちけい"
+        }
+      ],
+      "1433030": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "とおる"
+        },
+        {
+          "start": 38,
+          "length": 2,
+          "reading": "とおる"
+        }
+      ],
+      "1454170": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "みちすじ"
+        }
+      ],
+      "1487660": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "ひつよう"
+        }
+      ],
+      "1560040": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ろせん"
+        },
+        {
+          "start": 35,
+          "length": 2,
+          "reading": "ろせん"
+        }
+      ],
+      "1591420": [
+        {
+          "start": 46,
+          "length": 3,
+          "reading": "きまる"
+        }
+      ],
+      "2141560": [
+        {
+          "start": 29,
+          "length": 4,
+          "reading": "なによりも"
+        }
+      ]
+    }
+  }
+]

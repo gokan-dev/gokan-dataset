@@ -1,0 +1,111 @@
+[
+  {
+    "id": "112573",
+    "original": "彼はその選挙で対立候補を破った。",
+    "en": [
+      {
+        "id": "291103",
+        "text": "He defeated his opponent in the election."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 其の[01]{その} 選挙 で(#2028980) 対立 候補[01] を 破る{破った}",
+    "vocabIds": [
+      "2585390",
+      "1208000",
+      "1471200",
+      "1392190",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1208000": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "やぶった"
+        }
+      ],
+      "1392190": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "せんきょ"
+        }
+      ],
+      "1471200": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "やぶった"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "2585390": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "たいりつこうほ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "874010",
+    "original": "ヴァレンシアは対立候補よりもはるかに生徒会長候補に相応しい。",
+    "en": [
+      {
+        "id": "873916",
+        "text": "Valencia is a much fitter candidate for student body president than her competitors."
+      }
+    ],
+    "vocabIds": [
+      "2585390",
+      "2692030",
+      "1400850",
+      "1272730"
+    ],
+    "matches": {
+      "1272730": [
+        {
+          "start": 22,
+          "length": 2,
+          "reading": "こうほ"
+        }
+      ],
+      "1400850": [
+        {
+          "start": 25,
+          "length": 4,
+          "reading": "ふさわしい"
+        }
+      ],
+      "2585390": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "たいりつこうほ"
+        }
+      ],
+      "2692030": [
+        {
+          "start": 18,
+          "length": 4,
+          "reading": "せいとかいちょう"
+        }
+      ]
+    }
+  }
+]

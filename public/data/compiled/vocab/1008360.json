@@ -1,0 +1,126 @@
+{
+  "id": "1008360",
+  "writtenForm": {
+    "kanji": "刑事",
+    "alternatives": [],
+    "containedKanji": [
+      "刑",
+      "事"
+    ]
+  },
+  "reading": {
+    "primary": "でか",
+    "alternatives": [
+      "デカ",
+      "けいじ"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 8157,
+    "kanaRank": 167209
+  },
+  "jlptLevel": 3,
+  "progression": {
+    "kklcStep": 722
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "sl"
+        ]
+      },
+      "glosses": [
+        "(police) detective"
+      ],
+      "related": {
+        "compounds": [
+          "刑事"
+        ]
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "(police) detective"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "けいじ"
+      ]
+    },
+    {
+      "pos": [
+        "n",
+        "adj-f"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "criminal matter"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "けいじ"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": true
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1008360",
+      "isBase": true,
+      "originalPrimaryReading": "でか",
+      "originalGlosses": [
+        "(police) detective"
+      ]
+    },
+    {
+      "id": "1249660",
+      "isBase": false,
+      "originalPrimaryReading": "けいじ",
+      "originalGlosses": [
+        "(police) detective"
+      ]
+    }
+  ],
+  "components": [
+    "1249610",
+    "1313580"
+  ],
+  "parents": [
+    "1249680",
+    "1630490"
+  ]
+}

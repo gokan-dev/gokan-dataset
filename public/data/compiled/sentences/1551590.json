@@ -1,0 +1,96 @@
+[
+  {
+    "id": "90333",
+    "original": "彼女は計画の立案を指示した。",
+    "en": [
+      {
+        "id": "313380",
+        "text": "She directed the planning of the project."
+      }
+    ],
+    "indices": "彼女[01] は 計画 の 立案 を 指示 為る(する){した}",
+    "vocabIds": [
+      "1483150",
+      "1252090",
+      "1551590",
+      "1309800"
+    ],
+    "matches": {
+      "1252090": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "けいかく"
+        }
+      ],
+      "1309800": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "しじ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1551590": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "りつあん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "90334",
+    "original": "彼女は計画の立案を指揮した。",
+    "en": [
+      {
+        "id": "313380",
+        "text": "She directed the planning of the project."
+      }
+    ],
+    "indices": "彼女[01] は 計画 の 立案~ を 指揮[01]~ 為る(する){した}",
+    "vocabIds": [
+      "1483150",
+      "1252090",
+      "1551590",
+      "1309700"
+    ],
+    "matches": {
+      "1252090": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "けいかく"
+        }
+      ],
+      "1309700": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "しき"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1551590": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "りつあん"
+        }
+      ]
+    }
+  }
+]

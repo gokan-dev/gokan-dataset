@@ -1,0 +1,123 @@
+[
+  {
+    "id": "147503",
+    "original": "初診の方ですか。",
+    "en": [
+      {
+        "id": "267057",
+        "text": "Have you been here before?"
+      },
+      {
+        "id": "267055",
+        "text": "Is this your first visit?"
+      }
+    ],
+    "indices": "初診 の 方(かた)[01] ですか",
+    "vocabIds": [
+      "1798960",
+      "1545790",
+      "1512070",
+      "1516930"
+    ],
+    "matches": {
+      "1512070": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "ほう"
+        }
+      ],
+      "1516930": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "ほう"
+        }
+      ],
+      "1545790": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "ほう"
+        }
+      ],
+      "1798960": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しょしん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "147504",
+    "original": "初診の受付は一番窓口です。",
+    "en": [
+      {
+        "id": "267056",
+        "text": "Registration for the first visit is at Counter No.1."
+      }
+    ],
+    "indices": "初診~ の 受付[01] は 一番(いちばん) 窓口[01] です",
+    "vocabIds": [
+      "1798960",
+      "1588060",
+      "1165970",
+      "1401420"
+    ],
+    "matches": {
+      "1165970": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "いちばん"
+        }
+      ],
+      "1401420": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "まどぐち"
+        }
+      ],
+      "1588060": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "うけつけ"
+        }
+      ],
+      "1798960": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しょしん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "147505",
+    "original": "初診ですか。",
+    "en": [
+      {
+        "id": "267055",
+        "text": "Is this your first visit?"
+      }
+    ],
+    "indices": "初診 ですか",
+    "vocabIds": [
+      "1798960"
+    ],
+    "matches": {
+      "1798960": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しょしん"
+        }
+      ]
+    }
+  }
+]

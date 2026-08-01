@@ -1,0 +1,305 @@
+[
+  {
+    "id": "148915",
+    "original": "車両は欠陥が無いか最低３ヶ月に１回検査される。",
+    "en": [
+      {
+        "id": "265643",
+        "text": "The vehicles are inspected for defects at least every three months."
+      }
+    ],
+    "indices": "車両 は 欠陥 が 無い か 最低[01] ヶ月 に 回 検査 為れる{される}",
+    "vocabIds": [
+      "1323250",
+      "1253950",
+      "1529520",
+      "1294220",
+      "1194480",
+      "1161310",
+      "1257890",
+      "1579350"
+    ],
+    "matches": {
+      "1161310": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "いちかい"
+        }
+      ],
+      "1194480": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "かげつ"
+        }
+      ],
+      "1253950": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "けっかん"
+        }
+      ],
+      "1257890": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "けんさ"
+        }
+      ],
+      "1294220": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "さいてい"
+        }
+      ],
+      "1323250": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しゃりょう"
+        }
+      ],
+      "1529520": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ない"
+        }
+      ],
+      "1579350": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "さん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "151143",
+    "original": "試運転では車両はみんなうまく動いた。",
+    "en": [
+      {
+        "id": "263413",
+        "text": "All the vehicles behaved well on their test runs."
+      }
+    ],
+    "indices": "試運転~ で(#2028980) は 車両~ は 皆{みんな} 旨く{うまく} 動く{動いた}",
+    "vocabIds": [
+      "1312300",
+      "1451210",
+      "1323250"
+    ],
+    "matches": {
+      "1312300": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "しうんてん"
+        }
+      ],
+      "1323250": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "しゃりょう"
+        }
+      ],
+      "1451210": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "うごいた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "200305",
+    "original": "どの車両がすいていますか。",
+    "en": [
+      {
+        "id": "37506",
+        "text": "Which car is less crowded?"
+      }
+    ],
+    "indices": "何の(どの){どの} 車両 が 空く(すく)[01]{すいています}~ か",
+    "vocabIds": [
+      "1323250"
+    ],
+    "matches": {
+      "1323250": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "しゃりょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "4245730",
+    "original": "この電車は車両の不具合のため当駅で打ち切りとさせていただきます。",
+    "en": [
+      {
+        "id": "4641517",
+        "text": "Due to a technical malfunction, this train's service will be henceforth discontinued."
+      }
+    ],
+    "vocabIds": [
+      "1633630",
+      "1492030",
+      "1443530",
+      "1323250",
+      "1448960"
+    ],
+    "matches": {
+      "1323250": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "しゃりょう"
+        }
+      ],
+      "1443530": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "でんしゃ"
+        }
+      ],
+      "1448960": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "とうえき"
+        }
+      ],
+      "1492030": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "ふぐあい"
+        }
+      ],
+      "1633630": [
+        {
+          "start": 17,
+          "length": 4,
+          "reading": "うちきり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8631556",
+    "original": "トムは警察車両を盗んだ。",
+    "en": [
+      {
+        "id": "5571696",
+        "text": "Tom stole a police car."
+      }
+    ],
+    "vocabIds": [
+      "1448440",
+      "1252390",
+      "1323250"
+    ],
+    "matches": {
+      "1252390": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "けいさつ"
+        }
+      ],
+      "1323250": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "しゃりょう"
+        }
+      ],
+      "1448440": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "ぬすんだ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10888988",
+    "original": "新幹線の先頭車両の曲線は、職人がひとつひとつ手作業で仕上げています。",
+    "en": [
+      {
+        "id": "11740058",
+        "text": "A craftsman manually adds the finishing touches to each curve of a bullet train's lead car."
+      }
+    ],
+    "vocabIds": [
+      "1305140",
+      "1361590",
+      "2011150",
+      "1596210",
+      "1323250",
+      "1239970",
+      "1357550"
+    ],
+    "matches": {
+      "1239970": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "きょくせん"
+        }
+      ],
+      "1305140": [
+        {
+          "start": 26,
+          "length": 7,
+          "reading": "しあげています"
+        }
+      ],
+      "1323250": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "しゃりょう"
+        }
+      ],
+      "1357550": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "しょくにん"
+        }
+      ],
+      "1361590": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "しんかんせん"
+        }
+      ],
+      "1596210": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "せんとう"
+        }
+      ],
+      "2011150": [
+        {
+          "start": 22,
+          "length": 3,
+          "reading": "てさぎょう"
+        }
+      ]
+    }
+  }
+]

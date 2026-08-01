@@ -1,0 +1,88 @@
+[
+  {
+    "id": "207393",
+    "original": "その二つの会社は合併して合弁会社となった。",
+    "en": [
+      {
+        "id": "44646",
+        "text": "The two companies combined in a joint corporation."
+      }
+    ],
+    "indices": "其の[01]{その} 二つ の 会社[01] は 合併 為る(する){して} 合弁会社 となる{となった}",
+    "vocabIds": [
+      "1683670",
+      "1461160",
+      "1198550",
+      "1578970"
+    ],
+    "matches": {
+      "1198550": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "かいしゃ"
+        }
+      ],
+      "1461160": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ふたつ"
+        }
+      ],
+      "1578970": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "がっぺい"
+        }
+      ],
+      "1683670": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "ごうべんかいしゃ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "228220",
+    "original": "うちの会社はあの合弁会社と提携している。",
+    "en": [
+      {
+        "id": "65574",
+        "text": "We are affiliated with the new joint venture company."
+      }
+    ],
+    "indices": "うちの会社 は 彼の(あの){あの} 合弁会社~ と 提携~ 為る(する){している}",
+    "vocabIds": [
+      "1860270",
+      "1683670",
+      "1436380"
+    ],
+    "matches": {
+      "1436380": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "ていけい"
+        }
+      ],
+      "1683670": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "ごうべんかいしゃ"
+        }
+      ],
+      "1860270": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "うちのかいしゃ"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "id": "170920",
+    "original": "左耳に何か入ってしまいました。",
+    "en": [
+      {
+        "id": "243560",
+        "text": "I have a foreign object in my left ear."
+      }
+    ],
+    "indices": "左耳 に 何か 入る(はいる){入って} 仕舞う{しまいました}",
+    "vocabIds": [
+      "1465590",
+      "1903810",
+      "1188270"
+    ],
+    "matches": {
+      "1188270": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "なにか"
+        }
+      ],
+      "1465590": [
+        {
+          "start": 5,
+          "length": 9,
+          "reading": "はいってしまいました"
+        }
+      ],
+      "1903810": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ひだりみみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "170921",
+    "original": "左耳から耳だれが出ます。",
+    "en": [
+      {
+        "id": "243559",
+        "text": "I have a discharge from my left ear."
+      }
+    ],
+    "indices": "左耳~ から 耳垂れ{耳だれ}~ が 出る[02]{出ます}",
+    "vocabIds": [
+      "1816980",
+      "1338240",
+      "1903810"
+    ],
+    "matches": {
+      "1338240": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "でます"
+        }
+      ],
+      "1816980": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "みみだれ"
+        }
+      ],
+      "1903810": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ひだりみみ"
+        }
+      ]
+    }
+  }
+]

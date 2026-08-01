@@ -1,0 +1,94 @@
+[
+  {
+    "id": "145866",
+    "original": "食事がまずいと気がめいるよね。",
+    "en": [
+      {
+        "id": "268696",
+        "text": "When the food is bad, it's a real letdown."
+      }
+    ],
+    "indices": "食事 が 不味い[01]{まずい} と 気が滅入る{気がめいる} よ ね(#2029080)[01]",
+    "vocabIds": [
+      "2266670",
+      "1358490"
+    ],
+    "matches": {
+      "1358490": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しょくじ"
+        }
+      ],
+      "2266670": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "きがめいる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "189565",
+    "original": "雨の日は気が滅入るよ。",
+    "en": [
+      {
+        "id": "26718",
+        "text": "Rainy days make me depressed."
+      }
+    ],
+    "indices": "雨 の 日(ひ)[01] は 気が滅入る よ[01]",
+    "vocabIds": [
+      "2266670",
+      "1171900",
+      "1463770"
+    ],
+    "matches": {
+      "1171900": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "あめ"
+        }
+      ],
+      "1463770": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ひ"
+        }
+      ],
+      "2266670": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "きがめいる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3626355",
+    "original": "ちょっと気が滅入るなあ。",
+    "en": [
+      {
+        "id": "1214940",
+        "text": "I feel a bit depressed."
+      }
+    ],
+    "vocabIds": [
+      "2266670"
+    ],
+    "matches": {
+      "2266670": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "きがめいる"
+        }
+      ]
+    }
+  }
+]

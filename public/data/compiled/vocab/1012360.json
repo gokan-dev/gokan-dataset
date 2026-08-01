@@ -1,0 +1,140 @@
+{
+  "id": "1012360",
+  "writtenForm": {
+    "kanji": "鼯鼠",
+    "alternatives": [
+      "鼺鼠",
+      "野衾"
+    ],
+    "containedKanji": [
+      "鼯",
+      "鼠"
+    ]
+  },
+  "reading": {
+    "primary": "むささび",
+    "alternatives": [
+      "むざさび",
+      "ムササビ",
+      "もみ",
+      "ももんが",
+      "ももんがあ",
+      "モモンガ"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 182323,
+    "kanaRank": 104714
+  },
+  "progression": {
+    "kklcStep": 99999
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "Japanese giant flying squirrel (Petaurista leucogenys)"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "flying squirrel"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "もみ"
+      ]
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "Japanese flying squirrel (Pteromys momonga)",
+        "small Japanese flying squirrel",
+        "Japanese dwarf flying squirrel"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "ももんが"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": true
+  },
+  "isCommon": false,
+  "mergedVocabs": [
+    {
+      "id": "1012360",
+      "isBase": true,
+      "originalPrimaryReading": "むささび",
+      "originalGlosses": [
+        "Japanese giant flying squirrel (Petaurista leucogenys)"
+      ]
+    },
+    {
+      "id": "2761240",
+      "isBase": false,
+      "originalPrimaryReading": "もみ",
+      "originalGlosses": [
+        "flying squirrel"
+      ]
+    },
+    {
+      "id": "1012680",
+      "isBase": false,
+      "originalPrimaryReading": "ももんが",
+      "originalGlosses": [
+        "Japanese flying squirrel (Pteromys momonga)",
+        "small Japanese flying squirrel",
+        "Japanese dwarf flying squirrel"
+      ]
+    }
+  ],
+  "components": [
+    "1397840"
+  ]
+}

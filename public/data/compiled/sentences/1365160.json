@@ -1,0 +1,80 @@
+[
+  {
+    "id": "144800",
+    "original": "親孝行な息子さんがいるから、老後の心配しなくていいわね。",
+    "en": [
+      {
+        "id": "269764",
+        "text": "It must be nice having such a loyal son. You don't have to wonder if you'll be taken care of in your old age."
+      }
+    ],
+    "indices": "親孝行{親孝行な} 息子[01] さん が 居る(いる)[01]{いる} から 老後 の 心配 為る(する){しなくて} いい(#2820690)[01] わね",
+    "vocabIds": [
+      "1404400",
+      "1365160",
+      "1561040",
+      "1360930"
+    ],
+    "matches": {
+      "1360930": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "しんぱい"
+        }
+      ],
+      "1365160": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "おやこうこう"
+        }
+      ],
+      "1404400": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "むすこさん"
+        }
+      ],
+      "1561040": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "ろうご"
+        }
+      ]
+    }
+  },
+  {
+    "id": "144801",
+    "original": "親孝行したいときには親はなし。",
+    "en": [
+      {
+        "id": "269763",
+        "text": "By the time you wish to be a good son, your parents are long gone."
+      }
+    ],
+    "indices": "親孝行~ したい 時(とき){とき} には 親(おや)[01] は 無し{なし}",
+    "vocabIds": [
+      "1365160",
+      "1365040"
+    ],
+    "matches": {
+      "1365040": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "おや"
+        }
+      ],
+      "1365160": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "おやこうこう"
+        }
+      ]
+    }
+  }
+]

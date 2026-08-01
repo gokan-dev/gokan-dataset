@@ -1,0 +1,101 @@
+[
+  {
+    "id": "123860",
+    "original": "頭に円形の脱毛があります。",
+    "en": [
+      {
+        "id": "280134",
+        "text": "I have a round bald spot on my head."
+      }
+    ],
+    "indices": "頭(あたま) に 円形~ の 脱毛~ が[01] 有る{あります}",
+    "vocabIds": [
+      "1576590",
+      "1416630",
+      "1582310",
+      "2252700"
+    ],
+    "matches": {
+      "1416630": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "だつもう"
+        }
+      ],
+      "1576590": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "えんけい"
+        }
+      ],
+      "1582310": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "あたま"
+        }
+      ],
+      "2252700": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "あたま"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12146315",
+    "original": "レーザー脱毛を受けたの。",
+    "en": [
+      {
+        "id": "11987265",
+        "text": "I had laser hair removal."
+      }
+    ],
+    "vocabIds": [
+      "1329590",
+      "1416630"
+    ],
+    "matches": {
+      "1329590": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "うけた"
+        }
+      ],
+      "1416630": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "だつもう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12146316",
+    "original": "レーザー脱毛をしたんだ。",
+    "en": [
+      {
+        "id": "11987265",
+        "text": "I had laser hair removal."
+      }
+    ],
+    "vocabIds": [
+      "1416630"
+    ],
+    "matches": {
+      "1416630": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "だつもう"
+        }
+      ]
+    }
+  }
+]

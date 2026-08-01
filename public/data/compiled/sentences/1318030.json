@@ -1,0 +1,130 @@
+[
+  {
+    "id": "84688",
+    "original": "父はテーブルの上座の自席に着いた。",
+    "en": [
+      {
+        "id": "319025",
+        "text": "Father took his place at the head of the table."
+      },
+      {
+        "id": "10330565",
+        "text": "My father took his place at the head of the table."
+      }
+    ],
+    "indices": "父 は テーブル の 上座 の 自席 に 着く(つく){着いた}",
+    "vocabIds": [
+      "1422970",
+      "1607260",
+      "1580390",
+      "1318030",
+      "1497610"
+    ],
+    "matches": {
+      "1318030": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "じせき"
+        }
+      ],
+      "1422970": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "ついた"
+        }
+      ],
+      "1497610": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ちち"
+        }
+      ],
+      "1580390": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "かみざ"
+        }
+      ],
+      "1607260": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "ついた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "184624",
+    "original": "各自席につきなさい。",
+    "en": [
+      {
+        "id": "21752",
+        "text": "Go to your respective seats."
+      }
+    ],
+    "indices": "各(かく) 自席~ に 着く(つく)[02]{つき}~ 為さい{なさい}",
+    "vocabIds": [
+      "1318030",
+      "1204860",
+      "2826190"
+    ],
+    "matches": {
+      "1204860": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かく"
+        }
+      ],
+      "1318030": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "じせき"
+        }
+      ],
+      "2826190": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9415445",
+    "original": "トムは自席でサンドイッチを食べました。",
+    "en": [
+      {
+        "id": "6282979",
+        "text": "Tom ate a sandwich at his desk."
+      }
+    ],
+    "vocabIds": [
+      "1358280",
+      "1318030"
+    ],
+    "matches": {
+      "1318030": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "じせき"
+        }
+      ],
+      "1358280": [
+        {
+          "start": 13,
+          "length": 5,
+          "reading": "たべました"
+        }
+      ]
+    }
+  }
+]

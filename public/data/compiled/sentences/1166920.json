@@ -1,0 +1,111 @@
+[
+  {
+    "id": "154955",
+    "original": "私は泥棒を一網打尽に逮捕した。",
+    "en": [
+      {
+        "id": "259584",
+        "text": "I arrested many thieves at the same time."
+      }
+    ],
+    "indices": "私(わたし)[01] は 泥棒 を 一網打尽~ に 逮捕 為る(する){した}",
+    "vocabIds": [
+      "1166920",
+      "1599340",
+      "1411470",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1166920": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "いちもうだじん"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1411470": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "たいほ"
+        }
+      ],
+      "1599340": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "どろぼう"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "418449",
+    "original": "岡っ引きは泥棒を一網打尽に逮捕した。",
+    "en": [
+      {
+        "id": "418450",
+        "text": "The thief-taker arrested many thieves at the same time."
+      }
+    ],
+    "vocabIds": [
+      "1862150",
+      "1166920",
+      "1599340",
+      "1411470"
+    ],
+    "matches": {
+      "1166920": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "いちもうだじん"
+        }
+      ],
+      "1411470": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "たいほ"
+        }
+      ],
+      "1599340": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "どろぼう"
+        }
+      ],
+      "1862150": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "おかっぴき"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "id": "115787",
+    "original": "彼の話はでっち上げだ。",
+    "en": [
+      {
+        "id": "470442",
+        "text": "His story was made up."
+      }
+    ],
+    "indices": "彼(かれ) の 話(はなし)[01] は でっち上げ~ だ",
+    "vocabIds": [
+      "1950070",
+      "1000420",
+      "1600900"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれの"
+        }
+      ],
+      "1600900": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "はなし"
+        }
+      ],
+      "1950070": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "でっちあげ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "393819",
+    "original": "罰金の話はでっち上げだそうです。",
+    "en": [
+      {
+        "id": "393820",
+        "text": "It seems that the stuff about the fine was made up."
+      }
+    ],
+    "indices": "罰金 の 話(はなし) は でっち上げ だ そうです",
+    "vocabIds": [
+      "1950070",
+      "1478090",
+      "1600900"
+    ],
+    "matches": {
+      "1478090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ばっきん"
+        }
+      ],
+      "1600900": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "はなし"
+        }
+      ],
+      "1950070": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "でっちあげ"
+        }
+      ]
+    }
+  }
+]

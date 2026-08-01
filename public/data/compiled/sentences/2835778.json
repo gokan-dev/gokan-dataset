@@ -1,0 +1,87 @@
+[
+  {
+    "id": "192155",
+    "original": "ロングスカートは今はやりだ。",
+    "en": [
+      {
+        "id": "29318",
+        "text": "Long skirts are in fashion."
+      }
+    ],
+    "indices": "ロングスカート は 今流行り{今はやり}~ だ",
+    "vocabIds": [
+      "2835778"
+    ],
+    "matches": {
+      "2835778": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "こんはやり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "205198",
+    "original": "それは今はやりだ。",
+    "en": [
+      {
+        "id": "42441",
+        "text": "It is the in thing to do."
+      }
+    ],
+    "indices": "其れ[01]{それ} は 今流行り{今はやり} だ",
+    "vocabIds": [
+      "2835778"
+    ],
+    "matches": {
+      "2835778": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "こんはやり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "226430",
+    "original": "かくて、国際化は日本人にとって今はやりのスローガンになっている。",
+    "en": [
+      {
+        "id": "63775",
+        "text": "Thus, internationalization has become a fashionable slogan for the Japanese."
+      }
+    ],
+    "indices": "斯くて{かくて}~ 国際化~ は 日本人 に取って{にとって} 今流行り{今はやり} の スローガン になる[01]{になっている}",
+    "vocabIds": [
+      "2835778",
+      "1286420",
+      "1464700"
+    ],
+    "matches": {
+      "1286420": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "こくさいか"
+        }
+      ],
+      "1464700": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "にっぽんじん"
+        }
+      ],
+      "2835778": [
+        {
+          "start": 15,
+          "length": 4,
+          "reading": "こんはやり"
+        }
+      ]
+    }
+  }
+]

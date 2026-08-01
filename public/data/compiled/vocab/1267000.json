@@ -1,0 +1,100 @@
+{
+  "id": "1267000",
+  "writtenForm": {
+    "kanji": "戸口",
+    "alternatives": [
+      "戸々",
+      "戸戸"
+    ],
+    "containedKanji": [
+      "戸",
+      "口"
+    ]
+  },
+  "reading": {
+    "primary": "とぐち",
+    "alternatives": [
+      "ここう"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 11116,
+    "kanaRank": 105873
+  },
+  "progression": {
+    "kklcStep": 248
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "door",
+        "doorway"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "houses and inhabitants",
+        "population"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "ここう"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1267000",
+      "isBase": true,
+      "originalPrimaryReading": "とぐち",
+      "originalGlosses": [
+        "door",
+        "doorway"
+      ]
+    },
+    {
+      "id": "1639950",
+      "isBase": false,
+      "originalPrimaryReading": "ここう",
+      "originalGlosses": [
+        "houses and inhabitants",
+        "population"
+      ]
+    }
+  ],
+  "components": [
+    "1266970",
+    "1275640"
+  ]
+}

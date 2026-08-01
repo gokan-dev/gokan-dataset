@@ -1,0 +1,102 @@
+{
+  "id": "1538240",
+  "writtenForm": {
+    "kanji": "薬師",
+    "alternatives": [
+      "医",
+      "医師"
+    ],
+    "containedKanji": [
+      "薬",
+      "師"
+    ]
+  },
+  "reading": {
+    "primary": "やくし",
+    "alternatives": [
+      "くすし",
+      "くすりし"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 17119
+  },
+  "progression": {
+    "kklcStep": 748
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "Bhaisajyaguru",
+        "Pindola",
+        "The Healing Buddha"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "doctor"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "くすし"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": false,
+  "mergedVocabs": [
+    {
+      "id": "1538240",
+      "isBase": true,
+      "originalPrimaryReading": "やくし",
+      "originalGlosses": [
+        "Bhaisajyaguru",
+        "Pindola",
+        "The Healing Buddha"
+      ]
+    },
+    {
+      "id": "2229590",
+      "isBase": false,
+      "originalPrimaryReading": "くすし",
+      "originalGlosses": [
+        "doctor"
+      ]
+    }
+  ],
+  "components": [
+    "1538160",
+    "1956330"
+  ]
+}

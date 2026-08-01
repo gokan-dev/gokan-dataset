@@ -1,0 +1,122 @@
+[
+  {
+    "id": "157800",
+    "original": "私は観光ビザを持っています。",
+    "en": [
+      {
+        "id": "256731",
+        "text": "I have a tourist visa."
+      }
+    ],
+    "indices": "私(わたし)[01] は 観光 ビザ を 持つ{持っています}",
+    "vocabIds": [
+      "1315720",
+      "1214860",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1214860": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "かんこうびざ"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1315720": [
+        {
+          "start": 7,
+          "length": 6,
+          "reading": "もっています"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "183804",
+    "original": "観光ビザを取りたいのですが。",
+    "en": [
+      {
+        "id": "20927",
+        "text": "I want to get a sightseeing visa."
+      },
+      {
+        "id": "8338356",
+        "text": "I want to get a tourist visa."
+      }
+    ],
+    "indices": "観光 ビザ を 取る{取り} たい[01] のです が[03]",
+    "vocabIds": [
+      "1214860",
+      "1326980"
+    ],
+    "matches": {
+      "1214860": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "かんこうびざ"
+        }
+      ],
+      "1326980": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "とりたい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10081429",
+    "original": "観光ビザなら持ってるよ。",
+    "en": [
+      {
+        "id": "256731",
+        "text": "I have a tourist visa."
+      }
+    ],
+    "vocabIds": [
+      "1214860",
+      "1315720"
+    ],
+    "matches": {
+      "1214860": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "かんこうびざ"
+        }
+      ],
+      "1315720": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "もってる"
+        }
+      ]
+    }
+  }
+]

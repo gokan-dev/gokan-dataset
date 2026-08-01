@@ -1,0 +1,103 @@
+[
+  {
+    "id": "232091",
+    "original": "あなたは研究課題を二つ落とした、すぐにやり直さなければならない。",
+    "en": [
+      {
+        "id": "69459",
+        "text": "You missed two assignments; you will have to make them up at once."
+      }
+    ],
+    "indices": "貴方(あなた)[01]{あなた} は 研究課題~ を 二つ 落とす[03]{落とした} 直ぐに{すぐに} やり直す{やり直さ} ねばならない{なければならない}",
+    "vocabIds": [
+      "1605620",
+      "1934290",
+      "1589260",
+      "1461160"
+    ],
+    "matches": {
+      "1461160": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "ふたつ"
+        }
+      ],
+      "1589260": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "おとした"
+        }
+      ],
+      "1605620": [
+        {
+          "start": 19,
+          "length": 12,
+          "reading": "やりなおさなければならない"
+        }
+      ],
+      "1934290": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "けんきゅうかだい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11572953",
+    "original": "私んちで、一緒に研究課題するのはどう？",
+    "en": [
+      {
+        "id": "10683476",
+        "text": "How about we go to my place to work on the project together?"
+      }
+    ],
+    "vocabIds": [
+      "1934290",
+      "1163420",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1163420": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "いっしょに"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1934290": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "けんきゅうかだい"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  }
+]

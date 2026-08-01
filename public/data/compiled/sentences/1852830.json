@@ -1,0 +1,79 @@
+[
+  {
+    "id": "149799",
+    "original": "自分の衰えを感じた事がありますか。",
+    "en": [
+      {
+        "id": "264759",
+        "text": "Do you ever feel like you're running down?"
+      }
+    ],
+    "indices": "自分 の 衰え~ を 感じる{感じた} 事がある{事があります} か",
+    "vocabIds": [
+      "1212260",
+      "1318610",
+      "1852830",
+      "1313580"
+    ],
+    "matches": {
+      "1212260": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "かんじた"
+        }
+      ],
+      "1313580": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "こと"
+        }
+      ],
+      "1318610": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じぶん"
+        }
+      ],
+      "1852830": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "おとろえ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11030780",
+    "original": "ただの加齢による衰えでしょうね。",
+    "en": [
+      {
+        "id": "11099831",
+        "text": "It must just be the normal weakening that comes with old age."
+      }
+    ],
+    "vocabIds": [
+      "1190690",
+      "1852830"
+    ],
+    "matches": {
+      "1190690": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かよわい"
+        }
+      ],
+      "1852830": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "おとろえ"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "id": "142964",
+    "original": "正確に言うと私は大学講師です。",
+    "en": [
+      {
+        "id": "271604",
+        "text": "Specifically, I'm a university lecturer."
+      },
+      {
+        "id": "496113",
+        "text": "I'm actually a university teacher."
+      }
+    ],
+    "indices": "正確に言うと~ 私(わたし) は 大学 講師[02]~ です",
+    "vocabIds": [
+      "2854055",
+      "2643340",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2643340": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "だいがくこうし"
+        }
+      ],
+      "2854055": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "せいかくにいうと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "142968",
+    "original": "正確にいうと今は３時です。",
+    "en": [
+      {
+        "id": "271600",
+        "text": "The exact time is three now."
+      }
+    ],
+    "indices": "正確に言うと{正確にいうと} 今(いま) は 時(じ)[01] です",
+    "vocabIds": [
+      "2854055",
+      "1300520",
+      "1657930",
+      "1288850"
+    ],
+    "matches": {
+      "1288850": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "いま"
+        }
+      ],
+      "1300520": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "さんじ"
+        }
+      ],
+      "1657930": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "さんじ"
+        }
+      ],
+      "2854055": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "せいかくにいうと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8553895",
+    "original": "私たちは別れました。正確に言うと、彼女が別れを切り出した。",
+    "en": [
+      {
+        "id": "6033075",
+        "text": "We broke up. To be precise, she broke up with me."
+      }
+    ],
+    "vocabIds": [
+      "2854055",
+      "1580950",
+      "1606590",
+      "1311300",
+      "1509490",
+      "1483150"
+    ],
+    "matches": {
+      "1311300": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1509490": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "わかれ"
+        }
+      ],
+      "1580950": [
+        {
+          "start": 23,
+          "length": 5,
+          "reading": "きりだした"
+        }
+      ],
+      "1606590": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "わかれました"
+        }
+      ],
+      "2854055": [
+        {
+          "start": 10,
+          "length": 6,
+          "reading": "せいかくにいうと"
+        }
+      ]
+    }
+  }
+]

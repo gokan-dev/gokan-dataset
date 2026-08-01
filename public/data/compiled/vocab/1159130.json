@@ -1,0 +1,143 @@
+{
+  "id": "1159130",
+  "writtenForm": {
+    "kanji": "遺言",
+    "alternatives": [],
+    "containedKanji": [
+      "遺",
+      "言"
+    ]
+  },
+  "reading": {
+    "primary": "ゆいごん",
+    "alternatives": [
+      "いごん",
+      "いげん"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 11909,
+    "kanaRank": 121661
+  },
+  "progression": {
+    "kklcStep": 1179
+  },
+  "senses": [
+    {
+      "pos": [
+        "n",
+        "vs",
+        "vt",
+        "vi"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "will",
+        "testament",
+        "one's dying wish",
+        "one's last words"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "will"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "いごん"
+      ]
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": true,
+        "rawTags": [
+          "rare"
+        ]
+      },
+      "glosses": [
+        "will",
+        "testament",
+        "one's dying wish",
+        "one's last words"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "いげん"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1159130",
+      "isBase": true,
+      "originalPrimaryReading": "ゆいごん",
+      "originalGlosses": [
+        "will",
+        "testament",
+        "one's dying wish"
+      ]
+    },
+    {
+      "id": "2862829",
+      "isBase": false,
+      "originalPrimaryReading": "いごん",
+      "originalGlosses": [
+        "will"
+      ]
+    },
+    {
+      "id": "2862830",
+      "isBase": false,
+      "originalPrimaryReading": "いげん",
+      "originalGlosses": [
+        "will",
+        "testament",
+        "one's dying wish"
+      ]
+    }
+  ],
+  "components": [
+    "1956230"
+  ],
+  "parents": [
+    "1159150",
+    "1159140",
+    "2203470"
+  ]
+}

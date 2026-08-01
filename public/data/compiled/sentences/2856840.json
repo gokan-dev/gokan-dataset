@@ -1,0 +1,80 @@
+[
+  {
+    "id": "178224",
+    "original": "君の守備位置はどこですか。",
+    "en": [
+      {
+        "id": "17075",
+        "text": "What position do you hold?"
+      }
+    ],
+    "indices": "君(きみ)[01]{君の} 守備位置 は 何処{どこ} ですか",
+    "vocabIds": [
+      "2856840",
+      "1247250"
+    ],
+    "matches": {
+      "1247250": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "きみ"
+        }
+      ],
+      "2856840": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "しゅびいち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "211424",
+    "original": "その強打者に備えてセンターは守備位置を変えた。",
+    "en": [
+      {
+        "id": "48700",
+        "text": "The center fielder shifted his position for the slugger."
+      }
+    ],
+    "indices": "其の[01]{その} 強打者 に 備える[02]{備えて} センター は 守備位置~ を 変える{変えた}",
+    "vocabIds": [
+      "2763540",
+      "2856840",
+      "1236440",
+      "1510650"
+    ],
+    "matches": {
+      "1236440": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "きょうだしゃ"
+        }
+      ],
+      "1510650": [
+        {
+          "start": 19,
+          "length": 3,
+          "reading": "かえた"
+        }
+      ],
+      "2763540": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "にそなえて"
+        }
+      ],
+      "2856840": [
+        {
+          "start": 14,
+          "length": 4,
+          "reading": "しゅびいち"
+        }
+      ]
+    }
+  }
+]

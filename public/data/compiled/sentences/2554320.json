@@ -1,0 +1,84 @@
+[
+  {
+    "id": "78755",
+    "original": "浴室付きの二人部屋をお願いします。",
+    "en": [
+      {
+        "id": "1437082",
+        "text": "We'd like a double room with bath."
+      },
+      {
+        "id": "1437083",
+        "text": "We'd like a room for two with a bath."
+      }
+    ],
+    "indices": "浴室~ 付き[01] の 二人 部屋[01] を お願い[02] 為る(する){します}",
+    "vocabIds": [
+      "1001720",
+      "2554320",
+      "1547460",
+      "1583630"
+    ],
+    "matches": {
+      "1001720": [
+        {
+          "start": 10,
+          "length": 6,
+          "reading": "おねがいします"
+        }
+      ],
+      "1547460": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "よくしつ"
+        }
+      ],
+      "1583630": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "つき"
+        }
+      ],
+      "2554320": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "ににんへや"
+        }
+      ]
+    }
+  },
+  {
+    "id": "123055",
+    "original": "二人部屋をお願いします。",
+    "en": [
+      {
+        "id": "280945",
+        "text": "I'd like a twin room, please."
+      }
+    ],
+    "indices": "二人 部屋[01] を お願いします",
+    "vocabIds": [
+      "1001720",
+      "2554320"
+    ],
+    "matches": {
+      "1001720": [
+        {
+          "start": 5,
+          "length": 6,
+          "reading": "おねがいします"
+        }
+      ],
+      "2554320": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "ににんへや"
+        }
+      ]
+    }
+  }
+]

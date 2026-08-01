@@ -1,0 +1,79 @@
+[
+  {
+    "id": "138156",
+    "original": "太陽が雪を解かした。",
+    "en": [
+      {
+        "id": "275079",
+        "text": "The sun melted the snow."
+      }
+    ],
+    "indices": "太陽 が 雪 を 溶かす[01]{解かした}",
+    "vocabIds": [
+      "1546040",
+      "1598660",
+      "1408370",
+      "1386500"
+    ],
+    "matches": {
+      "1386500": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "ゆき"
+        }
+      ],
+      "1408370": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "たいよう"
+        }
+      ],
+      "1546040": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "とかした"
+        }
+      ],
+      "1598660": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "とかした"
+        }
+      ]
+    }
+  },
+  {
+    "id": "685948",
+    "original": "髪を梳かしましょうか？",
+    "en": [
+      {
+        "id": "448176",
+        "text": "Do you want me to comb your hair?"
+      }
+    ],
+    "vocabIds": [
+      "1598660",
+      "1477950"
+    ],
+    "matches": {
+      "1477950": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かみ"
+        }
+      ],
+      "1598660": [
+        {
+          "start": 2,
+          "length": 7,
+          "reading": "とかしましょう"
+        }
+      ]
+    }
+  }
+]

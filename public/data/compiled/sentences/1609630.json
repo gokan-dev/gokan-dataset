@@ -1,0 +1,113 @@
+[
+  {
+    "id": "144723",
+    "original": "辛口がほしいのですが。",
+    "en": [
+      {
+        "id": "269841",
+        "text": "I want something dry."
+      }
+    ],
+    "indices": "辛口[01]~ が 欲しい[01]{ほしい} のです が[03]",
+    "vocabIds": [
+      "1609630"
+    ],
+    "matches": {
+      "1609630": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "からくち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11725528",
+    "original": "僕は辛口カレーが好きなんだ。",
+    "en": [
+      {
+        "id": "5858780",
+        "text": "I like hot curry."
+      }
+    ],
+    "vocabIds": [
+      "1609630",
+      "1277450",
+      "1521400",
+      "2228300"
+    ],
+    "matches": {
+      "1277450": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "すき"
+        }
+      ],
+      "1521400": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ],
+      "1609630": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "からくち"
+        }
+      ],
+      "2228300": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11013784",
+    "original": "点数高いけど辛口なアドバイスだった。",
+    "en": [
+      {
+        "id": "12600497",
+        "text": "I got a high score, but the advice was harsh."
+      },
+      {
+        "id": "12600499",
+        "text": "The score was high but the advice was harsh."
+      }
+    ],
+    "vocabIds": [
+      "1283190",
+      "1441660",
+      "1609630"
+    ],
+    "matches": {
+      "1283190": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "たかいけど"
+        }
+      ],
+      "1441660": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "てんすう"
+        }
+      ],
+      "1609630": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "からくち"
+        }
+      ]
+    }
+  }
+]

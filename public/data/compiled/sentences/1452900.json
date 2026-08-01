@@ -1,0 +1,155 @@
+[
+  {
+    "id": "119225",
+    "original": "彼とは夕食会で同席した。",
+    "en": [
+      {
+        "id": "284438",
+        "text": "I once sat at the same table with him at a dinner party."
+      }
+    ],
+    "indices": "彼(かれ) とは 夕食 会(かい) で(#2028980) 同席[01]~ 為る(する){した}",
+    "vocabIds": [
+      "1542730",
+      "1739970",
+      "1452900",
+      "1000420",
+      "1483070",
+      "1198160"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1198160": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "かい"
+        }
+      ],
+      "1452900": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "どうせき"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1542730": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ゆうしょく"
+        }
+      ],
+      "1739970": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ゆうしょく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "123643",
+    "original": "同席してもいいかな。",
+    "en": [
+      {
+        "id": "280353",
+        "text": "You mind if I join you?"
+      },
+      {
+        "id": "3325595",
+        "text": "Would you mind if I join you?"
+      },
+      {
+        "id": "3344221",
+        "text": "Mind if I join you?"
+      },
+      {
+        "id": "2297475",
+        "text": "Do you mind if I join you?"
+      }
+    ],
+    "indices": "同席[01] 為る(する){して} も いい(#2820690)[01] かな",
+    "vocabIds": [
+      "1452900"
+    ],
+    "matches": {
+      "1452900": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "どうせき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "153424",
+    "original": "私は彼女と同席できてうれしい。",
+    "en": [
+      {
+        "id": "261119",
+        "text": "I am glad to have her company."
+      }
+    ],
+    "indices": "私(わたし)[01] は 彼女 と 同席[01] 出来る{できて} 嬉しい{うれしい}",
+    "vocabIds": [
+      "1483150",
+      "1452900",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1452900": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "どうせき"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  }
+]

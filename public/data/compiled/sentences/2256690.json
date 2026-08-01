@@ -1,0 +1,174 @@
+[
+  {
+    "id": "75125",
+    "original": "ありがとうございました。またのご来店、お待ちしております！",
+    "en": [
+      {
+        "id": "328594",
+        "text": "Thank you for your business. Please come again!"
+      }
+    ],
+    "indices": "有難うございます{ありがとうございました} 又{また} 之(の)[01]{の} ご来店~ 待つ[01]{お待ち} 為る(する)[12]{して} 居る(おる)[02]{おります}",
+    "vocabIds": [
+      "2256690"
+    ],
+    "matches": {
+      "2256690": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "ごらいてん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "78636",
+    "original": "来週またご来店下さい。",
+    "en": [
+      {
+        "id": "325080",
+        "text": "Check back next week."
+      },
+      {
+        "id": "12590950",
+        "text": "Please come again next week."
+      },
+      {
+        "id": "516510",
+        "text": "Please come back next week."
+      }
+    ],
+    "indices": "来週 又{また} 来店{ご来店}~ 下さい",
+    "vocabIds": [
+      "2256690",
+      "1184280",
+      "1548010"
+    ],
+    "matches": {
+      "1184280": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "ください"
+        }
+      ],
+      "1548010": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "らいしゅう"
+        }
+      ],
+      "2256690": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "ごらいてん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9846977",
+    "original": "「いらっしゃいませ」「１０時に予約していた本田です」「ご来店ありがとうございます。本日は、タクシーでのご案内となります。タクシー到着までもう少しお時間をいただくようになりますので、もしよろしければこちらに掛けてお待ちください」「じゃぁ、ちょっとタバコ吸ってくる」",
+    "en": [
+      {
+        "id": "12595117",
+        "text": "\"Welcome.\" \"I'm Honda. I have a reservation for 10 o'clock.\" \"Thank you for coming. Today, we’ll be providing a taxi service. It will take a little more for the taxi to arrive, so please wait here, if you don’t mind.\" \"Alright then, I'll just go have a smoke while I wait.\""
+      }
+    ],
+    "vocabIds": [
+      "1228260",
+      "2005870",
+      "2845369",
+      "2256690",
+      "2833392",
+      "2842263",
+      "1207610",
+      "1543750",
+      "2425290",
+      "1523110",
+      "1449870"
+    ],
+    "matches": {
+      "1207610": [
+        {
+          "start": 102,
+          "length": 3,
+          "reading": "かけて"
+        }
+      ],
+      "1228260": [
+        {
+          "start": 125,
+          "length": 5,
+          "reading": "すってくる"
+        }
+      ],
+      "1449870": [
+        {
+          "start": 64,
+          "length": 2,
+          "reading": "とうちゃく"
+        }
+      ],
+      "1523110": [
+        {
+          "start": 41,
+          "length": 2,
+          "reading": "ほんじつ"
+        }
+      ],
+      "1543750": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "よやく"
+        }
+      ],
+      "2005870": [
+        {
+          "start": 68,
+          "length": 4,
+          "reading": "もうすこし"
+        }
+      ],
+      "2256690": [
+        {
+          "start": 27,
+          "length": 3,
+          "reading": "ごらいてん"
+        }
+      ],
+      "2425290": [
+        {
+          "start": 21,
+          "length": 2,
+          "reading": "ほんだ"
+        }
+      ],
+      "2833392": [
+        {
+          "start": 51,
+          "length": 3,
+          "reading": "ごあんない"
+        }
+      ],
+      "2842263": [
+        {
+          "start": 72,
+          "length": 3,
+          "reading": "おじかん"
+        }
+      ],
+      "2845369": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "いちぜろじ"
+        }
+      ]
+    }
+  }
+]

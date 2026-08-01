@@ -1,0 +1,86 @@
+[
+  {
+    "id": "150914",
+    "original": "歯列矯正についてご相談したいのですが。",
+    "en": [
+      {
+        "id": "263642",
+        "text": "I'd like to have a consultation about getting braces."
+      }
+    ],
+    "indices": "歯列矯正~ に就いて{について} 御(ご){ご} 相談 したい のです が[03]",
+    "vocabIds": [
+      "1313530",
+      "1401210"
+    ],
+    "matches": {
+      "1313530": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "はれつきょうせい"
+        }
+      ],
+      "1401210": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "そうだん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "150916",
+    "original": "歯列矯正をお願いしたいのですが。",
+    "en": [
+      {
+        "id": "263641",
+        "text": "I think I need braces."
+      }
+    ],
+    "indices": "歯列矯正 を お願い[01] したい のです が[03]",
+    "vocabIds": [
+      "1313530",
+      "2036870"
+    ],
+    "matches": {
+      "1313530": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "はれつきょうせい"
+        }
+      ],
+      "2036870": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "おねがい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11910523",
+    "original": "トムは歯列矯正をしています。",
+    "en": [
+      {
+        "id": "3090030",
+        "text": "Tom has braces."
+      }
+    ],
+    "vocabIds": [
+      "1313530"
+    ],
+    "matches": {
+      "1313530": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "はれつきょうせい"
+        }
+      ]
+    }
+  }
+]

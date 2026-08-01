@@ -1,0 +1,618 @@
+[
+  {
+    "id": "117340",
+    "original": "彼の国籍はどこですか。",
+    "en": [
+      {
+        "id": "286323",
+        "text": "What is his nationality?"
+      }
+    ],
+    "indices": "彼(かれ)[01]{彼の} 国籍 は 何処{どこ} ですか",
+    "vocabIds": [
+      "1000420",
+      "1286780"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれの"
+        }
+      ],
+      "1286780": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "こくせき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "118859",
+    "original": "彼には国籍が不利に働いた。",
+    "en": [
+      {
+        "id": "284804",
+        "text": "His nationality counted against him."
+      }
+    ],
+    "indices": "彼(かれ) には 国籍 が 不利{不利に} 働く{働いた}",
+    "vocabIds": [
+      "1451150",
+      "1286780",
+      "1495220",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1286780": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "こくせき"
+        }
+      ],
+      "1451150": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "はたらいた"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1495220": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ふり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "136180",
+    "original": "私はフランス国籍を持っているがベトナム出身です。",
+    "en": [
+      {
+        "id": "2142",
+        "text": "I have French nationality but Vietnamese origins."
+      }
+    ],
+    "vocabIds": [
+      "1315720",
+      "1286780",
+      "1339260",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1286780": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "こくせき"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1315720": [
+        {
+          "start": 9,
+          "length": 6,
+          "reading": "もっているが"
+        }
+      ],
+      "1339260": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "しゅっしん"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "173039",
+    "original": "国籍や性別または職業などで人を差別してはいけない。",
+    "en": [
+      {
+        "id": "241433",
+        "text": "Don't discriminate against people based on nationality, gender, or occupation."
+      }
+    ],
+    "indices": "国籍 や 性別~ 又は{または} 職業 等(など){など} で(#2028980) 人(ひと) を 差別 為る(する){して} は 行けない[02]{いけない}",
+    "vocabIds": [
+      "1286780",
+      "1375520",
+      "1357510",
+      "1291410",
+      "1580640"
+    ],
+    "matches": {
+      "1286780": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こくせき"
+        }
+      ],
+      "1291410": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "さべつ"
+        }
+      ],
+      "1357510": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "しょくぎょう"
+        }
+      ],
+      "1375520": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "せいべつ"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "173041",
+    "original": "国籍に関係なく誰でも受け入れる。",
+    "en": [
+      {
+        "id": "241432",
+        "text": "We accept anybody, irrespective of nationality."
+      }
+    ],
+    "indices": "国籍 に 関係ない{関係なく} 誰でも 受け入れる",
+    "vocabIds": [
+      "1329670",
+      "1416850",
+      "1286780",
+      "1215810"
+    ],
+    "matches": {
+      "1215810": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かんけい"
+        }
+      ],
+      "1286780": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こくせき"
+        }
+      ],
+      "1329670": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "うけいれる"
+        }
+      ],
+      "1416850": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "だれでも"
+        }
+      ]
+    }
+  },
+  {
+    "id": "173042",
+    "original": "国籍に関係なくすべての人に資格がある。",
+    "en": [
+      {
+        "id": "241431",
+        "text": "Everyone is eligible regardless of nationality."
+      }
+    ],
+    "indices": "国籍 に 関係ない{関係なく} 全て{すべての} 人(ひと) に 資格 が[01] 有る{ある}",
+    "vocabIds": [
+      "1286780",
+      "1215810",
+      "1312690",
+      "1580640"
+    ],
+    "matches": {
+      "1215810": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かんけい"
+        }
+      ],
+      "1286780": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こくせき"
+        }
+      ],
+      "1312690": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "しかく"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "186246",
+    "original": "我々の真の国籍は人類である。",
+    "en": [
+      {
+        "id": "23381",
+        "text": "Our true nationality is mankind."
+      }
+    ],
+    "indices": "我々 の 真の~ 国籍~ は 人類 である",
+    "vocabIds": [
+      "1607050",
+      "1853530",
+      "1286780",
+      "1369530"
+    ],
+    "matches": {
+      "1286780": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "こくせき"
+        }
+      ],
+      "1369530": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "じんるい"
+        }
+      ],
+      "1607050": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "われわれ"
+        }
+      ],
+      "1853530": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "しんの"
+        }
+      ]
+    }
+  },
+  {
+    "id": "210037",
+    "original": "その試合には国籍のいかんを問わず誰でも参加出来る。",
+    "en": [
+      {
+        "id": "47300",
+        "text": "Anyone can participate in the game, no matter what nationality they are."
+      }
+    ],
+    "indices": "其の[01]{その} 試合 には 国籍 の 如何(いかん)[01]{いかん} を 問わず 誰でも 参加 出来る[01]",
+    "vocabIds": [
+      "2863472",
+      "1416850",
+      "1340450",
+      "1312420",
+      "1286780",
+      "1302090"
+    ],
+    "matches": {
+      "1286780": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "こくせき"
+        }
+      ],
+      "1302090": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "さんか"
+        }
+      ],
+      "1312420": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "しあい"
+        }
+      ],
+      "1340450": [
+        {
+          "start": 21,
+          "length": 3,
+          "reading": "できる"
+        }
+      ],
+      "1416850": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "だれでも"
+        }
+      ],
+      "2863472": [
+        {
+          "start": 9,
+          "length": 7,
+          "reading": "いかんをとわず"
+        }
+      ]
+    }
+  },
+  {
+    "id": "231143",
+    "original": "あの会社は、人種や宗教、国籍に関係なく人を雇う。",
+    "en": [
+      {
+        "id": "68510",
+        "text": "That company hires people without regard to race, religion, or nationality."
+      }
+    ],
+    "indices": "彼の(あの){あの} 会社[01] は 人種 や 宗教 国籍 に 関係ない{関係なく} 人(ひと) を 雇う[01]",
+    "vocabIds": [
+      "1198550",
+      "1368020",
+      "1331400",
+      "1286780",
+      "1215810",
+      "1605570",
+      "1580640"
+    ],
+    "matches": {
+      "1198550": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "かいしゃ"
+        }
+      ],
+      "1215810": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "かんけい"
+        }
+      ],
+      "1286780": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "こくせき"
+        }
+      ],
+      "1331400": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "しゅうきょう"
+        }
+      ],
+      "1368020": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "じんしゅ"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 19,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ],
+      "1605570": [
+        {
+          "start": 21,
+          "length": 2,
+          "reading": "やとう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2461484",
+    "original": "私はフランス国籍ですが、出身はベトナムです。",
+    "en": [
+      {
+        "id": "2592709",
+        "text": "I have the French nationality, but I'm from Vietnam."
+      }
+    ],
+    "vocabIds": [
+      "1286780",
+      "1339260",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1286780": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "こくせき"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1339260": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "しゅっしん"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2734433",
+    "original": "トムはアメリカ国籍を取得した。",
+    "en": [
+      {
+        "id": "5147430",
+        "text": "Tom gained American citizenship."
+      }
+    ],
+    "vocabIds": [
+      "1286780",
+      "1326920",
+      "1327070"
+    ],
+    "matches": {
+      "1286780": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "こくせき"
+        }
+      ],
+      "1326920": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "しゅとく"
+        }
+      ],
+      "1327070": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "しゅとく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11814363",
+    "original": "アメリカ国籍の方ですか？",
+    "en": [
+      {
+        "id": "9962272",
+        "text": "Are you US citizens?"
+      }
+    ],
+    "vocabIds": [
+      "1286780",
+      "1545790",
+      "1512070",
+      "1516930"
+    ],
+    "matches": {
+      "1286780": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "こくせき"
+        }
+      ],
+      "1512070": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "ほう"
+        }
+      ],
+      "1516930": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "ほう"
+        }
+      ],
+      "1545790": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "ほう"
+        }
+      ]
+    }
+  }
+]

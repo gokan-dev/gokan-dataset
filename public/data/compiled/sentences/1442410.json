@@ -1,0 +1,142 @@
+[
+  {
+    "id": "5334",
+    "original": "すぐに伝票をお持ちします。",
+    "en": [
+      {
+        "id": "2420",
+        "text": "I'll bring you the bill immediately."
+      }
+    ],
+    "vocabIds": [
+      "1442410",
+      "1315720"
+    ],
+    "matches": {
+      "1315720": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "もち"
+        }
+      ],
+      "1442410": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "でんぴょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "76732",
+    "original": "この商品管理伝票をこのタイムスタンプに差し込むと日付と時刻が打刻されます。",
+    "en": [
+      {
+        "id": "326988",
+        "text": "Place this merchandise slip into the time stamp, and the date and time will be impressed."
+      }
+    ],
+    "indices": "此の{この} 商品 管理 伝票~ を 此の{この} タイムスタンプ[02]~ に 差し込む と 日付 と 時刻 が 打刻[01]~ 為れる{されます}",
+    "vocabIds": [
+      "1291170",
+      "1347310",
+      "1214200",
+      "1442410",
+      "1464340",
+      "1316220",
+      "2168060"
+    ],
+    "matches": {
+      "1214200": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "かんり"
+        }
+      ],
+      "1291170": [
+        {
+          "start": 19,
+          "length": 5,
+          "reading": "さしこむと"
+        }
+      ],
+      "1316220": [
+        {
+          "start": 27,
+          "length": 2,
+          "reading": "じこく"
+        }
+      ],
+      "1347310": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "しょうひん"
+        }
+      ],
+      "1442410": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "でんぴょう"
+        }
+      ],
+      "1464340": [
+        {
+          "start": 24,
+          "length": 2,
+          "reading": "ひづけ"
+        }
+      ],
+      "2168060": [
+        {
+          "start": 30,
+          "length": 2,
+          "reading": "だこく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "124920",
+    "original": "伝票は別々にお願いします。",
+    "en": [
+      {
+        "id": "279073",
+        "text": "We'd like separate checks, please."
+      }
+    ],
+    "indices": "伝票 は 別々に お願いします",
+    "vocabIds": [
+      "1001720",
+      "1603300",
+      "1442410"
+    ],
+    "matches": {
+      "1001720": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "おねがいします"
+        }
+      ],
+      "1442410": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "でんぴょう"
+        }
+      ],
+      "1603300": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "べつべつに"
+        }
+      ]
+    }
+  }
+]

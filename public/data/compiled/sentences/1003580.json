@@ -1,0 +1,64 @@
+[
+  {
+    "id": "76638",
+    "original": "そっちこそ、ギックリ腰で立てなくなってもおいて帰りますわよ。",
+    "en": [
+      {
+        "id": "327082",
+        "text": "You worry about yourself. If you put your back out and can't stand we'll go home without you!"
+      }
+    ],
+    "indices": "其方[04]{そっち} こそ ぎっくり腰{ギックリ腰} で(#2028980) 立つ{立てなく} 成る[01]{なって} も 置く{おいて} 帰る[01]{帰ります} わ よ[01]",
+    "vocabIds": [
+      "1003580",
+      "1551530",
+      "1221270"
+    ],
+    "matches": {
+      "1003580": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "こし"
+        }
+      ],
+      "1221270": [
+        {
+          "start": 23,
+          "length": 4,
+          "reading": "かえります"
+        }
+      ],
+      "1551530": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "たてなく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "226041",
+    "original": "ぎっくり腰なんです。",
+    "en": [
+      {
+        "id": "63381",
+        "text": "I have a strained back."
+      }
+    ],
+    "indices": "ぎっくり腰~ なんです",
+    "vocabIds": [
+      "1003580"
+    ],
+    "matches": {
+      "1003580": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "ぎっくりごし"
+        }
+      ]
+    }
+  }
+]

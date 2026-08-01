@@ -1,0 +1,576 @@
+[
+  {
+    "id": "101056",
+    "original": "彼は彼女に、後ほど電話をかけてくれと頼んだ。",
+    "en": [
+      {
+        "id": "302641",
+        "text": "He asked her to call him later."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 彼女 に 後程{後ほど}~ 電話をかける{電話をかけて} 呉れる{くれ} と 頼む[01]{頼んだ}",
+    "vocabIds": [
+      "1269940",
+      "1548370",
+      "1483150",
+      "1443840",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1269940": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "のちほど"
+        }
+      ],
+      "1443840": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "でんわ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1548370": [
+        {
+          "start": 18,
+          "length": 3,
+          "reading": "たのんだ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "174311",
+    "original": "後ほどもう一度お申し込みいただけますか。",
+    "en": [
+      {
+        "id": "240158",
+        "text": "Will you place your call again later?"
+      }
+    ],
+    "indices": "後程{後ほど} もう一度 御(お){お} 申し込み 頂ける[01]{いただけます} か",
+    "vocabIds": [
+      "2005860",
+      "1605140",
+      "1269940"
+    ],
+    "matches": {
+      "1269940": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "のちほど"
+        }
+      ],
+      "1605140": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "もうしこみ"
+        }
+      ],
+      "2005860": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "もういちど"
+        }
+      ]
+    }
+  },
+  {
+    "id": "174312",
+    "original": "後ほどお電話しましょうか。",
+    "en": [
+      {
+        "id": "240136",
+        "text": "Shall I call you up later?"
+      }
+    ],
+    "indices": "後程{後ほど} 御(お){お} 電話 為る(する)[11]{し} ましょうか",
+    "vocabIds": [
+      "1269940",
+      "2701830"
+    ],
+    "matches": {
+      "1269940": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "のちほど"
+        }
+      ],
+      "2701830": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "おでんわ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "174313",
+    "original": "後ほど、またお電話いただけますか。",
+    "en": [
+      {
+        "id": "240156",
+        "text": "Would you please call him back later?"
+      }
+    ],
+    "indices": "後程{後ほど} 又{また} 御(お){お} 電話 頂ける[01]{いただけます} か",
+    "vocabIds": [
+      "1269940",
+      "2701830"
+    ],
+    "matches": {
+      "1269940": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "のちほど"
+        }
+      ],
+      "2701830": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "おでんわ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "195440",
+    "original": "また後ほど来ます。",
+    "en": [
+      {
+        "id": "32614",
+        "text": "I think I'll come back later."
+      },
+      {
+        "id": "8227057",
+        "text": "I think that I'll come back later."
+      }
+    ],
+    "indices": "又{また} 後程{後ほど} 来る(くる)[01]{来ます}",
+    "vocabIds": [
+      "1269940",
+      "1547720"
+    ],
+    "matches": {
+      "1269940": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "のちほど"
+        }
+      ],
+      "1547720": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "きます"
+        }
+      ]
+    }
+  },
+  {
+    "id": "205757",
+    "original": "それでは後ほどうかがいます。",
+    "en": [
+      {
+        "id": "32706",
+        "text": "I'll see you later."
+      }
+    ],
+    "indices": "其れでは[01]{それでは} 後程{後ほど} 伺う[01]{うかがいます}",
+    "vocabIds": [
+      "1269940"
+    ],
+    "matches": {
+      "1269940": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "のちほど"
+        }
+      ]
+    }
+  },
+  {
+    "id": "774500",
+    "original": "後ほど私に電話をするよう彼女に伝えていただけますか？",
+    "en": [
+      {
+        "id": "1008016",
+        "text": "Would you please tell her to give me a call later on?"
+      }
+    ],
+    "vocabIds": [
+      "1269940",
+      "1441870",
+      "1443840",
+      "1483150",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1269940": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "のちほど"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1441870": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "つたえて"
+        }
+      ],
+      "1443840": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "でんわ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3024539",
+    "original": "また後ほどお電話いたします。",
+    "en": [
+      {
+        "id": "32616",
+        "text": "I'll call again later."
+      }
+    ],
+    "vocabIds": [
+      "1269940",
+      "2701830"
+    ],
+    "matches": {
+      "1269940": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "のちほど"
+        }
+      ],
+      "2701830": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "おでんわ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8853321",
+    "original": "後ほど状況をご連絡します。",
+    "en": [
+      {
+        "id": "6770354",
+        "text": "I'll update you later."
+      }
+    ],
+    "vocabIds": [
+      "1269940",
+      "1270820",
+      "1356700"
+    ],
+    "matches": {
+      "1269940": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "のちほど"
+        }
+      ],
+      "1270820": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "ごれんらく"
+        }
+      ],
+      "1356700": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "じょうきょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9096422",
+    "original": "今日は冷え込み、後ほど雪が降るでしょう。",
+    "en": [
+      {
+        "id": "242813",
+        "text": "It's supposed to get colder and snow later today."
+      }
+    ],
+    "vocabIds": [
+      "1184450",
+      "1282790",
+      "1556640",
+      "1289400",
+      "1269940",
+      "1386500"
+    ],
+    "matches": {
+      "1184450": [
+        {
+          "start": 13,
+          "length": 6,
+          "reading": "ふるでしょう"
+        }
+      ],
+      "1269940": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "のちほど"
+        }
+      ],
+      "1282790": [
+        {
+          "start": 13,
+          "length": 6,
+          "reading": "ふるでしょう"
+        }
+      ],
+      "1289400": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きょうは"
+        }
+      ],
+      "1386500": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "ゆき"
+        }
+      ],
+      "1556640": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "ひえこみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9139595",
+    "original": "後ほどおかけ直しいただけないでしょうか？",
+    "en": [
+      {
+        "id": "240156",
+        "text": "Would you please call him back later?"
+      }
+    ],
+    "vocabIds": [
+      "1269940",
+      "1430650"
+    ],
+    "matches": {
+      "1269940": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "のちほど"
+        }
+      ],
+      "1430650": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "なおし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9550143",
+    "original": "今は手が離せないので、よろしければ後ほどお話しましょう。",
+    "en": [
+      {
+        "id": "9550131",
+        "text": "Now I'm busy, but if you want, we can speak afterward."
+      }
+    ],
+    "vocabIds": [
+      "2125840",
+      "1562350",
+      "1269940",
+      "1288850"
+    ],
+    "matches": {
+      "1269940": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "のちほど"
+        }
+      ],
+      "1288850": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "いま"
+        }
+      ],
+      "1562350": [
+        {
+          "start": 21,
+          "length": 6,
+          "reading": "はなしましょう"
+        }
+      ],
+      "2125840": [
+        {
+          "start": 2,
+          "length": 6,
+          "reading": "てがはなせない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10203581",
+    "original": "後ほど、ご連絡します。",
+    "en": [
+      {
+        "id": "6898458",
+        "text": "I'll contact you later."
+      }
+    ],
+    "vocabIds": [
+      "1269940",
+      "1270820"
+    ],
+    "matches": {
+      "1269940": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "のちほど"
+        }
+      ],
+      "1270820": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "ごれんらく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10877334",
+    "original": "検査結果については後ほどご連絡します、とのことだった。",
+    "en": [
+      {
+        "id": "263462",
+        "text": "He said that he would let us know later about the results of the examination."
+      }
+    ],
+    "vocabIds": [
+      "1269940",
+      "1270820",
+      "1257890",
+      "1254690"
+    ],
+    "matches": {
+      "1254690": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "けっか"
+        }
+      ],
+      "1257890": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "けんさ"
+        }
+      ],
+      "1269940": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "のちほど"
+        }
+      ],
+      "1270820": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "ごれんらく"
+        }
+      ]
+    }
+  }
+]

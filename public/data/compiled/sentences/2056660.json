@@ -1,0 +1,68 @@
+[
+  {
+    "id": "148901",
+    "original": "邪魔だ。気が散るよ。",
+    "en": [
+      {
+        "id": "265657",
+        "text": "It's a distraction."
+      }
+    ],
+    "indices": "邪魔 だ 気が散る よ[01]",
+    "vocabIds": [
+      "2056660",
+      "1323500"
+    ],
+    "matches": {
+      "1323500": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じゃま"
+        }
+      ],
+      "2056660": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "きがちる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "183284",
+    "original": "気が散るからテレビを消してくれ。",
+    "en": [
+      {
+        "id": "20406",
+        "text": "Turn off the television. I can't concentrate."
+      },
+      {
+        "id": "13563391",
+        "text": "Turn off the TV. It's distracting."
+      }
+    ],
+    "indices": "気が散る~ から テレビ を 消す[02]{消して} 呉れる{くれ}",
+    "vocabIds": [
+      "1350110",
+      "2056660"
+    ],
+    "matches": {
+      "1350110": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "けしてくれ"
+        }
+      ],
+      "2056660": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "きがちる"
+        }
+      ]
+    }
+  }
+]

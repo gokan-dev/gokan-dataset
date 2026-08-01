@@ -1,0 +1,150 @@
+[
+  {
+    "id": "76233",
+    "original": "魚は遠火でゆっくり、こんがり焼き上げます。",
+    "en": [
+      {
+        "id": "327485",
+        "text": "The fish is baked slowly till browned over a not-too-close fire."
+      }
+    ],
+    "indices": "魚 は 遠火~ で(#2028980) ゆっくり こんがり 焼き上げる{焼き上げます}~",
+    "vocabIds": [
+      "1847610",
+      "1177900",
+      "1578010"
+    ],
+    "matches": {
+      "1177900": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "とおび"
+        }
+      ],
+      "1578010": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "さかな"
+        }
+      ],
+      "1847610": [
+        {
+          "start": 14,
+          "length": 6,
+          "reading": "やきあげます"
+        }
+      ]
+    }
+  },
+  {
+    "id": "123967",
+    "original": "当店のパイは、夜のうちに焼き上げて、次ぎ日にお出しする焼き立てです。",
+    "en": [
+      {
+        "id": "280028",
+        "text": "All our pies are baked fresh during the night for your dining pleasure the next day."
+      }
+    ],
+    "indices": "当店 の パイ は 夜 の 内(うち){うち} に 焼き上げる{焼き上げて} 次ぐ{次ぎ} 日(ひ)[01] に 出す{お出し} 為る(する)[12]{する} 焼き立て です",
+    "vocabIds": [
+      "1847610",
+      "1350590",
+      "2850781",
+      "1316400",
+      "1449200",
+      "1536350"
+    ],
+    "matches": {
+      "1316400": [
+        {
+          "start": 18,
+          "length": 3,
+          "reading": "つぎび"
+        }
+      ],
+      "1350590": [
+        {
+          "start": 27,
+          "length": 4,
+          "reading": "やきたて"
+        }
+      ],
+      "1449200": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とうてん"
+        }
+      ],
+      "1536350": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "よる"
+        }
+      ],
+      "1847610": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "やきあげて"
+        }
+      ],
+      "2850781": [
+        {
+          "start": 22,
+          "length": 3,
+          "reading": "おだし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10938384",
+    "original": "当店のパンは、職人がひとつひとつ真心を込めて焼き上げています。",
+    "en": [
+      {
+        "id": "12977907",
+        "text": "The bread in our shop is carefully baked one loaf at a time by our artisans with heartfelt dedication."
+      }
+    ],
+    "vocabIds": [
+      "1847610",
+      "2846398",
+      "1449200",
+      "1357550"
+    ],
+    "matches": {
+      "1357550": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "しょくにん"
+        }
+      ],
+      "1449200": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とうてん"
+        }
+      ],
+      "1847610": [
+        {
+          "start": 22,
+          "length": 8,
+          "reading": "やきあげています"
+        }
+      ],
+      "2846398": [
+        {
+          "start": 16,
+          "length": 6,
+          "reading": "まごころをこめて"
+        }
+      ]
+    }
+  }
+]

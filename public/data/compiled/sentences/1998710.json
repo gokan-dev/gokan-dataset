@@ -1,0 +1,127 @@
+[
+  {
+    "id": "221380",
+    "original": "この車は天然ガスで動く。",
+    "en": [
+      {
+        "id": "58705",
+        "text": "This car runs on natural gas."
+      }
+    ],
+    "indices": "此の{この} 車(くるま) は 天然[01]~ 瓦斯{ガス} で(#2028980) 動く",
+    "vocabIds": [
+      "1998710",
+      "1451210",
+      "1323080"
+    ],
+    "matches": {
+      "1323080": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1451210": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "うごく"
+        }
+      ],
+      "1998710": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "てんねんがす"
+        }
+      ]
+    }
+  },
+  {
+    "id": "882355",
+    "original": "二酸化炭素というのは石炭、石油、天然ガスなどの燃料を燃焼させる度に発生する気体です。",
+    "en": [
+      {
+        "id": "727297",
+        "text": "Carbon dioxide is a gas that is produced every time a fuel such as coal, oil, or natural gas is burned."
+      }
+    ],
+    "vocabIds": [
+      "1461820",
+      "1998710",
+      "1382700",
+      "1382830",
+      "1469660",
+      "1469640",
+      "1007270",
+      "1477620",
+      "1222460"
+    ],
+    "matches": {
+      "1007270": [
+        {
+          "start": 31,
+          "length": 2,
+          "reading": "たびに"
+        }
+      ],
+      "1222460": [
+        {
+          "start": 37,
+          "length": 2,
+          "reading": "きたい"
+        }
+      ],
+      "1382700": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "せきたん"
+        }
+      ],
+      "1382830": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "せきゆ"
+        }
+      ],
+      "1461820": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "にさんかたんそ"
+        }
+      ],
+      "1469640": [
+        {
+          "start": 26,
+          "length": 2,
+          "reading": "ねんしょう"
+        }
+      ],
+      "1469660": [
+        {
+          "start": 23,
+          "length": 2,
+          "reading": "ねんりょう"
+        }
+      ],
+      "1477620": [
+        {
+          "start": 33,
+          "length": 2,
+          "reading": "はっせい"
+        }
+      ],
+      "1998710": [
+        {
+          "start": 16,
+          "length": 4,
+          "reading": "てんねんがす"
+        }
+      ]
+    }
+  }
+]

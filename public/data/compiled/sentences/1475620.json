@@ -1,0 +1,276 @@
+[
+  {
+    "id": "161361",
+    "original": "私はいつも薄着です。",
+    "en": [
+      {
+        "id": "253156",
+        "text": "I dress lightly all the time."
+      }
+    ],
+    "indices": "私(わたし)[01] は 何時も{いつも} 薄着 です",
+    "vocabIds": [
+      "1475620",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1475620": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "うすぎ"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "183999",
+    "original": "寒さをものともせずに、彼は薄着で外出した。",
+    "en": [
+      {
+        "id": "21127",
+        "text": "Making nothing of the cold, he went out in thin clothes."
+      }
+    ],
+    "indices": "寒い{寒} さ[01] を 物ともせず{ものともせず} に 彼(かれ)[01] は 薄着 で(#2028980) 外出 為る(する){した}",
+    "vocabIds": [
+      "2062710",
+      "1210360",
+      "1475620",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1210360": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "さむさ"
+        }
+      ],
+      "1475620": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "うすぎ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "2062710": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "がいしゅつし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "204049",
+    "original": "そんな薄着ではかぜをひきますよ。",
+    "en": [
+      {
+        "id": "41291",
+        "text": "You'll catch cold in such thin clothing."
+      }
+    ],
+    "indices": "そんな 薄着~ で(#2028980) は 風邪をひく{かぜをひきます} よ[01]",
+    "vocabIds": [
+      "1475620"
+    ],
+    "matches": {
+      "1475620": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "うすぎ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "204232",
+    "original": "そんなに薄着で寒くないですか。",
+    "en": [
+      {
+        "id": "41474",
+        "text": "In such thin clothes, are you warm enough?"
+      },
+      {
+        "id": "735731",
+        "text": "Are you warm enough in such thin clothes?"
+      }
+    ],
+    "indices": "そんなに 薄着 で(#2028980) 寒い{寒くない} ですか",
+    "vocabIds": [
+      "1210360",
+      "1475620"
+    ],
+    "matches": {
+      "1210360": [
+        {
+          "start": 7,
+          "length": 6,
+          "reading": "さむくないです"
+        }
+      ],
+      "1475620": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "うすぎ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "4316738",
+    "original": "そんな薄着で外出たら風邪引くよ。",
+    "en": [
+      {
+        "id": "4331023",
+        "text": "If you go out wearing that little you will catch a cold."
+      },
+      {
+        "id": "4352632",
+        "text": "If you go out so lightly dressed, you'll catch a cold."
+      },
+      {
+        "id": "9423496",
+        "text": "If you go out wearing that little, you'll catch a cold."
+      }
+    ],
+    "vocabIds": [
+      "2183580",
+      "1475620",
+      "1203800"
+    ],
+    "matches": {
+      "1203800": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "がいしゅつ"
+        }
+      ],
+      "1475620": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "うすぎ"
+        }
+      ],
+      "2183580": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "かぜひく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3125038",
+    "original": "そんな薄着で寝たら風邪引くよ。",
+    "en": [
+      {
+        "id": "4717502",
+        "text": "If you sleep with so little on, you'll catch a cold."
+      }
+    ],
+    "vocabIds": [
+      "2183580",
+      "1360010",
+      "1475620"
+    ],
+    "matches": {
+      "1360010": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "ねたら"
+        }
+      ],
+      "1475620": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "うすぎ"
+        }
+      ],
+      "2183580": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "かぜひく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2467123",
+    "original": "薄着し過ぎだよ。",
+    "en": [
+      {
+        "id": "8092948",
+        "text": "You're too lightly dressed."
+      }
+    ],
+    "vocabIds": [
+      "1195970",
+      "1475620"
+    ],
+    "matches": {
+      "1195970": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "すぎだ"
+        }
+      ],
+      "1475620": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "うすぎ"
+        }
+      ]
+    }
+  }
+]

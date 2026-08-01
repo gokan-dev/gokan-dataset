@@ -1,0 +1,219 @@
+[
+  {
+    "id": "111034",
+    "original": "彼はベッドから飛び起きた。",
+    "en": [
+      {
+        "id": "292192",
+        "text": "He jumped out of bed."
+      }
+    ],
+    "indices": "彼(かれ)[01] は ベッド から 飛び起きる{飛び起きた}",
+    "vocabIds": [
+      "1485290",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1485290": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "とびおきた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "111490",
+    "original": "彼は飛び起きた。",
+    "en": [
+      {
+        "id": "292192",
+        "text": "He jumped out of bed."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 飛び起きる{飛び起きた}",
+    "vocabIds": [
+      "1485290",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1485290": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "とびおきた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "196703",
+    "original": "ベルが鳴るとジョンはすぐさま飛び起きた。",
+    "en": [
+      {
+        "id": "33882",
+        "text": "John jumped to his feet the moment the bell rang."
+      }
+    ],
+    "indices": "ベル が 鳴る と は 直ぐ様{すぐさま} 飛び起きる{飛び起きた}~",
+    "vocabIds": [
+      "1485290",
+      "1532910"
+    ],
+    "matches": {
+      "1485290": [
+        {
+          "start": 14,
+          "length": 5,
+          "reading": "とびおきた"
+        }
+      ],
+      "1532910": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "なると"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8659812",
+    "original": "トムは目覚まし時計が鳴るや否や、ベッドから飛び起きた。",
+    "en": [
+      {
+        "id": "1024656",
+        "text": "Tom jumped out of bed as soon as the alarm clock went off."
+      }
+    ],
+    "vocabIds": [
+      "1604940",
+      "1485290",
+      "2018190",
+      "1532910"
+    ],
+    "matches": {
+      "1485290": [
+        {
+          "start": 21,
+          "length": 5,
+          "reading": "とびおきた"
+        }
+      ],
+      "1532910": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "なる"
+        }
+      ],
+      "1604940": [
+        {
+          "start": 3,
+          "length": 6,
+          "reading": "めざましとけい"
+        }
+      ],
+      "2018190": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "やいなや"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11903899",
+    "original": "目覚ましが鳴ると、メアリーは飛び起きました。今日は特別な日だったのです！",
+    "en": [
+      {
+        "id": "10637071",
+        "text": "The alarm clock rang, and Mary jumped out of bed. Today was the big day!"
+      }
+    ],
+    "vocabIds": [
+      "1485290",
+      "1535340",
+      "1289400",
+      "1532910",
+      "1455280",
+      "1463770"
+    ],
+    "matches": {
+      "1289400": [
+        {
+          "start": 22,
+          "length": 3,
+          "reading": "きょうは"
+        }
+      ],
+      "1455280": [
+        {
+          "start": 25,
+          "length": 2,
+          "reading": "とくべつ"
+        }
+      ],
+      "1463770": [
+        {
+          "start": 28,
+          "length": 1,
+          "reading": "ひ"
+        }
+      ],
+      "1485290": [
+        {
+          "start": 14,
+          "length": 7,
+          "reading": "とびおきました"
+        }
+      ],
+      "1532910": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "なると"
+        }
+      ],
+      "1535340": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "めざまし"
+        }
+      ]
+    }
+  }
+]

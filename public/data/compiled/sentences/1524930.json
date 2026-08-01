@@ -1,0 +1,412 @@
+[
+  {
+    "id": "75006",
+    "original": "今、飛行機の乗り換えだ。今まで飛行機８時間乗って、乗り換えてこれから又２時間だ。",
+    "en": [
+      {
+        "id": "328713",
+        "text": "I'm in transit between flights now. I've spent 8 hours on a plane so far, after changing planes now it's another two hours."
+      }
+    ],
+    "indices": "今(いま) 飛行機 の 乗り換え[01] だ 今まで 飛行機 時間 乗る[01]{乗って} 乗り換える[01]{乗り換えて} 此れ[03]{これ} から 又 時間 だ",
+    "vocabIds": [
+      "1600470",
+      "1600460",
+      "1485470",
+      "1587590",
+      "1355120",
+      "1315920",
+      "1288850",
+      "1583090",
+      "1524930",
+      "1461140"
+    ],
+    "matches": {
+      "1288850": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "いま"
+        }
+      ],
+      "1315920": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "じかん"
+        },
+        {
+          "start": 36,
+          "length": 2,
+          "reading": "じかん"
+        }
+      ],
+      "1355120": [
+        {
+          "start": 21,
+          "length": 3,
+          "reading": "のって"
+        }
+      ],
+      "1461140": [
+        {
+          "start": 35,
+          "length": 1,
+          "reading": "に"
+        }
+      ],
+      "1485470": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "ひこうき"
+        },
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "ひこうき"
+        }
+      ],
+      "1524930": [
+        {
+          "start": 34,
+          "length": 1,
+          "reading": "また"
+        }
+      ],
+      "1583090": [
+        {
+          "start": 18,
+          "length": 1,
+          "reading": "はち"
+        }
+      ],
+      "1587590": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "いままで"
+        }
+      ],
+      "1600460": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "のりかえ"
+        }
+      ],
+      "1600470": [
+        {
+          "start": 25,
+          "length": 5,
+          "reading": "のりかえて"
+        }
+      ]
+    }
+  },
+  {
+    "id": "81210",
+    "original": "又来年会えるといいですね。",
+    "en": [
+      {
+        "id": "322505",
+        "text": "Hope to see you again next year."
+      }
+    ],
+    "indices": "又 来年 会う[01]{会える} と いい(#2820690)[01]~ です ね(#2029080)[01]",
+    "vocabIds": [
+      "1548220",
+      "1524930"
+    ],
+    "matches": {
+      "1524930": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "また"
+        }
+      ],
+      "1548220": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "らいねん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "81215",
+    "original": "又お会いできてうれしいです。",
+    "en": [
+      {
+        "id": "322500",
+        "text": "I'm very glad to see you again."
+      }
+    ],
+    "indices": "又 会う[01]{お会い} 出来る{できて} 嬉しい{うれしい} です",
+    "vocabIds": [
+      "1198180",
+      "1524930"
+    ],
+    "matches": {
+      "1198180": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "あいできて"
+        }
+      ],
+      "1524930": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "また"
+        }
+      ]
+    }
+  },
+  {
+    "id": "85467",
+    "original": "必ず又の機会が来る。",
+    "en": [
+      {
+        "id": "318247",
+        "text": "There is always a next time."
+      },
+      {
+        "id": "850608",
+        "text": "There's always a next time."
+      },
+      {
+        "id": "5336102",
+        "text": "There is always another time."
+      }
+    ],
+    "indices": "必ず 又 の 機会 が 来る(くる)",
+    "vocabIds": [
+      "1487400",
+      "1220800",
+      "1547720",
+      "1524930"
+    ],
+    "matches": {
+      "1220800": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "きかい"
+        }
+      ],
+      "1487400": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かならず"
+        }
+      ],
+      "1524930": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "また"
+        }
+      ],
+      "1547720": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "くる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "99766",
+    "original": "彼は又旅行に出かけました。",
+    "en": [
+      {
+        "id": "303931",
+        "text": "He set out on his travels again."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 又 旅行 に 出かける{出かけました}",
+    "vocabIds": [
+      "1598550",
+      "1553170",
+      "1000420",
+      "1483070",
+      "1524930"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1524930": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "また"
+        }
+      ],
+      "1553170": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "りょこう"
+        }
+      ],
+      "1598550": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "でかけました"
+        }
+      ]
+    }
+  },
+  {
+    "id": "185412",
+    "original": "会期は又延長されるであろう。",
+    "en": [
+      {
+        "id": "22544",
+        "text": "The session will be prolonged again."
+      }
+    ],
+    "indices": "会期~ は 又 延長[01] 為れる{される} である{であろう}",
+    "vocabIds": [
+      "1198330",
+      "1176510",
+      "1524930"
+    ],
+    "matches": {
+      "1176510": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "えんちょう"
+        }
+      ],
+      "1198330": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かいき"
+        }
+      ],
+      "1524930": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "また"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1650062",
+    "original": "この恋の莟は皐月の風に育てられて、又逢うまでには美しゅう咲くであろう。",
+    "en": [
+      {
+        "id": "1804095",
+        "text": "This bud of love, by summer’s ripening breath, may prove a beauteous flower when next we meet."
+      }
+    ],
+    "vocabIds": [
+      "1297210",
+      "1486360",
+      "1160570",
+      "1299600",
+      "1198180",
+      "1558670",
+      "1571800",
+      "1361130",
+      "1499720",
+      "1524930"
+    ],
+    "matches": {
+      "1160570": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "そだて"
+        }
+      ],
+      "1198180": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "あう"
+        }
+      ],
+      "1297210": [
+        {
+          "start": 28,
+          "length": 6,
+          "reading": "さくであろう"
+        }
+      ],
+      "1299600": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "さつき"
+        }
+      ],
+      "1361130": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "かぜ"
+        }
+      ],
+      "1486360": [
+        {
+          "start": 24,
+          "length": 4,
+          "reading": "うつくしゅう"
+        }
+      ],
+      "1499720": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "かぜ"
+        }
+      ],
+      "1524930": [
+        {
+          "start": 17,
+          "length": 1,
+          "reading": "また"
+        }
+      ],
+      "1558670": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "こい"
+        }
+      ],
+      "1571800": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "つぼみ"
+        }
+      ]
+    }
+  }
+]

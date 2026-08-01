@@ -1,0 +1,580 @@
+[
+  {
+    "id": "126142",
+    "original": "潮を吹いたぞ。",
+    "en": [
+      {
+        "id": "277850",
+        "text": "There she blows!"
+      }
+    ],
+    "indices": "潮(しお)[01]  を 吹く[01]{吹いた} ぞ",
+    "vocabIds": [
+      "1370760",
+      "1428620"
+    ],
+    "matches": {
+      "1370760": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "ふいた"
+        }
+      ],
+      "1428620": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "しお"
+        }
+      ]
+    }
+  },
+  {
+    "id": "126144",
+    "original": "潮の全てはひく。",
+    "en": [
+      {
+        "id": "3053574",
+        "text": "Every tide has its ebb."
+      }
+    ],
+    "indices": "潮(しお)[01]  の 全て は 引く{ひく}",
+    "vocabIds": [
+      "1595730",
+      "1428620"
+    ],
+    "matches": {
+      "1428620": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "しお"
+        }
+      ],
+      "1595730": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "すべて"
+        }
+      ]
+    }
+  },
+  {
+    "id": "126146",
+    "original": "潮が満ち始めている。",
+    "en": [
+      {
+        "id": "277846",
+        "text": "The tide is coming in."
+      }
+    ],
+    "indices": "潮(しお)[01]  が 満ちる[03]{満ち} 始める[03]{始めている}",
+    "vocabIds": [
+      "1604540",
+      "1428620"
+    ],
+    "matches": {
+      "1428620": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "しお"
+        }
+      ],
+      "1604540": [
+        {
+          "start": 2,
+          "length": 7,
+          "reading": "みちはじめている"
+        }
+      ]
+    }
+  },
+  {
+    "id": "126147",
+    "original": "潮が急速に満ちてくる。",
+    "en": [
+      {
+        "id": "277845",
+        "text": "The tide is rising fast."
+      }
+    ],
+    "indices": "潮(しお)[01]~ が 急速{急速に} 満ちる[03]{満ちて}~ 来る(くる){くる}",
+    "vocabIds": [
+      "1604540",
+      "1228890",
+      "1428620"
+    ],
+    "matches": {
+      "1228890": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きゅうそく"
+        }
+      ],
+      "1428620": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "しお"
+        }
+      ],
+      "1604540": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "みちてくる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "126148",
+    "original": "潮が引いている。",
+    "en": [
+      {
+        "id": "277844",
+        "text": "The tide is on the ebb."
+      }
+    ],
+    "indices": "潮(しお)[01]  が 引く{引いている}",
+    "vocabIds": [
+      "1169250",
+      "1428620"
+    ],
+    "matches": {
+      "1169250": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "ひいている"
+        }
+      ],
+      "1428620": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "しお"
+        }
+      ]
+    }
+  },
+  {
+    "id": "185101",
+    "original": "潮の満ち干は月の運行に左右される。",
+    "en": [
+      {
+        "id": "22232",
+        "text": "The rise and fall of the sea is governed by the moon."
+      },
+      {
+        "id": "2496956",
+        "text": "The rise and fall of the sea is governed by the motion of the moon."
+      }
+    ],
+    "indices": "潮(しお)[01]  の 満ち干~ は 月(つき)[01] の 運行[02]~ に 左右(さゆう)[02] 為れる{される}",
+    "vocabIds": [
+      "1526680",
+      "1172750",
+      "1290810",
+      "1444050",
+      "1428620",
+      "1255430"
+    ],
+    "matches": {
+      "1172750": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "うんこう"
+        }
+      ],
+      "1255430": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "つき"
+        }
+      ],
+      "1290810": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "さゆう"
+        }
+      ],
+      "1428620": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "しお"
+        }
+      ],
+      "1444050": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "さゆう"
+        }
+      ],
+      "1526680": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "みちひ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "186231",
+    "original": "我々の船は潮によって岸へ押し流された。",
+    "en": [
+      {
+        "id": "23365",
+        "text": "Our boat drifted to shore on the tide."
+      }
+    ],
+    "indices": "我々 の 船(ふね)[01] は 潮(しお)[01]  に因って{によって} 岸 へ 押し流す{押し流された}",
+    "vocabIds": [
+      "1180450",
+      "1607050",
+      "1602800",
+      "1428620",
+      "1217040"
+    ],
+    "matches": {
+      "1180450": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "おしながさ"
+        }
+      ],
+      "1217040": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "きし"
+        }
+      ],
+      "1428620": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "しお"
+        }
+      ],
+      "1602800": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "ふね"
+        }
+      ],
+      "1607050": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "われわれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "523422",
+    "original": "潮の干た時に砂浜を歩きました。",
+    "en": [
+      {
+        "id": "535690",
+        "text": "I walked along the beach when the tide ebbed."
+      }
+    ],
+    "vocabIds": [
+      "1514320",
+      "1212010",
+      "2021540",
+      "1291620",
+      "1428620"
+    ],
+    "matches": {
+      "1212010": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ひた"
+        }
+      ],
+      "1291620": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "すなはま"
+        }
+      ],
+      "1428620": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "しお"
+        }
+      ],
+      "1514320": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "あるきました"
+        }
+      ],
+      "2021540": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ときに"
+        }
+      ]
+    }
+  },
+  {
+    "id": "894616",
+    "original": "海に近付いてきたんだね。潮の香りがする。",
+    "en": [
+      {
+        "id": "896057",
+        "text": "We've come nearer to the sea. I can smell it."
+      }
+    ],
+    "vocabIds": [
+      "1242170",
+      "2826754",
+      "1201190",
+      "1428620"
+    ],
+    "matches": {
+      "1201190": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "うみ"
+        }
+      ],
+      "1242170": [
+        {
+          "start": 2,
+          "length": 6,
+          "reading": "ちかづいてきた"
+        }
+      ],
+      "1428620": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "しお"
+        }
+      ],
+      "2826754": [
+        {
+          "start": 14,
+          "length": 5,
+          "reading": "かおりがする"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2497845",
+    "original": "潮の満ち干は月の引力によって起こる。",
+    "en": [
+      {
+        "id": "2609640",
+        "text": "Tides are caused by the moon's gravity."
+      }
+    ],
+    "vocabIds": [
+      "1526680",
+      "1223680",
+      "1169720",
+      "1428620",
+      "1255430"
+    ],
+    "matches": {
+      "1169720": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "いんりょく"
+        }
+      ],
+      "1223680": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "おこる"
+        }
+      ],
+      "1255430": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "つき"
+        }
+      ],
+      "1428620": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "しお"
+        }
+      ],
+      "1526680": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "みちひ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10599312",
+    "original": "世界遺産でもある宮島の「厳島神社」は、潮が満ちると神社全体がまるで海に浮かんでいるかのように見えます。その姿は神秘的で、世界中から訪れる観光客を魅了し続けています。",
+    "en": [
+      {
+        "id": "10808510",
+        "text": "Also known for being a world heritage site, the Itsukushima Shrine in Miyajima gives the impression that it is floating in the ocean whenever the tides come in. Its mystical appearance continues to attract tourists from all over the world."
+      }
+    ],
+    "vocabIds": [
+      "1497430",
+      "1405800",
+      "2078260",
+      "1604540",
+      "1259140",
+      "1364850",
+      "1753790",
+      "1518080",
+      "1214870",
+      "1364670",
+      "1395660",
+      "1528140",
+      "1428620",
+      "1201190",
+      "1307710"
+    ],
+    "matches": {
+      "1201190": [
+        {
+          "start": 33,
+          "length": 1,
+          "reading": "うみ"
+        }
+      ],
+      "1214870": [
+        {
+          "start": 68,
+          "length": 3,
+          "reading": "かんこうきゃく"
+        }
+      ],
+      "1259140": [
+        {
+          "start": 46,
+          "length": 4,
+          "reading": "みえます"
+        }
+      ],
+      "1307710": [
+        {
+          "start": 53,
+          "length": 1,
+          "reading": "すがた"
+        }
+      ],
+      "1364670": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "じんじゃ"
+        },
+        {
+          "start": 25,
+          "length": 2,
+          "reading": "じんじゃ"
+        }
+      ],
+      "1364850": [
+        {
+          "start": 55,
+          "length": 3,
+          "reading": "しんぴてき"
+        }
+      ],
+      "1395660": [
+        {
+          "start": 27,
+          "length": 2,
+          "reading": "ぜんたい"
+        }
+      ],
+      "1405800": [
+        {
+          "start": 75,
+          "length": 6,
+          "reading": "つづけています"
+        }
+      ],
+      "1428620": [
+        {
+          "start": 19,
+          "length": 1,
+          "reading": "しお"
+        }
+      ],
+      "1497430": [
+        {
+          "start": 35,
+          "length": 6,
+          "reading": "うかんでいる"
+        }
+      ],
+      "1518080": [
+        {
+          "start": 65,
+          "length": 3,
+          "reading": "おとずれる"
+        }
+      ],
+      "1528140": [
+        {
+          "start": 72,
+          "length": 2,
+          "reading": "みりょう"
+        }
+      ],
+      "1604540": [
+        {
+          "start": 21,
+          "length": 4,
+          "reading": "みちると"
+        }
+      ],
+      "1753790": [
+        {
+          "start": 60,
+          "length": 3,
+          "reading": "せかいじゅう"
+        }
+      ],
+      "2078260": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "せかいいさん"
+        }
+      ]
+    }
+  }
+]

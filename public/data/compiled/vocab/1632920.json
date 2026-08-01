@@ -1,0 +1,255 @@
+{
+  "id": "1632920",
+  "writtenForm": {
+    "kanji": "解す",
+    "alternatives": [],
+    "containedKanji": [
+      "解"
+    ]
+  },
+  "reading": {
+    "primary": "ほぐす",
+    "alternatives": [
+      "ほごす",
+      "かいす",
+      "ほつす",
+      "げす"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 16418,
+    "kanaRank": 9681
+  },
+  "progression": {
+    "kklcStep": 345
+  },
+  "senses": [
+    {
+      "pos": [
+        "v5s",
+        "vt"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "to disentangle",
+        "to untangle",
+        "to unravel",
+        "to loosen"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "v5s",
+        "vt"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "to break up into pieces",
+        "to pick apart",
+        "to flake (a fish)"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "v5s",
+        "vt"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "to relieve",
+        "to ease",
+        "to relax"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "v5s",
+        "vt"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "to understand",
+        "to appreciate"
+      ],
+      "related": {
+        "compounds": [
+          "解する"
+        ]
+      },
+      "appliesToReadings": [
+        "かいす"
+      ]
+    },
+    {
+      "pos": [
+        "v5s",
+        "vt"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "to interpret"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "かいす"
+      ]
+    },
+    {
+      "pos": [
+        "v5s",
+        "vt"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "dated",
+          "uk"
+        ]
+      },
+      "glosses": [
+        "to disentangle",
+        "to untangle",
+        "to unravel",
+        "to loosen"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "ほつす"
+      ]
+    },
+    {
+      "pos": [
+        "v5s",
+        "vt"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "to understand",
+        "to comprehend"
+      ],
+      "related": {
+        "compounds": [
+          "解せる"
+        ]
+      },
+      "appliesToReadings": [
+        "げす"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": true
+  },
+  "isCommon": false,
+  "mergedVocabs": [
+    {
+      "id": "1632920",
+      "isBase": true,
+      "originalPrimaryReading": "ほぐす",
+      "originalGlosses": [
+        "to disentangle",
+        "to untangle",
+        "to unravel"
+      ]
+    },
+    {
+      "id": "2410340",
+      "isBase": false,
+      "originalPrimaryReading": "かいす",
+      "originalGlosses": [
+        "to understand",
+        "to appreciate"
+      ]
+    },
+    {
+      "id": "2863138",
+      "isBase": false,
+      "originalPrimaryReading": "ほつす",
+      "originalGlosses": [
+        "to disentangle",
+        "to untangle",
+        "to unravel"
+      ]
+    },
+    {
+      "id": "2410330",
+      "isBase": false,
+      "originalPrimaryReading": "げす",
+      "originalGlosses": [
+        "to understand",
+        "to comprehend"
+      ]
+    }
+  ],
+  "components": [
+    "2076480"
+  ],
+  "parents": [
+    "2006240"
+  ]
+}

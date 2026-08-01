@@ -1,0 +1,72 @@
+[
+  {
+    "id": "148243",
+    "original": "就職が内定した。",
+    "en": [
+      {
+        "id": "266315",
+        "text": "The company has unofficially decided to employ me."
+      }
+    ],
+    "indices": "就職 が 内定 為る(する){した}",
+    "vocabIds": [
+      "1331670",
+      "1458920"
+    ],
+    "matches": {
+      "1331670": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しゅうしょく"
+        }
+      ],
+      "1458920": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ないてい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "211855",
+    "original": "その会社に就職が内定した。",
+    "en": [
+      {
+        "id": "49132",
+        "text": "It has been unofficially decided that I will be employed by the company."
+      }
+    ],
+    "indices": "其の[01]{その} 会社[01] に 就職 が 内定~ 為る(する){した}",
+    "vocabIds": [
+      "1198550",
+      "1331670",
+      "1458920"
+    ],
+    "matches": {
+      "1198550": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "かいしゃ"
+        }
+      ],
+      "1331670": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "しゅうしょく"
+        }
+      ],
+      "1458920": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "ないてい"
+        }
+      ]
+    }
+  }
+]

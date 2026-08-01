@@ -1,0 +1,169 @@
+[
+  {
+    "id": "79262",
+    "original": "有難うございました。",
+    "en": [
+      {
+        "id": "268955",
+        "text": "I really appreciate it."
+      },
+      {
+        "id": "1876041",
+        "text": "Thank you."
+      }
+    ],
+    "indices": "有り難う{有難う} 御座る{ございました}",
+    "vocabIds": [
+      "2845468"
+    ],
+    "matches": {
+      "2845468": [
+        {
+          "start": 0,
+          "length": 9,
+          "reading": "ありがとうございました"
+        }
+      ]
+    }
+  },
+  {
+    "id": "169461",
+    "original": "傘を貸してくださってたいへん有り難うございました。",
+    "en": [
+      {
+        "id": "245025",
+        "text": "It was very kind of you to lend me an umbrella."
+      },
+      {
+        "id": "12455235",
+        "text": "Thank you very much for lending me your umbrella."
+      },
+      {
+        "id": "12455236",
+        "text": "Thanks a lot for lending your umbrella to me."
+      }
+    ],
+    "indices": "傘(かさ) を 貸す{貸して} 下さる{くださって} 大変{たいへん} 有難うございます{有り難うございました}",
+    "vocabIds": [
+      "2845468",
+      "1411160",
+      "1301940",
+      "1774770"
+    ],
+    "matches": {
+      "1301940": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かさ"
+        }
+      ],
+      "1411160": [
+        {
+          "start": 2,
+          "length": 8,
+          "reading": "かしてくださって"
+        }
+      ],
+      "1774770": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かさ"
+        }
+      ],
+      "2845468": [
+        {
+          "start": 14,
+          "length": 10,
+          "reading": "ありがたうございました"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214609",
+    "original": "すてきな贈り物をいただきご親切に有り難うございました。",
+    "en": [
+      {
+        "id": "51902",
+        "text": "It was very kind of you to give me a nice gift."
+      }
+    ],
+    "indices": "素敵{すてきな} 贈り物 を 頂く{いただき} ご親切に[01]~ 有難うございます{有り難うございました}",
+    "vocabIds": [
+      "2845468",
+      "2772620",
+      "1589030"
+    ],
+    "matches": {
+      "1589030": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "おくりもの"
+        }
+      ],
+      "2772620": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "ごしんせつに"
+        }
+      ],
+      "2845468": [
+        {
+          "start": 16,
+          "length": 10,
+          "reading": "ありがたうございました"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3893112",
+    "original": "早々のご確認、誠に有難うございました。",
+    "en": [
+      {
+        "id": "8292573",
+        "text": "Thank you so much for the punctual confirmation."
+      }
+    ],
+    "vocabIds": [
+      "2845468",
+      "1596420",
+      "1205900",
+      "1381160"
+    ],
+    "matches": {
+      "1205900": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "かくにん"
+        }
+      ],
+      "1381160": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "まことに"
+        }
+      ],
+      "1596420": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "そうそう"
+        }
+      ],
+      "2845468": [
+        {
+          "start": 9,
+          "length": 9,
+          "reading": "ありがとうございました"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,2436 @@
+[
+  {
+    "id": "77536",
+    "original": "列車の遅れを見込んでおかないといけない。",
+    "en": [
+      {
+        "id": "326183",
+        "text": "We have to allow for the delay of the train."
+      }
+    ],
+    "indices": "列車 の 遅れ を 見込む[01]{見込んで} 置く{おか} ないと行けない[01]{ないといけない}",
+    "vocabIds": [
+      "1259580",
+      "1558370",
+      "1422020"
+    ],
+    "matches": {
+      "1259580": [
+        {
+          "start": 6,
+          "length": 13,
+          "reading": "みこんでおかないといけない"
+        }
+      ],
+      "1422020": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "おくれ"
+        }
+      ],
+      "1558370": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "れっしゃ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "85620",
+    "original": "飛行機は定刻よりも３０分遅れで午前１１時に離陸した。",
+    "en": [
+      {
+        "id": "318094",
+        "text": "The plane took off at 11:00 a.m; thirty minutes later than scheduled."
+      }
+    ],
+    "indices": "飛行機 は 定刻 よりも 分(ふん) 遅れ で(#2028980) 午前 時(じ)[01] に 離陸 為る(する){した}",
+    "vocabIds": [
+      "1485470",
+      "2859157",
+      "2845370",
+      "1435580",
+      "1422020",
+      "1269060",
+      "1550970"
+    ],
+    "matches": {
+      "1269060": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "ごぜん"
+        }
+      ],
+      "1422020": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "おくれ"
+        }
+      ],
+      "1435580": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ていこく"
+        }
+      ],
+      "1485470": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ひこうき"
+        }
+      ],
+      "1550970": [
+        {
+          "start": 21,
+          "length": 2,
+          "reading": "りりく"
+        }
+      ],
+      "2845370": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "いちいちじ"
+        }
+      ],
+      "2859157": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "さんぜろふん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "98951",
+    "original": "彼は理科で後れをとっている。",
+    "en": [
+      {
+        "id": "304749",
+        "text": "He is backward in science."
+      },
+      {
+        "id": "9056765",
+        "text": "He lags behind in science."
+      },
+      {
+        "id": "9056771",
+        "text": "He's lagging behind in science."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 理科(りか) で(#2028980) 遅れを取る{後れをとっている}",
+    "vocabIds": [
+      "1549900",
+      "1422020",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1422020": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "おくれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1549900": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "りか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "102186",
+    "original": "彼は遅れを取り戻そうと焦っている。",
+    "en": [
+      {
+        "id": "301508",
+        "text": "He's desperately trying to make up for the delay."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 遅れ を 取り戻す{取り戻そう} と 焦る{焦っている}",
+    "vocabIds": [
+      "1326940",
+      "1350780",
+      "1422020",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1326940": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "とりもどそう"
+        }
+      ],
+      "1350780": [
+        {
+          "start": 11,
+          "length": 5,
+          "reading": "あせっている"
+        }
+      ],
+      "1422020": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "おくれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "102188",
+    "original": "彼は遅れはしないかと心配している。",
+    "en": [
+      {
+        "id": "301506",
+        "text": "He's afraid that he might be late."
+      },
+      {
+        "id": "1226157",
+        "text": "He's worried that he might be late."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 遅れ は 為る(する){しない} か と 心配 為る(する){している}",
+    "vocabIds": [
+      "1422020",
+      "1360930",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1360930": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "しんぱい"
+        }
+      ],
+      "1422020": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "おくれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "102673",
+    "original": "彼は速く走って遅れを取り戻した。",
+    "en": [
+      {
+        "id": "301021",
+        "text": "He made up for lost time by running fast."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 早い[01]{速く} 走る{走って} 遅れ を 取り戻す{取り戻した}",
+    "vocabIds": [
+      "1326940",
+      "1402540",
+      "1404975",
+      "1422020",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1326940": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "とりもどした"
+        }
+      ],
+      "1402540": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "はしって"
+        }
+      ],
+      "1404975": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "はやく"
+        }
+      ],
+      "1422020": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "おくれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "109700",
+    "original": "彼は英語の授業で遅れをとった。",
+    "en": [
+      {
+        "id": "293990",
+        "text": "He fell behind in his English class."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 英語 の 授業 で(#2028980) 遅れを取る{遅れをとった}",
+    "vocabIds": [
+      "1174420",
+      "1330290",
+      "1422020",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1174420": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "えいご"
+        }
+      ],
+      "1330290": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "じゅぎょう"
+        }
+      ],
+      "1422020": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "おくれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "111449",
+    "original": "彼はどんな遅れも我慢できなかった。",
+    "en": [
+      {
+        "id": "292234",
+        "text": "He was impatient of any delays."
+      }
+    ],
+    "indices": "彼(かれ)[01] は どんな 遅れ も 我慢 出来る{できなかった}",
+    "vocabIds": [
+      "1422020",
+      "1196970",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1196970": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "がまん"
+        }
+      ],
+      "1422020": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "おくれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "111696",
+    "original": "彼はどうやらやっと仕事の遅れを取りもどした。",
+    "en": [
+      {
+        "id": "291987",
+        "text": "He had enough to do to catch up on his work."
+      }
+    ],
+    "indices": "彼(かれ)[01] は どうやら 漸と[01]{やっと} 仕事[01]{仕事の} 遅れ を 取り戻す{取りもどした}",
+    "vocabIds": [
+      "1304970",
+      "1422020",
+      "1326980",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1304970": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "しごと"
+        }
+      ],
+      "1326980": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "とり"
+        }
+      ],
+      "1422020": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "おくれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "113914",
+    "original": "彼はクラスの仲間に後れをとらぬようにしている。",
+    "en": [
+      {
+        "id": "289759",
+        "text": "He tries to keep abreast of his classmates."
+      },
+      {
+        "id": "2716738",
+        "text": "He tries to make sure he doesn't fall behind his classmates."
+      },
+      {
+        "id": "2717104",
+        "text": "He tries to keep up with his classmates."
+      }
+    ],
+    "indices": "彼(かれ)[01] は クラス の 仲間(なかま)[01] に 遅れを取る{後れをとらぬ} 様にする{ようにしている}",
+    "vocabIds": [
+      "1423680",
+      "1425790",
+      "1422020",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1422020": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "おくれ"
+        }
+      ],
+      "1423680": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "なかま"
+        }
+      ],
+      "1425790": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "なかま"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "115253",
+    "original": "彼は１時間遅れで現れた。",
+    "en": [
+      {
+        "id": "288416",
+        "text": "He turned up an hour later."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 一時間{１時間} 遅れ で(#2028980) 現れる[01]{現れた}",
+    "vocabIds": [
+      "1162940",
+      "1263510",
+      "1422020",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1162940": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "いちじかん"
+        }
+      ],
+      "1263510": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "あらわれた"
+        }
+      ],
+      "1422020": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "おくれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "116532",
+    "original": "彼の遅れは弁解の余地はない。",
+    "en": [
+      {
+        "id": "1099562",
+        "text": "There's no excuse for his delay."
+      }
+    ],
+    "indices": "彼(かれ)[01]{彼の} 遅れ は 弁解 の 余地 は 無い{ない}",
+    "vocabIds": [
+      "1000420",
+      "1422020",
+      "1512760",
+      "1544380"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれの"
+        }
+      ],
+      "1422020": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "おくれ"
+        }
+      ],
+      "1512760": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "べんかい"
+        }
+      ],
+      "1544380": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "よち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "124786",
+    "original": "電車はほとんど一時間遅れだった。",
+    "en": [
+      {
+        "id": "279207",
+        "text": "The train was almost an hour behind time."
+      }
+    ],
+    "indices": "電車 は 殆ど{ほとんど} 一時間 遅れる{遅れだった}",
+    "vocabIds": [
+      "1162940",
+      "1443530",
+      "1422020"
+    ],
+    "matches": {
+      "1162940": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "いちじかん"
+        }
+      ],
+      "1422020": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "おくれ"
+        }
+      ],
+      "1443530": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "でんしゃ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "126891",
+    "original": "地震のために２、３便に遅れが出た。",
+    "en": [
+      {
+        "id": "277199",
+        "text": "A couple of flights were delayed on account of the earthquake."
+      }
+    ],
+    "indices": "地震 の 為に{ために} 便(びん)[01] に 遅れ が 出る{出た}",
+    "vocabIds": [
+      "1421210",
+      "1422020",
+      "1338240",
+      "1461140",
+      "1579350",
+      "1177490",
+      "1512360"
+    ],
+    "matches": {
+      "1177490": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "びん"
+        }
+      ],
+      "1338240": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "でた"
+        }
+      ],
+      "1421210": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じしん"
+        }
+      ],
+      "1422020": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "おくれ"
+        }
+      ],
+      "1461140": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "に"
+        }
+      ],
+      "1512360": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "びん"
+        }
+      ],
+      "1579350": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "さん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "138277",
+    "original": "多少の遅れを考慮しておくのが必要だ。",
+    "en": [
+      {
+        "id": "274958",
+        "text": "We must allow for some delay."
+      }
+    ],
+    "indices": "多少[01]{多少の} 遅れ を 考慮 為る(する){して} 置く[09]{おく} の が 必要[01] だ",
+    "vocabIds": [
+      "1407810",
+      "1422020",
+      "1281170",
+      "1487660"
+    ],
+    "matches": {
+      "1281170": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "こうりょ"
+        }
+      ],
+      "1407810": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "たしょう"
+        }
+      ],
+      "1422020": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "おくれ"
+        }
+      ],
+      "1487660": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "ひつよう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "138309",
+    "original": "多くの道路が冠水し、その結果大幅な遅れが出ている。",
+    "en": [
+      {
+        "id": "274926",
+        "text": "Many roads are flooded. As a result there are long delays."
+      }
+    ],
+    "indices": "多く の 道路 が 冠水 為る(する){し} 其の[01]{その} 結果 大幅{大幅な} 遅れ が 出る{出ている}",
+    "vocabIds": [
+      "2851217",
+      "1338240",
+      "1861770",
+      "1454290",
+      "1210310",
+      "1414870",
+      "1422020"
+    ],
+    "matches": {
+      "1210310": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "かんすい"
+        }
+      ],
+      "1338240": [
+        {
+          "start": 20,
+          "length": 4,
+          "reading": "でている"
+        }
+      ],
+      "1414870": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "おおはば"
+        }
+      ],
+      "1422020": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "おくれ"
+        }
+      ],
+      "1454290": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "どうろ"
+        }
+      ],
+      "1861770": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おおく"
+        }
+      ],
+      "2851217": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "そのけっか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "142633",
+    "original": "製造業に比べて大きく遅れをとっている非製造業における生産性向上、それも設備投資の活性化により内外価格差の是正と成長力を確保するというのがベストシナリオだ。",
+    "en": [
+      {
+        "id": "271937",
+        "text": "The best way for adjusting the gap between the internal and the external price and securing economic growth is to promote the non-manufacturing industry's productivity by aggressive investing in facilities."
+      }
+    ],
+    "indices": "製造業 に 比べる[01]{比べて} 大きく 遅れを取る{遅れをとっている} 非 製造業 に於ける{における} 生産性 向上 其れ[01]{それ} も 設備投資 の 活性化[01] に依り{により} 内外価格差~ の 是正~ と 成長 力(りょく) を 確保 為る(する){する} と 言う{いう} の が ベスト(#1119530) シナリオ だ",
+    "vocabIds": [
+      "2658650",
+      "2660170",
+      "1785120",
+      "1645790",
+      "1009840",
+      "1588880",
+      "1379030",
+      "1208340",
+      "1422020",
+      "1277250",
+      "1374510",
+      "1375790",
+      "1205920",
+      "1554820"
+    ],
+    "matches": {
+      "1009840": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "にくらべ"
+        }
+      ],
+      "1205920": [
+        {
+          "start": 59,
+          "length": 2,
+          "reading": "かくほ"
+        }
+      ],
+      "1208340": [
+        {
+          "start": 40,
+          "length": 3,
+          "reading": "かっせいか"
+        }
+      ],
+      "1277250": [
+        {
+          "start": 29,
+          "length": 2,
+          "reading": "こうじょう"
+        }
+      ],
+      "1374510": [
+        {
+          "start": 52,
+          "length": 2,
+          "reading": "ぜせい"
+        }
+      ],
+      "1375790": [
+        {
+          "start": 55,
+          "length": 2,
+          "reading": "せいちょう"
+        }
+      ],
+      "1379030": [
+        {
+          "start": 26,
+          "length": 3,
+          "reading": "せいさんせい"
+        }
+      ],
+      "1422020": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "おくれ"
+        }
+      ],
+      "1554820": [
+        {
+          "start": 57,
+          "length": 1,
+          "reading": "りょく"
+        }
+      ],
+      "1588880": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "おおきく"
+        }
+      ],
+      "1645790": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "せいぞうぎょう"
+        }
+      ],
+      "1785120": [
+        {
+          "start": 35,
+          "length": 4,
+          "reading": "せつびとうし"
+        }
+      ],
+      "2658650": [
+        {
+          "start": 46,
+          "length": 5,
+          "reading": "ないがいかかくさ"
+        }
+      ],
+      "2660170": [
+        {
+          "start": 18,
+          "length": 4,
+          "reading": "ひせいぞうぎょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "151419",
+    "original": "私達は多少の遅れを考慮に入れなければいけません。",
+    "en": [
+      {
+        "id": "263137",
+        "text": "We must allow for some delays."
+      }
+    ],
+    "indices": "私たち{私達} は 多少[01]{多少の} 遅れ~ を 考慮に入れる{考慮に入れ}~ ねばならない{なければいけません}",
+    "vocabIds": [
+      "1465610",
+      "1311300",
+      "1407810",
+      "1422020",
+      "1281170"
+    ],
+    "matches": {
+      "1281170": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "こうりょ"
+        }
+      ],
+      "1311300": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "わたしたち"
+        }
+      ],
+      "1407810": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "たしょう"
+        }
+      ],
+      "1422020": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "おくれ"
+        }
+      ],
+      "1465610": [
+        {
+          "start": 12,
+          "length": 11,
+          "reading": "いれなければいけません"
+        }
+      ]
+    }
+  },
+  {
+    "id": "154151",
+    "original": "私は彼に後れを取らないように一生懸命勉強せねばならない。",
+    "en": [
+      {
+        "id": "260392",
+        "text": "I must study hard in order to keep up with him."
+      }
+    ],
+    "indices": "私(わたし)[01] は 彼(かれ) に 遅れを取る{後れを取らない} 様に{ように} 一生懸命 勉強[01]{勉強せ} ねばならない",
+    "vocabIds": [
+      "1164010",
+      "1326980",
+      "1422020",
+      "1512670",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1164010": [
+        {
+          "start": 14,
+          "length": 4,
+          "reading": "いっしょうけんめい"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1326980": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "とらない"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1422020": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "おくれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1512670": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "べんきょう"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "165742",
+    "original": "私たちは仕事の遅れをできるだけ早く取り戻さなければならない。",
+    "en": [
+      {
+        "id": "248763",
+        "text": "We have to catch up on our work as soon as possible."
+      }
+    ],
+    "indices": "私たち は 仕事[01]{仕事の} 遅れ を 出来るだけ{できるだけ} 早く[01] 取り戻す{取り戻さ} ねばならない{なければならない}",
+    "vocabIds": [
+      "1326940",
+      "2114420",
+      "1311300",
+      "1304970",
+      "1422020"
+    ],
+    "matches": {
+      "1304970": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "しごと"
+        }
+      ],
+      "1311300": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1326940": [
+        {
+          "start": 17,
+          "length": 12,
+          "reading": "とりもどさなければならない"
+        }
+      ],
+      "1422020": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "おくれ"
+        }
+      ],
+      "2114420": [
+        {
+          "start": 10,
+          "length": 7,
+          "reading": "できるだけはやく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "170513",
+    "original": "最終電車に遅れはしないかと気が気でなっかった。",
+    "en": [
+      {
+        "id": "243969",
+        "text": "I was impatient with fear of missing last train."
+      }
+    ],
+    "indices": "最終電車 に 遅れ は 為る(する){しない} か と 気が気でない{気が気でなっかった}~",
+    "vocabIds": [
+      "2607510",
+      "1422020",
+      "1221520"
+    ],
+    "matches": {
+      "1221520": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "き"
+        },
+        {
+          "start": 15,
+          "length": 1,
+          "reading": "き"
+        }
+      ],
+      "1422020": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "おくれ"
+        }
+      ],
+      "2607510": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "さいしゅうでんしゃ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "176464",
+    "original": "経済回復の遅れは自動車の売り上げを急落させました。",
+    "en": [
+      {
+        "id": "238000",
+        "text": "Slow economic recovery has sent auto sales plummeting."
+      }
+    ],
+    "indices": "経済回復~ の 遅れ は 自動車 の 売り上げ を 急落~ 為せる{させました}",
+    "vocabIds": [
+      "1251340",
+      "1588500",
+      "1318400",
+      "1422020",
+      "1229000"
+    ],
+    "matches": {
+      "1229000": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "きゅうらく"
+        }
+      ],
+      "1251340": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "けいざいかいふく"
+        }
+      ],
+      "1318400": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "じどうしゃ"
+        }
+      ],
+      "1422020": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "おくれ"
+        }
+      ],
+      "1588500": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "うりあげ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "185835",
+    "original": "我々は最近の研究に遅れをとっている。",
+    "en": [
+      {
+        "id": "22967",
+        "text": "We have not kept pace with the latest research."
+      }
+    ],
+    "indices": "我々 は 最近{最近の} 研究 に 遅れを取る{遅れをとっている}",
+    "vocabIds": [
+      "1607050",
+      "1293780",
+      "1258520",
+      "1422020"
+    ],
+    "matches": {
+      "1258520": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "けんきゅう"
+        }
+      ],
+      "1293780": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "さいきん"
+        }
+      ],
+      "1422020": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "おくれ"
+        }
+      ],
+      "1607050": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "われわれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "195189",
+    "original": "マラソンで誰も遅れをとらなかった。",
+    "en": [
+      {
+        "id": "32363",
+        "text": "Nobody fell behind in the marathon race."
+      }
+    ],
+    "indices": "マラソン(#1129290) で(#2028980) 誰も 遅れを取る{遅れをとらなかった}",
+    "vocabIds": [
+      "1416860",
+      "1422020"
+    ],
+    "matches": {
+      "1416860": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "だれも"
+        }
+      ],
+      "1422020": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "おくれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "202829",
+    "original": "ちょっとした事故が原因で、２、３便に遅れが出た。",
+    "en": [
+      {
+        "id": "40064",
+        "text": "A couple of flights were delayed on account of a minor accident."
+      }
+    ],
+    "indices": "一寸した{ちょっとした} 事故 が 原因 で(#2028980) 便(びん)[01]~ に 遅れ が 出る{出た}",
+    "vocabIds": [
+      "1313850",
+      "1261190",
+      "1422020",
+      "1338240",
+      "1461140",
+      "1579350",
+      "1177490",
+      "1512360"
+    ],
+    "matches": {
+      "1177490": [
+        {
+          "start": 16,
+          "length": 1,
+          "reading": "びん"
+        }
+      ],
+      "1261190": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "げんいん"
+        }
+      ],
+      "1313850": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "じこ"
+        }
+      ],
+      "1338240": [
+        {
+          "start": 21,
+          "length": 2,
+          "reading": "でた"
+        }
+      ],
+      "1422020": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "おくれ"
+        }
+      ],
+      "1461140": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "に"
+        }
+      ],
+      "1512360": [
+        {
+          "start": 16,
+          "length": 1,
+          "reading": "びん"
+        }
+      ],
+      "1579350": [
+        {
+          "start": 15,
+          "length": 1,
+          "reading": "さん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "207251",
+    "original": "その配達の遅れは交通渋滞のせいと考えた。",
+    "en": [
+      {
+        "id": "44502",
+        "text": "I attributed the delay in delivery to a traffic jam."
+      }
+    ],
+    "indices": "其の[01]{その} 配達 の 遅れ は 交通渋滞 の 所為(せい){せい} と 考える{考えた}",
+    "vocabIds": [
+      "1760790",
+      "1281020",
+      "1473140",
+      "1422020"
+    ],
+    "matches": {
+      "1281020": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "かんがえた"
+        }
+      ],
+      "1422020": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "おくれ"
+        }
+      ],
+      "1473140": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "はいたつ"
+        }
+      ],
+      "1760790": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "こうつうじゅうたい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "212732",
+    "original": "そのバスは十分遅れで到着した。",
+    "en": [
+      {
+        "id": "35293",
+        "text": "The bus arrived ten minutes behind time."
+      },
+      {
+        "id": "351267",
+        "text": "The bus arrived ten minutes late."
+      },
+      {
+        "id": "351268",
+        "text": "The bus was ten minutes late."
+      }
+    ],
+    "indices": "其の[01]{その} バス(#1098390) は 十分(じっぷん) 遅れ で(#2028980) 到着 為る(する){した}",
+    "vocabIds": [
+      "1335070",
+      "1335080",
+      "1422020",
+      "1449870"
+    ],
+    "matches": {
+      "1335070": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "じゅうぶん"
+        }
+      ],
+      "1335080": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "じゅうぶん"
+        }
+      ],
+      "1422020": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "おくれ"
+        }
+      ],
+      "1449870": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "とうちゃく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "219161",
+    "original": "この列車は青森を三十分遅れで出発したので、東京には昼前には到着しないと思う。",
+    "en": [
+      {
+        "id": "56477",
+        "text": "This train left Aomori thirty minutes late, so we won't arrive at Tokyo before noon, I'm afraid."
+      }
+    ],
+    "indices": "此の{この} 列車 は を 三十 分(ふん) 遅れ で(#2028980) 出発{出発した} ので 東京 には 昼前 には 到着 為る(する){しない} と 思う",
+    "vocabIds": [
+      "2859157",
+      "1558370",
+      "2845121",
+      "1422020",
+      "1340000",
+      "1447690",
+      "1426380",
+      "1449870",
+      "1589350"
+    ],
+    "matches": {
+      "1340000": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "しゅっぱつ"
+        }
+      ],
+      "1422020": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "おくれ"
+        }
+      ],
+      "1426380": [
+        {
+          "start": 25,
+          "length": 2,
+          "reading": "ひるまえ"
+        }
+      ],
+      "1447690": [
+        {
+          "start": 21,
+          "length": 2,
+          "reading": "とうきょう"
+        }
+      ],
+      "1449870": [
+        {
+          "start": 29,
+          "length": 2,
+          "reading": "とうちゃく"
+        }
+      ],
+      "1558370": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "れっしゃ"
+        }
+      ],
+      "1589350": [
+        {
+          "start": 35,
+          "length": 2,
+          "reading": "おもう"
+        }
+      ],
+      "2845121": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "あおもり"
+        }
+      ],
+      "2859157": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "さんじゅうふん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "230219",
+    "original": "アメリカの学生は数学で遅れをとっている。",
+    "en": [
+      {
+        "id": "67585",
+        "text": "American students are falling behind in math."
+      }
+    ],
+    "indices": "亜米利加{アメリカ} の 学生(がくせい) は 数学 で(#2028980) 遅れを取る{遅れをとっている}~",
+    "vocabIds": [
+      "1206900",
+      "1372980",
+      "1422020"
+    ],
+    "matches": {
+      "1206900": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "がくせい"
+        }
+      ],
+      "1372980": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "すうがく"
+        }
+      ],
+      "1422020": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "おくれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "379582",
+    "original": "谷口先生はお遅れになったでしょうね。",
+    "en": [
+      {
+        "id": "505418",
+        "text": "It looks like Mr Taniguchi is late, doesn't it?"
+      }
+    ],
+    "indices": "",
+    "vocabIds": [
+      "1387990",
+      "1422020"
+    ],
+    "matches": {
+      "1387990": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "せんせい"
+        }
+      ],
+      "1422020": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "おくれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1045034",
+    "original": "バスは予定の時間より１０分遅れで着いた。",
+    "en": [
+      {
+        "id": "35293",
+        "text": "The bus arrived ten minutes behind time."
+      },
+      {
+        "id": "351267",
+        "text": "The bus arrived ten minutes late."
+      }
+    ],
+    "vocabIds": [
+      "1335070",
+      "1422970",
+      "1607260",
+      "1543240",
+      "1315920",
+      "1422020"
+    ],
+    "matches": {
+      "1315920": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "じかん"
+        }
+      ],
+      "1335070": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "いちぜろふん"
+        }
+      ],
+      "1422020": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "おくれ"
+        }
+      ],
+      "1422970": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "ついた"
+        }
+      ],
+      "1543240": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "よてい"
+        }
+      ],
+      "1607260": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "ついた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1255133",
+    "original": "その遅れは私たちに高級ホテルでの宿泊を余儀なくさせた。",
+    "en": [
+      {
+        "id": "63033",
+        "text": "The delay forced us to stay overnight in an expensive hotel."
+      }
+    ],
+    "vocabIds": [
+      "2851640",
+      "1855120",
+      "1311300",
+      "1422020",
+      "1337300"
+    ],
+    "matches": {
+      "1311300": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1337300": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "しゅくはく"
+        }
+      ],
+      "1422020": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "おくれ"
+        }
+      ],
+      "1855120": [
+        {
+          "start": 19,
+          "length": 4,
+          "reading": "よぎなく"
+        }
+      ],
+      "2851640": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "こうきゅうほてる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8855520",
+    "original": "トムは30分遅れで現れた。",
+    "en": [
+      {
+        "id": "8855491",
+        "text": "Tom turned up thirty minutes late."
+      }
+    ],
+    "vocabIds": [
+      "1263510",
+      "1422020",
+      "1502860"
+    ],
+    "matches": {
+      "1263510": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "あらわれた"
+        }
+      ],
+      "1422020": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "おくれ"
+        }
+      ],
+      "1502860": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "ふん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8861288",
+    "original": "トムは１時間遅れで着くよ。",
+    "en": [
+      {
+        "id": "1092281",
+        "text": "Tom will be arriving an hour late."
+      }
+    ],
+    "vocabIds": [
+      "1162940",
+      "1422020",
+      "1422970",
+      "1607260"
+    ],
+    "matches": {
+      "1162940": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "いちじかん"
+        }
+      ],
+      "1422020": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "おくれ"
+        }
+      ],
+      "1422970": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "つく"
+        }
+      ],
+      "1607260": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "つく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9803148",
+    "original": "遅れを取り戻せればなあ。",
+    "en": [
+      {
+        "id": "277397",
+        "text": "I wish I could make up for lost time."
+      }
+    ],
+    "vocabIds": [
+      "1422020"
+    ],
+    "matches": {
+      "1422020": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おくれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10079745",
+    "original": "悪天候のため、飛行機は３時間遅れで到着しました。",
+    "en": [
+      {
+        "id": "28542",
+        "text": "Due to bad weather, the plane arrived three hours late."
+      },
+      {
+        "id": "10079746",
+        "text": "The plane arrived three hours late because of bad weather."
+      }
+    ],
+    "vocabIds": [
+      "1152280",
+      "1485470",
+      "1315920",
+      "1422020",
+      "1449870",
+      "1579350"
+    ],
+    "matches": {
+      "1152280": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あくてんこう"
+        }
+      ],
+      "1315920": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "じかん"
+        }
+      ],
+      "1422020": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "おくれ"
+        }
+      ],
+      "1449870": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "とうちゃく"
+        }
+      ],
+      "1485470": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "ひこうき"
+        }
+      ],
+      "1579350": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "さん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10156451",
+    "original": "ある程度の遅れは見越しておかないと。",
+    "en": [
+      {
+        "id": "274958",
+        "text": "We must allow for some delay."
+      }
+    ],
+    "vocabIds": [
+      "1259330",
+      "1981700",
+      "1422020"
+    ],
+    "matches": {
+      "1259330": [
+        {
+          "start": 8,
+          "length": 9,
+          "reading": "みこしておかないと"
+        }
+      ],
+      "1422020": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "おくれ"
+        }
+      ],
+      "1981700": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "あるていど"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10177420",
+    "original": "レール温度が上昇した影響で、列車は３０分遅れで到着した。",
+    "en": [
+      {
+        "id": "10177426",
+        "text": "The train arrived 30 minutes late due to a rise in the temperature of the rails."
+      }
+    ],
+    "indices": "レール[01]~ 温度が 上昇 為る(する){した} 影響 で 列車 は NI{３０分} 遅れ で 到着 為る(する){した}",
+    "vocabIds": [
+      "2859157",
+      "1183510",
+      "1353450",
+      "1173660",
+      "1558370",
+      "1422020",
+      "1449870"
+    ],
+    "matches": {
+      "1173660": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "えいきょう"
+        }
+      ],
+      "1183510": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "おんど"
+        }
+      ],
+      "1353450": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "じょうしょう"
+        }
+      ],
+      "1422020": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "おくれ"
+        }
+      ],
+      "1449870": [
+        {
+          "start": 23,
+          "length": 2,
+          "reading": "とうちゃく"
+        }
+      ],
+      "1558370": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "れっしゃ"
+        }
+      ],
+      "2859157": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "さんぜろふん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10269059",
+    "original": "電車は１０分遅れで到着しました。",
+    "en": [
+      {
+        "id": "326231",
+        "text": "The train arrived ten minutes behind time."
+      },
+      {
+        "id": "2523826",
+        "text": "The train arrived ten minutes late."
+      }
+    ],
+    "vocabIds": [
+      "1335070",
+      "1443530",
+      "1422020",
+      "1449870"
+    ],
+    "matches": {
+      "1335070": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "いちぜろふん"
+        }
+      ],
+      "1422020": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "おくれ"
+        }
+      ],
+      "1443530": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "でんしゃ"
+        }
+      ],
+      "1449870": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "とうちゃく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10588108",
+    "original": "積雪の影響で配達に遅れが生じている。",
+    "en": [
+      {
+        "id": "10906026",
+        "text": "Delays in deliveries are occurring due to accumulated snow."
+      }
+    ],
+    "vocabIds": [
+      "1378650",
+      "1383060",
+      "1173660",
+      "1473140",
+      "1422020"
+    ],
+    "matches": {
+      "1173660": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "えいきょう"
+        }
+      ],
+      "1378650": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "しょうじている"
+        }
+      ],
+      "1383060": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "せきせつ"
+        }
+      ],
+      "1422020": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "おくれ"
+        }
+      ],
+      "1473140": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "はいたつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11029662",
+    "original": "予定より３０分遅れだよ。",
+    "en": [
+      {
+        "id": "278456",
+        "text": "They're 30 minutes behind schedule."
+      }
+    ],
+    "vocabIds": [
+      "2859157",
+      "1543240",
+      "1422020"
+    ],
+    "matches": {
+      "1422020": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "おくれ"
+        }
+      ],
+      "1543240": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "よてい"
+        }
+      ],
+      "2859157": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "さんぜろふん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11344977",
+    "original": "電車は１０分遅れだった。",
+    "en": [
+      {
+        "id": "43447",
+        "text": "The train was ten minutes behind time."
+      }
+    ],
+    "vocabIds": [
+      "1335070",
+      "1443530",
+      "1422020"
+    ],
+    "matches": {
+      "1335070": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "いちぜろふん"
+        }
+      ],
+      "1422020": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "おくれ"
+        }
+      ],
+      "1443530": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "でんしゃ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11737664",
+    "original": "電車は3時間遅れでした。",
+    "en": [
+      {
+        "id": "10006293",
+        "text": "The train was three hours late."
+      }
+    ],
+    "vocabIds": [
+      "1443530",
+      "1315920",
+      "1422020"
+    ],
+    "matches": {
+      "1315920": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "じかん"
+        }
+      ],
+      "1422020": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "おくれ"
+        }
+      ],
+      "1443530": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "でんしゃ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11617442",
+    "original": "娘は、出産予定日より1日遅れで産まれました。",
+    "en": [
+      {
+        "id": "11760994",
+        "text": "I had my daughter a day later than the expected delivery date."
+      }
+    ],
+    "vocabIds": [
+      "1378690",
+      "2538630",
+      "1422020",
+      "1355930",
+      "1531190",
+      "1463770"
+    ],
+    "matches": {
+      "1355930": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "むすめ"
+        }
+      ],
+      "1378690": [
+        {
+          "start": 15,
+          "length": 6,
+          "reading": "うまれました"
+        }
+      ],
+      "1422020": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "おくれ"
+        }
+      ],
+      "1463770": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "にち"
+        }
+      ],
+      "1531190": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "むすめ"
+        }
+      ],
+      "2538630": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "しゅっさんよていび"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11027832",
+    "original": "それぐらいの遅れなら我慢できる。",
+    "en": [
+      {
+        "id": "12418712",
+        "text": "If you are only this late, I can put up with it."
+      }
+    ],
+    "vocabIds": [
+      "1422020",
+      "1196970"
+    ],
+    "matches": {
+      "1196970": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "がまん"
+        }
+      ],
+      "1422020": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "おくれ"
+        }
+      ]
+    }
+  }
+]

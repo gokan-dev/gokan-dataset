@@ -1,0 +1,242 @@
+[
+  {
+    "id": "121665",
+    "original": "波が浜に打ち寄せている。",
+    "en": [
+      {
+        "id": "282340",
+        "text": "Waves are beating the shore."
+      }
+    ],
+    "indices": "波 が 浜 に 打ち寄せる{打ち寄せている}",
+    "vocabIds": [
+      "1849490",
+      "1470970",
+      "1490710"
+    ],
+    "matches": {
+      "1470970": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "なみ"
+        }
+      ],
+      "1490710": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "はま"
+        }
+      ],
+      "1849490": [
+        {
+          "start": 4,
+          "length": 7,
+          "reading": "うちよせている"
+        }
+      ]
+    }
+  },
+  {
+    "id": "121668",
+    "original": "波が岩に打ち寄せた。",
+    "en": [
+      {
+        "id": "282337",
+        "text": "The waves washed upon the rocks."
+      }
+    ],
+    "indices": "波 が 岩 に 打ち寄せる{打ち寄せた}",
+    "vocabIds": [
+      "1849490",
+      "1470970",
+      "1217270"
+    ],
+    "matches": {
+      "1217270": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "いわ"
+        }
+      ],
+      "1470970": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "なみ"
+        }
+      ],
+      "1849490": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "うちよせた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "121670",
+    "original": "波が海岸に激しく打ち寄せていた。",
+    "en": [
+      {
+        "id": "282335",
+        "text": "Waves were battering the shore."
+      }
+    ],
+    "indices": "波 が 海岸 に 激しい{激しく} 打ち寄せる{打ち寄せていた}~",
+    "vocabIds": [
+      "1849490",
+      "1600720",
+      "1201280",
+      "1470970"
+    ],
+    "matches": {
+      "1201280": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "かいがん"
+        }
+      ],
+      "1470970": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "なみ"
+        }
+      ],
+      "1600720": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "はげしく"
+        }
+      ],
+      "1849490": [
+        {
+          "start": 8,
+          "length": 7,
+          "reading": "うちよせていた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "455730",
+    "original": "辛い過去の記憶が波のように彼の頭の中に打ち寄せているのか、彼は渋面をつくった。",
+    "en": [
+      {
+        "id": "533361",
+        "text": "He grimaced as if memories of his bitter past were crashing like waves inside his head."
+      }
+    ],
+    "vocabIds": [
+      "1849490",
+      "1365860",
+      "1196030",
+      "1223150",
+      "1000420",
+      "1579910",
+      "1470970",
+      "1483070",
+      "1582310",
+      "2252700",
+      "1423310",
+      "2098290"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "かれの"
+        },
+        {
+          "start": 29,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1196030": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "かこ"
+        }
+      ],
+      "1223150": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "きおく"
+        }
+      ],
+      "1365860": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "つらい"
+        }
+      ],
+      "1423310": [
+        {
+          "start": 17,
+          "length": 1,
+          "reading": "なか"
+        }
+      ],
+      "1470970": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "なみ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 29,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1579910": [
+        {
+          "start": 31,
+          "length": 2,
+          "reading": "じゅうめん"
+        }
+      ],
+      "1582310": [
+        {
+          "start": 15,
+          "length": 1,
+          "reading": "あたま"
+        }
+      ],
+      "1849490": [
+        {
+          "start": 19,
+          "length": 7,
+          "reading": "うちよせている"
+        }
+      ],
+      "2098290": [
+        {
+          "start": 17,
+          "length": 1,
+          "reading": "なか"
+        }
+      ],
+      "2252700": [
+        {
+          "start": 15,
+          "length": 1,
+          "reading": "あたま"
+        }
+      ]
+    }
+  }
+]

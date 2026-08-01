@@ -1,0 +1,118 @@
+[
+  {
+    "id": "234291",
+    "original": "アドレス帳を部屋に忘れちゃった。",
+    "en": [
+      {
+        "id": "71666",
+        "text": "I left my address book in my room."
+      }
+    ],
+    "indices": "アドレス帳~ を 部屋[01] に 忘れる{忘れ} じゃう{ちゃった}",
+    "vocabIds": [
+      "1519210",
+      "1017250",
+      "1499320"
+    ],
+    "matches": {
+      "1017250": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "あどれすちょう"
+        }
+      ],
+      "1499320": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "へや"
+        }
+      ],
+      "1519210": [
+        {
+          "start": 9,
+          "length": 6,
+          "reading": "わすれちゃった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "234292",
+    "original": "アドレス帳がバグってしまい、あなたのを含むたくさんのアドレスが消えてしまいました。",
+    "en": [
+      {
+        "id": "71667",
+        "text": "There was a bug in my Address Book and many addresses including yours were deleted."
+      }
+    ],
+    "indices": "アドレス帳 が バグる{バグって}~ 仕舞う{しまい} 貴方(あなた)[01]{あなた} の を 含む[01] 沢山{たくさん} の アドレス[03] が 消える{消えて} 仕舞う{しまいました}",
+    "vocabIds": [
+      "1350040",
+      "1017250",
+      "1216880"
+    ],
+    "matches": {
+      "1017250": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "あどれすちょう"
+        }
+      ],
+      "1216880": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "ふくむ"
+        }
+      ],
+      "1350040": [
+        {
+          "start": 31,
+          "length": 9,
+          "reading": "きえてしまいました"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1195626",
+    "original": "トムはメアリーの電話番号をアドレス帳に書き留めた。",
+    "en": [
+      {
+        "id": "1193928",
+        "text": "Tom wrote Mary's phone number in his little black book."
+      }
+    ],
+    "vocabIds": [
+      "1017250",
+      "1343940",
+      "1443940"
+    ],
+    "matches": {
+      "1017250": [
+        {
+          "start": 13,
+          "length": 5,
+          "reading": "あどれすちょう"
+        }
+      ],
+      "1343940": [
+        {
+          "start": 19,
+          "length": 5,
+          "reading": "かきとめた"
+        }
+      ],
+      "1443940": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "でんわばんごう"
+        }
+      ]
+    }
+  }
+]

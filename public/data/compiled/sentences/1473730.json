@@ -1,0 +1,88 @@
+[
+  {
+    "id": "104745",
+    "original": "彼は質屋から時計買い戻した。",
+    "en": [
+      {
+        "id": "298946",
+        "text": "He redeemed his watch from the pawnbroker."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 質屋~ から 時計 買い戻す{買い戻した}",
+    "vocabIds": [
+      "1473730",
+      "1320670",
+      "1316140",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1316140": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "とけい"
+        }
+      ],
+      "1320670": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "しちや"
+        }
+      ],
+      "1473730": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "かいもどした"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "204537",
+    "original": "それを買い戻すのに５ポンドかかった。",
+    "en": [
+      {
+        "id": "41778",
+        "text": "It cost him five pounds to buy it back."
+      }
+    ],
+    "indices": "其れ[01]{それ} を 買い戻す~ のに 听{ポンド} 掛かる[01]{かかった}",
+    "vocabIds": [
+      "1473730",
+      "1268060"
+    ],
+    "matches": {
+      "1268060": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "ご"
+        }
+      ],
+      "1473730": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "かいもどす"
+        }
+      ]
+    }
+  }
+]

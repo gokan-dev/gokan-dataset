@@ -1,0 +1,119 @@
+[
+  {
+    "id": "82499",
+    "original": "暴風雨のため道路工事が中止された。",
+    "en": [
+      {
+        "id": "321216",
+        "text": "Work on the road was suspended because of the storm."
+      }
+    ],
+    "indices": "暴風雨 の 為(ため)[03]{ため} 道路工事 が 中止[01]~ 為れる{された}",
+    "vocabIds": [
+      "1454300",
+      "1519550",
+      "1424410"
+    ],
+    "matches": {
+      "1424410": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "ちゅうし"
+        }
+      ],
+      "1454300": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "どうろこうじ"
+        }
+      ],
+      "1519550": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ぼうふうう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "137577",
+    "original": "大規模な道路工事が始まった。",
+    "en": [
+      {
+        "id": "275659",
+        "text": "Large-scale road construction began."
+      }
+    ],
+    "indices": "大規模{大規模な} 道路工事~ が 始まる{始まった}",
+    "vocabIds": [
+      "1454300",
+      "1307500",
+      "1413350"
+    ],
+    "matches": {
+      "1307500": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "はじまった"
+        }
+      ],
+      "1413350": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "だいきぼ"
+        }
+      ],
+      "1454300": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "どうろこうじ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "236210",
+    "original": "「道路工事中」",
+    "en": [
+      {
+        "id": "73586",
+        "text": "\"Road under Repair.\""
+      }
+    ],
+    "indices": "道路 工事中",
+    "vocabIds": [
+      "1454300",
+      "1423310",
+      "2098290"
+    ],
+    "matches": {
+      "1423310": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "ちゅう"
+        }
+      ],
+      "1454300": [
+        {
+          "start": 1,
+          "length": 4,
+          "reading": "どうろこうじ"
+        }
+      ],
+      "2098290": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "ちゅう"
+        }
+      ]
+    }
+  }
+]

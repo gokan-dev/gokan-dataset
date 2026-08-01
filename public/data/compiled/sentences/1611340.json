@@ -1,0 +1,72 @@
+[
+  {
+    "id": "85426",
+    "original": "筆記用具を持って来るのを忘れた。",
+    "en": [
+      {
+        "id": "318286",
+        "text": "I have forgotten to bring something to write with."
+      }
+    ],
+    "indices": "筆記用具 を 持ってくる{持って来る} の を 忘れる{忘れた}",
+    "vocabIds": [
+      "1315710",
+      "1611340",
+      "1519210"
+    ],
+    "matches": {
+      "1315710": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "もってくる"
+        }
+      ],
+      "1519210": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "わすれた"
+        }
+      ],
+      "1611340": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "ひっきようぐ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "196606",
+    "original": "ペンや鉛筆は筆記用具である。",
+    "en": [
+      {
+        "id": "33785",
+        "text": "Pens and pencils are examples of writing tools."
+      }
+    ],
+    "indices": "ペン や 鉛筆 は 筆記用具~ である",
+    "vocabIds": [
+      "1611340",
+      "1178590"
+    ],
+    "matches": {
+      "1178590": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "えんぴつ"
+        }
+      ],
+      "1611340": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "ひっきようぐ"
+        }
+      ]
+    }
+  }
+]

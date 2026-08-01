@@ -1,0 +1,96 @@
+[
+  {
+    "id": "155301",
+    "original": "足し算は好きだけど引き算は嫌いだ。",
+    "en": [
+      {
+        "id": "259238",
+        "text": "I like addition but not subtraction."
+      }
+    ],
+    "indices": "足し算 は 好き(すき) だけど 引き算~ は 嫌い だ",
+    "vocabIds": [
+      "1404680",
+      "1601610",
+      "1277450",
+      "1257240"
+    ],
+    "matches": {
+      "1257240": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "きらい"
+        }
+      ],
+      "1277450": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "すき"
+        }
+      ],
+      "1404680": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "たしざん"
+        }
+      ],
+      "1601610": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "ひきざん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "168446",
+    "original": "子供達は、足し算と引き算を習っている。",
+    "en": [
+      {
+        "id": "246045",
+        "text": "The children are learning to add and subtract."
+      }
+    ],
+    "indices": "子供たち{子供達} は 足し算 と 引き算 を 習う{習っている}",
+    "vocabIds": [
+      "1333070",
+      "1307870",
+      "1404680",
+      "1601610"
+    ],
+    "matches": {
+      "1307870": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "こどもたち"
+        }
+      ],
+      "1333070": [
+        {
+          "start": 13,
+          "length": 5,
+          "reading": "ならっている"
+        }
+      ],
+      "1404680": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "たしざん"
+        }
+      ],
+      "1601610": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "ひきざん"
+        }
+      ]
+    }
+  }
+]

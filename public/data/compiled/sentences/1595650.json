@@ -1,0 +1,2274 @@
+[
+  {
+    "id": "74942",
+    "original": "お寿司で一番好きなネタは何ですか？",
+    "en": [
+      {
+        "id": "328777",
+        "text": "What's your favourite type of sushi?"
+      },
+      {
+        "id": "779490",
+        "text": "What's your favorite kind of sushi?"
+      },
+      {
+        "id": "12090304",
+        "text": "What's your favorite sushi?"
+      }
+    ],
+    "indices": "御(お){お} 寿司 で(#2028980) 一番(いちばん) 好き(すき){好きな} ねた[05]{ネタ}~ は 何 ですか",
+    "vocabIds": [
+      "1595650",
+      "1165970",
+      "1277450",
+      "1577100"
+    ],
+    "matches": {
+      "1165970": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "いちばん"
+        }
+      ],
+      "1277450": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "すき"
+        }
+      ],
+      "1577100": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "なに"
+        }
+      ],
+      "1595650": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "すし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "88805",
+    "original": "彼女は寿司が好きではありません。",
+    "en": [
+      {
+        "id": "314902",
+        "text": "She doesn't care for sushi."
+      },
+      {
+        "id": "508748",
+        "text": "She doesn't like sushi."
+      },
+      {
+        "id": "621807",
+        "text": "She does not like sushi."
+      }
+    ],
+    "indices": "彼女[01] は 寿司 が 好き(すき) で(#2028980) は 有る{ありません}",
+    "vocabIds": [
+      "1483150",
+      "1595650",
+      "1277450"
+    ],
+    "matches": {
+      "1277450": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "すき"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1595650": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "すし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "148354",
+    "original": "寿司を食べてみませんか。",
+    "en": [
+      {
+        "id": "266205",
+        "text": "How about trying some sushi?"
+      }
+    ],
+    "indices": "寿司 を 食べる{食べて} 見る[05]{みません} か",
+    "vocabIds": [
+      "1358280",
+      "1595650"
+    ],
+    "matches": {
+      "1358280": [
+        {
+          "start": 3,
+          "length": 7,
+          "reading": "たべてみません"
+        }
+      ],
+      "1595650": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "すし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "148355",
+    "original": "寿司をご馳走します。",
+    "en": [
+      {
+        "id": "266204",
+        "text": "I'll treat you to sushi."
+      }
+    ],
+    "indices": "寿司 を ご馳走[01] 為る(する){します}",
+    "vocabIds": [
+      "1593590",
+      "1595650"
+    ],
+    "matches": {
+      "1593590": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "ごちそう"
+        }
+      ],
+      "1595650": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "すし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "148356",
+    "original": "寿司は食べる気がしない。",
+    "en": [
+      {
+        "id": "266203",
+        "text": "I don't feel like eating sushi."
+      }
+    ],
+    "indices": "寿司 は 食べる 気がする{気がしない}",
+    "vocabIds": [
+      "1358280",
+      "1595650",
+      "1221520"
+    ],
+    "matches": {
+      "1221520": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "き"
+        }
+      ],
+      "1358280": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "たべる"
+        }
+      ],
+      "1595650": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "すし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "148357",
+    "original": "寿司が嫌いです。",
+    "en": [
+      {
+        "id": "266201",
+        "text": "I don't like sushi."
+      },
+      {
+        "id": "1192585",
+        "text": "I hate sushi."
+      }
+    ],
+    "indices": "寿司 が 嫌い です",
+    "vocabIds": [
+      "1595650",
+      "1257240"
+    ],
+    "matches": {
+      "1257240": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "きらい"
+        }
+      ],
+      "1595650": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "すし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "148358",
+    "original": "寿司は好きですか。",
+    "en": [
+      {
+        "id": "266202",
+        "text": "Do you like sushi?"
+      }
+    ],
+    "indices": "寿司 は 好き(すき) ですか",
+    "vocabIds": [
+      "1595650",
+      "1277450"
+    ],
+    "matches": {
+      "1277450": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "すき"
+        }
+      ],
+      "1595650": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "すし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "156051",
+    "original": "私は寿司を注文し、ジョンはてんぷらを注文した。",
+    "en": [
+      {
+        "id": "258485",
+        "text": "I ordered sushi, and John tempura."
+      }
+    ],
+    "indices": "私(わたし)[01] は 寿司 を 注文(ちゅうもん)[01] 為る(する){し} は 天婦羅{てんぷら}~ を 注文(ちゅうもん)[01] 為る(する){した}",
+    "vocabIds": [
+      "1595650",
+      "1426650",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1426650": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ちゅうもん"
+        },
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "ちゅうもん"
+        }
+      ],
+      "1595650": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "すし"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "167679",
+    "original": "私が出した高価な寿司を誰も食べなかったのにはがっかりした。",
+    "en": [
+      {
+        "id": "246821",
+        "text": "It was disappointing that nobody ate the expensive sushi I had served."
+      }
+    ],
+    "indices": "私(わたし)[01] が 出す{出した} 高価{高価な} 寿司 を 誰も 食べる{食べなかった} の には がっかり 為る(する){した}",
+    "vocabIds": [
+      "1358280",
+      "1338180",
+      "1283300",
+      "1595650",
+      "1416860",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1283300": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "こうか"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1338180": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "だした"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1358280": [
+        {
+          "start": 13,
+          "length": 6,
+          "reading": "たべなかった"
+        }
+      ],
+      "1416860": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "だれも"
+        }
+      ],
+      "1595650": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "すし"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "171179",
+    "original": "今夜、寿司を食べに行きませんか。",
+    "en": [
+      {
+        "id": "243298",
+        "text": "Do you want to have sushi tonight?"
+      }
+    ],
+    "indices": "今夜 寿司 を 食べる{食べ} に 行く[01]{行きません} か",
+    "vocabIds": [
+      "1578850",
+      "1358280",
+      "1289520",
+      "1595650"
+    ],
+    "matches": {
+      "1289520": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こんや"
+        }
+      ],
+      "1358280": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "たべ"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "いきません"
+        }
+      ],
+      "1595650": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "すし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "220431",
+    "original": "この店の寿司はおいしいよ。",
+    "en": [
+      {
+        "id": "57753",
+        "text": "The sushi at this shop tastes good."
+      }
+    ],
+    "indices": "此の{この} 店(みせ) の 寿司 は 美味しい{おいしい} よ",
+    "vocabIds": [
+      "1595650",
+      "1582120"
+    ],
+    "matches": {
+      "1582120": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "みせ"
+        }
+      ],
+      "1595650": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "すし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "226268",
+    "original": "かなり多くのアメリカ人が寿司を好む。",
+    "en": [
+      {
+        "id": "63608",
+        "text": "Quite a few Americans like sushi."
+      }
+    ],
+    "indices": "可也{かなり} 多く の アメリカ人 が 寿司~ を 好む~",
+    "vocabIds": [
+      "1018890",
+      "1861770",
+      "1595650",
+      "1277520"
+    ],
+    "matches": {
+      "1018890": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "あめりかじん"
+        }
+      ],
+      "1277520": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "このむ"
+        }
+      ],
+      "1595650": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "すし"
+        }
+      ],
+      "1861770": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "おおく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "227030",
+    "original": "お寿司を食べましょう。",
+    "en": [
+      {
+        "id": "64378",
+        "text": "Let's have sushi."
+      },
+      {
+        "id": "449059",
+        "text": "Let's eat sushi."
+      }
+    ],
+    "indices": "御(お){お} 寿司 を 食べる{食べましょう}",
+    "vocabIds": [
+      "1358280",
+      "1595650"
+    ],
+    "matches": {
+      "1358280": [
+        {
+          "start": 4,
+          "length": 6,
+          "reading": "たべましょう"
+        }
+      ],
+      "1595650": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "すし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "231864",
+    "original": "あなたは寿司と天ぷら、どっちが好き。",
+    "en": [
+      {
+        "id": "69231",
+        "text": "Which do you like better, sushi or tempura?"
+      }
+    ],
+    "indices": "貴方(あなた)[01]{あなた} は 寿司 と 天婦羅{天ぷら} 何方(どちら)[02]{どっち} が 好き(すき)",
+    "vocabIds": [
+      "1440590",
+      "1595650",
+      "1277450"
+    ],
+    "matches": {
+      "1277450": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "すき"
+        }
+      ],
+      "1440590": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "てんぷら"
+        }
+      ],
+      "1595650": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "すし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "232019",
+    "original": "あなたは昨日寿司を食べましたね。",
+    "en": [
+      {
+        "id": "69386",
+        "text": "You ate sushi yesterday, didn't you?"
+      }
+    ],
+    "indices": "貴方(あなた)[01]{あなた} は 昨日 寿司 を 食べる{食べました} ね(#2029080)[01]",
+    "vocabIds": [
+      "1358280",
+      "1579260",
+      "1595650"
+    ],
+    "matches": {
+      "1358280": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "たべました"
+        }
+      ],
+      "1579260": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "きのう"
+        }
+      ],
+      "1595650": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "すし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "882485",
+    "original": "寿司が好きです。",
+    "en": [
+      {
+        "id": "810883",
+        "text": "I like sushi."
+      }
+    ],
+    "vocabIds": [
+      "1595650",
+      "1277450"
+    ],
+    "matches": {
+      "1277450": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "すき"
+        }
+      ],
+      "1595650": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "すし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1192060",
+    "original": "今、寿司とビールをお腹に入れたところだ。",
+    "en": [
+      {
+        "id": "859082",
+        "text": "I've just eaten some sushi and drunk a beer."
+      }
+    ],
+    "vocabIds": [
+      "1465610",
+      "1595650",
+      "1002610",
+      "1288850"
+    ],
+    "matches": {
+      "1002610": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "おなか"
+        }
+      ],
+      "1288850": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "いま"
+        }
+      ],
+      "1465610": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "いれた"
+        }
+      ],
+      "1595650": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "すし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1192342",
+    "original": "今、寿司を食べて、ビールを飲んだところだ。",
+    "en": [
+      {
+        "id": "859082",
+        "text": "I've just eaten some sushi and drunk a beer."
+      }
+    ],
+    "vocabIds": [
+      "1358280",
+      "1169870",
+      "1595650",
+      "1288850"
+    ],
+    "matches": {
+      "1169870": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "のんだ"
+        }
+      ],
+      "1288850": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "いま"
+        }
+      ],
+      "1358280": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "たべて"
+        }
+      ],
+      "1595650": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "すし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1629233",
+    "original": "昨日お寿司を食べたんだよね？",
+    "en": [
+      {
+        "id": "69386",
+        "text": "You ate sushi yesterday, didn't you?"
+      }
+    ],
+    "vocabIds": [
+      "1358280",
+      "1579260",
+      "1595650"
+    ],
+    "matches": {
+      "1358280": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "たべた"
+        }
+      ],
+      "1579260": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きのう"
+        }
+      ],
+      "1595650": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "すし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1629235",
+    "original": "お寿司が大好きなアメリカ人は少なくない。",
+    "en": [
+      {
+        "id": "1634802",
+        "text": "Americans who love sushi are not in short supply."
+      }
+    ],
+    "vocabIds": [
+      "1018890",
+      "2666360",
+      "1413660",
+      "1595650"
+    ],
+    "matches": {
+      "1018890": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "あめりかじん"
+        }
+      ],
+      "1413660": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "だいすき"
+        }
+      ],
+      "1595650": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "すし"
+        }
+      ],
+      "2666360": [
+        {
+          "start": 14,
+          "length": 5,
+          "reading": "すくなくない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2337880",
+    "original": "寿司はおいしいです。",
+    "en": [
+      {
+        "id": "2337881",
+        "text": "Sushi is delicious."
+      }
+    ],
+    "vocabIds": [
+      "1595650"
+    ],
+    "matches": {
+      "1595650": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "すし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2348979",
+    "original": "寿司を手で食べる人もいる。",
+    "en": [
+      {
+        "id": "954279",
+        "text": "Some people eat sushi with their hands."
+      }
+    ],
+    "vocabIds": [
+      "1358280",
+      "1595650",
+      "1327190",
+      "1580640"
+    ],
+    "matches": {
+      "1327190": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "て"
+        }
+      ],
+      "1358280": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "たべる"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ],
+      "1595650": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "すし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2797552",
+    "original": "お寿司もいいけどタイ料理のほうがいいな。",
+    "en": [
+      {
+        "id": "2798225",
+        "text": "Sushi sounds good, but I'd rather eat Thai food."
+      },
+      {
+        "id": "2798238",
+        "text": "Sushi is OK, but I'd prefer Thai food."
+      }
+    ],
+    "vocabIds": [
+      "2682420",
+      "1595650"
+    ],
+    "matches": {
+      "1595650": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "すし"
+        }
+      ],
+      "2682420": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "たいりょうり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3245679",
+    "original": "日本人って毎日お寿司食べてるの？",
+    "en": [
+      {
+        "id": "3255262",
+        "text": "Do Japanese people eat sushi every day?"
+      },
+      {
+        "id": "10145758",
+        "text": "Do Japanese eat sushi every day?"
+      }
+    ],
+    "vocabIds": [
+      "1358280",
+      "1464700",
+      "1524720",
+      "1595650"
+    ],
+    "matches": {
+      "1358280": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "たべてる"
+        }
+      ],
+      "1464700": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "にっぽんじん"
+        }
+      ],
+      "1524720": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "まいにち"
+        }
+      ],
+      "1595650": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "すし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8969914",
+    "original": "トムが寿司を食べたことがないって言ってた。",
+    "en": [
+      {
+        "id": "8155051",
+        "text": "Tom said he's never eaten sushi."
+      },
+      {
+        "id": "8155053",
+        "text": "Tom said that he's never eaten sushi."
+      }
+    ],
+    "vocabIds": [
+      "1587040",
+      "1358280",
+      "1595650"
+    ],
+    "matches": {
+      "1358280": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "たべた"
+        }
+      ],
+      "1587040": [
+        {
+          "start": 16,
+          "length": 4,
+          "reading": "いってた"
+        }
+      ],
+      "1595650": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "すし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9106841",
+    "original": "寿司を食べようよ。",
+    "en": [
+      {
+        "id": "449059",
+        "text": "Let's eat sushi."
+      }
+    ],
+    "vocabIds": [
+      "1358280",
+      "1595650"
+    ],
+    "matches": {
+      "1358280": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "たべよう"
+        }
+      ],
+      "1595650": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "すし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9203488",
+    "original": "東京にいた時は、毎日寿司を食べてたよ。",
+    "en": [
+      {
+        "id": "9203048",
+        "text": "I had sushi every day in Tokyo."
+      },
+      {
+        "id": "9203494",
+        "text": "When I was in Tokyo, I ate sushi every day."
+      }
+    ],
+    "vocabIds": [
+      "1358280",
+      "1447690",
+      "1524720",
+      "1595650",
+      "1315840"
+    ],
+    "matches": {
+      "1315840": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "とき"
+        }
+      ],
+      "1358280": [
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "たべてた"
+        }
+      ],
+      "1447690": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とうきょう"
+        }
+      ],
+      "1524720": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "まいにち"
+        }
+      ],
+      "1595650": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "すし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9203489",
+    "original": "東京にいる間は、毎日寿司を食べてたんだ。",
+    "en": [
+      {
+        "id": "9203048",
+        "text": "I had sushi every day in Tokyo."
+      },
+      {
+        "id": "9203493",
+        "text": "While I was in Tokyo, I ate sushi every day."
+      }
+    ],
+    "vocabIds": [
+      "1358280",
+      "1447690",
+      "1524720",
+      "1595650",
+      "1215230",
+      "1630250"
+    ],
+    "matches": {
+      "1215230": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "ま"
+        }
+      ],
+      "1358280": [
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "たべてた"
+        }
+      ],
+      "1447690": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とうきょう"
+        }
+      ],
+      "1524720": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "まいにち"
+        }
+      ],
+      "1595650": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "すし"
+        }
+      ],
+      "1630250": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "ま"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9387652",
+    "original": "お寿司って食べたことある？",
+    "en": [
+      {
+        "id": "8978240",
+        "text": "Have you ever eaten sushi?"
+      },
+      {
+        "id": "12327343",
+        "text": "Have you ever had sushi?"
+      }
+    ],
+    "vocabIds": [
+      "1358280",
+      "1595650"
+    ],
+    "matches": {
+      "1358280": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "たべた"
+        }
+      ],
+      "1595650": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "すし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9833403",
+    "original": "お寿司は好きじゃなの。",
+    "en": [
+      {
+        "id": "266201",
+        "text": "I don't like sushi."
+      }
+    ],
+    "vocabIds": [
+      "1595650",
+      "1277450"
+    ],
+    "matches": {
+      "1277450": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "すき"
+        }
+      ],
+      "1595650": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "すし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9979536",
+    "original": "花子と太郎はお寿司を食べに行ったよ。",
+    "en": [
+      {
+        "id": "4141479",
+        "text": "Hanako and Taro went to eat some sushi."
+      }
+    ],
+    "vocabIds": [
+      "1578850",
+      "1358280",
+      "2862858",
+      "1595650"
+    ],
+    "matches": {
+      "1358280": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "たべ"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "いった"
+        }
+      ],
+      "1595650": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "すし"
+        }
+      ],
+      "2862858": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "たろう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "7810771",
+    "original": "寿司を食べたいです。",
+    "en": [
+      {
+        "id": "9982959",
+        "text": "I want to eat some sushi."
+      }
+    ],
+    "vocabIds": [
+      "1358280",
+      "1595650"
+    ],
+    "matches": {
+      "1358280": [
+        {
+          "start": 3,
+          "length": 6,
+          "reading": "たべたいです"
+        }
+      ],
+      "1595650": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "すし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3479884",
+    "original": "誰か今からお寿司食べに行かない？",
+    "en": [
+      {
+        "id": "10003813",
+        "text": "Is anybody going out to eat sushi now?"
+      }
+    ],
+    "vocabIds": [
+      "1578850",
+      "2663180",
+      "1358280",
+      "1416840",
+      "1595650"
+    ],
+    "matches": {
+      "1358280": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "たべ"
+        }
+      ],
+      "1416840": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "だれか"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "いかない"
+        }
+      ],
+      "1595650": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "すし"
+        }
+      ],
+      "2663180": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "いまから"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10083449",
+    "original": "寿司と天ぷらだったら、どっちがいい？",
+    "en": [
+      {
+        "id": "69231",
+        "text": "Which do you like better, sushi or tempura?"
+      }
+    ],
+    "vocabIds": [
+      "1440590",
+      "1595650"
+    ],
+    "matches": {
+      "1440590": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "てんぷら"
+        }
+      ],
+      "1595650": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "すし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10134070",
+    "original": "お寿司と納豆が好きなんだ。",
+    "en": [
+      {
+        "id": "8938279",
+        "text": "I like to eat sushi and natto."
+      }
+    ],
+    "vocabIds": [
+      "1595650",
+      "1470070",
+      "1277450"
+    ],
+    "matches": {
+      "1277450": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "すき"
+        }
+      ],
+      "1470070": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "なっとう"
+        }
+      ],
+      "1595650": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "すし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10135808",
+    "original": "寿司に醤油なんてつけないわ。",
+    "en": [
+      {
+        "id": "8993189",
+        "text": "I never dip my sushi in soy sauce."
+      }
+    ],
+    "vocabIds": [
+      "1595650",
+      "1595020"
+    ],
+    "matches": {
+      "1595020": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "しょうゆ"
+        }
+      ],
+      "1595650": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "すし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "6828188",
+    "original": "箸で寿司を食べます。",
+    "en": [
+      {
+        "id": "10208947",
+        "text": "I eat sushi with chopsticks."
+      }
+    ],
+    "vocabIds": [
+      "1358280",
+      "1595650",
+      "1476410"
+    ],
+    "matches": {
+      "1358280": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "たべます"
+        }
+      ],
+      "1476410": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "はし"
+        }
+      ],
+      "1595650": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "すし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10465276",
+    "original": "ここのお店の寿司はいけるね。",
+    "en": [
+      {
+        "id": "57753",
+        "text": "The sushi at this shop tastes good."
+      }
+    ],
+    "vocabIds": [
+      "2842661",
+      "1595650"
+    ],
+    "matches": {
+      "1595650": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "すし"
+        }
+      ],
+      "2842661": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "おみせ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10587416",
+    "original": "お寿司って、食べてみたことある？",
+    "en": [
+      {
+        "id": "4502705",
+        "text": "Have you tried sushi?"
+      }
+    ],
+    "vocabIds": [
+      "1358280",
+      "1595650"
+    ],
+    "matches": {
+      "1358280": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "たべてみた"
+        }
+      ],
+      "1595650": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "すし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10587418",
+    "original": "トムは、お寿司は好きかしら？",
+    "en": [
+      {
+        "id": "8832533",
+        "text": "Does Tom like sushi?"
+      }
+    ],
+    "vocabIds": [
+      "1595650",
+      "1277450"
+    ],
+    "matches": {
+      "1277450": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "すき"
+        }
+      ],
+      "1595650": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "すし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10587421",
+    "original": "お寿司は食べたことないよ。",
+    "en": [
+      {
+        "id": "2638677",
+        "text": "I've never had sushi."
+      }
+    ],
+    "vocabIds": [
+      "1358280",
+      "1595650"
+    ],
+    "matches": {
+      "1358280": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "たべた"
+        }
+      ],
+      "1595650": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "すし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10587422",
+    "original": "寿司は、日本食です。",
+    "en": [
+      {
+        "id": "2895049",
+        "text": "Sushi is a Japanese food."
+      }
+    ],
+    "vocabIds": [
+      "1464690",
+      "1595650"
+    ],
+    "matches": {
+      "1464690": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "にっぽんしょく"
+        }
+      ],
+      "1595650": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "すし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10587427",
+    "original": "ここのお寿司屋さんって、コンベアーが寿司を運んでるんだよ。",
+    "en": [
+      {
+        "id": "4098184",
+        "text": "This sushi restaurant has a conveyor belt that carries sushi."
+      }
+    ],
+    "vocabIds": [
+      "1172660",
+      "1727280",
+      "1595650"
+    ],
+    "matches": {
+      "1172660": [
+        {
+          "start": 21,
+          "length": 4,
+          "reading": "はこんでる"
+        }
+      ],
+      "1595650": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "すし"
+        }
+      ],
+      "1727280": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "すしや"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10587444",
+    "original": "トムは、寿司のシャリが好きなんだ。",
+    "en": [
+      {
+        "id": "9849303",
+        "text": "Tom likes sushi rice."
+      }
+    ],
+    "vocabIds": [
+      "1595650",
+      "1277450"
+    ],
+    "matches": {
+      "1277450": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "すき"
+        }
+      ],
+      "1595650": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "すし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10764018",
+    "original": "寿司についてのドキュメンタリーを見たんだ。",
+    "en": [
+      {
+        "id": "4098163",
+        "text": "I watched a documentary about sushi."
+      }
+    ],
+    "vocabIds": [
+      "1595650",
+      "1259290"
+    ],
+    "matches": {
+      "1259290": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "みた"
+        }
+      ],
+      "1595650": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "すし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10587429",
+    "original": "食わず嫌いで寿司を敬遠する人もいますが、何度か食べるうちに「寿司の虜になった」という人も結構多いですよ。",
+    "en": [
+      {
+        "id": "10787063",
+        "text": "There are those who distance themselves from sushi without having ever tried it, but there are also a fair number of people who have \"Become captive to sushi\" having only tried it a few times."
+      }
+    ],
+    "vocabIds": [
+      "1640630",
+      "1407460",
+      "1189180",
+      "1358280",
+      "1595650",
+      "1250730",
+      "1254760",
+      "1580640",
+      "1585420"
+    ],
+    "matches": {
+      "1189180": [
+        {
+          "start": 20,
+          "length": 3,
+          "reading": "なんどか"
+        }
+      ],
+      "1250730": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "けいえん"
+        }
+      ],
+      "1254760": [
+        {
+          "start": 44,
+          "length": 2,
+          "reading": "けっこう"
+        }
+      ],
+      "1358280": [
+        {
+          "start": 23,
+          "length": 3,
+          "reading": "たべる"
+        }
+      ],
+      "1407460": [
+        {
+          "start": 46,
+          "length": 4,
+          "reading": "おおいです"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "ひと"
+        },
+        {
+          "start": 42,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ],
+      "1585420": [
+        {
+          "start": 33,
+          "length": 1,
+          "reading": "とりこ"
+        }
+      ],
+      "1595650": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "すし"
+        },
+        {
+          "start": 30,
+          "length": 2,
+          "reading": "すし"
+        }
+      ],
+      "1640630": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "くわずぎらい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "778999",
+    "original": "箸で寿司を取ろうとするたびに、相変わらず落としてしまいます。",
+    "en": [
+      {
+        "id": "10906014",
+        "text": "Every time I try to pick up sushi with chopsticks, I drop them as always."
+      }
+    ],
+    "vocabIds": [
+      "1589260",
+      "1401310",
+      "1326980",
+      "1595650",
+      "1476410"
+    ],
+    "matches": {
+      "1326980": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "とろう"
+        }
+      ],
+      "1401310": [
+        {
+          "start": 15,
+          "length": 5,
+          "reading": "あいかわらず"
+        }
+      ],
+      "1476410": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "はし"
+        }
+      ],
+      "1589260": [
+        {
+          "start": 20,
+          "length": 9,
+          "reading": "おとしてしまいます"
+        }
+      ],
+      "1595650": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "すし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11878763",
+    "original": "お寿司にはよく甘酢生姜が添えられています。",
+    "en": [
+      {
+        "id": "11715213",
+        "text": "Sushi is often served with pickled ginger."
+      }
+    ],
+    "vocabIds": [
+      "1596490",
+      "1595650",
+      "1213540",
+      "1379620"
+    ],
+    "matches": {
+      "1213540": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "あまず"
+        }
+      ],
+      "1379620": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "しょうが"
+        }
+      ],
+      "1595650": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "すし"
+        }
+      ],
+      "1596490": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "そえ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11878764",
+    "original": "寿司には大抵ガリが付いてきます。",
+    "en": [
+      {
+        "id": "11715213",
+        "text": "Sushi is often served with pickled ginger."
+      }
+    ],
+    "vocabIds": [
+      "1495740",
+      "1595650",
+      "1414580"
+    ],
+    "matches": {
+      "1414580": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "たいてい"
+        }
+      ],
+      "1495740": [
+        {
+          "start": 9,
+          "length": 6,
+          "reading": "ついてきます"
+        }
+      ],
+      "1595650": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "すし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11878765",
+    "original": "お寿司には紅ショウガが付いてくることが多いです。",
+    "en": [
+      {
+        "id": "11715213",
+        "text": "Sushi is often served with pickled ginger."
+      }
+    ],
+    "vocabIds": [
+      "1836990",
+      "2059630",
+      "1407460",
+      "1595650"
+    ],
+    "matches": {
+      "1407460": [
+        {
+          "start": 19,
+          "length": 4,
+          "reading": "おおいです"
+        }
+      ],
+      "1595650": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "すし"
+        }
+      ],
+      "1836990": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "べにしょうが"
+        }
+      ],
+      "2059630": [
+        {
+          "start": 11,
+          "length": 5,
+          "reading": "ついてくる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12327295",
+    "original": "あのお寿司、食べたことある？",
+    "en": [
+      {
+        "id": "12327337",
+        "text": "Have you ever eaten that sushi?"
+      },
+      {
+        "id": "12327338",
+        "text": "Have you ever had that sushi?"
+      }
+    ],
+    "vocabIds": [
+      "1358280",
+      "1595650"
+    ],
+    "matches": {
+      "1358280": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "たべた"
+        }
+      ],
+      "1595650": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "すし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12327293",
+    "original": "お寿司って、食べたことある？",
+    "en": [
+      {
+        "id": "8978240",
+        "text": "Have you ever eaten sushi?"
+      },
+      {
+        "id": "12327343",
+        "text": "Have you ever had sushi?"
+      }
+    ],
+    "vocabIds": [
+      "1358280",
+      "1595650"
+    ],
+    "matches": {
+      "1358280": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "たべた"
+        }
+      ],
+      "1595650": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "すし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12327294",
+    "original": "あのお店のお寿司、食べたことある？",
+    "en": [
+      {
+        "id": "12327508",
+        "text": "Have you ever eaten that place's sushi?"
+      }
+    ],
+    "vocabIds": [
+      "1358280",
+      "2842661",
+      "1595650"
+    ],
+    "matches": {
+      "1358280": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "たべた"
+        }
+      ],
+      "1595650": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "すし"
+        }
+      ],
+      "2842661": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "おみせ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11532841",
+    "original": "寿司を食べた。",
+    "en": [
+      {
+        "id": "12586362",
+        "text": "I ate sushi."
+      },
+      {
+        "id": "12586363",
+        "text": "We ate sushi."
+      }
+    ],
+    "vocabIds": [
+      "1358280",
+      "1595650"
+    ],
+    "matches": {
+      "1358280": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "たべた"
+        }
+      ],
+      "1595650": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "すし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "13582317",
+    "original": "「日本人って、毎日寿司食べるの？」「食べないよ」「なんで？」「じゃあイタリア人って、毎日パスタ食べるの？」「食べるよ」",
+    "en": [
+      {
+        "id": "13700944",
+        "text": "\"Do Japanese people eat sushi everyday?\" \"No, they don't.\" \"Why not?\" \"Well, do Italians eat pasta everyday?\" \"Yes, they do.\""
+      }
+    ],
+    "vocabIds": [
+      "2192290",
+      "1358280",
+      "1464700",
+      "1524720",
+      "1595650"
+    ],
+    "matches": {
+      "1358280": [
+        {
+          "start": 18,
+          "length": 4,
+          "reading": "たべない"
+        },
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "たべる"
+        },
+        {
+          "start": 47,
+          "length": 3,
+          "reading": "たべる"
+        },
+        {
+          "start": 54,
+          "length": 3,
+          "reading": "たべる"
+        }
+      ],
+      "1464700": [
+        {
+          "start": 1,
+          "length": 3,
+          "reading": "にっぽんじん"
+        }
+      ],
+      "1524720": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "まいにち"
+        },
+        {
+          "start": 42,
+          "length": 2,
+          "reading": "まいにち"
+        }
+      ],
+      "1595650": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "すし"
+        }
+      ],
+      "2192290": [
+        {
+          "start": 34,
+          "length": 5,
+          "reading": "いたりあじん"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,106 @@
+{
+  "id": "1562930",
+  "writtenForm": {
+    "kanji": "腕立て",
+    "alternatives": [
+      "腕立"
+    ],
+    "containedKanji": [
+      "腕",
+      "立"
+    ]
+  },
+  "reading": {
+    "primary": "うでたて",
+    "alternatives": [
+      "うでだて"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 40628,
+    "kanaRank": 222423
+  },
+  "progression": {
+    "kklcStep": 732
+  },
+  "senses": [
+    {
+      "pos": [
+        "n",
+        "vs"
+      ],
+      "misc": {
+        "isAbbreviation": true,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "abbr"
+        ]
+      },
+      "glosses": [
+        "push-up"
+      ],
+      "related": {
+        "compounds": [
+          "腕立て伏せ"
+        ]
+      }
+    },
+    {
+      "pos": [
+        "n",
+        "vs"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "showing off one's physical strength",
+        "relying on one's physical strength in a fight"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "うでだて"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": false,
+  "mergedVocabs": [
+    {
+      "id": "1562930",
+      "isBase": true,
+      "originalPrimaryReading": "うでたて",
+      "originalGlosses": [
+        "push-up"
+      ]
+    },
+    {
+      "id": "2847843",
+      "isBase": false,
+      "originalPrimaryReading": "うでだて",
+      "originalGlosses": [
+        "showing off one's physical strength",
+        "relying on one's physical strength in a fight"
+      ]
+    }
+  ],
+  "components": [
+    "1562850",
+    "2081610"
+  ],
+  "parents": [
+    "1562940"
+  ]
+}

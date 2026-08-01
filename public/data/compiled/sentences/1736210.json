@@ -1,0 +1,100 @@
+[
+  {
+    "id": "141161",
+    "original": "船は２日で船荷を積んだ。",
+    "en": [
+      {
+        "id": "273411",
+        "text": "The ship loaded in two days."
+      }
+    ],
+    "indices": "船(ふね)[01] は 二日[02]{２日} で(#2028980) 船荷 を 積む{積んだ}",
+    "vocabIds": [
+      "1382970",
+      "1462900",
+      "1736210",
+      "1602800"
+    ],
+    "matches": {
+      "1382970": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "つんだ"
+        }
+      ],
+      "1462900": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ににち"
+        }
+      ],
+      "1602800": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ふね"
+        }
+      ],
+      "1736210": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ふなに"
+        }
+      ]
+    }
+  },
+  {
+    "id": "233123",
+    "original": "あなたの船荷は、２４時間以内に運ばれるでしょう。",
+    "en": [
+      {
+        "id": "10298691",
+        "text": "Your shipment should be delivered within 24 hours."
+      },
+      {
+        "id": "10298692",
+        "text": "Your shipment should be delivered within twenty-four hours."
+      }
+    ],
+    "indices": "貴方(あなた)[01]{あなた} の 船荷~ は 時間[02] 以内 に 運ぶ[01]{運ばれる} でしょう[01]",
+    "vocabIds": [
+      "2623050",
+      "1736210",
+      "1155180",
+      "1172660"
+    ],
+    "matches": {
+      "1155180": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "いない"
+        }
+      ],
+      "1172660": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "はこば"
+        }
+      ],
+      "1736210": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ふなに"
+        }
+      ],
+      "2623050": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "によんじかん"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,106 @@
+{
+  "id": "1535330",
+  "writtenForm": {
+    "kanji": "目下",
+    "alternatives": [],
+    "containedKanji": [
+      "目",
+      "下"
+    ]
+  },
+  "reading": {
+    "primary": "もっか",
+    "alternatives": [
+      "めした"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 13279,
+    "kanaRank": 87529
+  },
+  "jlptLevel": 2,
+  "progression": {
+    "kklcStep": 40
+  },
+  "senses": [
+    {
+      "pos": [
+        "n",
+        "adv"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "at present",
+        "now"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "subordinate",
+        "subordinates",
+        "inferior",
+        "inferiors",
+        "junior"
+      ],
+      "related": {
+        "compounds": [
+          "目上",
+          "部下"
+        ]
+      },
+      "appliesToReadings": [
+        "めした"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1535330",
+      "isBase": true,
+      "originalPrimaryReading": "もっか",
+      "originalGlosses": [
+        "at present",
+        "now"
+      ]
+    },
+    {
+      "id": "1535320",
+      "isBase": false,
+      "originalPrimaryReading": "めした",
+      "originalGlosses": [
+        "subordinate",
+        "subordinates",
+        "inferior"
+      ]
+    }
+  ],
+  "components": [
+    "1604890",
+    "1184140"
+  ]
+}

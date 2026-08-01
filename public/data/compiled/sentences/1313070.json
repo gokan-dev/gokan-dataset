@@ -1,0 +1,318 @@
+[
+  {
+    "id": "91571",
+    "original": "彼女はヘアブラシと歯ブラシを買った。",
+    "en": [
+      {
+        "id": "312142",
+        "text": "She bought a hair brush and a tooth brush."
+      }
+    ],
+    "indices": "彼女[01] は ヘアブラシ と 歯ブラシ を 買う[01]{買った}",
+    "vocabIds": [
+      "1313070",
+      "1473740",
+      "1483150"
+    ],
+    "matches": {
+      "1313070": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "はぶらし"
+        }
+      ],
+      "1473740": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "かった"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "221691",
+    "original": "この歯ブラシを使っているのは母ではない。",
+    "en": [
+      {
+        "id": "59017",
+        "text": "This toothbrush is not used by my mother."
+      },
+      {
+        "id": "1895898",
+        "text": "The one who uses this toothbrush isn't my mother."
+      }
+    ],
+    "indices": "此の{この} 歯ブラシ~ を 使う{使っている} の は 母(はは) では無い{ではない}",
+    "vocabIds": [
+      "1305990",
+      "1313070",
+      "1514990"
+    ],
+    "matches": {
+      "1305990": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "つかっている"
+        }
+      ],
+      "1313070": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "はぶらし"
+        }
+      ],
+      "1514990": [
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "はは"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2249879",
+    "original": "歯ブラシをくわえたまま走り回ってはいけません。",
+    "en": [
+      {
+        "id": "2249887",
+        "text": "You shouldn't run around with a toothbrush in your mouth."
+      }
+    ],
+    "vocabIds": [
+      "1402430",
+      "1313070"
+    ],
+    "matches": {
+      "1313070": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "はぶらし"
+        }
+      ],
+      "1402430": [
+        {
+          "start": 11,
+          "length": 5,
+          "reading": "はしりまわって"
+        }
+      ]
+    }
+  },
+  {
+    "id": "5132394",
+    "original": "それはたぶんあなたの歯ブラシです。",
+    "en": [
+      {
+        "id": "5132202",
+        "text": "That's probably your toothbrush."
+      }
+    ],
+    "vocabIds": [
+      "1313070"
+    ],
+    "matches": {
+      "1313070": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "はぶらし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9932170",
+    "original": "それは僕の歯ブラシですか？",
+    "en": [
+      {
+        "id": "2646578",
+        "text": "Is that my toothbrush?"
+      }
+    ],
+    "vocabIds": [
+      "1313070",
+      "1521400",
+      "2228300"
+    ],
+    "matches": {
+      "1313070": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "はぶらし"
+        }
+      ],
+      "1521400": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ],
+      "2228300": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10996779",
+    "original": "もぉ、人の歯ブラシ使わないでよ。",
+    "en": [
+      {
+        "id": "10996780",
+        "text": "Stop using other people's toothbrushes."
+      }
+    ],
+    "vocabIds": [
+      "1305990",
+      "1313070",
+      "1580640"
+    ],
+    "matches": {
+      "1305990": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "つかわないで"
+        }
+      ],
+      "1313070": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "はぶらし"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11953103",
+    "original": "この歯ブラシ、柔らかすぎる。",
+    "en": [
+      {
+        "id": "10159851",
+        "text": "This toothbrush is too soft."
+      }
+    ],
+    "vocabIds": [
+      "1605630",
+      "1313070"
+    ],
+    "matches": {
+      "1313070": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "はぶらし"
+        }
+      ],
+      "1605630": [
+        {
+          "start": 7,
+          "length": 6,
+          "reading": "やわらかすぎる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12508440",
+    "original": "この歯ブラシ、いつから使ってるの？",
+    "en": [
+      {
+        "id": "4663249",
+        "text": "How long have you been using this toothbrush?"
+      }
+    ],
+    "vocabIds": [
+      "1313070",
+      "1305990"
+    ],
+    "matches": {
+      "1305990": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "つかってる"
+        }
+      ],
+      "1313070": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "はぶらし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "13477614",
+    "original": "これは私の歯ブラシだ。",
+    "en": [
+      {
+        "id": "13457625",
+        "text": "This is my toothbrush."
+      }
+    ],
+    "vocabIds": [
+      "1313070",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1313070": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "はぶらし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,230 @@
+[
+  {
+    "id": "142700",
+    "original": "生年月日を教えてくださいますか？",
+    "en": [
+      {
+        "id": "271870",
+        "text": "May I have your birth date?"
+      }
+    ],
+    "indices": "生年月日 を 教える{教えて} 下さい{くださいますか}",
+    "vocabIds": [
+      "1236900",
+      "1379410"
+    ],
+    "matches": {
+      "1236900": [
+        {
+          "start": 5,
+          "length": 9,
+          "reading": "おしえてくださいます"
+        }
+      ],
+      "1379410": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "せいねんがっぴ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "142701",
+    "original": "生年月日は１９６０年２月１４日です。",
+    "en": [
+      {
+        "id": "271869",
+        "text": "I was born on February 14, 1960."
+      }
+    ],
+    "indices": "生年月日~ は 年(ねん) 二月(にがつ){２月}~ 十四日{１４日}~ です",
+    "vocabIds": [
+      "1379410",
+      "1629290",
+      "1334560",
+      "1461560",
+      "1585310",
+      "1557630",
+      "2084840"
+    ],
+    "matches": {
+      "1334560": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "いちきゅう"
+        }
+      ],
+      "1379410": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "せいねんがっぴ"
+        }
+      ],
+      "1461560": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "にがつ"
+        }
+      ],
+      "1557630": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "ぜろ"
+        }
+      ],
+      "1585310": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "ろく"
+        }
+      ],
+      "1629290": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "いちよんにち"
+        }
+      ],
+      "2084840": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "ねん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "4562200",
+    "original": "ここに生年月日を書いてください。",
+    "en": [
+      {
+        "id": "61733",
+        "text": "Write down your date of birth here."
+      },
+      {
+        "id": "4632208",
+        "text": "Please write your date of birth here."
+      }
+    ],
+    "indices": "此処[01]{ここ} に 生年月日 を 書く{書いて} 下さい{ください}",
+    "vocabIds": [
+      "1343950",
+      "1379410"
+    ],
+    "matches": {
+      "1343950": [
+        {
+          "start": 8,
+          "length": 7,
+          "reading": "かいてください"
+        }
+      ],
+      "1379410": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "せいねんがっぴ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "233057",
+    "original": "あなたの生年月日を書きなさい。",
+    "en": [
+      {
+        "id": "70428",
+        "text": "Write the date of your birth."
+      },
+      {
+        "id": "7839450",
+        "text": "Please write down your date of your birth."
+      }
+    ],
+    "indices": "貴方(あなた)[01]{あなた} の 生年月日 を 書く{書き} 為さい{なさい}",
+    "vocabIds": [
+      "1343950",
+      "1379410"
+    ],
+    "matches": {
+      "1343950": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "かきなさい"
+        }
+      ],
+      "1379410": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "せいねんがっぴ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1446302",
+    "original": "生年月日はいつ？",
+    "en": [
+      {
+        "id": "703328",
+        "text": "What is your date of birth?"
+      },
+      {
+        "id": "3730767",
+        "text": "What's your date of birth?"
+      }
+    ],
+    "vocabIds": [
+      "1379410"
+    ],
+    "matches": {
+      "1379410": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "せいねんがっぴ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10704935",
+    "original": "生年月日をご記入ください。",
+    "en": [
+      {
+        "id": "7839450",
+        "text": "Please write down your date of your birth."
+      }
+    ],
+    "vocabIds": [
+      "1379410",
+      "1223330"
+    ],
+    "matches": {
+      "1223330": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "きにゅう"
+        }
+      ],
+      "1379410": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "せいねんがっぴ"
+        }
+      ]
+    }
+  }
+]

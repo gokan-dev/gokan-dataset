@@ -1,0 +1,119 @@
+{
+  "id": "1579440",
+  "writtenForm": {
+    "kanji": "三方",
+    "alternatives": [],
+    "containedKanji": [
+      "三",
+      "方"
+    ]
+  },
+  "reading": {
+    "primary": "さんぼう",
+    "alternatives": [
+      "さんぽう",
+      "さんかた"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 19369
+  },
+  "progression": {
+    "kklcStep": 173
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "three sides"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "small offering stand"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": true,
+        "rawTags": [
+          "rare"
+        ]
+      },
+      "glosses": [
+        "day laborer (in construction, etc.)",
+        "day labourer"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "さんかた"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": true
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1579440",
+      "isBase": true,
+      "originalPrimaryReading": "さんぼう",
+      "originalGlosses": [
+        "three sides"
+      ]
+    },
+    {
+      "id": "2682870",
+      "isBase": false,
+      "originalPrimaryReading": "さんかた",
+      "originalGlosses": [
+        "day laborer (in construction, etc.)",
+        "day labourer"
+      ]
+    }
+  ],
+  "components": [
+    "1579350",
+    "1516930"
+  ],
+  "parents": [
+    "2829401"
+  ]
+}

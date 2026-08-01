@@ -1,0 +1,110 @@
+{
+  "id": "1235960",
+  "writtenForm": {
+    "kanji": "境界",
+    "alternatives": [
+      "経界"
+    ],
+    "containedKanji": [
+      "境",
+      "界"
+    ]
+  },
+  "reading": {
+    "primary": "きょうかい",
+    "alternatives": [
+      "けいかい"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 10574
+  },
+  "jlptLevel": 2,
+  "progression": {
+    "kklcStep": 1548
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "boundary",
+        "border",
+        "limit",
+        "bounds",
+        "frontier"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "dated"
+        ]
+      },
+      "glosses": [
+        "land boundary",
+        "border (between properties)"
+      ],
+      "related": {
+        "compounds": [
+          "境界"
+        ]
+      },
+      "appliesToReadings": [
+        "けいかい"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1235960",
+      "isBase": true,
+      "originalPrimaryReading": "きょうかい",
+      "originalGlosses": [
+        "boundary",
+        "border",
+        "limit"
+      ]
+    },
+    {
+      "id": "2846291",
+      "isBase": false,
+      "originalPrimaryReading": "けいかい",
+      "originalGlosses": [
+        "land boundary",
+        "border (between properties)"
+      ]
+    }
+  ],
+  "components": [
+    "1235950",
+    "2081500"
+  ],
+  "parents": [
+    "1235970"
+  ]
+}

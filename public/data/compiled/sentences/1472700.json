@@ -1,0 +1,194 @@
+[
+  {
+    "id": "83567",
+    "original": "平泳ぎは出来るが、背泳ぎは出来ない。",
+    "en": [
+      {
+        "id": "320149",
+        "text": "I can swim on my front but not on my back."
+      }
+    ],
+    "indices": "平泳ぎ~ は 出来る が 背泳ぎ は 出来る{出来ない}",
+    "vocabIds": [
+      "1340450",
+      "1507040",
+      "1472700"
+    ],
+    "matches": {
+      "1340450": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "できるが"
+        },
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "できない"
+        }
+      ],
+      "1472700": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "せおよぎ"
+        }
+      ],
+      "1507040": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ひらおよぎ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "101272",
+    "original": "彼は背泳ぎができる。",
+    "en": [
+      {
+        "id": "302421",
+        "text": "He can swim on his back."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 背泳ぎ が[01] 出来る{できる}",
+    "vocabIds": [
+      "1472700",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1472700": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "せおよぎ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "199483",
+    "original": "どんなに練習しても、私は背泳ぎができませんでした。",
+    "en": [
+      {
+        "id": "36685",
+        "text": "No matter how hard I practiced, I wasn't able to do the backstroke."
+      }
+    ],
+    "indices": "どんなに 練習 為る(する){して} も 私(わたし)[01] は 背泳ぎ~ が 出来る{できませんでした}",
+    "vocabIds": [
+      "1472700",
+      "1559160",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1472700": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "せおよぎ"
+        }
+      ],
+      "1559160": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "れんしゅう"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1036661",
+    "original": "ラッコは背泳ぎをしながら蛤を食べるのが大好きです。",
+    "en": [
+      {
+        "id": "1036663",
+        "text": "Sea otters love to eat clams while swimming on their backs."
+      }
+    ],
+    "vocabIds": [
+      "1472700",
+      "1358280",
+      "1413660",
+      "1478350",
+      "1577460"
+    ],
+    "matches": {
+      "1358280": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "たべる"
+        }
+      ],
+      "1413660": [
+        {
+          "start": 19,
+          "length": 3,
+          "reading": "だいすき"
+        }
+      ],
+      "1472700": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "せおよぎ"
+        }
+      ],
+      "1478350": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "はまぐり"
+        }
+      ],
+      "1577460": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "はまぐり"
+        }
+      ]
+    }
+  }
+]

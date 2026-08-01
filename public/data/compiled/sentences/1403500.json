@@ -1,0 +1,53 @@
+[
+  {
+    "id": "77943",
+    "original": "料理する前にチキンの臓物を抜いてください。",
+    "en": [
+      {
+        "id": "325775",
+        "text": "Draw a chicken before cooking."
+      },
+      {
+        "id": "468091",
+        "text": "Remove the chicken's giblets before cooking."
+      }
+    ],
+    "indices": "料理 為る(する){する} 前(まえ) に チキン の 臓物~ を 抜く[01]{抜いて} 下さい{ください}",
+    "vocabIds": [
+      "1478190",
+      "1554310",
+      "1392590",
+      "1403500"
+    ],
+    "matches": {
+      "1392590": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "まえに"
+        }
+      ],
+      "1403500": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "ぞうもつ"
+        }
+      ],
+      "1478190": [
+        {
+          "start": 13,
+          "length": 7,
+          "reading": "ぬいてください"
+        }
+      ],
+      "1554310": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "りょうり"
+        }
+      ]
+    }
+  }
+]

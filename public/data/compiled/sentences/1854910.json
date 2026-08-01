@@ -1,0 +1,87 @@
+[
+  {
+    "id": "223502",
+    "original": "このテレビ、チカチカしてどうも映りがよくないな。",
+    "en": [
+      {
+        "id": "60837",
+        "text": "The picture on this TV is no good. It keeps flickering."
+      }
+    ],
+    "indices": "此の{この} テレビ チカチカ[01] 為る(する){して} どうも 映り~ が 良い{よくない} な",
+    "vocabIds": [
+      "1854910"
+    ],
+    "matches": {
+      "1854910": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "うつり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "13115616",
+    "original": "免許証の写真は、みんな写りが悪い。",
+    "en": [
+      {
+        "id": "10913629",
+        "text": "Everyone's driver's license photo looks horrible."
+      }
+    ],
+    "vocabIds": [
+      "1533150",
+      "1321900",
+      "1854910",
+      "1151260",
+      "1403390",
+      "2772730"
+    ],
+    "matches": {
+      "1151260": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "わるい"
+        }
+      ],
+      "1321900": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "しゃしん"
+        }
+      ],
+      "1403390": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "わるい"
+        }
+      ],
+      "1533150": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "めんきょしょう"
+        }
+      ],
+      "1854910": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "うつり"
+        }
+      ],
+      "2772730": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "わるい"
+        }
+      ]
+    }
+  }
+]

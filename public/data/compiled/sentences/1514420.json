@@ -1,0 +1,797 @@
+[
+  {
+    "id": "83191",
+    "original": "歩道を歩きなさい。",
+    "en": [
+      {
+        "id": "320525",
+        "text": "Walk on the pavement."
+      }
+    ],
+    "indices": "歩道 を 歩く{歩き} 為さい{なさい}",
+    "vocabIds": [
+      "1514320",
+      "1514420"
+    ],
+    "matches": {
+      "1514320": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "あるきなさい"
+        }
+      ],
+      "1514420": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ほどう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "83192",
+    "original": "歩道は落ち葉で覆われていた。",
+    "en": [
+      {
+        "id": "320524",
+        "text": "The sidewalk was covered with fallen leaves."
+      }
+    ],
+    "indices": "歩道 は 落ち葉 で(#2028980) 覆う{覆われていた}",
+    "vocabIds": [
+      "1585070",
+      "2016900",
+      "1514420"
+    ],
+    "matches": {
+      "1514420": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ほどう"
+        }
+      ],
+      "1585070": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "おちば"
+        }
+      ],
+      "2016900": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "おおわれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "83193",
+    "original": "歩道の上には日よけがあった。",
+    "en": [
+      {
+        "id": "320523",
+        "text": "There was a sunshade over the sidewalk."
+      }
+    ],
+    "indices": "歩道 の 上(うえ) には 日除け[01]{日よけ}~ が[01] 有る{あった}",
+    "vocabIds": [
+      "1514420",
+      "1352130",
+      "1463770"
+    ],
+    "matches": {
+      "1352130": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "うえ"
+        }
+      ],
+      "1463770": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "ひ"
+        }
+      ],
+      "1514420": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ほどう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "83195",
+    "original": "歩道で自転車に乗ってはいけません。",
+    "en": [
+      {
+        "id": "320521",
+        "text": "One shouldn't ride a bicycle on the pavement."
+      },
+      {
+        "id": "507983",
+        "text": "You shouldn't ride a bicycle on the sidewalk."
+      }
+    ],
+    "indices": "歩道 で(#2028980) 自転車 に 乗る[01]{乗って} は 行けない[02]{いけません}",
+    "vocabIds": [
+      "1318290",
+      "1355120",
+      "1514420"
+    ],
+    "matches": {
+      "1318290": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "じてんしゃ"
+        }
+      ],
+      "1355120": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "のって"
+        }
+      ],
+      "1514420": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ほどう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "83196",
+    "original": "歩道から自転車を撤去してくれ。",
+    "en": [
+      {
+        "id": "320520",
+        "text": "Clear the sidewalk of the bicycles."
+      }
+    ],
+    "indices": "歩道 から 自転車 を 撤去[01] 為る(する){して} 呉れる{くれ}",
+    "vocabIds": [
+      "1318290",
+      "1514420",
+      "1437720"
+    ],
+    "matches": {
+      "1318290": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "じてんしゃ"
+        }
+      ],
+      "1437720": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "てっきょ"
+        }
+      ],
+      "1514420": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ほどう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "96178",
+    "original": "彼らは歩道の雪をシャベルで片付けていた。",
+    "en": [
+      {
+        "id": "307528",
+        "text": "They were clearing the snow from the sidewalk with a shovel."
+      }
+    ],
+    "indices": "彼ら(かれら) は 歩道 の 雪 を シャベル で(#2028980) 片付ける{片付けていた}",
+    "vocabIds": [
+      "1511790",
+      "1483090",
+      "2397090",
+      "1514420",
+      "1386500"
+    ],
+    "matches": {
+      "1386500": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "ゆき"
+        }
+      ],
+      "1483090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれら"
+        }
+      ],
+      "1511790": [
+        {
+          "start": 13,
+          "length": 6,
+          "reading": "かたづけていた"
+        }
+      ],
+      "1514420": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ほどう"
+        }
+      ],
+      "2397090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "104624",
+    "original": "彼は車を歩道の脇に停めた。",
+    "en": [
+      {
+        "id": "299065",
+        "text": "He parked his car beside the sidewalk."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 車(くるま) を 歩道 の 脇(わき)[01] に 止める(とめる){停めた}",
+    "vocabIds": [
+      "1310670",
+      "1598820",
+      "1514420",
+      "1000420",
+      "1483070",
+      "1323080",
+      "1562530",
+      "1590440"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1310670": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "とめた"
+        }
+      ],
+      "1323080": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1514420": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ほどう"
+        }
+      ],
+      "1562530": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "わき"
+        }
+      ],
+      "1590440": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "わき"
+        }
+      ],
+      "1598820": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "とめた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "121493",
+    "original": "買い物客たちが歩道を急いでいた。",
+    "en": [
+      {
+        "id": "282512",
+        "text": "Shoppers hurried along the sidewalk."
+      }
+    ],
+    "indices": "買い物客 達{たち} が 歩道 を 急ぐ{急いでいた}",
+    "vocabIds": [
+      "1228650",
+      "2034510",
+      "1514420"
+    ],
+    "matches": {
+      "1228650": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "いそいでいた"
+        }
+      ],
+      "1514420": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ほどう"
+        }
+      ],
+      "2034510": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "かいものきゃく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "145980",
+    "original": "植木鉢が歩道に落ちて、ガチャンと割れた。",
+    "en": [
+      {
+        "id": "268582",
+        "text": "The flower pot crashed to the sidewalk."
+      }
+    ],
+    "indices": "植木鉢~ が 歩道 に 落ちる[01]{落ちて} ガチャン{ガチャンと} 割れる{割れた}",
+    "vocabIds": [
+      "1357380",
+      "1548550",
+      "1208020",
+      "1514420"
+    ],
+    "matches": {
+      "1208020": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "われた"
+        }
+      ],
+      "1357380": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "うえきばち"
+        }
+      ],
+      "1514420": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ほどう"
+        }
+      ],
+      "1548550": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "おちて"
+        }
+      ]
+    }
+  },
+  {
+    "id": "148209",
+    "original": "秋には木の葉が歩道に集まる。",
+    "en": [
+      {
+        "id": "266350",
+        "text": "Leaves collect on the sidewalk in the fall."
+      }
+    ],
+    "indices": "秋(あき) には 木の葉 が 歩道 に 集まる",
+    "vocabIds": [
+      "1534560",
+      "1333550",
+      "1514420",
+      "1315840",
+      "1332650"
+    ],
+    "matches": {
+      "1315840": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "あき"
+        }
+      ],
+      "1332650": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "あき"
+        }
+      ],
+      "1333550": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "あつまる"
+        }
+      ],
+      "1514420": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ほどう"
+        }
+      ],
+      "1534560": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "このは"
+        }
+      ]
+    }
+  },
+  {
+    "id": "154883",
+    "original": "凍ってる歩道で滑って転んだんだよ。",
+    "en": [
+      {
+        "id": "259656",
+        "text": "I slipped and fell on the icy sidewalk."
+      }
+    ],
+    "indices": "凍る{凍ってる} 歩道 で(#2028980) 滑る(すべる)[02]{滑って} 転ぶ{転んだ} のだ{んだ} よ",
+    "vocabIds": [
+      "1593100",
+      "1208640",
+      "1582130",
+      "1514420"
+    ],
+    "matches": {
+      "1208640": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "すべって"
+        }
+      ],
+      "1514420": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ほどう"
+        }
+      ],
+      "1582130": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "ころんだ"
+        }
+      ],
+      "1593100": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "こおってる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "175121",
+    "original": "見知らぬ男が歩道を行ったり来たりしていた。",
+    "en": [
+      {
+        "id": "239345",
+        "text": "A strange man was walking back and forth on the pavement."
+      }
+    ],
+    "indices": "見知らぬ 男 が 歩道 を 行ったり来たり 為る(する){していた}",
+    "vocabIds": [
+      "1281780",
+      "1259860",
+      "1514420",
+      "1419990",
+      "1589190"
+    ],
+    "matches": {
+      "1259860": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "みしらぬ"
+        }
+      ],
+      "1281780": [
+        {
+          "start": 9,
+          "length": 7,
+          "reading": "おこなったりきたり"
+        }
+      ],
+      "1419990": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "おとこ"
+        }
+      ],
+      "1514420": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ほどう"
+        }
+      ],
+      "1589190": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "おとこ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "188908",
+    "original": "駅の近くの歩道には何処に行ってもおびただしい数の自転車が放置されているのが見かけられる。",
+    "en": [
+      {
+        "id": "26055",
+        "text": "Wherever you go, you see a lot of bicycles left on sidewalks near stations."
+      }
+    ],
+    "indices": "駅 の 近く[01] の 歩道 には 何処 に 行く[01]{行って} も 夥しい{おびただしい} 数(かず) の 自転車 が 放置 為れる{されている} の が 見かける{見かけられる}",
+    "vocabIds": [
+      "1604430",
+      "1318290",
+      "1578850",
+      "1242160",
+      "1514420",
+      "1577140",
+      "1516780",
+      "1175140",
+      "1005580",
+      "1580820"
+    ],
+    "matches": {
+      "1005580": [
+        {
+          "start": 22,
+          "length": 1,
+          "reading": "かず"
+        }
+      ],
+      "1175140": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "えき"
+        }
+      ],
+      "1242160": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ちかく"
+        }
+      ],
+      "1318290": [
+        {
+          "start": 24,
+          "length": 3,
+          "reading": "じてんしゃ"
+        }
+      ],
+      "1514420": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ほどう"
+        }
+      ],
+      "1516780": [
+        {
+          "start": 28,
+          "length": 2,
+          "reading": "ほうち"
+        }
+      ],
+      "1577140": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "どこ"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "いって"
+        }
+      ],
+      "1580820": [
+        {
+          "start": 22,
+          "length": 1,
+          "reading": "かず"
+        }
+      ],
+      "1604430": [
+        {
+          "start": 37,
+          "length": 3,
+          "reading": "みかけ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "901657",
+    "original": "さっき歩道を歩いてたら、車に水をかけられたの。見てよ、スカートも靴も泥だらけ！",
+    "en": [
+      {
+        "id": "918603",
+        "text": "Earlier, as I was walking down the sidewalk, a car drove by and splashed water on me. Look at this! My skirt and shoes are all muddy."
+      }
+    ],
+    "vocabIds": [
+      "1514320",
+      "2795520",
+      "1514420",
+      "1259290",
+      "1323080",
+      "1371260",
+      "1246700"
+    ],
+    "matches": {
+      "1246700": [
+        {
+          "start": 32,
+          "length": 1,
+          "reading": "くつ"
+        }
+      ],
+      "1259290": [
+        {
+          "start": 23,
+          "length": 2,
+          "reading": "みて"
+        }
+      ],
+      "1323080": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1371260": [
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "みず"
+        }
+      ],
+      "1514320": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "あるいてたら"
+        }
+      ],
+      "1514420": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ほどう"
+        }
+      ],
+      "2795520": [
+        {
+          "start": 34,
+          "length": 4,
+          "reading": "どろだらけ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11584147",
+    "original": "歩道で滑って、危うく頭を打つところだった。",
+    "en": [
+      {
+        "id": "11201150",
+        "text": "I slipped on the pavement and nearly hit my head."
+      }
+    ],
+    "vocabIds": [
+      "1218360",
+      "1208640",
+      "1514420",
+      "1408810",
+      "1582310",
+      "2252700"
+    ],
+    "matches": {
+      "1208640": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "すべって"
+        }
+      ],
+      "1218360": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "あやうく"
+        }
+      ],
+      "1408810": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "うつ"
+        }
+      ],
+      "1514420": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ほどう"
+        }
+      ],
+      "1582310": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "あたま"
+        }
+      ],
+      "2252700": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "あたま"
+        }
+      ]
+    }
+  }
+]

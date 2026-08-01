@@ -1,0 +1,100 @@
+{
+  "id": "1172500",
+  "writtenForm": {
+    "kanji": "鰻",
+    "alternatives": [],
+    "containedKanji": [
+      "鰻"
+    ]
+  },
+  "reading": {
+    "primary": "うなぎ",
+    "alternatives": [
+      "むなぎ",
+      "ウナギ",
+      "うな",
+      "う"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 30430,
+    "kanaRank": 30290
+  },
+  "progression": {
+    "kklcStep": 99999
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "eel (esp. the Japanese eel, Anguilla japonica)"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n-pref",
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": true,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk",
+          "abbr"
+        ]
+      },
+      "glosses": [
+        "eel (esp. the Japanese eel, Anguilla japonica)"
+      ],
+      "related": {
+        "compounds": [
+          "鰻",
+          "鰻巻き"
+        ]
+      },
+      "appliesToReadings": [
+        "うな"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": true
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1172500",
+      "isBase": true,
+      "originalPrimaryReading": "うなぎ",
+      "originalGlosses": [
+        "eel (esp. the Japanese eel, Anguilla japonica)"
+      ]
+    },
+    {
+      "id": "2802220",
+      "isBase": false,
+      "originalPrimaryReading": "うな",
+      "originalGlosses": [
+        "eel (esp. the Japanese eel, Anguilla japonica)"
+      ]
+    }
+  ]
+}

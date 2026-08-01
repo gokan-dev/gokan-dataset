@@ -1,0 +1,72 @@
+[
+  {
+    "id": "186902",
+    "original": "家庭用品は三階にあります。",
+    "en": [
+      {
+        "id": "24039",
+        "text": "You'll find domestic articles on the third floor."
+      }
+    ],
+    "indices": "家庭用品 は 三階 に 有る{あります}",
+    "vocabIds": [
+      "1718410",
+      "1299960"
+    ],
+    "matches": {
+      "1299960": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "さんかい"
+        }
+      ],
+      "1718410": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "かていようひん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "220420",
+    "original": "この店は家庭用品を備えている。",
+    "en": [
+      {
+        "id": "57742",
+        "text": "This store carries household equipment."
+      }
+    ],
+    "indices": "此の{この} 店(みせ) は 家庭用品~ を[01] 備える[01]{備えている}",
+    "vocabIds": [
+      "1244960",
+      "1718410",
+      "1582120"
+    ],
+    "matches": {
+      "1244960": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "そなえている"
+        }
+      ],
+      "1582120": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "みせ"
+        }
+      ],
+      "1718410": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "かていようひん"
+        }
+      ]
+    }
+  }
+]

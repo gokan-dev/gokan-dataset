@@ -1,0 +1,133 @@
+[
+  {
+    "id": "96650",
+    "original": "彼らは窓枠を黄色く塗った。",
+    "en": [
+      {
+        "id": "307055",
+        "text": "They painted the window frames yellow."
+      }
+    ],
+    "indices": "彼ら(かれら) は 窓枠~ を 黄色い{黄色く} 塗る(ぬる){塗った}",
+    "vocabIds": [
+      "1182030",
+      "1444270",
+      "1483090",
+      "2397090",
+      "1401460"
+    ],
+    "matches": {
+      "1182030": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "きいろく"
+        }
+      ],
+      "1401460": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "まどわく"
+        }
+      ],
+      "1444270": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "ぬった"
+        }
+      ],
+      "1483090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれら"
+        }
+      ],
+      "2397090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10032485",
+    "original": "トムは窓枠を黄色に塗りました。",
+    "en": [
+      {
+        "id": "7963466",
+        "text": "Tom painted the window frames yellow."
+      }
+    ],
+    "vocabIds": [
+      "1444270",
+      "1401460",
+      "1576760"
+    ],
+    "matches": {
+      "1401460": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "まどわく"
+        }
+      ],
+      "1444270": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "ぬりました"
+        }
+      ],
+      "1576760": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "きいろ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10032486",
+    "original": "トムが窓枠を黄色く塗ったんだよ。",
+    "en": [
+      {
+        "id": "7963466",
+        "text": "Tom painted the window frames yellow."
+      }
+    ],
+    "vocabIds": [
+      "1182030",
+      "1444270",
+      "1401460"
+    ],
+    "matches": {
+      "1182030": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "きいろく"
+        }
+      ],
+      "1401460": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "まどわく"
+        }
+      ],
+      "1444270": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "ぬった"
+        }
+      ]
+    }
+  }
+]

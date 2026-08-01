@@ -1,0 +1,93 @@
+[
+  {
+    "id": "207426",
+    "original": "その道は行き止まりだった。",
+    "en": [
+      {
+        "id": "44679",
+        "text": "The road came to a dead end."
+      }
+    ],
+    "indices": "其の{その} 道(みち) は 行き止まり~ だ{だった}",
+    "vocabIds": [
+      "1578820",
+      "2002310"
+    ],
+    "matches": {
+      "1578820": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "ゆきどまり"
+        }
+      ],
+      "2002310": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "そのみち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "236525",
+    "original": "行き止まりだ。",
+    "en": [
+      {
+        "id": "2176",
+        "text": "It's a dead end."
+      }
+    ],
+    "vocabIds": [
+      "1578820"
+    ],
+    "matches": {
+      "1578820": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "ゆきどまり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11013811",
+    "original": "通り抜けられると思ったら行き止まりだった。",
+    "en": [
+      {
+        "id": "11246448",
+        "text": "I thought I could get through, but it was a dead end."
+      }
+    ],
+    "vocabIds": [
+      "2754040",
+      "1578820",
+      "1433010"
+    ],
+    "matches": {
+      "1433010": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "とおりぬけ"
+        }
+      ],
+      "1578820": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "ゆきどまり"
+        }
+      ],
+      "2754040": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "とおもったら"
+        }
+      ]
+    }
+  }
+]

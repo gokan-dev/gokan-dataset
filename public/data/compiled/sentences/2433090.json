@@ -1,0 +1,64 @@
+[
+  {
+    "id": "122034",
+    "original": "妊娠検査を受けました。",
+    "en": [
+      {
+        "id": "281969",
+        "text": "I got a pregnancy test."
+      }
+    ],
+    "indices": "妊娠 検査 を 受ける{受けました}",
+    "vocabIds": [
+      "1329590",
+      "2433090"
+    ],
+    "matches": {
+      "1329590": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "うけました"
+        }
+      ],
+      "2433090": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "にんしんけんさ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "122035",
+    "original": "妊娠検査を受けたいのです。",
+    "en": [
+      {
+        "id": "281968",
+        "text": "I'd like to get a pregnancy test."
+      }
+    ],
+    "indices": "妊娠~ 検査 を 受ける{受け} たい[01] のです",
+    "vocabIds": [
+      "2433090",
+      "1329590"
+    ],
+    "matches": {
+      "1329590": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "うけたい"
+        }
+      ],
+      "2433090": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "にんしんけんさ"
+        }
+      ]
+    }
+  }
+]

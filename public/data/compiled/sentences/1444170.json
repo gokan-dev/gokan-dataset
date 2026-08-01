@@ -1,0 +1,122 @@
+[
+  {
+    "id": "74348",
+    "original": "ひんぱんに吐血する場合は、救急車を呼ぶか、近くの内科医に往診してもらう。",
+    "en": [
+      {
+        "id": "329372",
+        "text": "If you frequently spit-up blood you should call an ambulance or have a nearby physician make a house call."
+      }
+    ],
+    "indices": "頻繁{ひんぱんに} 吐血~ 為る(する){する} 場合 は 救急車 を 呼ぶ か 近く の 内科医 に 往診 為る(する){して} 貰う{もらう}",
+    "vocabIds": [
+      "1229100",
+      "1457840",
+      "1444170",
+      "1355810",
+      "1266440",
+      "1242160",
+      "1179710"
+    ],
+    "matches": {
+      "1179710": [
+        {
+          "start": 28,
+          "length": 2,
+          "reading": "おうしん"
+        }
+      ],
+      "1229100": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "きゅうきゅうしゃ"
+        }
+      ],
+      "1242160": [
+        {
+          "start": 21,
+          "length": 2,
+          "reading": "ちかく"
+        }
+      ],
+      "1266440": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "よぶ"
+        }
+      ],
+      "1355810": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "ばあい"
+        }
+      ],
+      "1444170": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "とけつ"
+        }
+      ],
+      "1457840": [
+        {
+          "start": 24,
+          "length": 3,
+          "reading": "ないかい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "124614",
+    "original": "吐血しました。",
+    "en": [
+      {
+        "id": "279380",
+        "text": "I coughed up blood."
+      }
+    ],
+    "indices": "吐血 為る(する){しました}",
+    "vocabIds": [
+      "1444170"
+    ],
+    "matches": {
+      "1444170": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とけつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12090084",
+    "original": "トムは吐血した。",
+    "en": [
+      {
+        "id": "1600900",
+        "text": "Tom vomited blood."
+      },
+      {
+        "id": "12090088",
+        "text": "Tom coughed up blood."
+      }
+    ],
+    "vocabIds": [
+      "1444170"
+    ],
+    "matches": {
+      "1444170": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "とけつ"
+        }
+      ]
+    }
+  }
+]

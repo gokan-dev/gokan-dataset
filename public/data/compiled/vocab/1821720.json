@@ -1,0 +1,108 @@
+{
+  "id": "1821720",
+  "writtenForm": {
+    "kanji": "離れ離れ",
+    "alternatives": [
+      "離ればなれ"
+    ],
+    "containedKanji": [
+      "離",
+      "離"
+    ]
+  },
+  "reading": {
+    "primary": "はなればなれ",
+    "alternatives": [
+      "かれがれ"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 31067,
+    "kanaRank": 103095
+  },
+  "progression": {
+    "kklcStep": 1970
+  },
+  "senses": [
+    {
+      "pos": [
+        "adj-na",
+        "adj-no",
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "separate",
+        "scattered",
+        "apart"
+      ],
+      "related": {
+        "compounds": [
+          "離れ離れになる"
+        ]
+      }
+    },
+    {
+      "pos": [
+        "adj-nari"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "estranged",
+        "separated"
+      ],
+      "related": {
+        "compounds": [
+          "離れ離れ"
+        ]
+      },
+      "appliesToReadings": [
+        "かれがれ"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": false,
+  "mergedVocabs": [
+    {
+      "id": "1821720",
+      "isBase": true,
+      "originalPrimaryReading": "はなればなれ",
+      "originalGlosses": [
+        "separate",
+        "scattered",
+        "apart"
+      ]
+    },
+    {
+      "id": "2842475",
+      "isBase": false,
+      "originalPrimaryReading": "かれがれ",
+      "originalGlosses": [
+        "estranged",
+        "separated"
+      ]
+    }
+  ],
+  "components": [
+    "2013190"
+  ]
+}

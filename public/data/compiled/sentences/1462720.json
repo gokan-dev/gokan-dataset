@@ -1,0 +1,138 @@
+[
+  {
+    "id": "219909",
+    "original": "この文は二通りに解釈することができる。",
+    "en": [
+      {
+        "id": "1337901",
+        "text": "This sentence can be interpreted in two ways."
+      }
+    ],
+    "indices": "此の{この} 文(ぶん) は 二通り~ に 解釈 為る(する){する} 事が出来る{ことができる}",
+    "vocabIds": [
+      "1462720",
+      "1199010",
+      "1505090",
+      "1957010",
+      "2034990"
+    ],
+    "matches": {
+      "1199010": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "かいしゃく"
+        }
+      ],
+      "1462720": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "にとおり"
+        }
+      ],
+      "1505090": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ぶん"
+        }
+      ],
+      "1957010": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ぶん"
+        }
+      ],
+      "2034990": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ぶん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "222418",
+    "original": "この規則は二通りに読めます。",
+    "en": [
+      {
+        "id": "59745",
+        "text": "The rule reads in two ways."
+      }
+    ],
+    "indices": "此の{この} 規則 は 二通り に 読む{読めます}",
+    "vocabIds": [
+      "2859455",
+      "1462720",
+      "1223021"
+    ],
+    "matches": {
+      "1223021": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きそく"
+        }
+      ],
+      "1462720": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "にとおり"
+        }
+      ],
+      "2859455": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "よめます"
+        }
+      ]
+    }
+  },
+  {
+    "id": "13569081",
+    "original": "二通りの答えがありそう。",
+    "en": [
+      {
+        "id": "5732993",
+        "text": "I think there are two answers."
+      },
+      {
+        "id": "8264475",
+        "text": "I think that there are two answers."
+      }
+    ],
+    "vocabIds": [
+      "1462720",
+      "1449530",
+      "2852531"
+    ],
+    "matches": {
+      "1449530": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "こたえ"
+        }
+      ],
+      "1462720": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "にとおり"
+        }
+      ],
+      "2852531": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "こたえ"
+        }
+      ]
+    }
+  }
+]

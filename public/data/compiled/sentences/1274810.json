@@ -1,0 +1,88 @@
+[
+  {
+    "id": "173964",
+    "original": "公務のために多くの時間がとられる。",
+    "en": [
+      {
+        "id": "240505",
+        "text": "My public duties take a lot of time."
+      }
+    ],
+    "indices": "公務~ の 為に[02]{ために} 多く の 時間[01] が 取る{とられる}",
+    "vocabIds": [
+      "1274810",
+      "1861770",
+      "1315920"
+    ],
+    "matches": {
+      "1274810": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こうむ"
+        }
+      ],
+      "1315920": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "じかん"
+        }
+      ],
+      "1861770": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "おおく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "185388",
+    "original": "会議のたびにノートをとることは、秘書の公務の一つです。",
+    "en": [
+      {
+        "id": "22520",
+        "text": "Taking notes at each meeting is one of the official duties."
+      }
+    ],
+    "indices": "会議 の 度に{たびに} ノート[02] を 取る{とる} 事(こと){こと} は 秘書 の 公務 の 一つ[01] です",
+    "vocabIds": [
+      "1198360",
+      "1484060",
+      "1274810",
+      "1160820"
+    ],
+    "matches": {
+      "1160820": [
+        {
+          "start": 22,
+          "length": 2,
+          "reading": "ひとつ"
+        }
+      ],
+      "1198360": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かいぎ"
+        }
+      ],
+      "1274810": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "こうむ"
+        }
+      ],
+      "1484060": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "ひしょ"
+        }
+      ]
+    }
+  }
+]

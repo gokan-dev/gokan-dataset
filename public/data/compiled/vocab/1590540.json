@@ -1,0 +1,115 @@
+{
+  "id": "1590540",
+  "writtenForm": {
+    "kanji": "仮名",
+    "alternatives": [
+      "仮字",
+      "假名"
+    ],
+    "containedKanji": [
+      "仮",
+      "名"
+    ]
+  },
+  "reading": {
+    "primary": "かな",
+    "alternatives": [
+      "かめい",
+      "かりな",
+      "けみょう"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 34143,
+    "kanaRank": 24501
+  },
+  "jlptLevel": 2,
+  "progression": {
+    "kklcStep": 921
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "kana",
+        "Japanese syllabaries (i.e. hiragana and katakana)"
+      ],
+      "related": {
+        "compounds": [
+          "真名"
+        ]
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "alias",
+        "pseudonym",
+        "pen name",
+        "nom de plume"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "かめい"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1590540",
+      "isBase": true,
+      "originalPrimaryReading": "かな",
+      "originalGlosses": [
+        "kana",
+        "Japanese syllabaries (i.e. hiragana and katakana)"
+      ]
+    },
+    {
+      "id": "1577090",
+      "isBase": false,
+      "originalPrimaryReading": "かめい",
+      "originalGlosses": [
+        "alias",
+        "pseudonym",
+        "pen name"
+      ]
+    }
+  ],
+  "components": [
+    "1187290",
+    "1531330"
+  ],
+  "parents": [
+    "1507090",
+    "1511600",
+    "1361150",
+    "1188100",
+    "1402640"
+  ]
+}

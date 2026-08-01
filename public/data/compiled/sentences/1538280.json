@@ -1,0 +1,88 @@
+[
+  {
+    "id": "219236",
+    "original": "この薬品は日光に当てないようにしなさい。",
+    "en": [
+      {
+        "id": "56552",
+        "text": "Don't expose this chemical to direct sunlight."
+      }
+    ],
+    "indices": "此の{この} 薬品~ は 日光 に 当てる[02]{当てない}~ 様にする{ようにし} 為さい{なさい}",
+    "vocabIds": [
+      "1448860",
+      "1538280",
+      "1464030"
+    ],
+    "matches": {
+      "1448860": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "あてない"
+        }
+      ],
+      "1464030": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "にっこう"
+        }
+      ],
+      "1538280": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "やくひん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "219237",
+    "original": "この薬品は場合によって毒にも薬にもなる。",
+    "en": [
+      {
+        "id": "56553",
+        "text": "This medicine will do you good or harm, as the case may be."
+      }
+    ],
+    "indices": "此の{この} 薬品 は 場合によって~ 毒 にも 薬(くすり)[01] にも 成る{なる}",
+    "vocabIds": [
+      "1355820",
+      "1538280",
+      "1455500",
+      "1538160"
+    ],
+    "matches": {
+      "1355820": [
+        {
+          "start": 5,
+          "length": 6,
+          "reading": "ばあいによって"
+        }
+      ],
+      "1455500": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "どく"
+        }
+      ],
+      "1538160": [
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "くすり"
+        }
+      ],
+      "1538280": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "やくひん"
+        }
+      ]
+    }
+  }
+]

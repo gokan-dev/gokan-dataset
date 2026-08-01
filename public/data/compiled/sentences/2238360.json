@@ -1,0 +1,95 @@
+[
+  {
+    "id": "212448",
+    "original": "そのリンゴの木はよく実がなる。",
+    "en": [
+      {
+        "id": "49731",
+        "text": "The apple trees set very well."
+      }
+    ],
+    "indices": "其の[01]{その} 林檎(りんご){リンゴ} の 木(き) は 良く[01]{よく} 実(み)[01] が 生る{なる}",
+    "vocabIds": [
+      "2238360",
+      "1534520"
+    ],
+    "matches": {
+      "1534520": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "き"
+        }
+      ],
+      "2238360": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "みがなる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9551114",
+    "original": "実がなる前に、オレンジの木には「アサアール」と呼ばれる花が咲きます。",
+    "en": [
+      {
+        "id": "2740759",
+        "text": "Before bearing fruit, orange trees blossom with a flower called an \"azahar\"."
+      }
+    ],
+    "vocabIds": [
+      "2238360",
+      "1631030",
+      "1297210",
+      "1392590",
+      "1534520",
+      "1194500"
+    ],
+    "matches": {
+      "1194500": [
+        {
+          "start": 27,
+          "length": 1,
+          "reading": "はな"
+        }
+      ],
+      "1297210": [
+        {
+          "start": 29,
+          "length": 4,
+          "reading": "さきます"
+        }
+      ],
+      "1392590": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "まえに"
+        }
+      ],
+      "1534520": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "き"
+        }
+      ],
+      "1631030": [
+        {
+          "start": 23,
+          "length": 4,
+          "reading": "よばれる"
+        }
+      ],
+      "2238360": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "みがなる"
+        }
+      ]
+    }
+  }
+]

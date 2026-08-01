@@ -1,0 +1,79 @@
+[
+  {
+    "id": "230529",
+    "original": "あの電線に触れると感電するよ。",
+    "en": [
+      {
+        "id": "67896",
+        "text": "If you touch that wire, you'll get a shock."
+      }
+    ],
+    "indices": "彼の(あの){あの} 電線[01] に 触れる[01] と 感電~ 為る(する){する} よ[01]",
+    "vocabIds": [
+      "1357990",
+      "1443570",
+      "1212540"
+    ],
+    "matches": {
+      "1212540": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "かんでん"
+        }
+      ],
+      "1357990": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "ふれる"
+        }
+      ],
+      "1443570": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "でんせん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1698939",
+    "original": "あけるな危険。感電の可能性あり。",
+    "en": [
+      {
+        "id": "1693194",
+        "text": "Caution: risk of electric shock. Do not open."
+      }
+    ],
+    "vocabIds": [
+      "1191080",
+      "1218560",
+      "1212540"
+    ],
+    "matches": {
+      "1191080": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "かのうせい"
+        }
+      ],
+      "1212540": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "かんでん"
+        }
+      ],
+      "1218560": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "きけん"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "id": "185118",
+    "original": "海に潜ったら耳抜きしてください。",
+    "en": [
+      {
+        "id": "22249",
+        "text": "If you go underwater, hold your nose and blow to clear your ears."
+      }
+    ],
+    "indices": "海 に 潜る(もぐる){潜ったら} 耳[01] 抜き[01] 為る(する){して} 下さい{ください}",
+    "vocabIds": [
+      "1609715",
+      "2702010",
+      "1201190"
+    ],
+    "matches": {
+      "1201190": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "うみ"
+        }
+      ],
+      "1609715": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "もぐったら"
+        }
+      ],
+      "2702010": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "みみぬき"
+        }
+      ]
+    }
+  }
+]

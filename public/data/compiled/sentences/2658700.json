@@ -1,0 +1,93 @@
+[
+  {
+    "id": "138035",
+    "original": "太郎は大学入試に合格したそうだ。",
+    "en": [
+      {
+        "id": "275200",
+        "text": "Taro is very likely to pass the university entrance examination."
+      }
+    ],
+    "indices": "は 大学 入試 に 合格[01] 為る(する){した} そうだ[02]",
+    "vocabIds": [
+      "2658700",
+      "2862858",
+      "1284600"
+    ],
+    "matches": {
+      "1284600": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "ごうかく"
+        }
+      ],
+      "2658700": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "だいがくにゅうし"
+        }
+      ],
+      "2862858": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "たろう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10990454",
+    "original": "大学入試っていつ？",
+    "en": [
+      {
+        "id": "11070013",
+        "text": "When is the college entrance exam?"
+      }
+    ],
+    "vocabIds": [
+      "2658700"
+    ],
+    "matches": {
+      "2658700": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "だいがくにゅうし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12301149",
+    "original": "来週、大学入試があります。",
+    "en": [
+      {
+        "id": "325045",
+        "text": "Next week, I will sit a university entrance examination."
+      }
+    ],
+    "vocabIds": [
+      "2658700",
+      "1548010"
+    ],
+    "matches": {
+      "1548010": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "らいしゅう"
+        }
+      ],
+      "2658700": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "だいがくにゅうし"
+        }
+      ]
+    }
+  }
+]

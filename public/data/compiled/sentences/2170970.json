@@ -1,0 +1,122 @@
+[
+  {
+    "id": "177179",
+    "original": "君は辞書を引く習慣をつけるべきだ。",
+    "en": [
+      {
+        "id": "16028",
+        "text": "You should try to form the habit of using your dictionaries."
+      }
+    ],
+    "indices": "君(きみ)[01] は 辞書を引く 習慣 を 付ける{つける} 可き{べき} だ",
+    "vocabIds": [
+      "2170970",
+      "1333090",
+      "1247250"
+    ],
+    "matches": {
+      "1247250": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "きみ"
+        }
+      ],
+      "1333090": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "しゅうかん"
+        }
+      ],
+      "2170970": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "じしょをひく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "219499",
+    "original": "この本を読むときには辞書を引く必要はない。",
+    "en": [
+      {
+        "id": "56819",
+        "text": "You don't have to use a dictionary when you read this book."
+      }
+    ],
+    "indices": "此の{この} 本(ほん)[01] を 読む 時(とき){とき} には 辞書を引く 必要[02] は 無い{ない}",
+    "vocabIds": [
+      "2170970",
+      "1456360",
+      "1487660",
+      "1260670",
+      "1522150"
+    ],
+    "matches": {
+      "1260670": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ほん"
+        }
+      ],
+      "1456360": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "よむ"
+        }
+      ],
+      "1487660": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "ひつよう"
+        }
+      ],
+      "1522150": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ほん"
+        }
+      ],
+      "2170970": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "じしょをひく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1194161",
+    "original": "わたしはよくその辞書を引く。",
+    "en": [
+      {
+        "id": "255865",
+        "text": "I often refer to the dictionary."
+      },
+      {
+        "id": "1194172",
+        "text": "I often look up words in that dictionary."
+      }
+    ],
+    "vocabIds": [
+      "2170970"
+    ],
+    "matches": {
+      "2170970": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "じしょをひく"
+        }
+      ]
+    }
+  }
+]

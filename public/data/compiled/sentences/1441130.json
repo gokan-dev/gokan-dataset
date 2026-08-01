@@ -1,0 +1,140 @@
+[
+  {
+    "id": "87779",
+    "original": "彼女は転向した。",
+    "en": [
+      {
+        "id": "315928",
+        "text": "She has gone over to the other side."
+      }
+    ],
+    "indices": "彼女[01] は 転向 為る(する){した}",
+    "vocabIds": [
+      "1483150",
+      "1441130"
+    ],
+    "matches": {
+      "1441130": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "てんこう"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "104695",
+    "original": "彼は社会主義から転向した。",
+    "en": [
+      {
+        "id": "298995",
+        "text": "He abandoned socialism."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 社会主義 から 転向 為る(する){した}",
+    "vocabIds": [
+      "1322740",
+      "1441130",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1322740": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "しゃかいしゅぎ"
+        }
+      ],
+      "1441130": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "てんこう"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "217265",
+    "original": "コンピューターの仕事から金融、会計などの仕事に転向することは可能である。",
+    "en": [
+      {
+        "id": "54573",
+        "text": "It's possible to branch out from computing to jobs in banking, accountancy and so on."
+      }
+    ],
+    "indices": "コンピュータ{コンピューター} の 仕事[01] から 金融 会計 等(など){など} の 仕事[01] に 転向~ 為る(する){する} 事(こと){こと} は 可能 である",
+    "vocabIds": [
+      "1304970",
+      "1243290",
+      "1198430",
+      "1441130",
+      "1191060"
+    ],
+    "matches": {
+      "1191060": [
+        {
+          "start": 30,
+          "length": 2,
+          "reading": "かのう"
+        }
+      ],
+      "1198430": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "かいけい"
+        }
+      ],
+      "1243290": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "きんゆう"
+        }
+      ],
+      "1304970": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "しごと"
+        },
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "しごと"
+        }
+      ],
+      "1441130": [
+        {
+          "start": 23,
+          "length": 2,
+          "reading": "てんこう"
+        }
+      ]
+    }
+  }
+]

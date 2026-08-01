@@ -1,0 +1,92 @@
+[
+  {
+    "id": "76768",
+    "original": "こーゆーのは、買うのが楽しいのよ。使うか使わないかなんてのは、二の次なんだって。",
+    "en": [
+      {
+        "id": "326952",
+        "text": "This sort of thing, it's buying stuff that's fun. Whether you use it or not is secondary."
+      }
+    ],
+    "indices": "こう言う{こーゆー} の は 買う[01] の が 楽しい の よ 使う か 使う[01]{使わない} か なんて[01] の は 二の次~ なのだ{なんだ} って",
+    "vocabIds": [
+      "1305990",
+      "1207240",
+      "1461270",
+      "1473740"
+    ],
+    "matches": {
+      "1207240": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "たのしい"
+        }
+      ],
+      "1305990": [
+        {
+          "start": 20,
+          "length": 4,
+          "reading": "つかわない"
+        },
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "つかう"
+        }
+      ],
+      "1461270": [
+        {
+          "start": 31,
+          "length": 3,
+          "reading": "にのつぎ"
+        }
+      ],
+      "1473740": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "かう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1689462",
+    "original": "国民の生活はいつだって二の次だ。",
+    "en": [
+      {
+        "id": "1701408",
+        "text": "The quality of life of the citizens is always of secondary importance."
+      }
+    ],
+    "vocabIds": [
+      "1461270",
+      "1287070",
+      "1378860"
+    ],
+    "matches": {
+      "1287070": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こくみん"
+        }
+      ],
+      "1378860": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "せいかつ"
+        }
+      ],
+      "1461270": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "にのつぎ"
+        }
+      ]
+    }
+  }
+]

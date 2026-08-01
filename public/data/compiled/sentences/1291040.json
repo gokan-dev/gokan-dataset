@@ -1,0 +1,179 @@
+[
+  {
+    "id": "117325",
+    "original": "彼の左目に髪がたれていた。",
+    "en": [
+      {
+        "id": "286339",
+        "text": "A wisp of hair fell over his left eye."
+      }
+    ],
+    "indices": "彼(かれ)[01]{彼の} 左目~ に 髪 が 垂れる(たれる)[01]{たれていた}~",
+    "vocabIds": [
+      "1000420",
+      "1291040",
+      "1477950"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれの"
+        }
+      ],
+      "1291040": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ひだりめ"
+        }
+      ],
+      "1477950": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "かみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "170907",
+    "original": "左目がチクチクします。",
+    "en": [
+      {
+        "id": "243573",
+        "text": "I have a prickling sensation in my left eye."
+      }
+    ],
+    "indices": "左目 が チクチク~ 為る(する){します}",
+    "vocabIds": [
+      "1291040"
+    ],
+    "matches": {
+      "1291040": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ひだりめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "233287",
+    "original": "あなたの左目は充血していますよ。",
+    "en": [
+      {
+        "id": "70656",
+        "text": "Your left eye is congested."
+      }
+    ],
+    "indices": "貴方(あなた)[01]{あなた} の 左目 は 充血~ 為る(する){しています} よ[01]",
+    "vocabIds": [
+      "1291040",
+      "1334300"
+    ],
+    "matches": {
+      "1291040": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ひだりめ"
+        }
+      ],
+      "1334300": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "じゅうけつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2055095",
+    "original": "トムはその事故以来ずっと左目に問題がある。",
+    "en": [
+      {
+        "id": "1025378",
+        "text": "Tom has had trouble with his left eye ever since the accident."
+      }
+    ],
+    "vocabIds": [
+      "1313850",
+      "1155210",
+      "1291040",
+      "1536010"
+    ],
+    "matches": {
+      "1155210": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "いらい"
+        }
+      ],
+      "1291040": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "ひだりめ"
+        }
+      ],
+      "1313850": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "じこ"
+        }
+      ],
+      "1536010": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "もんだい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3521115",
+    "original": "トムは左目がよく見えないって本当ですか。",
+    "en": [
+      {
+        "id": "3521187",
+        "text": "Is it true that Tom can't see very well out of his left eye?"
+      }
+    ],
+    "vocabIds": [
+      "1259140",
+      "1291040",
+      "1523060"
+    ],
+    "matches": {
+      "1259140": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "みえない"
+        }
+      ],
+      "1291040": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ひだりめ"
+        }
+      ],
+      "1523060": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "ほんとう"
+        }
+      ]
+    }
+  }
+]

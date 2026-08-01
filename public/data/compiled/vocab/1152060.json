@@ -1,0 +1,106 @@
+{
+  "id": "1152060",
+  "writtenForm": {
+    "kanji": "悪性",
+    "alternatives": [],
+    "containedKanji": [
+      "悪",
+      "性"
+    ]
+  },
+  "reading": {
+    "primary": "あくしょう",
+    "alternatives": [
+      "あくせい"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 34017,
+    "kanaRank": 239879
+  },
+  "progression": {
+    "kklcStep": 546
+  },
+  "senses": [
+    {
+      "pos": [
+        "n",
+        "adj-na"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "evil nature",
+        "licentiousness",
+        "lewdness"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "adj-no",
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "malignant (cancer)",
+        "virulent",
+        "pernicious (anemia, anaemia)"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "あくせい"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1152060",
+      "isBase": true,
+      "originalPrimaryReading": "あくしょう",
+      "originalGlosses": [
+        "evil nature",
+        "licentiousness",
+        "lewdness"
+      ]
+    },
+    {
+      "id": "1152070",
+      "isBase": false,
+      "originalPrimaryReading": "あくせい",
+      "originalGlosses": [
+        "malignant (cancer)",
+        "virulent",
+        "pernicious (anemia, anaemia)"
+      ]
+    }
+  ],
+  "components": [
+    "1151230",
+    "1375260"
+  ],
+  "parents": [
+    "2653680"
+  ]
+}

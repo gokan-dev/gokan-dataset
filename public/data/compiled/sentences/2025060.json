@@ -1,0 +1,137 @@
+[
+  {
+    "id": "82821",
+    "original": "母親たちは子どもに道路で遊ばせないようにするべきだ。",
+    "en": [
+      {
+        "id": "320895",
+        "text": "Mothers should keep their children from playing in the streets."
+      }
+    ],
+    "indices": "母親 達{たち} は 子供{子ども} に 道路 で(#2028980) 遊ばす[01]{遊ばせない} 様にする{ようにする} 可き{べき} だ",
+    "vocabIds": [
+      "2025060",
+      "1307850",
+      "1515120",
+      "1454290"
+    ],
+    "matches": {
+      "1307850": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "こども"
+        }
+      ],
+      "1454290": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "どうろ"
+        }
+      ],
+      "1515120": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ははおや"
+        }
+      ],
+      "2025060": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "あそばせない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1075128",
+    "original": "子どもをナイフで遊ばせないようにしてください。",
+    "en": [
+      {
+        "id": "708205",
+        "text": "Don't let the kid play with knives."
+      },
+      {
+        "id": "1075512",
+        "text": "Please don't let the children play with knives."
+      },
+      {
+        "id": "1075513",
+        "text": "Please don't allow the children to play with knives."
+      },
+      {
+        "id": "10191370",
+        "text": "Don't let the kids play with knives."
+      }
+    ],
+    "vocabIds": [
+      "2025060",
+      "1307850"
+    ],
+    "matches": {
+      "1307850": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "こども"
+        }
+      ],
+      "2025060": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "あそばせない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9699063",
+    "original": "子供たちを道で遊ばせないでください。",
+    "en": [
+      {
+        "id": "2377827",
+        "text": "Don't let the children play on the street."
+      }
+    ],
+    "vocabIds": [
+      "2025060",
+      "1307870",
+      "1454080",
+      "2220470"
+    ],
+    "matches": {
+      "1307870": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "こどもたち"
+        }
+      ],
+      "1454080": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "みち"
+        }
+      ],
+      "2025060": [
+        {
+          "start": 7,
+          "length": 10,
+          "reading": "あそばせないでください"
+        }
+      ],
+      "2220470": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "みち"
+        }
+      ]
+    }
+  }
+]

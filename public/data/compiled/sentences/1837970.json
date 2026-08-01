@@ -1,0 +1,135 @@
+[
+  {
+    "id": "78285",
+    "original": "立ち見席は有りますか。",
+    "en": [
+      {
+        "id": "325432",
+        "text": "Do you have any standing room?"
+      }
+    ],
+    "indices": "立ち見席 は 有る{有ります} か",
+    "vocabIds": [
+      "1837970",
+      "1296400"
+    ],
+    "matches": {
+      "1296400": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "あります"
+        }
+      ],
+      "1837970": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "たちみせき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "172669",
+    "original": "今はもう立ち見席しか残っておりませんけど。",
+    "en": [
+      {
+        "id": "241806",
+        "text": "Well, at this point, it's standing room only."
+      }
+    ],
+    "indices": "今(いま) は もう 立ち見席~ しか 残る{残って} 居る(おる)[02]{おりません} けど",
+    "vocabIds": [
+      "1304510",
+      "1837970",
+      "1288850"
+    ],
+    "matches": {
+      "1288850": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "いま"
+        }
+      ],
+      "1304510": [
+        {
+          "start": 10,
+          "length": 10,
+          "reading": "のこっておりませんけど"
+        }
+      ],
+      "1837970": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "たちみせき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "216297",
+    "original": "しかし、当日買える決勝戦の安い立見席券が必ずいくらかある。",
+    "en": [
+      {
+        "id": "53601",
+        "text": "But there are always some cheap standing tickets for the finals that you can buy on the day."
+      }
+    ],
+    "indices": "然し{しかし} 当日 買う[01]{買える} 決勝戦 の 安い[01] 立見 席(せき) 券 が 必ず 幾らか[01]{いくらか} 有る{ある}",
+    "vocabIds": [
+      "1254330",
+      "1837970",
+      "1449210",
+      "1153670",
+      "1487400",
+      "1256730"
+    ],
+    "matches": {
+      "1153670": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "やすい"
+        }
+      ],
+      "1254330": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "けっしょうせん"
+        }
+      ],
+      "1256730": [
+        {
+          "start": 18,
+          "length": 1,
+          "reading": "けん"
+        }
+      ],
+      "1449210": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "とうじつ"
+        }
+      ],
+      "1487400": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "かならず"
+        }
+      ],
+      "1837970": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "たちみせき"
+        }
+      ]
+    }
+  }
+]

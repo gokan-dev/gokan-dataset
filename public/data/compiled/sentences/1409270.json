@@ -1,0 +1,150 @@
+[
+  {
+    "id": "137985",
+    "original": "体温計を口にくわえて、体温を測りましたか。",
+    "en": [
+      {
+        "id": "275250",
+        "text": "Did you take your temperature with a thermometer in your mouth?"
+      }
+    ],
+    "indices": "体温計 を 口(くち)[01] に 咥える{くわえて} 体温 を 計る[01]{測りました} か",
+    "vocabIds": [
+      "1600650",
+      "1409270",
+      "1409250",
+      "1275640"
+    ],
+    "matches": {
+      "1275640": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "くち"
+        }
+      ],
+      "1409250": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "たいおん"
+        }
+      ],
+      "1409270": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "たいおんけい"
+        }
+      ],
+      "1600650": [
+        {
+          "start": 14,
+          "length": 5,
+          "reading": "はかりました"
+        }
+      ]
+    }
+  },
+  {
+    "id": "183847",
+    "original": "看護婦は体温計で彼の体温を計った。",
+    "en": [
+      {
+        "id": "20971",
+        "text": "The nurse took his temperature with a thermometer."
+      }
+    ],
+    "indices": "看護婦 は 体温計~ で(#2028980) 彼(かれ)[01] の 体温 を 計る[01]{計った}",
+    "vocabIds": [
+      "1213870",
+      "1409270",
+      "1600650",
+      "1000420",
+      "1409250"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "かれの"
+        }
+      ],
+      "1213870": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "かんごふ"
+        }
+      ],
+      "1409250": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "たいおん"
+        }
+      ],
+      "1409270": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "たいおんけい"
+        }
+      ],
+      "1600650": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "はかった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "4001518",
+    "original": "「お母さん、体温計知らない？」「いつもの場所にないの？」「うん、ないみたい」",
+    "en": [
+      {
+        "id": "4635432",
+        "text": "\"Mom, do you know where the thermometer is?\" \"It's not in the usual place?\" \"Yeah, I checked.\""
+      }
+    ],
+    "vocabIds": [
+      "1002650",
+      "1420420",
+      "1409270",
+      "1355850"
+    ],
+    "matches": {
+      "1002650": [
+        {
+          "start": 1,
+          "length": 4,
+          "reading": "おかあさん"
+        }
+      ],
+      "1355850": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "ばしょ"
+        }
+      ],
+      "1409270": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "たいおんけい"
+        }
+      ],
+      "1420420": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "しらない"
+        }
+      ]
+    }
+  }
+]

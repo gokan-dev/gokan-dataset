@@ -1,0 +1,76 @@
+[
+  {
+    "id": "193728",
+    "original": "もし銀行へ行っていればもっとよい交換レートだったのに。",
+    "en": [
+      {
+        "id": "30896",
+        "text": "They would have gotten a better exchange rate if they had gone to a bank."
+      },
+      {
+        "id": "6678298",
+        "text": "They would've gotten a better exchange rate if they'd gone to a bank."
+      }
+    ],
+    "indices": "若し(もし){もし} 銀行 へ 行く[01]{行っていれば} もっと 良い{よい} 交換 レート(#1144420)[01] だ{だった} のに",
+    "vocabIds": [
+      "1578850",
+      "2615580",
+      "1243490"
+    ],
+    "matches": {
+      "1243490": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ぎんこう"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 5,
+          "length": 6,
+          "reading": "いっていれば"
+        }
+      ],
+      "2615580": [
+        {
+          "start": 16,
+          "length": 5,
+          "reading": "こうかんれーと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "199684",
+    "original": "ドルの交換レートは、今いくらですか。",
+    "en": [
+      {
+        "id": "36886",
+        "text": "What is the exchange rate for dollars now?"
+      }
+    ],
+    "indices": "弗[01]{ドル} の 交換 レート(#1144420)[01]~ は 今(いま) 幾ら{いくら} ですか",
+    "vocabIds": [
+      "2615580",
+      "1288850"
+    ],
+    "matches": {
+      "1288850": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "こん"
+        }
+      ],
+      "2615580": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "こうかんれーと"
+        }
+      ]
+    }
+  }
+]

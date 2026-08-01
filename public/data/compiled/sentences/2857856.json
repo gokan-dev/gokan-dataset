@@ -1,0 +1,57 @@
+[
+  {
+    "id": "169920",
+    "original": "昨日何ヶ月ぶりかに雨が降った。",
+    "en": [
+      {
+        "id": "244566",
+        "text": "It rained yesterday after it had been dry for many months."
+      }
+    ],
+    "indices": "昨日 何ヶ月ぶりか~ に 雨 が 降る(ふる){降った}",
+    "vocabIds": [
+      "2857856",
+      "1184450",
+      "1282790",
+      "1579260",
+      "1171900"
+    ],
+    "matches": {
+      "1171900": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "あめ"
+        }
+      ],
+      "1184450": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "ふった"
+        }
+      ],
+      "1282790": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "ふった"
+        }
+      ],
+      "1579260": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きのう"
+        }
+      ],
+      "2857856": [
+        {
+          "start": 2,
+          "length": 6,
+          "reading": "なんかげつぶりか"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,71 @@
+[
+  {
+    "id": "234560",
+    "original": "あいにく朝の通勤ラッシュにぶつかった。",
+    "en": [
+      {
+        "id": "71936",
+        "text": "Unfortunately, I hit the morning rush hour."
+      }
+    ],
+    "indices": "生憎{あいにく} 朝(あさ) の 通勤 ラッシュ[03]~ に ぶつかる{ぶつかった}",
+    "vocabIds": [
+      "2404380",
+      "1428280"
+    ],
+    "matches": {
+      "1428280": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "あさ"
+        }
+      ],
+      "2404380": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "つうきんらっしゅ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10617713",
+    "original": "トムは通勤ラッシュの時間帯に運転をしてたんだ。",
+    "en": [
+      {
+        "id": "10543423",
+        "text": "Tom was driving during rush hour."
+      }
+    ],
+    "vocabIds": [
+      "2404380",
+      "1316010",
+      "1172830"
+    ],
+    "matches": {
+      "1172830": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "うんてん"
+        }
+      ],
+      "1316010": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "じかんたい"
+        }
+      ],
+      "2404380": [
+        {
+          "start": 3,
+          "length": 6,
+          "reading": "つうきんらっしゅ"
+        }
+      ]
+    }
+  }
+]

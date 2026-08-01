@@ -1,0 +1,127 @@
+[
+  {
+    "id": "143671",
+    "original": "水車小屋は皆自分の水車に水を引く。",
+    "en": [
+      {
+        "id": "270896",
+        "text": "Every miller draws water to his own mill."
+      }
+    ],
+    "indices": "水車小屋 は 皆 自分[01] の 水車~ に 水(みず) を 引く",
+    "vocabIds": [
+      "1939530",
+      "1867090",
+      "1371600",
+      "1318610",
+      "1202150"
+    ],
+    "matches": {
+      "1202150": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "みな"
+        }
+      ],
+      "1318610": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "じぶん"
+        }
+      ],
+      "1371600": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "すいしゃ"
+        }
+      ],
+      "1867090": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "みずをひく"
+        }
+      ],
+      "1939530": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "すいしゃこや"
+        }
+      ]
+    }
+  },
+  {
+    "id": "203272",
+    "original": "ダムの下流に水車小屋があった。",
+    "en": [
+      {
+        "id": "40508",
+        "text": "There was a water mill below the dam."
+      }
+    ],
+    "indices": "ダム の 下流 に 水車小屋 が[01] 有る{あった}",
+    "vocabIds": [
+      "1939530",
+      "1186560"
+    ],
+    "matches": {
+      "1186560": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かりゅう"
+        }
+      ],
+      "1939530": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "すいしゃこや"
+        }
+      ]
+    }
+  },
+  {
+    "id": "222338",
+    "original": "この橋の上流に水車小屋がある。",
+    "en": [
+      {
+        "id": "59666",
+        "text": "There is a water mill above the bridge."
+      }
+    ],
+    "indices": "此の{この} 橋(はし) の 上流 に 水車小屋~ が[01] 有る{ある}",
+    "vocabIds": [
+      "1939530",
+      "1354510",
+      "1237410"
+    ],
+    "matches": {
+      "1237410": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "はし"
+        }
+      ],
+      "1354510": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "じょうりゅう"
+        }
+      ],
+      "1939530": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "すいしゃこや"
+        }
+      ]
+    }
+  }
+]

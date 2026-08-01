@@ -1,0 +1,203 @@
+[
+  {
+    "id": "124968",
+    "original": "添付ファイルに適応したソフトウエアを持っていないので、ファイルを開けません。別のファイル形式で再送して下さい。",
+    "en": [
+      {
+        "id": "279025",
+        "text": "As I don't have the software that matches the attachment, I cannot open the file. Please resend it in another format."
+      },
+      {
+        "id": "433383",
+        "text": "Since I don't have the software to open the attached file, I can't open it. Please send it again in another format."
+      }
+    ],
+    "indices": "添付 ファイル[03] に 適応 為る(する){した} ソフトウェア{ソフトウエア} を 持つ{持っていない} ので ファイル[03] を[01] 開ける(あける){開けません} 別(べつ){別の} ファイル形式~ で(#2028980) 再送 為る(する){して} 下さい",
+    "vocabIds": [
+      "1315720",
+      "1998730",
+      "2323660",
+      "1202450",
+      "1184280",
+      "1437350",
+      "1293110",
+      "1509430"
+    ],
+    "matches": {
+      "1184280": [
+        {
+          "start": 51,
+          "length": 3,
+          "reading": "ください"
+        }
+      ],
+      "1202450": [
+        {
+          "start": 32,
+          "length": 5,
+          "reading": "あけません"
+        }
+      ],
+      "1293110": [
+        {
+          "start": 47,
+          "length": 2,
+          "reading": "さいそう"
+        }
+      ],
+      "1315720": [
+        {
+          "start": 18,
+          "length": 8,
+          "reading": "もっていないので"
+        }
+      ],
+      "1437350": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "てきおう"
+        }
+      ],
+      "1509430": [
+        {
+          "start": 38,
+          "length": 1,
+          "reading": "べつ"
+        }
+      ],
+      "1998730": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "てんぷふぁいる"
+        }
+      ],
+      "2323660": [
+        {
+          "start": 40,
+          "length": 6,
+          "reading": "ふぁいるけいしき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "183036",
+    "original": "貴社製品の詳細について、電子メールの添付ファイルを送っていただけませんか。",
+    "en": [
+      {
+        "id": "20158",
+        "text": "Would you please send me details of your products via e-mail as an attachment?"
+      }
+    ],
+    "indices": "貴社 製品 の 詳細 に就いて{について} 電子メール の 添付 ファイル[03] を 送る[01]{送って} 頂ける[01]{いただけません} か",
+    "vocabIds": [
+      "1998730",
+      "1443350",
+      "1402730",
+      "1223510",
+      "1380760",
+      "1351760"
+    ],
+    "matches": {
+      "1223510": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きしゃ"
+        }
+      ],
+      "1351760": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "しょうさい"
+        }
+      ],
+      "1380760": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "せいひん"
+        }
+      ],
+      "1402730": [
+        {
+          "start": 25,
+          "length": 5,
+          "reading": "おくっていた"
+        }
+      ],
+      "1443350": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "でんしめーる"
+        }
+      ],
+      "1998730": [
+        {
+          "start": 18,
+          "length": 6,
+          "reading": "てんぷふぁいる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "195719",
+    "original": "マイクロソフトオフィスがパソコンに入っています。添付ファイルを送るときには、このファイル形式を使って下さい。",
+    "en": [
+      {
+        "id": "32894",
+        "text": "I have installed Microsoft Office on my personal computer, so please use its file format when you send me the attachment."
+      }
+    ],
+    "indices": "が パソコン に 入る(はいる){入っています} 添付 ファイル[03] を 送る[01] 時(とき){とき} には 此の{この} ファイル形式 を 使う[01]{使って} 下さい",
+    "vocabIds": [
+      "1998730",
+      "2323660",
+      "1465590",
+      "1305990",
+      "1402730"
+    ],
+    "matches": {
+      "1305990": [
+        {
+          "start": 47,
+          "length": 6,
+          "reading": "つかってください"
+        }
+      ],
+      "1402730": [
+        {
+          "start": 31,
+          "length": 2,
+          "reading": "おくる"
+        }
+      ],
+      "1465590": [
+        {
+          "start": 17,
+          "length": 6,
+          "reading": "はいっています"
+        }
+      ],
+      "1998730": [
+        {
+          "start": 24,
+          "length": 6,
+          "reading": "てんぷふぁいる"
+        }
+      ],
+      "2323660": [
+        {
+          "start": 40,
+          "length": 6,
+          "reading": "ふぁいるけいしき"
+        }
+      ]
+    }
+  }
+]

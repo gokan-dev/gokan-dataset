@@ -1,0 +1,129 @@
+[
+  {
+    "id": "2217324",
+    "original": "下駄を突っかけて表に飛び出した。",
+    "en": [
+      {
+        "id": "2217328",
+        "text": "I slipped on my geta and dashed outside."
+      }
+    ],
+    "indices": "下駄(げた)~ を 突っ掛ける{突っかけて}~ 表(おもて)[04] に 飛び出す(とびだす)[01]{飛び出した}",
+    "vocabIds": [
+      "1485350",
+      "1779370",
+      "1185780",
+      "1489340"
+    ],
+    "matches": {
+      "1185780": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "げた"
+        }
+      ],
+      "1485350": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "とびだした"
+        }
+      ],
+      "1489340": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "ひょう"
+        }
+      ],
+      "1779370": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "つっかけ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2217398",
+    "original": "どうしよう。下駄の鼻緒が切れちゃった。",
+    "en": [
+      {
+        "id": "2595820",
+        "text": "What will I do? The strap on one of my geta is broken."
+      }
+    ],
+    "vocabIds": [
+      "1384860",
+      "1185780",
+      "1487040"
+    ],
+    "matches": {
+      "1185780": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "げた"
+        }
+      ],
+      "1384860": [
+        {
+          "start": 12,
+          "length": 6,
+          "reading": "きれちゃった"
+        }
+      ],
+      "1487040": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "はなお"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12346192",
+    "original": "下駄持ってくるの忘れた。",
+    "en": [
+      {
+        "id": "13694613",
+        "text": "I forgot to bring my traditional wooden Japanese sandals."
+      },
+      {
+        "id": "13694616",
+        "text": "I forgot to bring my geta sandals."
+      }
+    ],
+    "vocabIds": [
+      "1315710",
+      "1519210",
+      "1185780"
+    ],
+    "matches": {
+      "1185780": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "げた"
+        }
+      ],
+      "1315710": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "もってくる"
+        }
+      ],
+      "1519210": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "わすれた"
+        }
+      ]
+    }
+  }
+]

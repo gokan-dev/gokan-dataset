@@ -1,0 +1,97 @@
+[
+  {
+    "id": "170843",
+    "original": "座りなよ。",
+    "en": [
+      {
+        "id": "38572",
+        "text": "Please have a seat."
+      },
+      {
+        "id": "243637",
+        "text": "Take the weight off your feet."
+      },
+      {
+        "id": "415594",
+        "text": "Please sit down."
+      },
+      {
+        "id": "478180",
+        "text": "Please sit."
+      },
+      {
+        "id": "38593",
+        "text": "Please take a seat."
+      },
+      {
+        "id": "1553500",
+        "text": "Have a seat."
+      }
+    ],
+    "indices": "座る[01]{座り} な[02] よ[01]",
+    "vocabIds": [
+      "1657640"
+    ],
+    "matches": {
+      "1657640": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "すわり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2068042",
+    "original": "座りなよ。疲れてるみたいだし。",
+    "en": [
+      {
+        "id": "1860586",
+        "text": "Take a seat. You look tired."
+      }
+    ],
+    "vocabIds": [
+      "1483740",
+      "1657640"
+    ],
+    "matches": {
+      "1483740": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "つかれてる"
+        }
+      ],
+      "1657640": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "すわり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3366928",
+    "original": "トム、座りなよ。",
+    "en": [
+      {
+        "id": "2549394",
+        "text": "Have a seat, Tom."
+      }
+    ],
+    "vocabIds": [
+      "1657640"
+    ],
+    "matches": {
+      "1657640": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "すわり"
+        }
+      ]
+    }
+  }
+]

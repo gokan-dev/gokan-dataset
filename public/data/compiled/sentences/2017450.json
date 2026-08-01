@@ -1,0 +1,80 @@
+[
+  {
+    "id": "84797",
+    "original": "父の髪は白髪交じりになった。",
+    "en": [
+      {
+        "id": "318917",
+        "text": "My father's hair has become streaked with gray."
+      }
+    ],
+    "indices": "父 の 髪 は 白髪~ 混じり{交じり}~ になる[01]{になった}",
+    "vocabIds": [
+      "2017450",
+      "1497610",
+      "1477950"
+    ],
+    "matches": {
+      "1477950": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "かみ"
+        }
+      ],
+      "1497610": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ちち"
+        }
+      ],
+      "2017450": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "はくはつまじり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "94065",
+    "original": "彼女の髪は白髪まじりだ。",
+    "en": [
+      {
+        "id": "309641",
+        "text": "Her hair is streaked with gray."
+      }
+    ],
+    "indices": "彼女[01]{彼女の} 髪 は 白髪交じり{白髪まじり}~ だ",
+    "vocabIds": [
+      "2017450",
+      "1483150",
+      "1477950"
+    ],
+    "matches": {
+      "1477950": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "かみ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "2017450": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "はくはつまじり"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,126 @@
+[
+  {
+    "id": "90336",
+    "original": "彼女は稽古を休んだ。",
+    "en": [
+      {
+        "id": "313378",
+        "text": "She absented herself from the lesson."
+      }
+    ],
+    "indices": "彼女[01] は 稽古 を 休む[01]{休んだ}",
+    "vocabIds": [
+      "1227560",
+      "1483150",
+      "1250990"
+    ],
+    "matches": {
+      "1227560": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "やすんだ"
+        }
+      ],
+      "1250990": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "けいこ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "98095",
+    "original": "彼らはけんかをしているのではなく、劇の稽古をしているところだ。",
+    "en": [
+      {
+        "id": "305607",
+        "text": "They aren't quarreling, but are rehearsing a play."
+      }
+    ],
+    "indices": "彼ら(かれら) は 喧嘩{けんか} を 為る(する){している} の だ{ではなく} 劇 の 稽古 を 為る(する){している} 所(ところ){ところ} だ",
+    "vocabIds": [
+      "1483090",
+      "2397090",
+      "1250990",
+      "1253310"
+    ],
+    "matches": {
+      "1250990": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "けいこ"
+        }
+      ],
+      "1253310": [
+        {
+          "start": 17,
+          "length": 1,
+          "reading": "げき"
+        }
+      ],
+      "1483090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれら"
+        }
+      ],
+      "2397090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11049019",
+    "original": "稽古が終わったばっかりで、今、ゴロゴロしてます。",
+    "en": [
+      {
+        "id": "11049020",
+        "text": "I just got done with practice, and now I'm lying down."
+      }
+    ],
+    "vocabIds": [
+      "1589600",
+      "1250990",
+      "1288850"
+    ],
+    "matches": {
+      "1250990": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "けいこ"
+        }
+      ],
+      "1288850": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "いま"
+        }
+      ],
+      "1589600": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "おわった"
+        }
+      ]
+    }
+  }
+]

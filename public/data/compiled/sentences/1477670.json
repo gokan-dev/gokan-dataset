@@ -1,0 +1,398 @@
+[
+  {
+    "id": "80671",
+    "original": "明日、この報告書を発送するよういって下さい。",
+    "en": [
+      {
+        "id": "323044",
+        "text": "Please remind me to mail the report tomorrow."
+      }
+    ],
+    "indices": "明日 此の{この} 報告書 を 発送 為る(する){する} 様(よう){よう} 言う{いって} 下さい",
+    "vocabIds": [
+      "1515690",
+      "1184280",
+      "1584660",
+      "1477670"
+    ],
+    "matches": {
+      "1184280": [
+        {
+          "start": 18,
+          "length": 3,
+          "reading": "ください"
+        }
+      ],
+      "1477670": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "はっそう"
+        }
+      ],
+      "1515690": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "ほうこくしょ"
+        }
+      ],
+      "1584660": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あした"
+        }
+      ]
+    }
+  },
+  {
+    "id": "104123",
+    "original": "彼は小包をおととい発送した。",
+    "en": [
+      {
+        "id": "299569",
+        "text": "He sent out the parcel the day before yesterday."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 小包 を 一昨日{おととい} 発送 為る(する){した}",
+    "vocabIds": [
+      "1593290",
+      "1477670",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1477670": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "はっそう"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1593290": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "こづつみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "121313",
+    "original": "発送用に包装してください。",
+    "en": [
+      {
+        "id": "282693",
+        "text": "Could you wrap it for mailing?"
+      }
+    ],
+    "indices": "発送 用[02] に 包装 為る(する){して} 下さい{ください}",
+    "vocabIds": [
+      "1477670",
+      "1515510",
+      "1546200"
+    ],
+    "matches": {
+      "1477670": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "はっそう"
+        }
+      ],
+      "1515510": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ほうそう"
+        }
+      ],
+      "1546200": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "よう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "146441",
+    "original": "招待状を昨日発送しました。",
+    "en": [
+      {
+        "id": "507768",
+        "text": "We sent out the invitations yesterday."
+      }
+    ],
+    "indices": "招待状 を 昨日 発送 為る(する){しました}",
+    "vocabIds": [
+      "1349630",
+      "1579260",
+      "1477670"
+    ],
+    "matches": {
+      "1349630": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "しょうたいじょう"
+        }
+      ],
+      "1477670": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "はっそう"
+        }
+      ],
+      "1579260": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "きのう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "166441",
+    "original": "私たちはそのパーティーの招待状をすでに発送していた。",
+    "en": [
+      {
+        "id": "248062",
+        "text": "We had already sent the letters of invitation to the party."
+      }
+    ],
+    "indices": "私たち は 其の[01]{その} パーティー の 招待状 を 既に(すでに)[01]{すでに} 発送 為る(する){していた}",
+    "vocabIds": [
+      "1311300",
+      "1349630",
+      "1477670"
+    ],
+    "matches": {
+      "1311300": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1349630": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "しょうたいじょう"
+        }
+      ],
+      "1477670": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "はっそう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "228619",
+    "original": "いつ発送してもらえるのか知りたいのですが。",
+    "en": [
+      {
+        "id": "65977",
+        "text": "I'd like to know when you can send it out."
+      }
+    ],
+    "indices": "何時(いつ){いつ} 発送~ 為る(する){して} 貰う[02]{もらえる} の か 知る{知り} たい[01] のです が",
+    "vocabIds": [
+      "1420470",
+      "1477670"
+    ],
+    "matches": {
+      "1420470": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "しりたい"
+        }
+      ],
+      "1477670": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "はっそう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1650170",
+    "original": "発送前に箱がきちんと密閉されていることを確認してください。",
+    "en": [
+      {
+        "id": "1334988",
+        "text": "Make sure all the boxes are well sealed before they're delivered."
+      }
+    ],
+    "vocabIds": [
+      "1477670",
+      "1392590",
+      "1528360",
+      "1205900",
+      "1585650"
+    ],
+    "matches": {
+      "1205900": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "かくにん"
+        }
+      ],
+      "1392590": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "まえに"
+        }
+      ],
+      "1477670": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "はっそう"
+        }
+      ],
+      "1528360": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "みっぺい"
+        }
+      ],
+      "1585650": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "はこ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9041268",
+    "original": "明日この報告書を発送すること、言ってくださいね。",
+    "en": [
+      {
+        "id": "323044",
+        "text": "Please remind me to mail the report tomorrow."
+      }
+    ],
+    "vocabIds": [
+      "1587040",
+      "1515690",
+      "1584660",
+      "1477670"
+    ],
+    "matches": {
+      "1477670": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "はっそう"
+        }
+      ],
+      "1515690": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "ほうこくしょ"
+        }
+      ],
+      "1584660": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あした"
+        }
+      ],
+      "1587040": [
+        {
+          "start": 15,
+          "length": 7,
+          "reading": "いってください"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2690745",
+    "original": "当選者の発表は、賞品の発送をもって代えさせていただきます。",
+    "en": [
+      {
+        "id": "10125886",
+        "text": "Instead of holding an announcement, we will send the prizes directly to the winners."
+      }
+    ],
+    "vocabIds": [
+      "1784200",
+      "1589780",
+      "1477840",
+      "1351960",
+      "1477670"
+    ],
+    "matches": {
+      "1351960": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "しょうひん"
+        }
+      ],
+      "1477670": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "はっそう"
+        }
+      ],
+      "1477840": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "はっぴょう"
+        }
+      ],
+      "1589780": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "かえ"
+        }
+      ],
+      "1784200": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "とうせんしゃ"
+        }
+      ]
+    }
+  }
+]

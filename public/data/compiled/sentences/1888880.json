@@ -1,0 +1,127 @@
+[
+  {
+    "id": "141491",
+    "original": "先生方はいつも君の作品を誉めるよ。",
+    "en": [
+      {
+        "id": "273079",
+        "text": "Your teachers always speak well of your work."
+      }
+    ],
+    "indices": "先生方 は 何時も[01]{いつも} 君(きみ)[01]{君の} 作品 を 褒める{誉める} よ[01]",
+    "vocabIds": [
+      "1888880",
+      "1603550",
+      "1297910",
+      "1247250"
+    ],
+    "matches": {
+      "1247250": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "きみ"
+        }
+      ],
+      "1297910": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "さくひん"
+        }
+      ],
+      "1603550": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "ほめる"
+        }
+      ],
+      "1888880": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "せんせいかた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "142711",
+    "original": "生徒達はうれしいけど先生方はそうではありません。",
+    "en": [
+      {
+        "id": "271859",
+        "text": "The students are happy, but the teachers are not."
+      }
+    ],
+    "indices": "生徒 達 は 嬉しい{うれしい} けど 先生方 は そう です{ではありません}",
+    "vocabIds": [
+      "1888880",
+      "1379380",
+      "1416220"
+    ],
+    "matches": {
+      "1379380": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "せいと"
+        }
+      ],
+      "1416220": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "たち"
+        }
+      ],
+      "1888880": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "せんせいかた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "219989",
+    "original": "この部屋は先生方に使われています。",
+    "en": [
+      {
+        "id": "57309",
+        "text": "This room is used by teachers."
+      }
+    ],
+    "indices": "此の{この} 部屋[01] は 先生方~ に 使う{使われています}",
+    "vocabIds": [
+      "1888880",
+      "1499320",
+      "1305990"
+    ],
+    "matches": {
+      "1305990": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "つかわ"
+        }
+      ],
+      "1499320": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "へや"
+        }
+      ],
+      "1888880": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "せんせいかた"
+        }
+      ]
+    }
+  }
+]

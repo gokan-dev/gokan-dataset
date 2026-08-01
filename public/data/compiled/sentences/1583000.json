@@ -1,0 +1,170 @@
+[
+  {
+    "id": "195790",
+    "original": "マイクですが、博君はいますか。",
+    "en": [
+      {
+        "id": "402823",
+        "text": "This is Mike. Is Hiroshi there?"
+      }
+    ],
+    "indices": "です が[03] 君(くん) は 居る(いる){います} か",
+    "vocabIds": [
+      "1583000",
+      "1247250"
+    ],
+    "matches": {
+      "1247250": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "くん"
+        }
+      ],
+      "1583000": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "ひろし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "210837",
+    "original": "その後でマイクは博にシートベルトを締めるように言います。",
+    "en": [
+      {
+        "id": "48108",
+        "text": "Then Mike tells Hiroshi to fasten his seat belt."
+      },
+      {
+        "id": "1360024",
+        "text": "After that, Mike tells Hiroshi to fasten his seat belt."
+      }
+    ],
+    "indices": "その後 で(#2028980) は に シートベルト を[01] 締める 様に{ように} 言う{言います}",
+    "vocabIds": [
+      "1587040",
+      "1006860",
+      "1436570",
+      "1583000"
+    ],
+    "matches": {
+      "1006860": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "そのご"
+        }
+      ],
+      "1436570": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "しめる"
+        }
+      ],
+      "1583000": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "はく"
+        }
+      ],
+      "1587040": [
+        {
+          "start": 23,
+          "length": 4,
+          "reading": "いいます"
+        }
+      ]
+    }
+  },
+  {
+    "id": "236205",
+    "original": "「博、君の気持ちは分かるよ」とマイクが言います。",
+    "en": [
+      {
+        "id": "73581",
+        "text": "\"I understand how you feel, Hiroshi,\" says Mike."
+      }
+    ],
+    "indices": "君(きみ)[01]{君の} 気持ち は 分かる[01]~ よ と が 言う{言います}",
+    "vocabIds": [
+      "1587040",
+      "1591430",
+      "1606560",
+      "1583000",
+      "1247250"
+    ],
+    "matches": {
+      "1247250": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "きみ"
+        }
+      ],
+      "1583000": [
+        {
+          "start": 1,
+          "length": 1,
+          "reading": "ひろし"
+        }
+      ],
+      "1587040": [
+        {
+          "start": 19,
+          "length": 4,
+          "reading": "いいます"
+        }
+      ],
+      "1591430": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "きもち"
+        }
+      ],
+      "1606560": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "わかる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "402827",
+    "original": "マイクと申しますが、博さんはいらっしゃいますか。",
+    "en": [
+      {
+        "id": "32965",
+        "text": "This is Mike speaking. May I speak to Hiroshi, please?"
+      }
+    ],
+    "indices": "と 申す{申します} が さん は 居らっしゃる(いらっしゃる){いらっしゃいます} か",
+    "vocabIds": [
+      "1363090",
+      "1583000"
+    ],
+    "matches": {
+      "1363090": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "もうしますが"
+        }
+      ],
+      "1583000": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "ひろし"
+        }
+      ]
+    }
+  }
+]

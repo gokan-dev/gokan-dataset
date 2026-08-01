@@ -1,0 +1,127 @@
+[
+  {
+    "id": "90018",
+    "original": "彼女は今外出禁止です。",
+    "en": [
+      {
+        "id": "313697",
+        "text": "She is forbidden to go out."
+      },
+      {
+        "id": "7924738",
+        "text": "She is not allowed to go out now."
+      },
+      {
+        "id": "10761318",
+        "text": "She's forbidden to go out."
+      }
+    ],
+    "indices": "彼女[01] は 今(いま) 外出 禁止 です",
+    "vocabIds": [
+      "2838870",
+      "1483150",
+      "1288850"
+    ],
+    "matches": {
+      "1288850": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "こん"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "2838870": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "がいしゅつきんし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "905814",
+    "original": "外出禁止とか、その他のありふれた罰を与えても、彼の息子には全く通じなかった。",
+    "en": [
+      {
+        "id": "905062",
+        "text": "Grounding and other bog-standard punishments didn't get through to his son at all."
+      }
+    ],
+    "vocabIds": [
+      "1432880",
+      "2838870",
+      "1006900",
+      "1544730",
+      "1000420",
+      "1404390",
+      "1394800",
+      "1478060"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 23,
+          "length": 2,
+          "reading": "かれの"
+        }
+      ],
+      "1006900": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "そのた"
+        }
+      ],
+      "1394800": [
+        {
+          "start": 29,
+          "length": 2,
+          "reading": "まったく"
+        }
+      ],
+      "1404390": [
+        {
+          "start": 25,
+          "length": 2,
+          "reading": "むすこ"
+        }
+      ],
+      "1432880": [
+        {
+          "start": 31,
+          "length": 6,
+          "reading": "つうじなかった"
+        }
+      ],
+      "1478060": [
+        {
+          "start": 16,
+          "length": 1,
+          "reading": "ばち"
+        }
+      ],
+      "1544730": [
+        {
+          "start": 18,
+          "length": 3,
+          "reading": "あたえて"
+        }
+      ],
+      "2838870": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "がいしゅつきんし"
+        }
+      ]
+    }
+  }
+]

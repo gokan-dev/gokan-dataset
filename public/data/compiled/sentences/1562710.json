@@ -1,0 +1,134 @@
+[
+  {
+    "id": "77126",
+    "original": "藁なしで煉瓦はできない。",
+    "en": [
+      {
+        "id": "326593",
+        "text": "You cannot make bricks without straw."
+      },
+      {
+        "id": "1411291",
+        "text": "You can't make bricks without straw."
+      },
+      {
+        "id": "1411292",
+        "text": "Bricks can't be made without straw."
+      }
+    ],
+    "indices": "藁 無しで{なしで} 煉瓦 は 出来る{できない}",
+    "vocabIds": [
+      "1559090",
+      "1562710",
+      "2714230"
+    ],
+    "matches": {
+      "1559090": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "れんが"
+        }
+      ],
+      "1562710": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わら"
+        }
+      ],
+      "2714230": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "82449",
+    "original": "北海道では藁の馬をつくる。",
+    "en": [
+      {
+        "id": "321265",
+        "text": "In Hokkaido, they make horses of straw."
+      }
+    ],
+    "indices": "北海道 で(#2028980) は 藁 の 馬[01] を 作る[01]{つくる}",
+    "vocabIds": [
+      "1520810",
+      "1562710",
+      "2714230",
+      "1471560"
+    ],
+    "matches": {
+      "1471560": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "うま"
+        }
+      ],
+      "1520810": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ほっかいどう"
+        }
+      ],
+      "1562710": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "わら"
+        }
+      ],
+      "2714230": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "わら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10612892",
+    "original": "これは、干し草？それとも藁？",
+    "en": [
+      {
+        "id": "10610454",
+        "text": "Is this hay or straw?"
+      }
+    ],
+    "vocabIds": [
+      "1211990",
+      "1562710",
+      "2714230"
+    ],
+    "matches": {
+      "1211990": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "ほしくさ"
+        }
+      ],
+      "1562710": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "わら"
+        }
+      ],
+      "2714230": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "わら"
+        }
+      ]
+    }
+  }
+]

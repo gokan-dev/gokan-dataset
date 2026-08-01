@@ -1,0 +1,79 @@
+[
+  {
+    "id": "81361",
+    "original": "毎月のガス代はいくらですか。",
+    "en": [
+      {
+        "id": "322354",
+        "text": "How much is your monthly gas bill?"
+      }
+    ],
+    "indices": "毎月 の 瓦斯{ガス} 代(だい)[01] は 幾ら{いくら} ですか",
+    "vocabIds": [
+      "2828540",
+      "1584350"
+    ],
+    "matches": {
+      "1584350": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "まいつき"
+        }
+      ],
+      "2828540": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "がすだい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11608551",
+    "original": "先月のガス代がすごく高かったんだ。",
+    "en": [
+      {
+        "id": "4134960",
+        "text": "My gas bill for last month was very high."
+      },
+      {
+        "id": "12411440",
+        "text": "My gas bill was really high last month."
+      },
+      {
+        "id": "12411441",
+        "text": "Last month's gas bill was really high."
+      }
+    ],
+    "vocabIds": [
+      "1283190",
+      "2828540",
+      "1387500"
+    ],
+    "matches": {
+      "1283190": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "たかかった"
+        }
+      ],
+      "1387500": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "せんげつ"
+        }
+      ],
+      "2828540": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "がすだい"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,120 @@
+[
+  {
+    "id": "108117",
+    "original": "彼は苦学して曲がりなりにも大学を出た。",
+    "en": [
+      {
+        "id": "295569",
+        "text": "Somehow he managed to work his way through college."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 苦学 為る(する){して} 曲がりなりにも 大学を出る{大学を出た}",
+    "vocabIds": [
+      "1909300",
+      "1244410",
+      "1413240",
+      "1338240",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1244410": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "くがく"
+        }
+      ],
+      "1338240": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "でた"
+        }
+      ],
+      "1413240": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "だいがく"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1909300": [
+        {
+          "start": 6,
+          "length": 7,
+          "reading": "まがりなりにも"
+        }
+      ]
+    }
+  },
+  {
+    "id": "180006",
+    "original": "曲がりなりにも彼は原稿を書き終えた。",
+    "en": [
+      {
+        "id": "18866",
+        "text": "Though imperfectly, he finished writing his manuscript."
+      }
+    ],
+    "indices": "曲がりなりにも~ 彼(かれ)[01] は 原稿 を 書く{書き} 終える{終えた}",
+    "vocabIds": [
+      "1909300",
+      "1343950",
+      "1261340",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1261340": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "げんこう"
+        }
+      ],
+      "1343950": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "かきおえた"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1909300": [
+        {
+          "start": 0,
+          "length": 7,
+          "reading": "まがりなりにも"
+        }
+      ]
+    }
+  }
+]

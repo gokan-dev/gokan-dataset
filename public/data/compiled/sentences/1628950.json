@@ -1,0 +1,180 @@
+[
+  {
+    "id": "83213",
+    "original": "歩きすぎて、足の裏と足の指が痛いんだ。靴のサイズがあってないのかな。",
+    "en": [
+      {
+        "id": "320503",
+        "text": "All this walking is killing the soles of my feet and my toes. I wonder if I have the right size shoes."
+      }
+    ],
+    "indices": "歩く{歩き} 過ぎる(すぎる){すぎて} 足(あし) の 裏(うら)[01] と 足(あし) の 指 が 痛い[01] のだ{んだ} 靴 の サイズ が 合う{あってない} の かな",
+    "vocabIds": [
+      "1514320",
+      "1628950",
+      "1404720",
+      "1432680",
+      "1246700"
+    ],
+    "matches": {
+      "1246700": [
+        {
+          "start": 19,
+          "length": 1,
+          "reading": "くつ"
+        }
+      ],
+      "1404720": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "あしのゆび"
+        }
+      ],
+      "1432680": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "いたい"
+        }
+      ],
+      "1514320": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "あるきすぎて"
+        }
+      ],
+      "1628950": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "あしのうら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "139859",
+    "original": "足の裏は暑さや寒さに対して鈍い。",
+    "en": [
+      {
+        "id": "274482",
+        "text": "Soles of the feet are insensitive to heat and cold."
+      }
+    ],
+    "indices": "足の裏~ は 暑い{暑} さ[01] や 寒さ に対して 鈍い(にぶい)",
+    "vocabIds": [
+      "1009800",
+      "1628950",
+      "1343460",
+      "1210360",
+      "1421970",
+      "1582430"
+    ],
+    "matches": {
+      "1009800": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "にたいして"
+        }
+      ],
+      "1210360": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "さむさ"
+        }
+      ],
+      "1343460": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "あつさ"
+        }
+      ],
+      "1421970": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "にぶい"
+        }
+      ],
+      "1582430": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "にぶい"
+        }
+      ],
+      "1628950": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あしのうら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1678934",
+    "original": "足の裏を滑らかにするために、軽石でこする。",
+    "en": [
+      {
+        "id": "1678938",
+        "text": "I rub the soles of my feet with pumice in order to smooth them."
+      }
+    ],
+    "vocabIds": [
+      "1628950",
+      "1208560",
+      "1252790"
+    ],
+    "matches": {
+      "1208560": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "なめらか"
+        }
+      ],
+      "1252790": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "かるいし"
+        }
+      ],
+      "1628950": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あしのうら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9681639",
+    "original": "足の裏ってくすぐったい？",
+    "en": [
+      {
+        "id": "9681626",
+        "text": "Are your feet ticklish?"
+      }
+    ],
+    "vocabIds": [
+      "1628950"
+    ],
+    "matches": {
+      "1628950": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あしのうら"
+        }
+      ]
+    }
+  }
+]

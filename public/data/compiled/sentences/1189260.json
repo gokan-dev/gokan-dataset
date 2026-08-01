@@ -1,0 +1,732 @@
+[
+  {
+    "id": "123466",
+    "original": "特急のホームは何番ですか。",
+    "en": [
+      {
+        "id": "280531",
+        "text": "What's the track for the limited express?"
+      }
+    ],
+    "indices": "特急[01] の ホーム(#1121740)[01] は 何番 ですか",
+    "vocabIds": [
+      "1454750",
+      "1189260"
+    ],
+    "matches": {
+      "1189260": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "なんばん"
+        }
+      ],
+      "1454750": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とっきゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "124265",
+    "original": "東京ドームの電話番号は何番ですか。",
+    "en": [
+      {
+        "id": "279729",
+        "text": "What's the number for the Tokyo Dome?"
+      }
+    ],
+    "indices": "東京 ドーム の 電話 番号 は 何番 ですか",
+    "vocabIds": [
+      "2839134",
+      "1443940",
+      "1189260"
+    ],
+    "matches": {
+      "1189260": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "なんばん"
+        }
+      ],
+      "1443940": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "でんわばんごう"
+        }
+      ],
+      "2839134": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "とうきょうどーむ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "124304",
+    "original": "搭乗は何番ゲートからですか。",
+    "en": [
+      {
+        "id": "279690",
+        "text": "From which gate do I board?"
+      }
+    ],
+    "indices": "搭乗 は 何番 ゲート[01] から ですか",
+    "vocabIds": [
+      "1447400",
+      "1189260"
+    ],
+    "matches": {
+      "1189260": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "なんばん"
+        }
+      ],
+      "1447400": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とうじょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "124623",
+    "original": "電話番号は何番ですか。",
+    "en": [
+      {
+        "id": "279371",
+        "text": "What's the number?"
+      },
+      {
+        "id": "466624",
+        "text": "What's your phone number?"
+      }
+    ],
+    "indices": "電話 番号 は 何番 ですか",
+    "vocabIds": [
+      "1443940",
+      "1189260"
+    ],
+    "matches": {
+      "1189260": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "なんばん"
+        }
+      ],
+      "1443940": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "でんわばんごう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "141439",
+    "original": "先方のお電話番号は何番ですか。",
+    "en": [
+      {
+        "id": "273132",
+        "text": "What's the number of the party you are trying to reach?"
+      }
+    ],
+    "indices": "先方(せんぽう)[01] の 御(お){お} 電話 番号 は 何番 ですか",
+    "vocabIds": [
+      "1443940",
+      "1388600",
+      "1189260"
+    ],
+    "matches": {
+      "1189260": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "なんばん"
+        }
+      ],
+      "1388600": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "せんぽう"
+        }
+      ],
+      "1443940": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "でんわばんごう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "179931",
+    "original": "緊急連絡先は何番ですか。",
+    "en": [
+      {
+        "id": "18790",
+        "text": "What is the emergency telephone number?"
+      }
+    ],
+    "indices": "緊急 連絡先 は 何番 ですか",
+    "vocabIds": [
+      "2863563",
+      "1189260"
+    ],
+    "matches": {
+      "1189260": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "なんばん"
+        }
+      ],
+      "2863563": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "きんきゅうれんらくさき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "179939",
+    "original": "緊急の場合は、何番に電話すればいいのですか。",
+    "en": [
+      {
+        "id": "18799",
+        "text": "What number should I call in case of an emergency?"
+      }
+    ],
+    "indices": "緊急 の 場合 は 何番 に 電話 すれば いい(#2820690)[01] のです か",
+    "vocabIds": [
+      "1241850",
+      "1355810",
+      "1189260",
+      "1443840"
+    ],
+    "matches": {
+      "1189260": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "なんばん"
+        }
+      ],
+      "1241850": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きんきゅう"
+        }
+      ],
+      "1355810": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ばあい"
+        }
+      ],
+      "1443840": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "でんわ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "187317",
+    "original": "何番のバスですか。",
+    "en": [
+      {
+        "id": "24454",
+        "text": "What number bus do I take?"
+      }
+    ],
+    "indices": "何番 の バス(#1098390) ですか",
+    "vocabIds": [
+      "1189260"
+    ],
+    "matches": {
+      "1189260": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "なんばん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "192074",
+    "original": "ワイキキに行くには何番のバスに乗ればいいか教えてください。",
+    "en": [
+      {
+        "id": "29236",
+        "text": "What number bus do I take to get to Waikiki?"
+      }
+    ],
+    "indices": "に 行く には 何番 の バス(#1098390) に 乗る[01]{乗れば} いい(#2820690)[01] か 教える{教えて} 下さい{ください}",
+    "vocabIds": [
+      "1236900",
+      "1355120",
+      "1578850",
+      "1189260"
+    ],
+    "matches": {
+      "1189260": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "なんばん"
+        }
+      ],
+      "1236900": [
+        {
+          "start": 21,
+          "length": 7,
+          "reading": "おしえてください"
+        }
+      ],
+      "1355120": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "のれば"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "いく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "196266",
+    "original": "ボストン行きは何番ホームですか。",
+    "en": [
+      {
+        "id": "33444",
+        "text": "What track for Boston?"
+      },
+      {
+        "id": "2774714",
+        "text": "Which platform is the train for Boston?"
+      }
+    ],
+    "indices": "ボストン 行き[01] は 何番 ホーム(#1121740)[01] ですか",
+    "vocabIds": [
+      "1578790",
+      "1189260"
+    ],
+    "matches": {
+      "1189260": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "なんばん"
+        }
+      ],
+      "1578790": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "いき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "216974",
+    "original": "ご連絡先の電話番号は何番でしょうか。",
+    "en": [
+      {
+        "id": "54281",
+        "text": "Do you have a number where we can contact you?"
+      }
+    ],
+    "indices": "御(ご){ご} 連絡先~ の 電話 番号 は 何番 でしょうか",
+    "vocabIds": [
+      "1443940",
+      "1270820",
+      "1189260",
+      "1387210"
+    ],
+    "matches": {
+      "1189260": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "なんばん"
+        }
+      ],
+      "1270820": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ごれんらく"
+        }
+      ],
+      "1387210": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "さき"
+        }
+      ],
+      "1443940": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "でんわばんごう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "217154",
+    "original": "ご自宅の電話番号は何番ですか。",
+    "en": [
+      {
+        "id": "54461",
+        "text": "What's your home phone number?"
+      }
+    ],
+    "indices": "御(ご){ご} 自宅~ の 電話 番号 は 何番~ ですか",
+    "vocabIds": [
+      "1443940",
+      "1318260",
+      "1189260"
+    ],
+    "matches": {
+      "1189260": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "なんばん"
+        }
+      ],
+      "1318260": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "じたく"
+        }
+      ],
+      "1443940": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "でんわばんごう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2124177",
+    "original": "緊急の時には何番に電話したらよいですか。",
+    "en": [
+      {
+        "id": "4356258",
+        "text": "In case of an emergency, what number should I call?"
+      },
+      {
+        "id": "18799",
+        "text": "What number should I call in case of an emergency?"
+      }
+    ],
+    "vocabIds": [
+      "1315860",
+      "1241850",
+      "1189260",
+      "1443840"
+    ],
+    "matches": {
+      "1189260": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "なんばん"
+        }
+      ],
+      "1241850": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きんきゅう"
+        }
+      ],
+      "1315860": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "ときには"
+        }
+      ],
+      "1443840": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "でんわ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9049960",
+    "original": "電話番号、何番？",
+    "en": [
+      {
+        "id": "279371",
+        "text": "What's the number?"
+      },
+      {
+        "id": "466624",
+        "text": "What's your phone number?"
+      }
+    ],
+    "vocabIds": [
+      "1443940",
+      "1189260"
+    ],
+    "matches": {
+      "1189260": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "なんばん"
+        }
+      ],
+      "1443940": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "でんわばんごう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10142684",
+    "original": "何番のバスに乗ればいいの？",
+    "en": [
+      {
+        "id": "24454",
+        "text": "What number bus do I take?"
+      }
+    ],
+    "vocabIds": [
+      "1355120",
+      "1189260"
+    ],
+    "matches": {
+      "1189260": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "なんばん"
+        }
+      ],
+      "1355120": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "のれば"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10796444",
+    "original": "ピザ屋さんの電話番号って、何番？",
+    "en": [
+      {
+        "id": "7983730",
+        "text": "What's the phone number of the pizza place?"
+      },
+      {
+        "id": "7983735",
+        "text": "What's the pizza place's phone number?"
+      }
+    ],
+    "vocabIds": [
+      "1443940",
+      "2595690",
+      "1189260"
+    ],
+    "matches": {
+      "1189260": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "なんばん"
+        }
+      ],
+      "1443940": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "でんわばんごう"
+        }
+      ],
+      "2595690": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ぴざや"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10880214",
+    "original": "携帯の番号、何番？",
+    "en": [
+      {
+        "id": "8898135",
+        "text": "What's your cell phone number?"
+      }
+    ],
+    "vocabIds": [
+      "1250680",
+      "1482290",
+      "1189260"
+    ],
+    "matches": {
+      "1189260": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "なんばん"
+        }
+      ],
+      "1250680": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "けいたい"
+        }
+      ],
+      "1482290": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ばんごう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11058393",
+    "original": "「お電話番号は何番ですか？」「1234-5678です」",
+    "en": [
+      {
+        "id": "4847674",
+        "text": "\"What's your phone number?\" \"It's 1234-5678.\""
+      }
+    ],
+    "vocabIds": [
+      "1443940",
+      "1189260"
+    ],
+    "matches": {
+      "1189260": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "なんばん"
+        }
+      ],
+      "1443940": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "でんわばんごう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11491020",
+    "original": "郵便局に行って、新しい郵便番号が何番か聞いてきて。",
+    "en": [
+      {
+        "id": "9193472",
+        "text": "Go to the post office and ask what's our new postal code."
+      }
+    ],
+    "vocabIds": [
+      "1591110",
+      "1542480",
+      "1542430",
+      "1361490",
+      "1578850",
+      "1189260"
+    ],
+    "matches": {
+      "1189260": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "なんばん"
+        }
+      ],
+      "1361490": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "あたらしい"
+        }
+      ],
+      "1542430": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ゆうびんきょく"
+        }
+      ],
+      "1542480": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "ゆうびんばんごう"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "いって"
+        }
+      ],
+      "1591110": [
+        {
+          "start": 19,
+          "length": 5,
+          "reading": "きいてきて"
+        }
+      ]
+    }
+  }
+]

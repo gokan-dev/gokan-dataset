@@ -1,0 +1,151 @@
+[
+  {
+    "id": "75027",
+    "original": "ああそうそう、コメント欄のバグは文字間を調節するletter-spacingタグを使うと起こるものだったみたい。",
+    "en": [
+      {
+        "id": "328692",
+        "text": "Oh, while I remember, it seems that that was a bug that occurs when you use the comment field's 'letter-spacing' tag which adjusts the tracking."
+      }
+    ],
+    "indices": "嗚呼[01]{ああ} 然う然う[03]{そうそう} コメント 欄(らん)[01] の バグ~ は 文字間~ を 調節 為る(する){する} タグ を 使う と 起こる 物(もの){もの} だ{だった} みたい",
+    "vocabIds": [
+      "2404850",
+      "2261350",
+      "1223680",
+      "1305990",
+      "1429240"
+    ],
+    "matches": {
+      "1223680": [
+        {
+          "start": 44,
+          "length": 3,
+          "reading": "おこる"
+        }
+      ],
+      "1305990": [
+        {
+          "start": 41,
+          "length": 3,
+          "reading": "つかうと"
+        }
+      ],
+      "1429240": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "ちょうせつ"
+        }
+      ],
+      "2261350": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "もじかん"
+        }
+      ],
+      "2404850": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "こめんとらん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8672915",
+    "original": "括弧は使わず、補足情報はコメント欄にてご対応ください。必要に応じて、2文を追加することもできます。",
+    "en": [
+      {
+        "id": "11740034",
+        "text": "Please do not use parentheses, but provide any supplementary information in the comments section. If necessary, two sentences may be added."
+      }
+    ],
+    "vocabIds": [
+      "1487690",
+      "2404850",
+      "2270010",
+      "1305990",
+      "1208240",
+      "1409840",
+      "1432460",
+      "1505090",
+      "1957010",
+      "2034990"
+    ],
+    "matches": {
+      "1208240": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かっこ"
+        }
+      ],
+      "1305990": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "つかわず"
+        }
+      ],
+      "1409840": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "たいおう"
+        }
+      ],
+      "1432460": [
+        {
+          "start": 37,
+          "length": 2,
+          "reading": "ついか"
+        }
+      ],
+      "1487690": [
+        {
+          "start": 27,
+          "length": 6,
+          "reading": "ひつようにおうじて"
+        }
+      ],
+      "1505090": [
+        {
+          "start": 35,
+          "length": 1,
+          "reading": "ぶん"
+        }
+      ],
+      "1957010": [
+        {
+          "start": 35,
+          "length": 1,
+          "reading": "ぶん"
+        }
+      ],
+      "2034990": [
+        {
+          "start": 35,
+          "length": 1,
+          "reading": "ぶん"
+        }
+      ],
+      "2270010": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "ほそくじょうほう"
+        }
+      ],
+      "2404850": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "こめんとらん"
+        }
+      ]
+    }
+  }
+]

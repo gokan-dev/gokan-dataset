@@ -1,0 +1,127 @@
+[
+  {
+    "id": "101764",
+    "original": "彼は東京銀行へ就職の願書を出した。",
+    "en": [
+      {
+        "id": "301929",
+        "text": "He applied for a job with the Bank of Tokyo."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 東京 銀行 へ 就職 の 願書 を 出す{出した}",
+    "vocabIds": [
+      "5553244",
+      "1338180",
+      "1331670",
+      "1218050",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1218050": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "がんしょ"
+        }
+      ],
+      "1331670": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "しゅうしょく"
+        }
+      ],
+      "1338180": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "だした"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "5553244": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "とうきょうぎんこう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "124171",
+    "original": "東京銀行と三菱銀行が合併した。",
+    "en": [
+      {
+        "id": "279823",
+        "text": "The Bank of Tokyo amalgamated with the Mitsubishi Bank."
+      }
+    ],
+    "indices": "東京 銀行 と 銀行 が 合併 為る(する){した}",
+    "vocabIds": [
+      "5553244",
+      "1578970"
+    ],
+    "matches": {
+      "1578970": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "がっぺい"
+        }
+      ],
+      "5553244": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "とうきょうぎんこう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "169478",
+    "original": "三菱銀行は東京銀行を吸収合併した。",
+    "en": [
+      {
+        "id": "245007",
+        "text": "The Mitsubishi Bank merged with the Bank of Tokyo."
+      }
+    ],
+    "indices": "銀行 は 東京 銀行 を 吸収合併~ 為る(する){した}",
+    "vocabIds": [
+      "5553244",
+      "1683330"
+    ],
+    "matches": {
+      "1683330": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "きゅうしゅうがっぺい"
+        }
+      ],
+      "5553244": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "とうきょうぎんこう"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,204 @@
+{
+  "id": "1188770",
+  "writtenForm": {
+    "kanji": "何時",
+    "alternatives": [
+      "何どき"
+    ],
+    "containedKanji": [
+      "何",
+      "時"
+    ]
+  },
+  "reading": {
+    "primary": "なんじ",
+    "alternatives": [
+      "いつ",
+      "なんどき"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 7157,
+    "kanaRank": 33588
+  },
+  "jlptLevel": 1,
+  "progression": {
+    "kklcStep": 815
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "what time",
+        "which hour"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "pn"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "when",
+        "at what time",
+        "how soon"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "いつ"
+      ]
+    },
+    {
+      "pos": [
+        "pn"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk",
+          "dated"
+        ]
+      },
+      "glosses": [
+        "normal times",
+        "ordinary days"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "いつ"
+      ]
+    },
+    {
+      "pos": [
+        "n",
+        "adv"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "when",
+        "at what moment"
+      ],
+      "related": {
+        "compounds": [
+          "いつ何時"
+        ]
+      },
+      "appliesToReadings": [
+        "なんどき"
+      ]
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "dated"
+        ]
+      },
+      "glosses": [
+        "what time"
+      ],
+      "related": {
+        "compounds": [
+          "何時"
+        ]
+      },
+      "appliesToReadings": [
+        "なんどき"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1188770",
+      "isBase": true,
+      "originalPrimaryReading": "なんじ",
+      "originalGlosses": [
+        "what time",
+        "which hour"
+      ]
+    },
+    {
+      "id": "1188760",
+      "isBase": false,
+      "originalPrimaryReading": "いつ",
+      "originalGlosses": [
+        "when",
+        "at what time",
+        "how soon"
+      ]
+    },
+    {
+      "id": "2844601",
+      "isBase": false,
+      "originalPrimaryReading": "なんどき",
+      "originalGlosses": [
+        "when",
+        "at what moment"
+      ]
+    }
+  ],
+  "components": [
+    "1577100",
+    "1315840"
+  ],
+  "parents": [
+    "1188950",
+    "2191630",
+    "1577130",
+    "1188890",
+    "1188870",
+    "1188930",
+    "1188880",
+    "2406100",
+    "1188790",
+    "2104620"
+  ]
+}

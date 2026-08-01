@@ -1,0 +1,163 @@
+[
+  {
+    "id": "81343",
+    "original": "毎朝、雌牛は仔牛に乳をやる。",
+    "en": [
+      {
+        "id": "322372",
+        "text": "Cows give their calves milk every morning."
+      }
+    ],
+    "indices": "毎朝 雌牛 は 仔牛~ に 乳[01] を 遣る{やる}",
+    "vocabIds": [
+      "1524700",
+      "1312900",
+      "1592980",
+      "1464980"
+    ],
+    "matches": {
+      "1312900": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "めうし"
+        }
+      ],
+      "1464980": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "ちち"
+        }
+      ],
+      "1524700": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "まいあさ"
+        }
+      ],
+      "1592980": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "うし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1487179",
+    "original": "トムさんは仔牛に焼き印を押しました。",
+    "en": [
+      {
+        "id": "1026963",
+        "text": "Tom branded the calf."
+      }
+    ],
+    "vocabIds": [
+      "1180470",
+      "1350470",
+      "1592980"
+    ],
+    "matches": {
+      "1180470": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "おしました"
+        }
+      ],
+      "1350470": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "やきいん"
+        }
+      ],
+      "1592980": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "うし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10224812",
+    "original": "その子牛は、今朝生まれました。",
+    "en": [
+      {
+        "id": "2474234",
+        "text": "The calf was born this morning."
+      }
+    ],
+    "vocabIds": [
+      "1378690",
+      "1592980",
+      "1579100"
+    ],
+    "matches": {
+      "1378690": [
+        {
+          "start": 8,
+          "length": 6,
+          "reading": "うまれました"
+        }
+      ],
+      "1579100": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "けさ"
+        }
+      ],
+      "1592980": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "こうし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10224814",
+    "original": "今朝、仔牛が誕生しました。",
+    "en": [
+      {
+        "id": "2474234",
+        "text": "The calf was born this morning."
+      }
+    ],
+    "vocabIds": [
+      "1579100",
+      "1592980",
+      "1419080"
+    ],
+    "matches": {
+      "1419080": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "たんじょう"
+        }
+      ],
+      "1579100": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "けさ"
+        }
+      ],
+      "1592980": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "うし"
+        }
+      ]
+    }
+  }
+]

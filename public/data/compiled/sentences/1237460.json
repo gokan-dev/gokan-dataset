@@ -1,0 +1,88 @@
+[
+  {
+    "id": "199751",
+    "original": "トラックが橋梁に接触した。",
+    "en": [
+      {
+        "id": "36954",
+        "text": "A truck came into contact with the bridge supports."
+      }
+    ],
+    "indices": "トラック(#1085760) が 橋梁 に 接触 為る(する){した}",
+    "vocabIds": [
+      "1237460",
+      "1385450"
+    ],
+    "matches": {
+      "1237460": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "きょうりょう"
+        }
+      ],
+      "1385450": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "せっしょく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "219760",
+    "original": "この本によれば、最初の人工橋梁は新石器時代にさかのぼるという。",
+    "en": [
+      {
+        "id": "57080",
+        "text": "This book says the earliest man-made bridges date back to the New Stone Age."
+      }
+    ],
+    "indices": "此の{この} 本(ほん)[01] に依れば{によれば} 最初{最初の} 人工 橋梁~ は 新(しん)[01] 石器時代~ に 遡る{さかのぼる} と 言う{いう}",
+    "vocabIds": [
+      "1362060",
+      "2849135",
+      "1293990",
+      "1367380",
+      "1237460"
+    ],
+    "matches": {
+      "1237460": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "きょうりょう"
+        }
+      ],
+      "1293990": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "さいしょ"
+        }
+      ],
+      "1362060": [
+        {
+          "start": 16,
+          "length": 5,
+          "reading": "しんせっきじだい"
+        }
+      ],
+      "1367380": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "じんこう"
+        }
+      ],
+      "2849135": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ほんに"
+        }
+      ]
+    }
+  }
+]

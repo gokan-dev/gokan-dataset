@@ -1,0 +1,137 @@
+{
+  "id": "1003560",
+  "writtenForm": {
+    "kanji": "刻々",
+    "alternatives": [
+      "段々",
+      "刻刻",
+      "段段"
+    ],
+    "containedKanji": [
+      "刻"
+    ]
+  },
+  "reading": {
+    "primary": "ギザギザ",
+    "alternatives": [
+      "ぎざぎざ",
+      "こっこく",
+      "こくこく"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 21548,
+    "kanaRank": 199253
+  },
+  "progression": {
+    "kklcStep": 2159
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "on-mim",
+          "uk"
+        ]
+      },
+      "glosses": [
+        "notches",
+        "serration",
+        "indentation",
+        "jaggies (stair-step artifacts in computer images)"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "adj-na",
+        "adv",
+        "adv-to",
+        "vs"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "on-mim",
+          "uk"
+        ]
+      },
+      "glosses": [
+        "notched",
+        "serrated",
+        "jagged",
+        "corrugated",
+        "milled"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "adv",
+        "adv-to"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "moment by moment",
+        "hour by hour"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "こっこく"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": true
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1003560",
+      "isBase": true,
+      "originalPrimaryReading": "ギザギザ",
+      "originalGlosses": [
+        "notches",
+        "serration",
+        "indentation"
+      ]
+    },
+    {
+      "id": "1285830",
+      "isBase": false,
+      "originalPrimaryReading": "こっこく",
+      "originalGlosses": [
+        "moment by moment",
+        "hour by hour"
+      ]
+    }
+  ],
+  "components": [
+    "1285810"
+  ]
+}

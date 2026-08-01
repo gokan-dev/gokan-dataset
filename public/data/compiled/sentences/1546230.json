@@ -1,0 +1,63 @@
+[
+  {
+    "id": "75675",
+    "original": "用意周到に見えてどこかで抜けてるしな。",
+    "en": [
+      {
+        "id": "328043",
+        "text": "It looks well prepared but you see there'll be a slip somewhere."
+      }
+    ],
+    "indices": "用意周到~ に 見える(みえる){見えて} 何処か[01]{どこか} で(#2028980) 抜ける[01]{抜けてる} し な[04]",
+    "vocabIds": [
+      "1478200",
+      "1546230",
+      "1259140"
+    ],
+    "matches": {
+      "1259140": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "みえて"
+        }
+      ],
+      "1478200": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "ぬけてるし"
+        }
+      ],
+      "1546230": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "よういしゅうとう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10908937",
+    "original": "用意周到だな。",
+    "en": [
+      {
+        "id": "11223786",
+        "text": "It's well-prepared, isn't it?"
+      }
+    ],
+    "vocabIds": [
+      "1546230"
+    ],
+    "matches": {
+      "1546230": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "よういしゅうとう"
+        }
+      ]
+    }
+  }
+]

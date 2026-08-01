@@ -1,0 +1,108 @@
+[
+  {
+    "id": "138212",
+    "original": "太宰治は３９歳の時に自殺した。",
+    "en": [
+      {
+        "id": "275023",
+        "text": "Osamu Dazai killed himself at the age of thirty-nine."
+      }
+    ],
+    "indices": "は 歳(さい)[01] の 時(とき) に 自殺 為る(する){した}",
+    "vocabIds": [
+      "2021540",
+      "1317770",
+      "2843449",
+      "1579350",
+      "1578150",
+      "1294940",
+      "2084840"
+    ],
+    "matches": {
+      "1294940": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "さい"
+        }
+      ],
+      "1317770": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "じさつ"
+        }
+      ],
+      "1578150": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "きゅう"
+        }
+      ],
+      "1579350": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "さん"
+        }
+      ],
+      "2021540": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "ときに"
+        }
+      ],
+      "2084840": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "さい"
+        }
+      ],
+      "2843449": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "おさむ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "138213",
+    "original": "太宰治は、自殺した。",
+    "en": [
+      {
+        "id": "275022",
+        "text": "Osamu Dazai killed himself."
+      },
+      {
+        "id": "1225302",
+        "text": "Osamu Dazai committed suicide."
+      }
+    ],
+    "indices": "は 自殺 為る(する){した}",
+    "vocabIds": [
+      "1317770",
+      "2843449"
+    ],
+    "matches": {
+      "1317770": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "じさつ"
+        }
+      ],
+      "2843449": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "おさむ"
+        }
+      ]
+    }
+  }
+]

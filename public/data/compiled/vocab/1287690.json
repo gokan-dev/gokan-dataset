@@ -1,0 +1,167 @@
+{
+  "id": "1287690",
+  "writtenForm": {
+    "kanji": "黒子",
+    "alternatives": [
+      "黒衣"
+    ],
+    "containedKanji": [
+      "黒",
+      "子"
+    ]
+  },
+  "reading": {
+    "primary": "ほくろ",
+    "alternatives": [
+      "ホクロ",
+      "こくし",
+      "くろご",
+      "くろこ"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 28627,
+    "kanaRank": 33183
+  },
+  "progression": {
+    "kklcStep": 535
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "mole",
+        "lentigo",
+        "beauty mark",
+        "beauty spot"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "lentigo",
+        "mole"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "こくし"
+      ]
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "stage assistant dressed in black",
+        "stagehand",
+        "prompter"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "くろご"
+      ]
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "behind-the-scenes supporter",
+        "string-puller"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "くろご"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": true
+  },
+  "isCommon": false,
+  "mergedVocabs": [
+    {
+      "id": "1287690",
+      "isBase": true,
+      "originalPrimaryReading": "ほくろ",
+      "originalGlosses": [
+        "mole",
+        "lentigo",
+        "beauty mark"
+      ]
+    },
+    {
+      "id": "2860401",
+      "isBase": false,
+      "originalPrimaryReading": "こくし",
+      "originalGlosses": [
+        "lentigo",
+        "mole"
+      ]
+    },
+    {
+      "id": "1287670",
+      "isBase": false,
+      "originalPrimaryReading": "くろご",
+      "originalGlosses": [
+        "stage assistant dressed in black",
+        "stagehand",
+        "prompter"
+      ]
+    }
+  ],
+  "components": [
+    "1287410",
+    "1307770"
+  ],
+  "parents": [
+    "2569610"
+  ]
+}

@@ -1,0 +1,127 @@
+[
+  {
+    "id": "111754",
+    "original": "彼はドアを閉めて、階上にあがった。",
+    "en": [
+      {
+        "id": "291924",
+        "text": "He shut the door and went upstairs."
+      }
+    ],
+    "indices": "彼(かれ)[01] は ドア を 閉める{閉めて} 階上 に 上がる{あがった}",
+    "vocabIds": [
+      "1508590",
+      "1727390",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1508590": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "しめて"
+        }
+      ],
+      "1727390": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "かいじょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "213279",
+    "original": "そのかばんを階上に運びなさい。",
+    "en": [
+      {
+        "id": "50565",
+        "text": "Carry the bags upstairs."
+      }
+    ],
+    "indices": "其の[01]{その} 鞄{かばん} を 階上 に 運ぶ[01]{運び} 為さい{なさい}",
+    "vocabIds": [
+      "1172660",
+      "1727390"
+    ],
+    "matches": {
+      "1172660": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "はこびなさい"
+        }
+      ],
+      "1727390": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "かいじょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "225439",
+    "original": "グレースは階上の内線電話のところへ行く。",
+    "en": [
+      {
+        "id": "62776",
+        "text": "Grace goes to phone extension upstairs."
+      },
+      {
+        "id": "387455",
+        "text": "Grace goes to the telephone upstairs."
+      },
+      {
+        "id": "387456",
+        "text": "Grace goes upstairs to the extension telephone."
+      }
+    ],
+    "indices": "は 階上~ の 内線電話~ の 所(ところ){ところ} へ 行く",
+    "vocabIds": [
+      "1944580",
+      "1727390",
+      "1578850"
+    ],
+    "matches": {
+      "1578850": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "いく"
+        }
+      ],
+      "1727390": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "かいじょう"
+        }
+      ],
+      "1944580": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "ないせんでんわ"
+        }
+      ]
+    }
+  }
+]

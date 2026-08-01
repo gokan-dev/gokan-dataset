@@ -1,0 +1,205 @@
+[
+  {
+    "id": "84965",
+    "original": "婦人用手洗いはどこですか。",
+    "en": [
+      {
+        "id": "318748",
+        "text": "Where is the ladies' room?"
+      }
+    ],
+    "indices": "婦人 用[02] 手洗い[02]~ は 何処{どこ} ですか",
+    "vocabIds": [
+      "1328020",
+      "1496670",
+      "1546200"
+    ],
+    "matches": {
+      "1328020": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "てあらい"
+        }
+      ],
+      "1496670": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ふじん"
+        }
+      ],
+      "1546200": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "よう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "539022",
+    "original": "お手洗はありませんでした。",
+    "en": [
+      {
+        "id": "64040",
+        "text": "There was no bathroom."
+      }
+    ],
+    "vocabIds": [
+      "1328020"
+    ],
+    "matches": {
+      "1328020": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "てあらい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "539024",
+    "original": "お手洗の電気がつきません。",
+    "en": [
+      {
+        "id": "324957",
+        "text": "The lights in the bathroom aren't working."
+      }
+    ],
+    "vocabIds": [
+      "1328020",
+      "1443000"
+    ],
+    "matches": {
+      "1328020": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "てあらい"
+        }
+      ],
+      "1443000": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "でんき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "7989413",
+    "original": "なんで手洗いをしなかったの？",
+    "en": [
+      {
+        "id": "7529793",
+        "text": "Why didn't you wash your hands?"
+      }
+    ],
+    "vocabIds": [
+      "1328020"
+    ],
+    "matches": {
+      "1328020": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "てあらい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9380981",
+    "original": "風邪が移ると大変だから、家に帰ったらすぐにうがいと手洗いしようね。",
+    "en": [
+      {
+        "id": "9380984",
+        "text": "Gargle and wash your hands as soon as you get home so that you don't catch a cold."
+      },
+      {
+        "id": "9381443",
+        "text": "Let's gargle and wash our hands as soon as we get home so that we don't catch a cold."
+      }
+    ],
+    "vocabIds": [
+      "1221270",
+      "1328020",
+      "1158210",
+      "1583720",
+      "1415000",
+      "1191730",
+      "2098290",
+      "2082160",
+      "2220300"
+    ],
+    "matches": {
+      "1158210": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "うつると"
+        }
+      ],
+      "1191730": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ],
+      "1221270": [
+        {
+          "start": 14,
+          "length": 4,
+          "reading": "かえったら"
+        }
+      ],
+      "1328020": [
+        {
+          "start": 25,
+          "length": 3,
+          "reading": "てあらい"
+        }
+      ],
+      "1415000": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "たいへん"
+        }
+      ],
+      "1583720": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かぜ"
+        }
+      ],
+      "2082160": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ],
+      "2098290": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ],
+      "2220300": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ]
+    }
+  }
+]

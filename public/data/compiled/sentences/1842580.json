@@ -1,0 +1,490 @@
+[
+  {
+    "id": "88267",
+    "original": "彼女は雪かきをするのを手伝ってくれた。",
+    "en": [
+      {
+        "id": "315440",
+        "text": "She helped me to clear snow away."
+      }
+    ],
+    "indices": "彼女[01] は 雪掻き[02]{雪かき} を 為る(する)[01]{する} の を 手伝う{手伝って} 呉れる{くれた}",
+    "vocabIds": [
+      "1328190",
+      "1842580",
+      "1483150"
+    ],
+    "matches": {
+      "1328190": [
+        {
+          "start": 11,
+          "length": 7,
+          "reading": "てつだってくれた"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1842580": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "ゆきかき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "96450",
+    "original": "彼らは道路の雪かきをした。",
+    "en": [
+      {
+        "id": "307253",
+        "text": "They cleared the road of snow."
+      }
+    ],
+    "indices": "彼ら(かれら) は 道路 の 雪掻き[02]{雪かき} を 為る(する){した}",
+    "vocabIds": [
+      "1842580",
+      "1483090",
+      "2397090",
+      "1454290"
+    ],
+    "matches": {
+      "1454290": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "どうろ"
+        }
+      ],
+      "1483090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれら"
+        }
+      ],
+      "1842580": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "ゆきかき"
+        }
+      ],
+      "2397090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "157010",
+    "original": "私は今朝、道路の雪かきをしているときに滑ってけがをしてしまった。",
+    "en": [
+      {
+        "id": "257524",
+        "text": "I slipped and hurt myself while I was clearing the road of snow this morning."
+      }
+    ],
+    "indices": "私(わたし)[01] は 今朝 道路 の 雪掻き[02]{雪かき} を 為る(する){している} 時(とき){とき} に 滑る(すべる)[02]{滑って} 怪我[01]{けが} を 為る(する){して} 仕舞う{しまった}",
+    "vocabIds": [
+      "1842580",
+      "1208640",
+      "1579100",
+      "1454290",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1208640": [
+        {
+          "start": 19,
+          "length": 3,
+          "reading": "すべって"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1454290": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "どうろ"
+        }
+      ],
+      "1579100": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "けさ"
+        }
+      ],
+      "1842580": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "ゆきかき"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "169890",
+    "original": "昨日私たちは通りの雪かきをした。",
+    "en": [
+      {
+        "id": "244596",
+        "text": "We cleared the street of snow yesterday."
+      }
+    ],
+    "indices": "昨日 私たち は 通り(とおり) の 雪掻き[02]{雪かき}~ を 為る(する){した}",
+    "vocabIds": [
+      "1311300",
+      "1842580",
+      "1579260",
+      "1432920"
+    ],
+    "matches": {
+      "1311300": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1432920": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "とおり"
+        }
+      ],
+      "1579260": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きのう"
+        }
+      ],
+      "1842580": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "ゆきかき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8849696",
+    "original": "午前中ずっと雪かきしたんだ。",
+    "en": [
+      {
+        "id": "3822246",
+        "text": "I shoveled snow all morning."
+      }
+    ],
+    "vocabIds": [
+      "1269070",
+      "1842580"
+    ],
+    "matches": {
+      "1269070": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ごぜんちゅう"
+        }
+      ],
+      "1842580": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "ゆきかき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9019026",
+    "original": "トムは雪かきをしてるよ。",
+    "en": [
+      {
+        "id": "3820746",
+        "text": "Tom is shoveling snow."
+      }
+    ],
+    "vocabIds": [
+      "1842580"
+    ],
+    "matches": {
+      "1842580": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "ゆきかき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9019027",
+    "original": "雪かき大っ嫌い。",
+    "en": [
+      {
+        "id": "6033364",
+        "text": "I hate shoveling snow."
+      }
+    ],
+    "vocabIds": [
+      "2857640",
+      "1842580"
+    ],
+    "matches": {
+      "1842580": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ゆきかき"
+        }
+      ],
+      "2857640": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "だいっきらい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9019032",
+    "original": "雪かきは大変なんだよ。",
+    "en": [
+      {
+        "id": "4855701",
+        "text": "Shoveling snow is hard work."
+      }
+    ],
+    "vocabIds": [
+      "1842580",
+      "1415000"
+    ],
+    "matches": {
+      "1415000": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "たいへん"
+        }
+      ],
+      "1842580": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ゆきかき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9019034",
+    "original": "トムは外で雪かきしてるよ。",
+    "en": [
+      {
+        "id": "5683018",
+        "text": "Tom is shoveling snow outside."
+      },
+      {
+        "id": "2644384",
+        "text": "Tom is out shoveling snow."
+      }
+    ],
+    "vocabIds": [
+      "1842580",
+      "1203250",
+      "1203260",
+      "1605940"
+    ],
+    "matches": {
+      "1203250": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "そと"
+        }
+      ],
+      "1203260": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "そと"
+        }
+      ],
+      "1605940": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "そと"
+        }
+      ],
+      "1842580": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "ゆきかき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9019036",
+    "original": "雪かきはいい運動になるよ。",
+    "en": [
+      {
+        "id": "6570863",
+        "text": "Shoveling snow is good exercise."
+      }
+    ],
+    "vocabIds": [
+      "1842580",
+      "1172910"
+    ],
+    "matches": {
+      "1172910": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "うんどう"
+        }
+      ],
+      "1842580": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ゆきかき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9634072",
+    "original": "まさかこんなに雪が積もるとは思ってなかったからさ、雪かきやら何やらで、もう朝からてんてこまいだったんだ。",
+    "en": [
+      {
+        "id": "10128234",
+        "text": "I couldn't have imagined that such an amount of snow would fall. I've had my work cut out shovelling ice and such all morning."
+      }
+    ],
+    "vocabIds": [
+      "1589350",
+      "1382990",
+      "1842580",
+      "1188500",
+      "1386500",
+      "1428280"
+    ],
+    "matches": {
+      "1188500": [
+        {
+          "start": 30,
+          "length": 3,
+          "reading": "なにやら"
+        }
+      ],
+      "1382990": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "つもる"
+        }
+      ],
+      "1386500": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "ゆき"
+        }
+      ],
+      "1428280": [
+        {
+          "start": 37,
+          "length": 1,
+          "reading": "あさ"
+        }
+      ],
+      "1589350": [
+        {
+          "start": 14,
+          "length": 9,
+          "reading": "おもってなかったから"
+        }
+      ],
+      "1842580": [
+        {
+          "start": 25,
+          "length": 3,
+          "reading": "ゆきかき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11512578",
+    "original": "屋根の雪かきをしないとね。",
+    "en": [
+      {
+        "id": "1185340",
+        "text": "We'll have to shovel the snow off the roof."
+      }
+    ],
+    "vocabIds": [
+      "1842580",
+      "1182700"
+    ],
+    "matches": {
+      "1182700": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "やね"
+        }
+      ],
+      "1842580": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "ゆきかき"
+        }
+      ]
+    }
+  }
+]

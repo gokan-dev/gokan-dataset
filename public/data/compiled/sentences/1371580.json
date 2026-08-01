@@ -1,0 +1,80 @@
+[
+  {
+    "id": "89714",
+    "original": "彼女は子供を水死させてしまった。",
+    "en": [
+      {
+        "id": "314001",
+        "text": "She allowed her child to be drowned."
+      }
+    ],
+    "indices": "彼女[01] は 子供 を 水死~ 為せる{させて} 仕舞う{しまった}",
+    "vocabIds": [
+      "1483150",
+      "1307850",
+      "1371580"
+    ],
+    "matches": {
+      "1307850": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "こども"
+        }
+      ],
+      "1371580": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "すいし"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "96759",
+    "original": "彼らは水死した。",
+    "en": [
+      {
+        "id": "306945",
+        "text": "They became food for fishes."
+      }
+    ],
+    "indices": "彼ら(かれら) は 水死 為る(する){した}",
+    "vocabIds": [
+      "1483090",
+      "2397090",
+      "1371580"
+    ],
+    "matches": {
+      "1371580": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "すいし"
+        }
+      ],
+      "1483090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれら"
+        }
+      ],
+      "2397090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれら"
+        }
+      ]
+    }
+  }
+]

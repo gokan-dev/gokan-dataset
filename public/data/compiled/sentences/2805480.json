@@ -1,0 +1,119 @@
+[
+  {
+    "id": "78535",
+    "original": "落ちなければ今年中に運転免許が取れます。",
+    "en": [
+      {
+        "id": "325181",
+        "text": "If I don't fail, I will get my driving license before New Year."
+      },
+      {
+        "id": "755161",
+        "text": "If I don't fail, then I can get my driving license this year."
+      }
+    ],
+    "indices": "落ちる[08]{落ち} 無ければ{なければ} 今年 中(ちゅう) に 運転免許 が 取れる{取れます}",
+    "vocabIds": [
+      "1548550",
+      "2805480",
+      "1172900",
+      "1326990"
+    ],
+    "matches": {
+      "1172900": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "うんてんめんきょ"
+        }
+      ],
+      "1326990": [
+        {
+          "start": 15,
+          "length": 4,
+          "reading": "とれます"
+        }
+      ],
+      "1548550": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "おちなければ"
+        }
+      ],
+      "2805480": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "ことしちゅうに"
+        }
+      ]
+    }
+  },
+  {
+    "id": "4292613",
+    "original": "今はアメリカのボストンに住んでいますが、今年中には日本に帰る予定です。",
+    "en": [
+      {
+        "id": "4491329",
+        "text": "I live in Boston in America right now, but I plan on going back to Japan later this year."
+      },
+      {
+        "id": "4491332",
+        "text": "I now live in Boston in the US, but I plan to go back to Japan before the end of the year."
+      }
+    ],
+    "vocabIds": [
+      "1334040",
+      "2805480",
+      "1582710",
+      "1221270",
+      "1543240",
+      "1288850"
+    ],
+    "matches": {
+      "1221270": [
+        {
+          "start": 28,
+          "length": 2,
+          "reading": "かえる"
+        }
+      ],
+      "1288850": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "いま"
+        }
+      ],
+      "1334040": [
+        {
+          "start": 12,
+          "length": 7,
+          "reading": "すんでいますが"
+        }
+      ],
+      "1543240": [
+        {
+          "start": 30,
+          "length": 2,
+          "reading": "よてい"
+        }
+      ],
+      "1582710": [
+        {
+          "start": 25,
+          "length": 2,
+          "reading": "にっぽん"
+        }
+      ],
+      "2805480": [
+        {
+          "start": 20,
+          "length": 4,
+          "reading": "ことしちゅうに"
+        }
+      ]
+    }
+  }
+]

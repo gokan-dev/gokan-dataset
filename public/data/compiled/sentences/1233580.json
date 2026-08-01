@@ -1,0 +1,83 @@
+[
+  {
+    "id": "76802",
+    "original": "お墓には供花が供えられていた。",
+    "en": [
+      {
+        "id": "326918",
+        "text": "An offering of flowers had been placed at the grave."
+      }
+    ],
+    "indices": "御(お){お} 墓 には 供花~ が 供える{供えられていた}~",
+    "vocabIds": [
+      "1233580",
+      "2061120",
+      "1514840"
+    ],
+    "matches": {
+      "1233580": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "そなえ"
+        }
+      ],
+      "1514840": [
+        {
+          "start": 1,
+          "length": 1,
+          "reading": "はか"
+        }
+      ],
+      "2061120": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "きょうか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2739392",
+    "original": "トムはメアリーの墓に花を供えた。",
+    "en": [
+      {
+        "id": "2641278",
+        "text": "Tom put some flowers on Mary's grave."
+      },
+      {
+        "id": "3824326",
+        "text": "Tom put flowers on Mary's grave."
+      }
+    ],
+    "vocabIds": [
+      "1233580",
+      "1514840",
+      "1194500"
+    ],
+    "matches": {
+      "1194500": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "はな"
+        }
+      ],
+      "1233580": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "そなえた"
+        }
+      ],
+      "1514840": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "はか"
+        }
+      ]
+    }
+  }
+]

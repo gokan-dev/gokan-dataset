@@ -1,0 +1,130 @@
+[
+  {
+    "id": "123466",
+    "original": "特急のホームは何番ですか。",
+    "en": [
+      {
+        "id": "280531",
+        "text": "What's the track for the limited express?"
+      }
+    ],
+    "indices": "特急[01] の ホーム(#1121740)[01] は 何番 ですか",
+    "vocabIds": [
+      "1454750",
+      "1189260"
+    ],
+    "matches": {
+      "1189260": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "なんばん"
+        }
+      ],
+      "1454750": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とっきゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "150518",
+    "original": "時計がおくれていたので、私は特急にのりそこねた。",
+    "en": [
+      {
+        "id": "264039",
+        "text": "As my watch was slow, I missed the special express."
+      }
+    ],
+    "indices": "時計 が 遅れる{おくれていた} ので 私(わたし)[01] は 特急[01]~ に 乗り損ねる{のりそこねた}~",
+    "vocabIds": [
+      "1316140",
+      "1454750",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1316140": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とけい"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1454750": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "とっきゅう"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1600487",
+    "original": "最近、特急に乗りましたか。",
+    "en": [
+      {
+        "id": "1600489",
+        "text": "Have you ridden on an express train lately?"
+      },
+      {
+        "id": "1600490",
+        "text": "Have you been on an express train recently?"
+      }
+    ],
+    "vocabIds": [
+      "1355120",
+      "1293780",
+      "1454750"
+    ],
+    "matches": {
+      "1293780": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "さいきん"
+        }
+      ],
+      "1355120": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "のりました"
+        }
+      ],
+      "1454750": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "とっきゅう"
+        }
+      ]
+    }
+  }
+]

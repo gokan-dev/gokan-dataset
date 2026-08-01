@@ -1,0 +1,124 @@
+[
+  {
+    "id": "91337",
+    "original": "彼女はやたらと誉めちぎった。",
+    "en": [
+      {
+        "id": "312377",
+        "text": "She was profuse in praises."
+      }
+    ],
+    "indices": "彼女[01] は 矢鱈{やたらと} 誉めちぎる{誉めちぎった}",
+    "vocabIds": [
+      "1517880",
+      "1483150"
+    ],
+    "matches": {
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1517880": [
+        {
+          "start": 7,
+          "length": 6,
+          "reading": "ほめちぎった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "101187",
+    "original": "彼は彼の先生を誉めちぎった。",
+    "en": [
+      {
+        "id": "302509",
+        "text": "He was profuse in his praise of his teacher."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 彼(かれ)[01]{彼の} 先生(せんせい)[01] を 誉めちぎる{誉めちぎった}",
+    "vocabIds": [
+      "1517880",
+      "1000420",
+      "1387990",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "かれの"
+        },
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1387990": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "せんせい"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1517880": [
+        {
+          "start": 7,
+          "length": 6,
+          "reading": "ほめちぎった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "194934",
+    "original": "みんな口を極めて彼女を褒めちぎった。",
+    "en": [
+      {
+        "id": "32109",
+        "text": "Everybody praised her to the skies."
+      }
+    ],
+    "indices": "皆{みんな} 口を極めて~ 彼女 を 誉めちぎる{褒めちぎった}~",
+    "vocabIds": [
+      "1517880",
+      "2138410",
+      "1483150"
+    ],
+    "matches": {
+      "1483150": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1517880": [
+        {
+          "start": 11,
+          "length": 6,
+          "reading": "ほめちぎった"
+        }
+      ],
+      "2138410": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "ぐちをきわめて"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,111 @@
+{
+  "id": "1574340",
+  "writtenForm": {
+    "kanji": "顰める",
+    "alternatives": [
+      "蹙める",
+      "嚬める"
+    ],
+    "containedKanji": [
+      "顰"
+    ]
+  },
+  "reading": {
+    "primary": "しかめる",
+    "alternatives": [
+      "ひそめる"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 40278,
+    "kanaRank": 25620
+  },
+  "progression": {
+    "kklcStep": 99999
+  },
+  "senses": [
+    {
+      "pos": [
+        "v1",
+        "vt"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "to screw up (one's face)",
+        "to scrunch up",
+        "to pucker up",
+        "to furrow (one's brow)",
+        "to wrinkle"
+      ],
+      "related": {
+        "compounds": [
+          "顔をしかめる"
+        ]
+      }
+    },
+    {
+      "pos": [
+        "v1",
+        "vt"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "to knit (one's eyebrows)",
+        "to furrow",
+        "to contract"
+      ],
+      "related": {
+        "compounds": [
+          "眉をひそめる"
+        ]
+      },
+      "appliesToReadings": [
+        "ひそめる"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": false,
+  "mergedVocabs": [
+    {
+      "id": "1574340",
+      "isBase": true,
+      "originalPrimaryReading": "しかめる",
+      "originalGlosses": [
+        "to screw up (one's face)",
+        "to scrunch up",
+        "to pucker up"
+      ]
+    },
+    {
+      "id": "2703030",
+      "isBase": false,
+      "originalPrimaryReading": "ひそめる",
+      "originalGlosses": [
+        "to knit (one's eyebrows)",
+        "to furrow",
+        "to contract"
+      ]
+    }
+  ]
+}

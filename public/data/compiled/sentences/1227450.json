@@ -1,0 +1,111 @@
+[
+  {
+    "id": "125295",
+    "original": "敵同士が面と向かい合った。",
+    "en": [
+      {
+        "id": "278698",
+        "text": "The enemies stood face to face."
+      }
+    ],
+    "indices": "仇同士{敵同士} が 面(めん)[01] と 向かい合う{向かい合った}",
+    "vocabIds": [
+      "1604760",
+      "1227450",
+      "1584695"
+    ],
+    "matches": {
+      "1227450": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "かたきどうし"
+        }
+      ],
+      "1584695": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "めん"
+        }
+      ],
+      "1604760": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "むかいあった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "196774",
+    "original": "別にいがみ合ってる敵同士でもあるまいし。",
+    "en": [
+      {
+        "id": "33953",
+        "text": "It's not as though we were enemies at each other's throat."
+      }
+    ],
+    "indices": "別に 啀み合う{いがみ合ってる} 仇同士{敵同士} で(#2028980) も 有る{ある} まい し",
+    "vocabIds": [
+      "1981830",
+      "1227450",
+      "1509480"
+    ],
+    "matches": {
+      "1227450": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "かたきどうし"
+        }
+      ],
+      "1509480": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "べつに"
+        }
+      ],
+      "1981830": [
+        {
+          "start": 2,
+          "length": 7,
+          "reading": "いがみあってる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "227163",
+    "original": "お互い仇同士だ。",
+    "en": [
+      {
+        "id": "64512",
+        "text": "They are bitter enemies."
+      }
+    ],
+    "indices": "お互い 仇同士~ だ",
+    "vocabIds": [
+      "1979930",
+      "1227450"
+    ],
+    "matches": {
+      "1227450": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "きゅうどうし"
+        }
+      ],
+      "1979930": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "おたがい"
+        }
+      ]
+    }
+  }
+]

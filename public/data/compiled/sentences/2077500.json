@@ -1,0 +1,63 @@
+[
+  {
+    "id": "74160",
+    "original": "大学院生のケンは去年アメリカに行った。",
+    "en": [
+      {
+        "id": "329560",
+        "text": "Ken, who is a graduate student, went to the United States last year."
+      }
+    ],
+    "indices": "大学院生~ の は 去年 亜米利加{アメリカ} に 行く{行った}",
+    "vocabIds": [
+      "2077500",
+      "1578850",
+      "1231690"
+    ],
+    "matches": {
+      "1231690": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "きょねん"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "いった"
+        }
+      ],
+      "2077500": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "だいがくいんせい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8619742",
+    "original": "トムは大学院生です。",
+    "en": [
+      {
+        "id": "3318907",
+        "text": "Tom is a graduate student."
+      }
+    ],
+    "vocabIds": [
+      "2077500"
+    ],
+    "matches": {
+      "2077500": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "だいがくいんせい"
+        }
+      ]
+    }
+  }
+]

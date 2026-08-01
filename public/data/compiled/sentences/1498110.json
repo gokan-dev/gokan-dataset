@@ -1,0 +1,551 @@
+[
+  {
+    "id": "84270",
+    "original": "負傷者が現場から運ばれて行った。",
+    "en": [
+      {
+        "id": "319445",
+        "text": "The injured were removed from the scene."
+      }
+    ],
+    "indices": "負傷者 が 現場 から 運ぶ[01]{運ばれて} 行く[01]{行った}",
+    "vocabIds": [
+      "1498110",
+      "1578850",
+      "1263760",
+      "1172660"
+    ],
+    "matches": {
+      "1172660": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "はこば"
+        }
+      ],
+      "1263760": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "げんば"
+        }
+      ],
+      "1498110": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ふしょうしゃ"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "いった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "84271",
+    "original": "負傷者を病院に運びなさい。",
+    "en": [
+      {
+        "id": "319444",
+        "text": "Carry the injured to the hospital."
+      }
+    ],
+    "indices": "負傷者 を 病院 に 運ぶ[01]{運び} 為さい{なさい}",
+    "vocabIds": [
+      "1172660",
+      "1498110",
+      "1490220"
+    ],
+    "matches": {
+      "1172660": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "はこびなさい"
+        }
+      ],
+      "1490220": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "びょういん"
+        }
+      ],
+      "1498110": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ふしょうしゃ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "84272",
+    "original": "負傷者は痛みでもだえ苦しんだ。",
+    "en": [
+      {
+        "id": "319443",
+        "text": "The wounded man writhed."
+      }
+    ],
+    "indices": "負傷者 は 痛み で(#2028980) 悶える{もだえ} 苦しむ{苦しんだ}",
+    "vocabIds": [
+      "1244350",
+      "1498110",
+      "1587300"
+    ],
+    "matches": {
+      "1244350": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "くるしんだ"
+        }
+      ],
+      "1498110": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ふしょうしゃ"
+        }
+      ],
+      "1587300": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "いたみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "84273",
+    "original": "負傷者は多かったが、行方不明の人はほとんどいなかった。",
+    "en": [
+      {
+        "id": "319442",
+        "text": "The injured were many, but the missing were few."
+      },
+      {
+        "id": "1327589",
+        "text": "There were many injured people, but hardly any people were missing."
+      }
+    ],
+    "indices": "負傷者 は 多い{多かった} が 行方不明 の 人(ひと) は 殆ど{ほとんど} 居る(いる){いなかった}",
+    "vocabIds": [
+      "1407460",
+      "1282190",
+      "1498110",
+      "1580640"
+    ],
+    "matches": {
+      "1282190": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "ゆくえふめい"
+        }
+      ],
+      "1407460": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "おおかったが"
+        }
+      ],
+      "1498110": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ふしょうしゃ"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 15,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "84274",
+    "original": "負傷者は救急車で運ばれた。",
+    "en": [
+      {
+        "id": "319441",
+        "text": "The wounded arrived by ambulance."
+      }
+    ],
+    "indices": "負傷者 は 救急車 で(#2028980) 運ぶ[01]{運ばれた}",
+    "vocabIds": [
+      "1498110",
+      "1229100",
+      "1172660"
+    ],
+    "matches": {
+      "1172660": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "はこば"
+        }
+      ],
+      "1229100": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "きゅうきゅうしゃ"
+        }
+      ],
+      "1498110": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ふしょうしゃ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "84275",
+    "original": "負傷者たちは快方に向かっている。",
+    "en": [
+      {
+        "id": "319440",
+        "text": "The wounded are getting better."
+      }
+    ],
+    "indices": "負傷者~ 達{たち} は 快方に向かう{快方に向かっている}~",
+    "vocabIds": [
+      "1604800",
+      "1498110",
+      "1200160"
+    ],
+    "matches": {
+      "1200160": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "かいほう"
+        }
+      ],
+      "1498110": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ふしょうしゃ"
+        }
+      ],
+      "1604800": [
+        {
+          "start": 9,
+          "length": 6,
+          "reading": "むかっている"
+        }
+      ]
+    }
+  },
+  {
+    "id": "126873",
+    "original": "地震はリヒター・スケールで３．０を記録しましたが、大きな被害、負傷者が出た報告はありません。",
+    "en": [
+      {
+        "id": "277217",
+        "text": "No major damage or injuries are known to have resulted from the quake measuring 3.0 on the Richter scale."
+      }
+    ],
+    "indices": "地震 は リヒタースケール{リヒター・スケール}~ で(#2028980) を 記録[02] 為る(する){しました} が 大きな 被害 負傷者 が 出る{出た} 報告 は 有る{ありません}",
+    "vocabIds": [
+      "1412890",
+      "1498110",
+      "1421210",
+      "1223440",
+      "1484350",
+      "1338240",
+      "1515670",
+      "1579350",
+      "1557630"
+    ],
+    "matches": {
+      "1223440": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "きろく"
+        }
+      ],
+      "1338240": [
+        {
+          "start": 35,
+          "length": 2,
+          "reading": "でた"
+        }
+      ],
+      "1412890": [
+        {
+          "start": 25,
+          "length": 3,
+          "reading": "おおきな"
+        }
+      ],
+      "1421210": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じしん"
+        }
+      ],
+      "1484350": [
+        {
+          "start": 28,
+          "length": 2,
+          "reading": "ひがい"
+        }
+      ],
+      "1498110": [
+        {
+          "start": 31,
+          "length": 3,
+          "reading": "ふしょうしゃ"
+        }
+      ],
+      "1515670": [
+        {
+          "start": 37,
+          "length": 2,
+          "reading": "ほうこく"
+        }
+      ],
+      "1557630": [
+        {
+          "start": 15,
+          "length": 1,
+          "reading": "ぜろ"
+        }
+      ],
+      "1579350": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "さん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "209883",
+    "original": "その事故の犠牲者数は死者５名、負傷者１００名であった。",
+    "en": [
+      {
+        "id": "47146",
+        "text": "The toll from the accident was 5 persons dead and 100 persons injured."
+      }
+    ],
+    "indices": "其の[01]{その} 事故 の 犠牲者 数(すう) は 死者~ 名(めい)[01] 負傷者 名(めい)[01]~ である{であった}",
+    "vocabIds": [
+      "1225460",
+      "1498110",
+      "1488000",
+      "1313850",
+      "1310870",
+      "1005580",
+      "1580820",
+      "1268060",
+      "1531330"
+    ],
+    "matches": {
+      "1005580": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "すう"
+        }
+      ],
+      "1225460": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "ぎせいしゃ"
+        }
+      ],
+      "1268060": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "ご"
+        }
+      ],
+      "1310870": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "ししゃ"
+        }
+      ],
+      "1313850": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "じこ"
+        }
+      ],
+      "1488000": [
+        {
+          "start": 18,
+          "length": 3,
+          "reading": "いちぜろぜろ"
+        }
+      ],
+      "1498110": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "ふしょうしゃ"
+        }
+      ],
+      "1531330": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "めい"
+        },
+        {
+          "start": 21,
+          "length": 1,
+          "reading": "めい"
+        }
+      ],
+      "1580820": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "すう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "869847",
+    "original": "両陣営ともに数千人単位の負傷者が出た。",
+    "en": [
+      {
+        "id": "807556",
+        "text": "Many thousands on both sides had been wounded."
+      }
+    ],
+    "vocabIds": [
+      "1498110",
+      "1370180",
+      "1373120",
+      "1417040",
+      "1338240",
+      "1344210",
+      "1461140",
+      "2080720",
+      "1580640"
+    ],
+    "matches": {
+      "1338240": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "でた"
+        }
+      ],
+      "1344210": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "りょう"
+        }
+      ],
+      "1370180": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "じんえい"
+        }
+      ],
+      "1373120": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "すうせん"
+        }
+      ],
+      "1417040": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "たんい"
+        }
+      ],
+      "1461140": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "りょう"
+        }
+      ],
+      "1498110": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "ふしょうしゃ"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "にん"
+        }
+      ],
+      "2080720": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "りょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9959210",
+    "original": "負傷者は何人でしたか？",
+    "en": [
+      {
+        "id": "4500287",
+        "text": "How many were injured?"
+      }
+    ],
+    "vocabIds": [
+      "1498110",
+      "1189100"
+    ],
+    "matches": {
+      "1189100": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "なんにん"
+        }
+      ],
+      "1498110": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ふしょうしゃ"
+        }
+      ]
+    }
+  }
+]

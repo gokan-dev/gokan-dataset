@@ -1,0 +1,82 @@
+[
+  {
+    "id": "197957",
+    "original": "バッテリーは別料金になっております。",
+    "en": [
+      {
+        "id": "35146",
+        "text": "The batteries are extra."
+      }
+    ],
+    "indices": "バッテリー は 別料金~ になる{になって} 居る(おる)[02]{おります}",
+    "vocabIds": [
+      "2539880"
+    ],
+    "matches": {
+      "2539880": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "べつりょうきん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "198406",
+    "original": "パーマは別料金です。",
+    "en": [
+      {
+        "id": "35598",
+        "text": "A permanent is extra."
+      },
+      {
+        "id": "1223464",
+        "text": "A permanent costs extra."
+      }
+    ],
+    "indices": "パーマ は 別料金 です",
+    "vocabIds": [
+      "2539880"
+    ],
+    "matches": {
+      "2539880": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "べつりょうきん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11548114",
+    "original": "飲み物は、別料金ですか？",
+    "en": [
+      {
+        "id": "36890",
+        "text": "Do you charge separately for drinks?"
+      }
+    ],
+    "vocabIds": [
+      "1600430",
+      "2539880"
+    ],
+    "matches": {
+      "1600430": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "のみもの"
+        }
+      ],
+      "2539880": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "べつりょうきん"
+        }
+      ]
+    }
+  }
+]

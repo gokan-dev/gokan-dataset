@@ -1,0 +1,282 @@
+[
+  {
+    "id": "141438",
+    "original": "先方のお名前をどうぞ。",
+    "en": [
+      {
+        "id": "273133",
+        "text": "And the name of the person you're calling, please?"
+      }
+    ],
+    "indices": "先方(せんぽう)[01] の 御(お){お} 名前 を どうぞ[01]",
+    "vocabIds": [
+      "2853328",
+      "1388600"
+    ],
+    "matches": {
+      "1388600": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "せんぽう"
+        }
+      ],
+      "2853328": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "おなまえ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "141439",
+    "original": "先方のお電話番号は何番ですか。",
+    "en": [
+      {
+        "id": "273132",
+        "text": "What's the number of the party you are trying to reach?"
+      }
+    ],
+    "indices": "先方(せんぽう)[01] の 御(お){お} 電話 番号 は 何番 ですか",
+    "vocabIds": [
+      "1443940",
+      "1388600",
+      "1189260"
+    ],
+    "matches": {
+      "1189260": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "なんばん"
+        }
+      ],
+      "1388600": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "せんぽう"
+        }
+      ],
+      "1443940": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "でんわばんごう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "141440",
+    "original": "先方が電話にお出になりました。",
+    "en": [
+      {
+        "id": "273131",
+        "text": "Your party is on the line."
+      }
+    ],
+    "indices": "先方(せんぽう)[01]~ が 電話 に 出る{お出} になる[02]{になりました}",
+    "vocabIds": [
+      "1388600",
+      "1443840",
+      "1896380"
+    ],
+    "matches": {
+      "1388600": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "せんぽう"
+        }
+      ],
+      "1443840": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "でんわ"
+        }
+      ],
+      "1896380": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "しゅつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "141441",
+    "original": "先方がお出になりません。",
+    "en": [
+      {
+        "id": "273130",
+        "text": "Your party doesn't answer."
+      }
+    ],
+    "indices": "先方(せんぽう)[01] が 出る{お出} になる[02]{になりません}",
+    "vocabIds": [
+      "1388600",
+      "1896380"
+    ],
+    "matches": {
+      "1388600": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "せんぽう"
+        }
+      ],
+      "1896380": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "しゅつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "201340",
+    "original": "どうぞお話しください。先方がでました。",
+    "en": [
+      {
+        "id": "38548",
+        "text": "Go ahead. Your party is on the line."
+      }
+    ],
+    "indices": "どうぞ[01] 御(お){お} 話す{話し} 下さい{ください} 先方(せんぽう)[01] が 出る{でました}",
+    "vocabIds": [
+      "2581590",
+      "1388600"
+    ],
+    "matches": {
+      "1388600": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "せんぽう"
+        }
+      ],
+      "2581590": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "おはなしし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3424569",
+    "original": "ええ、先方から一応返事はありました。",
+    "en": [
+      {
+        "id": "3424571",
+        "text": "Yeah, there was some sort of reply from them."
+      }
+    ],
+    "indices": "ええ[01] 先方(せんぽう) から 一応(いちおう)~ 返事(へんじ) は 有る(ある){ありました}",
+    "vocabIds": [
+      "1388600",
+      "1161170",
+      "1512220"
+    ],
+    "matches": {
+      "1161170": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "いちおう"
+        }
+      ],
+      "1388600": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "せんぽう"
+        }
+      ],
+      "1512220": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "へんじ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12484413",
+    "original": "先方のミスに対し、私たちには責任はないと説明しましたが、聞き耳を持ってもらえませんでした。",
+    "en": [
+      {
+        "id": "12482568",
+        "text": "I explained to him that we were not responsible for his mistake, but he didn't listen."
+      }
+    ],
+    "vocabIds": [
+      "1315720",
+      "2567590",
+      "1311300",
+      "2629650",
+      "1823320",
+      "1388600",
+      "1383180"
+    ],
+    "matches": {
+      "1311300": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1315720": [
+        {
+          "start": 32,
+          "length": 12,
+          "reading": "もってもらえませんでした"
+        }
+      ],
+      "1383180": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "せきにん"
+        }
+      ],
+      "1388600": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "せんぽう"
+        }
+      ],
+      "1823320": [
+        {
+          "start": 28,
+          "length": 3,
+          "reading": "ききみみ"
+        }
+      ],
+      "2567590": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "にたいし"
+        }
+      ],
+      "2629650": [
+        {
+          "start": 20,
+          "length": 3,
+          "reading": "せつめいし"
+        }
+      ]
+    }
+  }
+]

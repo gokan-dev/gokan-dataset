@@ -1,0 +1,143 @@
+[
+  {
+    "id": "77174",
+    "original": "話し声が壁に反響してうるさいな、この部屋。",
+    "en": [
+      {
+        "id": "326545",
+        "text": "This room is noisy. The sound bounces right off the walls."
+      }
+    ],
+    "indices": "話し声 が 壁[01] に 反響 為る(する){して} 五月蝿い[01]{うるさい} な 此の{この} 部屋[01]",
+    "vocabIds": [
+      "1611240",
+      "1480310",
+      "1499320",
+      "1509290"
+    ],
+    "matches": {
+      "1480310": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "はんきょう"
+        }
+      ],
+      "1499320": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "へや"
+        }
+      ],
+      "1509290": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "かべ"
+        }
+      ],
+      "1611240": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "はなしごえ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "123631",
+    "original": "洞窟からうつろに反響する音を耳にした。",
+    "en": [
+      {
+        "id": "280366",
+        "text": "We heard somber hollow sounds from the cave."
+      }
+    ],
+    "indices": "洞窟 から 虚ろ{うつろに}~ 反響 為る(する){する} 音(おと)[01] を 耳にする{耳にした}",
+    "vocabIds": [
+      "1453860",
+      "1480310",
+      "1576900",
+      "1317170"
+    ],
+    "matches": {
+      "1317170": [
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "みみ"
+        }
+      ],
+      "1453860": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "どうくつ"
+        }
+      ],
+      "1480310": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "はんきょう"
+        }
+      ],
+      "1576900": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "おと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "137143",
+    "original": "谷は滝の音を反響する。",
+    "en": [
+      {
+        "id": "276093",
+        "text": "The valley echoes the sound of the waterfall."
+      }
+    ],
+    "indices": "谷 は 滝[01] の 音(おと)[01] を 反響 為る(する){する}",
+    "vocabIds": [
+      "1480310",
+      "1581590",
+      "1415520",
+      "1576900"
+    ],
+    "matches": {
+      "1415520": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "たき"
+        }
+      ],
+      "1480310": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "はんきょう"
+        }
+      ],
+      "1576900": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "おと"
+        }
+      ],
+      "1581590": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "たに"
+        }
+      ]
+    }
+  }
+]

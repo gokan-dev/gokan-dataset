@@ -1,0 +1,322 @@
+[
+  {
+    "id": "126893",
+    "original": "地震のあと、大火事が起こった。",
+    "en": [
+      {
+        "id": "277197",
+        "text": "A big fire broke out after the earthquake."
+      }
+    ],
+    "indices": "地震 の 後(あと){あと} 大火事 が 起こる{起こった}",
+    "vocabIds": [
+      "1223680",
+      "2082130",
+      "1421210"
+    ],
+    "matches": {
+      "1223680": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "おこった"
+        }
+      ],
+      "1421210": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じしん"
+        }
+      ],
+      "2082130": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "だいかじ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "137654",
+    "original": "大火事のために町全体が灰になってしまった。",
+    "en": [
+      {
+        "id": "275582",
+        "text": "The big fire reduced the whole town to ashes."
+      }
+    ],
+    "indices": "大火事 の 為に{ために} 町(まち) 全体 が 灰 になる{になって} 仕舞う{しまった}",
+    "vocabIds": [
+      "2082130",
+      "2423170",
+      "1201860"
+    ],
+    "matches": {
+      "1201860": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "はい"
+        }
+      ],
+      "2082130": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "だいかじ"
+        }
+      ],
+      "2423170": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "まちぜんたい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "145172",
+    "original": "新聞によると昨夜大火事があった。",
+    "en": [
+      {
+        "id": "269391",
+        "text": "According to the newspaper, there was a big fire last night."
+      }
+    ],
+    "indices": "新聞 に依ると{によると} 昨夜(ゆうべ)[02] 大火事 が[01] 有る{あった}",
+    "vocabIds": [
+      "2082130",
+      "1362360",
+      "1542640"
+    ],
+    "matches": {
+      "1362360": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しんぶん"
+        }
+      ],
+      "1542640": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "さくや"
+        }
+      ],
+      "2082130": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "だいかじ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "145174",
+    "original": "新聞によると、ボストンで大火事があったらしい。",
+    "en": [
+      {
+        "id": "269389",
+        "text": "According to the paper, there was a big fire in Boston."
+      }
+    ],
+    "indices": "新聞 に依ると{によると} ボストン で(#2028980) 大火事 が[01] 有る{あった} らしい",
+    "vocabIds": [
+      "2082130",
+      "1362360"
+    ],
+    "matches": {
+      "1362360": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しんぶん"
+        }
+      ],
+      "2082130": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "だいかじ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "169618",
+    "original": "昨夜近所で大火事があったんだ。",
+    "en": [
+      {
+        "id": "244868",
+        "text": "There was a big fire near my house last night."
+      }
+    ],
+    "indices": "昨夜(ゆうべ)[02] 近所 で(#2028980) 大火事 が[01] 有る{あった} のだ{んだ}",
+    "vocabIds": [
+      "2082130",
+      "1542640",
+      "1242350"
+    ],
+    "matches": {
+      "1242350": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きんじょ"
+        }
+      ],
+      "1542640": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "さくや"
+        }
+      ],
+      "2082130": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "だいかじ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "169855",
+    "original": "昨夜大火事があった。",
+    "en": [
+      {
+        "id": "244631",
+        "text": "There was a big fire last night."
+      }
+    ],
+    "indices": "昨夜(ゆうべ) 大火事~ が[01] 有る{あった}",
+    "vocabIds": [
+      "2082130",
+      "1542640"
+    ],
+    "matches": {
+      "1542640": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "さくや"
+        }
+      ],
+      "2082130": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "だいかじ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "179812",
+    "original": "近所に大火事がありました。",
+    "en": [
+      {
+        "id": "18671",
+        "text": "There was a big fire in my neighborhood."
+      }
+    ],
+    "indices": "近所 に 大火事 が[01] 有る{ありました}",
+    "vocabIds": [
+      "2082130",
+      "1242350"
+    ],
+    "matches": {
+      "1242350": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きんじょ"
+        }
+      ],
+      "2082130": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "だいかじ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "187403",
+    "original": "何十もの家がその大火事で焼けた。",
+    "en": [
+      {
+        "id": "24540",
+        "text": "Dozens of houses were burned down in that big fire."
+      }
+    ],
+    "indices": "何十 も の 家(いえ)[01] が 其の[01]{その} 大火事 で(#2028980) 焼ける[01]{焼けた}",
+    "vocabIds": [
+      "2082130",
+      "1350610",
+      "1611010",
+      "1191730",
+      "2098290",
+      "2082160",
+      "2220300"
+    ],
+    "matches": {
+      "1191730": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "か"
+        }
+      ],
+      "1350610": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "やけた"
+        }
+      ],
+      "1611010": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "なんじゅう"
+        }
+      ],
+      "2082130": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "だいかじ"
+        }
+      ],
+      "2082160": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "か"
+        }
+      ],
+      "2098290": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "か"
+        }
+      ],
+      "2220300": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "か"
+        }
+      ]
+    }
+  }
+]

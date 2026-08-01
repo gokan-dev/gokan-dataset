@@ -1,0 +1,97 @@
+{
+  "id": "1364320",
+  "writtenForm": {
+    "kanji": "真北",
+    "alternatives": [],
+    "containedKanji": [
+      "真",
+      "北"
+    ]
+  },
+  "reading": {
+    "primary": "まきた",
+    "alternatives": [
+      "しんぽく"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 80054
+  },
+  "progression": {
+    "kklcStep": 838
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "due north"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "true north",
+        "geodetic north"
+      ],
+      "related": {
+        "compounds": [
+          "真北",
+          "磁北"
+        ]
+      },
+      "appliesToReadings": [
+        "しんぽく"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": false,
+  "mergedVocabs": [
+    {
+      "id": "1364320",
+      "isBase": true,
+      "originalPrimaryReading": "まきた",
+      "originalGlosses": [
+        "due north"
+      ]
+    },
+    {
+      "id": "2841702",
+      "isBase": false,
+      "originalPrimaryReading": "しんぽく",
+      "originalGlosses": [
+        "true north",
+        "geodetic north"
+      ]
+    }
+  ],
+  "components": [
+    "1363180",
+    "1520670"
+  ]
+}

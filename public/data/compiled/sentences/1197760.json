@@ -1,0 +1,71 @@
+[
+  {
+    "id": "204983",
+    "original": "それは蝶ですか、それとも蛾ですか。",
+    "en": [
+      {
+        "id": "42225",
+        "text": "Is it a butterfly or a moth?"
+      }
+    ],
+    "indices": "其れ[01]{それ} は 蝶 ですか 其れとも{それとも} 蛾 ですか",
+    "vocabIds": [
+      "1429010",
+      "1197760"
+    ],
+    "matches": {
+      "1197760": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "が"
+        }
+      ],
+      "1429010": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "ちょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3416596",
+    "original": "蛾は光に引き寄せられる。",
+    "en": [
+      {
+        "id": "63582",
+        "text": "Moths are attracted by light."
+      }
+    ],
+    "vocabIds": [
+      "1168870",
+      "1197760",
+      "1272780"
+    ],
+    "matches": {
+      "1168870": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "ひきよせ"
+        }
+      ],
+      "1197760": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "が"
+        }
+      ],
+      "1272780": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ひかり"
+        }
+      ]
+    }
+  }
+]

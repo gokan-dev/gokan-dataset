@@ -1,0 +1,102 @@
+[
+  {
+    "id": "140826",
+    "original": "全員で歌を合唱した。",
+    "en": [
+      {
+        "id": "273746",
+        "text": "They all sang in chorus."
+      }
+    ],
+    "indices": "全員 で(#2028980) 歌 を 合唱 為る(する){した}",
+    "vocabIds": [
+      "1394840",
+      "1284870",
+      "1193180"
+    ],
+    "matches": {
+      "1193180": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "うた"
+        }
+      ],
+      "1284870": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "がっしょう"
+        }
+      ],
+      "1394840": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ぜんいん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "198441",
+    "original": "パーティーは合唱で終わった。",
+    "en": [
+      {
+        "id": "35632",
+        "text": "The party ended up with a chorus."
+      }
+    ],
+    "indices": "パーティー は 合唱~ で(#2028980) 終わる{終わった}",
+    "vocabIds": [
+      "1589600",
+      "1284870"
+    ],
+    "matches": {
+      "1284870": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "がっしょう"
+        }
+      ],
+      "1589600": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "おわった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11518026",
+    "original": "合唱の練習はどうだった？",
+    "en": [
+      {
+        "id": "3636310",
+        "text": "How was choir practice?"
+      }
+    ],
+    "vocabIds": [
+      "1284870",
+      "1559160"
+    ],
+    "matches": {
+      "1284870": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "がっしょう"
+        }
+      ],
+      "1559160": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "れんしゅう"
+        }
+      ]
+    }
+  }
+]

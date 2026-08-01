@@ -1,0 +1,168 @@
+[
+  {
+    "id": "142278",
+    "original": "赤い絵の具に青い絵の具を混ぜなさい。",
+    "en": [
+      {
+        "id": "272292",
+        "text": "Blend the red paint with the blue paint."
+      }
+    ],
+    "indices": "赤い[01] 絵の具~ に 青い[01] 絵の具 を 混ぜる{混ぜ} 為さい{なさい}",
+    "vocabIds": [
+      "1290310",
+      "1202290",
+      "1383240",
+      "1381390"
+    ],
+    "matches": {
+      "1202290": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "えのぐ"
+        },
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "えのぐ"
+        }
+      ],
+      "1290310": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "まぜなさい"
+        }
+      ],
+      "1381390": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "あおい"
+        }
+      ],
+      "1383240": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あかい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "142586",
+    "original": "青い絵の具と黄色の絵の具を混ぜなさい。",
+    "en": [
+      {
+        "id": "271984",
+        "text": "Blend the blue paint with the yellow paint."
+      }
+    ],
+    "indices": "青い[01] 絵の具 と 黄色 の 絵の具 を 混ぜる{混ぜ} 為さい{なさい}",
+    "vocabIds": [
+      "1290310",
+      "1202290",
+      "1381390",
+      "1576760"
+    ],
+    "matches": {
+      "1202290": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "えのぐ"
+        },
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "えのぐ"
+        }
+      ],
+      "1290310": [
+        {
+          "start": 13,
+          "length": 5,
+          "reading": "まぜなさい"
+        }
+      ],
+      "1381390": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あおい"
+        }
+      ],
+      "1576760": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "きいろ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "891803",
+    "original": "絵具の赤と青を混ぜると紫になるって知ってた？",
+    "en": [
+      {
+        "id": "892385",
+        "text": "Did you know that if you mixed red and blue paint you obtained purple?"
+      }
+    ],
+    "vocabIds": [
+      "1290310",
+      "1420470",
+      "1202290",
+      "2013900",
+      "1381380",
+      "1311640"
+    ],
+    "matches": {
+      "1202290": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "えのぐ"
+        }
+      ],
+      "1290310": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "まぜると"
+        }
+      ],
+      "1311640": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "むらさき"
+        }
+      ],
+      "1381380": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "あお"
+        }
+      ],
+      "1420470": [
+        {
+          "start": 17,
+          "length": 4,
+          "reading": "しってた"
+        }
+      ],
+      "2013900": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "あか"
+        }
+      ]
+    }
+  }
+]

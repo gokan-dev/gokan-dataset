@@ -1,0 +1,394 @@
+[
+  {
+    "id": "152096",
+    "original": "私宛に何か伝言がとどいていませんか。",
+    "en": [
+      {
+        "id": "262455",
+        "text": "Are there any messages for me?"
+      }
+    ],
+    "indices": "私宛~ に 何か 伝言(でんごん)~ が 届く{とどいていません} か",
+    "vocabIds": [
+      "1311140",
+      "1188270",
+      "1582180"
+    ],
+    "matches": {
+      "1188270": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "なにか"
+        }
+      ],
+      "1311140": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "わたしあて"
+        }
+      ],
+      "1582180": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "でんごん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "152097",
+    "original": "私宛に手紙が来ていますか。",
+    "en": [
+      {
+        "id": "246395",
+        "text": "Is there any mail for me?"
+      }
+    ],
+    "indices": "私宛 に 手紙 が 来る(くる){来ています} か",
+    "vocabIds": [
+      "1547720",
+      "1311140",
+      "1327720"
+    ],
+    "matches": {
+      "1311140": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "わたしあて"
+        }
+      ],
+      "1327720": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "てがみ"
+        }
+      ],
+      "1547720": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "きています"
+        }
+      ]
+    }
+  },
+  {
+    "id": "164033",
+    "original": "私宛の伝言はありますか。",
+    "en": [
+      {
+        "id": "250050",
+        "text": "Do you have any messages for me?"
+      },
+      {
+        "id": "262455",
+        "text": "Are there any messages for me?"
+      }
+    ],
+    "indices": "私宛 の 伝言(でんごん) は 有る{あります} か",
+    "vocabIds": [
+      "1311140",
+      "1582180"
+    ],
+    "matches": {
+      "1311140": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "わたしあて"
+        }
+      ],
+      "1582180": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "でんごん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "168098",
+    "original": "私あての手紙は届いていますか？",
+    "en": [
+      {
+        "id": "246397",
+        "text": "Have any letters arrived for me?"
+      }
+    ],
+    "indices": "私(わたし)[01] 宛て{あて} の 手紙 は 届く[02]{届いています}~ か",
+    "vocabIds": [
+      "1457200",
+      "1311140",
+      "1327720"
+    ],
+    "matches": {
+      "1311140": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "わたしあて"
+        }
+      ],
+      "1327720": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "てがみ"
+        }
+      ],
+      "1457200": [
+        {
+          "start": 7,
+          "length": 6,
+          "reading": "とどいています"
+        }
+      ]
+    }
+  },
+  {
+    "id": "168099",
+    "original": "私あての手紙はありますか。",
+    "en": [
+      {
+        "id": "246396",
+        "text": "Are there any letters for me?"
+      }
+    ],
+    "indices": "私(わたし)[01] 宛て{あて} の 手紙 は 有る{あります} か",
+    "vocabIds": [
+      "1311140",
+      "1327720"
+    ],
+    "matches": {
+      "1311140": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "わたしあて"
+        }
+      ],
+      "1327720": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "てがみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "168100",
+    "original": "私あてに手紙は来てますか。",
+    "en": [
+      {
+        "id": "246395",
+        "text": "Is there any mail for me?"
+      }
+    ],
+    "indices": "私(わたし)[01] 宛て{あて} に 手紙 は 来る(くる){来てます} か[01]",
+    "vocabIds": [
+      "1547720",
+      "1311140",
+      "1327720"
+    ],
+    "matches": {
+      "1311140": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "わたしあて"
+        }
+      ],
+      "1327720": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "てがみ"
+        }
+      ],
+      "1547720": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "きてます"
+        }
+      ]
+    }
+  },
+  {
+    "id": "171841",
+    "original": "今日の郵便物の中に私あての手紙がありますか。",
+    "en": [
+      {
+        "id": "242634",
+        "text": "Are there any letters for me in today's mail?"
+      }
+    ],
+    "indices": "今日 の 郵便物 の 中(なか) に 私(わたし)[01] 宛て{あて} の 手紙 が[01] 有る{あります} か",
+    "vocabIds": [
+      "1542490",
+      "1311140",
+      "1579110",
+      "1327720",
+      "1423310",
+      "2098290"
+    ],
+    "matches": {
+      "1311140": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "わたしあて"
+        }
+      ],
+      "1327720": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "てがみ"
+        }
+      ],
+      "1423310": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "なか"
+        }
+      ],
+      "1542490": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "ゆうびんぶつ"
+        }
+      ],
+      "1579110": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きょう"
+        }
+      ],
+      "2098290": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "なか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "209496",
+    "original": "その手紙は私宛に来た。",
+    "en": [
+      {
+        "id": "46758",
+        "text": "The letter is for me."
+      }
+    ],
+    "indices": "其の[01]{その} 手紙 は 私(わたし)[01] 宛(あて)[07]{宛に}~ 来る(くる){来た}",
+    "vocabIds": [
+      "1327720",
+      "1311140",
+      "1547720"
+    ],
+    "matches": {
+      "1311140": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "わたしあて"
+        }
+      ],
+      "1327720": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "てがみ"
+        }
+      ],
+      "1547720": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "きた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9029731",
+    "original": "私宛の伝言はありませんか？",
+    "en": [
+      {
+        "id": "262455",
+        "text": "Are there any messages for me?"
+      }
+    ],
+    "vocabIds": [
+      "1311140",
+      "1582180"
+    ],
+    "matches": {
+      "1311140": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "わたしあて"
+        }
+      ],
+      "1582180": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "でんごん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11883549",
+    "original": "今日は、私宛の郵便はありますか？",
+    "en": [
+      {
+        "id": "2970698",
+        "text": "Is there any mail for me today?"
+      }
+    ],
+    "vocabIds": [
+      "1289400",
+      "1311140",
+      "1605680"
+    ],
+    "matches": {
+      "1289400": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きょうは"
+        }
+      ],
+      "1311140": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "わたしあて"
+        }
+      ],
+      "1605680": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ゆうびん"
+        }
+      ]
+    }
+  }
+]

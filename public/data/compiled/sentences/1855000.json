@@ -1,0 +1,87 @@
+[
+  {
+    "id": "194004",
+    "original": "もう売り切れてしまったのですが、次回有効券をお渡しいたします。",
+    "en": [
+      {
+        "id": "31173",
+        "text": "It's out of stock, but I can give you a rain check."
+      }
+    ],
+    "indices": "もう 売り切れる{売り切れて} 仕舞う{しまった} のです が[03] 次回 有効 券 を 渡す[03]{お渡し} 致す{いたします}",
+    "vocabIds": [
+      "1473880",
+      "1316470",
+      "1541290",
+      "1855000",
+      "1256730"
+    ],
+    "matches": {
+      "1256730": [
+        {
+          "start": 20,
+          "length": 1,
+          "reading": "けん"
+        }
+      ],
+      "1316470": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "じかい"
+        }
+      ],
+      "1473880": [
+        {
+          "start": 2,
+          "length": 9,
+          "reading": "うりきれてしまった"
+        }
+      ],
+      "1541290": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "ゆうこう"
+        }
+      ],
+      "1855000": [
+        {
+          "start": 23,
+          "length": 2,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10999751",
+    "original": "せめてさっと拭いてから渡しとくれよ。",
+    "en": [
+      {
+        "id": "11687160",
+        "text": "At least give it a quick wipe before giving it to me."
+      }
+    ],
+    "vocabIds": [
+      "1357240",
+      "1855000"
+    ],
+    "matches": {
+      "1357240": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "ふいて"
+        }
+      ],
+      "1855000": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "わたし"
+        }
+      ]
+    }
+  }
+]

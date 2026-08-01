@@ -1,0 +1,55 @@
+[
+  {
+    "id": "146819",
+    "original": "少し仮眠をとるといいですよ。",
+    "en": [
+      {
+        "id": "267742",
+        "text": "A few hours nap will do you good."
+      }
+    ],
+    "indices": "少し 仮眠~ を 摂る{とる} と いい(#2820690)[01] です よ[01]",
+    "vocabIds": [
+      "2679190",
+      "1348870"
+    ],
+    "matches": {
+      "1348870": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "すこし"
+        }
+      ],
+      "2679190": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "かみんをとる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2490824",
+    "original": "仮眠をとることにした。",
+    "en": [
+      {
+        "id": "2592654",
+        "text": "I've decided to take a nap."
+      }
+    ],
+    "vocabIds": [
+      "2679190"
+    ],
+    "matches": {
+      "2679190": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "かみんをとる"
+        }
+      ]
+    }
+  }
+]

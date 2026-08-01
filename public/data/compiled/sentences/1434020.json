@@ -1,0 +1,95 @@
+[
+  {
+    "id": "192549",
+    "original": "ランプが木の枝から吊り下げられた。",
+    "en": [
+      {
+        "id": "29713",
+        "text": "The lamp was suspended from the branch of a tree."
+      }
+    ],
+    "indices": "ランプ(#1140360) が 木(き) の 枝(えだ) から 吊り下げる{吊り下げられた}~",
+    "vocabIds": [
+      "1184170",
+      "1434020",
+      "1534520",
+      "1310530"
+    ],
+    "matches": {
+      "1184170": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "さげ"
+        }
+      ],
+      "1310530": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "えだ"
+        }
+      ],
+      "1434020": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "つり"
+        }
+      ],
+      "1534520": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "き"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2485021",
+    "original": "部屋の天井には電灯が吊られていない。",
+    "en": [
+      {
+        "id": "8305417",
+        "text": "There are no lights hanging from the roof in the room."
+      }
+    ],
+    "vocabIds": [
+      "1499320",
+      "1438340",
+      "1443660",
+      "1434020"
+    ],
+    "matches": {
+      "1434020": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "つら"
+        }
+      ],
+      "1438340": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "てんじょう"
+        }
+      ],
+      "1443660": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "でんとう"
+        }
+      ],
+      "1499320": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "へや"
+        }
+      ]
+    }
+  }
+]

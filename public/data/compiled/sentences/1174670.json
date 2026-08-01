@@ -1,0 +1,187 @@
+[
+  {
+    "id": "75381",
+    "original": "ヘタクソな人は英訳しないでください。英訳依頼者からのお願いです。",
+    "en": [
+      {
+        "id": "328338",
+        "text": "Please don't do translations if you're crap at it. This is a plea from the English translation clients."
+      }
+    ],
+    "indices": "下手くそ[01]{ヘタクソな}~ 人(ひと) は 英訳 為る(する){しないで} 下さい{ください} 英訳 依頼者~ から の お願い[02] です",
+    "vocabIds": [
+      "1155720",
+      "2036870",
+      "1174670",
+      "1580640"
+    ],
+    "matches": {
+      "1155720": [
+        {
+          "start": 20,
+          "length": 3,
+          "reading": "いらいしゃ"
+        }
+      ],
+      "1174670": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "えいやく"
+        },
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "えいやく"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ],
+      "2036870": [
+        {
+          "start": 26,
+          "length": 3,
+          "reading": "おねがい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "150231",
+    "original": "次の文を英訳せよ。",
+    "en": [
+      {
+        "id": "264327",
+        "text": "Put the following sentences into English."
+      }
+    ],
+    "indices": "次(つぎ)[01]{次の} 文(ぶん) を 英訳 為る(する){せよ}",
+    "vocabIds": [
+      "1174670",
+      "1316380",
+      "1505090",
+      "1957010",
+      "2034990"
+    ],
+    "matches": {
+      "1174670": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "えいやく"
+        }
+      ],
+      "1316380": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "つぎ"
+        }
+      ],
+      "1505090": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ぶん"
+        }
+      ],
+      "1957010": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ぶん"
+        }
+      ],
+      "2034990": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ぶん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "219903",
+    "original": "この文を英訳せよ。",
+    "en": [
+      {
+        "id": "56842",
+        "text": "Put this sentence into English."
+      }
+    ],
+    "indices": "此の{この} 文(ぶん) を 英訳 為る(する){せよ}",
+    "vocabIds": [
+      "1174670",
+      "1505090",
+      "1957010",
+      "2034990"
+    ],
+    "matches": {
+      "1174670": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "えいやく"
+        }
+      ],
+      "1505090": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ぶん"
+        }
+      ],
+      "1957010": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ぶん"
+        }
+      ],
+      "2034990": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ぶん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "220228",
+    "original": "この日本語を英訳しなさい。",
+    "en": [
+      {
+        "id": "57547",
+        "text": "Put this Japanese into English."
+      }
+    ],
+    "indices": "此の{この} 日本語 を 英訳~ 為る(する){し} 為さい{なさい}",
+    "vocabIds": [
+      "1464530",
+      "1174670"
+    ],
+    "matches": {
+      "1174670": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "えいやく"
+        }
+      ],
+      "1464530": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "にほんご"
+        }
+      ]
+    }
+  }
+]

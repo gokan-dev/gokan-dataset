@@ -1,0 +1,109 @@
+[
+  {
+    "id": "172459",
+    "original": "今月の電話代見て、目が飛び出た。",
+    "en": [
+      {
+        "id": "242014",
+        "text": "My eyes popped out when I looked at my phone bill this month."
+      }
+    ],
+    "indices": "今月 の 電話 代(だい)[01] 見る{見て} 目が飛び出る{目が飛び出た}",
+    "vocabIds": [
+      "1485360",
+      "2808950",
+      "1289100",
+      "1259290",
+      "1604890"
+    ],
+    "matches": {
+      "1259290": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "みて"
+        }
+      ],
+      "1289100": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こんげつ"
+        }
+      ],
+      "1485360": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "とびでた"
+        }
+      ],
+      "1604890": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "め"
+        }
+      ],
+      "2808950": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "でんわだい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12365481",
+    "original": "配線がコンセントから飛び出ている。",
+    "en": [
+      {
+        "id": "11675799",
+        "text": "Wires were sticking out of sockets."
+      }
+    ],
+    "vocabIds": [
+      "1485360",
+      "1473110"
+    ],
+    "matches": {
+      "1473110": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "はいせん"
+        }
+      ],
+      "1485360": [
+        {
+          "start": 10,
+          "length": 6,
+          "reading": "とびでている"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12365482",
+    "original": "コードがコンセントから飛び出てしまっている。",
+    "en": [
+      {
+        "id": "11675799",
+        "text": "Wires were sticking out of sockets."
+      }
+    ],
+    "vocabIds": [
+      "1485360"
+    ],
+    "matches": {
+      "1485360": [
+        {
+          "start": 11,
+          "length": 10,
+          "reading": "とびでてしまっている"
+        }
+      ]
+    }
+  }
+]

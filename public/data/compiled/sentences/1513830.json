@@ -1,0 +1,80 @@
+[
+  {
+    "id": "221622",
+    "original": "この時計は、一年間の保証付です。",
+    "en": [
+      {
+        "id": "58948",
+        "text": "They guarantee this clock for a year."
+      }
+    ],
+    "indices": "此の{この} 時計 は 一年間 の 保証付~ です",
+    "vocabIds": [
+      "1165570",
+      "1513830",
+      "1316140"
+    ],
+    "matches": {
+      "1165570": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "いちねんかん"
+        }
+      ],
+      "1316140": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "とけい"
+        }
+      ],
+      "1513830": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "ほしょうづけ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "223497",
+    "original": "このテレビは２年間の保障付きです。",
+    "en": [
+      {
+        "id": "60832",
+        "text": "This TV set has a two year guarantee."
+      }
+    ],
+    "indices": "此の{この} テレビ は 年間 の 保証{保障} 付き[01] です",
+    "vocabIds": [
+      "1513830",
+      "1468380",
+      "1461140"
+    ],
+    "matches": {
+      "1461140": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "に"
+        }
+      ],
+      "1468380": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ねんかん"
+        }
+      ],
+      "1513830": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "ほしょうつき"
+        }
+      ]
+    }
+  }
+]

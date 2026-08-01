@@ -1,0 +1,72 @@
+[
+  {
+    "id": "148226",
+    "original": "修理工はエンジンを組み立てた。",
+    "en": [
+      {
+        "id": "266333",
+        "text": "The mechanic assembled the engine."
+      }
+    ],
+    "indices": "修理工~ は エンジン を 組み立てる{組み立てた}",
+    "vocabIds": [
+      "1397580",
+      "1332420"
+    ],
+    "matches": {
+      "1332420": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "しゅうりこう"
+        }
+      ],
+      "1397580": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "くみたてた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "229650",
+    "original": "あの修理工たちは時給一万円ももらっている。",
+    "en": [
+      {
+        "id": "67011",
+        "text": "Those mechanics are paid as much as ten thousand yen per hour."
+      }
+    ],
+    "indices": "彼の(あの){あの} 修理工 達{たち} は 時給~ 一万 円(えん)[01] も 貰う{もらっている}",
+    "vocabIds": [
+      "1332420",
+      "2138590",
+      "1316100"
+    ],
+    "matches": {
+      "1316100": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "じきゅう"
+        }
+      ],
+      "1332420": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "しゅうりこう"
+        }
+      ],
+      "2138590": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "いちまんえん"
+        }
+      ]
+    }
+  }
+]

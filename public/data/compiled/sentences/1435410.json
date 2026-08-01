@@ -1,0 +1,118 @@
+[
+  {
+    "id": "125544",
+    "original": "定価から５％値引きいたします。",
+    "en": [
+      {
+        "id": "278448",
+        "text": "We'll allow a 5 percent discount off list prices."
+      }
+    ],
+    "indices": "定価 から 値引き 致す{いたします}",
+    "vocabIds": [
+      "1600190",
+      "1435410",
+      "1268060"
+    ],
+    "matches": {
+      "1268060": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "ご"
+        }
+      ],
+      "1435410": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ていか"
+        }
+      ],
+      "1600190": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "ねびき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "218537",
+    "original": "これはバーゲン商品なので定価よりやすくなっているんじゃないですか。",
+    "en": [
+      {
+        "id": "55850",
+        "text": "Aren't you selling this at a discount price?"
+      }
+    ],
+    "indices": "此れ[01]{これ} は バーゲン 商品 なので 定価~ より 安い[01]{やすく}~ 成る[01]{なっているん} だ{じゃない} ですか",
+    "vocabIds": [
+      "1347310",
+      "1435410"
+    ],
+    "matches": {
+      "1347310": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "しょうひん"
+        }
+      ],
+      "1435410": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "ていか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11001570",
+    "original": "定価で売ってる店なんて、ここらじゃ見たことない。",
+    "en": [
+      {
+        "id": "11564391",
+        "text": "I've never seen a store around here that sells them at list price."
+      }
+    ],
+    "vocabIds": [
+      "1473950",
+      "1435410",
+      "1259290",
+      "1582120"
+    ],
+    "matches": {
+      "1259290": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "みた"
+        }
+      ],
+      "1435410": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ていか"
+        }
+      ],
+      "1473950": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "うってる"
+        }
+      ],
+      "1582120": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "みせ"
+        }
+      ]
+    }
+  }
+]

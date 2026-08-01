@@ -1,0 +1,100 @@
+[
+  {
+    "id": "82428",
+    "original": "北岳に登るつもりです。",
+    "en": [
+      {
+        "id": "321288",
+        "text": "I'm going to climb Mt. Kitadake."
+      }
+    ],
+    "indices": "に 登る 積もり{つもり} です",
+    "vocabIds": [
+      "1352570",
+      "1520670",
+      "1207210"
+    ],
+    "matches": {
+      "1207210": [
+        {
+          "start": 1,
+          "length": 1,
+          "reading": "だけ"
+        }
+      ],
+      "1352570": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "のぼる"
+        }
+      ],
+      "1520670": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "きた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "210437",
+    "original": "その山を私たちは剣岳と呼ぶ。",
+    "en": [
+      {
+        "id": "47705",
+        "text": "We call the mountain Tsurugidake."
+      },
+      {
+        "id": "879070",
+        "text": "We call this mountain Tsurugidake."
+      }
+    ],
+    "indices": "其の[01]{その} 山(やま)[01] を 私たち は と 呼ぶ",
+    "vocabIds": [
+      "1311300",
+      "1266440",
+      "1302680",
+      "1256750",
+      "1207210"
+    ],
+    "matches": {
+      "1207210": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "だけ"
+        }
+      ],
+      "1256750": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "けん"
+        }
+      ],
+      "1266440": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "よぶ"
+        }
+      ],
+      "1302680": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "やま"
+        }
+      ],
+      "1311300": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ]
+    }
+  }
+]

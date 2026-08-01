@@ -1,0 +1,41 @@
+[
+  {
+    "id": "230678",
+    "original": "あの政治家は水曜日が面会日だ。",
+    "en": [
+      {
+        "id": "68046",
+        "text": "The politician receives on Wednesdays."
+      }
+    ],
+    "indices": "彼の(あの){あの} 政治家 は 水曜日 が 面会日~ だ",
+    "vocabIds": [
+      "1375980",
+      "1372190",
+      "1812130"
+    ],
+    "matches": {
+      "1372190": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "すいようび"
+        }
+      ],
+      "1375980": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "せいじか"
+        }
+      ],
+      "1812130": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "めんかいび"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,166 @@
+[
+  {
+    "id": "76342",
+    "original": "飲む分だけ豆をローストして、ミルで挽くんです。",
+    "en": [
+      {
+        "id": "327378",
+        "text": "We roast just enough beans for the amount we're going to drink, and grind them in the coffee mill."
+      }
+    ],
+    "indices": "飲む[01] 分だけ~ 豆[01]~ を ロースト~ 為る(する){して} ミル[02]~ で(#2028980) 挽く[02] のです{んです}",
+    "vocabIds": [
+      "2000520",
+      "1169870",
+      "1482080",
+      "1450030"
+    ],
+    "matches": {
+      "1169870": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "のむ"
+        }
+      ],
+      "1450030": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "まめ"
+        }
+      ],
+      "1482080": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "ひく"
+        }
+      ],
+      "2000520": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "ぶんだけ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "224896",
+    "original": "マメちゃんがコーヒー豆を挽く為にコーヒーミルを使います。",
+    "en": [
+      {
+        "id": "62231",
+        "text": "Mame uses a coffee mill to grind coffee beans."
+      }
+    ],
+    "indices": "ちゃん が コーヒー豆~ を[01] 挽く[02]~ 為に コーヒーミル を[01] 使う{使います}",
+    "vocabIds": [
+      "1049260",
+      "1305990",
+      "1482080",
+      "1157150"
+    ],
+    "matches": {
+      "1049260": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "こーひーまめ"
+        }
+      ],
+      "1157150": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "ために"
+        }
+      ],
+      "1305990": [
+        {
+          "start": 23,
+          "length": 4,
+          "reading": "つかいます"
+        }
+      ],
+      "1482080": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "ひく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "869549",
+    "original": "私は毎朝自分でコーヒー豆を挽いている。",
+    "en": [
+      {
+        "id": "681104",
+        "text": "I grind my own coffee beans every morning."
+      }
+    ],
+    "vocabIds": [
+      "1049260",
+      "1482080",
+      "2830519",
+      "1524700",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1049260": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "こーひーまめ"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1482080": [
+        {
+          "start": 13,
+          "length": 5,
+          "reading": "ひいている"
+        }
+      ],
+      "1524700": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "まいあさ"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2830519": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "じぶんで"
+        }
+      ]
+    }
+  }
+]

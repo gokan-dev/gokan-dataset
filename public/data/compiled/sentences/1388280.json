@@ -1,0 +1,185 @@
+[
+  {
+    "id": "103035",
+    "original": "彼は先生の先導に従った。",
+    "en": [
+      {
+        "id": "300658",
+        "text": "He followed the lead of our teacher."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 先生(せんせい)[01] の 先導 に 従う{従った}",
+    "vocabIds": [
+      "1335210",
+      "1387990",
+      "1388280",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1335210": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "したがった"
+        }
+      ],
+      "1387990": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "せんせい"
+        }
+      ],
+      "1388280": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "せんどう"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "123563",
+    "original": "道を先導してください。そうすればついて行きます。",
+    "en": [
+      {
+        "id": "280434",
+        "text": "You lead the way and I will follow you."
+      },
+      {
+        "id": "8986907",
+        "text": "You lead the way and I'll follow you."
+      }
+    ],
+    "indices": "道(みち) を 先導 為る(する){して} 下さい{ください} 然うすれば{そうすれば} 付いていく{ついて行きます}",
+    "vocabIds": [
+      "1495580",
+      "1388280",
+      "1454080",
+      "2220470"
+    ],
+    "matches": {
+      "1388280": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "せんどう"
+        }
+      ],
+      "1454080": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "みち"
+        }
+      ],
+      "1495580": [
+        {
+          "start": 16,
+          "length": 7,
+          "reading": "ついていきます"
+        }
+      ],
+      "2220470": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "みち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "212716",
+    "original": "そのパレードは軍楽隊に先導された。",
+    "en": [
+      {
+        "id": "49998",
+        "text": "The parade was led by an army band."
+      }
+    ],
+    "indices": "其の[01]{その} パレード は 軍楽隊~ に 先導~ 為れる{された}",
+    "vocabIds": [
+      "1247790",
+      "1388280"
+    ],
+    "matches": {
+      "1247790": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "ぐんがくたい"
+        }
+      ],
+      "1388280": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "せんどう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1220420",
+    "original": "暴動は南部の国民によって先導された。",
+    "en": [
+      {
+        "id": "1225327",
+        "text": "The revolt was led by the southern citizenry."
+      }
+    ],
+    "vocabIds": [
+      "1519520",
+      "1460530",
+      "1287070",
+      "1388280"
+    ],
+    "matches": {
+      "1287070": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "こくみん"
+        }
+      ],
+      "1388280": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "せんどう"
+        }
+      ],
+      "1460530": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "なんぶ"
+        }
+      ],
+      "1519520": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ぼうどう"
+        }
+      ]
+    }
+  }
+]

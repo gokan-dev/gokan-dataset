@@ -1,0 +1,143 @@
+[
+  {
+    "id": "111440",
+    "original": "彼はなかなかの男前だ。",
+    "en": [
+      {
+        "id": "400911",
+        "text": "He is very handsome."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 中々[01]{なかなか} の 男前~ だ",
+    "vocabIds": [
+      "1420180",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1420180": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "おとこまえ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2060614",
+    "original": "トムは男前だ。",
+    "en": [
+      {
+        "id": "1025172",
+        "text": "Tom is a handsome man."
+      },
+      {
+        "id": "1868206",
+        "text": "Tom is handsome."
+      },
+      {
+        "id": "2967322",
+        "text": "Tom is a good-looking man."
+      },
+      {
+        "id": "2462687",
+        "text": "Tom is a handsome guy."
+      }
+    ],
+    "vocabIds": [
+      "1420180"
+    ],
+    "matches": {
+      "1420180": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "おとこまえ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10839677",
+    "original": "彼、男前よね。",
+    "en": [
+      {
+        "id": "9277024",
+        "text": "He has a handsome face."
+      }
+    ],
+    "vocabIds": [
+      "1420180",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1420180": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "おとこまえ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11017768",
+    "original": "男前ねって、言ったじゃん。",
+    "en": [
+      {
+        "id": "6852309",
+        "text": "You said I was handsome."
+      }
+    ],
+    "vocabIds": [
+      "1587040",
+      "1420180"
+    ],
+    "matches": {
+      "1420180": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おとこまえ"
+        }
+      ],
+      "1587040": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "いったじゃん"
+        }
+      ]
+    }
+  }
+]

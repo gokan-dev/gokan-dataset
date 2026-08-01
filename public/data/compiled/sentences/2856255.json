@@ -1,0 +1,71 @@
+[
+  {
+    "id": "141201",
+    "original": "洗濯物入れてきて。",
+    "en": [
+      {
+        "id": "273371",
+        "text": "Bring the laundry in."
+      },
+      {
+        "id": "8939293",
+        "text": "Bring in the laundry."
+      },
+      {
+        "id": "10736223",
+        "text": "Bring the washing in."
+      }
+    ],
+    "indices": "洗濯物 入れる{入れて} 来る(くる){きて}",
+    "vocabIds": [
+      "2856255"
+    ],
+    "matches": {
+      "2856255": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "せんたくぶついれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9835149",
+    "original": "雨が降る前に洗濯物入れとくよ。",
+    "en": [
+      {
+        "id": "26852",
+        "text": "I'll take in the washing before it rains."
+      }
+    ],
+    "vocabIds": [
+      "2856255",
+      "2851949",
+      "1392590"
+    ],
+    "matches": {
+      "1392590": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "まえに"
+        }
+      ],
+      "2851949": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "あめがふる"
+        }
+      ],
+      "2856255": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "せんたくぶついれ"
+        }
+      ]
+    }
+  }
+]

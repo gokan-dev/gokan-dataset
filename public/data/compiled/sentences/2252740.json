@@ -1,0 +1,80 @@
+[
+  {
+    "id": "169003",
+    "original": "使いの途中道草をくうな。",
+    "en": [
+      {
+        "id": "245484",
+        "text": "Don't delay on this errand."
+      }
+    ],
+    "indices": "使い[01]~ の 途中 道草を食う{道草をくう} な[01]",
+    "vocabIds": [
+      "2252740",
+      "1305720",
+      "1582200"
+    ],
+    "matches": {
+      "1305720": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "つかい"
+        }
+      ],
+      "1582200": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "とちゅう"
+        }
+      ],
+      "2252740": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "みちくさをくう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "183315",
+    "original": "帰り道で道草を食うんじゃないよ。",
+    "en": [
+      {
+        "id": "20438",
+        "text": "Don't fool around on your way home."
+      },
+      {
+        "id": "938370",
+        "text": "Don't play around on your way back home."
+      },
+      {
+        "id": "938371",
+        "text": "Don't play around on your way home."
+      }
+    ],
+    "indices": "帰り道 で(#2028980) 道草を食う~ ん[03] だ{じゃない} よ[01]",
+    "vocabIds": [
+      "2252740",
+      "1221260"
+    ],
+    "matches": {
+      "1221260": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "かえりみち"
+        }
+      ],
+      "2252740": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "みちくさをくう"
+        }
+      ]
+    }
+  }
+]

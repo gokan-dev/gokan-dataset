@@ -1,0 +1,375 @@
+[
+  {
+    "id": "5335",
+    "original": "ごめん、お釣りが無い。",
+    "en": [
+      {
+        "id": "2425",
+        "text": "I'm sorry, I don't have change."
+      }
+    ],
+    "vocabIds": [
+      "1270550",
+      "1529520"
+    ],
+    "matches": {
+      "1270550": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "おつり"
+        }
+      ],
+      "1529520": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "ない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "79242",
+    "original": "有料高速道路の通行料金を払うにはお釣りがあってはいけません。",
+    "en": [
+      {
+        "id": "324475",
+        "text": "You need to have exact change to pay the toll of the expressway."
+      }
+    ],
+    "indices": "有料 高速道路 の 通行 料金 を 払う[01] には お釣り が[01] 有る{あって} は 行けない[02]{いけません}",
+    "vocabIds": [
+      "1283720",
+      "2860001",
+      "1270550",
+      "1541690",
+      "1501620"
+    ],
+    "matches": {
+      "1270550": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "おつり"
+        }
+      ],
+      "1283720": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "こうそくどうろ"
+        }
+      ],
+      "1501620": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "はらう"
+        }
+      ],
+      "1541690": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ゆうりょう"
+        }
+      ],
+      "2860001": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "つうこうりょうきん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "226815",
+    "original": "お釣りは取っておいて。",
+    "en": [
+      {
+        "id": "357219",
+        "text": "Keep the change."
+      }
+    ],
+    "indices": "お釣り は 取る{取って} 置く[09]{おいて}",
+    "vocabIds": [
+      "1326980",
+      "1270550"
+    ],
+    "matches": {
+      "1270550": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "おつり"
+        }
+      ],
+      "1326980": [
+        {
+          "start": 4,
+          "length": 6,
+          "reading": "とっておいて"
+        }
+      ]
+    }
+  },
+  {
+    "id": "235836",
+    "original": "１ドルお釣りをくださいな。",
+    "en": [
+      {
+        "id": "73217",
+        "text": "Give me $1.00 back, please."
+      }
+    ],
+    "indices": "弗[01]{ドル} お釣り を 下さい[01]{ください} な",
+    "vocabIds": [
+      "1270550",
+      "1160790"
+    ],
+    "matches": {
+      "1160790": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "いち"
+        }
+      ],
+      "1270550": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "おつり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2662274",
+    "original": "お釣り・カードの取り忘れにご注意ください。",
+    "en": [
+      {
+        "id": "2665167",
+        "text": "Please be careful not to forget your card or your change in the machine."
+      }
+    ],
+    "vocabIds": [
+      "2850261",
+      "1270550",
+      "1519210",
+      "1326980"
+    ],
+    "matches": {
+      "1270550": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "おつり"
+        }
+      ],
+      "1326980": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "とり"
+        }
+      ],
+      "1519210": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "わすれ"
+        }
+      ],
+      "2850261": [
+        {
+          "start": 13,
+          "length": 7,
+          "reading": "ごちゅういください"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9314689",
+    "original": "お釣りは取っといて！",
+    "en": [
+      {
+        "id": "39748",
+        "text": "Keep the change!"
+      }
+    ],
+    "vocabIds": [
+      "1326980",
+      "1270550"
+    ],
+    "matches": {
+      "1270550": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "おつり"
+        }
+      ],
+      "1326980": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "とっといて"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9314776",
+    "original": "お釣りはいいです。",
+    "en": [
+      {
+        "id": "357219",
+        "text": "Keep the change."
+      }
+    ],
+    "vocabIds": [
+      "1270550"
+    ],
+    "matches": {
+      "1270550": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "おつり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9314777",
+    "original": "お釣りは結構です。",
+    "en": [
+      {
+        "id": "357219",
+        "text": "Keep the change."
+      }
+    ],
+    "vocabIds": [
+      "1270550",
+      "1254760"
+    ],
+    "matches": {
+      "1254760": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "けっこう"
+        }
+      ],
+      "1270550": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "おつり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10796031",
+    "original": "「ラッキーじゃん！ お釣りがちょうど256円だよ」「ちょうどってどこが？」「ちょうどぴったし、2の8乗」",
+    "en": [
+      {
+        "id": "2592614",
+        "text": "\"You're lucky! Your change comes to exactly 256 yen.\" \"What do you mean by exactly?\" \"It's exactly two to the power of eight.\""
+      }
+    ],
+    "vocabIds": [
+      "1270550",
+      "1175570",
+      "1216250",
+      "2080750"
+    ],
+    "matches": {
+      "1175570": [
+        {
+          "start": 21,
+          "length": 1,
+          "reading": "えん"
+        }
+      ],
+      "1216250": [
+        {
+          "start": 21,
+          "length": 1,
+          "reading": "えん"
+        }
+      ],
+      "1270550": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "おつり"
+        }
+      ],
+      "2080750": [
+        {
+          "start": 50,
+          "length": 1,
+          "reading": "じょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11512777",
+    "original": "「お釣りは取っといて」「ありがとう」",
+    "en": [
+      {
+        "id": "6469314",
+        "text": "\"Keep the change.\" \"Thank you.\""
+      }
+    ],
+    "vocabIds": [
+      "1326980",
+      "1270550"
+    ],
+    "matches": {
+      "1270550": [
+        {
+          "start": 1,
+          "length": 3,
+          "reading": "おつり"
+        }
+      ],
+      "1326980": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "とっといて"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11512779",
+    "original": "「お釣りはいいです」「ありがとうございます」",
+    "en": [
+      {
+        "id": "6469314",
+        "text": "\"Keep the change.\" \"Thank you.\""
+      }
+    ],
+    "vocabIds": [
+      "1270550"
+    ],
+    "matches": {
+      "1270550": [
+        {
+          "start": 1,
+          "length": 3,
+          "reading": "おつり"
+        }
+      ]
+    }
+  }
+]

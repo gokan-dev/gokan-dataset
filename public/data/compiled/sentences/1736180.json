@@ -1,0 +1,88 @@
+[
+  {
+    "id": "78432",
+    "original": "嵐の間は船客はみな船酔いした。",
+    "en": [
+      {
+        "id": "325284",
+        "text": "All the passengers got seasick during the storm."
+      }
+    ],
+    "indices": "嵐 の 間(あいだ) は 船客 は 皆{みな} 船酔い 為る(する){した}",
+    "vocabIds": [
+      "1392030",
+      "1736180",
+      "1549340",
+      "1215230",
+      "1630250"
+    ],
+    "matches": {
+      "1215230": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ま"
+        }
+      ],
+      "1392030": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "せんよい"
+        }
+      ],
+      "1549340": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "あらし"
+        }
+      ],
+      "1630250": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ま"
+        }
+      ],
+      "1736180": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "せんきゃく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "141079",
+    "original": "船客のブリッジ立ち入り禁止。",
+    "en": [
+      {
+        "id": "273493",
+        "text": "No passengers are allowed on the bridge."
+      }
+    ],
+    "indices": "船客~ の ブリッジ[01]~ 立ち入り禁止",
+    "vocabIds": [
+      "1597010",
+      "1736180"
+    ],
+    "matches": {
+      "1597010": [
+        {
+          "start": 7,
+          "length": 6,
+          "reading": "たちいりきんし"
+        }
+      ],
+      "1736180": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "せんきゃく"
+        }
+      ]
+    }
+  }
+]

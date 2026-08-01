@@ -1,0 +1,109 @@
+[
+  {
+    "id": "107464",
+    "original": "彼は交通事故で軽傷を負った。",
+    "en": [
+      {
+        "id": "296222",
+        "text": "He was slightly injured in a traffic accident."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 交通事故 で(#2028980) 軽傷~ を 負う[03]{負った}",
+    "vocabIds": [
+      "1272350",
+      "1497930",
+      "1252720",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1252720": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "けいしょう"
+        }
+      ],
+      "1272350": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "こうつうじこ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1497930": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "おった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11559533",
+    "original": "軽傷です。",
+    "en": [
+      {
+        "id": "9678971",
+        "text": "It's a minor wound."
+      },
+      {
+        "id": "12453276",
+        "text": "This is a minor injury."
+      }
+    ],
+    "vocabIds": [
+      "1252720"
+    ],
+    "matches": {
+      "1252720": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "けいしょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10987737",
+    "original": "軽傷ですんでよかったよ。",
+    "en": [
+      {
+        "id": "13712205",
+        "text": "It was a minor injury, which was good."
+      },
+      {
+        "id": "13712208",
+        "text": "I was glad it turned out to be a trivial injury."
+      }
+    ],
+    "vocabIds": [
+      "1252720"
+    ],
+    "matches": {
+      "1252720": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "けいしょう"
+        }
+      ]
+    }
+  }
+]

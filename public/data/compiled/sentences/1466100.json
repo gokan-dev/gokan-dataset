@@ -1,0 +1,134 @@
+[
+  {
+    "id": "141090",
+    "original": "船は明朝入港する予定です。",
+    "en": [
+      {
+        "id": "273482",
+        "text": "The ship is arriving in harbor tomorrow morning."
+      }
+    ],
+    "indices": "船(ふね)[01] は 明朝(みょうちょう) 入港~ 為る(する){する} 予定 です",
+    "vocabIds": [
+      "1532540",
+      "1466100",
+      "1543240",
+      "1602800"
+    ],
+    "matches": {
+      "1466100": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "にゅうこう"
+        }
+      ],
+      "1532540": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "みょうちょう"
+        }
+      ],
+      "1543240": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "よてい"
+        }
+      ],
+      "1602800": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ふね"
+        }
+      ]
+    }
+  },
+  {
+    "id": "166882",
+    "original": "私たちの船は入港したとき、いかだも同然であった。",
+    "en": [
+      {
+        "id": "247620",
+        "text": "When our ship entered the port, she was no better than a raft."
+      }
+    ],
+    "indices": "私たち の 船(ふね)[01] は 入港 為る(する){した} 時(とき){とき} 筏{いかだ} も 同然 である{であった}",
+    "vocabIds": [
+      "1311300",
+      "1466100",
+      "1452950",
+      "1602800"
+    ],
+    "matches": {
+      "1311300": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1452950": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "どうぜん"
+        }
+      ],
+      "1466100": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "にゅうこう"
+        }
+      ],
+      "1602800": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "ふね"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2090906",
+    "original": "1853年、ペリーはついに東京湾へ入港した。",
+    "en": [
+      {
+        "id": "807505",
+        "text": "Perry finally sailed into Tokyo Bay in 1853."
+      }
+    ],
+    "vocabIds": [
+      "1447760",
+      "1466100",
+      "2084840"
+    ],
+    "matches": {
+      "1447760": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "とうきょうわん"
+        }
+      ],
+      "1466100": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "にゅうこう"
+        }
+      ],
+      "2084840": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "ねん"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,186 @@
+[
+  {
+    "id": "226934",
+    "original": "お前は恩を仇で返したな。",
+    "en": [
+      {
+        "id": "25481",
+        "text": "You bit the hand that fed you."
+      }
+    ],
+    "indices": "お前[01] は 恩~ を 仇(あだ)[03] で(#2028980) 返す[03]{返した}~ な[04]",
+    "vocabIds": [
+      "1512130",
+      "1002290",
+      "1183090",
+      "1577910",
+      "1582000"
+    ],
+    "matches": {
+      "1002290": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おまえ"
+        }
+      ],
+      "1183090": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "おん"
+        }
+      ],
+      "1512130": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "かえした"
+        }
+      ],
+      "1577910": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "きゅう"
+        }
+      ],
+      "1582000": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "きゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "390036",
+    "original": "猫は三年の恩を三日で忘れる、犬は三日飼えば三年恩を忘れぬ。",
+    "en": [
+      {
+        "id": "390037",
+        "text": "A cat will forget three years of kindness in three days, feed a dog for three days and he will remember it for three years."
+      }
+    ],
+    "vocabIds": [
+      "1519210",
+      "1312970",
+      "1814070",
+      "1301330",
+      "1467640",
+      "1183090",
+      "1258330"
+    ],
+    "matches": {
+      "1183090": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "おん"
+        },
+        {
+          "start": 23,
+          "length": 1,
+          "reading": "おん"
+        }
+      ],
+      "1258330": [
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "いぬ"
+        }
+      ],
+      "1301330": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "さんにち"
+        },
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "さんにち"
+        }
+      ],
+      "1312970": [
+        {
+          "start": 18,
+          "length": 3,
+          "reading": "かえば"
+        }
+      ],
+      "1467640": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ねこ"
+        }
+      ],
+      "1519210": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "わすれる"
+        },
+        {
+          "start": 25,
+          "length": 3,
+          "reading": "わすれぬ"
+        }
+      ],
+      "1814070": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "さんねん"
+        },
+        {
+          "start": 21,
+          "length": 2,
+          "reading": "さんねん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "188338",
+    "original": "恩をあだで返すな。",
+    "en": [
+      {
+        "id": "13079746",
+        "text": "Don't replace kindness with evil."
+      },
+      {
+        "id": "13079747",
+        "text": "Don't return evil for good."
+      },
+      {
+        "id": "13079749",
+        "text": "Don't be mean to those who treat you well."
+      }
+    ],
+    "indices": "恩 を 仇(あだ)[03]{あだ} で(#2028980) 返す な[01]",
+    "vocabIds": [
+      "1512130",
+      "1183090"
+    ],
+    "matches": {
+      "1183090": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "おん"
+        }
+      ],
+      "1512130": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "かえす"
+        }
+      ]
+    }
+  }
+]

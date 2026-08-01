@@ -1,0 +1,167 @@
+[
+  {
+    "id": "146173",
+    "original": "乗り場へはどうやっておりるんですか。",
+    "en": [
+      {
+        "id": "268389",
+        "text": "How do I get down to the trains?"
+      }
+    ],
+    "indices": "乗り場 へ は どうやって 降りる[01]{おりる} のです{んです} か",
+    "vocabIds": [
+      "1600520"
+    ],
+    "matches": {
+      "1600520": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "のりば"
+        }
+      ]
+    }
+  },
+  {
+    "id": "146174",
+    "original": "乗り場は何番線ですか。",
+    "en": [
+      {
+        "id": "268388",
+        "text": "What gate number does the bus leave from?"
+      }
+    ],
+    "indices": "乗り場 は 何(なに)[01] 番線 ですか",
+    "vocabIds": [
+      "1600520",
+      "1482330",
+      "1577100"
+    ],
+    "matches": {
+      "1482330": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ばんせん"
+        }
+      ],
+      "1577100": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "なん"
+        }
+      ],
+      "1600520": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "のりば"
+        }
+      ]
+    }
+  },
+  {
+    "id": "179343",
+    "original": "空港バスの乗り場はどこですか。",
+    "en": [
+      {
+        "id": "18200",
+        "text": "Where do I get an airport bus?"
+      }
+    ],
+    "indices": "空港 バス(#1098390) の 乗り場~ は 何処{どこ} ですか",
+    "vocabIds": [
+      "1600520",
+      "1245570"
+    ],
+    "matches": {
+      "1245570": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "くうこう"
+        }
+      ],
+      "1600520": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "のりば"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1065138",
+    "original": "７番バスの乗り場はどこですか。",
+    "en": [
+      {
+        "id": "38207",
+        "text": "Please tell me where to take bus No. 7."
+      },
+      {
+        "id": "1065139",
+        "text": "Where do I get on the number 7 bus?"
+      }
+    ],
+    "vocabIds": [
+      "1600520",
+      "1319210",
+      "2022640",
+      "2199920"
+    ],
+    "matches": {
+      "1319210": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "なな"
+        }
+      ],
+      "1600520": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "のりば"
+        }
+      ],
+      "2022640": [
+        {
+          "start": 1,
+          "length": 1,
+          "reading": "ばん"
+        }
+      ],
+      "2199920": [
+        {
+          "start": 1,
+          "length": 1,
+          "reading": "ばん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1484614",
+    "original": "ここにはバスの乗り場がある。",
+    "en": [
+      {
+        "id": "880585",
+        "text": "There's a bus stop here."
+      }
+    ],
+    "vocabIds": [
+      "1600520"
+    ],
+    "matches": {
+      "1600520": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "のりば"
+        }
+      ]
+    }
+  }
+]

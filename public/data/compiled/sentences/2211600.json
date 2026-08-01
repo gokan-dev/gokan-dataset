@@ -1,0 +1,759 @@
+[
+  {
+    "id": "89987",
+    "original": "彼女は今日は気分が悪い。",
+    "en": [
+      {
+        "id": "313728",
+        "text": "She feels bad today."
+      }
+    ],
+    "indices": "彼女[01] は 今日 は 気分が悪い",
+    "vocabIds": [
+      "2211600",
+      "1289400",
+      "1483150"
+    ],
+    "matches": {
+      "1289400": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "きょうは"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "2211600": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "きぶんがわるい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "107080",
+    "original": "彼は今日は気分が悪いため出社できません。",
+    "en": [
+      {
+        "id": "296606",
+        "text": "He cannot come to the office today as he is indisposed."
+      },
+      {
+        "id": "404644",
+        "text": "Since he doesn't feel well today, he can't come to the office."
+      },
+      {
+        "id": "404645",
+        "text": "He can't come to the office today because he doesn't feel well."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 今日 は 気分が悪い 為(ため){ため} 出社 出来る{できません}",
+    "vocabIds": [
+      "2211600",
+      "1289400",
+      "1339150",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1289400": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "きょうは"
+        }
+      ],
+      "1339150": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "しゅっしゃ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "2211600": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "きぶんがわるい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "136932",
+    "original": "誰か気分が悪いのですか。",
+    "en": [
+      {
+        "id": "276304",
+        "text": "Does anyone feel sick?"
+      }
+    ],
+    "indices": "誰か 気分が悪い のです か",
+    "vocabIds": [
+      "2211600",
+      "1416840"
+    ],
+    "matches": {
+      "1416840": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "だれか"
+        }
+      ],
+      "2211600": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "きぶんがわるい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "145924",
+    "original": "食べ過ぎて気分が悪い。",
+    "en": [
+      {
+        "id": "268638",
+        "text": "I ate myself sick."
+      }
+    ],
+    "indices": "食べ過ぎる{食べ過ぎて} 気分が悪い",
+    "vocabIds": [
+      "2211600",
+      "1358280"
+    ],
+    "matches": {
+      "1358280": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "たべすぎて"
+        }
+      ],
+      "2211600": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "きぶんがわるい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "155179",
+    "original": "私は大変気分が悪い。ゲロをはきたいです。",
+    "en": [
+      {
+        "id": "259360",
+        "text": "I feel very sick. I want to throw up."
+      }
+    ],
+    "indices": "私(わたし)[01] は 大変 気分が悪い ゲロを吐く{ゲロをはき}~ たい[01] です",
+    "vocabIds": [
+      "2211600",
+      "1415000",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1415000": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "たいへん"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2211600": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "きぶんがわるい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1116820",
+    "original": "気分が悪い。",
+    "en": [
+      {
+        "id": "256798",
+        "text": "I'm feeling sick."
+      },
+      {
+        "id": "759379",
+        "text": "I feel sick."
+      },
+      {
+        "id": "1605758",
+        "text": "I feel unwell."
+      },
+      {
+        "id": "2245737",
+        "text": "I feel bad."
+      },
+      {
+        "id": "2275999",
+        "text": "I don't feel very good."
+      },
+      {
+        "id": "2276000",
+        "text": "I don't feel very well."
+      },
+      {
+        "id": "20288",
+        "text": "I'm not feeling well."
+      },
+      {
+        "id": "3930024",
+        "text": "I don't feel too well."
+      },
+      {
+        "id": "1717",
+        "text": "I don't feel well."
+      },
+      {
+        "id": "6532441",
+        "text": "I feel lousy."
+      }
+    ],
+    "indices": "気分が悪い",
+    "vocabIds": [
+      "2211600"
+    ],
+    "matches": {
+      "2211600": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "きぶんがわるい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "169933",
+    "original": "昨日より今日のほうがずっと気分が悪い。",
+    "en": [
+      {
+        "id": "244553",
+        "text": "I feel much worse today than yesterday."
+      }
+    ],
+    "indices": "昨日 より 今日 の 方(ほう){ほう} が ずっと 気分が悪い",
+    "vocabIds": [
+      "2211600",
+      "1579260",
+      "1579110"
+    ],
+    "matches": {
+      "1579110": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "きょう"
+        }
+      ],
+      "1579260": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きのう"
+        }
+      ],
+      "2211600": [
+        {
+          "start": 13,
+          "length": 5,
+          "reading": "きぶんがわるい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "171579",
+    "original": "今日は少し気分が悪い。",
+    "en": [
+      {
+        "id": "242896",
+        "text": "I am a little out of sorts today."
+      }
+    ],
+    "indices": "今日 は 少し 気分が悪い",
+    "vocabIds": [
+      "2211600",
+      "1289400",
+      "1348870"
+    ],
+    "matches": {
+      "1289400": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きょうは"
+        }
+      ],
+      "1348870": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "すこし"
+        }
+      ],
+      "2211600": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "きぶんがわるい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "183174",
+    "original": "気分が悪いんですか？",
+    "en": [
+      {
+        "id": "20295",
+        "text": "Do you feel sick?"
+      }
+    ],
+    "indices": "貴方(あなた)[01]{あなた} 気分が悪い のです{んです} か",
+    "vocabIds": [
+      "2211600"
+    ],
+    "matches": {
+      "2211600": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "きぶんがわるい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "183175",
+    "original": "気分が悪いので薬をください。",
+    "en": [
+      {
+        "id": "20297",
+        "text": "I don't feel well. Could you give me some medicine?"
+      },
+      {
+        "id": "1981841",
+        "text": "I don't feel well. Please give me some medicine."
+      }
+    ],
+    "indices": "気分が悪い ので 薬(くすり)[01] を 下さい[01]{ください}",
+    "vocabIds": [
+      "2211600",
+      "1538160"
+    ],
+    "matches": {
+      "1538160": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "くすり"
+        }
+      ],
+      "2211600": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "きぶんがわるい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "183176",
+    "original": "気分が悪いので家にいた。",
+    "en": [
+      {
+        "id": "20298",
+        "text": "Not being well, she stayed home."
+      }
+    ],
+    "indices": "気分が悪い ので 家(いえ)[01] に 居る(いる)[02]{いた}",
+    "vocabIds": [
+      "2211600",
+      "1191730",
+      "2098290",
+      "2082160",
+      "2220300"
+    ],
+    "matches": {
+      "1191730": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ],
+      "2082160": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ],
+      "2098290": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ],
+      "2211600": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "きぶんがわるい"
+        }
+      ],
+      "2220300": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "183177",
+    "original": "気分が悪いけどやはり出かけるつもりです。",
+    "en": [
+      {
+        "id": "20299",
+        "text": "I'm feeling ill, but I intend to go out anyhow."
+      }
+    ],
+    "indices": "気分が悪い けど 矢張り{やはり} 出かける 積もり{つもり} です",
+    "vocabIds": [
+      "2211600",
+      "1598550"
+    ],
+    "matches": {
+      "1598550": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "でかける"
+        }
+      ],
+      "2211600": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "きぶんがわるい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "199018",
+    "original": "なんか今日は気分が悪いな。",
+    "en": [
+      {
+        "id": "36215",
+        "text": "I'm kind of sick today."
+      }
+    ],
+    "indices": "なんか 今日 は 気分が悪い な",
+    "vocabIds": [
+      "2211600",
+      "1289400"
+    ],
+    "matches": {
+      "1289400": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "きょうは"
+        }
+      ],
+      "2211600": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "きぶんがわるい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214199",
+    "original": "すみません、気分が悪いのですが。",
+    "en": [
+      {
+        "id": "51488",
+        "text": "Excuse me, but I feel sick."
+      }
+    ],
+    "indices": "済みません{すみません} 気分が悪い のです が[03]",
+    "vocabIds": [
+      "2211600"
+    ],
+    "matches": {
+      "2211600": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "きぶんがわるい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "234194",
+    "original": "あなたがそんなに気分が悪いなんて気づかなかった。",
+    "en": [
+      {
+        "id": "71568",
+        "text": "I wasn't aware that you were so ill."
+      },
+      {
+        "id": "1318807",
+        "text": "I wasn't aware that you were feeling that bad."
+      },
+      {
+        "id": "1318812",
+        "text": "I wasn't aware that you were feeling so bad."
+      },
+      {
+        "id": "5259934",
+        "text": "I didn't realize that you were feeling so bad."
+      }
+    ],
+    "indices": "貴方(あなた)[01]{あなた} が そんなに 気分が悪い なんて[01] 気付く{気づかなかった}",
+    "vocabIds": [
+      "1591330",
+      "2211600"
+    ],
+    "matches": {
+      "1591330": [
+        {
+          "start": 16,
+          "length": 7,
+          "reading": "きづかなかった"
+        }
+      ],
+      "2211600": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "きぶんがわるい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "752231",
+    "original": "気分が悪いです。",
+    "en": [
+      {
+        "id": "750661",
+        "text": "I don't feel so good."
+      }
+    ],
+    "vocabIds": [
+      "2211600"
+    ],
+    "matches": {
+      "2211600": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "きぶんがわるい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1643728",
+    "original": "ひどく気分が悪い。吐きそうだ。",
+    "en": [
+      {
+        "id": "259360",
+        "text": "I feel very sick. I want to throw up."
+      },
+      {
+        "id": "9634989",
+        "text": "I feel very sick. I think I'm going to throw up."
+      }
+    ],
+    "vocabIds": [
+      "2211600",
+      "2646460"
+    ],
+    "matches": {
+      "2211600": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "きぶんがわるい"
+        }
+      ],
+      "2646460": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "はきそうだ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8612417",
+    "original": "気分が悪いの？",
+    "en": [
+      {
+        "id": "3658435",
+        "text": "Are you not feeling well?"
+      }
+    ],
+    "vocabIds": [
+      "2211600"
+    ],
+    "matches": {
+      "2211600": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "きぶんがわるい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10104842",
+    "original": "気分が悪い人いる？",
+    "en": [
+      {
+        "id": "276304",
+        "text": "Does anyone feel sick?"
+      }
+    ],
+    "vocabIds": [
+      "2211600",
+      "1580640"
+    ],
+    "matches": {
+      "1580640": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ],
+      "2211600": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "きぶんがわるい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10303089",
+    "original": "今日は気分が悪いんだよ。",
+    "en": [
+      {
+        "id": "662613",
+        "text": "I feel bad today."
+      }
+    ],
+    "vocabIds": [
+      "2211600",
+      "1289400"
+    ],
+    "matches": {
+      "1289400": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きょうは"
+        }
+      ],
+      "2211600": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "きぶんがわるい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10570921",
+    "original": "まだ気分が悪いの？",
+    "en": [
+      {
+        "id": "6350846",
+        "text": "Are you still not feeling well?"
+      }
+    ],
+    "vocabIds": [
+      "2211600"
+    ],
+    "matches": {
+      "2211600": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "きぶんがわるい"
+        }
+      ]
+    }
+  }
+]

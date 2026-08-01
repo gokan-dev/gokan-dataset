@@ -1,0 +1,95 @@
+[
+  {
+    "id": "88581",
+    "original": "彼女は心労に打ち勝てなかった。",
+    "en": [
+      {
+        "id": "315126",
+        "text": "She could not cope with anxiety."
+      }
+    ],
+    "indices": "彼女[01] は 心労~ に 打ち勝つ[02]{打ち勝てなかった}",
+    "vocabIds": [
+      "1483150",
+      "1361080"
+    ],
+    "matches": {
+      "1361080": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "しんろう"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10094216",
+    "original": "過労と心労で彼は体調を崩してしまった。",
+    "en": [
+      {
+        "id": "18375",
+        "text": "Toil and worry caused his health to break down."
+      }
+    ],
+    "vocabIds": [
+      "1516260",
+      "1196490",
+      "1361080",
+      "1409610",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1196490": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かろう"
+        }
+      ],
+      "1361080": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "しんろう"
+        }
+      ],
+      "1409610": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "たいちょう"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1516260": [
+        {
+          "start": 11,
+          "length": 7,
+          "reading": "くずしてしまった"
+        }
+      ]
+    }
+  }
+]

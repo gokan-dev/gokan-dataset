@@ -1,0 +1,485 @@
+[
+  {
+    "id": "154584",
+    "original": "私は彼がこの電話を私的用件で使うのがいやだ。",
+    "en": [
+      {
+        "id": "259956",
+        "text": "I object to his making private calls on this phone."
+      }
+    ],
+    "indices": "私(わたし)[01] は 彼(かれ) が 此の{この} 電話 を 私的(してき) 用件 で(#2028980) 使う の が 嫌[01]{いや} だ",
+    "vocabIds": [
+      "1443840",
+      "1311330",
+      "2150160",
+      "1546250",
+      "1305990",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1305990": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "つかう"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1311330": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "してき"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1443840": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "でんわ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1546250": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "ようけん"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2150160": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "してき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "191515",
+    "original": "挨拶抜きでいきなり用件を切り出す。",
+    "en": [
+      {
+        "id": "28678",
+        "text": "Skip the pleasantries and get down to business."
+      }
+    ],
+    "indices": "挨拶[01] 抜き[01] で(#2028980) 行成{いきなり} 用件 を 切り出す[02]~",
+    "vocabIds": [
+      "1580950",
+      "1151120",
+      "2009330",
+      "1546250"
+    ],
+    "matches": {
+      "1151120": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あいさつ"
+        }
+      ],
+      "1546250": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "ようけん"
+        }
+      ],
+      "1580950": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "きりだす"
+        }
+      ],
+      "2009330": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ぬき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "199354",
+    "original": "ナイネックスです。緊急の用件ですか。",
+    "en": [
+      {
+        "id": "36556",
+        "text": "NYNEX, is this an emergency?"
+      }
+    ],
+    "indices": "です 緊急 の 用件 ですか",
+    "vocabIds": [
+      "1241850",
+      "1546250"
+    ],
+    "matches": {
+      "1241850": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "きんきゅう"
+        }
+      ],
+      "1546250": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "ようけん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "200377",
+    "original": "どのようなご用件でいらっしゃいましたか。",
+    "en": [
+      {
+        "id": "16502",
+        "text": "What has brought you here?"
+      }
+    ],
+    "indices": "何の様{どのような} 御(ご){ご} 用件 で(#2028980) 居らっしゃる(いらっしゃる){いらっしゃいました} か",
+    "vocabIds": [
+      "1546250"
+    ],
+    "matches": {
+      "1546250": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ようけん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "206265",
+    "original": "その用件は明日まで待てますか。",
+    "en": [
+      {
+        "id": "43511",
+        "text": "Can the matter wait till tomorrow?"
+      }
+    ],
+    "indices": "其の[01]{その} 用件~ は 明日 迄{まで} 待つ[01]{待てます} か",
+    "vocabIds": [
+      "1546250",
+      "1584660"
+    ],
+    "matches": {
+      "1546250": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ようけん"
+        }
+      ],
+      "1584660": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "あした"
+        }
+      ]
+    }
+  },
+  {
+    "id": "216994",
+    "original": "ご用件をうけたまわりましょうか。",
+    "en": [
+      {
+        "id": "456357",
+        "text": "May I help you?"
+      }
+    ],
+    "indices": "御(ご){ご} 用件 を 承る[02]{うけたまわり} ましょうか",
+    "vocabIds": [
+      "1546250"
+    ],
+    "matches": {
+      "1546250": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "ようけん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "216995",
+    "original": "ご用件は？",
+    "en": [
+      {
+        "id": "456357",
+        "text": "May I help you?"
+      }
+    ],
+    "indices": "御(ご){ご} 用件 は",
+    "vocabIds": [
+      "1546250"
+    ],
+    "matches": {
+      "1546250": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "ようけん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3985798",
+    "original": "この通話は、サービス向上およびトレーニングのためにモニターまたは録音されることがあります。ご用件は何でしょう？",
+    "en": [
+      {
+        "id": "3985795",
+        "text": "This call maybe monitored or recorded for quality assurance or training purpose. How may I help you?"
+      }
+    ],
+    "vocabIds": [
+      "1433610",
+      "1277250",
+      "1561590",
+      "1546250",
+      "1577100"
+    ],
+    "matches": {
+      "1277250": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "こうじょう"
+        }
+      ],
+      "1433610": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "つうわ"
+        }
+      ],
+      "1546250": [
+        {
+          "start": 46,
+          "length": 2,
+          "reading": "ようけん"
+        }
+      ],
+      "1561590": [
+        {
+          "start": 32,
+          "length": 2,
+          "reading": "ろくおん"
+        }
+      ],
+      "1577100": [
+        {
+          "start": 49,
+          "length": 1,
+          "reading": "なに"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9323502",
+    "original": "ご用件は伺っておりますか？",
+    "en": [
+      {
+        "id": "54303",
+        "text": "Are you being waited on?"
+      },
+      {
+        "id": "54304",
+        "text": "Have you been waited on?"
+      }
+    ],
+    "vocabIds": [
+      "1305700",
+      "1546250"
+    ],
+    "matches": {
+      "1305700": [
+        {
+          "start": 4,
+          "length": 7,
+          "reading": "うかがっております"
+        }
+      ],
+      "1546250": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "ようけん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11013874",
+    "original": "本日はどのようなご用件でしょうか？",
+    "en": [
+      {
+        "id": "11014364",
+        "text": "How may we help you today?"
+      },
+      {
+        "id": "3819511",
+        "text": "How can I help you today?"
+      },
+      {
+        "id": "11014362",
+        "text": "How may I help you today?"
+      }
+    ],
+    "vocabIds": [
+      "1523110",
+      "1546250"
+    ],
+    "matches": {
+      "1523110": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ほんじつ"
+        }
+      ],
+      "1546250": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "ようけん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11483400",
+    "original": "ただいま留守にしております。ピーッという音が鳴りましたら、ご用件をお話しください。",
+    "en": [
+      {
+        "id": "8850102",
+        "text": "We're not at home now. Please leave a message after the beep."
+      },
+      {
+        "id": "13263480",
+        "text": "I'm not at home now. Please leave a message after the beep."
+      }
+    ],
+    "vocabIds": [
+      "1532910",
+      "2581590",
+      "1552760",
+      "1546250",
+      "1576900"
+    ],
+    "matches": {
+      "1532910": [
+        {
+          "start": 22,
+          "length": 6,
+          "reading": "なりましたら"
+        }
+      ],
+      "1546250": [
+        {
+          "start": 30,
+          "length": 2,
+          "reading": "ようけん"
+        }
+      ],
+      "1552760": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "るす"
+        }
+      ],
+      "1576900": [
+        {
+          "start": 20,
+          "length": 1,
+          "reading": "おと"
+        }
+      ],
+      "2581590": [
+        {
+          "start": 33,
+          "length": 3,
+          "reading": "おはなしし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11529697",
+    "original": "どのようなご用件でしょうか？",
+    "en": [
+      {
+        "id": "4011570",
+        "text": "How exactly may I help you?"
+      },
+      {
+        "id": "3162159",
+        "text": "How can we help you?"
+      }
+    ],
+    "vocabIds": [
+      "1546250"
+    ],
+    "matches": {
+      "1546250": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ようけん"
+        }
+      ]
+    }
+  }
+]

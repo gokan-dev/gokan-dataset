@@ -1,0 +1,125 @@
+[
+  {
+    "id": "143653",
+    "original": "水筒にはほとんど水が残っていない。",
+    "en": [
+      {
+        "id": "270914",
+        "text": "There is little water left in the canteen."
+      }
+    ],
+    "indices": "水筒~ には 殆ど{ほとんど} 水(みず) が 残る{残っていない}",
+    "vocabIds": [
+      "1304510",
+      "1371910",
+      "1371260"
+    ],
+    "matches": {
+      "1304510": [
+        {
+          "start": 10,
+          "length": 6,
+          "reading": "のこっていない"
+        }
+      ],
+      "1371260": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "みず"
+        }
+      ],
+      "1371910": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "すいとう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9676057",
+    "original": "僕の水筒、空っぽなんだけど。",
+    "en": [
+      {
+        "id": "9200842",
+        "text": "My water bottle is empty."
+      }
+    ],
+    "vocabIds": [
+      "1245380",
+      "1371910",
+      "1521400",
+      "2228300"
+    ],
+    "matches": {
+      "1245380": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "からっぽ"
+        }
+      ],
+      "1371910": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "すいとう"
+        }
+      ],
+      "1521400": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ],
+      "2228300": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9676152",
+    "original": "僕の水筒、どこかな？",
+    "en": [
+      {
+        "id": "9676203",
+        "text": "Where's my water bottle?"
+      }
+    ],
+    "vocabIds": [
+      "1371910",
+      "1521400",
+      "2228300"
+    ],
+    "matches": {
+      "1371910": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "すいとう"
+        }
+      ],
+      "1521400": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ],
+      "2228300": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,169 @@
+[
+  {
+    "id": "90544",
+    "original": "彼女は逆立ちをした。",
+    "en": [
+      {
+        "id": "313168",
+        "text": "She stood on her head."
+      }
+    ],
+    "indices": "彼女[01] は 逆立ち を 為る(する){した}",
+    "vocabIds": [
+      "1227250",
+      "1483150"
+    ],
+    "matches": {
+      "1227250": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "さかだち"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "182765",
+    "original": "逆立ちをした時に首がガクンとなりました。",
+    "en": [
+      {
+        "id": "19885",
+        "text": "My neck snapped when I did a headstand."
+      }
+    ],
+    "indices": "逆立ち~ を 為る(する){した} 時(とき) に 首(くび)[01] が がくんと{ガクンと}~ 鳴る{なりました}",
+    "vocabIds": [
+      "1227250",
+      "2021540",
+      "1249900",
+      "1582310",
+      "1592270",
+      "1653340",
+      "1983700"
+    ],
+    "matches": {
+      "1227250": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "さかだち"
+        }
+      ],
+      "1249900": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "くび"
+        }
+      ],
+      "1582310": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "くび"
+        }
+      ],
+      "1592270": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "くび"
+        }
+      ],
+      "1653340": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "くび"
+        }
+      ],
+      "1983700": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "くび"
+        }
+      ],
+      "2021540": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ときに"
+        }
+      ]
+    }
+  },
+  {
+    "id": "232133",
+    "original": "あなたは逆立ちができますか。",
+    "en": [
+      {
+        "id": "69503",
+        "text": "Can you stand on your hands?"
+      }
+    ],
+    "indices": "貴方(あなた)[01]{あなた} は 逆立ち が[01] 出来る{できます} か",
+    "vocabIds": [
+      "1227250"
+    ],
+    "matches": {
+      "1227250": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "さかだち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2214681",
+    "original": "彼は逆立ちしている。",
+    "en": [
+      {
+        "id": "2214696",
+        "text": "He's doing a handstand."
+      },
+      {
+        "id": "2214697",
+        "text": "He's standing on his head."
+      }
+    ],
+    "vocabIds": [
+      "1227250",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1227250": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "さかだち"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  }
+]

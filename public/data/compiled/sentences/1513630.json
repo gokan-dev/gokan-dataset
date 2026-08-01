@@ -1,0 +1,126 @@
+[
+  {
+    "id": "161131",
+    "original": "私はきみの保護者のつもりだ。",
+    "en": [
+      {
+        "id": "253387",
+        "text": "I regard myself as your guardian."
+      }
+    ],
+    "indices": "私(わたし)[01] は 君(きみ){きみの} 保護者 の 積もり{つもり} だ",
+    "vocabIds": [
+      "1513630",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1513630": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "ほごしゃ"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "215353",
+    "original": "ジョンはヘレンの保護者のようにふるまっている。",
+    "en": [
+      {
+        "id": "52654",
+        "text": "John acts like Helen's guardian."
+      }
+    ],
+    "indices": "は の 保護者~ の様に{のように} 振る舞う{ふるまっている}",
+    "vocabIds": [
+      "1513630"
+    ],
+    "matches": {
+      "1513630": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "ほごしゃ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10903397",
+    "original": "未成年の方は、保護者のサインをもらってください。",
+    "en": [
+      {
+        "id": "10906158",
+        "text": "Minors must have a parent or guardian sign the form."
+      }
+    ],
+    "vocabIds": [
+      "1604490",
+      "1513630",
+      "1545790",
+      "1512070",
+      "1516930"
+    ],
+    "matches": {
+      "1512070": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "ほう"
+        }
+      ],
+      "1513630": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "ほごしゃ"
+        }
+      ],
+      "1516930": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "ほう"
+        }
+      ],
+      "1545790": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "ほう"
+        }
+      ],
+      "1604490": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "みせいねん"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,192 @@
+[
+  {
+    "id": "88691",
+    "original": "彼女は小麦粉と油を大量に買い込んだ。",
+    "en": [
+      {
+        "id": "315016",
+        "text": "She bought flour and oil in quantity."
+      }
+    ],
+    "indices": "彼女[01] は 小麦粉 と 油 を 大量 に 買い込む{買い込んだ}",
+    "vocabIds": [
+      "1473610",
+      "1348650",
+      "1483150",
+      "1415190",
+      "1538590"
+    ],
+    "matches": {
+      "1348650": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "こむぎこ"
+        }
+      ],
+      "1415190": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "たいりょう"
+        }
+      ],
+      "1473610": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "かいこんだ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1538590": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "あぶら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "112062",
+    "original": "彼はたくさんの小麦粉と油を買い込んだ。",
+    "en": [
+      {
+        "id": "291615",
+        "text": "He bought a lot of flour and oil."
+      },
+      {
+        "id": "381385",
+        "text": "He bought flour and oil in quantity."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 沢山{たくさん} の 小麦粉 と 油 を 買い込む{買い込んだ}~",
+    "vocabIds": [
+      "1473610",
+      "1348650",
+      "1000420",
+      "1483070",
+      "1538590"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1348650": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "こむぎこ"
+        }
+      ],
+      "1473610": [
+        {
+          "start": 13,
+          "length": 5,
+          "reading": "かいこんだ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1538590": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "あぶら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "5132407",
+    "original": "私たちは何でも買い込んでいます。",
+    "en": [
+      {
+        "id": "5132193",
+        "text": "We're stocking up on everything."
+      }
+    ],
+    "vocabIds": [
+      "1473610",
+      "1311300",
+      "1611030"
+    ],
+    "matches": {
+      "1311300": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1473610": [
+        {
+          "start": 7,
+          "length": 8,
+          "reading": "かいこんでいます"
+        }
+      ],
+      "1611030": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "なにでも"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1112865",
+    "original": "大量に買いこんだアイスクリームで冷凍室がぎゅうぎゅうだ。",
+    "en": [
+      {
+        "id": "12614523",
+        "text": "The freezer is chock-full of ice cream that I bought in bulk."
+      }
+    ],
+    "vocabIds": [
+      "1473610",
+      "1948710",
+      "1415190"
+    ],
+    "matches": {
+      "1415190": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "たいりょう"
+        }
+      ],
+      "1473610": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "かいこんだ"
+        }
+      ],
+      "1948710": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "れいとうしつ"
+        }
+      ]
+    }
+  }
+]

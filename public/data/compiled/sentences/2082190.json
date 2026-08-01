@@ -1,0 +1,145 @@
+[
+  {
+    "id": "80289",
+    "original": "明日数学の小テストがある。",
+    "en": [
+      {
+        "id": "323426",
+        "text": "We will have a math quiz tomorrow."
+      }
+    ],
+    "indices": "明日 数学 の 小テスト~ が[01] 有る{ある}",
+    "vocabIds": [
+      "2082190",
+      "1584660",
+      "1372980"
+    ],
+    "matches": {
+      "1372980": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "すうがく"
+        }
+      ],
+      "1584660": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あした"
+        }
+      ],
+      "2082190": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "しょうてすと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "172058",
+    "original": "今日、小テストがありました。",
+    "en": [
+      {
+        "id": "242417",
+        "text": "We had a quiz today."
+      }
+    ],
+    "indices": "今日 小テスト が[01] 有る{ありました}",
+    "vocabIds": [
+      "2082190",
+      "1579110"
+    ],
+    "matches": {
+      "1579110": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きょう"
+        }
+      ],
+      "2082190": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "しょうてすと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "172243",
+    "original": "今朝は歴史の小テストがあった。",
+    "en": [
+      {
+        "id": "242232",
+        "text": "We had a history quiz this morning."
+      }
+    ],
+    "indices": "今朝 は 歴史 の 小テスト が[01] 有る{あった}",
+    "vocabIds": [
+      "2082190",
+      "1579100",
+      "1558050"
+    ],
+    "matches": {
+      "1558050": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "れきし"
+        }
+      ],
+      "1579100": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "けさ"
+        }
+      ],
+      "2082190": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "しょうてすと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11795452",
+    "original": "小テスト、すごく簡単だった。",
+    "en": [
+      {
+        "id": "10161800",
+        "text": "The quiz was really easy."
+      },
+      {
+        "id": "12355956",
+        "text": "The quiz was very easy."
+      }
+    ],
+    "vocabIds": [
+      "2082190",
+      "1214330"
+    ],
+    "matches": {
+      "1214330": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "かんたん"
+        }
+      ],
+      "2082190": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "しょうてすと"
+        }
+      ]
+    }
+  }
+]

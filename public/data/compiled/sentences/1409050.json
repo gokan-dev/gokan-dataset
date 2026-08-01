@@ -1,0 +1,66 @@
+[
+  {
+    "id": "4897",
+    "original": "これは駄洒落です。",
+    "en": [
+      {
+        "id": "1483",
+        "text": "This is a pun."
+      },
+      {
+        "id": "5152681",
+        "text": "This is a play on words."
+      }
+    ],
+    "vocabIds": [
+      "1409050"
+    ],
+    "matches": {
+      "1409050": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "だじゃれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9069380",
+    "original": "彼女は駄洒落が好きなんだ。",
+    "en": [
+      {
+        "id": "9069191",
+        "text": "She likes puns."
+      }
+    ],
+    "vocabIds": [
+      "1409050",
+      "1483150",
+      "1277450"
+    ],
+    "matches": {
+      "1277450": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "すき"
+        }
+      ],
+      "1409050": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "だじゃれ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ]
+    }
+  }
+]

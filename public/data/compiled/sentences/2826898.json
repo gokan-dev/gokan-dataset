@@ -1,0 +1,68 @@
+[
+  {
+    "id": "208463",
+    "original": "その洗濯機の使い心地はどうですか。",
+    "en": [
+      {
+        "id": "45722",
+        "text": "How do you find your washing machine?"
+      },
+      {
+        "id": "2170326",
+        "text": "Do you find that washing machine easy to use?"
+      }
+    ],
+    "indices": "其の[01]{その} 洗濯機 の 使い心地~ は 如何(どう){どう} ですか",
+    "vocabIds": [
+      "2826898",
+      "1390990"
+    ],
+    "matches": {
+      "1390990": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "せんたくき"
+        }
+      ],
+      "2826898": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "つかいごこち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "236537",
+    "original": "「その洗濯機の使い心地はどうですか」「まあまあです」",
+    "en": [
+      {
+        "id": "73871",
+        "text": "\"How do you find your washing-machine?\" \"Not so bad.\""
+      }
+    ],
+    "indices": "其の[01]{その} 洗濯機~ の 使う{使い} 心地(ここち)[02]~ は 如何(どう){どう} ですか まあまあ[01] です",
+    "vocabIds": [
+      "2826898",
+      "1390990"
+    ],
+    "matches": {
+      "1390990": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "せんたくき"
+        }
+      ],
+      "2826898": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "つかいごこち"
+        }
+      ]
+    }
+  }
+]

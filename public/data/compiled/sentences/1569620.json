@@ -1,0 +1,79 @@
+[
+  {
+    "id": "223876",
+    "original": "このからしは舌が痺れるほど辛い。",
+    "en": [
+      {
+        "id": "61212",
+        "text": "This mustard really bites the tongue."
+      }
+    ],
+    "indices": "此の{この} 辛子{からし} は 舌[01] が 痺れる[03]~ 程{ほど} 辛い(からい)[01]",
+    "vocabIds": [
+      "1569620",
+      "1365860",
+      "1387010"
+    ],
+    "matches": {
+      "1365860": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "つらい"
+        }
+      ],
+      "1387010": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "した"
+        }
+      ],
+      "1569620": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "しびれる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11138362",
+    "original": "右手が痺れた。",
+    "en": [
+      {
+        "id": "4484480",
+        "text": "My right hand has fallen asleep."
+      }
+    ],
+    "vocabIds": [
+      "1569620",
+      "1171120",
+      "2095790"
+    ],
+    "matches": {
+      "1171120": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "みぎて"
+        }
+      ],
+      "1569620": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "しびれた"
+        }
+      ],
+      "2095790": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "みぎて"
+        }
+      ]
+    }
+  }
+]

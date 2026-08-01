@@ -1,0 +1,141 @@
+[
+  {
+    "id": "80235",
+    "original": "明晩何か約束がありますか。",
+    "en": [
+      {
+        "id": "323482",
+        "text": "What do you have on for tomorrow night?"
+      }
+    ],
+    "indices": "明晩~ 何か 約束[01] が[01] 有る{あります} か",
+    "vocabIds": [
+      "1532590",
+      "1188270",
+      "1538130"
+    ],
+    "matches": {
+      "1188270": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "なにか"
+        }
+      ],
+      "1532590": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "みょうばん"
+        }
+      ],
+      "1538130": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "やくそく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1073814",
+    "original": "明晩、成田空港へ行く。",
+    "en": [
+      {
+        "id": "328025",
+        "text": "Tomorrow night, I am going to Narita airport."
+      }
+    ],
+    "vocabIds": [
+      "1532590",
+      "1578850"
+    ],
+    "matches": {
+      "1532590": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "みょうばん"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "いく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1627091",
+    "original": "彼は部下達に明晩攻撃すると告げた。",
+    "en": [
+      {
+        "id": "802631",
+        "text": "He told his men they would attack the next night."
+      }
+    ],
+    "vocabIds": [
+      "1285990",
+      "1499350",
+      "1532590",
+      "1279170",
+      "1000420",
+      "1483070",
+      "1416220"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1279170": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "こうげき"
+        }
+      ],
+      "1285990": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "つげた"
+        }
+      ],
+      "1416220": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "たち"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1499350": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ぶか"
+        }
+      ],
+      "1532590": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "みょうばん"
+        }
+      ]
+    }
+  }
+]

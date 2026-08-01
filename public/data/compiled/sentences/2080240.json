@@ -1,0 +1,133 @@
+[
+  {
+    "id": "74099",
+    "original": "ママ～！あのお姉ちゃんとお兄ちゃん、お手手繋いで、すっごく仲良しさんだね～！",
+    "en": [
+      {
+        "id": "329621",
+        "text": "Mama! That lady and man are holding hands, they're great friends aren't they!"
+      }
+    ],
+    "indices": "ママ[01]{ママ～} 彼の(あの){あの} お姉ちゃん[02]~ と お兄ちゃん[02] 御手手{お手手}~ 繋ぐ{繋いで} 凄く{すっごく} 仲良し さん だ ね{ね～}",
+    "vocabIds": [
+      "2222580",
+      "1001840",
+      "2080240",
+      "1426100",
+      "1251900"
+    ],
+    "matches": {
+      "1001840": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "おにいちゃん"
+        }
+      ],
+      "1251900": [
+        {
+          "start": 21,
+          "length": 3,
+          "reading": "つないで"
+        }
+      ],
+      "1426100": [
+        {
+          "start": 29,
+          "length": 3,
+          "reading": "なかよし"
+        }
+      ],
+      "2080240": [
+        {
+          "start": 18,
+          "length": 3,
+          "reading": "おてしゅ"
+        }
+      ],
+      "2222580": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "おねえちゃん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9991521",
+    "original": "「お手手洗った？」「うん。ママ」「石鹸で？匂わせて！」",
+    "en": [
+      {
+        "id": "9990478",
+        "text": "\"Have you washed your hands?\" \"Yes, Mom.\" \"With soap? Let me smell them!\""
+      }
+    ],
+    "vocabIds": [
+      "1463470",
+      "2080240",
+      "1390930",
+      "1382590"
+    ],
+    "matches": {
+      "1382590": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "せっけん"
+        }
+      ],
+      "1390930": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "あらった"
+        }
+      ],
+      "1463470": [
+        {
+          "start": 21,
+          "length": 4,
+          "reading": "におわせて"
+        }
+      ],
+      "2080240": [
+        {
+          "start": 1,
+          "length": 3,
+          "reading": "おてしゅ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11574871",
+    "original": "お手手洗ったよ。",
+    "en": [
+      {
+        "id": "2206395",
+        "text": "I washed my hands."
+      }
+    ],
+    "vocabIds": [
+      "2080240",
+      "1390930"
+    ],
+    "matches": {
+      "1390930": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "あらった"
+        }
+      ],
+      "2080240": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "おてしゅ"
+        }
+      ]
+    }
+  }
+]

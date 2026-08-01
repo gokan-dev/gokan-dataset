@@ -1,0 +1,55 @@
+[
+  {
+    "id": "225869",
+    "original": "キムはケンと同居している。",
+    "en": [
+      {
+        "id": "63207",
+        "text": "Kim is living with Ken."
+      }
+    ],
+    "indices": "は と 同居~ 為る(する){している}",
+    "vocabIds": [
+      "1452130"
+    ],
+    "matches": {
+      "1452130": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "どうきょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12316606",
+    "original": "両親と同居しています。",
+    "en": [
+      {
+        "id": "262220",
+        "text": "I live with my parents."
+      }
+    ],
+    "vocabIds": [
+      "1602710",
+      "1452130"
+    ],
+    "matches": {
+      "1452130": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "どうきょ"
+        }
+      ],
+      "1602710": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "りょうしん"
+        }
+      ]
+    }
+  }
+]

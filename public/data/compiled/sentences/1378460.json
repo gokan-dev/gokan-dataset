@@ -1,0 +1,134 @@
+[
+  {
+    "id": "125521",
+    "original": "庭には雑草が生い茂っていた。",
+    "en": [
+      {
+        "id": "278471",
+        "text": "The garden was grown over with weeds."
+      },
+      {
+        "id": "2717122",
+        "text": "The garden was overgrown with weeds."
+      }
+    ],
+    "indices": "庭 には 雑草 が 生い茂る{生い茂っていた}",
+    "vocabIds": [
+      "1378460",
+      "1299460",
+      "1436130"
+    ],
+    "matches": {
+      "1299460": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ざっそう"
+        }
+      ],
+      "1378460": [
+        {
+          "start": 6,
+          "length": 7,
+          "reading": "おいしげっていた"
+        }
+      ],
+      "1436130": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "にわ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "206529",
+    "original": "その木々は葉が生い茂っている。",
+    "en": [
+      {
+        "id": "43777",
+        "text": "The trees have exuberant foliage."
+      }
+    ],
+    "indices": "其の[01]{その} 木々 は 葉(は) が 生い茂る{生い茂っている}~",
+    "vocabIds": [
+      "1378460",
+      "1591090",
+      "1546550"
+    ],
+    "matches": {
+      "1378460": [
+        {
+          "start": 7,
+          "length": 7,
+          "reading": "おいしげっている"
+        }
+      ],
+      "1546550": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "は"
+        }
+      ],
+      "1591090": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きぎ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "6863485",
+    "original": "生い茂った生垣が庭を囲んでいた。",
+    "en": [
+      {
+        "id": "6912384",
+        "text": "A dense hedge surrounded the garden."
+      },
+      {
+        "id": "6912385",
+        "text": "A thick hedge surrounded the garden."
+      }
+    ],
+    "vocabIds": [
+      "1378460",
+      "1155980",
+      "1587170",
+      "1436130"
+    ],
+    "matches": {
+      "1155980": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "かこんでいた"
+        }
+      ],
+      "1378460": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "おいしげった"
+        }
+      ],
+      "1436130": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "にわ"
+        }
+      ],
+      "1587170": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "いけがき"
+        }
+      ]
+    }
+  }
+]

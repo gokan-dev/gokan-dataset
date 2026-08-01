@@ -1,0 +1,158 @@
+[
+  {
+    "id": "123498",
+    "original": "道路修理のために彼らは砂利をセメントで固めている。",
+    "en": [
+      {
+        "id": "280499",
+        "text": "They are binding the gravel with cement to repair the road."
+      }
+    ],
+    "indices": "道路 修理 の 為に{ために} 彼ら(かれら) は 砂利[01]~ を セメント で(#2028980) 固める{固めている}",
+    "vocabIds": [
+      "1266570",
+      "1454290",
+      "1332400",
+      "1483090",
+      "2397090",
+      "1291660"
+    ],
+    "matches": {
+      "1266570": [
+        {
+          "start": 19,
+          "length": 5,
+          "reading": "かためている"
+        }
+      ],
+      "1291660": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "じゃり"
+        }
+      ],
+      "1332400": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "しゅうり"
+        }
+      ],
+      "1454290": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "どうろ"
+        }
+      ],
+      "1483090": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "かれら"
+        }
+      ],
+      "2397090": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "かれら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "170864",
+    "original": "砂利をセメントで固める必要がある。",
+    "en": [
+      {
+        "id": "243616",
+        "text": "We need to bind gravel with cement."
+      }
+    ],
+    "indices": "砂利[01] を セメント で(#2028980) 固める 必要[02] が[01] 有る{ある}",
+    "vocabIds": [
+      "1266570",
+      "1291660",
+      "1487660"
+    ],
+    "matches": {
+      "1266570": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "かためる"
+        }
+      ],
+      "1291660": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じゃり"
+        }
+      ],
+      "1487660": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "ひつよう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1566983",
+    "original": "私たちには砂利を踏みしめる足音が聞こえた。",
+    "en": [
+      {
+        "id": "1187492",
+        "text": "We could hear footsteps crunching through the gravel."
+      }
+    ],
+    "vocabIds": [
+      "1450200",
+      "1591150",
+      "1311300",
+      "1291660",
+      "1404770"
+    ],
+    "matches": {
+      "1291660": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "じゃり"
+        }
+      ],
+      "1311300": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1404770": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "あしおと"
+        }
+      ],
+      "1450200": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "ふみしめる"
+        }
+      ],
+      "1591150": [
+        {
+          "start": 16,
+          "length": 4,
+          "reading": "きこえた"
+        }
+      ]
+    }
+  }
+]

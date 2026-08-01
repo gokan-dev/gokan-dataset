@@ -1,0 +1,151 @@
+[
+  {
+    "id": "101747",
+    "original": "彼は盗難車を見たと知らせてきた。",
+    "en": [
+      {
+        "id": "301946",
+        "text": "He reported having seen the stolen car."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 盗難 車(くるま) を 見る{見た} と 知らせる{知らせて} 来る(くる){きた}",
+    "vocabIds": [
+      "1420410",
+      "2427050",
+      "1259290",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1259290": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "みた"
+        }
+      ],
+      "1420410": [
+        {
+          "start": 9,
+          "length": 6,
+          "reading": "しらせてきた"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "2427050": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "とうなんしゃ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "124130",
+    "original": "盗難車は駐車場で発見された。",
+    "en": [
+      {
+        "id": "279864",
+        "text": "The stolen car was found in the parking lot."
+      }
+    ],
+    "indices": "盗難 車(くるま) は 駐車場 で(#2028980) 発見 為れる{された}",
+    "vocabIds": [
+      "2427050",
+      "1426920",
+      "1477310"
+    ],
+    "matches": {
+      "1426920": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "ちゅうしゃじょう"
+        }
+      ],
+      "1477310": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "はっけん"
+        }
+      ],
+      "2427050": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "とうなんしゃ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "176143",
+    "original": "警察は盗難車を追って高速道路を走った。",
+    "en": [
+      {
+        "id": "238322",
+        "text": "The police pursued the stolen vehicle along the motorway."
+      }
+    ],
+    "indices": "警察 は 盗難 車(くるま) を 追う{追って} 高速道路 を 走る{走った}",
+    "vocabIds": [
+      "1283720",
+      "2427050",
+      "1852860",
+      "1402540",
+      "1252390"
+    ],
+    "matches": {
+      "1252390": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "けいさつ"
+        }
+      ],
+      "1283720": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "こうそくどうろ"
+        }
+      ],
+      "1402540": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "はしった"
+        }
+      ],
+      "1852860": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "おって"
+        }
+      ],
+      "2427050": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "とうなんしゃ"
+        }
+      ]
+    }
+  }
+]

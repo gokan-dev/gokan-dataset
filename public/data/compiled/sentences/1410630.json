@@ -1,0 +1,777 @@
+[
+  {
+    "id": "88582",
+    "original": "彼女は心配で心配で、待合室の中を行ったり来たりしていた。",
+    "en": [
+      {
+        "id": "315125",
+        "text": "She was so nervous she paced to and fro in the waiting room."
+      }
+    ],
+    "indices": "彼女[01] は 心配 で(#2028980) 心配 で(#2028980) 待合室 の 中(なか) を 行ったり来たり 為る(する){していた}",
+    "vocabIds": [
+      "1281780",
+      "1410630",
+      "1483150",
+      "1360930",
+      "1423310",
+      "2098290"
+    ],
+    "matches": {
+      "1281780": [
+        {
+          "start": 16,
+          "length": 7,
+          "reading": "おこなったりきたり"
+        }
+      ],
+      "1360930": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "しんぱい"
+        },
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "しんぱい"
+        }
+      ],
+      "1410630": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "まちあいしつ"
+        }
+      ],
+      "1423310": [
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "なか"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "2098290": [
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "なか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "102523",
+    "original": "彼は待合室を見回した。",
+    "en": [
+      {
+        "id": "301170",
+        "text": "He looked around the waiting room."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 待合室 を 見回す{見回した}",
+    "vocabIds": [
+      "1259400",
+      "1410630",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1259400": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "みまわした"
+        }
+      ],
+      "1410630": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "まちあいしつ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "102525",
+    "original": "彼は待合室に座っています。",
+    "en": [
+      {
+        "id": "301169",
+        "text": "He's sitting in the waiting room."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 待合室~ に 座る[01]{座っています}",
+    "vocabIds": [
+      "1291800",
+      "1410630",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1291800": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "すわっています"
+        }
+      ],
+      "1410630": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "まちあいしつ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "137921",
+    "original": "待合室に５人の患者がいた。",
+    "en": [
+      {
+        "id": "275315",
+        "text": "There were five patients in the waiting room."
+      },
+      {
+        "id": "860039",
+        "text": "Five patients were in the waiting room."
+      }
+    ],
+    "indices": "待合室 に 人(にん)[01] の 患者 が 居る(いる)[01]{いた}",
+    "vocabIds": [
+      "1410630",
+      "2862879",
+      "1212210"
+    ],
+    "matches": {
+      "1212210": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "かんじゃ"
+        }
+      ],
+      "1410630": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "まちあいしつ"
+        }
+      ],
+      "2862879": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ごにん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "163642",
+    "original": "私の考えでは空のたびで最悪な面は、空港の待合室でぶらぶらしなければならない。",
+    "en": [
+      {
+        "id": "250870",
+        "text": "To my mind, the worst part of air travel is the hanging around in airport lounges."
+      }
+    ],
+    "indices": "私(わたし)[01]{私の} 考え で(#2028980) は 空(そら) の 旅(たび){たび} で(#2028980) 最悪{最悪な} 面(めん)[06] は 空港 の 待合室 で(#2028980) ぶらぶら 為る(する){し} ねばならない{なければならない}",
+    "vocabIds": [
+      "1410630",
+      "1281000",
+      "1293720",
+      "1245570",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1245290",
+      "2248040",
+      "1584695"
+    ],
+    "matches": {
+      "1245290": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "そら"
+        }
+      ],
+      "1245570": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "くうこう"
+        }
+      ],
+      "1281000": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "かんがえ"
+        }
+      ],
+      "1293720": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "さいあく"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1410630": [
+        {
+          "start": 20,
+          "length": 3,
+          "reading": "まちあいしつ"
+        }
+      ],
+      "1584695": [
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "めん"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2248040": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "そら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "190378",
+    "original": "一昔前だったら、駅や、レストランや、病院の待合室でタバコに火をつけるのをためらう人はいなかっただろう。",
+    "en": [
+      {
+        "id": "27536",
+        "text": "At one time, people would not have hesitated to light up a cigarette in stations, restaurants, or hospital waiting rooms."
+      }
+    ],
+    "indices": "一昔前~ だったら 駅 や レストラン や 病院 の 待合室 で(#2028980) 煙草{タバコ} に 火をつける[01] の を 躊躇う{ためらう} 人(ひと) は 居る(いる){いなかった} だろう",
+    "vocabIds": [
+      "2202160",
+      "1164140",
+      "1410630",
+      "1490220",
+      "1175140",
+      "1580640"
+    ],
+    "matches": {
+      "1164140": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ひとむかしまえ"
+        }
+      ],
+      "1175140": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "えき"
+        }
+      ],
+      "1410630": [
+        {
+          "start": 21,
+          "length": 3,
+          "reading": "まちあいしつ"
+        }
+      ],
+      "1490220": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "びょういん"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 40,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ],
+      "2202160": [
+        {
+          "start": 29,
+          "length": 5,
+          "reading": "ひをつける"
+        }
+      ]
+    }
+  },
+  {
+    "id": "208281",
+    "original": "その待合室はあまりにうるさくて、自分の名前が呼ばれるのが聞こえなかった。",
+    "en": [
+      {
+        "id": "45539",
+        "text": "The waiting room was so noisy that I couldn't hear my name called."
+      }
+    ],
+    "indices": "其の[01]{その} 待合室 は 余りに{あまりに} 五月蝿い{うるさくて} 自分[01] の 名前[01] が 呼ぶ{呼ばれる} の が 聞こえる[01]{聞こえなかった}",
+    "vocabIds": [
+      "1591150",
+      "1631030",
+      "1410630",
+      "1318610",
+      "1531710"
+    ],
+    "matches": {
+      "1318610": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "じぶん"
+        }
+      ],
+      "1410630": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "まちあいしつ"
+        }
+      ],
+      "1531710": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "なまえ"
+        }
+      ],
+      "1591150": [
+        {
+          "start": 28,
+          "length": 7,
+          "reading": "きこえなかった"
+        }
+      ],
+      "1631030": [
+        {
+          "start": 22,
+          "length": 4,
+          "reading": "よばれる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "349135",
+    "original": "待合室で少々お待ちください。",
+    "en": [
+      {
+        "id": "2358",
+        "text": "Wait in the waiting room."
+      }
+    ],
+    "vocabIds": [
+      "1410630",
+      "1594930"
+    ],
+    "matches": {
+      "1410630": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "まちあいしつ"
+        }
+      ],
+      "1594930": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "しょうしょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1421624",
+    "original": "待合室に５人の患者がいる。",
+    "en": [
+      {
+        "id": "1421626",
+        "text": "There are five patients in the waiting room."
+      }
+    ],
+    "vocabIds": [
+      "1410630",
+      "2862879",
+      "1212210"
+    ],
+    "matches": {
+      "1212210": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "かんじゃ"
+        }
+      ],
+      "1410630": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "まちあいしつ"
+        }
+      ],
+      "2862879": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ごにん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3456778",
+    "original": "検査の結果が出るまで待合室でお待ちください。",
+    "en": [
+      {
+        "id": "3472482",
+        "text": "Please wait in the waiting room until the inspection results are ready."
+      },
+      {
+        "id": "13569574",
+        "text": "Please take a seat in the waiting room until the results of tests are available."
+      },
+      {
+        "id": "13569575",
+        "text": "Please wait in the waiting room until the test results are ready."
+      }
+    ],
+    "vocabIds": [
+      "1410630",
+      "1257890",
+      "1254690",
+      "1338240"
+    ],
+    "matches": {
+      "1254690": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "けっか"
+        }
+      ],
+      "1257890": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "けんさ"
+        }
+      ],
+      "1338240": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "でる"
+        }
+      ],
+      "1410630": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "まちあいしつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8912120",
+    "original": "トムは待合室に１人で座っている。",
+    "en": [
+      {
+        "id": "2208714",
+        "text": "Tom is sitting alone in the waiting room."
+      }
+    ],
+    "vocabIds": [
+      "1291800",
+      "1410630",
+      "1163700"
+    ],
+    "matches": {
+      "1163700": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "いちにんで"
+        }
+      ],
+      "1291800": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "すわっている"
+        }
+      ],
+      "1410630": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "まちあいしつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9836309",
+    "original": "どうぞ待合室でお待ち下さい。",
+    "en": [
+      {
+        "id": "9836308",
+        "text": "Please wait in the waiting room."
+      }
+    ],
+    "vocabIds": [
+      "1410630",
+      "1184280"
+    ],
+    "matches": {
+      "1184280": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "ください"
+        }
+      ],
+      "1410630": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "まちあいしつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10066789",
+    "original": "待合室には誰もいないわ。",
+    "en": [
+      {
+        "id": "4902786",
+        "text": "The waiting room is empty."
+      }
+    ],
+    "vocabIds": [
+      "1410630",
+      "1416860"
+    ],
+    "matches": {
+      "1410630": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "まちあいしつ"
+        }
+      ],
+      "1416860": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "だれも"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10478471",
+    "original": "「お久しぶりって感じね。元気にしてる？」「してる。してる。最近、忙しくてさ、なかなか時間がとれないのよ。今ね、病院の待合室。時間が少しできたからメッセージ書いてみたの」",
+    "en": [
+      {
+        "id": "10478504",
+        "text": "\"Feels like I haven't seen you in forever. You doing good?\" \"Yeah, I'm good. I've been so busy lately I haven't had much time to spare. Right now I'm at a hospital in the waiting room, and I had a bit of time so I thought I'd shoot you a message.\""
+      }
+    ],
+    "vocabIds": [
+      "2222180",
+      "1343950",
+      "1519290",
+      "1410630",
+      "1212250",
+      "1260720",
+      "1293780",
+      "1315920",
+      "1490220",
+      "1348870",
+      "1288850"
+    ],
+    "matches": {
+      "1212250": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "かんじ"
+        }
+      ],
+      "1260720": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "げんき"
+        }
+      ],
+      "1288850": [
+        {
+          "start": 52,
+          "length": 1,
+          "reading": "いま"
+        }
+      ],
+      "1293780": [
+        {
+          "start": 29,
+          "length": 2,
+          "reading": "さいきん"
+        }
+      ],
+      "1315920": [
+        {
+          "start": 42,
+          "length": 2,
+          "reading": "じかん"
+        },
+        {
+          "start": 62,
+          "length": 2,
+          "reading": "じかん"
+        }
+      ],
+      "1343950": [
+        {
+          "start": 77,
+          "length": 5,
+          "reading": "かいてみた"
+        }
+      ],
+      "1348870": [
+        {
+          "start": 65,
+          "length": 2,
+          "reading": "すこし"
+        }
+      ],
+      "1410630": [
+        {
+          "start": 58,
+          "length": 3,
+          "reading": "まちあいしつ"
+        }
+      ],
+      "1490220": [
+        {
+          "start": 55,
+          "length": 2,
+          "reading": "びょういん"
+        }
+      ],
+      "1519290": [
+        {
+          "start": 32,
+          "length": 4,
+          "reading": "いそがしくて"
+        }
+      ],
+      "2222180": [
+        {
+          "start": 1,
+          "length": 5,
+          "reading": "おひさしぶり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10792745",
+    "original": "待合室には、誰もいませんでした。",
+    "en": [
+      {
+        "id": "9735911",
+        "text": "The waiting room was completely empty."
+      }
+    ],
+    "vocabIds": [
+      "1410630",
+      "1416860"
+    ],
+    "matches": {
+      "1410630": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "まちあいしつ"
+        }
+      ],
+      "1416860": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "だれも"
+        }
+      ]
+    }
+  }
+]

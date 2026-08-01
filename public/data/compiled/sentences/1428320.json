@@ -1,0 +1,71 @@
+[
+  {
+    "id": "171860",
+    "original": "今日の朝刊によればその死刑囚は自殺したようだ。",
+    "en": [
+      {
+        "id": "242615",
+        "text": "According to today's morning paper, the condemned criminal committed suicide."
+      }
+    ],
+    "indices": "今日 の 朝刊~ に依れば{によれば} 其の[01]{その} 死刑囚 は 自殺 為る(する){した} 様だ{ようだ}",
+    "vocabIds": [
+      "1310820",
+      "1579110",
+      "1428320",
+      "1317770"
+    ],
+    "matches": {
+      "1310820": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "しけいしゅう"
+        }
+      ],
+      "1317770": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "じさつ"
+        }
+      ],
+      "1428320": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ちょうかん"
+        }
+      ],
+      "1579110": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11391278",
+    "original": "朝刊はどこにある？",
+    "en": [
+      {
+        "id": "2796892",
+        "text": "Where's the morning paper?"
+      }
+    ],
+    "vocabIds": [
+      "1428320"
+    ],
+    "matches": {
+      "1428320": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ちょうかん"
+        }
+      ]
+    }
+  }
+]

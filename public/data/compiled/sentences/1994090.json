@@ -1,0 +1,125 @@
+[
+  {
+    "id": "85823",
+    "original": "被告は死刑判決を受けた。",
+    "en": [
+      {
+        "id": "317888",
+        "text": "The defendant was sentenced to death."
+      }
+    ],
+    "indices": "被告 は 死刑判決~ を 受ける{受けた}",
+    "vocabIds": [
+      "1994090",
+      "1329590",
+      "1484410"
+    ],
+    "matches": {
+      "1329590": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "うけた"
+        }
+      ],
+      "1484410": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ひこく"
+        }
+      ],
+      "1994090": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "しけいはんけつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1487119",
+    "original": "トムさんは断罪されて、死刑判決を受けました。",
+    "en": [
+      {
+        "id": "1023994",
+        "text": "Tom was convicted and sentenced to death."
+      }
+    ],
+    "vocabIds": [
+      "1329590",
+      "1994090",
+      "1419630"
+    ],
+    "matches": {
+      "1329590": [
+        {
+          "start": 16,
+          "length": 5,
+          "reading": "うけました"
+        }
+      ],
+      "1419630": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "だんざい"
+        }
+      ],
+      "1994090": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "しけいはんけつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2263382",
+    "original": "彼は死刑判決を受けた。",
+    "en": [
+      {
+        "id": "295667",
+        "text": "He was sentenced to death."
+      }
+    ],
+    "vocabIds": [
+      "1994090",
+      "1329590",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1329590": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "うけた"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1994090": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "しけいはんけつ"
+        }
+      ]
+    }
+  }
+]

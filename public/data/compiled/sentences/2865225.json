@@ -1,0 +1,80 @@
+[
+  {
+    "id": "123865",
+    "original": "頭が痛いんです。頭痛薬がありますか。",
+    "en": [
+      {
+        "id": "280130",
+        "text": "My head hurts. Have you got any headache tablets?"
+      }
+    ],
+    "indices": "頭が痛い のです{んです} 頭痛 薬(くすり)[01] が[01] 有る{あります} か",
+    "vocabIds": [
+      "1621770",
+      "2865225"
+    ],
+    "matches": {
+      "1621770": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "あたまがいたい"
+        }
+      ],
+      "2865225": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "ずつうやく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "170793",
+    "original": "最も効果の高い頭痛薬はどれですか。",
+    "en": [
+      {
+        "id": "243687",
+        "text": "What's your strongest type of headache pill?"
+      }
+    ],
+    "indices": "最も 効果{効果の} 高い 頭痛 薬(やく)[01] は 何れ(どれ)[01]{どれ} ですか",
+    "vocabIds": [
+      "2865225",
+      "1293700",
+      "1275130",
+      "1283190"
+    ],
+    "matches": {
+      "1275130": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "こうか"
+        }
+      ],
+      "1283190": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "たかい"
+        }
+      ],
+      "1293700": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "もっとも"
+        }
+      ],
+      "2865225": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "ずつうやく"
+        }
+      ]
+    }
+  }
+]

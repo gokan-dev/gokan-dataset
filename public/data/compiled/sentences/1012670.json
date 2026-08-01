@@ -1,0 +1,119 @@
+[
+  {
+    "id": "182281",
+    "original": "牛乳はバター、チーズ、その他いろいろな物にすることができる。",
+    "en": [
+      {
+        "id": "19472",
+        "text": "Milk can be made into butter, cheese, and many other things."
+      }
+    ],
+    "indices": "牛乳 は バター チーズ その他いろいろ~ な 物(もの)[01] に 為る(する){する} 事が出来る{ことができる}",
+    "vocabIds": [
+      "2847239",
+      "1012670",
+      "1231590"
+    ],
+    "matches": {
+      "1012670": [
+        {
+          "start": 19,
+          "length": 4,
+          "reading": "ものにする"
+        }
+      ],
+      "1231590": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ぎゅうにゅう"
+        }
+      ],
+      "2847239": [
+        {
+          "start": 11,
+          "length": 7,
+          "reading": "そのたいろいろ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1127854",
+    "original": "やっぱりハイエンド機種だけあって設定項目とかすごい細かい。自分の物にするにはしばらく時間が掛かりそう。",
+    "en": [
+      {
+        "id": "4884060",
+        "text": "As you'd expect from a high-end model, the user settings are amazingly detailed. It seems like it'll be a while until I can get one of my own."
+      }
+    ],
+    "vocabIds": [
+      "2317320",
+      "1207590",
+      "1012670",
+      "1295530",
+      "1386060",
+      "1283000",
+      "1318610",
+      "1315920"
+    ],
+    "matches": {
+      "1012670": [
+        {
+          "start": 32,
+          "length": 4,
+          "reading": "ものにする"
+        }
+      ],
+      "1207590": [
+        {
+          "start": 45,
+          "length": 5,
+          "reading": "かかりそう"
+        }
+      ],
+      "1283000": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "こうもく"
+        }
+      ],
+      "1295530": [
+        {
+          "start": 25,
+          "length": 3,
+          "reading": "こまかい"
+        }
+      ],
+      "1315920": [
+        {
+          "start": 42,
+          "length": 2,
+          "reading": "じかん"
+        }
+      ],
+      "1318610": [
+        {
+          "start": 29,
+          "length": 2,
+          "reading": "じぶん"
+        }
+      ],
+      "1386060": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "せってい"
+        }
+      ],
+      "2317320": [
+        {
+          "start": 4,
+          "length": 7,
+          "reading": "はいえんどきしゅ"
+        }
+      ]
+    }
+  }
+]

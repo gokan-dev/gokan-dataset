@@ -1,0 +1,1842 @@
+[
+  {
+    "id": "78999",
+    "original": "予備の毛布をください。",
+    "en": [
+      {
+        "id": "324716",
+        "text": "I need an extra blanket."
+      },
+      {
+        "id": "1009275",
+        "text": "Please give me a spare blanket."
+      }
+    ],
+    "indices": "予備{予備の} 毛布 を 下さい[01]{ください}",
+    "vocabIds": [
+      "1543320",
+      "1533950"
+    ],
+    "matches": {
+      "1533950": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "もうふ"
+        }
+      ],
+      "1543320": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "よび"
+        }
+      ]
+    }
+  },
+  {
+    "id": "80169",
+    "original": "毛布を貸していただけますか。",
+    "en": [
+      {
+        "id": "323548",
+        "text": "May I have a blanket?"
+      }
+    ],
+    "indices": "毛布 を 貸す{貸して} 頂ける[01]{いただけます} か",
+    "vocabIds": [
+      "1411160",
+      "1533950"
+    ],
+    "matches": {
+      "1411160": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "かして"
+        }
+      ],
+      "1533950": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "もうふ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "80170",
+    "original": "毛布を持ってきてください。",
+    "en": [
+      {
+        "id": "323547",
+        "text": "Could you bring me a blanket?"
+      }
+    ],
+    "indices": "毛布 を 持ってくる{持ってきて} 下さい{ください}",
+    "vocabIds": [
+      "1315720",
+      "1533950"
+    ],
+    "matches": {
+      "1315720": [
+        {
+          "start": 3,
+          "length": 9,
+          "reading": "もってきてください"
+        }
+      ],
+      "1533950": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "もうふ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "80171",
+    "original": "毛布をもう一枚ほしいのですが。",
+    "en": [
+      {
+        "id": "323546",
+        "text": "I'd like one more blanket."
+      }
+    ],
+    "indices": "毛布 を もう[03] 一枚(いちまい) 欲しい{ほしい} のです が[03]",
+    "vocabIds": [
+      "1533950",
+      "1166430",
+      "1166710"
+    ],
+    "matches": {
+      "1166430": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "いちまい"
+        }
+      ],
+      "1166710": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "いちまい"
+        }
+      ],
+      "1533950": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "もうふ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "80172",
+    "original": "毛布をください。",
+    "en": [
+      {
+        "id": "323545",
+        "text": "Can I get a blanket?"
+      },
+      {
+        "id": "2769828",
+        "text": "Please give me a blanket."
+      }
+    ],
+    "indices": "毛布 を 下さい[01]{ください}",
+    "vocabIds": [
+      "1533950"
+    ],
+    "matches": {
+      "1533950": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "もうふ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "80173",
+    "original": "毛布をお願いしたはずなのですが。",
+    "en": [
+      {
+        "id": "2662026",
+        "text": "I believe that I had ordered a blanket."
+      }
+    ],
+    "indices": "毛布 を お願い[02] 為る(する){した} 筈[01]{はず} なのだ{なのです} が[03]",
+    "vocabIds": [
+      "2036870",
+      "1533950"
+    ],
+    "matches": {
+      "1533950": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "もうふ"
+        }
+      ],
+      "2036870": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "おねがい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "80728",
+    "original": "明け方に寒かったので毛布をもう１枚掛けた。",
+    "en": [
+      {
+        "id": "322987",
+        "text": "It was cold at dawn, so I put on another blanket."
+      }
+    ],
+    "indices": "明け方 に 寒い{寒かった} ので 毛布 を もう[03] 枚(まい) 掛ける[02]{掛けた}",
+    "vocabIds": [
+      "1210360",
+      "1532300",
+      "1207610",
+      "1533950",
+      "1166710"
+    ],
+    "matches": {
+      "1166710": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "いちまい"
+        }
+      ],
+      "1207610": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "かけた"
+        }
+      ],
+      "1210360": [
+        {
+          "start": 4,
+          "length": 6,
+          "reading": "さむかったので"
+        }
+      ],
+      "1532300": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あけがた"
+        }
+      ],
+      "1533950": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "もうふ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "81219",
+    "original": "枕と毛布を下さい。",
+    "en": [
+      {
+        "id": "322496",
+        "text": "May I have a pillow and a blanket, please?"
+      },
+      {
+        "id": "1892800",
+        "text": "Please give me a pillow and a blanket."
+      }
+    ],
+    "indices": "枕 と 毛布 を 下さい[01]",
+    "vocabIds": [
+      "1184280",
+      "1533950",
+      "1524860"
+    ],
+    "matches": {
+      "1184280": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "ください"
+        }
+      ],
+      "1524860": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "まくら"
+        }
+      ],
+      "1533950": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "もうふ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "81220",
+    "original": "枕と毛布をもってきていただけるか。",
+    "en": [
+      {
+        "id": "322495",
+        "text": "Could you bring me a pillow and blanket, please?"
+      }
+    ],
+    "indices": "枕 と 毛布 を 持ってくる{もってきて} 頂ける[01]{いただける} か",
+    "vocabIds": [
+      "1533950",
+      "1524860"
+    ],
+    "matches": {
+      "1524860": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "まくら"
+        }
+      ],
+      "1533950": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "もうふ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "86541",
+    "original": "彼女は毛布に身を包んだ。",
+    "en": [
+      {
+        "id": "317169",
+        "text": "She wrapped herself in a blanket."
+      }
+    ],
+    "indices": "彼女[01] は 毛布 に 身を包む{身を包んだ}",
+    "vocabIds": [
+      "1584060",
+      "1483150",
+      "1533950",
+      "1365520",
+      "1956130"
+    ],
+    "matches": {
+      "1365520": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "み"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1533950": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "もうふ"
+        }
+      ],
+      "1584060": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "つつんだ"
+        }
+      ],
+      "1956130": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "み"
+        }
+      ]
+    }
+  },
+  {
+    "id": "87377",
+    "original": "彼女は彼に毛布をかけてやった。",
+    "en": [
+      {
+        "id": "316331",
+        "text": "She laid a blanket over him."
+      }
+    ],
+    "indices": "彼女[01] は 彼(かれ) に 毛布 を 掛ける{かけて} 遣る[01]{やった}",
+    "vocabIds": [
+      "1483150",
+      "1533950",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1533950": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "もうふ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "88279",
+    "original": "彼女は赤ん坊を毛布で包んだ。",
+    "en": [
+      {
+        "id": "315428",
+        "text": "She wrapped her baby in a blanket."
+      }
+    ],
+    "indices": "彼女[01] は 赤ん坊 を 毛布 で(#2028980) 包む(つつむ)[01]{包んだ}",
+    "vocabIds": [
+      "1383310",
+      "1584060",
+      "1483150",
+      "1533950"
+    ],
+    "matches": {
+      "1383310": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "あかんぼう"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1533950": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "もうふ"
+        }
+      ],
+      "1584060": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "つつんだ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "92261",
+    "original": "彼女はソファーで眠っている子供に毛布をかけた。",
+    "en": [
+      {
+        "id": "311450",
+        "text": "She put the blanket over the child sleeping on the sofa."
+      }
+    ],
+    "indices": "彼女[01] は ソファ{ソファー} で(#2028980) 眠る[01]{眠っている} 子供 に 毛布 を 掛ける{かけた}",
+    "vocabIds": [
+      "1529390",
+      "1483150",
+      "1307850",
+      "1533950"
+    ],
+    "matches": {
+      "1307850": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "こども"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1529390": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "ねむっている"
+        }
+      ],
+      "1533950": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "もうふ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "94774",
+    "original": "彼女に毛布をかけてやった。",
+    "en": [
+      {
+        "id": "308932",
+        "text": "I laid a blanket over her."
+      }
+    ],
+    "indices": "彼女 に 毛布 を 掛ける{かけて} 遣る[01]{やった}",
+    "vocabIds": [
+      "1483150",
+      "1533950"
+    ],
+    "matches": {
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1533950": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "もうふ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "96568",
+    "original": "彼らは地面に座るか、ラマかアルパカの毛糸でできた毛布の上に座る。",
+    "en": [
+      {
+        "id": "307137",
+        "text": "They sit on the ground or on blankets made of the wool of the llama or alpaca."
+      }
+    ],
+    "indices": "彼ら(かれら) は 地面 に 座る[01] か ラマ か 羊駱駝{アルパカ} の 毛糸 で(#2028980) 出来る{できた} 毛布 の 上(うえ) に 座る[01]",
+    "vocabIds": [
+      "1483090",
+      "2397090",
+      "1421510",
+      "1291800",
+      "1533860",
+      "1533950",
+      "1352130"
+    ],
+    "matches": {
+      "1291800": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "すわる"
+        },
+        {
+          "start": 29,
+          "length": 2,
+          "reading": "すわる"
+        }
+      ],
+      "1352130": [
+        {
+          "start": 27,
+          "length": 1,
+          "reading": "うえ"
+        }
+      ],
+      "1421510": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "じめん"
+        }
+      ],
+      "1483090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれら"
+        }
+      ],
+      "1533860": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "けいと"
+        }
+      ],
+      "1533950": [
+        {
+          "start": 24,
+          "length": 2,
+          "reading": "もうふ"
+        }
+      ],
+      "2397090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "145321",
+    "original": "新しい毛布が貧民に配られた。",
+    "en": [
+      {
+        "id": "269242",
+        "text": "New blankets were distributed to the poor."
+      }
+    ],
+    "indices": "新しい 毛布 が 貧民 に 配る{配られた}",
+    "vocabIds": [
+      "1361490",
+      "1533950",
+      "1490990",
+      "1472990"
+    ],
+    "matches": {
+      "1361490": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あたらしい"
+        }
+      ],
+      "1472990": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "くばら"
+        }
+      ],
+      "1490990": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ひんみん"
+        }
+      ],
+      "1533950": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "もうふ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "145908",
+    "original": "食べ物と毛布が難民に配られました。",
+    "en": [
+      {
+        "id": "268654",
+        "text": "Food and blankets were given out to the refugees."
+      }
+    ],
+    "indices": "食べ物 と 毛布 が 難民 に 配る{配られました}",
+    "vocabIds": [
+      "1358340",
+      "1533950",
+      "1461110",
+      "1472990"
+    ],
+    "matches": {
+      "1358340": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "たべもの"
+        }
+      ],
+      "1461110": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "なんみん"
+        }
+      ],
+      "1472990": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "くばら"
+        }
+      ],
+      "1533950": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "もうふ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "168366",
+    "original": "市は地震の被災者に食料と毛布を支給した。",
+    "en": [
+      {
+        "id": "246127",
+        "text": "The city supplied the earthquake victims with food and blankets."
+      }
+    ],
+    "indices": "市(し) は 地震 の 被災者 に 食料 と 毛布 を 支給 為る(する){した}",
+    "vocabIds": [
+      "1484450",
+      "1421210",
+      "1358670",
+      "1533950",
+      "1310130",
+      "1308090"
+    ],
+    "matches": {
+      "1308090": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "し"
+        }
+      ],
+      "1310130": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "しきゅう"
+        }
+      ],
+      "1358670": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "しょくりょう"
+        }
+      ],
+      "1421210": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "じしん"
+        }
+      ],
+      "1484450": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "ひさいしゃ"
+        }
+      ],
+      "1533950": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "もうふ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "168367",
+    "original": "市は困窮者に毛布を支給した。",
+    "en": [
+      {
+        "id": "246118",
+        "text": "The city supplied the needy with blankets."
+      }
+    ],
+    "indices": "市(し) は 困窮者 に 毛布 を 支給 為る(する){した}",
+    "vocabIds": [
+      "1669730",
+      "1533950",
+      "1310130",
+      "1308090"
+    ],
+    "matches": {
+      "1308090": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "し"
+        }
+      ],
+      "1310130": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "しきゅう"
+        }
+      ],
+      "1533950": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "もうふ"
+        }
+      ],
+      "1669730": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "こんきゅうしゃ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "168368",
+    "original": "市は困窮者に毛布を供給した。",
+    "en": [
+      {
+        "id": "246118",
+        "text": "The city supplied the needy with blankets."
+      }
+    ],
+    "indices": "市(し) は 困窮者~ に 毛布 を 供給 為る(する){した}",
+    "vocabIds": [
+      "1669730",
+      "1533950",
+      "1233630",
+      "1308090"
+    ],
+    "matches": {
+      "1233630": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "きょうきゅう"
+        }
+      ],
+      "1308090": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "し"
+        }
+      ],
+      "1533950": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "もうふ"
+        }
+      ],
+      "1669730": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "こんきゅうしゃ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "168374",
+    "original": "市は、浮浪者に毛布を供給した。",
+    "en": [
+      {
+        "id": "246118",
+        "text": "The city supplied the needy with blankets."
+      }
+    ],
+    "indices": "市(し) は 浮浪者 に 毛布 を 供給 為る(する){した}",
+    "vocabIds": [
+      "1497600",
+      "1533950",
+      "1233630",
+      "1308090"
+    ],
+    "matches": {
+      "1233630": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "きょうきゅう"
+        }
+      ],
+      "1308090": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "し"
+        }
+      ],
+      "1497600": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "ふろうしゃ"
+        }
+      ],
+      "1533950": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "もうふ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "184018",
+    "original": "寒がりなので、毛布をもう１枚かして下さい。",
+    "en": [
+      {
+        "id": "21146",
+        "text": "I'm very sensitive to cold. May I have another blanket?"
+      }
+    ],
+    "indices": "寒がり~ なので 毛布 を もう[03] 枚(まい) 貸す{かして} 下さい",
+    "vocabIds": [
+      "1210370",
+      "1184280",
+      "1533950",
+      "1166710"
+    ],
+    "matches": {
+      "1166710": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "いちまい"
+        }
+      ],
+      "1184280": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "ください"
+        }
+      ],
+      "1210370": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "さむがり"
+        }
+      ],
+      "1533950": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "もうふ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "184019",
+    "original": "寒かったので一日中毛布が手離せなかった。",
+    "en": [
+      {
+        "id": "21147",
+        "text": "It was so cold I clung to the blanket all day."
+      }
+    ],
+    "indices": "寒い{寒かった} ので 一日中 毛布 が 手離す{手離せなかった}",
+    "vocabIds": [
+      "1210360",
+      "1165500",
+      "1533950",
+      "1327190"
+    ],
+    "matches": {
+      "1165500": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "いちにちちゅう"
+        }
+      ],
+      "1210360": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "さむかったので"
+        }
+      ],
+      "1327190": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "て"
+        }
+      ],
+      "1533950": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "もうふ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "185157",
+    "original": "怪我人をこの毛布で包みなさい。",
+    "en": [
+      {
+        "id": "22288",
+        "text": "Cover up the injured man with this blanket."
+      }
+    ],
+    "indices": "怪我人 を 此の{この} 毛布 で(#2028980)[03] 包む(つつむ)[01]{包み} 為さい{なさい}",
+    "vocabIds": [
+      "1584060",
+      "1200230",
+      "1533950"
+    ],
+    "matches": {
+      "1200230": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "けがじん"
+        }
+      ],
+      "1533950": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "もうふ"
+        }
+      ],
+      "1584060": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "つつみなさい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "185559",
+    "original": "我々は避難民に毛布を与えた。",
+    "en": [
+      {
+        "id": "22691",
+        "text": "We furnished the refugees with blankets."
+      }
+    ],
+    "indices": "我々 は 避難民 に 毛布 を 与える[01]{与えた}",
+    "vocabIds": [
+      "1751830",
+      "1544730",
+      "1607050",
+      "1533950"
+    ],
+    "matches": {
+      "1533950": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "もうふ"
+        }
+      ],
+      "1544730": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "あたえた"
+        }
+      ],
+      "1607050": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "われわれ"
+        }
+      ],
+      "1751830": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "ひなんみん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "221270",
+    "original": "この種の毛布は十分に虫干ししなければならない。",
+    "en": [
+      {
+        "id": "58593",
+        "text": "This kind of blanket needs good airing."
+      }
+    ],
+    "indices": "この種{この種の} 毛布 は 十分(じゅうぶん)[01]{十分に} 虫干し~ 為る(する){し} ねばならない{なければならない}",
+    "vocabIds": [
+      "1620850",
+      "1771140",
+      "1533950",
+      "1335070",
+      "1335080"
+    ],
+    "matches": {
+      "1335070": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "じゅうぶん"
+        }
+      ],
+      "1335080": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "じゅうぶん"
+        }
+      ],
+      "1533950": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "もうふ"
+        }
+      ],
+      "1620850": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "このたね"
+        }
+      ],
+      "1771140": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "むしぼし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "225098",
+    "original": "ケンは毛布を二つに畳んだ。",
+    "en": [
+      {
+        "id": "62433",
+        "text": "Ken folded the blanket in half."
+      }
+    ],
+    "indices": "は 毛布~ を 二つ に 畳む[01]{畳んだ}",
+    "vocabIds": [
+      "1356780",
+      "1533950",
+      "1461160"
+    ],
+    "matches": {
+      "1356780": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "たたんだ"
+        }
+      ],
+      "1461160": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ふたつ"
+        }
+      ],
+      "1533950": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "もうふ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "228706",
+    "original": "いつも冬には余分な毛布が必要だ。",
+    "en": [
+      {
+        "id": "66064",
+        "text": "I always need an extra blanket in the wintertime."
+      }
+    ],
+    "indices": "何時も[01]{いつも} 冬 には 余分{余分な} 毛布 が 必要[01] だ",
+    "vocabIds": [
+      "1544520",
+      "1533950",
+      "1487660",
+      "1446070"
+    ],
+    "matches": {
+      "1446070": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "ふゆ"
+        }
+      ],
+      "1487660": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "ひつよう"
+        }
+      ],
+      "1533950": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "もうふ"
+        }
+      ],
+      "1544520": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "よぶん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1061585",
+    "original": "今夜は寒くなりそうだから、余分に毛布が必要かもしれないね。",
+    "en": [
+      {
+        "id": "954085",
+        "text": "It's likely to get cold tonight, so you may need an extra blanket."
+      }
+    ],
+    "vocabIds": [
+      "1289520",
+      "1210360",
+      "1544520",
+      "1533950",
+      "1487660"
+    ],
+    "matches": {
+      "1210360": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "さむく"
+        }
+      ],
+      "1289520": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こんや"
+        }
+      ],
+      "1487660": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "ひつよう"
+        }
+      ],
+      "1533950": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "もうふ"
+        }
+      ],
+      "1544520": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "よぶん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1163927",
+    "original": "枕と毛布をいただけますか。",
+    "en": [
+      {
+        "id": "322496",
+        "text": "May I have a pillow and a blanket, please?"
+      },
+      {
+        "id": "13481789",
+        "text": "Can I have a pillow and a blanket?"
+      }
+    ],
+    "vocabIds": [
+      "1533950",
+      "1524860"
+    ],
+    "matches": {
+      "1524860": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "まくら"
+        }
+      ],
+      "1533950": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "もうふ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2161186",
+    "original": "トムはベッドから毛布を取り、自分の体に巻き付けた。",
+    "en": [
+      {
+        "id": "1867845",
+        "text": "Tom took a blanket off the bed and wrapped it around himself."
+      }
+    ],
+    "vocabIds": [
+      "1603880",
+      "1533950",
+      "1326980",
+      "1318610",
+      "1409140"
+    ],
+    "matches": {
+      "1318610": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "じぶん"
+        }
+      ],
+      "1326980": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "とり"
+        }
+      ],
+      "1409140": [
+        {
+          "start": 17,
+          "length": 1,
+          "reading": "からだ"
+        }
+      ],
+      "1533950": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "もうふ"
+        }
+      ],
+      "1603880": [
+        {
+          "start": 19,
+          "length": 5,
+          "reading": "まきつけた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2213878",
+    "original": "毛布はありますか。",
+    "en": [
+      {
+        "id": "323544",
+        "text": "Do you have blankets?"
+      }
+    ],
+    "vocabIds": [
+      "1533950"
+    ],
+    "matches": {
+      "1533950": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "もうふ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "221241",
+    "original": "この柔らかい毛布は赤ちゃんにちょうどいい。",
+    "en": [
+      {
+        "id": "7593039",
+        "text": "This soft blanket is just right for babies."
+      }
+    ],
+    "indices": "此の{この} 柔らかい[01] 毛布~ は 赤ちゃん に 丁度いい{ちょうどいい}",
+    "vocabIds": [
+      "1605630",
+      "1383260",
+      "1533950"
+    ],
+    "matches": {
+      "1383260": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "あかちゃん"
+        }
+      ],
+      "1533950": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "もうふ"
+        }
+      ],
+      "1605630": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "やわらかい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8735823",
+    "original": "山岳は、岩の毛布の下で巨人が寝ているように、かすんだ地平線に休んでいた。",
+    "en": [
+      {
+        "id": "8704781",
+        "text": "The mountains, like giants sleeping under blankets of rock, rested on the hazy horizon."
+      }
+    ],
+    "vocabIds": [
+      "1227560",
+      "1360010",
+      "1421440",
+      "1302780",
+      "1533950",
+      "1232090",
+      "1217270",
+      "1184140",
+      "2867124"
+    ],
+    "matches": {
+      "1184140": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "した"
+        }
+      ],
+      "1217270": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "いわ"
+        }
+      ],
+      "1227560": [
+        {
+          "start": 30,
+          "length": 5,
+          "reading": "やすんでいた"
+        }
+      ],
+      "1232090": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "きょじん"
+        }
+      ],
+      "1302780": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "さんがく"
+        }
+      ],
+      "1360010": [
+        {
+          "start": 14,
+          "length": 4,
+          "reading": "ねている"
+        }
+      ],
+      "1421440": [
+        {
+          "start": 26,
+          "length": 3,
+          "reading": "ちへいせん"
+        }
+      ],
+      "1533950": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "もうふ"
+        }
+      ],
+      "2867124": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "した"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9003243",
+    "original": "毛布を持ってきていただけますか？",
+    "en": [
+      {
+        "id": "323547",
+        "text": "Could you bring me a blanket?"
+      }
+    ],
+    "vocabIds": [
+      "1315720",
+      "1533950"
+    ],
+    "matches": {
+      "1315720": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "もってきて"
+        }
+      ],
+      "1533950": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "もうふ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9855951",
+    "original": "毛布ね、まだ湿ってるわよ。",
+    "en": [
+      {
+        "id": "4144844",
+        "text": "The blanket is still wet."
+      }
+    ],
+    "vocabIds": [
+      "1320390",
+      "1533950"
+    ],
+    "matches": {
+      "1320390": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "しめってる"
+        }
+      ],
+      "1533950": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "もうふ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11052300",
+    "original": "もう１枚、毛布をお願いできますか？",
+    "en": [
+      {
+        "id": "3367282",
+        "text": "Can I get another blanket?"
+      }
+    ],
+    "vocabIds": [
+      "2221720",
+      "1166710",
+      "1533950"
+    ],
+    "matches": {
+      "1166710": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "いちまい"
+        }
+      ],
+      "1533950": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "もうふ"
+        }
+      ],
+      "2221720": [
+        {
+          "start": 8,
+          "length": 8,
+          "reading": "おねがいできますか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11178378",
+    "original": "はい、毛布。",
+    "en": [
+      {
+        "id": "10701321",
+        "text": "Here is a blanket."
+      }
+    ],
+    "vocabIds": [
+      "1533950"
+    ],
+    "matches": {
+      "1533950": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "もうふ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11518335",
+    "original": "トムのベッドには、ピカチュウの毛布が掛けてある。",
+    "en": [
+      {
+        "id": "2949976",
+        "text": "Tom's bed is covered by a Pikachu blanket."
+      }
+    ],
+    "vocabIds": [
+      "1207610",
+      "1533950"
+    ],
+    "matches": {
+      "1207610": [
+        {
+          "start": 18,
+          "length": 5,
+          "reading": "かけてある"
+        }
+      ],
+      "1533950": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "もうふ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11556335",
+    "original": "冬は毛布を2枚かけて寝ます。",
+    "en": [
+      {
+        "id": "4447561",
+        "text": "In the winter, I sleep under two blankets."
+      }
+    ],
+    "vocabIds": [
+      "1360010",
+      "1533950",
+      "1446070",
+      "1516920",
+      "1524610"
+    ],
+    "matches": {
+      "1360010": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "ねます"
+        }
+      ],
+      "1446070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ふゆ"
+        }
+      ],
+      "1516920": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "まい"
+        }
+      ],
+      "1524610": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "まい"
+        }
+      ],
+      "1533950": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "もうふ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12132610",
+    "original": "毛布、あったわよ。",
+    "en": [
+      {
+        "id": "12132608",
+        "text": "I found your blanket."
+      }
+    ],
+    "vocabIds": [
+      "1533950"
+    ],
+    "matches": {
+      "1533950": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "もうふ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12146492",
+    "original": "枕と毛布をお願いします。",
+    "en": [
+      {
+        "id": "9531990",
+        "text": "A pillow and a blanket, please."
+      }
+    ],
+    "vocabIds": [
+      "1001720",
+      "1533950",
+      "1524860"
+    ],
+    "matches": {
+      "1001720": [
+        {
+          "start": 5,
+          "length": 6,
+          "reading": "おねがいします"
+        }
+      ],
+      "1524860": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "まくら"
+        }
+      ],
+      "1533950": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "もうふ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "13279835",
+    "original": "トムは毛布の下に潜り込んだ。",
+    "en": [
+      {
+        "id": "2263544",
+        "text": "Tom snuggled under the blankets."
+      },
+      {
+        "id": "13342864",
+        "text": "Tom crawled under the blankets."
+      }
+    ],
+    "vocabIds": [
+      "1391280",
+      "1533950",
+      "1881540"
+    ],
+    "matches": {
+      "1391280": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "もぐりこんだ"
+        }
+      ],
+      "1533950": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "もうふ"
+        }
+      ],
+      "1881540": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "したに"
+        }
+      ]
+    }
+  }
+]

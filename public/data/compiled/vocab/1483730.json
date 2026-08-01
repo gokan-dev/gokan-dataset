@@ -1,0 +1,107 @@
+{
+  "id": "1483730",
+  "writtenForm": {
+    "kanji": "疲れ",
+    "alternatives": [],
+    "containedKanji": [
+      "疲"
+    ]
+  },
+  "reading": {
+    "primary": "つかれ",
+    "alternatives": [
+      "づかれ"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 2716,
+    "kanaRank": 48496
+  },
+  "jlptLevel": 3,
+  "progression": {
+    "kklcStep": 1948
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "tiredness",
+        "fatigue"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n-suf"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "weariness (from)",
+        "fatigue",
+        "tiredness",
+        "exhaustion"
+      ],
+      "related": {
+        "compounds": [
+          "湯疲れ"
+        ]
+      },
+      "appliesToReadings": [
+        "づかれ"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1483730",
+      "isBase": true,
+      "originalPrimaryReading": "つかれ",
+      "originalGlosses": [
+        "tiredness",
+        "fatigue"
+      ]
+    },
+    {
+      "id": "2845234",
+      "isBase": false,
+      "originalPrimaryReading": "づかれ",
+      "originalGlosses": [
+        "weariness (from)",
+        "fatigue",
+        "tiredness"
+      ]
+    }
+  ],
+  "parents": [
+    "1483740",
+    "2827267",
+    "1002570",
+    "1483760",
+    "1483750",
+    "1857290",
+    "2836431"
+  ]
+}

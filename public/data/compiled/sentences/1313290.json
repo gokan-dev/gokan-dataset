@@ -1,0 +1,359 @@
+[
+  {
+    "id": "150930",
+    "original": "歯茎の状態が悪いですね。",
+    "en": [
+      {
+        "id": "263626",
+        "text": "Your gums are in bad shape."
+      }
+    ],
+    "indices": "歯茎 の 状態 が 悪い(わるい) です ね",
+    "vocabIds": [
+      "1151260",
+      "1403390",
+      "2772730",
+      "1313290",
+      "1356730"
+    ],
+    "matches": {
+      "1151260": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "わるいです"
+        }
+      ],
+      "1313290": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "はぐき"
+        }
+      ],
+      "1356730": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "じょうたい"
+        }
+      ],
+      "1403390": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "わるいです"
+        }
+      ],
+      "2772730": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "わるいです"
+        }
+      ]
+    }
+  },
+  {
+    "id": "150931",
+    "original": "歯茎に当たるところはないですか。",
+    "en": [
+      {
+        "id": "263625",
+        "text": "Does anything touch your gums?"
+      }
+    ],
+    "indices": "歯茎~ に 当たる 所(ところ){ところ} は 無い{ない} ですか",
+    "vocabIds": [
+      "1448810",
+      "1313290"
+    ],
+    "matches": {
+      "1313290": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "はぐき"
+        }
+      ],
+      "1448810": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "あたる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "150932",
+    "original": "歯茎が炎症を起こしているようなのですが。",
+    "en": [
+      {
+        "id": "263624",
+        "text": "I think I have a gum infection."
+      }
+    ],
+    "indices": "歯茎 が 炎症~ を 起こす{起こしている} 様(よう){よう} なのだ{なのです} が[03]",
+    "vocabIds": [
+      "1223660",
+      "1313290",
+      "1177100"
+    ],
+    "matches": {
+      "1177100": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "えんしょう"
+        }
+      ],
+      "1223660": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "おこしている"
+        }
+      ],
+      "1313290": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "はぐき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "150933",
+    "original": "歯茎が炎症を起こしています。",
+    "en": [
+      {
+        "id": "263623",
+        "text": "You have a gum infection."
+      }
+    ],
+    "indices": "歯茎 が 炎症 を 起こす{起こしています}",
+    "vocabIds": [
+      "1223660",
+      "1313290",
+      "1177100"
+    ],
+    "matches": {
+      "1177100": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "えんしょう"
+        }
+      ],
+      "1223660": [
+        {
+          "start": 6,
+          "length": 7,
+          "reading": "おこしています"
+        }
+      ],
+      "1313290": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "はぐき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "150934",
+    "original": "歯茎から出血をしています。",
+    "en": [
+      {
+        "id": "263622",
+        "text": "I have bleeding gums."
+      }
+    ],
+    "indices": "歯茎 から 出血 を 為る(する){しています}",
+    "vocabIds": [
+      "1313290",
+      "1338750"
+    ],
+    "matches": {
+      "1313290": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "はぐき"
+        }
+      ],
+      "1338750": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "しゅっけつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "150935",
+    "original": "歯茎から出血しますか。",
+    "en": [
+      {
+        "id": "263621",
+        "text": "Do your gums bleed?"
+      }
+    ],
+    "indices": "歯茎 から 出血 為る(する){します} か",
+    "vocabIds": [
+      "1313290",
+      "1338750"
+    ],
+    "matches": {
+      "1313290": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "はぐき"
+        }
+      ],
+      "1338750": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "しゅっけつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "150936",
+    "original": "歯茎からうみが出ます。",
+    "en": [
+      {
+        "id": "263620",
+        "text": "I have pus coming out of my gums."
+      }
+    ],
+    "indices": "歯茎 から 膿{うみ} が 出る{出ます}",
+    "vocabIds": [
+      "1338240",
+      "1313290"
+    ],
+    "matches": {
+      "1313290": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "はぐき"
+        }
+      ],
+      "1338240": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "でます"
+        }
+      ]
+    }
+  },
+  {
+    "id": "150937",
+    "original": "歯茎がはれています。",
+    "en": [
+      {
+        "id": "263619",
+        "text": "My gums are swollen."
+      }
+    ],
+    "indices": "歯茎 が 腫れる{はれています}",
+    "vocabIds": [
+      "1313290"
+    ],
+    "matches": {
+      "1313290": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "はぐき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "235611",
+    "original": "２、３分で歯茎がしびれてきます。",
+    "en": [
+      {
+        "id": "72991",
+        "text": "Your gums will get numb in a few minutes."
+      }
+    ],
+    "indices": "分(ふん) で(#2028980) 歯茎 が 痺れる{しびれて} 来る(くる){きます}",
+    "vocabIds": [
+      "1814040",
+      "1313290",
+      "1461140"
+    ],
+    "matches": {
+      "1313290": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "はぐき"
+        }
+      ],
+      "1461140": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "に"
+        }
+      ],
+      "1814040": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "さんふん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9851513",
+    "original": "歯を磨くと、歯ぐきから出血しますか？",
+    "en": [
+      {
+        "id": "9851490",
+        "text": "Do your gums bleed when you brush your teeth?"
+      }
+    ],
+    "vocabIds": [
+      "2096140",
+      "1313290",
+      "1338750"
+    ],
+    "matches": {
+      "1313290": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "はぐき"
+        }
+      ],
+      "1338750": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "しゅっけつ"
+        }
+      ],
+      "2096140": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "はをみがく"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "id": "204801",
+    "original": "それは翼の全長が約４インチある。",
+    "en": [
+      {
+        "id": "42043",
+        "text": "It has a wingspan of about four inches."
+      }
+    ],
+    "indices": "其れ[01]{それ} は 翼[01]~ の 全長~ が 約 吋{インチ} 有る{ある}",
+    "vocabIds": [
+      "1395780",
+      "1547530",
+      "1538100",
+      "1579470"
+    ],
+    "matches": {
+      "1395780": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ぜんちょう"
+        }
+      ],
+      "1538100": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "やく"
+        }
+      ],
+      "1547530": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "つばさ"
+        }
+      ],
+      "1579470": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "よん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11294902",
+    "original": "この川は全長200キロです。",
+    "en": [
+      {
+        "id": "2897073",
+        "text": "This river is two hundred kilometers long."
+      }
+    ],
+    "vocabIds": [
+      "1395780",
+      "1390020"
+    ],
+    "matches": {
+      "1390020": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "かわ"
+        }
+      ],
+      "1395780": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ぜんちょう"
+        }
+      ]
+    }
+  }
+]

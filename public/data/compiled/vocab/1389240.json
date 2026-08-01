@@ -1,0 +1,164 @@
+{
+  "id": "1389240",
+  "writtenForm": {
+    "kanji": "千万",
+    "alternatives": [],
+    "containedKanji": [
+      "千",
+      "万"
+    ]
+  },
+  "reading": {
+    "primary": "せんばん",
+    "alternatives": [
+      "ちよろず",
+      "せんまん"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 20882,
+    "kanaRank": 101514
+  },
+  "progression": {
+    "kklcStep": 18
+  },
+  "senses": [
+    {
+      "pos": [
+        "n",
+        "suf",
+        "adv"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "exceedingly",
+        "extremely",
+        "very many",
+        "indeed"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "poet"
+        ]
+      },
+      "glosses": [
+        "countless number",
+        "extremely large number"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "ちよろず"
+      ]
+    },
+    {
+      "pos": [
+        "num"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "10,000,000",
+        "ten million"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "せんまん"
+      ]
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "extremely large number",
+        "myriad"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "せんまん"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": false,
+  "mergedVocabs": [
+    {
+      "id": "1389240",
+      "isBase": true,
+      "originalPrimaryReading": "せんばん",
+      "originalGlosses": [
+        "exceedingly",
+        "extremely",
+        "very many"
+      ]
+    },
+    {
+      "id": "2843993",
+      "isBase": false,
+      "originalPrimaryReading": "ちよろず",
+      "originalGlosses": [
+        "countless number",
+        "extremely large number"
+      ]
+    },
+    {
+      "id": "1389250",
+      "isBase": false,
+      "originalPrimaryReading": "せんまん",
+      "originalGlosses": [
+        "10,000,000",
+        "ten million"
+      ]
+    }
+  ],
+  "components": [
+    "1388740",
+    "1584460"
+  ],
+  "parents": [
+    "2046370",
+    "2029910"
+  ]
+}

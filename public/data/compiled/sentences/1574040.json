@@ -1,0 +1,142 @@
+[
+  {
+    "id": "77065",
+    "original": "隕石が燃えて、流星となる。",
+    "en": [
+      {
+        "id": "326654",
+        "text": "A burning meteoroid produces a meteor."
+      }
+    ],
+    "indices": "隕石~ が 燃える{燃えて} 流星~ となる",
+    "vocabIds": [
+      "1469570",
+      "1574040",
+      "1552370"
+    ],
+    "matches": {
+      "1469570": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "もえて"
+        }
+      ],
+      "1552370": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "りゅうせい"
+        }
+      ],
+      "1574040": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "せき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "222173",
+    "original": "この穴はいん石の落下でできたものです。",
+    "en": [
+      {
+        "id": "59498",
+        "text": "This hole was formed by a falling meteorite."
+      }
+    ],
+    "indices": "此の{この} 穴(あな)[01] は 隕石{いん石} の 落下 で(#2028980) 出来る{できた} 物(もの){もの} です",
+    "vocabIds": [
+      "1574040",
+      "1548650",
+      "1254480",
+      "2159590"
+    ],
+    "matches": {
+      "1254480": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "あな"
+        }
+      ],
+      "1548650": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "らっか"
+        }
+      ],
+      "1574040": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "いんせき"
+        }
+      ],
+      "2159590": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "あな"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3098449",
+    "original": "高校のときは毎日隕石落ちろって思ってた。",
+    "en": [
+      {
+        "id": "3129211",
+        "text": "When I was in high school, I wished every day that a meteorite would fall."
+      }
+    ],
+    "vocabIds": [
+      "1589350",
+      "1548550",
+      "1283500",
+      "1524720",
+      "1574040"
+    ],
+    "matches": {
+      "1283500": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こうこう"
+        }
+      ],
+      "1524720": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "まいにち"
+        }
+      ],
+      "1548550": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "おちろ"
+        }
+      ],
+      "1574040": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "せき"
+        }
+      ],
+      "1589350": [
+        {
+          "start": 15,
+          "length": 4,
+          "reading": "おもってた"
+        }
+      ]
+    }
+  }
+]

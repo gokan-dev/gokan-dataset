@@ -1,0 +1,55 @@
+[
+  {
+    "id": "186712",
+    "original": "火災報知器が鳴った。",
+    "en": [
+      {
+        "id": "23848",
+        "text": "The fire alarm sounded."
+      }
+    ],
+    "indices": "火災報知器~ が 鳴る{鳴った}",
+    "vocabIds": [
+      "1931250",
+      "1532910"
+    ],
+    "matches": {
+      "1532910": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "なった"
+        }
+      ],
+      "1931250": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "かさいほうちき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1189481",
+    "original": "火災報知器はまったくメンテナンスされなかった。",
+    "en": [
+      {
+        "id": "455287",
+        "text": "The smoke alarm has never been maintained."
+      }
+    ],
+    "vocabIds": [
+      "1931250"
+    ],
+    "matches": {
+      "1931250": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "かさいほうちき"
+        }
+      ]
+    }
+  }
+]

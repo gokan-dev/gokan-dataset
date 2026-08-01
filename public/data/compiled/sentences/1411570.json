@@ -1,0 +1,130 @@
+[
+  {
+    "id": "75599",
+    "original": "何あんた、またパン？相変わらず変わり映えのしない食生活送ってんのね。",
+    "en": [
+      {
+        "id": "328119",
+        "text": "What, you having bread again? I see you're still leading the same thrilling dietary life as ever."
+      }
+    ],
+    "indices": "何 貴方(あんた){あんた} 又{また} パン(#1103090)[01] 相変わらず 代わり映え[01]{変わり映え} の 為る(する){しない} 食生活~ 送る{送ってん} の ね(#2029080)[01]",
+    "vocabIds": [
+      "1401310",
+      "1411570",
+      "1358510",
+      "1402730",
+      "1577100"
+    ],
+    "matches": {
+      "1358510": [
+        {
+          "start": 24,
+          "length": 3,
+          "reading": "しょくせいかつ"
+        }
+      ],
+      "1401310": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "あいかわらず"
+        }
+      ],
+      "1402730": [
+        {
+          "start": 27,
+          "length": 3,
+          "reading": "おくって"
+        }
+      ],
+      "1411570": [
+        {
+          "start": 15,
+          "length": 5,
+          "reading": "かわりはえ"
+        }
+      ],
+      "1577100": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "なに"
+        }
+      ]
+    }
+  },
+  {
+    "id": "187396",
+    "original": "何処へ行っても代わり映えはしないでしょう。",
+    "en": [
+      {
+        "id": "24533",
+        "text": "Wherever you go, you will find the same thing."
+      }
+    ],
+    "indices": "何処 へ 行く[01]{行って} も 代わり映え[01]~ は 為る(する){しない} でしょう[01]",
+    "vocabIds": [
+      "1411570",
+      "1578850",
+      "1577140"
+    ],
+    "matches": {
+      "1411570": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "かわりばえ"
+        }
+      ],
+      "1577140": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "どこ"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "いって"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11571776",
+    "original": "代わり映えのない1日だった。",
+    "en": [
+      {
+        "id": "9358969",
+        "text": "It was an everyday day."
+      },
+      {
+        "id": "12518771",
+        "text": "It was a day like any other."
+      }
+    ],
+    "vocabIds": [
+      "1411570",
+      "1463770"
+    ],
+    "matches": {
+      "1411570": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "かわりばえ"
+        }
+      ],
+      "1463770": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "にち"
+        }
+      ]
+    }
+  }
+]

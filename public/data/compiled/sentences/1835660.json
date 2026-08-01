@@ -1,0 +1,96 @@
+[
+  {
+    "id": "173743",
+    "original": "好天気が長く続いている。",
+    "en": [
+      {
+        "id": "240727",
+        "text": "We've had a long spell of fine weather."
+      }
+    ],
+    "indices": "好天気~ が 長い{長く} 続く{続いている}",
+    "vocabIds": [
+      "1405790",
+      "1835660",
+      "1429750"
+    ],
+    "matches": {
+      "1405790": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "つづいている"
+        }
+      ],
+      "1429750": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ながく"
+        }
+      ],
+      "1835660": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "こうてんき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "173744",
+    "original": "好天気が私達の旅の楽しみを増した。",
+    "en": [
+      {
+        "id": "240726",
+        "text": "Fine weather added to the joy of our trip."
+      }
+    ],
+    "indices": "好天気 が 私たち{私達} の 旅(たび) の 楽しみ を 増す{増した}",
+    "vocabIds": [
+      "1835660",
+      "1207250",
+      "1403120",
+      "1311300",
+      "1553120"
+    ],
+    "matches": {
+      "1207250": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "たのしみ"
+        }
+      ],
+      "1311300": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "わたしたち"
+        }
+      ],
+      "1403120": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "ました"
+        }
+      ],
+      "1553120": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "たび"
+        }
+      ],
+      "1835660": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "こうてんき"
+        }
+      ]
+    }
+  }
+]

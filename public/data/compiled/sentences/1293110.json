@@ -1,0 +1,179 @@
+[
+  {
+    "id": "124968",
+    "original": "添付ファイルに適応したソフトウエアを持っていないので、ファイルを開けません。別のファイル形式で再送して下さい。",
+    "en": [
+      {
+        "id": "279025",
+        "text": "As I don't have the software that matches the attachment, I cannot open the file. Please resend it in another format."
+      },
+      {
+        "id": "433383",
+        "text": "Since I don't have the software to open the attached file, I can't open it. Please send it again in another format."
+      }
+    ],
+    "indices": "添付 ファイル[03] に 適応 為る(する){した} ソフトウェア{ソフトウエア} を 持つ{持っていない} ので ファイル[03] を[01] 開ける(あける){開けません} 別(べつ){別の} ファイル形式~ で(#2028980) 再送 為る(する){して} 下さい",
+    "vocabIds": [
+      "1315720",
+      "1998730",
+      "2323660",
+      "1202450",
+      "1184280",
+      "1437350",
+      "1293110",
+      "1509430"
+    ],
+    "matches": {
+      "1184280": [
+        {
+          "start": 51,
+          "length": 3,
+          "reading": "ください"
+        }
+      ],
+      "1202450": [
+        {
+          "start": 32,
+          "length": 5,
+          "reading": "あけません"
+        }
+      ],
+      "1293110": [
+        {
+          "start": 47,
+          "length": 2,
+          "reading": "さいそう"
+        }
+      ],
+      "1315720": [
+        {
+          "start": 18,
+          "length": 8,
+          "reading": "もっていないので"
+        }
+      ],
+      "1437350": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "てきおう"
+        }
+      ],
+      "1509430": [
+        {
+          "start": 38,
+          "length": 1,
+          "reading": "べつ"
+        }
+      ],
+      "1998730": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "てんぷふぁいる"
+        }
+      ],
+      "2323660": [
+        {
+          "start": 40,
+          "length": 6,
+          "reading": "ふぁいるけいしき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "223259",
+    "original": "このファイルをウインドウズ９５対応のファイルに変換して再送してくれますか。",
+    "en": [
+      {
+        "id": "60591",
+        "text": "Could you convert this file into a Windows 95 compatible file and re-send it?"
+      }
+    ],
+    "indices": "此の{この} ファイル[03] を 対応 の ファイル[03] に 変換~ 為る(する){して} 再送 為る(する){して} 呉れる{くれます} か",
+    "vocabIds": [
+      "1409840",
+      "1510950",
+      "1293110",
+      "1578150",
+      "1268060"
+    ],
+    "matches": {
+      "1268060": [
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "ご"
+        }
+      ],
+      "1293110": [
+        {
+          "start": 27,
+          "length": 2,
+          "reading": "さいそう"
+        }
+      ],
+      "1409840": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "たいおう"
+        }
+      ],
+      "1510950": [
+        {
+          "start": 23,
+          "length": 2,
+          "reading": "へんかん"
+        }
+      ],
+      "1578150": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "きゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "234143",
+    "original": "あなたからの最新のメールが見つかりません。再送していただけるでしょうか。",
+    "en": [
+      {
+        "id": "71516",
+        "text": "I can't seem to find your last e-mail, I wonder if you can resend it to me."
+      }
+    ],
+    "indices": "貴方(あなた)[01]{あなた} から の 最新{最新の} メール(#1132620)[01]~ が 見つかる{見つかりません} 再送~ 為る(する){して} 頂ける[01]{いただける} でしょうか",
+    "vocabIds": [
+      "1604550",
+      "1294090",
+      "1293110"
+    ],
+    "matches": {
+      "1293110": [
+        {
+          "start": 21,
+          "length": 2,
+          "reading": "さいそう"
+        }
+      ],
+      "1294090": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "さいしん"
+        }
+      ],
+      "1604550": [
+        {
+          "start": 13,
+          "length": 7,
+          "reading": "みつかりません"
+        }
+      ]
+    }
+  }
+]

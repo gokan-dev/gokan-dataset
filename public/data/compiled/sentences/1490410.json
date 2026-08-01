@@ -1,0 +1,104 @@
+[
+  {
+    "id": "74423",
+    "original": "彼には本当の病名を知らせないで下さい。",
+    "en": [
+      {
+        "id": "329297",
+        "text": "Please don't let him know the real name of his illness."
+      }
+    ],
+    "indices": "彼(かれ) には 本当 の 病名 を 知らせる{知らせないで} 下さい",
+    "vocabIds": [
+      "1420410",
+      "1523060",
+      "1490410",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1420410": [
+        {
+          "start": 9,
+          "length": 9,
+          "reading": "しらせないでください"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1490410": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "びょうめい"
+        }
+      ],
+      "1523060": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ほんとう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "190836",
+    "original": "医者は患者に病名を通知した。",
+    "en": [
+      {
+        "id": "27996",
+        "text": "The doctor informed his patient of the name of his disease."
+      }
+    ],
+    "indices": "医者 は 患者 に 病名~ を 通知 為る(する){した}",
+    "vocabIds": [
+      "1159980",
+      "1212210",
+      "1490410",
+      "1433470"
+    ],
+    "matches": {
+      "1159980": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いしゃ"
+        }
+      ],
+      "1212210": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かんじゃ"
+        }
+      ],
+      "1433470": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "つうち"
+        }
+      ],
+      "1490410": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "びょうめい"
+        }
+      ]
+    }
+  }
+]

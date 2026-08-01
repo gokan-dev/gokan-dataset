@@ -1,0 +1,120 @@
+[
+  {
+    "id": "163758",
+    "original": "私の計画は相次いで失敗した。",
+    "en": [
+      {
+        "id": "250753",
+        "text": "My plan failed time after time."
+      },
+      {
+        "id": "541987",
+        "text": "My plans failed one after the other."
+      },
+      {
+        "id": "9050019",
+        "text": "My plans failed one after another."
+      }
+    ],
+    "indices": "私(わたし)[01]{私の} 計画 は 相次いで~ 失敗 為る(する){した}",
+    "vocabIds": [
+      "1400970",
+      "1252090",
+      "1320140",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1252090": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "けいかく"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1320140": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "しっぱい"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1400970": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "あいついで"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "170294",
+    "original": "災害が相次いでその地域を襲った。",
+    "en": [
+      {
+        "id": "244189",
+        "text": "A string of disasters struck the region."
+      }
+    ],
+    "indices": "災害 が 相次いで 其の[01]{その} 地域 を 襲う[01]{襲った}",
+    "vocabIds": [
+      "1400970",
+      "1333330",
+      "1295100",
+      "1420800"
+    ],
+    "matches": {
+      "1295100": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "さいがい"
+        }
+      ],
+      "1333330": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "おそった"
+        }
+      ],
+      "1400970": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "あいついで"
+        }
+      ],
+      "1420800": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "ちいき"
+        }
+      ]
+    }
+  }
+]

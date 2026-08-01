@@ -1,0 +1,80 @@
+[
+  {
+    "id": "149604",
+    "original": "失言は政治家には命取りとなることがある。",
+    "en": [
+      {
+        "id": "264954",
+        "text": "A slip of the tongue is sometimes fatal to a politician."
+      }
+    ],
+    "indices": "失言 は 政治家 には 命取り となる 事がある{ことがある}",
+    "vocabIds": [
+      "1375980",
+      "1532040",
+      "1319950"
+    ],
+    "matches": {
+      "1319950": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しつげん"
+        }
+      ],
+      "1375980": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "せいじか"
+        }
+      ],
+      "1532040": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "いのちとり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "211583",
+    "original": "その間違いが彼の命取りとなった。",
+    "en": [
+      {
+        "id": "48860",
+        "text": "The mistake cost him his head."
+      }
+    ],
+    "indices": "其の[01]{その} 間違い が 彼(かれ)[01] の 命取り~ となる{となった}",
+    "vocabIds": [
+      "1215320",
+      "1532040",
+      "1000420"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "かれの"
+        }
+      ],
+      "1215320": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "まちがい"
+        }
+      ],
+      "1532040": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "いのちとり"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "78666",
+    "original": "来週お邪魔したいのですが、何曜日ならご都合がよろしいでしょうか。",
+    "en": [
+      {
+        "id": "325050",
+        "text": "I'd like to visit you next week. What day of the week would it be convenient for you?"
+      }
+    ],
+    "indices": "来週 御(お){お} 邪魔 したい のです が[03] 何曜日 なら 御(ご){ご} 都合がよろしい でしょうか",
+    "vocabIds": [
+      "2264550",
+      "2157330",
+      "1189400",
+      "1548010"
+    ],
+    "matches": {
+      "1189400": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "なにようび"
+        }
+      ],
+      "1548010": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "らいしゅう"
+        }
+      ],
+      "2157330": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "おじゃま"
+        }
+      ],
+      "2264550": [
+        {
+          "start": 19,
+          "length": 7,
+          "reading": "つごうがよろしい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "228967",
+    "original": "いつご都合がよろしいですか。",
+    "en": [
+      {
+        "id": "66325",
+        "text": "When would it be convenient for you?"
+      }
+    ],
+    "indices": "何時(いつ){いつ} 御(ご){ご} 都合がよろしい~ ですか",
+    "vocabIds": [
+      "2264550"
+    ],
+    "matches": {
+      "2264550": [
+        {
+          "start": 3,
+          "length": 7,
+          "reading": "つごうがよろしい"
+        }
+      ]
+    }
+  }
+]

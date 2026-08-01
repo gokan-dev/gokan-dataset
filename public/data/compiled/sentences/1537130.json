@@ -1,0 +1,41 @@
+[
+  {
+    "id": "79668",
+    "original": "夜霧に当たって風邪をひいた。",
+    "en": [
+      {
+        "id": "324050",
+        "text": "I caught cold from exposure to the night fog."
+      }
+    ],
+    "indices": "夜霧~ に 当たる{当たって} 風邪をひく{風邪をひいた}",
+    "vocabIds": [
+      "1009820",
+      "1537130",
+      "1583720"
+    ],
+    "matches": {
+      "1009820": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "にあたって"
+        }
+      ],
+      "1537130": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "よぎり"
+        }
+      ],
+      "1583720": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "かぜ"
+        }
+      ]
+    }
+  }
+]

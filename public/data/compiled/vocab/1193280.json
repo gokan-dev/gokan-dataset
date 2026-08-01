@@ -1,0 +1,106 @@
+{
+  "id": "1193280",
+  "writtenForm": {
+    "kanji": "歌詞",
+    "alternatives": [
+      "歌ことば",
+      "歌言葉"
+    ],
+    "containedKanji": [
+      "歌",
+      "詞"
+    ]
+  },
+  "reading": {
+    "primary": "かし",
+    "alternatives": [
+      "うたことば"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 13007,
+    "kanaRank": 18570
+  },
+  "progression": {
+    "kklcStep": 827
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "song lyrics",
+        "words of a song",
+        "libretto"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "word mainly used in tanka",
+        "poetical word"
+      ],
+      "related": {
+        "compounds": [
+          "歌語"
+        ]
+      },
+      "appliesToReadings": [
+        "うたことば"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1193280",
+      "isBase": true,
+      "originalPrimaryReading": "かし",
+      "originalGlosses": [
+        "song lyrics",
+        "words of a song",
+        "libretto"
+      ]
+    },
+    {
+      "id": "2715440",
+      "isBase": false,
+      "originalPrimaryReading": "うたことば",
+      "originalGlosses": [
+        "word mainly used in tanka",
+        "poetical word"
+      ]
+    }
+  ],
+  "components": [
+    "1193180"
+  ],
+  "parents": [
+    "2259130"
+  ]
+}

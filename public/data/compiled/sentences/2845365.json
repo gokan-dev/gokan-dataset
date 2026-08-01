@@ -1,0 +1,104 @@
+[
+  {
+    "id": "78896",
+    "original": "容積を計算するためには縦と横と深さをかければよい。",
+    "en": [
+      {
+        "id": "324820",
+        "text": "To calculate the capacity, multiply the length by the width by the depth."
+      }
+    ],
+    "indices": "容積 を 計算[01] 為る(する){する} 為に{ために} は 縦(たて)[02] と 横[02] と 深い{深} さ[01] を 掛ける[05]{かければ} 良い{よい}",
+    "vocabIds": [
+      "2845365",
+      "1545420",
+      "1252140",
+      "1362640"
+    ],
+    "matches": {
+      "1252140": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "けいさん"
+        }
+      ],
+      "1362640": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "ふかさ"
+        }
+      ],
+      "1545420": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ようせき"
+        }
+      ],
+      "2845365": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "たてとよこ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "137969",
+    "original": "体積を計算するなら、縦と横と深さを掛ければよい。",
+    "en": [
+      {
+        "id": "275266",
+        "text": "To calculate the volume, multiply the length by the width by the depth."
+      }
+    ],
+    "indices": "体積 を 計算[01] 為る(する){する} なら 縦(たて)[02] と 横[02] と 深い{深} さ[01] を 掛ける[05]{掛ければ} 良い{よい}",
+    "vocabIds": [
+      "1207610",
+      "2845365",
+      "1409560",
+      "1252140",
+      "1362640"
+    ],
+    "matches": {
+      "1207610": [
+        {
+          "start": 17,
+          "length": 4,
+          "reading": "かければ"
+        }
+      ],
+      "1252140": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "けいさん"
+        }
+      ],
+      "1362640": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "ふかさ"
+        }
+      ],
+      "1409560": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "たいせき"
+        }
+      ],
+      "2845365": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "たてとよこ"
+        }
+      ]
+    }
+  }
+]

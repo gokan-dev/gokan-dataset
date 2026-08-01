@@ -1,0 +1,126 @@
+[
+  {
+    "id": "174006",
+    "original": "公共の場で喫煙は控えてください。",
+    "en": [
+      {
+        "id": "240464",
+        "text": "Please refrain from smoking in public places."
+      }
+    ],
+    "indices": "公共{公共の} 場(ば)[01] で(#2028980) 喫煙 は 控える[01]{控えて} 下さい{ください}",
+    "vocabIds": [
+      "1279060",
+      "2851225",
+      "1226390"
+    ],
+    "matches": {
+      "1226390": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "きつえん"
+        }
+      ],
+      "1279060": [
+        {
+          "start": 8,
+          "length": 7,
+          "reading": "ひかえてください"
+        }
+      ],
+      "2851225": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "こうきょうのば"
+        }
+      ]
+    }
+  },
+  {
+    "id": "216237",
+    "original": "しかし今日では、公共の場での喫煙は禁止されたり、きびしく制限されている。",
+    "en": [
+      {
+        "id": "53541",
+        "text": "But today smoking in public places is forbidden or strictly restricted."
+      }
+    ],
+    "indices": "然し{しかし} 今日 で(#2028980) は 公共{公共の} 場(ば)[01] で(#2028980) の 喫煙 は 禁止 為れる{されたり} 厳しい[01]{きびしく} 制限 為れる{されている}",
+    "vocabIds": [
+      "2553140",
+      "2851225",
+      "1226390",
+      "1241550",
+      "1374700"
+    ],
+    "matches": {
+      "1226390": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "きつえん"
+        }
+      ],
+      "1241550": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "きんし"
+        }
+      ],
+      "1374700": [
+        {
+          "start": 28,
+          "length": 2,
+          "reading": "せいげん"
+        }
+      ],
+      "2553140": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "きょうでは"
+        }
+      ],
+      "2851225": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "こうきょうのば"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9955748",
+    "original": "公共の場で誰かとキスしたことある？",
+    "en": [
+      {
+        "id": "9955745",
+        "text": "Have you ever kissed someone in public?"
+      }
+    ],
+    "vocabIds": [
+      "2851225",
+      "1416840"
+    ],
+    "matches": {
+      "1416840": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "だれか"
+        }
+      ],
+      "2851225": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "こうきょうのば"
+        }
+      ]
+    }
+  }
+]

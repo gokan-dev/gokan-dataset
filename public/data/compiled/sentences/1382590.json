@@ -1,0 +1,1353 @@
+[
+  {
+    "id": "76731",
+    "original": "この石けんには天然香料が入っている。",
+    "en": [
+      {
+        "id": "326989",
+        "text": "This soap is infused with natural fragrances."
+      }
+    ],
+    "indices": "此の{この} 石鹸{石けん} には 天然香料~ が 入る(はいる)[03]{入っている}",
+    "vocabIds": [
+      "1465590",
+      "2211860",
+      "1382590"
+    ],
+    "matches": {
+      "1382590": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "せっけん"
+        }
+      ],
+      "1465590": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "はいっている"
+        }
+      ],
+      "2211860": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "てんねんこうりょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "88309",
+    "original": "彼女は石鹸を一個使ってしまった。",
+    "en": [
+      {
+        "id": "315398",
+        "text": "She used up a cake of soap."
+      },
+      {
+        "id": "1442121",
+        "text": "She used up a bar of soap."
+      }
+    ],
+    "indices": "彼女[01] は 石鹸 を 一個 使う{使って} 仕舞う{しまった}",
+    "vocabIds": [
+      "1305990",
+      "1483150",
+      "1382590",
+      "1162290"
+    ],
+    "matches": {
+      "1162290": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "いちこ"
+        }
+      ],
+      "1305990": [
+        {
+          "start": 8,
+          "length": 7,
+          "reading": "つかってしまった"
+        }
+      ],
+      "1382590": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "せっけん"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "142338",
+    "original": "石鹸は汚れを落とす特性がある。",
+    "en": [
+      {
+        "id": "272232",
+        "text": "Soap has the property of removing dirt."
+      }
+    ],
+    "indices": "石鹸 は 汚れ(よごれ) を 落とす[02] 特性 が[01] 有る{ある}",
+    "vocabIds": [
+      "1589260",
+      "1382590",
+      "1612200",
+      "1455090"
+    ],
+    "matches": {
+      "1382590": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "せっけん"
+        }
+      ],
+      "1455090": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "とくせい"
+        }
+      ],
+      "1589260": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "おとす"
+        }
+      ],
+      "1612200": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "よごれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "142339",
+    "original": "石鹸がありません。",
+    "en": [
+      {
+        "id": "272231",
+        "text": "There's no soap."
+      },
+      {
+        "id": "448962",
+        "text": "There isn't any soap."
+      }
+    ],
+    "indices": "石鹸 が[01] 有る{ありません}",
+    "vocabIds": [
+      "1382590"
+    ],
+    "matches": {
+      "1382590": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "せっけん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "142354",
+    "original": "石けんを付けてごしごしこすれば汚れが落ちます。",
+    "en": [
+      {
+        "id": "272216",
+        "text": "Rub briskly with soap, and the stain will soon wash off."
+      }
+    ],
+    "indices": "石鹸{石けん} を 付ける{付けて} ごしごし 擦る(こする){こすれば}~ 汚れ(よごれ) が 落ちる[05]{落ちます}",
+    "vocabIds": [
+      "1548550",
+      "1382590",
+      "1495770",
+      "1612200"
+    ],
+    "matches": {
+      "1382590": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "せっけん"
+        }
+      ],
+      "1495770": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "つけて"
+        }
+      ],
+      "1548550": [
+        {
+          "start": 18,
+          "length": 4,
+          "reading": "おちます"
+        }
+      ],
+      "1612200": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "よごれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "142355",
+    "original": "石けんをください。",
+    "en": [
+      {
+        "id": "272215",
+        "text": "I need some soap."
+      },
+      {
+        "id": "13565207",
+        "text": "Can I have some soap, please?"
+      },
+      {
+        "id": "13565209",
+        "text": "Please give me some soap."
+      }
+    ],
+    "indices": "石鹸{石けん} を 下さい[01]{ください}",
+    "vocabIds": [
+      "1382590"
+    ],
+    "matches": {
+      "1382590": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "せっけん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "142356",
+    "original": "石けんは泥を落とすのに役立つ。",
+    "en": [
+      {
+        "id": "272214",
+        "text": "Soap helps remove the dirt."
+      }
+    ],
+    "indices": "石鹸{石けん} は 泥 を 落とす[02] のに 役立つ",
+    "vocabIds": [
+      "1382590",
+      "1589260",
+      "1538090",
+      "1436900"
+    ],
+    "matches": {
+      "1382590": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "せっけん"
+        }
+      ],
+      "1436900": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "どろ"
+        }
+      ],
+      "1538090": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "やくだつ"
+        }
+      ],
+      "1589260": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "おとす"
+        }
+      ]
+    }
+  },
+  {
+    "id": "142357",
+    "original": "石けんで手を洗いなさい。",
+    "en": [
+      {
+        "id": "272213",
+        "text": "Wash your hands with soap."
+      }
+    ],
+    "indices": "石鹸{石けん} で(#2028980) 手 を 洗う[01]{洗い} 為さい{なさい}",
+    "vocabIds": [
+      "1390930",
+      "1382590",
+      "1327190"
+    ],
+    "matches": {
+      "1327190": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "て"
+        }
+      ],
+      "1382590": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "せっけん"
+        }
+      ],
+      "1390930": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "あらいなさい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "142358",
+    "original": "石けんが目にしみました。",
+    "en": [
+      {
+        "id": "272212",
+        "text": "The soap hurt my eyes."
+      }
+    ],
+    "indices": "石鹸{石けん} が 目(め)[01] に 沁みる[02]{しみました}~",
+    "vocabIds": [
+      "1382590",
+      "1604890"
+    ],
+    "matches": {
+      "1382590": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "せっけん"
+        }
+      ],
+      "1604890": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "め"
+        }
+      ]
+    }
+  },
+  {
+    "id": "143082",
+    "original": "政府は石鹸の値段を２ペンス下げるよう命じた。",
+    "en": [
+      {
+        "id": "271486",
+        "text": "The government ordered that the price of soap be reduced by two pence."
+      }
+    ],
+    "indices": "政府 は 石鹸 の 値段 を 片{ペンス} 下げる 様(よう){よう} 命じる{命じた}",
+    "vocabIds": [
+      "1184170",
+      "1531950",
+      "1376070",
+      "1382590",
+      "1600160",
+      "1461140"
+    ],
+    "matches": {
+      "1184170": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "さげる"
+        }
+      ],
+      "1376070": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "せいふ"
+        }
+      ],
+      "1382590": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "せっけん"
+        }
+      ],
+      "1461140": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "に"
+        }
+      ],
+      "1531950": [
+        {
+          "start": 18,
+          "length": 3,
+          "reading": "めいじた"
+        }
+      ],
+      "1600160": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ねだん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "197617",
+    "original": "ひげをそる前に石けんをつける。",
+    "en": [
+      {
+        "id": "34803",
+        "text": "I lather my face before shaving."
+      }
+    ],
+    "indices": "髭{ひげ} を 剃る{そる} 前(まえ) に 石鹸{石けん}~ を 付ける{つける}",
+    "vocabIds": [
+      "1382590",
+      "1392590"
+    ],
+    "matches": {
+      "1382590": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "せっけん"
+        }
+      ],
+      "1392590": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "まえに"
+        }
+      ]
+    }
+  },
+  {
+    "id": "220874",
+    "original": "この石鹸を使えば彼女の顔の色艶がよくなるだろう。",
+    "en": [
+      {
+        "id": "58196",
+        "text": "This soap will improve her complexion."
+      }
+    ],
+    "indices": "此の{この} 石鹸 を 使う{使えば} 彼女[01]{彼女の} 顔(かお) の 色艶~ が 良くなる{よくなる} だろう",
+    "vocabIds": [
+      "1305990",
+      "1382590",
+      "1483150",
+      "1357630",
+      "1217730"
+    ],
+    "matches": {
+      "1217730": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "かお"
+        }
+      ],
+      "1305990": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "つかえば"
+        }
+      ],
+      "1357630": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "いろつや"
+        }
+      ],
+      "1382590": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "せっけん"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "220883",
+    "original": "この石けんはすばらしく泡だちがいい。",
+    "en": [
+      {
+        "id": "2700979",
+        "text": "This soap makes a lot bubbles."
+      }
+    ],
+    "indices": "此の{この} 石鹸{石けん} は 素晴らしい{すばらしく} 泡立ち{泡だち}~ が いい",
+    "vocabIds": [
+      "1382590",
+      "1517550"
+    ],
+    "matches": {
+      "1382590": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "せっけん"
+        }
+      ],
+      "1517550": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "あわだち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "231034",
+    "original": "あの工場では古い食用油で石鹸をつくっている。",
+    "en": [
+      {
+        "id": "68401",
+        "text": "They make used cooking oil into soap at that factory."
+      }
+    ],
+    "indices": "彼の(あの){あの} 工場 で(#2028980) は 古い 食用油~ で(#2028980) 石鹸 を 作る[01]{つくっている}",
+    "vocabIds": [
+      "1839460",
+      "1578700",
+      "1265070",
+      "1382590"
+    ],
+    "matches": {
+      "1265070": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ふるい"
+        }
+      ],
+      "1382590": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "せっけん"
+        }
+      ],
+      "1578700": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "こうじょう"
+        }
+      ],
+      "1839460": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "しょくようゆ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "236541",
+    "original": "「そのとおり」私は、シャワーを浴びている時に石鹸が目に入るとヒステリー状態になる男のように、娘のこの話に身震いしながら言った。",
+    "en": [
+      {
+        "id": "73874",
+        "text": "Right, I said, shivering at this recital as a man would who gets hysterical while taking a shower if a bit of soap stings his eye."
+      }
+    ],
+    "indices": "その通り[01]{そのとおり} 私(わたし)[01] は シャワー を 浴びる{浴びている} 時(とき) に 石鹸 が 目(め)[01] に 入る(はいる)[01] と ヒステリー 状態 になる[01] 男 の様に{のように} 娘(むすめ) の 此の{この} 話(はなし) に 身震い 為る(する){し} 乍ら[01]{ながら} 言う{言った}",
+    "vocabIds": [
+      "1547450",
+      "2396170",
+      "1365730",
+      "1587040",
+      "2021540",
+      "1382590",
+      "1356730",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1419990",
+      "1589190",
+      "1355930",
+      "1531190",
+      "1600900"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1355930": [
+        {
+          "start": 46,
+          "length": 1,
+          "reading": "むすめ"
+        }
+      ],
+      "1356730": [
+        {
+          "start": 35,
+          "length": 2,
+          "reading": "じょうたい"
+        }
+      ],
+      "1365730": [
+        {
+          "start": 52,
+          "length": 3,
+          "reading": "みぶるい"
+        }
+      ],
+      "1382590": [
+        {
+          "start": 22,
+          "length": 2,
+          "reading": "せっけん"
+        }
+      ],
+      "1419990": [
+        {
+          "start": 40,
+          "length": 1,
+          "reading": "おとこ"
+        }
+      ],
+      "1531190": [
+        {
+          "start": 46,
+          "length": 1,
+          "reading": "むすめ"
+        }
+      ],
+      "1547450": [
+        {
+          "start": 15,
+          "length": 5,
+          "reading": "あびている"
+        }
+      ],
+      "1587040": [
+        {
+          "start": 59,
+          "length": 3,
+          "reading": "いった"
+        }
+      ],
+      "1589190": [
+        {
+          "start": 40,
+          "length": 1,
+          "reading": "おとこ"
+        }
+      ],
+      "1600900": [
+        {
+          "start": 50,
+          "length": 1,
+          "reading": "はなし"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2021540": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "ときに"
+        }
+      ],
+      "2396170": [
+        {
+          "start": 25,
+          "length": 4,
+          "reading": "めにはいる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1629254",
+    "original": "汚いことばを口にするんじゃありません、でないとその口を石鹸で洗ってしまいますよ。",
+    "en": [
+      {
+        "id": "1636181",
+        "text": "Don't curse or I'll wash your mouth out with soap."
+      }
+    ],
+    "vocabIds": [
+      "1390930",
+      "1275750",
+      "1178940",
+      "1382590",
+      "1275640"
+    ],
+    "matches": {
+      "1178940": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きたない"
+        }
+      ],
+      "1275640": [
+        {
+          "start": 25,
+          "length": 1,
+          "reading": "くち"
+        }
+      ],
+      "1275750": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "くちにする"
+        }
+      ],
+      "1382590": [
+        {
+          "start": 27,
+          "length": 2,
+          "reading": "せっけん"
+        }
+      ],
+      "1390930": [
+        {
+          "start": 30,
+          "length": 8,
+          "reading": "あらってしまいます"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1629255",
+    "original": "石鹸で手を洗いなさい。",
+    "en": [
+      {
+        "id": "1636180",
+        "text": "Wash your hands with a bar of soap."
+      },
+      {
+        "id": "272213",
+        "text": "Wash your hands with soap."
+      }
+    ],
+    "vocabIds": [
+      "1390930",
+      "1382590",
+      "1327190"
+    ],
+    "matches": {
+      "1327190": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "て"
+        }
+      ],
+      "1382590": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "せっけん"
+        }
+      ],
+      "1390930": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "あらいなさい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2279253",
+    "original": "石鹸がないです。",
+    "en": [
+      {
+        "id": "272231",
+        "text": "There's no soap."
+      }
+    ],
+    "vocabIds": [
+      "1382590"
+    ],
+    "matches": {
+      "1382590": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "せっけん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "4211973",
+    "original": "石鹸がないよ。",
+    "en": [
+      {
+        "id": "272231",
+        "text": "There's no soap."
+      }
+    ],
+    "vocabIds": [
+      "1382590"
+    ],
+    "matches": {
+      "1382590": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "せっけん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "5259689",
+    "original": "その男の子は石鹸の店の周りを歩くのが好き。",
+    "en": [
+      {
+        "id": "5289445",
+        "text": "That boy likes to walk around the soap shop."
+      }
+    ],
+    "vocabIds": [
+      "1419990",
+      "1420010",
+      "1382590",
+      "1604290",
+      "1514320",
+      "1277450",
+      "1582120"
+    ],
+    "matches": {
+      "1277450": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "すき"
+        }
+      ],
+      "1382590": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "せっけん"
+        }
+      ],
+      "1419990": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "おとこのこ"
+        }
+      ],
+      "1420010": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "おとこのこ"
+        }
+      ],
+      "1514320": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "あるく"
+        }
+      ],
+      "1582120": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "みせ"
+        }
+      ],
+      "1604290": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "まわり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8596356",
+    "original": "トムは石鹸と水で手を洗いました。",
+    "en": [
+      {
+        "id": "7541628",
+        "text": "Tom washed his hands with soap and water."
+      }
+    ],
+    "vocabIds": [
+      "1390930",
+      "1382590",
+      "1371260",
+      "1327190"
+    ],
+    "matches": {
+      "1327190": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "て"
+        }
+      ],
+      "1371260": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "みず"
+        }
+      ],
+      "1382590": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "せっけん"
+        }
+      ],
+      "1390930": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "あらいました"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9314871",
+    "original": "石鹸、取って。",
+    "en": [
+      {
+        "id": "7884603",
+        "text": "Give me the soap."
+      },
+      {
+        "id": "9314875",
+        "text": "Hand me the soap."
+      }
+    ],
+    "vocabIds": [
+      "1326980",
+      "1382590"
+    ],
+    "matches": {
+      "1326980": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "とって"
+        }
+      ],
+      "1382590": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "せっけん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9991519",
+    "original": "「手を洗った？」「うん。ママ」「石鹸で？匂わせて！」",
+    "en": [
+      {
+        "id": "9990478",
+        "text": "\"Have you washed your hands?\" \"Yes, Mom.\" \"With soap? Let me smell them!\""
+      }
+    ],
+    "vocabIds": [
+      "1463470",
+      "1390930",
+      "1382590",
+      "1327190"
+    ],
+    "matches": {
+      "1327190": [
+        {
+          "start": 1,
+          "length": 1,
+          "reading": "て"
+        }
+      ],
+      "1382590": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "せっけん"
+        }
+      ],
+      "1390930": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "あらった"
+        }
+      ],
+      "1463470": [
+        {
+          "start": 20,
+          "length": 4,
+          "reading": "におわせて"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9991520",
+    "original": "「手は洗ったの？」「うん。ママ」「石鹸つけて？匂わせてごらん」",
+    "en": [
+      {
+        "id": "9990478",
+        "text": "\"Have you washed your hands?\" \"Yes, Mom.\" \"With soap? Let me smell them!\""
+      }
+    ],
+    "vocabIds": [
+      "1463470",
+      "1390930",
+      "1382590",
+      "1327190"
+    ],
+    "matches": {
+      "1327190": [
+        {
+          "start": 1,
+          "length": 1,
+          "reading": "て"
+        }
+      ],
+      "1382590": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "せっけん"
+        }
+      ],
+      "1390930": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "あらった"
+        }
+      ],
+      "1463470": [
+        {
+          "start": 23,
+          "length": 4,
+          "reading": "におわせて"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9991521",
+    "original": "「お手手洗った？」「うん。ママ」「石鹸で？匂わせて！」",
+    "en": [
+      {
+        "id": "9990478",
+        "text": "\"Have you washed your hands?\" \"Yes, Mom.\" \"With soap? Let me smell them!\""
+      }
+    ],
+    "vocabIds": [
+      "1463470",
+      "2080240",
+      "1390930",
+      "1382590"
+    ],
+    "matches": {
+      "1382590": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "せっけん"
+        }
+      ],
+      "1390930": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "あらった"
+        }
+      ],
+      "1463470": [
+        {
+          "start": 21,
+          "length": 4,
+          "reading": "におわせて"
+        }
+      ],
+      "2080240": [
+        {
+          "start": 1,
+          "length": 3,
+          "reading": "おてしゅ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10640296",
+    "original": "フランスでピニャコラーダの香りがする石鹸を買ったんだ。",
+    "en": [
+      {
+        "id": "9725799",
+        "text": "I bought a soap in France that smells like piña colada."
+      }
+    ],
+    "vocabIds": [
+      "2826754",
+      "1473740",
+      "1382590"
+    ],
+    "matches": {
+      "1382590": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "せっけん"
+        }
+      ],
+      "1473740": [
+        {
+          "start": 21,
+          "length": 3,
+          "reading": "かった"
+        }
+      ],
+      "2826754": [
+        {
+          "start": 13,
+          "length": 5,
+          "reading": "かおりがする"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10846524",
+    "original": "どうして石鹸がテーブルの上にあるの？",
+    "en": [
+      {
+        "id": "10829493",
+        "text": "Why is the soap on the table?"
+      },
+      {
+        "id": "12781895",
+        "text": "Why is there soap on the table?"
+      }
+    ],
+    "vocabIds": [
+      "1382590",
+      "1352130"
+    ],
+    "matches": {
+      "1352130": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "うえ"
+        }
+      ],
+      "1382590": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "せっけん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10899707",
+    "original": "手は石鹸で洗ったよ。",
+    "en": [
+      {
+        "id": "10899705",
+        "text": "I washed my hands with soap."
+      }
+    ],
+    "vocabIds": [
+      "1390930",
+      "1382590",
+      "1327190"
+    ],
+    "matches": {
+      "1327190": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "て"
+        }
+      ],
+      "1382590": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "せっけん"
+        }
+      ],
+      "1390930": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "あらった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11510679",
+    "original": "この石鹼は、水で泡立ちます。",
+    "en": [
+      {
+        "id": "58205",
+        "text": "This soap lathers up with water."
+      }
+    ],
+    "vocabIds": [
+      "1153650",
+      "1517550",
+      "1382590",
+      "1371260"
+    ],
+    "matches": {
+      "1153650": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "あわだちます"
+        }
+      ],
+      "1371260": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "みず"
+        }
+      ],
+      "1382590": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "いし"
+        }
+      ],
+      "1517550": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "あわだちます"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12018797",
+    "original": "最近、石鹸や洗剤を変えましたか？",
+    "en": [
+      {
+        "id": "9851478",
+        "text": "Have you recently changed your soap or laundry detergent?"
+      }
+    ],
+    "vocabIds": [
+      "1510650",
+      "1293780",
+      "1382590",
+      "1390950"
+    ],
+    "matches": {
+      "1293780": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "さいきん"
+        }
+      ],
+      "1382590": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "せっけん"
+        }
+      ],
+      "1390950": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "せんざい"
+        }
+      ],
+      "1510650": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "かえました"
+        }
+      ]
+    }
+  }
+]

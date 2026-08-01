@@ -1,0 +1,125 @@
+{
+  "id": "1279860",
+  "writtenForm": {
+    "kanji": "江",
+    "alternatives": [],
+    "containedKanji": [
+      "江"
+    ]
+  },
+  "reading": {
+    "primary": "え",
+    "alternatives": [
+      "こう"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 11083
+  },
+  "progression": {
+    "kklcStep": 1499
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "inlet",
+        "bay"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "large river (esp. the Yangtze)"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "こう"
+      ]
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "Lake Biwa"
+      ],
+      "related": {
+        "compounds": [
+          "琵琶湖"
+        ]
+      },
+      "appliesToReadings": [
+        "こう"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1279860",
+      "isBase": true,
+      "originalPrimaryReading": "え",
+      "originalGlosses": [
+        "inlet",
+        "bay"
+      ]
+    },
+    {
+      "id": "2229860",
+      "isBase": false,
+      "originalPrimaryReading": "こう",
+      "originalGlosses": [
+        "large river (esp. the Yangtze)"
+      ]
+    }
+  ],
+  "parents": [
+    "1279870",
+    "1279890",
+    "1587730",
+    "1279880",
+    "2845089",
+    "1628190"
+  ]
+}

@@ -1,0 +1,148 @@
+[
+  {
+    "id": "75749",
+    "original": "彼女は嫌がる子供を宥め賺して歯医者に連れて行った。",
+    "en": [
+      {
+        "id": "327969",
+        "text": "She coaxed and wheedled her unwilling child into going to the dentist with her."
+      }
+    ],
+    "indices": "彼女[01] は 嫌がる 子供 を 宥め賺す{宥め賺して} 歯医者 に 連れて行く{連れて行った}",
+    "vocabIds": [
+      "1559290",
+      "1609260",
+      "1313080",
+      "2247050",
+      "1540250",
+      "1483150",
+      "1307850"
+    ],
+    "matches": {
+      "1307850": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "こども"
+        }
+      ],
+      "1313080": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "はいしゃ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1540250": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "なだめ"
+        }
+      ],
+      "1559290": [
+        {
+          "start": 18,
+          "length": 6,
+          "reading": "つれていった"
+        }
+      ],
+      "1609260": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "いやがる"
+        }
+      ],
+      "2247050": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "すかして"
+        }
+      ]
+    }
+  },
+  {
+    "id": "87222",
+    "original": "彼女は彼を宥めすかして機嫌を直させた。",
+    "en": [
+      {
+        "id": "316486",
+        "text": "She blandished him out of his black mood."
+      },
+      {
+        "id": "388341",
+        "text": "She coaxed him out of his dark mood."
+      },
+      {
+        "id": "388342",
+        "text": "She helped him overcome his sadness."
+      },
+      {
+        "id": "388343",
+        "text": "She helped him get over his bad mood."
+      }
+    ],
+    "indices": "彼女[01] は 彼(かれ) を 宥め賺す{宥めすかして} 機嫌を直す{機嫌を直させた}",
+    "vocabIds": [
+      "1540250",
+      "1483150",
+      "1220930",
+      "1599390",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1220930": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "きげん"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1540250": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "なだめ"
+        }
+      ],
+      "1599390": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "なおさ"
+        }
+      ]
+    }
+  }
+]

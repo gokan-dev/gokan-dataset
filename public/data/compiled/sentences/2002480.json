@@ -1,0 +1,63 @@
+[
+  {
+    "id": "175713",
+    "original": "血はどす黒かったです。",
+    "en": [
+      {
+        "id": "238752",
+        "text": "The blood was a dark color."
+      }
+    ],
+    "indices": "血 は どす黒い{どす黒かった}~ です",
+    "vocabIds": [
+      "2002480",
+      "1255060"
+    ],
+    "matches": {
+      "1255060": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ち"
+        }
+      ],
+      "2002480": [
+        {
+          "start": 2,
+          "length": 8,
+          "reading": "どすぐろかったです"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3468890",
+    "original": "その血はどす黒かった。",
+    "en": [
+      {
+        "id": "238752",
+        "text": "The blood was a dark color."
+      }
+    ],
+    "vocabIds": [
+      "2002480",
+      "1255060"
+    ],
+    "matches": {
+      "1255060": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ち"
+        }
+      ],
+      "2002480": [
+        {
+          "start": 4,
+          "length": 6,
+          "reading": "どすぐろかった"
+        }
+      ]
+    }
+  }
+]

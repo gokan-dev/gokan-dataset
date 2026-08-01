@@ -1,0 +1,110 @@
+[
+  {
+    "id": "174200",
+    "original": "乞食は選り好みできない。",
+    "en": [
+      {
+        "id": "393810",
+        "text": "Beggars can't be choosers."
+      }
+    ],
+    "indices": "乞食[01]{こじき} は 選り好み 出来る[01]{できない}",
+    "vocabIds": [
+      "1392160",
+      "1271620",
+      "2632490"
+    ],
+    "matches": {
+      "1271620": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こじき"
+        }
+      ],
+      "1392160": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "よりごのみ"
+        }
+      ],
+      "2632490": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こじき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "229470",
+    "original": "アンは友人を選り好みする。",
+    "en": [
+      {
+        "id": "66829",
+        "text": "Ann is exclusive in her choice of friends."
+      }
+    ],
+    "indices": "は 友人 を 選り好み~ 為る(する){する}",
+    "vocabIds": [
+      "1392160",
+      "1540150"
+    ],
+    "matches": {
+      "1392160": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "よりごのみ"
+        }
+      ],
+      "1540150": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ゆうじん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2121105",
+    "original": "あなたはえり好みし過ぎだと思う。",
+    "en": [
+      {
+        "id": "1887797",
+        "text": "I think you're too picky."
+      }
+    ],
+    "vocabIds": [
+      "1392160",
+      "1195970",
+      "1589350"
+    ],
+    "matches": {
+      "1195970": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "すぎだ"
+        }
+      ],
+      "1392160": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "えりごのみ"
+        }
+      ],
+      "1589350": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "おもう"
+        }
+      ]
+    }
+  }
+]

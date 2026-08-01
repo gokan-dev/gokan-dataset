@@ -1,0 +1,190 @@
+[
+  {
+    "id": "124783",
+    "original": "電車は急に発進した。",
+    "en": [
+      {
+        "id": "279210",
+        "text": "The train jerked forward."
+      }
+    ],
+    "indices": "電車 は 急に 発進 為る(する){した}",
+    "vocabIds": [
+      "1443530",
+      "2269050",
+      "1477610"
+    ],
+    "matches": {
+      "1443530": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "でんしゃ"
+        }
+      ],
+      "1477610": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "はっしん"
+        }
+      ],
+      "2269050": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "きゅうに"
+        }
+      ]
+    }
+  },
+  {
+    "id": "201068",
+    "original": "ときどき、とても寒いときは、私は車を発進させることができない。",
+    "en": [
+      {
+        "id": "38274",
+        "text": "Sometimes when it's very cold, I can't get my car to start."
+      }
+    ],
+    "indices": "時々{ときどき} 迚も[01]{とても} 寒い 時(とき){とき} は 私(わたし)[01] は 車(くるま) を 発進[02]~ 為せる{させる} 事が出来る{ことができない}",
+    "vocabIds": [
+      "1210360",
+      "1477610",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1323080"
+    ],
+    "matches": {
+      "1210360": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "さむい"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1323080": [
+        {
+          "start": 16,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1477610": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "はっしん"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "6739012",
+    "original": "極めて緊急事態だったから、信号の色が変わるが早いか、父は車を発進させた。",
+    "en": [
+      {
+        "id": "6739020",
+        "text": "Since it was an extremely urgent situation, my father sped up the car as soon as the traffic light changed."
+      }
+    ],
+    "vocabIds": [
+      "1727150",
+      "2018170",
+      "1240200",
+      "1510790",
+      "1359240",
+      "1477610",
+      "1357600",
+      "1497610",
+      "1323080"
+    ],
+    "matches": {
+      "1240200": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きわめて"
+        }
+      ],
+      "1323080": [
+        {
+          "start": 28,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1357600": [
+        {
+          "start": 16,
+          "length": 1,
+          "reading": "いろ"
+        }
+      ],
+      "1359240": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "しんごう"
+        }
+      ],
+      "1477610": [
+        {
+          "start": 30,
+          "length": 2,
+          "reading": "はっしん"
+        }
+      ],
+      "1497610": [
+        {
+          "start": 26,
+          "length": 1,
+          "reading": "ちち"
+        }
+      ],
+      "1510790": [
+        {
+          "start": 18,
+          "length": 3,
+          "reading": "かわる"
+        }
+      ],
+      "1727150": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "きんきゅうじたい"
+        }
+      ],
+      "2018170": [
+        {
+          "start": 21,
+          "length": 4,
+          "reading": "がはやいか"
+        }
+      ]
+    }
+  }
+]

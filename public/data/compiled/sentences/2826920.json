@@ -1,0 +1,75 @@
+[
+  {
+    "id": "74453",
+    "original": "１．とりむね肉を細切りにする。",
+    "en": [
+      {
+        "id": "329266",
+        "text": "1. Finely chop the chicken breast meat."
+      }
+    ],
+    "indices": "鶏胸肉{とりむね肉}~ を 細切り(こまぎり)~ に 為る(する){する}",
+    "vocabIds": [
+      "2397100",
+      "2826920",
+      "1160790"
+    ],
+    "matches": {
+      "1160790": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "いち"
+        }
+      ],
+      "2397100": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "とりむねにく"
+        }
+      ],
+      "2826920": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "こまぎり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11668622",
+    "original": "肉は細切りにします。",
+    "en": [
+      {
+        "id": "9668376",
+        "text": "Cut the meat into strips."
+      },
+      {
+        "id": "6639376",
+        "text": "Cut the meat into thin strips."
+      }
+    ],
+    "vocabIds": [
+      "2826920",
+      "1463520"
+    ],
+    "matches": {
+      "1463520": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "にく"
+        }
+      ],
+      "2826920": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "こまぎり"
+        }
+      ]
+    }
+  }
+]

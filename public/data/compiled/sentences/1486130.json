@@ -1,0 +1,137 @@
+[
+  {
+    "id": "85582",
+    "original": "微熱があります。",
+    "en": [
+      {
+        "id": "39956",
+        "text": "I have a slight fever."
+      }
+    ],
+    "indices": "微熱~ が[01] 有る{あります}",
+    "vocabIds": [
+      "1486130"
+    ],
+    "matches": {
+      "1486130": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "びねつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1185759",
+    "original": "喉が痛くて微熱があるんです。",
+    "en": [
+      {
+        "id": "35761",
+        "text": "I have a sore throat and a slight fever."
+      }
+    ],
+    "vocabIds": [
+      "1432680",
+      "1486130",
+      "1600280"
+    ],
+    "matches": {
+      "1432680": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "いたくて"
+        }
+      ],
+      "1486130": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "びねつ"
+        }
+      ],
+      "1600280": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "のど"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8879546",
+    "original": "微熱があったの。",
+    "en": [
+      {
+        "id": "8879537",
+        "text": "I had a little fever."
+      }
+    ],
+    "vocabIds": [
+      "1486130"
+    ],
+    "matches": {
+      "1486130": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "びねつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10016581",
+    "original": "微熱があったから、ベッドに横になってたの。",
+    "en": [
+      {
+        "id": "1459075",
+        "text": "Since I had a slight fever, I stayed in bed."
+      }
+    ],
+    "vocabIds": [
+      "1486130",
+      "1632900"
+    ],
+    "matches": {
+      "1486130": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "びねつ"
+        }
+      ],
+      "1632900": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "よこに"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11586398",
+    "original": "微熱があるようですね。",
+    "en": [
+      {
+        "id": "11761006",
+        "text": "It looks like you've got a slight fever."
+      }
+    ],
+    "vocabIds": [
+      "1486130"
+    ],
+    "matches": {
+      "1486130": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "びねつ"
+        }
+      ]
+    }
+  }
+]

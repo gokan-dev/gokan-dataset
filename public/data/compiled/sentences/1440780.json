@@ -1,0 +1,153 @@
+[
+  {
+    "id": "76872",
+    "original": "いいか。店内では大人しくしてるんだぞ。",
+    "en": [
+      {
+        "id": "326848",
+        "text": "OK, you keep quiet while we're in the store."
+      }
+    ],
+    "indices": "いいか 店内~ で(#2028980) は 大人しい{大人しく} 為る(する){してる} ん[03] だ ぞ",
+    "vocabIds": [
+      "1414190",
+      "1440780"
+    ],
+    "matches": {
+      "1414190": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "おとなしく"
+        }
+      ],
+      "1440780": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "てんない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "999078",
+    "original": "エスプレッソドピオ店内で。",
+    "en": [
+      {
+        "id": "2660291",
+        "text": "An espresso doppio to drink inside."
+      }
+    ],
+    "vocabIds": [
+      "1440780"
+    ],
+    "matches": {
+      "1440780": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "てんない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "999588",
+    "original": "店内で。",
+    "en": [
+      {
+        "id": "61881",
+        "text": "For here, please."
+      }
+    ],
+    "vocabIds": [
+      "1440780"
+    ],
+    "matches": {
+      "1440780": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "てんない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3103616",
+    "original": "「これを1つと、これを2つ下さい」「お持ち帰りですか？」「いえ、店内で」",
+    "en": [
+      {
+        "id": "7856314",
+        "text": "\"One of this and two of this, please.\" \"Take-away?\" \"No, having here.\""
+      }
+    ],
+    "vocabIds": [
+      "2724870",
+      "1184280",
+      "1440780"
+    ],
+    "matches": {
+      "1184280": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "ください"
+        }
+      ],
+      "1440780": [
+        {
+          "start": 32,
+          "length": 2,
+          "reading": "てんない"
+        }
+      ],
+      "2724870": [
+        {
+          "start": 18,
+          "length": 5,
+          "reading": "おもちかえり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10228056",
+    "original": "「店内で召し上がりますか？」「いや。持ち帰りで」",
+    "en": [
+      {
+        "id": "10226668",
+        "text": "\"Dining in?\" \"No, we'll take it to go.\""
+      }
+    ],
+    "vocabIds": [
+      "1346370",
+      "1770030",
+      "1440780"
+    ],
+    "matches": {
+      "1346370": [
+        {
+          "start": 4,
+          "length": 7,
+          "reading": "めしあがります"
+        }
+      ],
+      "1440780": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "てんない"
+        }
+      ],
+      "1770030": [
+        {
+          "start": 18,
+          "length": 4,
+          "reading": "もちかえり"
+        }
+      ]
+    }
+  }
+]

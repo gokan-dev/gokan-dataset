@@ -1,0 +1,156 @@
+[
+  {
+    "id": "83213",
+    "original": "歩きすぎて、足の裏と足の指が痛いんだ。靴のサイズがあってないのかな。",
+    "en": [
+      {
+        "id": "320503",
+        "text": "All this walking is killing the soles of my feet and my toes. I wonder if I have the right size shoes."
+      }
+    ],
+    "indices": "歩く{歩き} 過ぎる(すぎる){すぎて} 足(あし) の 裏(うら)[01] と 足(あし) の 指 が 痛い[01] のだ{んだ} 靴 の サイズ が 合う{あってない} の かな",
+    "vocabIds": [
+      "1514320",
+      "1628950",
+      "1404720",
+      "1432680",
+      "1246700"
+    ],
+    "matches": {
+      "1246700": [
+        {
+          "start": 19,
+          "length": 1,
+          "reading": "くつ"
+        }
+      ],
+      "1404720": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "あしのゆび"
+        }
+      ],
+      "1432680": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "いたい"
+        }
+      ],
+      "1514320": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "あるきすぎて"
+        }
+      ],
+      "1628950": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "あしのうら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "117755",
+    "original": "彼の靴はとても古かったので足の指が靴からはみ出ていた。",
+    "en": [
+      {
+        "id": "285908",
+        "text": "His shoes were so old that his toes were sticking out of them."
+      }
+    ],
+    "indices": "彼(かれ)[01]{彼の} 靴 は 迚も{とても} 古い{古かった} ので 足(あし) の 指 が 靴 から はみ出る[02]{はみ出ていた}~",
+    "vocabIds": [
+      "1358380",
+      "1265070",
+      "1404720",
+      "1000420",
+      "1246700"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれの"
+        }
+      ],
+      "1246700": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "くつ"
+        },
+        {
+          "start": 17,
+          "length": 1,
+          "reading": "くつ"
+        }
+      ],
+      "1265070": [
+        {
+          "start": 7,
+          "length": 6,
+          "reading": "ふるかったので"
+        }
+      ],
+      "1358380": [
+        {
+          "start": 20,
+          "length": 6,
+          "reading": "はみでていた"
+        }
+      ],
+      "1404720": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "あしのゆび"
+        }
+      ]
+    }
+  },
+  {
+    "id": "139864",
+    "original": "足の指の感覚が全くない。",
+    "en": [
+      {
+        "id": "274477",
+        "text": "There is no feeling in my toes at all."
+      }
+    ],
+    "indices": "足の指~ の 感覚 が 全く 無い{ない}",
+    "vocabIds": [
+      "1404720",
+      "1212330",
+      "1394800"
+    ],
+    "matches": {
+      "1212330": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "かんかく"
+        }
+      ],
+      "1394800": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "まったく"
+        }
+      ],
+      "1404720": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あしのゆび"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "id": "182793",
+    "original": "黍団子一つください。",
+    "en": [
+      {
+        "id": "521708",
+        "text": "Give me one millet dumpling, please."
+      }
+    ],
+    "indices": "黍団子~ 一つ[01] 下さい{ください}",
+    "vocabIds": [
+      "1226590",
+      "1160820"
+    ],
+    "matches": {
+      "1160820": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ひとつ"
+        }
+      ],
+      "1226590": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きびだんご"
+        }
+      ]
+    }
+  }
+]

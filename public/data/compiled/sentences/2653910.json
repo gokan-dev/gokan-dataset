@@ -1,0 +1,103 @@
+[
+  {
+    "id": "140676",
+    "original": "祖母はこの町で最高齢です。",
+    "en": [
+      {
+        "id": "273897",
+        "text": "My grandmother is the oldest in this town."
+      }
+    ],
+    "indices": "祖母 は 此の{この} 町(まち) で(#2028980) 最[01] 高齢 です",
+    "vocabIds": [
+      "2653910",
+      "1396860",
+      "1603990"
+    ],
+    "matches": {
+      "1396860": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "そぼ"
+        }
+      ],
+      "1603990": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "まち"
+        }
+      ],
+      "2653910": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "さいこうれい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1247646",
+    "original": "彼は紛れもなく村の最高齢者です。",
+    "en": [
+      {
+        "id": "293125",
+        "text": "He is unquestionably the oldest man in the village."
+      }
+    ],
+    "vocabIds": [
+      "2653910",
+      "1611590",
+      "1000420",
+      "1483070",
+      "1406820",
+      "1322990"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1322990": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "しゃ"
+        }
+      ],
+      "1406820": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "むら"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1611590": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "まぎれ"
+        }
+      ],
+      "2653910": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "さいこうれい"
+        }
+      ]
+    }
+  }
+]

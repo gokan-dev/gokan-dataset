@@ -1,0 +1,71 @@
+[
+  {
+    "id": "141346",
+    "original": "川崎には工場が多い。",
+    "en": [
+      {
+        "id": "273224",
+        "text": "There are a lot of factories in Kawasaki."
+      }
+    ],
+    "indices": "には 工場 が 多い",
+    "vocabIds": [
+      "2164650",
+      "1578700",
+      "1407460"
+    ],
+    "matches": {
+      "1407460": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "おおい"
+        }
+      ],
+      "1578700": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "こうじょう"
+        }
+      ],
+      "2164650": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かわさき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1665764",
+    "original": "川崎にはたくさんの工場があります。",
+    "en": [
+      {
+        "id": "273224",
+        "text": "There are a lot of factories in Kawasaki."
+      }
+    ],
+    "vocabIds": [
+      "2164650",
+      "1578700"
+    ],
+    "matches": {
+      "1578700": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "こうじょう"
+        }
+      ],
+      "2164650": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かわさき"
+        }
+      ]
+    }
+  }
+]

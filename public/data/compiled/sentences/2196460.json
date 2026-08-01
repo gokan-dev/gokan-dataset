@@ -1,0 +1,111 @@
+[
+  {
+    "id": "74944",
+    "original": "「今日お父さんに会いに行く。進路相談だ」「いいですよ、そんなの」",
+    "en": [
+      {
+        "id": "328775",
+        "text": "\"I'm going to see your father today, about career counselling.\" \"You don't need to bother with that.\""
+      }
+    ],
+    "indices": "今日 お父さん に 会う{会い} に 行く 進路相談~ だ いい(#2820690)[02]~ です よ そんな の",
+    "vocabIds": [
+      "1002590",
+      "2196460",
+      "1579110",
+      "1198180",
+      "1578850"
+    ],
+    "matches": {
+      "1002590": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "おとうさん"
+        }
+      ],
+      "1198180": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "あい"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "いく"
+        }
+      ],
+      "1579110": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "きょう"
+        }
+      ],
+      "2196460": [
+        {
+          "start": 14,
+          "length": 4,
+          "reading": "しんろそうだん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9773342",
+    "original": "あいつ、進路相談があるんだってさ。だから今日は俺とお前だけだよ。",
+    "en": [
+      {
+        "id": "327737",
+        "text": "He's got a career guidance meeting. So today it's just me and you."
+      }
+    ],
+    "vocabIds": [
+      "2196460",
+      "1289400",
+      "1002290",
+      "1266890",
+      "1576870"
+    ],
+    "matches": {
+      "1002290": [
+        {
+          "start": 25,
+          "length": 2,
+          "reading": "おまえ"
+        }
+      ],
+      "1266890": [
+        {
+          "start": 23,
+          "length": 1,
+          "reading": "おれ"
+        }
+      ],
+      "1289400": [
+        {
+          "start": 20,
+          "length": 3,
+          "reading": "きょうは"
+        }
+      ],
+      "1576870": [
+        {
+          "start": 23,
+          "length": 1,
+          "reading": "おれ"
+        }
+      ],
+      "2196460": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "しんろそうだん"
+        }
+      ]
+    }
+  }
+]

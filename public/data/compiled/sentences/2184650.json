@@ -1,0 +1,114 @@
+[
+  {
+    "id": "76425",
+    "original": "ホワイトバランスをオートにした場合と白いコピー用紙でプリセットした場合の比較です。",
+    "en": [
+      {
+        "id": "327295",
+        "text": "It's a comparison of setting the white balance to \"auto\" versus presetting it with white copy paper."
+      }
+    ],
+    "indices": "ホワイトバランス~ を オート(#1031910)[01] に 為る(する){した} 場合 と 白い コピー用紙~ で(#2028980) プリセット~ 為る(する){した} 場合 の 比較 です",
+    "vocabIds": [
+      "2184650",
+      "1355810",
+      "1474910",
+      "1483560"
+    ],
+    "matches": {
+      "1355810": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "ばあい"
+        },
+        {
+          "start": 33,
+          "length": 2,
+          "reading": "ばあい"
+        }
+      ],
+      "1474910": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "しろい"
+        }
+      ],
+      "1483560": [
+        {
+          "start": 36,
+          "length": 2,
+          "reading": "ひかく"
+        }
+      ],
+      "2184650": [
+        {
+          "start": 20,
+          "length": 5,
+          "reading": "こぴーようし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2976710",
+    "original": "コピー用紙が要ります。",
+    "en": [
+      {
+        "id": "2650962",
+        "text": "I need printer paper."
+      }
+    ],
+    "vocabIds": [
+      "2184650",
+      "1546640"
+    ],
+    "matches": {
+      "1546640": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "いります"
+        }
+      ],
+      "2184650": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "こぴーようし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12287255",
+    "original": "コピー用紙を切らしてしまった。",
+    "en": [
+      {
+        "id": "319864",
+        "text": "We've run out of paper for the photocopier."
+      }
+    ],
+    "vocabIds": [
+      "1383780",
+      "2184650"
+    ],
+    "matches": {
+      "1383780": [
+        {
+          "start": 6,
+          "length": 8,
+          "reading": "きらしてしまった"
+        }
+      ],
+      "2184650": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "こぴーようし"
+        }
+      ]
+    }
+  }
+]

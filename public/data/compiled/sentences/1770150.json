@@ -1,0 +1,71 @@
+[
+  {
+    "id": "93331",
+    "original": "彼女はいったん話し始めると止めどがない。",
+    "en": [
+      {
+        "id": "310377",
+        "text": "Once she starts talking, she is hard to stop."
+      }
+    ],
+    "indices": "彼女[01] は 一旦[01]{いったん} 話す{話し} 始める[03] と 止めど~ が 無い{ない}",
+    "vocabIds": [
+      "1562350",
+      "1770150",
+      "1483150"
+    ],
+    "matches": {
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1562350": [
+        {
+          "start": 7,
+          "length": 6,
+          "reading": "はなしはじめると"
+        }
+      ],
+      "1770150": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "とめど"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10117812",
+    "original": "トムはいったん話し始めると止めどがないのよ。",
+    "en": [
+      {
+        "id": "10115641",
+        "text": "Once Tom starts talking, he's hard to stop."
+      }
+    ],
+    "vocabIds": [
+      "1562350",
+      "1770150"
+    ],
+    "matches": {
+      "1562350": [
+        {
+          "start": 7,
+          "length": 6,
+          "reading": "はなしはじめると"
+        }
+      ],
+      "1770150": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "とめど"
+        }
+      ]
+    }
+  }
+]

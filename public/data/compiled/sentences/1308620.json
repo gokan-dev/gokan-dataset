@@ -1,0 +1,96 @@
+[
+  {
+    "id": "106506",
+    "original": "彼は市長選に立つだろう。",
+    "en": [
+      {
+        "id": "297180",
+        "text": "He will run for mayor."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 市長選 に 立つ[09] だろう",
+    "vocabIds": [
+      "1597040",
+      "1308620",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1308620": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "しちょうせん"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1597040": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "たつだろう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "168319",
+    "original": "市長選は４年ごとに行われる。",
+    "en": [
+      {
+        "id": "246174",
+        "text": "Voters cast their ballots for mayor every four years."
+      }
+    ],
+    "indices": "市長選~ は 年毎に{年ごとに} 行われる",
+    "vocabIds": [
+      "1469200",
+      "1643580",
+      "1308620",
+      "1579470"
+    ],
+    "matches": {
+      "1308620": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "しちょうせん"
+        }
+      ],
+      "1469200": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "ねんごとに"
+        }
+      ],
+      "1579470": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "よん"
+        }
+      ],
+      "1643580": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "おこなわれる"
+        }
+      ]
+    }
+  }
+]

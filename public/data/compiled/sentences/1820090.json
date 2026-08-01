@@ -1,0 +1,109 @@
+[
+  {
+    "id": "182183",
+    "original": "去年緑内障の手術をしました。",
+    "en": [
+      {
+        "id": "19407",
+        "text": "I had an operation for glaucoma last year."
+      }
+    ],
+    "indices": "去年 緑内障~ の 手術 を 為る(する){しました}",
+    "vocabIds": [
+      "1820090",
+      "1231690",
+      "1327790"
+    ],
+    "matches": {
+      "1231690": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きょねん"
+        }
+      ],
+      "1327790": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "しゅじゅつ"
+        }
+      ],
+      "1820090": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "りょくないしょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1745000",
+    "original": "去年緑内障で手術を受けました。",
+    "en": [
+      {
+        "id": "19407",
+        "text": "I had an operation for glaucoma last year."
+      }
+    ],
+    "vocabIds": [
+      "1329590",
+      "1820090",
+      "1231690",
+      "1327790"
+    ],
+    "matches": {
+      "1231690": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きょねん"
+        }
+      ],
+      "1327790": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "しゅじゅつ"
+        }
+      ],
+      "1329590": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "うけました"
+        }
+      ],
+      "1820090": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "りょくないしょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9964064",
+    "original": "緑内障ですか？",
+    "en": [
+      {
+        "id": "9850985",
+        "text": "Do you have glaucoma?"
+      }
+    ],
+    "vocabIds": [
+      "1820090"
+    ],
+    "matches": {
+      "1820090": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "りょくないしょう"
+        }
+      ]
+    }
+  }
+]

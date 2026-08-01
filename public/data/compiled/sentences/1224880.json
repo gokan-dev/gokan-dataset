@@ -1,0 +1,149 @@
+[
+  {
+    "id": "77031",
+    "original": "「じゃあ、チェックしちゃいますね」「審査宜しく。頑張ったつもりだぜ」",
+    "en": [
+      {
+        "id": "326688",
+        "text": "\"Right, I'll check your work, OK?\" \"Please go ahead and inspect. I think I gave it a good go.\""
+      }
+    ],
+    "indices": "じゃあ チェック[02] 為る(する){し} 仕舞う{ちゃいます} ね(#2029080)[01] 審査 宜しく[02] 頑張る{頑張った} 積もり[02]{つもり} だ ぜ",
+    "vocabIds": [
+      "1217700",
+      "1224880",
+      "1360380"
+    ],
+    "matches": {
+      "1217700": [
+        {
+          "start": 24,
+          "length": 4,
+          "reading": "がんばった"
+        }
+      ],
+      "1224880": [
+        {
+          "start": 20,
+          "length": 3,
+          "reading": "よろしく"
+        }
+      ],
+      "1360380": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "しんさ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "140378",
+    "original": "窓を開けても宜しいですか。",
+    "en": [
+      {
+        "id": "274195",
+        "text": "Can I open the window?"
+      },
+      {
+        "id": "3818524",
+        "text": "May I open the windows?"
+      },
+      {
+        "id": "4260723",
+        "text": "May I open the window?"
+      }
+    ],
+    "indices": "窓 を 開ける(あける){開け} ても 宜しい ですか",
+    "vocabIds": [
+      "1224880",
+      "1202450",
+      "1401400"
+    ],
+    "matches": {
+      "1202450": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "あけて"
+        }
+      ],
+      "1224880": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "よろしいです"
+        }
+      ],
+      "1401400": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "まど"
+        }
+      ]
+    }
+  },
+  {
+    "id": "226740",
+    "original": "お父さんに宜しく。",
+    "en": [
+      {
+        "id": "64086",
+        "text": "Remember me to your father."
+      }
+    ],
+    "indices": "お父さん に 宜しく[02]",
+    "vocabIds": [
+      "1002590",
+      "1224880"
+    ],
+    "matches": {
+      "1002590": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "おとうさん"
+        }
+      ],
+      "1224880": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "よろしく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10306723",
+    "original": "ナイフを借りても宜しいでしょうか。",
+    "en": [
+      {
+        "id": "36541",
+        "text": "May I borrow your knife?"
+      }
+    ],
+    "vocabIds": [
+      "1224880",
+      "1323560"
+    ],
+    "matches": {
+      "1224880": [
+        {
+          "start": 8,
+          "length": 7,
+          "reading": "よろしいでしょう"
+        }
+      ],
+      "1323560": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "かりて"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,222 @@
+[
+  {
+    "id": "74099",
+    "original": "ママ～！あのお姉ちゃんとお兄ちゃん、お手手繋いで、すっごく仲良しさんだね～！",
+    "en": [
+      {
+        "id": "329621",
+        "text": "Mama! That lady and man are holding hands, they're great friends aren't they!"
+      }
+    ],
+    "indices": "ママ[01]{ママ～} 彼の(あの){あの} お姉ちゃん[02]~ と お兄ちゃん[02] 御手手{お手手}~ 繋ぐ{繋いで} 凄く{すっごく} 仲良し さん だ ね{ね～}",
+    "vocabIds": [
+      "2222580",
+      "1001840",
+      "2080240",
+      "1426100",
+      "1251900"
+    ],
+    "matches": {
+      "1001840": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "おにいちゃん"
+        }
+      ],
+      "1251900": [
+        {
+          "start": 21,
+          "length": 3,
+          "reading": "つないで"
+        }
+      ],
+      "1426100": [
+        {
+          "start": 29,
+          "length": 3,
+          "reading": "なかよし"
+        }
+      ],
+      "2080240": [
+        {
+          "start": 18,
+          "length": 3,
+          "reading": "おてしゅ"
+        }
+      ],
+      "2222580": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "おねえちゃん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "175358",
+    "original": "犬が噛み付かないように鎖で繋いだ方がいいですよ。",
+    "en": [
+      {
+        "id": "239108",
+        "text": "You had better chain up the dog so that he won't bite."
+      },
+      {
+        "id": "10546860",
+        "text": "You'd better chain up the dog so he won't bite."
+      }
+    ],
+    "indices": "犬[01] が 噛み付く{噛み付かない} 様に{ように} 鎖(くさり) で(#2028980) 繋ぐ{繋いだ} 方がいい です よ",
+    "vocabIds": [
+      "1209220",
+      "2160680",
+      "1251900",
+      "1258330",
+      "1291730",
+      "1633480"
+    ],
+    "matches": {
+      "1209220": [
+        {
+          "start": 2,
+          "length": 6,
+          "reading": "かみつかない"
+        }
+      ],
+      "1251900": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "つないだ"
+        }
+      ],
+      "1258330": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "いぬ"
+        }
+      ],
+      "1291730": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "くさり"
+        }
+      ],
+      "1633480": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "くさり"
+        }
+      ],
+      "2160680": [
+        {
+          "start": 16,
+          "length": 4,
+          "reading": "ほうがいい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8888653",
+    "original": "インターネットを繋ごうとしても、繋がりません。",
+    "en": [
+      {
+        "id": "10063651",
+        "text": "Even if I try to connect to the internet, I can't connect."
+      }
+    ],
+    "vocabIds": [
+      "1251880",
+      "1251900"
+    ],
+    "matches": {
+      "1251880": [
+        {
+          "start": 16,
+          "length": 6,
+          "reading": "つながりません"
+        }
+      ],
+      "1251900": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "つなごう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10815546",
+    "original": "手を繋ぎたいです。",
+    "en": [
+      {
+        "id": "2429867",
+        "text": "I want to hold your hand."
+      }
+    ],
+    "vocabIds": [
+      "1251900",
+      "1327190"
+    ],
+    "matches": {
+      "1251900": [
+        {
+          "start": 2,
+          "length": 6,
+          "reading": "つなぎたいです"
+        }
+      ],
+      "1327190": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "て"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11202784",
+    "original": "手繋いでいい？",
+    "en": [
+      {
+        "id": "3024530",
+        "text": "May I hold your hand?"
+      },
+      {
+        "id": "3024531",
+        "text": "Can I hold your hand?"
+      },
+      {
+        "id": "3024532",
+        "text": "Is it OK if I hold your hand?"
+      }
+    ],
+    "vocabIds": [
+      "1251900",
+      "1327190"
+    ],
+    "matches": {
+      "1251900": [
+        {
+          "start": 1,
+          "length": 3,
+          "reading": "つないで"
+        }
+      ],
+      "1327190": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "て"
+        }
+      ]
+    }
+  }
+]

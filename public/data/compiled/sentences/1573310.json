@@ -1,0 +1,71 @@
+[
+  {
+    "id": "125874",
+    "original": "長時間歩くと踵にたこができる。",
+    "en": [
+      {
+        "id": "278118",
+        "text": "If you walk a lot, you will develop calluses on your heel."
+      }
+    ],
+    "indices": "長時間 歩く と 踵 に 胼胝{たこ}~ が[01] 出来る{できる}",
+    "vocabIds": [
+      "1429990",
+      "1514320",
+      "1573310"
+    ],
+    "matches": {
+      "1429990": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ちょうじかん"
+        }
+      ],
+      "1514320": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "あるくと"
+        }
+      ],
+      "1573310": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "かかと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10714604",
+    "original": "踵が痛い。",
+    "en": [
+      {
+        "id": "3273328",
+        "text": "I have a sore heel."
+      }
+    ],
+    "vocabIds": [
+      "1432680",
+      "1573310"
+    ],
+    "matches": {
+      "1432680": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "いたい"
+        }
+      ],
+      "1573310": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かかと"
+        }
+      ]
+    }
+  }
+]

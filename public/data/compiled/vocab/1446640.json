@@ -1,0 +1,132 @@
+{
+  "id": "1446640",
+  "writtenForm": {
+    "kanji": "唐",
+    "alternatives": [
+      "韓",
+      "漢"
+    ],
+    "containedKanji": [
+      "唐"
+    ]
+  },
+  "reading": {
+    "primary": "とう",
+    "alternatives": [
+      "から"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 22915,
+    "kanaRank": 151501
+  },
+  "progression": {
+    "kklcStep": 1615
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "hist"
+        ]
+      },
+      "glosses": [
+        "Tang dynasty (of China; 618-907)",
+        "T'ang dynasty"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "China",
+        "foreign country"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n",
+        "n-pref"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "China (sometimes also used in ref. to Korea or other foreign countries)"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "から"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1446640",
+      "isBase": true,
+      "originalPrimaryReading": "とう",
+      "originalGlosses": [
+        "Tang dynasty (of China; 618-907)",
+        "T'ang dynasty"
+      ]
+    },
+    {
+      "id": "2511320",
+      "isBase": false,
+      "originalPrimaryReading": "から",
+      "originalGlosses": [
+        "China (sometimes also used in ref. to Korea or other foreign countries)"
+      ]
+    }
+  ],
+  "parents": [
+    "1446710",
+    "1590640",
+    "1281600",
+    "1446680",
+    "1533890",
+    "1260480",
+    "2401640",
+    "1774800",
+    "1774810",
+    "2268700"
+  ]
+}

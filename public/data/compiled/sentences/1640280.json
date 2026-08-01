@@ -1,0 +1,82 @@
+[
+  {
+    "id": "205221",
+    "original": "それは言葉の綾にすぎない。",
+    "en": [
+      {
+        "id": "42463",
+        "text": "That's nothing but a figure of speech."
+      }
+    ],
+    "indices": "其れ[01]{それ} は 言葉の綾 に 過ぎる(すぎる){すぎない}",
+    "vocabIds": [
+      "1640280"
+    ],
+    "matches": {
+      "1640280": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "ことばのあや"
+        }
+      ]
+    }
+  },
+  {
+    "id": "219640",
+    "original": "この本は言葉のあやに富んだ本だ。",
+    "en": [
+      {
+        "id": "56961",
+        "text": "This book is full of figures of speech."
+      }
+    ],
+    "indices": "此の{この} 本(ほん)[01] は 言葉の綾{言葉のあや}~ に 富む{富んだ} 本(ほん)[01] だ",
+    "vocabIds": [
+      "1640280",
+      "1496740",
+      "1260670",
+      "1522150"
+    ],
+    "matches": {
+      "1260670": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ほん"
+        },
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "ほん"
+        }
+      ],
+      "1496740": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "とんだ"
+        }
+      ],
+      "1522150": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ほん"
+        },
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "ほん"
+        }
+      ],
+      "1640280": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "ことばのあや"
+        }
+      ]
+    }
+  }
+]

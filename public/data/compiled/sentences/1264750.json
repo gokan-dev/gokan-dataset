@@ -1,0 +1,72 @@
+[
+  {
+    "id": "174656",
+    "original": "個室を予約したいのですが？",
+    "en": [
+      {
+        "id": "239813",
+        "text": "I'd like to reserve a private compartment."
+      }
+    ],
+    "indices": "個室~ を 予約[01] したい のです が[03]",
+    "vocabIds": [
+      "1264750",
+      "1543750"
+    ],
+    "matches": {
+      "1264750": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こしつ"
+        }
+      ],
+      "1543750": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "よやく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "174657",
+    "original": "個室ですか、２人部屋ですか。",
+    "en": [
+      {
+        "id": "462440",
+        "text": "Single or double room?"
+      }
+    ],
+    "indices": "個室 ですか 二人{２人} 部屋[01] ですか",
+    "vocabIds": [
+      "1264750",
+      "1582670",
+      "1499320"
+    ],
+    "matches": {
+      "1264750": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こしつ"
+        }
+      ],
+      "1499320": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "へや"
+        }
+      ],
+      "1582670": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ににん"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,103 @@
+{
+  "id": "1658240",
+  "writtenForm": {
+    "kanji": "止まり",
+    "alternatives": [
+      "止り",
+      "留まり",
+      "留り"
+    ],
+    "containedKanji": [
+      "止"
+    ]
+  },
+  "reading": {
+    "primary": "とまり",
+    "alternatives": [
+      "どまり"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 28482,
+    "kanaRank": 77117
+  },
+  "progression": {
+    "kklcStep": 42
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "stop",
+        "stoppage",
+        "end"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n-suf"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "stopping at",
+        "going no further than"
+      ],
+      "related": {
+        "compounds": [
+          "止まり"
+        ]
+      },
+      "appliesToReadings": [
+        "どまり"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": false,
+  "mergedVocabs": [
+    {
+      "id": "1658240",
+      "isBase": true,
+      "originalPrimaryReading": "とまり",
+      "originalGlosses": [
+        "stop",
+        "stoppage",
+        "end"
+      ]
+    },
+    {
+      "id": "2224460",
+      "isBase": false,
+      "originalPrimaryReading": "どまり",
+      "originalGlosses": [
+        "stopping at",
+        "going no further than"
+      ]
+    }
+  ],
+  "parents": [
+    "1578820"
+  ]
+}

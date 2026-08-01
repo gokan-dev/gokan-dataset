@@ -1,0 +1,88 @@
+[
+  {
+    "id": "142135",
+    "original": "赤字を解消するのは大変な難問題です。",
+    "en": [
+      {
+        "id": "272435",
+        "text": "Eliminating the deficit will be a hard nut to crack."
+      }
+    ],
+    "indices": "赤字[01] を 解消 為る(する){する} の は 大変{大変な} 難問題 です",
+    "vocabIds": [
+      "1832190",
+      "1383440",
+      "1199040",
+      "1415000"
+    ],
+    "matches": {
+      "1199040": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かいしょう"
+        }
+      ],
+      "1383440": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あかじ"
+        }
+      ],
+      "1415000": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "たいへん"
+        }
+      ],
+      "1832190": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "なんもんだい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "177708",
+    "original": "君はそれらの難問題に対処しなくてはならない。",
+    "en": [
+      {
+        "id": "16560",
+        "text": "You have to cope with those difficult problems."
+      }
+    ],
+    "indices": "君(きみ)[01] は 其れ等{それら} の 難問題~ に 対処 為る(する){し} 無くてはならない[02]{なくてはならない}",
+    "vocabIds": [
+      "1832190",
+      "1410070",
+      "1247250"
+    ],
+    "matches": {
+      "1247250": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "きみ"
+        }
+      ],
+      "1410070": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "たいしょ"
+        }
+      ],
+      "1832190": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "なんもんだい"
+        }
+      ]
+    }
+  }
+]

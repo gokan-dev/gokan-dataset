@@ -1,0 +1,41 @@
+[
+  {
+    "id": "125581",
+    "original": "通勤客はストで足を奪われた。",
+    "en": [
+      {
+        "id": "278411",
+        "text": "Commuters were deprived of their transport by the strike."
+      }
+    ],
+    "indices": "通勤 客 は スト で(#2028980) 足(あし) を 奪う{奪われた}",
+    "vocabIds": [
+      "2843904",
+      "1416340",
+      "1404630"
+    ],
+    "matches": {
+      "1404630": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "あし"
+        }
+      ],
+      "1416340": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "うばわ"
+        }
+      ],
+      "2843904": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "つうきんきゃく"
+        }
+      ]
+    }
+  }
+]

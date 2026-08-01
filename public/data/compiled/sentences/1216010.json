@@ -1,0 +1,108 @@
+[
+  {
+    "id": "215328",
+    "original": "ジョンは関東地区、そして太郎は関西地区を担当している。",
+    "en": [
+      {
+        "id": "52628",
+        "text": "John covers the Kanto area and Taro covers the Kansai area."
+      }
+    ],
+    "indices": "は 関東~ 地区 而して{そして} は 関西 地区 を 担当~ 為る(する){している}",
+    "vocabIds": [
+      "1216010",
+      "1421020",
+      "2862858",
+      "1215910",
+      "1418160"
+    ],
+    "matches": {
+      "1215910": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "かんさい"
+        }
+      ],
+      "1216010": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "かんとう"
+        }
+      ],
+      "1418160": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "たんとう"
+        }
+      ],
+      "1421020": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ちく"
+        },
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "ちく"
+        }
+      ],
+      "2862858": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "たろう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3054154",
+    "original": "先週、関東で大雪が降りました。",
+    "en": [
+      {
+        "id": "3054344",
+        "text": "A lot of snow fell on the Kanto region last week."
+      }
+    ],
+    "vocabIds": [
+      "1589500",
+      "1387870",
+      "1216010",
+      "1414350"
+    ],
+    "matches": {
+      "1216010": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かんとう"
+        }
+      ],
+      "1387870": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "せんしゅう"
+        }
+      ],
+      "1414350": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "おおゆき"
+        }
+      ],
+      "1589500": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "おりました"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,159 @@
+[
+  {
+    "id": "203001",
+    "original": "チキンは食べられない、というけど、単なる食わず嫌いじゃないの。",
+    "en": [
+      {
+        "id": "40236",
+        "text": "You can't eat chicken? How do you know if you never try it?"
+      }
+    ],
+    "indices": "チキン は 食べる{食べられない} と 言う{いう} けど 単なる 食わず嫌い~ だ{じゃない} の",
+    "vocabIds": [
+      "1640630",
+      "1417020",
+      "1358280"
+    ],
+    "matches": {
+      "1358280": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "たべ"
+        }
+      ],
+      "1417020": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "たんなる"
+        }
+      ],
+      "1640630": [
+        {
+          "start": 20,
+          "length": 5,
+          "reading": "くわずぎらい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2739897",
+    "original": "トムはキウイを食わず嫌いしている。",
+    "en": [
+      {
+        "id": "2739909",
+        "text": "Even though Tom has never even tried eating one, he says he doesn't like kiwifruit."
+      }
+    ],
+    "vocabIds": [
+      "1640630"
+    ],
+    "matches": {
+      "1640630": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "くわずぎらい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10587429",
+    "original": "食わず嫌いで寿司を敬遠する人もいますが、何度か食べるうちに「寿司の虜になった」という人も結構多いですよ。",
+    "en": [
+      {
+        "id": "10787063",
+        "text": "There are those who distance themselves from sushi without having ever tried it, but there are also a fair number of people who have \"Become captive to sushi\" having only tried it a few times."
+      }
+    ],
+    "vocabIds": [
+      "1640630",
+      "1407460",
+      "1189180",
+      "1358280",
+      "1595650",
+      "1250730",
+      "1254760",
+      "1580640",
+      "1585420"
+    ],
+    "matches": {
+      "1189180": [
+        {
+          "start": 20,
+          "length": 3,
+          "reading": "なんどか"
+        }
+      ],
+      "1250730": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "けいえん"
+        }
+      ],
+      "1254760": [
+        {
+          "start": 44,
+          "length": 2,
+          "reading": "けっこう"
+        }
+      ],
+      "1358280": [
+        {
+          "start": 23,
+          "length": 3,
+          "reading": "たべる"
+        }
+      ],
+      "1407460": [
+        {
+          "start": 46,
+          "length": 4,
+          "reading": "おおいです"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "ひと"
+        },
+        {
+          "start": 42,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ],
+      "1585420": [
+        {
+          "start": 33,
+          "length": 1,
+          "reading": "とりこ"
+        }
+      ],
+      "1595650": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "すし"
+        },
+        {
+          "start": 30,
+          "length": 2,
+          "reading": "すし"
+        }
+      ],
+      "1640630": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "くわずぎらい"
+        }
+      ]
+    }
+  }
+]

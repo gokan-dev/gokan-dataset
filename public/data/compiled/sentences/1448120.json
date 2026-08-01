@@ -1,0 +1,79 @@
+[
+  {
+    "id": "122419",
+    "original": "日本は中国の東方にある。",
+    "en": [
+      {
+        "id": "281584",
+        "text": "Japan is to the east of China."
+      }
+    ],
+    "indices": "日本~ は 中国[01] の 東方[01]~ に 有る{ある}",
+    "vocabIds": [
+      "1582710",
+      "1424270",
+      "1448120"
+    ],
+    "matches": {
+      "1424270": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ちゅうごく"
+        }
+      ],
+      "1448120": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "とうほう"
+        }
+      ],
+      "1582710": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "にっぽん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1202368",
+    "original": "ジェラール・ド・ネルヴァルが『東方紀行』を書いた。",
+    "en": [
+      {
+        "id": "1202372",
+        "text": "Gérard de Nerval wrote Journey to the East."
+      }
+    ],
+    "vocabIds": [
+      "1343950",
+      "1448120",
+      "1222940"
+    ],
+    "matches": {
+      "1222940": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "きこう"
+        }
+      ],
+      "1343950": [
+        {
+          "start": 21,
+          "length": 3,
+          "reading": "かいた"
+        }
+      ],
+      "1448120": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "とうほう"
+        }
+      ]
+    }
+  }
+]

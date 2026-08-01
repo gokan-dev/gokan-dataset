@@ -1,0 +1,602 @@
+[
+  {
+    "id": "81808",
+    "original": "僕は匂いを嗅いだ。",
+    "en": [
+      {
+        "id": "321907",
+        "text": "I sniffed the smell."
+      }
+    ],
+    "indices": "僕(ぼく)[01] は 匂い[01] を 嗅ぐ{嗅いだ}",
+    "vocabIds": [
+      "1565480",
+      "1599760",
+      "1521400",
+      "2228300"
+    ],
+    "matches": {
+      "1521400": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ],
+      "1565480": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "かいだ"
+        }
+      ],
+      "1599760": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "におい"
+        }
+      ],
+      "2228300": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "82866",
+    "original": "母は風邪をひいて、においが嗅げなかった。",
+    "en": [
+      {
+        "id": "320850",
+        "text": "My mother caught a cold and couldn't smell."
+      }
+    ],
+    "indices": "母(はは) は 風邪をひく{風邪をひいて} 匂い[01]{におい} が 嗅ぐ{嗅げなかった}",
+    "vocabIds": [
+      "1565480",
+      "1583720",
+      "1514990"
+    ],
+    "matches": {
+      "1514990": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "はは"
+        }
+      ],
+      "1565480": [
+        {
+          "start": 13,
+          "length": 6,
+          "reading": "かげなかった"
+        }
+      ],
+      "1583720": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "かぜ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "156486",
+    "original": "私は私の鼻で臭いを嗅ぐ。",
+    "en": [
+      {
+        "id": "258048",
+        "text": "I smell with my nose."
+      }
+    ],
+    "indices": "私(わたし)[01] は 私(わたし)[01]{私の} 鼻 で(#2028980) 臭い(におい)[01] を 嗅ぐ",
+    "vocabIds": [
+      "1333150",
+      "1599760",
+      "1565480",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1486720"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        },
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1333150": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "におい"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        },
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1486720": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "はな"
+        }
+      ],
+      "1565480": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "かぐ"
+        }
+      ],
+      "1599760": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "におい"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        },
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "175237",
+    "original": "犬は棒の匂いを嗅いでいた。",
+    "en": [
+      {
+        "id": "239229",
+        "text": "The dog was sniffing a stick."
+      }
+    ],
+    "indices": "犬[01] は 棒 の 匂い[01] を 嗅ぐ{嗅いでいた}",
+    "vocabIds": [
+      "1565480",
+      "1599760",
+      "1258330",
+      "1519750"
+    ],
+    "matches": {
+      "1258330": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "いぬ"
+        }
+      ],
+      "1519750": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ぼう"
+        }
+      ],
+      "1565480": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "かいでいた"
+        }
+      ],
+      "1599760": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "におい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "201810",
+    "original": "ドアを開けたとたんに、彼は焦げ臭い匂いを嗅いだ。",
+    "en": [
+      {
+        "id": "39021",
+        "text": "The instant he opened the door, he smelt something burning."
+      },
+      {
+        "id": "1339451",
+        "text": "As soon as he opened the door, he smelled something burning."
+      }
+    ],
+    "indices": "ドア を[01] 開ける(あける){開けた} 途端に{とたんに} 彼(かれ)[01] は 焦げ臭い~ 匂い[01] を 嗅ぐ{嗅いだ}",
+    "vocabIds": [
+      "1350740",
+      "1202450",
+      "1565480",
+      "1599760",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1202450": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "あけた"
+        }
+      ],
+      "1350740": [
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "こげくさい"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1565480": [
+        {
+          "start": 20,
+          "length": 3,
+          "reading": "かいだ"
+        }
+      ],
+      "1599760": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "におい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "210960",
+    "original": "その犬は地面をくんくん嗅いだ。",
+    "en": [
+      {
+        "id": "48231",
+        "text": "The dog sniffed the ground."
+      }
+    ],
+    "indices": "其の[01]{その} 犬[01] は 地面 を クンクン{くんくん}~ 嗅ぐ{嗅いだ}",
+    "vocabIds": [
+      "1565480",
+      "1421510",
+      "1258330"
+    ],
+    "matches": {
+      "1258330": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "いぬ"
+        }
+      ],
+      "1421510": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "じめん"
+        }
+      ],
+      "1565480": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "かいだ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2364109",
+    "original": "彼は納豆の匂いを嗅ぐと気分が悪くなる。",
+    "en": [
+      {
+        "id": "2354297",
+        "text": "The smell of fermented soybeans sickens him."
+      }
+    ],
+    "vocabIds": [
+      "2691760",
+      "1565480",
+      "1470070",
+      "1599760",
+      "1222590",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1222590": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "きぶん"
+        }
+      ],
+      "1470070": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "なっとう"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1565480": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "かぐと"
+        }
+      ],
+      "1599760": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "におい"
+        }
+      ],
+      "2691760": [
+        {
+          "start": 14,
+          "length": 4,
+          "reading": "わるくなる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11263437",
+    "original": "魚の臭いを嗅ぐと胸が悪くなる。",
+    "en": [
+      {
+        "id": "7766986",
+        "text": "The smell of raw fish nauseates me."
+      }
+    ],
+    "vocabIds": [
+      "2013140",
+      "1565480",
+      "1333150",
+      "1599760",
+      "1578010"
+    ],
+    "matches": {
+      "1333150": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "におい"
+        }
+      ],
+      "1565480": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "かぐと"
+        }
+      ],
+      "1578010": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "さかな"
+        }
+      ],
+      "1599760": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "におい"
+        }
+      ],
+      "2013140": [
+        {
+          "start": 8,
+          "length": 6,
+          "reading": "むねがわるくなる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11263440",
+    "original": "生魚の臭いを嗅ぐとうえっとなる。",
+    "en": [
+      {
+        "id": "7766986",
+        "text": "The smell of raw fish nauseates me."
+      }
+    ],
+    "vocabIds": [
+      "1565480",
+      "2840553",
+      "1333150",
+      "1599760"
+    ],
+    "matches": {
+      "1333150": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "におい"
+        }
+      ],
+      "1565480": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "かぐと"
+        }
+      ],
+      "1599760": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "におい"
+        }
+      ],
+      "2840553": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "なまざかな"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11426959",
+    "original": "トムは薔薇の匂いを嗅いだ。",
+    "en": [
+      {
+        "id": "5858583",
+        "text": "Tom smelled the rose."
+      }
+    ],
+    "vocabIds": [
+      "1565480",
+      "1571760",
+      "1599760"
+    ],
+    "matches": {
+      "1565480": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "かいだ"
+        }
+      ],
+      "1571760": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ばら"
+        }
+      ],
+      "1599760": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "におい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11577766",
+    "original": "「何してるの？」「見れば分かるでしょう」「分からないわ」「花の匂いを嗅いでるの」",
+    "en": [
+      {
+        "id": "11761018",
+        "text": "\"What are you doing?\" \"Can't you tell?\" \"No, I can't.\" \"I'm smelling the flowers.\""
+      }
+    ],
+    "vocabIds": [
+      "1606560",
+      "1565480",
+      "1259290",
+      "1599760",
+      "1577100",
+      "1194500"
+    ],
+    "matches": {
+      "1194500": [
+        {
+          "start": 29,
+          "length": 1,
+          "reading": "はな"
+        }
+      ],
+      "1259290": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "みれば"
+        }
+      ],
+      "1565480": [
+        {
+          "start": 34,
+          "length": 4,
+          "reading": "かいでる"
+        }
+      ],
+      "1577100": [
+        {
+          "start": 1,
+          "length": 1,
+          "reading": "なに"
+        }
+      ],
+      "1599760": [
+        {
+          "start": 31,
+          "length": 2,
+          "reading": "におい"
+        }
+      ],
+      "1606560": [
+        {
+          "start": 12,
+          "length": 7,
+          "reading": "わかるでしょう"
+        },
+        {
+          "start": 21,
+          "length": 5,
+          "reading": "わからない"
+        }
+      ]
+    }
+  }
+]

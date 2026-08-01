@@ -1,0 +1,118 @@
+[
+  {
+    "id": "77014",
+    "original": "「どうだった？」「急性虫垂炎だって」",
+    "en": [
+      {
+        "id": "326705",
+        "text": "\"How did it go?\" \"They said it was acute appendicitis.\""
+      }
+    ],
+    "indices": "如何(どう){どう} だ{だった} 急性~ 虫垂炎~ だ って",
+    "vocabIds": [
+      "1426780",
+      "1228820"
+    ],
+    "matches": {
+      "1228820": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "きゅうせい"
+        }
+      ],
+      "1426780": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "ちゅうすいえん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "224439",
+    "original": "ここに急性の痛みがあります。",
+    "en": [
+      {
+        "id": "61775",
+        "text": "I have an acute pain here."
+      }
+    ],
+    "indices": "此処[01]{ここ} に 急性 の 痛み が[01] 有る{あります}",
+    "vocabIds": [
+      "1228820",
+      "1587300"
+    ],
+    "matches": {
+      "1228820": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "きゅうせい"
+        }
+      ],
+      "1587300": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "いたみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1338053",
+    "original": "彼は急性リンパ性白血病で死亡しました。",
+    "en": [
+      {
+        "id": "1338056",
+        "text": "He died from acute lymphoblastic leukemia."
+      }
+    ],
+    "vocabIds": [
+      "1969920",
+      "1228820",
+      "1310950",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1228820": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きゅうせい"
+        }
+      ],
+      "1310950": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "しぼう"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1969920": [
+        {
+          "start": 4,
+          "length": 7,
+          "reading": "りんぱせいはっけつびょう"
+        }
+      ]
+    }
+  }
+]

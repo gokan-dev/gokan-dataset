@@ -1,0 +1,383 @@
+[
+  {
+    "id": "172273",
+    "original": "今朝は気温が氷点下に下がっている。",
+    "en": [
+      {
+        "id": "242202",
+        "text": "The temperature has fallen below zero this morning."
+      }
+    ],
+    "indices": "今朝 は 気温 が 氷点下~ に 下がる{下がっている}",
+    "vocabIds": [
+      "1184160",
+      "1489170",
+      "1579100",
+      "1221950"
+    ],
+    "matches": {
+      "1184160": [
+        {
+          "start": 10,
+          "length": 6,
+          "reading": "さがっている"
+        }
+      ],
+      "1221950": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "きおん"
+        }
+      ],
+      "1489170": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "ひょうてんか"
+        }
+      ],
+      "1579100": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "けさ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "646773",
+    "original": "今日も氷点下です。",
+    "en": [
+      {
+        "id": "646774",
+        "text": "Even today, the temperature is below zero."
+      },
+      {
+        "id": "4212685",
+        "text": "The temperature is below zero today, too."
+      },
+      {
+        "id": "4212686",
+        "text": "Today, too, the temperature is below zero."
+      },
+      {
+        "id": "4890015",
+        "text": "Even today the temperature is below zero."
+      }
+    ],
+    "vocabIds": [
+      "1489170",
+      "1579110"
+    ],
+    "matches": {
+      "1489170": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "ひょうてんか"
+        }
+      ],
+      "1579110": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "670502",
+    "original": "今日もまだ氷点下だ。",
+    "en": [
+      {
+        "id": "646774",
+        "text": "Even today, the temperature is below zero."
+      }
+    ],
+    "vocabIds": [
+      "1489170",
+      "1579110"
+    ],
+    "matches": {
+      "1489170": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "ひょうてんか"
+        }
+      ],
+      "1579110": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2281526",
+    "original": "気温は氷点下6度です。",
+    "en": [
+      {
+        "id": "2280194",
+        "text": "It's six degrees below zero."
+      }
+    ],
+    "indices": "気温 は 氷点下 度(#1445160) です",
+    "vocabIds": [
+      "1489170",
+      "1221950",
+      "1445160"
+    ],
+    "matches": {
+      "1221950": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きおん"
+        }
+      ],
+      "1445160": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "ど"
+        }
+      ],
+      "1489170": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "ひょうてんか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10006179",
+    "original": "この数日間、ずっと氷点下の気温が続いている。",
+    "en": [
+      {
+        "id": "20348",
+        "text": "The temperature has been below freezing for several days."
+      }
+    ],
+    "vocabIds": [
+      "1405790",
+      "1373210",
+      "1489170",
+      "1221950"
+    ],
+    "matches": {
+      "1221950": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "きおん"
+        }
+      ],
+      "1373210": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "すうにちかん"
+        }
+      ],
+      "1405790": [
+        {
+          "start": 16,
+          "length": 5,
+          "reading": "つづいている"
+        }
+      ],
+      "1489170": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "ひょうてんか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10006208",
+    "original": "もう何日もずっと気温が氷点下なんだよ。",
+    "en": [
+      {
+        "id": "1008938",
+        "text": "The temperature has been below zero for many days now."
+      }
+    ],
+    "vocabIds": [
+      "2202930",
+      "1489170",
+      "1221950"
+    ],
+    "matches": {
+      "1221950": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "きおん"
+        }
+      ],
+      "1489170": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "ひょうてんか"
+        }
+      ],
+      "2202930": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "なんにちも"
+        }
+      ]
+    }
+  },
+  {
+    "id": "183226",
+    "original": "気温は連続して何日も氷点下だった。",
+    "en": [
+      {
+        "id": "10109476",
+        "text": "The temperature has been below freezing for many days in a row now."
+      }
+    ],
+    "indices": "気温 は 連続 為る(する){して} 何日も 氷点下 だ{だった}",
+    "vocabIds": [
+      "2202930",
+      "1489170",
+      "1221950",
+      "1559610"
+    ],
+    "matches": {
+      "1221950": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きおん"
+        }
+      ],
+      "1489170": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "ひょうてんか"
+        }
+      ],
+      "1559610": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "れんぞく"
+        }
+      ],
+      "2202930": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "なんにちも"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10559546",
+    "original": "温度計は氷点下3度を指しています。",
+    "en": [
+      {
+        "id": "25463",
+        "text": "The thermometer reads three degrees below zero."
+      }
+    ],
+    "vocabIds": [
+      "1309670",
+      "1183520",
+      "1489170",
+      "1445160"
+    ],
+    "matches": {
+      "1183520": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "おんどけい"
+        }
+      ],
+      "1309670": [
+        {
+          "start": 10,
+          "length": 6,
+          "reading": "さしています"
+        }
+      ],
+      "1445160": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "ど"
+        }
+      ],
+      "1489170": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "ひょうてんか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11286191",
+    "original": "昨夜は気温が氷点下を下回った。",
+    "en": [
+      {
+        "id": "10621332",
+        "text": "The temperature was below freezing last night."
+      }
+    ],
+    "vocabIds": [
+      "1184610",
+      "1489170",
+      "1542640",
+      "1221950"
+    ],
+    "matches": {
+      "1184610": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "したまわった"
+        }
+      ],
+      "1221950": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "きおん"
+        }
+      ],
+      "1489170": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "ひょうてんか"
+        }
+      ],
+      "1542640": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "さくや"
+        }
+      ]
+    }
+  }
+]

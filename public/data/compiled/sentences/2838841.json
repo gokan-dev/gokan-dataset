@@ -1,0 +1,41 @@
+[
+  {
+    "id": "123328",
+    "original": "突然の計画変更に面食らった。",
+    "en": [
+      {
+        "id": "280670",
+        "text": "I was quite upset at the sudden change in the plan."
+      }
+    ],
+    "indices": "突然{突然の} 計画 変更 に 面食らう{面食らった}",
+    "vocabIds": [
+      "1533490",
+      "2838841",
+      "1457040"
+    ],
+    "matches": {
+      "1457040": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とつぜん"
+        }
+      ],
+      "1533490": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "めんくらった"
+        }
+      ],
+      "2838841": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "けいかくへんこう"
+        }
+      ]
+    }
+  }
+]

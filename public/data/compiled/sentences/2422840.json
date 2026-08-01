@@ -1,0 +1,49 @@
+[
+  {
+    "id": "391896",
+    "original": "探検家が山中の道なき道を行った。",
+    "en": [
+      {
+        "id": "391897",
+        "text": "The explorer pushed his way through the trackless mountain region."
+      }
+    ],
+    "indices": "探検家 が 山中 の 道なき道~ を 行く[02]{行った}~",
+    "vocabIds": [
+      "2422840",
+      "1768910",
+      "1589060",
+      "1303050"
+    ],
+    "matches": {
+      "1303050": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "さんちゅう"
+        }
+      ],
+      "1589060": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "おこなった"
+        }
+      ],
+      "1768910": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "たんけんか"
+        }
+      ],
+      "2422840": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "みちなきみち"
+        }
+      ]
+    }
+  }
+]

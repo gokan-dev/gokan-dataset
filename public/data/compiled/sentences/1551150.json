@@ -1,0 +1,144 @@
+[
+  {
+    "id": "78316",
+    "original": "陸路ではそこへ行けない。",
+    "en": [
+      {
+        "id": "325401",
+        "text": "The place is not accessible by land."
+      },
+      {
+        "id": "9056207",
+        "text": "The place isn't accessible by land."
+      }
+    ],
+    "indices": "陸路~ で(#2028980) は 其処(そこ){そこ} へ 行く[01]{行けない}",
+    "vocabIds": [
+      "1000730",
+      "1551150"
+    ],
+    "matches": {
+      "1000730": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "いけない"
+        }
+      ],
+      "1551150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "りくろ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "99059",
+    "original": "彼は陸路でイタリアへ行った。",
+    "en": [
+      {
+        "id": "304640",
+        "text": "He went to Italy by land."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 陸路 で(#2028980) 伊太利{イタリア} へ 行く[01]{行った}",
+    "vocabIds": [
+      "1578850",
+      "1551150",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1551150": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "りくろ"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "いった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "390718",
+    "original": "陸路を運ぶのは大変ですが、海路で運ぶのは簡単です。",
+    "en": [
+      {
+        "id": "390719",
+        "text": "It's very difficult to transport them overland, but simple to do so by sea."
+      }
+    ],
+    "indices": "陸路 を 運ぶ の は 大変 です が 海路~ で(#2028980) 運ぶ の は 簡単 です",
+    "vocabIds": [
+      "1551150",
+      "1172660",
+      "1415000",
+      "1201830",
+      "1214330"
+    ],
+    "matches": {
+      "1172660": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "はこぶ"
+        },
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "はこぶ"
+        }
+      ],
+      "1201830": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "かいろ"
+        }
+      ],
+      "1214330": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "かんたん"
+        }
+      ],
+      "1415000": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "たいへん"
+        }
+      ],
+      "1551150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "りくろ"
+        }
+      ]
+    }
+  }
+]

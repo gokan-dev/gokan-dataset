@@ -1,0 +1,120 @@
+{
+  "id": "1337000",
+  "writtenForm": {
+    "kanji": "銃",
+    "alternatives": [
+      "砲"
+    ],
+    "containedKanji": [
+      "銃"
+    ]
+  },
+  "reading": {
+    "primary": "じゅう",
+    "alternatives": [
+      "つつ"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 3203,
+    "kanaRank": 74797
+  },
+  "jlptLevel": 3,
+  "progression": {
+    "kklcStep": 1057
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "gun",
+        "firearm",
+        "small arms (e.g. rifle, pistol, etc)"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "gun",
+        "firearm",
+        "long-barreled gun (e.g. musket, rifle, etc)"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "つつ"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1337000",
+      "isBase": true,
+      "originalPrimaryReading": "じゅう",
+      "originalGlosses": [
+        "gun",
+        "firearm",
+        "small arms (e.g. rifle, pistol, etc)"
+      ]
+    },
+    {
+      "id": "2864475",
+      "isBase": false,
+      "originalPrimaryReading": "つつ",
+      "originalGlosses": [
+        "gun",
+        "firearm",
+        "long-barreled gun (e.g. musket, rifle, etc)"
+      ]
+    }
+  ],
+  "parents": [
+    "1257760",
+    "1337070",
+    "1337080",
+    "1635700",
+    "1337020",
+    "1220890",
+    "2133410",
+    "1348260",
+    "1337050",
+    "1885480",
+    "1554460",
+    "1303570",
+    "1418730",
+    "1337010",
+    "1852890",
+    "2738290",
+    "1995050"
+  ]
+}

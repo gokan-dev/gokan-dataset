@@ -1,0 +1,102 @@
+[
+  {
+    "id": "145878",
+    "original": "食券はどう使うのですか。",
+    "en": [
+      {
+        "id": "268684",
+        "text": "How do I use meal tickets?"
+      }
+    ],
+    "indices": "食券 は 如何(どう){どう} 使う のです か",
+    "vocabIds": [
+      "1358440",
+      "1305990"
+    ],
+    "matches": {
+      "1305990": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "つかう"
+        }
+      ],
+      "1358440": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しょっけん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "145879",
+    "original": "食券はここで出しているのですか。",
+    "en": [
+      {
+        "id": "268683",
+        "text": "Are you giving out meal tickets here?"
+      }
+    ],
+    "indices": "食券~ は 此処[01]{ここ} で(#2028980) 出す{出している} のです か",
+    "vocabIds": [
+      "1338180",
+      "1358440"
+    ],
+    "matches": {
+      "1338180": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "だしている"
+        }
+      ],
+      "1358440": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しょっけん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10901898",
+    "original": "ここのラーメン屋は食券制です。",
+    "en": [
+      {
+        "id": "12421750",
+        "text": "This ramen restaurant uses a ticket system."
+      }
+    ],
+    "vocabIds": [
+      "2688030",
+      "1358440",
+      "1374620"
+    ],
+    "matches": {
+      "1358440": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "しょっけん"
+        }
+      ],
+      "1374620": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "せい"
+        }
+      ],
+      "2688030": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "らーめんや"
+        }
+      ]
+    }
+  }
+]

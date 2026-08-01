@@ -1,0 +1,133 @@
+[
+  {
+    "id": "190730",
+    "original": "医療保険は使えますか。",
+    "en": [
+      {
+        "id": "27890",
+        "text": "Can I use my medical insurance?"
+      }
+    ],
+    "indices": "医療保険 は 使える{使えます} か",
+    "vocabIds": [
+      "1160250",
+      "1607180"
+    ],
+    "matches": {
+      "1160250": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "いりょうほけん"
+        }
+      ],
+      "1607180": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "つかえます"
+        }
+      ]
+    }
+  },
+  {
+    "id": "190731",
+    "original": "医療保険に入りたいのですが。",
+    "en": [
+      {
+        "id": "27891",
+        "text": "I'd like to get medical insurance."
+      }
+    ],
+    "indices": "医療保険 に 入る(はいる)[02]{入り} たい[01] のです が",
+    "vocabIds": [
+      "1160250",
+      "1465590"
+    ],
+    "matches": {
+      "1160250": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "いりょうほけん"
+        }
+      ],
+      "1465590": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "はいりたい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "190732",
+    "original": "医療保険には入っていますか。",
+    "en": [
+      {
+        "id": "27892",
+        "text": "Do you have medical insurance?"
+      }
+    ],
+    "indices": "医療保険~ には 入る(はいる)[02]{入っています} か",
+    "vocabIds": [
+      "1465590",
+      "1160250"
+    ],
+    "matches": {
+      "1160250": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "いりょうほけん"
+        }
+      ],
+      "1465590": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "はいっています"
+        }
+      ]
+    }
+  },
+  {
+    "id": "774489",
+    "original": "個人医療保険に入ってますか？",
+    "en": [
+      {
+        "id": "817192",
+        "text": "Do you have a private medical insurance policy?"
+      }
+    ],
+    "vocabIds": [
+      "1465590",
+      "1160250",
+      "1264770"
+    ],
+    "matches": {
+      "1160250": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "いりょうほけん"
+        }
+      ],
+      "1264770": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こじん"
+        }
+      ],
+      "1465590": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "はいってます"
+        }
+      ]
+    }
+  }
+]

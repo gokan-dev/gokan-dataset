@@ -1,0 +1,104 @@
+[
+  {
+    "id": "127352",
+    "original": "誕生祝いに１杯どうぞ！店のおごりですよ。",
+    "en": [
+      {
+        "id": "276737",
+        "text": "Have a birthday drink! It's on the house."
+      }
+    ],
+    "indices": "誕生祝い~ に 一杯[02]{１杯} どうぞ[01] 店(みせ) の 奢り{おごり} です よ[01]",
+    "vocabIds": [
+      "1419090",
+      "1165670",
+      "1582120"
+    ],
+    "matches": {
+      "1165670": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "いちはい"
+        }
+      ],
+      "1419090": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "たんじょういわい"
+        }
+      ],
+      "1582120": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "みせ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "158852",
+    "original": "私はマドンナに赤ちゃんの誕生祝いのカードを贈りたい。",
+    "en": [
+      {
+        "id": "255675",
+        "text": "I'd like to send a congratulations card to Madonna for the birth of her baby girl."
+      }
+    ],
+    "indices": "私(わたし)[01] は に 赤ちゃん の 誕生祝い の カード(#1036400)[02] を 贈る{贈り} たい",
+    "vocabIds": [
+      "1383260",
+      "1419090",
+      "1403550",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1383260": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "あかちゃん"
+        }
+      ],
+      "1403550": [
+        {
+          "start": 21,
+          "length": 4,
+          "reading": "おくりたい"
+        }
+      ],
+      "1419090": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "たんじょういわい"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  }
+]

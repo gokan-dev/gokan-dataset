@@ -1,0 +1,143 @@
+[
+  {
+    "id": "145243",
+    "original": "新雪でスキーをするのはとても楽しいことです。",
+    "en": [
+      {
+        "id": "269320",
+        "text": "It is great fun skiing on new-fallen snow."
+      },
+      {
+        "id": "2715997",
+        "text": "It's a lot of fun skiing in fresh snow."
+      },
+      {
+        "id": "2715998",
+        "text": "Skiing in fresh snow is a lot of fun."
+      }
+    ],
+    "indices": "新雪~ で(#2028980) スキー を 為る(する)[01]{する} の は 迚も[01]{とても} 楽しい 事(こと){こと} です",
+    "vocabIds": [
+      "1207240",
+      "1362090"
+    ],
+    "matches": {
+      "1207240": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "たのしい"
+        }
+      ],
+      "1362090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しんせつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "145244",
+    "original": "新雪が丘に積もって美しく見える。",
+    "en": [
+      {
+        "id": "269319",
+        "text": "The fresh snow looks beautiful on the hill."
+      }
+    ],
+    "indices": "新雪 が 丘(おか) に 積もる[01]{積もって} 美しい{美しく} 見える(みえる)",
+    "vocabIds": [
+      "1382990",
+      "1486360",
+      "1259140",
+      "1362090",
+      "1588920",
+      "2251090"
+    ],
+    "matches": {
+      "1259140": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "みえる"
+        }
+      ],
+      "1362090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しんせつ"
+        }
+      ],
+      "1382990": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "つもって"
+        }
+      ],
+      "1486360": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "うつくしく"
+        }
+      ],
+      "1588920": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "おか"
+        }
+      ],
+      "2251090": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "おか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "169417",
+    "original": "山の頂上は新雪でおおわれている。",
+    "en": [
+      {
+        "id": "245069",
+        "text": "The summit of the mountain is covered with fresh snow."
+      }
+    ],
+    "indices": "山(やま)[01] の 頂上 は 新雪 で(#2028980) 覆う{おおわれている}",
+    "vocabIds": [
+      "1430220",
+      "1362090",
+      "1302680"
+    ],
+    "matches": {
+      "1302680": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "やま"
+        }
+      ],
+      "1362090": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "しんせつ"
+        }
+      ],
+      "1430220": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ちょうじょう"
+        }
+      ]
+    }
+  }
+]

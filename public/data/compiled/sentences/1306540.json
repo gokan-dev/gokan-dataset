@@ -1,0 +1,123 @@
+[
+  {
+    "id": "87546",
+    "original": "彼女は白いハンカチに自分のイニシャルを刺繍した。",
+    "en": [
+      {
+        "id": "316162",
+        "text": "She embroidered her initials on a white handkerchief."
+      },
+      {
+        "id": "898969",
+        "text": "She embroidered her own initials on the white handkerchief."
+      }
+    ],
+    "indices": "彼女[01] は 白い ハンカチ に 自分[01] の イニシャル[01] を 刺繍 為る(する){した}",
+    "vocabIds": [
+      "1483150",
+      "1474910",
+      "1318610",
+      "1306540"
+    ],
+    "matches": {
+      "1306540": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "ししゅう"
+        }
+      ],
+      "1318610": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "じぶん"
+        }
+      ],
+      "1474910": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "しろい"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "92687",
+    "original": "彼女からすばらしい刺繍品をもらった。",
+    "en": [
+      {
+        "id": "308149",
+        "text": "She gave me charming embroideries."
+      }
+    ],
+    "indices": "彼女 から 素晴らしい{すばらしい} 刺繍~ 品[01] を 貰う{もらった}",
+    "vocabIds": [
+      "1483150",
+      "1306540",
+      "2648780"
+    ],
+    "matches": {
+      "1306540": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "ししゅう"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "2648780": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "ひん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "234547",
+    "original": "アイルランドは刺繍で有名である。",
+    "en": [
+      {
+        "id": "71923",
+        "text": "Ireland is famous for lace."
+      }
+    ],
+    "indices": "愛蘭{アイルランド} は 刺繍 で(#2028980) 有名[01] である",
+    "vocabIds": [
+      "1306540",
+      "1541620"
+    ],
+    "matches": {
+      "1306540": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ししゅう"
+        }
+      ],
+      "1541620": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "ゆうめい"
+        }
+      ]
+    }
+  }
+]

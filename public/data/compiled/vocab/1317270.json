@@ -1,0 +1,97 @@
+{
+  "id": "1317270",
+  "writtenForm": {
+    "kanji": "耳栓",
+    "alternatives": [],
+    "containedKanji": [
+      "耳",
+      "栓"
+    ]
+  },
+  "reading": {
+    "primary": "みみせん",
+    "alternatives": [
+      "じせん"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 41212,
+    "kanaRank": 222854
+  },
+  "progression": {
+    "kklcStep": 2230
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "earplug (for protection against noise or water)"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "earplug (traditional jewellery worn in the earlobe, popular in Jomon-period Japan)"
+      ],
+      "related": {
+        "compounds": [
+          "耳当"
+        ]
+      },
+      "appliesToReadings": [
+        "じせん"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": false,
+  "mergedVocabs": [
+    {
+      "id": "1317270",
+      "isBase": true,
+      "originalPrimaryReading": "みみせん",
+      "originalGlosses": [
+        "earplug (for protection against noise or water)"
+      ]
+    },
+    {
+      "id": "2567290",
+      "isBase": false,
+      "originalPrimaryReading": "じせん",
+      "originalGlosses": [
+        "earplug (traditional jewellery worn in the earlobe, popular in Jomon-period Japan)"
+      ]
+    }
+  ],
+  "components": [
+    "1317170",
+    "1956550"
+  ]
+}

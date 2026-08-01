@@ -1,0 +1,124 @@
+[
+  {
+    "id": "204585",
+    "original": "それを思うだけでも気持ちが悪い。",
+    "en": [
+      {
+        "id": "41826",
+        "text": "The very idea of it is disgusting."
+      }
+    ],
+    "indices": "其れ[01]{それ} を 思う 丈(だけ){だけ} でも 気持ちが悪い[01]~",
+    "vocabIds": [
+      "2833073",
+      "1589350"
+    ],
+    "matches": {
+      "1589350": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "おもう"
+        }
+      ],
+      "2833073": [
+        {
+          "start": 9,
+          "length": 6,
+          "reading": "きもちがわるい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "230686",
+    "original": "あの水を飲むと気持ちが悪い。",
+    "en": [
+      {
+        "id": "68054",
+        "text": "I don't feel well after drinking that water."
+      }
+    ],
+    "indices": "彼の(あの){あの} 水(みず) を 飲む[01] と 気持ちが悪い[02]~",
+    "vocabIds": [
+      "2833073",
+      "1169870",
+      "1371260"
+    ],
+    "matches": {
+      "1169870": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "のむと"
+        }
+      ],
+      "1371260": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "みず"
+        }
+      ],
+      "2833073": [
+        {
+          "start": 7,
+          "length": 6,
+          "reading": "きもちがわるい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1263632",
+    "original": "気持ちが悪いんです。薬をいただけませんか。",
+    "en": [
+      {
+        "id": "20297",
+        "text": "I don't feel well. Could you give me some medicine?"
+      }
+    ],
+    "vocabIds": [
+      "2833073",
+      "1538160"
+    ],
+    "matches": {
+      "1538160": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "くすり"
+        }
+      ],
+      "2833073": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "きもちがわるい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3495029",
+    "original": "気持ちが悪い。",
+    "en": [
+      {
+        "id": "2245736",
+        "text": "I feel awful."
+      }
+    ],
+    "vocabIds": [
+      "2833073"
+    ],
+    "matches": {
+      "2833073": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "きもちがわるい"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,104 @@
+[
+  {
+    "id": "172082",
+    "original": "今度新規ビジネスを始めるんだ。それで物は相談なんだけど、君、一枚噛んでくれないか。",
+    "en": [
+      {
+        "id": "242393",
+        "text": "We've got some new business coming in and I want to discuss it with you. Do you mind getting involved?"
+      }
+    ],
+    "indices": "今度 新規[01] ビジネス を 始める[01] ん[04] だ 其れで{それで} 物(もの)[01] は 相談 なのだ{なんだ} けど 君(きみ)[01] 一枚噛む{一枚噛んで} 呉れる{くれない} か",
+    "vocabIds": [
+      "1209240",
+      "2419620",
+      "1307550",
+      "1289370",
+      "1361650",
+      "1166430",
+      "1166710",
+      "1247250"
+    ],
+    "matches": {
+      "1166430": [
+        {
+          "start": 30,
+          "length": 2,
+          "reading": "いちまい"
+        }
+      ],
+      "1166710": [
+        {
+          "start": 30,
+          "length": 2,
+          "reading": "いちまい"
+        }
+      ],
+      "1209240": [
+        {
+          "start": 32,
+          "length": 7,
+          "reading": "かんでくれない"
+        }
+      ],
+      "1247250": [
+        {
+          "start": 28,
+          "length": 1,
+          "reading": "きみ"
+        }
+      ],
+      "1289370": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こんど"
+        }
+      ],
+      "1307550": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "はじめる"
+        }
+      ],
+      "1361650": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "しんき"
+        }
+      ],
+      "2419620": [
+        {
+          "start": 18,
+          "length": 4,
+          "reading": "ものはそうだん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "193175",
+    "original": "ものは相談だけど。",
+    "en": [
+      {
+        "id": "30340",
+        "text": "I have something to ask of you."
+      }
+    ],
+    "indices": "物(もの){もの} は 相談 だ けど",
+    "vocabIds": [
+      "2419620"
+    ],
+    "matches": {
+      "2419620": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "ものはそうだん"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,151 @@
+{
+  "id": "2222230",
+  "writtenForm": {
+    "kanji": "下野",
+    "alternatives": [
+      "繍線菊"
+    ],
+    "containedKanji": [
+      "下",
+      "野"
+    ]
+  },
+  "reading": {
+    "primary": "しもつけ",
+    "alternatives": [
+      "シモツケ",
+      "げや"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 44747,
+    "kanaRank": 91390
+  },
+  "progression": {
+    "kklcStep": 534
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": true,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk",
+          "abbr"
+        ]
+      },
+      "glosses": [
+        "Japanese spirea (Spiraea Japonica)",
+        "meadowsweet"
+      ],
+      "related": {
+        "compounds": [
+          "下毛野"
+        ]
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "hist"
+        ]
+      },
+      "glosses": [
+        "Shimotsuke (former province located in present-day Tochigi Prefecture)"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n",
+        "vs",
+        "vi"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "resigning from (public) office"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "げや"
+      ]
+    },
+    {
+      "pos": [
+        "n",
+        "vs",
+        "vi"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "going out of power (of a party)",
+        "going into opposition"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "げや"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": true
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "2222230",
+      "isBase": true,
+      "originalPrimaryReading": "しもつけ",
+      "originalGlosses": [
+        "Japanese spirea (Spiraea Japonica)",
+        "meadowsweet"
+      ]
+    },
+    {
+      "id": "1186470",
+      "isBase": false,
+      "originalPrimaryReading": "げや",
+      "originalGlosses": [
+        "resigning from (public) office"
+      ]
+    }
+  ],
+  "components": [
+    "1184140",
+    "1537250"
+  ]
+}

@@ -1,0 +1,139 @@
+[
+  {
+    "id": "210169",
+    "original": "その子は遊び友達を欲しがっている。",
+    "en": [
+      {
+        "id": "47432",
+        "text": "He wants a playmate."
+      },
+      {
+        "id": "1264331",
+        "text": "That child wants someone to play with."
+      },
+      {
+        "id": "1264335",
+        "text": "That child wants a friend to play with."
+      },
+      {
+        "id": "1264340",
+        "text": "That child wants some friends to play with."
+      }
+    ],
+    "indices": "其の[01]{その} 子(こ)[01] は 遊び友達~ を 欲しい[01]{欲しがっている}",
+    "vocabIds": [
+      "2513200",
+      "1547330",
+      "1307770",
+      "1320800",
+      "1324960"
+    ],
+    "matches": {
+      "1307770": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "こ"
+        }
+      ],
+      "1320800": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "こ"
+        }
+      ],
+      "1324960": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "こ"
+        }
+      ],
+      "1547330": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "ほし"
+        }
+      ],
+      "2513200": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "あそびともだち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "210283",
+    "original": "その子には遊び友達がほとんどいない。",
+    "en": [
+      {
+        "id": "47548",
+        "text": "The boy has few friends to play with."
+      }
+    ],
+    "indices": "其の[01]{その} 子(こ)[01] には 遊び友達 が 殆ど{ほとんど} 居る(いる){いない}",
+    "vocabIds": [
+      "2513200",
+      "1307770",
+      "1320800",
+      "1324960"
+    ],
+    "matches": {
+      "1307770": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "こ"
+        }
+      ],
+      "1320800": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "こ"
+        }
+      ],
+      "1324960": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "こ"
+        }
+      ],
+      "2513200": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "あそびともだち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "229513",
+    "original": "アンには遊び友達がいなかった。",
+    "en": [
+      {
+        "id": "66873",
+        "text": "Ann had no friends to play with."
+      }
+    ],
+    "indices": "には 遊び友達 が 居る(いる)[01]{いなかった}",
+    "vocabIds": [
+      "2513200"
+    ],
+    "matches": {
+      "2513200": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "あそびともだち"
+        }
+      ]
+    }
+  }
+]

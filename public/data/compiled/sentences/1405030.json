@@ -1,0 +1,277 @@
+[
+  {
+    "id": "139691",
+    "original": "速達にしてくれませんか。",
+    "en": [
+      {
+        "id": "274521",
+        "text": "Can you make it special delivery?"
+      }
+    ],
+    "indices": "速達 に 為る(する){して} 呉れる{くれません} か",
+    "vocabIds": [
+      "1405030"
+    ],
+    "matches": {
+      "1405030": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "そくたつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "139695",
+    "original": "速達で送ってください。",
+    "en": [
+      {
+        "id": "274520",
+        "text": "Please send it by express mail."
+      }
+    ],
+    "indices": "速達 で(#2028980) 送る{送って} 下さい{ください}",
+    "vocabIds": [
+      "1402730",
+      "1405030"
+    ],
+    "matches": {
+      "1402730": [
+        {
+          "start": 3,
+          "length": 7,
+          "reading": "おくってください"
+        }
+      ],
+      "1405030": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "そくたつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "146879",
+    "original": "小包を速達で送ると割り増し料金がいります。",
+    "en": [
+      {
+        "id": "267683",
+        "text": "There is an extra charge for mailing packages by express."
+      }
+    ],
+    "indices": "小包 を 速達 で(#2028980) 送る と 割り増し料金~ が 要る{いります}",
+    "vocabIds": [
+      "1716540",
+      "1402730",
+      "1593290",
+      "1405030"
+    ],
+    "matches": {
+      "1402730": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "おくると"
+        }
+      ],
+      "1405030": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "そくたつ"
+        }
+      ],
+      "1593290": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こづつみ"
+        }
+      ],
+      "1716540": [
+        {
+          "start": 9,
+          "length": 6,
+          "reading": "わりましりょうきん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "148551",
+    "original": "手紙を速達で送ってください。",
+    "en": [
+      {
+        "id": "266008",
+        "text": "Please send the letter by express."
+      }
+    ],
+    "indices": "手紙 を 速達 で(#2028980) 送る{送って} 下さい{ください}",
+    "vocabIds": [
+      "1402730",
+      "1327720",
+      "1405030"
+    ],
+    "matches": {
+      "1327720": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "てがみ"
+        }
+      ],
+      "1402730": [
+        {
+          "start": 6,
+          "length": 7,
+          "reading": "おくってください"
+        }
+      ],
+      "1405030": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "そくたつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "217622",
+    "original": "これを速達で送って下さい。",
+    "en": [
+      {
+        "id": "54932",
+        "text": "Please send this by special delivery."
+      }
+    ],
+    "indices": "此れ[01]{これ} を 速達 で(#2028980) 送る{送って} 下さい",
+    "vocabIds": [
+      "1402730",
+      "1405030"
+    ],
+    "matches": {
+      "1402730": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "おくってください"
+        }
+      ],
+      "1405030": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "そくたつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "217623",
+    "original": "これを速達で出してください。",
+    "en": [
+      {
+        "id": "54933",
+        "text": "Send this by special delivery."
+      }
+    ],
+    "indices": "此れ[01]{これ} を 速達~ で(#2028980) 出す[05]{出して} 下さい{ください}",
+    "vocabIds": [
+      "1338180",
+      "1405030"
+    ],
+    "matches": {
+      "1338180": [
+        {
+          "start": 6,
+          "length": 7,
+          "reading": "だしてください"
+        }
+      ],
+      "1405030": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "そくたつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "221313",
+    "original": "この手紙を速達で送っていただけませんか。",
+    "en": [
+      {
+        "id": "58637",
+        "text": "Will you express this letter?"
+      },
+      {
+        "id": "746926",
+        "text": "Won't you please send this letter by Express Mail?"
+      }
+    ],
+    "indices": "此の{この} 手紙 を 速達 で(#2028980) 送る{送って} 頂ける[01]{いただけません} か",
+    "vocabIds": [
+      "1402730",
+      "1327720",
+      "1405030"
+    ],
+    "matches": {
+      "1327720": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "てがみ"
+        }
+      ],
+      "1402730": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "おくっていた"
+        }
+      ],
+      "1405030": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "そくたつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9049842",
+    "original": "速達でお願いします。",
+    "en": [
+      {
+        "id": "274522",
+        "text": "Please send it by special delivery."
+      }
+    ],
+    "vocabIds": [
+      "1001720",
+      "1405030"
+    ],
+    "matches": {
+      "1001720": [
+        {
+          "start": 3,
+          "length": 6,
+          "reading": "おねがいします"
+        }
+      ],
+      "1405030": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "そくたつ"
+        }
+      ]
+    }
+  }
+]

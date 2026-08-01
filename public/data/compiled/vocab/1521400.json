@@ -1,0 +1,189 @@
+{
+  "id": "1521400",
+  "writtenForm": {
+    "kanji": "僕",
+    "alternatives": [
+      "下部",
+      "隷"
+    ],
+    "containedKanji": [
+      "僕"
+    ]
+  },
+  "reading": {
+    "primary": "ぼく",
+    "alternatives": [
+      "ボク",
+      "やつがれ",
+      "しもべ"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 458,
+    "kanaRank": 3199
+  },
+  "jlptLevel": 4,
+  "progression": {
+    "kklcStep": 1358
+  },
+  "senses": [
+    {
+      "pos": [
+        "pn"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "male"
+        ]
+      },
+      "glosses": [
+        "I",
+        "me"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "pn"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "col"
+        ]
+      },
+      "glosses": [
+        "you"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "manservant"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "pn"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch",
+          "hum"
+        ]
+      },
+      "glosses": [
+        "I",
+        "me"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "やつがれ"
+      ]
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "servant",
+        "manservant",
+        "menial"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "しもべ"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": true
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1521400",
+      "isBase": true,
+      "originalPrimaryReading": "ぼく",
+      "originalGlosses": [
+        "I",
+        "me"
+      ]
+    },
+    {
+      "id": "2055600",
+      "isBase": false,
+      "originalPrimaryReading": "やつがれ",
+      "originalGlosses": [
+        "I",
+        "me"
+      ]
+    },
+    {
+      "id": "1521390",
+      "isBase": false,
+      "originalPrimaryReading": "しもべ",
+      "originalGlosses": [
+        "servant",
+        "manservant",
+        "menial"
+      ]
+    }
+  ],
+  "parents": [
+    "1521420",
+    "1521410",
+    "1186420",
+    "1274740",
+    "2830291",
+    "2852706"
+  ]
+}

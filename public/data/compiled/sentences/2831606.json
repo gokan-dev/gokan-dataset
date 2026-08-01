@@ -1,0 +1,57 @@
+[
+  {
+    "id": "170152",
+    "original": "昨日、会社帰りに昔の彼女にバッタリ会った。",
+    "en": [
+      {
+        "id": "244332",
+        "text": "Yesterday I was on my way home from work when I ran smack into my old girlfriend."
+      }
+    ],
+    "indices": "昨日 会社帰り~ に 昔{昔の} 彼女[02] に ばったり{バッタリ} 会う[01]{会った}",
+    "vocabIds": [
+      "2831606",
+      "1198180",
+      "1579260",
+      "1483150",
+      "1382370"
+    ],
+    "matches": {
+      "1198180": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "あった"
+        }
+      ],
+      "1382370": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "むかし"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1579260": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きのう"
+        }
+      ],
+      "2831606": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "かいしゃがえり"
+        }
+      ]
+    }
+  }
+]

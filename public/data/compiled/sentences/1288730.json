@@ -1,0 +1,88 @@
+[
+  {
+    "id": "116473",
+    "original": "彼の提案は骨抜きになった。",
+    "en": [
+      {
+        "id": "287196",
+        "text": "His proposal has been watered down."
+      }
+    ],
+    "indices": "彼(かれ)[01]{彼の} 提案 は 骨抜き[02]~ になる[01]{になった}",
+    "vocabIds": [
+      "1288730",
+      "1000420",
+      "1436320"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれの"
+        }
+      ],
+      "1288730": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "ほねぬき"
+        }
+      ],
+      "1436320": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ていあん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "182896",
+    "original": "議会を通過しないうちにその法案は骨抜きにされた。",
+    "en": [
+      {
+        "id": "20017",
+        "text": "The bill was eviscerated before being passed by the legislature."
+      }
+    ],
+    "indices": "議会 を 通過[02] 為る(する){し} ない内に{ないうちに} 其の[01]{その} 法案 は 骨抜き[02] に 為れる{された}",
+    "vocabIds": [
+      "1288730",
+      "1226040",
+      "1433070",
+      "1517160"
+    ],
+    "matches": {
+      "1226040": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ぎかい"
+        }
+      ],
+      "1288730": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "ほねぬき"
+        }
+      ],
+      "1433070": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "つうか"
+        }
+      ],
+      "1517160": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "ほうあん"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "id": "80614",
+    "original": "明日から梅雨前線が活発になります。",
+    "en": [
+      {
+        "id": "323103",
+        "text": "The seasonal rain front is moving in tomorrow."
+      }
+    ],
+    "indices": "明日 から[01] 梅雨前線~ が 活発 になる[01]{になります}",
+    "vocabIds": [
+      "1783200",
+      "1584660",
+      "1208410"
+    ],
+    "matches": {
+      "1208410": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "かっぱつ"
+        }
+      ],
+      "1584660": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あした"
+        }
+      ],
+      "1783200": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "つゆぜんせん"
+        }
+      ]
+    }
+  }
+]

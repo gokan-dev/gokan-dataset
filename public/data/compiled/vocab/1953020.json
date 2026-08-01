@@ -1,0 +1,98 @@
+{
+  "id": "1953020",
+  "writtenForm": {
+    "kanji": "生り",
+    "alternatives": [
+      "生"
+    ],
+    "containedKanji": [
+      "生"
+    ]
+  },
+  "reading": {
+    "primary": "なり",
+    "alternatives": [
+      "なまり"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 999999,
+    "kanaRank": 999999
+  },
+  "progression": {
+    "kklcStep": 36
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "bearing (fruit)"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": true,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk",
+          "abbr"
+        ]
+      },
+      "glosses": [
+        "boiled and half-dried bonito"
+      ],
+      "related": {
+        "compounds": [
+          "生り節"
+        ]
+      },
+      "appliesToReadings": [
+        "なまり"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": false,
+  "mergedVocabs": [
+    {
+      "id": "1953020",
+      "isBase": true,
+      "originalPrimaryReading": "なり",
+      "originalGlosses": [
+        "bearing (fruit)"
+      ]
+    },
+    {
+      "id": "2416420",
+      "isBase": false,
+      "originalPrimaryReading": "なまり",
+      "originalGlosses": [
+        "boiled and half-dried bonito"
+      ]
+    }
+  ],
+  "components": [
+    "1378440"
+  ]
+}

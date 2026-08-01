@@ -1,0 +1,57 @@
+[
+  {
+    "id": "75604",
+    "original": "入学式も終わりました。同じ沿線の大学です。",
+    "en": [
+      {
+        "id": "328114",
+        "text": "I've already had the entrance ceremony. It's a university alongside the same railway line."
+      }
+    ],
+    "indices": "入学式 も 終わる{終わりました} 同じ[01] 沿線{沿線の}~ 大学 です",
+    "vocabIds": [
+      "1589600",
+      "1465910",
+      "1451750",
+      "1176750",
+      "1413240"
+    ],
+    "matches": {
+      "1176750": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "えんせん"
+        }
+      ],
+      "1413240": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "だいがく"
+        }
+      ],
+      "1451750": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "おなじ"
+        }
+      ],
+      "1465910": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "にゅうがくしき"
+        }
+      ],
+      "1589600": [
+        {
+          "start": 4,
+          "length": 6,
+          "reading": "おわりました"
+        }
+      ]
+    }
+  }
+]

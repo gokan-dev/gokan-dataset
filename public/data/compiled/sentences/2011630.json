@@ -1,0 +1,88 @@
+[
+  {
+    "id": "155657",
+    "original": "私は人種隔離に反対だ。",
+    "en": [
+      {
+        "id": "258881",
+        "text": "I don't agree with segregation of people by race."
+      }
+    ],
+    "indices": "私(わたし)[01] は 人種 隔離 に 反対 だ",
+    "vocabIds": [
+      "2011630",
+      "1480670",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1480670": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "はんたい"
+        }
+      ],
+      "2011630": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "じんしゅかくり"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "193156",
+    "original": "モントゴメリーのバスは人種隔離が行われていた。",
+    "en": [
+      {
+        "id": "30321",
+        "text": "The buses in Montgomery were segregated."
+      }
+    ],
+    "indices": "NI{モントゴメリー} の バス(#1098390) は 人種隔離~ が 行われる{行われていた}",
+    "vocabIds": [
+      "2011630",
+      "1589060"
+    ],
+    "matches": {
+      "1589060": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "おこなわ"
+        }
+      ],
+      "2011630": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "じんしゅかくり"
+        }
+      ]
+    }
+  }
+]

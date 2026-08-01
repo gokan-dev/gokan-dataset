@@ -1,0 +1,79 @@
+[
+  {
+    "id": "142993",
+    "original": "晴天にもかかわらず、空気は冷え冷えとしていた。",
+    "en": [
+      {
+        "id": "271575",
+        "text": "In spite of the sunny weather, the air was rather chilly."
+      }
+    ],
+    "indices": "晴天 にも関わらず{にもかかわらず} 空気 は 冷え冷え{冷え冷えと}~ 為る(する){していた}",
+    "vocabIds": [
+      "1556710",
+      "1376550",
+      "1245470"
+    ],
+    "matches": {
+      "1245470": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "くうき"
+        }
+      ],
+      "1376550": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "せいてん"
+        }
+      ],
+      "1556710": [
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "ひえびえ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10153665",
+    "original": "体の芯まで冷え冷えだよ。",
+    "en": [
+      {
+        "id": "275227",
+        "text": "I'm chilled to the bone."
+      }
+    ],
+    "vocabIds": [
+      "1556710",
+      "1409140",
+      "1595120"
+    ],
+    "matches": {
+      "1409140": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "からだ"
+        }
+      ],
+      "1556710": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "ひえびえ"
+        }
+      ],
+      "1595120": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "しん"
+        }
+      ]
+    }
+  }
+]

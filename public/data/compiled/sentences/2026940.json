@@ -1,0 +1,71 @@
+[
+  {
+    "id": "212276",
+    "original": "その映画はお涙頂戴ものだ。",
+    "en": [
+      {
+        "id": "49557",
+        "text": "The movie is a stereotyped sob story."
+      }
+    ],
+    "indices": "其の[01]{その} 映画 は お涙頂戴~ 物(もの){もの} だ",
+    "vocabIds": [
+      "2026940",
+      "1173720"
+    ],
+    "matches": {
+      "1173720": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "えいが"
+        }
+      ],
+      "2026940": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "おなみだちょうだい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10746476",
+    "original": "お涙頂戴な映画は苦手なんだ。",
+    "en": [
+      {
+        "id": "261387",
+        "text": "I don't like sad movies."
+      }
+    ],
+    "vocabIds": [
+      "2026940",
+      "1173720",
+      "1244470"
+    ],
+    "matches": {
+      "1173720": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "えいが"
+        }
+      ],
+      "1244470": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "にがて"
+        }
+      ],
+      "2026940": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "おなみだちょうだい"
+        }
+      ]
+    }
+  }
+]

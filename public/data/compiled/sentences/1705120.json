@@ -1,0 +1,88 @@
+[
+  {
+    "id": "74436",
+    "original": "ブレーカーが落ちて真っ暗闇になった時、赤ちゃんが怖くて泣きだしました。",
+    "en": [
+      {
+        "id": "329283",
+        "text": "When the breaker tripped and it became pitch black, the baby got scared and started crying."
+      }
+    ],
+    "indices": "ブレーカー が 落ちる[01]{落ちて} 真っ暗闇~ になる{になった} 時(とき) 赤ちゃん が 怖い{怖くて} 泣き出す{泣きだしました}",
+    "vocabIds": [
+      "1229840",
+      "1705120",
+      "1383260",
+      "1548550",
+      "1593480",
+      "1315840"
+    ],
+    "matches": {
+      "1229840": [
+        {
+          "start": 27,
+          "length": 7,
+          "reading": "なきだしました"
+        }
+      ],
+      "1315840": [
+        {
+          "start": 17,
+          "length": 1,
+          "reading": "とき"
+        }
+      ],
+      "1383260": [
+        {
+          "start": 19,
+          "length": 4,
+          "reading": "あかちゃん"
+        }
+      ],
+      "1548550": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "おちて"
+        }
+      ],
+      "1593480": [
+        {
+          "start": 24,
+          "length": 3,
+          "reading": "こわくて"
+        }
+      ],
+      "1705120": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "まっくらやみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "145007",
+    "original": "真っ暗闇だ。",
+    "en": [
+      {
+        "id": "269556",
+        "text": "It is pitch dark."
+      }
+    ],
+    "indices": "真っ暗闇 だ",
+    "vocabIds": [
+      "1705120"
+    ],
+    "matches": {
+      "1705120": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "まっくらやみ"
+        }
+      ]
+    }
+  }
+]

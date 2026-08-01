@@ -1,0 +1,75 @@
+[
+  {
+    "id": "10091468",
+    "original": "脳震盪だとお医者さんに言われました。",
+    "en": [
+      {
+        "id": "3202607",
+        "text": "The doctor told me I had a concussion."
+      }
+    ],
+    "vocabIds": [
+      "1612760",
+      "1828190",
+      "1587040"
+    ],
+    "matches": {
+      "1587040": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "いわ"
+        }
+      ],
+      "1612760": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "おいしゃさん"
+        }
+      ],
+      "1828190": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "のうしんとう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "121723",
+    "original": "脳しんとうを起こしました。",
+    "en": [
+      {
+        "id": "10466980",
+        "text": "I had concussion."
+      },
+      {
+        "id": "10482478",
+        "text": "I had a concussion."
+      }
+    ],
+    "indices": "脳振盪{脳しんとう}~ を 起こす{起こしました}",
+    "vocabIds": [
+      "1223660",
+      "1828190"
+    ],
+    "matches": {
+      "1223660": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "おこしました"
+        }
+      ],
+      "1828190": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "のうしんとう"
+        }
+      ]
+    }
+  }
+]

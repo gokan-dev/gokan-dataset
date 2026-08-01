@@ -1,0 +1,150 @@
+[
+  {
+    "id": "209430",
+    "original": "その十字路に着いた時タクシーはスピードを落とした。",
+    "en": [
+      {
+        "id": "46691",
+        "text": "When we came to the crossroads our cab slowed down."
+      }
+    ],
+    "indices": "其の[01]{その} 十字路 に 着く(つく)[01]{着いた} 時(とき) タクシー は スピード を 落とす[04]{落とした}",
+    "vocabIds": [
+      "1589260",
+      "1334750",
+      "1422970",
+      "1607260",
+      "1315840"
+    ],
+    "matches": {
+      "1315840": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "とき"
+        }
+      ],
+      "1334750": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "じゅうじろ"
+        }
+      ],
+      "1422970": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "ついた"
+        }
+      ],
+      "1589260": [
+        {
+          "start": 20,
+          "length": 4,
+          "reading": "おとした"
+        }
+      ],
+      "1607260": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "ついた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "209865",
+    "original": "その事故はある十字路で起こった。",
+    "en": [
+      {
+        "id": "47128",
+        "text": "The accident happened at a crossroads."
+      }
+    ],
+    "indices": "其の[01]{その} 事故 は 有る{ある} 十字路~ で(#2028980) 起こる{起こった}",
+    "vocabIds": [
+      "1223680",
+      "1334750",
+      "1313850"
+    ],
+    "matches": {
+      "1223680": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "おこった"
+        }
+      ],
+      "1313850": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "じこ"
+        }
+      ],
+      "1334750": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "じゅうじろ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10667425",
+    "original": "「この近くに郵便局って、ありませんか？」「そこの十字路を右に曲がったところにありますよ」",
+    "en": [
+      {
+        "id": "12151910",
+        "text": "\"Is there a post office around here?\" \"Yes, just take a right at that intersection up there.\""
+      }
+    ],
+    "vocabIds": [
+      "2272940",
+      "1542430",
+      "1334750",
+      "1242160",
+      "1171010"
+    ],
+    "matches": {
+      "1171010": [
+        {
+          "start": 28,
+          "length": 1,
+          "reading": "みぎ"
+        }
+      ],
+      "1242160": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ちかく"
+        }
+      ],
+      "1334750": [
+        {
+          "start": 24,
+          "length": 3,
+          "reading": "じゅうじろ"
+        }
+      ],
+      "1542430": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "ゆうびんきょく"
+        }
+      ],
+      "2272940": [
+        {
+          "start": 30,
+          "length": 4,
+          "reading": "まがった"
+        }
+      ]
+    }
+  }
+]

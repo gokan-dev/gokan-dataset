@@ -1,0 +1,154 @@
+[
+  {
+    "id": "80642",
+    "original": "明日、友達の誕生会を開きます。",
+    "en": [
+      {
+        "id": "323073",
+        "text": "I'm going to give a birthday party for my friend tomorrow."
+      }
+    ],
+    "indices": "明日 友達 の 誕生会~ を[01] 開く(ひらく)[01]{開きます}",
+    "vocabIds": [
+      "1202440",
+      "2252850",
+      "1584660",
+      "1540170"
+    ],
+    "matches": {
+      "1202440": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "ひらきます"
+        }
+      ],
+      "1540170": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ともだち"
+        }
+      ],
+      "1584660": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あした"
+        }
+      ],
+      "2252850": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "たんじょうかい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "166264",
+    "original": "私たちはトムのために誕生会を開く予定だ。",
+    "en": [
+      {
+        "id": "248240",
+        "text": "We are giving Tom a party on his birthday."
+      }
+    ],
+    "indices": "私たち は の 為に[01]{ために} 誕生会 を[01] 開く(ひらく)[01] 予定 だ",
+    "vocabIds": [
+      "1311300",
+      "2252850",
+      "1202440",
+      "1543240"
+    ],
+    "matches": {
+      "1202440": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "ひらく"
+        }
+      ],
+      "1311300": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1543240": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "よてい"
+        }
+      ],
+      "2252850": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "たんじょうかい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "628686",
+    "original": "私の誕生会に来てください。",
+    "en": [
+      {
+        "id": "628387",
+        "text": "Please attend my birthday party."
+      },
+      {
+        "id": "10317785",
+        "text": "Please come to my birthday party."
+      }
+    ],
+    "vocabIds": [
+      "1547720",
+      "2252850",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1547720": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "きてください"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2252850": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "たんじょうかい"
+        }
+      ]
+    }
+  }
+]

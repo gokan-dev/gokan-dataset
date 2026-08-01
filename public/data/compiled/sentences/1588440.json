@@ -1,0 +1,37 @@
+[
+  {
+    "id": "221174",
+    "original": "この小切手を裏書きしてください。",
+    "en": [
+      {
+        "id": "58496",
+        "text": "Endorse this check."
+      },
+      {
+        "id": "4878183",
+        "text": "Please endorse this check."
+      }
+    ],
+    "indices": "此の{この} 小切手 を 裏書き[01]~ 為る(する){して} 下さい{ください}",
+    "vocabIds": [
+      "1348410",
+      "1588440"
+    ],
+    "matches": {
+      "1348410": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "こぎって"
+        }
+      ],
+      "1588440": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "うらがき"
+        }
+      ]
+    }
+  }
+]

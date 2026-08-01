@@ -1,0 +1,33 @@
+[
+  {
+    "id": "2607280",
+    "original": "これは当店の専売です。",
+    "en": [
+      {
+        "id": "2607282",
+        "text": "Our store has a monopoly on this item."
+      }
+    ],
+    "indices": "此れ(これ){これ} は 当店(とうてん) の 専売(せんばい)~ です",
+    "vocabIds": [
+      "1449200",
+      "1389860"
+    ],
+    "matches": {
+      "1389860": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "せんばい"
+        }
+      ],
+      "1449200": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "とうてん"
+        }
+      ]
+    }
+  }
+]

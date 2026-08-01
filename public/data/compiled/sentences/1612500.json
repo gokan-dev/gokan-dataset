@@ -1,0 +1,141 @@
+[
+  {
+    "id": "113161",
+    "original": "彼はそのとき寝ぼけていたらしい。",
+    "en": [
+      {
+        "id": "290513",
+        "text": "It seems that he was half asleep then."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 其の[01]{その} 時(とき){とき} 寝ぼける{寝ぼけていた} らしい",
+    "vocabIds": [
+      "1612500",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1612500": [
+        {
+          "start": 6,
+          "length": 9,
+          "reading": "ねぼけていたらしい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "192767",
+    "original": "よく寝ぼけます。",
+    "en": [
+      {
+        "id": "29931",
+        "text": "I'm often half-asleep."
+      },
+      {
+        "id": "1328304",
+        "text": "I'm often only half awake."
+      },
+      {
+        "id": "1328306",
+        "text": "I'm often half asleep."
+      }
+    ],
+    "indices": "良く[02]{よく} 寝ぼける{寝ぼけます}",
+    "vocabIds": [
+      "1612500"
+    ],
+    "matches": {
+      "1612500": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "ねぼけます"
+        }
+      ]
+    }
+  },
+  {
+    "id": "228166",
+    "original": "うちの弟は、よく寝ぼけて変なことを言い出す。",
+    "en": [
+      {
+        "id": "65520",
+        "text": "My little brother gets delirious when he's sleepy. He says the weirdest things."
+      }
+    ],
+    "indices": "家(うち){うちの} 弟[01] は 良く[02]{よく} 寝ぼける{寝ぼけて}~ 変[01]{変な} 事(こと){こと} を 言い出す",
+    "vocabIds": [
+      "1612500",
+      "1264080",
+      "1581930",
+      "1510640"
+    ],
+    "matches": {
+      "1264080": [
+        {
+          "start": 17,
+          "length": 4,
+          "reading": "いいだす"
+        }
+      ],
+      "1510640": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "へん"
+        }
+      ],
+      "1581930": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "おとうと"
+        }
+      ],
+      "1612500": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "ねぼけて"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10931316",
+    "original": "まだ寝ぼけてるの？",
+    "en": [
+      {
+        "id": "11191196",
+        "text": "Are you still half asleep?"
+      }
+    ],
+    "vocabIds": [
+      "1612500"
+    ],
+    "matches": {
+      "1612500": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "ねぼけてる"
+        }
+      ]
+    }
+  }
+]

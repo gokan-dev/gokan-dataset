@@ -1,0 +1,127 @@
+[
+  {
+    "id": "214053",
+    "original": "急かしたくはないけど、次のバスに乗ろう。",
+    "en": [
+      {
+        "id": "51343",
+        "text": "I don't want to rush you, but let's try to catch the next bus."
+      }
+    ],
+    "indices": "急かす{急かし}~ たい{たくはない} けど 次(つぎ)[01]{次の} バス(#1098390) に 乗る[01]{乗ろう}",
+    "vocabIds": [
+      "1228580",
+      "1355120",
+      "1316380"
+    ],
+    "matches": {
+      "1228580": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "せかしたく"
+        }
+      ],
+      "1316380": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "つぎ"
+        }
+      ],
+      "1355120": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "のろう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "4323370",
+    "original": "急かさないで。",
+    "en": [
+      {
+        "id": "1495913",
+        "text": "Don't rush me."
+      }
+    ],
+    "vocabIds": [
+      "1228580"
+    ],
+    "matches": {
+      "1228580": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "せかさない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11038310",
+    "original": "彼女に急かされたのよ。",
+    "en": [
+      {
+        "id": "314428",
+        "text": "She made me hurry."
+      }
+    ],
+    "vocabIds": [
+      "1228580",
+      "1483150"
+    ],
+    "matches": {
+      "1228580": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "せかさ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11041763",
+    "original": "そんなに急かすなよ。",
+    "en": [
+      {
+        "id": "41524",
+        "text": "Don't be in such a hurry."
+      },
+      {
+        "id": "12160819",
+        "text": "Don't be in such a rush."
+      },
+      {
+        "id": "9188642",
+        "text": "Don't go so fast."
+      },
+      {
+        "id": "9169685",
+        "text": "Don't go that fast."
+      }
+    ],
+    "vocabIds": [
+      "1228580"
+    ],
+    "matches": {
+      "1228580": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "せかす"
+        }
+      ]
+    }
+  }
+]

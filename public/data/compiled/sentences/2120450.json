@@ -1,0 +1,127 @@
+[
+  {
+    "id": "82755",
+    "original": "報告の写しをあげましょう、しかしその正確性は保証できません。",
+    "en": [
+      {
+        "id": "320961",
+        "text": "I can give you a copy of the report, but I can't vouch for its accuracy."
+      }
+    ],
+    "indices": "報告 の 写し を 上げる[05]{あげましょう} 然し{しかし} 其の[01]{その} 正確 性(せい)[05] は 保証 出来る{できません}",
+    "vocabIds": [
+      "2120450",
+      "1515670",
+      "1321790",
+      "1603500"
+    ],
+    "matches": {
+      "1321790": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "うつし"
+        }
+      ],
+      "1515670": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ほうこく"
+        }
+      ],
+      "1603500": [
+        {
+          "start": 22,
+          "length": 2,
+          "reading": "ほしょう"
+        }
+      ],
+      "2120450": [
+        {
+          "start": 18,
+          "length": 3,
+          "reading": "せいかくせい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10682221",
+    "original": "問題です。標的を狙う正確性を競う種目で、オリンピック種目にもなっている競技はなんでしょう。",
+    "en": [
+      {
+        "id": "11297140",
+        "text": "Here's the question: Which sport is a target-based accuracy competition and is also an Olympic event?"
+      }
+    ],
+    "vocabIds": [
+      "2579070",
+      "2120450",
+      "1536010",
+      "1488810",
+      "1396590",
+      "1234040",
+      "1328880",
+      "1234080"
+    ],
+    "matches": {
+      "1234040": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "きそう"
+        }
+      ],
+      "1234080": [
+        {
+          "start": 35,
+          "length": 2,
+          "reading": "きょうぎ"
+        }
+      ],
+      "1328880": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "しゅもく"
+        }
+      ],
+      "1396590": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "ねらう"
+        }
+      ],
+      "1488810": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ひょうてき"
+        }
+      ],
+      "1536010": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "もんだい"
+        }
+      ],
+      "2120450": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "せいかくせい"
+        }
+      ],
+      "2579070": [
+        {
+          "start": 20,
+          "length": 8,
+          "reading": "おりんぴっくしゅもく"
+        }
+      ]
+    }
+  }
+]

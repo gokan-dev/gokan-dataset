@@ -1,0 +1,137 @@
+[
+  {
+    "id": "169524",
+    "original": "鮫はその血に飢えた残忍さで悪名高い。",
+    "en": [
+      {
+        "id": "244963",
+        "text": "Sharks are infamous for their bloodthirsty natures."
+      },
+      {
+        "id": "1009283",
+        "text": "Sharks are notorious for having a thirst for blood."
+      }
+    ],
+    "indices": "鮫 は 其の[01]{その} 血 に 飢える{飢えた} 残忍{残忍さ} で(#2028980) 悪名高い",
+    "vocabIds": [
+      "1575810",
+      "1224080",
+      "1304670",
+      "1299670",
+      "1255060"
+    ],
+    "matches": {
+      "1224080": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "うえた"
+        }
+      ],
+      "1255060": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "ち"
+        }
+      ],
+      "1299670": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "さめ"
+        }
+      ],
+      "1304670": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "ざんにん"
+        }
+      ],
+      "1575810": [
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "あくめいたかい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9176551",
+    "original": "鮫は魚を食べます。",
+    "en": [
+      {
+        "id": "1841587",
+        "text": "Sharks eat fish."
+      }
+    ],
+    "vocabIds": [
+      "1358280",
+      "1299670",
+      "1578010"
+    ],
+    "matches": {
+      "1299670": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "さめ"
+        }
+      ],
+      "1358280": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "たべます"
+        }
+      ],
+      "1578010": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "さかな"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9176559",
+    "original": "鮫は魚を餌としている。",
+    "en": [
+      {
+        "id": "8357523",
+        "text": "Sharks feed on fish."
+      }
+    ],
+    "vocabIds": [
+      "1299670",
+      "1578010",
+      "1173340"
+    ],
+    "matches": {
+      "1173340": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "えさ"
+        }
+      ],
+      "1299670": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "さめ"
+        }
+      ],
+      "1578010": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "さかな"
+        }
+      ]
+    }
+  }
+]

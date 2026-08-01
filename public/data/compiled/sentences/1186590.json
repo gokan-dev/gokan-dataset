@@ -1,0 +1,56 @@
+[
+  {
+    "id": "188209",
+    "original": "下劣なやつだ。",
+    "en": [
+      {
+        "id": "25349",
+        "text": "He is a mean fellow."
+      }
+    ],
+    "indices": "下劣{下劣な} 奴(やつ)[01]{やつ} だ",
+    "vocabIds": [
+      "1186590"
+    ],
+    "matches": {
+      "1186590": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "げれつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "204171",
+    "original": "そんな下劣なやつとは付き合っていられない。",
+    "en": [
+      {
+        "id": "41413",
+        "text": "You must not keep company with such a mean fellow."
+      }
+    ],
+    "indices": "そんな 下劣{下劣な}~ 奴(やつ)[01]{やつ} と は 付き合う{付き合っていられない}",
+    "vocabIds": [
+      "1597790",
+      "1186590"
+    ],
+    "matches": {
+      "1186590": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "げれつ"
+        }
+      ],
+      "1597790": [
+        {
+          "start": 10,
+          "length": 6,
+          "reading": "つきあってい"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "145615",
+    "original": "審判は彼にアウトを宣した。",
+    "en": [
+      {
+        "id": "268947",
+        "text": "The umpire said that he was out."
+      },
+      {
+        "id": "399466",
+        "text": "The umpire gave him out."
+      }
+    ],
+    "indices": "審判[03] は 彼(かれ) に ＯＵＴ{アウト} を 宣する{宣した}",
+    "vocabIds": [
+      "1360410",
+      "1000420",
+      "1483070",
+      "2843314"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1360410": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しんぱん"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "2843314": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "せん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "145616",
+    "original": "審判は打者にアウトを宣した。",
+    "en": [
+      {
+        "id": "268946",
+        "text": "The umpire called the batter out."
+      }
+    ],
+    "indices": "審判[03] は 打者 に ＯＵＴ{アウト} を 宣する{宣した}~",
+    "vocabIds": [
+      "1360410",
+      "1408900",
+      "2843314"
+    ],
+    "matches": {
+      "1360410": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しんぱん"
+        }
+      ],
+      "1408900": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "だしゃ"
+        }
+      ],
+      "2843314": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "せん"
+        }
+      ]
+    }
+  }
+]

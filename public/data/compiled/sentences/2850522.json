@@ -1,0 +1,88 @@
+[
+  {
+    "id": "79763",
+    "original": "夜が更けるまで彼らの話は尽きなかった。",
+    "en": [
+      {
+        "id": "323954",
+        "text": "They didn't run out of conversation until late at night."
+      }
+    ],
+    "indices": "夜 が 更ける 迄{まで} 彼ら(かれら){彼らの} 話(はなし) は 尽きる{尽きなかった}",
+    "vocabIds": [
+      "1370070",
+      "2850522",
+      "1483090",
+      "2397090",
+      "1600900"
+    ],
+    "matches": {
+      "1370070": [
+        {
+          "start": 12,
+          "length": 6,
+          "reading": "つきなかった"
+        }
+      ],
+      "1483090": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "かれら"
+        }
+      ],
+      "1600900": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "はなし"
+        }
+      ],
+      "2397090": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "かれら"
+        }
+      ],
+      "2850522": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "よるがふける"
+        }
+      ]
+    }
+  },
+  {
+    "id": "79769",
+    "original": "夜が更けるにつれて寒くなった。",
+    "en": [
+      {
+        "id": "323948",
+        "text": "It became colder as the night wore on."
+      }
+    ],
+    "indices": "夜 が 更ける に連れて{につれて} 寒い{寒く} 成る[01]{なった}",
+    "vocabIds": [
+      "2850522",
+      "1210360"
+    ],
+    "matches": {
+      "1210360": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "さむく"
+        }
+      ],
+      "2850522": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "よるがふける"
+        }
+      ]
+    }
+  }
+]

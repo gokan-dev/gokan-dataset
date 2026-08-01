@@ -1,0 +1,91 @@
+[
+  {
+    "id": "107357",
+    "original": "彼は校長になり立てだ。",
+    "en": [
+      {
+        "id": "296329",
+        "text": "He has just become a principal."
+      },
+      {
+        "id": "4414341",
+        "text": "He has just become headmaster."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 校長 になる{になり} 立て(たて) だ",
+    "vocabIds": [
+      "1279590",
+      "2081610",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1279590": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "こうちょう"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "2081610": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "だて"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10762828",
+    "original": "パスタをズルズルと音立てながら食べるのはやめなさい。",
+    "en": [
+      {
+        "id": "10768115",
+        "text": "Stop making that slurping noise when you eat your pasta."
+      }
+    ],
+    "vocabIds": [
+      "1358280",
+      "2081610",
+      "1576900"
+    ],
+    "matches": {
+      "1358280": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "たべる"
+        }
+      ],
+      "1576900": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "おと"
+        }
+      ],
+      "2081610": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "だて"
+        }
+      ]
+    }
+  }
+]

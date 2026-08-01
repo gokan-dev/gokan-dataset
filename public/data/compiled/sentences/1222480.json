@@ -1,0 +1,110 @@
+[
+  {
+    "id": "74008",
+    "original": "この天気とは気長に付き合っていくしかない。",
+    "en": [
+      {
+        "id": "329712",
+        "text": "You have to learn to put up with this weather."
+      }
+    ],
+    "indices": "此の{この} 天気 と は 気長{気長に} 付き合う[02]{付き合って} 行く{いく} しか無い[01]{しかない}",
+    "vocabIds": [
+      "1597790",
+      "1438690",
+      "1222480"
+    ],
+    "matches": {
+      "1222480": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "きなが"
+        }
+      ],
+      "1438690": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "てんき"
+        }
+      ],
+      "1597790": [
+        {
+          "start": 9,
+          "length": 7,
+          "reading": "つきあっていく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "183183",
+    "original": "気長に構える必要があります。",
+    "en": [
+      {
+        "id": "20305",
+        "text": "You have to be patient."
+      }
+    ],
+    "indices": "気長{気長に}~ 構える 必要[02] が[01] 有る{あります}",
+    "vocabIds": [
+      "1279700",
+      "1222480",
+      "1487660"
+    ],
+    "matches": {
+      "1222480": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きなが"
+        }
+      ],
+      "1279700": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "かまえる"
+        }
+      ],
+      "1487660": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ひつよう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1004642",
+    "original": "まあ気長に頑張ってくれ。",
+    "en": [
+      {
+        "id": "1214976",
+        "text": "Well, just do your best in your own time."
+      }
+    ],
+    "vocabIds": [
+      "1217700",
+      "1222480"
+    ],
+    "matches": {
+      "1217700": [
+        {
+          "start": 5,
+          "length": 6,
+          "reading": "がんばってくれ"
+        }
+      ],
+      "1222480": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きなが"
+        }
+      ]
+    }
+  }
+]

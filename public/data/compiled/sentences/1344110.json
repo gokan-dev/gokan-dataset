@@ -1,0 +1,88 @@
+[
+  {
+    "id": "147414",
+    "original": "書棚は壁に固定したほうがいい。",
+    "en": [
+      {
+        "id": "267146",
+        "text": "You had better fix the bookcase to the wall."
+      }
+    ],
+    "indices": "書棚 は 壁[01] に 固定 した方がいい{したほうがいい}",
+    "vocabIds": [
+      "1344110",
+      "1266650",
+      "1509290"
+    ],
+    "matches": {
+      "1266650": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "こてい"
+        }
+      ],
+      "1344110": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しょだな"
+        }
+      ],
+      "1509290": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "かべ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "217760",
+    "original": "これらの本を書棚へ戻しなさい。",
+    "en": [
+      {
+        "id": "55070",
+        "text": "Carry these books back to the bookshelf."
+      }
+    ],
+    "indices": "此れ等{これらの} 本(ほん)[01] を 書棚~ へ 戻す{戻し} 為さい{なさい}",
+    "vocabIds": [
+      "1535850",
+      "1344110",
+      "1260670",
+      "1522150"
+    ],
+    "matches": {
+      "1260670": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "ほん"
+        }
+      ],
+      "1344110": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "しょだな"
+        }
+      ],
+      "1522150": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "ほん"
+        }
+      ],
+      "1535850": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "もどしなさい"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "id": "143676",
+    "original": "水割りにしてください。",
+    "en": [
+      {
+        "id": "270890",
+        "text": "I'd like whiskey and water."
+      }
+    ],
+    "indices": "水割り に 為る(する){して} 下さい{ください}",
+    "vocabIds": [
+      "1371380"
+    ],
+    "matches": {
+      "1371380": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "みずわり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "143677",
+    "original": "水割りをもう一杯ください。",
+    "en": [
+      {
+        "id": "270891",
+        "text": "Another Scotch and water, please."
+      }
+    ],
+    "indices": "水割り~ を もう[03] 一杯 下さい{ください}",
+    "vocabIds": [
+      "1371380",
+      "1165670"
+    ],
+    "matches": {
+      "1165670": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "いちはい"
+        }
+      ],
+      "1371380": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "みずわり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11211633",
+    "original": "ウィスキーの水割りをガッツリ飲んだ。",
+    "en": [
+      {
+        "id": "11306894",
+        "text": "He slugged down a whiskey and water."
+      },
+      {
+        "id": "11306896",
+        "text": "I swilled a whiskey and water."
+      }
+    ],
+    "vocabIds": [
+      "1371380",
+      "1169870"
+    ],
+    "matches": {
+      "1169870": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "のんだ"
+        }
+      ],
+      "1371380": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "みずわり"
+        }
+      ]
+    }
+  }
+]

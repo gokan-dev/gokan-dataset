@@ -1,0 +1,113 @@
+[
+  {
+    "id": "184060",
+    "original": "鴨川は京都市を貫流している。",
+    "en": [
+      {
+        "id": "21187",
+        "text": "The Kamo runs through Kyoto."
+      }
+    ],
+    "indices": "川[02] は NI{京都市} を 貫流 為る(する){している}",
+    "vocabIds": [
+      "1652350",
+      "1215100",
+      "1308090"
+    ],
+    "matches": {
+      "1215100": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "かんりゅう"
+        }
+      ],
+      "1308090": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "し"
+        }
+      ],
+      "1652350": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "きょうと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "197827",
+    "original": "パリを貫流する川はセーヌ川です。",
+    "en": [
+      {
+        "id": "35015",
+        "text": "The river which flows through Paris is the Seine."
+      }
+    ],
+    "indices": "巴里{パリ} を 貫流 為る(する){する} 川[01] は 川[02] です",
+    "vocabIds": [
+      "1215100",
+      "1390020"
+    ],
+    "matches": {
+      "1215100": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かんりゅう"
+        }
+      ],
+      "1390020": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "かわ"
+        },
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "がわ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "202123",
+    "original": "テムズ川はロンドンを貫流する川である。",
+    "en": [
+      {
+        "id": "39336",
+        "text": "The Thames is a river that flows through London."
+      }
+    ],
+    "indices": "川[02] は 倫敦{ロンドン} を 貫流~ 為る(する){する} 川[01] である",
+    "vocabIds": [
+      "1215100",
+      "1390020"
+    ],
+    "matches": {
+      "1215100": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "かんりゅう"
+        }
+      ],
+      "1390020": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "がわ"
+        },
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "かわ"
+        }
+      ]
+    }
+  }
+]

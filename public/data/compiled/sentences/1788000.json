@@ -1,0 +1,71 @@
+[
+  {
+    "id": "102569",
+    "original": "彼は多趣味だ。",
+    "en": [
+      {
+        "id": "301125",
+        "text": "He has a lot of hobbies."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 多趣味~ だ",
+    "vocabIds": [
+      "1788000",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1788000": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "たしゅみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2692388",
+    "original": "トムは多趣味だ。",
+    "en": [
+      {
+        "id": "2693474",
+        "text": "Tom has varied tastes."
+      },
+      {
+        "id": "2693475",
+        "text": "Tom is interested by many things."
+      },
+      {
+        "id": "2733646",
+        "text": "Tom has a wide range of interests."
+      }
+    ],
+    "vocabIds": [
+      "1788000"
+    ],
+    "matches": {
+      "1788000": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "たしゅみ"
+        }
+      ]
+    }
+  }
+]

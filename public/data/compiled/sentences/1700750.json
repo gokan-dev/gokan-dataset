@@ -1,0 +1,84 @@
+[
+  {
+    "id": "139330",
+    "original": "損害額は何百万ドルにも達するだろう。",
+    "en": [
+      {
+        "id": "274555",
+        "text": "Losses will run into millions of dollars."
+      }
+    ],
+    "indices": "損害額~ は 何 百万 弗[01]{ドル} にも 達する だろう",
+    "vocabIds": [
+      "1416230",
+      "1700750",
+      "1189290",
+      "1584460"
+    ],
+    "matches": {
+      "1189290": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "なんひゃく"
+        }
+      ],
+      "1416230": [
+        {
+          "start": 11,
+          "length": 6,
+          "reading": "たっするだろう"
+        }
+      ],
+      "1584460": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "まん"
+        }
+      ],
+      "1700750": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "そんがいがく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "139331",
+    "original": "損害額は１億ドルになるだろう。",
+    "en": [
+      {
+        "id": "274554",
+        "text": "I'm afraid the loss will amount to one hundred million dollars."
+      },
+      {
+        "id": "8815398",
+        "text": "The loss will amount to one hundred million dollars."
+      }
+    ],
+    "indices": "損害額 は 億 弗[01]{ドル} になる[01] だろう",
+    "vocabIds": [
+      "1700750",
+      "1161190"
+    ],
+    "matches": {
+      "1161190": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "いちおく"
+        }
+      ],
+      "1700750": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "そんがいがく"
+        }
+      ]
+    }
+  }
+]

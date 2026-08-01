@@ -1,0 +1,101 @@
+[
+  {
+    "id": "150277",
+    "original": "次の時間は何だっけ？",
+    "en": [
+      {
+        "id": "264279",
+        "text": "What is the next class?"
+      }
+    ],
+    "indices": "次(つぎ)[01]{次の} 時間[01] は 何(なに)[01] だ っけ",
+    "vocabIds": [
+      "2528970",
+      "1315920",
+      "1316380"
+    ],
+    "matches": {
+      "1315920": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "じかん"
+        }
+      ],
+      "1316380": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "つぎ"
+        }
+      ],
+      "2528970": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "なにだっけ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "423650",
+    "original": "幸せって何だっけ？",
+    "en": [
+      {
+        "id": "404565",
+        "text": "What is happiness?"
+      }
+    ],
+    "vocabIds": [
+      "2528970",
+      "1594060"
+    ],
+    "matches": {
+      "1594060": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しあわせ"
+        }
+      ],
+      "2528970": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "なにだっけ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3179527",
+    "original": "ごめん、名前何だっけ？",
+    "en": [
+      {
+        "id": "3182854",
+        "text": "Sorry, what was your name?"
+      }
+    ],
+    "vocabIds": [
+      "2528970",
+      "1531710"
+    ],
+    "matches": {
+      "1531710": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "なまえ"
+        }
+      ],
+      "2528970": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "なにだっけ"
+        }
+      ]
+    }
+  }
+]

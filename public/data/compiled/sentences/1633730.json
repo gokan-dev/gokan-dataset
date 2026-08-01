@@ -1,0 +1,96 @@
+[
+  {
+    "id": "76480",
+    "original": "バットを長めに持ってください。",
+    "en": [
+      {
+        "id": "327240",
+        "text": "Please hold your bat by the end of its handle."
+      }
+    ],
+    "indices": "バット(#1099230) を[01] 長め~ に 持つ{持って} 下さい{ください}",
+    "vocabIds": [
+      "1315720",
+      "1633730"
+    ],
+    "matches": {
+      "1315720": [
+        {
+          "start": 7,
+          "length": 7,
+          "reading": "もってください"
+        }
+      ],
+      "1633730": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ながめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "77035",
+    "original": "「この髪型にしてもらえますか？」「前髪を短く、横は長めにお願いします」",
+    "en": [
+      {
+        "id": "326684",
+        "text": "\"Can you cut it like this, please?\" \"A little shorter in the front and a little longer on the sides, please.\""
+      }
+    ],
+    "indices": "此の{この} 髪型 に 為る(する){して} 貰う[02]{もらえます} か 前髪 を 短い{短く} 横[02] は 長め~ に お願いします",
+    "vocabIds": [
+      "1001720",
+      "1954390",
+      "1393880",
+      "1418620",
+      "1633730",
+      "1180570"
+    ],
+    "matches": {
+      "1001720": [
+        {
+          "start": 28,
+          "length": 6,
+          "reading": "おねがいします"
+        }
+      ],
+      "1180570": [
+        {
+          "start": 23,
+          "length": 1,
+          "reading": "よこ"
+        }
+      ],
+      "1393880": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "まえがみ"
+        }
+      ],
+      "1418620": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "みじかく"
+        }
+      ],
+      "1633730": [
+        {
+          "start": 25,
+          "length": 2,
+          "reading": "ながめ"
+        }
+      ],
+      "1954390": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かみがた"
+        }
+      ]
+    }
+  }
+]

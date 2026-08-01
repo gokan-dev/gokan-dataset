@@ -1,0 +1,105 @@
+[
+  {
+    "id": "176048",
+    "original": "軽く目玉焼きにでもしてください。",
+    "en": [
+      {
+        "id": "238415",
+        "text": "Fried eggs, sunny-side up, easy please."
+      }
+    ],
+    "indices": "軽い{軽く} 目玉焼き~ に でも 為る(する){して} 下さい{ください}",
+    "vocabIds": [
+      "1535380",
+      "1252560"
+    ],
+    "matches": {
+      "1252560": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かるく"
+        }
+      ],
+      "1535380": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "めだまやき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1667708",
+    "original": "目玉焼きとクロワッサンが食べたいです。",
+    "en": [
+      {
+        "id": "1667710",
+        "text": "I want to eat a fried egg and croissant."
+      }
+    ],
+    "vocabIds": [
+      "1358280",
+      "1535380"
+    ],
+    "matches": {
+      "1358280": [
+        {
+          "start": 12,
+          "length": 6,
+          "reading": "たべたいです"
+        }
+      ],
+      "1535380": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "めだまやき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11056535",
+    "original": "目玉焼きが朝の定番。",
+    "en": [
+      {
+        "id": "11664536",
+        "text": "Fried eggs are a morning staple."
+      },
+      {
+        "id": "11666168",
+        "text": "Fried eggs, sunny-side up, are a morning staple."
+      }
+    ],
+    "vocabIds": [
+      "1535380",
+      "1638070",
+      "1428280"
+    ],
+    "matches": {
+      "1428280": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "あさ"
+        }
+      ],
+      "1535380": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "めだまやき"
+        }
+      ],
+      "1638070": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ていばん"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,55 @@
+[
+  {
+    "id": "125764",
+    "original": "直しはどれくらいかかりますか。",
+    "en": [
+      {
+        "id": "278228",
+        "text": "How long will it take for alterations?"
+      }
+    ],
+    "indices": "直し は 何れくらい{どれくらい} 掛かる[01]{かかります} か",
+    "vocabIds": [
+      "1430650"
+    ],
+    "matches": {
+      "1430650": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "なおし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9139595",
+    "original": "後ほどおかけ直しいただけないでしょうか？",
+    "en": [
+      {
+        "id": "240156",
+        "text": "Would you please call him back later?"
+      }
+    ],
+    "vocabIds": [
+      "1269940",
+      "1430650"
+    ],
+    "matches": {
+      "1269940": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "のちほど"
+        }
+      ],
+      "1430650": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "なおし"
+        }
+      ]
+    }
+  }
+]

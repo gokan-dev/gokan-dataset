@@ -1,0 +1,105 @@
+[
+  {
+    "id": "202512",
+    "original": "ティーカップの入っている小包には取り扱い注意とかくべきです。",
+    "en": [
+      {
+        "id": "39740",
+        "text": "You should write HANDLE WITH CARE on the parcel that contains the teacups."
+      }
+    ],
+    "indices": "ティーカップ の 入る(はいる){入っている} 小包 には 取り扱い注意~ と 書く{かく} 可き{べき} です",
+    "vocabIds": [
+      "1599010",
+      "1465590",
+      "1593290"
+    ],
+    "matches": {
+      "1465590": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "はいっている"
+        }
+      ],
+      "1593290": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "こづつみ"
+        }
+      ],
+      "1599010": [
+        {
+          "start": 16,
+          "length": 6,
+          "reading": "とりあつかいちゅうい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11607527",
+    "original": "取扱注意",
+    "en": [
+      {
+        "id": "10657614",
+        "text": "Handle with care."
+      }
+    ],
+    "vocabIds": [
+      "1599010"
+    ],
+    "matches": {
+      "1599010": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "とりあつかいちゅうい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11607571",
+    "original": "小包には「取扱注意」のステッカーが貼ってあった。",
+    "en": [
+      {
+        "id": "11607575",
+        "text": "The package had a sticker on it that said \"Handle with care\"."
+      },
+      {
+        "id": "12390049",
+        "text": "The package had a \"handle with care\" sticker on it."
+      }
+    ],
+    "vocabIds": [
+      "1427900",
+      "1599010",
+      "1593290"
+    ],
+    "matches": {
+      "1427900": [
+        {
+          "start": 17,
+          "length": 6,
+          "reading": "はってあった"
+        }
+      ],
+      "1593290": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こづつみ"
+        }
+      ],
+      "1599010": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "とりあつかいちゅうい"
+        }
+      ]
+    }
+  }
+]

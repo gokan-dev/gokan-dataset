@@ -1,0 +1,94 @@
+[
+  {
+    "id": "168289",
+    "original": "思いあたらないのですが。",
+    "en": [
+      {
+        "id": "246204",
+        "text": "I don't recall."
+      }
+    ],
+    "indices": "思い当たる{思いあたらない} のです が[03]",
+    "vocabIds": [
+      "1309350"
+    ],
+    "matches": {
+      "1309350": [
+        {
+          "start": 0,
+          "length": 7,
+          "reading": "おもいあたらない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "187164",
+    "original": "夏休みも近いけど、どこかいいところ思い当たりますか。",
+    "en": [
+      {
+        "id": "24301",
+        "text": "Summer vacation is near. Can you think of a good place for the holidays?"
+      }
+    ],
+    "indices": "夏休み も 近い けど 何処か[01]{どこか} いい(#2820690)[01] 所(ところ){ところ} 思い当たる{思い当たります}~ か",
+    "vocabIds": [
+      "1309350",
+      "1242130",
+      "1191420"
+    ],
+    "matches": {
+      "1191420": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "なつやすみ"
+        }
+      ],
+      "1242130": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "ちかいけど"
+        }
+      ],
+      "1309350": [
+        {
+          "start": 17,
+          "length": 7,
+          "reading": "おもいあたります"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10367350",
+    "original": "思い当たる節はない。",
+    "en": [
+      {
+        "id": "2276912",
+        "text": "That doesn't ring a bell."
+      }
+    ],
+    "vocabIds": [
+      "1309350",
+      "1386150"
+    ],
+    "matches": {
+      "1309350": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "おもいあたる"
+        }
+      ],
+      "1386150": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "ふし"
+        }
+      ]
+    }
+  }
+]

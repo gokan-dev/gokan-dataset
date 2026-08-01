@@ -1,0 +1,77 @@
+[
+  {
+    "id": "84267",
+    "original": "武は来るには来たが、すぐ帰った。",
+    "en": [
+      {
+        "id": "319448",
+        "text": "Takeshi did come, but didn't stay long."
+      }
+    ],
+    "indices": "は 来る(くる)[01] には[04]~ 来る(くる)[01]{来た} が 直ぐ{すぐ} 帰る[01]{帰った}",
+    "vocabIds": [
+      "1547720",
+      "1221270",
+      "2083510"
+    ],
+    "matches": {
+      "1221270": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "かえった"
+        }
+      ],
+      "1547720": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "きたが"
+        },
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "くる"
+        }
+      ],
+      "2083510": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "たけ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "225567",
+    "original": "クラスメートはみな武を待った。",
+    "en": [
+      {
+        "id": "62903",
+        "text": "All of the classmates waited for Takeshi."
+      }
+    ],
+    "indices": "クラスメイト{クラスメート} は 皆{みな} を 待つ[01]{待った}",
+    "vocabIds": [
+      "2021970",
+      "2083510"
+    ],
+    "matches": {
+      "2021970": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "まった"
+        }
+      ],
+      "2083510": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "ぶ"
+        }
+      ]
+    }
+  }
+]

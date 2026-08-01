@@ -1,0 +1,174 @@
+[
+  {
+    "id": "83521",
+    "original": "閉会した。",
+    "en": [
+      {
+        "id": "320195",
+        "text": "The meeting was closed."
+      }
+    ],
+    "indices": "閉会 為る(する){した}",
+    "vocabIds": [
+      "1508600"
+    ],
+    "matches": {
+      "1508600": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "へいかい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "136403",
+    "original": "誰もそれ以上言わなかったので、閉会した。",
+    "en": [
+      {
+        "id": "276607",
+        "text": "Nobody having any more to say, the meeting was closed."
+      }
+    ],
+    "indices": "誰も 其れ[01]{それ} 以上 言う{言わなかった} ので 閉会 為る(する){した}",
+    "vocabIds": [
+      "1587040",
+      "1007080",
+      "1416860",
+      "1508600"
+    ],
+    "matches": {
+      "1007080": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "それいじょう"
+        }
+      ],
+      "1416860": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "だれも"
+        }
+      ],
+      "1508600": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "へいかい"
+        }
+      ],
+      "1587040": [
+        {
+          "start": 6,
+          "length": 8,
+          "reading": "いわなかったので"
+        }
+      ]
+    }
+  },
+  {
+    "id": "173075",
+    "original": "国会は閉会して夏休みに入った。",
+    "en": [
+      {
+        "id": "241397",
+        "text": "The Diet rose for summer recess."
+      }
+    ],
+    "indices": "国会 は 閉会~ 為る(する){して} 夏休み に 入る(はいる){入った}",
+    "vocabIds": [
+      "1191420",
+      "1465590",
+      "1286240",
+      "1508600"
+    ],
+    "matches": {
+      "1191420": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "なつやすみ"
+        }
+      ],
+      "1286240": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こっかい"
+        }
+      ],
+      "1465590": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "はいった"
+        }
+      ],
+      "1508600": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "へいかい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "173082",
+    "original": "国会は現在閉会中である。",
+    "en": [
+      {
+        "id": "241390",
+        "text": "The Diet is now in recess in session."
+      }
+    ],
+    "indices": "国会 は 現在[01] 閉会 中(ちゅう)[04] である",
+    "vocabIds": [
+      "1286240",
+      "1263650",
+      "1508600",
+      "1423310",
+      "2098290"
+    ],
+    "matches": {
+      "1263650": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "げんざい"
+        }
+      ],
+      "1286240": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こっかい"
+        }
+      ],
+      "1423310": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "ちゅう"
+        }
+      ],
+      "1508600": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "へいかい"
+        }
+      ],
+      "2098290": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "ちゅう"
+        }
+      ]
+    }
+  }
+]

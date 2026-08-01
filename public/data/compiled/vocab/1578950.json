@@ -1,0 +1,106 @@
+{
+  "id": "1578950",
+  "writtenForm": {
+    "kanji": "合点",
+    "alternatives": [],
+    "containedKanji": [
+      "合",
+      "点"
+    ]
+  },
+  "reading": {
+    "primary": "がてん",
+    "alternatives": [
+      "がってん",
+      "ごうてん"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 19530,
+    "kanaRank": 63279
+  },
+  "progression": {
+    "kklcStep": 349
+  },
+  "senses": [
+    {
+      "pos": [
+        "n",
+        "vs",
+        "vi"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "consent",
+        "assent",
+        "understanding",
+        "agreement",
+        "comprehension",
+        "grasp"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "chalaza"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "ごうてん"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": true
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1578950",
+      "isBase": true,
+      "originalPrimaryReading": "がてん",
+      "originalGlosses": [
+        "consent",
+        "assent",
+        "understanding"
+      ]
+    },
+    {
+      "id": "2865957",
+      "isBase": false,
+      "originalPrimaryReading": "ごうてん",
+      "originalGlosses": [
+        "chalaza"
+      ]
+    }
+  ],
+  "components": [
+    "1956260",
+    "1007860"
+  ],
+  "parents": [
+    "1581280"
+  ]
+}

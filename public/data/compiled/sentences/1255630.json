@@ -1,0 +1,63 @@
+[
+  {
+    "id": "80663",
+    "original": "明日、月見の会があるだろう。",
+    "en": [
+      {
+        "id": "323052",
+        "text": "They will have a moon-viewing party tomorrow."
+      }
+    ],
+    "indices": "明日 月見~ の 会(かい) が[01] 有る{ある} だろう",
+    "vocabIds": [
+      "1584660",
+      "1255630",
+      "1198160"
+    ],
+    "matches": {
+      "1198160": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "かい"
+        }
+      ],
+      "1255630": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "つきみ"
+        }
+      ],
+      "1584660": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あした"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8634781",
+    "original": "月見て！",
+    "en": [
+      {
+        "id": "2648775",
+        "text": "Look at the moon."
+      }
+    ],
+    "vocabIds": [
+      "1255630"
+    ],
+    "matches": {
+      "1255630": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "つきみ"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "id": "121531",
+    "original": "配線を間違えないように注意してキットを組み立てた。",
+    "en": [
+      {
+        "id": "282475",
+        "text": "I built the kit taking care not to make mistakes in the wiring."
+      }
+    ],
+    "indices": "配線~ を 間違える{間違えない} 様に{ように} 注意 為る(する){して} キット~ を 組み立てる{組み立てた}",
+    "vocabIds": [
+      "1397580",
+      "1215330",
+      "1473110",
+      "1426530"
+    ],
+    "matches": {
+      "1215330": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "まちがえない"
+        }
+      ],
+      "1397580": [
+        {
+          "start": 19,
+          "length": 5,
+          "reading": "くみたてた"
+        }
+      ],
+      "1426530": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "ちゅうい"
+        }
+      ],
+      "1473110": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "はいせん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "216180",
+    "original": "システムのこの予測されなかった機能不全は不適切な配線系統によって引き起こされた。",
+    "en": [
+      {
+        "id": "53483",
+        "text": "This unexpected malfunctioning of the system was caused by improper wiring."
+      }
+    ],
+    "indices": "システム の 此の{この} 予測 為れる{されなかった} 機能 不全~ は 不適切{不適切な} 配線 系統~ に因って{によって} 引き起こす[01]{引き起こされた}",
+    "vocabIds": [
+      "1168880",
+      "2424610",
+      "1493960",
+      "1543200",
+      "1473110",
+      "1251030"
+    ],
+    "matches": {
+      "1168880": [
+        {
+          "start": 32,
+          "length": 5,
+          "reading": "ひきおこさ"
+        }
+      ],
+      "1251030": [
+        {
+          "start": 26,
+          "length": 2,
+          "reading": "けいとう"
+        }
+      ],
+      "1473110": [
+        {
+          "start": 24,
+          "length": 2,
+          "reading": "はいせん"
+        }
+      ],
+      "1493960": [
+        {
+          "start": 20,
+          "length": 3,
+          "reading": "ふてきせつ"
+        }
+      ],
+      "1543200": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "よそく"
+        }
+      ],
+      "2424610": [
+        {
+          "start": 15,
+          "length": 4,
+          "reading": "きのうふぜん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12365481",
+    "original": "配線がコンセントから飛び出ている。",
+    "en": [
+      {
+        "id": "11675799",
+        "text": "Wires were sticking out of sockets."
+      }
+    ],
+    "vocabIds": [
+      "1485360",
+      "1473110"
+    ],
+    "matches": {
+      "1473110": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "はいせん"
+        }
+      ],
+      "1485360": [
+        {
+          "start": 10,
+          "length": 6,
+          "reading": "とびでている"
+        }
+      ]
+    }
+  }
+]

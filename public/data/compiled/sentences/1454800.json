@@ -1,0 +1,80 @@
+[
+  {
+    "id": "123465",
+    "original": "特許権は重要な財産権である。",
+    "en": [
+      {
+        "id": "280532",
+        "text": "A patent right is an important property right."
+      }
+    ],
+    "indices": "特許権~ は 重要{重要な} 財産権~ である",
+    "vocabIds": [
+      "1454800",
+      "1741010",
+      "1336820"
+    ],
+    "matches": {
+      "1336820": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "じゅうよう"
+        }
+      ],
+      "1454800": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "とっきょけん"
+        }
+      ],
+      "1741010": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "ざいさんけん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "185232",
+    "original": "ハンスさんが会社へ特許権を売りました。",
+    "en": [
+      {
+        "id": "22363",
+        "text": "Hans sold the patent to a company."
+      }
+    ],
+    "indices": "さん[01] が 会社[01] へ 特許権 を 売る{売りました}",
+    "vocabIds": [
+      "1473950",
+      "1454800",
+      "1198550"
+    ],
+    "matches": {
+      "1198550": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "かいしゃ"
+        }
+      ],
+      "1454800": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "とっきょけん"
+        }
+      ],
+      "1473950": [
+        {
+          "start": 13,
+          "length": 5,
+          "reading": "うりました"
+        }
+      ]
+    }
+  }
+]

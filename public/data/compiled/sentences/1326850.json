@@ -1,0 +1,135 @@
+[
+  {
+    "id": "90573",
+    "original": "彼女は気を取り直し、また話し始めた。",
+    "en": [
+      {
+        "id": "313139",
+        "text": "She pulled herself together and started to talk again."
+      }
+    ],
+    "indices": "彼女[01] は 気を取り直す{気を取り直し} 又{また} 話す{話し} 始める[03]{始めた}",
+    "vocabIds": [
+      "1562350",
+      "1326850",
+      "1483150",
+      "1221520"
+    ],
+    "matches": {
+      "1221520": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "き"
+        }
+      ],
+      "1326850": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "とりなおし"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1562350": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "はなしはじめた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "183243",
+    "original": "気を取り直して仕事に掛かった。",
+    "en": [
+      {
+        "id": "20365",
+        "text": "I pulled myself together and started my work."
+      }
+    ],
+    "indices": "気を取り直す{気を取り直して} 仕事[01] に 掛かる[06]{掛かった}",
+    "vocabIds": [
+      "1326850",
+      "1207590",
+      "1304970",
+      "1221520"
+    ],
+    "matches": {
+      "1207590": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "かかった"
+        }
+      ],
+      "1221520": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "き"
+        }
+      ],
+      "1304970": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "しごと"
+        }
+      ],
+      "1326850": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "とりなおして"
+        }
+      ]
+    }
+  },
+  {
+    "id": "225710",
+    "original": "クサクサすることばっかりだけど、気を取り直して頑張っていきましょう！",
+    "en": [
+      {
+        "id": "63048",
+        "text": "We've been moping around too much. It's time to pull ourselves together and keep trying."
+      }
+    ],
+    "indices": "くさくさ{クサクサ}~ 為る(する){する} 事(こと){こと} 許り{ばっかり} だ けど 気を取り直す{気を取り直して}~ 頑張る{頑張って} 行く{いきましょう}",
+    "vocabIds": [
+      "1217700",
+      "1326850",
+      "1221520"
+    ],
+    "matches": {
+      "1217700": [
+        {
+          "start": 23,
+          "length": 10,
+          "reading": "がんばっていきましょう"
+        }
+      ],
+      "1221520": [
+        {
+          "start": 16,
+          "length": 1,
+          "reading": "き"
+        }
+      ],
+      "1326850": [
+        {
+          "start": 18,
+          "length": 5,
+          "reading": "とりなおして"
+        }
+      ]
+    }
+  }
+]

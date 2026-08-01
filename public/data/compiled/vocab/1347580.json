@@ -1,0 +1,171 @@
+{
+  "id": "1347580",
+  "writtenForm": {
+    "kanji": "妾",
+    "alternatives": [
+      "私",
+      "目掛け",
+      "目掛"
+    ],
+    "containedKanji": [
+      "妾"
+    ]
+  },
+  "reading": {
+    "primary": "わらわ",
+    "alternatives": [
+      "めかけ",
+      "おんなめ",
+      "しょう"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 8524,
+    "kanaRank": 50488
+  },
+  "progression": {
+    "kklcStep": 99999
+  },
+  "senses": [
+    {
+      "pos": [
+        "pn"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch",
+          "hum",
+          "fem"
+        ]
+      },
+      "glosses": [
+        "I",
+        "me"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "dated"
+        ]
+      },
+      "glosses": [
+        "mistress",
+        "kept woman",
+        "concubine"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "めかけ"
+      ]
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "mistress",
+        "kept woman",
+        "concubine"
+      ],
+      "related": {
+        "compounds": [
+          "妾"
+        ]
+      },
+      "appliesToReadings": [
+        "しょう"
+      ]
+    },
+    {
+      "pos": [
+        "pn"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch",
+          "hum",
+          "fem"
+        ]
+      },
+      "glosses": [
+        "I",
+        "me"
+      ],
+      "related": {
+        "compounds": [
+          "妾"
+        ]
+      },
+      "appliesToReadings": [
+        "しょう"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": false,
+  "mergedVocabs": [
+    {
+      "id": "1347580",
+      "isBase": true,
+      "originalPrimaryReading": "わらわ",
+      "originalGlosses": [
+        "I",
+        "me"
+      ]
+    },
+    {
+      "id": "2256130",
+      "isBase": false,
+      "originalPrimaryReading": "めかけ",
+      "originalGlosses": [
+        "mistress",
+        "kept woman",
+        "concubine"
+      ]
+    },
+    {
+      "id": "2843112",
+      "isBase": false,
+      "originalPrimaryReading": "しょう",
+      "originalGlosses": [
+        "mistress",
+        "kept woman",
+        "concubine"
+      ]
+    }
+  ]
+}

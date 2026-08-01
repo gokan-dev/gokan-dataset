@@ -1,0 +1,108 @@
+[
+  {
+    "id": "189356",
+    "original": "きょうは雲行きが怪しいので波乗りを遠慮したほうがいいと思う。",
+    "en": [
+      {
+        "id": "26504",
+        "text": "Since it's cloudy with a chance of rain today, we shouldn't go surfing."
+      }
+    ],
+    "indices": "雲行き が 怪しい[01]",
+    "vocabIds": [
+      "2122910",
+      "1471010",
+      "1178450",
+      "1589350"
+    ],
+    "matches": {
+      "1178450": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "えんりょ"
+        }
+      ],
+      "1471010": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "なみのり"
+        }
+      ],
+      "1589350": [
+        {
+          "start": 27,
+          "length": 2,
+          "reading": "おもう"
+        }
+      ],
+      "2122910": [
+        {
+          "start": 4,
+          "length": 7,
+          "reading": "くもゆきがあやしい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "422020",
+    "original": "今日は雲行きが怪しいです。お花見が中止にならないか心配です。",
+    "en": [
+      {
+        "id": "422024",
+        "text": "I don't like the look of the weather today. I'm worried the hanami party might be cancelled."
+      },
+      {
+        "id": "646961",
+        "text": "It looks like it may rain today. I'm worried that our cherry-blossom-viewing party might be canceled."
+      }
+    ],
+    "indices": "今日 は 雲行きが怪しい[01]~ です 御(お){お} 花見 が 中止[02] に 成る{ならない} か 心配 です",
+    "vocabIds": [
+      "2122910",
+      "1289400",
+      "1194660",
+      "1424410",
+      "1360930"
+    ],
+    "matches": {
+      "1194660": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "はなみ"
+        }
+      ],
+      "1289400": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きょうは"
+        }
+      ],
+      "1360930": [
+        {
+          "start": 25,
+          "length": 2,
+          "reading": "しんぱい"
+        }
+      ],
+      "1424410": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "ちゅうし"
+        }
+      ],
+      "2122910": [
+        {
+          "start": 3,
+          "length": 7,
+          "reading": "くもゆきがあやしい"
+        }
+      ]
+    }
+  }
+]

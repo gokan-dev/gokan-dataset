@@ -1,0 +1,151 @@
+[
+  {
+    "id": "83595",
+    "original": "兵士は進撃を命じられた。",
+    "en": [
+      {
+        "id": "320121",
+        "text": "The soldiers were ordered to make an attack."
+      }
+    ],
+    "indices": "兵士 は 進撃 を 命じる{命じられた}",
+    "vocabIds": [
+      "1531950",
+      "1506420",
+      "1366050"
+    ],
+    "matches": {
+      "1366050": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "しんげき"
+        }
+      ],
+      "1506420": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "へいし"
+        }
+      ],
+      "1531950": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "めいじ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "176656",
+    "original": "軍隊は敵に向かって進撃した。",
+    "en": [
+      {
+        "id": "237806",
+        "text": "The army advanced on the enemy."
+      }
+    ],
+    "indices": "軍隊 は 敵(てき)[01] に 向かう{向かって} 進撃~ 為る(する){した}",
+    "vocabIds": [
+      "1604800",
+      "1248710",
+      "1366050",
+      "1582000"
+    ],
+    "matches": {
+      "1248710": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ぐんたい"
+        }
+      ],
+      "1366050": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "しんげき"
+        }
+      ],
+      "1582000": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "てき"
+        }
+      ],
+      "1604800": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "むかって"
+        }
+      ]
+    }
+  },
+  {
+    "id": "199078",
+    "original": "ナポレオンの軍勢は今や進撃し、大きな戦いが始まる。",
+    "en": [
+      {
+        "id": "36276",
+        "text": "Napoleon's army now advanced and a great battle begins."
+      }
+    ],
+    "indices": "ナポレオン の 軍勢~ は 今や 進撃 為る(する){し} 大きな 戦い[01] が 始まる",
+    "vocabIds": [
+      "1412890",
+      "1307500",
+      "1248590",
+      "1289000",
+      "1366050",
+      "1596950"
+    ],
+    "matches": {
+      "1248590": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ぐんぜい"
+        }
+      ],
+      "1289000": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "いまや"
+        }
+      ],
+      "1307500": [
+        {
+          "start": 21,
+          "length": 3,
+          "reading": "はじまる"
+        }
+      ],
+      "1366050": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "しんげき"
+        }
+      ],
+      "1412890": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "おおきな"
+        }
+      ],
+      "1596950": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "たたかい"
+        }
+      ]
+    }
+  }
+]

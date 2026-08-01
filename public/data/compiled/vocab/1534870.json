@@ -1,0 +1,124 @@
+{
+  "id": "1534870",
+  "writtenForm": {
+    "kanji": "木綿",
+    "alternatives": [
+      "木棉"
+    ],
+    "containedKanji": [
+      "木",
+      "綿"
+    ]
+  },
+  "reading": {
+    "primary": "もめん",
+    "alternatives": [
+      "きわた",
+      "ゆう"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 22767,
+    "kanaRank": 64886
+  },
+  "jlptLevel": 4,
+  "progression": {
+    "kklcStep": 211
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "cotton (material)"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "red silk-cotton tree (Bombax ceiba)"
+      ],
+      "related": {
+        "compounds": [
+          "パンヤの木"
+        ]
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "string made of cut steamed, soaked mulberry bark fibers"
+      ],
+      "related": {
+        "compounds": [
+          "楮"
+        ]
+      },
+      "appliesToReadings": [
+        "ゆう"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": true
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1534870",
+      "isBase": true,
+      "originalPrimaryReading": "もめん",
+      "originalGlosses": [
+        "cotton (material)"
+      ]
+    },
+    {
+      "id": "2261050",
+      "isBase": false,
+      "originalPrimaryReading": "ゆう",
+      "originalGlosses": [
+        "string made of cut steamed, soaked mulberry bark fibers"
+      ]
+    }
+  ],
+  "components": [
+    "1534520",
+    "1533340"
+  ]
+}

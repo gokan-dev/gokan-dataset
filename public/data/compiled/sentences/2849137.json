@@ -1,0 +1,56 @@
+[
+  {
+    "id": "184729",
+    "original": "外出の時間制限をするつもりですか。",
+    "en": [
+      {
+        "id": "21857",
+        "text": "Are you going to pull curfew on me?"
+      }
+    ],
+    "indices": "外出 の 時間[01] 制限 を 為る(する)[01]{する} 積もり{つもり} ですか",
+    "vocabIds": [
+      "2849137",
+      "1203800"
+    ],
+    "matches": {
+      "1203800": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "がいしゅつ"
+        }
+      ],
+      "2849137": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "じかんせいげん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "223506",
+    "original": "このテストに時間制限はありません。",
+    "en": [
+      {
+        "id": "60840",
+        "text": "This test doesn't have a time limit."
+      }
+    ],
+    "indices": "此の{この} テスト[01] に 時間 制限 は 有る{ありません}",
+    "vocabIds": [
+      "2849137"
+    ],
+    "matches": {
+      "2849137": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "じかんせいげん"
+        }
+      ]
+    }
+  }
+]

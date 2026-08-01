@@ -1,0 +1,95 @@
+[
+  {
+    "id": "227505",
+    "original": "おまわりさんに車を片側に寄せるように合図された。",
+    "en": [
+      {
+        "id": "64858",
+        "text": "The patrolman motioned me to pull over."
+      }
+    ],
+    "indices": "お巡りさん{おまわりさん}~ に 車(くるま) を 片側~ に 寄せる 様に{ように} 合図 為れる{された}",
+    "vocabIds": [
+      "1219560",
+      "1511720",
+      "1284930",
+      "1323080"
+    ],
+    "matches": {
+      "1219560": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "よせる"
+        }
+      ],
+      "1284930": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "あいず"
+        }
+      ],
+      "1323080": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1511720": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "かたがわ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9279935",
+    "original": "ヒラメの成魚は、顔の片側に両目があります。",
+    "en": [
+      {
+        "id": "9274327",
+        "text": "An adult flounder has both eyes on the same side of its face."
+      }
+    ],
+    "vocabIds": [
+      "1764270",
+      "1511720",
+      "1810450",
+      "1217730"
+    ],
+    "matches": {
+      "1217730": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "かお"
+        }
+      ],
+      "1511720": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "かたがわ"
+        }
+      ],
+      "1764270": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "せいぎょ"
+        }
+      ],
+      "1810450": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "りょうめ"
+        }
+      ]
+    }
+  }
+]

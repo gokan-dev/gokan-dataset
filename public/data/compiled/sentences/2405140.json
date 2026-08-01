@@ -1,0 +1,63 @@
+[
+  {
+    "id": "231237",
+    "original": "あのラジオ番組はまだ続いていますか。",
+    "en": [
+      {
+        "id": "68604",
+        "text": "Is that radio program still on the air?"
+      }
+    ],
+    "indices": "彼の(あの){あの} ラジオ 番組 は 未だ[01]{まだ} 続く[01]{続いています} か",
+    "vocabIds": [
+      "1405790",
+      "2405140"
+    ],
+    "matches": {
+      "1405790": [
+        {
+          "start": 10,
+          "length": 6,
+          "reading": "つづいています"
+        }
+      ],
+      "2405140": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "らじおばんぐみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12662526",
+    "original": "すごく興味深いラジオ番組でした。",
+    "en": [
+      {
+        "id": "12379387",
+        "text": "It was a very interesting radio program."
+      }
+    ],
+    "vocabIds": [
+      "2405140",
+      "1238420"
+    ],
+    "matches": {
+      "1238420": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "きょうみぶかい"
+        }
+      ],
+      "2405140": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "らじおばんぐみ"
+        }
+      ]
+    }
+  }
+]

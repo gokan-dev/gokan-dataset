@@ -1,0 +1,109 @@
+[
+  {
+    "id": "229542",
+    "original": "あんな人種差別の発言をするなんて、あの政治家も取り返しのつかないことを口にしたものだ。",
+    "en": [
+      {
+        "id": "66902",
+        "text": "That politician put his foot in his mouth when he made those racist comments."
+      }
+    ],
+    "indices": "あんな 人種差別~ の 発言 を 為る(する)[01]{する} なんて[01] 彼の(あの){あの} 政治家 も 取り返しのつかない~ 事(こと){こと} を 口にする{口にした} 物(もの){もの} だ",
+    "vocabIds": [
+      "2224500",
+      "1368050",
+      "1375980",
+      "1477350",
+      "1275640"
+    ],
+    "matches": {
+      "1275640": [
+        {
+          "start": 35,
+          "length": 1,
+          "reading": "くち"
+        }
+      ],
+      "1368050": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "じんしゅさべつ"
+        }
+      ],
+      "1375980": [
+        {
+          "start": 19,
+          "length": 3,
+          "reading": "せいじか"
+        }
+      ],
+      "1477350": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "はつげん"
+        }
+      ],
+      "2224500": [
+        {
+          "start": 23,
+          "length": 9,
+          "reading": "とりかえしのつかない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12143016",
+    "original": "取り返しのつかない失敗をしてしまった。",
+    "en": [
+      {
+        "id": "10729869",
+        "text": "I made an irreversible mistake."
+      }
+    ],
+    "vocabIds": [
+      "2224500",
+      "1320140"
+    ],
+    "matches": {
+      "1320140": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "しっぱい"
+        }
+      ],
+      "2224500": [
+        {
+          "start": 0,
+          "length": 9,
+          "reading": "とりかえしのつかない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12143017",
+    "original": "取り返しのつかないミスをしちゃった。",
+    "en": [
+      {
+        "id": "10729869",
+        "text": "I made an irreversible mistake."
+      }
+    ],
+    "vocabIds": [
+      "2224500"
+    ],
+    "matches": {
+      "2224500": [
+        {
+          "start": 0,
+          "length": 9,
+          "reading": "とりかえしのつかない"
+        }
+      ]
+    }
+  }
+]

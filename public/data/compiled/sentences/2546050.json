@@ -1,0 +1,103 @@
+[
+  {
+    "id": "170674",
+    "original": "最近はいかがお過ごしですか。",
+    "en": [
+      {
+        "id": "18699",
+        "text": "How are you getting along these days?"
+      }
+    ],
+    "indices": "最近 は いかがお過ごしですか",
+    "vocabIds": [
+      "2546050",
+      "1293780"
+    ],
+    "matches": {
+      "1293780": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "さいきん"
+        }
+      ],
+      "2546050": [
+        {
+          "start": 3,
+          "length": 10,
+          "reading": "いかがおすごしですか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "174272",
+    "original": "御家族はいかがお過ごしですか。",
+    "en": [
+      {
+        "id": "64242",
+        "text": "How is it going with your family?"
+      }
+    ],
+    "indices": "御(ご) 家族 は いかがお過ごしですか~",
+    "vocabIds": [
+      "2546050",
+      "1192150",
+      "1270190",
+      "2259700"
+    ],
+    "matches": {
+      "1192150": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "かぞく"
+        }
+      ],
+      "1270190": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ご"
+        }
+      ],
+      "2259700": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ご"
+        }
+      ],
+      "2546050": [
+        {
+          "start": 4,
+          "length": 10,
+          "reading": "いかがおすごしですか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "223463",
+    "original": "このところいかがお過ごしですか。",
+    "en": [
+      {
+        "id": "18699",
+        "text": "How are you getting along these days?"
+      }
+    ],
+    "indices": "この所{このところ} いかがお過ごしですか",
+    "vocabIds": [
+      "2546050"
+    ],
+    "matches": {
+      "2546050": [
+        {
+          "start": 5,
+          "length": 10,
+          "reading": "いかがおすごしですか"
+        }
+      ]
+    }
+  }
+]

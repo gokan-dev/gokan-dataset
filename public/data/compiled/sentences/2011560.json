@@ -1,0 +1,71 @@
+[
+  {
+    "id": "236743",
+    "original": "甘い物好きですか。",
+    "en": [
+      {
+        "id": "21005",
+        "text": "Do you care for sweets?"
+      }
+    ],
+    "indices": "甘い物 好き(すき) ですか",
+    "vocabIds": [
+      "2011560"
+    ],
+    "matches": {
+      "2011560": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "あまいものすき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1006908",
+    "original": "私は甘いもの好きだ。",
+    "en": [
+      {
+        "id": "256724",
+        "text": "I have a sweet tooth."
+      }
+    ],
+    "vocabIds": [
+      "2011560",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2011560": [
+        {
+          "start": 2,
+          "length": 6,
+          "reading": "あまいものすき"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  }
+]

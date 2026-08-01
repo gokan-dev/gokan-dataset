@@ -1,0 +1,190 @@
+[
+  {
+    "id": "174172",
+    "original": "交信が出来ません。",
+    "en": [
+      {
+        "id": "240298",
+        "text": "I just can't seem to make contact."
+      }
+    ],
+    "indices": "交信~ が[01] 出来る{出来ません}",
+    "vocabIds": [
+      "1340450",
+      "1272170"
+    ],
+    "matches": {
+      "1272170": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こうしん"
+        }
+      ],
+      "1340450": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "できません"
+        }
+      ]
+    }
+  },
+  {
+    "id": "217141",
+    "original": "ご主人と交信なさりたいんですね。",
+    "en": [
+      {
+        "id": "54448",
+        "text": "I understand you wish to contact your husband."
+      }
+    ],
+    "indices": "御(ご){ご} 主人(しゅじん) と 交信 為さる{なさり} たい[01] のです{んです} ね(#2029080)[01]",
+    "vocabIds": [
+      "1270390",
+      "1272170"
+    ],
+    "matches": {
+      "1270390": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ごしゅじん"
+        }
+      ],
+      "1272170": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "こうしん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1672737",
+    "original": "トムは死者と交信することができると言っている。",
+    "en": [
+      {
+        "id": "1488475",
+        "text": "Tom says that he is able to communicate with the dead."
+      },
+      {
+        "id": "6647740",
+        "text": "Tom says he's able to communicate with the dead."
+      }
+    ],
+    "vocabIds": [
+      "1587040",
+      "1310870",
+      "1272170"
+    ],
+    "matches": {
+      "1272170": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "こうしん"
+        }
+      ],
+      "1310870": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ししゃ"
+        }
+      ],
+      "1587040": [
+        {
+          "start": 17,
+          "length": 5,
+          "reading": "いっている"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8877781",
+    "original": "トムって、幽霊と交信できるんだ。",
+    "en": [
+      {
+        "id": "7051092",
+        "text": "Tom can communicate with ghosts."
+      }
+    ],
+    "vocabIds": [
+      "1540590",
+      "1272170"
+    ],
+    "matches": {
+      "1272170": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "こうしん"
+        }
+      ],
+      "1540590": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ゆうれい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8877783",
+    "original": "メアリーは霊と交信することができるの。",
+    "en": [
+      {
+        "id": "7051094",
+        "text": "Mary can communicate with ghosts."
+      }
+    ],
+    "vocabIds": [
+      "1272170",
+      "1364440",
+      "1557730",
+      "1579170",
+      "1893380"
+    ],
+    "matches": {
+      "1272170": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "こうしん"
+        }
+      ],
+      "1364440": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "れい"
+        }
+      ],
+      "1557730": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "れい"
+        }
+      ],
+      "1579170": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "れい"
+        }
+      ],
+      "1893380": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "れい"
+        }
+      ]
+    }
+  }
+]

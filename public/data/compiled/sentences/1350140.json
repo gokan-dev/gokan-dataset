@@ -1,0 +1,531 @@
+[
+  {
+    "id": "145782",
+    "original": "食物は胃の中で消化される。",
+    "en": [
+      {
+        "id": "452255",
+        "text": "Food is digested in the stomach."
+      }
+    ],
+    "indices": "食物 は 胃[01]~ の 中(なか) で(#2028980) 消化~ 為れる{される}",
+    "vocabIds": [
+      "1358620",
+      "1640430",
+      "1350140",
+      "1158500",
+      "1423310",
+      "2098290"
+    ],
+    "matches": {
+      "1158500": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "い"
+        }
+      ],
+      "1350140": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "しょうか"
+        }
+      ],
+      "1358620": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しょくもつ"
+        }
+      ],
+      "1423310": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "なか"
+        }
+      ],
+      "1640430": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しょくもつ"
+        }
+      ],
+      "2098290": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "なか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "145935",
+    "original": "食べているもので嫌いなものはよく消化しません。",
+    "en": [
+      {
+        "id": "268627",
+        "text": "Foods you eat which you don't like will not digest well."
+      }
+    ],
+    "indices": "食べる{食べている} 物(もの){もの} で(#2028980) 嫌い{嫌いな} 物(もの){もの} は 良く[01]{よく} 消化 為る(する){しません}",
+    "vocabIds": [
+      "1358280",
+      "1257240",
+      "1350140"
+    ],
+    "matches": {
+      "1257240": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "きらい"
+        }
+      ],
+      "1350140": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "しょうか"
+        }
+      ],
+      "1358280": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "たべている"
+        }
+      ]
+    }
+  },
+  {
+    "id": "150088",
+    "original": "自然食品がつねに消化にいいとは限らない。",
+    "en": [
+      {
+        "id": "264469",
+        "text": "Natural food is not always good for our digestion."
+      }
+    ],
+    "indices": "自然食品 が 常に{つねに} 消化 に いい(#2820690)[01] とは限らない",
+    "vocabIds": [
+      "2070730",
+      "1726700",
+      "1350140"
+    ],
+    "matches": {
+      "1350140": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "しょうか"
+        }
+      ],
+      "1726700": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "しぜんしょくひん"
+        }
+      ],
+      "2070730": [
+        {
+          "start": 13,
+          "length": 6,
+          "reading": "とはかぎらない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "150089",
+    "original": "自然食は人間の消化に合っている。",
+    "en": [
+      {
+        "id": "264468",
+        "text": "A natural diet is suitable for human digestion."
+      }
+    ],
+    "indices": "自然食~ は 人間(にんげん)[01] の 消化 に 合う{合っている}",
+    "vocabIds": [
+      "1284430",
+      "2201590",
+      "1366770",
+      "1350140"
+    ],
+    "matches": {
+      "1284430": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "あっている"
+        }
+      ],
+      "1350140": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "しょうか"
+        }
+      ],
+      "1366770": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "にんげん"
+        }
+      ],
+      "2201590": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "しぜんしょく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "192065",
+    "original": "ワインは消化を助ける。",
+    "en": [
+      {
+        "id": "29227",
+        "text": "Wine helps digest food."
+      }
+    ],
+    "indices": "ワイン は 消化 を 助ける[04]",
+    "vocabIds": [
+      "1344410",
+      "1350140"
+    ],
+    "matches": {
+      "1344410": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "たすける"
+        }
+      ],
+      "1350140": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "しょうか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "192769",
+    "original": "よく消化するためには、食べ物を十分かまねばならない。",
+    "en": [
+      {
+        "id": "29934",
+        "text": "Food must be chewed well to be digested properly."
+      }
+    ],
+    "indices": "良く[01]{よく} 消化 為る(する){する} 為に{ために} は 食べ物 を 十分(じゅうぶん)[03] 噛む[01]{かま} ねばならない",
+    "vocabIds": [
+      "1358340",
+      "1350140",
+      "1335070",
+      "1335080"
+    ],
+    "matches": {
+      "1335070": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "じゅうぶん"
+        }
+      ],
+      "1335080": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "じゅうぶん"
+        }
+      ],
+      "1350140": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "しょうか"
+        }
+      ],
+      "1358340": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "たべもの"
+        }
+      ]
+    }
+  },
+  {
+    "id": "202959",
+    "original": "ちゃんと消化されるように、食べ物はしっかりとかみなさい。",
+    "en": [
+      {
+        "id": "40195",
+        "text": "Chew your food well so it can be digested properly."
+      }
+    ],
+    "indices": "ちゃんと 消化 為れる{される} 様に{ように} 食べ物 は 確り{しっかりと} 噛む[02]{かみなさい}",
+    "vocabIds": [
+      "1358340",
+      "1350140"
+    ],
+    "matches": {
+      "1350140": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "しょうか"
+        }
+      ],
+      "1358340": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "たべもの"
+        }
+      ]
+    }
+  },
+  {
+    "id": "203037",
+    "original": "チーズは簡単に消化しない。",
+    "en": [
+      {
+        "id": "40272",
+        "text": "Cheese doesn't digest easily."
+      }
+    ],
+    "indices": "チーズ は 簡単{簡単に} 消化 為る(する){しない}",
+    "vocabIds": [
+      "1214330",
+      "1350140"
+    ],
+    "matches": {
+      "1214330": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "かんたん"
+        }
+      ],
+      "1350140": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "しょうか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "227753",
+    "original": "おかゆは消化しやすいんです。",
+    "en": [
+      {
+        "id": "65107",
+        "text": "Rice gruel is easy to digest."
+      }
+    ],
+    "indices": "お粥{おかゆ} は 消化 し易い{しやすい} のです{んです}",
+    "vocabIds": [
+      "1350140"
+    ],
+    "matches": {
+      "1350140": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "しょうか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "234003",
+    "original": "あなたが食べる食物で好きでないものはよく消化しない。",
+    "en": [
+      {
+        "id": "71377",
+        "text": "Food you eat that you don't like will not be digested well."
+      }
+    ],
+    "indices": "貴方(あなた)[01]{あなた} が 食べる 食物 で(#2028980) 好き(すき) である{でない} 物(もの){もの} は 良く[01]{よく} 消化 為る(する){しない}",
+    "vocabIds": [
+      "1358280",
+      "1358620",
+      "1640430",
+      "1277450",
+      "1350140"
+    ],
+    "matches": {
+      "1277450": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "すき"
+        }
+      ],
+      "1350140": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "しょうか"
+        }
+      ],
+      "1358280": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "たべる"
+        }
+      ],
+      "1358620": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "しょくもつ"
+        }
+      ],
+      "1640430": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "しょくもつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10022329",
+    "original": "明日の午前９時から消化管内視鏡検査を行いますので、今夜９時以降は絶飲食してください。",
+    "en": [
+      {
+        "id": "3111752",
+        "text": "You're having a gastroscopy at nine o'clock tomorrow morning, so please don't have any solid food or liquids from nine o'clock tonight."
+      }
+    ],
+    "vocabIds": [
+      "1589060",
+      "2645400",
+      "1584660",
+      "1269060",
+      "2845349",
+      "1350140",
+      "1214190",
+      "1257890",
+      "1289520",
+      "1155110",
+      "2257780",
+      "1238550",
+      "2017840"
+    ],
+    "matches": {
+      "1155110": [
+        {
+          "start": 29,
+          "length": 2,
+          "reading": "いこう"
+        }
+      ],
+      "1214190": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "かんない"
+        }
+      ],
+      "1238550": [
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "きょう"
+        }
+      ],
+      "1257890": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "けんさ"
+        }
+      ],
+      "1269060": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ごぜん"
+        }
+      ],
+      "1289520": [
+        {
+          "start": 25,
+          "length": 2,
+          "reading": "こんや"
+        }
+      ],
+      "1350140": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "しょうか"
+        }
+      ],
+      "1584660": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あした"
+        }
+      ],
+      "1589060": [
+        {
+          "start": 18,
+          "length": 6,
+          "reading": "おこないますので"
+        }
+      ],
+      "2017840": [
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "きょう"
+        }
+      ],
+      "2257780": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "し"
+        }
+      ],
+      "2645400": [
+        {
+          "start": 32,
+          "length": 3,
+          "reading": "ぜっいんしょく"
+        }
+      ],
+      "2845349": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "きゅうじ"
+        },
+        {
+          "start": 27,
+          "length": 2,
+          "reading": "きゅうじ"
+        }
+      ]
+    }
+  }
+]

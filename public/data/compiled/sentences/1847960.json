@@ -1,0 +1,83 @@
+[
+  {
+    "id": "176906",
+    "original": "君は浮き足立っているね。",
+    "en": [
+      {
+        "id": "9584",
+        "text": "You are wavering."
+      }
+    ],
+    "indices": "君(きみ)[01] は 浮き足立つ{浮き足立っている}~ ね",
+    "vocabIds": [
+      "1847960",
+      "1247250"
+    ],
+    "matches": {
+      "1247250": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "きみ"
+        }
+      ],
+      "1847960": [
+        {
+          "start": 2,
+          "length": 8,
+          "reading": "うきあしだっている"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11005460",
+    "original": "初めての試合で緊張からか浮き足立っていた。",
+    "en": [
+      {
+        "id": "12615534",
+        "text": "During my first match, I was on edge and fidgety, probably because I was so nervous."
+      },
+      {
+        "id": "12615535",
+        "text": "I was on edge and fidgety during my first match, probably because I was so nervous."
+      }
+    ],
+    "vocabIds": [
+      "1847960",
+      "1342550",
+      "1312420",
+      "1241880"
+    ],
+    "matches": {
+      "1241880": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "きんちょう"
+        }
+      ],
+      "1312420": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "しあい"
+        }
+      ],
+      "1342550": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "はじめて"
+        }
+      ],
+      "1847960": [
+        {
+          "start": 12,
+          "length": 8,
+          "reading": "うきあしだっていた"
+        }
+      ]
+    }
+  }
+]

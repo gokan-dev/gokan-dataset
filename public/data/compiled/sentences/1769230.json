@@ -1,0 +1,124 @@
+[
+  {
+    "id": "74674",
+    "original": "雨が降って土に湿り気があると草は取りやすくなる。",
+    "en": [
+      {
+        "id": "329045",
+        "text": "When rain's fallen and the soil is moist, it becomes easier to pull out weeds."
+      },
+      {
+        "id": "937598",
+        "text": "After it rains and the ground is damp, it's easier to pull weeds."
+      }
+    ],
+    "indices": "雨 が 降る(ふる){降って} 土(つち) に 湿り気~ が 有る{ある} と 草(くさ) は 取る{取り} 易い{やすく} 成る{なる}",
+    "vocabIds": [
+      "2257460",
+      "1769230",
+      "1326980",
+      "1171900",
+      "1445270",
+      "1401910",
+      "2406720"
+    ],
+    "matches": {
+      "1171900": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "あめ"
+        }
+      ],
+      "1326980": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "とり"
+        }
+      ],
+      "1401910": [
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "くさ"
+        }
+      ],
+      "1445270": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "ど"
+        }
+      ],
+      "1769230": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "しめりけ"
+        }
+      ],
+      "2257460": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "ふって"
+        }
+      ],
+      "2406720": [
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "くさ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "179379",
+    "original": "空気は穏やかで、土には湿り気がある。",
+    "en": [
+      {
+        "id": "18237",
+        "text": "The air is soft, the soil moist."
+      }
+    ],
+    "indices": "空気 は 穏やか で(#2028980) 土(つち) には 湿り気 が[01] 有る{ある}",
+    "vocabIds": [
+      "1183590",
+      "1769230",
+      "1245470",
+      "1445270"
+    ],
+    "matches": {
+      "1183590": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "おだやか"
+        }
+      ],
+      "1245470": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "くうき"
+        }
+      ],
+      "1445270": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "ど"
+        }
+      ],
+      "1769230": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "しめりけ"
+        }
+      ]
+    }
+  }
+]

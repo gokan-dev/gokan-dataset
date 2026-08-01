@@ -1,0 +1,111 @@
+[
+  {
+    "id": "197022",
+    "original": "ぶらぶら寄り道していこうよ。",
+    "en": [
+      {
+        "id": "34202",
+        "text": "Let's just wander and see where it takes us."
+      }
+    ],
+    "indices": "ぶらぶら 寄り道~ 為る(する){して} 行く[10]{いこう} よ[01]",
+    "vocabIds": [
+      "1219650"
+    ],
+    "matches": {
+      "1219650": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "よりみち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "896623",
+    "original": "寄り道せずに家に帰るつもりだったのに、つい本屋へと足が向いてしまう。",
+    "en": [
+      {
+        "id": "896711",
+        "text": "I intended to go straight back home, but I sort of wandered inside a bookstore."
+      }
+    ],
+    "vocabIds": [
+      "1277080",
+      "1219650",
+      "1221270",
+      "1522240",
+      "1191730",
+      "2098290",
+      "2082160",
+      "2220300",
+      "1404630"
+    ],
+    "matches": {
+      "1191730": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ],
+      "1219650": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "よりみち"
+        }
+      ],
+      "1221270": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "かえる"
+        }
+      ],
+      "1277080": [
+        {
+          "start": 27,
+          "length": 6,
+          "reading": "むいてしまう"
+        }
+      ],
+      "1404630": [
+        {
+          "start": 25,
+          "length": 1,
+          "reading": "あし"
+        }
+      ],
+      "1522240": [
+        {
+          "start": 21,
+          "length": 2,
+          "reading": "ほんや"
+        }
+      ],
+      "2082160": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ],
+      "2098290": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ],
+      "2220300": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ]
+    }
+  }
+]

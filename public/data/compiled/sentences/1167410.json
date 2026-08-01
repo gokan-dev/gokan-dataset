@@ -1,0 +1,133 @@
+[
+  {
+    "id": "161767",
+    "original": "一例を示しましょう。",
+    "en": [
+      {
+        "id": "71020",
+        "text": "Let me give you an example."
+      }
+    ],
+    "indices": "一例 を 示す{示しましょう}",
+    "vocabIds": [
+      "1317110",
+      "1167410"
+    ],
+    "matches": {
+      "1167410": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いちれい"
+        }
+      ],
+      "1317110": [
+        {
+          "start": 3,
+          "length": 6,
+          "reading": "しめしましょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "190025",
+    "original": "一例をあげればその点ははっきりするだろう。",
+    "en": [
+      {
+        "id": "27182",
+        "text": "An illustration may make the point clear."
+      }
+    ],
+    "indices": "一例 を 挙げる[01]{あげれば} 其の[01]{その} 点(てん) は はっきり 為る(する){する} だろう",
+    "vocabIds": [
+      "1167410",
+      "1007860"
+    ],
+    "matches": {
+      "1007860": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "てん"
+        }
+      ],
+      "1167410": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いちれい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "218492",
+    "original": "これは英国の現代生活のほんの一例だ。",
+    "en": [
+      {
+        "id": "55805",
+        "text": "This is an instance of modern British life."
+      }
+    ],
+    "indices": "此れ[01]{これ} は 英国 の 現代[01] 生活 の 本の{ほんの} 一例~ だ",
+    "vocabIds": [
+      "2671530",
+      "1174450",
+      "1167410"
+    ],
+    "matches": {
+      "1167410": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "いちれい"
+        }
+      ],
+      "1174450": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "えいこく"
+        }
+      ],
+      "2671530": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "げんだいせいかつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10744520",
+    "original": "一例を挙げましょう。",
+    "en": [
+      {
+        "id": "71020",
+        "text": "Let me give you an example."
+      }
+    ],
+    "vocabIds": [
+      "2864818",
+      "1167410"
+    ],
+    "matches": {
+      "1167410": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いちれい"
+        }
+      ],
+      "2864818": [
+        {
+          "start": 3,
+          "length": 6,
+          "reading": "あげましょう"
+        }
+      ]
+    }
+  }
+]

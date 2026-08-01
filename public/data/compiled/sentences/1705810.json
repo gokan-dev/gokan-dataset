@@ -1,0 +1,100 @@
+[
+  {
+    "id": "86574",
+    "original": "彼女は娘の身支度を手伝った。",
+    "en": [
+      {
+        "id": "317137",
+        "text": "She aided her daughter in dressing."
+      },
+      {
+        "id": "1115745",
+        "text": "She helped her daughter get dressed."
+      }
+    ],
+    "indices": "彼女[01] は 娘(むすめ)[01]~ の 身支度[01] を 手伝う{手伝った}",
+    "vocabIds": [
+      "1328190",
+      "1705810",
+      "1483150",
+      "1355930",
+      "1531190"
+    ],
+    "matches": {
+      "1328190": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "てつだった"
+        }
+      ],
+      "1355930": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "むすめ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1531190": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "むすめ"
+        }
+      ],
+      "1705810": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "みじたく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "168899",
+    "original": "姉は身支度に時間をかけすぎる。",
+    "en": [
+      {
+        "id": "245591",
+        "text": "My sister spends too much time dressing."
+      }
+    ],
+    "indices": "姉(あね) は 身支度[01]~ に 時間を掛ける{時間をかけ}~ 過ぎる(すぎる){すぎる}",
+    "vocabIds": [
+      "1705810",
+      "1315920",
+      "1307630"
+    ],
+    "matches": {
+      "1307630": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "あね"
+        }
+      ],
+      "1315920": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "じかん"
+        }
+      ],
+      "1705810": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "みじたく"
+        }
+      ]
+    }
+  }
+]

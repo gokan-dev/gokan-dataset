@@ -1,0 +1,151 @@
+[
+  {
+    "id": "514721",
+    "original": "携帯番号を教えて頂けませんか。",
+    "en": [
+      {
+        "id": "514714",
+        "text": "Can you give me your cell number?"
+      },
+      {
+        "id": "515002",
+        "text": "Could you please tell me what your cell phone number is?"
+      },
+      {
+        "id": "910279",
+        "text": "Could you tell me your mobile number please?"
+      },
+      {
+        "id": "9840115",
+        "text": "Could you tell me your cell phone number, please?"
+      }
+    ],
+    "indices": "携帯番号~ を 教える{教えて} 頂く{頂けません} か",
+    "vocabIds": [
+      "1628260",
+      "2153810",
+      "1236900"
+    ],
+    "matches": {
+      "1236900": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "おしえて"
+        }
+      ],
+      "1628260": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "いただけません"
+        }
+      ],
+      "2153810": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "けいたいばんごう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11046760",
+    "original": "携帯番号教えちゃった。",
+    "en": [
+      {
+        "id": "2214150",
+        "text": "I gave him my phone number."
+      }
+    ],
+    "vocabIds": [
+      "1236900",
+      "2153810"
+    ],
+    "matches": {
+      "1236900": [
+        {
+          "start": 4,
+          "length": 6,
+          "reading": "おしえちゃった"
+        }
+      ],
+      "2153810": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "けいたいばんごう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11119564",
+    "original": "ここに携帯番号を書いてください。",
+    "en": [
+      {
+        "id": "6084069",
+        "text": "Please write your telephone number here."
+      }
+    ],
+    "vocabIds": [
+      "1343950",
+      "2153810"
+    ],
+    "matches": {
+      "1343950": [
+        {
+          "start": 8,
+          "length": 7,
+          "reading": "かいてください"
+        }
+      ],
+      "2153810": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "けいたいばんごう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12954886",
+    "original": "携帯番号教えて。",
+    "en": [
+      {
+        "id": "12998920",
+        "text": "Tell me your mobile phone number."
+      },
+      {
+        "id": "12998921",
+        "text": "Tell me your cell phone number."
+      },
+      {
+        "id": "12998922",
+        "text": "Tell me your phone number."
+      }
+    ],
+    "vocabIds": [
+      "2153810",
+      "1236900"
+    ],
+    "matches": {
+      "1236900": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "おしえて"
+        }
+      ],
+      "2153810": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "けいたいばんごう"
+        }
+      ]
+    }
+  }
+]

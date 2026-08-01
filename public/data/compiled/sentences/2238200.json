@@ -1,0 +1,72 @@
+[
+  {
+    "id": "81987",
+    "original": "僕は何をやっても悪運が強いんだ。",
+    "en": [
+      {
+        "id": "321728",
+        "text": "I've got the devil's own luck in everything."
+      }
+    ],
+    "indices": "僕(ぼく)[01] は 何(なに)[01] を 遣る{やって} も 悪運 が 強い(つよい) のだ{んだ}",
+    "vocabIds": [
+      "2238200",
+      "2851233",
+      "1521400",
+      "2228300"
+    ],
+    "matches": {
+      "1521400": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ],
+      "2228300": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ],
+      "2238200": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "あくうんがつよい"
+        }
+      ],
+      "2851233": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "なにを"
+        }
+      ]
+    }
+  },
+  {
+    "id": "191432",
+    "original": "悪運が強い。",
+    "en": [
+      {
+        "id": "28594",
+        "text": "Have the devil's own luck."
+      }
+    ],
+    "indices": "悪運 が 強い(つよい)",
+    "vocabIds": [
+      "2238200"
+    ],
+    "matches": {
+      "2238200": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "あくうんがつよい"
+        }
+      ]
+    }
+  }
+]

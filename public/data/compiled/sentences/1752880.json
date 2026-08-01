@@ -1,0 +1,81 @@
+[
+  {
+    "id": "76931",
+    "original": "あ、そうだったわね。じゃあ、みみっちいのはあんたの買い方ってことね。",
+    "en": [
+      {
+        "id": "326789",
+        "text": "Oh yes, you're right. Well, it's the way you shop that's tight-fisted then."
+      }
+    ],
+    "indices": "あ[01] 然う[01]{そう} だ{だった} わね じゃあ みみっちい~ の は 貴方(あんた){あんた} の 買う[01]{買い} 方(かた) って 事(こと){こと} ね(#2029080)[01]",
+    "vocabIds": [
+      "1752880"
+    ],
+    "matches": {
+      "1752880": [
+        {
+          "start": 25,
+          "length": 3,
+          "reading": "かいかた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1173418",
+    "original": "切符の買い方がわかりません。",
+    "en": [
+      {
+        "id": "255272",
+        "text": "I don't know how to buy a ticket."
+      }
+    ],
+    "vocabIds": [
+      "1752880",
+      "1385170"
+    ],
+    "matches": {
+      "1385170": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きっぷ"
+        }
+      ],
+      "1752880": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "かいかた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1173419",
+    "original": "チケットの買い方がわかりません。",
+    "en": [
+      {
+        "id": "255272",
+        "text": "I don't know how to buy a ticket."
+      },
+      {
+        "id": "12598550",
+        "text": "I don't know how to buy tickets."
+      }
+    ],
+    "vocabIds": [
+      "1752880"
+    ],
+    "matches": {
+      "1752880": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "かいかた"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,64 @@
+[
+  {
+    "id": "191313",
+    "original": "安物の日本酒は悪酔いします。",
+    "en": [
+      {
+        "id": "28474",
+        "text": "Cheap sake makes you sick."
+      }
+    ],
+    "indices": "安物 の 日本酒 は 悪酔い~ 為る(する){します}",
+    "vocabIds": [
+      "1464670",
+      "1152050",
+      "1154250"
+    ],
+    "matches": {
+      "1152050": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "わるよい"
+        }
+      ],
+      "1154250": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "やすもの"
+        }
+      ],
+      "1464670": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "にっぽんしゅ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "191406",
+    "original": "悪酔いしました。",
+    "en": [
+      {
+        "id": "433733",
+        "text": "I got sick from drinking too much."
+      }
+    ],
+    "indices": "悪酔い 為る(する){しました}",
+    "vocabIds": [
+      "1152050"
+    ],
+    "matches": {
+      "1152050": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "わるよい"
+        }
+      ]
+    }
+  }
+]

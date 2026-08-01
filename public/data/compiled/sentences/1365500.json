@@ -1,0 +1,41 @@
+[
+  {
+    "id": "144756",
+    "original": "診療予約を取ってもらえますか。",
+    "en": [
+      {
+        "id": "269808",
+        "text": "Can I make an appointment to have a medical examination?"
+      }
+    ],
+    "indices": "診療~ 予約[01] を 取る{取って} 貰う[02]{もらえます} か",
+    "vocabIds": [
+      "1326980",
+      "1365500",
+      "1543750"
+    ],
+    "matches": {
+      "1326980": [
+        {
+          "start": 5,
+          "length": 8,
+          "reading": "とってもらえます"
+        }
+      ],
+      "1365500": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しんりょう"
+        }
+      ],
+      "1543750": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "よやく"
+        }
+      ]
+    }
+  }
+]

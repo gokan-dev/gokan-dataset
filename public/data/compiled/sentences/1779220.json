@@ -1,0 +1,158 @@
+[
+  {
+    "id": "110123",
+    "original": "彼は委員会から突然退席した。",
+    "en": [
+      {
+        "id": "293565",
+        "text": "He suddenly walked out of the committee meeting."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 委員会 から 突然 退席 為る(する){した}",
+    "vocabIds": [
+      "1156110",
+      "1457040",
+      "1779220",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1156110": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "いいんかい"
+        }
+      ],
+      "1457040": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "とつぜん"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1779220": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "たいせき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "143589",
+    "original": "随時に退席してもかまいません。",
+    "en": [
+      {
+        "id": "270976",
+        "text": "You may leave your seat at will."
+      }
+    ],
+    "indices": "随時[02]~ に 退席 為る(する){して} も 構いません{かまいません}",
+    "vocabIds": [
+      "1372760",
+      "1779220"
+    ],
+    "matches": {
+      "1372760": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ずいじ"
+        }
+      ],
+      "1779220": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "たいせき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "143590",
+    "original": "随意に退席して結構です。",
+    "en": [
+      {
+        "id": "270976",
+        "text": "You may leave your seat at will."
+      }
+    ],
+    "indices": "随意{随意に} 退席 為る(する){して} 結構[02] です",
+    "vocabIds": [
+      "2526030",
+      "1779220",
+      "1254760"
+    ],
+    "matches": {
+      "1254760": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "けっこう"
+        }
+      ],
+      "1779220": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "たいせき"
+        }
+      ],
+      "2526030": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ずいいに"
+        }
+      ]
+    }
+  },
+  {
+    "id": "143591",
+    "original": "随意に退席してかまいません。",
+    "en": [
+      {
+        "id": "270976",
+        "text": "You may leave your seat at will."
+      }
+    ],
+    "indices": "随意{随意に}~ 退席~ 為る(する){して} 構いません{かまいません}",
+    "vocabIds": [
+      "2526030",
+      "1779220"
+    ],
+    "matches": {
+      "1779220": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "たいせき"
+        }
+      ],
+      "2526030": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ずいいに"
+        }
+      ]
+    }
+  }
+]

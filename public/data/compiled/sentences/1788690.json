@@ -1,0 +1,49 @@
+[
+  {
+    "id": "80493",
+    "original": "明日の夜から雨だから置き傘をしていこう。",
+    "en": [
+      {
+        "id": "323224",
+        "text": "It's supposed to rain tomorrow night, so let's leave our umbrellas until then."
+      }
+    ],
+    "indices": "明日 の 夜 から 雨 だから 置き傘~ を 為る(する){して} 行く[10]{いこう}",
+    "vocabIds": [
+      "1788690",
+      "1584660",
+      "1536350",
+      "1171900"
+    ],
+    "matches": {
+      "1171900": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "あめ"
+        }
+      ],
+      "1536350": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "よる"
+        }
+      ],
+      "1584660": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あした"
+        }
+      ],
+      "1788690": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "おきがさ"
+        }
+      ]
+    }
+  }
+]

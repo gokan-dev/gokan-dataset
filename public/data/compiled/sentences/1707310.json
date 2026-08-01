@@ -1,0 +1,142 @@
+[
+  {
+    "id": "88841",
+    "original": "彼女は取り入れやりんごつみをみました。",
+    "en": [
+      {
+        "id": "314866",
+        "text": "She watched the harvest gathered and the apples picked."
+      }
+    ],
+    "indices": "彼女[01] は 取り入れ や りんご摘み{りんごつみ}~ を 見る{みました}",
+    "vocabIds": [
+      "1707310",
+      "1483150"
+    ],
+    "matches": {
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1707310": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "とりいれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "148674",
+    "original": "取り入れ時には天気がよかった。",
+    "en": [
+      {
+        "id": "265885",
+        "text": "The weather was good for the harvest."
+      }
+    ],
+    "indices": "取り入れ~ 時(とき) には 天気 が 良い{よかった}",
+    "vocabIds": [
+      "1707310",
+      "1315860",
+      "1438690"
+    ],
+    "matches": {
+      "1315860": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "じには"
+        }
+      ],
+      "1438690": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "てんき"
+        }
+      ],
+      "1707310": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "とりいれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "190016",
+    "original": "稲の取り入れはもう済んだ。",
+    "en": [
+      {
+        "id": "27172",
+        "text": "The rice crop is already in."
+      }
+    ],
+    "indices": "稲 の 取り入れ は もう[01] 済む{済んだ}",
+    "vocabIds": [
+      "1707310",
+      "1295070",
+      "1167820"
+    ],
+    "matches": {
+      "1167820": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "いね"
+        }
+      ],
+      "1295070": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "すんだ"
+        }
+      ],
+      "1707310": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "とりいれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "228635",
+    "original": "いつ小麦の取り入れをするのですか。",
+    "en": [
+      {
+        "id": "65993",
+        "text": "When will you harvest your wheat?"
+      }
+    ],
+    "indices": "何時(いつ){いつ} 小麦 の 取り入れ を 為る(する)[01]{する} のです か",
+    "vocabIds": [
+      "1707310",
+      "1348630"
+    ],
+    "matches": {
+      "1348630": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "こむぎ"
+        }
+      ],
+      "1707310": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "とりいれ"
+        }
+      ]
+    }
+  }
+]

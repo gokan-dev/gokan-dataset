@@ -1,0 +1,117 @@
+[
+  {
+    "id": "222945",
+    "original": "この芋虫がきれいな蝶になるのだ。",
+    "en": [
+      {
+        "id": "60274",
+        "text": "This caterpillar will become a beautiful butterfly."
+      }
+    ],
+    "indices": "此の{この} 芋虫~ が 奇麗[01]{きれいな}~ 蝶 になる[01] のだ",
+    "vocabIds": [
+      "1167990",
+      "1429010"
+    ],
+    "matches": {
+      "1167990": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "いもむし"
+        }
+      ],
+      "1429010": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "ちょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "935410",
+    "original": "いつの日かこの芋虫は美しい蝶へと変化することでしょう。",
+    "en": [
+      {
+        "id": "682255",
+        "text": "One day this caterpillar will turn into a beautiful butterfly."
+      }
+    ],
+    "vocabIds": [
+      "2841109",
+      "1486360",
+      "1167990",
+      "1510890",
+      "1429010"
+    ],
+    "matches": {
+      "1167990": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "いもむし"
+        }
+      ],
+      "1429010": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "ちょう"
+        }
+      ],
+      "1486360": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "うつくしい"
+        }
+      ],
+      "1510890": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "へんか"
+        }
+      ],
+      "2841109": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "いつのひか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11510712",
+    "original": "この芋虫は、蝶になるよ。",
+    "en": [
+      {
+        "id": "5201458",
+        "text": "The caterpillar is turning into a butterfly."
+      }
+    ],
+    "vocabIds": [
+      "1167990",
+      "1429010"
+    ],
+    "matches": {
+      "1167990": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "いもむし"
+        }
+      ],
+      "1429010": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "ちょう"
+        }
+      ]
+    }
+  }
+]

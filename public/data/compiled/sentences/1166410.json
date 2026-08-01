@@ -1,0 +1,103 @@
+[
+  {
+    "id": "87415",
+    "original": "彼女は彼に疑い深そうな一瞥を投げた。",
+    "en": [
+      {
+        "id": "316293",
+        "text": "She threw a suspicious glance at him."
+      }
+    ],
+    "indices": "彼女[01] は 彼(かれ) に 疑い深い{疑い深そうな} 一瞥~ を 投げる[01]{投げた}",
+    "vocabIds": [
+      "1225500",
+      "1447000",
+      "1483150",
+      "1166410",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1166410": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "いちべつ"
+        }
+      ],
+      "1225500": [
+        {
+          "start": 5,
+          "length": 6,
+          "reading": "うたがいぶかそうな"
+        }
+      ],
+      "1447000": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "なげた"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "382371",
+    "original": "いつかお時間のあるときにでもご一瞥くだされば幸いです。",
+    "en": [
+      {
+        "id": "509614",
+        "text": "I'd be grateful if you could take a look when you've got time sometime."
+      }
+    ],
+    "vocabIds": [
+      "2842263",
+      "1166410",
+      "1278380"
+    ],
+    "matches": {
+      "1166410": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "いちべつ"
+        }
+      ],
+      "1278380": [
+        {
+          "start": 22,
+          "length": 2,
+          "reading": "さいわい"
+        }
+      ],
+      "2842263": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "おじかん"
+        }
+      ]
+    }
+  }
+]

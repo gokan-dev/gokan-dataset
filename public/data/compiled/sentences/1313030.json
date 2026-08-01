@@ -1,0 +1,99 @@
+[
+  {
+    "id": "219361",
+    "original": "この問題は難しくて私には歯がたたない。",
+    "en": [
+      {
+        "id": "56678",
+        "text": "This problem is beyond my powers."
+      }
+    ],
+    "indices": "此の{この} 問題 は 難しい{難しくて} 私(わたし)[01] には 歯が立たない[01]{歯がたたない}~",
+    "vocabIds": [
+      "1313030",
+      "1460850",
+      "1536010",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1313030": [
+        {
+          "start": 12,
+          "length": 6,
+          "reading": "はがたたない"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1460850": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "むずかしくて"
+        }
+      ],
+      "1536010": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "もんだい"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11052808",
+    "original": "この兵器では歯が立たない。",
+    "en": [
+      {
+        "id": "13731156",
+        "text": "This weaponry is no match for it."
+      },
+      {
+        "id": "13731159",
+        "text": "This weaponry will not stand up to it."
+      }
+    ],
+    "vocabIds": [
+      "1313030",
+      "1506320"
+    ],
+    "matches": {
+      "1313030": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "はがたたない"
+        }
+      ],
+      "1506320": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "へいき"
+        }
+      ]
+    }
+  }
+]

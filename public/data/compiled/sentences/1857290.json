@@ -1,0 +1,63 @@
+[
+  {
+    "id": "83207",
+    "original": "歩き疲れている。",
+    "en": [
+      {
+        "id": "320509",
+        "text": "I am tired with walking."
+      }
+    ],
+    "indices": "歩き疲れる{歩き疲れている}",
+    "vocabIds": [
+      "1857290"
+    ],
+    "matches": {
+      "1857290": [
+        {
+          "start": 0,
+          "length": 7,
+          "reading": "あるきつかれている"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11027847",
+    "original": "歩き疲れたから少し休んでいこう。",
+    "en": [
+      {
+        "id": "12011629",
+        "text": "I'm tired of walking. Let's get a little bit of rest."
+      }
+    ],
+    "vocabIds": [
+      "1857290",
+      "1227560",
+      "1348870"
+    ],
+    "matches": {
+      "1227560": [
+        {
+          "start": 9,
+          "length": 6,
+          "reading": "やすんでいこう"
+        }
+      ],
+      "1348870": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "すこし"
+        }
+      ],
+      "1857290": [
+        {
+          "start": 0,
+          "length": 7,
+          "reading": "あるきつかれたから"
+        }
+      ]
+    }
+  }
+]

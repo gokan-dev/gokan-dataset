@@ -1,0 +1,101 @@
+[
+  {
+    "id": "468277",
+    "original": "歯磨き粉はどこにありますか？",
+    "en": [
+      {
+        "id": "263637",
+        "text": "Where's the toothpaste?"
+      },
+      {
+        "id": "263640",
+        "text": "Where can I find toothpaste?"
+      },
+      {
+        "id": "471876",
+        "text": "Where is the toothpaste?"
+      }
+    ],
+    "indices": "歯磨き粉~ は 何処{どこ} に 有る{あります} か",
+    "vocabIds": [
+      "1770210"
+    ],
+    "matches": {
+      "1770210": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "はみがきこ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2951463",
+    "original": "それ歯磨き粉じゃなくて洗顔フォームだよ！",
+    "en": [
+      {
+        "id": "3107481",
+        "text": "It's not a toothpaste, it's a face-cleansing foam!"
+      }
+    ],
+    "vocabIds": [
+      "1770210",
+      "1390940"
+    ],
+    "matches": {
+      "1390940": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "せんがん"
+        }
+      ],
+      "1770210": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "はみがきこ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12816959",
+    "original": "最近、歯磨き粉ってどれ使ってる？",
+    "en": [
+      {
+        "id": "12808576",
+        "text": "Which toothpaste have you been using lately?"
+      }
+    ],
+    "vocabIds": [
+      "1770210",
+      "1305990",
+      "1293780"
+    ],
+    "matches": {
+      "1293780": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "さいきん"
+        }
+      ],
+      "1305990": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "つかってる"
+        }
+      ],
+      "1770210": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "はみがきこ"
+        }
+      ]
+    }
+  }
+]

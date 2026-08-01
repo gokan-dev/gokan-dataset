@@ -1,0 +1,98 @@
+[
+  {
+    "id": "118105",
+    "original": "彼の英語はいい線いってるよ。",
+    "en": [
+      {
+        "id": "285559",
+        "text": "His English is coming along pretty well."
+      }
+    ],
+    "indices": "彼(かれ)[01]{彼の} 英語 は いい(#2820690)[01] 線 行く{いってる} よ[01]",
+    "vocabIds": [
+      "2394060",
+      "1000420",
+      "1174420"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれの"
+        }
+      ],
+      "1174420": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "えいご"
+        }
+      ],
+      "2394060": [
+        {
+          "start": 5,
+          "length": 7,
+          "reading": "いいせんいってる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "229339",
+    "original": "いい線いってるよ。",
+    "en": [
+      {
+        "id": "66698",
+        "text": "I think you're on the right track."
+      }
+    ],
+    "indices": "いい 線 行く{いってる} よ[01]",
+    "vocabIds": [
+      "2394060"
+    ],
+    "matches": {
+      "2394060": [
+        {
+          "start": 0,
+          "length": 7,
+          "reading": "いいせんいってる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10605896",
+    "original": "その表現、いい線いってる！",
+    "en": [
+      {
+        "id": "10609871",
+        "text": "The expression is right on track."
+      },
+      {
+        "id": "11034499",
+        "text": "That expression is right on the money!"
+      }
+    ],
+    "vocabIds": [
+      "2394060",
+      "1489510"
+    ],
+    "matches": {
+      "1489510": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ひょうげん"
+        }
+      ],
+      "2394060": [
+        {
+          "start": 5,
+          "length": 7,
+          "reading": "いいせんいってる"
+        }
+      ]
+    }
+  }
+]

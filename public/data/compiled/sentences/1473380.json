@@ -1,0 +1,93 @@
+[
+  {
+    "id": "195184",
+    "original": "マラリアは蚊が媒介する。",
+    "en": [
+      {
+        "id": "32358",
+        "text": "Malaria is carried by mosquitoes."
+      }
+    ],
+    "indices": "マラリア~ は 蚊 が 媒介[02]~ 為る(する){する}",
+    "vocabIds": [
+      "1473380",
+      "1196540"
+    ],
+    "matches": {
+      "1196540": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "か"
+        }
+      ],
+      "1473380": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ばいかい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11151262",
+    "original": "ネズミはペストを媒介します。",
+    "en": [
+      {
+        "id": "35793",
+        "text": "Rats carry the plague."
+      }
+    ],
+    "vocabIds": [
+      "1473380"
+    ],
+    "matches": {
+      "1473380": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "ばいかい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12484423",
+    "original": "マラリアは蚊が媒介する疾病です。",
+    "en": [
+      {
+        "id": "32359",
+        "text": "Malaria is a disease that mosquitoes carry."
+      }
+    ],
+    "vocabIds": [
+      "1473380",
+      "1320600",
+      "1196540"
+    ],
+    "matches": {
+      "1196540": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "か"
+        }
+      ],
+      "1320600": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "しっぺい"
+        }
+      ],
+      "1473380": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ばいかい"
+        }
+      ]
+    }
+  }
+]

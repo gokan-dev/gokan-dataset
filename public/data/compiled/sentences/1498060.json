@@ -1,0 +1,127 @@
+[
+  {
+    "id": "84075",
+    "original": "部分一致検索はサーバーに負荷がかかるから、やめたほうがいいね。",
+    "en": [
+      {
+        "id": "319641",
+        "text": "You shouldn't do partial-word searches, since they put a lot of strain on the server."
+      }
+    ],
+    "indices": "部分 一致[01] 検索 は サーバ{サーバー} に 負荷~ が 掛かる{かかる} から 止める(やめる){やめた} 方がいい{ほうがいい} ね(#2029080)[01]",
+    "vocabIds": [
+      "2601200",
+      "1257900",
+      "1498060"
+    ],
+    "matches": {
+      "1257900": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "けんさく"
+        }
+      ],
+      "1498060": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "ふか"
+        }
+      ],
+      "2601200": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "ぶぶんいっち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "174767",
+    "original": "言うまでもなく、サーバの負荷が増大してしまうのです。",
+    "en": [
+      {
+        "id": "239701",
+        "text": "Obviously, the server load will increase as a result."
+      }
+    ],
+    "indices": "言うまでもなく サーバ の 負荷(ふか) が 増大(ぞうだい) 為る(する){して} 仕舞う(しまう){しまう} のです",
+    "vocabIds": [
+      "1264350",
+      "1498060",
+      "1403310"
+    ],
+    "matches": {
+      "1264350": [
+        {
+          "start": 0,
+          "length": 7,
+          "reading": "いうまでもなく"
+        }
+      ],
+      "1403310": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "ぞうだい"
+        }
+      ],
+      "1498060": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "ふか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "370528",
+    "original": "パララックスよりバンプマッピングの方が負荷かかるんですか？",
+    "en": [
+      {
+        "id": "370529",
+        "text": "Does bump mapping generate more graphics load than parallax?"
+      }
+    ],
+    "indices": "パララックス~ より バンプマッピング~ の 方(ほう) が 負荷 掛かる[01]{かかる} ん[04] ですか",
+    "vocabIds": [
+      "1498060",
+      "1545790",
+      "1512070",
+      "1516930"
+    ],
+    "matches": {
+      "1498060": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "ふか"
+        }
+      ],
+      "1512070": [
+        {
+          "start": 17,
+          "length": 1,
+          "reading": "ほう"
+        }
+      ],
+      "1516930": [
+        {
+          "start": 17,
+          "length": 1,
+          "reading": "ほう"
+        }
+      ],
+      "1545790": [
+        {
+          "start": 17,
+          "length": 1,
+          "reading": "ほう"
+        }
+      ]
+    }
+  }
+]

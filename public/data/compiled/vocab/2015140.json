@@ -1,0 +1,239 @@
+{
+  "id": "2015140",
+  "writtenForm": {
+    "kanji": "汝",
+    "alternatives": [
+      "爾",
+      "己"
+    ],
+    "containedKanji": [
+      "汝"
+    ]
+  },
+  "reading": {
+    "primary": "なんじ",
+    "alternatives": [
+      "い",
+      "しゃ",
+      "いまし",
+      "なむち",
+      "なれ",
+      "まし",
+      "みまし",
+      "うぬ"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 8445
+  },
+  "progression": {
+    "kklcStep": 99999
+  },
+  "senses": [
+    {
+      "pos": [
+        "pn"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "thou",
+        "you"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "pn"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch",
+          "vulg"
+        ]
+      },
+      "glosses": [
+        "you"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "い"
+      ]
+    },
+    {
+      "pos": [
+        "pn"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch",
+          "fam"
+        ]
+      },
+      "glosses": [
+        "you"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "いまし"
+      ]
+    },
+    {
+      "pos": [
+        "pn"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "you"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "なむち"
+      ]
+    },
+    {
+      "pos": [
+        "pn"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch",
+          "hon"
+        ]
+      },
+      "glosses": [
+        "you"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "みまし"
+      ]
+    },
+    {
+      "pos": [
+        "pn"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "vulg"
+        ]
+      },
+      "glosses": [
+        "blockhead!",
+        "you"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "うぬ"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": false,
+  "mergedVocabs": [
+    {
+      "id": "2015140",
+      "isBase": true,
+      "originalPrimaryReading": "なんじ",
+      "originalGlosses": [
+        "thou",
+        "you"
+      ]
+    },
+    {
+      "id": "2174410",
+      "isBase": false,
+      "originalPrimaryReading": "い",
+      "originalGlosses": [
+        "you"
+      ]
+    },
+    {
+      "id": "2174420",
+      "isBase": false,
+      "originalPrimaryReading": "いまし",
+      "originalGlosses": [
+        "you"
+      ]
+    },
+    {
+      "id": "2174460",
+      "isBase": false,
+      "originalPrimaryReading": "なむち",
+      "originalGlosses": [
+        "you"
+      ]
+    },
+    {
+      "id": "2174490",
+      "isBase": false,
+      "originalPrimaryReading": "みまし",
+      "originalGlosses": [
+        "you"
+      ]
+    },
+    {
+      "id": "1631650",
+      "isBase": false,
+      "originalPrimaryReading": "うぬ",
+      "originalGlosses": [
+        "blockhead!",
+        "you"
+      ]
+    }
+  ],
+  "parents": [
+    "2174400"
+  ]
+}

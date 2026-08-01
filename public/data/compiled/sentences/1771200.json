@@ -1,0 +1,110 @@
+[
+  {
+    "id": "76307",
+    "original": "何があっても海に行く！タオルに、海パン。虫除けスプレー！",
+    "en": [
+      {
+        "id": "327413",
+        "text": "No matter what I'm going to the beach! Towel and trunks. Insect repellant!"
+      }
+    ],
+    "indices": "何があっても~ 海 に 行く タオル に 海パン~ 虫除け~ スプレー~",
+    "vocabIds": [
+      "2839743",
+      "2122020",
+      "1771200",
+      "1578850",
+      "1201190"
+    ],
+    "matches": {
+      "1201190": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "うみ"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "いく"
+        }
+      ],
+      "1771200": [
+        {
+          "start": 20,
+          "length": 3,
+          "reading": "むしよけ"
+        }
+      ],
+      "2122020": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "うみぱん"
+        }
+      ],
+      "2839743": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "なにがあっても"
+        }
+      ]
+    }
+  },
+  {
+    "id": "218193",
+    "original": "これは虫除けになります。",
+    "en": [
+      {
+        "id": "55504",
+        "text": "This will keep bugs off."
+      }
+    ],
+    "indices": "此れ[01]{これ} は 虫除け になる[01]{になります}",
+    "vocabIds": [
+      "1771200"
+    ],
+    "matches": {
+      "1771200": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "むしよけ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8523142",
+    "original": "虫よけスプレーありますか？",
+    "en": [
+      {
+        "id": "8523073",
+        "text": "Do you have any bug spray?"
+      },
+      {
+        "id": "13483443",
+        "text": "Do you have insect repellent spray?"
+      },
+      {
+        "id": "13483444",
+        "text": "Do you have any insect repellent spray?"
+      }
+    ],
+    "vocabIds": [
+      "1771200"
+    ],
+    "matches": {
+      "1771200": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "むしよけ"
+        }
+      ]
+    }
+  }
+]

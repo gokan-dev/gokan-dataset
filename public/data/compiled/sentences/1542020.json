@@ -1,0 +1,96 @@
+[
+  {
+    "id": "143669",
+    "original": "水先案内人は船を港に誘導する。",
+    "en": [
+      {
+        "id": "270898",
+        "text": "A pilot guides the ship toward the port."
+      }
+    ],
+    "indices": "水先案内~ 人(ひと) は 船(ふね)[01] を 港(みなと) に 誘導~ 為る(する){する}",
+    "vocabIds": [
+      "2830864",
+      "1542020",
+      "1602800",
+      "1279990"
+    ],
+    "matches": {
+      "1279990": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "みなと"
+        }
+      ],
+      "1542020": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "ゆうどう"
+        }
+      ],
+      "1602800": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "ふね"
+        }
+      ],
+      "2830864": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "みずさきあんないじん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "216395",
+    "original": "ジェット機は管制塔からの誘導で着陸した。",
+    "en": [
+      {
+        "id": "53699",
+        "text": "The jet plane landed following the instructions of the control tower."
+      }
+    ],
+    "indices": "ジェット機 は 管制塔~ から の 誘導 で(#2028980) 着陸 為る(する){した}",
+    "vocabIds": [
+      "1064250",
+      "1214170",
+      "1542020",
+      "1423280"
+    ],
+    "matches": {
+      "1064250": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "じぇっとき"
+        }
+      ],
+      "1214170": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "かんせいとう"
+        }
+      ],
+      "1423280": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "ちゃくりく"
+        }
+      ],
+      "1542020": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "ゆうどう"
+        }
+      ]
+    }
+  }
+]

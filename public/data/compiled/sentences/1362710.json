@@ -1,0 +1,102 @@
+[
+  {
+    "id": "145057",
+    "original": "深海で君の影がゆれる。",
+    "en": [
+      {
+        "id": "269506",
+        "text": "It is your shadow in the deep sea."
+      }
+    ],
+    "indices": "深海 で(#2028980) 君(きみ)[01]{君の} 影[01] が 揺れる{ゆれる}",
+    "vocabIds": [
+      "1362710",
+      "1247250",
+      "1590145"
+    ],
+    "matches": {
+      "1247250": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "きみ"
+        }
+      ],
+      "1362710": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しんかい"
+        }
+      ],
+      "1590145": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "かげ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "216586",
+    "original": "シーラカンスは深海に生息する。",
+    "en": [
+      {
+        "id": "53892",
+        "text": "The coelacanth inhabits the deep sea."
+      }
+    ],
+    "indices": "シーラカンス~ は 深海~ に 生息~ 為る(する){する}",
+    "vocabIds": [
+      "1362710",
+      "1379220"
+    ],
+    "matches": {
+      "1362710": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "しんかい"
+        }
+      ],
+      "1379220": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "せいそく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11016617",
+    "original": "深海は、真っ暗です。",
+    "en": [
+      {
+        "id": "9169188",
+        "text": "The deep sea is completely dark."
+      }
+    ],
+    "vocabIds": [
+      "1363190",
+      "1362710"
+    ],
+    "matches": {
+      "1362710": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しんかい"
+        }
+      ],
+      "1363190": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "まっくら"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "id": "127350",
+    "original": "誕生日おめでとうございます。",
+    "en": [
+      {
+        "id": "64233",
+        "text": "Happy birthday to you!"
+      },
+      {
+        "id": "276739",
+        "text": "Many happy returns of the day!"
+      },
+      {
+        "id": "453219",
+        "text": "Happy birthday!"
+      },
+      {
+        "id": "8324073",
+        "text": "Happy birthday."
+      }
+    ],
+    "indices": "誕生日 お目出度う{おめでとう}~ 御座います{ございます}",
+    "vocabIds": [
+      "2231050"
+    ],
+    "matches": {
+      "2231050": [
+        {
+          "start": 0,
+          "length": 13,
+          "reading": "たんじょうびおめでとうございます"
+        }
+      ]
+    }
+  },
+  {
+    "id": "226885",
+    "original": "お誕生日おめでとうございます。",
+    "en": [
+      {
+        "id": "64233",
+        "text": "Happy birthday to you!"
+      },
+      {
+        "id": "453219",
+        "text": "Happy birthday!"
+      },
+      {
+        "id": "8324073",
+        "text": "Happy birthday."
+      }
+    ],
+    "indices": "御(お){お} 誕生日 お目出度う{おめでとう} 御座います{ございます}",
+    "vocabIds": [
+      "2231050"
+    ],
+    "matches": {
+      "2231050": [
+        {
+          "start": 1,
+          "length": 13,
+          "reading": "たんじょうびおめでとうございます"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,55 @@
+[
+  {
+    "id": "85646",
+    "original": "飛行機は込み入ってそうですか。",
+    "en": [
+      {
+        "id": "318067",
+        "text": "Does it look like the plane will be crowded?"
+      }
+    ],
+    "indices": "飛行機 は 込み入る{込み入って}~ そう[01] ですか",
+    "vocabIds": [
+      "1288780",
+      "1485470"
+    ],
+    "matches": {
+      "1288780": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "こみいって"
+        }
+      ],
+      "1485470": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ひこうき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12068434",
+    "original": "かなり込み入ってるんだよ。",
+    "en": [
+      {
+        "id": "6954587",
+        "text": "It's quite complicated."
+      }
+    ],
+    "vocabIds": [
+      "1288780"
+    ],
+    "matches": {
+      "1288780": [
+        {
+          "start": 3,
+          "length": 6,
+          "reading": "こみいってる"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "id": "85056",
+    "original": "不通区間の開通の見込みはまだない。",
+    "en": [
+      {
+        "id": "318657",
+        "text": "There's no hope at this moment that the closed section will be reopened."
+      }
+    ],
+    "indices": "不通 区間~ の 開通 の 見込み は 未だ[02]{まだ} 無い{ない}",
+    "vocabIds": [
+      "1604480",
+      "1493860",
+      "1244120",
+      "1202850"
+    ],
+    "matches": {
+      "1202850": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "かいつう"
+        }
+      ],
+      "1244120": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "くかん"
+        }
+      ],
+      "1493860": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ふつう"
+        }
+      ],
+      "1604480": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "みこみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "180122",
+    "original": "橋は開通している。",
+    "en": [
+      {
+        "id": "18982",
+        "text": "The bridge is open to traffic."
+      }
+    ],
+    "indices": "橋(はし) は 開通~ 為る(する){している}",
+    "vocabIds": [
+      "1202850",
+      "1237410"
+    ],
+    "matches": {
+      "1202850": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "かいつう"
+        }
+      ],
+      "1237410": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "はし"
+        }
+      ]
+    }
+  }
+]

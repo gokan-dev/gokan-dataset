@@ -1,0 +1,84 @@
+[
+  {
+    "id": "186927",
+    "original": "家族一同元気です。",
+    "en": [
+      {
+        "id": "24063",
+        "text": "All my family is very well."
+      }
+    ],
+    "indices": "家族 一同 元気 です",
+    "vocabIds": [
+      "2671030",
+      "1260720"
+    ],
+    "matches": {
+      "1260720": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "げんき"
+        }
+      ],
+      "2671030": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "かぞくいちどう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "227587",
+    "original": "おばあちゃんが突然死んで家族一同驚いた。",
+    "en": [
+      {
+        "id": "64940",
+        "text": "The family was shook up when the grandmother died unexpectedly."
+      },
+      {
+        "id": "2445255",
+        "text": "Grandmother died, leaving the whole family stunned."
+      }
+    ],
+    "indices": "お祖母ちゃん{おばあちゃん} が 突然 死ぬ{死んで} 家族 一同  驚く[01]{驚いた}",
+    "vocabIds": [
+      "2671030",
+      "1310730",
+      "1238680",
+      "1457040"
+    ],
+    "matches": {
+      "1238680": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "おどろいた"
+        }
+      ],
+      "1310730": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "しんで"
+        }
+      ],
+      "1457040": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "とつぜん"
+        }
+      ],
+      "2671030": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "かぞくいちどう"
+        }
+      ]
+    }
+  }
+]

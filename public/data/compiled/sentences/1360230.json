@@ -1,0 +1,64 @@
+[
+  {
+    "id": "145633",
+    "original": "寝台車を予約したいのですが。",
+    "en": [
+      {
+        "id": "268929",
+        "text": "I'd like to reserve a sleeping berth."
+      }
+    ],
+    "indices": "寝台車~ を 予約[01] したい のです が[03]",
+    "vocabIds": [
+      "1360230",
+      "1543750"
+    ],
+    "matches": {
+      "1360230": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "しんだいしゃ"
+        }
+      ],
+      "1543750": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "よやく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "234415",
+    "original": "あそこに寝台車が見える。",
+    "en": [
+      {
+        "id": "71789",
+        "text": "We see a sleeping car there."
+      }
+    ],
+    "indices": "彼処[01]{あそこ} に 寝台車 が 見える(みえる)[01]",
+    "vocabIds": [
+      "1360230",
+      "1259140"
+    ],
+    "matches": {
+      "1259140": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "みえる"
+        }
+      ],
+      "1360230": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "ねだいしゃ"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "id": "106865",
+    "original": "彼は細々とおもちゃやをやっている。",
+    "en": [
+      {
+        "id": "296821",
+        "text": "He keeps a toyshop in a small way."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 細々(こまごま){細々と}~ 玩具屋{おもちゃや} を 遣る{やっている}",
+    "vocabIds": [
+      "1295490",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1295490": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "こまごま"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "170278",
+    "original": "ムリエルさんはバイトで細細と暮らしている。",
+    "en": [
+      {
+        "id": "244206",
+        "text": "Muriel is living poorly off of her part-time job."
+      },
+      {
+        "id": "572349",
+        "text": "Muriel is making a poor living from her part-time job."
+      }
+    ],
+    "indices": "さん は バイト(#1097870) で(#2028980) 細々(ほそぼそ)[01]{細細と}~ 暮らす[01]{暮らしている}",
+    "vocabIds": [
+      "1514940",
+      "1295490"
+    ],
+    "matches": {
+      "1295490": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "こまごま"
+        }
+      ],
+      "1514940": [
+        {
+          "start": 14,
+          "length": 6,
+          "reading": "くらしている"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10989591",
+    "original": "細々とだが開発は続いている。",
+    "en": [
+      {
+        "id": "11902670",
+        "text": "Development is slow, but ongoing."
+      }
+    ],
+    "vocabIds": [
+      "1405790",
+      "1295490",
+      "1202880"
+    ],
+    "matches": {
+      "1202880": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "かいはつ"
+        }
+      ],
+      "1295490": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こまごま"
+        }
+      ],
+      "1405790": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "つづいている"
+        }
+      ]
+    }
+  }
+]

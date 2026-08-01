@@ -1,0 +1,33 @@
+[
+  {
+    "id": "224285",
+    "original": "ここは東京のビジネス街だ。",
+    "en": [
+      {
+        "id": "61620",
+        "text": "This is a business section of Tokyo."
+      }
+    ],
+    "indices": "此処{ここ} は 東京 の ビジネス 街(がい)~ だ",
+    "vocabIds": [
+      "2773700",
+      "1447690"
+    ],
+    "matches": {
+      "1447690": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "とうきょう"
+        }
+      ],
+      "2773700": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "びじねすがい"
+        }
+      ]
+    }
+  }
+]

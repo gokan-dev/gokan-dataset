@@ -1,0 +1,100 @@
+[
+  {
+    "id": "103987",
+    "original": "彼は上役に受けが悪い。",
+    "en": [
+      {
+        "id": "299705",
+        "text": "He is in disfavour with his superiors."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 上役 に 受ける{受け} が 悪い(わるい)",
+    "vocabIds": [
+      "2017120",
+      "1354410",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1354410": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "うわやく"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "2017120": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "うけがわるい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "104010",
+    "original": "彼は上司の受けが悪い。",
+    "en": [
+      {
+        "id": "299682",
+        "text": "He gets along badly with his boss."
+      },
+      {
+        "id": "2701020",
+        "text": "He is not well-liked by his boss."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 上司 の 受けが悪い~",
+    "vocabIds": [
+      "2017120",
+      "1353260",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1353260": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "じょうし"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "2017120": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "うけがわるい"
+        }
+      ]
+    }
+  }
+]

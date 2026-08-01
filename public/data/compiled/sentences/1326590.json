@@ -1,0 +1,185 @@
+[
+  {
+    "id": "127136",
+    "original": "値札を取りはずしていただけますか。",
+    "en": [
+      {
+        "id": "276953",
+        "text": "Could you take off the price tag for me?"
+      }
+    ],
+    "indices": "値札 を 取り外す{取りはずして} 頂ける[01]{いただけます} か",
+    "vocabIds": [
+      "1326590",
+      "1642810"
+    ],
+    "matches": {
+      "1326590": [
+        {
+          "start": 3,
+          "length": 6,
+          "reading": "とりはずして"
+        }
+      ],
+      "1642810": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ねふだ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "226476",
+    "original": "カーテンを取りはずして洗濯に出しなさい。",
+    "en": [
+      {
+        "id": "63821",
+        "text": "Take down those curtains and send them to be cleaned."
+      }
+    ],
+    "indices": "カーテン を 取り外す{取りはずして}~ 洗濯 に 出す[05]{出し} 為さい{なさい}",
+    "vocabIds": [
+      "1326590",
+      "1338180",
+      "1390980"
+    ],
+    "matches": {
+      "1326590": [
+        {
+          "start": 5,
+          "length": 6,
+          "reading": "とりはずして"
+        }
+      ],
+      "1338180": [
+        {
+          "start": 14,
+          "length": 5,
+          "reading": "だしなさい"
+        }
+      ],
+      "1390980": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "せんたく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "226482",
+    "original": "カーテンは取り外された。",
+    "en": [
+      {
+        "id": "63827",
+        "text": "The curtains were taken down."
+      }
+    ],
+    "indices": "カーテン は 取り外す{取り外された}",
+    "vocabIds": [
+      "1326590"
+    ],
+    "matches": {
+      "1326590": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "とりはずさ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "467163",
+    "original": "ねじを緩めて、ランプ・カバーを取り外します。",
+    "en": [
+      {
+        "id": "504659",
+        "text": "Loosen the screws and remove the lamp cover."
+      }
+    ],
+    "vocabIds": [
+      "1326590",
+      "1214440"
+    ],
+    "matches": {
+      "1214440": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "ゆるめて"
+        }
+      ],
+      "1326590": [
+        {
+          "start": 15,
+          "length": 6,
+          "reading": "とりはずします"
+        }
+      ]
+    }
+  },
+  {
+    "id": "789577",
+    "original": "あなたはNNCを取り外すことができます。",
+    "en": [
+      {
+        "id": "776430",
+        "text": "You can remove the NNC."
+      }
+    ],
+    "vocabIds": [
+      "1326590"
+    ],
+    "matches": {
+      "1326590": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "とりはずす"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9843846",
+    "original": "パンクしたタイヤを取り外してスペアタイヤを取付けられるように、トムは車をジャッキアップした。",
+    "en": [
+      {
+        "id": "9843842",
+        "text": "Tom jacked up the car, so he could take off the flat tire and put on the spare."
+      }
+    ],
+    "vocabIds": [
+      "1326590",
+      "1326910",
+      "1323080"
+    ],
+    "matches": {
+      "1323080": [
+        {
+          "start": 34,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1326590": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "とりはずして"
+        }
+      ],
+      "1326910": [
+        {
+          "start": 21,
+          "length": 3,
+          "reading": "とりつけ"
+        }
+      ]
+    }
+  }
+]

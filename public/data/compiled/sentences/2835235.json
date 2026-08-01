@@ -1,0 +1,130 @@
+[
+  {
+    "id": "154701",
+    "original": "私は日本人学生の「一般常識」に感銘した。",
+    "en": [
+      {
+        "id": "259839",
+        "text": "I was impressed by the general knowledge of Japanese students."
+      }
+    ],
+    "indices": "私(わたし)[01] は 日本人 学生(がくせい) の 一般常識 に 感銘 為る(する){した}",
+    "vocabIds": [
+      "2835235",
+      "1464700",
+      "1206900",
+      "1212630",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1206900": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "がくせい"
+        }
+      ],
+      "1212630": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "かんめい"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1464700": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "にっぽんじん"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2835235": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "いっぱんじょうしき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "190191",
+    "original": "一般常識を持っていますか。",
+    "en": [
+      {
+        "id": "27349",
+        "text": "Does he have general common sense?"
+      }
+    ],
+    "indices": "一般常識~ を 持つ{持っています} か",
+    "vocabIds": [
+      "1315720",
+      "2835235"
+    ],
+    "matches": {
+      "1315720": [
+        {
+          "start": 5,
+          "length": 6,
+          "reading": "もっています"
+        }
+      ],
+      "2835235": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "いっぱんじょうしき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11633839",
+    "original": "一般常識よ。",
+    "en": [
+      {
+        "id": "8831825",
+        "text": "It's common knowledge."
+      },
+      {
+        "id": "12381038",
+        "text": "It's common sense."
+      }
+    ],
+    "vocabIds": [
+      "2835235"
+    ],
+    "matches": {
+      "2835235": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "いっぱんじょうしき"
+        }
+      ]
+    }
+  }
+]

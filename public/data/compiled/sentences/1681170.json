@@ -1,0 +1,47 @@
+[
+  {
+    "id": "198404",
+    "original": "バーミンガムまでの片道切符をください。",
+    "en": [
+      {
+        "id": "35596",
+        "text": "Can I have a single to Birmingham?"
+      }
+    ],
+    "indices": "バーミンガム~ 迄{まで} の 片道切符~ を 下さい[01]{ください}",
+    "vocabIds": [
+      "1681170"
+    ],
+    "matches": {
+      "1681170": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "かたみちきっぷ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9142990",
+    "original": "ボストンまでの片道切符をください。",
+    "en": [
+      {
+        "id": "9142979",
+        "text": "A one-way ticket to Boston, please."
+      }
+    ],
+    "vocabIds": [
+      "1681170"
+    ],
+    "matches": {
+      "1681170": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "かたみちきっぷ"
+        }
+      ]
+    }
+  }
+]

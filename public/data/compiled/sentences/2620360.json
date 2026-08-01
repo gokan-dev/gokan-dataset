@@ -1,0 +1,114 @@
+[
+  {
+    "id": "75727",
+    "original": "風の便りに聞いた。",
+    "en": [
+      {
+        "id": "327991",
+        "text": "A little bird told me."
+      }
+    ],
+    "indices": "風の便り に 聞く{聞いた}",
+    "vocabIds": [
+      "2620360",
+      "1591110"
+    ],
+    "matches": {
+      "1591110": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "きいた"
+        }
+      ],
+      "2620360": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "かぜのたより"
+        }
+      ]
+    }
+  },
+  {
+    "id": "95453",
+    "original": "彼女が結婚したということを風の便りに聞いた。",
+    "en": [
+      {
+        "id": "308252",
+        "text": "I heard from someone that she got married."
+      }
+    ],
+    "indices": "彼女 が 結婚{結婚した} と[04] 言う{いう} 事(こと){こと} を 風の便り~ に 聞く{聞いた}",
+    "vocabIds": [
+      "2620360",
+      "1591110",
+      "1483150",
+      "1254790"
+    ],
+    "matches": {
+      "1254790": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "けっこん"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1591110": [
+        {
+          "start": 18,
+          "length": 3,
+          "reading": "きいた"
+        }
+      ],
+      "2620360": [
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "かぜのたより"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10185241",
+    "original": "風の便りで聞きました。",
+    "en": [
+      {
+        "id": "327991",
+        "text": "A little bird told me."
+      },
+      {
+        "id": "10734939",
+        "text": "A little birdie told me."
+      }
+    ],
+    "vocabIds": [
+      "1591110",
+      "2620360"
+    ],
+    "matches": {
+      "1591110": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "ききました"
+        }
+      ],
+      "2620360": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "かぜのたより"
+        }
+      ]
+    }
+  }
+]

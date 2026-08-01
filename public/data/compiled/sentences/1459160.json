@@ -1,0 +1,72 @@
+[
+  {
+    "id": "101559",
+    "original": "彼は内弁慶だ。",
+    "en": [
+      {
+        "id": "302135",
+        "text": "He is a lion at home and a mouse outside."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 内弁慶 だ",
+    "vocabIds": [
+      "1459160",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1459160": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "うちべんけい"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "123216",
+    "original": "内弁慶は誰でもできる。",
+    "en": [
+      {
+        "id": "270009",
+        "text": "Every cock crows on his own dunghill."
+      }
+    ],
+    "indices": "内弁慶~ は 誰でも 出来る{できる}",
+    "vocabIds": [
+      "1459160",
+      "1416850"
+    ],
+    "matches": {
+      "1416850": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "だれでも"
+        }
+      ],
+      "1459160": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "うちべんけい"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,125 @@
+[
+  {
+    "id": "182710",
+    "original": "休みすぎは錆びる。",
+    "en": [
+      {
+        "id": "19838",
+        "text": "Too much rest is rust."
+      }
+    ],
+    "indices": "休み[01] 過ぎ{すぎ} は 錆びる",
+    "vocabIds": [
+      "1299640",
+      "1227500"
+    ],
+    "matches": {
+      "1227500": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "やすみ"
+        }
+      ],
+      "1299640": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "さびる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "221967",
+    "original": "この鋼は錆びない。",
+    "en": [
+      {
+        "id": "59293",
+        "text": "This steel is stainless."
+      }
+    ],
+    "indices": "此の{この} 鋼 は 錆びる{錆びない}",
+    "vocabIds": [
+      "1299640",
+      "1282680"
+    ],
+    "matches": {
+      "1282680": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "はがね"
+        }
+      ],
+      "1299640": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "さびない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "226152",
+    "original": "ガレージは錆びている。",
+    "en": [
+      {
+        "id": "63492",
+        "text": "The garage has rusted."
+      }
+    ],
+    "indices": "ガレージ は 錆びる{錆びている}",
+    "vocabIds": [
+      "1299640"
+    ],
+    "matches": {
+      "1299640": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "さびている"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11758893",
+    "original": "自転車は雨ざらしにすると錆びるよ。",
+    "en": [
+      {
+        "id": "26727",
+        "text": "A bicycle will rust if you leave it in the rain."
+      }
+    ],
+    "vocabIds": [
+      "1816290",
+      "1318290",
+      "1299640"
+    ],
+    "matches": {
+      "1299640": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "さびる"
+        }
+      ],
+      "1318290": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "じてんしゃ"
+        }
+      ],
+      "1816290": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "あまざらし"
+        }
+      ]
+    }
+  }
+]

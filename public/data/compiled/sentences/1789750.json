@@ -1,0 +1,108 @@
+[
+  {
+    "id": "76283",
+    "original": "会社をクビになったけど、貯金がすこしあるので、差し詰め生活には困らない。",
+    "en": [
+      {
+        "id": "327437",
+        "text": "I got the sack but I've a little saved up, so for the time being I won't be troubled by living expenses."
+      },
+      {
+        "id": "1334053",
+        "text": "I got fired from the company, but since I have a little money saved up, for the time being, I won't have trouble with living expenses."
+      }
+    ],
+    "indices": "会社 を 首になる{クビになった} けど 貯金 が 少し{すこし} 有る{ある} ので 差し詰め[02]~ 生活 には 困る[01]{困らない}",
+    "vocabIds": [
+      "1789750",
+      "1289590",
+      "1198550",
+      "1427170",
+      "1378860"
+    ],
+    "matches": {
+      "1198550": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かいしゃ"
+        }
+      ],
+      "1289590": [
+        {
+          "start": 31,
+          "length": 4,
+          "reading": "こまらない"
+        }
+      ],
+      "1378860": [
+        {
+          "start": 27,
+          "length": 2,
+          "reading": "せいかつ"
+        }
+      ],
+      "1427170": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "ちょきん"
+        }
+      ],
+      "1789750": [
+        {
+          "start": 23,
+          "length": 4,
+          "reading": "さしづめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "76399",
+    "original": "みなプロジェクトを抱えているので、差し詰め、君しか適任者はいない。",
+    "en": [
+      {
+        "id": "327321",
+        "text": "Everybody has their own projects on, so after all you are the only suitable candidate."
+      }
+    ],
+    "indices": "皆{みな} プロジェクト を 抱える{抱えている} ので 差し詰め[01]~ 君(きみ)[01] しか 適任者 は 居る(いる)[01]{いない}",
+    "vocabIds": [
+      "1516310",
+      "1789750",
+      "1437470",
+      "1247250"
+    ],
+    "matches": {
+      "1247250": [
+        {
+          "start": 22,
+          "length": 1,
+          "reading": "きみ"
+        }
+      ],
+      "1437470": [
+        {
+          "start": 25,
+          "length": 3,
+          "reading": "てきにんしゃ"
+        }
+      ],
+      "1516310": [
+        {
+          "start": 9,
+          "length": 7,
+          "reading": "かかえているので"
+        }
+      ],
+      "1789750": [
+        {
+          "start": 17,
+          "length": 4,
+          "reading": "さしづめ"
+        }
+      ]
+    }
+  }
+]

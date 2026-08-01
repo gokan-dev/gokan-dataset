@@ -1,0 +1,65 @@
+[
+  {
+    "id": "169966",
+    "original": "昨日は暑くも寒くもなくて、散歩には打ってつけの日であった。",
+    "en": [
+      {
+        "id": "244520",
+        "text": "Yesterday it was neither too warm nor too cold. It was an ideal day for taking a walk."
+      }
+    ],
+    "indices": "昨日 は 暑い{暑く} も 寒い{寒く} も 無い{なくて} 散歩 には 打って付け{打ってつけの} 日(ひ)[01] である{であった}",
+    "vocabIds": [
+      "1408780",
+      "1579260",
+      "1343460",
+      "1210360",
+      "1303620",
+      "1463770"
+    ],
+    "matches": {
+      "1210360": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "さむく"
+        }
+      ],
+      "1303620": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "さんぽ"
+        }
+      ],
+      "1343460": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "あつく"
+        }
+      ],
+      "1408780": [
+        {
+          "start": 17,
+          "length": 5,
+          "reading": "うってつけ"
+        }
+      ],
+      "1463770": [
+        {
+          "start": 23,
+          "length": 1,
+          "reading": "ひ"
+        }
+      ],
+      "1579260": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きのう"
+        }
+      ]
+    }
+  }
+]

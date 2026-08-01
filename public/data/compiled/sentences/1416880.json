@@ -1,0 +1,170 @@
+[
+  {
+    "id": "137013",
+    "original": "誰がしたの？",
+    "en": [
+      {
+        "id": "276223",
+        "text": "Who did it?"
+      }
+    ],
+    "indices": "誰 が 為る(する){した} の",
+    "vocabIds": [
+      "1416880"
+    ],
+    "matches": {
+      "1416880": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "だれがし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10537030",
+    "original": "子供たちの世話は誰がしてますか？",
+    "en": [
+      {
+        "id": "10537005",
+        "text": "Who's taking care of your kids?"
+      }
+    ],
+    "vocabIds": [
+      "1307870",
+      "1416880",
+      "1374300"
+    ],
+    "matches": {
+      "1307870": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "こどもたち"
+        }
+      ],
+      "1374300": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "せわ"
+        }
+      ],
+      "1416880": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "だれがし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10605268",
+    "original": "お母さんのお手伝いは誰がしてるの？",
+    "en": [
+      {
+        "id": "276109",
+        "text": "Who helps your mother?"
+      }
+    ],
+    "indices": "誰 が 母(はは) の 手伝い[02] を 為る(する)[01]{する} の",
+    "vocabIds": [
+      "1002650",
+      "1612810",
+      "1416880"
+    ],
+    "matches": {
+      "1002650": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "おかあさん"
+        }
+      ],
+      "1416880": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "だれがし"
+        }
+      ],
+      "1612810": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "おてつだい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11619478",
+    "original": "これ、誰がしてくれたの？",
+    "en": [
+      {
+        "id": "9699215",
+        "text": "Who did this for you?"
+      }
+    ],
+    "vocabIds": [
+      "1416880"
+    ],
+    "matches": {
+      "1416880": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "だれがし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12505117",
+    "original": "犬の世話は誰がしてるの？",
+    "en": [
+      {
+        "id": "846240",
+        "text": "Who's looking after your dogs?"
+      },
+      {
+        "id": "8836786",
+        "text": "Who is looking after your dogs?"
+      },
+      {
+        "id": "13474064",
+        "text": "Who's taking care of the dog?"
+      }
+    ],
+    "vocabIds": [
+      "1416880",
+      "1374300",
+      "1258330"
+    ],
+    "matches": {
+      "1258330": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "いぬ"
+        }
+      ],
+      "1374300": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "せわ"
+        }
+      ],
+      "1416880": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "だれがし"
+        }
+      ]
+    }
+  }
+]

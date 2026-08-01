@@ -1,0 +1,72 @@
+[
+  {
+    "id": "74495",
+    "original": "最近、以前からある痔が痛みます。",
+    "en": [
+      {
+        "id": "329224",
+        "text": "Recently my haemorrhoids, which I've had from before, are painful."
+      }
+    ],
+    "indices": "最近 以前[02] から 有る{ある} 痔~ が 痛む[01]{痛みます}",
+    "vocabIds": [
+      "1432710",
+      "1293780",
+      "1155150",
+      "1956340"
+    ],
+    "matches": {
+      "1155150": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "いぜん"
+        }
+      ],
+      "1293780": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "さいきん"
+        }
+      ],
+      "1432710": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "いたみます"
+        }
+      ],
+      "1956340": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "じ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "150175",
+    "original": "痔があります。",
+    "en": [
+      {
+        "id": "264382",
+        "text": "I have hemorrhoids."
+      }
+    ],
+    "indices": "痔 が[01] 有る{あります}",
+    "vocabIds": [
+      "1956340"
+    ],
+    "matches": {
+      "1956340": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "じ"
+        }
+      ]
+    }
+  }
+]

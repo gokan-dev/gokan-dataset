@@ -1,0 +1,95 @@
+[
+  {
+    "id": "187215",
+    "original": "夏の夜は寝苦しい。",
+    "en": [
+      {
+        "id": "24352",
+        "text": "We cannot sleep well on summer nights."
+      }
+    ],
+    "indices": "夏(なつ) の 夜 は 寝苦しい~",
+    "vocabIds": [
+      "1360070",
+      "1191320",
+      "1536350"
+    ],
+    "matches": {
+      "1191320": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "なつ"
+        }
+      ],
+      "1360070": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "ねぐるしい"
+        }
+      ],
+      "1536350": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "よる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "957549",
+    "original": "昨日の夜はとても蒸し暑くて、寝苦しかったね。",
+    "en": [
+      {
+        "id": "960173",
+        "text": "Last night was very hot and muggy and it was difficult to sleep."
+      },
+      {
+        "id": "960176",
+        "text": "Last night was very hot and muggy and I didn't sleep very well."
+      },
+      {
+        "id": "960181",
+        "text": "Last night was very hot and muggy, so I didn't sleep so well."
+      }
+    ],
+    "vocabIds": [
+      "1360070",
+      "1356870",
+      "1579260",
+      "1536350"
+    ],
+    "matches": {
+      "1356870": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "むしあつくて"
+        }
+      ],
+      "1360070": [
+        {
+          "start": 14,
+          "length": 6,
+          "reading": "ねぐるしかった"
+        }
+      ],
+      "1536350": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "よる"
+        }
+      ],
+      "1579260": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きのう"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "id": "185281",
+    "original": "会社の慰安旅行で箱根に行きます。",
+    "en": [
+      {
+        "id": "22413",
+        "text": "My company is sending us all to Hakone this year."
+      }
+    ],
+    "indices": "会社 の 慰安旅行~ で(#2028980) に 行く[01]{行きます}",
+    "vocabIds": [
+      "1930150",
+      "1578850",
+      "1198550"
+    ],
+    "matches": {
+      "1198550": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かいしゃ"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "いきます"
+        }
+      ],
+      "1930150": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "いあんりょこう"
+        }
+      ]
+    }
+  }
+]

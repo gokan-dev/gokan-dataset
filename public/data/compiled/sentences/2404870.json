@@ -1,0 +1,119 @@
+[
+  {
+    "id": "83438",
+    "original": "別にサービス料を申し受けます。",
+    "en": [
+      {
+        "id": "320278",
+        "text": "The service charge is extra."
+      }
+    ],
+    "indices": "別に サービス料 を 申し受ける[01]{申し受けます}~",
+    "vocabIds": [
+      "1362910",
+      "2404870",
+      "1509480"
+    ],
+    "matches": {
+      "1362910": [
+        {
+          "start": 8,
+          "length": 6,
+          "reading": "もうしうけます"
+        }
+      ],
+      "1509480": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "べつに"
+        }
+      ],
+      "2404870": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "さーびすりょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "84095",
+    "original": "部屋代にサービス料は含まれていますか。",
+    "en": [
+      {
+        "id": "319621",
+        "text": "Does the price of the room include the service charges?"
+      }
+    ],
+    "indices": "部屋代 に サービス料 は 含む[01]{含まれています} か",
+    "vocabIds": [
+      "2404870",
+      "1499330",
+      "1216880"
+    ],
+    "matches": {
+      "1216880": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "ふくま"
+        }
+      ],
+      "1499330": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "へやだい"
+        }
+      ],
+      "2404870": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "さーびすりょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "145819",
+    "original": "食事代はサービス料も込みになっています。",
+    "en": [
+      {
+        "id": "268743",
+        "text": "The price of the meal includes a service charge."
+      }
+    ],
+    "indices": "食事 代(だい)[01] は サービス料~ も 込み[01] になる{になっています}",
+    "vocabIds": [
+      "2404870",
+      "2116910",
+      "2078750"
+    ],
+    "matches": {
+      "2078750": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "こみ"
+        }
+      ],
+      "2116910": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "しょくじだい"
+        }
+      ],
+      "2404870": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "さーびすりょう"
+        }
+      ]
+    }
+  }
+]

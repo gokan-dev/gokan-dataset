@@ -1,0 +1,135 @@
+{
+  "id": "2852531",
+  "writtenForm": {
+    "kanji": "応え",
+    "alternatives": [
+      "答え"
+    ],
+    "containedKanji": [
+      "応"
+    ]
+  },
+  "reading": {
+    "primary": "いらえ",
+    "alternatives": [
+      "ごたえ"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 29319,
+    "kanaRank": 48794
+  },
+  "progression": {
+    "kklcStep": 850
+  },
+  "senses": [
+    {
+      "pos": [
+        "n",
+        "vs",
+        "vi"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "form"
+        ]
+      },
+      "glosses": [
+        "reply",
+        "response"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "suf"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "response",
+        "feeling"
+      ],
+      "related": {
+        "compounds": [
+          "応え"
+        ]
+      },
+      "appliesToReadings": [
+        "ごたえ"
+      ]
+    },
+    {
+      "pos": [
+        "suf"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "worth ...ing",
+        "worthwhile ...ing",
+        "satisfying to ..."
+      ],
+      "related": {
+        "compounds": [
+          "見応え",
+          "読み応え"
+        ]
+      },
+      "appliesToReadings": [
+        "ごたえ"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": false,
+  "mergedVocabs": [
+    {
+      "id": "2852531",
+      "isBase": true,
+      "originalPrimaryReading": "いらえ",
+      "originalGlosses": [
+        "reply",
+        "response"
+      ]
+    },
+    {
+      "id": "2817960",
+      "isBase": false,
+      "originalPrimaryReading": "ごたえ",
+      "originalGlosses": [
+        "response",
+        "feeling"
+      ]
+    }
+  ],
+  "components": [
+    "2603430"
+  ],
+  "parents": [
+    "1179810",
+    "1327340",
+    "2767970"
+  ]
+}

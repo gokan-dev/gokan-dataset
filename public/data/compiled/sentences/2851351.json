@@ -1,0 +1,123 @@
+[
+  {
+    "id": "221041",
+    "original": "この新しい靴は履き心地が悪い。",
+    "en": [
+      {
+        "id": "58363",
+        "text": "I am uncomfortable in these new shoes."
+      },
+      {
+        "id": "10148383",
+        "text": "I'm uncomfortable in these new shoes."
+      }
+    ],
+    "indices": "此の{この} 新しい 靴 は 履く[01]{履き} 心地(ここち)[02] が 悪い(わるい)",
+    "vocabIds": [
+      "2851351",
+      "1361490",
+      "1151260",
+      "1403390",
+      "2772730",
+      "1246700"
+    ],
+    "matches": {
+      "1151260": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "わるい"
+        }
+      ],
+      "1246700": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "くつ"
+        }
+      ],
+      "1361490": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "あたらしい"
+        }
+      ],
+      "1403390": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "わるい"
+        }
+      ],
+      "2772730": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "わるい"
+        }
+      ],
+      "2851351": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "はきごこち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12593308",
+    "original": "この靴は、履き心地が悪い。",
+    "en": [
+      {
+        "id": "12070003",
+        "text": "These shoes are uncomfortable."
+      }
+    ],
+    "vocabIds": [
+      "2851351",
+      "1151260",
+      "1403390",
+      "2772730",
+      "1246700"
+    ],
+    "matches": {
+      "1151260": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "わるい"
+        }
+      ],
+      "1246700": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "くつ"
+        }
+      ],
+      "1403390": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "わるい"
+        }
+      ],
+      "2772730": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "わるい"
+        }
+      ],
+      "2851351": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "はきごこち"
+        }
+      ]
+    }
+  }
+]

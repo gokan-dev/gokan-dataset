@@ -1,0 +1,41 @@
+[
+  {
+    "id": "174118",
+    "original": "交通渋滞で、車が数珠つなぎでした。",
+    "en": [
+      {
+        "id": "240352",
+        "text": "The traffic was very heavy. The cars were lined up bumper to bumper."
+      }
+    ],
+    "indices": "交通渋滞 で(#2028980) 車(くるま) が 数珠つなぎ~ です{でした}",
+    "vocabIds": [
+      "2011720",
+      "1760790",
+      "1323080"
+    ],
+    "matches": {
+      "1323080": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1760790": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "こうつうじゅうたい"
+        }
+      ],
+      "2011720": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "じゅずつなぎ"
+        }
+      ]
+    }
+  }
+]

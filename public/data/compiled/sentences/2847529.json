@@ -1,0 +1,33 @@
+[
+  {
+    "id": "212249",
+    "original": "その映画は大好評です。",
+    "en": [
+      {
+        "id": "49529",
+        "text": "The film is going over big with audiences."
+      }
+    ],
+    "indices": "其の[01]{その} 映画 は 大(だい)[01] 好評 です",
+    "vocabIds": [
+      "2847529",
+      "1173720"
+    ],
+    "matches": {
+      "1173720": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "えいが"
+        }
+      ],
+      "2847529": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "だいこうひょう"
+        }
+      ]
+    }
+  }
+]

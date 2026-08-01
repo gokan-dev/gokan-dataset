@@ -1,0 +1,41 @@
+[
+  {
+    "id": "84890",
+    "original": "普通電車は急行ほど快適ではない。",
+    "en": [
+      {
+        "id": "318823",
+        "text": "The local train is less comfortable than the express train."
+      }
+    ],
+    "indices": "普通 電車 は 急行[02] 程{ほど} 快適 では無い{ではない}",
+    "vocabIds": [
+      "2274270",
+      "1228690",
+      "1200120"
+    ],
+    "matches": {
+      "1200120": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "かいてき"
+        }
+      ],
+      "1228690": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "きゅうこう"
+        }
+      ],
+      "2274270": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "ふつうでんしゃ"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "id": "74613",
+    "original": "メッセージがなぜか文字化けしていたので、修復して読みました。",
+    "en": [
+      {
+        "id": "329106",
+        "text": "For some reason the message text was corrupted, so I restored it before reading."
+      }
+    ],
+    "indices": "メッセージ が 何故か{なぜか} 文字化け 為る(する){していた} ので 修復 為る(する){して} 読む{読みました}",
+    "vocabIds": [
+      "1456360",
+      "2222340",
+      "1332320",
+      "2056760"
+    ],
+    "matches": {
+      "1332320": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "しゅうふく"
+        }
+      ],
+      "1456360": [
+        {
+          "start": 24,
+          "length": 5,
+          "reading": "よみました"
+        }
+      ],
+      "2056760": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "か"
+        }
+      ],
+      "2222340": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "かもじ"
+        }
+      ]
+    }
+  }
+]

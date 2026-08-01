@@ -1,0 +1,107 @@
+[
+  {
+    "id": "234932",
+    "original": "８時も過ぎたのでその日は打ち切りにした。",
+    "en": [
+      {
+        "id": "72309",
+        "text": "As it was past 8 p.m. we called it a day."
+      },
+      {
+        "id": "1475471",
+        "text": "It was already after 8 o'clock, so we called it a day."
+      }
+    ],
+    "indices": "時(じ)[01] も 過ぎる(すぎる){過ぎた} ので 其の[01]{その} 日(ひ)[01] は 打ち切り~ に 為る(する){した}",
+    "vocabIds": [
+      "1195970",
+      "1633630",
+      "2002320",
+      "2845368"
+    ],
+    "matches": {
+      "1195970": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "すぎたので"
+        }
+      ],
+      "1633630": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "うちきり"
+        }
+      ],
+      "2002320": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "そのひ"
+        }
+      ],
+      "2845368": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "はちじ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "4245730",
+    "original": "この電車は車両の不具合のため当駅で打ち切りとさせていただきます。",
+    "en": [
+      {
+        "id": "4641517",
+        "text": "Due to a technical malfunction, this train's service will be henceforth discontinued."
+      }
+    ],
+    "vocabIds": [
+      "1633630",
+      "1492030",
+      "1443530",
+      "1323250",
+      "1448960"
+    ],
+    "matches": {
+      "1323250": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "しゃりょう"
+        }
+      ],
+      "1443530": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "でんしゃ"
+        }
+      ],
+      "1448960": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "とうえき"
+        }
+      ],
+      "1492030": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "ふぐあい"
+        }
+      ],
+      "1633630": [
+        {
+          "start": 17,
+          "length": 4,
+          "reading": "うちきり"
+        }
+      ]
+    }
+  }
+]

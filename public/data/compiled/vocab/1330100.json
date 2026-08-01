@@ -1,0 +1,102 @@
+{
+  "id": "1330100",
+  "writtenForm": {
+    "kanji": "呪い",
+    "alternatives": [
+      "詛い",
+      "咒い"
+    ],
+    "containedKanji": [
+      "呪"
+    ]
+  },
+  "reading": {
+    "primary": "のろい",
+    "alternatives": [
+      "まじない"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 3165,
+    "kanaRank": 60685
+  },
+  "progression": {
+    "kklcStep": 2177
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "curse",
+        "spell",
+        "malediction"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "charm",
+        "incantation",
+        "spell",
+        "curse"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "まじない"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1330100",
+      "isBase": true,
+      "originalPrimaryReading": "のろい",
+      "originalGlosses": [
+        "curse",
+        "spell",
+        "malediction"
+      ]
+    },
+    {
+      "id": "1330105",
+      "isBase": false,
+      "originalPrimaryReading": "まじない",
+      "originalGlosses": [
+        "charm",
+        "incantation",
+        "spell"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": "1267520",
+  "writtenForm": {
+    "kanji": "胡坐",
+    "alternatives": [
+      "胡座",
+      "胡床",
+      "趺坐"
+    ],
+    "containedKanji": [
+      "胡",
+      "坐"
+    ]
+  },
+  "reading": {
+    "primary": "あぐら",
+    "alternatives": [
+      "こざ"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 42116,
+    "kanaRank": 27681
+  },
+  "progression": {
+    "kklcStep": 750
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "sitting cross-legged"
+      ],
+      "related": {
+        "compounds": [
+          "あぐらをかく"
+        ]
+      }
+    },
+    {
+      "pos": [
+        "n",
+        "vs",
+        "vi"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "sitting cross-legged"
+      ],
+      "related": {
+        "compounds": [
+          "あぐら"
+        ]
+      },
+      "appliesToReadings": [
+        "こざ"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1267520",
+      "isBase": true,
+      "originalPrimaryReading": "あぐら",
+      "originalGlosses": [
+        "sitting cross-legged"
+      ]
+    },
+    {
+      "id": "2858980",
+      "isBase": false,
+      "originalPrimaryReading": "こざ",
+      "originalGlosses": [
+        "sitting cross-legged"
+      ]
+    }
+  ],
+  "parents": [
+    "1267530"
+  ]
+}

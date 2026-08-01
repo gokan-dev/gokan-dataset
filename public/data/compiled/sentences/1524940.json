@@ -1,0 +1,139 @@
+[
+  {
+    "id": "81212",
+    "original": "又しても彼女は遅刻した。",
+    "en": [
+      {
+        "id": "322503",
+        "text": "She was late once again."
+      }
+    ],
+    "indices": "又しても 彼女[01] は 遅刻 為る(する){した}",
+    "vocabIds": [
+      "1524940",
+      "1483150",
+      "1422050"
+    ],
+    "matches": {
+      "1422050": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ちこく"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1524940": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "またしても"
+        }
+      ]
+    }
+  },
+  {
+    "id": "81213",
+    "original": "又しても死を免れることができた。",
+    "en": [
+      {
+        "id": "322502",
+        "text": "Again I was able to escape death."
+      },
+      {
+        "id": "1438079",
+        "text": "Once again, I was able to escape death."
+      }
+    ],
+    "indices": "又しても~ 死[01] を 免れる 事が出来る{ことができた}",
+    "vocabIds": [
+      "1524940",
+      "1584670",
+      "1310720"
+    ],
+    "matches": {
+      "1310720": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "し"
+        }
+      ],
+      "1524940": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "またしても"
+        }
+      ],
+      "1584670": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "まぬかれる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "81214",
+    "original": "又しても彼は試験に落ちた。",
+    "en": [
+      {
+        "id": "322501",
+        "text": "He failed the examination again."
+      }
+    ],
+    "indices": "又しても 彼(かれ) は 試験 に 落ちる[08]{落ちた}",
+    "vocabIds": [
+      "1524940",
+      "1548550",
+      "1312350",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1312350": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "しけん"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1524940": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "またしても"
+        }
+      ],
+      "1548550": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "おちた"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "id": "123817",
+    "original": "頭痛と喉の痛みがありますか。",
+    "en": [
+      {
+        "id": "280178",
+        "text": "Do you have a headache and a sore throat?"
+      }
+    ],
+    "indices": "頭痛 と 喉(のど)[01] の 痛み が[01] 有る{あります} か",
+    "vocabIds": [
+      "1920250",
+      "1450890"
+    ],
+    "matches": {
+      "1450890": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ずつう"
+        }
+      ],
+      "1920250": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "のどのいたみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "207064",
+    "original": "その病気の初期症状は高熱とのどの痛みです。",
+    "en": [
+      {
+        "id": "44314",
+        "text": "The initial symptoms of the disease are fever and sore throat."
+      }
+    ],
+    "indices": "其の[01]{その} 病気{病気の} 初期症状~ は 高熱[01] と 喉(のど)[01]{のど} 之(の)[01]{の} 痛み です",
+    "vocabIds": [
+      "1920250",
+      "2125480",
+      "1490230",
+      "1283880"
+    ],
+    "matches": {
+      "1283880": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "こうねつ"
+        }
+      ],
+      "1490230": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "びょうき"
+        }
+      ],
+      "1920250": [
+        {
+          "start": 13,
+          "length": 5,
+          "reading": "のどのいたみ"
+        }
+      ],
+      "2125480": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "しょきしょうじょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9859657",
+    "original": "喉の痛みと頭痛はありますか？",
+    "en": [
+      {
+        "id": "4296983",
+        "text": "Do you have a sore throat and a headache?"
+      }
+    ],
+    "vocabIds": [
+      "1920250",
+      "1450890"
+    ],
+    "matches": {
+      "1450890": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ずつう"
+        }
+      ],
+      "1920250": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "のどのいたみ"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "id": "207776",
+    "original": "その蝶は成虫になるまでに２年かかる。",
+    "en": [
+      {
+        "id": "45030",
+        "text": "It takes two years for the butterfly to mature."
+      }
+    ],
+    "indices": "其の[01]{その} 蝶 は 成虫 になる[01] 迄{まで} に 年(ねん) 掛かる[01]{かかる}",
+    "vocabIds": [
+      "1645350",
+      "1429010",
+      "1461140",
+      "2084840"
+    ],
+    "matches": {
+      "1429010": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ちょう"
+        }
+      ],
+      "1461140": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "に"
+        }
+      ],
+      "1645350": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "せいちゅう"
+        }
+      ],
+      "2084840": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "ねん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "207840",
+    "original": "その虫はさなぎから成虫になった。",
+    "en": [
+      {
+        "id": "45095",
+        "text": "The insect grew out of a pupa into an imago."
+      }
+    ],
+    "indices": "其の[01]{その} 虫 は 蛹{さなぎ}~ から 成虫~ になる[01]{になった}",
+    "vocabIds": [
+      "1645350",
+      "1426680"
+    ],
+    "matches": {
+      "1426680": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "むし"
+        }
+      ],
+      "1645350": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "せいちゅう"
+        }
+      ]
+    }
+  }
+]

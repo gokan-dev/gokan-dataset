@@ -1,0 +1,88 @@
+[
+  {
+    "id": "76512",
+    "original": "トムが浅瀬をぽちゃぽちゃと歩いて行った。",
+    "en": [
+      {
+        "id": "327208",
+        "text": "Tom went splashing through the shallows."
+      }
+    ],
+    "indices": "が 浅瀬~ を ピチャピチャ[01]{ぽちゃぽちゃ}~ と 歩く{歩いて} 行く[01]{行った}",
+    "vocabIds": [
+      "1514320",
+      "1390850"
+    ],
+    "matches": {
+      "1390850": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "あさせ"
+        }
+      ],
+      "1514320": [
+        {
+          "start": 13,
+          "length": 6,
+          "reading": "あるいていった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "84286",
+    "original": "負うた子に教えられて浅瀬を渡る。",
+    "en": [
+      {
+        "id": "319429",
+        "text": "A child on your back may guide you across a ford."
+      }
+    ],
+    "indices": "負う[01]{負うた}~ 子(こ)[01] に 教える{教えられて} 浅瀬 を[03] 渡る",
+    "vocabIds": [
+      "1236900",
+      "1390850",
+      "1444680",
+      "1497920",
+      "2842939"
+    ],
+    "matches": {
+      "1236900": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "おしえ"
+        }
+      ],
+      "1390850": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "あさせ"
+        }
+      ],
+      "1444680": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "わたる"
+        }
+      ],
+      "1497920": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ふ"
+        }
+      ],
+      "2842939": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ふ"
+        }
+      ]
+    }
+  }
+]

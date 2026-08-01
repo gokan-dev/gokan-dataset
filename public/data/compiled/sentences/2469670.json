@@ -1,0 +1,75 @@
+[
+  {
+    "id": "91770",
+    "original": "彼女はハート型のイヤリングをしていた。",
+    "en": [
+      {
+        "id": "311942",
+        "text": "She wore heart-shaped earrings."
+      }
+    ],
+    "indices": "彼女[01] は ハート~ 型[01] の イヤリング~ を 為る(する){していた}",
+    "vocabIds": [
+      "2469670",
+      "1483150"
+    ],
+    "matches": {
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "2469670": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "はーとがた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9741210",
+    "original": "ハート形の石を見つけたよ。",
+    "en": [
+      {
+        "id": "9741199",
+        "text": "I found a stone shaped like a heart."
+      },
+      {
+        "id": "9725906",
+        "text": "I found a stone that has the shape of a heart."
+      }
+    ],
+    "vocabIds": [
+      "2469670",
+      "1604570",
+      "1382440"
+    ],
+    "matches": {
+      "1382440": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "いし"
+        }
+      ],
+      "1604570": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "みつけた"
+        }
+      ],
+      "2469670": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "はーとがた"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,127 @@
+[
+  {
+    "id": "200999",
+    "original": "どこであれ道路を横切る時に右左を見るというのはいいことだ。",
+    "en": [
+      {
+        "id": "38204",
+        "text": "It's a good rule to look both ways before you cross the street anywhere."
+      }
+    ],
+    "indices": "どこであれ~ 道路 を 横切る 時(とき) に 右左~ を 見る と言うのは[01]{というのは} いい(#2820690)[01] 事(こと){こと} だ",
+    "vocabIds": [
+      "1180860",
+      "1454290",
+      "2021540",
+      "1746000",
+      "1259290"
+    ],
+    "matches": {
+      "1180860": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "よこぎる"
+        }
+      ],
+      "1259290": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "みる"
+        }
+      ],
+      "1454290": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "どうろ"
+        }
+      ],
+      "1746000": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "みぎひだり"
+        }
+      ],
+      "2021540": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "ときに"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10713626",
+    "original": "道を渡る前には、右左を見るんだよ。",
+    "en": [
+      {
+        "id": "280425",
+        "text": "Look both ways before you cross the street."
+      },
+      {
+        "id": "10720796",
+        "text": "Before you cross the street, look both left and right."
+      },
+      {
+        "id": "10773694",
+        "text": "Before you cross the road, look both left and right."
+      }
+    ],
+    "vocabIds": [
+      "1444680",
+      "1392590",
+      "1746000",
+      "1259290",
+      "1454080",
+      "2220470"
+    ],
+    "matches": {
+      "1259290": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "みる"
+        }
+      ],
+      "1392590": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "まえに"
+        }
+      ],
+      "1444680": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "わたる"
+        }
+      ],
+      "1454080": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "みち"
+        }
+      ],
+      "1746000": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "みぎひだり"
+        }
+      ],
+      "2220470": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "みち"
+        }
+      ]
+    }
+  }
+]

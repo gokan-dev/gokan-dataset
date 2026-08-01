@@ -1,0 +1,123 @@
+[
+  {
+    "id": "160541",
+    "original": "私はすぐに上京し、時刻は昼下がりであったが、叔父と会った。",
+    "en": [
+      {
+        "id": "253980",
+        "text": "I travelled to Tokyo right away; it was past noon when I saw my uncle."
+      }
+    ],
+    "indices": "私(わたし)[01] は 直ぐに{すぐに} 上京 為る(する){し} 時刻 は 昼下がり~ である{であった} が 叔父 と 会う[01]{会った}",
+    "vocabIds": [
+      "1426270",
+      "1198180",
+      "1352980",
+      "1316220",
+      "1607070",
+      "2648960",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1198180": [
+        {
+          "start": 25,
+          "length": 3,
+          "reading": "あった"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1316220": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "じこく"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1352980": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "じょうきょう"
+        }
+      ],
+      "1426270": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "ひるさがり"
+        }
+      ],
+      "1607070": [
+        {
+          "start": 22,
+          "length": 2,
+          "reading": "おじ"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2648960": [
+        {
+          "start": 22,
+          "length": 2,
+          "reading": "おじ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8797944",
+    "original": "何てのどかな昼下がりなんだろう。",
+    "en": [
+      {
+        "id": "10235707",
+        "text": "How tranquil an early afternoon it seems to be."
+      },
+      {
+        "id": "10235719",
+        "text": "What a tranquil early afternoon it seems to be."
+      }
+    ],
+    "vocabIds": [
+      "1426270",
+      "1188370"
+    ],
+    "matches": {
+      "1188370": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "なにて"
+        }
+      ],
+      "1426270": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "ひるさがり"
+        }
+      ]
+    }
+  }
+]

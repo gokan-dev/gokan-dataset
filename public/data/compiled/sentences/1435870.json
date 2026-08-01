@@ -1,0 +1,64 @@
+[
+  {
+    "id": "121256",
+    "original": "半年前に帝王切開しました。",
+    "en": [
+      {
+        "id": "282750",
+        "text": "I had a Caesarian section six months ago."
+      }
+    ],
+    "indices": "半年 前(まえ)[02] に 帝王切開 為る(する){しました}",
+    "vocabIds": [
+      "1435870",
+      "1583190",
+      "1392590"
+    ],
+    "matches": {
+      "1392590": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "まえに"
+        }
+      ],
+      "1435870": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "ていおうせっかい"
+        }
+      ],
+      "1583190": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "はんとし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "125532",
+    "original": "帝王切開にしてください。",
+    "en": [
+      {
+        "id": "278460",
+        "text": "I'd like to have a Caesarian operation."
+      }
+    ],
+    "indices": "帝王切開~ に 為る(する){して} 下さい{ください}",
+    "vocabIds": [
+      "1435870"
+    ],
+    "matches": {
+      "1435870": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "ていおうせっかい"
+        }
+      ]
+    }
+  }
+]

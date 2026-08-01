@@ -1,0 +1,41 @@
+[
+  {
+    "id": "144763",
+    "original": "診察時間は何時から何時までですか。",
+    "en": [
+      {
+        "id": "269801",
+        "text": "From what time to what time is your office open?"
+      }
+    ],
+    "indices": "診察 時間 は 何時(なんじ) から[01] 何時(なんじ) 迄{まで} ですか",
+    "vocabIds": [
+      "2866625",
+      "2191630",
+      "1188870"
+    ],
+    "matches": {
+      "1188870": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "なんじまで"
+        }
+      ],
+      "2191630": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "なんじから"
+        }
+      ],
+      "2866625": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "しんさつじかん"
+        }
+      ]
+    }
+  }
+]

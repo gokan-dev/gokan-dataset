@@ -1,0 +1,79 @@
+[
+  {
+    "id": "75081",
+    "original": "「今週からプール開きね」「そっかー。じゃあ、水着買いに行かなきゃ」",
+    "en": [
+      {
+        "id": "328638",
+        "text": "\"It's pool-season from this week, isn't it?\" \"Oh yes. I've gotta go and buy a swimming suit, then.\""
+      }
+    ],
+    "indices": "今週 から プール開き~ ね そっか{そっかー} じゃあ 水着 買う[01]{買い} に 行く{行か} 無きゃ[03]{なきゃ}",
+    "vocabIds": [
+      "2259150",
+      "1578850",
+      "1289220",
+      "1371830",
+      "1636070"
+    ],
+    "matches": {
+      "1289220": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "こんしゅう"
+        }
+      ],
+      "1371830": [
+        {
+          "start": 22,
+          "length": 2,
+          "reading": "みずぎ"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 27,
+          "length": 5,
+          "reading": "いかなきゃ"
+        }
+      ],
+      "1636070": [
+        {
+          "start": 24,
+          "length": 2,
+          "reading": "かい"
+        }
+      ],
+      "2259150": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "ぷーるびらき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10175980",
+    "original": "もうすぐプール開きです。",
+    "en": [
+      {
+        "id": "8958437",
+        "text": "The pool will open soon."
+      }
+    ],
+    "vocabIds": [
+      "2259150"
+    ],
+    "matches": {
+      "2259150": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "ぷーるびらき"
+        }
+      ]
+    }
+  }
+]

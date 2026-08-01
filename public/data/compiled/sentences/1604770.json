@@ -1,0 +1,92 @@
+[
+  {
+    "id": "118415",
+    "original": "彼のいちだは向かい風のため、余り伸びなかった。",
+    "en": [
+      {
+        "id": "285248",
+        "text": "His shot didn't carry well against the wind."
+      }
+    ],
+    "indices": "彼(かれ)[01]{彼の} 一打{いちだ}~ は 向かい風 の 為(ため){ため} 余り 伸びる{伸びなかった}",
+    "vocabIds": [
+      "1358870",
+      "1604770",
+      "1000420",
+      "1584930"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれの"
+        }
+      ],
+      "1358870": [
+        {
+          "start": 16,
+          "length": 6,
+          "reading": "のびなかった"
+        }
+      ],
+      "1584930": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "あまり"
+        }
+      ],
+      "1604770": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "むかいかぜ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "173879",
+    "original": "向かい風が帆に吹きつけた。",
+    "en": [
+      {
+        "id": "240591",
+        "text": "The wind blew against the sail."
+      },
+      {
+        "id": "2863859",
+        "text": "The headwind blew against the sail."
+      }
+    ],
+    "indices": "向かい風~ が 帆~ に 吹く[01]{吹き} 付ける{つけた}",
+    "vocabIds": [
+      "1370760",
+      "1604770",
+      "1481240"
+    ],
+    "matches": {
+      "1370760": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "ふきつけた"
+        }
+      ],
+      "1481240": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "ほ"
+        }
+      ],
+      "1604770": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "むかいかぜ"
+        }
+      ]
+    }
+  }
+]

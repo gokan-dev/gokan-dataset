@@ -1,0 +1,103 @@
+{
+  "id": "1520860",
+  "writtenForm": {
+    "kanji": "北京",
+    "alternatives": [],
+    "containedKanji": [
+      "北",
+      "京"
+    ]
+  },
+  "reading": {
+    "primary": "ペキン",
+    "alternatives": [
+      "ペイチン",
+      "ほっきょう"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 31464,
+    "kanaRank": 100333
+  },
+  "progression": {
+    "kklcStep": 245
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "Beijing (China)",
+        "Peking"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "Kyoto"
+      ],
+      "related": {
+        "compounds": [
+          "南京"
+        ]
+      },
+      "appliesToReadings": [
+        "ほっきょう"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": true
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1520860",
+      "isBase": true,
+      "originalPrimaryReading": "ペキン",
+      "originalGlosses": [
+        "Beijing (China)",
+        "Peking"
+      ]
+    },
+    {
+      "id": "2851513",
+      "isBase": false,
+      "originalPrimaryReading": "ほっきょう",
+      "originalGlosses": [
+        "Kyoto"
+      ]
+    }
+  ],
+  "components": [
+    "1520670",
+    "1233320"
+  ],
+  "parents": [
+    "1520870"
+  ]
+}

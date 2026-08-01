@@ -1,0 +1,104 @@
+[
+  {
+    "id": "124503",
+    "original": "土砂降りが長く続くと、洗濯屋さんは、仕事がはかどらず苦労する。",
+    "en": [
+      {
+        "id": "279491",
+        "text": "When it continues raining cats and dogs for a long while, laundrymen have a hard time doing their work."
+      }
+    ],
+    "indices": "土砂降り が 長い{長く} 続く と 洗濯屋~ さん は 仕事[01] が 捗る{はかどらず} 苦労 為る(する){する}",
+    "vocabIds": [
+      "1445340",
+      "1941040",
+      "1405790",
+      "1429750",
+      "1304970",
+      "1244680"
+    ],
+    "matches": {
+      "1244680": [
+        {
+          "start": 26,
+          "length": 2,
+          "reading": "くろう"
+        }
+      ],
+      "1304970": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "しごと"
+        }
+      ],
+      "1405790": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "つづくと"
+        }
+      ],
+      "1429750": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ながく"
+        }
+      ],
+      "1445340": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "どしゃぶり"
+        }
+      ],
+      "1941040": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "せんたくや"
+        }
+      ]
+    }
+  },
+  {
+    "id": "141205",
+    "original": "洗濯物はもう洗濯屋から返ってきてますか。",
+    "en": [
+      {
+        "id": "273367",
+        "text": "Has the wash come back yet?"
+      }
+    ],
+    "indices": "洗濯物 は もう 洗濯屋 から 返る[01]{返って} 来る(くる)[01]{きてます} か",
+    "vocabIds": [
+      "1512150",
+      "1391020",
+      "1941040"
+    ],
+    "matches": {
+      "1391020": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "せんたくぶつ"
+        }
+      ],
+      "1512150": [
+        {
+          "start": 11,
+          "length": 7,
+          "reading": "かえってきてます"
+        }
+      ],
+      "1941040": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "せんたくや"
+        }
+      ]
+    }
+  }
+]

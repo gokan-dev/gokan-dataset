@@ -1,0 +1,129 @@
+[
+  {
+    "id": "102500",
+    "original": "彼は大あくびをした。",
+    "en": [
+      {
+        "id": "301194",
+        "text": "He yawned widely."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 大あくび を 為る(する){した}",
+    "vocabIds": [
+      "2039950",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "2039950": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "だいあくび"
+        }
+      ]
+    }
+  },
+  {
+    "id": "115359",
+    "original": "彼は「あーあ」と大あくびをした。",
+    "en": [
+      {
+        "id": "288312",
+        "text": "He gave a big yawn!"
+      }
+    ],
+    "indices": "彼(かれ)[01] は あーあ と 大あくび を 為る(する){した}",
+    "vocabIds": [
+      "2039950",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "2039950": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "だいあくび"
+        }
+      ]
+    }
+  },
+  {
+    "id": "137768",
+    "original": "大あくびをして。",
+    "en": [
+      {
+        "id": "275468",
+        "text": "Yawn a big long yawn."
+      }
+    ],
+    "indices": "大あくび~ を 為る(する)[01]{して}",
+    "vocabIds": [
+      "2039950"
+    ],
+    "matches": {
+      "2039950": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "だいあくび"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9696388",
+    "original": "トムが大あくびをしたよ。",
+    "en": [
+      {
+        "id": "3314969",
+        "text": "Tom gave a big yawn."
+      },
+      {
+        "id": "3448561",
+        "text": "Tom gave a wide yawn."
+      }
+    ],
+    "vocabIds": [
+      "2039950"
+    ],
+    "matches": {
+      "2039950": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "だいあくび"
+        }
+      ]
+    }
+  }
+]

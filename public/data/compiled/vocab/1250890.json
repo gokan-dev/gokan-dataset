@@ -1,0 +1,94 @@
+{
+  "id": "1250890",
+  "writtenForm": {
+    "kanji": "桂",
+    "alternatives": [],
+    "containedKanji": [
+      "桂"
+    ]
+  },
+  "reading": {
+    "primary": "かつら",
+    "alternatives": [
+      "カツラ",
+      "けい"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 21929
+  },
+  "progression": {
+    "kklcStep": 99999
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "katsura (Cercidiphyllum japonicum)",
+        "Japanese Judas tree"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": true,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "abbr"
+        ]
+      },
+      "glosses": [
+        "knight"
+      ],
+      "related": {
+        "compounds": [
+          "桂馬"
+        ]
+      },
+      "appliesToReadings": [
+        "けい"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": true
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1250890",
+      "isBase": true,
+      "originalPrimaryReading": "かつら",
+      "originalGlosses": [
+        "katsura (Cercidiphyllum japonicum)",
+        "Japanese Judas tree"
+      ]
+    },
+    {
+      "id": "1921970",
+      "isBase": false,
+      "originalPrimaryReading": "けい",
+      "originalGlosses": [
+        "knight"
+      ]
+    }
+  ]
+}

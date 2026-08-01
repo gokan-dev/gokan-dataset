@@ -1,0 +1,75 @@
+[
+  {
+    "id": "217645",
+    "original": "これを私たちは芸術品と呼ぶ。",
+    "en": [
+      {
+        "id": "54955",
+        "text": "This we can call a work of art."
+      }
+    ],
+    "indices": "此れ[01]{これ} を 私たち は 芸術品~ と 呼ぶ",
+    "vocabIds": [
+      "1311300",
+      "1934010",
+      "1266440"
+    ],
+    "matches": {
+      "1266440": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "よぶ"
+        }
+      ],
+      "1311300": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1934010": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "げいじゅつひん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "994683",
+    "original": "この桃は芸術品だよ。",
+    "en": [
+      {
+        "id": "57650",
+        "text": "This peach is a beauty."
+      },
+      {
+        "id": "1229344",
+        "text": "This peach is a work of art."
+      }
+    ],
+    "vocabIds": [
+      "1934010",
+      "1448290"
+    ],
+    "matches": {
+      "1448290": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "もも"
+        }
+      ],
+      "1934010": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "げいじゅつひん"
+        }
+      ]
+    }
+  }
+]

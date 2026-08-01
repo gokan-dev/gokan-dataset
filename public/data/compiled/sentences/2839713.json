@@ -1,0 +1,124 @@
+[
+  {
+    "id": "201243",
+    "original": "どうでもいい電話ばっかりかかってきて、仕事にならない！",
+    "en": [
+      {
+        "id": "38450",
+        "text": "I can't work at all with all these useless calls coming in."
+      }
+    ],
+    "indices": "どうでも良い{どうでもいい} 電話 許り{ばっかり} 掛かる[13]{かかって} 来る(くる){きて} 仕事にならない",
+    "vocabIds": [
+      "2839713",
+      "1443840"
+    ],
+    "matches": {
+      "1443840": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "でんわ"
+        }
+      ],
+      "2839713": [
+        {
+          "start": 19,
+          "length": 7,
+          "reading": "しごとにならない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "217321",
+    "original": "こんな薄暗い部屋では仕事にならない。",
+    "en": [
+      {
+        "id": "54630",
+        "text": "It's impossible to work in a room this dim."
+      }
+    ],
+    "indices": "こんな 薄暗い 部屋[01] で(#2028980) は 仕事にならない~",
+    "vocabIds": [
+      "2839713",
+      "1475530",
+      "1499320"
+    ],
+    "matches": {
+      "1475530": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "うすぐらい"
+        }
+      ],
+      "1499320": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "へや"
+        }
+      ],
+      "2839713": [
+        {
+          "start": 10,
+          "length": 7,
+          "reading": "しごとにならない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10179152",
+    "original": "パソコンがないと仕事にならないよ。",
+    "en": [
+      {
+        "id": "9696352",
+        "text": "I can't do my work without my computer."
+      }
+    ],
+    "vocabIds": [
+      "2839713"
+    ],
+    "matches": {
+      "2839713": [
+        {
+          "start": 8,
+          "length": 7,
+          "reading": "しごとにならない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10557798",
+    "original": "暑すぎて仕事にならない。",
+    "en": [
+      {
+        "id": "67684",
+        "text": "It is too hot to work."
+      }
+    ],
+    "vocabIds": [
+      "2839713",
+      "1343460"
+    ],
+    "matches": {
+      "1343460": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "あつすぎて"
+        }
+      ],
+      "2839713": [
+        {
+          "start": 4,
+          "length": 7,
+          "reading": "しごとにならない"
+        }
+      ]
+    }
+  }
+]

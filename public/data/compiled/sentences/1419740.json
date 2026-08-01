@@ -1,0 +1,88 @@
+[
+  {
+    "id": "169743",
+    "original": "昨晩の火事は放火と断定された。",
+    "en": [
+      {
+        "id": "244743",
+        "text": "The fire that broke out last night was judged to be caused by arson."
+      }
+    ],
+    "indices": "昨晩 の 火事 は 放火 と 断定 為れる{された}",
+    "vocabIds": [
+      "1298240",
+      "1193950",
+      "1516560",
+      "1419740"
+    ],
+    "matches": {
+      "1193950": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かじ"
+        }
+      ],
+      "1298240": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "さくばん"
+        }
+      ],
+      "1419740": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "だんてい"
+        }
+      ],
+      "1516560": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ほうか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "172443",
+    "original": "今見ることからあわてて断定してはいけない。",
+    "en": [
+      {
+        "id": "242032",
+        "text": "Don't draw a hasty conclusion from what you see now."
+      }
+    ],
+    "indices": "今(いま) 見る 事(こと){こと} から 慌てる[02]{あわてて} 断定~ 為る(する){して} は 行けない[02]{いけない}",
+    "vocabIds": [
+      "1259290",
+      "1419740",
+      "1288850"
+    ],
+    "matches": {
+      "1259290": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "みる"
+        }
+      ],
+      "1288850": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "いま"
+        }
+      ],
+      "1419740": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "だんてい"
+        }
+      ]
+    }
+  }
+]

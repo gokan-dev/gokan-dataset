@@ -1,0 +1,41 @@
+[
+  {
+    "id": "88531",
+    "original": "彼女は神戸大学の出身です。",
+    "en": [
+      {
+        "id": "315176",
+        "text": "She graduated from Kobe University."
+      }
+    ],
+    "indices": "彼女[01] は 神戸 大学 の 出身[01]~ です",
+    "vocabIds": [
+      "5416848",
+      "1483150",
+      "1339260"
+    ],
+    "matches": {
+      "1339260": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "しゅっしん"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "5416848": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "こうべだいがく"
+        }
+      ]
+    }
+  }
+]

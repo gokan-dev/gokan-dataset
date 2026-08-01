@@ -1,0 +1,71 @@
+[
+  {
+    "id": "183044",
+    "original": "貴社の最寄り駅を教えて下さい。",
+    "en": [
+      {
+        "id": "20166",
+        "text": "Please tell me the closest station to your office."
+      }
+    ],
+    "indices": "貴社 の 最寄り 駅 を 教える{教えて} 下さい",
+    "vocabIds": [
+      "1236900",
+      "2749650",
+      "1223510"
+    ],
+    "matches": {
+      "1223510": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きしゃ"
+        }
+      ],
+      "1236900": [
+        {
+          "start": 8,
+          "length": 6,
+          "reading": "おしえてください"
+        }
+      ],
+      "2749650": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "もよりえき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11056549",
+    "original": "最寄駅で降ろしてくださる？",
+    "en": [
+      {
+        "id": "11284926",
+        "text": "Would you kindly let me off at the nearest station?"
+      }
+    ],
+    "vocabIds": [
+      "1589580",
+      "2749650"
+    ],
+    "matches": {
+      "1589580": [
+        {
+          "start": 4,
+          "length": 8,
+          "reading": "おろしてくださる"
+        }
+      ],
+      "2749650": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "もよりえき"
+        }
+      ]
+    }
+  }
+]

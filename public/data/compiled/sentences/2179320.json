@@ -1,0 +1,95 @@
+[
+  {
+    "id": "77084",
+    "original": "籠の鳥に水とえさをまいにちやるようにしてください。",
+    "en": [
+      {
+        "id": "326635",
+        "text": "Please see that the birds in the cage get water and food every day."
+      }
+    ],
+    "indices": "籠 の 鳥[01] に 水(みず) と 餌{えさ} を 毎日{まいにち} 遣る{やる} 様にする{ようにして} 下さい{ください}",
+    "vocabIds": [
+      "2179320",
+      "1371260"
+    ],
+    "matches": {
+      "1371260": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "みず"
+        }
+      ],
+      "2179320": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "かごのとり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8875188",
+    "original": "彼と付き合ってると、籠の鳥のような気分になるのよね。だから、別れたの。",
+    "en": [
+      {
+        "id": "10129566",
+        "text": "When I was with him, I felt like a bird trapped in a cage, so I split up with him."
+      }
+    ],
+    "vocabIds": [
+      "1597790",
+      "2179320",
+      "1606590",
+      "1222590",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1222590": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "きぶん"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1597790": [
+        {
+          "start": 2,
+          "length": 7,
+          "reading": "つきあってると"
+        }
+      ],
+      "1606590": [
+        {
+          "start": 30,
+          "length": 3,
+          "reading": "わかれた"
+        }
+      ],
+      "2179320": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "かごのとり"
+        }
+      ]
+    }
+  }
+]

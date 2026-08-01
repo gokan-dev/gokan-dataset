@@ -1,0 +1,41 @@
+[
+  {
+    "id": "84075",
+    "original": "部分一致検索はサーバーに負荷がかかるから、やめたほうがいいね。",
+    "en": [
+      {
+        "id": "319641",
+        "text": "You shouldn't do partial-word searches, since they put a lot of strain on the server."
+      }
+    ],
+    "indices": "部分 一致[01] 検索 は サーバ{サーバー} に 負荷~ が 掛かる{かかる} から 止める(やめる){やめた} 方がいい{ほうがいい} ね(#2029080)[01]",
+    "vocabIds": [
+      "2601200",
+      "1257900",
+      "1498060"
+    ],
+    "matches": {
+      "1257900": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "けんさく"
+        }
+      ],
+      "1498060": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "ふか"
+        }
+      ],
+      "2601200": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "ぶぶんいっち"
+        }
+      ]
+    }
+  }
+]

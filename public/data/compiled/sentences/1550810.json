@@ -1,0 +1,63 @@
+[
+  {
+    "id": "221756",
+    "original": "この子犬は里心がついて泣いているんだ。",
+    "en": [
+      {
+        "id": "59082",
+        "text": "This puppy is crying because it misses its mother."
+      }
+    ],
+    "indices": "此の{この} 子犬 は 里心~ が 付く(つく){ついて} 泣く{泣いている} のだ{んだ}",
+    "vocabIds": [
+      "1229840",
+      "1592900",
+      "1550810"
+    ],
+    "matches": {
+      "1229840": [
+        {
+          "start": 11,
+          "length": 5,
+          "reading": "ないている"
+        }
+      ],
+      "1550810": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "さとごころ"
+        }
+      ],
+      "1592900": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "こいぬ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "527209",
+    "original": "かれはきっと里心がついています。",
+    "en": [
+      {
+        "id": "527211",
+        "text": "He must be homesick."
+      }
+    ],
+    "vocabIds": [
+      "1550810"
+    ],
+    "matches": {
+      "1550810": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "さとごころ"
+        }
+      ]
+    }
+  }
+]

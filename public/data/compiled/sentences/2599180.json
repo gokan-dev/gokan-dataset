@@ -1,0 +1,79 @@
+[
+  {
+    "id": "645888",
+    "original": "このテレビドラマの警官は職権を乱用する汚職警官みたいです。",
+    "en": [
+      {
+        "id": "645891",
+        "text": "It seems that the policeman in this TV series is a dirty cop who abuses his authority."
+      }
+    ],
+    "indices": "此の{この} テレビドラマ の 警官 は 職権 を 乱用 為る(する){する} 汚職警官~ みたい です",
+    "vocabIds": [
+      "2599180",
+      "1252330",
+      "1357520",
+      "1549120"
+    ],
+    "matches": {
+      "1252330": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "けいかん"
+        }
+      ],
+      "1357520": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "しょっけん"
+        }
+      ],
+      "1549120": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "らんよう"
+        }
+      ],
+      "2599180": [
+        {
+          "start": 19,
+          "length": 4,
+          "reading": "おしょくけいかん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3927849",
+    "original": "ダンはマットが汚職警官であることに気付いた。",
+    "en": [
+      {
+        "id": "3927540",
+        "text": "Dan discovered that Matt was a corrupt cop."
+      }
+    ],
+    "vocabIds": [
+      "2599180",
+      "1591330"
+    ],
+    "matches": {
+      "1591330": [
+        {
+          "start": 17,
+          "length": 4,
+          "reading": "きづいた"
+        }
+      ],
+      "2599180": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "おしょくけいかん"
+        }
+      ]
+    }
+  }
+]

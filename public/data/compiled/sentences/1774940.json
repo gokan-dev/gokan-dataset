@@ -1,0 +1,71 @@
+[
+  {
+    "id": "220177",
+    "original": "この箱は上げ底だ。",
+    "en": [
+      {
+        "id": "57495",
+        "text": "This is a false bottom pan."
+      }
+    ],
+    "indices": "此の{この} 箱[01] は 上げ底~ だ",
+    "vocabIds": [
+      "1774940",
+      "1585650"
+    ],
+    "matches": {
+      "1585650": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "はこ"
+        }
+      ],
+      "1774940": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "あげぞこ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10572011",
+    "original": "よく見てごらん。その箱は上げ底になってるから。",
+    "en": [
+      {
+        "id": "668296",
+        "text": "If you look carefully, you'll see that the box has a false bottom."
+      }
+    ],
+    "vocabIds": [
+      "1774940",
+      "1259290",
+      "1585650"
+    ],
+    "matches": {
+      "1259290": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "みて"
+        }
+      ],
+      "1585650": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "はこ"
+        }
+      ],
+      "1774940": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "あげぞこ"
+        }
+      ]
+    }
+  }
+]

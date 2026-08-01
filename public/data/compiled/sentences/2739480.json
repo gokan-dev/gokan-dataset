@@ -1,0 +1,72 @@
+[
+  {
+    "id": "121770",
+    "original": "銀行振込の領収書のコピーを同封いたしました。",
+    "en": [
+      {
+        "id": "282235",
+        "text": "Enclosed is a copy of the bank transfer receipt."
+      }
+    ],
+    "indices": "銀行 振込 の 領収書 の コピー[01] を 同封 致す{いたしました}",
+    "vocabIds": [
+      "2739480",
+      "1554760",
+      "1453340"
+    ],
+    "matches": {
+      "1453340": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "どうふう"
+        }
+      ],
+      "1554760": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "りょうしゅうしょ"
+        }
+      ],
+      "2739480": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "ぎんこうふりこみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "179553",
+    "original": "銀行振込でお支払いします。",
+    "en": [
+      {
+        "id": "18411",
+        "text": "We will make the payment by bank transfer."
+      }
+    ],
+    "indices": "銀行 振込~ で(#2028980) 御(お){お} 支払う{支払い} 為る(する){します}",
+    "vocabIds": [
+      "2739480",
+      "1594480"
+    ],
+    "matches": {
+      "1594480": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "しはらい"
+        }
+      ],
+      "2739480": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "ぎんこうふりこみ"
+        }
+      ]
+    }
+  }
+]

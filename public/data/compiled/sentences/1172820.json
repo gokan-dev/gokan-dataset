@@ -1,0 +1,599 @@
+[
+  {
+    "id": "101514",
+    "original": "彼は二倍の運賃を払った。",
+    "en": [
+      {
+        "id": "302181",
+        "text": "He paid double fare."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 二倍 の 運賃 を 払う[01]{払った}",
+    "vocabIds": [
+      "1501620",
+      "1462920",
+      "1172820",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1172820": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "うんちん"
+        }
+      ],
+      "1462920": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "にばい"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1501620": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "はらった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "127002",
+    "original": "地下鉄運賃が2001年4月1日からほぼ11%値上げになります。",
+    "en": [
+      {
+        "id": "277088",
+        "text": "Subway fares will be raised by nearly ten percent as of April 1, 2001."
+      }
+    ],
+    "indices": "地下鉄 運賃 が 年(ねん) 四月(しがつ){４月} 一日(いちにち)[02]{１日} から[01] 略(ほぼ){ほぼ} 値上げ になる[01]{になります}",
+    "vocabIds": [
+      "1420900",
+      "1600030",
+      "1172820",
+      "2084840",
+      "1255430",
+      "1463770"
+    ],
+    "matches": {
+      "1172820": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "うんちん"
+        }
+      ],
+      "1255430": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "つき"
+        }
+      ],
+      "1420900": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ちかてつ"
+        }
+      ],
+      "1463770": [
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "にち"
+        }
+      ],
+      "1600030": [
+        {
+          "start": 22,
+          "length": 3,
+          "reading": "ねあげ"
+        }
+      ],
+      "2084840": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "ねん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "189469",
+    "original": "運賃は片道1ドルです。",
+    "en": [
+      {
+        "id": "26621",
+        "text": "The fare is one dollar each way."
+      }
+    ],
+    "indices": "運賃~ は 片道~ 弗[01]{ドル} です",
+    "vocabIds": [
+      "1172820",
+      "1511760"
+    ],
+    "matches": {
+      "1172820": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "うんちん"
+        }
+      ],
+      "1511760": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かたみち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "198058",
+    "original": "バス運賃はいくらですか。",
+    "en": [
+      {
+        "id": "35243",
+        "text": "What's the bus fare?"
+      }
+    ],
+    "indices": "バス(#1098390) 運賃 は 幾ら{いくら} ですか",
+    "vocabIds": [
+      "1172820"
+    ],
+    "matches": {
+      "1172820": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "うんちん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "198076",
+    "original": "バスや列車に乗るときには運賃を払わなければならない。",
+    "en": [
+      {
+        "id": "35265",
+        "text": "When riding a bus or a train, you need to pay the fare."
+      }
+    ],
+    "indices": "バス(#1098390) や 列車 に 乗る[01] 時(とき){とき} には 運賃 を 払う[01]{払わ} ねばならない{なければならない}",
+    "vocabIds": [
+      "1501620",
+      "1558370",
+      "1355120",
+      "1172820"
+    ],
+    "matches": {
+      "1172820": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "うんちん"
+        }
+      ],
+      "1355120": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "のる"
+        }
+      ],
+      "1501620": [
+        {
+          "start": 15,
+          "length": 10,
+          "reading": "はらわなければならない"
+        }
+      ],
+      "1558370": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "れっしゃ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "222874",
+    "original": "この価格には、運賃は含まれていません。",
+    "en": [
+      {
+        "id": "60205",
+        "text": "Delivery is not included in the price."
+      },
+      {
+        "id": "7493024",
+        "text": "Delivery isn't included in the price."
+      }
+    ],
+    "indices": "此の{この} 価格 には 運賃 は 含む[01]{含まれていません}",
+    "vocabIds": [
+      "1189500",
+      "1172820",
+      "1216880"
+    ],
+    "matches": {
+      "1172820": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "うんちん"
+        }
+      ],
+      "1189500": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "かかく"
+        }
+      ],
+      "1216880": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "ふくま"
+        }
+      ]
+    }
+  },
+  {
+    "id": "229886",
+    "original": "ある航空会社が運賃値下げ計画を発表すると、他社もすぐに追従した。",
+    "en": [
+      {
+        "id": "67248",
+        "text": "As soon as one airline announced its plan for airfare reductions, the rest of the companies followed suit."
+      }
+    ],
+    "indices": "或る{ある} 航空会社 が 運賃 値下げ 計画 を 発表 為る(する){する} と 他社 も 直ぐに{すぐに} 追従(ついじゅう)~ 為る(する){した}",
+    "vocabIds": [
+      "1281300",
+      "1600100",
+      "1172820",
+      "1252090",
+      "1477840",
+      "1407130",
+      "1432530"
+    ],
+    "matches": {
+      "1172820": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "うんちん"
+        }
+      ],
+      "1252090": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "けいかく"
+        }
+      ],
+      "1281300": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "こうくうかいしゃ"
+        }
+      ],
+      "1407130": [
+        {
+          "start": 21,
+          "length": 2,
+          "reading": "たしゃ"
+        }
+      ],
+      "1432530": [
+        {
+          "start": 27,
+          "length": 2,
+          "reading": "ついしょう"
+        }
+      ],
+      "1477840": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "はっぴょう"
+        }
+      ],
+      "1600100": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "ねさげ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "235335",
+    "original": "３月１日から鉄道運賃が１割あがると発表された。",
+    "en": [
+      {
+        "id": "72713",
+        "text": "It has been announced that railway fares will be raised by 10 percent starting on the first of March."
+      }
+    ],
+    "indices": "三月(さんがつ){３月} 一日(ついたち){１日} から[01] 鉄道 運賃 が 一割{１割}~ 上がる[01]{あがる}~ と 発表 為れる{された}",
+    "vocabIds": [
+      "1300250",
+      "1576260",
+      "2225040",
+      "1437960",
+      "1172820",
+      "1161440",
+      "1477840"
+    ],
+    "matches": {
+      "1161440": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "いちわり"
+        }
+      ],
+      "1172820": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "うんちん"
+        }
+      ],
+      "1300250": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "さんがつ"
+        }
+      ],
+      "1437960": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "てつどう"
+        }
+      ],
+      "1477840": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "はっぴょう"
+        }
+      ],
+      "1576260": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "いちにち"
+        }
+      ],
+      "2225040": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "いちにち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "235872",
+    "original": "１９９９年４月１日より地下鉄運賃が値上げになります。",
+    "en": [
+      {
+        "id": "73253",
+        "text": "Subway fares will be raised as of April 1st, 1999."
+      }
+    ],
+    "indices": "年(ねん)[01] 四月(しがつ){４月} 一日(ついたち){１日} より[03] 地下鉄 運賃[01] が 値上げ~ になる[01]{になります}",
+    "vocabIds": [
+      "1420900",
+      "1600030",
+      "1334560",
+      "1307180",
+      "1576260",
+      "2225040",
+      "1172820",
+      "1578150",
+      "2084840"
+    ],
+    "matches": {
+      "1172820": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "うんちん"
+        }
+      ],
+      "1307180": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "しがつ"
+        }
+      ],
+      "1334560": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いちきゅう"
+        }
+      ],
+      "1420900": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "ちかてつ"
+        }
+      ],
+      "1576260": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "いちにち"
+        }
+      ],
+      "1578150": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "きゅう"
+        },
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "きゅう"
+        }
+      ],
+      "1600030": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "ねあげ"
+        }
+      ],
+      "2084840": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "ねん"
+        }
+      ],
+      "2225040": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "いちにち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "236847",
+    "original": "バスの運賃はいくらですか。",
+    "en": [
+      {
+        "id": "35243",
+        "text": "What's the bus fare?"
+      }
+    ],
+    "indices": "バス(#1098390) の 運賃 は 幾ら{いくら} ですか",
+    "vocabIds": [
+      "1172820"
+    ],
+    "matches": {
+      "1172820": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "うんちん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11750610",
+    "original": "バスの運賃が20%値上げされました。",
+    "en": [
+      {
+        "id": "35245",
+        "text": "The bus fares have been raised by 20 percent."
+      }
+    ],
+    "vocabIds": [
+      "1600030",
+      "1172820"
+    ],
+    "matches": {
+      "1172820": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "うんちん"
+        }
+      ],
+      "1600030": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "ねあげ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "13189496",
+    "original": "バスの運賃はいくらですか？",
+    "en": [
+      {
+        "id": "35222",
+        "text": "How much is the bus fare?"
+      }
+    ],
+    "vocabIds": [
+      "1172820"
+    ],
+    "matches": {
+      "1172820": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "うんちん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "13189498",
+    "original": "運賃はいくらですか？",
+    "en": [
+      {
+        "id": "13188507",
+        "text": "How much is the fare?"
+      },
+      {
+        "id": "13464409",
+        "text": "What's the fare?"
+      }
+    ],
+    "vocabIds": [
+      "1172820"
+    ],
+    "matches": {
+      "1172820": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "うんちん"
+        }
+      ]
+    }
+  }
+]

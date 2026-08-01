@@ -1,0 +1,150 @@
+[
+  {
+    "id": "172277",
+    "original": "今朝は外気が冷たく感じる、もう冬が近づいている。",
+    "en": [
+      {
+        "id": "242198",
+        "text": "The air feels cold this morning; winter is approaching."
+      }
+    ],
+    "indices": "今朝 は 外気~ が 冷たい[01]{冷たく} 感じる もう 冬 が 近づく{近づいている}",
+    "vocabIds": [
+      "1242170",
+      "1556730",
+      "1212260",
+      "1579100",
+      "1203470",
+      "1446070"
+    ],
+    "matches": {
+      "1203470": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "がいき"
+        }
+      ],
+      "1212260": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "かんじる"
+        }
+      ],
+      "1242170": [
+        {
+          "start": 17,
+          "length": 6,
+          "reading": "ちかづいている"
+        }
+      ],
+      "1446070": [
+        {
+          "start": 15,
+          "length": 1,
+          "reading": "ふゆ"
+        }
+      ],
+      "1556730": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "つめたく"
+        }
+      ],
+      "1579100": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "けさ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "184849",
+    "original": "外気は少し冷たかった。",
+    "en": [
+      {
+        "id": "21979",
+        "text": "The air felt a little cold."
+      }
+    ],
+    "indices": "外気 は 少し 冷たい[01]{冷たかった}",
+    "vocabIds": [
+      "1556730",
+      "1203470",
+      "1348870"
+    ],
+    "matches": {
+      "1203470": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "がいき"
+        }
+      ],
+      "1348870": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "すこし"
+        }
+      ],
+      "1556730": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "つめたかった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10681600",
+    "original": "窓を開けて外気を入れてください。",
+    "en": [
+      {
+        "id": "274224",
+        "text": "Open the windows to let in some air."
+      }
+    ],
+    "vocabIds": [
+      "1465610",
+      "1202450",
+      "1203470",
+      "1401400"
+    ],
+    "matches": {
+      "1202450": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "あけて"
+        }
+      ],
+      "1203470": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "がいき"
+        }
+      ],
+      "1401400": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "まど"
+        }
+      ],
+      "1465610": [
+        {
+          "start": 8,
+          "length": 7,
+          "reading": "いれてください"
+        }
+      ]
+    }
+  }
+]

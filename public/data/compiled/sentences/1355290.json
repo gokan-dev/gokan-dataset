@@ -1,0 +1,205 @@
+[
+  {
+    "id": "146143",
+    "original": "乗車券を売っている窓口はどこですか。",
+    "en": [
+      {
+        "id": "268419",
+        "text": "Where is the ticket-selling window?"
+      }
+    ],
+    "indices": "乗車券 を 売る{売っている} 窓口[01] は 何処{どこ} ですか",
+    "vocabIds": [
+      "1473950",
+      "1355290",
+      "1401420"
+    ],
+    "matches": {
+      "1355290": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "じょうしゃけん"
+        }
+      ],
+      "1401420": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "まどぐち"
+        }
+      ],
+      "1473950": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "うっている"
+        }
+      ]
+    }
+  },
+  {
+    "id": "146144",
+    "original": "乗車券が見つからない。落としてしまったにちがいない。",
+    "en": [
+      {
+        "id": "268418",
+        "text": "I can't find my ticket. I must have lost it."
+      },
+      {
+        "id": "6681166",
+        "text": "I can't find my ticket. I must've lost it."
+      }
+    ],
+    "indices": "乗車券 が 見つかる{見つからない} 落とす[01]{落として} 仕舞う{しまった} に 違いない{ちがいない}",
+    "vocabIds": [
+      "1589260",
+      "1604550",
+      "1355290"
+    ],
+    "matches": {
+      "1355290": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "じょうしゃけん"
+        }
+      ],
+      "1589260": [
+        {
+          "start": 11,
+          "length": 8,
+          "reading": "おとしてしまった"
+        }
+      ],
+      "1604550": [
+        {
+          "start": 4,
+          "length": 6,
+          "reading": "みつからない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "146145",
+    "original": "乗車券が見つからない。",
+    "en": [
+      {
+        "id": "268417",
+        "text": "I can't find my ticket."
+      }
+    ],
+    "indices": "乗車券 が 見つかる{見つからない}",
+    "vocabIds": [
+      "1604550",
+      "1355290"
+    ],
+    "matches": {
+      "1355290": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "じょうしゃけん"
+        }
+      ],
+      "1604550": [
+        {
+          "start": 4,
+          "length": 6,
+          "reading": "みつからない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "219157",
+    "original": "この列車乗車券は３カ月有効だ。",
+    "en": [
+      {
+        "id": "56473",
+        "text": "This ticket is valid for three months."
+      }
+    ],
+    "indices": "此の{この} 列車 乗車券 は ヶ月{カ月} 有効 だ",
+    "vocabIds": [
+      "1355290",
+      "1558370",
+      "1194480",
+      "1541290",
+      "1579350"
+    ],
+    "matches": {
+      "1194480": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "かげつ"
+        }
+      ],
+      "1355290": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "じょうしゃけん"
+        }
+      ],
+      "1541290": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "ゆうこう"
+        }
+      ],
+      "1558370": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "れっしゃ"
+        }
+      ],
+      "1579350": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "さん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "236266",
+    "original": "「乗車券を拝見できますか」「はい、どうぞ」",
+    "en": [
+      {
+        "id": "73632",
+        "text": "\"Will you show me your ticket?\" \"Yes, of course.\""
+      },
+      {
+        "id": "1190206",
+        "text": "\"Can I see your ticket?\" \"Yes. Here it is.\""
+      }
+    ],
+    "indices": "乗車券~ を 拝見{拝見できますか} はい[01] どうぞ[02]",
+    "vocabIds": [
+      "1355290",
+      "1472270"
+    ],
+    "matches": {
+      "1355290": [
+        {
+          "start": 1,
+          "length": 3,
+          "reading": "じょうしゃけん"
+        }
+      ],
+      "1472270": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "はいけん"
+        }
+      ]
+    }
+  }
+]

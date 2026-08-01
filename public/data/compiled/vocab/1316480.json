@@ -1,0 +1,103 @@
+{
+  "id": "1316480",
+  "writtenForm": {
+    "kanji": "次官",
+    "alternatives": [],
+    "containedKanji": [
+      "次",
+      "官"
+    ]
+  },
+  "reading": {
+    "primary": "じかん",
+    "alternatives": [
+      "すけ"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 37520
+  },
+  "progression": {
+    "kklcStep": 290
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "vice-minister",
+        "undersecretary"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch",
+          "hist"
+        ]
+      },
+      "glosses": [
+        "assistant director (second highest of the four administrative positions of the ritsuryō system)"
+      ],
+      "related": {
+        "compounds": [
+          "四等官"
+        ]
+      },
+      "appliesToReadings": [
+        "すけ"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1316480",
+      "isBase": true,
+      "originalPrimaryReading": "じかん",
+      "originalGlosses": [
+        "vice-minister",
+        "undersecretary"
+      ]
+    },
+    {
+      "id": "2249710",
+      "isBase": false,
+      "originalPrimaryReading": "すけ",
+      "originalGlosses": [
+        "assistant director (second highest of the four administrative positions of the ritsuryō system)"
+      ]
+    }
+  ],
+  "components": [
+    "1316380",
+    "1983700"
+  ],
+  "parents": [
+    "1314370",
+    "1735570"
+  ]
+}

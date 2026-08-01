@@ -1,0 +1,80 @@
+[
+  {
+    "id": "217854",
+    "original": "これらの植物は除草剤に抵抗力がある。",
+    "en": [
+      {
+        "id": "55164",
+        "text": "These plants are resistant to weed killers."
+      }
+    ],
+    "indices": "此れ等{これらの} 植物 は 除草剤~ に 抵抗力~ が[01] 有る{ある}",
+    "vocabIds": [
+      "1345740",
+      "1759090",
+      "1357300"
+    ],
+    "matches": {
+      "1345740": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "じょそうざい"
+        }
+      ],
+      "1357300": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "しょくぶつ"
+        }
+      ],
+      "1759090": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "ていこうりょく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "221190",
+    "original": "この除草剤は人間には無害だ。",
+    "en": [
+      {
+        "id": "58513",
+        "text": "This weed killer does not harm human beings."
+      }
+    ],
+    "indices": "此の{この} 除草剤 は 人間(にんげん)[01] には 無害 だ",
+    "vocabIds": [
+      "1345740",
+      "1366770",
+      "1611870"
+    ],
+    "matches": {
+      "1345740": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "じょそうざい"
+        }
+      ],
+      "1366770": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "にんげん"
+        }
+      ],
+      "1611870": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "むがい"
+        }
+      ]
+    }
+  }
+]

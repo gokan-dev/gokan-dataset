@@ -1,0 +1,71 @@
+[
+  {
+    "id": "171302",
+    "original": "今年は梅雨明けが遅かった。",
+    "en": [
+      {
+        "id": "243175",
+        "text": "The end of the rainy season came late this year."
+      }
+    ],
+    "indices": "今年 は 梅雨明け~ が 遅い{遅かった}",
+    "vocabIds": [
+      "1610440",
+      "1421970",
+      "1579130"
+    ],
+    "matches": {
+      "1421970": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "おそかった"
+        }
+      ],
+      "1579130": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ことし"
+        }
+      ],
+      "1610440": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "つゆあけ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3716099",
+    "original": "早く梅雨明けないかなあ。",
+    "en": [
+      {
+        "id": "6106130",
+        "text": "I wish the rainy season would end soon."
+      }
+    ],
+    "vocabIds": [
+      "1610440",
+      "1404975"
+    ],
+    "matches": {
+      "1404975": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "はやく"
+        }
+      ],
+      "1610440": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "つゆあけ"
+        }
+      ]
+    }
+  }
+]

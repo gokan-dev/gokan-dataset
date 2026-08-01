@@ -1,0 +1,94 @@
+[
+  {
+    "id": "83969",
+    "original": "風邪は伝染する。",
+    "en": [
+      {
+        "id": "319747",
+        "text": "Colds are contagious."
+      }
+    ],
+    "indices": "風邪 は 伝染 為る(する){する}",
+    "vocabIds": [
+      "1583720",
+      "1442110"
+    ],
+    "matches": {
+      "1442110": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "でんせん"
+        }
+      ],
+      "1583720": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かぜ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "185552",
+    "original": "我々は病気の伝染をくいとめなければならない。",
+    "en": [
+      {
+        "id": "22684",
+        "text": "We should check the spread of the disease."
+      }
+    ],
+    "indices": "我々 は 病気{病気の} 伝染~ を 食い止める{くいとめ} ねばならない{なければならない}",
+    "vocabIds": [
+      "1607050",
+      "1490230",
+      "1442110"
+    ],
+    "matches": {
+      "1442110": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "でんせん"
+        }
+      ],
+      "1490230": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "びょうき"
+        }
+      ],
+      "1607050": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "われわれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8701456",
+    "original": "それって伝染するの？",
+    "en": [
+      {
+        "id": "2248449",
+        "text": "Is it contagious?"
+      }
+    ],
+    "vocabIds": [
+      "1442110"
+    ],
+    "matches": {
+      "1442110": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "でんせん"
+        }
+      ]
+    }
+  }
+]

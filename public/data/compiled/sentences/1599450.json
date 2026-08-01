@@ -1,0 +1,91 @@
+[
+  {
+    "id": "11455691",
+    "original": "長らくお待たせして申し訳ありません。",
+    "en": [
+      {
+        "id": "54729",
+        "text": "I'm sorry to have kept you waiting so long."
+      },
+      {
+        "id": "278012",
+        "text": "Sorry to have kept you waiting so long."
+      }
+    ],
+    "indices": "長らく~ 待たせる{お待たせ} 為る(する){して} 申し訳ありません[01]",
+    "vocabIds": [
+      "1612030",
+      "1599450",
+      "1410590"
+    ],
+    "matches": {
+      "1410590": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "また"
+        }
+      ],
+      "1599450": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ながらく"
+        }
+      ],
+      "1612030": [
+        {
+          "start": 9,
+          "length": 8,
+          "reading": "もうしわけありません"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1715047",
+    "original": "彼からは長らく連絡がない。",
+    "en": [
+      {
+        "id": "256164",
+        "text": "I haven't heard from him for a long time."
+      }
+    ],
+    "vocabIds": [
+      "1599450",
+      "1559900",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1559900": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "れんらく"
+        }
+      ],
+      "1599450": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "ながらく"
+        }
+      ]
+    }
+  }
+]

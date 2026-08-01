@@ -1,0 +1,72 @@
+[
+  {
+    "id": "150810",
+    "original": "事故原因はまだはっきりしていない。",
+    "en": [
+      {
+        "id": "263747",
+        "text": "The cause of the accident is still obscure."
+      }
+    ],
+    "indices": "事故原因 は 未だ[02]{まだ} はっきり 為る(する){していない}",
+    "vocabIds": [
+      "1313860"
+    ],
+    "matches": {
+      "1313860": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "じこげんいん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "176169",
+    "original": "警察は事故原因を入念に調査した。",
+    "en": [
+      {
+        "id": "238296",
+        "text": "The police carefully investigated the cause of the accident."
+      }
+    ],
+    "indices": "警察 は 事故原因~ を 入念{入念に} 調査 為る(する){した}",
+    "vocabIds": [
+      "1313860",
+      "1252390",
+      "1466670",
+      "1429120"
+    ],
+    "matches": {
+      "1252390": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "けいさつ"
+        }
+      ],
+      "1313860": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "じこげんいん"
+        }
+      ],
+      "1429120": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "ちょうさ"
+        }
+      ],
+      "1466670": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "にゅうねん"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "id": "121314",
+    "original": "発疹が出ました。",
+    "en": [
+      {
+        "id": "282692",
+        "text": "I have a skin eruption."
+      }
+    ],
+    "indices": "発疹~ が 出る{出ました}",
+    "vocabIds": [
+      "1338240",
+      "1477600"
+    ],
+    "matches": {
+      "1338240": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "でました"
+        }
+      ],
+      "1477600": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "はっしん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1234938",
+    "original": "台所洗剤で手に発疹ができた。",
+    "en": [
+      {
+        "id": "268682",
+        "text": "I got a rash on my hands from dishwasher detergent."
+      }
+    ],
+    "vocabIds": [
+      "1412640",
+      "1390950",
+      "1477600",
+      "1327190"
+    ],
+    "matches": {
+      "1327190": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "て"
+        }
+      ],
+      "1390950": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "せんざい"
+        }
+      ],
+      "1412640": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "だいどころ"
+        }
+      ],
+      "1477600": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "はっしん"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,231 @@
+[
+  {
+    "id": "107777",
+    "original": "彼は月収２０００ドルの金が入る。",
+    "en": [
+      {
+        "id": "295910",
+        "text": "He has a monthly income of 2,000 dollars."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 月収~ 弗[01]{ドル} の 金(かね)[01] が 入る(はいる)[06]~",
+    "vocabIds": [
+      "1255700",
+      "1465590",
+      "1000420",
+      "1483070",
+      "1461140",
+      "1557630",
+      "1181860",
+      "1242590"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1181860": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "きん"
+        }
+      ],
+      "1242590": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "きん"
+        }
+      ],
+      "1255700": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "げっしゅう"
+        }
+      ],
+      "1461140": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "に"
+        }
+      ],
+      "1465590": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "はいる"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1557630": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "ぜろ"
+        },
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "ぜろ"
+        },
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "ぜろ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "117683",
+    "original": "彼の月収では家族を養えない。",
+    "en": [
+      {
+        "id": "285980",
+        "text": "He cannot support his family on his monthly income."
+      }
+    ],
+    "indices": "彼(かれ)[01]{彼の} 月収 で(#2028980) は 家族 を 養う{養えない}",
+    "vocabIds": [
+      "1000420",
+      "1255700",
+      "1192150"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれの"
+        }
+      ],
+      "1192150": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "かぞく"
+        }
+      ],
+      "1255700": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "げっしゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "117684",
+    "original": "彼の月収は５０万円である。",
+    "en": [
+      {
+        "id": "285981",
+        "text": "His monthly income amounts to half a million yen."
+      }
+    ],
+    "indices": "彼(かれ)[01]{彼の} 月収 は 万(まん) 円(えん) である",
+    "vocabIds": [
+      "1000420",
+      "1255700",
+      "1268060",
+      "1557630",
+      "1584460",
+      "1175570",
+      "1216250"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれの"
+        }
+      ],
+      "1175570": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "えん"
+        }
+      ],
+      "1216250": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "えん"
+        }
+      ],
+      "1255700": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "げっしゅう"
+        }
+      ],
+      "1268060": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "ご"
+        }
+      ],
+      "1557630": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "ぜろ"
+        }
+      ],
+      "1584460": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "まん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11332079",
+    "original": "月収っていくら？",
+    "en": [
+      {
+        "id": "12586360",
+        "text": "How much do you get paid per month?"
+      },
+      {
+        "id": "8045411",
+        "text": "What's your monthly salary?"
+      },
+      {
+        "id": "2763434",
+        "text": "How much do you make a month?"
+      }
+    ],
+    "vocabIds": [
+      "1255700"
+    ],
+    "matches": {
+      "1255700": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "げっしゅう"
+        }
+      ]
+    }
+  }
+]

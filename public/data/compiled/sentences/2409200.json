@@ -1,0 +1,165 @@
+[
+  {
+    "id": "74248",
+    "original": "「何名様ですか」「３名です」",
+    "en": [
+      {
+        "id": "329472",
+        "text": "\"For how many?\" \"Three.\""
+      }
+    ],
+    "indices": "何名 様(さま)[01] ですか 名(めい)[01] です",
+    "vocabIds": [
+      "2409200",
+      "2262180",
+      "1531330",
+      "1579350"
+    ],
+    "matches": {
+      "1531330": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "めい"
+        }
+      ],
+      "1579350": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "さん"
+        }
+      ],
+      "2262180": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "なんめい"
+        }
+      ],
+      "2409200": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "さまです"
+        }
+      ]
+    }
+  },
+  {
+    "id": "213785",
+    "original": "そう言って下さるとは大変ご親切様です。",
+    "en": [
+      {
+        "id": "51072",
+        "text": "It's very kind of you to say so."
+      }
+    ],
+    "indices": "そう 言う{言って} 下さる とは 大変[01] 御(ご){ご} 親切 様(さま)[01] です",
+    "vocabIds": [
+      "1587040",
+      "2409200",
+      "1415000",
+      "1365250"
+    ],
+    "matches": {
+      "1365250": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "しんせつ"
+        }
+      ],
+      "1415000": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "たいへん"
+        }
+      ],
+      "1587040": [
+        {
+          "start": 2,
+          "length": 6,
+          "reading": "いってくださる"
+        }
+      ],
+      "2409200": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "さまです"
+        }
+      ]
+    }
+  },
+  {
+    "id": "228460",
+    "original": "いらっしゃいませ、何名様ですか。",
+    "en": [
+      {
+        "id": "65818",
+        "text": "Good evening. How many are in your party?"
+      }
+    ],
+    "indices": "いらっしゃいませ~ 何名~ 様(さま)[01] ですか",
+    "vocabIds": [
+      "2409200",
+      "2262180"
+    ],
+    "matches": {
+      "2262180": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "なにめい"
+        }
+      ],
+      "2409200": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "さまです"
+        }
+      ]
+    }
+  },
+  {
+    "id": "4694697",
+    "original": "何名様ですか。",
+    "en": [
+      {
+        "id": "24505",
+        "text": "How many people in your party?"
+      },
+      {
+        "id": "24515",
+        "text": "How many people?"
+      },
+      {
+        "id": "270512",
+        "text": "How many people are in your party?"
+      }
+    ],
+    "vocabIds": [
+      "2409200",
+      "2262180"
+    ],
+    "matches": {
+      "2262180": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "なにめい"
+        }
+      ],
+      "2409200": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "さまです"
+        }
+      ]
+    }
+  }
+]

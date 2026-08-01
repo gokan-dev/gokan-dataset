@@ -1,0 +1,75 @@
+[
+  {
+    "id": "122855",
+    "original": "日食はまれにしか起こらない。",
+    "en": [
+      {
+        "id": "281147",
+        "text": "An eclipse of the sun is a rare appearance."
+      }
+    ],
+    "indices": "日食~ は 稀(まれ){まれに} しか 起こる{起こらない}",
+    "vocabIds": [
+      "1223680",
+      "1464220"
+    ],
+    "matches": {
+      "1223680": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "おこらない"
+        }
+      ],
+      "1464220": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "にっしょく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3552535",
+    "original": "昨日の日食見た？",
+    "en": [
+      {
+        "id": "3552394",
+        "text": "Did you see the eclipse yesterday?"
+      },
+      {
+        "id": "3552571",
+        "text": "Did you see the solar eclipse yesterday?"
+      }
+    ],
+    "vocabIds": [
+      "1579260",
+      "1464220",
+      "1259290"
+    ],
+    "matches": {
+      "1259290": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "みた"
+        }
+      ],
+      "1464220": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "にっしょく"
+        }
+      ],
+      "1579260": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きのう"
+        }
+      ]
+    }
+  }
+]

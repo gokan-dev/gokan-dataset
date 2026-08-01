@@ -1,0 +1,126 @@
+[
+  {
+    "id": "74278",
+    "original": "足が遅い彼は、もちろんすでに2m差がついた。",
+    "en": [
+      {
+        "id": "329442",
+        "text": "He, being slow-footed, was of course already lagging two meters."
+      }
+    ],
+    "indices": "足が遅い~ 彼(かれ)[01] は 勿論{もちろん} 既に(すでに)[01]{すでに} 差が付く{差がついた}~",
+    "vocabIds": [
+      "1404650",
+      "1000420",
+      "1483070",
+      "1291070",
+      "2423450"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1291070": [
+        {
+          "start": 16,
+          "length": 1,
+          "reading": "さ"
+        }
+      ],
+      "1404650": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "あしがおそい"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "2423450": [
+        {
+          "start": 16,
+          "length": 1,
+          "reading": "さ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "102690",
+    "original": "彼は足が遅い。",
+    "en": [
+      {
+        "id": "301002",
+        "text": "He is slow of foot."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 足が遅い",
+    "vocabIds": [
+      "1404650",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1404650": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "あしがおそい"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2692397",
+    "original": "トムは足が遅い。",
+    "en": [
+      {
+        "id": "2692514",
+        "text": "Tom is slow."
+      },
+      {
+        "id": "37199",
+        "text": "Tom walks slowly."
+      },
+      {
+        "id": "1025146",
+        "text": "Tom is a slow walker."
+      }
+    ],
+    "vocabIds": [
+      "1404650"
+    ],
+    "matches": {
+      "1404650": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "あしがおそい"
+        }
+      ]
+    }
+  }
+]

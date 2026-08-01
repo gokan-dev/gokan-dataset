@@ -1,0 +1,88 @@
+[
+  {
+    "id": "81012",
+    "original": "民衆は残酷な暴君によって虐げられていた。",
+    "en": [
+      {
+        "id": "322703",
+        "text": "The people suffered under the cruel tyrant."
+      }
+    ],
+    "indices": "民衆 は 残酷{残酷な} 暴君 に因って{によって} 虐げる{虐げられていた}",
+    "vocabIds": [
+      "1226910",
+      "1528920",
+      "1304600",
+      "1519450"
+    ],
+    "matches": {
+      "1226910": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "しいたげ"
+        }
+      ],
+      "1304600": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ざんこく"
+        }
+      ],
+      "1519450": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ぼうくん"
+        }
+      ],
+      "1528920": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "みんしゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "123423",
+    "original": "独裁者は人々を虐げた。",
+    "en": [
+      {
+        "id": "280574",
+        "text": "The dictator oppressed the people."
+      }
+    ],
+    "indices": "独裁者~ は 人々(ひとびと) を 虐げる{虐げた}~",
+    "vocabIds": [
+      "1691640",
+      "1226910",
+      "1580650"
+    ],
+    "matches": {
+      "1226910": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "しいたげた"
+        }
+      ],
+      "1580650": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ひとびと"
+        }
+      ],
+      "1691640": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "どくさいしゃ"
+        }
+      ]
+    }
+  }
+]

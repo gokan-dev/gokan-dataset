@@ -1,0 +1,126 @@
+{
+  "id": "1269650",
+  "writtenForm": {
+    "kanji": "後妻",
+    "alternatives": [],
+    "containedKanji": [
+      "後",
+      "妻"
+    ]
+  },
+  "reading": {
+    "primary": "ごさい",
+    "alternatives": [
+      "こうさい",
+      "うわなり"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 29762,
+    "kanaRank": 153873
+  },
+  "progression": {
+    "kklcStep": 1457
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "second wife"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "second wife",
+        "later wife",
+        "concubine"
+      ],
+      "related": {
+        "compounds": [
+          "後妻"
+        ]
+      },
+      "appliesToReadings": [
+        "うわなり"
+      ]
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "jealousy"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "うわなり"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": true
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1269650",
+      "isBase": true,
+      "originalPrimaryReading": "ごさい",
+      "originalGlosses": [
+        "second wife"
+      ]
+    },
+    {
+      "id": "2842248",
+      "isBase": false,
+      "originalPrimaryReading": "うわなり",
+      "originalGlosses": [
+        "second wife",
+        "later wife",
+        "concubine"
+      ]
+    }
+  ],
+  "components": [
+    "1269320",
+    "1294330"
+  ]
+}

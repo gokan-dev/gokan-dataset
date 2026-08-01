@@ -1,0 +1,93 @@
+[
+  {
+    "id": "143594",
+    "original": "酔っ払い運転でつかまった。",
+    "en": [
+      {
+        "id": "270973",
+        "text": "He was arrested for drunken driving."
+      }
+    ],
+    "indices": "酔っ払う{酔っ払い} 運転[02] で(#2028980) 捕まる[01]{つかまった}",
+    "vocabIds": [
+      "1700010"
+    ],
+    "matches": {
+      "1700010": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "よっぱらいうんてん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10565247",
+    "original": "酔っ払い運転をしてる夢を見たよ。",
+    "en": [
+      {
+        "id": "10560903",
+        "text": "I dreamt I was driving drunk."
+      }
+    ],
+    "vocabIds": [
+      "1700010",
+      "1259290",
+      "1529410"
+    ],
+    "matches": {
+      "1259290": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "みた"
+        }
+      ],
+      "1529410": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "ゆめ"
+        }
+      ],
+      "1700010": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "よっぱらいうんてん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10640510",
+    "original": "トム、酔っ払い運転で捕まったのよ。",
+    "en": [
+      {
+        "id": "952871",
+        "text": "Tom was arrested for drunken driving."
+      }
+    ],
+    "vocabIds": [
+      "1700010",
+      "1514110"
+    ],
+    "matches": {
+      "1514110": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "つかまった"
+        }
+      ],
+      "1700010": [
+        {
+          "start": 3,
+          "length": 6,
+          "reading": "よっぱらいうんてん"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,224 @@
+[
+  {
+    "id": "121665",
+    "original": "波が浜に打ち寄せている。",
+    "en": [
+      {
+        "id": "282340",
+        "text": "Waves are beating the shore."
+      }
+    ],
+    "indices": "波 が 浜 に 打ち寄せる{打ち寄せている}",
+    "vocabIds": [
+      "1849490",
+      "1470970",
+      "1490710"
+    ],
+    "matches": {
+      "1470970": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "なみ"
+        }
+      ],
+      "1490710": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "はま"
+        }
+      ],
+      "1849490": [
+        {
+          "start": 4,
+          "length": 7,
+          "reading": "うちよせている"
+        }
+      ]
+    }
+  },
+  {
+    "id": "159895",
+    "original": "私たちはその浜で遊んだ。",
+    "en": [
+      {
+        "id": "248152",
+        "text": "We played on the beach."
+      }
+    ],
+    "indices": "私たち は 其の[01]{その} 浜 で(#2028980) 遊ぶ(あそぶ)[01]{遊んだ}",
+    "vocabIds": [
+      "1311300",
+      "1542160",
+      "2476100",
+      "1490710"
+    ],
+    "matches": {
+      "1311300": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1490710": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "はま"
+        }
+      ],
+      "1542160": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "あそんだ"
+        }
+      ],
+      "2476100": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "あそんだ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "165182",
+    "original": "私たちは浜へ泳ぎに行った。",
+    "en": [
+      {
+        "id": "249324",
+        "text": "We went swimming at the beach."
+      },
+      {
+        "id": "530566",
+        "text": "We went to the beach to swim."
+      }
+    ],
+    "indices": "私たち は 浜~ へ 泳ぐ{泳ぎ} に 行く[01]{行った}",
+    "vocabIds": [
+      "1311300",
+      "1578850",
+      "1613570",
+      "1490710"
+    ],
+    "matches": {
+      "1311300": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1490710": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "はま"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "いった"
+        }
+      ],
+      "1613570": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "およぎ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "168713",
+    "original": "子供たちは浜で遊ぶのが大好きです。",
+    "en": [
+      {
+        "id": "245778",
+        "text": "Children love playing on the beach."
+      }
+    ],
+    "indices": "子供たち は 浜 で(#2028980) 遊ぶ(あそぶ)[01] の が 大好き です",
+    "vocabIds": [
+      "1307870",
+      "1413660",
+      "1542160",
+      "2476100",
+      "1490710"
+    ],
+    "matches": {
+      "1307870": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "こどもたち"
+        }
+      ],
+      "1413660": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "だいすき"
+        }
+      ],
+      "1490710": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "はま"
+        }
+      ],
+      "1542160": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "あそぶ"
+        }
+      ],
+      "2476100": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "あそぶ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1714981",
+    "original": "浜へはどう行けばいいですか？",
+    "en": [
+      {
+        "id": "1035184",
+        "text": "Please tell me how to get to the beach."
+      }
+    ],
+    "vocabIds": [
+      "1578850",
+      "1490710"
+    ],
+    "matches": {
+      "1490710": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "はま"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "いけば"
+        }
+      ]
+    }
+  }
+]

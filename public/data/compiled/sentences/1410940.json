@@ -1,0 +1,320 @@
+[
+  {
+    "id": "74535",
+    "original": "水道料金を滞納すると給水を停止されるということをお聞きしましたが本当ですか？",
+    "en": [
+      {
+        "id": "329184",
+        "text": "I've heard that if you default on the water rates your water supply will be suspended, is that true?"
+      }
+    ],
+    "indices": "水道料金~ を 滞納 為る(する){する} と 給水~ を 停止[02] 為れる{される} と 言う{いう} 事(こと){こと} を 聞く{お聞き} 為る(する){しました} が 本当 ですか",
+    "vocabIds": [
+      "1939560",
+      "1410940",
+      "1230260",
+      "1434920",
+      "1591110",
+      "1523060"
+    ],
+    "matches": {
+      "1230260": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "きゅうすい"
+        }
+      ],
+      "1410940": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "たいのう"
+        }
+      ],
+      "1434920": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "ていし"
+        }
+      ],
+      "1523060": [
+        {
+          "start": 32,
+          "length": 2,
+          "reading": "ほんとう"
+        }
+      ],
+      "1591110": [
+        {
+          "start": 25,
+          "length": 2,
+          "reading": "きき"
+        }
+      ],
+      "1939560": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "すいどうりょうきん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "77958",
+    "original": "料金滞納で電話を止められた。",
+    "en": [
+      {
+        "id": "325759",
+        "text": "My telephone service was cut off because of unpaid bills."
+      }
+    ],
+    "indices": "料金 滞納 で(#2028980) 電話 を 止める(とめる){止められた}",
+    "vocabIds": [
+      "1310670",
+      "1598820",
+      "1554280",
+      "1410940",
+      "1443840"
+    ],
+    "matches": {
+      "1310670": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "とめ"
+        }
+      ],
+      "1410940": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "たいのう"
+        }
+      ],
+      "1443840": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "でんわ"
+        }
+      ],
+      "1554280": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "りょうきん"
+        }
+      ],
+      "1598820": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "とめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "109224",
+    "original": "彼は家賃をだいぶ滞納し、そのためアパートをたちのかされた。",
+    "en": [
+      {
+        "id": "294465",
+        "text": "He was way behind on his rent. As a result, he was evicted from his apartment."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 家賃 を 大分{だいぶ} 滞納 為る(する){し} 其の[01]{その} 為(ため){ため} アパート[02] を 立ち退く[02]{たちのかされた}~",
+    "vocabIds": [
+      "1192270",
+      "1410940",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1192270": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "やちん"
+        }
+      ],
+      "1410940": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "たいのう"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "143515",
+    "original": "数日ならまだしも１０日も滞納している。",
+    "en": [
+      {
+        "id": "271052",
+        "text": "A few days would have been excusable, but you are in arrears for 10 days."
+      }
+    ],
+    "indices": "数日 なら 未だしも{まだしも} 十日[01]{１０日} も 滞納~ 為る(する){している}",
+    "vocabIds": [
+      "1335000",
+      "1373200",
+      "1410940"
+    ],
+    "matches": {
+      "1335000": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "いちぜろにち"
+        }
+      ],
+      "1373200": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "すうにち"
+        }
+      ],
+      "1410940": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "たいのう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "997370",
+    "original": "あなたは部屋代を１ヶ月滞納している。",
+    "en": [
+      {
+        "id": "70406",
+        "text": "You're a month behind in your rent."
+      }
+    ],
+    "vocabIds": [
+      "1499330",
+      "1587410",
+      "1410940"
+    ],
+    "matches": {
+      "1410940": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "たいのう"
+        }
+      ],
+      "1499330": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "へやだい"
+        }
+      ],
+      "1587410": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "いちかげつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "998979",
+    "original": "あなたは家賃を１ヶ月滞納している。",
+    "en": [
+      {
+        "id": "70406",
+        "text": "You're a month behind in your rent."
+      }
+    ],
+    "vocabIds": [
+      "1587410",
+      "1192270",
+      "1410940"
+    ],
+    "matches": {
+      "1192270": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "やちん"
+        }
+      ],
+      "1410940": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "たいのう"
+        }
+      ],
+      "1587410": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "いちかげつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2617490",
+    "original": "トムは家賃を3ヶ月滞納している。",
+    "en": [
+      {
+        "id": "1024808",
+        "text": "Tom is three months behind in paying his rent."
+      }
+    ],
+    "vocabIds": [
+      "1192270",
+      "1194480",
+      "1410940"
+    ],
+    "matches": {
+      "1192270": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "やちん"
+        }
+      ],
+      "1194480": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "かげつ"
+        }
+      ],
+      "1410940": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "たいのう"
+        }
+      ]
+    }
+  }
+]

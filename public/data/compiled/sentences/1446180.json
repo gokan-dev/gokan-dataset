@@ -1,0 +1,411 @@
+[
+  {
+    "id": "151015",
+    "original": "試合は凍えるような天候のため中止されなければならなかった。",
+    "en": [
+      {
+        "id": "263541",
+        "text": "The match had to be called off because of the freezing weather."
+      }
+    ],
+    "indices": "試合 は 凍える 様な{ような} 天候 の 為(ため)[03]{ため} 中止[02] 為れる{され} ねばならない{なければならなかった}",
+    "vocabIds": [
+      "1446180",
+      "1312420",
+      "1438970",
+      "1424410"
+    ],
+    "matches": {
+      "1312420": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しあい"
+        }
+      ],
+      "1424410": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "ちゅうし"
+        }
+      ],
+      "1438970": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "てんこう"
+        }
+      ],
+      "1446180": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "こごえる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "184012",
+    "original": "寒くて凍えそうだ。",
+    "en": [
+      {
+        "id": "21140",
+        "text": "I'm freezing."
+      }
+    ],
+    "indices": "寒い{寒くて} 凍える{凍え} そう[01] だ",
+    "vocabIds": [
+      "1446180",
+      "1210360"
+    ],
+    "matches": {
+      "1210360": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "さむくて"
+        }
+      ],
+      "1446180": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "こごえそうだ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "206346",
+    "original": "その夜はとても寒かったので、帰ってきた時は凍えそうになっていた。",
+    "en": [
+      {
+        "id": "43594",
+        "text": "The night was so chilly that when I returned I was almost frozen."
+      }
+    ],
+    "indices": "其の[01]{その} 夜 は 迚も{とても} 寒い{寒かった} ので 帰って来る{帰ってきた} 時(とき) は 凍える{凍え} そうになる{そうになっていた}",
+    "vocabIds": [
+      "1210360",
+      "1221270",
+      "1446180",
+      "1536350",
+      "1315840"
+    ],
+    "matches": {
+      "1210360": [
+        {
+          "start": 7,
+          "length": 6,
+          "reading": "さむかったので"
+        }
+      ],
+      "1221270": [
+        {
+          "start": 14,
+          "length": 5,
+          "reading": "かえってきた"
+        }
+      ],
+      "1315840": [
+        {
+          "start": 19,
+          "length": 1,
+          "reading": "とき"
+        }
+      ],
+      "1446180": [
+        {
+          "start": 21,
+          "length": 4,
+          "reading": "こごえそう"
+        }
+      ],
+      "1536350": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "よる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "215163",
+    "original": "シンディ、この部屋にいると凍えそうだ。この寒さには耐えられないよ。",
+    "en": [
+      {
+        "id": "52461",
+        "text": "It's freezing in this room, Cindy. I can't put up with this cold."
+      }
+    ],
+    "indices": "此の{この} 部屋[01] に 居る(いる)[01]{いる} と 凍える{凍え} そう[01] だ 此の{この} 寒い{寒} さ[01] には 耐える{耐えられない} よ[01]",
+    "vocabIds": [
+      "1446180",
+      "1211310",
+      "1499320",
+      "1210360"
+    ],
+    "matches": {
+      "1210360": [
+        {
+          "start": 21,
+          "length": 2,
+          "reading": "さむさ"
+        }
+      ],
+      "1211310": [
+        {
+          "start": 25,
+          "length": 2,
+          "reading": "たえ"
+        }
+      ],
+      "1446180": [
+        {
+          "start": 13,
+          "length": 5,
+          "reading": "こごえそうだ"
+        }
+      ],
+      "1499320": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "へや"
+        }
+      ]
+    }
+  },
+  {
+    "id": "219982",
+    "original": "この部屋は凍えるよ、シンディー。この寒さはたえられないよ。",
+    "en": [
+      {
+        "id": "52461",
+        "text": "It's freezing in this room, Cindy. I can't put up with this cold."
+      }
+    ],
+    "indices": "此の{この} 部屋[01] は 凍える~ よ 此の{この} 寒い{寒} さ[01] は 耐える{たえられない} よ[01]",
+    "vocabIds": [
+      "1446180",
+      "1499320",
+      "1210360"
+    ],
+    "matches": {
+      "1210360": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "さむさ"
+        }
+      ],
+      "1446180": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "こごえる"
+        }
+      ],
+      "1499320": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "へや"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1192224",
+    "original": "冷たい雨がわたしの身体を骨まで凍えさせる。",
+    "en": [
+      {
+        "id": "1312792",
+        "text": "Cold rain makes me chilled to the bone."
+      }
+    ],
+    "vocabIds": [
+      "1556730",
+      "1446180",
+      "1409140",
+      "2830705",
+      "1171900",
+      "1288550"
+    ],
+    "matches": {
+      "1171900": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "あめ"
+        }
+      ],
+      "1288550": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "ほね"
+        }
+      ],
+      "1409140": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "しんたい"
+        }
+      ],
+      "1446180": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "こごえ"
+        }
+      ],
+      "1556730": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "つめたい"
+        }
+      ],
+      "2830705": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "しんたい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3496767",
+    "original": "凍えるようだわ。",
+    "en": [
+      {
+        "id": "52011",
+        "text": "It's freezing."
+      }
+    ],
+    "vocabIds": [
+      "1446180"
+    ],
+    "matches": {
+      "1446180": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "こごえる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10092005",
+    "original": "急いで、トム。凍えちゃう。",
+    "en": [
+      {
+        "id": "3616324",
+        "text": "Hurry up, Tom, I'm freezing."
+      }
+    ],
+    "vocabIds": [
+      "1446180",
+      "1228570"
+    ],
+    "matches": {
+      "1228570": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "いそいで"
+        }
+      ],
+      "1446180": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "こごえちゃう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10606947",
+    "original": "凍え死んじゃうよ。そこの窓閉めてよ。",
+    "en": [
+      {
+        "id": "10572859",
+        "text": "I'm freezing to death. Close that window."
+      }
+    ],
+    "vocabIds": [
+      "1310730",
+      "1508590",
+      "1446180",
+      "1401400"
+    ],
+    "matches": {
+      "1310730": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "しんじゃう"
+        }
+      ],
+      "1401400": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "まど"
+        }
+      ],
+      "1446180": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こごえ"
+        }
+      ],
+      "1508590": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "しめて"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11046772",
+    "original": "つま先が凍えちゃう。",
+    "en": [
+      {
+        "id": "3793302",
+        "text": "My toes are freezing."
+      }
+    ],
+    "vocabIds": [
+      "1446180",
+      "1433910"
+    ],
+    "matches": {
+      "1433910": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "つまさき"
+        }
+      ],
+      "1446180": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "こごえちゃう"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "id": "197563",
+    "original": "ひどいけがをしておいでで、お気の毒です。",
+    "en": [
+      {
+        "id": "34749",
+        "text": "I'm sorry that you've been badly injured."
+      }
+    ],
+    "indices": "酷い(ひどい){ひどい} 怪我[01]{けが} を 為る(する){して} お出で{おいで} で(#2028980) お気の毒~ です",
+    "vocabIds": [
+      "1001750"
+    ],
+    "matches": {
+      "1001750": [
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "おきのどく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "227331",
+    "original": "お気の毒様。",
+    "en": [
+      {
+        "id": "64682",
+        "text": "I am sorry for you."
+      },
+      {
+        "id": "64683",
+        "text": "I'm sorry for you."
+      }
+    ],
+    "indices": "お気の毒 様(さま)[02]",
+    "vocabIds": [
+      "1001750",
+      "1545790",
+      "1585230"
+    ],
+    "matches": {
+      "1001750": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "おきのどく"
+        }
+      ],
+      "1545790": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "さま"
+        }
+      ],
+      "1585230": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "さま"
+        }
+      ]
+    }
+  },
+  {
+    "id": "227334",
+    "original": "お気の毒ですが、番号違いです。",
+    "en": [
+      {
+        "id": "64685",
+        "text": "Sorry, but you must have the wrong number."
+      }
+    ],
+    "indices": "お気の毒 です が[03] 番号 違い です",
+    "vocabIds": [
+      "1001750",
+      "1482290",
+      "1158870"
+    ],
+    "matches": {
+      "1001750": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "おきのどく"
+        }
+      ],
+      "1158870": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "ちがい"
+        }
+      ],
+      "1482290": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "ばんごう"
+        }
+      ]
+    }
+  }
+]

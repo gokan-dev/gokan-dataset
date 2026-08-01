@@ -1,0 +1,60 @@
+[
+  {
+    "id": "185183",
+    "original": "回れ右を命じる。",
+    "en": [
+      {
+        "id": "22314",
+        "text": "I order you to turn right."
+      }
+    ],
+    "indices": "回れ右~ を 命じる",
+    "vocabIds": [
+      "1199380",
+      "1531950"
+    ],
+    "matches": {
+      "1199380": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "まわれみぎ"
+        }
+      ],
+      "1531950": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "めいじる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "185184",
+    "original": "回れ右！",
+    "en": [
+      {
+        "id": "22315",
+        "text": "About face!"
+      },
+      {
+        "id": "6884376",
+        "text": "Right about-face!"
+      }
+    ],
+    "indices": "回る(まわる)[01]{回れ} 右[01]",
+    "vocabIds": [
+      "1199380"
+    ],
+    "matches": {
+      "1199380": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "まわれみぎ"
+        }
+      ]
+    }
+  }
+]

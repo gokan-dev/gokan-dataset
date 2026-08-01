@@ -1,0 +1,71 @@
+[
+  {
+    "id": "75808",
+    "original": "買い物袋をどすんとテーブルの上に置いた。",
+    "en": [
+      {
+        "id": "327910",
+        "text": "I put the shopping bag on the table with a thud."
+      }
+    ],
+    "indices": "買い物袋~ を どすん{どすんと} テーブル 之(の)[01]{の} 上(うえ)[03] に 置く[01]{置いた}",
+    "vocabIds": [
+      "1473790",
+      "1421850",
+      "1352130"
+    ],
+    "matches": {
+      "1352130": [
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "うえ"
+        }
+      ],
+      "1421850": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "おいた"
+        }
+      ],
+      "1473790": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "かいものぶくろ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12049857",
+    "original": "この買い物袋、持ってくれないかな？",
+    "en": [
+      {
+        "id": "2167351",
+        "text": "Could you carry this shopping bag for me?"
+      }
+    ],
+    "vocabIds": [
+      "1315720",
+      "1473790"
+    ],
+    "matches": {
+      "1315720": [
+        {
+          "start": 7,
+          "length": 7,
+          "reading": "もってくれない"
+        }
+      ],
+      "1473790": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "かいものぶくろ"
+        }
+      ]
+    }
+  }
+]

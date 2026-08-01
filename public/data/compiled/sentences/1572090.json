@@ -1,0 +1,401 @@
+[
+  {
+    "id": "77075",
+    "original": "蝙蝠は鳥ではなく哺乳類だ。",
+    "en": [
+      {
+        "id": "326644",
+        "text": "A bat is not a bird, but a mammal."
+      },
+      {
+        "id": "3951875",
+        "text": "Bats are not birds, they're mammals."
+      }
+    ],
+    "indices": "蝙蝠[01] は 鳥[01] だ{ではなく} 哺乳類 だ",
+    "vocabIds": [
+      "1565260",
+      "1572090",
+      "1430250"
+    ],
+    "matches": {
+      "1430250": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "とり"
+        }
+      ],
+      "1565260": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "ほにゅうるい"
+        }
+      ],
+      "1572090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こうもり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "179406",
+    "original": "空を飛んでいる蝙蝠は蝶のように見えますね。",
+    "en": [
+      {
+        "id": "18264",
+        "text": "A bat flying in the sky looks like a butterfly."
+      }
+    ],
+    "indices": "空を飛ぶ{空を飛んでいる} 蝙蝠[01] は 蝶 の様に[01]{のように} 見える(みえる){見えます} ね(#2029080)[01]",
+    "vocabIds": [
+      "1429700",
+      "1259140",
+      "1572090",
+      "1245290",
+      "2248040",
+      "1429010"
+    ],
+    "matches": {
+      "1245290": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "そら"
+        }
+      ],
+      "1259140": [
+        {
+          "start": 15,
+          "length": 4,
+          "reading": "みえます"
+        }
+      ],
+      "1429010": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "ちょう"
+        }
+      ],
+      "1429700": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "とんでいる"
+        }
+      ],
+      "1572090": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "こうもり"
+        }
+      ],
+      "2248040": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "そら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "198606",
+    "original": "ネズミが鳥でないように蝙蝠も鳥ではない。",
+    "en": [
+      {
+        "id": "35799",
+        "text": "A bat is no more a bird than a rat is."
+      }
+    ],
+    "indices": "鼠[01]{ネズミ} が 鳥[01] である{でない} 様(よう){ように} 蝙蝠[01] も 鳥[01] では無い{ではない}",
+    "vocabIds": [
+      "1572090",
+      "1430250"
+    ],
+    "matches": {
+      "1430250": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "とり"
+        },
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "とり"
+        }
+      ],
+      "1572090": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "こうもり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "198607",
+    "original": "ねずみが鳥でないのと同様に蝙蝠は鳥ではない。",
+    "en": [
+      {
+        "id": "35799",
+        "text": "A bat is no more a bird than a rat is."
+      }
+    ],
+    "indices": "鼠[01]{ねずみ} が 鳥[01] である{でない} の と 同様に 蝙蝠[01] は 鳥[01] では無い{ではない}",
+    "vocabIds": [
+      "1453560",
+      "1572090",
+      "1430250"
+    ],
+    "matches": {
+      "1430250": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "とり"
+        },
+        {
+          "start": 16,
+          "length": 1,
+          "reading": "とり"
+        }
+      ],
+      "1453560": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "どうように"
+        }
+      ],
+      "1572090": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "こうもり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "229763",
+    "original": "あれが蝙蝠ですか。",
+    "en": [
+      {
+        "id": "67124",
+        "text": "Is that a bat?"
+      }
+    ],
+    "indices": "彼(あれ)[01]{あれ} が 蝙蝠[01]~ ですか",
+    "vocabIds": [
+      "1572090"
+    ],
+    "matches": {
+      "1572090": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "こうもり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10212592",
+    "original": "蝙蝠は苦手だよ。",
+    "en": [
+      {
+        "id": "9849445",
+        "text": "I'm scared of bats."
+      }
+    ],
+    "vocabIds": [
+      "1572090",
+      "1244470"
+    ],
+    "matches": {
+      "1244470": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "にがて"
+        }
+      ],
+      "1572090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こうもり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3454677",
+    "original": "星空を見上げると、音もしないで何匹も蝙蝠が飛んでいる。その姿は見えないが、瞬間瞬間光を消す星の工合から、気味の悪い畜類の飛んでいるのが感じられるのである。",
+    "en": [
+      {
+        "id": "11248540",
+        "text": "If you look up at the starry sky, you'll find many bats on the wing, making not a sound. You can't quite make them out, but, from the way the stars disappear moment by moment, you can sense their eerily flying about."
+      }
+    ],
+    "vocabIds": [
+      "2832287",
+      "1259740",
+      "1259140",
+      "1429700",
+      "1212260",
+      "1376340",
+      "1572090",
+      "1341210",
+      "1350110",
+      "1592500",
+      "1622700",
+      "1576900",
+      "1577100",
+      "1583370",
+      "1307710",
+      "1272780",
+      "1376310"
+    ],
+    "matches": {
+      "1212260": [
+        {
+          "start": 67,
+          "length": 2,
+          "reading": "かんじ"
+        }
+      ],
+      "1259140": [
+        {
+          "start": 31,
+          "length": 5,
+          "reading": "みえないが"
+        }
+      ],
+      "1259740": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "みあげると"
+        }
+      ],
+      "1272780": [
+        {
+          "start": 41,
+          "length": 1,
+          "reading": "ひかり"
+        }
+      ],
+      "1307710": [
+        {
+          "start": 29,
+          "length": 1,
+          "reading": "すがた"
+        }
+      ],
+      "1341210": [
+        {
+          "start": 37,
+          "length": 2,
+          "reading": "しゅんかん"
+        },
+        {
+          "start": 39,
+          "length": 2,
+          "reading": "しゅんかん"
+        }
+      ],
+      "1350110": [
+        {
+          "start": 43,
+          "length": 2,
+          "reading": "けす"
+        }
+      ],
+      "1376310": [
+        {
+          "start": 45,
+          "length": 1,
+          "reading": "ほし"
+        }
+      ],
+      "1376340": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ほしぞら"
+        }
+      ],
+      "1429700": [
+        {
+          "start": 21,
+          "length": 5,
+          "reading": "とんでいる"
+        },
+        {
+          "start": 60,
+          "length": 5,
+          "reading": "とんでいる"
+        }
+      ],
+      "1572090": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "こうもり"
+        }
+      ],
+      "1576900": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "おと"
+        }
+      ],
+      "1577100": [
+        {
+          "start": 15,
+          "length": 1,
+          "reading": "なん"
+        }
+      ],
+      "1583370": [
+        {
+          "start": 16,
+          "length": 1,
+          "reading": "ひき"
+        }
+      ],
+      "1592500": [
+        {
+          "start": 47,
+          "length": 2,
+          "reading": "ぐあい"
+        }
+      ],
+      "1622700": [
+        {
+          "start": 57,
+          "length": 2,
+          "reading": "ちくるい"
+        }
+      ],
+      "2832287": [
+        {
+          "start": 52,
+          "length": 5,
+          "reading": "きみのわるい"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,158 @@
+[
+  {
+    "id": "79595",
+    "original": "野獣は森に住んでいる。",
+    "en": [
+      {
+        "id": "324123",
+        "text": "Wild animals live in the forest."
+      }
+    ],
+    "indices": "野獣 は 森[01]~ に 住む{住んでいる}",
+    "vocabIds": [
+      "1334040",
+      "1537420",
+      "1362490"
+    ],
+    "matches": {
+      "1334040": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "すんでいる"
+        }
+      ],
+      "1362490": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "もり"
+        }
+      ],
+      "1537420": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "やじゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "152532",
+    "original": "私は野獣が恐い。",
+    "en": [
+      {
+        "id": "262017",
+        "text": "I'm afraid of wild animals."
+      }
+    ],
+    "indices": "私(わたし)[01] は 野獣 が 怖い{恐い}",
+    "vocabIds": [
+      "1537420",
+      "1593480",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1537420": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "やじゅう"
+        }
+      ],
+      "1593480": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "こわい"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "205904",
+    "original": "それから野獣がクレイジーになりたがり始める。",
+    "en": [
+      {
+        "id": "43150",
+        "text": "Then the wild beasts start wanting to go crazy."
+      }
+    ],
+    "indices": "其れから{それから} 野獣 が クレイジー~ になる{になり} たがる{たがり} 始める[03]",
+    "vocabIds": [
+      "1307550",
+      "1537420"
+    ],
+    "matches": {
+      "1307550": [
+        {
+          "start": 18,
+          "length": 3,
+          "reading": "はじめる"
+        }
+      ],
+      "1537420": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "やじゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214390",
+    "original": "すべての野獣が集う。",
+    "en": [
+      {
+        "id": "51682",
+        "text": "The wild beasts all gather."
+      }
+    ],
+    "indices": "全て{すべての} 野獣~ が 集う~",
+    "vocabIds": [
+      "1537420",
+      "1333540"
+    ],
+    "matches": {
+      "1333540": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "つどう"
+        }
+      ],
+      "1537420": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "やじゅう"
+        }
+      ]
+    }
+  }
+]

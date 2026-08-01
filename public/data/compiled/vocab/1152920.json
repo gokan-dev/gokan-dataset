@@ -1,0 +1,125 @@
+{
+  "id": "1152920",
+  "writtenForm": {
+    "kanji": "圧す",
+    "alternatives": [],
+    "containedKanji": [
+      "圧"
+    ]
+  },
+  "reading": {
+    "primary": "へす",
+    "alternatives": [
+      "あっす"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 17032,
+    "kanaRank": 6078
+  },
+  "progression": {
+    "kklcStep": 186
+  },
+  "senses": [
+    {
+      "pos": [
+        "v5s",
+        "vt"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "to dent",
+        "to press",
+        "to push"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "vs-c",
+        "vt"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "to press"
+      ],
+      "related": {
+        "compounds": [
+          "圧する"
+        ]
+      },
+      "appliesToReadings": [
+        "あっす"
+      ]
+    },
+    {
+      "pos": [
+        "vs-c",
+        "vt"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "to oppress",
+        "to dominate",
+        "to overwhelm"
+      ],
+      "related": {
+        "compounds": [
+          "圧する"
+        ]
+      },
+      "appliesToReadings": [
+        "あっす"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": false,
+  "mergedVocabs": [
+    {
+      "id": "1152920",
+      "isBase": true,
+      "originalPrimaryReading": "へす",
+      "originalGlosses": [
+        "to dent",
+        "to press",
+        "to push"
+      ]
+    },
+    {
+      "id": "2411240",
+      "isBase": false,
+      "originalPrimaryReading": "あっす",
+      "originalGlosses": [
+        "to press"
+      ]
+    }
+  ]
+}

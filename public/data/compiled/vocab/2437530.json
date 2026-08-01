@@ -1,0 +1,110 @@
+{
+  "id": "2437530",
+  "writtenForm": {
+    "kanji": "閑",
+    "alternatives": [
+      "和"
+    ],
+    "containedKanji": [
+      "閑"
+    ]
+  },
+  "reading": {
+    "primary": "かん",
+    "alternatives": [
+      "のど"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 41980
+  },
+  "progression": {
+    "kklcStep": 1365
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "spare time",
+        "free time",
+        "leisure"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "adj-nari"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "tranquil",
+        "calm",
+        "quiet",
+        "peaceful"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "のど"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": false,
+  "mergedVocabs": [
+    {
+      "id": "2437530",
+      "isBase": true,
+      "originalPrimaryReading": "かん",
+      "originalGlosses": [
+        "spare time",
+        "free time",
+        "leisure"
+      ]
+    },
+    {
+      "id": "2812930",
+      "isBase": false,
+      "originalPrimaryReading": "のど",
+      "originalGlosses": [
+        "tranquil",
+        "calm",
+        "quiet"
+      ]
+    }
+  ],
+  "parents": [
+    "1215700",
+    "1215730",
+    "1429840",
+    "1215720",
+    "2068870",
+    "1757650",
+    "1470640",
+    "1009390"
+  ]
+}

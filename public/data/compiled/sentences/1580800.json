@@ -1,0 +1,72 @@
+[
+  {
+    "id": "81377",
+    "original": "妹は水鳥を見て興奮した。",
+    "en": [
+      {
+        "id": "322338",
+        "text": "My little sister was excited to see the waterfowl."
+      }
+    ],
+    "indices": "妹 は 水鳥~ を 見る{見て} 興奮 為る(する){した}",
+    "vocabIds": [
+      "1580800",
+      "1259290",
+      "1238380",
+      "1524590"
+    ],
+    "matches": {
+      "1238380": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "こうふん"
+        }
+      ],
+      "1259290": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "みて"
+        }
+      ],
+      "1524590": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "いもうと"
+        }
+      ],
+      "1580800": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "みずとり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "226359",
+    "original": "ガチョウは水鳥である。",
+    "en": [
+      {
+        "id": "63700",
+        "text": "A goose is a water bird."
+      }
+    ],
+    "indices": "鵞鳥{ガチョウ} は 水鳥 である",
+    "vocabIds": [
+      "1580800"
+    ],
+    "matches": {
+      "1580800": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "みずとり"
+        }
+      ]
+    }
+  }
+]

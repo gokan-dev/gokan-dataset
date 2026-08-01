@@ -1,0 +1,57 @@
+[
+  {
+    "id": "195748",
+    "original": "マイクは校長先生である大垣先生を訪ねました。",
+    "en": [
+      {
+        "id": "32923",
+        "text": "Mike visited Mr Ogaki, who is our principal."
+      },
+      {
+        "id": "1359682",
+        "text": "Mike visited our principal, Mr. Ogaki."
+      },
+      {
+        "id": "1359683",
+        "text": "Mike visited Mr. Ogaki who is our principal."
+      }
+    ],
+    "indices": "は 校長 先生(せんせい)[02] である 先生(せんせい)[02] を 訪ねる{訪ねました}",
+    "vocabIds": [
+      "1518070",
+      "2106280",
+      "1387990",
+      "2620020"
+    ],
+    "matches": {
+      "1387990": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "せんせい"
+        }
+      ],
+      "1518070": [
+        {
+          "start": 16,
+          "length": 5,
+          "reading": "たずねました"
+        }
+      ],
+      "2106280": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "こうちょうせんせい"
+        }
+      ],
+      "2620020": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "おおがき"
+        }
+      ]
+    }
+  }
+]

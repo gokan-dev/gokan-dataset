@@ -1,0 +1,71 @@
+[
+  {
+    "id": "125016",
+    "original": "天窓のある部屋がいいです。",
+    "en": [
+      {
+        "id": "278977",
+        "text": "A room with a skylight would be fine."
+      }
+    ],
+    "indices": "天窓~ 之(の)[03]{の} 有る{ある} 部屋[01] が いい(#2820690)[01] です",
+    "vocabIds": [
+      "1439690",
+      "1499320"
+    ],
+    "matches": {
+      "1439690": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "てんまど"
+        }
+      ],
+      "1499320": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "へや"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9009271",
+    "original": "天窓に手が届かないの。",
+    "en": [
+      {
+        "id": "558807",
+        "text": "I can't reach the skylight."
+      }
+    ],
+    "vocabIds": [
+      "1457200",
+      "1439690",
+      "1327190"
+    ],
+    "matches": {
+      "1327190": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "て"
+        }
+      ],
+      "1439690": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "てんまど"
+        }
+      ],
+      "1457200": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "とどかない"
+        }
+      ]
+    }
+  }
+]

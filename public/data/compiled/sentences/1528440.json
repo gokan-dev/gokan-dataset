@@ -1,0 +1,443 @@
+[
+  {
+    "id": "81042",
+    "original": "脈が遅いです。",
+    "en": [
+      {
+        "id": "322673",
+        "text": "My pulse is slow."
+      }
+    ],
+    "indices": "脈~ が 遅い[01] です",
+    "vocabIds": [
+      "1421970",
+      "1528440"
+    ],
+    "matches": {
+      "1421970": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "おそいです"
+        }
+      ],
+      "1528440": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "みゃく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "81043",
+    "original": "脈がはやいです。",
+    "en": [
+      {
+        "id": "322672",
+        "text": "My pulse is fast."
+      }
+    ],
+    "indices": "脈 が 早い[01]{はやい} です",
+    "vocabIds": [
+      "1528440"
+    ],
+    "matches": {
+      "1528440": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "みゃく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "81044",
+    "original": "おい、脈がないぞ。",
+    "en": [
+      {
+        "id": "322671",
+        "text": "Hey, there's no pulse."
+      }
+    ],
+    "indices": "おい[01] 脈 が 無い{ない} ぞ",
+    "vocabIds": [
+      "1528440"
+    ],
+    "matches": {
+      "1528440": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "みゃく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "116098",
+    "original": "彼の脈は規則正しいですか。",
+    "en": [
+      {
+        "id": "287571",
+        "text": "Is his pulse regular?"
+      }
+    ],
+    "indices": "彼(かれ)[01]{彼の} 脈 は 規則正しい ですか",
+    "vocabIds": [
+      "1223040",
+      "1000420",
+      "1528440"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれの"
+        }
+      ],
+      "1223040": [
+        {
+          "start": 4,
+          "length": 7,
+          "reading": "きそくただしいです"
+        }
+      ],
+      "1528440": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "みゃく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "178046",
+    "original": "君の脈は正常だ。",
+    "en": [
+      {
+        "id": "16899",
+        "text": "You have a regular pulse."
+      }
+    ],
+    "indices": "君(きみ)[01]{君の} 脈 は 正常 だ",
+    "vocabIds": [
+      "1377390",
+      "1247250",
+      "1528440"
+    ],
+    "matches": {
+      "1247250": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "きみ"
+        }
+      ],
+      "1377390": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "せいじょう"
+        }
+      ],
+      "1528440": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "みゃく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "190765",
+    "original": "医者は彼の脈をとった。",
+    "en": [
+      {
+        "id": "27925",
+        "text": "The doctor felt his pulse."
+      },
+      {
+        "id": "507214",
+        "text": "The doctor took his pulse."
+      }
+    ],
+    "indices": "医者 は 彼(かれ)[01] の 脈 を 取る{とった}",
+    "vocabIds": [
+      "1159980",
+      "1000420",
+      "1528440"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かれの"
+        }
+      ],
+      "1159980": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いしゃ"
+        }
+      ],
+      "1528440": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "みゃく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "190796",
+    "original": "医者は私の脈をとった。",
+    "en": [
+      {
+        "id": "27956",
+        "text": "The doctor felt my pulse."
+      },
+      {
+        "id": "616036",
+        "text": "The doctor took my pulse."
+      }
+    ],
+    "indices": "医者 は 私(わたし)[01]{私の} 脈 を 取る{とった}",
+    "vocabIds": [
+      "1159980",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1528440"
+    ],
+    "matches": {
+      "1159980": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いしゃ"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1528440": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "みゃく"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "190849",
+    "original": "医者はその患者の脈は少し速いと思った。",
+    "en": [
+      {
+        "id": "28009",
+        "text": "The doctor thought the patient's pulse was rather rapid."
+      }
+    ],
+    "indices": "医者 は 其の[01]{その} 患者 の 脈 は 少し 早い[01]{速い} と 思う{思った}",
+    "vocabIds": [
+      "1589350",
+      "1159980",
+      "1212210",
+      "1348870",
+      "1404975",
+      "1528440"
+    ],
+    "matches": {
+      "1159980": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いしゃ"
+        }
+      ],
+      "1212210": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "かんじゃ"
+        }
+      ],
+      "1348870": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "すこし"
+        }
+      ],
+      "1404975": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "はやい"
+        }
+      ],
+      "1528440": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "みゃく"
+        }
+      ],
+      "1589350": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "おもった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "233008",
+    "original": "あなたの脈は普通です。",
+    "en": [
+      {
+        "id": "70377",
+        "text": "Your pulse is normal."
+      }
+    ],
+    "indices": "貴方(あなた)[01]{あなた} の 脈 は 普通 です",
+    "vocabIds": [
+      "1497190",
+      "1528440"
+    ],
+    "matches": {
+      "1497190": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ふつう"
+        }
+      ],
+      "1528440": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "みゃく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "997353",
+    "original": "あなたの脈は正常です。",
+    "en": [
+      {
+        "id": "70377",
+        "text": "Your pulse is normal."
+      }
+    ],
+    "vocabIds": [
+      "1377390",
+      "1528440"
+    ],
+    "matches": {
+      "1377390": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "せいじょう"
+        }
+      ],
+      "1528440": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "みゃく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1771433",
+    "original": "患者さんは脈がありません。",
+    "en": [
+      {
+        "id": "1771908",
+        "text": "The patient has no pulse."
+      }
+    ],
+    "vocabIds": [
+      "1212210",
+      "1528440"
+    ],
+    "matches": {
+      "1212210": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かんじゃ"
+        }
+      ],
+      "1528440": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "みゃく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8858941",
+    "original": "トムの脈が速いんだ。",
+    "en": [
+      {
+        "id": "3319235",
+        "text": "Tom's pulse is fast."
+      }
+    ],
+    "vocabIds": [
+      "1404975",
+      "1528440"
+    ],
+    "matches": {
+      "1404975": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "はやい"
+        }
+      ],
+      "1528440": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "みゃく"
+        }
+      ]
+    }
+  }
+]

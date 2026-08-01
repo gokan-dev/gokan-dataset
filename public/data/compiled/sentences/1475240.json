@@ -1,0 +1,162 @@
+[
+  {
+    "id": "78498",
+    "original": "卵の白身はゆでれば固まります。",
+    "en": [
+      {
+        "id": "325218",
+        "text": "You can set the white of an egg by boiling it."
+      }
+    ],
+    "indices": "卵(たまご)[01] の 白身[01] は 茹でる{ゆでれば} 固まる{固まります}",
+    "vocabIds": [
+      "1266550",
+      "1475240",
+      "1549140"
+    ],
+    "matches": {
+      "1266550": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "かたまります"
+        }
+      ],
+      "1475240": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "しろみ"
+        }
+      ],
+      "1549140": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "たまご"
+        }
+      ]
+    }
+  },
+  {
+    "id": "152373",
+    "original": "私は卵の白身が好きです。",
+    "en": [
+      {
+        "id": "262177",
+        "text": "I like the white of an egg."
+      }
+    ],
+    "indices": "私(わたし)[01] は 卵(たまご)[01] の 白身[01]~ が 好き(すき) です",
+    "vocabIds": [
+      "1475240",
+      "1277450",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1549140"
+    ],
+    "matches": {
+      "1277450": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "すき"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1475240": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "しろみ"
+        }
+      ],
+      "1549140": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "たまご"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10459674",
+    "original": "卵を割って、黄身と白身に分けて。",
+    "en": [
+      {
+        "id": "10457095",
+        "text": "Break the eggs and separate the yolk from the whites."
+      },
+      {
+        "id": "10543855",
+        "text": "Break the eggs and separate the yolks from the whites."
+      }
+    ],
+    "vocabIds": [
+      "1503000",
+      "1208000",
+      "1182060",
+      "1475240",
+      "1549140"
+    ],
+    "matches": {
+      "1182060": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "きみ"
+        }
+      ],
+      "1208000": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "わって"
+        }
+      ],
+      "1475240": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "しろみ"
+        }
+      ],
+      "1503000": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "わけて"
+        }
+      ],
+      "1549140": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "たまご"
+        }
+      ]
+    }
+  }
+]

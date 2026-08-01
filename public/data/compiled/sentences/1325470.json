@@ -1,0 +1,160 @@
+[
+  {
+    "id": "104520",
+    "original": "彼は主催者にパーティーがたいへん楽しかったとお礼を言った。",
+    "en": [
+      {
+        "id": "299171",
+        "text": "He thanked his host for a most enjoyable party."
+      },
+      {
+        "id": "1316482",
+        "text": "He thanked the host for the very enjoyable party."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 主催者 に パーティー が 大変{たいへん} 楽しい{楽しかった} と お礼 を 言う{言った}",
+    "vocabIds": [
+      "1207240",
+      "1325470",
+      "1587040",
+      "1270810",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1207240": [
+        {
+          "start": 16,
+          "length": 5,
+          "reading": "たのしかった"
+        }
+      ],
+      "1270810": [
+        {
+          "start": 22,
+          "length": 2,
+          "reading": "おれい"
+        }
+      ],
+      "1325470": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "しゅさいしゃ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1587040": [
+        {
+          "start": 25,
+          "length": 3,
+          "reading": "いった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "198437",
+    "original": "パーティーは主催者のスピーチで終わった。",
+    "en": [
+      {
+        "id": "35628",
+        "text": "The party ended with a speech by the host."
+      }
+    ],
+    "indices": "パーティー は 主催者~ の スピーチ で(#2028980) 終わる{終わった}",
+    "vocabIds": [
+      "1589600",
+      "1325470"
+    ],
+    "matches": {
+      "1325470": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "しゅさいしゃ"
+        }
+      ],
+      "1589600": [
+        {
+          "start": 15,
+          "length": 4,
+          "reading": "おわった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9675842",
+    "original": "パーティーの主催者は誰なの？",
+    "en": [
+      {
+        "id": "9193213",
+        "text": "Who organised the party?"
+      }
+    ],
+    "vocabIds": [
+      "1325470",
+      "1416830"
+    ],
+    "matches": {
+      "1325470": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "しゅさいしゃ"
+        }
+      ],
+      "1416830": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "だれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9675847",
+    "original": "このパーティーの主催者は誰なの？",
+    "en": [
+      {
+        "id": "9193214",
+        "text": "Who organised this party?"
+      }
+    ],
+    "vocabIds": [
+      "1325470",
+      "1416830"
+    ],
+    "matches": {
+      "1325470": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "しゅさいしゃ"
+        }
+      ],
+      "1416830": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "だれ"
+        }
+      ]
+    }
+  }
+]

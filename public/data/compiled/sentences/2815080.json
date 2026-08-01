@@ -1,0 +1,86 @@
+[
+  {
+    "id": "150050",
+    "original": "自動ドアが開き、トムは乗り込んだ。",
+    "en": [
+      {
+        "id": "264506",
+        "text": "The automatic doors opened and Tom got in."
+      }
+    ],
+    "indices": "自動 ドア が 開く(あく)[01]{開き} は 乗り込む[01]{乗り込んだ}",
+    "vocabIds": [
+      "1354910",
+      "2815080",
+      "1202440"
+    ],
+    "matches": {
+      "1202440": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ひらき"
+        }
+      ],
+      "1354910": [
+        {
+          "start": 11,
+          "length": 5,
+          "reading": "のりこんだ"
+        }
+      ],
+      "2815080": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "じどうどあ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "218284",
+    "original": "これは自動ドアです。",
+    "en": [
+      {
+        "id": "55596",
+        "text": "This is an automatic door."
+      }
+    ],
+    "indices": "此れ[01]{これ} は 自動 ドア です",
+    "vocabIds": [
+      "2815080"
+    ],
+    "matches": {
+      "2815080": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "じどうどあ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11851970",
+    "original": "自動ドアです。",
+    "en": [
+      {
+        "id": "10032001",
+        "text": "The doors open automatically."
+      }
+    ],
+    "vocabIds": [
+      "2815080"
+    ],
+    "matches": {
+      "2815080": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "じどうどあ"
+        }
+      ]
+    }
+  }
+]

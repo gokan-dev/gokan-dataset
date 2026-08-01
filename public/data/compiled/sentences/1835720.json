@@ -1,0 +1,233 @@
+[
+  {
+    "id": "120171",
+    "original": "彼が終電に乗りそこなうなんていい気味だ。",
+    "en": [
+      {
+        "id": "283661",
+        "text": "It serves him right that he missed the last train."
+      }
+    ],
+    "indices": "彼(かれ) が 終電 に 乗り損なう{乗りそこなう} なんて[01] 好い気味{いい気味} だ",
+    "vocabIds": [
+      "1354990",
+      "1835720",
+      "1332960",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1332960": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "しゅうでん"
+        }
+      ],
+      "1354990": [
+        {
+          "start": 5,
+          "length": 6,
+          "reading": "のりそこなう"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1835720": [
+        {
+          "start": 14,
+          "length": 4,
+          "reading": "いいぎみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "120348",
+    "original": "彼が最終列車に乗り遅れたのはいい気味だ。",
+    "en": [
+      {
+        "id": "283661",
+        "text": "It serves him right that he missed the last train."
+      }
+    ],
+    "indices": "彼(かれ) が 最終 列車 に 乗り遅れる{乗り遅れた} の は 好い気味{いい気味} だ",
+    "vocabIds": [
+      "1355000",
+      "2860627",
+      "1835720",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1355000": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "のりおくれた"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1835720": [
+        {
+          "start": 14,
+          "length": 4,
+          "reading": "いいきみ"
+        }
+      ],
+      "2860627": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "さいしゅうれっしゃ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "167697",
+    "original": "私が失敗したとき、彼は「いい気味だ」と言った。",
+    "en": [
+      {
+        "id": "246803",
+        "text": "When I failed, he said, \"It serves you right.\""
+      }
+    ],
+    "indices": "私(わたし)[01] が 失敗 為る(する){した} 時(とき){とき} 彼(かれ)[01] は 好い気味{いい気味}~ だ と 言う{言った}",
+    "vocabIds": [
+      "1835720",
+      "2540200",
+      "1320140",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1320140": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "しっぱい"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1835720": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "いいきみ"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2540200": [
+        {
+          "start": 18,
+          "length": 4,
+          "reading": "といった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11874493",
+    "original": "いい気味。",
+    "en": [
+      {
+        "id": "12603399",
+        "text": "It's a good feeling."
+      },
+      {
+        "id": "7766368",
+        "text": "Serves you right."
+      },
+      {
+        "id": "12603400",
+        "text": "Serves them right."
+      },
+      {
+        "id": "12603401",
+        "text": "Serves him right."
+      },
+      {
+        "id": "12603403",
+        "text": "Serves her right."
+      },
+      {
+        "id": "12603404",
+        "text": "What a nice sensation."
+      }
+    ],
+    "vocabIds": [
+      "1835720"
+    ],
+    "matches": {
+      "1835720": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "いいきみ"
+        }
+      ]
+    }
+  }
+]

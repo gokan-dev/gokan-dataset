@@ -1,0 +1,105 @@
+[
+  {
+    "id": "115620",
+    "original": "彼は、ピアノを音符を見ずに弾いた。",
+    "en": [
+      {
+        "id": "288050",
+        "text": "He played piano by ear."
+      },
+      {
+        "id": "9244531",
+        "text": "He played the piano without looking at the notes."
+      }
+    ],
+    "indices": "彼(かれ)[01] は ピアノ[01] を 音符[01]~ を 見る{見ず} に 弾く(ひく){弾いた}",
+    "vocabIds": [
+      "1419370",
+      "1184040",
+      "1259290",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1184040": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "おんぷ"
+        }
+      ],
+      "1259290": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "みず"
+        }
+      ],
+      "1419370": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "ひいた"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "215875",
+    "original": "ジャズが使う音符は、バッハが使ったのと同じだ",
+    "en": [
+      {
+        "id": "53176",
+        "text": "Jazz uses the same notes that Bach used."
+      }
+    ],
+    "indices": "ジャズ~ が 使う 音符[01] は バッハ が 使う{使った} の と 同じ[01]~ だ",
+    "vocabIds": [
+      "1305990",
+      "1184040",
+      "1451750"
+    ],
+    "matches": {
+      "1184040": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "おんぷ"
+        }
+      ],
+      "1305990": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "つかった"
+        },
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "つかう"
+        }
+      ],
+      "1451750": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "おなじ"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,251 @@
+[
+  {
+    "id": "123524",
+    "original": "道路はそこから急な上りになる。",
+    "en": [
+      {
+        "id": "280473",
+        "text": "The road ascends steeply from that point."
+      }
+    ],
+    "indices": "道路 は そこから 急(きゅう){急な} 上り[01] になる[01]",
+    "vocabIds": [
+      "1454290",
+      "1352510",
+      "1228560"
+    ],
+    "matches": {
+      "1228560": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "きゅう"
+        }
+      ],
+      "1352510": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "のぼり"
+        }
+      ],
+      "1454290": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "どうろ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "123593",
+    "original": "道はここからゆるやかな上りだ。",
+    "en": [
+      {
+        "id": "280404",
+        "text": "The road ascends gently here."
+      }
+    ],
+    "indices": "道(みち) は 此処[01]{ここ} から 緩やか[02]{ゆるやかな} 上り[01]~ だ",
+    "vocabIds": [
+      "1352510",
+      "1454080",
+      "2220470"
+    ],
+    "matches": {
+      "1352510": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "のぼり"
+        }
+      ],
+      "1454080": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "みち"
+        }
+      ],
+      "2220470": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "みち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "125839",
+    "original": "頂上までの登りに６時間かかった。",
+    "en": [
+      {
+        "id": "278152",
+        "text": "The climb to the summit took six hours."
+      },
+      {
+        "id": "10756893",
+        "text": "It took six hours to climb to the top."
+      },
+      {
+        "id": "10756894",
+        "text": "The climb to the top took six hours."
+      }
+    ],
+    "indices": "頂上 迄{まで} の 上り[01]{登り} に 時間[02] 掛かる[01]{かかった}",
+    "vocabIds": [
+      "1430220",
+      "1352510",
+      "1315920",
+      "1585310"
+    ],
+    "matches": {
+      "1315920": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "じかん"
+        }
+      ],
+      "1352510": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "のぼり"
+        }
+      ],
+      "1430220": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ちょうじょう"
+        }
+      ],
+      "1585310": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "ろく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "146274",
+    "original": "上りのエスカレーターはどこですか？",
+    "en": [
+      {
+        "id": "268288",
+        "text": "Where's the up-escalator?"
+      }
+    ],
+    "indices": "上り[01]{上りの} エスカレーター{エスカレータ}~ は 何処{どこ} ですか",
+    "vocabIds": [
+      "1352510"
+    ],
+    "matches": {
+      "1352510": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "のぼり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "220584",
+    "original": "この地点から登りが急に険しくなった。",
+    "en": [
+      {
+        "id": "57906",
+        "text": "From this point the climb suddenly became steep."
+      }
+    ],
+    "indices": "此の{この} 地点 から 上り[01]{登り} が 急に[02] 険しい{険しく} 成る[01]{なった}",
+    "vocabIds": [
+      "1260530",
+      "1421380",
+      "1352510",
+      "2269050"
+    ],
+    "matches": {
+      "1260530": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "けわしく"
+        }
+      ],
+      "1352510": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "のぼり"
+        }
+      ],
+      "1421380": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ちてん"
+        }
+      ],
+      "2269050": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "きゅうに"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10099858",
+    "original": "まもなく、上り電車が通過します。ご注意ください。",
+    "en": [
+      {
+        "id": "10283091",
+        "text": "An inbound train will be passing shortly. Please be careful."
+      }
+    ],
+    "vocabIds": [
+      "2850261",
+      "1352510",
+      "1443530",
+      "1433070"
+    ],
+    "matches": {
+      "1352510": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "のぼり"
+        }
+      ],
+      "1433070": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "つうか"
+        }
+      ],
+      "1443530": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "でんしゃ"
+        }
+      ],
+      "2850261": [
+        {
+          "start": 16,
+          "length": 7,
+          "reading": "ごちゅういください"
+        }
+      ]
+    }
+  }
+]

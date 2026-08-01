@@ -1,0 +1,149 @@
+[
+  {
+    "id": "75857",
+    "original": "適合率とは取り出した記事のうち、どの程度の記事が検索条件に合っているかを示す指標です。",
+    "en": [
+      {
+        "id": "327861",
+        "text": "The precision ratio is an index that indicates how many articles meet the search criteria out of all of the articles retrieved."
+      }
+    ],
+    "indices": "適合率~ とは 取り出す[02]{取り出した}~ 記事 之(の)[01]{の} 内(うち){うち} 何の(どの){どの} 程度 之(の)[01]{の} 記事 が 検索条件~ に 合う{合っている} か を 示す 指標 です",
+    "vocabIds": [
+      "1326770",
+      "1284430",
+      "2209940",
+      "2209630",
+      "1223240",
+      "1436540",
+      "1317110",
+      "1309990"
+    ],
+    "matches": {
+      "1223240": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "きじ"
+        },
+        {
+          "start": 21,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1284430": [
+        {
+          "start": 29,
+          "length": 5,
+          "reading": "あっている"
+        }
+      ],
+      "1309990": [
+        {
+          "start": 38,
+          "length": 2,
+          "reading": "しひょう"
+        }
+      ],
+      "1317110": [
+        {
+          "start": 36,
+          "length": 2,
+          "reading": "しめす"
+        }
+      ],
+      "1326770": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "とりだした"
+        }
+      ],
+      "1436540": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "ていど"
+        }
+      ],
+      "2209630": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "てきごうりつ"
+        }
+      ],
+      "2209940": [
+        {
+          "start": 24,
+          "length": 4,
+          "reading": "けんさくじょうけん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "76001",
+    "original": "情報検索の効率を測る尺度として、再現率と適合率というものがある。",
+    "en": [
+      {
+        "id": "327717",
+        "text": "As yardsticks to measure the effectiveness of information retrieval there exist those called 'recall ratio' and 'precision ratio'."
+      }
+    ],
+    "indices": "情報検索~ 之(の)[01]{の} 効率 を 計る[01]{測る} 尺度 として 再現率~ と 適合率 と言うもの{というもの} が[01] 有る{ある}",
+    "vocabIds": [
+      "1750520",
+      "2209640",
+      "2209630",
+      "1275210",
+      "1600650",
+      "1324130"
+    ],
+    "matches": {
+      "1275210": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "こうりつ"
+        }
+      ],
+      "1324130": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "しゃくど"
+        }
+      ],
+      "1600650": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "はかる"
+        }
+      ],
+      "1750520": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "じょうほうけんさく"
+        }
+      ],
+      "2209630": [
+        {
+          "start": 20,
+          "length": 3,
+          "reading": "てきごうりつ"
+        }
+      ],
+      "2209640": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "さいげんりつ"
+        }
+      ]
+    }
+  }
+]

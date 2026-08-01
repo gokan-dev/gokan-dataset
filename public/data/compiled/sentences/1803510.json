@@ -1,0 +1,104 @@
+[
+  {
+    "id": "111355",
+    "original": "彼はニューヨーク行きの貨物列車に飛び乗った。",
+    "en": [
+      {
+        "id": "292328",
+        "text": "He hopped on a freight train bound for New York."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 紐育{ニューヨーク} 行き[01] の 貨物列車~ に 飛び乗る{飛び乗った}",
+    "vocabIds": [
+      "1485370",
+      "1803510",
+      "1578790",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1485370": [
+        {
+          "start": 16,
+          "length": 5,
+          "reading": "とびのった"
+        }
+      ],
+      "1578790": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "いき"
+        }
+      ],
+      "1803510": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "かもつれっしゃ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "121744",
+    "original": "濃霧のため貨物列車は半時間ほど遅れた。",
+    "en": [
+      {
+        "id": "282261",
+        "text": "The freight train was held up about half an hour because of a dense fog."
+      }
+    ],
+    "indices": "濃霧 の 為(ため)[03]{ため} 貨物列車 は 半時間 程{ほど} 遅れる{遅れた}",
+    "vocabIds": [
+      "1803510",
+      "2427070",
+      "1589040",
+      "1469990"
+    ],
+    "matches": {
+      "1469990": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "のうむ"
+        }
+      ],
+      "1589040": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "おくれた"
+        }
+      ],
+      "1803510": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "かもつれっしゃ"
+        }
+      ],
+      "2427070": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "はんじかん"
+        }
+      ]
+    }
+  }
+]

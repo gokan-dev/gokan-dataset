@@ -1,0 +1,107 @@
+[
+  {
+    "id": "175024",
+    "original": "元気出せよ。君が思っているほど状況は悪くないんだから。",
+    "en": [
+      {
+        "id": "239443",
+        "text": "Cheer up! Things are not so bad as you think."
+      },
+      {
+        "id": "1477405",
+        "text": "Cheer up! Things are not as bad as you think."
+      },
+      {
+        "id": "10092253",
+        "text": "Cheer up! Things aren't as bad as you think."
+      }
+    ],
+    "indices": "元気 出す{出せよ} 君(きみ)[01] が 思う{思っている} 程{ほど} 状況 は 悪い(わるい){悪くない} ん[04] だから",
+    "vocabIds": [
+      "2062180",
+      "1589350",
+      "1151260",
+      "1403390",
+      "2772730",
+      "1356700",
+      "1247250"
+    ],
+    "matches": {
+      "1151260": [
+        {
+          "start": 18,
+          "length": 4,
+          "reading": "わるくない"
+        }
+      ],
+      "1247250": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "きみ"
+        }
+      ],
+      "1356700": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "じょうきょう"
+        }
+      ],
+      "1403390": [
+        {
+          "start": 18,
+          "length": 4,
+          "reading": "わるくない"
+        }
+      ],
+      "1589350": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "おもっている"
+        }
+      ],
+      "2062180": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "げんきだせよ"
+        }
+      ],
+      "2772730": [
+        {
+          "start": 18,
+          "length": 4,
+          "reading": "わるくない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3859210",
+    "original": "元気出せよ。",
+    "en": [
+      {
+        "id": "239441",
+        "text": "Cheer up!"
+      },
+      {
+        "id": "2946394",
+        "text": "Cheer up."
+      }
+    ],
+    "vocabIds": [
+      "2062180"
+    ],
+    "matches": {
+      "2062180": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "げんきだせよ"
+        }
+      ]
+    }
+  }
+]

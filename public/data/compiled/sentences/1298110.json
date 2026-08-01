@@ -1,0 +1,851 @@
+[
+  {
+    "id": "79021",
+    "original": "予算を検討し、コストを削減することにした。",
+    "en": [
+      {
+        "id": "324696",
+        "text": "I reviewed the budget, and decided to cut costs."
+      }
+    ],
+    "indices": "予算 を 検討 為る(する){し} コスト を 削減 為る(する){する} 事にする{ことにした}",
+    "vocabIds": [
+      "1543000",
+      "1258000",
+      "1298110"
+    ],
+    "matches": {
+      "1258000": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "けんとう"
+        }
+      ],
+      "1298110": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "さくげん"
+        }
+      ],
+      "1543000": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "よさん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "89695",
+    "original": "彼女は支出を徐々に削減した。",
+    "en": [
+      {
+        "id": "314020",
+        "text": "She pared down her expenditures."
+      }
+    ],
+    "indices": "彼女[01] は 支出~ を 徐々に 削減~ 為る(する){した}",
+    "vocabIds": [
+      "1595480",
+      "1483150",
+      "1310180",
+      "1298110"
+    ],
+    "matches": {
+      "1298110": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "さくげん"
+        }
+      ],
+      "1310180": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ししゅつ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1595480": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "じょじょに"
+        }
+      ]
+    }
+  },
+  {
+    "id": "116345",
+    "original": "彼の発明は製品を製造する際の時間を削減する。",
+    "en": [
+      {
+        "id": "287324",
+        "text": "His invention will save hours in manufacturing our product."
+      }
+    ],
+    "indices": "彼(かれ)[01]{彼の} 発明 は 製品 を 製造 為る(する){する} 際(さい) の 時間[01] を 削減 為る(する){する}",
+    "vocabIds": [
+      "1000420",
+      "1477910",
+      "1380760",
+      "1380690",
+      "1315920",
+      "1298110",
+      "1296300"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれの"
+        }
+      ],
+      "1296300": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "さい"
+        }
+      ],
+      "1298110": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "さくげん"
+        }
+      ],
+      "1315920": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "じかん"
+        }
+      ],
+      "1380690": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "せいぞう"
+        }
+      ],
+      "1380760": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "せいひん"
+        }
+      ],
+      "1477910": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "はつめい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "122644",
+    "original": "日本の企業はいま投資支出計画を削減している。",
+    "en": [
+      {
+        "id": "281358",
+        "text": "Japanese corporations are slashing their capital spending programs."
+      }
+    ],
+    "indices": "日本 の 企業 は 今(いま){いま} 投資 支出 計画 を 削減 為る(する){している}",
+    "vocabIds": [
+      "2162600",
+      "1582710",
+      "1218190",
+      "1252090",
+      "1298110"
+    ],
+    "matches": {
+      "1218190": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "きぎょう"
+        }
+      ],
+      "1252090": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "けいかく"
+        }
+      ],
+      "1298110": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "さくげん"
+        }
+      ],
+      "1582710": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "にっぽん"
+        }
+      ],
+      "2162600": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "とうしししゅつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "137866",
+    "original": "退職を選択する人々は、６２歳という若さで退職を選べるのである。もっとも、その年齢で社会保障年金を受け取り始めると、支払金額が２０％削減されてしまうことになるだろうが。",
+    "en": [
+      {
+        "id": "275370",
+        "text": "Those who choose to retire can do so as early as sixty-two, although starting to draw their Social Security distributions at that age would mean that the payments would be reduced by twenty percent."
+      }
+    ],
+    "indices": "退職 を 選択 為る(する){する} 人々(ひとびと) は 歳(さい)[01] と言う{という} 若い{若} さ[01] で(#2028980) 退職 を 選ぶ{選べる} の である 最も{もっとも} 其の[01]{その} 年齢 で(#2028980) 社会保障 年金 を 受け取る{受け取り} 始める[03] と 支払い{支払} 金額 が 削減 為れる{されて} 仕舞う{しまう} 事(こと){こと} になる だろう が",
+    "vocabIds": [
+      "1329650",
+      "1658860",
+      "1411420",
+      "1392290",
+      "1580650",
+      "1324300",
+      "1600240",
+      "1468540",
+      "1594480",
+      "1242700",
+      "1298110",
+      "1585310",
+      "1461140",
+      "1294940",
+      "2084840",
+      "1557630"
+    ],
+    "matches": {
+      "1242700": [
+        {
+          "start": 59,
+          "length": 2,
+          "reading": "きんがく"
+        }
+      ],
+      "1294940": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "さい"
+        }
+      ],
+      "1298110": [
+        {
+          "start": 65,
+          "length": 2,
+          "reading": "さくげん"
+        }
+      ],
+      "1324300": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "わかさ"
+        }
+      ],
+      "1329650": [
+        {
+          "start": 48,
+          "length": 8,
+          "reading": "うけとりはじめると"
+        }
+      ],
+      "1392290": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "せんたく"
+        }
+      ],
+      "1411420": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "たいしょく"
+        },
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "たいしょく"
+        }
+      ],
+      "1461140": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "に"
+        },
+        {
+          "start": 62,
+          "length": 1,
+          "reading": "に"
+        }
+      ],
+      "1468540": [
+        {
+          "start": 45,
+          "length": 2,
+          "reading": "ねんきん"
+        }
+      ],
+      "1557630": [
+        {
+          "start": 63,
+          "length": 1,
+          "reading": "ぜろ"
+        }
+      ],
+      "1580650": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ひとびと"
+        }
+      ],
+      "1585310": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "ろく"
+        }
+      ],
+      "1594480": [
+        {
+          "start": 57,
+          "length": 2,
+          "reading": "しはらい"
+        }
+      ],
+      "1600240": [
+        {
+          "start": 38,
+          "length": 2,
+          "reading": "ねんれい"
+        }
+      ],
+      "1658860": [
+        {
+          "start": 41,
+          "length": 4,
+          "reading": "しゃかいほしょう"
+        }
+      ],
+      "2084840": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "さい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "151572",
+    "original": "私達は月々の出費を削減しなければならない。",
+    "en": [
+      {
+        "id": "262984",
+        "text": "We have to cut down our monthly expenses."
+      }
+    ],
+    "indices": "私たち{私達} は 月々 の 出費 を 削減 為る(する){し} ねばならない{なければならない}",
+    "vocabIds": [
+      "1311300",
+      "1597830",
+      "1340180",
+      "1298110"
+    ],
+    "matches": {
+      "1298110": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "さくげん"
+        }
+      ],
+      "1311300": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "わたしたち"
+        }
+      ],
+      "1340180": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "しゅっぴ"
+        }
+      ],
+      "1597830": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "つきづき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "170215",
+    "original": "財政赤字の削減が政府の大きな関心事である。",
+    "en": [
+      {
+        "id": "244269",
+        "text": "Reducing the budget deficit is a major concern of the government."
+      }
+    ],
+    "indices": "財政赤字 の 削減 が 政府 の 大きな 関心事 である",
+    "vocabIds": [
+      "1993710",
+      "1412890",
+      "1215880",
+      "1298110",
+      "1376070"
+    ],
+    "matches": {
+      "1215880": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "かんしんごと"
+        }
+      ],
+      "1298110": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "さくげん"
+        }
+      ],
+      "1376070": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "せいふ"
+        }
+      ],
+      "1412890": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "おおきな"
+        }
+      ],
+      "1993710": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "ざいせいあかじ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "185817",
+    "original": "我々は支出を削減するあらゆる可能な方法を探った。",
+    "en": [
+      {
+        "id": "22949",
+        "text": "We explored all possible ways of cutting expenditures."
+      }
+    ],
+    "indices": "我々 は 支出 を 削減 為る(する){する} 有らゆる{あらゆる} 可能{可能な} 方法 を 探る{探った}",
+    "vocabIds": [
+      "1418260",
+      "1607050",
+      "1310180",
+      "1298110",
+      "1191060",
+      "1517090"
+    ],
+    "matches": {
+      "1191060": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "かのう"
+        }
+      ],
+      "1298110": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "さくげん"
+        }
+      ],
+      "1310180": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ししゅつ"
+        }
+      ],
+      "1418260": [
+        {
+          "start": 20,
+          "length": 3,
+          "reading": "さぐった"
+        }
+      ],
+      "1517090": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "ほうほう"
+        }
+      ],
+      "1607050": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "われわれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "188236",
+    "original": "下院は外国援助の予算を削減した。",
+    "en": [
+      {
+        "id": "25374",
+        "text": "The House cut the budget for foreign aid."
+      }
+    ],
+    "indices": "下院 は 外国 援助 の 予算 を 削減 為る(する){した}",
+    "vocabIds": [
+      "1184510",
+      "1203620",
+      "1176660",
+      "1543000",
+      "1298110"
+    ],
+    "matches": {
+      "1176660": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "えんじょ"
+        }
+      ],
+      "1184510": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かいん"
+        }
+      ],
+      "1203620": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "がいこく"
+        }
+      ],
+      "1298110": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "さくげん"
+        }
+      ],
+      "1543000": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "よさん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "192008",
+    "original": "わが社では生産を２０％削減した。",
+    "en": [
+      {
+        "id": "29170",
+        "text": "We have cut back production by 20%."
+      }
+    ],
+    "indices": "我が社{わが社} で(#2028980) は 生産(せいさん) を 削減 為る(する){した}",
+    "vocabIds": [
+      "2093660",
+      "1378990",
+      "1298110",
+      "1461140",
+      "1557630"
+    ],
+    "matches": {
+      "1298110": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "さくげん"
+        }
+      ],
+      "1378990": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "せいさん"
+        }
+      ],
+      "1461140": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "に"
+        }
+      ],
+      "1557630": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "ぜろ"
+        }
+      ],
+      "2093660": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "わがしゃ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "199764",
+    "original": "トヨタは今年従業員を１０００人削減することを発表した。",
+    "en": [
+      {
+        "id": "36968",
+        "text": "Toyota Corporation announced that it would cut 1,000 positions this year."
+      }
+    ],
+    "indices": "NI{トヨタ} は 今年 従業員 を 人(にん)[01] 削減 為る(する){する} 事(こと){こと} を 発表 為る(する){した}",
+    "vocabIds": [
+      "1335250",
+      "1488000",
+      "1579130",
+      "1298110",
+      "1477840",
+      "1557630",
+      "1580640"
+    ],
+    "matches": {
+      "1298110": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "さくげん"
+        }
+      ],
+      "1335250": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "じゅうぎょういん"
+        }
+      ],
+      "1477840": [
+        {
+          "start": 22,
+          "length": 2,
+          "reading": "はっぴょう"
+        }
+      ],
+      "1488000": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "いちぜろぜろ"
+        }
+      ],
+      "1557630": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "ぜろ"
+        }
+      ],
+      "1579130": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ことし"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "にん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "995479",
+    "original": "英語の日課はだいぶ削減した。",
+    "en": [
+      {
+        "id": "1311709",
+        "text": "My daily routine of English has been greatly reduced."
+      }
+    ],
+    "vocabIds": [
+      "1174420",
+      "1463860",
+      "1298110"
+    ],
+    "matches": {
+      "1174420": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "えいご"
+        }
+      ],
+      "1298110": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "さくげん"
+        }
+      ],
+      "1463860": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "にっか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10069955",
+    "original": "経費を削減する必要があります。",
+    "en": [
+      {
+        "id": "247749",
+        "text": "We must cut down our expenses."
+      }
+    ],
+    "vocabIds": [
+      "1251640",
+      "1298110",
+      "1487660"
+    ],
+    "matches": {
+      "1251640": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "けいひ"
+        }
+      ],
+      "1298110": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "さくげん"
+        }
+      ],
+      "1487660": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ひつよう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10336402",
+    "original": "この新法で、大気汚染の６０％が削減できると期待されている。",
+    "en": [
+      {
+        "id": "1223095",
+        "text": "The new law is expected to cut air pollution by 60%."
+      }
+    ],
+    "vocabIds": [
+      "1413340",
+      "1720340",
+      "1298110",
+      "1220570",
+      "1585310",
+      "1557630"
+    ],
+    "matches": {
+      "1220570": [
+        {
+          "start": 21,
+          "length": 2,
+          "reading": "きたい"
+        }
+      ],
+      "1298110": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "さくげん"
+        }
+      ],
+      "1413340": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "たいきおせん"
+        }
+      ],
+      "1557630": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "ぜろ"
+        }
+      ],
+      "1585310": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "ろく"
+        }
+      ],
+      "1720340": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "しんぽう"
+        }
+      ]
+    }
+  }
+]

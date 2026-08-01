@@ -1,0 +1,93 @@
+[
+  {
+    "id": "213295",
+    "original": "そのお椀のスープはとてもおいしかった。",
+    "en": [
+      {
+        "id": "50581",
+        "text": "The soup in the bowl was very delicious."
+      }
+    ],
+    "indices": "其の[01]{その} 御(お){お} 椀~ の スープ は 迚も[01]{とても} 美味しい{おいしかった}",
+    "vocabIds": [
+      "2858079"
+    ],
+    "matches": {
+      "2858079": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "おわん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2476463",
+    "original": "おっぱいがお椀型で羨ましいなあ。",
+    "en": [
+      {
+        "id": "3926788",
+        "text": "I'm so jealous of your bowl-shaped boobs."
+      }
+    ],
+    "vocabIds": [
+      "1391940",
+      "2858079",
+      "1250090"
+    ],
+    "matches": {
+      "1250090": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "がた"
+        }
+      ],
+      "1391940": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "うらやましい"
+        }
+      ],
+      "2858079": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "おわん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10557900",
+    "original": "みんなのお椀にスープを注いで。",
+    "en": [
+      {
+        "id": "830711",
+        "text": "Ladle the soup into everyone's bowl."
+      }
+    ],
+    "vocabIds": [
+      "1581730",
+      "2858079"
+    ],
+    "matches": {
+      "1581730": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "そそいで"
+        }
+      ],
+      "2858079": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "おわん"
+        }
+      ]
+    }
+  }
+]

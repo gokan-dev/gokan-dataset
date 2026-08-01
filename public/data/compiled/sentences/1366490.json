@@ -1,0 +1,92 @@
+[
+  {
+    "id": "114701",
+    "original": "彼はイギリスの人らしい。",
+    "en": [
+      {
+        "id": "288970",
+        "text": "It seems to me that he is from England."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 英吉利{イギリス} の 人(ひと) らしい",
+    "vocabIds": [
+      "1366490",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1366490": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "ひとらしい"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "118031",
+    "original": "彼の奥さんは外国人らしい。",
+    "en": [
+      {
+        "id": "285634",
+        "text": "His wife seems to be foreign."
+      },
+      {
+        "id": "1293300",
+        "text": "His wife seems to be a foreigner."
+      }
+    ],
+    "indices": "彼(かれ)[01]{彼の} 奥さん は 外国人 らしい",
+    "vocabIds": [
+      "1366490",
+      "1179330",
+      "1000420",
+      "1203620"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれの"
+        }
+      ],
+      "1179330": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "おくさん"
+        }
+      ],
+      "1203620": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "がいこく"
+        }
+      ],
+      "1366490": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "じんらしい"
+        }
+      ]
+    }
+  }
+]

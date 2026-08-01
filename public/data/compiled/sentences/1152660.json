@@ -1,0 +1,33 @@
+[
+  {
+    "id": "201790",
+    "original": "ドアを開けようとしたら、ドアの握りがとれた。",
+    "en": [
+      {
+        "id": "39001",
+        "text": "I tried to open the door, and the doorknob came off."
+      }
+    ],
+    "indices": "ドア を[01] 開ける(あける){開けよう} とする{としたら} ドア の 握り~ が 取れる[01]{とれた}",
+    "vocabIds": [
+      "1202450",
+      "1152660"
+    ],
+    "matches": {
+      "1152660": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "にぎり"
+        }
+      ],
+      "1202450": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "あけよう"
+        }
+      ]
+    }
+  }
+]

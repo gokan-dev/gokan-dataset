@@ -1,0 +1,133 @@
+[
+  {
+    "id": "75870",
+    "original": "朝は洗顔はもちろん身だしなみを整えてからここに集まるんだ。",
+    "en": [
+      {
+        "id": "327848",
+        "text": "Obviously wash your face, but you must also take care of your appearance before assembling here."
+      }
+    ],
+    "indices": "朝(あさ) は 洗顔~ は 勿論{もちろん} 身嗜み{身だしなみ}~ を 整える{整えて} から[06] 此処[01]{ここ} に 集まる のだ{んだ}",
+    "vocabIds": [
+      "2114830",
+      "1376140",
+      "1333550",
+      "1390940",
+      "1428280"
+    ],
+    "matches": {
+      "1333550": [
+        {
+          "start": 23,
+          "length": 3,
+          "reading": "あつまる"
+        }
+      ],
+      "1376140": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "ととのえて"
+        }
+      ],
+      "1390940": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "せんがん"
+        }
+      ],
+      "1428280": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "あさ"
+        }
+      ],
+      "2114830": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "みだしなみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2951463",
+    "original": "それ歯磨き粉じゃなくて洗顔フォームだよ！",
+    "en": [
+      {
+        "id": "3107481",
+        "text": "It's not a toothpaste, it's a face-cleansing foam!"
+      }
+    ],
+    "vocabIds": [
+      "1770210",
+      "1390940"
+    ],
+    "matches": {
+      "1390940": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "せんがん"
+        }
+      ],
+      "1770210": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "はみがきこ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3169736",
+    "original": "歌いながら洗顔してたら泡飲んじゃった。",
+    "en": [
+      {
+        "id": "3182874",
+        "text": "I swallowed a soap bubble when I was washing my face while singing."
+      }
+    ],
+    "vocabIds": [
+      "1169870",
+      "1588120",
+      "1390940",
+      "1517510"
+    ],
+    "matches": {
+      "1169870": [
+        {
+          "start": 12,
+          "length": 6,
+          "reading": "のんじゃった"
+        }
+      ],
+      "1390940": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "せんがん"
+        }
+      ],
+      "1517510": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "あわ"
+        }
+      ],
+      "1588120": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "うたいながら"
+        }
+      ]
+    }
+  }
+]

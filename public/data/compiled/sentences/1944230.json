@@ -1,0 +1,133 @@
+[
+  {
+    "id": "123496",
+    "original": "道路地図を下さい。",
+    "en": [
+      {
+        "id": "280501",
+        "text": "May I have a road map?"
+      }
+    ],
+    "indices": "道路地図 を 下さい[01]",
+    "vocabIds": [
+      "1944230",
+      "1184280"
+    ],
+    "matches": {
+      "1184280": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "ください"
+        }
+      ],
+      "1944230": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "どうろちず"
+        }
+      ]
+    }
+  },
+  {
+    "id": "166234",
+    "original": "私たちはパリ周辺地方の道路地図を調べた。",
+    "en": [
+      {
+        "id": "248271",
+        "text": "We studied the road map of the country around Paris."
+      }
+    ],
+    "indices": "私たち は 巴里{パリ} 周辺[01] 地方 の 道路地図~ を 調べる{調べた}",
+    "vocabIds": [
+      "1944230",
+      "1311300",
+      "1429060",
+      "1331300",
+      "1421450"
+    ],
+    "matches": {
+      "1311300": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1331300": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "しゅうへん"
+        }
+      ],
+      "1421450": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "ちほう"
+        }
+      ],
+      "1429060": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "しらべた"
+        }
+      ],
+      "1944230": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "どうろちず"
+        }
+      ]
+    }
+  },
+  {
+    "id": "218173",
+    "original": "これは道路地図です。",
+    "en": [
+      {
+        "id": "55484",
+        "text": "This is a road map."
+      }
+    ],
+    "indices": "此れ[01]{これ} は 道路地図 です",
+    "vocabIds": [
+      "1944230"
+    ],
+    "matches": {
+      "1944230": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "どうろちず"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1869543",
+    "original": "道路地図をもらえませんか。",
+    "en": [
+      {
+        "id": "29446",
+        "text": "May I have a road map, please?"
+      }
+    ],
+    "vocabIds": [
+      "1944230"
+    ],
+    "matches": {
+      "1944230": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "どうろちず"
+        }
+      ]
+    }
+  }
+]

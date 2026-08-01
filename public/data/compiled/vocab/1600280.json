@@ -1,0 +1,171 @@
+{
+  "id": "1600280",
+  "writtenForm": {
+    "kanji": "喉",
+    "alternatives": [
+      "咽",
+      "吭"
+    ],
+    "containedKanji": [
+      "喉"
+    ]
+  },
+  "reading": {
+    "primary": "のど",
+    "alternatives": [
+      "のんど",
+      "のみと",
+      "のみど",
+      "ノド",
+      "こん",
+      "こう"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 1759,
+    "kanaRank": 10491
+  },
+  "jlptLevel": 3,
+  "progression": {
+    "kklcStep": 1674
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "throat"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "singing voice"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "gutter (inner margins of a book)"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch",
+          "fem"
+        ]
+      },
+      "glosses": [
+        "fish"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "こん"
+      ]
+    },
+    {
+      "pos": [
+        "suf",
+        "ctr"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "counter for fish"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "こん"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": true
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1600280",
+      "isBase": true,
+      "originalPrimaryReading": "のど",
+      "originalGlosses": [
+        "throat"
+      ]
+    },
+    {
+      "id": "2248340",
+      "isBase": false,
+      "originalPrimaryReading": "こん",
+      "originalGlosses": [
+        "fish"
+      ]
+    }
+  ],
+  "parents": [
+    "2829466",
+    "1677720",
+    "1277350",
+    "2028680",
+    "1920250",
+    "1317290"
+  ]
+}

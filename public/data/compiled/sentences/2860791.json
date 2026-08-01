@@ -1,0 +1,33 @@
+[
+  {
+    "id": "212261",
+    "original": "その映画は客入りがとてもいい。",
+    "en": [
+      {
+        "id": "49542",
+        "text": "The movie is drawing pretty well."
+      }
+    ],
+    "indices": "其の[01]{その} 映画 は 客入り~ が 迚も{とても} いい",
+    "vocabIds": [
+      "2860791",
+      "1173720"
+    ],
+    "matches": {
+      "1173720": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "えいが"
+        }
+      ],
+      "2860791": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "きゃくいり"
+        }
+      ]
+    }
+  }
+]

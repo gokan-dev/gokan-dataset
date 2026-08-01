@@ -1,0 +1,185 @@
+[
+  {
+    "id": "157872",
+    "original": "私は学校で日本文学の英語訳、特に漱石の『吾輩は猫である』や『心』、芥川の『鼻』や『河童』を楽しく読んだ。",
+    "en": [
+      {
+        "id": "256659",
+        "text": "At school I had enjoyed reading Japanese literature in English translation, in particular Soseki's I am a Cat and Kokoro, and Akutagawa's The Nose and Kappa."
+      }
+    ],
+    "indices": "私(わたし)[01] は 学校 で(#2028980) 日本文学 の 英語 訳(やく) 特に の 吾輩[01] は 猫(ねこ)[01] である や 心(こころ) の 鼻 や 河童[01]~ を 楽しい{楽しく} 読む{読んだ}",
+    "vocabIds": [
+      "5262945",
+      "1464810",
+      "2406270",
+      "1207240",
+      "1456360",
+      "1206730",
+      "1454670",
+      "1193540",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1360480",
+      "1486720"
+    ],
+    "matches": {
+      "1193540": [
+        {
+          "start": 41,
+          "length": 2,
+          "reading": "かっぱ"
+        }
+      ],
+      "1206730": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "がっこう"
+        }
+      ],
+      "1207240": [
+        {
+          "start": 45,
+          "length": 3,
+          "reading": "たのしく"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1360480": [
+        {
+          "start": 30,
+          "length": 1,
+          "reading": "こころ"
+        }
+      ],
+      "1454670": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "とくに"
+        }
+      ],
+      "1456360": [
+        {
+          "start": 48,
+          "length": 3,
+          "reading": "よんだ"
+        }
+      ],
+      "1464810": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "にっぽんぶんがく"
+        }
+      ],
+      "1486720": [
+        {
+          "start": 37,
+          "length": 1,
+          "reading": "はな"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2406270": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "えいごやく"
+        }
+      ],
+      "5262945": [
+        {
+          "start": 20,
+          "length": 7,
+          "reading": "わがはいはねこである"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2330661",
+    "original": "吾輩は猫である。名前はまだ無い。",
+    "en": [
+      {
+        "id": "390043",
+        "text": "I am a cat. I don't have a name yet."
+      }
+    ],
+    "vocabIds": [
+      "5262945",
+      "1531710",
+      "1529520"
+    ],
+    "matches": {
+      "1529520": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "ない"
+        }
+      ],
+      "1531710": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "なまえ"
+        }
+      ],
+      "5262945": [
+        {
+          "start": 0,
+          "length": 7,
+          "reading": "わがはいはねこである"
+        }
+      ]
+    }
+  },
+  {
+    "id": "7982379",
+    "original": "吾輩は猫である。",
+    "en": [
+      {
+        "id": "2068388",
+        "text": "I am a cat."
+      },
+      {
+        "id": "2068371",
+        "text": "I'm a cat."
+      }
+    ],
+    "vocabIds": [
+      "5262945"
+    ],
+    "matches": {
+      "5262945": [
+        {
+          "start": 0,
+          "length": 7,
+          "reading": "わがはいはねこである"
+        }
+      ]
+    }
+  }
+]

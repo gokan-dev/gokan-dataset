@@ -1,0 +1,80 @@
+[
+  {
+    "id": "142342",
+    "original": "石器時代の遺跡が発見された。",
+    "en": [
+      {
+        "id": "272228",
+        "text": "The Stone Age ruins were discovered."
+      }
+    ],
+    "indices": "石器時代 の 遺跡 が 発見 為れる{された}",
+    "vocabIds": [
+      "1382560",
+      "1159380",
+      "1477310"
+    ],
+    "matches": {
+      "1159380": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "いせき"
+        }
+      ],
+      "1382560": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "せっきじだい"
+        }
+      ],
+      "1477310": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "はっけん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "209706",
+    "original": "その時代は石器時代と呼ばれる。",
+    "en": [
+      {
+        "id": "46968",
+        "text": "The period is referred to as the Stone Age."
+      }
+    ],
+    "indices": "其の[01]{その} 時代 は 石器時代 と 呼ばれる[02]",
+    "vocabIds": [
+      "1382560",
+      "1631030",
+      "1316300"
+    ],
+    "matches": {
+      "1316300": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "じだい"
+        }
+      ],
+      "1382560": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "せっきじだい"
+        }
+      ],
+      "1631030": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "よばれる"
+        }
+      ]
+    }
+  }
+]

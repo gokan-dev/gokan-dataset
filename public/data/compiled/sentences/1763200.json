@@ -1,0 +1,96 @@
+[
+  {
+    "id": "77289",
+    "original": "老人はお金を地中に隠そうとした。",
+    "en": [
+      {
+        "id": "326430",
+        "text": "The old man tried to hide his money under the ground."
+      }
+    ],
+    "indices": "老人 は お金 を 地中 に 隠す{隠そう} とする{とした}",
+    "vocabIds": [
+      "1170650",
+      "1561090",
+      "1001820",
+      "1763200"
+    ],
+    "matches": {
+      "1001820": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "おかね"
+        }
+      ],
+      "1170650": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "かくそう"
+        }
+      ],
+      "1561090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ろうじん"
+        }
+      ],
+      "1763200": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ちちゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "185029",
+    "original": "海賊は宝を地中に埋めた。",
+    "en": [
+      {
+        "id": "22160",
+        "text": "The pirates buried their treasure in the ground."
+      }
+    ],
+    "indices": "海賊 は 宝 を 地中~ に 埋める(うめる)[01]{埋めた}",
+    "vocabIds": [
+      "1524500",
+      "1201600",
+      "1763200",
+      "1516160"
+    ],
+    "matches": {
+      "1201600": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かいぞく"
+        }
+      ],
+      "1516160": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "たから"
+        }
+      ],
+      "1524500": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "うめた"
+        }
+      ],
+      "1763200": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ちちゅう"
+        }
+      ]
+    }
+  }
+]

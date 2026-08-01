@@ -1,0 +1,57 @@
+[
+  {
+    "id": "77963",
+    "original": "料金は、税別で一泊１００ドルです。",
+    "en": [
+      {
+        "id": "325755",
+        "text": "The room charge is 100 USD a night plus tax."
+      },
+      {
+        "id": "679024",
+        "text": "The room charge is $100 a night plus tax."
+      },
+      {
+        "id": "679025",
+        "text": "It costs $100 a night not counting tax."
+      }
+    ],
+    "indices": "料金 は 税別~ で(#2028980) 一泊 弗[01]{ドル} です",
+    "vocabIds": [
+      "1488000",
+      "1554280",
+      "1382150",
+      "1165700"
+    ],
+    "matches": {
+      "1165700": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "いちはく"
+        }
+      ],
+      "1382150": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ぜいべつ"
+        }
+      ],
+      "1488000": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "いちぜろぜろ"
+        }
+      ],
+      "1554280": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "りょうきん"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,140 @@
+[
+  {
+    "id": "124881",
+    "original": "田中さんは駅の近くで小さな文房具店を経営して生活を立てています。",
+    "en": [
+      {
+        "id": "279112",
+        "text": "Mr Tanaka makes a living running a small stationery shop near the station."
+      },
+      {
+        "id": "1515568",
+        "text": "Mr. Tanaka makes a living by running a small stationery shop near the station."
+      }
+    ],
+    "indices": "さん は 駅 の 近く[01] で(#2028980) 小さな 文房具 店(てん) を 経営 為る(する){して} 生活 を 立てる{立てています}",
+    "vocabIds": [
+      "1551530",
+      "2853716",
+      "2136180",
+      "1242160",
+      "1251130",
+      "1378860",
+      "1175140"
+    ],
+    "matches": {
+      "1175140": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "えき"
+        }
+      ],
+      "1242160": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ちかく"
+        }
+      ],
+      "1251130": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "けいえい"
+        }
+      ],
+      "1378860": [
+        {
+          "start": 22,
+          "length": 2,
+          "reading": "せいかつ"
+        }
+      ],
+      "1551530": [
+        {
+          "start": 25,
+          "length": 6,
+          "reading": "たてています"
+        }
+      ],
+      "2136180": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "ちいさな"
+        }
+      ],
+      "2853716": [
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "ぶんぼうぐてん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "160981",
+    "original": "私はこのペンを近所の文房具店で買った。",
+    "en": [
+      {
+        "id": "253537",
+        "text": "I bought this pen at the stationer's around the corner."
+      }
+    ],
+    "indices": "私(わたし)[01] は 此の{この} ペン を 近所 の 文房具~ 店(てん)~ で(#2028980) 買う[01]{買った}",
+    "vocabIds": [
+      "2853716",
+      "1473740",
+      "1242350",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1242350": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "きんじょ"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1473740": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "かった"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2853716": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "ぶんぼうぐてん"
+        }
+      ]
+    }
+  }
+]

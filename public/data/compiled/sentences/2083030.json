@@ -1,0 +1,83 @@
+[
+  {
+    "id": "183052",
+    "original": "貴社のご注文は最優先させております。",
+    "en": [
+      {
+        "id": "20174",
+        "text": "We have given your order highest priority."
+      },
+      {
+        "id": "7819771",
+        "text": "We've given your order highest priority."
+      }
+    ],
+    "indices": "貴社 の 御(ご){ご} 注文(ちゅうもん)[01] は 最[01] 優先 為る(する){させて} 居る(おる)[02]{おります}",
+    "vocabIds": [
+      "1930020",
+      "2083030",
+      "1223510"
+    ],
+    "matches": {
+      "1223510": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きしゃ"
+        }
+      ],
+      "1930020": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "ごちゅうもん"
+        }
+      ],
+      "2083030": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "さいゆうせん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9414427",
+    "original": "お客様からのご注文を最優先とさせていただいております。",
+    "en": [
+      {
+        "id": "7819771",
+        "text": "We've given your order highest priority."
+      }
+    ],
+    "vocabIds": [
+      "1001770",
+      "1930020",
+      "2083030"
+    ],
+    "matches": {
+      "1001770": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "おきゃくさま"
+        }
+      ],
+      "1930020": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "ごちゅうもん"
+        }
+      ],
+      "2083030": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "さいゆうせん"
+        }
+      ]
+    }
+  }
+]

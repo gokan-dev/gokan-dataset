@@ -1,0 +1,99 @@
+{
+  "id": "1163460",
+  "writtenForm": {
+    "kanji": "一升",
+    "alternatives": [
+      "ひと升",
+      "１ます"
+    ],
+    "containedKanji": [
+      "一",
+      "升"
+    ]
+  },
+  "reading": {
+    "primary": "いっしょう",
+    "alternatives": [
+      "ひとます"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 44502
+  },
+  "progression": {
+    "kklcStep": 1051
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "one shō (approx. 1.8 litres)"
+      ],
+      "related": {
+        "compounds": [
+          "升"
+        ]
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "one square on a grid",
+        "one cell of a grid"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "ひとます"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": false,
+  "mergedVocabs": [
+    {
+      "id": "1163460",
+      "isBase": true,
+      "originalPrimaryReading": "いっしょう",
+      "originalGlosses": [
+        "one shō (approx. 1.8 litres)"
+      ]
+    },
+    {
+      "id": "2403670",
+      "isBase": false,
+      "originalPrimaryReading": "ひとます",
+      "originalGlosses": [
+        "one square on a grid",
+        "one cell of a grid"
+      ]
+    }
+  ],
+  "components": [
+    "1160790",
+    "2248100"
+  ]
+}

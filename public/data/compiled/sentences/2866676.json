@@ -1,0 +1,88 @@
+[
+  {
+    "id": "79661",
+    "original": "野外コンサートは嵐のために中止になった。",
+    "en": [
+      {
+        "id": "324057",
+        "text": "The outdoor concert was canceled due to the storm."
+      }
+    ],
+    "indices": "野外 コンサート は 嵐 の 為に{ために} 中止[02] になる[01]{になった}",
+    "vocabIds": [
+      "2866676",
+      "1424410",
+      "1549340"
+    ],
+    "matches": {
+      "1424410": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "ちゅうし"
+        }
+      ],
+      "1549340": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "あらし"
+        }
+      ],
+      "2866676": [
+        {
+          "start": 0,
+          "length": 7,
+          "reading": "やがいこんさーと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "125148",
+    "original": "天気が良かったので、その野外コンサートは大成功だった。",
+    "en": [
+      {
+        "id": "278845",
+        "text": "Thanks to the good weather, the outdoor concert was a success."
+      }
+    ],
+    "indices": "天気 が 良い{良かった} ので 其の[01]{その} 野外~ コンサート は 大成功 だ{だった}",
+    "vocabIds": [
+      "2866676",
+      "1605820",
+      "1414240",
+      "1438690"
+    ],
+    "matches": {
+      "1414240": [
+        {
+          "start": 20,
+          "length": 3,
+          "reading": "だいせいこう"
+        }
+      ],
+      "1438690": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "てんき"
+        }
+      ],
+      "1605820": [
+        {
+          "start": 3,
+          "length": 6,
+          "reading": "よかったので"
+        }
+      ],
+      "2866676": [
+        {
+          "start": 12,
+          "length": 7,
+          "reading": "やがいこんさーと"
+        }
+      ]
+    }
+  }
+]

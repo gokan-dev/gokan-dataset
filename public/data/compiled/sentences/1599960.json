@@ -1,0 +1,63 @@
+[
+  {
+    "id": "222561",
+    "original": "この間違いを修正するためにこの縫い目をほどかなくてはならない。",
+    "en": [
+      {
+        "id": "59890",
+        "text": "In order to fix this mistake we'll have to tear out this seam."
+      }
+    ],
+    "indices": "此の{この} 間違い を[01] 修正 為る(する){する} 為に{ために} 此の{この} 縫い目~ を 解く(ほどく){ほどか} 無くてはならない[02]{なくてはならない}",
+    "vocabIds": [
+      "1215320",
+      "1599960",
+      "1332130"
+    ],
+    "matches": {
+      "1215320": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "まちがい"
+        }
+      ],
+      "1332130": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "しゅうせい"
+        }
+      ],
+      "1599960": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "ぬいめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11263443",
+    "original": "ブランケットの縫い目がほつれてる。",
+    "en": [
+      {
+        "id": "7684577",
+        "text": "The blanket's seam has unraveled."
+      }
+    ],
+    "vocabIds": [
+      "1599960"
+    ],
+    "matches": {
+      "1599960": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "ぬいめ"
+        }
+      ]
+    }
+  }
+]

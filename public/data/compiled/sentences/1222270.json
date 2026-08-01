@@ -1,0 +1,133 @@
+[
+  {
+    "id": "183342",
+    "original": "機長は気象訓示を受ける為に気象室へ行く。",
+    "en": [
+      {
+        "id": "20466",
+        "text": "The captain will go to the meteorological office to get a weather briefing."
+      }
+    ],
+    "indices": "機長~ は 気象 訓示~ を 受ける 為に 気象 室(しつ)[01] へ 行く",
+    "vocabIds": [
+      "1329590",
+      "1221040",
+      "1222270",
+      "1247410",
+      "1157150",
+      "1578850",
+      "1320300"
+    ],
+    "matches": {
+      "1157150": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "ために"
+        }
+      ],
+      "1221040": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きちょう"
+        }
+      ],
+      "1222270": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "きしょう"
+        },
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "きしょう"
+        }
+      ],
+      "1247410": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "くんじ"
+        }
+      ],
+      "1320300": [
+        {
+          "start": 15,
+          "length": 1,
+          "reading": "しつ"
+        }
+      ],
+      "1329590": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "うける"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "いく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "183891",
+    "original": "環境汚染は、異常な気象状況を引き起こしている。",
+    "en": [
+      {
+        "id": "21016",
+        "text": "Environmental pollution is causing abnormal weather conditions."
+      }
+    ],
+    "indices": "環境汚染 は 異常{異常な} 気象~ 状況 を 引き起こす[01]{引き起こしている}",
+    "vocabIds": [
+      "1168880",
+      "1666030",
+      "1157760",
+      "1222270",
+      "1356700"
+    ],
+    "matches": {
+      "1157760": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "いじょう"
+        }
+      ],
+      "1168880": [
+        {
+          "start": 14,
+          "length": 8,
+          "reading": "ひきおこしている"
+        }
+      ],
+      "1222270": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "きしょう"
+        }
+      ],
+      "1356700": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "じょうきょう"
+        }
+      ],
+      "1666030": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "かんきょうおせん"
+        }
+      ]
+    }
+  }
+]

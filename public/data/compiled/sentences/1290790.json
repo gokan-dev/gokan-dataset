@@ -1,0 +1,80 @@
+[
+  {
+    "id": "78910",
+    "original": "幼稚な説得とは、人をしつこく唆すことだ。",
+    "en": [
+      {
+        "id": "324806",
+        "text": "Crude persuasion is to persistently egg someone on."
+      }
+    ],
+    "indices": "幼稚[02]{幼稚な}~ 説得 とは 人(ひと) を 執拗い{しつこく} 唆す(そそのかす) 事(こと){こと} だ",
+    "vocabIds": [
+      "1545250",
+      "1386440",
+      "1290790",
+      "1580640"
+    ],
+    "matches": {
+      "1290790": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "そそのかす"
+        }
+      ],
+      "1386440": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "せっとく"
+        }
+      ],
+      "1545250": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ようち"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "228566",
+    "original": "イブを唆したのは蛇だ。",
+    "en": [
+      {
+        "id": "65924",
+        "text": "It is the snake that tempts Eve."
+      }
+    ],
+    "indices": "を 唆す(そそのかす){唆した}~ の は 蛇[01] だ",
+    "vocabIds": [
+      "1290790",
+      "1323350"
+    ],
+    "matches": {
+      "1290790": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "そそのかした"
+        }
+      ],
+      "1323350": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "へび"
+        }
+      ]
+    }
+  }
+]

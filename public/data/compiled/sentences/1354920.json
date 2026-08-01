@@ -1,0 +1,259 @@
+[
+  {
+    "id": "146175",
+    "original": "乗り捨てる事ができますか。",
+    "en": [
+      {
+        "id": "268386",
+        "text": "Can I drop off the car?"
+      }
+    ],
+    "indices": "乗り捨てる 事(こと) が[01] 出来る{できます} か",
+    "vocabIds": [
+      "1354920",
+      "1313580"
+    ],
+    "matches": {
+      "1313580": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "こと"
+        }
+      ],
+      "1354920": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "のりすてる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "146176",
+    "original": "乗り捨てできますか。",
+    "en": [
+      {
+        "id": "268386",
+        "text": "Can I drop off the car?"
+      }
+    ],
+    "indices": "乗り捨てる{乗り捨て} 出来る{できます} か",
+    "vocabIds": [
+      "1354920"
+    ],
+    "matches": {
+      "1354920": [
+        {
+          "start": 0,
+          "length": 8,
+          "reading": "のりすてできます"
+        }
+      ]
+    }
+  },
+  {
+    "id": "199765",
+    "original": "ドライバーの多くが雪の中に車を乗り捨てた。",
+    "en": [
+      {
+        "id": "36967",
+        "text": "Many drivers abandoned their cars in the snow."
+      }
+    ],
+    "indices": "ドライバー[01] の 多く が 雪 の 中(なか) に 車(くるま) を 乗り捨てる{乗り捨てた}",
+    "vocabIds": [
+      "1354920",
+      "1861770",
+      "1386500",
+      "1423310",
+      "2098290",
+      "1323080"
+    ],
+    "matches": {
+      "1323080": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1354920": [
+        {
+          "start": 15,
+          "length": 5,
+          "reading": "のりすてた"
+        }
+      ],
+      "1386500": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "ゆき"
+        }
+      ],
+      "1423310": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "なか"
+        }
+      ],
+      "1861770": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "おおく"
+        }
+      ],
+      "2098290": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "なか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "218803",
+    "original": "これこそ事故現場に乗り捨ててあった単車だ。",
+    "en": [
+      {
+        "id": "56118",
+        "text": "This is the same motorcycle that was left at the scene of the accident."
+      }
+    ],
+    "indices": "此れ[01]{これ} こそ 事故 現場 に 乗り捨てる{乗り捨てて} 有る{あった} 単車~ だ",
+    "vocabIds": [
+      "1354920",
+      "2638840",
+      "1417520"
+    ],
+    "matches": {
+      "1354920": [
+        {
+          "start": 9,
+          "length": 8,
+          "reading": "のりすててあった"
+        }
+      ],
+      "1417520": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "たんしゃ"
+        }
+      ],
+      "2638840": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "じこげんば"
+        }
+      ]
+    }
+  },
+  {
+    "id": "218804",
+    "original": "これこそ事件現場に乗り捨ててあった自動車だ。",
+    "en": [
+      {
+        "id": "56119",
+        "text": "This is the same car that was left at the scene of the crime."
+      }
+    ],
+    "indices": "此れ[01]{これ} こそ 事件 現場 に 乗り捨てる{乗り捨てて}~ 有る{あった} 自動車 だ",
+    "vocabIds": [
+      "1354920",
+      "1318400",
+      "1313830",
+      "1263760"
+    ],
+    "matches": {
+      "1263760": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "げんば"
+        }
+      ],
+      "1313830": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "じけん"
+        }
+      ],
+      "1318400": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "じどうしゃ"
+        }
+      ],
+      "1354920": [
+        {
+          "start": 9,
+          "length": 8,
+          "reading": "のりすててあった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1137900",
+    "original": "これが事件現場に乗り捨てられていたものと同じ車です。",
+    "en": [
+      {
+        "id": "56119",
+        "text": "This is the same car that was left at the scene of the crime."
+      }
+    ],
+    "vocabIds": [
+      "1354920",
+      "1313830",
+      "1263760",
+      "1451750",
+      "1323080"
+    ],
+    "matches": {
+      "1263760": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "げんば"
+        }
+      ],
+      "1313830": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "じけん"
+        }
+      ],
+      "1323080": [
+        {
+          "start": 22,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1354920": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "のりすて"
+        }
+      ],
+      "1451750": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "おなじ"
+        }
+      ]
+    }
+  }
+]

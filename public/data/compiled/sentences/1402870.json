@@ -1,0 +1,87 @@
+[
+  {
+    "id": "193775",
+    "original": "もしも無料でなければ、カタログの価格と日本までの送料をお教えください。",
+    "en": [
+      {
+        "id": "30944",
+        "text": "If they are not free, please let me know how much the catalogue and the postage to Japan are."
+      }
+    ],
+    "indices": "若しも{もしも} 無料 でないと{でなければ} 型録{カタログ} の 価格 と 日本 迄{まで} の 送料~ を 御(お){お} 教える{教え} 下さい{ください}",
+    "vocabIds": [
+      "1236900",
+      "1531040",
+      "1189500",
+      "1582710",
+      "1402870"
+    ],
+    "matches": {
+      "1189500": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "かかく"
+        }
+      ],
+      "1236900": [
+        {
+          "start": 28,
+          "length": 6,
+          "reading": "おしえください"
+        }
+      ],
+      "1402870": [
+        {
+          "start": 24,
+          "length": 2,
+          "reading": "そうりょう"
+        }
+      ],
+      "1531040": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "むりょう"
+        }
+      ],
+      "1582710": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "にっぽん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11013974",
+    "original": "送料が高くなって買い控えるようになった。",
+    "en": [
+      {
+        "id": "11572740",
+        "text": "The shipping cost was too expensive, so I decided against buying it."
+      }
+    ],
+    "vocabIds": [
+      "1402870",
+      "1283190"
+    ],
+    "matches": {
+      "1283190": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "たかく"
+        }
+      ],
+      "1402870": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "そうりょう"
+        }
+      ]
+    }
+  }
+]

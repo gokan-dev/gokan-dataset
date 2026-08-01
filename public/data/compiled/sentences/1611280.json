@@ -1,0 +1,204 @@
+[
+  {
+    "id": "99083",
+    "original": "彼は利息を付けて借金払いをした。",
+    "en": [
+      {
+        "id": "304617",
+        "text": "He paid the loan with interest."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 利息~ を 付ける{付けて} 借金 払い[01] を 為る(する){した}",
+    "vocabIds": [
+      "1495770",
+      "1549600",
+      "1323940",
+      "1611280",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1323940": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "しゃっきん"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1495770": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "つけて"
+        }
+      ],
+      "1549600": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "りそく"
+        }
+      ],
+      "1611280": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "はらい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "192224",
+    "original": "ローンは何回払いですか。",
+    "en": [
+      {
+        "id": "29387",
+        "text": "How many payments will it take to pay off this loan?"
+      }
+    ],
+    "indices": "ローン(#1147020) は 何回 払い[01] ですか",
+    "vocabIds": [
+      "1188650",
+      "1611280"
+    ],
+    "matches": {
+      "1188650": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "なんかい"
+        }
+      ],
+      "1611280": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "はらい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "207249",
+    "original": "その買い物は会社の払いになります。",
+    "en": [
+      {
+        "id": "44499",
+        "text": "The purchase is on the company's account."
+      }
+    ],
+    "indices": "其の[01]{その} 買い物 は 会社[01] の 払い[01] になる[01]{になります}",
+    "vocabIds": [
+      "1589730",
+      "1198550",
+      "1611280"
+    ],
+    "matches": {
+      "1198550": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "かいしゃ"
+        }
+      ],
+      "1589730": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "かいもの"
+        }
+      ],
+      "1611280": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "はらい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "218706",
+    "original": "これは、会社払いだ。",
+    "en": [
+      {
+        "id": "56021",
+        "text": "Charge this to my company."
+      }
+    ],
+    "indices": "此れ[01]{これ} は 会社[01] 払い[01]~ だ",
+    "vocabIds": [
+      "1198550",
+      "1611280"
+    ],
+    "matches": {
+      "1198550": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "かいしゃ"
+        }
+      ],
+      "1611280": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "はらい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10944420",
+    "original": "給料は週払いなんです。",
+    "en": [
+      {
+        "id": "6873225",
+        "text": "I'm paid by the week."
+      }
+    ],
+    "vocabIds": [
+      "1230360",
+      "1611280",
+      "1333450"
+    ],
+    "matches": {
+      "1230360": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きゅうりょう"
+        }
+      ],
+      "1333450": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "しゅう"
+        }
+      ],
+      "1611280": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "はらい"
+        }
+      ]
+    }
+  }
+]

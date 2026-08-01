@@ -1,0 +1,123 @@
+[
+  {
+    "id": "81092",
+    "original": "万難を排して君の味方をしよう。",
+    "en": [
+      {
+        "id": "322623",
+        "text": "I'll stand by you through thick and thin."
+      }
+    ],
+    "indices": "万難~ を 排する{排して} 君(きみ)[01]{君の} 味方 を 為る(する){しよう}",
+    "vocabIds": [
+      "1526300",
+      "1527070",
+      "1247250"
+    ],
+    "matches": {
+      "1247250": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "きみ"
+        }
+      ],
+      "1526300": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "ばんなんをはいして"
+        }
+      ],
+      "1527070": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "みかた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "81093",
+    "original": "万難を排してやり遂げよう。",
+    "en": [
+      {
+        "id": "322622",
+        "text": "I will do it at all costs."
+      },
+      {
+        "id": "9483851",
+        "text": "I'll do it at all costs."
+      }
+    ],
+    "indices": "万難 を 排する{排して} やり遂げる{やり遂げよう}",
+    "vocabIds": [
+      "1526300",
+      "1372620"
+    ],
+    "matches": {
+      "1372620": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "とげよう"
+        }
+      ],
+      "1526300": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "ばんなんをはいして"
+        }
+      ]
+    }
+  },
+  {
+    "id": "81094",
+    "original": "少年たちは「万難を排して決行しましょう」と言った。",
+    "en": [
+      {
+        "id": "322621",
+        "text": "The young men said that they would do it despite all of the difficulties."
+      }
+    ],
+    "indices": "少年(しょうねん) 達(たち){たち} は 万難 を 排する{排して} 決行(けっこう) 為る(する){しましょう} と 言う(いう){言った}",
+    "vocabIds": [
+      "1526300",
+      "2540200",
+      "1349170",
+      "1254250"
+    ],
+    "matches": {
+      "1254250": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "けっこう"
+        }
+      ],
+      "1349170": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しょうねん"
+        }
+      ],
+      "1526300": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "ばんなんをはいして"
+        }
+      ],
+      "2540200": [
+        {
+          "start": 20,
+          "length": 4,
+          "reading": "といった"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,338 @@
+[
+  {
+    "id": "201839",
+    "original": "ドアは外に出ると自動的に閉まります。",
+    "en": [
+      {
+        "id": "39050",
+        "text": "The door will lock automatically when you go out."
+      }
+    ],
+    "indices": "ドア は 外(そと) に 出る[02] と 自動的{自動的に} 閉まる[02]{閉まります}",
+    "vocabIds": [
+      "1436560",
+      "1318470",
+      "1338240",
+      "1203280"
+    ],
+    "matches": {
+      "1203280": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "そとに"
+        }
+      ],
+      "1318470": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "じどうてき"
+        }
+      ],
+      "1338240": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "でると"
+        }
+      ],
+      "1436560": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "しまります"
+        }
+      ]
+    }
+  },
+  {
+    "id": "203922",
+    "original": "たいていの労働者は毎年自動的に昇給する。",
+    "en": [
+      {
+        "id": "41164",
+        "text": "Most workers get an automatic pay raise every year."
+      }
+    ],
+    "indices": "大抵[03]{たいていの} 労働者 は 毎年 自動的{自動的に} 昇給 為る(する){する}",
+    "vocabIds": [
+      "1560470",
+      "1318470",
+      "1584360",
+      "1349760"
+    ],
+    "matches": {
+      "1318470": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "じどうてき"
+        }
+      ],
+      "1349760": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "しょうきゅう"
+        }
+      ],
+      "1560470": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "ろうどうしゃ"
+        }
+      ],
+      "1584360": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "まいとし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "211538",
+    "original": "その機械は自動的に動く。",
+    "en": [
+      {
+        "id": "48814",
+        "text": "The machine works by itself."
+      }
+    ],
+    "indices": "其の[01]{その} 機械 は 自動的{自動的に} 動く",
+    "vocabIds": [
+      "1318470",
+      "1220810",
+      "1451210"
+    ],
+    "matches": {
+      "1220810": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きかい"
+        }
+      ],
+      "1318470": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "じどうてき"
+        }
+      ],
+      "1451210": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "うごく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "217284",
+    "original": "コンピューター・システムは午後８時に自動的に停止する。",
+    "en": [
+      {
+        "id": "54592",
+        "text": "The computer system shuts down automatically at 8pm."
+      }
+    ],
+    "indices": "コンピュータ{コンピューター} システム は 午後 時(じ)[01] に 自動的{自動的に}~ 停止[02]~ 為る(する){する}",
+    "vocabIds": [
+      "1318470",
+      "1268990",
+      "2845368",
+      "1434920"
+    ],
+    "matches": {
+      "1268990": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "ごご"
+        }
+      ],
+      "1318470": [
+        {
+          "start": 18,
+          "length": 3,
+          "reading": "じどうてき"
+        }
+      ],
+      "1434920": [
+        {
+          "start": 22,
+          "length": 2,
+          "reading": "ていし"
+        }
+      ],
+      "2845368": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "はちじ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "223481",
+    "original": "このドアは自動的に鍵がかかる。",
+    "en": [
+      {
+        "id": "60816",
+        "text": "This door locks by itself."
+      },
+      {
+        "id": "9472106",
+        "text": "This door locks automatically."
+      }
+    ],
+    "indices": "此の{この} ドア は 自動的{自動的に} 鍵が掛かる{鍵がかかる}",
+    "vocabIds": [
+      "2089720",
+      "1318470"
+    ],
+    "matches": {
+      "1318470": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "じどうてき"
+        }
+      ],
+      "2089720": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "かぎがかかる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "223673",
+    "original": "このスイッチを押せば自動的にカーテンが開く。",
+    "en": [
+      {
+        "id": "61009",
+        "text": "If you touch this switch, it will open the curtains automatically."
+      }
+    ],
+    "indices": "此の{この} スイッチ[01] を 押す[01]{押せば} 自動的{自動的に} カーテン が 開く(あく)[01]",
+    "vocabIds": [
+      "1318470",
+      "1180470",
+      "1202440"
+    ],
+    "matches": {
+      "1180470": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "おせば"
+        }
+      ],
+      "1202440": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "ひらく"
+        }
+      ],
+      "1318470": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "じどうてき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "5384994",
+    "original": "ドアが自動的に閉まる。",
+    "en": [
+      {
+        "id": "5573269",
+        "text": "The door closes automatically."
+      }
+    ],
+    "vocabIds": [
+      "1318470",
+      "1436560"
+    ],
+    "matches": {
+      "1318470": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "じどうてき"
+        }
+      ],
+      "1436560": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "しまる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8587386",
+    "original": "このドアは自動的にロックされます。",
+    "en": [
+      {
+        "id": "60816",
+        "text": "This door locks by itself."
+      }
+    ],
+    "vocabIds": [
+      "1318470"
+    ],
+    "matches": {
+      "1318470": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "じどうてき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10755201",
+    "original": "ドアは自動的に開いた。",
+    "en": [
+      {
+        "id": "39121",
+        "text": "The door opened automatically."
+      }
+    ],
+    "vocabIds": [
+      "1318470",
+      "1202440"
+    ],
+    "matches": {
+      "1202440": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "ひらいた"
+        }
+      ],
+      "1318470": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "じどうてき"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,179 @@
+[
+  {
+    "id": "125850",
+    "original": "長野への道路は、通行止めになっている。",
+    "en": [
+      {
+        "id": "278142",
+        "text": "The road to Nagano is closed to traffic."
+      }
+    ],
+    "indices": "へ の 道路 は 通行止め になる[01]{になっている}",
+    "vocabIds": [
+      "1433190",
+      "2845106",
+      "1454290"
+    ],
+    "matches": {
+      "1433190": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "つうこうどめ"
+        }
+      ],
+      "1454290": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "どうろ"
+        }
+      ],
+      "2845106": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ながの"
+        }
+      ]
+    }
+  },
+  {
+    "id": "220257",
+    "original": "この道路は工事中のため通行止めだ。",
+    "en": [
+      {
+        "id": "57577",
+        "text": "This road is closed to traffic for construction work."
+      }
+    ],
+    "indices": "此の{この} 道路 は 工事中 の 為(ため){ため} 通行止め~ だ",
+    "vocabIds": [
+      "1433190",
+      "1278150",
+      "1454290"
+    ],
+    "matches": {
+      "1278150": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "こうじちゅう"
+        }
+      ],
+      "1433190": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "つうこうどめ"
+        }
+      ],
+      "1454290": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "どうろ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "220265",
+    "original": "この道路は、車は通行止めになっている。",
+    "en": [
+      {
+        "id": "57575",
+        "text": "This road is closed to cars."
+      }
+    ],
+    "indices": "此の{この} 道路 は 車(くるま) は 通行止め になる[01]{になっている}",
+    "vocabIds": [
+      "1433190",
+      "1454290",
+      "1323080"
+    ],
+    "matches": {
+      "1323080": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1433190": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "つうこうどめ"
+        }
+      ],
+      "1454290": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "どうろ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10768275",
+    "original": "この道路は通行止めです。",
+    "en": [
+      {
+        "id": "10768250",
+        "text": "This road is closed to traffic."
+      }
+    ],
+    "vocabIds": [
+      "1433190",
+      "1454290"
+    ],
+    "matches": {
+      "1433190": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "つうこうどめ"
+        }
+      ],
+      "1454290": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "どうろ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10768276",
+    "original": "この道路は通行止めになっています。",
+    "en": [
+      {
+        "id": "10768250",
+        "text": "This road is closed to traffic."
+      }
+    ],
+    "vocabIds": [
+      "1433190",
+      "1454290"
+    ],
+    "matches": {
+      "1433190": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "つうこうどめ"
+        }
+      ],
+      "1454290": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "どうろ"
+        }
+      ]
+    }
+  }
+]

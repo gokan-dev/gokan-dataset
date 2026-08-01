@@ -1,0 +1,93 @@
+[
+  {
+    "id": "122723",
+    "original": "日本にはクリスマス休暇がありますか。",
+    "en": [
+      {
+        "id": "281279",
+        "text": "Do you have a Christmas vacation in Japan?"
+      }
+    ],
+    "indices": "日本 には クリスマス 休暇 が[01] 有る{あります} か",
+    "vocabIds": [
+      "2863313",
+      "1582710"
+    ],
+    "matches": {
+      "1582710": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "にっぽん"
+        }
+      ],
+      "2863313": [
+        {
+          "start": 4,
+          "length": 7,
+          "reading": "くりすますきゅうか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3464982",
+    "original": "日本にクリスマス休暇はありますか。",
+    "en": [
+      {
+        "id": "281279",
+        "text": "Do you have a Christmas vacation in Japan?"
+      }
+    ],
+    "vocabIds": [
+      "2863313",
+      "1582710"
+    ],
+    "matches": {
+      "1582710": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "にっぽん"
+        }
+      ],
+      "2863313": [
+        {
+          "start": 3,
+          "length": 7,
+          "reading": "くりすますきゅうか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8923855",
+    "original": "クリスマス休暇には、どこに行くつもりなの？",
+    "en": [
+      {
+        "id": "5705369",
+        "text": "Where are you going for Christmas vacation?"
+      }
+    ],
+    "vocabIds": [
+      "2863313",
+      "1578850"
+    ],
+    "matches": {
+      "1578850": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "いく"
+        }
+      ],
+      "2863313": [
+        {
+          "start": 0,
+          "length": 7,
+          "reading": "くりすますきゅうか"
+        }
+      ]
+    }
+  }
+]

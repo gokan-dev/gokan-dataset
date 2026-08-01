@@ -1,0 +1,88 @@
+[
+  {
+    "id": "77325",
+    "original": "老犬に新しい芸は仕込めない。",
+    "en": [
+      {
+        "id": "282199",
+        "text": "You can't teach an old dog new tricks."
+      }
+    ],
+    "indices": "老犬 に 新しい 芸 は 仕込む{仕込めない}",
+    "vocabIds": [
+      "1361490",
+      "2088570",
+      "1956190"
+    ],
+    "matches": {
+      "1361490": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "あたらしい"
+        }
+      ],
+      "1956190": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "げい"
+        }
+      ],
+      "2088570": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ろういぬ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "77326",
+    "original": "老犬に新しい芸は教えられない。",
+    "en": [
+      {
+        "id": "282199",
+        "text": "You can't teach an old dog new tricks."
+      }
+    ],
+    "indices": "老犬~ に 新しい 芸 は 教える{教えられない}",
+    "vocabIds": [
+      "1361490",
+      "1236900",
+      "2088570",
+      "1956190"
+    ],
+    "matches": {
+      "1236900": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "おしえ"
+        }
+      ],
+      "1361490": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "あたらしい"
+        }
+      ],
+      "1956190": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "げい"
+        }
+      ],
+      "2088570": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ろういぬ"
+        }
+      ]
+    }
+  }
+]

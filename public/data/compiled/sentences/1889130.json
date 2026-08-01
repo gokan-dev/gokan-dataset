@@ -1,0 +1,95 @@
+[
+  {
+    "id": "141195",
+    "original": "洗面所の栓を抜くと、水がガバガバ流れ出した。",
+    "en": [
+      {
+        "id": "273377",
+        "text": "When I unplugged the bathroom sink, the water gushed down the drain."
+      }
+    ],
+    "indices": "洗面所~ の 栓 を 抜く[01] と 水(みず) が がばがば[02]{ガバガバ}~ 流れ出す{流れ出した}",
+    "vocabIds": [
+      "1552170",
+      "1889130",
+      "1391070",
+      "1371260"
+    ],
+    "matches": {
+      "1371260": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "みず"
+        }
+      ],
+      "1391070": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "せんめんしょ"
+        }
+      ],
+      "1552170": [
+        {
+          "start": 16,
+          "length": 5,
+          "reading": "ながれだした"
+        }
+      ],
+      "1889130": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "せんをぬく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10512993",
+    "original": "お風呂の栓を抜くから、お湯が減ったでしょ。",
+    "en": [
+      {
+        "id": "10512944",
+        "text": "You opened the bathtub drain, so some of the water went away."
+      }
+    ],
+    "vocabIds": [
+      "1263120",
+      "1889130",
+      "2220600",
+      "1002510"
+    ],
+    "matches": {
+      "1002510": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "おゆ"
+        }
+      ],
+      "1263120": [
+        {
+          "start": 14,
+          "length": 6,
+          "reading": "へったでしょ"
+        }
+      ],
+      "1889130": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "せんをぬく"
+        }
+      ],
+      "2220600": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "おふろ"
+        }
+      ]
+    }
+  }
+]

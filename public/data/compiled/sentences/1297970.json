@@ -1,0 +1,80 @@
+[
+  {
+    "id": "171300",
+    "original": "今年は米の作柄は良さそうだ。",
+    "en": [
+      {
+        "id": "243177",
+        "text": "This year promises a good harvest of rice."
+      }
+    ],
+    "indices": "今年 は 米(こめ)[01] の 作柄[01]~ は 良い{良} さ[01] そう[01] だ",
+    "vocabIds": [
+      "1605820",
+      "1579130",
+      "1297970",
+      "1508750"
+    ],
+    "matches": {
+      "1297970": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "さくがら"
+        }
+      ],
+      "1508750": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "べい"
+        }
+      ],
+      "1579130": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ことし"
+        }
+      ],
+      "1605820": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "よさそうだ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "393804",
+    "original": "トマトの作柄は良だ。",
+    "en": [
+      {
+        "id": "393805",
+        "text": "The tomato crop is of good quality."
+      }
+    ],
+    "indices": "トマト の 作柄 は 良[01]~ だ",
+    "vocabIds": [
+      "1297970",
+      "1957070"
+    ],
+    "matches": {
+      "1297970": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "さくがら"
+        }
+      ],
+      "1957070": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "りょう"
+        }
+      ]
+    }
+  }
+]

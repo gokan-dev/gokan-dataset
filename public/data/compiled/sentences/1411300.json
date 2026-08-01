@@ -1,0 +1,660 @@
+[
+  {
+    "id": "86334",
+    "original": "彼女は来週退院できるでしょうか。",
+    "en": [
+      {
+        "id": "317377",
+        "text": "Will she be able to leave the hospital next week?"
+      }
+    ],
+    "indices": "彼女[01] は 来週 退院 出来る{できる} でしょうか",
+    "vocabIds": [
+      "1483150",
+      "1548010",
+      "1411300"
+    ],
+    "matches": {
+      "1411300": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "たいいん"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1548010": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "らいしゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "87610",
+    "original": "彼女は入院退院を繰り返している。",
+    "en": [
+      {
+        "id": "316098",
+        "text": "She is constantly in and out of hospital."
+      }
+    ],
+    "indices": "彼女[01] は 入院 退院 を 繰り返す{繰り返している}",
+    "vocabIds": [
+      "1247030",
+      "1483150",
+      "1465720",
+      "1411300"
+    ],
+    "matches": {
+      "1247030": [
+        {
+          "start": 8,
+          "length": 7,
+          "reading": "くりかえしている"
+        }
+      ],
+      "1411300": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "たいいん"
+        }
+      ],
+      "1465720": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "にゅういん"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "91453",
+    "original": "彼女はまもなく退院するでしょう。",
+    "en": [
+      {
+        "id": "312260",
+        "text": "She will leave the hospital soon."
+      }
+    ],
+    "indices": "彼女[01] は 間もなく[01]{まもなく} 退院 為る(する){する} でしょう[01]",
+    "vocabIds": [
+      "1483150",
+      "1411300"
+    ],
+    "matches": {
+      "1411300": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "たいいん"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "93617",
+    "original": "彼女は１時間前に退院しました。",
+    "en": [
+      {
+        "id": "310090",
+        "text": "She left the hospital an hour ago."
+      }
+    ],
+    "indices": "彼女[01] は 一時間{１時間} 前(まえ)[02] に 退院~ 為る(する){しました}",
+    "vocabIds": [
+      "1162940",
+      "1483150",
+      "1392590",
+      "1411300"
+    ],
+    "matches": {
+      "1162940": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "いちじかん"
+        }
+      ],
+      "1392590": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "まえに"
+        }
+      ],
+      "1411300": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "たいいん"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "110629",
+    "original": "彼はもうすぐ退院するでしょう。",
+    "en": [
+      {
+        "id": "293057",
+        "text": "It will not be long before he leaves the hospital."
+      }
+    ],
+    "indices": "彼(かれ)[01] は もう直ぐ{もうすぐ} 退院 為る(する){する} でしょう[01]",
+    "vocabIds": [
+      "1411300",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1411300": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "たいいん"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "111613",
+    "original": "彼はとてもよくなったから、やがて退院できるだろう。",
+    "en": [
+      {
+        "id": "292070",
+        "text": "He has gained so much that he can soon go home from the hospital."
+      },
+      {
+        "id": "1004403",
+        "text": "He has gotten better, so he'll soon be able to leave the hospital."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 迚も[01]{とても} 良い{よく} 成る[01]{なった} から 軈て{やがて} 退院 出来る{できる} だろう",
+    "vocabIds": [
+      "1411300",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1411300": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "たいいん"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "168028",
+    "original": "私がこの退院承諾書にサインしたら、もう帰ってもいいですか。",
+    "en": [
+      {
+        "id": "246468",
+        "text": "After I sign these release papers, you'll be on your way."
+      }
+    ],
+    "indices": "私(わたし)[01] が 此の{この} 退院 承諾書~ に サイン(#1056230)[01] 為る(する){したら} もう 帰る{帰って} も いい(#2820690)[01] ですか",
+    "vocabIds": [
+      "1938450",
+      "1221270",
+      "1411300",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1221270": [
+        {
+          "start": 19,
+          "length": 3,
+          "reading": "かえって"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1411300": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "たいいん"
+        }
+      ],
+      "1938450": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "しょうだくしょ"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "169837",
+    "original": "昨日彼のお母さんに会ったら、彼は１週間前に退院したというのです。",
+    "en": [
+      {
+        "id": "244649",
+        "text": "When I saw his mother yesterday, she said he had left the hospital a week before."
+      }
+    ],
+    "indices": "昨日 彼(かれ)[01]{彼の} お母さん に 会う[01]{会ったら} 彼(かれ)[01] は 一週間{１週間} 前(まえ) に 退院 為る(する){した} と[04] 言う{いう} のです",
+    "vocabIds": [
+      "1002650",
+      "1198180",
+      "1163270",
+      "1579260",
+      "1000420",
+      "1392590",
+      "1411300",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "かれの"
+        },
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1002650": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "おかあさん"
+        }
+      ],
+      "1163270": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "いちしゅうかん"
+        }
+      ],
+      "1198180": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "あったら"
+        }
+      ],
+      "1392590": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "まえに"
+        }
+      ],
+      "1411300": [
+        {
+          "start": 21,
+          "length": 2,
+          "reading": "たいいん"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1579260": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きのう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "183930",
+    "original": "患者は退院した。",
+    "en": [
+      {
+        "id": "21056",
+        "text": "The patient was discharged from hospital."
+      }
+    ],
+    "indices": "患者 は 退院 為る(する){した}",
+    "vocabIds": [
+      "1212210",
+      "1411300"
+    ],
+    "matches": {
+      "1212210": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かんじゃ"
+        }
+      ],
+      "1411300": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "たいいん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "194507",
+    "original": "もうあと二週間もすれば退院できるようになるでしょう。",
+    "en": [
+      {
+        "id": "31680",
+        "text": "In another two weeks you will be able to get out of the hospital."
+      }
+    ],
+    "indices": "もう 後(あと){あと} 二週間 も すれば 退院 出来るようになる{できるようになる} でしょう[01]",
+    "vocabIds": [
+      "1461990",
+      "1411300"
+    ],
+    "matches": {
+      "1411300": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "たいいん"
+        }
+      ],
+      "1461990": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "にしゅうかん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "202083",
+    "original": "でも次の日、医者は彼に新年のお祝いには間に合うように退院できる可能性は十分あると言って、元気づけた。",
+    "en": [
+      {
+        "id": "39295",
+        "text": "The following day, however, the doctor consoled him by telling him that his chances of being able to leave hospital in time for New Year celebrations were good."
+      }
+    ],
+    "indices": "でも[01] 次(つぎ)[01]{次の} 日(ひ)[01] 医者 は 彼(かれ)[01] に 新年 の お祝い には 間に合う[02] 様に{ように} 退院 出来る{できる} 可能性 は 十分(じゅうぶん)[01] 有る{ある} と 言う{言って} 元気付ける{元気づけた}",
+    "vocabIds": [
+      "1260750",
+      "1215260",
+      "1632140",
+      "1612770",
+      "1191080",
+      "1159980",
+      "1362290",
+      "1411300",
+      "1335070",
+      "1335080",
+      "1316380",
+      "1463770",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1159980": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "いしゃ"
+        }
+      ],
+      "1191080": [
+        {
+          "start": 31,
+          "length": 3,
+          "reading": "かのうせい"
+        }
+      ],
+      "1215260": [
+        {
+          "start": 19,
+          "length": 4,
+          "reading": "まにあう"
+        }
+      ],
+      "1260750": [
+        {
+          "start": 44,
+          "length": 5,
+          "reading": "げんきづけた"
+        }
+      ],
+      "1316380": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "つぎ"
+        }
+      ],
+      "1335070": [
+        {
+          "start": 35,
+          "length": 2,
+          "reading": "じゅうぶん"
+        }
+      ],
+      "1335080": [
+        {
+          "start": 35,
+          "length": 2,
+          "reading": "じゅうぶん"
+        }
+      ],
+      "1362290": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "しんねん"
+        }
+      ],
+      "1411300": [
+        {
+          "start": 26,
+          "length": 2,
+          "reading": "たいいん"
+        }
+      ],
+      "1463770": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "ひ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1612770": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "おいわい"
+        }
+      ],
+      "1632140": [
+        {
+          "start": 39,
+          "length": 4,
+          "reading": "といって"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9700835",
+    "original": "トムが退院したんだって？じゃあ、職場復帰も近いね。",
+    "en": [
+      {
+        "id": "9707298",
+        "text": "Did you say that Tom has left the hospital? That means he'll be coming back to work soon, doesn't it?"
+      }
+    ],
+    "vocabIds": [
+      "2795390",
+      "1411300",
+      "1242130"
+    ],
+    "matches": {
+      "1242130": [
+        {
+          "start": 21,
+          "length": 2,
+          "reading": "ちかい"
+        }
+      ],
+      "1411300": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "たいいん"
+        }
+      ],
+      "2795390": [
+        {
+          "start": 16,
+          "length": 4,
+          "reading": "しょくばふっき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11380394",
+    "original": "トムは３日前に退院したよ。",
+    "en": [
+      {
+        "id": "10996864",
+        "text": "Tom got out of the hospital three days ago."
+      }
+    ],
+    "vocabIds": [
+      "1301330",
+      "1392590",
+      "1411300"
+    ],
+    "matches": {
+      "1301330": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "さんにち"
+        }
+      ],
+      "1392590": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "まえに"
+        }
+      ],
+      "1411300": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "たいいん"
+        }
+      ]
+    }
+  }
+]

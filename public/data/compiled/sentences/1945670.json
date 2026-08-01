@@ -1,0 +1,72 @@
+[
+  {
+    "id": "146076",
+    "original": "常に疲労感があります。",
+    "en": [
+      {
+        "id": "268486",
+        "text": "I always have a tired feeling."
+      }
+    ],
+    "indices": "常に~ 疲労感~ が[01] 有る{あります}",
+    "vocabIds": [
+      "1945670",
+      "1355970"
+    ],
+    "matches": {
+      "1355970": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "つねに"
+        }
+      ],
+      "1945670": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "ひろうかん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "192785",
+    "original": "よく激しい疲労感に襲われます。",
+    "en": [
+      {
+        "id": "29951",
+        "text": "I often feel extremely exhausted."
+      }
+    ],
+    "indices": "良く[02]{よく} 激しい 疲労感 に 襲う[01]{襲われます}",
+    "vocabIds": [
+      "1600720",
+      "1945670",
+      "1333330"
+    ],
+    "matches": {
+      "1333330": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "おそわ"
+        }
+      ],
+      "1600720": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "はげしい"
+        }
+      ],
+      "1945670": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "ひろうかん"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "id": "75843",
+    "original": "同一差出人から同一受取人に宛てて郵袋という、文字通り袋に印刷物を入れて郵送します。",
+    "en": [
+      {
+        "id": "327875",
+        "text": "A mailbag from a single sender addressed to one recipient, as the name suggests, is for delivering a bag of printed matter."
+      }
+    ],
+    "indices": "同一 差出人 から 同一 受取人 に 宛てる{宛てて}~ 郵袋 と 言う{いう} 文字通り[02] 袋(ふくろ)[01] に 印刷物 を 入れる{入れて} 郵送 為る(する){します}",
+    "vocabIds": [
+      "1505420",
+      "1593760",
+      "1629260",
+      "1153480",
+      "1168300",
+      "1465610",
+      "1451900",
+      "1542400",
+      "1542380",
+      "1411070"
+    ],
+    "matches": {
+      "1153480": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "あてて"
+        }
+      ],
+      "1168300": [
+        {
+          "start": 28,
+          "length": 3,
+          "reading": "いんさつぶつ"
+        }
+      ],
+      "1411070": [
+        {
+          "start": 26,
+          "length": 1,
+          "reading": "ぶくろ"
+        }
+      ],
+      "1451900": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "どういち"
+        },
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "どういち"
+        }
+      ],
+      "1465610": [
+        {
+          "start": 32,
+          "length": 3,
+          "reading": "いれて"
+        }
+      ],
+      "1505420": [
+        {
+          "start": 22,
+          "length": 4,
+          "reading": "もじどおり"
+        }
+      ],
+      "1542380": [
+        {
+          "start": 35,
+          "length": 2,
+          "reading": "ゆうそう"
+        }
+      ],
+      "1542400": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "ゆうたい"
+        }
+      ],
+      "1593760": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "さしだしにん"
+        }
+      ],
+      "1629260": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "うけとりじん"
+        }
+      ]
+    }
+  }
+]

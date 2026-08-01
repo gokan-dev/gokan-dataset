@@ -1,0 +1,158 @@
+[
+  {
+    "id": "126533",
+    "original": "中央線においでのお客様は次の駅でお乗り換えください。",
+    "en": [
+      {
+        "id": "277471",
+        "text": "Passengers going to the Chuo Line, please change trains at the next stop."
+      }
+    ],
+    "indices": "NI{中央線} に お出で{おいで} の お客様 は 次(つぎ)[01]{次の} 駅 で(#2028980) 乗り換える[01]{お乗り換え} 下さい{ください}",
+    "vocabIds": [
+      "1600470",
+      "1893520",
+      "1001770",
+      "1316380",
+      "1175140"
+    ],
+    "matches": {
+      "1001770": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "おきゃくさま"
+        }
+      ],
+      "1175140": [
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "えき"
+        }
+      ],
+      "1316380": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "つぎ"
+        }
+      ],
+      "1600470": [
+        {
+          "start": 17,
+          "length": 8,
+          "reading": "のりかえください"
+        }
+      ],
+      "1893520": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ちゅうおうせん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "126534",
+    "original": "中央線ですね。",
+    "en": [
+      {
+        "id": "277470",
+        "text": "I think it's by the Chuo Line."
+      }
+    ],
+    "indices": "NI{中央線} です ね(#2029080)[01]",
+    "vocabIds": [
+      "1893520"
+    ],
+    "matches": {
+      "1893520": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ちゅうおうせん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "186522",
+    "original": "貨車が脱線したため中央線は不通になった。",
+    "en": [
+      {
+        "id": "23658",
+        "text": "After some freight cars were derailed, services were suspended on the Chuo Line."
+      }
+    ],
+    "indices": "貨車~ が 脱線 為る(する){した} 為(ため){ため} NI{中央線} は 不通 になる[01]{になった}",
+    "vocabIds": [
+      "1893520",
+      "1195870",
+      "1416560",
+      "1493860"
+    ],
+    "matches": {
+      "1195870": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かしゃ"
+        }
+      ],
+      "1416560": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "だっせん"
+        }
+      ],
+      "1493860": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "ふつう"
+        }
+      ],
+      "1893520": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "ちゅうおうせん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "234831",
+    "original": "ＪＲ中央線に乗って下さい。",
+    "en": [
+      {
+        "id": "72209",
+        "text": "You get on the JR Chuo Line."
+      }
+    ],
+    "indices": "NI{中央線} に 乗る[01]{乗って} 下さい[02]",
+    "vocabIds": [
+      "1355120",
+      "1893520"
+    ],
+    "matches": {
+      "1355120": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "のってください"
+        }
+      ],
+      "1893520": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "ちゅうおうせん"
+        }
+      ]
+    }
+  }
+]

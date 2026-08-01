@@ -1,0 +1,115 @@
+[
+  {
+    "id": "119667",
+    "original": "彼が脱獄囚だなんて、私には思いもよらなかった。",
+    "en": [
+      {
+        "id": "283995",
+        "text": "It never occurred to me that he was a prison-breaker."
+      },
+      {
+        "id": "1110804",
+        "text": "It never occurred to me that he might be an escaped prisoner."
+      }
+    ],
+    "indices": "彼(かれ) が 脱獄囚~ だ なんて[01] 私(わたし)[01] には 思いもよらない{思いもよらなかった}",
+    "vocabIds": [
+      "1416480",
+      "1589320",
+      "1000420",
+      "1483070",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1416480": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "だつごくしゅう"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1589320": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "おもい"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1698842",
+    "original": "警察は脱獄囚を追っている。",
+    "en": [
+      {
+        "id": "238307",
+        "text": "The police are pursuing an escaped prisoner."
+      }
+    ],
+    "vocabIds": [
+      "1432410",
+      "1416480",
+      "1252390"
+    ],
+    "matches": {
+      "1252390": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "けいさつ"
+        }
+      ],
+      "1416480": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "だつごくしゅう"
+        }
+      ],
+      "1432410": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "おっている"
+        }
+      ]
+    }
+  }
+]

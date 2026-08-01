@@ -1,0 +1,94 @@
+[
+  {
+    "id": "169278",
+    "original": "残高を教えてくれますか。",
+    "en": [
+      {
+        "id": "245207",
+        "text": "Could you tell me my balance?"
+      }
+    ],
+    "indices": "残高 を 教える{教えて} 呉れる{くれます} か",
+    "vocabIds": [
+      "1236900",
+      "1304590"
+    ],
+    "matches": {
+      "1236900": [
+        {
+          "start": 3,
+          "length": 7,
+          "reading": "おしえてくれます"
+        }
+      ],
+      "1304590": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ざんだか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "169279",
+    "original": "残高を知りたいのですが。",
+    "en": [
+      {
+        "id": "245208",
+        "text": "I'd like to find out my bank balance."
+      }
+    ],
+    "indices": "残高 を 知る{知り} たい[01] のです が[03]",
+    "vocabIds": [
+      "1420470",
+      "1304590"
+    ],
+    "matches": {
+      "1304590": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ざんだか"
+        }
+      ],
+      "1420470": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "しりたい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "997280",
+    "original": "あなたの口座の残高はゼロだ。",
+    "en": [
+      {
+        "id": "70339",
+        "text": "Your account is empty."
+      }
+    ],
+    "vocabIds": [
+      "1276150",
+      "1304590"
+    ],
+    "matches": {
+      "1276150": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "こうざ"
+        }
+      ],
+      "1304590": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ざんだか"
+        }
+      ]
+    }
+  }
+]

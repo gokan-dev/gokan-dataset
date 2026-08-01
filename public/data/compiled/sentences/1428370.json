@@ -1,0 +1,104 @@
+[
+  {
+    "id": "80480",
+    "original": "明日は、朝市に行こう。",
+    "en": [
+      {
+        "id": "323237",
+        "text": "Tomorrow let's go to the morning bazaar."
+      }
+    ],
+    "indices": "明日 は 朝市~ に 行く[01]{行こう}",
+    "vocabIds": [
+      "1578850",
+      "1584660",
+      "1428370"
+    ],
+    "matches": {
+      "1428370": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "あさいち"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "いこう"
+        }
+      ],
+      "1584660": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あした"
+        }
+      ]
+    }
+  },
+  {
+    "id": "96182",
+    "original": "彼らは捕り立ての魚を朝市で売ってくれる。",
+    "en": [
+      {
+        "id": "307523",
+        "text": "They sell us freshly caught fish in the early morning market."
+      }
+    ],
+    "indices": "彼ら(かれら) は 捕る{捕り} 立て(たて) の 魚 を 朝市 で(#2028980) 売る{売って} 呉れる{くれる}",
+    "vocabIds": [
+      "1473950",
+      "1514140",
+      "1483090",
+      "2397090",
+      "1428370",
+      "1578010"
+    ],
+    "matches": {
+      "1428370": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "あさいち"
+        }
+      ],
+      "1473950": [
+        {
+          "start": 13,
+          "length": 6,
+          "reading": "うってくれる"
+        }
+      ],
+      "1483090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれら"
+        }
+      ],
+      "1514140": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "とりだて"
+        }
+      ],
+      "1578010": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "さかな"
+        }
+      ],
+      "2397090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれら"
+        }
+      ]
+    }
+  }
+]

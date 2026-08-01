@@ -1,0 +1,64 @@
+[
+  {
+    "id": "91226",
+    "original": "彼女は安産だった。",
+    "en": [
+      {
+        "id": "312488",
+        "text": "She had an easy delivery."
+      }
+    ],
+    "indices": "彼女[01] は 安産 だ{だった}",
+    "vocabIds": [
+      "1483150",
+      "1153820"
+    ],
+    "matches": {
+      "1153820": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "あんざん"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "141900",
+    "original": "先回は安産でした。",
+    "en": [
+      {
+        "id": "272670",
+        "text": "I had an easy delivery last time."
+      }
+    ],
+    "indices": "先回~ は 安産~ です{でした}",
+    "vocabIds": [
+      "1984120",
+      "1153820"
+    ],
+    "matches": {
+      "1153820": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "あんざん"
+        }
+      ],
+      "1984120": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "さきかい"
+        }
+      ]
+    }
+  }
+]

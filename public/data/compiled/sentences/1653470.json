@@ -1,0 +1,220 @@
+[
+  {
+    "id": "98902",
+    "original": "彼は終列車にやっと間に合った。",
+    "en": [
+      {
+        "id": "291730",
+        "text": "He was just in time for the last train."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 終列車 に 漸と[01]{やっと} 間に合う[01]{間に合った}",
+    "vocabIds": [
+      "1215260",
+      "1653470",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1215260": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "まにあった"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1653470": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "しゅうれっしゃ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "143436",
+    "original": "この汽車は世界の果て行きの終列車です。",
+    "en": [
+      {
+        "id": "271131",
+        "text": "This train is the last train to the world's end."
+      }
+    ],
+    "indices": "此の(この){この} 汽車(きしゃ) は 世界 の 果て~ 行き[01] の 終列車~ です",
+    "vocabIds": [
+      "1639300",
+      "1653470",
+      "1222700",
+      "1578790"
+    ],
+    "matches": {
+      "1222700": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きしゃ"
+        }
+      ],
+      "1578790": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "いき"
+        }
+      ],
+      "1639300": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "せかいのはて"
+        }
+      ],
+      "1653470": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "しゅうれっしゃ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "148163",
+    "original": "終列車にちょうど間に合った。",
+    "en": [
+      {
+        "id": "266396",
+        "text": "We are just in time for the last train."
+      }
+    ],
+    "indices": "終列車 に 丁度{ちょうど} 間に合う[01]{間に合った}",
+    "vocabIds": [
+      "1215260",
+      "1653470"
+    ],
+    "matches": {
+      "1215260": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "まにあった"
+        }
+      ],
+      "1653470": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "しゅうれっしゃ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "218872",
+    "original": "これが終列車です。",
+    "en": [
+      {
+        "id": "790955",
+        "text": "This is the last train."
+      }
+    ],
+    "indices": "此れ[01]{これ} が 終列車 です",
+    "vocabIds": [
+      "1653470"
+    ],
+    "matches": {
+      "1653470": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "しゅうれっしゃ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "930057",
+    "original": "僕のガルフレンドは世界の果て行きの終列車に遅れて困りますよ。",
+    "en": [
+      {
+        "id": "930062",
+        "text": "My girlfriend missed the last train to the world's end, and that's quite a problem."
+      }
+    ],
+    "vocabIds": [
+      "1639300",
+      "1289590",
+      "1653470",
+      "1589040",
+      "1578790",
+      "1521400",
+      "2228300"
+    ],
+    "matches": {
+      "1289590": [
+        {
+          "start": 24,
+          "length": 4,
+          "reading": "こまります"
+        }
+      ],
+      "1521400": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ],
+      "1578790": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "いき"
+        }
+      ],
+      "1589040": [
+        {
+          "start": 21,
+          "length": 3,
+          "reading": "おくれて"
+        }
+      ],
+      "1639300": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "せかいのはて"
+        }
+      ],
+      "1653470": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "しゅうれっしゃ"
+        }
+      ],
+      "2228300": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ]
+    }
+  }
+]

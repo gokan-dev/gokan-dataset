@@ -1,0 +1,100 @@
+{
+  "id": "1349430",
+  "writtenForm": {
+    "kanji": "床板",
+    "alternatives": [],
+    "containedKanji": [
+      "床",
+      "板"
+    ]
+  },
+  "reading": {
+    "primary": "ゆかいた",
+    "alternatives": [
+      "しょうばん",
+      "とこいた"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 20756
+  },
+  "progression": {
+    "kklcStep": 924
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "floorboard"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "alcove slab",
+        "wooden board placed in a tokonoma",
+        "baseboard",
+        "base plate"
+      ],
+      "related": {
+        "compounds": [
+          "床の間"
+        ]
+      },
+      "appliesToReadings": [
+        "とこいた"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": true
+  },
+  "isCommon": false,
+  "mergedVocabs": [
+    {
+      "id": "1349430",
+      "isBase": true,
+      "originalPrimaryReading": "ゆかいた",
+      "originalGlosses": [
+        "floorboard"
+      ]
+    },
+    {
+      "id": "1799310",
+      "isBase": false,
+      "originalPrimaryReading": "とこいた",
+      "originalGlosses": [
+        "alcove slab",
+        "wooden board placed in a tokonoma",
+        "baseboard"
+      ]
+    }
+  ],
+  "components": [
+    "1349380",
+    "1481350"
+  ]
+}

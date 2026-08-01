@@ -1,0 +1,41 @@
+[
+  {
+    "id": "126009",
+    "original": "超特急のぞみはひかりより速く走る。",
+    "en": [
+      {
+        "id": "277983",
+        "text": "The superexpress Nozomi runs faster than the Hikari."
+      }
+    ],
+    "indices": "超特急~ は より[05] 早い[01]{速く} 走る",
+    "vocabIds": [
+      "1429530",
+      "1404975",
+      "1402540"
+    ],
+    "matches": {
+      "1402540": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "はしる"
+        }
+      ],
+      "1404975": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "はやく"
+        }
+      ],
+      "1429530": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ちょうとっきゅう"
+        }
+      ]
+    }
+  }
+]

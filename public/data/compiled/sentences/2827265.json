@@ -1,0 +1,63 @@
+[
+  {
+    "id": "114586",
+    "original": "彼はいつも一言多い。",
+    "en": [
+      {
+        "id": "289085",
+        "text": "He always says one word too many."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 何時も[01]{いつも} 一言 多い",
+    "vocabIds": [
+      "2827265",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "2827265": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "ひとことおおい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10905015",
+    "original": "一言多いんだよね。",
+    "en": [
+      {
+        "id": "3001095",
+        "text": "He doesn't know when to shut up."
+      }
+    ],
+    "vocabIds": [
+      "2827265"
+    ],
+    "matches": {
+      "2827265": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "ひとことおおい"
+        }
+      ]
+    }
+  }
+]

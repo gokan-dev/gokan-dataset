@@ -1,0 +1,113 @@
+[
+  {
+    "id": "122345",
+    "original": "日本語の申請書はありますか。",
+    "en": [
+      {
+        "id": "281658",
+        "text": "May I have an application form in Japanese?"
+      }
+    ],
+    "indices": "日本語 の 申請書~ は 有る{あります} か",
+    "vocabIds": [
+      "1464530",
+      "1363140"
+    ],
+    "matches": {
+      "1363140": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "しんせいしょ"
+        }
+      ],
+      "1464530": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "にほんご"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9054948",
+    "original": "この申請書にご記入ください。",
+    "en": [
+      {
+        "id": "58338",
+        "text": "Please fill in this application form."
+      }
+    ],
+    "vocabIds": [
+      "1363140",
+      "1223330"
+    ],
+    "matches": {
+      "1223330": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "きにゅう"
+        }
+      ],
+      "1363140": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "しんせいしょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3592947",
+    "original": "申請書は黒か青のボールペンで記入してください。",
+    "en": [
+      {
+        "id": "9987505",
+        "text": "Please fill in the written form with a blue or a black ball point pen."
+      },
+      {
+        "id": "13569801",
+        "text": "Fill out the application form with a black or blue ballpoint pen."
+      }
+    ],
+    "vocabIds": [
+      "1363140",
+      "1223330",
+      "1287410",
+      "1381380"
+    ],
+    "matches": {
+      "1223330": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "きにゅう"
+        }
+      ],
+      "1287410": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "くろ"
+        }
+      ],
+      "1363140": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "しんせいしょ"
+        }
+      ],
+      "1381380": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "あお"
+        }
+      ]
+    }
+  }
+]

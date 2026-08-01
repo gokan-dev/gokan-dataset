@@ -1,0 +1,136 @@
+[
+  {
+    "id": "123666",
+    "original": "同社の第４四半期の業績は前期に比べ、急激に改善した。",
+    "en": [
+      {
+        "id": "280329",
+        "text": "The company's fourth quarter results sharply improved from the preceding quarter."
+      }
+    ],
+    "indices": "同社[01] の 第 四半期 の 業績 は 前期 に 比べる[01]{比べ} 急激{急激に} 改善 為る(する){した}",
+    "vocabIds": [
+      "2856947",
+      "1009840",
+      "1452570",
+      "1239460",
+      "1392750",
+      "1228680",
+      "1200960"
+    ],
+    "matches": {
+      "1009840": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "にくらべ"
+        }
+      ],
+      "1200960": [
+        {
+          "start": 21,
+          "length": 2,
+          "reading": "かいぜん"
+        }
+      ],
+      "1228680": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "きゅうげき"
+        }
+      ],
+      "1239460": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "ぎょうせき"
+        }
+      ],
+      "1392750": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "ぜんき"
+        }
+      ],
+      "1452570": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "どうしゃ"
+        }
+      ],
+      "2856947": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "だいよんしはんき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "137211",
+    "original": "第４四半期のＧＮＰは季節調整済み年率４．５％の成長であった。",
+    "en": [
+      {
+        "id": "276025",
+        "text": "GNP increased at a seasonally adjusted annual rate of 4.5% in the fourth quarter."
+      }
+    ],
+    "indices": "第 四半期 の ＧＮＰ は 季節調整済み 年率 の 成長 である{であった}",
+    "vocabIds": [
+      "2198650",
+      "2856947",
+      "1731140",
+      "1375790",
+      "1579470",
+      "1268060"
+    ],
+    "matches": {
+      "1268060": [
+        {
+          "start": 20,
+          "length": 1,
+          "reading": "ご"
+        }
+      ],
+      "1375790": [
+        {
+          "start": 23,
+          "length": 2,
+          "reading": "せいちょう"
+        }
+      ],
+      "1579470": [
+        {
+          "start": 18,
+          "length": 1,
+          "reading": "よん"
+        }
+      ],
+      "1731140": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "ねんりつ"
+        }
+      ],
+      "2198650": [
+        {
+          "start": 10,
+          "length": 6,
+          "reading": "きせつちょうせいずみ"
+        }
+      ],
+      "2856947": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "だいよんしはんき"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,84 @@
+[
+  {
+    "id": "77956",
+    "original": "料金表を見せて下さい。",
+    "en": [
+      {
+        "id": "325762",
+        "text": "Show me a list of your rates, please."
+      },
+      {
+        "id": "325761",
+        "text": "May I see the rate list."
+      }
+    ],
+    "indices": "料金表 を 見せる{見せて} 下さい",
+    "vocabIds": [
+      "1259210",
+      "1948540"
+    ],
+    "matches": {
+      "1259210": [
+        {
+          "start": 4,
+          "length": 6,
+          "reading": "みせてください"
+        }
+      ],
+      "1948540": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "りょうきんひょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "148937",
+    "original": "車を買いたいのですが、料金表を見せて下さい。",
+    "en": [
+      {
+        "id": "265621",
+        "text": "I want to rent a car, please show me a price list."
+      }
+    ],
+    "indices": "車 を 買う[01]{買い} たい[01] のです が[03] 料金表~ を 見せる{見せて} 下さい",
+    "vocabIds": [
+      "1259210",
+      "1473740",
+      "1948540",
+      "1323080"
+    ],
+    "matches": {
+      "1259210": [
+        {
+          "start": 15,
+          "length": 6,
+          "reading": "みせてください"
+        }
+      ],
+      "1323080": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1473740": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "かいたい"
+        }
+      ],
+      "1948540": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "りょうきんひょう"
+        }
+      ]
+    }
+  }
+]

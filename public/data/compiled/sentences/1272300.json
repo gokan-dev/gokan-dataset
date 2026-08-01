@@ -1,0 +1,126 @@
+[
+  {
+    "id": "126923",
+    "original": "地元の警察は交通違反にはとても厳しい。",
+    "en": [
+      {
+        "id": "277167",
+        "text": "The local police are very strict about traffic violations."
+      }
+    ],
+    "indices": "地元[02]{地元の} 警察 は 交通違反~ には 迚も[01]{とても} 厳しい[01]",
+    "vocabIds": [
+      "1272300",
+      "1262530",
+      "2831771",
+      "1421060",
+      "1252390"
+    ],
+    "matches": {
+      "1252390": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "けいさつ"
+        }
+      ],
+      "1262530": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "きびしい"
+        }
+      ],
+      "1272300": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "こうつういはん"
+        }
+      ],
+      "1421060": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じもと"
+        }
+      ],
+      "2831771": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "きびしい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "174159",
+    "original": "交通違反のチケットを渡された。",
+    "en": [
+      {
+        "id": "240311",
+        "text": "I got a traffic ticket."
+      }
+    ],
+    "indices": "交通違反 の チケット を 渡す[03]{渡された}",
+    "vocabIds": [
+      "1272300",
+      "1444610"
+    ],
+    "matches": {
+      "1272300": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "こうつういはん"
+        }
+      ],
+      "1444610": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "わたさ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1235148",
+    "original": "交通違反切符を切られた。",
+    "en": [
+      {
+        "id": "240311",
+        "text": "I got a traffic ticket."
+      }
+    ],
+    "vocabIds": [
+      "1272300",
+      "1385170",
+      "1384830"
+    ],
+    "matches": {
+      "1272300": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "こうつういはん"
+        }
+      ],
+      "1384830": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "きら"
+        }
+      ],
+      "1385170": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "きっぷ"
+        }
+      ]
+    }
+  }
+]

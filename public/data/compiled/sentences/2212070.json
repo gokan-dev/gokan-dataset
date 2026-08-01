@@ -1,0 +1,71 @@
+[
+  {
+    "id": "76754",
+    "original": "このシート、本革ですね。間違って汚すと大変なことになりそうです。",
+    "en": [
+      {
+        "id": "326966",
+        "text": "This seat, it's real leather, isn't it? It would be a disaster if some slip-up gets it dirtied."
+      }
+    ],
+    "indices": "此の{この} シート(#1059450) 本革~ です ね(#2029080)[01] 間違う{間違って} 汚す と 大変{大変な} 事になる{ことになり} そう[01] です",
+    "vocabIds": [
+      "1611610",
+      "1178960",
+      "2212070",
+      "1415000"
+    ],
+    "matches": {
+      "1178960": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "けがすと"
+        }
+      ],
+      "1415000": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "たいへん"
+        }
+      ],
+      "1611610": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "まちがって"
+        }
+      ],
+      "2212070": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ほんかわ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10156086",
+    "original": "あのサッカーボールは本革でできてるんだ。",
+    "en": [
+      {
+        "id": "68691",
+        "text": "That football is made of genuine leather."
+      }
+    ],
+    "vocabIds": [
+      "2212070"
+    ],
+    "matches": {
+      "2212070": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "ほんかわ"
+        }
+      ]
+    }
+  }
+]

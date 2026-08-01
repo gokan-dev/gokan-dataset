@@ -1,0 +1,88 @@
+[
+  {
+    "id": "180501",
+    "original": "強打者が簡単に凡退した。",
+    "en": [
+      {
+        "id": "19217",
+        "text": "The slugger was easily put out."
+      }
+    ],
+    "indices": "強打者~ が 簡単{簡単に} 凡退~ 為る(する){した}",
+    "vocabIds": [
+      "1236440",
+      "1214330",
+      "1523650"
+    ],
+    "matches": {
+      "1214330": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "かんたん"
+        }
+      ],
+      "1236440": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きょうだしゃ"
+        }
+      ],
+      "1523650": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ぼんたい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "211424",
+    "original": "その強打者に備えてセンターは守備位置を変えた。",
+    "en": [
+      {
+        "id": "48700",
+        "text": "The center fielder shifted his position for the slugger."
+      }
+    ],
+    "indices": "其の[01]{その} 強打者 に 備える[02]{備えて} センター は 守備位置~ を 変える{変えた}",
+    "vocabIds": [
+      "2763540",
+      "2856840",
+      "1236440",
+      "1510650"
+    ],
+    "matches": {
+      "1236440": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "きょうだしゃ"
+        }
+      ],
+      "1510650": [
+        {
+          "start": 19,
+          "length": 3,
+          "reading": "かえた"
+        }
+      ],
+      "2763540": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "にそなえて"
+        }
+      ],
+      "2856840": [
+        {
+          "start": 14,
+          "length": 4,
+          "reading": "しゅびいち"
+        }
+      ]
+    }
+  }
+]

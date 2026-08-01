@@ -1,0 +1,134 @@
+[
+  {
+    "id": "149036",
+    "original": "車の騒音はとても耳障りだ。",
+    "en": [
+      {
+        "id": "265522",
+        "text": "Traffic noise is very harsh to the ear."
+      }
+    ],
+    "indices": "車 の 騒音 は 迚も[01]{とても} 耳障り だ",
+    "vocabIds": [
+      "1317250",
+      "1403060",
+      "1323080"
+    ],
+    "matches": {
+      "1317250": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "みみざわり"
+        }
+      ],
+      "1323080": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1403060": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "そうおん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "150146",
+    "original": "耳障りな音が聞こえる。",
+    "en": [
+      {
+        "id": "264411",
+        "text": "I hear a noise offensive to the ear."
+      }
+    ],
+    "indices": "耳障り{耳障りな}~ 音(おと)[01] が 聞こえる[01]",
+    "vocabIds": [
+      "1591150",
+      "1317250",
+      "1576900"
+    ],
+    "matches": {
+      "1317250": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "みみざわり"
+        }
+      ],
+      "1576900": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "おと"
+        }
+      ],
+      "1591150": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "きこえる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1134490",
+    "original": "ハイヒールのコツコツいう音、なんか耳障りなんだよね。本人たちは何とも思わないのかな。",
+    "en": [
+      {
+        "id": "1528252",
+        "text": "The clicking of high heels kind of hurts my ears. Do the people wearing them not notice?"
+      }
+    ],
+    "vocabIds": [
+      "1589350",
+      "1317250",
+      "1188690",
+      "1522750",
+      "1576900"
+    ],
+    "matches": {
+      "1188690": [
+        {
+          "start": 31,
+          "length": 3,
+          "reading": "なにとも"
+        }
+      ],
+      "1317250": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "みみざわり"
+        }
+      ],
+      "1522750": [
+        {
+          "start": 26,
+          "length": 2,
+          "reading": "ほんにん"
+        }
+      ],
+      "1576900": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "おと"
+        }
+      ],
+      "1589350": [
+        {
+          "start": 34,
+          "length": 4,
+          "reading": "おもわない"
+        }
+      ]
+    }
+  }
+]

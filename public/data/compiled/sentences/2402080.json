@@ -1,0 +1,71 @@
+[
+  {
+    "id": "88338",
+    "original": "彼女は声を限りに叫んだ。",
+    "en": [
+      {
+        "id": "315369",
+        "text": "She shouted at the top of her voice."
+      }
+    ],
+    "indices": "彼女[01] は 声を限りに~ 叫ぶ{叫んだ}",
+    "vocabIds": [
+      "2402080",
+      "1235910",
+      "1483150"
+    ],
+    "matches": {
+      "1235910": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "さけんだ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "2402080": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "こえをかぎりに"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1091933",
+    "original": "トムは声を限りに叫んだ。",
+    "en": [
+      {
+        "id": "1024201",
+        "text": "Tom screamed at the top of his lungs."
+      }
+    ],
+    "vocabIds": [
+      "2402080",
+      "1235910"
+    ],
+    "matches": {
+      "1235910": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "さけんだ"
+        }
+      ],
+      "2402080": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "こえをかぎりに"
+        }
+      ]
+    }
+  }
+]

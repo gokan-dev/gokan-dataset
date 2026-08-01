@@ -1,0 +1,174 @@
+[
+  {
+    "id": "79184",
+    "original": "郵便は昼前に来る。",
+    "en": [
+      {
+        "id": "492877",
+        "text": "The mail arrives before noon."
+      }
+    ],
+    "indices": "郵便 は 昼前~ に 来る(くる)",
+    "vocabIds": [
+      "1605680",
+      "1426380",
+      "1547720"
+    ],
+    "matches": {
+      "1426380": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ひるまえ"
+        }
+      ],
+      "1547720": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "くる"
+        }
+      ],
+      "1605680": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ゆうびん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "219161",
+    "original": "この列車は青森を三十分遅れで出発したので、東京には昼前には到着しないと思う。",
+    "en": [
+      {
+        "id": "56477",
+        "text": "This train left Aomori thirty minutes late, so we won't arrive at Tokyo before noon, I'm afraid."
+      }
+    ],
+    "indices": "此の{この} 列車 は を 三十 分(ふん) 遅れ で(#2028980) 出発{出発した} ので 東京 には 昼前 には 到着 為る(する){しない} と 思う",
+    "vocabIds": [
+      "2859157",
+      "1558370",
+      "2845121",
+      "1422020",
+      "1340000",
+      "1447690",
+      "1426380",
+      "1449870",
+      "1589350"
+    ],
+    "matches": {
+      "1340000": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "しゅっぱつ"
+        }
+      ],
+      "1422020": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "おくれ"
+        }
+      ],
+      "1426380": [
+        {
+          "start": 25,
+          "length": 2,
+          "reading": "ひるまえ"
+        }
+      ],
+      "1447690": [
+        {
+          "start": 21,
+          "length": 2,
+          "reading": "とうきょう"
+        }
+      ],
+      "1449870": [
+        {
+          "start": 29,
+          "length": 2,
+          "reading": "とうちゃく"
+        }
+      ],
+      "1558370": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "れっしゃ"
+        }
+      ],
+      "1589350": [
+        {
+          "start": 35,
+          "length": 2,
+          "reading": "おもう"
+        }
+      ],
+      "2845121": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "あおもり"
+        }
+      ],
+      "2859157": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "さんじゅうふん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10101483",
+    "original": "彼らは昼前に連絡します。",
+    "en": [
+      {
+        "id": "2921286",
+        "text": "They will contact us before midday today."
+      }
+    ],
+    "vocabIds": [
+      "1483090",
+      "2397090",
+      "1426380",
+      "1559900"
+    ],
+    "matches": {
+      "1426380": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ひるまえ"
+        }
+      ],
+      "1483090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれら"
+        }
+      ],
+      "1559900": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "れんらく"
+        }
+      ],
+      "2397090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれら"
+        }
+      ]
+    }
+  }
+]

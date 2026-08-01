@@ -1,0 +1,77 @@
+[
+  {
+    "id": "76448",
+    "original": "ベタベタするんじゃねえよっ！鬱陶しい！",
+    "en": [
+      {
+        "id": "327272",
+        "text": "Get off me you little pest!"
+      }
+    ],
+    "indices": "べたべた[04]{ベタベタ} 為る(する){する} だ{んじゃねえ} よ{よっ} 鬱陶しい",
+    "vocabIds": [
+      "1568430"
+    ],
+    "matches": {
+      "1568430": [
+        {
+          "start": 14,
+          "length": 4,
+          "reading": "うっとうしい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3496763",
+    "original": "鬱陶しいなあ。",
+    "en": [
+      {
+        "id": "1929452",
+        "text": "It's annoying."
+      }
+    ],
+    "vocabIds": [
+      "1568430"
+    ],
+    "matches": {
+      "1568430": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "うっとうしい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8417385",
+    "original": "彼氏がいつもキスしようとしてくるの。ちょっと、鬱陶しい。",
+    "en": [
+      {
+        "id": "13231401",
+        "text": "My boyfriend is always trying to kiss me. It's a bit annoying."
+      }
+    ],
+    "vocabIds": [
+      "1568430",
+      "1483140"
+    ],
+    "matches": {
+      "1483140": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれし"
+        }
+      ],
+      "1568430": [
+        {
+          "start": 23,
+          "length": 4,
+          "reading": "うっとうしい"
+        }
+      ]
+    }
+  }
+]

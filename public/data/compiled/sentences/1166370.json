@@ -1,0 +1,80 @@
+[
+  {
+    "id": "190066",
+    "original": "一文惜しみの百知らず。",
+    "en": [
+      {
+        "id": "27222",
+        "text": "Penny wise, pound foolish."
+      }
+    ],
+    "indices": "一文惜しみ~ の 百 知らず",
+    "vocabIds": [
+      "1166370",
+      "2019080",
+      "1488000"
+    ],
+    "matches": {
+      "1166370": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "いちもんおしみ"
+        }
+      ],
+      "1488000": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "ひゃく"
+        }
+      ],
+      "2019080": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "しらず"
+        }
+      ]
+    }
+  },
+  {
+    "id": "190067",
+    "original": "一文惜しみの百失い。",
+    "en": [
+      {
+        "id": "27223",
+        "text": "Penny wise and pound foolish."
+      }
+    ],
+    "indices": "一文惜しみ の 百 失う{失い}",
+    "vocabIds": [
+      "1166370",
+      "1319750",
+      "1488000"
+    ],
+    "matches": {
+      "1166370": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "いちもんおしみ"
+        }
+      ],
+      "1319750": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "うしない"
+        }
+      ],
+      "1488000": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "ひゃく"
+        }
+      ]
+    }
+  }
+]

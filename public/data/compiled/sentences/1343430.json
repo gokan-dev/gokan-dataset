@@ -1,0 +1,221 @@
+[
+  {
+    "id": "220355",
+    "original": "この土地は私の所有物だ。",
+    "en": [
+      {
+        "id": "57676",
+        "text": "This land is my property."
+      }
+    ],
+    "indices": "此の{この} 土地 は 私(わたし)[01]{私の} 所有物~ だ",
+    "vocabIds": [
+      "1343430",
+      "1445470",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1343430": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "しょゆうぶつ"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1445470": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "とち"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "995235",
+    "original": "この本はあなたの所有物ですか？",
+    "en": [
+      {
+        "id": "57052",
+        "text": "Does this book belong to you?"
+      }
+    ],
+    "vocabIds": [
+      "1343430",
+      "1260670",
+      "1522150"
+    ],
+    "matches": {
+      "1260670": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ほん"
+        }
+      ],
+      "1343430": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "しょゆうぶつ"
+        }
+      ],
+      "1522150": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ほん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1059821",
+    "original": "奴隷は所有物として考えられていた。",
+    "en": [
+      {
+        "id": "807126",
+        "text": "Slaves were considered property."
+      }
+    ],
+    "vocabIds": [
+      "1343430",
+      "1281020",
+      "1445650"
+    ],
+    "matches": {
+      "1281020": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "かんがえ"
+        }
+      ],
+      "1343430": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "しょゆうぶつ"
+        }
+      ],
+      "1445650": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "どれい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10735514",
+    "original": "私はあなたの所有物ではありません。",
+    "en": [
+      {
+        "id": "7793695",
+        "text": "I'm not your property."
+      }
+    ],
+    "vocabIds": [
+      "1343430",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1343430": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "しょゆうぶつ"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12771405",
+    "original": "子供は親の所有物ではありません。",
+    "en": [
+      {
+        "id": "12364554",
+        "text": "No child belongs to his parents."
+      },
+      {
+        "id": "12366940",
+        "text": "No child belongs to their parents."
+      }
+    ],
+    "vocabIds": [
+      "1343430",
+      "1307850",
+      "1365040"
+    ],
+    "matches": {
+      "1307850": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こども"
+        }
+      ],
+      "1343430": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "しょゆうぶつ"
+        }
+      ],
+      "1365040": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "おや"
+        }
+      ]
+    }
+  }
+]

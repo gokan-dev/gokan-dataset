@@ -1,0 +1,99 @@
+[
+  {
+    "id": "83106",
+    "original": "母は、私に風呂掃除をさせた。",
+    "en": [
+      {
+        "id": "320610",
+        "text": "Mother made me clean the bathroom."
+      },
+      {
+        "id": "1891463",
+        "text": "My mother made me clean the bathroom."
+      }
+    ],
+    "indices": "母(はは) は 私(わたし)[01] に 風呂[01] 掃除 を 為せる{させた}",
+    "vocabIds": [
+      "2620350",
+      "1514990",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1514990": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "はは"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2620350": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "ふろそうじ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8606880",
+    "original": "風呂掃除したいんやけど、どの洗剤を買えばいいの？",
+    "en": [
+      {
+        "id": "10183059",
+        "text": "I want to clean the bath, but which type of detergent is best to buy?"
+      }
+    ],
+    "vocabIds": [
+      "2620350",
+      "1473740",
+      "1390950"
+    ],
+    "matches": {
+      "1390950": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "せんざい"
+        }
+      ],
+      "1473740": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "かえば"
+        }
+      ],
+      "2620350": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "ふろそうじ"
+        }
+      ]
+    }
+  }
+]

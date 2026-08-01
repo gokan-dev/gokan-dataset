@@ -1,0 +1,112 @@
+[
+  {
+    "id": "121374",
+    "original": "函館山に登るとすばらしい函館の夜景が見られる。",
+    "en": [
+      {
+        "id": "282632",
+        "text": "It is really lovely to go up Mt. Hakodate and look at the night view of Hakodate city."
+      }
+    ],
+    "indices": "山(さん) に 登る と 素晴らしい{すばらしい} の 夜景 が 見る{見られる}",
+    "vocabIds": [
+      "2835071",
+      "1352570",
+      "2845108",
+      "1536680"
+    ],
+    "matches": {
+      "1352570": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "のぼると"
+        }
+      ],
+      "1536680": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "やけい"
+        }
+      ],
+      "2835071": [
+        {
+          "start": 18,
+          "length": 4,
+          "reading": "みられる"
+        }
+      ],
+      "2845108": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "はこだて"
+        }
+      ]
+    }
+  },
+  {
+    "id": "220135",
+    "original": "この飛行機は大阪と函館の間を飛ぶ。",
+    "en": [
+      {
+        "id": "57454",
+        "text": "This plane flies between Osaka and Hakodate."
+      }
+    ],
+    "indices": "此の{この} 飛行機 は 大阪 と の 間(あいだ)[01] を[03] 飛ぶ[01]",
+    "vocabIds": [
+      "1485470",
+      "2078800",
+      "2845108",
+      "1429700",
+      "1215230",
+      "1630250"
+    ],
+    "matches": {
+      "1215230": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "ま"
+        }
+      ],
+      "1429700": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "とぶ"
+        }
+      ],
+      "1485470": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "ひこうき"
+        }
+      ],
+      "1630250": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "ま"
+        }
+      ],
+      "2078800": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "おおさか"
+        }
+      ],
+      "2845108": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "はこだて"
+        }
+      ]
+    }
+  }
+]

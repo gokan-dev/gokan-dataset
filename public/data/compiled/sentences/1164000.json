@@ -1,0 +1,163 @@
+[
+  {
+    "id": "91146",
+    "original": "彼女は一生涯勉強を続けた。",
+    "en": [
+      {
+        "id": "312568",
+        "text": "She continued studying all her life."
+      }
+    ],
+    "indices": "彼女[01] は 一生涯 勉強[01] を 続ける{続けた}",
+    "vocabIds": [
+      "1164000",
+      "1405800",
+      "1483150",
+      "1512670"
+    ],
+    "matches": {
+      "1164000": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "いちしょうがい"
+        }
+      ],
+      "1405800": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "つづけた"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1512670": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "べんきょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "109948",
+    "original": "彼は一生涯貧乏だった。",
+    "en": [
+      {
+        "id": "293741",
+        "text": "He remained poor all his life."
+      },
+      {
+        "id": "7816269",
+        "text": "He has been poor all his life."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 一生涯 貧乏 だ{だった}",
+    "vocabIds": [
+      "1164000",
+      "1490900",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1164000": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "いちしょうがい"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1490900": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "びんぼう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "158454",
+    "original": "私は一生涯彼の大ファンでした。",
+    "en": [
+      {
+        "id": "256075",
+        "text": "I have been his greatest fan all my life."
+      }
+    ],
+    "indices": "私(わたし)[01] は 一生涯~ 彼(かれ)[01]{彼の} 大ファン です{でした}",
+    "vocabIds": [
+      "2831122",
+      "1164000",
+      "1000420",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "かれの"
+        }
+      ],
+      "1164000": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "いちしょうがい"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2831122": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "だいふぁん"
+        }
+      ]
+    }
+  }
+]

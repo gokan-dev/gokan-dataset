@@ -1,0 +1,141 @@
+[
+  {
+    "id": "124642",
+    "original": "電話を拝借できますか。",
+    "en": [
+      {
+        "id": "279352",
+        "text": "May I use the phone?"
+      }
+    ],
+    "indices": "電話 を 拝借 出来る{できます} か",
+    "vocabIds": [
+      "1443840",
+      "1472280"
+    ],
+    "matches": {
+      "1443840": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "でんわ"
+        }
+      ],
+      "1472280": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "はいしゃく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "196593",
+    "original": "ペンを拝借できますか。",
+    "en": [
+      {
+        "id": "33772",
+        "text": "Can I borrow your pen?"
+      }
+    ],
+    "indices": "ペン を 拝借 出来る{できます} か",
+    "vocabIds": [
+      "1472280"
+    ],
+    "matches": {
+      "1472280": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "はいしゃく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "201719",
+    "original": "トイレを拝借できますか。",
+    "en": [
+      {
+        "id": "38930",
+        "text": "May I use the toilet?"
+      }
+    ],
+    "indices": "トイレ を 拝借 出来る{できます} か",
+    "vocabIds": [
+      "1472280"
+    ],
+    "matches": {
+      "1472280": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "はいしゃく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "202730",
+    "original": "ちょっとお知恵を拝借願えませんか？",
+    "en": [
+      {
+        "id": "39965",
+        "text": "Could you give me some advice?"
+      }
+    ],
+    "indices": "一寸(ちょっと){ちょっと} 知恵[01]{お知恵} を 拝借~ 願う[03]{願えません} か",
+    "vocabIds": [
+      "1420530",
+      "1472280"
+    ],
+    "matches": {
+      "1420530": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ちえ"
+        }
+      ],
+      "1472280": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "はいしゃく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "227061",
+    "original": "お手洗いを拝借できますか。",
+    "en": [
+      {
+        "id": "64409",
+        "text": "May I use the bathroom?"
+      }
+    ],
+    "indices": "お手洗い を 拝借 出来る{できます} か",
+    "vocabIds": [
+      "1002100",
+      "1472280"
+    ],
+    "matches": {
+      "1002100": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "おてあらい"
+        }
+      ],
+      "1472280": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "はいしゃく"
+        }
+      ]
+    }
+  }
+]

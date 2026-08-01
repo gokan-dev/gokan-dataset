@@ -1,0 +1,79 @@
+[
+  {
+    "id": "177122",
+    "original": "君は親元から飛び出せるか。",
+    "en": [
+      {
+        "id": "15970",
+        "text": "Can you break away from your parents?"
+      }
+    ],
+    "indices": "君(きみ)[01] は 親元~ から 飛び出す[04]{飛び出せる} か",
+    "vocabIds": [
+      "1365150",
+      "1247250"
+    ],
+    "matches": {
+      "1247250": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "きみ"
+        }
+      ],
+      "1365150": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "おやもと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2419586",
+    "original": "トムはこの春から親元を離れて一人暮らしをしている。",
+    "en": [
+      {
+        "id": "2798880",
+        "text": "Tom left his parents' house this spring and has been living alone since then."
+      }
+    ],
+    "vocabIds": [
+      "1613340",
+      "1550840",
+      "1365150",
+      "1341000"
+    ],
+    "matches": {
+      "1341000": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "はる"
+        }
+      ],
+      "1365150": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "おやもと"
+        }
+      ],
+      "1550840": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "はなれて"
+        }
+      ],
+      "1613340": [
+        {
+          "start": 14,
+          "length": 5,
+          "reading": "ひとりぐらし"
+        }
+      ]
+    }
+  }
+]

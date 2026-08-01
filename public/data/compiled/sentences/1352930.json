@@ -1,0 +1,153 @@
+[
+  {
+    "id": "77706",
+    "original": "例えば、私は、来年進学する大学の単位が実際にもらえる数学の上級クラスにいます。",
+    "en": [
+      {
+        "id": "326013",
+        "text": "For example, I am in a high-level math class that actually gives me college credits for next year."
+      }
+    ],
+    "indices": "例えば 私(わたし)[01] は 来年 進学 為る(する){する} 大学 の 単位[03] が 実際に 貰う{もらえる} 数学 の 上級 クラス に 居る(いる)[01]{います}",
+    "vocabIds": [
+      "1556370",
+      "1321120",
+      "1548220",
+      "1366010",
+      "1413240",
+      "1417040",
+      "1372980",
+      "1352930",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1321120": [
+        {
+          "start": 19,
+          "length": 3,
+          "reading": "じっさいに"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1352930": [
+        {
+          "start": 29,
+          "length": 2,
+          "reading": "じょうきゅう"
+        }
+      ],
+      "1366010": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "しんがく"
+        }
+      ],
+      "1372980": [
+        {
+          "start": 26,
+          "length": 2,
+          "reading": "すうがく"
+        }
+      ],
+      "1413240": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "だいがく"
+        }
+      ],
+      "1417040": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "たんい"
+        }
+      ],
+      "1548220": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "らいねん"
+        }
+      ],
+      "1556370": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "たとえば"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1167570",
+    "original": "トムは上級のスノーボーダーだ。",
+    "en": [
+      {
+        "id": "1167537",
+        "text": "Tom is a pretty good snowboarder."
+      },
+      {
+        "id": "10168223",
+        "text": "Tom is a first-class snowboarder."
+      }
+    ],
+    "vocabIds": [
+      "1352930"
+    ],
+    "matches": {
+      "1352930": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "じょうきゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10796322",
+    "original": "上級ユーザーになってくれたらいいのにな。",
+    "en": [
+      {
+        "id": "10796357",
+        "text": "I hope you become an advanced contributor."
+      }
+    ],
+    "vocabIds": [
+      "1352930"
+    ],
+    "matches": {
+      "1352930": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じょうきゅう"
+        }
+      ]
+    }
+  }
+]

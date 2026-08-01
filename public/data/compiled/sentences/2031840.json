@@ -1,0 +1,88 @@
+[
+  {
+    "id": "137412",
+    "original": "大騒ぎした割には、大山鳴動して鼠一匹ということになったようだね。",
+    "en": [
+      {
+        "id": "275824",
+        "text": "Everybody was so up in arms but it seems they got all panicky about nothing."
+      }
+    ],
+    "indices": "大騒ぎ 為る(する){した} 割に[02] は 大山鳴動 為る(する){して} 鼠[01] 一匹 と言う{という} 事になる{ことになった} 様だ{ようだ} ね(#2029080)[01]",
+    "vocabIds": [
+      "2031840",
+      "1414410",
+      "1606930",
+      "1166060",
+      "1397840"
+    ],
+    "matches": {
+      "1166060": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "いちひき"
+        }
+      ],
+      "1397840": [
+        {
+          "start": 15,
+          "length": 1,
+          "reading": "ねずみ"
+        }
+      ],
+      "1414410": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "おおさわぎ"
+        }
+      ],
+      "1606930": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "わりに"
+        }
+      ],
+      "2031840": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "おおやまめいどう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "137536",
+    "original": "大山鳴動してねずみ一匹。",
+    "en": [
+      {
+        "id": "275700",
+        "text": "The mountains have brought forth a mouse."
+      }
+    ],
+    "indices": "大山鳴動~ 為る(する){して} 鼠[01]{ねずみ} 一匹",
+    "vocabIds": [
+      "2031840",
+      "1166060"
+    ],
+    "matches": {
+      "1166060": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "いちひき"
+        }
+      ],
+      "2031840": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "おおやまめいどう"
+        }
+      ]
+    }
+  }
+]

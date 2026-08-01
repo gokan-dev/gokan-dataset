@@ -1,0 +1,64 @@
+[
+  {
+    "id": "76842",
+    "original": "エアコンはオプションの付属品です。",
+    "en": [
+      {
+        "id": "326878",
+        "text": "An air conditioner is available as an optional extra."
+      }
+    ],
+    "indices": "エアコン は オプション~ 之(の)[01]{の} 付属品~ です",
+    "vocabIds": [
+      "1496330"
+    ],
+    "matches": {
+      "1496330": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "ふぞくひん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "226209",
+    "original": "カメラを付属品付きで買った。",
+    "en": [
+      {
+        "id": "63549",
+        "text": "I bought a camera with its accessories."
+      }
+    ],
+    "indices": "カメラ を 付属品 付き[01] で(#2028980) 買う[01]{買った}",
+    "vocabIds": [
+      "1496330",
+      "1473740",
+      "1583630"
+    ],
+    "matches": {
+      "1473740": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "かった"
+        }
+      ],
+      "1496330": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "ふぞくひん"
+        }
+      ],
+      "1583630": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "つき"
+        }
+      ]
+    }
+  }
+]

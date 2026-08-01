@@ -1,0 +1,96 @@
+[
+  {
+    "id": "85652",
+    "original": "飛行機は管制塔の上をすれすれに飛んだ。",
+    "en": [
+      {
+        "id": "318061",
+        "text": "The plane buzzed the control tower."
+      }
+    ],
+    "indices": "飛行機 は 管制塔 の 上(うえ) を 擦れ擦れ{すれすれ} に 飛ぶ{飛んだ}",
+    "vocabIds": [
+      "1485470",
+      "1214170",
+      "1008770",
+      "1352130"
+    ],
+    "matches": {
+      "1008770": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "とんだ"
+        }
+      ],
+      "1214170": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "かんせいとう"
+        }
+      ],
+      "1352130": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "うえ"
+        }
+      ],
+      "1485470": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ひこうき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "216395",
+    "original": "ジェット機は管制塔からの誘導で着陸した。",
+    "en": [
+      {
+        "id": "53699",
+        "text": "The jet plane landed following the instructions of the control tower."
+      }
+    ],
+    "indices": "ジェット機 は 管制塔~ から の 誘導 で(#2028980) 着陸 為る(する){した}",
+    "vocabIds": [
+      "1064250",
+      "1214170",
+      "1542020",
+      "1423280"
+    ],
+    "matches": {
+      "1064250": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "じぇっとき"
+        }
+      ],
+      "1214170": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "かんせいとう"
+        }
+      ],
+      "1423280": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "ちゃくりく"
+        }
+      ],
+      "1542020": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "ゆうどう"
+        }
+      ]
+    }
+  }
+]

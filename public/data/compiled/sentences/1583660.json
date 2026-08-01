@@ -1,0 +1,195 @@
+[
+  {
+    "id": "121340",
+    "original": "肌寒いです。",
+    "en": [
+      {
+        "id": "282666",
+        "text": "It's chilly."
+      }
+    ],
+    "indices": "肌寒い です",
+    "vocabIds": [
+      "1583660"
+    ],
+    "matches": {
+      "1583660": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "はださむいです"
+        }
+      ]
+    }
+  },
+  {
+    "id": "146782",
+    "original": "少し肌寒い。",
+    "en": [
+      {
+        "id": "267779",
+        "text": "There's a slight chill in the air."
+      }
+    ],
+    "indices": "少し 肌寒い",
+    "vocabIds": [
+      "1583660",
+      "1348870"
+    ],
+    "matches": {
+      "1348870": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "すこし"
+        }
+      ],
+      "1583660": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "はださむい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "202720",
+    "original": "ちょっと肌寒かった。",
+    "en": [
+      {
+        "id": "39955",
+        "text": "There was a slight chill in the air."
+      }
+    ],
+    "indices": "一寸(ちょっと){ちょっと} 肌寒い{肌寒かった}~",
+    "vocabIds": [
+      "1583660"
+    ],
+    "matches": {
+      "1583660": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "はださむかった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2863755",
+    "original": "ちょっと肌寒いけど、暖房つける程でもないんだよね。",
+    "en": [
+      {
+        "id": "2864505",
+        "text": "It's a bit cold, but it probably isn't worth putting the heater on yet."
+      }
+    ],
+    "vocabIds": [
+      "1583660",
+      "1419860",
+      "1436510"
+    ],
+    "matches": {
+      "1419860": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "だんぼう"
+        }
+      ],
+      "1436510": [
+        {
+          "start": 15,
+          "length": 1,
+          "reading": "ほど"
+        }
+      ],
+      "1583660": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "はださむいけど"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2750113",
+    "original": "今日は日差しの割に肌寒い一日でした。",
+    "en": [
+      {
+        "id": "11745998",
+        "text": "Even though it was sunny today, it was quite cold."
+      },
+      {
+        "id": "11744399",
+        "text": "Though the sun was shining, it was quite chilly today."
+      },
+      {
+        "id": "11744401",
+        "text": "The sun was out, but it was quite chilly today."
+      }
+    ],
+    "vocabIds": [
+      "1289400",
+      "1601830",
+      "1583660",
+      "1606930",
+      "1576260",
+      "2225030",
+      "2225040"
+    ],
+    "matches": {
+      "1289400": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きょうは"
+        }
+      ],
+      "1576260": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "いちにち"
+        }
+      ],
+      "1583660": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "はださむい"
+        }
+      ],
+      "1601830": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "ひざし"
+        }
+      ],
+      "1606930": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "わりに"
+        }
+      ],
+      "2225030": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "いちにち"
+        }
+      ],
+      "2225040": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "いちにち"
+        }
+      ]
+    }
+  }
+]

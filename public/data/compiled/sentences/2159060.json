@@ -1,0 +1,41 @@
+[
+  {
+    "id": "230567",
+    "original": "あの店、一見さんでも入れるのかな。",
+    "en": [
+      {
+        "id": "67934",
+        "text": "I wonder if that restaurant accepts unfamiliar customers."
+      }
+    ],
+    "indices": "彼の(あの){あの} 店(みせ) 一見(いちげん)~ さん[01] でも[02] 入れる の かな",
+    "vocabIds": [
+      "2159060",
+      "1465610",
+      "1582120"
+    ],
+    "matches": {
+      "1465610": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "いれる"
+        }
+      ],
+      "1582120": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "みせ"
+        }
+      ],
+      "2159060": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "いっけんさん"
+        }
+      ]
+    }
+  }
+]

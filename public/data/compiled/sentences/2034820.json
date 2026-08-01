@@ -1,0 +1,118 @@
+[
+  {
+    "id": "101700",
+    "original": "彼は頭でっかちだ。",
+    "en": [
+      {
+        "id": "301993",
+        "text": "He is an armchair theorist."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 頭でっかち[03]~ だ",
+    "vocabIds": [
+      "2034820",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "2034820": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "あたまでっかち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "228217",
+    "original": "うちの会社は頭でっかちだ。",
+    "en": [
+      {
+        "id": "65571",
+        "text": "Our company is too top-heavy."
+      }
+    ],
+    "indices": "うちの会社~ は 頭でっかち[01]~ だ",
+    "vocabIds": [
+      "1860270",
+      "2034820"
+    ],
+    "matches": {
+      "1860270": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "うちのかいしゃ"
+        }
+      ],
+      "2034820": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "あたまでっかち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8872333",
+    "original": "頭でっかちの人ね、ちょっぴりめんどくさそうだけど別に嫌いじゃないよ。",
+    "en": [
+      {
+        "id": "10018466",
+        "text": "I find overthinkers to be a little hard to deal with but I don't hate them so to say."
+      }
+    ],
+    "vocabIds": [
+      "2034820",
+      "1509480",
+      "1257240",
+      "1580640"
+    ],
+    "matches": {
+      "1257240": [
+        {
+          "start": 26,
+          "length": 2,
+          "reading": "きらい"
+        }
+      ],
+      "1509480": [
+        {
+          "start": 24,
+          "length": 2,
+          "reading": "べつに"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ],
+      "2034820": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "あたまでっかち"
+        }
+      ]
+    }
+  }
+]

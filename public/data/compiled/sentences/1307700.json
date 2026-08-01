@@ -1,0 +1,141 @@
+[
+  {
+    "id": "77702",
+    "original": "例えば、大阪はサンフランシスコの姉妹都市です。",
+    "en": [
+      {
+        "id": "326016",
+        "text": "For example, Osaka is the sister city of San Francisco."
+      }
+    ],
+    "indices": "例えば 大阪 は サンフランシスコ の 姉妹都市 です",
+    "vocabIds": [
+      "1307700",
+      "1556370",
+      "2078800"
+    ],
+    "matches": {
+      "1307700": [
+        {
+          "start": 16,
+          "length": 4,
+          "reading": "しまいとし"
+        }
+      ],
+      "1556370": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "たとえば"
+        }
+      ],
+      "2078800": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "おおさか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "144879",
+    "original": "神戸はシアトルの姉妹都市です。",
+    "en": [
+      {
+        "id": "269685",
+        "text": "Kobe is a sister city of Seattle."
+      }
+    ],
+    "indices": "神戸 は 舎路{シアトル}~ の 姉妹都市~ です",
+    "vocabIds": [
+      "1307700",
+      "2164600"
+    ],
+    "matches": {
+      "1307700": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "しまいとし"
+        }
+      ],
+      "2164600": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こうべ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "168883",
+    "original": "姉妹都市はよき隣人と同じである。",
+    "en": [
+      {
+        "id": "245607",
+        "text": "Sister cities are the same as good neighbors."
+      }
+    ],
+    "indices": "姉妹都市 は 良き{よき} 隣人 と 同じ[01] である",
+    "vocabIds": [
+      "1307700",
+      "1555850",
+      "1451750"
+    ],
+    "matches": {
+      "1307700": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "しまいとし"
+        }
+      ],
+      "1451750": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "おなじ"
+        }
+      ],
+      "1555850": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "りんじん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2698369",
+    "original": "京都とボストンは姉妹都市である。",
+    "en": [
+      {
+        "id": "2698592",
+        "text": "Kyoto and Boston are sister cities."
+      }
+    ],
+    "vocabIds": [
+      "1307700",
+      "1652350"
+    ],
+    "matches": {
+      "1307700": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "しまいとし"
+        }
+      ],
+      "1652350": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きょうと"
+        }
+      ]
+    }
+  }
+]

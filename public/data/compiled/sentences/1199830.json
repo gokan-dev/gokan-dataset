@@ -1,0 +1,265 @@
+[
+  {
+    "id": "76280",
+    "original": "壊れたラジオを修理していて、回路の動作原理を理解できていないことに改めて気がつきます。",
+    "en": [
+      {
+        "id": "327440",
+        "text": "Repairing a broken radio I realise over again that I don't have an understanding of the operating principles of circuitry."
+      }
+    ],
+    "indices": "壊れる[02]{壊れた} ラジオ を[01] 修理 為る(する){していて} 回路 之(の)[01]{の} 動作原理~ を[01] 理解 出来る{できていない} 事(こと){こと} に 改めて 気がつく[01]{気がつきます}",
+    "vocabIds": [
+      "2144470",
+      "1199900",
+      "1200740",
+      "1332400",
+      "1199830",
+      "1549910",
+      "1221520"
+    ],
+    "matches": {
+      "1199830": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "かいろ"
+        }
+      ],
+      "1199900": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "こわれた"
+        }
+      ],
+      "1200740": [
+        {
+          "start": 33,
+          "length": 3,
+          "reading": "あらためて"
+        }
+      ],
+      "1221520": [
+        {
+          "start": 36,
+          "length": 1,
+          "reading": "き"
+        }
+      ],
+      "1332400": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "しゅうり"
+        }
+      ],
+      "1549910": [
+        {
+          "start": 22,
+          "length": 2,
+          "reading": "りかい"
+        }
+      ],
+      "2144470": [
+        {
+          "start": 17,
+          "length": 4,
+          "reading": "どうさげんり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "83236",
+    "original": "保護回路を飛ばしてしまおう。",
+    "en": [
+      {
+        "id": "320480",
+        "text": "Let's bypass the protection circuit."
+      },
+      {
+        "id": "393095",
+        "text": "Let's jump the protection circuit."
+      }
+    ],
+    "indices": "保護 回路~ を 飛ばす{飛ばして} 仕舞う{しまおう}",
+    "vocabIds": [
+      "1485230",
+      "1513530",
+      "1199830"
+    ],
+    "matches": {
+      "1199830": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "かいろ"
+        }
+      ],
+      "1485230": [
+        {
+          "start": 5,
+          "length": 8,
+          "reading": "とばしてしまおう"
+        }
+      ],
+      "1513530": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ほご"
+        }
+      ]
+    }
+  },
+  {
+    "id": "185179",
+    "original": "回路を調べる前に、電源のスイッチを切りなさい。",
+    "en": [
+      {
+        "id": "22310",
+        "text": "You must switch off the power before checking the circuit."
+      }
+    ],
+    "indices": "回路 を 調べる 前(まえ) に 電源[02]~ の スイッチを切る{スイッチを切り} 為さい{なさい}",
+    "vocabIds": [
+      "1384830",
+      "1429060",
+      "1199830",
+      "1392590",
+      "1443220"
+    ],
+    "matches": {
+      "1199830": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かいろ"
+        }
+      ],
+      "1384830": [
+        {
+          "start": 17,
+          "length": 5,
+          "reading": "きりなさい"
+        }
+      ],
+      "1392590": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "まえに"
+        }
+      ],
+      "1429060": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "しらべる"
+        }
+      ],
+      "1443220": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "でんげん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "213055",
+    "original": "そのシステム中には保護回路が組み込まれています。",
+    "en": [
+      {
+        "id": "50339",
+        "text": "The protection circuit is built into the system."
+      }
+    ],
+    "indices": "其の[01]{その} システム 中(ちゅう)[02] には 保護 回路 が 組み込む{組み込まれています}",
+    "vocabIds": [
+      "1397510",
+      "1423320",
+      "1513530",
+      "1199830"
+    ],
+    "matches": {
+      "1199830": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "かいろ"
+        }
+      ],
+      "1397510": [
+        {
+          "start": 14,
+          "length": 4,
+          "reading": "くみこま"
+        }
+      ],
+      "1423320": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "ちゅうには"
+        }
+      ],
+      "1513530": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "ほご"
+        }
+      ]
+    }
+  },
+  {
+    "id": "213057",
+    "original": "このシステムには、保護回路が組み込まれています。",
+    "en": [
+      {
+        "id": "50341",
+        "text": "A protection system has been built into this circuit."
+      },
+      {
+        "id": "2717112",
+        "text": "This system has a built-in protection circuit."
+      },
+      {
+        "id": "61051",
+        "text": "With this system a protection circuit has been built in."
+      }
+    ],
+    "indices": "此の{この} システム には 保護 回路 が 組み込む{組み込まれています}",
+    "vocabIds": [
+      "1397510",
+      "1513530",
+      "1199830"
+    ],
+    "matches": {
+      "1199830": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "かいろ"
+        }
+      ],
+      "1397510": [
+        {
+          "start": 14,
+          "length": 4,
+          "reading": "くみこま"
+        }
+      ],
+      "1513530": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "ほご"
+        }
+      ]
+    }
+  }
+]

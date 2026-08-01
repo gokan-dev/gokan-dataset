@@ -1,0 +1,71 @@
+[
+  {
+    "id": "122111",
+    "original": "乳母車で眠っている赤ちゃんは天使のようにかわいい。",
+    "en": [
+      {
+        "id": "281892",
+        "text": "The baby sleeping in the baby carriage is as cute as an angel."
+      }
+    ],
+    "indices": "乳母車~ で(#2028980) 眠る[01]{眠っている} 赤ちゃん は 天使 の様に[01]{のように} 可愛い(かわいい)[01]{かわいい}",
+    "vocabIds": [
+      "1529390",
+      "1383260",
+      "1465350",
+      "1439170"
+    ],
+    "matches": {
+      "1383260": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "あかちゃん"
+        }
+      ],
+      "1439170": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "てんし"
+        }
+      ],
+      "1465350": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "うばぐるま"
+        }
+      ],
+      "1529390": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "ねむっている"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12288726",
+    "original": "あの乳母車は、ワシんちのじゃ。",
+    "en": [
+      {
+        "id": "10702347",
+        "text": "That baby carriage is ours."
+      }
+    ],
+    "vocabIds": [
+      "1465350"
+    ],
+    "matches": {
+      "1465350": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "うばぐるま"
+        }
+      ]
+    }
+  }
+]

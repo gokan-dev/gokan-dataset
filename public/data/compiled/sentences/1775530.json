@@ -1,0 +1,72 @@
+[
+  {
+    "id": "227071",
+    "original": "お手紙落手いたしました。",
+    "en": [
+      {
+        "id": "64420",
+        "text": "I am in receipt of your letter."
+      }
+    ],
+    "indices": "御(お){お} 手紙 落手~ 致す{いたしました}",
+    "vocabIds": [
+      "1327720",
+      "1775530"
+    ],
+    "matches": {
+      "1327720": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "てがみ"
+        }
+      ],
+      "1775530": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "らくしゅ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "227073",
+    "original": "お手紙確かに落手いたしました。",
+    "en": [
+      {
+        "id": "64422",
+        "text": "I hereby beg to acknowledge your letter."
+      }
+    ],
+    "indices": "御(お){お} 手紙 確かに 落手 致す{いたしました}",
+    "vocabIds": [
+      "1205770",
+      "1327720",
+      "1775530"
+    ],
+    "matches": {
+      "1205770": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "たしかに"
+        }
+      ],
+      "1327720": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "てがみ"
+        }
+      ],
+      "1775530": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "らくしゅ"
+        }
+      ]
+    }
+  }
+]

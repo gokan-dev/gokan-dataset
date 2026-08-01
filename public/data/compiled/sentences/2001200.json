@@ -1,0 +1,96 @@
+[
+  {
+    "id": "123223",
+    "original": "内戦中その国は無政府状態だった。",
+    "en": [
+      {
+        "id": "280776",
+        "text": "While the civil war went on, the country was in a state of anarchy."
+      }
+    ],
+    "indices": "内戦 中(ちゅう)[03] 其の[01]{その} 国[01] は 無政府状態 だ{だった}",
+    "vocabIds": [
+      "2001200",
+      "1458640",
+      "1423310",
+      "2098290",
+      "1592250"
+    ],
+    "matches": {
+      "1423310": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ちゅう"
+        }
+      ],
+      "1458640": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ないせん"
+        }
+      ],
+      "1592250": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "くに"
+        }
+      ],
+      "2001200": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "むせいふじょうたい"
+        }
+      ],
+      "2098290": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ちゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "210577",
+    "original": "その国は当時無政府状態だった。",
+    "en": [
+      {
+        "id": "47848",
+        "text": "The country was in a state of anarchy at that time."
+      }
+    ],
+    "indices": "其の[01]{その} 国[01] は 当時 無政府状態~ だ{だった}",
+    "vocabIds": [
+      "2001200",
+      "1449090",
+      "1592250"
+    ],
+    "matches": {
+      "1449090": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "とうじ"
+        }
+      ],
+      "1592250": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "くに"
+        }
+      ],
+      "2001200": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "むせいふじょうたい"
+        }
+      ]
+    }
+  }
+]

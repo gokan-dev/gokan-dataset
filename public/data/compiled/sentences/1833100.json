@@ -1,0 +1,426 @@
+[
+  {
+    "id": "84938",
+    "original": "富士山は雲の上にそびえていた。",
+    "en": [
+      {
+        "id": "318775",
+        "text": "Mt. Fuji was above the clouds."
+      }
+    ],
+    "indices": "富士山 は 雲の上 に 聳える{そびえていた}",
+    "vocabIds": [
+      "1496800",
+      "1833100"
+    ],
+    "matches": {
+      "1496800": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ふじさん"
+        }
+      ],
+      "1833100": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "くものうえ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "85657",
+    "original": "飛行機は雲の上を飛んでいる。",
+    "en": [
+      {
+        "id": "318056",
+        "text": "The plane is flying above the clouds."
+      }
+    ],
+    "indices": "飛行機 は 雲の上 を 飛ぶ[01]{飛んでいる}",
+    "vocabIds": [
+      "1429700",
+      "1485470",
+      "1833100"
+    ],
+    "matches": {
+      "1429700": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "とんでいる"
+        }
+      ],
+      "1485470": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ひこうき"
+        }
+      ],
+      "1833100": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "くものうえ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "85658",
+    "original": "飛行機は雲の上を飛んでいった。",
+    "en": [
+      {
+        "id": "318055",
+        "text": "The plane flew above the clouds."
+      }
+    ],
+    "indices": "飛行機 は 雲の上 を 飛ぶ[01]{飛んで} 行く{いった}",
+    "vocabIds": [
+      "1429700",
+      "1485470",
+      "1833100"
+    ],
+    "matches": {
+      "1429700": [
+        {
+          "start": 8,
+          "length": 6,
+          "reading": "とんでいった"
+        }
+      ],
+      "1485470": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ひこうき"
+        }
+      ],
+      "1833100": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "くものうえ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "158376",
+    "original": "雲の上を飛んでみたい。",
+    "en": [
+      {
+        "id": "256154",
+        "text": "I want to fly above the clouds."
+      }
+    ],
+    "indices": "雲の上 を[03] 飛ぶ[01]{飛んで} 見る[05]{み} たい",
+    "vocabIds": [
+      "1429700",
+      "1833100"
+    ],
+    "matches": {
+      "1429700": [
+        {
+          "start": 4,
+          "length": 6,
+          "reading": "とんでみたい"
+        }
+      ],
+      "1833100": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "くものうえ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "158377",
+    "original": "私は雲の上を飛んだ。",
+    "en": [
+      {
+        "id": "256153",
+        "text": "I flew above the clouds."
+      }
+    ],
+    "indices": "私(わたし)[01] は 雲の上 を[03] 飛ぶ[01]{飛んだ}",
+    "vocabIds": [
+      "1833100",
+      "1008770",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1008770": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "とんだ"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1833100": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "くものうえ"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "166829",
+    "original": "私たちの飛行機は雲の上を飛んでいます。",
+    "en": [
+      {
+        "id": "247673",
+        "text": "Our plane is flying over the clouds."
+      }
+    ],
+    "indices": "私たち の 飛行機 は 雲の上 を 飛ぶ[01]{飛んでいます}",
+    "vocabIds": [
+      "1429700",
+      "1311300",
+      "1485470",
+      "1833100"
+    ],
+    "matches": {
+      "1311300": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1429700": [
+        {
+          "start": 12,
+          "length": 6,
+          "reading": "とんでいます"
+        }
+      ],
+      "1485470": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "ひこうき"
+        }
+      ],
+      "1833100": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "くものうえ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "169387",
+    "original": "山頂が雲の上にそびえている。",
+    "en": [
+      {
+        "id": "44024",
+        "text": "The peak rises above the clouds."
+      }
+    ],
+    "indices": "山頂~ が 雲の上 に 聳える{そびえている}",
+    "vocabIds": [
+      "1833100",
+      "1303060"
+    ],
+    "matches": {
+      "1303060": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "さんちょう"
+        }
+      ],
+      "1833100": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "くものうえ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "175683",
+    "original": "月が雲の上に出た。",
+    "en": [
+      {
+        "id": "238782",
+        "text": "The moon rose above the clouds."
+      }
+    ],
+    "indices": "月(つき)[01] が 雲の上~ に 出る{出た}",
+    "vocabIds": [
+      "1833100",
+      "1338240",
+      "1255430"
+    ],
+    "matches": {
+      "1255430": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "つき"
+        }
+      ],
+      "1338240": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "でた"
+        }
+      ],
+      "1833100": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "くものうえ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "191708",
+    "original": "われわれの飛行機は雲の上を飛んでいた。",
+    "en": [
+      {
+        "id": "28871",
+        "text": "Our plane was flying above the clouds."
+      }
+    ],
+    "indices": "我々{われわれ} の 飛行機 は 雲の上 を 飛ぶ[01]{飛んでいた}",
+    "vocabIds": [
+      "1429700",
+      "1485470",
+      "1833100"
+    ],
+    "matches": {
+      "1429700": [
+        {
+          "start": 13,
+          "length": 5,
+          "reading": "とんでいた"
+        }
+      ],
+      "1485470": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "ひこうき"
+        }
+      ],
+      "1833100": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "くものうえ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "206776",
+    "original": "その峰は雲の上にそびえている。",
+    "en": [
+      {
+        "id": "44024",
+        "text": "The peak rises above the clouds."
+      }
+    ],
+    "indices": "其の[01]{その} 峰~ は 雲の上 に 聳える{そびえている}~",
+    "vocabIds": [
+      "1833100",
+      "1516250"
+    ],
+    "matches": {
+      "1516250": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "みね"
+        }
+      ],
+      "1833100": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "くものうえ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "4272199",
+    "original": "私たちは雲の上を飛んでいる。",
+    "en": [
+      {
+        "id": "4275749",
+        "text": "We're flying above the clouds."
+      },
+      {
+        "id": "248445",
+        "text": "We are flying above the clouds."
+      }
+    ],
+    "vocabIds": [
+      "1429700",
+      "1311300",
+      "1833100"
+    ],
+    "matches": {
+      "1311300": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1429700": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "とんでいる"
+        }
+      ],
+      "1833100": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "くものうえ"
+        }
+      ]
+    }
+  }
+]

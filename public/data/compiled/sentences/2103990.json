@@ -1,0 +1,100 @@
+[
+  {
+    "id": "101481",
+    "original": "彼は日本で有名な流行歌手です。",
+    "en": [
+      {
+        "id": "302214",
+        "text": "He's a famous popular singer in Japan."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 日本 で(#2028980) 有名[01]{有名な} 流行歌手~ です",
+    "vocabIds": [
+      "2103990",
+      "1582710",
+      "1541620",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1541620": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ゆうめい"
+        }
+      ],
+      "1582710": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "にっぽん"
+        }
+      ],
+      "2103990": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "りゅうこうかしゅ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "192416",
+    "original": "ルーシーが流行歌手と結婚するのは確かだ。",
+    "en": [
+      {
+        "id": "29580",
+        "text": "It is certain that Lucy will marry the pop singer."
+      },
+      {
+        "id": "1356535",
+        "text": "Lucy will definitely get married to the pop singer."
+      }
+    ],
+    "indices": "が 流行歌手 と 結婚{結婚する} の は 確か[01] だ",
+    "vocabIds": [
+      "2103990",
+      "1254790",
+      "1596930"
+    ],
+    "matches": {
+      "1254790": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "けっこん"
+        }
+      ],
+      "1596930": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "たしか"
+        }
+      ],
+      "2103990": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "りゅうこうかしゅ"
+        }
+      ]
+    }
+  }
+]

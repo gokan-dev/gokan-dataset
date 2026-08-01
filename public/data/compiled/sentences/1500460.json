@@ -1,0 +1,101 @@
+[
+  {
+    "id": "83902",
+    "original": "副社長によると、会社はいまだに外国の会社から契約をもらっていない。",
+    "en": [
+      {
+        "id": "319814",
+        "text": "According to the vice president, the company has yet to receive a contract from a foreign company."
+      }
+    ],
+    "indices": "副社長 に依ると{によると} 会社[01] は 未だに{いまだに} 外国 の 会社[01] から 契約 を 貰う{もらっていない}",
+    "vocabIds": [
+      "1500460",
+      "1198550",
+      "1203620",
+      "1250190"
+    ],
+    "matches": {
+      "1198550": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "かいしゃ"
+        },
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "かいしゃ"
+        }
+      ],
+      "1203620": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "がいこく"
+        }
+      ],
+      "1250190": [
+        {
+          "start": 22,
+          "length": 2,
+          "reading": "けいやく"
+        }
+      ],
+      "1500460": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ふくしゃちょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "149163",
+    "original": "社長は来ないで代わりに副社長をよこした。",
+    "en": [
+      {
+        "id": "265395",
+        "text": "The president did not come, but sent the vice-president in his stead."
+      }
+    ],
+    "indices": "社長 は 来る(くる)[01]{来ないで} 代わり に 副社長~ を 寄越す{よこした}",
+    "vocabIds": [
+      "1590790",
+      "1547720",
+      "1500460",
+      "1322920"
+    ],
+    "matches": {
+      "1322920": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しゃちょう"
+        }
+      ],
+      "1500460": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "ふくしゃちょう"
+        }
+      ],
+      "1547720": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "こないで"
+        }
+      ],
+      "1590790": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "かわりに"
+        }
+      ]
+    }
+  }
+]

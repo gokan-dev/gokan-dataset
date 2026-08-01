@@ -1,0 +1,77 @@
+[
+  {
+    "id": "190316",
+    "original": "一度に一事をせよ。",
+    "en": [
+      {
+        "id": "27475",
+        "text": "Do one thing at a time."
+      }
+    ],
+    "indices": "一度に 一事 を 為る(する){せよ}",
+    "vocabIds": [
+      "1609210",
+      "1162890"
+    ],
+    "matches": {
+      "1162890": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "いちじ"
+        }
+      ],
+      "1609210": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "いちどに"
+        }
+      ]
+    }
+  },
+  {
+    "id": "190598",
+    "original": "一事成れば万事成る。",
+    "en": [
+      {
+        "id": "27758",
+        "text": "Nothing succeeds like success."
+      }
+    ],
+    "indices": "一事~ 成る{成れば} 万事~ 成る",
+    "vocabIds": [
+      "1375610",
+      "1162890",
+      "1526080"
+    ],
+    "matches": {
+      "1162890": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いちじ"
+        }
+      ],
+      "1375610": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "なれば"
+        },
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "なる"
+        }
+      ],
+      "1526080": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ばんじ"
+        }
+      ]
+    }
+  }
+]

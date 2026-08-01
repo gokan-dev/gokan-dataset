@@ -1,0 +1,63 @@
+[
+  {
+    "id": "122012",
+    "original": "濡れ衣を着せられた。",
+    "en": [
+      {
+        "id": "281991",
+        "text": "I was falsely accused."
+      }
+    ],
+    "indices": "濡れ衣を着せる{濡れ衣を着せられた}~",
+    "vocabIds": [
+      "1819830",
+      "1422990"
+    ],
+    "matches": {
+      "1422990": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "きせ"
+        }
+      ],
+      "1819830": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ぬれぎぬ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2759290",
+    "original": "トムは濡れ衣を着せられた。",
+    "en": [
+      {
+        "id": "2821531",
+        "text": "Tom was falsely accused."
+      }
+    ],
+    "vocabIds": [
+      "1819830",
+      "1422990"
+    ],
+    "matches": {
+      "1422990": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "きせ"
+        }
+      ],
+      "1819830": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "ぬれぎぬ"
+        }
+      ]
+    }
+  }
+]

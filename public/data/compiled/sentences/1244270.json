@@ -1,0 +1,143 @@
+[
+  {
+    "id": "82618",
+    "original": "豊島区役所までどのくらいかかりますか。",
+    "en": [
+      {
+        "id": "321098",
+        "text": "How long does it take to go to the Toshima Ward Office?"
+      }
+    ],
+    "indices": "区役所 迄{まで} どの位{どのくらい} 掛かる[01]{かかります} か",
+    "vocabIds": [
+      "1244270"
+    ],
+    "matches": {
+      "1244270": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "くやくしょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "148934",
+    "original": "車を買うためは区役所に駐車スペースがあることを証明しなければならない。",
+    "en": [
+      {
+        "id": "265624",
+        "text": "In order to buy a car, you must show the ward office proof of parking space."
+      }
+    ],
+    "indices": "車 を 買う[01] 為(ため){ため} は 区役所 に 駐車 スペース[01] が[01] 有る{ある} 事(こと){こと} を 証明 為る(する){し} ねばならない{なければならない}",
+    "vocabIds": [
+      "2830665",
+      "1244270",
+      "1473740",
+      "1351680",
+      "1323080"
+    ],
+    "matches": {
+      "1244270": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "くやくしょ"
+        }
+      ],
+      "1323080": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1351680": [
+        {
+          "start": 23,
+          "length": 2,
+          "reading": "しょうめい"
+        }
+      ],
+      "1473740": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "かう"
+        }
+      ],
+      "2830665": [
+        {
+          "start": 11,
+          "length": 6,
+          "reading": "ちゅうしゃすぺーす"
+        }
+      ]
+    }
+  },
+  {
+    "id": "236003",
+    "original": "１０年前の成人の日に区役所からボールペンをもらった。",
+    "en": [
+      {
+        "id": "73384",
+        "text": "Ten years ago the ward office gave us ballpoint pens on the Coming of Age Day."
+      }
+    ],
+    "indices": "年(ねん) 前(まえ)[02] の 成人の日~ に 区役所~ から ボールペン を 貰う{もらった}",
+    "vocabIds": [
+      "1375750",
+      "1244270",
+      "1579840",
+      "2084840",
+      "1387210",
+      "1392580"
+    ],
+    "matches": {
+      "1244270": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "くやくしょ"
+        }
+      ],
+      "1375750": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "せいじんのひ"
+        }
+      ],
+      "1387210": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "まえ"
+        }
+      ],
+      "1392580": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "まえ"
+        }
+      ],
+      "1579840": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いちぜろ"
+        }
+      ],
+      "2084840": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ねん"
+        }
+      ]
+    }
+  }
+]

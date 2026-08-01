@@ -1,0 +1,205 @@
+[
+  {
+    "id": "137429",
+    "original": "大雪のために、列車は延着した。",
+    "en": [
+      {
+        "id": "275807",
+        "text": "The train was delayed on account of a heavy snow."
+      }
+    ],
+    "indices": "大雪[01] の 為に{ために} 列車 は 延着 為る(する){した}",
+    "vocabIds": [
+      "1414350",
+      "1558370",
+      "1176500"
+    ],
+    "matches": {
+      "1176500": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "えんちゃく"
+        }
+      ],
+      "1414350": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おおゆき"
+        }
+      ],
+      "1558370": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "れっしゃ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "191379",
+    "original": "悪天候のため飛行機は延着した。",
+    "en": [
+      {
+        "id": "28541",
+        "text": "Due to bad weather, the plane was late."
+      },
+      {
+        "id": "1332074",
+        "text": "The plane was late because of bad weather."
+      },
+      {
+        "id": "1332075",
+        "text": "The plane was late due to bad weather."
+      }
+    ],
+    "indices": "悪天候 の 為(ため){ため} 飛行機 は 延着~ 為る(する){した}",
+    "vocabIds": [
+      "1152280",
+      "1485470",
+      "1176500"
+    ],
+    "matches": {
+      "1152280": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あくてんこう"
+        }
+      ],
+      "1176500": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "えんちゃく"
+        }
+      ],
+      "1485470": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "ひこうき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "191380",
+    "original": "悪天候のため飛行機は３時間延着した。",
+    "en": [
+      {
+        "id": "28542",
+        "text": "Due to bad weather, the plane arrived three hours late."
+      }
+    ],
+    "indices": "悪天候 の 為(ため)[03]{ため} 飛行機 は 時間[02] 延着 為る(する){した}",
+    "vocabIds": [
+      "1152280",
+      "1485470",
+      "1315920",
+      "1176500",
+      "1579350"
+    ],
+    "matches": {
+      "1152280": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あくてんこう"
+        }
+      ],
+      "1176500": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "えんちゃく"
+        }
+      ],
+      "1315920": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "じかん"
+        }
+      ],
+      "1485470": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "ひこうき"
+        }
+      ],
+      "1579350": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "さん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "6608699",
+    "original": "天気が悪くて飛行機が延着した。",
+    "en": [
+      {
+        "id": "6622546",
+        "text": "The weather was bad so the plane was delayed."
+      }
+    ],
+    "vocabIds": [
+      "1485470",
+      "1151260",
+      "1403390",
+      "2772730",
+      "1438690",
+      "1176500"
+    ],
+    "matches": {
+      "1151260": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "わるくて"
+        }
+      ],
+      "1176500": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "えんちゃく"
+        }
+      ],
+      "1403390": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "わるくて"
+        }
+      ],
+      "1438690": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "てんき"
+        }
+      ],
+      "1485470": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "ひこうき"
+        }
+      ],
+      "2772730": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "わるくて"
+        }
+      ]
+    }
+  }
+]

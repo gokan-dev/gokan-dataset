@@ -1,0 +1,80 @@
+[
+  {
+    "id": "79123",
+    "original": "夕刻にはおそらく雨になるだろう。",
+    "en": [
+      {
+        "id": "324594",
+        "text": "We may well have rain this evening."
+      }
+    ],
+    "indices": "夕刻 には 恐らく{おそらく} 雨 になる[01] だろう",
+    "vocabIds": [
+      "1542710",
+      "1171900"
+    ],
+    "matches": {
+      "1171900": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "あめ"
+        }
+      ],
+      "1542710": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ゆうこく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "206227",
+    "original": "その旅行者は夕刻ニューヨークに着いた。",
+    "en": [
+      {
+        "id": "43473",
+        "text": "The traveler arrived in New York in the evening."
+      }
+    ],
+    "indices": "其の[01]{その} 旅行者 は 夕刻~ 紐育{ニューヨーク} に 着く(つく)[01]{着いた}",
+    "vocabIds": [
+      "1553180",
+      "1422970",
+      "1607260",
+      "1542710"
+    ],
+    "matches": {
+      "1422970": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "ついた"
+        }
+      ],
+      "1542710": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ゆうこく"
+        }
+      ],
+      "1553180": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "りょこうしゃ"
+        }
+      ],
+      "1607260": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "ついた"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,177 @@
+[
+  {
+    "id": "122279",
+    "original": "日本人の平均寿命は大いに伸びた。",
+    "en": [
+      {
+        "id": "281724",
+        "text": "The average life span of the Japanese has lengthened to a great extent."
+      }
+    ],
+    "indices": "日本人 の 平均寿命[01] は 大いに 伸びる{伸びた}",
+    "vocabIds": [
+      "1507200",
+      "1464700",
+      "1412880",
+      "1358870"
+    ],
+    "matches": {
+      "1358870": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "のびた"
+        }
+      ],
+      "1412880": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "おおいに"
+        }
+      ],
+      "1464700": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "にっぽんじん"
+        }
+      ],
+      "1507200": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "へいきんじゅみょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "122820",
+    "original": "日本での平均寿命はどれだけですか。",
+    "en": [
+      {
+        "id": "281182",
+        "text": "What is the average life span in Japan?"
+      }
+    ],
+    "indices": "日本 で(#2028980) の 平均寿命[01] は 何れ丈{どれだけ} ですか",
+    "vocabIds": [
+      "1507200",
+      "1582710"
+    ],
+    "matches": {
+      "1507200": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "へいきんじゅみょう"
+        }
+      ],
+      "1582710": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "にっぽん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "170694",
+    "original": "最近の研究によれば、日本人の平均寿命はまだ伸びているそうだ。",
+    "en": [
+      {
+        "id": "243787",
+        "text": "According to a recent study, the average life span of the Japanese is still increasing."
+      }
+    ],
+    "indices": "最近{最近の} 研究 に依れば{によれば} 日本人 の 平均寿命[01]~ は 未だ[01]{まだ} 伸びる{伸びている} そうだ[02]",
+    "vocabIds": [
+      "1358870",
+      "1507200",
+      "1464700",
+      "1293780",
+      "1258520"
+    ],
+    "matches": {
+      "1258520": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "けんきゅう"
+        }
+      ],
+      "1293780": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "さいきん"
+        }
+      ],
+      "1358870": [
+        {
+          "start": 21,
+          "length": 5,
+          "reading": "のびている"
+        }
+      ],
+      "1464700": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "にっぽんじん"
+        }
+      ],
+      "1507200": [
+        {
+          "start": 14,
+          "length": 4,
+          "reading": "へいきんじゅみょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11683475",
+    "original": "犬の平均寿命は10年です。",
+    "en": [
+      {
+        "id": "2761554",
+        "text": "The average life of a dog is ten years."
+      },
+      {
+        "id": "12375614",
+        "text": "The average life span of a dog is 10 years."
+      }
+    ],
+    "vocabIds": [
+      "1507200",
+      "1258330",
+      "2084840"
+    ],
+    "matches": {
+      "1258330": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "いぬ"
+        }
+      ],
+      "1507200": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "へいきんじゅみょう"
+        }
+      ],
+      "2084840": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "ねん"
+        }
+      ]
+    }
+  }
+]

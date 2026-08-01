@@ -1,0 +1,106 @@
+[
+  {
+    "id": "218868",
+    "original": "これが診察券です。",
+    "en": [
+      {
+        "id": "56183",
+        "text": "This is my I.D. card."
+      }
+    ],
+    "indices": "此れ[01]{これ} が 診察券 です",
+    "vocabIds": [
+      "1705630"
+    ],
+    "matches": {
+      "1705630": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "しんさつけん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8623955",
+    "original": "診察券は要らないんですか。",
+    "en": [
+      {
+        "id": "10185158",
+        "text": "Don't I need my patient ID?"
+      }
+    ],
+    "vocabIds": [
+      "1546640",
+      "1705630"
+    ],
+    "matches": {
+      "1546640": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "いらない"
+        }
+      ],
+      "1705630": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "しんさつけん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "144764",
+    "original": "診察券を持って来るのを忘れてしまいました。",
+    "en": [
+      {
+        "id": "12614536",
+        "text": "I forgot to bring my I.D."
+      },
+      {
+        "id": "12614537",
+        "text": "I forgot to bring my medical I.D."
+      },
+      {
+        "id": "12614542",
+        "text": "I neglected to bring my proof of hospitalization."
+      },
+      {
+        "id": "12614544",
+        "text": "I forgot to bring my medical registration ticket."
+      }
+    ],
+    "indices": "診察券~ を 持ってくる{持って来る} の を 忘れる{忘れて} 仕舞う{しまいました}",
+    "vocabIds": [
+      "1519210",
+      "1315710",
+      "1705630"
+    ],
+    "matches": {
+      "1315710": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "もってくる"
+        }
+      ],
+      "1519210": [
+        {
+          "start": 11,
+          "length": 9,
+          "reading": "わすれてしまいました"
+        }
+      ],
+      "1705630": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "しんさつけん"
+        }
+      ]
+    }
+  }
+]

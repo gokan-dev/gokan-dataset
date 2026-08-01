@@ -1,0 +1,67 @@
+[
+  {
+    "id": "171660",
+    "original": "今日は汗ばむような陽気だ。",
+    "en": [
+      {
+        "id": "242815",
+        "text": "It's warm enough today to bring out a slight sweat."
+      }
+    ],
+    "indices": "今日 は 汗ばむ~ 様な{ような} 陽気[02]~ だ",
+    "vocabIds": [
+      "1289400",
+      "1213070",
+      "1546990"
+    ],
+    "matches": {
+      "1213070": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "あせばむ"
+        }
+      ],
+      "1289400": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きょうは"
+        }
+      ],
+      "1546990": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "ようき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11027993",
+    "original": "すぐに汗ばむ。",
+    "en": [
+      {
+        "id": "12603459",
+        "text": "You start sweating after nothing."
+      },
+      {
+        "id": "12603460",
+        "text": "You sweat immediately."
+      }
+    ],
+    "vocabIds": [
+      "1213070"
+    ],
+    "matches": {
+      "1213070": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "あせばむ"
+        }
+      ]
+    }
+  }
+]

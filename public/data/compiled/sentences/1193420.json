@@ -1,0 +1,781 @@
+[
+  {
+    "id": "90065",
+    "original": "彼女は今、歌舞伎を観ているところだ。",
+    "en": [
+      {
+        "id": "313649",
+        "text": "She is seeing a Kabuki play now."
+      }
+    ],
+    "indices": "彼女[01] は 今(いま) 歌舞伎 を 見る[04]{観ている} 所(ところ){ところ} だ",
+    "vocabIds": [
+      "1259290",
+      "1193420",
+      "1483150",
+      "1288850"
+    ],
+    "matches": {
+      "1193420": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "かぶき"
+        }
+      ],
+      "1259290": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "みている"
+        }
+      ],
+      "1288850": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "いま"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "124268",
+    "original": "東京で歌舞伎を見た。",
+    "en": [
+      {
+        "id": "279726",
+        "text": "I saw a kabuki play in Tokyo."
+      }
+    ],
+    "indices": "東京 で(#2028980) 歌舞伎 を 見る{見た}",
+    "vocabIds": [
+      "1193420",
+      "1447690",
+      "1259290"
+    ],
+    "matches": {
+      "1193420": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "かぶき"
+        }
+      ],
+      "1259290": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "みた"
+        }
+      ],
+      "1447690": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とうきょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "138431",
+    "original": "多くの外国人が歌舞伎の良さがわかります。",
+    "en": [
+      {
+        "id": "274804",
+        "text": "Many foreigners can appreciate Kabuki."
+      }
+    ],
+    "indices": "多く の 外国人 が 歌舞伎 の 良い{良} さ[01] が 分かる{わかります}",
+    "vocabIds": [
+      "1203650",
+      "1193420",
+      "1861770",
+      "1605820"
+    ],
+    "matches": {
+      "1193420": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "かぶき"
+        }
+      ],
+      "1203650": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "がいこくじん"
+        }
+      ],
+      "1605820": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "よさ"
+        }
+      ],
+      "1861770": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おおく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "154644",
+    "original": "私は能楽が歌舞伎より好きだが、それは前者が後者よりも優雅に思えるからである。",
+    "en": [
+      {
+        "id": "259896",
+        "text": "I prefer Noh to Kabuki, because the former looks more elegant to me than the latter."
+      }
+    ],
+    "indices": "私(わたし)[01] は 能楽~ が 歌舞伎 より 好き(すき) だ が[03] 其れ[01]{それ} は 前者 が 後者 よりも 優雅{優雅に} 思える から である",
+    "vocabIds": [
+      "1309440",
+      "1193420",
+      "1470140",
+      "1277450",
+      "1393090",
+      "1269720",
+      "1539180",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1193420": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "かぶき"
+        }
+      ],
+      "1269720": [
+        {
+          "start": 21,
+          "length": 2,
+          "reading": "こうしゃ"
+        }
+      ],
+      "1277450": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "すき"
+        }
+      ],
+      "1309440": [
+        {
+          "start": 29,
+          "length": 8,
+          "reading": "おもえるからである"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1393090": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "ぜんしゃ"
+        }
+      ],
+      "1470140": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "のうがく"
+        }
+      ],
+      "1539180": [
+        {
+          "start": 26,
+          "length": 2,
+          "reading": "ゆうが"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "157993",
+    "original": "私は歌舞伎を研究しています。",
+    "en": [
+      {
+        "id": "256537",
+        "text": "I'm studying kabuki drama."
+      }
+    ],
+    "indices": "私(わたし)[01] は 歌舞伎 を 研究 為る(する){しています}",
+    "vocabIds": [
+      "1193420",
+      "1258520",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1193420": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "かぶき"
+        }
+      ],
+      "1258520": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "けんきゅう"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "186774",
+    "original": "歌舞伎界では才能だけでなく世襲も重要だ。",
+    "en": [
+      {
+        "id": "23910",
+        "text": "In Kabuki not only talent but also heredity counts."
+      },
+      {
+        "id": "1554289",
+        "text": "In Kabuki, not only talent, but also heredity counts."
+      }
+    ],
+    "indices": "歌舞伎 界(かい)[01] で(#2028980) は 才能 だけでなく 世襲~ も 重要 だ",
+    "vocabIds": [
+      "1193420",
+      "1294630",
+      "1374080",
+      "1336820",
+      "1235950",
+      "2081500"
+    ],
+    "matches": {
+      "1193420": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "かぶき"
+        }
+      ],
+      "1235950": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "かい"
+        }
+      ],
+      "1294630": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "さいのう"
+        }
+      ],
+      "1336820": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "じゅうよう"
+        }
+      ],
+      "1374080": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "せしゅう"
+        }
+      ],
+      "2081500": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "かい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "186775",
+    "original": "歌舞伎は古くからの日本の芸術だ。",
+    "en": [
+      {
+        "id": "23911",
+        "text": "Kabuki is an old Japanese art."
+      }
+    ],
+    "indices": "歌舞伎~ は 古く~ から の 日本 の 芸術~ だ",
+    "vocabIds": [
+      "2844849",
+      "1193420",
+      "1582710",
+      "1253060"
+    ],
+    "matches": {
+      "1193420": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "かぶき"
+        }
+      ],
+      "1253060": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "げいじゅつ"
+        }
+      ],
+      "1582710": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "にっぽん"
+        }
+      ],
+      "2844849": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "ふるくから"
+        }
+      ]
+    }
+  },
+  {
+    "id": "186776",
+    "original": "歌舞伎はご存じですか。",
+    "en": [
+      {
+        "id": "23912",
+        "text": "Do you know kabuki?"
+      }
+    ],
+    "indices": "歌舞伎 は ご存じ[01] ですか",
+    "vocabIds": [
+      "1193420",
+      "1593570"
+    ],
+    "matches": {
+      "1193420": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "かぶき"
+        }
+      ],
+      "1593570": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "ごぞんじ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "193769",
+    "original": "もしよろしければ、日本滞在中に歌舞伎を見に行きませんか。",
+    "en": [
+      {
+        "id": "30937",
+        "text": "I am wondering if you would like to go and see kabuki with me while staying in Japan."
+      }
+    ],
+    "indices": "若し(もし){もし} 宜しければ{よろしければ} 日本 滞在中 に 歌舞伎 を 見に行く{見に行きません} か",
+    "vocabIds": [
+      "1578850",
+      "1753700",
+      "1193420",
+      "1582710",
+      "1259290"
+    ],
+    "matches": {
+      "1193420": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "かぶき"
+        }
+      ],
+      "1259290": [
+        {
+          "start": 19,
+          "length": 1,
+          "reading": "み"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 21,
+          "length": 5,
+          "reading": "いきません"
+        }
+      ],
+      "1582710": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "にっぽん"
+        }
+      ],
+      "1753700": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "たいざいちゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "225746",
+    "original": "きれいな歌舞伎の人形ですね。",
+    "en": [
+      {
+        "id": "63084",
+        "text": "That's a beautiful Kabuki doll!"
+      }
+    ],
+    "indices": "奇麗{きれいな} 歌舞伎 の 人形(にんぎょう) です ね(#2029080)[01]",
+    "vocabIds": [
+      "1193420",
+      "1367120",
+      "2856519"
+    ],
+    "matches": {
+      "1193420": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "かぶき"
+        }
+      ],
+      "1367120": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "にんぎょう"
+        }
+      ],
+      "2856519": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "にんぎょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "231153",
+    "original": "あの歌舞伎役者は若い人達に非常に人気がある。",
+    "en": [
+      {
+        "id": "68519",
+        "text": "That kabuki actor is very popular with young people."
+      },
+      {
+        "id": "838845",
+        "text": "That kabuki actor is very well known amongst young people."
+      }
+    ],
+    "indices": "彼の(あの){あの} 歌舞伎 役者 は 若い 人達 に 非常に 人気がある",
+    "vocabIds": [
+      "2847376",
+      "1193420",
+      "1484930",
+      "1538010",
+      "1324300",
+      "1368740"
+    ],
+    "matches": {
+      "1193420": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "かぶき"
+        }
+      ],
+      "1324300": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "わかい"
+        }
+      ],
+      "1368740": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "ひとたち"
+        }
+      ],
+      "1484930": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "ひじょうに"
+        }
+      ],
+      "1538010": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "やくしゃ"
+        }
+      ],
+      "2847376": [
+        {
+          "start": 16,
+          "length": 5,
+          "reading": "にんきがある"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1004235",
+    "original": "あの歌舞伎の本は高いかもしれません。",
+    "en": [
+      {
+        "id": "1004236",
+        "text": "That book on kabuki might be expensive."
+      }
+    ],
+    "vocabIds": [
+      "1193420",
+      "1283190",
+      "1260670",
+      "1522150"
+    ],
+    "matches": {
+      "1193420": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "かぶき"
+        }
+      ],
+      "1260670": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "ほん"
+        }
+      ],
+      "1283190": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "たかい"
+        }
+      ],
+      "1522150": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "ほん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2261678",
+    "original": "歌舞伎界では、才能だけでなく血筋も重視される。",
+    "en": [
+      {
+        "id": "1554289",
+        "text": "In Kabuki, not only talent, but also heredity counts."
+      }
+    ],
+    "vocabIds": [
+      "1193420",
+      "1294630",
+      "1255220",
+      "1336260",
+      "1235950",
+      "2081500"
+    ],
+    "matches": {
+      "1193420": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "かぶき"
+        }
+      ],
+      "1235950": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "かい"
+        }
+      ],
+      "1255220": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "ちすじ"
+        }
+      ],
+      "1294630": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "さいのう"
+        }
+      ],
+      "1336260": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "じゅうし"
+        }
+      ],
+      "2081500": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "かい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3583593",
+    "original": "歌舞伎って知ってる？",
+    "en": [
+      {
+        "id": "23912",
+        "text": "Do you know kabuki?"
+      }
+    ],
+    "vocabIds": [
+      "1420470",
+      "1193420"
+    ],
+    "matches": {
+      "1193420": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "かぶき"
+        }
+      ],
+      "1420470": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "しってる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3583594",
+    "original": "歌舞伎ってご存知ですか？",
+    "en": [
+      {
+        "id": "23912",
+        "text": "Do you know kabuki?"
+      }
+    ],
+    "vocabIds": [
+      "1193420",
+      "1593570"
+    ],
+    "matches": {
+      "1193420": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "かぶき"
+        }
+      ],
+      "1593570": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "ごぞんじ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10050319",
+    "original": "歌舞伎ってわかる？",
+    "en": [
+      {
+        "id": "23912",
+        "text": "Do you know kabuki?"
+      }
+    ],
+    "vocabIds": [
+      "1193420"
+    ],
+    "matches": {
+      "1193420": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "かぶき"
+        }
+      ]
+    }
+  }
+]

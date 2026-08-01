@@ -1,0 +1,197 @@
+[
+  {
+    "id": "217320",
+    "original": "こんな美しい日の入りを見たことがありますか。",
+    "en": [
+      {
+        "id": "54628",
+        "text": "Have you ever seen such a beautiful sunset?"
+      }
+    ],
+    "indices": "こんな 美しい 日の入り を 見る{見た} 事がある{ことがあります} か",
+    "vocabIds": [
+      "1463800",
+      "1486360",
+      "1259290"
+    ],
+    "matches": {
+      "1259290": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "みた"
+        }
+      ],
+      "1463800": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "ひのいり"
+        }
+      ],
+      "1486360": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "うつくしい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "217416",
+    "original": "こんなに美しい日の入りを見たことがありますか。",
+    "en": [
+      {
+        "id": "54628",
+        "text": "Have you ever seen such a beautiful sunset?"
+      }
+    ],
+    "indices": "こんなに 美しい 日の入り~ を 見る{見た} 事がある{ことがあります} か",
+    "vocabIds": [
+      "1463800",
+      "1486360",
+      "1259290"
+    ],
+    "matches": {
+      "1259290": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "みた"
+        }
+      ],
+      "1463800": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "ひのいり"
+        }
+      ],
+      "1486360": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "うつくしい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "218701",
+    "original": "これは、私が今までに見たうちで一番美しい日の入りだ。",
+    "en": [
+      {
+        "id": "56016",
+        "text": "This is the most beautiful sunset that I have ever seen."
+      },
+      {
+        "id": "3927259",
+        "text": "This is the most beautiful sunset I've ever seen."
+      }
+    ],
+    "indices": "此れ[01]{これ} は 私(わたし)[01] が 今まで に 見る{見た} 内(うち){うち} で(#2028980) 一番(いちばん)[01] 美しい 日の入り だ",
+    "vocabIds": [
+      "1463800",
+      "1587590",
+      "1486360",
+      "1259290",
+      "1165970",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1165970": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "いちばん"
+        }
+      ],
+      "1259290": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "みた"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1463800": [
+        {
+          "start": 20,
+          "length": 4,
+          "reading": "ひのいり"
+        }
+      ],
+      "1486360": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "うつくしい"
+        }
+      ],
+      "1587590": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "いままで"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11903884",
+    "original": "今日の日の入りって、いつ？",
+    "en": [
+      {
+        "id": "11864364",
+        "text": "When does the sun go down today?"
+      },
+      {
+        "id": "11864363",
+        "text": "When does the sun set today?"
+      }
+    ],
+    "vocabIds": [
+      "1463800",
+      "1579110"
+    ],
+    "matches": {
+      "1463800": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "ひのいり"
+        }
+      ],
+      "1579110": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きょう"
+        }
+      ]
+    }
+  }
+]

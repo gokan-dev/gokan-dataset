@@ -1,0 +1,119 @@
+[
+  {
+    "id": "139148",
+    "original": "村人たちは、あの世があると思っていた。",
+    "en": [
+      {
+        "id": "274583",
+        "text": "The villagers believed in life after death."
+      }
+    ],
+    "indices": "村人~ 達{たち} は あの世~ が[01] 有る{ある} と 思う{思っていた}",
+    "vocabIds": [
+      "1589350",
+      "1612740",
+      "1406830"
+    ],
+    "matches": {
+      "1406830": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "むらびと"
+        }
+      ],
+      "1589350": [
+        {
+          "start": 13,
+          "length": 5,
+          "reading": "おもっていた"
+        }
+      ],
+      "1612740": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "あのよ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "168142",
+    "original": "死んだらお金はあの世へ持っていけない。",
+    "en": [
+      {
+        "id": "246353",
+        "text": "You can't take it with you when you die."
+      }
+    ],
+    "indices": "死ぬ{死んだら} お金 は あの世 へ 持つ{持っていけない}",
+    "vocabIds": [
+      "1315720",
+      "1310730",
+      "1612740",
+      "1001820"
+    ],
+    "matches": {
+      "1001820": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "おかね"
+        }
+      ],
+      "1310730": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "しんだら"
+        }
+      ],
+      "1315720": [
+        {
+          "start": 11,
+          "length": 7,
+          "reading": "もっていけない"
+        }
+      ],
+      "1612740": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "あのよ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "216270",
+    "original": "しかしですね、あの世のことは分かるはずもありません。",
+    "en": [
+      {
+        "id": "53574",
+        "text": "But you know, there's no telling about that other world."
+      }
+    ],
+    "indices": "然し{しかし} です ね(#2029080)[01] あの世 の 事(こと){こと} は 分かる 筈[01]{はず} も 有る{ありません}",
+    "vocabIds": [
+      "1612740",
+      "1606560"
+    ],
+    "matches": {
+      "1606560": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "わかる"
+        }
+      ],
+      "1612740": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "あのよ"
+        }
+      ]
+    }
+  }
+]

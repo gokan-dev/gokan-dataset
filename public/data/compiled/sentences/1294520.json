@@ -1,0 +1,119 @@
+[
+  {
+    "id": "87068",
+    "original": "彼女は美人と言うより才女だ。",
+    "en": [
+      {
+        "id": "316641",
+        "text": "She is more clever than beautiful."
+      }
+    ],
+    "indices": "彼女[01] は 美人 と言うより 才女~ だ",
+    "vocabIds": [
+      "2441160",
+      "1483150",
+      "1486530",
+      "1294520"
+    ],
+    "matches": {
+      "1294520": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "さいじょ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1486530": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "びじん"
+        }
+      ],
+      "2441160": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "というより"
+        }
+      ]
+    }
+  },
+  {
+    "id": "93192",
+    "original": "彼女はいわゆる才女である。",
+    "en": [
+      {
+        "id": "310517",
+        "text": "She is what we call a talented woman."
+      }
+    ],
+    "indices": "彼女[01] は 所謂{いわゆる} 才女 である",
+    "vocabIds": [
+      "1483150",
+      "1294520"
+    ],
+    "matches": {
+      "1294520": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "さいじょ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "118032",
+    "original": "彼の奥さんはなかなかの才女だ。",
+    "en": [
+      {
+        "id": "285632",
+        "text": "His wife is quite a talented woman."
+      }
+    ],
+    "indices": "彼(かれ)[01]{彼の} 奥さん は 中々[01]{なかなか} の 才女 だ",
+    "vocabIds": [
+      "1179330",
+      "1000420",
+      "1294520"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれの"
+        }
+      ],
+      "1179330": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "おくさん"
+        }
+      ],
+      "1294520": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "さいじょ"
+        }
+      ]
+    }
+  }
+]

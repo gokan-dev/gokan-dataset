@@ -1,0 +1,187 @@
+[
+  {
+    "id": "74522",
+    "original": "１００円玉か５００円玉しか使えないので私は小銭を探したが見当たらない。",
+    "en": [
+      {
+        "id": "329197",
+        "text": "It would only take 100 or 500 yen coins, so I search for change but don't find any."
+      }
+    ],
+    "indices": "百円玉{１００円玉}~ か ５００円玉~ しか 使う{使えない} ので 私(わたし)[01] は 小銭 を 探す{探した} が 見当たる{見当たらない}",
+    "vocabIds": [
+      "1909960",
+      "1607180",
+      "2396790",
+      "2396800",
+      "1593670",
+      "1348470",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 19,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 19,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1348470": [
+        {
+          "start": 21,
+          "length": 2,
+          "reading": "こぜに"
+        }
+      ],
+      "1593670": [
+        {
+          "start": 24,
+          "length": 4,
+          "reading": "さがしたが"
+        }
+      ],
+      "1607180": [
+        {
+          "start": 13,
+          "length": 6,
+          "reading": "つかえないので"
+        }
+      ],
+      "1909960": [
+        {
+          "start": 28,
+          "length": 6,
+          "reading": "みあたらない"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 19,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2396790": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "いちぜろぜろえんだま"
+        }
+      ],
+      "2396800": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "ごぜろぜろえんだま"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9444460",
+    "original": "１００円玉じゃなくて、ボトルの蓋だったよ。",
+    "en": [
+      {
+        "id": "327978",
+        "text": "It wasn't a 100 yen coin, it was a bottle cap."
+      }
+    ],
+    "vocabIds": [
+      "2396790",
+      "1204540"
+    ],
+    "matches": {
+      "1204540": [
+        {
+          "start": 15,
+          "length": 1,
+          "reading": "ふた"
+        }
+      ],
+      "2396790": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "いちぜろぜろえんだま"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9444463",
+    "original": "百円玉ではなくて、瓶の栓でした。",
+    "en": [
+      {
+        "id": "327978",
+        "text": "It wasn't a 100 yen coin, it was a bottle cap."
+      }
+    ],
+    "vocabIds": [
+      "2396790",
+      "1905410"
+    ],
+    "matches": {
+      "1905410": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "びんのせん"
+        }
+      ],
+      "2396790": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ひゃくえんだま"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10602831",
+    "original": "この自動販売機は、１００円玉しか使えないよ。",
+    "en": [
+      {
+        "id": "57476",
+        "text": "This vending machine takes only hundred-yen coins."
+      }
+    ],
+    "vocabIds": [
+      "1318480",
+      "2396790",
+      "1607180"
+    ],
+    "matches": {
+      "1318480": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "じどうはんばいき"
+        }
+      ],
+      "1607180": [
+        {
+          "start": 16,
+          "length": 4,
+          "reading": "つかえない"
+        }
+      ],
+      "2396790": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "いちぜろぜろえんだま"
+        }
+      ]
+    }
+  }
+]

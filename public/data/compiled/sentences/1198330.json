@@ -1,0 +1,135 @@
+[
+  {
+    "id": "121445",
+    "original": "博覧会の会期はまだあと１カ月あります。",
+    "en": [
+      {
+        "id": "282561",
+        "text": "The exhibition will be open for another month."
+      }
+    ],
+    "indices": "博覧会 の 会期 は 未だ{まだ} 後(あと){あと} ヶ月{カ月} 有る{あります}",
+    "vocabIds": [
+      "1474750",
+      "1587410",
+      "1198330"
+    ],
+    "matches": {
+      "1198330": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "かいき"
+        }
+      ],
+      "1474750": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "はくらんかい"
+        }
+      ],
+      "1587410": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "いちかげつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "123443",
+    "original": "特別国会の会期は４週間の予定である。",
+    "en": [
+      {
+        "id": "280554",
+        "text": "The extraordinary session of the Diet will last four weeks."
+      }
+    ],
+    "indices": "特別国会~ の 会期 は 週間 の 予定 である",
+    "vocabIds": [
+      "1788880",
+      "1198330",
+      "1333500",
+      "1543240",
+      "1579470"
+    ],
+    "matches": {
+      "1198330": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "かいき"
+        }
+      ],
+      "1333500": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "しゅうかん"
+        }
+      ],
+      "1543240": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "よてい"
+        }
+      ],
+      "1579470": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "よん"
+        }
+      ],
+      "1788880": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "とくべつこっかい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "185412",
+    "original": "会期は又延長されるであろう。",
+    "en": [
+      {
+        "id": "22544",
+        "text": "The session will be prolonged again."
+      }
+    ],
+    "indices": "会期~ は 又 延長[01] 為れる{される} である{であろう}",
+    "vocabIds": [
+      "1198330",
+      "1176510",
+      "1524930"
+    ],
+    "matches": {
+      "1176510": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "えんちょう"
+        }
+      ],
+      "1198330": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かいき"
+        }
+      ],
+      "1524930": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "また"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,130 @@
+{
+  "id": "1425960",
+  "writtenForm": {
+    "kanji": "仲人",
+    "alternatives": [
+      "媒人",
+      "媒",
+      "中人"
+    ],
+    "containedKanji": [
+      "仲",
+      "人"
+    ]
+  },
+  "reading": {
+    "primary": "なこうど",
+    "alternatives": [
+      "ちゅうにん",
+      "なかびと",
+      "なかひと",
+      "なかうど"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 33151,
+    "kanaRank": 79202
+  },
+  "jlptLevel": 1,
+  "progression": {
+    "kklcStep": 643
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "matchmaker"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "go-between",
+        "intermediary",
+        "middleman",
+        "mediator",
+        "intercessor"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "go-between",
+        "matchmaker"
+      ],
+      "related": {
+        "compounds": [
+          "仲人"
+        ]
+      },
+      "appliesToReadings": [
+        "なかびと"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": true
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1425960",
+      "isBase": true,
+      "originalPrimaryReading": "なこうど",
+      "originalGlosses": [
+        "matchmaker"
+      ]
+    },
+    {
+      "id": "2772160",
+      "isBase": false,
+      "originalPrimaryReading": "なかびと",
+      "originalGlosses": [
+        "go-between",
+        "matchmaker"
+      ]
+    }
+  ],
+  "components": [
+    "1425710",
+    "1580640"
+  ]
+}

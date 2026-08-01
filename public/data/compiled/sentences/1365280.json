@@ -1,0 +1,129 @@
+[
+  {
+    "id": "144779",
+    "original": "親知らずがはえてきました。",
+    "en": [
+      {
+        "id": "269784",
+        "text": "My wisdom teeth are coming in."
+      },
+      {
+        "id": "269785",
+        "text": "I'm getting my wisdom tooth."
+      },
+      {
+        "id": "1231035",
+        "text": "One of my wisdom teeth is coming in."
+      }
+    ],
+    "indices": "親知らず が 生える[02]{はえて} 来る(くる){きました}",
+    "vocabIds": [
+      "1365280"
+    ],
+    "matches": {
+      "1365280": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "おやしらず"
+        }
+      ]
+    }
+  },
+  {
+    "id": "144780",
+    "original": "親知らずがはえかけてきた。",
+    "en": [
+      {
+        "id": "269784",
+        "text": "My wisdom teeth are coming in."
+      }
+    ],
+    "indices": "親知らず~ が 生える[02]{はえ} 掛ける{かけて} 来る(くる){きた}",
+    "vocabIds": [
+      "1365280"
+    ],
+    "matches": {
+      "1365280": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "おやしらず"
+        }
+      ]
+    }
+  },
+  {
+    "id": "189904",
+    "original": "右上の親知らずが痛みます。",
+    "en": [
+      {
+        "id": "27060",
+        "text": "My upper right wisdom tooth hurts."
+      }
+    ],
+    "indices": "右上~ の 親知らず が 痛む[01]{痛みます}",
+    "vocabIds": [
+      "1365280",
+      "1432710",
+      "1171140"
+    ],
+    "matches": {
+      "1171140": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "みぎじょう"
+        }
+      ],
+      "1365280": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "おやしらず"
+        }
+      ],
+      "1432710": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "いたみます"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2609339",
+    "original": "トムは親知らずを抜いてもらった。",
+    "en": [
+      {
+        "id": "1025578",
+        "text": "Tom had his wisdom teeth taken out."
+      },
+      {
+        "id": "2609419",
+        "text": "Tom had his wisdom teeth removed."
+      }
+    ],
+    "vocabIds": [
+      "1478190",
+      "1365280"
+    ],
+    "matches": {
+      "1365280": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "おやしらず"
+        }
+      ],
+      "1478190": [
+        {
+          "start": 8,
+          "length": 7,
+          "reading": "ぬいてもらった"
+        }
+      ]
+    }
+  }
+]

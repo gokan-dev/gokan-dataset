@@ -1,0 +1,107 @@
+[
+  {
+    "id": "127213",
+    "original": "男はトムを見てから、楽屋口を通って、暗いロンドンの街路へと消えていった。",
+    "en": [
+      {
+        "id": "276876",
+        "text": "The man looked at Tom, then vanished through the stage door out into the dark London street."
+      }
+    ],
+    "indices": "男 は を 見る{見て} から[06] 楽屋口~ を 通る{通って} 暗い[01] 倫敦{ロンドン} の 街路 へと 消える{消えて} 行く[10]{いった}",
+    "vocabIds": [
+      "1350040",
+      "2399450",
+      "1433030",
+      "1259290",
+      "1154330",
+      "1204660",
+      "1419990",
+      "1589190"
+    ],
+    "matches": {
+      "1154330": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "くらい"
+        }
+      ],
+      "1204660": [
+        {
+          "start": 25,
+          "length": 2,
+          "reading": "がいろ"
+        }
+      ],
+      "1259290": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "みて"
+        }
+      ],
+      "1350040": [
+        {
+          "start": 29,
+          "length": 6,
+          "reading": "きえていった"
+        }
+      ],
+      "1419990": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "おとこ"
+        }
+      ],
+      "1433030": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "とおって"
+        }
+      ],
+      "1589190": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "おとこ"
+        }
+      ],
+      "2399450": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "がくやぐち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2349158",
+    "original": "楽屋口はどこですか。",
+    "en": [
+      {
+        "id": "2350805",
+        "text": "Where is the stage door?"
+      },
+      {
+        "id": "12826184",
+        "text": "Where is the backstage entrance?"
+      }
+    ],
+    "vocabIds": [
+      "2399450"
+    ],
+    "matches": {
+      "2399450": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "がくやぐち"
+        }
+      ]
+    }
+  }
+]

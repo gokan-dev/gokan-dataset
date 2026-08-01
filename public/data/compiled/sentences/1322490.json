@@ -1,0 +1,133 @@
+[
+  {
+    "id": "149236",
+    "original": "煮え加減がちょうどよい。",
+    "en": [
+      {
+        "id": "265322",
+        "text": "It is boiled just enough."
+      }
+    ],
+    "indices": "煮える{煮え} 加減[01] が ちょうど良い{ちょうどよい}",
+    "vocabIds": [
+      "1322490",
+      "1190080"
+    ],
+    "matches": {
+      "1190080": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "かげん"
+        }
+      ],
+      "1322490": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "にえ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "195051",
+    "original": "ミルクが煮えこぼれた。",
+    "en": [
+      {
+        "id": "32225",
+        "text": "The milk boiled over."
+      }
+    ],
+    "indices": "ミルク が 煮える{煮え} 零れる[01]{こぼれた}",
+    "vocabIds": [
+      "1322490"
+    ],
+    "matches": {
+      "1322490": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "にえ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "203276",
+    "original": "タマネギはジャガイモよりはやく煮える。",
+    "en": [
+      {
+        "id": "40512",
+        "text": "Onions cook more quickly than potatoes."
+      }
+    ],
+    "indices": "玉ねぎ{タマネギ} は じゃが芋{ジャガイモ} より 早く[02]{はやく} 煮える",
+    "vocabIds": [
+      "1322490"
+    ],
+    "matches": {
+      "1322490": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "にえる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "215043",
+    "original": "スープがなべでぐつぐつ煮えている。",
+    "en": [
+      {
+        "id": "52339",
+        "text": "The soup is bubbling in the pot."
+      }
+    ],
+    "indices": "スープ が 鍋{なべ} で(#2028980) ぐつぐつ~ 煮える{煮えている}~",
+    "vocabIds": [
+      "1322490"
+    ],
+    "matches": {
+      "1322490": [
+        {
+          "start": 11,
+          "length": 5,
+          "reading": "にえている"
+        }
+      ]
+    }
+  },
+  {
+    "id": "219318",
+    "original": "この野菜はなかなか煮えない。",
+    "en": [
+      {
+        "id": "56635",
+        "text": "These vegetables cook slowly."
+      }
+    ],
+    "indices": "此の{この} 野菜 は 中々[02]{なかなか} 煮える{煮えない}",
+    "vocabIds": [
+      "1322490",
+      "1537370"
+    ],
+    "matches": {
+      "1322490": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "にえない"
+        }
+      ],
+      "1537370": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "やさい"
+        }
+      ]
+    }
+  }
+]

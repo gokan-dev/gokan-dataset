@@ -1,0 +1,63 @@
+[
+  {
+    "id": "108696",
+    "original": "彼は顔が広い。",
+    "en": [
+      {
+        "id": "294993",
+        "text": "He knows a lot of people."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 顔(かお) が 広い",
+    "vocabIds": [
+      "2139970",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "2139970": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "かおがひろい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2706876",
+    "original": "トムは顔が広い。",
+    "en": [
+      {
+        "id": "1024625",
+        "text": "Tom knows a lot of people."
+      }
+    ],
+    "vocabIds": [
+      "2139970"
+    ],
+    "matches": {
+      "2139970": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "かおがひろい"
+        }
+      ]
+    }
+  }
+]

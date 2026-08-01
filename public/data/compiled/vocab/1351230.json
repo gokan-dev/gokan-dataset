@@ -1,0 +1,104 @@
+{
+  "id": "1351230",
+  "writtenForm": {
+    "kanji": "称える",
+    "alternatives": [
+      "讃える",
+      "讚える",
+      "賛える"
+    ],
+    "containedKanji": [
+      "称"
+    ]
+  },
+  "reading": {
+    "primary": "たたえる",
+    "alternatives": [
+      "となえる"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 13360
+  },
+  "progression": {
+    "kklcStep": 684
+  },
+  "senses": [
+    {
+      "pos": [
+        "v1",
+        "vt"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "to praise",
+        "to extol",
+        "to hail",
+        "to laud",
+        "to celebrate"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "v1",
+        "vt"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "to call (by a name)",
+        "to name"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "となえる"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": false,
+  "mergedVocabs": [
+    {
+      "id": "1351230",
+      "isBase": true,
+      "originalPrimaryReading": "たたえる",
+      "originalGlosses": [
+        "to praise",
+        "to extol",
+        "to hail"
+      ]
+    },
+    {
+      "id": "1351240",
+      "isBase": false,
+      "originalPrimaryReading": "となえる",
+      "originalGlosses": [
+        "to call (by a name)",
+        "to name"
+      ]
+    }
+  ],
+  "parents": [
+    "1517940"
+  ]
+}

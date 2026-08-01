@@ -1,0 +1,477 @@
+[
+  {
+    "id": "79469",
+    "original": "薬局にこの処方箋を持って行ってください。",
+    "en": [
+      {
+        "id": "324250",
+        "text": "Take this prescription to your pharmacy."
+      }
+    ],
+    "indices": "薬局 に 此の{この} 処方箋 を 持っていく{持って行って} 下さい{ください}",
+    "vocabIds": [
+      "1315720",
+      "1655680",
+      "1538200"
+    ],
+    "matches": {
+      "1315720": [
+        {
+          "start": 9,
+          "length": 10,
+          "reading": "もっていってください"
+        }
+      ],
+      "1538200": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "やっきょく"
+        }
+      ],
+      "1655680": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "しょほうせん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "79489",
+    "original": "薬の処方箋を作ってあげましょう。",
+    "en": [
+      {
+        "id": "324231",
+        "text": "Let me write you a prescription for some medicine."
+      }
+    ],
+    "indices": "薬(くすり)[01] の 処方箋 を 作る{作って} 上げる[23]{あげましょう}",
+    "vocabIds": [
+      "1597890",
+      "1655680",
+      "1538160"
+    ],
+    "matches": {
+      "1538160": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "くすり"
+        }
+      ],
+      "1597890": [
+        {
+          "start": 6,
+          "length": 9,
+          "reading": "つくってあげましょう"
+        }
+      ],
+      "1655680": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "しょほうせん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "147571",
+    "original": "処方箋を見せてください。",
+    "en": [
+      {
+        "id": "266988",
+        "text": "Let me see your prescription."
+      }
+    ],
+    "indices": "処方箋 を 見せる{見せて} 下さい{ください}",
+    "vocabIds": [
+      "1259210",
+      "1655680"
+    ],
+    "matches": {
+      "1259210": [
+        {
+          "start": 4,
+          "length": 7,
+          "reading": "みせてください"
+        }
+      ],
+      "1655680": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "しょほうせん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "147572",
+    "original": "処方箋を書きますね。",
+    "en": [
+      {
+        "id": "266989",
+        "text": "I'll give you a prescription."
+      }
+    ],
+    "indices": "処方箋 を 書く{書きます} ね",
+    "vocabIds": [
+      "1343950",
+      "1655680"
+    ],
+    "matches": {
+      "1343950": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "かきます"
+        }
+      ],
+      "1655680": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "しょほうせん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "237576",
+    "original": "処方箋をもらうために医者に行きなさい。",
+    "en": [
+      {
+        "id": "74001",
+        "text": "Go to the doctor to get your prescription!"
+      },
+      {
+        "id": "1341356",
+        "text": "To get a prescription, go to a doctor."
+      }
+    ],
+    "indices": "処方箋~ を 貰う[01]{もらう} 為に{ために} 医者 に 行く[01]{行き} 為さい{なさい}",
+    "vocabIds": [
+      "1578850",
+      "1655680",
+      "1159980"
+    ],
+    "matches": {
+      "1159980": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "いしゃ"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 13,
+          "length": 5,
+          "reading": "いきなさい"
+        }
+      ],
+      "1655680": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "しょほうせん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "774487",
+    "original": "その薬は処方箋無しで買ってはいけません。",
+    "en": [
+      {
+        "id": "1008018",
+        "text": "You can't buy this medicine without a prescription."
+      },
+      {
+        "id": "5992302",
+        "text": "You cannot purchase this medicine without a prescription."
+      }
+    ],
+    "vocabIds": [
+      "1655680",
+      "1518550",
+      "1473740",
+      "1538160"
+    ],
+    "matches": {
+      "1473740": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "かって"
+        }
+      ],
+      "1518550": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "なしで"
+        }
+      ],
+      "1538160": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "くすり"
+        }
+      ],
+      "1655680": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "しょほうせん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2270834",
+    "original": "処方箋をお出しします。",
+    "en": [
+      {
+        "id": "266989",
+        "text": "I'll give you a prescription."
+      }
+    ],
+    "vocabIds": [
+      "1655680",
+      "2850781"
+    ],
+    "matches": {
+      "1655680": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "しょほうせん"
+        }
+      ],
+      "2850781": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "おだし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2489020",
+    "original": "処方せんを出しておきますね。",
+    "en": [
+      {
+        "id": "266989",
+        "text": "I'll give you a prescription."
+      }
+    ],
+    "vocabIds": [
+      "1338180",
+      "1655680"
+    ],
+    "matches": {
+      "1338180": [
+        {
+          "start": 5,
+          "length": 7,
+          "reading": "だしておきます"
+        }
+      ],
+      "1655680": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "しょほうせん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3081596",
+    "original": "吸入器は処方箋無しで買えますか？",
+    "en": [
+      {
+        "id": "5178487",
+        "text": "Can you buy an inhaler without a prescription?"
+      }
+    ],
+    "vocabIds": [
+      "1683280",
+      "1655680",
+      "1518550"
+    ],
+    "matches": {
+      "1518550": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "なしで"
+        }
+      ],
+      "1655680": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "しょほうせん"
+        }
+      ],
+      "1683280": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きゅうにゅうき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11455395",
+    "original": "この薬は、処方箋なしでは購入できません。",
+    "en": [
+      {
+        "id": "5992302",
+        "text": "You cannot purchase this medicine without a prescription."
+      }
+    ],
+    "vocabIds": [
+      "1655680",
+      "1282440",
+      "1538160"
+    ],
+    "matches": {
+      "1282440": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "こうにゅう"
+        }
+      ],
+      "1538160": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "くすり"
+        }
+      ],
+      "1655680": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "しょほうせん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11455396",
+    "original": "こちらのお薬は処方箋なしではご購入いただけません。",
+    "en": [
+      {
+        "id": "5992302",
+        "text": "You cannot purchase this medicine without a prescription."
+      }
+    ],
+    "vocabIds": [
+      "1655680",
+      "1282440",
+      "1538160"
+    ],
+    "matches": {
+      "1282440": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "こうにゅう"
+        }
+      ],
+      "1538160": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "くすり"
+        }
+      ],
+      "1655680": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "しょほうせん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "13115836",
+    "original": "先生が処方箋を出してくれた。",
+    "en": [
+      {
+        "id": "9814533",
+        "text": "The doctor gave me a prescription."
+      }
+    ],
+    "vocabIds": [
+      "1338180",
+      "1655680",
+      "1387990"
+    ],
+    "matches": {
+      "1338180": [
+        {
+          "start": 7,
+          "length": 6,
+          "reading": "だしてくれた"
+        }
+      ],
+      "1387990": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "せんせい"
+        }
+      ],
+      "1655680": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "しょほうせん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "13115801",
+    "original": "処方箋を読んでください。",
+    "en": [
+      {
+        "id": "13121420",
+        "text": "Please read the prescription."
+      }
+    ],
+    "vocabIds": [
+      "1456360",
+      "1655680"
+    ],
+    "matches": {
+      "1456360": [
+        {
+          "start": 4,
+          "length": 7,
+          "reading": "よんでください"
+        }
+      ],
+      "1655680": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "しょほうせん"
+        }
+      ]
+    }
+  }
+]

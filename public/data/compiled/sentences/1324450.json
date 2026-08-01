@@ -1,0 +1,96 @@
+[
+  {
+    "id": "212292",
+    "original": "その運動をして若返った。",
+    "en": [
+      {
+        "id": "49573",
+        "text": "The exercise took years off me."
+      }
+    ],
+    "indices": "其の[01]{その} 運動[01]~ を 為る(する){して} 若返る{若返った}~",
+    "vocabIds": [
+      "1324450",
+      "1172910"
+    ],
+    "matches": {
+      "1172910": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "うんどう"
+        }
+      ],
+      "1324450": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "わかがえった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "85502",
+    "original": "髭剃ったら10歳は若返って見えるよ。",
+    "en": [
+      {
+        "id": "9644161",
+        "text": "You'd look ten years younger if you shaved off your mustache."
+      }
+    ],
+    "indices": "髭 剃る{剃ったら} 歳(さい)[01] は 若返る{若返って} 見える(みえる) よ[01]",
+    "vocabIds": [
+      "1324450",
+      "1581900",
+      "1259140",
+      "1601810",
+      "1294940",
+      "2084840"
+    ],
+    "matches": {
+      "1259140": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "みえる"
+        }
+      ],
+      "1294940": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "さい"
+        }
+      ],
+      "1324450": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "わかがえって"
+        }
+      ],
+      "1581900": [
+        {
+          "start": 1,
+          "length": 4,
+          "reading": "すったら"
+        }
+      ],
+      "1601810": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ひげ"
+        }
+      ],
+      "2084840": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "さい"
+        }
+      ]
+    }
+  }
+]

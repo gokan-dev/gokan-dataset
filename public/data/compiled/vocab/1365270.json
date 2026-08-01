@@ -1,0 +1,101 @@
+{
+  "id": "1365270",
+  "writtenForm": {
+    "kanji": "親族",
+    "alternatives": [
+      "族"
+    ],
+    "containedKanji": [
+      "親",
+      "族"
+    ]
+  },
+  "reading": {
+    "primary": "しんぞく",
+    "alternatives": [
+      "うから"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 7715,
+    "kanaRank": 309269
+  },
+  "progression": {
+    "kklcStep": 568
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "relative",
+        "relation",
+        "kin"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "blood relative"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "うから"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1365270",
+      "isBase": true,
+      "originalPrimaryReading": "しんぞく",
+      "originalGlosses": [
+        "relative",
+        "relation",
+        "kin"
+      ]
+    },
+    {
+      "id": "2820740",
+      "isBase": false,
+      "originalPrimaryReading": "うから",
+      "originalGlosses": [
+        "blood relative"
+      ]
+    }
+  ],
+  "components": [
+    "1365040",
+    "1405770"
+  ]
+}

@@ -1,0 +1,95 @@
+[
+  {
+    "id": "171956",
+    "original": "今日の午後、彼女に庭の水まきをさせよう。",
+    "en": [
+      {
+        "id": "242518",
+        "text": "She shall water the garden this afternoon."
+      }
+    ],
+    "indices": "今日 の 午後 彼女 に 庭 の 水撒き{水まき}~ を 為せる{させよう}",
+    "vocabIds": [
+      "1371500",
+      "1579110",
+      "1268990",
+      "1483150",
+      "1436130"
+    ],
+    "matches": {
+      "1268990": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ごご"
+        }
+      ],
+      "1371500": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "みずまき"
+        }
+      ],
+      "1436130": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "にわ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1579110": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10919558",
+    "original": "「ママ、消防士ってなに？」「ビルに水まきする人かなぁ」",
+    "en": [
+      {
+        "id": "10458763",
+        "text": "“Mum, what’s a fireman?” “It’s like someone who does the watering of a building.”"
+      }
+    ],
+    "vocabIds": [
+      "1350350",
+      "1371500",
+      "1580640"
+    ],
+    "matches": {
+      "1350350": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "しょうぼうし"
+        }
+      ],
+      "1371500": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "みずまき"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 22,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ]
+    }
+  }
+]

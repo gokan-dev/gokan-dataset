@@ -1,0 +1,962 @@
+[
+  {
+    "id": "107402",
+    "original": "彼は好きなだけの本をすべて買った。",
+    "en": [
+      {
+        "id": "296284",
+        "text": "He bought as many books as he liked."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 好きなだけ の 本(ほん)[01] を 全て{すべて} 買う[01]{買った}",
+    "vocabIds": [
+      "2773850",
+      "1473740",
+      "1000420",
+      "1483070",
+      "1260670",
+      "1522150"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1260670": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "ほん"
+        }
+      ],
+      "1473740": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "かった"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1522150": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "ほん"
+        }
+      ],
+      "2773850": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "すきなだけ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "173804",
+    "original": "好きなだけ話してよろしい。",
+    "en": [
+      {
+        "id": "240666",
+        "text": "You may talk as much as you like."
+      }
+    ],
+    "indices": "好きなだけ 話す{話して} 宜しい{よろしい}",
+    "vocabIds": [
+      "2773850",
+      "1562350"
+    ],
+    "matches": {
+      "1562350": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "はなして"
+        }
+      ],
+      "2773850": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すきなだけ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "173805",
+    "original": "好きなだけ桃を取りなさい。",
+    "en": [
+      {
+        "id": "240665",
+        "text": "Take as many peaches as you like."
+      },
+      {
+        "id": "1578554",
+        "text": "Take as many peaches as you want."
+      }
+    ],
+    "indices": "好きなだけ 桃 を 取る{取り} 為さい{なさい}",
+    "vocabIds": [
+      "2773850",
+      "1326980",
+      "1448290"
+    ],
+    "matches": {
+      "1326980": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "とりなさい"
+        }
+      ],
+      "1448290": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "もも"
+        }
+      ],
+      "2773850": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すきなだけ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "173806",
+    "original": "好きなだけ長く私たちの家に滞在しなさい。",
+    "en": [
+      {
+        "id": "240664",
+        "text": "You may stay at my house as long as you like."
+      }
+    ],
+    "indices": "好きなだけ 長い{長く} 私たち の 家(いえ)[01] に 滞在 為る(する){し} 為さい{なさい}",
+    "vocabIds": [
+      "2773850",
+      "1311300",
+      "1429750",
+      "1410930",
+      "1191730",
+      "2098290",
+      "2082160",
+      "2220300"
+    ],
+    "matches": {
+      "1191730": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ],
+      "1311300": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1410930": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "たいざい"
+        }
+      ],
+      "1429750": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ながく"
+        }
+      ],
+      "2082160": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ],
+      "2098290": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ],
+      "2220300": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ],
+      "2773850": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すきなだけ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "173807",
+    "original": "好きなだけ滞在して下さい。",
+    "en": [
+      {
+        "id": "240658",
+        "text": "You can stay as long as you like."
+      }
+    ],
+    "indices": "好きなだけ 滞在 為る(する){して} 下さい",
+    "vocabIds": [
+      "2773850",
+      "1184280",
+      "1410930"
+    ],
+    "matches": {
+      "1184280": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "ください"
+        }
+      ],
+      "1410930": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "たいざい"
+        }
+      ],
+      "2773850": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すきなだけ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "173808",
+    "original": "好きなだけ取りなさい。",
+    "en": [
+      {
+        "id": "52298",
+        "text": "Take as much as you like."
+      }
+    ],
+    "indices": "御(お){お} 好きなだけ 取る{お取り} 為さい{なさい}",
+    "vocabIds": [
+      "2773850",
+      "1326980"
+    ],
+    "matches": {
+      "1326980": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "とりなさい"
+        }
+      ],
+      "2773850": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すきなだけ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "173809",
+    "original": "好きなだけ飲食していただいて結構です。",
+    "en": [
+      {
+        "id": "240661",
+        "text": "You can eat and drink as much as you want."
+      }
+    ],
+    "indices": "好きなだけ 飲食~ 為る(する){して} 頂く[01]{いただいて} 結構[02] です",
+    "vocabIds": [
+      "2773850",
+      "1169940",
+      "1254760"
+    ],
+    "matches": {
+      "1169940": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "いんしょく"
+        }
+      ],
+      "1254760": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "けっこう"
+        }
+      ],
+      "2773850": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すきなだけ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "173810",
+    "original": "好きなだけとって食べなさい。",
+    "en": [
+      {
+        "id": "240660",
+        "text": "Cut and come again."
+      }
+    ],
+    "indices": "好きなだけ 取る{とって} 食べる{食べ} 為さい{なさい}",
+    "vocabIds": [
+      "2773850",
+      "1358280"
+    ],
+    "matches": {
+      "1358280": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "たべなさい"
+        }
+      ],
+      "2773850": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すきなだけ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "173812",
+    "original": "好きなだけいていいのよ。",
+    "en": [
+      {
+        "id": "240658",
+        "text": "You can stay as long as you like."
+      }
+    ],
+    "indices": "好きなだけ 居る(いる){いて} いい(#2820690)[01] の よ[01]",
+    "vocabIds": [
+      "2773850"
+    ],
+    "matches": {
+      "2773850": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すきなだけ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "183478",
+    "original": "幾つでも好きなだけ上げましょう。",
+    "en": [
+      {
+        "id": "20600",
+        "text": "I'll give you as many as you like."
+      }
+    ],
+    "indices": "幾つ[01] でも 好きなだけ 上げる{上げましょう}",
+    "vocabIds": [
+      "1352320",
+      "2773850",
+      "2099750"
+    ],
+    "matches": {
+      "1352320": [
+        {
+          "start": 9,
+          "length": 6,
+          "reading": "あげましょう"
+        }
+      ],
+      "2099750": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "いくつでも"
+        }
+      ],
+      "2773850": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "すきなだけ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "215002",
+    "original": "好きなだけ取ってね。",
+    "en": [
+      {
+        "id": "52298",
+        "text": "Take as much as you like."
+      }
+    ],
+    "indices": "好き(すき){好きな} 丈(だけ){だけ} 取る{取って} ね(#2029080)[01]",
+    "vocabIds": [
+      "2773850",
+      "1326980"
+    ],
+    "matches": {
+      "1326980": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "とって"
+        }
+      ],
+      "2773850": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すきなだけ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "234082",
+    "original": "あなたが好きなだけお取り下さい。",
+    "en": [
+      {
+        "id": "52298",
+        "text": "Take as much as you like."
+      }
+    ],
+    "indices": "貴方(あなた)[01]{あなた} が 好きなだけ 御(お){お} 取る{取り} 下さい[02]",
+    "vocabIds": [
+      "2773850",
+      "1326980"
+    ],
+    "matches": {
+      "1326980": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "とりください"
+        }
+      ],
+      "2773850": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "すきなだけ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1169651",
+    "original": "好きなだけいてください。",
+    "en": [
+      {
+        "id": "240658",
+        "text": "You can stay as long as you like."
+      }
+    ],
+    "vocabIds": [
+      "2773850"
+    ],
+    "matches": {
+      "2773850": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すきなだけ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1170923",
+    "original": "好きなだけお話しいただいて構いません。",
+    "en": [
+      {
+        "id": "240666",
+        "text": "You may talk as much as you like."
+      }
+    ],
+    "vocabIds": [
+      "2773850",
+      "1279670",
+      "2581590"
+    ],
+    "matches": {
+      "1279670": [
+        {
+          "start": 13,
+          "length": 5,
+          "reading": "かまいません"
+        }
+      ],
+      "2581590": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "おはなしし"
+        }
+      ],
+      "2773850": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すきなだけ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3477207",
+    "original": "好きなだけ時間をかけていいよ。",
+    "en": [
+      {
+        "id": "2882525",
+        "text": "Take all the time you want."
+      }
+    ],
+    "vocabIds": [
+      "2773850",
+      "1315920"
+    ],
+    "matches": {
+      "1315920": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "じかん"
+        }
+      ],
+      "2773850": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すきなだけ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3477210",
+    "original": "お好きなだけ時間をとっても構いませんよ。",
+    "en": [
+      {
+        "id": "2882525",
+        "text": "Take all the time you want."
+      }
+    ],
+    "vocabIds": [
+      "2773850",
+      "1279670",
+      "1315920"
+    ],
+    "matches": {
+      "1279670": [
+        {
+          "start": 13,
+          "length": 5,
+          "reading": "かまいません"
+        }
+      ],
+      "1315920": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "じかん"
+        }
+      ],
+      "2773850": [
+        {
+          "start": 1,
+          "length": 5,
+          "reading": "すきなだけ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "4153538",
+    "original": "好きなだけ食べていいよ。",
+    "en": [
+      {
+        "id": "2256820",
+        "text": "You can eat as much as you want."
+      }
+    ],
+    "vocabIds": [
+      "2773850",
+      "1358280"
+    ],
+    "matches": {
+      "1358280": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "たべて"
+        }
+      ],
+      "2773850": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すきなだけ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "4213358",
+    "original": "好きなだけずっと泳いでいいよ。",
+    "en": [
+      {
+        "id": "2954580",
+        "text": "You may swim as long as you want."
+      }
+    ],
+    "vocabIds": [
+      "2773850",
+      "1174340"
+    ],
+    "matches": {
+      "1174340": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "およいで"
+        }
+      ],
+      "2773850": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すきなだけ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3236887",
+    "original": "今日は好きなだけ食べていいからね。",
+    "en": [
+      {
+        "id": "3459914",
+        "text": "Today you can eat as much as you want."
+      }
+    ],
+    "vocabIds": [
+      "2773850",
+      "1289400",
+      "1358280"
+    ],
+    "matches": {
+      "1289400": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きょうは"
+        }
+      ],
+      "1358280": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "たべて"
+        }
+      ],
+      "2773850": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "すきなだけ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9028227",
+    "original": "好きなだけここにいていいんですよ。",
+    "en": [
+      {
+        "id": "18059",
+        "text": "You may stay here as long as you like."
+      },
+      {
+        "id": "7111772",
+        "text": "You can stay here as long as you want to."
+      }
+    ],
+    "indices": "好きなだけ 此処[01]{ここ} に 居る(いる)[02]{いて} も 良い{よい}",
+    "vocabIds": [
+      "2773850"
+    ],
+    "matches": {
+      "2773850": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すきなだけ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9420176",
+    "original": "好きなだけあげるよ。",
+    "en": [
+      {
+        "id": "20600",
+        "text": "I'll give you as many as you like."
+      }
+    ],
+    "vocabIds": [
+      "2773850"
+    ],
+    "matches": {
+      "2773850": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すきなだけ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3454107",
+    "original": "僕ひょっとしたら女性が好きなんじゃなくて女性の声が好きなだけなのかも。",
+    "en": [
+      {
+        "id": "9987873",
+        "text": "Perhaps I don't like women, I just like their voices."
+      }
+    ],
+    "vocabIds": [
+      "2773850",
+      "1345250",
+      "1277450",
+      "1521400",
+      "2228300",
+      "1380440"
+    ],
+    "matches": {
+      "1277450": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "すき"
+        }
+      ],
+      "1345250": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "じょせい"
+        },
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "じょせい"
+        }
+      ],
+      "1380440": [
+        {
+          "start": 23,
+          "length": 1,
+          "reading": "こえ"
+        }
+      ],
+      "1521400": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ],
+      "2228300": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ],
+      "2773850": [
+        {
+          "start": 25,
+          "length": 5,
+          "reading": "すきなだけ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9331729",
+    "original": "「あの」「わしになんか用かい？」「この柿、ひとつもらってもいいですか？」「ええよ。１つないと２つないと好きなだけ持っていきな」",
+    "en": [
+      {
+        "id": "10064385",
+        "text": "\"Er...\" \"What do you want?\" \"Is it okay if I take one of these persimmons?\" \"Take one or two or as many as you like.\""
+      }
+    ],
+    "vocabIds": [
+      "2773850",
+      "1315720",
+      "2804200",
+      "1473740",
+      "1160820",
+      "1461160",
+      "1204810",
+      "2097450"
+    ],
+    "matches": {
+      "1160820": [
+        {
+          "start": 41,
+          "length": 2,
+          "reading": "ひとつ"
+        }
+      ],
+      "1204810": [
+        {
+          "start": 19,
+          "length": 1,
+          "reading": "かき"
+        }
+      ],
+      "1315720": [
+        {
+          "start": 56,
+          "length": 5,
+          "reading": "もっていき"
+        }
+      ],
+      "1461160": [
+        {
+          "start": 46,
+          "length": 2,
+          "reading": "ふたつ"
+        }
+      ],
+      "1473740": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "かい"
+        }
+      ],
+      "2097450": [
+        {
+          "start": 19,
+          "length": 1,
+          "reading": "かき"
+        }
+      ],
+      "2773850": [
+        {
+          "start": 51,
+          "length": 5,
+          "reading": "すきなだけ"
+        }
+      ],
+      "2804200": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "なんかよう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10309013",
+    "original": "好きなだけいなさい。",
+    "en": [
+      {
+        "id": "3185026",
+        "text": "Stay as long as you like."
+      }
+    ],
+    "vocabIds": [
+      "2773850"
+    ],
+    "matches": {
+      "2773850": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すきなだけ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11388961",
+    "original": "今夜は好きなだけ夜更かししていいぞ。",
+    "en": [
+      {
+        "id": "7734624",
+        "text": "Tonight you can stay up as late as you like."
+      }
+    ],
+    "vocabIds": [
+      "2773850",
+      "1606000",
+      "1289520"
+    ],
+    "matches": {
+      "1289520": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こんや"
+        }
+      ],
+      "1606000": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "よるふかし"
+        }
+      ],
+      "2773850": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "すきなだけ"
+        }
+      ]
+    }
+  }
+]

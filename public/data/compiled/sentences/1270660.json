@@ -1,0 +1,842 @@
+[
+  {
+    "id": "137269",
+    "original": "大変ご迷惑をおかけして申し訳ありません。",
+    "en": [
+      {
+        "id": "275967",
+        "text": "I am sorry to trouble you so much."
+      },
+      {
+        "id": "54757",
+        "text": "I'm sorry to trouble you so much."
+      }
+    ],
+    "indices": "大変 ご迷惑 を 掛ける[08]{おかけ}~ 為る(する)[12]{して} 申し訳ありません[01]",
+    "vocabIds": [
+      "1612030",
+      "1270660",
+      "1415000"
+    ],
+    "matches": {
+      "1270660": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "ごめいわく"
+        }
+      ],
+      "1415000": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "たいへん"
+        }
+      ],
+      "1612030": [
+        {
+          "start": 11,
+          "length": 8,
+          "reading": "もうしわけありません"
+        }
+      ]
+    }
+  },
+  {
+    "id": "162519",
+    "original": "私の問題であなたにご迷惑をかけたくありません。",
+    "en": [
+      {
+        "id": "251995",
+        "text": "I don't want to burden you with my troubles."
+      }
+    ],
+    "indices": "私(わたし)[01]{私の} 問題 で(#2028980) 貴方(あなた)[01]{あなた} に 迷惑をかける{ご迷惑をかけたく} 有る{ありません}",
+    "vocabIds": [
+      "1270660",
+      "1536010",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1270660": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "ごめいわく"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1536010": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "もんだい"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "184955",
+    "original": "皆様にご迷惑をおかけしております。",
+    "en": [
+      {
+        "id": "22086",
+        "text": "Excuse us for the inconvenience."
+      }
+    ],
+    "indices": "皆様 に ご迷惑~ を 御(お){お} 掛ける[08]{かけ} 為る(する){して} 居る(おる)[02]{おります}",
+    "vocabIds": [
+      "1270660",
+      "1202260"
+    ],
+    "matches": {
+      "1202260": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "みなさま"
+        }
+      ],
+      "1270660": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "ごめいわく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "192596",
+    "original": "ラジオをつけてもご迷惑ではないでしょうか。",
+    "en": [
+      {
+        "id": "29760",
+        "text": "Will it bother you if I turn on the radio?"
+      }
+    ],
+    "indices": "ラジオ を 点ける{つけて} も ご迷惑 では無い{ではない} でしょうか",
+    "vocabIds": [
+      "1270660"
+    ],
+    "matches": {
+      "1270660": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "ごめいわく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "193861",
+    "original": "もしご迷惑でなければ今晩お伺いしたいのですが。",
+    "en": [
+      {
+        "id": "31029",
+        "text": "I should like to call on you this evening."
+      }
+    ],
+    "indices": "若し(もし){もし} ご迷惑 でないと{でなければ} 今晩 お伺い[01] したい のです が[03]",
+    "vocabIds": [
+      "1270660",
+      "2780110",
+      "1289470"
+    ],
+    "matches": {
+      "1270660": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "ごめいわく"
+        }
+      ],
+      "1289470": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "こんばん"
+        }
+      ],
+      "2780110": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "おうかがい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "217005",
+    "original": "ご迷惑をかけてすみません。",
+    "en": [
+      {
+        "id": "54313",
+        "text": "I'm sorry to trouble you."
+      }
+    ],
+    "indices": "迷惑をかける{ご迷惑をかけて} 済みません{すみません}",
+    "vocabIds": [
+      "1270660"
+    ],
+    "matches": {
+      "1270660": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ごめいわく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "217006",
+    "original": "ご迷惑をかけて本当にすみません。",
+    "en": [
+      {
+        "id": "54312",
+        "text": "I'm very sorry to have troubled you."
+      }
+    ],
+    "indices": "迷惑をかける{ご迷惑をかけて} 本当に 済みません{すみません}",
+    "vocabIds": [
+      "1270660",
+      "1611580"
+    ],
+    "matches": {
+      "1270660": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ごめいわく"
+        }
+      ],
+      "1611580": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "ほんとうに"
+        }
+      ]
+    }
+  },
+  {
+    "id": "217007",
+    "original": "ご迷惑をおかけする気持ちはありませんが、少々お尋ねしなければならないことがあります。",
+    "en": [
+      {
+        "id": "54315",
+        "text": "Far be it for me to trouble you, but I must ask you something."
+      }
+    ],
+    "indices": "ご迷惑 を 掛ける[08]{おかけ} 為る(する)[12]{する} 気持ち は 有る{ありません} が 少々 御(お){お} 尋ねる[01]{尋ねし} ねばならない{なければならない} 事がある{ことがあります}",
+    "vocabIds": [
+      "1270660",
+      "1591430",
+      "2846266",
+      "1594930"
+    ],
+    "matches": {
+      "1270660": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ごめいわく"
+        }
+      ],
+      "1591430": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "きもち"
+        }
+      ],
+      "1594930": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "しょうしょう"
+        }
+      ],
+      "2846266": [
+        {
+          "start": 22,
+          "length": 3,
+          "reading": "おたずね"
+        }
+      ]
+    }
+  },
+  {
+    "id": "217008",
+    "original": "ご迷惑をおかけしますが、急を要することが起こったものですから。",
+    "en": [
+      {
+        "id": "54314",
+        "text": "Sorry to bother you, but I'm afraid something urgent has come up."
+      }
+    ],
+    "indices": "ご迷惑 を 掛ける[08]{おかけ} 為る(する)[12]{します} が 急を要する~ 事(こと){こと} が 起こる{起こった} ものですから",
+    "vocabIds": [
+      "2396000",
+      "1223680",
+      "1270660"
+    ],
+    "matches": {
+      "1223680": [
+        {
+          "start": 20,
+          "length": 4,
+          "reading": "おこった"
+        }
+      ],
+      "1270660": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ごめいわく"
+        }
+      ],
+      "2396000": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "きゅうをようする"
+        }
+      ]
+    }
+  },
+  {
+    "id": "217009",
+    "original": "ご迷惑をおかけしまして申し訳ありません。",
+    "en": [
+      {
+        "id": "54316",
+        "text": "I am sorry to have troubled you."
+      },
+      {
+        "id": "6873071",
+        "text": "I'm sorry to have troubled you."
+      }
+    ],
+    "indices": "ご迷惑~ を 掛ける[08]{おかけ} 為る(する)[12]{しまして} 申し訳ありません[01]",
+    "vocabIds": [
+      "1612030",
+      "1270660"
+    ],
+    "matches": {
+      "1270660": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ごめいわく"
+        }
+      ],
+      "1612030": [
+        {
+          "start": 11,
+          "length": 8,
+          "reading": "もうしわけありません"
+        }
+      ]
+    }
+  },
+  {
+    "id": "217010",
+    "original": "ご迷惑をおかけしてすいません。",
+    "en": [
+      {
+        "id": "54313",
+        "text": "I'm sorry to trouble you."
+      },
+      {
+        "id": "2544675",
+        "text": "I'm sorry for the trouble."
+      }
+    ],
+    "indices": "ご迷惑 を 掛ける[08]{おかけ} 為る(する)[12]{して} すいません",
+    "vocabIds": [
+      "1270660"
+    ],
+    "matches": {
+      "1270660": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ごめいわく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "217011",
+    "original": "ご迷惑をおかけして、本当に申し訳ありません。",
+    "en": [
+      {
+        "id": "54318",
+        "text": "I really appreciate all the trouble you've gone to."
+      }
+    ],
+    "indices": "ご迷惑 を 掛ける[08]{おかけ}~ 為る(する)[12]{して} 本当に 申し訳ありません[02]~",
+    "vocabIds": [
+      "1612030",
+      "1270660",
+      "1611580"
+    ],
+    "matches": {
+      "1270660": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ごめいわく"
+        }
+      ],
+      "1611580": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "ほんとうに"
+        }
+      ],
+      "1612030": [
+        {
+          "start": 13,
+          "length": 8,
+          "reading": "もうしわけありません"
+        }
+      ]
+    }
+  },
+  {
+    "id": "217012",
+    "original": "ご迷惑でなければ、お願いしたいのですが。",
+    "en": [
+      {
+        "id": "54319",
+        "text": "If it's not too much trouble, I would like some help."
+      }
+    ],
+    "indices": "ご迷惑 でないと{でなければ} お願いします{お願いしたいのですが}",
+    "vocabIds": [
+      "1270660",
+      "2036870"
+    ],
+    "matches": {
+      "1270660": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ごめいわく"
+        }
+      ],
+      "2036870": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "おねがい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "217013",
+    "original": "ご迷惑でしょうが、駅までの道を教えていただけませんか。",
+    "en": [
+      {
+        "id": "54320",
+        "text": "I'm sorry to trouble you, but could you tell me the way to the station?"
+      }
+    ],
+    "indices": "ご迷惑 でしょう[01] が 駅 迄{まで} の 道(みち) を 教える{教えて} 頂ける[01]{いただけません} か",
+    "vocabIds": [
+      "1236900",
+      "1270660",
+      "1175140",
+      "1454080",
+      "2220470"
+    ],
+    "matches": {
+      "1175140": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "えき"
+        }
+      ],
+      "1236900": [
+        {
+          "start": 15,
+          "length": 5,
+          "reading": "おしえていた"
+        }
+      ],
+      "1270660": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ごめいわく"
+        }
+      ],
+      "1454080": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "みち"
+        }
+      ],
+      "2220470": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "みち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "217153",
+    "original": "ご自分でお出かけになるのはご迷惑でしょうか。",
+    "en": [
+      {
+        "id": "54460",
+        "text": "Would it inconvenience you to go yourself?"
+      }
+    ],
+    "indices": "御(ご){ご} 自分で 御(お){お} 出かける{出かけ} になる[01] の は ご迷惑 でしょうか",
+    "vocabIds": [
+      "1338475",
+      "2830519",
+      "1270660"
+    ],
+    "matches": {
+      "1270660": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "ごめいわく"
+        }
+      ],
+      "1338475": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "おでかけ"
+        }
+      ],
+      "2830519": [
+        {
+          "start": 1,
+          "length": 3,
+          "reading": "じぶんで"
+        }
+      ]
+    }
+  },
+  {
+    "id": "222167",
+    "original": "この件でご迷惑をおかけしたことをお詫びします。",
+    "en": [
+      {
+        "id": "59492",
+        "text": "Please accept our apologies for the trouble this matter has caused you."
+      }
+    ],
+    "indices": "此の{この} 件(けん) で(#2028980) ご迷惑 を 掛ける[08]{おかけ} 為る(する)[12]{した} 事(こと){こと} を 詫びる{お詫び} 為る(する)[12]{します}",
+    "vocabIds": [
+      "1270660",
+      "2087420",
+      "1255940"
+    ],
+    "matches": {
+      "1255940": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "けん"
+        }
+      ],
+      "1270660": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "ごめいわく"
+        }
+      ],
+      "2087420": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "おわび"
+        }
+      ]
+    }
+  },
+  {
+    "id": "224167",
+    "original": "こちらの手違いからご迷惑をおかけしてすみませんでした。",
+    "en": [
+      {
+        "id": "61504",
+        "text": "I'm sorry to have troubled you owing to our mistake."
+      }
+    ],
+    "indices": "此方(こちら){こちら} の 手違い から ご迷惑 を 掛ける[08]{おかけ} 為る(する)[12]{して} 済みません{すみませんでした}",
+    "vocabIds": [
+      "1327320",
+      "1270660"
+    ],
+    "matches": {
+      "1270660": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "ごめいわく"
+        }
+      ],
+      "1327320": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "てちがい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "230367",
+    "original": "あまりご迷惑でなければ乗せていただけませんか。",
+    "en": [
+      {
+        "id": "67734",
+        "text": "I was wondering if you could give me a lift, if it isn't too much trouble."
+      }
+    ],
+    "indices": "余り[02]{あまり} ご迷惑 でないと{でなければ} 乗せる{乗せて} 頂ける[01]{いただけません} か",
+    "vocabIds": [
+      "1600270",
+      "1270660"
+    ],
+    "matches": {
+      "1270660": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "ごめいわく"
+        }
+      ],
+      "1600270": [
+        {
+          "start": 11,
+          "length": 5,
+          "reading": "のせていた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2349278",
+    "original": "ご迷惑をおかけして申し訳ございません。",
+    "en": [
+      {
+        "id": "461156",
+        "text": "Sorry to bother you."
+      },
+      {
+        "id": "54316",
+        "text": "I am sorry to have troubled you."
+      },
+      {
+        "id": "6873071",
+        "text": "I'm sorry to have troubled you."
+      }
+    ],
+    "vocabIds": [
+      "2060820",
+      "1270660"
+    ],
+    "matches": {
+      "1270660": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ごめいわく"
+        }
+      ],
+      "2060820": [
+        {
+          "start": 9,
+          "length": 9,
+          "reading": "もうしわけございません"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8890009",
+    "original": "ご迷惑をおかけして申し訳ありません。",
+    "en": [
+      {
+        "id": "54316",
+        "text": "I am sorry to have troubled you."
+      },
+      {
+        "id": "6873071",
+        "text": "I'm sorry to have troubled you."
+      }
+    ],
+    "vocabIds": [
+      "1612030",
+      "1270660"
+    ],
+    "matches": {
+      "1270660": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ごめいわく"
+        }
+      ],
+      "1612030": [
+        {
+          "start": 9,
+          "length": 8,
+          "reading": "もうしわけありません"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9997548",
+    "original": "ご迷惑をおかけし、本当に申し訳ありません。",
+    "en": [
+      {
+        "id": "54312",
+        "text": "I'm very sorry to have troubled you."
+      }
+    ],
+    "vocabIds": [
+      "1612030",
+      "1270660",
+      "1611580"
+    ],
+    "matches": {
+      "1270660": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ごめいわく"
+        }
+      ],
+      "1611580": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "ほんとうに"
+        }
+      ],
+      "1612030": [
+        {
+          "start": 12,
+          "length": 8,
+          "reading": "もうしわけありません"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9997550",
+    "original": "ご迷惑をおかけし、本当に申し訳ありませんでした。",
+    "en": [
+      {
+        "id": "54312",
+        "text": "I'm very sorry to have troubled you."
+      }
+    ],
+    "vocabIds": [
+      "1612030",
+      "1270660",
+      "1611580"
+    ],
+    "matches": {
+      "1270660": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ごめいわく"
+        }
+      ],
+      "1611580": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "ほんとうに"
+        }
+      ],
+      "1612030": [
+        {
+          "start": 12,
+          "length": 8,
+          "reading": "もうしわけありません"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11960474",
+    "original": "これ以上ご迷惑をおかけするわけにはいきません。",
+    "en": [
+      {
+        "id": "12134335",
+        "text": "I cannot afford to trouble them any further than this."
+      },
+      {
+        "id": "12134336",
+        "text": "I mustn't cause any more problems for them."
+      }
+    ],
+    "vocabIds": [
+      "2841921",
+      "1270660"
+    ],
+    "matches": {
+      "1270660": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "ごめいわく"
+        }
+      ],
+      "2841921": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "これいじょう"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "id": "173519",
+    "original": "皇太子は、皇位を継承する人です。",
+    "en": [
+      {
+        "id": "240951",
+        "text": "The crown prince is the one who is to succeed to the throne."
+      }
+    ],
+    "indices": "皇太子 は 皇位~ を 継承 為る(する){する} 人(ひと) です",
+    "vocabIds": [
+      "1280460",
+      "1280350",
+      "1251780",
+      "1580640"
+    ],
+    "matches": {
+      "1251780": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "けいしょう"
+        }
+      ],
+      "1280350": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "こうい"
+        }
+      ],
+      "1280460": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "こうたいし"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ]
+    }
+  }
+]

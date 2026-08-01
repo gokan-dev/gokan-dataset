@@ -1,0 +1,108 @@
+[
+  {
+    "id": "75466",
+    "original": "「何してるの？」「家計簿をね。うちの家計カチカチだから、こういう所からちゃんとしないと」",
+    "en": [
+      {
+        "id": "328252",
+        "text": "\"What're you doing?\" \"The household books. Our finances are pretty tight so we have to do things properly.\""
+      }
+    ],
+    "indices": "何 為る(する){してる} の 家計簿 を ね 家(うち)[01]{うちの} 家計 かちかち{カチカチ} だ から こう言う{こういう} 所(ところ) から ちゃんと 為る(する){し} 無いと[01]{ないと}",
+    "vocabIds": [
+      "1191920",
+      "1191910",
+      "1577100",
+      "1343100"
+    ],
+    "matches": {
+      "1191910": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "かけい"
+        }
+      ],
+      "1191920": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "かけいぼ"
+        }
+      ],
+      "1343100": [
+        {
+          "start": 32,
+          "length": 1,
+          "reading": "ところ"
+        }
+      ],
+      "1577100": [
+        {
+          "start": 1,
+          "length": 1,
+          "reading": "なに"
+        }
+      ]
+    }
+  },
+  {
+    "id": "170378",
+    "original": "妻が家計簿をつけています。",
+    "en": [
+      {
+        "id": "244105",
+        "text": "My wife keeps the household accounts."
+      },
+      {
+        "id": "12420446",
+        "text": "My wife keeps track of our finances."
+      }
+    ],
+    "indices": "妻(#1294330)[01] が 家計簿~ を 付ける{つけています}",
+    "vocabIds": [
+      "1191920",
+      "1294330",
+      "1312880",
+      "1581610",
+      "2843131"
+    ],
+    "matches": {
+      "1191920": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "かけいぼ"
+        }
+      ],
+      "1294330": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "つま"
+        }
+      ],
+      "1312880": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "つま"
+        }
+      ],
+      "1581610": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "つま"
+        }
+      ],
+      "2843131": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "つま"
+        }
+      ]
+    }
+  }
+]

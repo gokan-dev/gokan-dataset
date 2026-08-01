@@ -1,0 +1,33 @@
+[
+  {
+    "id": "226822",
+    "original": "お昼は駅弁にしよう。",
+    "en": [
+      {
+        "id": "64170",
+        "text": "Let's have one of those boxed lunches they sell at train stations."
+      }
+    ],
+    "indices": "お昼 は 駅弁[01]~ に 為る(する){しよう}",
+    "vocabIds": [
+      "1660100",
+      "1175240"
+    ],
+    "matches": {
+      "1175240": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "えきべん"
+        }
+      ],
+      "1660100": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おひる"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,95 @@
+[
+  {
+    "id": "204402",
+    "original": "そんなことは私には高嶺の花です。",
+    "en": [
+      {
+        "id": "41647",
+        "text": "That's to me like a flower on lofty heights."
+      }
+    ],
+    "indices": "そんな 事(こと){こと} は 私(わたし)[01] には 高嶺の花~ です",
+    "vocabIds": [
+      "1809660",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1809660": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "たかねのはな"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "869806",
+    "original": "ナンシーが僕とデートするなんて有り得っこないんだ。高嶺の花だよ。",
+    "en": [
+      {
+        "id": "836985",
+        "text": "Nancy will never go on a date with me. She's out of my league."
+      }
+    ],
+    "vocabIds": [
+      "1540970",
+      "1809660",
+      "1521400",
+      "2228300"
+    ],
+    "matches": {
+      "1521400": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ],
+      "1540970": [
+        {
+          "start": 15,
+          "length": 7,
+          "reading": "ありえっこない"
+        }
+      ],
+      "1809660": [
+        {
+          "start": 25,
+          "length": 4,
+          "reading": "たかねのはな"
+        }
+      ],
+      "2228300": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ]
+    }
+  }
+]

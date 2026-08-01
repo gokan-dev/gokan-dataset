@@ -1,0 +1,121 @@
+[
+  {
+    "id": "123422",
+    "original": "独裁政権は人権侵害の前科について非難を受けました。",
+    "en": [
+      {
+        "id": "280575",
+        "text": "The dictatorship came under fire for its human rights record."
+      }
+    ],
+    "indices": "独裁政権~ は 人権侵害 の 前科~ に就いて{について} 非難 を 受ける{受けました}",
+    "vocabIds": [
+      "1329590",
+      "1999320",
+      "1367210",
+      "1392650",
+      "1483410"
+    ],
+    "matches": {
+      "1329590": [
+        {
+          "start": 19,
+          "length": 5,
+          "reading": "うけました"
+        }
+      ],
+      "1367210": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "じんけんしんがい"
+        }
+      ],
+      "1392650": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "ぜんか"
+        }
+      ],
+      "1483410": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "ひなん"
+        }
+      ],
+      "1999320": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "どくさいせいけん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "426651",
+    "original": "ベティは窃盗の前科がある。",
+    "en": [
+      {
+        "id": "426652",
+        "text": "Betty has a previous conviction for theft."
+      }
+    ],
+    "vocabIds": [
+      "1386110",
+      "1392650"
+    ],
+    "matches": {
+      "1386110": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "せっとう"
+        }
+      ],
+      "1392650": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ぜんか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12505116",
+    "original": "トムに前科はないと思うよ。",
+    "en": [
+      {
+        "id": "6341734",
+        "text": "I don't think Tom has a criminal record."
+      },
+      {
+        "id": "7231059",
+        "text": "I don't think that Tom has a criminal record."
+      }
+    ],
+    "vocabIds": [
+      "1392650",
+      "1589350"
+    ],
+    "matches": {
+      "1392650": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ぜんか"
+        }
+      ],
+      "1589350": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "おもう"
+        }
+      ]
+    }
+  }
+]

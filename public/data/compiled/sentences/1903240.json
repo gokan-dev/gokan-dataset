@@ -1,0 +1,111 @@
+[
+  {
+    "id": "165921",
+    "original": "私たちは居間の半分の場所を取るグランドピアノを買った。",
+    "en": [
+      {
+        "id": "248583",
+        "text": "We bought a grand piano which took up half of our living room."
+      }
+    ],
+    "indices": "私たち は 居間 の 半分(はんぶん) の 場所 を 取る グランドピアノ[01] を 買う[01]{買った}",
+    "vocabIds": [
+      "1903240",
+      "1311300",
+      "1473740",
+      "1231720",
+      "1479890"
+    ],
+    "matches": {
+      "1231720": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "いま"
+        }
+      ],
+      "1311300": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1473740": [
+        {
+          "start": 23,
+          "length": 3,
+          "reading": "かった"
+        }
+      ],
+      "1479890": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "はんぶん"
+        }
+      ],
+      "1903240": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "ばしょをとる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "211537",
+    "original": "その機械は場所をとる。",
+    "en": [
+      {
+        "id": "48815",
+        "text": "The machine takes a lot of room."
+      }
+    ],
+    "indices": "其の[01]{その} 機械 は 場所を取る{場所をとる}",
+    "vocabIds": [
+      "1903240",
+      "1220810"
+    ],
+    "matches": {
+      "1220810": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きかい"
+        }
+      ],
+      "1903240": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "ばしょをとる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "223216",
+    "original": "このベッドはとても場所を取る。",
+    "en": [
+      {
+        "id": "60548",
+        "text": "The bed takes up a lot of room."
+      }
+    ],
+    "indices": "此の{この} ベッド は 迚も{とても} 場所 を 取る",
+    "vocabIds": [
+      "1903240"
+    ],
+    "matches": {
+      "1903240": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "ばしょをとる"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "id": "90944",
+    "original": "彼女は化粧水をつけている。",
+    "en": [
+      {
+        "id": "312771",
+        "text": "She is putting on some face lotion."
+      }
+    ],
+    "indices": "彼女[01] は 化粧水(けしょうすい)~ を 付ける{つけている}",
+    "vocabIds": [
+      "1577050",
+      "1483150"
+    ],
+    "matches": {
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1577050": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "けしょうすい"
+        }
+      ]
+    }
+  }
+]

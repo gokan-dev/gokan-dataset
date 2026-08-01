@@ -1,0 +1,128 @@
+[
+  {
+    "id": "217797",
+    "original": "これらの品物は非売品です。",
+    "en": [
+      {
+        "id": "55107",
+        "text": "These articles are not for sale."
+      }
+    ],
+    "indices": "此れ等{これらの} 品物~ は 非売品~ です",
+    "vocabIds": [
+      "1485140",
+      "1490670"
+    ],
+    "matches": {
+      "1485140": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "ひばいひん"
+        }
+      ],
+      "1490670": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "しなもの"
+        }
+      ]
+    }
+  },
+  {
+    "id": "218107",
+    "original": "これは非売品です。",
+    "en": [
+      {
+        "id": "55418",
+        "text": "This isn't for sale."
+      }
+    ],
+    "indices": "此れ[01]{これ} は 非売品 です",
+    "vocabIds": [
+      "1485140"
+    ],
+    "matches": {
+      "1485140": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "ひばいひん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9231724",
+    "original": "こちらのお品は非売品です。",
+    "en": [
+      {
+        "id": "55107",
+        "text": "These articles are not for sale."
+      }
+    ],
+    "vocabIds": [
+      "1485140",
+      "2648780"
+    ],
+    "matches": {
+      "1485140": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "ひばいひん"
+        }
+      ],
+      "2648780": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "しな"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9314715",
+    "original": "この本は非売品です。",
+    "en": [
+      {
+        "id": "7492822",
+        "text": "This book isn't for sale."
+      },
+      {
+        "id": "56867",
+        "text": "This book is not for sale."
+      }
+    ],
+    "vocabIds": [
+      "1485140",
+      "1260670",
+      "1522150"
+    ],
+    "matches": {
+      "1260670": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ほん"
+        }
+      ],
+      "1485140": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "ひばいひん"
+        }
+      ],
+      "1522150": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ほん"
+        }
+      ]
+    }
+  }
+]

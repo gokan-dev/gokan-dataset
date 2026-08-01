@@ -1,0 +1,111 @@
+{
+  "id": "1444270",
+  "writtenForm": {
+    "kanji": "塗る",
+    "alternatives": [],
+    "containedKanji": [
+      "塗"
+    ]
+  },
+  "reading": {
+    "primary": "ぬる",
+    "alternatives": [
+      "まぶる"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 2834,
+    "kanaRank": 13995
+  },
+  "jlptLevel": 4,
+  "progression": {
+    "kklcStep": 1001
+  },
+  "senses": [
+    {
+      "pos": [
+        "v5r",
+        "vt"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "to paint",
+        "to spread",
+        "to plaster",
+        "to apply (cream, lotion)",
+        "to smear",
+        "to lacquer",
+        "to varnish",
+        "to put up (wallpaper)"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "v5r",
+        "vt"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "obs"
+        ]
+      },
+      "glosses": [
+        "to cover (with)",
+        "to smear",
+        "to sprinkle"
+      ],
+      "related": {
+        "compounds": [
+          "塗す"
+        ]
+      },
+      "appliesToReadings": [
+        "まぶる"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1444270",
+      "isBase": true,
+      "originalPrimaryReading": "ぬる",
+      "originalGlosses": [
+        "to paint",
+        "to spread",
+        "to plaster"
+      ]
+    },
+    {
+      "id": "2862613",
+      "isBase": false,
+      "originalPrimaryReading": "まぶる",
+      "originalGlosses": [
+        "to cover (with)",
+        "to smear",
+        "to sprinkle"
+      ]
+    }
+  ],
+  "parents": [
+    "2402180"
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "id": "1555480",
+  "writtenForm": {
+    "kanji": "林檎",
+    "alternatives": [],
+    "containedKanji": [
+      "林",
+      "檎"
+    ]
+  },
+  "reading": {
+    "primary": "りんご",
+    "alternatives": [
+      "リンゴ",
+      "りゅうごう",
+      "りんき",
+      "りんきん"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 13430,
+    "kanaRank": 16980
+  },
+  "progression": {
+    "kklcStep": 99999
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "apple (fruit)"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "apple tree (Malus pumila)"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "apple"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "りゅうごう"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": true
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1555480",
+      "isBase": true,
+      "originalPrimaryReading": "りんご",
+      "originalGlosses": [
+        "apple (fruit)"
+      ]
+    },
+    {
+      "id": "2859672",
+      "isBase": false,
+      "originalPrimaryReading": "りゅうごう",
+      "originalGlosses": [
+        "apple"
+      ]
+    }
+  ],
+  "components": [
+    "1555440"
+  ],
+  "parents": [
+    "2850826"
+  ]
+}

@@ -1,0 +1,80 @@
+[
+  {
+    "id": "116327",
+    "original": "彼の批判は犬の遠吠えだ。",
+    "en": [
+      {
+        "id": "287343",
+        "text": "He can only criticize people behind their backs."
+      }
+    ],
+    "indices": "彼(かれ) の 批判 は 犬[01] の 遠吠え[02]~ だ",
+    "vocabIds": [
+      "2833834",
+      "1000420",
+      "1483420"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれの"
+        }
+      ],
+      "1483420": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ひはん"
+        }
+      ],
+      "2833834": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "いぬのとおぼえ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "169613",
+    "original": "昨夜犬の遠吠えが聞こえた。",
+    "en": [
+      {
+        "id": "244873",
+        "text": "Last night, I heard dogs howling."
+      }
+    ],
+    "indices": "昨夜(ゆうべ)[02] 犬[01] の 遠吠え[01]~ が 聞こえる[01]{聞こえた}",
+    "vocabIds": [
+      "2833834",
+      "1591150",
+      "1542640"
+    ],
+    "matches": {
+      "1542640": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "さくや"
+        }
+      ],
+      "1591150": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "きこえた"
+        }
+      ],
+      "2833834": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "いぬのとおぼえ"
+        }
+      ]
+    }
+  }
+]

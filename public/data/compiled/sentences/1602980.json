@@ -1,0 +1,110 @@
+[
+  {
+    "id": "145510",
+    "original": "振り袖で仕事はできぬ。",
+    "en": [
+      {
+        "id": "269053",
+        "text": "The cat in gloves catches no mice."
+      }
+    ],
+    "indices": "振り袖~ で(#2028980) 仕事[01] は 出来る{できぬ}",
+    "vocabIds": [
+      "1602980",
+      "1304970"
+    ],
+    "matches": {
+      "1304970": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "しごと"
+        }
+      ],
+      "1602980": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ふりそで"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10632022",
+    "original": "「卒業式って、何着る？振り袖？袴？スーツ？」「振り袖とスーツは、卒業式じゃなくても着れるから、袴かな」",
+    "en": [
+      {
+        "id": "10906104",
+        "text": "\"What will you wear for graduation ceremony? Long-sleeved kimono? Hakama? Suit?\" \"Long-sleeved kimono and suit can be worn even if it's not a graduation ceremony, so maybe hakama.\""
+      }
+    ],
+    "vocabIds": [
+      "1405920",
+      "1602980",
+      "2655970",
+      "1423000",
+      "1577100",
+      "1267440"
+    ],
+    "matches": {
+      "1267440": [
+        {
+          "start": 15,
+          "length": 1,
+          "reading": "はかま"
+        },
+        {
+          "start": 47,
+          "length": 1,
+          "reading": "はかま"
+        }
+      ],
+      "1405920": [
+        {
+          "start": 1,
+          "length": 3,
+          "reading": "そつぎょうしき"
+        },
+        {
+          "start": 32,
+          "length": 3,
+          "reading": "そつぎょうしき"
+        }
+      ],
+      "1423000": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "きる"
+        }
+      ],
+      "1577100": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "なに"
+        }
+      ],
+      "1602980": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "ふりそで"
+        },
+        {
+          "start": 23,
+          "length": 3,
+          "reading": "ふりそで"
+        }
+      ],
+      "2655970": [
+        {
+          "start": 41,
+          "length": 3,
+          "reading": "きれる"
+        }
+      ]
+    }
+  }
+]

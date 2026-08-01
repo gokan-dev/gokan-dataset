@@ -1,0 +1,127 @@
+{
+  "id": "1179005",
+  "writtenForm": {
+    "kanji": "汚れる",
+    "alternatives": [
+      "穢れる"
+    ],
+    "containedKanji": [
+      "汚"
+    ]
+  },
+  "reading": {
+    "primary": "よごれる",
+    "alternatives": [
+      "けがれる"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 2517,
+    "kanaRank": 32394
+  },
+  "jlptLevel": 4,
+  "progression": {
+    "kklcStep": 1050
+  },
+  "senses": [
+    {
+      "pos": [
+        "v1",
+        "vi"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "to get dirty",
+        "to become dirty"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "v1",
+        "vi"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "to become sullied",
+        "to become corrupted",
+        "to lose one's chastity"
+      ],
+      "related": {
+        "compounds": [
+          "汚れる"
+        ]
+      }
+    },
+    {
+      "pos": [
+        "v1",
+        "vi"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "to be violated",
+        "to be corrupted",
+        "to be polluted",
+        "to be stained"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "けがれる"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1179005",
+      "isBase": true,
+      "originalPrimaryReading": "よごれる",
+      "originalGlosses": [
+        "to get dirty",
+        "to become dirty"
+      ]
+    },
+    {
+      "id": "1179000",
+      "isBase": false,
+      "originalPrimaryReading": "けがれる",
+      "originalGlosses": [
+        "to be violated",
+        "to be corrupted",
+        "to be polluted"
+      ]
+    }
+  ],
+  "components": [
+    "1612200"
+  ]
+}

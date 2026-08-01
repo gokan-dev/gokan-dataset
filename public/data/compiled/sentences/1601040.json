@@ -1,0 +1,590 @@
+[
+  {
+    "id": "105389",
+    "original": "彼は歯磨きをチューブから絞り出した。",
+    "en": [
+      {
+        "id": "298300",
+        "text": "He squeezed the toothpaste out of a tube."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 歯磨き[02] を チューブ~ から 絞り出す{絞り出した}",
+    "vocabIds": [
+      "1848680",
+      "1601040",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1601040": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "はみがき"
+        }
+      ],
+      "1848680": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "しぼりだした"
+        }
+      ]
+    }
+  },
+  {
+    "id": "150918",
+    "original": "歯磨きはどこ？",
+    "en": [
+      {
+        "id": "263637",
+        "text": "Where's the toothpaste?"
+      }
+    ],
+    "indices": "歯磨き[02]~ は 何処{どこ}",
+    "vocabIds": [
+      "1601040"
+    ],
+    "matches": {
+      "1601040": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "はみがき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "150919",
+    "original": "歯磨きをしなさい。",
+    "en": [
+      {
+        "id": "263638",
+        "text": "Brush your teeth."
+      },
+      {
+        "id": "505958",
+        "text": "Clean your teeth."
+      }
+    ],
+    "indices": "歯磨き[01]~ を 為る(する){し} 為さい{なさい}",
+    "vocabIds": [
+      "1601040"
+    ],
+    "matches": {
+      "1601040": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "はみがき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "150920",
+    "original": "歯磨きを怠って、その子は虫歯になった。",
+    "en": [
+      {
+        "id": "263639",
+        "text": "The boy had bad teeth because he neglected to brush them."
+      }
+    ],
+    "indices": "歯磨き[01] を 怠る{怠って} 其の[01]{その} 子(こ)[01] は 虫歯 になる[01]{になった}",
+    "vocabIds": [
+      "1601040",
+      "1410710",
+      "1604850",
+      "1307770",
+      "1320800",
+      "1324960"
+    ],
+    "matches": {
+      "1307770": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "こ"
+        }
+      ],
+      "1320800": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "こ"
+        }
+      ],
+      "1324960": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "こ"
+        }
+      ],
+      "1410710": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "おこたって"
+        }
+      ],
+      "1601040": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "はみがき"
+        }
+      ],
+      "1604850": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "むしば"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2463618",
+    "original": "ちょっと待ってね。歯磨いてくる。",
+    "en": [
+      {
+        "id": "2594155",
+        "text": "Wait up. I'll go brush my teeth."
+      }
+    ],
+    "vocabIds": [
+      "1410590",
+      "1601040"
+    ],
+    "matches": {
+      "1410590": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "まって"
+        }
+      ],
+      "1601040": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "はみがき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2487650",
+    "original": "トムは歯磨きをしている。",
+    "en": [
+      {
+        "id": "1660877",
+        "text": "Tom is brushing his teeth."
+      }
+    ],
+    "vocabIds": [
+      "1601040"
+    ],
+    "matches": {
+      "1601040": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "はみがき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3677265",
+    "original": "彼は歯磨きの仕方を知っている。",
+    "en": [
+      {
+        "id": "1751351",
+        "text": "He knows how to brush his teeth."
+      }
+    ],
+    "vocabIds": [
+      "1420470",
+      "1601040",
+      "1594110",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1420470": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "しっている"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1594110": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "しかた"
+        }
+      ],
+      "1601040": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "はみがき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "4292092",
+    "original": "今日の朝歯磨きをしたら，口の中にダンゴムシが入ってたんだ。",
+    "en": [
+      {
+        "id": "4515072",
+        "text": "When I brushed my teeth this morning, I found pill-bugs in my mouth."
+      }
+    ],
+    "vocabIds": [
+      "1465590",
+      "1601040",
+      "1579110",
+      "1428280",
+      "1275640",
+      "1423310",
+      "2098290"
+    ],
+    "matches": {
+      "1275640": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "くち"
+        }
+      ],
+      "1423310": [
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "なか"
+        }
+      ],
+      "1428280": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "あさ"
+        }
+      ],
+      "1465590": [
+        {
+          "start": 22,
+          "length": 4,
+          "reading": "はいってた"
+        }
+      ],
+      "1579110": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きょう"
+        }
+      ],
+      "1601040": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "はみがき"
+        }
+      ],
+      "2098290": [
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "なか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9738167",
+    "original": "歯磨きはしたの？",
+    "en": [
+      {
+        "id": "263600",
+        "text": "Did you brush your teeth?"
+      },
+      {
+        "id": "3452102",
+        "text": "Have you brushed your teeth?"
+      }
+    ],
+    "vocabIds": [
+      "1601040"
+    ],
+    "matches": {
+      "1601040": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "はみがき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10094516",
+    "original": "昨日の夜さ、歯磨きせずに寝ちゃったんだ。",
+    "en": [
+      {
+        "id": "244844",
+        "text": "Last night, I went to bed without brushing my teeth."
+      }
+    ],
+    "vocabIds": [
+      "1360010",
+      "1601040",
+      "1579260",
+      "1536350"
+    ],
+    "matches": {
+      "1360010": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "ねちゃった"
+        }
+      ],
+      "1536350": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "よる"
+        }
+      ],
+      "1579260": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きのう"
+        }
+      ],
+      "1601040": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "はみがき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10183466",
+    "original": "いつも寝る前には歯磨きしてるよ。",
+    "en": [
+      {
+        "id": "258765",
+        "text": "I always brush my teeth before I go to bed."
+      }
+    ],
+    "vocabIds": [
+      "1601040",
+      "1360010",
+      "1392590"
+    ],
+    "matches": {
+      "1360010": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ねる"
+        }
+      ],
+      "1392590": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "まえに"
+        }
+      ],
+      "1601040": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "はみがき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10558828",
+    "original": "必ず、歯磨きはしなさい。",
+    "en": [
+      {
+        "id": "9812400",
+        "text": "Always brush your teeth."
+      }
+    ],
+    "vocabIds": [
+      "1601040",
+      "1487400"
+    ],
+    "matches": {
+      "1487400": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かならず"
+        }
+      ],
+      "1601040": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "はみがき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10732974",
+    "original": "太郎、歯磨きしてらっしゃい。",
+    "en": [
+      {
+        "id": "852690",
+        "text": "Taro, go brush your teeth."
+      }
+    ],
+    "vocabIds": [
+      "1601040",
+      "2862858"
+    ],
+    "matches": {
+      "1601040": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "はみがき"
+        }
+      ],
+      "2862858": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "たろう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11703851",
+    "original": "歯磨きしなくちゃ。",
+    "en": [
+      {
+        "id": "263601",
+        "text": "I have to brush my teeth."
+      }
+    ],
+    "vocabIds": [
+      "1601040"
+    ],
+    "matches": {
+      "1601040": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "はみがき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11737667",
+    "original": "歯磨きをしてたの。",
+    "en": [
+      {
+        "id": "10050895",
+        "text": "I was brushing my teeth."
+      }
+    ],
+    "vocabIds": [
+      "1601040"
+    ],
+    "matches": {
+      "1601040": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "はみがき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11737668",
+    "original": "歯磨き中だったんだ。",
+    "en": [
+      {
+        "id": "10050895",
+        "text": "I was brushing my teeth."
+      }
+    ],
+    "vocabIds": [
+      "1601040",
+      "1423310",
+      "2098290"
+    ],
+    "matches": {
+      "1423310": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "ちゅう"
+        }
+      ],
+      "1601040": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "はみがき"
+        }
+      ],
+      "2098290": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "ちゅう"
+        }
+      ]
+    }
+  }
+]

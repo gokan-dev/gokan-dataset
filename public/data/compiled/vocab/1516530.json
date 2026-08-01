@@ -1,0 +1,209 @@
+{
+  "id": "1516530",
+  "writtenForm": {
+    "kanji": "放る",
+    "alternatives": [
+      "抛る",
+      "投る"
+    ],
+    "containedKanji": [
+      "放"
+    ]
+  },
+  "reading": {
+    "primary": "ほうる",
+    "alternatives": [
+      "ほる",
+      "ひる",
+      "まる",
+      "はなる"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 4021,
+    "kanaRank": 20166
+  },
+  "jlptLevel": 2,
+  "progression": {
+    "kklcStep": 574
+  },
+  "senses": [
+    {
+      "pos": [
+        "v5r",
+        "vt"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "to throw",
+        "to fling",
+        "to hurl",
+        "to toss"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "v5r",
+        "vt"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "to neglect",
+        "to abandon",
+        "to leave alone",
+        "to give up on",
+        "to leave undone",
+        "to leave unfinished"
+      ],
+      "related": {
+        "compounds": [
+          "放っておく"
+        ]
+      }
+    },
+    {
+      "pos": [
+        "v5r",
+        "vt"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "to expel (from the body)",
+        "to excrete",
+        "to defecate",
+        "to give birth"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "ひる"
+      ]
+    },
+    {
+      "pos": [
+        "v4r",
+        "vt"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "to excrete (faeces, urine)"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "まる"
+      ]
+    },
+    {
+      "pos": [
+        "v2r-s",
+        "v4r",
+        "vi"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "to get free",
+        "to be freed",
+        "to be released"
+      ],
+      "related": {
+        "compounds": [
+          "放れる"
+        ]
+      },
+      "appliesToReadings": [
+        "はなる"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": true
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1516530",
+      "isBase": true,
+      "originalPrimaryReading": "ほうる",
+      "originalGlosses": [
+        "to throw",
+        "to fling",
+        "to hurl"
+      ]
+    },
+    {
+      "id": "2411430",
+      "isBase": false,
+      "originalPrimaryReading": "ひる",
+      "originalGlosses": [
+        "to expel (from the body)",
+        "to excrete",
+        "to defecate"
+      ]
+    },
+    {
+      "id": "2706850",
+      "isBase": false,
+      "originalPrimaryReading": "まる",
+      "originalGlosses": [
+        "to excrete (faeces, urine)"
+      ]
+    },
+    {
+      "id": "2722000",
+      "isBase": false,
+      "originalPrimaryReading": "はなる",
+      "originalGlosses": [
+        "to get free",
+        "to be freed",
+        "to be released"
+      ]
+    }
+  ]
+}

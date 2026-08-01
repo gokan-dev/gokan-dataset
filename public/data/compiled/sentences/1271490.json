@@ -1,0 +1,142 @@
+[
+  {
+    "id": "74226",
+    "original": "細かい意訳誤訳は気にしないでください。",
+    "en": [
+      {
+        "id": "329494",
+        "text": "Please don't worry about the finer details of free vs mis-translation."
+      }
+    ],
+    "indices": "細かい 意訳 誤訳 は 気にしない{気にしないで} 下さい{ください}",
+    "vocabIds": [
+      "2771850",
+      "1295530",
+      "1156840",
+      "1271490"
+    ],
+    "matches": {
+      "1156840": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "いやく"
+        }
+      ],
+      "1271490": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ごやく"
+        }
+      ],
+      "1295530": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "こまかい"
+        }
+      ],
+      "2771850": [
+        {
+          "start": 8,
+          "length": 6,
+          "reading": "きにしないで"
+        }
+      ]
+    }
+  },
+  {
+    "id": "74455",
+    "original": "誤字・誤訳のご指摘等は下記メールアドレスよりお寄せください。",
+    "en": [
+      {
+        "id": "329264",
+        "text": "Please send reports of mistypings and mistranslations to the email address below."
+      }
+    ],
+    "indices": "誤字 誤訳~ の 御(ご){ご} 指摘 等(など) は 下記 メールアドレス より 寄せる[03]{お寄せ}~ 下さい{ください}",
+    "vocabIds": [
+      "1219560",
+      "1271350",
+      "1271490",
+      "1309940",
+      "1184690",
+      "1582305"
+    ],
+    "matches": {
+      "1184690": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "かき"
+        }
+      ],
+      "1219560": [
+        {
+          "start": 23,
+          "length": 6,
+          "reading": "よせください"
+        }
+      ],
+      "1271350": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ごじ"
+        }
+      ],
+      "1271490": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ごやく"
+        }
+      ],
+      "1309940": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "してき"
+        }
+      ],
+      "1582305": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "とう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3190831",
+    "original": "それは直訳じゃなくてただの誤訳だよ。",
+    "en": [
+      {
+        "id": "3192862",
+        "text": "That isn't a literal translation, it's just plain wrong."
+      }
+    ],
+    "vocabIds": [
+      "1431550",
+      "1271490"
+    ],
+    "matches": {
+      "1271490": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "ごやく"
+        }
+      ],
+      "1431550": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ちょくやく"
+        }
+      ]
+    }
+  }
+]

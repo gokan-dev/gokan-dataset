@@ -1,0 +1,221 @@
+{
+  "id": "1310620",
+  "writtenForm": {
+    "kanji": "止まる",
+    "alternatives": [
+      "留まる",
+      "停まる",
+      "駐まる",
+      "止る",
+      "留る"
+    ],
+    "containedKanji": [
+      "止"
+    ]
+  },
+  "reading": {
+    "primary": "とまる",
+    "alternatives": [
+      "とどまる",
+      "やまる"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 656,
+    "kanaRank": 6996
+  },
+  "jlptLevel": 5,
+  "progression": {
+    "kklcStep": 42
+  },
+  "senses": [
+    {
+      "pos": [
+        "v5r",
+        "vi"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "to stop (moving)",
+        "to come to a stop"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "v5r",
+        "vi"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "to stop (doing, working, being supplied)",
+        "to come to a halt",
+        "to cease",
+        "to be stopped",
+        "to be suspended"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "v5r",
+        "vi"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "to alight",
+        "to perch on"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "v5r",
+        "vi"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "to remain",
+        "to abide",
+        "to stay (in the one place)"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "とどまる"
+      ]
+    },
+    {
+      "pos": [
+        "v5r",
+        "vi"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "to be limited to",
+        "to be confined to",
+        "to only account for"
+      ],
+      "related": {
+        "compounds": [
+          "占める"
+        ]
+      },
+      "appliesToReadings": [
+        "とどまる"
+      ]
+    },
+    {
+      "pos": [
+        "v5r",
+        "vi"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": true,
+        "rawTags": [
+          "col",
+          "rare"
+        ]
+      },
+      "glosses": [
+        "to cease",
+        "to stop",
+        "to be over"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "やまる"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1310620",
+      "isBase": true,
+      "originalPrimaryReading": "とまる",
+      "originalGlosses": [
+        "to stop (moving)",
+        "to come to a stop"
+      ]
+    },
+    {
+      "id": "2657130",
+      "isBase": false,
+      "originalPrimaryReading": "とどまる",
+      "originalGlosses": [
+        "to remain",
+        "to abide",
+        "to stay (in the one place)"
+      ]
+    },
+    {
+      "id": "2657250",
+      "isBase": false,
+      "originalPrimaryReading": "やまる",
+      "originalGlosses": [
+        "to cease",
+        "to stop",
+        "to be over"
+      ]
+    }
+  ],
+  "parents": [
+    "1551350"
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "id": "1442500",
+  "writtenForm": {
+    "kanji": "殿",
+    "alternatives": [],
+    "containedKanji": [
+      "殿"
+    ]
+  },
+  "reading": {
+    "primary": "どの",
+    "alternatives": [
+      "でん",
+      "との",
+      "しんがり"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 3082,
+    "kanaRank": 10101
+  },
+  "jlptLevel": 1,
+  "progression": {
+    "kklcStep": 881
+  },
+  "senses": [
+    {
+      "pos": [
+        "suf"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "pol"
+        ]
+      },
+      "glosses": [
+        "Mr.",
+        "Mrs.",
+        "Miss",
+        "Ms."
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "suf"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "hall"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "でん"
+      ]
+    },
+    {
+      "pos": [
+        "n",
+        "pn"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "hon"
+        ]
+      },
+      "glosses": [
+        "feudal lord"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "との"
+      ]
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "mansion",
+        "palace"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "との"
+      ]
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "rear",
+        "rear unit guard"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "しんがり"
+      ]
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "anchor (man)"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "しんがり"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1442500",
+      "isBase": true,
+      "originalPrimaryReading": "どの",
+      "originalGlosses": [
+        "Mr.",
+        "Mrs.",
+        "Miss"
+      ]
+    },
+    {
+      "id": "2859792",
+      "isBase": false,
+      "originalPrimaryReading": "でん",
+      "originalGlosses": [
+        "hall"
+      ]
+    },
+    {
+      "id": "1442490",
+      "isBase": false,
+      "originalPrimaryReading": "との",
+      "originalGlosses": [
+        "feudal lord"
+      ]
+    },
+    {
+      "id": "1442480",
+      "isBase": false,
+      "originalPrimaryReading": "しんがり",
+      "originalGlosses": [
+        "rear",
+        "rear unit guard"
+      ]
+    }
+  ],
+  "parents": [
+    "1442520",
+    "1364770",
+    "1228470",
+    "1223580",
+    "1442640",
+    "1442650",
+    "1270560",
+    "1483050",
+    "1280470",
+    "2610880",
+    "1442630"
+  ]
+}

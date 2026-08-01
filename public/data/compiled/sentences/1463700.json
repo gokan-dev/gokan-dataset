@@ -1,0 +1,122 @@
+[
+  {
+    "id": "122970",
+    "original": "肉料理には何がありますか。",
+    "en": [
+      {
+        "id": "281032",
+        "text": "What kinds of meat dishes do you serve?"
+      },
+      {
+        "id": "13481670",
+        "text": "What meat dishes do you have?"
+      }
+    ],
+    "indices": "肉料理~ に は 何(なに)[01] が[01] 有る{あります} か",
+    "vocabIds": [
+      "1463700",
+      "1577100"
+    ],
+    "matches": {
+      "1463700": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "にくりょうり"
+        }
+      ],
+      "1577100": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "なに"
+        }
+      ]
+    }
+  },
+  {
+    "id": "154750",
+    "original": "私は肉料理を好まない。",
+    "en": [
+      {
+        "id": "259789",
+        "text": "I don't care for meat."
+      }
+    ],
+    "indices": "私(わたし)[01] は 肉料理 を 好む{好まない}",
+    "vocabIds": [
+      "1277520",
+      "1463700",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1277520": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "このまない"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1463700": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "にくりょうり"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11005105",
+    "original": "きのうの晩ごはんは肉料理でした。",
+    "en": [
+      {
+        "id": "12039507",
+        "text": "Yesterday's dinner was a meat dish."
+      }
+    ],
+    "vocabIds": [
+      "1601340",
+      "1463700"
+    ],
+    "matches": {
+      "1463700": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "にくりょうり"
+        }
+      ],
+      "1601340": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "ばんごはん"
+        }
+      ]
+    }
+  }
+]

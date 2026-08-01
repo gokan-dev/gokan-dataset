@@ -1,0 +1,41 @@
+[
+  {
+    "id": "121575",
+    "original": "排便の際出血します。",
+    "en": [
+      {
+        "id": "282430",
+        "text": "I bleed when I have bowel movements."
+      }
+    ],
+    "indices": "排便~ の 際(さい) 出血 為る(する){します}",
+    "vocabIds": [
+      "1472470",
+      "1338750",
+      "1296300"
+    ],
+    "matches": {
+      "1296300": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "さい"
+        }
+      ],
+      "1338750": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "しゅっけつ"
+        }
+      ],
+      "1472470": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "はいべん"
+        }
+      ]
+    }
+  }
+]

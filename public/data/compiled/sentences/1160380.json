@@ -1,0 +1,150 @@
+[
+  {
+    "id": "74300",
+    "original": "水道水で年1回、井戸水なら年2回の水質検査をお勧めします。",
+    "en": [
+      {
+        "id": "329420",
+        "text": "We recommend that mains water have a water-quality test carried out once a year, well water twice a year."
+      }
+    ],
+    "indices": "水道水 で(#2028980) 年(ねん) 一回{1回} 井戸水 なら 年(ねん) 二回{2回} の 水質検査~ を お勧め 為る(する){します}",
+    "vocabIds": [
+      "1995960",
+      "1960280",
+      "1160380",
+      "1002150",
+      "2084840",
+      "1199330"
+    ],
+    "matches": {
+      "1002150": [
+        {
+          "start": 22,
+          "length": 3,
+          "reading": "おすすめ"
+        }
+      ],
+      "1160380": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "いどみず"
+        }
+      ],
+      "1199330": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "かい"
+        },
+        {
+          "start": 15,
+          "length": 1,
+          "reading": "かい"
+        }
+      ],
+      "1960280": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "すいどうすい"
+        }
+      ],
+      "1995960": [
+        {
+          "start": 17,
+          "length": 4,
+          "reading": "すいしつけんさ"
+        }
+      ],
+      "2084840": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "とし"
+        },
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "とし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "171556",
+    "original": "今日は体調が悪い。あの井戸水が原因だ。",
+    "en": [
+      {
+        "id": "395039",
+        "text": "I don't feel well today. That well water is the reason."
+      },
+      {
+        "id": "472445",
+        "text": "I feel out of sorts today. That well water is why."
+      }
+    ],
+    "indices": "今日 は 体調 が 悪い(わるい) 彼の(あの){あの} 井戸水~ が 原因 だ",
+    "vocabIds": [
+      "1289400",
+      "1160380",
+      "1409610",
+      "1151260",
+      "1403390",
+      "2772730",
+      "1261190"
+    ],
+    "matches": {
+      "1151260": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "わるい"
+        }
+      ],
+      "1160380": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "いどみず"
+        }
+      ],
+      "1261190": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "げんいん"
+        }
+      ],
+      "1289400": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きょうは"
+        }
+      ],
+      "1403390": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "わるい"
+        }
+      ],
+      "1409610": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "たいちょう"
+        }
+      ],
+      "2772730": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "わるい"
+        }
+      ]
+    }
+  }
+]

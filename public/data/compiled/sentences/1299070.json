@@ -1,0 +1,102 @@
+[
+  {
+    "id": "220968",
+    "original": "この水は殺菌してある。",
+    "en": [
+      {
+        "id": "58290",
+        "text": "This water is sterilized."
+      }
+    ],
+    "indices": "此の{この} 水(みず) は 殺菌~ 為る(する){してある}",
+    "vocabIds": [
+      "1299070",
+      "1371260"
+    ],
+    "matches": {
+      "1299070": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "さっきん"
+        }
+      ],
+      "1371260": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "みず"
+        }
+      ]
+    }
+  },
+  {
+    "id": "222374",
+    "original": "この牛乳は殺菌してある。",
+    "en": [
+      {
+        "id": "59700",
+        "text": "This milk is free from germs."
+      }
+    ],
+    "indices": "此の{この} 牛乳 は 殺菌 為る(する){してある}",
+    "vocabIds": [
+      "1231590",
+      "1299070"
+    ],
+    "matches": {
+      "1231590": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ぎゅうにゅう"
+        }
+      ],
+      "1299070": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "さっきん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10007153",
+    "original": "殺菌処理を徹底します。",
+    "en": [
+      {
+        "id": "10122467",
+        "text": "I sterilize with utmost care."
+      }
+    ],
+    "vocabIds": [
+      "1299070",
+      "1342510",
+      "1437670"
+    ],
+    "matches": {
+      "1299070": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "さっきん"
+        }
+      ],
+      "1342510": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "しょり"
+        }
+      ],
+      "1437670": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "てってい"
+        }
+      ]
+    }
+  }
+]

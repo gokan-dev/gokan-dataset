@@ -1,0 +1,475 @@
+[
+  {
+    "id": "124291",
+    "original": "東加古川行きの電車は何番線から出ますか。",
+    "en": [
+      {
+        "id": "279703",
+        "text": "From which platform does the train to Higasikakogawa leave?"
+      }
+    ],
+    "indices": "行き[01] の 電車 は 何(なに)[01] 番線 から 出る{出ます} か",
+    "vocabIds": [
+      "1338240",
+      "1578790",
+      "1443530",
+      "1482330",
+      "1577100"
+    ],
+    "matches": {
+      "1338240": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "でます"
+        }
+      ],
+      "1443530": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "でんしゃ"
+        }
+      ],
+      "1482330": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "ばんせん"
+        }
+      ],
+      "1577100": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "なん"
+        }
+      ],
+      "1578790": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "いき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "146174",
+    "original": "乗り場は何番線ですか。",
+    "en": [
+      {
+        "id": "268388",
+        "text": "What gate number does the bus leave from?"
+      }
+    ],
+    "indices": "乗り場 は 何(なに)[01] 番線 ですか",
+    "vocabIds": [
+      "1600520",
+      "1482330",
+      "1577100"
+    ],
+    "matches": {
+      "1482330": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ばんせん"
+        }
+      ],
+      "1577100": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "なん"
+        }
+      ],
+      "1600520": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "のりば"
+        }
+      ]
+    }
+  },
+  {
+    "id": "203857",
+    "original": "ダウンタウン行きは何番線ですか。",
+    "en": [
+      {
+        "id": "41098",
+        "text": "What number is the downtown train?"
+      },
+      {
+        "id": "540565",
+        "text": "What platform does the downtown train leave from?"
+      }
+    ],
+    "indices": "ダウンタウン 行き[01] は 何(なに)[01] 番線 ですか",
+    "vocabIds": [
+      "1578790",
+      "1482330",
+      "1577100"
+    ],
+    "matches": {
+      "1482330": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "ばんせん"
+        }
+      ],
+      "1577100": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "なん"
+        }
+      ],
+      "1578790": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "いき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "225094",
+    "original": "ケンブリッジ行きの列車は５番線から出発します。",
+    "en": [
+      {
+        "id": "62429",
+        "text": "The train for Cambridge leaves from Platform 5."
+      }
+    ],
+    "indices": "剣橋{ケンブリッジ} 行き[01] の 列車 は 番線~ から 出発{出発します}",
+    "vocabIds": [
+      "1578790",
+      "1558370",
+      "1482330",
+      "1340000",
+      "1268060"
+    ],
+    "matches": {
+      "1268060": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "ご"
+        }
+      ],
+      "1340000": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "しゅっぱつ"
+        }
+      ],
+      "1482330": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "ばんせん"
+        }
+      ],
+      "1558370": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "れっしゃ"
+        }
+      ],
+      "1578790": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "いき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "233180",
+    "original": "あなたの乗る電車は１０番線から出ます。",
+    "en": [
+      {
+        "id": "70550",
+        "text": "Your train leaves from Platform 10."
+      }
+    ],
+    "indices": "貴方(あなた)[01]{あなた} の 乗る[01] 電車 は 番線 から 出る[02]{出ます}",
+    "vocabIds": [
+      "1338240",
+      "1355120",
+      "1443530",
+      "1579840",
+      "1482330"
+    ],
+    "matches": {
+      "1338240": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "でます"
+        }
+      ],
+      "1355120": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "のる"
+        }
+      ],
+      "1443530": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "でんしゃ"
+        }
+      ],
+      "1482330": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "ばんせん"
+        }
+      ],
+      "1579840": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "いちぜろ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "234895",
+    "original": "９番線の急行に乗りなさい。",
+    "en": [
+      {
+        "id": "72272",
+        "text": "Take the express train from platform 9."
+      }
+    ],
+    "indices": "番線 の 急行[02] に 乗る[01]{乗り} 為さい{なさい}",
+    "vocabIds": [
+      "1355120",
+      "1482330",
+      "1228690",
+      "1578150"
+    ],
+    "matches": {
+      "1228690": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "きゅうこう"
+        }
+      ],
+      "1355120": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "のりなさい"
+        }
+      ],
+      "1482330": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "ばんせん"
+        }
+      ],
+      "1578150": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "きゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "235103",
+    "original": "５番線のどの列車でもいいから乗りなさい。",
+    "en": [
+      {
+        "id": "72481",
+        "text": "Take any train on track 5."
+      }
+    ],
+    "indices": "番線 の 何の(どの){どの} 列車 でも[02] いい(#2820690)[01] から 乗る[01]{乗り} 為さい{なさい}",
+    "vocabIds": [
+      "1355120",
+      "1482330",
+      "1558370",
+      "1268060"
+    ],
+    "matches": {
+      "1268060": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ご"
+        }
+      ],
+      "1355120": [
+        {
+          "start": 14,
+          "length": 5,
+          "reading": "のりなさい"
+        }
+      ],
+      "1482330": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "ばんせん"
+        }
+      ],
+      "1558370": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "れっしゃ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "338029",
+    "original": "三番線、ドアが閉まります。ご注意下さい。",
+    "en": [
+      {
+        "id": "535804",
+        "text": "The doors of the train on line 3 are closing. Please be careful."
+      }
+    ],
+    "vocabIds": [
+      "2850261",
+      "1436560",
+      "1482330",
+      "1579350"
+    ],
+    "matches": {
+      "1436560": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "しまります"
+        }
+      ],
+      "1482330": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "ばんせん"
+        }
+      ],
+      "1579350": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "さん"
+        }
+      ],
+      "2850261": [
+        {
+          "start": 13,
+          "length": 6,
+          "reading": "ごちゅういください"
+        }
+      ]
+    }
+  },
+  {
+    "id": "774424",
+    "original": "次の2番線に到着する電車は、16時35分発渋谷行きです。",
+    "en": [
+      {
+        "id": "786026",
+        "text": "The next train arriving at platform 2 will depart for Shibuya at 4:35pm."
+      }
+    ],
+    "vocabIds": [
+      "1482330",
+      "1449870",
+      "1443530",
+      "2850709",
+      "1578790",
+      "1316380",
+      "1315840",
+      "1502860",
+      "1477120"
+    ],
+    "matches": {
+      "1315840": [
+        {
+          "start": 16,
+          "length": 1,
+          "reading": "じ"
+        }
+      ],
+      "1316380": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "つぎ"
+        }
+      ],
+      "1443530": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "でんしゃ"
+        }
+      ],
+      "1449870": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "とうちゃく"
+        }
+      ],
+      "1477120": [
+        {
+          "start": 20,
+          "length": 1,
+          "reading": "はつ"
+        }
+      ],
+      "1482330": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ばんせん"
+        }
+      ],
+      "1502860": [
+        {
+          "start": 19,
+          "length": 1,
+          "reading": "ふん"
+        }
+      ],
+      "1578790": [
+        {
+          "start": 23,
+          "length": 2,
+          "reading": "いき"
+        }
+      ],
+      "2850709": [
+        {
+          "start": 21,
+          "length": 2,
+          "reading": "しぶや"
+        }
+      ]
+    }
+  }
+]

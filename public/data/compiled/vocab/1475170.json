@@ -1,0 +1,104 @@
+{
+  "id": "1475170",
+  "writtenForm": {
+    "kanji": "白菜",
+    "alternatives": [],
+    "containedKanji": [
+      "白",
+      "菜"
+    ]
+  },
+  "reading": {
+    "primary": "はくさい",
+    "alternatives": [
+      "ハクサイ",
+      "パクチョイ"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 35953,
+    "kanaRank": 119814
+  },
+  "progression": {
+    "kklcStep": 988
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "napa cabbage (Brassica rapa subsp. pekinensis)",
+        "nappa cabbage",
+        "Chinese cabbage"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "bok choy (esp. cultivars with white stalks)",
+        "pak choi"
+      ],
+      "related": {
+        "compounds": [
+          "チンゲンサイ"
+        ]
+      },
+      "appliesToReadings": [
+        "パクチョイ"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": true
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1475170",
+      "isBase": true,
+      "originalPrimaryReading": "はくさい",
+      "originalGlosses": [
+        "napa cabbage (Brassica rapa subsp. pekinensis)",
+        "nappa cabbage",
+        "Chinese cabbage"
+      ]
+    },
+    {
+      "id": "2834152",
+      "isBase": false,
+      "originalPrimaryReading": "パクチョイ",
+      "originalGlosses": [
+        "bok choy (esp. cultivars with white stalks)",
+        "pak choi"
+      ]
+    }
+  ],
+  "components": [
+    "1474900",
+    "1295830"
+  ]
+}

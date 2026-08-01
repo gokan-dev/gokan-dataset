@@ -1,0 +1,71 @@
+[
+  {
+    "id": "141377",
+    "original": "川の始まるところが、水源である。",
+    "en": [
+      {
+        "id": "273195",
+        "text": "The place where a river starts is its source."
+      }
+    ],
+    "indices": "川[01] の 始まる 所(ところ){ところ} が 水源~ である",
+    "vocabIds": [
+      "1307500",
+      "1371460",
+      "1390020"
+    ],
+    "matches": {
+      "1307500": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "はじまる"
+        }
+      ],
+      "1371460": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "すいげん"
+        }
+      ],
+      "1390020": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かわ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11048067",
+    "original": "どんな川にも水源があります。",
+    "en": [
+      {
+        "id": "3971727",
+        "text": "Every river has a source."
+      }
+    ],
+    "vocabIds": [
+      "1371460",
+      "1390020"
+    ],
+    "matches": {
+      "1371460": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "すいげん"
+        }
+      ],
+      "1390020": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "かわ"
+        }
+      ]
+    }
+  }
+]

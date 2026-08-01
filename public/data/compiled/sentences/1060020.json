@@ -1,0 +1,72 @@
+[
+  {
+    "id": "216375",
+    "original": "シェリー酒をください。",
+    "en": [
+      {
+        "id": "53680",
+        "text": "Yes, I'll have sherry."
+      }
+    ],
+    "indices": "シェリー酒 を 下さい[01]{ください}",
+    "vocabIds": [
+      "1060020"
+    ],
+    "matches": {
+      "1060020": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "しぇりーさけ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "226236",
+    "original": "ガブリエルは熱いスープとシェリー酒を少し飲んだだけだった。",
+    "en": [
+      {
+        "id": "63576",
+        "text": "Gabriel took nothing but the hot soup and a little sherry."
+      }
+    ],
+    "indices": "は 熱い スープ と シェリー酒~ を 少し 飲む[01]{飲んだ} 丈(だけ){だけ} だ{だった}",
+    "vocabIds": [
+      "1060020",
+      "1169870",
+      "1467720",
+      "1348870"
+    ],
+    "matches": {
+      "1060020": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "しぇりーさけ"
+        }
+      ],
+      "1169870": [
+        {
+          "start": 20,
+          "length": 3,
+          "reading": "のんだ"
+        }
+      ],
+      "1348870": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "すこし"
+        }
+      ],
+      "1467720": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "あつい"
+        }
+      ]
+    }
+  }
+]

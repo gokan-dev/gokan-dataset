@@ -1,0 +1,218 @@
+[
+  {
+    "id": "90384",
+    "original": "彼女は金融市場の取材を担当している。",
+    "en": [
+      {
+        "id": "313329",
+        "text": "She covers Wall Street."
+      }
+    ],
+    "indices": "彼女[01] は 金融 市場(しじょう)[01] の 取材~ を 担当 為る(する){している}",
+    "vocabIds": [
+      "1630390",
+      "1483150",
+      "1327020",
+      "1418160"
+    ],
+    "matches": {
+      "1327020": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "しゅざい"
+        }
+      ],
+      "1418160": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "たんとう"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1630390": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "きんゆうしじょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "198742",
+    "original": "ニューヨークタイムズは彼女のギャラリーにいつも取材にくるんだから。",
+    "en": [
+      {
+        "id": "35936",
+        "text": "The New York Times reviews her gallery all the time."
+      }
+    ],
+    "indices": "NI{ニューヨークタイムズ} は 彼女[01]{彼女の} ギャラリー に 何時も{いつも} 取材 に 来る(くる){くる} ん[04] だから",
+    "vocabIds": [
+      "1483150",
+      "1327020"
+    ],
+    "matches": {
+      "1327020": [
+        {
+          "start": 23,
+          "length": 2,
+          "reading": "しゅざい"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "213053",
+    "original": "そのジャーナリストは自分の取材した事実を勝手に変えた。",
+    "en": [
+      {
+        "id": "50337",
+        "text": "The journalist took liberties with the facts he had gathered."
+      }
+    ],
+    "indices": "其の[01]{その} ジャーナリスト は 自分[01] の 取材 為る(する){した} 事実 を 勝手に 変える{変えた}",
+    "vocabIds": [
+      "1346200",
+      "1510650",
+      "1318610",
+      "1327020",
+      "1313960"
+    ],
+    "matches": {
+      "1313960": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "じじつ"
+        }
+      ],
+      "1318610": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "じぶん"
+        }
+      ],
+      "1327020": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "しゅざい"
+        }
+      ],
+      "1346200": [
+        {
+          "start": 20,
+          "length": 3,
+          "reading": "かってに"
+        }
+      ],
+      "1510650": [
+        {
+          "start": 23,
+          "length": 3,
+          "reading": "かえた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10682266",
+    "original": "「トムは、教室の掃除サボってどこに行ったの？」「なんかね、『学校新聞に載せる記事の取材してくる』っていいながら、給食室に行ったよ」",
+    "en": [
+      {
+        "id": "11204935",
+        "text": "\"Tom's skipping out on cleaning duty? Where did he go?\" \"He said something like, 'I'm going to go collect information for the school paper' and went to the cafeteria.\""
+      }
+    ],
+    "vocabIds": [
+      "1932020",
+      "1600270",
+      "2254680",
+      "1578850",
+      "1237150",
+      "1399790",
+      "1223240",
+      "1327020"
+    ],
+    "matches": {
+      "1223240": [
+        {
+          "start": 38,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1237150": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "きょうしつ"
+        }
+      ],
+      "1327020": [
+        {
+          "start": 41,
+          "length": 2,
+          "reading": "しゅざい"
+        }
+      ],
+      "1399790": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "そうじ"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "いった"
+        },
+        {
+          "start": 60,
+          "length": 3,
+          "reading": "いった"
+        }
+      ],
+      "1600270": [
+        {
+          "start": 35,
+          "length": 3,
+          "reading": "のせる"
+        }
+      ],
+      "1932020": [
+        {
+          "start": 30,
+          "length": 4,
+          "reading": "がっこうしんぶん"
+        }
+      ],
+      "2254680": [
+        {
+          "start": 56,
+          "length": 3,
+          "reading": "きゅうしょくしつ"
+        }
+      ]
+    }
+  }
+]

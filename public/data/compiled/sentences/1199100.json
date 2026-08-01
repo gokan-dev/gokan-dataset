@@ -1,0 +1,119 @@
+[
+  {
+    "id": "222693",
+    "original": "この画像、解像度が低すぎてすごく汚い。",
+    "en": [
+      {
+        "id": "60023",
+        "text": "The image quality is really bad - the resolution is so low."
+      }
+    ],
+    "indices": "此の{この} 画像 解像度~ が 低い{低} 過ぎる(すぎる){すぎて} 凄く{すごく} 汚い",
+    "vocabIds": [
+      "1434180",
+      "1199100",
+      "1197390",
+      "1178940"
+    ],
+    "matches": {
+      "1178940": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "きたない"
+        }
+      ],
+      "1197390": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "がぞう"
+        }
+      ],
+      "1199100": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "かいぞうど"
+        }
+      ],
+      "1434180": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "ひくすぎて"
+        }
+      ]
+    }
+  },
+  {
+    "id": "4897871",
+    "original": "この画像は解像度が低すぎて、画質がとても悪い。",
+    "en": [
+      {
+        "id": "4904119",
+        "text": "This picture has very low resolution, the quality is very low."
+      }
+    ],
+    "vocabIds": [
+      "1434180",
+      "1199100",
+      "1197390",
+      "1197240",
+      "1151260",
+      "1403390",
+      "2772730"
+    ],
+    "matches": {
+      "1151260": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "わるい"
+        }
+      ],
+      "1197240": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "がしつ"
+        }
+      ],
+      "1197390": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "がぞう"
+        }
+      ],
+      "1199100": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "かいぞうど"
+        }
+      ],
+      "1403390": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "わるい"
+        }
+      ],
+      "1434180": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "ひくすぎて"
+        }
+      ],
+      "2772730": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "わるい"
+        }
+      ]
+    }
+  }
+]

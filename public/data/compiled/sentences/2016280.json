@@ -1,0 +1,41 @@
+[
+  {
+    "id": "85629",
+    "original": "飛行機は早割でとれば安いよ。",
+    "en": [
+      {
+        "id": "318083",
+        "text": "The sooner you get your ticket, the cheaper the fare."
+      }
+    ],
+    "indices": "飛行機 は 早割~ で(#2028980) 取る{とれば} 安い[01] よ[01]",
+    "vocabIds": [
+      "1485470",
+      "2016280",
+      "1153670"
+    ],
+    "matches": {
+      "1153670": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "やすい"
+        }
+      ],
+      "1485470": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ひこうき"
+        }
+      ],
+      "2016280": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "はやわり"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "id": "222757",
+    "original": "この歌劇は５幕ものです。",
+    "en": [
+      {
+        "id": "60087",
+        "text": "This is an opera in five acts."
+      }
+    ],
+    "indices": "此の{この} 歌劇~ は 幕[02] 物(もの){もの} です",
+    "vocabIds": [
+      "1193260",
+      "1268060",
+      "1524750"
+    ],
+    "matches": {
+      "1193260": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "かげき"
+        }
+      ],
+      "1268060": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "ご"
+        }
+      ],
+      "1524750": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "まく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "222758",
+    "original": "この歌劇は３幕からなる。",
+    "en": [
+      {
+        "id": "60088",
+        "text": "This opera has three acts."
+      }
+    ],
+    "indices": "此の{この} 歌劇 は 幕[02] から成る{からなる}",
+    "vocabIds": [
+      "1193260",
+      "1579350",
+      "1524750"
+    ],
+    "matches": {
+      "1193260": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "かげき"
+        }
+      ],
+      "1524750": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "まく"
+        }
+      ],
+      "1579350": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "さん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1797005",
+    "original": "愛はフランスでは喜劇、英国では悲劇、イタリアでは歌劇、そしてドイツではメロドラマである。",
+    "en": [
+      {
+        "id": "1797758",
+        "text": "Love is a comedy in France, a tragedy in England, an opera in Italy, and a melodrama in Germany."
+      }
+    ],
+    "vocabIds": [
+      "1218810",
+      "1174450",
+      "1483280",
+      "1193260",
+      "1150410"
+    ],
+    "matches": {
+      "1150410": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "あい"
+        }
+      ],
+      "1174450": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "えいこく"
+        }
+      ],
+      "1193260": [
+        {
+          "start": 24,
+          "length": 2,
+          "reading": "かげき"
+        }
+      ],
+      "1218810": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "きげき"
+        }
+      ],
+      "1483280": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "ひげき"
+        }
+      ]
+    }
+  }
+]

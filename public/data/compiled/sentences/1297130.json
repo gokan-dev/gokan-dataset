@@ -1,0 +1,222 @@
+[
+  {
+    "id": "137672",
+    "original": "大雨のために本日の阪神・巨人戦は中止になった。",
+    "en": [
+      {
+        "id": "275564",
+        "text": "Today's Tigers-Giants baseball game was called off due to heavy rain."
+      }
+    ],
+    "indices": "大雨 の 為に{ために} 本日 の 阪神[02]~ 巨人[02] 戦(いくさ) は 中止[02] になる[01]{になった}",
+    "vocabIds": [
+      "1413070",
+      "1523110",
+      "1297130",
+      "1232090",
+      "1424410",
+      "2080730"
+    ],
+    "matches": {
+      "1232090": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "きょじん"
+        }
+      ],
+      "1297130": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "はんしん"
+        }
+      ],
+      "1413070": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おおあめ"
+        }
+      ],
+      "1424410": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "ちゅうし"
+        }
+      ],
+      "1523110": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ほんじつ"
+        }
+      ],
+      "2080730": [
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "せん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "165768",
+    "original": "私たちは阪神の大ファンです。",
+    "en": [
+      {
+        "id": "248736",
+        "text": "We are great Tigers fans."
+      }
+    ],
+    "indices": "私たち は 阪神[02] の 大ファン です",
+    "vocabIds": [
+      "2831122",
+      "1311300",
+      "1297130"
+    ],
+    "matches": {
+      "1297130": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "はんしん"
+        }
+      ],
+      "1311300": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "2831122": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "だいふぁん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "170042",
+    "original": "昨日の阪神巨人戦を見たかい。",
+    "en": [
+      {
+        "id": "2726739",
+        "text": "Did you see the game yesterday between the Hanshin Tigers and the Tokyo Giants?"
+      }
+    ],
+    "indices": "昨日 の 阪神[02] 巨人[02] 戦(いくさ) を 見る{見た} かい",
+    "vocabIds": [
+      "1579260",
+      "1297130",
+      "1232090",
+      "1259290",
+      "1473740",
+      "2080730"
+    ],
+    "matches": {
+      "1232090": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "きょじん"
+        }
+      ],
+      "1259290": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "みた"
+        }
+      ],
+      "1297130": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "はんしん"
+        }
+      ],
+      "1473740": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "かい"
+        }
+      ],
+      "1579260": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きのう"
+        }
+      ],
+      "2080730": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "せん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "170189",
+    "original": "阪神三日天下。あっと言う間に首位から転落しちゃったよ。",
+    "en": [
+      {
+        "id": "244295",
+        "text": "Hanshin's moment of glory didn't last. They fell out of first place in a hurry."
+      }
+    ],
+    "indices": "阪神[02] 三日天下~ あっという間に{あっと言う間に} 首位~ から 転落~ 為る(する){し} じゃう{ちゃった} よ[01]",
+    "vocabIds": [
+      "1000390",
+      "1301370",
+      "1297130",
+      "1594690",
+      "1441370"
+    ],
+    "matches": {
+      "1000390": [
+        {
+          "start": 7,
+          "length": 7,
+          "reading": "あっというまに"
+        }
+      ],
+      "1297130": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "はんしん"
+        }
+      ],
+      "1301370": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "みっかてんか"
+        }
+      ],
+      "1441370": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "てんらく"
+        }
+      ],
+      "1594690": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "しゅい"
+        }
+      ]
+    }
+  }
+]

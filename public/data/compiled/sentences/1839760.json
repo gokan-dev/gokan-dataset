@@ -1,0 +1,79 @@
+[
+  {
+    "id": "76903",
+    "original": "あのさ恭平、この問題・・・食塩水のやつなんだけど・・・。",
+    "en": [
+      {
+        "id": "326817",
+        "text": "You see, Kyohei, this question ... it's about saline solution but ..."
+      }
+    ],
+    "indices": "彼の(あの){あの} さ 此の{この} 問題 食塩水~ の 奴(やつ)[02]{やつ} なのだ{なんだ} けど",
+    "vocabIds": [
+      "1839760",
+      "1536010"
+    ],
+    "matches": {
+      "1536010": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "もんだい"
+        }
+      ],
+      "1839760": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "しょくえんすい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10838329",
+    "original": "濃度10%の食塩水の作り方を教えてください。",
+    "en": [
+      {
+        "id": "11561946",
+        "text": "Show me how to make 10% saline solution."
+      }
+    ],
+    "vocabIds": [
+      "1236900",
+      "1839760",
+      "1297430",
+      "1469970"
+    ],
+    "matches": {
+      "1236900": [
+        {
+          "start": 14,
+          "length": 7,
+          "reading": "おしえてください"
+        }
+      ],
+      "1297430": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "つくりかた"
+        }
+      ],
+      "1469970": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "のうど"
+        }
+      ],
+      "1839760": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "しょくえんすい"
+        }
+      ]
+    }
+  }
+]

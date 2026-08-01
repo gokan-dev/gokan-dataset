@@ -1,0 +1,262 @@
+[
+  {
+    "id": "91708",
+    "original": "彼女はハンカチをきちんと畳んだ。",
+    "en": [
+      {
+        "id": "312004",
+        "text": "She folded her handkerchief neatly."
+      }
+    ],
+    "indices": "彼女[01] は ハンカチ を きちんと 畳む[01]{畳んだ}",
+    "vocabIds": [
+      "1356780",
+      "1483150"
+    ],
+    "matches": {
+      "1356780": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "たたんだ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "225098",
+    "original": "ケンは毛布を二つに畳んだ。",
+    "en": [
+      {
+        "id": "62433",
+        "text": "Ken folded the blanket in half."
+      }
+    ],
+    "indices": "は 毛布~ を 二つ に 畳む[01]{畳んだ}",
+    "vocabIds": [
+      "1356780",
+      "1533950",
+      "1461160"
+    ],
+    "matches": {
+      "1356780": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "たたんだ"
+        }
+      ],
+      "1461160": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ふたつ"
+        }
+      ],
+      "1533950": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "もうふ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "944318",
+    "original": "洗濯をすることは構わないのだが、服を畳むことが嫌いだ。",
+    "en": [
+      {
+        "id": "943858",
+        "text": "I don't have a problem doing the laundry, but I hate folding the clothes."
+      }
+    ],
+    "vocabIds": [
+      "1866610",
+      "1390980",
+      "1356780",
+      "1257240",
+      "1500940"
+    ],
+    "matches": {
+      "1257240": [
+        {
+          "start": 23,
+          "length": 2,
+          "reading": "きらい"
+        }
+      ],
+      "1356780": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "たたむ"
+        }
+      ],
+      "1390980": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "せんたく"
+        }
+      ],
+      "1500940": [
+        {
+          "start": 16,
+          "length": 1,
+          "reading": "ふく"
+        }
+      ],
+      "1866610": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "かまわない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1130816",
+    "original": "服は畳むかハンガーにかけておかないと、くしゃくしゃになっちゃうよ。",
+    "en": [
+      {
+        "id": "2674369",
+        "text": "If you don't fold your clothes or hang them, they will be wrinkled."
+      }
+    ],
+    "vocabIds": [
+      "1356780",
+      "1500940"
+    ],
+    "matches": {
+      "1356780": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "たたむ"
+        }
+      ],
+      "1500940": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ふく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "4900030",
+    "original": "トムは傘を畳んだ。",
+    "en": [
+      {
+        "id": "2956738",
+        "text": "Tom folded up his umbrella."
+      }
+    ],
+    "vocabIds": [
+      "1356780",
+      "1301940",
+      "1774770"
+    ],
+    "matches": {
+      "1301940": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "かさ"
+        }
+      ],
+      "1356780": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "たたんだ"
+        }
+      ],
+      "1774770": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "かさ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3023114",
+    "original": "洗濯物畳んでくれる？",
+    "en": [
+      {
+        "id": "7766353",
+        "text": "Can you fold the washing?"
+      }
+    ],
+    "vocabIds": [
+      "1356780",
+      "1391020"
+    ],
+    "matches": {
+      "1356780": [
+        {
+          "start": 3,
+          "length": 6,
+          "reading": "たたんでくれる"
+        }
+      ],
+      "1391020": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "せんたくぶつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10732532",
+    "original": "傘は畳んで。",
+    "en": [
+      {
+        "id": "10732147",
+        "text": "Shut the umbrella."
+      }
+    ],
+    "vocabIds": [
+      "1356780",
+      "1301940",
+      "1774770"
+    ],
+    "matches": {
+      "1301940": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かさ"
+        }
+      ],
+      "1356780": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "たたんで"
+        }
+      ],
+      "1774770": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かさ"
+        }
+      ]
+    }
+  }
+]

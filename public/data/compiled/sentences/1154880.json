@@ -1,0 +1,87 @@
+[
+  {
+    "id": "183688",
+    "original": "館内に案内所がありますか。",
+    "en": [
+      {
+        "id": "20811",
+        "text": "Is there an information counter?"
+      },
+      {
+        "id": "13274252",
+        "text": "Is there an information desk in the building?"
+      }
+    ],
+    "indices": "館内~ に 案内所~ が[01] 有る{あります} か",
+    "vocabIds": [
+      "1154880",
+      "1614320"
+    ],
+    "matches": {
+      "1154880": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "あんないしょ"
+        }
+      ],
+      "1614320": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かんない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "191236",
+    "original": "案内所はどこにありますか。",
+    "en": [
+      {
+        "id": "28397",
+        "text": "Where's the information desk?"
+      }
+    ],
+    "indices": "案内所 は 何処{どこ} に 有る{あります} か",
+    "vocabIds": [
+      "1154880"
+    ],
+    "matches": {
+      "1154880": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あんないしょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "191237",
+    "original": "案内所はどこですか。",
+    "en": [
+      {
+        "id": "28398",
+        "text": "Where is the information counter?"
+      },
+      {
+        "id": "7713155",
+        "text": "Where's the information counter?"
+      }
+    ],
+    "indices": "案内所 は 何処{どこ} ですか",
+    "vocabIds": [
+      "1154880"
+    ],
+    "matches": {
+      "1154880": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あんないしょ"
+        }
+      ]
+    }
+  }
+]

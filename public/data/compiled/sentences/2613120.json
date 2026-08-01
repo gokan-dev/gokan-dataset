@@ -1,0 +1,101 @@
+[
+  {
+    "id": "205096",
+    "original": "それは実際にあった事だ。",
+    "en": [
+      {
+        "id": "42338",
+        "text": "That is an actual fact."
+      }
+    ],
+    "indices": "其れ[01]{それ} は 実際にあった~ 事(こと) だ",
+    "vocabIds": [
+      "2613120",
+      "1313580"
+    ],
+    "matches": {
+      "1313580": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "こと"
+        }
+      ],
+      "2613120": [
+        {
+          "start": 3,
+          "length": 6,
+          "reading": "じっさいにあった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3565459",
+    "original": "この劇は、実際にあった出来事が元になっている。",
+    "en": [
+      {
+        "id": "2116222",
+        "text": "The play is based on true events."
+      }
+    ],
+    "vocabIds": [
+      "2613120",
+      "1340570",
+      "1253310",
+      "1260670"
+    ],
+    "matches": {
+      "1253310": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "げき"
+        }
+      ],
+      "1260670": [
+        {
+          "start": 15,
+          "length": 1,
+          "reading": "もと"
+        }
+      ],
+      "1340570": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "できごと"
+        }
+      ],
+      "2613120": [
+        {
+          "start": 5,
+          "length": 6,
+          "reading": "じっさいにあった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11825725",
+    "original": "それって、実際にあったの？",
+    "en": [
+      {
+        "id": "10015621",
+        "text": "Did that actually happen?"
+      }
+    ],
+    "vocabIds": [
+      "2613120"
+    ],
+    "matches": {
+      "2613120": [
+        {
+          "start": 5,
+          "length": 6,
+          "reading": "じっさいにあった"
+        }
+      ]
+    }
+  }
+]

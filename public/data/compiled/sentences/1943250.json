@@ -1,0 +1,176 @@
+[
+  {
+    "id": "101949",
+    "original": "彼は鉄道事故で死んだ。",
+    "en": [
+      {
+        "id": "301744",
+        "text": "He was killed in a railroad accident."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 鉄道事故 で(#2028980) 死ぬ{死んだ}",
+    "vocabIds": [
+      "1943250",
+      "1310730",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1310730": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "しんだ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1943250": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "てつどうじこ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "124181",
+    "original": "東京駅での鉄道事故はどうして起こったのですか。",
+    "en": [
+      {
+        "id": "279813",
+        "text": "How did the railway accident at Tokyo Station come about?"
+      },
+      {
+        "id": "1474608",
+        "text": "How did the railway accident at Tokyo Station happen?"
+      }
+    ],
+    "indices": "東京 駅 で(#2028980) の 鉄道事故 は 如何して{どうして} 起こる{起こった} のです か",
+    "vocabIds": [
+      "1943250",
+      "1223680",
+      "1447690",
+      "1175140"
+    ],
+    "matches": {
+      "1175140": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "えき"
+        }
+      ],
+      "1223680": [
+        {
+          "start": 14,
+          "length": 4,
+          "reading": "おこった"
+        }
+      ],
+      "1447690": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とうきょう"
+        }
+      ],
+      "1943250": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "てつどうじこ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "207672",
+    "original": "その鉄道事故で死者三名、重軽傷者１０名が出た。",
+    "en": [
+      {
+        "id": "44925",
+        "text": "Three persons were killed and ten were severely or slightly injured in the railway accident."
+      }
+    ],
+    "indices": "其の[01]{その} 鉄道事故~ で(#2028980) 死者 三 名(めい)[01] 重軽傷~ 者(しゃ) 名(めい)[01] が 出る{出た}",
+    "vocabIds": [
+      "1943250",
+      "2643990",
+      "1310870",
+      "1579840",
+      "1338240",
+      "1579350",
+      "1531330"
+    ],
+    "matches": {
+      "1310870": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ししゃ"
+        }
+      ],
+      "1338240": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "でた"
+        }
+      ],
+      "1531330": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "めい"
+        },
+        {
+          "start": 18,
+          "length": 1,
+          "reading": "めい"
+        }
+      ],
+      "1579350": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "さん"
+        }
+      ],
+      "1579840": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "いちぜろ"
+        }
+      ],
+      "1943250": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "てつどうじこ"
+        }
+      ],
+      "2643990": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "じゅうけいしょうしゃ"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,172 @@
+[
+  {
+    "id": "83413",
+    "original": "別の段落で彼はコンマを１つ入れた。",
+    "en": [
+      {
+        "id": "320303",
+        "text": "In another paragraph, he put in a comma."
+      }
+    ],
+    "indices": "別(べつ){別の} 段落~ で(#2028980) 彼(かれ)[01] は コンマ を 一つ{１つ} 入れる[01]{入れた}",
+    "vocabIds": [
+      "1465610",
+      "1419980",
+      "1160820",
+      "1509430",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1160820": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "ひとつ"
+        }
+      ],
+      "1419980": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "だんらく"
+        }
+      ],
+      "1465610": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "いれた"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1509430": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "べつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "220630",
+    "original": "この段落は意味が曖昧だ。",
+    "en": [
+      {
+        "id": "57952",
+        "text": "This paragraph is vague."
+      }
+    ],
+    "indices": "此の{この} 段落 は 意味 が 曖昧[01] だ",
+    "vocabIds": [
+      "1419980",
+      "1156800",
+      "1567920"
+    ],
+    "matches": {
+      "1156800": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "いみ"
+        }
+      ],
+      "1419980": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "だんらく"
+        }
+      ],
+      "1567920": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "あいまい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2907543",
+    "original": "この段落はどういう意味なんですか？",
+    "en": [
+      {
+        "id": "954536",
+        "text": "What does this paragraph mean?"
+      }
+    ],
+    "vocabIds": [
+      "1419980",
+      "1156800"
+    ],
+    "matches": {
+      "1156800": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "いみ"
+        }
+      ],
+      "1419980": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "だんらく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2907546",
+    "original": "この段落の意味分かる？",
+    "en": [
+      {
+        "id": "1064471",
+        "text": "Can you understand the meaning of this paragraph?"
+      }
+    ],
+    "vocabIds": [
+      "1606560",
+      "1419980",
+      "1156800"
+    ],
+    "matches": {
+      "1156800": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "いみ"
+        }
+      ],
+      "1419980": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "だんらく"
+        }
+      ],
+      "1606560": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "わかる"
+        }
+      ]
+    }
+  }
+]

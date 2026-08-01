@@ -1,0 +1,64 @@
+[
+  {
+    "id": "146091",
+    "original": "場が白けた。",
+    "en": [
+      {
+        "id": "268471",
+        "text": "The party grew chilly."
+      }
+    ],
+    "indices": "場(ば)[01]~ が 白ける[01]{白けた}",
+    "vocabIds": [
+      "1474920",
+      "1355790"
+    ],
+    "matches": {
+      "1355790": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ば"
+        }
+      ],
+      "1474920": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "しらけた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "202773",
+    "original": "ちょっと座が白けている。",
+    "en": [
+      {
+        "id": "40008",
+        "text": "There is a slight chill on the party."
+      }
+    ],
+    "indices": "一寸(ちょっと){ちょっと} 座が白ける{座が白けている}~",
+    "vocabIds": [
+      "1474920",
+      "1291770"
+    ],
+    "matches": {
+      "1291770": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "ざ"
+        }
+      ],
+      "1474920": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "しらけている"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,94 @@
+[
+  {
+    "id": "198951",
+    "original": "「なんだか焦げ臭いね」「うっかりパンを黒こげにしちゃったの」",
+    "en": [
+      {
+        "id": "36148",
+        "text": "\"Can you smell something burning?\" \"Oh, I went and burnt the toast.\""
+      }
+    ],
+    "indices": "何だか{なんだか} 焦げ臭い ね(#2029080)[01] うっかり パン(#1103090)[01] を 黒焦げ{黒こげ}~ に 為る(する){し} じゃう{ちゃった} の",
+    "vocabIds": [
+      "1350740",
+      "1287780"
+    ],
+    "matches": {
+      "1287780": [
+        {
+          "start": 19,
+          "length": 3,
+          "reading": "くろこげ"
+        }
+      ],
+      "1350740": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "こげくさい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "201089",
+    "original": "トーストは黒焦げになってしまった。",
+    "en": [
+      {
+        "id": "38295",
+        "text": "The toast has burned black."
+      }
+    ],
+    "indices": "トースト は 黒焦げ になる{になって} 仕舞う{しまった}",
+    "vocabIds": [
+      "1287780"
+    ],
+    "matches": {
+      "1287780": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "くろこげ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1111485",
+    "original": "何をどうやったら、鍋がこんなに真っ黒焦げになるわけ？",
+    "en": [
+      {
+        "id": "7910913",
+        "text": "How on earth could this pan become so burnt and blackened."
+      }
+    ],
+    "vocabIds": [
+      "1287780",
+      "2851233",
+      "1459720"
+    ],
+    "matches": {
+      "1287780": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "くろこげ"
+        }
+      ],
+      "1459720": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "なべ"
+        }
+      ],
+      "2851233": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "なにを"
+        }
+      ]
+    }
+  }
+]

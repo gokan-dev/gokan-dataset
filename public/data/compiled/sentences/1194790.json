@@ -1,0 +1,561 @@
+[
+  {
+    "id": "86111",
+    "original": "彼女を元気付けるために病院に花束を送った。",
+    "en": [
+      {
+        "id": "317600",
+        "text": "We sent some flowers to the hospital to cheer her up."
+      }
+    ],
+    "indices": "彼女 を 元気付ける 為に{ために} 病院 に 花束 を 送る{送った}",
+    "vocabIds": [
+      "1260750",
+      "1402730",
+      "1483150",
+      "1490220",
+      "1194790"
+    ],
+    "matches": {
+      "1194790": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "はなたば"
+        }
+      ],
+      "1260750": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "げんきつける"
+        }
+      ],
+      "1402730": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "おくった"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1490220": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "びょういん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "102487",
+    "original": "彼は大きな花束を抱えてやって来た。",
+    "en": [
+      {
+        "id": "301207",
+        "text": "He came bearing a large bunch of flowers."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 大きな 花束 を 抱える[01]{抱えて} やって来る{やって来た}",
+    "vocabIds": [
+      "1012790",
+      "1412890",
+      "1516310",
+      "1194790",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1012790": [
+        {
+          "start": 11,
+          "length": 5,
+          "reading": "やってきた"
+        }
+      ],
+      "1194790": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "はなたば"
+        }
+      ],
+      "1412890": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "おおきな"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1516310": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "かかえて"
+        }
+      ]
+    }
+  },
+  {
+    "id": "106109",
+    "original": "彼が花束をプレゼントしてくれたの。",
+    "en": [
+      {
+        "id": "297577",
+        "text": "He presented me with a bouquet of flowers."
+      }
+    ],
+    "indices": "彼(かれ)[01] が 花束 を プレゼント[01] 為る(する){して} 呉れる{くれた} の",
+    "vocabIds": [
+      "1194790",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1194790": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "はなたば"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "153307",
+    "original": "私は彼女のもてなしのお返しにバラの花束を贈った。",
+    "en": [
+      {
+        "id": "261236",
+        "text": "I gave a bunch of roses to her in return for her hospitality."
+      }
+    ],
+    "indices": "私(わたし)[01] は 彼女[01]{彼女の} 持て成し{もてなし} の お返し に 薔薇{バラ} の 花束 を 贈る{贈った}",
+    "vocabIds": [
+      "1002640",
+      "1403550",
+      "1483150",
+      "1194790",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1002640": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "おかえし"
+        }
+      ],
+      "1194790": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "はなたば"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1403550": [
+        {
+          "start": 20,
+          "length": 3,
+          "reading": "おくった"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "169369",
+    "original": "山田氏が彼の秘書の誕生日に花束を送るのはとても思いやりのある事だった。",
+    "en": [
+      {
+        "id": "245117",
+        "text": "It was very considerate of Mr Yamada to send his secretary a bouquet of flowers on her birthday."
+      },
+      {
+        "id": "1515875",
+        "text": "It was very considerate of Mr. Yamada to send his secretary a bouquet of flowers on her birthday."
+      }
+    ],
+    "indices": "氏(し)[01] が 彼(かれ)[01]{彼の} 秘書 の 誕生日 に 花束 を 送る の は 迚も[01]{とても} 思いやり 之(の)[03]{の} 有る{ある} 事(こと) だ{だった}",
+    "vocabIds": [
+      "1309180",
+      "1419110",
+      "1000420",
+      "1484060",
+      "1194790",
+      "1402730",
+      "2101130",
+      "1313580"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "かれの"
+        }
+      ],
+      "1194790": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "はなたば"
+        }
+      ],
+      "1309180": [
+        {
+          "start": 23,
+          "length": 4,
+          "reading": "おもいやり"
+        }
+      ],
+      "1313580": [
+        {
+          "start": 30,
+          "length": 1,
+          "reading": "こと"
+        }
+      ],
+      "1402730": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "おくる"
+        }
+      ],
+      "1419110": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "たんじょうび"
+        }
+      ],
+      "1484060": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ひしょ"
+        }
+      ],
+      "2101130": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "し"
+        }
+      ]
+    }
+  },
+  {
+    "id": "180013",
+    "original": "業者が造花の花束を届けて飾っている。",
+    "en": [
+      {
+        "id": "18873",
+        "text": "A delivery man is dropping off an arrangement of artificial flowers."
+      }
+    ],
+    "indices": "業者 が 造花 の 花束 を[01] 届ける[01]{届けて} 飾る[01]{飾っている}",
+    "vocabIds": [
+      "1357210",
+      "1457210",
+      "1239440",
+      "1662780",
+      "1194790"
+    ],
+    "matches": {
+      "1194790": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "はなたば"
+        }
+      ],
+      "1239440": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ぎょうしゃ"
+        }
+      ],
+      "1357210": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "かざっている"
+        }
+      ],
+      "1457210": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "とどけて"
+        }
+      ],
+      "1662780": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ぞうか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "209322",
+    "original": "その女優は演じ終わると花束を贈呈された。",
+    "en": [
+      {
+        "id": "46583",
+        "text": "The actress was presented a bouquet of flowers after the performance."
+      }
+    ],
+    "indices": "其の[01]{その} 女優 は 演じる{演じ} 終わる と 花束~ を 贈呈~ 為れる{された}",
+    "vocabIds": [
+      "1589600",
+      "1176780",
+      "1345430",
+      "1194790",
+      "1403570"
+    ],
+    "matches": {
+      "1176780": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "えんじ"
+        }
+      ],
+      "1194790": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "はなたば"
+        }
+      ],
+      "1345430": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "じょゆう"
+        }
+      ],
+      "1403570": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "ぞうてい"
+        }
+      ],
+      "1589600": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "おわると"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8875056",
+    "original": "トムはメアリーに花束をあげた。",
+    "en": [
+      {
+        "id": "1892651",
+        "text": "Tom gave a bouquet of flowers to Mary."
+      }
+    ],
+    "vocabIds": [
+      "1194790"
+    ],
+    "matches": {
+      "1194790": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "はなたば"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8602049",
+    "original": "在校生たちは、お世話になった先輩たちにきれいな花束を贈る計画を立てていた。",
+    "en": [
+      {
+        "id": "10124423",
+        "text": "Our current students have been planning on giving beautiful bouquets of flowers to seniors who have helped them."
+      }
+    ],
+    "vocabIds": [
+      "1551530",
+      "1296490",
+      "2144410",
+      "1388410",
+      "1194790",
+      "1403550",
+      "1252090"
+    ],
+    "matches": {
+      "1194790": [
+        {
+          "start": 23,
+          "length": 2,
+          "reading": "はなたば"
+        }
+      ],
+      "1252090": [
+        {
+          "start": 28,
+          "length": 2,
+          "reading": "けいかく"
+        }
+      ],
+      "1296490": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ざいこうせい"
+        }
+      ],
+      "1388410": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "せんぱい"
+        }
+      ],
+      "1403550": [
+        {
+          "start": 26,
+          "length": 2,
+          "reading": "おくる"
+        }
+      ],
+      "1551530": [
+        {
+          "start": 31,
+          "length": 5,
+          "reading": "たてていた"
+        }
+      ],
+      "2144410": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "おせわ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "13428551",
+    "original": "トムは母の日に母親に花束を送った。",
+    "en": [
+      {
+        "id": "5505616",
+        "text": "Tom sent his mother some flowers on Mother's Day."
+      }
+    ],
+    "vocabIds": [
+      "1515000",
+      "1402730",
+      "1515120",
+      "1194790"
+    ],
+    "matches": {
+      "1194790": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "はなたば"
+        }
+      ],
+      "1402730": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "おくった"
+        }
+      ],
+      "1515000": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "ははのひ"
+        }
+      ],
+      "1515120": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ははおや"
+        }
+      ]
+    }
+  }
+]

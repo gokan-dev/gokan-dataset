@@ -1,0 +1,233 @@
+[
+  {
+    "id": "174245",
+    "original": "御湯を沸かしてちょうだい。",
+    "en": [
+      {
+        "id": "240224",
+        "text": "Bring the water to a boil."
+      },
+      {
+        "id": "496220",
+        "text": "Bring the water to the boil."
+      }
+    ],
+    "indices": "お湯{御湯} を 沸かす[01]{沸かして} 頂戴[01]{ちょうだい}",
+    "vocabIds": [
+      "1501660",
+      "1002510"
+    ],
+    "matches": {
+      "1002510": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ごゆ"
+        }
+      ],
+      "1501660": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "わかして"
+        }
+      ]
+    }
+  },
+  {
+    "id": "216402",
+    "original": "ジェシーはコーヒーを入れる為にお湯を沸かしている。",
+    "en": [
+      {
+        "id": "53706",
+        "text": "Jessie is boiling water to make coffee."
+      }
+    ],
+    "indices": "は 珈琲{コーヒー} を 入れる[07] 為に お湯 を 沸かす[01]{沸かしている}~",
+    "vocabIds": [
+      "2847633",
+      "1501660",
+      "1157150",
+      "1002510"
+    ],
+    "matches": {
+      "1002510": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "おゆ"
+        }
+      ],
+      "1157150": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "ために"
+        }
+      ],
+      "1501660": [
+        {
+          "start": 18,
+          "length": 6,
+          "reading": "わかしている"
+        }
+      ],
+      "2847633": [
+        {
+          "start": 5,
+          "length": 8,
+          "reading": "こーひーをいれる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "226794",
+    "original": "お湯を少し沸かしてください。",
+    "en": [
+      {
+        "id": "64141",
+        "text": "Boil some water."
+      }
+    ],
+    "indices": "お湯 を 少し 沸かす[01]{沸かして} 下さい{ください}",
+    "vocabIds": [
+      "1501660",
+      "1002510",
+      "1348870"
+    ],
+    "matches": {
+      "1002510": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おゆ"
+        }
+      ],
+      "1348870": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "すこし"
+        }
+      ],
+      "1501660": [
+        {
+          "start": 5,
+          "length": 8,
+          "reading": "わかしてください"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2826738",
+    "original": "トムはお湯の沸かし方も知らない。",
+    "en": [
+      {
+        "id": "2826737",
+        "text": "Tom doesn't even know how to boil water."
+      }
+    ],
+    "vocabIds": [
+      "1420420",
+      "1501660",
+      "1002510"
+    ],
+    "matches": {
+      "1002510": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "おゆ"
+        }
+      ],
+      "1420420": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "しらない"
+        }
+      ],
+      "1501660": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "わかしかた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8647412",
+    "original": "何を沸かしてるの？",
+    "en": [
+      {
+        "id": "8647407",
+        "text": "What are you boiling?"
+      }
+    ],
+    "vocabIds": [
+      "1501660",
+      "2851233"
+    ],
+    "matches": {
+      "1501660": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "わかしてる"
+        }
+      ],
+      "2851233": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "なにを"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11022928",
+    "original": "お湯、沸かしといて。",
+    "en": [
+      {
+        "id": "13140619",
+        "text": "Please boil the hot water in advance."
+      },
+      {
+        "id": "13140620",
+        "text": "Please boil the water in advance."
+      },
+      {
+        "id": "1795949",
+        "text": "Boil the water."
+      },
+      {
+        "id": "13151198",
+        "text": "Please boil the water."
+      }
+    ],
+    "vocabIds": [
+      "1501660",
+      "1002510"
+    ],
+    "matches": {
+      "1002510": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おゆ"
+        }
+      ],
+      "1501660": [
+        {
+          "start": 3,
+          "length": 6,
+          "reading": "わかしといて"
+        }
+      ]
+    }
+  }
+]

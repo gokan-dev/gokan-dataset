@@ -1,0 +1,119 @@
+[
+  {
+    "id": "82908",
+    "original": "母は神経痛が快癒した。",
+    "en": [
+      {
+        "id": "320808",
+        "text": "My mother made a complete recovery from neuralgia."
+      }
+    ],
+    "indices": "母(はは) は 神経痛 が 快癒~ 為る(する){した}",
+    "vocabIds": [
+      "1646830",
+      "1805770",
+      "1514990"
+    ],
+    "matches": {
+      "1514990": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "はは"
+        }
+      ],
+      "1646830": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "しんけいつう"
+        }
+      ],
+      "1805770": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "かいゆ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "88265",
+    "original": "彼女は絶えず神経痛に悩まされている。",
+    "en": [
+      {
+        "id": "315442",
+        "text": "She suffers from constant neuralgia."
+      }
+    ],
+    "indices": "彼女[01] は 絶えず 神経痛~ に 悩ます{悩まされている}",
+    "vocabIds": [
+      "1386700",
+      "1646830",
+      "1469840",
+      "1483150"
+    ],
+    "matches": {
+      "1386700": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "たえず"
+        }
+      ],
+      "1469840": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "なやまさ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1646830": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "しんけいつう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "144883",
+    "original": "神経痛ではないかと思うのです。",
+    "en": [
+      {
+        "id": "269681",
+        "text": "I'm afraid I have neuralgia."
+      }
+    ],
+    "indices": "神経痛 では無い{ではない} か と 思う のです",
+    "vocabIds": [
+      "1646830",
+      "1589350"
+    ],
+    "matches": {
+      "1589350": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "おもう"
+        }
+      ],
+      "1646830": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "しんけいつう"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,229 @@
+[
+  {
+    "id": "152617",
+    "original": "私は明日葵さんに会いに熊本へ行くつもりです。",
+    "en": [
+      {
+        "id": "261932",
+        "text": "I will go to Kumamoto to see Mr Aoi tomorrow."
+      },
+      {
+        "id": "1477415",
+        "text": "I will go to Kumamoto to see Mr. Aoi tomorrow."
+      },
+      {
+        "id": "1477417",
+        "text": "I plan to go to Kumamoto tomorrow to see Mr. Aoi."
+      }
+    ],
+    "indices": "私(わたし)[01] は 明日 葵~ さん に 会う[01]{会い} に へ 行く 積もり{つもり} です",
+    "vocabIds": [
+      "1584660",
+      "1198180",
+      "2845085",
+      "1578850",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1151180"
+    ],
+    "matches": {
+      "1151180": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "あおい"
+        }
+      ],
+      "1198180": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "あい"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "いく"
+        }
+      ],
+      "1584660": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "あした"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2845085": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "くまもと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "200494",
+    "original": "トニー君は去年から熊本に住んでいます。",
+    "en": [
+      {
+        "id": "37695",
+        "text": "Tony has lived in Kumamoto since last year."
+      }
+    ],
+    "indices": "君(くん) は 去年 から[01] に 住む{住んでいます}",
+    "vocabIds": [
+      "1334040",
+      "1231690",
+      "2845085",
+      "1247250"
+    ],
+    "matches": {
+      "1231690": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "きょねん"
+        }
+      ],
+      "1247250": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "くん"
+        }
+      ],
+      "1334040": [
+        {
+          "start": 12,
+          "length": 6,
+          "reading": "すんでいます"
+        }
+      ],
+      "2845085": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "くまもと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "235729",
+    "original": "１人は熊本に、もう１人は東京にいます。",
+    "en": [
+      {
+        "id": "73109",
+        "text": "One is in Kumamoto and the other in Tokyo."
+      }
+    ],
+    "indices": "一人{１人} は に もう一人{もう１人} は 東京 に 居る(いる)[01]{います}",
+    "vocabIds": [
+      "2267340",
+      "1576150",
+      "2845085",
+      "1447690"
+    ],
+    "matches": {
+      "1447690": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "とうきょう"
+        }
+      ],
+      "1576150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いちにん"
+        }
+      ],
+      "2267340": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "もういちにん"
+        }
+      ],
+      "2845085": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "くまもと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10999353",
+    "original": "熊本県の県庁所在地は熊本市です。",
+    "en": [
+      {
+        "id": "10999355",
+        "text": "Kumamoto Prefecture's capital is Kumamoto City."
+      }
+    ],
+    "vocabIds": [
+      "1258890",
+      "1246870",
+      "2845085",
+      "1308090"
+    ],
+    "matches": {
+      "1246870": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "くまもとけん"
+        }
+      ],
+      "1258890": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "けんちょうしょざいち"
+        }
+      ],
+      "1308090": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "し"
+        }
+      ],
+      "2845085": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "くまもと"
+        }
+      ]
+    }
+  }
+]

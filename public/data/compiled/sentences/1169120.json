@@ -1,0 +1,409 @@
+[
+  {
+    "id": "123108",
+    "original": "二人の口論は結局引き分けに終わった。",
+    "en": [
+      {
+        "id": "280892",
+        "text": "Their argument eventually ended in a draw."
+      }
+    ],
+    "indices": "二人 の 口論 は 結局 引き分け に 終わる{終わった}",
+    "vocabIds": [
+      "1169120",
+      "1589600",
+      "1582670",
+      "1277000",
+      "1254730"
+    ],
+    "matches": {
+      "1169120": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "ひきわけ"
+        }
+      ],
+      "1254730": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "けっきょく"
+        }
+      ],
+      "1277000": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "こうろん"
+        }
+      ],
+      "1582670": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ににん"
+        }
+      ],
+      "1589600": [
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "おわった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "151029",
+    "original": "試合は引き分けになった。",
+    "en": [
+      {
+        "id": "263526",
+        "text": "The game was drawn."
+      },
+      {
+        "id": "267390",
+        "text": "The match ended in a draw."
+      }
+    ],
+    "indices": "試合 は 引き分け になる[01]{になった}",
+    "vocabIds": [
+      "1169120",
+      "1312420"
+    ],
+    "matches": {
+      "1169120": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "ひきわけ"
+        }
+      ],
+      "1312420": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しあい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "206335",
+    "original": "野球の試合は引き分けに終わった。",
+    "en": [
+      {
+        "id": "43583",
+        "text": "The baseball game ended in a draw."
+      }
+    ],
+    "indices": "野球 の 試合 は 引き分け~ に 終わる[01]{終わった}~",
+    "vocabIds": [
+      "1169120",
+      "1589600",
+      "1537300",
+      "1312420"
+    ],
+    "matches": {
+      "1169120": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "ひきわけ"
+        }
+      ],
+      "1312420": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "しあい"
+        }
+      ],
+      "1537300": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "やきゅう"
+        }
+      ],
+      "1589600": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "おわった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "210024",
+    "original": "その試合は引き分けに終わった。",
+    "en": [
+      {
+        "id": "10455342",
+        "text": "The game ended in a draw."
+      },
+      {
+        "id": "267390",
+        "text": "The match ended in a draw."
+      }
+    ],
+    "indices": "其の[01]{その} 試合 は 引き分け に 終わる{終わった}",
+    "vocabIds": [
+      "1169120",
+      "1589600",
+      "1312420"
+    ],
+    "matches": {
+      "1169120": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "ひきわけ"
+        }
+      ],
+      "1312420": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "しあい"
+        }
+      ],
+      "1589600": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "おわった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "210031",
+    "original": "試合は6対6で引き分けに終わった。",
+    "en": [
+      {
+        "id": "47294",
+        "text": "The match ended in a 6-6 draw."
+      }
+    ],
+    "indices": "試合 は 対(たい)[02]~ で(#2028980) 引き分け に 終わる{終わった}",
+    "vocabIds": [
+      "1169120",
+      "1589600",
+      "1312420",
+      "1409800"
+    ],
+    "matches": {
+      "1169120": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "ひきわけ"
+        }
+      ],
+      "1312420": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しあい"
+        }
+      ],
+      "1409800": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "たい"
+        }
+      ],
+      "1589600": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "おわった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "189601",
+    "original": "雨のため、野球の試合は引き分けになった。",
+    "en": [
+      {
+        "id": "9188443",
+        "text": "The baseball game was declared a tie because of the rain."
+      }
+    ],
+    "indices": "雨 の 為(ため)[03]{ため} 野球 の 試合 は 引き分け になる[01]{になった}",
+    "vocabIds": [
+      "1169120",
+      "1537300",
+      "1312420",
+      "1171900"
+    ],
+    "matches": {
+      "1169120": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "ひきわけ"
+        }
+      ],
+      "1171900": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "あめ"
+        }
+      ],
+      "1312420": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "しあい"
+        }
+      ],
+      "1537300": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "やきゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10228031",
+    "original": "カナダの女子サッカーチームは、１-１の引き分けの後にPK戦でスウェーデンを３-２で破りました。",
+    "en": [
+      {
+        "id": "10227823",
+        "text": "Canada’s women soccer team beat Sweden, 3-2 on penalty kicks after a 1-1 draw."
+      }
+    ],
+    "vocabIds": [
+      "1208000",
+      "1471200",
+      "1169120",
+      "1345140",
+      "2640160",
+      "1160790",
+      "2080730",
+      "1579350",
+      "1461140"
+    ],
+    "matches": {
+      "1160790": [
+        {
+          "start": 15,
+          "length": 1,
+          "reading": "いち"
+        },
+        {
+          "start": 17,
+          "length": 1,
+          "reading": "いち"
+        }
+      ],
+      "1169120": [
+        {
+          "start": 19,
+          "length": 4,
+          "reading": "ひきわけ"
+        }
+      ],
+      "1208000": [
+        {
+          "start": 41,
+          "length": 5,
+          "reading": "やぶりました"
+        }
+      ],
+      "1345140": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "じょし"
+        }
+      ],
+      "1461140": [
+        {
+          "start": 39,
+          "length": 1,
+          "reading": "に"
+        }
+      ],
+      "1471200": [
+        {
+          "start": 41,
+          "length": 5,
+          "reading": "やぶりました"
+        }
+      ],
+      "1579350": [
+        {
+          "start": 37,
+          "length": 1,
+          "reading": "さん"
+        }
+      ],
+      "2080730": [
+        {
+          "start": 28,
+          "length": 1,
+          "reading": "せん"
+        }
+      ],
+      "2640160": [
+        {
+          "start": 24,
+          "length": 2,
+          "reading": "のちに"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11323605",
+    "original": "試合は2対2の引き分けだった。",
+    "en": [
+      {
+        "id": "11323590",
+        "text": "The game was a 2-2 draw."
+      },
+      {
+        "id": "1530820",
+        "text": "The game was a tie, 2-2."
+      }
+    ],
+    "vocabIds": [
+      "1169120",
+      "1312420",
+      "1409800"
+    ],
+    "matches": {
+      "1169120": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "ひきわけ"
+        }
+      ],
+      "1312420": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しあい"
+        }
+      ],
+      "1409800": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "たい"
+        }
+      ]
+    }
+  }
+]

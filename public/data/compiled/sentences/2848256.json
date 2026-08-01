@@ -1,0 +1,111 @@
+[
+  {
+    "id": "93702",
+    "original": "彼女は、低賃金と長時間労働が理由で、仕事をやめた。",
+    "en": [
+      {
+        "id": "310005",
+        "text": "She quit her job because of the low pay and long hours."
+      }
+    ],
+    "indices": "彼女[01] は 低賃金 と 長時間 労働 が 理由 で(#2028980) 仕事[01] を 辞める{やめた}",
+    "vocabIds": [
+      "2848256",
+      "1434620",
+      "1483150",
+      "1550140",
+      "1304970"
+    ],
+    "matches": {
+      "1304970": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "しごと"
+        }
+      ],
+      "1434620": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "ていちんぎん"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1550140": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "りゆう"
+        }
+      ],
+      "2848256": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "ちょうじかんろうどう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10497173",
+    "original": "長時間労働を是とするような、旧態依然とした企業風土を打破しなければならない。",
+    "en": [
+      {
+        "id": "11252201",
+        "text": "We must do away with the antiquated corporate culture that makes long working hours acceptable."
+      }
+    ],
+    "vocabIds": [
+      "2848256",
+      "2856825",
+      "1231030",
+      "1990250",
+      "1408950"
+    ],
+    "matches": {
+      "1231030": [
+        {
+          "start": 14,
+          "length": 4,
+          "reading": "きゅうたいいぜん"
+        }
+      ],
+      "1408950": [
+        {
+          "start": 26,
+          "length": 2,
+          "reading": "だは"
+        }
+      ],
+      "1990250": [
+        {
+          "start": 21,
+          "length": 4,
+          "reading": "きぎょうふうど"
+        }
+      ],
+      "2848256": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "ちょうじかんろうどう"
+        }
+      ],
+      "2856825": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "ぜとする"
+        }
+      ]
+    }
+  }
+]

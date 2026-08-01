@@ -1,0 +1,72 @@
+[
+  {
+    "id": "172664",
+    "original": "今は下がり相場だ。",
+    "en": [
+      {
+        "id": "241811",
+        "text": "It's a bearish market now."
+      }
+    ],
+    "indices": "今(いま) は 下がる{下がり} 相場 だ",
+    "vocabIds": [
+      "1184160",
+      "1401070",
+      "1288850"
+    ],
+    "matches": {
+      "1184160": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "さがり"
+        }
+      ],
+      "1288850": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "いま"
+        }
+      ],
+      "1401070": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "そうば"
+        }
+      ]
+    }
+  },
+  {
+    "id": "213563",
+    "original": "そこ知らずの相場だ。",
+    "en": [
+      {
+        "id": "50850",
+        "text": "The bottom has fallen out of the market."
+      }
+    ],
+    "indices": "其処(そこ){そこ} 知らず の 相場~ だ",
+    "vocabIds": [
+      "2019080",
+      "1401070"
+    ],
+    "matches": {
+      "1401070": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "そうば"
+        }
+      ],
+      "2019080": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "しらず"
+        }
+      ]
+    }
+  }
+]

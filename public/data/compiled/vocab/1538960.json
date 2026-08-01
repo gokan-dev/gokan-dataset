@@ -1,0 +1,178 @@
+{
+  "id": "1538960",
+  "writtenForm": {
+    "kanji": "只今",
+    "alternatives": [
+      "ただ今",
+      "唯今"
+    ],
+    "containedKanji": [
+      "只",
+      "今"
+    ]
+  },
+  "reading": {
+    "primary": "ただいま",
+    "alternatives": [
+      "しこん"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 21528,
+    "kanaRank": 1826
+  },
+  "progression": {
+    "kklcStep": 1194
+  },
+  "senses": [
+    {
+      "pos": [
+        "int"
+      ],
+      "misc": {
+        "isAbbreviation": true,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk",
+          "abbr"
+        ]
+      },
+      "glosses": [
+        "I'm home!",
+        "I'm back!",
+        "it's me!"
+      ],
+      "related": {
+        "compounds": [
+          "ただいま帰りました"
+        ]
+      }
+    },
+    {
+      "pos": [
+        "adv",
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "now",
+        "at present",
+        "at the moment"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "adv"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "just now",
+        "a moment ago"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "adv"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "at once",
+        "right away",
+        "in a minute",
+        "shortly",
+        "soon"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "conj"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "just now"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "しこん"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1538960",
+      "isBase": true,
+      "originalPrimaryReading": "ただいま",
+      "originalGlosses": [
+        "I'm home!",
+        "I'm back!",
+        "it's me!"
+      ]
+    },
+    {
+      "id": "1880250",
+      "isBase": false,
+      "originalPrimaryReading": "しこん",
+      "originalGlosses": [
+        "just now"
+      ]
+    }
+  ],
+  "components": [
+    "1538900",
+    "1288850"
+  ]
+}

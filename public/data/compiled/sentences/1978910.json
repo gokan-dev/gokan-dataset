@@ -1,0 +1,80 @@
+[
+  {
+    "id": "184081",
+    "original": "株価指数は昨日200ポイント下げた。",
+    "en": [
+      {
+        "id": "21209",
+        "text": "The stock price index was off 200 points yesterday."
+      }
+    ],
+    "indices": "株価指数 は 昨日 ポイント[09] 下げる{下げた}",
+    "vocabIds": [
+      "1978910",
+      "1184170",
+      "1579260"
+    ],
+    "matches": {
+      "1184170": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "さげた"
+        }
+      ],
+      "1579260": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "きのう"
+        }
+      ],
+      "1978910": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "かぶかしすう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "184082",
+    "original": "株価指数は過去最高に上昇した。",
+    "en": [
+      {
+        "id": "21210",
+        "text": "The stock price index soared to an all-time high."
+      }
+    ],
+    "indices": "株価指数~ は 過去 最高[02]~ に 上昇 為る(する){した}",
+    "vocabIds": [
+      "1978910",
+      "2227500",
+      "1353450"
+    ],
+    "matches": {
+      "1353450": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "じょうしょう"
+        }
+      ],
+      "1978910": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "かぶかしすう"
+        }
+      ],
+      "2227500": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "かこさいこう"
+        }
+      ]
+    }
+  }
+]

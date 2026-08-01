@@ -1,0 +1,107 @@
+[
+  {
+    "id": "190737",
+    "original": "医者達は私に睡眠薬しか出してくれなかった。",
+    "en": [
+      {
+        "id": "27898",
+        "text": "Doctors have offered me nothing but sleeping pills."
+      }
+    ],
+    "indices": "医者 達 は 私(わたし)[01] に 睡眠薬~ しか 出す{出して} 呉れる{くれなかった}",
+    "vocabIds": [
+      "1338180",
+      "1372400",
+      "1159980",
+      "1416220",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1159980": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いしゃ"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1338180": [
+        {
+          "start": 11,
+          "length": 9,
+          "reading": "だしてくれなかった"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1372400": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "すいみんやく"
+        }
+      ],
+      "1416220": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "たち"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11658138",
+    "original": "睡眠薬を飲んでみたことある？",
+    "en": [
+      {
+        "id": "3177982",
+        "text": "Have you tried taking a sleeping pill?"
+      },
+      {
+        "id": "12377012",
+        "text": "Have you ever tried taking sleeping pills?"
+      }
+    ],
+    "vocabIds": [
+      "1169870",
+      "1372400"
+    ],
+    "matches": {
+      "1169870": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "のんでみた"
+        }
+      ],
+      "1372400": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "すいみんやく"
+        }
+      ]
+    }
+  }
+]

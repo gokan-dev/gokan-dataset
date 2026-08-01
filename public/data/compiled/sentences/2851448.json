@@ -1,0 +1,857 @@
+[
+  {
+    "id": "75601",
+    "original": "会ったばかりの患者の下の世話をするのは大変なお仕事だ。",
+    "en": [
+      {
+        "id": "328117",
+        "text": "Taking care of the excretory needs of a patient you've just met is a very demanding job."
+      }
+    ],
+    "indices": "会う[01]{会った} 許り[03]{ばかり} の 患者 の 下の世話~ を 為る(する)[01]{する} の は 大変{大変な} 御(お){お} 仕事[01] だ",
+    "vocabIds": [
+      "2253800",
+      "2851448",
+      "1198180",
+      "1212210",
+      "1415000",
+      "1184140",
+      "2867124"
+    ],
+    "matches": {
+      "1184140": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "した"
+        }
+      ],
+      "1198180": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あった"
+        }
+      ],
+      "1212210": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "かんじゃ"
+        }
+      ],
+      "1415000": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "たいへん"
+        }
+      ],
+      "2253800": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "せわをする"
+        }
+      ],
+      "2851448": [
+        {
+          "start": 22,
+          "length": 3,
+          "reading": "おしごと"
+        }
+      ],
+      "2867124": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "した"
+        }
+      ]
+    }
+  },
+  {
+    "id": "140169",
+    "original": "息子さんのお仕事は何ですか。",
+    "en": [
+      {
+        "id": "274383",
+        "text": "What does your son do?"
+      }
+    ],
+    "indices": "息子[01] さん の 御(お){お} 仕事[01] は 何(なに)[01] ですか",
+    "vocabIds": [
+      "1404400",
+      "2851448",
+      "1577100"
+    ],
+    "matches": {
+      "1404400": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "むすこさん"
+        }
+      ],
+      "1577100": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "なに"
+        }
+      ],
+      "2851448": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "おしごと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "227125",
+    "original": "お仕事は何ですか。",
+    "en": [
+      {
+        "id": "36809",
+        "text": "What's your job?"
+      },
+      {
+        "id": "410785",
+        "text": "What do you do for a living?"
+      },
+      {
+        "id": "410787",
+        "text": "What's your occupation?"
+      },
+      {
+        "id": "17125",
+        "text": "What do you do?"
+      },
+      {
+        "id": "6000303",
+        "text": "What is your profession?"
+      },
+      {
+        "id": "755336",
+        "text": "What's your profession?"
+      }
+    ],
+    "indices": "御(お){お} 仕事[01] は 何(なに)[01] ですか",
+    "vocabIds": [
+      "2851448",
+      "1577100"
+    ],
+    "matches": {
+      "1577100": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "なに"
+        }
+      ],
+      "2851448": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "おしごと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "199608",
+    "original": "どんなお仕事ですか。",
+    "en": [
+      {
+        "id": "36809",
+        "text": "What's your job?"
+      }
+    ],
+    "indices": "どんな 御(お){お} 仕事[01] ですか",
+    "vocabIds": [
+      "2851448"
+    ],
+    "matches": {
+      "2851448": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "おしごと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "213298",
+    "original": "そのお仕事、お任せしてもよろしいでしょうか。",
+    "en": [
+      {
+        "id": "50584",
+        "text": "Can I entrust the task to you?"
+      }
+    ],
+    "indices": "其の[01]{その} 御(お){お} 仕事[01] 御(お){お} 任せる[01]{任せして} も 宜しい{よろしい} でしょうか",
+    "vocabIds": [
+      "2851448",
+      "2070940"
+    ],
+    "matches": {
+      "2070940": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "おまかせ"
+        }
+      ],
+      "2851448": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "おしごと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "227124",
+    "original": "お仕事は順調にいってますか。",
+    "en": [
+      {
+        "id": "17127",
+        "text": "How is your work coming along?"
+      },
+      {
+        "id": "13481482",
+        "text": "Is your work going well?"
+      },
+      {
+        "id": "4134997",
+        "text": "How's work going?"
+      }
+    ],
+    "indices": "御(お){お} 仕事[01] は 順調{順調に} 行く{いってます} か",
+    "vocabIds": [
+      "2851448",
+      "1342380"
+    ],
+    "matches": {
+      "1342380": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "じゅんちょう"
+        }
+      ],
+      "2851448": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "おしごと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "227126",
+    "original": "お仕事の調子はどうですか。",
+    "en": [
+      {
+        "id": "64475",
+        "text": "How is your work getting along?"
+      }
+    ],
+    "indices": "御(お){お} 仕事[01]{仕事の} 調子 は 如何(どう){どう} ですか",
+    "vocabIds": [
+      "2851448",
+      "1429170"
+    ],
+    "matches": {
+      "1429170": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ちょうし"
+        }
+      ],
+      "2851448": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "おしごと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "228402",
+    "original": "イングランドでのお仕事がうまくいったことを祈っています。",
+    "en": [
+      {
+        "id": "65758",
+        "text": "I hope your assignment in England was successful."
+      }
+    ],
+    "indices": "英蘭(イングランド){イングランド} で(#2028980) の 御(お){お} 仕事[01] が うまく行く{うまくいった} 事(こと){こと} を 祈る{祈っています}",
+    "vocabIds": [
+      "1222770",
+      "2851448"
+    ],
+    "matches": {
+      "1222770": [
+        {
+          "start": 21,
+          "length": 6,
+          "reading": "いのっています"
+        }
+      ],
+      "2851448": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "おしごと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "232783",
+    "original": "あなたはお仕事しながらこっくりしてますよ。",
+    "en": [
+      {
+        "id": "70154",
+        "text": "You are nodding over your work."
+      }
+    ],
+    "indices": "貴方(あなた)[01]{あなた} は 御(お){お} 仕事[01] 為る(する){し} 乍ら[01]{ながら} こっくり[02]~ 為る(する){してます} よ[01]",
+    "vocabIds": [
+      "2851448"
+    ],
+    "matches": {
+      "2851448": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "おしごと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "369486",
+    "original": "もしかして今日もお仕事ですか？",
+    "en": [
+      {
+        "id": "534754",
+        "text": "Do you also go to work today, by any chance?"
+      }
+    ],
+    "vocabIds": [
+      "2851448",
+      "1579110"
+    ],
+    "matches": {
+      "1579110": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "きょう"
+        }
+      ],
+      "2851448": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "おしごと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "952030",
+    "original": "自己紹介をお願いします。お仕事は何をされていますか？",
+    "en": [
+      {
+        "id": "567987",
+        "text": "Please introduce yourself, sir. What's your profession?"
+      }
+    ],
+    "vocabIds": [
+      "1001720",
+      "1317650",
+      "2851448",
+      "2851233"
+    ],
+    "matches": {
+      "1001720": [
+        {
+          "start": 5,
+          "length": 6,
+          "reading": "おねがいします"
+        }
+      ],
+      "1317650": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "じこしょうかい"
+        }
+      ],
+      "2851233": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "なにを"
+        }
+      ],
+      "2851448": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "おしごと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2529537",
+    "original": "新しいお仕事がんばってください。",
+    "en": [
+      {
+        "id": "2529532",
+        "text": "Good luck with the new job."
+      }
+    ],
+    "vocabIds": [
+      "1361490",
+      "2851448"
+    ],
+    "matches": {
+      "1361490": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あたらしい"
+        }
+      ],
+      "2851448": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "おしごと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3241570",
+    "original": "お仕事大変そうだけど、体調崩さないようにね。",
+    "en": [
+      {
+        "id": "3467029",
+        "text": "I know things are crazy at work right now, but don't let it ruin your health."
+      }
+    ],
+    "vocabIds": [
+      "1516260",
+      "2851448",
+      "1415000",
+      "1409610"
+    ],
+    "matches": {
+      "1409610": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "たいちょう"
+        }
+      ],
+      "1415000": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "たいへん"
+        }
+      ],
+      "1516260": [
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "くずさない"
+        }
+      ],
+      "2851448": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "おしごと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3700805",
+    "original": "お仕事は何をされてるんですか？",
+    "en": [
+      {
+        "id": "36809",
+        "text": "What's your job?"
+      },
+      {
+        "id": "410787",
+        "text": "What's your occupation?"
+      },
+      {
+        "id": "17125",
+        "text": "What do you do?"
+      },
+      {
+        "id": "687366",
+        "text": "What is your job?"
+      },
+      {
+        "id": "731142",
+        "text": "What is your occupation?"
+      },
+      {
+        "id": "6000303",
+        "text": "What is your profession?"
+      },
+      {
+        "id": "755336",
+        "text": "What's your profession?"
+      }
+    ],
+    "vocabIds": [
+      "2851448",
+      "2851233"
+    ],
+    "matches": {
+      "2851233": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "なにを"
+        }
+      ],
+      "2851448": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "おしごと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3190694",
+    "original": "お仕事は何をなさってるんですか？",
+    "en": [
+      {
+        "id": "36809",
+        "text": "What's your job?"
+      },
+      {
+        "id": "54432",
+        "text": "What line of work are you in?"
+      },
+      {
+        "id": "410785",
+        "text": "What do you do for a living?"
+      },
+      {
+        "id": "687366",
+        "text": "What is your job?"
+      },
+      {
+        "id": "410787",
+        "text": "What's your occupation?"
+      }
+    ],
+    "vocabIds": [
+      "2851448",
+      "2851233"
+    ],
+    "matches": {
+      "2851233": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "なにを"
+        }
+      ],
+      "2851448": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "おしごと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3190698",
+    "original": "お仕事は何をされているんですか？",
+    "en": [
+      {
+        "id": "36809",
+        "text": "What's your job?"
+      },
+      {
+        "id": "410787",
+        "text": "What's your occupation?"
+      }
+    ],
+    "vocabIds": [
+      "2851448",
+      "2851233"
+    ],
+    "matches": {
+      "2851233": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "なにを"
+        }
+      ],
+      "2851448": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "おしごと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9756356",
+    "original": "昨日はお仕事でしたか？",
+    "en": [
+      {
+        "id": "244334",
+        "text": "Did you work yesterday?"
+      }
+    ],
+    "vocabIds": [
+      "2851448",
+      "1579260"
+    ],
+    "matches": {
+      "1579260": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きのう"
+        }
+      ],
+      "2851448": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "おしごと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9943124",
+    "original": "お仕事、お疲れさまでした。",
+    "en": [
+      {
+        "id": "2645464",
+        "text": "Thank you for your work."
+      },
+      {
+        "id": "262637",
+        "text": "We appreciate your hard work."
+      }
+    ],
+    "vocabIds": [
+      "1002570",
+      "2851448"
+    ],
+    "matches": {
+      "1002570": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "おつかれさま"
+        }
+      ],
+      "2851448": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "おしごと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10569681",
+    "original": "お仕事は順調だって聞いてますよ。",
+    "en": [
+      {
+        "id": "267431",
+        "text": "Your business is flourishing, I hear."
+      }
+    ],
+    "vocabIds": [
+      "1591110",
+      "2851448",
+      "1342380"
+    ],
+    "matches": {
+      "1342380": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "じゅんちょう"
+        }
+      ],
+      "1591110": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "きいてます"
+        }
+      ],
+      "2851448": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "おしごと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9595567",
+    "original": "警察官は大変なお仕事です。",
+    "en": [
+      {
+        "id": "10593351",
+        "text": "Being a police officer is hard work."
+      }
+    ],
+    "vocabIds": [
+      "1252400",
+      "2851448",
+      "1415000"
+    ],
+    "matches": {
+      "1252400": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "けいさつかん"
+        }
+      ],
+      "1415000": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "たいへん"
+        }
+      ],
+      "2851448": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "おしごと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10841854",
+    "original": "それはそうと、お仕事は何をされてるんですか？",
+    "en": [
+      {
+        "id": "38074",
+        "text": "By the way, what do you do?"
+      }
+    ],
+    "vocabIds": [
+      "2851448",
+      "2851233"
+    ],
+    "matches": {
+      "2851233": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "なにを"
+        }
+      ],
+      "2851448": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "おしごと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11488333",
+    "original": "こちらへはお仕事で？それとも観光ですか？",
+    "en": [
+      {
+        "id": "61600",
+        "text": "Are you here on business or for pleasure?"
+      }
+    ],
+    "vocabIds": [
+      "2851448",
+      "1214840"
+    ],
+    "matches": {
+      "1214840": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "かんこう"
+        }
+      ],
+      "2851448": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "おしごと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12593033",
+    "original": "土曜日はお仕事ですか？",
+    "en": [
+      {
+        "id": "12312272",
+        "text": "Do you work on Saturday?"
+      }
+    ],
+    "vocabIds": [
+      "1445590",
+      "2851448"
+    ],
+    "matches": {
+      "1445590": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "どようび"
+        }
+      ],
+      "2851448": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "おしごと"
+        }
+      ]
+    }
+  }
+]

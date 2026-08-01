@@ -1,0 +1,75 @@
+[
+  {
+    "id": "222103",
+    "original": "この犬は鋭い臭覚をもっている。",
+    "en": [
+      {
+        "id": "59429",
+        "text": "The dog has a keen scent."
+      },
+      {
+        "id": "566741",
+        "text": "This dog has a keen sense of smell."
+      }
+    ],
+    "indices": "此の{この} 犬[01] は 鋭い[03] 臭覚~ を 持つ{もっている}",
+    "vocabIds": [
+      "1174890",
+      "1741860",
+      "1258330"
+    ],
+    "matches": {
+      "1174890": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "するどい"
+        }
+      ],
+      "1258330": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "いぬ"
+        }
+      ],
+      "1741860": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "しゅうかく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10325788",
+    "original": "臭覚が鈍ってきた。",
+    "en": [
+      {
+        "id": "3208100",
+        "text": "My sense of smell is weakening."
+      }
+    ],
+    "vocabIds": [
+      "1582440",
+      "1741860"
+    ],
+    "matches": {
+      "1582440": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "にぶってきた"
+        }
+      ],
+      "1741860": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しゅうかく"
+        }
+      ]
+    }
+  }
+]

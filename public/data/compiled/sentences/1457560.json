@@ -1,0 +1,1987 @@
+[
+  {
+    "id": "78998",
+    "original": "予報では明日は曇りです。",
+    "en": [
+      {
+        "id": "324718",
+        "text": "They forecast it will be cloudy tomorrow."
+      }
+    ],
+    "indices": "予報 で(#2028980) は 明日 は 曇り[01] です",
+    "vocabIds": [
+      "1457560",
+      "1543630",
+      "1584660"
+    ],
+    "matches": {
+      "1457560": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "くもりです"
+        }
+      ],
+      "1543630": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "よほう"
+        }
+      ],
+      "1584660": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "あした"
+        }
+      ]
+    }
+  },
+  {
+    "id": "80408",
+    "original": "明日は曇りになるでしょう。",
+    "en": [
+      {
+        "id": "323309",
+        "text": "It will be cloudy tomorrow."
+      }
+    ],
+    "indices": "明日 は 曇る(くもる){曇り} になる[01] でしょう[01]",
+    "vocabIds": [
+      "1584660",
+      "1457560"
+    ],
+    "matches": {
+      "1457560": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "くもり"
+        }
+      ],
+      "1584660": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あした"
+        }
+      ]
+    }
+  },
+  {
+    "id": "123254",
+    "original": "曇り時々雨でした。",
+    "en": [
+      {
+        "id": "539840",
+        "text": "It was cloudy, with occasional rain."
+      }
+    ],
+    "indices": "曇る(くもる){曇り} 時々 雨 です{でした}",
+    "vocabIds": [
+      "1457560",
+      "1598680",
+      "1171900"
+    ],
+    "matches": {
+      "1171900": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "あめ"
+        }
+      ],
+      "1457560": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "くもり"
+        }
+      ],
+      "1598680": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ときどき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "123255",
+    "original": "曇りの日です。",
+    "en": [
+      {
+        "id": "280744",
+        "text": "It's a cloudy day."
+      }
+    ],
+    "indices": "曇り[01] の 日(ひ)[01] です",
+    "vocabIds": [
+      "1457560",
+      "1463770"
+    ],
+    "matches": {
+      "1457560": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "くもり"
+        }
+      ],
+      "1463770": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "ひ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "123256",
+    "original": "曇ってきたようだね。",
+    "en": [
+      {
+        "id": "280742",
+        "text": "I think it's clouding up."
+      }
+    ],
+    "indices": "曇る(くもる){曇って} 来る(くる){きた} 様だ{ようだ} ね(#2029080)[01]",
+    "vocabIds": [
+      "1457560"
+    ],
+    "matches": {
+      "1457560": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "くもってきた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "123257",
+    "original": "曇っています。",
+    "en": [
+      {
+        "id": "280740",
+        "text": "It's cloudy."
+      }
+    ],
+    "indices": "曇る(くもる){曇っています}",
+    "vocabIds": [
+      "1457560"
+    ],
+    "matches": {
+      "1457560": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "くもっています"
+        }
+      ]
+    }
+  },
+  {
+    "id": "123258",
+    "original": "曇ってきた。",
+    "en": [
+      {
+        "id": "280741",
+        "text": "It's getting cloudy."
+      }
+    ],
+    "indices": "曇る(くもる){曇って} 来る(くる){きた}",
+    "vocabIds": [
+      "1457560"
+    ],
+    "matches": {
+      "1457560": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "くもってきた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "123259",
+    "original": "曇っていたので眺めがよくなかった。",
+    "en": [
+      {
+        "id": "280739",
+        "text": "As it was cloudy, we could not enjoy the view."
+      }
+    ],
+    "indices": "曇る(くもる){曇っていた} ので 眺め が 良い{よくなかった}",
+    "vocabIds": [
+      "1457560",
+      "1610960"
+    ],
+    "matches": {
+      "1457560": [
+        {
+          "start": 0,
+          "length": 7,
+          "reading": "くもっていたので"
+        }
+      ],
+      "1610960": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ながめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "123260",
+    "original": "曇った日、彼らは途中で止まってしまい家に戻ることができなかった。",
+    "en": [
+      {
+        "id": "280738",
+        "text": "Cloudy days, they stopped on their way and could not return home."
+      }
+    ],
+    "indices": "曇る(くもる){曇った} 日(ひ)[01] 彼ら(かれら) は 途中 で(#2028980) 止まる(とまる)[01]{止まって} 仕舞う{しまい} 家(いえ)[01] に 戻る 事が出来る{ことができなかった}",
+    "vocabIds": [
+      "1310620",
+      "1457560",
+      "1483090",
+      "2397090",
+      "1582200",
+      "1535880",
+      "1642200",
+      "1463770",
+      "1191730",
+      "2098290",
+      "2082160",
+      "2220300"
+    ],
+    "matches": {
+      "1191730": [
+        {
+          "start": 18,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ],
+      "1310620": [
+        {
+          "start": 11,
+          "length": 7,
+          "reading": "とまってしまい"
+        }
+      ],
+      "1457560": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "くもった"
+        }
+      ],
+      "1463770": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "ひ"
+        }
+      ],
+      "1483090": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "かれら"
+        }
+      ],
+      "1535880": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "もどる"
+        }
+      ],
+      "1582200": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "とちゅう"
+        }
+      ],
+      "1642200": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "もどる"
+        }
+      ],
+      "2082160": [
+        {
+          "start": 18,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ],
+      "2098290": [
+        {
+          "start": 18,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ],
+      "2220300": [
+        {
+          "start": 18,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ],
+      "2397090": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "かれら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "123352",
+    "original": "突然、空が曇ってきた。",
+    "en": [
+      {
+        "id": "280646",
+        "text": "All of a sudden, it became cloudy."
+      }
+    ],
+    "indices": "突然 空(そら) が 曇る(くもる){曇って} 来る(くる){きた}",
+    "vocabIds": [
+      "1457560",
+      "1457040",
+      "1245290",
+      "2248040"
+    ],
+    "matches": {
+      "1245290": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "そら"
+        }
+      ],
+      "1457040": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とつぜん"
+        }
+      ],
+      "1457560": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "くもってきた"
+        }
+      ],
+      "2248040": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "そら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "146006",
+    "original": "蒸気でメガネが曇ってしまった。",
+    "en": [
+      {
+        "id": "268556",
+        "text": "The steam has fogged my glasses."
+      }
+    ],
+    "indices": "蒸気 で(#2028980) 眼鏡(めがね){メガネ} が 曇る(くもる){曇って}~ 仕舞う{しまった}",
+    "vocabIds": [
+      "1457560",
+      "1356930"
+    ],
+    "matches": {
+      "1356930": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じょうき"
+        }
+      ],
+      "1457560": [
+        {
+          "start": 7,
+          "length": 7,
+          "reading": "くもってしまった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "167237",
+    "original": "私たちが出発するかしないうちに空が曇ってまた雨が降ってきた。",
+    "en": [
+      {
+        "id": "247264",
+        "text": "Scarcely had we started out before the sky became overcast and down came the rain again."
+      }
+    ],
+    "indices": "私たち が 出発{出発する} か 為る(する){し} ない内に{ないうちに} 空(そら) が 曇る(くもる){曇って} 又{また} 雨 が 降る(ふる){降って} 来る(くる){きた}",
+    "vocabIds": [
+      "1184450",
+      "1282790",
+      "1311300",
+      "1457560",
+      "1340000",
+      "1245290",
+      "2248040",
+      "1171900"
+    ],
+    "matches": {
+      "1171900": [
+        {
+          "start": 22,
+          "length": 1,
+          "reading": "あめ"
+        }
+      ],
+      "1184450": [
+        {
+          "start": 24,
+          "length": 5,
+          "reading": "ふってきた"
+        }
+      ],
+      "1245290": [
+        {
+          "start": 15,
+          "length": 1,
+          "reading": "そら"
+        }
+      ],
+      "1282790": [
+        {
+          "start": 24,
+          "length": 5,
+          "reading": "ふってきた"
+        }
+      ],
+      "1311300": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1340000": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "しゅっぱつ"
+        }
+      ],
+      "1457560": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "くもって"
+        }
+      ],
+      "2248040": [
+        {
+          "start": 15,
+          "length": 1,
+          "reading": "そら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "169583",
+    "original": "桜の花の盛りのころには、曇りでなければ風の強い日になりがちである。",
+    "en": [
+      {
+        "id": "244903",
+        "text": "It is apt to get either cloudy or windy when the cherry-blossoms are in full bloom."
+      }
+    ],
+    "indices": "桜[01] の 花[01] の 盛り(さかり) の 頃(ころ){ころ} には 曇り[01] でないと{でなければ} 風(かぜ) の 強い(つよい) 日(ひ)[01] になる{になり} 勝ち(がち){がち} である",
+    "vocabIds": [
+      "1457560",
+      "2838592",
+      "1379650",
+      "1593710",
+      "1194500",
+      "1463770"
+    ],
+    "matches": {
+      "1194500": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "はな"
+        }
+      ],
+      "1379650": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "もり"
+        }
+      ],
+      "1457560": [
+        {
+          "start": 12,
+          "length": 7,
+          "reading": "くもりでなければ"
+        }
+      ],
+      "1463770": [
+        {
+          "start": 23,
+          "length": 1,
+          "reading": "ひ"
+        }
+      ],
+      "1593710": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "さくら"
+        }
+      ],
+      "2838592": [
+        {
+          "start": 19,
+          "length": 4,
+          "reading": "かぜのつよい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "169955",
+    "original": "昨日は曇っていた。",
+    "en": [
+      {
+        "id": "244466",
+        "text": "It was cloudy yesterday."
+      },
+      {
+        "id": "6888946",
+        "text": "It was overcast yesterday."
+      }
+    ],
+    "indices": "昨日 は 曇る(くもる){曇っていた}",
+    "vocabIds": [
+      "1457560",
+      "1579260"
+    ],
+    "matches": {
+      "1457560": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "くもっていた"
+        }
+      ],
+      "1579260": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きのう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "170020",
+    "original": "昨日は曇りだった。",
+    "en": [
+      {
+        "id": "244466",
+        "text": "It was cloudy yesterday."
+      },
+      {
+        "id": "6888946",
+        "text": "It was overcast yesterday."
+      }
+    ],
+    "indices": "昨日 は 曇り[01] だ{だった}",
+    "vocabIds": [
+      "1457560",
+      "1579260"
+    ],
+    "matches": {
+      "1457560": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "くもりだった"
+        }
+      ],
+      "1579260": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きのう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "170138",
+    "original": "昨日、東京は曇りでしたか。",
+    "en": [
+      {
+        "id": "244346",
+        "text": "Was it cloudy in Tokyo yesterday?"
+      }
+    ],
+    "indices": "昨日 東京 は 曇り[01]~ です{でした} か",
+    "vocabIds": [
+      "1457560",
+      "1579260",
+      "1447690"
+    ],
+    "matches": {
+      "1447690": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "とうきょう"
+        }
+      ],
+      "1457560": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "くもりでした"
+        }
+      ],
+      "1579260": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きのう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "171526",
+    "original": "今日は曇りのようですか。",
+    "en": [
+      {
+        "id": "242948",
+        "text": "Does it look cloudy today?"
+      }
+    ],
+    "indices": "今日 は 曇り[01] の 様(よう){よう} ですか",
+    "vocabIds": [
+      "1289400",
+      "1457560"
+    ],
+    "matches": {
+      "1289400": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きょうは"
+        }
+      ],
+      "1457560": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "くもり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "171528",
+    "original": "今日は曇っている。",
+    "en": [
+      {
+        "id": "242947",
+        "text": "It is cloudy today."
+      },
+      {
+        "id": "242680",
+        "text": "It's cloudy today."
+      }
+    ],
+    "indices": "今日 は 曇る(くもる){曇っている}",
+    "vocabIds": [
+      "1457560",
+      "1289400"
+    ],
+    "matches": {
+      "1289400": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きょうは"
+        }
+      ],
+      "1457560": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "くもっている"
+        }
+      ]
+    }
+  },
+  {
+    "id": "171795",
+    "original": "今日は曇りです。",
+    "en": [
+      {
+        "id": "242680",
+        "text": "It's cloudy today."
+      }
+    ],
+    "indices": "今日 は 曇り です",
+    "vocabIds": [
+      "1457560",
+      "1289400"
+    ],
+    "matches": {
+      "1289400": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きょうは"
+        }
+      ],
+      "1457560": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "くもりです"
+        }
+      ]
+    }
+  },
+  {
+    "id": "179415",
+    "original": "空は曇ってきている。",
+    "en": [
+      {
+        "id": "18274",
+        "text": "The sky is becoming cloudy."
+      }
+    ],
+    "indices": "空(そら) は 曇る(くもる){曇って} 来る(くる){きている}",
+    "vocabIds": [
+      "1457560",
+      "1245290",
+      "2248040"
+    ],
+    "matches": {
+      "1245290": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "そら"
+        }
+      ],
+      "1457560": [
+        {
+          "start": 2,
+          "length": 7,
+          "reading": "くもってきている"
+        }
+      ],
+      "2248040": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "そら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "179430",
+    "original": "空はすっかり曇った。",
+    "en": [
+      {
+        "id": "18283",
+        "text": "The sky clouded over."
+      }
+    ],
+    "indices": "空(そら) は すっかり 曇る(くもる){曇った}",
+    "vocabIds": [
+      "1457560",
+      "1245290",
+      "2248040"
+    ],
+    "matches": {
+      "1245290": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "そら"
+        }
+      ],
+      "1457560": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "くもった"
+        }
+      ],
+      "2248040": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "そら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "179485",
+    "original": "空が一面に曇ってきた。",
+    "en": [
+      {
+        "id": "18343",
+        "text": "The sky has become overcast."
+      }
+    ],
+    "indices": "空(そら) が 一面[02] に 曇る(くもる){曇って} 来る(くる)[01]{きた}",
+    "vocabIds": [
+      "1457560",
+      "1166870",
+      "1245290",
+      "2248040"
+    ],
+    "matches": {
+      "1166870": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "いちめん"
+        }
+      ],
+      "1245290": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "そら"
+        }
+      ],
+      "1457560": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "くもってきた"
+        }
+      ],
+      "2248040": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "そら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "179493",
+    "original": "空がだんだん曇ってきた。",
+    "en": [
+      {
+        "id": "18351",
+        "text": "The sky has gradually clouded over."
+      }
+    ],
+    "indices": "空(そら) が 段々{だんだん} 曇る(くもる){曇って} 来る(くる){きた}",
+    "vocabIds": [
+      "1457560",
+      "1245290",
+      "2248040"
+    ],
+    "matches": {
+      "1245290": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "そら"
+        }
+      ],
+      "1457560": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "くもってきた"
+        }
+      ],
+      "2248040": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "そら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "182463",
+    "original": "急に空が曇ってきた。",
+    "en": [
+      {
+        "id": "19624",
+        "text": "All of a sudden the sky became overcast."
+      }
+    ],
+    "indices": "急に[02] 空(そら) が 曇る(くもる){曇って} 来る(くる){きた}",
+    "vocabIds": [
+      "1457560",
+      "2269050",
+      "1245290",
+      "2248040"
+    ],
+    "matches": {
+      "1245290": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "そら"
+        }
+      ],
+      "1457560": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "くもってきた"
+        }
+      ],
+      "2248040": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "そら"
+        }
+      ],
+      "2269050": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きゅうに"
+        }
+      ]
+    }
+  },
+  {
+    "id": "206344",
+    "original": "その夜は曇りだった。",
+    "en": [
+      {
+        "id": "43592",
+        "text": "It was cloudy that night."
+      }
+    ],
+    "indices": "其の[01]{その} 夜 は 曇り[01] だ{だった}",
+    "vocabIds": [
+      "1457560",
+      "1536350"
+    ],
+    "matches": {
+      "1457560": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "くもりだった"
+        }
+      ],
+      "1536350": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "よる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "236745",
+    "original": "曇りだったので、私は傘を持って行った。",
+    "en": [
+      {
+        "id": "280743",
+        "text": "It being cloudy, I took my umbrella with me."
+      },
+      {
+        "id": "7762925",
+        "text": "It was cloudy, so I took an umbrella with me."
+      }
+    ],
+    "indices": "曇り[01] だ{だった} ので 私(わたし)[01] は 傘(かさ) を 持っていく{持って行った}",
+    "vocabIds": [
+      "1457560",
+      "1315720",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1301940",
+      "1774770"
+    ],
+    "matches": {
+      "1301940": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "かさ"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1315720": [
+        {
+          "start": 12,
+          "length": 6,
+          "reading": "もっていった"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1457560": [
+        {
+          "start": 0,
+          "length": 7,
+          "reading": "くもりだったので"
+        }
+      ],
+      "1774770": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "かさ"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "393788",
+    "original": "このため、今夜から明日にかけて全般に曇りや雨の天気でしょう。",
+    "en": [
+      {
+        "id": "393789",
+        "text": "Because of this it will probably be generally cloudy and rainy weather over tonight and tomorrow."
+      }
+    ],
+    "indices": "此の{この} 為(ため){ため} 今夜 から 明日 にかけて[01]~ 全般に 曇り[01] や 雨 の 天気 でしょう",
+    "vocabIds": [
+      "1396030",
+      "1289520",
+      "1584660",
+      "1457560",
+      "1438690",
+      "1171900"
+    ],
+    "matches": {
+      "1171900": [
+        {
+          "start": 21,
+          "length": 1,
+          "reading": "あめ"
+        }
+      ],
+      "1289520": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "こんや"
+        }
+      ],
+      "1396030": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "ぜんぱんに"
+        }
+      ],
+      "1438690": [
+        {
+          "start": 23,
+          "length": 2,
+          "reading": "てんき"
+        }
+      ],
+      "1457560": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "くもり"
+        }
+      ],
+      "1584660": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "あした"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1483659",
+    "original": "今日は昨日より深く曇っている。",
+    "en": [
+      {
+        "id": "724113",
+        "text": "It's cloudier today than yesterday."
+      }
+    ],
+    "vocabIds": [
+      "1457560",
+      "1289400",
+      "1579260",
+      "1362640"
+    ],
+    "matches": {
+      "1289400": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きょうは"
+        }
+      ],
+      "1362640": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ふかく"
+        }
+      ],
+      "1457560": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "くもっている"
+        }
+      ],
+      "1579260": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "きのう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1602142",
+    "original": "天気は晴れのち曇りでしょう。",
+    "en": [
+      {
+        "id": "1602144",
+        "text": "The weather will be clear, followed by clouds later on."
+      }
+    ],
+    "vocabIds": [
+      "1457560",
+      "1438690",
+      "1376460"
+    ],
+    "matches": {
+      "1376460": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "はれ"
+        }
+      ],
+      "1438690": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "てんき"
+        }
+      ],
+      "1457560": [
+        {
+          "start": 7,
+          "length": 6,
+          "reading": "くもりでしょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2230175",
+    "original": "シャワーの後、トムは湯気で曇った鏡を拭いて、ひげを剃った。",
+    "en": [
+      {
+        "id": "2229581",
+        "text": "After getting out of the shower, Tom wiped the fog off the mirror and shaved."
+      }
+    ],
+    "vocabIds": [
+      "1457560",
+      "1357240",
+      "1581900",
+      "1448600",
+      "1269320",
+      "1269410",
+      "1270100",
+      "1358760",
+      "1238550",
+      "2017840"
+    ],
+    "matches": {
+      "1238550": [
+        {
+          "start": 16,
+          "length": 1,
+          "reading": "かがみ"
+        }
+      ],
+      "1269320": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "のち"
+        }
+      ],
+      "1269410": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "のち"
+        }
+      ],
+      "1270100": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "のち"
+        }
+      ],
+      "1357240": [
+        {
+          "start": 18,
+          "length": 3,
+          "reading": "ふいて"
+        }
+      ],
+      "1358760": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "のち"
+        }
+      ],
+      "1448600": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "ゆげ"
+        }
+      ],
+      "1457560": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "くもった"
+        }
+      ],
+      "1581900": [
+        {
+          "start": 25,
+          "length": 3,
+          "reading": "すった"
+        }
+      ],
+      "2017840": [
+        {
+          "start": 16,
+          "length": 1,
+          "reading": "かがみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2289639",
+    "original": "私は曇ってる空が好きです。何故かって？ 分かりません。",
+    "en": [
+      {
+        "id": "2238606",
+        "text": "I really like a cloudy sky. Why? I don't even know."
+      }
+    ],
+    "vocabIds": [
+      "1606560",
+      "1457560",
+      "1610980",
+      "1277450",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1245290",
+      "2248040"
+    ],
+    "matches": {
+      "1245290": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "そら"
+        }
+      ],
+      "1277450": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "すき"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1457560": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "くもってる"
+        }
+      ],
+      "1606560": [
+        {
+          "start": 20,
+          "length": 6,
+          "reading": "わかりません"
+        }
+      ],
+      "1610980": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "なぜか"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2248040": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "そら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3388471",
+    "original": "まだ曇っています。",
+    "en": [
+      {
+        "id": "3386889",
+        "text": "It's still cloudy."
+      }
+    ],
+    "vocabIds": [
+      "1457560"
+    ],
+    "matches": {
+      "1457560": [
+        {
+          "start": 2,
+          "length": 6,
+          "reading": "くもっています"
+        }
+      ]
+    }
+  },
+  {
+    "id": "7562208",
+    "original": "マスクをつけると眼鏡が曇る。",
+    "en": [
+      {
+        "id": "7562251",
+        "text": "When I wear a mask, my glasses get steamed up."
+      },
+      {
+        "id": "7562259",
+        "text": "When I wear a mask, my glasses fog up."
+      }
+    ],
+    "vocabIds": [
+      "1577670",
+      "1457560"
+    ],
+    "matches": {
+      "1457560": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "くもる"
+        }
+      ],
+      "1577670": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "めがね"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8575923",
+    "original": "めっちゃ曇ってるね。雨になるだろうね。",
+    "en": [
+      {
+        "id": "3259563",
+        "text": "It's very cloudy. I think it's going to rain."
+      },
+      {
+        "id": "10579816",
+        "text": "It's very cloudy. I'm sure it's going to rain."
+      }
+    ],
+    "vocabIds": [
+      "1457560",
+      "1171900"
+    ],
+    "matches": {
+      "1171900": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "あめ"
+        }
+      ],
+      "1457560": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "くもってる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8623904",
+    "original": "空が曇ってきた。",
+    "en": [
+      {
+        "id": "18274",
+        "text": "The sky is becoming cloudy."
+      }
+    ],
+    "vocabIds": [
+      "1457560",
+      "1245290",
+      "2248040"
+    ],
+    "matches": {
+      "1245290": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "そら"
+        }
+      ],
+      "1457560": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "くもってきた"
+        }
+      ],
+      "2248040": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "そら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8688640",
+    "original": "曇ってる？",
+    "en": [
+      {
+        "id": "456021",
+        "text": "Is it cloudy?"
+      }
+    ],
+    "vocabIds": [
+      "1457560"
+    ],
+    "matches": {
+      "1457560": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "くもってる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8733056",
+    "original": "昨日のボストンは曇ってた？",
+    "en": [
+      {
+        "id": "6662496",
+        "text": "Was it cloudy in Boston yesterday?"
+      }
+    ],
+    "vocabIds": [
+      "1457560",
+      "1579260"
+    ],
+    "matches": {
+      "1457560": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "くもってた"
+        }
+      ],
+      "1579260": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きのう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10561262",
+    "original": "湯気で眼鏡が曇っちゃった。",
+    "en": [
+      {
+        "id": "268556",
+        "text": "The steam has fogged my glasses."
+      }
+    ],
+    "vocabIds": [
+      "1457560",
+      "1448600",
+      "1577670"
+    ],
+    "matches": {
+      "1448600": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ゆげ"
+        }
+      ],
+      "1457560": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "くもっちゃった"
+        }
+      ],
+      "1577670": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "めがね"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10720410",
+    "original": "曇ってきたぞ。もうすぐ雨が降るかもしれないな。",
+    "en": [
+      {
+        "id": "62967",
+        "text": "It's getting cloudy. It may rain soon."
+      }
+    ],
+    "vocabIds": [
+      "1457560",
+      "2851949"
+    ],
+    "matches": {
+      "1457560": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "くもってきた"
+        }
+      ],
+      "2851949": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "あめがふる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10901525",
+    "original": "空が少し曇ってきました。",
+    "en": [
+      {
+        "id": "10901527",
+        "text": "The sky has become a bit cloudy."
+      },
+      {
+        "id": "10901526",
+        "text": "It's become a bit cloudy."
+      }
+    ],
+    "vocabIds": [
+      "1457560",
+      "1348870",
+      "1245290",
+      "2248040"
+    ],
+    "matches": {
+      "1245290": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "そら"
+        }
+      ],
+      "1348870": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "すこし"
+        }
+      ],
+      "1457560": [
+        {
+          "start": 4,
+          "length": 7,
+          "reading": "くもってきました"
+        }
+      ],
+      "2248040": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "そら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11512816",
+    "original": "温かいシャワーを浴びたら、浴室の鏡が曇っちゃうんですけど。",
+    "en": [
+      {
+        "id": "4149460",
+        "text": "If I take a hot shower, the mirror in the bathroom fogs up."
+      }
+    ],
+    "vocabIds": [
+      "1547450",
+      "1586420",
+      "1547460",
+      "1457560",
+      "1238550",
+      "2017840"
+    ],
+    "matches": {
+      "1238550": [
+        {
+          "start": 16,
+          "length": 1,
+          "reading": "かがみ"
+        }
+      ],
+      "1457560": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "くもっ"
+        }
+      ],
+      "1547450": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "あびたら"
+        }
+      ],
+      "1547460": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "よくしつ"
+        }
+      ],
+      "1586420": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あたたかい"
+        }
+      ],
+      "2017840": [
+        {
+          "start": 16,
+          "length": 1,
+          "reading": "かがみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11588447",
+    "original": "フロントガラスが曇って、何も見えないし。",
+    "en": [
+      {
+        "id": "9676678",
+        "text": "I can't see anything with the windshield all fogged up."
+      }
+    ],
+    "vocabIds": [
+      "1259140",
+      "1457560",
+      "1188490"
+    ],
+    "matches": {
+      "1188490": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "なにも"
+        }
+      ],
+      "1259140": [
+        {
+          "start": 14,
+          "length": 5,
+          "reading": "みえないし"
+        }
+      ],
+      "1457560": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "くもって"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12324556",
+    "original": "空が急に曇ってきた。",
+    "en": [
+      {
+        "id": "8808851",
+        "text": "The sky suddenly became overcast."
+      }
+    ],
+    "vocabIds": [
+      "1457560",
+      "2269050",
+      "1245290",
+      "2248040"
+    ],
+    "matches": {
+      "1245290": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "そら"
+        }
+      ],
+      "1457560": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "くもってきた"
+        }
+      ],
+      "2248040": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "そら"
+        }
+      ],
+      "2269050": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きゅうに"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10899617",
+    "original": "きのうはずっと曇っていました。",
+    "en": [
+      {
+        "id": "12457770",
+        "text": "It was cloudy all day yesterday."
+      }
+    ],
+    "vocabIds": [
+      "1457560"
+    ],
+    "matches": {
+      "1457560": [
+        {
+          "start": 7,
+          "length": 7,
+          "reading": "くもっていました"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12698508",
+    "original": "メガネが曇ってきた。",
+    "en": [
+      {
+        "id": "6852263",
+        "text": "My glasses are fogging up."
+      }
+    ],
+    "vocabIds": [
+      "1457560"
+    ],
+    "matches": {
+      "1457560": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "くもってきた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10954014",
+    "original": "東の空が曇っています。",
+    "en": [
+      {
+        "id": "13693347",
+        "text": "The sky in the east is cloudy."
+      },
+      {
+        "id": "13693348",
+        "text": "The eastern sky is cloudy."
+      },
+      {
+        "id": "13693351",
+        "text": "The sky in the east is clouded."
+      }
+    ],
+    "vocabIds": [
+      "1457560",
+      "1447440",
+      "1245290",
+      "2248040"
+    ],
+    "matches": {
+      "1245290": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "そら"
+        }
+      ],
+      "1447440": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ひがし"
+        }
+      ],
+      "1457560": [
+        {
+          "start": 4,
+          "length": 6,
+          "reading": "くもっています"
+        }
+      ],
+      "2248040": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "そら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10901772",
+    "original": "あしたは曇りだそうです。",
+    "en": [
+      {
+        "id": "13721636",
+        "text": "It seems like it will rain tomorrow."
+      }
+    ],
+    "vocabIds": [
+      "1457560"
+    ],
+    "matches": {
+      "1457560": [
+        {
+          "start": 4,
+          "length": 7,
+          "reading": "くもりだそうです"
+        }
+      ]
+    }
+  }
+]

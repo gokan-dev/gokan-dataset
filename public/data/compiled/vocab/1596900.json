@@ -1,0 +1,124 @@
+{
+  "id": "1596900",
+  "writtenForm": {
+    "kanji": "筍",
+    "alternatives": [
+      "竹の子",
+      "笋"
+    ],
+    "containedKanji": [
+      "筍"
+    ]
+  },
+  "reading": {
+    "primary": "たけのこ",
+    "alternatives": [
+      "タケノコ",
+      "たかんな",
+      "たかむな",
+      "たこうな"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 52430,
+    "kanaRank": 53396
+  },
+  "progression": {
+    "kklcStep": 99999
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "bamboo shoot"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": true,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk",
+          "abbr"
+        ]
+      },
+      "glosses": [
+        "young, inexperienced doctor"
+      ],
+      "related": {
+        "compounds": [
+          "筍医者"
+        ]
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "bamboo shoot"
+      ],
+      "related": {
+        "compounds": [
+          "竹の子"
+        ]
+      },
+      "appliesToReadings": [
+        "たかんな"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": true
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1596900",
+      "isBase": true,
+      "originalPrimaryReading": "たけのこ",
+      "originalGlosses": [
+        "bamboo shoot"
+      ]
+    },
+    {
+      "id": "2706030",
+      "isBase": false,
+      "originalPrimaryReading": "たかんな",
+      "originalGlosses": [
+        "bamboo shoot"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+[
+  {
+    "id": "141869",
+    "original": "先月膀胱炎にかかりました。",
+    "en": [
+      {
+        "id": "272701",
+        "text": "I had a bladder infection last month."
+      }
+    ],
+    "indices": "先月 膀胱炎~ に 罹る{かかりました}",
+    "vocabIds": [
+      "1571030",
+      "1387500"
+    ],
+    "matches": {
+      "1387500": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "せんげつ"
+        }
+      ],
+      "1571030": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "ぼうこうえん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3454331",
+    "original": "おしっこ我慢してると膀胱炎になっちゃうよ。",
+    "en": [
+      {
+        "id": "9519762",
+        "text": "If you hold your pee, you'll get cystitis."
+      }
+    ],
+    "vocabIds": [
+      "1571030",
+      "1196970"
+    ],
+    "matches": {
+      "1196970": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "がまん"
+        }
+      ],
+      "1571030": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "ぼうこうえん"
+        }
+      ]
+    }
+  }
+]

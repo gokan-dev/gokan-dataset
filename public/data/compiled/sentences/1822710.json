@@ -1,0 +1,115 @@
+[
+  {
+    "id": "81585",
+    "original": "本件についての率直なご意見をお聞かせください。",
+    "en": [
+      {
+        "id": "322130",
+        "text": "Could you share your honest opinion on this issue?"
+      },
+      {
+        "id": "13569781",
+        "text": "Please give us your honest opinion on this matter."
+      }
+    ],
+    "indices": "本件~ に就いて{について} の 率直{率直な} 御(ご){ご} 意見 を 御(お){お} 聞く{聞かせ} 下さい{ください}",
+    "vocabIds": [
+      "1822710",
+      "1596570",
+      "1156530",
+      "1591110"
+    ],
+    "matches": {
+      "1156530": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "いけん"
+        }
+      ],
+      "1591110": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "きか"
+        }
+      ],
+      "1596570": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "そっちょく"
+        }
+      ],
+      "1822710": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ほんけん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1506961",
+    "original": "本件は明日彼がご返信するまでに、保留させていただきます。",
+    "en": [
+      {
+        "id": "11772408",
+        "text": "We will put this matter on hold until he replies tomorrow."
+      }
+    ],
+    "vocabIds": [
+      "1822710",
+      "1584660",
+      "1512240",
+      "1514030",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1512240": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "へんしん"
+        }
+      ],
+      "1514030": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "ほりゅう"
+        }
+      ],
+      "1584660": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "あした"
+        }
+      ],
+      "1822710": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ほんけん"
+        }
+      ]
+    }
+  }
+]

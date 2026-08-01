@@ -1,0 +1,112 @@
+[
+  {
+    "id": "99813",
+    "original": "彼は毎朝電気カミソリで顔をそる。",
+    "en": [
+      {
+        "id": "303884",
+        "text": "He shaves with an electric razor every morning."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 毎朝 電気剃刀{電気カミソリ} で(#2028980) 顔(かお) を 剃る{そる}",
+    "vocabIds": [
+      "1443120",
+      "1524700",
+      "1000420",
+      "1483070",
+      "1217730"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1217730": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "かお"
+        }
+      ],
+      "1443120": [
+        {
+          "start": 4,
+          "length": 6,
+          "reading": "でんきかみそり"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1524700": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "まいあさ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "220390",
+    "original": "この電気かみそりは買う前に試してみるべきだった。",
+    "en": [
+      {
+        "id": "57711",
+        "text": "I should have tried out this electric shaver before buying it."
+      },
+      {
+        "id": "1008901",
+        "text": "I should have tried out this electric razor before buying it."
+      },
+      {
+        "id": "10121947",
+        "text": "I should've tried out this electric razor before buying it."
+      }
+    ],
+    "indices": "此の{この} 電気剃刀{電気かみそり}~ は 買う[01] 前(まえ) に 試す{試して} 見る[05]{みる} 可き{べき} だ{だった}",
+    "vocabIds": [
+      "1312260",
+      "1443120",
+      "1473740",
+      "1392590"
+    ],
+    "matches": {
+      "1312260": [
+        {
+          "start": 13,
+          "length": 10,
+          "reading": "ためしてみるべきだった"
+        }
+      ],
+      "1392590": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "まえに"
+        }
+      ],
+      "1443120": [
+        {
+          "start": 2,
+          "length": 6,
+          "reading": "でんきかみそり"
+        }
+      ],
+      "1473740": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "かう"
+        }
+      ]
+    }
+  }
+]

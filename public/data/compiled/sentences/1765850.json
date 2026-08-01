@@ -1,0 +1,104 @@
+[
+  {
+    "id": "186909",
+    "original": "家庭でますます多くの電気器具を使う傾向がある。",
+    "en": [
+      {
+        "id": "24046",
+        "text": "We tend to use more and more electric appliances in the home."
+      }
+    ],
+    "indices": "家庭 で(#2028980) 益々{ますます} 多く の 電気器具 を 使う 傾向 が[01] 有る{ある}",
+    "vocabIds": [
+      "1765850",
+      "1192280",
+      "1861770",
+      "1305990",
+      "1249470"
+    ],
+    "matches": {
+      "1192280": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かてい"
+        }
+      ],
+      "1249470": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "けいこう"
+        }
+      ],
+      "1305990": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "つかう"
+        }
+      ],
+      "1765850": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "でんききぐ"
+        }
+      ],
+      "1861770": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "おおく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "207583",
+    "original": "その電気器具は輸送中にこわれたのにちがいない。",
+    "en": [
+      {
+        "id": "44836",
+        "text": "The electrical appliance must have been damaged in transit."
+      }
+    ],
+    "indices": "其の[01]{その} 電気器具~ は 輸送 中(ちゅう)[03] に 壊れる[01]{こわれた} の に 違いない{ちがいない}",
+    "vocabIds": [
+      "1765850",
+      "1538850",
+      "1423310",
+      "2098290"
+    ],
+    "matches": {
+      "1423310": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "ちゅう"
+        }
+      ],
+      "1538850": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ゆそう"
+        }
+      ],
+      "1765850": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "でんききぐ"
+        }
+      ],
+      "2098290": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "ちゅう"
+        }
+      ]
+    }
+  }
+]

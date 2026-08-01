@@ -1,0 +1,88 @@
+[
+  {
+    "id": "140803",
+    "original": "全市民はその地震におびえた。",
+    "en": [
+      {
+        "id": "273769",
+        "text": "The city was alarmed by the earthquake."
+      }
+    ],
+    "indices": "全市民~ は 其の[01]{その} 地震 に 脅える{おびえた}",
+    "vocabIds": [
+      "1395290",
+      "1421210"
+    ],
+    "matches": {
+      "1395290": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ぜんしみん"
+        }
+      ],
+      "1421210": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "じしん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "140804",
+    "original": "全市民が出てきて彼を歓迎した。",
+    "en": [
+      {
+        "id": "273768",
+        "text": "The whole population turned out in welcome."
+      }
+    ],
+    "indices": "全市民 が 出る{出て} 来る(くる)[01]{きて} 彼(かれ) を 歓迎 為る(する){した}",
+    "vocabIds": [
+      "1338240",
+      "1395290",
+      "1212960",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1212960": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "かんげい"
+        }
+      ],
+      "1338240": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "でてきて"
+        }
+      ],
+      "1395290": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ぜんしみん"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  }
+]

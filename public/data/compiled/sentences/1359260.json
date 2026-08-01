@@ -1,0 +1,335 @@
+[
+  {
+    "id": "145703",
+    "original": "信号機はいつも作動している。",
+    "en": [
+      {
+        "id": "268859",
+        "text": "Traffic lights work all the time."
+      }
+    ],
+    "indices": "信号機[01] は 何時も{いつも} 作動 為る(する){している}",
+    "vocabIds": [
+      "1359260",
+      "1297890"
+    ],
+    "matches": {
+      "1297890": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "さどう"
+        }
+      ],
+      "1359260": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "しんごうき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "145704",
+    "original": "信号機が赤の間は道路を渡るな。",
+    "en": [
+      {
+        "id": "268848",
+        "text": "Don't cross the road when the signal is red."
+      }
+    ],
+    "indices": "信号機[01]~ が 赤[01]~ の 間(あいだ)[02] は 道路 を[03] 渡る な[01]",
+    "vocabIds": [
+      "1359260",
+      "1454290",
+      "1444680",
+      "2013900",
+      "1215230",
+      "1630250"
+    ],
+    "matches": {
+      "1215230": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "ま"
+        }
+      ],
+      "1359260": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "しんごうき"
+        }
+      ],
+      "1444680": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "わたる"
+        }
+      ],
+      "1454290": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "どうろ"
+        }
+      ],
+      "1630250": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "ま"
+        }
+      ],
+      "2013900": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "あか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9230223",
+    "original": "僕が信号機だったら、君が側を通るたび赤くなるから、もうちょっと君を見てられるんだけど。",
+    "en": [
+      {
+        "id": "6085145",
+        "text": "If I were a stop light, I'd turn red every time you passed by, so I could look at you a bit longer."
+      }
+    ],
+    "vocabIds": [
+      "1359260",
+      "1433030",
+      "1383240",
+      "1259290",
+      "1521400",
+      "2228300",
+      "1247250",
+      "1581310",
+      "1590440"
+    ],
+    "matches": {
+      "1247250": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "きみ"
+        },
+        {
+          "start": 31,
+          "length": 1,
+          "reading": "きみ"
+        }
+      ],
+      "1259290": [
+        {
+          "start": 33,
+          "length": 2,
+          "reading": "みて"
+        }
+      ],
+      "1359260": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "しんごうき"
+        }
+      ],
+      "1383240": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "あかく"
+        }
+      ],
+      "1433030": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "とおる"
+        }
+      ],
+      "1521400": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ],
+      "1581310": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "がわ"
+        }
+      ],
+      "1590440": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "がわ"
+        }
+      ],
+      "2228300": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9230224",
+    "original": "私が信号機だったら、あなたが側を通るたびに赤くなっちゃうから、あなたのこともう少し眺めていられるのにな。",
+    "en": [
+      {
+        "id": "6085145",
+        "text": "If I were a stop light, I'd turn red every time you passed by, so I could look at you a bit longer."
+      }
+    ],
+    "vocabIds": [
+      "2005870",
+      "1428830",
+      "1359260",
+      "1433030",
+      "1383240",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1581310",
+      "1590440"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1359260": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "しんごうき"
+        }
+      ],
+      "1383240": [
+        {
+          "start": 21,
+          "length": 2,
+          "reading": "あかく"
+        }
+      ],
+      "1428830": [
+        {
+          "start": 41,
+          "length": 4,
+          "reading": "ながめてい"
+        }
+      ],
+      "1433030": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "とおる"
+        }
+      ],
+      "1581310": [
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "がわ"
+        }
+      ],
+      "1590440": [
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "がわ"
+        }
+      ],
+      "2005870": [
+        {
+          "start": 37,
+          "length": 4,
+          "reading": "もうすこし"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11589067",
+    "original": "信号機は「赤・黄・青」の3色です。",
+    "en": [
+      {
+        "id": "10073480",
+        "text": "Traffic lights have three colours: red, amber and green."
+      }
+    ],
+    "vocabIds": [
+      "1359260",
+      "2013900",
+      "1181760",
+      "1381380",
+      "1357600"
+    ],
+    "matches": {
+      "1181760": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "き"
+        }
+      ],
+      "1357600": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "しょく"
+        }
+      ],
+      "1359260": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "しんごうき"
+        }
+      ],
+      "1381380": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "あお"
+        }
+      ],
+      "2013900": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "あか"
+        }
+      ]
+    }
+  }
+]

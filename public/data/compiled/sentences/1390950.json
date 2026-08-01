@@ -1,0 +1,441 @@
+[
+  {
+    "id": "145880",
+    "original": "食器用洗剤で手がかぶれました。",
+    "en": [
+      {
+        "id": "268682",
+        "text": "I got a rash on my hands from dishwasher detergent."
+      }
+    ],
+    "indices": "食器 用[02] 洗剤 で(#2028980) 手 が 気触れる[01]{かぶれました}",
+    "vocabIds": [
+      "1358430",
+      "1390950",
+      "1546200",
+      "1327190"
+    ],
+    "matches": {
+      "1327190": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "て"
+        }
+      ],
+      "1358430": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しょっき"
+        }
+      ],
+      "1390950": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "せんざい"
+        }
+      ],
+      "1546200": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "よう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "192554",
+    "original": "ランドリーには洗剤がありますか。",
+    "en": [
+      {
+        "id": "29719",
+        "text": "Are there any detergents in the laundry?"
+      }
+    ],
+    "indices": "ランドリー~ には 洗剤 が[01] 有る{あります} か",
+    "vocabIds": [
+      "1390950"
+    ],
+    "matches": {
+      "1390950": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "せんざい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "338236",
+    "original": "誤って洗剤を飲んでしまいました。",
+    "en": [
+      {
+        "id": "387690",
+        "text": "He swallowed detergent by mistake."
+      },
+      {
+        "id": "2068101",
+        "text": "He drank detergent by mistake."
+      },
+      {
+        "id": "12462145",
+        "text": "I accidentally drank detergent."
+      }
+    ],
+    "indices": "誤って 洗剤~ を 飲む[01]{飲んで} 仕舞う{しまいました}",
+    "vocabIds": [
+      "1169870",
+      "1857140",
+      "1390950"
+    ],
+    "matches": {
+      "1169870": [
+        {
+          "start": 6,
+          "length": 9,
+          "reading": "のんでしまいました"
+        }
+      ],
+      "1390950": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "せんざい"
+        }
+      ],
+      "1857140": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あやまって"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1234938",
+    "original": "台所洗剤で手に発疹ができた。",
+    "en": [
+      {
+        "id": "268682",
+        "text": "I got a rash on my hands from dishwasher detergent."
+      }
+    ],
+    "vocabIds": [
+      "1412640",
+      "1390950",
+      "1477600",
+      "1327190"
+    ],
+    "matches": {
+      "1327190": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "て"
+        }
+      ],
+      "1390950": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "せんざい"
+        }
+      ],
+      "1412640": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "だいどころ"
+        }
+      ],
+      "1477600": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "はっしん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8606880",
+    "original": "風呂掃除したいんやけど、どの洗剤を買えばいいの？",
+    "en": [
+      {
+        "id": "10183059",
+        "text": "I want to clean the bath, but which type of detergent is best to buy?"
+      }
+    ],
+    "vocabIds": [
+      "2620350",
+      "1473740",
+      "1390950"
+    ],
+    "matches": {
+      "1390950": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "せんざい"
+        }
+      ],
+      "1473740": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "かえば"
+        }
+      ],
+      "2620350": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "ふろそうじ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10680217",
+    "original": "洗濯機に洗濯物も洗剤も入れたのに、スイッチ押すの忘れてた。",
+    "en": [
+      {
+        "id": "10680214",
+        "text": "I loaded the washing machine and put in detergent, but I forgot to turn it on."
+      }
+    ],
+    "vocabIds": [
+      "1465610",
+      "1519210",
+      "1390990",
+      "1391020",
+      "1390950",
+      "1180470"
+    ],
+    "matches": {
+      "1180470": [
+        {
+          "start": 21,
+          "length": 2,
+          "reading": "おす"
+        }
+      ],
+      "1390950": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "せんざい"
+        }
+      ],
+      "1390990": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "せんたくき"
+        }
+      ],
+      "1391020": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "せんたくぶつ"
+        }
+      ],
+      "1465610": [
+        {
+          "start": 11,
+          "length": 5,
+          "reading": "いれたのに"
+        }
+      ],
+      "1519210": [
+        {
+          "start": 24,
+          "length": 4,
+          "reading": "わすれてた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10680218",
+    "original": "洗濯機に洗濯物も洗剤も入れたのに、回し忘れてた。",
+    "en": [
+      {
+        "id": "10680214",
+        "text": "I loaded the washing machine and put in detergent, but I forgot to turn it on."
+      }
+    ],
+    "vocabIds": [
+      "1465610",
+      "1519210",
+      "1390990",
+      "1391020",
+      "1390950",
+      "1199340"
+    ],
+    "matches": {
+      "1199340": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "まわし"
+        }
+      ],
+      "1390950": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "せんざい"
+        }
+      ],
+      "1390990": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "せんたくき"
+        }
+      ],
+      "1391020": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "せんたくぶつ"
+        }
+      ],
+      "1465610": [
+        {
+          "start": 11,
+          "length": 5,
+          "reading": "いれたのに"
+        }
+      ],
+      "1519210": [
+        {
+          "start": 19,
+          "length": 4,
+          "reading": "わすれてた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10908161",
+    "original": "洗剤かえた？",
+    "en": [
+      {
+        "id": "10908163",
+        "text": "Did you change detergents?"
+      }
+    ],
+    "vocabIds": [
+      "1390950"
+    ],
+    "matches": {
+      "1390950": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "せんざい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11027965",
+    "original": "この洗剤、泡立ちがいいから気に入ってる。",
+    "en": [
+      {
+        "id": "11040302",
+        "text": "I like this detergent because it lathers well."
+      }
+    ],
+    "vocabIds": [
+      "1221740",
+      "1153650",
+      "1517550",
+      "1390950"
+    ],
+    "matches": {
+      "1153650": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "あわだち"
+        }
+      ],
+      "1221740": [
+        {
+          "start": 13,
+          "length": 6,
+          "reading": "きにいってる"
+        }
+      ],
+      "1390950": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "せんざい"
+        }
+      ],
+      "1517550": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "あわだち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12018797",
+    "original": "最近、石鹸や洗剤を変えましたか？",
+    "en": [
+      {
+        "id": "9851478",
+        "text": "Have you recently changed your soap or laundry detergent?"
+      }
+    ],
+    "vocabIds": [
+      "1510650",
+      "1293780",
+      "1382590",
+      "1390950"
+    ],
+    "matches": {
+      "1293780": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "さいきん"
+        }
+      ],
+      "1382590": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "せっけん"
+        }
+      ],
+      "1390950": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "せんざい"
+        }
+      ],
+      "1510650": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "かえました"
+        }
+      ]
+    }
+  }
+]

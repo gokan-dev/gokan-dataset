@@ -1,0 +1,93 @@
+[
+  {
+    "id": "74549",
+    "original": "危険物を飲み込んだ場合、飲み込んだものによって対処法が違います。",
+    "en": [
+      {
+        "id": "329170",
+        "text": "When you swallow a dangerous substance, what you need to do depends on what you swallowed."
+      }
+    ],
+    "indices": "危険物~ を 飲み込む{飲み込んだ} 場合 飲み込む{飲み込んだ} 物(もの){もの} に因って{によって} 対処法~ が 違う(ちがう){違います}",
+    "vocabIds": [
+      "1600400",
+      "1158880",
+      "1218650",
+      "2396440",
+      "1355810"
+    ],
+    "matches": {
+      "1158880": [
+        {
+          "start": 27,
+          "length": 4,
+          "reading": "ちがいます"
+        }
+      ],
+      "1218650": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きけんぶつ"
+        }
+      ],
+      "1355810": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "ばあい"
+        }
+      ],
+      "1600400": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "のみこんだ"
+        },
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "のみこんだ"
+        }
+      ],
+      "2396440": [
+        {
+          "start": 23,
+          "length": 3,
+          "reading": "たいしょほう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "220842",
+    "original": "この先危険物あり。",
+    "en": [
+      {
+        "id": "58164",
+        "text": "Danger ahead."
+      }
+    ],
+    "indices": "この先[01] 危険物 有る{あり}",
+    "vocabIds": [
+      "1725280",
+      "1218650"
+    ],
+    "matches": {
+      "1218650": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "きけんぶつ"
+        }
+      ],
+      "1725280": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "このさき"
+        }
+      ]
+    }
+  }
+]

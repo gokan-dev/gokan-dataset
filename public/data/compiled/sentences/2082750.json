@@ -1,0 +1,96 @@
+[
+  {
+    "id": "104448",
+    "original": "彼は手八丁口八丁だ。",
+    "en": [
+      {
+        "id": "299243",
+        "text": "He is as ready to talk as to work."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 手 八丁~ 口八丁~ だ",
+    "vocabIds": [
+      "2082750",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "2082750": [
+        {
+          "start": 2,
+          "length": 6,
+          "reading": "てはちちょうくちはっちょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "148487",
+    "original": "手八丁口八丁の彼だけど、誠がないのが玉に瑕だね。",
+    "en": [
+      {
+        "id": "266072",
+        "text": "He works fast and is very articulate but his insincerity is his biggest defect."
+      }
+    ],
+    "indices": "手八丁口八丁~ の 彼(かれ) だ けど 誠[02]~ が 無い{ない} の が 玉に瑕~ だ ね(#2029080)[01]",
+    "vocabIds": [
+      "2082750",
+      "1608890",
+      "1000420",
+      "1483070",
+      "1580555"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1580555": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "まこと"
+        }
+      ],
+      "1608890": [
+        {
+          "start": 18,
+          "length": 3,
+          "reading": "たまにきず"
+        }
+      ],
+      "2082750": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "てはちちょうくちはっちょう"
+        }
+      ]
+    }
+  }
+]

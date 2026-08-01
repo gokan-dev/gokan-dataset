@@ -1,0 +1,309 @@
+[
+  {
+    "id": "83856",
+    "original": "腹痛があります。",
+    "en": [
+      {
+        "id": "64954",
+        "text": "I have a stomachache."
+      }
+    ],
+    "indices": "腹痛 が 有る(ある){あります}",
+    "vocabIds": [
+      "1501230"
+    ],
+    "matches": {
+      "1501230": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "はらいた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "107911",
+    "original": "彼は激しい腹痛に襲われた。",
+    "en": [
+      {
+        "id": "295774",
+        "text": "He was attacked by a sharp pain in his stomach."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 激しい 腹痛 に 襲う[01]{襲われた}",
+    "vocabIds": [
+      "1600720",
+      "1501230",
+      "1333330",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1333330": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "おそわ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1501230": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "はらいた"
+        }
+      ],
+      "1600720": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "はげしい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "197523",
+    "original": "ひどい腹痛がした。",
+    "en": [
+      {
+        "id": "34709",
+        "text": "I had a bad stomach-ache."
+      },
+      {
+        "id": "1152593",
+        "text": "I had a terrible stomachache."
+      },
+      {
+        "id": "1449749",
+        "text": "I had a bad stomachache."
+      }
+    ],
+    "indices": "酷い(ひどい){ひどい} 腹痛 が 為る(する){した}",
+    "vocabIds": [
+      "1501230"
+    ],
+    "matches": {
+      "1501230": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "はらいた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "206316",
+    "original": "その薬のおかげで彼の腹痛はおさまった。",
+    "en": [
+      {
+        "id": "43564",
+        "text": "The medicine relieved him of his stomach-ache."
+      }
+    ],
+    "indices": "其の[01]{その} 薬(くすり)[01] の お陰で{おかげで} 彼(かれ)[01] の 腹痛 は 治まる[03]{おさまった}~",
+    "vocabIds": [
+      "1000420",
+      "1501230",
+      "1538160"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "かれの"
+        }
+      ],
+      "1501230": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "はらいた"
+        }
+      ],
+      "1538160": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "くすり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "217855",
+    "original": "これらの錠剤を飲めば腹痛は治るでしょう。",
+    "en": [
+      {
+        "id": "55165",
+        "text": "These pills will cure you of your stomach-ache."
+      }
+    ],
+    "indices": "此れ等{これらの} 錠剤 を 飲む[01]{飲めば} 腹痛 は 治る[01] でしょう[01]",
+    "vocabIds": [
+      "1599400",
+      "1169870",
+      "1357120",
+      "1501230"
+    ],
+    "matches": {
+      "1169870": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "のめば"
+        }
+      ],
+      "1357120": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "じょうざい"
+        }
+      ],
+      "1501230": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "はらいた"
+        }
+      ],
+      "1599400": [
+        {
+          "start": 13,
+          "length": 6,
+          "reading": "なおるでしょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "219242",
+    "original": "この薬を飲めば腹痛は治まりますよ。",
+    "en": [
+      {
+        "id": "56558",
+        "text": "This medicine will cure you of your stomach-ache."
+      }
+    ],
+    "indices": "此の{この} 薬(くすり)[01] を 飲む[01]{飲めば} 腹痛 は 治まる{治まります} よ[01]",
+    "vocabIds": [
+      "1316820",
+      "1169870",
+      "1501230",
+      "1538160"
+    ],
+    "matches": {
+      "1169870": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "のめば"
+        }
+      ],
+      "1316820": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "おさまります"
+        }
+      ],
+      "1501230": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "はらいた"
+        }
+      ],
+      "1538160": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "くすり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "219946",
+    "original": "この腹痛には耐えられません。",
+    "en": [
+      {
+        "id": "57266",
+        "text": "I can't stand this stomach-ache."
+      },
+      {
+        "id": "1449753",
+        "text": "I can't stand this stomachache."
+      }
+    ],
+    "indices": "此の{この} 腹痛~ には 耐える[01]{耐えられません}",
+    "vocabIds": [
+      "1211310",
+      "1501230"
+    ],
+    "matches": {
+      "1211310": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "たえ"
+        }
+      ],
+      "1501230": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "はらいた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9870219",
+    "original": "最近、腹痛はありましたか？",
+    "en": [
+      {
+        "id": "9849464",
+        "text": "Have you had abdominal pain recently?"
+      }
+    ],
+    "vocabIds": [
+      "1293780",
+      "1501230"
+    ],
+    "matches": {
+      "1293780": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "さいきん"
+        }
+      ],
+      "1501230": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "はらいた"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,958 @@
+[
+  {
+    "id": "75051",
+    "original": "未来進行形は、未来の時点で進行中の動作や出来事を表現するときに用いられますが、例文は進行中の動作とは考えられません。",
+    "en": [
+      {
+        "id": "328668",
+        "text": "The future progressive tense is used when expressing events and action in progress at some future point, however the example sentence cannot be understood in that way."
+      }
+    ],
+    "indices": "未来進行形~ は 未来[01] の 時点 で(#2028980) 進行中 の 動作[01] や 出来事 を 表現[01] 為る(する){する} 時(とき){とき} に 用いる{用いられます} が 例文 は 進行中 之(の)[01]{の} 動作[01] と は 考える{考えられません}",
+    "vocabIds": [
+      "2259640",
+      "2763680",
+      "1340570",
+      "1546210",
+      "1281020",
+      "1528060",
+      "1316340",
+      "1451350",
+      "1489510",
+      "1556590"
+    ],
+    "matches": {
+      "1281020": [
+        {
+          "start": 50,
+          "length": 2,
+          "reading": "かんがえ"
+        }
+      ],
+      "1316340": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "じてん"
+        }
+      ],
+      "1340570": [
+        {
+          "start": 20,
+          "length": 3,
+          "reading": "できごと"
+        }
+      ],
+      "1451350": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "どうさ"
+        },
+        {
+          "start": 46,
+          "length": 2,
+          "reading": "どうさ"
+        }
+      ],
+      "1489510": [
+        {
+          "start": 24,
+          "length": 2,
+          "reading": "ひょうげん"
+        }
+      ],
+      "1528060": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "みらい"
+        }
+      ],
+      "1546210": [
+        {
+          "start": 31,
+          "length": 2,
+          "reading": "もちい"
+        }
+      ],
+      "1556590": [
+        {
+          "start": 39,
+          "length": 2,
+          "reading": "れいぶん"
+        }
+      ],
+      "2259640": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "みらいしんこうがた"
+        }
+      ],
+      "2763680": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "しんこうちゅう"
+        },
+        {
+          "start": 42,
+          "length": 3,
+          "reading": "しんこうちゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "75207",
+    "original": "過去の動作については過去形を用います。",
+    "en": [
+      {
+        "id": "328512",
+        "text": "\"Past tense\" is used in connection with actions in the past."
+      }
+    ],
+    "indices": "過去 の 動作[01] に就いて{について} は 過去形~ を 用いる{用います}",
+    "vocabIds": [
+      "1546210",
+      "1196040",
+      "1196030",
+      "1451350"
+    ],
+    "matches": {
+      "1196030": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かこ"
+        }
+      ],
+      "1196040": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "かこがた"
+        }
+      ],
+      "1451350": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "どうさ"
+        }
+      ],
+      "1546210": [
+        {
+          "start": 14,
+          "length": 4,
+          "reading": "もちいます"
+        }
+      ]
+    }
+  },
+  {
+    "id": "76985",
+    "original": "「述部」とは、動作を表す部分で、最後が「～だ」「～する」などになる部分です。",
+    "en": [
+      {
+        "id": "326734",
+        "text": "The \"predicate\" is that part that shows the action in the sentence. In Japanese it would be the part that ends in \"da\", \"suru\", etc."
+      }
+    ],
+    "indices": "述部~ とは 動作[01] を 表す(あらわす) 部分 で(#2028980) 最後 が だ 為る(する){する} 等(など){など} になる[01] 部分 です",
+    "vocabIds": [
+      "1340850",
+      "1451350",
+      "1263490",
+      "1499490",
+      "1293810"
+    ],
+    "matches": {
+      "1263490": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "あらわす"
+        }
+      ],
+      "1293810": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "さいご"
+        }
+      ],
+      "1340850": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "じゅつぶ"
+        }
+      ],
+      "1451350": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "どうさ"
+        }
+      ],
+      "1499490": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "ぶぶん"
+        },
+        {
+          "start": 33,
+          "length": 2,
+          "reading": "ぶぶん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "76987",
+    "original": "「主部」とは、文の中の動作をする人・物で、日本語に直した場合に「～は」「～が」になる部分です。",
+    "en": [
+      {
+        "id": "326732",
+        "text": "The \"subject\" is the person or object to carry out the action in the sentence. Transformed to Japanese it would be the part that end in \"wa\" or \"ga\"."
+      }
+    ],
+    "indices": "主部[02]~ とは 文(ぶん) の 中(なか) の 動作[01] を 為る(する)[01]{する} 人(ひと) 物(もの)[01] で(#2028980) 日本語 に 直す[01]{直した} 場合 に は が になる[01] 部分 です",
+    "vocabIds": [
+      "1464530",
+      "1599390",
+      "1326170",
+      "1451350",
+      "1355810",
+      "1499490",
+      "1505090",
+      "1957010",
+      "2034990",
+      "1423310",
+      "2098290",
+      "1580640",
+      "1502390"
+    ],
+    "matches": {
+      "1326170": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "しゅぶ"
+        }
+      ],
+      "1355810": [
+        {
+          "start": 28,
+          "length": 2,
+          "reading": "ばあい"
+        }
+      ],
+      "1423310": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "なか"
+        }
+      ],
+      "1451350": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "どうさ"
+        }
+      ],
+      "1464530": [
+        {
+          "start": 21,
+          "length": 3,
+          "reading": "にほんご"
+        }
+      ],
+      "1499490": [
+        {
+          "start": 42,
+          "length": 2,
+          "reading": "ぶぶん"
+        }
+      ],
+      "1502390": [
+        {
+          "start": 18,
+          "length": 1,
+          "reading": "もの"
+        }
+      ],
+      "1505090": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "ぶん"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 16,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ],
+      "1599390": [
+        {
+          "start": 25,
+          "length": 3,
+          "reading": "なおした"
+        }
+      ],
+      "1957010": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "ぶん"
+        }
+      ],
+      "2034990": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "ぶん"
+        }
+      ],
+      "2098290": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "なか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "83874",
+    "original": "福祉予算を犠牲にして打ち上げられた人工衛星は、正常に動作しなかった。",
+    "en": [
+      {
+        "id": "319842",
+        "text": "The artificial satellite launched at the cost of the welfare budget did not work properly."
+      }
+    ],
+    "indices": "福祉 予算 を 犠牲(ぎせい)[02] に 為る(する){して} 打ち上げる(うちあげる){打ち上げられた} 人工衛星 は 正常 に 動作[03]~ 為る(する){しなかった}",
+    "vocabIds": [
+      "1408700",
+      "2514840",
+      "1367430",
+      "1501060",
+      "1543000",
+      "1225450",
+      "1830690",
+      "1377390",
+      "1451350"
+    ],
+    "matches": {
+      "1225450": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ぎせい"
+        }
+      ],
+      "1367430": [
+        {
+          "start": 17,
+          "length": 4,
+          "reading": "じんこうえいせい"
+        }
+      ],
+      "1377390": [
+        {
+          "start": 23,
+          "length": 2,
+          "reading": "せいじょう"
+        }
+      ],
+      "1408700": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "うちあげ"
+        }
+      ],
+      "1451350": [
+        {
+          "start": 26,
+          "length": 2,
+          "reading": "どうさ"
+        }
+      ],
+      "1501060": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ふくし"
+        }
+      ],
+      "1543000": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "よさん"
+        }
+      ],
+      "1830690": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ぎせい"
+        }
+      ],
+      "2514840": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "うちあげ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "94105",
+    "original": "彼女の動作はすべて優美だった。",
+    "en": [
+      {
+        "id": "309600",
+        "text": "All her motions were graceful."
+      }
+    ],
+    "indices": "彼女[01]{彼女の} 動作[01] は 全て{すべて} 優美 だった",
+    "vocabIds": [
+      "1483150",
+      "1451350",
+      "1539560"
+    ],
+    "matches": {
+      "1451350": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "どうさ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1539560": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "ゆうび"
+        }
+      ]
+    }
+  },
+  {
+    "id": "94106",
+    "original": "彼女の動作はぎこちなくしぐさも不器用だった。",
+    "en": [
+      {
+        "id": "309599",
+        "text": "Her movements were awkward and her gesture clumsy."
+      }
+    ],
+    "indices": "彼女[01]{彼女の} 動作[01] は ぎこちない{ぎこちなく} 仕草{しぐさ} も 不器用 だ{だった}",
+    "vocabIds": [
+      "1491790",
+      "1483150",
+      "1451350"
+    ],
+    "matches": {
+      "1451350": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "どうさ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1491790": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "ぶきよう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "101658",
+    "original": "彼は動作が鈍い。",
+    "en": [
+      {
+        "id": "302035",
+        "text": "He is slow in action."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 動作[01] が 鈍い(にぶい)",
+    "vocabIds": [
+      "1451350",
+      "1421970",
+      "1582430",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1421970": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "にぶい"
+        }
+      ],
+      "1451350": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "どうさ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1582430": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "にぶい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "101659",
+    "original": "彼は動作がぎこちない。",
+    "en": [
+      {
+        "id": "302034",
+        "text": "He is awkward in his movements."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 動作[01]~ が ぎこちない~",
+    "vocabIds": [
+      "1451350",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1451350": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "どうさ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "110502",
+    "original": "彼はやや動作がのろいが、その他の点ではよい生徒だ。",
+    "en": [
+      {
+        "id": "45542",
+        "text": "He is a little slow, but otherwise he is a good student."
+      }
+    ],
+    "indices": "その他 の 点(てん) で(#2028980) は 良い 生徒 だ",
+    "vocabIds": [
+      "1006900",
+      "1451350",
+      "1379380",
+      "1000420",
+      "1483070",
+      "1007860"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1006900": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "そのた"
+        }
+      ],
+      "1007860": [
+        {
+          "start": 16,
+          "length": 1,
+          "reading": "てん"
+        }
+      ],
+      "1379380": [
+        {
+          "start": 21,
+          "length": 2,
+          "reading": "せいと"
+        }
+      ],
+      "1451350": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "どうさ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "115417",
+    "original": "彼は動作がはやい。",
+    "en": [
+      {
+        "id": "288254",
+        "text": "He acts quickly."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 動作[01] が 早い[01]{はやい}",
+    "vocabIds": [
+      "1451350",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1451350": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "どうさ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "116064",
+    "original": "彼の娘は動作がきびきびしている。",
+    "en": [
+      {
+        "id": "287605",
+        "text": "His daughter is quick in her movements."
+      }
+    ],
+    "indices": "彼(かれ)[01]{彼の} 娘(むすめ)[01] は 動作[01] が きびきび~ 為る(する){している}",
+    "vocabIds": [
+      "2707760",
+      "1451350"
+    ],
+    "matches": {
+      "1451350": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "どうさ"
+        }
+      ],
+      "2707760": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "かれのむすめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "143489",
+    "original": "雀は動作が非常にすばしこい。",
+    "en": [
+      {
+        "id": "271078",
+        "text": "A sparrow is very alert in its movements."
+      }
+    ],
+    "indices": "雀 は 動作[01] が 非常に すばしこい",
+    "vocabIds": [
+      "1484930",
+      "1451350",
+      "1373560"
+    ],
+    "matches": {
+      "1373560": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "すずめ"
+        }
+      ],
+      "1451350": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "どうさ"
+        }
+      ],
+      "1484930": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "ひじょうに"
+        }
+      ]
+    }
+  },
+  {
+    "id": "161649",
+    "original": "私はあなたの動作からヒントを得ることにします。",
+    "en": [
+      {
+        "id": "252867",
+        "text": "I'll take my cue from you."
+      }
+    ],
+    "indices": "私(わたし)[01] は 貴方(あなた)[01]{あなた} の 動作[01] から ヒント を 得る(える)[01] 事にする{ことにします}",
+    "vocabIds": [
+      "1451350",
+      "1588760",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1451350": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "どうさ"
+        }
+      ],
+      "1588760": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "える"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "176090",
+    "original": "警察は力があって、動作が機敏でなければならない。",
+    "en": [
+      {
+        "id": "238375",
+        "text": "A policeman should be strong and quick in action."
+      }
+    ],
+    "indices": "警察 は 力(ちから) が[01] 有る{あって} 動作[01] が 機敏~ でなければならない",
+    "vocabIds": [
+      "1252390",
+      "1451350",
+      "1221170",
+      "1554820"
+    ],
+    "matches": {
+      "1221170": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "きびん"
+        }
+      ],
+      "1252390": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "けいさつ"
+        }
+      ],
+      "1451350": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "どうさ"
+        }
+      ],
+      "1554820": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "ちから"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1627272",
+    "original": "それはWindowsでしか動作しない。",
+    "en": [
+      {
+        "id": "1627264",
+        "text": "It only works on Windows."
+      }
+    ],
+    "vocabIds": [
+      "1451350"
+    ],
+    "matches": {
+      "1451350": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "どうさ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3367130",
+    "original": "今テストしてみたところ、若干動作が鈍いが、正常に動く。",
+    "en": [
+      {
+        "id": "1135019",
+        "text": "I just did a test and it's a bit slow but working fine."
+      }
+    ],
+    "vocabIds": [
+      "1421970",
+      "1582430",
+      "1324330",
+      "1451350",
+      "1377390",
+      "1451210",
+      "1288850"
+    ],
+    "matches": {
+      "1288850": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "こん"
+        }
+      ],
+      "1324330": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "じゃっかん"
+        }
+      ],
+      "1377390": [
+        {
+          "start": 21,
+          "length": 2,
+          "reading": "せいじょう"
+        }
+      ],
+      "1421970": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "にぶいが"
+        }
+      ],
+      "1451210": [
+        {
+          "start": 24,
+          "length": 2,
+          "reading": "うごく"
+        }
+      ],
+      "1451350": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "どうさ"
+        }
+      ],
+      "1582430": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "にぶいが"
+        }
+      ]
+    }
+  }
+]

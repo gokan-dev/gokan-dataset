@@ -1,0 +1,129 @@
+{
+  "id": "1297960",
+  "writtenForm": {
+    "kanji": "作文",
+    "alternatives": [],
+    "containedKanji": [
+      "作",
+      "文"
+    ]
+  },
+  "reading": {
+    "primary": "さくぶん",
+    "alternatives": [
+      "さくもん"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 24107
+  },
+  "jlptLevel": 5,
+  "progression": {
+    "kklcStep": 152
+  },
+  "senses": [
+    {
+      "pos": [
+        "n",
+        "vs",
+        "vi"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "writing (an essay, prose, etc.)",
+        "composition"
+      ],
+      "related": {
+        "compounds": [
+          "作文"
+        ]
+      }
+    },
+    {
+      "pos": [
+        "n",
+        "vs",
+        "vi"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "formal writing with little real meaning"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "writing (poetry)",
+        "composing"
+      ],
+      "related": {
+        "compounds": [
+          "作文"
+        ]
+      },
+      "appliesToReadings": [
+        "さくもん"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1297960",
+      "isBase": true,
+      "originalPrimaryReading": "さくぶん",
+      "originalGlosses": [
+        "writing (an essay, prose, etc.)",
+        "composition"
+      ]
+    },
+    {
+      "id": "2525510",
+      "isBase": false,
+      "originalPrimaryReading": "さくもん",
+      "originalGlosses": [
+        "writing (poetry)",
+        "composing"
+      ]
+    }
+  ],
+  "components": [
+    "1297240",
+    "1505090"
+  ],
+  "parents": [
+    "1174490"
+  ]
+}

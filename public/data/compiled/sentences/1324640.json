@@ -1,0 +1,96 @@
+[
+  {
+    "id": "126309",
+    "original": "駐禁で切符を切られた直後にＵターン禁止でつかまった。運が悪いというか、弱り目に祟り目というか。",
+    "en": [
+      {
+        "id": "277683",
+        "text": "It wasn't my lucky day. First, I got a parking ticket and then things went from bad to worse when I got pulled over for making a U-turn."
+      }
+    ],
+    "indices": "駐禁~ で(#2028980) 切符 を 切る{切られた} 直後 に Ｕターン~ 禁止 で(#2028980) 捕まる[01]{つかまった} 運 が 悪い(わるい) と言うか{というか} 弱り目に祟り目~ と言うか{というか}",
+    "vocabIds": [
+      "1324640",
+      "1172630",
+      "2012270",
+      "1385170",
+      "1384830",
+      "1430930",
+      "1241550"
+    ],
+    "matches": {
+      "1172630": [
+        {
+          "start": 26,
+          "length": 4,
+          "reading": "うんがわるい"
+        }
+      ],
+      "1241550": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "きんし"
+        }
+      ],
+      "1324640": [
+        {
+          "start": 35,
+          "length": 7,
+          "reading": "よわりめにたたりめ"
+        }
+      ],
+      "1384830": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "きら"
+        }
+      ],
+      "1385170": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "きっぷ"
+        }
+      ],
+      "1430930": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "ちょくご"
+        }
+      ],
+      "2012270": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ちゅうきん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "148717",
+    "original": "弱り目に祟り目。",
+    "en": [
+      {
+        "id": "19560",
+        "text": "Misfortunes never come singly."
+      }
+    ],
+    "indices": "弱り目~ に 祟り目~",
+    "vocabIds": [
+      "1324640"
+    ],
+    "matches": {
+      "1324640": [
+        {
+          "start": 0,
+          "length": 7,
+          "reading": "よわりめにたたりめ"
+        }
+      ]
+    }
+  }
+]

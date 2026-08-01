@@ -1,0 +1,169 @@
+[
+  {
+    "id": "77214",
+    "original": "和子さんはお姉さんによく似ています。",
+    "en": [
+      {
+        "id": "326505",
+        "text": "Kazuko really takes after her sister."
+      }
+    ],
+    "indices": "さん は お姉さん[01] に 良く[01]{よく} 似る{似ています}",
+    "vocabIds": [
+      "1314600",
+      "1001990",
+      "2549330"
+    ],
+    "matches": {
+      "1001990": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "おねえさん"
+        }
+      ],
+      "1314600": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "にています"
+        }
+      ],
+      "2549330": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かずこ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "126778",
+    "original": "池田が姓で和子が名です。",
+    "en": [
+      {
+        "id": "277312",
+        "text": "Ikeda is my last name, and Kazuko is my first name."
+      }
+    ],
+    "indices": "が 姓(せい)[01] で(#2028980) が 名(な) です",
+    "vocabIds": [
+      "2549330",
+      "1375190",
+      "1531330"
+    ],
+    "matches": {
+      "1375190": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "せい"
+        }
+      ],
+      "1531330": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "な"
+        }
+      ],
+      "2549330": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "わこ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "393840",
+    "original": "和子が胸をはだけて赤ん坊に乳をふくませた。",
+    "en": [
+      {
+        "id": "393841",
+        "text": "Kazuko bared her breast and fed the baby."
+      }
+    ],
+    "indices": "が 胸 を 開ける(はだける)[01]{はだけて}~ 赤ん坊 に 乳 を 含ませる{ふくませた}~",
+    "vocabIds": [
+      "1383310",
+      "2549330",
+      "1237820",
+      "1464980"
+    ],
+    "matches": {
+      "1237820": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "むね"
+        }
+      ],
+      "1383310": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "あかんぼう"
+        }
+      ],
+      "1464980": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "ちち"
+        }
+      ],
+      "2549330": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "わこ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3467010",
+    "original": "姓は池田、名は和子。",
+    "en": [
+      {
+        "id": "277312",
+        "text": "Ikeda is my last name, and Kazuko is my first name."
+      },
+      {
+        "id": "3481783",
+        "text": "My last name is Ikeda and my first name is Kazuko."
+      }
+    ],
+    "vocabIds": [
+      "2549330",
+      "1375190",
+      "1531330"
+    ],
+    "matches": {
+      "1375190": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "せい"
+        }
+      ],
+      "1531330": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "な"
+        }
+      ],
+      "2549330": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "わこ"
+        }
+      ]
+    }
+  }
+]

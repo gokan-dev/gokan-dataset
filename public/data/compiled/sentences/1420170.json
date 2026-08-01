@@ -1,0 +1,136 @@
+[
+  {
+    "id": "88044",
+    "original": "彼女は大きさが似合わない男性用シャツを着ていた。",
+    "en": [
+      {
+        "id": "315664",
+        "text": "She was wearing a men's shirt which did not fit her."
+      }
+    ],
+    "indices": "彼女[01] は 大きい{大き} さ[01] が 似合う{似合わない} 男性用 シャツ を 着る[01]{着ていた}",
+    "vocabIds": [
+      "1314680",
+      "1423000",
+      "1588880",
+      "1420170",
+      "1483150"
+    ],
+    "matches": {
+      "1314680": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "にあわない"
+        }
+      ],
+      "1420170": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "だんせいよう"
+        }
+      ],
+      "1423000": [
+        {
+          "start": 19,
+          "length": 4,
+          "reading": "きていた"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1588880": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "おおきさ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "127144",
+    "original": "男性用の衣類はゆったりしている。",
+    "en": [
+      {
+        "id": "276945",
+        "text": "Men's clothing is loose fitting."
+      }
+    ],
+    "indices": "男性用~ の 衣類~ は ゆったり[02]~ 為る(する){している}",
+    "vocabIds": [
+      "1420170",
+      "1613280"
+    ],
+    "matches": {
+      "1420170": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "だんせいよう"
+        }
+      ],
+      "1613280": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "いるい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3962514",
+    "original": "男性用のトイレは1階と3階にございます。",
+    "en": [
+      {
+        "id": "4635438",
+        "text": "The men's restrooms are located on floors 1 and 3."
+      }
+    ],
+    "vocabIds": [
+      "1420170",
+      "1203020",
+      "2648780"
+    ],
+    "matches": {
+      "1203020": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "かい"
+        },
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "かい"
+        }
+      ],
+      "1420170": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "だんせいよう"
+        }
+      ],
+      "2648780": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "かい"
+        },
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "かい"
+        }
+      ]
+    }
+  }
+]

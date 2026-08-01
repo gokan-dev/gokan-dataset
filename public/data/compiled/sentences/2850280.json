@@ -1,0 +1,71 @@
+[
+  {
+    "id": "106571",
+    "original": "彼は、子供にしてはなかなか物わかりがよい。",
+    "en": [
+      {
+        "id": "297115",
+        "text": "He has a good deal of intelligence for a child."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 子供 にしては 中々[02]{なかなか} 物分り{物わかり} が 良い{よい}",
+    "vocabIds": [
+      "2850280",
+      "1307850",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1307850": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "こども"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "2850280": [
+        {
+          "start": 13,
+          "length": 7,
+          "reading": "ものわかりがよい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1355528",
+    "original": "トムは物分かりがいい。",
+    "en": [
+      {
+        "id": "1025488",
+        "text": "Tom has a good head on his shoulders."
+      }
+    ],
+    "vocabIds": [
+      "2850280"
+    ],
+    "matches": {
+      "2850280": [
+        {
+          "start": 3,
+          "length": 7,
+          "reading": "ものわかりがいい"
+        }
+      ]
+    }
+  }
+]

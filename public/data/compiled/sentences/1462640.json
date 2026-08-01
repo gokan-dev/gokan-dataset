@@ -1,0 +1,33 @@
+[
+  {
+    "id": "123051",
+    "original": "二足のわらじをはこうとして失敗した。",
+    "en": [
+      {
+        "id": "280949",
+        "text": "He tried to play two roles at the same time and failed."
+      }
+    ],
+    "indices": "二足の草鞋{二足のわらじ}~ を 履く{はこう} として[04] 失敗 為る(する){した}",
+    "vocabIds": [
+      "1462640",
+      "1320140"
+    ],
+    "matches": {
+      "1320140": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "しっぱい"
+        }
+      ],
+      "1462640": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "にそくのわらじ"
+        }
+      ]
+    }
+  }
+]

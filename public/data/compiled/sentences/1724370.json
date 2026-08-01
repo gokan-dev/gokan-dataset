@@ -1,0 +1,80 @@
+[
+  {
+    "id": "123305",
+    "original": "突然火災警報機が鳴った。",
+    "en": [
+      {
+        "id": "280693",
+        "text": "All of a sudden, the fire alarm went off."
+      }
+    ],
+    "indices": "突然 火災警報~ 機(き) が 鳴る{鳴った}",
+    "vocabIds": [
+      "1724370",
+      "1532910",
+      "1457040",
+      "2037700"
+    ],
+    "matches": {
+      "1457040": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とつぜん"
+        }
+      ],
+      "1532910": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "なった"
+        }
+      ],
+      "1724370": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "かさいけいほう"
+        }
+      ],
+      "2037700": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "き"
+        }
+      ]
+    }
+  },
+  {
+    "id": "186713",
+    "original": "火災警報が鳴った。",
+    "en": [
+      {
+        "id": "23849",
+        "text": "The fire alarm rang."
+      }
+    ],
+    "indices": "火災警報 が 鳴る{鳴った}",
+    "vocabIds": [
+      "1724370",
+      "1532910"
+    ],
+    "matches": {
+      "1532910": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "なった"
+        }
+      ],
+      "1724370": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "かさいけいほう"
+        }
+      ]
+    }
+  }
+]

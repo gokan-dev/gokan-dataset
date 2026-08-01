@@ -1,0 +1,188 @@
+[
+  {
+    "id": "145831",
+    "original": "食事は後回しにしよう。",
+    "en": [
+      {
+        "id": "268731",
+        "text": "Let dinner wait."
+      },
+      {
+        "id": "448959",
+        "text": "Let's postpone dinner."
+      }
+    ],
+    "indices": "食事 は 後回し に 為る(する){しよう}",
+    "vocabIds": [
+      "1269500",
+      "1358490"
+    ],
+    "matches": {
+      "1269500": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "あとまわし"
+        }
+      ],
+      "1358490": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しょくじ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "206431",
+    "original": "その問題は後回しにしよう。",
+    "en": [
+      {
+        "id": "43679",
+        "text": "Let's leave that matter for later."
+      }
+    ],
+    "indices": "其の[01]{その} 問題 は 後回し~ に 為る(する){しよう}",
+    "vocabIds": [
+      "1269500",
+      "1536010"
+    ],
+    "matches": {
+      "1269500": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "あとまわし"
+        }
+      ],
+      "1536010": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "もんだい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "211101",
+    "original": "その結論は後回しにした。",
+    "en": [
+      {
+        "id": "48375",
+        "text": "I put off the conclusion."
+      }
+    ],
+    "indices": "其の[01]{その} 結論[01] は 後回し に 為る(する){した}",
+    "vocabIds": [
+      "1269500",
+      "1255020"
+    ],
+    "matches": {
+      "1255020": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "けつろん"
+        }
+      ],
+      "1269500": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "あとまわし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10087709",
+    "original": "後回しにするのはやめてください。",
+    "en": [
+      {
+        "id": "8534563",
+        "text": "Please stop procrastinating."
+      }
+    ],
+    "vocabIds": [
+      "1269500"
+    ],
+    "matches": {
+      "1269500": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あとまわし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11021447",
+    "original": "難しい問題は後回しにして、解ける問題から手をつけます。",
+    "en": [
+      {
+        "id": "12587860",
+        "text": "I put off the difficult problems and start with the ones I can solve."
+      }
+    ],
+    "vocabIds": [
+      "1460850",
+      "1269500",
+      "1198910",
+      "1546070",
+      "1536010",
+      "1327190"
+    ],
+    "matches": {
+      "1198910": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "とける"
+        }
+      ],
+      "1269500": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "あとまわし"
+        }
+      ],
+      "1327190": [
+        {
+          "start": 20,
+          "length": 1,
+          "reading": "て"
+        }
+      ],
+      "1460850": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "むずかしい"
+        }
+      ],
+      "1536010": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "もんだい"
+        },
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "もんだい"
+        }
+      ],
+      "1546070": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "とける"
+        }
+      ]
+    }
+  }
+]

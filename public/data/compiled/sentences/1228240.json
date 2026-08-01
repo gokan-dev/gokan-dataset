@@ -1,0 +1,158 @@
+[
+  {
+    "id": "155838",
+    "original": "私は床のほこりを掃除機で吸い取った。",
+    "en": [
+      {
+        "id": "258699",
+        "text": "I sucked up the dust on the floor with a vacuum cleaner."
+      }
+    ],
+    "indices": "私(わたし)[01] は 床(ゆか) の 埃(ほこり){ほこり} を 掃除機 で(#2028980) 吸い取る{吸い取った}",
+    "vocabIds": [
+      "1228240",
+      "1596390",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1349380"
+    ],
+    "matches": {
+      "1228240": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "すいとった"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1349380": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ゆか"
+        }
+      ],
+      "1596390": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "そうじき"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "182619",
+    "original": "吸取り紙はインク吸い取る。",
+    "en": [
+      {
+        "id": "19752",
+        "text": "Blotting paper absorbs ink."
+      }
+    ],
+    "indices": "吸い取り紙{吸取り紙} は インク 吸い取る",
+    "vocabIds": [
+      "1595530",
+      "1228240"
+    ],
+    "matches": {
+      "1228240": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "すいとる"
+        }
+      ],
+      "1595530": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "すいとりし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214322",
+    "original": "スポンジは液体を吸い取る。",
+    "en": [
+      {
+        "id": "51614",
+        "text": "A sponge absorbs liquids."
+      }
+    ],
+    "indices": "スポンジ は 液体 を 吸い取る",
+    "vocabIds": [
+      "1228240",
+      "1175030"
+    ],
+    "matches": {
+      "1175030": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "えきたい"
+        }
+      ],
+      "1228240": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "すいとる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "222384",
+    "original": "この吸い取り紙はインクをよく吸い取る。",
+    "en": [
+      {
+        "id": "59711",
+        "text": "This blotting paper absorbs ink well."
+      }
+    ],
+    "indices": "此の{この} 吸い取り紙~ は インク を 良く[01]{よく} 吸い取る~",
+    "vocabIds": [
+      "1595530",
+      "1228240"
+    ],
+    "matches": {
+      "1228240": [
+        {
+          "start": 14,
+          "length": 4,
+          "reading": "すいとる"
+        }
+      ],
+      "1595530": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "すいとりし"
+        }
+      ]
+    }
+  }
+]

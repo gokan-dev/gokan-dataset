@@ -1,0 +1,135 @@
+[
+  {
+    "id": "172147",
+    "original": "今度の選挙は棄権するつもりだ。",
+    "en": [
+      {
+        "id": "242328",
+        "text": "I don't plan to vote at the upcoming election."
+      }
+    ],
+    "indices": "今度 の 選挙 は 棄権[01] 為る(する){する} 積もり{つもり} だ",
+    "vocabIds": [
+      "1289370",
+      "1392190",
+      "1220670"
+    ],
+    "matches": {
+      "1220670": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "きけん"
+        }
+      ],
+      "1289370": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こんど"
+        }
+      ],
+      "1392190": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "せんきょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "183378",
+    "original": "棄権が二票あった。",
+    "en": [
+      {
+        "id": "20501",
+        "text": "There were two abstentions."
+      }
+    ],
+    "indices": "棄権[01] が 二 票 有る{あった}",
+    "vocabIds": [
+      "1220670",
+      "1461140",
+      "1489320"
+    ],
+    "matches": {
+      "1220670": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きけん"
+        }
+      ],
+      "1461140": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "に"
+        }
+      ],
+      "1489320": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "ひょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "229133",
+    "original": "いざ投票という時、彼は棄権した。",
+    "en": [
+      {
+        "id": "66491",
+        "text": "When it was time to vote, he abstained."
+      }
+    ],
+    "indices": "いざ 投票 と言う{という} 時(とき) 彼(かれ)[01] は 棄権[01]~ 為る(する){した}",
+    "vocabIds": [
+      "1447320",
+      "1220670",
+      "1315840",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1220670": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "きけん"
+        }
+      ],
+      "1315840": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "とき"
+        }
+      ],
+      "1447320": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "とうひょう"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  }
+]

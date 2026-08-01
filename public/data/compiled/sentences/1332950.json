@@ -1,0 +1,387 @@
+[
+  {
+    "id": "76042",
+    "original": "車がいかれるかと思ったころ終点に着きました。",
+    "en": [
+      {
+        "id": "327676",
+        "text": "We reached our destination just as I thought the car was going to give up the ghost."
+      }
+    ],
+    "indices": "車 が いかれる[01]~ か と 思う{思った} 頃(ころ){ころ} 終点 に 着く(つく)[01]{着きました}",
+    "vocabIds": [
+      "1422970",
+      "1607260",
+      "1589350",
+      "1332950",
+      "1323080"
+    ],
+    "matches": {
+      "1323080": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1332950": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "しゅうてん"
+        }
+      ],
+      "1422970": [
+        {
+          "start": 16,
+          "length": 5,
+          "reading": "つきました"
+        }
+      ],
+      "1589350": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "おもった"
+        }
+      ],
+      "1607260": [
+        {
+          "start": 16,
+          "length": 5,
+          "reading": "つきました"
+        }
+      ]
+    }
+  },
+  {
+    "id": "124287",
+    "original": "東海道線は東京が終点だ。",
+    "en": [
+      {
+        "id": "279707",
+        "text": "The Tokaido line terminates at Tokyo."
+      },
+      {
+        "id": "3018412",
+        "text": "The final stop of Tokaido line is Tokyo."
+      }
+    ],
+    "indices": "NI{東海道線} は 東京 が 終点 だ",
+    "vocabIds": [
+      "5741079",
+      "1447690",
+      "1332950"
+    ],
+    "matches": {
+      "1332950": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "しゅうてん"
+        }
+      ],
+      "1447690": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "とうきょう"
+        }
+      ],
+      "5741079": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "とうかいどうせん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "220781",
+    "original": "この線の終点はどこですか。",
+    "en": [
+      {
+        "id": "58103",
+        "text": "Where is the end of this line?"
+      }
+    ],
+    "indices": "此の{この} 線~ の 終点~ は 何処{どこ} ですか",
+    "vocabIds": [
+      "1332950",
+      "1391780"
+    ],
+    "matches": {
+      "1332950": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "しゅうてん"
+        }
+      ],
+      "1391780": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "せん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9740597",
+    "original": "この路線の終点はどこでしょうか？",
+    "en": [
+      {
+        "id": "58103",
+        "text": "Where is the end of this line?"
+      }
+    ],
+    "vocabIds": [
+      "1560040",
+      "1332950"
+    ],
+    "matches": {
+      "1332950": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "しゅうてん"
+        }
+      ],
+      "1560040": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ろせん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9779327",
+    "original": "この路線は始発から終点まで約４５分です。",
+    "en": [
+      {
+        "id": "9779785",
+        "text": "This train line is about 45 minutes from one end of the line to the other."
+      }
+    ],
+    "vocabIds": [
+      "1560040",
+      "1307610",
+      "1332950",
+      "2039350",
+      "1538100",
+      "1579470"
+    ],
+    "matches": {
+      "1307610": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "しはつ"
+        }
+      ],
+      "1332950": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "しゅうてん"
+        }
+      ],
+      "1538100": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "やく"
+        }
+      ],
+      "1560040": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ろせん"
+        }
+      ],
+      "1579470": [
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "よん"
+        }
+      ],
+      "2039350": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "ごふん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9793312",
+    "original": "終点で降りる。",
+    "en": [
+      {
+        "id": "9793311",
+        "text": "We'll get off at the last stop."
+      },
+      {
+        "id": "9793310",
+        "text": "We'll get off at the last station."
+      },
+      {
+        "id": "9793438",
+        "text": "I'm getting off at the last stop."
+      },
+      {
+        "id": "9793439",
+        "text": "I'm getting off at the last station."
+      },
+      {
+        "id": "9793504",
+        "text": "I'll get off at the last stop."
+      },
+      {
+        "id": "9793507",
+        "text": "I'll get off at the last station."
+      },
+      {
+        "id": "9793515",
+        "text": "We're getting off at the last station."
+      },
+      {
+        "id": "9793519",
+        "text": "We're getting off at the last stop."
+      }
+    ],
+    "vocabIds": [
+      "1589500",
+      "1332950"
+    ],
+    "matches": {
+      "1332950": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しゅうてん"
+        }
+      ],
+      "1589500": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "おりる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10066320",
+    "original": "この線の終点まで行くんだよ。",
+    "en": [
+      {
+        "id": "10015568",
+        "text": "Go to the end of the line."
+      }
+    ],
+    "vocabIds": [
+      "1332950",
+      "1578850",
+      "1391780"
+    ],
+    "matches": {
+      "1332950": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "しゅうてん"
+        }
+      ],
+      "1391780": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "せん"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "いく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10081433",
+    "original": "終点でバスを降りました。",
+    "en": [
+      {
+        "id": "4014734",
+        "text": "I got off the bus at the end of the line."
+      },
+      {
+        "id": "10081436",
+        "text": "We got off the bus at the last stop."
+      }
+    ],
+    "vocabIds": [
+      "1589500",
+      "1332950"
+    ],
+    "matches": {
+      "1332950": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しゅうてん"
+        }
+      ],
+      "1589500": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "おりました"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11895783",
+    "original": "終点で降りて。",
+    "en": [
+      {
+        "id": "11035563",
+        "text": "Get off at the last station."
+      },
+      {
+        "id": "12296674",
+        "text": "Get off at the last stop."
+      }
+    ],
+    "vocabIds": [
+      "1589500",
+      "1332950"
+    ],
+    "matches": {
+      "1332950": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しゅうてん"
+        }
+      ],
+      "1589500": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "おりて"
+        }
+      ]
+    }
+  }
+]

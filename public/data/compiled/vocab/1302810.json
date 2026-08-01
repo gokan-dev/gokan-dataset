@@ -1,0 +1,105 @@
+{
+  "id": "1302810",
+  "writtenForm": {
+    "kanji": "山間",
+    "alternatives": [
+      "山あい",
+      "山合い"
+    ],
+    "containedKanji": [
+      "山",
+      "間"
+    ]
+  },
+  "reading": {
+    "primary": "さんかん",
+    "alternatives": [
+      "やまあい",
+      "やまま"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 26538
+  },
+  "progression": {
+    "kklcStep": 448
+  },
+  "senses": [
+    {
+      "pos": [
+        "n",
+        "adj-no"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "among the mountains"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "valley",
+        "ravine",
+        "glen",
+        "gorge"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "やまあい"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1302810",
+      "isBase": true,
+      "originalPrimaryReading": "さんかん",
+      "originalGlosses": [
+        "among the mountains"
+      ]
+    },
+    {
+      "id": "1755570",
+      "isBase": false,
+      "originalPrimaryReading": "やまあい",
+      "originalGlosses": [
+        "valley",
+        "ravine",
+        "glen"
+      ]
+    }
+  ],
+  "components": [
+    "1302680",
+    "1215230"
+  ],
+  "parents": [
+    "1302820"
+  ]
+}

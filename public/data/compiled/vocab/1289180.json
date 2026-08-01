@@ -1,0 +1,138 @@
+{
+  "id": "1289180",
+  "writtenForm": {
+    "kanji": "今時",
+    "alternatives": [
+      "今どき"
+    ],
+    "containedKanji": [
+      "今",
+      "時"
+    ]
+  },
+  "reading": {
+    "primary": "いまどき",
+    "alternatives": [
+      "イマドキ",
+      "こんじ"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 12458,
+    "kanaRank": 28299
+  },
+  "progression": {
+    "kklcStep": 383
+  },
+  "senses": [
+    {
+      "pos": [
+        "n",
+        "adv"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "these days",
+        "nowadays",
+        "today",
+        "present age",
+        "modern times"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "adv"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "at this time (of day)",
+        "at this hour"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n",
+        "adv"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "form"
+        ]
+      },
+      "glosses": [
+        "now",
+        "currently",
+        "presently",
+        "nowadays",
+        "present day",
+        "these days"
+      ],
+      "related": {
+        "compounds": [
+          "今時"
+        ]
+      },
+      "appliesToReadings": [
+        "こんじ"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": true
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1289180",
+      "isBase": true,
+      "originalPrimaryReading": "いまどき",
+      "originalGlosses": [
+        "these days",
+        "nowadays",
+        "today"
+      ]
+    },
+    {
+      "id": "2849332",
+      "isBase": false,
+      "originalPrimaryReading": "こんじ",
+      "originalGlosses": [
+        "now",
+        "currently",
+        "presently"
+      ]
+    }
+  ],
+  "components": [
+    "1288850",
+    "1315840"
+  ],
+  "parents": [
+    "1289190"
+  ]
+}

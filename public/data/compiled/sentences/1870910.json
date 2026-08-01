@@ -1,0 +1,83 @@
+[
+  {
+    "id": "135910",
+    "original": "誰も彼の記録を破ることができない。",
+    "en": [
+      {
+        "id": "276659",
+        "text": "Nobody can break his record."
+      }
+    ],
+    "indices": "誰も 彼(かれ)[01]{彼の} 記録[02] を 破る 事が出来る{ことができない}",
+    "vocabIds": [
+      "1870910",
+      "1416860",
+      "1000420"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "かれの"
+        }
+      ],
+      "1416860": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "だれも"
+        }
+      ],
+      "1870910": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "きろくをやぶる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1683879",
+    "original": "メアリーが記録を破るのは不可能だとトムは思っている。",
+    "en": [
+      {
+        "id": "1027959",
+        "text": "Tom thinks it's impossible for Mary to break the record."
+      },
+      {
+        "id": "7176074",
+        "text": "Tom thinks that it'll be impossible for Mary to break the record."
+      }
+    ],
+    "vocabIds": [
+      "1870910",
+      "1589350",
+      "1491520"
+    ],
+    "matches": {
+      "1491520": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "ふかのう"
+        }
+      ],
+      "1589350": [
+        {
+          "start": 20,
+          "length": 5,
+          "reading": "おもっている"
+        }
+      ],
+      "1870910": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "きろくをやぶる"
+        }
+      ]
+    }
+  }
+]

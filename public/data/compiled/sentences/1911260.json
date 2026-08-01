@@ -1,0 +1,80 @@
+[
+  {
+    "id": "173848",
+    "original": "向こうに着いたら手紙を下さい。",
+    "en": [
+      {
+        "id": "240622",
+        "text": "Drop me a line when you get there."
+      },
+      {
+        "id": "406732",
+        "text": "Send me a letter when you arrive."
+      }
+    ],
+    "indices": "向こう に 着く(つく)[01]{着いたら} 手紙 を 下さい[01]",
+    "vocabIds": [
+      "1911260",
+      "1184280",
+      "1327720"
+    ],
+    "matches": {
+      "1184280": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "ください"
+        }
+      ],
+      "1327720": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "てがみ"
+        }
+      ],
+      "1911260": [
+        {
+          "start": 0,
+          "length": 8,
+          "reading": "むこうについたら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "173849",
+    "original": "向こうに着いたらすぐ手紙をください。",
+    "en": [
+      {
+        "id": "240621",
+        "text": "I want you to write to me as soon as you get there."
+      },
+      {
+        "id": "13573690",
+        "text": "Please write to me as soon as you get there."
+      }
+    ],
+    "indices": "向こう に 着く(つく)[01]{着いたら} 直ぐ{すぐ} 手紙 を 下さい[01]{ください}",
+    "vocabIds": [
+      "1911260",
+      "1327720"
+    ],
+    "matches": {
+      "1327720": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "てがみ"
+        }
+      ],
+      "1911260": [
+        {
+          "start": 0,
+          "length": 8,
+          "reading": "むこうについたら"
+        }
+      ]
+    }
+  }
+]

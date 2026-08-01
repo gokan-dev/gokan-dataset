@@ -1,0 +1,161 @@
+[
+  {
+    "id": "162558",
+    "original": "私の娘はサクランボや西瓜や桃のような夏の果物が好きだ。",
+    "en": [
+      {
+        "id": "251956",
+        "text": "My daughter likes summer fruits, such as cherries, watermelons and peaches."
+      }
+    ],
+    "indices": "私(わたし)[01]{私の} 娘(むすめ)[01] は 桜ん坊{サクランボ} や 西瓜 や 桃 の 様な{ような} 夏(なつ) の 果物 が 好き(すき) だ",
+    "vocabIds": [
+      "1380890",
+      "1193060",
+      "1277450",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1355930",
+      "1531190",
+      "1448290",
+      "1191320"
+    ],
+    "matches": {
+      "1191320": [
+        {
+          "start": 18,
+          "length": 1,
+          "reading": "なつ"
+        }
+      ],
+      "1193060": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "くだもの"
+        }
+      ],
+      "1277450": [
+        {
+          "start": 23,
+          "length": 2,
+          "reading": "すき"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1355930": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "むすめ"
+        }
+      ],
+      "1380890": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "すいか"
+        }
+      ],
+      "1448290": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "もも"
+        }
+      ],
+      "1531190": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "むすめ"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "481473",
+    "original": "西瓜を食べましょう！",
+    "en": [
+      {
+        "id": "421377",
+        "text": "Let's eat a watermelon!"
+      }
+    ],
+    "vocabIds": [
+      "1358280",
+      "1380890"
+    ],
+    "matches": {
+      "1358280": [
+        {
+          "start": 3,
+          "length": 6,
+          "reading": "たべましょう"
+        }
+      ],
+      "1380890": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "すいか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "6828240",
+    "original": "西瓜を食べますか。",
+    "en": [
+      {
+        "id": "9366061",
+        "text": "Do you eat watermelon?"
+      },
+      {
+        "id": "9366063",
+        "text": "Do you eat watermelons?"
+      }
+    ],
+    "vocabIds": [
+      "1358280",
+      "1380890"
+    ],
+    "matches": {
+      "1358280": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "たべます"
+        }
+      ],
+      "1380890": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "すいか"
+        }
+      ]
+    }
+  }
+]

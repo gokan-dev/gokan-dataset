@@ -1,0 +1,96 @@
+[
+  {
+    "id": "123652",
+    "original": "同社は東証に上場している。",
+    "en": [
+      {
+        "id": "280344",
+        "text": "The company is listed on the Tokyo Stock Exchange."
+      }
+    ],
+    "indices": "同社[01] は 東証~ に 上場 為る(する){している}",
+    "vocabIds": [
+      "1452570",
+      "2012510",
+      "1353500"
+    ],
+    "matches": {
+      "1353500": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "じょうじょう"
+        }
+      ],
+      "1452570": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "どうしゃ"
+        }
+      ],
+      "2012510": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "とうしょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "124159",
+    "original": "東証の出来高は今年の最高に膨らんだ。",
+    "en": [
+      {
+        "id": "279835",
+        "text": "The turnover on the Tokyo stock Exchange swelled to the year's record."
+      }
+    ],
+    "indices": "東証 の 出来高 は 今年 の 最高[02]{最高に} 膨らむ{膨らんだ}",
+    "vocabIds": [
+      "1519990",
+      "1340520",
+      "2012510",
+      "1579130",
+      "1293850"
+    ],
+    "matches": {
+      "1293850": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "さいこう"
+        }
+      ],
+      "1340520": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "できだか"
+        }
+      ],
+      "1519990": [
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "ふくらんだ"
+        }
+      ],
+      "1579130": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ことし"
+        }
+      ],
+      "2012510": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とうしょう"
+        }
+      ]
+    }
+  }
+]

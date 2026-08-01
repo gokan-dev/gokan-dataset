@@ -1,0 +1,93 @@
+[
+  {
+    "id": "76578",
+    "original": "ただし、調子に乗ると失敗を招くので注意！",
+    "en": [
+      {
+        "id": "327142",
+        "text": "However if you get carried away you'll risk failure so take care!"
+      }
+    ],
+    "indices": "但し{ただし} 調子に乗る[01] と 失敗 を[01] 招く の で(#2028980) 注意",
+    "vocabIds": [
+      "1429180",
+      "1349590",
+      "1320140",
+      "1426530"
+    ],
+    "matches": {
+      "1320140": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "しっぱい"
+        }
+      ],
+      "1349590": [
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "まねくので"
+        }
+      ],
+      "1426530": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "ちゅうい"
+        }
+      ],
+      "1429180": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "ちょうしにのる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11546067",
+    "original": "調子に乗るな。",
+    "en": [
+      {
+        "id": "2270382",
+        "text": "Don't get carried away."
+      }
+    ],
+    "vocabIds": [
+      "1429180"
+    ],
+    "matches": {
+      "1429180": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "ちょうしにのる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11546068",
+    "original": "調子に乗るのはやめよう。",
+    "en": [
+      {
+        "id": "2007465",
+        "text": "Let's not get carried away."
+      }
+    ],
+    "vocabIds": [
+      "1429180"
+    ],
+    "matches": {
+      "1429180": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "ちょうしにのる"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,188 @@
+[
+  {
+    "id": "183337",
+    "original": "機内持ち込みの荷物はいくつありますか。",
+    "en": [
+      {
+        "id": "20460",
+        "text": "How many pieces of carry-on are you going to take?"
+      }
+    ],
+    "indices": "機内 持ち込み の 荷物[01] は 幾つ[01]{いくつ} 有る{あります} か",
+    "vocabIds": [
+      "2153200",
+      "1195430"
+    ],
+    "matches": {
+      "1195430": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "にもつ"
+        }
+      ],
+      "2153200": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "きないもちこみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "198342",
+    "original": "ハイジャック防止のため機内持ち込み手荷物の検査が厳重だ。",
+    "en": [
+      {
+        "id": "35535",
+        "text": "To prevent hijacks, all carry-on baggage is carefully inspected."
+      }
+    ],
+    "indices": "ハイジャック 防止 の 為(ため){ため} 機内 持ち込み 手荷物 の 検査 が 厳重 だ",
+    "vocabIds": [
+      "2153200",
+      "1327360",
+      "1520380",
+      "1257890",
+      "1262660"
+    ],
+    "matches": {
+      "1257890": [
+        {
+          "start": 21,
+          "length": 2,
+          "reading": "けんさ"
+        }
+      ],
+      "1262660": [
+        {
+          "start": 24,
+          "length": 2,
+          "reading": "げんじゅう"
+        }
+      ],
+      "1327360": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "てにもつ"
+        }
+      ],
+      "1520380": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ぼうし"
+        }
+      ],
+      "2153200": [
+        {
+          "start": 11,
+          "length": 6,
+          "reading": "きないもちこみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "205893",
+    "original": "それが機内持ち込みの荷物ですか。",
+    "en": [
+      {
+        "id": "43139",
+        "text": "Is that your carry-on luggage?"
+      }
+    ],
+    "indices": "其れ[01]{それ} が 機内 持ち込み の 荷物[01] ですか",
+    "vocabIds": [
+      "2153200",
+      "1195430"
+    ],
+    "matches": {
+      "1195430": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "にもつ"
+        }
+      ],
+      "2153200": [
+        {
+          "start": 3,
+          "length": 6,
+          "reading": "きないもちこみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "223333",
+    "original": "このバッグ、機内持ちこみＯＫなはずなんだけど。",
+    "en": [
+      {
+        "id": "60666",
+        "text": "You should be able to carry that bag on."
+      }
+    ],
+    "indices": "此の{この} バッグ 機内 持ち込み{持ちこみ} ＯＫ だ{な} 筈[01]{はず} なのだ{なんだ} けど",
+    "vocabIds": [
+      "2153200"
+    ],
+    "matches": {
+      "2153200": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "きないもちこみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "774437",
+    "original": "この荷物はチェックインが必要ですか？それとも、機内持ち込みが可能ですか？",
+    "en": [
+      {
+        "id": "1008011",
+        "text": "Do I have to check this luggage, or can it be carry-on?"
+      }
+    ],
+    "vocabIds": [
+      "2153200",
+      "1195430",
+      "1487660",
+      "1191060"
+    ],
+    "matches": {
+      "1191060": [
+        {
+          "start": 30,
+          "length": 2,
+          "reading": "かのう"
+        }
+      ],
+      "1195430": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "にもつ"
+        }
+      ],
+      "1487660": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "ひつよう"
+        }
+      ],
+      "2153200": [
+        {
+          "start": 23,
+          "length": 6,
+          "reading": "きないもちこみ"
+        }
+      ]
+    }
+  }
+]

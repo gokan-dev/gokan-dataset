@@ -1,0 +1,57 @@
+[
+  {
+    "id": "83270",
+    "original": "弁護士は依頼人に法的手段を取るように勧めた。",
+    "en": [
+      {
+        "id": "320446",
+        "text": "The lawyer recommended that his client take legal action."
+      }
+    ],
+    "indices": "弁護士 は 依頼人 に 法的手段~ を 取る 様に{ように} 勧める{勧めた}",
+    "vocabIds": [
+      "1517420",
+      "1512850",
+      "1575880",
+      "1595680",
+      "1326980"
+    ],
+    "matches": {
+      "1326980": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "とる"
+        }
+      ],
+      "1512850": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "べんごし"
+        }
+      ],
+      "1517420": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "ほうてきしゅだん"
+        }
+      ],
+      "1575880": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "いらいじん"
+        }
+      ],
+      "1595680": [
+        {
+          "start": 18,
+          "length": 3,
+          "reading": "すすめた"
+        }
+      ]
+    }
+  }
+]

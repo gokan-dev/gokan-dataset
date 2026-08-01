@@ -1,0 +1,63 @@
+[
+  {
+    "id": "223099",
+    "original": "このようなスラム街は市の恥だ。",
+    "en": [
+      {
+        "id": "60430",
+        "text": "These slums are a disgrace to the city."
+      }
+    ],
+    "indices": "この様{このような} スラム街~ は 市(し) の 恥~ だ",
+    "vocabIds": [
+      "1613070",
+      "1308090",
+      "1421590"
+    ],
+    "matches": {
+      "1308090": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "し"
+        }
+      ],
+      "1421590": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "はじ"
+        }
+      ],
+      "1613070": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "すらむがい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "4865236",
+    "original": "メキシコにはたくさんのスラム街がある。",
+    "en": [
+      {
+        "id": "4959385",
+        "text": "There are a lot of slums in Mexico."
+      }
+    ],
+    "vocabIds": [
+      "1613070"
+    ],
+    "matches": {
+      "1613070": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "すらむがい"
+        }
+      ]
+    }
+  }
+]

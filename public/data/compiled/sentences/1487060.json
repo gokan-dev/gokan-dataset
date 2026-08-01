@@ -1,0 +1,480 @@
+[
+  {
+    "id": "83930",
+    "original": "風邪を引くと私はいつも鼻水が出る。",
+    "en": [
+      {
+        "id": "319786",
+        "text": "My nose runs whenever I have a cold."
+      }
+    ],
+    "indices": "風邪をひく{風邪を引く} と 私(わたし)[01] は 何時も[01]{いつも} 鼻水 が 出る",
+    "vocabIds": [
+      "1499880",
+      "1487060",
+      "1338240",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1338240": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "でる"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1487060": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "はなみず"
+        }
+      ],
+      "1499880": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "かぜをひく"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "85506",
+    "original": "鼻水が出ます。",
+    "en": [
+      {
+        "id": "318207",
+        "text": "I have a runny nose."
+      }
+    ],
+    "indices": "鼻水 が 出る{出ます}",
+    "vocabIds": [
+      "1338240",
+      "1487060"
+    ],
+    "matches": {
+      "1338240": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "でます"
+        }
+      ],
+      "1487060": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "はなみず"
+        }
+      ]
+    }
+  },
+  {
+    "id": "85507",
+    "original": "鼻水が出てるよ。",
+    "en": [
+      {
+        "id": "318192",
+        "text": "Your nose is running."
+      }
+    ],
+    "indices": "鼻水 が 出る{出てる} よ[01]",
+    "vocabIds": [
+      "1338240",
+      "1487060"
+    ],
+    "matches": {
+      "1338240": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "でてる"
+        }
+      ],
+      "1487060": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "はなみず"
+        }
+      ]
+    }
+  },
+  {
+    "id": "85508",
+    "original": "鼻水が出ている。",
+    "en": [
+      {
+        "id": "318205",
+        "text": "My nose is running."
+      },
+      {
+        "id": "318207",
+        "text": "I have a runny nose."
+      }
+    ],
+    "indices": "鼻水 が 出る{出ている}",
+    "vocabIds": [
+      "1338240",
+      "1487060"
+    ],
+    "matches": {
+      "1338240": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "でている"
+        }
+      ],
+      "1487060": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "はなみず"
+        }
+      ]
+    }
+  },
+  {
+    "id": "85509",
+    "original": "鼻水がたれているよ。",
+    "en": [
+      {
+        "id": "318192",
+        "text": "Your nose is running."
+      }
+    ],
+    "indices": "鼻水 が 垂れる(たれる)[03]{たれている} よ[01]",
+    "vocabIds": [
+      "1487060"
+    ],
+    "matches": {
+      "1487060": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "はなみず"
+        }
+      ]
+    }
+  },
+  {
+    "id": "85510",
+    "original": "鼻水がたくさん出ました。",
+    "en": [
+      {
+        "id": "318203",
+        "text": "My nose was very runny."
+      }
+    ],
+    "indices": "鼻水 が 沢山{たくさん} 出る{出ました}",
+    "vocabIds": [
+      "1338240",
+      "1487060"
+    ],
+    "matches": {
+      "1338240": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "でました"
+        }
+      ],
+      "1487060": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "はなみず"
+        }
+      ]
+    }
+  },
+  {
+    "id": "173823",
+    "original": "喉が痛くて、鼻水もでます。",
+    "en": [
+      {
+        "id": "240647",
+        "text": "I have a sore throat and runny nose."
+      }
+    ],
+    "indices": "喉(のど)[01] が 痛い[01]{痛くて} 鼻水 も 出る{でます}",
+    "vocabIds": [
+      "1432680",
+      "1487060",
+      "1600280"
+    ],
+    "matches": {
+      "1432680": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "いたくて"
+        }
+      ],
+      "1487060": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "はなみず"
+        }
+      ],
+      "1600280": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "のど"
+        }
+      ]
+    }
+  },
+  {
+    "id": "219274",
+    "original": "この薬は鼻水に不思議なほどよく効く。",
+    "en": [
+      {
+        "id": "56592",
+        "text": "This medicine will do wonders for a runny nose."
+      }
+    ],
+    "indices": "此の{この} 薬(くすり)[01] は 鼻水~ に 不思議{不思議な} 程{ほど} 良く[01]{よく} 効く",
+    "vocabIds": [
+      "2599990",
+      "1487060",
+      "1591100",
+      "1538160"
+    ],
+    "matches": {
+      "1487060": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "はなみず"
+        }
+      ],
+      "1538160": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "くすり"
+        }
+      ],
+      "1591100": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "きく"
+        }
+      ],
+      "2599990": [
+        {
+          "start": 7,
+          "length": 6,
+          "reading": "ふしぎなほど"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2667479",
+    "original": "おとといから鼻水が出て、のどに違和感があります。",
+    "en": [
+      {
+        "id": "2673865",
+        "text": "I've had a runny nose for two days and I've been feeling an uncomfortable sensation in my throat."
+      }
+    ],
+    "vocabIds": [
+      "1159020",
+      "1487060",
+      "1338240"
+    ],
+    "matches": {
+      "1159020": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "いわかん"
+        }
+      ],
+      "1338240": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "でて"
+        }
+      ],
+      "1487060": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "はなみず"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3098446",
+    "original": "冬にスープ飲むと鼻水出るのなんなの？",
+    "en": [
+      {
+        "id": "3129215",
+        "text": "Why does my nose run when I eat soup in winter?"
+      }
+    ],
+    "vocabIds": [
+      "1169870",
+      "1487060",
+      "1338240",
+      "1446070"
+    ],
+    "matches": {
+      "1169870": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "のむと"
+        }
+      ],
+      "1338240": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "でる"
+        }
+      ],
+      "1446070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ふゆ"
+        }
+      ],
+      "1487060": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "はなみず"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1155822",
+    "original": "鼻水をズルズルとすすってないで、ちゃんと鼻をかみなさい。",
+    "en": [
+      {
+        "id": "11598340",
+        "text": "Quit sniffling and blow your nose."
+      },
+      {
+        "id": "11598341",
+        "text": "Stop sniffling and blow your nose."
+      }
+    ],
+    "vocabIds": [
+      "1487060",
+      "1486720"
+    ],
+    "matches": {
+      "1486720": [
+        {
+          "start": 20,
+          "length": 1,
+          "reading": "はな"
+        }
+      ],
+      "1487060": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "はなみず"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11906481",
+    "original": "鼻水がダーダー。",
+    "en": [
+      {
+        "id": "11115218",
+        "text": "My nose is running like a tap."
+      }
+    ],
+    "vocabIds": [
+      "1487060"
+    ],
+    "matches": {
+      "1487060": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "はなみず"
+        }
+      ]
+    }
+  },
+  {
+    "id": "13028747",
+    "original": "鼻水が垂れてるよ。",
+    "en": [
+      {
+        "id": "5477142",
+        "text": "Your nose is running!"
+      }
+    ],
+    "vocabIds": [
+      "1370870",
+      "2609690",
+      "1487060"
+    ],
+    "matches": {
+      "1370870": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "たれてる"
+        }
+      ],
+      "1487060": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "はなみず"
+        }
+      ],
+      "2609690": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "たれてる"
+        }
+      ]
+    }
+  }
+]

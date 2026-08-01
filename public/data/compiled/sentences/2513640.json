@@ -1,0 +1,131 @@
+[
+  {
+    "id": "227370",
+    "original": "お会計はレジでお願いします。",
+    "en": [
+      {
+        "id": "64722",
+        "text": "Please pay the cashier."
+      }
+    ],
+    "indices": "お会計~ は レジ[02] で(#2028980) お願いします",
+    "vocabIds": [
+      "1001720",
+      "2513640"
+    ],
+    "matches": {
+      "1001720": [
+        {
+          "start": 7,
+          "length": 6,
+          "reading": "おねがいします"
+        }
+      ],
+      "2513640": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "おかいけい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1014812",
+    "original": "お会計お願いします。",
+    "en": [
+      {
+        "id": "21098",
+        "text": "Check, please."
+      },
+      {
+        "id": "462578",
+        "text": "The bill, please."
+      }
+    ],
+    "vocabIds": [
+      "1001720",
+      "2513640"
+    ],
+    "matches": {
+      "1001720": [
+        {
+          "start": 3,
+          "length": 6,
+          "reading": "おねがいします"
+        }
+      ],
+      "2513640": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "おかいけい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3029978",
+    "original": "お会計は1Fレジにてお願い致します。",
+    "en": [
+      {
+        "id": "9982397",
+        "text": "Please pay the bill at the first floor register."
+      }
+    ],
+    "vocabIds": [
+      "1001730",
+      "2513640"
+    ],
+    "matches": {
+      "1001730": [
+        {
+          "start": 10,
+          "length": 7,
+          "reading": "おねがいいたします"
+        }
+      ],
+      "2513640": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "おかいけい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12890072",
+    "original": "お会計をお願いします。",
+    "en": [
+      {
+        "id": "21098",
+        "text": "Check, please."
+      },
+      {
+        "id": "12890075",
+        "text": "Bill, please."
+      }
+    ],
+    "vocabIds": [
+      "1001720",
+      "2513640"
+    ],
+    "matches": {
+      "1001720": [
+        {
+          "start": 4,
+          "length": 6,
+          "reading": "おねがいします"
+        }
+      ],
+      "2513640": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "おかいけい"
+        }
+      ]
+    }
+  }
+]

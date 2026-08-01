@@ -1,0 +1,41 @@
+[
+  {
+    "id": "228456",
+    "original": "イルカは頭のよい遊び好きな生き物だ。",
+    "en": [
+      {
+        "id": "65814",
+        "text": "The dolphin is an intelligent and playful creature."
+      }
+    ],
+    "indices": "海豚{イルカ} は 頭の良い{頭のよい} 遊び[01] 好き(すき){好きな} 生き物 だ",
+    "vocabIds": [
+      "1856550",
+      "2513210",
+      "1378590"
+    ],
+    "matches": {
+      "1378590": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "いきもの"
+        }
+      ],
+      "1856550": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "あたまのよい"
+        }
+      ],
+      "2513210": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "あそびすき"
+        }
+      ]
+    }
+  }
+]

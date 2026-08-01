@@ -1,0 +1,150 @@
+{
+  "id": "1375190",
+  "writtenForm": {
+    "kanji": "姓",
+    "alternatives": [],
+    "containedKanji": [
+      "姓"
+    ]
+  },
+  "reading": {
+    "primary": "せい",
+    "alternatives": [
+      "しょう",
+      "そう",
+      "かばね"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 12369
+  },
+  "jlptLevel": 2,
+  "progression": {
+    "kklcStep": 431
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "surname",
+        "family name"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "hereditary title (used in ancient Japan to denote rank and political standing)"
+      ],
+      "related": {
+        "compounds": [
+          "姓"
+        ]
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "hist"
+        ]
+      },
+      "glosses": [
+        "hereditary title (used in ancient Japan to denote rank and political standing)",
+        "kabane"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "かばね"
+      ]
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "clan"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "かばね"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": true
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1375190",
+      "isBase": true,
+      "originalPrimaryReading": "せい",
+      "originalGlosses": [
+        "surname",
+        "family name"
+      ]
+    },
+    {
+      "id": "2228290",
+      "isBase": false,
+      "originalPrimaryReading": "かばね",
+      "originalGlosses": [
+        "hereditary title (used in ancient Japan to denote rank and political standing)",
+        "kabane"
+      ]
+    }
+  ],
+  "parents": [
+    "1488250",
+    "1375210",
+    "1230930",
+    "1984870",
+    "1452860",
+    "2094770",
+    "1200920"
+  ]
+}

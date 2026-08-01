@@ -1,0 +1,152 @@
+{
+  "id": "2425140",
+  "writtenForm": {
+    "kanji": "根本",
+    "alternatives": [],
+    "containedKanji": [
+      "根",
+      "本"
+    ]
+  },
+  "reading": {
+    "primary": "ねほん",
+    "alternatives": [
+      "こんぽん",
+      "こんぼん"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 6688,
+    "kanaRank": 137015
+  },
+  "jlptLevel": 1,
+  "progression": {
+    "kklcStep": 284
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "kabuki script"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": true,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "abbr"
+        ]
+      },
+      "glosses": [
+        "illustrated kabuki script"
+      ],
+      "related": {
+        "compounds": [
+          "絵入根本"
+        ]
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "root",
+        "source",
+        "origin"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "こんぽん"
+      ]
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "foundation",
+        "basis",
+        "essence"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "こんぽん"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "2425140",
+      "isBase": true,
+      "originalPrimaryReading": "ねほん",
+      "originalGlosses": [
+        "kabuki script"
+      ]
+    },
+    {
+      "id": "2848289",
+      "isBase": false,
+      "originalPrimaryReading": "こんぽん",
+      "originalGlosses": [
+        "root",
+        "source",
+        "origin"
+      ]
+    }
+  ],
+  "components": [
+    "1290020",
+    "1522150"
+  ],
+  "parents": [
+    "1290290",
+    "1803770"
+  ]
+}

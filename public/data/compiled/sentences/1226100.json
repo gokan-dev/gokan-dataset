@@ -1,0 +1,126 @@
+[
+  {
+    "id": "140953",
+    "original": "前回の議事録は承認されました。",
+    "en": [
+      {
+        "id": "273619",
+        "text": "Minutes of the previous meeting were accepted."
+      }
+    ],
+    "indices": "前回 の 議事録 は 承認 為れる{されました}",
+    "vocabIds": [
+      "1226100",
+      "1392680",
+      "1349520"
+    ],
+    "matches": {
+      "1226100": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "ぎじろく"
+        }
+      ],
+      "1349520": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "しょうにん"
+        }
+      ],
+      "1392680": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ぜんかい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "222398",
+    "original": "この議事録に関して、訂正、追加がありましたらお願いします。",
+    "en": [
+      {
+        "id": "59725",
+        "text": "I welcome any corrections or additions to these minutes."
+      }
+    ],
+    "indices": "此の{この} 議事録~ に関して 訂正 追加 が[01] 有る{ありましたら} お願いします",
+    "vocabIds": [
+      "1001720",
+      "1009740",
+      "1226100",
+      "1436710",
+      "1432460"
+    ],
+    "matches": {
+      "1001720": [
+        {
+          "start": 22,
+          "length": 6,
+          "reading": "おねがいします"
+        }
+      ],
+      "1009740": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "にかんして"
+        }
+      ],
+      "1226100": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "ぎじろく"
+        }
+      ],
+      "1432460": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "ついか"
+        }
+      ],
+      "1436710": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "ていせい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8831992",
+    "original": "議事録は取っていますか？",
+    "en": [
+      {
+        "id": "3731546",
+        "text": "Are you taking minutes?"
+      }
+    ],
+    "vocabIds": [
+      "1326980",
+      "1226100"
+    ],
+    "matches": {
+      "1226100": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ぎじろく"
+        }
+      ],
+      "1326980": [
+        {
+          "start": 4,
+          "length": 6,
+          "reading": "とっています"
+        }
+      ]
+    }
+  }
+]

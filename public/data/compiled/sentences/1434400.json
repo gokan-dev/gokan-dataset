@@ -1,0 +1,109 @@
+[
+  {
+    "id": "148075",
+    "original": "住民は低空飛行訓練に抗議を行った。",
+    "en": [
+      {
+        "id": "266482",
+        "text": "The people protested against the low altitude flight training."
+      }
+    ],
+    "indices": "住民 は 低空飛行~ 訓練 に 抗議 を 行う{行った}",
+    "vocabIds": [
+      "1434400",
+      "1589060",
+      "1334210",
+      "1247470",
+      "1278860"
+    ],
+    "matches": {
+      "1247470": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "くんれん"
+        }
+      ],
+      "1278860": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "こうぎ"
+        }
+      ],
+      "1334210": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じゅうみん"
+        }
+      ],
+      "1434400": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "ていくうひこう"
+        }
+      ],
+      "1589060": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "おこなった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10508950",
+    "original": "カモメが低空飛行してるよ。",
+    "en": [
+      {
+        "id": "63543",
+        "text": "The sea gulls are flying low."
+      }
+    ],
+    "vocabIds": [
+      "1434400"
+    ],
+    "matches": {
+      "1434400": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "ていくうひこう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10508955",
+    "original": "ヘリコプターが超低空飛行をしています。",
+    "en": [
+      {
+        "id": "33893",
+        "text": "The helicopter is flying very low."
+      }
+    ],
+    "vocabIds": [
+      "1434400",
+      "1429340"
+    ],
+    "matches": {
+      "1429340": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "ちょう"
+        }
+      ],
+      "1434400": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "ていくうひこう"
+        }
+      ]
+    }
+  }
+]

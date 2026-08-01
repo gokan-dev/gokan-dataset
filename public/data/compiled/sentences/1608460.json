@@ -1,0 +1,128 @@
+[
+  {
+    "id": "170935",
+    "original": "左に曲がるとガソリンスタンドがある。",
+    "en": [
+      {
+        "id": "243545",
+        "text": "Turning to the left, you will find the gas station."
+      }
+    ],
+    "indices": "左(ひだり)[01] に 曲がる[02] と ガソリンスタンド が[01] 有る{ある}",
+    "vocabIds": [
+      "1608460"
+    ],
+    "matches": {
+      "1608460": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "ひだりにまがる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "235403",
+    "original": "２番目の通りを左に曲がるのですか。",
+    "en": [
+      {
+        "id": "72780",
+        "text": "Do I take the second street on the left?"
+      }
+    ],
+    "indices": "二番目{２番目} の 通り(とおり) を 左(ひだり)[01] に 曲がる[02] のです か",
+    "vocabIds": [
+      "1608460",
+      "1463020",
+      "1432920"
+    ],
+    "matches": {
+      "1432920": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "とおり"
+        }
+      ],
+      "1463020": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "にばんめ"
+        }
+      ],
+      "1608460": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "ひだりにまがる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11065730",
+    "original": "左に曲がると、カフェがあるわ。",
+    "en": [
+      {
+        "id": "9464805",
+        "text": "Turn left, and you'll find the cafe."
+      },
+      {
+        "id": "9464804",
+        "text": "Turn left, and you'll find the café."
+      }
+    ],
+    "vocabIds": [
+      "1608460"
+    ],
+    "matches": {
+      "1608460": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "ひだりにまがる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11444719",
+    "original": "左に曲がると、白い建物があります。",
+    "en": [
+      {
+        "id": "243554",
+        "text": "If you turn to the left, you'll see a white building."
+      }
+    ],
+    "vocabIds": [
+      "1608460",
+      "1474910",
+      "1257540"
+    ],
+    "matches": {
+      "1257540": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "たてもの"
+        }
+      ],
+      "1474910": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "しろい"
+        }
+      ],
+      "1608460": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "ひだりにまがる"
+        }
+      ]
+    }
+  }
+]

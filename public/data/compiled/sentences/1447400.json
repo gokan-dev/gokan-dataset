@@ -1,0 +1,949 @@
+[
+  {
+    "id": "81464",
+    "original": "本日は御搭乗頂きありがとうございます。",
+    "en": [
+      {
+        "id": "54349",
+        "text": "Welcome aboard!"
+      }
+    ],
+    "indices": "本日 は 御(ご) 搭乗 頂く{頂き} 有難うございます{ありがとうございます}",
+    "vocabIds": [
+      "1523110",
+      "1447400",
+      "1587290",
+      "1270190",
+      "2259700"
+    ],
+    "matches": {
+      "1270190": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "ご"
+        }
+      ],
+      "1447400": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "とうじょう"
+        }
+      ],
+      "1523110": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ほんじつ"
+        }
+      ],
+      "1587290": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "いただき"
+        }
+      ],
+      "2259700": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "ご"
+        }
+      ]
+    }
+  },
+  {
+    "id": "109246",
+    "original": "彼は家族に別れを告げ、ニューヨーク行きの飛行機に搭乗した。",
+    "en": [
+      {
+        "id": "294444",
+        "text": "He took leave of his family and got on board the plane for New York."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 家族 に 別れを告げる{別れを告げ} 紐育{ニューヨーク} 行き[01] の 飛行機 に 搭乗 為る(する){した}",
+    "vocabIds": [
+      "1485470",
+      "1285990",
+      "1192150",
+      "1509490",
+      "1578790",
+      "1447400",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1192150": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "かぞく"
+        }
+      ],
+      "1285990": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "つげ"
+        }
+      ],
+      "1447400": [
+        {
+          "start": 24,
+          "length": 2,
+          "reading": "とうじょう"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1485470": [
+        {
+          "start": 20,
+          "length": 3,
+          "reading": "ひこうき"
+        }
+      ],
+      "1509490": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "わかれ"
+        }
+      ],
+      "1578790": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "いき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "122322",
+    "original": "日本航空１２４便の搭乗ゲートはどこですか。",
+    "en": [
+      {
+        "id": "281681",
+        "text": "Where is the boarding gate for Japan Airlines 124?"
+      }
+    ],
+    "indices": "NI{日本航空} 便(びん)[01] の 搭乗 ゲート[01] は 何処{どこ} ですか",
+    "vocabIds": [
+      "5740863",
+      "1334890",
+      "1447400",
+      "1579470",
+      "1177490",
+      "1512360"
+    ],
+    "matches": {
+      "1177490": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "びん"
+        }
+      ],
+      "1334890": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "いちに"
+        }
+      ],
+      "1447400": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "とうじょう"
+        }
+      ],
+      "1512360": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "びん"
+        }
+      ],
+      "1579470": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "よん"
+        }
+      ],
+      "5740863": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "にほんこうくう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "124302",
+    "original": "搭乗開始は何時からですか。",
+    "en": [
+      {
+        "id": "279692",
+        "text": "What's the boarding time?"
+      }
+    ],
+    "indices": "搭乗 開始 は 何時(なんじ) から[01] ですか",
+    "vocabIds": [
+      "2191630",
+      "1447400",
+      "1202760"
+    ],
+    "matches": {
+      "1202760": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "かいし"
+        }
+      ],
+      "1447400": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とうじょう"
+        }
+      ],
+      "2191630": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "なんじから"
+        }
+      ]
+    }
+  },
+  {
+    "id": "124303",
+    "original": "搭乗ラウンジはどこでしょう？",
+    "en": [
+      {
+        "id": "279691",
+        "text": "Where is the boarding lounge?"
+      }
+    ],
+    "indices": "搭乗 ラウンジ は 何処{どこ} でしょう[01]",
+    "vocabIds": [
+      "1447400"
+    ],
+    "matches": {
+      "1447400": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とうじょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "124304",
+    "original": "搭乗は何番ゲートからですか。",
+    "en": [
+      {
+        "id": "279690",
+        "text": "From which gate do I board?"
+      }
+    ],
+    "indices": "搭乗 は 何番 ゲート[01] から ですか",
+    "vocabIds": [
+      "1447400",
+      "1189260"
+    ],
+    "matches": {
+      "1189260": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "なんばん"
+        }
+      ],
+      "1447400": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とうじょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "167216",
+    "original": "私たちが搭乗した飛行機はサンフランシスコ行きだった。",
+    "en": [
+      {
+        "id": "247285",
+        "text": "The plane we boarded was bound for San Francisco."
+      }
+    ],
+    "indices": "私たち が 搭乗 為る(する){した} 飛行機 は サンフランシスコ 行き[01] だ{だった}",
+    "vocabIds": [
+      "1311300",
+      "1485470",
+      "1447400",
+      "1578790"
+    ],
+    "matches": {
+      "1311300": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1447400": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "とうじょう"
+        }
+      ],
+      "1485470": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "ひこうき"
+        }
+      ],
+      "1578790": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "いき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "183799",
+    "original": "観光客たちは全員搭乗しましたか。",
+    "en": [
+      {
+        "id": "20922",
+        "text": "Have the tourists all gone on board?"
+      }
+    ],
+    "indices": "観光客 達{たち} は 全員 搭乗 為る(する){しました} か",
+    "vocabIds": [
+      "1214870",
+      "1394840",
+      "1447400"
+    ],
+    "matches": {
+      "1214870": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "かんこうきゃく"
+        }
+      ],
+      "1394840": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ぜんいん"
+        }
+      ],
+      "1447400": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "とうじょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "187431",
+    "original": "何時に搭乗開始ですか。",
+    "en": [
+      {
+        "id": "24568",
+        "text": "What time does boarding begin?"
+      }
+    ],
+    "indices": "何時(なんじ) に 搭乗 開始~ ですか",
+    "vocabIds": [
+      "1188770",
+      "1447400",
+      "1202760"
+    ],
+    "matches": {
+      "1188770": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "なんじ"
+        }
+      ],
+      "1202760": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "かいし"
+        }
+      ],
+      "1447400": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "とうじょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "192951",
+    "original": "ユナイテッド航空１１１便の搭乗ゲートはどこですか。",
+    "en": [
+      {
+        "id": "30119",
+        "text": "Where is the boarding gate for UA 111?"
+      }
+    ],
+    "indices": "ユナイテッド 航空 便(びん)[01] の 搭乗 ゲート[01] は 何処{どこ} ですか",
+    "vocabIds": [
+      "5087726",
+      "1334470",
+      "1447400",
+      "1160790",
+      "1177490",
+      "1512360"
+    ],
+    "matches": {
+      "1160790": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "いち"
+        }
+      ],
+      "1177490": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "びん"
+        }
+      ],
+      "1334470": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "いちいち"
+        }
+      ],
+      "1447400": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "とうじょう"
+        }
+      ],
+      "1512360": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "びん"
+        }
+      ],
+      "5087726": [
+        {
+          "start": 0,
+          "length": 8,
+          "reading": "ゆないてっどこうくう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "195081",
+    "original": "みなさま。ようこそご搭乗下さいました。",
+    "en": [
+      {
+        "id": "32255",
+        "text": "Ladies and gentlemen, welcome aboard."
+      }
+    ],
+    "indices": "皆様{みなさま} ようこそ 御(ご){ご} 搭乗 下さる{下さいました}",
+    "vocabIds": [
+      "1184280",
+      "1447400"
+    ],
+    "matches": {
+      "1184280": [
+        {
+          "start": 12,
+          "length": 6,
+          "reading": "くださいました"
+        }
+      ],
+      "1447400": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "とうじょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "217040",
+    "original": "ご搭乗は６時４０分になる予定です。",
+    "en": [
+      {
+        "id": "54347",
+        "text": "Boarding will be at six-forty."
+      }
+    ],
+    "indices": "御(ご){ご} 搭乗~ は 時(じ)[01] 分(ふん) になる[01] 予定~ です",
+    "vocabIds": [
+      "1447400",
+      "2583620",
+      "1543240",
+      "1579470",
+      "1557630",
+      "1502860"
+    ],
+    "matches": {
+      "1447400": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "とうじょう"
+        }
+      ],
+      "1502860": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "ふん"
+        }
+      ],
+      "1543240": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "よてい"
+        }
+      ],
+      "1557630": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "ぜろ"
+        }
+      ],
+      "1579470": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "よん"
+        }
+      ],
+      "2583620": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ろくじ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "217041",
+    "original": "ご搭乗のみなさんは搭乗券をご用意ください。",
+    "en": [
+      {
+        "id": "54348",
+        "text": "Please have your boarding pass ready. Thank you."
+      }
+    ],
+    "indices": "御(ご){ご} 搭乗 の 皆さん{みなさん} は 搭乗券~ を 御(ご){ご} 用意 下さい{ください}",
+    "vocabIds": [
+      "1447420",
+      "1447400",
+      "1546220"
+    ],
+    "matches": {
+      "1447400": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "とうじょう"
+        }
+      ],
+      "1447420": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "とうじょうけん"
+        }
+      ],
+      "1546220": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "ようい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "217042",
+    "original": "ご搭乗ありがとうございます。",
+    "en": [
+      {
+        "id": "54349",
+        "text": "Welcome aboard!"
+      }
+    ],
+    "indices": "御(ご){ご} 搭乗 有難うございます{ありがとうございます}",
+    "vocabIds": [
+      "1447400"
+    ],
+    "matches": {
+      "1447400": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "とうじょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "233072",
+    "original": "あなたの搭乗カードを見てみましょう。",
+    "en": [
+      {
+        "id": "70441",
+        "text": "Let's check your boarding pass."
+      }
+    ],
+    "indices": "貴方(あなた)[01]{あなた} の 搭乗 カード(#1036400)[01] を 見る{見て} 見る[05]{みましょう}",
+    "vocabIds": [
+      "1259290",
+      "1447400"
+    ],
+    "matches": {
+      "1259290": [
+        {
+          "start": 10,
+          "length": 7,
+          "reading": "みてみましょう"
+        }
+      ],
+      "1447400": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "とうじょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3598257",
+    "original": "本日のご搭乗、まことにありがとうございました。",
+    "en": [
+      {
+        "id": "3598934",
+        "text": "Thank you very much for flying with us today."
+      }
+    ],
+    "vocabIds": [
+      "1523110",
+      "1447400"
+    ],
+    "matches": {
+      "1447400": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "とうじょう"
+        }
+      ],
+      "1523110": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ほんじつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3598258",
+    "original": "またのご搭乗を乗務員一同、心よりお待ち申し上げております。ごきげんよう。",
+    "en": [
+      {
+        "id": "3598930",
+        "text": "From all of us in the crew, we look forward to your flying with us again. We hope you have a nice day."
+      }
+    ],
+    "vocabIds": [
+      "1362950",
+      "1355440",
+      "2202550",
+      "1447400",
+      "1165340"
+    ],
+    "matches": {
+      "1165340": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "いちどう"
+        }
+      ],
+      "1355440": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "じょうむいん"
+        }
+      ],
+      "1362950": [
+        {
+          "start": 19,
+          "length": 9,
+          "reading": "もうしあげております"
+        }
+      ],
+      "1447400": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "とうじょう"
+        }
+      ],
+      "2202550": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "こころより"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3598261",
+    "original": "日本航空７３１便、ご搭乗の最終案内をいたします。",
+    "en": [
+      {
+        "id": "3598919",
+        "text": "This is the final boarding call for Japan Airlines Flight 731."
+      }
+    ],
+    "vocabIds": [
+      "5740863",
+      "1447400",
+      "1293940",
+      "1154860",
+      "1319210",
+      "1579350",
+      "1160790",
+      "1177490",
+      "1512360"
+    ],
+    "matches": {
+      "1154860": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "あんない"
+        }
+      ],
+      "1160790": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "いち"
+        }
+      ],
+      "1177490": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "びん"
+        }
+      ],
+      "1293940": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "さいしゅう"
+        }
+      ],
+      "1319210": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "なな"
+        }
+      ],
+      "1447400": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "とうじょう"
+        }
+      ],
+      "1512360": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "びん"
+        }
+      ],
+      "1579350": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "さん"
+        }
+      ],
+      "5740863": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "にほんこうくう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10842080",
+    "original": "搭乗していた30人全員が、命を落としました。",
+    "en": [
+      {
+        "id": "10841988",
+        "text": "All thirty people on board died."
+      },
+      {
+        "id": "10841989",
+        "text": "The thirty people on board died."
+      }
+    ],
+    "vocabIds": [
+      "1589260",
+      "1447400",
+      "1394840",
+      "1580640",
+      "1604460",
+      "1531940",
+      "1694240"
+    ],
+    "matches": {
+      "1394840": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "ぜんいん"
+        }
+      ],
+      "1447400": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とうじょう"
+        }
+      ],
+      "1531940": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "いのち"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "にん"
+        }
+      ],
+      "1589260": [
+        {
+          "start": 15,
+          "length": 6,
+          "reading": "おとしました"
+        }
+      ],
+      "1604460": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "いのち"
+        }
+      ],
+      "1694240": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "いのち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10849937",
+    "original": "搭乗開始は何時からですか？",
+    "en": [
+      {
+        "id": "57175",
+        "text": "What time do you start boarding?"
+      }
+    ],
+    "vocabIds": [
+      "2191630",
+      "1447400",
+      "1202760"
+    ],
+    "matches": {
+      "1202760": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "かいし"
+        }
+      ],
+      "1447400": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とうじょう"
+        }
+      ],
+      "2191630": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "なんじから"
+        }
+      ]
+    }
+  }
+]

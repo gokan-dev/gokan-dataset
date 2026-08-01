@@ -1,0 +1,480 @@
+[
+  {
+    "id": "77901",
+    "original": "猟師は熊を撃った。",
+    "en": [
+      {
+        "id": "325817",
+        "text": "The hunter shot a bear."
+      }
+    ],
+    "indices": "猟師 は 熊 を 撃つ(#1253570)[01]{撃った}~",
+    "vocabIds": [
+      "1253570",
+      "1408810",
+      "1478010",
+      "1554450",
+      "1246850"
+    ],
+    "matches": {
+      "1246850": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "くま"
+        }
+      ],
+      "1253570": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "うった"
+        }
+      ],
+      "1408810": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "うった"
+        }
+      ],
+      "1478010": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "うった"
+        }
+      ],
+      "1554450": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "りょうし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "77902",
+    "original": "猟師は熊の足跡をたどった。",
+    "en": [
+      {
+        "id": "325816",
+        "text": "The hunter followed the bear's tracks."
+      }
+    ],
+    "indices": "猟師 は 熊 の 足跡 を 辿る[02]{たどった}~",
+    "vocabIds": [
+      "1554450",
+      "1581330",
+      "1246850"
+    ],
+    "matches": {
+      "1246850": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "くま"
+        }
+      ],
+      "1554450": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "りょうし"
+        }
+      ],
+      "1581330": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "あしあと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "77903",
+    "original": "猟師たちは銃でその象をねらった。",
+    "en": [
+      {
+        "id": "325815",
+        "text": "The hunters aimed at the elephant."
+      }
+    ],
+    "indices": "猟師~ 達{たち} は 銃 で(#2028980) 其の[01]{その} 象(ぞう) を 狙う{ねらった}",
+    "vocabIds": [
+      "1554450",
+      "1337000",
+      "1351830"
+    ],
+    "matches": {
+      "1337000": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "じゅう"
+        }
+      ],
+      "1351830": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "ぞう"
+        }
+      ],
+      "1554450": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "りょうし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "146302",
+    "original": "象は猟師に殺された。",
+    "en": [
+      {
+        "id": "268260",
+        "text": "The elephant was killed by the hunter."
+      }
+    ],
+    "indices": "象(ぞう) は 猟師 に 殺す{殺された}",
+    "vocabIds": [
+      "1554450",
+      "1299030",
+      "1351830"
+    ],
+    "matches": {
+      "1299030": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ころさ"
+        }
+      ],
+      "1351830": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぞう"
+        }
+      ],
+      "1554450": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "りょうし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "184590",
+    "original": "獲物がいなければ、猟師は存在することができない。",
+    "en": [
+      {
+        "id": "21718",
+        "text": "The hunter cannot exist without the hunted."
+      }
+    ],
+    "indices": "獲物 が 居る(いる)[01]{い} 無ければ{なければ} 猟師 は 存在 為る(する){する} 事が出来る{ことができない}",
+    "vocabIds": [
+      "1205760",
+      "1554450",
+      "1406150"
+    ],
+    "matches": {
+      "1205760": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "えもの"
+        }
+      ],
+      "1406150": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "そんざい"
+        }
+      ],
+      "1554450": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "りょうし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "206214",
+    "original": "猟師は鳥を狙って撃ったが当たらなかった。",
+    "en": [
+      {
+        "id": "43460",
+        "text": "The hunter aimed at the bird, but missed."
+      }
+    ],
+    "indices": "猟師 は 鳥[01] を 狙う{狙って} 撃つ(#1253570)[01]{撃った} が 当たる{当たらなかった}",
+    "vocabIds": [
+      "1448810",
+      "1253570",
+      "1408810",
+      "1478010",
+      "1396590",
+      "1554450",
+      "1430250"
+    ],
+    "matches": {
+      "1253570": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "うったが"
+        }
+      ],
+      "1396590": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "ねらって"
+        }
+      ],
+      "1408810": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "うったが"
+        }
+      ],
+      "1430250": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "とり"
+        }
+      ],
+      "1448810": [
+        {
+          "start": 12,
+          "length": 7,
+          "reading": "あたらなかった"
+        }
+      ],
+      "1478010": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "うったが"
+        }
+      ],
+      "1554450": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "りょうし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "206215",
+    "original": "その猟師は森の中深く入り込み、二度と帰らなかった。",
+    "en": [
+      {
+        "id": "43461",
+        "text": "The hunter went deep into the forest, never to return."
+      }
+    ],
+    "indices": "其の[01]{その} 猟師 は 森[01] の 中(なか) 深い{深く} 入り込む[01]{入り込み}~ 二度と 帰る{帰らなかった}",
+    "vocabIds": [
+      "1221270",
+      "1465460",
+      "2110850",
+      "1554450",
+      "1362640",
+      "1362490",
+      "1423310",
+      "2098290"
+    ],
+    "matches": {
+      "1221270": [
+        {
+          "start": 18,
+          "length": 6,
+          "reading": "かえらなかった"
+        }
+      ],
+      "1362490": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "もり"
+        }
+      ],
+      "1362640": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "ふかく"
+        }
+      ],
+      "1423310": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "なか"
+        }
+      ],
+      "1465460": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "はいりこみ"
+        }
+      ],
+      "1554450": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "りょうし"
+        }
+      ],
+      "2098290": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "なか"
+        }
+      ],
+      "2110850": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "にどと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "229148",
+    "original": "いけすかないボスだけど、仕事の悩みを相談したら案外、窮鳥懐に入れば猟師も殺さず、てなことになるかもね。",
+    "en": [
+      {
+        "id": "66506",
+        "text": "The boss is hard to get along with. But if I try to talk to him about problems I have at work he might have a little heart. Even a hunter can't kill a bird who flies to him for protection."
+      }
+    ],
+    "indices": "いけ好かない{いけすかない} ボス だ けど 仕事[01]{仕事の} 悩み を 相談 為る(する){したら} 案外 窮鳥懐に入れば猟師も殺さず~ てな 事になる{ことになる} かも知れない{かも} ね(#2029080)[01]",
+    "vocabIds": [
+      "1465590",
+      "1299030",
+      "1304970",
+      "1469850",
+      "1401210",
+      "1154820",
+      "1742020",
+      "1554450",
+      "1200480"
+    ],
+    "matches": {
+      "1154820": [
+        {
+          "start": 23,
+          "length": 2,
+          "reading": "あんがい"
+        }
+      ],
+      "1200480": [
+        {
+          "start": 28,
+          "length": 1,
+          "reading": "ふところ"
+        }
+      ],
+      "1299030": [
+        {
+          "start": 36,
+          "length": 3,
+          "reading": "ころさず"
+        }
+      ],
+      "1304970": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "しごと"
+        }
+      ],
+      "1401210": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "そうだん"
+        }
+      ],
+      "1465590": [
+        {
+          "start": 30,
+          "length": 3,
+          "reading": "はいれば"
+        }
+      ],
+      "1469850": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "なやみ"
+        }
+      ],
+      "1554450": [
+        {
+          "start": 33,
+          "length": 2,
+          "reading": "りょうし"
+        }
+      ],
+      "1742020": [
+        {
+          "start": 26,
+          "length": 2,
+          "reading": "きゅうちょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12593335",
+    "original": "父は猟師です。",
+    "en": [
+      {
+        "id": "9935791",
+        "text": "My father's a hunter."
+      }
+    ],
+    "vocabIds": [
+      "1554450",
+      "1497610"
+    ],
+    "matches": {
+      "1497610": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ちち"
+        }
+      ],
+      "1554450": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "りょうし"
+        }
+      ]
+    }
+  }
+]

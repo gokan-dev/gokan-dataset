@@ -1,0 +1,223 @@
+[
+  {
+    "id": "85232",
+    "original": "病人はもう峠を越した。",
+    "en": [
+      {
+        "id": "318481",
+        "text": "The patient is now safe."
+      }
+    ],
+    "indices": "病人 は もう 峠を越す{峠を越した}",
+    "vocabIds": [
+      "1175300",
+      "1490360",
+      "1454420"
+    ],
+    "matches": {
+      "1175300": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "こした"
+        }
+      ],
+      "1454420": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "とうげ"
+        }
+      ],
+      "1490360": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "びょうにん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "152033",
+    "original": "私達が峠にさしかかる頃に雨になった。",
+    "en": [
+      {
+        "id": "262520",
+        "text": "It began to rain as we came near the pass."
+      }
+    ],
+    "indices": "私たち{私達} が 峠~ に 差し掛かる[01]{さしかかる}~ 頃(ころ) に 雨 になる[01]{になった}",
+    "vocabIds": [
+      "1311300",
+      "1454420",
+      "1579080",
+      "2269320",
+      "1171900"
+    ],
+    "matches": {
+      "1171900": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "あめ"
+        }
+      ],
+      "1311300": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "わたしたち"
+        }
+      ],
+      "1454420": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "とうげ"
+        }
+      ],
+      "1579080": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "ころ"
+        }
+      ],
+      "2269320": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "ころ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "197219",
+    "original": "ブームは峠を越した。",
+    "en": [
+      {
+        "id": "34401",
+        "text": "The boom has peaked out."
+      }
+    ],
+    "indices": "ブーム[02] は 峠を越す{峠を越した}~",
+    "vocabIds": [
+      "1175300",
+      "1454420"
+    ],
+    "matches": {
+      "1175300": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "こした"
+        }
+      ],
+      "1454420": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "とうげ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1278405",
+    "original": "患者さんは峠を越しました。",
+    "en": [
+      {
+        "id": "318480",
+        "text": "The patient is now out of danger."
+      },
+      {
+        "id": "1292477",
+        "text": "The patient got over the critical stage."
+      }
+    ],
+    "vocabIds": [
+      "1175300",
+      "1212210",
+      "1454420"
+    ],
+    "matches": {
+      "1175300": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "こしました"
+        }
+      ],
+      "1212210": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かんじゃ"
+        }
+      ],
+      "1454420": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "とうげ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2624253",
+    "original": "猛暑の峠は越えたようだが、日中はまだまだ暑い。",
+    "en": [
+      {
+        "id": "2658355",
+        "text": "We have already passed the peak of the summer heat, but it's still hot during the day."
+      }
+    ],
+    "vocabIds": [
+      "1593070",
+      "1534050",
+      "1464250",
+      "1343460",
+      "1454420"
+    ],
+    "matches": {
+      "1343460": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "あつい"
+        }
+      ],
+      "1454420": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "とうげ"
+        }
+      ],
+      "1464250": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "にちちゅう"
+        }
+      ],
+      "1534050": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "もうしょ"
+        }
+      ],
+      "1593070": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "こえた"
+        }
+      ]
+    }
+  }
+]

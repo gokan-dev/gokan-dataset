@@ -1,0 +1,103 @@
+[
+  {
+    "id": "75853",
+    "original": "田中さん！殿方と共同生活してるのよ！ノーパンは慎みなさい！",
+    "en": [
+      {
+        "id": "327865",
+        "text": "Miss Tanaka! You are living with gentlemen house mates! Please refrain from being pantless!"
+      }
+    ],
+    "indices": "さん 殿方 と 共同生活~ 為る(する){してる} の よ ノーパン は 慎む[02]{慎み} 為さい{なさい}",
+    "vocabIds": [
+      "1598000",
+      "1234930",
+      "1442640"
+    ],
+    "matches": {
+      "1234930": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "きょうどうせいかつ"
+        }
+      ],
+      "1442640": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "とのがた"
+        }
+      ],
+      "1598000": [
+        {
+          "start": 23,
+          "length": 5,
+          "reading": "つつしみなさい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "75854",
+    "original": "殿方が細かいことにこだわるものではありません。",
+    "en": [
+      {
+        "id": "327864",
+        "text": "It doesn't become a gentleman to fuss over trifles."
+      }
+    ],
+    "indices": "殿方 が 細かい 事(こと){こと} に 拘る(こだわる)[01]{こだわる}~ 物(もの){もの} だ{ではありません}",
+    "vocabIds": [
+      "2201370",
+      "1442640"
+    ],
+    "matches": {
+      "1442640": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とのがた"
+        }
+      ],
+      "2201370": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "こまかいこと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "224165",
+    "original": "こちらの殿方にビールを差し上げてください。",
+    "en": [
+      {
+        "id": "61501",
+        "text": "Please bring this gentleman a glass of beer."
+      }
+    ],
+    "indices": "此方(こちら){こちら} の 殿方~ に ビール(#2796520) を 差し上げる[02]{差し上げて} 下さい{ください}",
+    "vocabIds": [
+      "1291270",
+      "1442640"
+    ],
+    "matches": {
+      "1291270": [
+        {
+          "start": 11,
+          "length": 9,
+          "reading": "さしあげてください"
+        }
+      ],
+      "1442640": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "とのがた"
+        }
+      ]
+    }
+  }
+]

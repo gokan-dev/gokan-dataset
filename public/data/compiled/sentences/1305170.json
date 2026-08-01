@@ -1,0 +1,120 @@
+[
+  {
+    "id": "127325",
+    "original": "弾丸は仕切り壁を貫いた。",
+    "en": [
+      {
+        "id": "276764",
+        "text": "The bullet penetrated the partition."
+      }
+    ],
+    "indices": "弾丸 は 仕切り 壁[01] を 貫く{貫いた}",
+    "vocabIds": [
+      "1305170",
+      "1215070",
+      "1419440",
+      "1509290"
+    ],
+    "matches": {
+      "1215070": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "つらぬいた"
+        }
+      ],
+      "1305170": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "しきり"
+        }
+      ],
+      "1419440": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "だんがん"
+        }
+      ],
+      "1509290": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "かべ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "196471",
+    "original": "ホールは仕切りを設ける前は千人収容できた。",
+    "en": [
+      {
+        "id": "33651",
+        "text": "The hall could seat a thousand people before it was partitioned."
+      }
+    ],
+    "indices": "ホール(#1122130) は 仕切り~ を 設ける 前(まえ) は 千 人(にん) 収容[01] 出来る{できた}",
+    "vocabIds": [
+      "1305170",
+      "1386000",
+      "1330880",
+      "1387210",
+      "1392580",
+      "1388740",
+      "1580640"
+    ],
+    "matches": {
+      "1305170": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "しきり"
+        }
+      ],
+      "1330880": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "しゅうよう"
+        }
+      ],
+      "1386000": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "もうける"
+        }
+      ],
+      "1387210": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "まえ"
+        }
+      ],
+      "1388740": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "せん"
+        }
+      ],
+      "1392580": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "まえ"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "にん"
+        }
+      ]
+    }
+  }
+]

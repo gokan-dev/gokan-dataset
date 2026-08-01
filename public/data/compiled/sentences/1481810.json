@@ -1,0 +1,91 @@
+[
+  {
+    "id": "220157",
+    "original": "この販売機は百円硬貨しか使えない。",
+    "en": [
+      {
+        "id": "57476",
+        "text": "This vending machine takes only hundred-yen coins."
+      }
+    ],
+    "indices": "此の{この} 販売機~ は 百 円(えん)[01] 硬貨 しか 使える{使えない}",
+    "vocabIds": [
+      "1607180",
+      "1481810",
+      "2839866",
+      "1280530"
+    ],
+    "matches": {
+      "1280530": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "こうか"
+        }
+      ],
+      "1481810": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "はんばいき"
+        }
+      ],
+      "1607180": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "つかえない"
+        }
+      ],
+      "2839866": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ひゃくえん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "7562255",
+    "original": "販売機の前には長蛇の列ができていた。",
+    "en": [
+      {
+        "id": "10130124",
+        "text": "There was a long queue in front of the vending machine."
+      },
+      {
+        "id": "10163158",
+        "text": "There was a long line in front of the vending machine."
+      }
+    ],
+    "vocabIds": [
+      "1430010",
+      "1481810",
+      "1392590"
+    ],
+    "matches": {
+      "1392590": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "まえに"
+        }
+      ],
+      "1430010": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "ちょうだのれつ"
+        }
+      ],
+      "1481810": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "はんばいき"
+        }
+      ]
+    }
+  }
+]

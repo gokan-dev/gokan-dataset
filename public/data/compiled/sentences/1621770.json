@@ -1,0 +1,902 @@
+[
+  {
+    "id": "83940",
+    "original": "風邪を引いて頭が痛い。",
+    "en": [
+      {
+        "id": "319776",
+        "text": "I've caught a cold and my head hurts."
+      }
+    ],
+    "indices": "風邪をひく{風邪を引いて} 頭(あたま) が 痛い[01]",
+    "vocabIds": [
+      "1621770",
+      "1169250",
+      "1583720"
+    ],
+    "matches": {
+      "1169250": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "ひいて"
+        }
+      ],
+      "1583720": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かぜ"
+        }
+      ],
+      "1621770": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "あたまがいたい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "83980",
+    "original": "風邪で頭が痛い。",
+    "en": [
+      {
+        "id": "319737",
+        "text": "My head aches with a cold."
+      }
+    ],
+    "indices": "風邪 で(#2028980) 頭(あたま) が 痛い[01]",
+    "vocabIds": [
+      "1621770",
+      "1583720"
+    ],
+    "matches": {
+      "1583720": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かぜ"
+        }
+      ],
+      "1621770": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "あたまがいたい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "87715",
+    "original": "彼女は頭が痛いようだ。",
+    "en": [
+      {
+        "id": "315993",
+        "text": "She appears to have a headache."
+      }
+    ],
+    "indices": "彼女[01] は 頭が痛い 様だ{ようだ}",
+    "vocabIds": [
+      "1621770",
+      "1483150"
+    ],
+    "matches": {
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1621770": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "あたまがいたい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "123864",
+    "original": "頭が痛い時は、ちょっとした音でも彼女をいらいらさせる。",
+    "en": [
+      {
+        "id": "280131",
+        "text": "When she has a headache, the slightest noise irritates her."
+      }
+    ],
+    "indices": "頭が痛い 時(とき) は 一寸した{ちょっとした} 音(おと)[01] でも 彼女 を いらいらさせる",
+    "vocabIds": [
+      "1621770",
+      "1483150",
+      "1315840",
+      "1576900"
+    ],
+    "matches": {
+      "1315840": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "とき"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1576900": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "おと"
+        }
+      ],
+      "1621770": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "あたまがいたい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "123865",
+    "original": "頭が痛いんです。頭痛薬がありますか。",
+    "en": [
+      {
+        "id": "280130",
+        "text": "My head hurts. Have you got any headache tablets?"
+      }
+    ],
+    "indices": "頭が痛い のです{んです} 頭痛 薬(くすり)[01] が[01] 有る{あります} か",
+    "vocabIds": [
+      "1621770",
+      "2865225"
+    ],
+    "matches": {
+      "1621770": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "あたまがいたい"
+        }
+      ],
+      "2865225": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "ずつうやく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "123866",
+    "original": "頭が痛いんです。",
+    "en": [
+      {
+        "id": "1712",
+        "text": "I have a headache."
+      },
+      {
+        "id": "280125",
+        "text": "My head aches."
+      },
+      {
+        "id": "456425",
+        "text": "My head hurts."
+      },
+      {
+        "id": "497934",
+        "text": "I've got a headache."
+      }
+    ],
+    "indices": "頭が痛い のです{んです}",
+    "vocabIds": [
+      "1621770"
+    ],
+    "matches": {
+      "1621770": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "あたまがいたい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "123867",
+    "original": "頭が痛いのも当たり前だよ。昨夜あんなに飲んだんだからね。",
+    "en": [
+      {
+        "id": "280128",
+        "text": "No wonder you've got a headache, the amount you drank last night."
+      }
+    ],
+    "indices": "頭が痛い の も 当たり前 だ よ 昨夜(ゆうべ)[02] あんなに 飲む[01]{飲んだ} ん[04] だから ね(#2029080)[01]",
+    "vocabIds": [
+      "1621770",
+      "1448800",
+      "1169870",
+      "1542640"
+    ],
+    "matches": {
+      "1169870": [
+        {
+          "start": 19,
+          "length": 3,
+          "reading": "のんだ"
+        }
+      ],
+      "1448800": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "あたりまえ"
+        }
+      ],
+      "1542640": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "さくや"
+        }
+      ],
+      "1621770": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "あたまがいたい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "123868",
+    "original": "頭が痛いな。",
+    "en": [
+      {
+        "id": "1712",
+        "text": "I have a headache."
+      },
+      {
+        "id": "456425",
+        "text": "My head hurts."
+      },
+      {
+        "id": "497934",
+        "text": "I've got a headache."
+      },
+      {
+        "id": "280125",
+        "text": "My head aches."
+      }
+    ],
+    "indices": "頭が痛い な",
+    "vocabIds": [
+      "1621770"
+    ],
+    "matches": {
+      "1621770": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "あたまがいたい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "123869",
+    "original": "頭が痛いときは鎮痛剤を飲まずにはいられない。",
+    "en": [
+      {
+        "id": "259699",
+        "text": "I can't help taking painkillers when I have a headache."
+      }
+    ],
+    "indices": "頭が痛い 時(とき){とき} は 鎮痛剤 を 飲む[01]{飲ま} ずには居られない{ずにはいられない}",
+    "vocabIds": [
+      "1621770",
+      "1432140",
+      "1169870"
+    ],
+    "matches": {
+      "1169870": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "のまず"
+        }
+      ],
+      "1432140": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "ちんつうざい"
+        }
+      ],
+      "1621770": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "あたまがいたい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "123871",
+    "original": "頭が痛い。",
+    "en": [
+      {
+        "id": "1712",
+        "text": "I have a headache."
+      },
+      {
+        "id": "280125",
+        "text": "My head aches."
+      },
+      {
+        "id": "456425",
+        "text": "My head hurts."
+      },
+      {
+        "id": "497934",
+        "text": "I've got a headache."
+      }
+    ],
+    "indices": "頭(あたま) が 痛い[01]",
+    "vocabIds": [
+      "1621770"
+    ],
+    "matches": {
+      "1621770": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "あたまがいたい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "140078",
+    "original": "息子のことを考えると頭が痛い。",
+    "en": [
+      {
+        "id": "274404",
+        "text": "My son is my biggest headache."
+      }
+    ],
+    "indices": "息子[01] の 事(こと){こと} を 考える と 頭が痛い~",
+    "vocabIds": [
+      "1621770",
+      "1281020",
+      "1404390"
+    ],
+    "matches": {
+      "1281020": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "かんがえると"
+        }
+      ],
+      "1404390": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "むすこ"
+        }
+      ],
+      "1621770": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "あたまがいたい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "199849",
+    "original": "トムは頭が痛いと私たちに言った。",
+    "en": [
+      {
+        "id": "37051",
+        "text": "Tom told us that he had a headache."
+      }
+    ],
+    "indices": "は 頭が痛い と 私たち に 言う{言った}",
+    "vocabIds": [
+      "1621770",
+      "1311300",
+      "1587040"
+    ],
+    "matches": {
+      "1311300": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1587040": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "いった"
+        }
+      ],
+      "1621770": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "あたまがいたい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "206494",
+    "original": "その問題には頭が痛い。",
+    "en": [
+      {
+        "id": "43742",
+        "text": "That gives me a headache!"
+      }
+    ],
+    "indices": "其の[01]{その} 問題 には 頭(あたま) が 痛い[01]",
+    "vocabIds": [
+      "1621770",
+      "1536010"
+    ],
+    "matches": {
+      "1536010": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "もんだい"
+        }
+      ],
+      "1621770": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "あたまがいたい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "211609",
+    "original": "その患者はいつも頭が痛いと訴えている。",
+    "en": [
+      {
+        "id": "48886",
+        "text": "The patient is always complaining of a headache."
+      }
+    ],
+    "indices": "其の[01]{その} 患者 は 何時も[01]{いつも} 頭が痛い と 訴える[03]{訴えている}~",
+    "vocabIds": [
+      "1397720",
+      "1621770",
+      "1212210"
+    ],
+    "matches": {
+      "1212210": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "かんじゃ"
+        }
+      ],
+      "1397720": [
+        {
+          "start": 13,
+          "length": 5,
+          "reading": "うったえている"
+        }
+      ],
+      "1621770": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "あたまがいたい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "228516",
+    "original": "いま頭が痛い。",
+    "en": [
+      {
+        "id": "65874",
+        "text": "I have a headache now."
+      }
+    ],
+    "indices": "今(いま){いま} 頭が痛い",
+    "vocabIds": [
+      "1621770"
+    ],
+    "matches": {
+      "1621770": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "あたまがいたい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "230978",
+    "original": "あの子には頭が痛い。",
+    "en": [
+      {
+        "id": "68344",
+        "text": "That child is a headache."
+      }
+    ],
+    "indices": "彼の(あの){あの} 子(こ)[01] には 頭が痛い",
+    "vocabIds": [
+      "1621770",
+      "2707760"
+    ],
+    "matches": {
+      "1621770": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "あたまがいたい"
+        }
+      ],
+      "2707760": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あのこ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "842643",
+    "original": "頭が痛いです。",
+    "en": [
+      {
+        "id": "1712",
+        "text": "I have a headache."
+      },
+      {
+        "id": "456425",
+        "text": "My head hurts."
+      },
+      {
+        "id": "280125",
+        "text": "My head aches."
+      }
+    ],
+    "vocabIds": [
+      "1621770"
+    ],
+    "matches": {
+      "1621770": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "あたまがいたい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1866491",
+    "original": "彼は頭が痛い。",
+    "en": [
+      {
+        "id": "1079070",
+        "text": "He has a headache."
+      }
+    ],
+    "vocabIds": [
+      "1621770",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1621770": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "あたまがいたい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "6819241",
+    "original": "泣きすぎて目と頭が痛い。",
+    "en": [
+      {
+        "id": "7023630",
+        "text": "My eyes and head hurt from crying too much."
+      },
+      {
+        "id": "12748905",
+        "text": "I cried so much that eyes and head hurt."
+      }
+    ],
+    "vocabIds": [
+      "1229840",
+      "1621770",
+      "1604890"
+    ],
+    "matches": {
+      "1229840": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "なきすぎて"
+        }
+      ],
+      "1604890": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "め"
+        }
+      ],
+      "1621770": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "あたまがいたい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8822009",
+    "original": "トムって、頭が痛いんじゃないかな。",
+    "en": [
+      {
+        "id": "8821962",
+        "text": "I think that Tom has a headache."
+      },
+      {
+        "id": "8823003",
+        "text": "I think Tom has a headache."
+      }
+    ],
+    "vocabIds": [
+      "1621770"
+    ],
+    "matches": {
+      "1621770": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "あたまがいたい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9777117",
+    "original": "今日はちょっと頭が痛いの。",
+    "en": [
+      {
+        "id": "242899",
+        "text": "I have a slight headache today."
+      }
+    ],
+    "vocabIds": [
+      "1621770",
+      "1289400"
+    ],
+    "matches": {
+      "1289400": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きょうは"
+        }
+      ],
+      "1621770": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "あたまがいたい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9779183",
+    "original": "あの生徒たちのことを考えると、頭が痛いよ。",
+    "en": [
+      {
+        "id": "398524",
+        "text": "When I think about those students, it gives me a headache."
+      }
+    ],
+    "vocabIds": [
+      "1621770",
+      "1281020",
+      "1379380"
+    ],
+    "matches": {
+      "1281020": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "かんがえると"
+        }
+      ],
+      "1379380": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "せいと"
+        }
+      ],
+      "1621770": [
+        {
+          "start": 15,
+          "length": 4,
+          "reading": "あたまがいたい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9979517",
+    "original": "頭が痛いの？",
+    "en": [
+      {
+        "id": "280173",
+        "text": "Do you have a headache?"
+      }
+    ],
+    "vocabIds": [
+      "1621770"
+    ],
+    "matches": {
+      "1621770": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "あたまがいたい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10911423",
+    "original": "頭が痛いですか。",
+    "en": [
+      {
+        "id": "958903",
+        "text": "Does your head hurt?"
+      },
+      {
+        "id": "280173",
+        "text": "Do you have a headache?"
+      }
+    ],
+    "vocabIds": [
+      "1621770"
+    ],
+    "matches": {
+      "1621770": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "あたまがいたい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11181165",
+    "original": "今はちょっと頭が痛いです。",
+    "en": [
+      {
+        "id": "257502",
+        "text": "I have a slight headache now."
+      }
+    ],
+    "vocabIds": [
+      "1621770",
+      "1288850"
+    ],
+    "matches": {
+      "1288850": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "いま"
+        }
+      ],
+      "1621770": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "あたまがいたい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11013934",
+    "original": "頭が痛いので、今晩は早く寝ます。",
+    "en": [
+      {
+        "id": "12005397",
+        "text": "I have a headache, so I'm going to bed early tonight."
+      }
+    ],
+    "vocabIds": [
+      "1621770",
+      "1289480",
+      "1360010",
+      "1404975"
+    ],
+    "matches": {
+      "1289480": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "こんばんは"
+        }
+      ],
+      "1360010": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "ねます"
+        }
+      ],
+      "1404975": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "はやく"
+        }
+      ],
+      "1621770": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "あたまがいたい"
+        }
+      ]
+    }
+  }
+]

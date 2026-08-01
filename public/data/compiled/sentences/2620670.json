@@ -1,0 +1,96 @@
+[
+  {
+    "id": "141958",
+    "original": "雪道で急ハンドルを切っちゃだめだよ。スリップしちゃうから。",
+    "en": [
+      {
+        "id": "272612",
+        "text": "If you whip the steering wheel around like that on a snowy road, the car is going to go into a slide."
+      }
+    ],
+    "indices": "雪道~ で(#2028980) 急(きゅう)[03] ハンドル[02] を 切る[13]{切っちゃ} 駄目{だめ} だ よ スリップ[01]~ 為る(する){し} じゃう{ちゃう} から",
+    "vocabIds": [
+      "2620670",
+      "1384830",
+      "1386680"
+    ],
+    "matches": {
+      "1384830": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "きっちゃ"
+        }
+      ],
+      "1386680": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ゆきどう"
+        }
+      ],
+      "2620670": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "きゅうはんどる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2308397",
+    "original": "彼は左に急ハンドルを切った。",
+    "en": [
+      {
+        "id": "564573",
+        "text": "He made a sharp turn to the left."
+      }
+    ],
+    "indices": "彼(かれ) は 左(ひだり)[01] に 急ハンドル を 切る{切った}",
+    "vocabIds": [
+      "2620670",
+      "1384830",
+      "1000420",
+      "1483070",
+      "1290800"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1290800": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ひだり"
+        }
+      ],
+      "1384830": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "きった"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "2620670": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "きゅうはんどる"
+        }
+      ]
+    }
+  }
+]

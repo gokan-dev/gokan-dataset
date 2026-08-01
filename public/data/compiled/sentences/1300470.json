@@ -1,0 +1,174 @@
+[
+  {
+    "id": "106703",
+    "original": "彼は三才のとき東京に来た。",
+    "en": [
+      {
+        "id": "288536",
+        "text": "He came to Tokyo at the age of three."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 三才 の 時(とき){とき} 東京 に 来る(くる){来た}",
+    "vocabIds": [
+      "1300470",
+      "1447690",
+      "1547720",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1300470": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "さんさい"
+        }
+      ],
+      "1447690": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "とうきょう"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1547720": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "きた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "152179",
+    "original": "私より彼のほうが三才年上です。",
+    "en": [
+      {
+        "id": "262372",
+        "text": "He is my senior by three years."
+      },
+      {
+        "id": "392148",
+        "text": "He's three years older than me."
+      },
+      {
+        "id": "392149",
+        "text": "He's three years older than I am."
+      }
+    ],
+    "indices": "私(わたし)[01] より 彼(かれ) の 方(ほう){ほう} が 三才~ 年上 です",
+    "vocabIds": [
+      "1000420",
+      "1300470",
+      "1468870",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かれの"
+        }
+      ],
+      "1300470": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "さんさい"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1468870": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "としうえ"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2355204",
+    "original": "てめえ、三才下のくせに口を出すんじゃねえよ。",
+    "en": [
+      {
+        "id": "10568413",
+        "text": "You're 3 years younger than me, so don't mess with me."
+      }
+    ],
+    "vocabIds": [
+      "1275760",
+      "1300470",
+      "1184140",
+      "2867124"
+    ],
+    "matches": {
+      "1184140": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "か"
+        }
+      ],
+      "1275760": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "くちをだす"
+        }
+      ],
+      "1300470": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "さんさい"
+        }
+      ],
+      "2867124": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "か"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,117 @@
+[
+  {
+    "id": "86243",
+    "original": "彼女は涙ながらに友達と別れた。",
+    "en": [
+      {
+        "id": "317468",
+        "text": "She parted from her friend in tears."
+      }
+    ],
+    "indices": "彼女[01] は 涙ながら~ に 友達 と 別れる{別れた}",
+    "vocabIds": [
+      "2128050",
+      "1606590",
+      "1483150",
+      "1540170"
+    ],
+    "matches": {
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1540170": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "ともだち"
+        }
+      ],
+      "1606590": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "わかれた"
+        }
+      ],
+      "2128050": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "なみだながら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3402686",
+    "original": "彼女は涙ながらに話した。",
+    "en": [
+      {
+        "id": "317470",
+        "text": "She told her story in tears."
+      }
+    ],
+    "vocabIds": [
+      "2128050",
+      "1562350",
+      "1483150"
+    ],
+    "matches": {
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1562350": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "はなした"
+        }
+      ],
+      "2128050": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "なみだながら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10917244",
+    "original": "トムは涙ながらにテレビを見ていた。",
+    "en": [
+      {
+        "id": "8351335",
+        "text": "Tom was watching TV with tears in his eyes."
+      }
+    ],
+    "vocabIds": [
+      "2128050",
+      "1259290"
+    ],
+    "matches": {
+      "1259290": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "みていた"
+        }
+      ],
+      "2128050": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "なみだながら"
+        }
+      ]
+    }
+  }
+]

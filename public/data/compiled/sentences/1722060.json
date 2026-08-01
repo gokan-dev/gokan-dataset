@@ -1,0 +1,141 @@
+[
+  {
+    "id": "188381",
+    "original": "俺の目は節穴ではないぞ。",
+    "en": [
+      {
+        "id": "25523",
+        "text": "You cannot pull the wool over my eyes."
+      },
+      {
+        "id": "1422053",
+        "text": "You can't pull the wool over my eyes."
+      },
+      {
+        "id": "2549704",
+        "text": "I'm not blind."
+      }
+    ],
+    "indices": "俺(おれ) の 目(め)[01] は 節穴[02]~ では無い{ではない} ぞ",
+    "vocabIds": [
+      "1722060",
+      "1266890",
+      "1576870",
+      "1604890"
+    ],
+    "matches": {
+      "1266890": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "おれ"
+        }
+      ],
+      "1576870": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "おれ"
+        }
+      ],
+      "1604890": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "め"
+        }
+      ],
+      "1722060": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ふしあな"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1315770",
+    "original": "おまえの目は節穴か？",
+    "en": [
+      {
+        "id": "64887",
+        "text": "What are you eyeing?"
+      }
+    ],
+    "vocabIds": [
+      "1722060",
+      "1604890"
+    ],
+    "matches": {
+      "1604890": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "め"
+        }
+      ],
+      "1722060": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ふしあな"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10661814",
+    "original": "私の目は節穴じゃないわよ。",
+    "en": [
+      {
+        "id": "1422053",
+        "text": "You can't pull the wool over my eyes."
+      }
+    ],
+    "vocabIds": [
+      "1722060",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1604890"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1604890": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "め"
+        }
+      ],
+      "1722060": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ふしあな"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  }
+]

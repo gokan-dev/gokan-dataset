@@ -1,0 +1,127 @@
+{
+  "id": "1255780",
+  "writtenForm": {
+    "kanji": "月日",
+    "alternatives": [],
+    "containedKanji": [
+      "月",
+      "日"
+    ]
+  },
+  "reading": {
+    "primary": "つきひ",
+    "alternatives": [
+      "がっぴ"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 12406
+  },
+  "jlptLevel": 2,
+  "progression": {
+    "kklcStep": 23
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "time",
+        "years",
+        "days",
+        "(one's) life"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "the Moon and the Sun"
+      ],
+      "related": {
+        "compounds": [
+          "日月"
+        ]
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "month and day (of the year)",
+        "(the) date"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "がっぴ"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1255780",
+      "isBase": true,
+      "originalPrimaryReading": "つきひ",
+      "originalGlosses": [
+        "time",
+        "years",
+        "days"
+      ]
+    },
+    {
+      "id": "1609580",
+      "isBase": false,
+      "originalPrimaryReading": "がっぴ",
+      "originalGlosses": [
+        "month and day (of the year)",
+        "(the) date"
+      ]
+    }
+  ],
+  "components": [
+    "1255430",
+    "1463770"
+  ],
+  "parents": [
+    "1379410",
+    "1468550",
+    "1940540",
+    "1580090"
+  ]
+}

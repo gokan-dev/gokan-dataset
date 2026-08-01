@@ -1,0 +1,104 @@
+[
+  {
+    "id": "124152",
+    "original": "東洋ホテルは空港からホテルまで、宿泊客の無料送迎をしています。",
+    "en": [
+      {
+        "id": "279843",
+        "text": "The Toyo Hotel has a free transportation service from the airport to the hotel for their guests."
+      }
+    ],
+    "indices": "東洋 ホテル は 空港 から ホテル 迄{まで} 宿泊 客[01] の 無料 送迎 を 為る(する){しています}",
+    "vocabIds": [
+      "2406810",
+      "1448230",
+      "1245570",
+      "1531040",
+      "1402770"
+    ],
+    "matches": {
+      "1245570": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "くうこう"
+        }
+      ],
+      "1402770": [
+        {
+          "start": 22,
+          "length": 2,
+          "reading": "そうげい"
+        }
+      ],
+      "1448230": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とうよう"
+        }
+      ],
+      "1531040": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "むりょう"
+        }
+      ],
+      "2406810": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "しゅくはくきゃく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "212559",
+    "original": "そのモーテルは４００人もの宿泊客を泊められる。",
+    "en": [
+      {
+        "id": "49843",
+        "text": "The motel can accommodate as many as 400 guests."
+      }
+    ],
+    "indices": "其の[01]{その} モーテル[01] は 人(にん)[01] も の 宿泊 客[01] を 泊める{泊められる}",
+    "vocabIds": [
+      "1767090",
+      "2406810",
+      "1474860",
+      "1580640"
+    ],
+    "matches": {
+      "1474860": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "とめ"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "にん"
+        }
+      ],
+      "1767090": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "よんぜろぜろ"
+        }
+      ],
+      "2406810": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "しゅくはくきゃく"
+        }
+      ]
+    }
+  }
+]

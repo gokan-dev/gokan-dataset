@@ -1,0 +1,100 @@
+{
+  "id": "1599350",
+  "writtenForm": {
+    "kanji": "貪欲",
+    "alternatives": [
+      "貪慾"
+    ],
+    "containedKanji": [
+      "貪",
+      "欲"
+    ]
+  },
+  "reading": {
+    "primary": "どんよく",
+    "alternatives": [
+      "とんよく",
+      "たんよく"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 12846,
+    "kanaRank": 78240
+  },
+  "progression": {
+    "kklcStep": 1159
+  },
+  "senses": [
+    {
+      "pos": [
+        "adj-na",
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "greedy",
+        "avaricious",
+        "covetous"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "raga (desire)"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "とんよく"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": true
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1599350",
+      "isBase": true,
+      "originalPrimaryReading": "どんよく",
+      "originalGlosses": [
+        "greedy",
+        "avaricious",
+        "covetous"
+      ]
+    },
+    {
+      "id": "2855863",
+      "isBase": false,
+      "originalPrimaryReading": "とんよく",
+      "originalGlosses": [
+        "raga (desire)"
+      ]
+    }
+  ],
+  "components": [
+    "1547320"
+  ]
+}

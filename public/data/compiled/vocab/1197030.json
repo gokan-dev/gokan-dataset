@@ -1,0 +1,125 @@
+{
+  "id": "1197030",
+  "writtenForm": {
+    "kanji": "牙",
+    "alternatives": [],
+    "containedKanji": [
+      "牙"
+    ]
+  },
+  "reading": {
+    "primary": "きば",
+    "alternatives": [
+      "き",
+      "キバ",
+      "げ"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 3838,
+    "kanaRank": 51589
+  },
+  "progression": {
+    "kklcStep": 1816
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "tusk",
+        "fang"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": true,
+        "rawTags": [
+          "rare"
+        ]
+      },
+      "glosses": [
+        "tooth"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "げ"
+      ]
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": true,
+        "rawTags": [
+          "rare"
+        ]
+      },
+      "glosses": [
+        "ivory"
+      ],
+      "related": {
+        "compounds": [
+          "象牙"
+        ]
+      },
+      "appliesToReadings": [
+        "げ"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": true
+  },
+  "isCommon": false,
+  "mergedVocabs": [
+    {
+      "id": "1197030",
+      "isBase": true,
+      "originalPrimaryReading": "きば",
+      "originalGlosses": [
+        "tusk",
+        "fang"
+      ]
+    },
+    {
+      "id": "2842947",
+      "isBase": false,
+      "originalPrimaryReading": "げ",
+      "originalGlosses": [
+        "tooth"
+      ]
+    }
+  ],
+  "parents": [
+    "1351840",
+    "1197040",
+    "2416210"
+  ]
+}

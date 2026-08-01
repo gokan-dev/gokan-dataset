@@ -1,0 +1,49 @@
+[
+  {
+    "id": "189366",
+    "original": "雲の切れ間から太陽が見えます。",
+    "en": [
+      {
+        "id": "26517",
+        "text": "You can see the sun peeking through the clouds."
+      }
+    ],
+    "indices": "雲 の 切れ間~ から 太陽 が 見える(みえる){見えます}",
+    "vocabIds": [
+      "1259140",
+      "1384880",
+      "1408370",
+      "1173100"
+    ],
+    "matches": {
+      "1173100": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "くも"
+        }
+      ],
+      "1259140": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "みえます"
+        }
+      ],
+      "1384880": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "きれま"
+        }
+      ],
+      "1408370": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "たいよう"
+        }
+      ]
+    }
+  }
+]

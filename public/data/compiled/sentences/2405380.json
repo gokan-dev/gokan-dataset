@@ -1,0 +1,174 @@
+[
+  {
+    "id": "213308",
+    "original": "そのお金は学校図書館の本を購入するための特別な基金に入れられた。",
+    "en": [
+      {
+        "id": "50594",
+        "text": "The money was put into a special fund to buy books for the school library."
+      }
+    ],
+    "indices": "其の[01]{その} お金 は 学校図書館 の 本(ほん)[01] を 購入 為る(する){する} 為(ため){ため} の 特別{特別な} 基金 に 入れる[01]{入れられた}",
+    "vocabIds": [
+      "2405380",
+      "1465610",
+      "1001820",
+      "1282440",
+      "1455280",
+      "1219020",
+      "1260670",
+      "1522150"
+    ],
+    "matches": {
+      "1001820": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "おかね"
+        }
+      ],
+      "1219020": [
+        {
+          "start": 23,
+          "length": 2,
+          "reading": "ききん"
+        }
+      ],
+      "1260670": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "ほん"
+        }
+      ],
+      "1282440": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "こうにゅう"
+        }
+      ],
+      "1455280": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "とくべつ"
+        }
+      ],
+      "1465610": [
+        {
+          "start": 26,
+          "length": 2,
+          "reading": "いれ"
+        }
+      ],
+      "1522150": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "ほん"
+        }
+      ],
+      "2405380": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "がっこうとしょかん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "219658",
+    "original": "この本は学校図書館のものだ。",
+    "en": [
+      {
+        "id": "372424",
+        "text": "This book belongs to the school library."
+      }
+    ],
+    "indices": "此の{この} 本(ほん)[01] は 学校図書館~ の 物(もの)[01]{もの} だ",
+    "vocabIds": [
+      "2405380",
+      "1260670",
+      "1522150"
+    ],
+    "matches": {
+      "1260670": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ほん"
+        }
+      ],
+      "1522150": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ほん"
+        }
+      ],
+      "2405380": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "がっこうとしょかん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "774520",
+    "original": "これは全国学校図書館協議会選定図書です。",
+    "en": [
+      {
+        "id": "10121933",
+        "text": "This book was selected by the National School Library Association."
+      }
+    ],
+    "vocabIds": [
+      "2405380",
+      "1235590",
+      "1581180",
+      "1392360",
+      "1370410"
+    ],
+    "matches": {
+      "1235590": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "きょうぎかい"
+        }
+      ],
+      "1370410": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "としょ"
+        }
+      ],
+      "1392360": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "せんてい"
+        }
+      ],
+      "1581180": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ぜんこく"
+        }
+      ],
+      "2405380": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "がっこうとしょかん"
+        }
+      ]
+    }
+  }
+]

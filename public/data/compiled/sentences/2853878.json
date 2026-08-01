@@ -1,0 +1,125 @@
+[
+  {
+    "id": "122209",
+    "original": "日本大使館はどこにありますか。",
+    "en": [
+      {
+        "id": "281794",
+        "text": "Where is the Japanese Embassy?"
+      }
+    ],
+    "indices": "日本 大使館 は 何処{どこ} に 有る{あります} か",
+    "vocabIds": [
+      "2853878"
+    ],
+    "matches": {
+      "2853878": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "にっぽんたいしかん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1019396",
+    "original": "在留資格認定証明書を貰って、ロンドンの日本大使館に来てください。",
+    "en": [
+      {
+        "id": "1019397",
+        "text": "Upon receiving your Certificate of Eligibility, please come to the Japanese Embassy in London."
+      }
+    ],
+    "vocabIds": [
+      "2077700",
+      "1547720",
+      "2853878",
+      "1535910"
+    ],
+    "matches": {
+      "1535910": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "もらって"
+        }
+      ],
+      "1547720": [
+        {
+          "start": 25,
+          "length": 6,
+          "reading": "きてください"
+        }
+      ],
+      "2077700": [
+        {
+          "start": 0,
+          "length": 9,
+          "reading": "ざいりゅうしかくにんていしょうめいしょ"
+        }
+      ],
+      "2853878": [
+        {
+          "start": 19,
+          "length": 5,
+          "reading": "にっぽんたいしかん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2209024",
+    "original": "日本大使館は日本人に対し、注意するよう警告している。",
+    "en": [
+      {
+        "id": "1847005",
+        "text": "The Japanese embassy has warned Japanese citizens to be careful."
+      }
+    ],
+    "vocabIds": [
+      "2853878",
+      "1464700",
+      "2567590",
+      "1426530",
+      "1252360"
+    ],
+    "matches": {
+      "1252360": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "けいこく"
+        }
+      ],
+      "1426530": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "ちゅうい"
+        }
+      ],
+      "1464700": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "にっぽんじん"
+        }
+      ],
+      "2567590": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "にたいし"
+        }
+      ],
+      "2853878": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "にっぽんたいしかん"
+        }
+      ]
+    }
+  }
+]

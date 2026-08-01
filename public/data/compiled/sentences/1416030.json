@@ -1,0 +1,200 @@
+[
+  {
+    "id": "81254",
+    "original": "毎年、浜松で凧揚げ大会が開かれる。",
+    "en": [
+      {
+        "id": "322461",
+        "text": "Each year Hamamatsu has a kite festival."
+      }
+    ],
+    "indices": "毎年 で(#2028980) 凧上げ{凧揚げ} 大会 が 開く(ひらく){開かれる}",
+    "vocabIds": [
+      "2764520",
+      "1416030",
+      "1584360",
+      "2164740",
+      "1413180"
+    ],
+    "matches": {
+      "1413180": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "たいかい"
+        }
+      ],
+      "1416030": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "たこあげ"
+        }
+      ],
+      "1584360": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "まいとし"
+        }
+      ],
+      "2164740": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "はままつ"
+        }
+      ],
+      "2764520": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "ひらかれる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "102326",
+    "original": "彼は凧上げがうまい。",
+    "en": [
+      {
+        "id": "301368",
+        "text": "He's good at flying kites."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 凧上げ が 上手い[01]{うまい}",
+    "vocabIds": [
+      "1416030",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1416030": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "たこあげ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "137161",
+    "original": "凧揚げをしよう。",
+    "en": [
+      {
+        "id": "276074",
+        "text": "Let's fly kites."
+      },
+      {
+        "id": "449022",
+        "text": "Let's fly a kite."
+      }
+    ],
+    "indices": "凧揚げ を 為る(する){しよう}",
+    "vocabIds": [
+      "1416030"
+    ],
+    "matches": {
+      "1416030": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "たこあげ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "168418",
+    "original": "子供達は凧上げをしていた。",
+    "en": [
+      {
+        "id": "246074",
+        "text": "The children were flying kites."
+      }
+    ],
+    "indices": "子供たち{子供達} は 凧上げ~ を 為る(する){していた}",
+    "vocabIds": [
+      "1307870",
+      "1416030"
+    ],
+    "matches": {
+      "1307870": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "こどもたち"
+        }
+      ],
+      "1416030": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "たこあげ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10126634",
+    "original": "凧揚げは危険を伴う可能性があります。",
+    "en": [
+      {
+        "id": "276073",
+        "text": "Flying kites can be dangerous."
+      }
+    ],
+    "vocabIds": [
+      "1416030",
+      "1191080",
+      "1218560",
+      "1478370"
+    ],
+    "matches": {
+      "1191080": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "かのうせい"
+        }
+      ],
+      "1218560": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "きけん"
+        }
+      ],
+      "1416030": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "たこあげ"
+        }
+      ],
+      "1478370": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ともなう"
+        }
+      ]
+    }
+  }
+]

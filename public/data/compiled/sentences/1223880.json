@@ -1,0 +1,121 @@
+[
+  {
+    "id": "433764",
+    "original": "ゲームカセットの金属端子が汚れていると、ゲーム機にカセットを差し込んだ時、ゲームが起動しにくくなります。",
+    "en": [
+      {
+        "id": "509214",
+        "text": "If the metal plate terminal of the game cassette is dirty it may be difficult for the game to start when the cassette is inserted into the game console."
+      }
+    ],
+    "vocabIds": [
+      "1179005",
+      "1291170",
+      "2580340",
+      "2426960",
+      "1223880",
+      "1315840"
+    ],
+    "matches": {
+      "1179005": [
+        {
+          "start": 13,
+          "length": 6,
+          "reading": "よごれていると"
+        }
+      ],
+      "1223880": [
+        {
+          "start": 41,
+          "length": 2,
+          "reading": "きどう"
+        }
+      ],
+      "1291170": [
+        {
+          "start": 30,
+          "length": 5,
+          "reading": "さしこんだ"
+        }
+      ],
+      "1315840": [
+        {
+          "start": 35,
+          "length": 1,
+          "reading": "とき"
+        }
+      ],
+      "2426960": [
+        {
+          "start": 20,
+          "length": 4,
+          "reading": "げーむき"
+        }
+      ],
+      "2580340": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "きんぞくたんし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2869687",
+    "original": "パソコンが起動しなくなりました。",
+    "en": [
+      {
+        "id": "4643092",
+        "text": "My computer won't boot up."
+      },
+      {
+        "id": "4643095",
+        "text": "My computer no longer boots up."
+      },
+      {
+        "id": "2870160",
+        "text": "My computer doesn't boot up anymore."
+      },
+      {
+        "id": "2870156",
+        "text": "My computer won't start up anymore."
+      }
+    ],
+    "indices": "パソコン が 起動~ 為る(する)[01]{しなく} 成る[01]{なりました}",
+    "vocabIds": [
+      "1223880"
+    ],
+    "matches": {
+      "1223880": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "きどう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9077353",
+    "original": "パソコンが起動しない。どうすればいいんだ？",
+    "en": [
+      {
+        "id": "38613",
+        "text": "I can't start up my computer. What am I supposed to do?"
+      }
+    ],
+    "vocabIds": [
+      "1223880"
+    ],
+    "matches": {
+      "1223880": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "きどう"
+        }
+      ]
+    }
+  }
+]

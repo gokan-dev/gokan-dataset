@@ -1,0 +1,115 @@
+[
+  {
+    "id": "193176",
+    "original": "ものは試しだよ。",
+    "en": [
+      {
+        "id": "30341",
+        "text": "You'll never know unless you try."
+      }
+    ],
+    "indices": "物(もの){もの} は 試し だ よ[01]",
+    "vocabIds": [
+      "1312250"
+    ],
+    "matches": {
+      "1312250": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ためし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10075145",
+    "original": "お試しください。",
+    "en": [
+      {
+        "id": "27455",
+        "text": "Please try one."
+      }
+    ],
+    "vocabIds": [
+      "1312250"
+    ],
+    "matches": {
+      "1312250": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "ためし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "13248028",
+    "original": "しばらくしてから、もう一度お試しください。",
+    "en": [
+      {
+        "id": "3823143",
+        "text": "Please try again later."
+      }
+    ],
+    "vocabIds": [
+      "2005860",
+      "1312250"
+    ],
+    "matches": {
+      "1312250": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "ためし"
+        }
+      ],
+      "2005860": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "もういちど"
+        }
+      ]
+    }
+  },
+  {
+    "id": "13248024",
+    "original": "後でもう一度お試しください。",
+    "en": [
+      {
+        "id": "3823143",
+        "text": "Please try again later."
+      }
+    ],
+    "vocabIds": [
+      "2005860",
+      "1269350",
+      "1312250"
+    ],
+    "matches": {
+      "1269350": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あとで"
+        }
+      ],
+      "1312250": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ためし"
+        }
+      ],
+      "2005860": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "もういちど"
+        }
+      ]
+    }
+  }
+]

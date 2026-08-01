@@ -1,0 +1,267 @@
+[
+  {
+    "id": "111153",
+    "original": "彼はひどい風邪に罹っている。彼女は彼の体の具合をとても心配している。",
+    "en": [
+      {
+        "id": "292532",
+        "text": "He has been suffering from a bad cold. She is very anxious about his health."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 酷い(ひどい){ひどい} 風邪 に 罹る{罹っている} 彼女[01] は 彼(かれ)[01]{彼の} 体(からだ)[02] の 具合 を 迚も[01]{とても} 心配 為る(する){している}",
+    "vocabIds": [
+      "2827561",
+      "1609500",
+      "1483150",
+      "1000420",
+      "1592500",
+      "1360930",
+      "1483070",
+      "1409140"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "かれの"
+        },
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1360930": [
+        {
+          "start": 27,
+          "length": 2,
+          "reading": "しんぱい"
+        }
+      ],
+      "1409140": [
+        {
+          "start": 19,
+          "length": 1,
+          "reading": "からだ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1592500": [
+        {
+          "start": 21,
+          "length": 2,
+          "reading": "ぐあい"
+        }
+      ],
+      "1609500": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "かかっている"
+        }
+      ],
+      "2827561": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "ひどいかぜ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "145797",
+    "original": "食中毒に罹ったことはありますか。",
+    "en": [
+      {
+        "id": "268765",
+        "text": "Have you ever had food poisoning?"
+      },
+      {
+        "id": "2780867",
+        "text": "Have you ever gotten food poisoning?"
+      }
+    ],
+    "indices": "食中毒~ に 罹る{罹った} 事(こと){こと} は 有る{あります} か",
+    "vocabIds": [
+      "1609950",
+      "1609500"
+    ],
+    "matches": {
+      "1609500": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "かかった"
+        }
+      ],
+      "1609950": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "しょくちゅうどく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8414051",
+    "original": "彼女は重い病気に罹っており、一週間ベッドで寝込んでいる。",
+    "en": [
+      {
+        "id": "462422",
+        "text": "She's very ill and has been in bed for a week."
+      }
+    ],
+    "vocabIds": [
+      "1360130",
+      "1609500",
+      "1163270",
+      "1483150",
+      "1335750",
+      "1490230"
+    ],
+    "matches": {
+      "1163270": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "いちしゅうかん"
+        }
+      ],
+      "1335750": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "おもい"
+        }
+      ],
+      "1360130": [
+        {
+          "start": 21,
+          "length": 6,
+          "reading": "ねこんでいる"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1490230": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "びょうき"
+        }
+      ],
+      "1609500": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "かかっており"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9611586",
+    "original": "「トム、インフルエンザに罹ってるの？大丈夫？まさかコロナじゃないよね？」「ちゃうちゃう。元気だよ。ありがとう」",
+    "en": [
+      {
+        "id": "9611681",
+        "text": "\"Tom, did you catch the flu? Are you alright? I hope it's not actually COVID!\" \"Nah, I'm fine. Thanks.\""
+      }
+    ],
+    "vocabIds": [
+      "1609500",
+      "1414150",
+      "1260720"
+    ],
+    "matches": {
+      "1260720": [
+        {
+          "start": 44,
+          "length": 2,
+          "reading": "げんき"
+        }
+      ],
+      "1414150": [
+        {
+          "start": 18,
+          "length": 3,
+          "reading": "だいじょうぶ"
+        }
+      ],
+      "1609500": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "かかってる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10097985",
+    "original": "私、インフルエンザに罹ってます？",
+    "en": [
+      {
+        "id": "10097974",
+        "text": "Do I have a flu?"
+      }
+    ],
+    "vocabIds": [
+      "1609500",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1609500": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "かかってます"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  }
+]

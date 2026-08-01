@@ -1,0 +1,79 @@
+[
+  {
+    "id": "222370",
+    "original": "この魚はずいぶん小骨が多いな。",
+    "en": [
+      {
+        "id": "59697",
+        "text": "This fish has a lot of small bones in it."
+      }
+    ],
+    "indices": "此の{この} 魚 は 随分[01]{ずいぶん} 小骨~ が 多い な",
+    "vocabIds": [
+      "1744190",
+      "1407460",
+      "1578010"
+    ],
+    "matches": {
+      "1407460": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "おおい"
+        }
+      ],
+      "1578010": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "さかな"
+        }
+      ],
+      "1744190": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "こぼね"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10335374",
+    "original": "この魚、小骨が多いね。",
+    "en": [
+      {
+        "id": "59697",
+        "text": "This fish has a lot of small bones in it."
+      }
+    ],
+    "vocabIds": [
+      "1744190",
+      "1407460",
+      "1578010"
+    ],
+    "matches": {
+      "1407460": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "おおい"
+        }
+      ],
+      "1578010": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "さかな"
+        }
+      ],
+      "1744190": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "こぼね"
+        }
+      ]
+    }
+  }
+]

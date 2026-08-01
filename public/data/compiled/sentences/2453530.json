@@ -1,0 +1,422 @@
+[
+  {
+    "id": "95804",
+    "original": "彼を電話口にお呼びいただけませんか。",
+    "en": [
+      {
+        "id": "307901",
+        "text": "Would you mind calling him to the phone?"
+      }
+    ],
+    "indices": "彼(かれ) を 電話口 に 御(お){お} 呼ぶ{呼び} 頂ける[01]{いただけません} か",
+    "vocabIds": [
+      "1766040",
+      "2453530",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1766040": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "でんわぐち"
+        }
+      ],
+      "2453530": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "および"
+        }
+      ]
+    }
+  },
+  {
+    "id": "197241",
+    "original": "ファーストネームでお呼びすることをお許し下さい。",
+    "en": [
+      {
+        "id": "34423",
+        "text": "Please excuse me for calling you by your first name."
+      }
+    ],
+    "indices": "ファーストネーム で(#2028980) 御(お){お} 呼ぶ{呼び} 為る(する){する} 事(こと){こと} を 許す{お許し} 下さい",
+    "vocabIds": [
+      "2453530",
+      "1184280"
+    ],
+    "matches": {
+      "1184280": [
+        {
+          "start": 20,
+          "length": 3,
+          "reading": "ください"
+        }
+      ],
+      "2453530": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "および"
+        }
+      ]
+    }
+  },
+  {
+    "id": "200366",
+    "original": "どのようにお呼びしたらよろしいでしょうか。",
+    "en": [
+      {
+        "id": "37567",
+        "text": "What would you like to be called?"
+      }
+    ],
+    "indices": "どの様{どのように} 御(お){お} 呼ぶ{呼び} 為る(する){したら} 宜しい{よろしい} でしょうか",
+    "vocabIds": [
+      "2453530"
+    ],
+    "matches": {
+      "2453530": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "および"
+        }
+      ]
+    }
+  },
+  {
+    "id": "217067",
+    "original": "ご注文がお決まりになりましたら、お呼びください。",
+    "en": [
+      {
+        "id": "54374",
+        "text": "Tell me when you'd like to order."
+      },
+      {
+        "id": "784582",
+        "text": "Please let me know when you are ready to order."
+      }
+    ],
+    "indices": "御(ご){ご} 注文(ちゅうもん)[01] が 決まる[01]{お決まり} になる[02]{になりましたら} 御(お){お} 呼ぶ{呼び} 下さい{ください}",
+    "vocabIds": [
+      "2453520",
+      "1930020",
+      "2453530"
+    ],
+    "matches": {
+      "1930020": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ごちゅうもん"
+        }
+      ],
+      "2453520": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "おきまり"
+        }
+      ],
+      "2453530": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "および"
+        }
+      ]
+    }
+  },
+  {
+    "id": "226993",
+    "original": "お席のご用意ができましたらお呼びいたします。",
+    "en": [
+      {
+        "id": "64341",
+        "text": "We'll call you when your table is ready."
+      }
+    ],
+    "indices": "御(お){お} 席(せき) の 御(ご){ご} 用意 が[01] 出来る{できましたら} 御(お){お} 呼ぶ{呼び} 致す{いたします}",
+    "vocabIds": [
+      "2453530",
+      "1546220",
+      "1382250",
+      "1604880"
+    ],
+    "matches": {
+      "1382250": [
+        {
+          "start": 1,
+          "length": 1,
+          "reading": "せき"
+        }
+      ],
+      "1546220": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ようい"
+        }
+      ],
+      "1604880": [
+        {
+          "start": 1,
+          "length": 1,
+          "reading": "せき"
+        }
+      ],
+      "2453530": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "および"
+        }
+      ]
+    }
+  },
+  {
+    "id": "227178",
+    "original": "お呼びですか。",
+    "en": [
+      {
+        "id": "64527",
+        "text": "You called?"
+      },
+      {
+        "id": "433689",
+        "text": "Did you call?"
+      }
+    ],
+    "indices": "御(お){お} 呼ぶ{呼び} ですか",
+    "vocabIds": [
+      "2453530"
+    ],
+    "matches": {
+      "2453530": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "および"
+        }
+      ]
+    }
+  },
+  {
+    "id": "227179",
+    "original": "お呼びする相手方のお名前は？",
+    "en": [
+      {
+        "id": "64528",
+        "text": "What's the name of the party you're calling?"
+      }
+    ],
+    "indices": "御(お){お} 呼ぶ{呼び} 為る(する){する} 相手方 の 御(お){お} 名前[01] は",
+    "vocabIds": [
+      "2453530",
+      "1401030",
+      "2853328"
+    ],
+    "matches": {
+      "1401030": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "あいてがた"
+        }
+      ],
+      "2453530": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "および"
+        }
+      ],
+      "2853328": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "おなまえ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "233553",
+    "original": "あなたのことをなんとお呼びしたらいいでしょうか。",
+    "en": [
+      {
+        "id": "70924",
+        "text": "What should I call you?"
+      }
+    ],
+    "indices": "貴方(あなた)[01]{あなた} の 事(こと){こと} を 何と{なんと} 御(お){お} 呼ぶ{呼び} 為る(する){したら} いい(#2820690)[01] でしょうか",
+    "vocabIds": [
+      "2453530"
+    ],
+    "matches": {
+      "2453530": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "および"
+        }
+      ]
+    }
+  },
+  {
+    "id": "873956",
+    "original": "夕食にお呼び頂けて、とても嬉しいです。",
+    "en": [
+      {
+        "id": "569288",
+        "text": "I'm glad to have been invited to dinner."
+      }
+    ],
+    "vocabIds": [
+      "1219510",
+      "2453530",
+      "1628260",
+      "1542730",
+      "1739970"
+    ],
+    "matches": {
+      "1219510": [
+        {
+          "start": 13,
+          "length": 5,
+          "reading": "うれしいです"
+        }
+      ],
+      "1542730": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ゆうしょく"
+        }
+      ],
+      "1628260": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "いただけて"
+        }
+      ],
+      "1739970": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ゆうしょく"
+        }
+      ],
+      "2453530": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "および"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1058979",
+    "original": "どのようにお呼びすればよろしいでしょうか。",
+    "en": [
+      {
+        "id": "37567",
+        "text": "What would you like to be called?"
+      },
+      {
+        "id": "12463560",
+        "text": "What should we call you?"
+      }
+    ],
+    "vocabIds": [
+      "2453530"
+    ],
+    "matches": {
+      "2453530": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "および"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3454813",
+    "original": "ご注文がお決まりになりましたらこちらのボタンでお呼びください。",
+    "en": [
+      {
+        "id": "3469329",
+        "text": "When you're ready to order, please call using this button."
+      }
+    ],
+    "vocabIds": [
+      "2453520",
+      "1930020",
+      "2453530"
+    ],
+    "matches": {
+      "1930020": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ごちゅうもん"
+        }
+      ],
+      "2453520": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "おきまり"
+        }
+      ],
+      "2453530": [
+        {
+          "start": 23,
+          "length": 3,
+          "reading": "および"
+        }
+      ]
+    }
+  },
+  {
+    "id": "6819284",
+    "original": "なんとお呼びすればいいですか？",
+    "en": [
+      {
+        "id": "70924",
+        "text": "What should I call you?"
+      }
+    ],
+    "vocabIds": [
+      "2453530"
+    ],
+    "matches": {
+      "2453530": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "および"
+        }
+      ]
+    }
+  }
+]

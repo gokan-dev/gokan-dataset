@@ -1,0 +1,468 @@
+[
+  {
+    "id": "75361",
+    "original": "絶対トイレの蓋を開けたままにするなよ。",
+    "en": [
+      {
+        "id": "328358",
+        "text": "Whatever you do don't leave the lid up on the toilet!"
+      }
+    ],
+    "indices": "絶対[01] トイレ の 蓋を開ける{蓋を開けた}~ 儘{まま} に 為る(する){する} な よ[01]",
+    "vocabIds": [
+      "1202450",
+      "1386840",
+      "1204540"
+    ],
+    "matches": {
+      "1202450": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "あけた"
+        }
+      ],
+      "1204540": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "ふた"
+        }
+      ],
+      "1386840": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ぜったい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "84289",
+    "original": "腐らないようにしっかりと蓋を締めなさい。",
+    "en": [
+      {
+        "id": "319426",
+        "text": "Tighten the lid so that it doesn't go bad."
+      }
+    ],
+    "indices": "腐る{腐らない} 様に{ように} 確り{しっかりと} 蓋 を 締める{締め} 為さい{なさい}",
+    "vocabIds": [
+      "1436570",
+      "1497800",
+      "1204540"
+    ],
+    "matches": {
+      "1204540": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "ふた"
+        }
+      ],
+      "1436570": [
+        {
+          "start": 14,
+          "length": 5,
+          "reading": "しめなさい"
+        }
+      ],
+      "1497800": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "くさらない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "184652",
+    "original": "蓋が開けられないんです。",
+    "en": [
+      {
+        "id": "21781",
+        "text": "I cannot get the lid off."
+      },
+      {
+        "id": "3502190",
+        "text": "I can't get the lid off."
+      },
+      {
+        "id": "7818253",
+        "text": "The lid won't open."
+      }
+    ],
+    "indices": "蓋 が 開ける(あける){開けられない} のです{んです}",
+    "vocabIds": [
+      "1202450",
+      "1204540"
+    ],
+    "matches": {
+      "1202450": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "あけ"
+        }
+      ],
+      "1204540": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ふた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "220198",
+    "original": "この箱の蓋はどうしても開かない。",
+    "en": [
+      {
+        "id": "57515",
+        "text": "The lid of this box won't lift."
+      }
+    ],
+    "indices": "此の{この} 箱[01] の 蓋 は 如何しても{どうしても} 開く(あく)[01]{開かない}",
+    "vocabIds": [
+      "1202440",
+      "1585650",
+      "1204540"
+    ],
+    "matches": {
+      "1202440": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "ひらかない"
+        }
+      ],
+      "1204540": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "ふた"
+        }
+      ],
+      "1585650": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "はこ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9331240",
+    "original": "この蓋、固すぎて開かないんだけど。",
+    "en": [
+      {
+        "id": "1170226",
+        "text": "This lid is too tight for me to open."
+      }
+    ],
+    "vocabIds": [
+      "1257110",
+      "1202440",
+      "1204540"
+    ],
+    "matches": {
+      "1202440": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "ひらかない"
+        }
+      ],
+      "1204540": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ふた"
+        }
+      ],
+      "1257110": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "かたすぎて"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9331242",
+    "original": "この蓋、きつすぎて開けれないんだけど。",
+    "en": [
+      {
+        "id": "1170226",
+        "text": "This lid is too tight for me to open."
+      }
+    ],
+    "vocabIds": [
+      "1202450",
+      "1204540"
+    ],
+    "matches": {
+      "1202450": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "あけ"
+        }
+      ],
+      "1204540": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ふた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9444460",
+    "original": "１００円玉じゃなくて、ボトルの蓋だったよ。",
+    "en": [
+      {
+        "id": "327978",
+        "text": "It wasn't a 100 yen coin, it was a bottle cap."
+      }
+    ],
+    "vocabIds": [
+      "2396790",
+      "1204540"
+    ],
+    "matches": {
+      "1204540": [
+        {
+          "start": 15,
+          "length": 1,
+          "reading": "ふた"
+        }
+      ],
+      "2396790": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "いちぜろぜろえんだま"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10134483",
+    "original": "ジャムの蓋が開かないんだけど、開けてくれる？",
+    "en": [
+      {
+        "id": "10134521",
+        "text": "I can't get the lid off of the jam, could you do it for me?"
+      }
+    ],
+    "vocabIds": [
+      "1202450",
+      "1202440",
+      "1204540"
+    ],
+    "matches": {
+      "1202440": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "ひらかない"
+        }
+      ],
+      "1202450": [
+        {
+          "start": 15,
+          "length": 6,
+          "reading": "あけてくれる"
+        }
+      ],
+      "1204540": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "ふた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10489054",
+    "original": "蓋を開けました。",
+    "en": [
+      {
+        "id": "5852534",
+        "text": "I opened the lid."
+      }
+    ],
+    "vocabIds": [
+      "1202450",
+      "1204540"
+    ],
+    "matches": {
+      "1202450": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "あけました"
+        }
+      ],
+      "1204540": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ふた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11177197",
+    "original": "蓋が開かないんだよ。",
+    "en": [
+      {
+        "id": "7818253",
+        "text": "The lid won't open."
+      }
+    ],
+    "vocabIds": [
+      "1202440",
+      "1204540"
+    ],
+    "matches": {
+      "1202440": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "ひらかない"
+        }
+      ],
+      "1204540": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ふた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11209463",
+    "original": "蓋が取れないんだよ。",
+    "en": [
+      {
+        "id": "3502190",
+        "text": "I can't get the lid off."
+      }
+    ],
+    "vocabIds": [
+      "1326990",
+      "1204540"
+    ],
+    "matches": {
+      "1204540": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ふた"
+        }
+      ],
+      "1326990": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "とれない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11582511",
+    "original": "鍋に蓋をして。",
+    "en": [
+      {
+        "id": "10357970",
+        "text": "Cover the pot."
+      },
+      {
+        "id": "12418386",
+        "text": "Put the lid on the pot."
+      }
+    ],
+    "vocabIds": [
+      "1459720",
+      "1204540"
+    ],
+    "matches": {
+      "1204540": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ふた"
+        }
+      ],
+      "1459720": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "なべ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11821548",
+    "original": "この瓶の蓋、どこに置いた？",
+    "en": [
+      {
+        "id": "9975187",
+        "text": "Where did you put the cap to this bottle?"
+      },
+      {
+        "id": "12351609",
+        "text": "Where did you put the lid to this jar?"
+      }
+    ],
+    "vocabIds": [
+      "1421850",
+      "1491110",
+      "1491120",
+      "1204540"
+    ],
+    "matches": {
+      "1204540": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "ふた"
+        }
+      ],
+      "1421850": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "おいた"
+        }
+      ],
+      "1491110": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "びん"
+        }
+      ],
+      "1491120": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "びん"
+        }
+      ]
+    }
+  }
+]

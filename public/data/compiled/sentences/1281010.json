@@ -1,0 +1,134 @@
+[
+  {
+    "id": "173464",
+    "original": "考えてみれば彼のいう事はおかしいよ。",
+    "en": [
+      {
+        "id": "241006",
+        "text": "Come to think of it, he is wrong."
+      }
+    ],
+    "indices": "考えてみれば~ 彼(かれ) の 言う{いう} 事(こと) は 可笑しい[02]{おかしい} よ[01]",
+    "vocabIds": [
+      "1281010",
+      "1000420",
+      "1313580"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "かれの"
+        }
+      ],
+      "1281010": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "かんがえてみれば"
+        }
+      ],
+      "1313580": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "こと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "173465",
+    "original": "考えてみれば、一週間雨が降りつづいている。",
+    "en": [
+      {
+        "id": "241005",
+        "text": "Come to think of it, it has been raining for a week."
+      }
+    ],
+    "indices": "考えてみれば 一週間 雨 が 降る(ふる){降り} 続く{つづいている}",
+    "vocabIds": [
+      "1281010",
+      "1163270",
+      "1589500",
+      "1171900"
+    ],
+    "matches": {
+      "1163270": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "いちしゅうかん"
+        }
+      ],
+      "1171900": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "う"
+        }
+      ],
+      "1281010": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "かんがえてみれば"
+        }
+      ],
+      "1589500": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "おり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9188575",
+    "original": "考えてみれば、それは田中大将に率いられた軍隊でした。",
+    "en": [
+      {
+        "id": "9188577",
+        "text": "If you think about it, it was an army under the command of General Tanaka."
+      }
+    ],
+    "vocabIds": [
+      "1281010",
+      "1551210",
+      "1581510",
+      "1248710"
+    ],
+    "matches": {
+      "1248710": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "ぐんたい"
+        }
+      ],
+      "1281010": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "かんがえてみれば"
+        }
+      ],
+      "1551210": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "ひきい"
+        }
+      ],
+      "1581510": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "たいしょう"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,113 @@
+[
+  {
+    "id": "3456485",
+    "original": "私は整備士です。",
+    "en": [
+      {
+        "id": "3276500",
+        "text": "I am a mechanic."
+      }
+    ],
+    "vocabIds": [
+      "2428350",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2428350": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "せいびし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8576253",
+    "original": "整備士ではないんですね？",
+    "en": [
+      {
+        "id": "6349958",
+        "text": "You're not a mechanic, are you?"
+      },
+      {
+        "id": "6898276",
+        "text": "You aren't a mechanic, are you?"
+      }
+    ],
+    "vocabIds": [
+      "2428350"
+    ],
+    "matches": {
+      "2428350": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "せいびし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11275711",
+    "original": "整備士さんのとこに持ってって、修理してもらいなよ。",
+    "en": [
+      {
+        "id": "266334",
+        "text": "Take it to a mechanic, and get it fixed."
+      }
+    ],
+    "indices": "整備士{整備士さん}~ の 所(ところ)[01]{とこ} に 持つ(もつ)[01]{持ってって} 修理 為る(する){して}  貰う{もらいなよ}",
+    "vocabIds": [
+      "1315720",
+      "2428350",
+      "1332400"
+    ],
+    "matches": {
+      "1315720": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "もってって"
+        }
+      ],
+      "1332400": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "しゅうり"
+        }
+      ],
+      "2428350": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "せいびし"
+        }
+      ]
+    }
+  }
+]

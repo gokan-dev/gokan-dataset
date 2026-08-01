@@ -1,0 +1,102 @@
+[
+  {
+    "id": "217079",
+    "original": "ご存知のように、ＵＮとは国際連合です。",
+    "en": [
+      {
+        "id": "54386",
+        "text": "UN, as you know, stands for the United Nations."
+      }
+    ],
+    "indices": "ご存じ[01]{ご存知} の様に{のように} とは 国際連合 です",
+    "vocabIds": [
+      "1657390",
+      "1593570"
+    ],
+    "matches": {
+      "1593570": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ごぞんじ"
+        }
+      ],
+      "1657390": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "こくさいれんごう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "217083",
+    "original": "ご存じのように、ＵＮとは国際連合のことです。",
+    "en": [
+      {
+        "id": "54386",
+        "text": "UN, as you know, stands for the United Nations."
+      }
+    ],
+    "indices": "ご存じ[01] の様に{のように} とは 国際連合~ の 事(こと){こと} です",
+    "vocabIds": [
+      "1657390",
+      "1593570"
+    ],
+    "matches": {
+      "1593570": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ごぞんじ"
+        }
+      ],
+      "1657390": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "こくさいれんごう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2664718",
+    "original": "「国連」は「国際連合」の略です。",
+    "en": [
+      {
+        "id": "415500",
+        "text": "UN stands for United Nations."
+      }
+    ],
+    "vocabIds": [
+      "1657390",
+      "1287210",
+      "1551950"
+    ],
+    "matches": {
+      "1287210": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "こくれん"
+        }
+      ],
+      "1551950": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "りゃく"
+        }
+      ],
+      "1657390": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "こくさいれんごう"
+        }
+      ]
+    }
+  }
+]

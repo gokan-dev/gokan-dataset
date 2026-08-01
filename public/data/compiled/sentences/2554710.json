@@ -1,0 +1,67 @@
+[
+  {
+    "id": "412904",
+    "original": "メモ用紙か何か貸してくれ。",
+    "en": [
+      {
+        "id": "25091",
+        "text": "Give me something to write on."
+      },
+      {
+        "id": "412912",
+        "text": "Lend me a memo pad or something."
+      }
+    ],
+    "indices": "メモ用紙~ か 何か 貸す{貸して} 呉れる{くれ}",
+    "vocabIds": [
+      "1411160",
+      "2554710",
+      "1188270"
+    ],
+    "matches": {
+      "1188270": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "なにか"
+        }
+      ],
+      "1411160": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "かしてくれ"
+        }
+      ],
+      "2554710": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "めもようし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12635537",
+    "original": "メモ用紙をもらえますか？",
+    "en": [
+      {
+        "id": "10110289",
+        "text": "Can I have some scratch paper?"
+      }
+    ],
+    "vocabIds": [
+      "2554710"
+    ],
+    "matches": {
+      "2554710": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "めもようし"
+        }
+      ]
+    }
+  }
+]

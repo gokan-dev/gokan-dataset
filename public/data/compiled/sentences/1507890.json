@@ -1,0 +1,87 @@
+[
+  {
+    "id": "81712",
+    "original": "僕らは９の平方根は３だと学校で習った。",
+    "en": [
+      {
+        "id": "322003",
+        "text": "We learned at school that the square root of nine is three."
+      }
+    ],
+    "indices": "僕ら は の 平方根~ は だ と 学校 で(#2028980) 習う{習った}",
+    "vocabIds": [
+      "1507890",
+      "1333070",
+      "1521410",
+      "1206730",
+      "1578150",
+      "1579350"
+    ],
+    "matches": {
+      "1206730": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "がっこう"
+        }
+      ],
+      "1333070": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "ならった"
+        }
+      ],
+      "1507890": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "へいほうこん"
+        }
+      ],
+      "1521410": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ぼくら"
+        }
+      ],
+      "1578150": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "きゅう"
+        }
+      ],
+      "1579350": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "さん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2665453",
+    "original": "3の平方根は√3と−√3である。",
+    "en": [
+      {
+        "id": "9235096",
+        "text": "The square roots of 3 are √3 and -√3."
+      }
+    ],
+    "vocabIds": [
+      "1507890"
+    ],
+    "matches": {
+      "1507890": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "へいほうこん"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,150 @@
+[
+  {
+    "id": "78787",
+    "original": "陽は知らぬ間に地平線下に沈んだ。",
+    "en": [
+      {
+        "id": "324929",
+        "text": "The sun sank below the horizon before I knew it."
+      }
+    ],
+    "indices": "日(ひ){陽} は 知る{知らぬ} 間(あいだ) に 地平線 下(した) に 沈む{沈んだ}",
+    "vocabIds": [
+      "2847675",
+      "1421440",
+      "1431670",
+      "1881540",
+      "2848543"
+    ],
+    "matches": {
+      "1421440": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "ちへいせん"
+        }
+      ],
+      "1431670": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "しずんだ"
+        }
+      ],
+      "1881540": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "かに"
+        }
+      ],
+      "2847675": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "しらぬまに"
+        }
+      ],
+      "2848543": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ひ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "127075",
+    "original": "知らぬ間に日はとっぷりと暮れていた。",
+    "en": [
+      {
+        "id": "277015",
+        "text": "Night had completely fallen before we knew."
+      }
+    ],
+    "indices": "知る{知らぬ} 間(あいだ) に 日(ひ)[02] は とっぷり{とっぷりと}~ 暮れる{暮れていた}",
+    "vocabIds": [
+      "2847675",
+      "1514960",
+      "1463770"
+    ],
+    "matches": {
+      "1463770": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "ひ"
+        }
+      ],
+      "1514960": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "くれていた"
+        }
+      ],
+      "2847675": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "しらぬまに"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8586661",
+    "original": "たぶん知らぬ間に遺伝子組み換えの果物や野菜をいつも食べているんだろうな。",
+    "en": [
+      {
+        "id": "954787",
+        "text": "You probably eat genetically modified fruits and vegetables all the time without knowing it."
+      }
+    ],
+    "vocabIds": [
+      "1971640",
+      "2847675",
+      "1358280",
+      "1193060",
+      "1537370"
+    ],
+    "matches": {
+      "1193060": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "くだもの"
+        }
+      ],
+      "1358280": [
+        {
+          "start": 25,
+          "length": 5,
+          "reading": "たべている"
+        }
+      ],
+      "1537370": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "やさい"
+        }
+      ],
+      "1971640": [
+        {
+          "start": 8,
+          "length": 7,
+          "reading": "いでんしくみかえ"
+        }
+      ],
+      "2847675": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "しらぬまに"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,165 @@
+[
+  {
+    "id": "143896",
+    "original": "陣痛が約４５秒続きます。",
+    "en": [
+      {
+        "id": "270670",
+        "text": "My contractions last about forty-five seconds."
+      }
+    ],
+    "indices": "陣痛 が 約 秒 続く{続きます}",
+    "vocabIds": [
+      "1405790",
+      "1370240",
+      "1538100",
+      "1579470",
+      "1268060",
+      "1490430"
+    ],
+    "matches": {
+      "1268060": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "ご"
+        }
+      ],
+      "1370240": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じんつう"
+        }
+      ],
+      "1405790": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "つづきます"
+        }
+      ],
+      "1490430": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "びょう"
+        }
+      ],
+      "1538100": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "やく"
+        }
+      ],
+      "1579470": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "よん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "143897",
+    "original": "陣痛が始まりました。",
+    "en": [
+      {
+        "id": "270669",
+        "text": "My labor has started."
+      }
+    ],
+    "indices": "陣痛 が 始まる{始まりました}",
+    "vocabIds": [
+      "1307500",
+      "1370240"
+    ],
+    "matches": {
+      "1307500": [
+        {
+          "start": 3,
+          "length": 6,
+          "reading": "はじまりました"
+        }
+      ],
+      "1370240": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じんつう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "143898",
+    "original": "陣痛が３０分おきに起こります。",
+    "en": [
+      {
+        "id": "270668",
+        "text": "I have labor pains every thirty minutes."
+      }
+    ],
+    "indices": "陣痛~ が 分(ふん) 置きに{おきに} 起こる{起こります}",
+    "vocabIds": [
+      "1223680",
+      "2859157",
+      "1370240"
+    ],
+    "matches": {
+      "1223680": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "おこります"
+        }
+      ],
+      "1370240": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じんつう"
+        }
+      ],
+      "2859157": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "さんぜろふん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2167230",
+    "original": "陣痛の間隔はどれくらいですか。",
+    "en": [
+      {
+        "id": "2167234",
+        "text": "How far apart are the contractions?"
+      }
+    ],
+    "vocabIds": [
+      "1370240",
+      "1215380"
+    ],
+    "matches": {
+      "1215380": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かんかく"
+        }
+      ],
+      "1370240": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じんつう"
+        }
+      ]
+    }
+  }
+]

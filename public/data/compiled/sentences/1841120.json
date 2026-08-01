@@ -1,0 +1,87 @@
+[
+  {
+    "id": "121257",
+    "original": "半年前に右目の白内障の手術をしました。",
+    "en": [
+      {
+        "id": "282749",
+        "text": "Six months ago I had an operation for the cataract in my right eye."
+      }
+    ],
+    "indices": "半年 前(まえ)[02] に 右目 の 白内障~ の 手術 を 為る(する){しました}",
+    "vocabIds": [
+      "1841120",
+      "1583190",
+      "1392590",
+      "1171250",
+      "1327790"
+    ],
+    "matches": {
+      "1171250": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "みぎめ"
+        }
+      ],
+      "1327790": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "しゅじゅつ"
+        }
+      ],
+      "1392590": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "まえに"
+        }
+      ],
+      "1583190": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "はんとし"
+        }
+      ],
+      "1841120": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "はくないしょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8828194",
+    "original": "白内障は、犬にはよくあることなんですか？",
+    "en": [
+      {
+        "id": "8456449",
+        "text": "Are cataracts common in dogs?"
+      }
+    ],
+    "vocabIds": [
+      "1841120",
+      "1258330"
+    ],
+    "matches": {
+      "1258330": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "いぬ"
+        }
+      ],
+      "1841120": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "はくないしょう"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "id": "121415",
+    "original": "白タクには乗らないように。",
+    "en": [
+      {
+        "id": "282591",
+        "text": "Keep away from the unlicensed taxis."
+      }
+    ],
+    "indices": "白タク~ には 乗る[01]{乗らない} 様に{ように}",
+    "vocabIds": [
+      "1355120",
+      "2123400"
+    ],
+    "matches": {
+      "1355120": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "のらない"
+        }
+      ],
+      "2123400": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "しろ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1200729",
+    "original": "「これは白タク？」わたしは彼に尋ねた。",
+    "en": [
+      {
+        "id": "8704659",
+        "text": "\"Do you drive an unlicensed taxi?\" I asked him."
+      }
+    ],
+    "vocabIds": [
+      "2123400",
+      "1369940",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1369940": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "たずねた"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "2123400": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "しろ"
+        }
+      ]
+    }
+  }
+]

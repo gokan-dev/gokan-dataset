@@ -1,0 +1,63 @@
+[
+  {
+    "id": "222323",
+    "original": "この橋は鉄製です。",
+    "en": [
+      {
+        "id": "59651",
+        "text": "This bridge is made of iron."
+      }
+    ],
+    "indices": "此の{この} 橋(はし) は 鉄製~ です",
+    "vocabIds": [
+      "1437920",
+      "1237410"
+    ],
+    "matches": {
+      "1237410": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "はし"
+        }
+      ],
+      "1437920": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "てつせい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1518072",
+    "original": "これは木製ですか、鉄製ですか？",
+    "en": [
+      {
+        "id": "998984",
+        "text": "Is this made out of wood or metal?"
+      }
+    ],
+    "vocabIds": [
+      "1534690",
+      "1437920"
+    ],
+    "matches": {
+      "1437920": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "てつせい"
+        }
+      ],
+      "1534690": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "もくせい"
+        }
+      ]
+    }
+  }
+]

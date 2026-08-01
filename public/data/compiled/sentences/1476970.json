@@ -1,0 +1,136 @@
+[
+  {
+    "id": "75994",
+    "original": "審判の方をちらりと睨むが、審判は涼しい顔して鼻クソをほじっていやがった。「ちくしょう、八百長かよ・・・」",
+    "en": [
+      {
+        "id": "327724",
+        "text": "I shot a look in the referee's direction, but he was putting on a calm face while picking his nose. \"Dammit, the fight's a fixup!?\""
+      }
+    ],
+    "indices": "審判[03] 之(の)[01]{の} 方(かた)[01] を ちらり{ちらりと} 睨む が 審判[03] は 涼しい 顔(かお) 為る(する){して} 鼻クソ を 穿る[01]{ほじってい}~ やがる{やがった} 畜生[04]{ちくしょう} 八百長(やおちょう) か よ",
+    "vocabIds": [
+      "1854250",
+      "1600880",
+      "1476970",
+      "1569880",
+      "1360410",
+      "1545790",
+      "1512070",
+      "1516930"
+    ],
+    "matches": {
+      "1360410": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しんぱん"
+        },
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "しんぱん"
+        }
+      ],
+      "1476970": [
+        {
+          "start": 43,
+          "length": 3,
+          "reading": "やおちょう"
+        }
+      ],
+      "1512070": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "ほう"
+        }
+      ],
+      "1516930": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "ほう"
+        }
+      ],
+      "1545790": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "ほう"
+        }
+      ],
+      "1569880": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "にらむが"
+        }
+      ],
+      "1600880": [
+        {
+          "start": 22,
+          "length": 3,
+          "reading": "はな"
+        }
+      ],
+      "1854250": [
+        {
+          "start": 16,
+          "length": 4,
+          "reading": "すずしいかお"
+        }
+      ]
+    }
+  },
+  {
+    "id": "223820",
+    "original": "このゲームは八百長だ。",
+    "en": [
+      {
+        "id": "61156",
+        "text": "This game is fixed."
+      }
+    ],
+    "indices": "此の{この} ゲーム は 八百長(やおちょう) だ",
+    "vocabIds": [
+      "1476970"
+    ],
+    "matches": {
+      "1476970": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "やおちょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "231233",
+    "original": "あのレースは八百長だった。",
+    "en": [
+      {
+        "id": "68601",
+        "text": "The race was fixed."
+      },
+      {
+        "id": "12590992",
+        "text": "That race was fixed."
+      }
+    ],
+    "indices": "彼の(あの){あの} レース(#1144380)~ は 八百長(やおちょう)~ だ{だった}",
+    "vocabIds": [
+      "1476970"
+    ],
+    "matches": {
+      "1476970": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "やおちょう"
+        }
+      ]
+    }
+  }
+]

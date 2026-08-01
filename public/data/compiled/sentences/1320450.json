@@ -1,0 +1,174 @@
+[
+  {
+    "id": "77082",
+    "original": "肛門のまわりに湿疹があります。",
+    "en": [
+      {
+        "id": "326637",
+        "text": "I have a rash around my anus."
+      }
+    ],
+    "indices": "肛門~ の 回り{まわり} に 湿疹~ が[01] 有る{あります}",
+    "vocabIds": [
+      "1570780",
+      "1320450"
+    ],
+    "matches": {
+      "1320450": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "しっしん"
+        }
+      ],
+      "1570780": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こうもん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "148432",
+    "original": "首に湿疹ができました。",
+    "en": [
+      {
+        "id": "266127",
+        "text": "I have a rash on my neck."
+      }
+    ],
+    "indices": "首(くび)[01] に 湿疹 が[01] 出来る{できました}",
+    "vocabIds": [
+      "1320450",
+      "1249900",
+      "1582310",
+      "1592270",
+      "1653340",
+      "1983700"
+    ],
+    "matches": {
+      "1249900": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "くび"
+        }
+      ],
+      "1320450": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "しっしん"
+        }
+      ],
+      "1582310": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "くび"
+        }
+      ],
+      "1592270": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "くび"
+        }
+      ],
+      "1653340": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "くび"
+        }
+      ],
+      "1983700": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "くび"
+        }
+      ]
+    }
+  },
+  {
+    "id": "149542",
+    "original": "湿疹も伝染性だって。",
+    "en": [
+      {
+        "id": "265015",
+        "text": "The rash is, um, also incredibly contagious."
+      }
+    ],
+    "indices": "湿疹 も 伝染性~ だ って",
+    "vocabIds": [
+      "1703940",
+      "1320450"
+    ],
+    "matches": {
+      "1320450": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しっしん"
+        }
+      ],
+      "1703940": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "でんせんせい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "149545",
+    "original": "湿疹の方は？",
+    "en": [
+      {
+        "id": "265014",
+        "text": "What about the rash?"
+      }
+    ],
+    "indices": "湿疹 の 方(ほう) は",
+    "vocabIds": [
+      "1320450",
+      "1545790",
+      "1512070",
+      "1516930"
+    ],
+    "matches": {
+      "1320450": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しっしん"
+        }
+      ],
+      "1512070": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "ほう"
+        }
+      ],
+      "1516930": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "ほう"
+        }
+      ],
+      "1545790": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "ほう"
+        }
+      ]
+    }
+  }
+]

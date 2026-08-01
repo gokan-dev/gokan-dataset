@@ -1,0 +1,91 @@
+[
+  {
+    "id": "87343",
+    "original": "彼女は彼の隠れ場所を警察に密告した。",
+    "en": [
+      {
+        "id": "316365",
+        "text": "She betrayed his hiding place to the police."
+      }
+    ],
+    "indices": "彼女[01] は 彼(かれ)[01]{彼の} 隠れ場所~ を 警察 に 密告 為る(する){した}",
+    "vocabIds": [
+      "1822410",
+      "1483150",
+      "1000420",
+      "1252390",
+      "1528250"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かれの"
+        }
+      ],
+      "1252390": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "けいさつ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1528250": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "みっこく"
+        }
+      ],
+      "1822410": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "かくればしょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11480945",
+    "original": "いい隠れ場所を知ってるんだ。",
+    "en": [
+      {
+        "id": "6264749",
+        "text": "I know a good place to hide."
+      },
+      {
+        "id": "12204555",
+        "text": "I know a good hiding place."
+      }
+    ],
+    "vocabIds": [
+      "1822410",
+      "1420470"
+    ],
+    "matches": {
+      "1420470": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "しってる"
+        }
+      ],
+      "1822410": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "かくればしょ"
+        }
+      ]
+    }
+  }
+]

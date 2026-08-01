@@ -1,0 +1,117 @@
+{
+  "id": "1984240",
+  "writtenForm": {
+    "kanji": "中高",
+    "alternatives": [],
+    "containedKanji": [
+      "中",
+      "高"
+    ]
+  },
+  "reading": {
+    "primary": "ちゅうこう",
+    "alternatives": [
+      "なかだか"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 50544,
+    "kanaRank": 191041
+  },
+  "progression": {
+    "kklcStep": 185
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": true,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "abbr"
+        ]
+      },
+      "glosses": [
+        "middle and high school"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "medium and high (level)"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "adj-no"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "convex"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "なかだか"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1984240",
+      "isBase": true,
+      "originalPrimaryReading": "ちゅうこう",
+      "originalGlosses": [
+        "middle and high school"
+      ]
+    },
+    {
+      "id": "1424250",
+      "isBase": false,
+      "originalPrimaryReading": "なかだか",
+      "originalGlosses": [
+        "convex"
+      ]
+    }
+  ],
+  "components": [
+    "1423310",
+    "2183260"
+  ],
+  "parents": [
+    "2014020"
+  ]
+}

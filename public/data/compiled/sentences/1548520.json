@@ -1,0 +1,95 @@
+[
+  {
+    "id": "182252",
+    "original": "去年のヒットした音楽は、みんな人気ドラマが絡んでいる。",
+    "en": [
+      {
+        "id": "19443",
+        "text": "Last year's pop hit was set off by a serial TV drama."
+      }
+    ],
+    "indices": "去年 の ヒット 為る(する){した} 音楽 は 皆{みんな} 人気(にんき) ドラマ が 絡む[02]{絡んでいる}",
+    "vocabIds": [
+      "1548520",
+      "1231690",
+      "1183720",
+      "1367010"
+    ],
+    "matches": {
+      "1183720": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "おんがく"
+        }
+      ],
+      "1231690": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きょねん"
+        }
+      ],
+      "1367010": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "にんき"
+        }
+      ],
+      "1548520": [
+        {
+          "start": 21,
+          "length": 5,
+          "reading": "からんでいる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8899313",
+    "original": "彼の足に蛇が絡み始めたんだ。",
+    "en": [
+      {
+        "id": "8899306",
+        "text": "The snake began wrapping itself around his leg."
+      }
+    ],
+    "vocabIds": [
+      "1548520",
+      "1000420",
+      "1404630",
+      "1323350"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれの"
+        }
+      ],
+      "1323350": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "へび"
+        }
+      ],
+      "1404630": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "あし"
+        }
+      ],
+      "1548520": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "からみはじめた"
+        }
+      ]
+    }
+  }
+]

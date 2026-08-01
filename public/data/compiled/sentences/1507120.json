@@ -1,0 +1,63 @@
+[
+  {
+    "id": "227747",
+    "original": "驕る平家は久しからず。",
+    "en": [
+      {
+        "id": "65100",
+        "text": "Pride will have a fall."
+      }
+    ],
+    "indices": "驕る 平家(へいけ)~ は 久しい{久しからず}~",
+    "vocabIds": [
+      "2857913",
+      "1507120"
+    ],
+    "matches": {
+      "1507120": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "へいけ"
+        }
+      ],
+      "2857913": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おごる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8612097",
+    "original": "トムとメアリーは平屋に住んでいます。",
+    "en": [
+      {
+        "id": "1548906",
+        "text": "Tom and Mary live in a bungalow."
+      }
+    ],
+    "vocabIds": [
+      "1334040",
+      "1507120"
+    ],
+    "matches": {
+      "1334040": [
+        {
+          "start": 11,
+          "length": 6,
+          "reading": "すんでいます"
+        }
+      ],
+      "1507120": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "ひらや"
+        }
+      ]
+    }
+  }
+]

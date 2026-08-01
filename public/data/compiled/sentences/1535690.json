@@ -1,0 +1,209 @@
+[
+  {
+    "id": "76349",
+    "original": "一生懸命指でまぶたを広げて目薬を差しました。",
+    "en": [
+      {
+        "id": "327371",
+        "text": "With great effort I held his eyelids open with my fingers and dropped in the eye medicine."
+      }
+    ],
+    "indices": "一生懸命 指 で(#2028980) 瞼{まぶた} を[01] 広げる{広げて} 目薬を差す{目薬を差しました}~",
+    "vocabIds": [
+      "1291330",
+      "1164010",
+      "1602370",
+      "1535690",
+      "1309650",
+      "2423450"
+    ],
+    "matches": {
+      "1164010": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "いっしょうけんめい"
+        }
+      ],
+      "1291330": [
+        {
+          "start": 16,
+          "length": 5,
+          "reading": "さしました"
+        }
+      ],
+      "1309650": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "ゆび"
+        }
+      ],
+      "1535690": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "めぐすり"
+        }
+      ],
+      "1602370": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "ひろげて"
+        }
+      ],
+      "2423450": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "ゆび"
+        }
+      ]
+    }
+  },
+  {
+    "id": "79887",
+    "original": "目薬をください。",
+    "en": [
+      {
+        "id": "323830",
+        "text": "I'd like to buy eye drops."
+      }
+    ],
+    "indices": "目薬~ を 下さい[01]{ください}",
+    "vocabIds": [
+      "1535690"
+    ],
+    "matches": {
+      "1535690": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "めぐすり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "5650740",
+    "original": "担当医は私に1日3回、目薬をさすように言った。",
+    "en": [
+      {
+        "id": "5650746",
+        "text": "My doctor told me to put the eyedrops in my eyes three times a day."
+      }
+    ],
+    "vocabIds": [
+      "2154770",
+      "1587040",
+      "1535690",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1463770",
+      "1199330"
+    ],
+    "matches": {
+      "1199330": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "かい"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1463770": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "にち"
+        }
+      ],
+      "1535690": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "めぐすり"
+        }
+      ],
+      "1587040": [
+        {
+          "start": 19,
+          "length": 3,
+          "reading": "いった"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2154770": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "たんとうい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2921214",
+    "original": "「このジュース、目薬みたいな味がする」「目薬飲んだことあるの？」",
+    "en": [
+      {
+        "id": "5884313",
+        "text": "\"This juice tastes like eye drops.\" \"You've tasted eye drops?\""
+      }
+    ],
+    "vocabIds": [
+      "2831089",
+      "1169870",
+      "1535690"
+    ],
+    "matches": {
+      "1169870": [
+        {
+          "start": 22,
+          "length": 3,
+          "reading": "のんだ"
+        }
+      ],
+      "1535690": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "めぐすり"
+        },
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "めぐすり"
+        }
+      ],
+      "2831089": [
+        {
+          "start": 14,
+          "length": 4,
+          "reading": "あじがする"
+        }
+      ]
+    }
+  }
+]

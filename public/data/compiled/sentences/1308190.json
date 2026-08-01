@@ -1,0 +1,80 @@
+[
+  {
+    "id": "168361",
+    "original": "市街にはいくぶん平和があった。",
+    "en": [
+      {
+        "id": "246132",
+        "text": "In the town there was a measure of peace."
+      }
+    ],
+    "indices": "市街 には 幾分[01]{いくぶん} 平和 が[01] 有る{あった}",
+    "vocabIds": [
+      "1308190",
+      "1508070"
+    ],
+    "matches": {
+      "1308190": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しがい"
+        }
+      ],
+      "1508070": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "へいわ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "210087",
+    "original": "その市街地図をもう一度よく見て下さい。",
+    "en": [
+      {
+        "id": "47350",
+        "text": "Take another good look at the city map."
+      }
+    ],
+    "indices": "其の[01]{その} 市街地~ 図 を もう一度 良く[01]{よく} 見る{見て} 下さい",
+    "vocabIds": [
+      "1259290",
+      "2005860",
+      "1308190",
+      "1421290"
+    ],
+    "matches": {
+      "1259290": [
+        {
+          "start": 13,
+          "length": 5,
+          "reading": "みてください"
+        }
+      ],
+      "1308190": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "しがい"
+        }
+      ],
+      "1421290": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ちず"
+        }
+      ],
+      "2005860": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "もういちど"
+        }
+      ]
+    }
+  }
+]

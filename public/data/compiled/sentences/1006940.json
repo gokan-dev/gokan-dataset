@@ -1,0 +1,230 @@
+[
+  {
+    "id": "204988",
+    "original": "それは値段は安いが、その反面品質がよくない。",
+    "en": [
+      {
+        "id": "42230",
+        "text": "It is cheap, but on the other hand it is not good."
+      },
+      {
+        "id": "1327631",
+        "text": "The price is low, but then again, the quality isn't very good."
+      },
+      {
+        "id": "1327632",
+        "text": "The price is low, but the quality isn't very good."
+      }
+    ],
+    "indices": "其れ[01]{それ} は 値段 は 安い[01] が その反面~ 品質 が 良い{よくない}",
+    "vocabIds": [
+      "1006940",
+      "1153670",
+      "1600160",
+      "1490580"
+    ],
+    "matches": {
+      "1006940": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "そのはんめん"
+        }
+      ],
+      "1153670": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "やすいが"
+        }
+      ],
+      "1490580": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "ひんしつ"
+        }
+      ],
+      "1600160": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ねだん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "210359",
+    "original": "その仕事は十分にお金になるが、その反面１日に12時間働かなくてはならない。",
+    "en": [
+      {
+        "id": "47627",
+        "text": "The job pays well, but on the other hand I have to work twelve hours a day."
+      }
+    ],
+    "indices": "其の[01]{その} 仕事[01] は 十分(じゅうぶん)[01]{十分に} 金になる{お金になる} が 其の[01]{その} 反面[02]~ 一日(いちにち){１日} に 時間[02] 働く[01]{働か} 無くてはならない[02]{なくてはならない}",
+    "vocabIds": [
+      "1451150",
+      "1006940",
+      "1304970",
+      "1335070",
+      "1335080",
+      "1001820",
+      "1576260",
+      "2225040",
+      "1315920"
+    ],
+    "matches": {
+      "1001820": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "おかね"
+        }
+      ],
+      "1006940": [
+        {
+          "start": 15,
+          "length": 4,
+          "reading": "そのはんめん"
+        }
+      ],
+      "1304970": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "しごと"
+        }
+      ],
+      "1315920": [
+        {
+          "start": 24,
+          "length": 2,
+          "reading": "じかん"
+        }
+      ],
+      "1335070": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "じゅうぶん"
+        }
+      ],
+      "1335080": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "じゅうぶん"
+        }
+      ],
+      "1451150": [
+        {
+          "start": 26,
+          "length": 5,
+          "reading": "はたらかなくて"
+        }
+      ],
+      "1576260": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "いちにち"
+        }
+      ],
+      "2225040": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "いちにち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1169081",
+    "original": "彼はフランス語を一言も話せないが、その反面英語をネイティブ並に話す。",
+    "en": [
+      {
+        "id": "460293",
+        "text": "He can't say one word of French, but then again he speaks English like a native."
+      }
+    ],
+    "vocabIds": [
+      "1111590",
+      "1562360",
+      "1006940",
+      "1575990",
+      "1174420",
+      "1508350",
+      "1562350",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1006940": [
+        {
+          "start": 17,
+          "length": 4,
+          "reading": "そのはんめん"
+        }
+      ],
+      "1111590": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "ふらんすご"
+        }
+      ],
+      "1174420": [
+        {
+          "start": 21,
+          "length": 2,
+          "reading": "えいご"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1508350": [
+        {
+          "start": 29,
+          "length": 2,
+          "reading": "なみに"
+        }
+      ],
+      "1562350": [
+        {
+          "start": 31,
+          "length": 2,
+          "reading": "はなす"
+        }
+      ],
+      "1562360": [
+        {
+          "start": 11,
+          "length": 5,
+          "reading": "はなせないが"
+        }
+      ],
+      "1575990": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "ひとこと"
+        }
+      ]
+    }
+  }
+]

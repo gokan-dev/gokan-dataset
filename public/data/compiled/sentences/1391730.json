@@ -1,0 +1,56 @@
+[
+  {
+    "id": "83637",
+    "original": "聞える旋律は美しいが、聞えない旋律はさらに美しい。",
+    "en": [
+      {
+        "id": "320079",
+        "text": "Heard melodies are sweet, but those unheard are sweeter."
+      }
+    ],
+    "indices": "聞こえる[01]{聞える} 旋律~ は 美しい が 聞こえる[01]{聞えない} 旋律 は 更に{さらに} 美しい",
+    "vocabIds": [
+      "1591150",
+      "1486360",
+      "1391730"
+    ],
+    "matches": {
+      "1391730": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "せんりつ"
+        },
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "せんりつ"
+        }
+      ],
+      "1486360": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "うつくしいが"
+        },
+        {
+          "start": 21,
+          "length": 3,
+          "reading": "うつくしい"
+        }
+      ],
+      "1591150": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "きこえない"
+        },
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きこえる"
+        }
+      ]
+    }
+  }
+]

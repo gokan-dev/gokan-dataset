@@ -1,0 +1,319 @@
+[
+  {
+    "id": "4991",
+    "original": "失礼だが、上記の記事にある３つの誤りを指摘しておきたい。",
+    "en": [
+      {
+        "id": "1587",
+        "text": "Excuse me; allow me to point out three errors in the above article."
+      },
+      {
+        "id": "599187",
+        "text": "Excuse me, let me point out three mistakes in the above article."
+      },
+      {
+        "id": "915347",
+        "text": "Excuse me. I'd like to point out three errors in the above article."
+      }
+    ],
+    "indices": "失礼[02] だ が[03] 上記{上記の}~ 記事 に 有る[01]{ある}~ 三つ(みっつ){３つ} の 誤り を 指摘 為る(する){して} 置く{おき} たい",
+    "vocabIds": [
+      "1320230",
+      "1352880",
+      "1223240",
+      "1299740",
+      "1271290",
+      "1309940"
+    ],
+    "matches": {
+      "1223240": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1271290": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "あやまり"
+        }
+      ],
+      "1299740": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "みっつ"
+        }
+      ],
+      "1309940": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "してき"
+        }
+      ],
+      "1320230": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しつれい"
+        }
+      ],
+      "1352880": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "じょうき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "769587",
+    "original": "どなたか上記のコメントを私が理解できる言語へ翻訳して戴けませんか？",
+    "en": [
+      {
+        "id": "769888",
+        "text": "Could someone translate the comment above to a language which I can understand?"
+      }
+    ],
+    "vocabIds": [
+      "1628260",
+      "1352880",
+      "1549910",
+      "1264420",
+      "1523400",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1264420": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "げんご"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1352880": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "じょうき"
+        }
+      ],
+      "1523400": [
+        {
+          "start": 22,
+          "length": 2,
+          "reading": "ほんやく"
+        }
+      ],
+      "1549910": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "りかい"
+        }
+      ],
+      "1628260": [
+        {
+          "start": 26,
+          "length": 5,
+          "reading": "いただけません"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8617728",
+    "original": "上記をご覧ください。",
+    "en": [
+      {
+        "id": "273621",
+        "text": "See above."
+      }
+    ],
+    "vocabIds": [
+      "1005100",
+      "1352880"
+    ],
+    "matches": {
+      "1005100": [
+        {
+          "start": 3,
+          "length": 6,
+          "reading": "ごらんください"
+        }
+      ],
+      "1352880": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じょうき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8617733",
+    "original": "上記の例をご覧ください。",
+    "en": [
+      {
+        "id": "268278",
+        "text": "See the example given above."
+      }
+    ],
+    "vocabIds": [
+      "1005100",
+      "1352880",
+      "1585230"
+    ],
+    "matches": {
+      "1005100": [
+        {
+          "start": 5,
+          "length": 6,
+          "reading": "ごらんください"
+        }
+      ],
+      "1352880": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じょうき"
+        }
+      ],
+      "1585230": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "れい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8617735",
+    "original": "上記の例をご参照ください。",
+    "en": [
+      {
+        "id": "268278",
+        "text": "See the example given above."
+      }
+    ],
+    "vocabIds": [
+      "1352880",
+      "1302410",
+      "1585230"
+    ],
+    "matches": {
+      "1302410": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "さんしょう"
+        }
+      ],
+      "1352880": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じょうき"
+        }
+      ],
+      "1585230": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "れい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3813017",
+    "original": "上記の広告は1ヶ月以上更新のないブログに表示されています。",
+    "en": [
+      {
+        "id": "10129320",
+        "text": "This advertisement is displayed on blogs that have not been updated in over a month."
+      }
+    ],
+    "vocabIds": [
+      "1352880",
+      "1278510",
+      "1194480",
+      "1155120",
+      "1279370",
+      "1489610"
+    ],
+    "matches": {
+      "1155120": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "いじょう"
+        }
+      ],
+      "1194480": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "かげつ"
+        }
+      ],
+      "1278510": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "こうこく"
+        }
+      ],
+      "1279370": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "こうしん"
+        }
+      ],
+      "1352880": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じょうき"
+        }
+      ],
+      "1489610": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "ひょうじ"
+        }
+      ]
+    }
+  }
+]

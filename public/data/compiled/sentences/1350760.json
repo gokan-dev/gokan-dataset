@@ -1,0 +1,56 @@
+[
+  {
+    "id": "123209",
+    "original": "鍋を焦げつかせるな。",
+    "en": [
+      {
+        "id": "36283",
+        "text": "Don't let the pan boil dry."
+      }
+    ],
+    "indices": "鍋 を 焦げ付く{焦げつかせる}~ な[01]",
+    "vocabIds": [
+      "1350760",
+      "1459720"
+    ],
+    "matches": {
+      "1350760": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "こげつか"
+        }
+      ],
+      "1459720": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "なべ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "199084",
+    "original": "なべを焦げ付かせてはだめだよ。",
+    "en": [
+      {
+        "id": "36283",
+        "text": "Don't let the pan boil dry."
+      }
+    ],
+    "indices": "鍋{なべ} を 焦げ付く{焦げ付かせて} は 駄目{だめ} だ よ[01]",
+    "vocabIds": [
+      "1350760"
+    ],
+    "matches": {
+      "1350760": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "こげつか"
+        }
+      ]
+    }
+  }
+]

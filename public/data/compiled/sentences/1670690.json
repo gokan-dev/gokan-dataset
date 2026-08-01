@@ -1,0 +1,135 @@
+[
+  {
+    "id": "84135",
+    "original": "部屋は墓場のように静かだった。",
+    "en": [
+      {
+        "id": "319580",
+        "text": "The room was as still as the grave."
+      }
+    ],
+    "indices": "部屋[01] は 墓場 の様に[01]{のように} 静か だ{だった}",
+    "vocabIds": [
+      "1499320",
+      "1670690",
+      "1381820"
+    ],
+    "matches": {
+      "1381820": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "しずか"
+        }
+      ],
+      "1499320": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "へや"
+        }
+      ],
+      "1670690": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "はかば"
+        }
+      ]
+    }
+  },
+  {
+    "id": "175746",
+    "original": "結婚は人生の墓場。",
+    "en": [
+      {
+        "id": "238719",
+        "text": "Marriage is the tomb of life."
+      }
+    ],
+    "indices": "結婚 は 人生 の 墓場",
+    "vocabIds": [
+      "1254790",
+      "1368370",
+      "1670690"
+    ],
+    "matches": {
+      "1254790": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "けっこん"
+        }
+      ],
+      "1368370": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "じんせい"
+        }
+      ],
+      "1670690": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "はかば"
+        }
+      ]
+    }
+  },
+  {
+    "id": "192937",
+    "original": "ゆりかごの中で覚えたことは墓場まで続く。",
+    "en": [
+      {
+        "id": "30103",
+        "text": "What is learned in the cradle is carried to the tomb."
+      }
+    ],
+    "indices": "揺りかご{ゆりかご} の 中(なか) で(#2028980) 覚える[01]{覚えた} 事(こと){こと} は 墓場~ 迄{まで} 続く",
+    "vocabIds": [
+      "1206050",
+      "1670690",
+      "1405790",
+      "1423310",
+      "2098290"
+    ],
+    "matches": {
+      "1206050": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "おぼえた"
+        }
+      ],
+      "1405790": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "つづく"
+        }
+      ],
+      "1423310": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "なか"
+        }
+      ],
+      "1670690": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "はかば"
+        }
+      ],
+      "2098290": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "なか"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,165 @@
+[
+  {
+    "id": "74227",
+    "original": "今回、まだ両替していなかったので、日本円を人民元に替える必要があった。",
+    "en": [
+      {
+        "id": "329493",
+        "text": "This time I hadn't converted my money yet, so I needed to change Yen into Yuan."
+      }
+    ],
+    "indices": "今回 未だ{まだ} 両替 為る(する){していなかった} ので 日本円~ を 人民元~ に 替える 必要 が 有る{あった}",
+    "vocabIds": [
+      "2098770",
+      "1984920",
+      "1589780",
+      "1289070",
+      "1553820",
+      "1487660"
+    ],
+    "matches": {
+      "1289070": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こんかい"
+        }
+      ],
+      "1487660": [
+        {
+          "start": 28,
+          "length": 2,
+          "reading": "ひつよう"
+        }
+      ],
+      "1553820": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "りょうがえ"
+        }
+      ],
+      "1589780": [
+        {
+          "start": 25,
+          "length": 3,
+          "reading": "かえる"
+        }
+      ],
+      "1984920": [
+        {
+          "start": 21,
+          "length": 3,
+          "reading": "じんみんげ"
+        }
+      ],
+      "2098770": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "にほんえん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "122376",
+    "original": "日本円をアメリカドルに両替してください。",
+    "en": [
+      {
+        "id": "281627",
+        "text": "Please change this Japanese yen to U.S. dollars."
+      }
+    ],
+    "indices": "日本円 を アメリカドル~ に 両替 為る(する){して} 下さい{ください}",
+    "vocabIds": [
+      "2098770",
+      "1553820"
+    ],
+    "matches": {
+      "1553820": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "りょうがえ"
+        }
+      ],
+      "2098770": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "にほんえん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "218159",
+    "original": "これは日本円で五千円です。",
+    "en": [
+      {
+        "id": "55471",
+        "text": "This is five thousand yen in the Japanese Yen."
+      }
+    ],
+    "indices": "此れ[01]{これ} は 日本円 で(#2028980) 五 千円 です",
+    "vocabIds": [
+      "2098770",
+      "1388780",
+      "1268060"
+    ],
+    "matches": {
+      "1268060": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "ご"
+        }
+      ],
+      "1388780": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "せんえん"
+        }
+      ],
+      "2098770": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "にほんえん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10792403",
+    "original": "日本円からドルへの両替はどこでできますか？",
+    "en": [
+      {
+        "id": "38181",
+        "text": "Where can I exchange yen for dollars?"
+      }
+    ],
+    "vocabIds": [
+      "2098770",
+      "1553820"
+    ],
+    "matches": {
+      "1553820": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "りょうがえ"
+        }
+      ],
+      "2098770": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "にほんえん"
+        }
+      ]
+    }
+  }
+]

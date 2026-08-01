@@ -1,0 +1,107 @@
+[
+  {
+    "id": "80616",
+    "original": "明日から５連休だから、みんなルンルン気分だね。",
+    "en": [
+      {
+        "id": "323101",
+        "text": "Everybody is in a good mood looking forward to the five-day holiday that starts tomorrow."
+      }
+    ],
+    "indices": "明日 から[01] 連休 だから 皆{みんな} ルンルン気分~ だ ね(#2029080)[01]",
+    "vocabIds": [
+      "2221760",
+      "1584660",
+      "1559380",
+      "1268060"
+    ],
+    "matches": {
+      "1268060": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "ご"
+        }
+      ],
+      "1559380": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "れんきゅう"
+        }
+      ],
+      "1584660": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あした"
+        }
+      ],
+      "2221760": [
+        {
+          "start": 14,
+          "length": 6,
+          "reading": "るんるんきぶん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1112926",
+    "original": "今日は彼とデートだから、朝からウキウキ、ルンルン気分。",
+    "en": [
+      {
+        "id": "2598709",
+        "text": "I have a date with my boyfriend today, so I've been in a bliss since this morning."
+      },
+      {
+        "id": "2599297",
+        "text": "I'm going on a date with my boyfriend today, so I've been in a very good mood since this morning."
+      }
+    ],
+    "vocabIds": [
+      "2221760",
+      "1289400",
+      "1000420",
+      "1483070",
+      "1428280"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1289400": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きょうは"
+        }
+      ],
+      "1428280": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "あさ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "2221760": [
+        {
+          "start": 20,
+          "length": 6,
+          "reading": "るんるんきぶん"
+        }
+      ]
+    }
+  }
+]

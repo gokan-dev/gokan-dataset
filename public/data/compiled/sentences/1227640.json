@@ -1,0 +1,166 @@
+[
+  {
+    "id": "173073",
+    "original": "国会は来週休会となる。",
+    "en": [
+      {
+        "id": "241399",
+        "text": "The Diet will go into recess next week."
+      }
+    ],
+    "indices": "国会 は 来週 休会 となる",
+    "vocabIds": [
+      "1286240",
+      "1548010",
+      "1227640"
+    ],
+    "matches": {
+      "1227640": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "きゅうかい"
+        }
+      ],
+      "1286240": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こっかい"
+        }
+      ],
+      "1548010": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "らいしゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "173088",
+    "original": "国会は３ヶ月間休会になる。",
+    "en": [
+      {
+        "id": "241384",
+        "text": "The Diet will adjourn for three months."
+      }
+    ],
+    "indices": "国会 は ヶ月 間(かん)[01] 休会 になる[01]",
+    "vocabIds": [
+      "1286240",
+      "1194480",
+      "1227640",
+      "1579350",
+      "1215230",
+      "1630250"
+    ],
+    "matches": {
+      "1194480": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "かげつ"
+        }
+      ],
+      "1215230": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "かん"
+        }
+      ],
+      "1227640": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "きゅうかい"
+        }
+      ],
+      "1286240": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こっかい"
+        }
+      ],
+      "1579350": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "さん"
+        }
+      ],
+      "1630250": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "かん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "182645",
+    "original": "休会を動議します。",
+    "en": [
+      {
+        "id": "19779",
+        "text": "I move that the meeting adjourn."
+      }
+    ],
+    "indices": "休会 を 動議 為る(する){します}",
+    "vocabIds": [
+      "1227640",
+      "1451320"
+    ],
+    "matches": {
+      "1227640": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きゅうかい"
+        }
+      ],
+      "1451320": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "どうぎ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "182898",
+    "original": "議会は休会になりました。",
+    "en": [
+      {
+        "id": "20019",
+        "text": "Congress went into recess."
+      }
+    ],
+    "indices": "議会 は 休会~ になる{になりました}",
+    "vocabIds": [
+      "1226040",
+      "1227640"
+    ],
+    "matches": {
+      "1226040": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ぎかい"
+        }
+      ],
+      "1227640": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "きゅうかい"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,94 @@
+[
+  {
+    "id": "79992",
+    "original": "目が充血しています。",
+    "en": [
+      {
+        "id": "323726",
+        "text": "My eyes are bloodshot."
+      }
+    ],
+    "indices": "目(め)[01] が 充血 為る(する){しています}",
+    "vocabIds": [
+      "1334300",
+      "1604890"
+    ],
+    "matches": {
+      "1334300": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "じゅうけつ"
+        }
+      ],
+      "1604890": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "め"
+        }
+      ]
+    }
+  },
+  {
+    "id": "233287",
+    "original": "あなたの左目は充血していますよ。",
+    "en": [
+      {
+        "id": "70656",
+        "text": "Your left eye is congested."
+      }
+    ],
+    "indices": "貴方(あなた)[01]{あなた} の 左目 は 充血~ 為る(する){しています} よ[01]",
+    "vocabIds": [
+      "1291040",
+      "1334300"
+    ],
+    "matches": {
+      "1291040": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ひだりめ"
+        }
+      ],
+      "1334300": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "じゅうけつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10971835",
+    "original": "目が充血してるよ。",
+    "en": [
+      {
+        "id": "3023129",
+        "text": "Your eyes are bloodshot."
+      }
+    ],
+    "vocabIds": [
+      "1334300",
+      "1604890"
+    ],
+    "matches": {
+      "1334300": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "じゅうけつ"
+        }
+      ],
+      "1604890": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "め"
+        }
+      ]
+    }
+  }
+]

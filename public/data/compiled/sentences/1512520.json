@@ -1,0 +1,87 @@
+[
+  {
+    "id": "142728",
+    "original": "生徒はこの便所を使ってはならない。",
+    "en": [
+      {
+        "id": "271842",
+        "text": "Students must not use this toilet."
+      }
+    ],
+    "indices": "生徒 は 此の{この} 便所(べんじょ)~ を 使う[01]{使って} は ならない",
+    "vocabIds": [
+      "1305990",
+      "1379380",
+      "1512520"
+    ],
+    "matches": {
+      "1305990": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "つかって"
+        }
+      ],
+      "1379380": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "せいと"
+        }
+      ],
+      "1512520": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "べんじょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11029809",
+    "original": "授業が終わった瞬間に便所へダッシュ。",
+    "en": [
+      {
+        "id": "11029875",
+        "text": "The second that class is over, I'm sprinting to the bathroom."
+      }
+    ],
+    "vocabIds": [
+      "1589600",
+      "1330290",
+      "1341210",
+      "1512520"
+    ],
+    "matches": {
+      "1330290": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じゅぎょう"
+        }
+      ],
+      "1341210": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "しゅんかん"
+        }
+      ],
+      "1512520": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "べんじょ"
+        }
+      ],
+      "1589600": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "おわった"
+        }
+      ]
+    }
+  }
+]

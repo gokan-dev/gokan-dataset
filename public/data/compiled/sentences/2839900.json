@@ -1,0 +1,175 @@
+[
+  {
+    "id": "82580",
+    "original": "忘れずに安全ベルトを閉めなさい。",
+    "en": [
+      {
+        "id": "321136",
+        "text": "Don't forget to fasten your safety belts."
+      },
+      {
+        "id": "10450963",
+        "text": "Don't forget to put on your seatbelts."
+      }
+    ],
+    "indices": "忘れる{忘れず} に 安全[01] ベルト[01] を 閉める{閉め} 為さい{なさい}",
+    "vocabIds": [
+      "2839900",
+      "1508590",
+      "1519210"
+    ],
+    "matches": {
+      "1508590": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "しめなさい"
+        }
+      ],
+      "1519210": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "わすれず"
+        }
+      ],
+      "2839900": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "あんぜんべると"
+        }
+      ]
+    }
+  },
+  {
+    "id": "148986",
+    "original": "車や飛行機ではいつも安全ベルトを締めることが法律で決められています。",
+    "en": [
+      {
+        "id": "265572",
+        "text": "It's the law: always buckle your safety belt in cars and airplanes."
+      }
+    ],
+    "indices": "車 や 飛行機 で(#2028980) は 何時も[01]{いつも} 安全[01] ベルト[01] を 締める 事(こと){こと} が 法律 で(#2028980) 決める{決められています}",
+    "vocabIds": [
+      "2839900",
+      "1485470",
+      "1436570",
+      "1254180",
+      "1517480",
+      "1323080"
+    ],
+    "matches": {
+      "1254180": [
+        {
+          "start": 25,
+          "length": 2,
+          "reading": "きめ"
+        }
+      ],
+      "1323080": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1436570": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "しめる"
+        }
+      ],
+      "1485470": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "ひこうき"
+        }
+      ],
+      "1517480": [
+        {
+          "start": 22,
+          "length": 2,
+          "reading": "ほうりつ"
+        }
+      ],
+      "2839900": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "あんぜんべると"
+        }
+      ]
+    }
+  },
+  {
+    "id": "193766",
+    "original": "もし安全ベルトがなかったら、私は今日生きていないだろう。",
+    "en": [
+      {
+        "id": "30934",
+        "text": "But for the safety belt, I wouldn't be alive today."
+      },
+      {
+        "id": "349879",
+        "text": "If it hadn't been for the seatbelt, I wouldn't be alive today."
+      }
+    ],
+    "indices": "若し(もし){もし} 安全ベルト が 無い{なかったら} 私(わたし)[01] は 今日 生きる{生きていない} だろう",
+    "vocabIds": [
+      "1378520",
+      "2839900",
+      "1579110",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1378520": [
+        {
+          "start": 18,
+          "length": 9,
+          "reading": "いきていないだろう"
+        }
+      ],
+      "1579110": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "きょう"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2839900": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "あんぜんべると"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "id": "150924",
+    "original": "歯石を取っていただきたいのですが。",
+    "en": [
+      {
+        "id": "263632",
+        "text": "Please remove the tartar from my teeth."
+      }
+    ],
+    "indices": "歯石 を 取る{取って} 頂く[01]{いただき} たい[01] のです が[03]",
+    "vocabIds": [
+      "1326980",
+      "1313390"
+    ],
+    "matches": {
+      "1313390": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しせき"
+        }
+      ],
+      "1326980": [
+        {
+          "start": 3,
+          "length": 9,
+          "reading": "とっていただきたい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "150925",
+    "original": "歯石をとらなければなりません。",
+    "en": [
+      {
+        "id": "263631",
+        "text": "The tartar has to be removed."
+      }
+    ],
+    "indices": "歯石 を 取る{とら} ねばならない{なければなりません}",
+    "vocabIds": [
+      "1313390"
+    ],
+    "matches": {
+      "1313390": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しせき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "150926",
+    "original": "歯石がたまっているようです。",
+    "en": [
+      {
+        "id": "263630",
+        "text": "I think I have a lot of tartar."
+      }
+    ],
+    "indices": "歯石~ が 溜まる{たまっている} 様(よう){よう} です",
+    "vocabIds": [
+      "1313390"
+    ],
+    "matches": {
+      "1313390": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しせき"
+        }
+      ]
+    }
+  }
+]

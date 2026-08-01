@@ -1,0 +1,80 @@
+[
+  {
+    "id": "146158",
+    "original": "乗客の乗り心地にはあまり注意が払われていなかった。",
+    "en": [
+      {
+        "id": "268405",
+        "text": "Little attention was paid to the comfort for the passengers."
+      }
+    ],
+    "indices": "乗客 の 乗り心地~ には 余り{あまり} 注意 が 払う[01]{払われていなかった}",
+    "vocabIds": [
+      "1600490",
+      "1580490",
+      "1426530",
+      "1501620"
+    ],
+    "matches": {
+      "1426530": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "ちゅうい"
+        }
+      ],
+      "1501620": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "はらわ"
+        }
+      ],
+      "1580490": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じょうきゃく"
+        }
+      ],
+      "1600490": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "のりごこち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "220385",
+    "original": "この電車は乗り心地がいい。",
+    "en": [
+      {
+        "id": "57706",
+        "text": "This train rides very well."
+      }
+    ],
+    "indices": "此の{この} 電車 は 乗り心地 が いい",
+    "vocabIds": [
+      "1600490",
+      "1443530"
+    ],
+    "matches": {
+      "1443530": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "でんしゃ"
+        }
+      ],
+      "1600490": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "のりごこち"
+        }
+      ]
+    }
+  }
+]

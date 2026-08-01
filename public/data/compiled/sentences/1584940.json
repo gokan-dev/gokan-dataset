@@ -1,0 +1,85 @@
+[
+  {
+    "id": "192733",
+    "original": "よそ行きの靴をはきなさい。",
+    "en": [
+      {
+        "id": "29899",
+        "text": "Put on your good shoes."
+      }
+    ],
+    "indices": "よそ行き[02]{よそ行きの}~ 靴 を 履く[01]{はき} 為さい{なさい}",
+    "vocabIds": [
+      "1584940",
+      "1246700"
+    ],
+    "matches": {
+      "1246700": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "くつ"
+        }
+      ],
+      "1584940": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "よそいき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10967400",
+    "original": "トムはよそ行きだったよ。",
+    "en": [
+      {
+        "id": "10944418",
+        "text": "Tom put on his Sunday best."
+      }
+    ],
+    "vocabIds": [
+      "1584940"
+    ],
+    "matches": {
+      "1584940": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "よそいき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10967401",
+    "original": "トムはよそ行きを着てたよ。",
+    "en": [
+      {
+        "id": "10944418",
+        "text": "Tom put on his Sunday best."
+      }
+    ],
+    "vocabIds": [
+      "1584940",
+      "1423000"
+    ],
+    "matches": {
+      "1423000": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "きてた"
+        }
+      ],
+      "1584940": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "よそいき"
+        }
+      ]
+    }
+  }
+]

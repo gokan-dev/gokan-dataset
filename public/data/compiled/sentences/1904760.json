@@ -1,0 +1,80 @@
+[
+  {
+    "id": "190951",
+    "original": "医師が患者の秘密を漏らすのは道義にもとる。",
+    "en": [
+      {
+        "id": "28111",
+        "text": "It is not ethical for a doctor to reveal confidences."
+      }
+    ],
+    "indices": "医師(いし) が 患者 の 秘密を漏らす の は 道義~ に 悖る{もとる}~",
+    "vocabIds": [
+      "1904760",
+      "1159930",
+      "1538240",
+      "1212210",
+      "1454150"
+    ],
+    "matches": {
+      "1159930": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いし"
+        }
+      ],
+      "1212210": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かんじゃ"
+        }
+      ],
+      "1454150": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "どうぎ"
+        }
+      ],
+      "1538240": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いし"
+        }
+      ],
+      "1904760": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "ひみつをもらす"
+        }
+      ]
+    }
+  },
+  {
+    "id": "232576",
+    "original": "あなたはその秘密を漏らすべきではなかったのに。",
+    "en": [
+      {
+        "id": "69945",
+        "text": "You ought not to have disclosed the secret."
+      }
+    ],
+    "indices": "貴方(あなた)[01]{あなた} は 其の[01]{その} 秘密を漏らす 可き{べき} だ{ではなかった} のに",
+    "vocabIds": [
+      "1904760"
+    ],
+    "matches": {
+      "1904760": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "ひみつをもらす"
+        }
+      ]
+    }
+  }
+]

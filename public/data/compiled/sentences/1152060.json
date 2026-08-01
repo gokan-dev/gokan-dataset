@@ -1,0 +1,220 @@
+[
+  {
+    "id": "158558",
+    "original": "私の悪性のかぜがなおった。",
+    "en": [
+      {
+        "id": "34720",
+        "text": "I have recovered from my bad cold."
+      }
+    ],
+    "indices": "私(わたし)[01] の 悪性(あくせい) の 風邪{かぜ} が 治る[01]{なおった}",
+    "vocabIds": [
+      "1152060",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1152060": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "あくせい"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "172537",
+    "original": "今悪性の風邪がまん延している。",
+    "en": [
+      {
+        "id": "241938",
+        "text": "A bad cold is going about now."
+      }
+    ],
+    "indices": "今(いま) 悪性(あくせい)~ の 風邪 が 蔓延{まん延}~ 為る(する){している}",
+    "vocabIds": [
+      "1526950",
+      "1152060",
+      "1583720",
+      "1288850"
+    ],
+    "matches": {
+      "1152060": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "あくせい"
+        }
+      ],
+      "1288850": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "こん"
+        }
+      ],
+      "1526950": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "まんえん"
+        }
+      ],
+      "1583720": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "かぜ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "191404",
+    "original": "悪性の風邪が全国に流行っている。",
+    "en": [
+      {
+        "id": "28566",
+        "text": "Bad cold is prevailing throughout the country."
+      }
+    ],
+    "indices": "悪性(あくせい) の 風邪 が 全国 に 流行る[02]{流行っている}",
+    "vocabIds": [
+      "1552310",
+      "1152060",
+      "1583720",
+      "1581180"
+    ],
+    "matches": {
+      "1152060": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あくせい"
+        }
+      ],
+      "1552310": [
+        {
+          "start": 9,
+          "length": 6,
+          "reading": "はやっている"
+        }
+      ],
+      "1581180": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ぜんこく"
+        }
+      ],
+      "1583720": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かぜ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "191405",
+    "original": "悪性の風邪が全国で流行っている。",
+    "en": [
+      {
+        "id": "28567",
+        "text": "A serious form of flu prevails throughout the country."
+      }
+    ],
+    "indices": "悪性(あくせい) の 風邪 が 全国 で(#2028980) 流行る[02]{流行っている}",
+    "vocabIds": [
+      "1552310",
+      "1152060",
+      "1583720",
+      "1581180"
+    ],
+    "matches": {
+      "1152060": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あくせい"
+        }
+      ],
+      "1552310": [
+        {
+          "start": 9,
+          "length": 6,
+          "reading": "はやっている"
+        }
+      ],
+      "1581180": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ぜんこく"
+        }
+      ],
+      "1583720": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かぜ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10764028",
+    "original": "腫瘍は悪性です。",
+    "en": [
+      {
+        "id": "3307526",
+        "text": "The tumor is malignant."
+      }
+    ],
+    "vocabIds": [
+      "1328950",
+      "1152060"
+    ],
+    "matches": {
+      "1152060": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "あくしょう"
+        }
+      ],
+      "1328950": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しゅよう"
+        }
+      ]
+    }
+  }
+]

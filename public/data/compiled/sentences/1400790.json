@@ -1,0 +1,80 @@
+[
+  {
+    "id": "110514",
+    "original": "彼はやせ我慢しているんだ。",
+    "en": [
+      {
+        "id": "293172",
+        "text": "He is too proud to give up."
+      }
+    ],
+    "indices": "彼(かれ)[01] は やせ我慢 為る(する){している} のだ{んだ}",
+    "vocabIds": [
+      "1400790",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1400790": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "やせがまん"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "204293",
+    "original": "そんなにやせ我慢しなくても、はやくこっちに来れば良かったのに。",
+    "en": [
+      {
+        "id": "41535",
+        "text": "You should have come here sooner instead of putting it off out of pride for so long."
+      }
+    ],
+    "indices": "そんなに やせ我慢~ 為る(する){しなくて} も 早く[01]{はやく} 此方(こちら){こっち} に 来る(くる)[01]{来れば} 良い{良かった} のに",
+    "vocabIds": [
+      "1605820",
+      "1400790",
+      "1547720"
+    ],
+    "matches": {
+      "1400790": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "やせがまん"
+        }
+      ],
+      "1547720": [
+        {
+          "start": 21,
+          "length": 3,
+          "reading": "くれば"
+        }
+      ],
+      "1605820": [
+        {
+          "start": 24,
+          "length": 6,
+          "reading": "よかったのに"
+        }
+      ]
+    }
+  }
+]

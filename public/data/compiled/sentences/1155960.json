@@ -1,0 +1,122 @@
+[
+  {
+    "id": "176376",
+    "original": "警官は、現場の近くをロープで囲った。",
+    "en": [
+      {
+        "id": "238089",
+        "text": "The police roped off the street near the spot."
+      }
+    ],
+    "indices": "警官 は 現場 の 近く[01] を ロープ で(#2028980) 囲う{囲った}~",
+    "vocabIds": [
+      "1155960",
+      "1252330",
+      "1263760",
+      "1242160"
+    ],
+    "matches": {
+      "1155960": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "かこった"
+        }
+      ],
+      "1242160": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ちかく"
+        }
+      ],
+      "1252330": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "けいかん"
+        }
+      ],
+      "1263760": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "げんば"
+        }
+      ]
+    }
+  },
+  {
+    "id": "192282",
+    "original": "ロープがその場所を囲っている。",
+    "en": [
+      {
+        "id": "29445",
+        "text": "Ropes surround the place."
+      }
+    ],
+    "indices": "ロープ が 其の[01]{その} 場所 を 囲う{囲っている}",
+    "vocabIds": [
+      "1155960",
+      "1355850"
+    ],
+    "matches": {
+      "1155960": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "かこっている"
+        }
+      ],
+      "1355850": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ばしょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11213930",
+    "original": "このフレーズは、引用符で囲った方がいいよ。",
+    "en": [
+      {
+        "id": "3895219",
+        "text": "You should put this phrase in quotation marks."
+      },
+      {
+        "id": "3895221",
+        "text": "You should put quotation marks around this phrase."
+      }
+    ],
+    "vocabIds": [
+      "2160680",
+      "1169690",
+      "1155960"
+    ],
+    "matches": {
+      "1155960": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "かこった"
+        }
+      ],
+      "1169690": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "いんようふ"
+        }
+      ],
+      "2160680": [
+        {
+          "start": 15,
+          "length": 4,
+          "reading": "ほうがいい"
+        }
+      ]
+    }
+  }
+]

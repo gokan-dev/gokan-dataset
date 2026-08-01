@@ -1,0 +1,112 @@
+{
+  "id": "1236410",
+  "writtenForm": {
+    "kanji": "強請る",
+    "alternatives": [
+      "強迫る"
+    ],
+    "containedKanji": [
+      "強",
+      "請"
+    ]
+  },
+  "reading": {
+    "primary": "ねだる",
+    "alternatives": [
+      "ゆする"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 35965,
+    "kanaRank": 6198
+  },
+  "jlptLevel": 1,
+  "progression": {
+    "kklcStep": 977
+  },
+  "senses": [
+    {
+      "pos": [
+        "v5r",
+        "vt"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "to beg",
+        "to pester",
+        "to plead",
+        "to coax",
+        "to hound",
+        "to importune"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "v5r",
+        "vt"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "to solicit",
+        "to demand",
+        "to extort"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "ゆする"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1236410",
+      "isBase": true,
+      "originalPrimaryReading": "ねだる",
+      "originalGlosses": [
+        "to beg",
+        "to pester",
+        "to plead"
+      ]
+    },
+    {
+      "id": "2830217",
+      "isBase": false,
+      "originalPrimaryReading": "ゆする",
+      "originalGlosses": [
+        "to solicit",
+        "to demand",
+        "to extort"
+      ]
+    }
+  ],
+  "components": [
+    "2020300"
+  ]
+}

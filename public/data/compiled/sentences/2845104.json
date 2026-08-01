@@ -1,0 +1,307 @@
+[
+  {
+    "id": "93559",
+    "original": "彼女は２年前に金沢を訪れた。",
+    "en": [
+      {
+        "id": "310148",
+        "text": "She visited Kanazawa two years ago."
+      }
+    ],
+    "indices": "彼女[01] は 年(ねん) 前(まえ)[02] に を 訪れる{訪れた}",
+    "vocabIds": [
+      "1518080",
+      "1483150",
+      "1392590",
+      "2845104",
+      "1461140",
+      "2084840"
+    ],
+    "matches": {
+      "1392590": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "まえに"
+        }
+      ],
+      "1461140": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "に"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1518080": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "おとずれた"
+        }
+      ],
+      "2084840": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "ねん"
+        }
+      ],
+      "2845104": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "かなざわ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "108151",
+    "original": "彼は金沢行きの列車に乗った。",
+    "en": [
+      {
+        "id": "295535",
+        "text": "He got on a train bound for Kanazawa."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 行き[01] の 列車 に 乗る[01]{乗った}",
+    "vocabIds": [
+      "1355120",
+      "2845104",
+      "1578790",
+      "1558370",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1355120": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "のった"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1558370": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "れっしゃ"
+        }
+      ],
+      "1578790": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "いき"
+        }
+      ],
+      "2845104": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "かなざわ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "156022",
+    "original": "私は週末を金沢で過ごします。",
+    "en": [
+      {
+        "id": "258514",
+        "text": "I am going to spend the weekend in Kanazawa."
+      }
+    ],
+    "indices": "私(わたし)[01] は 週末 を で(#2028980) 過ごす{過ごします}",
+    "vocabIds": [
+      "1196000",
+      "1333520",
+      "2845104",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1196000": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "すごします"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1333520": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "しゅうまつ"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2845104": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "かなざわ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "179638",
+    "original": "金沢は静かな町です。",
+    "en": [
+      {
+        "id": "18496",
+        "text": "Kanazawa is a quiet city."
+      }
+    ],
+    "indices": "は 静か{静かな} 町(まち) です",
+    "vocabIds": [
+      "2845104",
+      "1381820",
+      "1603990"
+    ],
+    "matches": {
+      "1381820": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "しずか"
+        }
+      ],
+      "1603990": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "まち"
+        }
+      ],
+      "2845104": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かなざわ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "179639",
+    "original": "金沢では吹雪くことがある。",
+    "en": [
+      {
+        "id": "18497",
+        "text": "There are sometimes blizzards in Kanazawa."
+      }
+    ],
+    "indices": "で は 吹雪く~ 事がある{ことがある}",
+    "vocabIds": [
+      "2011640",
+      "2845104"
+    ],
+    "matches": {
+      "2011640": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "ふぶく"
+        }
+      ],
+      "2845104": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かなざわ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10999337",
+    "original": "石川県の県庁所在地は金沢市です。",
+    "en": [
+      {
+        "id": "10999338",
+        "text": "Ishikawa Prefecture's capital is Kanazawa City."
+      }
+    ],
+    "vocabIds": [
+      "1258890",
+      "1382690",
+      "2845104",
+      "1308090"
+    ],
+    "matches": {
+      "1258890": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "けんちょうしょざいち"
+        }
+      ],
+      "1308090": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "し"
+        }
+      ],
+      "1382690": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "いしかわけん"
+        }
+      ],
+      "2845104": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "かなざわ"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,103 @@
+[
+  {
+    "id": "85511",
+    "original": "鼻汁は黄緑色です。",
+    "en": [
+      {
+        "id": "318202",
+        "text": "The mucus is greenish yellow."
+      }
+    ],
+    "indices": "鼻汁~ は 黄緑色~ です",
+    "vocabIds": [
+      "1182400",
+      "1732260"
+    ],
+    "matches": {
+      "1182400": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "きりょくしょく"
+        }
+      ],
+      "1732260": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "はなしる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "192759",
+    "original": "よく鼻の後ろに鼻汁が落ちます。",
+    "en": [
+      {
+        "id": "29925",
+        "text": "I often have post-nasal drip."
+      }
+    ],
+    "indices": "良く[02]{よく} 鼻 の 後ろ に 鼻汁 が 落ちる[01]{落ちます}",
+    "vocabIds": [
+      "1548550",
+      "1269410",
+      "1732260",
+      "1486720"
+    ],
+    "matches": {
+      "1269410": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "うしろ"
+        }
+      ],
+      "1486720": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "はな"
+        }
+      ],
+      "1548550": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "おちます"
+        }
+      ],
+      "1732260": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "はなしる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "198589",
+    "original": "ねばねばした鼻汁です。",
+    "en": [
+      {
+        "id": "35782",
+        "text": "The mucus is thick."
+      }
+    ],
+    "indices": "粘々{ねばねば} 為る(する){した} 鼻汁 です",
+    "vocabIds": [
+      "1732260"
+    ],
+    "matches": {
+      "1732260": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "はなしる"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,159 @@
+[
+  {
+    "id": "126745",
+    "original": "遅くとも出発時刻の４５分前には登場手続きを必ず完了させてください。",
+    "en": [
+      {
+        "id": "277345",
+        "text": "Be sure to check in at least 45 minutes prior to departure time."
+      }
+    ],
+    "indices": "遅くとも 出発 時刻 の 分(ふん) 前(まえ) には 登場 手続き を 必ず 完了[01] 為せる{させて} 下さい{ください}",
+    "vocabIds": [
+      "1421990",
+      "2252500",
+      "1598350",
+      "2039350",
+      "1392590",
+      "1444800",
+      "1487400",
+      "1211630",
+      "1579470"
+    ],
+    "matches": {
+      "1211630": [
+        {
+          "start": 23,
+          "length": 2,
+          "reading": "かんりょう"
+        }
+      ],
+      "1392590": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "まえに"
+        }
+      ],
+      "1421990": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "おそくとも"
+        }
+      ],
+      "1444800": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "とうじょう"
+        }
+      ],
+      "1487400": [
+        {
+          "start": 21,
+          "length": 2,
+          "reading": "かならず"
+        }
+      ],
+      "1579470": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "よん"
+        }
+      ],
+      "1598350": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "てつづき"
+        }
+      ],
+      "2039350": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "ごふん"
+        }
+      ],
+      "2252500": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "しゅっぱつじこく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "147696",
+    "original": "出発時刻を確認したいのですが。",
+    "en": [
+      {
+        "id": "266864",
+        "text": "I'd like to confirm the departure time."
+      },
+      {
+        "id": "528517",
+        "text": "I'd like to confirm the hour of departure."
+      }
+    ],
+    "indices": "出発 時刻 を 確認 したい のです が[03]",
+    "vocabIds": [
+      "2252500",
+      "1205900"
+    ],
+    "matches": {
+      "1205900": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "かくにん"
+        }
+      ],
+      "2252500": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "しゅっぱつじこく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "147697",
+    "original": "出発時刻は何時ですか。",
+    "en": [
+      {
+        "id": "266861",
+        "text": "What is the departure time?"
+      },
+      {
+        "id": "7712697",
+        "text": "What's the departure time?"
+      }
+    ],
+    "indices": "出発 時刻 は 何時(なんじ) ですか",
+    "vocabIds": [
+      "2252500",
+      "1188770"
+    ],
+    "matches": {
+      "1188770": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "なんじ"
+        }
+      ],
+      "2252500": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "しゅっぱつじこく"
+        }
+      ]
+    }
+  }
+]

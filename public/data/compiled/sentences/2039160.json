@@ -1,0 +1,107 @@
+[
+  {
+    "id": "87713",
+    "original": "彼女は頭が変だ。",
+    "en": [
+      {
+        "id": "315994",
+        "text": "She is out of her mind."
+      }
+    ],
+    "indices": "彼女[01] は 頭(あたま) が 変[01] だ",
+    "vocabIds": [
+      "2039160",
+      "1483150"
+    ],
+    "matches": {
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "2039160": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "あたまがへん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "101702",
+    "original": "彼は頭が変だ。",
+    "en": [
+      {
+        "id": "301991",
+        "text": "He is not in his right mind."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 頭(あたま) が 変[01] だ",
+    "vocabIds": [
+      "2039160",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "2039160": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "あたまがへん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "140247",
+    "original": "騒音で頭が変になりそうだ。",
+    "en": [
+      {
+        "id": "274326",
+        "text": "I'm going crazy from too much noise."
+      },
+      {
+        "id": "1231170",
+        "text": "The loud noise is driving me crazy."
+      }
+    ],
+    "indices": "騒音 で(#2028980) 頭(あたま) が 変[01] になる{になり} そう[01] だ",
+    "vocabIds": [
+      "2039160",
+      "1403060"
+    ],
+    "matches": {
+      "1403060": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "そうおん"
+        }
+      ],
+      "2039160": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "あたまがへん"
+        }
+      ]
+    }
+  }
+]

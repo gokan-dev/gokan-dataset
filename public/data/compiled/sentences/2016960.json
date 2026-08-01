@@ -1,0 +1,79 @@
+[
+  {
+    "id": "183220",
+    "original": "気楽に行こうぜ。大丈夫、形勢は君に有利なのだから。",
+    "en": [
+      {
+        "id": "20342",
+        "text": "Take it easy. I can assure you that chances are in your favor."
+      }
+    ],
+    "indices": "気楽に行こう~ ぜ 大丈夫(だいじょうぶ) 形勢 は 君(きみ)[01] に 有利 なのだ から",
+    "vocabIds": [
+      "2016960",
+      "1414150",
+      "1250350",
+      "1605720",
+      "1247250"
+    ],
+    "matches": {
+      "1247250": [
+        {
+          "start": 15,
+          "length": 1,
+          "reading": "きみ"
+        }
+      ],
+      "1250350": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "けいせい"
+        }
+      ],
+      "1414150": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "だいじょうぶ"
+        }
+      ],
+      "1605720": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "ゆうり"
+        }
+      ],
+      "2016960": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "きらくにいこう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9287882",
+    "original": "気楽にいこうぜ。",
+    "en": [
+      {
+        "id": "20346",
+        "text": "Let's take it easy."
+      }
+    ],
+    "vocabIds": [
+      "2016960"
+    ],
+    "matches": {
+      "2016960": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "きらくにいこう"
+        }
+      ]
+    }
+  }
+]

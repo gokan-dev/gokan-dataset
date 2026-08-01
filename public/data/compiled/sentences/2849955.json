@@ -1,0 +1,41 @@
+[
+  {
+    "id": "193413",
+    "original": "もし予防接種証明書があったらお持ちください。",
+    "en": [
+      {
+        "id": "30578",
+        "text": "If you have a certificate of immunization, please bring it when you come."
+      }
+    ],
+    "indices": "若し(もし){もし} 予防接種 証明書~ が[01] 有る{あったら} 持つ[01]{お持ち} 下さい{ください}",
+    "vocabIds": [
+      "1315720",
+      "2849955",
+      "1543660"
+    ],
+    "matches": {
+      "1315720": [
+        {
+          "start": 15,
+          "length": 6,
+          "reading": "もちください"
+        }
+      ],
+      "1543660": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "よぼう"
+        }
+      ],
+      "2849955": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "せっしゅしょうめいしょ"
+        }
+      ]
+    }
+  }
+]

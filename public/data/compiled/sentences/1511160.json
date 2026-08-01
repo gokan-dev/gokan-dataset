@@ -1,0 +1,87 @@
+[
+  {
+    "id": "220075",
+    "original": "この布は変色しません。",
+    "en": [
+      {
+        "id": "57394",
+        "text": "This cloth will not turn color."
+      }
+    ],
+    "indices": "此の{この} 布[01] は 変色~ 為る(する){しません}",
+    "vocabIds": [
+      "1511160",
+      "1496840",
+      "1500880"
+    ],
+    "matches": {
+      "1496840": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ぬの"
+        }
+      ],
+      "1500880": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ぬの"
+        }
+      ],
+      "1511160": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "へんしょく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9677281",
+    "original": "皮膚が赤紫色に変色している。",
+    "en": [
+      {
+        "id": "9983025",
+        "text": "The skin is changing to a purplish red."
+      }
+    ],
+    "vocabIds": [
+      "1483920",
+      "1311700",
+      "1511160",
+      "2013900"
+    ],
+    "matches": {
+      "1311700": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "むらさきいろ"
+        }
+      ],
+      "1483920": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ひふ"
+        }
+      ],
+      "1511160": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "へんしょく"
+        }
+      ],
+      "2013900": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "あか"
+        }
+      ]
+    }
+  }
+]

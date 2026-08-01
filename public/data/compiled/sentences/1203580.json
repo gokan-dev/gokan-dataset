@@ -1,0 +1,93 @@
+[
+  {
+    "id": "184831",
+    "original": "外交的な対話によって、その紛争に終止符を打つことができた。",
+    "en": [
+      {
+        "id": "21962",
+        "text": "Diplomatic dialogue helped put an end to the conflict."
+      }
+    ],
+    "indices": "外交的{外交的な}~ 対話 に因って{によって} 其の[01]{その} 紛争 に 終止符を打つ~ 事が出来る{ことができた}",
+    "vocabIds": [
+      "2146910",
+      "1203580",
+      "1410300",
+      "1505060"
+    ],
+    "matches": {
+      "1203580": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "がいこうてき"
+        }
+      ],
+      "1410300": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "たいわ"
+        }
+      ],
+      "1505060": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "ふんそう"
+        }
+      ],
+      "2146910": [
+        {
+          "start": 16,
+          "length": 6,
+          "reading": "しゅうしふをうつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8635120",
+    "original": "トムって外交的だよね。",
+    "en": [
+      {
+        "id": "3417227",
+        "text": "Tom is diplomatic, isn't he?"
+      }
+    ],
+    "vocabIds": [
+      "1203580"
+    ],
+    "matches": {
+      "1203580": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "がいこうてき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8635192",
+    "original": "トムは外交的だけど、メアリーはそうでもない。",
+    "en": [
+      {
+        "id": "6667119",
+        "text": "Tom is diplomatic, but Mary isn't."
+      }
+    ],
+    "vocabIds": [
+      "1203580"
+    ],
+    "matches": {
+      "1203580": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "がいこうてき"
+        }
+      ]
+    }
+  }
+]

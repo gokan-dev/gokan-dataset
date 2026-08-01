@@ -1,0 +1,67 @@
+[
+  {
+    "id": "199892",
+    "original": "トムは初心者だが飲み込みが速い。",
+    "en": [
+      {
+        "id": "37093",
+        "text": "Tom's a beginner, but he catches on fast."
+      },
+      {
+        "id": "7493715",
+        "text": "Tom is a beginner, but he catches on fast."
+      }
+    ],
+    "indices": "は 初心者 だ が[03] 飲み込み[02]~ が 早い[01]{速い}",
+    "vocabIds": [
+      "1600390",
+      "1342860",
+      "1404975"
+    ],
+    "matches": {
+      "1342860": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "しょしんしゃ"
+        }
+      ],
+      "1404975": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "はやい"
+        }
+      ],
+      "1600390": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "のみこみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10159886",
+    "original": "飲み込みがいいね。",
+    "en": [
+      {
+        "id": "4334400",
+        "text": "You are a fast learner."
+      }
+    ],
+    "vocabIds": [
+      "1600390"
+    ],
+    "matches": {
+      "1600390": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "のみこみ"
+        }
+      ]
+    }
+  }
+]

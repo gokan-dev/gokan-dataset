@@ -1,0 +1,151 @@
+[
+  {
+    "id": "76335",
+    "original": "瓜のつるに茄子はならぬ。",
+    "en": [
+      {
+        "id": "327384",
+        "text": "You don't get eggplants from a gourd vine."
+      },
+      {
+        "id": "5046519",
+        "text": "You can't make a silk purse out of a sow's ear."
+      }
+    ],
+    "indices": "瓜の蔓{瓜のつる}~ に 茄子~ は 生る{ならぬ}",
+    "vocabIds": [
+      "1195240",
+      "1172570"
+    ],
+    "matches": {
+      "1172570": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "うり"
+        }
+      ],
+      "1195240": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "なすび"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11804143",
+    "original": "茄子は野菜よ。",
+    "en": [
+      {
+        "id": "5308757",
+        "text": "The eggplant is a vegetable."
+      }
+    ],
+    "vocabIds": [
+      "1195240",
+      "1537370"
+    ],
+    "matches": {
+      "1195240": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "なすび"
+        }
+      ],
+      "1537370": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "やさい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11804144",
+    "original": "一番好きな野菜は、茄子です。",
+    "en": [
+      {
+        "id": "9167378",
+        "text": "My favorite vegetable is eggplant."
+      }
+    ],
+    "vocabIds": [
+      "1165970",
+      "1277450",
+      "1537370",
+      "1195240"
+    ],
+    "matches": {
+      "1165970": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いちばん"
+        }
+      ],
+      "1195240": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "なすび"
+        }
+      ],
+      "1277450": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "すき"
+        }
+      ],
+      "1537370": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "やさい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11804145",
+    "original": "今日のお昼は、茄子なんだ。",
+    "en": [
+      {
+        "id": "8965178",
+        "text": "Today I am having eggplant for lunch."
+      }
+    ],
+    "vocabIds": [
+      "1579110",
+      "1660100",
+      "1195240"
+    ],
+    "matches": {
+      "1195240": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "なすび"
+        }
+      ],
+      "1579110": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きょう"
+        }
+      ],
+      "1660100": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "おひる"
+        }
+      ]
+    }
+  }
+]

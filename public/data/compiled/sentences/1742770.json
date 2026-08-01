@@ -1,0 +1,110 @@
+[
+  {
+    "id": "126113",
+    "original": "町は見渡す限りの焼け野原であった。",
+    "en": [
+      {
+        "id": "277879",
+        "text": "The city, as far as the eye could see, lay in ruins."
+      }
+    ],
+    "indices": "町(まち) は 見渡す限り の 焼け野原 である{であった}",
+    "vocabIds": [
+      "2812480",
+      "1742770",
+      "1603990"
+    ],
+    "matches": {
+      "1603990": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "まち"
+        }
+      ],
+      "1742770": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "やけのはら"
+        }
+      ],
+      "2812480": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "みわたすかぎり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "207795",
+    "original": "その町は火災で焼け野原になった。",
+    "en": [
+      {
+        "id": "45050",
+        "text": "The city was destroyed by fire."
+      }
+    ],
+    "indices": "其の[01]{その} 町(まち) は 火災 で(#2028980) 焼け野原~ になる[01]{になった}",
+    "vocabIds": [
+      "1742770",
+      "1193880",
+      "1603990"
+    ],
+    "matches": {
+      "1193880": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "かさい"
+        }
+      ],
+      "1603990": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "まち"
+        }
+      ],
+      "1742770": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "やけのはら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10151420",
+    "original": "町中、焼け野原となった。",
+    "en": [
+      {
+        "id": "277877",
+        "text": "All of the town was destroyed by a fire."
+      }
+    ],
+    "vocabIds": [
+      "1742770",
+      "1611620"
+    ],
+    "matches": {
+      "1611620": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "まちなか"
+        }
+      ],
+      "1742770": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "やけのはら"
+        }
+      ]
+    }
+  }
+]

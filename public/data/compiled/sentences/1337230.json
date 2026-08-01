@@ -1,0 +1,179 @@
+[
+  {
+    "id": "79764",
+    "original": "夜が更けて疲れていたので私は宿屋に泊まった。",
+    "en": [
+      {
+        "id": "323947",
+        "text": "As it was late at night and I was very tired, I put up at an inn."
+      },
+      {
+        "id": "570908",
+        "text": "Since it was late at night and I was very tired, I stayed at an inn."
+      }
+    ],
+    "indices": "夜 が 更ける{更けて} 疲れる[01]{疲れていた} ので 私(わたし)[01] は 宿屋 に 泊まる[01]{泊まった}",
+    "vocabIds": [
+      "1483740",
+      "1474850",
+      "1279290",
+      "1337230",
+      "1536350",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1279290": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "ふけて"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1337230": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "やどや"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1474850": [
+        {
+          "start": 17,
+          "length": 4,
+          "reading": "とまった"
+        }
+      ],
+      "1483740": [
+        {
+          "start": 5,
+          "length": 7,
+          "reading": "つかれていたので"
+        }
+      ],
+      "1536350": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "よる"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "98416",
+    "original": "彼らの泊まっていた宿屋で火事が起こった。",
+    "en": [
+      {
+        "id": "305286",
+        "text": "A fire broke out at the inn where they were staying."
+      }
+    ],
+    "indices": "彼ら(かれら){彼らの} 泊まる[01]{泊まっていた} 宿屋 で(#2028980) 火事 が 起こる{起こった}",
+    "vocabIds": [
+      "1474850",
+      "1223680",
+      "1483090",
+      "2397090",
+      "1337230",
+      "1193950"
+    ],
+    "matches": {
+      "1193950": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "かじ"
+        }
+      ],
+      "1223680": [
+        {
+          "start": 15,
+          "length": 4,
+          "reading": "おこった"
+        }
+      ],
+      "1337230": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "やどや"
+        }
+      ],
+      "1474850": [
+        {
+          "start": 3,
+          "length": 6,
+          "reading": "とまっていた"
+        }
+      ],
+      "1483090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれら"
+        }
+      ],
+      "2397090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "147897",
+    "original": "宿屋といってもまるで丸太小屋のようだった。",
+    "en": [
+      {
+        "id": "266663",
+        "text": "The inn was no better than a log cabin."
+      }
+    ],
+    "indices": "宿屋~ と言っても{といっても} 丸で{まるで} 丸太小屋 の 様だ{ようだった}",
+    "vocabIds": [
+      "1216580",
+      "1337230"
+    ],
+    "matches": {
+      "1216580": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "まるたこや"
+        }
+      ],
+      "1337230": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "やどや"
+        }
+      ]
+    }
+  }
+]

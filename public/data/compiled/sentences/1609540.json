@@ -1,0 +1,104 @@
+[
+  {
+    "id": "83923",
+    "original": "寝る前に風邪薬を3錠飲んだ。",
+    "en": [
+      {
+        "id": "319793",
+        "text": "I took three tablets of a cold medicine before going to bed."
+      }
+    ],
+    "indices": "寝る 前(まえ)[02] に 風邪薬 を 錠[02] 飲む[01]{飲んだ}",
+    "vocabIds": [
+      "1609540",
+      "1169870",
+      "1360010",
+      "1392590",
+      "1633480"
+    ],
+    "matches": {
+      "1169870": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "のんだ"
+        }
+      ],
+      "1360010": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ねる"
+        }
+      ],
+      "1392590": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "まえに"
+        }
+      ],
+      "1609540": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "かぜやく"
+        }
+      ],
+      "1633480": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "じょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "173824",
+    "original": "喉が痛くて、熱があります。風邪薬はありますか。",
+    "en": [
+      {
+        "id": "240646",
+        "text": "My throat hurts, and I have a fever. Can I have some cold medicine?"
+      }
+    ],
+    "indices": "喉(のど)[01] が 痛い[01]{痛くて} 熱(ねつ) が[01] 有る{あります} 風邪薬~ は 有る{あります} か",
+    "vocabIds": [
+      "1609540",
+      "1432680",
+      "1600280",
+      "1467710"
+    ],
+    "matches": {
+      "1432680": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "いたくて"
+        }
+      ],
+      "1467710": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "ねつ"
+        }
+      ],
+      "1600280": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "のど"
+        }
+      ],
+      "1609540": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "かぜやく"
+        }
+      ]
+    }
+  }
+]

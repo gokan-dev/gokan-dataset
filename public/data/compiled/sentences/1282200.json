@@ -1,0 +1,79 @@
+[
+  {
+    "id": "173325",
+    "original": "行方不明者を探そうと、できるだけの努力をした。",
+    "en": [
+      {
+        "id": "241145",
+        "text": "We tried our best to find the missing persons."
+      }
+    ],
+    "indices": "行方不明者~ を 探す{探そう} と 出来るだけ{できるだけ} の 努力 を 為る(する){した}",
+    "vocabIds": [
+      "1282200",
+      "1593670",
+      "1445130"
+    ],
+    "matches": {
+      "1282200": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "ゆくえふめいしゃ"
+        }
+      ],
+      "1445130": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "どりょく"
+        }
+      ],
+      "1593670": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "さがそうと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8878016",
+    "original": "トムは行方不明者届を出した。",
+    "en": [
+      {
+        "id": "5937124",
+        "text": "Tom filed a missing person's report."
+      }
+    ],
+    "vocabIds": [
+      "1282200",
+      "1338180",
+      "1598810"
+    ],
+    "matches": {
+      "1282200": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "ゆくえふめいしゃ"
+        }
+      ],
+      "1338180": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "だした"
+        }
+      ],
+      "1598810": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "とどけ"
+        }
+      ]
+    }
+  }
+]

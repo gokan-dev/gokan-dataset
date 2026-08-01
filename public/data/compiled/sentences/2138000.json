@@ -1,0 +1,96 @@
+[
+  {
+    "id": "176198",
+    "original": "警察は強盗犯を即座に逮捕しました。",
+    "en": [
+      {
+        "id": "238113",
+        "text": "The police arrested the burglar on the spot."
+      }
+    ],
+    "indices": "警察 は 強盗 犯 を 即座に 逮捕 為る(する){しました}",
+    "vocabIds": [
+      "2138000",
+      "1404190",
+      "1252390",
+      "1411470"
+    ],
+    "matches": {
+      "1252390": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "けいさつ"
+        }
+      ],
+      "1404190": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "そくざに"
+        }
+      ],
+      "1411470": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "たいほ"
+        }
+      ],
+      "2138000": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "ごうとうはん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "176351",
+    "original": "警官は強盗犯を即座に逮捕しました。",
+    "en": [
+      {
+        "id": "238113",
+        "text": "The police arrested the burglar on the spot."
+      }
+    ],
+    "indices": "警官 は 強盗 犯 を 即座に~ 逮捕 為る(する){しました}",
+    "vocabIds": [
+      "2138000",
+      "1404190",
+      "1252330",
+      "1411470"
+    ],
+    "matches": {
+      "1252330": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "けいかん"
+        }
+      ],
+      "1404190": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "そくざに"
+        }
+      ],
+      "1411470": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "たいほ"
+        }
+      ],
+      "2138000": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "ごうとうはん"
+        }
+      ]
+    }
+  }
+]

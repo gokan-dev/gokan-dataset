@@ -1,0 +1,71 @@
+[
+  {
+    "id": "226579",
+    "original": "お名前と社会保障番号をおっしゃって下さい。",
+    "en": [
+      {
+        "id": "63924",
+        "text": "State your name and social security number, please."
+      }
+    ],
+    "indices": "御(お){お} 名前[01] と 社会保障~ 番号 を 仰っしゃる{おっしゃって} 下さい",
+    "vocabIds": [
+      "2857414",
+      "2853328",
+      "1184280"
+    ],
+    "matches": {
+      "1184280": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "ください"
+        }
+      ],
+      "2853328": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "おなまえ"
+        }
+      ],
+      "2857414": [
+        {
+          "start": 4,
+          "length": 6,
+          "reading": "しゃかいほしょうばんごう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11859944",
+    "original": "トムの社会保障番号って何？",
+    "en": [
+      {
+        "id": "7517521",
+        "text": "What's Tom's social security number?"
+      }
+    ],
+    "vocabIds": [
+      "2857414",
+      "1577100"
+    ],
+    "matches": {
+      "1577100": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "なに"
+        }
+      ],
+      "2857414": [
+        {
+          "start": 3,
+          "length": 6,
+          "reading": "しゃかいほしょうばんごう"
+        }
+      ]
+    }
+  }
+]

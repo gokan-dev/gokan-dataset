@@ -1,0 +1,83 @@
+[
+  {
+    "id": "125716",
+    "original": "賃料が手頃なら、どんなマンションでも構いません。",
+    "en": [
+      {
+        "id": "278276",
+        "text": "Any apartment will do as long as the rent is reasonable."
+      }
+    ],
+    "indices": "賃料~ が 手ごろ[02]{手頃} なら どんな マンション でも 構いません",
+    "vocabIds": [
+      "1279670",
+      "2012390",
+      "1327660"
+    ],
+    "matches": {
+      "1279670": [
+        {
+          "start": 18,
+          "length": 5,
+          "reading": "かまいません"
+        }
+      ],
+      "1327660": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "てごろ"
+        }
+      ],
+      "2012390": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ちんりょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11961538",
+    "original": "来月より賃料が上がります。",
+    "en": [
+      {
+        "id": "4498999",
+        "text": "Rents will go up next month."
+      },
+      {
+        "id": "12272926",
+        "text": "The rent will go up next month."
+      }
+    ],
+    "vocabIds": [
+      "1352290",
+      "1547900",
+      "2012390"
+    ],
+    "matches": {
+      "1352290": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "あがります"
+        }
+      ],
+      "1547900": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "らいげつ"
+        }
+      ],
+      "2012390": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ちんりょう"
+        }
+      ]
+    }
+  }
+]

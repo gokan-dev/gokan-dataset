@@ -1,0 +1,126 @@
+[
+  {
+    "id": "97945",
+    "original": "彼らはその湖を遠回りしていった。",
+    "en": [
+      {
+        "id": "305758",
+        "text": "They went around the lake."
+      }
+    ],
+    "indices": "彼ら(かれら) は 其の[01]{その} 湖(みずうみ) を 遠回り 為る(する){して} 行く[10]{いった}",
+    "vocabIds": [
+      "1177930",
+      "1483090",
+      "2397090",
+      "1267280"
+    ],
+    "matches": {
+      "1177930": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "とおまわり"
+        }
+      ],
+      "1267280": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "みずうみ"
+        }
+      ],
+      "1483090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれら"
+        }
+      ],
+      "2397090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "193756",
+    "original": "もし遠回りでなければポストに入れてください。",
+    "en": [
+      {
+        "id": "30924",
+        "text": "Please drop it in the mail if it's not out of your way."
+      }
+    ],
+    "indices": "若し(もし){もし} 遠回り~ でないと{でなければ} ポスト に 入れる{入れて} 下さい{ください}",
+    "vocabIds": [
+      "1465610",
+      "1177930"
+    ],
+    "matches": {
+      "1177930": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "とおまわり"
+        }
+      ],
+      "1465610": [
+        {
+          "start": 14,
+          "length": 7,
+          "reading": "いれてください"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10366721",
+    "original": "今日は遠回りをして帰ろっと。",
+    "en": [
+      {
+        "id": "10372677",
+        "text": "I think I will take a roundabout way to return home."
+      },
+      {
+        "id": "10372678",
+        "text": "I think I will take a detour to return home."
+      },
+      {
+        "id": "10440669",
+        "text": "I think I'll take the long way home today."
+      }
+    ],
+    "vocabIds": [
+      "1289400",
+      "1177930",
+      "1221270"
+    ],
+    "matches": {
+      "1177930": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "とおまわり"
+        }
+      ],
+      "1221270": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "かえろ"
+        }
+      ],
+      "1289400": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きょうは"
+        }
+      ]
+    }
+  }
+]

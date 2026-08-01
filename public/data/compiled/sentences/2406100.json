@@ -1,0 +1,82 @@
+[
+  {
+    "id": "10962357",
+    "original": "今、何時何分何秒ですか？",
+    "en": [
+      {
+        "id": "12022446",
+        "text": "What hour, minute, and second is it now?"
+      }
+    ],
+    "vocabIds": [
+      "2406100",
+      "1288850",
+      "1577100",
+      "1490430"
+    ],
+    "matches": {
+      "1288850": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "いま"
+        }
+      ],
+      "1490430": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "びょう"
+        }
+      ],
+      "1577100": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "なん"
+        }
+      ],
+      "2406100": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "なんじなんふん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10962354",
+    "original": "今、何時何分ですか？",
+    "en": [
+      {
+        "id": "10962352",
+        "text": "What's the exact time now?"
+      },
+      {
+        "id": "13061448",
+        "text": "What's the time now in hours and minutes?"
+      }
+    ],
+    "vocabIds": [
+      "2406100",
+      "1288850"
+    ],
+    "matches": {
+      "1288850": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "いま"
+        }
+      ],
+      "2406100": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "なんじなんふん"
+        }
+      ]
+    }
+  }
+]

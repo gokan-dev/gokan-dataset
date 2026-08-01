@@ -1,0 +1,33 @@
+[
+  {
+    "id": "79664",
+    "original": "爺さんは酒にふけっている。",
+    "en": [
+      {
+        "id": "324054",
+        "text": "An old man indulges in drinking."
+      }
+    ],
+    "indices": "爺さん[02] は 酒(さけ) に 耽る[01]{ふけっている}",
+    "vocabIds": [
+      "2231000",
+      "1329010"
+    ],
+    "matches": {
+      "1329010": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "さけ"
+        }
+      ],
+      "2231000": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "じいさん"
+        }
+      ]
+    }
+  }
+]

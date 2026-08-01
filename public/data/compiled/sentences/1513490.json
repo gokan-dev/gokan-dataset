@@ -1,0 +1,118 @@
+[
+  {
+    "id": "83239",
+    "original": "保険証を出してください。",
+    "en": [
+      {
+        "id": "320477",
+        "text": "Let me see your health insurance certificate."
+      }
+    ],
+    "indices": "保険証~ を 出す{出して} 下さい{ください}",
+    "vocabIds": [
+      "1338180",
+      "1513490"
+    ],
+    "matches": {
+      "1338180": [
+        {
+          "start": 4,
+          "length": 7,
+          "reading": "だしてください"
+        }
+      ],
+      "1513490": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ほけんしょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "83240",
+    "original": "保険証を持って来るのを忘れてしまいました。",
+    "en": [
+      {
+        "id": "395438",
+        "text": "I forgot to bring my health insurance card."
+      }
+    ],
+    "indices": "保険証 を 持ってくる{持って来る} の を 忘れる{忘れて} 仕舞う{しまいました}",
+    "vocabIds": [
+      "1519210",
+      "1315710",
+      "1513490"
+    ],
+    "matches": {
+      "1315710": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "もってくる"
+        }
+      ],
+      "1513490": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ほけんしょう"
+        }
+      ],
+      "1519210": [
+        {
+          "start": 11,
+          "length": 9,
+          "reading": "わすれてしまいました"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10963743",
+    "original": "毎月初めは保険証を提示してください。",
+    "en": [
+      {
+        "id": "10963747",
+        "text": "Please present your insurance card at the beginning of each month."
+      }
+    ],
+    "vocabIds": [
+      "1307530",
+      "1513490",
+      "1584350",
+      "1436400"
+    ],
+    "matches": {
+      "1307530": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "はじめは"
+        }
+      ],
+      "1436400": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "ていじ"
+        }
+      ],
+      "1513490": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "ほけんしょう"
+        }
+      ],
+      "1584350": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "まいつき"
+        }
+      ]
+    }
+  }
+]

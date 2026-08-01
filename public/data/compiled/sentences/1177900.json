@@ -1,0 +1,41 @@
+[
+  {
+    "id": "76233",
+    "original": "魚は遠火でゆっくり、こんがり焼き上げます。",
+    "en": [
+      {
+        "id": "327485",
+        "text": "The fish is baked slowly till browned over a not-too-close fire."
+      }
+    ],
+    "indices": "魚 は 遠火~ で(#2028980) ゆっくり こんがり 焼き上げる{焼き上げます}~",
+    "vocabIds": [
+      "1847610",
+      "1177900",
+      "1578010"
+    ],
+    "matches": {
+      "1177900": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "とおび"
+        }
+      ],
+      "1578010": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "さかな"
+        }
+      ],
+      "1847610": [
+        {
+          "start": 14,
+          "length": 6,
+          "reading": "やきあげます"
+        }
+      ]
+    }
+  }
+]

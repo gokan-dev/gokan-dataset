@@ -1,0 +1,111 @@
+[
+  {
+    "id": "145165",
+    "original": "新聞によれば、その町に大火があったそうだ。",
+    "en": [
+      {
+        "id": "269398",
+        "text": "According to the papers, there was a big fire in the town."
+      }
+    ],
+    "indices": "新聞 に依れば{によれば} 其の[01]{その} 町(まち) に 大火 が[01] 有る{あった} そうだ[02]~",
+    "vocabIds": [
+      "1362360",
+      "1413170",
+      "1603990"
+    ],
+    "matches": {
+      "1362360": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しんぶん"
+        }
+      ],
+      "1413170": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "たいか"
+        }
+      ],
+      "1603990": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "まち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "169604",
+    "original": "昨夜大火があった。",
+    "en": [
+      {
+        "id": "244631",
+        "text": "There was a big fire last night."
+      }
+    ],
+    "indices": "昨夜(ゆうべ)[02] 大火~ が[01] 有る{あった}",
+    "vocabIds": [
+      "1542640",
+      "1413170"
+    ],
+    "matches": {
+      "1413170": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "たいか"
+        }
+      ],
+      "1542640": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "さくや"
+        }
+      ]
+    }
+  },
+  {
+    "id": "220533",
+    "original": "この町に大火があったのは、あなたがいくつの時でしたか。",
+    "en": [
+      {
+        "id": "57856",
+        "text": "How old were you when this town had the big fire?"
+      }
+    ],
+    "indices": "此の{この} 町(まち) に 大火 が[01] 有る{あった} の は 貴方(あなた)[01]{あなた} が 幾つ[02]{いくつ} の 時(とき) です{でした} か",
+    "vocabIds": [
+      "1413170",
+      "1603990",
+      "1315840"
+    ],
+    "matches": {
+      "1315840": [
+        {
+          "start": 21,
+          "length": 1,
+          "reading": "とき"
+        }
+      ],
+      "1413170": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "たいか"
+        }
+      ],
+      "1603990": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "まち"
+        }
+      ]
+    }
+  }
+]

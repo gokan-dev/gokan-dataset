@@ -1,0 +1,142 @@
+[
+  {
+    "id": "104512",
+    "original": "彼は取引先に照会状を書いた。",
+    "en": [
+      {
+        "id": "299179",
+        "text": "He wrote a letter of inquiry to his business contact."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 取引先 に 照会状~ を 書く{書いた}",
+    "vocabIds": [
+      "1599130",
+      "2405350",
+      "1343950",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1343950": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "かいた"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1599130": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "とりひきさき"
+        }
+      ],
+      "2405350": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "しょうかいじょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "189353",
+    "original": "営業員をこの新しい取引先に派遣してください。",
+    "en": [
+      {
+        "id": "26501",
+        "text": "Please send your sales reps to this new account."
+      }
+    ],
+    "indices": "営業員~ を 此の{この} 新しい 取引先~ に 派遣[01]{派遣して} 下さい{ください}",
+    "vocabIds": [
+      "2679900",
+      "1361490",
+      "1599130",
+      "1471130"
+    ],
+    "matches": {
+      "1361490": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "あたらしい"
+        }
+      ],
+      "1471130": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "はけん"
+        }
+      ],
+      "1599130": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "とりひきさき"
+        }
+      ],
+      "2679900": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "えいぎょういん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1411069",
+    "original": "取引先の訪問を受けました。",
+    "en": [
+      {
+        "id": "1487439",
+        "text": "I was visited by a customer."
+      }
+    ],
+    "vocabIds": [
+      "1329590",
+      "1599130",
+      "1518120"
+    ],
+    "matches": {
+      "1329590": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "うけました"
+        }
+      ],
+      "1518120": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ほうもん"
+        }
+      ],
+      "1599130": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "とりひきさき"
+        }
+      ]
+    }
+  }
+]

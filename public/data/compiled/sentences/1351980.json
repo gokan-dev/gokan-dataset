@@ -1,0 +1,129 @@
+[
+  {
+    "id": "75640",
+    "original": "このパンって賞味期限大丈夫か？",
+    "en": [
+      {
+        "id": "328078",
+        "text": "Is this bread's best-by OK?"
+      },
+      {
+        "id": "10450905",
+        "text": "This bread isn't expired?"
+      }
+    ],
+    "indices": "此の{この} パン(#1103090)[01] って 賞味期限~ 大丈夫(だいじょうぶ) か",
+    "vocabIds": [
+      "1351980",
+      "1414150"
+    ],
+    "matches": {
+      "1351980": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "しょうみきげん"
+        }
+      ],
+      "1414150": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "だいじょうぶ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3143355",
+    "original": "賞味期限が1ヶ月過ぎたヨーグルトって食べても大丈夫かな？",
+    "en": [
+      {
+        "id": "3143706",
+        "text": "Is yogurt okay to eat if it's one month past the 'best before' date?"
+      }
+    ],
+    "vocabIds": [
+      "1351980",
+      "1195970",
+      "1358280",
+      "1414150",
+      "1194480"
+    ],
+    "matches": {
+      "1194480": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "かげつ"
+        }
+      ],
+      "1195970": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "すぎた"
+        }
+      ],
+      "1351980": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "しょうみきげん"
+        }
+      ],
+      "1358280": [
+        {
+          "start": 18,
+          "length": 3,
+          "reading": "たべて"
+        }
+      ],
+      "1414150": [
+        {
+          "start": 22,
+          "length": 3,
+          "reading": "だいじょうぶ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1181373",
+    "original": "賞味期限が三日過ぎてるけど、まあいいか。",
+    "en": [
+      {
+        "id": "4356245",
+        "text": "The best before date is 3 days past, but it's probably good, right?"
+      }
+    ],
+    "vocabIds": [
+      "1195970",
+      "1351980",
+      "1301330"
+    ],
+    "matches": {
+      "1195970": [
+        {
+          "start": 7,
+          "length": 6,
+          "reading": "すぎてるけど"
+        }
+      ],
+      "1301330": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "さんにち"
+        }
+      ],
+      "1351980": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "しょうみきげん"
+        }
+      ]
+    }
+  }
+]

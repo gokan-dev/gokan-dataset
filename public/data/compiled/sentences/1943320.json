@@ -1,0 +1,92 @@
+[
+  {
+    "id": "121459",
+    "original": "博物館には興味深い展示品が所蔵されている。",
+    "en": [
+      {
+        "id": "282547",
+        "text": "There are some interesting exhibits in the museum."
+      }
+    ],
+    "indices": "博物館 には 興味深い 展示品 が 所蔵~ 為れる{されている}",
+    "vocabIds": [
+      "1238420",
+      "1474720",
+      "1943320",
+      "1660540"
+    ],
+    "matches": {
+      "1238420": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "きょうみぶかい"
+        }
+      ],
+      "1474720": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "はくぶつかん"
+        }
+      ],
+      "1660540": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "しょぞう"
+        }
+      ],
+      "1943320": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "てんじひん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "125002",
+    "original": "展示品に手を触れないでください。",
+    "en": [
+      {
+        "id": "278991",
+        "text": "Please do not handle the exhibits."
+      },
+      {
+        "id": "790193",
+        "text": "Please don't touch the exhibits."
+      }
+    ],
+    "indices": "展示品~ に 手 を 触れる[02]{触れないで} 下さい{ください}",
+    "vocabIds": [
+      "1357990",
+      "1943320",
+      "1327190"
+    ],
+    "matches": {
+      "1327190": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "て"
+        }
+      ],
+      "1357990": [
+        {
+          "start": 6,
+          "length": 9,
+          "reading": "ふれないでください"
+        }
+      ],
+      "1943320": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "てんじひん"
+        }
+      ]
+    }
+  }
+]

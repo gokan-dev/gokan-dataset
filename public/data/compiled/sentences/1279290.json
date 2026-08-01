@@ -1,0 +1,116 @@
+[
+  {
+    "id": "79764",
+    "original": "夜が更けて疲れていたので私は宿屋に泊まった。",
+    "en": [
+      {
+        "id": "323947",
+        "text": "As it was late at night and I was very tired, I put up at an inn."
+      },
+      {
+        "id": "570908",
+        "text": "Since it was late at night and I was very tired, I stayed at an inn."
+      }
+    ],
+    "indices": "夜 が 更ける{更けて} 疲れる[01]{疲れていた} ので 私(わたし)[01] は 宿屋 に 泊まる[01]{泊まった}",
+    "vocabIds": [
+      "1483740",
+      "1474850",
+      "1279290",
+      "1337230",
+      "1536350",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1279290": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "ふけて"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1337230": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "やどや"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1474850": [
+        {
+          "start": 17,
+          "length": 4,
+          "reading": "とまった"
+        }
+      ],
+      "1483740": [
+        {
+          "start": 5,
+          "length": 7,
+          "reading": "つかれていたので"
+        }
+      ],
+      "1536350": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "よる"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "79772",
+    "original": "夜がすっかり更けた。",
+    "en": [
+      {
+        "id": "323945",
+        "text": "The night was far advanced."
+      }
+    ],
+    "indices": "夜 が すっかり 更ける{更けた}",
+    "vocabIds": [
+      "1279290",
+      "1536350"
+    ],
+    "matches": {
+      "1279290": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "ふけた"
+        }
+      ],
+      "1536350": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "よる"
+        }
+      ]
+    }
+  }
+]

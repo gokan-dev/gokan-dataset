@@ -1,0 +1,80 @@
+[
+  {
+    "id": "212563",
+    "original": "そのメロンをきって６等分しなさい。",
+    "en": [
+      {
+        "id": "49847",
+        "text": "Cut the melon into six equal pieces."
+      }
+    ],
+    "indices": "其の[01]{その} メロン を 切る[01]{きって} 等分 為る(する){し} 為さい{なさい}",
+    "vocabIds": [
+      "1449510",
+      "1585310"
+    ],
+    "matches": {
+      "1449510": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "とうぶん"
+        }
+      ],
+      "1585310": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "ろく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "220777",
+    "original": "この線を２０等分せよ。",
+    "en": [
+      {
+        "id": "58099",
+        "text": "Divide this line into twenty equal parts."
+      }
+    ],
+    "indices": "此の{この} 線 を 等分~ 為る(する){せよ}",
+    "vocabIds": [
+      "1449510",
+      "1391780",
+      "1461140",
+      "1557630"
+    ],
+    "matches": {
+      "1391780": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "せん"
+        }
+      ],
+      "1449510": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "とうぶん"
+        }
+      ],
+      "1461140": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "に"
+        }
+      ],
+      "1557630": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "ぜろ"
+        }
+      ]
+    }
+  }
+]

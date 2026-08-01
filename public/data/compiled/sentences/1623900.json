@@ -1,0 +1,63 @@
+[
+  {
+    "id": "146874",
+    "original": "少し、出しゃばりすぎると思わないか。",
+    "en": [
+      {
+        "id": "267687",
+        "text": "Don't you think you are a little too pushy?"
+      }
+    ],
+    "indices": "少し 出しゃばる{出しゃばり} 過ぎる(すぎる){すぎる} と 思う{思わない} か",
+    "vocabIds": [
+      "1623900",
+      "1589350",
+      "1348870"
+    ],
+    "matches": {
+      "1348870": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "すこし"
+        }
+      ],
+      "1589350": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "おもわない"
+        }
+      ],
+      "1623900": [
+        {
+          "start": 3,
+          "length": 8,
+          "reading": "でしゃばりすぎる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10557167",
+    "original": "ちょっと、出しゃばってこないでよ。",
+    "en": [
+      {
+        "id": "10630790",
+        "text": "Hey, stop being so meddling."
+      }
+    ],
+    "vocabIds": [
+      "1623900"
+    ],
+    "matches": {
+      "1623900": [
+        {
+          "start": 5,
+          "length": 10,
+          "reading": "でしゃばってこないで"
+        }
+      ]
+    }
+  }
+]

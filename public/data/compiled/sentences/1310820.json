@@ -1,0 +1,112 @@
+[
+  {
+    "id": "171860",
+    "original": "今日の朝刊によればその死刑囚は自殺したようだ。",
+    "en": [
+      {
+        "id": "242615",
+        "text": "According to today's morning paper, the condemned criminal committed suicide."
+      }
+    ],
+    "indices": "今日 の 朝刊~ に依れば{によれば} 其の[01]{その} 死刑囚 は 自殺 為る(する){した} 様だ{ようだ}",
+    "vocabIds": [
+      "1310820",
+      "1579110",
+      "1428320",
+      "1317770"
+    ],
+    "matches": {
+      "1310820": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "しけいしゅう"
+        }
+      ],
+      "1317770": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "じさつ"
+        }
+      ],
+      "1428320": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ちょうかん"
+        }
+      ],
+      "1579110": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "224733",
+    "original": "ここから逃げたって同じ、死刑囚はどこにも居るし誰もが犠牲者。",
+    "en": [
+      {
+        "id": "62068",
+        "text": "It's the same wherever you try and escape: everywhere is a death row, and everyone's a victim."
+      }
+    ],
+    "indices": "此処[01]{ここ} から 逃げる[01]{逃げた} って 同じ[01] 死刑囚~ は 何処にも[02]{どこにも} 居る(いる) 為る(する){し} 誰も[01] が 犠牲者",
+    "vocabIds": [
+      "1450330",
+      "1310820",
+      "1225460",
+      "1577980",
+      "1451750",
+      "1416860"
+    ],
+    "matches": {
+      "1225460": [
+        {
+          "start": 26,
+          "length": 3,
+          "reading": "ぎせいしゃ"
+        }
+      ],
+      "1310820": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "しけいしゅう"
+        }
+      ],
+      "1416860": [
+        {
+          "start": 23,
+          "length": 2,
+          "reading": "だれも"
+        }
+      ],
+      "1450330": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "にげた"
+        }
+      ],
+      "1451750": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "おなじ"
+        }
+      ],
+      "1577980": [
+        {
+          "start": 20,
+          "length": 3,
+          "reading": "いるし"
+        }
+      ]
+    }
+  }
+]

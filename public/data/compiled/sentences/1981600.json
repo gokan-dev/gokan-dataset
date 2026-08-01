@@ -1,0 +1,96 @@
+[
+  {
+    "id": "121143",
+    "original": "彼あんなに元気だったのに。突然亡くなるなんて。一寸先は闇だね。",
+    "en": [
+      {
+        "id": "282864",
+        "text": "He was so healthy up to the minute of his sudden death. You really never know what might happen next."
+      }
+    ],
+    "indices": "彼(かれ) あんなに 元気 だ{だった} のに 突然 亡くなる なんて[01] 一寸先 は 闇 だ ね(#2029080)[01]",
+    "vocabIds": [
+      "1981600",
+      "1518540",
+      "1260720",
+      "1457040",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1260720": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "げんき"
+        }
+      ],
+      "1457040": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "とつぜん"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1518540": [
+        {
+          "start": 15,
+          "length": 4,
+          "reading": "なくなる"
+        }
+      ],
+      "1981600": [
+        {
+          "start": 23,
+          "length": 5,
+          "reading": "いっすんさきはやみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "190438",
+    "original": "一寸先は闇。",
+    "en": [
+      {
+        "id": "27597",
+        "text": "Who can read the future?"
+      },
+      {
+        "id": "8147543",
+        "text": "No one knows what the future holds."
+      },
+      {
+        "id": "8133550",
+        "text": "Nobody knows what the future holds."
+      }
+    ],
+    "indices": "一寸先 は 闇",
+    "vocabIds": [
+      "1981600"
+    ],
+    "matches": {
+      "1981600": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "いっすんさきはやみ"
+        }
+      ]
+    }
+  }
+]

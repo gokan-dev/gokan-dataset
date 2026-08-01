@@ -1,0 +1,126 @@
+[
+  {
+    "id": "74938",
+    "original": "仕込みはだいたい終わりましたし・・・、一眠りしていらしたらどうですか？",
+    "en": [
+      {
+        "id": "328781",
+        "text": "We've nearly finished preparations. How about taking a nap?"
+      }
+    ],
+    "indices": "仕込み は 大体[01]{だいたい} 終わる{終わりました} し 一眠り[01]~ 為る(する){して} 居らっしゃる(いらっしゃる){いらしたら} 如何(どう){どう} ですか",
+    "vocabIds": [
+      "1589600",
+      "1304920",
+      "1166830"
+    ],
+    "matches": {
+      "1166830": [
+        {
+          "start": 19,
+          "length": 3,
+          "reading": "ひとねむり"
+        }
+      ],
+      "1304920": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "しこみ"
+        }
+      ],
+      "1589600": [
+        {
+          "start": 8,
+          "length": 7,
+          "reading": "おわりましたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "75791",
+    "original": "彼の料理はフランス仕込みの本格派だ。",
+    "en": [
+      {
+        "id": "327927",
+        "text": "His cooking is of the classic French style that he studied in France."
+      }
+    ],
+    "indices": "彼(かれ)[01]{彼の} 料理[01] は 仏蘭西{フランス} 仕込み 之(の)[01]{の} 本格派~ だ",
+    "vocabIds": [
+      "1304920",
+      "1822850",
+      "1000420",
+      "1554310"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれの"
+        }
+      ],
+      "1304920": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "しこみ"
+        }
+      ],
+      "1554310": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "りょうり"
+        }
+      ],
+      "1822850": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "ほんかくは"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11211548",
+    "original": "おめえ、この仕込みにゃあ、どのくれえ時間かかるか知ってっか。",
+    "en": [
+      {
+        "id": "11211574",
+        "text": "Do you know how long this training will take?"
+      }
+    ],
+    "vocabIds": [
+      "1420470",
+      "1304920",
+      "1315920"
+    ],
+    "matches": {
+      "1304920": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "しこみ"
+        }
+      ],
+      "1315920": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "じかん"
+        }
+      ],
+      "1420470": [
+        {
+          "start": 24,
+          "length": 4,
+          "reading": "しってっ"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "id": "79773",
+    "original": "夜１０時以後に人に電話するには避けるべきだ。",
+    "en": [
+      {
+        "id": "323944",
+        "text": "You should avoid calling a person after ten at night."
+      }
+    ],
+    "indices": "夜 時(じ)[01] 以後[02] に 人(ひと) に 電話 為る(する)[11]{する} には 避ける[02] 可き{べき} だ",
+    "vocabIds": [
+      "1583260",
+      "2845369",
+      "1155100",
+      "1443840",
+      "1536350",
+      "1580640"
+    ],
+    "matches": {
+      "1155100": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "いご"
+        }
+      ],
+      "1443840": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "でんわ"
+        }
+      ],
+      "1536350": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "よる"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ],
+      "1583260": [
+        {
+          "start": 15,
+          "length": 6,
+          "reading": "さけるべきだ"
+        }
+      ],
+      "2845369": [
+        {
+          "start": 1,
+          "length": 3,
+          "reading": "いちぜろじ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "191217",
+    "original": "以後こんなことはいたしません。",
+    "en": [
+      {
+        "id": "28379",
+        "text": "I'll never do this again."
+      },
+      {
+        "id": "5822992",
+        "text": "I won't do this again."
+      }
+    ],
+    "indices": "以後[01]~ こんな 事(こと){こと} は 致す{いたしません}",
+    "vocabIds": [
+      "1155100"
+    ],
+    "matches": {
+      "1155100": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いご"
+        }
+      ]
+    }
+  },
+  {
+    "id": "204500",
+    "original": "それ以後彼女に会っていません。",
+    "en": [
+      {
+        "id": "41741",
+        "text": "I haven't seen her since then."
+      }
+    ],
+    "indices": "其れ[01]{それ} 以後[02]~ 彼女 に 会う[01]{会っていません}",
+    "vocabIds": [
+      "1198180",
+      "1155100",
+      "1483150"
+    ],
+    "matches": {
+      "1155100": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "いご"
+        }
+      ],
+      "1198180": [
+        {
+          "start": 7,
+          "length": 7,
+          "reading": "あっていません"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "229631",
+    "original": "あれ以後は災難続きです。",
+    "en": [
+      {
+        "id": "66992",
+        "text": "I have had a series of misfortunes since then."
+      }
+    ],
+    "indices": "彼(あれ)[01]{あれ} 以後[02] は 災難 続き です",
+    "vocabIds": [
+      "1405790",
+      "1155100",
+      "1295110"
+    ],
+    "matches": {
+      "1155100": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "いご"
+        }
+      ],
+      "1295110": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "さいなん"
+        }
+      ],
+      "1405790": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "つづきです"
+        }
+      ]
+    }
+  }
+]

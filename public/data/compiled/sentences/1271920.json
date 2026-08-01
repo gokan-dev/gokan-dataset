@@ -1,0 +1,80 @@
+[
+  {
+    "id": "171992",
+    "original": "今日のＡＢＣ交響楽団の演奏は期待はずれだった。",
+    "en": [
+      {
+        "id": "242483",
+        "text": "Today's performance of the ABC Symphony Orchestra fell short of my expectations."
+      }
+    ],
+    "indices": "今日 の 交響楽団 の 演奏 は 期待外れ{期待はずれ} だ{だった}",
+    "vocabIds": [
+      "2115080",
+      "1271920",
+      "1579110",
+      "1607520"
+    ],
+    "matches": {
+      "1271920": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "こうきょうがくだん"
+        }
+      ],
+      "1579110": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きょう"
+        }
+      ],
+      "1607520": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "えんそう"
+        }
+      ],
+      "2115080": [
+        {
+          "start": 14,
+          "length": 5,
+          "reading": "きたいはずれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "192121",
+    "original": "ロンドンの交響楽団のコンサートスケジュールを知りませんか。",
+    "en": [
+      {
+        "id": "29284",
+        "text": "Do you know the concert schedule of London Symphony Orchestra?"
+      }
+    ],
+    "indices": "ロンドン の 交響楽団~ の コンサート スケジュール を 知る{知りません} か",
+    "vocabIds": [
+      "1420470",
+      "1271920"
+    ],
+    "matches": {
+      "1271920": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "こうきょうがくだん"
+        }
+      ],
+      "1420470": [
+        {
+          "start": 22,
+          "length": 5,
+          "reading": "しりません"
+        }
+      ]
+    }
+  }
+]

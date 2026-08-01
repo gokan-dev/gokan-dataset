@@ -1,0 +1,87 @@
+[
+  {
+    "id": "207657",
+    "original": "その店では女性用の高価なアクセサリーを売っている。",
+    "en": [
+      {
+        "id": "44910",
+        "text": "The shop sells expensive accessories for women."
+      }
+    ],
+    "indices": "其の[01]{その} 店(みせ) で(#2028980) は 女性用~ の 高価{高価な} アクセサリー を 売る{売っている}",
+    "vocabIds": [
+      "1473950",
+      "1345310",
+      "1283300",
+      "1582120"
+    ],
+    "matches": {
+      "1283300": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "こうか"
+        }
+      ],
+      "1345310": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "じょせいよう"
+        }
+      ],
+      "1473950": [
+        {
+          "start": 19,
+          "length": 5,
+          "reading": "うっている"
+        }
+      ],
+      "1582120": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "みせ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11491195",
+    "original": "女性用トイレは長蛇の列だった。",
+    "en": [
+      {
+        "id": "2697134",
+        "text": "There was a long line at the women's restrooms."
+      },
+      {
+        "id": "12546859",
+        "text": "There was a long line for the women's restroom."
+      },
+      {
+        "id": "12546862",
+        "text": "There was a long line for the women's restrooms."
+      }
+    ],
+    "vocabIds": [
+      "1430010",
+      "1345310"
+    ],
+    "matches": {
+      "1345310": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "じょせいよう"
+        }
+      ],
+      "1430010": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "ちょうだのれつ"
+        }
+      ]
+    }
+  }
+]

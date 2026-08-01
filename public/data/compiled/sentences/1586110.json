@@ -1,0 +1,96 @@
+[
+  {
+    "id": "140435",
+    "original": "相乗りしている人は他の乗客との会話を慎むべきだ。",
+    "en": [
+      {
+        "id": "274138",
+        "text": "People sharing a ride should refrain from conversation with other passengers."
+      }
+    ],
+    "indices": "相乗り~ 為る(する){している} 人(ひと) は 他(ほか){他の} 乗客 と の 会話 を 慎む[02] 可き{べき} だ",
+    "vocabIds": [
+      "1598000",
+      "1586110",
+      "1580490",
+      "1198880",
+      "1580640",
+      "1203260"
+    ],
+    "matches": {
+      "1198880": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "かいわ"
+        }
+      ],
+      "1203260": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "た"
+        }
+      ],
+      "1580490": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "じょうきゃく"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ],
+      "1586110": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あいのり"
+        }
+      ],
+      "1598000": [
+        {
+          "start": 18,
+          "length": 5,
+          "reading": "つつしむべきだ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "203718",
+    "original": "昨夜、パリスヒルトンとタクシーに相乗りしました。",
+    "en": [
+      {
+        "id": "40957",
+        "text": "Yesterday night, I shared a cab with Paris Hilton."
+      }
+    ],
+    "indices": "昨夜(ゆうべ) と タクシー に 相乗り 為る(する){しました}",
+    "vocabIds": [
+      "1586110",
+      "1542640"
+    ],
+    "matches": {
+      "1542640": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "さくや"
+        }
+      ],
+      "1586110": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "あいのり"
+        }
+      ]
+    }
+  }
+]

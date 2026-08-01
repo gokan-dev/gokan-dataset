@@ -1,0 +1,84 @@
+[
+  {
+    "id": "81211",
+    "original": "又貸ししない条件でこのＣＤを貸してあげよう。",
+    "en": [
+      {
+        "id": "322504",
+        "text": "I will lend you this CD on condition that you don't lend it to anyone else."
+      },
+      {
+        "id": "9701108",
+        "text": "I'll lend you this CD on condition that you don't lend it to anyone else."
+      }
+    ],
+    "indices": "又貸し 為る(する){しない} 条件 で(#2028980) 此の{この} ＣＤ[01] を 貸して上げる{貸してあげよう}",
+    "vocabIds": [
+      "1411160",
+      "1525120",
+      "1356510"
+    ],
+    "matches": {
+      "1356510": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "じょうけん"
+        }
+      ],
+      "1411160": [
+        {
+          "start": 14,
+          "length": 7,
+          "reading": "かしてあげよう"
+        }
+      ],
+      "1525120": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "またがし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "81597",
+    "original": "本を又貸ししてはいけない。",
+    "en": [
+      {
+        "id": "322118",
+        "text": "Don't lend a borrowed book to another."
+      }
+    ],
+    "indices": "本(ほん)[01] を 又貸し~ 為る(する){して} は 行けない[02]{いけない}",
+    "vocabIds": [
+      "1525120",
+      "1260670",
+      "1522150"
+    ],
+    "matches": {
+      "1260670": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ほん"
+        }
+      ],
+      "1522150": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ほん"
+        }
+      ],
+      "1525120": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "またがし"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,64 @@
+[
+  {
+    "id": "220073",
+    "original": "この布地は水を通さない。",
+    "en": [
+      {
+        "id": "488943",
+        "text": "This fabric is impermeable to water."
+      }
+    ],
+    "indices": "此の{この} 布地 は 水(みず) を 通す{通さない}",
+    "vocabIds": [
+      "1910220",
+      "1591910",
+      "2859268"
+    ],
+    "matches": {
+      "1591910": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ぬのじ"
+        }
+      ],
+      "1910220": [
+        {
+          "start": 5,
+          "length": 6,
+          "reading": "みずをとおさない"
+        }
+      ],
+      "2859268": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ぬのじ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "227772",
+    "original": "オーバーシューズは水を通さない。",
+    "en": [
+      {
+        "id": "65124",
+        "text": "Galoshes are impervious to water."
+      }
+    ],
+    "indices": "オーバーシューズ~ は 水(みず) を 通す{通さない}",
+    "vocabIds": [
+      "1910220"
+    ],
+    "matches": {
+      "1910220": [
+        {
+          "start": 9,
+          "length": 6,
+          "reading": "みずをとおさない"
+        }
+      ]
+    }
+  }
+]

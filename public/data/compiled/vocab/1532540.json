@@ -1,0 +1,124 @@
+{
+  "id": "1532540",
+  "writtenForm": {
+    "kanji": "明朝",
+    "alternatives": [],
+    "containedKanji": [
+      "明",
+      "朝"
+    ]
+  },
+  "reading": {
+    "primary": "みょうちょう",
+    "alternatives": [
+      "みょうあさ",
+      "みんちょう"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 18977,
+    "kanaRank": 224032
+  },
+  "progression": {
+    "kklcStep": 145
+  },
+  "senses": [
+    {
+      "pos": [
+        "n",
+        "adv"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "tomorrow morning"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "hist"
+        ]
+      },
+      "glosses": [
+        "Ming dynasty (of China; 1368-1644)"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "みんちょう"
+      ]
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": true,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "abbr"
+        ]
+      },
+      "glosses": [
+        "Ming (serif typeface)",
+        "Minchō"
+      ],
+      "related": {
+        "compounds": [
+          "明朝体"
+        ]
+      },
+      "appliesToReadings": [
+        "みんちょう"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": true
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1532540",
+      "isBase": true,
+      "originalPrimaryReading": "みょうちょう",
+      "originalGlosses": [
+        "tomorrow morning"
+      ]
+    },
+    {
+      "id": "1651640",
+      "isBase": false,
+      "originalPrimaryReading": "みんちょう",
+      "originalGlosses": [
+        "Ming dynasty (of China; 1368-1644)"
+      ]
+    }
+  ],
+  "components": [
+    "2207630",
+    "1428280"
+  ]
+}

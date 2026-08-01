@@ -1,0 +1,126 @@
+[
+  {
+    "id": "195382",
+    "original": "まだ痙攣している。",
+    "en": [
+      {
+        "id": "32555",
+        "text": "He's still fibrillating."
+      }
+    ],
+    "indices": "未だ[01]{まだ} 痙攣 為る(する){している}",
+    "vocabIds": [
+      "1569590"
+    ],
+    "matches": {
+      "1569590": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "けいれん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "219267",
+    "original": "この薬を飲むと胃の痙攣が治ります。",
+    "en": [
+      {
+        "id": "56583",
+        "text": "This medicine will ease your cramps."
+      }
+    ],
+    "indices": "此の{この} 薬(くすり)[01] を 飲む[01] と 胃[01] の 痙攣~ が 治る[01]{治ります}",
+    "vocabIds": [
+      "1599400",
+      "1169870",
+      "1569590",
+      "1538160",
+      "1158500"
+    ],
+    "matches": {
+      "1158500": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "い"
+        }
+      ],
+      "1169870": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "のむと"
+        }
+      ],
+      "1538160": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "くすり"
+        }
+      ],
+      "1569590": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "けいれん"
+        }
+      ],
+      "1599400": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "なおります"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9870543",
+    "original": "この薬を飲むと痙攣が緩和されます。",
+    "en": [
+      {
+        "id": "56583",
+        "text": "This medicine will ease your cramps."
+      }
+    ],
+    "vocabIds": [
+      "1169870",
+      "1569590",
+      "1214530",
+      "1538160"
+    ],
+    "matches": {
+      "1169870": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "のむと"
+        }
+      ],
+      "1214530": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "かんわ"
+        }
+      ],
+      "1538160": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "くすり"
+        }
+      ],
+      "1569590": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "けいれん"
+        }
+      ]
+    }
+  }
+]

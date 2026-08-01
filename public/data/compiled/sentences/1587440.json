@@ -1,0 +1,103 @@
+[
+  {
+    "id": "145087",
+    "original": "森の近くに一軒家がある。",
+    "en": [
+      {
+        "id": "269477",
+        "text": "There stands a cottage close to the forest."
+      }
+    ],
+    "indices": "森[01] の 近く に 一軒家[01]~ が[01] 有る{ある}",
+    "vocabIds": [
+      "1587440",
+      "1242160",
+      "1362490"
+    ],
+    "matches": {
+      "1242160": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ちかく"
+        }
+      ],
+      "1362490": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "もり"
+        }
+      ],
+      "1587440": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "いっけんや"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11015424",
+    "original": "叔父さんは、岬の一軒家に独りぼっちで住んでいた。",
+    "en": [
+      {
+        "id": "11502061",
+        "text": "My uncle lived alone in a secluded house on the cape."
+      }
+    ],
+    "vocabIds": [
+      "1602040",
+      "1334040",
+      "2261490",
+      "1587440",
+      "1297220",
+      "1611700"
+    ],
+    "matches": {
+      "1297220": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "みさき"
+        }
+      ],
+      "1334040": [
+        {
+          "start": 18,
+          "length": 5,
+          "reading": "すんでいた"
+        }
+      ],
+      "1587440": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "いっけんや"
+        }
+      ],
+      "1602040": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "ひとりぼっち"
+        }
+      ],
+      "1611700": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "みさき"
+        }
+      ],
+      "2261490": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "おじさん"
+        }
+      ]
+    }
+  }
+]

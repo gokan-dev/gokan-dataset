@@ -1,0 +1,128 @@
+[
+  {
+    "id": "74195",
+    "original": "今日は不燃物のゴミの日です。",
+    "en": [
+      {
+        "id": "329525",
+        "text": "Today is a non-burnable rubbish day."
+      }
+    ],
+    "indices": "今日 は 不燃物~ の ゴミの日 です",
+    "vocabIds": [
+      "2264700",
+      "1289400",
+      "1611430"
+    ],
+    "matches": {
+      "1289400": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きょうは"
+        }
+      ],
+      "1611430": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "ふねんぶつ"
+        }
+      ],
+      "2264700": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "ごみのひ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "76669",
+    "original": "シンナーなどの揮発性油分が入っていたものについては数日間放置して完全に揮発させてから、不燃物として捨てます。",
+    "en": [
+      {
+        "id": "327051",
+        "text": "For things that have had contents with volatile oil like thinners they should be left for a few days to completely evaporate it before being disposed of as non-flammable waste."
+      }
+    ],
+    "indices": "シンナー 等(など){など} 之(の)[01]{の} 揮発性 油分 が 入る(はいる){入っていた} 物(もの){もの} に就いて{について} は 数日間 放置 為る(する){して} 完全 に 揮発 為せる{させて} から[06] 不燃物 として 捨てる{捨てます}",
+    "vocabIds": [
+      "1465590",
+      "1322320",
+      "1220170",
+      "1373210",
+      "1611430",
+      "1220160",
+      "2093300",
+      "1516780",
+      "1211510"
+    ],
+    "matches": {
+      "1211510": [
+        {
+          "start": 32,
+          "length": 2,
+          "reading": "かんぜん"
+        }
+      ],
+      "1220160": [
+        {
+          "start": 35,
+          "length": 2,
+          "reading": "きはつ"
+        }
+      ],
+      "1220170": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "きはつせい"
+        }
+      ],
+      "1322320": [
+        {
+          "start": 49,
+          "length": 4,
+          "reading": "すてます"
+        }
+      ],
+      "1373210": [
+        {
+          "start": 25,
+          "length": 3,
+          "reading": "すうにちかん"
+        }
+      ],
+      "1465590": [
+        {
+          "start": 13,
+          "length": 5,
+          "reading": "はいっていた"
+        }
+      ],
+      "1516780": [
+        {
+          "start": 28,
+          "length": 2,
+          "reading": "ほうち"
+        }
+      ],
+      "1611430": [
+        {
+          "start": 43,
+          "length": 3,
+          "reading": "ふねんぶつ"
+        }
+      ],
+      "2093300": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "ゆぶん"
+        }
+      ]
+    }
+  }
+]

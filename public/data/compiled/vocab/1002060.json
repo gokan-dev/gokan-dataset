@@ -1,0 +1,133 @@
+{
+  "id": "1002060",
+  "writtenForm": {
+    "kanji": "お守り",
+    "alternatives": [
+      "御守り",
+      "御守",
+      "お守"
+    ],
+    "containedKanji": [
+      "守"
+    ]
+  },
+  "reading": {
+    "primary": "おまもり",
+    "alternatives": [
+      "おもり"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 5997,
+    "kanaRank": 74670
+  },
+  "progression": {
+    "kklcStep": 648
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "charm",
+        "amulet",
+        "talisman"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n",
+        "vs",
+        "vt"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "babysitting",
+        "babysitter",
+        "nanny"
+      ],
+      "related": {
+        "compounds": [
+          "子守り"
+        ]
+      },
+      "appliesToReadings": [
+        "おもり"
+      ]
+    },
+    {
+      "pos": [
+        "n",
+        "vs",
+        "vt"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "taking care of",
+        "looking after",
+        "accompanying"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "おもり"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1002060",
+      "isBase": true,
+      "originalPrimaryReading": "おまもり",
+      "originalGlosses": [
+        "charm",
+        "amulet",
+        "talisman"
+      ]
+    },
+    {
+      "id": "2268160",
+      "isBase": false,
+      "originalPrimaryReading": "おもり",
+      "originalGlosses": [
+        "babysitting",
+        "babysitter",
+        "nanny"
+      ]
+    }
+  ],
+  "components": [
+    "1327100"
+  ]
+}

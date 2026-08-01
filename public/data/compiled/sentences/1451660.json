@@ -1,0 +1,71 @@
+[
+  {
+    "id": "212638",
+    "original": "そのボートは動力にモーターを使用している。",
+    "en": [
+      {
+        "id": "49921",
+        "text": "The boat uses a motor for the power."
+      }
+    ],
+    "indices": "其の[01]{その} ボート は 動力~ に モーター~ を 使用 為る(する){している}",
+    "vocabIds": [
+      "1451660",
+      "1306200"
+    ],
+    "matches": {
+      "1306200": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "しよう"
+        }
+      ],
+      "1451660": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "どうりょく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1097527",
+    "original": "オープンソースは技術革新を牽引する動力である。",
+    "en": [
+      {
+        "id": "326890",
+        "text": "Open source is the engine that drives technological innovation."
+      }
+    ],
+    "vocabIds": [
+      "1225160",
+      "1258240",
+      "1451660"
+    ],
+    "matches": {
+      "1225160": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "ぎじゅつかくしん"
+        }
+      ],
+      "1258240": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "けんいん"
+        }
+      ],
+      "1451660": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "どうりょく"
+        }
+      ]
+    }
+  }
+]

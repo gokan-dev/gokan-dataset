@@ -1,0 +1,80 @@
+[
+  {
+    "id": "226199",
+    "original": "カラオケでの彼の歌、玄人はだしだね。",
+    "en": [
+      {
+        "id": "63539",
+        "text": "His karaoke voice would put a professional to shame."
+      }
+    ],
+    "indices": "空オケ{カラオケ} で(#2028980) の 彼(かれ)[01] の 歌 玄人跣{玄人はだし}~ だ ね(#2029080)[01]",
+    "vocabIds": [
+      "2082630",
+      "1000420",
+      "1193180"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "かれの"
+        }
+      ],
+      "1193180": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "うた"
+        }
+      ],
+      "2082630": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "くろうとはだし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "230758",
+    "original": "あの人の歌は玄人はだしです。",
+    "en": [
+      {
+        "id": "68125",
+        "text": "His singing outdoes a professional."
+      }
+    ],
+    "indices": "あの人 の 歌 は 玄人跣{玄人はだし} です",
+    "vocabIds": [
+      "2082630",
+      "1000440",
+      "1193180"
+    ],
+    "matches": {
+      "1000440": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あのひと"
+        }
+      ],
+      "1193180": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "うた"
+        }
+      ],
+      "2082630": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "くろうとはだし"
+        }
+      ]
+    }
+  }
+]

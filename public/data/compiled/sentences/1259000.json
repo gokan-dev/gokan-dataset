@@ -1,0 +1,47 @@
+[
+  {
+    "id": "175201",
+    "original": "肩こりがひどいのです。",
+    "en": [
+      {
+        "id": "239265",
+        "text": "I have a bad stiff neck."
+      }
+    ],
+    "indices": "肩こり~ が 酷い(ひどい){ひどい} のです",
+    "vocabIds": [
+      "1259000"
+    ],
+    "matches": {
+      "1259000": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "かたこり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "7947497",
+    "original": "肩こりがある。",
+    "en": [
+      {
+        "id": "7947444",
+        "text": "My neck is stiff."
+      }
+    ],
+    "vocabIds": [
+      "1259000"
+    ],
+    "matches": {
+      "1259000": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "かたこり"
+        }
+      ]
+    }
+  }
+]

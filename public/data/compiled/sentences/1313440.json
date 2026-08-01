@@ -1,0 +1,80 @@
+[
+  {
+    "id": "74496",
+    "original": "最近いった歯医者で「歯槽膿漏がありますね」と言われ悩んでいます。",
+    "en": [
+      {
+        "id": "329223",
+        "text": "I'm worried because the dentist I went to recently told me, \"You've got periodontitis alright\"."
+      }
+    ],
+    "indices": "最近 行く{いった} 歯医者 で(#2028980) 歯槽膿漏~ が 有る{あります} ね と 言う{言われ} 悩む{悩んでいます}",
+    "vocabIds": [
+      "1469870",
+      "1313440",
+      "1313080",
+      "1293780",
+      "1587040"
+    ],
+    "matches": {
+      "1293780": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "さいきん"
+        }
+      ],
+      "1313080": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "はいしゃ"
+        }
+      ],
+      "1313440": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "しそうのうろう"
+        }
+      ],
+      "1469870": [
+        {
+          "start": 25,
+          "length": 6,
+          "reading": "なやんでいます"
+        }
+      ],
+      "1587040": [
+        {
+          "start": 22,
+          "length": 2,
+          "reading": "いわ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "150923",
+    "original": "歯槽膿漏があります。",
+    "en": [
+      {
+        "id": "263633",
+        "text": "I have pyorrhea."
+      }
+    ],
+    "indices": "歯槽膿漏 が[01] 有る{あります}",
+    "vocabIds": [
+      "1313440"
+    ],
+    "matches": {
+      "1313440": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "しそうのうろう"
+        }
+      ]
+    }
+  }
+]

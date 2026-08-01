@@ -1,0 +1,103 @@
+{
+  "id": "1575760",
+  "writtenForm": {
+    "kanji": "悪阻",
+    "alternatives": [],
+    "containedKanji": [
+      "悪",
+      "阻"
+    ]
+  },
+  "reading": {
+    "primary": "つわり",
+    "alternatives": [
+      "おそ"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 76091,
+    "kanaRank": 43959
+  },
+  "progression": {
+    "kklcStep": 1517
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "morning sickness",
+        "nausea and vomiting of pregnancy"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "morning sickness",
+        "nausea and vomiting of pregnancy"
+      ],
+      "related": {
+        "compounds": [
+          "つわり"
+        ]
+      },
+      "appliesToReadings": [
+        "おそ"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": false,
+  "mergedVocabs": [
+    {
+      "id": "1575760",
+      "isBase": true,
+      "originalPrimaryReading": "つわり",
+      "originalGlosses": [
+        "morning sickness",
+        "nausea and vomiting of pregnancy"
+      ]
+    },
+    {
+      "id": "2854335",
+      "isBase": false,
+      "originalPrimaryReading": "おそ",
+      "originalGlosses": [
+        "morning sickness",
+        "nausea and vomiting of pregnancy"
+      ]
+    }
+  ],
+  "components": [
+    "1151230"
+  ],
+  "parents": [
+    "2750790"
+  ]
+}

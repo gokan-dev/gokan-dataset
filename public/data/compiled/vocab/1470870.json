@@ -1,0 +1,99 @@
+{
+  "id": "1470870",
+  "writtenForm": {
+    "kanji": "巴",
+    "alternatives": [
+      "鞆絵"
+    ],
+    "containedKanji": [
+      "巴"
+    ]
+  },
+  "reading": {
+    "primary": "ともえ",
+    "alternatives": [
+      "パ"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 26026,
+    "kanaRank": 63190
+  },
+  "progression": {
+    "kklcStep": 527
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "tomoe",
+        "heraldic design composed of two or more interlocked comma-shaped figures"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": true,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "abbr"
+        ]
+      },
+      "glosses": [
+        "Pali language"
+      ],
+      "related": {
+        "compounds": [
+          "パーリ語"
+        ]
+      },
+      "appliesToReadings": [
+        "パ"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1470870",
+      "isBase": true,
+      "originalPrimaryReading": "ともえ",
+      "originalGlosses": [
+        "tomoe",
+        "heraldic design composed of two or more interlocked comma-shaped figures"
+      ]
+    },
+    {
+      "id": "2840349",
+      "isBase": false,
+      "originalPrimaryReading": "パ",
+      "originalGlosses": [
+        "Pali language"
+      ]
+    }
+  ],
+  "parents": [
+    "1102740"
+  ]
+}

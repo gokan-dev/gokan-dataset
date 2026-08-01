@@ -1,0 +1,143 @@
+[
+  {
+    "id": "176069",
+    "original": "警察官は彼らの住所氏名を詰問した。",
+    "en": [
+      {
+        "id": "238091",
+        "text": "The policeman demanded their names and addresses."
+      }
+    ],
+    "indices": "警察官 は 彼ら(かれら){彼らの} 住所氏名 を 詰問 為る(する){した}",
+    "vocabIds": [
+      "1937910",
+      "1252400",
+      "1483090",
+      "2397090",
+      "1226570"
+    ],
+    "matches": {
+      "1226570": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "きつもん"
+        }
+      ],
+      "1252400": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "けいさつかん"
+        }
+      ],
+      "1483090": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "かれら"
+        }
+      ],
+      "1937910": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "じゅうしょしめい"
+        }
+      ],
+      "2397090": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "かれら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "176373",
+    "original": "警官は、彼らの住所氏名を詰問した。",
+    "en": [
+      {
+        "id": "238091",
+        "text": "The policeman demanded their names and addresses."
+      }
+    ],
+    "indices": "警官 は 彼ら(かれら){彼らの} 住所氏名~ を 詰問 為る(する){した}",
+    "vocabIds": [
+      "1937910",
+      "1252330",
+      "1483090",
+      "2397090",
+      "1226570"
+    ],
+    "matches": {
+      "1226570": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "きつもん"
+        }
+      ],
+      "1252330": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "けいかん"
+        }
+      ],
+      "1483090": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "かれら"
+        }
+      ],
+      "1937910": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "じゅうしょしめい"
+        }
+      ],
+      "2397090": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "かれら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "201675",
+    "original": "どうかしたのと彼女は詰問した。",
+    "en": [
+      {
+        "id": "38885",
+        "text": "\"What's the matter with you?\" she demanded."
+      }
+    ],
+    "indices": "どうかした{どうかしたの} と 彼女[01] は 詰問~ 為る(する){した}",
+    "vocabIds": [
+      "1483150",
+      "1226570"
+    ],
+    "matches": {
+      "1226570": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "きつもん"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ]
+    }
+  }
+]

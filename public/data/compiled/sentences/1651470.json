@@ -1,0 +1,33 @@
+[
+  {
+    "id": "227600",
+    "original": "おなかが痛いんです。胃腸薬をください。",
+    "en": [
+      {
+        "id": "64953",
+        "text": "My stomach hurts. Can I have some stomach medicine?"
+      }
+    ],
+    "indices": "お腹{おなか} が 痛い[01] のです{んです} 胃腸薬~ を 下さい[01]{ください}",
+    "vocabIds": [
+      "1651470",
+      "1432680"
+    ],
+    "matches": {
+      "1432680": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "いたい"
+        }
+      ],
+      "1651470": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "いちょうやく"
+        }
+      ]
+    }
+  }
+]

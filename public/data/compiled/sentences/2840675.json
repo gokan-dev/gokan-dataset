@@ -1,0 +1,87 @@
+[
+  {
+    "id": "98857",
+    "original": "彼は話が上手い。",
+    "en": [
+      {
+        "id": "304843",
+        "text": "He is a good speaker."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 話(はなし) が 上手い[01]",
+    "vocabIds": [
+      "2840675",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "2840675": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "はなしがうまい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9359795",
+    "original": "トムは読話がうまいから、手話で話さなくても大丈夫だよ。",
+    "en": [
+      {
+        "id": "9359592",
+        "text": "You don't need to speak to Tom in sign language, because he can read lips really well."
+      }
+    ],
+    "vocabIds": [
+      "2840675",
+      "1562350",
+      "1414150",
+      "1328440"
+    ],
+    "matches": {
+      "1328440": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "しゅわ"
+        }
+      ],
+      "1414150": [
+        {
+          "start": 21,
+          "length": 3,
+          "reading": "だいじょうぶ"
+        }
+      ],
+      "1562350": [
+        {
+          "start": 15,
+          "length": 5,
+          "reading": "はなさなくて"
+        }
+      ],
+      "2840675": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "ばなしがうまい"
+        }
+      ]
+    }
+  }
+]

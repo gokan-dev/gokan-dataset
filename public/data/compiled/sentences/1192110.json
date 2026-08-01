@@ -1,0 +1,133 @@
+[
+  {
+    "id": "109254",
+    "original": "彼は家政婦に部屋を掃除させた。",
+    "en": [
+      {
+        "id": "294436",
+        "text": "He had the maid sweep his room."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 家政婦~ に 部屋[01] を 掃除 為せる{させた}",
+    "vocabIds": [
+      "1192110",
+      "1499320",
+      "1399790",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1192110": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "かせいふ"
+        }
+      ],
+      "1399790": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "そうじ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1499320": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "へや"
+        }
+      ]
+    }
+  },
+  {
+    "id": "992796",
+    "original": "彼は家政婦を雇っている。",
+    "en": [
+      {
+        "id": "476464",
+        "text": "He employs a maid."
+      }
+    ],
+    "vocabIds": [
+      "1605570",
+      "1192110",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1192110": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "かせいふ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1605570": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "やとっている"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1128786",
+    "original": "家政婦が話をさえぎった。",
+    "en": [
+      {
+        "id": "1129503",
+        "text": "The housekeeper interrupted the conversation."
+      }
+    ],
+    "vocabIds": [
+      "1192110",
+      "1600900"
+    ],
+    "matches": {
+      "1192110": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "かせいふ"
+        }
+      ],
+      "1600900": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "はなし"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "id": "123263",
+    "original": "豚の前に真珠を投げ与えるな。",
+    "en": [
+      {
+        "id": "280735",
+        "text": "Do not cast pearls before swine."
+      },
+      {
+        "id": "813180",
+        "text": "Don't cast pearls before swine."
+      }
+    ],
+    "indices": "豚 の 前(まえ) に 真珠 を 投げる[01]{投げ} 与える[01] な[01]",
+    "vocabIds": [
+      "1692550",
+      "1392590",
+      "1363810",
+      "1457390"
+    ],
+    "matches": {
+      "1363810": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "しんじゅ"
+        }
+      ],
+      "1392590": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "まえに"
+        }
+      ],
+      "1457390": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぶた"
+        }
+      ],
+      "1692550": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "なげあたえる"
+        }
+      ]
+    }
+  }
+]

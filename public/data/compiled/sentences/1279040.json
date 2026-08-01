@@ -1,0 +1,88 @@
+[
+  {
+    "id": "176313",
+    "original": "警官は彼を拘留した。",
+    "en": [
+      {
+        "id": "238151",
+        "text": "The police held him in custody."
+      }
+    ],
+    "indices": "警官 は 彼(かれ)[01] を 拘留~ 為る(する){した}",
+    "vocabIds": [
+      "1252330",
+      "1279040",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1252330": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "けいかん"
+        }
+      ],
+      "1279040": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "こうりゅう"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "208068",
+    "original": "その男は拘留された。",
+    "en": [
+      {
+        "id": "45325",
+        "text": "The man was held in police custody."
+      }
+    ],
+    "indices": "其の[01]{その} 男 は 拘留 為れる{された}",
+    "vocabIds": [
+      "1279040",
+      "1419990",
+      "1589190"
+    ],
+    "matches": {
+      "1279040": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "こうりゅう"
+        }
+      ],
+      "1419990": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "おとこ"
+        }
+      ],
+      "1589190": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "おとこ"
+        }
+      ]
+    }
+  }
+]

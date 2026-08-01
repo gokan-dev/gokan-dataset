@@ -1,0 +1,72 @@
+[
+  {
+    "id": "79126",
+    "original": "夕闇が次第に深まっていった。",
+    "en": [
+      {
+        "id": "324591",
+        "text": "The twilight merged into darkness."
+      }
+    ],
+    "indices": "夕闇~ が 次第に[01] 深まる{深まって}~ 行く{いった}",
+    "vocabIds": [
+      "1362660",
+      "1316690",
+      "1542670"
+    ],
+    "matches": {
+      "1316690": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "しだいに"
+        }
+      ],
+      "1362660": [
+        {
+          "start": 6,
+          "length": 7,
+          "reading": "ふかまっていった"
+        }
+      ],
+      "1542670": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ゆうやみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "79127",
+    "original": "夕闇が砂漠をつつんだ。",
+    "en": [
+      {
+        "id": "324590",
+        "text": "Dusk fell over the desert."
+      }
+    ],
+    "indices": "夕闇 が 砂漠 を 包む(つつむ){つつんだ}",
+    "vocabIds": [
+      "1542670",
+      "1593800"
+    ],
+    "matches": {
+      "1542670": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ゆうやみ"
+        }
+      ],
+      "1593800": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "さばく"
+        }
+      ]
+    }
+  }
+]

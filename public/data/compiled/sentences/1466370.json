@@ -1,0 +1,119 @@
+[
+  {
+    "id": "78857",
+    "original": "用事以外は入場お断り。",
+    "en": [
+      {
+        "id": "322824",
+        "text": "No admittance except on business."
+      }
+    ],
+    "indices": "用事 以外[01] は 入場 お断わり{お断り}",
+    "vocabIds": [
+      "1466370",
+      "1546300",
+      "1155090"
+    ],
+    "matches": {
+      "1155090": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "いがい"
+        }
+      ],
+      "1466370": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "にゅうじょうおことわり"
+        }
+      ],
+      "1546300": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ようじ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "168857",
+    "original": "子どもは入場お断りです。",
+    "en": [
+      {
+        "id": "245633",
+        "text": "Children are not allowed in."
+      }
+    ],
+    "indices": "子供{子ども} は 入場 お断わり{お断り} です",
+    "vocabIds": [
+      "1466370",
+      "1307850"
+    ],
+    "matches": {
+      "1307850": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "こども"
+        }
+      ],
+      "1466370": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "にゅうじょうおことわり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "184925",
+    "original": "開演中入場お断り。",
+    "en": [
+      {
+        "id": "22057",
+        "text": "No admittance during the performance."
+      }
+    ],
+    "indices": "開演 中(ちゅう)[03] 入場 お断わり{お断り}",
+    "vocabIds": [
+      "1466370",
+      "1202530",
+      "1423310",
+      "2098290"
+    ],
+    "matches": {
+      "1202530": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かいえん"
+        }
+      ],
+      "1423310": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ちゅう"
+        }
+      ],
+      "1466370": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "にゅうじょうおことわり"
+        }
+      ],
+      "2098290": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ちゅう"
+        }
+      ]
+    }
+  }
+]

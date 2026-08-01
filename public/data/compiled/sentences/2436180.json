@@ -1,0 +1,193 @@
+[
+  {
+    "id": "217280",
+    "original": "コンピューターが故障中で修理しなくてはいけない。",
+    "en": [
+      {
+        "id": "54588",
+        "text": "My computer is out of order, and I have to get it repaired."
+      }
+    ],
+    "indices": "コンピュータ{コンピューター} が 故障[01] 中(ちゅう)[04] で(#2028980) 修理 為る(する){し} 無くてはいけない{なくてはいけない}",
+    "vocabIds": [
+      "2436180",
+      "1332400"
+    ],
+    "matches": {
+      "1332400": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "しゅうり"
+        }
+      ],
+      "2436180": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "こしょうちゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "220375",
+    "original": "この電話は故障中だよ。",
+    "en": [
+      {
+        "id": "57696",
+        "text": "This telephone is out of order."
+      }
+    ],
+    "indices": "此の{この} 電話 は 故障[01] 中(ちゅう)[04] だ よ",
+    "vocabIds": [
+      "2436180",
+      "1443840"
+    ],
+    "matches": {
+      "1443840": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "でんわ"
+        }
+      ],
+      "2436180": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "こしょうちゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "223972",
+    "original": "このエレベーターは故障中です。階段をお使いください。",
+    "en": [
+      {
+        "id": "61307",
+        "text": "This elevator is out of order. Please use the stairs."
+      }
+    ],
+    "indices": "此の{この} エレベーター は 故障[01] 中(ちゅう)[04] です 階段 を 御(お){お} 使う[01]{使い} 下さい{ください}",
+    "vocabIds": [
+      "1305990",
+      "2436180",
+      "1203090"
+    ],
+    "matches": {
+      "1203090": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "かいだん"
+        }
+      ],
+      "1305990": [
+        {
+          "start": 19,
+          "length": 6,
+          "reading": "つかいください"
+        }
+      ],
+      "2436180": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "こしょうちゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1357718",
+    "original": "この機械は故障中だ。",
+    "en": [
+      {
+        "id": "59798",
+        "text": "This machine is out of order."
+      }
+    ],
+    "vocabIds": [
+      "2436180",
+      "1220810"
+    ],
+    "matches": {
+      "1220810": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きかい"
+        }
+      ],
+      "2436180": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "こしょうちゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10218800",
+    "original": "ＡＴＭは故障中です。",
+    "en": [
+      {
+        "id": "7588436",
+        "text": "The ATM is out of order."
+      }
+    ],
+    "vocabIds": [
+      "2436180"
+    ],
+    "matches": {
+      "2436180": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "こしょうちゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10847111",
+    "original": "電話は今、故障中だよ。",
+    "en": [
+      {
+        "id": "279307",
+        "text": "The telephone is now out of order."
+      }
+    ],
+    "vocabIds": [
+      "2436180",
+      "1443840",
+      "1288850"
+    ],
+    "matches": {
+      "1288850": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "いま"
+        }
+      ],
+      "1443840": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "でんわ"
+        }
+      ],
+      "2436180": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "こしょうちゅう"
+        }
+      ]
+    }
+  }
+]

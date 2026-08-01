@@ -1,0 +1,60 @@
+[
+  {
+    "id": "223753",
+    "original": "このゴルフ場は会員制になっています。",
+    "en": [
+      {
+        "id": "61089",
+        "text": "This golf course is not open to non-members."
+      },
+      {
+        "id": "7492853",
+        "text": "This golf course isn't open to non-members."
+      }
+    ],
+    "indices": "此の{この} ゴルフ場 は 会員制 になる{になっています}",
+    "vocabIds": [
+      "1054700",
+      "1198270"
+    ],
+    "matches": {
+      "1054700": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "ごるふじょう"
+        }
+      ],
+      "1198270": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "かいいんせい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "234383",
+    "original": "あそこは会員制のゴルフクラブだ。",
+    "en": [
+      {
+        "id": "71760",
+        "text": "That's an exclusive golf club."
+      }
+    ],
+    "indices": "彼処[01]{あそこ} は 会員制~ の ゴルフ倶楽部[02]{ゴルフクラブ}~ だ",
+    "vocabIds": [
+      "1198270"
+    ],
+    "matches": {
+      "1198270": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "かいいんせい"
+        }
+      ]
+    }
+  }
+]

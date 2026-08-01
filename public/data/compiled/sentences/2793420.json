@@ -1,0 +1,100 @@
+[
+  {
+    "id": "86830",
+    "original": "彼女は物の見方が広い。",
+    "en": [
+      {
+        "id": "316880",
+        "text": "She has a broad view of things."
+      }
+    ],
+    "indices": "彼女[01] は 物(もの)[01] の 見方[01] が 広い",
+    "vocabIds": [
+      "2793420",
+      "1483150",
+      "1278410"
+    ],
+    "matches": {
+      "1278410": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "ひろい"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "2793420": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "もののみかた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "144507",
+    "original": "人は金持ちか貧乏人かによって物の見方が違う。",
+    "en": [
+      {
+        "id": "270058",
+        "text": "A person views things differently according to whether they are rich or poor."
+      },
+      {
+        "id": "922069",
+        "text": "People look at things differently depending on whether they are rich or poor."
+      }
+    ],
+    "indices": "人(ひと) は 金持ち か 貧乏人 か に因って{によって} 物(もの)[01] の 見方[01] が 違う(ちがう)[01]",
+    "vocabIds": [
+      "2793420",
+      "1242970",
+      "1490930",
+      "1158880",
+      "1580640"
+    ],
+    "matches": {
+      "1158880": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "ちがう"
+        }
+      ],
+      "1242970": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "かねもち"
+        }
+      ],
+      "1490930": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "びんぼうにん"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ],
+      "2793420": [
+        {
+          "start": 14,
+          "length": 4,
+          "reading": "もののみかた"
+        }
+      ]
+    }
+  }
+]

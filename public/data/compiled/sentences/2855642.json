@@ -1,0 +1,188 @@
+[
+  {
+    "id": "169644",
+    "original": "昨夜は強い雨だった。",
+    "en": [
+      {
+        "id": "244828",
+        "text": "It rained hard last night."
+      }
+    ],
+    "indices": "昨夜(ゆうべ)[02] は 強い(つよい) 雨 だ{だった}",
+    "vocabIds": [
+      "2855642",
+      "1542640"
+    ],
+    "matches": {
+      "1542640": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "さくや"
+        }
+      ],
+      "2855642": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "つよいあめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "180542",
+    "original": "強い雨のため私はずぶ濡れになった。",
+    "en": [
+      {
+        "id": "19235",
+        "text": "I was drenched to the skin because of the heavy rain."
+      }
+    ],
+    "indices": "強い(つよい) 雨 の 為(ため)[03]{ため} 私(わたし)[01] は ずぶ濡れ になる[01]{になった}",
+    "vocabIds": [
+      "1006410",
+      "2855642",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1006410": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "ずぶぬれ"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2855642": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "つよいあめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2116612",
+    "original": "一日中強い雨が降っていた。",
+    "en": [
+      {
+        "id": "27409",
+        "text": "It rained hard all day."
+      }
+    ],
+    "vocabIds": [
+      "1184450",
+      "1282790",
+      "1165500",
+      "2855642"
+    ],
+    "matches": {
+      "1165500": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "いちにちちゅう"
+        }
+      ],
+      "1184450": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "ふっていた"
+        }
+      ],
+      "1282790": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "ふっていた"
+        }
+      ],
+      "2855642": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "つよいあめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10623148",
+    "original": "朝起きたら、強い雨が降ってたんだ。",
+    "en": [
+      {
+        "id": "10017226",
+        "text": "When I woke up this morning, it was raining hard."
+      }
+    ],
+    "vocabIds": [
+      "1223640",
+      "1184450",
+      "1282790",
+      "2855642",
+      "1428280"
+    ],
+    "matches": {
+      "1184450": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "ふってた"
+        }
+      ],
+      "1223640": [
+        {
+          "start": 1,
+          "length": 4,
+          "reading": "おきたら"
+        }
+      ],
+      "1282790": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "ふってた"
+        }
+      ],
+      "1428280": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "あさ"
+        }
+      ],
+      "2855642": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "つよいあめ"
+        }
+      ]
+    }
+  }
+]

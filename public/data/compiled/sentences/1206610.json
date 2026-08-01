@@ -1,0 +1,124 @@
+[
+  {
+    "id": "142671",
+    "original": "盛田教授は化学学会で司会を務めた。",
+    "en": [
+      {
+        "id": "271899",
+        "text": "Professor Morita presided at a meeting of the Chemical Society."
+      }
+    ],
+    "indices": "教授 は 化学[01] 学会~ で(#2028980) 司会 を 勤める[02]{務めた}",
+    "vocabIds": [
+      "1240825",
+      "1237160",
+      "1186760",
+      "1206610",
+      "1306640"
+    ],
+    "matches": {
+      "1186760": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "かがく"
+        }
+      ],
+      "1206610": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "がっかい"
+        }
+      ],
+      "1237160": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きょうじゅ"
+        }
+      ],
+      "1240825": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "つとめた"
+        }
+      ],
+      "1306640": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "しかい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11169231",
+    "original": "「田中先生に頼まれていた資料を持ってまいりました。どういたしましょうか？」「先生は学会です。そこに置いておいてください」",
+    "en": [
+      {
+        "id": "11175713",
+        "text": "\"I have the documents Professor Tanaka asked for. What should I do with them?\" \"He's in a conference. Just leave them over there.\""
+      }
+    ],
+    "vocabIds": [
+      "1421850",
+      "1315720",
+      "1387990",
+      "1548370",
+      "1312820",
+      "1206610"
+    ],
+    "matches": {
+      "1206610": [
+        {
+          "start": 41,
+          "length": 2,
+          "reading": "がっかい"
+        }
+      ],
+      "1312820": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "しりょう"
+        }
+      ],
+      "1315720": [
+        {
+          "start": 15,
+          "length": 9,
+          "reading": "もってまいりました"
+        }
+      ],
+      "1387990": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "せんせい"
+        },
+        {
+          "start": 38,
+          "length": 2,
+          "reading": "せんせい"
+        }
+      ],
+      "1421850": [
+        {
+          "start": 49,
+          "length": 10,
+          "reading": "おいておいてください"
+        }
+      ],
+      "1548370": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "たのま"
+        }
+      ]
+    }
+  }
+]

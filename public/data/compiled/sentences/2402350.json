@@ -1,0 +1,88 @@
+[
+  {
+    "id": "80209",
+    "original": "面と向かって誉めるような人は、とかく陰で悪口を言うものだ。",
+    "en": [
+      {
+        "id": "323508",
+        "text": "Such men as praise you to your face are apt to speak ill of you behind your back."
+      }
+    ],
+    "indices": "面と向かう{面と向かって} 褒める{誉める} 様な{ような} 人(ひと) は 兎角[02]{とかく} 陰で悪口を言う 物(もの){もの} だ",
+    "vocabIds": [
+      "2402350",
+      "1604800",
+      "1603550",
+      "1584695",
+      "1580640"
+    ],
+    "matches": {
+      "1580640": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ],
+      "1584695": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "めん"
+        }
+      ],
+      "1603550": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "ほめる"
+        }
+      ],
+      "1604800": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "むかって"
+        }
+      ],
+      "2402350": [
+        {
+          "start": 18,
+          "length": 7,
+          "reading": "かげでわるぐちをいう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "144631",
+    "original": "人の陰で悪口を言うな。",
+    "en": [
+      {
+        "id": "27095",
+        "text": "Don't speak ill of others behind their back."
+      }
+    ],
+    "indices": "人(ひと) の 陰で悪口を言う~ な[01]",
+    "vocabIds": [
+      "2402350",
+      "1580640"
+    ],
+    "matches": {
+      "1580640": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ],
+      "2402350": [
+        {
+          "start": 2,
+          "length": 7,
+          "reading": "かげでわるぐちをいう"
+        }
+      ]
+    }
+  }
+]

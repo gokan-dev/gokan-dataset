@@ -1,0 +1,126 @@
+[
+  {
+    "id": "87836",
+    "original": "彼女は長旅に耐えられるか。",
+    "en": [
+      {
+        "id": "315871",
+        "text": "Is she equal to a long journey?"
+      },
+      {
+        "id": "388302",
+        "text": "Does she have enough energy to take a long trip?"
+      },
+      {
+        "id": "388303",
+        "text": "Can she endure a long trip?"
+      }
+    ],
+    "indices": "彼女[01] は 長旅~ に 耐える{耐えられる} か",
+    "vocabIds": [
+      "1211310",
+      "1483150",
+      "1430170"
+    ],
+    "matches": {
+      "1211310": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "たえ"
+        }
+      ],
+      "1430170": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ながたび"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "125849",
+    "original": "長旅で彼女の傷は悪化した。",
+    "en": [
+      {
+        "id": "278143",
+        "text": "The long trip aggravated her injury."
+      }
+    ],
+    "indices": "長旅 で(#2028980) 彼女[01]{彼女の} 傷[01] は 悪化 為る(する){した}",
+    "vocabIds": [
+      "1430170",
+      "1483150",
+      "1151470",
+      "1580260"
+    ],
+    "matches": {
+      "1151470": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "あっか"
+        }
+      ],
+      "1430170": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ながたび"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1580260": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "きず"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2710673",
+    "original": "長旅でさぞお疲れでしょう。",
+    "en": [
+      {
+        "id": "16795",
+        "text": "You must be tired after such a long trip."
+      }
+    ],
+    "vocabIds": [
+      "2827267",
+      "1430170"
+    ],
+    "matches": {
+      "1430170": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ながたび"
+        }
+      ],
+      "2827267": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "おつかれ"
+        }
+      ]
+    }
+  }
+]

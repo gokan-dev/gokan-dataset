@@ -1,0 +1,95 @@
+[
+  {
+    "id": "142495",
+    "original": "静粛にしていなさい。",
+    "en": [
+      {
+        "id": "272075",
+        "text": "Keep quiet!"
+      },
+      {
+        "id": "272043",
+        "text": "Keep quiet."
+      }
+    ],
+    "indices": "静粛 に 為る(する){してい} 為さい{なさい}",
+    "vocabIds": [
+      "1381920"
+    ],
+    "matches": {
+      "1381920": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "せいしゅく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "182878",
+    "original": "議長は静粛を命じた。",
+    "en": [
+      {
+        "id": "19999",
+        "text": "The chairperson ordered silence."
+      }
+    ],
+    "indices": "議長 は 静粛~ を 命じる{命じた}",
+    "vocabIds": [
+      "1531950",
+      "1226140",
+      "1381920"
+    ],
+    "matches": {
+      "1226140": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ぎちょう"
+        }
+      ],
+      "1381920": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "せいしゅく"
+        }
+      ],
+      "1531950": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "めいじた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "195078",
+    "original": "みなさん、どうか静粛に。",
+    "en": [
+      {
+        "id": "32252",
+        "text": "Order, please."
+      },
+      {
+        "id": "435748",
+        "text": "Everyone, please be quiet."
+      }
+    ],
+    "indices": "皆さん{みなさん} 如何か[01]{どうか} 静粛{静粛に}",
+    "vocabIds": [
+      "1381920"
+    ],
+    "matches": {
+      "1381920": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "せいしゅく"
+        }
+      ]
+    }
+  }
+]

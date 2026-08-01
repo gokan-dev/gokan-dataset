@@ -1,0 +1,108 @@
+[
+  {
+    "id": "101723",
+    "original": "彼は答えにくい質問をした。",
+    "en": [
+      {
+        "id": "301970",
+        "text": "He asked an awkward question."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 答える{答え} 難い(にくい){にくい} 質問をする{質問をした}",
+    "vocabIds": [
+      "1876770",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1876770": [
+        {
+          "start": 2,
+          "length": 7,
+          "reading": "こたえにくいしつもん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "204966",
+    "original": "それは答えにくい質問だな。",
+    "en": [
+      {
+        "id": "42208",
+        "text": "That's a hard question to answer."
+      }
+    ],
+    "indices": "其れ[01]{それ} は 答える{答え} 難い(にくい){にくい} 質問 だ な",
+    "vocabIds": [
+      "1876770"
+    ],
+    "matches": {
+      "1876770": [
+        {
+          "start": 3,
+          "length": 7,
+          "reading": "こたえにくいしつもん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10239541",
+    "original": "答えにくい質問だな。",
+    "en": [
+      {
+        "id": "17093",
+        "text": "Your question is hard for me to answer."
+      }
+    ],
+    "vocabIds": [
+      "1876770"
+    ],
+    "matches": {
+      "1876770": [
+        {
+          "start": 0,
+          "length": 7,
+          "reading": "こたえにくいしつもん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10628765",
+    "original": "答え難い質問するなよ。",
+    "en": [
+      {
+        "id": "10629681",
+        "text": "Don't ask such difficult questions."
+      }
+    ],
+    "vocabIds": [
+      "1876770"
+    ],
+    "matches": {
+      "1876770": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "こたえがたいしつもん"
+        }
+      ]
+    }
+  }
+]

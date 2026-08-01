@@ -1,0 +1,143 @@
+[
+  {
+    "id": "220831",
+    "original": "この川で捕れる魚はみんなおいしい。",
+    "en": [
+      {
+        "id": "58153",
+        "text": "The fish caught in this river are all nice."
+      }
+    ],
+    "indices": "此の{この} 川[01] で(#2028980) 捕れる[01]~ 魚 は 皆{みんな} 美味しい{おいしい}",
+    "vocabIds": [
+      "2228250",
+      "1390020",
+      "1578010"
+    ],
+    "matches": {
+      "1390020": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "かわ"
+        }
+      ],
+      "1578010": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "さかな"
+        }
+      ],
+      "2228250": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "とれる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9188375",
+    "original": "あとちょっとで魚が捕れたんだよ。",
+    "en": [
+      {
+        "id": "255778",
+        "text": "I almost caught the fish."
+      }
+    ],
+    "vocabIds": [
+      "2228250",
+      "1578010"
+    ],
+    "matches": {
+      "1578010": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "さかな"
+        }
+      ],
+      "2228250": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "とれた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11029681",
+    "original": "魚は捕れなかったよ。",
+    "en": [
+      {
+        "id": "3824664",
+        "text": "I didn't catch any fish."
+      }
+    ],
+    "vocabIds": [
+      "2228250",
+      "1578010"
+    ],
+    "matches": {
+      "1578010": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "さかな"
+        }
+      ],
+      "2228250": [
+        {
+          "start": 2,
+          "length": 6,
+          "reading": "とれなかった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11527541",
+    "original": "素手で魚が捕れる？",
+    "en": [
+      {
+        "id": "9668232",
+        "text": "Can you catch fish with your bare hands?"
+      },
+      {
+        "id": "12463490",
+        "text": "Can you catch a fish with your bare hands?"
+      }
+    ],
+    "vocabIds": [
+      "2832913",
+      "2228250",
+      "1578010"
+    ],
+    "matches": {
+      "1578010": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "さかな"
+        }
+      ],
+      "2228250": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "とれる"
+        }
+      ],
+      "2832913": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "すでで"
+        }
+      ]
+    }
+  }
+]

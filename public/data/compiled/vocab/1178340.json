@@ -1,0 +1,104 @@
+{
+  "id": "1178340",
+  "writtenForm": {
+    "kanji": "遠方",
+    "alternatives": [
+      "彼方"
+    ],
+    "containedKanji": [
+      "遠",
+      "方"
+    ]
+  },
+  "reading": {
+    "primary": "えんぽう",
+    "alternatives": [
+      "おちかた",
+      "をちかた"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 10832,
+    "kanaRank": 166718
+  },
+  "jlptLevel": 1,
+  "progression": {
+    "kklcStep": 857
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "distant place",
+        "faraway location",
+        "far away"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "distant place",
+        "faraway land"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "おちかた"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1178340",
+      "isBase": true,
+      "originalPrimaryReading": "えんぽう",
+      "originalGlosses": [
+        "distant place",
+        "faraway location",
+        "far away"
+      ]
+    },
+    {
+      "id": "2864080",
+      "isBase": false,
+      "originalPrimaryReading": "おちかた",
+      "originalGlosses": [
+        "distant place",
+        "faraway land"
+      ]
+    }
+  ],
+  "components": [
+    "1516930"
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "1377150",
+  "writtenForm": {
+    "kanji": "正座",
+    "alternatives": [
+      "正坐"
+    ],
+    "containedKanji": [
+      "正",
+      "座"
+    ]
+  },
+  "reading": {
+    "primary": "しょうざ",
+    "alternatives": [
+      "せいざ"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 8757
+  },
+  "progression": {
+    "kklcStep": 749
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "seat of honor",
+        "seat of honour"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n",
+        "vs",
+        "vi"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "seiza",
+        "kneeling with the tops of the feet flat on the floor, and sitting on the soles"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "せいざ"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1377150",
+      "isBase": true,
+      "originalPrimaryReading": "しょうざ",
+      "originalGlosses": [
+        "seat of honor",
+        "seat of honour"
+      ]
+    },
+    {
+      "id": "1595990",
+      "isBase": false,
+      "originalPrimaryReading": "せいざ",
+      "originalGlosses": [
+        "seiza",
+        "kneeling with the tops of the feet flat on the floor, and sitting on the soles"
+      ]
+    }
+  ],
+  "components": [
+    "1376590",
+    "1291770"
+  ]
+}

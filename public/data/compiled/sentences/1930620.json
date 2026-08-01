@@ -1,0 +1,88 @@
+[
+  {
+    "id": "109630",
+    "original": "彼は英語教育にいくらか経験がある。",
+    "en": [
+      {
+        "id": "294060",
+        "text": "He has some experience in teaching English."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 英語教育 に 幾らか{いくらか} 経験 が[01] 有る{ある}",
+    "vocabIds": [
+      "1930620",
+      "1251270",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1251270": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "けいけん"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1930620": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "えいごきょういく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "122789",
+    "original": "日本では英語教育が盛んである。",
+    "en": [
+      {
+        "id": "281213",
+        "text": "English education flourishes in Japan."
+      }
+    ],
+    "indices": "日本 で(#2028980) は 英語教育~ が 盛ん[01]~ である",
+    "vocabIds": [
+      "1930620",
+      "1582710",
+      "1379750"
+    ],
+    "matches": {
+      "1379750": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "さかん"
+        }
+      ],
+      "1582710": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "にっぽん"
+        }
+      ],
+      "1930620": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "えいごきょういく"
+        }
+      ]
+    }
+  }
+]

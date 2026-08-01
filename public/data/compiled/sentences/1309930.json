@@ -1,0 +1,56 @@
+[
+  {
+    "id": "168232",
+    "original": "指定席はありますか。",
+    "en": [
+      {
+        "id": "246261",
+        "text": "Are there reserved seats?"
+      }
+    ],
+    "indices": "指定席 は 有る{あります} か",
+    "vocabIds": [
+      "1309930"
+    ],
+    "matches": {
+      "1309930": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "していせき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "222926",
+    "original": "この映画の指定席はありますか。",
+    "en": [
+      {
+        "id": "60257",
+        "text": "Are there reserved seats for this film?"
+      }
+    ],
+    "indices": "此の{この} 映画 の 指定席~ は 有る{あります} か",
+    "vocabIds": [
+      "1309930",
+      "1173720"
+    ],
+    "matches": {
+      "1173720": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "えいが"
+        }
+      ],
+      "1309930": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "していせき"
+        }
+      ]
+    }
+  }
+]

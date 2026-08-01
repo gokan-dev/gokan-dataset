@@ -1,0 +1,54 @@
+[
+  {
+    "id": "1485498",
+    "original": "これは簡単な平叙文である。",
+    "en": [
+      {
+        "id": "848746",
+        "text": "This is a simple declarative sentence."
+      }
+    ],
+    "vocabIds": [
+      "1626490",
+      "1214330"
+    ],
+    "matches": {
+      "1214330": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かんたん"
+        }
+      ],
+      "1626490": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "へいじょぶん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9678926",
+    "original": "これは平叙文ではありません！",
+    "en": [
+      {
+        "id": "9444623",
+        "text": "This is not a declarative sentence!"
+      }
+    ],
+    "vocabIds": [
+      "1626490"
+    ],
+    "matches": {
+      "1626490": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "へいじょぶん"
+        }
+      ]
+    }
+  }
+]

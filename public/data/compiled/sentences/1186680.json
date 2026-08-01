@@ -1,0 +1,71 @@
+[
+  {
+    "id": "118011",
+    "original": "彼の化けの皮をはごうとしたが、むりだった。",
+    "en": [
+      {
+        "id": "285653",
+        "text": "I tried in vain to catch him out."
+      },
+      {
+        "id": "403367",
+        "text": "I tried to get him to show what his true nature was, but I couldn't."
+      },
+      {
+        "id": "403369",
+        "text": "I tried to reveal him for what he really was, but it was impossible."
+      }
+    ],
+    "indices": "彼(かれ) の 化けの皮を剥ぐ{化けの皮をはごう}~ とする{とした} が 無理{むり} だ{だった}",
+    "vocabIds": [
+      "1186680",
+      "1000420"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれの"
+        }
+      ],
+      "1186680": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "ばけのかわ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12453418",
+    "original": "ついに化けの皮を剥いだ。",
+    "en": [
+      {
+        "id": "12452112",
+        "text": "Finally he showed his true colours."
+      }
+    ],
+    "vocabIds": [
+      "1186680",
+      "1474370"
+    ],
+    "matches": {
+      "1186680": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "ばけのかわ"
+        }
+      ],
+      "1474370": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "むいだ"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "id": "173572",
+    "original": "校則なので生徒たちは学生服を着なくてはならない。",
+    "en": [
+      {
+        "id": "240898",
+        "text": "The school rules require students to wear school uniforms."
+      }
+    ],
+    "indices": "校則 なので 生徒 達{たち} は 学生服~ を 着る[01]{着} 無くてはならない[02]{なくてはならない}",
+    "vocabIds": [
+      "1423000",
+      "1761080",
+      "1279580",
+      "1379380"
+    ],
+    "matches": {
+      "1279580": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こうそく"
+        }
+      ],
+      "1379380": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "せいと"
+        }
+      ],
+      "1423000": [
+        {
+          "start": 14,
+          "length": 4,
+          "reading": "きなくて"
+        }
+      ],
+      "1761080": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "がくせいふく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "184192",
+    "original": "学生服は普段着としても式服としても着られるので便利だ。",
+    "en": [
+      {
+        "id": "21320",
+        "text": "The school uniform is convenient because it can be worn for both informal and formal occasions."
+      }
+    ],
+    "indices": "学生服 は 普段着 としても 式服~ としても[02]~ 着る[01]{着られる} ので 便利 だ",
+    "vocabIds": [
+      "1761080",
+      "1602740",
+      "1319110",
+      "1512610",
+      "1423000"
+    ],
+    "matches": {
+      "1319110": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "しきふく"
+        }
+      ],
+      "1423000": [
+        {
+          "start": 17,
+          "length": 1,
+          "reading": "き"
+        }
+      ],
+      "1512610": [
+        {
+          "start": 23,
+          "length": 2,
+          "reading": "べんり"
+        }
+      ],
+      "1602740": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "ふだんぎ"
+        }
+      ],
+      "1761080": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "がくせいふく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9035012",
+    "original": "学生服を着ろ。",
+    "en": [
+      {
+        "id": "9035000",
+        "text": "Put on your school uniform."
+      }
+    ],
+    "vocabIds": [
+      "1761080",
+      "1423000"
+    ],
+    "matches": {
+      "1423000": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "きろ"
+        }
+      ],
+      "1761080": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "がくせいふく"
+        }
+      ]
+    }
+  }
+]

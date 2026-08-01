@@ -1,0 +1,103 @@
+[
+  {
+    "id": "87517",
+    "original": "彼女は髪を無造作に束ねている。",
+    "en": [
+      {
+        "id": "316191",
+        "text": "She is doing her hair simply."
+      }
+    ],
+    "indices": "彼女[01] は 髪 を 無造作[02]{無造作に}~ 束ねる{束ねている}",
+    "vocabIds": [
+      "1581320",
+      "1530500",
+      "1483150",
+      "1477950"
+    ],
+    "matches": {
+      "1477950": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "かみ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1530500": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "むぞうさ"
+        }
+      ],
+      "1581320": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "たばねている"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11924147",
+    "original": "本が無造作に積まれていた。",
+    "en": [
+      {
+        "id": "13008460",
+        "text": "Books were piled up, artlessly."
+      },
+      {
+        "id": "13008461",
+        "text": "There were random piles of books."
+      },
+      {
+        "id": "13008462",
+        "text": "The books were piled up carelessly on the floor."
+      }
+    ],
+    "vocabIds": [
+      "1530500",
+      "1382970",
+      "1260670",
+      "1522150"
+    ],
+    "matches": {
+      "1260670": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ほん"
+        }
+      ],
+      "1382970": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "つま"
+        }
+      ],
+      "1522150": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ほん"
+        }
+      ],
+      "1530500": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "むぞうさ"
+        }
+      ]
+    }
+  }
+]

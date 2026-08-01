@@ -1,0 +1,197 @@
+[
+  {
+    "id": "83197",
+    "original": "歩哨はみんなに合い言葉を言わせた。",
+    "en": [
+      {
+        "id": "320519",
+        "text": "The sentry demanded the password from everyone."
+      }
+    ],
+    "indices": "歩哨~ は 皆{みんな} に 合い言葉 を 言う{言わせた}",
+    "vocabIds": [
+      "1586060",
+      "1691120",
+      "1587040"
+    ],
+    "matches": {
+      "1586060": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "あいことば"
+        }
+      ],
+      "1587040": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "いわ"
+        }
+      ],
+      "1691120": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ほしょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "173161",
+    "original": "合言葉は『山』です。誰かが「山」と言ったら「川」と返すのです。",
+    "en": [
+      {
+        "id": "241310",
+        "text": "The password is \"Mountain\". If someone says \"Mountain\", you reply \"River\"."
+      }
+    ],
+    "indices": "合い言葉(あいことば){合言葉} は 山(やま) です 誰か が 山(やま)[01] と 言う(いう){言ったら} 川(かわ) と 返す(かえす)[01] の です",
+    "vocabIds": [
+      "1587040",
+      "1586060",
+      "1416840",
+      "1512130",
+      "1302680",
+      "1390020"
+    ],
+    "matches": {
+      "1302680": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "やま"
+        },
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "やま"
+        }
+      ],
+      "1390020": [
+        {
+          "start": 22,
+          "length": 1,
+          "reading": "かわ"
+        }
+      ],
+      "1416840": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "だれか"
+        }
+      ],
+      "1512130": [
+        {
+          "start": 25,
+          "length": 2,
+          "reading": "かえす"
+        }
+      ],
+      "1586060": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あいことば"
+        }
+      ],
+      "1587040": [
+        {
+          "start": 17,
+          "length": 4,
+          "reading": "いったら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "210664",
+    "original": "その合い言葉は分かりやすかった。",
+    "en": [
+      {
+        "id": "47934",
+        "text": "The passwords were easy to figure out."
+      }
+    ],
+    "indices": "其の[01]{その} 合い言葉 は 分かりやすい{分かりやすかった}",
+    "vocabIds": [
+      "1586060",
+      "1606560"
+    ],
+    "matches": {
+      "1586060": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "あいことば"
+        }
+      ],
+      "1606560": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "わかり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "210665",
+    "original": "その合い言葉は解きやすかった。",
+    "en": [
+      {
+        "id": "47935",
+        "text": "We easily figured out the password."
+      }
+    ],
+    "indices": "其の[01]{その} 合い言葉~ は 解く(とく)[03]{解き} 易い{やすかった}",
+    "vocabIds": [
+      "1586060",
+      "1198890"
+    ],
+    "matches": {
+      "1198890": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "とき"
+        }
+      ],
+      "1586060": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "あいことば"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1172673",
+    "original": "合言葉は？",
+    "en": [
+      {
+        "id": "1172670",
+        "text": "Password?"
+      },
+      {
+        "id": "2234120",
+        "text": "What's the password?"
+      }
+    ],
+    "vocabIds": [
+      "1586060"
+    ],
+    "matches": {
+      "1586060": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あいことば"
+        }
+      ]
+    }
+  }
+]

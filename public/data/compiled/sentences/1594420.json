@@ -1,0 +1,164 @@
+[
+  {
+    "id": "88932",
+    "original": "彼女は失神しそうに見えました。",
+    "en": [
+      {
+        "id": "314775",
+        "text": "It seemed as if she was going to faint."
+      }
+    ],
+    "indices": "彼女[01] は 失神~ 為る(する){し} 然う[01]{そう} に 見える(みえる){見えました}",
+    "vocabIds": [
+      "1259140",
+      "1483150",
+      "1594420"
+    ],
+    "matches": {
+      "1259140": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "みえました"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1594420": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "しっしん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "90470",
+    "original": "彼女は恐怖で失神した。",
+    "en": [
+      {
+        "id": "313243",
+        "text": "She fainted with fear."
+      }
+    ],
+    "indices": "彼女[01] は 恐怖 で(#2028980) 失神 為る(する){した}",
+    "vocabIds": [
+      "1483150",
+      "1236750",
+      "1594420"
+    ],
+    "matches": {
+      "1236750": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "きょうふ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1594420": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "しっしん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9974717",
+    "original": "血を見て失神しちゃうような看護師はいらないわ。",
+    "en": [
+      {
+        "id": "4931672",
+        "text": "I don’t want a nurse who swoons at the sight of blood."
+      }
+    ],
+    "vocabIds": [
+      "1928100",
+      "1259290",
+      "1594420",
+      "1255060"
+    ],
+    "matches": {
+      "1255060": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ち"
+        }
+      ],
+      "1259290": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "みて"
+        }
+      ],
+      "1594420": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "しっしん"
+        }
+      ],
+      "1928100": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "かんごし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9974743",
+    "original": "トムね、血を見て失神しちゃったのよ。",
+    "en": [
+      {
+        "id": "5671860",
+        "text": "Tom fainted at the sight of blood."
+      }
+    ],
+    "vocabIds": [
+      "1259290",
+      "1594420",
+      "1255060"
+    ],
+    "matches": {
+      "1255060": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "ち"
+        }
+      ],
+      "1259290": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "みて"
+        }
+      ],
+      "1594420": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "しっしん"
+        }
+      ]
+    }
+  }
+]

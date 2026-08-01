@@ -1,0 +1,107 @@
+[
+  {
+    "id": "103936",
+    "original": "彼は職探しに忙しい。",
+    "en": [
+      {
+        "id": "299756",
+        "text": "He is busy with job hunting."
+      },
+      {
+        "id": "10596983",
+        "text": "He's busy with job hunting."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 職(しょく) 探しに 忙しい(いそがしい)",
+    "vocabIds": [
+      "1883170",
+      "1519290",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1519290": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "いそがしい"
+        }
+      ],
+      "1883170": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "しょくさがし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "145963",
+    "original": "職探しはどうなったの？",
+    "en": [
+      {
+        "id": "268599",
+        "text": "How is your job hunting going?"
+      }
+    ],
+    "indices": "職(しょく)~ 探す{探し} は 如何(どう){どう} 成る{なった} の",
+    "vocabIds": [
+      "1883170"
+    ],
+    "matches": {
+      "1883170": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "しょくさがし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "196904",
+    "original": "フレッドは１日中職探しをした。",
+    "en": [
+      {
+        "id": "34083",
+        "text": "Fred spent all day looking for a job."
+      }
+    ],
+    "indices": "は 一日中{１日中} 職探し~ を 為る(する){した}",
+    "vocabIds": [
+      "1165500",
+      "1883170"
+    ],
+    "matches": {
+      "1165500": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "いちにちちゅう"
+        }
+      ],
+      "1883170": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "しょくさがし"
+        }
+      ]
+    }
+  }
+]

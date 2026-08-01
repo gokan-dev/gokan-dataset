@@ -1,0 +1,55 @@
+[
+  {
+    "id": "151172",
+    "original": "視力検査をします。",
+    "en": [
+      {
+        "id": "263384",
+        "text": "I'll check your vision."
+      }
+    ],
+    "indices": "視力検査~ を 為る(する){します}",
+    "vocabIds": [
+      "1936620"
+    ],
+    "matches": {
+      "1936620": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "しりょくけんさ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "13715788",
+    "original": "眼科で視力検査をしました。",
+    "en": [
+      {
+        "id": "13715789",
+        "text": "I took an eyesight test in the eye clinic."
+      }
+    ],
+    "vocabIds": [
+      "1936620",
+      "1217150"
+    ],
+    "matches": {
+      "1217150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "がんか"
+        }
+      ],
+      "1936620": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "しりょくけんさ"
+        }
+      ]
+    }
+  }
+]

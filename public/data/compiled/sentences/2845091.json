@@ -1,0 +1,126 @@
+[
+  {
+    "id": "188456",
+    "original": "岡山は大きな都市ですか。",
+    "en": [
+      {
+        "id": "25599",
+        "text": "Is Okayama a big city?"
+      }
+    ],
+    "indices": "は 大きな 都市 ですか",
+    "vocabIds": [
+      "1412890",
+      "2845091",
+      "1444990"
+    ],
+    "matches": {
+      "1412890": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "おおきな"
+        }
+      ],
+      "1444990": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "とし"
+        }
+      ],
+      "2845091": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おかやま"
+        }
+      ]
+    }
+  },
+  {
+    "id": "188457",
+    "original": "岡山から先には行ったことがない。",
+    "en": [
+      {
+        "id": "25600",
+        "text": "I've never been beyond Okayama."
+      }
+    ],
+    "indices": "から[01] 先(さき)[04] には 行く[01]{行った} 事が無い{ことがない}",
+    "vocabIds": [
+      "1589060",
+      "2845091",
+      "1387280"
+    ],
+    "matches": {
+      "1387280": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "さきに"
+        }
+      ],
+      "1589060": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "おこなった"
+        }
+      ],
+      "2845091": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おかやま"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10999401",
+    "original": "岡山県の県庁所在地は岡山市です。",
+    "en": [
+      {
+        "id": "10999403",
+        "text": "Okayama Prefecture's capital is Okayama City."
+      }
+    ],
+    "vocabIds": [
+      "1258890",
+      "1182440",
+      "2845091",
+      "1308090"
+    ],
+    "matches": {
+      "1182440": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "おかやまけん"
+        }
+      ],
+      "1258890": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "けんちょうしょざいち"
+        }
+      ],
+      "1308090": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "し"
+        }
+      ],
+      "2845091": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "おかやま"
+        }
+      ]
+    }
+  }
+]

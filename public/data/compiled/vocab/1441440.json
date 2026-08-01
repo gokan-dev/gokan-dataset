@@ -1,0 +1,107 @@
+{
+  "id": "1441440",
+  "writtenForm": {
+    "kanji": "点火",
+    "alternatives": [
+      "灯"
+    ],
+    "containedKanji": [
+      "点",
+      "火"
+    ]
+  },
+  "reading": {
+    "primary": "てんか",
+    "alternatives": [
+      "とぼし"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 20767
+  },
+  "jlptLevel": 1,
+  "progression": {
+    "kklcStep": 349
+  },
+  "senses": [
+    {
+      "pos": [
+        "n",
+        "vs",
+        "vt",
+        "vi"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "ignition",
+        "lighting",
+        "firing",
+        "setting off"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "light",
+        "lamp"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "とぼし"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1441440",
+      "isBase": true,
+      "originalPrimaryReading": "てんか",
+      "originalGlosses": [
+        "ignition",
+        "lighting",
+        "firing"
+      ]
+    },
+    {
+      "id": "2519590",
+      "isBase": false,
+      "originalPrimaryReading": "とぼし",
+      "originalGlosses": [
+        "light",
+        "lamp"
+      ]
+    }
+  ],
+  "components": [
+    "1007860",
+    "1193610"
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "id": "2610880",
+  "writtenForm": {
+    "kanji": "大殿",
+    "alternatives": [
+      "大臣"
+    ],
+    "containedKanji": [
+      "大",
+      "殿"
+    ]
+  },
+  "reading": {
+    "primary": "おとど",
+    "alternatives": [
+      "おおとの"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 43642
+  },
+  "progression": {
+    "kklcStep": 881
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "hon"
+        ]
+      },
+      "glosses": [
+        "minister (of government)",
+        "noble"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "hon",
+          "arch"
+        ]
+      },
+      "glosses": [
+        "nobleman's residence"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "hon"
+        ]
+      },
+      "glosses": [
+        "current master",
+        "father of one's current master"
+      ],
+      "related": {
+        "compounds": [
+          "若殿"
+        ]
+      },
+      "appliesToReadings": [
+        "おおとの"
+      ]
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "hon"
+        ]
+      },
+      "glosses": [
+        "minister (of government)",
+        "noble"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "おおとの"
+      ]
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "hon",
+          "arch"
+        ]
+      },
+      "glosses": [
+        "nobleman's residence"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "おおとの"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": false,
+  "mergedVocabs": [
+    {
+      "id": "2610880",
+      "isBase": true,
+      "originalPrimaryReading": "おとど",
+      "originalGlosses": [
+        "minister (of government)",
+        "noble"
+      ]
+    },
+    {
+      "id": "2826482",
+      "isBase": false,
+      "originalPrimaryReading": "おおとの",
+      "originalGlosses": [
+        "current master",
+        "father of one's current master"
+      ]
+    }
+  ],
+  "components": [
+    "2082450",
+    "1442500"
+  ]
+}

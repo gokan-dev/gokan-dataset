@@ -1,0 +1,157 @@
+[
+  {
+    "id": "171974",
+    "original": "今日の為替レートはいくらですか。",
+    "en": [
+      {
+        "id": "242501",
+        "text": "What's today's exchange rate?"
+      }
+    ],
+    "indices": "今日 の 為替レート は 幾ら{いくら} ですか",
+    "vocabIds": [
+      "1157340",
+      "1579110"
+    ],
+    "matches": {
+      "1157340": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "かわせれーと"
+        }
+      ],
+      "1579110": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "184851",
+    "original": "外貨の為替レートは毎日変わる。",
+    "en": [
+      {
+        "id": "21981",
+        "text": "The exchange rates for foreign currency change daily."
+      }
+    ],
+    "indices": "外貨 の 為替レート は 毎日 変わる",
+    "vocabIds": [
+      "1157340",
+      "1510790",
+      "1203410",
+      "1524720"
+    ],
+    "matches": {
+      "1157340": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "かわせれーと"
+        }
+      ],
+      "1203410": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "がいか"
+        }
+      ],
+      "1510790": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "かわる"
+        }
+      ],
+      "1524720": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "まいにち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "188819",
+    "original": "円の為替レートを知りたいんですけど。",
+    "en": [
+      {
+        "id": "25966",
+        "text": "I'd like to know the exact exchange rate for yen."
+      }
+    ],
+    "indices": "円(えん)[01] の 為替レート~ を 知る{知り} たい[01] のです{んです} けど",
+    "vocabIds": [
+      "1157340",
+      "1420470",
+      "1175570",
+      "1216250"
+    ],
+    "matches": {
+      "1157340": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "かわせれーと"
+        }
+      ],
+      "1175570": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "えん"
+        }
+      ],
+      "1216250": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "えん"
+        }
+      ],
+      "1420470": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "しりたい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11524774",
+    "original": "今、ドルの為替レートはいくらですか？",
+    "en": [
+      {
+        "id": "36886",
+        "text": "What is the exchange rate for dollars now?"
+      }
+    ],
+    "vocabIds": [
+      "1157340",
+      "1288850"
+    ],
+    "matches": {
+      "1157340": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "かわせれーと"
+        }
+      ],
+      "1288850": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "いま"
+        }
+      ]
+    }
+  }
+]

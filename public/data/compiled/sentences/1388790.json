@@ -1,0 +1,107 @@
+[
+  {
+    "id": "103028",
+    "original": "彼は千円札を財布から取り出した。",
+    "en": [
+      {
+        "id": "300665",
+        "text": "He took out a 1,000-yen note from his wallet."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 千円札 を 財布 から 取り出す[01]{取り出した}",
+    "vocabIds": [
+      "1326770",
+      "1388790",
+      "1296970",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1296970": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "さいふ"
+        }
+      ],
+      "1326770": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "とりだした"
+        }
+      ],
+      "1388790": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "せんえんさつ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "141435",
+    "original": "千円札くずれますか。",
+    "en": [
+      {
+        "id": "273136",
+        "text": "Can you break a 1000 yen bill?"
+      },
+      {
+        "id": "1337703",
+        "text": "Can you break a 1,000 yen bill?"
+      }
+    ],
+    "indices": "千円札~ 崩れる[05]{くずれます}~ か",
+    "vocabIds": [
+      "1388790"
+    ],
+    "matches": {
+      "1388790": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "せんえんさつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "220838",
+    "original": "この千円札をくずしてくれませんか。",
+    "en": [
+      {
+        "id": "58160",
+        "text": "Can you break this thousand-yen bill?"
+      }
+    ],
+    "indices": "此の{この} 千円札 を 崩す[04]{くずして} 呉れる{くれません} か",
+    "vocabIds": [
+      "1388790"
+    ],
+    "matches": {
+      "1388790": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "せんえんさつ"
+        }
+      ]
+    }
+  }
+]

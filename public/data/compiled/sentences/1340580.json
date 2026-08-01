@@ -1,0 +1,162 @@
+[
+  {
+    "id": "178209",
+    "original": "君の準備ができ次第出発しよう。",
+    "en": [
+      {
+        "id": "17061",
+        "text": "We'll start whenever you are ready."
+      },
+      {
+        "id": "2780196",
+        "text": "We'll leave when you're ready."
+      },
+      {
+        "id": "2780197",
+        "text": "We'll leave as soon as you're ready."
+      }
+    ],
+    "indices": "君(きみ)[01]{君の} 準備 が でき次第 出発{出発しよう}",
+    "vocabIds": [
+      "1340580",
+      "1341670",
+      "1340000",
+      "1247250"
+    ],
+    "matches": {
+      "1247250": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "きみ"
+        }
+      ],
+      "1340000": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "しゅっぱつ"
+        }
+      ],
+      "1340580": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "できしだい"
+        }
+      ],
+      "1341670": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "じゅんび"
+        }
+      ]
+    }
+  },
+  {
+    "id": "183007",
+    "original": "あなたの用意が出来次第出発しましょう。",
+    "en": [
+      {
+        "id": "20128",
+        "text": "We'll leave as soon as you are ready."
+      },
+      {
+        "id": "2780197",
+        "text": "We'll leave as soon as you're ready."
+      }
+    ],
+    "indices": "貴方(あなた)[01]{あなた} の 用意 が[01] 出来次第~ 出発{出発しましょう}",
+    "vocabIds": [
+      "1340580",
+      "1546220",
+      "1340000"
+    ],
+    "matches": {
+      "1340000": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "しゅっぱつ"
+        }
+      ],
+      "1340580": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "できしだい"
+        }
+      ],
+      "1546220": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ようい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1680761",
+    "original": "余裕ができ次第すぐ新しい車を買う予定です。",
+    "en": [
+      {
+        "id": "953567",
+        "text": "I plan to buy a new car as soon as I can afford one."
+      }
+    ],
+    "vocabIds": [
+      "1340580",
+      "1361490",
+      "1544590",
+      "1473740",
+      "1543240",
+      "1323080"
+    ],
+    "matches": {
+      "1323080": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1340580": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "できしだい"
+        }
+      ],
+      "1361490": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "あたらしい"
+        }
+      ],
+      "1473740": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "かう"
+        }
+      ],
+      "1543240": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "よてい"
+        }
+      ],
+      "1544590": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "よゆう"
+        }
+      ]
+    }
+  }
+]

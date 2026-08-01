@@ -1,0 +1,118 @@
+{
+  "id": "1632960",
+  "writtenForm": {
+    "kanji": "鉤",
+    "alternatives": [
+      "鈎"
+    ],
+    "containedKanji": [
+      "鉤"
+    ]
+  },
+  "reading": {
+    "primary": "かぎ",
+    "alternatives": [
+      "ち"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 40053,
+    "kanaRank": 58603
+  },
+  "progression": {
+    "kklcStep": 99999
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "hook"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": true,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "abbr"
+        ]
+      },
+      "glosses": [
+        "hook bracket (Japanese quotation mark)"
+      ],
+      "related": {
+        "compounds": [
+          "鉤括弧"
+        ]
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "fishing hook"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "ち"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": false,
+  "mergedVocabs": [
+    {
+      "id": "1632960",
+      "isBase": true,
+      "originalPrimaryReading": "かぎ",
+      "originalGlosses": [
+        "hook"
+      ]
+    },
+    {
+      "id": "2866695",
+      "isBase": false,
+      "originalPrimaryReading": "ち",
+      "originalGlosses": [
+        "fishing hook"
+      ]
+    }
+  ],
+  "parents": [
+    "2144540"
+  ]
+}

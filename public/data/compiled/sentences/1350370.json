@@ -1,0 +1,149 @@
+[
+  {
+    "id": "146390",
+    "original": "消防署は警察署の隣にあります。",
+    "en": [
+      {
+        "id": "268172",
+        "text": "The fire station is next to the police station."
+      }
+    ],
+    "indices": "消防署 は 警察署 の 隣 に 有る{あります}",
+    "vocabIds": [
+      "1350370",
+      "1252410",
+      "1555830"
+    ],
+    "matches": {
+      "1252410": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "けいさつしょ"
+        }
+      ],
+      "1350370": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "しょうぼうしょ"
+        }
+      ],
+      "1555830": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "となり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "146391",
+    "original": "消防署に連絡してください。",
+    "en": [
+      {
+        "id": "268171",
+        "text": "Please call the fire department."
+      }
+    ],
+    "indices": "消防署~ に 連絡[01] 為る(する){して} 下さい{ください}",
+    "vocabIds": [
+      "1350370",
+      "1559900"
+    ],
+    "matches": {
+      "1350370": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "しょうぼうしょ"
+        }
+      ],
+      "1559900": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "れんらく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "186692",
+    "original": "火事のときには消防署に電話しなさい。",
+    "en": [
+      {
+        "id": "23828",
+        "text": "In case of fire, telephone the fire station."
+      }
+    ],
+    "indices": "火事 の 時(とき){とき} には 消防署 に 電話 為る(する)[11]{し} 為さい{なさい}",
+    "vocabIds": [
+      "1350370",
+      "1193950",
+      "1443840"
+    ],
+    "matches": {
+      "1193950": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かじ"
+        }
+      ],
+      "1350370": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "しょうぼうしょ"
+        }
+      ],
+      "1443840": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "でんわ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11825592",
+    "original": "消防署は空港のすぐ隣にあります。",
+    "en": [
+      {
+        "id": "10257321",
+        "text": "The fire department is located right next to the airport."
+      }
+    ],
+    "vocabIds": [
+      "1350370",
+      "1245570",
+      "1555830"
+    ],
+    "matches": {
+      "1245570": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "くうこう"
+        }
+      ],
+      "1350370": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "しょうぼうしょ"
+        }
+      ],
+      "1555830": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "となり"
+        }
+      ]
+    }
+  }
+]

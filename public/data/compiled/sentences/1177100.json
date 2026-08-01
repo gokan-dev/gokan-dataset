@@ -1,0 +1,198 @@
+[
+  {
+    "id": "74504",
+    "original": "子宮内膜炎は、細菌が子宮内に入り、内膜に炎症を起す病気である。",
+    "en": [
+      {
+        "id": "329215",
+        "text": "Endometritis is a disease where bacteria enter the uterus and cause inflammation of the inner membrane."
+      }
+    ],
+    "indices": "子宮内膜炎~ は 細菌 が 子宮~ 内(ない) に 入る(はいる){入り} 内膜~ に 炎症 を 起こす{起す} 病気 である",
+    "vocabIds": [
+      "2396620",
+      "2165180",
+      "1459220",
+      "1295590",
+      "1465590",
+      "1177100",
+      "1223660",
+      "1490230"
+    ],
+    "matches": {
+      "1177100": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "えんしょう"
+        }
+      ],
+      "1223660": [
+        {
+          "start": 23,
+          "length": 2,
+          "reading": "おこす"
+        }
+      ],
+      "1295590": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "さいきん"
+        }
+      ],
+      "1459220": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "うちまく"
+        }
+      ],
+      "1465590": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "はいり"
+        }
+      ],
+      "1490230": [
+        {
+          "start": 25,
+          "length": 2,
+          "reading": "びょうき"
+        }
+      ],
+      "2165180": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "しきゅうない"
+        }
+      ],
+      "2396620": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "しきゅうないまくえん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "80016",
+    "original": "目が炎症を起こしているようですが。",
+    "en": [
+      {
+        "id": "323701",
+        "text": "I'm afraid I have an inflammation in my eyes."
+      }
+    ],
+    "indices": "目(め)[01] が 炎症 を 起こす{起こしている} 様(よう){よう} です が[03]",
+    "vocabIds": [
+      "1223660",
+      "1177100",
+      "1604890"
+    ],
+    "matches": {
+      "1177100": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "えんしょう"
+        }
+      ],
+      "1223660": [
+        {
+          "start": 5,
+          "length": 6,
+          "reading": "おこしている"
+        }
+      ],
+      "1604890": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "め"
+        }
+      ]
+    }
+  },
+  {
+    "id": "150932",
+    "original": "歯茎が炎症を起こしているようなのですが。",
+    "en": [
+      {
+        "id": "263624",
+        "text": "I think I have a gum infection."
+      }
+    ],
+    "indices": "歯茎 が 炎症~ を 起こす{起こしている} 様(よう){よう} なのだ{なのです} が[03]",
+    "vocabIds": [
+      "1223660",
+      "1313290",
+      "1177100"
+    ],
+    "matches": {
+      "1177100": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "えんしょう"
+        }
+      ],
+      "1223660": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "おこしている"
+        }
+      ],
+      "1313290": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "はぐき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "150933",
+    "original": "歯茎が炎症を起こしています。",
+    "en": [
+      {
+        "id": "263623",
+        "text": "You have a gum infection."
+      }
+    ],
+    "indices": "歯茎 が 炎症 を 起こす{起こしています}",
+    "vocabIds": [
+      "1223660",
+      "1313290",
+      "1177100"
+    ],
+    "matches": {
+      "1177100": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "えんしょう"
+        }
+      ],
+      "1223660": [
+        {
+          "start": 6,
+          "length": 7,
+          "reading": "おこしています"
+        }
+      ],
+      "1313290": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "はぐき"
+        }
+      ]
+    }
+  }
+]

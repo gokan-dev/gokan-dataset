@@ -1,0 +1,119 @@
+[
+  {
+    "id": "91179",
+    "original": "彼女は育ちがよい。",
+    "en": [
+      {
+        "id": "312535",
+        "text": "She is well brought up."
+      }
+    ],
+    "indices": "彼女[01] は 育ち が 良い{よい}",
+    "vocabIds": [
+      "1890000",
+      "1483150"
+    ],
+    "matches": {
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1890000": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "そだちがよい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "108205",
+    "original": "彼は金持ちだ。そのうえ、育ちがいい。",
+    "en": [
+      {
+        "id": "295481",
+        "text": "He is rich, what is more, he is well-bred."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 金持ち だ その上(そのうえ)[01]{そのうえ} 育ち が いい",
+    "vocabIds": [
+      "1890000",
+      "1242970",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1242970": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "かねもち"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1890000": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "そだちがいい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "171331",
+    "original": "今年は稲の育ちがいい。",
+    "en": [
+      {
+        "id": "243144",
+        "text": "The rice is coming well this year."
+      }
+    ],
+    "indices": "今年 は 稲 の 育ち が いい",
+    "vocabIds": [
+      "1890000",
+      "1579130",
+      "1167820"
+    ],
+    "matches": {
+      "1167820": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "いね"
+        }
+      ],
+      "1579130": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ことし"
+        }
+      ],
+      "1890000": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "そだちがいい"
+        }
+      ]
+    }
+  }
+]

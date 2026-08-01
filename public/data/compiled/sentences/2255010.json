@@ -1,0 +1,79 @@
+[
+  {
+    "id": "394385",
+    "original": "秀、食べすぎだよ。デブるぞ。",
+    "en": [
+      {
+        "id": "394386",
+        "text": "Shu, you're eating too much. You'll get fat!"
+      }
+    ],
+    "indices": "食べる{食べ} 過ぎる(すぎる){すぎ} だ よ デブる~ ぞ",
+    "vocabIds": [
+      "1358280",
+      "2255010"
+    ],
+    "matches": {
+      "1358280": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "たべすぎだ"
+        }
+      ],
+      "2255010": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "しゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12063282",
+    "original": "うちのおばあちゃんってさ、今でも俺のこと「秀ちゃん」っていうんだ。",
+    "en": [
+      {
+        "id": "12134753",
+        "text": "My grandma still calls me \"Little Hide.\""
+      }
+    ],
+    "vocabIds": [
+      "1288920",
+      "1266890",
+      "1576870",
+      "2255010"
+    ],
+    "matches": {
+      "1266890": [
+        {
+          "start": 16,
+          "length": 1,
+          "reading": "おれ"
+        }
+      ],
+      "1288920": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "いまでも"
+        }
+      ],
+      "1576870": [
+        {
+          "start": 16,
+          "length": 1,
+          "reading": "おれ"
+        }
+      ],
+      "2255010": [
+        {
+          "start": 21,
+          "length": 1,
+          "reading": "しげる"
+        }
+      ]
+    }
+  }
+]

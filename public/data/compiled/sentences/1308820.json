@@ -1,0 +1,33 @@
+[
+  {
+    "id": "220109",
+    "original": "この病院は市立です。",
+    "en": [
+      {
+        "id": "57428",
+        "text": "This hospital is run by the city."
+      }
+    ],
+    "indices": "此の{この} 病院 は 市立 です",
+    "vocabIds": [
+      "1490220",
+      "1308820"
+    ],
+    "matches": {
+      "1308820": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "しりつ"
+        }
+      ],
+      "1490220": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "びょういん"
+        }
+      ]
+    }
+  }
+]

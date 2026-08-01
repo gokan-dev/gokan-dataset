@@ -1,0 +1,142 @@
+[
+  {
+    "id": "125857",
+    "original": "長年の練習のおかげで、私は簡単に簿記ができるようになった。",
+    "en": [
+      {
+        "id": "278135",
+        "text": "Years of practice has enabled me to keep accounts without difficulty."
+      }
+    ],
+    "indices": "長年 の 練習 の お陰で{おかげで} 私(わたし)[01] は 簡単{簡単に} 簿記~ が[01] 出来るようになる{できるようになった}",
+    "vocabIds": [
+      "1430100",
+      "1559160",
+      "1214330",
+      "1515230",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1214330": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "かんたん"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1430100": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ながねん"
+        }
+      ],
+      "1515230": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "ぼき"
+        }
+      ],
+      "1559160": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "れんしゅう"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "176898",
+    "original": "君は簿記ができますか。",
+    "en": [
+      {
+        "id": "8389",
+        "text": "Can you do bookkeeping?"
+      }
+    ],
+    "indices": "君(きみ)[01] は 簿記 が[01] 出来る{できます} か",
+    "vocabIds": [
+      "1515230",
+      "1247250"
+    ],
+    "matches": {
+      "1247250": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "きみ"
+        }
+      ],
+      "1515230": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ぼき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1115286",
+    "original": "トムはわたしたちの簿記の方法を採用した。",
+    "en": [
+      {
+        "id": "1027214",
+        "text": "Tom adopted our method of bookkeeping."
+      }
+    ],
+    "vocabIds": [
+      "1515230",
+      "1517090",
+      "1294890"
+    ],
+    "matches": {
+      "1294890": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "さいよう"
+        }
+      ],
+      "1515230": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "ぼき"
+        }
+      ],
+      "1517090": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "ほうほう"
+        }
+      ]
+    }
+  }
+]

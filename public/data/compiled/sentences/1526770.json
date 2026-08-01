@@ -1,0 +1,399 @@
+[
+  {
+    "id": "81080",
+    "original": "満月でしたか新月でしたか。",
+    "en": [
+      {
+        "id": "322635",
+        "text": "Was it a full moon or a new moon?"
+      }
+    ],
+    "indices": "満月~ です{でした} か 新月~ です{でした} か",
+    "vocabIds": [
+      "1526770",
+      "1720200"
+    ],
+    "matches": {
+      "1526770": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "まんげつ"
+        }
+      ],
+      "1720200": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "しんげつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "81081",
+    "original": "満月が空にさえている。",
+    "en": [
+      {
+        "id": "322634",
+        "text": "A full moon is shining bright in the sky."
+      }
+    ],
+    "indices": "満月 が 空(そら) に 冴える[01]{さえている}~",
+    "vocabIds": [
+      "1526770",
+      "1245290",
+      "2248040"
+    ],
+    "matches": {
+      "1245290": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "そら"
+        }
+      ],
+      "1526770": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "まんげつ"
+        }
+      ],
+      "2248040": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "そら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "171084",
+    "original": "今夜は満月が見られる。",
+    "en": [
+      {
+        "id": "243395",
+        "text": "A full moon can be seen tonight."
+      }
+    ],
+    "indices": "今夜 は 満月 が 見る{見られる}",
+    "vocabIds": [
+      "2835071",
+      "1289520",
+      "1526770"
+    ],
+    "matches": {
+      "1289520": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こんや"
+        }
+      ],
+      "1526770": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "まんげつ"
+        }
+      ],
+      "2835071": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "みられる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "230509",
+    "original": "あの日見えたのは満月でした。",
+    "en": [
+      {
+        "id": "67876",
+        "text": "It was a full moon that was seen that day."
+      }
+    ],
+    "indices": "彼の(あの){あの} 日(ひ)[01] 見える(みえる)[01]{見えた} の は 満月 です{でした}",
+    "vocabIds": [
+      "1259140",
+      "1526770",
+      "1463770"
+    ],
+    "matches": {
+      "1259140": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "みえた"
+        }
+      ],
+      "1463770": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ひ"
+        }
+      ],
+      "1526770": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "まんげつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8634782",
+    "original": "今夜は満月だ。",
+    "en": [
+      {
+        "id": "3675901",
+        "text": "There's a full moon tonight."
+      }
+    ],
+    "vocabIds": [
+      "1289520",
+      "1526770"
+    ],
+    "matches": {
+      "1289520": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こんや"
+        }
+      ],
+      "1526770": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "まんげつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8634783",
+    "original": "昨日は満月だった。",
+    "en": [
+      {
+        "id": "3756423",
+        "text": "It was a full moon yesterday."
+      },
+      {
+        "id": "5576347",
+        "text": "The moon was full yesterday."
+      }
+    ],
+    "vocabIds": [
+      "1579260",
+      "1526770"
+    ],
+    "matches": {
+      "1526770": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "まんげつ"
+        }
+      ],
+      "1579260": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きのう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8634784",
+    "original": "昨夜は満月だった。",
+    "en": [
+      {
+        "id": "5576348",
+        "text": "The moon was full last night."
+      },
+      {
+        "id": "5576349",
+        "text": "There was a full moon last night."
+      }
+    ],
+    "vocabIds": [
+      "1542640",
+      "1526770"
+    ],
+    "matches": {
+      "1526770": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "まんげつ"
+        }
+      ],
+      "1542640": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "さくや"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8634785",
+    "original": "次の満月はいつ？",
+    "en": [
+      {
+        "id": "5576350",
+        "text": "When is the next full moon?"
+      }
+    ],
+    "vocabIds": [
+      "1526770",
+      "1316380"
+    ],
+    "matches": {
+      "1316380": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "つぎ"
+        }
+      ],
+      "1526770": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "まんげつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8663747",
+    "original": "ほとんどの年は満月が12回ですが、今年は13回あり、そのうちの３回はスーパームーンです。",
+    "en": [
+      {
+        "id": "8663682",
+        "text": "Most years have 12 full moons, but this year will have 13, three of them supermoons."
+      }
+    ],
+    "vocabIds": [
+      "1526770",
+      "1579130",
+      "1299940",
+      "2084840",
+      "1199330"
+    ],
+    "matches": {
+      "1199330": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "かい"
+        },
+        {
+          "start": 22,
+          "length": 1,
+          "reading": "かい"
+        }
+      ],
+      "1299940": [
+        {
+          "start": 31,
+          "length": 2,
+          "reading": "さんかい"
+        }
+      ],
+      "1526770": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "まんげつ"
+        }
+      ],
+      "1579130": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "ことし"
+        }
+      ],
+      "2084840": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "とし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8663764",
+    "original": "スーパームーンは通常の満月より最大で14%大きく、30%明るく見えます。",
+    "en": [
+      {
+        "id": "8663681",
+        "text": "A supermoon can look up to 14% bigger and 30% brighter than a regular monthly full moon."
+      }
+    ],
+    "vocabIds": [
+      "1259140",
+      "1588880",
+      "1532350",
+      "1433280",
+      "1526770",
+      "1294180"
+    ],
+    "matches": {
+      "1259140": [
+        {
+          "start": 31,
+          "length": 4,
+          "reading": "みえます"
+        }
+      ],
+      "1294180": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "さいだい"
+        }
+      ],
+      "1433280": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "つうじょう"
+        }
+      ],
+      "1526770": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "まんげつ"
+        }
+      ],
+      "1532350": [
+        {
+          "start": 28,
+          "length": 3,
+          "reading": "あかるく"
+        }
+      ],
+      "1588880": [
+        {
+          "start": 21,
+          "length": 3,
+          "reading": "おおきく"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,340 @@
+[
+  {
+    "id": "81162",
+    "original": "万一急行列車に乗り遅れたら、次の列車に乗ろう。",
+    "en": [
+      {
+        "id": "322553",
+        "text": "If we should miss the express, we'll take the next train."
+      }
+    ],
+    "indices": "万一[02] 急行列車 に 乗り遅れる{乗り遅れたら} 次(つぎ)[01]{次の} 列車 に 乗る[01]{乗ろう}",
+    "vocabIds": [
+      "1355000",
+      "1933070",
+      "1355120",
+      "1525780",
+      "1558370",
+      "1316380"
+    ],
+    "matches": {
+      "1316380": [
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "つぎ"
+        }
+      ],
+      "1355000": [
+        {
+          "start": 7,
+          "length": 6,
+          "reading": "のりおくれたら"
+        }
+      ],
+      "1355120": [
+        {
+          "start": 19,
+          "length": 3,
+          "reading": "のろう"
+        }
+      ],
+      "1525780": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "まんいち"
+        }
+      ],
+      "1558370": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "れっしゃ"
+        }
+      ],
+      "1933070": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "きゅうぎょうれつしゃ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "174412",
+    "original": "午後６時発の急行列車の予約をしたい。",
+    "en": [
+      {
+        "id": "240057",
+        "text": "I'd like to make a reservation for the express train that leaves at 6:00 p.m."
+      }
+    ],
+    "indices": "午後 時(じ)[01] 発[01] の 急行列車 の 予約[01] を したい",
+    "vocabIds": [
+      "1933070",
+      "1268990",
+      "2583620",
+      "1543750",
+      "1477120"
+    ],
+    "matches": {
+      "1268990": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ごご"
+        }
+      ],
+      "1477120": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "はつ"
+        }
+      ],
+      "1543750": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "よやく"
+        }
+      ],
+      "1933070": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "きゅうこうれっしゃ"
+        }
+      ],
+      "2583620": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ろくじ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "182432",
+    "original": "急行列車は渋谷駅から中目黒駅まで停車しません。",
+    "en": [
+      {
+        "id": "19605",
+        "text": "The express train does not stop between Shibuya and Naka-Meguro."
+      }
+    ],
+    "indices": "急行列車 は 駅 から 駅 迄{まで} 停車 為る(する){しません}",
+    "vocabIds": [
+      "1933070",
+      "2850709",
+      "1434960",
+      "1175140"
+    ],
+    "matches": {
+      "1175140": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "えき"
+        },
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "えき"
+        }
+      ],
+      "1434960": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "ていしゃ"
+        }
+      ],
+      "1933070": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "きゅうこうれっしゃ"
+        }
+      ],
+      "2850709": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "しぶや"
+        }
+      ]
+    }
+  },
+  {
+    "id": "182433",
+    "original": "急行列車は各駅停車より一時間も早い。",
+    "en": [
+      {
+        "id": "19606",
+        "text": "The express train is an hour faster than the local."
+      }
+    ],
+    "indices": "急行列車 は 各駅停車 より 一時間 も 早い[01]",
+    "vocabIds": [
+      "1933070",
+      "1204900",
+      "1162940",
+      "1404975"
+    ],
+    "matches": {
+      "1162940": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "いちじかん"
+        }
+      ],
+      "1204900": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "かくえきていしゃ"
+        }
+      ],
+      "1404975": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "はやい"
+        }
+      ],
+      "1933070": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "きゅうこうれっしゃ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "182434",
+    "original": "急行列車はありますか。",
+    "en": [
+      {
+        "id": "19607",
+        "text": "Are there any express trains?"
+      }
+    ],
+    "indices": "急行列車 は 有る{あります} か",
+    "vocabIds": [
+      "1933070"
+    ],
+    "matches": {
+      "1933070": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "きゅうこうれっしゃ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "182435",
+    "original": "急行列車が目にとまらぬ速さで走りすぎていった。",
+    "en": [
+      {
+        "id": "19608",
+        "text": "The express train went by so fast that we hardly saw it."
+      },
+      {
+        "id": "402070",
+        "text": "The express train went by so fast we hardly saw it."
+      }
+    ],
+    "indices": "急行列車 が 目に止まる{目にとまらぬ} 早い[01]{速} さ[01] で(#2028980) 走り過ぎる[01]{走りすぎて} 行く{いった}",
+    "vocabIds": [
+      "1402540",
+      "1933070",
+      "1404975",
+      "1604890"
+    ],
+    "matches": {
+      "1402540": [
+        {
+          "start": 14,
+          "length": 8,
+          "reading": "はしりすぎていった"
+        }
+      ],
+      "1404975": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "はやさ"
+        }
+      ],
+      "1604890": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "め"
+        }
+      ],
+      "1933070": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "きゅうこうれっしゃ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "211447",
+    "original": "その急行列車は次第に速度を上げた。",
+    "en": [
+      {
+        "id": "48722",
+        "text": "The express train picked up speed gradually."
+      }
+    ],
+    "indices": "其の[01]{その} 急行列車~ は 次第に[01] 速度 を 上げる[03]{上げた}",
+    "vocabIds": [
+      "1933070",
+      "1316690",
+      "1352320",
+      "1405050"
+    ],
+    "matches": {
+      "1316690": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "しだいに"
+        }
+      ],
+      "1352320": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "あげた"
+        }
+      ],
+      "1405050": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "そくど"
+        }
+      ],
+      "1933070": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "きゅうこうれっしゃ"
+        }
+      ]
+    }
+  }
+]

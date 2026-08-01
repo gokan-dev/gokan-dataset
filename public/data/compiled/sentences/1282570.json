@@ -1,0 +1,173 @@
+[
+  {
+    "id": "173282",
+    "original": "鉱山を所有している人から銀を買っています。",
+    "en": [
+      {
+        "id": "241189",
+        "text": "I buy my silver from a man who has a mine on his property."
+      }
+    ],
+    "indices": "鉱山 を 所有 為る(する){している} 人(ひと) から 銀(ぎん)[01] を 買う[01]{買っています}",
+    "vocabIds": [
+      "1473740",
+      "1282570",
+      "1343390",
+      "1580640",
+      "1595090"
+    ],
+    "matches": {
+      "1282570": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こうざん"
+        }
+      ],
+      "1343390": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "しょゆう"
+        }
+      ],
+      "1473740": [
+        {
+          "start": 14,
+          "length": 6,
+          "reading": "かっています"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ],
+      "1595090": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "ぎん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "210669",
+    "original": "その鉱山は閉鎖している。",
+    "en": [
+      {
+        "id": "47939",
+        "text": "That mine has shut down."
+      }
+    ],
+    "indices": "其の[01]{その} 鉱山 は 閉鎖 為る(する){している}",
+    "vocabIds": [
+      "1282570",
+      "1508670"
+    ],
+    "matches": {
+      "1282570": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "こうざん"
+        }
+      ],
+      "1508670": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "へいさ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "221968",
+    "original": "この鉱山は来月閉山になる。",
+    "en": [
+      {
+        "id": "59294",
+        "text": "This mine will close down next month."
+      }
+    ],
+    "indices": "此の{この} 鉱山~ は 来月 閉山[02]~ になる[01]",
+    "vocabIds": [
+      "1282570",
+      "1547900",
+      "1626520"
+    ],
+    "matches": {
+      "1282570": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "こうざん"
+        }
+      ],
+      "1547900": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "らいげつ"
+        }
+      ],
+      "1626520": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "へいざん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9678945",
+    "original": "２年間、鉱山作業員だったんだ。",
+    "en": [
+      {
+        "id": "9624122",
+        "text": "I was a miner for two years."
+      }
+    ],
+    "vocabIds": [
+      "1936030",
+      "1468380",
+      "1282570",
+      "1461140"
+    ],
+    "matches": {
+      "1282570": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "こうざん"
+        }
+      ],
+      "1461140": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "に"
+        }
+      ],
+      "1468380": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "ねんかん"
+        }
+      ],
+      "1936030": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "さぎょういん"
+        }
+      ]
+    }
+  }
+]

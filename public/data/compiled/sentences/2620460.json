@@ -1,0 +1,49 @@
+[
+  {
+    "id": "183714",
+    "original": "間違って反対方向の電車に乗った。",
+    "en": [
+      {
+        "id": "20837",
+        "text": "By mistake I boarded a train going in the opposite direction."
+      }
+    ],
+    "indices": "間違う{間違って} 反対 方向 の 電車 に 乗る[01]{乗った}",
+    "vocabIds": [
+      "2620460",
+      "1611610",
+      "1355120",
+      "1443530"
+    ],
+    "matches": {
+      "1355120": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "のった"
+        }
+      ],
+      "1443530": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "でんしゃ"
+        }
+      ],
+      "1611610": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "まちがって"
+        }
+      ],
+      "2620460": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "はんたいほうこう"
+        }
+      ]
+    }
+  }
+]

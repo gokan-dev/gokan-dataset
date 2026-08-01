@@ -1,0 +1,72 @@
+[
+  {
+    "id": "76575",
+    "original": "だってこの世には悪者と偽善者しかいないのよ。",
+    "en": [
+      {
+        "id": "327145",
+        "text": "You see in this world there are only scoundrels and hypocrites."
+      }
+    ],
+    "indices": "だって この世 には 悪者 と 偽善者 しか 居る(いる){いない} の よ[01]",
+    "vocabIds": [
+      "2002260",
+      "1224570",
+      "1151840"
+    ],
+    "matches": {
+      "1151840": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "わるもの"
+        }
+      ],
+      "1224570": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "ぎぜんしゃ"
+        }
+      ],
+      "2002260": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "このよ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "228583",
+    "original": "いない者がいつも悪者になる。",
+    "en": [
+      {
+        "id": "65941",
+        "text": "The absent are always in the wrong."
+      }
+    ],
+    "indices": "居る(いる){いない} 者(もの) が 何時も[01]{いつも} 悪者~ になる[01]",
+    "vocabIds": [
+      "1151840",
+      "1322990"
+    ],
+    "matches": {
+      "1151840": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "わるもの"
+        }
+      ],
+      "1322990": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "もの"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,124 @@
+[
+  {
+    "id": "93533",
+    "original": "彼女は３年前に修士の学位をとりました。",
+    "en": [
+      {
+        "id": "310174",
+        "text": "She got a master's degree three years ago."
+      },
+      {
+        "id": "2318383",
+        "text": "She got her master's degree three years ago."
+      }
+    ],
+    "indices": "彼女[01] は 年(ねん) 前(まえ)[02] に 修士 の 学位 を 取る{とりました}",
+    "vocabIds": [
+      "1483150",
+      "1814070",
+      "1392590",
+      "1332020",
+      "1206540"
+    ],
+    "matches": {
+      "1206540": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "がくい"
+        }
+      ],
+      "1332020": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "しゅうし"
+        }
+      ],
+      "1392590": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "まえに"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1814070": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "さんねん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "100041",
+    "original": "彼は法学修士の学位を得た。",
+    "en": [
+      {
+        "id": "303656",
+        "text": "He got a master's degree in law."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 法学~ 修士~ の 学位~ を 得る(える)[01]{得た}",
+    "vocabIds": [
+      "1517230",
+      "1332020",
+      "1206540",
+      "1588760",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1206540": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "がくい"
+        }
+      ],
+      "1332020": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "しゅうし"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1517230": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ほうがく"
+        }
+      ],
+      "1588760": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "えた"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "id": "80823",
+    "original": "娘を女子校に入れた。",
+    "en": [
+      {
+        "id": "322892",
+        "text": "I entered my daughter in a girl's school."
+      }
+    ],
+    "indices": "娘(むすめ)[01] を 女子校 に 入れる[02]{入れた}",
+    "vocabIds": [
+      "1938300",
+      "1465610",
+      "1355930",
+      "1531190"
+    ],
+    "matches": {
+      "1355930": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "むすめ"
+        }
+      ],
+      "1465610": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "いれた"
+        }
+      ],
+      "1531190": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "むすめ"
+        }
+      ],
+      "1938300": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "じょしこう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "196067",
+    "original": "ボブのお父さんは女子校で教えています。",
+    "en": [
+      {
+        "id": "33243",
+        "text": "Bob's father teaches at a girls' school."
+      }
+    ],
+    "indices": "の お父さん は 女子校~ で(#2028980) 教える{教えています}",
+    "vocabIds": [
+      "1236900",
+      "1002590",
+      "1938300"
+    ],
+    "matches": {
+      "1002590": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "おとうさん"
+        }
+      ],
+      "1236900": [
+        {
+          "start": 12,
+          "length": 6,
+          "reading": "おしえています"
+        }
+      ],
+      "1938300": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "じょしこう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2667480",
+    "original": "トムめっちゃかわいいから、女子校に紛れ込んでても全然違和感ないと思うよ！",
+    "en": [
+      {
+        "id": "2668536",
+        "text": "Tom, you're really cute so, I think you would blend in perfectly at an all-girls school."
+      }
+    ],
+    "vocabIds": [
+      "1505020",
+      "1938300",
+      "1159020",
+      "1395620",
+      "1589350"
+    ],
+    "matches": {
+      "1159020": [
+        {
+          "start": 26,
+          "length": 3,
+          "reading": "いわかん"
+        }
+      ],
+      "1395620": [
+        {
+          "start": 24,
+          "length": 2,
+          "reading": "ぜんぜん"
+        }
+      ],
+      "1505020": [
+        {
+          "start": 17,
+          "length": 6,
+          "reading": "まぎれこんでて"
+        }
+      ],
+      "1589350": [
+        {
+          "start": 32,
+          "length": 2,
+          "reading": "おもう"
+        }
+      ],
+      "1938300": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "じょしこう"
+        }
+      ]
+    }
+  }
+]

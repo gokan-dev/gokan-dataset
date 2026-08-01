@@ -1,0 +1,68 @@
+[
+  {
+    "id": "80697",
+    "original": "明後日いらして下さい。",
+    "en": [
+      {
+        "id": "323018",
+        "text": "Come and see me the day after tomorrow."
+      },
+      {
+        "id": "8316003",
+        "text": "Please come the day after tomorrow."
+      }
+    ],
+    "indices": "明後日 居らっしゃる(いらっしゃる){いらして} 下さい",
+    "vocabIds": [
+      "2098350",
+      "1584640"
+    ],
+    "matches": {
+      "1584640": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "みょうごにち"
+        }
+      ],
+      "2098350": [
+        {
+          "start": 3,
+          "length": 7,
+          "reading": "いらしてください"
+        }
+      ]
+    }
+  },
+  {
+    "id": "124552",
+    "original": "都合のよろしいときにいらして下さい。",
+    "en": [
+      {
+        "id": "279442",
+        "text": "Please come and see me whenever it is convenient for you."
+      }
+    ],
+    "indices": "都合のよろしい~ 時(とき){とき} に 居らっしゃる(いらっしゃる){いらして} 下さい",
+    "vocabIds": [
+      "2270320",
+      "2098350"
+    ],
+    "matches": {
+      "2098350": [
+        {
+          "start": 10,
+          "length": 7,
+          "reading": "いらしてください"
+        }
+      ],
+      "2270320": [
+        {
+          "start": 0,
+          "length": 7,
+          "reading": "つごうのよろしい"
+        }
+      ]
+    }
+  }
+]

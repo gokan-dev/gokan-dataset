@@ -1,0 +1,127 @@
+[
+  {
+    "id": "103560",
+    "original": "彼は人工呼吸で子供を生き返らせた。",
+    "en": [
+      {
+        "id": "300133",
+        "text": "He revived the child with artificial respiration."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 人工呼吸~ で(#2028980) 子供 を 生き返る{生き返らせた}",
+    "vocabIds": [
+      "1367450",
+      "1378600",
+      "1307850",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1307850": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "こども"
+        }
+      ],
+      "1367450": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "じんこうこきゅう"
+        }
+      ],
+      "1378600": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "いきかえら"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1114365",
+    "original": "人工呼吸は人の緊急事態に対する、ごく基本的な救命方法です。",
+    "en": [
+      {
+        "id": "1392292",
+        "text": "CPR is a fundamental rescue technique in an emergency situation with another person."
+      }
+    ],
+    "vocabIds": [
+      "1367450",
+      "1727150",
+      "1009810",
+      "1219260",
+      "1229270",
+      "1517090",
+      "1580640"
+    ],
+    "matches": {
+      "1009810": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "にたいする"
+        }
+      ],
+      "1219260": [
+        {
+          "start": 18,
+          "length": 3,
+          "reading": "きほんてき"
+        }
+      ],
+      "1229270": [
+        {
+          "start": 22,
+          "length": 2,
+          "reading": "きゅうめい"
+        }
+      ],
+      "1367450": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "じんこうこきゅう"
+        }
+      ],
+      "1517090": [
+        {
+          "start": 24,
+          "length": 2,
+          "reading": "ほうほう"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ],
+      "1727150": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "きんきゅうじたい"
+        }
+      ]
+    }
+  }
+]

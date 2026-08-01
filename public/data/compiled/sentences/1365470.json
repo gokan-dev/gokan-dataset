@@ -1,0 +1,87 @@
+[
+  {
+    "id": "144760",
+    "original": "診察台に仰向けになってください。",
+    "en": [
+      {
+        "id": "269804",
+        "text": "Lie on your back on the examination table."
+      }
+    ],
+    "indices": "診察台 に 仰向け になる{になって} 下さい{ください}",
+    "vocabIds": [
+      "1365470",
+      "1238910"
+    ],
+    "matches": {
+      "1238910": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "あおむけ"
+        }
+      ],
+      "1365470": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "しんさつだい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "144761",
+    "original": "診察台にうつ伏せになってください。",
+    "en": [
+      {
+        "id": "269803",
+        "text": "Lie on your stomach on the examination table."
+      }
+    ],
+    "indices": "診察台~ に うつ伏せる{うつ伏せ} になる{になって} 下さい{ください}",
+    "vocabIds": [
+      "1981860",
+      "1365470"
+    ],
+    "matches": {
+      "1365470": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "しんさつだい"
+        }
+      ],
+      "1981860": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "うつぶせ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "144762",
+    "original": "診察台からおりてください。",
+    "en": [
+      {
+        "id": "269802",
+        "text": "You can get up from the examination table now."
+      }
+    ],
+    "indices": "診察台 から 降りる[01]{おりて} 下さい{ください}",
+    "vocabIds": [
+      "1365470"
+    ],
+    "matches": {
+      "1365470": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "しんさつだい"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,87 @@
+[
+  {
+    "id": "189374",
+    "original": "雲が月を過った。",
+    "en": [
+      {
+        "id": "26525",
+        "text": "A cloud passed across the moon."
+      }
+    ],
+    "indices": "雲 が 月(つき)[01] を 過つ{過った}~",
+    "vocabIds": [
+      "1196020",
+      "1173100",
+      "1255430"
+    ],
+    "matches": {
+      "1173100": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "くも"
+        }
+      ],
+      "1196020": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "あやまった"
+        }
+      ],
+      "1255430": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "つき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2478110",
+    "original": "過つは人、許すは神。",
+    "en": [
+      {
+        "id": "20868",
+        "text": "To err is human, to forgive divine."
+      }
+    ],
+    "vocabIds": [
+      "1196020",
+      "1232870",
+      "1580640",
+      "1364440"
+    ],
+    "matches": {
+      "1196020": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あやまつ"
+        }
+      ],
+      "1232870": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ゆるす"
+        }
+      ],
+      "1364440": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "かみ"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ]
+    }
+  }
+]

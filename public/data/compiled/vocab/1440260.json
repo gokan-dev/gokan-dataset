@@ -1,0 +1,101 @@
+{
+  "id": "1440260",
+  "writtenForm": {
+    "kanji": "天文",
+    "alternatives": [],
+    "containedKanji": [
+      "天",
+      "文"
+    ]
+  },
+  "reading": {
+    "primary": "てんもん",
+    "alternatives": [
+      "てんぶん"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 25857,
+    "kanaRank": 132239
+  },
+  "progression": {
+    "kklcStep": 270
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "astronomy"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "hist"
+        ]
+      },
+      "glosses": [
+        "Tenbun era (1532.7.29-1555.10.23)"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "てんぶん"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1440260",
+      "isBase": true,
+      "originalPrimaryReading": "てんもん",
+      "originalGlosses": [
+        "astronomy"
+      ]
+    },
+    {
+      "id": "2091770",
+      "isBase": false,
+      "originalPrimaryReading": "てんぶん",
+      "originalGlosses": [
+        "Tenbun era (1532.7.29-1555.10.23)"
+      ]
+    }
+  ],
+  "components": [
+    "1438210",
+    "1505090"
+  ],
+  "parents": [
+    "1440280",
+    "1440300",
+    "1833580",
+    "1440290"
+  ]
+}

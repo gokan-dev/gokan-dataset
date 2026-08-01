@@ -1,0 +1,178 @@
+{
+  "id": "1298250",
+  "writtenForm": {
+    "kanji": "柵",
+    "alternatives": [
+      "笧",
+      "城"
+    ],
+    "containedKanji": [
+      "柵"
+    ]
+  },
+  "reading": {
+    "primary": "さく",
+    "alternatives": [
+      "しがらみ",
+      "き"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 6144,
+    "kanaRank": 19734
+  },
+  "jlptLevel": 1,
+  "progression": {
+    "kklcStep": 2228
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "fence",
+        "paling",
+        "railing"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "fortress"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "weir"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "しがらみ"
+      ]
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "bonds",
+        "fetters",
+        "ties of obligation"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "しがらみ"
+      ]
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "fortress (surrounded by a wall, moat, etc.)"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "き"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1298250",
+      "isBase": true,
+      "originalPrimaryReading": "さく",
+      "originalGlosses": [
+        "fence",
+        "paling",
+        "railing"
+      ]
+    },
+    {
+      "id": "2137050",
+      "isBase": false,
+      "originalPrimaryReading": "しがらみ",
+      "originalGlosses": [
+        "weir"
+      ]
+    },
+    {
+      "id": "2219650",
+      "isBase": false,
+      "originalPrimaryReading": "き",
+      "originalGlosses": [
+        "fortress (surrounded by a wall, moat, etc.)"
+      ]
+    }
+  ]
+}

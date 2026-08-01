@@ -1,0 +1,954 @@
+[
+  {
+    "id": "145868",
+    "original": "食後私はコーヒー無しでは済ませられない。",
+    "en": [
+      {
+        "id": "268692",
+        "text": "I cannot dispense with coffee after meals."
+      }
+    ],
+    "indices": "食後 私(わたし)[01] は 珈琲{コーヒー} なしで済ます{無しでは済ませられない}",
+    "vocabIds": [
+      "1295040",
+      "1518550",
+      "1358450",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1295040": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "すませ"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1358450": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しょくご"
+        }
+      ],
+      "1518550": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "なしで"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "145869",
+    "original": "食後私はコーヒーなしではいられない。",
+    "en": [
+      {
+        "id": "268693",
+        "text": "I can't do without coffee after meals."
+      }
+    ],
+    "indices": "食後 私(わたし)[01] は 珈琲{コーヒー} 無しで{なしで} は 居る(いる){いられない}",
+    "vocabIds": [
+      "1358450",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1358450": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しょくご"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "145871",
+    "original": "食後に歯を磨きなさい。",
+    "en": [
+      {
+        "id": "268690",
+        "text": "Brush your teeth after meals."
+      }
+    ],
+    "indices": "食後 に 歯を磨く{歯を磨き} 為さい{なさい}",
+    "vocabIds": [
+      "1523940",
+      "1358450",
+      "1313000",
+      "1557940"
+    ],
+    "matches": {
+      "1313000": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "は"
+        }
+      ],
+      "1358450": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しょくご"
+        }
+      ],
+      "1523940": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "みがきなさい"
+        }
+      ],
+      "1557940": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "は"
+        }
+      ]
+    }
+  },
+  {
+    "id": "145872",
+    "original": "食後胃がもたれる。",
+    "en": [
+      {
+        "id": "268691",
+        "text": "I have aggravation after eating."
+      }
+    ],
+    "indices": "食後 胃[01] が 持つ{もたれる}",
+    "vocabIds": [
+      "1358450",
+      "1158500"
+    ],
+    "matches": {
+      "1158500": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "い"
+        }
+      ],
+      "1358450": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しょくご"
+        }
+      ]
+    }
+  },
+  {
+    "id": "145873",
+    "original": "食後に歯をみがきなさい。",
+    "en": [
+      {
+        "id": "268689",
+        "text": "Brush your teeth clean after each meal."
+      },
+      {
+        "id": "322368",
+        "text": "Brush your teeth after each meal."
+      },
+      {
+        "id": "1341297",
+        "text": "Brush your teeth after eating."
+      }
+    ],
+    "indices": "食後 に 歯を磨く{歯をみがき} 為さい{なさい}",
+    "vocabIds": [
+      "1358450",
+      "1313000",
+      "1557940"
+    ],
+    "matches": {
+      "1313000": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "は"
+        }
+      ],
+      "1358450": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しょくご"
+        }
+      ],
+      "1557940": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "は"
+        }
+      ]
+    }
+  },
+  {
+    "id": "145874",
+    "original": "食後にこの薬を服用しなさい。",
+    "en": [
+      {
+        "id": "268688",
+        "text": "Take this medicine after meals."
+      }
+    ],
+    "indices": "食後 に 此の{この} 薬(くすり)[01] を 服用~ 為る(する){し} 為さい{なさい}",
+    "vocabIds": [
+      "1358450",
+      "1501010",
+      "1538160"
+    ],
+    "matches": {
+      "1358450": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しょくご"
+        }
+      ],
+      "1501010": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ふくよう"
+        }
+      ],
+      "1538160": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "くすり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "145875",
+    "original": "食後にコーヒーを差し上げます。",
+    "en": [
+      {
+        "id": "268687",
+        "text": "Coffee will be served after the meal."
+      }
+    ],
+    "indices": "食後 に 珈琲{コーヒー} を 差し上げる[02]{差し上げます}",
+    "vocabIds": [
+      "1291270",
+      "1358450"
+    ],
+    "matches": {
+      "1291270": [
+        {
+          "start": 8,
+          "length": 6,
+          "reading": "さしあげます"
+        }
+      ],
+      "1358450": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しょくご"
+        }
+      ]
+    }
+  },
+  {
+    "id": "145876",
+    "original": "食後に２カプセル飲みなさい。",
+    "en": [
+      {
+        "id": "268686",
+        "text": "Take two capsules after a meal."
+      }
+    ],
+    "indices": "食後~ に カプセル~ 飲む[01]{飲み} 為さい{なさい}",
+    "vocabIds": [
+      "1169870",
+      "1358450",
+      "1461140"
+    ],
+    "matches": {
+      "1169870": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "のみなさい"
+        }
+      ],
+      "1358450": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しょくご"
+        }
+      ],
+      "1461140": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "に"
+        }
+      ]
+    }
+  },
+  {
+    "id": "145877",
+    "original": "食後、私の車で町を一走りした。",
+    "en": [
+      {
+        "id": "268685",
+        "text": "After dinner, we took a spin around town in my car."
+      }
+    ],
+    "indices": "食後 私(わたし)[01]{私の} 車(くるま) で(#2028980) 町(まち) を 一走り~ 為る(する){した}",
+    "vocabIds": [
+      "1164380",
+      "1358450",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1323080",
+      "1603990"
+    ],
+    "matches": {
+      "1164380": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "ひとはしり"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1323080": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1358450": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しょくご"
+        }
+      ],
+      "1603990": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "まち"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "155787",
+    "original": "私は食後にいつも歯を磨くわけではない。",
+    "en": [
+      {
+        "id": "258750",
+        "text": "I don't always brush my teeth after I eat."
+      }
+    ],
+    "indices": "私(わたし)[01] は 食後 に 何時も[01]{いつも} 歯を磨く 訳ではない{わけではない}",
+    "vocabIds": [
+      "2096140",
+      "1358450",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1358450": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "しょくご"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2096140": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "はをみがく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "166071",
+    "original": "私たちは一般に食後にお茶を飲む。",
+    "en": [
+      {
+        "id": "248433",
+        "text": "We generally drink tea after a meal."
+      }
+    ],
+    "indices": "私たち は 一般に 食後 に お茶[01] を 飲む[01]",
+    "vocabIds": [
+      "1311300",
+      "1165800",
+      "1358450",
+      "1002430",
+      "1169870"
+    ],
+    "matches": {
+      "1002430": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "おちゃ"
+        }
+      ],
+      "1165800": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "いっぱんに"
+        }
+      ],
+      "1169870": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "のむ"
+        }
+      ],
+      "1311300": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1358450": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "しょくご"
+        }
+      ]
+    }
+  },
+  {
+    "id": "192407",
+    "original": "ルーシーはよく食後ピアノを弾いたものだ。",
+    "en": [
+      {
+        "id": "29571",
+        "text": "Lucy would often play the piano after dinner."
+      }
+    ],
+    "indices": "は 良く[02]{よく} 食後 ピアノ[01] を 弾く(ひく){弾いた} 物(もの){もの} だ",
+    "vocabIds": [
+      "1419370",
+      "1358450"
+    ],
+    "matches": {
+      "1358450": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "しょくご"
+        }
+      ],
+      "1419370": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "ひいた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "223894",
+    "original": "このカプセルは食後３０分以内に飲んでください。",
+    "en": [
+      {
+        "id": "61229",
+        "text": "Take this capsule within thirty minutes of each meal."
+      }
+    ],
+    "indices": "此の{この} カプセル は 食後 分(ふん) 以内 に 飲む[01]{飲んで} 下さい{ください}",
+    "vocabIds": [
+      "1169870",
+      "2859157",
+      "1358450",
+      "1155180"
+    ],
+    "matches": {
+      "1155180": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "いない"
+        }
+      ],
+      "1169870": [
+        {
+          "start": 15,
+          "length": 7,
+          "reading": "のんでください"
+        }
+      ],
+      "1358450": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "しょくご"
+        }
+      ],
+      "2859157": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "さんぜろふん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "224853",
+    "original": "コーヒーは食後にお願いします。",
+    "en": [
+      {
+        "id": "62188",
+        "text": "I'd like my coffee after the meal."
+      }
+    ],
+    "indices": "珈琲{コーヒー} は 食後 に お願いします",
+    "vocabIds": [
+      "1001720",
+      "1358450"
+    ],
+    "matches": {
+      "1001720": [
+        {
+          "start": 8,
+          "length": 6,
+          "reading": "おねがいします"
+        }
+      ],
+      "1358450": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "しょくご"
+        }
+      ]
+    }
+  },
+  {
+    "id": "224902",
+    "original": "コーヒーは食事中がよろしいですか、食後がよろしいですか。",
+    "en": [
+      {
+        "id": "62237",
+        "text": "Would you like your coffee with or after the meal?"
+      }
+    ],
+    "indices": "珈琲{コーヒー} は 食事 中(ちゅう)[03] が 宜しい{よろしい} ですか 食後 が 宜しい{よろしい} ですか",
+    "vocabIds": [
+      "1358490",
+      "1358450",
+      "1423310",
+      "2098290"
+    ],
+    "matches": {
+      "1358450": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "しょくご"
+        }
+      ],
+      "1358490": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "しょくじ"
+        }
+      ],
+      "1423310": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "ちゅう"
+        }
+      ],
+      "2098290": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "ちゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "231831",
+    "original": "あなたは食後に皿を洗う必要はありません。",
+    "en": [
+      {
+        "id": "69198",
+        "text": "You need not wash the dishes after meals."
+      }
+    ],
+    "indices": "貴方(あなた)[01]{あなた} は 食後 に 皿[01] を 洗う[01] 必要[02] は 有る{ありません}",
+    "vocabIds": [
+      "1358450",
+      "1390930",
+      "1487660",
+      "1299680"
+    ],
+    "matches": {
+      "1299680": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "さら"
+        }
+      ],
+      "1358450": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "しょくご"
+        }
+      ],
+      "1390930": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "あらう"
+        }
+      ],
+      "1487660": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "ひつよう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1212789",
+    "original": "この薬を食後に服みなさい。",
+    "en": [
+      {
+        "id": "268688",
+        "text": "Take this medicine after meals."
+      }
+    ],
+    "vocabIds": [
+      "1358450",
+      "1538160",
+      "1500940"
+    ],
+    "matches": {
+      "1358450": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "しょくご"
+        }
+      ],
+      "1500940": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "ふく"
+        }
+      ],
+      "1538160": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "くすり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "889702",
+    "original": "朝と夜の一日二回、食後にこの薬を忘れずに飲んでくださいね。",
+    "en": [
+      {
+        "id": "5270227",
+        "text": "Remember to take this medicine twice a day after breakfast and supper."
+      }
+    ],
+    "vocabIds": [
+      "1169870",
+      "1519210",
+      "1576260",
+      "2225030",
+      "2225040",
+      "1461410",
+      "1358450",
+      "1428280",
+      "1536350",
+      "1538160"
+    ],
+    "matches": {
+      "1169870": [
+        {
+          "start": 20,
+          "length": 7,
+          "reading": "のんでください"
+        }
+      ],
+      "1358450": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "しょくご"
+        }
+      ],
+      "1428280": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "あさ"
+        }
+      ],
+      "1461410": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "にかい"
+        }
+      ],
+      "1519210": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "わすれず"
+        }
+      ],
+      "1536350": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "よる"
+        }
+      ],
+      "1538160": [
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "くすり"
+        }
+      ],
+      "1576260": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "いちにち"
+        }
+      ],
+      "2225030": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "いちにち"
+        }
+      ],
+      "2225040": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "いちにち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9036957",
+    "original": "食後のデザートのために食べ過ぎないようにしてるの。",
+    "en": [
+      {
+        "id": "39471",
+        "text": "I'm trying to save room for dessert."
+      }
+    ],
+    "vocabIds": [
+      "1358280",
+      "1358450"
+    ],
+    "matches": {
+      "1358280": [
+        {
+          "start": 11,
+          "length": 6,
+          "reading": "たべすぎない"
+        }
+      ],
+      "1358450": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しょくご"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12757931",
+    "original": "１日３回、この薬を食後に服用してください。",
+    "en": [
+      {
+        "id": "11586417",
+        "text": "Take this medicine three times a day after meals."
+      }
+    ],
+    "vocabIds": [
+      "1576260",
+      "2225040",
+      "1299940",
+      "1358450",
+      "1501010",
+      "1538160"
+    ],
+    "matches": {
+      "1299940": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "さんかい"
+        }
+      ],
+      "1358450": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "しょくご"
+        }
+      ],
+      "1501010": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "ふくよう"
+        }
+      ],
+      "1538160": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "くすり"
+        }
+      ],
+      "1576260": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いちにち"
+        }
+      ],
+      "2225040": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いちにち"
+        }
+      ]
+    }
+  }
+]

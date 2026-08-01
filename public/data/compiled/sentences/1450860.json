@@ -1,0 +1,88 @@
+[
+  {
+    "id": "108128",
+    "original": "彼は銀行の頭取だ。",
+    "en": [
+      {
+        "id": "295558",
+        "text": "He's the president of the bank."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 銀行 の 頭取~ だ",
+    "vocabIds": [
+      "1243490",
+      "1450860",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1243490": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ぎんこう"
+        }
+      ],
+      "1450860": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "とうどり"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "207450",
+    "original": "その頭取は尊敬を集めていた。",
+    "en": [
+      {
+        "id": "44703",
+        "text": "The bank director was held in high regard."
+      }
+    ],
+    "indices": "其の[01]{その} 頭取 は 尊敬 を 集める{集めていた}",
+    "vocabIds": [
+      "1333560",
+      "1450860",
+      "1406400"
+    ],
+    "matches": {
+      "1333560": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "あつめていた"
+        }
+      ],
+      "1406400": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "そんけい"
+        }
+      ],
+      "1450860": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "とうどり"
+        }
+      ]
+    }
+  }
+]

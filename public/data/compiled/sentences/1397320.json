@@ -1,0 +1,148 @@
+[
+  {
+    "id": "88202",
+    "original": "彼女は素足だったが、それは当時の習慣だった。",
+    "en": [
+      {
+        "id": "315505",
+        "text": "Her feet were bare, as was the custom in those days."
+      }
+    ],
+    "indices": "彼女[01] は 素足 だ{だった} が 其れ[01]{それ} は 当時 の 習慣 だ{だった}",
+    "vocabIds": [
+      "1483150",
+      "1397320",
+      "1449090",
+      "1333090"
+    ],
+    "matches": {
+      "1333090": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "しゅうかん"
+        }
+      ],
+      "1397320": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "すあし"
+        }
+      ],
+      "1449090": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "とうじ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "121912",
+    "original": "熱い砂の上を素足では歩けない。",
+    "en": [
+      {
+        "id": "282091",
+        "text": "We cannot walk on the hot sand with bare feet."
+      }
+    ],
+    "indices": "熱い 砂 の 上(うえ) を 素足~ で(#2028980) は 歩く{歩けない}",
+    "vocabIds": [
+      "1467720",
+      "1397320",
+      "1291500",
+      "1352130"
+    ],
+    "matches": {
+      "1291500": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "すな"
+        }
+      ],
+      "1352130": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "うえ"
+        }
+      ],
+      "1397320": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "すあし"
+        }
+      ],
+      "1467720": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あつい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11277624",
+    "original": "素足なんかで歩けないよ。",
+    "en": [
+      {
+        "id": "11277618",
+        "text": "I can't walk barefoot."
+      }
+    ],
+    "vocabIds": [
+      "1397320"
+    ],
+    "matches": {
+      "1397320": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "すあし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11277627",
+    "original": "子どもたちは素足でした。",
+    "en": [
+      {
+        "id": "4494111",
+        "text": "The children were barefoot."
+      }
+    ],
+    "vocabIds": [
+      "1307870",
+      "1397320"
+    ],
+    "matches": {
+      "1307870": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "こどもたち"
+        }
+      ],
+      "1397320": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "すあし"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,148 @@
+[
+  {
+    "id": "122047",
+    "original": "尿の色が濁っています。",
+    "en": [
+      {
+        "id": "281956",
+        "text": "My urine is cloudy."
+      }
+    ],
+    "indices": "尿 の 色(いろ)[01] が 濁る[01]{濁っています}",
+    "vocabIds": [
+      "1415960",
+      "1467040",
+      "1357600"
+    ],
+    "matches": {
+      "1357600": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "いろ"
+        }
+      ],
+      "1415960": [
+        {
+          "start": 4,
+          "length": 6,
+          "reading": "にごっています"
+        }
+      ],
+      "1467040": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "にょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "141358",
+    "original": "川は泥で濁っていた。",
+    "en": [
+      {
+        "id": "273213",
+        "text": "The river was cloudy with silt."
+      }
+    ],
+    "indices": "川[01] は 泥~ で(#2028980) 濁る[01]{濁っていた}~",
+    "vocabIds": [
+      "1415960",
+      "1390020",
+      "1436900"
+    ],
+    "matches": {
+      "1390020": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かわ"
+        }
+      ],
+      "1415960": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "にごっていた"
+        }
+      ],
+      "1436900": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "どろ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11598315",
+    "original": "湖の水は濁っている。",
+    "en": [
+      {
+        "id": "7869561",
+        "text": "The water in the lake is murky."
+      }
+    ],
+    "vocabIds": [
+      "1415960",
+      "1267280",
+      "1371260"
+    ],
+    "matches": {
+      "1267280": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "みずうみ"
+        }
+      ],
+      "1371260": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "みず"
+        }
+      ],
+      "1415960": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "にごっている"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11891600",
+    "original": "コップの水は濁ってる。",
+    "en": [
+      {
+        "id": "10778444",
+        "text": "The water in the glass is cloudy."
+      }
+    ],
+    "vocabIds": [
+      "1415960",
+      "1371260"
+    ],
+    "matches": {
+      "1371260": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "みず"
+        }
+      ],
+      "1415960": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "にごってる"
+        }
+      ]
+    }
+  }
+]

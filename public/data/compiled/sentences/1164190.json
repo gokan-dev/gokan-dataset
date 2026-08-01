@@ -1,0 +1,763 @@
+[
+  {
+    "id": "92928",
+    "original": "彼女はケーキを１切れ欲しかったが、全然残っていなかった。",
+    "en": [
+      {
+        "id": "310781",
+        "text": "She wanted a piece of cake, but there was none left."
+      }
+    ],
+    "indices": "彼女[01] は ケーキ を 一切れ{１切れ} 欲しい{欲しかった} が 全然 残る{残っていなかった}",
+    "vocabIds": [
+      "1304510",
+      "1547330",
+      "1164190",
+      "1483150",
+      "1395620"
+    ],
+    "matches": {
+      "1164190": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "いちきれ"
+        }
+      ],
+      "1304510": [
+        {
+          "start": 19,
+          "length": 8,
+          "reading": "のこっていなかった"
+        }
+      ],
+      "1395620": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "ぜんぜん"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1547330": [
+        {
+          "start": 10,
+          "length": 6,
+          "reading": "ほしかったが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "101510",
+    "original": "彼は肉を一切れ切り取った。",
+    "en": [
+      {
+        "id": "302185",
+        "text": "He cut off a slice of meat."
+      },
+      {
+        "id": "5642652",
+        "text": "He cut off a piece of meat."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 肉(にく)[02] を 一切れ 切り取る{切り取った}",
+    "vocabIds": [
+      "1384260",
+      "1164190",
+      "1000420",
+      "1483070",
+      "1463520"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1164190": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "いちきれ"
+        }
+      ],
+      "1384260": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "きりとった"
+        }
+      ],
+      "1463520": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "にく"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "109914",
+    "original": "彼は一切れの肉を犬に投げ与えた。",
+    "en": [
+      {
+        "id": "293775",
+        "text": "He threw a piece of meat to a dog."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 一切れ の 肉(にく)[02] を 犬[01] に 投げる[01]{投げ} 与える[01]{与えた}",
+    "vocabIds": [
+      "1164190",
+      "1544730",
+      "1447000",
+      "1000420",
+      "1483070",
+      "1463520",
+      "1258330"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1164190": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "いちきれ"
+        }
+      ],
+      "1258330": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "いぬ"
+        }
+      ],
+      "1447000": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "なげ"
+        }
+      ],
+      "1463520": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "にく"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1544730": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "あたえた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "113894",
+    "original": "彼はケーキ１切れと引き換えにオレンジ１個を私にくれた。",
+    "en": [
+      {
+        "id": "289779",
+        "text": "He gave me an orange in exchange for a piece of cake."
+      }
+    ],
+    "indices": "彼(かれ)[01] は ケーキ 一切れ{１切れ} と 引き換え[01] に オレンジ 一個{１個} を 私(わたし)[01] に 呉れる{くれた}",
+    "vocabIds": [
+      "1601550",
+      "1164190",
+      "1162290",
+      "1000420",
+      "1483070",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1162290": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "いちこ"
+        }
+      ],
+      "1164190": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "いちきれ"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 21,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 21,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1601550": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "ひきかえ"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 21,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "197904",
+    "original": "ハムを１きれ薄く切ってくれませんか。",
+    "en": [
+      {
+        "id": "35093",
+        "text": "Would you slice me a piece of ham, please?"
+      }
+    ],
+    "indices": "ハム(#1096180)[01]~ を 一切れ{１きれ} 薄い[01]{薄く} 切る[01]{切って} 呉れる{くれません} か",
+    "vocabIds": [
+      "1384830",
+      "1164190",
+      "1475480"
+    ],
+    "matches": {
+      "1164190": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "いちきれ"
+        }
+      ],
+      "1384830": [
+        {
+          "start": 8,
+          "length": 8,
+          "reading": "きってくれません"
+        }
+      ],
+      "1475480": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "うすく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "201638",
+    "original": "どうか私にパンを一切れください。",
+    "en": [
+      {
+        "id": "38848",
+        "text": "Please give me a piece of bread."
+      }
+    ],
+    "indices": "どうか 私(わたし)[01] に パン(#1103090)[01] を 一切れ~ 下さい{ください}",
+    "vocabIds": [
+      "1164190",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1164190": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "いちきれ"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "210956",
+    "original": "その犬は肉を一切れくわえていた。",
+    "en": [
+      {
+        "id": "48227",
+        "text": "The dog had a piece of meat in its mouth."
+      }
+    ],
+    "indices": "其の[01]{その} 犬[01] は 肉(にく)[02] を 一切れ 咥える{くわえていた}",
+    "vocabIds": [
+      "1164190",
+      "1258330",
+      "1463520"
+    ],
+    "matches": {
+      "1164190": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "いちきれ"
+        }
+      ],
+      "1258330": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "いぬ"
+        }
+      ],
+      "1463520": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "にく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1149135",
+    "original": "彼は妹にパンを一切れ切ってあげた。",
+    "en": [
+      {
+        "id": "303848",
+        "text": "He cut his sister a piece of bread."
+      }
+    ],
+    "vocabIds": [
+      "1384830",
+      "1164190",
+      "1000420",
+      "1483070",
+      "1524590"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1164190": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "いちきれ"
+        }
+      ],
+      "1384830": [
+        {
+          "start": 10,
+          "length": 6,
+          "reading": "きってあげた"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1524590": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "いもうと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1614445",
+    "original": "チーズケーキを一切れいただけますか。",
+    "en": [
+      {
+        "id": "942469",
+        "text": "Could I have a piece of cheesecake?"
+      },
+      {
+        "id": "40282",
+        "text": "Could I have a slice of cheesecake?"
+      }
+    ],
+    "vocabIds": [
+      "1164190"
+    ],
+    "matches": {
+      "1164190": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "いちきれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2051630",
+    "original": "トムはメアリーが焼いたケーキを一切れ食べた。",
+    "en": [
+      {
+        "id": "1847691",
+        "text": "Tom ate a piece of the cake that Mary baked."
+      }
+    ],
+    "vocabIds": [
+      "1164190",
+      "1358280",
+      "1350600"
+    ],
+    "matches": {
+      "1164190": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "いちきれ"
+        }
+      ],
+      "1350600": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "やいた"
+        }
+      ],
+      "1358280": [
+        {
+          "start": 18,
+          "length": 3,
+          "reading": "たべた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2976914",
+    "original": "パイ一切れちょうだい。",
+    "en": [
+      {
+        "id": "2623369",
+        "text": "I want a piece of pie."
+      }
+    ],
+    "vocabIds": [
+      "1164190"
+    ],
+    "matches": {
+      "1164190": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "いちきれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2978477",
+    "original": "ケーキ一切れちょうだい。",
+    "en": [
+      {
+        "id": "2623371",
+        "text": "I want a piece of cake."
+      }
+    ],
+    "vocabIds": [
+      "1164190"
+    ],
+    "matches": {
+      "1164190": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "いちきれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "5020929",
+    "original": "トムはメアリーにケーキを一切れ勧めた。",
+    "en": [
+      {
+        "id": "2957579",
+        "text": "Tom offered Mary a slice of cake."
+      }
+    ],
+    "vocabIds": [
+      "1164190",
+      "1595680"
+    ],
+    "matches": {
+      "1164190": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "いちきれ"
+        }
+      ],
+      "1595680": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "すすめた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8878775",
+    "original": "トムはケーキを一切れ食べた。",
+    "en": [
+      {
+        "id": "7735594",
+        "text": "Tom ate a piece of cake."
+      }
+    ],
+    "vocabIds": [
+      "1164190",
+      "1358280"
+    ],
+    "matches": {
+      "1164190": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "いちきれ"
+        }
+      ],
+      "1358280": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "たべた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9520568",
+    "original": "トムがパイを一切れ持ってきてくれたの。",
+    "en": [
+      {
+        "id": "9520558",
+        "text": "Tom brought me a slice of pie."
+      }
+    ],
+    "vocabIds": [
+      "1315720",
+      "1164190"
+    ],
+    "matches": {
+      "1164190": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "いちきれ"
+        }
+      ],
+      "1315720": [
+        {
+          "start": 9,
+          "length": 8,
+          "reading": "もってきてくれた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9550099",
+    "original": "もう一切れパイ食べる？",
+    "en": [
+      {
+        "id": "987506",
+        "text": "Would you like another piece of pie?"
+      }
+    ],
+    "vocabIds": [
+      "1164190",
+      "1358280"
+    ],
+    "matches": {
+      "1164190": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "いちきれ"
+        }
+      ],
+      "1358280": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "たべる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9632765",
+    "original": "トムがケーキの最後の一切れをくれたの。",
+    "en": [
+      {
+        "id": "9510755",
+        "text": "Tom gave me the last piece of cake."
+      },
+      {
+        "id": "9594271",
+        "text": "Tom gave the last piece of cake to me."
+      }
+    ],
+    "vocabIds": [
+      "1164190",
+      "1293810"
+    ],
+    "matches": {
+      "1164190": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "いちきれ"
+        }
+      ],
+      "1293810": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "さいご"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9725200",
+    "original": "ケーキもう一切れ食べてもいい？",
+    "en": [
+      {
+        "id": "31527",
+        "text": "May I have another piece of cake?"
+      },
+      {
+        "id": "5850287",
+        "text": "Can I have another piece of cake?"
+      }
+    ],
+    "vocabIds": [
+      "1164190",
+      "1358280"
+    ],
+    "matches": {
+      "1164190": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "いちきれ"
+        }
+      ],
+      "1358280": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "たべて"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9777020",
+    "original": "トム、パイをもう一切れどう？",
+    "en": [
+      {
+        "id": "3506500",
+        "text": "How about another piece of pie, Tom?"
+      }
+    ],
+    "vocabIds": [
+      "1164190"
+    ],
+    "matches": {
+      "1164190": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "いちきれ"
+        }
+      ]
+    }
+  }
+]

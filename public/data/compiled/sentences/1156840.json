@@ -1,0 +1,226 @@
+[
+  {
+    "id": "74226",
+    "original": "細かい意訳誤訳は気にしないでください。",
+    "en": [
+      {
+        "id": "329494",
+        "text": "Please don't worry about the finer details of free vs mis-translation."
+      }
+    ],
+    "indices": "細かい 意訳 誤訳 は 気にしない{気にしないで} 下さい{ください}",
+    "vocabIds": [
+      "2771850",
+      "1295530",
+      "1156840",
+      "1271490"
+    ],
+    "matches": {
+      "1156840": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "いやく"
+        }
+      ],
+      "1271490": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ごやく"
+        }
+      ],
+      "1295530": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "こまかい"
+        }
+      ],
+      "2771850": [
+        {
+          "start": 8,
+          "length": 6,
+          "reading": "きにしないで"
+        }
+      ]
+    }
+  },
+  {
+    "id": "74586",
+    "original": "読者の方から意訳と直訳について質問されました。",
+    "en": [
+      {
+        "id": "329133",
+        "text": "I have been asked by a reader about free and direct translations."
+      }
+    ],
+    "indices": "読者 の 方(かた) から 意訳~ と 直訳~ に就いて{について} 質問 為れる{されました}",
+    "vocabIds": [
+      "1456400",
+      "1156840",
+      "1431550",
+      "1320760",
+      "1545790",
+      "1512070",
+      "1516930"
+    ],
+    "matches": {
+      "1156840": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "いやく"
+        }
+      ],
+      "1320760": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "しつもん"
+        }
+      ],
+      "1431550": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "ちょくやく"
+        }
+      ],
+      "1456400": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "どくしゃ"
+        }
+      ],
+      "1512070": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "ほう"
+        }
+      ],
+      "1516930": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "ほう"
+        }
+      ],
+      "1545790": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "ほう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "998670",
+    "original": "テストでどこまでの意訳が許されるのかがわからない。",
+    "en": [
+      {
+        "id": "1002045",
+        "text": "On tests, I don't know how free a translation would be allowed."
+      }
+    ],
+    "vocabIds": [
+      "1156840",
+      "1232870"
+    ],
+    "matches": {
+      "1156840": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "いやく"
+        }
+      ],
+      "1232870": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "ゆるさ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1696200",
+    "original": "これは意訳なんかじゃない。飛訳だよ。",
+    "en": [
+      {
+        "id": "1701394",
+        "text": "This is not a free translation. It's a nonsense translation."
+      }
+    ],
+    "vocabIds": [
+      "1156840",
+      "1921980",
+      "1538330"
+    ],
+    "matches": {
+      "1156840": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "いやく"
+        }
+      ],
+      "1538330": [
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "やく"
+        }
+      ],
+      "1921980": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "ひ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3371871",
+    "original": "「愛してる」って訳したら意訳しすぎかな？",
+    "en": [
+      {
+        "id": "4644980",
+        "text": "I wonder if translating it as \"I love you\" is taking too much of a liberty."
+      }
+    ],
+    "vocabIds": [
+      "2408840",
+      "1538350",
+      "1156840"
+    ],
+    "matches": {
+      "1156840": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "いやく"
+        }
+      ],
+      "1538350": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "やくしたら"
+        }
+      ],
+      "2408840": [
+        {
+          "start": 1,
+          "length": 4,
+          "reading": "あいしてる"
+        }
+      ]
+    }
+  }
+]

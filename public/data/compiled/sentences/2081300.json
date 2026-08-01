@@ -1,0 +1,127 @@
+[
+  {
+    "id": "78785",
+    "original": "陽気が暖かでやがて果樹の花が咲くだろう。",
+    "en": [
+      {
+        "id": "324931",
+        "text": "The warm weather will bring the fruit trees into blossom soon."
+      }
+    ],
+    "indices": "陽気[02] が 暖か で(#2028980) 軈て{やがて} 果樹~ の 花[01] が 咲く だろう",
+    "vocabIds": [
+      "1297210",
+      "1546990",
+      "2081300",
+      "1192970",
+      "1194500"
+    ],
+    "matches": {
+      "1192970": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "かじゅ"
+        }
+      ],
+      "1194500": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "はな"
+        }
+      ],
+      "1297210": [
+        {
+          "start": 14,
+          "length": 5,
+          "reading": "さくだろう"
+        }
+      ],
+      "1546990": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ようき"
+        }
+      ],
+      "2081300": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "あたたか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "143015",
+    "original": "晴れていて暖かでした。",
+    "en": [
+      {
+        "id": "271553",
+        "text": "It was sunny and warm."
+      }
+    ],
+    "indices": "晴れる[01]{晴れていて} 暖か です{でした}",
+    "vocabIds": [
+      "1376470",
+      "2081300"
+    ],
+    "matches": {
+      "1376470": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "はれていて"
+        }
+      ],
+      "2081300": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "あたたか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "182218",
+    "original": "去年の冬は暖かだった。",
+    "en": [
+      {
+        "id": "19427",
+        "text": "We had a mild winter last year."
+      }
+    ],
+    "indices": "去年 の 冬 は 暖か~ だ{だった}",
+    "vocabIds": [
+      "1231690",
+      "2081300",
+      "1446070"
+    ],
+    "matches": {
+      "1231690": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きょねん"
+        }
+      ],
+      "1446070": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "ふゆ"
+        }
+      ],
+      "2081300": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "あたたか"
+        }
+      ]
+    }
+  }
+]

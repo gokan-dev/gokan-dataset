@@ -1,0 +1,156 @@
+[
+  {
+    "id": "101218",
+    "original": "彼は犯行現場にいたように思われる。",
+    "en": [
+      {
+        "id": "302478",
+        "text": "It seems that he has been at the scene of the crime."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 犯行現場 に 居る(いる)[01]{いた} 様(よう){よう} に 思われる{思われる}",
+    "vocabIds": [
+      "1945570",
+      "1309470",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1309470": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "おもわれる"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1945570": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "はんこうげんば"
+        }
+      ]
+    }
+  },
+  {
+    "id": "236735",
+    "original": "刑事が犯行現場に到着した。",
+    "en": [
+      {
+        "id": "237816",
+        "text": "A detective arrived upon the scene of the crime."
+      }
+    ],
+    "indices": "刑事[01] が 犯行現場~ に 到着 為る(する){した}",
+    "vocabIds": [
+      "1945570",
+      "1008360",
+      "1449870"
+    ],
+    "matches": {
+      "1008360": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "けいじ"
+        }
+      ],
+      "1449870": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "とうちゃく"
+        }
+      ],
+      "1945570": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "はんこうげんば"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11058278",
+    "original": "犯行現場に足を運んだ。",
+    "en": [
+      {
+        "id": "257283",
+        "text": "I went to the scene of the crime."
+      }
+    ],
+    "vocabIds": [
+      "1945570",
+      "1172660",
+      "1404630"
+    ],
+    "matches": {
+      "1172660": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "はこんだ"
+        }
+      ],
+      "1404630": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "あし"
+        }
+      ],
+      "1945570": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "はんこうげんば"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11254428",
+    "original": "犯行現場に人だかりができていた。",
+    "en": [
+      {
+        "id": "10649972",
+        "text": "A crowd gathered at the scene of the crime."
+      }
+    ],
+    "vocabIds": [
+      "1945570",
+      "1368100"
+    ],
+    "matches": {
+      "1368100": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "ひとだかり"
+        }
+      ],
+      "1945570": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "はんこうげんば"
+        }
+      ]
+    }
+  }
+]

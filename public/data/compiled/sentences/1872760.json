@@ -1,0 +1,222 @@
+[
+  {
+    "id": "102187",
+    "original": "彼は遅れる事を言うのを忘れた。さらに悪い事には、車の流れが悪かった。",
+    "en": [
+      {
+        "id": "301507",
+        "text": "He forgot to say he would be late, and to make matters worse, the traffic was bad."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 遅れる 事(こと) を 言う の を 忘れる{忘れた} 更に{さらに} 悪い(わるい) 事(こと) には 車(くるま) の 流れ が 悪い(わるい){悪かった}",
+    "vocabIds": [
+      "1872760",
+      "1151260",
+      "1403390",
+      "2772730",
+      "1589040",
+      "1519210",
+      "1587040",
+      "1000420",
+      "1483070",
+      "1313580"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1151260": [
+        {
+          "start": 29,
+          "length": 4,
+          "reading": "わるかった"
+        },
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "わるい"
+        }
+      ],
+      "1313580": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "こと"
+        },
+        {
+          "start": 20,
+          "length": 1,
+          "reading": "こと"
+        }
+      ],
+      "1403390": [
+        {
+          "start": 29,
+          "length": 4,
+          "reading": "わるかった"
+        },
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "わるい"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1519210": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "わすれた"
+        }
+      ],
+      "1587040": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "いう"
+        }
+      ],
+      "1589040": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "おくれる"
+        }
+      ],
+      "1872760": [
+        {
+          "start": 24,
+          "length": 4,
+          "reading": "くるまのながれ"
+        }
+      ],
+      "2772730": [
+        {
+          "start": 29,
+          "length": 4,
+          "reading": "わるかった"
+        },
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "わるい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "191494",
+    "original": "なお悪いことに車の流れが悪かった。",
+    "en": [
+      {
+        "id": "28657",
+        "text": "To make matter worse, the traffic was bad."
+      }
+    ],
+    "indices": "尚[01]{なお} 悪い(わるい) 事(こと){こと} に 車(くるま) の 流れ が 悪い(わるい){悪かった}",
+    "vocabIds": [
+      "1872760",
+      "1151260",
+      "1403390",
+      "2772730"
+    ],
+    "matches": {
+      "1151260": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "わるかった"
+        },
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "わるい"
+        }
+      ],
+      "1403390": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "わるかった"
+        },
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "わるい"
+        }
+      ],
+      "1872760": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "くるまのながれ"
+        }
+      ],
+      "2772730": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "わるかった"
+        },
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "わるい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "220477",
+    "original": "この通りは車の流れが絶えない。",
+    "en": [
+      {
+        "id": "57799",
+        "text": "There is a constant flow of traffic on this road."
+      },
+      {
+        "id": "10541937",
+        "text": "There's a constant flow of traffic on this road."
+      }
+    ],
+    "indices": "此の{この} 通り(とおり) は 車(くるま) の 流れ が 絶える[02]{絶えない}",
+    "vocabIds": [
+      "2233930",
+      "1872760",
+      "1386710"
+    ],
+    "matches": {
+      "1386710": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "たえない"
+        }
+      ],
+      "1872760": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "くるまのながれ"
+        }
+      ],
+      "2233930": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "このとおり"
+        }
+      ]
+    }
+  }
+]

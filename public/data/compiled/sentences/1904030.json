@@ -1,0 +1,114 @@
+[
+  {
+    "id": "88445",
+    "original": "彼女は人当たりがいい。",
+    "en": [
+      {
+        "id": "315262",
+        "text": "She is friendly to everybody."
+      }
+    ],
+    "indices": "彼女[01] は 人当たり が いい",
+    "vocabIds": [
+      "1904030",
+      "1483150"
+    ],
+    "matches": {
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1904030": [
+        {
+          "start": 3,
+          "length": 7,
+          "reading": "ひとあたりがいい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "103523",
+    "original": "彼は人当たりがよい。",
+    "en": [
+      {
+        "id": "300170",
+        "text": "He is an agreeable person."
+      },
+      {
+        "id": "10596977",
+        "text": "He's an agreeable person."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 人当たり~ が 良い{よい}",
+    "vocabIds": [
+      "1904030",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1904030": [
+        {
+          "start": 2,
+          "length": 7,
+          "reading": "ひとあたりがよい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10125541",
+    "original": "ナンシーは人当たりがいいと言うよりも思いやりがあるんだ。",
+    "en": [
+      {
+        "id": "36202",
+        "text": "Nancy is kind rather than gentle."
+      }
+    ],
+    "vocabIds": [
+      "1904030",
+      "2441160",
+      "1309180"
+    ],
+    "matches": {
+      "1309180": [
+        {
+          "start": 18,
+          "length": 4,
+          "reading": "おもいやり"
+        }
+      ],
+      "1904030": [
+        {
+          "start": 5,
+          "length": 7,
+          "reading": "ひとあたりがいい"
+        }
+      ],
+      "2441160": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "というより"
+        }
+      ]
+    }
+  }
+]

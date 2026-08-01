@@ -1,0 +1,95 @@
+[
+  {
+    "id": "78544",
+    "original": "雷鳴が空に轟いた。",
+    "en": [
+      {
+        "id": "325172",
+        "text": "A sharp crack of thunder split the sky."
+      }
+    ],
+    "indices": "雷鳴 が 空(そら) に 轟く[01]{轟いた}",
+    "vocabIds": [
+      "1285710",
+      "1548470",
+      "1245290",
+      "2248040"
+    ],
+    "matches": {
+      "1245290": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "そら"
+        }
+      ],
+      "1285710": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "とどろいた"
+        }
+      ],
+      "1548470": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "らいめい"
+        }
+      ],
+      "2248040": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "そら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10239323",
+    "original": "ライオンは轟くようなうなり声を上げる。",
+    "en": [
+      {
+        "id": "10239331",
+        "text": "The lion gives a booming roar."
+      },
+      {
+        "id": "10239334",
+        "text": "The lion gives a thunderous roar."
+      },
+      {
+        "id": "10315256",
+        "text": "The lion roars thunderously."
+      },
+      {
+        "id": "10315257",
+        "text": "The lion produces a deafening roar."
+      },
+      {
+        "id": "10315258",
+        "text": "The lion bellows out a roar."
+      }
+    ],
+    "vocabIds": [
+      "1876110",
+      "1285710"
+    ],
+    "matches": {
+      "1285710": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "とどろく"
+        }
+      ],
+      "1876110": [
+        {
+          "start": 13,
+          "length": 5,
+          "reading": "ごえをあげる"
+        }
+      ]
+    }
+  }
+]

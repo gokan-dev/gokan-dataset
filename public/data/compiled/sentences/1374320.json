@@ -1,0 +1,102 @@
+[
+  {
+    "id": "92469",
+    "original": "彼女はその子につきまとって、うるさく世話を焼く。",
+    "en": [
+      {
+        "id": "311242",
+        "text": "She hovers over that child like a hen with one chick."
+      }
+    ],
+    "indices": "彼女[01] は 其の[01]{その} 子(こ)[01] に 付き纏う[01]{つきまとって} 五月蝿い{うるさく} 世話を焼く[02]",
+    "vocabIds": [
+      "1374320",
+      "1483150",
+      "1307770",
+      "1320800",
+      "1324960"
+    ],
+    "matches": {
+      "1307770": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "こ"
+        }
+      ],
+      "1320800": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "こ"
+        }
+      ],
+      "1324960": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "こ"
+        }
+      ],
+      "1374320": [
+        {
+          "start": 18,
+          "length": 5,
+          "reading": "せわをやく"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "228459",
+    "original": "いらぬ世話をやくな。",
+    "en": [
+      {
+        "id": "29909",
+        "text": "Mind your own business."
+      }
+    ],
+    "indices": "要る{いらぬ} 世話を焼く[02]{世話をやく}~ な[01]",
+    "vocabIds": [
+      "1374320"
+    ],
+    "matches": {
+      "1374320": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "せわをやく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8647364",
+    "original": "トムはメアリーの世話を焼く。",
+    "en": [
+      {
+        "id": "2645755",
+        "text": "Tom takes care of Mary."
+      }
+    ],
+    "vocabIds": [
+      "1374320"
+    ],
+    "matches": {
+      "1374320": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "せわをやく"
+        }
+      ]
+    }
+  }
+]

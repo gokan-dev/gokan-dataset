@@ -1,0 +1,51 @@
+[
+  {
+    "id": "198054",
+    "original": "バス賃はいくらですか。",
+    "en": [
+      {
+        "id": "35243",
+        "text": "What's the bus fare?"
+      }
+    ],
+    "indices": "バス賃~ は 幾ら{いくら} ですか",
+    "vocabIds": [
+      "2081970"
+    ],
+    "matches": {
+      "2081970": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ばすちん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "13190464",
+    "original": "バス賃はいくらですか？",
+    "en": [
+      {
+        "id": "35222",
+        "text": "How much is the bus fare?"
+      },
+      {
+        "id": "3825557",
+        "text": "How much does a bus ticket cost?"
+      }
+    ],
+    "vocabIds": [
+      "2081970"
+    ],
+    "matches": {
+      "2081970": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ばすちん"
+        }
+      ]
+    }
+  }
+]

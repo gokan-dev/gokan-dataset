@@ -1,0 +1,140 @@
+[
+  {
+    "id": "74624",
+    "original": "ソレノイドへの突入電流でノイズが発生します。",
+    "en": [
+      {
+        "id": "329095",
+        "text": "Noise is produced by the sudden flow of current into a solenoid."
+      }
+    ],
+    "indices": "ソレノイド~ へ の 突入 電流 で(#2028980) ノイズ~ が 発生 為る(する){します}",
+    "vocabIds": [
+      "1457080",
+      "1443790",
+      "1477620"
+    ],
+    "matches": {
+      "1443790": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "でんりゅう"
+        }
+      ],
+      "1457080": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "とつにゅう"
+        }
+      ],
+      "1477620": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "はっせい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "75102",
+    "original": "電流が流れる電線にコイルを近づけると、コイルにも電気が流れます。",
+    "en": [
+      {
+        "id": "328617",
+        "text": "When a coil is moved near to a wire with current flowing in it current flows in the coil as well."
+      }
+    ],
+    "indices": "電流~ が 流れる 電線[01]~ に コイル~ を 近づける と コイル にも 電気 が 流れる[01]{流れます}",
+    "vocabIds": [
+      "1242520",
+      "1552140",
+      "1443790",
+      "1443570",
+      "1443000"
+    ],
+    "matches": {
+      "1242520": [
+        {
+          "start": 13,
+          "length": 5,
+          "reading": "ちかづけると"
+        }
+      ],
+      "1443000": [
+        {
+          "start": 24,
+          "length": 2,
+          "reading": "でんき"
+        }
+      ],
+      "1443570": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "でんせん"
+        }
+      ],
+      "1443790": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "でんりゅう"
+        }
+      ],
+      "1552140": [
+        {
+          "start": 27,
+          "length": 4,
+          "reading": "ながれます"
+        },
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "ながれる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "124757",
+    "original": "電流は磁力を発生することができる。",
+    "en": [
+      {
+        "id": "279237",
+        "text": "An electric current can generate magnetism."
+      }
+    ],
+    "indices": "電流 は 磁力 を 発生[01] 為る(する){する} 事が出来る{ことができる}",
+    "vocabIds": [
+      "1443790",
+      "1772010",
+      "1477620"
+    ],
+    "matches": {
+      "1443790": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "でんりゅう"
+        }
+      ],
+      "1477620": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "はっせい"
+        }
+      ],
+      "1772010": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "じりょく"
+        }
+      ]
+    }
+  }
+]

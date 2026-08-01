@@ -1,0 +1,87 @@
+[
+  {
+    "id": "225813",
+    "original": "キャンセル待ちで乗れる確率はどれくらいですか。",
+    "en": [
+      {
+        "id": "63151",
+        "text": "If I wait, what's the possibility I can get a seat?"
+      }
+    ],
+    "indices": "キャンセル 待ち で(#2028980) 乗る[01]{乗れる} 確率~ は 何れくらい{どれくらい} ですか",
+    "vocabIds": [
+      "2118640",
+      "1205950"
+    ],
+    "matches": {
+      "1205950": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "かくりつ"
+        }
+      ],
+      "2118640": [
+        {
+          "start": 0,
+          "length": 7,
+          "reading": "きゃんせるまち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "225814",
+    "original": "キャンセル待ちします。",
+    "en": [
+      {
+        "id": "63152",
+        "text": "Could you put my name on the waiting list?"
+      }
+    ],
+    "indices": "キャンセル 待ち 為る(する){します}",
+    "vocabIds": [
+      "2118640"
+    ],
+    "matches": {
+      "2118640": [
+        {
+          "start": 0,
+          "length": 7,
+          "reading": "きゃんせるまち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "231308",
+    "original": "あのツアー、キャンセル待ちの状態だって。",
+    "en": [
+      {
+        "id": "68674",
+        "text": "That tour already has a waiting list."
+      }
+    ],
+    "indices": "彼の(あの){あの} ツアー キャンセル 待ち~ の 状態 だ って",
+    "vocabIds": [
+      "2118640",
+      "1356730"
+    ],
+    "matches": {
+      "1356730": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "じょうたい"
+        }
+      ],
+      "2118640": [
+        {
+          "start": 6,
+          "length": 7,
+          "reading": "きゃんせるまち"
+        }
+      ]
+    }
+  }
+]

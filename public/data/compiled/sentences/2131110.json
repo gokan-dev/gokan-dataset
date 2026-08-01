@@ -1,0 +1,128 @@
+[
+  {
+    "id": "166727",
+    "original": "私たちは、赤い糸で結ばれていたのよ。なんてね。",
+    "en": [
+      {
+        "id": "247775",
+        "text": "We were destined to get married from the time we were born - Not!"
+      }
+    ],
+    "indices": "私たち は 赤い[01] 糸(いと) で(#2028980) 結ぶ[01]{結ばれていた} の よ なんてね~",
+    "vocabIds": [
+      "1311300",
+      "2131110",
+      "1254670"
+    ],
+    "matches": {
+      "1254670": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "むすば"
+        }
+      ],
+      "1311300": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "2131110": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "あかいいと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "519624",
+    "original": "赤い糸と白い糸、どっちがいいですか。",
+    "en": [
+      {
+        "id": "519625",
+        "text": "Which is best, white thread or red thread?"
+      },
+      {
+        "id": "520066",
+        "text": "Which is better, red thread or white thread?"
+      }
+    ],
+    "indices": "赤い 糸(いと) と 白い 糸(いと) 何方(どちら){どっち} が いい(#2820690)[01] ですか",
+    "vocabIds": [
+      "2131110",
+      "1474910",
+      "1311450"
+    ],
+    "matches": {
+      "1311450": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "いと"
+        }
+      ],
+      "1474910": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "しろい"
+        }
+      ],
+      "2131110": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あかいいと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "13080944",
+    "original": "赤い糸がありません。",
+    "en": [
+      {
+        "id": "1310724",
+        "text": "There's no red thread."
+      }
+    ],
+    "vocabIds": [
+      "2131110"
+    ],
+    "matches": {
+      "2131110": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あかいいと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "13080947",
+    "original": "赤い糸がないです。",
+    "en": [
+      {
+        "id": "1310724",
+        "text": "There's no red thread."
+      }
+    ],
+    "vocabIds": [
+      "2131110"
+    ],
+    "matches": {
+      "2131110": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あかいいと"
+        }
+      ]
+    }
+  }
+]

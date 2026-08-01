@@ -1,0 +1,84 @@
+[
+  {
+    "id": "83829",
+    "original": "物は試し。",
+    "en": [
+      {
+        "id": "30341",
+        "text": "You'll never know unless you try."
+      },
+      {
+        "id": "11559402",
+        "text": "Don't knock it till you've tried it."
+      }
+    ],
+    "indices": "物(もの)[01] は 試し",
+    "vocabIds": [
+      "2419610"
+    ],
+    "matches": {
+      "2419610": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "ものはためし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "83830",
+    "original": "物は試しにやってはみたけれど、このプログラムつくり、僕が太刀打ちできるような簡単なものじゃなかったね。",
+    "en": [
+      {
+        "id": "319887",
+        "text": "I gave it a try figuring that anything is worth a try. But putting together a program like this is something I'm no match for."
+      }
+    ],
+    "indices": "物(もの)[01] は 試しに 遣る{やって} は 見る[05]{みた} けど{けれど} 此の{この} プログラム 作る{つくり} 僕(ぼく)[01] が 太刀打ち出来る{太刀打ちできる}~ 様な{ような} 簡単{簡単な} 物(もの){もの} だ{じゃなかった} ね(#2029080)[01]",
+    "vocabIds": [
+      "2793190",
+      "2419610",
+      "1214330",
+      "1521400",
+      "2228300"
+    ],
+    "matches": {
+      "1214330": [
+        {
+          "start": 38,
+          "length": 2,
+          "reading": "かんたん"
+        }
+      ],
+      "1521400": [
+        {
+          "start": 26,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ],
+      "2228300": [
+        {
+          "start": 26,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ],
+      "2419610": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "ものはためし"
+        }
+      ],
+      "2793190": [
+        {
+          "start": 28,
+          "length": 7,
+          "reading": "たちうちできる"
+        }
+      ]
+    }
+  }
+]

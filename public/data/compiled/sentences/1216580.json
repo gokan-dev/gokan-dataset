@@ -1,0 +1,227 @@
+[
+  {
+    "id": "147897",
+    "original": "宿屋といってもまるで丸太小屋のようだった。",
+    "en": [
+      {
+        "id": "266663",
+        "text": "The inn was no better than a log cabin."
+      }
+    ],
+    "indices": "宿屋~ と言っても{といっても} 丸で{まるで} 丸太小屋 の 様だ{ようだった}",
+    "vocabIds": [
+      "1216580",
+      "1337230"
+    ],
+    "matches": {
+      "1216580": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "まるたこや"
+        }
+      ],
+      "1337230": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "やどや"
+        }
+      ]
+    }
+  },
+  {
+    "id": "173148",
+    "original": "合衆国の第１６代大統領であるアブラハム・リンカーンは、ケンタッキー州の丸太小屋で生まれた。",
+    "en": [
+      {
+        "id": "241323",
+        "text": "Abraham Lincoln, the 16th president of the United States, was born in a log cabin in Kentucky."
+      }
+    ],
+    "indices": "合衆国 の 第 代(だい)[02] 大統領 である は ケンタッキー~ 州(しゅう)[01] の 丸太小屋~ で(#2028980) 生まれる{生まれた}",
+    "vocabIds": [
+      "1216580",
+      "1378690",
+      "1591010",
+      "1414650",
+      "1415270",
+      "1585310",
+      "1982860",
+      "1605810",
+      "1331840"
+    ],
+    "matches": {
+      "1216580": [
+        {
+          "start": 35,
+          "length": 4,
+          "reading": "まるたこや"
+        }
+      ],
+      "1331840": [
+        {
+          "start": 33,
+          "length": 1,
+          "reading": "しゅう"
+        }
+      ],
+      "1378690": [
+        {
+          "start": 40,
+          "length": 4,
+          "reading": "うまれた"
+        }
+      ],
+      "1414650": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "だいとうりょう"
+        }
+      ],
+      "1415270": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "だいいち"
+        }
+      ],
+      "1585310": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "ろく"
+        }
+      ],
+      "1591010": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "がっしゅうこく"
+        }
+      ],
+      "1605810": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "だい"
+        }
+      ],
+      "1982860": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "だい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "210514",
+    "original": "その作家は丸太小屋に住んでいる。",
+    "en": [
+      {
+        "id": "47782",
+        "text": "The writer is living in a log cabin."
+      }
+    ],
+    "indices": "其の[01]{その} 作家 は 丸太小屋 に 住む{住んでいる}",
+    "vocabIds": [
+      "1334040",
+      "1216580",
+      "1297510"
+    ],
+    "matches": {
+      "1216580": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "まるたこや"
+        }
+      ],
+      "1297510": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "さっか"
+        }
+      ],
+      "1334040": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "すんでいる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8611523",
+    "original": "トムとメアリーは小さな丸太小屋で暮らしている。",
+    "en": [
+      {
+        "id": "6570516",
+        "text": "Tom and Mary live in a small log cabin."
+      }
+    ],
+    "vocabIds": [
+      "1514940",
+      "1216580",
+      "2136180"
+    ],
+    "matches": {
+      "1216580": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "まるたこや"
+        }
+      ],
+      "1514940": [
+        {
+          "start": 16,
+          "length": 6,
+          "reading": "くらしている"
+        }
+      ],
+      "2136180": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "ちいさな"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8611546",
+    "original": "トムとメアリーは丸太小屋で暮らしている。",
+    "en": [
+      {
+        "id": "7782542",
+        "text": "Tom and Mary live in a log cabin."
+      }
+    ],
+    "vocabIds": [
+      "1514940",
+      "1216580"
+    ],
+    "matches": {
+      "1216580": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "まるたこや"
+        }
+      ],
+      "1514940": [
+        {
+          "start": 13,
+          "length": 6,
+          "reading": "くらしている"
+        }
+      ]
+    }
+  }
+]

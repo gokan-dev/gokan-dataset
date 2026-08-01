@@ -1,0 +1,188 @@
+[
+  {
+    "id": "82424",
+    "original": "北極熊は極地の氷原に住んでいるのだが、生息地を失い、絶滅するであろう。",
+    "en": [
+      {
+        "id": "321291",
+        "text": "The polar bear, which lives on the polar ice-cap, will lose its home and die out."
+      }
+    ],
+    "indices": "北極熊 は 極地 の 氷原~ に 住む{住んでいる} のだ が[03] 生息地~ を 失う{失い} 絶滅 為る(する){する} である{であろう}",
+    "vocabIds": [
+      "1334040",
+      "1520910",
+      "1940310",
+      "1240390",
+      "1489010",
+      "1319750",
+      "1386990"
+    ],
+    "matches": {
+      "1240390": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "きょくち"
+        }
+      ],
+      "1319750": [
+        {
+          "start": 23,
+          "length": 2,
+          "reading": "うしない"
+        }
+      ],
+      "1334040": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "すんでいる"
+        }
+      ],
+      "1386990": [
+        {
+          "start": 26,
+          "length": 2,
+          "reading": "ぜつめつ"
+        }
+      ],
+      "1489010": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ひょうげん"
+        }
+      ],
+      "1520910": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ほっきょくぐま"
+        }
+      ],
+      "1940310": [
+        {
+          "start": 19,
+          "length": 3,
+          "reading": "せいそくち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "141985",
+    "original": "雪の上にも、極地の氷の上にも、そして熱帯雨林のも住んでいる。",
+    "en": [
+      {
+        "id": "272585",
+        "text": "They live on the snow and ice of the Poles and in tropical jungles."
+      }
+    ],
+    "indices": "雪 の 上(うえ) に も 極地 の 氷(こおり)[01] の 上(うえ) にも 而して{そして} 熱帯雨林 の も 住む{住んでいる}",
+    "vocabIds": [
+      "1334040",
+      "2109200",
+      "1240390",
+      "1386500",
+      "1352130",
+      "1488840",
+      "1583430"
+    ],
+    "matches": {
+      "1240390": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "きょくち"
+        }
+      ],
+      "1334040": [
+        {
+          "start": 24,
+          "length": 5,
+          "reading": "すんでいる"
+        }
+      ],
+      "1352130": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "うえ"
+        },
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "うえ"
+        }
+      ],
+      "1386500": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ゆき"
+        }
+      ],
+      "1488840": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "こおり"
+        }
+      ],
+      "1583430": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "こおり"
+        }
+      ],
+      "2109200": [
+        {
+          "start": 18,
+          "length": 4,
+          "reading": "ねったいうりん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "227763",
+    "original": "オーロラは極地に特有の現象です。",
+    "en": [
+      {
+        "id": "65116",
+        "text": "The aurora is a phenomenon characteristic of the polar regions."
+      }
+    ],
+    "indices": "オーロラ は 極地~ に 特有{特有の} 現象 です",
+    "vocabIds": [
+      "1240390",
+      "1455370",
+      "1263750"
+    ],
+    "matches": {
+      "1240390": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "きょくち"
+        }
+      ],
+      "1263750": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "げんしょう"
+        }
+      ],
+      "1455370": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "とくゆう"
+        }
+      ]
+    }
+  }
+]

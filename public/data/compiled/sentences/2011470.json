@@ -1,0 +1,84 @@
+[
+  {
+    "id": "171749",
+    "original": "今日はどこで昼食する？",
+    "en": [
+      {
+        "id": "242480",
+        "text": "Where will you have lunch today?"
+      }
+    ],
+    "indices": "今日 は 何処{どこ} で(#2028980) 昼食(ちゅうしょく) 為る(する){する}",
+    "vocabIds": [
+      "1289400",
+      "2011470",
+      "1426250"
+    ],
+    "matches": {
+      "1289400": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きょうは"
+        }
+      ],
+      "1426250": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "ひる"
+        }
+      ],
+      "2011470": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "しょくする"
+        }
+      ]
+    }
+  },
+  {
+    "id": "171995",
+    "original": "今日どこで昼食する？",
+    "en": [
+      {
+        "id": "242480",
+        "text": "Where will you have lunch today?"
+      },
+      {
+        "id": "1008826",
+        "text": "Where are you having lunch today?"
+      }
+    ],
+    "indices": "今日 何処{どこ} で(#2028980) 昼食(ちゅうしょく) 為る(する){する}",
+    "vocabIds": [
+      "2011470",
+      "1579110",
+      "1426250"
+    ],
+    "matches": {
+      "1426250": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "ひる"
+        }
+      ],
+      "1579110": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きょう"
+        }
+      ],
+      "2011470": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "しょくする"
+        }
+      ]
+    }
+  }
+]

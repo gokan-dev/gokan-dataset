@@ -1,0 +1,119 @@
+[
+  {
+    "id": "79687",
+    "original": "夜食にインスタントラーメンを食べた。",
+    "en": [
+      {
+        "id": "324031",
+        "text": "I had instant noodles as a midnight snack."
+      }
+    ],
+    "indices": "夜食~ に インスタントラーメン~ を 食べる{食べた}",
+    "vocabIds": [
+      "1358280",
+      "1536850"
+    ],
+    "matches": {
+      "1358280": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "たべた"
+        }
+      ],
+      "1536850": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "やしょく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9981769",
+    "original": "「夜食にって思って『にゅうめん』を作ってみたんだけど食べる？」「食べる！食べる！」",
+    "en": [
+      {
+        "id": "9981835",
+        "text": "\"I've made some nyumen as a midnight snack. Do you want some?\" \"Yes, I do!\""
+      }
+    ],
+    "vocabIds": [
+      "1597890",
+      "1358280",
+      "1589350",
+      "1536850"
+    ],
+    "matches": {
+      "1358280": [
+        {
+          "start": 26,
+          "length": 3,
+          "reading": "たべる"
+        },
+        {
+          "start": 32,
+          "length": 3,
+          "reading": "たべる"
+        },
+        {
+          "start": 36,
+          "length": 3,
+          "reading": "たべる"
+        }
+      ],
+      "1536850": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "やしょく"
+        }
+      ],
+      "1589350": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "おもって"
+        }
+      ],
+      "1597890": [
+        {
+          "start": 17,
+          "length": 5,
+          "reading": "つくってみた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10108558",
+    "original": "夜食したいけど、キッチンに行けない。",
+    "en": [
+      {
+        "id": "10108559",
+        "text": "I want to get a midnight snack, but I can't go to the kitchen."
+      }
+    ],
+    "vocabIds": [
+      "1000730",
+      "1536850"
+    ],
+    "matches": {
+      "1000730": [
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "いけない"
+        }
+      ],
+      "1536850": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "やしょく"
+        }
+      ]
+    }
+  }
+]

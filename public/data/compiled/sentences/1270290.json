@@ -1,0 +1,832 @@
+[
+  {
+    "id": "95045",
+    "original": "彼女にご協力いただけますことについて、あらかじめお礼を申し上げます。",
+    "en": [
+      {
+        "id": "308661",
+        "text": "I would like to thank you in advance for any help that you are able to give her."
+      }
+    ],
+    "indices": "彼女 に 御(ご){ご} 協力 頂ける[01]{いただけます} 事(こと){こと} に就いて{について} 予め{あらかじめ} お礼 を 申し上げる[01]{申し上げます}",
+    "vocabIds": [
+      "1362950",
+      "1270290",
+      "1483150",
+      "1270810"
+    ],
+    "matches": {
+      "1270290": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "ごきょうりょく"
+        }
+      ],
+      "1270810": [
+        {
+          "start": 24,
+          "length": 2,
+          "reading": "おれい"
+        }
+      ],
+      "1362950": [
+        {
+          "start": 27,
+          "length": 6,
+          "reading": "もうしあげます"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "179964",
+    "original": "禁煙、ご協力ありがとうございます。",
+    "en": [
+      {
+        "id": "18823",
+        "text": "Thank you for not smoking."
+      }
+    ],
+    "indices": "禁煙[02] 御(ご){ご} 協力 有難うございます{ありがとうございます}",
+    "vocabIds": [
+      "1270290",
+      "1241490"
+    ],
+    "matches": {
+      "1241490": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きんえん"
+        }
+      ],
+      "1270290": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "ごきょうりょく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "217175",
+    "original": "ご協力をお願いします。",
+    "en": [
+      {
+        "id": "54482",
+        "text": "Thank you in advance for your help."
+      }
+    ],
+    "indices": "御(ご){ご} 協力 を お願いします",
+    "vocabIds": [
+      "1001720",
+      "1270290"
+    ],
+    "matches": {
+      "1001720": [
+        {
+          "start": 4,
+          "length": 6,
+          "reading": "おねがいします"
+        }
+      ],
+      "1270290": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ごきょうりょく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "217176",
+    "original": "ご協力に対し、前もってお礼を申し上げます。",
+    "en": [
+      {
+        "id": "54483",
+        "text": "Thank you in advance for your cooperation."
+      }
+    ],
+    "indices": "御(ご){ご} 協力 に対し 前もって お礼 を 申し上げる[01]{申し上げます}",
+    "vocabIds": [
+      "1362950",
+      "1603820",
+      "1270290",
+      "2567590",
+      "1270810"
+    ],
+    "matches": {
+      "1270290": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ごきょうりょく"
+        }
+      ],
+      "1270810": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "おれい"
+        }
+      ],
+      "1362950": [
+        {
+          "start": 14,
+          "length": 6,
+          "reading": "もうしあげます"
+        }
+      ],
+      "1603820": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "まえもって"
+        }
+      ],
+      "2567590": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "にたいし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "217177",
+    "original": "ご協力に対し、あらかじめお礼を申し上げます。",
+    "en": [
+      {
+        "id": "54484",
+        "text": "Thank you for your cooperation in advance."
+      },
+      {
+        "id": "54483",
+        "text": "Thank you in advance for your cooperation."
+      }
+    ],
+    "indices": "御(ご){ご} 協力 に対し 予め{あらかじめ} お礼 を 申し上げる[01]{申し上げます}",
+    "vocabIds": [
+      "1362950",
+      "1270290",
+      "2567590",
+      "1270810"
+    ],
+    "matches": {
+      "1270290": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ごきょうりょく"
+        }
+      ],
+      "1270810": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "おれい"
+        }
+      ],
+      "1362950": [
+        {
+          "start": 15,
+          "length": 6,
+          "reading": "もうしあげます"
+        }
+      ],
+      "2567590": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "にたいし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "217178",
+    "original": "ご協力に深く感謝します。",
+    "en": [
+      {
+        "id": "54485",
+        "text": "I really appreciate your cooperation."
+      }
+    ],
+    "indices": "御(ご){ご} 協力 に 深い{深く} 感謝 為る(する){します}",
+    "vocabIds": [
+      "1270290",
+      "1362640",
+      "1212380"
+    ],
+    "matches": {
+      "1212380": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "かんしゃ"
+        }
+      ],
+      "1270290": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ごきょうりょく"
+        }
+      ],
+      "1362640": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ふかく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "217179",
+    "original": "ご協力に感謝致します。",
+    "en": [
+      {
+        "id": "54486",
+        "text": "Thank you for your kind assistance."
+      }
+    ],
+    "indices": "御(ご){ご} 協力 に 感謝 致す{致します}",
+    "vocabIds": [
+      "1421900",
+      "1270290",
+      "1212380"
+    ],
+    "matches": {
+      "1212380": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "かんしゃ"
+        }
+      ],
+      "1270290": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ごきょうりょく"
+        }
+      ],
+      "1421900": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "いたします"
+        }
+      ]
+    }
+  },
+  {
+    "id": "217180",
+    "original": "ご協力に感謝します。",
+    "en": [
+      {
+        "id": "54487",
+        "text": "I appreciate your cooperation."
+      }
+    ],
+    "indices": "御(ご){ご} 協力~ に 感謝~ 為る(する){します}",
+    "vocabIds": [
+      "1270290",
+      "1212380"
+    ],
+    "matches": {
+      "1212380": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "かんしゃ"
+        }
+      ],
+      "1270290": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ごきょうりょく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "217181",
+    "original": "ご協力ありがとうございます。",
+    "en": [
+      {
+        "id": "54488",
+        "text": "Thank you for your cooperation."
+      }
+    ],
+    "indices": "御(ご){ご} 協力 有り難う{ありがとう} ご座います{ございます}",
+    "vocabIds": [
+      "1270290"
+    ],
+    "matches": {
+      "1270290": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ごきょうりょく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "222161",
+    "original": "この件についてご協力いただけたら、ありがたいと思います。",
+    "en": [
+      {
+        "id": "59486",
+        "text": "Your help would be appreciated on this matter."
+      }
+    ],
+    "indices": "此の{この} 件(けん) に就いて{について} 御(ご){ご} 協力 頂ける[01]{いただけたら} 有り難い{ありがたい} と 思う{思います}",
+    "vocabIds": [
+      "1589350",
+      "1270290",
+      "1255940"
+    ],
+    "matches": {
+      "1255940": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "けん"
+        }
+      ],
+      "1270290": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "ごきょうりょく"
+        }
+      ],
+      "1589350": [
+        {
+          "start": 23,
+          "length": 4,
+          "reading": "おもいます"
+        }
+      ]
+    }
+  },
+  {
+    "id": "222503",
+    "original": "この機会を利用して、皆様方のご協力に感謝したいと思います。",
+    "en": [
+      {
+        "id": "59833",
+        "text": "I'd like to take advantage of this opportunity to thank you all for your cooperation."
+      }
+    ],
+    "indices": "此の{この} 機会 を 利用 為る(する){して} 皆様 方(かた) の 御(ご){ご} 協力 に 感謝 したい と 思う{思います}",
+    "vocabIds": [
+      "1589350",
+      "2841344",
+      "1270290",
+      "1220800",
+      "1549660",
+      "1212380"
+    ],
+    "matches": {
+      "1212380": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "かんしゃ"
+        }
+      ],
+      "1220800": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きかい"
+        }
+      ],
+      "1270290": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "ごきょうりょく"
+        }
+      ],
+      "1549660": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "りよう"
+        }
+      ],
+      "1589350": [
+        {
+          "start": 24,
+          "length": 4,
+          "reading": "おもいます"
+        }
+      ],
+      "2841344": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "みなさまかた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "233548",
+    "original": "あなたのご協力がいただけるものと確信しています。",
+    "en": [
+      {
+        "id": "70918",
+        "text": "We know we may count on your cooperation."
+      }
+    ],
+    "indices": "貴方(あなた)[01]{あなた} の 御(ご){ご} 協力 が 頂ける[01]{いただける} 物(もの){もの} と 確信 為る(する){しています}",
+    "vocabIds": [
+      "1270290",
+      "1205870"
+    ],
+    "matches": {
+      "1205870": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "かくしん"
+        }
+      ],
+      "1270290": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "ごきょうりょく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2830485",
+    "original": "節水にご協力ください。",
+    "en": [
+      {
+        "id": "2838086",
+        "text": "Please help conserve water."
+      }
+    ],
+    "vocabIds": [
+      "1270290",
+      "1386260"
+    ],
+    "matches": {
+      "1270290": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "ごきょうりょく"
+        }
+      ],
+      "1386260": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "せっすい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1506935",
+    "original": "ご協力いただき、ありがとうございます。",
+    "en": [
+      {
+        "id": "54487",
+        "text": "I appreciate your cooperation."
+      }
+    ],
+    "vocabIds": [
+      "1270290"
+    ],
+    "matches": {
+      "1270290": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ごきょうりょく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8814763",
+    "original": "ご協力いただきありがとうございます。",
+    "en": [
+      {
+        "id": "54488",
+        "text": "Thank you for your cooperation."
+      },
+      {
+        "id": "54487",
+        "text": "I appreciate your cooperation."
+      }
+    ],
+    "vocabIds": [
+      "1270290"
+    ],
+    "matches": {
+      "1270290": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ごきょうりょく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9211475",
+    "original": "ご協力のほど、よろしくお願いいたします。",
+    "en": [
+      {
+        "id": "54483",
+        "text": "Thank you in advance for your cooperation."
+      }
+    ],
+    "vocabIds": [
+      "2133760",
+      "1270290"
+    ],
+    "matches": {
+      "1270290": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ごきょうりょく"
+        }
+      ],
+      "2133760": [
+        {
+          "start": 7,
+          "length": 12,
+          "reading": "よろしくおねがいいたします"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10104848",
+    "original": "この件に関しまして、ご協力いただき誠にありがとうございます。",
+    "en": [
+      {
+        "id": "3320222",
+        "text": "Your assistance in this matter is greatly appreciated."
+      }
+    ],
+    "vocabIds": [
+      "2838980",
+      "1270290",
+      "1255940"
+    ],
+    "matches": {
+      "1255940": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "けん"
+        }
+      ],
+      "1270290": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "ごきょうりょく"
+        }
+      ],
+      "2838980": [
+        {
+          "start": 17,
+          "length": 12,
+          "reading": "まことにありがとうございます"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10131552",
+    "original": "少しでもご協力いただけたら幸いです。",
+    "en": [
+      {
+        "id": "267758",
+        "text": "It would be nice if you helped me a little."
+      }
+    ],
+    "vocabIds": [
+      "2849629",
+      "1270290",
+      "1278380"
+    ],
+    "matches": {
+      "1270290": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "ごきょうりょく"
+        }
+      ],
+      "1278380": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "さいわい"
+        }
+      ],
+      "2849629": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "すこしでも"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10265600",
+    "original": "ご協力よろしくお願いします。",
+    "en": [
+      {
+        "id": "70811",
+        "text": "I'd appreciate your help."
+      }
+    ],
+    "vocabIds": [
+      "2133750",
+      "1270290"
+    ],
+    "matches": {
+      "1270290": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ごきょうりょく"
+        }
+      ],
+      "2133750": [
+        {
+          "start": 3,
+          "length": 10,
+          "reading": "よろしくおねがいします"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10704947",
+    "original": "ご協力に感謝いたします。",
+    "en": [
+      {
+        "id": "54512",
+        "text": "I appreciate your help."
+      },
+      {
+        "id": "54488",
+        "text": "Thank you for your cooperation."
+      }
+    ],
+    "vocabIds": [
+      "1270290",
+      "1212380"
+    ],
+    "matches": {
+      "1212380": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "かんしゃ"
+        }
+      ],
+      "1270290": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ごきょうりょく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11380389",
+    "original": "ご協力ありがとうございました。",
+    "en": [
+      {
+        "id": "4529527",
+        "text": "We appreciated your helping out."
+      }
+    ],
+    "vocabIds": [
+      "1270290"
+    ],
+    "matches": {
+      "1270290": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ごきょうりょく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11588974",
+    "original": "みなさん、ご協力いただきありがとうございました。",
+    "en": [
+      {
+        "id": "10696455",
+        "text": "Thank you for your help, all of you."
+      },
+      {
+        "id": "12415525",
+        "text": "Thank you all for your cooperation."
+      }
+    ],
+    "vocabIds": [
+      "1270290"
+    ],
+    "matches": {
+      "1270290": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "ごきょうりょく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3010100",
+    "original": "当駅は終日全面禁煙となっております。 ご協力をお願いいたします。",
+    "en": [
+      {
+        "id": "11944943",
+        "text": "Smoking is prohibited in this station at all times. Thank you for your cooperation."
+      }
+    ],
+    "vocabIds": [
+      "1001730",
+      "2840962",
+      "1270290",
+      "1448960",
+      "1332980"
+    ],
+    "matches": {
+      "1001730": [
+        {
+          "start": 23,
+          "length": 8,
+          "reading": "おねがいいたします"
+        }
+      ],
+      "1270290": [
+        {
+          "start": 19,
+          "length": 3,
+          "reading": "ごきょうりょく"
+        }
+      ],
+      "1332980": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "しゅうじつ"
+        }
+      ],
+      "1448960": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とうえき"
+        }
+      ],
+      "2840962": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "ぜんめんきんえん"
+        }
+      ]
+    }
+  }
+]

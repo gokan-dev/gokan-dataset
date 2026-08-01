@@ -1,0 +1,41 @@
+[
+  {
+    "id": "169393",
+    "original": "山賊がその村を襲った。",
+    "en": [
+      {
+        "id": "245093",
+        "text": "The bandits made a raid on the village."
+      }
+    ],
+    "indices": "山賊~ が 其の[01]{その} 村 を 襲う[01]{襲った}",
+    "vocabIds": [
+      "1333330",
+      "1303020",
+      "1406820"
+    ],
+    "matches": {
+      "1303020": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "さんぞく"
+        }
+      ],
+      "1333330": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "おそった"
+        }
+      ],
+      "1406820": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "むら"
+        }
+      ]
+    }
+  }
+]

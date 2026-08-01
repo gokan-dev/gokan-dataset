@@ -1,0 +1,138 @@
+{
+  "id": "1241450",
+  "writtenForm": {
+    "kanji": "琴",
+    "alternatives": [
+      "箏",
+      "筝"
+    ],
+    "containedKanji": [
+      "琴"
+    ]
+  },
+  "reading": {
+    "primary": "こと",
+    "alternatives": [
+      "そう",
+      "きん"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 15877
+  },
+  "jlptLevel": 2,
+  "progression": {
+    "kklcStep": 1772
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "koto (13-stringed Japanese zither)"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "stringed instrument"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "zheng (Chinese zither)",
+        "guzheng"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "qin (7-stringed Chinese zither)",
+        "guqin"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "きん"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": true
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1241450",
+      "isBase": true,
+      "originalPrimaryReading": "こと",
+      "originalGlosses": [
+        "koto (13-stringed Japanese zither)"
+      ]
+    },
+    {
+      "id": "2229960",
+      "isBase": false,
+      "originalPrimaryReading": "きん",
+      "originalGlosses": [
+        "qin (7-stringed Chinese zither)",
+        "guqin"
+      ]
+    }
+  ],
+  "parents": [
+    "1416670"
+  ]
+}

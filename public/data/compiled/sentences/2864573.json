@@ -1,0 +1,118 @@
+[
+  {
+    "id": "74476",
+    "original": "恵一、天ぷら揚がったから、皿持って来い。",
+    "en": [
+      {
+        "id": "329243",
+        "text": "Keiichi, the tempura's done, so bring a plate."
+      }
+    ],
+    "indices": "天婦羅{天ぷら} 上がる[17]{揚がった}~ から 皿[01] 持つ{持って} 来る(くる){来い}",
+    "vocabIds": [
+      "2864573",
+      "1769980",
+      "1440590",
+      "1299680"
+    ],
+    "matches": {
+      "1299680": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "さら"
+        }
+      ],
+      "1440590": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "てんぷら"
+        }
+      ],
+      "1769980": [
+        {
+          "start": 14,
+          "length": 5,
+          "reading": "もってこい"
+        }
+      ],
+      "2864573": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "あがったから"
+        }
+      ]
+    }
+  },
+  {
+    "id": "183408",
+    "original": "旗が揚がっている。",
+    "en": [
+      {
+        "id": "20530",
+        "text": "The flag is up."
+      }
+    ],
+    "indices": "旗 が 上がる{揚がっている}",
+    "vocabIds": [
+      "2864573",
+      "1220240"
+    ],
+    "matches": {
+      "1220240": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "はた"
+        }
+      ],
+      "2864573": [
+        {
+          "start": 2,
+          "length": 6,
+          "reading": "あがっている"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1111443",
+    "original": "どうやったらカラッと揚がったおいしい天ぷらができるんだろう。何かコツでもあるのかな。",
+    "en": [
+      {
+        "id": "1528248",
+        "text": "I wonder how tempura fry up so deliciously crisp and dry. Is there a trick to it?"
+      }
+    ],
+    "vocabIds": [
+      "2864573",
+      "1440590",
+      "1188270"
+    ],
+    "matches": {
+      "1188270": [
+        {
+          "start": 30,
+          "length": 2,
+          "reading": "なにか"
+        }
+      ],
+      "1440590": [
+        {
+          "start": 18,
+          "length": 3,
+          "reading": "てんぷら"
+        }
+      ],
+      "2864573": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "あがった"
+        }
+      ]
+    }
+  }
+]

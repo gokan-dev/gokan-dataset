@@ -1,0 +1,124 @@
+{
+  "id": "1458750",
+  "writtenForm": {
+    "kanji": "内蔵",
+    "alternatives": [],
+    "containedKanji": [
+      "内",
+      "蔵"
+    ]
+  },
+  "reading": {
+    "primary": "ないぞう",
+    "alternatives": [
+      "うちくら",
+      "うちぐら"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 19559,
+    "kanaRank": 276077
+  },
+  "progression": {
+    "kklcStep": 695
+  },
+  "senses": [
+    {
+      "pos": [
+        "adj-no",
+        "vs",
+        "vt"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "internal (e.g. disk)",
+        "built-in",
+        "equipped (with)"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "storeroom (attached to a house)"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "うちくら"
+      ]
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "hist"
+        ]
+      },
+      "glosses": [
+        "Imperial warehouse"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "うちくら"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1458750",
+      "isBase": true,
+      "originalPrimaryReading": "ないぞう",
+      "originalGlosses": [
+        "internal (e.g. disk)",
+        "built-in",
+        "equipped (with)"
+      ]
+    },
+    {
+      "id": "2846247",
+      "isBase": false,
+      "originalPrimaryReading": "うちくら",
+      "originalGlosses": [
+        "storeroom (attached to a house)"
+      ]
+    }
+  ],
+  "components": [
+    "2098290",
+    "2234070"
+  ]
+}

@@ -1,0 +1,49 @@
+[
+  {
+    "id": "75809",
+    "original": "梅毒は性行為を通じて感染する病気です。",
+    "en": [
+      {
+        "id": "327909",
+        "text": "Syphilis is an infection that can be transmitted through sexual intercourse."
+      }
+    ],
+    "indices": "梅毒~ は 性行為~ を[01] 通じる{通じて} 感染 為る(する){する} 病気 です",
+    "vocabIds": [
+      "1375360",
+      "1601250",
+      "1212470",
+      "1490230"
+    ],
+    "matches": {
+      "1212470": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "かんせん"
+        }
+      ],
+      "1375360": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "せいこうい"
+        }
+      ],
+      "1490230": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "びょうき"
+        }
+      ],
+      "1601250": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ばいどく"
+        }
+      ]
+    }
+  }
+]

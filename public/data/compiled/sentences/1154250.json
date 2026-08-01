@@ -1,0 +1,495 @@
+[
+  {
+    "id": "91224",
+    "original": "彼女は安物は身につけません。",
+    "en": [
+      {
+        "id": "312490",
+        "text": "She doesn't wear the cheap stuff."
+      }
+    ],
+    "indices": "彼女[01] は 安物~ は 身につける[02]{身につけません}",
+    "vocabIds": [
+      "1483150",
+      "1154250",
+      "1365520",
+      "1956130"
+    ],
+    "matches": {
+      "1154250": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "やすもの"
+        }
+      ],
+      "1365520": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "み"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1956130": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "み"
+        }
+      ]
+    }
+  },
+  {
+    "id": "94678",
+    "original": "彼女のドレスは安物に見えた。",
+    "en": [
+      {
+        "id": "309028",
+        "text": "Her dress looked cheap."
+      }
+    ],
+    "indices": "彼女[01]{彼女の} ドレス は 安物 に 見える(みえる){見えた}",
+    "vocabIds": [
+      "1259140",
+      "1483150",
+      "1154250"
+    ],
+    "matches": {
+      "1154250": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "やすもの"
+        }
+      ],
+      "1259140": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "みえた"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "94679",
+    "original": "彼女のドレスは安物だった。",
+    "en": [
+      {
+        "id": "309027",
+        "text": "Her dress was a cheap affair."
+      }
+    ],
+    "indices": "彼女[01]{彼女の} ドレス は 安物 だ{だった}",
+    "vocabIds": [
+      "1483150",
+      "1154250"
+    ],
+    "matches": {
+      "1154250": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "やすもの"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "94722",
+    "original": "彼女のガウンは安物だった。",
+    "en": [
+      {
+        "id": "308984",
+        "text": "Her gown was a cheap affair."
+      }
+    ],
+    "indices": "彼女[01]{彼女の} ガウン は 安物 だ{だった}",
+    "vocabIds": [
+      "1483150",
+      "1154250"
+    ],
+    "matches": {
+      "1154250": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "やすもの"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "191313",
+    "original": "安物の日本酒は悪酔いします。",
+    "en": [
+      {
+        "id": "28474",
+        "text": "Cheap sake makes you sick."
+      }
+    ],
+    "indices": "安物 の 日本酒 は 悪酔い~ 為る(する){します}",
+    "vocabIds": [
+      "1464670",
+      "1152050",
+      "1154250"
+    ],
+    "matches": {
+      "1152050": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "わるよい"
+        }
+      ],
+      "1154250": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "やすもの"
+        }
+      ],
+      "1464670": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "にっぽんしゅ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2280454",
+    "original": "トムは高級ワインと安物ワインの違いが説明できない。",
+    "en": [
+      {
+        "id": "2280453",
+        "text": "Tom can't explain the difference between cheap wine and expensive wine."
+      }
+    ],
+    "vocabIds": [
+      "1283400",
+      "1154250",
+      "1158870",
+      "1386460"
+    ],
+    "matches": {
+      "1154250": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "やすもの"
+        }
+      ],
+      "1158870": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "ちがい"
+        }
+      ],
+      "1283400": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "こうきゅう"
+        }
+      ],
+      "1386460": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "せつめい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2280455",
+    "original": "トムは高級なワインと安物のワインの違いが分からない。",
+    "en": [
+      {
+        "id": "1095545",
+        "text": "Tom can't tell the difference between expensive wine and cheap wine."
+      }
+    ],
+    "vocabIds": [
+      "1606560",
+      "1283400",
+      "1154250",
+      "1158870"
+    ],
+    "matches": {
+      "1154250": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "やすもの"
+        }
+      ],
+      "1158870": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "ちがい"
+        }
+      ],
+      "1283400": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "こうきゅう"
+        }
+      ],
+      "1606560": [
+        {
+          "start": 20,
+          "length": 5,
+          "reading": "わからない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9176325",
+    "original": "このワインは安物だよ。",
+    "en": [
+      {
+        "id": "9176210",
+        "text": "This wine is cheap."
+      }
+    ],
+    "vocabIds": [
+      "1154250"
+    ],
+    "matches": {
+      "1154250": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "やすもの"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11007630",
+    "original": "フライパンは丁寧に使えば安物でも長く持ちます。",
+    "en": [
+      {
+        "id": "11015467",
+        "text": "Even a cheap frying pan will last a long time if used carefully."
+      }
+    ],
+    "vocabIds": [
+      "1315720",
+      "1305990",
+      "1427360",
+      "1154250",
+      "1429750"
+    ],
+    "matches": {
+      "1154250": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "やすもの"
+        }
+      ],
+      "1305990": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "つかえば"
+        }
+      ],
+      "1315720": [
+        {
+          "start": 18,
+          "length": 4,
+          "reading": "もちます"
+        }
+      ],
+      "1427360": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ていねい"
+        }
+      ],
+      "1429750": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "ながく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11015493",
+    "original": "安物のフライパンでも、大切に使えば長持ちするよ。",
+    "en": [
+      {
+        "id": "11015467",
+        "text": "Even a cheap frying pan will last a long time if used carefully."
+      },
+      {
+        "id": "11015465",
+        "text": "Even a cheap frying pan will last a long time if you treat it well."
+      }
+    ],
+    "vocabIds": [
+      "2018350",
+      "1429980",
+      "1305990",
+      "1154250"
+    ],
+    "matches": {
+      "1154250": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "やすもの"
+        }
+      ],
+      "1305990": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "つかえば"
+        }
+      ],
+      "1429980": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "ながもち"
+        }
+      ],
+      "2018350": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "たいせつに"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11052818",
+    "original": "安物でも普通に使える。",
+    "en": [
+      {
+        "id": "13674147",
+        "text": "I am usually able to use even cheap things."
+      },
+      {
+        "id": "13674149",
+        "text": "I am able to use even cheap things ordinarily."
+      },
+      {
+        "id": "13674150",
+        "text": "I can even use cheap things ordinarily."
+      }
+    ],
+    "vocabIds": [
+      "2847506",
+      "1607180",
+      "1154250"
+    ],
+    "matches": {
+      "1154250": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "やすもの"
+        }
+      ],
+      "1607180": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "つかえる"
+        }
+      ],
+      "2847506": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "ふつうに"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10901805",
+    "original": "安物でも充分に満足です。",
+    "en": [
+      {
+        "id": "13721468",
+        "text": "Even a cheap thing is sufficiently adequate."
+      },
+      {
+        "id": "13721470",
+        "text": "Even a cheap thing is adequate."
+      }
+    ],
+    "vocabIds": [
+      "1154250",
+      "1335080",
+      "1526860"
+    ],
+    "matches": {
+      "1154250": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "やすもの"
+        }
+      ],
+      "1335080": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "じゅうぶん"
+        }
+      ],
+      "1526860": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "まんぞく"
+        }
+      ]
+    }
+  }
+]

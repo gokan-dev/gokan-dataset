@@ -1,0 +1,122 @@
+{
+  "id": "2159590",
+  "writtenForm": {
+    "kanji": "針孔",
+    "alternatives": [
+      "穴",
+      "針眼"
+    ],
+    "containedKanji": [
+      "針",
+      "孔"
+    ]
+  },
+  "reading": {
+    "primary": "めど",
+    "alternatives": [
+      "みぞ",
+      "はりめど",
+      "みず"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 999999,
+    "kanaRank": 999999
+  },
+  "progression": {
+    "kklcStep": 1559
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "eye of a needle"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "hole"
+      ],
+      "related": {
+        "compounds": [
+          "穴"
+        ]
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "eye of a needle"
+      ],
+      "related": {
+        "compounds": [
+          "針孔"
+        ]
+      },
+      "appliesToReadings": [
+        "みず"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": true
+  },
+  "isCommon": false,
+  "mergedVocabs": [
+    {
+      "id": "2159590",
+      "isBase": true,
+      "originalPrimaryReading": "めど",
+      "originalGlosses": [
+        "eye of a needle"
+      ]
+    },
+    {
+      "id": "2854165",
+      "isBase": false,
+      "originalPrimaryReading": "みず",
+      "originalGlosses": [
+        "eye of a needle"
+      ]
+    }
+  ],
+  "components": [
+    "1366210"
+  ]
+}

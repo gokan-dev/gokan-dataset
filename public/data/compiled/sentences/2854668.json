@@ -1,0 +1,240 @@
+[
+  {
+    "id": "87599",
+    "original": "彼女は妊娠中です。",
+    "en": [
+      {
+        "id": "316109",
+        "text": "She is expecting a child."
+      },
+      {
+        "id": "1442058",
+        "text": "She's pregnant."
+      }
+    ],
+    "indices": "彼女[01] は 妊娠 中(ちゅう)[04] です",
+    "vocabIds": [
+      "2854668",
+      "1483150"
+    ],
+    "matches": {
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "2854668": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "にんしんちゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "122033",
+    "original": "妊娠中ですか。",
+    "en": [
+      {
+        "id": "281970",
+        "text": "Are you pregnant?"
+      }
+    ],
+    "indices": "妊娠 中(ちゅう)[04] ですか",
+    "vocabIds": [
+      "2854668"
+    ],
+    "matches": {
+      "2854668": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "にんしんちゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "210921",
+    "original": "その原材料のうちのいくつかは有害です。特に、妊娠中の方にとっては。",
+    "en": [
+      {
+        "id": "48192",
+        "text": "Some of the ingredients are harmful, especially if you are pregnant."
+      }
+    ],
+    "indices": "其の[01]{その} 原材料~ の 内(うち){うちの} 幾つか{いくつか} は 有害 です 特に 妊娠 中(ちゅう)[04] の 方(かた)[01] に取って{にとって} は",
+    "vocabIds": [
+      "1261430",
+      "2854668",
+      "1541140",
+      "1454670",
+      "1545790",
+      "1512070",
+      "1516930"
+    ],
+    "matches": {
+      "1261430": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "げんざいりょう"
+        }
+      ],
+      "1454670": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "とくに"
+        }
+      ],
+      "1512070": [
+        {
+          "start": 26,
+          "length": 1,
+          "reading": "ほう"
+        }
+      ],
+      "1516930": [
+        {
+          "start": 26,
+          "length": 1,
+          "reading": "ほう"
+        }
+      ],
+      "1541140": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "ゆうがい"
+        }
+      ],
+      "1545790": [
+        {
+          "start": 26,
+          "length": 1,
+          "reading": "ほう"
+        }
+      ],
+      "2854668": [
+        {
+          "start": 22,
+          "length": 3,
+          "reading": "にんしんちゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "222941",
+    "original": "この飲料に含まれている成分には有害なものがある。とりわけ妊娠中の人に。",
+    "en": [
+      {
+        "id": "60273",
+        "text": "Some of the ingredients in this beverage are harmful, especially if you are pregnant."
+      }
+    ],
+    "indices": "此の{この} 飲料(いんりょう)~ に 含む[01]{含まれている} 成分 には 有害{有害な} 物(もの)[01]{もの} が[01] 有る{ある} 取り分け{とりわけ} 妊娠 中(ちゅう)[04] の 人(ひと) に",
+    "vocabIds": [
+      "2854668",
+      "1169990",
+      "1682780",
+      "1216880",
+      "1375860",
+      "1541140",
+      "1580640"
+    ],
+    "matches": {
+      "1169990": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "いんりょう"
+        }
+      ],
+      "1216880": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ふくま"
+        }
+      ],
+      "1375860": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "せいぶん"
+        }
+      ],
+      "1541140": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "ゆうがい"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 32,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ],
+      "1682780": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "いんりょう"
+        }
+      ],
+      "2854668": [
+        {
+          "start": 28,
+          "length": 3,
+          "reading": "にんしんちゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "881732",
+    "original": "妊娠中、たんぽぽコーヒを飲んだ方がいいですか？",
+    "en": [
+      {
+        "id": "881734",
+        "text": "Should I drink dandelion coffee while I'm pregnant?"
+      }
+    ],
+    "vocabIds": [
+      "2160680",
+      "2854668",
+      "1169870"
+    ],
+    "matches": {
+      "1169870": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "のんだ"
+        }
+      ],
+      "2160680": [
+        {
+          "start": 15,
+          "length": 4,
+          "reading": "ほうがいい"
+        }
+      ],
+      "2854668": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "にんしんちゅう"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "150478",
+    "original": "時計を日本標準時に合わせよう。",
+    "en": [
+      {
+        "id": "264079",
+        "text": "We will set our watch by Japan Time."
+      }
+    ],
+    "indices": "時計 を 日本標準時 に 合わせる[01]{合わせよう}",
+    "vocabIds": [
+      "1647500",
+      "1284480",
+      "1316140"
+    ],
+    "matches": {
+      "1284480": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "あわせよう"
+        }
+      ],
+      "1316140": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とけい"
+        }
+      ],
+      "1647500": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "にっぽんひょうじゅんじ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "234832",
+    "original": "ＪＳＴは日本標準時を表わす。",
+    "en": [
+      {
+        "id": "72208",
+        "text": "JST stands for Japan Standard Time."
+      }
+    ],
+    "indices": "は 日本標準時~ を 表す(あらわす)[01]{表わす}",
+    "vocabIds": [
+      "1647500",
+      "1263490"
+    ],
+    "matches": {
+      "1263490": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "あらわす"
+        }
+      ],
+      "1647500": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "にっぽんひょうじゅんじ"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,166 @@
+[
+  {
+    "id": "74600",
+    "original": "もしもし、山田医院です。",
+    "en": [
+      {
+        "id": "329118",
+        "text": "Hello, this is Dr Yamada's surgery."
+      }
+    ],
+    "indices": "もしもし 医院 です",
+    "vocabIds": [
+      "1159730"
+    ],
+    "matches": {
+      "1159730": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "いいん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "74601",
+    "original": "手術は医院内で三十分以内に完了します。",
+    "en": [
+      {
+        "id": "329119",
+        "text": "The surgery, performed at our clinic, is over in half an hour."
+      }
+    ],
+    "indices": "手術 は 医院~ 内(ない) で(#2028980) 三十 分(ふん) 以内 に 完了 為る(する){します}",
+    "vocabIds": [
+      "2859157",
+      "1327790",
+      "1159730",
+      "1155180",
+      "1211630",
+      "2098290"
+    ],
+    "matches": {
+      "1155180": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "いない"
+        }
+      ],
+      "1159730": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "いいん"
+        }
+      ],
+      "1211630": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "かんりょう"
+        }
+      ],
+      "1327790": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しゅじゅつ"
+        }
+      ],
+      "2098290": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "ない"
+        }
+      ],
+      "2859157": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "さんじゅうふん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1241188",
+    "original": "これは、実話でありますが、或る婦人がお産のために評判のいい産科医院に入院しました。",
+    "en": [
+      {
+        "id": "1241211",
+        "text": "This is a true story. A woman was admitted to a reputed obstetrics clinic to give birth."
+      }
+    ],
+    "vocabIds": [
+      "1321580",
+      "1586840",
+      "1496670",
+      "1001960",
+      "1490070",
+      "1303740",
+      "1159730",
+      "1465720"
+    ],
+    "matches": {
+      "1001960": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "おさん"
+        }
+      ],
+      "1159730": [
+        {
+          "start": 31,
+          "length": 2,
+          "reading": "いいん"
+        }
+      ],
+      "1303740": [
+        {
+          "start": 29,
+          "length": 2,
+          "reading": "さんか"
+        }
+      ],
+      "1321580": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "じつわ"
+        }
+      ],
+      "1465720": [
+        {
+          "start": 34,
+          "length": 2,
+          "reading": "にゅういん"
+        }
+      ],
+      "1490070": [
+        {
+          "start": 24,
+          "length": 2,
+          "reading": "ひょうばん"
+        }
+      ],
+      "1496670": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "ふじん"
+        }
+      ],
+      "1586840": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "あるる"
+        }
+      ]
+    }
+  }
+]

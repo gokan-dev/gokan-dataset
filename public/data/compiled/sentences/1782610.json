@@ -1,0 +1,167 @@
+[
+  {
+    "id": "183801",
+    "original": "観光案内所はどこですか。",
+    "en": [
+      {
+        "id": "20924",
+        "text": "Where is the tourist information office?"
+      }
+    ],
+    "indices": "観光案内所~ は 何処{どこ} ですか",
+    "vocabIds": [
+      "1782610"
+    ],
+    "matches": {
+      "1782610": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "かんこうあんないしょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "183802",
+    "original": "観光案内所に問い合わせてください。",
+    "en": [
+      {
+        "id": "20925",
+        "text": "Please refer to the tourist information office."
+      }
+    ],
+    "indices": "観光案内所 に 問い合わせる{問い合わせて} 下さい{ください}",
+    "vocabIds": [
+      "1535960",
+      "1782610"
+    ],
+    "matches": {
+      "1535960": [
+        {
+          "start": 6,
+          "length": 10,
+          "reading": "といあわせてください"
+        }
+      ],
+      "1782610": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "かんこうあんないしょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "183803",
+    "original": "観光案内所では、ほしい人には誰にでも町の地図をあげました。",
+    "en": [
+      {
+        "id": "20926",
+        "text": "The tourist information center gave a city map to whoever asked it."
+      }
+    ],
+    "indices": "観光案内所 で(#2028980) は 欲しい{ほしい} 人(ひと) には 誰にでも 町(まち) の 地図 を 上げる[05]{あげました}",
+    "vocabIds": [
+      "1782610",
+      "2098260",
+      "1421290",
+      "1580640",
+      "1603990"
+    ],
+    "matches": {
+      "1421290": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "ちず"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ],
+      "1603990": [
+        {
+          "start": 18,
+          "length": 1,
+          "reading": "まち"
+        }
+      ],
+      "1782610": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "かんこうあんないしょ"
+        }
+      ],
+      "2098260": [
+        {
+          "start": 14,
+          "length": 4,
+          "reading": "だれにでも"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9049830",
+    "original": "観光案内所にお問い合わせください。",
+    "en": [
+      {
+        "id": "20925",
+        "text": "Please refer to the tourist information office."
+      }
+    ],
+    "vocabIds": [
+      "2268720",
+      "1782610"
+    ],
+    "matches": {
+      "1782610": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "かんこうあんないしょ"
+        }
+      ],
+      "2268720": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "おといあわせ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10650771",
+    "original": "観光案内所はどこですか？",
+    "en": [
+      {
+        "id": "10646917",
+        "text": "Where's the tourist information center?"
+      },
+      {
+        "id": "20924",
+        "text": "Where is the tourist information office?"
+      }
+    ],
+    "vocabIds": [
+      "1782610"
+    ],
+    "matches": {
+      "1782610": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "かんこうあんないしょ"
+        }
+      ]
+    }
+  }
+]

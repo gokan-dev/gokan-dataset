@@ -1,0 +1,243 @@
+[
+  {
+    "id": "79818",
+    "original": "問題は誰が猫に鈴をつけるかだ。",
+    "en": [
+      {
+        "id": "323899",
+        "text": "The question is: Who will bell the cat."
+      }
+    ],
+    "indices": "問題 は 誰 が 猫(ねこ)[01] に 鈴 を 付ける[03]{つける} か だ",
+    "vocabIds": [
+      "1536010",
+      "2864173",
+      "1467640",
+      "1557580"
+    ],
+    "matches": {
+      "1467640": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "ねこ"
+        }
+      ],
+      "1536010": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "もんだい"
+        }
+      ],
+      "1557580": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "すず"
+        }
+      ],
+      "2864173": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "だれが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "136862",
+    "original": "誰が猫の首に鈴をつけるか。",
+    "en": [
+      {
+        "id": "276374",
+        "text": "Who will bell the cat?"
+      },
+      {
+        "id": "1408561",
+        "text": "Who will put a bell on the cat's collar?"
+      }
+    ],
+    "indices": "誰 が 猫(ねこ)[01] の 首(くび) に 鈴 を 付ける{つける} か",
+    "vocabIds": [
+      "2864173",
+      "1467640",
+      "1249900",
+      "1582310",
+      "1592270",
+      "1653340",
+      "1983700",
+      "1557580"
+    ],
+    "matches": {
+      "1249900": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "くび"
+        }
+      ],
+      "1467640": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ねこ"
+        }
+      ],
+      "1557580": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "すず"
+        }
+      ],
+      "1582310": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "くび"
+        }
+      ],
+      "1592270": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "くび"
+        }
+      ],
+      "1653340": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "くび"
+        }
+      ],
+      "1983700": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "くび"
+        }
+      ],
+      "2864173": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "だれが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "203208",
+    "original": "だれがその猫に鈴をつけられるか。",
+    "en": [
+      {
+        "id": "40444",
+        "text": "Who can put a bell on the cat?"
+      }
+    ],
+    "indices": "誰{だれ} が 其の[01]{その} 猫(ねこ)[01] に 鈴~ を 付ける{つけられる} か",
+    "vocabIds": [
+      "1467640",
+      "1557580"
+    ],
+    "matches": {
+      "1467640": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "ねこ"
+        }
+      ],
+      "1557580": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "すず"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10579875",
+    "original": "鈴の音が聞こえました。",
+    "en": [
+      {
+        "id": "255559",
+        "text": "I heard the sound of a ringing bell."
+      }
+    ],
+    "vocabIds": [
+      "1591150",
+      "1557580",
+      "1576900"
+    ],
+    "matches": {
+      "1557580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "すず"
+        }
+      ],
+      "1576900": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "おと"
+        }
+      ],
+      "1591150": [
+        {
+          "start": 4,
+          "length": 6,
+          "reading": "きこえました"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11998675",
+    "original": "鈴の音がしたら、すぐ来てね。",
+    "en": [
+      {
+        "id": "10900214",
+        "text": "When you hear the bell, come quickly."
+      },
+      {
+        "id": "12229363",
+        "text": "When you hear the bell, come right away."
+      }
+    ],
+    "vocabIds": [
+      "1547720",
+      "1557580",
+      "1576900"
+    ],
+    "matches": {
+      "1547720": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "きて"
+        }
+      ],
+      "1557580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "すず"
+        }
+      ],
+      "1576900": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "おと"
+        }
+      ]
+    }
+  }
+]

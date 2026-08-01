@@ -1,0 +1,485 @@
+[
+  {
+    "id": "86337",
+    "original": "彼女は来週はずっと先約がつまっている。",
+    "en": [
+      {
+        "id": "317374",
+        "text": "She is booked up all next week."
+      }
+    ],
+    "indices": "彼女[01] は 来週 は ずっと 先約 が 詰まる[01]{つまっている}",
+    "vocabIds": [
+      "1483150",
+      "1548010",
+      "1388660"
+    ],
+    "matches": {
+      "1388660": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "せんやく"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1548010": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "らいしゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "141437",
+    "original": "先約がありますので残念ながらご招待に応じかねます。",
+    "en": [
+      {
+        "id": "273134",
+        "text": "I regret that a previous engagement prevents me from accepting your kind invitation."
+      }
+    ],
+    "indices": "先約 が[01] 有る{あります} ので 残念ながら 御(ご){ご} 招待 に 応じる{応じ} 兼ねる[01]{かねます}",
+    "vocabIds": [
+      "1179830",
+      "1304700",
+      "1388660",
+      "1349610"
+    ],
+    "matches": {
+      "1179830": [
+        {
+          "start": 18,
+          "length": 6,
+          "reading": "おうじかねます"
+        }
+      ],
+      "1304700": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "ざんねんながら"
+        }
+      ],
+      "1349610": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "しょうたい"
+        }
+      ],
+      "1388660": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "せんやく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "145025",
+    "original": "申し訳ありませんが明日は先約があります。",
+    "en": [
+      {
+        "id": "269538",
+        "text": "I'm sorry, but I have a previous appointment for tomorrow."
+      }
+    ],
+    "indices": "申し訳ありません[01] が 明日 は 先約~ が[01] 有る{あります}",
+    "vocabIds": [
+      "1612030",
+      "1584660",
+      "1388660"
+    ],
+    "matches": {
+      "1388660": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "せんやく"
+        }
+      ],
+      "1584660": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "あした"
+        }
+      ],
+      "1612030": [
+        {
+          "start": 0,
+          "length": 8,
+          "reading": "もうしわけありません"
+        }
+      ]
+    }
+  },
+  {
+    "id": "155444",
+    "original": "私は先約がなければ、そのパーティーに行くことができただろう。",
+    "en": [
+      {
+        "id": "259094",
+        "text": "If I had not had a previous engagement, I could have come to the party."
+      }
+    ],
+    "indices": "私(わたし)[01] は 先約 が 無ければ{なければ} 其の[01]{その} パーティー に 行く 事が出来る{ことができた} だろう",
+    "vocabIds": [
+      "1388660",
+      "1578850",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1388660": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "せんやく"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "いく"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "164567",
+    "original": "先約があります。",
+    "en": [
+      {
+        "id": "249940",
+        "text": "I have a previous appointment."
+      },
+      {
+        "id": "2952120",
+        "text": "I have a previous engagement."
+      }
+    ],
+    "indices": "先約 が[01] 有る{あります}",
+    "vocabIds": [
+      "1388660"
+    ],
+    "matches": {
+      "1388660": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "せんやく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "169218",
+    "original": "残念ながら先約があります。",
+    "en": [
+      {
+        "id": "245267",
+        "text": "I'm sorry, but I have a prior engagement."
+      }
+    ],
+    "indices": "残念ながら 先約 が[01] 有る{あります}",
+    "vocabIds": [
+      "1304700",
+      "1388660"
+    ],
+    "matches": {
+      "1304700": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "ざんねんながら"
+        }
+      ],
+      "1388660": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "せんやく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "169259",
+    "original": "残念ですが、私には先約があります。",
+    "en": [
+      {
+        "id": "245227",
+        "text": "I'm sorry. I have a previous appointment."
+      },
+      {
+        "id": "11169415",
+        "text": "I'm sorry, but I have a previous appointment."
+      }
+    ],
+    "indices": "残念 です が[03] 私(わたし)[01] には 先約 が[01] 有る{あります}",
+    "vocabIds": [
+      "1304680",
+      "1388660",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1304680": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ざんねん"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1388660": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "せんやく"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "172133",
+    "original": "今度の日曜日に何か先約がありますか。",
+    "en": [
+      {
+        "id": "242342",
+        "text": "Do you have any previous appointments next Sunday?"
+      }
+    ],
+    "indices": "今度 の 日曜日 に 何か 先約 が[01] 有る{あります} か",
+    "vocabIds": [
+      "1464900",
+      "1289370",
+      "1188270",
+      "1388660"
+    ],
+    "matches": {
+      "1188270": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "なにか"
+        }
+      ],
+      "1289370": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こんど"
+        }
+      ],
+      "1388660": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "せんやく"
+        }
+      ],
+      "1464900": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "にちようび"
+        }
+      ]
+    }
+  },
+  {
+    "id": "172388",
+    "original": "今週の金曜日は先約が入っていて、飲み会には行けないな。",
+    "en": [
+      {
+        "id": "242087",
+        "text": "I already have something planned for Friday, so I won't be able to make it to the drinking session."
+      }
+    ],
+    "indices": "今週 の 金曜日 は 先約 が 入る(はいる){入っていて} 飲む[01]{飲み} 会(かい) には 行けない な",
+    "vocabIds": [
+      "1465590",
+      "1000730",
+      "1243320",
+      "2016170",
+      "1289220",
+      "1388660"
+    ],
+    "matches": {
+      "1000730": [
+        {
+          "start": 21,
+          "length": 4,
+          "reading": "いけない"
+        }
+      ],
+      "1243320": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "きんようび"
+        }
+      ],
+      "1289220": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こんしゅう"
+        }
+      ],
+      "1388660": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "せんやく"
+        }
+      ],
+      "1465590": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "はいっていて"
+        }
+      ],
+      "2016170": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "のみかい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214193",
+    "original": "すみません、先約があります。",
+    "en": [
+      {
+        "id": "51484",
+        "text": "I'm sorry. I have another appointment."
+      }
+    ],
+    "indices": "済みません{すみません} 先約 が[01] 有る{あります}",
+    "vocabIds": [
+      "1388660"
+    ],
+    "matches": {
+      "1388660": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "せんやく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "236050",
+    "original": "１０時には先約があります。",
+    "en": [
+      {
+        "id": "73431",
+        "text": "I have a previous engagement at ten."
+      }
+    ],
+    "indices": "時(じ)[01] には 先約 が[01] 有る{あります}",
+    "vocabIds": [
+      "2845369",
+      "1388660"
+    ],
+    "matches": {
+      "1388660": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "せんやく"
+        }
+      ],
+      "2845369": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "いちぜろじ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3450171",
+    "original": "トムには先約があった。",
+    "en": [
+      {
+        "id": "2956825",
+        "text": "Tom had a previous engagement."
+      }
+    ],
+    "vocabIds": [
+      "1388660"
+    ],
+    "matches": {
+      "1388660": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "せんやく"
+        }
+      ]
+    }
+  }
+]

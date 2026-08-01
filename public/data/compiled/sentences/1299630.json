@@ -1,0 +1,103 @@
+[
+  {
+    "id": "76582",
+    "original": "たくさん作っても捌ききれないから、控えめにね。",
+    "en": [
+      {
+        "id": "327138",
+        "text": "If you make too many, we won't be able to sell them all, so don't go wild."
+      }
+    ],
+    "indices": "沢山{たくさん} 作る[01]{作って} も 捌く[02]{捌き}~ 切る[18]{きれない} から 控え目{控えめ} に ね(#2029080)[01]",
+    "vocabIds": [
+      "1299630",
+      "1279070",
+      "1597890"
+    ],
+    "matches": {
+      "1279070": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "ひかえめ"
+        }
+      ],
+      "1299630": [
+        {
+          "start": 8,
+          "length": 8,
+          "reading": "さばききれないから"
+        }
+      ],
+      "1597890": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "つくって"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10129890",
+    "original": "日本では、料理人がフグを捌くためには、特別な試験を受けなければならない。",
+    "en": [
+      {
+        "id": "8732888",
+        "text": "In Japan, chefs must take a special exam to be allowed to prepare pufferfish."
+      }
+    ],
+    "vocabIds": [
+      "1329590",
+      "1644930",
+      "1582710",
+      "1299630",
+      "1455280",
+      "1312350"
+    ],
+    "matches": {
+      "1299630": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "さばく"
+        }
+      ],
+      "1312350": [
+        {
+          "start": 22,
+          "length": 2,
+          "reading": "しけん"
+        }
+      ],
+      "1329590": [
+        {
+          "start": 25,
+          "length": 10,
+          "reading": "うけなければならない"
+        }
+      ],
+      "1455280": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "とくべつ"
+        }
+      ],
+      "1582710": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "にっぽん"
+        }
+      ],
+      "1644930": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "りょうりじん"
+        }
+      ]
+    }
+  }
+]

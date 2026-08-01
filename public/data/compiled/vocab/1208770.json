@@ -1,0 +1,124 @@
+{
+  "id": "1208770",
+  "writtenForm": {
+    "kanji": "葛",
+    "alternatives": [
+      "蔓"
+    ],
+    "containedKanji": [
+      "葛"
+    ]
+  },
+  "reading": {
+    "primary": "くず",
+    "alternatives": [
+      "つづら",
+      "クズ",
+      "かずら",
+      "カズラ"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 23859
+  },
+  "progression": {
+    "kklcStep": 2269
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "kudzu (Pueraria montana)",
+        "Japanese arrowroot"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "Chinese moonseed (Sinomenium acutum)"
+      ],
+      "related": {
+        "compounds": [
+          "葛藤"
+        ]
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "creeping plant",
+        "creeper",
+        "vine",
+        "liana",
+        "liane"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "かずら"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": true
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1208770",
+      "isBase": true,
+      "originalPrimaryReading": "くず",
+      "originalGlosses": [
+        "kudzu (Pueraria montana)",
+        "Japanese arrowroot"
+      ]
+    },
+    {
+      "id": "2573430",
+      "isBase": false,
+      "originalPrimaryReading": "かずら",
+      "originalGlosses": [
+        "creeping plant",
+        "creeper",
+        "vine"
+      ]
+    }
+  ],
+  "parents": [
+    "1208780"
+  ]
+}

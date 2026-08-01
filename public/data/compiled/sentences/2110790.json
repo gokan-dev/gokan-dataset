@@ -1,0 +1,83 @@
+[
+  {
+    "id": "125686",
+    "original": "痛くも痒くもない。",
+    "en": [
+      {
+        "id": "278305",
+        "text": "Don't care a hang about it."
+      }
+    ],
+    "indices": "痛い[01]{痛く} も 痒い{痒く} も 無い{ない}",
+    "vocabIds": [
+      "2110790"
+    ],
+    "matches": {
+      "2110790": [
+        {
+          "start": 0,
+          "length": 8,
+          "reading": "いたくもかゆくもない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "926917",
+    "original": "百万円の罰金だって？そんなの痛くもかゆくもないよ。",
+    "en": [
+      {
+        "id": "2698949",
+        "text": "A ten thousand dollar fine? That's nothing."
+      },
+      {
+        "id": "2699212",
+        "text": "A one million yen fine? That's nothing to me."
+      }
+    ],
+    "vocabIds": [
+      "2110790",
+      "1488500",
+      "1478090",
+      "1175570",
+      "1216250"
+    ],
+    "matches": {
+      "1175570": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "えん"
+        }
+      ],
+      "1216250": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "えん"
+        }
+      ],
+      "1478090": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ばっきん"
+        }
+      ],
+      "1488500": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ひゃくまん"
+        }
+      ],
+      "2110790": [
+        {
+          "start": 14,
+          "length": 9,
+          "reading": "いたくもかゆくもない"
+        }
+      ]
+    }
+  }
+]

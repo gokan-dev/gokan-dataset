@@ -1,0 +1,908 @@
+[
+  {
+    "id": "170754",
+    "original": "最寄りの郵便局へはどう行けばいいですか。",
+    "en": [
+      {
+        "id": "66411",
+        "text": "How can I get to the nearest post office?"
+      }
+    ],
+    "indices": "最寄り{最寄りの} 郵便局 へ は 如何(どう){どう} 行く[01]{行けば} いい(#2820690)[01] ですか",
+    "vocabIds": [
+      "1293750",
+      "1542430",
+      "1578850"
+    ],
+    "matches": {
+      "1293750": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "もより"
+        }
+      ],
+      "1542430": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "ゆうびんきょく"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "いけば"
+        }
+      ]
+    }
+  },
+  {
+    "id": "170755",
+    "original": "最寄りの電話はどこですか。",
+    "en": [
+      {
+        "id": "243725",
+        "text": "Where is the nearest telephone?"
+      }
+    ],
+    "indices": "最寄り{最寄りの}~ 電話 は 何処{どこ} ですか",
+    "vocabIds": [
+      "1293750",
+      "1443840"
+    ],
+    "matches": {
+      "1293750": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "もより"
+        }
+      ],
+      "1443840": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "でんわ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "170756",
+    "original": "最寄りの地下鉄の駅はどこにありますか。",
+    "en": [
+      {
+        "id": "243724",
+        "text": "Where's the nearest subway station?"
+      }
+    ],
+    "indices": "最寄り{最寄りの} 地下鉄 の 駅 は 何処{どこ} に 有る{あります} か",
+    "vocabIds": [
+      "1293750",
+      "1420900",
+      "1175140"
+    ],
+    "matches": {
+      "1175140": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "えき"
+        }
+      ],
+      "1293750": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "もより"
+        }
+      ],
+      "1420900": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "ちかてつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "170757",
+    "original": "最寄りの地下鉄へ行く道を教えてくれませんか。",
+    "en": [
+      {
+        "id": "243722",
+        "text": "Can you direct me to the nearest subway station?"
+      }
+    ],
+    "indices": "最寄り{最寄りの} 地下鉄 へ 行く 道(みち) を 教える{教えて} 呉れる{くれません} か",
+    "vocabIds": [
+      "1236900",
+      "1293750",
+      "1420900",
+      "1578850",
+      "1454080",
+      "2220470"
+    ],
+    "matches": {
+      "1236900": [
+        {
+          "start": 12,
+          "length": 8,
+          "reading": "おしえてくれません"
+        }
+      ],
+      "1293750": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "もより"
+        }
+      ],
+      "1420900": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "ちかてつ"
+        }
+      ],
+      "1454080": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "みち"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "いく"
+        }
+      ],
+      "2220470": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "みち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "170758",
+    "original": "最寄りの地下鉄の駅へ行く道を教えて下さいませんか。",
+    "en": [
+      {
+        "id": "243722",
+        "text": "Can you direct me to the nearest subway station?"
+      }
+    ],
+    "indices": "最寄り{最寄りの} 地下鉄 の 駅 へ 行く 道(みち) を 教える{教えて} 下さる{下さいません} か",
+    "vocabIds": [
+      "1236900",
+      "1293750",
+      "1420900",
+      "1578850",
+      "1175140",
+      "1454080",
+      "2220470"
+    ],
+    "matches": {
+      "1175140": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "えき"
+        }
+      ],
+      "1236900": [
+        {
+          "start": 14,
+          "length": 9,
+          "reading": "おしえてくださいません"
+        }
+      ],
+      "1293750": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "もより"
+        }
+      ],
+      "1420900": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "ちかてつ"
+        }
+      ],
+      "1454080": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "みち"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "いく"
+        }
+      ],
+      "2220470": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "みち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "170759",
+    "original": "最寄りの警察署はどこですか。",
+    "en": [
+      {
+        "id": "243721",
+        "text": "Where is the nearest police station?"
+      }
+    ],
+    "indices": "最寄り{最寄りの} 警察署 は 何処{どこ} ですか",
+    "vocabIds": [
+      "1293750",
+      "1252410"
+    ],
+    "matches": {
+      "1252410": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "けいさつしょ"
+        }
+      ],
+      "1293750": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "もより"
+        }
+      ]
+    }
+  },
+  {
+    "id": "170760",
+    "original": "最寄りの駅へ行く道を教えていただけますか。",
+    "en": [
+      {
+        "id": "243720",
+        "text": "Can you tell me how to get to the nearest station?"
+      }
+    ],
+    "indices": "最寄り{最寄りの} 駅 へ 行く 道(みち) を 教える{教えて} 頂ける[01]{いただけます} か",
+    "vocabIds": [
+      "1293750",
+      "1236900",
+      "1578850",
+      "1175140",
+      "1454080",
+      "2220470"
+    ],
+    "matches": {
+      "1175140": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "えき"
+        }
+      ],
+      "1236900": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "おしえて"
+        }
+      ],
+      "1293750": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "もより"
+        }
+      ],
+      "1454080": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "みち"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "いく"
+        }
+      ],
+      "2220470": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "みち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "170761",
+    "original": "最寄りの駅へはどう行ったらいいのですか。",
+    "en": [
+      {
+        "id": "243719",
+        "text": "Could you tell me how to get to the nearest station?"
+      }
+    ],
+    "indices": "最寄り{最寄りの} 駅 へ は 如何(どう){どう} 行く[01]{行ったら} いい(#2820690)[01] のです か",
+    "vocabIds": [
+      "1578850",
+      "1293750",
+      "1175140"
+    ],
+    "matches": {
+      "1175140": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "えき"
+        }
+      ],
+      "1293750": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "もより"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "いったら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "170762",
+    "original": "最寄りの駅はどこにありますか。",
+    "en": [
+      {
+        "id": "243718",
+        "text": "Where is the nearest station?"
+      },
+      {
+        "id": "481057",
+        "text": "Where's the nearest train station?"
+      },
+      {
+        "id": "7712699",
+        "text": "Where's the nearest station?"
+      },
+      {
+        "id": "666319",
+        "text": "Where is the closest train station?"
+      },
+      {
+        "id": "508381",
+        "text": "Where's the closest train station?"
+      },
+      {
+        "id": "11031218",
+        "text": "Where's the nearest railway station?"
+      }
+    ],
+    "indices": "最寄り{最寄りの} 駅 は 何処{どこ} に 有る{あります} か",
+    "vocabIds": [
+      "1293750",
+      "1175140"
+    ],
+    "matches": {
+      "1175140": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "えき"
+        }
+      ],
+      "1293750": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "もより"
+        }
+      ]
+    }
+  },
+  {
+    "id": "170763",
+    "original": "最寄りの駅から遠く離れた所にすんでいる。",
+    "en": [
+      {
+        "id": "243717",
+        "text": "I live miles away from the nearest station."
+      }
+    ],
+    "indices": "最寄り{最寄りの} 駅 から 遠い{遠く} 離れる{離れた} 所(ところ) に 住む{すんでいる}",
+    "vocabIds": [
+      "1293750",
+      "1550840",
+      "1177800",
+      "1175140",
+      "1343100"
+    ],
+    "matches": {
+      "1175140": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "えき"
+        }
+      ],
+      "1177800": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "とおく"
+        }
+      ],
+      "1293750": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "もより"
+        }
+      ],
+      "1343100": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "ところ"
+        }
+      ],
+      "1550840": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "はなれた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "170764",
+    "original": "最寄の郵便局へ行く道をおしえてくれますか。",
+    "en": [
+      {
+        "id": "243716",
+        "text": "Can you tell me the way to the nearest post office?"
+      }
+    ],
+    "indices": "最寄り{最寄の} 郵便局 へ 行く 道(みち) を 教える{おしえて} 呉れる{くれます} か",
+    "vocabIds": [
+      "1542430",
+      "1293750",
+      "1578850",
+      "1454080",
+      "2220470"
+    ],
+    "matches": {
+      "1293750": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "さいやどりき"
+        }
+      ],
+      "1454080": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "みち"
+        }
+      ],
+      "1542430": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "ゆうびんきょく"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "いく"
+        }
+      ],
+      "2220470": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "みち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "182415",
+    "original": "救急車はけが人を最寄りの病院に運んだ。",
+    "en": [
+      {
+        "id": "19590",
+        "text": "The ambulances carried the injured to the nearest hospital."
+      }
+    ],
+    "indices": "救急車 は 怪我人{けが人} を 最寄り{最寄りの} 病院 に 運ぶ[01]{運んだ}",
+    "vocabIds": [
+      "1229100",
+      "1200230",
+      "1293750",
+      "1172660",
+      "1490220"
+    ],
+    "matches": {
+      "1172660": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "はこんだ"
+        }
+      ],
+      "1200230": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "けがにん"
+        }
+      ],
+      "1229100": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きゅうきゅうしゃ"
+        }
+      ],
+      "1293750": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "もより"
+        }
+      ],
+      "1490220": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "びょういん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "209903",
+    "original": "事故で負傷した乗客は最寄りの病院に運ばれた。",
+    "en": [
+      {
+        "id": "47166",
+        "text": "The passengers who were injured in the accident were taken to the nearest hospital."
+      }
+    ],
+    "indices": "事故 で(#2028980) 負傷 為る(する){した} 乗客 は 最寄り{最寄りの} 病院 に 運ぶ[01]{運ばれた}",
+    "vocabIds": [
+      "1293750",
+      "1313850",
+      "1498100",
+      "1580490",
+      "1490220",
+      "1172660"
+    ],
+    "matches": {
+      "1172660": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "はこば"
+        }
+      ],
+      "1293750": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "もより"
+        }
+      ],
+      "1313850": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じこ"
+        }
+      ],
+      "1490220": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "びょういん"
+        }
+      ],
+      "1498100": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ふしょう"
+        }
+      ],
+      "1580490": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "じょうきゃく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "230759",
+    "original": "あの人の家は地下鉄の最寄りにある。",
+    "en": [
+      {
+        "id": "68126",
+        "text": "His house is near the subway."
+      },
+      {
+        "id": "1293297",
+        "text": "That person's house is near the subway."
+      }
+    ],
+    "indices": "あの人 の 家(いえ)[01] は 地下鉄 の 最寄り に 有る{ある}",
+    "vocabIds": [
+      "1000440",
+      "1420900",
+      "1293750",
+      "1191730",
+      "2098290",
+      "2082160",
+      "2220300"
+    ],
+    "matches": {
+      "1000440": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あのひと"
+        }
+      ],
+      "1191730": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ],
+      "1293750": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "もより"
+        }
+      ],
+      "1420900": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "ちかてつ"
+        }
+      ],
+      "2082160": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ],
+      "2098290": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ],
+      "2220300": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "774430",
+    "original": "最寄の地下鉄の駅はどちらでしょうか？",
+    "en": [
+      {
+        "id": "62110",
+        "text": "Where is the nearest subway station?"
+      }
+    ],
+    "vocabIds": [
+      "1420900",
+      "1293750",
+      "1175140"
+    ],
+    "matches": {
+      "1175140": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "えき"
+        }
+      ],
+      "1293750": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "さいやどりき"
+        }
+      ],
+      "1420900": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "ちかてつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1614412",
+    "original": "学校の最寄りのカフェはお昼の時間には閉まっている。",
+    "en": [
+      {
+        "id": "526652",
+        "text": "The café nearer to the school is closed at lunch hours."
+      }
+    ],
+    "vocabIds": [
+      "1436560",
+      "1293750",
+      "1206730",
+      "1660100",
+      "1315920"
+    ],
+    "matches": {
+      "1206730": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "がっこう"
+        }
+      ],
+      "1293750": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "もより"
+        }
+      ],
+      "1315920": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "じかん"
+        }
+      ],
+      "1436560": [
+        {
+          "start": 18,
+          "length": 6,
+          "reading": "しまっている"
+        }
+      ],
+      "1660100": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "おひる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9073662",
+    "original": "最寄りの駅はどこですか？",
+    "en": [
+      {
+        "id": "481057",
+        "text": "Where's the nearest train station?"
+      },
+      {
+        "id": "508381",
+        "text": "Where's the closest train station?"
+      },
+      {
+        "id": "666319",
+        "text": "Where is the closest train station?"
+      },
+      {
+        "id": "7712699",
+        "text": "Where's the nearest station?"
+      },
+      {
+        "id": "243718",
+        "text": "Where is the nearest station?"
+      }
+    ],
+    "vocabIds": [
+      "1293750",
+      "1175140"
+    ],
+    "matches": {
+      "1175140": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "えき"
+        }
+      ],
+      "1293750": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "もより"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10276559",
+    "original": "ここから最寄りの警察署までは、どのぐらいの距離なのでしょうか？",
+    "en": [
+      {
+        "id": "10276521",
+        "text": "How far is it from here to the nearest police station?"
+      }
+    ],
+    "vocabIds": [
+      "1293750",
+      "1252410",
+      "1232920"
+    ],
+    "matches": {
+      "1232920": [
+        {
+          "start": 21,
+          "length": 2,
+          "reading": "きょり"
+        }
+      ],
+      "1252410": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "けいさつしょ"
+        }
+      ],
+      "1293750": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "もより"
+        }
+      ]
+    }
+  }
+]

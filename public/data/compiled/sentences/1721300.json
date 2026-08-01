@@ -1,0 +1,83 @@
+[
+  {
+    "id": "105452",
+    "original": "彼は試験で最高点をとった。",
+    "en": [
+      {
+        "id": "298237",
+        "text": "He got the highest grade on the exam."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 試験 で(#2028980) 最高点~ を 取る{とった}",
+    "vocabIds": [
+      "1721300",
+      "1312350",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1312350": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "しけん"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1721300": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "さいこうてん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11527586",
+    "original": "誰が最高点だった？",
+    "en": [
+      {
+        "id": "2763440",
+        "text": "Who made the highest score?"
+      },
+      {
+        "id": "2763479",
+        "text": "Who got the highest score?"
+      }
+    ],
+    "vocabIds": [
+      "1721300",
+      "2864173"
+    ],
+    "matches": {
+      "1721300": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "さいこうてん"
+        }
+      ],
+      "2864173": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "だれが"
+        }
+      ]
+    }
+  }
+]

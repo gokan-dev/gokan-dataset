@@ -1,0 +1,411 @@
+[
+  {
+    "id": "74746",
+    "original": "いつも何曜日なら空いていますか？",
+    "en": [
+      {
+        "id": "328973",
+        "text": "What day are you usually free?"
+      }
+    ],
+    "indices": "何時も{いつも} 何曜日 なら 開く(あく)[04]{空いています} か",
+    "vocabIds": [
+      "1202440",
+      "1586265",
+      "1189400"
+    ],
+    "matches": {
+      "1189400": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "なにようび"
+        }
+      ],
+      "1202440": [
+        {
+          "start": 8,
+          "length": 6,
+          "reading": "あいています"
+        }
+      ],
+      "1586265": [
+        {
+          "start": 8,
+          "length": 6,
+          "reading": "あいています"
+        }
+      ]
+    }
+  },
+  {
+    "id": "78666",
+    "original": "来週お邪魔したいのですが、何曜日ならご都合がよろしいでしょうか。",
+    "en": [
+      {
+        "id": "325050",
+        "text": "I'd like to visit you next week. What day of the week would it be convenient for you?"
+      }
+    ],
+    "indices": "来週 御(お){お} 邪魔 したい のです が[03] 何曜日 なら 御(ご){ご} 都合がよろしい でしょうか",
+    "vocabIds": [
+      "2264550",
+      "2157330",
+      "1189400",
+      "1548010"
+    ],
+    "matches": {
+      "1189400": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "なにようび"
+        }
+      ],
+      "1548010": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "らいしゅう"
+        }
+      ],
+      "2157330": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "おじゃま"
+        }
+      ],
+      "2264550": [
+        {
+          "start": 19,
+          "length": 7,
+          "reading": "つごうがよろしい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "171383",
+    "original": "今年の君の誕生日は、何曜日に当たりますか。",
+    "en": [
+      {
+        "id": "243092",
+        "text": "On what day of the week does your birthday fall this year?"
+      }
+    ],
+    "indices": "今年 の 君(きみ)[01]{君の} 誕生日 は 何曜日 に 当たる{当たります} か",
+    "vocabIds": [
+      "1448810",
+      "1419110",
+      "1189400",
+      "1579130",
+      "1247250"
+    ],
+    "matches": {
+      "1189400": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "なにようび"
+        }
+      ],
+      "1247250": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "きみ"
+        }
+      ],
+      "1419110": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "たんじょうび"
+        }
+      ],
+      "1448810": [
+        {
+          "start": 14,
+          "length": 5,
+          "reading": "あたります"
+        }
+      ],
+      "1579130": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ことし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "171683",
+    "original": "今日は何曜日ですか。",
+    "en": [
+      {
+        "id": "242792",
+        "text": "Which day of the week is it?"
+      }
+    ],
+    "indices": "今日 は 何曜日 ですか",
+    "vocabIds": [
+      "1289400",
+      "1189400"
+    ],
+    "matches": {
+      "1189400": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "なにようび"
+        }
+      ],
+      "1289400": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きょうは"
+        }
+      ]
+    }
+  },
+  {
+    "id": "196944",
+    "original": "ブルースカイスポーツ店は、何曜日が定休日だったかしら。",
+    "en": [
+      {
+        "id": "34124",
+        "text": "Do you remember what day of the week Blue Sky Sports is closed?"
+      }
+    ],
+    "indices": "店(みせ) は 何曜日 が 定休日 だ{だった} かしら",
+    "vocabIds": [
+      "2867223",
+      "1189400",
+      "1435540"
+    ],
+    "matches": {
+      "1189400": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "なにようび"
+        }
+      ],
+      "1435540": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "ていきゅうび"
+        }
+      ],
+      "2867223": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "すぽーつてん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "889710",
+    "original": "今日、何曜日？",
+    "en": [
+      {
+        "id": "476431",
+        "text": "What day is it today?"
+      }
+    ],
+    "vocabIds": [
+      "1189400",
+      "1579110"
+    ],
+    "matches": {
+      "1189400": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "なにようび"
+        }
+      ],
+      "1579110": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "4630426",
+    "original": "「今日何曜日ですか？」「水曜日です」",
+    "en": [
+      {
+        "id": "4632135",
+        "text": "\"What day of the week is it?\" \"It's Wednesday.\""
+      },
+      {
+        "id": "4632575",
+        "text": "\"What day is it?\" \"It's Wednesday.\""
+      }
+    ],
+    "vocabIds": [
+      "1189400",
+      "1372190",
+      "1579110"
+    ],
+    "matches": {
+      "1189400": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "なんようび"
+        }
+      ],
+      "1372190": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "すいようび"
+        }
+      ],
+      "1579110": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "きょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "219110",
+    "original": "ごひいきのロックグループは何曜日と何曜日にやっていますか。",
+    "en": [
+      {
+        "id": "4732451",
+        "text": "Which days of the week does your favourite rock band play?"
+      }
+    ],
+    "indices": "御(ご){ご} 贔屓(ひいき){ひいき} の ロック(#2846323)[01] グループ は 何曜日~ と 何曜日 に 遣る{やっています} か",
+    "vocabIds": [
+      "1189400"
+    ],
+    "matches": {
+      "1189400": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "なにようび"
+        },
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "なにようび"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9964109",
+    "original": "今日は何曜日ですか？",
+    "en": [
+      {
+        "id": "9849475",
+        "text": "What is the day of the week today?"
+      }
+    ],
+    "vocabIds": [
+      "1289400",
+      "1189400"
+    ],
+    "matches": {
+      "1189400": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "なにようび"
+        }
+      ],
+      "1289400": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きょうは"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10366825",
+    "original": "何曜日が一番好き？",
+    "en": [
+      {
+        "id": "906739",
+        "text": "What's your favorite day of the week?"
+      }
+    ],
+    "vocabIds": [
+      "1189400",
+      "1165970",
+      "1277450"
+    ],
+    "matches": {
+      "1165970": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "いちばん"
+        }
+      ],
+      "1189400": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "なにようび"
+        }
+      ],
+      "1277450": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "すき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11588807",
+    "original": "何曜日か分かりますか？",
+    "en": [
+      {
+        "id": "24597",
+        "text": "Do you know what day it is?"
+      }
+    ],
+    "vocabIds": [
+      "1606560",
+      "1189400"
+    ],
+    "matches": {
+      "1189400": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "なにようび"
+        }
+      ],
+      "1606560": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "わかります"
+        }
+      ]
+    }
+  }
+]

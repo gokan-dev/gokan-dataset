@@ -1,0 +1,80 @@
+[
+  {
+    "id": "121615",
+    "original": "馬は野原を走り抜けた。",
+    "en": [
+      {
+        "id": "282390",
+        "text": "The horse ran through the fields."
+      }
+    ],
+    "indices": "馬[01] は 野原 を 走り抜ける{走り抜けた}~",
+    "vocabIds": [
+      "1402520",
+      "1537360",
+      "1471560"
+    ],
+    "matches": {
+      "1402520": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "はしりぬけた"
+        }
+      ],
+      "1471560": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "うま"
+        }
+      ],
+      "1537360": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "のはら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "183806",
+    "original": "観光バスは長いトンネルを走り抜けた。",
+    "en": [
+      {
+        "id": "20929",
+        "text": "The sightseeing bus ran through a long tunnel."
+      }
+    ],
+    "indices": "観光 バス(#1098390) は 長い トンネル を 走り抜ける{走り抜けた}",
+    "vocabIds": [
+      "1402520",
+      "1214850",
+      "1429750"
+    ],
+    "matches": {
+      "1214850": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "かんこうばす"
+        }
+      ],
+      "1402520": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "はしりぬけた"
+        }
+      ],
+      "1429750": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ながい"
+        }
+      ]
+    }
+  }
+]

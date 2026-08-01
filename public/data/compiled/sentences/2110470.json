@@ -1,0 +1,109 @@
+[
+  {
+    "id": "218395",
+    "original": "これは最重要問題だ。",
+    "en": [
+      {
+        "id": "55706",
+        "text": "This is a matter of supreme importance."
+      }
+    ],
+    "indices": "此れ[01]{これ} は 最[01] 重要 問題 だ",
+    "vocabIds": [
+      "2110470",
+      "1536010"
+    ],
+    "matches": {
+      "1536010": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "もんだい"
+        }
+      ],
+      "2110470": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "さいじゅうよう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1625439",
+    "original": "トムが最重要だと考えているポイントは何でしょうか。",
+    "en": [
+      {
+        "id": "1023805",
+        "text": "What does Tom consider to be the most important point?"
+      }
+    ],
+    "vocabIds": [
+      "1281020",
+      "2110470",
+      "1577100"
+    ],
+    "matches": {
+      "1281020": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "かんがえている"
+        }
+      ],
+      "1577100": [
+        {
+          "start": 18,
+          "length": 1,
+          "reading": "なに"
+        }
+      ],
+      "2110470": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "さいじゅうよう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11841689",
+    "original": "最重要語句は太字になっています。",
+    "en": [
+      {
+        "id": "10349824",
+        "text": "The most important words are in bold."
+      }
+    ],
+    "vocabIds": [
+      "2110470",
+      "1271060",
+      "1408310"
+    ],
+    "matches": {
+      "1271060": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ごく"
+        }
+      ],
+      "1408310": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ふとじ"
+        }
+      ],
+      "2110470": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "さいじゅうよう"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,151 @@
+[
+  {
+    "id": "91009",
+    "original": "彼女は鋭い商才の持ち主だ。",
+    "en": [
+      {
+        "id": "312705",
+        "text": "She is a lady of business acumen."
+      }
+    ],
+    "indices": "彼女[01] は 鋭い[03] 商才~ の 持ち主 だ",
+    "vocabIds": [
+      "1605230",
+      "1483150",
+      "1174890",
+      "1347040"
+    ],
+    "matches": {
+      "1174890": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "するどい"
+        }
+      ],
+      "1347040": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "しょうさい"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1605230": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "もちぬし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "104197",
+    "original": "彼は商才にたけている。",
+    "en": [
+      {
+        "id": "299494",
+        "text": "He is able in business."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 商才 に 長ける[01]{たけている}~",
+    "vocabIds": [
+      "1347040",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1347040": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "しょうさい"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "120231",
+    "original": "彼が事業に成功したのは、商才があったからではなく、運がよかったからである。",
+    "en": [
+      {
+        "id": "283778",
+        "text": "It is not because he had a faculty for business but because he was lucky that he succeeded in business."
+      }
+    ],
+    "indices": "彼(かれ) が 事業[01] に 成功 為る(する){した} の は 商才 が[01] 有る{あった} から だ{ではなく} 運が良い{運がよかった} から である",
+    "vocabIds": [
+      "1313670",
+      "1375690",
+      "1347040",
+      "1000420",
+      "1483070",
+      "1172610"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1172610": [
+        {
+          "start": 25,
+          "length": 1,
+          "reading": "うん"
+        }
+      ],
+      "1313670": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "じぎょう"
+        }
+      ],
+      "1347040": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "しょうさい"
+        }
+      ],
+      "1375690": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "せいこう"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "id": "196943",
+    "original": "ブルースカイスポーツ店は毎週木曜日がお休みです。",
+    "en": [
+      {
+        "id": "34123",
+        "text": "Blue Sky Sport is closed every Thursday."
+      }
+    ],
+    "indices": "店(みせ) は 毎週 木曜日 が 御(お){お} 休み です",
+    "vocabIds": [
+      "2867223",
+      "1534890",
+      "1612680",
+      "1524690"
+    ],
+    "matches": {
+      "1524690": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "まいしゅう"
+        }
+      ],
+      "1534890": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "もくようび"
+        }
+      ],
+      "1612680": [
+        {
+          "start": 18,
+          "length": 3,
+          "reading": "おやすみ"
+        }
+      ],
+      "2867223": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "すぽーつてん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "196944",
+    "original": "ブルースカイスポーツ店は、何曜日が定休日だったかしら。",
+    "en": [
+      {
+        "id": "34124",
+        "text": "Do you remember what day of the week Blue Sky Sports is closed?"
+      }
+    ],
+    "indices": "店(みせ) は 何曜日 が 定休日 だ{だった} かしら",
+    "vocabIds": [
+      "2867223",
+      "1189400",
+      "1435540"
+    ],
+    "matches": {
+      "1189400": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "なにようび"
+        }
+      ],
+      "1435540": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "ていきゅうび"
+        }
+      ],
+      "2867223": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "すぽーつてん"
+        }
+      ]
+    }
+  }
+]

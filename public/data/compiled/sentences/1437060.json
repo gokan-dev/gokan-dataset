@@ -1,0 +1,869 @@
+[
+  {
+    "id": "87091",
+    "original": "彼女は美しい花をたくさん摘んだ。",
+    "en": [
+      {
+        "id": "316618",
+        "text": "She picked a lot of beautiful flowers."
+      }
+    ],
+    "indices": "彼女[01] は 美しい 花[01] を 沢山{たくさん} 摘む(つむ){摘んだ}",
+    "vocabIds": [
+      "1486360",
+      "1437060",
+      "1483150",
+      "1194500"
+    ],
+    "matches": {
+      "1194500": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "はな"
+        }
+      ],
+      "1437060": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "つんだ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1486360": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "うつくしい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "87808",
+    "original": "彼女は庭の花を摘んだ。",
+    "en": [
+      {
+        "id": "315899",
+        "text": "She picked flowers in the garden."
+      }
+    ],
+    "indices": "彼女[01] は 庭 の 花[01] を 摘む(つむ){摘んだ}",
+    "vocabIds": [
+      "1437060",
+      "1483150",
+      "1436130",
+      "1194500"
+    ],
+    "matches": {
+      "1194500": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "はな"
+        }
+      ],
+      "1436130": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "にわ"
+        }
+      ],
+      "1437060": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "つんだ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "88417",
+    "original": "彼女は雛菊を摘むのをやめた。",
+    "en": [
+      {
+        "id": "315290",
+        "text": "She stopped picking daisies."
+      }
+    ],
+    "indices": "彼女[01] は 雛菊 を 摘む(つむ) の を 止める(やめる){やめた}",
+    "vocabIds": [
+      "1483150",
+      "1708160",
+      "1437060"
+    ],
+    "matches": {
+      "1437060": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "つまむ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1708160": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ひなぎく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "90801",
+    "original": "彼女は花を摘んだ。",
+    "en": [
+      {
+        "id": "312911",
+        "text": "She picked flowers."
+      }
+    ],
+    "indices": "彼女[01] は 花[01] を 摘む(つむ){摘んだ}",
+    "vocabIds": [
+      "1437060",
+      "1483150",
+      "1194500"
+    ],
+    "matches": {
+      "1194500": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "はな"
+        }
+      ],
+      "1437060": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "つんだ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "94888",
+    "original": "彼女にヒナギクの花を摘んでやった。",
+    "en": [
+      {
+        "id": "308819",
+        "text": "I plucked a daisy for her."
+      }
+    ],
+    "indices": "彼女 に 雛菊{ヒナギク} の 花[01] を 摘む(つむ){摘んで} 遣る{やった}",
+    "vocabIds": [
+      "1437060",
+      "1483150",
+      "1194500"
+    ],
+    "matches": {
+      "1194500": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "はな"
+        }
+      ],
+      "1437060": [
+        {
+          "start": 10,
+          "length": 6,
+          "reading": "つんでやった"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "101017",
+    "original": "彼は彼女に花を摘んでやった。",
+    "en": [
+      {
+        "id": "302680",
+        "text": "He picked flowers for her."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 彼女 に 花[01] を 摘む(つむ){摘んで} 遣る{やった}",
+    "vocabIds": [
+      "1437060",
+      "1483150",
+      "1000420",
+      "1483070",
+      "1194500"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1194500": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "はな"
+        }
+      ],
+      "1437060": [
+        {
+          "start": 7,
+          "length": 6,
+          "reading": "つんでやった"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "112207",
+    "original": "彼はそれをそっと摘み上げた。",
+    "en": [
+      {
+        "id": "291471",
+        "text": "He picked it up carefully."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 其れ[01]{それ} を そっと 摘む(つむ){摘み} 上げる{上げた}",
+    "vocabIds": [
+      "1437060",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1437060": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "つみあげた"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "123102",
+    "original": "二人の幼い少女がひなぎくを摘んでいます。",
+    "en": [
+      {
+        "id": "280898",
+        "text": "Two little girls are picking daisies."
+      }
+    ],
+    "indices": "二人 の 幼い[01] 少女 が 雛菊{ひなぎく} を 摘む(つむ){摘んでいます}",
+    "vocabIds": [
+      "1437060",
+      "1582670",
+      "1545110",
+      "2863360",
+      "1580290",
+      "2855480"
+    ],
+    "matches": {
+      "1437060": [
+        {
+          "start": 13,
+          "length": 6,
+          "reading": "つんでいます"
+        }
+      ],
+      "1545110": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "おさない"
+        }
+      ],
+      "1580290": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "しょうじょ"
+        }
+      ],
+      "1582670": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ににん"
+        }
+      ],
+      "2855480": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "しょうじょ"
+        }
+      ],
+      "2863360": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "おさない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "125497",
+    "original": "庭の花を摘みましょう。",
+    "en": [
+      {
+        "id": "278495",
+        "text": "Let's pick flowers from the garden."
+      }
+    ],
+    "indices": "庭 の 花[01] を 摘む(つむ){摘みましょう}",
+    "vocabIds": [
+      "1437060",
+      "1436130",
+      "1194500"
+    ],
+    "matches": {
+      "1194500": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "はな"
+        }
+      ],
+      "1436130": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "にわ"
+        }
+      ],
+      "1437060": [
+        {
+          "start": 4,
+          "length": 6,
+          "reading": "つみましょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "145223",
+    "original": "新茶を摘む季節になった。",
+    "en": [
+      {
+        "id": "269340",
+        "text": "This is the season to pick fresh tea."
+      }
+    ],
+    "indices": "新茶~ を 摘む(つむ) 季節 になる[01]{になった}",
+    "vocabIds": [
+      "1655840",
+      "1437060",
+      "1222840"
+    ],
+    "matches": {
+      "1222840": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "きせつ"
+        }
+      ],
+      "1437060": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "つまむ"
+        }
+      ],
+      "1655840": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しんちゃ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "151396",
+    "original": "私達は庭で花を摘んだ。",
+    "en": [
+      {
+        "id": "263160",
+        "text": "We picked flowers in the garden."
+      }
+    ],
+    "indices": "私たち{私達} は 庭 で(#2028980) 花[01] を 摘む(つむ){摘んだ}",
+    "vocabIds": [
+      "1437060",
+      "1311300",
+      "1436130",
+      "1194500"
+    ],
+    "matches": {
+      "1194500": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "はな"
+        }
+      ],
+      "1311300": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "わたしたち"
+        }
+      ],
+      "1436130": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "にわ"
+        }
+      ],
+      "1437060": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "つんだ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "168417",
+    "original": "子供達は庭で花を摘んでいる。",
+    "en": [
+      {
+        "id": "246075",
+        "text": "The kids are picking flowers in the garden."
+      }
+    ],
+    "indices": "子供たち{子供達} は 庭 で(#2028980) 花[01] を 摘む(つむ){摘んでいる}",
+    "vocabIds": [
+      "1437060",
+      "1307870",
+      "1436130",
+      "1194500"
+    ],
+    "matches": {
+      "1194500": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "はな"
+        }
+      ],
+      "1307870": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "こどもたち"
+        }
+      ],
+      "1436130": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "にわ"
+        }
+      ],
+      "1437060": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "つんでいる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "197666",
+    "original": "ビールの摘まみがほしい。",
+    "en": [
+      {
+        "id": "34850",
+        "text": "I would like to have something to munch on with my beer."
+      },
+      {
+        "id": "10543895",
+        "text": "I'd like to have something to munch on with my beer."
+      }
+    ],
+    "indices": "ビール(#2796520) の 摘み[02]{摘まみ}~ が 欲しい[01]{ほしい}",
+    "vocabIds": [
+      "1437060"
+    ],
+    "matches": {
+      "1437060": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "つまみが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "225848",
+    "original": "キャシーは花を摘むのをやめました。",
+    "en": [
+      {
+        "id": "63186",
+        "text": "Cathy stopped picking flowers."
+      }
+    ],
+    "indices": "は 花[01] を 摘む(つむ)~ の を 止める(やめる){やめました}~",
+    "vocabIds": [
+      "1437060",
+      "1194500"
+    ],
+    "matches": {
+      "1194500": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "はな"
+        }
+      ],
+      "1437060": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "つまむ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "229058",
+    "original": "イチゴは私たちが摘むはしから熟しかけていた。",
+    "en": [
+      {
+        "id": "66416",
+        "text": "The berries were ripening almost as fast as we could gather them."
+      }
+    ],
+    "indices": "苺{イチゴ} は 私たち が 摘む(つむ) 端(はし){はし} から 熟す(じゅくす){熟し} 掛ける{かけていた}",
+    "vocabIds": [
+      "1337800",
+      "1311300",
+      "1437060"
+    ],
+    "matches": {
+      "1311300": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1337800": [
+        {
+          "start": 14,
+          "length": 7,
+          "reading": "じゅくしかけていた"
+        }
+      ],
+      "1437060": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "つまむ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "993565",
+    "original": "彼女のためにヒナギクを１本摘んだ。",
+    "en": [
+      {
+        "id": "308819",
+        "text": "I plucked a daisy for her."
+      },
+      {
+        "id": "2734044",
+        "text": "I picked a daisy for her."
+      }
+    ],
+    "vocabIds": [
+      "1437060",
+      "1483150",
+      "1166600"
+    ],
+    "matches": {
+      "1166600": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "いちほん"
+        }
+      ],
+      "1437060": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "つんだ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3399578",
+    "original": "メアリーは、ジャムを作るために森でいちごを摘んだ。",
+    "en": [
+      {
+        "id": "3399568",
+        "text": "Mary picked some strawberries in the forest to make strawberry jam."
+      }
+    ],
+    "vocabIds": [
+      "1437060",
+      "1597890",
+      "1362490"
+    ],
+    "matches": {
+      "1362490": [
+        {
+          "start": 15,
+          "length": 1,
+          "reading": "もり"
+        }
+      ],
+      "1437060": [
+        {
+          "start": 21,
+          "length": 3,
+          "reading": "つんだ"
+        }
+      ],
+      "1597890": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "つくる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8988954",
+    "original": "トムは花を摘んだ。",
+    "en": [
+      {
+        "id": "8382155",
+        "text": "Tom picked flowers."
+      }
+    ],
+    "vocabIds": [
+      "1437060",
+      "1194500"
+    ],
+    "matches": {
+      "1194500": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "はな"
+        }
+      ],
+      "1437060": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "つんだ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9194509",
+    "original": "彼女は鉢から花を摘んで、私にくれました。",
+    "en": [
+      {
+        "id": "2981898",
+        "text": "She picked a flower from the pot and gave it to me."
+      }
+    ],
+    "vocabIds": [
+      "1437060",
+      "1483150",
+      "1477090",
+      "1194500",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1194500": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "はな"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1437060": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "つんで"
+        }
+      ],
+      "1477090": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "はち"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10195196",
+    "original": "彼女は花を摘むことが大好きです。",
+    "en": [
+      {
+        "id": "10195197",
+        "text": "She loves to pick flowers."
+      },
+      {
+        "id": "10195198",
+        "text": "She loves picking flowers."
+      }
+    ],
+    "vocabIds": [
+      "1413660",
+      "1483150",
+      "1437060",
+      "1194500"
+    ],
+    "matches": {
+      "1194500": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "はな"
+        }
+      ],
+      "1413660": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "だいすき"
+        }
+      ],
+      "1437060": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "つまむ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ]
+    }
+  }
+]

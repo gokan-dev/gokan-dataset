@@ -1,0 +1,72 @@
+[
+  {
+    "id": "123007",
+    "original": "二枚舌を使うな。",
+    "en": [
+      {
+        "id": "280994",
+        "text": "Keep not two tongues in one mouth."
+      }
+    ],
+    "indices": "二枚舌 を 使う な",
+    "vocabIds": [
+      "1463200",
+      "1305990"
+    ],
+    "matches": {
+      "1305990": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "つかう"
+        }
+      ],
+      "1463200": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "にまいじた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "226926",
+    "original": "お前は二枚舌を使っている。",
+    "en": [
+      {
+        "id": "64274",
+        "text": "You are lying to me."
+      }
+    ],
+    "indices": "お前[01] は 二枚舌~ を 使う{使っている}",
+    "vocabIds": [
+      "1305990",
+      "1463200",
+      "1002290"
+    ],
+    "matches": {
+      "1002290": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おまえ"
+        }
+      ],
+      "1305990": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "つかっている"
+        }
+      ],
+      "1463200": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "にまいじた"
+        }
+      ]
+    }
+  }
+]

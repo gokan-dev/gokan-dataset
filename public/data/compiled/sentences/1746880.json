@@ -1,0 +1,197 @@
+[
+  {
+    "id": "75558",
+    "original": "携帯電話から国際電話をかけても、モビラなら「１分あたり２０円」でかけられます。",
+    "en": [
+      {
+        "id": "328160",
+        "text": "Even making an international phone call from a cell phone can be done for 20 yen per minute with Mobila."
+      }
+    ],
+    "indices": "携帯電話 から 国際電話 を[01] 掛ける[04]{かけて} も[02] なら 一分(いっぷん){１分} 当たり[09]{あたり} 円(えん)[01] で(#2028980) 掛ける[04]{かけられます}",
+    "vocabIds": [
+      "1250690",
+      "1746880",
+      "1166270",
+      "1166290",
+      "1461140",
+      "1557630",
+      "1175570",
+      "1216250"
+    ],
+    "matches": {
+      "1166270": [
+        {
+          "start": 22,
+          "length": 2,
+          "reading": "いちふん"
+        }
+      ],
+      "1166290": [
+        {
+          "start": 22,
+          "length": 2,
+          "reading": "いちふん"
+        }
+      ],
+      "1175570": [
+        {
+          "start": 29,
+          "length": 1,
+          "reading": "えん"
+        }
+      ],
+      "1216250": [
+        {
+          "start": 29,
+          "length": 1,
+          "reading": "えん"
+        }
+      ],
+      "1250690": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "けいたいでんわ"
+        }
+      ],
+      "1461140": [
+        {
+          "start": 27,
+          "length": 1,
+          "reading": "に"
+        }
+      ],
+      "1557630": [
+        {
+          "start": 28,
+          "length": 1,
+          "reading": "ぜろ"
+        }
+      ],
+      "1746880": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "こくさいでんわ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "122385",
+    "original": "日本へ国際電話をかけたいのですが。",
+    "en": [
+      {
+        "id": "281617",
+        "text": "I'd like to make a call to Japan."
+      }
+    ],
+    "indices": "日本 へ 国際電話 を 掛ける[04]{かけ} たい[01] のです が[03]",
+    "vocabIds": [
+      "1746880",
+      "1582710"
+    ],
+    "matches": {
+      "1582710": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "にっぽん"
+        }
+      ],
+      "1746880": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "こくさいでんわ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "173049",
+    "original": "国際電話をかけたいのですが。",
+    "en": [
+      {
+        "id": "241423",
+        "text": "I'd like to make an overseas call."
+      }
+    ],
+    "indices": "国際電話 を 掛ける[04]{かけ} たい[01] のです が[03]",
+    "vocabIds": [
+      "1746880"
+    ],
+    "matches": {
+      "1746880": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "こくさいでんわ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "173050",
+    "original": "国際電話をお願いします。",
+    "en": [
+      {
+        "id": "241422",
+        "text": "Give me overseas service, please."
+      }
+    ],
+    "indices": "国際電話~ を お願いします",
+    "vocabIds": [
+      "1001720",
+      "1746880"
+    ],
+    "matches": {
+      "1001720": [
+        {
+          "start": 5,
+          "length": 6,
+          "reading": "おねがいします"
+        }
+      ],
+      "1746880": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "こくさいでんわ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "224143",
+    "original": "こちら国際電話の係りです。",
+    "en": [
+      {
+        "id": "61477",
+        "text": "Overseas service here."
+      }
+    ],
+    "indices": "此方(こちら){こちら} 国際電話 の 係{係り} です",
+    "vocabIds": [
+      "1746880",
+      "1589840"
+    ],
+    "matches": {
+      "1589840": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "かかり"
+        }
+      ],
+      "1746880": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "こくさいでんわ"
+        }
+      ]
+    }
+  }
+]

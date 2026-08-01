@@ -1,0 +1,72 @@
+[
+  {
+    "id": "172418",
+    "original": "今更そんなことを言った日にゃ、火に油を注ぐことになるだけだよ。",
+    "en": [
+      {
+        "id": "242057",
+        "text": "For you to come out and say that kind of thing now would just be pouring oil on the fire."
+      }
+    ],
+    "indices": "今更 そんな 事(こと){こと} を 言う{言った} 日(ひ)[01] には{にゃ} 火に油を注ぐ 事になる{ことになる} 丈(だけ){だけ} だ よ[01]",
+    "vocabIds": [
+      "2145230",
+      "1587040",
+      "1289150",
+      "1463770"
+    ],
+    "matches": {
+      "1289150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いまさら"
+        }
+      ],
+      "1463770": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "ひ"
+        }
+      ],
+      "1587040": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "いった"
+        }
+      ],
+      "2145230": [
+        {
+          "start": 15,
+          "length": 6,
+          "reading": "ひにあぶらをそそぐ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "186749",
+    "original": "火に油を注ぐだけだ。",
+    "en": [
+      {
+        "id": "23885",
+        "text": "It only adds fuel to the fire."
+      }
+    ],
+    "indices": "火に油を注ぐ~ 丈(だけ){だけ} だ",
+    "vocabIds": [
+      "2145230"
+    ],
+    "matches": {
+      "2145230": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "ひにあぶらをそそぐ"
+        }
+      ]
+    }
+  }
+]

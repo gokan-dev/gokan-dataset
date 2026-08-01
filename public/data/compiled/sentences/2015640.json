@@ -1,0 +1,96 @@
+[
+  {
+    "id": "182417",
+    "original": "救援隊は子供をしらみつぶしに捜した。",
+    "en": [
+      {
+        "id": "19593",
+        "text": "The rescue worker searched the area, looking for the child."
+      }
+    ],
+    "indices": "救援 隊 は 子供 を 虱潰し{しらみつぶし}~ に 探す[01]{捜した}",
+    "vocabIds": [
+      "2015640",
+      "1593670",
+      "1307850"
+    ],
+    "matches": {
+      "1307850": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "こども"
+        }
+      ],
+      "1593670": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "さがした"
+        }
+      ],
+      "2015640": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きゅうえんたい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "182418",
+    "original": "救援隊が到着したとき彼はまだ生きていた。",
+    "en": [
+      {
+        "id": "19594",
+        "text": "He was still alive when the rescue party arrived."
+      }
+    ],
+    "indices": "救援 隊 が 到着 為る(する){した} 時(とき){とき} 彼(かれ)[01] は 未だ[01]{まだ} 生きる{生きていた}",
+    "vocabIds": [
+      "1378520",
+      "2015640",
+      "1449870",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1378520": [
+        {
+          "start": 14,
+          "length": 5,
+          "reading": "いきていた"
+        }
+      ],
+      "1449870": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "とうちゃく"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "2015640": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きゅうえんたい"
+        }
+      ]
+    }
+  }
+]

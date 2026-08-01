@@ -1,0 +1,64 @@
+[
+  {
+    "id": "215155",
+    "original": "スイカは今が出盛りだ。",
+    "en": [
+      {
+        "id": "52453",
+        "text": "Watermelons are in season now."
+      }
+    ],
+    "indices": "西瓜{スイカ}~ は 今(いま) が 出盛り~ だ",
+    "vocabIds": [
+      "1339440",
+      "1288850"
+    ],
+    "matches": {
+      "1288850": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "いま"
+        }
+      ],
+      "1339440": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "でさかりだ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "229060",
+    "original": "いちごは今が出盛りです。",
+    "en": [
+      {
+        "id": "66418",
+        "text": "Strawberries are now in season."
+      }
+    ],
+    "indices": "苺{いちご} は 今(いま) が 出盛り です",
+    "vocabIds": [
+      "1339440",
+      "1288850"
+    ],
+    "matches": {
+      "1288850": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "いま"
+        }
+      ],
+      "1339440": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "でさかりです"
+        }
+      ]
+    }
+  }
+]

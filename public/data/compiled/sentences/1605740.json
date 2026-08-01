@@ -1,0 +1,41 @@
+[
+  {
+    "id": "230722",
+    "original": "あの人は行きずりの人です。",
+    "en": [
+      {
+        "id": "68089",
+        "text": "He is only a passing chance acquaintance."
+      }
+    ],
+    "indices": "あの人 は 行きずり{行きずりの}~ 人(ひと) です",
+    "vocabIds": [
+      "1605740",
+      "1000440",
+      "1580640"
+    ],
+    "matches": {
+      "1000440": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あのひと"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ],
+      "1605740": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "いきずり"
+        }
+      ]
+    }
+  }
+]

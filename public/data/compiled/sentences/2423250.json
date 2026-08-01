@@ -1,0 +1,989 @@
+[
+  {
+    "id": "76803",
+    "original": "お米屋さんは、言わずと知れた斜陽産業。",
+    "en": [
+      {
+        "id": "326917",
+        "text": "Needless to say, dealing in rice is a declining industry."
+      }
+    ],
+    "indices": "御(お){お} 米屋~ さん は 言う{言わず} と 知れる{知れた} 斜陽産業~",
+    "vocabIds": [
+      "2120010",
+      "2144520",
+      "2423250",
+      "2082160"
+    ],
+    "matches": {
+      "2082160": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "や"
+        }
+      ],
+      "2120010": [
+        {
+          "start": 7,
+          "length": 7,
+          "reading": "いわずとしれた"
+        }
+      ],
+      "2144520": [
+        {
+          "start": 14,
+          "length": 4,
+          "reading": "しゃようさんぎょう"
+        }
+      ],
+      "2423250": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おべい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "178299",
+    "original": "君の国では、お米をたべますか。",
+    "en": [
+      {
+        "id": "17151",
+        "text": "Do you eat rice in your country?"
+      }
+    ],
+    "indices": "君(きみ)[01]{君の} 国[01] で(#2028980) は 御(お){お} 米(こめ)[01] を 食べる{たべます} か",
+    "vocabIds": [
+      "2423250",
+      "1247250",
+      "1592250"
+    ],
+    "matches": {
+      "1247250": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "きみ"
+        }
+      ],
+      "1592250": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "くに"
+        }
+      ],
+      "2423250": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "おこめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "219009",
+    "original": "これがお米の炊き方です。",
+    "en": [
+      {
+        "id": "56325",
+        "text": "This is how we cook rice."
+      },
+      {
+        "id": "3144248",
+        "text": "This is how to cook rice."
+      }
+    ],
+    "indices": "此れ[01]{これ} が 御(お){お} 米(こめ)[01] の 炊く{炊き} 方(かた) です",
+    "vocabIds": [
+      "1596830",
+      "2423250"
+    ],
+    "matches": {
+      "1596830": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "たきかたです"
+        }
+      ],
+      "2423250": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "おべい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "226676",
+    "original": "お米の質は下がりつつある。",
+    "en": [
+      {
+        "id": "64020",
+        "text": "The quality of rice is going down."
+      },
+      {
+        "id": "1372492",
+        "text": "The quality of rice is getting worse."
+      }
+    ],
+    "indices": "御(お){お} 米(こめ)[01] の 質(しつ) は 下がる{下がり} つつある",
+    "vocabIds": [
+      "1184160",
+      "2423250",
+      "1320640"
+    ],
+    "matches": {
+      "1184160": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "さがりつつ"
+        }
+      ],
+      "1320640": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "しつ"
+        }
+      ],
+      "2423250": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おべい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2299482",
+    "original": "お米は湿気を嫌います。保管にはご注意ください。",
+    "en": [
+      {
+        "id": "2463775",
+        "text": "Rice does not like moisture. Be sure to store it well."
+      }
+    ],
+    "vocabIds": [
+      "2850261",
+      "1257250",
+      "2423250",
+      "1320410",
+      "1513320"
+    ],
+    "matches": {
+      "1257250": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "きらいます"
+        }
+      ],
+      "1320410": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "しっけ"
+        }
+      ],
+      "1513320": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "ほかん"
+        }
+      ],
+      "2423250": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おこめ"
+        }
+      ],
+      "2850261": [
+        {
+          "start": 15,
+          "length": 7,
+          "reading": "ごちゅういください"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2691972",
+    "original": "お米2合炊いといて。",
+    "en": [
+      {
+        "id": "2692361",
+        "text": "Cook 2 Japanese cups of rice."
+      },
+      {
+        "id": "2693486",
+        "text": "Cook 300 grams of rice."
+      },
+      {
+        "id": "2693488",
+        "text": "Cook about 12 ounces of rice."
+      },
+      {
+        "id": "2693489",
+        "text": "Cook about one and a half cup of rice."
+      }
+    ],
+    "vocabIds": [
+      "2589680",
+      "2423250",
+      "1284320",
+      "1956260"
+    ],
+    "matches": {
+      "1284320": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "ごう"
+        }
+      ],
+      "1956260": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "ごう"
+        }
+      ],
+      "2423250": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おこめ"
+        }
+      ],
+      "2589680": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "かしいといて"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8667890",
+    "original": "お米は何キロ買ったの？",
+    "en": [
+      {
+        "id": "8424467",
+        "text": "How many kilograms of rice did you buy?"
+      }
+    ],
+    "vocabIds": [
+      "1473740",
+      "2423250",
+      "1577100"
+    ],
+    "matches": {
+      "1473740": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "かった"
+        }
+      ],
+      "1577100": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "なん"
+        }
+      ],
+      "2423250": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おこめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9176321",
+    "original": "君の国ではお米を食べるの？",
+    "en": [
+      {
+        "id": "9176205",
+        "text": "Do they eat rice in your country?"
+      }
+    ],
+    "vocabIds": [
+      "1358280",
+      "2423250",
+      "1247250",
+      "1592250"
+    ],
+    "matches": {
+      "1247250": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "きみ"
+        }
+      ],
+      "1358280": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "たべる"
+        }
+      ],
+      "1592250": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "くに"
+        }
+      ],
+      "2423250": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "おこめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9845468",
+    "original": "父はお米を作っています。",
+    "en": [
+      {
+        "id": "319336",
+        "text": "My father grows rice."
+      }
+    ],
+    "vocabIds": [
+      "1597890",
+      "2423250",
+      "1497610"
+    ],
+    "matches": {
+      "1497610": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ちち"
+        }
+      ],
+      "1597890": [
+        {
+          "start": 5,
+          "length": 6,
+          "reading": "つくっています"
+        }
+      ],
+      "2423250": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "おこめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9595768",
+    "original": "日本人はお米がない日々が続くと7割の確率で顔が死にます。",
+    "en": [
+      {
+        "id": "9980302",
+        "text": "If a Japanese person continues to live day by day without rice, there is a 70% chance their face will look like a corpse's."
+      }
+    ],
+    "vocabIds": [
+      "1310730",
+      "1464700",
+      "1405790",
+      "2423250",
+      "1602120",
+      "1205950",
+      "1606800",
+      "1217730"
+    ],
+    "matches": {
+      "1205950": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "かくりつ"
+        }
+      ],
+      "1217730": [
+        {
+          "start": 21,
+          "length": 1,
+          "reading": "かお"
+        }
+      ],
+      "1310730": [
+        {
+          "start": 23,
+          "length": 4,
+          "reading": "しにます"
+        }
+      ],
+      "1405790": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "つづくと"
+        }
+      ],
+      "1464700": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "にっぽんじん"
+        }
+      ],
+      "1602120": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "ひび"
+        }
+      ],
+      "1606800": [
+        {
+          "start": 16,
+          "length": 1,
+          "reading": "わり"
+        }
+      ],
+      "2423250": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "おべい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10049462",
+    "original": "お米はあるの？",
+    "en": [
+      {
+        "id": "54336",
+        "text": "Do you have rice?"
+      }
+    ],
+    "vocabIds": [
+      "2423250"
+    ],
+    "matches": {
+      "2423250": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おこめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10049464",
+    "original": "お米は残ってるの？",
+    "en": [
+      {
+        "id": "9564802",
+        "text": "Is there any rice left?"
+      }
+    ],
+    "vocabIds": [
+      "1304510",
+      "2423250"
+    ],
+    "matches": {
+      "1304510": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "のこってる"
+        }
+      ],
+      "2423250": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おこめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10169329",
+    "original": "日本酒はお米からできるんだ。",
+    "en": [
+      {
+        "id": "10166561",
+        "text": "Sake is made from rice."
+      }
+    ],
+    "vocabIds": [
+      "1464670",
+      "2423250"
+    ],
+    "matches": {
+      "1464670": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "にっぽんしゅ"
+        }
+      ],
+      "2423250": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "おべい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10198422",
+    "original": "お米のおいしい炊き方知ってる？",
+    "en": [
+      {
+        "id": "54337",
+        "text": "Do you know how to cook rice well?"
+      }
+    ],
+    "vocabIds": [
+      "1420470",
+      "1596830",
+      "2423250"
+    ],
+    "matches": {
+      "1420470": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "しってる"
+        }
+      ],
+      "1596830": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "たきかた"
+        }
+      ],
+      "2423250": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おべい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10680324",
+    "original": "お米はこうやって炊くんだ。",
+    "en": [
+      {
+        "id": "56325",
+        "text": "This is how we cook rice."
+      }
+    ],
+    "vocabIds": [
+      "2423250",
+      "1596830"
+    ],
+    "matches": {
+      "1596830": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "たく"
+        }
+      ],
+      "2423250": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おこめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10765198",
+    "original": "スーパーに行ってお米を買ってきたんだよ。",
+    "en": [
+      {
+        "id": "7734035",
+        "text": "I went to the supermarket and bought a bag of rice."
+      },
+      {
+        "id": "10765206",
+        "text": "I went to the supermarket and bought rice."
+      }
+    ],
+    "vocabIds": [
+      "1473740",
+      "1578850",
+      "2423250"
+    ],
+    "matches": {
+      "1473740": [
+        {
+          "start": 11,
+          "length": 5,
+          "reading": "かってきた"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "いって"
+        }
+      ],
+      "2423250": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "おこめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10833268",
+    "original": "お米を栽培しています。",
+    "en": [
+      {
+        "id": "9118218",
+        "text": "We grow rice."
+      },
+      {
+        "id": "5828944",
+        "text": "I grow rice."
+      }
+    ],
+    "vocabIds": [
+      "2423250",
+      "1294910"
+    ],
+    "matches": {
+      "1294910": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "さいばい"
+        }
+      ],
+      "2423250": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おこめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10833274",
+    "original": "お米を作ってるんだよ。",
+    "en": [
+      {
+        "id": "9118218",
+        "text": "We grow rice."
+      }
+    ],
+    "vocabIds": [
+      "1597890",
+      "2423250"
+    ],
+    "matches": {
+      "1597890": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "つくってる"
+        }
+      ],
+      "2423250": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おこめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10833281",
+    "original": "お米を育ててるんだよ。",
+    "en": [
+      {
+        "id": "9118218",
+        "text": "We grow rice."
+      }
+    ],
+    "vocabIds": [
+      "1160570",
+      "2423250"
+    ],
+    "matches": {
+      "1160570": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "そだててる"
+        }
+      ],
+      "2423250": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おこめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11052234",
+    "original": "お米はあったの？",
+    "en": [
+      {
+        "id": "9564777",
+        "text": "Did you have rice?"
+      }
+    ],
+    "vocabIds": [
+      "2423250"
+    ],
+    "matches": {
+      "2423250": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おこめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "81064",
+    "original": "味は日本のお米に比べて遜色はありません。",
+    "en": [
+      {
+        "id": "322651",
+        "text": "It tastes every bit as good as Japanese rice."
+      }
+    ],
+    "indices": "味(あじ) は 日本 の お米 に 比べる[01]{比べて} 遜色~ は 有る{ありません}",
+    "vocabIds": [
+      "1009840",
+      "1582710",
+      "2423250",
+      "1406870",
+      "1526960"
+    ],
+    "matches": {
+      "1009840": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "にくらべ"
+        }
+      ],
+      "1406870": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "そんしょく"
+        }
+      ],
+      "1526960": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "あじ"
+        }
+      ],
+      "1582710": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "にっぽん"
+        }
+      ],
+      "2423250": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "おこめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11457820",
+    "original": "お米を作ってます。",
+    "en": [
+      {
+        "id": "5828944",
+        "text": "I grow rice."
+      }
+    ],
+    "vocabIds": [
+      "1597890",
+      "2423250"
+    ],
+    "matches": {
+      "1597890": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "つくってます"
+        }
+      ],
+      "2423250": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おこめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12211405",
+    "original": "お米はグルテンを含んでいません。",
+    "en": [
+      {
+        "id": "9849350",
+        "text": "Rice does not contain gluten."
+      },
+      {
+        "id": "9883156",
+        "text": "Rice doesn't contain gluten."
+      }
+    ],
+    "vocabIds": [
+      "1216880",
+      "2423250"
+    ],
+    "matches": {
+      "1216880": [
+        {
+          "start": 8,
+          "length": 7,
+          "reading": "ふくんでいません"
+        }
+      ],
+      "2423250": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おこめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10661517",
+    "original": "家にお米や缶詰などストックしてる？",
+    "en": [
+      {
+        "id": "12600556",
+        "text": "Do you stock things like rice and canned foods at home?"
+      }
+    ],
+    "vocabIds": [
+      "2423250",
+      "1214560",
+      "1191730",
+      "2098290",
+      "2082160",
+      "2220300"
+    ],
+    "matches": {
+      "1191730": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ],
+      "1214560": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "かんづめ"
+        }
+      ],
+      "2082160": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ],
+      "2098290": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ],
+      "2220300": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ],
+      "2423250": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "おべい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10987945",
+    "original": "お米、つやっつやだね。",
+    "en": [
+      {
+        "id": "13677600",
+        "text": "The rice grain has a glossy shine, doesn't it?"
+      }
+    ],
+    "vocabIds": [
+      "2423250"
+    ],
+    "matches": {
+      "2423250": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おべい"
+        }
+      ]
+    }
+  }
+]

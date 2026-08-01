@@ -1,0 +1,138 @@
+[
+  {
+    "id": "83620",
+    "original": "兵庫県の人口はどれぐらいですか。",
+    "en": [
+      {
+        "id": "320096",
+        "text": "What is the population of Hyogo prefecture?"
+      }
+    ],
+    "indices": "兵庫県~ の 人口[01] は 何れくらい{どれぐらい} ですか",
+    "vocabIds": [
+      "1506400",
+      "1367300"
+    ],
+    "matches": {
+      "1367300": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "じんこう"
+        }
+      ],
+      "1506400": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ひょうごけん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "152923",
+    "original": "私は兵庫県に住んでいる。",
+    "en": [
+      {
+        "id": "261623",
+        "text": "I live in Hyogo."
+      },
+      {
+        "id": "521968",
+        "text": "I live in Hyogo Prefecture."
+      }
+    ],
+    "indices": "私(わたし)[01] は 兵庫県 に 住む{住んでいる}",
+    "vocabIds": [
+      "1334040",
+      "1506400",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1334040": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "すんでいる"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1506400": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "ひょうごけん"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10999317",
+    "original": "兵庫県の県庁所在地は神戸市です。",
+    "en": [
+      {
+        "id": "10999330",
+        "text": "Hyogo Prefecture's capital is Kobe City."
+      }
+    ],
+    "vocabIds": [
+      "1258890",
+      "1506400",
+      "2164600",
+      "1308090"
+    ],
+    "matches": {
+      "1258890": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "けんちょうしょざいち"
+        }
+      ],
+      "1308090": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "し"
+        }
+      ],
+      "1506400": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ひょうごけん"
+        }
+      ],
+      "2164600": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "こうべ"
+        }
+      ]
+    }
+  }
+]

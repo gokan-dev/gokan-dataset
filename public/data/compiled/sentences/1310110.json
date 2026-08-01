@@ -1,0 +1,103 @@
+[
+  {
+    "id": "115370",
+    "original": "彼は、翌日ほとんどホテルにいて、友人や支援者と話をした。",
+    "en": [
+      {
+        "id": "288301",
+        "text": "He stayed in his hotel most of the next day, talking to friends and supporters."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 翌日 殆ど{ほとんど} ホテル に 居る(いる)[02]{いて} 友人 や 支援者~ と 話(はなし) を 為る(する){した}",
+    "vocabIds": [
+      "1310110",
+      "1547510",
+      "1540150",
+      "1000420",
+      "1483070",
+      "1600900"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1310110": [
+        {
+          "start": 19,
+          "length": 3,
+          "reading": "しえんしゃ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1540150": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "ゆうじん"
+        }
+      ],
+      "1547510": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "よくじつ"
+        }
+      ],
+      "1600900": [
+        {
+          "start": 23,
+          "length": 1,
+          "reading": "はなし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "13535426",
+    "original": "私たちは支援者を探しています。",
+    "en": [
+      {
+        "id": "13535425",
+        "text": "We are looking for supporters."
+      }
+    ],
+    "vocabIds": [
+      "1593670",
+      "1311300",
+      "1310110"
+    ],
+    "matches": {
+      "1310110": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "しえんしゃ"
+        }
+      ],
+      "1311300": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1593670": [
+        {
+          "start": 8,
+          "length": 6,
+          "reading": "さがしています"
+        }
+      ]
+    }
+  }
+]

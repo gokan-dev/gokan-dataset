@@ -1,0 +1,211 @@
+{
+  "id": "1185190",
+  "writtenForm": {
+    "kanji": "下手",
+    "alternatives": [],
+    "containedKanji": [
+      "下",
+      "手"
+    ]
+  },
+  "reading": {
+    "primary": "したて",
+    "alternatives": [
+      "したで",
+      "へた",
+      "ヘタ",
+      "しもて"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 2048,
+    "kanaRank": 27380
+  },
+  "jlptLevel": 5,
+  "progression": {
+    "kklcStep": 46
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "humble position",
+        "inferior"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "underarm grip on opponent's belt"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "adj-na",
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "unskillful",
+        "poor",
+        "awkward"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "へた"
+      ]
+    },
+    {
+      "pos": [
+        "adj-na",
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "imprudent",
+        "untactful"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "へた"
+      ]
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "lower part",
+        "foot",
+        "lower direction"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "しもて"
+      ]
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "left part of the stage (audience's or camera's POV)",
+        "stage right (actor's POV)"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "しもて"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": true
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1185190",
+      "isBase": true,
+      "originalPrimaryReading": "したて",
+      "originalGlosses": [
+        "humble position",
+        "inferior"
+      ]
+    },
+    {
+      "id": "1185200",
+      "isBase": false,
+      "originalPrimaryReading": "へた",
+      "originalGlosses": [
+        "unskillful",
+        "poor",
+        "awkward"
+      ]
+    },
+    {
+      "id": "1185195",
+      "isBase": false,
+      "originalPrimaryReading": "しもて",
+      "originalGlosses": [
+        "lower part",
+        "foot",
+        "lower direction"
+      ]
+    }
+  ],
+  "components": [
+    "1184140",
+    "1327190"
+  ],
+  "parents": [
+    "1185250",
+    "1275840",
+    "1185210",
+    "1185230",
+    "1562370"
+  ]
+}

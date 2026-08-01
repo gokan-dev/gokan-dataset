@@ -1,0 +1,140 @@
+[
+  {
+    "id": "83237",
+    "original": "保険料は幾らですか。",
+    "en": [
+      {
+        "id": "320479",
+        "text": "How much is the premium?"
+      }
+    ],
+    "indices": "保険料 は 幾ら ですか",
+    "vocabIds": [
+      "1513510",
+      "1219980"
+    ],
+    "matches": {
+      "1219980": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "いくら"
+        }
+      ],
+      "1513510": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ほけんりょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "118272",
+    "original": "彼のバイオリンの保険料は年額２００ドルだ。",
+    "en": [
+      {
+        "id": "285392",
+        "text": "The insurance on his violin costs $200 a year."
+      }
+    ],
+    "indices": "彼(かれ)[01]{彼の} ヴァイオリン{バイオリン} の 保険料 は 年額~ 弗[01]{ドル} だ",
+    "vocabIds": [
+      "1513510",
+      "1000420",
+      "1468330",
+      "1461140",
+      "1557630"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれの"
+        }
+      ],
+      "1461140": [
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "に"
+        }
+      ],
+      "1468330": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "ねんがく"
+        }
+      ],
+      "1513510": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "ほけんりょう"
+        }
+      ],
+      "1557630": [
+        {
+          "start": 15,
+          "length": 1,
+          "reading": "ぜろ"
+        },
+        {
+          "start": 16,
+          "length": 1,
+          "reading": "ぜろ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "175145",
+    "original": "見積書には配送料と保険料についての記載がありませんでした。",
+    "en": [
+      {
+        "id": "239321",
+        "text": "We found that there is no information about freight or insurance in your quote."
+      }
+    ],
+    "indices": "見積書 には 配送料~ と 保険料~ に就いて{について} の 記載 が[01] 有る{ありませんでした}",
+    "vocabIds": [
+      "1259800",
+      "2794600",
+      "1513510",
+      "1223230"
+    ],
+    "matches": {
+      "1223230": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "きさい"
+        }
+      ],
+      "1259800": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "みつもりしょ"
+        }
+      ],
+      "1513510": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "ほけんりょう"
+        }
+      ],
+      "2794600": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "はいそうりょう"
+        }
+      ]
+    }
+  }
+]

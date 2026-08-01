@@ -1,0 +1,111 @@
+[
+  {
+    "id": "182200",
+    "original": "去年、中耳炎をわずらいました。",
+    "en": [
+      {
+        "id": "19410",
+        "text": "I had otitis media last year."
+      },
+      {
+        "id": "917887",
+        "text": "Last year I suffered from an inflammation of my middle ear."
+      }
+    ],
+    "indices": "去年 中耳炎~ を 患う{わずらいました}",
+    "vocabIds": [
+      "1424440",
+      "1231690"
+    ],
+    "matches": {
+      "1231690": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きょねん"
+        }
+      ],
+      "1424440": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "ちゅうじえん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10335194",
+    "original": "中耳炎になったことはありますか？",
+    "en": [
+      {
+        "id": "5810687",
+        "text": "Do you have a history of ear infections?"
+      }
+    ],
+    "vocabIds": [
+      "1424440"
+    ],
+    "matches": {
+      "1424440": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ちゅうじえん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10335195",
+    "original": "中耳炎の既往歴はありますか？",
+    "en": [
+      {
+        "id": "5810687",
+        "text": "Do you have a history of ear infections?"
+      }
+    ],
+    "vocabIds": [
+      "1424440",
+      "1790730"
+    ],
+    "matches": {
+      "1424440": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ちゅうじえん"
+        }
+      ],
+      "1790730": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "きおうれき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10668476",
+    "original": "よく中耳炎になるんです。",
+    "en": [
+      {
+        "id": "264396",
+        "text": "I often have ear infections."
+      }
+    ],
+    "vocabIds": [
+      "1424440"
+    ],
+    "matches": {
+      "1424440": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "ちゅうじえん"
+        }
+      ]
+    }
+  }
+]

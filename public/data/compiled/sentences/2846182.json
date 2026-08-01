@@ -1,0 +1,153 @@
+[
+  {
+    "id": "203693",
+    "original": "タクシー代は君と分担しよう。",
+    "en": [
+      {
+        "id": "40931",
+        "text": "I will share the cost of the taxi with you."
+      }
+    ],
+    "indices": "タクシー 代(だい)[01] は 君(きみ)[01] と 分担 為る(する){しよう}",
+    "vocabIds": [
+      "2846182",
+      "1503950",
+      "1247250"
+    ],
+    "matches": {
+      "1247250": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "きみ"
+        }
+      ],
+      "1503950": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "ぶんたん"
+        }
+      ],
+      "2846182": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "たくしーだい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11395216",
+    "original": "タクシー代は持ってるの？",
+    "en": [
+      {
+        "id": "7911208",
+        "text": "Do you have money for the taxi?"
+      },
+      {
+        "id": "7911210",
+        "text": "Do you have money for a taxi?"
+      }
+    ],
+    "vocabIds": [
+      "2846182",
+      "1315720"
+    ],
+    "matches": {
+      "1315720": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "もってる"
+        }
+      ],
+      "2846182": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "たくしーだい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11395217",
+    "original": "タクシー代はあるの？",
+    "en": [
+      {
+        "id": "7911208",
+        "text": "Do you have money for the taxi?"
+      }
+    ],
+    "vocabIds": [
+      "2846182"
+    ],
+    "matches": {
+      "2846182": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "たくしーだい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11484022",
+    "original": "タクシー代が足りない。",
+    "en": [
+      {
+        "id": "4115122",
+        "text": "I don't have enough money for a taxi."
+      }
+    ],
+    "vocabIds": [
+      "2846182",
+      "2143050"
+    ],
+    "matches": {
+      "2143050": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "たりない"
+        }
+      ],
+      "2846182": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "たくしーだい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11561890",
+    "original": "タクシー代あるの？",
+    "en": [
+      {
+        "id": "7911210",
+        "text": "Do you have money for a taxi?"
+      },
+      {
+        "id": "12473996",
+        "text": "Do you have money for a cab?"
+      }
+    ],
+    "vocabIds": [
+      "2846182"
+    ],
+    "matches": {
+      "2846182": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "たくしーだい"
+        }
+      ]
+    }
+  }
+]

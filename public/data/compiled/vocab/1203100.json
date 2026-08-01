@@ -1,0 +1,148 @@
+{
+  "id": "1203100",
+  "writtenForm": {
+    "kanji": "貝",
+    "alternatives": [
+      "介"
+    ],
+    "containedKanji": [
+      "貝"
+    ]
+  },
+  "reading": {
+    "primary": "かい",
+    "alternatives": [
+      "バイ",
+      "ばい"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 10245
+  },
+  "jlptLevel": 2,
+  "progression": {
+    "kklcStep": 82
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "shellfish"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "seashell",
+        "shell"
+      ],
+      "related": {
+        "compounds": [
+          "貝殻"
+        ]
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "Japanese Babylon (Babylonia japonica)",
+        "Japanese ivory shell"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "バイ"
+      ]
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": true,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "abbr"
+        ]
+      },
+      "glosses": [
+        "spinning top (traditionally made from a Japanese Babylon shell)"
+      ],
+      "related": {
+        "compounds": [
+          "貝独楽"
+        ]
+      },
+      "appliesToReadings": [
+        "バイ"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1203100",
+      "isBase": true,
+      "originalPrimaryReading": "かい",
+      "originalGlosses": [
+        "shellfish"
+      ]
+    },
+    {
+      "id": "2246880",
+      "isBase": false,
+      "originalPrimaryReading": "バイ",
+      "originalGlosses": [
+        "Japanese Babylon (Babylonia japonica)",
+        "Japanese ivory shell"
+      ]
+    }
+  ],
+  "parents": [
+    "1203130",
+    "1132260",
+    "2182250"
+  ]
+}

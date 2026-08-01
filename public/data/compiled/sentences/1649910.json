@@ -1,0 +1,121 @@
+[
+  {
+    "id": "121608",
+    "original": "馬を水辺に連れて行くことは出来ても、馬に水を飲ませることは出来ない。",
+    "en": [
+      {
+        "id": "282397",
+        "text": "You can take a horse to water, but you can't make him drink."
+      }
+    ],
+    "indices": "馬[01] を 水辺~ に 連れて行く 事(こと){こと} は 出来る{出来て} も 馬[01] に 水(みず) を 飲ませる 事(こと){こと} は 出来る{出来ない}",
+    "vocabIds": [
+      "1598220",
+      "1613430",
+      "1340450",
+      "1649910",
+      "1471560",
+      "1371260"
+    ],
+    "matches": {
+      "1340450": [
+        {
+          "start": 29,
+          "length": 4,
+          "reading": "できない"
+        },
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "できて"
+        }
+      ],
+      "1371260": [
+        {
+          "start": 20,
+          "length": 1,
+          "reading": "みず"
+        }
+      ],
+      "1471560": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "うま"
+        },
+        {
+          "start": 18,
+          "length": 1,
+          "reading": "うま"
+        }
+      ],
+      "1598220": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "つれていく"
+        }
+      ],
+      "1613430": [
+        {
+          "start": 22,
+          "length": 4,
+          "reading": "のませる"
+        }
+      ],
+      "1649910": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "みずべ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10550235",
+    "original": "もし水辺にすむのなら子供たちに泳ぎを教えられるよ。",
+    "en": [
+      {
+        "id": "10550212",
+        "text": "If you live near water, you should teach your children to swim."
+      }
+    ],
+    "vocabIds": [
+      "1307870",
+      "1236900",
+      "1649910",
+      "1613570"
+    ],
+    "matches": {
+      "1236900": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "おしえ"
+        }
+      ],
+      "1307870": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "こどもたち"
+        }
+      ],
+      "1613570": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "およぎ"
+        }
+      ],
+      "1649910": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "みずべ"
+        }
+      ]
+    }
+  }
+]

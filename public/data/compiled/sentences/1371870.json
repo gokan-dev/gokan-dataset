@@ -1,0 +1,118 @@
+[
+  {
+    "id": "143654",
+    "original": "水虫が痛みます。",
+    "en": [
+      {
+        "id": "270913",
+        "text": "My athlete's foot hurts."
+      }
+    ],
+    "indices": "水虫[01]~ が 痛む[01]{痛みます}",
+    "vocabIds": [
+      "1432710",
+      "1371870"
+    ],
+    "matches": {
+      "1371870": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "みずむし"
+        }
+      ],
+      "1432710": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "いたみます"
+        }
+      ]
+    }
+  },
+  {
+    "id": "143655",
+    "original": "水虫が兄の悩みの種なんです。",
+    "en": [
+      {
+        "id": "270912",
+        "text": "Athlete's foot is my brother's problem."
+      }
+    ],
+    "indices": "水虫[01] が 兄(あに) の 悩み の 種(たね)[05] なんです",
+    "vocabIds": [
+      "1899400",
+      "1371870",
+      "1249900"
+    ],
+    "matches": {
+      "1249900": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "あに"
+        }
+      ],
+      "1371870": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "みずむし"
+        }
+      ],
+      "1899400": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "なやみのたね"
+        }
+      ]
+    }
+  },
+  {
+    "id": "143656",
+    "original": "水虫がひどいのです。",
+    "en": [
+      {
+        "id": "270911",
+        "text": "I have bad athlete's foot."
+      }
+    ],
+    "indices": "水虫[01] が 酷い(ひどい){ひどい} のです",
+    "vocabIds": [
+      "1371870"
+    ],
+    "matches": {
+      "1371870": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "みずむし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "143657",
+    "original": "水虫がかゆいのです。",
+    "en": [
+      {
+        "id": "270910",
+        "text": "I have athlete's foot and it's very itchy."
+      }
+    ],
+    "indices": "水虫[01] が 痒い{かゆい} のです",
+    "vocabIds": [
+      "1371870"
+    ],
+    "matches": {
+      "1371870": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "みずむし"
+        }
+      ]
+    }
+  }
+]

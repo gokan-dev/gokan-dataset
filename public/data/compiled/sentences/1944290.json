@@ -1,0 +1,116 @@
+[
+  {
+    "id": "101621",
+    "original": "彼は得票数で彼女と激しく競いあっている。",
+    "en": [
+      {
+        "id": "302072",
+        "text": "He is seriously competing with her in the polling score."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 得票数~ で(#2028980) 彼女[01] と 激しい{激しく} 競う[01]{競い} 合う{あっている}",
+    "vocabIds": [
+      "1234040",
+      "1944290",
+      "1600720",
+      "1483150",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1234040": [
+        {
+          "start": 12,
+          "length": 7,
+          "reading": "きそいあっている"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1600720": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "はげしく"
+        }
+      ],
+      "1944290": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "とくひょうすう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "869876",
+    "original": "ブッシュ氏の得票数はゴア氏を若干上回った。",
+    "en": [
+      {
+        "id": "804339",
+        "text": "Mr. Bush had slightly more votes than Mr. Gore."
+      }
+    ],
+    "vocabIds": [
+      "1352770",
+      "1944290",
+      "1324330",
+      "2101130"
+    ],
+    "matches": {
+      "1324330": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "じゃっかん"
+        }
+      ],
+      "1352770": [
+        {
+          "start": 16,
+          "length": 4,
+          "reading": "うわまわった"
+        }
+      ],
+      "1944290": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "とくひょうすう"
+        }
+      ],
+      "2101130": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "し"
+        },
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "し"
+        }
+      ]
+    }
+  }
+]

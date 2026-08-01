@@ -1,0 +1,63 @@
+[
+  {
+    "id": "224716",
+    "original": "ここが地元の人気スポット？",
+    "en": [
+      {
+        "id": "62051",
+        "text": "Is this one of the local hot spots?"
+      }
+    ],
+    "indices": "此処{ここ} が 地元[02]{地元の} 人気(にんき) スポット[02]~",
+    "vocabIds": [
+      "2844145",
+      "1421060"
+    ],
+    "matches": {
+      "1421060": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "じもと"
+        }
+      ],
+      "2844145": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "にんきすぽっと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2454475",
+    "original": "グランド・キャニオンはアメリカ有数の人気スポットだ。",
+    "en": [
+      {
+        "id": "62873",
+        "text": "The Grand Canyon is one of the most popular places in the USA."
+      }
+    ],
+    "vocabIds": [
+      "2844145",
+      "1541430"
+    ],
+    "matches": {
+      "1541430": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "ゆうすう"
+        }
+      ],
+      "2844145": [
+        {
+          "start": 18,
+          "length": 6,
+          "reading": "にんきすぽっと"
+        }
+      ]
+    }
+  }
+]

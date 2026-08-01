@@ -1,0 +1,221 @@
+{
+  "id": "1568630",
+  "writtenForm": {
+    "kanji": "洒落",
+    "alternatives": [
+      "灑落"
+    ],
+    "containedKanji": [
+      "洒",
+      "落"
+    ]
+  },
+  "reading": {
+    "primary": "しゃらく",
+    "alternatives": [
+      "しゃら",
+      "しゃれ",
+      "シャレ"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 21224,
+    "kanaRank": 60587
+  },
+  "jlptLevel": 1,
+  "progression": {
+    "kklcStep": 798
+  },
+  "senses": [
+    {
+      "pos": [
+        "adj-na",
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "free and easy",
+        "open-hearted",
+        "relaxed",
+        "not fussy",
+        "frank"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "adj-nari"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "impertinent"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "しゃら"
+      ]
+    },
+    {
+      "pos": [
+        "adj-nari"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "fresh",
+        "fashionable"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "しゃら"
+      ]
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "prostitute"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "しゃら"
+      ]
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "joke",
+        "pun",
+        "jest",
+        "witticism",
+        "wordplay"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "しゃれ"
+      ]
+    },
+    {
+      "pos": [
+        "adj-na"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "smartly dressed",
+        "stylish",
+        "fashion-conscious",
+        "refined"
+      ],
+      "related": {
+        "compounds": [
+          "お洒落"
+        ]
+      },
+      "appliesToReadings": [
+        "しゃれ"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1568630",
+      "isBase": true,
+      "originalPrimaryReading": "しゃらく",
+      "originalGlosses": [
+        "free and easy",
+        "open-hearted",
+        "relaxed"
+      ]
+    },
+    {
+      "id": "2702970",
+      "isBase": false,
+      "originalPrimaryReading": "しゃら",
+      "originalGlosses": [
+        "impertinent"
+      ]
+    },
+    {
+      "id": "1568640",
+      "isBase": false,
+      "originalPrimaryReading": "しゃれ",
+      "originalGlosses": [
+        "joke",
+        "pun",
+        "jest"
+      ]
+    }
+  ],
+  "parents": [
+    "1002770",
+    "1568670",
+    "1409050",
+    "1152630"
+  ]
+}

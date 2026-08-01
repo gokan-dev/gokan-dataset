@@ -1,0 +1,511 @@
+[
+  {
+    "id": "92552",
+    "original": "彼女はその家に何回か足を運んだ。",
+    "en": [
+      {
+        "id": "311158",
+        "text": "She went to the house several times."
+      }
+    ],
+    "indices": "彼女[01] は 其の[01]{その} 家(いえ)[01] に 何回か 足を運ぶ{足を運んだ}",
+    "vocabIds": [
+      "2262450",
+      "1172660",
+      "1483150",
+      "1191730",
+      "2098290",
+      "2082160",
+      "2220300",
+      "1404630"
+    ],
+    "matches": {
+      "1172660": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "はこんだ"
+        }
+      ],
+      "1191730": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ],
+      "1404630": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "あし"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "2082160": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ],
+      "2098290": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ],
+      "2220300": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ],
+      "2262450": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "なんかいか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "103501",
+    "original": "彼は水にもぐる前に何回か深呼吸をした。",
+    "en": [
+      {
+        "id": "300192",
+        "text": "He took some deep breaths before he dived."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 水(みず) に 潜る(もぐる){もぐる} 前(まえ) に 何回か 深呼吸 を 為る(する){した}",
+    "vocabIds": [
+      "2262450",
+      "1362720",
+      "1392590",
+      "1000420",
+      "1483070",
+      "1371260"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1362720": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "しんこきゅう"
+        }
+      ],
+      "1371260": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "みず"
+        }
+      ],
+      "1392590": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "まえに"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "2262450": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "なんかいか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "126892",
+    "original": "地震のあと小さなゆれが何回かあった。",
+    "en": [
+      {
+        "id": "277198",
+        "text": "Several slight shocks followed the earthquake."
+      }
+    ],
+    "indices": "地震 の 後(あと){あと} 小さな 揺れ{ゆれ}~ が 何回か 有る{あった}",
+    "vocabIds": [
+      "2136180",
+      "2262450",
+      "1421210"
+    ],
+    "matches": {
+      "1421210": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じしん"
+        }
+      ],
+      "2136180": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "ちいさな"
+        }
+      ],
+      "2262450": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "なんかいか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "187531",
+    "original": "何回か当たりはあったが針にはかからなかった。",
+    "en": [
+      {
+        "id": "24667",
+        "text": "I got several bites, but could not hook a fish."
+      },
+      {
+        "id": "10539912",
+        "text": "I got several bites, but couldn't hook a fish."
+      }
+    ],
+    "indices": "何回か~ 当たり~ は 有る{あった} が 針[02] には 掛かる[12]{かからなかった}",
+    "vocabIds": [
+      "2262450",
+      "1448780",
+      "1366210"
+    ],
+    "matches": {
+      "1366210": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "はり"
+        }
+      ],
+      "1448780": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "あたり"
+        }
+      ],
+      "2262450": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "なんかいか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "213598",
+    "original": "そこへは何回か行ったことがある。",
+    "en": [
+      {
+        "id": "50885",
+        "text": "I've been there a few times."
+      },
+      {
+        "id": "12816175",
+        "text": "I've been there a number of times."
+      }
+    ],
+    "indices": "其処(そこ){そこ} へ は 何回か 行く[01]{行った} 事がある{ことがある}",
+    "vocabIds": [
+      "2262450",
+      "1589060"
+    ],
+    "matches": {
+      "1589060": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "おこなった"
+        }
+      ],
+      "2262450": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "なんかいか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "216025",
+    "original": "ジムはアンを何回か招待した。",
+    "en": [
+      {
+        "id": "53326",
+        "text": "Jim has asked Anne out several times."
+      }
+    ],
+    "indices": "は を 何回か 招待 為る(する){した}",
+    "vocabIds": [
+      "2262450",
+      "1349610"
+    ],
+    "matches": {
+      "1349610": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "しょうたい"
+        }
+      ],
+      "2262450": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "なんかいか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "219665",
+    "original": "この本は何回か翻訳されている。",
+    "en": [
+      {
+        "id": "56986",
+        "text": "This book has undergone several translations."
+      }
+    ],
+    "indices": "此の{この} 本(ほん)[01] は 何回か 翻訳[01] 為れる{されている}",
+    "vocabIds": [
+      "2262450",
+      "1523400",
+      "1260670",
+      "1522150"
+    ],
+    "matches": {
+      "1260670": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ほん"
+        }
+      ],
+      "1522150": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ほん"
+        }
+      ],
+      "1523400": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ほんやく"
+        }
+      ],
+      "2262450": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "なんかいか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "4064936",
+    "original": "ボストンには何回か行ったことがあります。",
+    "en": [
+      {
+        "id": "4101242",
+        "text": "I've been to Boston countless times."
+      }
+    ],
+    "vocabIds": [
+      "2262450",
+      "1589060"
+    ],
+    "matches": {
+      "1589060": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "おこなった"
+        }
+      ],
+      "2262450": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "なんかいか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "7477546",
+    "original": "僕はベルを何回か鳴らした。",
+    "en": [
+      {
+        "id": "7476896",
+        "text": "I rang the bell several times."
+      }
+    ],
+    "vocabIds": [
+      "1532880",
+      "2262450",
+      "1521400",
+      "2228300"
+    ],
+    "matches": {
+      "1521400": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ],
+      "1532880": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "ならした"
+        }
+      ],
+      "2228300": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ],
+      "2262450": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "なんかいか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12068003",
+    "original": "何回かやってみたんだけどね。",
+    "en": [
+      {
+        "id": "9307990",
+        "text": "I tried doing it several times."
+      },
+      {
+        "id": "12069295",
+        "text": "I've tried doing it a number of times."
+      }
+    ],
+    "vocabIds": [
+      "2262450"
+    ],
+    "matches": {
+      "2262450": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "なんかいか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3686372",
+    "original": "私は何回か彼を見ている。",
+    "en": [
+      {
+        "id": "12440683",
+        "text": "I've seen him several times."
+      }
+    ],
+    "vocabIds": [
+      "1259290",
+      "2262450",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1259290": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "みている"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2262450": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "なんかいか"
+        }
+      ]
+    }
+  }
+]

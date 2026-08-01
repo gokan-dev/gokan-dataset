@@ -1,0 +1,581 @@
+[
+  {
+    "id": "77075",
+    "original": "蝙蝠は鳥ではなく哺乳類だ。",
+    "en": [
+      {
+        "id": "326644",
+        "text": "A bat is not a bird, but a mammal."
+      },
+      {
+        "id": "3951875",
+        "text": "Bats are not birds, they're mammals."
+      }
+    ],
+    "indices": "蝙蝠[01] は 鳥[01] だ{ではなく} 哺乳類 だ",
+    "vocabIds": [
+      "1565260",
+      "1572090",
+      "1430250"
+    ],
+    "matches": {
+      "1430250": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "とり"
+        }
+      ],
+      "1565260": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "ほにゅうるい"
+        }
+      ],
+      "1572090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こうもり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "176003",
+    "original": "鯨は哺乳類に分類される。",
+    "en": [
+      {
+        "id": "238462",
+        "text": "Whales are classified as mammals."
+      }
+    ],
+    "indices": "鯨(くじら) は 哺乳類 に 分類 為れる{される}",
+    "vocabIds": [
+      "1565260",
+      "1504460",
+      "1253270",
+      "2846155"
+    ],
+    "matches": {
+      "1253270": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "くじら"
+        }
+      ],
+      "1504460": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ぶんるい"
+        }
+      ],
+      "1565260": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "ほにゅうるい"
+        }
+      ],
+      "2846155": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "くじら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "176004",
+    "original": "鯨は哺乳類である。",
+    "en": [
+      {
+        "id": "238461",
+        "text": "A whale is a mammal."
+      },
+      {
+        "id": "5619999",
+        "text": "Whales are mammals."
+      },
+      {
+        "id": "7328334",
+        "text": "The whale is a mammal."
+      }
+    ],
+    "indices": "鯨(くじら) は 哺乳類 である",
+    "vocabIds": [
+      "1565260",
+      "1253270",
+      "2846155"
+    ],
+    "matches": {
+      "1253270": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "くじら"
+        }
+      ],
+      "1565260": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "ほにゅうるい"
+        }
+      ],
+      "2846155": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "くじら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "176012",
+    "original": "鯨は魚ではなくて、哺乳類です。",
+    "en": [
+      {
+        "id": "238450",
+        "text": "The whale is not a fish but a mammal."
+      }
+    ],
+    "indices": "鯨(くじら) は 魚 だ{ではなくて} 哺乳類 です",
+    "vocabIds": [
+      "1565260",
+      "1253270",
+      "2846155",
+      "1578010"
+    ],
+    "matches": {
+      "1253270": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "くじら"
+        }
+      ],
+      "1565260": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "ほにゅうるい"
+        }
+      ],
+      "1578010": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "さかな"
+        }
+      ],
+      "2846155": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "くじら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "176014",
+    "original": "鯨は海に住む巨大な哺乳類である。",
+    "en": [
+      {
+        "id": "238452",
+        "text": "The whale is a very large mammal which lives in the sea."
+      },
+      {
+        "id": "395401",
+        "text": "Whales are very large mammals that live in the ocean."
+      },
+      {
+        "id": "9768188",
+        "text": "Whales are very large mammals that live in the sea."
+      },
+      {
+        "id": "9768187",
+        "text": "The whale is a very large mammal that lives in the sea."
+      }
+    ],
+    "indices": "鯨(くじら) は 海 に 住む 巨大{巨大な} 哺乳類 である",
+    "vocabIds": [
+      "1565260",
+      "1334040",
+      "1232180",
+      "1253270",
+      "2846155",
+      "1201190"
+    ],
+    "matches": {
+      "1201190": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "うみ"
+        }
+      ],
+      "1232180": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "きょだい"
+        }
+      ],
+      "1253270": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "くじら"
+        }
+      ],
+      "1334040": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "すむ"
+        }
+      ],
+      "1565260": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "ほにゅうるい"
+        }
+      ],
+      "2846155": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "くじら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "228453",
+    "original": "イルカは哺乳類である。",
+    "en": [
+      {
+        "id": "65812",
+        "text": "A dolphin is a mammal."
+      }
+    ],
+    "indices": "海豚{イルカ} は 哺乳類 である",
+    "vocabIds": [
+      "1565260"
+    ],
+    "matches": {
+      "1565260": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "ほにゅうるい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "228454",
+    "original": "イルカは哺乳類の一種です。",
+    "en": [
+      {
+        "id": "65811",
+        "text": "A dolphin is a kind of mammal."
+      }
+    ],
+    "indices": "海豚{イルカ}~ は 哺乳類~ の 一種[01]~ です",
+    "vocabIds": [
+      "1565260",
+      "1163170"
+    ],
+    "matches": {
+      "1163170": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "いちしゅ"
+        }
+      ],
+      "1565260": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "ほにゅうるい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1614436",
+    "original": "チーズは、ウシ、ヤギ、ヒツジやその他の哺乳類の乳から作られる固形の食べ物だ。",
+    "en": [
+      {
+        "id": "2188",
+        "text": "Cheese is a solid food made from the milk of cows, goats, sheep, and other mammals."
+      }
+    ],
+    "vocabIds": [
+      "1006900",
+      "1565260",
+      "1358340",
+      "1597890",
+      "1266590",
+      "1464980"
+    ],
+    "matches": {
+      "1006900": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "そのた"
+        }
+      ],
+      "1266590": [
+        {
+          "start": 30,
+          "length": 2,
+          "reading": "こけい"
+        }
+      ],
+      "1358340": [
+        {
+          "start": 33,
+          "length": 3,
+          "reading": "たべもの"
+        }
+      ],
+      "1464980": [
+        {
+          "start": 23,
+          "length": 1,
+          "reading": "ちち"
+        }
+      ],
+      "1565260": [
+        {
+          "start": 19,
+          "length": 3,
+          "reading": "ほにゅうるい"
+        }
+      ],
+      "1597890": [
+        {
+          "start": 26,
+          "length": 2,
+          "reading": "つくら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "4585697",
+    "original": "鯨は海に住む巨大な哺乳類です。",
+    "en": [
+      {
+        "id": "238452",
+        "text": "The whale is a very large mammal which lives in the sea."
+      },
+      {
+        "id": "395401",
+        "text": "Whales are very large mammals that live in the ocean."
+      },
+      {
+        "id": "9768188",
+        "text": "Whales are very large mammals that live in the sea."
+      },
+      {
+        "id": "9768187",
+        "text": "The whale is a very large mammal that lives in the sea."
+      }
+    ],
+    "vocabIds": [
+      "1565260",
+      "1334040",
+      "1232180",
+      "1253270",
+      "2846155",
+      "1201190"
+    ],
+    "matches": {
+      "1201190": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "うみ"
+        }
+      ],
+      "1232180": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "きょだい"
+        }
+      ],
+      "1253270": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "くじら"
+        }
+      ],
+      "1334040": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "すむ"
+        }
+      ],
+      "1565260": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "ほにゅうるい"
+        }
+      ],
+      "2846155": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "くじら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10842088",
+    "original": "人間は哺乳類です。",
+    "en": [
+      {
+        "id": "9152356",
+        "text": "Humans are mammals."
+      }
+    ],
+    "vocabIds": [
+      "1565260",
+      "1366770"
+    ],
+    "matches": {
+      "1366770": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "にんげん"
+        }
+      ],
+      "1565260": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "ほにゅうるい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10906630",
+    "original": "イルカはその姿から魚のように見えるかもしれないが、実は哺乳類に属する動物だ。",
+    "en": [
+      {
+        "id": "9149838",
+        "text": "By their appearance, dolphins might look like fish, but they actually belong to the mammalian family."
+      }
+    ],
+    "vocabIds": [
+      "1259140",
+      "1565260",
+      "1405710",
+      "2410030",
+      "1320830",
+      "1451470",
+      "1307710",
+      "1578010"
+    ],
+    "matches": {
+      "1259140": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "みえる"
+        }
+      ],
+      "1307710": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "すがた"
+        }
+      ],
+      "1320830": [
+        {
+          "start": 25,
+          "length": 2,
+          "reading": "じつは"
+        }
+      ],
+      "1405710": [
+        {
+          "start": 31,
+          "length": 3,
+          "reading": "ぞくする"
+        }
+      ],
+      "1451470": [
+        {
+          "start": 34,
+          "length": 2,
+          "reading": "どうぶつ"
+        }
+      ],
+      "1565260": [
+        {
+          "start": 27,
+          "length": 3,
+          "reading": "ほにゅうるい"
+        }
+      ],
+      "1578010": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "さかな"
+        }
+      ],
+      "2410030": [
+        {
+          "start": 31,
+          "length": 3,
+          "reading": "ぞくする"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11831419",
+    "original": "イルカとクジラは哺乳類です。",
+    "en": [
+      {
+        "id": "11167554",
+        "text": "Dolphins and whales are mammals."
+      }
+    ],
+    "vocabIds": [
+      "1565260"
+    ],
+    "matches": {
+      "1565260": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "ほにゅうるい"
+        }
+      ]
+    }
+  }
+]

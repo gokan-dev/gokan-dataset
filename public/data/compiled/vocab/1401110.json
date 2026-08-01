@@ -1,0 +1,144 @@
+{
+  "id": "1401110",
+  "writtenForm": {
+    "kanji": "相対",
+    "alternatives": [
+      "双対"
+    ],
+    "containedKanji": [
+      "相",
+      "対"
+    ]
+  },
+  "reading": {
+    "primary": "そうたい",
+    "alternatives": [
+      "あいたい"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 9067
+  },
+  "jlptLevel": 1,
+  "progression": {
+    "kklcStep": 682
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "relativity"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "adj-f"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "relative"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n",
+        "vs",
+        "vi"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "facing (e.g. a problem)",
+        "confronting"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "involving only the parties concerned",
+        "tete-a-tete"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "あいたい"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1401110",
+      "isBase": true,
+      "originalPrimaryReading": "そうたい",
+      "originalGlosses": [
+        "relativity"
+      ]
+    },
+    {
+      "id": "1401100",
+      "isBase": false,
+      "originalPrimaryReading": "あいたい",
+      "originalGlosses": [
+        "involving only the parties concerned",
+        "tete-a-tete"
+      ]
+    }
+  ],
+  "components": [
+    "1400800",
+    "1409800"
+  ],
+  "parents": [
+    "1401180",
+    "1401160",
+    "2105730",
+    "2458510"
+  ]
+}

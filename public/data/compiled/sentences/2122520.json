@@ -1,0 +1,100 @@
+[
+  {
+    "id": "86395",
+    "original": "彼女は夕食後テーブルから食器類を片付けた。",
+    "en": [
+      {
+        "id": "317316",
+        "text": "She cleared the table of the dishes after dinner."
+      },
+      {
+        "id": "1259427",
+        "text": "She cleared the dishes from the table after dinner."
+      }
+    ],
+    "indices": "彼女[01] は 夕食後 テーブル から 食器 類(るい) を 片付ける{片付けた}",
+    "vocabIds": [
+      "1511790",
+      "1542740",
+      "2122520",
+      "1483150"
+    ],
+    "matches": {
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1511790": [
+        {
+          "start": 16,
+          "length": 4,
+          "reading": "かたづけた"
+        }
+      ],
+      "1542740": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "ゆうしょくご"
+        }
+      ],
+      "2122520": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "しょっきるい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "125434",
+    "original": "弟は銀の食器類を磨いた。",
+    "en": [
+      {
+        "id": "278558",
+        "text": "My brother polished the silver."
+      }
+    ],
+    "indices": "弟[01] は 銀(ぎん)[01] の 食器~ 類(るい) を 磨く[01]{磨いた}~",
+    "vocabIds": [
+      "2122520",
+      "1523940",
+      "1581930",
+      "1595090"
+    ],
+    "matches": {
+      "1523940": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "みがいた"
+        }
+      ],
+      "1581930": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "おとうと"
+        }
+      ],
+      "1595090": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ぎん"
+        }
+      ],
+      "2122520": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "しょっきるい"
+        }
+      ]
+    }
+  }
+]

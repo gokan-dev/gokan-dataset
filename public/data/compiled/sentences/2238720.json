@@ -1,0 +1,99 @@
+[
+  {
+    "id": "234620",
+    "original": "あいつは口のうまいやつだ。",
+    "en": [
+      {
+        "id": "71996",
+        "text": "He has a smooth tongue."
+      },
+      {
+        "id": "1748473",
+        "text": "He's a smooth talker."
+      }
+    ],
+    "indices": "彼奴(あいつ)[01]{あいつ} は 口のうまい~ 奴(やつ)[01]{やつ} だ",
+    "vocabIds": [
+      "2238720"
+    ],
+    "matches": {
+      "2238720": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "くちのうまい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1545575",
+    "original": "営業マンは口のうまい人が多いから、あまり信用しない方がいいと思うよ。",
+    "en": [
+      {
+        "id": "1556819",
+        "text": "Many salesmen are smooth talkers, so I think you shouldn't trust them much."
+      }
+    ],
+    "vocabIds": [
+      "2238720",
+      "1173440",
+      "2160680",
+      "1407460",
+      "1359620",
+      "1589350",
+      "1580640"
+    ],
+    "matches": {
+      "1173440": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "えいぎょうまん"
+        }
+      ],
+      "1359620": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "しんよう"
+        }
+      ],
+      "1407460": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "おおいから"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ],
+      "1589350": [
+        {
+          "start": 30,
+          "length": 2,
+          "reading": "おもう"
+        }
+      ],
+      "2160680": [
+        {
+          "start": 25,
+          "length": 4,
+          "reading": "ほうがいい"
+        }
+      ],
+      "2238720": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "くちのうまい"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,105 @@
+{
+  "id": "1569810",
+  "writtenForm": {
+    "kanji": "眩暈",
+    "alternatives": [
+      "目眩",
+      "目まい",
+      "目眩い"
+    ],
+    "containedKanji": [
+      "眩",
+      "暈"
+    ]
+  },
+  "reading": {
+    "primary": "めまい",
+    "alternatives": [
+      "げんうん"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 13078,
+    "kanaRank": 13692
+  },
+  "progression": {
+    "kklcStep": 99999
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "dizziness",
+        "giddiness",
+        "vertigo"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "dizziness",
+        "giddiness",
+        "vertigo"
+      ],
+      "related": {
+        "compounds": [
+          "めまい"
+        ]
+      },
+      "appliesToReadings": [
+        "げんうん"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1569810",
+      "isBase": true,
+      "originalPrimaryReading": "めまい",
+      "originalGlosses": [
+        "dizziness",
+        "giddiness",
+        "vertigo"
+      ]
+    },
+    {
+      "id": "2863071",
+      "isBase": false,
+      "originalPrimaryReading": "げんうん",
+      "originalGlosses": [
+        "dizziness",
+        "giddiness",
+        "vertigo"
+      ]
+    }
+  ]
+}

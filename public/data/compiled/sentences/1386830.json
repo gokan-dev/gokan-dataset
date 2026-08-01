@@ -1,0 +1,122 @@
+[
+  {
+    "id": "176322",
+    "original": "警官は犯人にピストルを向けた。するとその犯人が、こんどは警官に直接自分のピストルをつきつけた。どちらも勝ち目はなかった。絶体絶命だった。",
+    "en": [
+      {
+        "id": "238142",
+        "text": "The police officer pointed his pistol at the criminal, who, in turn, held his pistol directly pointed at the officer. Neither had the advantage, the position was a stalemate."
+      }
+    ],
+    "indices": "警官 は 犯人 に ピストル を 向ける{向けた} すると[01] 其の[01]{その} 犯人 が 今度{こんど} は 警官 に 直接 自分[01] の ピストル を 突きつける{つきつけた} 何方(どちら){どちら} も 勝ち目はない{勝ち目はなかった} 絶体絶命 だ{だった}",
+    "vocabIds": [
+      "1386830",
+      "1277100",
+      "1346140",
+      "1252330",
+      "1481630",
+      "1431110",
+      "1318610"
+    ],
+    "matches": {
+      "1252330": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "けいかん"
+        },
+        {
+          "start": 28,
+          "length": 2,
+          "reading": "けいかん"
+        }
+      ],
+      "1277100": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "むけた"
+        }
+      ],
+      "1318610": [
+        {
+          "start": 33,
+          "length": 2,
+          "reading": "じぶん"
+        }
+      ],
+      "1346140": [
+        {
+          "start": 51,
+          "length": 3,
+          "reading": "かちめ"
+        }
+      ],
+      "1386830": [
+        {
+          "start": 60,
+          "length": 4,
+          "reading": "ぜったいぜつめい"
+        }
+      ],
+      "1431110": [
+        {
+          "start": 31,
+          "length": 2,
+          "reading": "ちょくせつ"
+        }
+      ],
+      "1481630": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "はんにん"
+        },
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "はんにん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "185721",
+    "original": "我々は絶体絶命のピンチに追い込まれた。",
+    "en": [
+      {
+        "id": "22853",
+        "text": "We were driven to the wall."
+      }
+    ],
+    "indices": "我々 は 絶体絶命~ の ピンチ[01]~ に 追い込む[02]{追い込まれた}",
+    "vocabIds": [
+      "1386830",
+      "1432330",
+      "1607050"
+    ],
+    "matches": {
+      "1386830": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "ぜったいぜつめい"
+        }
+      ],
+      "1432330": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "おいこま"
+        }
+      ],
+      "1607050": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "われわれ"
+        }
+      ]
+    }
+  }
+]

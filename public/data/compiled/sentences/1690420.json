@@ -1,0 +1,77 @@
+[
+  {
+    "id": "223427",
+    "original": "このナイフはパンを薄切りにするのにちょうどよい。",
+    "en": [
+      {
+        "id": "60762",
+        "text": "This knife is just good for slicing a loaf."
+      }
+    ],
+    "indices": "此の{この} ナイフ は パン(#1103090)[01] を 薄切り~ に 為る(する){する} のに ちょうど良い{ちょうどよい}",
+    "vocabIds": [
+      "1690420"
+    ],
+    "matches": {
+      "1690420": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "うすぎり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3568567",
+    "original": "トムはリンゴを薄切りにした。",
+    "en": [
+      {
+        "id": "2547549",
+        "text": "Tom sliced the apple."
+      }
+    ],
+    "vocabIds": [
+      "1690420"
+    ],
+    "matches": {
+      "1690420": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "うすぎり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3568570",
+    "original": "トムは玉ねぎを薄切りにした。",
+    "en": [
+      {
+        "id": "2547548",
+        "text": "Tom sliced the onion."
+      }
+    ],
+    "vocabIds": [
+      "1240670",
+      "1690420"
+    ],
+    "matches": {
+      "1240670": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "たまねぎ"
+        }
+      ],
+      "1690420": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "うすぎり"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,64 @@
+[
+  {
+    "id": "192674",
+    "original": "ライオンは百獣の王と呼ばれている。",
+    "en": [
+      {
+        "id": "29837",
+        "text": "The lion is called the king of animals."
+      }
+    ],
+    "indices": "ライオン は 百獣 の 王[01] と 呼ばれる[02]{呼ばれている}",
+    "vocabIds": [
+      "1627600",
+      "1266440"
+    ],
+    "matches": {
+      "1266440": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "よば"
+        }
+      ],
+      "1627600": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "ひゃくじゅうのおう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "192675",
+    "original": "ライオンは百獣の王です。",
+    "en": [
+      {
+        "id": "29839",
+        "text": "The lion is the king of beasts."
+      },
+      {
+        "id": "327345",
+        "text": "The lion is the king of the beasts."
+      },
+      {
+        "id": "8828879",
+        "text": "The lion is the king of animals."
+      }
+    ],
+    "indices": "ライオン~ は 百獣~ の 王[01] です",
+    "vocabIds": [
+      "1627600"
+    ],
+    "matches": {
+      "1627600": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "ひゃくじゅうのおう"
+        }
+      ]
+    }
+  }
+]

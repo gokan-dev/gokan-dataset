@@ -1,0 +1,53 @@
+[
+  {
+    "id": "196236",
+    "original": "ホットドッグを２個、辛子とケチャップつきでおねがいします。",
+    "en": [
+      {
+        "id": "33413",
+        "text": "I'll have two hot dogs with mustard and ketchup."
+      },
+      {
+        "id": "1224563",
+        "text": "Please give me two hot dogs with mustard and ketchup."
+      }
+    ],
+    "indices": "ホットドッグ~ を 個(こ)[01] 辛子~ と ケチャップ 付き[01]{つき} で(#2028980) お願いします{おねがいします}",
+    "vocabIds": [
+      "1202390",
+      "1461140",
+      "1264740",
+      "2220330"
+    ],
+    "matches": {
+      "1202390": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "からし"
+        }
+      ],
+      "1264740": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "こ"
+        }
+      ],
+      "1461140": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "に"
+        }
+      ],
+      "2220330": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "こ"
+        }
+      ]
+    }
+  }
+]

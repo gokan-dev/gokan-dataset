@@ -1,0 +1,33 @@
+[
+  {
+    "id": "75345",
+    "original": "お待たせしました。お子様セットとクリームソーダです。",
+    "en": [
+      {
+        "id": "328374",
+        "text": "Thank you for waiting. One kid's meal and an ice cream soda."
+      }
+    ],
+    "indices": "お待たせしました お子様セット~ と クリームソーダ~ です",
+    "vocabIds": [
+      "2233860",
+      "1410590"
+    ],
+    "matches": {
+      "1410590": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "また"
+        }
+      ],
+      "2233860": [
+        {
+          "start": 9,
+          "length": 6,
+          "reading": "おこさませっと"
+        }
+      ]
+    }
+  }
+]

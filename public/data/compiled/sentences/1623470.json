@@ -1,0 +1,79 @@
+[
+  {
+    "id": "216316",
+    "original": "しかし、私たちが口にする第一声は「こんにちは」だ。",
+    "en": [
+      {
+        "id": "53620",
+        "text": "But the first thing we say is \"hello.\""
+      }
+    ],
+    "indices": "然し{しかし} 私たち が 口にする 第一声~ は 今日は{こんにちは} だ",
+    "vocabIds": [
+      "1275750",
+      "1311300",
+      "1623470"
+    ],
+    "matches": {
+      "1275750": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "くちにする"
+        }
+      ],
+      "1311300": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1623470": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "だいいっせい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11992284",
+    "original": "お母さんの第一声は「馬鹿じゃないの？」だった。",
+    "en": [
+      {
+        "id": "3382760",
+        "text": "The first thing my mother said was: \"Are you crazy?\""
+      }
+    ],
+    "vocabIds": [
+      "1002650",
+      "1623470",
+      "1601260"
+    ],
+    "matches": {
+      "1002650": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "おかあさん"
+        }
+      ],
+      "1601260": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "ばか"
+        }
+      ],
+      "1623470": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "だいいっせい"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,93 @@
+[
+  {
+    "id": "147147",
+    "original": "商人はその政治家に贈賄した。",
+    "en": [
+      {
+        "id": "267414",
+        "text": "The merchant bribed the politician."
+      }
+    ],
+    "indices": "商人 は 其の[01]{その} 政治家 に 贈賄 為る(する){した}",
+    "vocabIds": [
+      "1375980",
+      "1580270",
+      "1403610"
+    ],
+    "matches": {
+      "1375980": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "せいじか"
+        }
+      ],
+      "1403610": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "ぞうわい"
+        }
+      ],
+      "1580270": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しょうにん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "218652",
+    "original": "これはある国ではいわゆる「贈り物」で、他の国では「贈賄」である。",
+    "en": [
+      {
+        "id": "55966",
+        "text": "This is what is called a 'present' in some countries and 'bribery' in others."
+      }
+    ],
+    "indices": "此れ[01]{これ} は 有る{ある} 国[01] で(#2028980) は 所謂{いわゆる} 贈り物 だ{で} 他(ほか){他の} 国[01] で(#2028980) は 贈賄~ である",
+    "vocabIds": [
+      "1589030",
+      "1403610",
+      "1592250",
+      "1203260"
+    ],
+    "matches": {
+      "1203260": [
+        {
+          "start": 19,
+          "length": 1,
+          "reading": "た"
+        }
+      ],
+      "1403610": [
+        {
+          "start": 25,
+          "length": 2,
+          "reading": "ぞうわい"
+        }
+      ],
+      "1589030": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "おくりもの"
+        }
+      ],
+      "1592250": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "くに"
+        },
+        {
+          "start": 21,
+          "length": 1,
+          "reading": "くに"
+        }
+      ]
+    }
+  }
+]

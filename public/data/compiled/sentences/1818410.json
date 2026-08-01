@@ -1,0 +1,63 @@
+[
+  {
+    "id": "217813",
+    "original": "これらの動物は草食動物である。",
+    "en": [
+      {
+        "id": "55123",
+        "text": "These animals feed on grass."
+      }
+    ],
+    "indices": "此れ等{これらの} 動物 は 草食動物~ である",
+    "vocabIds": [
+      "1818410",
+      "1451470"
+    ],
+    "matches": {
+      "1451470": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "どうぶつ"
+        }
+      ],
+      "1818410": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "そうしょくどうぶつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8556053",
+    "original": "象は草食動物です。",
+    "en": [
+      {
+        "id": "8735568",
+        "text": "Elephants are herbivores."
+      }
+    ],
+    "vocabIds": [
+      "1818410",
+      "1351830"
+    ],
+    "matches": {
+      "1351830": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぞう"
+        }
+      ],
+      "1818410": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "そうしょくどうぶつ"
+        }
+      ]
+    }
+  }
+]

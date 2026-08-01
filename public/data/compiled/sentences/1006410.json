@@ -1,0 +1,540 @@
+[
+  {
+    "id": "91330",
+    "original": "彼女は夕立に遭い、ずぶ濡れになった。",
+    "en": [
+      {
+        "id": "312384",
+        "text": "She was caught in a shower and got wet to the skin."
+      }
+    ],
+    "indices": "彼女[01] は 夕立 に 会う[02]{遭い} ずぶ濡れ になる{になった}",
+    "vocabIds": [
+      "1006410",
+      "1483150",
+      "1542820",
+      "1198180"
+    ],
+    "matches": {
+      "1006410": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "ずぶぬれ"
+        }
+      ],
+      "1198180": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "あい"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1542820": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ゆうだち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "180542",
+    "original": "強い雨のため私はずぶ濡れになった。",
+    "en": [
+      {
+        "id": "19235",
+        "text": "I was drenched to the skin because of the heavy rain."
+      }
+    ],
+    "indices": "強い(つよい) 雨 の 為(ため)[03]{ため} 私(わたし)[01] は ずぶ濡れ になる[01]{になった}",
+    "vocabIds": [
+      "1006410",
+      "2855642",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1006410": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "ずぶぬれ"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2855642": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "つよいあめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "184504",
+    "original": "学校からの帰りに、にわか雨に遭って、僕はずぶ濡れになって風邪をひいた。",
+    "en": [
+      {
+        "id": "21632",
+        "text": "I was caught in a shower on my way home from school, got soaking wet and caught a cold."
+      }
+    ],
+    "indices": "学校 から の 帰り に にわか雨 に 会う[02]{遭って} 僕(ぼく)[01] は ずぶ濡れ になる{になって} 風邪をひく{風邪をひいた}",
+    "vocabIds": [
+      "1599930",
+      "1006410",
+      "1198180",
+      "1206730",
+      "1221250",
+      "1583720",
+      "1521400",
+      "2228300"
+    ],
+    "matches": {
+      "1006410": [
+        {
+          "start": 20,
+          "length": 4,
+          "reading": "ずぶぬれ"
+        }
+      ],
+      "1198180": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "あって"
+        }
+      ],
+      "1206730": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "がっこう"
+        }
+      ],
+      "1221250": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "かえり"
+        }
+      ],
+      "1521400": [
+        {
+          "start": 18,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ],
+      "1583720": [
+        {
+          "start": 28,
+          "length": 2,
+          "reading": "かぜ"
+        }
+      ],
+      "1599930": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "にわかあめ"
+        }
+      ],
+      "2228300": [
+        {
+          "start": 18,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "200069",
+    "original": "トムはずぶ濡れになって、風邪をひいた。",
+    "en": [
+      {
+        "id": "37270",
+        "text": "Tom got wet to the skin and caught cold."
+      },
+      {
+        "id": "11170739",
+        "text": "Tom got soaked to the skin and caught a cold."
+      },
+      {
+        "id": "11170738",
+        "text": "Tom got soaking wet and caught a cold."
+      },
+      {
+        "id": "11170737",
+        "text": "Tom got soaked and caught a cold."
+      }
+    ],
+    "indices": "は ずぶ濡れ になる{になって} 風邪をひく{風邪をひいた}",
+    "vocabIds": [
+      "1006410",
+      "1583720"
+    ],
+    "matches": {
+      "1006410": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "ずぶぬれ"
+        }
+      ],
+      "1583720": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "かぜ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "886068",
+    "original": "ひどい雨でさ、全身ずぶ濡れだよ。今から車で迎えに来てくれない？",
+    "en": [
+      {
+        "id": "888677",
+        "text": "I'm completely wet because of the heavy rain. Will you come and pick me up with your car?"
+      }
+    ],
+    "vocabIds": [
+      "1547720",
+      "1006410",
+      "2663180",
+      "1253190",
+      "1395410",
+      "1171900",
+      "1323080"
+    ],
+    "matches": {
+      "1006410": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "ずぶぬれ"
+        }
+      ],
+      "1171900": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "あめ"
+        }
+      ],
+      "1253190": [
+        {
+          "start": 21,
+          "length": 2,
+          "reading": "むかえ"
+        }
+      ],
+      "1323080": [
+        {
+          "start": 19,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1395410": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ぜんしん"
+        }
+      ],
+      "1547720": [
+        {
+          "start": 24,
+          "length": 6,
+          "reading": "きてくれない"
+        }
+      ],
+      "2663180": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "いまから"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1121576",
+    "original": "学校からの帰り道、にわか雨にあってずぶ濡れになった。",
+    "en": [
+      {
+        "id": "21628",
+        "text": "On my way home from school, I was caught in a shower and got wet to the skin."
+      },
+      {
+        "id": "11193498",
+        "text": "I was caught in a shower on the way home from school and got soaking wet."
+      }
+    ],
+    "vocabIds": [
+      "1599930",
+      "1006410",
+      "1221260",
+      "1206730"
+    ],
+    "matches": {
+      "1006410": [
+        {
+          "start": 17,
+          "length": 4,
+          "reading": "ずぶぬれ"
+        }
+      ],
+      "1206730": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "がっこう"
+        }
+      ],
+      "1221260": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "かえりみち"
+        }
+      ],
+      "1599930": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "にわかあめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3573668",
+    "original": "ずぶ濡れじゃないか。",
+    "en": [
+      {
+        "id": "1521934",
+        "text": "You're soaking wet."
+      }
+    ],
+    "vocabIds": [
+      "1006410"
+    ],
+    "matches": {
+      "1006410": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "ずぶぬれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3573669",
+    "original": "トムはずぶ濡れになった。",
+    "en": [
+      {
+        "id": "1025643",
+        "text": "Tom got soaking wet."
+      }
+    ],
+    "vocabIds": [
+      "1006410"
+    ],
+    "matches": {
+      "1006410": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "ずぶぬれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8901957",
+    "original": "トムは全身ずぶ濡れだった。",
+    "en": [
+      {
+        "id": "7996977",
+        "text": "Tom was drenched from head to toe."
+      }
+    ],
+    "vocabIds": [
+      "1006410",
+      "1395410"
+    ],
+    "matches": {
+      "1006410": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "ずぶぬれ"
+        }
+      ],
+      "1395410": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ぜんしん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9457875",
+    "original": "雨に降られて、全身ずぶ濡れだよ。",
+    "en": [
+      {
+        "id": "26791",
+        "text": "I was caught in the rain and got soaked to the skin."
+      }
+    ],
+    "vocabIds": [
+      "1006410",
+      "1184450",
+      "1282790",
+      "1395410",
+      "1171900"
+    ],
+    "matches": {
+      "1006410": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "ずぶぬれ"
+        }
+      ],
+      "1171900": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "あめ"
+        }
+      ],
+      "1184450": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ふら"
+        }
+      ],
+      "1282790": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ふら"
+        }
+      ],
+      "1395410": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ぜんしん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9943148",
+    "original": "トムはずぶ濡れだった。",
+    "en": [
+      {
+        "id": "6395622",
+        "text": "Tom was soaking wet."
+      }
+    ],
+    "vocabIds": [
+      "1006410"
+    ],
+    "matches": {
+      "1006410": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "ずぶぬれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9943154",
+    "original": "トムはずぶ濡れです。",
+    "en": [
+      {
+        "id": "8366913",
+        "text": "Tom is soaking wet."
+      }
+    ],
+    "vocabIds": [
+      "1006410"
+    ],
+    "matches": {
+      "1006410": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "ずぶぬれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11140759",
+    "original": "ずぶ濡れじゃない？どうしたの？",
+    "en": [
+      {
+        "id": "11142890",
+        "text": "What happened? You're all soaking wet."
+      }
+    ],
+    "vocabIds": [
+      "1006410"
+    ],
+    "matches": {
+      "1006410": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "ずぶぬれ"
+        }
+      ]
+    }
+  }
+]

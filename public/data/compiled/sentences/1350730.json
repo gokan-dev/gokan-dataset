@@ -1,0 +1,670 @@
+[
+  {
+    "id": "137834",
+    "original": "台所で何かが焦げているにおいがしませんか。",
+    "en": [
+      {
+        "id": "275402",
+        "text": "Don't you smell something burning in the kitchen?"
+      }
+    ],
+    "indices": "台所 で(#2028980) 何か が 焦げる{焦げている} 匂いがする{においがしません} か",
+    "vocabIds": [
+      "1350730",
+      "1412640",
+      "1188270"
+    ],
+    "matches": {
+      "1188270": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "なにか"
+        }
+      ],
+      "1350730": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "こげている"
+        }
+      ],
+      "1412640": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "だいどころ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "148875",
+    "original": "灼熱の太陽で体が焦げるほどだった。",
+    "en": [
+      {
+        "id": "265683",
+        "text": "The scorching sun grilled us."
+      }
+    ],
+    "indices": "灼熱[01]{灼熱の}~ 太陽 で(#2028980) 体(からだ) が 焦げる 程{ほど} だ{だった}",
+    "vocabIds": [
+      "1350730",
+      "1324180",
+      "1408370",
+      "1409140"
+    ],
+    "matches": {
+      "1324180": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しゃくねつ"
+        }
+      ],
+      "1350730": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "こげる"
+        }
+      ],
+      "1408370": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "たいよう"
+        }
+      ],
+      "1409140": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "からだ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "182122",
+    "original": "魚が真っ黒に焦げた。",
+    "en": [
+      {
+        "id": "19368",
+        "text": "The fish is burnt black."
+      }
+    ],
+    "indices": "魚 が 真っ黒{真っ黒に} 焦げる{焦げた}",
+    "vocabIds": [
+      "1604050",
+      "1350730",
+      "1578010"
+    ],
+    "matches": {
+      "1350730": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "こげた"
+        }
+      ],
+      "1578010": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "さかな"
+        }
+      ],
+      "1604050": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "まっくろ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "188119",
+    "original": "何かが焦げてる匂いがする。",
+    "en": [
+      {
+        "id": "25258",
+        "text": "I smell something burning."
+      }
+    ],
+    "indices": "何か が 焦げる{焦げてる} 匂いがする{匂いがする}",
+    "vocabIds": [
+      "2782970",
+      "1350730",
+      "1188270"
+    ],
+    "matches": {
+      "1188270": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "なにか"
+        }
+      ],
+      "1350730": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "こげてる"
+        }
+      ],
+      "2782970": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "においがする"
+        }
+      ]
+    }
+  },
+  {
+    "id": "205073",
+    "original": "それは焦げている臭いとは全然違う。",
+    "en": [
+      {
+        "id": "42315",
+        "text": "It's quite distinct from the smell of burning."
+      }
+    ],
+    "indices": "其れ[01]{それ} は 焦げる{焦げている} 臭い(くさい)[01] とは 全然[02] 違う(ちがう)",
+    "vocabIds": [
+      "1350730",
+      "1333150",
+      "1599760",
+      "1395620",
+      "1158880"
+    ],
+    "matches": {
+      "1158880": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "ちがう"
+        }
+      ],
+      "1333150": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "におい"
+        }
+      ],
+      "1350730": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "こげている"
+        }
+      ],
+      "1395620": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "ぜんぜん"
+        }
+      ],
+      "1599760": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "におい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "225325",
+    "original": "ケーキが焦げたのは私の失敗です。電話で話していて、時間に気付かなかったのです。",
+    "en": [
+      {
+        "id": "62662",
+        "text": "It's my fault that the cake was burned. I was talking on the phone and didn't notice the time."
+      }
+    ],
+    "indices": "ケーキ が 焦げる{焦げた} の は 私(わたし)[01]{私の} 失敗 です 電話 で(#2028980) 話す{話していて} 時間 に 気付く{気付かなかった} のです",
+    "vocabIds": [
+      "1591330",
+      "1562350",
+      "1350730",
+      "1320140",
+      "1443840",
+      "1315920",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1315920": [
+        {
+          "start": 25,
+          "length": 2,
+          "reading": "じかん"
+        }
+      ],
+      "1320140": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "しっぱい"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1350730": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "こげた"
+        }
+      ],
+      "1443840": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "でんわ"
+        }
+      ],
+      "1562350": [
+        {
+          "start": 19,
+          "length": 5,
+          "reading": "はなしていて"
+        }
+      ],
+      "1591330": [
+        {
+          "start": 28,
+          "length": 7,
+          "reading": "きづかなかった"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "226647",
+    "original": "お母さん、何か焦げている臭いがするわ。",
+    "en": [
+      {
+        "id": "63991",
+        "text": "I smell something burning, Mother."
+      }
+    ],
+    "indices": "お母さん 何か 焦げる{焦げている} 臭い(くさい)[01] が 為る(する){する} わ",
+    "vocabIds": [
+      "2782970",
+      "1350730",
+      "1002650",
+      "1188270"
+    ],
+    "matches": {
+      "1002650": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "おかあさん"
+        }
+      ],
+      "1188270": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "なにか"
+        }
+      ],
+      "1350730": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "こげている"
+        }
+      ],
+      "2782970": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "においがする"
+        }
+      ]
+    }
+  },
+  {
+    "id": "227386",
+    "original": "お菓子が焦げないように気をつけていなさい。",
+    "en": [
+      {
+        "id": "64738",
+        "text": "You must see to it that the cakes do not burn."
+      },
+      {
+        "id": "632889",
+        "text": "You must see that the cakes do not burn."
+      }
+    ],
+    "indices": "お菓子 が 焦げる{焦げない} 様に{ように} 気をつける{気をつけてい} 為さい{なさい}",
+    "vocabIds": [
+      "1221870",
+      "1350730",
+      "1001710"
+    ],
+    "matches": {
+      "1001710": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "おかし"
+        }
+      ],
+      "1221870": [
+        {
+          "start": 11,
+          "length": 5,
+          "reading": "きをつけて"
+        }
+      ],
+      "1350730": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "こげない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "234730",
+    "original": "あーあ、トーストが真っ黒に焦げてしまっているよ。",
+    "en": [
+      {
+        "id": "72107",
+        "text": "Oh, the toast is burned black."
+      }
+    ],
+    "indices": "あーあ~ トースト が 真っ黒{真っ黒に}~ 焦げる{焦げて}~ 仕舞う{しまっている} よ[01]",
+    "vocabIds": [
+      "1350730",
+      "1604050"
+    ],
+    "matches": {
+      "1350730": [
+        {
+          "start": 13,
+          "length": 9,
+          "reading": "こげてしまっている"
+        }
+      ],
+      "1604050": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "まっくろ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1487526",
+    "original": "私が台所に戻った時、私の料理はもうすぐ焦げるところだった。",
+    "en": [
+      {
+        "id": "1053661",
+        "text": "My cooking had almost burnt by the time I came to the kitchen."
+      }
+    ],
+    "vocabIds": [
+      "1350730",
+      "1535880",
+      "1642200",
+      "1412640",
+      "1554310",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1315840"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        },
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1315840": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "とき"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        },
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1350730": [
+        {
+          "start": 19,
+          "length": 3,
+          "reading": "こげる"
+        }
+      ],
+      "1412640": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "だいどころ"
+        }
+      ],
+      "1535880": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "もどった"
+        }
+      ],
+      "1554310": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "りょうり"
+        }
+      ],
+      "1642200": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "もどった"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        },
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9162422",
+    "original": "朝食は、卵２個と焦げたトースト１枚だった。",
+    "en": [
+      {
+        "id": "9162214",
+        "text": "For breakfast, I had two eggs and a burnt piece of toast."
+      }
+    ],
+    "vocabIds": [
+      "1350730",
+      "1428390",
+      "2863028",
+      "1166710",
+      "1549140",
+      "1461140",
+      "1264740",
+      "2220330"
+    ],
+    "matches": {
+      "1166710": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "いちまい"
+        }
+      ],
+      "1264740": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "こ"
+        }
+      ],
+      "1350730": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "こげた"
+        }
+      ],
+      "1428390": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ちょうしょく"
+        }
+      ],
+      "1461140": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "に"
+        }
+      ],
+      "1549140": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "たまご"
+        }
+      ],
+      "2220330": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "こ"
+        }
+      ],
+      "2863028": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ちょうしょく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9162423",
+    "original": "朝ごはんは、卵２つと焦げたパンを１枚食べたよ。",
+    "en": [
+      {
+        "id": "9162214",
+        "text": "For breakfast, I had two eggs and a burnt piece of toast."
+      }
+    ],
+    "vocabIds": [
+      "1586330",
+      "1350730",
+      "1358280",
+      "1461160",
+      "1166710",
+      "1549140"
+    ],
+    "matches": {
+      "1166710": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "いちまい"
+        }
+      ],
+      "1350730": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "こげた"
+        }
+      ],
+      "1358280": [
+        {
+          "start": 18,
+          "length": 3,
+          "reading": "たべた"
+        }
+      ],
+      "1461160": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ふたつ"
+        }
+      ],
+      "1549140": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "たまご"
+        }
+      ],
+      "1586330": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "あさごはん"
+        }
+      ]
+    }
+  }
+]

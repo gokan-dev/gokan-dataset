@@ -1,0 +1,88 @@
+[
+  {
+    "id": "124152",
+    "original": "東洋ホテルは空港からホテルまで、宿泊客の無料送迎をしています。",
+    "en": [
+      {
+        "id": "279843",
+        "text": "The Toyo Hotel has a free transportation service from the airport to the hotel for their guests."
+      }
+    ],
+    "indices": "東洋 ホテル は 空港 から ホテル 迄{まで} 宿泊 客[01] の 無料 送迎 を 為る(する){しています}",
+    "vocabIds": [
+      "2406810",
+      "1448230",
+      "1245570",
+      "1531040",
+      "1402770"
+    ],
+    "matches": {
+      "1245570": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "くうこう"
+        }
+      ],
+      "1402770": [
+        {
+          "start": 22,
+          "length": 2,
+          "reading": "そうげい"
+        }
+      ],
+      "1448230": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とうよう"
+        }
+      ],
+      "1531040": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "むりょう"
+        }
+      ],
+      "2406810": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "しゅくはくきゃく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "225533",
+    "original": "グランドホテルまでの送迎バス乗り場はどこですか。",
+    "en": [
+      {
+        "id": "62869",
+        "text": "Where's the bus stop for Grand Hotel?"
+      }
+    ],
+    "indices": "迄{まで} の 送迎~ バス(#1098390) 乗り場 は 何処{どこ} ですか",
+    "vocabIds": [
+      "2838675",
+      "1402770"
+    ],
+    "matches": {
+      "1402770": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "そうげい"
+        }
+      ],
+      "2838675": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "ばすのりば"
+        }
+      ]
+    }
+  }
+]

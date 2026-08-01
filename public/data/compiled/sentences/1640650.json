@@ -1,0 +1,157 @@
+[
+  {
+    "id": "210891",
+    "original": "その古い橋は今にも崩れ落ちそうだ。",
+    "en": [
+      {
+        "id": "48162",
+        "text": "The old bridge is in danger of collapse."
+      }
+    ],
+    "indices": "其の[01]{その} 古い 橋(はし) は 今にも 崩れ落ちる{崩れ落ち} そう[01] だ",
+    "vocabIds": [
+      "1640650",
+      "1288950",
+      "1265070",
+      "1237410"
+    ],
+    "matches": {
+      "1237410": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "はし"
+        }
+      ],
+      "1265070": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ふるい"
+        }
+      ],
+      "1288950": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "いまにも"
+        }
+      ],
+      "1640650": [
+        {
+          "start": 9,
+          "length": 7,
+          "reading": "くずれおちそうだ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "211028",
+    "original": "その建物は突然崩れ落ちた。",
+    "en": [
+      {
+        "id": "48300",
+        "text": "The building fell down suddenly."
+      }
+    ],
+    "indices": "其の[01]{その} 建物 は 突然 崩れ落ちる{崩れ落ちた}~",
+    "vocabIds": [
+      "1640650",
+      "1257540",
+      "1457040"
+    ],
+    "matches": {
+      "1257540": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "たてもの"
+        }
+      ],
+      "1457040": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "とつぜん"
+        }
+      ],
+      "1640650": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "くずれおちた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "212864",
+    "original": "そのトンネルは先日の地震で崩れ落ちた。",
+    "en": [
+      {
+        "id": "50149",
+        "text": "The tunnel caved in because of the earthquake the other day."
+      }
+    ],
+    "indices": "其の[01]{その} トンネル は 先日 の 地震 で(#2028980) 崩れ落ちる{崩れ落ちた}",
+    "vocabIds": [
+      "1640650",
+      "1388300",
+      "1421210"
+    ],
+    "matches": {
+      "1388300": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "せんじつ"
+        }
+      ],
+      "1421210": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "じしん"
+        }
+      ],
+      "1640650": [
+        {
+          "start": 13,
+          "length": 5,
+          "reading": "くずれおちた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2451909",
+    "original": "橋が崩れ落ちた。",
+    "en": [
+      {
+        "id": "2451873",
+        "text": "The bridge collapsed."
+      }
+    ],
+    "vocabIds": [
+      "1640650",
+      "1237410"
+    ],
+    "matches": {
+      "1237410": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "はし"
+        }
+      ],
+      "1640650": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "くずれおちた"
+        }
+      ]
+    }
+  }
+]

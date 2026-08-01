@@ -1,0 +1,174 @@
+{
+  "id": "1007870",
+  "writtenForm": {
+    "kanji": "点々",
+    "alternatives": [
+      "点点"
+    ],
+    "containedKanji": [
+      "点"
+    ]
+  },
+  "reading": {
+    "primary": "ちょぼちょぼ",
+    "alternatives": [
+      "チョボチョボ",
+      "てんてん"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 17123,
+    "kanaRank": 73496
+  },
+  "jlptLevel": 2,
+  "progression": {
+    "kklcStep": 349
+  },
+  "senses": [
+    {
+      "pos": [
+        "adv",
+        "adv-to"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "sparsely",
+        "drop-by-drop"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "adj-na"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "on par with",
+        "as good as"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "(vertical) iteration mark used to represent repetition of the previous kanji (to be read using its kun'yomi)"
+      ],
+      "related": {
+        "compounds": [
+          "〻"
+        ]
+      }
+    },
+    {
+      "pos": [
+        "adv",
+        "adv-to"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "here and there",
+        "little by little",
+        "sporadically",
+        "scattered in drops"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "てんてん"
+      ]
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "dots",
+        "spots"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "てんてん"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": true
+  },
+  "isCommon": false,
+  "mergedVocabs": [
+    {
+      "id": "1007870",
+      "isBase": true,
+      "originalPrimaryReading": "ちょぼちょぼ",
+      "originalGlosses": [
+        "sparsely",
+        "drop-by-drop"
+      ]
+    },
+    {
+      "id": "1598460",
+      "isBase": false,
+      "originalPrimaryReading": "てんてん",
+      "originalGlosses": [
+        "here and there",
+        "little by little",
+        "sporadically"
+      ]
+    }
+  ],
+  "components": [
+    "1007860"
+  ]
+}

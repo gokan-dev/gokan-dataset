@@ -1,0 +1,90 @@
+[
+  {
+    "id": "150912",
+    "original": "事なかれ主義なんです。",
+    "en": [
+      {
+        "id": "263644",
+        "text": "I am playing it safe."
+      }
+    ],
+    "indices": "事勿れ主義{事なかれ主義} なのです{なんです}",
+    "vocabIds": [
+      "1593340"
+    ],
+    "matches": {
+      "1593340": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "ことなかれしゅぎ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2837525",
+    "original": "ジムは万事が事なかれ主義だ。",
+    "en": [
+      {
+        "id": "2837527",
+        "text": "Jim always avoids trouble at all costs."
+      }
+    ],
+    "indices": "NI{ジム} は 万事 が 事なかれ主義~ だ",
+    "vocabIds": [
+      "1593340",
+      "1526080"
+    ],
+    "matches": {
+      "1526080": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ばんじ"
+        }
+      ],
+      "1593340": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "ことなかれしゅぎ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10068178",
+    "original": "トムは事なかれ主義だからね。",
+    "en": [
+      {
+        "id": "10220609",
+        "text": "Tom has a \"don't rock the boat\" policy."
+      },
+      {
+        "id": "10220610",
+        "text": "Tom has a rule of \"not rocking the boat\"."
+      },
+      {
+        "id": "10220612",
+        "text": "Tom has a doctrine of \"not rocking the boat\"."
+      },
+      {
+        "id": "10220615",
+        "text": "Tom has a \"one must not do things\" policy."
+      }
+    ],
+    "vocabIds": [
+      "1593340"
+    ],
+    "matches": {
+      "1593340": [
+        {
+          "start": 3,
+          "length": 6,
+          "reading": "ことなかれしゅぎ"
+        }
+      ]
+    }
+  }
+]

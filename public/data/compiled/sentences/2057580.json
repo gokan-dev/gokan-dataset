@@ -1,0 +1,87 @@
+[
+  {
+    "id": "211081",
+    "original": "その件について自分の意見を述べないわけには行かない。",
+    "en": [
+      {
+        "id": "48355",
+        "text": "I cannot refrain from expressing my opinion about the affair."
+      }
+    ],
+    "indices": "其の[01]{その} 件(けん) に就いて{について} 自分[01] の 意見を述べる{意見を述べない} 訳(わけ)[01]{わけ} には 行く[01]{行かない}",
+    "vocabIds": [
+      "2057580",
+      "1340820",
+      "1318610",
+      "1156530",
+      "1255940"
+    ],
+    "matches": {
+      "1156530": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "いけん"
+        }
+      ],
+      "1255940": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "けん"
+        }
+      ],
+      "1318610": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "じぶん"
+        }
+      ],
+      "1340820": [
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "のべない"
+        }
+      ],
+      "2057580": [
+        {
+          "start": 17,
+          "length": 8,
+          "reading": "わけにはいかない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1125387",
+    "original": "帰るわけには行かないのです。",
+    "en": [
+      {
+        "id": "9982330",
+        "text": "I cannot come back in the current circumstances."
+      }
+    ],
+    "vocabIds": [
+      "2057580",
+      "1221270"
+    ],
+    "matches": {
+      "1221270": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かえる"
+        }
+      ],
+      "2057580": [
+        {
+          "start": 2,
+          "length": 8,
+          "reading": "わけにはいかない"
+        }
+      ]
+    }
+  }
+]

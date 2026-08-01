@@ -1,0 +1,102 @@
+[
+  {
+    "id": "210528",
+    "original": "その坂道を下ろう。",
+    "en": [
+      {
+        "id": "47796",
+        "text": "Let's descend the slope."
+      }
+    ],
+    "indices": "其の[01]{その} 坂道 を[03] 下る(くだる)[01]{下ろう}",
+    "vocabIds": [
+      "1184160",
+      "1184450",
+      "1297120"
+    ],
+    "matches": {
+      "1184160": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "くだろう"
+        }
+      ],
+      "1184450": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "くだろう"
+        }
+      ],
+      "1297120": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "さかみち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "237580",
+    "original": "フーッ、この坂道はきついよ。でも帰りは楽だよね。",
+    "en": [
+      {
+        "id": "74005",
+        "text": "Whew! This is a tough hill. But coming back sure will be a breeze."
+      }
+    ],
+    "indices": "此の{この} 坂道~ は[02] きつい[01]~ よ でも[01] 帰り は[02] 楽(らく)[01] だ よ ね(#2029080)[01]",
+    "vocabIds": [
+      "1297120",
+      "1221250",
+      "1207230"
+    ],
+    "matches": {
+      "1207230": [
+        {
+          "start": 19,
+          "length": 1,
+          "reading": "らく"
+        }
+      ],
+      "1221250": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "かえり"
+        }
+      ],
+      "1297120": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "さかみち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "13715823",
+    "original": "坂道でギアーをチェンジしたよ。",
+    "en": [
+      {
+        "id": "13715824",
+        "text": "I changed gear as the road sloped."
+      }
+    ],
+    "vocabIds": [
+      "1297120"
+    ],
+    "matches": {
+      "1297120": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "さかみち"
+        }
+      ]
+    }
+  }
+]

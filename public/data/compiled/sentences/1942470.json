@@ -1,0 +1,119 @@
+[
+  {
+    "id": "126517",
+    "original": "中間試験がもうすぐ始まる。",
+    "en": [
+      {
+        "id": "277474",
+        "text": "The mid-term exams are just around the corner."
+      }
+    ],
+    "indices": "中間試験 が もう直ぐ{もうすぐ} 始まる",
+    "vocabIds": [
+      "1942470",
+      "1307500"
+    ],
+    "matches": {
+      "1307500": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "はじまる"
+        }
+      ],
+      "1942470": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "ちゅうかんしけん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "172368",
+    "original": "今週は中間試験が３つ。",
+    "en": [
+      {
+        "id": "242107",
+        "text": "This week I had three midterms."
+      }
+    ],
+    "indices": "今週 は 中間試験~ が 三つ(みっつ){３つ}",
+    "vocabIds": [
+      "1942470",
+      "1289220",
+      "1299740"
+    ],
+    "matches": {
+      "1289220": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こんしゅう"
+        }
+      ],
+      "1299740": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "みっつ"
+        }
+      ],
+      "1942470": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "ちゅうかんしけん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "231113",
+    "original": "あの学生は今度の中間試験で好成績をあげそうだ。",
+    "en": [
+      {
+        "id": "68480",
+        "text": "The student is likely to do well on this coming mid-term exam."
+      }
+    ],
+    "indices": "彼の(あの){あの} 学生(がくせい) は 今度 の 中間試験 で(#2028980) 好成績 を 上げる[08]{あげ} そう[01] だ",
+    "vocabIds": [
+      "1942470",
+      "1631240",
+      "1206900",
+      "1289370"
+    ],
+    "matches": {
+      "1206900": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "がくせい"
+        }
+      ],
+      "1289370": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "こんど"
+        }
+      ],
+      "1631240": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "こうせいせき"
+        }
+      ],
+      "1942470": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "ちゅうかんしけん"
+        }
+      ]
+    }
+  }
+]

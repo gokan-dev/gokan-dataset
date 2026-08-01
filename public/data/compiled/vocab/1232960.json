@@ -1,0 +1,148 @@
+{
+  "id": "1232960",
+  "writtenForm": {
+    "kanji": "漁り",
+    "alternatives": [
+      "漁"
+    ],
+    "containedKanji": [
+      "漁"
+    ]
+  },
+  "reading": {
+    "primary": "あさり",
+    "alternatives": [
+      "すなどり"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 46674,
+    "kanaRank": 165067
+  },
+  "progression": {
+    "kklcStep": 765
+  },
+  "senses": [
+    {
+      "pos": [
+        "n-suf",
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "searching",
+        "rummaging"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "fishing",
+        "collecting shells"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n",
+        "vs"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "fishing",
+        "collecting shells"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "すなどり"
+      ]
+    },
+    {
+      "pos": [
+        "n",
+        "vs"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "fisherman"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "すなどり"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": false,
+  "mergedVocabs": [
+    {
+      "id": "1232960",
+      "isBase": true,
+      "originalPrimaryReading": "あさり",
+      "originalGlosses": [
+        "searching",
+        "rummaging"
+      ]
+    },
+    {
+      "id": "2524470",
+      "isBase": false,
+      "originalPrimaryReading": "すなどり",
+      "originalGlosses": [
+        "fishing",
+        "collecting shells"
+      ]
+    }
+  ],
+  "components": [
+    "1956080"
+  ],
+  "parents": [
+    "2553650",
+    "1810980"
+  ]
+}

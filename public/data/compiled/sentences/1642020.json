@@ -1,0 +1,49 @@
+[
+  {
+    "id": "94336",
+    "original": "彼女の車は不注意から門柱にぶつかった。",
+    "en": [
+      {
+        "id": "309370",
+        "text": "Her car struck against the gatepost through her carelessness."
+      }
+    ],
+    "indices": "彼女[01]{彼女の} 車(くるま) は 不注意 から 門柱~ に ぶつかる{ぶつかった}",
+    "vocabIds": [
+      "1493830",
+      "1483150",
+      "1642020",
+      "1323080"
+    ],
+    "matches": {
+      "1323080": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1493830": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "ふちゅうい"
+        }
+      ],
+      "1642020": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "もんちゅう"
+        }
+      ]
+    }
+  }
+]

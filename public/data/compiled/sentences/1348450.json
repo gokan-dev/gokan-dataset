@@ -1,0 +1,72 @@
+[
+  {
+    "id": "145195",
+    "original": "新年は小雪で始まった。",
+    "en": [
+      {
+        "id": "269368",
+        "text": "The New Year came in with a light fall of snow."
+      }
+    ],
+    "indices": "新年 は 小雪(こゆき) で(#2028980) 始まる{始まった}",
+    "vocabIds": [
+      "1307500",
+      "1362290",
+      "1348450"
+    ],
+    "matches": {
+      "1307500": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "はじまった"
+        }
+      ],
+      "1348450": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "こゆき"
+        }
+      ],
+      "1362290": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しんねん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "194985",
+    "original": "みんなクリスマスに小雪がちらつくのを望んでいた。",
+    "en": [
+      {
+        "id": "32159",
+        "text": "Everyone hoped for a snow flurry for Christmas."
+      }
+    ],
+    "indices": "皆{みんな} クリスマス に 小雪(こゆき)~ が ちらつく~ の を 望む[01]{望んでいた}",
+    "vocabIds": [
+      "1519630",
+      "1348450"
+    ],
+    "matches": {
+      "1348450": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "こゆき"
+        }
+      ],
+      "1519630": [
+        {
+          "start": 18,
+          "length": 5,
+          "reading": "のぞんでいた"
+        }
+      ]
+    }
+  }
+]

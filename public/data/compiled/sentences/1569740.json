@@ -1,0 +1,133 @@
+[
+  {
+    "id": "90679",
+    "original": "彼女は額に皺を寄せた。",
+    "en": [
+      {
+        "id": "313033",
+        "text": "She wrinkled her brows."
+      }
+    ],
+    "indices": "彼女[01] は 額(ひたい) に 皺(しわ)[01] を[01] 寄せる{寄せた}",
+    "vocabIds": [
+      "1219560",
+      "1483150",
+      "1207500",
+      "1569740"
+    ],
+    "matches": {
+      "1207500": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "がく"
+        }
+      ],
+      "1219560": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "よせた"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1569740": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "しわ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2809262",
+    "original": "トムは不機嫌そうに額に皺を寄せた。",
+    "en": [
+      {
+        "id": "2811771",
+        "text": "Tom wrinkled his brow like he was displeased."
+      }
+    ],
+    "vocabIds": [
+      "1491820",
+      "1219560",
+      "1207500",
+      "1569740"
+    ],
+    "matches": {
+      "1207500": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "がく"
+        }
+      ],
+      "1219560": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "よせた"
+        }
+      ],
+      "1491820": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "ふきげん"
+        }
+      ],
+      "1569740": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "しわ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11438450",
+    "original": "眉間に皺を寄せていた。",
+    "en": [
+      {
+        "id": "313033",
+        "text": "She wrinkled her brows."
+      }
+    ],
+    "vocabIds": [
+      "1219560",
+      "1486290",
+      "1569740"
+    ],
+    "matches": {
+      "1219560": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "よせていた"
+        }
+      ],
+      "1486290": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "みけん"
+        }
+      ],
+      "1569740": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "しわ"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,103 @@
+[
+  {
+    "id": "140213",
+    "original": "息の長い仕事になりそうだ。",
+    "en": [
+      {
+        "id": "274360",
+        "text": "This is going to require a long steady effort."
+      }
+    ],
+    "indices": "息の長い[01]~ 仕事[01] になる{になり} そう[01] だ",
+    "vocabIds": [
+      "2405960",
+      "1304970"
+    ],
+    "matches": {
+      "1304970": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "しごと"
+        }
+      ],
+      "2405960": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "いきのながい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "896061",
+    "original": "東日本大震災は被災地が広範囲に及んでいるため、息の長い支援が求められている。",
+    "en": [
+      {
+        "id": "896066",
+        "text": "Since a large area was devastated by the Tohoku earthquake of 2011, a sustained help effort is sought."
+      }
+    ],
+    "vocabIds": [
+      "2615870",
+      "1228170",
+      "2405960",
+      "1484460",
+      "1278670",
+      "1229350",
+      "1310100"
+    ],
+    "matches": {
+      "1228170": [
+        {
+          "start": 15,
+          "length": 5,
+          "reading": "およんでいる"
+        }
+      ],
+      "1229350": [
+        {
+          "start": 30,
+          "length": 2,
+          "reading": "もとめ"
+        }
+      ],
+      "1278670": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "こうはんい"
+        }
+      ],
+      "1310100": [
+        {
+          "start": 27,
+          "length": 2,
+          "reading": "しえん"
+        }
+      ],
+      "1484460": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "ひさいち"
+        }
+      ],
+      "2405960": [
+        {
+          "start": 23,
+          "length": 4,
+          "reading": "いきのながい"
+        }
+      ],
+      "2615870": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "ひがしにっぽんだいしんさい"
+        }
+      ]
+    }
+  }
+]

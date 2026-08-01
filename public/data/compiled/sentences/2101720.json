@@ -1,0 +1,111 @@
+[
+  {
+    "id": "106947",
+    "original": "彼は最後の最後になって約束を取り消した。",
+    "en": [
+      {
+        "id": "296739",
+        "text": "He canceled the appointment at the last moment."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 最後 の 最後 になる{になって} 約束[02] を 取り消す{取り消した}",
+    "vocabIds": [
+      "2101720",
+      "1326790",
+      "1538130",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1326790": [
+        {
+          "start": 14,
+          "length": 5,
+          "reading": "とりけした"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1538130": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "やくそく"
+        }
+      ],
+      "2101720": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "さいごのさいご"
+        }
+      ]
+    }
+  },
+  {
+    "id": "170559",
+    "original": "最後の最後まであきらめるな。",
+    "en": [
+      {
+        "id": "243922",
+        "text": "Never give up till the very end."
+      }
+    ],
+    "indices": "最後 の 最後まで 諦める{あきらめる} な[01]",
+    "vocabIds": [
+      "2101720"
+    ],
+    "matches": {
+      "2101720": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "さいごのさいご"
+        }
+      ]
+    }
+  },
+  {
+    "id": "170561",
+    "original": "最後の最後に断ってきた。",
+    "en": [
+      {
+        "id": "243921",
+        "text": "He cried off at the last moment."
+      }
+    ],
+    "indices": "最後 の 最後 に 断る[01]{断って} 来る(くる){きた}",
+    "vocabIds": [
+      "2101720",
+      "1419570"
+    ],
+    "matches": {
+      "1419570": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "ことわってきた"
+        }
+      ],
+      "2101720": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "さいごのさいご"
+        }
+      ]
+    }
+  }
+]

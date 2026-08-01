@@ -1,0 +1,635 @@
+[
+  {
+    "id": "101763",
+    "original": "彼は東京行きの急行に乗っていった。",
+    "en": [
+      {
+        "id": "301930",
+        "text": "He took the express for Tokyo."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 東京行き の 急行[02] に 乗る{乗って} 行く{いった}",
+    "vocabIds": [
+      "1355120",
+      "1447710",
+      "1228690",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1228690": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "きゅうこう"
+        }
+      ],
+      "1355120": [
+        {
+          "start": 10,
+          "length": 6,
+          "reading": "のっていった"
+        }
+      ],
+      "1447710": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "とうきょういき"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "124166",
+    "original": "東京行きは一日に何便ありますか。",
+    "en": [
+      {
+        "id": "279828",
+        "text": "How many flights to Tokyo do you offer a day?"
+      }
+    ],
+    "indices": "東京行き は 一日(いちにち) に 何(なに)[01] 便(びん)[01] 有る{あります} か",
+    "vocabIds": [
+      "1447710",
+      "1576260",
+      "2225030",
+      "2225040",
+      "1577100",
+      "1177490",
+      "1512360"
+    ],
+    "matches": {
+      "1177490": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "びん"
+        }
+      ],
+      "1447710": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "とうきょういき"
+        }
+      ],
+      "1512360": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "びん"
+        }
+      ],
+      "1576260": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "いちにち"
+        }
+      ],
+      "1577100": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "なん"
+        }
+      ],
+      "2225030": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "いちにち"
+        }
+      ],
+      "2225040": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "いちにち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "124167",
+    "original": "東京行きはどの列車に乗ったらよいのかな。",
+    "en": [
+      {
+        "id": "279827",
+        "text": "I wonder which train I should take for Tokyo."
+      }
+    ],
+    "indices": "東京行き は 何の(どの){どの} 列車 に 乗る[01]{乗ったら} 良い{よい} の かな",
+    "vocabIds": [
+      "1447710",
+      "1355120",
+      "1558370"
+    ],
+    "matches": {
+      "1355120": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "のったら"
+        }
+      ],
+      "1447710": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "とうきょういき"
+        }
+      ],
+      "1558370": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "れっしゃ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "124168",
+    "original": "東京行きはどこでチェックインできるか。",
+    "en": [
+      {
+        "id": "279826",
+        "text": "Where should I check in for Tokyo?"
+      }
+    ],
+    "indices": "東京行き は 何処{どこ} で(#2028980) チェックイン 出来る{できる} か",
+    "vocabIds": [
+      "1447710"
+    ],
+    "matches": {
+      "1447710": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "とうきょういき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "124169",
+    "original": "東京行きの飛行機に乗った。",
+    "en": [
+      {
+        "id": "279825",
+        "text": "I flew on a Tokyo-bound plane."
+      }
+    ],
+    "indices": "東京行き の 飛行機 に 乗る[01]{乗った}",
+    "vocabIds": [
+      "1447710",
+      "1485470",
+      "1355120"
+    ],
+    "matches": {
+      "1355120": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "のった"
+        }
+      ],
+      "1447710": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "とうきょういき"
+        }
+      ],
+      "1485470": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "ひこうき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "124170",
+    "original": "東京行きの最終列車は何時ですか。",
+    "en": [
+      {
+        "id": "279824",
+        "text": "What time does the last Tokyo train leave?"
+      }
+    ],
+    "indices": "東京行き の 最終 列車 は 何時(なんじ) ですか",
+    "vocabIds": [
+      "1447710",
+      "2860627",
+      "1188770"
+    ],
+    "matches": {
+      "1188770": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "なんじ"
+        }
+      ],
+      "1447710": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "とうきょういき"
+        }
+      ],
+      "2860627": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "さいしゅうれっしゃ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "141921",
+    "original": "仙台駅で東京行きに乗り換えて下さい。",
+    "en": [
+      {
+        "id": "272649",
+        "text": "Change trains at Sendai Station for Tokyo."
+      }
+    ],
+    "indices": "駅 で(#2028980) 東京行き に 乗り換える[01]{乗り換えて} 下さい",
+    "vocabIds": [
+      "1600470",
+      "1447710",
+      "2164680",
+      "1175140"
+    ],
+    "matches": {
+      "1175140": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "えき"
+        }
+      ],
+      "1447710": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "とうきょういき"
+        }
+      ],
+      "1600470": [
+        {
+          "start": 9,
+          "length": 8,
+          "reading": "のりかえてください"
+        }
+      ],
+      "2164680": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "せんだい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "219159",
+    "original": "この列車は東京行きです。",
+    "en": [
+      {
+        "id": "56475",
+        "text": "This train is bound for Tokyo."
+      },
+      {
+        "id": "10009507",
+        "text": "This train is going to Tokyo."
+      }
+    ],
+    "indices": "此の{この} 列車~ は 東京行き~ です",
+    "vocabIds": [
+      "1447710",
+      "1558370"
+    ],
+    "matches": {
+      "1447710": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "とうきょういき"
+        }
+      ],
+      "1558370": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "れっしゃ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "234874",
+    "original": "Ａ航空１１２便東京行きは３０分遅れて出発いたします。",
+    "en": [
+      {
+        "id": "72252",
+        "text": "A Airlines flight 112 bound for Tokyo will be delayed 30 minutes."
+      }
+    ],
+    "indices": "航空 便(びん)[01] 東京行き は 分(ふん) 遅れる{遅れて} 出発 致す{いたします}",
+    "vocabIds": [
+      "1447710",
+      "2859157",
+      "1589040",
+      "1281270",
+      "1334470",
+      "1340000",
+      "1461140",
+      "1177490",
+      "1512360"
+    ],
+    "matches": {
+      "1177490": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "びん"
+        }
+      ],
+      "1281270": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "こうくう"
+        }
+      ],
+      "1334470": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "いちいち"
+        }
+      ],
+      "1340000": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "しゅっぱつ"
+        }
+      ],
+      "1447710": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "とうきょういき"
+        }
+      ],
+      "1461140": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "に"
+        }
+      ],
+      "1512360": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "びん"
+        }
+      ],
+      "1589040": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "おくれて"
+        }
+      ],
+      "2859157": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "さんぜろふん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "235149",
+    "original": "５月１２日の東京行きＪＡＬ００１便を予約したいのですが。",
+    "en": [
+      {
+        "id": "72527",
+        "text": "I want to make a reservation for JAL flight one to Tokyo on May 12."
+      }
+    ],
+    "indices": "五月(ごがつ){５月} 日(にち)[02] の 東京行き 便(びん)[01] を 予約[01] したい のです が[03]",
+    "vocabIds": [
+      "1447710",
+      "2736890",
+      "1268170",
+      "1543750",
+      "1160790",
+      "1557630",
+      "1177490",
+      "1512360"
+    ],
+    "matches": {
+      "1160790": [
+        {
+          "start": 15,
+          "length": 1,
+          "reading": "いち"
+        }
+      ],
+      "1177490": [
+        {
+          "start": 16,
+          "length": 1,
+          "reading": "びん"
+        }
+      ],
+      "1268170": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ごがつ"
+        }
+      ],
+      "1447710": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "とうきょういき"
+        }
+      ],
+      "1512360": [
+        {
+          "start": 16,
+          "length": 1,
+          "reading": "びん"
+        }
+      ],
+      "1543750": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "よやく"
+        }
+      ],
+      "1557630": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "ぜろ"
+        },
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "ぜろ"
+        }
+      ],
+      "2736890": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "いちににち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1219271",
+    "original": "次の東京行きの電車は何時発でしょうか？",
+    "en": [
+      {
+        "id": "264337",
+        "text": "What time does the next train leave for Tokyo?"
+      },
+      {
+        "id": "2790042",
+        "text": "What time does the next train bound for Tokyo leave?"
+      },
+      {
+        "id": "2790044",
+        "text": "What time does the next train going to Tokyo leave?"
+      }
+    ],
+    "vocabIds": [
+      "1447710",
+      "1443530",
+      "1188770",
+      "1316380",
+      "1477120"
+    ],
+    "matches": {
+      "1188770": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "いつ"
+        }
+      ],
+      "1316380": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "つぎ"
+        }
+      ],
+      "1443530": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "でんしゃ"
+        }
+      ],
+      "1447710": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "とうきょういき"
+        }
+      ],
+      "1477120": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "はつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9500084",
+    "original": "これは東京行きのバスです。",
+    "en": [
+      {
+        "id": "55491",
+        "text": "This is a bus which goes to Tokyo."
+      }
+    ],
+    "vocabIds": [
+      "1447710"
+    ],
+    "matches": {
+      "1447710": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "とうきょういき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11265000",
+    "original": "この電車は東京行きですか？",
+    "en": [
+      {
+        "id": "279806",
+        "text": "Is this the right train for Tokyo?"
+      }
+    ],
+    "vocabIds": [
+      "1447710",
+      "1443530"
+    ],
+    "matches": {
+      "1443530": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "でんしゃ"
+        }
+      ],
+      "1447710": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "とうきょういき"
+        }
+      ]
+    }
+  }
+]

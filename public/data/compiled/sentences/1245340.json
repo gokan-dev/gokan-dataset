@@ -1,0 +1,235 @@
+[
+  {
+    "id": "90368",
+    "original": "彼女は空き地に駐車した。",
+    "en": [
+      {
+        "id": "313346",
+        "text": "She parked her car in a vacant lot."
+      }
+    ],
+    "indices": "彼女[01] は 空き地 に 駐車 為る(する){した}",
+    "vocabIds": [
+      "1245340",
+      "1483150",
+      "1426910"
+    ],
+    "matches": {
+      "1245340": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "あきち"
+        }
+      ],
+      "1426910": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ちゅうしゃ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "179872",
+    "original": "近くの空き地でキャッチボールをするのはどうですか。",
+    "en": [
+      {
+        "id": "18731",
+        "text": "How about playing catch in the vacant lot near by?"
+      }
+    ],
+    "indices": "近く[01] の 空き地 で(#2028980) キャッチボール を 為る(する)[01]{する} の は 如何(どう){どう} ですか",
+    "vocabIds": [
+      "1245340",
+      "1242160"
+    ],
+    "matches": {
+      "1242160": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ちかく"
+        }
+      ],
+      "1245340": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "あきち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "211342",
+    "original": "その空地は公園として設計されている。",
+    "en": [
+      {
+        "id": "48615",
+        "text": "The vacant lot is laid out as a park."
+      }
+    ],
+    "indices": "其の[01]{その} 空き地{空地}~ は 公園 として 設計 為れる{されている}",
+    "vocabIds": [
+      "1245340",
+      "2833871",
+      "1273270",
+      "1386020"
+    ],
+    "matches": {
+      "1245340": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "くうち"
+        }
+      ],
+      "1273270": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "こうえん"
+        }
+      ],
+      "1386020": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "せっけい"
+        }
+      ],
+      "2833871": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "くうち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1175218",
+    "original": "数年前、近所の空き地で白骨死体が発見された。",
+    "en": [
+      {
+        "id": "5150009",
+        "text": "Several years ago, a bleached body was discovered in a vacant plot in the neighbourhood."
+      }
+    ],
+    "vocabIds": [
+      "2842386",
+      "2654980",
+      "1245340",
+      "1242350",
+      "1477310"
+    ],
+    "matches": {
+      "1242350": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "きんじょ"
+        }
+      ],
+      "1245340": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "あきち"
+        }
+      ],
+      "1477310": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "はっけん"
+        }
+      ],
+      "2654980": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "すうねんまえ"
+        }
+      ],
+      "2842386": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "はっこつしたい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12250606",
+    "original": "突然、狼の群れが森の空き地に現れた。",
+    "en": [
+      {
+        "id": "11176610",
+        "text": "Suddenly, a pack of wolves appeared in the clearing."
+      }
+    ],
+    "vocabIds": [
+      "1245340",
+      "1263510",
+      "1457040",
+      "1247510",
+      "1560940",
+      "1362490"
+    ],
+    "matches": {
+      "1245340": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "あきち"
+        }
+      ],
+      "1247510": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "むれ"
+        }
+      ],
+      "1263510": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "あらわれた"
+        }
+      ],
+      "1362490": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "もり"
+        }
+      ],
+      "1457040": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とつぜん"
+        }
+      ],
+      "1560940": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "おおかみ"
+        }
+      ]
+    }
+  }
+]

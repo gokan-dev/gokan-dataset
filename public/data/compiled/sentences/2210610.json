@@ -1,0 +1,93 @@
+[
+  {
+    "id": "173134",
+    "original": "合図に手をあげることにしましょう。",
+    "en": [
+      {
+        "id": "241337",
+        "text": "I'll raise my hand as a signal."
+      }
+    ],
+    "indices": "合図 に 手を上げる[01]{手をあげる} 事にする{ことにしましょう}",
+    "vocabIds": [
+      "2210610",
+      "1284930"
+    ],
+    "matches": {
+      "1284930": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あいず"
+        }
+      ],
+      "2210610": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "てをあげる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10611973",
+    "original": "トムはすぐに手をあげるんだ。",
+    "en": [
+      {
+        "id": "3241846",
+        "text": "Tom is quick to turn violent."
+      }
+    ],
+    "vocabIds": [
+      "2210610"
+    ],
+    "matches": {
+      "2210610": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "てをあげる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11808995",
+    "original": "いつも手を挙げるのに、先生は当ててくれないんだ。",
+    "en": [
+      {
+        "id": "10110310",
+        "text": "I always raise my hand, but the teacher never calls on me."
+      }
+    ],
+    "vocabIds": [
+      "1448860",
+      "2210610",
+      "1387990"
+    ],
+    "matches": {
+      "1387990": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "せんせい"
+        }
+      ],
+      "1448860": [
+        {
+          "start": 14,
+          "length": 7,
+          "reading": "あててくれない"
+        }
+      ],
+      "2210610": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "てをあげる"
+        }
+      ]
+    }
+  }
+]

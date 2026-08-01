@@ -1,0 +1,71 @@
+[
+  {
+    "id": "148448",
+    "original": "酒は飲んでも飲まれるな。",
+    "en": [
+      {
+        "id": "266111",
+        "text": "It's best to drink in moderation."
+      }
+    ],
+    "indices": "酒(さけ) は 飲む[01]{飲んで} も 飲む[01]{飲まれるな}",
+    "vocabIds": [
+      "2516710",
+      "1169870",
+      "1329010"
+    ],
+    "matches": {
+      "1169870": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "のんで"
+        }
+      ],
+      "1329010": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "さけ"
+        }
+      ],
+      "2516710": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "のまれる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1614519",
+    "original": "レモネードが多く飲まれる。",
+    "en": [
+      {
+        "id": "986412",
+        "text": "They drink a lot of lemonade."
+      }
+    ],
+    "vocabIds": [
+      "2516710",
+      "1407460"
+    ],
+    "matches": {
+      "1407460": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "おおく"
+        }
+      ],
+      "2516710": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "のまれる"
+        }
+      ]
+    }
+  }
+]

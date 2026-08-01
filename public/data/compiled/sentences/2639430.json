@@ -1,0 +1,79 @@
+[
+  {
+    "id": "107929",
+    "original": "彼は警察署長です。",
+    "en": [
+      {
+        "id": "295756",
+        "text": "He is the chief of a police station."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 警察 署長~ です",
+    "vocabIds": [
+      "2639430",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "2639430": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "けいさつしょちょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11848396",
+    "original": "トムは警察署長と一緒にランチ食べてますよ。",
+    "en": [
+      {
+        "id": "1418746",
+        "text": "Tom is having lunch with the police chief."
+      }
+    ],
+    "vocabIds": [
+      "1358280",
+      "2639430",
+      "1163420"
+    ],
+    "matches": {
+      "1163420": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "いっしょに"
+        }
+      ],
+      "1358280": [
+        {
+          "start": 14,
+          "length": 5,
+          "reading": "たべてます"
+        }
+      ],
+      "2639430": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "けいさつしょちょう"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,129 @@
+[
+  {
+    "id": "87199",
+    "original": "彼女は彼を責めるどころか、彼に褒美をあげた。",
+    "en": [
+      {
+        "id": "316509",
+        "text": "Far from blaming him, she gave him a reward."
+      }
+    ],
+    "indices": "彼女[01] は 彼(かれ) を 責める 所か[01]{どころか} 彼(かれ) に 褒美 を 上げる[05]{あげた}",
+    "vocabIds": [
+      "1383160",
+      "1483150",
+      "1518050",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "かれ"
+        },
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1383160": [
+        {
+          "start": 5,
+          "length": 7,
+          "reading": "せめるどころか"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "かれ"
+        },
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1518050": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "ほうび"
+        }
+      ]
+    }
+  },
+  {
+    "id": "150093",
+    "original": "自然界には褒美もなければ罰もない。",
+    "en": [
+      {
+        "id": "264464",
+        "text": "In nature there are neither rewards nor punishments."
+      }
+    ],
+    "indices": "自然界 には 褒美 も 無ければ{なければ} 罰(ばつ) も 無い{ない}",
+    "vocabIds": [
+      "1647340",
+      "1518050",
+      "1478060"
+    ],
+    "matches": {
+      "1478060": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "ばち"
+        }
+      ],
+      "1518050": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ほうび"
+        }
+      ],
+      "1647340": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "しぜんかい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "157459",
+    "original": "褒美をやろう。",
+    "en": [
+      {
+        "id": "17558",
+        "text": "You shall have a reward."
+      }
+    ],
+    "indices": "褒美 を 遣る{やろう}",
+    "vocabIds": [
+      "1518050"
+    ],
+    "matches": {
+      "1518050": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ほうび"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,125 @@
+[
+  {
+    "id": "182806",
+    "original": "喫煙者の病欠日数は非喫煙者の２倍です。",
+    "en": [
+      {
+        "id": "19926",
+        "text": "Smokers take twice as many days off sick as non-smokers."
+      }
+    ],
+    "indices": "喫煙者 の 病欠~ 日数 は 非喫煙者~ の 二倍{２倍} です",
+    "vocabIds": [
+      "1484790",
+      "1226400",
+      "1710800",
+      "1582700",
+      "1462920"
+    ],
+    "matches": {
+      "1226400": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きつえんしゃ"
+        }
+      ],
+      "1462920": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "にばい"
+        }
+      ],
+      "1484790": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "ひきつえんしゃ"
+        }
+      ],
+      "1582700": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "にっすう"
+        }
+      ],
+      "1710800": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "びょうけつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2126240",
+    "original": "トムは病欠の電話を入れた。",
+    "en": [
+      {
+        "id": "1532982",
+        "text": "Tom called in sick."
+      }
+    ],
+    "vocabIds": [
+      "1465610",
+      "1710800",
+      "1443840"
+    ],
+    "matches": {
+      "1443840": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "でんわ"
+        }
+      ],
+      "1465610": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "いれた"
+        }
+      ],
+      "1710800": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "びょうけつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12505105",
+    "original": "ちゃんと病欠の連絡はしたの？",
+    "en": [
+      {
+        "id": "3185597",
+        "text": "Did you really call in sick?"
+      }
+    ],
+    "vocabIds": [
+      "1710800",
+      "1559900"
+    ],
+    "matches": {
+      "1559900": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "れんらく"
+        }
+      ],
+      "1710800": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "びょうけつ"
+        }
+      ]
+    }
+  }
+]

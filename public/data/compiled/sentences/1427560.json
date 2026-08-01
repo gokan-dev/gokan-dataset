@@ -1,0 +1,157 @@
+[
+  {
+    "id": "109053",
+    "original": "彼は会社の帳簿に穴を開けた。",
+    "en": [
+      {
+        "id": "294637",
+        "text": "He embezzled the money from his office."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 会社[01] の 帳簿 に 穴を開ける{穴を開けた}",
+    "vocabIds": [
+      "1202450",
+      "1198550",
+      "1427560",
+      "1000420",
+      "1483070",
+      "1254480",
+      "2159590"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1198550": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "かいしゃ"
+        }
+      ],
+      "1202450": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "あけた"
+        }
+      ],
+      "1254480": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "あな"
+        }
+      ],
+      "1427560": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ちょうぼ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "2159590": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "あな"
+        }
+      ]
+    }
+  },
+  {
+    "id": "220550",
+    "original": "この帳簿には不明朗な点がたくさんある。",
+    "en": [
+      {
+        "id": "57873",
+        "text": "There are many questionable points in this ledger."
+      }
+    ],
+    "indices": "此の{この} 帳簿~ には 不明朗[02]{不明朗な}~ 点(てん) が 沢山{たくさん} 有る{ある}",
+    "vocabIds": [
+      "1495090",
+      "1427560",
+      "1007860"
+    ],
+    "matches": {
+      "1007860": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "てん"
+        }
+      ],
+      "1427560": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ちょうぼ"
+        }
+      ],
+      "1495090": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "ふめいろう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "505469",
+    "original": "まず帳簿をつけることからはじめなさい。",
+    "en": [
+      {
+        "id": "505470",
+        "text": "Start by doing the books."
+      }
+    ],
+    "indices": "先ず{まず} 帳簿 を 付ける{つける} 事(こと){こと} から 始める{はじめ} 為さい{なさい}",
+    "vocabIds": [
+      "1427560"
+    ],
+    "matches": {
+      "1427560": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ちょうぼ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8584104",
+    "original": "トムは帳簿をごまかしていた。",
+    "en": [
+      {
+        "id": "6099206",
+        "text": "Tom was cooking the books."
+      }
+    ],
+    "vocabIds": [
+      "1427560"
+    ],
+    "matches": {
+      "1427560": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ちょうぼ"
+        }
+      ]
+    }
+  }
+]

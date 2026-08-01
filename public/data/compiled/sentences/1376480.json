@@ -1,0 +1,112 @@
+[
+  {
+    "id": "75283",
+    "original": "梅雨の晴れ間に洗濯物を干すと気分はもう夏でした。",
+    "en": [
+      {
+        "id": "328436",
+        "text": "Drying the washing on a fine day in the rainy season; I felt like it was already summer."
+      }
+    ],
+    "indices": "梅雨[01] の 晴れ間[01] に 洗濯物 を[01] 干す[01] と 気分 は もう[01] 夏(なつ) です{でした}",
+    "vocabIds": [
+      "1376480",
+      "1391020",
+      "1603510",
+      "1582960",
+      "1222590",
+      "1191320"
+    ],
+    "matches": {
+      "1191320": [
+        {
+          "start": 19,
+          "length": 1,
+          "reading": "なつ"
+        }
+      ],
+      "1222590": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "きぶん"
+        }
+      ],
+      "1376480": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "はれま"
+        }
+      ],
+      "1391020": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "せんたくぶつ"
+        }
+      ],
+      "1582960": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "つゆ"
+        }
+      ],
+      "1603510": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "ほすと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "75284",
+    "original": "暗雲が立ちこめていた後には、すっきりとした晴れ間になる。",
+    "en": [
+      {
+        "id": "328435",
+        "text": "After dark clouds, you get periods of refreshing clear weather."
+      }
+    ],
+    "indices": "暗雲~ が 立ち込める{立ちこめていた} 後(あと) には すっきり[01]{すっきりと} 為る(する){した} 晴れ間[01]~ になる[01]",
+    "vocabIds": [
+      "1551510",
+      "1376480",
+      "1154390",
+      "2640160"
+    ],
+    "matches": {
+      "1154390": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あんうん"
+        }
+      ],
+      "1376480": [
+        {
+          "start": 21,
+          "length": 3,
+          "reading": "はれま"
+        }
+      ],
+      "1551510": [
+        {
+          "start": 3,
+          "length": 7,
+          "reading": "たちこめていた"
+        }
+      ],
+      "2640160": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "のちに"
+        }
+      ]
+    }
+  }
+]

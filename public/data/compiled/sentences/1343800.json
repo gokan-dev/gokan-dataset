@@ -1,0 +1,230 @@
+[
+  {
+    "id": "75121",
+    "original": "私はテキストを買ってますが、流れてくる英文をテキスト見ずにまず書き出しています。",
+    "en": [
+      {
+        "id": "328598",
+        "text": "I buy the texts, but first I start writing the English sentences that come along without looking at them."
+      }
+    ],
+    "indices": "私(わたし)[01] は テキスト を 買う[01]{買ってます} が 流れる[01]{流れて} 来る(くる)[01]{くる} 英文[01] を テキスト 見る[01]{見ず} に 先ず{まず} 書き出す[01]{書き出しています}",
+    "vocabIds": [
+      "1343800",
+      "1473740",
+      "1552140",
+      "1174620",
+      "1259290",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1174620": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "えいぶん"
+        }
+      ],
+      "1259290": [
+        {
+          "start": 26,
+          "length": 2,
+          "reading": "みず"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1343800": [
+        {
+          "start": 31,
+          "length": 8,
+          "reading": "かきだしています"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1473740": [
+        {
+          "start": 7,
+          "length": 6,
+          "reading": "かってますが"
+        }
+      ],
+      "1552140": [
+        {
+          "start": 14,
+          "length": 5,
+          "reading": "ながれてくる"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "235821",
+    "original": "１ます空けて書き出しなさい。",
+    "en": [
+      {
+        "id": "73202",
+        "text": "Begin to write, leaving one space blank."
+      }
+    ],
+    "indices": "ひと升{１ます}~ 開ける(あける)[03]{空けて} 書き出す[01]{書き出し}~ 為さい{なさい}",
+    "vocabIds": [
+      "1343800",
+      "1163460",
+      "1202450",
+      "2037180"
+    ],
+    "matches": {
+      "1163460": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "いちます"
+        }
+      ],
+      "1202450": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "あけて"
+        }
+      ],
+      "1343800": [
+        {
+          "start": 6,
+          "length": 7,
+          "reading": "かきだしなさい"
+        }
+      ],
+      "2037180": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "あけて"
+        }
+      ]
+    }
+  },
+  {
+    "id": "573694",
+    "original": "玩具も、何も無いから、私は、チョークを買ってもらって、それで、押入の板戸へ、絵や、字を書き出した",
+    "en": [
+      {
+        "id": "573699",
+        "text": "I had no toys or anything else, so I used a chalk that had been bought for me and drew pictures and letters on a closet door."
+      }
+    ],
+    "vocabIds": [
+      "1473740",
+      "1343800",
+      "2179900",
+      "1217070",
+      "1589110",
+      "1732640",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1202270",
+      "1315130"
+    ],
+    "matches": {
+      "1202270": [
+        {
+          "start": 38,
+          "length": 1,
+          "reading": "え"
+        }
+      ],
+      "1217070": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おもちゃ"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1315130": [
+        {
+          "start": 41,
+          "length": 1,
+          "reading": "じ"
+        }
+      ],
+      "1343800": [
+        {
+          "start": 43,
+          "length": 5,
+          "reading": "かきだした"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1473740": [
+        {
+          "start": 19,
+          "length": 7,
+          "reading": "かってもらって"
+        }
+      ],
+      "1589110": [
+        {
+          "start": 31,
+          "length": 2,
+          "reading": "おしいれ"
+        }
+      ],
+      "1732640": [
+        {
+          "start": 34,
+          "length": 2,
+          "reading": "いたど"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2179900": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "なにもない"
+        }
+      ]
+    }
+  }
+]

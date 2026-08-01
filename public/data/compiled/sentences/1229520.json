@@ -1,0 +1,167 @@
+[
+  {
+    "id": "88545",
+    "original": "彼女は新聞に家事手伝いの求人広告を出した。",
+    "en": [
+      {
+        "id": "315162",
+        "text": "She put an advertisement for a domestic help in the paper."
+      }
+    ],
+    "indices": "彼女[01] は 新聞 に 家事手伝い~ の 求人広告 を 出す{出した}",
+    "vocabIds": [
+      "2094710",
+      "1229520",
+      "1338180",
+      "1483150",
+      "1362360"
+    ],
+    "matches": {
+      "1229520": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "きゅうじんこうこく"
+        }
+      ],
+      "1338180": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "だした"
+        }
+      ],
+      "1362360": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "しんぶん"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "2094710": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "かじてつだい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "160178",
+    "original": "私はその求人広告に応募したいと思います。",
+    "en": [
+      {
+        "id": "254342",
+        "text": "I think that I want to apply for the job in the advertisement."
+      }
+    ],
+    "indices": "私(わたし)[01] は 其の[01]{その} 求人広告 に 応募 したい と 思う{思います}",
+    "vocabIds": [
+      "1229520",
+      "1589350",
+      "1180030",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1180030": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "おうぼ"
+        }
+      ],
+      "1229520": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "きゅうじんこうこく"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1589350": [
+        {
+          "start": 15,
+          "length": 4,
+          "reading": "おもいます"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "182400",
+    "original": "求人広告には「女性を求む」とはっきり書かれていた。",
+    "en": [
+      {
+        "id": "19577",
+        "text": "The job advertisement specifically requested females."
+      }
+    ],
+    "indices": "求人広告~ には 女性[01] を 求む~ と はっきり 書く{書かれていた}",
+    "vocabIds": [
+      "1229520",
+      "1345250",
+      "1229330",
+      "1343950"
+    ],
+    "matches": {
+      "1229330": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "もとむ"
+        }
+      ],
+      "1229520": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "きゅうじんこうこく"
+        }
+      ],
+      "1343950": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "かか"
+        }
+      ],
+      "1345250": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "じょせい"
+        }
+      ]
+    }
+  }
+]

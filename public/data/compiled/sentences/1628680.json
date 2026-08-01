@@ -1,0 +1,76 @@
+[
+  {
+    "id": "211859",
+    "original": "その会社には会社の付属病院が３つある。",
+    "en": [
+      {
+        "id": "49136",
+        "text": "The company has three hospitals of its own."
+      }
+    ],
+    "indices": "其の[01]{その} 会社[01] には 会社[01] の 付属病院~ が 三つ(みっつ){３つ} 有る{ある}",
+    "vocabIds": [
+      "1628680",
+      "1198550",
+      "1299740"
+    ],
+    "matches": {
+      "1198550": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "かいしゃ"
+        },
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "かいしゃ"
+        }
+      ],
+      "1299740": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "みっつ"
+        }
+      ],
+      "1628680": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "ふぞくびょういん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2406967",
+    "original": "この大学には付属病院があります。",
+    "en": [
+      {
+        "id": "10337008",
+        "text": "This college has a medical center."
+      }
+    ],
+    "vocabIds": [
+      "1628680",
+      "1413240"
+    ],
+    "matches": {
+      "1413240": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "だいがく"
+        }
+      ],
+      "1628680": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "ふぞくびょういん"
+        }
+      ]
+    }
+  }
+]

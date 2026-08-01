@@ -1,0 +1,592 @@
+[
+  {
+    "id": "91800",
+    "original": "彼女はノートに何かを書き込みました。",
+    "en": [
+      {
+        "id": "311912",
+        "text": "She wrote down something in her notebook."
+      }
+    ],
+    "indices": "彼女[01] は ノート[01] に 何か を 書き込む[01]{書き込みました}",
+    "vocabIds": [
+      "1343730",
+      "1483150",
+      "1188270"
+    ],
+    "matches": {
+      "1188270": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "なにか"
+        }
+      ],
+      "1343730": [
+        {
+          "start": 10,
+          "length": 7,
+          "reading": "かきこみました"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "122847",
+    "original": "日付は自分で書き込みなさい。",
+    "en": [
+      {
+        "id": "281155",
+        "text": "Write in the date yourself."
+      }
+    ],
+    "indices": "日付 は 自分で 書き込む[01]{書き込み}~ 為さい{なさい}",
+    "vocabIds": [
+      "1343730",
+      "2830519",
+      "1464340"
+    ],
+    "matches": {
+      "1343730": [
+        {
+          "start": 6,
+          "length": 7,
+          "reading": "かきこみなさい"
+        }
+      ],
+      "1464340": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ひづけ"
+        }
+      ],
+      "2830519": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "じぶんで"
+        }
+      ]
+    }
+  },
+  {
+    "id": "195647",
+    "original": "まず、この書類に必要事項を書き込んでください。",
+    "en": [
+      {
+        "id": "32820",
+        "text": "Please fill out this form first."
+      }
+    ],
+    "indices": "先ず[01]{まず} 此の{この} 書類 に 必要 事項 を 書き込む[01]{書き込んで} 下さい{ください}",
+    "vocabIds": [
+      "1343730",
+      "2848632",
+      "1344200"
+    ],
+    "matches": {
+      "1343730": [
+        {
+          "start": 13,
+          "length": 9,
+          "reading": "かきこんでください"
+        }
+      ],
+      "1344200": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "しょるい"
+        }
+      ],
+      "2848632": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "ひつようじこう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "196628",
+    "original": "ペンで空所に書き込まなければなりません。",
+    "en": [
+      {
+        "id": "33807",
+        "text": "You must fill the blanks in with a pen."
+      }
+    ],
+    "indices": "ペン で(#2028980) 空所(くうしょ) に 書き込む[01]{書き込ま} ねばならない{なければなりません}",
+    "vocabIds": [
+      "1343730",
+      "1245670",
+      "2841742"
+    ],
+    "matches": {
+      "1245670": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "そらしょ"
+        }
+      ],
+      "1343730": [
+        {
+          "start": 6,
+          "length": 13,
+          "reading": "かきこまなければなりません"
+        }
+      ],
+      "2841742": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "そらしょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "218555",
+    "original": "これはどのように書き込めばいいのですか。",
+    "en": [
+      {
+        "id": "55869",
+        "text": "Can you tell me how to fill in this form?"
+      }
+    ],
+    "indices": "此れ[01]{これ} は どの様に{どのように} 書き込む[01]{書き込めば} いい(#2820690)[01] のです か",
+    "vocabIds": [
+      "1343730"
+    ],
+    "matches": {
+      "1343730": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "かきこめば"
+        }
+      ]
+    }
+  },
+  {
+    "id": "221207",
+    "original": "この書類に必要事項を書き込んで下さい。",
+    "en": [
+      {
+        "id": "56538",
+        "text": "Please fill out this form."
+      }
+    ],
+    "indices": "此の{この} 書類 に 必要 事項 を 書き込む[01]{書き込んで} 下さい",
+    "vocabIds": [
+      "1343730",
+      "2848632",
+      "1344200"
+    ],
+    "matches": {
+      "1343730": [
+        {
+          "start": 10,
+          "length": 8,
+          "reading": "かきこんでください"
+        }
+      ],
+      "1344200": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "しょるい"
+        }
+      ],
+      "2848632": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "ひつようじこう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "221208",
+    "original": "この書類に書き込んで下さい。",
+    "en": [
+      {
+        "id": "56538",
+        "text": "Please fill out this form."
+      }
+    ],
+    "indices": "此の{この} 書類 に 書き込む[01]{書き込んで} 下さい",
+    "vocabIds": [
+      "1343730",
+      "1344200"
+    ],
+    "matches": {
+      "1343730": [
+        {
+          "start": 5,
+          "length": 8,
+          "reading": "かきこんでください"
+        }
+      ],
+      "1344200": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "しょるい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "221213",
+    "original": "この書式はやや複雑そうだ。書きこむのを手伝ってくれ。",
+    "en": [
+      {
+        "id": "58536",
+        "text": "This form looks kind of complicated. Help me fill it out."
+      }
+    ],
+    "indices": "此の{この} 書式~ は 稍{やや} 複雑 そう[01] だ 書き込む[01]{書きこむ} の を 手伝う{手伝って} 呉れる{くれ}",
+    "vocabIds": [
+      "1328190",
+      "1343730",
+      "1344060",
+      "1501350"
+    ],
+    "matches": {
+      "1328190": [
+        {
+          "start": 19,
+          "length": 6,
+          "reading": "てつだってくれ"
+        }
+      ],
+      "1343730": [
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "かきこむ"
+        }
+      ],
+      "1344060": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "しょしき"
+        }
+      ],
+      "1501350": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ふくざつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "224002",
+    "original": "このアンケート用紙に必要事項を書き込み、当方にお送り下さい。",
+    "en": [
+      {
+        "id": "61337",
+        "text": "Please fill out this questionnaire and send it to us."
+      }
+    ],
+    "indices": "此の{この} アンケート 用紙 に 必要 事項 を 書き込む[01]{書き込み} 当方 に 送る{お送り} 下さい",
+    "vocabIds": [
+      "1959270",
+      "2848632",
+      "1343730",
+      "1184280",
+      "1449240"
+    ],
+    "matches": {
+      "1184280": [
+        {
+          "start": 26,
+          "length": 3,
+          "reading": "ください"
+        }
+      ],
+      "1343730": [
+        {
+          "start": 15,
+          "length": 4,
+          "reading": "かきこみ"
+        }
+      ],
+      "1449240": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "とうほう"
+        }
+      ],
+      "1959270": [
+        {
+          "start": 2,
+          "length": 7,
+          "reading": "あんけーとようし"
+        }
+      ],
+      "2848632": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "ひつようじこう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "228563",
+    "original": "いま、この用紙に書き込まなくてはいけないのですか。",
+    "en": [
+      {
+        "id": "65921",
+        "text": "Should I fill in this form now?"
+      }
+    ],
+    "indices": "今(いま){いま} 此の{この} 用紙~ に 書き込む[01]{書き込まなくてはいけない} のです か",
+    "vocabIds": [
+      "1343730",
+      "1546290"
+    ],
+    "matches": {
+      "1343730": [
+        {
+          "start": 8,
+          "length": 7,
+          "reading": "かきこまなくて"
+        }
+      ],
+      "1546290": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ようし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "231843",
+    "original": "あなたは小切手に書き込む時に、日付を間違えた。",
+    "en": [
+      {
+        "id": "69211",
+        "text": "You got the date wrong when you were filling in the check."
+      }
+    ],
+    "indices": "貴方(あなた)[01]{あなた} は 小切手 に 書き込む[01] 時(とき) に 日付 を[01] 間違える[02]{間違えた}",
+    "vocabIds": [
+      "1343730",
+      "1215330",
+      "1348410",
+      "2021540",
+      "1464340"
+    ],
+    "matches": {
+      "1215330": [
+        {
+          "start": 18,
+          "length": 4,
+          "reading": "まちがえた"
+        }
+      ],
+      "1343730": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "かきこむ"
+        }
+      ],
+      "1348410": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "こぎって"
+        }
+      ],
+      "1464340": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "ひづけ"
+        }
+      ],
+      "2021540": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "ときに"
+        }
+      ]
+    }
+  },
+  {
+    "id": "234762",
+    "original": "あぁ、この用紙に書き込むだけです。",
+    "en": [
+      {
+        "id": "72140",
+        "text": "Oh, just fill out this form."
+      }
+    ],
+    "indices": "嗚呼{あぁ} 此の{この} 用紙 に 書き込む[01] 丈(だけ){だけ} です",
+    "vocabIds": [
+      "1343730",
+      "1546290"
+    ],
+    "matches": {
+      "1343730": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "かきこむ"
+        }
+      ],
+      "1546290": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ようし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "402476",
+    "original": "援助交際をほのめかすネット掲示板に書き込んだ女子高生が検挙されました。",
+    "en": [
+      {
+        "id": "402477",
+        "text": "A high school girl posting on a web forum hinting at underaged prostitution has been arrested."
+      }
+    ],
+    "vocabIds": [
+      "1343730",
+      "1628360",
+      "1345160",
+      "1250630",
+      "1257880"
+    ],
+    "matches": {
+      "1250630": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "けいじばん"
+        }
+      ],
+      "1257880": [
+        {
+          "start": 27,
+          "length": 2,
+          "reading": "けんきょ"
+        }
+      ],
+      "1343730": [
+        {
+          "start": 17,
+          "length": 5,
+          "reading": "かきこんだ"
+        }
+      ],
+      "1345160": [
+        {
+          "start": 22,
+          "length": 4,
+          "reading": "じょしこうせい"
+        }
+      ],
+      "1628360": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "えんじょこうさい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9440684",
+    "original": "トムは申込書に必要事項を書き込んだ。",
+    "en": [
+      {
+        "id": "37253",
+        "text": "Tom filled out the application form."
+      }
+    ],
+    "vocabIds": [
+      "1343730",
+      "2848632",
+      "1605150"
+    ],
+    "matches": {
+      "1343730": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "かきこんだ"
+        }
+      ],
+      "1605150": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "もうしこみしょ"
+        }
+      ],
+      "2848632": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "ひつようじこう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "6849896",
+    "original": "本のすみになにやら書き込んである。",
+    "en": [
+      {
+        "id": "10069017",
+        "text": "Something is written in the corner of the book."
+      }
+    ],
+    "vocabIds": [
+      "1343730",
+      "1011740"
+    ],
+    "matches": {
+      "1011740": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ほんの"
+        }
+      ],
+      "1343730": [
+        {
+          "start": 9,
+          "length": 7,
+          "reading": "かきこんである"
+        }
+      ]
+    }
+  }
+]

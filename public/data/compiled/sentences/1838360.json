@@ -1,0 +1,191 @@
+[
+  {
+    "id": "78280",
+    "original": "立ち聞きする気はなかったが、ついあなたの話が聞こえてしまった。",
+    "en": [
+      {
+        "id": "325437",
+        "text": "I didn't mean to eavesdrop, but I did overhear you."
+      }
+    ],
+    "indices": "立ち聞き 為る(する){する} 気(き)[03] は 無い{なかった} が つい[03] 貴方(あなた)[01]{あなた} の 話(はなし) が 聞こえる[01]{聞こえて} 仕舞う{しまった}",
+    "vocabIds": [
+      "1591150",
+      "1838360",
+      "1221520",
+      "1600900"
+    ],
+    "matches": {
+      "1221520": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "き"
+        }
+      ],
+      "1591150": [
+        {
+          "start": 22,
+          "length": 8,
+          "reading": "きこえてしまった"
+        }
+      ],
+      "1600900": [
+        {
+          "start": 20,
+          "length": 1,
+          "reading": "はなし"
+        }
+      ],
+      "1838360": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "たちぎき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "96045",
+    "original": "彼らは立ち聞きされるのを恐れた。",
+    "en": [
+      {
+        "id": "307660",
+        "text": "They feared being overheard."
+      },
+      {
+        "id": "1470888",
+        "text": "They were afraid of being overheard."
+      }
+    ],
+    "indices": "彼ら(かれら) は 立ち聞き 為れる{される} の を 恐れる{恐れた}",
+    "vocabIds": [
+      "1838360",
+      "1589200",
+      "1483090",
+      "2397090"
+    ],
+    "matches": {
+      "1483090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれら"
+        }
+      ],
+      "1589200": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "おそれた"
+        }
+      ],
+      "1838360": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "たちぎき"
+        }
+      ],
+      "2397090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "232945",
+    "original": "あなたの話を立ち聞きするつもりはありませんでした。",
+    "en": [
+      {
+        "id": "70316",
+        "text": "I didn't mean to eavesdrop on your talk."
+      }
+    ],
+    "indices": "貴方(あなた)[01]{あなた} の 話(はなし) を 立ち聞き~ 為る(する){する} 積もり[01]{つもり} は 有る{ありませんでした}",
+    "vocabIds": [
+      "1838360",
+      "1600900"
+    ],
+    "matches": {
+      "1600900": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "はなし"
+        }
+      ],
+      "1838360": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "たちぎき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "997263",
+    "original": "あなたたちの話を立ち聞きするつもりはなかったんです。",
+    "en": [
+      {
+        "id": "70316",
+        "text": "I didn't mean to eavesdrop on your talk."
+      },
+      {
+        "id": "997906",
+        "text": "I didn't mean to eavesdrop on your conversation."
+      }
+    ],
+    "vocabIds": [
+      "1838360",
+      "1600900"
+    ],
+    "matches": {
+      "1600900": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "はなし"
+        }
+      ],
+      "1838360": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "たちぎき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9039513",
+    "original": "立ち聞きするつもりはなかったんだよ。",
+    "en": [
+      {
+        "id": "997906",
+        "text": "I didn't mean to eavesdrop on your conversation."
+      },
+      {
+        "id": "12534083",
+        "text": "I didn't mean to eavesdrop."
+      }
+    ],
+    "vocabIds": [
+      "1838360"
+    ],
+    "matches": {
+      "1838360": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "たちぎき"
+        }
+      ]
+    }
+  }
+]

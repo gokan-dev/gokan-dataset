@@ -1,0 +1,91 @@
+[
+  {
+    "id": "222796",
+    "original": "この科学論文は小説のように読める。",
+    "en": [
+      {
+        "id": "60126",
+        "text": "This scientific article reads like a novel."
+      }
+    ],
+    "indices": "此の{この} 科学 論文 は 小説 の様に{のように} 読む{読める}",
+    "vocabIds": [
+      "2861498",
+      "2859455",
+      "1348430"
+    ],
+    "matches": {
+      "1348430": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "しょうせつ"
+        }
+      ],
+      "2859455": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "よめる"
+        }
+      ],
+      "2861498": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "かがくろんぶん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8553852",
+    "original": "彼女は科学論文を読むのが好きです。",
+    "en": [
+      {
+        "id": "2895122",
+        "text": "She likes to read scientific articles."
+      },
+      {
+        "id": "2895124",
+        "text": "She enjoys reading scientific articles."
+      }
+    ],
+    "vocabIds": [
+      "2861498",
+      "1483150",
+      "1456360",
+      "1277450"
+    ],
+    "matches": {
+      "1277450": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "すき"
+        }
+      ],
+      "1456360": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "よむ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "2861498": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "かがくろんぶん"
+        }
+      ]
+    }
+  }
+]

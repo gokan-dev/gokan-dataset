@@ -1,0 +1,125 @@
+[
+  {
+    "id": "186694",
+    "original": "火事のさなかに靴を片一方なくしてしまいました。",
+    "en": [
+      {
+        "id": "23830",
+        "text": "I lost my shoe in the fire."
+      }
+    ],
+    "indices": "火事 の 最中(さいちゅう){さなか} に 靴 を 片一方~ 無くす[01]{なくして} 仕舞う{しまいました}",
+    "vocabIds": [
+      "1511590",
+      "1193950",
+      "1246700"
+    ],
+    "matches": {
+      "1193950": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かじ"
+        }
+      ],
+      "1246700": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "くつ"
+        }
+      ],
+      "1511590": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "かたいっぽう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2997554",
+    "original": "「どうして靴下っていつも片一方だけなくなるんだろう？」「両方なくなったらなくなったことに気づかないんだよ」「あ、そっか」",
+    "en": [
+      {
+        "id": "5469069",
+        "text": "\"I wonder why you always lose just one sock out of a pair.\" \"If you lost both, you wouldn't notice it, right?\" \"Yeah, I guess you're right.\""
+      }
+    ],
+    "vocabIds": [
+      "1591330",
+      "1511590",
+      "1246740",
+      "1554010"
+    ],
+    "matches": {
+      "1246740": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "くつした"
+        }
+      ],
+      "1511590": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "かたいっぽう"
+        }
+      ],
+      "1554010": [
+        {
+          "start": 28,
+          "length": 2,
+          "reading": "りょうほう"
+        }
+      ],
+      "1591330": [
+        {
+          "start": 44,
+          "length": 5,
+          "reading": "きづかない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9648175",
+    "original": "靴の片方はここにあるんだけど。もう片一方はどこだろう？",
+    "en": [
+      {
+        "id": "9648042",
+        "text": "One of my shoes is here. Where's the other one?"
+      }
+    ],
+    "vocabIds": [
+      "1511590",
+      "1511810",
+      "1246700"
+    ],
+    "matches": {
+      "1246700": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "くつ"
+        }
+      ],
+      "1511590": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "かたいっぽう"
+        }
+      ],
+      "1511810": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "かたほう"
+        }
+      ]
+    }
+  }
+]

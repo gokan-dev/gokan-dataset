@@ -1,0 +1,91 @@
+[
+  {
+    "id": "101274",
+    "original": "彼は背伸びをして失敗した。",
+    "en": [
+      {
+        "id": "302423",
+        "text": "He bit off more than he could chew."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 背伸び~ を 為る(する){して} 失敗 為る(する){した}",
+    "vocabIds": [
+      "1472770",
+      "1320140",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1320140": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "しっぱい"
+        }
+      ],
+      "1472770": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "せのび"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9807264",
+    "original": "はい、大きく背伸びしてください。",
+    "en": [
+      {
+        "id": "10241587",
+        "text": "Right, stretch to your full length, please."
+      },
+      {
+        "id": "10241595",
+        "text": "Right, stretch to your full height, please."
+      },
+      {
+        "id": "10241605",
+        "text": "OK, stretch to your full length, please."
+      },
+      {
+        "id": "10241610",
+        "text": "OK, stretch to your full height, please."
+      }
+    ],
+    "vocabIds": [
+      "1588880",
+      "1472770"
+    ],
+    "matches": {
+      "1472770": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "せのび"
+        }
+      ],
+      "1588880": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "おおきく"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,171 @@
+[
+  {
+    "id": "80972",
+    "original": "眠れる獅子は起こすな。",
+    "en": [
+      {
+        "id": "30212",
+        "text": "Let sleeping dogs lie."
+      }
+    ],
+    "indices": "眠る[01]{眠れる} 獅子[01]~ は 起こす な[01]",
+    "vocabIds": [
+      "2866713",
+      "1223660",
+      "1311070"
+    ],
+    "matches": {
+      "1223660": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "おこす"
+        }
+      ],
+      "1311070": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "しし"
+        }
+      ],
+      "2866713": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ねむれる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "410420",
+    "original": "死んだ獅子より生きている犬の方がましだ。",
+    "en": [
+      {
+        "id": "410321",
+        "text": "A living dog is better than a dead lion."
+      }
+    ],
+    "vocabIds": [
+      "1378520",
+      "2018310",
+      "1310730",
+      "1311070",
+      "1258330"
+    ],
+    "matches": {
+      "1258330": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "いぬ"
+        }
+      ],
+      "1310730": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "しんだ"
+        }
+      ],
+      "1311070": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "しし"
+        }
+      ],
+      "1378520": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "いきている"
+        }
+      ],
+      "2018310": [
+        {
+          "start": 14,
+          "length": 4,
+          "reading": "ほうがまし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1678501",
+    "original": "獅子は肉を食べる。",
+    "en": [
+      {
+        "id": "29840",
+        "text": "Lions feed on flesh."
+      }
+    ],
+    "vocabIds": [
+      "1358280",
+      "1311070",
+      "1463520"
+    ],
+    "matches": {
+      "1311070": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しし"
+        }
+      ],
+      "1358280": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "たべる"
+        }
+      ],
+      "1463520": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "にく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "13090204",
+    "original": "獅子はただ大きい猫ですからね。",
+    "en": [
+      {
+        "id": "13090199",
+        "text": "A lion is just a big housecat, after all."
+      }
+    ],
+    "vocabIds": [
+      "1588880",
+      "1311070",
+      "1467640"
+    ],
+    "matches": {
+      "1311070": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しし"
+        }
+      ],
+      "1467640": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "ねこ"
+        }
+      ],
+      "1588880": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "おおきい"
+        }
+      ]
+    }
+  }
+]

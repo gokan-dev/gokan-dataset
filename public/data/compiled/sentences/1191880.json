@@ -1,0 +1,71 @@
+[
+  {
+    "id": "109257",
+    "original": "彼は家具屋だ。",
+    "en": [
+      {
+        "id": "294433",
+        "text": "He deals in furniture."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 家具屋~ だ",
+    "vocabIds": [
+      "1191880",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1191880": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "かぐや"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12484055",
+    "original": "家具屋に行きましょう。",
+    "en": [
+      {
+        "id": "12484036",
+        "text": "Let's go to the furniture store."
+      }
+    ],
+    "vocabIds": [
+      "1578850",
+      "1191880"
+    ],
+    "matches": {
+      "1191880": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "かぐや"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 4,
+          "length": 6,
+          "reading": "いきましょう"
+        }
+      ]
+    }
+  }
+]

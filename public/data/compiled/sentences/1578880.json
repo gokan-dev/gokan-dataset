@@ -1,0 +1,103 @@
+[
+  {
+    "id": "76829",
+    "original": "オーブントースターのタイマーが鳴る。食パンがコンガリ焼けた、香ばしい匂い。",
+    "en": [
+      {
+        "id": "326891",
+        "text": "The toaster-oven's timer rings. The fragrant smell of well toasted bread."
+      }
+    ],
+    "indices": "オーブントースター~ の タイマー~ が 鳴る 食パン~ が こんがり{コンガリ} 焼ける[01]{焼けた} 香ばしい[01]~ 匂い[01]",
+    "vocabIds": [
+      "1578880",
+      "1358400",
+      "1350610",
+      "1532910",
+      "1599760"
+    ],
+    "matches": {
+      "1350610": [
+        {
+          "start": 26,
+          "length": 3,
+          "reading": "やけた"
+        }
+      ],
+      "1358400": [
+        {
+          "start": 18,
+          "length": 3,
+          "reading": "しょくぱん"
+        }
+      ],
+      "1532910": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "なる"
+        }
+      ],
+      "1578880": [
+        {
+          "start": 30,
+          "length": 4,
+          "reading": "こうばしい"
+        }
+      ],
+      "1599760": [
+        {
+          "start": 34,
+          "length": 2,
+          "reading": "におい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9192182",
+    "original": "焼きたてパンの香ばしい香りが好き。",
+    "en": [
+      {
+        "id": "3053137",
+        "text": "I like the smell of freshly-baked bread."
+      }
+    ],
+    "vocabIds": [
+      "1350590",
+      "1578880",
+      "1589820",
+      "1277450"
+    ],
+    "matches": {
+      "1277450": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "すき"
+        }
+      ],
+      "1350590": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "やきたて"
+        }
+      ],
+      "1578880": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "こうばしい"
+        }
+      ],
+      "1589820": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "かおり"
+        }
+      ]
+    }
+  }
+]

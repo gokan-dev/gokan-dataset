@@ -1,0 +1,3894 @@
+[
+  {
+    "id": "4991",
+    "original": "失礼だが、上記の記事にある３つの誤りを指摘しておきたい。",
+    "en": [
+      {
+        "id": "1587",
+        "text": "Excuse me; allow me to point out three errors in the above article."
+      },
+      {
+        "id": "599187",
+        "text": "Excuse me, let me point out three mistakes in the above article."
+      },
+      {
+        "id": "915347",
+        "text": "Excuse me. I'd like to point out three errors in the above article."
+      }
+    ],
+    "indices": "失礼[02] だ が[03] 上記{上記の}~ 記事 に 有る[01]{ある}~ 三つ(みっつ){３つ} の 誤り を 指摘 為る(する){して} 置く{おき} たい",
+    "vocabIds": [
+      "1320230",
+      "1352880",
+      "1223240",
+      "1299740",
+      "1271290",
+      "1309940"
+    ],
+    "matches": {
+      "1223240": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1271290": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "あやまり"
+        }
+      ],
+      "1299740": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "みっつ"
+        }
+      ],
+      "1309940": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "してき"
+        }
+      ],
+      "1320230": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しつれい"
+        }
+      ],
+      "1352880": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "じょうき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "74671",
+    "original": "またアフィ狙いの記事か。",
+    "en": [
+      {
+        "id": "329048",
+        "text": "Another spam article hoping for click-throughs?"
+      }
+    ],
+    "indices": "又{また} アフィ~ 狙い の 記事 か",
+    "vocabIds": [
+      "1396550",
+      "1223240"
+    ],
+    "matches": {
+      "1223240": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1396550": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ねらい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "75208",
+    "original": "アフィ狙いの釣り記事ですね。英語関係のコミュのあちこちにマルチポストしています。",
+    "en": [
+      {
+        "id": "328511",
+        "text": "It's a troll trying for click-throughs. It's being multiposted in English-related communities all over the place."
+      }
+    ],
+    "indices": "アフィ 狙い の 釣り 記事 です ね 英語 関係 の コミュ の 彼方此方[01]{あちこち} に マルチポスト~ 為る(する){しています}",
+    "vocabIds": [
+      "1396550",
+      "1434040",
+      "1223240",
+      "1174420",
+      "1215810"
+    ],
+    "matches": {
+      "1174420": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "えいご"
+        }
+      ],
+      "1215810": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "かんけい"
+        }
+      ],
+      "1223240": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1396550": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ねらい"
+        }
+      ],
+      "1434040": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "つり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "75347",
+    "original": "男性からの投稿や記事へのレスは一切お断りしております。",
+    "en": [
+      {
+        "id": "328372",
+        "text": "Men are absolutely not allowed to post or reply to articles."
+      }
+    ],
+    "indices": "男性 から の 投稿 や 記事 へ の レス(#1145265)[01]~ は 一切 断る{お断り} 為る(する)[12]{して} 居る(おる)[02]{おります}",
+    "vocabIds": [
+      "1631690",
+      "1420160",
+      "1447180",
+      "1223240",
+      "1164170"
+    ],
+    "matches": {
+      "1164170": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "いっさい"
+        }
+      ],
+      "1223240": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1420160": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "だんせい"
+        }
+      ],
+      "1447180": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "とうこう"
+        }
+      ],
+      "1631690": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "おことわり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "75857",
+    "original": "適合率とは取り出した記事のうち、どの程度の記事が検索条件に合っているかを示す指標です。",
+    "en": [
+      {
+        "id": "327861",
+        "text": "The precision ratio is an index that indicates how many articles meet the search criteria out of all of the articles retrieved."
+      }
+    ],
+    "indices": "適合率~ とは 取り出す[02]{取り出した}~ 記事 之(の)[01]{の} 内(うち){うち} 何の(どの){どの} 程度 之(の)[01]{の} 記事 が 検索条件~ に 合う{合っている} か を 示す 指標 です",
+    "vocabIds": [
+      "1326770",
+      "1284430",
+      "2209940",
+      "2209630",
+      "1223240",
+      "1436540",
+      "1317110",
+      "1309990"
+    ],
+    "matches": {
+      "1223240": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "きじ"
+        },
+        {
+          "start": 21,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1284430": [
+        {
+          "start": 29,
+          "length": 5,
+          "reading": "あっている"
+        }
+      ],
+      "1309990": [
+        {
+          "start": 38,
+          "length": 2,
+          "reading": "しひょう"
+        }
+      ],
+      "1317110": [
+        {
+          "start": 36,
+          "length": 2,
+          "reading": "しめす"
+        }
+      ],
+      "1326770": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "とりだした"
+        }
+      ],
+      "1436540": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "ていど"
+        }
+      ],
+      "2209630": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "てきごうりつ"
+        }
+      ],
+      "2209940": [
+        {
+          "start": 24,
+          "length": 4,
+          "reading": "けんさくじょうけん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "76393",
+    "original": "メニュー・バーの「返事」から、「フォローアップ記事の作成」を選ぶ。フォローする記事が引用される。",
+    "en": [
+      {
+        "id": "327327",
+        "text": "From the menu-bar's \"Reply\" select \"create follow-up message\". The message you reply to is quoted."
+      }
+    ],
+    "indices": "メニューバー{メニュー・バー}~ 之(の)[01]{の} 返事 から フォローアップ~ 記事 之(の)[01]{の} 作成 を[01] 選ぶ フォロー[03]~ 為る(する){する} 記事 が 引用 為れる{される}",
+    "vocabIds": [
+      "1512220",
+      "1223240",
+      "1297760",
+      "1588730",
+      "1169660"
+    ],
+    "matches": {
+      "1169660": [
+        {
+          "start": 42,
+          "length": 2,
+          "reading": "いんよう"
+        }
+      ],
+      "1223240": [
+        {
+          "start": 23,
+          "length": 2,
+          "reading": "きじ"
+        },
+        {
+          "start": 39,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1297760": [
+        {
+          "start": 26,
+          "length": 2,
+          "reading": "さくせい"
+        }
+      ],
+      "1512220": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "へんじ"
+        }
+      ],
+      "1588730": [
+        {
+          "start": 30,
+          "length": 2,
+          "reading": "えらぶ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "79142",
+    "original": "夕べの新聞にはめぼしい記事があまりなかった。",
+    "en": [
+      {
+        "id": "324575",
+        "text": "There wasn't much news in last night's newspaper."
+      }
+    ],
+    "indices": "昨夜(ゆうべ)[02]{夕べ} の 新聞 には 目ぼしい{めぼしい}~ 記事 が 余り{あまり} 無い{なかった}",
+    "vocabIds": [
+      "2863051",
+      "1362360",
+      "1223240"
+    ],
+    "matches": {
+      "1223240": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1362360": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "しんぶん"
+        }
+      ],
+      "2863051": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ゆうべ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "83839",
+    "original": "仏教に関するその記事は私に再び東洋の宗教に関する興味を呼び起こした。",
+    "en": [
+      {
+        "id": "319877",
+        "text": "The article on Buddhism revived my interest in oriental religions."
+      }
+    ],
+    "indices": "仏教 に 関する 其の[01]{その} 記事 は 私(わたし)[01] に 再び 東洋 の 宗教 に 関する 興味 を 呼び起こす{呼び起こした}",
+    "vocabIds": [
+      "1266300",
+      "1501930",
+      "1223240",
+      "1292300",
+      "1448230",
+      "1331400",
+      "1238410",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1223240": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1238410": [
+        {
+          "start": 24,
+          "length": 2,
+          "reading": "きょうみ"
+        }
+      ],
+      "1266300": [
+        {
+          "start": 27,
+          "length": 6,
+          "reading": "よびおこした"
+        }
+      ],
+      "1292300": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "ふたたび"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1331400": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "しゅうきょう"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1448230": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "とうよう"
+        }
+      ],
+      "1501930": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ぶっきょう"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "83840",
+    "original": "仏教に関するその記事が、私の東洋の宗教への情熱を呼び戻した。",
+    "en": [
+      {
+        "id": "319876",
+        "text": "The article on Buddhism revived my passion for Oriental religions."
+      }
+    ],
+    "indices": "仏教 に 関する 其の[01]{その} 記事 が 私(わたし)[01]{私の} 東洋 の 宗教 へ の 情熱 を 呼び戻す{呼び戻した}",
+    "vocabIds": [
+      "1266410",
+      "1501930",
+      "1223240",
+      "1448230",
+      "1331400",
+      "1356330",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1223240": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1266410": [
+        {
+          "start": 24,
+          "length": 5,
+          "reading": "よびもどした"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1331400": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "しゅうきょう"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1356330": [
+        {
+          "start": 21,
+          "length": 2,
+          "reading": "じょうねつ"
+        }
+      ],
+      "1448230": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "とうよう"
+        }
+      ],
+      "1501930": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ぶっきょう"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "99439",
+    "original": "彼は野球の試合の記事を書かなければならなかった。",
+    "en": [
+      {
+        "id": "304259",
+        "text": "He had to write an account of the baseball game."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 野球 の 試合 の 記事 を 書く{書か} ねばならない{なければならなかった}",
+    "vocabIds": [
+      "1343950",
+      "1537300",
+      "1312420",
+      "1223240",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1223240": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1312420": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "しあい"
+        }
+      ],
+      "1343950": [
+        {
+          "start": 11,
+          "length": 12,
+          "reading": "かかなければならなかった"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1537300": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "やきゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "99726",
+    "original": "彼は夢中になってその記事を読んでいるように見えた。",
+    "en": [
+      {
+        "id": "303971",
+        "text": "He looked absorbed in reading the article."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 夢中 になる{になって} 其の[01]{その} 記事 を 読む{読んでいる} 様に{ように} 見える(みえる){見えた}",
+    "vocabIds": [
+      "1456360",
+      "1259140",
+      "1529500",
+      "1223240",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1223240": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1259140": [
+        {
+          "start": 21,
+          "length": 3,
+          "reading": "みえた"
+        }
+      ],
+      "1456360": [
+        {
+          "start": 13,
+          "length": 5,
+          "reading": "よんでいる"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1529500": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "むちゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "103746",
+    "original": "彼は新聞を読む時はいつも金融関係の記事に目を通すことにしている。",
+    "en": [
+      {
+        "id": "299948",
+        "text": "He makes it a rule to go over the financial section every time he reads the paper."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 新聞 を 読む 時(とき) は 何時も{いつも} 金融 関係 の 記事 に 目を通す 事にする{ことにしている}",
+    "vocabIds": [
+      "2114890",
+      "1535250",
+      "1362360",
+      "1456360",
+      "1223240",
+      "1000420",
+      "1483070",
+      "1315840"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1223240": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1315840": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "とき"
+        }
+      ],
+      "1362360": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "しんぶん"
+        }
+      ],
+      "1456360": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "よむ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1535250": [
+        {
+          "start": 20,
+          "length": 4,
+          "reading": "めをとおす"
+        }
+      ],
+      "2114890": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "きんゆうかんけい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "108547",
+    "original": "彼は記事を書くのにとても忙しい。",
+    "en": [
+      {
+        "id": "295139",
+        "text": "He is very busy writing stories."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 記事 を 書く のに 迚も[01]{とても} 忙しい(いそがしい)",
+    "vocabIds": [
+      "1519290",
+      "1223240",
+      "1343950",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1223240": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1343950": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "かく"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1519290": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "いそがしい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "143929",
+    "original": "人目をひく記事にするために、やっぱり冒頭にパンチのきいた一言をいれなきゃ。考えていることを、ダイレクトに伝えてください。",
+    "en": [
+      {
+        "id": "270637",
+        "text": "If you want to do eye-grabbing work you have to put out something punchy at the outset. Say what you mean directly."
+      }
+    ],
+    "indices": "人目を引く{人目をひく} 記事 に 為る(する){する} 為に{ために} 矢っ張り{やっぱり} 冒頭 に パンチ の 効く{きいた} 一言 を 入れる{いれ} 無きゃ{なきゃ} 考える{考えている} 事(こと){こと} を ダイレクト{ダイレクトに}~ 伝える{伝えて} 下さい{ください}",
+    "vocabIds": [
+      "1441870",
+      "2086720",
+      "1281020",
+      "1223240",
+      "1519860",
+      "1575990"
+    ],
+    "matches": {
+      "1223240": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1281020": [
+        {
+          "start": 37,
+          "length": 5,
+          "reading": "かんがえている"
+        }
+      ],
+      "1441870": [
+        {
+          "start": 52,
+          "length": 7,
+          "reading": "つたえてください"
+        }
+      ],
+      "1519860": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "ぼうとう"
+        }
+      ],
+      "1575990": [
+        {
+          "start": 28,
+          "length": 2,
+          "reading": "ひとこと"
+        }
+      ],
+      "2086720": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "ひとめをひく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "145185",
+    "original": "新聞から記事を切り抜いた。",
+    "en": [
+      {
+        "id": "269378",
+        "text": "I clipped some articles out of the newspaper."
+      }
+    ],
+    "indices": "新聞 から 記事 を 切り抜く{切り抜いた}",
+    "vocabIds": [
+      "1384610",
+      "1362360",
+      "1223240"
+    ],
+    "matches": {
+      "1223240": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1362360": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しんぶん"
+        }
+      ],
+      "1384610": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "きりぬいた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "147428",
+    "original": "書き方が、この記事ではずっと複雑じゃなくなっている。",
+    "en": [
+      {
+        "id": "267132",
+        "text": "The writing style is much less complicated in this article."
+      }
+    ],
+    "indices": "書き方 が 此の{この} 記事 で(#2028980) は ずっと 複雑 じゃ(#2851029) 無くなる{なくなっている}",
+    "vocabIds": [
+      "1343910",
+      "1223240",
+      "1501350"
+    ],
+    "matches": {
+      "1223240": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1343910": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "かきかた"
+        }
+      ],
+      "1501350": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "ふくざつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "150618",
+    "original": "時間が無かったので私は記事にさっと目を通した。",
+    "en": [
+      {
+        "id": "263940",
+        "text": "I didn't have much time so I just skimmed through the article."
+      }
+    ],
+    "indices": "時間 が 無い{無かった} ので 私(わたし)[01] は 記事 に 颯と[01]{さっと} 目を通す{目を通した}",
+    "vocabIds": [
+      "1529520",
+      "1432900",
+      "1315920",
+      "1223240",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1604890"
+    ],
+    "matches": {
+      "1223240": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1315920": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じかん"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1432900": [
+        {
+          "start": 19,
+          "length": 3,
+          "reading": "とおした"
+        }
+      ],
+      "1529520": [
+        {
+          "start": 3,
+          "length": 6,
+          "reading": "なかったので"
+        }
+      ],
+      "1604890": [
+        {
+          "start": 17,
+          "length": 1,
+          "reading": "め"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "156825",
+    "original": "私は昨日、酸性雨についての記事を読んだ。",
+    "en": [
+      {
+        "id": "257709",
+        "text": "I read an article about acid rain yesterday."
+      }
+    ],
+    "indices": "私(わたし)[01] は 昨日 酸性雨 に就いて{について} の 記事 を 読む{読んだ}",
+    "vocabIds": [
+      "1304340",
+      "1456360",
+      "1579260",
+      "1223240",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1223240": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1304340": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "さんせいう"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1456360": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "よんだ"
+        }
+      ],
+      "1579260": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きのう"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "160237",
+    "original": "私はその記事を旅行専門誌に採用してもらった。",
+    "en": [
+      {
+        "id": "254284",
+        "text": "I had the article accepted by a travel magazine."
+      }
+    ],
+    "indices": "私(わたし)[01] は 其の[01]{その} 記事 を 旅行 専門誌~ に 採用 為る(する){して} 貰う[02]{もらった}",
+    "vocabIds": [
+      "2018150",
+      "1223240",
+      "1553170",
+      "1294890",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1223240": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1294890": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "さいよう"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1553170": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "りょこう"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2018150": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "せんもんし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "160239",
+    "original": "私はその記事を雑誌から切りとった。",
+    "en": [
+      {
+        "id": "254283",
+        "text": "I cut the article out of the magazine."
+      }
+    ],
+    "indices": "私(わたし)[01] は 其の[01]{その} 記事 を 雑誌 から 切り取る{切りとった}",
+    "vocabIds": [
+      "1384260",
+      "1223240",
+      "1299400",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1223240": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1299400": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ざっし"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1384260": [
+        {
+          "start": 11,
+          "length": 5,
+          "reading": "きりとった"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "167038",
+    "original": "私たちの学校の記事が新聞に出た。",
+    "en": [
+      {
+        "id": "247464",
+        "text": "An article about our school appeared in the newspaper."
+      }
+    ],
+    "indices": "私たち の 学校 の 記事 が 新聞 に 出る{出た}",
+    "vocabIds": [
+      "1311300",
+      "1206730",
+      "1223240",
+      "1362360",
+      "1338240"
+    ],
+    "matches": {
+      "1206730": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "がっこう"
+        }
+      ],
+      "1223240": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1311300": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1338240": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "でた"
+        }
+      ],
+      "1362360": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "しんぶん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "183085",
+    "original": "記事の論調は一種の悲観論だった。",
+    "en": [
+      {
+        "id": "20207",
+        "text": "The article's tone was one of pessimism."
+      }
+    ],
+    "indices": "記事 の 論調~ は 一種[02] の 悲観論~ だ{だった}",
+    "vocabIds": [
+      "1689120",
+      "1223240",
+      "1561790",
+      "1163170"
+    ],
+    "matches": {
+      "1163170": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "いっしゅ"
+        }
+      ],
+      "1223240": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1561790": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ろんちょう"
+        }
+      ],
+      "1689120": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "ひかんろん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "183086",
+    "original": "記事の長さは１０００語を超えてはならない。",
+    "en": [
+      {
+        "id": "20208",
+        "text": "The length of the article is not to exceed 1000 words."
+      }
+    ],
+    "indices": "記事 の 長い{長} さ[01] は 語(ご)[01] を 越える[02]{超えて} は ならない",
+    "vocabIds": [
+      "1488000",
+      "1593070",
+      "1223240",
+      "1429750",
+      "1557630",
+      "1270910",
+      "1270930"
+    ],
+    "matches": {
+      "1223240": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1270910": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "ご"
+        }
+      ],
+      "1270930": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "ご"
+        }
+      ],
+      "1429750": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ながさ"
+        }
+      ],
+      "1488000": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "いちぜろぜろ"
+        }
+      ],
+      "1557630": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "ぜろ"
+        }
+      ],
+      "1593070": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "こえて"
+        }
+      ]
+    }
+  },
+  {
+    "id": "200328",
+    "original": "どの記者も、自分の書いた記事をただちに送信した。",
+    "en": [
+      {
+        "id": "37530",
+        "text": "Every reporter sent his stories with the least possible delay."
+      }
+    ],
+    "indices": "何の(どの){どの} 記者 も 自分[01] の 書く{書いた} 記事 を 直ちに{ただちに} 送信~ 為る(する){した}",
+    "vocabIds": [
+      "1343950",
+      "1223250",
+      "1318610",
+      "1223240",
+      "1402820"
+    ],
+    "matches": {
+      "1223240": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1223250": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きしゃ"
+        }
+      ],
+      "1318610": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "じぶん"
+        }
+      ],
+      "1343950": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "かいた"
+        }
+      ],
+      "1402820": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "そうしん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "203887",
+    "original": "タイム誌のアジアについての記事を読んだかい？",
+    "en": [
+      {
+        "id": "41128",
+        "text": "Have you read the article about Asia in Time?"
+      }
+    ],
+    "indices": "NI{タイム} 誌(し) の 亜細亜{アジア} に就いて{について} の 記事 を 読む{読んだ} かい",
+    "vocabIds": [
+      "5741062",
+      "1456360",
+      "1223240",
+      "1473740"
+    ],
+    "matches": {
+      "1223240": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1456360": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "よんだ"
+        }
+      ],
+      "1473740": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "かい"
+        }
+      ],
+      "5741062": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "たいむし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "208825",
+    "original": "新聞にその記事は載らなかった。",
+    "en": [
+      {
+        "id": "46084",
+        "text": "The paper didn't carry the story."
+      }
+    ],
+    "indices": "新聞 に 其の[01]{その} 記事 は 載る[02]{載らなかった}",
+    "vocabIds": [
+      "2649690",
+      "1362360",
+      "1223240"
+    ],
+    "matches": {
+      "1223240": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1362360": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しんぶん"
+        }
+      ],
+      "2649690": [
+        {
+          "start": 8,
+          "length": 6,
+          "reading": "のらなかった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "209944",
+    "original": "その事故がどんなに重大であったかは、この記事を読みさえすればよい。",
+    "en": [
+      {
+        "id": "47207",
+        "text": "You have only to read this article to see how serious the accident was."
+      }
+    ],
+    "indices": "其の[01]{その} 事故 が どんなに 重大 である{であった} か[02] は 此の{この} 記事 を 読み さえすれば 良い{よい}",
+    "vocabIds": [
+      "1313850",
+      "1336500",
+      "1223240",
+      "1456360"
+    ],
+    "matches": {
+      "1223240": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1313850": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "じこ"
+        }
+      ],
+      "1336500": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "じゅうだい"
+        }
+      ],
+      "1456360": [
+        {
+          "start": 23,
+          "length": 2,
+          "reading": "よみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "210486",
+    "original": "その雑誌の記事には円高になるだろうと書いてあった。",
+    "en": [
+      {
+        "id": "47754",
+        "text": "The magazine article said that the value of the yen would rise."
+      }
+    ],
+    "indices": "其の[01]{その} 雑誌 の 記事 には 円高 になる[01] だろう と書いてある{と書いてあった}",
+    "vocabIds": [
+      "1343950",
+      "1299400",
+      "1223240",
+      "1175820"
+    ],
+    "matches": {
+      "1175820": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "えんだか"
+        }
+      ],
+      "1223240": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1299400": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ざっし"
+        }
+      ],
+      "1343950": [
+        {
+          "start": 18,
+          "length": 6,
+          "reading": "かいてあった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "210487",
+    "original": "その雑誌の記事で彼の悪業は白日の下にさらされましたね。",
+    "en": [
+      {
+        "id": "47755",
+        "text": "That magazine article exposed his devilish acts to the full light of day."
+      }
+    ],
+    "indices": "其の[01]{その} 雑誌 の 記事 で(#2028980) 彼(かれ)[01] の 悪業(あくごう)~ は 白日~ の 下(した)[03] に 晒す[01]{さらされました} ね(#2029080)[01]",
+    "vocabIds": [
+      "1299400",
+      "1223240",
+      "1000420",
+      "1575700",
+      "1575740",
+      "1475350",
+      "1881540"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "かれの"
+        }
+      ],
+      "1223240": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1299400": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ざっし"
+        }
+      ],
+      "1475350": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "はくじつ"
+        }
+      ],
+      "1575700": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "あくごう"
+        }
+      ],
+      "1575740": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "あくごう"
+        }
+      ],
+      "1881540": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "したに"
+        }
+      ]
+    }
+  },
+  {
+    "id": "211490",
+    "original": "その記者は新聞が印刷される直前に記事を送った。",
+    "en": [
+      {
+        "id": "48767",
+        "text": "The reporter filed his story just before the paper went to press."
+      }
+    ],
+    "indices": "其の[01]{その} 記者 は 新聞 が 印刷 為れる{される} 直前 に 記事 を 送る{送った}",
+    "vocabIds": [
+      "1402730",
+      "1223250",
+      "1362360",
+      "1168190",
+      "1431330",
+      "1223240"
+    ],
+    "matches": {
+      "1168190": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "いんさつ"
+        }
+      ],
+      "1223240": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1223250": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きしゃ"
+        }
+      ],
+      "1362360": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "しんぶん"
+        }
+      ],
+      "1402730": [
+        {
+          "start": 19,
+          "length": 3,
+          "reading": "おくった"
+        }
+      ],
+      "1431330": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "ちょくぜん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "211493",
+    "original": "その記事を最後まで読みなさい。",
+    "en": [
+      {
+        "id": "48770",
+        "text": "Read through the article."
+      }
+    ],
+    "indices": "其の[01]{その} 記事 を 最後まで 読む{読み} 為さい{なさい}",
+    "vocabIds": [
+      "1456360",
+      "1293830",
+      "1223240"
+    ],
+    "matches": {
+      "1223240": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1293830": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "さいごまで"
+        }
+      ],
+      "1456360": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "よみなさい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "211494",
+    "original": "その記事は事実と符合しない。",
+    "en": [
+      {
+        "id": "48771",
+        "text": "This account does not agree with the facts."
+      },
+      {
+        "id": "1228335",
+        "text": "That news report is inconsistent with the facts."
+      }
+    ],
+    "indices": "其の[01]{その} 記事 は 事実 と 符合~ 為る(する){しない}",
+    "vocabIds": [
+      "1223240",
+      "1313960",
+      "1497750"
+    ],
+    "matches": {
+      "1223240": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1313960": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "じじつ"
+        }
+      ],
+      "1497750": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "ふごう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "211495",
+    "original": "その記事は昨日記事解禁となった。",
+    "en": [
+      {
+        "id": "48772",
+        "text": "The press ban on the case was removed yesterday."
+      }
+    ],
+    "indices": "其の[01]{その} 記事 は 昨日 記事 解禁 となる{となった}",
+    "vocabIds": [
+      "1223240",
+      "1579260",
+      "1198950"
+    ],
+    "matches": {
+      "1198950": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "かいきん"
+        }
+      ],
+      "1223240": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きじ"
+        },
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1579260": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "きのう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "211496",
+    "original": "その記事は今は忘れ去られたある事件にそれとなくふれている。",
+    "en": [
+      {
+        "id": "48773",
+        "text": "The article alludes to an event now forgotten."
+      }
+    ],
+    "indices": "其の[01]{その} 記事 は 今(いま) は 忘れ去る{忘れ去られた} 有る{ある} 事件 に それと無く{それとなく} 触れる[03]{ふれている}",
+    "vocabIds": [
+      "1651560",
+      "1223240",
+      "1313830",
+      "1288850"
+    ],
+    "matches": {
+      "1223240": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1288850": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "いま"
+        }
+      ],
+      "1313830": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "じけん"
+        }
+      ],
+      "1651560": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "わすれさら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "211497",
+    "original": "その記事はその新聞社に対する大衆の抗議を誘った。",
+    "en": [
+      {
+        "id": "48774",
+        "text": "The article was an invitation for public protest against the newspaper."
+      }
+    ],
+    "indices": "其の[01]{その} 記事 は 其の[01]{その} 新聞社 に対する 大衆 の 抗議 を 誘う[02]{誘った}",
+    "vocabIds": [
+      "1009810",
+      "1362400",
+      "1541900",
+      "1223240",
+      "1414050",
+      "1278860"
+    ],
+    "matches": {
+      "1009810": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "にたいする"
+        }
+      ],
+      "1223240": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1278860": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "こうぎ"
+        }
+      ],
+      "1362400": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "しんぶんしゃ"
+        }
+      ],
+      "1414050": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "たいしゅう"
+        }
+      ],
+      "1541900": [
+        {
+          "start": 20,
+          "length": 3,
+          "reading": "さそった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "211498",
+    "original": "その記事はしばらく発表しないでくれませんか。",
+    "en": [
+      {
+        "id": "48775",
+        "text": "Can't you sit the story out for a while?"
+      }
+    ],
+    "indices": "其の[01]{その} 記事 は 暫く{しばらく} 発表 為る(する){しないで} 呉れる{くれません} か",
+    "vocabIds": [
+      "1223240",
+      "1477840"
+    ],
+    "matches": {
+      "1223240": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1477840": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "はっぴょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "211499",
+    "original": "その記事の発表は教授の誕生日に一致するように行われた。",
+    "en": [
+      {
+        "id": "43314",
+        "text": "Publication of the article was timed to coincide with the professor's birthday."
+      }
+    ],
+    "indices": "其の[01]{その} 記事 の 発表 は 教授 の 誕生日 に 一致[01] 為る(する){する} 様に{ように} 行われる{行われた}",
+    "vocabIds": [
+      "1419110",
+      "1223240",
+      "1477840",
+      "1237160",
+      "1164740",
+      "1589060"
+    ],
+    "matches": {
+      "1164740": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "いっち"
+        }
+      ],
+      "1223240": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1237160": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "きょうじゅ"
+        }
+      ],
+      "1419110": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "たんじょうび"
+        }
+      ],
+      "1477840": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "はっぴょう"
+        }
+      ],
+      "1589060": [
+        {
+          "start": 22,
+          "length": 2,
+          "reading": "おこなわ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "211500",
+    "original": "その記事には、御祭の全てのイベントが書かれている。",
+    "en": [
+      {
+        "id": "48777",
+        "text": "The article covers all the events at the fair."
+      }
+    ],
+    "indices": "其の[01]{その} 記事 には 御(ご) 祭り{祭} の 全て{全ての} イベント が 書く{書かれている}",
+    "vocabIds": [
+      "1223240",
+      "1604135",
+      "1595730",
+      "1343950"
+    ],
+    "matches": {
+      "1223240": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1343950": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "かか"
+        }
+      ],
+      "1595730": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "すべて"
+        }
+      ],
+      "1604135": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "おまつり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "222408",
+    "original": "この記事を転載することは可能でしょうか。",
+    "en": [
+      {
+        "id": "59735",
+        "text": "Is it possible to reprint this article?"
+      },
+      {
+        "id": "1350145",
+        "text": "Is reprinting this article a possibility?"
+      }
+    ],
+    "indices": "此の{この} 記事 を 転載~ 為る(する){する} 事(こと){こと} は 可能 でしょうか",
+    "vocabIds": [
+      "1223240",
+      "1441160",
+      "1191060"
+    ],
+    "matches": {
+      "1191060": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "かのう"
+        }
+      ],
+      "1223240": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1441160": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "てんさい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "222409",
+    "original": "この記事はその問題についての調査のやり方に批判的である。",
+    "en": [
+      {
+        "id": "59736",
+        "text": "This article is critical of the way investigations are being made into the matter."
+      }
+    ],
+    "indices": "此の{この} 記事 は 其の[01]{その} 問題 に就いて{について} の 調査 の やり方 に 批判的~ である",
+    "vocabIds": [
+      "1012960",
+      "1483430",
+      "1223240",
+      "1536010",
+      "1429120"
+    ],
+    "matches": {
+      "1012960": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "やりかた"
+        }
+      ],
+      "1223240": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1429120": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "ちょうさ"
+        }
+      ],
+      "1483430": [
+        {
+          "start": 21,
+          "length": 3,
+          "reading": "ひはんてき"
+        }
+      ],
+      "1536010": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "もんだい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "222410",
+    "original": "この記事はある大学教授によって書かれました。",
+    "en": [
+      {
+        "id": "59737",
+        "text": "This article was written by a college professor."
+      }
+    ],
+    "indices": "此の{この} 記事 は 有る{ある} 大学教授~ に因って{によって} 書く{書かれました}",
+    "vocabIds": [
+      "1941890",
+      "1223240",
+      "1343950"
+    ],
+    "matches": {
+      "1223240": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1343950": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "かか"
+        }
+      ],
+      "1941890": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "だいがくきょうじゅ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "222411",
+    "original": "この記事の筆者は有名な批評家だ。",
+    "en": [
+      {
+        "id": "59738",
+        "text": "The author of this article is a famous critic."
+      }
+    ],
+    "indices": "此の{この} 記事 の 筆者 は 有名[01]{有名な} 批評家 だ",
+    "vocabIds": [
+      "1483450",
+      "1223240",
+      "1487830",
+      "1541620"
+    ],
+    "matches": {
+      "1223240": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1483450": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "ひひょうか"
+        }
+      ],
+      "1487830": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ひっしゃ"
+        }
+      ],
+      "1541620": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "ゆうめい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "222412",
+    "original": "この記事には語彙を本気で増やしたいと思う人々に役立つ情報が含まれています。",
+    "en": [
+      {
+        "id": "59739",
+        "text": "This article contains tips for those who are eager to increase their vocabulary."
+      }
+    ],
+    "indices": "此の{この} 記事 には 語彙 を 本気 で(#2028980) 増やす{増やし} たい[01] と 思う 人々(ひとびと) に 役立つ 情報 が 含む[01]{含まれています}",
+    "vocabIds": [
+      "1602880",
+      "2827682",
+      "1538090",
+      "1223240",
+      "1271260",
+      "1589350",
+      "1580650",
+      "1356370",
+      "1216880"
+    ],
+    "matches": {
+      "1216880": [
+        {
+          "start": 29,
+          "length": 2,
+          "reading": "ふくま"
+        }
+      ],
+      "1223240": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1271260": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ごい"
+        }
+      ],
+      "1356370": [
+        {
+          "start": 26,
+          "length": 2,
+          "reading": "じょうほう"
+        }
+      ],
+      "1538090": [
+        {
+          "start": 23,
+          "length": 3,
+          "reading": "やくだつ"
+        }
+      ],
+      "1580650": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "ひとびと"
+        }
+      ],
+      "1589350": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "おもう"
+        }
+      ],
+      "1602880": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "ふやしたい"
+        }
+      ],
+      "2827682": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "ほんきで"
+        }
+      ]
+    }
+  },
+  {
+    "id": "222413",
+    "original": "この記事が何処まで本当か調べてくれ。",
+    "en": [
+      {
+        "id": "59740",
+        "text": "Check up on the accuracy of this article."
+      },
+      {
+        "id": "13563392",
+        "text": "Find out how true this article is."
+      },
+      {
+        "id": "13563393",
+        "text": "Please check on how much of this article is true."
+      }
+    ],
+    "indices": "此の{この} 記事 が 何処 迄{まで} 本当 か 調べる{調べて} 呉れる{くれ}",
+    "vocabIds": [
+      "1429060",
+      "1189040",
+      "1223240",
+      "1523060"
+    ],
+    "matches": {
+      "1189040": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "どこまで"
+        }
+      ],
+      "1223240": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1429060": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "しらべてくれ"
+        }
+      ],
+      "1523060": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "ほんとう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "222558",
+    "original": "この間投稿した記事がやっと雑誌に載ったんだよ。頑張って出し続けた甲斐があったよ。",
+    "en": [
+      {
+        "id": "59887",
+        "text": "Sending manuscript after manuscript paid off. A magazine finally published my work."
+      }
+    ],
+    "indices": "この間[01] 投稿{投稿した} 記事 が 漸と[01]{やっと} 雑誌 に 載る[02]{載った} ん[04] だ よ 頑張る{頑張って} 出す[05]{出し}~ 続ける{続けた} 甲斐がある{甲斐があった} よ[01]",
+    "vocabIds": [
+      "1338180",
+      "1949660",
+      "1004690",
+      "2649690",
+      "1447180",
+      "1223240",
+      "1299400",
+      "1280250"
+    ],
+    "matches": {
+      "1004690": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "このかん"
+        }
+      ],
+      "1223240": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1280250": [
+        {
+          "start": 32,
+          "length": 2,
+          "reading": "かい"
+        }
+      ],
+      "1299400": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "ざっし"
+        }
+      ],
+      "1338180": [
+        {
+          "start": 27,
+          "length": 5,
+          "reading": "だしつづけた"
+        }
+      ],
+      "1447180": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "とうこう"
+        }
+      ],
+      "1949660": [
+        {
+          "start": 23,
+          "length": 4,
+          "reading": "がんばって"
+        }
+      ],
+      "2649690": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "のった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "228726",
+    "original": "いつも記事を書いています。",
+    "en": [
+      {
+        "id": "66084",
+        "text": "I write articles regularly."
+      }
+    ],
+    "indices": "何時も{いつも} 記事 を 書く{書いています}",
+    "vocabIds": [
+      "1343950",
+      "1223240"
+    ],
+    "matches": {
+      "1223240": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1343950": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "かいています"
+        }
+      ]
+    }
+  },
+  {
+    "id": "236896",
+    "original": "その特派員はモスクワから記事を送った。",
+    "en": [
+      {
+        "id": "44663",
+        "text": "The correspondent filed a report from Moscow."
+      }
+    ],
+    "indices": "其の[01]{その} 特派員~ は 莫斯科{モスクワ} から 記事 を 送る{送った}",
+    "vocabIds": [
+      "1455240",
+      "1402730",
+      "1223240"
+    ],
+    "matches": {
+      "1223240": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1402730": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "おくった"
+        }
+      ],
+      "1455240": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "とくはいん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "431660",
+    "original": "この記事を読んだら、事故のひどさがわかる。",
+    "en": [
+      {
+        "id": "509219",
+        "text": "You'll understand how terrible this accident was when you read the article."
+      }
+    ],
+    "vocabIds": [
+      "1456360",
+      "1223240",
+      "1313850"
+    ],
+    "matches": {
+      "1223240": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1313850": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "じこ"
+        }
+      ],
+      "1456360": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "よんだら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "467414",
+    "original": "あなたはこの記事を読みましたか。",
+    "en": [
+      {
+        "id": "70090",
+        "text": "Have you read this article?"
+      }
+    ],
+    "indices": "貴方(あなた)[01]{あなた} は 此の{この} 記事 を 読む{読みました} か",
+    "vocabIds": [
+      "1456360",
+      "1223240"
+    ],
+    "matches": {
+      "1223240": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1456360": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "よみました"
+        }
+      ]
+    }
+  },
+  {
+    "id": "637872",
+    "original": "日本に関する記事で一番気に入った記事です。",
+    "en": [
+      {
+        "id": "637873",
+        "text": "It's my favourite among articles on Japan."
+      }
+    ],
+    "indices": "日本 に 関する 記事 で(#2028980) 一番(いちばん) 気に入る{気に入った} 記事 です",
+    "vocabIds": [
+      "1221740",
+      "1582710",
+      "1223240",
+      "1165970"
+    ],
+    "matches": {
+      "1165970": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "いちばん"
+        }
+      ],
+      "1221740": [
+        {
+          "start": 11,
+          "length": 5,
+          "reading": "きにいった"
+        }
+      ],
+      "1223240": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "きじ"
+        },
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1582710": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "にっぽん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "900303",
+    "original": "この記事についてのご意見をお聞かせください。",
+    "en": [
+      {
+        "id": "901118",
+        "text": "Please tell me what you think about this article."
+      }
+    ],
+    "vocabIds": [
+      "1223240",
+      "1156530",
+      "1591110"
+    ],
+    "matches": {
+      "1156530": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "いけん"
+        }
+      ],
+      "1223240": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1591110": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "きか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1066131",
+    "original": "失礼ですが、上の記事にある誤りを三つ指摘させてください。",
+    "en": [
+      {
+        "id": "1587",
+        "text": "Excuse me; allow me to point out three errors in the above article."
+      }
+    ],
+    "vocabIds": [
+      "2864550",
+      "1223240",
+      "1271290",
+      "1299740",
+      "1309940",
+      "1352130"
+    ],
+    "matches": {
+      "1223240": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1271290": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "あやまり"
+        }
+      ],
+      "1299740": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "みっつ"
+        }
+      ],
+      "1309940": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "してき"
+        }
+      ],
+      "1352130": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "うえ"
+        }
+      ],
+      "2864550": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "しつれいですが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1179438",
+    "original": "以前ブログをやっていたことがある。特にテーマを絞ったものではなく日々の諸々を記事にしていた。",
+    "en": [
+      {
+        "id": "1527991",
+        "text": "I've kept a blog before. I didn't really have a set theme; I just blogged about whatever happened that day."
+      }
+    ],
+    "vocabIds": [
+      "1594520",
+      "1155150",
+      "1454670",
+      "1602120",
+      "1605340",
+      "1223240"
+    ],
+    "matches": {
+      "1155150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いぜん"
+        }
+      ],
+      "1223240": [
+        {
+          "start": 38,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1454670": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "とくに"
+        }
+      ],
+      "1594520": [
+        {
+          "start": 23,
+          "length": 3,
+          "reading": "しぼった"
+        }
+      ],
+      "1602120": [
+        {
+          "start": 32,
+          "length": 2,
+          "reading": "ひび"
+        }
+      ],
+      "1605340": [
+        {
+          "start": 35,
+          "length": 2,
+          "reading": "もろもろ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1518083",
+    "original": "日本経済についての記事をひとつ、書き上げなくてはならない。",
+    "en": [
+      {
+        "id": "2609554",
+        "text": "I need to write an article on Japan's economy."
+      }
+    ],
+    "vocabIds": [
+      "1653990",
+      "1999500",
+      "1223240"
+    ],
+    "matches": {
+      "1223240": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1653990": [
+        {
+          "start": 16,
+          "length": 7,
+          "reading": "かきあげなくて"
+        }
+      ],
+      "1999500": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "にっぽんけいざい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1657754",
+    "original": "記事を一つ書きたい。",
+    "en": [
+      {
+        "id": "1657749",
+        "text": "I want to write an article."
+      }
+    ],
+    "vocabIds": [
+      "1160850",
+      "1223240"
+    ],
+    "matches": {
+      "1160850": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "ひとつかき"
+        }
+      ],
+      "1223240": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2439320",
+    "original": "この雑誌には、教育問題についての興味深い記事が載っている。",
+    "en": [
+      {
+        "id": "3189050",
+        "text": "There's an interesting article in this magazine about education problems."
+      }
+    ],
+    "vocabIds": [
+      "2649690",
+      "2851240",
+      "1238420",
+      "1299400",
+      "1223240"
+    ],
+    "matches": {
+      "1223240": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1238420": [
+        {
+          "start": 16,
+          "length": 4,
+          "reading": "きょうみぶかい"
+        }
+      ],
+      "1299400": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ざっし"
+        }
+      ],
+      "2649690": [
+        {
+          "start": 23,
+          "length": 5,
+          "reading": "のっている"
+        }
+      ],
+      "2851240": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "きょういくもんだい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2826736",
+    "original": "ウィキペディアに記事を投稿したことはありますか？",
+    "en": [
+      {
+        "id": "1717398",
+        "text": "Have you ever added an article to Wikipedia?"
+      }
+    ],
+    "vocabIds": [
+      "1223240",
+      "1447180"
+    ],
+    "matches": {
+      "1223240": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1447180": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "とうこう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3257268",
+    "original": "誰だよ、こんな幼稚な記事書いたの。",
+    "en": [
+      {
+        "id": "3274474",
+        "text": "Who wrote such an unrefined article?"
+      }
+    ],
+    "vocabIds": [
+      "1343950",
+      "1545250",
+      "1223240",
+      "1416830"
+    ],
+    "matches": {
+      "1223240": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1343950": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "かいた"
+        }
+      ],
+      "1416830": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "だれ"
+        }
+      ],
+      "1545250": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ようち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2109853",
+    "original": "日本語版ウィキペディアで今年最も多く読まれた記事は何だと思う？",
+    "en": [
+      {
+        "id": "4208326",
+        "text": "What do you think was the most read article this year on the Japanese version of Wikipedia?"
+      }
+    ],
+    "vocabIds": [
+      "2380450",
+      "2837117",
+      "1579130",
+      "1293700",
+      "1407460",
+      "1456360",
+      "1223240",
+      "1589350"
+    ],
+    "matches": {
+      "1223240": [
+        {
+          "start": 22,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1293700": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "もっとも"
+        }
+      ],
+      "1407460": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "おおく"
+        }
+      ],
+      "1456360": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "よま"
+        }
+      ],
+      "1579130": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "ことし"
+        }
+      ],
+      "1589350": [
+        {
+          "start": 28,
+          "length": 2,
+          "reading": "おもう"
+        }
+      ],
+      "2380450": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "にほんごばん"
+        }
+      ],
+      "2837117": [
+        {
+          "start": 25,
+          "length": 3,
+          "reading": "なにだと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8796074",
+    "original": "このサイトには、役に立つ記事がたくさんある。",
+    "en": [
+      {
+        "id": "8788615",
+        "text": "On this site, there are many useful articles."
+      }
+    ],
+    "vocabIds": [
+      "1537980",
+      "1223240"
+    ],
+    "matches": {
+      "1223240": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1537980": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "やくにたつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8796075",
+    "original": "このサイトには、役立つ記事がたくさん掲載してある。",
+    "en": [
+      {
+        "id": "8788615",
+        "text": "On this site, there are many useful articles."
+      }
+    ],
+    "vocabIds": [
+      "1538090",
+      "1223240",
+      "1250610"
+    ],
+    "matches": {
+      "1223240": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1250610": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "けいさい"
+        }
+      ],
+      "1538090": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "やくだつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8983439",
+    "original": "トムが記事をフランス語に翻訳しました。",
+    "en": [
+      {
+        "id": "8430971",
+        "text": "Tom translated the article into French."
+      }
+    ],
+    "vocabIds": [
+      "1111590",
+      "1223240",
+      "1523400"
+    ],
+    "matches": {
+      "1111590": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "ふらんすご"
+        }
+      ],
+      "1223240": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1523400": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "ほんやく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8983440",
+    "original": "トムね、その記事、フランス語に訳したんだよ。",
+    "en": [
+      {
+        "id": "8430971",
+        "text": "Tom translated the article into French."
+      }
+    ],
+    "vocabIds": [
+      "1111590",
+      "1538350",
+      "1223240"
+    ],
+    "matches": {
+      "1111590": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "ふらんすご"
+        }
+      ],
+      "1223240": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1538350": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "やくした"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9414524",
+    "original": "この記事で扱う例は、Pascal言語に似た疑似コードを使用しています。",
+    "en": [
+      {
+        "id": "9414526",
+        "text": "The examples used in this article make use of a Pascal-like pseudocode."
+      }
+    ],
+    "vocabIds": [
+      "2350140",
+      "1223240",
+      "1153440",
+      "1264420",
+      "1314600",
+      "1306200",
+      "1585230"
+    ],
+    "matches": {
+      "1153440": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "あつかう"
+        }
+      ],
+      "1223240": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1264420": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "げんご"
+        }
+      ],
+      "1306200": [
+        {
+          "start": 27,
+          "length": 2,
+          "reading": "しよう"
+        }
+      ],
+      "1314600": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "にた"
+        }
+      ],
+      "1585230": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "れい"
+        }
+      ],
+      "2350140": [
+        {
+          "start": 21,
+          "length": 5,
+          "reading": "ぎじこーど"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9478154",
+    "original": "この記事って何についてなの？",
+    "en": [
+      {
+        "id": "9478141",
+        "text": "What's this article about?"
+      }
+    ],
+    "vocabIds": [
+      "1223240",
+      "1577100"
+    ],
+    "matches": {
+      "1223240": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1577100": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "なに"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10659549",
+    "original": "あの記事、旅行雑誌に採用されたんだ。",
+    "en": [
+      {
+        "id": "254284",
+        "text": "I had the article accepted by a travel magazine."
+      }
+    ],
+    "vocabIds": [
+      "1223240",
+      "1553170",
+      "1299400",
+      "1294890"
+    ],
+    "matches": {
+      "1223240": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1294890": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "さいよう"
+        }
+      ],
+      "1299400": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ざっし"
+        }
+      ],
+      "1553170": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "りょこう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10694188",
+    "original": "日本語の記事を読んで、スペイン語で説明した。",
+    "en": [
+      {
+        "id": "10694186",
+        "text": "I read an article in Japanese, and then explained what it said in Spanish."
+      }
+    ],
+    "vocabIds": [
+      "1072980",
+      "1464530",
+      "2629650",
+      "1456360",
+      "1223240"
+    ],
+    "matches": {
+      "1072980": [
+        {
+          "start": 11,
+          "length": 5,
+          "reading": "すぺいんご"
+        }
+      ],
+      "1223240": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1456360": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "よんで"
+        }
+      ],
+      "1464530": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "にほんご"
+        }
+      ],
+      "2629650": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "せつめいし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10796836",
+    "original": "その記事に目を通しておいて。",
+    "en": [
+      {
+        "id": "48770",
+        "text": "Read through the article."
+      }
+    ],
+    "vocabIds": [
+      "1432900",
+      "1223240",
+      "1604890"
+    ],
+    "matches": {
+      "1223240": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1432900": [
+        {
+          "start": 7,
+          "length": 6,
+          "reading": "とおしておいて"
+        }
+      ],
+      "1604890": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "め"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11198983",
+    "original": "この記事の筆者は有名な評論家です。",
+    "en": [
+      {
+        "id": "59738",
+        "text": "The author of this article is a famous critic."
+      }
+    ],
+    "vocabIds": [
+      "1490090",
+      "1223240",
+      "1487830",
+      "1541620"
+    ],
+    "matches": {
+      "1223240": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1487830": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ひっしゃ"
+        }
+      ],
+      "1490090": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "ひょうろんか"
+        }
+      ],
+      "1541620": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "ゆうめい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10682266",
+    "original": "「トムは、教室の掃除サボってどこに行ったの？」「なんかね、『学校新聞に載せる記事の取材してくる』っていいながら、給食室に行ったよ」",
+    "en": [
+      {
+        "id": "11204935",
+        "text": "\"Tom's skipping out on cleaning duty? Where did he go?\" \"He said something like, 'I'm going to go collect information for the school paper' and went to the cafeteria.\""
+      }
+    ],
+    "vocabIds": [
+      "1932020",
+      "1600270",
+      "2254680",
+      "1578850",
+      "1237150",
+      "1399790",
+      "1223240",
+      "1327020"
+    ],
+    "matches": {
+      "1223240": [
+        {
+          "start": 38,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1237150": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "きょうしつ"
+        }
+      ],
+      "1327020": [
+        {
+          "start": 41,
+          "length": 2,
+          "reading": "しゅざい"
+        }
+      ],
+      "1399790": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "そうじ"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "いった"
+        },
+        {
+          "start": 60,
+          "length": 3,
+          "reading": "いった"
+        }
+      ],
+      "1600270": [
+        {
+          "start": 35,
+          "length": 3,
+          "reading": "のせる"
+        }
+      ],
+      "1932020": [
+        {
+          "start": 30,
+          "length": 4,
+          "reading": "がっこうしんぶん"
+        }
+      ],
+      "2254680": [
+        {
+          "start": 56,
+          "length": 3,
+          "reading": "きゅうしょくしつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11234991",
+    "original": "学校新聞に記事を書いています。",
+    "en": [
+      {
+        "id": "10861532",
+        "text": "She's writing an article for the school newspaper."
+      }
+    ],
+    "vocabIds": [
+      "1343950",
+      "1932020",
+      "1223240"
+    ],
+    "matches": {
+      "1223240": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1343950": [
+        {
+          "start": 8,
+          "length": 6,
+          "reading": "かいています"
+        }
+      ],
+      "1932020": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "がっこうしんぶん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12735947",
+    "original": "この記事は嘘八百だ。",
+    "en": [
+      {
+        "id": "12600522",
+        "text": "This article is full of lies."
+      }
+    ],
+    "vocabIds": [
+      "1172470",
+      "1223240"
+    ],
+    "matches": {
+      "1172470": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "うそはっぴゃく"
+        }
+      ],
+      "1223240": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12735949",
+    "original": "この記事、嘘だらけ。",
+    "en": [
+      {
+        "id": "12600522",
+        "text": "This article is full of lies."
+      }
+    ],
+    "vocabIds": [
+      "1223240",
+      "1172400"
+    ],
+    "matches": {
+      "1172400": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "うそ"
+        }
+      ],
+      "1223240": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12735951",
+    "original": "この記事、嘘ばっかり。",
+    "en": [
+      {
+        "id": "12600522",
+        "text": "This article is full of lies."
+      }
+    ],
+    "vocabIds": [
+      "1223240",
+      "1172400"
+    ],
+    "matches": {
+      "1172400": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "うそ"
+        }
+      ],
+      "1223240": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "13252122",
+    "original": "記事を一つ書きたいです。",
+    "en": [
+      {
+        "id": "1657749",
+        "text": "I want to write an article."
+      }
+    ],
+    "vocabIds": [
+      "1343950",
+      "1223240",
+      "1160820"
+    ],
+    "matches": {
+      "1160820": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ひとつ"
+        }
+      ],
+      "1223240": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1343950": [
+        {
+          "start": 5,
+          "length": 6,
+          "reading": "かきたいです"
+        }
+      ]
+    }
+  }
+]

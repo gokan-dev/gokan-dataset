@@ -1,0 +1,63 @@
+[
+  {
+    "id": "76559",
+    "original": "ちょっと！なに通せんぼやってんのよ。",
+    "en": [
+      {
+        "id": "327161",
+        "text": "Hey! What are you doing blocking the way?"
+      }
+    ],
+    "indices": "一寸(ちょっと){ちょっと} 何{なに} 通せん坊{通せんぼ}~ 遣る{やってん} の よ[01]",
+    "vocabIds": [
+      "1432910"
+    ],
+    "matches": {
+      "1432910": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "とおせんぼ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9694298",
+    "original": "通せん坊するのは、止めてよ。",
+    "en": [
+      {
+        "id": "10072282",
+        "text": "Stop standing in the way."
+      }
+    ],
+    "vocabIds": [
+      "1432910",
+      "1310670",
+      "1598820"
+    ],
+    "matches": {
+      "1310670": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "とめて"
+        }
+      ],
+      "1432910": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "とおせんぼう"
+        }
+      ],
+      "1598820": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "とめて"
+        }
+      ]
+    }
+  }
+]

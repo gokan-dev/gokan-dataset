@@ -1,0 +1,110 @@
+[
+  {
+    "id": "223288",
+    "original": "このビールはアルコール分が５％だ。",
+    "en": [
+      {
+        "id": "60620",
+        "text": "This beer contains 5% alcohol."
+      },
+      {
+        "id": "12378646",
+        "text": "This beer has an alcohol content of 5%."
+      }
+    ],
+    "indices": "此の{この} ビール~ は アルコール~ 分(ぶん)[07]~ が だ",
+    "vocabIds": [
+      "2403230",
+      "1268060"
+    ],
+    "matches": {
+      "1268060": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "ご"
+        }
+      ],
+      "2403230": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "あるこーるぶん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "229942",
+    "original": "アルコール分の入っていない飲み物はありますか。",
+    "en": [
+      {
+        "id": "67307",
+        "text": "Do you have any non-alcoholic drinks?"
+      },
+      {
+        "id": "67310",
+        "text": "Do you have anything non-alcoholic?"
+      },
+      {
+        "id": "1959359",
+        "text": "Do you have drinks without alcohol?"
+      }
+    ],
+    "indices": "アルコール分 の 入る(はいる){入っていない} 飲み物 は 有る{あります} か",
+    "vocabIds": [
+      "2403230",
+      "1465590",
+      "1600430"
+    ],
+    "matches": {
+      "1465590": [
+        {
+          "start": 7,
+          "length": 6,
+          "reading": "はいっていない"
+        }
+      ],
+      "1600430": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "のみもの"
+        }
+      ],
+      "2403230": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "あるこーるぶん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12378638",
+    "original": "こちらのビールはアルコール分5%です。",
+    "en": [
+      {
+        "id": "12378646",
+        "text": "This beer has an alcohol content of 5%."
+      },
+      {
+        "id": "60620",
+        "text": "This beer contains 5% alcohol."
+      }
+    ],
+    "vocabIds": [
+      "2403230"
+    ],
+    "matches": {
+      "2403230": [
+        {
+          "start": 8,
+          "length": 6,
+          "reading": "あるこーるぶん"
+        }
+      ]
+    }
+  }
+]

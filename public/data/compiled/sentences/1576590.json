@@ -1,0 +1,95 @@
+[
+  {
+    "id": "123860",
+    "original": "頭に円形の脱毛があります。",
+    "en": [
+      {
+        "id": "280134",
+        "text": "I have a round bald spot on my head."
+      }
+    ],
+    "indices": "頭(あたま) に 円形~ の 脱毛~ が[01] 有る{あります}",
+    "vocabIds": [
+      "1576590",
+      "1416630",
+      "1582310",
+      "2252700"
+    ],
+    "matches": {
+      "1416630": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "だつもう"
+        }
+      ],
+      "1576590": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "えんけい"
+        }
+      ],
+      "1582310": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "あたま"
+        }
+      ],
+      "2252700": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "あたま"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11049618",
+    "original": "円形の軌道に沿って、地球をめぐっている。",
+    "en": [
+      {
+        "id": "12601179",
+        "text": "It is orbiting around the Earth along a circular path."
+      }
+    ],
+    "vocabIds": [
+      "2215300",
+      "1576590",
+      "1223980",
+      "1420970"
+    ],
+    "matches": {
+      "1223980": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "きどう"
+        }
+      ],
+      "1420970": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "ちきゅう"
+        }
+      ],
+      "1576590": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "えんけい"
+        }
+      ],
+      "2215300": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "にそって"
+        }
+      ]
+    }
+  }
+]

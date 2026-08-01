@@ -1,0 +1,84 @@
+[
+  {
+    "id": "1827980",
+    "original": "バスは満車です。次のバスまでお待ちいただくことになります。",
+    "en": [
+      {
+        "id": "681038",
+        "text": "The bus is full. You'll have to wait for the next one."
+      }
+    ],
+    "vocabIds": [
+      "1812490",
+      "1316380"
+    ],
+    "matches": {
+      "1316380": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "つぎ"
+        }
+      ],
+      "1812490": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "まんしゃ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12324542",
+    "original": "満車です。",
+    "en": [
+      {
+        "id": "11023031",
+        "text": "There are no parking spaces left."
+      }
+    ],
+    "vocabIds": [
+      "1812490"
+    ],
+    "matches": {
+      "1812490": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "まんしゃ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12324543",
+    "original": "駐車場は満車です。",
+    "en": [
+      {
+        "id": "11023031",
+        "text": "There are no parking spaces left."
+      }
+    ],
+    "vocabIds": [
+      "1426920",
+      "1812490"
+    ],
+    "matches": {
+      "1426920": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ちゅうしゃじょう"
+        }
+      ],
+      "1812490": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "まんしゃ"
+        }
+      ]
+    }
+  }
+]

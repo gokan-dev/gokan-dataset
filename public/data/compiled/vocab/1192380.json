@@ -1,0 +1,106 @@
+{
+  "id": "1192380",
+  "writtenForm": {
+    "kanji": "家電",
+    "alternatives": [
+      "家デン"
+    ],
+    "containedKanji": [
+      "家",
+      "電"
+    ]
+  },
+  "reading": {
+    "primary": "かでん",
+    "alternatives": [
+      "いえでん",
+      "いえデン",
+      "イエデン"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 28602
+  },
+  "progression": {
+    "kklcStep": 219
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "household (electrical) appliances",
+        "home appliances",
+        "consumer electronics"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "sl"
+        ]
+      },
+      "glosses": [
+        "home telephone",
+        "home phone number"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "いえでん"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1192380",
+      "isBase": true,
+      "originalPrimaryReading": "かでん",
+      "originalGlosses": [
+        "household (electrical) appliances",
+        "home appliances",
+        "consumer electronics"
+      ]
+    },
+    {
+      "id": "2120530",
+      "isBase": false,
+      "originalPrimaryReading": "いえでん",
+      "originalGlosses": [
+        "home telephone",
+        "home phone number"
+      ]
+    }
+  ],
+  "components": [
+    "1191730"
+  ],
+  "parents": [
+    "2125120"
+  ]
+}

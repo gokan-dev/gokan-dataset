@@ -1,0 +1,158 @@
+[
+  {
+    "id": "84343",
+    "original": "父は木にはしごを立てかけた。",
+    "en": [
+      {
+        "id": "319372",
+        "text": "My father put a ladder against the tree."
+      }
+    ],
+    "indices": "父 は 木(き) に 梯子[01]{はしご} を 立て掛ける{立てかけた}",
+    "vocabIds": [
+      "1551540",
+      "1497610",
+      "1534520"
+    ],
+    "matches": {
+      "1497610": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ちち"
+        }
+      ],
+      "1534520": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "き"
+        }
+      ],
+      "1551540": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "たてかけた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "105201",
+    "original": "彼は自転車を壁に立てかけた。",
+    "en": [
+      {
+        "id": "298488",
+        "text": "He propped his bike against the wall."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 自転車 を 壁[01] に 立て掛ける{立てかけた}",
+    "vocabIds": [
+      "1551540",
+      "1318290",
+      "1000420",
+      "1483070",
+      "1509290"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1318290": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "じてんしゃ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1509290": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "かべ"
+        }
+      ],
+      "1551540": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "たてかけた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "198269",
+    "original": "はしごを壁に立てかけなさい。",
+    "en": [
+      {
+        "id": "35461",
+        "text": "Stand the ladder against the wall."
+      }
+    ],
+    "indices": "梯子[01]{はしご} を 壁[01] に 立て掛ける{立てかけ} 為さい{なさい}",
+    "vocabIds": [
+      "1551540",
+      "1509290"
+    ],
+    "matches": {
+      "1509290": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "かべ"
+        }
+      ],
+      "1551540": [
+        {
+          "start": 6,
+          "length": 7,
+          "reading": "たてかけなさい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "198270",
+    "original": "はしごを塀に立てかけてください。",
+    "en": [
+      {
+        "id": "35462",
+        "text": "Place the ladder against the wall."
+      }
+    ],
+    "indices": "梯子[01]{はしご} を 塀 に 立て掛ける{立てかけて}~ 下さい{ください}",
+    "vocabIds": [
+      "1551540",
+      "1506870"
+    ],
+    "matches": {
+      "1506870": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "へい"
+        }
+      ],
+      "1551540": [
+        {
+          "start": 6,
+          "length": 9,
+          "reading": "たてかけてください"
+        }
+      ]
+    }
+  }
+]

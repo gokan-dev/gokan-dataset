@@ -1,0 +1,103 @@
+{
+  "id": "1611620",
+  "writtenForm": {
+    "kanji": "町中",
+    "alternatives": [
+      "街中",
+      "街なか",
+      "町なか",
+      "町じゅう",
+      "街じゅう"
+    ],
+    "containedKanji": [
+      "町",
+      "中"
+    ]
+  },
+  "reading": {
+    "primary": "まちなか",
+    "alternatives": [
+      "まちじゅう"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 12602,
+    "kanaRank": 131956
+  },
+  "progression": {
+    "kklcStep": 439
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "downtown"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "the whole town",
+        "all over the town",
+        "throughout the town"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "まちじゅう"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1611620",
+      "isBase": true,
+      "originalPrimaryReading": "まちなか",
+      "originalGlosses": [
+        "downtown"
+      ]
+    },
+    {
+      "id": "1980830",
+      "isBase": false,
+      "originalPrimaryReading": "まちじゅう",
+      "originalGlosses": [
+        "the whole town",
+        "all over the town",
+        "throughout the town"
+      ]
+    }
+  ],
+  "components": [
+    "1603990",
+    "1423310"
+  ]
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "94749",
+    "original": "彼女のいうことは一理ある。",
+    "en": [
+      {
+        "id": "308956",
+        "text": "She's got a point."
+      }
+    ],
+    "indices": "彼女[01]{彼女の} 言う{いう} 事(こと){こと} は 一理~ 有る{ある}",
+    "vocabIds": [
+      "2851078",
+      "1483150"
+    ],
+    "matches": {
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "2851078": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "いちりある"
+        }
+      ]
+    }
+  },
+  {
+    "id": "205332",
+    "original": "それは一理ある。",
+    "en": [
+      {
+        "id": "36518",
+        "text": "You have a point there."
+      },
+      {
+        "id": "1841579",
+        "text": "That's a good point."
+      }
+    ],
+    "indices": "其れ[01]{それ} は 一理 有る{ある}",
+    "vocabIds": [
+      "2851078"
+    ],
+    "matches": {
+      "2851078": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "いちりある"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3607442",
+    "original": "それも一理あるな。",
+    "en": [
+      {
+        "id": "6886091",
+        "text": "That, too, is a point."
+      }
+    ],
+    "vocabIds": [
+      "2851078"
+    ],
+    "matches": {
+      "2851078": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "いちりある"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,243 @@
+[
+  {
+    "id": "75414",
+    "original": "朝起きて、挨拶を交わす相手がいる——久しぶりの感覚だ。",
+    "en": [
+      {
+        "id": "328305",
+        "text": "To get up in the morning, and there be someone to say good morning to - I haven't had this feeling for a long time."
+      }
+    ],
+    "indices": "朝(あさ) 起きる{起きて} 挨拶を交わす~ 相手 が 居る(いる)[01]{いる} 久しぶり{久しぶりの} 感覚 だ",
+    "vocabIds": [
+      "2229050",
+      "1227370",
+      "1428340",
+      "1401000",
+      "1212330"
+    ],
+    "matches": {
+      "1212330": [
+        {
+          "start": 23,
+          "length": 2,
+          "reading": "かんかく"
+        }
+      ],
+      "1227370": [
+        {
+          "start": 18,
+          "length": 4,
+          "reading": "ひさしぶり"
+        }
+      ],
+      "1401000": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "あいて"
+        }
+      ],
+      "1428340": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あさおき"
+        }
+      ],
+      "2229050": [
+        {
+          "start": 5,
+          "length": 6,
+          "reading": "あいさつをかわす"
+        }
+      ]
+    }
+  },
+  {
+    "id": "126221",
+    "original": "朝起きた時むかむかします。",
+    "en": [
+      {
+        "id": "277771",
+        "text": "I feel sick when I get up in the morning."
+      }
+    ],
+    "indices": "朝(あさ) 起きる[01]{起きた} 時(とき) むかむか 為る(する){します}",
+    "vocabIds": [
+      "1428340",
+      "1315840"
+    ],
+    "matches": {
+      "1315840": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "とき"
+        }
+      ],
+      "1428340": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あさおき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "167562",
+    "original": "私が朝起きた時、雨が降っていました。",
+    "en": [
+      {
+        "id": "246938",
+        "text": "When I got up this morning, it was raining."
+      }
+    ],
+    "indices": "私(わたし)[01] が 朝(あさ) 起きる[01]{起きた} 時(とき) 雨 が 降る(ふる){降っていました}",
+    "vocabIds": [
+      "1184450",
+      "1282790",
+      "1428340",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1315840",
+      "1171900"
+    ],
+    "matches": {
+      "1171900": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "あめ"
+        }
+      ],
+      "1184450": [
+        {
+          "start": 10,
+          "length": 7,
+          "reading": "ふっていました"
+        }
+      ],
+      "1282790": [
+        {
+          "start": 10,
+          "length": 7,
+          "reading": "ふっていました"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1315840": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "とき"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1428340": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "あさおき"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1265495",
+    "original": "朝起きは三文の得。",
+    "en": [
+      {
+        "id": "2348",
+        "text": "The early bird catches the worm."
+      }
+    ],
+    "vocabIds": [
+      "1428340",
+      "1301590",
+      "1454490"
+    ],
+    "matches": {
+      "1301590": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "さんもん"
+        }
+      ],
+      "1428340": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あさおき"
+        }
+      ],
+      "1454490": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "とく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10057330",
+    "original": "朝起きれないんだったら、もっと早く寝るべきです。",
+    "en": [
+      {
+        "id": "10058428",
+        "text": "If you can't wake up in the morning, you should go to bed earlier."
+      }
+    ],
+    "vocabIds": [
+      "1360010",
+      "1428340",
+      "1404975"
+    ],
+    "matches": {
+      "1360010": [
+        {
+          "start": 17,
+          "length": 6,
+          "reading": "ねるべきです"
+        }
+      ],
+      "1404975": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "はやく"
+        }
+      ],
+      "1428340": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あさおき"
+        }
+      ]
+    }
+  }
+]

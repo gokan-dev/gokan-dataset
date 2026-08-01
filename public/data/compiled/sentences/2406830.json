@@ -1,0 +1,149 @@
+[
+  {
+    "id": "125489",
+    "original": "庭は花で色鮮やかである。",
+    "en": [
+      {
+        "id": "278503",
+        "text": "The garden is bright with flowers."
+      }
+    ],
+    "indices": "庭 は 花[01] で(#2028980) 色(いろ)[01] 鮮やか である",
+    "vocabIds": [
+      "2406830",
+      "1436130",
+      "1194500"
+    ],
+    "matches": {
+      "1194500": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "はな"
+        }
+      ],
+      "1436130": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "にわ"
+        }
+      ],
+      "2406830": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "いろあざやか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9286253",
+    "original": "メアリーは色鮮やかな着物をまとっている。",
+    "en": [
+      {
+        "id": "9286178",
+        "text": "Mary is wearing a colorful kimono."
+      }
+    ],
+    "vocabIds": [
+      "2406830",
+      "1423240",
+      "2834972"
+    ],
+    "matches": {
+      "1423240": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "きもの"
+        }
+      ],
+      "2406830": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "いろあざやか"
+        }
+      ],
+      "2834972": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "きもの"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11075600",
+    "original": "成人の日は、みんなが着てる色鮮やかな着物を眺めるのが大好きなんです。",
+    "en": [
+      {
+        "id": "252452",
+        "text": "I love looking at everyone's colorful kimonos on Coming of Age Day."
+      }
+    ],
+    "vocabIds": [
+      "1375750",
+      "2406830",
+      "1428830",
+      "1413660",
+      "1423000",
+      "1423240",
+      "2834972"
+    ],
+    "matches": {
+      "1375750": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "せいじんのひ"
+        }
+      ],
+      "1413660": [
+        {
+          "start": 26,
+          "length": 3,
+          "reading": "だいすき"
+        }
+      ],
+      "1423000": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "きてる"
+        }
+      ],
+      "1423240": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "きもの"
+        }
+      ],
+      "1428830": [
+        {
+          "start": 21,
+          "length": 3,
+          "reading": "ながめる"
+        }
+      ],
+      "2406830": [
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "いろあざやか"
+        }
+      ],
+      "2834972": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "きもの"
+        }
+      ]
+    }
+  }
+]

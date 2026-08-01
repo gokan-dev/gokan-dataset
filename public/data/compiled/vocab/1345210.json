@@ -1,0 +1,138 @@
+{
+  "id": "1345210",
+  "writtenForm": {
+    "kanji": "女神",
+    "alternatives": [
+      "陰神",
+      "妻神"
+    ],
+    "containedKanji": [
+      "女",
+      "神"
+    ]
+  },
+  "reading": {
+    "primary": "めがみ",
+    "alternatives": [
+      "おみながみ",
+      "じょしん"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 3358,
+    "kanaRank": 203141
+  },
+  "progression": {
+    "kklcStep": 316
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "goddess"
+      ],
+      "related": {
+        "compounds": [
+          "男神"
+        ]
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "paper doll to which children pray for good weather"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "おみながみ"
+      ]
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "goddess",
+        "female deity"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "じょしん"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1345210",
+      "isBase": true,
+      "originalPrimaryReading": "めがみ",
+      "originalGlosses": [
+        "goddess"
+      ]
+    },
+    {
+      "id": "2736610",
+      "isBase": false,
+      "originalPrimaryReading": "おみながみ",
+      "originalGlosses": [
+        "paper doll to which children pray for good weather"
+      ]
+    },
+    {
+      "id": "2863690",
+      "isBase": false,
+      "originalPrimaryReading": "じょしん",
+      "originalGlosses": [
+        "goddess",
+        "female deity"
+      ]
+    }
+  ],
+  "components": [
+    "1344930",
+    "1364440"
+  ],
+  "parents": [
+    "2542830",
+    "2620790",
+    "1885780"
+  ]
+}

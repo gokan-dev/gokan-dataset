@@ -1,0 +1,348 @@
+[
+  {
+    "id": "124282",
+    "original": "東京からロンドンへの直行便があります。",
+    "en": [
+      {
+        "id": "279712",
+        "text": "There is a direct flight from Tokyo to London."
+      }
+    ],
+    "indices": "東京 から 倫敦{ロンドン} へ の 直行便 が[01] 有る{あります}",
+    "vocabIds": [
+      "1942860",
+      "1447690"
+    ],
+    "matches": {
+      "1447690": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とうきょう"
+        }
+      ],
+      "1942860": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "ちょっこうびん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "125754",
+    "original": "直行便がなかったので、やむを得ず北京経由で行った。",
+    "en": [
+      {
+        "id": "278238",
+        "text": "I went via Beijing of necessity because there wasn't a direct flight."
+      }
+    ],
+    "indices": "直行便 が 無い{なかった} ので やむを得ず 北京 経由 で(#2028980) 行く[01]{行った}",
+    "vocabIds": [
+      "1310650",
+      "1942860",
+      "1589060",
+      "1520860",
+      "1251670"
+    ],
+    "matches": {
+      "1251670": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "けいゆ"
+        }
+      ],
+      "1310650": [
+        {
+          "start": 11,
+          "length": 5,
+          "reading": "やむをえず"
+        }
+      ],
+      "1520860": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "ぺきん"
+        }
+      ],
+      "1589060": [
+        {
+          "start": 21,
+          "length": 3,
+          "reading": "おこなった"
+        }
+      ],
+      "1942860": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ちょっこうびん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "186147",
+    "original": "我々はアメリカへ直行便で行くのですか。",
+    "en": [
+      {
+        "id": "23281",
+        "text": "Are we making a nonstop flight to the U.S.?"
+      }
+    ],
+    "indices": "我々 は 亜米利加{アメリカ} へ 直行便 で(#2028980) 行く のです か",
+    "vocabIds": [
+      "1942860",
+      "1607050",
+      "1578850"
+    ],
+    "matches": {
+      "1578850": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "いく"
+        }
+      ],
+      "1607050": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "われわれ"
+        }
+      ],
+      "1942860": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "ちょっこうびん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "198691",
+    "original": "ニューヨークまでの直行便をお願いします。",
+    "en": [
+      {
+        "id": "35884",
+        "text": "I'd like a nonstop flight to New York."
+      }
+    ],
+    "indices": "ニューヨーク 迄{まで} の 直行便 を お願いします",
+    "vocabIds": [
+      "1001720",
+      "1942860"
+    ],
+    "matches": {
+      "1001720": [
+        {
+          "start": 13,
+          "length": 6,
+          "reading": "おねがいします"
+        }
+      ],
+      "1942860": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "ちょっこうびん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "198698",
+    "original": "ニューヨークへの直行便はありますか。",
+    "en": [
+      {
+        "id": "35891",
+        "text": "Is there a nonstop flight to New York?"
+      }
+    ],
+    "indices": "ニューヨーク へ の 直行便 は 有る{あります} か",
+    "vocabIds": [
+      "1942860"
+    ],
+    "matches": {
+      "1942860": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "ちょっこうびん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "198746",
+    "original": "ニューヨーク・東京間の直行便が最近開始された。",
+    "en": [
+      {
+        "id": "35941",
+        "text": "Direct flights between New York and Tokyo commenced recently."
+      }
+    ],
+    "indices": "ニューヨーク 東京 間(かん)[02] の 直行便 が 最近 開始 為れる{された}",
+    "vocabIds": [
+      "1942860",
+      "1447690",
+      "1293780",
+      "1202760",
+      "1215230",
+      "1630250"
+    ],
+    "matches": {
+      "1202760": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "かいし"
+        }
+      ],
+      "1215230": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "かん"
+        }
+      ],
+      "1293780": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "さいきん"
+        }
+      ],
+      "1447690": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "とうきょう"
+        }
+      ],
+      "1630250": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "かん"
+        }
+      ],
+      "1942860": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "ちょっこうびん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "204977",
+    "original": "それは直行便ですか。",
+    "en": [
+      {
+        "id": "42219",
+        "text": "Is it a direct flight?"
+      }
+    ],
+    "indices": "其れ[01]{それ} は 直行便 ですか",
+    "vocabIds": [
+      "1942860"
+    ],
+    "matches": {
+      "1942860": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "ちょっこうびん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "220134",
+    "original": "この飛行機は東京までの直行便です。",
+    "en": [
+      {
+        "id": "57453",
+        "text": "This plane flies nonstop to Tokyo."
+      },
+      {
+        "id": "3156603",
+        "text": "This is a non-stop flight bound for Tokyo."
+      }
+    ],
+    "indices": "此の{この} 飛行機 は 東京 迄{まで} の 直行便~ です",
+    "vocabIds": [
+      "1485470",
+      "1942860",
+      "1447690"
+    ],
+    "matches": {
+      "1447690": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "とうきょう"
+        }
+      ],
+      "1485470": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "ひこうき"
+        }
+      ],
+      "1942860": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "ちょっこうびん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3748885",
+    "original": "ボストン－シドニー間の直行便はありますか？",
+    "en": [
+      {
+        "id": "3753285",
+        "text": "Are there any direct flights between Boston and Sydney?"
+      }
+    ],
+    "vocabIds": [
+      "1942860",
+      "1215230",
+      "1630250"
+    ],
+    "matches": {
+      "1215230": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "かん"
+        }
+      ],
+      "1630250": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "かん"
+        }
+      ],
+      "1942860": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "ちょっこうびん"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "id": "185789",
+    "original": "我々は就労時間について社長と交渉した。",
+    "en": [
+      {
+        "id": "22920",
+        "text": "We negotiated with the President about our working hours."
+      }
+    ],
+    "indices": "我々 は 就労 時間 に就いて{について} 社長 と 交渉[01] 為る(する){した}",
+    "vocabIds": [
+      "2845437",
+      "1607050",
+      "1322920",
+      "1272110"
+    ],
+    "matches": {
+      "1272110": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "こうしょう"
+        }
+      ],
+      "1322920": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "しゃちょう"
+        }
+      ],
+      "1607050": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "われわれ"
+        }
+      ],
+      "2845437": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "しゅうろうじかん"
+        }
+      ]
+    }
+  }
+]

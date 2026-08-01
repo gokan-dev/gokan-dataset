@@ -1,0 +1,610 @@
+[
+  {
+    "id": "75449",
+    "original": "俺は葵の指さした場所に胡坐をかく。",
+    "en": [
+      {
+        "id": "328269",
+        "text": "I sit down crosslegged where Aoi points."
+      }
+    ],
+    "indices": "俺(おれ) は の 指差す{指さした} 場所 に 胡座をかく[01]{胡坐をかく}",
+    "vocabIds": [
+      "1267530",
+      "1309790",
+      "1355850",
+      "1266890",
+      "1576870",
+      "1151180"
+    ],
+    "matches": {
+      "1151180": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "あおい"
+        }
+      ],
+      "1266890": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "おれ"
+        }
+      ],
+      "1267530": [
+        {
+          "start": 11,
+          "length": 5,
+          "reading": "こざをかく"
+        }
+      ],
+      "1309790": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "ゆびさした"
+        }
+      ],
+      "1355850": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "ばしょ"
+        }
+      ],
+      "1576870": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "おれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "152617",
+    "original": "私は明日葵さんに会いに熊本へ行くつもりです。",
+    "en": [
+      {
+        "id": "261932",
+        "text": "I will go to Kumamoto to see Mr Aoi tomorrow."
+      },
+      {
+        "id": "1477415",
+        "text": "I will go to Kumamoto to see Mr. Aoi tomorrow."
+      },
+      {
+        "id": "1477417",
+        "text": "I plan to go to Kumamoto tomorrow to see Mr. Aoi."
+      }
+    ],
+    "indices": "私(わたし)[01] は 明日 葵~ さん に 会う[01]{会い} に へ 行く 積もり{つもり} です",
+    "vocabIds": [
+      "1584660",
+      "1198180",
+      "2845085",
+      "1578850",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1151180"
+    ],
+    "matches": {
+      "1151180": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "あおい"
+        }
+      ],
+      "1198180": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "あい"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "いく"
+        }
+      ],
+      "1584660": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "あした"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2845085": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "くまもと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "191505",
+    "original": "葵さんは踊るのが何と上手なのだろう。",
+    "en": [
+      {
+        "id": "28668",
+        "text": "Aoi dances very well."
+      }
+    ],
+    "indices": "葵 さん は 踊る の が 何と 上手(じょうず)[01] だ{な} の だろう",
+    "vocabIds": [
+      "1538440",
+      "1188410",
+      "1353320",
+      "1151180"
+    ],
+    "matches": {
+      "1151180": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "あおい"
+        }
+      ],
+      "1188410": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "なんと"
+        }
+      ],
+      "1353320": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "じょうず"
+        }
+      ],
+      "1538440": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "おどる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "191506",
+    "original": "葵さんは優れたダンサーです。",
+    "en": [
+      {
+        "id": "453553",
+        "text": "Aoi is a good dancer."
+      }
+    ],
+    "indices": "葵 さん は 優れる{優れた} ダンサー です",
+    "vocabIds": [
+      "1539080",
+      "1151180"
+    ],
+    "matches": {
+      "1151180": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "あおい"
+        }
+      ],
+      "1539080": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "すぐれた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "191507",
+    "original": "葵さんは上手に踊ります。",
+    "en": [
+      {
+        "id": "28673",
+        "text": "Aoi dances well."
+      }
+    ],
+    "indices": "葵 さん は 上手(じょうず)[01]{上手に} 踊る{踊ります}",
+    "vocabIds": [
+      "1538440",
+      "1353320",
+      "1151180"
+    ],
+    "matches": {
+      "1151180": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "あおい"
+        }
+      ],
+      "1353320": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "じょうず"
+        }
+      ],
+      "1538440": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "おどります"
+        }
+      ]
+    }
+  },
+  {
+    "id": "191508",
+    "original": "葵さんは何と踊るのが上手なのだろう。",
+    "en": [
+      {
+        "id": "28672",
+        "text": "How well Aoi dances!"
+      }
+    ],
+    "indices": "葵 さん は 何(なに)[01] と 踊る の が 上手(じょうず)[01] だ{な} の だろう",
+    "vocabIds": [
+      "1188410",
+      "1538440",
+      "1353320",
+      "1151180"
+    ],
+    "matches": {
+      "1151180": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "あおい"
+        }
+      ],
+      "1188410": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "なにと"
+        }
+      ],
+      "1353320": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "じょうず"
+        }
+      ],
+      "1538440": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "おどる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "191509",
+    "original": "葵さんは何と優れたダンサーでしょう。",
+    "en": [
+      {
+        "id": "28671",
+        "text": "What a good dancer Aoi is!"
+      }
+    ],
+    "indices": "さん は 何と 優れる{優れた} ダンサー でしょう[01]",
+    "vocabIds": [
+      "1539080",
+      "1188410",
+      "1151180"
+    ],
+    "matches": {
+      "1151180": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "あおい"
+        }
+      ],
+      "1188410": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "なんと"
+        }
+      ],
+      "1539080": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "すぐれた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "191510",
+    "original": "葵さんはなんて優れたダンサーなのでしょう。",
+    "en": [
+      {
+        "id": "28670",
+        "text": "Aoi is a very good dancer."
+      }
+    ],
+    "indices": "葵 さん は 何て{なんて} 優れる{優れた} ダンサー だ{な} の でしょう[01]",
+    "vocabIds": [
+      "1539080",
+      "1151180"
+    ],
+    "matches": {
+      "1151180": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "あおい"
+        }
+      ],
+      "1539080": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "すぐれた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "191511",
+    "original": "葵さんはダンスをします。",
+    "en": [
+      {
+        "id": "28677",
+        "text": "Aoi dances."
+      }
+    ],
+    "indices": "さん は ダンス を 為る(する){します}",
+    "vocabIds": [
+      "1151180"
+    ],
+    "matches": {
+      "1151180": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "あおい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "191512",
+    "original": "葵さんはダンサーになりました。",
+    "en": [
+      {
+        "id": "28676",
+        "text": "Aoi became a dancer."
+      }
+    ],
+    "indices": "さん は ダンサー になる{になりました}",
+    "vocabIds": [
+      "1151180"
+    ],
+    "matches": {
+      "1151180": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "あおい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "191514",
+    "original": "葵さんの趣味は踊ることです。",
+    "en": [
+      {
+        "id": "28675",
+        "text": "Aoi's hobby is dancing."
+      }
+    ],
+    "indices": "葵 さん の 趣味 は 踊る 事(こと){こと} です",
+    "vocabIds": [
+      "1329000",
+      "1538440",
+      "1151180"
+    ],
+    "matches": {
+      "1151180": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "あおい"
+        }
+      ],
+      "1329000": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "しゅみ"
+        }
+      ],
+      "1538440": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "おどる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10637331",
+    "original": "優太は、お店の高価な皿を割ってしまたのが亨ではなく葵だと知っていたが、葵をかばって名乗り出た亨の気持ちを察し、本当の事は言わず、ただ自分の胸の内に納めておくことにした。",
+    "en": [
+      {
+        "id": "11564560",
+        "text": "Yuta knew that it was Aoi, not Toru, who had broken the expensive plate at the store, but he understood why Toru had covered for Aoi, and so he decided not to say anything on the matter and keep it to himself."
+      }
+    ],
+    "vocabIds": [
+      "1420470",
+      "1531640",
+      "1589090",
+      "1591430",
+      "2840953",
+      "1208000",
+      "1587040",
+      "2842661",
+      "1283300",
+      "2409970",
+      "1523060",
+      "1318610",
+      "1299680",
+      "1151180",
+      "1313580"
+    ],
+    "matches": {
+      "1151180": [
+        {
+          "start": 25,
+          "length": 1,
+          "reading": "あおい"
+        },
+        {
+          "start": 35,
+          "length": 1,
+          "reading": "あおい"
+        }
+      ],
+      "1208000": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "わって"
+        }
+      ],
+      "1283300": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "こうか"
+        }
+      ],
+      "1299680": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "さら"
+        }
+      ],
+      "1313580": [
+        {
+          "start": 58,
+          "length": 1,
+          "reading": "こと"
+        }
+      ],
+      "1318610": [
+        {
+          "start": 66,
+          "length": 2,
+          "reading": "じぶん"
+        }
+      ],
+      "1420470": [
+        {
+          "start": 28,
+          "length": 6,
+          "reading": "しっていたが"
+        }
+      ],
+      "1523060": [
+        {
+          "start": 55,
+          "length": 2,
+          "reading": "ほんとう"
+        }
+      ],
+      "1531640": [
+        {
+          "start": 41,
+          "length": 5,
+          "reading": "なのりでた"
+        }
+      ],
+      "1587040": [
+        {
+          "start": 60,
+          "length": 3,
+          "reading": "いわず"
+        }
+      ],
+      "1589090": [
+        {
+          "start": 73,
+          "length": 5,
+          "reading": "おさめておく"
+        }
+      ],
+      "1591430": [
+        {
+          "start": 48,
+          "length": 3,
+          "reading": "きもち"
+        }
+      ],
+      "2409970": [
+        {
+          "start": 52,
+          "length": 2,
+          "reading": "さっし"
+        }
+      ],
+      "2840953": [
+        {
+          "start": 69,
+          "length": 3,
+          "reading": "むねのうち"
+        }
+      ],
+      "2842661": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "おみせ"
+        }
+      ]
+    }
+  }
+]

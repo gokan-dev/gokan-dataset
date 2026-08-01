@@ -1,0 +1,323 @@
+[
+  {
+    "id": "74127",
+    "original": "4つのレジスタは、呼び出された関数側が保存する。",
+    "en": [
+      {
+        "id": "329593",
+        "text": "The contents of the four registers are preserved by the called subroutine."
+      }
+    ],
+    "indices": "四つ{4つ} の レジスタ[03]~ は 呼び出す[02]{呼び出された}~ 関数[02]~ 側(がわ)[01] が 保存 為る(する){する}",
+    "vocabIds": [
+      "1266350",
+      "1590880",
+      "1513940",
+      "1581310",
+      "1590440"
+    ],
+    "matches": {
+      "1266350": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "よびださ"
+        }
+      ],
+      "1513940": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "ほぞん"
+        }
+      ],
+      "1581310": [
+        {
+          "start": 17,
+          "length": 1,
+          "reading": "がわ"
+        }
+      ],
+      "1590440": [
+        {
+          "start": 17,
+          "length": 1,
+          "reading": "がわ"
+        }
+      ],
+      "1590880": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "かんすう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "454815",
+    "original": "関数が副作用を持たない。",
+    "en": [
+      {
+        "id": "534062",
+        "text": "The function has no side effects."
+      },
+      {
+        "id": "534072",
+        "text": "Functions have no side effects."
+      }
+    ],
+    "vocabIds": [
+      "1315720",
+      "1500400",
+      "1590880"
+    ],
+    "matches": {
+      "1315720": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "もたない"
+        }
+      ],
+      "1500400": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "ふくさよう"
+        }
+      ],
+      "1590880": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かんすう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "942218",
+    "original": "あらゆる点で微分可能な関数は連続関数です。",
+    "en": [
+      {
+        "id": "506156",
+        "text": "A function that is differentiable everywhere is continuous."
+      }
+    ],
+    "vocabIds": [
+      "2830005",
+      "1781970",
+      "1590880",
+      "1007860"
+    ],
+    "matches": {
+      "1007860": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "てん"
+        }
+      ],
+      "1590880": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "かんすう"
+        }
+      ],
+      "1781970": [
+        {
+          "start": 14,
+          "length": 4,
+          "reading": "れんぞくかんすう"
+        }
+      ],
+      "2830005": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "びぶんかのう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1179651",
+    "original": "微分方程式を解くというのは、それを満足するような関数を見つけ出すということだ。",
+    "en": [
+      {
+        "id": "1178767",
+        "text": "Resolving a differential equation means finding the functions that satisfy it."
+      }
+    ],
+    "vocabIds": [
+      "1486160",
+      "1634270",
+      "1198890",
+      "1526860",
+      "1590880"
+    ],
+    "matches": {
+      "1198890": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "とく"
+        }
+      ],
+      "1486160": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "びぶんほうていしき"
+        }
+      ],
+      "1526860": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "まんぞく"
+        }
+      ],
+      "1590880": [
+        {
+          "start": 24,
+          "length": 2,
+          "reading": "かんすう"
+        }
+      ],
+      "1634270": [
+        {
+          "start": 27,
+          "length": 5,
+          "reading": "みつけだす"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1714986",
+    "original": "C言語では、関数にパラメータを渡す方法が二つある：変数によるものと参照によるもの。",
+    "en": [
+      {
+        "id": "1714989",
+        "text": "In the C language, there are two ways to pass parameters to a function: by value and by reference."
+      }
+    ],
+    "vocabIds": [
+      "1264420",
+      "1590880",
+      "1444610",
+      "1517090",
+      "1461160",
+      "1511200",
+      "1302410"
+    ],
+    "matches": {
+      "1264420": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "げんご"
+        }
+      ],
+      "1302410": [
+        {
+          "start": 33,
+          "length": 2,
+          "reading": "さんしょう"
+        }
+      ],
+      "1444610": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "わたす"
+        }
+      ],
+      "1461160": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "ふたつ"
+        }
+      ],
+      "1511200": [
+        {
+          "start": 25,
+          "length": 2,
+          "reading": "へんすう"
+        }
+      ],
+      "1517090": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "ほうほう"
+        }
+      ],
+      "1590880": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "かんすう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2665743",
+    "original": "次の関数の最大値と最小値を求めよ。",
+    "en": [
+      {
+        "id": "2673920",
+        "text": "Find this function's global maximum and global minimum."
+      }
+    ],
+    "vocabIds": [
+      "1294200",
+      "1294050",
+      "1229350",
+      "1590880",
+      "1316380"
+    ],
+    "matches": {
+      "1229350": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "もとめ"
+        }
+      ],
+      "1294050": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "さいしょうち"
+        }
+      ],
+      "1294200": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "さいだいち"
+        }
+      ],
+      "1316380": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "つぎ"
+        }
+      ],
+      "1590880": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "かんすう"
+        }
+      ]
+    }
+  }
+]

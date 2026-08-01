@@ -1,0 +1,102 @@
+{
+  "id": "1529940",
+  "writtenForm": {
+    "kanji": "無口",
+    "alternatives": [],
+    "containedKanji": [
+      "無",
+      "口"
+    ]
+  },
+  "reading": {
+    "primary": "むくち",
+    "alternatives": [
+      "むこう"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 7748,
+    "kanaRank": 160488
+  },
+  "jlptLevel": 1,
+  "progression": {
+    "kklcStep": 48
+  },
+  "senses": [
+    {
+      "pos": [
+        "adj-na",
+        "adj-no",
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "taciturn",
+        "reticent",
+        "quiet",
+        "silent",
+        "untalkative"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "adj-no"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "astomatous"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "むこう"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1529940",
+      "isBase": true,
+      "originalPrimaryReading": "むくち",
+      "originalGlosses": [
+        "taciturn",
+        "reticent",
+        "quiet"
+      ]
+    },
+    {
+      "id": "2826903",
+      "isBase": false,
+      "originalPrimaryReading": "むこう",
+      "originalGlosses": [
+        "astomatous"
+      ]
+    }
+  ],
+  "components": [
+    "1956960",
+    "1275640"
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "id": "1491110",
+  "writtenForm": {
+    "kanji": "甕",
+    "alternatives": [
+      "瓶",
+      "甕わ"
+    ],
+    "containedKanji": [
+      "甕"
+    ]
+  },
+  "reading": {
+    "primary": "かめ",
+    "alternatives": [
+      "みか",
+      "みかわ",
+      "たしらか"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 42163
+  },
+  "progression": {
+    "kklcStep": 99999
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "earthenware pot"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "large earthenware pot (for brewing sake)"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "みか"
+      ]
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "fired earthenware vessel used by the emperor to clean his hands"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "たしらか"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": false,
+  "mergedVocabs": [
+    {
+      "id": "1491110",
+      "isBase": true,
+      "originalPrimaryReading": "かめ",
+      "originalGlosses": [
+        "earthenware pot"
+      ]
+    },
+    {
+      "id": "1585800",
+      "isBase": false,
+      "originalPrimaryReading": "みか",
+      "originalGlosses": [
+        "large earthenware pot (for brewing sake)"
+      ]
+    },
+    {
+      "id": "2199760",
+      "isBase": false,
+      "originalPrimaryReading": "たしらか",
+      "originalGlosses": [
+        "fired earthenware vessel used by the emperor to clean his hands"
+      ]
+    }
+  ]
+}

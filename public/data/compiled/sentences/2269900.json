@@ -1,0 +1,119 @@
+[
+  {
+    "id": "140782",
+    "original": "全村が火事で焼けてなくなった。",
+    "en": [
+      {
+        "id": "273790",
+        "text": "The whole village was consumed by the fire."
+      }
+    ],
+    "indices": "全村 が 火事 で(#2028980) 焼ける[01]{焼けて} 無くなる{なくなった}",
+    "vocabIds": [
+      "1350610",
+      "2269900",
+      "1193950"
+    ],
+    "matches": {
+      "1193950": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かじ"
+        }
+      ],
+      "1350610": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "やけて"
+        }
+      ],
+      "2269900": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ぜんむら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "207878",
+    "original": "その地震で全村が倒壊した。",
+    "en": [
+      {
+        "id": "45134",
+        "text": "The whole village was laid flat by the earthquake."
+      }
+    ],
+    "indices": "其の[01]{その} 地震 で(#2028980) 全村 が 倒壊 為る(する){した}",
+    "vocabIds": [
+      "1421210",
+      "2269900",
+      "1896720"
+    ],
+    "matches": {
+      "1421210": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "じしん"
+        }
+      ],
+      "1896720": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "とうかい"
+        }
+      ],
+      "2269900": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ぜんむら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "222751",
+    "original": "この火事は全村を灰にしてしまった。",
+    "en": [
+      {
+        "id": "60081",
+        "text": "The fire reduced the whole village to ashes."
+      }
+    ],
+    "indices": "此の{この} 火事 は 全村[01]~ を 灰 に 為る(する){して} 仕舞う{しまった}",
+    "vocabIds": [
+      "1193950",
+      "2269900",
+      "1201860"
+    ],
+    "matches": {
+      "1193950": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "かじ"
+        }
+      ],
+      "1201860": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "はい"
+        }
+      ],
+      "2269900": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ぜんむら"
+        }
+      ]
+    }
+  }
+]

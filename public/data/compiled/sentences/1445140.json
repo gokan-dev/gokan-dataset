@@ -1,0 +1,137 @@
+[
+  {
+    "id": "101928",
+    "original": "彼は天才というより努力家だ。",
+    "en": [
+      {
+        "id": "301765",
+        "text": "He is not so much a genius as a hard worker."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 天才 と言うより{というより} 努力家 だ",
+    "vocabIds": [
+      "1445140",
+      "1439090",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1439090": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "てんさい"
+        }
+      ],
+      "1445140": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "どりょくか"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "114363",
+    "original": "彼はいわゆる天才ではない。むしろ彼は努力家なのだ。",
+    "en": [
+      {
+        "id": "289309",
+        "text": "He is not what is called a genius. Rather, he is a hard worker."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 所謂{いわゆる} 天才 では無い{ではない} 寧ろ{むしろ} 彼(かれ)[01] は 努力家 なのだ",
+    "vocabIds": [
+      "1445140",
+      "1439090",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        },
+        {
+          "start": 16,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1439090": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "てんさい"
+        }
+      ],
+      "1445140": [
+        {
+          "start": 18,
+          "length": 3,
+          "reading": "どりょくか"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        },
+        {
+          "start": 16,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "215239",
+    "original": "ジョンは天才というより努力家だ。",
+    "en": [
+      {
+        "id": "52537",
+        "text": "John is not so much a genius as a hard worker."
+      }
+    ],
+    "indices": "は 天才 と言うより{というより} 努力家~ だ",
+    "vocabIds": [
+      "1445140",
+      "1439090"
+    ],
+    "matches": {
+      "1439090": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "てんさい"
+        }
+      ],
+      "1445140": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "どりょくか"
+        }
+      ]
+    }
+  }
+]

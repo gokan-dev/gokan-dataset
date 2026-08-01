@@ -1,0 +1,92 @@
+[
+  {
+    "id": "96833",
+    "original": "彼らは沼地を通り抜けた。",
+    "en": [
+      {
+        "id": "306870",
+        "text": "They got through the marsh."
+      }
+    ],
+    "indices": "彼ら(かれら) は 沼地 を 通り抜ける{通り抜けた}",
+    "vocabIds": [
+      "1433010",
+      "1483090",
+      "2397090",
+      "1350030"
+    ],
+    "matches": {
+      "1350030": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ぬまち"
+        }
+      ],
+      "1433010": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "とおりぬけた"
+        }
+      ],
+      "1483090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれら"
+        }
+      ],
+      "2397090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "146421",
+    "original": "沼地に建物は建てられない。",
+    "en": [
+      {
+        "id": "268141",
+        "text": "Swampy land is no use for building purposes."
+      },
+      {
+        "id": "499444",
+        "text": "You can't build buildings on swampy land."
+      }
+    ],
+    "indices": "沼地~ に 建物 は 建てる{建てられない}",
+    "vocabIds": [
+      "1257330",
+      "1350030",
+      "1257540"
+    ],
+    "matches": {
+      "1257330": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "たて"
+        }
+      ],
+      "1257540": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "たてもの"
+        }
+      ],
+      "1350030": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ぬまち"
+        }
+      ]
+    }
+  }
+]

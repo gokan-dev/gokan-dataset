@@ -1,0 +1,664 @@
+[
+  {
+    "id": "76887",
+    "original": "アルカリは酸を中和する。",
+    "en": [
+      {
+        "id": "326833",
+        "text": "Alkalis neutralize acids."
+      }
+    ],
+    "indices": "亜爾加里{アルカリ}~ は 酸(さん)[01] を[01] 中和~ 為る(する){する}",
+    "vocabIds": [
+      "1425670",
+      "1304260",
+      "1370270"
+    ],
+    "matches": {
+      "1304260": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "さん"
+        }
+      ],
+      "1370270": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "さん"
+        }
+      ],
+      "1425670": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ちゅうわ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "143895",
+    "original": "酢はすっぱい味がする。",
+    "en": [
+      {
+        "id": "270671",
+        "text": "Vinegar has a sharp taste."
+      }
+    ],
+    "indices": "酢~ は 酸っぱい{すっぱい} 味がする{味がする}",
+    "vocabIds": [
+      "2831089",
+      "1370270"
+    ],
+    "matches": {
+      "1370270": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "す"
+        }
+      ],
+      "2831089": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "あじがする"
+        }
+      ]
+    }
+  },
+  {
+    "id": "169305",
+    "original": "酸は金属を腐食させる。",
+    "en": [
+      {
+        "id": "245181",
+        "text": "Acid eats into metal."
+      }
+    ],
+    "indices": "酸(さん)[01] は 金属 を 腐食[02] 為せる{させる}",
+    "vocabIds": [
+      "1243040",
+      "1497840",
+      "1304260",
+      "1370270"
+    ],
+    "matches": {
+      "1243040": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きんぞく"
+        }
+      ],
+      "1304260": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "さん"
+        }
+      ],
+      "1370270": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "さん"
+        }
+      ],
+      "1497840": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ふしょく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "169306",
+    "original": "酸は金属を侵す。",
+    "en": [
+      {
+        "id": "245180",
+        "text": "Acids act on metals."
+      }
+    ],
+    "indices": "酸(さん)[01] は 金属 を 侵す",
+    "vocabIds": [
+      "1243040",
+      "1359800",
+      "1304260",
+      "1370270"
+    ],
+    "matches": {
+      "1243040": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きんぞく"
+        }
+      ],
+      "1304260": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "さん"
+        }
+      ],
+      "1359800": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "おかす"
+        }
+      ],
+      "1370270": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "さん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "169307",
+    "original": "酸は金属を含む多くのものに作用する。",
+    "en": [
+      {
+        "id": "245179",
+        "text": "Acids act on many things including metals."
+      }
+    ],
+    "indices": "酸(さん)[01] は 金属 を 含む[01] 多く の 物(もの){もの} に 作用 為る(する){する}",
+    "vocabIds": [
+      "1243040",
+      "1216880",
+      "1861770",
+      "1298000",
+      "1304260",
+      "1370270"
+    ],
+    "matches": {
+      "1216880": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ふくむ"
+        }
+      ],
+      "1243040": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きんぞく"
+        }
+      ],
+      "1298000": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "さよう"
+        }
+      ],
+      "1304260": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "さん"
+        }
+      ],
+      "1370270": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "さん"
+        }
+      ],
+      "1861770": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "おおく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "169308",
+    "original": "酸は金属を含むものに作用する。",
+    "en": [
+      {
+        "id": "245178",
+        "text": "Acid acts on things which contain metal."
+      }
+    ],
+    "indices": "酸(さん)[01] は 金属 を 含む[01] 物(もの){もの} に 作用 為る(する){する}",
+    "vocabIds": [
+      "1243040",
+      "1216880",
+      "1298000",
+      "1304260",
+      "1370270"
+    ],
+    "matches": {
+      "1216880": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ふくむ"
+        }
+      ],
+      "1243040": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きんぞく"
+        }
+      ],
+      "1298000": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "さよう"
+        }
+      ],
+      "1304260": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "さん"
+        }
+      ],
+      "1370270": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "さん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "169309",
+    "original": "酸は、金属に作用する。",
+    "en": [
+      {
+        "id": "245177",
+        "text": "Acid acts on metals."
+      }
+    ],
+    "indices": "酸(さん)[01] は 金属 に 作用 為る(する){する}",
+    "vocabIds": [
+      "1243040",
+      "1298000",
+      "1304260",
+      "1370270"
+    ],
+    "matches": {
+      "1243040": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "きんぞく"
+        }
+      ],
+      "1298000": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "さよう"
+        }
+      ],
+      "1304260": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "さん"
+        }
+      ],
+      "1370270": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "さん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "169310",
+    "original": "酸が金属を腐食した。",
+    "en": [
+      {
+        "id": "245176",
+        "text": "The acid ate into the metal."
+      }
+    ],
+    "indices": "酸(さん)[01] が 金属 を 腐食[02] 為る(する){した}",
+    "vocabIds": [
+      "1243040",
+      "1497840",
+      "1304260",
+      "1370270"
+    ],
+    "matches": {
+      "1243040": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きんぞく"
+        }
+      ],
+      "1304260": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "さん"
+        }
+      ],
+      "1370270": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "さん"
+        }
+      ],
+      "1497840": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ふしょく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "179641",
+    "original": "金属が酸で腐食してしまった。",
+    "en": [
+      {
+        "id": "18499",
+        "text": "The acid burned the metal."
+      }
+    ],
+    "indices": "金属 が 酸(さん)[01] で(#2028980) 腐食[02] 為る(する){して} 仕舞う{しまった}",
+    "vocabIds": [
+      "1243040",
+      "1497840",
+      "1304260",
+      "1370270"
+    ],
+    "matches": {
+      "1243040": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きんぞく"
+        }
+      ],
+      "1304260": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "さん"
+        }
+      ],
+      "1370270": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "さん"
+        }
+      ],
+      "1497840": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ふしょく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "206886",
+    "original": "その物質は酸で処理しなければならない。",
+    "en": [
+      {
+        "id": "44135",
+        "text": "The substance must be treated with acid."
+      }
+    ],
+    "indices": "其の[01]{その} 物質(ぶっしつ)[01]~ は 酸(さん)[01]~ で(#2028980) 処理 為る(する){し} ねばならない{なければならない}",
+    "vocabIds": [
+      "1502560",
+      "2865888",
+      "1342510",
+      "1304260",
+      "1370270"
+    ],
+    "matches": {
+      "1304260": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "さん"
+        }
+      ],
+      "1342510": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "しょり"
+        }
+      ],
+      "1370270": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "さん"
+        }
+      ],
+      "1502560": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ぶっしつ"
+        }
+      ],
+      "2865888": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ぶっしつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "4919674",
+    "original": "酸が金属に触れると化学反応が起こる。",
+    "en": [
+      {
+        "id": "4922024",
+        "text": "When acid touches metal, a chemical reaction happens."
+      }
+    ],
+    "vocabIds": [
+      "1186910",
+      "1357990",
+      "1223680",
+      "1243040",
+      "1304260",
+      "1370270"
+    ],
+    "matches": {
+      "1186910": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "かがくはんのう"
+        }
+      ],
+      "1223680": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "おこる"
+        }
+      ],
+      "1243040": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きんぞく"
+        }
+      ],
+      "1304260": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "さん"
+        }
+      ],
+      "1357990": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "ふれると"
+        }
+      ],
+      "1370270": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "さん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "4919673",
+    "original": "酸は金属に触れると化学反応を起こす。",
+    "en": [
+      {
+        "id": "4923505",
+        "text": "When acid comes in contact with metal, it causes a chemical reaction."
+      }
+    ],
+    "vocabIds": [
+      "1186910",
+      "1357990",
+      "1223660",
+      "1243040",
+      "1304260",
+      "1370270"
+    ],
+    "matches": {
+      "1186910": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "かがくはんのう"
+        }
+      ],
+      "1223660": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "おこす"
+        }
+      ],
+      "1243040": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きんぞく"
+        }
+      ],
+      "1304260": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "さん"
+        }
+      ],
+      "1357990": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "ふれると"
+        }
+      ],
+      "1370270": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "さん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10582925",
+    "original": "酢は嫌いです。",
+    "en": [
+      {
+        "id": "10526992",
+        "text": "I don't like vinegar."
+      }
+    ],
+    "vocabIds": [
+      "1257240",
+      "1370270"
+    ],
+    "matches": {
+      "1257240": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きらい"
+        }
+      ],
+      "1370270": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "す"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10582936",
+    "original": "デーツから酢が作れるって、ご存じですか？",
+    "en": [
+      {
+        "id": "8733283",
+        "text": "Did you know that vinegar can be made from dates?"
+      }
+    ],
+    "vocabIds": [
+      "1593570",
+      "1370270"
+    ],
+    "matches": {
+      "1370270": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "す"
+        }
+      ],
+      "1593570": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "ごぞんじ"
+        }
+      ]
+    }
+  }
+]

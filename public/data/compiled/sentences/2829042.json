@@ -1,0 +1,63 @@
+[
+  {
+    "id": "142660",
+    "original": "精密検査をしましょう。",
+    "en": [
+      {
+        "id": "271910",
+        "text": "I'd like you to have a thorough examination."
+      }
+    ],
+    "indices": "精密 検査 を 為る(する){しましょう}",
+    "vocabIds": [
+      "2829042"
+    ],
+    "matches": {
+      "2829042": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "せいみつけんさ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11378696",
+    "original": "ご主人には精密検査をお勧めします。",
+    "en": [
+      {
+        "id": "54446",
+        "text": "I recommend a thorough checkup for your husband."
+      }
+    ],
+    "vocabIds": [
+      "2829042",
+      "1270390",
+      "1002150"
+    ],
+    "matches": {
+      "1002150": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "おすすめ"
+        }
+      ],
+      "1270390": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ごしゅじん"
+        }
+      ],
+      "2829042": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "せいみつけんさ"
+        }
+      ]
+    }
+  }
+]

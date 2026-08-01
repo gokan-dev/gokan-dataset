@@ -1,0 +1,91 @@
+[
+  {
+    "id": "114751",
+    "original": "彼はあれでも絵書きだってさ。",
+    "en": [
+      {
+        "id": "288920",
+        "text": "He claims that he is a painter."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 彼(あれ){あれ} でも 絵書き~ だ って さ[02]",
+    "vocabIds": [
+      "1202350",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1202350": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "えがき"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10352431",
+    "original": "ずっと前から絵描きになりたいって思ってるんだ。",
+    "en": [
+      {
+        "id": "7714854",
+        "text": "I've wanted to be a painter for a long time."
+      },
+      {
+        "id": "259507",
+        "text": "I have wanted to be a painter for a long time."
+      }
+    ],
+    "vocabIds": [
+      "1589350",
+      "1202350",
+      "1387210",
+      "1392580"
+    ],
+    "matches": {
+      "1202350": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "えかき"
+        }
+      ],
+      "1387210": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "まえ"
+        }
+      ],
+      "1392580": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "まえ"
+        }
+      ],
+      "1589350": [
+        {
+          "start": 16,
+          "length": 4,
+          "reading": "おもってる"
+        }
+      ]
+    }
+  }
+]

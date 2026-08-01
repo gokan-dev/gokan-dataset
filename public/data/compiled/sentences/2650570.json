@@ -1,0 +1,79 @@
+[
+  {
+    "id": "191974",
+    "original": "ワシントン市の友人宅に泊まります。",
+    "en": [
+      {
+        "id": "367772",
+        "text": "I'm staying at my friend's house in Washington City."
+      }
+    ],
+    "indices": "華盛頓{ワシントン}~ 市(し)~ の 友人 宅~ に 泊まる[01]{泊まります}",
+    "vocabIds": [
+      "1474850",
+      "2650570",
+      "1308090"
+    ],
+    "matches": {
+      "1308090": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "し"
+        }
+      ],
+      "1474850": [
+        {
+          "start": 11,
+          "length": 5,
+          "reading": "とまります"
+        }
+      ],
+      "2650570": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "ゆうじんたく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8635461",
+    "original": "トムは友人宅で一晩過ごした。",
+    "en": [
+      {
+        "id": "4144898",
+        "text": "Tom spent the night at a friend's house."
+      }
+    ],
+    "vocabIds": [
+      "1196000",
+      "2650570",
+      "1165960"
+    ],
+    "matches": {
+      "1165960": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "いちばん"
+        }
+      ],
+      "1196000": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "すごした"
+        }
+      ],
+      "2650570": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "ゆうじんたく"
+        }
+      ]
+    }
+  }
+]

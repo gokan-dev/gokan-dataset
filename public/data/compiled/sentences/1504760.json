@@ -1,0 +1,174 @@
+[
+  {
+    "id": "100203",
+    "original": "彼は奮発して新車を買った。",
+    "en": [
+      {
+        "id": "303494",
+        "text": "He treated himself to a new car."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 奮発[02]~ 為る(する){して} 新車 を 買う[01]{買った}",
+    "vocabIds": [
+      "1473740",
+      "1504760",
+      "1361920",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1361920": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "しんしゃ"
+        }
+      ],
+      "1473740": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "かった"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1504760": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ふんぱつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10566767",
+    "original": "中古の車を買おうと思ってたけど、今はそれなりに稼いでるから、奮発して新車を買うことにしたんだ。",
+    "en": [
+      {
+        "id": "2413532",
+        "text": "I had thought of buying a used car, but since I'm earning a decent amount of money now, I decided to splurge and buy a new one."
+      }
+    ],
+    "vocabIds": [
+      "1589350",
+      "1194450",
+      "1473740",
+      "1424150",
+      "1504760",
+      "1361920",
+      "1323080",
+      "1288850"
+    ],
+    "matches": {
+      "1194450": [
+        {
+          "start": 23,
+          "length": 6,
+          "reading": "かせいでるから"
+        }
+      ],
+      "1288850": [
+        {
+          "start": 16,
+          "length": 1,
+          "reading": "いま"
+        }
+      ],
+      "1323080": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1361920": [
+        {
+          "start": 34,
+          "length": 2,
+          "reading": "しんしゃ"
+        }
+      ],
+      "1424150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ちゅうこ"
+        }
+      ],
+      "1473740": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "かおう"
+        },
+        {
+          "start": 37,
+          "length": 2,
+          "reading": "かう"
+        }
+      ],
+      "1504760": [
+        {
+          "start": 30,
+          "length": 2,
+          "reading": "ふんぱつ"
+        }
+      ],
+      "1589350": [
+        {
+          "start": 9,
+          "length": 6,
+          "reading": "おもってたけど"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9699036",
+    "original": "奮発してスイッチ買っちゃった。",
+    "en": [
+      {
+        "id": "11367869",
+        "text": "I treated myself to a Nintendo Switch."
+      },
+      {
+        "id": "11367870",
+        "text": "I splurged and bought myself a Nintendo Switch."
+      }
+    ],
+    "vocabIds": [
+      "1473740",
+      "1504760"
+    ],
+    "matches": {
+      "1473740": [
+        {
+          "start": 8,
+          "length": 6,
+          "reading": "かっちゃった"
+        }
+      ],
+      "1504760": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ふんぱつ"
+        }
+      ]
+    }
+  }
+]

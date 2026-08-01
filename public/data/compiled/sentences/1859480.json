@@ -1,0 +1,49 @@
+[
+  {
+    "id": "170741",
+    "original": "最近、社員の入れ替わりが激しくないですか。",
+    "en": [
+      {
+        "id": "243740",
+        "text": "The turnover at my company is really speeding up lately."
+      }
+    ],
+    "indices": "最近 社員[01] の 入れ替わり~ が 激しい{激しくない} ですか",
+    "vocabIds": [
+      "1600720",
+      "1859480",
+      "1293780",
+      "1322670"
+    ],
+    "matches": {
+      "1293780": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "さいきん"
+        }
+      ],
+      "1322670": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "しゃいん"
+        }
+      ],
+      "1600720": [
+        {
+          "start": 12,
+          "length": 7,
+          "reading": "はげしくないです"
+        }
+      ],
+      "1859480": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "いれかわり"
+        }
+      ]
+    }
+  }
+]

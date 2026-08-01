@@ -1,0 +1,435 @@
+[
+  {
+    "id": "84252",
+    "original": "葡萄は葡萄酒につくられる。",
+    "en": [
+      {
+        "id": "34324",
+        "text": "Grapes are made into wine."
+      }
+    ],
+    "indices": "葡萄 は ぶどう酒{葡萄酒} に 作る[02]{つくられる}",
+    "vocabIds": [
+      "1499250",
+      "1499230"
+    ],
+    "matches": {
+      "1499230": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ぶどう"
+        }
+      ],
+      "1499250": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "ぶどうしゅ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "152981",
+    "original": "私は葡萄や桃のような果物が好きだ。",
+    "en": [
+      {
+        "id": "261564",
+        "text": "I like such fruits as grapes and peaches."
+      }
+    ],
+    "indices": "私(わたし)[01] は 葡萄 や 桃 之(の)[01]{の} 様な{ような} 果物 が 好き(すき) だ",
+    "vocabIds": [
+      "1499230",
+      "1193060",
+      "1277450",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1448290"
+    ],
+    "matches": {
+      "1193060": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "くだもの"
+        }
+      ],
+      "1277450": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "すき"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1448290": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "もも"
+        }
+      ],
+      "1499230": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ぶどう"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "152982",
+    "original": "私は葡萄ゼリーが一番好きです。",
+    "en": [
+      {
+        "id": "261563",
+        "text": "I like grape jelly best."
+      }
+    ],
+    "indices": "私(わたし)[01] は 葡萄 ジェリー{ゼリー} が 一番(いちばん)[01] 好き(すき) です",
+    "vocabIds": [
+      "1499230",
+      "1165970",
+      "1277450",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1165970": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "いちばん"
+        }
+      ],
+      "1277450": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "すき"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1499230": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ぶどう"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "192063",
+    "original": "ワインは葡萄から作られる。",
+    "en": [
+      {
+        "id": "29226",
+        "text": "Wine is made from grapes."
+      }
+    ],
+    "indices": "ワイン は 葡萄 から 作る{作られる}",
+    "vocabIds": [
+      "1499230",
+      "1597890"
+    ],
+    "matches": {
+      "1499230": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ぶどう"
+        }
+      ],
+      "1597890": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "つくら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "220066",
+    "original": "この葡萄は熟しているよ。",
+    "en": [
+      {
+        "id": "57385",
+        "text": "These grapes are ripe."
+      }
+    ],
+    "indices": "此の{この} 葡萄 は 熟す(じゅくす){熟している} よ",
+    "vocabIds": [
+      "1337800",
+      "1499230"
+    ],
+    "matches": {
+      "1337800": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "じゅくしている"
+        }
+      ],
+      "1499230": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ぶどう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "222978",
+    "original": "このワインは葡萄から作られています。",
+    "en": [
+      {
+        "id": "60309",
+        "text": "This wine is made from grapes."
+      }
+    ],
+    "indices": "此の{この} ワイン は 葡萄~ から 作る[02]{作られています}",
+    "vocabIds": [
+      "1499230",
+      "1597890"
+    ],
+    "matches": {
+      "1499230": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ぶどう"
+        }
+      ],
+      "1597890": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "つくら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "388492",
+    "original": "イソップ童話に『すっぱい葡萄』という話があります。",
+    "en": [
+      {
+        "id": "388493",
+        "text": "In Aesop's Fables is a story called \"Sour Grapes\"."
+      }
+    ],
+    "indices": "イソップ童話~ に 酸っぱい{すっぱい} 葡萄 と 言う{いう} 話(はなし)[05] が 有る{あります}",
+    "vocabIds": [
+      "2557010",
+      "1499230",
+      "1600900"
+    ],
+    "matches": {
+      "1499230": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "ぶどう"
+        }
+      ],
+      "1600900": [
+        {
+          "start": 18,
+          "length": 1,
+          "reading": "はなし"
+        }
+      ],
+      "2557010": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "いそっぷどうわ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3476956",
+    "original": "どれが一番好きですか？　リンゴ？　オレンジ？　それとも葡萄？",
+    "en": [
+      {
+        "id": "29631",
+        "text": "Which do you like best, apples, oranges or grapes?"
+      }
+    ],
+    "vocabIds": [
+      "1165970",
+      "1277450",
+      "1499230"
+    ],
+    "matches": {
+      "1165970": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "いちばん"
+        }
+      ],
+      "1277450": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "すき"
+        }
+      ],
+      "1499230": [
+        {
+          "start": 27,
+          "length": 2,
+          "reading": "ぶどう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8993911",
+    "original": "葡萄、全部食べないで。トムに残してあげて。",
+    "en": [
+      {
+        "id": "8989040",
+        "text": "Don't eat all the grapes. Leave some for Tom."
+      }
+    ],
+    "vocabIds": [
+      "1600260",
+      "1358280",
+      "1499230",
+      "1396130"
+    ],
+    "matches": {
+      "1358280": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "たべないで"
+        }
+      ],
+      "1396130": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ぜんぶ"
+        }
+      ],
+      "1499230": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ぶどう"
+        }
+      ],
+      "1600260": [
+        {
+          "start": 14,
+          "length": 6,
+          "reading": "のこしてあげて"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9042020",
+    "original": "この葡萄酸っぱいよ。",
+    "en": [
+      {
+        "id": "60579",
+        "text": "These grapes taste sour."
+      }
+    ],
+    "vocabIds": [
+      "1304280",
+      "1499230"
+    ],
+    "matches": {
+      "1304280": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "すっぱい"
+        }
+      ],
+      "1499230": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ぶどう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10083431",
+    "original": "それは葡萄のつるだよ。",
+    "en": [
+      {
+        "id": "10008925",
+        "text": "That's a grapevine."
+      }
+    ],
+    "vocabIds": [
+      "1499230"
+    ],
+    "matches": {
+      "1499230": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ぶどう"
+        }
+      ]
+    }
+  }
+]

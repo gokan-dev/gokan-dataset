@@ -1,0 +1,135 @@
+[
+  {
+    "id": "78869",
+    "original": "溶岩を地理学的に説明してくれませんか。",
+    "en": [
+      {
+        "id": "324847",
+        "text": "Can you give me a geological explanation of lava?"
+      }
+    ],
+    "indices": "溶岩 を 地理学 的(てき){的に} 説明 為る(する){して} 呉れる{くれません} か",
+    "vocabIds": [
+      "1421550",
+      "2629650",
+      "1546120",
+      "1437260"
+    ],
+    "matches": {
+      "1421550": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "ちりがく"
+        }
+      ],
+      "1437260": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "てき"
+        }
+      ],
+      "1546120": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ようがん"
+        }
+      ],
+      "2629650": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "せつめいし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "186707",
+    "original": "火山は炎と溶岩を吹き出す。",
+    "en": [
+      {
+        "id": "23843",
+        "text": "The volcano shoots out flames and lava."
+      }
+    ],
+    "indices": "火山 は 炎(ほのお) と 溶岩 を 吹き出す",
+    "vocabIds": [
+      "1602500",
+      "1193910",
+      "1546120",
+      "1177070"
+    ],
+    "matches": {
+      "1177070": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "ほのお"
+        }
+      ],
+      "1193910": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かざん"
+        }
+      ],
+      "1546120": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ようがん"
+        }
+      ],
+      "1602500": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "ふきだす"
+        }
+      ]
+    }
+  },
+  {
+    "id": "211955",
+    "original": "その火山は溶岩を流し出した。",
+    "en": [
+      {
+        "id": "49233",
+        "text": "The volcano poured molten rock."
+      }
+    ],
+    "indices": "其の[01]{その} 火山~ は 溶岩~ を 流し出す{流し出した}~",
+    "vocabIds": [
+      "1552120",
+      "1193910",
+      "1546120"
+    ],
+    "matches": {
+      "1193910": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "かざん"
+        }
+      ],
+      "1546120": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ようがん"
+        }
+      ],
+      "1552120": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "ながしだした"
+        }
+      ]
+    }
+  }
+]

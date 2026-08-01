@@ -1,0 +1,220 @@
+[
+  {
+    "id": "75843",
+    "original": "同一差出人から同一受取人に宛てて郵袋という、文字通り袋に印刷物を入れて郵送します。",
+    "en": [
+      {
+        "id": "327875",
+        "text": "A mailbag from a single sender addressed to one recipient, as the name suggests, is for delivering a bag of printed matter."
+      }
+    ],
+    "indices": "同一 差出人 から 同一 受取人 に 宛てる{宛てて}~ 郵袋 と 言う{いう} 文字通り[02] 袋(ふくろ)[01] に 印刷物 を 入れる{入れて} 郵送 為る(する){します}",
+    "vocabIds": [
+      "1505420",
+      "1593760",
+      "1629260",
+      "1153480",
+      "1168300",
+      "1465610",
+      "1451900",
+      "1542400",
+      "1542380",
+      "1411070"
+    ],
+    "matches": {
+      "1153480": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "あてて"
+        }
+      ],
+      "1168300": [
+        {
+          "start": 28,
+          "length": 3,
+          "reading": "いんさつぶつ"
+        }
+      ],
+      "1411070": [
+        {
+          "start": 26,
+          "length": 1,
+          "reading": "ぶくろ"
+        }
+      ],
+      "1451900": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "どういち"
+        },
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "どういち"
+        }
+      ],
+      "1465610": [
+        {
+          "start": 32,
+          "length": 3,
+          "reading": "いれて"
+        }
+      ],
+      "1505420": [
+        {
+          "start": 22,
+          "length": 4,
+          "reading": "もじどおり"
+        }
+      ],
+      "1542380": [
+        {
+          "start": 35,
+          "length": 2,
+          "reading": "ゆうそう"
+        }
+      ],
+      "1542400": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "ゆうたい"
+        }
+      ],
+      "1593760": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "さしだしにん"
+        }
+      ],
+      "1629260": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "うけとりじん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "97121",
+    "original": "彼らは差出人と受取人の名前を混同した。",
+    "en": [
+      {
+        "id": "306584",
+        "text": "They confused the names of the sender and the addressee."
+      }
+    ],
+    "indices": "彼ら(かれら) は 差出人~ と 受取人 の 名前 を 混同 為る(する){した}",
+    "vocabIds": [
+      "1593760",
+      "1629260",
+      "1483090",
+      "2397090",
+      "1531710",
+      "1290480"
+    ],
+    "matches": {
+      "1290480": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "こんどう"
+        }
+      ],
+      "1483090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれら"
+        }
+      ],
+      "1531710": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "なまえ"
+        }
+      ],
+      "1593760": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "さしだしにん"
+        }
+      ],
+      "1629260": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "うけとりじん"
+        }
+      ],
+      "2397090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "205991",
+    "original": "ソフイーは未知の差し出し人からまた手紙が来るのを心待ちにしていた。",
+    "en": [
+      {
+        "id": "43238",
+        "text": "Sophie had been looking forward to getting another letter from the unknown sender."
+      }
+    ],
+    "indices": "は 未知{未知の}~ 差し出す[04]{差し出し}~ 人(ひと) から 又{また} 手紙 が 来る(くる)[01] の を 心待ちにする{心待ちにしていた}",
+    "vocabIds": [
+      "1593760",
+      "1360800",
+      "1527770",
+      "1327720",
+      "1547720"
+    ],
+    "matches": {
+      "1327720": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "てがみ"
+        }
+      ],
+      "1360800": [
+        {
+          "start": 24,
+          "length": 3,
+          "reading": "こころまち"
+        }
+      ],
+      "1527770": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "みち"
+        }
+      ],
+      "1547720": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "くる"
+        }
+      ],
+      "1593760": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "さしだしじん"
+        }
+      ]
+    }
+  }
+]

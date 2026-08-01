@@ -1,0 +1,226 @@
+[
+  {
+    "id": "142113",
+    "original": "切れた血管から血がどくどくと流れ出た。",
+    "en": [
+      {
+        "id": "272457",
+        "text": "Blood poured from the cut vein."
+      }
+    ],
+    "indices": "切れる{切れた} 血管~ から 血 が どくどく{どくどくと}~ 流れ出る{流れ出た}~",
+    "vocabIds": [
+      "1552180",
+      "1384860",
+      "1255180",
+      "1255060"
+    ],
+    "matches": {
+      "1255060": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "ち"
+        }
+      ],
+      "1255180": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "けっかん"
+        }
+      ],
+      "1384860": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きれた"
+        }
+      ],
+      "1552180": [
+        {
+          "start": 14,
+          "length": 4,
+          "reading": "ながれでた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "175712",
+    "original": "血は血管の中を流れる。",
+    "en": [
+      {
+        "id": "238753",
+        "text": "Blood runs in the veins."
+      }
+    ],
+    "indices": "血 は 血管 の 中(なか) を[03] 流れる[01]",
+    "vocabIds": [
+      "1552140",
+      "1255180",
+      "1255060",
+      "1423310",
+      "2098290"
+    ],
+    "matches": {
+      "1255060": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ち"
+        }
+      ],
+      "1255180": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "けっかん"
+        }
+      ],
+      "1423310": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "なか"
+        }
+      ],
+      "1552140": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "ながれる"
+        }
+      ],
+      "2098290": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "なか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "893266",
+    "original": "彼の脳内で血管が破裂した。",
+    "en": [
+      {
+        "id": "807311",
+        "text": "A blood vessel burst inside his brain."
+      }
+    ],
+    "vocabIds": [
+      "1000420",
+      "2408540",
+      "1255180",
+      "1471470"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれの"
+        }
+      ],
+      "1255180": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "けっかん"
+        }
+      ],
+      "1471470": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "はれつ"
+        }
+      ],
+      "2408540": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "のうない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3468888",
+    "original": "血液は血管を流れる。",
+    "en": [
+      {
+        "id": "3469170",
+        "text": "Blood flows through blood vessels."
+      }
+    ],
+    "vocabIds": [
+      "1552140",
+      "1255120",
+      "1255180"
+    ],
+    "matches": {
+      "1255120": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "けつえき"
+        }
+      ],
+      "1255180": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "けっかん"
+        }
+      ],
+      "1552140": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "ながれる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10971845",
+    "original": "目の血管が切れてしまった。",
+    "en": [
+      {
+        "id": "2669450",
+        "text": "A blood vessel broke in my eye."
+      }
+    ],
+    "vocabIds": [
+      "1384860",
+      "1255180",
+      "1604890"
+    ],
+    "matches": {
+      "1255180": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "けっかん"
+        }
+      ],
+      "1384860": [
+        {
+          "start": 5,
+          "length": 7,
+          "reading": "きれてしまった"
+        }
+      ],
+      "1604890": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "め"
+        }
+      ]
+    }
+  }
+]

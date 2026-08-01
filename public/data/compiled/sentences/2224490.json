@@ -1,0 +1,115 @@
+[
+  {
+    "id": "173940",
+    "original": "口に出した言葉は取り返しがつかない。",
+    "en": [
+      {
+        "id": "240524",
+        "text": "When the word is out, it belongs to another."
+      },
+      {
+        "id": "1215357",
+        "text": "Once the word is out, it belongs to another."
+      }
+    ],
+    "indices": "口に出す{口に出した} 言葉[02] は 取り返しがつかない",
+    "vocabIds": [
+      "2224490",
+      "1338180",
+      "1264540",
+      "1275640"
+    ],
+    "matches": {
+      "1264540": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ことば"
+        }
+      ],
+      "1275640": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "くち"
+        }
+      ],
+      "1338180": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "だした"
+        }
+      ],
+      "2224490": [
+        {
+          "start": 8,
+          "length": 9,
+          "reading": "とりかえしがつかない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "173946",
+    "original": "口にした言葉は取り返しがつかない。",
+    "en": [
+      {
+        "id": "240524",
+        "text": "When the word is out, it belongs to another."
+      }
+    ],
+    "indices": "口にする{口にした} 言葉[02] は 取り返しがつかない",
+    "vocabIds": [
+      "2224490",
+      "1264540",
+      "1275640"
+    ],
+    "matches": {
+      "1264540": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ことば"
+        }
+      ],
+      "1275640": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "くち"
+        }
+      ],
+      "2224490": [
+        {
+          "start": 7,
+          "length": 9,
+          "reading": "とりかえしがつかない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "182973",
+    "original": "やってしまったことは取り返しがつかない。",
+    "en": [
+      {
+        "id": "20094",
+        "text": "What is done cannot be undone."
+      }
+    ],
+    "indices": "遣る{やって} 仕舞う{しまった} 事(こと){こと} は 取り返しがつかない~",
+    "vocabIds": [
+      "2224490"
+    ],
+    "matches": {
+      "2224490": [
+        {
+          "start": 10,
+          "length": 9,
+          "reading": "とりかえしがつかない"
+        }
+      ]
+    }
+  }
+]

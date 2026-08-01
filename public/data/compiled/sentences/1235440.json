@@ -1,0 +1,112 @@
+[
+  {
+    "id": "83483",
+    "original": "米作は今年は凶作だ。",
+    "en": [
+      {
+        "id": "320233",
+        "text": "The rice crop is poor this year."
+      }
+    ],
+    "indices": "米作 は 今年 は 凶作 だ",
+    "vocabIds": [
+      "1508950",
+      "1579130",
+      "1235440"
+    ],
+    "matches": {
+      "1235440": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "きょうさく"
+        }
+      ],
+      "1508950": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "べいさく"
+        }
+      ],
+      "1579130": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ことし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "169787",
+    "original": "昨年は異常な冷夏で、稲作は１０年ぶりの凶作だった。",
+    "en": [
+      {
+        "id": "244699",
+        "text": "It was exceptionally cold last summer, and the rice crop was the worst in 10 years."
+      }
+    ],
+    "indices": "昨年 は 異常{異常な} 冷夏 で(#2028980) 稲作 は 年ぶり の 凶作~ だ{だった}",
+    "vocabIds": [
+      "1468160",
+      "1298230",
+      "1157760",
+      "1757800",
+      "1167870",
+      "1579840",
+      "1235440"
+    ],
+    "matches": {
+      "1157760": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "いじょう"
+        }
+      ],
+      "1167870": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "いなさく"
+        }
+      ],
+      "1235440": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "きょうさく"
+        }
+      ],
+      "1298230": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "さくねん"
+        }
+      ],
+      "1468160": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "ねんぶり"
+        }
+      ],
+      "1579840": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "いちぜろ"
+        }
+      ],
+      "1757800": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "れいか"
+        }
+      ]
+    }
+  }
+]

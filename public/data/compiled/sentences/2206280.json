@@ -1,0 +1,93 @@
+[
+  {
+    "id": "74021",
+    "original": "前の歯医者さんに、たばこをやめるなら、ヤニ取りしてあげる・・・といわれたそうです。",
+    "en": [
+      {
+        "id": "329699",
+        "text": "He said that his previous dentist told him that he'd remove nicotine stains if he stopped smoking."
+      }
+    ],
+    "indices": "前(まえ)[06] の 歯医者 さん に 煙草を止める{たばこをやめる} なら ヤニ取り 為る(する){して} 上げる[23]{あげる} と 言う{いわれた} そうです",
+    "vocabIds": [
+      "2206280",
+      "1313080",
+      "1387210",
+      "1392580"
+    ],
+    "matches": {
+      "1313080": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "はいしゃ"
+        }
+      ],
+      "1387210": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "まえ"
+        }
+      ],
+      "1392580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "まえ"
+        }
+      ],
+      "2206280": [
+        {
+          "start": 19,
+          "length": 4,
+          "reading": "やにとり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "76426",
+    "original": "ホワイトニングなどの治療を行います。ヤニ取りなどのクリーニングも行っています。",
+    "en": [
+      {
+        "id": "327294",
+        "text": "We carry out treatments like whitening. We also do tobacco stain removal and other cleaning procedures."
+      }
+    ],
+    "indices": "ホワイトニング~ 等(など){など} の 治療 を[01] 行う{行います} ヤニ取り~ 等(など){など} の クリーニング も 行う{行っています}",
+    "vocabIds": [
+      "1589060",
+      "2206280",
+      "1316890"
+    ],
+    "matches": {
+      "1316890": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "ちりょう"
+        }
+      ],
+      "1589060": [
+        {
+          "start": 32,
+          "length": 6,
+          "reading": "おこなっています"
+        },
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "おこないます"
+        }
+      ],
+      "2206280": [
+        {
+          "start": 18,
+          "length": 4,
+          "reading": "やにとり"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,123 @@
+[
+  {
+    "id": "81447",
+    "original": "翻訳者は、彼の言っていることを説明するのは不可能だとわかった。",
+    "en": [
+      {
+        "id": "322268",
+        "text": "The translator found it impossible to explain what he meant."
+      }
+    ],
+    "indices": "翻訳者~ は 彼(かれ) の 言う{言っている} 事(こと){こと} を 説明 為る(する){する} の は 不可能 だ と 分かる{わかった}",
+    "vocabIds": [
+      "1587040",
+      "1523430",
+      "1491520",
+      "1000420",
+      "1386460"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "かれの"
+        }
+      ],
+      "1386460": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "せつめい"
+        }
+      ],
+      "1491520": [
+        {
+          "start": 21,
+          "length": 3,
+          "reading": "ふかのう"
+        }
+      ],
+      "1523430": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ほんやくしゃ"
+        }
+      ],
+      "1587040": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "いっている"
+        }
+      ]
+    }
+  },
+  {
+    "id": "4456376",
+    "original": "あなたは翻訳者ですか。",
+    "en": [
+      {
+        "id": "4454989",
+        "text": "Are you a translator?"
+      }
+    ],
+    "vocabIds": [
+      "1523430"
+    ],
+    "matches": {
+      "1523430": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "ほんやくしゃ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9594103",
+    "original": "レイラは翻訳者です。",
+    "en": [
+      {
+        "id": "8657900",
+        "text": "Layla is a translator."
+      }
+    ],
+    "vocabIds": [
+      "1523430"
+    ],
+    "matches": {
+      "1523430": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "ほんやくしゃ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9594110",
+    "original": "トムは翻訳者です。",
+    "en": [
+      {
+        "id": "8656907",
+        "text": "Tom is a translator."
+      }
+    ],
+    "vocabIds": [
+      "1523430"
+    ],
+    "matches": {
+      "1523430": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "ほんやくしゃ"
+        }
+      ]
+    }
+  }
+]

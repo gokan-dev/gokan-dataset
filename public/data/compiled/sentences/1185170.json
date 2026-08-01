@@ -1,0 +1,179 @@
+[
+  {
+    "id": "150258",
+    "original": "次の停留所で下車し、空港行きのバスに乗りなさい。",
+    "en": [
+      {
+        "id": "264299",
+        "text": "Get off at the next stop and take a bus headed to the airport."
+      }
+    ],
+    "indices": "次(つぎ)[01]{次の} 停留所 で(#2028980) 下車 為る(する){し} 空港 行き[01] の バス(#1098390) に 乗る[01]{乗り} 為さい{なさい}",
+    "vocabIds": [
+      "1355120",
+      "1435080",
+      "1185170",
+      "1245570",
+      "1578790",
+      "1316380"
+    ],
+    "matches": {
+      "1185170": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "げしゃ"
+        }
+      ],
+      "1245570": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "くうこう"
+        }
+      ],
+      "1316380": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "つぎ"
+        }
+      ],
+      "1355120": [
+        {
+          "start": 18,
+          "length": 5,
+          "reading": "のりなさい"
+        }
+      ],
+      "1435080": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "ていりゅうじょ"
+        }
+      ],
+      "1578790": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "いき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "150318",
+    "original": "次の駅で下車します。",
+    "en": [
+      {
+        "id": "258188",
+        "text": "I'm getting off at the next station."
+      },
+      {
+        "id": "258187",
+        "text": "I am getting off at the next station."
+      },
+      {
+        "id": "4430063",
+        "text": "I get off at the next station."
+      },
+      {
+        "id": "264242",
+        "text": "I'll get off at the next station."
+      }
+    ],
+    "indices": "次(つぎ)[01]{次の} 駅 で(#2028980) 下車 為る(する){します}",
+    "vocabIds": [
+      "1185170",
+      "1316380",
+      "1175140"
+    ],
+    "matches": {
+      "1175140": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "えき"
+        }
+      ],
+      "1185170": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "げしゃ"
+        }
+      ],
+      "1316380": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "つぎ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "158251",
+    "original": "私は駅を間違えて下車しました。",
+    "en": [
+      {
+        "id": "256279",
+        "text": "I got off at the wrong station."
+      }
+    ],
+    "indices": "私(わたし)[01] は 駅 を 間違える[02]{間違えて} 下車~ 為る(する){しました}",
+    "vocabIds": [
+      "1215330",
+      "1185170",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1175140"
+    ],
+    "matches": {
+      "1175140": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "えき"
+        }
+      ],
+      "1185170": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "げしゃ"
+        }
+      ],
+      "1215330": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "まちがえて"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  }
+]

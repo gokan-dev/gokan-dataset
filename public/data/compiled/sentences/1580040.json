@@ -1,0 +1,96 @@
+[
+  {
+    "id": "141842",
+    "original": "先週の激しい降雨のために出水した。",
+    "en": [
+      {
+        "id": "272728",
+        "text": "We had flooding because of last week's heavy rains."
+      }
+    ],
+    "indices": "先週 の 激しい 降雨~ の 為に[02]{ために} 出水~ 為る(する){した}",
+    "vocabIds": [
+      "1600720",
+      "1387870",
+      "1282810",
+      "1580040"
+    ],
+    "matches": {
+      "1282810": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "こうう"
+        }
+      ],
+      "1387870": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "せんしゅう"
+        }
+      ],
+      "1580040": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "しゅっすい"
+        }
+      ],
+      "1600720": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "はげしい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "147745",
+    "original": "出水の被害は１０００万ドルに達している。",
+    "en": [
+      {
+        "id": "266815",
+        "text": "Damages from the flood amount to ten million dollars."
+      }
+    ],
+    "indices": "出水 の 被害 は 万(まん)[01] 弗[01]{ドル} に 達する{達している}",
+    "vocabIds": [
+      "2835274",
+      "2410080",
+      "1580040",
+      "1484350"
+    ],
+    "matches": {
+      "1484350": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ひがい"
+        }
+      ],
+      "1580040": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しゅっすい"
+        }
+      ],
+      "2410080": [
+        {
+          "start": 14,
+          "length": 5,
+          "reading": "たっしている"
+        }
+      ],
+      "2835274": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "いちぜろぜろぜろまん"
+        }
+      ]
+    }
+  }
+]

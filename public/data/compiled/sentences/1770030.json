@@ -1,0 +1,235 @@
+[
+  {
+    "id": "150724",
+    "original": "持ち帰りにして下さい。",
+    "en": [
+      {
+        "id": "263833",
+        "text": "I'd like to take that out, please."
+      }
+    ],
+    "indices": "持ち帰り に 為る(する){して} 下さい",
+    "vocabIds": [
+      "1770030",
+      "1184280"
+    ],
+    "matches": {
+      "1184280": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "ください"
+        }
+      ],
+      "1770030": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "もちかえり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "150725",
+    "original": "持ち帰りにしてもらえますか。",
+    "en": [
+      {
+        "id": "263832",
+        "text": "Will you make it to take out?"
+      }
+    ],
+    "indices": "持ち帰り に 為る(する){して} 貰う[02]{もらえます} か",
+    "vocabIds": [
+      "1770030"
+    ],
+    "matches": {
+      "1770030": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "もちかえり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "150726",
+    "original": "持ち帰りですか。それともここでたべますか。",
+    "en": [
+      {
+        "id": "61524",
+        "text": "Is that to eat here or take out?"
+      },
+      {
+        "id": "61883",
+        "text": "Is this to eat here, or to go?"
+      },
+      {
+        "id": "263831",
+        "text": "For here, or to go?"
+      },
+      {
+        "id": "2171498",
+        "text": "Will you be eating here or is this to go?"
+      },
+      {
+        "id": "2171499",
+        "text": "Will that be for here or to go?"
+      }
+    ],
+    "indices": "持ち帰り ですか 其れとも{それとも} 此処[01]{ここ} で(#2028980) 食べる{たべます} か",
+    "vocabIds": [
+      "1770030"
+    ],
+    "matches": {
+      "1770030": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "もちかえり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3564415",
+    "original": "「こちらでお召し上がりですか？」「いえ、持ち帰りで」",
+    "en": [
+      {
+        "id": "4645008",
+        "text": "\"Will you be eating in?\" \"No, I'll have it takeaway.\""
+      },
+      {
+        "id": "10226668",
+        "text": "\"Dining in?\" \"No, we'll take it to go.\""
+      }
+    ],
+    "vocabIds": [
+      "1346370",
+      "1770030"
+    ],
+    "matches": {
+      "1346370": [
+        {
+          "start": 6,
+          "length": 7,
+          "reading": "めしあがりです"
+        }
+      ],
+      "1770030": [
+        {
+          "start": 20,
+          "length": 4,
+          "reading": "もちかえり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8613814",
+    "original": "持ち帰りにしよう。",
+    "en": [
+      {
+        "id": "5815949",
+        "text": "Let's get takeout."
+      }
+    ],
+    "vocabIds": [
+      "1770030"
+    ],
+    "matches": {
+      "1770030": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "もちかえり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10228056",
+    "original": "「店内で召し上がりますか？」「いや。持ち帰りで」",
+    "en": [
+      {
+        "id": "10226668",
+        "text": "\"Dining in?\" \"No, we'll take it to go.\""
+      }
+    ],
+    "vocabIds": [
+      "1346370",
+      "1770030",
+      "1440780"
+    ],
+    "matches": {
+      "1346370": [
+        {
+          "start": 4,
+          "length": 7,
+          "reading": "めしあがります"
+        }
+      ],
+      "1440780": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "てんない"
+        }
+      ],
+      "1770030": [
+        {
+          "start": 18,
+          "length": 4,
+          "reading": "もちかえり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10701601",
+    "original": "「ただいま、持ち帰り買ってきた」「なになに？」「とんこつラーメンよ」「うわー、僕のことよくわかってるね！いただきまーす」",
+    "en": [
+      {
+        "id": "10712753",
+        "text": "\"I'm back! I brought some takeout.\" \"What'd you get?\" \"Some tonkotsu ramen.\" \"Whoa, you know me so well! Well, let's eat already!\""
+      }
+    ],
+    "vocabIds": [
+      "1473740",
+      "1770030",
+      "1521400",
+      "2228300"
+    ],
+    "matches": {
+      "1473740": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "かってきた"
+        }
+      ],
+      "1521400": [
+        {
+          "start": 39,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ],
+      "1770030": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "もちかえり"
+        }
+      ],
+      "2228300": [
+        {
+          "start": 39,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "id": "151198",
+    "original": "紙袋をいただけますか。",
+    "en": [
+      {
+        "id": "263358",
+        "text": "Can I have a paper bag?"
+      },
+      {
+        "id": "13490484",
+        "text": "May I have a paper bag?"
+      },
+      {
+        "id": "13490485",
+        "text": "Could I have a paper bag?"
+      }
+    ],
+    "indices": "紙袋 を 頂ける[01]{いただけます} か",
+    "vocabIds": [
+      "1311580"
+    ],
+    "matches": {
+      "1311580": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かみぶくろ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "232600",
+    "original": "あなたはその紙袋を何度も使うようにしなさい。",
+    "en": [
+      {
+        "id": "69970",
+        "text": "You should use the paper bags again and again."
+      }
+    ],
+    "indices": "貴方(あなた)[01]{あなた} は 其の[01]{その} 紙袋~ を 何度 も 使う 様にする{ようにし} 為さい{なさい}",
+    "vocabIds": [
+      "1189200",
+      "1311580",
+      "1305990"
+    ],
+    "matches": {
+      "1189200": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "なんども"
+        }
+      ],
+      "1305990": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "つかう"
+        }
+      ],
+      "1311580": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "かみぶくろ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9865431",
+    "original": "リンゴがたくさん詰め込まれた紙袋ってオシャレだよね。",
+    "en": [
+      {
+        "id": "10074874",
+        "text": "A paper bag filled to the brim with apples looks very cool, right?"
+      }
+    ],
+    "vocabIds": [
+      "1226550",
+      "1311580"
+    ],
+    "matches": {
+      "1226550": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "つめこま"
+        }
+      ],
+      "1311580": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "かみぶくろ"
+        }
+      ]
+    }
+  }
+]

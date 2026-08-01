@@ -1,0 +1,64 @@
+[
+  {
+    "id": "83327",
+    "original": "便箋をください。",
+    "en": [
+      {
+        "id": "320389",
+        "text": "I need some writing paper."
+      }
+    ],
+    "indices": "便箋 を 下さい[01]{ください}",
+    "vocabIds": [
+      "1512640"
+    ],
+    "matches": {
+      "1512640": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "びんせん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "206822",
+    "original": "その便せんには校章が打ち出しにされている。",
+    "en": [
+      {
+        "id": "44071",
+        "text": "The note is embossed with the school emblem."
+      }
+    ],
+    "indices": "其の[01]{その} 便箋{便せん}~ には 校章~ が 打ち出す{打ち出し}~ に 為れる{されている}",
+    "vocabIds": [
+      "1776500",
+      "1512640",
+      "1279550"
+    ],
+    "matches": {
+      "1279550": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "こうしょう"
+        }
+      ],
+      "1512640": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "びんせん"
+        }
+      ],
+      "1776500": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "うちだし"
+        }
+      ]
+    }
+  }
+]

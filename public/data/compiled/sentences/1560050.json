@@ -1,0 +1,180 @@
+[
+  {
+    "id": "168375",
+    "original": "市の北のはずれは路地の迷路である。",
+    "en": [
+      {
+        "id": "246117",
+        "text": "The northernmost part of the city is a maze of alleys."
+      }
+    ],
+    "indices": "市(し) の 北 の 外れ[01]{はずれ} は 路地[01]~ の 迷路~ である",
+    "vocabIds": [
+      "1560050",
+      "1532790",
+      "1308090",
+      "1520670"
+    ],
+    "matches": {
+      "1308090": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "し"
+        }
+      ],
+      "1520670": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "きた"
+        }
+      ],
+      "1532790": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "めいろ"
+        }
+      ],
+      "1560050": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "ろじ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "222992",
+    "original": "この路地は通り抜けできません。",
+    "en": [
+      {
+        "id": "60323",
+        "text": "This is a dead-end alley."
+      }
+    ],
+    "indices": "此の{この} 路地[01] は 通り抜ける{通り抜け} 出来る{できません}",
+    "vocabIds": [
+      "1433010",
+      "1560050"
+    ],
+    "matches": {
+      "1433010": [
+        {
+          "start": 5,
+          "length": 9,
+          "reading": "とおりぬけできません"
+        }
+      ],
+      "1560050": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ろじ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1151891",
+    "original": "その町にはたくさんの狭い路地がある。",
+    "en": [
+      {
+        "id": "45076",
+        "text": "The town has many narrow lanes."
+      }
+    ],
+    "vocabIds": [
+      "1237680",
+      "1560050",
+      "1603990"
+    ],
+    "matches": {
+      "1237680": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "せまい"
+        }
+      ],
+      "1560050": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "ろじ"
+        }
+      ],
+      "1603990": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "まち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1806289",
+    "original": "市の最北部の路地は、迷路のように入り組んでいる。",
+    "en": [
+      {
+        "id": "246117",
+        "text": "The northernmost part of the city is a maze of alleys."
+      }
+    ],
+    "vocabIds": [
+      "1465500",
+      "1521260",
+      "1560050",
+      "1532790",
+      "1308090",
+      "1956280"
+    ],
+    "matches": {
+      "1308090": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "し"
+        }
+      ],
+      "1465500": [
+        {
+          "start": 16,
+          "length": 7,
+          "reading": "いりくんでいる"
+        }
+      ],
+      "1521260": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ほくぶ"
+        }
+      ],
+      "1532790": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "めいろ"
+        }
+      ],
+      "1560050": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ろじ"
+        }
+      ],
+      "1956280": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "さい"
+        }
+      ]
+    }
+  }
+]

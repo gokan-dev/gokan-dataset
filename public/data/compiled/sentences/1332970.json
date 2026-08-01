@@ -1,0 +1,139 @@
+[
+  {
+    "id": "81854",
+    "original": "僕は終電車に乗り遅れた。",
+    "en": [
+      {
+        "id": "258499",
+        "text": "I was late for the last train."
+      },
+      {
+        "id": "411317",
+        "text": "I missed the last train."
+      }
+    ],
+    "indices": "僕(ぼく)[01] は 終電車 に 乗り遅れる{乗り遅れた}",
+    "vocabIds": [
+      "1355000",
+      "1332970",
+      "1521400",
+      "2228300"
+    ],
+    "matches": {
+      "1332970": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "しゅうでんしゃ"
+        }
+      ],
+      "1355000": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "のりおくれた"
+        }
+      ],
+      "1521400": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ],
+      "2228300": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "82347",
+    "original": "僕たちは、きわどいところで終電車に間に合った。",
+    "en": [
+      {
+        "id": "321368",
+        "text": "We were only just in time for the last train."
+      }
+    ],
+    "indices": "僕たち は 際どい{きわどい} 所(ところ){ところ} で(#2028980) 終電車~ に 間に合う[01]{間に合った}",
+    "vocabIds": [
+      "1215260",
+      "1521420",
+      "1332970"
+    ],
+    "matches": {
+      "1215260": [
+        {
+          "start": 17,
+          "length": 5,
+          "reading": "まにあった"
+        }
+      ],
+      "1332970": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "しゅうでんしゃ"
+        }
+      ],
+      "1521420": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ぼくたち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "182609",
+    "original": "急いだのだが、その老婦人は終電車に乗り遅れた。",
+    "en": [
+      {
+        "id": "19746",
+        "text": "Even though she rushed, the elderly woman missed the last train."
+      }
+    ],
+    "indices": "急ぐ{急いだ} のだ が[03] 其の[01]{その} 老婦人 は 終電車 に 乗り遅れる{乗り遅れた}",
+    "vocabIds": [
+      "1355000",
+      "2158370",
+      "1332970",
+      "1228650"
+    ],
+    "matches": {
+      "1228650": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "いそいだ"
+        }
+      ],
+      "1332970": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "しゅうでんしゃ"
+        }
+      ],
+      "1355000": [
+        {
+          "start": 17,
+          "length": 5,
+          "reading": "のりおくれた"
+        }
+      ],
+      "2158370": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "ろうふじん"
+        }
+      ]
+    }
+  }
+]

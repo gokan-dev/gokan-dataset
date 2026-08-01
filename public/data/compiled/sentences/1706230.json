@@ -1,0 +1,68 @@
+[
+  {
+    "id": "220691",
+    "original": "この像は実物大です。",
+    "en": [
+      {
+        "id": "58014",
+        "text": "This statue is as large as life."
+      },
+      {
+        "id": "537413",
+        "text": "This is a life-sized statue."
+      }
+    ],
+    "indices": "此の{この} 像 は 実物大~ です",
+    "vocabIds": [
+      "1706230",
+      "1403110"
+    ],
+    "matches": {
+      "1403110": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ぞう"
+        }
+      ],
+      "1706230": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "じつぶつだい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "221120",
+    "original": "この肖像画はほぼ実物大です。",
+    "en": [
+      {
+        "id": "58442",
+        "text": "This portrait is nearly as large as life."
+      }
+    ],
+    "indices": "此の{この} 肖像画 は 略(ほぼ){ほぼ} 実物大 です",
+    "vocabIds": [
+      "1351470",
+      "1706230"
+    ],
+    "matches": {
+      "1351470": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "しょうぞうが"
+        }
+      ],
+      "1706230": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "じつぶつだい"
+        }
+      ]
+    }
+  }
+]

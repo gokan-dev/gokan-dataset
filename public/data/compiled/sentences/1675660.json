@@ -1,0 +1,60 @@
+[
+  {
+    "id": "76602",
+    "original": "それは君の空耳だ。",
+    "en": [
+      {
+        "id": "327117",
+        "text": "You only imagine you've heard it."
+      }
+    ],
+    "indices": "其れ[01]{それ} は 君(きみ)[01]{君の} 空耳[01] だ",
+    "vocabIds": [
+      "1675660",
+      "1247250"
+    ],
+    "matches": {
+      "1247250": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "きみ"
+        }
+      ],
+      "1675660": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "そらみみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "179324",
+    "original": "空耳ですよ。",
+    "en": [
+      {
+        "id": "18181",
+        "text": "You are hearing things."
+      },
+      {
+        "id": "2218156",
+        "text": "You're hearing things."
+      }
+    ],
+    "indices": "空耳[01]~ です よ[01]",
+    "vocabIds": [
+      "1675660"
+    ],
+    "matches": {
+      "1675660": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "そらみみ"
+        }
+      ]
+    }
+  }
+]

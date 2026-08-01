@@ -1,0 +1,150 @@
+[
+  {
+    "id": "150964",
+    "original": "歯をかみ合わせてみてください。",
+    "en": [
+      {
+        "id": "263592",
+        "text": "Clench your teeth together, please."
+      }
+    ],
+    "indices": "歯 を 噛み合う[01]{かみ合わせて} 見る[05]{みて} 下さい{ください}",
+    "vocabIds": [
+      "1761850",
+      "1313000",
+      "1557940"
+    ],
+    "matches": {
+      "1313000": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "は"
+        }
+      ],
+      "1557940": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "は"
+        }
+      ],
+      "1761850": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "かみあわせ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "180508",
+    "original": "強くかみ合わせていてください。",
+    "en": [
+      {
+        "id": "19223",
+        "text": "Bite down tightly, please."
+      }
+    ],
+    "indices": "強い(つよい){強く} 噛み合う[01]{かみ合わせていて} 下さい{ください}",
+    "vocabIds": [
+      "1761850",
+      "1236070"
+    ],
+    "matches": {
+      "1236070": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "つよく"
+        }
+      ],
+      "1761850": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "かみあわせ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "226230",
+    "original": "かみ合わせが不自然ではないですか。",
+    "en": [
+      {
+        "id": "63570",
+        "text": "Do you feel anything unnatural when you put your teeth together?"
+      }
+    ],
+    "indices": "噛合わせ[02]{かみ合わせ}~ が 不自然 では無い{ではない} ですか",
+    "vocabIds": [
+      "1761850",
+      "1492670"
+    ],
+    "matches": {
+      "1492670": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "ふしぜん"
+        }
+      ],
+      "1761850": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "かみあわせ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "226231",
+    "original": "かみ合わせが悪いんです。",
+    "en": [
+      {
+        "id": "63571",
+        "text": "I have a bad bite."
+      }
+    ],
+    "indices": "噛合わせ[02]{かみ合わせ} が 悪い(わるい) のです{んです}",
+    "vocabIds": [
+      "1761850",
+      "1151260",
+      "1403390",
+      "2772730"
+    ],
+    "matches": {
+      "1151260": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "わるい"
+        }
+      ],
+      "1403390": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "わるい"
+        }
+      ],
+      "1761850": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "かみあわせ"
+        }
+      ],
+      "2772730": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "わるい"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,685 @@
+[
+  {
+    "id": "79467",
+    "original": "薬局は何時まで開いていますか。",
+    "en": [
+      {
+        "id": "324252",
+        "text": "Until what time does your pharmacy stay open?"
+      }
+    ],
+    "indices": "薬局 は 何時(なんじ) 迄{まで} 開く(あく)[04]{開いています} か",
+    "vocabIds": [
+      "1202440",
+      "1188870",
+      "1538200"
+    ],
+    "matches": {
+      "1188870": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "いつまで"
+        }
+      ],
+      "1202440": [
+        {
+          "start": 7,
+          "length": 6,
+          "reading": "ひらいています"
+        }
+      ],
+      "1538200": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "やっきょく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "144763",
+    "original": "診察時間は何時から何時までですか。",
+    "en": [
+      {
+        "id": "269801",
+        "text": "From what time to what time is your office open?"
+      }
+    ],
+    "indices": "診察 時間 は 何時(なんじ) から[01] 何時(なんじ) 迄{まで} ですか",
+    "vocabIds": [
+      "2866625",
+      "2191630",
+      "1188870"
+    ],
+    "matches": {
+      "1188870": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "なんじまで"
+        }
+      ],
+      "2191630": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "なんじから"
+        }
+      ],
+      "2866625": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "しんさつじかん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "179570",
+    "original": "銀行は何時まで開いていますか。",
+    "en": [
+      {
+        "id": "18428",
+        "text": "How late is the bank open?"
+      }
+    ],
+    "indices": "銀行 は 何時(なんじ) 迄{まで} 開く(あく)[04]{開いています} か",
+    "vocabIds": [
+      "1202440",
+      "1188870",
+      "1243490"
+    ],
+    "matches": {
+      "1188870": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "いつまで"
+        }
+      ],
+      "1202440": [
+        {
+          "start": 7,
+          "length": 6,
+          "reading": "ひらいています"
+        }
+      ],
+      "1243490": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ぎんこう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "179571",
+    "original": "銀行は何時から何時まで開いていますか。",
+    "en": [
+      {
+        "id": "18429",
+        "text": "What are the banking hours?"
+      }
+    ],
+    "indices": "銀行 は 何時(なんじ) から[01] 何時(なんじ) 迄{まで} 開く(あく)[04]{開いています} か",
+    "vocabIds": [
+      "1202440",
+      "2191630",
+      "1188870",
+      "1243490"
+    ],
+    "matches": {
+      "1188870": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "なんじまで"
+        }
+      ],
+      "1202440": [
+        {
+          "start": 11,
+          "length": 6,
+          "reading": "ひらいています"
+        }
+      ],
+      "1243490": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ぎんこう"
+        }
+      ],
+      "2191630": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "なんじから"
+        }
+      ]
+    }
+  },
+  {
+    "id": "187425",
+    "original": "何時までにチェックインすればいいですか。",
+    "en": [
+      {
+        "id": "24562",
+        "text": "How late can I check in?"
+      }
+    ],
+    "indices": "何時(なんじ) 迄{まで} に チェックイン すれば いい(#2820690)[01] ですか",
+    "vocabIds": [
+      "1188870"
+    ],
+    "matches": {
+      "1188870": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "いつまで"
+        }
+      ]
+    }
+  },
+  {
+    "id": "189350",
+    "original": "営業時間は何時から何時までですか？",
+    "en": [
+      {
+        "id": "26497",
+        "text": "What hours is it open?"
+      }
+    ],
+    "indices": "営業時間 は 何時から 何時まで ですか",
+    "vocabIds": [
+      "1173450",
+      "2191630",
+      "1188870"
+    ],
+    "matches": {
+      "1173450": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "えいぎょうじかん"
+        }
+      ],
+      "1188870": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "なんじまで"
+        }
+      ],
+      "2191630": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "なんじから"
+        }
+      ]
+    }
+  },
+  {
+    "id": "189351",
+    "original": "営業時間は何時から何時までですか。",
+    "en": [
+      {
+        "id": "26499",
+        "text": "What are the business hours?"
+      }
+    ],
+    "indices": "営業時間 は 何時から(なんじから) 何時まで ですか",
+    "vocabIds": [
+      "1173450",
+      "2191630",
+      "1188870"
+    ],
+    "matches": {
+      "1173450": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "えいぎょうじかん"
+        }
+      ],
+      "1188870": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "なんじまで"
+        }
+      ],
+      "2191630": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "なんじから"
+        }
+      ]
+    }
+  },
+  {
+    "id": "223678",
+    "original": "このショッピングセンターは何時から何時までやっていますか。",
+    "en": [
+      {
+        "id": "61014",
+        "text": "What hours is the shopping center open?"
+      }
+    ],
+    "indices": "此の{この} ショッピングセンター は 何時から(なんじから)~ 何時まで 遣る{やっています} か",
+    "vocabIds": [
+      "2191630",
+      "1188870"
+    ],
+    "matches": {
+      "1188870": [
+        {
+          "start": 17,
+          "length": 4,
+          "reading": "なんじまで"
+        }
+      ],
+      "2191630": [
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "なんじから"
+        }
+      ]
+    }
+  },
+  {
+    "id": "226889",
+    "original": "お宅の店は何時まであいていますか。",
+    "en": [
+      {
+        "id": "64237",
+        "text": "How late are you open?"
+      }
+    ],
+    "indices": "お宅[01] の 店(みせ) は 何時(なんじ) 迄{まで} 開く(あく)[02]{あいています} か",
+    "vocabIds": [
+      "1188870",
+      "1002400",
+      "1582120"
+    ],
+    "matches": {
+      "1002400": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おたく"
+        }
+      ],
+      "1188870": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "いつまで"
+        }
+      ],
+      "1582120": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "みせ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "901632",
+    "original": "あそこのスーパー、何時までやってるか知ってる？",
+    "en": [
+      {
+        "id": "1403474",
+        "text": "Do you know what time that supermarket closes?"
+      }
+    ],
+    "vocabIds": [
+      "1188870",
+      "1420470"
+    ],
+    "matches": {
+      "1188870": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "いつまで"
+        }
+      ],
+      "1420470": [
+        {
+          "start": 18,
+          "length": 4,
+          "reading": "しってる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1171888",
+    "original": "何時まで開いてますか。",
+    "en": [
+      {
+        "id": "64237",
+        "text": "How late are you open?"
+      },
+      {
+        "id": "503520",
+        "text": "What time do you close?"
+      },
+      {
+        "id": "2761796",
+        "text": "When do you close?"
+      },
+      {
+        "id": "12771056",
+        "text": "What time are you open until?"
+      },
+      {
+        "id": "12771180",
+        "text": "Until what time are you open?"
+      }
+    ],
+    "vocabIds": [
+      "1202440",
+      "1188870"
+    ],
+    "matches": {
+      "1188870": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "いつまで"
+        }
+      ],
+      "1202440": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "ひらいてます"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3116527",
+    "original": "駐車場は何時まで開いてますか？",
+    "en": [
+      {
+        "id": "3116534",
+        "text": "What time does the parking lot close?"
+      },
+      {
+        "id": "13481488",
+        "text": "How late is the parking lot open?"
+      },
+      {
+        "id": "13481491",
+        "text": "How late does the parking lot stay open?"
+      }
+    ],
+    "vocabIds": [
+      "1202440",
+      "1188870",
+      "1426920"
+    ],
+    "matches": {
+      "1188870": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "いつまで"
+        }
+      ],
+      "1202440": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "ひらいてます"
+        }
+      ],
+      "1426920": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ちゅうしゃじょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3718387",
+    "original": "「昨日何時まで起きてたの？」「2時半ぐらい」",
+    "en": [
+      {
+        "id": "3718389",
+        "text": "\"How late did you stay up last night?\" \"I was up until about 2:30.\""
+      },
+      {
+        "id": "3719785",
+        "text": "\"How late did you stay up last night?\" \"We were up until about 2:30.\""
+      }
+    ],
+    "vocabIds": [
+      "1188870",
+      "1223640",
+      "1579260",
+      "1658480",
+      "2837919"
+    ],
+    "matches": {
+      "1188870": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "なんじまで"
+        }
+      ],
+      "1223640": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "おきてた"
+        }
+      ],
+      "1579260": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "きのう"
+        }
+      ],
+      "1658480": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "じはん"
+        }
+      ],
+      "2837919": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "じはん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3116011",
+    "original": "駐車場の営業時間は何時までですか？",
+    "en": [
+      {
+        "id": "6618152",
+        "text": "The parking lot is open to until when?"
+      }
+    ],
+    "vocabIds": [
+      "1173450",
+      "1188870",
+      "1426920"
+    ],
+    "matches": {
+      "1173450": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "えいぎょうじかん"
+        }
+      ],
+      "1188870": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "いつまで"
+        }
+      ],
+      "1426920": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ちゅうしゃじょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8895503",
+    "original": "駐車場は何時まで開いていますか？",
+    "en": [
+      {
+        "id": "3116534",
+        "text": "What time does the parking lot close?"
+      }
+    ],
+    "vocabIds": [
+      "1202440",
+      "1188870",
+      "1426920"
+    ],
+    "matches": {
+      "1188870": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "いつまで"
+        }
+      ],
+      "1202440": [
+        {
+          "start": 8,
+          "length": 6,
+          "reading": "ひらいています"
+        }
+      ],
+      "1426920": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ちゅうしゃじょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3401535",
+    "original": "白石神社のお祭りって何時までやってるんだろ。誰か知らない？",
+    "en": [
+      {
+        "id": "10074888",
+        "text": "I wonder how long the Shiroishi Temple Festival will be going on. Does anybody know?"
+      }
+    ],
+    "vocabIds": [
+      "1188870",
+      "1420420",
+      "1604135",
+      "2126020",
+      "1364670",
+      "1416840"
+    ],
+    "matches": {
+      "1188870": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "なんじまで"
+        }
+      ],
+      "1364670": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "じんじゃ"
+        }
+      ],
+      "1416840": [
+        {
+          "start": 22,
+          "length": 2,
+          "reading": "だれか"
+        }
+      ],
+      "1420420": [
+        {
+          "start": 24,
+          "length": 4,
+          "reading": "しらない"
+        }
+      ],
+      "1604135": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "おまつり"
+        }
+      ],
+      "2126020": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しらいし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10212712",
+    "original": "彼女、何時までここにいれるのかな？",
+    "en": [
+      {
+        "id": "9506109",
+        "text": "How long will she be able to stay here?"
+      }
+    ],
+    "vocabIds": [
+      "1188870",
+      "1483150"
+    ],
+    "matches": {
+      "1188870": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "いつまで"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ]
+    }
+  }
+]

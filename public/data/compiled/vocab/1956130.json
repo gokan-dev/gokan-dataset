@@ -1,0 +1,99 @@
+{
+  "id": "1956130",
+  "writtenForm": {
+    "kanji": "躯",
+    "alternatives": [
+      "骸",
+      "身"
+    ],
+    "containedKanji": [
+      "躯"
+    ]
+  },
+  "reading": {
+    "primary": "むくろ",
+    "alternatives": [
+      "く"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 29847,
+    "kanaRank": 53793
+  },
+  "progression": {
+    "kklcStep": 99999
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "(dead) body",
+        "corpse"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "ctr",
+        "suf"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "counter for Buddhist images (statues and paintings)"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "く"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": false,
+  "mergedVocabs": [
+    {
+      "id": "1956130",
+      "isBase": true,
+      "originalPrimaryReading": "むくろ",
+      "originalGlosses": [
+        "(dead) body",
+        "corpse"
+      ]
+    },
+    {
+      "id": "2097910",
+      "isBase": false,
+      "originalPrimaryReading": "く",
+      "originalGlosses": [
+        "counter for Buddhist images (statues and paintings)"
+      ]
+    }
+  ],
+  "parents": [
+    "1409350"
+  ]
+}

@@ -1,0 +1,142 @@
+[
+  {
+    "id": "137543",
+    "original": "大阪行きの乗り継ぎ便はありますか。",
+    "en": [
+      {
+        "id": "275694",
+        "text": "Can I get a connecting flight to Osaka?"
+      }
+    ],
+    "indices": "大阪 行き[01] の 乗り継ぎ 便(びん)[01] は 有る{あります} か",
+    "vocabIds": [
+      "2224710",
+      "2078800",
+      "1578790"
+    ],
+    "matches": {
+      "1578790": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "いき"
+        }
+      ],
+      "2078800": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おおさか"
+        }
+      ],
+      "2224710": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "のりつぎびん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "196268",
+    "original": "ボストン行きの乗り継ぎ便に乗りたいのですが。",
+    "en": [
+      {
+        "id": "33446",
+        "text": "I want to get a connecting flight to Boston."
+      }
+    ],
+    "indices": "ボストン 行き[01] の 乗り継ぎ 便(びん)[01] に 乗る[01]{乗り} たい[01] のです が[03]",
+    "vocabIds": [
+      "2224710",
+      "1355120",
+      "1578790"
+    ],
+    "matches": {
+      "1355120": [
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "のりたい"
+        }
+      ],
+      "1578790": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "いき"
+        }
+      ],
+      "2224710": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "のりつぎびん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "196270",
+    "original": "ボストンへの乗り継ぎ便に乗りたいんです。",
+    "en": [
+      {
+        "id": "33446",
+        "text": "I want to get a connecting flight to Boston."
+      }
+    ],
+    "indices": "ボストン へ の 乗り継ぎ便~ に 乗る[01]{乗り} たい[01] のです{んです}",
+    "vocabIds": [
+      "2224710",
+      "1355120"
+    ],
+    "matches": {
+      "1355120": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "のりたい"
+        }
+      ],
+      "2224710": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "のりつぎびん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "234295",
+    "original": "アトランタ行きの乗り継ぎ便はありますか。",
+    "en": [
+      {
+        "id": "71670",
+        "text": "Can I get a connecting flight to Atlanta?"
+      }
+    ],
+    "indices": "行き[01] の 乗り継ぎ~ 便(びん)[01] は 有る{あります} か",
+    "vocabIds": [
+      "2224710",
+      "1578790"
+    ],
+    "matches": {
+      "1578790": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "いき"
+        }
+      ],
+      "2224710": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "のりつぎびん"
+        }
+      ]
+    }
+  }
+]

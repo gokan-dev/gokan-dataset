@@ -1,0 +1,331 @@
+[
+  {
+    "id": "145037",
+    "original": "申し訳ありませんが、ただ今満室になっています。",
+    "en": [
+      {
+        "id": "269526",
+        "text": "I'm afraid we're quite full at the moment."
+      }
+    ],
+    "indices": "申し訳ありません[01] が ただ今[02]~ 満室 になる{になっています}",
+    "vocabIds": [
+      "1612030",
+      "1538960",
+      "1812510"
+    ],
+    "matches": {
+      "1538960": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "ただいま"
+        }
+      ],
+      "1612030": [
+        {
+          "start": 0,
+          "length": 8,
+          "reading": "もうしわけありません"
+        }
+      ],
+      "1812510": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "まんしつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "145043",
+    "original": "申し訳ありません、満室です。",
+    "en": [
+      {
+        "id": "269520",
+        "text": "I'm sorry, we have no vacancies."
+      }
+    ],
+    "indices": "申し訳ありません[01] 満室~ です",
+    "vocabIds": [
+      "1612030",
+      "1812510"
+    ],
+    "matches": {
+      "1612030": [
+        {
+          "start": 0,
+          "length": 8,
+          "reading": "もうしわけありません"
+        }
+      ],
+      "1812510": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "まんしつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "169212",
+    "original": "残念なことに、あなたがご希望のホテルは満室でした。",
+    "en": [
+      {
+        "id": "245275",
+        "text": "Unfortunately, the hotel that you suggested was completely booked up."
+      }
+    ],
+    "indices": "残念なことに 貴方(あなた)[01]{あなた} が 御(ご){ご} 希望 の ホテル は 満室 です{でした}",
+    "vocabIds": [
+      "1980600",
+      "1219910",
+      "1812510"
+    ],
+    "matches": {
+      "1219910": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "きぼう"
+        }
+      ],
+      "1812510": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "まんしつ"
+        }
+      ],
+      "1980600": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "ざんねんなことに"
+        }
+      ]
+    }
+  },
+  {
+    "id": "220483",
+    "original": "この通りのモーテルはどこも満室だ。",
+    "en": [
+      {
+        "id": "57806",
+        "text": "All the motels on this road are full."
+      }
+    ],
+    "indices": "此の{この} 通り(とおり) の モーテル[01]~ は 何処も{どこも} 満室 だ",
+    "vocabIds": [
+      "2233930",
+      "1812510"
+    ],
+    "matches": {
+      "1812510": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "まんしつ"
+        }
+      ],
+      "2233930": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "このとおり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "229865",
+    "original": "ある週末、町のホテルはどこも満室になっていました。",
+    "en": [
+      {
+        "id": "952054",
+        "text": "One weekend, all of the hotels in the city were full."
+      }
+    ],
+    "indices": "或る{ある} 週末 町(まち) の ホテル は 何処も{どこも} 満室 になる{になっていました}",
+    "vocabIds": [
+      "1333520",
+      "1812510",
+      "1603990"
+    ],
+    "matches": {
+      "1333520": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "しゅうまつ"
+        }
+      ],
+      "1603990": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "まち"
+        }
+      ],
+      "1812510": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "まんしつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1166285",
+    "original": "ある週末、街のホテルは全て満室でした。",
+    "en": [
+      {
+        "id": "952054",
+        "text": "One weekend, all of the hotels in the city were full."
+      }
+    ],
+    "vocabIds": [
+      "1333520",
+      "1595730",
+      "1812510",
+      "1204570",
+      "1603990"
+    ],
+    "matches": {
+      "1204570": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "まち"
+        }
+      ],
+      "1333520": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "しゅうまつ"
+        }
+      ],
+      "1595730": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "すべて"
+        }
+      ],
+      "1603990": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "まち"
+        }
+      ],
+      "1812510": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "まんしつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2237996",
+    "original": "申し訳ありません、ただいま満室です。",
+    "en": [
+      {
+        "id": "269520",
+        "text": "I'm sorry, we have no vacancies."
+      }
+    ],
+    "vocabIds": [
+      "1612030",
+      "1812510"
+    ],
+    "matches": {
+      "1612030": [
+        {
+          "start": 0,
+          "length": 8,
+          "reading": "もうしわけありません"
+        }
+      ],
+      "1812510": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "まんしつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9997301",
+    "original": "シングルルームは満室だった。",
+    "en": [
+      {
+        "id": "8957740",
+        "text": "The single rooms were fully booked."
+      }
+    ],
+    "vocabIds": [
+      "1812510"
+    ],
+    "matches": {
+      "1812510": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "まんしつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9997302",
+    "original": "シングルは満室だった。",
+    "en": [
+      {
+        "id": "8957740",
+        "text": "The single rooms were fully booked."
+      }
+    ],
+    "vocabIds": [
+      "1812510"
+    ],
+    "matches": {
+      "1812510": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "まんしつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9997304",
+    "original": "どのホテルも満室だよ。",
+    "en": [
+      {
+        "id": "4979397",
+        "text": "All the hotels are sold out."
+      }
+    ],
+    "vocabIds": [
+      "1812510"
+    ],
+    "matches": {
+      "1812510": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "まんしつ"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,117 @@
+[
+  {
+    "id": "203689",
+    "original": "タケオは彼なりに良いやつだ。",
+    "en": [
+      {
+        "id": "40926",
+        "text": "Takeo is quite a good fellow in his way."
+      }
+    ],
+    "indices": "は 彼(かれ)[01] なりに~ 良い 奴(やつ)[01]{やつ} だ",
+    "vocabIds": [
+      "2027280",
+      "1605820"
+    ],
+    "matches": {
+      "1605820": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "よい"
+        }
+      ],
+      "2027280": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "かれなり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1139088",
+    "original": "彼には、そこに留まる彼なりの理由があるのだ。",
+    "en": [
+      {
+        "id": "283070",
+        "text": "He has his reasons for staying there."
+      }
+    ],
+    "vocabIds": [
+      "1310620",
+      "2027280",
+      "1550140",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1310620": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "とまる"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1550140": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "りゆう"
+        }
+      ],
+      "2027280": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "かれなり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8467988",
+    "original": "彼なりのカッコ良さがある。",
+    "en": [
+      {
+        "id": "8467987",
+        "text": "He's cool in his own way."
+      }
+    ],
+    "vocabIds": [
+      "2027280",
+      "1605820"
+    ],
+    "matches": {
+      "1605820": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "よさ"
+        }
+      ],
+      "2027280": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "かれなり"
+        }
+      ]
+    }
+  }
+]

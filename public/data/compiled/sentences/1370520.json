@@ -1,0 +1,190 @@
+[
+  {
+    "id": "74301",
+    "original": "実施設計とは基本設計で決まった計画を、工事ができる図面に書く作業です。",
+    "en": [
+      {
+        "id": "329419",
+        "text": "Detailed design is the work of drawing up a diagram that is capable of being manufactured from the plan set in the baseline design."
+      }
+    ],
+    "indices": "実施設計~ とは 基本設計 で(#2028980) 決まる[01]{決まった} 計画 を 工事 が 出来る{できる} 図面~ に 書く 作業 です",
+    "vocabIds": [
+      "2397970",
+      "2397960",
+      "1591420",
+      "1252090",
+      "1278130",
+      "1370520",
+      "1343950",
+      "1297540"
+    ],
+    "matches": {
+      "1252090": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "けいかく"
+        }
+      ],
+      "1278130": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "こうじ"
+        }
+      ],
+      "1297540": [
+        {
+          "start": 30,
+          "length": 2,
+          "reading": "さぎょう"
+        }
+      ],
+      "1343950": [
+        {
+          "start": 28,
+          "length": 2,
+          "reading": "かく"
+        }
+      ],
+      "1370520": [
+        {
+          "start": 25,
+          "length": 2,
+          "reading": "ずめん"
+        }
+      ],
+      "1591420": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "きまった"
+        }
+      ],
+      "2397960": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "きほんせっけい"
+        }
+      ],
+      "2397970": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "じっしせっけい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "223101",
+    "original": "このようなことについては直接お会いして、図面に書いたり、ロジックアナライザやオシロでタイミングを見たりしながら話し合ったほうが解決が速いです。",
+    "en": [
+      {
+        "id": "60432",
+        "text": "These things are much better spoken about face to face so that we can draw diagrams and demonstrate timings on logic analyzers and oscilloscopes where necessary."
+      }
+    ],
+    "indices": "この様{このような} 事(こと){こと} に就いて{について} は 直接 会う[01]{お会い} 為る(する)[12]{して} 図面 に 書く{書いたり} ロジックアナライザ や オシロ で(#2028980) タイミング を 見る{見たり} 為る(する){し} 乍ら[01]{ながら} 話し合う{話し合った} 方(ほう){ほう} が 解決 が 早い[04]{速い} です",
+    "vocabIds": [
+      "1562310",
+      "1404975",
+      "1431110",
+      "1198180",
+      "1370520",
+      "1343950",
+      "1198960",
+      "1259290"
+    ],
+    "matches": {
+      "1198180": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "あい"
+        }
+      ],
+      "1198960": [
+        {
+          "start": 63,
+          "length": 2,
+          "reading": "かいけつ"
+        }
+      ],
+      "1259290": [
+        {
+          "start": 48,
+          "length": 1,
+          "reading": "み"
+        }
+      ],
+      "1343950": [
+        {
+          "start": 23,
+          "length": 2,
+          "reading": "かい"
+        }
+      ],
+      "1370520": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "ずめん"
+        }
+      ],
+      "1404975": [
+        {
+          "start": 66,
+          "length": 4,
+          "reading": "はやいです"
+        }
+      ],
+      "1431110": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "ちょくせつ"
+        }
+      ],
+      "1562310": [
+        {
+          "start": 55,
+          "length": 5,
+          "reading": "はなしあった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10854993",
+    "original": "図面が出来上がりました。",
+    "en": [
+      {
+        "id": "238019",
+        "text": "The plans have been drawn up."
+      }
+    ],
+    "vocabIds": [
+      "1340610",
+      "1370520"
+    ],
+    "matches": {
+      "1340610": [
+        {
+          "start": 3,
+          "length": 8,
+          "reading": "できあがりました"
+        }
+      ],
+      "1370520": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ずめん"
+        }
+      ]
+    }
+  }
+]

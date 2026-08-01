@@ -1,0 +1,104 @@
+[
+  {
+    "id": "88423",
+    "original": "彼女は数個のオレンジからジュースを絞り取った。",
+    "en": [
+      {
+        "id": "315284",
+        "text": "She squeezed the juice from several oranges."
+      }
+    ],
+    "indices": "彼女[01] は 数個 の オレンジ から ジュース[01] を 絞る{絞り} 取る{取った}",
+    "vocabIds": [
+      "1326980",
+      "1483150",
+      "1373030",
+      "1594520"
+    ],
+    "matches": {
+      "1326980": [
+        {
+          "start": 19,
+          "length": 3,
+          "reading": "とった"
+        }
+      ],
+      "1373030": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "すうこ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1594520": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "しぼり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "220167",
+    "original": "この発電所だけで数個の市に電力を供給している。",
+    "en": [
+      {
+        "id": "57486",
+        "text": "This power station alone provides several cities with electricity."
+      }
+    ],
+    "indices": "此の{この} 発電所~ 丈(だけ){だけ} で(#2028980) 数個~ の 市(し) に 電力 を 供給 為る(する){している}",
+    "vocabIds": [
+      "1477770",
+      "1373030",
+      "1443810",
+      "1233630",
+      "1308090"
+    ],
+    "matches": {
+      "1233630": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "きょうきゅう"
+        }
+      ],
+      "1308090": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "し"
+        }
+      ],
+      "1373030": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "すうこ"
+        }
+      ],
+      "1443810": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "でんりょく"
+        }
+      ],
+      "1477770": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "はつでんしょ"
+        }
+      ]
+    }
+  }
+]

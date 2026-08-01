@@ -1,0 +1,80 @@
+[
+  {
+    "id": "179627",
+    "original": "金融引き締め政策が実施されている。",
+    "en": [
+      {
+        "id": "18485",
+        "text": "A fiscal tightening policy is being enacted."
+      }
+    ],
+    "indices": "金融~ 引き締め~ 政策 が 実施 為れる{されている}",
+    "vocabIds": [
+      "2146810",
+      "1375950",
+      "1321140"
+    ],
+    "matches": {
+      "1321140": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "じっし"
+        }
+      ],
+      "1375950": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "せいさく"
+        }
+      ],
+      "2146810": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "きんゆうひきしめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "179628",
+    "original": "金融引き締めで金利が上昇するだろう。",
+    "en": [
+      {
+        "id": "18486",
+        "text": "Interest rates will rise due to monetary tightening."
+      }
+    ],
+    "indices": "金融 引き締め で(#2028980) 金利 が 上昇 為る(する){する} だろう",
+    "vocabIds": [
+      "2146810",
+      "1243330",
+      "1353450"
+    ],
+    "matches": {
+      "1243330": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "きんり"
+        }
+      ],
+      "1353450": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "じょうしょう"
+        }
+      ],
+      "2146810": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "きんゆうひきしめ"
+        }
+      ]
+    }
+  }
+]

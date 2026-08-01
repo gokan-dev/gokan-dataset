@@ -1,0 +1,88 @@
+[
+  {
+    "id": "90777",
+    "original": "彼女は会社で解雇通知を受けました。",
+    "en": [
+      {
+        "id": "312935",
+        "text": "There was a pink slip waiting for her at the office."
+      }
+    ],
+    "indices": "彼女[01] は 会社[01] で(#2028980) 解雇 通知 を 受ける{受けました}",
+    "vocabIds": [
+      "1329590",
+      "2019250",
+      "1483150",
+      "1198550"
+    ],
+    "matches": {
+      "1198550": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かいしゃ"
+        }
+      ],
+      "1329590": [
+        {
+          "start": 11,
+          "length": 5,
+          "reading": "うけました"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "2019250": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "かいこつうち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "196257",
+    "original": "ボスはジムをオフィスに呼び入れて解雇通知を渡した。",
+    "en": [
+      {
+        "id": "33436",
+        "text": "The boss called Jim into his office and gave him his pink slip."
+      }
+    ],
+    "indices": "ボス は を オフィス に 呼び入れる{呼び入れて}~ 解雇 通知 を 渡す[03]{渡した}",
+    "vocabIds": [
+      "1266380",
+      "2019250",
+      "1444610"
+    ],
+    "matches": {
+      "1266380": [
+        {
+          "start": 11,
+          "length": 5,
+          "reading": "よびいれて"
+        }
+      ],
+      "1444610": [
+        {
+          "start": 21,
+          "length": 3,
+          "reading": "わたした"
+        }
+      ],
+      "2019250": [
+        {
+          "start": 16,
+          "length": 4,
+          "reading": "かいこつうち"
+        }
+      ]
+    }
+  }
+]

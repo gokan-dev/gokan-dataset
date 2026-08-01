@@ -1,0 +1,129 @@
+[
+  {
+    "id": "171265",
+    "original": "今晩きっと彼から電話がかかるだろう。",
+    "en": [
+      {
+        "id": "243212",
+        "text": "A telephone call from him is probable tonight."
+      },
+      {
+        "id": "1422693",
+        "text": "He'll almost certainly telephone tonight."
+      },
+      {
+        "id": "1422694",
+        "text": "We'll get a phone call from him tonight for sure."
+      },
+      {
+        "id": "3627112",
+        "text": "Surely he'll phone me tonight."
+      }
+    ],
+    "indices": "今晩 屹度[01]{きっと} 彼(かれ) から 電話が掛かる{電話がかかる} だろう",
+    "vocabIds": [
+      "2208100",
+      "1289470",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1289470": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こんばん"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "2208100": [
+        {
+          "start": 8,
+          "length": 6,
+          "reading": "でんわがかかる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10123501",
+    "original": "今晩きっとトムから電話がかかるよ。",
+    "en": [
+      {
+        "id": "10118222",
+        "text": "We'll get a phone call from Tom tonight for sure."
+      }
+    ],
+    "vocabIds": [
+      "2208100",
+      "1289470"
+    ],
+    "matches": {
+      "1289470": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こんばん"
+        }
+      ],
+      "2208100": [
+        {
+          "start": 9,
+          "length": 6,
+          "reading": "でんわがかかる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11561486",
+    "original": "シャワーをしている時に限って、なんでいつも電話がかかるんだ？",
+    "en": [
+      {
+        "id": "7989572",
+        "text": "Why does the phone always ring when I'm in the shower?"
+      }
+    ],
+    "vocabIds": [
+      "2208100",
+      "2153930",
+      "1315840"
+    ],
+    "matches": {
+      "1315840": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "とき"
+        }
+      ],
+      "2153930": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "にかぎって"
+        }
+      ],
+      "2208100": [
+        {
+          "start": 21,
+          "length": 6,
+          "reading": "でんわがかかる"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "id": "182010",
+    "original": "京都で途中下車して古都見物はいかがですか。",
+    "en": [
+      {
+        "id": "19329",
+        "text": "How about stopping over at Kyoto and sightseeing at the old capital?"
+      }
+    ],
+    "indices": "京都 で(#2028980) 途中下車 為る(する){して} 古都 見物(けんぶつ) は 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "1444920",
+      "1652350",
+      "1265960",
+      "1260000"
+    ],
+    "matches": {
+      "1260000": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "けんぶつ"
+        }
+      ],
+      "1265960": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "こと"
+        }
+      ],
+      "1444920": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "とちゅうげしゃ"
+        }
+      ],
+      "1652350": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きょうと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "222044",
+    "original": "この古都に何か新しいものがあることは、だれでも知っている。",
+    "en": [
+      {
+        "id": "59369",
+        "text": "Everyone knows that there is something new in this old capital."
+      }
+    ],
+    "indices": "此の{この} 古都~ に 何か 新しい 物(もの){もの} が[01] 有る{ある} 事(こと){こと} は 誰{だれ} でも 知る{知っている}",
+    "vocabIds": [
+      "1420470",
+      "1361490",
+      "1265960",
+      "1188270"
+    ],
+    "matches": {
+      "1188270": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "なにか"
+        }
+      ],
+      "1265960": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "こと"
+        }
+      ],
+      "1361490": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "あたらしい"
+        }
+      ],
+      "1420470": [
+        {
+          "start": 23,
+          "length": 5,
+          "reading": "しっている"
+        }
+      ]
+    }
+  },
+  {
+    "id": "994916",
+    "original": "京都は日本の古都だ。",
+    "en": [
+      {
+        "id": "1229373",
+        "text": "Kyoto is the former capital of Japan."
+      },
+      {
+        "id": "1544422",
+        "text": "Kyoto is Japan's former capital."
+      },
+      {
+        "id": "12799799",
+        "text": "Kyoto is the old capital of Japan."
+      },
+      {
+        "id": "12799800",
+        "text": "Kyoto is the ancient capital of Japan."
+      }
+    ],
+    "vocabIds": [
+      "1652350",
+      "1582710",
+      "1265960"
+    ],
+    "matches": {
+      "1265960": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "こと"
+        }
+      ],
+      "1582710": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "にっぽん"
+        }
+      ],
+      "1652350": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きょうと"
+        }
+      ]
+    }
+  }
+]

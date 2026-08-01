@@ -1,0 +1,118 @@
+[
+  {
+    "id": "102401",
+    "original": "彼は大酒飲みだ。",
+    "en": [
+      {
+        "id": "301293",
+        "text": "He drinks like a fish."
+      },
+      {
+        "id": "2768703",
+        "text": "He's a heavy drinker."
+      },
+      {
+        "id": "2768812",
+        "text": "He drinks a lot."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 大酒飲み だ",
+    "vocabIds": [
+      "1786370",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1786370": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "だいさけのみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "178727",
+    "original": "君なら一番の大酒飲みとしてギネスブックに載せてもらえるよ。",
+    "en": [
+      {
+        "id": "17580",
+        "text": "You could get into the Guinness Book of World Records as the heaviest drinker."
+      }
+    ],
+    "indices": "君(きみ)[01] なら 一番(いちばん)[01] の 大酒飲み~ として NI{ギネスブック} に 乗せる{載せて} 貰う[02]{もらえる} よ[01]",
+    "vocabIds": [
+      "1600270",
+      "1786370",
+      "1165970",
+      "1247250"
+    ],
+    "matches": {
+      "1165970": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "いちばん"
+        }
+      ],
+      "1247250": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "きみ"
+        }
+      ],
+      "1600270": [
+        {
+          "start": 20,
+          "length": 7,
+          "reading": "のせてもらえる"
+        }
+      ],
+      "1786370": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "だいさけのみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2082091",
+    "original": "トムは大酒飲みだ。",
+    "en": [
+      {
+        "id": "1601359",
+        "text": "Tom is a heavy drinker."
+      }
+    ],
+    "vocabIds": [
+      "1786370"
+    ],
+    "matches": {
+      "1786370": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "だいさけのみ"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "id": "85326",
+    "original": "病院売店はどこにありますか。",
+    "en": [
+      {
+        "id": "318387",
+        "text": "Where is the hospital shop?"
+      }
+    ],
+    "indices": "病院 売店 は 何処{どこ} に 有る{あります} か",
+    "vocabIds": [
+      "1490220",
+      "1474040"
+    ],
+    "matches": {
+      "1474040": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ばいてん"
+        }
+      ],
+      "1490220": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "びょういん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "108872",
+    "original": "彼は学校の売店で文房具を買った。",
+    "en": [
+      {
+        "id": "294817",
+        "text": "He bought some stationery at the school store."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 学校 の 売店 で(#2028980) 文房具 を 買う[01]{買った}",
+    "vocabIds": [
+      "1505620",
+      "1473740",
+      "1206730",
+      "1474040",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1206730": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "がっこう"
+        }
+      ],
+      "1473740": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "かった"
+        }
+      ],
+      "1474040": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ばいてん"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1505620": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "ぶんぼうぐ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "234690",
+    "original": "アイスクリーム売りが外の売店で客にアイスクリームを売っている。",
+    "en": [
+      {
+        "id": "72067",
+        "text": "The ice cream vendor is waiting on customers at his outdoor stand."
+      }
+    ],
+    "indices": "アイスクリーム 売り[03]~ が 外(そと) の 売店~ で(#2028980) 客 に アイスクリーム を 売る{売っている}",
+    "vocabIds": [
+      "1473950",
+      "1474040",
+      "1203250",
+      "1203260",
+      "1605940",
+      "1226630",
+      "2686690"
+    ],
+    "matches": {
+      "1203250": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "そと"
+        }
+      ],
+      "1203260": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "そと"
+        }
+      ],
+      "1226630": [
+        {
+          "start": 15,
+          "length": 1,
+          "reading": "きゃく"
+        }
+      ],
+      "1473950": [
+        {
+          "start": 25,
+          "length": 5,
+          "reading": "うっている"
+        },
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "うり"
+        }
+      ],
+      "1474040": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "ばいてん"
+        }
+      ],
+      "1605940": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "そと"
+        }
+      ],
+      "2686690": [
+        {
+          "start": 15,
+          "length": 1,
+          "reading": "きゃく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8988093",
+    "original": "売店で聞いてください。",
+    "en": [
+      {
+        "id": "327226",
+        "text": "You'll have to ask at the newsstand."
+      },
+      {
+        "id": "11505699",
+        "text": "Please ask at the kiosk."
+      },
+      {
+        "id": "11505700",
+        "text": "Please ask at the shop."
+      }
+    ],
+    "vocabIds": [
+      "1591110",
+      "1474040"
+    ],
+    "matches": {
+      "1474040": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ばいてん"
+        }
+      ],
+      "1591110": [
+        {
+          "start": 3,
+          "length": 7,
+          "reading": "きいてください"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10590009",
+    "original": "彼は小さな売店で花を売っています。",
+    "en": [
+      {
+        "id": "10589997",
+        "text": "He sells flowers in a little kiosk."
+      }
+    ],
+    "vocabIds": [
+      "1473950",
+      "2136180",
+      "1474040",
+      "1000420",
+      "1483070",
+      "1194500"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1194500": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "はな"
+        }
+      ],
+      "1473950": [
+        {
+          "start": 10,
+          "length": 6,
+          "reading": "うっています"
+        }
+      ],
+      "1474040": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ばいてん"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "2136180": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "ちいさな"
+        }
+      ]
+    }
+  }
+]

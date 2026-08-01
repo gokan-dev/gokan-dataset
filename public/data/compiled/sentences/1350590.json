@@ -1,0 +1,570 @@
+[
+  {
+    "id": "123967",
+    "original": "当店のパイは、夜のうちに焼き上げて、次ぎ日にお出しする焼き立てです。",
+    "en": [
+      {
+        "id": "280028",
+        "text": "All our pies are baked fresh during the night for your dining pleasure the next day."
+      }
+    ],
+    "indices": "当店 の パイ は 夜 の 内(うち){うち} に 焼き上げる{焼き上げて} 次ぐ{次ぎ} 日(ひ)[01] に 出す{お出し} 為る(する)[12]{する} 焼き立て です",
+    "vocabIds": [
+      "1847610",
+      "1350590",
+      "2850781",
+      "1316400",
+      "1449200",
+      "1536350"
+    ],
+    "matches": {
+      "1316400": [
+        {
+          "start": 18,
+          "length": 3,
+          "reading": "つぎび"
+        }
+      ],
+      "1350590": [
+        {
+          "start": 27,
+          "length": 4,
+          "reading": "やきたて"
+        }
+      ],
+      "1449200": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とうてん"
+        }
+      ],
+      "1536350": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "よる"
+        }
+      ],
+      "1847610": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "やきあげて"
+        }
+      ],
+      "2850781": [
+        {
+          "start": 22,
+          "length": 3,
+          "reading": "おだし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "146383",
+    "original": "焼き立てのパンはいかがですか。",
+    "en": [
+      {
+        "id": "268179",
+        "text": "Won't you have some bread hot from the oven?"
+      }
+    ],
+    "indices": "焼き立て{焼き立ての} パン(#1103090)[01] は 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "1350590"
+    ],
+    "matches": {
+      "1350590": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "やきたて"
+        }
+      ]
+    }
+  },
+  {
+    "id": "146386",
+    "original": "焼きたてのケーキは容易に切れない。",
+    "en": [
+      {
+        "id": "268176",
+        "text": "A freshly baked cake doesn't cut easily."
+      }
+    ],
+    "indices": "焼き立て{焼きたての} ケーキ は 容易{容易に} 切れる{切れない}",
+    "vocabIds": [
+      "1350590",
+      "1384940",
+      "1545350"
+    ],
+    "matches": {
+      "1350590": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "やきたて"
+        }
+      ],
+      "1384940": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "きれない"
+        }
+      ],
+      "1545350": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "ようい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "223298",
+    "original": "このパンは焼き立てです。",
+    "en": [
+      {
+        "id": "60630",
+        "text": "This bread is fresh from the oven."
+      }
+    ],
+    "indices": "此の{この} パン(#1103090)[01] は 焼き立て~ です",
+    "vocabIds": [
+      "1350590"
+    ],
+    "matches": {
+      "1350590": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "やきたて"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3052946",
+    "original": "焼きたてのパンの匂いが好きです。",
+    "en": [
+      {
+        "id": "1802699",
+        "text": "I like the smell of fresh bread."
+      },
+      {
+        "id": "3053137",
+        "text": "I like the smell of freshly-baked bread."
+      },
+      {
+        "id": "3053138",
+        "text": "I like the smell of bread just out of the oven."
+      }
+    ],
+    "vocabIds": [
+      "1350590",
+      "1599760",
+      "1277450"
+    ],
+    "matches": {
+      "1277450": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "すき"
+        }
+      ],
+      "1350590": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "やきたて"
+        }
+      ],
+      "1599760": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "におい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8612391",
+    "original": "焼きたてパンを買ったよ。",
+    "en": [
+      {
+        "id": "7083223",
+        "text": "I bought some fresh bread."
+      },
+      {
+        "id": "896148",
+        "text": "I bought fresh bread."
+      },
+      {
+        "id": "8618057",
+        "text": "I've bought some freshly baked bread."
+      }
+    ],
+    "vocabIds": [
+      "1350590",
+      "1473740"
+    ],
+    "matches": {
+      "1350590": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "やきたて"
+        }
+      ],
+      "1473740": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "かった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9959687",
+    "original": "焼きたてのパンが大好きなの。",
+    "en": [
+      {
+        "id": "8786718",
+        "text": "I love fresh bread."
+      }
+    ],
+    "vocabIds": [
+      "1350590",
+      "1413660"
+    ],
+    "matches": {
+      "1350590": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "やきたて"
+        }
+      ],
+      "1413660": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "だいすき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9192182",
+    "original": "焼きたてパンの香ばしい香りが好き。",
+    "en": [
+      {
+        "id": "3053137",
+        "text": "I like the smell of freshly-baked bread."
+      }
+    ],
+    "vocabIds": [
+      "1350590",
+      "1578880",
+      "1589820",
+      "1277450"
+    ],
+    "matches": {
+      "1277450": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "すき"
+        }
+      ],
+      "1350590": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "やきたて"
+        }
+      ],
+      "1578880": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "こうばしい"
+        }
+      ],
+      "1589820": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "かおり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8602044",
+    "original": "焼きたてパンとコーヒーさえあれば幸せ。",
+    "en": [
+      {
+        "id": "10179898",
+        "text": "As long as I have fresh bread and coffee I'm content."
+      }
+    ],
+    "vocabIds": [
+      "1350590",
+      "1594060"
+    ],
+    "matches": {
+      "1350590": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "やきたて"
+        }
+      ],
+      "1594060": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "しあわせ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8565298",
+    "original": "ドイツと聞くとプレッツェルを思い出します。焼きたてで柔らかくちょっと塩味の効いたプレッツェルが好き！",
+    "en": [
+      {
+        "id": "10630759",
+        "text": "Whenever I hear \"Germany\", I can't help but think of pretzels. I adore soft, freshly baked pretzels with a pinch of salt."
+      }
+    ],
+    "vocabIds": [
+      "1309260",
+      "1350590",
+      "1605630",
+      "1591110",
+      "1591100",
+      "1178880",
+      "1277450"
+    ],
+    "matches": {
+      "1178880": [
+        {
+          "start": 34,
+          "length": 2,
+          "reading": "しおあじ"
+        }
+      ],
+      "1277450": [
+        {
+          "start": 47,
+          "length": 2,
+          "reading": "すき"
+        }
+      ],
+      "1309260": [
+        {
+          "start": 14,
+          "length": 6,
+          "reading": "おもいだします"
+        }
+      ],
+      "1350590": [
+        {
+          "start": 21,
+          "length": 4,
+          "reading": "やきたて"
+        }
+      ],
+      "1591100": [
+        {
+          "start": 37,
+          "length": 3,
+          "reading": "きいた"
+        }
+      ],
+      "1591110": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "きくと"
+        }
+      ],
+      "1605630": [
+        {
+          "start": 26,
+          "length": 4,
+          "reading": "やわらかく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10982397",
+    "original": "焼きたてホヤホヤよ。",
+    "en": [
+      {
+        "id": "10982422",
+        "text": "They're fresh out of the oven."
+      }
+    ],
+    "vocabIds": [
+      "1350590"
+    ],
+    "matches": {
+      "1350590": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "やきたて"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11559005",
+    "original": "このクッキー、焼きたてほやほやだよ。",
+    "en": [
+      {
+        "id": "6673067",
+        "text": "These cookies are fresh from the oven."
+      }
+    ],
+    "vocabIds": [
+      "1350590"
+    ],
+    "matches": {
+      "1350590": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "やきたて"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11583606",
+    "original": "このクッキー、焼き立てなのよ。",
+    "en": [
+      {
+        "id": "6673067",
+        "text": "These cookies are fresh from the oven."
+      },
+      {
+        "id": "12418122",
+        "text": "These are freshly baked cookies."
+      }
+    ],
+    "vocabIds": [
+      "1350590"
+    ],
+    "matches": {
+      "1350590": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "やきたて"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11588378",
+    "original": "このパンは、焼き立てです。",
+    "en": [
+      {
+        "id": "10687286",
+        "text": "This bread is freshly baked."
+      }
+    ],
+    "vocabIds": [
+      "1350590"
+    ],
+    "matches": {
+      "1350590": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "やきたて"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12508345",
+    "original": "キッチンは、焼き立てパンの香りがした。",
+    "en": [
+      {
+        "id": "11101880",
+        "text": "The kitchen smelled of freshly baked bread."
+      }
+    ],
+    "vocabIds": [
+      "1350590",
+      "1589820"
+    ],
+    "matches": {
+      "1350590": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "やきたて"
+        }
+      ],
+      "1589820": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "かおり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12508346",
+    "original": "台所は、焼き立てパンの匂いがした。",
+    "en": [
+      {
+        "id": "11101880",
+        "text": "The kitchen smelled of freshly baked bread."
+      }
+    ],
+    "vocabIds": [
+      "1350590",
+      "1412640",
+      "1599760"
+    ],
+    "matches": {
+      "1350590": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "やきたて"
+        }
+      ],
+      "1412640": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "だいどころ"
+        }
+      ],
+      "1599760": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "におい"
+        }
+      ]
+    }
+  }
+]

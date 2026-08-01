@@ -1,0 +1,79 @@
+[
+  {
+    "id": "2280973",
+    "original": "今日この話題になるとは全く予期していませんでした。",
+    "en": [
+      {
+        "id": "953554",
+        "text": "I never imagined we'd be talking about this topic today."
+      }
+    ],
+    "indices": "今日 此の{この} 話題になる とは 全く 予期 為る(する){していませんでした}",
+    "vocabIds": [
+      "2151370",
+      "1579110",
+      "1394800",
+      "1542920"
+    ],
+    "matches": {
+      "1394800": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "まったく"
+        }
+      ],
+      "1542920": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "よき"
+        }
+      ],
+      "1579110": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きょう"
+        }
+      ],
+      "2151370": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "わだいになる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11027790",
+    "original": "この話題になるといつも荒れる。",
+    "en": [
+      {
+        "id": "12005316",
+        "text": "It's always rough when this topic comes up."
+      }
+    ],
+    "vocabIds": [
+      "2151370",
+      "1281490"
+    ],
+    "matches": {
+      "1281490": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "あれる"
+        }
+      ],
+      "2151370": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "わだいになる"
+        }
+      ]
+    }
+  }
+]

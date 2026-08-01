@@ -1,0 +1,107 @@
+[
+  {
+    "id": "79194",
+    "original": "遊び半分に学校へ来るな。",
+    "en": [
+      {
+        "id": "324522",
+        "text": "Don't come to school just for fun."
+      },
+      {
+        "id": "412222",
+        "text": "Don't come to school to lark around."
+      }
+    ],
+    "indices": "遊び半分~ に 学校 へ 来る(くる)[01] な[01]",
+    "vocabIds": [
+      "1542130",
+      "1206730",
+      "1547720"
+    ],
+    "matches": {
+      "1206730": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "がっこう"
+        }
+      ],
+      "1542130": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "あそびはんぶん"
+        }
+      ],
+      "1547720": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "くる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "79196",
+    "original": "遊び半分でそんな事するな。",
+    "en": [
+      {
+        "id": "324521",
+        "text": "Don't do such a thing in fun."
+      }
+    ],
+    "indices": "遊び半分 で(#2028980) そんな 事(こと) 為る(する){する} な[01]",
+    "vocabIds": [
+      "1542130",
+      "1313580"
+    ],
+    "matches": {
+      "1313580": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "こと"
+        }
+      ],
+      "1542130": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "あそびはんぶん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "169028",
+    "original": "仕事を遊び半分にしてはいけないよ。",
+    "en": [
+      {
+        "id": "245459",
+        "text": "Don't play on the job."
+      }
+    ],
+    "indices": "仕事 を 遊び半分 に 為る(する){して} は 行けない[02]{いけない} よ[01]",
+    "vocabIds": [
+      "1542130",
+      "1304970"
+    ],
+    "matches": {
+      "1304970": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しごと"
+        }
+      ],
+      "1542130": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "あそびはんぶん"
+        }
+      ]
+    }
+  }
+]

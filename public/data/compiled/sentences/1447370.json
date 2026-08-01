@@ -1,0 +1,95 @@
+[
+  {
+    "id": "190837",
+    "original": "医者は患者に投薬した。",
+    "en": [
+      {
+        "id": "27997",
+        "text": "The doctor administered medicine to the patient."
+      }
+    ],
+    "indices": "医者 は 患者 に 投薬~ 為る(する){した}",
+    "vocabIds": [
+      "1159980",
+      "1212210",
+      "1447370"
+    ],
+    "matches": {
+      "1159980": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いしゃ"
+        }
+      ],
+      "1212210": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かんじゃ"
+        }
+      ],
+      "1447370": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "とうやく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8861371",
+    "original": "トムは投薬の内容を変えてほしいと、主治医に頼んだ。",
+    "en": [
+      {
+        "id": "3444599",
+        "text": "Tom asked his doctor to change his medication."
+      }
+    ],
+    "vocabIds": [
+      "1510650",
+      "1325560",
+      "1548370",
+      "1447370",
+      "1459400"
+    ],
+    "matches": {
+      "1325560": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "しゅじい"
+        }
+      ],
+      "1447370": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "とうやく"
+        }
+      ],
+      "1459400": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ないよう"
+        }
+      ],
+      "1510650": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "かえて"
+        }
+      ],
+      "1548370": [
+        {
+          "start": 21,
+          "length": 3,
+          "reading": "たのんだ"
+        }
+      ]
+    }
+  }
+]

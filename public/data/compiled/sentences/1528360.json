@@ -1,0 +1,149 @@
+[
+  {
+    "id": "221051",
+    "original": "この食品は密閉された容器に入れておけば一週間もつ。",
+    "en": [
+      {
+        "id": "58373",
+        "text": "This food will keep for a week in an airtight container."
+      }
+    ],
+    "indices": "此の{この} 食品 は 密閉~ 為れる{された} 容器 に 入れる{入れて} 置く[09]{おけば} 一週間 持つ{もつ}",
+    "vocabIds": [
+      "1465610",
+      "1163270",
+      "1358600",
+      "1528360",
+      "1545370"
+    ],
+    "matches": {
+      "1163270": [
+        {
+          "start": 19,
+          "length": 3,
+          "reading": "いちしゅうかん"
+        }
+      ],
+      "1358600": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "しょくひん"
+        }
+      ],
+      "1465610": [
+        {
+          "start": 13,
+          "length": 6,
+          "reading": "いれておけば"
+        }
+      ],
+      "1528360": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "みっぺい"
+        }
+      ],
+      "1545370": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "ようき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1650170",
+    "original": "発送前に箱がきちんと密閉されていることを確認してください。",
+    "en": [
+      {
+        "id": "1334988",
+        "text": "Make sure all the boxes are well sealed before they're delivered."
+      }
+    ],
+    "vocabIds": [
+      "1477670",
+      "1392590",
+      "1528360",
+      "1205900",
+      "1585650"
+    ],
+    "matches": {
+      "1205900": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "かくにん"
+        }
+      ],
+      "1392590": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "まえに"
+        }
+      ],
+      "1477670": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "はっそう"
+        }
+      ],
+      "1528360": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "みっぺい"
+        }
+      ],
+      "1585650": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "はこ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9229964",
+    "original": "こちらの容器は密閉式です。",
+    "en": [
+      {
+        "id": "55051",
+        "text": "These containers are airtight."
+      }
+    ],
+    "vocabIds": [
+      "1545370",
+      "1528360",
+      "1319060"
+    ],
+    "matches": {
+      "1319060": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "しき"
+        }
+      ],
+      "1528360": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "みっぺい"
+        }
+      ],
+      "1545370": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ようき"
+        }
+      ]
+    }
+  }
+]

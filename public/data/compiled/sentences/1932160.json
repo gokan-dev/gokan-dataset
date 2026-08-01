@@ -1,0 +1,33 @@
+[
+  {
+    "id": "188041",
+    "original": "何か割引切符はありますか。",
+    "en": [
+      {
+        "id": "25180",
+        "text": "Are there any discount tickets for me?"
+      }
+    ],
+    "indices": "何か 割引切符~ は 有る{あります} か",
+    "vocabIds": [
+      "1932160",
+      "1188270"
+    ],
+    "matches": {
+      "1188270": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "なにか"
+        }
+      ],
+      "1932160": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "わりびききっぷ"
+        }
+      ]
+    }
+  }
+]

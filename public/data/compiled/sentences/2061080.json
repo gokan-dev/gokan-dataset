@@ -1,0 +1,151 @@
+[
+  {
+    "id": "179814",
+    "original": "近所に行きつけの店があるから、今日はそこでランチを食べよう。",
+    "en": [
+      {
+        "id": "18673",
+        "text": "I'm a regular at a restaurant in this neighborhood. Let's have lunch there today."
+      },
+      {
+        "id": "12782009",
+        "text": "There's a restaurant I frequent nearby. Let's have lunch there today."
+      },
+      {
+        "id": "12782010",
+        "text": "There's a restaurant nearby that I often go to. Let's have lunch there today."
+      }
+    ],
+    "indices": "近所 に 行きつけ{行きつけの}~ 店(みせ) が[01] 有る{ある} から 今日 は 其処(そこ){そこ} で(#2028980) ランチ[02] を 食べる{食べよう}",
+    "vocabIds": [
+      "2061080",
+      "1358280",
+      "1289400",
+      "1242350",
+      "1582120"
+    ],
+    "matches": {
+      "1242350": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きんじょ"
+        }
+      ],
+      "1289400": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "きょうは"
+        }
+      ],
+      "1358280": [
+        {
+          "start": 25,
+          "length": 4,
+          "reading": "たべよう"
+        }
+      ],
+      "1582120": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "みせ"
+        }
+      ],
+      "2061080": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "いきつけ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11044884",
+    "original": "行きつけの居酒屋に入ると、知らない顔で席が埋まってたので帰ってきた。",
+    "en": [
+      {
+        "id": "13008282",
+        "text": "I went back to my favorite pub, only to see seats with faces that I didn't recognize."
+      }
+    ],
+    "vocabIds": [
+      "1584340",
+      "1221270",
+      "2061080",
+      "1420420",
+      "1231800",
+      "1465590",
+      "1217730",
+      "1382250",
+      "1604880"
+    ],
+    "matches": {
+      "1217730": [
+        {
+          "start": 17,
+          "length": 1,
+          "reading": "かお"
+        }
+      ],
+      "1221270": [
+        {
+          "start": 28,
+          "length": 5,
+          "reading": "かえってきた"
+        }
+      ],
+      "1231800": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "いざかや"
+        }
+      ],
+      "1382250": [
+        {
+          "start": 19,
+          "length": 1,
+          "reading": "せき"
+        }
+      ],
+      "1420420": [
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "しらない"
+        }
+      ],
+      "1465590": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "はいると"
+        }
+      ],
+      "1584340": [
+        {
+          "start": 21,
+          "length": 7,
+          "reading": "うまってたので"
+        }
+      ],
+      "1604880": [
+        {
+          "start": 19,
+          "length": 1,
+          "reading": "せき"
+        }
+      ],
+      "2061080": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "いきつけ"
+        }
+      ]
+    }
+  }
+]

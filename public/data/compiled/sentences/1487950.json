@@ -1,0 +1,49 @@
+[
+  {
+    "id": "75741",
+    "original": "姫君は皇帝に寛恕を請いました。",
+    "en": [
+      {
+        "id": "327977",
+        "text": "The princess begged forgiveness from the emperor."
+      }
+    ],
+    "indices": "姫君~ は 皇帝 に 寛恕~ を 請う{請いました}",
+    "vocabIds": [
+      "1592920",
+      "1487950",
+      "1280490",
+      "1747710"
+    ],
+    "matches": {
+      "1280490": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "こうてい"
+        }
+      ],
+      "1487950": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ひめぎみ"
+        }
+      ],
+      "1592920": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "こいました"
+        }
+      ],
+      "1747710": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "かんじょ"
+        }
+      ]
+    }
+  }
+]

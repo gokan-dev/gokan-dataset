@@ -1,0 +1,121 @@
+[
+  {
+    "id": "78841",
+    "original": "羊飼いが羊の番をしていた。",
+    "en": [
+      {
+        "id": "324874",
+        "text": "There were shepherds keeping watch over their flock."
+      }
+    ],
+    "indices": "羊 飼う{飼い} が 羊 の 番をする{番をしていた}",
+    "vocabIds": [
+      "1546500",
+      "1546490",
+      "2022640",
+      "2199920"
+    ],
+    "matches": {
+      "1546490": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "ひつじ"
+        }
+      ],
+      "1546500": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ひつじかい"
+        }
+      ],
+      "2022640": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "ばん"
+        }
+      ],
+      "2199920": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "ばん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "390147",
+    "original": "羊飼いはいつも羊に「羊の利害と自分の利害は同じだ」と説得しようとしている。",
+    "en": [
+      {
+        "id": "390150",
+        "text": "The shepherd always tries to persuade the sheep that their interests and his own are the same."
+      }
+    ],
+    "vocabIds": [
+      "1546500",
+      "1549500",
+      "1318610",
+      "1451750",
+      "1386440",
+      "1546490"
+    ],
+    "matches": {
+      "1318610": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "じぶん"
+        }
+      ],
+      "1386440": [
+        {
+          "start": 26,
+          "length": 2,
+          "reading": "せっとく"
+        }
+      ],
+      "1451750": [
+        {
+          "start": 21,
+          "length": 2,
+          "reading": "おなじ"
+        }
+      ],
+      "1546490": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "ひつじ"
+        },
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "ひつじ"
+        }
+      ],
+      "1546500": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ひつじかい"
+        }
+      ],
+      "1549500": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "りがい"
+        },
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "りがい"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,109 @@
+[
+  {
+    "id": "141913",
+    "original": "先だって彼にあったときには、彼はとても元気だった。",
+    "en": [
+      {
+        "id": "272657",
+        "text": "Last I met him, he was very well."
+      },
+      {
+        "id": "1304555",
+        "text": "The last time I saw him, he was very healthy."
+      }
+    ],
+    "indices": "先だって~ 彼(かれ) に 会う[01]{あった} 時(とき){とき} には 彼(かれ)[01] は 迚も[01]{とても} 元気 だ{だった}",
+    "vocabIds": [
+      "1388100",
+      "1260720",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "かれ"
+        },
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1260720": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "げんき"
+        }
+      ],
+      "1388100": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "せんだって"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "かれ"
+        },
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11053926",
+    "original": "先だって、ごく短期間だが、久方ぶりにヨーロッパへ行った。",
+    "en": [
+      {
+        "id": "12614609",
+        "text": "Recently, I got to go to Europe for the first time in a while, although it wasn't for very long."
+      }
+    ],
+    "vocabIds": [
+      "1388100",
+      "1227410",
+      "1854360",
+      "1578850"
+    ],
+    "matches": {
+      "1227410": [
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "ひさかたぶり"
+        }
+      ],
+      "1388100": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "せんだって"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 24,
+          "length": 3,
+          "reading": "いった"
+        }
+      ],
+      "1854360": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "たんきかん"
+        }
+      ]
+    }
+  }
+]

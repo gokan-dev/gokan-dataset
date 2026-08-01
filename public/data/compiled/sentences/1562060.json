@@ -1,0 +1,33 @@
+[
+  {
+    "id": "225963",
+    "original": "きのうは和牛が特売だった。",
+    "en": [
+      {
+        "id": "63302",
+        "text": "Japanese beef was on sale yesterday."
+      }
+    ],
+    "indices": "昨日{きのう} は 和牛~ が 特売~ だ{だった}",
+    "vocabIds": [
+      "1562060",
+      "1455250"
+    ],
+    "matches": {
+      "1455250": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "とくばい"
+        }
+      ],
+      "1562060": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "わぎゅう"
+        }
+      ]
+    }
+  }
+]

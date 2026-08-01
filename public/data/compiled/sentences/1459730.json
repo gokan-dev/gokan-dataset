@@ -1,0 +1,71 @@
+[
+  {
+    "id": "76727",
+    "original": "この鍋物はえぐいよ。",
+    "en": [
+      {
+        "id": "326993",
+        "text": "This stew tastes acrid."
+      }
+    ],
+    "indices": "此の{この} 鍋物~ は 刳い[01]{えぐい}~ よ[01]",
+    "vocabIds": [
+      "1459730"
+    ],
+    "matches": {
+      "1459730": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "なべもの"
+        }
+      ]
+    }
+  },
+  {
+    "id": "199083",
+    "original": "なべ物とはどんなものですか。",
+    "en": [
+      {
+        "id": "36282",
+        "text": "What are nabemono like?"
+      }
+    ],
+    "indices": "鍋物{なべ物} とは どんな 物(もの){もの} ですか",
+    "vocabIds": [
+      "1459730"
+    ],
+    "matches": {
+      "1459730": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "なべぶつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "237486",
+    "original": "なべ物にはほかにどんなものがありますか。",
+    "en": [
+      {
+        "id": "36281",
+        "text": "What are some other nabemono?"
+      }
+    ],
+    "indices": "鍋物{なべ物} には 他に{ほかに} どんな 物(もの){もの} が[01] 有る{あります} か",
+    "vocabIds": [
+      "1459730"
+    ],
+    "matches": {
+      "1459730": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "なべぶつ"
+        }
+      ]
+    }
+  }
+]

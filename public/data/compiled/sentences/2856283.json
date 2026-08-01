@@ -1,0 +1,213 @@
+[
+  {
+    "id": "77036",
+    "original": "「このたびはご愁傷さまでございます」とひとことお悔みの挨拶をします。",
+    "en": [
+      {
+        "id": "326683",
+        "text": "Use a brief expression of condolence, such as: \"On this sad occasion we grieve with you\"."
+      }
+    ],
+    "indices": "此の度{このたび} は ご愁傷様でございます{ご愁傷さまでございます}~ と[04] 一言{ひとこと} 悔やむ[01]{お悔み} の 挨拶 を 為る(する){します}",
+    "vocabIds": [
+      "2407660",
+      "2856283",
+      "1151120"
+    ],
+    "matches": {
+      "1151120": [
+        {
+          "start": 27,
+          "length": 2,
+          "reading": "あいさつ"
+        }
+      ],
+      "2407660": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "ごしゅうしょうさま"
+        }
+      ],
+      "2856283": [
+        {
+          "start": 23,
+          "length": 3,
+          "reading": "おくやみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "217026",
+    "original": "ご不幸をお悔やみいたします。",
+    "en": [
+      {
+        "id": "54332",
+        "text": "Your bereavement saddens me."
+      }
+    ],
+    "indices": "御(ご){ご} 不幸 を 悔やむ[01]{お悔やみ} 致す{いたします}",
+    "vocabIds": [
+      "2856283",
+      "1492350"
+    ],
+    "matches": {
+      "1492350": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "ふこう"
+        }
+      ],
+      "2856283": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "おくやみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1116711",
+    "original": "彼の奥さんが亡くなった時、彼は何十通ものお悔み状を受け取った。",
+    "en": [
+      {
+        "id": "25703",
+        "text": "When his wife died, he received dozens of letters of sympathy."
+      }
+    ],
+    "vocabIds": [
+      "1518540",
+      "1329650",
+      "1179330",
+      "2856283",
+      "1000420",
+      "1611010",
+      "1483070",
+      "1315840",
+      "1432840",
+      "1356690",
+      "1545790"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれの"
+        },
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1179330": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "おくさん"
+        }
+      ],
+      "1315840": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "とき"
+        }
+      ],
+      "1329650": [
+        {
+          "start": 25,
+          "length": 5,
+          "reading": "うけとった"
+        }
+      ],
+      "1356690": [
+        {
+          "start": 23,
+          "length": 1,
+          "reading": "じょう"
+        }
+      ],
+      "1432840": [
+        {
+          "start": 17,
+          "length": 1,
+          "reading": "つう"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1518540": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "なくなった"
+        }
+      ],
+      "1545790": [
+        {
+          "start": 23,
+          "length": 1,
+          "reading": "じょう"
+        }
+      ],
+      "1611010": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "なんじゅう"
+        }
+      ],
+      "2856283": [
+        {
+          "start": 20,
+          "length": 3,
+          "reading": "おくやみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1250391",
+    "original": "お悔み申し上げます。",
+    "en": [
+      {
+        "id": "54345",
+        "text": "Please accept my sympathies."
+      },
+      {
+        "id": "8817031",
+        "text": "Please accept our condolences."
+      }
+    ],
+    "vocabIds": [
+      "1362950",
+      "2856283"
+    ],
+    "matches": {
+      "1362950": [
+        {
+          "start": 3,
+          "length": 6,
+          "reading": "もうしあげます"
+        }
+      ],
+      "2856283": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "おくやみ"
+        }
+      ]
+    }
+  }
+]

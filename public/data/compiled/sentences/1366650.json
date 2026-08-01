@@ -1,0 +1,56 @@
+[
+  {
+    "id": "219868",
+    "original": "この辺りには人家がない。",
+    "en": [
+      {
+        "id": "57188",
+        "text": "There are no houses around here."
+      }
+    ],
+    "indices": "此の{この} 辺り(あたり)[01] には 人家~ が 無い{ない}",
+    "vocabIds": [
+      "2759480",
+      "1366650"
+    ],
+    "matches": {
+      "1366650": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "じんか"
+        }
+      ],
+      "2759480": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "このあたり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "224018",
+    "original": "このあたりは人家がほとんどない。",
+    "en": [
+      {
+        "id": "61354",
+        "text": "There are few houses around here."
+      }
+    ],
+    "indices": "この辺り{このあたり} は 人家 が 殆どない{ほとんどない}",
+    "vocabIds": [
+      "1366650"
+    ],
+    "matches": {
+      "1366650": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "じんか"
+        }
+      ]
+    }
+  }
+]

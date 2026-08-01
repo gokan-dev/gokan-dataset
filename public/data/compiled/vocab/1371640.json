@@ -1,0 +1,121 @@
+{
+  "id": "1371640",
+  "writtenForm": {
+    "kanji": "水上",
+    "alternatives": [],
+    "containedKanji": [
+      "水",
+      "上"
+    ]
+  },
+  "reading": {
+    "primary": "すいじょう",
+    "alternatives": [
+      "みなかみ"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 19037,
+    "kanaRank": 298479
+  },
+  "progression": {
+    "kklcStep": 41
+  },
+  "senses": [
+    {
+      "pos": [
+        "adj-no",
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "on the water",
+        "aquatic"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "waterside",
+        "water's edge"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "headwaters",
+        "source"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "みなかみ"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1371640",
+      "isBase": true,
+      "originalPrimaryReading": "すいじょう",
+      "originalGlosses": [
+        "on the water",
+        "aquatic"
+      ]
+    },
+    {
+      "id": "1736700",
+      "isBase": false,
+      "originalPrimaryReading": "みなかみ",
+      "originalGlosses": [
+        "headwaters",
+        "source"
+      ]
+    }
+  ],
+  "components": [
+    "1371260",
+    "1352130"
+  ],
+  "parents": [
+    "2184260"
+  ]
+}

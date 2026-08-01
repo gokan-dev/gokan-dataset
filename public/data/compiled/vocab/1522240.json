@@ -1,0 +1,136 @@
+{
+  "id": "1522240",
+  "writtenForm": {
+    "kanji": "本屋",
+    "alternatives": [],
+    "containedKanji": [
+      "本",
+      "屋"
+    ]
+  },
+  "reading": {
+    "primary": "ほんや",
+    "alternatives": [
+      "ほんおく"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 10064,
+    "kanaRank": 316056
+  },
+  "progression": {
+    "kklcStep": 252
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "bookstore",
+        "bookshop"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "publisher"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "main building"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "principal residence"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "ほんおく"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1522240",
+      "isBase": true,
+      "originalPrimaryReading": "ほんや",
+      "originalGlosses": [
+        "bookstore",
+        "bookshop"
+      ]
+    },
+    {
+      "id": "1522230",
+      "isBase": false,
+      "originalPrimaryReading": "ほんおく",
+      "originalGlosses": [
+        "principal residence"
+      ]
+    }
+  ],
+  "components": [
+    "1522150",
+    "2082160"
+  ],
+  "parents": [
+    "1266170"
+  ]
+}

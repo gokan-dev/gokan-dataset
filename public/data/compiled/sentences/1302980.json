@@ -1,0 +1,87 @@
+[
+  {
+    "id": "187204",
+    "original": "夏は汗をいっぱいかくので沢山水を飲まなくてはなりません。",
+    "en": [
+      {
+        "id": "24341",
+        "text": "In summer, when we sweat more often, it is essential to drink lots of water."
+      }
+    ],
+    "indices": "夏(なつ) は 汗(あせ)[01] を 一杯[03]{いっぱい} 掻く[02]{かく} ので 沢山 水(みず) を 飲む[01]{飲ま} 無くてはならない[02]{なくてはなりません}",
+    "vocabIds": [
+      "1169870",
+      "1302980",
+      "1191320",
+      "1213060",
+      "1415850"
+    ],
+    "matches": {
+      "1169870": [
+        {
+          "start": 16,
+          "length": 5,
+          "reading": "のまなくて"
+        }
+      ],
+      "1191320": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "なつ"
+        }
+      ],
+      "1213060": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "あせ"
+        }
+      ],
+      "1302980": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "さんすい"
+        }
+      ],
+      "1415850": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "さわ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12049605",
+    "original": "山水は体にいいのよ。",
+    "en": [
+      {
+        "id": "9011567",
+        "text": "Mountain water is good for the health."
+      }
+    ],
+    "vocabIds": [
+      "2864377",
+      "1302980"
+    ],
+    "matches": {
+      "1302980": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "さんすい"
+        }
+      ],
+      "2864377": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "からだにいい"
+        }
+      ]
+    }
+  }
+]

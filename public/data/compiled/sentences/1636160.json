@@ -1,0 +1,96 @@
+[
+  {
+    "id": "74365",
+    "original": "薬を飲み始めると、すぐに痛みなどの症状はとれてきますが、すぐに潰瘍がなおるわけではありません。",
+    "en": [
+      {
+        "id": "329355",
+        "text": "When you start taking medicine it begins working on symptoms, like pain, right away, but that doesn't mean that the ulcer heals right away."
+      }
+    ],
+    "indices": "薬(くすり)[01] を 飲む[01]{飲み} 始める[03] と 直ぐに{すぐに} 痛み 等(など){など} の 症状 は 取れる{とれて} 来る(くる){きます} が 直ぐに{すぐに} 潰瘍~ が 治る[01]{なおる} 訳ではない{わけではありません}",
+    "vocabIds": [
+      "1169870",
+      "1587300",
+      "1351030",
+      "1636160",
+      "1538160"
+    ],
+    "matches": {
+      "1169870": [
+        {
+          "start": 2,
+          "length": 6,
+          "reading": "のみはじめると"
+        }
+      ],
+      "1351030": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "しょうじょう"
+        }
+      ],
+      "1538160": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "くすり"
+        }
+      ],
+      "1587300": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "いたみ"
+        }
+      ],
+      "1636160": [
+        {
+          "start": 31,
+          "length": 2,
+          "reading": "かいよう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "190995",
+    "original": "胃に潰瘍が出来る。",
+    "en": [
+      {
+        "id": "28155",
+        "text": "An ulcer forms in the stomach."
+      }
+    ],
+    "indices": "胃[01] に 潰瘍 が[01] 出来る",
+    "vocabIds": [
+      "1340450",
+      "1636160",
+      "1158500"
+    ],
+    "matches": {
+      "1158500": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "い"
+        }
+      ],
+      "1340450": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "できる"
+        }
+      ],
+      "1636160": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "かいよう"
+        }
+      ]
+    }
+  }
+]

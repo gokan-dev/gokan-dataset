@@ -1,0 +1,312 @@
+[
+  {
+    "id": "76510",
+    "original": "とろ火で時間をかけて豆を炊いてください。",
+    "en": [
+      {
+        "id": "327210",
+        "text": "Please simmer the beans for a while over a low heat."
+      }
+    ],
+    "indices": "とろ火~ で(#2028980) 時間を掛ける{時間をかけて} 豆[01] を 炊く{炊いて} 下さい{ください}",
+    "vocabIds": [
+      "1596830",
+      "1950080",
+      "1315920",
+      "1450030"
+    ],
+    "matches": {
+      "1315920": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "じかん"
+        }
+      ],
+      "1450030": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "まめ"
+        }
+      ],
+      "1596830": [
+        {
+          "start": 12,
+          "length": 7,
+          "reading": "たいてください"
+        }
+      ],
+      "1950080": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "とろび"
+        }
+      ]
+    }
+  },
+  {
+    "id": "219009",
+    "original": "これがお米の炊き方です。",
+    "en": [
+      {
+        "id": "56325",
+        "text": "This is how we cook rice."
+      },
+      {
+        "id": "3144248",
+        "text": "This is how to cook rice."
+      }
+    ],
+    "indices": "此れ[01]{これ} が 御(お){お} 米(こめ)[01] の 炊く{炊き} 方(かた) です",
+    "vocabIds": [
+      "1596830",
+      "2423250"
+    ],
+    "matches": {
+      "1596830": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "たきかたです"
+        }
+      ],
+      "2423250": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "おべい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1118820",
+    "original": "まだ玄米を炊いてる途中です。",
+    "en": [
+      {
+        "id": "7873812",
+        "text": "The brown rice is still cooking."
+      }
+    ],
+    "vocabIds": [
+      "1596830",
+      "1263470",
+      "1288150",
+      "1582200"
+    ],
+    "matches": {
+      "1263470": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "げんまい"
+        }
+      ],
+      "1288150": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "げんまい"
+        }
+      ],
+      "1582200": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "とちゅう"
+        }
+      ],
+      "1596830": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "たいてる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8647416",
+    "original": "炊飯器でご飯を炊くよ。",
+    "en": [
+      {
+        "id": "8647402",
+        "text": "We cook rice in a rice cooker."
+      }
+    ],
+    "vocabIds": [
+      "1372360",
+      "1270590",
+      "1596830"
+    ],
+    "matches": {
+      "1270590": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ごはん"
+        }
+      ],
+      "1372360": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "すいはんき"
+        }
+      ],
+      "1596830": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "たく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10198422",
+    "original": "お米のおいしい炊き方知ってる？",
+    "en": [
+      {
+        "id": "54337",
+        "text": "Do you know how to cook rice well?"
+      }
+    ],
+    "vocabIds": [
+      "1420470",
+      "1596830",
+      "2423250"
+    ],
+    "matches": {
+      "1420470": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "しってる"
+        }
+      ],
+      "1596830": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "たきかた"
+        }
+      ],
+      "2423250": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おべい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9849320",
+    "original": "お祝いに赤飯でも炊こうかしら。",
+    "en": [
+      {
+        "id": "10232512",
+        "text": "As a celebration, I wonder if I should cook red rice or something?"
+      },
+      {
+        "id": "10232519",
+        "text": "To celebrate, I wonder if I should cook red rice or something?"
+      }
+    ],
+    "vocabIds": [
+      "1612770",
+      "1596830",
+      "1383580"
+    ],
+    "matches": {
+      "1383580": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "せきはん"
+        }
+      ],
+      "1596830": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "たこう"
+        }
+      ],
+      "1612770": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "おいわい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10680324",
+    "original": "お米はこうやって炊くんだ。",
+    "en": [
+      {
+        "id": "56325",
+        "text": "This is how we cook rice."
+      }
+    ],
+    "vocabIds": [
+      "2423250",
+      "1596830"
+    ],
+    "matches": {
+      "1596830": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "たく"
+        }
+      ],
+      "2423250": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おこめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10680325",
+    "original": "ご飯はこうやって炊くんだよ。",
+    "en": [
+      {
+        "id": "56325",
+        "text": "This is how we cook rice."
+      },
+      {
+        "id": "10680326",
+        "text": "This is how you cook rice."
+      }
+    ],
+    "vocabIds": [
+      "1270590",
+      "1596830"
+    ],
+    "matches": {
+      "1270590": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ごはん"
+        }
+      ],
+      "1596830": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "たく"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,126 @@
+[
+  {
+    "id": "75715",
+    "original": "便座におしっこしちゃったら、ちゃんと拭くのよ！",
+    "en": [
+      {
+        "id": "328003",
+        "text": "If you piss on the toilet seat, wipe it off!"
+      }
+    ],
+    "indices": "便座~ に おしっこ[01]~ 為る(する){し} じゃう{ちゃったら} ちゃんと 拭く の よ",
+    "vocabIds": [
+      "1512510",
+      "1357240"
+    ],
+    "matches": {
+      "1357240": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "ふく"
+        }
+      ],
+      "1512510": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "べんざ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "236506",
+    "original": "「トイレの便座からエイズが感染することってあるの？」「いいえ、ありません」",
+    "en": [
+      {
+        "id": "73848",
+        "text": "\"Is it possible to catch AIDS from toilet seats?\" \"No, it isn't.\""
+      }
+    ],
+    "indices": "トイレ の 便座 から ＡＩＤＳ{エイズ} が 感染~ 為る(する){する} 事(こと){こと} って 有る{ある} の いいえ(#1583250)[01] 有る{ありません}",
+    "vocabIds": [
+      "1512510",
+      "1212470"
+    ],
+    "matches": {
+      "1212470": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "かんせん"
+        }
+      ],
+      "1512510": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "べんざ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1502351",
+    "original": "携帯電話と便座は同じくらいの菌に汚染されている。",
+    "en": [
+      {
+        "id": "10250986",
+        "text": "A cell phone is as contaminated with bacteria as a toilet is."
+      }
+    ],
+    "vocabIds": [
+      "2068060",
+      "1250690",
+      "1512510",
+      "1179040",
+      "1416010",
+      "1956120"
+    ],
+    "matches": {
+      "1179040": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "おせん"
+        }
+      ],
+      "1250690": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "けいたいでんわ"
+        }
+      ],
+      "1416010": [
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "きん"
+        }
+      ],
+      "1512510": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "べんざ"
+        }
+      ],
+      "1956120": [
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "きん"
+        }
+      ],
+      "2068060": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "おなじくらい"
+        }
+      ]
+    }
+  }
+]

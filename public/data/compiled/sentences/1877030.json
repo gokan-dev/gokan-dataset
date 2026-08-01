@@ -1,0 +1,79 @@
+[
+  {
+    "id": "174692",
+    "original": "言葉の壁にもかかわらず、私たちはすぐに友達になった。",
+    "en": [
+      {
+        "id": "239776",
+        "text": "In spite of the language difficulty, we soon became friends."
+      }
+    ],
+    "indices": "言葉 の 壁[01] にも関わらず{にもかかわらず} 私たち は 直ぐに{すぐに} 友達 になる[01]{になった}",
+    "vocabIds": [
+      "1877030",
+      "1311300",
+      "1540170"
+    ],
+    "matches": {
+      "1311300": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1540170": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "ともだち"
+        }
+      ],
+      "1877030": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "ことばのかべ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2266748",
+    "original": "笑顔は言葉の壁を越える。",
+    "en": [
+      {
+        "id": "1398514",
+        "text": "Everyone smiles in the same language."
+      }
+    ],
+    "vocabIds": [
+      "1877030",
+      "1593070",
+      "1351400"
+    ],
+    "matches": {
+      "1351400": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "えがお"
+        }
+      ],
+      "1593070": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "こえる"
+        }
+      ],
+      "1877030": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "ことばのかべ"
+        }
+      ]
+    }
+  }
+]

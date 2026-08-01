@@ -1,0 +1,99 @@
+[
+  {
+    "id": "121984",
+    "original": "猫に九生あり。",
+    "en": [
+      {
+        "id": "282019",
+        "text": "A cat has nine lives."
+      },
+      {
+        "id": "453045",
+        "text": "Cats have nine lives."
+      }
+    ],
+    "indices": "猫(ねこ)[01] に 九生~ 有る{あり}",
+    "vocabIds": [
+      "2016300",
+      "1467640"
+    ],
+    "matches": {
+      "1467640": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ねこ"
+        }
+      ],
+      "2016300": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きゅうせい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1633064",
+    "original": "昔の物語によると猫に九生有りと言われています。",
+    "en": [
+      {
+        "id": "1636142",
+        "text": "According to folktales, cats have nine lives."
+      }
+    ],
+    "vocabIds": [
+      "1502480",
+      "2016300",
+      "1296400",
+      "1587040",
+      "1382370",
+      "1467640"
+    ],
+    "matches": {
+      "1296400": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "あり"
+        }
+      ],
+      "1382370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "むかし"
+        }
+      ],
+      "1467640": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "ねこ"
+        }
+      ],
+      "1502480": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ものがたり"
+        }
+      ],
+      "1587040": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "いわ"
+        }
+      ],
+      "2016300": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "きゅうなま"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,101 @@
+{
+  "id": "1232930",
+  "writtenForm": {
+    "kanji": "鋸",
+    "alternatives": [],
+    "containedKanji": [
+      "鋸"
+    ]
+  },
+  "reading": {
+    "primary": "のこぎり",
+    "alternatives": [
+      "ノコギリ",
+      "のこ",
+      "ノコ"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 28611,
+    "kanaRank": 40600
+  },
+  "jlptLevel": 1,
+  "progression": {
+    "kklcStep": 99999
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "saw"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": true,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "col",
+          "abbr"
+        ]
+      },
+      "glosses": [
+        "saw"
+      ],
+      "related": {
+        "compounds": [
+          "鋸"
+        ]
+      },
+      "appliesToReadings": [
+        "のこ"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": true
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1232930",
+      "isBase": true,
+      "originalPrimaryReading": "のこぎり",
+      "originalGlosses": [
+        "saw"
+      ]
+    },
+    {
+      "id": "2866084",
+      "isBase": false,
+      "originalPrimaryReading": "のこ",
+      "originalGlosses": [
+        "saw"
+      ]
+    }
+  ],
+  "parents": [
+    "1825600"
+  ]
+}

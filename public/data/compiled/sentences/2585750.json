@@ -1,0 +1,87 @@
+[
+  {
+    "id": "78871",
+    "original": "洋服店を開こうというトムの努力は水の泡になった。",
+    "en": [
+      {
+        "id": "324845",
+        "text": "Tom's efforts to open a clothing store went up in smoke."
+      }
+    ],
+    "indices": "洋服 店(てん) を[01] 開く(ひらく)[01]{開こう} と 言う{いう} の 努力 は 水の泡[02] になる[01]{になった}",
+    "vocabIds": [
+      "2585750",
+      "2011660",
+      "1202440",
+      "1445130"
+    ],
+    "matches": {
+      "1202440": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "ひらこう"
+        }
+      ],
+      "1445130": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "どりょく"
+        }
+      ],
+      "2011660": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "みずのあわ"
+        }
+      ],
+      "2585750": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ようふくてん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11582987",
+    "original": "姉は、街中の洋服店でパートをしてます。",
+    "en": [
+      {
+        "id": "10817985",
+        "text": "My sister works part-time at a clothing store downtown."
+      }
+    ],
+    "vocabIds": [
+      "2585750",
+      "1611620",
+      "1307630"
+    ],
+    "matches": {
+      "1307630": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "あね"
+        }
+      ],
+      "1611620": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "まちちゅう"
+        }
+      ],
+      "2585750": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "ようふくてん"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,174 @@
+[
+  {
+    "id": "227385",
+    "original": "お菓子で赤ちゃんが窒息するところだった。",
+    "en": [
+      {
+        "id": "64737",
+        "text": "The baby almost choked on a piece of candy."
+      }
+    ],
+    "indices": "お菓子~ で(#2028980) 赤ちゃん が 窒息~ 為る(する){する} 所(ところ)[09]{ところ} だ{だった}",
+    "vocabIds": [
+      "1383260",
+      "1001710",
+      "1422540"
+    ],
+    "matches": {
+      "1001710": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "おかし"
+        }
+      ],
+      "1383260": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "あかちゃん"
+        }
+      ],
+      "1422540": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "ちっそく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "464094",
+    "original": "彼は煙に巻かれて窒息した。",
+    "en": [
+      {
+        "id": "506785",
+        "text": "He suffocated, smothered in smoke."
+      }
+    ],
+    "indices": "彼(かれ) は 煙 に 巻く{巻かれて} 窒息 為る(する){した}",
+    "vocabIds": [
+      "1211200",
+      "1422540",
+      "1000420",
+      "1483070",
+      "1177180"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1177180": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "けむり"
+        }
+      ],
+      "1211200": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "まか"
+        }
+      ],
+      "1422540": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "ちっそく"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10605848",
+    "original": "小さな子どもは、たった５ｃｍの深さの水で溺れ窒息してしまう可能性があります。",
+    "en": [
+      {
+        "id": "10605849",
+        "text": "With small children, there's a risk of drowning even with water as low as 5 centimeters deep."
+      }
+    ],
+    "vocabIds": [
+      "2136180",
+      "1307850",
+      "1191080",
+      "1437560",
+      "1362640",
+      "1422540",
+      "1268060",
+      "1371260"
+    ],
+    "matches": {
+      "1191080": [
+        {
+          "start": 29,
+          "length": 3,
+          "reading": "かのうせい"
+        }
+      ],
+      "1268060": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "ご"
+        }
+      ],
+      "1307850": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "こども"
+        }
+      ],
+      "1362640": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "ふかさ"
+        }
+      ],
+      "1371260": [
+        {
+          "start": 18,
+          "length": 1,
+          "reading": "みず"
+        }
+      ],
+      "1422540": [
+        {
+          "start": 22,
+          "length": 2,
+          "reading": "ちっそく"
+        }
+      ],
+      "1437560": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "おぼれ"
+        }
+      ],
+      "2136180": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ちいさな"
+        }
+      ]
+    }
+  }
+]

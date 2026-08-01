@@ -1,0 +1,33 @@
+[
+  {
+    "id": "223851",
+    "original": "このクラスの平均年齢は何歳ですか。",
+    "en": [
+      {
+        "id": "61186",
+        "text": "What is the average age of this class?"
+      }
+    ],
+    "indices": "此の{この} クラス の 平均[01] 年齢 は 何歳 ですか",
+    "vocabIds": [
+      "2620290",
+      "1188730"
+    ],
+    "matches": {
+      "1188730": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "なんさい"
+        }
+      ],
+      "2620290": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "へいきんねんれい"
+        }
+      ]
+    }
+  }
+]

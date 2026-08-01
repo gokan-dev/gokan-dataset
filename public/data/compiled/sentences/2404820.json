@@ -1,0 +1,103 @@
+[
+  {
+    "id": "226367",
+    "original": "ガソリン代が高くなってきたので、車を手放さなければならなかった。",
+    "en": [
+      {
+        "id": "63710",
+        "text": "Gasoline became so expensive that we had to let our car go."
+      }
+    ],
+    "indices": "ガソリン代~ が 高い[02]{高く} 成る[01]{なって} 来る(くる){きた} ので 車(くるま) を 手放す{手放さ} ねばならない{なければならなかった}",
+    "vocabIds": [
+      "1328370",
+      "2404820",
+      "1283190",
+      "1323080"
+    ],
+    "matches": {
+      "1283190": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "たかく"
+        }
+      ],
+      "1323080": [
+        {
+          "start": 16,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1328370": [
+        {
+          "start": 18,
+          "length": 13,
+          "reading": "てばなさなければならなかった"
+        }
+      ],
+      "2404820": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "がそりんだい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10637228",
+    "original": "ここ最近、原油価格が高騰していて、ガソリン代が鰻登りです。",
+    "en": [
+      {
+        "id": "10637320",
+        "text": "Recently, the price of crude oil has shot up, and the cost of gasoline is going up."
+      }
+    ],
+    "vocabIds": [
+      "2404820",
+      "1992080",
+      "1588360",
+      "1293780",
+      "1283870"
+    ],
+    "matches": {
+      "1283870": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "こうとう"
+        }
+      ],
+      "1293780": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "さいきん"
+        }
+      ],
+      "1588360": [
+        {
+          "start": 23,
+          "length": 3,
+          "reading": "うなぎのぼり"
+        }
+      ],
+      "1992080": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "げんゆかかく"
+        }
+      ],
+      "2404820": [
+        {
+          "start": 17,
+          "length": 5,
+          "reading": "がそりんだい"
+        }
+      ]
+    }
+  }
+]

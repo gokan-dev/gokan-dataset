@@ -1,0 +1,105 @@
+[
+  {
+    "id": "229284",
+    "original": "いかなる非常時にもホームズさんはいつも頼りになる。",
+    "en": [
+      {
+        "id": "66642",
+        "text": "You can always count on Holmes in any emergency."
+      }
+    ],
+    "indices": "如何なる{いかなる} 非常時~ にも ホームズ さん[01] は 何時も[01]{いつも} 頼りになる",
+    "vocabIds": [
+      "2139790",
+      "1688740"
+    ],
+    "matches": {
+      "1688740": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "ひじょうじ"
+        }
+      ],
+      "2139790": [
+        {
+          "start": 19,
+          "length": 5,
+          "reading": "たよりになる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9640581",
+    "original": "非常時の備えはしておいた方がいいですよ。",
+    "en": [
+      {
+        "id": "318636",
+        "text": "You should be prepared for emergencies."
+      }
+    ],
+    "vocabIds": [
+      "2160680",
+      "1688740",
+      "1485630"
+    ],
+    "matches": {
+      "1485630": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "そなえ"
+        }
+      ],
+      "1688740": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ひじょうじ"
+        }
+      ],
+      "2160680": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "ほうがいい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11796805",
+    "original": "非常時の備えはしていますか？",
+    "en": [
+      {
+        "id": "6062358",
+        "text": "Are you prepared for an emergency?"
+      },
+      {
+        "id": "12354065",
+        "text": "Are you prepared for emergencies?"
+      }
+    ],
+    "vocabIds": [
+      "1688740",
+      "1485630"
+    ],
+    "matches": {
+      "1485630": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "そなえ"
+        }
+      ],
+      "1688740": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ひじょうじ"
+        }
+      ]
+    }
+  }
+]

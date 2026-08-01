@@ -1,0 +1,79 @@
+[
+  {
+    "id": "122962",
+    "original": "日が差すと部屋が明るくなる。",
+    "en": [
+      {
+        "id": "281040",
+        "text": "Sunlight brightens the room."
+      }
+    ],
+    "indices": "日が差す と 部屋[01] が 明るい[01]{明るく} 成る[01]{なる}",
+    "vocabIds": [
+      "2273190",
+      "1532350",
+      "1499320"
+    ],
+    "matches": {
+      "1499320": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "へや"
+        }
+      ],
+      "1532350": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "あかるく"
+        }
+      ],
+      "2273190": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "ひがさす"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12403325",
+    "original": "瞳孔は陽が差すところでは収縮します。",
+    "en": [
+      {
+        "id": "247412",
+        "text": "The pupils of the eyes contract in sunlight."
+      }
+    ],
+    "vocabIds": [
+      "2273190",
+      "1453910",
+      "1330670"
+    ],
+    "matches": {
+      "1330670": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "しゅうしゅく"
+        }
+      ],
+      "1453910": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "どうこう"
+        }
+      ],
+      "2273190": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "ひがさす"
+        }
+      ]
+    }
+  }
+]

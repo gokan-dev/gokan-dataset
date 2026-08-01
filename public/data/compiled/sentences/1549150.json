@@ -1,0 +1,63 @@
+[
+  {
+    "id": "78500",
+    "original": "卵の殻は壊れやすい。",
+    "en": [
+      {
+        "id": "325215",
+        "text": "The shell of an egg is easily broken."
+      }
+    ],
+    "indices": "卵(たまご)[01] の 殻(から) は 壊れる[01]{壊れ} 易い{やすい}",
+    "vocabIds": [
+      "1549150",
+      "1199900"
+    ],
+    "matches": {
+      "1199900": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "こわれ"
+        }
+      ],
+      "1549150": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "たまごのから"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11199044",
+    "original": "この卵の殻、どこに捨てればいい？",
+    "en": [
+      {
+        "id": "10919103",
+        "text": "Where can I throw this eggshell?"
+      }
+    ],
+    "vocabIds": [
+      "1322320",
+      "1549150"
+    ],
+    "matches": {
+      "1322320": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "すてれば"
+        }
+      ],
+      "1549150": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "たまごのから"
+        }
+      ]
+    }
+  }
+]

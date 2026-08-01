@@ -1,0 +1,108 @@
+{
+  "id": "1186030",
+  "writtenForm": {
+    "kanji": "下等",
+    "alternatives": [],
+    "containedKanji": [
+      "下",
+      "等"
+    ]
+  },
+  "reading": {
+    "primary": "かとう",
+    "alternatives": [
+      "げら"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 18314
+  },
+  "progression": {
+    "kklcStep": 393
+  },
+  "senses": [
+    {
+      "pos": [
+        "adj-na",
+        "adj-no",
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "inferior",
+        "base",
+        "vulgar",
+        "low grade",
+        "lower class"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "pn"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch",
+          "hum"
+        ]
+      },
+      "glosses": [
+        "I",
+        "me"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "げら"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1186030",
+      "isBase": true,
+      "originalPrimaryReading": "かとう",
+      "originalGlosses": [
+        "inferior",
+        "base",
+        "vulgar"
+      ]
+    },
+    {
+      "id": "2567250",
+      "isBase": false,
+      "originalPrimaryReading": "げら",
+      "originalGlosses": [
+        "I",
+        "me"
+      ]
+    }
+  ],
+  "components": [
+    "1184140",
+    "1582305"
+  ],
+  "parents": [
+    "1186050"
+  ]
+}

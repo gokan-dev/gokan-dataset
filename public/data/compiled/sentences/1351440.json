@@ -1,0 +1,56 @@
+[
+  {
+    "id": "146346",
+    "original": "紹介者はいらっしゃいますか。",
+    "en": [
+      {
+        "id": "268216",
+        "text": "Did anybody recommend us to you?"
+      }
+    ],
+    "indices": "紹介者~ は 居らっしゃる(いらっしゃる){いらっしゃいます} か",
+    "vocabIds": [
+      "1351440"
+    ],
+    "matches": {
+      "1351440": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "しょうかいしゃ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "146347",
+    "original": "紹介者のお名前は？",
+    "en": [
+      {
+        "id": "268215",
+        "text": "What's the name of the person who recommended us to you?"
+      }
+    ],
+    "indices": "紹介者 の 御(お){お} 名前 は",
+    "vocabIds": [
+      "1351440",
+      "2853328"
+    ],
+    "matches": {
+      "1351440": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "しょうかいしゃ"
+        }
+      ],
+      "2853328": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "おなまえ"
+        }
+      ]
+    }
+  }
+]

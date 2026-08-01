@@ -1,0 +1,88 @@
+[
+  {
+    "id": "137303",
+    "original": "大売り出しは今日から３日間続く。",
+    "en": [
+      {
+        "id": "275933",
+        "text": "The bargain sale will run for three days, beginning today."
+      }
+    ],
+    "indices": "大売り出し~ は 今日 から[01] 三日間{３日間} 続く",
+    "vocabIds": [
+      "1588850",
+      "1579110",
+      "2827650",
+      "1405790",
+      "1579350"
+    ],
+    "matches": {
+      "1405790": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "つづく"
+        }
+      ],
+      "1579110": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "きょう"
+        }
+      ],
+      "1579350": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "さん"
+        }
+      ],
+      "1588850": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "おおうりだし"
+        }
+      ],
+      "2827650": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "にちかん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "184914",
+    "original": "開店大売り出し。",
+    "en": [
+      {
+        "id": "22045",
+        "text": "Grand opening sale."
+      }
+    ],
+    "indices": "開店 大売り出し",
+    "vocabIds": [
+      "1588850",
+      "1202870"
+    ],
+    "matches": {
+      "1202870": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かいてん"
+        }
+      ],
+      "1588850": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "おおうりだし"
+        }
+      ]
+    }
+  }
+]

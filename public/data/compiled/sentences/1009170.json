@@ -1,0 +1,108 @@
+[
+  {
+    "id": "200700",
+    "original": "どちら様ですか。",
+    "en": [
+      {
+        "id": "37901",
+        "text": "Who is this, please?"
+      }
+    ],
+    "indices": "どちら様[01]~ ですか",
+    "vocabIds": [
+      "1009170"
+    ],
+    "matches": {
+      "1009170": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "どちらさま"
+        }
+      ]
+    }
+  },
+  {
+    "id": "200701",
+    "original": "どちら様でしょうか。",
+    "en": [
+      {
+        "id": "37903",
+        "text": "Who is calling, please?"
+      }
+    ],
+    "indices": "どちら様[01] でしょうか",
+    "vocabIds": [
+      "1009170"
+    ],
+    "matches": {
+      "1009170": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "どちらさま"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9594385",
+    "original": "もしもし、どちら様ですか？",
+    "en": [
+      {
+        "id": "9015749",
+        "text": "Hello! Who am I speaking with?"
+      }
+    ],
+    "vocabIds": [
+      "1009170"
+    ],
+    "matches": {
+      "1009170": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "どちらさま"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11924179",
+    "original": "どちら様ですか？申し訳ありませんが、心当たりがないんですが。",
+    "en": [
+      {
+        "id": "10151167",
+        "text": "Who are you? Sorry, I don't remember you."
+      }
+    ],
+    "vocabIds": [
+      "1612030",
+      "2099690",
+      "1009170"
+    ],
+    "matches": {
+      "1009170": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "どちらさま"
+        }
+      ],
+      "1612030": [
+        {
+          "start": 8,
+          "length": 8,
+          "reading": "もうしわけありません"
+        }
+      ],
+      "2099690": [
+        {
+          "start": 18,
+          "length": 7,
+          "reading": "こころあたりがない"
+        }
+      ]
+    }
+  }
+]

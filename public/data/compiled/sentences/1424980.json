@@ -1,0 +1,220 @@
+[
+  {
+    "id": "126453",
+    "original": "中庭に小さな菜園があります。",
+    "en": [
+      {
+        "id": "277536",
+        "text": "I have a small vegetable garden on my patio."
+      }
+    ],
+    "indices": "中庭 に 小さな 菜園 が[01] 有る{あります}",
+    "vocabIds": [
+      "2136180",
+      "1424980",
+      "1295850"
+    ],
+    "matches": {
+      "1295850": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "さいえん"
+        }
+      ],
+      "1424980": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "なかにわ"
+        }
+      ],
+      "2136180": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "ちいさな"
+        }
+      ]
+    }
+  },
+  {
+    "id": "126454",
+    "original": "中庭の席がありますか。",
+    "en": [
+      {
+        "id": "277537",
+        "text": "Do you have a table in the patio?"
+      },
+      {
+        "id": "502617",
+        "text": "Do you have a table on the patio?"
+      }
+    ],
+    "indices": "中庭~ の 席(せき) が[01] 有る{あります} か",
+    "vocabIds": [
+      "1424980",
+      "1382250",
+      "1604880"
+    ],
+    "matches": {
+      "1382250": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "せき"
+        }
+      ],
+      "1424980": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "なかにわ"
+        }
+      ],
+      "1604880": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "せき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "126455",
+    "original": "中庭に小さい池がある。",
+    "en": [
+      {
+        "id": "277535",
+        "text": "There is a small pond in the court."
+      }
+    ],
+    "indices": "中庭 に 小さい 池 が[01] 有る{ある}",
+    "vocabIds": [
+      "1347750",
+      "1424980",
+      "1421700"
+    ],
+    "matches": {
+      "1347750": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "ちいさい"
+        }
+      ],
+      "1421700": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "いけ"
+        }
+      ],
+      "1424980": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "なかにわ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "137803",
+    "original": "台風で中庭の木が倒れたんだ。",
+    "en": [
+      {
+        "id": "275433",
+        "text": "The typhoon caused a tree to tumble on my yard."
+      },
+      {
+        "id": "679026",
+        "text": "The typhoon knocked down a tree in my yard."
+      }
+    ],
+    "indices": "台風 で(#2028980) 中庭 の 木(き) が 倒れる[01]{倒れたんだ}",
+    "vocabIds": [
+      "1445790",
+      "1596780",
+      "1424980",
+      "1534520"
+    ],
+    "matches": {
+      "1424980": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "なかにわ"
+        }
+      ],
+      "1445790": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "たおれた"
+        }
+      ],
+      "1534520": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "き"
+        }
+      ],
+      "1596780": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "たいふう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2160129",
+    "original": "私たちは中庭で食べることができると思っていました。",
+    "en": [
+      {
+        "id": "1961556",
+        "text": "I thought we could eat out on the patio."
+      }
+    ],
+    "vocabIds": [
+      "1589350",
+      "1311300",
+      "1358280",
+      "1424980"
+    ],
+    "matches": {
+      "1311300": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1358280": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "たべる"
+        }
+      ],
+      "1424980": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "なかにわ"
+        }
+      ],
+      "1589350": [
+        {
+          "start": 17,
+          "length": 7,
+          "reading": "おもっていました"
+        }
+      ]
+    }
+  }
+]

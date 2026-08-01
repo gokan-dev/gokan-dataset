@@ -1,0 +1,104 @@
+[
+  {
+    "id": "170291",
+    "original": "祭日が日曜にダブると月曜が休みになる。",
+    "en": [
+      {
+        "id": "244192",
+        "text": "When a holiday falls on Sunday, we have an extra holiday on Monday."
+      }
+    ],
+    "indices": "祭日 が 日曜 に ダブる[02]~ と 月曜 が 休み[02] になる[01]",
+    "vocabIds": [
+      "1295310",
+      "1464880",
+      "1255880",
+      "1227500"
+    ],
+    "matches": {
+      "1227500": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "やすみ"
+        }
+      ],
+      "1255880": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "げつよう"
+        }
+      ],
+      "1295310": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "さいじつ"
+        }
+      ],
+      "1464880": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "にちよう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "172166",
+    "original": "今度の祭日は日曜日と重なります。",
+    "en": [
+      {
+        "id": "242309",
+        "text": "The next holiday falls on a Sunday."
+      }
+    ],
+    "indices": "今度 の 祭日~ は 日曜日 と 重なる(かさなる){重なります}",
+    "vocabIds": [
+      "1335800",
+      "1589400",
+      "1464900",
+      "1289370",
+      "1295310"
+    ],
+    "matches": {
+      "1289370": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こんど"
+        }
+      ],
+      "1295310": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "さいじつ"
+        }
+      ],
+      "1335800": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "かさなります"
+        }
+      ],
+      "1464900": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "にちようび"
+        }
+      ],
+      "1589400": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "かさなります"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,196 @@
+[
+  {
+    "id": "194190",
+    "original": "もう子供達は寝てもよい時間だ。",
+    "en": [
+      {
+        "id": "2720192",
+        "text": "It's time the kids went to bed."
+      }
+    ],
+    "indices": "もう 子供たち{子供達} は 寝る{寝て} も 良い{よい} 時間 だ",
+    "vocabIds": [
+      "2839738",
+      "1307870",
+      "1360010"
+    ],
+    "matches": {
+      "1307870": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "こどもたち"
+        }
+      ],
+      "1360010": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ねて"
+        }
+      ],
+      "2839738": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "よいじかん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "194195",
+    "original": "もう子どもは寝てもよい時間だ。",
+    "en": [
+      {
+        "id": "31365",
+        "text": "It's high time the children went to bed."
+      }
+    ],
+    "indices": "もう 子供{子ども} は 寝る[02]{寝て} も 良い{よい} 時間 だ",
+    "vocabIds": [
+      "2839738",
+      "1307850",
+      "1360010"
+    ],
+    "matches": {
+      "1307850": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "こども"
+        }
+      ],
+      "1360010": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ねて"
+        }
+      ],
+      "2839738": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "よいじかん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "204460",
+    "original": "そろそろ子供たちを寝かせてもよい時間だ。",
+    "en": [
+      {
+        "id": "41702",
+        "text": "It's about time you sent the children to bed."
+      }
+    ],
+    "indices": "そろそろ 子供たち を 寝かせる[01]{寝かせて} も 良い{よい} 時間 だ",
+    "vocabIds": [
+      "1307870",
+      "1359970",
+      "2839738"
+    ],
+    "matches": {
+      "1307870": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "こどもたち"
+        }
+      ],
+      "1359970": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "ねかせて"
+        }
+      ],
+      "2839738": [
+        {
+          "start": 14,
+          "length": 4,
+          "reading": "よいじかん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "204471",
+    "original": "そろそろテーブルを片づけ始めてよい時間だよ。",
+    "en": [
+      {
+        "id": "41713",
+        "text": "It's about time you set about cleaning the table."
+      }
+    ],
+    "indices": "そろそろ テーブル を 片付ける[01]{片づけ} 始める[03]{始めて} 良い{よい} 時間 だ よ[01]",
+    "vocabIds": [
+      "1511790",
+      "2839738"
+    ],
+    "matches": {
+      "1511790": [
+        {
+          "start": 9,
+          "length": 6,
+          "reading": "かたづけはじめて"
+        }
+      ],
+      "2839738": [
+        {
+          "start": 15,
+          "length": 4,
+          "reading": "よいじかん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "7477568",
+    "original": "僕らは昨日とてもいい時間を過ごした。",
+    "en": [
+      {
+        "id": "7476875",
+        "text": "We had a good time yesterday."
+      }
+    ],
+    "vocabIds": [
+      "2839738",
+      "1196000",
+      "1521410",
+      "1579260"
+    ],
+    "matches": {
+      "1196000": [
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "すごした"
+        }
+      ],
+      "1521410": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ぼくら"
+        }
+      ],
+      "1579260": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "きのう"
+        }
+      ],
+      "2839738": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "いいじかん"
+        }
+      ]
+    }
+  }
+]

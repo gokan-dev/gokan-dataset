@@ -1,0 +1,64 @@
+[
+  {
+    "id": "145107",
+    "original": "新聞広告を見て来ました。",
+    "en": [
+      {
+        "id": "269456",
+        "text": "I have come in response to your ad in the paper."
+      }
+    ],
+    "indices": "新聞広告 を 見る{見て} 来る(くる)[01]{来ました}",
+    "vocabIds": [
+      "1259290",
+      "1362380"
+    ],
+    "matches": {
+      "1259290": [
+        {
+          "start": 5,
+          "length": 6,
+          "reading": "みてきました"
+        }
+      ],
+      "1362380": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "しんぶんこうこく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "228581",
+    "original": "いなくなった犬を新聞広告によってみつけた。",
+    "en": [
+      {
+        "id": "65939",
+        "text": "I found my lost dog by means of a notice in the paper."
+      }
+    ],
+    "indices": "いなくなる{いなくなった} 犬[01] を 新聞広告~ に因って{によって} 見つける{みつけた}",
+    "vocabIds": [
+      "1362380",
+      "1258330"
+    ],
+    "matches": {
+      "1258330": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "いぬ"
+        }
+      ],
+      "1362380": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "しんぶんこうこく"
+        }
+      ]
+    }
+  }
+]

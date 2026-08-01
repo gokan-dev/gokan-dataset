@@ -1,0 +1,64 @@
+[
+  {
+    "id": "223012",
+    "original": "このレコード視聴できますか。",
+    "en": [
+      {
+        "id": "60343",
+        "text": "Can I hear a little bit of this record?"
+      }
+    ],
+    "indices": "此の{この} レコード[01] 視聴 出来る{できます} か",
+    "vocabIds": [
+      "1312070"
+    ],
+    "matches": {
+      "1312070": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "しちょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "225803",
+    "original": "キューバの若い人達はよくアメリカのテレビを視聴している。",
+    "en": [
+      {
+        "id": "63141",
+        "text": "Younger Cubans tend to tune into the American television network."
+      }
+    ],
+    "indices": "玖馬{キューバ}~ の 若い 人達 は 良く{よく} 亜米利加{アメリカ} の テレビ を 視聴~ 為る(する){している}",
+    "vocabIds": [
+      "1324300",
+      "1368740",
+      "1312070"
+    ],
+    "matches": {
+      "1312070": [
+        {
+          "start": 21,
+          "length": 2,
+          "reading": "しちょう"
+        }
+      ],
+      "1324300": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "わかい"
+        }
+      ],
+      "1368740": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ひとたち"
+        }
+      ]
+    }
+  }
+]

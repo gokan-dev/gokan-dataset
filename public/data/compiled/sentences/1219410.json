@@ -1,0 +1,245 @@
+[
+  {
+    "id": "179284",
+    "original": "偶数掛ける奇数は偶数、奇数掛ける奇数は奇数。",
+    "en": [
+      {
+        "id": "18141",
+        "text": "Even times odd is even, odd times odd is odd."
+      }
+    ],
+    "indices": "偶数 掛ける[05] 奇数 は 偶数 奇数 掛ける[05] 奇数 は 奇数",
+    "vocabIds": [
+      "1207610",
+      "1246250",
+      "1219410"
+    ],
+    "matches": {
+      "1207610": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "かける"
+        },
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "かける"
+        }
+      ],
+      "1219410": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "きすう"
+        },
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "きすう"
+        },
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "きすう"
+        },
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "きすう"
+        }
+      ],
+      "1246250": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ぐうすう"
+        },
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "ぐうすう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "183521",
+    "original": "奇数と偶数は交互に現れる。",
+    "en": [
+      {
+        "id": "20644",
+        "text": "Odd numbers alternate with even ones."
+      }
+    ],
+    "indices": "奇数 と 偶数 は 交互 に 現れる[01]",
+    "vocabIds": [
+      "2846444",
+      "1263510",
+      "1219410",
+      "1246250"
+    ],
+    "matches": {
+      "1219410": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きすう"
+        }
+      ],
+      "1246250": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ぐうすう"
+        }
+      ],
+      "1263510": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "あらわれる"
+        }
+      ],
+      "2846444": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "こうごに"
+        }
+      ]
+    }
+  },
+  {
+    "id": "236125",
+    "original": "１、３そして５は奇数です。",
+    "en": [
+      {
+        "id": "73502",
+        "text": "One, three, and five are odd numbers."
+      }
+    ],
+    "indices": "而して{そして} は 奇数 です",
+    "vocabIds": [
+      "1219410",
+      "1160790",
+      "1579350",
+      "1268060"
+    ],
+    "matches": {
+      "1160790": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "いち"
+        }
+      ],
+      "1219410": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "きすう"
+        }
+      ],
+      "1268060": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "ご"
+        }
+      ],
+      "1579350": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "さん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "236127",
+    "original": "１、３、５は奇数である。",
+    "en": [
+      {
+        "id": "73502",
+        "text": "One, three, and five are odd numbers."
+      }
+    ],
+    "indices": "は 奇数~ である",
+    "vocabIds": [
+      "1219410",
+      "1160790",
+      "1579350",
+      "1268060"
+    ],
+    "matches": {
+      "1160790": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "いち"
+        }
+      ],
+      "1219410": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "きすう"
+        }
+      ],
+      "1268060": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "ご"
+        }
+      ],
+      "1579350": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "さん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10181718",
+    "original": "１と３は、奇数です。",
+    "en": [
+      {
+        "id": "8576535",
+        "text": "One and three are odd numbers."
+      }
+    ],
+    "vocabIds": [
+      "1219410",
+      "1160790",
+      "1579350"
+    ],
+    "matches": {
+      "1160790": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "いち"
+        }
+      ],
+      "1219410": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "きすう"
+        }
+      ],
+      "1579350": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "さん"
+        }
+      ]
+    }
+  }
+]

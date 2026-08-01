@@ -1,0 +1,160 @@
+{
+  "id": "1596420",
+  "writtenForm": {
+    "kanji": "早々",
+    "alternatives": [
+      "早早"
+    ],
+    "containedKanji": [
+      "早"
+    ]
+  },
+  "reading": {
+    "primary": "そうそう",
+    "alternatives": [
+      "はやはや",
+      "はやばや"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 3883,
+    "kanaRank": 33401
+  },
+  "progression": {
+    "kklcStep": 143
+  },
+  "senses": [
+    {
+      "pos": [
+        "n-suf",
+        "n",
+        "adv"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "as soon as ...",
+        "just after ...",
+        "immediately after ..."
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "adv"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "hurriedly",
+        "in haste",
+        "quickly",
+        "promptly",
+        "early"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "adv"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "quickly"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "はやはや"
+      ]
+    },
+    {
+      "pos": [
+        "adv",
+        "adv-to"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "early",
+        "quickly",
+        "promptly"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "はやばや"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1596420",
+      "isBase": true,
+      "originalPrimaryReading": "そうそう",
+      "originalGlosses": [
+        "as soon as ...",
+        "just after ...",
+        "immediately after ..."
+      ]
+    },
+    {
+      "id": "2659700",
+      "isBase": false,
+      "originalPrimaryReading": "はやはや",
+      "originalGlosses": [
+        "quickly"
+      ]
+    },
+    {
+      "id": "2659710",
+      "isBase": false,
+      "originalPrimaryReading": "はやばや",
+      "originalGlosses": [
+        "early",
+        "quickly",
+        "promptly"
+      ]
+    }
+  ],
+  "components": [
+    "1956580"
+  ]
+}

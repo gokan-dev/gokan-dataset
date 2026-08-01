@@ -1,0 +1,92 @@
+[
+  {
+    "id": "219165",
+    "original": "この列車は各駅に停車する。",
+    "en": [
+      {
+        "id": "56480",
+        "text": "This train stops at every station."
+      },
+      {
+        "id": "430160",
+        "text": "This train stops at all stations."
+      }
+    ],
+    "indices": "此の{この} 列車 は 各駅~ に 停車~ 為る(する){する}",
+    "vocabIds": [
+      "1558370",
+      "1204890",
+      "1434960"
+    ],
+    "matches": {
+      "1204890": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "かくえき"
+        }
+      ],
+      "1434960": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "ていしゃ"
+        }
+      ],
+      "1558370": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "れっしゃ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "220384",
+    "original": "この電車は中野より先は各駅に停車する。",
+    "en": [
+      {
+        "id": "57705",
+        "text": "This train stops at every station from Nakano on."
+      }
+    ],
+    "indices": "此の{この} 電車 は より[05] 先(さき)[04] は 各駅 に 停車 為る(する){する}",
+    "vocabIds": [
+      "1443530",
+      "1204890",
+      "1434960",
+      "1387210"
+    ],
+    "matches": {
+      "1204890": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "かくえき"
+        }
+      ],
+      "1387210": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "さき"
+        }
+      ],
+      "1434960": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "ていしゃ"
+        }
+      ],
+      "1443530": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "でんしゃ"
+        }
+      ]
+    }
+  }
+]

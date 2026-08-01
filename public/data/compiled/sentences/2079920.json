@@ -1,0 +1,94 @@
+[
+  {
+    "id": "76616",
+    "original": "その節はよろしくご指導のほどお願いいたします。",
+    "en": [
+      {
+        "id": "327104",
+        "text": "I hope you will favor me with your guidance at that time."
+      }
+    ],
+    "indices": "その節 は 宜しく[02]{よろしく} 御(ご){ご} 指導[01] の 程{ほど} お願いいたします",
+    "vocabIds": [
+      "1001730",
+      "2079920",
+      "1309950"
+    ],
+    "matches": {
+      "1001730": [
+        {
+          "start": 14,
+          "length": 8,
+          "reading": "おねがいいたします"
+        }
+      ],
+      "1309950": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "しどう"
+        }
+      ],
+      "2079920": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "そのふし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "76617",
+    "original": "その節はいろいろありがとうございました。",
+    "en": [
+      {
+        "id": "327103",
+        "text": "Thank you for all you did for me that time."
+      }
+    ],
+    "indices": "その節~ は 色々[01]{いろいろ} 有難うございます{ありがとうございました}",
+    "vocabIds": [
+      "2079920"
+    ],
+    "matches": {
+      "2079920": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "そのふし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10987979",
+    "original": "その節は、失礼しました。",
+    "en": [
+      {
+        "id": "10987988",
+        "text": "I'm sorry about that time."
+      }
+    ],
+    "vocabIds": [
+      "1320240",
+      "2079920"
+    ],
+    "matches": {
+      "1320240": [
+        {
+          "start": 5,
+          "length": 6,
+          "reading": "しつれいしました"
+        }
+      ],
+      "2079920": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "そのふし"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,137 @@
+[
+  {
+    "id": "161267",
+    "original": "私はおもちゃ屋の隣に住んでいます。",
+    "en": [
+      {
+        "id": "253251",
+        "text": "I live next door to the toy shop."
+      }
+    ],
+    "indices": "私(わたし)[01] は 玩具屋{おもちゃ屋}~ の 隣 に 住む{住んでいます}",
+    "vocabIds": [
+      "1334040",
+      "2078890",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1555830"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1334040": [
+        {
+          "start": 10,
+          "length": 6,
+          "reading": "すんでいます"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1555830": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "となり"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2078890": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "おもちゃや"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1836395",
+    "original": "近所におもちゃ屋があります。",
+    "en": [
+      {
+        "id": "1836483",
+        "text": "There is a toy shop in the neighborhood."
+      }
+    ],
+    "vocabIds": [
+      "2078890",
+      "1242350"
+    ],
+    "matches": {
+      "1242350": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きんじょ"
+        }
+      ],
+      "2078890": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "おもちゃや"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11924239",
+    "original": "おもちゃ屋の隣に住んでます。",
+    "en": [
+      {
+        "id": "253251",
+        "text": "I live next door to the toy shop."
+      },
+      {
+        "id": "11924243",
+        "text": "I live next to a toy store."
+      }
+    ],
+    "vocabIds": [
+      "2078890",
+      "1334040",
+      "1555830"
+    ],
+    "matches": {
+      "1334040": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "すんでます"
+        }
+      ],
+      "1555830": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "となり"
+        }
+      ],
+      "2078890": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "おもちゃや"
+        }
+      ]
+    }
+  }
+]

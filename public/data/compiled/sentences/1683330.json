@@ -1,0 +1,72 @@
+[
+  {
+    "id": "169478",
+    "original": "三菱銀行は東京銀行を吸収合併した。",
+    "en": [
+      {
+        "id": "245007",
+        "text": "The Mitsubishi Bank merged with the Bank of Tokyo."
+      }
+    ],
+    "indices": "銀行 は 東京 銀行 を 吸収合併~ 為る(する){した}",
+    "vocabIds": [
+      "5553244",
+      "1683330"
+    ],
+    "matches": {
+      "1683330": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "きゅうしゅうがっぺい"
+        }
+      ],
+      "5553244": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "とうきょうぎんこう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "211776",
+    "original": "その会社は大企業に吸収合併された。",
+    "en": [
+      {
+        "id": "49053",
+        "text": "The company was absorbed into a big business."
+      }
+    ],
+    "indices": "其の[01]{その} 会社[01] は 大企業~ に 吸収 合併 為れる{された}",
+    "vocabIds": [
+      "1683330",
+      "1413300",
+      "1198550"
+    ],
+    "matches": {
+      "1198550": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "かいしゃ"
+        }
+      ],
+      "1413300": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "だいきぎょう"
+        }
+      ],
+      "1683330": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "きゅうしゅうがっぺい"
+        }
+      ]
+    }
+  }
+]

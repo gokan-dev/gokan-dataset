@@ -1,0 +1,255 @@
+[
+  {
+    "id": "142563",
+    "original": "青信号で道路を渡りましょう。",
+    "en": [
+      {
+        "id": "272007",
+        "text": "Only cross the street on the green light."
+      }
+    ],
+    "indices": "青信号~ で(#2028980) 道路 を[03] 渡る{渡りましょう}",
+    "vocabIds": [
+      "1444680",
+      "1381600",
+      "1454290"
+    ],
+    "matches": {
+      "1381600": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あおしんごう"
+        }
+      ],
+      "1444680": [
+        {
+          "start": 7,
+          "length": 6,
+          "reading": "わたりましょう"
+        }
+      ],
+      "1454290": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "どうろ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "142564",
+    "original": "青信号が出ている。",
+    "en": [
+      {
+        "id": "272006",
+        "text": "A green light is on."
+      }
+    ],
+    "indices": "青信号 が 出る{出ている}",
+    "vocabIds": [
+      "1338240",
+      "1381600"
+    ],
+    "matches": {
+      "1338240": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "でている"
+        }
+      ],
+      "1381600": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あおしんごう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "142565",
+    "original": "青信号が出たとたんに動き出す。",
+    "en": [
+      {
+        "id": "272005",
+        "text": "Start off on the green light."
+      }
+    ],
+    "indices": "青信号 が 出る{出た} 途端に{とたんに} 動き出す",
+    "vocabIds": [
+      "2012540",
+      "1381600",
+      "1338240"
+    ],
+    "matches": {
+      "1338240": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "でた"
+        }
+      ],
+      "1381600": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あおしんごう"
+        }
+      ],
+      "2012540": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "うごきだす"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10796393",
+    "original": "青信号は「進め」って意味よ。",
+    "en": [
+      {
+        "id": "7962406",
+        "text": "A green light means go."
+      }
+    ],
+    "vocabIds": [
+      "1381600",
+      "1365980",
+      "1984310",
+      "1156800"
+    ],
+    "matches": {
+      "1156800": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "いみ"
+        }
+      ],
+      "1365980": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "すすめ"
+        }
+      ],
+      "1381600": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あおしんごう"
+        }
+      ],
+      "1984310": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "すすめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10796394",
+    "original": "日本の青信号は「進め」ではなく、「進むことができる」です。",
+    "en": [
+      {
+        "id": "10799960",
+        "text": "In Japan, green traffic lights do not mean \"go\", but \"you are able to go\"."
+      }
+    ],
+    "vocabIds": [
+      "1381600",
+      "1582710",
+      "1365980",
+      "1984310"
+    ],
+    "matches": {
+      "1365980": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "すすめ"
+        },
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "すすむ"
+        }
+      ],
+      "1381600": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "あおしんごう"
+        }
+      ],
+      "1582710": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "にっぽん"
+        }
+      ],
+      "1984310": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "すすめ"
+        },
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "すすむ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12829876",
+    "original": "青信号になったのを確認してから、渡るのよ。",
+    "en": [
+      {
+        "id": "9193499",
+        "text": "When you see the traffic light turn green, go."
+      },
+      {
+        "id": "12847308",
+        "text": "Make sure the light is green before crossing."
+      }
+    ],
+    "vocabIds": [
+      "1381600",
+      "1205900",
+      "1444680"
+    ],
+    "matches": {
+      "1205900": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "かくにん"
+        }
+      ],
+      "1381600": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あおしんごう"
+        }
+      ],
+      "1444680": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "わたる"
+        }
+      ]
+    }
+  }
+]

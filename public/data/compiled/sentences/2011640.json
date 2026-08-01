@@ -1,0 +1,67 @@
+[
+  {
+    "id": "179639",
+    "original": "金沢では吹雪くことがある。",
+    "en": [
+      {
+        "id": "18497",
+        "text": "There are sometimes blizzards in Kanazawa."
+      }
+    ],
+    "indices": "で は 吹雪く~ 事がある{ことがある}",
+    "vocabIds": [
+      "2011640",
+      "2845104"
+    ],
+    "matches": {
+      "2011640": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "ふぶく"
+        }
+      ],
+      "2845104": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かなざわ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10092013",
+    "original": "こっちは、本格的に吹雪いてるよ。",
+    "en": [
+      {
+        "id": "10092007",
+        "text": "We've got a real blizzard here."
+      },
+      {
+        "id": "10092006",
+        "text": "We've got a real blizzard going on here?"
+      }
+    ],
+    "vocabIds": [
+      "2011640",
+      "1522330"
+    ],
+    "matches": {
+      "1522330": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "ほんかくてき"
+        }
+      ],
+      "2011640": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "ふぶいてる"
+        }
+      ]
+    }
+  }
+]

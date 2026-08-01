@@ -1,0 +1,122 @@
+{
+  "id": "1580650",
+  "writtenForm": {
+    "kanji": "人々",
+    "alternatives": [
+      "人びと",
+      "人人"
+    ],
+    "containedKanji": [
+      "人"
+    ]
+  },
+  "reading": {
+    "primary": "ひとびと",
+    "alternatives": [
+      "にんにん"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 864,
+    "kanaRank": 48179
+  },
+  "progression": {
+    "kklcStep": 15
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "people",
+        "men and women"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "each person",
+        "everybody"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "dated"
+        ]
+      },
+      "glosses": [
+        "each person",
+        "everybody"
+      ],
+      "related": {
+        "compounds": [
+          "人々"
+        ]
+      },
+      "appliesToReadings": [
+        "にんにん"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1580650",
+      "isBase": true,
+      "originalPrimaryReading": "ひとびと",
+      "originalGlosses": [
+        "people",
+        "men and women"
+      ]
+    },
+    {
+      "id": "2845619",
+      "isBase": false,
+      "originalPrimaryReading": "にんにん",
+      "originalGlosses": [
+        "each person",
+        "everybody"
+      ]
+    }
+  ],
+  "components": [
+    "1580640"
+  ]
+}

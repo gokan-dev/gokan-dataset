@@ -1,0 +1,199 @@
+[
+  {
+    "id": "148676",
+    "original": "取り寄せていただけますか。",
+    "en": [
+      {
+        "id": "265883",
+        "text": "Can you order it for me?"
+      },
+      {
+        "id": "12463928",
+        "text": "Could you please order it for me?"
+      }
+    ],
+    "indices": "取り寄せる{取り寄せて} 頂ける[01]{いただけます} か",
+    "vocabIds": [
+      "1326620"
+    ],
+    "matches": {
+      "1326620": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "とりよせて"
+        }
+      ]
+    }
+  },
+  {
+    "id": "213847",
+    "original": "そうですか、じゃ、取り寄せてもらえますか。",
+    "en": [
+      {
+        "id": "51134",
+        "text": "Oh, OK. Well, can you get me one?"
+      }
+    ],
+    "indices": "そうだ[01]{そうです} か じゃ[01] 取り寄せる{取り寄せて} 貰う[02]{もらえます} か",
+    "vocabIds": [
+      "1326620"
+    ],
+    "matches": {
+      "1326620": [
+        {
+          "start": 9,
+          "length": 10,
+          "reading": "とりよせてもらえます"
+        }
+      ]
+    }
+  },
+  {
+    "id": "223589",
+    "original": "このタイプのセーターはただ今、全部品切れでございます。東京の本店から取り寄せましょう。",
+    "en": [
+      {
+        "id": "60924",
+        "text": "All sweaters of this type are out of stock now. We'll order them from the main store in Tokyo."
+      }
+    ],
+    "indices": "此の{この} タイプ の セーター は ただ今[02] 全部 品切れ で御座います{でございます} 東京 の 本店 から 取り寄せる{取り寄せましょう}",
+    "vocabIds": [
+      "1326620",
+      "1538960",
+      "1490640",
+      "1396130",
+      "1447690",
+      "1523020"
+    ],
+    "matches": {
+      "1326620": [
+        {
+          "start": 34,
+          "length": 8,
+          "reading": "とりよせましょう"
+        }
+      ],
+      "1396130": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "ぜんぶ"
+        }
+      ],
+      "1447690": [
+        {
+          "start": 27,
+          "length": 2,
+          "reading": "とうきょう"
+        }
+      ],
+      "1490640": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "しなぎれ"
+        }
+      ],
+      "1523020": [
+        {
+          "start": 30,
+          "length": 2,
+          "reading": "ほんてん"
+        }
+      ],
+      "1538960": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "ただいま"
+        }
+      ]
+    }
+  },
+  {
+    "id": "227085",
+    "original": "お取り寄せいたしましょうか。",
+    "en": [
+      {
+        "id": "64434",
+        "text": "Would you like me to order it?"
+      }
+    ],
+    "indices": "御(お){お} 取り寄せる{取り寄せ}~ 致す{いたし}~ ましょう か",
+    "vocabIds": [
+      "1326620"
+    ],
+    "matches": {
+      "1326620": [
+        {
+          "start": 1,
+          "length": 11,
+          "reading": "とりよせいたしましょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "228391",
+    "original": "インターネットで願書を取り寄せるといいよ。",
+    "en": [
+      {
+        "id": "65747",
+        "text": "Have them send you an application form over the Internet."
+      }
+    ],
+    "indices": "インターネット で(#2028980) 願書 を 取り寄せる と いい(#2820690)[01] よ[01]",
+    "vocabIds": [
+      "1326620",
+      "1218050"
+    ],
+    "matches": {
+      "1218050": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "がんしょ"
+        }
+      ],
+      "1326620": [
+        {
+          "start": 11,
+          "length": 6,
+          "reading": "とりよせると"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10513262",
+    "original": "この水着は、フランスから取り寄せたのよ。",
+    "en": [
+      {
+        "id": "253516",
+        "text": "I ordered this swimsuit from France."
+      }
+    ],
+    "vocabIds": [
+      "1326620",
+      "1371830"
+    ],
+    "matches": {
+      "1326620": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "とりよせた"
+        }
+      ],
+      "1371830": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "みずぎ"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,181 @@
+[
+  {
+    "id": "85614",
+    "original": "飛行機は東へ旋回した。",
+    "en": [
+      {
+        "id": "318098",
+        "text": "The plane turned eastward."
+      }
+    ],
+    "indices": "飛行機 は 東(ひがし) へ 旋回 為る(する){した}",
+    "vocabIds": [
+      "1485470",
+      "1391650",
+      "1447440"
+    ],
+    "matches": {
+      "1391650": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "せんかい"
+        }
+      ],
+      "1447440": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "ひがし"
+        }
+      ],
+      "1485470": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ひこうき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "85625",
+    "original": "飛行機は墜落寸前に右に旋回した。",
+    "en": [
+      {
+        "id": "318089",
+        "text": "The plane turned sharply to the right just before it crashed."
+      }
+    ],
+    "indices": "飛行機 は 墜落 寸前 に 右[01] に 旋回 為る(する){した}",
+    "vocabIds": [
+      "1485470",
+      "1432240",
+      "1373750",
+      "1391650",
+      "1171010"
+    ],
+    "matches": {
+      "1171010": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "みぎ"
+        }
+      ],
+      "1373750": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "すんぜん"
+        }
+      ],
+      "1391650": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "せんかい"
+        }
+      ],
+      "1432240": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ついらく"
+        }
+      ],
+      "1485470": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ひこうき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "203843",
+    "original": "タカは空を旋回した。",
+    "en": [
+      {
+        "id": "41084",
+        "text": "The hawk circled round in the sky."
+      }
+    ],
+    "indices": "鷹{タカ} は 空(そら) を 旋回~ 為る(する){した}",
+    "vocabIds": [
+      "1391650",
+      "1245290",
+      "2248040"
+    ],
+    "matches": {
+      "1245290": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "そら"
+        }
+      ],
+      "1391650": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "せんかい"
+        }
+      ],
+      "2248040": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "そら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8546165",
+    "original": "ブーメランは大きく旋回して戻ってきた。",
+    "en": [
+      {
+        "id": "11009670",
+        "text": "The boomerang took a huge turn and came back."
+      }
+    ],
+    "vocabIds": [
+      "1535880",
+      "1642200",
+      "1588880",
+      "1391650"
+    ],
+    "matches": {
+      "1391650": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "せんかい"
+        }
+      ],
+      "1535880": [
+        {
+          "start": 13,
+          "length": 5,
+          "reading": "もどってきた"
+        }
+      ],
+      "1588880": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "おおきく"
+        }
+      ],
+      "1642200": [
+        {
+          "start": 13,
+          "length": 5,
+          "reading": "もどってきた"
+        }
+      ]
+    }
+  }
+]

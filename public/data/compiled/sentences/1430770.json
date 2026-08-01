@@ -1,0 +1,106 @@
+[
+  {
+    "id": "123000",
+    "original": "肉が値下がりした。",
+    "en": [
+      {
+        "id": "281001",
+        "text": "The price of meat dropped."
+      }
+    ],
+    "indices": "肉(にく)[02] が 値下がり 為る(する){した}",
+    "vocabIds": [
+      "1430770",
+      "1463520"
+    ],
+    "matches": {
+      "1430770": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "ねさがり"
+        }
+      ],
+      "1463520": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "にく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "174986",
+    "original": "原油価格の値下がりが続いている。",
+    "en": [
+      {
+        "id": "239481",
+        "text": "The crude oil price is falling further."
+      },
+      {
+        "id": "651766",
+        "text": "Crude oil has been falling in price."
+      }
+    ],
+    "indices": "原油価格~ の 値下がり~ が 続く{続いている}",
+    "vocabIds": [
+      "1405790",
+      "1992080",
+      "1430770"
+    ],
+    "matches": {
+      "1405790": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "つづいている"
+        }
+      ],
+      "1430770": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "ねさがり"
+        }
+      ],
+      "1992080": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "げんゆかかく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11878746",
+    "original": "電気料金が値下がりした。",
+    "en": [
+      {
+        "id": "10729325",
+        "text": "Electricity prices went down."
+      }
+    ],
+    "vocabIds": [
+      "1943480",
+      "1430770"
+    ],
+    "matches": {
+      "1430770": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "ねさがり"
+        }
+      ],
+      "1943480": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "でんきりょうきん"
+        }
+      ]
+    }
+  }
+]

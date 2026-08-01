@@ -1,0 +1,209 @@
+[
+  {
+    "id": "109784",
+    "original": "彼は営業部の部長です。",
+    "en": [
+      {
+        "id": "293906",
+        "text": "He is the manager of the marketing department."
+      },
+      {
+        "id": "1442251",
+        "text": "He's the manager of the marketing department."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 営業部 の 部長 です",
+    "vocabIds": [
+      "1173490",
+      "1499460",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1173490": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "えいぎょうぶ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1499460": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ぶちょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "136942",
+    "original": "誰が営業部を担当しているのですか。",
+    "en": [
+      {
+        "id": "276294",
+        "text": "Who's in charge of the sales section?"
+      }
+    ],
+    "indices": "誰 が 営業部~ を 担当 為る(する){している} のです か",
+    "vocabIds": [
+      "1173490",
+      "2864173",
+      "1418160"
+    ],
+    "matches": {
+      "1173490": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "えいぎょうぶ"
+        }
+      ],
+      "1418160": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "たんとう"
+        }
+      ],
+      "2864173": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "だれが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1172775",
+    "original": "私は営業部です。",
+    "en": [
+      {
+        "id": "256156",
+        "text": "I am a member of the sales department."
+      },
+      {
+        "id": "6873010",
+        "text": "I'm a member of the sales department."
+      }
+    ],
+    "vocabIds": [
+      "1173490",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1173490": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "えいぎょうぶ"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10603577",
+    "original": "「もしもし、営業部です」「斎藤くんいるかね？」「斎藤部長ですか？」「そうだ」「失礼ですが.......」「田中だよ。田中」「失礼しました。部長、田中常務からお電話です」",
+    "en": [
+      {
+        "id": "10603604",
+        "text": "\"Sales department, how can I help you?\" \"Is Saito there?\" \"Mr. Saito, our manager?\" \"Right.\" \"May I ask who's calling?\" \"It's Tanaka.\" \"Excuse me. Boss! Director Tanaka is on the phone.\""
+      }
+    ],
+    "vocabIds": [
+      "1320240",
+      "2864550",
+      "1173490",
+      "2701830",
+      "1499460",
+      "1356130"
+    ],
+    "matches": {
+      "1173490": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "えいぎょうぶ"
+        }
+      ],
+      "1320240": [
+        {
+          "start": 62,
+          "length": 6,
+          "reading": "しつれいしました"
+        }
+      ],
+      "1356130": [
+        {
+          "start": 74,
+          "length": 2,
+          "reading": "じょうむ"
+        }
+      ],
+      "1499460": [
+        {
+          "start": 26,
+          "length": 2,
+          "reading": "ぶちょう"
+        },
+        {
+          "start": 69,
+          "length": 2,
+          "reading": "ぶちょう"
+        }
+      ],
+      "2701830": [
+        {
+          "start": 78,
+          "length": 3,
+          "reading": "おでんわ"
+        }
+      ],
+      "2864550": [
+        {
+          "start": 39,
+          "length": 5,
+          "reading": "しつれいですが"
+        }
+      ]
+    }
+  }
+]

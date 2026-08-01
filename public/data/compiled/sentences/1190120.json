@@ -1,0 +1,133 @@
+[
+  {
+    "id": "182276",
+    "original": "牛乳は加工されてバターやチーズになる。",
+    "en": [
+      {
+        "id": "19467",
+        "text": "Milk is made into butter and cheese."
+      }
+    ],
+    "indices": "牛乳 は 加工 為れる{されて} バター や チーズ になる[01]",
+    "vocabIds": [
+      "1231590",
+      "1190120"
+    ],
+    "matches": {
+      "1190120": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かこう"
+        }
+      ],
+      "1231590": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ぎゅうにゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "195045",
+    "original": "ミルクはバターに加工される。",
+    "en": [
+      {
+        "id": "19471",
+        "text": "Milk is made into butter."
+      }
+    ],
+    "indices": "ミルク は バター に 加工 為れる{される}",
+    "vocabIds": [
+      "1190120"
+    ],
+    "matches": {
+      "1190120": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "かこう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "229061",
+    "original": "イチゴは加工されてジャムになります。",
+    "en": [
+      {
+        "id": "66419",
+        "text": "Strawberries are made into jam."
+      }
+    ],
+    "indices": "苺{イチゴ} は 加工~ 為れる{されて} ジャム になる[01]{になります}",
+    "vocabIds": [
+      "1190120"
+    ],
+    "matches": {
+      "1190120": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "かこう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9507104",
+    "original": "アイドルグループのうち1人は加工の感覚絶対ぶっ壊れてるよね。",
+    "en": [
+      {
+        "id": "9524720",
+        "text": "There's always somebody in an idol group that uses too many filters in their selfies."
+      }
+    ],
+    "vocabIds": [
+      "1199900",
+      "1190120",
+      "1212330",
+      "1386840",
+      "1580640"
+    ],
+    "matches": {
+      "1190120": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "かこう"
+        }
+      ],
+      "1199900": [
+        {
+          "start": 23,
+          "length": 4,
+          "reading": "こわれてる"
+        }
+      ],
+      "1212330": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "かんかく"
+        }
+      ],
+      "1386840": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "ぜったい"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "にん"
+        }
+      ]
+    }
+  }
+]

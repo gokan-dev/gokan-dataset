@@ -1,0 +1,118 @@
+[
+  {
+    "id": "148410",
+    "original": "首相は危篤だとささやかれている。",
+    "en": [
+      {
+        "id": "266149",
+        "text": "It is whispered that the Prime Minister is critically ill."
+      }
+    ],
+    "indices": "首相 は 危篤 だ と 囁く{ささやかれている}",
+    "vocabIds": [
+      "1329300",
+      "1218680"
+    ],
+    "matches": {
+      "1218680": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "きとく"
+        }
+      ],
+      "1329300": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しゅしょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "178551",
+    "original": "君のお母さんは危篤だ。",
+    "en": [
+      {
+        "id": "17403",
+        "text": "Your mother is in critical condition."
+      }
+    ],
+    "indices": "君(きみ)[01]{君の} お母さん は 危篤~ だ",
+    "vocabIds": [
+      "1002650",
+      "1218680",
+      "1247250"
+    ],
+    "matches": {
+      "1002650": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "おかあさん"
+        }
+      ],
+      "1218680": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "きとく"
+        }
+      ],
+      "1247250": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "きみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1334543",
+    "original": "彼は危篤に陥った。",
+    "en": [
+      {
+        "id": "1334551",
+        "text": "He fell into critical condition."
+      }
+    ],
+    "vocabIds": [
+      "1216120",
+      "1218680",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1216120": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "おちいった"
+        }
+      ],
+      "1218680": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きとく"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  }
+]

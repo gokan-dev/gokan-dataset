@@ -1,0 +1,522 @@
+[
+  {
+    "id": "140719",
+    "original": "祖父は、晴れた日に池の色とりどりの鯉を眺めているのが好きです。",
+    "en": [
+      {
+        "id": "251343",
+        "text": "My grandfather likes looking at colorful carp in the pond on a fine day."
+      }
+    ],
+    "indices": "祖父[01] は 晴れる[01]{晴れた} 日(ひ)[01] に 池 の 色取り取り{色とりどりの} 鯉 を 眺める{眺めている} の が 好き(すき) です",
+    "vocabIds": [
+      "2011430",
+      "1428830",
+      "1376470",
+      "1396840",
+      "1277450",
+      "1463770",
+      "1421700",
+      "1271650"
+    ],
+    "matches": {
+      "1271650": [
+        {
+          "start": 17,
+          "length": 1,
+          "reading": "こい"
+        }
+      ],
+      "1277450": [
+        {
+          "start": 26,
+          "length": 2,
+          "reading": "すき"
+        }
+      ],
+      "1376470": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "はれた"
+        }
+      ],
+      "1396840": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "そふ"
+        }
+      ],
+      "1421700": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "いけ"
+        }
+      ],
+      "1428830": [
+        {
+          "start": 19,
+          "length": 5,
+          "reading": "ながめている"
+        }
+      ],
+      "1463770": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "ひ"
+        }
+      ],
+      "2011430": [
+        {
+          "start": 11,
+          "length": 5,
+          "reading": "いろとりどり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "152584",
+    "original": "私は網で鯉を捕った。",
+    "en": [
+      {
+        "id": "261965",
+        "text": "I caught a carp in a net."
+      }
+    ],
+    "indices": "私(わたし)[01] は 網(あみ) で(#2028980) 鯉 を 捕る{捕った}",
+    "vocabIds": [
+      "1514140",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1534380",
+      "1271650"
+    ],
+    "matches": {
+      "1271650": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "こい"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1514140": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "とった"
+        }
+      ],
+      "1534380": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "あみ"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "166856",
+    "original": "私たちの町にはきれいな川が流れていて、たくさんの鯉が泳いでいるのが見られます。",
+    "en": [
+      {
+        "id": "247646",
+        "text": "A clean river flows through our town, and we can see many carp swimming in it."
+      }
+    ],
+    "indices": "私たち の 町(まち) には 奇麗{きれいな} 川[01] が 流れる[01]{流れていて} 沢山{たくさん} の 鯉 が 泳ぐ{泳いでいる} の が 見る{見られます}",
+    "vocabIds": [
+      "1552140",
+      "1174340",
+      "1311300",
+      "1259290",
+      "1603990",
+      "1390020",
+      "1271650"
+    ],
+    "matches": {
+      "1174340": [
+        {
+          "start": 26,
+          "length": 5,
+          "reading": "およいでいる"
+        }
+      ],
+      "1259290": [
+        {
+          "start": 33,
+          "length": 1,
+          "reading": "み"
+        }
+      ],
+      "1271650": [
+        {
+          "start": 24,
+          "length": 1,
+          "reading": "こい"
+        }
+      ],
+      "1311300": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1390020": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "かわ"
+        }
+      ],
+      "1552140": [
+        {
+          "start": 13,
+          "length": 5,
+          "reading": "ながれていて"
+        }
+      ],
+      "1603990": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "まち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "174198",
+    "original": "鯉や鱒のような魚は淡水に住んでいる。",
+    "en": [
+      {
+        "id": "240271",
+        "text": "Such fishes as carp and trout live in fresh water."
+      },
+      {
+        "id": "1564964",
+        "text": "Such fish as carp and trout live in fresh water."
+      },
+      {
+        "id": "1564966",
+        "text": "Fish such as carp and trout live in fresh water."
+      },
+      {
+        "id": "1564968",
+        "text": "Fish like carp and trout live in fresh water."
+      }
+    ],
+    "indices": "鯉 や 鱒 之(の)[01]{の} 様な{ような} 魚 は 淡水 に 住む{住んでいる}",
+    "vocabIds": [
+      "1334040",
+      "1418460",
+      "1271650",
+      "1524900",
+      "1578010"
+    ],
+    "matches": {
+      "1271650": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "こい"
+        }
+      ],
+      "1334040": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "すんでいる"
+        }
+      ],
+      "1418460": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "たんすい"
+        }
+      ],
+      "1524900": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ます"
+        }
+      ],
+      "1578010": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "さかな"
+        }
+      ]
+    }
+  },
+  {
+    "id": "174199",
+    "original": "鯉がおたまじゃくしを食べるって知ってた？",
+    "en": [
+      {
+        "id": "240270",
+        "text": "Did you know that carp eat tadpoles?"
+      }
+    ],
+    "indices": "鯉~ が お玉杓子[01]{おたまじゃくし}~ を 食べる って 知る{知ってた}",
+    "vocabIds": [
+      "1420470",
+      "1358280",
+      "1271650"
+    ],
+    "matches": {
+      "1271650": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "こい"
+        }
+      ],
+      "1358280": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "たべる"
+        }
+      ],
+      "1420470": [
+        {
+          "start": 15,
+          "length": 4,
+          "reading": "しってた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "220570",
+    "original": "この池には鯉がうようよいる。",
+    "en": [
+      {
+        "id": "57892",
+        "text": "The pond abounds with carp."
+      },
+      {
+        "id": "2334860",
+        "text": "This pond has a lot of carp."
+      },
+      {
+        "id": "2334862",
+        "text": "This pond is full of carp swimming around."
+      }
+    ],
+    "indices": "此の{この} 池 には 鯉 が うようよ 居る(いる){いる}",
+    "vocabIds": [
+      "1421700",
+      "1271650"
+    ],
+    "matches": {
+      "1271650": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "こい"
+        }
+      ],
+      "1421700": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "いけ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9306471",
+    "original": "鯉や鱒のような魚は淡水に生息している。",
+    "en": [
+      {
+        "id": "1564966",
+        "text": "Fish such as carp and trout live in fresh water."
+      }
+    ],
+    "vocabIds": [
+      "1418460",
+      "1379220",
+      "1271650",
+      "1524900",
+      "1578010"
+    ],
+    "matches": {
+      "1271650": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "こい"
+        }
+      ],
+      "1379220": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "せいそく"
+        }
+      ],
+      "1418460": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "たんすい"
+        }
+      ],
+      "1524900": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ます"
+        }
+      ],
+      "1578010": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "さかな"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10028918",
+    "original": "鯉は、私が一番好きな魚だよ。",
+    "en": [
+      {
+        "id": "5752794",
+        "text": "Carp is my favorite fish."
+      }
+    ],
+    "vocabIds": [
+      "1165970",
+      "1277450",
+      "1271650",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1578010"
+    ],
+    "matches": {
+      "1165970": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "いちばん"
+        }
+      ],
+      "1271650": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "こい"
+        }
+      ],
+      "1277450": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "すき"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1578010": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "さかな"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10908293",
+    "original": "鯉は網で捕まえたんだ。",
+    "en": [
+      {
+        "id": "261965",
+        "text": "I caught a carp in a net."
+      }
+    ],
+    "vocabIds": [
+      "1597780",
+      "1271650",
+      "1534380"
+    ],
+    "matches": {
+      "1271650": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "こい"
+        }
+      ],
+      "1534380": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "あみ"
+        }
+      ],
+      "1597780": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "つかまえた"
+        }
+      ]
+    }
+  }
+]

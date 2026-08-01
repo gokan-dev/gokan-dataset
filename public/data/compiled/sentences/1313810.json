@@ -1,0 +1,84 @@
+[
+  {
+    "id": "206133",
+    "original": "その老人は金には事欠かない。",
+    "en": [
+      {
+        "id": "43379",
+        "text": "The old man has enough money."
+      }
+    ],
+    "indices": "其の[01]{その} 老人 は 金(かね)[01] には 事欠かない",
+    "vocabIds": [
+      "1313810",
+      "1561090",
+      "1181860",
+      "1242590"
+    ],
+    "matches": {
+      "1181860": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "きん"
+        }
+      ],
+      "1242590": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "きん"
+        }
+      ],
+      "1313810": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "ことかかない"
+        }
+      ],
+      "1561090": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ろうじん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "229472",
+    "original": "アンは友人に事欠かない。",
+    "en": [
+      {
+        "id": "66831",
+        "text": "Ann does not lack for friends."
+      },
+      {
+        "id": "480139",
+        "text": "Ann has many friends."
+      }
+    ],
+    "indices": "は 友人 に 事欠かない~",
+    "vocabIds": [
+      "1313810",
+      "1540150"
+    ],
+    "matches": {
+      "1313810": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "ことかかない"
+        }
+      ],
+      "1540150": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ゆうじん"
+        }
+      ]
+    }
+  }
+]

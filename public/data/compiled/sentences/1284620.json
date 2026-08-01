@@ -1,0 +1,104 @@
+[
+  {
+    "id": "173167",
+    "original": "合格者の過半数は大学出身者であった。",
+    "en": [
+      {
+        "id": "241304",
+        "text": "The majority of the successful candidates were university graduates."
+      }
+    ],
+    "indices": "合格者~ の 過半数~ は 大学[02]~ 出身者[01]~ である{であった}",
+    "vocabIds": [
+      "1284620",
+      "1196380",
+      "1339280",
+      "1413240"
+    ],
+    "matches": {
+      "1196380": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "かはんすう"
+        }
+      ],
+      "1284620": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ごうかくしゃ"
+        }
+      ],
+      "1339280": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "しゅっしんしゃ"
+        }
+      ],
+      "1413240": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "だいがく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "173168",
+    "original": "合格者たちは喜びのあまり我を忘れた。",
+    "en": [
+      {
+        "id": "241303",
+        "text": "The successful candidates were beside themselves with joy."
+      }
+    ],
+    "indices": "合格者 達{たち} は 喜び の余り{のあまり} 我を忘れる{我を忘れた}",
+    "vocabIds": [
+      "1284620",
+      "1519210",
+      "1606140",
+      "1196670",
+      "1606620"
+    ],
+    "matches": {
+      "1196670": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "わが"
+        }
+      ],
+      "1284620": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ごうかくしゃ"
+        }
+      ],
+      "1519210": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "わすれた"
+        }
+      ],
+      "1606140": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "よろこび"
+        }
+      ],
+      "1606620": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "わが"
+        }
+      ]
+    }
+  }
+]

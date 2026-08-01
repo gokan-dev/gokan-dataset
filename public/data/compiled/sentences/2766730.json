@@ -1,0 +1,45 @@
+[
+  {
+    "id": "206205",
+    "original": "その列車の乗客はほんの僅かしかいない。",
+    "en": [
+      {
+        "id": "43451",
+        "text": "There are very few passengers in the train."
+      },
+      {
+        "id": "505592",
+        "text": "There are only just a few passengers on that train."
+      }
+    ],
+    "indices": "其の[01]{その} 列車 の 乗客 は 本の{ほんの} 僅か しか 居る(いる){いない}",
+    "vocabIds": [
+      "2766730",
+      "1558370",
+      "1580490"
+    ],
+    "matches": {
+      "1558370": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "れっしゃ"
+        }
+      ],
+      "1580490": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "じょうきゃく"
+        }
+      ],
+      "2766730": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "ほんのわずか"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,127 @@
+[
+  {
+    "id": "78220",
+    "original": "留守番電話にメッセージを入れてください。",
+    "en": [
+      {
+        "id": "325498",
+        "text": "Please leave your message on my answering machine."
+      },
+      {
+        "id": "1345488",
+        "text": "Please leave a message on my answering machine."
+      },
+      {
+        "id": "8947012",
+        "text": "Please leave a message on the answering machine."
+      }
+    ],
+    "indices": "留守番電話 に メッセージ を 入れる{入れて} 下さい{ください}",
+    "vocabIds": [
+      "1465610",
+      "1552810"
+    ],
+    "matches": {
+      "1465610": [
+        {
+          "start": 12,
+          "length": 7,
+          "reading": "いれてください"
+        }
+      ],
+      "1552810": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "るすばんでんわ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "152348",
+    "original": "私は留守番電話は便利だとわかった。",
+    "en": [
+      {
+        "id": "262202",
+        "text": "I found the answering machine convenient."
+      }
+    ],
+    "indices": "私(わたし)[01] は 留守番電話 は 便利 だ と 分かる{わかった}",
+    "vocabIds": [
+      "1552810",
+      "1512610",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1512610": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "べんり"
+        }
+      ],
+      "1552810": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "るすばんでんわ"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "231490",
+    "original": "あなたは留守番電話を買うべきだ。",
+    "en": [
+      {
+        "id": "68857",
+        "text": "You should buy an answering machine."
+      }
+    ],
+    "indices": "貴方(あなた)[01]{あなた} は 留守番電話~ を 買う[01] 可き{べき} だ",
+    "vocabIds": [
+      "1552810",
+      "1473740"
+    ],
+    "matches": {
+      "1473740": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "かうべきだ"
+        }
+      ],
+      "1552810": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "るすばんでんわ"
+        }
+      ]
+    }
+  }
+]

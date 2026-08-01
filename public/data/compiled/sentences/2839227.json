@@ -1,0 +1,110 @@
+[
+  {
+    "id": "220553",
+    "original": "この駐車券に判を押して下さい。",
+    "en": [
+      {
+        "id": "57876",
+        "text": "Can you validate this parking ticket?"
+      }
+    ],
+    "indices": "此の{この} 駐車 券 に 判を押す{判を押して} 下さい",
+    "vocabIds": [
+      "1180470",
+      "2839227",
+      "1478440"
+    ],
+    "matches": {
+      "1180470": [
+        {
+          "start": 8,
+          "length": 6,
+          "reading": "おしてください"
+        }
+      ],
+      "1478440": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "はん"
+        }
+      ],
+      "2839227": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "ちゅうしゃけん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "220554",
+    "original": "この駐車券に判を押していただけますか。",
+    "en": [
+      {
+        "id": "57876",
+        "text": "Can you validate this parking ticket?"
+      }
+    ],
+    "indices": "此の{この} 駐車 券 に 判を押す{判を押して}~ 頂ける[01]{いただけます} か",
+    "vocabIds": [
+      "2839227",
+      "1852820",
+      "1478440"
+    ],
+    "matches": {
+      "1478440": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "はん"
+        }
+      ],
+      "1852820": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "おして"
+        }
+      ],
+      "2839227": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "ちゅうしゃけん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9408544",
+    "original": "駐車券はお持ちですか？",
+    "en": [
+      {
+        "id": "9408676",
+        "text": "Do you have a parking ticket?"
+      }
+    ],
+    "vocabIds": [
+      "1315720",
+      "2839227"
+    ],
+    "matches": {
+      "1315720": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "もちです"
+        }
+      ],
+      "2839227": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ちゅうしゃけん"
+        }
+      ]
+    }
+  }
+]

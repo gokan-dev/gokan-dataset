@@ -1,0 +1,115 @@
+[
+  {
+    "id": "77252",
+    "original": "老婦人は３LDKの集合住宅に独りで住んでいた。",
+    "en": [
+      {
+        "id": "326467",
+        "text": "The old lady lived in a three-room apartment by herself."
+      },
+      {
+        "id": "3208119",
+        "text": "The old woman lived in a 3 room apartment by herself."
+      }
+    ],
+    "indices": "老婦人 は の 集合住宅~ に 一人で{独りで} 住む{住んでいた}",
+    "vocabIds": [
+      "1334040",
+      "1813490",
+      "2158370",
+      "1163700",
+      "1579350"
+    ],
+    "matches": {
+      "1163700": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "ひとりで"
+        }
+      ],
+      "1334040": [
+        {
+          "start": 17,
+          "length": 5,
+          "reading": "すんでいた"
+        }
+      ],
+      "1579350": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "さん"
+        }
+      ],
+      "1813490": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "しゅうごうじゅうたく"
+        }
+      ],
+      "2158370": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ろうふじん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3357992",
+    "original": "私は集合住宅に住んでいます。",
+    "en": [
+      {
+        "id": "252968",
+        "text": "I live in an apartment."
+      }
+    ],
+    "vocabIds": [
+      "1334040",
+      "1813490",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1334040": [
+        {
+          "start": 7,
+          "length": 6,
+          "reading": "すんでいます"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1813490": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "しゅうごうじゅうたく"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,504 @@
+[
+  {
+    "id": "123608",
+    "original": "道に迷ったらお巡りさんに尋ねなさい。",
+    "en": [
+      {
+        "id": "280389",
+        "text": "If you lose your way, ask a policeman."
+      }
+    ],
+    "indices": "道に迷う{道に迷ったら} お巡りさん に 尋ねる[01]{尋ね} 為さい{なさい}",
+    "vocabIds": [
+      "1002120",
+      "1369940",
+      "1532710",
+      "1454080",
+      "2220470"
+    ],
+    "matches": {
+      "1002120": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "おまわりさん"
+        }
+      ],
+      "1369940": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "たずねなさい"
+        }
+      ],
+      "1454080": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "みち"
+        }
+      ],
+      "1532710": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "まよったら"
+        }
+      ],
+      "2220470": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "みち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "227027",
+    "original": "お巡りさん、この事故は私とは関係ありませんよ。",
+    "en": [
+      {
+        "id": "64375",
+        "text": "This accident has nothing to do with me, officer."
+      }
+    ],
+    "indices": "お巡りさん 此の{この} 事故 は 私(わたし)[01] とは 関係 有る{ありません} よ[01]",
+    "vocabIds": [
+      "1002120",
+      "1313850",
+      "1215810",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1002120": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "おまわりさん"
+        }
+      ],
+      "1215810": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "かんけい"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1313850": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "じこ"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "837427",
+    "original": "お巡りさんに聞け！",
+    "en": [
+      {
+        "id": "698195",
+        "text": "Ask a policeman!"
+      }
+    ],
+    "vocabIds": [
+      "1002120",
+      "1591110"
+    ],
+    "matches": {
+      "1002120": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "おまわりさん"
+        }
+      ],
+      "1591110": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "きけ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1171035",
+    "original": "お巡りさんが、私に車を路肩に寄せるよう合図した。",
+    "en": [
+      {
+        "id": "64858",
+        "text": "The patrolman motioned me to pull over."
+      }
+    ],
+    "vocabIds": [
+      "1002120",
+      "1219560",
+      "1560030",
+      "1284930",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1323080"
+    ],
+    "matches": {
+      "1002120": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "おまわりさん"
+        }
+      ],
+      "1219560": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "よせる"
+        }
+      ],
+      "1284930": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "あいず"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1323080": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1560030": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "ろかた"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3957633",
+    "original": "誰がお巡りさんを呼んだの？",
+    "en": [
+      {
+        "id": "4051789",
+        "text": "Who called a police officer?"
+      },
+      {
+        "id": "3636440",
+        "text": "Who called the cops?"
+      }
+    ],
+    "vocabIds": [
+      "1002120",
+      "1266440",
+      "2864173"
+    ],
+    "matches": {
+      "1002120": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "おまわりさん"
+        }
+      ],
+      "1266440": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "よんだ"
+        }
+      ],
+      "2864173": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "だれが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8719698",
+    "original": "お巡りさん、私スピード出してました？",
+    "en": [
+      {
+        "id": "3413087",
+        "text": "Was I speeding, officer?"
+      }
+    ],
+    "vocabIds": [
+      "1338180",
+      "1002120",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1002120": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "おまわりさん"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1338180": [
+        {
+          "start": 11,
+          "length": 6,
+          "reading": "だしてました"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9343451",
+    "original": "お巡りさんは何か言ってた？",
+    "en": [
+      {
+        "id": "8230195",
+        "text": "Did the policeman say anything to you?"
+      }
+    ],
+    "vocabIds": [
+      "1002120",
+      "1587040",
+      "1188270"
+    ],
+    "matches": {
+      "1002120": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "おまわりさん"
+        }
+      ],
+      "1188270": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "なにか"
+        }
+      ],
+      "1587040": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "いってた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10175981",
+    "original": "お巡りさんがスリを捕まえたよ。",
+    "en": [
+      {
+        "id": "9086872",
+        "text": "A policeman caught the pickpocket."
+      }
+    ],
+    "vocabIds": [
+      "1002120",
+      "1597780"
+    ],
+    "matches": {
+      "1002120": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "おまわりさん"
+        }
+      ],
+      "1597780": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "つかまえた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10555415",
+    "original": "あそこのお巡りさんに聞いてごらん。",
+    "en": [
+      {
+        "id": "10551934",
+        "text": "Ask the policeman over there."
+      }
+    ],
+    "vocabIds": [
+      "1002120",
+      "1591110"
+    ],
+    "matches": {
+      "1002120": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "おまわりさん"
+        }
+      ],
+      "1591110": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "きいて"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10557688",
+    "original": "あそこのお巡りさんに聞いてきなよ。",
+    "en": [
+      {
+        "id": "10551934",
+        "text": "Ask the policeman over there."
+      }
+    ],
+    "vocabIds": [
+      "1002120",
+      "1591110"
+    ],
+    "matches": {
+      "1002120": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "おまわりさん"
+        }
+      ],
+      "1591110": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "きいてき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10557689",
+    "original": "そこのお巡りさんに聞いてみて。",
+    "en": [
+      {
+        "id": "10551934",
+        "text": "Ask the policeman over there."
+      }
+    ],
+    "vocabIds": [
+      "1002120",
+      "1591110"
+    ],
+    "matches": {
+      "1002120": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "おまわりさん"
+        }
+      ],
+      "1591110": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "きいてみて"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10982583",
+    "original": "あそこにお巡りさんいる？",
+    "en": [
+      {
+        "id": "240610",
+        "text": "Do you see any policeman over there?"
+      }
+    ],
+    "vocabIds": [
+      "1002120"
+    ],
+    "matches": {
+      "1002120": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "おまわりさん"
+        }
+      ]
+    }
+  }
+]

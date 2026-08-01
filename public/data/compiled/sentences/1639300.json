@@ -1,0 +1,119 @@
+[
+  {
+    "id": "143436",
+    "original": "この汽車は世界の果て行きの終列車です。",
+    "en": [
+      {
+        "id": "271131",
+        "text": "This train is the last train to the world's end."
+      }
+    ],
+    "indices": "此の(この){この} 汽車(きしゃ) は 世界 の 果て~ 行き[01] の 終列車~ です",
+    "vocabIds": [
+      "1639300",
+      "1653470",
+      "1222700",
+      "1578790"
+    ],
+    "matches": {
+      "1222700": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きしゃ"
+        }
+      ],
+      "1578790": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "いき"
+        }
+      ],
+      "1639300": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "せかいのはて"
+        }
+      ],
+      "1653470": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "しゅうれっしゃ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "930057",
+    "original": "僕のガルフレンドは世界の果て行きの終列車に遅れて困りますよ。",
+    "en": [
+      {
+        "id": "930062",
+        "text": "My girlfriend missed the last train to the world's end, and that's quite a problem."
+      }
+    ],
+    "vocabIds": [
+      "1639300",
+      "1289590",
+      "1653470",
+      "1589040",
+      "1578790",
+      "1521400",
+      "2228300"
+    ],
+    "matches": {
+      "1289590": [
+        {
+          "start": 24,
+          "length": 4,
+          "reading": "こまります"
+        }
+      ],
+      "1521400": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ],
+      "1578790": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "いき"
+        }
+      ],
+      "1589040": [
+        {
+          "start": 21,
+          "length": 3,
+          "reading": "おくれて"
+        }
+      ],
+      "1639300": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "せかいのはて"
+        }
+      ],
+      "1653470": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "しゅうれっしゃ"
+        }
+      ],
+      "2228300": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ]
+    }
+  }
+]

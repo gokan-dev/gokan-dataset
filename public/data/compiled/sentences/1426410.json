@@ -1,0 +1,508 @@
+[
+  {
+    "id": "82327",
+    "original": "僕たちは昼飯にピザとチキンをたらふく食べた。",
+    "en": [
+      {
+        "id": "321388",
+        "text": "We pigged out on pizza and chicken at lunchtime."
+      }
+    ],
+    "indices": "僕たち は 昼飯 に ピザ と チキン を 鱈腹{たらふく} 食べる{食べた}",
+    "vocabIds": [
+      "1521420",
+      "1358280",
+      "1426410"
+    ],
+    "matches": {
+      "1358280": [
+        {
+          "start": 18,
+          "length": 3,
+          "reading": "たべた"
+        }
+      ],
+      "1426410": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ひるめし"
+        }
+      ],
+      "1521420": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ぼくたち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "126366",
+    "original": "昼飯でもいっしょにどうですか。",
+    "en": [
+      {
+        "id": "66318",
+        "text": "Why don't we have lunch together?"
+      }
+    ],
+    "indices": "昼飯~ でも 一緒{いっしょ} に 如何(どう){どう} ですか",
+    "vocabIds": [
+      "1426410"
+    ],
+    "matches": {
+      "1426410": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ひるめし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "126413",
+    "original": "昼メシにしよう。",
+    "en": [
+      {
+        "id": "277577",
+        "text": "Let's have lunch!"
+      },
+      {
+        "id": "402049",
+        "text": "Let's do lunch!"
+      },
+      {
+        "id": "64175",
+        "text": "Let's have lunch."
+      },
+      {
+        "id": "277613",
+        "text": "Let's eat lunch."
+      }
+    ],
+    "indices": "昼飯{昼メシ} に 為る(する){しよう}",
+    "vocabIds": [
+      "1426410"
+    ],
+    "matches": {
+      "1426410": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ひるめし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "140548",
+    "original": "早く始めれば昼飯までに終えられる。",
+    "en": [
+      {
+        "id": "274025",
+        "text": "If we begin early, we can finish by lunch."
+      }
+    ],
+    "indices": "早く[01] 始める[03]{始めれば} 昼飯 迄{まで} に 終える{終えられる}",
+    "vocabIds": [
+      "1307550",
+      "1332760",
+      "1404975",
+      "1426410"
+    ],
+    "matches": {
+      "1307550": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "はじめれば"
+        }
+      ],
+      "1332760": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "おえ"
+        }
+      ],
+      "1404975": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "はやく"
+        }
+      ],
+      "1426410": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ひるめし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "605958",
+    "original": "僕が昼飯を喰っている時、吉弥は僕のところへやって来て、飯の給仕をしてくれながら太い指にきらめいている宝石入りの指輪を嬉しそうにいじくっていた。",
+    "en": [
+      {
+        "id": "605959",
+        "text": "As I was eating lunch, Kichiya came to me and, while she was serving my meal, she was toying happily with her ring set with a gleaming jewel."
+      }
+    ],
+    "vocabIds": [
+      "1012790",
+      "1592100",
+      "1616370",
+      "1426410",
+      "1230240",
+      "1408180",
+      "1516220",
+      "1465410",
+      "1310050",
+      "1521400",
+      "2228300",
+      "1315840",
+      "2230960",
+      "2580180",
+      "1482010",
+      "1309650",
+      "2423450"
+    ],
+    "matches": {
+      "1012790": [
+        {
+          "start": 21,
+          "length": 5,
+          "reading": "やってきて"
+        }
+      ],
+      "1230240": [
+        {
+          "start": 29,
+          "length": 2,
+          "reading": "きゅうじ"
+        }
+      ],
+      "1309650": [
+        {
+          "start": 41,
+          "length": 1,
+          "reading": "ゆび"
+        }
+      ],
+      "1310050": [
+        {
+          "start": 55,
+          "length": 2,
+          "reading": "ゆびわ"
+        }
+      ],
+      "1315840": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "とき"
+        }
+      ],
+      "1408180": [
+        {
+          "start": 39,
+          "length": 2,
+          "reading": "ふとい"
+        }
+      ],
+      "1426410": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ひるめし"
+        }
+      ],
+      "1465410": [
+        {
+          "start": 52,
+          "length": 2,
+          "reading": "いり"
+        }
+      ],
+      "1482010": [
+        {
+          "start": 27,
+          "length": 1,
+          "reading": "めし"
+        }
+      ],
+      "1516220": [
+        {
+          "start": 50,
+          "length": 2,
+          "reading": "ほうせき"
+        }
+      ],
+      "1521400": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぼく"
+        },
+        {
+          "start": 15,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ],
+      "1592100": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "くっている"
+        }
+      ],
+      "1616370": [
+        {
+          "start": 58,
+          "length": 4,
+          "reading": "うれしそう"
+        }
+      ],
+      "2228300": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぼく"
+        },
+        {
+          "start": 15,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ],
+      "2230960": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "よし"
+        }
+      ],
+      "2423450": [
+        {
+          "start": 41,
+          "length": 1,
+          "reading": "ゆび"
+        }
+      ],
+      "2580180": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "わたる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9549731",
+    "original": "トムなら昼めし食いに食堂に行ったよ。",
+    "en": [
+      {
+        "id": "7732197",
+        "text": "Tom went to the cafeteria for lunch."
+      }
+    ],
+    "vocabIds": [
+      "1426410",
+      "1578850",
+      "2629370",
+      "1358550"
+    ],
+    "matches": {
+      "1358550": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "しょくどう"
+        }
+      ],
+      "1426410": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "ひるめし"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "いった"
+        }
+      ],
+      "2629370": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ぐい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9559268",
+    "original": "あいつなら昼飯食ってるよ。",
+    "en": [
+      {
+        "id": "296636",
+        "text": "He is having lunch."
+      }
+    ],
+    "vocabIds": [
+      "1592100",
+      "1426410"
+    ],
+    "matches": {
+      "1426410": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ひるめし"
+        }
+      ],
+      "1592100": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "くってる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9670981",
+    "original": "「トム、なんで遅れるの？」「昼飯、食ってたんだ」",
+    "en": [
+      {
+        "id": "9628649",
+        "text": "\"Why are you late, Tom?\" \"I was eating lunch.\""
+      }
+    ],
+    "vocabIds": [
+      "1592100",
+      "1589040",
+      "1426410"
+    ],
+    "matches": {
+      "1426410": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "ひるめし"
+        }
+      ],
+      "1589040": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "おくれる"
+        }
+      ],
+      "1592100": [
+        {
+          "start": 17,
+          "length": 4,
+          "reading": "くってた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9686104",
+    "original": "まだ昼飯食ってないんだよ。",
+    "en": [
+      {
+        "id": "32579",
+        "text": "I haven't eaten lunch yet."
+      },
+      {
+        "id": "6024911",
+        "text": "I haven't had lunch yet."
+      }
+    ],
+    "vocabIds": [
+      "1592100",
+      "1426410"
+    ],
+    "matches": {
+      "1426410": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ひるめし"
+        }
+      ],
+      "1592100": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "くってない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10083306",
+    "original": "パベルなら、１２時１０分に昼飯食べに行ったよ。",
+    "en": [
+      {
+        "id": "8349540",
+        "text": "Pavel went to lunch at twelve-ten."
+      }
+    ],
+    "vocabIds": [
+      "1334960",
+      "1335070",
+      "1578850",
+      "1358280",
+      "1426410"
+    ],
+    "matches": {
+      "1334960": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "いちにじ"
+        }
+      ],
+      "1335070": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "いちぜろふん"
+        }
+      ],
+      "1358280": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "たべ"
+        }
+      ],
+      "1426410": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "ひるめし"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 18,
+          "length": 3,
+          "reading": "いった"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,145 @@
+[
+  {
+    "id": "150149",
+    "original": "耳寄りな話だ。",
+    "en": [
+      {
+        "id": "264408",
+        "text": "You've told me something."
+      }
+    ],
+    "indices": "耳寄り{耳寄りな} 話(はなし) だ",
+    "vocabIds": [
+      "1611830",
+      "1600900"
+    ],
+    "matches": {
+      "1600900": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "はなし"
+        }
+      ],
+      "1611830": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "みみより"
+        }
+      ]
+    }
+  },
+  {
+    "id": "150150",
+    "original": "耳寄りな話がある。",
+    "en": [
+      {
+        "id": "264407",
+        "text": "I've got an attractive proposition for you."
+      }
+    ],
+    "indices": "耳寄り{耳寄りな}~ 話(はなし) が[01] 有る{ある}",
+    "vocabIds": [
+      "1611830",
+      "1600900"
+    ],
+    "matches": {
+      "1600900": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "はなし"
+        }
+      ],
+      "1611830": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "みみより"
+        }
+      ]
+    }
+  },
+  {
+    "id": "228280",
+    "original": "ウサギの耳はキツネの耳より長い。",
+    "en": [
+      {
+        "id": "65635",
+        "text": "The ears of a rabbit are longer than those of a fox."
+      }
+    ],
+    "indices": "兎{ウサギ} の 耳[01] は 狐[01]{キツネ} の 耳[01] より 長い",
+    "vocabIds": [
+      "1611830",
+      "1429750",
+      "1317170"
+    ],
+    "matches": {
+      "1317170": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "みみ"
+        }
+      ],
+      "1429750": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "ながい"
+        }
+      ],
+      "1611830": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "みみより"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2349341",
+    "original": "アフリカゾウの耳はアジアゾウの耳よりも大きい。",
+    "en": [
+      {
+        "id": "1578624",
+        "text": "The African elephant has bigger ears than the Asian elephant."
+      },
+      {
+        "id": "12593989",
+        "text": "African elephants have larger ears than Asian elephants."
+      }
+    ],
+    "vocabIds": [
+      "1611830",
+      "1588880",
+      "1317170"
+    ],
+    "matches": {
+      "1317170": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "みみ"
+        }
+      ],
+      "1588880": [
+        {
+          "start": 19,
+          "length": 3,
+          "reading": "おおきい"
+        }
+      ],
+      "1611830": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "みみより"
+        }
+      ]
+    }
+  }
+]

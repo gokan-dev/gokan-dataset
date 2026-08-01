@@ -1,0 +1,181 @@
+[
+  {
+    "id": "219539",
+    "original": "この本は本文の部分はそんなに多くない。",
+    "en": [
+      {
+        "id": "56860",
+        "text": "There's not so much text in this book."
+      }
+    ],
+    "indices": "此の{この} 本(ほん)[01] は 本文~ の 部分 は そんなに 多い{多くない}",
+    "vocabIds": [
+      "1407460",
+      "1584270",
+      "1499490",
+      "1260670",
+      "1522150"
+    ],
+    "matches": {
+      "1260670": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ほん"
+        }
+      ],
+      "1407460": [
+        {
+          "start": 14,
+          "length": 4,
+          "reading": "おおくない"
+        }
+      ],
+      "1499490": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ぶぶん"
+        }
+      ],
+      "1522150": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ほん"
+        }
+      ],
+      "1584270": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ほんぶん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "221078",
+    "original": "この情報は注釈ではなく本文で扱うべきだ。",
+    "en": [
+      {
+        "id": "58400",
+        "text": "You should treat this information in the main body of the text, not in the notes."
+      }
+    ],
+    "indices": "此の{この} 情報 は 注釈~ だ{ではなく} 本文 で(#2028980) 扱う 可き{べき} だ",
+    "vocabIds": [
+      "1153440",
+      "1356370",
+      "1426610",
+      "1584270"
+    ],
+    "matches": {
+      "1153440": [
+        {
+          "start": 14,
+          "length": 5,
+          "reading": "あつかうべきだ"
+        }
+      ],
+      "1356370": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "じょうほう"
+        }
+      ],
+      "1426610": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ちゅうしゃく"
+        }
+      ],
+      "1584270": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "ほんぶん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1779380",
+    "original": "この本文の全ての行を翻訳しなさい。",
+    "en": [
+      {
+        "id": "1779240",
+        "text": "Translate every line of this text."
+      }
+    ],
+    "vocabIds": [
+      "1584270",
+      "1595730",
+      "1523400",
+      "1255940",
+      "2270390"
+    ],
+    "matches": {
+      "1255940": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "くだり"
+        }
+      ],
+      "1523400": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "ほんやく"
+        }
+      ],
+      "1584270": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ほんぶん"
+        }
+      ],
+      "1595730": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "すべて"
+        }
+      ],
+      "2270390": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "くだり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "75280",
+    "original": "ＥＲＲＯＲ：本文がありません！",
+    "en": [
+      {
+        "id": "5261292",
+        "text": "ERROR: No body text!"
+      }
+    ],
+    "indices": "本文 が[01] 有る{ありません}",
+    "vocabIds": [
+      "1584270"
+    ],
+    "matches": {
+      "1584270": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ほんぶん"
+        }
+      ]
+    }
+  }
+]

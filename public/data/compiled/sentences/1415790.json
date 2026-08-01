@@ -1,0 +1,95 @@
+[
+  {
+    "id": "218628",
+    "original": "これはかさばるから宅配便で送ろう。",
+    "en": [
+      {
+        "id": "55942",
+        "text": "This is bulky, so I'll send it by home delivery."
+      }
+    ],
+    "indices": "此れ[01]{これ} は 嵩張る{かさばる} から 宅配便~ で(#2028980) 送る{送ろう}",
+    "vocabIds": [
+      "1415790",
+      "1402730"
+    ],
+    "matches": {
+      "1402730": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "おくろう"
+        }
+      ],
+      "1415790": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "たくはいびん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "403811",
+    "original": "例えば、宅配便の受け取りには、判子は必要有りません。",
+    "en": [
+      {
+        "id": "509589",
+        "text": "For example, you don't need a personal seal to collect a parcel."
+      }
+    ],
+    "vocabIds": [
+      "1296400",
+      "1329770",
+      "1556370",
+      "1415790",
+      "1478550",
+      "1487660"
+    ],
+    "matches": {
+      "1296400": [
+        {
+          "start": 20,
+          "length": 5,
+          "reading": "ありません"
+        }
+      ],
+      "1329770": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "うけとり"
+        }
+      ],
+      "1415790": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "たくはいびん"
+        }
+      ],
+      "1478550": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "はんこ"
+        }
+      ],
+      "1487660": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "ひつよう"
+        }
+      ],
+      "1556370": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "たとえば"
+        }
+      ]
+    }
+  }
+]

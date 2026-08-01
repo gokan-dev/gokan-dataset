@@ -1,0 +1,103 @@
+{
+  "id": "1302910",
+  "writtenForm": {
+    "kanji": "山車",
+    "alternatives": [
+      "花車"
+    ],
+    "containedKanji": [
+      "山",
+      "車"
+    ]
+  },
+  "reading": {
+    "primary": "だし",
+    "alternatives": [
+      "さんしゃ",
+      "やまぐるま",
+      "ヤマグルマ"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 49821
+  },
+  "progression": {
+    "kklcStep": 125
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "parade float",
+        "festival float"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "wheel tree (Trochodendron aralioides)"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "やまぐるま"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": true
+  },
+  "isCommon": false,
+  "mergedVocabs": [
+    {
+      "id": "1302910",
+      "isBase": true,
+      "originalPrimaryReading": "だし",
+      "originalGlosses": [
+        "parade float",
+        "festival float"
+      ]
+    },
+    {
+      "id": "2440510",
+      "isBase": false,
+      "originalPrimaryReading": "やまぐるま",
+      "originalGlosses": [
+        "wheel tree (Trochodendron aralioides)"
+      ]
+    }
+  ],
+  "components": [
+    "1302680",
+    "1323080"
+  ],
+  "parents": [
+    "2833594"
+  ]
+}

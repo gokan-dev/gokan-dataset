@@ -1,0 +1,119 @@
+[
+  {
+    "id": "78918",
+    "original": "幼い少女は彼に向かって舌をつき出した。",
+    "en": [
+      {
+        "id": "324798",
+        "text": "The little girl stuck out her tongue at him."
+      }
+    ],
+    "indices": "幼い[01] 少女 は 彼(かれ) に 向かう{向かって} 舌[01] を 突き出す{つき出した}",
+    "vocabIds": [
+      "1779340",
+      "1604800",
+      "1545110",
+      "2863360",
+      "1580290",
+      "2855480",
+      "1000420",
+      "1483070",
+      "1387010"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1387010": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "した"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1545110": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おさない"
+        }
+      ],
+      "1580290": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "しょうじょ"
+        }
+      ],
+      "1604800": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "むかって"
+        }
+      ],
+      "1779340": [
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "つきだし"
+        }
+      ],
+      "2855480": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "しょうじょ"
+        }
+      ],
+      "2863360": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おさない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10557259",
+    "original": "はい、突き出しです。",
+    "en": [
+      {
+        "id": "10574577",
+        "text": "Yes, appetizers have been put out."
+      },
+      {
+        "id": "10574579",
+        "text": "Yes, there are appetizers."
+      },
+      {
+        "id": "10574580",
+        "text": "Yes, I will put snacks out."
+      }
+    ],
+    "vocabIds": [
+      "1779340"
+    ],
+    "matches": {
+      "1779340": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "つきだし"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,243 @@
+[
+  {
+    "id": "110950",
+    "original": "彼はボストン行きの往復切符を買った。",
+    "en": [
+      {
+        "id": "292736",
+        "text": "He bought a round-trip ticket to Boston."
+      }
+    ],
+    "indices": "彼(かれ)[01] は ボストン 行き[01] の 往復切符 を 買う[01]{買った}",
+    "vocabIds": [
+      "1719270",
+      "1473740",
+      "1578790",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1473740": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "かった"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1578790": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "いき"
+        }
+      ],
+      "1719270": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "おうふくきっぷ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "137545",
+    "original": "大阪までの往復切符を二枚下さい。",
+    "en": [
+      {
+        "id": "275691",
+        "text": "Two roundtrip tickets to Osaka, please."
+      }
+    ],
+    "indices": "大阪 迄{まで} の 往復切符 を 二 枚(まい) 下さい",
+    "vocabIds": [
+      "1719270",
+      "1184280",
+      "2078800",
+      "1954200"
+    ],
+    "matches": {
+      "1184280": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "ください"
+        }
+      ],
+      "1719270": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "おうふくきっぷ"
+        }
+      ],
+      "1954200": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "にまい"
+        }
+      ],
+      "2078800": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おおさか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "188539",
+    "original": "往復切符を買いましたか。",
+    "en": [
+      {
+        "id": "25684",
+        "text": "Did you buy a round-trip ticket?"
+      }
+    ],
+    "indices": "往復切符~ を 買う[01]{買いました} か",
+    "vocabIds": [
+      "1473740",
+      "1719270"
+    ],
+    "matches": {
+      "1473740": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "かいました"
+        }
+      ],
+      "1719270": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "おうふくきっぷ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "188540",
+    "original": "往復切符を買いました。",
+    "en": [
+      {
+        "id": "25685",
+        "text": "I bought a round-trip ticket."
+      }
+    ],
+    "indices": "往復切符 を 買う[01]{買いました}",
+    "vocabIds": [
+      "1473740",
+      "1719270"
+    ],
+    "matches": {
+      "1473740": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "かいました"
+        }
+      ],
+      "1719270": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "おうふくきっぷ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "188542",
+    "original": "往復切符の料金は？",
+    "en": [
+      {
+        "id": "25686",
+        "text": "What's the round-trip fare?"
+      }
+    ],
+    "indices": "往復切符 の 料金 は",
+    "vocabIds": [
+      "1719270",
+      "1554280"
+    ],
+    "matches": {
+      "1554280": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "りょうきん"
+        }
+      ],
+      "1719270": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "おうふくきっぷ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10095667",
+    "original": "僕ね、ボストンまでの往復切符持ってるんだ。",
+    "en": [
+      {
+        "id": "10095653",
+        "text": "I have a round trip ticket to Boston."
+      }
+    ],
+    "vocabIds": [
+      "1719270",
+      "1315720",
+      "1521400",
+      "2228300"
+    ],
+    "matches": {
+      "1315720": [
+        {
+          "start": 14,
+          "length": 4,
+          "reading": "もってる"
+        }
+      ],
+      "1521400": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ],
+      "1719270": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "おうふくきっぷ"
+        }
+      ],
+      "2228300": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "id": "77917",
+    "original": "梁が屋根をささえている。",
+    "en": [
+      {
+        "id": "325801",
+        "text": "Beams bear the weight of the roof."
+      }
+    ],
+    "indices": "梁(はり)~ が 屋根 を 支える(ささえる)[01]{ささえている}",
+    "vocabIds": [
+      "1182700",
+      "1648740"
+    ],
+    "matches": {
+      "1182700": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "やね"
+        }
+      ],
+      "1648740": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "やな"
+        }
+      ]
+    }
+  },
+  {
+    "id": "219184",
+    "original": "この梁は２階の重さに耐えられないだろう。",
+    "en": [
+      {
+        "id": "56500",
+        "text": "This beam won't hold the weight of the second story."
+      }
+    ],
+    "indices": "此の{この} 梁(はり) は 階(かい)[02] の 重い{重} さ[01] に 耐える[01]{耐えられない} だろう",
+    "vocabIds": [
+      "1211310",
+      "1461420",
+      "1335750",
+      "1648740"
+    ],
+    "matches": {
+      "1211310": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "たえ"
+        }
+      ],
+      "1335750": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "おもさ"
+        }
+      ],
+      "1461420": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "にかい"
+        }
+      ],
+      "1648740": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "やな"
+        }
+      ]
+    }
+  }
+]

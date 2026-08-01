@@ -1,0 +1,143 @@
+[
+  {
+    "id": "82501",
+    "original": "暴風雨があらん限りの猛威を振るった。",
+    "en": [
+      {
+        "id": "321214",
+        "text": "The storm raged in all its fury."
+      }
+    ],
+    "indices": "暴風雨 が 有らん限り{あらん限りの} 猛威 を 振るう[02]{振るった}~",
+    "vocabIds": [
+      "1540960",
+      "1625000",
+      "1519550",
+      "1533970"
+    ],
+    "matches": {
+      "1519550": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ぼうふうう"
+        }
+      ],
+      "1533970": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "もうい"
+        }
+      ],
+      "1540960": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "あらんかぎり"
+        }
+      ],
+      "1625000": [
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "ふるった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "222269",
+    "original": "この空模様では、おそらく明日の今ごろは台風が猛威をふるっているだろう。",
+    "en": [
+      {
+        "id": "59596",
+        "text": "From the look of the sky, the typhoon will probably be raging in all its fury about this time tomorrow."
+      }
+    ],
+    "indices": "此の{この} 空模様 で(#2028980) は 恐らく{おそらく} 明日 の 今ごろ は 台風 が 猛威 を 振るう[02]{ふるっている} だろう",
+    "vocabIds": [
+      "1246050",
+      "1289160",
+      "1584660",
+      "1596780",
+      "1533970"
+    ],
+    "matches": {
+      "1246050": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "そらもよう"
+        }
+      ],
+      "1289160": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "いまごろ"
+        }
+      ],
+      "1533970": [
+        {
+          "start": 22,
+          "length": 2,
+          "reading": "もうい"
+        }
+      ],
+      "1584660": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "あした"
+        }
+      ],
+      "1596780": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "たいふう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "228361",
+    "original": "インフルエンザが都市部で猛威を振るった。",
+    "en": [
+      {
+        "id": "65717",
+        "text": "The flu struck the metropolitan area."
+      }
+    ],
+    "indices": "インフルエンザ~ が 都市部 で(#2028980) 猛威~ を 振るう[02]{振るった}",
+    "vocabIds": [
+      "1625000",
+      "1943710",
+      "1533970"
+    ],
+    "matches": {
+      "1533970": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "もうい"
+        }
+      ],
+      "1625000": [
+        {
+          "start": 15,
+          "length": 4,
+          "reading": "ふるった"
+        }
+      ],
+      "1943710": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "としぶ"
+        }
+      ]
+    }
+  }
+]

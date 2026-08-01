@@ -1,0 +1,82 @@
+[
+  {
+    "id": "4801264",
+    "original": "よいお年をお迎えください。",
+    "en": [
+      {
+        "id": "30091",
+        "text": "I wish you a Happy New Year."
+      },
+      {
+        "id": "9583347",
+        "text": "I wish you a happy new year."
+      }
+    ],
+    "indices": "良い{よい} 御(お){お} 年(とし)[01] を 迎える[04]{お迎え}~ 下さい{ください}",
+    "vocabIds": [
+      "1253190",
+      "2126050"
+    ],
+    "matches": {
+      "1253190": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "むかえください"
+        }
+      ],
+      "2126050": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "よいおとしを"
+        }
+      ]
+    }
+  },
+  {
+    "id": "192926",
+    "original": "よいお年を。",
+    "en": [
+      {
+        "id": "361350",
+        "text": "Happy New Year!"
+      }
+    ],
+    "indices": "良い{よい} 御(お){お} 年(とし)[01] を",
+    "vocabIds": [
+      "2126050"
+    ],
+    "matches": {
+      "2126050": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "よいおとしを"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9499099",
+    "original": "良いお年を。",
+    "en": [
+      {
+        "id": "2044389",
+        "text": "Happy holidays."
+      }
+    ],
+    "vocabIds": [
+      "2126050"
+    ],
+    "matches": {
+      "2126050": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "よいおとしを"
+        }
+      ]
+    }
+  }
+]

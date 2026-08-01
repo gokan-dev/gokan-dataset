@@ -1,0 +1,391 @@
+[
+  {
+    "id": "82141",
+    "original": "僕は１日に２回歯を磨く。",
+    "en": [
+      {
+        "id": "321574",
+        "text": "I brush my teeth twice a day."
+      }
+    ],
+    "indices": "僕(ぼく)[01] は 一日(いちにち){１日} に 二回{２回} 歯を磨く",
+    "vocabIds": [
+      "2096140",
+      "1576260",
+      "2225040",
+      "1461410",
+      "1521400",
+      "2228300"
+    ],
+    "matches": {
+      "1461410": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "にかい"
+        }
+      ],
+      "1521400": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ],
+      "1576260": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "いちにち"
+        }
+      ],
+      "2096140": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "はをみがく"
+        }
+      ],
+      "2225040": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "いちにち"
+        }
+      ],
+      "2228300": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "86630",
+    "original": "彼女は毎朝歯を磨くと言った。",
+    "en": [
+      {
+        "id": "317081",
+        "text": "She said that she brushes her teeth every morning."
+      }
+    ],
+    "indices": "彼女[01] は 毎朝 歯を磨く と 言う{言った}",
+    "vocabIds": [
+      "2096140",
+      "2540200",
+      "1483150",
+      "1524700"
+    ],
+    "matches": {
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1524700": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "まいあさ"
+        }
+      ],
+      "2096140": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "はをみがく"
+        }
+      ],
+      "2540200": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "といった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "145853",
+    "original": "食事の後は、かならず歯を磨くことにしている。",
+    "en": [
+      {
+        "id": "268709",
+        "text": "I make it a rule to brush my teeth after meals."
+      }
+    ],
+    "indices": "食事 の 後(あと) は 必ず{かならず} 歯を磨く 事(こと){こと} に 為る(する){している}",
+    "vocabIds": [
+      "2096140",
+      "1358490",
+      "1269320",
+      "1269410",
+      "1270100",
+      "1358760"
+    ],
+    "matches": {
+      "1269320": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "のち"
+        }
+      ],
+      "1269410": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "のち"
+        }
+      ],
+      "1270100": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "のち"
+        }
+      ],
+      "1358490": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しょくじ"
+        }
+      ],
+      "1358760": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "のち"
+        }
+      ],
+      "2096140": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "はをみがく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "155773",
+    "original": "私は寝る前に歯をみがくことにしている。",
+    "en": [
+      {
+        "id": "258764",
+        "text": "I make it a rule to brush my teeth before I go to bed."
+      }
+    ],
+    "indices": "私(わたし)[01] は 寝る[02] 前(まえ) に 歯を磨く{歯をみがく} 事にする{ことにしている}",
+    "vocabIds": [
+      "2096140",
+      "1360010",
+      "1392590",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1360010": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ねる"
+        }
+      ],
+      "1392590": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "まえに"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2096140": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "はをみがく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "155787",
+    "original": "私は食後にいつも歯を磨くわけではない。",
+    "en": [
+      {
+        "id": "258750",
+        "text": "I don't always brush my teeth after I eat."
+      }
+    ],
+    "indices": "私(わたし)[01] は 食後 に 何時も[01]{いつも} 歯を磨く 訳ではない{わけではない}",
+    "vocabIds": [
+      "2096140",
+      "1358450",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1358450": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "しょくご"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2096140": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "はをみがく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "492913",
+    "original": "男の人は歯を磨く。",
+    "en": [
+      {
+        "id": "462784",
+        "text": "The man brushes his teeth."
+      }
+    ],
+    "vocabIds": [
+      "2096140",
+      "1420020"
+    ],
+    "matches": {
+      "1420020": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "おとこのひと"
+        }
+      ],
+      "2096140": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "はをみがく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "4772267",
+    "original": "歯を磨くことを忘れないで。",
+    "en": [
+      {
+        "id": "4770643",
+        "text": "Remember to brush your teeth."
+      }
+    ],
+    "vocabIds": [
+      "1519210",
+      "2096140"
+    ],
+    "matches": {
+      "1519210": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "わすれないで"
+        }
+      ],
+      "2096140": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "はをみがく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9851513",
+    "original": "歯を磨くと、歯ぐきから出血しますか？",
+    "en": [
+      {
+        "id": "9851490",
+        "text": "Do your gums bleed when you brush your teeth?"
+      }
+    ],
+    "vocabIds": [
+      "2096140",
+      "1313290",
+      "1338750"
+    ],
+    "matches": {
+      "1313290": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "はぐき"
+        }
+      ],
+      "1338750": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "しゅっけつ"
+        }
+      ],
+      "2096140": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "はをみがく"
+        }
+      ]
+    }
+  }
+]

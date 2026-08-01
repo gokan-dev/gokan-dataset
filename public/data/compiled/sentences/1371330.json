@@ -1,0 +1,87 @@
+[
+  {
+    "id": "74360",
+    "original": "まだ水温低いから泳ぐつもりはないんよ？",
+    "en": [
+      {
+        "id": "329360",
+        "text": "The water temperature's still low so you're not going to swim, are you?"
+      }
+    ],
+    "indices": "未だ{まだ} 水温~ 低い から 泳ぐ 積もり[01]{つもり} は 無い{ない} ん[03] よ",
+    "vocabIds": [
+      "1434180",
+      "1371330",
+      "1174340"
+    ],
+    "matches": {
+      "1174340": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "およぐ"
+        }
+      ],
+      "1371330": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "すいおん"
+        }
+      ],
+      "1434180": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "ひくいから"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10569687",
+    "original": "水温は３８度です。",
+    "en": [
+      {
+        "id": "10569673",
+        "text": "The water's 38 degrees."
+      }
+    ],
+    "vocabIds": [
+      "1371330",
+      "1579350",
+      "1583090",
+      "1445160"
+    ],
+    "matches": {
+      "1371330": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "すいおん"
+        }
+      ],
+      "1445160": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "ど"
+        }
+      ],
+      "1579350": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "さん"
+        }
+      ],
+      "1583090": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "はち"
+        }
+      ]
+    }
+  }
+]

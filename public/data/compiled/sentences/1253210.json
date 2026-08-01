@@ -1,0 +1,96 @@
+[
+  {
+    "id": "74529",
+    "original": "こんな時は、迎え酒に限ります。",
+    "en": [
+      {
+        "id": "329190",
+        "text": "In times like this, there's nothing like a hair of the dog."
+      }
+    ],
+    "indices": "こんな 時(とき) は 迎え酒~ に 限る[03]{限ります}",
+    "vocabIds": [
+      "1264640",
+      "1253210",
+      "1315840"
+    ],
+    "matches": {
+      "1253210": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "むかえざけ"
+        }
+      ],
+      "1264640": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "かぎります"
+        }
+      ],
+      "1315840": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "とき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "77002",
+    "original": "「ん～～・・・迎え酒でもしようかしら」「ちょっとやめてよ。ほら、今朝は焼き魚を作ったから。これだったら食べられるでしょ」",
+    "en": [
+      {
+        "id": "326717",
+        "text": "\"Mmmmn ... maybe I'll have a hair of the dog.\" \"Whoa, hold up a mo! Here, I cooked roast fish for this morning. You ought to be able to eat this OK.\""
+      }
+    ],
+    "indices": "NI{ん} 迎え酒 でも 為る(する){しよう} かしら 一寸(ちょっと){ちょっと} 止める(やめる){やめて} よ ほら 今朝 は 焼き魚 を 作る{作った} から 此れ[01]{これ} だったら 食べる{食べられる} でしょう{でしょ}",
+    "vocabIds": [
+      "2765050",
+      "1597890",
+      "1253210",
+      "1350490",
+      "1579100"
+    ],
+    "matches": {
+      "1253210": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "むかえざけ"
+        }
+      ],
+      "1350490": [
+        {
+          "start": 35,
+          "length": 3,
+          "reading": "やきざかな"
+        }
+      ],
+      "1579100": [
+        {
+          "start": 32,
+          "length": 2,
+          "reading": "けさ"
+        }
+      ],
+      "1597890": [
+        {
+          "start": 39,
+          "length": 5,
+          "reading": "つくったから"
+        }
+      ],
+      "2765050": [
+        {
+          "start": 51,
+          "length": 5,
+          "reading": "たべられる"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "id": "84910",
+    "original": "敷金は必要ですか。",
+    "en": [
+      {
+        "id": "318803",
+        "text": "Do you require a security deposit?"
+      }
+    ],
+    "indices": "敷金~ は 必要[01] ですか",
+    "vocabIds": [
+      "1497040",
+      "1487660"
+    ],
+    "matches": {
+      "1487660": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ひつよう"
+        }
+      ],
+      "1497040": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しききん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "235554",
+    "original": "２ヶ月分の敷金を入れていただきます。",
+    "en": [
+      {
+        "id": "72933",
+        "text": "Please pay a deposit of two month's rent."
+      }
+    ],
+    "indices": "ヶ月 分(ぶん)[02] の 敷金 を[01] 入れる{入れて} 頂く[01]{いただきます}",
+    "vocabIds": [
+      "1465610",
+      "1194480",
+      "2145670",
+      "1497040",
+      "1461140"
+    ],
+    "matches": {
+      "1194480": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "かげつ"
+        }
+      ],
+      "1461140": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "に"
+        }
+      ],
+      "1465610": [
+        {
+          "start": 8,
+          "length": 9,
+          "reading": "いれていただきます"
+        }
+      ],
+      "1497040": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "しききん"
+        }
+      ],
+      "2145670": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ぶんの"
+        }
+      ]
+    }
+  }
+]

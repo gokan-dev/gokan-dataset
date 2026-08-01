@@ -1,0 +1,127 @@
+[
+  {
+    "id": "91825",
+    "original": "彼女はなんとかして世間体をつくろった。",
+    "en": [
+      {
+        "id": "311887",
+        "text": "She managed to keep up appearances."
+      }
+    ],
+    "indices": "彼女[01] は 何とか{なんとか} 為る(する){して} 世間体 を 繕う{つくろった}",
+    "vocabIds": [
+      "1645820",
+      "1483150"
+    ],
+    "matches": {
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1645820": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "せけんてい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "103402",
+    "original": "彼は世間体を気にしない。",
+    "en": [
+      {
+        "id": "300291",
+        "text": "He has no regard to appearance."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 世間体~ を 気にしない",
+    "vocabIds": [
+      "2563780",
+      "1645820",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1645820": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "せけんてい"
+        }
+      ],
+      "2563780": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "きにしない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "143351",
+    "original": "世間体を繕う心配をするより他にやることがある。",
+    "en": [
+      {
+        "id": "271216",
+        "text": "We have other things to do than worry about keeping up appearances."
+      }
+    ],
+    "indices": "世間体 を 繕う[03]~ 心配 を 為る(する)[01]{する} より[04] 他(ほか) に 遣る{やる} 事がある{ことがある}",
+    "vocabIds": [
+      "1645820",
+      "1396480",
+      "1360930",
+      "1203280"
+    ],
+    "matches": {
+      "1203280": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "たに"
+        }
+      ],
+      "1360930": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "しんぱい"
+        }
+      ],
+      "1396480": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "つくろう"
+        }
+      ],
+      "1645820": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "せけんてい"
+        }
+      ]
+    }
+  }
+]

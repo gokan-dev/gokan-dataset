@@ -1,0 +1,80 @@
+[
+  {
+    "id": "203030",
+    "original": "チームきっての名選手がけがしなかったら、うちのチームが簡単に勝っていただろう。",
+    "en": [
+      {
+        "id": "40265",
+        "text": "Our team could easily have brought home the bacon, if it weren't for the team's best man being injured."
+      }
+    ],
+    "indices": "チーム 切っての{きっての} 名選手~ が 怪我[01]{けが} 為る(する){しなかったら} 内(うち){うちの} チーム が 簡単{簡単に} 勝つ{勝っていた} だろう",
+    "vocabIds": [
+      "1346150",
+      "2643320",
+      "1214330"
+    ],
+    "matches": {
+      "1214330": [
+        {
+          "start": 27,
+          "length": 2,
+          "reading": "かんたん"
+        }
+      ],
+      "1346150": [
+        {
+          "start": 30,
+          "length": 8,
+          "reading": "かっていただろう"
+        }
+      ],
+      "2643320": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "めいせんしゅ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "213215",
+    "original": "そのコーチが彼を名選手にした。",
+    "en": [
+      {
+        "id": "50501",
+        "text": "The coach made him a good pitcher."
+      }
+    ],
+    "indices": "其の[01]{その} コーチ が 彼(かれ)[01] を 名選手 に 為る(する){した}",
+    "vocabIds": [
+      "2643320",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "2643320": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "めいせんしゅ"
+        }
+      ]
+    }
+  }
+]

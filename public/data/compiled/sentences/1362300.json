@@ -1,0 +1,63 @@
+[
+  {
+    "id": "145191",
+    "original": "新年会はとても楽しかった。",
+    "en": [
+      {
+        "id": "269372",
+        "text": "We had a very good time at a New Year's party."
+      }
+    ],
+    "indices": "新年会~ は 迚も[01]{とても} 楽しい{楽しかった}",
+    "vocabIds": [
+      "1207240",
+      "1362300"
+    ],
+    "matches": {
+      "1207240": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "たのしかった"
+        }
+      ],
+      "1362300": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "しんねんかい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2499125",
+    "original": "トムとメアリーは新年会で知り合った。",
+    "en": [
+      {
+        "id": "1398190",
+        "text": "Tom and Mary met at a New Year's party."
+      }
+    ],
+    "vocabIds": [
+      "1420450",
+      "1362300"
+    ],
+    "matches": {
+      "1362300": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "しんねんかい"
+        }
+      ],
+      "1420450": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "しりあった"
+        }
+      ]
+    }
+  }
+]

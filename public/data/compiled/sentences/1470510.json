@@ -1,0 +1,109 @@
+[
+  {
+    "id": "74250",
+    "original": "REM睡眠中の脳波は起きている時と同じ脳波であり、夢を見るステージです。",
+    "en": [
+      {
+        "id": "329470",
+        "text": "The brain waves during REM sleep are the same as when awake, and it's the stage when you have dreams."
+      }
+    ],
+    "indices": "レム睡眠{REM睡眠}~ 中(ちゅう)[03] の 脳波[01]~ は 起きる{起きている} 時(とき) と 同じ[01] 脳波 である{であり} 夢 を 見る ステージ[03]~ です",
+    "vocabIds": [
+      "1223640",
+      "1529430",
+      "1372370",
+      "1470510",
+      "1451750",
+      "1423310",
+      "2098290",
+      "1315840"
+    ],
+    "matches": {
+      "1223640": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "おきている"
+        }
+      ],
+      "1315840": [
+        {
+          "start": 15,
+          "length": 1,
+          "reading": "とき"
+        }
+      ],
+      "1372370": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "すいみん"
+        }
+      ],
+      "1423310": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "ちゅう"
+        }
+      ],
+      "1451750": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "おなじ"
+        }
+      ],
+      "1470510": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "のうは"
+        },
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "のうは"
+        }
+      ],
+      "1529430": [
+        {
+          "start": 25,
+          "length": 4,
+          "reading": "ゆめをみる"
+        }
+      ],
+      "2098290": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "ちゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "121719",
+    "original": "脳波をとります。",
+    "en": [
+      {
+        "id": "282286",
+        "text": "I'll take your EEG."
+      }
+    ],
+    "indices": "脳波[02]~ を 取る{とります}",
+    "vocabIds": [
+      "1470510"
+    ],
+    "matches": {
+      "1470510": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "のうは"
+        }
+      ]
+    }
+  }
+]

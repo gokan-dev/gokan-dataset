@@ -1,0 +1,95 @@
+[
+  {
+    "id": "75747",
+    "original": "彼女は妻？あなたも隅に置けないわねえ。",
+    "en": [
+      {
+        "id": "327971",
+        "text": "She's your wife? There's more to you than meets the eye."
+      }
+    ],
+    "indices": "彼女[01] は 妻(#1294330)[01] 貴方(あなた)[01]{あなた} も 隅に置けない~ わね{わねえ}",
+    "vocabIds": [
+      "1854200",
+      "1483150",
+      "1294330",
+      "1312880",
+      "1581610",
+      "2843131"
+    ],
+    "matches": {
+      "1294330": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "つま"
+        }
+      ],
+      "1312880": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "つま"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1581610": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "つま"
+        }
+      ],
+      "1854200": [
+        {
+          "start": 9,
+          "length": 6,
+          "reading": "すみにおけない"
+        }
+      ],
+      "2843131": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "つま"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1442144",
+    "original": "あなただってなかなか隅に置けないって噂があるけど。",
+    "en": [
+      {
+        "id": "1487430",
+        "text": "I hear that you yourself are quite the smooth operator."
+      }
+    ],
+    "vocabIds": [
+      "1854200",
+      "1172590"
+    ],
+    "matches": {
+      "1172590": [
+        {
+          "start": 18,
+          "length": 1,
+          "reading": "うわさ"
+        }
+      ],
+      "1854200": [
+        {
+          "start": 10,
+          "length": 6,
+          "reading": "すみにおけない"
+        }
+      ]
+    }
+  }
+]

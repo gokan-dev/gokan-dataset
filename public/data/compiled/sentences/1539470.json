@@ -1,0 +1,41 @@
+[
+  {
+    "id": "75535",
+    "original": "うん。確か使ってない優待券もどこかにあったはず。",
+    "en": [
+      {
+        "id": "328184",
+        "text": "Yes. I'm pretty sure there are complimentary tickets that haven't been used somewhere."
+      }
+    ],
+    "indices": "うん[01] 確か[03] 使う{使ってない} 優待券~ も 何処か[01]{どこか} に 有る{あった} 筈[01]{はず}",
+    "vocabIds": [
+      "1305990",
+      "1539470",
+      "1596930"
+    ],
+    "matches": {
+      "1305990": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "つかってない"
+        }
+      ],
+      "1539470": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "ゆうたいけん"
+        }
+      ],
+      "1596930": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "たしか"
+        }
+      ]
+    }
+  }
+]

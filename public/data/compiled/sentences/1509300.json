@@ -1,0 +1,67 @@
+[
+  {
+    "id": "86816",
+    "original": "彼女は壁の花だ。",
+    "en": [
+      {
+        "id": "316894",
+        "text": "She is just a wallflower."
+      },
+      {
+        "id": "11129757",
+        "text": "She's just a wallflower."
+      }
+    ],
+    "indices": "彼女[01] は 壁[01] の 花[01] だ",
+    "vocabIds": [
+      "1509300",
+      "1483150"
+    ],
+    "matches": {
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1509300": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "かべのはな"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9584973",
+    "original": "壁の花になってちゃ駄目よ。",
+    "en": [
+      {
+        "id": "34666",
+        "text": "Don't be a wallflower."
+      }
+    ],
+    "vocabIds": [
+      "1509300",
+      "1409110"
+    ],
+    "matches": {
+      "1409110": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "だめ"
+        }
+      ],
+      "1509300": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "かべのはな"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,113 @@
+[
+  {
+    "id": "170804",
+    "original": "再来週の木曜日はどう？",
+    "en": [
+      {
+        "id": "243676",
+        "text": "How about two weeks from Thursday?"
+      }
+    ],
+    "indices": "再来週~ の 木曜日 は 如何(どう){どう}",
+    "vocabIds": [
+      "1293650",
+      "1534890"
+    ],
+    "matches": {
+      "1293650": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "さらいしゅう"
+        }
+      ],
+      "1534890": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "もくようび"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2366082",
+    "original": "また再来週。",
+    "en": [
+      {
+        "id": "2394536",
+        "text": "See you the week after next week."
+      },
+      {
+        "id": "2394537",
+        "text": "See you in two weeks."
+      }
+    ],
+    "vocabIds": [
+      "1293650"
+    ],
+    "matches": {
+      "1293650": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "さらいしゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10193839",
+    "original": "彼らは再来週にお店に行きます。",
+    "en": [
+      {
+        "id": "10193846",
+        "text": "They will go to the store the week after next."
+      }
+    ],
+    "vocabIds": [
+      "1578850",
+      "1293650",
+      "1483090",
+      "2397090",
+      "2842661"
+    ],
+    "matches": {
+      "1293650": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "さらいしゅう"
+        }
+      ],
+      "1483090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれら"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "いきます"
+        }
+      ],
+      "2397090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれら"
+        }
+      ],
+      "2842661": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "おみせ"
+        }
+      ]
+    }
+  }
+]

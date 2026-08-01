@@ -1,0 +1,109 @@
+[
+  {
+    "id": "85594",
+    "original": "飛行時間はどれくらいですか。",
+    "en": [
+      {
+        "id": "318118",
+        "text": "How long will the flight time be?"
+      },
+      {
+        "id": "8226747",
+        "text": "How long will the flight be?"
+      }
+    ],
+    "indices": "飛行時間 は 何れくらい{どれくらい} ですか",
+    "vocabIds": [
+      "1485510"
+    ],
+    "matches": {
+      "1485510": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "ひこうじかん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "85595",
+    "original": "飛行時間はどのくらいですか。",
+    "en": [
+      {
+        "id": "318118",
+        "text": "How long will the flight time be?"
+      },
+      {
+        "id": "8226747",
+        "text": "How long will the flight be?"
+      }
+    ],
+    "indices": "飛行時間~ は どの位{どのくらい} ですか",
+    "vocabIds": [
+      "1485510"
+    ],
+    "matches": {
+      "1485510": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "ひこうじかん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "124284",
+    "original": "東京からハワイまで飛行時間はどのくらいなの。",
+    "en": [
+      {
+        "id": "279710",
+        "text": "How long is the flight from Tokyo to Hawaii?"
+      }
+    ],
+    "indices": "東京 から 布哇{ハワイ} 迄{まで} 飛行時間 は どの位{どのくらい} だ{な} の",
+    "vocabIds": [
+      "1485510",
+      "1447690"
+    ],
+    "matches": {
+      "1447690": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とうきょう"
+        }
+      ],
+      "1485510": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "ひこうじかん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "13151515",
+    "original": "ボストンまで飛行時間はどれぐらいかかりますか。",
+    "en": [
+      {
+        "id": "6340691",
+        "text": "How long does it take to get to Boston by plane?"
+      }
+    ],
+    "vocabIds": [
+      "1485510"
+    ],
+    "matches": {
+      "1485510": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "ひこうじかん"
+        }
+      ]
+    }
+  }
+]

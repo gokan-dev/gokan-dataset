@@ -1,0 +1,101 @@
+[
+  {
+    "id": "75483",
+    "original": "・テキストデータの誤字脱字を修正。",
+    "en": [
+      {
+        "id": "328235",
+        "text": "・ Corrected mistaken/missing characters in the text data."
+      }
+    ],
+    "indices": "テキスト データ 之(の)[01]{の} 誤字~ 脱字~ を[01] 修正",
+    "vocabIds": [
+      "2857867",
+      "1332130"
+    ],
+    "matches": {
+      "1332130": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "しゅうせい"
+        }
+      ],
+      "2857867": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "ごじだつじ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2800318",
+    "original": "誤字脱字を見つけたら教えてください。",
+    "en": [
+      {
+        "id": "2810741",
+        "text": "Please let me know if you find any typos or missing words."
+      }
+    ],
+    "vocabIds": [
+      "1236900",
+      "1604570",
+      "2857867"
+    ],
+    "matches": {
+      "1236900": [
+        {
+          "start": 10,
+          "length": 7,
+          "reading": "おしえてください"
+        }
+      ],
+      "1604570": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "みつけたら"
+        }
+      ],
+      "2857867": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "ごじだつじ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10138214",
+    "original": "誤字脱字だらけで申し訳ないです。",
+    "en": [
+      {
+        "id": "5020487",
+        "text": "Sorry for all the typos."
+      }
+    ],
+    "vocabIds": [
+      "1612040",
+      "2857867"
+    ],
+    "matches": {
+      "1612040": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "もうしわけない"
+        }
+      ],
+      "2857867": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "ごじだつじ"
+        }
+      ]
+    }
+  }
+]

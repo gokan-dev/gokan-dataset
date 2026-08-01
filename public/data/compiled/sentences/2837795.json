@@ -1,0 +1,170 @@
+[
+  {
+    "id": "78965",
+    "original": "予約係の高橋一郎氏に、予約確認のためあなたのクレジットカード番号を連絡して下さい。",
+    "en": [
+      {
+        "id": "324751",
+        "text": "Please tell the reservation clerk, Mr Ichiro Takahashi, your credit card number to confirm your reservation."
+      }
+    ],
+    "indices": "予約係 の 氏(し)[01] に 予約[01] 確認 の 為(ため){ため} 貴方(あなた)[01]{あなた} の クレジットカード 番号 を 連絡[01] 為る(する){して} 下さい",
+    "vocabIds": [
+      "2636030",
+      "2837795",
+      "1948200",
+      "1184280",
+      "1559900",
+      "2101130"
+    ],
+    "matches": {
+      "1184280": [
+        {
+          "start": 37,
+          "length": 3,
+          "reading": "ください"
+        }
+      ],
+      "1559900": [
+        {
+          "start": 33,
+          "length": 2,
+          "reading": "れんらく"
+        }
+      ],
+      "1948200": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "よやくがかり"
+        }
+      ],
+      "2101130": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "し"
+        }
+      ],
+      "2636030": [
+        {
+          "start": 22,
+          "length": 10,
+          "reading": "くれじっとかーどばんごう"
+        }
+      ],
+      "2837795": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "よやくかくにん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "182857",
+    "original": "吉川かおりと言いますが予約しています。これが予約確認書です。",
+    "en": [
+      {
+        "id": "19978",
+        "text": "Hello, I have a reservation, my name is Kaori Yoshikawa. Here is the confirmation card."
+      },
+      {
+        "id": "523180",
+        "text": "I have a reservation, my name is Kaori Yoshikawa. Here's my confirmation card."
+      }
+    ],
+    "indices": "と 言う{言います} が 予約[01] 為る(する){しています} 此れ[01]{これ} が 予約[01] 確認書~ です",
+    "vocabIds": [
+      "1587040",
+      "2837795",
+      "1543750",
+      "1505090",
+      "2037940"
+    ],
+    "matches": {
+      "1505090": [
+        {
+          "start": 26,
+          "length": 1,
+          "reading": "しょ"
+        }
+      ],
+      "1543750": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "よやく"
+        }
+      ],
+      "1587040": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "いいますが"
+        }
+      ],
+      "2037940": [
+        {
+          "start": 26,
+          "length": 1,
+          "reading": "しょ"
+        }
+      ],
+      "2837795": [
+        {
+          "start": 22,
+          "length": 4,
+          "reading": "よやくかくにん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2045888",
+    "original": "五月五日のホテルの予約確認をしたいのですが。",
+    "en": [
+      {
+        "id": "680567",
+        "text": "I'd like to confirm my hotel reservation on May 5th."
+      }
+    ],
+    "vocabIds": [
+      "2837795",
+      "1268170",
+      "1299600",
+      "1268570"
+    ],
+    "matches": {
+      "1268170": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ごがつ"
+        }
+      ],
+      "1268570": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ごにち"
+        }
+      ],
+      "1299600": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ごがつ"
+        }
+      ],
+      "2837795": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "よやくかくにん"
+        }
+      ]
+    }
+  }
+]

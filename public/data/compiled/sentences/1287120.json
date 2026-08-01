@@ -1,0 +1,88 @@
+[
+  {
+    "id": "107245",
+    "original": "彼は国務で忙しい。",
+    "en": [
+      {
+        "id": "296441",
+        "text": "He is busy with affairs of state."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 国務~ で(#2028980) 忙しい(いそがしい)",
+    "vocabIds": [
+      "1519290",
+      "1287120",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1287120": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "こくむ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1519290": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "いそがしい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "137334",
+    "original": "大統領は国務で忙しい。",
+    "en": [
+      {
+        "id": "275902",
+        "text": "The president is busy with affairs of state."
+      }
+    ],
+    "indices": "大統領 は 国務 で(#2028980) 忙しい(いそがしい)",
+    "vocabIds": [
+      "1414650",
+      "1519290",
+      "1287120"
+    ],
+    "matches": {
+      "1287120": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "こくむ"
+        }
+      ],
+      "1414650": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "だいとうりょう"
+        }
+      ],
+      "1519290": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "いそがしい"
+        }
+      ]
+    }
+  }
+]

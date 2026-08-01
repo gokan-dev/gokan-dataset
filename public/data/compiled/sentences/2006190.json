@@ -1,0 +1,80 @@
+[
+  {
+    "id": "74565",
+    "original": "最近いろいろあって歌えなかったから、今日は歌いまくった！",
+    "en": [
+      {
+        "id": "329154",
+        "text": "Recently, what with this and that, I haven't been able to sing so today I sang like there's no tomorrow!"
+      }
+    ],
+    "indices": "最近 色々あって{いろいろあって} 歌う{歌えなかった} から 今日 は 歌いまくる{歌いまくった}~",
+    "vocabIds": [
+      "2006190",
+      "1289400",
+      "1293780"
+    ],
+    "matches": {
+      "1289400": [
+        {
+          "start": 18,
+          "length": 3,
+          "reading": "きょうは"
+        }
+      ],
+      "1293780": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "さいきん"
+        }
+      ],
+      "2006190": [
+        {
+          "start": 21,
+          "length": 6,
+          "reading": "うたいまくった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "109204",
+    "original": "彼は歌いまくった。",
+    "en": [
+      {
+        "id": "294486",
+        "text": "He sang and sang."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 歌いまくる{歌いまくった}",
+    "vocabIds": [
+      "2006190",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "2006190": [
+        {
+          "start": 2,
+          "length": 6,
+          "reading": "うたいまくった"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "150225",
+    "original": "次の便に乗ることができますか。",
+    "en": [
+      {
+        "id": "264332",
+        "text": "Is it possible to get on the next flight?"
+      }
+    ],
+    "indices": "次(つぎ)[01]{次の} 便(びん)[01] に 乗る[01] 事が出来る{ことができます} か",
+    "vocabIds": [
+      "1894560",
+      "1355120"
+    ],
+    "matches": {
+      "1355120": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "のる"
+        }
+      ],
+      "1894560": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "つぎのびん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "150226",
+    "original": "次の便にキャンセルの席がございます。",
+    "en": [
+      {
+        "id": "264331",
+        "text": "There is a canceled seat available on the next flight."
+      }
+    ],
+    "indices": "次(つぎ)[01]{次の} 便(びん)[01] に キャンセル の 席(せき) が 御座います{ございます}",
+    "vocabIds": [
+      "1894560",
+      "1382250",
+      "1604880"
+    ],
+    "matches": {
+      "1382250": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "せき"
+        }
+      ],
+      "1604880": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "せき"
+        }
+      ],
+      "1894560": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "つぎのびん"
+        }
+      ]
+    }
+  }
+]

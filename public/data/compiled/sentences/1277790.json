@@ -1,0 +1,76 @@
+[
+  {
+    "id": "205605",
+    "original": "それは、わたしの好物です。",
+    "en": [
+      {
+        "id": "42850",
+        "text": "It's my favorite food."
+      }
+    ],
+    "indices": "其れ[01]{それ} は 私(わたし)[01]{わたしの} 好物 です",
+    "vocabIds": [
+      "1277790"
+    ],
+    "matches": {
+      "1277790": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "こうぶつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214630",
+    "original": "ステーキとキャビアが私の好物だ。",
+    "en": [
+      {
+        "id": "51923",
+        "text": "Steak and caviar are my favorite dishes."
+      },
+      {
+        "id": "1190264",
+        "text": "Steak and caviar are my favorite foods."
+      }
+    ],
+    "indices": "ステーキ と キャビア が 私(わたし)[01]{私の} 好物~ だ",
+    "vocabIds": [
+      "1277790",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1277790": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "こうぶつ"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  }
+]

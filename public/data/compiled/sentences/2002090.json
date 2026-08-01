@@ -1,0 +1,193 @@
+[
+  {
+    "id": "159383",
+    "original": "私はドアをこじ開けようとしましたが、不可能でした。",
+    "en": [
+      {
+        "id": "255140",
+        "text": "I tried to break the door open, which I found impossible."
+      }
+    ],
+    "indices": "私(わたし)[01] は ドア を 抉じ開ける{こじ開けよう} とする{としました} が 不可能 です{でした}",
+    "vocabIds": [
+      "2002090",
+      "1491520",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1491520": [
+        {
+          "start": 18,
+          "length": 3,
+          "reading": "ふかのう"
+        }
+      ],
+      "2002090": [
+        {
+          "start": 5,
+          "length": 6,
+          "reading": "こじあけよう"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "201820",
+    "original": "ドアをこじ開けた。",
+    "en": [
+      {
+        "id": "39032",
+        "text": "The door was broken open."
+      },
+      {
+        "id": "9835117",
+        "text": "The door was forced open."
+      }
+    ],
+    "indices": "ドア を 抉じ開ける{こじ開けた}",
+    "vocabIds": [
+      "2002090"
+    ],
+    "matches": {
+      "2002090": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "こじあけた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "213205",
+    "original": "そのこそ泥は窓をこじ開けている現場を捕まった。",
+    "en": [
+      {
+        "id": "50491",
+        "text": "The burglar was caught in the act of prying open the window."
+      }
+    ],
+    "indices": "其の[01]{その} こそ泥~ は 窓 を 抉じ開ける{こじ開けている}~ 現場 を 捕まる[01]{捕まった}",
+    "vocabIds": [
+      "2002090",
+      "1514110",
+      "1004430",
+      "1263760",
+      "1401400"
+    ],
+    "matches": {
+      "1004430": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "こそどろ"
+        }
+      ],
+      "1263760": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "げんば"
+        }
+      ],
+      "1401400": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "まど"
+        }
+      ],
+      "1514110": [
+        {
+          "start": 18,
+          "length": 4,
+          "reading": "つかまった"
+        }
+      ],
+      "2002090": [
+        {
+          "start": 8,
+          "length": 7,
+          "reading": "こじあけている"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3480747",
+    "original": "トムは15分もかけて引き出しをかなてこでこじ開けようとしたが、結局開けられなかった。",
+    "en": [
+      {
+        "id": "1922107",
+        "text": "Tom spent fifteen minutes trying to pry open the drawer with a crowbar, but he couldn't get it opened."
+      }
+    ],
+    "vocabIds": [
+      "2002090",
+      "1601650",
+      "1202450",
+      "1254730",
+      "1502860"
+    ],
+    "matches": {
+      "1202450": [
+        {
+          "start": 33,
+          "length": 2,
+          "reading": "あけ"
+        }
+      ],
+      "1254730": [
+        {
+          "start": 31,
+          "length": 2,
+          "reading": "けっきょく"
+        }
+      ],
+      "1502860": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "ふん"
+        }
+      ],
+      "1601650": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "ひきだし"
+        }
+      ],
+      "2002090": [
+        {
+          "start": 20,
+          "length": 6,
+          "reading": "こじあけよう"
+        }
+      ]
+    }
+  }
+]

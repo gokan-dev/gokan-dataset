@@ -1,0 +1,84 @@
+[
+  {
+    "id": "218795",
+    "original": "これじゃあまるで四面楚歌だ。",
+    "en": [
+      {
+        "id": "56110",
+        "text": "I see that I am surrounded by hostile faces."
+      },
+      {
+        "id": "7810481",
+        "text": "I see that I'm surrounded by hostile faces."
+      }
+    ],
+    "indices": "此れ[01]{これ} じゃ{じゃあ} 丸で{まるで} 四面楚歌 だ",
+    "vocabIds": [
+      "1307390"
+    ],
+    "matches": {
+      "1307390": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "しめんそか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "229548",
+    "original": "あんな四面楚歌の状態で、彼よく仕事してられるよな。",
+    "en": [
+      {
+        "id": "66908",
+        "text": "He's completely shunned. I'm surprised he's still working here."
+      }
+    ],
+    "indices": "あんな 四面楚歌~ の 状態 で(#2028980) 彼(かれ)[01] 良く[04]{よく} 仕事[01] 為る(する){してられる} よ な",
+    "vocabIds": [
+      "1307390",
+      "1356730",
+      "1304970",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1304970": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "しごと"
+        }
+      ],
+      "1307390": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "しめんそか"
+        }
+      ],
+      "1356730": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "じょうたい"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  }
+]

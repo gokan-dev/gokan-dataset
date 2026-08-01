@@ -1,0 +1,166 @@
+[
+  {
+    "id": "75540",
+    "original": "「おはようございます。今日は遅かったですね」「うん。ちょっと手間取っちゃって」",
+    "en": [
+      {
+        "id": "328178",
+        "text": "\"Good morning. You're a bit late today, aren't you?\" \"Yes, I ran into a bit of trouble.\""
+      },
+      {
+        "id": "1643209",
+        "text": "\"Good morning. You're late today, aren't you?\" \"Yeah, I got a bit caught up.\""
+      },
+      {
+        "id": "1665448",
+        "text": "\"Good morning. You were a bit late today.\" \"Mhm, I got a tad delayed.\""
+      }
+    ],
+    "indices": "お早うございます{おはようございます} 今日 は 遅い{遅かった} です ね(#2029080)[01] うん 一寸(ちょっと){ちょっと} 手間取る{手間取っ}~ じゃう{ちゃって}",
+    "vocabIds": [
+      "1327420",
+      "1421970",
+      "1289400"
+    ],
+    "matches": {
+      "1289400": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "きょうは"
+        }
+      ],
+      "1327420": [
+        {
+          "start": 30,
+          "length": 8,
+          "reading": "てまどっちゃって"
+        }
+      ],
+      "1421970": [
+        {
+          "start": 14,
+          "length": 6,
+          "reading": "おそかったです"
+        }
+      ]
+    }
+  },
+  {
+    "id": "170135",
+    "original": "昨日、彼女の家を探すのにちょっとばかり手間取った。",
+    "en": [
+      {
+        "id": "244349",
+        "text": "I had some trouble finding her house yesterday."
+      }
+    ],
+    "indices": "昨日 彼女[01]{彼女の} 家(いえ)[01] を 探す のに 一寸(ちょっと){ちょっと} 許り{ばかり} 手間取る{手間取った}",
+    "vocabIds": [
+      "1327420",
+      "1579260",
+      "1483150",
+      "1593670",
+      "1191730",
+      "2098290",
+      "2082160",
+      "2220300"
+    ],
+    "matches": {
+      "1191730": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ],
+      "1327420": [
+        {
+          "start": 19,
+          "length": 5,
+          "reading": "てまどった"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1579260": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きのう"
+        }
+      ],
+      "1593670": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "さがす"
+        }
+      ],
+      "2082160": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ],
+      "2098290": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ],
+      "2220300": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11013833",
+    "original": "友だちと合流するのに手間取った。",
+    "en": [
+      {
+        "id": "11749740",
+        "text": "It took me a while to meet up with my friends."
+      }
+    ],
+    "vocabIds": [
+      "1327420",
+      "1540170",
+      "1285390"
+    ],
+    "matches": {
+      "1285390": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ごうりゅう"
+        }
+      ],
+      "1327420": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "てまどった"
+        }
+      ],
+      "1540170": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ともだち"
+        }
+      ]
+    }
+  }
+]

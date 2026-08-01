@@ -1,0 +1,64 @@
+[
+  {
+    "id": "102398",
+    "original": "彼は大食漢だ。",
+    "en": [
+      {
+        "id": "301295",
+        "text": "He is a big eater."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 大食漢~ だ",
+    "vocabIds": [
+      "1661120",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1661120": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "たいしょくかん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "225223",
+    "original": "ケリーは大食漢だ。",
+    "en": [
+      {
+        "id": "62559",
+        "text": "Kelly eats like a horse."
+      }
+    ],
+    "indices": "は 大食漢 だ",
+    "vocabIds": [
+      "1661120"
+    ],
+    "matches": {
+      "1661120": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "たいしょくかん"
+        }
+      ]
+    }
+  }
+]

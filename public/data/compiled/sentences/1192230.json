@@ -1,0 +1,115 @@
+[
+  {
+    "id": "176258",
+    "original": "警察はありうべき証拠を求めて家宅捜索した。",
+    "en": [
+      {
+        "id": "238206",
+        "text": "The police searched her house for possible evidence."
+      }
+    ],
+    "indices": "警察 は 有り得べき{ありうべき}~ 証拠 を 求める{求めて} 家宅捜索~ 為る(する){した}",
+    "vocabIds": [
+      "1192230",
+      "1229350",
+      "1252390",
+      "1351600"
+    ],
+    "matches": {
+      "1192230": [
+        {
+          "start": 14,
+          "length": 4,
+          "reading": "かたくそうさく"
+        }
+      ],
+      "1229350": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "もとめて"
+        }
+      ],
+      "1252390": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "けいさつ"
+        }
+      ],
+      "1351600": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "しょうこ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2171789",
+    "original": "警察はトム・スミスの家を家宅捜索した。",
+    "en": [
+      {
+        "id": "2172066",
+        "text": "The police searched Tom Smith's house."
+      },
+      {
+        "id": "2172067",
+        "text": "Tom Smith's home got searched by the police."
+      }
+    ],
+    "vocabIds": [
+      "1192230",
+      "1252390",
+      "1191730",
+      "2098290",
+      "2082160",
+      "2220300"
+    ],
+    "matches": {
+      "1191730": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ],
+      "1192230": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "かたくそうさく"
+        }
+      ],
+      "1252390": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "けいさつ"
+        }
+      ],
+      "2082160": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ],
+      "2098290": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ],
+      "2220300": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ]
+    }
+  }
+]

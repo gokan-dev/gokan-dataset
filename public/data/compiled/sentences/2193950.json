@@ -1,0 +1,55 @@
+[
+  {
+    "id": "76482",
+    "original": "はい、お兄ちゃん、半分こ。",
+    "en": [
+      {
+        "id": "327238",
+        "text": "Here, bro, halfsies."
+      }
+    ],
+    "indices": "はい[02] お兄ちゃん[01] 半分こ~",
+    "vocabIds": [
+      "1001840",
+      "2193950"
+    ],
+    "matches": {
+      "1001840": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "おにいちゃん"
+        }
+      ],
+      "2193950": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "はんぶんこ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10040766",
+    "original": "これは半分こずつにしよう。",
+    "en": [
+      {
+        "id": "8043667",
+        "text": "Let's split this fifty-fifty."
+      }
+    ],
+    "vocabIds": [
+      "2193950"
+    ],
+    "matches": {
+      "2193950": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "はんぶんこ"
+        }
+      ]
+    }
+  }
+]

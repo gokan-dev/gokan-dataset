@@ -1,0 +1,125 @@
+{
+  "id": "1452330",
+  "writtenForm": {
+    "kanji": "同行",
+    "alternatives": [],
+    "containedKanji": [
+      "同",
+      "行"
+    ]
+  },
+  "reading": {
+    "primary": "どうぎょう",
+    "alternatives": [
+      "どうこう"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 3809,
+    "kanaRank": 12402
+  },
+  "progression": {
+    "kklcStep": 182
+  },
+  "senses": [
+    {
+      "pos": [
+        "n",
+        "vs"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "fellow pilgrim",
+        "fellow practicer of austerities"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n",
+        "vs",
+        "vi"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "accompanying (someone)",
+        "going with",
+        "travelling together"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "どうこう"
+      ]
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "the same bank",
+        "the said bank"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "どうこう"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1452330",
+      "isBase": true,
+      "originalPrimaryReading": "どうぎょう",
+      "originalGlosses": [
+        "fellow pilgrim",
+        "fellow practicer of austerities"
+      ]
+    },
+    {
+      "id": "1452340",
+      "isBase": false,
+      "originalPrimaryReading": "どうこう",
+      "originalGlosses": [
+        "accompanying (someone)",
+        "going with",
+        "travelling together"
+      ]
+    }
+  ],
+  "components": [
+    "1451730",
+    "2270390"
+  ]
+}

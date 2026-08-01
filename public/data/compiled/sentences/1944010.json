@@ -1,0 +1,103 @@
+[
+  {
+    "id": "79006",
+    "original": "予定到着時刻を教えてください。",
+    "en": [
+      {
+        "id": "324711",
+        "text": "Could you tell me the ETA?"
+      }
+    ],
+    "indices": "予定 到着時刻 を 教える{教えて} 下さい{ください}",
+    "vocabIds": [
+      "1236900",
+      "1944010",
+      "1543240"
+    ],
+    "matches": {
+      "1236900": [
+        {
+          "start": 7,
+          "length": 7,
+          "reading": "おしえてください"
+        }
+      ],
+      "1543240": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "よてい"
+        }
+      ],
+      "1944010": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "とうちゃくじこく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "123905",
+    "original": "到着時刻は何時ですか。",
+    "en": [
+      {
+        "id": "280090",
+        "text": "What is the arrival time?"
+      }
+    ],
+    "indices": "到着時刻 は 何時(なんじ) ですか",
+    "vocabIds": [
+      "1944010",
+      "1188770"
+    ],
+    "matches": {
+      "1188770": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "なんじ"
+        }
+      ],
+      "1944010": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "とうちゃくじこく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "192207",
+    "original": "ロサンゼルス到着時刻は何時ですか。",
+    "en": [
+      {
+        "id": "29370",
+        "text": "What's the arrival time in Los Angeles?"
+      }
+    ],
+    "indices": "羅府{ロサンゼルス}~ 到着時刻~ は 何時(なんじ) ですか",
+    "vocabIds": [
+      "1944010",
+      "1188770"
+    ],
+    "matches": {
+      "1188770": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "なんじ"
+        }
+      ],
+      "1944010": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "とうちゃくじこく"
+        }
+      ]
+    }
+  }
+]

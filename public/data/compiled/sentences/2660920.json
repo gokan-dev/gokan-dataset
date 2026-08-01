@@ -1,0 +1,163 @@
+[
+  {
+    "id": "167053",
+    "original": "私たちの会社は新しい化学工場をロシアに建設する計画をしている。",
+    "en": [
+      {
+        "id": "29166",
+        "text": "Our company is planning to build a new chemical plant in Russia."
+      }
+    ],
+    "indices": "私たち の 会社[01] は 新しい 化学[01] 工場 を 露西亜{ロシア} に 建設 為る(する){する} 計画 を 為る(する){している}",
+    "vocabIds": [
+      "2660920",
+      "1311300",
+      "1361490",
+      "1198550",
+      "1257420",
+      "1252090"
+    ],
+    "matches": {
+      "1198550": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "かいしゃ"
+        }
+      ],
+      "1252090": [
+        {
+          "start": 23,
+          "length": 2,
+          "reading": "けいかく"
+        }
+      ],
+      "1257420": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "けんせつ"
+        }
+      ],
+      "1311300": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1361490": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "あたらしい"
+        }
+      ],
+      "2660920": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "かがくこうじょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "186767",
+    "original": "火がつくとすぐに、その化学工場は爆発した。",
+    "en": [
+      {
+        "id": "23903",
+        "text": "Immediately after it caught fire, the chemical factory blew up."
+      },
+      {
+        "id": "9414945",
+        "text": "Once the chemical plant caught fire, it exploded."
+      }
+    ],
+    "indices": "火がつく と 直ぐに{すぐに} 其の[01]{その} 化学[01] 工場 は 爆発[01] 為る(する){した}",
+    "vocabIds": [
+      "1626690",
+      "2660920",
+      "1475910"
+    ],
+    "matches": {
+      "1475910": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "ばくはつ"
+        }
+      ],
+      "1626690": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "ひがつく"
+        }
+      ],
+      "2660920": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "かがくこうじょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "192004",
+    "original": "わが社は新しい化学工場をロシアに建設することを計画している。",
+    "en": [
+      {
+        "id": "29166",
+        "text": "Our company is planning to build a new chemical plant in Russia."
+      }
+    ],
+    "indices": "我が社{わが社} は 新しい 化学[01] 工場 を 露西亜{ロシア} に 建設 為る(する){する} 事(こと){こと} を 計画 為る(する){している}",
+    "vocabIds": [
+      "2660920",
+      "2093660",
+      "1361490",
+      "1257420",
+      "1252090"
+    ],
+    "matches": {
+      "1252090": [
+        {
+          "start": 23,
+          "length": 2,
+          "reading": "けいかく"
+        }
+      ],
+      "1257420": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "けんせつ"
+        }
+      ],
+      "1361490": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "あたらしい"
+        }
+      ],
+      "2093660": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "わがしゃ"
+        }
+      ],
+      "2660920": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "かがくこうじょう"
+        }
+      ]
+    }
+  }
+]

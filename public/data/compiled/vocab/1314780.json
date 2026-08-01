@@ -1,0 +1,154 @@
+{
+  "id": "1314780",
+  "writtenForm": {
+    "kanji": "侍",
+    "alternatives": [
+      "士"
+    ],
+    "containedKanji": [
+      "侍"
+    ]
+  },
+  "reading": {
+    "primary": "さむらい",
+    "alternatives": [
+      "さぶらい"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 8648,
+    "kanaRank": 38500
+  },
+  "jlptLevel": 1,
+  "progression": {
+    "kklcStep": 388
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "hist"
+        ]
+      },
+      "glosses": [
+        "warrior (esp. of military retainers of daimyos in the Edo period)",
+        "samurai"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "col"
+        ]
+      },
+      "glosses": [
+        "person with a strong backbone",
+        "person that does incredible things",
+        "person of considerable talent"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "man in attendance (on a person of high standing)",
+        "retainer"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "さぶらい"
+      ]
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": true,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "abbr",
+          "hist"
+        ]
+      },
+      "glosses": [
+        "samurai guard house (Heian and Kamakura periods)"
+      ],
+      "related": {
+        "compounds": [
+          "侍所"
+        ]
+      },
+      "appliesToReadings": [
+        "さぶらい"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1314780",
+      "isBase": true,
+      "originalPrimaryReading": "さむらい",
+      "originalGlosses": [
+        "warrior (esp. of military retainers of daimyos in the Edo period)",
+        "samurai"
+      ]
+    },
+    {
+      "id": "2863597",
+      "isBase": false,
+      "originalPrimaryReading": "さぶらい",
+      "originalGlosses": [
+        "man in attendance (on a person of high standing)",
+        "retainer"
+      ]
+    }
+  ],
+  "parents": [
+    "1314940",
+    "1314890",
+    "1314810"
+  ]
+}

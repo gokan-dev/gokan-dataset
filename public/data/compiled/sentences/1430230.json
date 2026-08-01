@@ -1,0 +1,203 @@
+[
+  {
+    "id": "125472",
+    "original": "弟がお金を頂戴と言いました。",
+    "en": [
+      {
+        "id": "278520",
+        "text": "My little brother asked for some money."
+      }
+    ],
+    "indices": "弟[01] が お金 を 頂戴[02] と 言う{言いました}",
+    "vocabIds": [
+      "1587040",
+      "1001820",
+      "1430230",
+      "1581930"
+    ],
+    "matches": {
+      "1001820": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "おかね"
+        }
+      ],
+      "1430230": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ちょうだい"
+        }
+      ],
+      "1581930": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "おとうと"
+        }
+      ],
+      "1587040": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "いいました"
+        }
+      ]
+    }
+  },
+  {
+    "id": "188599",
+    "original": "塩をこちらに頂戴。",
+    "en": [
+      {
+        "id": "25744",
+        "text": "Would you pass the salt, please?"
+      }
+    ],
+    "indices": "塩 を 此方(こちら){こちら} に 頂戴[02]",
+    "vocabIds": [
+      "1430230",
+      "1576630"
+    ],
+    "matches": {
+      "1430230": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ちょうだい"
+        }
+      ],
+      "1576630": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "しお"
+        }
+      ]
+    }
+  },
+  {
+    "id": "195474",
+    "original": "またメール頂戴。",
+    "en": [
+      {
+        "id": "32648",
+        "text": "Drop me a line."
+      }
+    ],
+    "indices": "又{また} メール(#1132620)[01] 頂戴[02]",
+    "vocabIds": [
+      "1430230"
+    ],
+    "matches": {
+      "1430230": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ちょうだい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1233883",
+    "original": "着いたらすぐに手紙を頂戴ね。",
+    "en": [
+      {
+        "id": "1233891",
+        "text": "Please send me a letter as soon as you arrive."
+      }
+    ],
+    "vocabIds": [
+      "1422970",
+      "1607260",
+      "1327720",
+      "1430230"
+    ],
+    "matches": {
+      "1327720": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "てがみ"
+        }
+      ],
+      "1422970": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "ついたら"
+        }
+      ],
+      "1430230": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "ちょうだい"
+        }
+      ],
+      "1607260": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "ついたら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8642500",
+    "original": "あなたのケーキちょっと頂戴。私のも少しあげるから。",
+    "en": [
+      {
+        "id": "10765378",
+        "text": "Give me a bit of your cake. I'll give you a bit of mine, too."
+      }
+    ],
+    "vocabIds": [
+      "1430230",
+      "1348870",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1348870": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "すこし"
+        }
+      ],
+      "1430230": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "ちょうだい"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  }
+]

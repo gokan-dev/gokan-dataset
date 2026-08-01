@@ -1,0 +1,272 @@
+[
+  {
+    "id": "217634",
+    "original": "これを書留で送ると何日くらいかかりますか。",
+    "en": [
+      {
+        "id": "54944",
+        "text": "How many days will it take if I send this as registered mail?"
+      }
+    ],
+    "indices": "此れ[01]{これ} を 書留[01] で(#2028980) 送る と 何日 くらい[01] 掛かる[01]{かかります} か",
+    "vocabIds": [
+      "1402730",
+      "1589960",
+      "1189240"
+    ],
+    "matches": {
+      "1189240": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "なんにち"
+        }
+      ],
+      "1402730": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "おくると"
+        }
+      ],
+      "1589960": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かきとめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "217635",
+    "original": "これを書留でお願いします。",
+    "en": [
+      {
+        "id": "54945",
+        "text": "I'd like to send this by registered mail."
+      },
+      {
+        "id": "1397605",
+        "text": "Please send this by registered mail."
+      }
+    ],
+    "indices": "此れ[01]{これ} を 書留[01] で(#2028980) お願いします",
+    "vocabIds": [
+      "1001720",
+      "1589960"
+    ],
+    "matches": {
+      "1001720": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "おねがいします"
+        }
+      ],
+      "1589960": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かきとめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "221136",
+    "original": "この小包を書留にしたいのですが。",
+    "en": [
+      {
+        "id": "58458",
+        "text": "I'd like to have this parcel registered."
+      }
+    ],
+    "indices": "此の{この} 小包 を 書留[01] に したい のです が[03]",
+    "vocabIds": [
+      "1593290",
+      "1589960"
+    ],
+    "matches": {
+      "1589960": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "かきとめ"
+        }
+      ],
+      "1593290": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "こづつみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "221315",
+    "original": "この手紙を書留にしてもらいたいのですが。",
+    "en": [
+      {
+        "id": "58638",
+        "text": "I want this letter registered."
+      }
+    ],
+    "indices": "此の{この} 手紙 を 書留[01] に 為る(する){して} 貰う[02]{もらい} たい のです が",
+    "vocabIds": [
+      "1327720",
+      "1589960"
+    ],
+    "matches": {
+      "1327720": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "てがみ"
+        }
+      ],
+      "1589960": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "かきとめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "221316",
+    "original": "この手紙を書留にしたい。",
+    "en": [
+      {
+        "id": "58640",
+        "text": "I want to have this letter registered."
+      }
+    ],
+    "indices": "此の{この} 手紙 を 書留[01] に したい",
+    "vocabIds": [
+      "1327720",
+      "1589960"
+    ],
+    "matches": {
+      "1327720": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "てがみ"
+        }
+      ],
+      "1589960": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "かきとめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "221330",
+    "original": "この手紙は紛失するといけないから、書留にするがよい。",
+    "en": [
+      {
+        "id": "58654",
+        "text": "You had better get this letter registered for fear it should be lost."
+      }
+    ],
+    "indices": "此の{この} 手紙 は 紛失 為る(する){する} と 行けない{いけない} から 書留[01]~ に 為る(する){する} が 良い{よい}",
+    "vocabIds": [
+      "1327720",
+      "1505050",
+      "1589960"
+    ],
+    "matches": {
+      "1327720": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "てがみ"
+        }
+      ],
+      "1505050": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ふんしつ"
+        }
+      ],
+      "1589960": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "かきとめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1397528",
+    "original": "これを書留で送りたいのですが。",
+    "en": [
+      {
+        "id": "54945",
+        "text": "I'd like to send this by registered mail."
+      },
+      {
+        "id": "1397606",
+        "text": "I want to send this by registered mail."
+      }
+    ],
+    "vocabIds": [
+      "1402730",
+      "1589960"
+    ],
+    "matches": {
+      "1402730": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "おくりたい"
+        }
+      ],
+      "1589960": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かきとめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9826844",
+    "original": "この手紙を書留にしてほしいんです。",
+    "en": [
+      {
+        "id": "58640",
+        "text": "I want to have this letter registered."
+      }
+    ],
+    "vocabIds": [
+      "1327720",
+      "1589960"
+    ],
+    "matches": {
+      "1327720": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "てがみ"
+        }
+      ],
+      "1589960": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "かきとめ"
+        }
+      ]
+    }
+  }
+]

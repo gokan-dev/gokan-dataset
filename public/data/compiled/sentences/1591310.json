@@ -1,0 +1,311 @@
+[
+  {
+    "id": "142076",
+    "original": "切符売り場はどこですか。",
+    "en": [
+      {
+        "id": "63322",
+        "text": "Where is the ticket window?"
+      },
+      {
+        "id": "272493",
+        "text": "Where's the ticket booth?"
+      },
+      {
+        "id": "1495799",
+        "text": "Where's the ticket counter?"
+      },
+      {
+        "id": "6825708",
+        "text": "Where is the ticket counter?"
+      }
+    ],
+    "indices": "切符売場{切符売り場} は 何処{どこ} ですか",
+    "vocabIds": [
+      "1591310"
+    ],
+    "matches": {
+      "1591310": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "きっぷうりば"
+        }
+      ]
+    }
+  },
+  {
+    "id": "142077",
+    "original": "切符売場はどこでしょうか。",
+    "en": [
+      {
+        "id": "272494",
+        "text": "Where is the ticket office?"
+      }
+    ],
+    "indices": "切符売場 は 何処{どこ} でしょうか",
+    "vocabIds": [
+      "1591310"
+    ],
+    "matches": {
+      "1591310": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "きっぷうりば"
+        }
+      ]
+    }
+  },
+  {
+    "id": "142078",
+    "original": "切符売り場で買わなければなりません。",
+    "en": [
+      {
+        "id": "272492",
+        "text": "You have to buy one at the office."
+      }
+    ],
+    "indices": "切符売場{切符売り場}~ で(#2028980) 買う[01]{買わ} ねばならない{なければなりません}",
+    "vocabIds": [
+      "1473740",
+      "1591310"
+    ],
+    "matches": {
+      "1473740": [
+        {
+          "start": 6,
+          "length": 11,
+          "reading": "かわなければなりません"
+        }
+      ],
+      "1591310": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "きっぷうりば"
+        }
+      ]
+    }
+  },
+  {
+    "id": "187309",
+    "original": "何百人もの人が切符売場の外で待っていました。",
+    "en": [
+      {
+        "id": "24446",
+        "text": "Hundreds of people were waiting outside the ticket office."
+      }
+    ],
+    "indices": "何百 人(にん)[01] も の 人(ひと) が 切符売場 の 外(そと)[01] で(#2028980) 待つ[01]{待っていました}",
+    "vocabIds": [
+      "1410590",
+      "1591310",
+      "1189290",
+      "1580640",
+      "1203250",
+      "1203260",
+      "1605940"
+    ],
+    "matches": {
+      "1189290": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "なんひゃく"
+        }
+      ],
+      "1203250": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "そと"
+        }
+      ],
+      "1203260": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "そと"
+        }
+      ],
+      "1410590": [
+        {
+          "start": 14,
+          "length": 7,
+          "reading": "まっていました"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "にん"
+        },
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ],
+      "1591310": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "きっぷうりば"
+        }
+      ],
+      "1605940": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "そと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "229426",
+    "original": "いいえ、切符売場で買わなければなりません。",
+    "en": [
+      {
+        "id": "66785",
+        "text": "No. You have to buy it at the ticket office."
+      }
+    ],
+    "indices": "いいえ(#1583250)[01] 切符売場 で(#2028980) 買う[01]{買わ} ねばならない{なければなりません}",
+    "vocabIds": [
+      "1473740",
+      "1591310"
+    ],
+    "matches": {
+      "1473740": [
+        {
+          "start": 9,
+          "length": 11,
+          "reading": "かわなければなりません"
+        }
+      ],
+      "1591310": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "きっぷうりば"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1771142",
+    "original": "切符売り場はどこですか？",
+    "en": [
+      {
+        "id": "1495799",
+        "text": "Where's the ticket counter?"
+      },
+      {
+        "id": "6825708",
+        "text": "Where is the ticket counter?"
+      },
+      {
+        "id": "63322",
+        "text": "Where is the ticket window?"
+      },
+      {
+        "id": "272494",
+        "text": "Where is the ticket office?"
+      }
+    ],
+    "vocabIds": [
+      "1591310"
+    ],
+    "matches": {
+      "1591310": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "きっぷうりば"
+        }
+      ]
+    }
+  },
+  {
+    "id": "7011001",
+    "original": "彼は親切にも私を切符売場まで連れていってくれた。",
+    "en": [
+      {
+        "id": "7011006",
+        "text": "He was kind enough to lead me to the ticket counter."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 親切 にも 私(わたし)[01] を 切符売場 迄{まで} 連れて行く{連れていって} 呉れる{くれた}",
+    "vocabIds": [
+      "1559290",
+      "1591310",
+      "1365250",
+      "1000420",
+      "1483070",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1365250": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "しんせつ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1559290": [
+        {
+          "start": 14,
+          "length": 9,
+          "reading": "つれていってくれた"
+        }
+      ],
+      "1591310": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "きっぷうりば"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  }
+]

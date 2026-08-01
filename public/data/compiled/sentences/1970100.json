@@ -1,0 +1,80 @@
+[
+  {
+    "id": "176601",
+    "original": "兄はレスキュー隊のメンバーだ。",
+    "en": [
+      {
+        "id": "237862",
+        "text": "My brother is a member of the rescue squad."
+      }
+    ],
+    "indices": "兄(あに) は レスキュー~ 隊 の メンバー だ",
+    "vocabIds": [
+      "1970100",
+      "1249900"
+    ],
+    "matches": {
+      "1249900": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "あに"
+        }
+      ],
+      "1970100": [
+        {
+          "start": 2,
+          "length": 6,
+          "reading": "れすきゅーたい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "192352",
+    "original": "レスキュー隊は行方不明の乗客を捜査した。",
+    "en": [
+      {
+        "id": "29516",
+        "text": "The rescue party searched for the missing passengers."
+      }
+    ],
+    "indices": "レスキュー 隊 は 行方不明 の 乗客 を 捜査 為る(する){した}",
+    "vocabIds": [
+      "1970100",
+      "1282190",
+      "1580490",
+      "1399660"
+    ],
+    "matches": {
+      "1282190": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "ゆくえふめい"
+        }
+      ],
+      "1399660": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "そうさ"
+        }
+      ],
+      "1580490": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "じょうきゃく"
+        }
+      ],
+      "1970100": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "れすきゅーたい"
+        }
+      ]
+    }
+  }
+]

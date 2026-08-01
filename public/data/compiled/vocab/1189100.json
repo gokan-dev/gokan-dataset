@@ -1,0 +1,140 @@
+{
+  "id": "1189100",
+  "writtenForm": {
+    "kanji": "何人",
+    "alternatives": [
+      "何びと"
+    ],
+    "containedKanji": [
+      "何",
+      "人"
+    ]
+  },
+  "reading": {
+    "primary": "なんにん",
+    "alternatives": [
+      "なにじん",
+      "なにびと",
+      "なんびと",
+      "なんぴと"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 2464,
+    "kanaRank": 234153
+  },
+  "progression": {
+    "kklcStep": 815
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "how many people",
+        "a number of people"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "what nationality"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "なにじん"
+      ]
+    },
+    {
+      "pos": [
+        "pn"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "anyone",
+        "any person",
+        "whoever"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "なにびと"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1189100",
+      "isBase": true,
+      "originalPrimaryReading": "なんにん",
+      "originalGlosses": [
+        "how many people",
+        "a number of people"
+      ]
+    },
+    {
+      "id": "2207370",
+      "isBase": false,
+      "originalPrimaryReading": "なにじん",
+      "originalGlosses": [
+        "what nationality"
+      ]
+    },
+    {
+      "id": "2006130",
+      "isBase": false,
+      "originalPrimaryReading": "なにびと",
+      "originalGlosses": [
+        "anyone",
+        "any person",
+        "whoever"
+      ]
+    }
+  ],
+  "components": [
+    "1577100",
+    "1580640"
+  ],
+  "parents": [
+    "2066670",
+    "2118450",
+    "1577150",
+    "2006140"
+  ]
+}

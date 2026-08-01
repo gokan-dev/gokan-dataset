@@ -1,0 +1,84 @@
+[
+  {
+    "id": "76302",
+    "original": "何でそんな安っぽいペテンにひっかかるんだ。",
+    "en": [
+      {
+        "id": "327418",
+        "text": "Why do people get fooled by such cheap schemes?"
+      }
+    ],
+    "indices": "何で[01] そんな 安っぽい ぺてん{ペテン}~ に 引っ掛かる{ひっかかる} のだ{んだ}",
+    "vocabIds": [
+      "1153680",
+      "1611020"
+    ],
+    "matches": {
+      "1153680": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "やすっぽい"
+        }
+      ],
+      "1611020": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "なんで"
+        }
+      ]
+    }
+  },
+  {
+    "id": "93983",
+    "original": "彼女の服はとても安っぽい生地でできていた。",
+    "en": [
+      {
+        "id": "309723",
+        "text": "Her dress was made of very cheap material."
+      },
+      {
+        "id": "899993",
+        "text": "Her clothes were made of very cheap material."
+      }
+    ],
+    "indices": "彼女[01]{彼女の} 服(ふく)[01] は 迚も[01]{とても} 安っぽい~ 生地(きじ)[01] で(#2028980) 出来る{できていた}",
+    "vocabIds": [
+      "1153680",
+      "1483150",
+      "1379330",
+      "1500940"
+    ],
+    "matches": {
+      "1153680": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "やすっぽい"
+        }
+      ],
+      "1379330": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "きじ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1500940": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "ふく"
+        }
+      ]
+    }
+  }
+]

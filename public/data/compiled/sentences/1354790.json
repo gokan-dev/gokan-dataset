@@ -1,0 +1,147 @@
+[
+  {
+    "id": "146184",
+    "original": "乗り越してしまいました。次の駅までどのぐらいかかりますか。",
+    "en": [
+      {
+        "id": "268379",
+        "text": "I missed my stop. How long does it take to reach the next stop?"
+      }
+    ],
+    "indices": "乗り越す{乗り越して} 仕舞う{しまいました} 次(つぎ)[01]{次の} 駅 迄{まで} どの位{どのぐらい} 掛かる[01]{かかります} か",
+    "vocabIds": [
+      "1354790",
+      "1316380",
+      "1175140"
+    ],
+    "matches": {
+      "1175140": [
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "えき"
+        }
+      ],
+      "1316380": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "つぎ"
+        }
+      ],
+      "1354790": [
+        {
+          "start": 0,
+          "length": 11,
+          "reading": "のりこしてしまいました"
+        }
+      ]
+    }
+  },
+  {
+    "id": "173447",
+    "original": "考え事をしてたら、乗り越してしまった。",
+    "en": [
+      {
+        "id": "241023",
+        "text": "Lost in thought, I missed my stop."
+      }
+    ],
+    "indices": "考え事~ を 為る(する){してたら} 乗り越す{乗り越して}~ 仕舞う{しまった}",
+    "vocabIds": [
+      "1354790",
+      "1281040"
+    ],
+    "matches": {
+      "1281040": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "かんがえごと"
+        }
+      ],
+      "1354790": [
+        {
+          "start": 9,
+          "length": 9,
+          "reading": "のりこしてしまった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "183298",
+    "original": "帰宅の途中電車の中で居眠りをして、乗り越してしまった。",
+    "en": [
+      {
+        "id": "20421",
+        "text": "On my way home, I fell asleep on the train and rode past my station."
+      },
+      {
+        "id": "505519",
+        "text": "On my way home I fell asleep in the train, and rode past my station."
+      }
+    ],
+    "indices": "帰宅 の 途中 電車 の 中(なか) で(#2028980) 居眠り を 為る(する){して} 乗り越す{乗り越して} 仕舞う{しまった}",
+    "vocabIds": [
+      "1354790",
+      "1231890",
+      "1221430",
+      "1582200",
+      "1443530",
+      "1423310",
+      "2098290"
+    ],
+    "matches": {
+      "1221430": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きたく"
+        }
+      ],
+      "1231890": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "いねむり"
+        }
+      ],
+      "1354790": [
+        {
+          "start": 17,
+          "length": 9,
+          "reading": "のりこしてしまった"
+        }
+      ],
+      "1423310": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "なか"
+        }
+      ],
+      "1443530": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "でんしゃ"
+        }
+      ],
+      "1582200": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "とちゅう"
+        }
+      ],
+      "2098290": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "なか"
+        }
+      ]
+    }
+  }
+]

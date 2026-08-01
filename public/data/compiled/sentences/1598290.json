@@ -1,0 +1,127 @@
+[
+  {
+    "id": "175383",
+    "original": "検査に手落ちがあったのではないだろうか。",
+    "en": [
+      {
+        "id": "239082",
+        "text": "I suspect that there was an oversight in the examination."
+      }
+    ],
+    "indices": "検査 に 手落ち~ が[01] 有る{あった} の では無い{ではない} だろうか",
+    "vocabIds": [
+      "1598290",
+      "1257890"
+    ],
+    "matches": {
+      "1257890": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "けんさ"
+        }
+      ],
+      "1598290": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "ておち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "193819",
+    "original": "もしも、単なる手落ちでお支払いが遅れているのでしたら、早急に対処してくださいますか。",
+    "en": [
+      {
+        "id": "30987",
+        "text": "If the delay is simply an oversight, will you please take care of it at once?"
+      }
+    ],
+    "indices": "若しも{もしも} 単なる 手落ち で(#2028980) 御(お){お} 支払い が 遅れる{遅れている} の です{でしたら} 早急{早急に} 対処 為る(する){して} 下さる{くださいます} か",
+    "vocabIds": [
+      "1589040",
+      "1417020",
+      "1598290",
+      "1594480",
+      "1581270",
+      "1410070"
+    ],
+    "matches": {
+      "1410070": [
+        {
+          "start": 30,
+          "length": 2,
+          "reading": "たいしょ"
+        }
+      ],
+      "1417020": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "たんなる"
+        }
+      ],
+      "1581270": [
+        {
+          "start": 27,
+          "length": 2,
+          "reading": "そうきゅう"
+        }
+      ],
+      "1589040": [
+        {
+          "start": 16,
+          "length": 5,
+          "reading": "おくれている"
+        }
+      ],
+      "1594480": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "しはらい"
+        }
+      ],
+      "1598290": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "ておち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "204990",
+    "original": "それは単なる手落ちだ。",
+    "en": [
+      {
+        "id": "42232",
+        "text": "It was simply an oversight."
+      }
+    ],
+    "indices": "其れ[01]{それ} は 単なる 手落ち だ",
+    "vocabIds": [
+      "1417020",
+      "1598290"
+    ],
+    "matches": {
+      "1417020": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "たんなる"
+        }
+      ],
+      "1598290": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "ておち"
+        }
+      ]
+    }
+  }
+]

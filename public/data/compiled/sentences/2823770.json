@@ -1,0 +1,113 @@
+[
+  {
+    "id": "200191",
+    "original": "トムでは無いのですか。",
+    "en": [
+      {
+        "id": "37392",
+        "text": "Aren't you Tom?"
+      }
+    ],
+    "indices": "で は 無い のです か",
+    "vocabIds": [
+      "2823770"
+    ],
+    "matches": {
+      "2823770": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "ではない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "627950",
+    "original": "これは文では無い。",
+    "en": [
+      {
+        "id": "547389",
+        "text": "This is not a sentence."
+      },
+      {
+        "id": "7492665",
+        "text": "This isn't a sentence."
+      }
+    ],
+    "vocabIds": [
+      "2823770",
+      "1505090",
+      "1957010",
+      "2034990"
+    ],
+    "matches": {
+      "1505090": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "ぶん"
+        }
+      ],
+      "1957010": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "ぶん"
+        }
+      ],
+      "2034990": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "ぶん"
+        }
+      ],
+      "2823770": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "ではない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2631267",
+    "original": "トムはここで働くことが好きでは無い。",
+    "en": [
+      {
+        "id": "1026003",
+        "text": "Tom doesn't like working here."
+      }
+    ],
+    "vocabIds": [
+      "2823770",
+      "1451150",
+      "1277450"
+    ],
+    "matches": {
+      "1277450": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "すき"
+        }
+      ],
+      "1451150": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "はたらく"
+        }
+      ],
+      "2823770": [
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "ではない"
+        }
+      ]
+    }
+  }
+]

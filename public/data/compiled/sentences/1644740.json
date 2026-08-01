@@ -1,0 +1,111 @@
+[
+  {
+    "id": "77726",
+    "original": "涙腺が詰まっていると言われました。",
+    "en": [
+      {
+        "id": "325992",
+        "text": "I was told my tear duct was blocked."
+      }
+    ],
+    "indices": "涙腺~ が 詰まる[01]{詰まっている} と 言う{言われました}",
+    "vocabIds": [
+      "1226480",
+      "1644740",
+      "1587040"
+    ],
+    "matches": {
+      "1226480": [
+        {
+          "start": 3,
+          "length": 6,
+          "reading": "つまっている"
+        }
+      ],
+      "1587040": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "いわ"
+        }
+      ],
+      "1644740": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "るいせん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2699831",
+    "original": "昔から涙腺はゆるい方でしたが、40を過ぎてからますます涙もろくなりました。",
+    "en": [
+      {
+        "id": "9986884",
+        "text": "My tear glands have been loose all my life, but once I passed 40 I became much more easily moved to tears."
+      }
+    ],
+    "vocabIds": [
+      "1195970",
+      "1644740",
+      "1382370",
+      "1545790",
+      "1512070",
+      "1516930",
+      "1555930"
+    ],
+    "matches": {
+      "1195970": [
+        {
+          "start": 18,
+          "length": 3,
+          "reading": "すぎて"
+        }
+      ],
+      "1382370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "むかし"
+        }
+      ],
+      "1512070": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "ほう"
+        }
+      ],
+      "1516930": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "ほう"
+        }
+      ],
+      "1545790": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "ほう"
+        }
+      ],
+      "1555930": [
+        {
+          "start": 27,
+          "length": 1,
+          "reading": "なみだ"
+        }
+      ],
+      "1644740": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "るいせん"
+        }
+      ]
+    }
+  }
+]

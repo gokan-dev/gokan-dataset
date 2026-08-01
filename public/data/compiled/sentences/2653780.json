@@ -1,0 +1,80 @@
+[
+  {
+    "id": "118778",
+    "original": "彼には特別賞が与えられた。",
+    "en": [
+      {
+        "id": "284885",
+        "text": "He was awarded a special prize."
+      }
+    ],
+    "indices": "彼(かれ) には 特別 賞 が 与える[01]{与えられた}",
+    "vocabIds": [
+      "2653780",
+      "1544730",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1544730": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "あたえ"
+        }
+      ],
+      "2653780": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "とくべつしょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "197397",
+    "original": "ビルが特別賞に選ばれた。",
+    "en": [
+      {
+        "id": "34583",
+        "text": "Bill was singled out for a special award."
+      }
+    ],
+    "indices": "が 特別 賞 に 選ぶ{選ばれた}",
+    "vocabIds": [
+      "2653780",
+      "1588730"
+    ],
+    "matches": {
+      "1588730": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "えらば"
+        }
+      ],
+      "2653780": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "とくべつしょう"
+        }
+      ]
+    }
+  }
+]

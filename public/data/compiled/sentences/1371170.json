@@ -1,0 +1,962 @@
+[
+  {
+    "id": "87146",
+    "original": "彼女は秘書としては推薦することはできない。",
+    "en": [
+      {
+        "id": "316562",
+        "text": "I cannot recommend her as a secretary."
+      }
+    ],
+    "indices": "彼女[01] は 秘書 としては 推薦 為る(する){する} 事が出来る{ことはできない}",
+    "vocabIds": [
+      "1483150",
+      "1484060",
+      "1371170"
+    ],
+    "matches": {
+      "1371170": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "すいせん"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1484060": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ひしょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "87360",
+    "original": "彼女は彼のことをいくら推薦してもし過ぎることはない。",
+    "en": [
+      {
+        "id": "316348",
+        "text": "She cannot recommend him too much."
+      }
+    ],
+    "indices": "彼女[01] は 彼(かれ) の 事(こと){こと} を 幾ら{いくら} 推薦 為る(する){して} も 為る(する){し} 過ぎる(すぎる) 事(こと){こと} は 無い{ない}",
+    "vocabIds": [
+      "1157220",
+      "1483150",
+      "1000420",
+      "1371170"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かれの"
+        }
+      ],
+      "1157220": [
+        {
+          "start": 16,
+          "length": 4,
+          "reading": "しすぎる"
+        }
+      ],
+      "1371170": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "すいせん"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "105937",
+    "original": "彼は私にこの辞書を推薦してくれた。",
+    "en": [
+      {
+        "id": "297749",
+        "text": "He recommended this dictionary to me."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 私(わたし)[01]{私に} 此の{この} 辞書[01] を 推薦 為る(する){して} 呉れる{くれた}",
+    "vocabIds": [
+      "1318970",
+      "1371170",
+      "1000420",
+      "1483070",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1318970": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "じしょ"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1371170": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "すいせん"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "114909",
+    "original": "彼はあなたをよい地位に推薦するだろう。",
+    "en": [
+      {
+        "id": "288762",
+        "text": "He will recommend you for a good post."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 貴方(あなた)[01]{あなた} を 良い{よい} 地位[02] に 推薦 為る(する){する} だろう",
+    "vocabIds": [
+      "1420780",
+      "1371170",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1371170": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "すいせん"
+        }
+      ],
+      "1420780": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "ちい"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "116771",
+    "original": "彼の推薦のおかげで、私は東京の大学で教鞭をとることが出来た。",
+    "en": [
+      {
+        "id": "286897",
+        "text": "Thanks to his recommendation, I was able to get a teaching job at a college in Tokyo."
+      }
+    ],
+    "indices": "彼(かれ)[01]{彼の} 推薦 の お陰で{おかげで} 私(わたし)[01] は 東京 の 大学 で(#2028980) 教鞭をとる~ 事が出来る{ことが出来た}",
+    "vocabIds": [
+      "2402440",
+      "1340450",
+      "1000420",
+      "1371170",
+      "1447690",
+      "1413240",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれの"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1340450": [
+        {
+          "start": 26,
+          "length": 3,
+          "reading": "できた"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1371170": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "すいせん"
+        }
+      ],
+      "1413240": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "だいがく"
+        }
+      ],
+      "1447690": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "とうきょう"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2402440": [
+        {
+          "start": 18,
+          "length": 5,
+          "reading": "きょうべんをとる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "137311",
+    "original": "大統領候補者として推薦されていた。",
+    "en": [
+      {
+        "id": "275925",
+        "text": "He was being groomed as a presidential candidate."
+      }
+    ],
+    "indices": "大統領 候補者 として 推薦 為れる{されていた}",
+    "vocabIds": [
+      "1997950",
+      "1371170",
+      "1322990"
+    ],
+    "matches": {
+      "1322990": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "しゃ"
+        }
+      ],
+      "1371170": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "すいせん"
+        }
+      ],
+      "1997950": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "だいとうりょうこうほ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "141623",
+    "original": "先生は私たちにこの辞書を推薦してくれた。",
+    "en": [
+      {
+        "id": "272947",
+        "text": "The teacher recommended this dictionary to us."
+      }
+    ],
+    "indices": "先生(せんせい)[01] は 私たち に 此の{この} 辞書[01] を 推薦 為る(する){して} 呉れる{くれた}",
+    "vocabIds": [
+      "1311300",
+      "1387990",
+      "1318970",
+      "1371170"
+    ],
+    "matches": {
+      "1311300": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1318970": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "じしょ"
+        }
+      ],
+      "1371170": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "すいせん"
+        }
+      ],
+      "1387990": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "せんせい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "150115",
+    "original": "自賛は推薦にならない。",
+    "en": [
+      {
+        "id": "264442",
+        "text": "Self-praise is no recommendation."
+      }
+    ],
+    "indices": "自賛~ は 推薦 になる{にならない}",
+    "vocabIds": [
+      "1317800",
+      "1371170"
+    ],
+    "matches": {
+      "1317800": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じさん"
+        }
+      ],
+      "1371170": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "すいせん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "151321",
+    "original": "私達は彼を議長に推薦した。",
+    "en": [
+      {
+        "id": "263235",
+        "text": "We recommended him as chairman."
+      }
+    ],
+    "indices": "私たち{私達} は 彼(かれ) を 議長 に 推薦~ 為る(する){した}",
+    "vocabIds": [
+      "1311300",
+      "1226140",
+      "1371170",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1226140": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ぎちょう"
+        }
+      ],
+      "1311300": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "わたしたち"
+        }
+      ],
+      "1371170": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "すいせん"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "154444",
+    "original": "私は彼が推薦する人なら誰でも雇うつもりだ。",
+    "en": [
+      {
+        "id": "260097",
+        "text": "I'll hire whoever he recommends."
+      }
+    ],
+    "indices": "私(わたし)[01] は 彼(かれ) が 推薦 為る(する){する} 人(ひと) なら 誰でも 雇う[01] 積もり{つもり} だ",
+    "vocabIds": [
+      "1416850",
+      "1371170",
+      "1605570",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1000420",
+      "1483070",
+      "1580640"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1371170": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "すいせん"
+        }
+      ],
+      "1416850": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "だれでも"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ],
+      "1605570": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "やとう"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "160777",
+    "original": "私はこの本をあなたに推薦できます。",
+    "en": [
+      {
+        "id": "253742",
+        "text": "I can recommend this book to you."
+      }
+    ],
+    "indices": "私(わたし)[01] は 此の{この} 本(ほん)[01] を 貴方(あなた)[01]{あなた} に 推薦 出来る{できます}",
+    "vocabIds": [
+      "1371170",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1260670",
+      "1522150"
+    ],
+    "matches": {
+      "1260670": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "ほん"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1371170": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "すいせん"
+        }
+      ],
+      "1522150": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "ほん"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "164476",
+    "original": "私によい辞書を推薦してくれませんか。",
+    "en": [
+      {
+        "id": "250032",
+        "text": "Can you recommend a good dictionary to me?"
+      }
+    ],
+    "indices": "私(わたし)[01] に 良い{よい} 辞書[01] を 推薦 為る(する){して} 呉れる{くれません} か",
+    "vocabIds": [
+      "1318970",
+      "1371170",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1318970": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "じしょ"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1371170": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "すいせん"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "192143",
+    "original": "ロンドンで滞在する場所を推薦してもらえますか。",
+    "en": [
+      {
+        "id": "29306",
+        "text": "Can you recommend a place to stay in London?"
+      },
+      {
+        "id": "2156981",
+        "text": "Can you recommend to me a place to stay in London?"
+      },
+      {
+        "id": "2157005",
+        "text": "Can you recommend a place for me to stay in London?"
+      }
+    ],
+    "indices": "ロンドン で(#2028980) 滞在 為る(する){する} 場所 を 推薦 為る(する){して} 貰う[02]{もらえます} か",
+    "vocabIds": [
+      "1410930",
+      "1355850",
+      "1371170"
+    ],
+    "matches": {
+      "1355850": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "ばしょ"
+        }
+      ],
+      "1371170": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "すいせん"
+        }
+      ],
+      "1410930": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "たいざい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "205783",
+    "original": "それで、私は彼をそのポストに推薦するのです。",
+    "en": [
+      {
+        "id": "43028",
+        "text": "That's why I recommend him for the post."
+      }
+    ],
+    "indices": "其れで{それで} 私(わたし)[01] は 彼(かれ)[01] を 其の[01]{その} ポスト に 推薦 為る(する){する} のです",
+    "vocabIds": [
+      "1371170",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1371170": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "すいせん"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "223003",
+    "original": "このレストランは推薦できます。",
+    "en": [
+      {
+        "id": "60334",
+        "text": "I can recommend this restaurant."
+      }
+    ],
+    "indices": "此の{この} レストラン は 推薦 出来る[01]{できます}",
+    "vocabIds": [
+      "1371170"
+    ],
+    "matches": {
+      "1371170": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "すいせん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "225332",
+    "original": "ゲイのクラブを推薦してください。",
+    "en": [
+      {
+        "id": "62669",
+        "text": "Where can I find a good gay club?"
+      }
+    ],
+    "indices": "ゲイ~ の 倶楽部{クラブ} を 推薦 為る(する){して} 下さい{ください}",
+    "vocabIds": [
+      "1371170"
+    ],
+    "matches": {
+      "1371170": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "すいせん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "233999",
+    "original": "あなたが推薦する場所はありますか。",
+    "en": [
+      {
+        "id": "71372",
+        "text": "Is there any place you recommend?"
+      }
+    ],
+    "indices": "貴方(あなた)[01]{あなた} が 推薦 為る(する){する} 場所 は 有る{あります} か",
+    "vocabIds": [
+      "1371170",
+      "1355850"
+    ],
+    "matches": {
+      "1355850": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "ばしょ"
+        }
+      ],
+      "1371170": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "すいせん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "234059",
+    "original": "あなたが賛成であろうとなかろうと、私は彼を議長に推薦します。",
+    "en": [
+      {
+        "id": "71432",
+        "text": "I'll recommend him as chairman, whether you are in favour of it or not."
+      },
+      {
+        "id": "696351",
+        "text": "I'll recommend him as chairman, whether you are in favor of it or not."
+      }
+    ],
+    "indices": "貴方(あなた)[01]{あなた} が 賛成 で(#2028980) あろうとなかろう と 私(わたし)[01] は 彼(かれ)[01] を 議長 に 推薦 為る(する){します}",
+    "vocabIds": [
+      "1304200",
+      "1226140",
+      "1371170",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 19,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1226140": [
+        {
+          "start": 21,
+          "length": 2,
+          "reading": "ぎちょう"
+        }
+      ],
+      "1304200": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "さんせい"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 17,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 17,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1371170": [
+        {
+          "start": 24,
+          "length": 2,
+          "reading": "すいせん"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 19,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 17,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11021660",
+    "original": "推薦とればよかった。",
+    "en": [
+      {
+        "id": "13140622",
+        "text": "It would have been good if I had gotten a recommendation."
+      }
+    ],
+    "vocabIds": [
+      "1371170"
+    ],
+    "matches": {
+      "1371170": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "すいせん"
+        }
+      ]
+    }
+  }
+]

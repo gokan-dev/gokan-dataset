@@ -1,0 +1,102 @@
+[
+  {
+    "id": "77919",
+    "original": "料理長においしかったとお伝え下さい。",
+    "en": [
+      {
+        "id": "325799",
+        "text": "Please tell the chef it was delicious."
+      }
+    ],
+    "indices": "料理長~ に 美味しい{おいしかった} と 伝える{お伝え} 下さい",
+    "vocabIds": [
+      "2078680",
+      "1184280"
+    ],
+    "matches": {
+      "1184280": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "ください"
+        }
+      ],
+      "2078680": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "りょうりちょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "165189",
+    "original": "私たちは彼女を料理長と呼んでいます。",
+    "en": [
+      {
+        "id": "249316",
+        "text": "We call her a chef."
+      }
+    ],
+    "indices": "私たち は 彼女 を 料理長 と 呼ぶ{呼んでいます}",
+    "vocabIds": [
+      "1266440",
+      "1311300",
+      "2078680",
+      "1483150"
+    ],
+    "matches": {
+      "1266440": [
+        {
+          "start": 11,
+          "length": 6,
+          "reading": "よんでいます"
+        }
+      ],
+      "1311300": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "2078680": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "りょうりちょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11608532",
+    "original": "トムはボストンのレストランで料理長をしているんです。",
+    "en": [
+      {
+        "id": "5909860",
+        "text": "Tom is the head chef at a restaurant in Boston."
+      }
+    ],
+    "vocabIds": [
+      "2078680"
+    ],
+    "matches": {
+      "2078680": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "りょうりちょう"
+        }
+      ]
+    }
+  }
+]

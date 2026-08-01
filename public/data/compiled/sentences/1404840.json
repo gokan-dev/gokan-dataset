@@ -1,0 +1,637 @@
+[
+  {
+    "id": "88098",
+    "original": "彼女は足首をお湯に浸した。",
+    "en": [
+      {
+        "id": "315609",
+        "text": "She bathed her ankle with hot water."
+      }
+    ],
+    "indices": "彼女[01] は 足首 を お湯 に 浸す{浸した}",
+    "vocabIds": [
+      "1362560",
+      "1483150",
+      "1404840",
+      "1002510"
+    ],
+    "matches": {
+      "1002510": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "おゆ"
+        }
+      ],
+      "1362560": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "ひたした"
+        }
+      ],
+      "1404840": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "あしくび"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "101910",
+    "original": "彼は転んで足首を捻挫した。",
+    "en": [
+      {
+        "id": "301783",
+        "text": "He fell, twisting his ankle."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 転ぶ{転んで} 足首 を 捻挫 為る(する){した}",
+    "vocabIds": [
+      "1582130",
+      "1404840",
+      "1469540",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1404840": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "あしくび"
+        }
+      ],
+      "1469540": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "ねんざ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1582130": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "ころんで"
+        }
+      ]
+    }
+  },
+  {
+    "id": "102678",
+    "original": "彼は足首をねんざした。",
+    "en": [
+      {
+        "id": "301016",
+        "text": "He sprained his ankle."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 足首 を 捻挫{ねんざ} 為る(する){した}",
+    "vocabIds": [
+      "1404840",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1404840": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "あしくび"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "139780",
+    "original": "足首のねんざで彼は一ヶ月歩けなかった。",
+    "en": [
+      {
+        "id": "274500",
+        "text": "A sprained ankle disabled him from walking for a month."
+      }
+    ],
+    "indices": "足首 の 捻挫{ねんざ} で(#2028980) 彼(かれ)[01] は 一ヶ月 歩く{歩けなかった}",
+    "vocabIds": [
+      "1587410",
+      "1404840",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1404840": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あしくび"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1587410": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "いちかげつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "155527",
+    "original": "私は石につまずいて、足首をひねってしまった。",
+    "en": [
+      {
+        "id": "259011",
+        "text": "I tripped on a stone, twisting my ankle."
+      }
+    ],
+    "indices": "私(わたし)[01] は 石(いし)[01] に 躓く{つまずいて}~ 足首 を[01] 捻る(ひねる)[02]{ひねって}~ 仕舞う{しまった}",
+    "vocabIds": [
+      "1404840",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1382440"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1382440": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "いし"
+        }
+      ],
+      "1404840": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "あしくび"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "160499",
+    "original": "滑って足首を捻挫した。",
+    "en": [
+      {
+        "id": "254022",
+        "text": "I slipped and twisted my ankle."
+      }
+    ],
+    "indices": "滑る(すべる)[02]{滑って}~ 足首~ を 捻挫~ 為る(する){した}",
+    "vocabIds": [
+      "1208640",
+      "1404840",
+      "1469540"
+    ],
+    "matches": {
+      "1208640": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "すべって"
+        }
+      ],
+      "1404840": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "あしくび"
+        }
+      ],
+      "1469540": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ねんざ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "184905",
+    "original": "階段を踏みはずして足首を捻挫したようです。",
+    "en": [
+      {
+        "id": "22036",
+        "text": "I missed a step on the stairs and I'm afraid I sprained my ankle."
+      }
+    ],
+    "indices": "階段 を 踏み外す{踏みはずして} 足首 を 捻挫 為る(する){した} 様(よう){よう} です",
+    "vocabIds": [
+      "1203090",
+      "1404840",
+      "1469540"
+    ],
+    "matches": {
+      "1203090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かいだん"
+        }
+      ],
+      "1404840": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "あしくび"
+        }
+      ],
+      "1469540": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "ねんざ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2609255",
+    "original": "トムはラグビーの試合中に左足首を骨折した。",
+    "en": [
+      {
+        "id": "2609426",
+        "text": "Tom broke his left ankle during a rugby match."
+      }
+    ],
+    "vocabIds": [
+      "2851259",
+      "1404840",
+      "1288640",
+      "1290800"
+    ],
+    "matches": {
+      "1288640": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "こっせつ"
+        }
+      ],
+      "1290800": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "ひだり"
+        }
+      ],
+      "1404840": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "あしくび"
+        }
+      ],
+      "2851259": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "しあいちゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "7977635",
+    "original": "足首をひねった。",
+    "en": [
+      {
+        "id": "1110536",
+        "text": "I twisted my ankle."
+      }
+    ],
+    "vocabIds": [
+      "1404840"
+    ],
+    "matches": {
+      "1404840": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あしくび"
+        }
+      ]
+    }
+  },
+  {
+    "id": "7989416",
+    "original": "どうやって足首を捻挫したの？",
+    "en": [
+      {
+        "id": "7989084",
+        "text": "How did you sprain your ankle?"
+      }
+    ],
+    "vocabIds": [
+      "1404840",
+      "1469540"
+    ],
+    "matches": {
+      "1404840": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "あしくび"
+        }
+      ],
+      "1469540": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "ねんざ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9032531",
+    "original": "トムね、つまずいた時に足首を折ったんだよ。",
+    "en": [
+      {
+        "id": "9032497",
+        "text": "Tom broke his ankle when he tripped."
+      }
+    ],
+    "vocabIds": [
+      "1385910",
+      "2021540",
+      "1404840"
+    ],
+    "matches": {
+      "1385910": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "おった"
+        }
+      ],
+      "1404840": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "あしくび"
+        }
+      ],
+      "2021540": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "ときに"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9032534",
+    "original": "トムね、つまずいて足首骨折しちゃったんだ。",
+    "en": [
+      {
+        "id": "9032497",
+        "text": "Tom broke his ankle when he tripped."
+      }
+    ],
+    "vocabIds": [
+      "1404840",
+      "1288640"
+    ],
+    "matches": {
+      "1288640": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "こっせつ"
+        }
+      ],
+      "1404840": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "あしくび"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10175667",
+    "original": "足首が腫れてるんです。",
+    "en": [
+      {
+        "id": "9452683",
+        "text": "My ankle is swollen."
+      }
+    ],
+    "vocabIds": [
+      "1328910",
+      "1404840"
+    ],
+    "matches": {
+      "1328910": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "はれてる"
+        }
+      ],
+      "1404840": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あしくび"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11594093",
+    "original": "足首を捻挫しちゃったんだ。",
+    "en": [
+      {
+        "id": "9801129",
+        "text": "I’ve got a sprained ankle."
+      },
+      {
+        "id": "6585290",
+        "text": "I've sprained my ankle."
+      },
+      {
+        "id": "1110536",
+        "text": "I twisted my ankle."
+      },
+      {
+        "id": "4499963",
+        "text": "I sprained my ankle."
+      }
+    ],
+    "vocabIds": [
+      "1404840",
+      "1469540"
+    ],
+    "matches": {
+      "1404840": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あしくび"
+        }
+      ],
+      "1469540": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ねんざ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12022234",
+    "original": "足首を骨折してるんだ。",
+    "en": [
+      {
+        "id": "2358666",
+        "text": "I have a broken ankle."
+      }
+    ],
+    "vocabIds": [
+      "1404840",
+      "1288640"
+    ],
+    "matches": {
+      "1288640": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "こっせつ"
+        }
+      ],
+      "1404840": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あしくび"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12070372",
+    "original": "足首を痛めたのはその時だよ。",
+    "en": [
+      {
+        "id": "3591725",
+        "text": "That's when I injured my ankle."
+      }
+    ],
+    "vocabIds": [
+      "1432720",
+      "2519800",
+      "2002300",
+      "1404840"
+    ],
+    "matches": {
+      "1404840": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あしくび"
+        }
+      ],
+      "1432720": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "いためた"
+        }
+      ],
+      "2002300": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "そのとき"
+        }
+      ],
+      "2519800": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "いためた"
+        }
+      ]
+    }
+  }
+]

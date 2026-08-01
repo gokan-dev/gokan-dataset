@@ -1,0 +1,111 @@
+[
+  {
+    "id": "93028",
+    "original": "彼女はかなり深酒をする癖がある。",
+    "en": [
+      {
+        "id": "310681",
+        "text": "She is given to drinking rather heavily."
+      }
+    ],
+    "indices": "彼女[01] は 可也{かなり} 深酒 を 為る(する){する} 癖 が[01] 有る{ある}",
+    "vocabIds": [
+      "1483150",
+      "1769070",
+      "1509350"
+    ],
+    "matches": {
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1509350": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "くせ"
+        }
+      ],
+      "1769070": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ふかざけ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "103723",
+    "original": "彼は深酒がなおった。",
+    "en": [
+      {
+        "id": "299970",
+        "text": "He was cured of his heavy drinking."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 深酒 が 治る[01]{なおった}",
+    "vocabIds": [
+      "1769070",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1769070": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ふかざけ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "145051",
+    "original": "深酒は体によくない。",
+    "en": [
+      {
+        "id": "269512",
+        "text": "Excessive drinking is destructive of our health."
+      }
+    ],
+    "indices": "深酒~ は 体(からだ)[02] に 良い{よくない}",
+    "vocabIds": [
+      "1769070",
+      "1409140"
+    ],
+    "matches": {
+      "1409140": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "からだ"
+        }
+      ],
+      "1769070": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ふかざけ"
+        }
+      ]
+    }
+  }
+]

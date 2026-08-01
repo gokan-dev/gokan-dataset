@@ -1,0 +1,33 @@
+[
+  {
+    "id": "198419",
+    "original": "ハードが断片化を起こしてるみたい。",
+    "en": [
+      {
+        "id": "35610",
+        "text": "It looks like your hard disk is fragmented."
+      }
+    ],
+    "indices": "ハード[03]~ が 断片~ 化 を 起こす{起こしてる} 見る{み} たい",
+    "vocabIds": [
+      "1223660",
+      "2374060"
+    ],
+    "matches": {
+      "1223660": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "おこしてる"
+        }
+      ],
+      "2374060": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "だんぺんか"
+        }
+      ]
+    }
+  }
+]

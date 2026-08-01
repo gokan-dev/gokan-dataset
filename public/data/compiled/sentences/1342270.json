@@ -1,0 +1,49 @@
+[
+  {
+    "id": "123963",
+    "original": "当日雨天の場合は順延となります。",
+    "en": [
+      {
+        "id": "280032",
+        "text": "If it rains on that day, the game will be postponed until the next fine day."
+      }
+    ],
+    "indices": "当日 雨天 の 場合 は 順延~ となる{となります}",
+    "vocabIds": [
+      "1449210",
+      "1172100",
+      "1355810",
+      "1342270"
+    ],
+    "matches": {
+      "1172100": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "うてん"
+        }
+      ],
+      "1342270": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "じゅんえん"
+        }
+      ],
+      "1355810": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ばあい"
+        }
+      ],
+      "1449210": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とうじつ"
+        }
+      ]
+    }
+  }
+]

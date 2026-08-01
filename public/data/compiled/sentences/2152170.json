@@ -1,0 +1,137 @@
+[
+  {
+    "id": "76785",
+    "original": "くしくも、レジでの合計額は７７７円であった。",
+    "en": [
+      {
+        "id": "326935",
+        "text": "Strangely, the cash register's total was 777 yen."
+      }
+    ],
+    "indices": "奇しくも{くしくも}~ レジ[01]~ で(#2028980) の 合計 額(がく) は 円(えん)[01] である{であった}",
+    "vocabIds": [
+      "2152170",
+      "1319210",
+      "1175570",
+      "1216250"
+    ],
+    "matches": {
+      "1175570": [
+        {
+          "start": 16,
+          "length": 1,
+          "reading": "えん"
+        }
+      ],
+      "1216250": [
+        {
+          "start": 16,
+          "length": 1,
+          "reading": "えん"
+        }
+      ],
+      "1319210": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "なな"
+        },
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "なな"
+        },
+        {
+          "start": 15,
+          "length": 1,
+          "reading": "なな"
+        }
+      ],
+      "2152170": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "ごうけいがく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "173163",
+    "original": "合計額を調べてはどうですか。",
+    "en": [
+      {
+        "id": "241308",
+        "text": "Why don't you go over your sums?"
+      }
+    ],
+    "indices": "合計額~ を 調べる{調べて} は 如何(どう){どう} ですか",
+    "vocabIds": [
+      "2152170",
+      "1429060"
+    ],
+    "matches": {
+      "1429060": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "しらべて"
+        }
+      ],
+      "2152170": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ごうけいがく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "196853",
+    "original": "ページの下の合計額は繰り越しになっている。",
+    "en": [
+      {
+        "id": "34032",
+        "text": "The total at the bottom of the page is carried forward."
+      }
+    ],
+    "indices": "頁(ページ)[01]{ページ} の 下(した)[02] の 合計 額(がく)[02] は 繰り越し~ になる[01]{になっている}",
+    "vocabIds": [
+      "1592430",
+      "2152170",
+      "1184140",
+      "2867124"
+    ],
+    "matches": {
+      "1184140": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "した"
+        }
+      ],
+      "1592430": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "くりこし"
+        }
+      ],
+      "2152170": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "ごうけいがく"
+        }
+      ],
+      "2867124": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "した"
+        }
+      ]
+    }
+  }
+]

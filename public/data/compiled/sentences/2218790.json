@@ -1,0 +1,139 @@
+[
+  {
+    "id": "75055",
+    "original": "「マナカの絵、見して」「えーー、恥ずかしいですよー」",
+    "en": [
+      {
+        "id": "328664",
+        "text": "\"Lemme see your painting, Manaka.\" \"Must you? It's embarrassing!\""
+      }
+    ],
+    "indices": "の[01] 絵 見して~ ええ[04]{えーー}~ 恥ずかしい です よ{よー}",
+    "vocabIds": [
+      "1421630",
+      "2218790",
+      "1202270"
+    ],
+    "matches": {
+      "1202270": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "え"
+        }
+      ],
+      "1421630": [
+        {
+          "start": 16,
+          "length": 7,
+          "reading": "はずかしいです"
+        }
+      ],
+      "2218790": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "みして"
+        }
+      ]
+    }
+  },
+  {
+    "id": "425744",
+    "original": "見してくれ。",
+    "en": [
+      {
+        "id": "425742",
+        "text": "Gimme a look-see."
+      },
+      {
+        "id": "1356990",
+        "text": "Show it to me."
+      }
+    ],
+    "vocabIds": [
+      "2218790"
+    ],
+    "matches": {
+      "2218790": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "みして"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2231023",
+    "original": "写真見して。",
+    "en": [
+      {
+        "id": "1553001",
+        "text": "Show me the photo."
+      },
+      {
+        "id": "2231007",
+        "text": "Show me the picture."
+      }
+    ],
+    "vocabIds": [
+      "2218790",
+      "1321900"
+    ],
+    "matches": {
+      "1321900": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しゃしん"
+        }
+      ],
+      "2218790": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "みして"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2915064",
+    "original": "教科書忘れちゃったんだけど見してもらってもいい？",
+    "en": [
+      {
+        "id": "4641514",
+        "text": "I've forgotten my textbook today. Would you mind sharing yours?"
+      }
+    ],
+    "vocabIds": [
+      "1519210",
+      "1237020",
+      "2218790"
+    ],
+    "matches": {
+      "1237020": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きょうかしょ"
+        }
+      ],
+      "1519210": [
+        {
+          "start": 3,
+          "length": 6,
+          "reading": "わすれちゃった"
+        }
+      ],
+      "2218790": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "みして"
+        }
+      ]
+    }
+  }
+]

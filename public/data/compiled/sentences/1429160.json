@@ -1,0 +1,33 @@
+[
+  {
+    "id": "126021",
+    "original": "調剤できるまでどのくらい時間がかかりますか。",
+    "en": [
+      {
+        "id": "277971",
+        "text": "How long do I have to wait to pick up the medicine?"
+      }
+    ],
+    "indices": "調剤~ 出来る{できる} 迄{まで} どの位{どのくらい} 時間がかかる{時間がかかります} か",
+    "vocabIds": [
+      "1429160",
+      "1315920"
+    ],
+    "matches": {
+      "1315920": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "じかん"
+        }
+      ],
+      "1429160": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ちょうざい"
+        }
+      ]
+    }
+  }
+]

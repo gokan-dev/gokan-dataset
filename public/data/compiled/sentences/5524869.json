@@ -1,0 +1,252 @@
+[
+  {
+    "id": "75339",
+    "original": "「ウィキペディアを引用するな」という主張が昨日だか一昨日だかの朝日新聞に載っていた。",
+    "en": [
+      {
+        "id": "328380",
+        "text": "The exhortation \"Don't quote Wikipedia\" was included in the Asahi newspaper of yesterday or the day before."
+      },
+      {
+        "id": "1101528",
+        "text": "There was a statement in the Asahi newspaper yesterday or the day before stressing that you shouldn't quote Wikipedia."
+      }
+    ],
+    "indices": "ウィキペディア~ を 引用 為る(する){する} な と 言う{いう} 主張 が 昨日 だ か 一昨日~ だ か の 朝日新聞 に 載る[02]{載っていた}",
+    "vocabIds": [
+      "2649690",
+      "5524869",
+      "1576050",
+      "1169660",
+      "1325910",
+      "1579260"
+    ],
+    "matches": {
+      "1169660": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "いんよう"
+        }
+      ],
+      "1325910": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "しゅちょう"
+        }
+      ],
+      "1576050": [
+        {
+          "start": 25,
+          "length": 3,
+          "reading": "おととい"
+        }
+      ],
+      "1579260": [
+        {
+          "start": 21,
+          "length": 2,
+          "reading": "きのう"
+        }
+      ],
+      "2649690": [
+        {
+          "start": 36,
+          "length": 5,
+          "reading": "のっていた"
+        }
+      ],
+      "5524869": [
+        {
+          "start": 31,
+          "length": 4,
+          "reading": "あさひしんぶん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "126151",
+    "original": "朝日新聞にはそのニュースは載っていない。",
+    "en": [
+      {
+        "id": "277839",
+        "text": "The Asahi Shimbun did not carry that news."
+      }
+    ],
+    "indices": "には 其の[01]{その} ニュース は 載る[02]{載っていない}~",
+    "vocabIds": [
+      "2649690",
+      "5524869"
+    ],
+    "matches": {
+      "2649690": [
+        {
+          "start": 13,
+          "length": 6,
+          "reading": "のっていない"
+        }
+      ],
+      "5524869": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "あさひしんぶん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "171423",
+    "original": "これは今日発行の朝日新聞ですか。",
+    "en": [
+      {
+        "id": "243052",
+        "text": "Is this today's issue of the Asahi Shimbun?"
+      }
+    ],
+    "indices": "此れ{これ} は 今日 発行[01] の 朝日新聞 ですか",
+    "vocabIds": [
+      "5524869",
+      "1579110",
+      "1477390"
+    ],
+    "matches": {
+      "1477390": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "はっこう"
+        }
+      ],
+      "1579110": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "きょう"
+        }
+      ],
+      "5524869": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "あさひしんぶん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "186441",
+    "original": "我が家では朝日新聞をとっている。",
+    "en": [
+      {
+        "id": "23577",
+        "text": "At home we subscribe to the Asahi Shimbun."
+      },
+      {
+        "id": "1307544",
+        "text": "We are subscribed to the Asahi paper."
+      }
+    ],
+    "indices": "我が家 で(#2028980) は 新聞 を 取る{とっている}",
+    "vocabIds": [
+      "5524869",
+      "1606650"
+    ],
+    "matches": {
+      "1606650": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "わがや"
+        }
+      ],
+      "5524869": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "あさひしんぶん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "219933",
+    "original": "この物語は朝日新聞に連載された。",
+    "en": [
+      {
+        "id": "57253",
+        "text": "This story appeared serially in the Asahi."
+      }
+    ],
+    "indices": "此の{この} 物語 は 朝日新聞 に 連載~ 為れる{された}",
+    "vocabIds": [
+      "5524869",
+      "1502480",
+      "1559510"
+    ],
+    "matches": {
+      "1502480": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ものがたり"
+        }
+      ],
+      "1559510": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "れんさい"
+        }
+      ],
+      "5524869": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "あさひしんぶん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "228143",
+    "original": "うちは朝日新聞と読売新聞を購読しています。",
+    "en": [
+      {
+        "id": "65497",
+        "text": "We take the Asahi and Yomiuri."
+      }
+    ],
+    "indices": "家(うち){うち} は 朝日 新聞 と NI{読売} 新聞 を 購読 為る(する){しています}",
+    "vocabIds": [
+      "5524869",
+      "5567634",
+      "1282420"
+    ],
+    "matches": {
+      "1282420": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "こうどく"
+        }
+      ],
+      "5524869": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "あさひしんぶん"
+        }
+      ],
+      "5567634": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "よみうりしんぶん"
+        }
+      ]
+    }
+  }
+]

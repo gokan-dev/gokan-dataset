@@ -1,0 +1,123 @@
+{
+  "id": "1215610",
+  "writtenForm": {
+    "kanji": "間中",
+    "alternatives": [
+      "間じゅう",
+      "間半"
+    ],
+    "containedKanji": [
+      "間",
+      "中"
+    ]
+  },
+  "reading": {
+    "primary": "あいだじゅう",
+    "alternatives": [
+      "まなか"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 25425,
+    "kanaRank": 65688
+  },
+  "progression": {
+    "kklcStep": 448
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "during"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "half a ken (approx. 0.9 m)"
+      ],
+      "related": {
+        "compounds": [
+          "一間"
+        ]
+      },
+      "appliesToReadings": [
+        "まなか"
+      ]
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "half-sized tatami mat"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "まなか"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1215610",
+      "isBase": true,
+      "originalPrimaryReading": "あいだじゅう",
+      "originalGlosses": [
+        "during"
+      ]
+    },
+    {
+      "id": "2857956",
+      "isBase": false,
+      "originalPrimaryReading": "まなか",
+      "originalGlosses": [
+        "half a ken (approx. 0.9 m)"
+      ]
+    }
+  ],
+  "components": [
+    "1215230",
+    "1423310"
+  ],
+  "parents": [
+    "2168430"
+  ]
+}

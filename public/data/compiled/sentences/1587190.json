@@ -1,0 +1,397 @@
+[
+  {
+    "id": "90802",
+    "original": "彼女は花を生けるのが好きです。",
+    "en": [
+      {
+        "id": "312910",
+        "text": "She likes to arrange flowers."
+      }
+    ],
+    "indices": "彼女[01] は 花[01] を 生ける[01]~ の が 好き(すき) です",
+    "vocabIds": [
+      "1587190",
+      "1483150",
+      "1277450",
+      "1194500"
+    ],
+    "matches": {
+      "1194500": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "はな"
+        }
+      ],
+      "1277450": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "すき"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1587190": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "いける"
+        }
+      ]
+    }
+  },
+  {
+    "id": "90803",
+    "original": "彼女は花をきれいに生けた。",
+    "en": [
+      {
+        "id": "312909",
+        "text": "She arranged the flowers beautifully."
+      }
+    ],
+    "indices": "彼女[01] は 花[01] を 奇麗{きれい} に 生ける[01]{生けた}",
+    "vocabIds": [
+      "1587190",
+      "1483150",
+      "1194500"
+    ],
+    "matches": {
+      "1194500": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "はな"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1587190": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "いけた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "186568",
+    "original": "花瓶には美しいバラの花が生けている。",
+    "en": [
+      {
+        "id": "23704",
+        "text": "There are some beautiful roses in the vase."
+      }
+    ],
+    "indices": "花瓶(かびん) には 美しい 薔薇{バラ} の 花[01] が 生ける[01]{生けている}",
+    "vocabIds": [
+      "1587190",
+      "1486360",
+      "1194870",
+      "1194500"
+    ],
+    "matches": {
+      "1194500": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "はな"
+        }
+      ],
+      "1194870": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かびん"
+        }
+      ],
+      "1486360": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "うつくしい"
+        }
+      ],
+      "1587190": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "いけている"
+        }
+      ]
+    }
+  },
+  {
+    "id": "192933",
+    "original": "ユリコは余暇に花を生ける。",
+    "en": [
+      {
+        "id": "30099",
+        "text": "Yuriko arranges flowers in her spare time."
+      }
+    ],
+    "indices": "は 余暇~ に 花[01] を 生ける[01]",
+    "vocabIds": [
+      "1587190",
+      "1543980",
+      "1194500"
+    ],
+    "matches": {
+      "1194500": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "はな"
+        }
+      ],
+      "1543980": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "よか"
+        }
+      ],
+      "1587190": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "いける"
+        }
+      ]
+    }
+  },
+  {
+    "id": "222718",
+    "original": "この花を生けて下さいますか。",
+    "en": [
+      {
+        "id": "60048",
+        "text": "Can you arrange these flowers for me?"
+      }
+    ],
+    "indices": "此の{この} 花[01] を 生ける[01]{生けて} 下さる{下さいます} か",
+    "vocabIds": [
+      "1587190",
+      "1194500"
+    ],
+    "matches": {
+      "1194500": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "はな"
+        }
+      ],
+      "1587190": [
+        {
+          "start": 4,
+          "length": 8,
+          "reading": "いけてくださいます"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2081535",
+    "original": "トムは窓の近くのテーブルの上に花の活けてある花瓶を見た。",
+    "en": [
+      {
+        "id": "1877537",
+        "text": "Tom saw a vase of flowers on the table near the window."
+      }
+    ],
+    "vocabIds": [
+      "1587190",
+      "1242160",
+      "1194870",
+      "1259290",
+      "1401400",
+      "1352130",
+      "1194500"
+    ],
+    "matches": {
+      "1194500": [
+        {
+          "start": 15,
+          "length": 1,
+          "reading": "はな"
+        }
+      ],
+      "1194870": [
+        {
+          "start": 22,
+          "length": 2,
+          "reading": "かびん"
+        }
+      ],
+      "1242160": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ちかく"
+        }
+      ],
+      "1259290": [
+        {
+          "start": 25,
+          "length": 2,
+          "reading": "みた"
+        }
+      ],
+      "1352130": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "うえ"
+        }
+      ],
+      "1401400": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "まど"
+        }
+      ],
+      "1587190": [
+        {
+          "start": 17,
+          "length": 5,
+          "reading": "いけてある"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9119559",
+    "original": "メアリーは花瓶に花を生けた。",
+    "en": [
+      {
+        "id": "4144902",
+        "text": "Mary put some flowers in the vase."
+      }
+    ],
+    "vocabIds": [
+      "1587190",
+      "1194870",
+      "1194500"
+    ],
+    "matches": {
+      "1194500": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "はな"
+        }
+      ],
+      "1194870": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "かびん"
+        }
+      ],
+      "1587190": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "いけた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9928422",
+    "original": "彼が花を生けたのよ。",
+    "en": [
+      {
+        "id": "9684673",
+        "text": "He arranged the flowers."
+      }
+    ],
+    "vocabIds": [
+      "1587190",
+      "1000420",
+      "1483070",
+      "1194500"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1194500": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "はな"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1587190": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "いけた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10185238",
+    "original": "花瓶に花を生けました。",
+    "en": [
+      {
+        "id": "9038004",
+        "text": "I put the flowers in the vase."
+      }
+    ],
+    "vocabIds": [
+      "1587190",
+      "1194870",
+      "1194500"
+    ],
+    "matches": {
+      "1194500": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "はな"
+        }
+      ],
+      "1194870": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かびん"
+        }
+      ],
+      "1587190": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "いけました"
+        }
+      ]
+    }
+  }
+]

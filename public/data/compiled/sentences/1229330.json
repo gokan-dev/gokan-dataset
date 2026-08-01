@@ -1,0 +1,49 @@
+[
+  {
+    "id": "182400",
+    "original": "求人広告には「女性を求む」とはっきり書かれていた。",
+    "en": [
+      {
+        "id": "19577",
+        "text": "The job advertisement specifically requested females."
+      }
+    ],
+    "indices": "求人広告~ には 女性[01] を 求む~ と はっきり 書く{書かれていた}",
+    "vocabIds": [
+      "1229520",
+      "1345250",
+      "1229330",
+      "1343950"
+    ],
+    "matches": {
+      "1229330": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "もとむ"
+        }
+      ],
+      "1229520": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "きゅうじんこうこく"
+        }
+      ],
+      "1343950": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "かか"
+        }
+      ],
+      "1345250": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "じょせい"
+        }
+      ]
+    }
+  }
+]

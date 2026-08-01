@@ -1,0 +1,86 @@
+[
+  {
+    "id": "85407",
+    "original": "標本はいくつですか。",
+    "en": [
+      {
+        "id": "318306",
+        "text": "How many samples?"
+      }
+    ],
+    "vocabIds": [
+      "1488820"
+    ],
+    "matches": {
+      "1488820": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ひょうほん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "203536",
+    "original": "たとえば、標本はいくつですか。",
+    "en": [
+      {
+        "id": "40774",
+        "text": "How many samples, for example?"
+      }
+    ],
+    "indices": "例えば{たとえば}~ 標本[01] は 幾つ[01]{いくつ} ですか",
+    "vocabIds": [
+      "1488820"
+    ],
+    "matches": {
+      "1488820": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ひょうほん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "217801",
+    "original": "これらの標本はいくつかの種類に分類される。",
+    "en": [
+      {
+        "id": "55111",
+        "text": "These specimens are divided into several categories."
+      }
+    ],
+    "indices": "此れ等{これらの} 標本[01]~ は 幾つか{いくつかの} 種類 に 分類 為れる{される}",
+    "vocabIds": [
+      "1488820",
+      "1328890",
+      "1504460"
+    ],
+    "matches": {
+      "1328890": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "しゅるい"
+        }
+      ],
+      "1488820": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ひょうほん"
+        }
+      ],
+      "1504460": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "ぶんるい"
+        }
+      ]
+    }
+  }
+]

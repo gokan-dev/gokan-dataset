@@ -1,0 +1,81 @@
+[
+  {
+    "id": "205351",
+    "original": "それはルール違反です。",
+    "en": [
+      {
+        "id": "42594",
+        "text": "It's against the rules."
+      }
+    ],
+    "indices": "其れ[01]{それ} は ルール 違反 です",
+    "vocabIds": [
+      "2405150"
+    ],
+    "matches": {
+      "2405150": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "るーるいはん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8584099",
+    "original": "あっ。すみません。それがルール違反になるとは知りませんでした。",
+    "en": [
+      {
+        "id": "8078627",
+        "text": "Oh, sorry, I didn't know it was against the rules."
+      }
+    ],
+    "vocabIds": [
+      "1420470",
+      "2405150"
+    ],
+    "matches": {
+      "1420470": [
+        {
+          "start": 22,
+          "length": 8,
+          "reading": "しりませんでした"
+        }
+      ],
+      "2405150": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "るーるいはん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11571578",
+    "original": "ルール違反だぞ。",
+    "en": [
+      {
+        "id": "11561953",
+        "text": "You're breaking the rules."
+      },
+      {
+        "id": "42594",
+        "text": "It's against the rules."
+      }
+    ],
+    "vocabIds": [
+      "2405150"
+    ],
+    "matches": {
+      "2405150": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "るーるいはん"
+        }
+      ]
+    }
+  }
+]

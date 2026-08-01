@@ -1,0 +1,616 @@
+[
+  {
+    "id": "143651",
+    "original": "水道の蛇口が壊れていて使えなかった。",
+    "en": [
+      {
+        "id": "270916",
+        "text": "We couldn't use the faucet because it was out of order."
+      }
+    ],
+    "indices": "水道 の 蛇口 が 壊れる[02]{壊れていて} 使える{使えなかった}",
+    "vocabIds": [
+      "1607180",
+      "1199900",
+      "1371920",
+      "1323370"
+    ],
+    "matches": {
+      "1199900": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "こわれていて"
+        }
+      ],
+      "1323370": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "じゃぐち"
+        }
+      ],
+      "1371920": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "すいどう"
+        }
+      ],
+      "1607180": [
+        {
+          "start": 11,
+          "length": 6,
+          "reading": "つかえなかった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "143823",
+    "original": "水が壊れた蛇口から吹き出した。",
+    "en": [
+      {
+        "id": "270743",
+        "text": "Water spouted from the broken faucet."
+      }
+    ],
+    "indices": "水(みず) が 壊れる[01]{壊れた} 蛇口 から 吹き出す{吹き出した}",
+    "vocabIds": [
+      "1602500",
+      "1199900",
+      "1323370",
+      "1371260"
+    ],
+    "matches": {
+      "1199900": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "こわれた"
+        }
+      ],
+      "1323370": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "じゃぐち"
+        }
+      ],
+      "1371260": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "みず"
+        }
+      ],
+      "1602500": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "ふきだした"
+        }
+      ]
+    }
+  },
+  {
+    "id": "148904",
+    "original": "蛇口から水が漏れていますよ。",
+    "en": [
+      {
+        "id": "265654",
+        "text": "The faucet is leaking."
+      }
+    ],
+    "indices": "蛇口 から 水(みず) が 漏れる{漏れています} よ[01]",
+    "vocabIds": [
+      "1605330",
+      "1323370",
+      "1371260"
+    ],
+    "matches": {
+      "1323370": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じゃぐち"
+        }
+      ],
+      "1371260": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "みず"
+        }
+      ],
+      "1605330": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "もれています"
+        }
+      ]
+    }
+  },
+  {
+    "id": "221367",
+    "original": "この蛇口は使えません。故障しています。",
+    "en": [
+      {
+        "id": "58692",
+        "text": "You can't use this faucet. It's out of order."
+      }
+    ],
+    "indices": "此の{この} 蛇口~ は 使える{使えません} 故障[01] 為る(する){しています}",
+    "vocabIds": [
+      "1607180",
+      "1323370",
+      "1267180"
+    ],
+    "matches": {
+      "1267180": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "こしょう"
+        }
+      ],
+      "1323370": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "じゃぐち"
+        }
+      ],
+      "1607180": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "つかえません"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1016247",
+    "original": "水道の蛇口から水がポタポタ落ちてたよ。",
+    "en": [
+      {
+        "id": "2698844",
+        "text": "Water was dripping from the tap."
+      }
+    ],
+    "vocabIds": [
+      "1548550",
+      "1371920",
+      "1323370",
+      "1371260"
+    ],
+    "matches": {
+      "1323370": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "じゃぐち"
+        }
+      ],
+      "1371260": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "みず"
+        }
+      ],
+      "1371920": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "すいどう"
+        }
+      ],
+      "1548550": [
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "おちてた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8928514",
+    "original": "水が蛇口からシンクへと流れゆく。",
+    "en": [
+      {
+        "id": "8924356",
+        "text": "Water is running from the faucet into the sink."
+      }
+    ],
+    "vocabIds": [
+      "1552140",
+      "1323370",
+      "1371260"
+    ],
+    "matches": {
+      "1323370": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "じゃぐち"
+        }
+      ],
+      "1371260": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "みず"
+        }
+      ],
+      "1552140": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "ながれゆく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8928516",
+    "original": "蛇口から流しの中へと水は流れいてる。",
+    "en": [
+      {
+        "id": "8924356",
+        "text": "Water is running from the faucet into the sink."
+      }
+    ],
+    "vocabIds": [
+      "1552140",
+      "1323370",
+      "1552120",
+      "1423310",
+      "2098290",
+      "1371260"
+    ],
+    "matches": {
+      "1323370": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じゃぐち"
+        }
+      ],
+      "1371260": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "みず"
+        }
+      ],
+      "1423310": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "なか"
+        }
+      ],
+      "1552120": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ながし"
+        }
+      ],
+      "1552140": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "ながれいてる"
+        }
+      ],
+      "2098290": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "なか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8983487",
+    "original": "文書をフランス語に翻訳するためにフランス語を母国語としない人を雇うのは、水が漏れる蛇口を修理するために大工を雇うのに似ている。",
+    "en": [
+      {
+        "id": "8427004",
+        "text": "Hiring a non-native French speaker to translate the document into French is like hiring a carpenter to fix your leaky faucet."
+      }
+    ],
+    "vocabIds": [
+      "1111590",
+      "1314600",
+      "1515070",
+      "1605330",
+      "1583840",
+      "1523400",
+      "1605570",
+      "1323370",
+      "1332400",
+      "1413690",
+      "1580640",
+      "1371260"
+    ],
+    "matches": {
+      "1111590": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "ふらんすご"
+        },
+        {
+          "start": 16,
+          "length": 5,
+          "reading": "ふらんすご"
+        }
+      ],
+      "1314600": [
+        {
+          "start": 58,
+          "length": 4,
+          "reading": "にている"
+        }
+      ],
+      "1323370": [
+        {
+          "start": 41,
+          "length": 2,
+          "reading": "じゃぐち"
+        }
+      ],
+      "1332400": [
+        {
+          "start": 44,
+          "length": 2,
+          "reading": "しゅうり"
+        }
+      ],
+      "1371260": [
+        {
+          "start": 36,
+          "length": 1,
+          "reading": "みず"
+        }
+      ],
+      "1413690": [
+        {
+          "start": 51,
+          "length": 2,
+          "reading": "だいく"
+        }
+      ],
+      "1515070": [
+        {
+          "start": 22,
+          "length": 3,
+          "reading": "ぼこくご"
+        }
+      ],
+      "1523400": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "ほんやく"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 29,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ],
+      "1583840": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ぶんしょ"
+        }
+      ],
+      "1605330": [
+        {
+          "start": 38,
+          "length": 3,
+          "reading": "もれる"
+        }
+      ],
+      "1605570": [
+        {
+          "start": 31,
+          "length": 2,
+          "reading": "やとう"
+        },
+        {
+          "start": 54,
+          "length": 2,
+          "reading": "やとう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8983488",
+    "original": "ドキュメントをフランス語に訳すのにフランス語を母国語としない人に頼むのは、水漏れする蛇口の修理を大工に頼むようなものだよ。",
+    "en": [
+      {
+        "id": "8427004",
+        "text": "Hiring a non-native French speaker to translate the document into French is like hiring a carpenter to fix your leaky faucet."
+      }
+    ],
+    "vocabIds": [
+      "1111590",
+      "1515070",
+      "2016710",
+      "1538350",
+      "1548370",
+      "1323370",
+      "1332400",
+      "1413690",
+      "1580640"
+    ],
+    "matches": {
+      "1111590": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "ふらんすご"
+        },
+        {
+          "start": 17,
+          "length": 5,
+          "reading": "ふらんすご"
+        }
+      ],
+      "1323370": [
+        {
+          "start": 42,
+          "length": 2,
+          "reading": "じゃぐち"
+        }
+      ],
+      "1332400": [
+        {
+          "start": 45,
+          "length": 2,
+          "reading": "しゅうり"
+        }
+      ],
+      "1413690": [
+        {
+          "start": 48,
+          "length": 2,
+          "reading": "だいく"
+        }
+      ],
+      "1515070": [
+        {
+          "start": 23,
+          "length": 3,
+          "reading": "ぼこくご"
+        }
+      ],
+      "1538350": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "やくす"
+        }
+      ],
+      "1548370": [
+        {
+          "start": 32,
+          "length": 2,
+          "reading": "たのむ"
+        },
+        {
+          "start": 51,
+          "length": 2,
+          "reading": "たのむ"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 30,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ],
+      "2016710": [
+        {
+          "start": 37,
+          "length": 3,
+          "reading": "みずもれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9518947",
+    "original": "蛇口が水漏れしてるんです。",
+    "en": [
+      {
+        "id": "265654",
+        "text": "The faucet is leaking."
+      },
+      {
+        "id": "6183481",
+        "text": "The tap is dripping."
+      }
+    ],
+    "vocabIds": [
+      "2016710",
+      "1323370"
+    ],
+    "matches": {
+      "1323370": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じゃぐち"
+        }
+      ],
+      "2016710": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "みずもれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12486145",
+    "original": "台所の蛇口から水がポタポタと落ちている。",
+    "en": [
+      {
+        "id": "8855872",
+        "text": "Water is dripping from the tap in the kitchen."
+      }
+    ],
+    "vocabIds": [
+      "1548550",
+      "1412640",
+      "1323370",
+      "1371260"
+    ],
+    "matches": {
+      "1323370": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "じゃぐち"
+        }
+      ],
+      "1371260": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "みず"
+        }
+      ],
+      "1412640": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "だいどころ"
+        }
+      ],
+      "1548550": [
+        {
+          "start": 14,
+          "length": 5,
+          "reading": "おちている"
+        }
+      ]
+    }
+  }
+]

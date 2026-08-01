@@ -1,0 +1,84 @@
+[
+  {
+    "id": "111447",
+    "original": "彼はどんな藁をもつかむだろう。",
+    "en": [
+      {
+        "id": "292236",
+        "text": "He'll clutch at any straw."
+      }
+    ],
+    "indices": "彼(かれ)[01] は どんな 藁 を も 掴む{つかむ} だろう",
+    "vocabIds": [
+      "2857556",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "2857556": [
+        {
+          "start": 5,
+          "length": 6,
+          "reading": "わらをもつかむ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "354107",
+    "original": "溺れる者は藁をも掴む。",
+    "en": [
+      {
+        "id": "278730",
+        "text": "Drowning men clutch at straws."
+      },
+      {
+        "id": "354108",
+        "text": "A drowning man will catch at a straw."
+      }
+    ],
+    "indices": "溺れる[01] 者(もの) は 藁 を も 掴む",
+    "vocabIds": [
+      "2857556",
+      "1437560",
+      "1322990"
+    ],
+    "matches": {
+      "1322990": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "もの"
+        }
+      ],
+      "1437560": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "おぼれる"
+        }
+      ],
+      "2857556": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "わらをもつかむ"
+        }
+      ]
+    }
+  }
+]

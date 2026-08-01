@@ -1,0 +1,104 @@
+[
+  {
+    "id": "169251",
+    "original": "残念ながら、サッカーの試合、一敗地に塗れてしまったよ。",
+    "en": [
+      {
+        "id": "245235",
+        "text": "It's too bad but we got pummeled at the soccer match."
+      }
+    ],
+    "indices": "残念ながら サッカー(#1056700) の 試合 一敗地に塗れる{一敗地に塗れて}~ 仕舞う{しまった} よ[01]",
+    "vocabIds": [
+      "1444280",
+      "1304700",
+      "1312420",
+      "1165660",
+      "1420730",
+      "1445270"
+    ],
+    "matches": {
+      "1165660": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "いちはい"
+        }
+      ],
+      "1304700": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "ざんねんながら"
+        }
+      ],
+      "1312420": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "しあい"
+        }
+      ],
+      "1420730": [
+        {
+          "start": 16,
+          "length": 1,
+          "reading": "ち"
+        }
+      ],
+      "1444280": [
+        {
+          "start": 18,
+          "length": 7,
+          "reading": "まみれてしまった"
+        }
+      ],
+      "1445270": [
+        {
+          "start": 16,
+          "length": 1,
+          "reading": "ち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "627886",
+    "original": "これからの星勘定を考えると、一敗もしたくない！",
+    "en": [
+      {
+        "id": "627887",
+        "text": "When I think of our standing in the series from now I don't want us to lose even once!"
+      }
+    ],
+    "indices": "此れから{これから} の 星勘定~ を 考える と 一敗 も したい{したくない}",
+    "vocabIds": [
+      "1281020",
+      "2081120",
+      "1165660"
+    ],
+    "matches": {
+      "1165660": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "いちはい"
+        }
+      ],
+      "1281020": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "かんがえると"
+        }
+      ],
+      "2081120": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "ほしかんじょう"
+        }
+      ]
+    }
+  }
+]

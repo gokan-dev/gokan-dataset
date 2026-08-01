@@ -1,0 +1,78 @@
+[
+  {
+    "id": "227409",
+    "original": "お引き受けしたいんですけれど・・・。",
+    "en": [
+      {
+        "id": "64761",
+        "text": "I'd like to say yes, but..."
+      }
+    ],
+    "indices": "引き受ける{お引き受け} したい のです{んです} けど{けれど}",
+    "vocabIds": [
+      "2404470"
+    ],
+    "matches": {
+      "2404470": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "おひきうけ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "227410",
+    "original": "お引き受けいたしましょう。",
+    "en": [
+      {
+        "id": "64762",
+        "text": "Certainly. I'd be glad to."
+      }
+    ],
+    "indices": "引き受ける{お引き受け} 致す{いたしましょう}",
+    "vocabIds": [
+      "2404470"
+    ],
+    "matches": {
+      "2404470": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "おひきうけ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10341724",
+    "original": "喜んでお引き受けいたします。",
+    "en": [
+      {
+        "id": "20660",
+        "text": "We gladly accept your offer."
+      }
+    ],
+    "vocabIds": [
+      "2404470",
+      "1218770"
+    ],
+    "matches": {
+      "1218770": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "よろこんで"
+        }
+      ],
+      "2404470": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "おひきうけ"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,110 @@
+{
+  "id": "1529700",
+  "writtenForm": {
+    "kanji": "無花果",
+    "alternatives": [
+      "映日果"
+    ],
+    "containedKanji": [
+      "無",
+      "花",
+      "果"
+    ]
+  },
+  "reading": {
+    "primary": "いちじく",
+    "alternatives": [
+      "イチジク",
+      "いちぢく",
+      "むかか",
+      "イチヂク"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 69237,
+    "kanaRank": 303805
+  },
+  "progression": {
+    "kklcStep": 599
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "common fig (Ficus carica)",
+        "fig",
+        "fig tree"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": true,
+        "rawTags": [
+          "rare"
+        ]
+      },
+      "glosses": [
+        "fig"
+      ],
+      "related": {
+        "compounds": [
+          "イチジク"
+        ]
+      },
+      "appliesToReadings": [
+        "むかか"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": true
+  },
+  "isCommon": false,
+  "mergedVocabs": [
+    {
+      "id": "1529700",
+      "isBase": true,
+      "originalPrimaryReading": "いちじく",
+      "originalGlosses": [
+        "common fig (Ficus carica)",
+        "fig",
+        "fig tree"
+      ]
+    },
+    {
+      "id": "2862005",
+      "isBase": false,
+      "originalPrimaryReading": "むかか",
+      "originalGlosses": [
+        "fig"
+      ]
+    }
+  ],
+  "components": [
+    "1956960",
+    "1194500",
+    "2187130"
+  ]
+}

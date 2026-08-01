@@ -1,0 +1,72 @@
+[
+  {
+    "id": "146879",
+    "original": "小包を速達で送ると割り増し料金がいります。",
+    "en": [
+      {
+        "id": "267683",
+        "text": "There is an extra charge for mailing packages by express."
+      }
+    ],
+    "indices": "小包 を 速達 で(#2028980) 送る と 割り増し料金~ が 要る{いります}",
+    "vocabIds": [
+      "1716540",
+      "1402730",
+      "1593290",
+      "1405030"
+    ],
+    "matches": {
+      "1402730": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "おくると"
+        }
+      ],
+      "1405030": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "そくたつ"
+        }
+      ],
+      "1593290": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こづつみ"
+        }
+      ],
+      "1716540": [
+        {
+          "start": 9,
+          "length": 6,
+          "reading": "わりましりょうきん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "184112",
+    "original": "割り増し料金はいくらでしたか。",
+    "en": [
+      {
+        "id": "21240",
+        "text": "How much was the additional charge?"
+      }
+    ],
+    "indices": "割り増し~ 料金 は 幾ら{いくら} です{でした} か",
+    "vocabIds": [
+      "1716540"
+    ],
+    "matches": {
+      "1716540": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "わりましりょうきん"
+        }
+      ]
+    }
+  }
+]

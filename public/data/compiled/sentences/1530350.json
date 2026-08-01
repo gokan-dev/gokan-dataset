@@ -1,0 +1,119 @@
+[
+  {
+    "id": "152664",
+    "original": "私は無税でカメラを買った。",
+    "en": [
+      {
+        "id": "261885",
+        "text": "I bought a camera free of tax."
+      }
+    ],
+    "indices": "私(わたし)[01] は 無税~ で(#2028980) カメラ を 買う[01]{買った}",
+    "vocabIds": [
+      "1473740",
+      "1530350",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1473740": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "かった"
+        }
+      ],
+      "1530350": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "むぜい"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "217860",
+    "original": "これらの商品は無税です。",
+    "en": [
+      {
+        "id": "55170",
+        "text": "These goods are free of tax."
+      }
+    ],
+    "indices": "此れ等{これらの} 商品 は 無税 です",
+    "vocabIds": [
+      "1347310",
+      "1530350"
+    ],
+    "matches": {
+      "1347310": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "しょうひん"
+        }
+      ],
+      "1530350": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "むぜい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "224803",
+    "original": "ここからあがる所得は無税である。",
+    "en": [
+      {
+        "id": "62138",
+        "text": "The income from this source is tax-free."
+      }
+    ],
+    "indices": "此処{ここ} から 上がる[08]{あがる}~ 所得 は 無税 である",
+    "vocabIds": [
+      "1343360",
+      "1530350"
+    ],
+    "matches": {
+      "1343360": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "しょとく"
+        }
+      ],
+      "1530350": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "むぜい"
+        }
+      ]
+    }
+  }
+]

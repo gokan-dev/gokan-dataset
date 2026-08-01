@@ -1,0 +1,109 @@
+{
+  "id": "2259700",
+  "writtenForm": {
+    "kanji": "大御",
+    "alternatives": [
+      "御"
+    ],
+    "containedKanji": [
+      "大",
+      "御"
+    ]
+  },
+  "reading": {
+    "primary": "おおいご",
+    "alternatives": [
+      "おおみ",
+      "おおん",
+      "おおむ"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 57060,
+    "kanaRank": 125199
+  },
+  "progression": {
+    "kklcStep": 862
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch",
+          "hon"
+        ]
+      },
+      "glosses": [
+        "older lady"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "pref"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "hon"
+        ]
+      },
+      "glosses": [
+        "august (in ref. to the emperor or the gods)",
+        "imperial",
+        "divine"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "おおみ"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": false,
+  "mergedVocabs": [
+    {
+      "id": "2259700",
+      "isBase": true,
+      "originalPrimaryReading": "おおいご",
+      "originalGlosses": [
+        "older lady"
+      ]
+    },
+    {
+      "id": "2259720",
+      "isBase": false,
+      "originalPrimaryReading": "おおみ",
+      "originalGlosses": [
+        "august (in ref. to the emperor or the gods)",
+        "imperial",
+        "divine"
+      ]
+    }
+  ],
+  "components": [
+    "2082450",
+    "1270190"
+  ],
+  "parents": [
+    "2260050"
+  ]
+}

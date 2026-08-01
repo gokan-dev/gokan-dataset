@@ -1,0 +1,244 @@
+[
+  {
+    "id": "183119",
+    "original": "汽笛が鳴って船はゆっくりと港から離れていった。",
+    "en": [
+      {
+        "id": "20241",
+        "text": "A whistle blew, and the boat slowly began to pull out of port."
+      }
+    ],
+    "indices": "汽笛 が 鳴る{鳴って} 船(ふね)[01] は ゆっくり{ゆっくりと} 港(みなと) から 離れる{離れて} 行く{いった}",
+    "vocabIds": [
+      "1550840",
+      "1532910",
+      "1222740",
+      "1602800",
+      "1279990"
+    ],
+    "matches": {
+      "1222740": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きてき"
+        }
+      ],
+      "1279990": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "みなと"
+        }
+      ],
+      "1532910": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "なって"
+        }
+      ],
+      "1550840": [
+        {
+          "start": 16,
+          "length": 6,
+          "reading": "はなれていった"
+        }
+      ],
+      "1602800": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "ふね"
+        }
+      ]
+    }
+  },
+  {
+    "id": "183140",
+    "original": "汽車の汽笛で夜明けに目を覚まされた。",
+    "en": [
+      {
+        "id": "20262",
+        "text": "We were roused at daybreak by the whistle of a train."
+      },
+      {
+        "id": "1263685",
+        "text": "We were wakened by the whistle of the steam locomotive at dawn."
+      },
+      {
+        "id": "1263686",
+        "text": "The whistle of the steam train woke us at daybreak."
+      }
+    ],
+    "indices": "汽車 の 汽笛~ で(#2028980) 夜明け に 目を覚ます[01]{目を覚まされた}",
+    "vocabIds": [
+      "1537150",
+      "1206060",
+      "1222700",
+      "1222740",
+      "1604890"
+    ],
+    "matches": {
+      "1206060": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "さまさ"
+        }
+      ],
+      "1222700": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きしゃ"
+        }
+      ],
+      "1222740": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "きてき"
+        }
+      ],
+      "1537150": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "よあけ"
+        }
+      ],
+      "1604890": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "め"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1799413",
+    "original": "明け方、私たちは蒸気機関車の汽笛で目を覚ました。",
+    "en": [
+      {
+        "id": "1263685",
+        "text": "We were wakened by the whistle of the steam locomotive at dawn."
+      }
+    ],
+    "vocabIds": [
+      "1707230",
+      "1206060",
+      "1532300",
+      "1311300",
+      "1222740",
+      "1604890"
+    ],
+    "matches": {
+      "1206060": [
+        {
+          "start": 19,
+          "length": 4,
+          "reading": "さました"
+        }
+      ],
+      "1222740": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "きてき"
+        }
+      ],
+      "1311300": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1532300": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あけがた"
+        }
+      ],
+      "1604890": [
+        {
+          "start": 17,
+          "length": 1,
+          "reading": "め"
+        }
+      ],
+      "1707230": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "じょうききかんしゃ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10136241",
+    "original": "船は汽笛を鳴らして、埠頭を離れました。",
+    "en": [
+      {
+        "id": "10136203",
+        "text": "The ship sounded its whistle and pulled away from the wharf."
+      },
+      {
+        "id": "10136204",
+        "text": "The ship sounded its whistle and pulled away from the pier."
+      },
+      {
+        "id": "10136205",
+        "text": "The ship sounded its whistle and pulled away from the dock."
+      }
+    ],
+    "vocabIds": [
+      "1550840",
+      "1532880",
+      "1222740",
+      "1496470",
+      "1602800"
+    ],
+    "matches": {
+      "1222740": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "きてき"
+        }
+      ],
+      "1496470": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "ふとう"
+        }
+      ],
+      "1532880": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "ならして"
+        }
+      ],
+      "1550840": [
+        {
+          "start": 13,
+          "length": 5,
+          "reading": "はなれました"
+        }
+      ],
+      "1602800": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ふね"
+        }
+      ]
+    }
+  }
+]

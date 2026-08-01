@@ -1,0 +1,41 @@
+[
+  {
+    "id": "224867",
+    "original": "コーヒーを一杯飲むと頭が冴える。",
+    "en": [
+      {
+        "id": "62202",
+        "text": "I feel more alert after drinking a cup of coffee."
+      }
+    ],
+    "indices": "珈琲{コーヒー} を 一杯[01] 飲む[01] と 頭が冴える~",
+    "vocabIds": [
+      "2679180",
+      "1169870",
+      "1165670"
+    ],
+    "matches": {
+      "1165670": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "いっぱい"
+        }
+      ],
+      "1169870": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "のむと"
+        }
+      ],
+      "2679180": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "あたまがさえる"
+        }
+      ]
+    }
+  }
+]

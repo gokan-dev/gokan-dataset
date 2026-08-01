@@ -1,0 +1,123 @@
+[
+  {
+    "id": "75472",
+    "original": "なによ！出来ないの？この度胸なし！腰抜けッ！",
+    "en": [
+      {
+        "id": "328246",
+        "text": "What? You can't do it? You coward! Chicken!"
+      }
+    ],
+    "indices": "何(なに)[06]{なに}~ よ 出来る{出来ない} の 此の{この} 度胸 無し{なし} 腰抜け{腰抜けッ}~",
+    "vocabIds": [
+      "1340450",
+      "1288450",
+      "1445190"
+    ],
+    "matches": {
+      "1288450": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "こしぬけ"
+        }
+      ],
+      "1340450": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "できない"
+        }
+      ],
+      "1445190": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "どきょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1247270",
+    "original": "またビビってんのか？腰抜け。",
+    "en": [
+      {
+        "id": "1247261",
+        "text": "You chicken out again, you coward?"
+      }
+    ],
+    "vocabIds": [
+      "1288450"
+    ],
+    "matches": {
+      "1288450": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "こしぬけ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11144992",
+    "original": "お前は腰抜けなんかじゃないよ。",
+    "en": [
+      {
+        "id": "16281",
+        "text": "You are not a coward."
+      }
+    ],
+    "vocabIds": [
+      "1288450",
+      "1002290"
+    ],
+    "matches": {
+      "1002290": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おまえ"
+        }
+      ],
+      "1288450": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "こしぬけ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12188407",
+    "original": "トムを腰抜け呼ばわりするとはね。",
+    "en": [
+      {
+        "id": "6241505",
+        "text": "I can't believe you called Tom a coward."
+      }
+    ],
+    "vocabIds": [
+      "1633210",
+      "1288450"
+    ],
+    "matches": {
+      "1288450": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "こしぬけ"
+        }
+      ],
+      "1633210": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "よばわり"
+        }
+      ]
+    }
+  }
+]

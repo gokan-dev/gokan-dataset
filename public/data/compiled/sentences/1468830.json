@@ -1,0 +1,784 @@
+[
+  {
+    "id": "85001",
+    "original": "夫の年収は１０万ドルだ。",
+    "en": [
+      {
+        "id": "318711",
+        "text": "My husband earns $100,000 a year."
+      }
+    ],
+    "indices": "夫(おっと) の 年収~ は 万(まん)[01] 弗[01]{ドル} だ",
+    "vocabIds": [
+      "1335140",
+      "1468830",
+      "1294330",
+      "1496480",
+      "1589190",
+      "2174430"
+    ],
+    "matches": {
+      "1294330": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "おっと"
+        }
+      ],
+      "1335140": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "いちぜろまん"
+        }
+      ],
+      "1468830": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ねんしゅう"
+        }
+      ],
+      "1496480": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "おっと"
+        }
+      ],
+      "1589190": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "おっと"
+        }
+      ],
+      "2174430": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "おっと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "104083",
+    "original": "彼は少なくとも年収２０００万円は稼いでる。",
+    "en": [
+      {
+        "id": "299610",
+        "text": "He pulls down at least twenty million yen a year."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 少なくとも 年収 万(まん) 円(えん) は 稼ぐ{稼いでる}",
+    "vocabIds": [
+      "1595610",
+      "1194450",
+      "1468830",
+      "1000420",
+      "1483070",
+      "1461140",
+      "1557630",
+      "1584460",
+      "1175570",
+      "1216250"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1175570": [
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "えん"
+        }
+      ],
+      "1194450": [
+        {
+          "start": 16,
+          "length": 4,
+          "reading": "かせいでる"
+        }
+      ],
+      "1216250": [
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "えん"
+        }
+      ],
+      "1461140": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "に"
+        }
+      ],
+      "1468830": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ねんしゅう"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1557630": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "ぜろ"
+        },
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "ぜろ"
+        },
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "ぜろ"
+        }
+      ],
+      "1584460": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "まん"
+        }
+      ],
+      "1595610": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "すくなくとも"
+        }
+      ]
+    }
+  },
+  {
+    "id": "116382",
+    "original": "彼の年収は彼の兄より多い。",
+    "en": [
+      {
+        "id": "287287",
+        "text": "His annual income is larger than that his brother's."
+      }
+    ],
+    "indices": "彼(かれ)[01]{彼の} 年収 は 彼(かれ)[01]{彼の} 兄(あに) より 多い",
+    "vocabIds": [
+      "1000420",
+      "1468830",
+      "1407460",
+      "1249900"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれの"
+        },
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "かれの"
+        }
+      ],
+      "1249900": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "あに"
+        }
+      ],
+      "1407460": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "おおい"
+        }
+      ],
+      "1468830": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ねんしゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "116383",
+    "original": "彼の年収は１０万ドルを越える。",
+    "en": [
+      {
+        "id": "287286",
+        "text": "His annual income is more than $100000."
+      },
+      {
+        "id": "1465915",
+        "text": "His annual income is more than $100,000."
+      }
+    ],
+    "indices": "彼(かれ)[01]{彼の} 年収 は 万(まん)[01] 弗[01]{ドル} を[05] 越える[02]",
+    "vocabIds": [
+      "1335140",
+      "1593070",
+      "1000420",
+      "1468830"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれの"
+        }
+      ],
+      "1335140": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "いちぜろまん"
+        }
+      ],
+      "1468830": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ねんしゅう"
+        }
+      ],
+      "1593070": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "こえる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "121805",
+    "original": "年収は１５００万円に近いと思う。",
+    "en": [
+      {
+        "id": "282200",
+        "text": "My annual income approximates fifteen million yen, I suppose."
+      }
+    ],
+    "indices": "年収 は 万(まん) 円(えん) に 近い と 思う",
+    "vocabIds": [
+      "2220460",
+      "1468830",
+      "1242130",
+      "1589350",
+      "1160790",
+      "1175570",
+      "1216250"
+    ],
+    "matches": {
+      "1160790": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "いち"
+        }
+      ],
+      "1175570": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "えん"
+        }
+      ],
+      "1216250": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "えん"
+        }
+      ],
+      "1242130": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "ちかい"
+        }
+      ],
+      "1468830": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ねんしゅう"
+        }
+      ],
+      "1589350": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "おもう"
+        }
+      ],
+      "2220460": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "ごぜろぜろまん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "152993",
+    "original": "私は父の年収を知らない。",
+    "en": [
+      {
+        "id": "261552",
+        "text": "I don't know my father's annual income."
+      }
+    ],
+    "indices": "私(わたし)[01] は 父 の 年収 を 知る{知らない}",
+    "vocabIds": [
+      "1420420",
+      "1468830",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1497610"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1420420": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "しらない"
+        }
+      ],
+      "1468830": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ねんしゅう"
+        }
+      ],
+      "1497610": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ちち"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "162949",
+    "original": "私の年収は５００万円を超している。",
+    "en": [
+      {
+        "id": "251564",
+        "text": "My annual income exceeds five million yen."
+      }
+    ],
+    "indices": "私(わたし)[01]{私の} 年収 は 万(まん) 円(えん) を 越す[04]{超している}",
+    "vocabIds": [
+      "1175300",
+      "2220460",
+      "1468830",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1175570",
+      "1216250"
+    ],
+    "matches": {
+      "1175300": [
+        {
+          "start": 11,
+          "length": 5,
+          "reading": "こしている"
+        }
+      ],
+      "1175570": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "えん"
+        }
+      ],
+      "1216250": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "えん"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1468830": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ねんしゅう"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2220460": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "ごぜろぜろまん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "928506",
+    "original": "マルセル君があくせく働いても年収30万カナダドールです。",
+    "en": [
+      {
+        "id": "928510",
+        "text": "Even though Marcel works hard, he only earns 30 000 Canadian dollars per year."
+      }
+    ],
+    "vocabIds": [
+      "1451150",
+      "1468830",
+      "1247250",
+      "1584460"
+    ],
+    "matches": {
+      "1247250": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "くん"
+        }
+      ],
+      "1451150": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "はたらいて"
+        }
+      ],
+      "1468830": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "ねんしゅう"
+        }
+      ],
+      "1584460": [
+        {
+          "start": 18,
+          "length": 1,
+          "reading": "まん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2455306",
+    "original": "夫の年収は10万ドルです。",
+    "en": [
+      {
+        "id": "318711",
+        "text": "My husband earns $100,000 a year."
+      }
+    ],
+    "vocabIds": [
+      "1468830",
+      "1294330",
+      "1496480",
+      "1589190",
+      "2174430",
+      "1584460"
+    ],
+    "matches": {
+      "1294330": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "おっと"
+        }
+      ],
+      "1468830": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ねんしゅう"
+        }
+      ],
+      "1496480": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "おっと"
+        }
+      ],
+      "1584460": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "まん"
+        }
+      ],
+      "1589190": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "おっと"
+        }
+      ],
+      "2174430": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "おっと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10094279",
+    "original": "トムの年収は１０万ドルを越えます。",
+    "en": [
+      {
+        "id": "10094260",
+        "text": "Tom's annual income is more than $100,000."
+      }
+    ],
+    "vocabIds": [
+      "1593070",
+      "1335140",
+      "1468830"
+    ],
+    "matches": {
+      "1335140": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "いちぜろまん"
+        }
+      ],
+      "1468830": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ねんしゅう"
+        }
+      ],
+      "1593070": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "こえます"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10094280",
+    "original": "トムの年収って、１０万ドル以上あるのよ。",
+    "en": [
+      {
+        "id": "10094260",
+        "text": "Tom's annual income is more than $100,000."
+      }
+    ],
+    "vocabIds": [
+      "1335140",
+      "1468830",
+      "1155120"
+    ],
+    "matches": {
+      "1155120": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "いじょう"
+        }
+      ],
+      "1335140": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "いちぜろまん"
+        }
+      ],
+      "1468830": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ねんしゅう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10099913",
+    "original": "うちの主人の年収は、１０万ドルよ。",
+    "en": [
+      {
+        "id": "4919777",
+        "text": "My husband makes a hundred thousand dollars a year."
+      }
+    ],
+    "vocabIds": [
+      "1335140",
+      "1324960",
+      "1579780",
+      "1468830"
+    ],
+    "matches": {
+      "1324960": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "しゅじん"
+        }
+      ],
+      "1335140": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "いちぜろまん"
+        }
+      ],
+      "1468830": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ねんしゅう"
+        }
+      ],
+      "1579780": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "しゅじん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10099914",
+    "original": "主人の年収は１０万ドルです。",
+    "en": [
+      {
+        "id": "4919777",
+        "text": "My husband makes a hundred thousand dollars a year."
+      }
+    ],
+    "vocabIds": [
+      "1335140",
+      "1324960",
+      "1579780",
+      "1468830"
+    ],
+    "matches": {
+      "1324960": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しゅじん"
+        }
+      ],
+      "1335140": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "いちぜろまん"
+        }
+      ],
+      "1468830": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ねんしゅう"
+        }
+      ],
+      "1579780": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しゅじん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11205062",
+    "original": "年収はおいくらですか？",
+    "en": [
+      {
+        "id": "2450059",
+        "text": "What's your annual income?"
+      }
+    ],
+    "vocabIds": [
+      "1468830"
+    ],
+    "matches": {
+      "1468830": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ねんしゅう"
+        }
+      ]
+    }
+  }
+]

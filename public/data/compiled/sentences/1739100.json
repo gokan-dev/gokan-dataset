@@ -1,0 +1,123 @@
+[
+  {
+    "id": "86239",
+    "original": "彼女は涙もろい。",
+    "en": [
+      {
+        "id": "317471",
+        "text": "She is easily moved to tears."
+      },
+      {
+        "id": "11645144",
+        "text": "She's easily moved to tears."
+      }
+    ],
+    "indices": "彼女[01] は 涙脆い{涙もろい}",
+    "vocabIds": [
+      "1739100",
+      "1483150"
+    ],
+    "matches": {
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1739100": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "なみだもろい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "147238",
+    "original": "女性は涙もろい。",
+    "en": [
+      {
+        "id": "267323",
+        "text": "Women are easily moved to tears."
+      }
+    ],
+    "indices": "女性[01] は 涙脆い{涙もろい}",
+    "vocabIds": [
+      "1739100",
+      "1345250"
+    ],
+    "matches": {
+      "1345250": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じょせい"
+        }
+      ],
+      "1739100": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "なみだもろい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "162649",
+    "original": "私の母は涙もろい。",
+    "en": [
+      {
+        "id": "251865",
+        "text": "My mother is easily moved to tears."
+      }
+    ],
+    "indices": "私(わたし)[01]{私の} 母(はは) は 涙脆い{涙もろい}~",
+    "vocabIds": [
+      "1739100",
+      "1311110",
+      "1347580",
+      "2015370",
+      "1514990"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1514990": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "はは"
+        }
+      ],
+      "1739100": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "なみだもろい"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  }
+]

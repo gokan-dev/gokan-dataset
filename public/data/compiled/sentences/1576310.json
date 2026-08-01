@@ -1,0 +1,769 @@
+[
+  {
+    "id": "78137",
+    "original": "旅行者は一夜の宿を求めた。",
+    "en": [
+      {
+        "id": "325581",
+        "text": "The tourist asked for lodging for the night."
+      }
+    ],
+    "indices": "旅行者 は 一夜 の 宿 を 求める{求めた}",
+    "vocabIds": [
+      "1553180",
+      "1229350",
+      "1576310",
+      "1337140",
+      "1337190"
+    ],
+    "matches": {
+      "1229350": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "もとめた"
+        }
+      ],
+      "1337140": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "やど"
+        }
+      ],
+      "1337190": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "やど"
+        }
+      ],
+      "1553180": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "りょこうしゃ"
+        }
+      ],
+      "1576310": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "いちや"
+        }
+      ]
+    }
+  },
+  {
+    "id": "96222",
+    "original": "彼らは不安な一夜を過ごした。",
+    "en": [
+      {
+        "id": "307483",
+        "text": "They passed an uneasy night."
+      },
+      {
+        "id": "1293111",
+        "text": "They spent an uneasy night."
+      }
+    ],
+    "indices": "彼ら(かれら) は 不安{不安な} 一夜 を 過ごす{過ごした}",
+    "vocabIds": [
+      "1196000",
+      "1483090",
+      "2397090",
+      "1491150",
+      "1576310"
+    ],
+    "matches": {
+      "1196000": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "すごした"
+        }
+      ],
+      "1483090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれら"
+        }
+      ],
+      "1491150": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ふあん"
+        }
+      ],
+      "1576310": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "いちや"
+        }
+      ],
+      "2397090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "96811",
+    "original": "彼らは寝ずに一夜を明かした。",
+    "en": [
+      {
+        "id": "306893",
+        "text": "They sat up all night."
+      },
+      {
+        "id": "1318588",
+        "text": "They stayed up all night."
+      }
+    ],
+    "indices": "彼ら(かれら) は 寝る{寝ず} に 一夜 を 明かす[01]{明かした}",
+    "vocabIds": [
+      "1532220",
+      "1483090",
+      "2397090",
+      "1360010",
+      "1576310"
+    ],
+    "matches": {
+      "1360010": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ねず"
+        }
+      ],
+      "1483090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれら"
+        }
+      ],
+      "1532220": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "あかした"
+        }
+      ],
+      "1576310": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "いちや"
+        }
+      ],
+      "2397090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "97415",
+    "original": "彼らは海岸で一夜を明かした。",
+    "en": [
+      {
+        "id": "306287",
+        "text": "They spent the night on the beach."
+      }
+    ],
+    "indices": "彼ら(かれら) は 海岸 で(#2028980) 一夜~ を 明かす[01]{明かした}",
+    "vocabIds": [
+      "1532220",
+      "1483090",
+      "2397090",
+      "1201280",
+      "1576310"
+    ],
+    "matches": {
+      "1201280": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かいがん"
+        }
+      ],
+      "1483090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれら"
+        }
+      ],
+      "1532220": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "あかした"
+        }
+      ],
+      "1576310": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "いちや"
+        }
+      ],
+      "2397090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "103877",
+    "original": "彼は寝ずに一夜を明かした。",
+    "en": [
+      {
+        "id": "299815",
+        "text": "He sat up all night."
+      },
+      {
+        "id": "1318590",
+        "text": "He stayed up all night."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 寝る{寝ず} に 一夜 を 明かす[01]{明かした}~",
+    "vocabIds": [
+      "1532220",
+      "1360010",
+      "1576310",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1360010": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ねず"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1532220": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "あかした"
+        }
+      ],
+      "1576310": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "いちや"
+        }
+      ]
+    }
+  },
+  {
+    "id": "165744",
+    "original": "私たちは山小屋で一夜を過ごした。",
+    "en": [
+      {
+        "id": "248761",
+        "text": "We passed a night in a mountain hut."
+      }
+    ],
+    "indices": "私たち は 山小屋~ で(#2028980) 一夜 を 過ごす{過ごした}",
+    "vocabIds": [
+      "1196000",
+      "1311300",
+      "1302940",
+      "1576310"
+    ],
+    "matches": {
+      "1196000": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "すごした"
+        }
+      ],
+      "1302940": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "やまごや"
+        }
+      ],
+      "1311300": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1576310": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "いちや"
+        }
+      ]
+    }
+  },
+  {
+    "id": "169395",
+    "original": "山小屋で一夜を明かした。",
+    "en": [
+      {
+        "id": "245091",
+        "text": "We spent a night at the mountain hut."
+      }
+    ],
+    "indices": "山小屋 で(#2028980) 一夜 を 明かす[01]{明かした}",
+    "vocabIds": [
+      "1532220",
+      "1302940",
+      "1576310"
+    ],
+    "matches": {
+      "1302940": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "やまごや"
+        }
+      ],
+      "1532220": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "あかした"
+        }
+      ],
+      "1576310": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "いちや"
+        }
+      ]
+    }
+  },
+  {
+    "id": "200104",
+    "original": "トムはギャンブルで一夜にして財産をすってしまった。",
+    "en": [
+      {
+        "id": "37305",
+        "text": "Tom gambled away a fortune in one night."
+      }
+    ],
+    "indices": "は ギャンブル で(#2028980) 一夜 にして[01] 財産 を 磨る[02]{すって} 仕舞う{しまった}",
+    "vocabIds": [
+      "1576310",
+      "1296820"
+    ],
+    "matches": {
+      "1296820": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "ざいさん"
+        }
+      ],
+      "1576310": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "いちや"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2556274",
+    "original": "トムは終電を逃し、ネットカフェで一夜を過ごした。",
+    "en": [
+      {
+        "id": "2583954",
+        "text": "Tom missed the last train and spent the night at an Internet cafe."
+      }
+    ],
+    "vocabIds": [
+      "1196000",
+      "1332960",
+      "1450430",
+      "1576310"
+    ],
+    "matches": {
+      "1196000": [
+        {
+          "start": 19,
+          "length": 4,
+          "reading": "すごした"
+        }
+      ],
+      "1332960": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "しゅうでん"
+        }
+      ],
+      "1450430": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "のがし"
+        }
+      ],
+      "1576310": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "いちや"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8635452",
+    "original": "トムは友達の家で一夜を明かした。",
+    "en": [
+      {
+        "id": "4144898",
+        "text": "Tom spent the night at a friend's house."
+      }
+    ],
+    "vocabIds": [
+      "1532220",
+      "1540170",
+      "1576310",
+      "1191730",
+      "2098290",
+      "2082160",
+      "2220300"
+    ],
+    "matches": {
+      "1191730": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ],
+      "1532220": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "あかした"
+        }
+      ],
+      "1540170": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ともだち"
+        }
+      ],
+      "1576310": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "いちや"
+        }
+      ],
+      "2082160": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ],
+      "2098290": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ],
+      "2220300": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8660392",
+    "original": "トムは自分のバンで一夜を明かした。",
+    "en": [
+      {
+        "id": "5525675",
+        "text": "Tom spent the night in his van."
+      }
+    ],
+    "vocabIds": [
+      "1532220",
+      "1318610",
+      "1576310"
+    ],
+    "matches": {
+      "1318610": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "じぶん"
+        }
+      ],
+      "1532220": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "あかした"
+        }
+      ],
+      "1576310": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "いちや"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10172635",
+    "original": "車の中で一夜を明かした。",
+    "en": [
+      {
+        "id": "7961561",
+        "text": "I spent the night in my car."
+      }
+    ],
+    "vocabIds": [
+      "1532220",
+      "1576310",
+      "1323080",
+      "1423310",
+      "2098290"
+    ],
+    "matches": {
+      "1323080": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1423310": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "なか"
+        }
+      ],
+      "1532220": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "あかした"
+        }
+      ],
+      "1576310": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "いちや"
+        }
+      ],
+      "2098290": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "なか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11178759",
+    "original": "安いホテルで一夜を過ごした。",
+    "en": [
+      {
+        "id": "4979889",
+        "text": "We spent the night in an inexpensive hotel."
+      }
+    ],
+    "vocabIds": [
+      "1196000",
+      "1153670",
+      "1576310"
+    ],
+    "matches": {
+      "1153670": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "やすい"
+        }
+      ],
+      "1196000": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "すごした"
+        }
+      ],
+      "1576310": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "いちや"
+        }
+      ]
+    }
+  },
+  {
+    "id": "74333",
+    "original": "若い男女が人里離れた洋館で恐怖の一夜を過ごすという、ホラーの定番スタイルだ。",
+    "en": [
+      {
+        "id": "11664541",
+        "text": "It's textbook horror: young men and women spending a night of terror in a secluded mansion."
+      }
+    ],
+    "indices": "若い 男女(だんじょ) が 人里離れた 洋館~ で(#2028980) 恐怖 の 一夜 を 過ごす と言う{という} ホラー の 定番(ていばん)~ スタイル[02] だ",
+    "vocabIds": [
+      "1369490",
+      "1196000",
+      "1324300",
+      "1420110",
+      "1545920",
+      "1236750",
+      "1576310",
+      "1638070"
+    ],
+    "matches": {
+      "1196000": [
+        {
+          "start": 19,
+          "length": 3,
+          "reading": "すごす"
+        }
+      ],
+      "1236750": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "きょうふ"
+        }
+      ],
+      "1324300": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "わかい"
+        }
+      ],
+      "1369490": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "ひとざとはなれた"
+        }
+      ],
+      "1420110": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "だんじょ"
+        }
+      ],
+      "1545920": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "ようかん"
+        }
+      ],
+      "1576310": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "いちや"
+        }
+      ],
+      "1638070": [
+        {
+          "start": 30,
+          "length": 2,
+          "reading": "ていばん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11973266",
+    "original": "あの人と一夜を共にしたの？",
+    "en": [
+      {
+        "id": "12011031",
+        "text": "Did you spend a night with that man?"
+      }
+    ],
+    "vocabIds": [
+      "1000440",
+      "1576310",
+      "1234260"
+    ],
+    "matches": {
+      "1000440": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あのひと"
+        }
+      ],
+      "1234260": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ともに"
+        }
+      ],
+      "1576310": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "いちや"
+        }
+      ]
+    }
+  }
+]

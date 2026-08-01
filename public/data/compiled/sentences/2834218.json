@@ -1,0 +1,325 @@
+[
+  {
+    "id": "227363",
+    "original": "お勘定をお願いします。",
+    "en": [
+      {
+        "id": "435202",
+        "text": "Please bring me my bill."
+      },
+      {
+        "id": "21104",
+        "text": "May I have the check, please?"
+      },
+      {
+        "id": "10733998",
+        "text": "Can I request the bill?"
+      },
+      {
+        "id": "10734004",
+        "text": "May I request the bill?"
+      },
+      {
+        "id": "10734005",
+        "text": "May I have the bill?"
+      },
+      {
+        "id": "10734009",
+        "text": "Can I have the bill?"
+      },
+      {
+        "id": "21098",
+        "text": "Check, please."
+      }
+    ],
+    "indices": "御(お){お} 勘定 を お願いします",
+    "vocabIds": [
+      "1001720",
+      "2834218"
+    ],
+    "matches": {
+      "1001720": [
+        {
+          "start": 4,
+          "length": 6,
+          "reading": "おねがいします"
+        }
+      ],
+      "2834218": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "おかんじょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "227362",
+    "original": "お勘定です。",
+    "en": [
+      {
+        "id": "64716",
+        "text": "Here is your bill."
+      }
+    ],
+    "indices": "御(お){お} 勘定 です",
+    "vocabIds": [
+      "2834218"
+    ],
+    "matches": {
+      "2834218": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "おかんじょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "227364",
+    "original": "お勘定して下さい。",
+    "en": [
+      {
+        "id": "1710",
+        "text": "The check, please."
+      },
+      {
+        "id": "21098",
+        "text": "Check, please."
+      },
+      {
+        "id": "21103",
+        "text": "Give me the bill, please."
+      },
+      {
+        "id": "327454",
+        "text": "I'd like the bill, please."
+      },
+      {
+        "id": "435202",
+        "text": "Please bring me my bill."
+      },
+      {
+        "id": "435203",
+        "text": "Could I have the bill, please?"
+      },
+      {
+        "id": "462578",
+        "text": "The bill, please."
+      },
+      {
+        "id": "984114",
+        "text": "Could you bring us the bill, please?"
+      },
+      {
+        "id": "2781146",
+        "text": "Please let me have my bill."
+      }
+    ],
+    "indices": "御(お){お} 勘定 為る(する){して} 下さい",
+    "vocabIds": [
+      "2834218",
+      "1184280"
+    ],
+    "matches": {
+      "1184280": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "ください"
+        }
+      ],
+      "2834218": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "おかんじょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1266377",
+    "original": "お勘定をお願いできる？",
+    "en": [
+      {
+        "id": "435203",
+        "text": "Could I have the bill, please?"
+      }
+    ],
+    "vocabIds": [
+      "2834218",
+      "2036870"
+    ],
+    "matches": {
+      "2036870": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "おねがい"
+        }
+      ],
+      "2834218": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "おかんじょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1266379",
+    "original": "お勘定をお願いね。",
+    "en": [
+      {
+        "id": "435203",
+        "text": "Could I have the bill, please?"
+      },
+      {
+        "id": "2781146",
+        "text": "Please let me have my bill."
+      }
+    ],
+    "vocabIds": [
+      "2834218",
+      "2036870"
+    ],
+    "matches": {
+      "2036870": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "おねがい"
+        }
+      ],
+      "2834218": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "おかんじょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1306243",
+    "original": "これ、私のお勘定につけといて。",
+    "en": [
+      {
+        "id": "239529",
+        "text": "Charge this to my account."
+      }
+    ],
+    "vocabIds": [
+      "2834218",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2834218": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "おかんじょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3452051",
+    "original": "お勘定お願いします。",
+    "en": [
+      {
+        "id": "21098",
+        "text": "Check, please."
+      },
+      {
+        "id": "21103",
+        "text": "Give me the bill, please."
+      }
+    ],
+    "vocabIds": [
+      "1001720",
+      "2834218"
+    ],
+    "matches": {
+      "1001720": [
+        {
+          "start": 3,
+          "length": 6,
+          "reading": "おねがいします"
+        }
+      ],
+      "2834218": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "おかんじょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12288663",
+    "original": "お勘定は別々でお願いします。",
+    "en": [
+      {
+        "id": "21100",
+        "text": "We'd like separate checks."
+      }
+    ],
+    "vocabIds": [
+      "1001720",
+      "2834218",
+      "1603290"
+    ],
+    "matches": {
+      "1001720": [
+        {
+          "start": 7,
+          "length": 6,
+          "reading": "おねがいします"
+        }
+      ],
+      "1603290": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "べつべつ"
+        }
+      ],
+      "2834218": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "おかんじょう"
+        }
+      ]
+    }
+  }
+]

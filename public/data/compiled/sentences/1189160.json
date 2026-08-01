@@ -1,0 +1,128 @@
+[
+  {
+    "id": "75844",
+    "original": "同じような品がまだ何点かありますよ。",
+    "en": [
+      {
+        "id": "327874",
+        "text": "We've got several more of the same kind of articles."
+      }
+    ],
+    "indices": "同じよう{同じような} 品[01] が 未だ{まだ} 何(なん)[04] 点(てん)[03] か 有る{あります} よ[01]",
+    "vocabIds": [
+      "1451770",
+      "1189160",
+      "2648780"
+    ],
+    "matches": {
+      "1189160": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "なんてん"
+        }
+      ],
+      "1451770": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "おなじよう"
+        }
+      ],
+      "2648780": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "しな"
+        }
+      ]
+    }
+  },
+  {
+    "id": "191584",
+    "original": "ワントライって何点？",
+    "en": [
+      {
+        "id": "28747",
+        "text": "How many points is a try worth?"
+      }
+    ],
+    "indices": "って 何点~",
+    "vocabIds": [
+      "1189160"
+    ],
+    "matches": {
+      "1189160": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "なんてん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3210198",
+    "original": "明日のテスト何点くらい取れそう？",
+    "en": [
+      {
+        "id": "7908445",
+        "text": "What do you think you'll score on tomorrow's test?"
+      },
+      {
+        "id": "7908547",
+        "text": "What do you think you'll get on tomorrow's test?"
+      }
+    ],
+    "vocabIds": [
+      "1326990",
+      "1584660",
+      "1189160"
+    ],
+    "matches": {
+      "1189160": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "なんてん"
+        }
+      ],
+      "1326990": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "とれそう"
+        }
+      ],
+      "1584660": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あした"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11605308",
+    "original": "テスト、何点だった？",
+    "en": [
+      {
+        "id": "7046366",
+        "text": "What did you get on the test?"
+      }
+    ],
+    "vocabIds": [
+      "1189160"
+    ],
+    "matches": {
+      "1189160": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "なんてん"
+        }
+      ]
+    }
+  }
+]

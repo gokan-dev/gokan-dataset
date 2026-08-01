@@ -1,0 +1,49 @@
+[
+  {
+    "id": "206574",
+    "original": "その名の人は学籍簿に載ってません。",
+    "en": [
+      {
+        "id": "43822",
+        "text": "No person by that name is listed in the register of the school."
+      }
+    ],
+    "indices": "其の[01]{その} 名(な) の 人(ひと) は 学籍簿~ に 載る[02]{載ってません}",
+    "vocabIds": [
+      "2649690",
+      "1761360",
+      "1531330",
+      "1580640"
+    ],
+    "matches": {
+      "1531330": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "な"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ],
+      "1761360": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "がくせきぼ"
+        }
+      ],
+      "2649690": [
+        {
+          "start": 10,
+          "length": 6,
+          "reading": "のってません"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,163 @@
+[
+  {
+    "id": "179476",
+    "original": "空き部屋はありますか。",
+    "en": [
+      {
+        "id": "434550",
+        "text": "Do you have a vacancy?"
+      },
+      {
+        "id": "10871516",
+        "text": "Are there any rooms available?"
+      },
+      {
+        "id": "18354",
+        "text": "Do you have any vacancies?"
+      }
+    ],
+    "indices": "空き部屋 は 有る{あります} か",
+    "vocabIds": [
+      "1245350"
+    ],
+    "matches": {
+      "1245350": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "あきへや"
+        }
+      ]
+    }
+  },
+  {
+    "id": "179477",
+    "original": "空き部屋が３つあるが、そのうちのどれも使えない。",
+    "en": [
+      {
+        "id": "18335",
+        "text": "We have three spare rooms, none of which can be used."
+      }
+    ],
+    "indices": "空き部屋 が 三つ(みっつ){３つ} 有る{ある} が[03] 其の[01]{その} 内(うち){うちの} 何れ(どれ)[01]{どれ} も 使える{使えない}",
+    "vocabIds": [
+      "1245350",
+      "1607180",
+      "1299740"
+    ],
+    "matches": {
+      "1245350": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "あきへや"
+        }
+      ],
+      "1299740": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "みっつ"
+        }
+      ],
+      "1607180": [
+        {
+          "start": 19,
+          "length": 4,
+          "reading": "つかえない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "195451",
+    "original": "まだ空き部屋がいくつかあった。",
+    "en": [
+      {
+        "id": "32625",
+        "text": "There were several rooms still vacant."
+      },
+      {
+        "id": "12805503",
+        "text": "There were still a few rooms available."
+      }
+    ],
+    "indices": "未だ[01]{まだ} 空き部屋~ が 幾つか{いくつか} 有る{あった}",
+    "vocabIds": [
+      "1245350"
+    ],
+    "matches": {
+      "1245350": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "あきへや"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1568240",
+    "original": "空き部屋は三つありますが、どれも使用できません。",
+    "en": [
+      {
+        "id": "18335",
+        "text": "We have three spare rooms, none of which can be used."
+      },
+      {
+        "id": "2512953",
+        "text": "There are three empty rooms. However, we can't use any of them."
+      }
+    ],
+    "vocabIds": [
+      "1245350",
+      "1299740",
+      "1306200"
+    ],
+    "matches": {
+      "1245350": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "あきへや"
+        }
+      ],
+      "1299740": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "みっつ"
+        }
+      ],
+      "1306200": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "しよう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3088120",
+    "original": "このホテルには空き部屋がありますか？",
+    "en": [
+      {
+        "id": "3085374",
+        "text": "Do you have an empty room in this hotel?"
+      }
+    ],
+    "vocabIds": [
+      "1245350"
+    ],
+    "matches": {
+      "1245350": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "あきへや"
+        }
+      ]
+    }
+  }
+]

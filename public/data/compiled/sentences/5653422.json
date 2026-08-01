@@ -1,0 +1,212 @@
+[
+  {
+    "id": "81279",
+    "original": "毎日新聞を読みなさい、さもないと時勢におくれます。",
+    "en": [
+      {
+        "id": "322436",
+        "text": "Read the newspaper every day, or you will fall behind the times."
+      }
+    ],
+    "indices": "を 読む{読み} 為さい{なさい} 然もないと{さもないと} 時勢 に 遅れる{おくれます}",
+    "vocabIds": [
+      "1456360",
+      "5653422",
+      "1316260"
+    ],
+    "matches": {
+      "1316260": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "じせい"
+        }
+      ],
+      "1456360": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "よみなさい"
+        }
+      ],
+      "5653422": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "まいにちしんぶん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "156365",
+    "original": "私は時代に遅れないように、毎日新聞を読む。",
+    "en": [
+      {
+        "id": "258169",
+        "text": "I read a newspaper every day so that I may keep up with the time."
+      }
+    ],
+    "indices": "私(わたし)[01] は 時代 に 遅れる{遅れない} 様に{ように} 毎日 新聞 を 読む",
+    "vocabIds": [
+      "5653422",
+      "1589040",
+      "1316300",
+      "1456360",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1316300": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "じだい"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1456360": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "よむ"
+        }
+      ],
+      "1589040": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "おくれない"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "5653422": [
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "まいにちしんぶん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9092628",
+    "original": "毎日新聞を読まないと時代に取り残されるよ。",
+    "en": [
+      {
+        "id": "269452",
+        "text": "Read the newspaper every day, or you will get behind the times."
+      }
+    ],
+    "vocabIds": [
+      "1456360",
+      "5653422",
+      "1326740",
+      "1316300"
+    ],
+    "matches": {
+      "1316300": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "じだい"
+        }
+      ],
+      "1326740": [
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "とりのこさ"
+        }
+      ],
+      "1456360": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "よまないと"
+        }
+      ],
+      "5653422": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "まいにちしんぶん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10359967",
+    "original": "私は毎日新聞を読みます。",
+    "en": [
+      {
+        "id": "5649273",
+        "text": "I read the newspaper every day."
+      }
+    ],
+    "vocabIds": [
+      "5653422",
+      "1456360",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1456360": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "よみます"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "5653422": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "まいにちしんぶん"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,104 @@
+[
+  {
+    "id": "75935",
+    "original": "仙台へ行ってとんぼ返りで戻ってきました。",
+    "en": [
+      {
+        "id": "327783",
+        "text": "I went to Sendai and back without resting."
+      },
+      {
+        "id": "675410",
+        "text": "I went to Sendai and hurried right back."
+      },
+      {
+        "id": "675413",
+        "text": "I went to Sendai and came right back without staying there overnight."
+      }
+    ],
+    "indices": "へ 行く[01]{行って} とんぼ返り[02]~ で(#2028980) 戻って来る{戻ってきました}",
+    "vocabIds": [
+      "1535880",
+      "1642200",
+      "1572030",
+      "1578850",
+      "2164680"
+    ],
+    "matches": {
+      "1535880": [
+        {
+          "start": 12,
+          "length": 7,
+          "reading": "もどってきました"
+        }
+      ],
+      "1572030": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "とんぼかえり"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "いって"
+        }
+      ],
+      "1642200": [
+        {
+          "start": 12,
+          "length": 7,
+          "reading": "もどってきました"
+        }
+      ],
+      "2164680": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "せんだい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "111446",
+    "original": "彼はトンボ返りをした。",
+    "en": [
+      {
+        "id": "292237",
+        "text": "He turned a somersault."
+      }
+    ],
+    "indices": "彼(かれ)[01] は とんぼ返り[01]{トンボ返り}~ を 為る(する){した}",
+    "vocabIds": [
+      "1572030",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1572030": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "とんぼかえり"
+        }
+      ]
+    }
+  }
+]

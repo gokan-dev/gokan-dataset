@@ -1,0 +1,72 @@
+[
+  {
+    "id": "81104",
+    "original": "万事休すだ。もうどうしようもない。",
+    "en": [
+      {
+        "id": "322611",
+        "text": "It is all over with me. It can't be helped."
+      }
+    ],
+    "indices": "万事休す だ もう どうしようも無い{どうしようもない}",
+    "vocabIds": [
+      "1601360"
+    ],
+    "matches": {
+      "1601360": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "ばんじきゅうす"
+        }
+      ]
+    }
+  },
+  {
+    "id": "172411",
+    "original": "今頃彼は万事休すだ。",
+    "en": [
+      {
+        "id": "242064",
+        "text": "It is all up with him by this time."
+      }
+    ],
+    "indices": "今ごろ{今頃} 彼(かれ)[01] は 万事休す~ だ",
+    "vocabIds": [
+      "1601360",
+      "1289160",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1289160": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いまごろ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1601360": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "ばんじきゅうす"
+        }
+      ]
+    }
+  }
+]

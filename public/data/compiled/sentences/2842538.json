@@ -1,0 +1,105 @@
+[
+  {
+    "id": "75445",
+    "original": "まずいよ。また遅刻だ！！はやくも遅刻魔の異名をとってしまう。",
+    "en": [
+      {
+        "id": "328273",
+        "text": "Oh no! I'm late again!! I'm going to get the nickname 'King of Late arrival'."
+      }
+    ],
+    "indices": "不味い[02]{まずい} よ 又{また} 遅刻 だ 早くも{はやくも}~ 遅刻 魔[02]~ の 異名~ を 取る{とって} 仕舞う{しまう}",
+    "vocabIds": [
+      "2842538",
+      "1422050",
+      "1158110"
+    ],
+    "matches": {
+      "1158110": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "いみょう"
+        }
+      ],
+      "1422050": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ちこく"
+        }
+      ],
+      "2842538": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "ちこくま"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2249255",
+    "original": "彼女は遅刻魔だ。",
+    "en": [
+      {
+        "id": "2249254",
+        "text": "She tends to be late."
+      },
+      {
+        "id": "2249256",
+        "text": "She is habitually late."
+      },
+      {
+        "id": "11645147",
+        "text": "She's habitually late."
+      }
+    ],
+    "vocabIds": [
+      "2842538",
+      "1483150"
+    ],
+    "matches": {
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "2842538": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "ちこくま"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10778296",
+    "original": "この遅刻魔！",
+    "en": [
+      {
+        "id": "2713698",
+        "text": "You're always late."
+      },
+      {
+        "id": "70194",
+        "text": "You are always late."
+      }
+    ],
+    "vocabIds": [
+      "2842538"
+    ],
+    "matches": {
+      "2842538": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "ちこくま"
+        }
+      ]
+    }
+  }
+]

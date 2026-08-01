@@ -1,0 +1,129 @@
+{
+  "id": "1597150",
+  "writtenForm": {
+    "kanji": "煙草",
+    "alternatives": [
+      "莨",
+      "烟草"
+    ],
+    "containedKanji": [
+      "煙",
+      "草"
+    ]
+  },
+  "reading": {
+    "primary": "タバコ",
+    "alternatives": [
+      "たばこ",
+      "えんそう"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 8369,
+    "kanaRank": 20386
+  },
+  "jlptLevel": 1,
+  "progression": {
+    "kklcStep": 768
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "tobacco",
+        "cigarette",
+        "cigar"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "tobacco plant (Nicotiana tabacum)"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": true,
+        "rawTags": [
+          "rare"
+        ]
+      },
+      "glosses": [
+        "tobacco"
+      ],
+      "related": {
+        "compounds": [
+          "タバコ"
+        ]
+      },
+      "appliesToReadings": [
+        "えんそう"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": true
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1597150",
+      "isBase": true,
+      "originalPrimaryReading": "タバコ",
+      "originalGlosses": [
+        "tobacco",
+        "cigarette",
+        "cigar"
+      ]
+    },
+    {
+      "id": "2861198",
+      "isBase": false,
+      "originalPrimaryReading": "えんそう",
+      "originalGlosses": [
+        "tobacco"
+      ]
+    }
+  ],
+  "components": [
+    "1177180",
+    "1401910"
+  ]
+}

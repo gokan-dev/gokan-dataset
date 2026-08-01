@@ -1,0 +1,236 @@
+[
+  {
+    "id": "83339",
+    "original": "返品した品物の代金を私の口座に振り込んで下さい。",
+    "en": [
+      {
+        "id": "320378",
+        "text": "Please credit my account for the returned item."
+      }
+    ],
+    "indices": "返品 為る(する){した} 品物 の 代金 を 私(わたし)[01]{私の} 口座 に 振り込む{振り込んで} 下さい",
+    "vocabIds": [
+      "1361210",
+      "1512300",
+      "1490670",
+      "1411790",
+      "1276150",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1276150": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "こうざ"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1361210": [
+        {
+          "start": 15,
+          "length": 8,
+          "reading": "ふりこんでください"
+        }
+      ],
+      "1411790": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "だいきん"
+        }
+      ],
+      "1490670": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "しなもの"
+        }
+      ],
+      "1512300": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "へんぴん"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "235234",
+    "original": "４５０ドル、私の口座に振り込んでください。",
+    "en": [
+      {
+        "id": "72612",
+        "text": "Please transfer 450 dollars to my account."
+      }
+    ],
+    "indices": "弗[01]{ドル} 私(わたし)[01]{私の} 口座 に 振り込む{振り込んで}~ 下さい[02]{ください}",
+    "vocabIds": [
+      "1361210",
+      "1276150",
+      "1579470",
+      "1268060",
+      "1557630",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1268060": [
+        {
+          "start": 1,
+          "length": 1,
+          "reading": "ご"
+        }
+      ],
+      "1276150": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "こうざ"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1361210": [
+        {
+          "start": 11,
+          "length": 9,
+          "reading": "ふりこんでください"
+        }
+      ],
+      "1557630": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ぜろ"
+        }
+      ],
+      "1579470": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "よん"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1714798",
+    "original": "月曜日までに、ファックスまたはメール添付などで、お振込み証明をお送りいただけますか。",
+    "en": [
+      {
+        "id": "1714802",
+        "text": "Could I please receive by Monday, as a fax or an email attachment, a receipt for the bank transfer?"
+      }
+    ],
+    "vocabIds": [
+      "1255890",
+      "1361210",
+      "1440880",
+      "1351680"
+    ],
+    "matches": {
+      "1255890": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "げつようび"
+        }
+      ],
+      "1351680": [
+        {
+          "start": 28,
+          "length": 2,
+          "reading": "しょうめい"
+        }
+      ],
+      "1361210": [
+        {
+          "start": 25,
+          "length": 3,
+          "reading": "ふりこみ"
+        }
+      ],
+      "1440880": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "てんぷ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12037968",
+    "original": "どの口座に振り込めばいいの？",
+    "en": [
+      {
+        "id": "11111035",
+        "text": "Whose account should I transfer the money to?"
+      }
+    ],
+    "vocabIds": [
+      "1361210",
+      "1276150"
+    ],
+    "matches": {
+      "1276150": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "こうざ"
+        }
+      ],
+      "1361210": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "ふりこめば"
+        }
+      ]
+    }
+  }
+]

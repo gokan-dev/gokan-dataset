@@ -1,0 +1,87 @@
+[
+  {
+    "id": "75403",
+    "original": "証拠隠滅どーすんのよ！普通は警察に連絡するもんでしょっ。",
+    "en": [
+      {
+        "id": "328316",
+        "text": "What does destroying evidence get you? The usual thing would be to contact the police, wouldn't it?"
+      }
+    ],
+    "indices": "証拠隠滅~ 如何(どう){どー} 為る(する){すん} の よ 普通 は 警察 に 連絡[01] 為る(する){する} 物(もの){もん} でしょう{でしょっ}",
+    "vocabIds": [
+      "1648140",
+      "1497190",
+      "1252390",
+      "1559900"
+    ],
+    "matches": {
+      "1252390": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "けいさつ"
+        }
+      ],
+      "1497190": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "ふつう"
+        }
+      ],
+      "1559900": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "れんらく"
+        }
+      ],
+      "1648140": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "しょうこいんめつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8658031",
+    "original": "トムは証拠隠滅を試みたが、間に合わなかった。",
+    "en": [
+      {
+        "id": "8658020",
+        "text": "Tom tried to hide the evidence, but it was too late."
+      }
+    ],
+    "vocabIds": [
+      "1215260",
+      "1648140",
+      "1312280"
+    ],
+    "matches": {
+      "1215260": [
+        {
+          "start": 13,
+          "length": 8,
+          "reading": "まにあわなかった"
+        }
+      ],
+      "1312280": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "こころみたが"
+        }
+      ],
+      "1648140": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "しょうこいんめつ"
+        }
+      ]
+    }
+  }
+]

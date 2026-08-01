@@ -1,0 +1,372 @@
+[
+  {
+    "id": "121680",
+    "original": "農民が穀物の種を蒔いた。",
+    "en": [
+      {
+        "id": "282324",
+        "text": "The peasant scattered the seeds of grain."
+      }
+    ],
+    "indices": "農民 が 穀物 の 種を蒔く{種を蒔いた}",
+    "vocabIds": [
+      "2611890",
+      "1470770",
+      "1287280",
+      "2735690"
+    ],
+    "matches": {
+      "1287280": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "こくもつ"
+        }
+      ],
+      "1470770": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "のうみん"
+        }
+      ],
+      "2611890": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "まいた"
+        }
+      ],
+      "2735690": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "たね"
+        }
+      ]
+    }
+  },
+  {
+    "id": "121693",
+    "original": "農夫が畑に種を蒔いている。",
+    "en": [
+      {
+        "id": "282312",
+        "text": "The farmer is scattering seeds over the field."
+      }
+    ],
+    "indices": "農夫 が 畑 に 種を蒔く{種を蒔いている}",
+    "vocabIds": [
+      "2611890",
+      "1470760",
+      "1476520",
+      "2735690"
+    ],
+    "matches": {
+      "1470760": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "のうふ"
+        }
+      ],
+      "1476520": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "はたけ"
+        }
+      ],
+      "2611890": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "まいている"
+        }
+      ],
+      "2735690": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "たね"
+        }
+      ]
+    }
+  },
+  {
+    "id": "149675",
+    "original": "蒔かぬ種は生えぬ。",
+    "en": [
+      {
+        "id": "264883",
+        "text": "Seeds unsown do not grow."
+      },
+      {
+        "id": "375458",
+        "text": "No autumn fruit without spring blossom."
+      },
+      {
+        "id": "325240",
+        "text": "You cannot make an omelet without breaking eggs."
+      },
+      {
+        "id": "3033268",
+        "text": "You can't make an omelette without breaking eggs."
+      },
+      {
+        "id": "40561",
+        "text": "You can't make an omelet without breaking eggs."
+      },
+      {
+        "id": "7497129",
+        "text": "If you don't plant the seeds, they won't grow."
+      }
+    ],
+    "indices": "撒く{蒔かぬ} 種(たね)[01] は 生える[01]{生えぬ}",
+    "vocabIds": [
+      "1378490",
+      "2611890",
+      "2735690"
+    ],
+    "matches": {
+      "1378490": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "はえぬ"
+        }
+      ],
+      "2611890": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "まかぬ"
+        }
+      ],
+      "2735690": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "たね"
+        }
+      ]
+    }
+  },
+  {
+    "id": "149676",
+    "original": "蒔かぬ種は生えない。",
+    "en": [
+      {
+        "id": "264882",
+        "text": "You must sow before you can reap."
+      }
+    ],
+    "indices": "撒く{蒔かぬ} 種(たね)[01]~ は 生える[01]{生えない}",
+    "vocabIds": [
+      "1378490",
+      "2611890",
+      "2735690"
+    ],
+    "matches": {
+      "1378490": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "はえない"
+        }
+      ],
+      "2611890": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "まかぬ"
+        }
+      ],
+      "2735690": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "たね"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10511709",
+    "original": "「小さい頃に、お母さんのお気に入りのネックレスをちぎちゃってさぁ、路上にバラ蒔いたことがあるんだ」「お母さんに、怒られたでしょ？」「それがね、僕、覚えてないんだ」「じゃぁ、なんで知ってるの？」「お母さんに何度も言われたから」「それって、絶対お母さんは根に持ってるよね」「えっ。そうなのかな？」「多分ね。初任給もらったら、お母さんにネックレスプレゼントしといた方がいいよ」「わかった。そうする」",
+    "en": [
+      {
+        "id": "10512935",
+        "text": "\"When I was little, I once broke my mom's favorite necklace, and all the little pieces spilled onto the road.\" \"Was she mad at you?\" \"I don't really remember.\" \"Then how do you know you did that?\" \"She told me about it several times.\" \"She's probably holding it against you.\" \"You think?\" \"Maybe. Once you start making money, you should buy her another one to make up for it.\" \"Alright, I will.\""
+      }
+    ],
+    "vocabIds": [
+      "1610620",
+      "1206050",
+      "2420940",
+      "1002650",
+      "2160680",
+      "1420470",
+      "1315720",
+      "1189200",
+      "1343020",
+      "2611890",
+      "1612340",
+      "1445690",
+      "1587040",
+      "1386840",
+      "1407980",
+      "1521400",
+      "2228300",
+      "1290020"
+    ],
+    "matches": {
+      "1002650": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "おかあさん"
+        },
+        {
+          "start": 50,
+          "length": 4,
+          "reading": "おかあさん"
+        },
+        {
+          "start": 97,
+          "length": 4,
+          "reading": "おかあさん"
+        },
+        {
+          "start": 120,
+          "length": 4,
+          "reading": "おかあさん"
+        },
+        {
+          "start": 160,
+          "length": 4,
+          "reading": "おかあさん"
+        }
+      ],
+      "1189200": [
+        {
+          "start": 102,
+          "length": 3,
+          "reading": "なんども"
+        }
+      ],
+      "1206050": [
+        {
+          "start": 73,
+          "length": 5,
+          "reading": "おぼえてない"
+        }
+      ],
+      "1290020": [
+        {
+          "start": 125,
+          "length": 1,
+          "reading": "ね"
+        }
+      ],
+      "1315720": [
+        {
+          "start": 127,
+          "length": 4,
+          "reading": "もってる"
+        }
+      ],
+      "1343020": [
+        {
+          "start": 151,
+          "length": 3,
+          "reading": "しょにんきゅう"
+        }
+      ],
+      "1386840": [
+        {
+          "start": 118,
+          "length": 2,
+          "reading": "ぜったい"
+        }
+      ],
+      "1407980": [
+        {
+          "start": 147,
+          "length": 2,
+          "reading": "たぶん"
+        }
+      ],
+      "1420470": [
+        {
+          "start": 89,
+          "length": 4,
+          "reading": "しってる"
+        }
+      ],
+      "1445690": [
+        {
+          "start": 56,
+          "length": 2,
+          "reading": "おこら"
+        }
+      ],
+      "1521400": [
+        {
+          "start": 71,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ],
+      "1587040": [
+        {
+          "start": 105,
+          "length": 2,
+          "reading": "いわ"
+        }
+      ],
+      "1610620": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "おきにいり"
+        }
+      ],
+      "1612340": [
+        {
+          "start": 33,
+          "length": 2,
+          "reading": "ろじょう"
+        }
+      ],
+      "2160680": [
+        {
+          "start": 179,
+          "length": 4,
+          "reading": "ほうがいい"
+        }
+      ],
+      "2228300": [
+        {
+          "start": 71,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ],
+      "2420940": [
+        {
+          "start": 1,
+          "length": 4,
+          "reading": "ちいさいころ"
+        }
+      ],
+      "2611890": [
+        {
+          "start": 38,
+          "length": 3,
+          "reading": "まいた"
+        }
+      ]
+    }
+  }
+]

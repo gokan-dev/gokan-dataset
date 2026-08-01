@@ -1,0 +1,150 @@
+[
+  {
+    "id": "183014",
+    "original": "貴婦人は急いで病院へ行き、そのまま診察室へと連れて行かれた。",
+    "en": [
+      {
+        "id": "20136",
+        "text": "She rushed to the office, and was ushered right into an examination room."
+      }
+    ],
+    "indices": "貴婦人 は 急ぐ{急いで} 病院 へ 行く[01]{行き} 其のまま{そのまま} 診察室 へと 連れて行く{連れて行かれた}",
+    "vocabIds": [
+      "1559290",
+      "1223600",
+      "1228570",
+      "1705640",
+      "1490220",
+      "1578850"
+    ],
+    "matches": {
+      "1223600": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きふじん"
+        }
+      ],
+      "1228570": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "いそいで"
+        }
+      ],
+      "1490220": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "びょういん"
+        }
+      ],
+      "1559290": [
+        {
+          "start": 22,
+          "length": 5,
+          "reading": "つれていか"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "いき"
+        }
+      ],
+      "1705640": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "しんさつしつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "212355",
+    "original": "その医者の診察室は２階にある。",
+    "en": [
+      {
+        "id": "49639",
+        "text": "The doctor's office is on the second floor."
+      }
+    ],
+    "indices": "其の[01]{その} 医者 の 診察室~ は 階(かい)[02] に 有る{ある}",
+    "vocabIds": [
+      "1705640",
+      "1159980",
+      "1461420"
+    ],
+    "matches": {
+      "1159980": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "いしゃ"
+        }
+      ],
+      "1461420": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "にかい"
+        }
+      ],
+      "1705640": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "しんさつしつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9712436",
+    "original": "トムさん。診察室3番にお入りください。",
+    "en": [
+      {
+        "id": "10128523",
+        "text": "Tom, please enter Examination room 3."
+      }
+    ],
+    "vocabIds": [
+      "1465590",
+      "1705640",
+      "2022640",
+      "2199920"
+    ],
+    "matches": {
+      "1465590": [
+        {
+          "start": 12,
+          "length": 6,
+          "reading": "はいりください"
+        }
+      ],
+      "1705640": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "しんさつしつ"
+        }
+      ],
+      "2022640": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "ばん"
+        }
+      ],
+      "2199920": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "ばん"
+        }
+      ]
+    }
+  }
+]

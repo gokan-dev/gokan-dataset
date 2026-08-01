@@ -1,0 +1,87 @@
+[
+  {
+    "id": "185844",
+    "original": "我々は今人手不足だ。",
+    "en": [
+      {
+        "id": "22978",
+        "text": "We need more workers."
+      }
+    ],
+    "indices": "我々 は 今人~ 手不足~ だ",
+    "vocabIds": [
+      "1368010",
+      "1607050",
+      "1288850"
+    ],
+    "matches": {
+      "1288850": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "こん"
+        }
+      ],
+      "1368010": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "ひとでふそく"
+        }
+      ],
+      "1607050": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "われわれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2994464",
+    "original": "事故の背景には、深刻な人手不足がある。",
+    "en": [
+      {
+        "id": "10070229",
+        "text": "A severe shortage of workers was the cause of the accident."
+      }
+    ],
+    "vocabIds": [
+      "1368010",
+      "1313850",
+      "1472720",
+      "1362730"
+    ],
+    "matches": {
+      "1313850": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じこ"
+        }
+      ],
+      "1362730": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "しんこく"
+        }
+      ],
+      "1368010": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "ひとでふそく"
+        }
+      ],
+      "1472720": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "はいけい"
+        }
+      ]
+    }
+  }
+]

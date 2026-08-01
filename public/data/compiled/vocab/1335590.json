@@ -1,0 +1,163 @@
+{
+  "id": "1335590",
+  "writtenForm": {
+    "kanji": "獣",
+    "alternatives": [
+      "猪",
+      "鹿"
+    ],
+    "containedKanji": [
+      "獣"
+    ]
+  },
+  "reading": {
+    "primary": "けもの",
+    "alternatives": [
+      "けだもの",
+      "じゅう",
+      "ケモノ",
+      "ケダモノ",
+      "しし"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 3039,
+    "kanaRank": 33092
+  },
+  "jlptLevel": 1,
+  "progression": {
+    "kklcStep": 763
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "beast",
+        "brute",
+        "animal"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "sl"
+        ]
+      },
+      "glosses": [
+        "animal with human characteristics"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "beast (esp. one used for its meat, such as a boar or a deer)"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "しし"
+      ]
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": true,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "abbr"
+        ]
+      },
+      "glosses": [
+        "hunting (of animals such as boar, deer, etc.)"
+      ],
+      "related": {
+        "compounds": [
+          "獣狩り"
+        ]
+      },
+      "appliesToReadings": [
+        "しし"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": true
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1335590",
+      "isBase": true,
+      "originalPrimaryReading": "けもの",
+      "originalGlosses": [
+        "beast",
+        "brute",
+        "animal"
+      ]
+    },
+    {
+      "id": "2203180",
+      "isBase": false,
+      "originalPrimaryReading": "しし",
+      "originalGlosses": [
+        "beast (esp. one used for its meat, such as a boar or a deer)"
+      ]
+    }
+  ],
+  "parents": [
+    "1534040",
+    "1200280",
+    "1537420",
+    "1827440",
+    "2202730",
+    "1335610",
+    "1796240",
+    "1699890",
+    "1627600",
+    "2095820",
+    "1699880",
+    "1674810"
+  ]
+}

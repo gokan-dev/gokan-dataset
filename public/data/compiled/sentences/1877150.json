@@ -1,0 +1,112 @@
+[
+  {
+    "id": "89034",
+    "original": "彼女は自分の子どもに甘い。",
+    "en": [
+      {
+        "id": "314673",
+        "text": "She lets her children have their own way too much."
+      }
+    ],
+    "indices": "彼女[01] は 自分[01] の 子供{子ども} に 甘い(あまい)",
+    "vocabIds": [
+      "1877150",
+      "1483150",
+      "1318610"
+    ],
+    "matches": {
+      "1318610": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "じぶん"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1877150": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "こどもにあまい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "179865",
+    "original": "近ごろの親は概して子供に甘いので、マナーの知らない子供が多い。",
+    "en": [
+      {
+        "id": "18724",
+        "text": "As these days most parents indulge their children, many children don't know what good manners are."
+      }
+    ],
+    "indices": "近頃[01]{近ごろ} の 親(おや)[01] は 概して 子供 に 甘い(あまい) ので マナー の 知る{知らない} 子供 が 多い",
+    "vocabIds": [
+      "1877150",
+      "1420420",
+      "1242300",
+      "1204400",
+      "1307850",
+      "1407460",
+      "1365040"
+    ],
+    "matches": {
+      "1204400": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "がいして"
+        }
+      ],
+      "1242300": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ちかごろ"
+        }
+      ],
+      "1307850": [
+        {
+          "start": 25,
+          "length": 2,
+          "reading": "こども"
+        }
+      ],
+      "1365040": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "おや"
+        }
+      ],
+      "1407460": [
+        {
+          "start": 28,
+          "length": 2,
+          "reading": "おおい"
+        }
+      ],
+      "1420420": [
+        {
+          "start": 21,
+          "length": 4,
+          "reading": "しらない"
+        }
+      ],
+      "1877150": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "こどもにあまい"
+        }
+      ]
+    }
+  }
+]

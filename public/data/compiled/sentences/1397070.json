@@ -1,0 +1,79 @@
+[
+  {
+    "id": "140648",
+    "original": "粗品ですがお受け取りください。",
+    "en": [
+      {
+        "id": "273925",
+        "text": "This is just a small gift, but please accept it."
+      }
+    ],
+    "indices": "粗品[01]~ です が[03] 御(お){お} 受け取り 下さい{ください}",
+    "vocabIds": [
+      "1397070"
+    ],
+    "matches": {
+      "1397070": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "そしな"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1809982",
+    "original": "近所に新規オープンしたコンビニで買い物したらさ、粗品で食パンもらったんだ。",
+    "en": [
+      {
+        "id": "1852553",
+        "text": "I went shopping at the new convenience store that opened in the neighborhood and received a free gift of bread."
+      }
+    ],
+    "vocabIds": [
+      "1589730",
+      "1358400",
+      "1242350",
+      "1361650",
+      "1397070"
+    ],
+    "matches": {
+      "1242350": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きんじょ"
+        }
+      ],
+      "1358400": [
+        {
+          "start": 27,
+          "length": 3,
+          "reading": "しょくぱん"
+        }
+      ],
+      "1361650": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "しんき"
+        }
+      ],
+      "1397070": [
+        {
+          "start": 24,
+          "length": 2,
+          "reading": "そしな"
+        }
+      ],
+      "1589730": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "かいもの"
+        }
+      ]
+    }
+  }
+]

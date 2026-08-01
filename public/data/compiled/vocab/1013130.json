@@ -1,0 +1,107 @@
+{
+  "id": "1013130",
+  "writtenForm": {
+    "kanji": "様になる",
+    "alternatives": [],
+    "containedKanji": [
+      "様"
+    ]
+  },
+  "reading": {
+    "primary": "ようになる",
+    "alternatives": [
+      "さまになる",
+      "サマになる"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 9433,
+    "kanaRank": 330
+  },
+  "progression": {
+    "kklcStep": 501
+  },
+  "senses": [
+    {
+      "pos": [
+        "exp",
+        "v5r"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "to reach the point where ...",
+        "to come to ...",
+        "to come to be that ...",
+        "to start to ...",
+        "to begin to ..."
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "exp",
+        "v5r"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "to become good-looking",
+        "to start looking appropriate (for something)"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "さまになる"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1013130",
+      "isBase": true,
+      "originalPrimaryReading": "ようになる",
+      "originalGlosses": [
+        "to reach the point where ...",
+        "to come to ...",
+        "to come to be that ..."
+      ]
+    },
+    {
+      "id": "1545800",
+      "isBase": false,
+      "originalPrimaryReading": "さまになる",
+      "originalGlosses": [
+        "to become good-looking",
+        "to start looking appropriate (for something)"
+      ]
+    }
+  ],
+  "components": [
+    "1545790",
+    "1013110"
+  ]
+}

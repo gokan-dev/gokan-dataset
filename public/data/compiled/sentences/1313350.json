@@ -1,0 +1,111 @@
+[
+  {
+    "id": "150927",
+    "original": "歯車がかみ合っている。",
+    "en": [
+      {
+        "id": "263629",
+        "text": "The cog-wheels are in gear."
+      }
+    ],
+    "indices": "歯車[01]~ が 噛み合う[01]{かみ合っている}~",
+    "vocabIds": [
+      "1209150",
+      "1313350"
+    ],
+    "matches": {
+      "1209150": [
+        {
+          "start": 3,
+          "length": 7,
+          "reading": "かみあっている"
+        }
+      ],
+      "1313350": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "はぐるま"
+        }
+      ]
+    }
+  },
+  {
+    "id": "170549",
+    "original": "最後まで議論の歯車が噛み合わなかった。",
+    "en": [
+      {
+        "id": "243933",
+        "text": "We were arguing on different planes to the last."
+      }
+    ],
+    "indices": "最後まで 議論 の 歯車がかみ合う{歯車が噛み合わなかった}",
+    "vocabIds": [
+      "1209150",
+      "1293830",
+      "1226160",
+      "1313350"
+    ],
+    "matches": {
+      "1209150": [
+        {
+          "start": 10,
+          "length": 8,
+          "reading": "かみあわなかった"
+        }
+      ],
+      "1226160": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ぎろん"
+        }
+      ],
+      "1293830": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "さいごまで"
+        }
+      ],
+      "1313350": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "はぐるま"
+        }
+      ]
+    }
+  },
+  {
+    "id": "224357",
+    "original": "ここの小さな歯車がないんだ。",
+    "en": [
+      {
+        "id": "61692",
+        "text": "A small gear is missing here."
+      }
+    ],
+    "indices": "此処[01]{ここ} の 小さな 歯車[01] が 無い{ない} のだ{んだ}",
+    "vocabIds": [
+      "2136180",
+      "1313350"
+    ],
+    "matches": {
+      "1313350": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "はぐるま"
+        }
+      ],
+      "2136180": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "ちいさな"
+        }
+      ]
+    }
+  }
+]

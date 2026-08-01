@@ -1,0 +1,127 @@
+{
+  "id": "1221240",
+  "writtenForm": {
+    "kanji": "帰す",
+    "alternatives": [
+      "還す"
+    ],
+    "containedKanji": [
+      "帰"
+    ]
+  },
+  "reading": {
+    "primary": "かえす",
+    "alternatives": [
+      "きす"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 2944
+  },
+  "jlptLevel": 2,
+  "progression": {
+    "kklcStep": 1018
+  },
+  "senses": [
+    {
+      "pos": [
+        "v5s",
+        "vt"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "to send (someone) back",
+        "to send (someone) home"
+      ],
+      "related": {
+        "compounds": [
+          "返す"
+        ]
+      }
+    },
+    {
+      "pos": [
+        "v5s",
+        "vs-c"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "to come to (in the end)",
+        "to end in"
+      ],
+      "related": {
+        "compounds": [
+          "帰する"
+        ]
+      },
+      "appliesToReadings": [
+        "きす"
+      ]
+    },
+    {
+      "pos": [
+        "v5s",
+        "vs-c"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "to attribute",
+        "to blame"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "きす"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1221240",
+      "isBase": true,
+      "originalPrimaryReading": "かえす",
+      "originalGlosses": [
+        "to send (someone) back",
+        "to send (someone) home"
+      ]
+    },
+    {
+      "id": "2410530",
+      "isBase": false,
+      "originalPrimaryReading": "きす",
+      "originalGlosses": [
+        "to come to (in the end)",
+        "to end in"
+      ]
+    }
+  ],
+  "parents": [
+    "2082270"
+  ]
+}

@@ -1,0 +1,235 @@
+[
+  {
+    "id": "125818",
+    "original": "鳥が囀る。",
+    "en": [
+      {
+        "id": "278174",
+        "text": "Birds sing."
+      }
+    ],
+    "indices": "鳥[01] が 囀る",
+    "vocabIds": [
+      "1565710",
+      "1430250"
+    ],
+    "matches": {
+      "1430250": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "とり"
+        }
+      ],
+      "1565710": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "さえずる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "146919",
+    "original": "小鳥が木立の中で囀っている。",
+    "en": [
+      {
+        "id": "267642",
+        "text": "Birds are singing in the trees."
+      }
+    ],
+    "indices": "小鳥 が 木立~ の 中(なか) で(#2028980) 囀る{囀っている}",
+    "vocabIds": [
+      "1565710",
+      "1348530",
+      "1593260",
+      "1423310",
+      "2098290"
+    ],
+    "matches": {
+      "1348530": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ことり"
+        }
+      ],
+      "1423310": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "なか"
+        }
+      ],
+      "1565710": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "さえずっている"
+        }
+      ],
+      "1593260": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "こだち"
+        }
+      ],
+      "2098290": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "なか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "165622",
+    "original": "小鳥の囀りが聞こえます。",
+    "en": [
+      {
+        "id": "248883",
+        "text": "We can hear the bird sing."
+      }
+    ],
+    "indices": "小鳥 の 囀り[01]~ が 聞こえる[01]{聞こえます}",
+    "vocabIds": [
+      "1591150",
+      "1348530",
+      "1565710"
+    ],
+    "matches": {
+      "1348530": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ことり"
+        }
+      ],
+      "1565710": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "さえずり"
+        }
+      ],
+      "1591150": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "きこえます"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10151455",
+    "original": "木の上で鳥が囀っている。",
+    "en": [
+      {
+        "id": "278169",
+        "text": "A bird is singing in the tree."
+      }
+    ],
+    "vocabIds": [
+      "1565710",
+      "1534520",
+      "1352130",
+      "1430250"
+    ],
+    "matches": {
+      "1352130": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "うえ"
+        }
+      ],
+      "1430250": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "とり"
+        }
+      ],
+      "1534520": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "き"
+        }
+      ],
+      "1565710": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "さえずっている"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11045485",
+    "original": "鳥の囀りが聞こえる中、淹れたてのコーヒーを味わう。",
+    "en": [
+      {
+        "id": "11931245",
+        "text": "As I hear the birds chirp away in the background, I take a sip of my freshly-brewed coffee."
+      }
+    ],
+    "vocabIds": [
+      "1591150",
+      "1527010",
+      "1565710",
+      "1430250",
+      "1423310",
+      "2098290"
+    ],
+    "matches": {
+      "1423310": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "なか"
+        }
+      ],
+      "1430250": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "とり"
+        }
+      ],
+      "1527010": [
+        {
+          "start": 21,
+          "length": 3,
+          "reading": "あじわう"
+        }
+      ],
+      "1565710": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "さえずり"
+        }
+      ],
+      "1591150": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "きこえる"
+        }
+      ],
+      "2098290": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "なか"
+        }
+      ]
+    }
+  }
+]

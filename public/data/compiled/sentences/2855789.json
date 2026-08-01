@@ -1,0 +1,33 @@
+[
+  {
+    "id": "230575",
+    "original": "あの町かどに公衆電話ボックスがある。",
+    "en": [
+      {
+        "id": "67942",
+        "text": "There is a telephone booth at the corner of the street."
+      }
+    ],
+    "indices": "彼の(あの){あの} 町角{町かど}~ に 公衆電話 ボックス[03]~ が[01] 有る{ある}",
+    "vocabIds": [
+      "2855789",
+      "1603990"
+    ],
+    "matches": {
+      "1603990": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "まち"
+        }
+      ],
+      "2855789": [
+        {
+          "start": 6,
+          "length": 8,
+          "reading": "こうしゅうでんわぼっくす"
+        }
+      ]
+    }
+  }
+]

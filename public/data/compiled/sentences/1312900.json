@@ -1,0 +1,158 @@
+[
+  {
+    "id": "81343",
+    "original": "毎朝、雌牛は仔牛に乳をやる。",
+    "en": [
+      {
+        "id": "322372",
+        "text": "Cows give their calves milk every morning."
+      }
+    ],
+    "indices": "毎朝 雌牛 は 仔牛~ に 乳[01] を 遣る{やる}",
+    "vocabIds": [
+      "1524700",
+      "1312900",
+      "1592980",
+      "1464980"
+    ],
+    "matches": {
+      "1312900": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "めうし"
+        }
+      ],
+      "1464980": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "ちち"
+        }
+      ],
+      "1524700": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "まいあさ"
+        }
+      ],
+      "1592980": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "うし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "150984",
+    "original": "雌牛は牛乳を供給する。",
+    "en": [
+      {
+        "id": "263572",
+        "text": "Cows supply milk."
+      }
+    ],
+    "indices": "雌牛 は 牛乳 を 供給 為る(する){する}",
+    "vocabIds": [
+      "1312900",
+      "1231590",
+      "1233630"
+    ],
+    "matches": {
+      "1231590": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ぎゅうにゅう"
+        }
+      ],
+      "1233630": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "きょうきゅう"
+        }
+      ],
+      "1312900": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "めうし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "150985",
+    "original": "雌牛はミルクを供給する。",
+    "en": [
+      {
+        "id": "19495",
+        "text": "Cows provide us with milk."
+      }
+    ],
+    "indices": "雌牛 は ミルク を 供給 為る(する){する}",
+    "vocabIds": [
+      "1312900",
+      "1233630"
+    ],
+    "matches": {
+      "1233630": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "きょうきゅう"
+        }
+      ],
+      "1312900": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "めうし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "215812",
+    "original": "ジャックは雌牛を種と交換した。",
+    "en": [
+      {
+        "id": "53113",
+        "text": "Jack exchanged the cow for the seeds."
+      }
+    ],
+    "indices": "は 雌牛~ を 種(たね)[01] と 交換 為る(する){した}",
+    "vocabIds": [
+      "1312900",
+      "1271750",
+      "2735690"
+    ],
+    "matches": {
+      "1271750": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "こうかん"
+        }
+      ],
+      "1312900": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "めうし"
+        }
+      ],
+      "2735690": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "たね"
+        }
+      ]
+    }
+  }
+]

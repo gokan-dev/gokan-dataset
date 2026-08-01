@@ -1,0 +1,171 @@
+{
+  "id": "2831001",
+  "writtenForm": {
+    "kanji": "瞬く",
+    "alternatives": [
+      "目叩く",
+      "屡叩く",
+      "屢叩く"
+    ],
+    "containedKanji": [
+      "瞬"
+    ]
+  },
+  "reading": {
+    "primary": "めたたく",
+    "alternatives": [
+      "めばたく",
+      "しばたたく",
+      "しばたく",
+      "しばだたく",
+      "またたく",
+      "まばたく",
+      "まだたく"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 8634,
+    "kanaRank": 22599
+  },
+  "progression": {
+    "kklcStep": 963
+  },
+  "senses": [
+    {
+      "pos": [
+        "v4k",
+        "vi"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "to blink (one's eyes)",
+        "to wink",
+        "to bat"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "v5k",
+        "vt"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "to blink (one's eyes) repeatedly"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "しばたたく"
+      ]
+    },
+    {
+      "pos": [
+        "v5k",
+        "vi"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "to twinkle (e.g. stars)",
+        "to flicker",
+        "to waver"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "またたく"
+      ]
+    },
+    {
+      "pos": [
+        "v5k",
+        "vi"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "to blink (one's eyes)",
+        "to wink",
+        "to bat"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "またたく"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": true
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "2831001",
+      "isBase": true,
+      "originalPrimaryReading": "めたたく",
+      "originalGlosses": [
+        "to blink (one's eyes)",
+        "to wink",
+        "to bat"
+      ]
+    },
+    {
+      "id": "2831002",
+      "isBase": false,
+      "originalPrimaryReading": "しばたたく",
+      "originalGlosses": [
+        "to blink (one's eyes) repeatedly"
+      ]
+    },
+    {
+      "id": "1341200",
+      "isBase": false,
+      "originalPrimaryReading": "またたく",
+      "originalGlosses": [
+        "to twinkle (e.g. stars)",
+        "to flicker",
+        "to waver"
+      ]
+    }
+  ],
+  "parents": [
+    "1909530"
+  ]
+}

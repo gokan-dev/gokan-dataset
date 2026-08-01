@@ -1,0 +1,191 @@
+[
+  {
+    "id": "75026",
+    "original": "文字を大きくし、文字間や行間に余裕をもたせ、高齢者の方や、視力に障害のある方が読み易いように注意しました。",
+    "en": [
+      {
+        "id": "328693",
+        "text": "I took care to make the letters large and be generous with character and line spacing in order for it to be easy to read for the elderly and those who have problems with their sight."
+      }
+    ],
+    "indices": "文字 を 大きい{大きく} 為る(する){し} 文字間 や 行間~ に 余裕 を 持つ[03]{もたせ} 高齢者 の 方(かた) や 視力 に 障害[02] の 有る{ある} 方(かた) が 読む{読み} 易い 様に{ように} 注意{注意しました}",
+    "vocabIds": [
+      "1456140",
+      "1588880",
+      "2261350",
+      "1657250",
+      "1505390",
+      "1281880",
+      "1544590",
+      "1312150",
+      "1352060",
+      "1426530",
+      "1545790",
+      "1512070",
+      "1516930"
+    ],
+    "matches": {
+      "1281880": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "ぎょうかん"
+        }
+      ],
+      "1312150": [
+        {
+          "start": 29,
+          "length": 2,
+          "reading": "しりょく"
+        }
+      ],
+      "1352060": [
+        {
+          "start": 32,
+          "length": 2,
+          "reading": "しょうがい"
+        }
+      ],
+      "1426530": [
+        {
+          "start": 46,
+          "length": 2,
+          "reading": "ちゅうい"
+        }
+      ],
+      "1456140": [
+        {
+          "start": 39,
+          "length": 4,
+          "reading": "よみやすい"
+        }
+      ],
+      "1505390": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "もじ"
+        }
+      ],
+      "1512070": [
+        {
+          "start": 26,
+          "length": 1,
+          "reading": "ほう"
+        },
+        {
+          "start": 37,
+          "length": 1,
+          "reading": "ほう"
+        }
+      ],
+      "1516930": [
+        {
+          "start": 26,
+          "length": 1,
+          "reading": "ほう"
+        },
+        {
+          "start": 37,
+          "length": 1,
+          "reading": "ほう"
+        }
+      ],
+      "1544590": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "よゆう"
+        }
+      ],
+      "1545790": [
+        {
+          "start": 26,
+          "length": 1,
+          "reading": "ほう"
+        },
+        {
+          "start": 37,
+          "length": 1,
+          "reading": "ほう"
+        }
+      ],
+      "1588880": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "おおきく"
+        }
+      ],
+      "1657250": [
+        {
+          "start": 22,
+          "length": 3,
+          "reading": "こうれいしゃ"
+        }
+      ],
+      "2261350": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "もじかん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "75027",
+    "original": "ああそうそう、コメント欄のバグは文字間を調節するletter-spacingタグを使うと起こるものだったみたい。",
+    "en": [
+      {
+        "id": "328692",
+        "text": "Oh, while I remember, it seems that that was a bug that occurs when you use the comment field's 'letter-spacing' tag which adjusts the tracking."
+      }
+    ],
+    "indices": "嗚呼[01]{ああ} 然う然う[03]{そうそう} コメント 欄(らん)[01] の バグ~ は 文字間~ を 調節 為る(する){する} タグ を 使う と 起こる 物(もの){もの} だ{だった} みたい",
+    "vocabIds": [
+      "2404850",
+      "2261350",
+      "1223680",
+      "1305990",
+      "1429240"
+    ],
+    "matches": {
+      "1223680": [
+        {
+          "start": 44,
+          "length": 3,
+          "reading": "おこる"
+        }
+      ],
+      "1305990": [
+        {
+          "start": 41,
+          "length": 3,
+          "reading": "つかうと"
+        }
+      ],
+      "1429240": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "ちょうせつ"
+        }
+      ],
+      "2261350": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "もじかん"
+        }
+      ],
+      "2404850": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "こめんとらん"
+        }
+      ]
+    }
+  }
+]

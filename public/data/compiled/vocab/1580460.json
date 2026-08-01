@@ -1,0 +1,107 @@
+{
+  "id": "1580460",
+  "writtenForm": {
+    "kanji": "上方",
+    "alternatives": [],
+    "containedKanji": [
+      "上",
+      "方"
+    ]
+  },
+  "reading": {
+    "primary": "かみがた",
+    "alternatives": [
+      "じょうほう"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 15872,
+    "kanaRank": 66785
+  },
+  "progression": {
+    "kklcStep": 173
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "Kyoto and vicinity (esp. during Edo period)",
+        "Kyoto-Osaka region",
+        "Kansai region"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n",
+        "adj-no"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "upper part",
+        "upper region",
+        "region above"
+      ],
+      "related": {
+        "compounds": [
+          "下方"
+        ]
+      },
+      "appliesToReadings": [
+        "じょうほう"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "1580460",
+      "isBase": true,
+      "originalPrimaryReading": "かみがた",
+      "originalGlosses": [
+        "Kyoto and vicinity (esp. during Edo period)",
+        "Kyoto-Osaka region",
+        "Kansai region"
+      ]
+    },
+    {
+      "id": "1580465",
+      "isBase": false,
+      "originalPrimaryReading": "じょうほう",
+      "originalGlosses": [
+        "upper part",
+        "upper region",
+        "region above"
+      ]
+    }
+  ],
+  "components": [
+    "1352130",
+    "1516930"
+  ],
+  "parents": [
+    "2047110"
+  ]
+}

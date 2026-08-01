@@ -1,0 +1,63 @@
+[
+  {
+    "id": "226816",
+    "original": "お通じがよくなりますよ。",
+    "en": [
+      {
+        "id": "64164",
+        "text": "It moves the bowels."
+      }
+    ],
+    "indices": "御(お){お} 通じ~ が 良い{よく} 成る[01]{なります} よ[01]",
+    "vocabIds": [
+      "2453560"
+    ],
+    "matches": {
+      "2453560": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "おつうじ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "993894",
+    "original": "３日間お通じがありません。",
+    "en": [
+      {
+        "id": "2660302",
+        "text": "I have been constipated for three days."
+      }
+    ],
+    "vocabIds": [
+      "2453560",
+      "2827650",
+      "1579350"
+    ],
+    "matches": {
+      "1579350": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "さん"
+        }
+      ],
+      "2453560": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "おつうじ"
+        }
+      ],
+      "2827650": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "にちかん"
+        }
+      ]
+    }
+  }
+]

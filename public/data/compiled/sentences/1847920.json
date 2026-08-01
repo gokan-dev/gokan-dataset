@@ -1,0 +1,110 @@
+[
+  {
+    "id": "92076",
+    "original": "彼女はデザート用にクリームを泡立てた。",
+    "en": [
+      {
+        "id": "311635",
+        "text": "She beat the cream for dessert."
+      }
+    ],
+    "indices": "彼女[01] は デザート(#1082850) 用[02] に クリーム~ を 泡立てる{泡立てた}~",
+    "vocabIds": [
+      "1847920",
+      "1483150",
+      "1546200"
+    ],
+    "matches": {
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1546200": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "よう"
+        }
+      ],
+      "1847920": [
+        {
+          "start": 14,
+          "length": 4,
+          "reading": "あわだてた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "202256",
+    "original": "デザートは泡立てたクリームで作ってあった。",
+    "en": [
+      {
+        "id": "39468",
+        "text": "The dessert was made with whipped cream."
+      }
+    ],
+    "indices": "デザート(#1082850) は 泡立てる{泡立てた} クリーム で(#2028980) 作る[02]{作って} 有る{あった}",
+    "vocabIds": [
+      "1597890",
+      "1847920"
+    ],
+    "matches": {
+      "1597890": [
+        {
+          "start": 14,
+          "length": 6,
+          "reading": "つくってあった"
+        }
+      ],
+      "1847920": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "あわだてた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1619990",
+    "original": "泡立てたクリームに少量のブランデーを加えます。",
+    "en": [
+      {
+        "id": "1619991",
+        "text": "A small amount of brandy is added to the whipped cream."
+      }
+    ],
+    "vocabIds": [
+      "1847920",
+      "1189960",
+      "1595030"
+    ],
+    "matches": {
+      "1189960": [
+        {
+          "start": 18,
+          "length": 4,
+          "reading": "くわえます"
+        }
+      ],
+      "1595030": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "しょうりょう"
+        }
+      ],
+      "1847920": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "あわだてた"
+        }
+      ]
+    }
+  }
+]

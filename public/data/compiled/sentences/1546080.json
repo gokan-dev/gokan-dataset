@@ -1,0 +1,108 @@
+[
+  {
+    "id": "79452",
+    "original": "油は水と溶け合わない。",
+    "en": [
+      {
+        "id": "324265",
+        "text": "Oil and water won't blend with each other."
+      },
+      {
+        "id": "3870062",
+        "text": "Water and oil don't mix."
+      }
+    ],
+    "indices": "油 は 水(みず) と 溶け合う{溶け合わない}",
+    "vocabIds": [
+      "1546080",
+      "1538590",
+      "1371260"
+    ],
+    "matches": {
+      "1371260": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "みず"
+        }
+      ],
+      "1538590": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "あぶら"
+        }
+      ],
+      "1546080": [
+        {
+          "start": 4,
+          "length": 6,
+          "reading": "とけあわない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "185123",
+    "original": "海と空の色がお互いに溶け合っている。",
+    "en": [
+      {
+        "id": "22254",
+        "text": "The colors of the sea and the sky blend into one another."
+      }
+    ],
+    "indices": "海 と 空(そら) の 色(いろ)[01] が お互いに 溶け合う{溶け合っている}~",
+    "vocabIds": [
+      "1546080",
+      "2231160",
+      "1201190",
+      "1245290",
+      "2248040",
+      "1357600"
+    ],
+    "matches": {
+      "1201190": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "うみ"
+        }
+      ],
+      "1245290": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "そら"
+        }
+      ],
+      "1357600": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "いろ"
+        }
+      ],
+      "1546080": [
+        {
+          "start": 10,
+          "length": 7,
+          "reading": "とけあっている"
+        }
+      ],
+      "2231160": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "おたがいに"
+        }
+      ],
+      "2248040": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "そら"
+        }
+      ]
+    }
+  }
+]

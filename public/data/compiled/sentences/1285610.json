@@ -1,0 +1,163 @@
+[
+  {
+    "id": "77496",
+    "original": "列車は豪雪のために２時間遅れた。",
+    "en": [
+      {
+        "id": "326223",
+        "text": "The train was delayed two hours owing to the heavy snow."
+      },
+      {
+        "id": "1428373",
+        "text": "The train was delayed for two hours because of the heavy snow."
+      }
+    ],
+    "indices": "列車 は 豪雪 の 為に[02]{ために} 時間[02] 遅れる{遅れた}",
+    "vocabIds": [
+      "1589040",
+      "1558370",
+      "1285610",
+      "1315920",
+      "1461140"
+    ],
+    "matches": {
+      "1285610": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ごうせつ"
+        }
+      ],
+      "1315920": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "じかん"
+        }
+      ],
+      "1461140": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "に"
+        }
+      ],
+      "1558370": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "れっしゃ"
+        }
+      ],
+      "1589040": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "おくれた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "173123",
+    "original": "豪雪のおかげでその列車は数時間遅れた。",
+    "en": [
+      {
+        "id": "241348",
+        "text": "Heavy snow delayed the train for several hours."
+      }
+    ],
+    "indices": "豪雪 の お陰で{おかげで} 其の[01]{その} 列車 は 数時間 遅れる{遅れた}",
+    "vocabIds": [
+      "2182740",
+      "1589040",
+      "1285610",
+      "1558370"
+    ],
+    "matches": {
+      "1285610": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ごうせつ"
+        }
+      ],
+      "1558370": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "れっしゃ"
+        }
+      ],
+      "1589040": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "おくれた"
+        }
+      ],
+      "2182740": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "すうじかん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "210660",
+    "original": "その豪雪のため、私たちの列車は定刻に発車できなかった。",
+    "en": [
+      {
+        "id": "47930",
+        "text": "The heavy snowfall prevented our train from leaving on time."
+      }
+    ],
+    "indices": "其の[01]{その} 豪雪~ の 為(ため){ため} 私たち の 列車 は 定刻 に 発車 出来る{できなかった}",
+    "vocabIds": [
+      "1311300",
+      "1285610",
+      "1558370",
+      "1435580",
+      "1477500"
+    ],
+    "matches": {
+      "1285610": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ごうせつ"
+        }
+      ],
+      "1311300": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1435580": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "ていこく"
+        }
+      ],
+      "1477500": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "はっしゃ"
+        }
+      ],
+      "1558370": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "れっしゃ"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,64 @@
+[
+  {
+    "id": "143795",
+    "original": "水に流す。",
+    "en": [
+      {
+        "id": "4403681",
+        "text": "Don't cry over spilled milk."
+      }
+    ],
+    "indices": "水(みず) に 流す",
+    "vocabIds": [
+      "2227910"
+    ],
+    "matches": {
+      "2227910": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "みずにながす"
+        }
+      ]
+    }
+  },
+  {
+    "id": "215079",
+    "original": "スージーは物事を水に流すことができない性分だ。",
+    "en": [
+      {
+        "id": "52375",
+        "text": "Susie is so constituted that she cannot forgive and forget things."
+      }
+    ],
+    "indices": "は 物事 を 水に流す~ 事が出来る{ことができない} 性分 だ",
+    "vocabIds": [
+      "2227910",
+      "1502550",
+      "1375500"
+    ],
+    "matches": {
+      "1375500": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "しょうぶん"
+        }
+      ],
+      "1502550": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ものごと"
+        }
+      ],
+      "2227910": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "みずにながす"
+        }
+      ]
+    }
+  }
+]

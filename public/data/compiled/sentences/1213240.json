@@ -1,0 +1,142 @@
+[
+  {
+    "id": "140668",
+    "original": "祖母は漢方薬が一番いいと信じている。",
+    "en": [
+      {
+        "id": "273905",
+        "text": "Grandmother believes that Chinese medicines are the best."
+      }
+    ],
+    "indices": "祖母 は 漢方薬 が 一番(いちばん)[01] いい(#2820690)[01] と 信じる{信じている}",
+    "vocabIds": [
+      "1359040",
+      "1213240",
+      "1396860",
+      "1165970"
+    ],
+    "matches": {
+      "1165970": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "いちばん"
+        }
+      ],
+      "1213240": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "かんぽうやく"
+        }
+      ],
+      "1359040": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "しんじている"
+        }
+      ],
+      "1396860": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "そぼ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "222575",
+    "original": "この漢方薬を飲み続ければ効くでしょう。",
+    "en": [
+      {
+        "id": "59906",
+        "text": "If you continue to take this herbal medicine, it will do you good."
+      }
+    ],
+    "indices": "此の{この} 漢方薬~ を 飲む[01]{飲み} 続ける{続ければ} 効く でしょう[01]",
+    "vocabIds": [
+      "1169870",
+      "1591100",
+      "1213240"
+    ],
+    "matches": {
+      "1169870": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "のみつづければ"
+        }
+      ],
+      "1213240": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "かんぽうやく"
+        }
+      ],
+      "1591100": [
+        {
+          "start": 12,
+          "length": 6,
+          "reading": "きくでしょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3623995",
+    "original": "彼女は漢方薬を飲んだ。すると症状が和らいだ。",
+    "en": [
+      {
+        "id": "1616620",
+        "text": "She took Chinese medicine, which relieved her symptoms."
+      }
+    ],
+    "vocabIds": [
+      "1561950",
+      "1213240",
+      "1169870",
+      "1483150",
+      "1351030"
+    ],
+    "matches": {
+      "1169870": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "のんだ"
+        }
+      ],
+      "1213240": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "かんぽうやく"
+        }
+      ],
+      "1351030": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "しょうじょう"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1561950": [
+        {
+          "start": 17,
+          "length": 4,
+          "reading": "やわらいだ"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "id": "169564",
+    "original": "鮭は川をさかのぼって砂に産卵する。",
+    "en": [
+      {
+        "id": "244921",
+        "text": "Salmon go up the river and lay their eggs in the sand."
+      }
+    ],
+    "indices": "鮭[01]~ は 川 を 遡る[01]{さかのぼって}~ 砂 に 産卵~ 為る(する){する}",
+    "vocabIds": [
+      "1303890",
+      "1579300",
+      "1390020",
+      "1291500"
+    ],
+    "matches": {
+      "1291500": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "すな"
+        }
+      ],
+      "1303890": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "さんらん"
+        }
+      ],
+      "1390020": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "かわ"
+        }
+      ],
+      "1579300": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "さけ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "216838",
+    "original": "サケは淡水で産卵する。",
+    "en": [
+      {
+        "id": "54145",
+        "text": "Salmon lay their eggs in fresh water."
+      }
+    ],
+    "indices": "鮭[01]{サケ} は 淡水 で(#2028980) 産卵 為る(する){する}",
+    "vocabIds": [
+      "1418460",
+      "1303890"
+    ],
+    "matches": {
+      "1303890": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "さんらん"
+        }
+      ],
+      "1418460": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "たんすい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12700950",
+    "original": "サケは産卵後、ほとんどが死んでしまいます。",
+    "en": [
+      {
+        "id": "8894600",
+        "text": "Most salmon die after spawning."
+      }
+    ],
+    "vocabIds": [
+      "1310730",
+      "1303890",
+      "1269320",
+      "1269410",
+      "1270100",
+      "1358760"
+    ],
+    "matches": {
+      "1269320": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "ご"
+        }
+      ],
+      "1269410": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "ご"
+        }
+      ],
+      "1270100": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "ご"
+        }
+      ],
+      "1303890": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "さんらん"
+        }
+      ],
+      "1310730": [
+        {
+          "start": 12,
+          "length": 8,
+          "reading": "しんでしまいます"
+        }
+      ],
+      "1358760": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "ご"
+        }
+      ]
+    }
+  }
+]

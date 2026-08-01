@@ -1,0 +1,952 @@
+[
+  {
+    "id": "75302",
+    "original": "魔力(Ｍａｇｉｃ)：魔法を使うために必要な能力値。 魔法を使うと減少するが、時間で回復する。",
+    "en": [
+      {
+        "id": "328417",
+        "text": "MP (magic): Ability score needed to use magic. As you use magic it drops, but with time it recovers."
+      }
+    ],
+    "indices": "魔力 魔法 を 使う 為に{ために} 必要[01]{必要な} 能力(のうりょく) 値(あたい)[03]~ 魔法 を[01] 使う と 減少 為る(する){する} が 時間 で(#2028980) 回復[02] 為る(する){する}",
+    "vocabIds": [
+      "2242670",
+      "1524280",
+      "1524230",
+      "1305990",
+      "1487660",
+      "1263210",
+      "1315920",
+      "1199720"
+    ],
+    "matches": {
+      "1199720": [
+        {
+          "start": 41,
+          "length": 2,
+          "reading": "かいふく"
+        }
+      ],
+      "1263210": [
+        {
+          "start": 32,
+          "length": 2,
+          "reading": "げんしょう"
+        }
+      ],
+      "1305990": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "つかう"
+        },
+        {
+          "start": 29,
+          "length": 2,
+          "reading": "つかう"
+        }
+      ],
+      "1315920": [
+        {
+          "start": 38,
+          "length": 2,
+          "reading": "じかん"
+        }
+      ],
+      "1487660": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "ひつよう"
+        }
+      ],
+      "1524230": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "まほう"
+        },
+        {
+          "start": 26,
+          "length": 2,
+          "reading": "まほう"
+        }
+      ],
+      "1524280": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "まりょく"
+        }
+      ],
+      "2242670": [
+        {
+          "start": 21,
+          "length": 3,
+          "reading": "のうりょくち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "87379",
+    "original": "彼女は彼に魔法をかけた。",
+    "en": [
+      {
+        "id": "316329",
+        "text": "She put him under a spell."
+      }
+    ],
+    "indices": "彼女[01] は 彼(かれ) に 魔法 を 掛ける[14]{かけた}",
+    "vocabIds": [
+      "1483150",
+      "1524230",
+      "1000420",
+      "1483070"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1524230": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "まほう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "144645",
+    "original": "学校内で人に魔法をかけるはダメです。",
+    "en": [
+      {
+        "id": "269919",
+        "text": "You must not cast a spell upon someone inside the school."
+      }
+    ],
+    "indices": "学校 内(ない) で(#2028980) 人(ひと) に 魔法 を 掛ける{かける} は 駄目{ダメ} です",
+    "vocabIds": [
+      "1206730",
+      "1524230",
+      "2098290",
+      "1580640"
+    ],
+    "matches": {
+      "1206730": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "がっこう"
+        }
+      ],
+      "1524230": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "まほう"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ],
+      "2098290": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "146711",
+    "original": "少女はまるで魔法のように消え失せた。",
+    "en": [
+      {
+        "id": "267850",
+        "text": "The girl vanished like magic."
+      }
+    ],
+    "indices": "少女 は 丸で{まるで} 魔法 の様に[01]{のように} 消え失せる{消え失せた}",
+    "vocabIds": [
+      "1350060",
+      "1580290",
+      "2855480",
+      "1524230"
+    ],
+    "matches": {
+      "1350060": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "きえうせた"
+        }
+      ],
+      "1524230": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "まほう"
+        }
+      ],
+      "1580290": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しょうじょ"
+        }
+      ],
+      "2855480": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しょうじょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "164328",
+    "original": "私に魔法が使えたら良いのに。",
+    "en": [
+      {
+        "id": "250181",
+        "text": "I wish I could use magic."
+      }
+    ],
+    "indices": "私(わたし)[01] に 魔法 が 使える{使えたら} 良い のに",
+    "vocabIds": [
+      "1607180",
+      "1605820",
+      "1524230",
+      "1311110",
+      "1347580",
+      "2015370"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1347580": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1524230": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "まほう"
+        }
+      ],
+      "1605820": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "よいのに"
+        }
+      ],
+      "1607180": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "つかえたら"
+        }
+      ],
+      "2015370": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "188475",
+    "original": "王子は魔法で木に変えられた。",
+    "en": [
+      {
+        "id": "25618",
+        "text": "The prince was changed into a tree by magic."
+      }
+    ],
+    "indices": "王子 は 魔法 で(#2028980) 木(き) に 変える{変えられた}",
+    "vocabIds": [
+      "1510650",
+      "1181500",
+      "1524230",
+      "1534520"
+    ],
+    "matches": {
+      "1181500": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おうじ"
+        }
+      ],
+      "1510650": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "かえ"
+        }
+      ],
+      "1524230": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "まほう"
+        }
+      ],
+      "1534520": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "き"
+        }
+      ]
+    }
+  },
+  {
+    "id": "188476",
+    "original": "王子は魔法でカエルに変えられた。",
+    "en": [
+      {
+        "id": "25619",
+        "text": "The prince was turned into a frog by magic."
+      }
+    ],
+    "indices": "王子 は 魔法 で(#2028980) 蛙[01]{カエル} に 変える{変えられた}",
+    "vocabIds": [
+      "1510650",
+      "1181500",
+      "1524230"
+    ],
+    "matches": {
+      "1181500": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おうじ"
+        }
+      ],
+      "1510650": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "かえ"
+        }
+      ],
+      "1524230": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "まほう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "191040",
+    "original": "意地の悪い魔女が男にとんでもない魔法をかけて、虫に変えてしまった。",
+    "en": [
+      {
+        "id": "28200",
+        "text": "The wicked witch cast an evil spell on the man and turned him into an insect."
+      }
+    ],
+    "indices": "意地 の 悪い(わるい) 魔女 が 男 に とんでも無い{とんでもない} 魔法 を 掛ける[14]{かけて} 虫 に 変える{変えて} 仕舞う{しまった}",
+    "vocabIds": [
+      "1510650",
+      "1156720",
+      "1151260",
+      "1403390",
+      "2772730",
+      "1524150",
+      "1524230",
+      "1419990",
+      "1589190",
+      "1426680"
+    ],
+    "matches": {
+      "1151260": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "わるい"
+        }
+      ],
+      "1156720": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いじ"
+        }
+      ],
+      "1403390": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "わるい"
+        }
+      ],
+      "1419990": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "おとこ"
+        }
+      ],
+      "1426680": [
+        {
+          "start": 23,
+          "length": 1,
+          "reading": "むし"
+        }
+      ],
+      "1510650": [
+        {
+          "start": 25,
+          "length": 7,
+          "reading": "かえてしまった"
+        }
+      ],
+      "1524150": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "まじょ"
+        }
+      ],
+      "1524230": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "まほう"
+        }
+      ],
+      "1589190": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "おとこ"
+        }
+      ],
+      "2772730": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "わるい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "234662",
+    "original": "あいつに魔法をかけてカエルにしてやろう。",
+    "en": [
+      {
+        "id": "72039",
+        "text": "I'll bewitch him into a frog!"
+      },
+      {
+        "id": "1223621",
+        "text": "I'll use magic on him and turn him into a frog."
+      }
+    ],
+    "indices": "彼奴(あいつ)[01]{あいつ} に 魔法~ を 掛ける[14]{かけて}~ 蛙[01]{カエル} に して遣る{してやろう}",
+    "vocabIds": [
+      "1524230"
+    ],
+    "matches": {
+      "1524230": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "まほう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "772430",
+    "original": "これは魔法ではありません。",
+    "en": [
+      {
+        "id": "794748",
+        "text": "This is not witchcraft."
+      },
+      {
+        "id": "7492668",
+        "text": "This isn't witchcraft."
+      }
+    ],
+    "vocabIds": [
+      "1524230"
+    ],
+    "matches": {
+      "1524230": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "まほう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1138428",
+    "original": "このファンタジー小説は派手な魔法のオンパレードで逆に単調だ。",
+    "en": [
+      {
+        "id": "2674247",
+        "text": "This fantasy book is a succession of really flashy magical spells and that makes it boring instead."
+      }
+    ],
+    "vocabIds": [
+      "1348430",
+      "1471140",
+      "1524230",
+      "1226980",
+      "1417760"
+    ],
+    "matches": {
+      "1226980": [
+        {
+          "start": 24,
+          "length": 2,
+          "reading": "ぎゃくに"
+        }
+      ],
+      "1348430": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "しょうせつ"
+        }
+      ],
+      "1417760": [
+        {
+          "start": 26,
+          "length": 2,
+          "reading": "たんちょう"
+        }
+      ],
+      "1471140": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "はで"
+        }
+      ],
+      "1524230": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "まほう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1535477",
+    "original": "魔法だ。",
+    "en": [
+      {
+        "id": "1341857",
+        "text": "It's magic."
+      }
+    ],
+    "vocabIds": [
+      "1524230"
+    ],
+    "matches": {
+      "1524230": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "まほう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2295143",
+    "original": "わたしは魔法を信じている。",
+    "en": [
+      {
+        "id": "2294003",
+        "text": "I believe in magic."
+      }
+    ],
+    "indices": "私(わたし){わたし} は 魔法 を 信じる{信じている}",
+    "vocabIds": [
+      "1359040",
+      "1524230"
+    ],
+    "matches": {
+      "1359040": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "しんじている"
+        }
+      ],
+      "1524230": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "まほう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10187681",
+    "original": "メアリーがね、おばあちゃんの本に載ってた魔法の呪文を使って、トムをリスにしちゃおうとしたんだけど、何も起きなかったのよ。",
+    "en": [
+      {
+        "id": "10042715",
+        "text": "Mary tried turning Tom into a squirrel using a magic formula she found in one of her grandma's books, but nothing happened."
+      }
+    ],
+    "vocabIds": [
+      "1223640",
+      "2649690",
+      "1305990",
+      "2849135",
+      "1524230",
+      "1330160",
+      "1188490"
+    ],
+    "matches": {
+      "1188490": [
+        {
+          "start": 49,
+          "length": 2,
+          "reading": "なにも"
+        }
+      ],
+      "1223640": [
+        {
+          "start": 51,
+          "length": 6,
+          "reading": "おきなかった"
+        }
+      ],
+      "1305990": [
+        {
+          "start": 26,
+          "length": 3,
+          "reading": "つかって"
+        }
+      ],
+      "1330160": [
+        {
+          "start": 23,
+          "length": 2,
+          "reading": "じゅもん"
+        }
+      ],
+      "1524230": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "まほう"
+        }
+      ],
+      "2649690": [
+        {
+          "start": 16,
+          "length": 4,
+          "reading": "のってた"
+        }
+      ],
+      "2849135": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "ほんに"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10472571",
+    "original": "これって、魔法みたい。",
+    "en": [
+      {
+        "id": "5756827",
+        "text": "This is like magic."
+      }
+    ],
+    "vocabIds": [
+      "1524230"
+    ],
+    "matches": {
+      "1524230": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "まほう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10580117",
+    "original": "サンタさんに「英語が上手になる魔法の薬」をお願いしたら、届けてくれるかな？",
+    "en": [
+      {
+        "id": "10580121",
+        "text": "If I ask Santa for a magic potion that makes me good at English, will he give it to me?"
+      }
+    ],
+    "vocabIds": [
+      "1457210",
+      "2036870",
+      "1174420",
+      "1353320",
+      "1524230",
+      "1538160"
+    ],
+    "matches": {
+      "1174420": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "えいご"
+        }
+      ],
+      "1353320": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "じょうず"
+        }
+      ],
+      "1457210": [
+        {
+          "start": 28,
+          "length": 6,
+          "reading": "とどけてくれる"
+        }
+      ],
+      "1524230": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "まほう"
+        }
+      ],
+      "1538160": [
+        {
+          "start": 18,
+          "length": 1,
+          "reading": "くすり"
+        }
+      ],
+      "2036870": [
+        {
+          "start": 21,
+          "length": 3,
+          "reading": "おねがい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10794461",
+    "original": "意地悪な魔女は、男に悪い魔法をかけ、虫に変えてしまいました。",
+    "en": [
+      {
+        "id": "28200",
+        "text": "The wicked witch cast an evil spell on the man and turned him into an insect."
+      }
+    ],
+    "vocabIds": [
+      "1510650",
+      "1156740",
+      "1524150",
+      "1151260",
+      "1403390",
+      "2772730",
+      "1524230",
+      "1419990",
+      "1589190",
+      "1426680"
+    ],
+    "matches": {
+      "1151260": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "わるい"
+        }
+      ],
+      "1156740": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "いじわる"
+        }
+      ],
+      "1403390": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "わるい"
+        }
+      ],
+      "1419990": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "おとこ"
+        }
+      ],
+      "1426680": [
+        {
+          "start": 18,
+          "length": 1,
+          "reading": "むし"
+        }
+      ],
+      "1510650": [
+        {
+          "start": 20,
+          "length": 9,
+          "reading": "かえてしまいました"
+        }
+      ],
+      "1524150": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "まじょ"
+        }
+      ],
+      "1524230": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "まほう"
+        }
+      ],
+      "1589190": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "おとこ"
+        }
+      ],
+      "2772730": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "わるい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11508197",
+    "original": "僕に魔法が使えればなあ。",
+    "en": [
+      {
+        "id": "250181",
+        "text": "I wish I could use magic."
+      }
+    ],
+    "vocabIds": [
+      "1607180",
+      "1524230",
+      "1521400",
+      "2228300"
+    ],
+    "matches": {
+      "1521400": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ],
+      "1524230": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "まほう"
+        }
+      ],
+      "1607180": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "つかえれば"
+        }
+      ],
+      "2228300": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12957331",
+    "original": "魔法みたいね。",
+    "en": [
+      {
+        "id": "2460904",
+        "text": "It's like magic."
+      }
+    ],
+    "vocabIds": [
+      "1524230"
+    ],
+    "matches": {
+      "1524230": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "まほう"
+        }
+      ]
+    }
+  }
+]

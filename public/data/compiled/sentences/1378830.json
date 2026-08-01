@@ -1,0 +1,59 @@
+[
+  {
+    "id": "219008",
+    "original": "これが彼の生家です。",
+    "en": [
+      {
+        "id": "56324",
+        "text": "This is the house in which he was born."
+      },
+      {
+        "id": "394317",
+        "text": "This is the house where he was born."
+      }
+    ],
+    "indices": "此れ[01]{これ} が 彼(かれ) の 生家[01]~ です",
+    "vocabIds": [
+      "1000420",
+      "1378830"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かれの"
+        }
+      ],
+      "1378830": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "せいか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10187862",
+    "original": "これがトムの生家です。",
+    "en": [
+      {
+        "id": "6488746",
+        "text": "This is the house where Tom was born."
+      }
+    ],
+    "vocabIds": [
+      "1378830"
+    ],
+    "matches": {
+      "1378830": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "せいか"
+        }
+      ]
+    }
+  }
+]

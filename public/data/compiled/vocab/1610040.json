@@ -1,0 +1,136 @@
+{
+  "id": "1610040",
+  "writtenForm": {
+    "kanji": "所為",
+    "alternatives": [],
+    "containedKanji": [
+      "所",
+      "為"
+    ]
+  },
+  "reading": {
+    "primary": "せい",
+    "alternatives": [
+      "せえ",
+      "しょい",
+      "そい"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 22347,
+    "kanaRank": 584
+  },
+  "jlptLevel": 3,
+  "progression": {
+    "kklcStep": 1236
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "uk"
+        ]
+      },
+      "glosses": [
+        "consequence",
+        "outcome",
+        "result",
+        "blame",
+        "fault"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "act",
+        "deed",
+        "one's doing"
+      ],
+      "related": {
+        "compounds": [
+          "仕業"
+        ]
+      },
+      "appliesToReadings": [
+        "しょい"
+      ]
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "cause",
+        "reason"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "しょい"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": true
+  },
+  "isCommon": false,
+  "mergedVocabs": [
+    {
+      "id": "1610040",
+      "isBase": true,
+      "originalPrimaryReading": "せい",
+      "originalGlosses": [
+        "consequence",
+        "outcome",
+        "result"
+      ]
+    },
+    {
+      "id": "1343140",
+      "isBase": false,
+      "originalPrimaryReading": "しょい",
+      "originalGlosses": [
+        "act",
+        "deed",
+        "one's doing"
+      ]
+    }
+  ],
+  "components": [
+    "1343100",
+    "1157080"
+  ],
+  "parents": [
+    "2724560"
+  ]
+}

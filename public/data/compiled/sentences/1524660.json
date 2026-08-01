@@ -1,0 +1,329 @@
+[
+  {
+    "id": "75341",
+    "original": "２時間毎に局部を湿布しなさい。",
+    "en": [
+      {
+        "id": "328378",
+        "text": "Apply a compress to the affected part every two hours."
+      }
+    ],
+    "indices": "時間[02] 毎に 局部[02]~ を 湿布~ 為る(する){し} 為さい{なさい}",
+    "vocabIds": [
+      "1315920",
+      "1524660",
+      "1239670",
+      "1320510",
+      "1461140"
+    ],
+    "matches": {
+      "1239670": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "きょくぶ"
+        }
+      ],
+      "1315920": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "じかん"
+        }
+      ],
+      "1320510": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "しっぷ"
+        }
+      ],
+      "1461140": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "に"
+        }
+      ],
+      "1524660": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ごとに"
+        }
+      ]
+    }
+  },
+  {
+    "id": "183709",
+    "original": "間欠泉は２時間毎に湯を噴出する。",
+    "en": [
+      {
+        "id": "20832",
+        "text": "The geyser sends up a column of hot water every two hours."
+      }
+    ],
+    "indices": "間欠泉~ は 時間[02] 毎に 湯 を 噴出 為る(する){する}",
+    "vocabIds": [
+      "1715210",
+      "1315920",
+      "1524660",
+      "1504600",
+      "1461140",
+      "1448580"
+    ],
+    "matches": {
+      "1315920": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "じかん"
+        }
+      ],
+      "1448580": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "ゆ"
+        }
+      ],
+      "1461140": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "に"
+        }
+      ],
+      "1504600": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "ふんしゅつ"
+        }
+      ],
+      "1524660": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ごとに"
+        }
+      ],
+      "1715210": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "かんけつせん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "219304",
+    "original": "この薬は３時間毎に飲んでください。",
+    "en": [
+      {
+        "id": "56619",
+        "text": "This medicine should be taken every three hours."
+      }
+    ],
+    "indices": "此の{この} 薬(くすり)[01] は 時間[02] 毎に 飲む[01]{飲んで} 下さい{ください}",
+    "vocabIds": [
+      "1169870",
+      "1315920",
+      "1524660",
+      "1538160",
+      "1579350"
+    ],
+    "matches": {
+      "1169870": [
+        {
+          "start": 9,
+          "length": 7,
+          "reading": "のんでください"
+        }
+      ],
+      "1315920": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "じかん"
+        }
+      ],
+      "1524660": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ごとに"
+        }
+      ],
+      "1538160": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "くすり"
+        }
+      ],
+      "1579350": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "さん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10303651",
+    "original": "警備員は３時間毎に交代します。",
+    "en": [
+      {
+        "id": "6844968",
+        "text": "The guards change every three hours."
+      }
+    ],
+    "vocabIds": [
+      "1873310",
+      "1315920",
+      "1524660",
+      "1592990",
+      "1579350"
+    ],
+    "matches": {
+      "1315920": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "じかん"
+        }
+      ],
+      "1524660": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ごとに"
+        }
+      ],
+      "1579350": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "さん"
+        }
+      ],
+      "1592990": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "こうたい"
+        }
+      ],
+      "1873310": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "けいびいん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10303696",
+    "original": "トムは３時間毎に薬を飲まないといけないの。",
+    "en": [
+      {
+        "id": "1025263",
+        "text": "Tom has to take medicine every three hours."
+      }
+    ],
+    "vocabIds": [
+      "1169870",
+      "1315920",
+      "1524660",
+      "1579350",
+      "1538160"
+    ],
+    "matches": {
+      "1169870": [
+        {
+          "start": 10,
+          "length": 9,
+          "reading": "のまないといけない"
+        }
+      ],
+      "1315920": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "じかん"
+        }
+      ],
+      "1524660": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ごとに"
+        }
+      ],
+      "1538160": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "くすり"
+        }
+      ],
+      "1579350": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "さん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10303717",
+    "original": "３時間毎に休憩をします。",
+    "en": [
+      {
+        "id": "8338458",
+        "text": "I take a break every three hours."
+      }
+    ],
+    "vocabIds": [
+      "1315920",
+      "1524660",
+      "1227720",
+      "1579350"
+    ],
+    "matches": {
+      "1227720": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "きゅうけい"
+        }
+      ],
+      "1315920": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "じかん"
+        }
+      ],
+      "1524660": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ごとに"
+        }
+      ],
+      "1579350": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "さん"
+        }
+      ]
+    }
+  }
+]

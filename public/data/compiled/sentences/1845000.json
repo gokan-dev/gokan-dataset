@@ -1,0 +1,80 @@
+[
+  {
+    "id": "146309",
+    "original": "象はサーカスの呼び物だ。",
+    "en": [
+      {
+        "id": "268253",
+        "text": "The elephants are the chief attraction at the circus."
+      }
+    ],
+    "indices": "象(ぞう) は サーカス の 呼び物 だ",
+    "vocabIds": [
+      "1845000",
+      "1351830"
+    ],
+    "matches": {
+      "1351830": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ぞう"
+        }
+      ],
+      "1845000": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "よびもの"
+        }
+      ]
+    }
+  },
+  {
+    "id": "213040",
+    "original": "そのショーは今夜の番組の大きな呼び物になる。",
+    "en": [
+      {
+        "id": "50324",
+        "text": "The show will be a great feature of tonight's program."
+      }
+    ],
+    "indices": "其の[01]{その} ショー は 今夜 の 番組 の 大きな 呼び物~ になる[01]",
+    "vocabIds": [
+      "1412890",
+      "1845000",
+      "1289520",
+      "1482340"
+    ],
+    "matches": {
+      "1289520": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "こんや"
+        }
+      ],
+      "1412890": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "おおきな"
+        }
+      ],
+      "1482340": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "ばんぐみ"
+        }
+      ],
+      "1845000": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "よびもの"
+        }
+      ]
+    }
+  }
+]

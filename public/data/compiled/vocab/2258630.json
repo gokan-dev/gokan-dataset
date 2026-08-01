@@ -1,0 +1,148 @@
+{
+  "id": "2258630",
+  "writtenForm": {
+    "kanji": "高麗",
+    "alternatives": [
+      "狛"
+    ],
+    "containedKanji": [
+      "高",
+      "麗"
+    ]
+  },
+  "reading": {
+    "primary": "こうらい",
+    "alternatives": [
+      "こま"
+    ]
+  },
+  "frequency": {
+    "kanjiRank": 50437,
+    "kanaRank": 290124
+  },
+  "progression": {
+    "kklcStep": 2258
+  },
+  "senses": [
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "hist"
+        ]
+      },
+      "glosses": [
+        "Goryeo (dynasty of Korea; 918-1392 CE)",
+        "Koryŏ"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "Korea"
+      ],
+      "related": {
+        "compounds": []
+      }
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "hist"
+        ]
+      },
+      "glosses": [
+        "Goguryeo (ancient Korean kingdom; 37 BCE-668 CE)"
+      ],
+      "related": {
+        "compounds": [
+          "高句麗"
+        ]
+      },
+      "appliesToReadings": [
+        "こま"
+      ]
+    },
+    {
+      "pos": [
+        "n-pref"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "Korean",
+        "introduced from Goryeo"
+      ],
+      "related": {
+        "compounds": [
+          "高麗楽"
+        ]
+      },
+      "appliesToReadings": [
+        "こま"
+      ]
+    }
+  ],
+  "usageHints": {
+    "requiresContext": false
+  },
+  "isCommon": true,
+  "mergedVocabs": [
+    {
+      "id": "2258630",
+      "isBase": true,
+      "originalPrimaryReading": "こうらい",
+      "originalGlosses": [
+        "Goryeo (dynasty of Korea; 918-1392 CE)",
+        "Koryŏ"
+      ]
+    },
+    {
+      "id": "2858624",
+      "isBase": false,
+      "originalPrimaryReading": "こま",
+      "originalGlosses": [
+        "Goguryeo (ancient Korean kingdom; 37 BCE-668 CE)"
+      ]
+    }
+  ],
+  "components": [
+    "2183260"
+  ]
+}
