@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "build:data": "rimraf ./public/data/compiled/vocab && rimraf ./public/data/compiled/sentences && bun run build:kanji && bun scripts/build-data.ts && bun run build:jlpt",
+    "build:data": "rimraf ./compiled/vocab && rimraf ./compiled/sentences && bun run build:kanji && bun scripts/build-data.ts && bun run build:jlpt",
     "build:kanji": "bun scripts/build-kanji.ts",
     "build:jlpt": "bun scripts/build-jlpt-index.ts",
     "build:jpdb": "node scripts/jpdb-v2.2-tsv-to-json.js",

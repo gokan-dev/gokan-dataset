@@ -14,8 +14,8 @@ import type { JlptIndex } from '../src/models/index.model';
  * the two never drift.
  */
 
-const INPUT_VOCAB_DIR = './public/data/compiled/vocab';
-const OUTPUT_INDEX_DIR = './public/data/compiled/index';
+const INPUT_VOCAB_DIR = './compiled/vocab';
+const OUTPUT_INDEX_DIR = './compiled/index';
 
 async function main() {
     console.log('📖 Building JLPT index...');

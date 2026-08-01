@@ -28,10 +28,10 @@ for (const group of kklc) {
 }
 const kanjis = Array.from(kanjiMap.values());
 
-fs.mkdirSync('./public/data/compiled/index', { recursive: true });
+fs.mkdirSync('./compiled/index', { recursive: true });
 
 fs.writeFileSync(
-    './public/data/compiled/kanji.json',
+    './compiled/kanji.json',
     JSON.stringify(kanjis, null, 2),
 );
 
@@ -49,6 +49,6 @@ for (const kanji of kanjiMap.values()) {
 }
 
 fs.writeFileSync(
-    './public/data/compiled/index/kklc-kanji.json',
+    './compiled/index/kklc-kanji.json',
     JSON.stringify(kklcKanjiIndex, null, 2),
 );
