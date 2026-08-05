@@ -97,6 +97,41 @@ interface Kanji {
 }
 ```
 
+## `compiled/grammar/points/{id}.json` — one file per grammar point
+
+Sourced from [hanabira.org-japanese-content](https://github.com/tristcoil/hanabira.org-japanese-content) (`data/raw/grammar/*.json`, CC license, attribution required). Built by `scripts/build-grammar.ts` (`bun run build:grammar`), which needs `compiled/index/search.json` to already exist (run `build:data` first).
+
+```ts
+interface GrammarPoint {
+  id: string;              // assigned at build time, e.g. "n5-001" - the upstream dataset has no ids of its own
+  title: string;
+  jlptLevel: number;       // 1 (N1) .. 5 (N5) - every grammar point has one, unlike vocab
+  shortExplanation: string;
+  longExplanation: string;
+  formation: string;       // e.g. "Noun + が + いちばん + Adjective/Verb"
+  examples: GrammarExample[];
+}
+
+interface GrammarExample {
+  jp: string;
+  romaji: string;
+  en: string;
+  words: GrammarExampleWord[]; // tokenized `jp`, in order - concatenating every `surface` reconstructs `jp` exactly
+}
+
+interface GrammarExampleWord {
+  surface: string;
+  vocabId: string | null;  // resolved against compiled/index/search.json; null for particles/symbols/unmatched, which are never turned into a fill-in-the-blank
+  reading?: string;         // matched vocab's primary reading; only set when vocabId is set
+}
+```
+
+## `compiled/grammar/index/jlpt.json` — grammar points by JLPT level
+
+```ts
+type GrammarJlptIndex = Record<number, string[]>; // level (1..5) -> grammar point ids, in the source's original (alphabetical) order - grammar has no frequency data to sort by
+```
+
 ## `compiled/index/*.json` — lookup indexes
 
 Precomputed so consumers don't have to scan the full `vocab/`/`kanji.json` for common lookups.
