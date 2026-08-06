@@ -16,6 +16,8 @@ export interface GrammarExampleWord {
     vocabId: string | null;
     /** The matched vocab's primary reading (hiragana) - only set when vocabId is set. Used to grade a blank without a runtime vocab fetch. */
     reading?: string;
+    /** Kuromoji's dictionary/base form (e.g. "思う" for the conjugated token "思っ"), only set when it differs from `surface`. Lets pattern-location match a formation's dictionary-form literal (e.g. "くれる") against a conjugated token in the sentence (e.g. "くれ") without needing fuzzy/edit-distance matching. */
+    baseForm?: string;
 }
 
 export interface GrammarExample {
@@ -23,6 +25,17 @@ export interface GrammarExample {
     romaji: string;
     en: string;
     words: GrammarExampleWord[];
+    /**
+     * Indices into `words[]` identifying this example's grammar-pattern markers
+     * (the literal, invariant part of `formation` - e.g. が and いちばん for
+     * "Noun + が + いちばん + Adjective/Verb"), located at build time by
+     * matching `formation` against `words[]` surface/baseForm/reading. Always
+     * present (possibly empty) so the app never needs to run this matching
+     * itself. Empty when the pattern could not be confidently located in this
+     * specific example - see docs/SCHEMA.md and the grammar-pattern-location
+     * issue for the small set of points where this happens across all examples.
+     */
+    patternWordIndices: number[];
 }
 
 /**

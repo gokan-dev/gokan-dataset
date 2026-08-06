@@ -117,12 +117,14 @@ interface GrammarExample {
   romaji: string;
   en: string;
   words: GrammarExampleWord[]; // tokenized `jp`, in order - concatenating every `surface` reconstructs `jp` exactly
+  patternWordIndices: number[]; // indices into `words[]` that are this grammar point's literal, invariant markers (が/いちばん for "Noun + が + いちばん + Adjective/Verb") - located at build time by scripts/grammar-pattern-matcher.ts, matching `formation`'s literal Japanese against `words[]` surface/baseForm/reading. Always present; empty when the pattern couldn't be confidently located in this specific example (99.9% of points have at least one non-empty example as of the last build - see the pattern-location issue for the one documented exception and the matching methodology).
 }
 
 interface GrammarExampleWord {
   surface: string;
   vocabId: string | null;  // resolved against compiled/index/search.json; null for particles/symbols/unmatched, which are never turned into a fill-in-the-blank
   reading?: string;         // matched vocab's primary reading; only set when vocabId is set
+  baseForm?: string;        // kuromoji's dictionary/base form (e.g. "思う" for the conjugated token "思っ"), only set when it differs from `surface`. Lets pattern-location (and any future consumer) match a formation's dictionary-form literal against a conjugated token without fuzzy/edit-distance matching.
 }
 ```
 

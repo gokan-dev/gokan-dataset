@@ -3,6 +3,7 @@ import path from 'path';
 import kuromoji from 'kuromoji';
 import type { GrammarExample, GrammarExampleWord, GrammarJlptIndex, GrammarPoint } from '../src/models/grammar.model';
 import type { SearchIndex } from '../src/models/index.model';
+import { locatePattern } from './grammar-pattern-matcher';
 
 /**
  * Compiles the vendored hanabira.org-japanese-content grammar snapshot
@@ -85,9 +86,15 @@ function tokenizeExample(
             }
         }
 
+        // kuromoji uses the literal string '*' as its "no base form" sentinel
+        // (particles, symbols); only keep baseForm when it's a real, different form.
+        const baseForm = token.basic_form && token.basic_form !== '*' && token.basic_form !== token.surface_form
+            ? token.basic_form
+            : undefined;
+
         words.push(match
-            ? { surface: token.surface_form, vocabId: match.id, reading: match.r }
-            : { surface: token.surface_form, vocabId: null }
+            ? { surface: token.surface_form, vocabId: match.id, reading: match.r, baseForm }
+            : { surface: token.surface_form, vocabId: null, baseForm }
         );
     }
 
@@ -119,6 +126,9 @@ async function main() {
     let totalPoints = 0;
     let totalWords = 0;
     let matchedWords = 0;
+    let totalExamples = 0;
+    let examplesAnchored = 0;
+    const pointsWithNoAnchor: string[] = [];
 
     for (const [levelStr, filename] of Object.entries(LEVEL_FILES)) {
         const level = Number(levelStr);
@@ -127,13 +137,21 @@ async function main() {
 
         raw.forEach((entry, i) => {
             const id = `${levelSlug}-${String(i + 1).padStart(3, '0')}`;
+            let pointAnchored = false;
 
             const examples: GrammarExample[] = entry.examples.map(ex => {
                 const words = tokenizeExample(tokenizer, lookup, ex.jp);
                 totalWords += words.length;
                 matchedWords += words.filter(w => w.vocabId !== null).length;
-                return { jp: ex.jp, romaji: ex.romaji, en: ex.en, words };
+
+                totalExamples++;
+                const hit = locatePattern(entry.formation, words);
+                if (hit) { examplesAnchored++; pointAnchored = true; }
+
+                return { jp: ex.jp, romaji: ex.romaji, en: ex.en, words, patternWordIndices: hit ?? [] };
             });
+
+            if (!pointAnchored) pointsWithNoAnchor.push(`${id}: ${entry.formation}`);
 
             const point: GrammarPoint = {
                 id,
@@ -159,6 +177,16 @@ async function main() {
     console.log(`✅ Grammar dataset written to ${OUTPUT_DIR}`);
     console.log(`   - Grammar points: ${totalPoints}`);
     console.log(`   - Words tokenized: ${totalWords} (${matchedWords} resolved to a vocab id, ${(100 * matchedWords / totalWords).toFixed(1)}%)`);
+    console.log(`   - Pattern located: ${totalPoints - pointsWithNoAnchor.length}/${totalPoints} points (${(100 * (totalPoints - pointsWithNoAnchor.length) / totalPoints).toFixed(1)}%), ${examplesAnchored}/${totalExamples} examples (${(100 * examplesAnchored / totalExamples).toFixed(1)}%)`);
+
+    if (pointsWithNoAnchor.length > 0) {
+        // Loud, not silent: any point where the pattern couldn't be located in a
+        // SINGLE example (of the ones it has) gets logged, so it stays visible
+        // and reviewable rather than quietly degrading to a vocab-only quiz at
+        // runtime. See docs/SCHEMA.md and the grammar-pattern-location issue.
+        console.warn(`⚠️  ${pointsWithNoAnchor.length} points have NO example with a located pattern:`);
+        pointsWithNoAnchor.forEach(s => console.warn(`     ${s}`));
+    }
 }
 
 main().catch(err => {
