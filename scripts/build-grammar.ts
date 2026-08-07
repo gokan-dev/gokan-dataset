@@ -1,0 +1,195 @@
+import fs from 'fs';
+import path from 'path';
+import kuromoji from 'kuromoji';
+import type { GrammarExample, GrammarExampleWord, GrammarJlptIndex, GrammarPoint } from '../src/models/grammar.model';
+import type { SearchIndex } from '../src/models/index.model';
+import { locatePattern } from './grammar-pattern-matcher';
+
+/**
+ * Compiles the vendored hanabira.org-japanese-content grammar snapshot
+ * (data/raw/grammar/*.json) into compiled/grammar/, resolving each example
+ * sentence's content words against the already-compiled vocab dataset
+ * (compiled/index/search.json) so the gokan-srs app can decide, at review
+ * time, which words the user already knows.
+ *
+ * Kept as a separate, targeted pass (own lightweight kuromoji instance, not
+ * chained into build:data) rather than folded into the main corpus build -
+ * it only tokenizes ~800 short example sentences, not the whole sentence
+ * corpus, and only needs the vocab search index to already exist.
+ * Source: https://github.com/tristcoil/hanabira.org-japanese-content
+ * (Creative Commons, attribution required).
+ *
+ * Run: `bun run build:grammar` (requires `bun run build:data` to have been
+ * run at least once, so compiled/index/search.json exists).
+ */
+
+const RAW_DIR = './data/raw/grammar';
+const SEARCH_INDEX_PATH = './compiled/index/search.json';
+const OUTPUT_DIR = './compiled/grammar';
+
+const LEVEL_FILES: Record<number, string> = {
+    5: 'grammar_ja_N5_full_alphabetical_0001.json',
+    4: 'grammar_ja_N4_full_alphabetical_0001.json',
+    3: 'grammar_ja_N3_full_alphabetical_0001.json',
+    2: 'grammar_ja_N2_full_alphabetical_0001.json',
+    1: 'grammar_ja_N1_full_alphabetical_0001.json',
+};
+
+interface RawGrammarEntry {
+    title: string;
+    short_explanation: string;
+    long_explanation: string;
+    formation: string;
+    examples: Array<{ jp: string; romaji: string; en: string }>;
+}
+
+// Content POS categories eligible to become a blank - particles, symbols, and
+// auxiliary verbs are always shown literally (they carry the grammar
+// construction itself, not a vocabulary item the user is being tested on).
+const CONTENT_POS = new Set(['名詞', '動詞', '形容詞', '副詞']);
+
+function buildVocabLookup(searchIndex: SearchIndex) {
+    const byWrittenForm = new Map<string, { id: string; r: string }>();
+    const byReading = new Map<string, { id: string; r: string }>();
+
+    for (const entry of searchIndex) {
+        if (!byWrittenForm.has(entry.w)) byWrittenForm.set(entry.w, { id: entry.id, r: entry.r });
+        if (!byReading.has(entry.r)) byReading.set(entry.r, { id: entry.id, r: entry.r });
+    }
+
+    return { byWrittenForm, byReading };
+}
+
+function katakanaToHiragana(input: string): string {
+    return input.replace(/[ァ-ヶ]/g, ch => String.fromCharCode(ch.charCodeAt(0) - 0x60));
+}
+
+function tokenizeExample(
+    tokenizer: kuromoji.Tokenizer<kuromoji.IpadicFeatures>,
+    lookup: ReturnType<typeof buildVocabLookup>,
+    jp: string
+): GrammarExampleWord[] {
+    const tokens = tokenizer.tokenize(jp);
+    const words: GrammarExampleWord[] = [];
+
+    for (const token of tokens) {
+        let match: { id: string; r: string } | undefined;
+
+        if (CONTENT_POS.has(token.pos)) {
+            match = lookup.byWrittenForm.get(token.surface_form) ?? lookup.byWrittenForm.get(token.basic_form);
+
+            // Kana-only tokens (no kanji): also try a reading match, since they
+            // won't appear under a kanji written form in the search index.
+            if (!match && token.reading) {
+                const hiraganaReading = katakanaToHiragana(token.reading);
+                match = lookup.byReading.get(hiraganaReading);
+            }
+        }
+
+        // kuromoji uses the literal string '*' as its "no base form" sentinel
+        // (particles, symbols); only keep baseForm when it's a real, different form.
+        const baseForm = token.basic_form && token.basic_form !== '*' && token.basic_form !== token.surface_form
+            ? token.basic_form
+            : undefined;
+
+        words.push(match
+            ? { surface: token.surface_form, vocabId: match.id, reading: match.r, baseForm }
+            : { surface: token.surface_form, vocabId: null, baseForm }
+        );
+    }
+
+    return words;
+}
+
+async function main() {
+    console.log('📖 Building grammar dataset...');
+
+    if (!fs.existsSync(SEARCH_INDEX_PATH)) {
+        throw new Error(`Vocab search index not found at ${SEARCH_INDEX_PATH}. Run 'bun run build:data' first.`);
+    }
+
+    const searchIndex: SearchIndex = JSON.parse(fs.readFileSync(SEARCH_INDEX_PATH, 'utf-8'));
+    const lookup = buildVocabLookup(searchIndex);
+
+    const tokenizer = await new Promise<kuromoji.Tokenizer<kuromoji.IpadicFeatures>>((resolve, reject) => {
+        kuromoji.builder({ dicPath: 'node_modules/kuromoji/dict' }).build((err, t) => {
+            if (err) reject(err);
+            else resolve(t);
+        });
+    });
+
+    const pointsDir = path.join(OUTPUT_DIR, 'points');
+    fs.rmSync(OUTPUT_DIR, { recursive: true, force: true });
+    fs.mkdirSync(pointsDir, { recursive: true });
+
+    const index: GrammarJlptIndex = { 1: [], 2: [], 3: [], 4: [], 5: [] };
+    let totalPoints = 0;
+    let totalWords = 0;
+    let matchedWords = 0;
+    let totalExamples = 0;
+    let examplesAnchored = 0;
+    const pointsWithNoAnchor: string[] = [];
+
+    for (const [levelStr, filename] of Object.entries(LEVEL_FILES)) {
+        const level = Number(levelStr);
+        const raw: RawGrammarEntry[] = JSON.parse(fs.readFileSync(path.join(RAW_DIR, filename), 'utf-8'));
+        const levelSlug = `n${level}`;
+
+        raw.forEach((entry, i) => {
+            const id = `${levelSlug}-${String(i + 1).padStart(3, '0')}`;
+            let pointAnchored = false;
+
+            const examples: GrammarExample[] = entry.examples.map(ex => {
+                const words = tokenizeExample(tokenizer, lookup, ex.jp);
+                totalWords += words.length;
+                matchedWords += words.filter(w => w.vocabId !== null).length;
+
+                totalExamples++;
+                const hit = locatePattern(entry.formation, words);
+                if (hit) { examplesAnchored++; pointAnchored = true; }
+
+                return { jp: ex.jp, romaji: ex.romaji, en: ex.en, words, patternWordIndices: hit ?? [] };
+            });
+
+            if (!pointAnchored) pointsWithNoAnchor.push(`${id}: ${entry.formation}`);
+
+            const point: GrammarPoint = {
+                id,
+                title: entry.title,
+                jlptLevel: level,
+                shortExplanation: entry.short_explanation,
+                longExplanation: entry.long_explanation,
+                formation: entry.formation,
+                examples,
+            };
+
+            fs.writeFileSync(path.join(pointsDir, `${id}.json`), JSON.stringify(point));
+            index[level].push(id);
+            totalPoints++;
+        });
+
+        console.log(`   - N${level}: ${raw.length} grammar points`);
+    }
+
+    fs.mkdirSync(path.join(OUTPUT_DIR, 'index'), { recursive: true });
+    fs.writeFileSync(path.join(OUTPUT_DIR, 'index', 'jlpt.json'), JSON.stringify(index));
+
+    console.log(`✅ Grammar dataset written to ${OUTPUT_DIR}`);
+    console.log(`   - Grammar points: ${totalPoints}`);
+    console.log(`   - Words tokenized: ${totalWords} (${matchedWords} resolved to a vocab id, ${(100 * matchedWords / totalWords).toFixed(1)}%)`);
+    console.log(`   - Pattern located: ${totalPoints - pointsWithNoAnchor.length}/${totalPoints} points (${(100 * (totalPoints - pointsWithNoAnchor.length) / totalPoints).toFixed(1)}%), ${examplesAnchored}/${totalExamples} examples (${(100 * examplesAnchored / totalExamples).toFixed(1)}%)`);
+
+    if (pointsWithNoAnchor.length > 0) {
+        // Loud, not silent: any point where the pattern couldn't be located in a
+        // SINGLE example (of the ones it has) gets logged, so it stays visible
+        // and reviewable rather than quietly degrading to a vocab-only quiz at
+        // runtime. See docs/SCHEMA.md and the grammar-pattern-location issue.
+        console.warn(`⚠️  ${pointsWithNoAnchor.length} points have NO example with a located pattern:`);
+        pointsWithNoAnchor.forEach(s => console.warn(`     ${s}`));
+    }
+}
+
+main().catch(err => {
+    console.error(err);
+    process.exit(1);
+});

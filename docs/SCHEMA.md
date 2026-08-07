@@ -97,6 +97,43 @@ interface Kanji {
 }
 ```
 
+## `compiled/grammar/points/{id}.json` — one file per grammar point
+
+Sourced from [hanabira.org-japanese-content](https://github.com/tristcoil/hanabira.org-japanese-content) (`data/raw/grammar/*.json`, CC license, attribution required). Built by `scripts/build-grammar.ts` (`bun run build:grammar`), which needs `compiled/index/search.json` to already exist (run `build:data` first).
+
+```ts
+interface GrammarPoint {
+  id: string;              // assigned at build time, e.g. "n5-001" - the upstream dataset has no ids of its own
+  title: string;
+  jlptLevel: number;       // 1 (N1) .. 5 (N5) - every grammar point has one, unlike vocab
+  shortExplanation: string;
+  longExplanation: string;
+  formation: string;       // e.g. "Noun + が + いちばん + Adjective/Verb"
+  examples: GrammarExample[];
+}
+
+interface GrammarExample {
+  jp: string;
+  romaji: string;
+  en: string;
+  words: GrammarExampleWord[]; // tokenized `jp`, in order - concatenating every `surface` reconstructs `jp` exactly
+  patternWordIndices: number[]; // indices into `words[]` that are this grammar point's literal, invariant markers (が/いちばん for "Noun + が + いちばん + Adjective/Verb") - located at build time by scripts/grammar-pattern-matcher.ts, matching `formation`'s literal Japanese against `words[]` surface/baseForm/reading. Always present; empty when the pattern couldn't be confidently located in this specific example (99.9% of points have at least one non-empty example as of the last build - see the pattern-location issue for the one documented exception and the matching methodology).
+}
+
+interface GrammarExampleWord {
+  surface: string;
+  vocabId: string | null;  // resolved against compiled/index/search.json; null for particles/symbols/unmatched, which are never turned into a fill-in-the-blank
+  reading?: string;         // matched vocab's primary reading; only set when vocabId is set
+  baseForm?: string;        // kuromoji's dictionary/base form (e.g. "思う" for the conjugated token "思っ"), only set when it differs from `surface`. Lets pattern-location (and any future consumer) match a formation's dictionary-form literal against a conjugated token without fuzzy/edit-distance matching.
+}
+```
+
+## `compiled/grammar/index/jlpt.json` — grammar points by JLPT level
+
+```ts
+type GrammarJlptIndex = Record<number, string[]>; // level (1..5) -> grammar point ids, in the source's original (alphabetical) order - grammar has no frequency data to sort by
+```
+
 ## `compiled/index/*.json` — lookup indexes
 
 Precomputed so consumers don't have to scan the full `vocab/`/`kanji.json` for common lookups.

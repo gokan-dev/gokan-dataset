@@ -6,11 +6,11 @@ Open Japanese vocabulary/kanji/sentence dataset extracted from [gokan-srs](https
 
 ## Structure
 
-- `data/raw/` - raw source datasets (JMDict, KKLC, JPDB, JLPT lists, Tatoeba sentence pairs + reading indices). Git LFS tracked.
+- `data/raw/` - raw source datasets (JMDict, KKLC, JPDB, JLPT lists, Tatoeba sentence pairs + reading indices, hanabira grammar points). Git LFS tracked.
 - `scripts/` - the build pipeline.
 - `src/models/` - shared TypeScript types (mirrors the compiled output shape - see [docs/SCHEMA.md](docs/SCHEMA.md)).
 - `src/utils/tokenizer.ts` - Kuromoji-based `SentenceTokenizer` used to link sentences to vocabulary.
-- `compiled/` - build output: `kanji.json`, `vocab/{id}.json`, `sentences/{vocabId}.json`, `index/*.json`. **This is what consumers want.**
+- `compiled/` - build output: `kanji.json`, `vocab/{id}.json`, `sentences/{vocabId}.json`, `grammar/points/{id}.json`, `index/*.json`. **This is what consumers want.**
 
 ## Consuming this data
 
@@ -25,6 +25,7 @@ bun install
 bun run build:kanji   # kanji.json + index/kklc-kanji.json
 bun run build:data    # the full vocab + sentence pipeline (~1-2 min, tokenizes ~230k sentences)
 bun run build:jlpt    # index/jlpt.json (fast post-pass over the compiled vocab)
+bun run build:grammar # grammar/points/{id}.json + grammar/index/jlpt.json (needs build:data's search index first)
 ```
 
 Or `bun run build:data` alone, which chains `build:kanji` and `build:jlpt` around the main build.
@@ -44,5 +45,6 @@ The compiled output (`compiled/`) is a derivative work of several upstream sourc
 - **KKLC step data**: derived from [ppasupat/vocab-kanji](https://github.com/ppasupat/vocab-kanji) - check that repo's license.
 - **JPDB frequency data**: from [jpdb.io](https://jpdb.io) - check their terms before redistributing.
 - **JLPT level lists**: derived from [Bluskyo/JLPT_Vocabulary](https://github.com/Bluskyo/JLPT_Vocabulary), itself sourced from tanos.co.uk under CC BY (Jonathan Waller).
+- **Grammar points**: derived from [hanabira.org-japanese-content](https://github.com/tristcoil/hanabira.org-japanese-content), Creative Commons, attribution required (link back to hanabira.org).
 
 This repo's own code (build scripts, types) and any originally-authored content is licensed CC BY-SA 4.0, matching JMDict's share-alike terms. If you plan to redistribute the compiled data itself, verify compliance with all of the above, not just this repo's license.
