@@ -54,6 +54,33 @@ export interface GrammarPoint {
     /** Formation template shown to the user, e.g. "Noun + が + いちばん + Adjective/Verb". */
     formation: string;
     examples: GrammarExample[];
+    /**
+     * Register/formality of this point, for points that have one (most don't -
+     * plain descriptive constructions with no close synonym leave this unset).
+     * Sourced from a hand-authored, reviewable mapping (data/raw/grammar/formality.json),
+     * not derived at build time - see docs/SCHEMA.md and the grammar-formality issue
+     * for the methodology. Exists specifically so gokan-srs can disambiguate quiz
+     * points that are near-synonyms differing mainly by register (e.g. でも/しかし/
+     * けれども all gloss as "but") without relying on longExplanation, which is too
+     * long for a quiz card and doesn't consistently cover register today.
+     */
+    formalityLevel?: 'casual' | 'neutral' | 'polite' | 'formal' | 'very-formal-literary';
+    /**
+     * One short, quiz-card-length line (~60-80 chars) covering whatever actually
+     * disambiguates this point from its near-synonyms. Usually register, but for
+     * some clusters (e.g. even-though/although/despite) the real differentiator is
+     * connotation/nuance instead (criticism, surprise, unmet expectation) rather
+     * than a clean formality ladder - see the grammar-formality issue. Deliberately
+     * NOT a duplicate of longExplanation.
+     */
+    usageNote?: string;
+    /**
+     * Ids of other GrammarPoints expressing the same core idea at a different
+     * formality/nuance (symmetric - if A lists B, B should list A). Not a strict
+     * "identical meaning" claim, just "a learner asking how to say X would be
+     * shown these together".
+     */
+    relatedPoints?: string[];
 }
 
 /** JLPT level (1..5) -> grammar point ids, in the source's original order (alphabetical - grammar has no frequency data to sort by, unlike vocab). */

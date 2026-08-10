@@ -26,6 +26,7 @@ import { locatePattern } from './grammar-pattern-matcher';
 const RAW_DIR = './data/raw/grammar';
 const SEARCH_INDEX_PATH = './compiled/index/search.json';
 const OUTPUT_DIR = './compiled/grammar';
+const FORMALITY_PATH = './data/raw/grammar/formality.json';
 
 const LEVEL_FILES: Record<number, string> = {
     5: 'grammar_ja_N5_full_alphabetical_0001.json',
@@ -42,6 +43,14 @@ interface RawGrammarEntry {
     formation: string;
     examples: Array<{ jp: string; romaji: string; en: string }>;
 }
+
+/** One entry of the hand-authored, reviewable formality.json mapping - see docs/SCHEMA.md and the grammar-formality issue. */
+interface FormalityEntry {
+    formalityLevel?: GrammarPoint['formalityLevel'];
+    usageNote?: string;
+    relatedPoints?: string[];
+}
+type FormalityMap = Record<string, FormalityEntry>;
 
 // Content POS categories eligible to become a blank - particles, symbols, and
 // auxiliary verbs are always shown literally (they carry the grammar
@@ -111,6 +120,13 @@ async function main() {
     const searchIndex: SearchIndex = JSON.parse(fs.readFileSync(SEARCH_INDEX_PATH, 'utf-8'));
     const lookup = buildVocabLookup(searchIndex);
 
+    // Optional - most points have no close synonym and simply won't appear in
+    // this mapping. Points present get formalityLevel/usageNote/relatedPoints
+    // merged into their output; absent points build exactly as before.
+    const formalityMap: FormalityMap = fs.existsSync(FORMALITY_PATH)
+        ? JSON.parse(fs.readFileSync(FORMALITY_PATH, 'utf-8'))
+        : {};
+
     const tokenizer = await new Promise<kuromoji.Tokenizer<kuromoji.IpadicFeatures>>((resolve, reject) => {
         kuromoji.builder({ dicPath: 'node_modules/kuromoji/dict' }).build((err, t) => {
             if (err) reject(err);
@@ -129,6 +145,8 @@ async function main() {
     let totalExamples = 0;
     let examplesAnchored = 0;
     const pointsWithNoAnchor: string[] = [];
+    let pointsWithFormality = 0;
+    const seenIds = new Set<string>();
 
     for (const [levelStr, filename] of Object.entries(LEVEL_FILES)) {
         const level = Number(levelStr);
@@ -153,6 +171,10 @@ async function main() {
 
             if (!pointAnchored) pointsWithNoAnchor.push(`${id}: ${entry.formation}`);
 
+            seenIds.add(id);
+            const formality = formalityMap[id];
+            if (formality) pointsWithFormality++;
+
             const point: GrammarPoint = {
                 id,
                 title: entry.title,
@@ -161,6 +183,9 @@ async function main() {
                 longExplanation: entry.long_explanation,
                 formation: entry.formation,
                 examples,
+                ...(formality?.formalityLevel ? { formalityLevel: formality.formalityLevel } : {}),
+                ...(formality?.usageNote ? { usageNote: formality.usageNote } : {}),
+                ...(formality?.relatedPoints ? { relatedPoints: formality.relatedPoints } : {}),
             };
 
             fs.writeFileSync(path.join(pointsDir, `${id}.json`), JSON.stringify(point));
@@ -178,6 +203,14 @@ async function main() {
     console.log(`   - Grammar points: ${totalPoints}`);
     console.log(`   - Words tokenized: ${totalWords} (${matchedWords} resolved to a vocab id, ${(100 * matchedWords / totalWords).toFixed(1)}%)`);
     console.log(`   - Pattern located: ${totalPoints - pointsWithNoAnchor.length}/${totalPoints} points (${(100 * (totalPoints - pointsWithNoAnchor.length) / totalPoints).toFixed(1)}%), ${examplesAnchored}/${totalExamples} examples (${(100 * examplesAnchored / totalExamples).toFixed(1)}%)`);
+    console.log(`   - Formality metadata: ${pointsWithFormality}/${totalPoints} points (from ${FORMALITY_PATH})`);
+
+    const staleFormalityIds = Object.keys(formalityMap).filter(id => !seenIds.has(id));
+    if (staleFormalityIds.length > 0) {
+        // Loud, not silent: a typo'd id in formality.json would otherwise silently
+        // never apply and nobody would notice.
+        console.warn(`⚠️  ${staleFormalityIds.length} id(s) in ${FORMALITY_PATH} don't match any built grammar point (typo?): ${staleFormalityIds.join(', ')}`);
+    }
 
     if (pointsWithNoAnchor.length > 0) {
         // Loud, not silent: any point where the pattern couldn't be located in a

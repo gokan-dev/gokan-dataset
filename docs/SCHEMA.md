@@ -101,6 +101,8 @@ interface Kanji {
 
 Sourced from [hanabira.org-japanese-content](https://github.com/tristcoil/hanabira.org-japanese-content) (`data/raw/grammar/*.json`, CC license, attribution required). Built by `scripts/build-grammar.ts` (`bun run build:grammar`), which needs `compiled/index/search.json` to already exist (run `build:data` first).
 
+`formalityLevel`/`usageNote`/`relatedPoints` are sourced separately from `data/raw/grammar/formality.json`, a hand-authored, reviewable mapping (`{ [pointId]: { formalityLevel?, usageNote?, relatedPoints? } }`) merged in at build time rather than computed - most points have no close synonym and simply aren't present in it. Written in original wording; specific formality/nuance claims are checked against freely-accessible references (cited in the authoring commit/PR, not embedded in the data) rather than copied from any single copyrighted source. A point id in the mapping that doesn't match any built point logs a build-time warning rather than silently doing nothing.
+
 ```ts
 interface GrammarPoint {
   id: string;              // assigned at build time, e.g. "n5-001" - the upstream dataset has no ids of its own
@@ -110,6 +112,9 @@ interface GrammarPoint {
   longExplanation: string;
   formation: string;       // e.g. "Noun + が + いちばん + Adjective/Verb"
   examples: GrammarExample[];
+  formalityLevel?: 'casual' | 'neutral' | 'polite' | 'formal' | 'very-formal-literary'; // register, for points that have one - most don't
+  usageNote?: string;      // short, quiz-card-length line covering whatever actually disambiguates this point from its near-synonyms (usually register, sometimes connotation/nuance instead)
+  relatedPoints?: string[]; // ids of other points expressing the same core idea at a different formality/nuance (symmetric)
 }
 
 interface GrammarExample {
