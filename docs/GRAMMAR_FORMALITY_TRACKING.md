@@ -8,12 +8,30 @@ Working checklist for [gokan-dataset#3](https://github.com/gokan-dev/gokan-datas
 
 | Status | Count |
 |---|---|
-| done (has formalityLevel/usageNote) | 39 |
-| needs-triage (in a measured cluster, not yet done) | 287 |
+| done (has formalityLevel/usageNote) | 52 |
+| needs-triage (in a measured cluster, not yet done) | 274 |
 | no-cluster-found (not caught by this pass) | 502 |
 | **Total** | **828** |
 
 Re-derive this table any time by grouping `compiled/grammar/points/*.json` on quoted `shortExplanation` gloss words (threshold >=3 distinct points, excluding the `,`/`it` noise clusters) - see gokan-srs#42 for the original measurement.
+
+## Reviewed clusters that turned out NOT to be genuine near-synonym families
+
+Found while triaging: several of the measured gloss clusters are **incidental English-gloss overlap between semantically distinct constructions**, not a "which register do I use for the same idea" ambiguity - forcing a formality entry onto these would be actively wrong, not just incomplete. Recorded here so a future pass doesn't re-investigate them from scratch. Some are fully false positives; others are a mix where a genuine sub-cluster exists alongside unrelated points (noted per row) - those subsets still need their own dedicated triage, not a blanket skip.
+
+| Cluster gloss | Finding |
+|---|---|
+| "with" | Mixed incidental overlap - にて (at/by, formal), をもって (by means of, literary), にしたがって (in accordance with), と (and/with, plain) are unrelated constructions, not near-synonyms. |
+| "as" | Mixed incidental overlap - 並み (equivalent-to), とおり (as instructed), にしたがって (in accordance with), につれて (as X changes), として (in the capacity of), ように (purpose/manner), ながら (simultaneous action) are distinct constructions. |
+| "about" | Mixed - approximate-quantity words (くらい/ぐらい/ごろ, genuine near-synonyms) vs について (topic marker "regarding", unrelated meaning) vs ほど (extent/comparison). Only the quantity subset (くらい/ぐらい/ごろ) is a genuine cluster - not yet authored. |
+| "upon" | Mixed incidental overlap - にあたり (at the time of), に際して (on the occasion of), 上で (after/on the basis of), たところ (as a result, different construction) - not near-synonyms of each other. |
+| "by" | Mixed incidental overlap - にて (at/by), により (by means/due to), によれば (according to), までに (by [a time]) are unrelated constructions. |
+| "regarding" | Mostly genuine (につき/をめぐる/において/に関わって/について all mean roughly "regarding"), but において also means "in/at" (location/context) which is a different sense - needs per-point care, not batch-authored yet. |
+| "for" | Mixed incidental overlap - にしては (considering, unexpected), にとって (from the perspective of), のために (purpose), に (direction/target) are distinct constructions. |
+| "during" | Mixed - を通じて (throughout, formal), うちに (while a condition holds), 間に (during a period), 中 (in the middle of) - overlapping but each with a distinct grammatical shape, needs per-point care. |
+| "based on" | Mostly genuine (に即した/に即して/を前提として/によれば all mean "based on"), but different registers/formality not yet worked out - needs a dedicated pass, not a quick batch. |
+| "considering" | Mixed - とみると/からすると (viewpoint-based judgment, genuine near-synonyms) vs にしては (unexpected-for) vs わりには (already done, in even-though cluster) - needs per-point care. |
+| "or" | False cluster - というところだ (approximation), べくもない (impossible to), からといって (just because...doesn't mean), それとも (or, genuine), か...か (or, genuine), ましょう (let's) - mostly unrelated constructions incidentally glossed with "or". |
 
 ## Full list
 
@@ -186,7 +204,7 @@ Re-derive this table any time by grouping `compiled/grammar/points/*.json` on qu
 | n1-165 | N1 | Verbる にはあたらない (Verb-ru ni wa ataranai) | — |  |
 | n1-166 | N1 | Verbる にも (Verb-ru ni mo) | — |  |
 | n1-167 | N1 | Verbる にも Verb れない (Verb-ru ni mo Verb-re nai) | — |  |
-| n1-168 | N1 | Verbる べからざる Noun (Verb-ru bekara zaru Noun) | ⬜ needs-triage | must not, should not |
+| n1-168 | N1 | Verbる べからざる Noun (Verb-ru bekara zaru Noun) | ✅ done | must not, should not |
 | n1-169 | N1 | Verbる べからず (〜ru bekara zu) | — |  |
 | n1-170 | N1 | Verbる べく (Verb-ru beku) | ⬜ needs-triage | in order to |
 | n1-171 | N1 | Verbる べくもない (Verb-ru beku mo nai) | ⬜ needs-triage | or |
@@ -275,19 +293,19 @@ Re-derive this table any time by grouping `compiled/grammar/points/*.json` on qu
 | n2-009 | N2 | A。そこで B。(~sokode) | ⬜ needs-triage | therefore |
 | n2-010 | N2 | A。それがB。(~sorega) | ⬜ needs-triage | that |
 | n2-011 | N2 | A。それで B。 (~sore de) | ⬜ needs-triage | so, and then |
-| n2-012 | N2 | A。それでも B。(~sore demo) | ⬜ needs-triage | but |
+| n2-012 | N2 | A。それでも B。(~sore demo) | ✅ done | but |
 | n2-013 | N2 | A。それなのに B。(~sorenanoni) | ✅ done | even though, despite |
 | n2-014 | N2 | A。それなら B。(A. Sore nara B.) | — |  |
 | n2-015 | N2 | A それはそうと B。 (A Sore wa sou to B) | ⬜ needs-triage | by the way |
-| n2-016 | N2 | A。だが B。(~daga) | ⬜ needs-triage | but, however |
-| n2-017 | N2 | A。ただB。(~tada) | ⬜ needs-triage | but, however, although |
-| n2-018 | N2 | A。ただしB。 (A. Tadashi B) | ⬜ needs-triage | however |
+| n2-016 | N2 | A。だが B。(~daga) | ✅ done | but, however |
+| n2-017 | N2 | A。ただB。(~tada) | ✅ done | but, however, although |
+| n2-018 | N2 | A。ただしB。 (A. Tadashi B) | ✅ done | however |
 | n2-019 | N2 | A。だって B。(Datte~) | ✅ done | because, since |
 | n2-020 | N2 | A。ちなみに B。(A. Chinamini B.) | ⬜ needs-triage | by the way |
 | n2-021 | N2 | A。ということは B。 (A. To iu koto wa B.) | — |  |
 | n2-022 | N2 | A。というのは B。(Toiu no wa~) | ⬜ needs-triage | in other words, that is to say |
 | n2-023 | N2 | A。なおB。(A. Nao B.) | ⬜ needs-triage | moreover, besides |
-| n2-024 | N2 | A。もっとも B。(Motto mo ~) | ⬜ needs-triage | but, however, although |
+| n2-024 | N2 | A。もっとも B。(Motto mo ~) | ✅ done | but, however, although |
 | n2-025 | N2 | A。要するに B。(A. Yousuru ni B.) | — |  |
 | n2-026 | N2 | Noun につき (〜ni tsuki) | ⬜ needs-triage | due to, regarding |
 | n2-027 | N2 | Noun にて (Noun nite) | ⬜ needs-triage | with, at, in, by |
@@ -351,7 +369,7 @@ Re-derive this table any time by grouping `compiled/grammar/points/*.json` on qu
 | n2-085 | N2 | ～でならない (〜de naranai) | — |  |
 | n2-086 | N2 | ～でばかりはいられない (〜de bakari wa irarenai) | — |  |
 | n2-087 | N2 | ～ではないか (〜de wa nai ka) | — |  |
-| n2-088 | N2 | ～てはならない (〜te wa naranai) | ⬜ needs-triage | must not, should not |
+| n2-088 | N2 | ～てはならない (〜te wa naranai) | ✅ done | must not, should not |
 | n2-089 | N2 | ～てまで (〜te made) | ⬜ needs-triage | even |
 | n2-090 | N2 | ～て当然だ (〜te tōzen da) | — |  |
 | n2-091 | N2 | ～というものだ (〜to iu mono da) | — |  |
@@ -408,7 +426,7 @@ Re-derive this table any time by grouping `compiled/grammar/points/*.json` on qu
 | n2-142 | N2 | ～はまだしも (〜wa mada shimo) | — |  |
 | n2-143 | N2 | ～はもとより (〜wa moto yori) | — |  |
 | n2-144 | N2 | ～は抜きにして (〜wa nuki ni shite) | — |  |
-| n2-145 | N2 | ～べきではない (〜beki dewa nai) | ⬜ needs-triage | should not |
+| n2-145 | N2 | ～べきではない (〜beki dewa nai) | ✅ done | should not |
 | n2-146 | N2 | ～まい (〜mai) | — |  |
 | n2-147 | N2 | ～まで～て (〜made 〜te) | ⬜ needs-triage | until, to |
 | n2-148 | N2 | ～ままに (〜mama ni) | — |  |
@@ -417,9 +435,9 @@ Re-derive this table any time by grouping `compiled/grammar/points/*.json` on qu
 | n2-151 | N2 | ～ものがある (〜mono ga aru) | — |  |
 | n2-152 | N2 | ～ものだ (〜mono da) | ⬜ needs-triage | should |
 | n2-153 | N2 | ～ものだから (〜mono dakara) | ✅ done | because, due to, since |
-| n2-154 | N2 | ～ものではない (〜mono dewa nai) | ⬜ needs-triage | must not, should not |
+| n2-154 | N2 | ～ものではない (〜mono dewa nai) | ✅ done | must not, should not |
 | n2-155 | N2 | ～ものなら (〜mono nara) | ⬜ needs-triage | if only |
-| n2-156 | N2 | ～ものの、～ (〜mono no、～) | ⬜ needs-triage | but, although |
+| n2-156 | N2 | ～ものの、～ (〜mono no、～) | ✅ done | but, although |
 | n2-157 | N2 | ～も～ば～も～ (〜mo〜ba〜mo〜) | — |  |
 | n2-158 | N2 | ～も同然だ (〜mo douzen da) | — |  |
 | n2-159 | N2 | ～やら～やら (〜yara〜yara) | — |  |
@@ -681,7 +699,7 @@ Re-derive this table any time by grouping `compiled/grammar/points/*.json` on qu
 | n4-092 | N4 | ～っていう (〜tte iu) | — |  |
 | n4-093 | N4 | ～で (〜de) | — |  |
 | n4-094 | N4 | ～でしょう (〜deshou) | ⬜ needs-triage | it seems |
-| n4-095 | N4 | ～てはいけない (〜te wa ikenai) | ⬜ needs-triage | must not |
+| n4-095 | N4 | ～てはいけない (〜te wa ikenai) | ✅ done | must not |
 | n4-096 | N4 | ～てもいい (〜temo ii) | — |  |
 | n4-097 | N4 | ～ても/でも (〜te mo/demo) | ✅ done | even though, even if |
 | n4-098 | N4 | ～といい (〜to ii) | ⬜ needs-triage | it would be good if |
@@ -781,8 +799,8 @@ Re-derive this table any time by grouping `compiled/grammar/points/*.json` on qu
 | n5-068 | N5 | いつでも～ (itsudemo～) | ⬜ needs-triage | whenever, always |
 | n5-069 | N5 | いつも～ (itsumo～) | ⬜ needs-triage | always |
 | n5-070 | N5 | ～て います (～te imasu) | — |  |
-| n5-071 | N5 | ～が (〜ga) | ⬜ needs-triage | but |
-| n5-072 | N5 | ～が、～ (〜ga, 〜) | ⬜ needs-triage | but, however |
+| n5-071 | N5 | ～が (〜ga) | ✅ done | but |
+| n5-072 | N5 | ～が、～ (〜ga, 〜) | ✅ done | but, however |
 | n5-073 | N5 | ～から、～ (〜kara、～) | ✅ done | because, since, so |
 | n5-074 | N5 | ～からです (〜kara desu) | ✅ done | because, due to, since |
 | n5-075 | N5 | ～から もらいます (〜kara moraimasu) | — |  |
