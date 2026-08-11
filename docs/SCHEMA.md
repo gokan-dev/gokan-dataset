@@ -101,12 +101,15 @@ interface Kanji {
 
 Sourced from [hanabira.org-japanese-content](https://github.com/tristcoil/hanabira.org-japanese-content) (`data/raw/grammar/*.json`, CC license, attribution required). Built by `scripts/build-grammar.ts` (`bun run build:grammar`), which needs `compiled/index/search.json` to already exist (run `build:data` first).
 
+The upstream `title` bundles the Japanese pattern with a romaji transliteration in a trailing parenthetical (e.g. `"～けど、～ (〜kedo、～)"`) - `build-grammar.ts` splits these apart at build time (`splitTitle`, handling nested parens and full-width（）vs half-width () mismatches) so a consumer can choose independently where to show which, rather than the two being welded into one string. 819/828 points (98.9%) split cleanly as of the last build; the remainder (no trailing parenthetical, or one that sits mid-string rather than at the end) keep their full original string as `title` with no `romaji` rather than a guessed split - logged as a build-time warning, not silently dropped.
+
 `formalityLevel`/`usageNote`/`family` are sourced separately from `data/raw/grammar/formality.json`, a hand-authored, reviewable mapping (`{ [pointId]: { formalityLevel?, usageNote?, family?: { id, name } } }`) merged in at build time rather than computed - most points have no close synonym and simply aren't present in it. A point only declares its own `family.id`/`family.name`; `family.relatedPoints` on the compiled output is DERIVED by grouping every mapping entry that shares the same `family.id` (a build error if the same id is used with two different names - a real authoring mistake, not something to silently accept). Also emitted as `compiled/grammar/index/families.json` (`Record<familyId, { name, memberIds }>`), mirroring `index/jlpt.json`'s shape, so a consumer can list every family without scanning all 828 point files. Written in original wording; specific formality/nuance claims are checked against freely-accessible references (cited in the authoring commit/PR, not embedded in the data) rather than copied from any single copyrighted source. A point id in the mapping that doesn't match any built point logs a build-time warning rather than silently doing nothing.
 
 ```ts
 interface GrammarPoint {
   id: string;              // assigned at build time, e.g. "n5-001" - the upstream dataset has no ids of its own
-  title: string;
+  title: string;           // Japanese/pattern portion only, e.g. "～けど、～" - split from the upstream title's trailing romaji parenthetical (see above)
+  romaji?: string;         // e.g. "kedo" - absent for the ~1.3% of points with no trailing parenthetical to split
   jlptLevel: number;       // 1 (N1) .. 5 (N5) - every grammar point has one, unlike vocab
   shortExplanation: string;
   longExplanation: string;
