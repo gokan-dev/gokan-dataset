@@ -8,8 +8,8 @@ Working checklist for [gokan-dataset#3](https://github.com/gokan-dev/gokan-datas
 
 | Status | Count |
 |---|---|
-| done (has formalityLevel/usageNote) | 277 |
-| needs-triage (in a measured cluster, not yet done) | 49 |
+| done (has formalityLevel/usageNote) | 307 |
+| needs-triage (in a measured cluster, not yet done) | 19 |
 | no-cluster-found (not caught by this pass) | 502 |
 | **Total** | **828** |
 
@@ -22,27 +22,27 @@ Each family is authored once via `family: { id, name }` on its member points in 
 | Family | Members |
 |---|---|
 | **Contradiction (But / However)** (`contradiction`) | n5-008, n5-077, n3-033, n5-078, n4-079, n5-071, n5-072, n2-016, n2-012, n2-017, n2-024, n5-003, n2-018, n2-156, n5-002 |
-| **Causality (Because / Since / Due to)** (`causality`) | n5-073, n4-078, n5-088, n4-124, n2-019, n3-127, n5-074, n4-081, n2-060, n2-153, n4-110, n3-049, n3-072, n1-180, n1-184, n1-181, n3-004 |
+| **Causality (Because / Since / Due to)** (`causality`) | n5-073, n4-078, n5-088, n4-124, n2-019, n3-127, n5-074, n4-081, n2-060, n2-153, n4-110, n3-049, n3-072, n1-180, n1-184, n1-181, n3-004, n2-139 |
 | **Concession (Even Though / Although / Despite)** (`concession`) | n4-097, n3-052, n3-060, n3-063, n2-013, n3-011, n3-125, n2-117, n1-215, n1-058 |
 | **Obligation (Must / Have to)** (`obligation`) | n4-104, n4-105, n4-103, n4-106, n4-108, n2-132 |
 | **Prohibition (Must Not / Should Not)** (`prohibition`) | n4-095, n2-154, n2-088, n2-145, n1-168 |
 | **Resemblance (Like / As If)** (`resemblance`) | n3-103, n4-117, n3-101, n2-049, n1-080 |
 | **Purpose (In Order To / So That)** (`purpose`) | n4-010, n4-026, n3-112, n3-114, n4-059, n1-170, n1-237 |
-| **Approximation (About / Approximately)** (`approximation`) | n5-027, n3-012, n5-026, n5-028, n5-086 |
-| **Exclusivity (Only / Nothing But)** (`exclusivity`) | n5-029, n4-007, n3-032, n3-087, n4-012, n2-128, n2-130, n2-116 |
+| **Approximation (About / Approximately)** (`approximation`) | n5-027, n3-012, n5-026, n5-028, n5-086, n3-096, n1-040 |
+| **Exclusivity (Only / Nothing But)** (`exclusivity`) | n5-029, n4-007, n3-032, n3-087, n4-012, n2-128, n2-130, n2-116, n3-023, n2-138 |
 | **Emphasis (Even)** (`emphasis-even`) | n4-114, n3-022, n2-089, n1-032, n1-060, n3-099, n2-147 |
 | **As Soon As (The Moment That)** (`as-soon-as`) | n2-046, n2-067, n2-072, n3-037, n2-186, n1-163, n1-174, n1-125 |
-| **Should (Advice / Expectation)** (`should`) | n4-087, n4-113, n3-016, n3-089, n2-152 |
+| **Should (Advice / Expectation)** (`should`) | n4-087, n4-113, n3-016, n3-089, n2-152, n4-098, n4-088 |
 | **Wish (If Only)** (`wish`) | n2-063, n2-155, n3-090, n1-227 |
 | **Addition (Besides / Moreover)** (`addition`) | n2-002, n2-176, n3-001, n4-121, n2-004, n2-023 |
-| **Topic Shift (By The Way)** (`topic-shift`) | n2-008, n3-041, n3-065, n2-015, n2-020 |
+| **Topic Shift (By The Way)** (`topic-shift`) | n2-008, n3-041, n3-065, n2-015, n2-020, n2-003 |
 | **Starting With (Including)** (`starting-with`) | n2-029, n2-030, n2-031, n1-105, n1-106 |
 | **Even If (Hypothetical Concession)** (`even-if`) | n3-035, n3-069, n3-078, n3-108, n1-199 |
 | **Restatement (That Is To Say)** (`restatement`) | n3-054, n3-045, n2-022, n2-006 |
-| **Inference (It Seems / Probably)** (`inference`) | n4-091, n4-119, n3-118, n4-094, n3-055, n3-126, n4-077, n3-106 |
+| **Inference (It Seems / Probably)** (`inference`) | n4-091, n4-119, n3-118, n4-094, n3-055, n3-126, n4-077, n3-106, n1-205 |
 | **Regardless (Whether A Or B)** (`regardless-a-or-b`) | n1-002, n1-004, n1-006, n1-008, n2-001, n1-053 |
 | **Regarding (Concerning)** (`regarding`) | n3-079, n2-033, n2-129, n2-026 |
-| **Sequence (After / As A Result)** (`sequence-after`) | n3-036, n2-068, n2-175, n2-038, n2-179, n2-185 |
+| **Sequence (After / As A Result)** (`sequence-after`) | n3-036, n2-068, n2-175, n2-038, n2-179, n2-185, n5-048, n3-010, n5-038 |
 | **Before (Prior To)** (`before`) | n5-061, n4-115, n1-065, n2-120 |
 | **Simultaneous (While Doing)** (`simultaneous`) | n4-054, n2-075 |
 | **Time Window (During / While It Lasts)** (`time-window`) | n2-040, n3-002, n4-011, n4-036 |
@@ -51,28 +51,28 @@ Each family is authored once via `family: { id, name }` on its member points in 
 | **Considering (Judging From)** (`considering`) | n2-053, n3-077, n1-209 |
 | **Always (Anytime)** (`always`) | n5-068, n5-069 |
 | **Not Only But Also (Emphatic Addition)** (`not-only-but-also`) | n3-092, n2-137, n1-093 |
-| **Occasion (While Doing / On The Occasion Of)** (`occasion`) | n2-191, n1-017, n1-114, n1-240, n2-184, n2-131, n2-106 |
+| **Occasion (While Doing / On The Occasion Of)** (`occasion`) | n2-191, n1-017, n1-114, n1-240, n2-184, n2-131, n2-106, n1-016 |
 | **Extremity (Extremely / Utterly)** (`extremity`) | n2-083, n1-241, n1-193 |
 | **Receiving (Benefactive Register)** (`receiving`) | n5-124, n4-018, n4-014 |
 | **I Wonder (Musing Uncertainty)** (`i-wonder`) | n3-006, n4-076, n4-074 |
 | **Perspective (From The Standpoint Of)** (`perspective`) | n2-057, n2-058, n2-111, n3-080, n2-135 |
 | **Not Only Limited To (Far From)** (`not-only-limited`) | n2-096, n1-069, n1-070 |
 | **Negation Intensity (Not At All)** (`negation-intensity`) | n5-082, n3-024, n3-132 |
-| **Sequence (And Then)** (`sequence-then`) | n5-085, n2-011, n5-083, n5-006 |
+| **Sequence (And Then)** (`sequence-then`) | n5-085, n2-011, n5-083, n5-006, n4-122, n5-004 |
 | **Contrast (Toward / In Contrast To)** (`contrast-toward`) | n2-123, n3-083, n1-062 |
 | **Nowhere (Not Anywhere)** (`nowhere`) | n5-105, n5-109, n5-108 |
 | **Temporal When (Verb Tense Variants)** (`temporal-when`) | n5-099, n4-023, n4-068 |
 | **At Least (A Minimal Amount)** (`at-least`) | n3-013, n1-054 |
 | **Assuming (Under That Premise)** (`assuming`) | n2-098, n3-066, n1-236 |
 | **In Progress (In The Middle Of)** (`in-progress`) | n4-019, n2-095, n4-035 |
-| **Conditional (If / Assuming That)** (`conditional`) | n2-007, n3-107, n3-109, n2-056, n1-191, n1-200, n1-046 |
+| **Conditional (If / Assuming That)** (`conditional`) | n2-007, n3-107, n3-109, n2-056, n1-191, n1-200, n1-046, n2-177 |
 | **Proportional Change (As X, So Y)** (`proportional-change`) | n2-114, n2-115, n1-047 |
 | **As Long As (To That Extent)** (`as-long-as`) | n2-190, n2-178, n1-113 |
 | **Capacity (As / In The Role Of)** (`capacity`) | n3-067, n2-167 |
-| **According To (As Instructed)** (`according-to`) | n2-093, n1-068 |
+| **According To (As Instructed)** (`according-to`) | n2-093, n1-068, n2-110 |
 | **Or (Alternatively)** (`or-choice`) | n5-022, n3-031 |
 | **Ability (Can / Able To)** (`ability`) | n5-059, n4-065, n1-178 |
-| **Listing (Such As / Etc.)** (`listing`) | n2-094, n4-001, n3-073, n5-042 |
+| **Listing (Such As / Etc.)** (`listing`) | n2-094, n4-001, n3-073, n5-042, n5-089 |
 | **Also (In Addition, Too)** (`also`) | n4-118, n5-041, n3-030, n1-094 |
 | **Whenever (Every Time)** (`whenever`) | n3-038, n2-113, n1-134 |
 | **Speaking Of (When It Comes To)** (`speaking-of`) | n3-056, n1-042 |
@@ -81,6 +81,10 @@ Each family is authored once via `family: { id, name }` on its member points in 
 | **Through (Via / Over A Range)** (`through`) | n2-171, n2-119, n1-108, n2-118 |
 | **Formal Location (At / In, Official Register)** (`formal-location`) | n2-027, n2-107, n1-097, n1-110 |
 | **Almost (Nearly)** (`almost`) | n3-064, n5-127, n5-133 |
+| **Time Range (From ... To)** (`time-range`) | n5-025, n2-055, n3-008, n1-182 |
+| **Totality (Entirely / Nothing Beats)** (`totality`) | n1-028, n1-071 |
+| **Can't Help But (Overwhelming Feeling)** (`cant-help-but`) | n2-079, n2-084, n1-137, n1-121 |
+| **Together With (Alongside)** (`together-with`) | n2-100, n5-031 |
 
 ## Reviewed clusters that turned out NOT to be genuine near-synonym families
 
@@ -98,7 +102,11 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | "during" | Mixed - を通じて (throughout, formal), うちに (while a condition holds), 間に (during a period), 中 (in the middle of) - overlapping but each with a distinct grammatical shape, needs per-point care. |
 | "based on" | Mostly genuine (に即した/に即して/を前提として/によれば all mean "based on"), but different registers/formality not yet worked out - needs a dedicated pass, not a quick batch. |
 | "considering" | Mixed - とみると/からすると (viewpoint-based judgment, genuine near-synonyms) vs にしては (unexpected-for) vs わりには (already done, in the Concession family) - needs per-point care. |
-| "or" | False cluster - というところだ (approximation), べくもない (impossible to), からといって (just because...doesn't mean), それとも (or, genuine), か...か (or, genuine), ましょう (let's) - mostly unrelated constructions incidentally glossed with "or". |
+| "or" | Mostly false - というところだ (approximation), べくもない (impossible to), からといって (just because...doesn't mean), ましょう (let's) are unrelated constructions incidentally glossed with "or". The genuine subset (それとも, か...か) is done as the Or (Alternatively) family. |
+| "to become" | False cluster - な-adjective に する/なる, い-Adjective く します, Noun に なります are not interchangeable near-synonyms; each is grammatically required for its own part-of-speech category (na-adjective/i-adjective/noun), not a register choice among equivalent options. |
+| "which" | False cluster - どっち (which of two), どの (which of several, attributive), なに (what/which, open-ended) are different question words for different scopes, not synonyms of each other. |
+
+**Individually reviewed, no clean synonym partner found** (checked but left standalone rather than forced into a family): n4-116 まま ("as-is/unchanged state" - a distinct construction from the "while" cluster's simultaneous-action sense), n1-111 並み ("on par with a standard level" - a comparative-level marker, not resemblance), n4-075 かどうか ("whether or not" - an indirect-question marker, not a conditional "if"), n3-034 たて ("freshly done"), n5-040 は (topic marker - too generic/foundational to be a synonym cluster), n4-027 つもり ("intend to"), n2-010 それが (a fixed idiom), n5-032 に (plain directional particle), n4-082 すぎる ("excessively" - a productive suffix, not a near-synonym set).
 
 ## Full list
 
@@ -119,7 +127,7 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n1-013 | N1 | Noun1 が Noun1 なら、 Noun2 も Noun2 だ (A ga A nara, B mo B da) | — |  |  |
 | n1-014 | N1 | Noun1 も Noun1 なら、Noun2 も Noun2 だ (A mo A nara, B mo B da) | — |  |  |
 | n1-015 | N1 | Noun + あっての + Noun (A atte no B) | — |  |  |
-| n1-016 | N1 | Noun かたがた (Noun kata gata) | ⬜ needs-triage |  | while |
+| n1-016 | N1 | Noun かたがた (Noun kata gata) | ✅ done | Occasion (While Doing / On The Occasion Of) | while |
 | n1-017 | N1 | Noun がてら (Noun gatera) | ✅ done | Occasion (While Doing / On The Occasion Of) | on the occasion of, along with |
 | n1-018 | N1 | Noun からある (〜kara aru) | — |  |  |
 | n1-019 | N1 | Noun からする (Noun kara suru) | — |  |  |
@@ -131,7 +139,7 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n1-025 | N1 | Noun こそすれ (~koso sure) | — |  |  |
 | n1-026 | N1 | Noun ごとき / Noun ごとく (〜gotoki/〜gotoku) | — |  |  |
 | n1-027 | N1 | Noun じゃあるまいし (~ja aru mai shi) | — |  |  |
-| n1-028 | N1 | Noun ずくめ (~zukume) | ⬜ needs-triage |  | nothing but |
+| n1-028 | N1 | Noun ずくめ (~zukume) | ✅ done | Totality (Entirely / Nothing Beats) | nothing but |
 | n1-029 | N1 | Noun だけではすまない (Noun dake dewa sumanai) | — |  |  |
 | n1-030 | N1 | Noun たりとも～ない (~tari tomo ~nai) | — |  |  |
 | n1-031 | N1 | Noun たる Noun (~taru~) | — |  |  |
@@ -143,7 +151,7 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n1-037 | N1 | Noun という Noun (~to iu~) | — |  |  |
 | n1-038 | N1 | Noun というところだ (Noun to iu tokoro da) | ⬜ needs-triage |  | or |
 | n1-039 | N1 | Noun + というもの (~ to iu mono) | — |  |  |
-| n1-040 | N1 | Noun といったところだ (Noun to itta tokoro da) | ⬜ needs-triage |  | as much as |
+| n1-040 | N1 | Noun といったところだ (Noun to itta tokoro da) | ✅ done | Approximation (About / Approximately) | as much as |
 | n1-041 | N1 | Noun といわず Noun といわず (A to iwazu B to iwazu) | — |  |  |
 | n1-042 | N1 | Noun + ときたら (〜tokitara) | ✅ done | Speaking Of (When It Comes To) | speaking of |
 | n1-043 | N1 | Noun とは比べものにならない (~to wa kurabemono ni naranai) | — |  |  |
@@ -174,7 +182,7 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n1-068 | N1 | Noun に言わせれば (Noun ni iwasereba) | ✅ done | According To (As Instructed) | according to |
 | n1-069 | N1 | Noun に限ったことではない (〜ni kagitta koto dewa nai) | ✅ done | Not Only Limited To (Far From) | not only, not just |
 | n1-070 | N1 | Noun に限ったことでもない (~ni kagitta koto demo nai) | ✅ done | Not Only Limited To (Far From) | not just |
-| n1-071 | N1 | Noun に限る (~ni kagiru) | ⬜ needs-triage |  | nothing but |
+| n1-071 | N1 | Noun に限る (~ni kagiru) | ✅ done | Totality (Entirely / Nothing Beats) | nothing but |
 | n1-072 | N1 | Noun ぬいた Noun (A nuita B) | — |  |  |
 | n1-073 | N1 | Noun + ぬいて（~nuite) | — |  |  |
 | n1-074 | N1 |  ～ぬく (~nuku) | — |  |  |
@@ -224,7 +232,7 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n1-118 | N1 | Verb ずじまい (~zu jimai) | — |  |  |
 | n1-119 | N1 | Verb ずとも (〜zu tomo) | — |  |  |
 | n1-120 | N1 | Verb ずにはおかない (~zuni wa okanai) | — |  |  |
-| n1-121 | N1 | Verb ずにはすまない (Verb zuni wa sumanai) | ⬜ needs-triage |  | have to |
+| n1-121 | N1 | Verb ずにはすまない (Verb zuni wa sumanai) | ✅ done | Can't Help But (Overwhelming Feeling) | have to |
 | n1-122 | N1 | Verb そうにない (Verb sou ni nai) | — |  |  |
 | n1-123 | N1 | Verb そうもない (〜sou mo nai) | — |  |  |
 | n1-124 | N1 | Verb そばから (〜soba kara) | — |  |  |
@@ -240,7 +248,7 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n1-134 | N1 | Verb ては Verb (~ te wa ~) | ✅ done | Whenever (Every Time) | whenever |
 | n1-135 | N1 | Verb てまでも (~ temademo) | — |  |  |
 | n1-136 | N1 | Verb てみせる (Verb te miseru) | — |  |  |
-| n1-137 | N1 | Verb てやまない (Verb te yamanai) | ⬜ needs-triage |  | can |
+| n1-137 | N1 | Verb てやまない (Verb te yamanai) | ✅ done | Can't Help But (Overwhelming Feeling) | can |
 | n1-138 | N1 | Verb ないではおかない (~ nai de wa okanai) | — |  |  |
 | n1-139 | N1 | Verb ないではすまない (Verb nai dewa sumanai) | — |  |  |
 | n1-140 | N1 | Verb ないまでも (Verb nai made mo) | — |  |  |
@@ -285,7 +293,7 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n1-179 | N1 | ～かと思いきや (〜ka to omoikiya) | — |  |  |
 | n1-180 | N1 | ～がゆえに (～ga yue ni) | ✅ done | Causality (Because / Since / Due to) | because, due to, as a result of |
 | n1-181 | N1 | ～がゆえの Noun (〜ga yue no Noun) | ✅ done | Causality (Because / Since / Due to) | due to, because of |
-| n1-182 | N1 | ～から Noun に 至る まで (〜kara 〜ni itaru made) | ⬜ needs-triage |  | from...to |
+| n1-182 | N1 | ～から Noun に 至る まで (〜kara 〜ni itaru made) | ✅ done | Time Range (From ... To) | from...to |
 | n1-183 | N1 | ～ごとく (〜gotoku) | — |  |  |
 | n1-184 | N1 | ～こととて (〜koto tote) | ✅ done | Causality (Because / Since / Due to) | because, since |
 | n1-185 | N1 | ～ずにすんだ (〜zuni sunda) | — |  |  |
@@ -308,7 +316,7 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n1-202 | N1 | ～となったら (〜to nattara) | — |  |  |
 | n1-203 | N1 | ～となると (〜to naru to) | — |  |  |
 | n1-204 | N1 | ～となれば (〜to nareba) | — |  |  |
-| n1-205 | N1 | ～とのことだ (〜to no koto da) | ⬜ needs-triage |  | i |
+| n1-205 | N1 | ～とのことだ (〜to no koto da) | ✅ done | Inference (It Seems / Probably) | i |
 | n1-206 | N1 | ～とはいえ (～to wa ie) | — |  |  |
 | n1-207 | N1 | ～とみえて (〜to miete) | — |  |  |
 | n1-208 | N1 | ～とみられる (～to mirareru) | — |  |  |
@@ -351,7 +359,7 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n1-245 | N1 | ～限りだ (〜kagiri da) | — |  |  |
 | n2-001 | N2 | A あるいは B (A aruiwa B) | ✅ done | Regardless (Whether A Or B) | either a or b |
 | n2-002 | N2 | A。おまけに B。(~omake ni) | ✅ done | Addition (Besides / Moreover) | not only, moreover, besides |
-| n2-003 | N2 | A。さて B。(A. Sate B.) | ⬜ needs-triage |  | so |
+| n2-003 | N2 | A。さて B。(A. Sate B.) | ✅ done | Topic Shift (By The Way) | so |
 | n2-004 | N2 | A。しかも B。(A. Shikamo B.) | ✅ done | Addition (Besides / Moreover) | moreover, besides, furthermore |
 | n2-005 | N2 | A。したがって B。(A. Shitagatte B.) | ✅ done | Therefore (Formal Cause-Result) | so, therefore |
 | n2-006 | N2 | A すなわち B。 (A sunawachi B) | ✅ done | Restatement (That Is To Say) | in other words, that is to say |
@@ -403,7 +411,7 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n2-052 | N2 | 〜からして (〜kara shite) | — |  |  |
 | n2-053 | N2 | ～からすると (〜kara suru to) | ✅ done | Considering (Judging From) | considering |
 | n2-054 | N2 | ～からといって (〜kara to itte) | ⬜ needs-triage |  | or |
-| n2-055 | N2 | ～から～にかけて (〜kara 〜ni kakete) | ⬜ needs-triage |  | from...to, over |
+| n2-055 | N2 | ～から～にかけて (〜kara 〜ni kakete) | ✅ done | Time Range (From ... To) | from...to, over |
 | n2-056 | N2 | ～からには (〜kara niwa) | ✅ done | Conditional (If / Assuming That) | since, if |
 | n2-057 | N2 | ～から見ると (〜kara miru to) | ✅ done | Perspective (From The Standpoint Of) | in terms of, from the perspective of |
 | n2-058 | N2 | ～から言うと (〜kara iuto) | ✅ done | Perspective (From The Standpoint Of) | in terms of |
@@ -427,12 +435,12 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n2-076 | N2 | ～つつある (〜tsutsu aru) | — |  |  |
 | n2-077 | N2 | ～っぱなし (〜ppanashi) | — |  |  |
 | n2-078 | N2 | ～っぽい (〜ppoi) | — |  |  |
-| n2-079 | N2 | ～ていられない (〜te irarenai) | ⬜ needs-triage |  | can |
+| n2-079 | N2 | ～ていられない (〜te irarenai) | ✅ done | Can't Help But (Overwhelming Feeling) | can |
 | n2-080 | N2 | ～てかなわない (〜te kanawanai) | — |  |  |
 | n2-081 | N2 | ～てからでないと (〜te kara denai to) | — |  |  |
 | n2-082 | N2 | ～てこそ (〜te koso) | — |  |  |
 | n2-083 | N2 | ～でしょうがない (〜deshou ga nai) | ✅ done | Extremity (Extremely / Utterly) | extremely |
-| n2-084 | N2 | ～でたまらない (〜de tamaranai) | ⬜ needs-triage |  | can |
+| n2-084 | N2 | ～でたまらない (〜de tamaranai) | ✅ done | Can't Help But (Overwhelming Feeling) | can |
 | n2-085 | N2 | ～でならない (〜de naranai) | — |  |  |
 | n2-086 | N2 | ～でばかりはいられない (〜de bakari wa irarenai) | — |  |  |
 | n2-087 | N2 | ～ではないか (〜de wa nai ka) | — |  |  |
@@ -448,7 +456,7 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n2-097 | N2 | ～どころではない (〜dokoro de wa nai) | — |  |  |
 | n2-098 | N2 | ～としたら (〜to shitara) | ✅ done | Assuming (Under That Premise) | if, assuming, suppose |
 | n2-099 | N2 | ～としても (〜to shite mo) | — |  |  |
-| n2-100 | N2 | ～と～ともに (〜to 〜tomoni) | ⬜ needs-triage |  | along with, together with |
+| n2-100 | N2 | ～と～ともに (〜to 〜tomoni) | ✅ done | Together With (Alongside) | along with, together with |
 | n2-101 | N2 | ～とは限らない (〜to wa kagiranai) | — |  |  |
 | n2-102 | N2 | ～ないことはない (〜nai koto wa nai) | — |  |  |
 | n2-103 | N2 | ～ないこともない (〜nai koto mo nai) | — |  |  |
@@ -458,7 +466,7 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n2-107 | N2 | ～において (〜ni oite) | ✅ done | Formal Location (At / In, Official Register) | at, regarding, in |
 | n2-108 | N2 | ～にかかわらず (〜ni kakawarazu) | — |  |  |
 | n2-109 | N2 | ～にかけては (〜ni kakete wa) | — |  |  |
-| n2-110 | N2 | ～にしたがって (〜ni shitagatte) | ⬜ needs-triage |  | with, as |
+| n2-110 | N2 | ～にしたがって (〜ni shitagatte) | ✅ done | According To (As Instructed) | with, as |
 | n2-111 | N2 | ～にしたら (〜ni shitara) | ✅ done | Perspective (From The Standpoint Of) | from the perspective of |
 | n2-112 | N2 | ～にしろ～にしろ (〜ni shiro 〜ni shiro) | — |  |  |
 | n2-113 | N2 | ～につけ～につけ (〜ni tsuke 〜ni tsuke) | ✅ done | Whenever (Every Time) | whenever |
@@ -486,8 +494,8 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n2-135 | N2 | 〜の上では (〜no ue de wa) | ✅ done | Perspective (From The Standpoint Of) | in terms of |
 | n2-136 | N2 | ～の下で (〜no shita de) | — |  |  |
 | n2-137 | N2 | ～ばかりか〜も (〜bakari ka 〜 mo) | ✅ done | Not Only But Also (Emphatic Addition) | not only... but also |
-| n2-138 | N2 | ～ばかりだ (〜bakari da) | ⬜ needs-triage |  | just, only, always |
-| n2-139 | N2 | ～ばかりに (〜bakari ni) | ⬜ needs-triage |  | due to |
+| n2-138 | N2 | ～ばかりだ (〜bakari da) | ✅ done | Exclusivity (Only / Nothing But) | just, only, always |
+| n2-139 | N2 | ～ばかりに (〜bakari ni) | ✅ done | Causality (Because / Since / Due to) | due to |
 | n2-140 | N2 | ～ば～というものでもない (〜ba 〜to iu mono demo nai) | — |  |  |
 | n2-141 | N2 | ～はともかく～は (〜wa tomokaku 〜wa) | — |  |  |
 | n2-142 | N2 | ～はまだしも (〜wa mada shimo) | — |  |  |
@@ -525,7 +533,7 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n2-174 | N2 | ～一方だ (〜ippou da) | — |  |  |
 | n2-175 | N2 | ～上で (〜ue de) | ✅ done | Sequence (After / As A Result) | after, upon |
 | n2-176 | N2 | ～上に (〜ue ni) | ✅ done | Addition (Besides / Moreover) | not only... but also, besides |
-| n2-177 | N2 | ～上は (～ue wa) | ⬜ needs-triage |  | once, since |
+| n2-177 | N2 | ～上は (～ue wa) | ✅ done | Conditional (If / Assuming That) | once, since |
 | n2-178 | N2 | ～以上 (〜ijou) | ✅ done | As Long As (To That Extent) | as long as, since |
 | n2-179 | N2 | ～以来 (〜irai) | ✅ done | Sequence (After / As A Result) | since, after |
 | n2-180 | N2 | ～切る (〜kiru) | — |  |  |
@@ -547,9 +555,9 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n3-005 | N3 | ～かけ (〜kake) | — |  |  |
 | n3-006 | N3 | ～かなあ (〜kanaa) | ✅ done | I Wonder (Musing Uncertainty) | i wonder, maybe |
 | n3-007 | N3 | ～ないで (〜naide) | — |  |  |
-| n3-008 | N3 | ～から～にかけて (〜kara 〜ni kakete) | ⬜ needs-triage |  | from...to |
+| n3-008 | N3 | ～から～にかけて (〜kara 〜ni kakete) | ✅ done | Time Range (From ... To) | from...to |
 | n3-009 | N3 | ～かわりに (〜kawari ni) | — |  |  |
-| n3-010 | N3 | ～きり (〜kiri) | ⬜ needs-triage |  | since, after, only |
+| n3-010 | N3 | ～きり (〜kiri) | ✅ done | Sequence (After / As A Result) | since, after, only |
 | n3-011 | N3 | ～くせに (〜kuse ni) | ✅ done | Concession (Even Though / Although / Despite) | even though, in spite of, despite |
 | n3-012 | N3 | ～くらい (〜kurai) | ✅ done | Approximation (About / Approximately) | about, approximately |
 | n3-013 | N3 | ～くらい～は～ない (〜kurai 〜wa 〜nai) | ✅ done | At Least (A Minimal Amount) | at least |
@@ -562,7 +570,7 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n3-020 | N3 | ～ことはない (〜koto wa nai) | — |  |  |
 | n3-021 | N3 | ～さ (〜sa) | — |  |  |
 | n3-022 | N3 | ～さえ (～sae) | ✅ done | Emphasis (Even) | even, as long as, if only |
-| n3-023 | N3 | ～しかない (〜shika nai) | ⬜ needs-triage |  | only |
+| n3-023 | N3 | ～しかない (〜shika nai) | ✅ done | Exclusivity (Only / Nothing But) | only |
 | n3-024 | N3 | すこしも〜ない (sukoshimo~nai) | ✅ done | Negation Intensity (Not At All) | not at all |
 | n3-025 | N3 | ～ずに (〜zu ni) | — |  |  |
 | n3-026 | N3 | ～せいで (〜sei de) | — |  |  |
@@ -635,7 +643,7 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n3-093 | N3 | ～ばよかった (〜ba yokatta) | — |  |  |
 | n3-094 | N3 | ～ふりをする (〜furi wo suru) | — |  |  |
 | n3-095 | N3 | ～べきだ (〜beki da) | — |  |  |
-| n3-096 | N3 | ～ほど～ (〜hodo〜) | ⬜ needs-triage |  | as much as, about |
+| n3-096 | N3 | ～ほど～ (〜hodo〜) | ✅ done | Approximation (About / Approximately) | as much as, about |
 | n3-097 | N3 | ～ますように (〜masu you ni) | — |  |  |
 | n3-098 | N3 | まったく～ない (mattaku ~nai) | — |  |  |
 | n3-099 | N3 | ～まで (〜made) | ✅ done | Emphasis (Even) | until |
@@ -759,7 +767,7 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n4-085 | N4 | そんな (sonna) + Noun | — |  |  |
 | n4-086 | N4 | そんなに～ (sonna ni〜) | — |  |  |
 | n4-087 | N4 | ～たらいい (〜tara ii) | ✅ done | Should (Advice / Expectation) | should, it would be good if |
-| n4-088 | N4 | ～たら いかがですか (〜tara ikaga desu ka) | ⬜ needs-triage |  | it would be good if |
+| n4-088 | N4 | ～たら いかがですか (〜tara ikaga desu ka) | ✅ done | Should (Advice / Expectation) | it would be good if |
 | n4-089 | N4 | ～たら どうですか (〜tara doudesuka) | — |  |  |
 | n4-090 | N4 | ～たり～たり (〜tari 〜tari) | — |  |  |
 | n4-091 | N4 | ～だろう (〜darou) | ✅ done | Inference (It Seems / Probably) | maybe |
@@ -769,7 +777,7 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n4-095 | N4 | ～てはいけない (〜te wa ikenai) | ✅ done | Prohibition (Must Not / Should Not) | must not |
 | n4-096 | N4 | ～てもいい (〜temo ii) | — |  |  |
 | n4-097 | N4 | ～ても/でも (〜te mo/demo) | ✅ done | Concession (Even Though / Although / Despite) | even though, even if |
-| n4-098 | N4 | ～といい (〜to ii) | ⬜ needs-triage |  | it would be good if |
+| n4-098 | N4 | ～といい (〜to ii) | ✅ done | Should (Advice / Expectation) | it would be good if |
 | n4-099 | N4 | ～という (〜to iu) Noun | — |  |  |
 | n4-100 | N4 | どういう Noun (dou iu Noun) | — |  |  |
 | n4-101 | N4 | ～と思う (〜to omou) | — |  |  |
@@ -793,13 +801,13 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n4-119 | N4 | ～ようだ (〜you da) | ✅ done | Inference (It Seems / Probably) | it seems |
 | n4-120 | N4 | ～んです (〜n desu) | ✅ done | Explanation (The Reason Is) | the reason is |
 | n4-121 | N4 | 文A。そのうえ 文B。 | ✅ done | Addition (Besides / Moreover) | besides, furthermore |
-| n4-122 | N4 | 文A。それで 文B (Bun A. Sorede Bun B) | ⬜ needs-triage |  | so, that |
+| n4-122 | N4 | 文A。それで 文B (Bun A. Sorede Bun B) | ✅ done | Sequence (And Then) | so, that |
 | n4-123 | N4 | 文A。それに 文B (Bun A. Soreni Bun B) | — |  |  |
 | n4-124 | N4 | 文A。だから 文B (Bun A. Dakara Bun B) | ✅ done | Causality (Because / Since / Due to) | because, so, therefore |
 | n5-001 | N5 | A が いちばん～ (A ga ichiban～) | — |  |  |
 | n5-002 | N5 | A。けれども、～B。(A. Keredomo,~ B.) | ✅ done | Contradiction (But / However) | but, however |
 | n5-003 | N5 | A。しかし、～B。 (A. Shikashi, ~B.) | ✅ done | Contradiction (But / However) |  |
-| n5-004 | N5 | A。じゃ、～B。(A. Ja, ~B.) | ⬜ needs-triage |  | so |
+| n5-004 | N5 | A。じゃ、～B。(A. Ja, ~B.) | ✅ done | Sequence (And Then) | so |
 | n5-005 | N5 | A。それじゃ、～B。(A. Soreja,~B.) | — |  |  |
 | n5-006 | N5 | A。それでは、～B。(A. Soredewa,~B.) | ✅ done | Sequence (And Then) | so, then |
 | n5-007 | N5 | A。 では、～B。 (A. Dewa, ~B) | — |  |  |
@@ -820,20 +828,20 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n5-022 | N5 | Noun か Noun か～ (Noun ka Noun ka～) | ✅ done | Or (Alternatively) | or |
 | n5-023 | N5 | Noun が できます (Noun ga dekimasu) | — |  |  |
 | n5-024 | N5 | Noun がほしいです (〜ga hoshii desu) | — |  |  |
-| n5-025 | N5 | Noun から Noun まで (Noun kara Noun made) | ⬜ needs-triage |  | from...to |
+| n5-025 | N5 | Noun から Noun まで (Noun kara Noun made) | ✅ done | Time Range (From ... To) | from...to |
 | n5-026 | N5 | Noun くらい～ (Noun kurai～) | ✅ done | Approximation (About / Approximately) | at least, about, approximately |
 | n5-027 | N5 | Noun ぐらい～ (Noun gurai～) | ✅ done | Approximation (About / Approximately) | about, approximately |
 | n5-028 | N5 | Noun ごろ～ (Noun + goro～) | ✅ done | Approximation (About / Approximately) | about |
 | n5-029 | N5 | Noun だけ〜 (〜dake) | ✅ done | Exclusivity (Only / Nothing But) | just, only |
 | n5-030 | N5 | Nounで～ (Noun de ~) | — |  |  |
-| n5-031 | N5 | Noun と～ (Noun to～) | ⬜ needs-triage |  | together with, with, and |
+| n5-031 | N5 | Noun と～ (Noun to～) | ✅ done | Together With (Alongside) | together with, with, and |
 | n5-032 | N5 | Noun に～ (Noun ni～) | ⬜ needs-triage |  | toward, to, for |
 | n5-033 | N5 | Noun に 帰ります (Noun ni kaerimasu) | — |  |  |
 | n5-034 | N5 | Noun に します (Noun ni shimasu) | — |  |  |
 | n5-035 | N5 | Noun に なります (Noun ni narimasu) | ⬜ needs-triage |  | to become |
 | n5-036 | N5 | Noun に 来ます (Noun ni kimasu) | — |  |  |
 | n5-037 | N5 | Noun に 行きます (Noun ni ikimasu) | — |  |  |
-| n5-038 | N5 | Noun の あとで (Noun no atode) | ⬜ needs-triage |  | after |
+| n5-038 | N5 | Noun の あとで (Noun no atode) | ✅ done | Sequence (After / As A Result) | after |
 | n5-039 | N5 | Noun の 前に (Noun no mae ni) | — |  |  |
 | n5-040 | N5 | Noun は～ (Noun wa〜) | ⬜ needs-triage |  | speaking of |
 | n5-041 | N5 | Noun も〜 (Noun mo~) | ✅ done | Also (In Addition, Too) | also |
@@ -843,7 +851,7 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n5-045 | N5 | Verb たいです (taidesu) | — |  |  |
 | n5-046 | N5 | Verb て～ (Verb + te～) | — |  |  |
 | n5-047 | N5 | Verb て います (Verb te imasu) | — |  |  |
-| n5-048 | N5 | Verb てから～ (〜te kara) | ⬜ needs-triage |  | once, since, after |
+| n5-048 | N5 | Verb てから～ (〜te kara) | ✅ done | Sequence (After / As A Result) | once, since, after |
 | n5-049 | N5 | Verb て ください (Verb-te kudasai) | — |  |  |
 | n5-050 | N5 | Verb ないで ください (〜naide kudasai) | — |  |  |
 | n5-051 | N5 | Noun に 戻ります (Noun ni modorimasu) | — |  |  |
@@ -884,7 +892,7 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n5-086 | N5 | だいたい〜 (daitai〜) | ✅ done | Approximation (About / Approximately) | approximately, almost |
 | n5-087 | N5 | たいてい～ (taitei～) | — |  |  |
 | n5-088 | N5 | だから、～ (dakara、～) | ✅ done | Causality (Because / Since / Due to) | because, so, therefore |
-| n5-089 | N5 | ～たり、～たり します (〜tari, 〜tari shimasu) | ⬜ needs-triage |  | and |
+| n5-089 | N5 | ～たり、～たり します (〜tari, 〜tari shimasu) | ✅ done | Listing (Such As / Etc.) | and |
 | n5-090 | N5 | だれ～ (dare～) | — |  |  |
 | n5-091 | N5 | だれか〜 (dareka〜) | — |  |  |
 | n5-092 | N5 | だれでも～ (dare demo～) | — |  |  |
