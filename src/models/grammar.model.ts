@@ -46,7 +46,23 @@ export interface GrammarExample {
 export interface GrammarPoint {
     /** Stable id assigned at build time from this vendored snapshot (e.g. "n5-001") - the upstream dataset has no ids of its own. */
     id: string;
+    /**
+     * The Japanese/pattern portion only, e.g. "～けど、～" - the upstream source
+     * bundled this together with a romaji transliteration in a trailing
+     * parenthetical (e.g. "～けど、～ (〜kedo、～)"); split apart at build time
+     * so a consumer can choose where to show which (see `romaji` below) instead
+     * of the two being welded into one string.
+     */
     title: string;
+    /**
+     * Romaji transliteration split out of the upstream title's trailing
+     * parenthetical (e.g. "kedo" for title "～けど、～"). Absent for the small
+     * minority of points (~1.3%, 11/828 as of the last build) where the
+     * upstream title has no trailing parenthetical to split, or has one in an
+     * unparseable shape (mid-string rather than trailing) - those keep their
+     * full original string as `title` unsplit rather than guessing.
+     */
+    romaji?: string;
     /** JLPT level (1 = N1 hardest .. 5 = N5 easiest), matching Vocabulary.jlptLevel's convention. Every grammar point carries one, since this dataset is itself organized by level. */
     jlptLevel: number;
     shortExplanation: string;

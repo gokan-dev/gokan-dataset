@@ -81,6 +81,46 @@ function katakanaToHiragana(input: string): string {
     return input.replace(/[ァ-ヶ]/g, ch => String.fromCharCode(ch.charCodeAt(0) - 0x60));
 }
 
+/**
+ * Splits the upstream title (e.g. "～けど、～ (〜kedo、～)") into the Japanese/
+ * pattern portion and a romaji transliteration pulled out of a trailing
+ * parenthetical, so the app can choose where to show which instead of the
+ * two being welded into one string. Handles the messier real cases found by
+ * scanning all 828 titles: nested parens (finds the OUTERMOST trailing pair
+ * via depth tracking, not a naive non-greedy match), and full-width （） vs
+ * half-width () mismatches (a normalized copy is used only to locate the
+ * matching bracket indices - same length as the original since it's a 1:1
+ * character swap, so those indices apply directly to the original string).
+ * Falls back to the full original string as `title` with no `romaji` when
+ * there's no trailing parenthetical to split (no parens at all, or one that
+ * sits mid-string rather than at the end) - about 1.3% of points (11/828 as
+ * of the last build) - rather than guessing at an unparseable shape.
+ */
+export function splitTitle(raw: string): { title: string; romaji?: string } {
+    const trimmed = raw.trim();
+    const normalized = trimmed.replace(/（/g, '(').replace(/）/g, ')');
+
+    if (!normalized.endsWith(')')) return { title: trimmed };
+
+    let depth = 0;
+    let openIndex = -1;
+    for (let i = normalized.length - 1; i >= 0; i--) {
+        const ch = normalized[i];
+        if (ch === ')') depth++;
+        else if (ch === '(') {
+            depth--;
+            if (depth === 0) { openIndex = i; break; }
+        }
+    }
+    if (openIndex === -1) return { title: trimmed }; // unbalanced parens - bail out safely
+
+    const titlePart = trimmed.slice(0, openIndex).trim();
+    const romajiPart = trimmed.slice(openIndex + 1, trimmed.length - 1).trim();
+    if (!titlePart || !romajiPart) return { title: trimmed };
+
+    return { title: titlePart, romaji: romajiPart };
+}
+
 function tokenizeExample(
     tokenizer: kuromoji.Tokenizer<kuromoji.IpadicFeatures>,
     lookup: ReturnType<typeof buildVocabLookup>,
@@ -175,6 +215,7 @@ async function main() {
     const pointsWithNoAnchor: string[] = [];
     let pointsWithFormality = 0;
     const seenIds = new Set<string>();
+    const pointsWithNoTitleRomaji: string[] = [];
 
     for (const [levelStr, filename] of Object.entries(LEVEL_FILES)) {
         const level = Number(levelStr);
@@ -211,9 +252,13 @@ async function main() {
                 }
                 : undefined;
 
+            const { title, romaji } = splitTitle(entry.title);
+            if (!romaji) pointsWithNoTitleRomaji.push(`${id}: ${entry.title}`);
+
             const point: GrammarPoint = {
                 id,
-                title: entry.title,
+                title,
+                ...(romaji ? { romaji } : {}),
                 jlptLevel: level,
                 shortExplanation: entry.short_explanation,
                 longExplanation: entry.long_explanation,
@@ -247,6 +292,12 @@ async function main() {
     console.log(`   - Pattern located: ${totalPoints - pointsWithNoAnchor.length}/${totalPoints} points (${(100 * (totalPoints - pointsWithNoAnchor.length) / totalPoints).toFixed(1)}%), ${examplesAnchored}/${totalExamples} examples (${(100 * examplesAnchored / totalExamples).toFixed(1)}%)`);
     console.log(`   - Formality metadata: ${pointsWithFormality}/${totalPoints} points (from ${FORMALITY_PATH})`);
     console.log(`   - Families: ${familyMembers.size} (${[...familyMembers.values()].reduce((n, f) => n + f.ids.length, 0)} points total)`);
+    console.log(`   - Title/romaji split: ${totalPoints - pointsWithNoTitleRomaji.length}/${totalPoints} points (${(100 * (totalPoints - pointsWithNoTitleRomaji.length) / totalPoints).toFixed(1)}%)`);
+
+    if (pointsWithNoTitleRomaji.length > 0) {
+        console.warn(`⚠️  ${pointsWithNoTitleRomaji.length} points had no trailing-parenthetical romaji to split out of their title (kept as-is):`);
+        pointsWithNoTitleRomaji.forEach(s => console.warn(`     ${s}`));
+    }
 
     const staleFormalityIds = Object.keys(formalityMap).filter(id => !seenIds.has(id));
     if (staleFormalityIds.length > 0) {
@@ -265,7 +316,12 @@ async function main() {
     }
 }
 
-main().catch(err => {
-    console.error(err);
-    process.exit(1);
-});
+// Guarded so `splitTitle` can be imported for unit testing (build-grammar.test.ts)
+// without triggering the full build pipeline (kuromoji, the vocab search index,
+// raw data files) as an import-time side effect.
+if (import.meta.main) {
+    main().catch(err => {
+        console.error(err);
+        process.exit(1);
+    });
+}
