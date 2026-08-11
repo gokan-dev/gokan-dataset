@@ -8,8 +8,8 @@ Working checklist for [gokan-dataset#3](https://github.com/gokan-dev/gokan-datas
 
 | Status | Count |
 |---|---|
-| done (has formalityLevel/usageNote) | 205 |
-| needs-triage (in a measured cluster, not yet done) | 121 |
+| done (has formalityLevel/usageNote) | 213 |
+| needs-triage (in a measured cluster, not yet done) | 113 |
 | no-cluster-found (not caught by this pass) | 502 |
 | **Total** | **828** |
 
@@ -62,6 +62,9 @@ Each family is authored once via `family: { id, name }` on its member points in 
 | **Contrast (Toward / In Contrast To)** (`contrast-toward`) | n2-123, n3-083, n1-062 |
 | **Nowhere (Not Anywhere)** (`nowhere`) | n5-105, n5-109, n5-108 |
 | **Temporal When (Verb Tense Variants)** (`temporal-when`) | n5-099, n4-023, n4-068 |
+| **At Least (A Minimal Amount)** (`at-least`) | n3-013, n1-054 |
+| **Assuming (Under That Premise)** (`assuming`) | n2-098, n3-066, n1-236 |
+| **In Progress (In The Middle Of)** (`in-progress`) | n4-019, n2-095, n4-035 |
 
 ## Reviewed clusters that turned out NOT to be genuine near-synonym families
 
@@ -138,7 +141,7 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n1-051 | N1 | Noun ならいざ知らず (~nara izashirazu) | — |  |  |
 | n1-052 | N1 | Noun + ならでは (~nara de wa) | — |  |  |
 | n1-053 | N1 | Noun なり Noun なり (A nari B nari) | ✅ done | Regardless (Whether A Or B) | either a or b |
-| n1-054 | N1 | Noun なりとも (~nari tomo) | ⬜ needs-triage |  | at least |
+| n1-054 | N1 | Noun なりとも (~nari tomo) | ✅ done | At Least (A Minimal Amount) | at least |
 | n1-055 | N1 | Noun に Noun を重ねて (A ni B wo kasanete) | — |  |  |
 | n1-056 | N1 | Noun にあっては (Noun ni atte ha) | — |  |  |
 | n1-057 | N1 | Noun にあるまじき Noun (Noun ni aru majiki Noun) | — |  |  |
@@ -320,7 +323,7 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n1-233 | N1 | ～ぶる (〜buru) | — |  |  |
 | n1-234 | N1 | ～までだ (～made da) | — |  |  |
 | n1-235 | N1 | ～もなんでもない (〜mo nandemonai) | — |  |  |
-| n1-236 | N1 | ～ものとして (～mono to shite) | ⬜ needs-triage |  | assuming |
+| n1-236 | N1 | ～ものとして (～mono to shite) | ✅ done | Assuming (Under That Premise) | assuming |
 | n1-237 | N1 | ～んがために (〜n ga tame ni) | ✅ done | Purpose (In Order To / So That) | in order to, for the sake of |
 | n1-238 | N1 | ～んばかりに (〜n bakari ni) | — |  |  |
 | n1-239 | N1 | ～差し支えない (〜sashitsukaenai) | — |  |  |
@@ -424,10 +427,10 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n2-092 | N2 | どうにか～ないものか (dō ni ka ~ nai mono ka) | — |  |  |
 | n2-093 | N2 | ～とおり (〜toori) | ⬜ needs-triage |  | according to, as |
 | n2-094 | N2 | ～とか (〜to ka) | ⬜ needs-triage |  | like, such as |
-| n2-095 | N2 | ～ところ (〜tokoro) | ⬜ needs-triage |  | when, in the middle of |
+| n2-095 | N2 | ～ところ (〜tokoro) | ✅ done | In Progress (In The Middle Of) | when, in the middle of |
 | n2-096 | N2 | ～どころか (〜dokoro ka) | ✅ done | Not Only Limited To (Far From) | not only, not just |
 | n2-097 | N2 | ～どころではない (〜dokoro de wa nai) | — |  |  |
-| n2-098 | N2 | ～としたら (〜to shitara) | ⬜ needs-triage |  | if, assuming, suppose |
+| n2-098 | N2 | ～としたら (〜to shitara) | ✅ done | Assuming (Under That Premise) | if, assuming, suppose |
 | n2-099 | N2 | ～としても (〜to shite mo) | — |  |  |
 | n2-100 | N2 | ～と～ともに (〜to 〜tomoni) | ⬜ needs-triage |  | along with, together with |
 | n2-101 | N2 | ～とは限らない (〜to wa kagiranai) | — |  |  |
@@ -533,7 +536,7 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n3-010 | N3 | ～きり (〜kiri) | ⬜ needs-triage |  | since, after, only |
 | n3-011 | N3 | ～くせに (〜kuse ni) | ✅ done | Concession (Even Though / Although / Despite) | even though, in spite of, despite |
 | n3-012 | N3 | ～くらい (〜kurai) | ✅ done | Approximation (About / Approximately) | about, approximately |
-| n3-013 | N3 | ～くらい～は～ない (〜kurai 〜wa 〜nai) | ⬜ needs-triage |  | at least |
+| n3-013 | N3 | ～くらい～は～ない (〜kurai 〜wa 〜nai) | ✅ done | At Least (A Minimal Amount) | at least |
 | n3-014 | N3 | ～こそ (〜koso) | — |  |  |
 | n3-015 | N3 | ～こと (〜koto) | — |  |  |
 | n3-016 | N3 | ～ことだ (〜koto da) | ✅ done | Should (Advice / Expectation) | should |
@@ -586,7 +589,7 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n3-063 | N3 | ～ところが (〜tokoro ga) | ✅ done | Concession (Even Though / Although / Despite) | even though, but, however |
 | n3-064 | N3 | ～ところだった (〜tokoro datta) | ⬜ needs-triage |  | almost |
 | n3-065 | N3 | ところで (tokorode) | ✅ done | Topic Shift (By The Way) | speaking of, by the way |
-| n3-066 | N3 | ～としたら (〜to shitara) | ⬜ needs-triage |  | if, assuming, suppose |
+| n3-066 | N3 | ～としたら (〜to shitara) | ✅ done | Assuming (Under That Premise) | if, assuming, suppose |
 | n3-067 | N3 | ～として (〜to shite) | ⬜ needs-triage |  | as |
 | n3-068 | N3 | ～どんなに～ことか (〜donna ni〜koto ka) | — |  |  |
 | n3-069 | N3 | どんなに～ても (donna ni ~ temo) | ✅ done | Even If (Hypothetical Concession) | even if |
@@ -671,7 +674,7 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n4-016 | N4 | Noun を くれる (Noun wo kureru) | — |  |  |
 | n4-017 | N4 | Noun を さしあげる (Noun wo sashiageru) | — |  |  |
 | n4-018 | N4 | Noun もらう (Noun wo morau) | ✅ done | Receiving (Benefactive Register) | to receive, to get |
-| n4-019 | N4 | Noun + 中 (Noun + ちゅう) | ⬜ needs-triage |  | in the middle of, during |
+| n4-019 | N4 | Noun + 中 (Noun + ちゅう) | ✅ done | In Progress (In The Middle Of) | in the middle of, during |
 | n4-020 | N4 | Verb させられる (Verb-saserareru) | — |  |  |
 | n4-021 | N4 | Verb させる (Verb-saseru) | — |  |  |
 | n4-022 | N4 | Verb た ことがある (Verb ta koto ga aru) | — |  |  |
@@ -687,7 +690,7 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n4-032 | N4 | Verb ていただく (〜te itadaku) | — |  |  |
 | n4-033 | N4 | Verb て いただけませんか (Verb te itadakemasen ka) | — |  |  |
 | n4-034 | N4 | Verb て いる (Verb-te iru) | — |  |  |
-| n4-035 | N4 | Verb て いる ところ (Verb te iru tokoro) | ⬜ needs-triage |  | in the middle of |
+| n4-035 | N4 | Verb て いる ところ (Verb te iru tokoro) | ✅ done | In Progress (In The Middle Of) | in the middle of |
 | n4-036 | N4 | Verb ている間に (te iru aida ni) | ✅ done | Time Window (During / While It Lasts) | while |
 | n4-037 | N4 | Verb ておく (〜te oku) | — |  |  |
 | n4-038 | N4 | Verb て くださいませんか (Verb-te kudasaimasen ka) | — |  |  |
