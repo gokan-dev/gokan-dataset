@@ -8,9 +8,9 @@ Working checklist for [gokan-dataset#3](https://github.com/gokan-dev/gokan-datas
 
 | Status | Count |
 |---|---|
-| done (has formalityLevel/usageNote) | 408 |
+| done (has formalityLevel/usageNote) | 419 |
 | needs-triage (in a measured cluster, not yet done) | 17 |
-| no-cluster-found (not caught by this pass) | 403 |
+| no-cluster-found (not caught by this pass) | 392 |
 | **Total** | **828** |
 
 Re-derive this table any time by grouping `compiled/grammar/points/*.json` on quoted `shortExplanation` gloss words (threshold >=3 distinct points, excluding the `,`/`it` noise clusters) - see gokan-srs#42 for the original measurement.
@@ -23,7 +23,7 @@ Each family is authored once via `family: { id, name }` on its member points in 
 |---|---|
 | **Contradiction (But / However)** (`contradiction`) | n5-008, n5-077, n3-033, n5-078, n4-079, n5-071, n5-072, n2-016, n2-012, n2-017, n2-024, n5-003, n2-018, n2-156, n5-002 |
 | **Causality (Because / Since / Due to)** (`causality`) | n5-073, n4-078, n5-088, n4-124, n2-019, n3-127, n5-074, n4-081, n2-060, n2-153, n4-110, n3-049, n3-072, n1-180, n1-184, n1-181, n3-004, n2-139 |
-| **Concession (Even Though / Although / Despite)** (`concession`) | n4-097, n3-052, n3-060, n3-063, n2-013, n3-011, n3-125, n2-117, n1-215, n1-058, n1-206, n1-192 |
+| **Concession (Even Though / Although / Despite)** (`concession`) | n4-097, n3-052, n3-060, n3-063, n2-013, n3-011, n3-125, n2-117, n1-215, n1-058, n1-206, n1-192, n2-121 |
 | **Obligation (Must / Have to)** (`obligation`) | n4-104, n4-105, n4-103, n4-106, n4-108, n2-132 |
 | **Prohibition (Must Not / Should Not)** (`prohibition`) | n4-095, n2-154, n2-088, n2-145, n1-168 |
 | **Resemblance (Like / As If)** (`resemblance`) | n3-103, n4-117, n3-101, n2-049, n1-080 |
@@ -31,7 +31,7 @@ Each family is authored once via `family: { id, name }` on its member points in 
 | **Approximation (About / Approximately)** (`approximation`) | n5-027, n3-012, n5-026, n5-028, n5-086, n3-096, n1-040 |
 | **Exclusivity (Only / Nothing But)** (`exclusivity`) | n5-029, n4-007, n3-032, n3-087, n4-012, n2-128, n2-130, n2-116, n3-023, n2-138 |
 | **Emphasis (Even)** (`emphasis-even`) | n4-114, n3-022, n2-089, n1-032, n1-060, n3-099, n2-147, n1-030, n1-063 |
-| **As Soon As (The Moment That)** (`as-soon-as`) | n2-046, n2-067, n2-072, n3-037, n2-186, n1-163, n1-174, n1-125 |
+| **As Soon As (The Moment That)** (`as-soon-as`) | n2-046, n2-067, n2-072, n3-037, n2-186, n1-163, n1-174, n1-125, n1-129 |
 | **Should (Advice / Expectation)** (`should`) | n4-087, n4-113, n3-016, n3-089, n2-152, n4-098, n4-088 |
 | **Wish (If Only)** (`wish`) | n2-063, n2-155, n3-090, n1-227 |
 | **Addition (Besides / Moreover)** (`addition`) | n2-002, n2-176, n3-001, n4-121, n2-004, n2-023 |
@@ -47,7 +47,7 @@ Each family is authored once via `family: { id, name }` on its member points in 
 | **Simultaneous (While Doing)** (`simultaneous`) | n4-054, n2-075 |
 | **Time Window (During / While It Lasts)** (`time-window`) | n2-040, n3-002, n4-011, n4-036 |
 | **Based On (In Accordance With)** (`based-on`) | n3-082, n1-066, n1-067, n1-101, n2-122 |
-| **Regardless Of (No Matter)** (`regardless-of`) | n2-169, n1-079, n1-091, n2-108, n1-210, n1-186 |
+| **Regardless Of (No Matter)** (`regardless-of`) | n2-169, n1-079, n1-091, n2-108, n1-210, n1-186, n1-064, n1-077 |
 | **Considering (Judging From)** (`considering`) | n2-053, n3-077, n1-209 |
 | **Always (Anytime)** (`always`) | n5-068, n5-069 |
 | **Not Only But Also (Emphatic Addition)** (`not-only-but-also`) | n3-092, n2-137, n1-093, n2-133, n1-061, n1-164 |
@@ -83,9 +83,9 @@ Each family is authored once via `family: { id, name }` on its member points in 
 | **Almost (Nearly)** (`almost`) | n3-064, n5-127, n5-133 |
 | **Time Range (From ... To)** (`time-range`) | n5-025, n2-055, n3-008, n1-182 |
 | **Totality (Entirely / Nothing Beats)** (`totality`) | n1-028, n1-071 |
-| **Can't Help But (Overwhelming Feeling)** (`cant-help-but`) | n2-079, n2-084, n1-137, n1-121 |
+| **Can't Help But (Overwhelming Feeling)** (`cant-help-but`) | n2-079, n2-084, n1-137, n1-121, n2-065, n2-104, n2-085 |
 | **Together With (Alongside)** (`together-with`) | n2-100, n5-031 |
-| **Whether Or Not (To Do X)** (`whether-or-not`) | n1-148, n1-149, n1-151 |
+| **Whether Or Not (To Do X)** (`whether-or-not`) | n1-148, n1-149, n1-151, n2-050 |
 | **Inevitable (Cannot Help But)** (`inevitable`) | n1-117, n2-064, n1-120, n1-138, n1-139, n1-107, n2-161 |
 | **Without X (Cannot Do Without)** (`without-x`) | n1-048, n1-049, n1-050 |
 | **Unlikely / Impossible** (`unlikely-impossible`) | n1-122, n1-123, n2-066, n1-150, n1-154, n2-160, n2-074, n2-150, n2-162, n3-121 |
@@ -101,9 +101,10 @@ Each family is authored once via `family: { id, name }` on its member points in 
 | **Not Necessarily (An Exception Exists)** (`not-necessarily`) | n2-101, n3-130 |
 | **Not Implying (It Doesn't Mean That)** (`not-implying`) | n2-164, n3-123 |
 | **Cannot (Due To Obligation)** (`obligation-cannot`) | n2-165, n3-124 |
-| **No Need To** (`no-need-to`) | n3-020, n1-219, n1-172 |
+| **No Need To** (`no-need-to`) | n3-020, n1-219, n1-172, n1-165 |
 | **Invitation (Let's / Shall We)** (`invitation`) | n5-054, n5-055, n5-056, n5-065 |
 | **Risk Of (Might Lead To)** (`risk-of`) | n2-047, n2-183 |
+| **Instead Of (In Place Of)** (`instead-of`) | n3-009, n3-076 |
 
 ## Reviewed clusters that turned out NOT to be genuine near-synonym families
 
@@ -194,7 +195,7 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n1-061 | N1 | Noun にとどまらず～も (~ ni todomarazu ~ mo) | ✅ done | Not Only But Also (Emphatic Addition) |  |
 | n1-062 | N1 | Noun にひきかえ Noun は (~ni hikikae ~ wa) | ✅ done | Contrast (Toward / In Contrast To) | in contrast to |
 | n1-063 | N1 | Noun にもまして (〜ni mo mashite) | ✅ done | Emphasis (Even) |  |
-| n1-064 | N1 | Noun によらず (～ni yorazu) | — |  |  |
+| n1-064 | N1 | Noun によらず (～ni yorazu) | ✅ done | Regardless Of (No Matter) |  |
 | n1-065 | N1 | Noun に先駆けて (〜ni saki gakete) | ✅ done | Before (Prior To) | before |
 | n1-066 | N1 | Noun に即した Noun (A ni sokushita B) | ✅ done | Based On (In Accordance With) | based on |
 | n1-067 | N1 | Noun に即して Verb (〜ni soku shite ~) | ✅ done | Based On (In Accordance With) | based on |
@@ -207,7 +208,7 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n1-074 | N1 |  ～ぬく (~nuku) | — |  |  |
 | n1-075 | N1 | Noun+のいかんだ (Noun no ikan da) | — |  |  |
 | n1-076 | N1 | Noun のいかんでは (Noun no ikan de wa) | — |  |  |
-| n1-077 | N1 | Noun のいかんにかかわらず (Noun no ikan ni kakawarazu) | — |  |  |
+| n1-077 | N1 | Noun のいかんにかかわらず (Noun no ikan ni kakawarazu) | ✅ done | Regardless Of (No Matter) |  |
 | n1-078 | N1 | Noun のいかんによっては (Noun no ikan ni yotte wa) | — |  |  |
 | n1-079 | N1 | Noun のいかんによらず (~ no ikan ni yorazu) | ✅ done | Regardless Of (No Matter) | regardless of |
 | n1-080 | N1 | Noun のごとき Noun (A no gotoki B) | ✅ done | Resemblance (Like / As If) | like, as if |
@@ -259,7 +260,7 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n1-126 | N1 | Verb たことにしてください (~ ta koto ni shite kudasai) | — |  |  |
 | n1-127 | N1 | Verb たら Verb たで (~ tara ~ tade) | — |  |  |
 | n1-128 | N1 | Verb たら きりがない (Verb tara kiri ga nai) | — |  |  |
-| n1-129 | N1 | Verb たら最後 (〜tara saigo) | — |  |  |
+| n1-129 | N1 | Verb たら最後 (〜tara saigo) | ✅ done | As Soon As (The Moment That) |  |
 | n1-130 | N1 | Verb つ Verb つ (Verb tsu Verb tsu) | — |  |  |
 | n1-131 | N1 | Verb てからというもの (Verb te kara to iu mono) | — |  |  |
 | n1-132 | N1 | Verb てこそ (Verb te koso) | — |  |  |
@@ -295,7 +296,7 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n1-162 | N1 | Verbる ともなしに Verb (Verb-ru tomonashi ni Verb) | — |  |  |
 | n1-163 | N1 | Verbる なり (Verb-ru nari) | ✅ done | As Soon As (The Moment That) | as soon as, the moment |
 | n1-164 | N1 | Verbる にとどまらず～も (Verb-ru ni todomarazu ~ mo) | ✅ done | Not Only But Also (Emphatic Addition) |  |
-| n1-165 | N1 | Verbる にはあたらない (Verb-ru ni wa ataranai) | — |  |  |
+| n1-165 | N1 | Verbる にはあたらない (Verb-ru ni wa ataranai) | ✅ done | No Need To |  |
 | n1-166 | N1 | Verbる にも (Verb-ru ni mo) | — |  |  |
 | n1-167 | N1 | Verbる にも Verb れない (Verb-ru ni mo Verb-re nai) | — |  |  |
 | n1-168 | N1 | Verbる べからざる Noun (Verb-ru bekara zaru Noun) | ✅ done | Prohibition (Must Not / Should Not) | must not, should not |
@@ -425,7 +426,7 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n2-047 | N2 | ～かねない (〜kane nai) | ✅ done | Risk Of (Might Lead To) |  |
 | n2-048 | N2 | ～かねる (〜kaneru) | — |  |  |
 | n2-049 | N2 | ～かのようだ (〜ka no you da) | ✅ done | Resemblance (Like / As If) | like, as if |
-| n2-050 | N2 | ～か～まいか (〜ka 〜maika) | — |  |  |
+| n2-050 | N2 | ～か～まいか (〜ka 〜maika) | ✅ done | Whether Or Not (To Do X) |  |
 | n2-051 | N2 | ～からこそ (〜kara koso) | — |  |  |
 | n2-052 | N2 | 〜からして (〜kara shite) | — |  |  |
 | n2-053 | N2 | ～からすると (〜kara suru to) | ✅ done | Considering (Judging From) | considering |
@@ -440,7 +441,7 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n2-062 | N2 | ～ことになっている (〜koto ni natte iru) | — |  |  |
 | n2-063 | N2 | ～さえ～ば (〜sae ~ba) | ✅ done | Wish (If Only) | if only |
 | n2-064 | N2 | ～ざるを得ない (〜zaru wo enai) | ✅ done | Inevitable (Cannot Help But) |  |
-| n2-065 | N2 | ～ずにはいられない (〜zu ni wa irarenai) | — |  |  |
+| n2-065 | N2 | ～ずにはいられない (〜zu ni wa irarenai) | ✅ done | Can't Help But (Overwhelming Feeling) |  |
 | n2-066 | N2 | ～そうにない (〜sou ni nai) | ✅ done | Unlikely / Impossible |  |
 | n2-067 | N2 | ～たかと思ったら (〜ta ka to omottara) | ✅ done | As Soon As (The Moment That) | as soon as |
 | n2-068 | N2 | ～たきり (〜takiri) | ✅ done | Sequence (After / As A Result) | after |
@@ -460,7 +461,7 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n2-082 | N2 | ～てこそ (〜te koso) | — |  |  |
 | n2-083 | N2 | ～でしょうがない (〜deshou ga nai) | ✅ done | Extremity (Extremely / Utterly) | extremely |
 | n2-084 | N2 | ～でたまらない (〜de tamaranai) | ✅ done | Can't Help But (Overwhelming Feeling) | can |
-| n2-085 | N2 | ～でならない (〜de naranai) | — |  |  |
+| n2-085 | N2 | ～でならない (〜de naranai) | ✅ done | Can't Help But (Overwhelming Feeling) |  |
 | n2-086 | N2 | ～でばかりはいられない (〜de bakari wa irarenai) | — |  |  |
 | n2-087 | N2 | ～ではないか (〜de wa nai ka) | — |  |  |
 | n2-088 | N2 | ～てはならない (〜te wa naranai) | ✅ done | Prohibition (Must Not / Should Not) | must not, should not |
@@ -479,7 +480,7 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n2-101 | N2 | ～とは限らない (〜to wa kagiranai) | ✅ done | Not Necessarily (An Exception Exists) |  |
 | n2-102 | N2 | ～ないことはない (〜nai koto wa nai) | ✅ done | Not Impossible (Double-Negative Hedge) |  |
 | n2-103 | N2 | ～ないこともない (〜nai koto mo nai) | ✅ done | Not Impossible (Double-Negative Hedge) |  |
-| n2-104 | N2 | ～ないではいられない (〜nai de wa irarenai) | — |  |  |
+| n2-104 | N2 | ～ないではいられない (〜nai de wa irarenai) | ✅ done | Can't Help But (Overwhelming Feeling) |  |
 | n2-105 | N2 | ～ながら (〜nagara) | — |  |  |
 | n2-106 | N2 | ～にあたり (〜ni atari) | ✅ done | Occasion (While Doing / On The Occasion Of) | at the time of, in, upon |
 | n2-107 | N2 | ～において (〜ni oite) | ✅ done | Formal Location (At / In, Official Register) | at, regarding, in |
@@ -496,7 +497,7 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n2-118 | N2 | ～により (〜ni yori) | ✅ done | Through (Via / Over A Range) | through, due to, by |
 | n2-119 | N2 | ～にわたって (〜ni watatte) | ✅ done | Through (Via / Over A Range) | over |
 | n2-120 | N2 | ～に先立ち (〜ni sakidachi) | ✅ done | Before (Prior To) | before |
-| n2-121 | N2 | ～に反して (〜ni hanshite) | — |  |  |
+| n2-121 | N2 | ～に反して (〜ni hanshite) | ✅ done | Concession (Even Though / Although / Despite) |  |
 | n2-122 | N2 | ～に基づいて (〜ni motozuite) | ✅ done | Based On (In Accordance With) |  |
 | n2-123 | N2 | ～に対して (〜ni taishite) | ✅ done | Contrast (Toward / In Contrast To) | in contrast to, toward |
 | n2-124 | N2 | ～に応えて (〜ni kotaete) | — |  |  |
@@ -575,7 +576,7 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n3-006 | N3 | ～かなあ (〜kanaa) | ✅ done | I Wonder (Musing Uncertainty) | i wonder, maybe |
 | n3-007 | N3 | ～ないで (〜naide) | — |  |  |
 | n3-008 | N3 | ～から～にかけて (〜kara 〜ni kakete) | ✅ done | Time Range (From ... To) | from...to |
-| n3-009 | N3 | ～かわりに (〜kawari ni) | — |  |  |
+| n3-009 | N3 | ～かわりに (〜kawari ni) | ✅ done | Instead Of (In Place Of) |  |
 | n3-010 | N3 | ～きり (〜kiri) | ✅ done | Sequence (After / As A Result) | since, after, only |
 | n3-011 | N3 | ～くせに (〜kuse ni) | ✅ done | Concession (Even Though / Although / Despite) | even though, in spite of, despite |
 | n3-012 | N3 | ～くらい (〜kurai) | ✅ done | Approximation (About / Approximately) | about, approximately |
@@ -642,7 +643,7 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n3-073 | N3 | ～など (〜nado) | ✅ done | Listing (Such As / Etc.) | such as |
 | n3-074 | N3 | ～なんか (〜nanka) | — |  |  |
 | n3-075 | N3 | ～において (〜ni oite) | — |  |  |
-| n3-076 | N3 | ～にかわって (〜ni kawatte) | — |  |  |
+| n3-076 | N3 | ～にかわって (〜ni kawatte) | ✅ done | Instead Of (In Place Of) |  |
 | n3-077 | N3 | ～にしては (〜ni shite wa) | ✅ done | Considering (Judging From) | considering, for |
 | n3-078 | N3 | ～にしても (〜ni shitemo) | ✅ done | Even If (Hypothetical Concession) | regardless of, even if |
 | n3-079 | N3 | ～について (〜ni tsuite) | ✅ done | Regarding (Concerning) | regarding, concerning, about |
