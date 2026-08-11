@@ -4,6 +4,7 @@ import kuromoji from 'kuromoji';
 import type { GrammarExample, GrammarExampleWord, GrammarJlptIndex, GrammarPoint } from '../src/models/grammar.model';
 import type { SearchIndex } from '../src/models/index.model';
 import { locatePattern } from './grammar-pattern-matcher';
+import { SentenceTokenizer } from '../src/utils/tokenizer';
 
 /**
  * Compiles the vendored hanabira.org-japanese-content grammar snapshot
@@ -65,7 +66,7 @@ type FormalityMap = Record<string, FormalityEntry>;
 // construction itself, not a vocabulary item the user is being tested on).
 const CONTENT_POS = new Set(['名詞', '動詞', '形容詞', '副詞']);
 
-function buildVocabLookup(searchIndex: SearchIndex) {
+export function buildVocabLookup(searchIndex: SearchIndex) {
     const byWrittenForm = new Map<string, { id: string; r: string }>();
     const byReading = new Map<string, { id: string; r: string }>();
 
@@ -121,41 +122,183 @@ export function splitTitle(raw: string): { title: string; romaji?: string } {
     return { title: titlePart, romaji: romajiPart };
 }
 
-function tokenizeExample(
-    tokenizer: kuromoji.Tokenizer<kuromoji.IpadicFeatures>,
-    lookup: ReturnType<typeof buildVocabLookup>,
-    jp: string
-): GrammarExampleWord[] {
-    const tokens = tokenizer.tokenize(jp);
-    const words: GrammarExampleWord[] = [];
+/** kuromoji tokens annotated with their character-offset span in the original sentence. */
+interface SpannedToken {
+    token: kuromoji.IpadicFeatures;
+    start: number;
+    end: number;
+}
 
-    for (const token of tokens) {
-        let match: { id: string; r: string } | undefined;
+function spanTokens(tokens: kuromoji.IpadicFeatures[]): SpannedToken[] {
+    let offset = 0;
+    return tokens.map(token => {
+        const start = offset;
+        offset += token.surface_form.length;
+        return { token, start, end: offset };
+    });
+}
 
-        if (CONTENT_POS.has(token.pos)) {
-            match = lookup.byWrittenForm.get(token.surface_form) ?? lookup.byWrittenForm.get(token.basic_form);
+/** Builds a single per-kuromoji-token GrammarExampleWord, the fallback for text a sentence-match didn't cover. */
+function wordFromToken(token: kuromoji.IpadicFeatures, lookup: ReturnType<typeof buildVocabLookup>): GrammarExampleWord {
+    let match: { id: string; r: string } | undefined;
 
-            // Kana-only tokens (no kanji): also try a reading match, since they
-            // won't appear under a kanji written form in the search index.
-            if (!match && token.reading) {
-                const hiraganaReading = katakanaToHiragana(token.reading);
-                match = lookup.byReading.get(hiraganaReading);
-            }
+    if (CONTENT_POS.has(token.pos)) {
+        match = lookup.byWrittenForm.get(token.surface_form) ?? lookup.byWrittenForm.get(token.basic_form);
+
+        // Kana-only tokens (no kanji): also try a reading match, since they
+        // won't appear under a kanji written form in the search index.
+        if (!match && token.reading) {
+            match = lookup.byReading.get(katakanaToHiragana(token.reading));
         }
-
-        // kuromoji uses the literal string '*' as its "no base form" sentinel
-        // (particles, symbols); only keep baseForm when it's a real, different form.
-        const baseForm = token.basic_form && token.basic_form !== '*' && token.basic_form !== token.surface_form
-            ? token.basic_form
-            : undefined;
-
-        words.push(match
-            ? { surface: token.surface_form, vocabId: match.id, reading: match.r, baseForm }
-            : { surface: token.surface_form, vocabId: null, baseForm }
-        );
     }
 
-    return words;
+    // kuromoji uses the literal string '*' as its "no base form" sentinel
+    // (particles, symbols); only keep baseForm when it's a real, different form.
+    const baseForm = token.basic_form && token.basic_form !== '*' && token.basic_form !== token.surface_form
+        ? token.basic_form
+        : undefined;
+
+    return match
+        ? { surface: token.surface_form, vocabId: match.id, reading: match.r, baseForm }
+        : { surface: token.surface_form, vocabId: null, baseForm };
+}
+
+/**
+ * Tokenizes one example sentence and resolves each word against the compiled
+ * vocab dataset, reusing `gokan-dataset`'s own sentence-matching pipeline
+ * (`SentenceTokenizer`, the same one vocab's `compiled/sentences/*.json` is
+ * built with - see `build-data.ts`) instead of grammar's own earlier
+ * per-token-only lookup. That earlier approach only matched a token's bare
+ * surface/base form one at a time, missing multi-token compounds (顰蹙を買う)
+ * and conjugation-aware deinflection (かい→買う) the same way vocab sentences
+ * already handled - grammar's word-linking quality was needlessly worse than
+ * vocab's for no reason other than not sharing the pipeline. Reusing it here
+ * closes that gap and keeps the two activities' "click a word to see its
+ * vocab entry" experience consistent, per the project's "minimize duplicated
+ * UX/logic between quiz types" principle (mirrors `useQuizFocusManagement`
+ * and `SRSHistoryGraph` being shared rather than reimplemented per activity).
+ *
+ * `SentenceTokenizer.extractMatches` returns matches keyed by DICTIONARY term
+ * (not necessarily the literal surface text - a conjugated span like
+ * "くれました" is returned under the key "くれる"), with character-offset
+ * `start`/`length` spans into `jp` (possibly covering several kuromoji tokens
+ * at once, e.g. a compound or a verb + its trailing auxiliary chain). Matches
+ * are resolved to a vocabId via the SAME `lookup.byWrittenForm` grammar
+ * already builds from `compiled/index/search.json` - no new vocab index is
+ * needed. `GrammarExampleWord[]` still needs one entry per contiguous
+ * surface slice (not an offset map, unlike vocab's `Sentence.matches`) so
+ * `words[].map(w => w.surface).join('')` keeps reconstructing `jp` exactly
+ * and `grammar-pattern-matcher.ts`'s span-based matching keeps working
+ * unchanged - accepted sentence-matches become ONE merged word entry each
+ * (spanning what was previously several kuromoji tokens), and any text a
+ * match didn't cover falls back to the original per-kuromoji-token entries.
+ *
+ * A sentence-match is only accepted if at least one of the kuromoji tokens
+ * it spans has a content POS tag (`CONTENT_POS`) - preserves the existing
+ * "particles/symbols always stay literal, never a blank candidate" guarantee
+ * even though `SentenceTokenizer` itself has no POS awareness (it matches
+ * purely against the vocab surface-form set, which does include some
+ * particle/conjunction JMDict entries).
+ *
+ * One real tension worth documenting rather than silently accepting: this
+ * merging is actively BAD for `grammar-pattern-matcher.ts`'s pattern-marker
+ * discovery, which wants maximally FINE-grained tokens so its multi-token
+ * span search can find arbitrary `formation` substrings - a formation
+ * literal like "ずにはいられない" can no longer be found once those characters
+ * get swallowed into one large merged word (e.g. a verb match's trailing
+ * auxiliary-chain absorption; `SentenceTokenizer`'s own look-ahead extension
+ * for verb/adjective conjugations - see its doc comment). Measured directly:
+ * running `locatePattern` against the merged output regressed pattern
+ * coverage from 99.9%/98.1% to 98.9%/94.6% (8 more points losing their
+ * anchor). Fixed by NOT accepting that regression - `locatePattern` runs
+ * against a separate fine-grained, one-word-per-kuromoji-token array (same
+ * granularity as before this change), and the resulting indices are mapped
+ * onto the merged output afterward via `fineToMerged` (every original token
+ * index a merged word absorbed maps to that merged word's index). This
+ * keeps both properties: full pattern-location accuracy AND compound/
+ * conjugation-aware vocab linking, rather than trading one for the other.
+ */
+export function buildExampleWords(
+    tokenizer: kuromoji.Tokenizer<kuromoji.IpadicFeatures>,
+    sentenceTokenizer: SentenceTokenizer,
+    vocabSet: Set<string>,
+    lookup: ReturnType<typeof buildVocabLookup>,
+    jp: string,
+    formation: string
+): { words: GrammarExampleWord[]; patternWordIndices: number[] } {
+    const spanned = spanTokens(tokenizer.tokenize(jp));
+
+    // Fine-grained pass, purely to feed locatePattern - see doc comment.
+    const fineWords = spanned.map(st => wordFromToken(st.token, lookup));
+    const fineHit = locatePattern(formation, fineWords) ?? [];
+
+    const rawMatches = sentenceTokenizer.extractMatches(jp, vocabSet);
+    const candidates: { term: string; start: number; length: number; reading?: string }[] = [];
+    for (const [term, occurrences] of Object.entries(rawMatches)) {
+        for (const m of occurrences) candidates.push({ term, ...m });
+    }
+
+    // Keep only matches covering at least one content-POS token - see doc comment.
+    const eligible = candidates.filter(m => {
+        const end = m.start + m.length;
+        return spanned.some(st => st.start < end && st.end > m.start && CONTENT_POS.has(st.token.pos));
+    });
+
+    // Overlap resolution, mirroring build-data.ts's vocab sentence pipeline exactly:
+    // longest span wins, ties broken by longer literal term, then earliest first.
+    eligible.sort((a, b) => b.length - a.length || b.term.length - a.term.length);
+    const accepted: typeof eligible = [];
+    for (const m of eligible) {
+        const mEnd = m.start + m.length;
+        const overlaps = accepted.some(a => m.start < a.start + a.length && mEnd > a.start);
+        if (!overlaps) accepted.push(m);
+    }
+    accepted.sort((a, b) => a.start - b.start);
+
+    const words: GrammarExampleWord[] = [];
+    // Maps an original (fine-grained) token index to the index in `words[]` it
+    // ended up merged into - lets a fine-grained patternWordIndices hit be
+    // translated onto the merged output below.
+    const fineToMerged = new Map<number, number>();
+    let cursor = 0;
+
+    const emitGap = (from: number, to: number) => {
+        spanned.forEach((st, fineIndex) => {
+            if (st.start >= from && st.end <= to) {
+                fineToMerged.set(fineIndex, words.length);
+                words.push(wordFromToken(st.token, lookup));
+            }
+        });
+    };
+
+    for (const m of accepted) {
+        emitGap(cursor, m.start);
+
+        const surface = jp.slice(m.start, m.start + m.length);
+        const resolved = lookup.byWrittenForm.get(m.term);
+        // baseForm only when the matched dictionary term differs from the actual
+        // surface text (e.g. surface "くれました" matched under term "くれる") -
+        // a compound match's term already equals its surface, so no baseForm needed.
+        const baseForm = m.term !== surface ? m.term : undefined;
+
+        const mergedIndex = words.length;
+        spanned.forEach((st, fineIndex) => {
+            if (st.start >= m.start && st.end <= m.start + m.length) fineToMerged.set(fineIndex, mergedIndex);
+        });
+
+        words.push(resolved
+            ? { surface, vocabId: resolved.id, reading: m.reading ?? resolved.r, baseForm }
+            : { surface, vocabId: null, baseForm });
+
+        cursor = m.start + m.length;
+    }
+    emitGap(cursor, jp.length);
+
+    const patternWordIndices = Array.from(new Set(
+        fineHit.map(i => fineToMerged.get(i)).filter((i): i is number => i !== undefined)
+    )).sort((a, b) => a - b);
+
+    return { words, patternWordIndices };
 }
 
 async function main() {
@@ -167,6 +310,9 @@ async function main() {
 
     const searchIndex: SearchIndex = JSON.parse(fs.readFileSync(SEARCH_INDEX_PATH, 'utf-8'));
     const lookup = buildVocabLookup(searchIndex);
+    // Written forms only (matches build-data.ts's own vocabSet for its sentence
+    // pipeline) - SentenceTokenizer matches literal surface text, not readings.
+    const vocabSet = new Set(lookup.byWrittenForm.keys());
 
     // Optional - most points have no close synonym and simply won't appear in
     // this mapping. Points present get formalityLevel/usageNote/family merged
@@ -201,6 +347,7 @@ async function main() {
             else resolve(t);
         });
     });
+    const sentenceTokenizer = new SentenceTokenizer(tokenizer);
 
     const pointsDir = path.join(OUTPUT_DIR, 'points');
     fs.rmSync(OUTPUT_DIR, { recursive: true, force: true });
@@ -227,15 +374,14 @@ async function main() {
             let pointAnchored = false;
 
             const examples: GrammarExample[] = entry.examples.map(ex => {
-                const words = tokenizeExample(tokenizer, lookup, ex.jp);
+                const { words, patternWordIndices } = buildExampleWords(tokenizer, sentenceTokenizer, vocabSet, lookup, ex.jp, entry.formation);
                 totalWords += words.length;
                 matchedWords += words.filter(w => w.vocabId !== null).length;
 
                 totalExamples++;
-                const hit = locatePattern(entry.formation, words);
-                if (hit) { examplesAnchored++; pointAnchored = true; }
+                if (patternWordIndices.length > 0) { examplesAnchored++; pointAnchored = true; }
 
-                return { jp: ex.jp, romaji: ex.romaji, en: ex.en, words, patternWordIndices: hit ?? [] };
+                return { jp: ex.jp, romaji: ex.romaji, en: ex.en, words, patternWordIndices };
             });
 
             if (!pointAnchored) pointsWithNoAnchor.push(`${id}: ${entry.formation}`);
