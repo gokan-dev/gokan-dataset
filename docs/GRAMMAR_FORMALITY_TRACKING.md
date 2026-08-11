@@ -8,8 +8,8 @@ Working checklist for [gokan-dataset#3](https://github.com/gokan-dev/gokan-datas
 
 | Status | Count |
 |---|---|
-| done (has formalityLevel/usageNote) | 52 |
-| needs-triage (in a measured cluster, not yet done) | 274 |
+| done (has formalityLevel/usageNote) | 69 |
+| needs-triage (in a measured cluster, not yet done) | 257 |
 | no-cluster-found (not caught by this pass) | 502 |
 | **Total** | **828** |
 
@@ -26,6 +26,9 @@ Each family is authored once via `family: { id, name }` on its member points in 
 | **Concession (Even Though / Although / Despite)** (`concession`) | n4-097, n3-052, n3-060, n3-063, n2-013, n3-011, n3-125, n2-117, n1-215, n1-058 |
 | **Obligation (Must / Have to)** (`obligation`) | n4-104, n4-105, n4-103, n4-106, n4-108, n2-132 |
 | **Prohibition (Must Not / Should Not)** (`prohibition`) | n4-095, n2-154, n2-088, n2-145, n1-168 |
+| **Resemblance (Like / As If)** (`resemblance`) | n3-103, n4-117, n3-101, n2-049, n1-080 |
+| **Purpose (In Order To / So That)** (`purpose`) | n4-010, n4-026, n3-112, n3-114, n4-059, n1-170, n1-237 |
+| **Approximation (About / Approximately)** (`approximation`) | n5-027, n3-012, n5-026, n5-028, n5-086 |
 
 ## Reviewed clusters that turned out NOT to be genuine near-synonym families
 
@@ -128,7 +131,7 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n1-077 | N1 | Noun のいかんにかかわらず (Noun no ikan ni kakawarazu) | — |  |  |
 | n1-078 | N1 | Noun のいかんによっては (Noun no ikan ni yotte wa) | — |  |  |
 | n1-079 | N1 | Noun のいかんによらず (~ no ikan ni yorazu) | ⬜ needs-triage |  | regardless of |
-| n1-080 | N1 | Noun のごとき Noun (A no gotoki B) | ⬜ needs-triage |  | like, as if |
+| n1-080 | N1 | Noun のごとき Noun (A no gotoki B) | ✅ done | Resemblance (Like / As If) | like, as if |
 | n1-081 | N1 | Noun のことだから (〜no koto dakara) | — |  |  |
 | n1-082 | N1 | Noun の 嫌いがある (Noun no kirai ga aru) | — |  |  |
 | n1-083 | N1 | Noun の手前 (~no temae) | — |  |  |
@@ -218,7 +221,7 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n1-167 | N1 | Verbる にも Verb れない (Verb-ru ni mo Verb-re nai) | — |  |  |
 | n1-168 | N1 | Verbる べからざる Noun (Verb-ru bekara zaru Noun) | ✅ done | Prohibition (Must Not / Should Not) | must not, should not |
 | n1-169 | N1 | Verbる べからず (〜ru bekara zu) | — |  |  |
-| n1-170 | N1 | Verbる べく (Verb-ru beku) | ⬜ needs-triage |  | in order to |
+| n1-170 | N1 | Verbる べく (Verb-ru beku) | ✅ done | Purpose (In Order To / So That) | in order to |
 | n1-171 | N1 | Verbる べくもない (Verb-ru beku mo nai) | ⬜ needs-triage |  | or |
 | n1-172 | N1 | Verbる までもない (〜ru made mo nai) | — |  |  |
 | n1-173 | N1 | Verbる ものとする (〜ru mono to suru) | — |  |  |
@@ -285,7 +288,7 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n1-234 | N1 | ～までだ (～made da) | — |  |  |
 | n1-235 | N1 | ～もなんでもない (〜mo nandemonai) | — |  |  |
 | n1-236 | N1 | ～ものとして (～mono to shite) | ⬜ needs-triage |  | assuming |
-| n1-237 | N1 | ～んがために (〜n ga tame ni) | ⬜ needs-triage |  | in order to, for the sake of |
+| n1-237 | N1 | ～んがために (〜n ga tame ni) | ✅ done | Purpose (In Order To / So That) | in order to, for the sake of |
 | n1-238 | N1 | ～んばかりに (〜n bakari ni) | — |  |  |
 | n1-239 | N1 | ～差し支えない (〜sashitsukaenai) | — |  |  |
 | n1-240 | N1 | ～折に (〜ori ni) | ⬜ needs-triage |  | when, at the time of |
@@ -342,7 +345,7 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n2-046 | N2 | ～か～ないかのうちに (〜ka〜naika no uchi ni) | ⬜ needs-triage |  | as soon as, the moment |
 | n2-047 | N2 | ～かねない (〜kane nai) | — |  |  |
 | n2-048 | N2 | ～かねる (〜kaneru) | — |  |  |
-| n2-049 | N2 | ～かのようだ (〜ka no you da) | ⬜ needs-triage |  | like, as if |
+| n2-049 | N2 | ～かのようだ (〜ka no you da) | ✅ done | Resemblance (Like / As If) | like, as if |
 | n2-050 | N2 | ～か～まいか (〜ka 〜maika) | — |  |  |
 | n2-051 | N2 | ～からこそ (〜kara koso) | — |  |  |
 | n2-052 | N2 | 〜からして (〜kara shite) | — |  |  |
@@ -496,7 +499,7 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n3-009 | N3 | ～かわりに (〜kawari ni) | — |  |  |
 | n3-010 | N3 | ～きり (〜kiri) | ⬜ needs-triage |  | since, after, only |
 | n3-011 | N3 | ～くせに (〜kuse ni) | ✅ done | Concession (Even Though / Although / Despite) | even though, in spite of, despite |
-| n3-012 | N3 | ～くらい (〜kurai) | ⬜ needs-triage |  | about, approximately |
+| n3-012 | N3 | ～くらい (〜kurai) | ✅ done | Approximation (About / Approximately) | about, approximately |
 | n3-013 | N3 | ～くらい～は～ない (〜kurai 〜wa 〜nai) | ⬜ needs-triage |  | at least |
 | n3-014 | N3 | ～こそ (〜koso) | — |  |  |
 | n3-015 | N3 | ～こと (〜koto) | — |  |  |
@@ -585,9 +588,9 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n3-098 | N3 | まったく～ない (mattaku ~nai) | — |  |  |
 | n3-099 | N3 | ～まで (〜made) | ⬜ needs-triage |  | until |
 | n3-100 | N3 | ～まま (〜mama) | — |  |  |
-| n3-101 | N3 | まるで～よう (maru de ~ you) | ⬜ needs-triage |  | as if |
+| n3-101 | N3 | まるで～よう (maru de ~ you) | ✅ done | Resemblance (Like / As If) | as if |
 | n3-102 | N3 | ～てみる (〜te miru) | — |  |  |
-| n3-103 | N3 | ～みたいだ (〜mitai da) | ⬜ needs-triage |  | like |
+| n3-103 | N3 | ～みたいだ (〜mitai da) | ✅ done | Resemblance (Like / As If) | like |
 | n3-104 | N3 | ～めったに～ない (〜metta ni 〜nai) | — |  |  |
 | n3-105 | N3 | ～めったにない (〜metta ni nai) | — |  |  |
 | n3-106 | N3 | もしかすると〜かもしれない (moshikasuru to 〜kamoshirenai) | ⬜ needs-triage |  | maybe |
@@ -596,9 +599,9 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n3-109 | N3 | もしも～なら (moshimo ~ nara) | ⬜ needs-triage |  | if, suppose |
 | n3-110 | N3 | ～ようとしない (〜you to shinai) | — |  |  |
 | n3-111 | N3 | ～ようと思う (〜you to omou) | — |  |  |
-| n3-112 | N3 | ～ように (〜you ni) | ⬜ needs-triage |  | like, as, in order to |
+| n3-112 | N3 | ～ように (〜you ni) | ✅ done | Purpose (In Order To / So That) | like, as, in order to |
 | n3-113 | N3 | ～ように (〜you ni) | — |  |  |
-| n3-114 | N3 | ～ように (〜you ni) | ⬜ needs-triage |  | like, as if, in order to |
+| n3-114 | N3 | ～ように (〜you ni) | ✅ done | Purpose (In Order To / So That) | like, as if, in order to |
 | n3-115 | N3 | ～ようにしましょう (〜you ni shimashou) | — |  |  |
 | n3-116 | N3 | ～ようになった (〜you ni natta) | — |  |  |
 | n3-117 | N3 | ～ように言う (〜you ni iu) | — |  |  |
@@ -626,7 +629,7 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n4-007 | N4 | Noun しか～ない (Noun shika~nai) | ⬜ needs-triage |  | nothing but, only |
 | n4-008 | N4 | Noun に する (Noun ni suru) | — |  |  |
 | n4-009 | N4 | Noun に なる (Noun ni naru) | — |  |  |
-| n4-010 | N4 | のために (no tame ni) | ⬜ needs-triage |  | in order to, for the sake of, for |
+| n4-010 | N4 | のために (no tame ni) | ✅ done | Purpose (In Order To / So That) | in order to, for the sake of, for |
 | n4-011 | N4 | Noun の 間に (〜no aida ni) | ⬜ needs-triage |  | while, during |
 | n4-012 | N4 | Noun ばかり (〜bakari) | ⬜ needs-triage |  | nothing but, just, only, always |
 | n4-013 | N4 | Noun を あげる (Noun wo ageru) | — |  |  |
@@ -642,7 +645,7 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n4-023 | N4 | Verb た ときに (Verb た ときに) | ⬜ needs-triage |  | when, at the time |
 | n4-024 | N4 | Verb た ところ (Verb ta tokoro) | — |  |  |
 | n4-025 | N4 | Verb たほうがいい (〜ta hou ga ii) | — |  |  |
-| n4-026 | N4 | Verb ために (tame ni) | ⬜ needs-triage |  | in order to, because of, for the sake of |
+| n4-026 | N4 | Verb ために (tame ni) | ✅ done | Purpose (In Order To / So That) | in order to, because of, for the sake of |
 | n4-027 | N4 | Verb つもり (〜tsumori) | ⬜ needs-triage |  | i |
 | n4-028 | N4 | Verb てあげる (Verb te ageru) | — |  |  |
 | n4-029 | N4 | Verb て ある (Verb-te aru) | — |  |  |
@@ -675,7 +678,7 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n4-056 | N4 | Verb にくい (〜nikui) | — |  |  |
 | n4-057 | N4 | Verb やすい (〜yasui) | — |  |  |
 | n4-058 | N4 | Verb ようと思う (Verb-you to omou) | — |  |  |
-| n4-059 | N4 | Verb ように (〜you ni) | ⬜ needs-triage |  | like, as if, in order to |
+| n4-059 | N4 | Verb ように (〜you ni) | ✅ done | Purpose (In Order To / So That) | like, as if, in order to |
 | n4-060 | N4 | Verb ようにする (Verb ~you ni suru) | — |  |  |
 | n4-061 | N4 | Verb ようになる (〜you ni naru) | — |  |  |
 | n4-062 | N4 | Verb ように言う (Verb-you ni iu) | — |  |  |
@@ -733,7 +736,7 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n4-114 | N4 | ～まで (〜made) | ⬜ needs-triage |  | even, until |
 | n4-115 | N4 | ～までに (〜made ni) | ⬜ needs-triage |  | before, by |
 | n4-116 | N4 | ～まま (〜mama) | ⬜ needs-triage |  | while |
-| n4-117 | N4 | ～みたいだ (〜mitai da) | ⬜ needs-triage |  | like, it seems |
+| n4-117 | N4 | ～みたいだ (〜mitai da) | ✅ done | Resemblance (Like / As If) | like, it seems |
 | n4-118 | N4 | ～も (〜mo) | ⬜ needs-triage |  | also |
 | n4-119 | N4 | ～ようだ (〜you da) | ⬜ needs-triage |  | it seems |
 | n4-120 | N4 | ～んです (〜n desu) | ⬜ needs-triage |  | the reason is |
@@ -766,9 +769,9 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n5-023 | N5 | Noun が できます (Noun ga dekimasu) | — |  |  |
 | n5-024 | N5 | Noun がほしいです (〜ga hoshii desu) | — |  |  |
 | n5-025 | N5 | Noun から Noun まで (Noun kara Noun made) | ⬜ needs-triage |  | from...to |
-| n5-026 | N5 | Noun くらい～ (Noun kurai～) | ⬜ needs-triage |  | at least, about, approximately |
-| n5-027 | N5 | Noun ぐらい～ (Noun gurai～) | ⬜ needs-triage |  | about, approximately |
-| n5-028 | N5 | Noun ごろ～ (Noun + goro～) | ⬜ needs-triage |  | about |
+| n5-026 | N5 | Noun くらい～ (Noun kurai～) | ✅ done | Approximation (About / Approximately) | at least, about, approximately |
+| n5-027 | N5 | Noun ぐらい～ (Noun gurai～) | ✅ done | Approximation (About / Approximately) | about, approximately |
+| n5-028 | N5 | Noun ごろ～ (Noun + goro～) | ✅ done | Approximation (About / Approximately) | about |
 | n5-029 | N5 | Noun だけ〜 (〜dake) | ⬜ needs-triage |  | just, only |
 | n5-030 | N5 | Nounで～ (Noun de ~) | — |  |  |
 | n5-031 | N5 | Noun と～ (Noun to～) | ⬜ needs-triage |  | together with, with, and |
@@ -826,7 +829,7 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n5-083 | N5 | そして、～ (soshite、～) | ⬜ needs-triage |  | and then, and |
 | n5-084 | N5 | そちら～ (sochira～) | — |  |  |
 | n5-085 | N5 | それから、～ (sorekara、～) | ⬜ needs-triage |  | then, and then |
-| n5-086 | N5 | だいたい〜 (daitai〜) | ⬜ needs-triage |  | approximately, almost |
+| n5-086 | N5 | だいたい〜 (daitai〜) | ✅ done | Approximation (About / Approximately) | approximately, almost |
 | n5-087 | N5 | たいてい～ (taitei～) | — |  |  |
 | n5-088 | N5 | だから、～ (dakara、～) | ✅ done | Causality (Because / Since / Due to) | because, so, therefore |
 | n5-089 | N5 | ～たり、～たり します (〜tari, 〜tari shimasu) | ⬜ needs-triage |  | and |
