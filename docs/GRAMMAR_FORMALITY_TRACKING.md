@@ -8,8 +8,8 @@ Working checklist for [gokan-dataset#3](https://github.com/gokan-dev/gokan-datas
 
 | Status | Count |
 |---|---|
-| done (has formalityLevel/usageNote) | 69 |
-| needs-triage (in a measured cluster, not yet done) | 257 |
+| done (has formalityLevel/usageNote) | 77 |
+| needs-triage (in a measured cluster, not yet done) | 249 |
 | no-cluster-found (not caught by this pass) | 502 |
 | **Total** | **828** |
 
@@ -29,6 +29,7 @@ Each family is authored once via `family: { id, name }` on its member points in 
 | **Resemblance (Like / As If)** (`resemblance`) | n3-103, n4-117, n3-101, n2-049, n1-080 |
 | **Purpose (In Order To / So That)** (`purpose`) | n4-010, n4-026, n3-112, n3-114, n4-059, n1-170, n1-237 |
 | **Approximation (About / Approximately)** (`approximation`) | n5-027, n3-012, n5-026, n5-028, n5-086 |
+| **Exclusivity (Only / Nothing But)** (`exclusivity`) | n5-029, n4-007, n3-032, n3-087, n4-012, n2-128, n2-130, n2-116 |
 
 ## Reviewed clusters that turned out NOT to be genuine near-synonym families
 
@@ -412,7 +413,7 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n2-113 | N2 | ～につけ～につけ (〜ni tsuke 〜ni tsuke) | ⬜ needs-triage |  | whenever |
 | n2-114 | N2 | ～につれて (〜ni tsurete) | ⬜ needs-triage |  | while, along with, as |
 | n2-115 | N2 | ～にともなって (〜ni tomonatte) | ⬜ needs-triage |  | along with, as a result of |
-| n2-116 | N2 | ～にほかならない (〜ni hoka naranai) | ⬜ needs-triage |  | nothing but |
+| n2-116 | N2 | ～にほかならない (〜ni hoka naranai) | ✅ done | Exclusivity (Only / Nothing But) | nothing but |
 | n2-117 | N2 | ～にもかかわらず (〜ni mo kakawarazu) | ✅ done | Concession (Even Though / Although / Despite) | even though, in spite of, despite |
 | n2-118 | N2 | ～により (〜ni yori) | ⬜ needs-triage |  | through, due to, by |
 | n2-119 | N2 | ～にわたって (〜ni watatte) | ⬜ needs-triage |  | over |
@@ -424,9 +425,9 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n2-125 | N2 | ～に応じて (〜ni oujite) | — |  |  |
 | n2-126 | N2 | ～に決まっている (〜ni kimatte iru) | — |  |  |
 | n2-127 | N2 | ～に沿って (〜ni sotte) | — |  |  |
-| n2-128 | N2 | ～に過ぎない (〜ni suginai) | ⬜ needs-triage |  | just, only |
+| n2-128 | N2 | ～に過ぎない (〜ni suginai) | ✅ done | Exclusivity (Only / Nothing But) | just, only |
 | n2-129 | N2 | ～に関わって (〜ni kakawatte) | ⬜ needs-triage |  | regarding, concerning |
-| n2-130 | N2 | ～に限り (〜ni kagiri) | ⬜ needs-triage |  | only |
+| n2-130 | N2 | ～に限り (〜ni kagiri) | ✅ done | Exclusivity (Only / Nothing But) | only |
 | n2-131 | N2 | ～に際して (〜ni saishite) | ⬜ needs-triage |  | when, at the time of, upon |
 | n2-132 | N2 | ～ねばならない (〜neba naranai) | ✅ done | Obligation (Must / Have to) | have to, must, need to |
 | n2-133 | N2 | ～のみならず～も (〜nomi narazu 〜mo) | — |  |  |
@@ -519,7 +520,7 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n3-029 | N3 | ～その結果 (〜sono kekka) | — |  |  |
 | n3-030 | N3 | ～それと～ (〜sore to〜) | ⬜ needs-triage |  | also, and |
 | n3-031 | N3 | ～？それとも～？ (～? sore tomo ～?) | ⬜ needs-triage |  | or |
-| n3-032 | N3 | ～だけしか (～dake shika) | ⬜ needs-triage |  | nothing but, only |
+| n3-032 | N3 | ～だけしか (～dake shika) | ✅ done | Exclusivity (Only / Nothing But) | nothing but, only |
 | n3-033 | N3 | だけど (dakedo) | ✅ done | Contradiction (But / However) | even though, but, however |
 | n3-034 | N3 | ～たて (～tate) | ⬜ needs-triage |  | just |
 | n3-035 | N3 | ～たとえ～ても (〜tatoe〜temo) | ⬜ needs-triage |  | even if |
@@ -574,7 +575,7 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n3-084 | N3 | ～に比べて (〜ni kurabete) | — |  |  |
 | n3-085 | N3 | ～に関して (〜ni kanshite) | — |  |  |
 | n3-086 | N3 | ～の～ (〜no 〜) | — |  |  |
-| n3-087 | N3 | ～ばかり (〜bakari) | ⬜ needs-triage |  | nothing but, just, only, always |
+| n3-087 | N3 | ～ばかり (〜bakari) | ✅ done | Exclusivity (Only / Nothing But) | nothing but, just, only, always |
 | n3-088 | N3 | ～ばかりか (〜bakarika) ～も (mo) | — |  |  |
 | n3-089 | N3 | ～はずだ (〜hazu da) | ⬜ needs-triage |  | should |
 | n3-090 | N3 | ～ば～のに (〜ba 〜noni) | ⬜ needs-triage |  | if only |
@@ -626,12 +627,12 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n4-004 | N4 | A より B のほうが〜 (A yori B no hou ga 〜) | — |  |  |
 | n4-005 | N4 | い-Adjective く する/なる (i-Adjective kusuru/naru) | — |  |  |
 | n4-006 | N4 | な-adjective に する/なる | ⬜ needs-triage |  | to become |
-| n4-007 | N4 | Noun しか～ない (Noun shika~nai) | ⬜ needs-triage |  | nothing but, only |
+| n4-007 | N4 | Noun しか～ない (Noun shika~nai) | ✅ done | Exclusivity (Only / Nothing But) | nothing but, only |
 | n4-008 | N4 | Noun に する (Noun ni suru) | — |  |  |
 | n4-009 | N4 | Noun に なる (Noun ni naru) | — |  |  |
 | n4-010 | N4 | のために (no tame ni) | ✅ done | Purpose (In Order To / So That) | in order to, for the sake of, for |
 | n4-011 | N4 | Noun の 間に (〜no aida ni) | ⬜ needs-triage |  | while, during |
-| n4-012 | N4 | Noun ばかり (〜bakari) | ⬜ needs-triage |  | nothing but, just, only, always |
+| n4-012 | N4 | Noun ばかり (〜bakari) | ✅ done | Exclusivity (Only / Nothing But) | nothing but, just, only, always |
 | n4-013 | N4 | Noun を あげる (Noun wo ageru) | — |  |  |
 | n4-014 | N4 | Nounをいただく (Noun wo itadaku) | ⬜ needs-triage |  | to receive, to get |
 | n4-015 | N4 | Nounをくださる | — |  |  |
@@ -772,7 +773,7 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n5-026 | N5 | Noun くらい～ (Noun kurai～) | ✅ done | Approximation (About / Approximately) | at least, about, approximately |
 | n5-027 | N5 | Noun ぐらい～ (Noun gurai～) | ✅ done | Approximation (About / Approximately) | about, approximately |
 | n5-028 | N5 | Noun ごろ～ (Noun + goro～) | ✅ done | Approximation (About / Approximately) | about |
-| n5-029 | N5 | Noun だけ〜 (〜dake) | ⬜ needs-triage |  | just, only |
+| n5-029 | N5 | Noun だけ〜 (〜dake) | ✅ done | Exclusivity (Only / Nothing But) | just, only |
 | n5-030 | N5 | Nounで～ (Noun de ~) | — |  |  |
 | n5-031 | N5 | Noun と～ (Noun to～) | ⬜ needs-triage |  | together with, with, and |
 | n5-032 | N5 | Noun に～ (Noun ni～) | ⬜ needs-triage |  | toward, to, for |
