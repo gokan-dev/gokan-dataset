@@ -44,11 +44,19 @@ interface RawGrammarEntry {
     examples: Array<{ jp: string; romaji: string; en: string }>;
 }
 
-/** One entry of the hand-authored, reviewable formality.json mapping - see docs/SCHEMA.md and the grammar-formality issue. */
+/**
+ * One entry of the hand-authored, reviewable formality.json mapping - see
+ * docs/SCHEMA.md and the grammar-formality issue. `family` names the
+ * near-synonym family this point belongs to (a stable slug + display name);
+ * `relatedPoints` on the compiled GrammarPoint is DERIVED at build time from
+ * every other entry sharing the same `family.id`, not hand-maintained per
+ * point - a point only needs to know its own family, not enumerate every
+ * sibling (which doesn't scale and drifts out of sync as siblings are added).
+ */
 interface FormalityEntry {
     formalityLevel?: GrammarPoint['formalityLevel'];
     usageNote?: string;
-    relatedPoints?: string[];
+    family?: { id: string; name: string };
 }
 type FormalityMap = Record<string, FormalityEntry>;
 
@@ -121,11 +129,31 @@ async function main() {
     const lookup = buildVocabLookup(searchIndex);
 
     // Optional - most points have no close synonym and simply won't appear in
-    // this mapping. Points present get formalityLevel/usageNote/relatedPoints
-    // merged into their output; absent points build exactly as before.
+    // this mapping. Points present get formalityLevel/usageNote/family merged
+    // into their output; absent points build exactly as before.
     const formalityMap: FormalityMap = fs.existsSync(FORMALITY_PATH)
         ? JSON.parse(fs.readFileSync(FORMALITY_PATH, 'utf-8'))
         : {};
+
+    // Group by family.id so `relatedPoints` can be derived rather than hand-
+    // maintained, and so families.json can be emitted. Also catches a real
+    // authoring mistake: the same family.id used with two different names.
+    const familyMembers = new Map<string, { name: string; ids: string[] }>();
+    for (const [id, entry] of Object.entries(formalityMap)) {
+        if (!entry.family) continue;
+        const existing = familyMembers.get(entry.family.id);
+        if (existing) {
+            if (existing.name !== entry.family.name) {
+                throw new Error(
+                    `formality.json: family id "${entry.family.id}" used with two different names ` +
+                    `("${existing.name}" vs "${entry.family.name}" on ${id}) - pick one.`
+                );
+            }
+            existing.ids.push(id);
+        } else {
+            familyMembers.set(entry.family.id, { name: entry.family.name, ids: [id] });
+        }
+    }
 
     const tokenizer = await new Promise<kuromoji.Tokenizer<kuromoji.IpadicFeatures>>((resolve, reject) => {
         kuromoji.builder({ dicPath: 'node_modules/kuromoji/dict' }).build((err, t) => {
@@ -175,6 +203,14 @@ async function main() {
             const formality = formalityMap[id];
             if (formality) pointsWithFormality++;
 
+            const family = formality?.family
+                ? {
+                    id: formality.family.id,
+                    name: formality.family.name,
+                    relatedPoints: (familyMembers.get(formality.family.id)?.ids ?? []).filter(memberId => memberId !== id),
+                }
+                : undefined;
+
             const point: GrammarPoint = {
                 id,
                 title: entry.title,
@@ -185,7 +221,7 @@ async function main() {
                 examples,
                 ...(formality?.formalityLevel ? { formalityLevel: formality.formalityLevel } : {}),
                 ...(formality?.usageNote ? { usageNote: formality.usageNote } : {}),
-                ...(formality?.relatedPoints ? { relatedPoints: formality.relatedPoints } : {}),
+                ...(family ? { family } : {}),
             };
 
             fs.writeFileSync(path.join(pointsDir, `${id}.json`), JSON.stringify(point));
@@ -199,11 +235,18 @@ async function main() {
     fs.mkdirSync(path.join(OUTPUT_DIR, 'index'), { recursive: true });
     fs.writeFileSync(path.join(OUTPUT_DIR, 'index', 'jlpt.json'), JSON.stringify(index));
 
+    const familiesIndex: Record<string, { name: string; memberIds: string[] }> = {};
+    for (const [familyId, { name, ids }] of familyMembers) {
+        familiesIndex[familyId] = { name, memberIds: ids };
+    }
+    fs.writeFileSync(path.join(OUTPUT_DIR, 'index', 'families.json'), JSON.stringify(familiesIndex));
+
     console.log(`✅ Grammar dataset written to ${OUTPUT_DIR}`);
     console.log(`   - Grammar points: ${totalPoints}`);
     console.log(`   - Words tokenized: ${totalWords} (${matchedWords} resolved to a vocab id, ${(100 * matchedWords / totalWords).toFixed(1)}%)`);
     console.log(`   - Pattern located: ${totalPoints - pointsWithNoAnchor.length}/${totalPoints} points (${(100 * (totalPoints - pointsWithNoAnchor.length) / totalPoints).toFixed(1)}%), ${examplesAnchored}/${totalExamples} examples (${(100 * examplesAnchored / totalExamples).toFixed(1)}%)`);
     console.log(`   - Formality metadata: ${pointsWithFormality}/${totalPoints} points (from ${FORMALITY_PATH})`);
+    console.log(`   - Families: ${familyMembers.size} (${[...familyMembers.values()].reduce((n, f) => n + f.ids.length, 0)} points total)`);
 
     const staleFormalityIds = Object.keys(formalityMap).filter(id => !seenIds.has(id));
     if (staleFormalityIds.length > 0) {

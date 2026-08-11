@@ -75,12 +75,27 @@ export interface GrammarPoint {
      */
     usageNote?: string;
     /**
-     * Ids of other GrammarPoints expressing the same core idea at a different
-     * formality/nuance (symmetric - if A lists B, B should list A). Not a strict
-     * "identical meaning" claim, just "a learner asking how to say X would be
-     * shown these together".
+     * The near-synonym family this point belongs to, if any (most points don't
+     * have one - a plain construction with no close synonym leaves this unset).
+     * Replaces a flat, unlabeled `relatedPoints: string[]` (issue feedback: a bare
+     * list of linked ids gave the app nothing to call the relationship by - "but"
+     * and "because" were both just "related points"). `id`/`name` are the same for
+     * every member of a family (symmetric), sourced from the same hand-authored
+     * `data/raw/grammar/formality.json` mapping as formalityLevel/usageNote - see
+     * docs/SCHEMA.md. Not a strict "identical meaning" claim, just "a learner
+     * asking how to say X would be shown these together". Also emitted as
+     * `compiled/grammar/index/families.json` (familyId -> {name, memberIds}) for
+     * any future family-browsing view, so a consumer isn't forced to scan every
+     * point file to answer "what's in the Contradiction family".
      */
-    relatedPoints?: string[];
+    family?: {
+        /** Stable slug, e.g. "contradiction" - shared by every member of this family. */
+        id: string;
+        /** Display name, e.g. "Contradiction (But / However)". */
+        name: string;
+        /** Ids of the OTHER points in this family (excludes this point's own id). */
+        relatedPoints: string[];
+    };
 }
 
 /** JLPT level (1..5) -> grammar point ids, in the source's original order (alphabetical - grammar has no frequency data to sort by, unlike vocab). */

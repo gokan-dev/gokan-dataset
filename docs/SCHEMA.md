@@ -101,7 +101,7 @@ interface Kanji {
 
 Sourced from [hanabira.org-japanese-content](https://github.com/tristcoil/hanabira.org-japanese-content) (`data/raw/grammar/*.json`, CC license, attribution required). Built by `scripts/build-grammar.ts` (`bun run build:grammar`), which needs `compiled/index/search.json` to already exist (run `build:data` first).
 
-`formalityLevel`/`usageNote`/`relatedPoints` are sourced separately from `data/raw/grammar/formality.json`, a hand-authored, reviewable mapping (`{ [pointId]: { formalityLevel?, usageNote?, relatedPoints? } }`) merged in at build time rather than computed - most points have no close synonym and simply aren't present in it. Written in original wording; specific formality/nuance claims are checked against freely-accessible references (cited in the authoring commit/PR, not embedded in the data) rather than copied from any single copyrighted source. A point id in the mapping that doesn't match any built point logs a build-time warning rather than silently doing nothing.
+`formalityLevel`/`usageNote`/`family` are sourced separately from `data/raw/grammar/formality.json`, a hand-authored, reviewable mapping (`{ [pointId]: { formalityLevel?, usageNote?, family?: { id, name } } }`) merged in at build time rather than computed - most points have no close synonym and simply aren't present in it. A point only declares its own `family.id`/`family.name`; `family.relatedPoints` on the compiled output is DERIVED by grouping every mapping entry that shares the same `family.id` (a build error if the same id is used with two different names - a real authoring mistake, not something to silently accept). Also emitted as `compiled/grammar/index/families.json` (`Record<familyId, { name, memberIds }>`), mirroring `index/jlpt.json`'s shape, so a consumer can list every family without scanning all 828 point files. Written in original wording; specific formality/nuance claims are checked against freely-accessible references (cited in the authoring commit/PR, not embedded in the data) rather than copied from any single copyrighted source. A point id in the mapping that doesn't match any built point logs a build-time warning rather than silently doing nothing.
 
 ```ts
 interface GrammarPoint {
@@ -114,7 +114,11 @@ interface GrammarPoint {
   examples: GrammarExample[];
   formalityLevel?: 'casual' | 'neutral' | 'polite' | 'formal' | 'very-formal-literary'; // register, for points that have one - most don't
   usageNote?: string;      // short, quiz-card-length line covering whatever actually disambiguates this point from its near-synonyms (usually register, sometimes connotation/nuance instead)
-  relatedPoints?: string[]; // ids of other points expressing the same core idea at a different formality/nuance (symmetric)
+  family?: {                // the named near-synonym family this point belongs to, if any
+    id: string;              // stable slug, e.g. "contradiction" - shared by every member
+    name: string;             // display name, e.g. "Contradiction (But / However)"
+    relatedPoints: string[]; // ids of the OTHER points in this family (derived at build time from every entry sharing this family.id, not hand-maintained)
+  };
 }
 
 interface GrammarExample {
@@ -137,6 +141,12 @@ interface GrammarExampleWord {
 
 ```ts
 type GrammarJlptIndex = Record<number, string[]>; // level (1..5) -> grammar point ids, in the source's original (alphabetical) order - grammar has no frequency data to sort by
+```
+
+## `compiled/grammar/index/families.json` — named near-synonym families
+
+```ts
+type GrammarFamilyIndex = Record<string, { name: string; memberIds: string[] }>; // familyId -> display name + every member point id
 ```
 
 ## `compiled/index/*.json` — lookup indexes
