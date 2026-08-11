@@ -8,8 +8,8 @@ Working checklist for [gokan-dataset#3](https://github.com/gokan-dev/gokan-datas
 
 | Status | Count |
 |---|---|
-| done (has formalityLevel/usageNote) | 189 |
-| needs-triage (in a measured cluster, not yet done) | 137 |
+| done (has formalityLevel/usageNote) | 205 |
+| needs-triage (in a measured cluster, not yet done) | 121 |
 | no-cluster-found (not caught by this pass) | 502 |
 | **Total** | **828** |
 
@@ -57,6 +57,11 @@ Each family is authored once via `family: { id, name }` on its member points in 
 | **I Wonder (Musing Uncertainty)** (`i-wonder`) | n3-006, n4-076, n4-074 |
 | **Perspective (From The Standpoint Of)** (`perspective`) | n2-057, n2-058, n2-111, n3-080, n2-135 |
 | **Not Only Limited To (Far From)** (`not-only-limited`) | n2-096, n1-069, n1-070 |
+| **Negation Intensity (Not At All)** (`negation-intensity`) | n5-082, n3-024, n3-132 |
+| **Sequence (And Then)** (`sequence-then`) | n5-085, n2-011, n5-083, n5-006 |
+| **Contrast (Toward / In Contrast To)** (`contrast-toward`) | n2-123, n3-083, n1-062 |
+| **Nowhere (Not Anywhere)** (`nowhere`) | n5-105, n5-109, n5-108 |
+| **Temporal When (Verb Tense Variants)** (`temporal-when`) | n5-099, n4-023, n4-068 |
 
 ## Reviewed clusters that turned out NOT to be genuine near-synonym families
 
@@ -141,7 +146,7 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n1-059 | N1 | Noun にして初めて (Noun nishite hajimete) | — |  |  |
 | n1-060 | N1 | Noun にすら (〜ni sura) | ✅ done | Emphasis (Even) | even |
 | n1-061 | N1 | Noun にとどまらず～も (~ ni todomarazu ~ mo) | — |  |  |
-| n1-062 | N1 | Noun にひきかえ Noun は (~ni hikikae ~ wa) | ⬜ needs-triage |  | in contrast to |
+| n1-062 | N1 | Noun にひきかえ Noun は (~ni hikikae ~ wa) | ✅ done | Contrast (Toward / In Contrast To) | in contrast to |
 | n1-063 | N1 | Noun にもまして (〜ni mo mashite) | — |  |  |
 | n1-064 | N1 | Noun によらず (～ni yorazu) | — |  |  |
 | n1-065 | N1 | Noun に先駆けて (〜ni saki gakete) | ✅ done | Before (Prior To) | before |
@@ -335,7 +340,7 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n2-008 | N2 | A。そういえば B。(~souieba) | ✅ done | Topic Shift (By The Way) | by the way |
 | n2-009 | N2 | A。そこで B。(~sokode) | ⬜ needs-triage |  | therefore |
 | n2-010 | N2 | A。それがB。(~sorega) | ⬜ needs-triage |  | that |
-| n2-011 | N2 | A。それで B。 (~sore de) | ⬜ needs-triage |  | so, and then |
+| n2-011 | N2 | A。それで B。 (~sore de) | ✅ done | Sequence (And Then) | so, and then |
 | n2-012 | N2 | A。それでも B。(~sore demo) | ✅ done | Contradiction (But / However) | but |
 | n2-013 | N2 | A。それなのに B。(~sorenanoni) | ✅ done | Concession (Even Though / Although / Despite) | even though, despite |
 | n2-014 | N2 | A。それなら B。(A. Sore nara B.) | — |  |  |
@@ -447,7 +452,7 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n2-120 | N2 | ～に先立ち (〜ni sakidachi) | ✅ done | Before (Prior To) | before |
 | n2-121 | N2 | ～に反して (〜ni hanshite) | — |  |  |
 | n2-122 | N2 | ～に基づいて (〜ni motozuite) | — |  |  |
-| n2-123 | N2 | ～に対して (〜ni taishite) | ⬜ needs-triage |  | in contrast to, toward |
+| n2-123 | N2 | ～に対して (〜ni taishite) | ✅ done | Contrast (Toward / In Contrast To) | in contrast to, toward |
 | n2-124 | N2 | ～に応えて (〜ni kotaete) | — |  |  |
 | n2-125 | N2 | ～に応じて (〜ni oujite) | — |  |  |
 | n2-126 | N2 | ～に決まっている (〜ni kimatte iru) | — |  |  |
@@ -539,7 +544,7 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n3-021 | N3 | ～さ (〜sa) | — |  |  |
 | n3-022 | N3 | ～さえ (～sae) | ✅ done | Emphasis (Even) | even, as long as, if only |
 | n3-023 | N3 | ～しかない (〜shika nai) | ⬜ needs-triage |  | only |
-| n3-024 | N3 | すこしも〜ない (sukoshimo~nai) | ⬜ needs-triage |  | not at all |
+| n3-024 | N3 | すこしも〜ない (sukoshimo~nai) | ✅ done | Negation Intensity (Not At All) | not at all |
 | n3-025 | N3 | ～ずに (〜zu ni) | — |  |  |
 | n3-026 | N3 | ～せいで (〜sei de) | — |  |  |
 | n3-027 | N3 | ～せてください (〜sete kudasai) | — |  |  |
@@ -598,7 +603,7 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n3-080 | N3 | ～にとって (〜ni totte) | ✅ done | Perspective (From The Standpoint Of) | from the perspective of, to, for |
 | n3-081 | N3 | ～によって (〜ni yotte) | — |  |  |
 | n3-082 | N3 | ～によれば (〜ni yoreba) | ✅ done | Based On (In Accordance With) | based on, according to, by |
-| n3-083 | N3 | ～に対して (～ni taishite) | ⬜ needs-triage |  | in contrast to, toward |
+| n3-083 | N3 | ～に対して (～ni taishite) | ✅ done | Contrast (Toward / In Contrast To) | in contrast to, toward |
 | n3-084 | N3 | ～に比べて (〜ni kurabete) | — |  |  |
 | n3-085 | N3 | ～に関して (〜ni kanshite) | — |  |  |
 | n3-086 | N3 | ～の～ (〜no 〜) | — |  |  |
@@ -647,7 +652,7 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n3-129 | N3 | ～切れない (～kirenai) | — |  |  |
 | n3-130 | N3 | 必ずしも～とは限らない (kanarazushimo ～ towa kagiranai) | — |  |  |
 | n3-131 | N3 | ～最中に (～saichuu ni) | — |  |  |
-| n3-132 | N3 | 決して～ない (kesshite ~ nai) | ⬜ needs-triage |  | not at all |
+| n3-132 | N3 | 決して～ない (kesshite ~ nai) | ✅ done | Negation Intensity (Not At All) | not at all |
 | n4-001 | N4 | A とか B とか | ⬜ needs-triage |  | like, such as |
 | n4-002 | N4 | A は B ほど～ありません (A wa B hodo ～ arimasen) | — |  |  |
 | n4-003 | N4 | A は B ほど～ない (A wa B hodo ~ nai) | — |  |  |
@@ -670,7 +675,7 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n4-020 | N4 | Verb させられる (Verb-saserareru) | — |  |  |
 | n4-021 | N4 | Verb させる (Verb-saseru) | — |  |  |
 | n4-022 | N4 | Verb た ことがある (Verb ta koto ga aru) | — |  |  |
-| n4-023 | N4 | Verb た ときに (Verb た ときに) | ⬜ needs-triage |  | when, at the time |
+| n4-023 | N4 | Verb た ときに (Verb た ときに) | ✅ done | Temporal When (Verb Tense Variants) | when, at the time |
 | n4-024 | N4 | Verb た ところ (Verb ta tokoro) | — |  |  |
 | n4-025 | N4 | Verb たほうがいい (〜ta hou ga ii) | — |  |  |
 | n4-026 | N4 | Verb ために (tame ni) | ✅ done | Purpose (In Order To / So That) | in order to, because of, for the sake of |
@@ -715,7 +720,7 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n4-065 | N4 | Verb ることができる (〜ru koto ga dekiru) | ⬜ needs-triage |  | can |
 | n4-066 | N4 | Verb ることにする (〜ru koto ni suru) | — |  |  |
 | n4-067 | N4 | Verb る ことになる (〜ru koto ni naru) | — |  |  |
-| n4-068 | N4 | Verb るときに (〜ru toki ni) | ⬜ needs-triage |  | when, at the time |
+| n4-068 | N4 | Verb るときに (〜ru toki ni) | ✅ done | Temporal When (Verb Tense Variants) | when, at the time |
 | n4-069 | N4 | Verb る ところ (Verb-ru tokoro) | — |  |  |
 | n4-070 | N4 | Verb 出す (~dasu) | — |  |  |
 | n4-071 | N4 | Verb 方 (〜hou) | — |  |  |
@@ -777,7 +782,7 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n5-003 | N5 | A。しかし、～B。 (A. Shikashi, ~B.) | ✅ done | Contradiction (But / However) |  |
 | n5-004 | N5 | A。じゃ、～B。(A. Ja, ~B.) | ⬜ needs-triage |  | so |
 | n5-005 | N5 | A。それじゃ、～B。(A. Soreja,~B.) | — |  |  |
-| n5-006 | N5 | A。それでは、～B。(A. Soredewa,~B.) | ⬜ needs-triage |  | so, then |
+| n5-006 | N5 | A。それでは、～B。(A. Soredewa,~B.) | ✅ done | Sequence (And Then) | so, then |
 | n5-007 | N5 | A。 では、～B。 (A. Dewa, ~B) | — |  |  |
 | n5-008 | N5 | A。でも、～B。(A. Demo, ~B) | ✅ done | Contradiction (But / However) |  |
 | n5-009 | N5 | Aと Bと どちら～ (A to B to dochira~) | — |  |  |
@@ -853,10 +858,10 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n5-079 | N5 | こちら～ (kochira～) | — |  |  |
 | n5-080 | N5 | さっき～ (sakki～) | — |  |  |
 | n5-081 | N5 | すぐに～ (sugu ni～) | — |  |  |
-| n5-082 | N5 | ぜんぜん～ (zenzen～) | ⬜ needs-triage |  | not at all |
-| n5-083 | N5 | そして、～ (soshite、～) | ⬜ needs-triage |  | and then, and |
+| n5-082 | N5 | ぜんぜん～ (zenzen～) | ✅ done | Negation Intensity (Not At All) | not at all |
+| n5-083 | N5 | そして、～ (soshite、～) | ✅ done | Sequence (And Then) | and then, and |
 | n5-084 | N5 | そちら～ (sochira～) | — |  |  |
-| n5-085 | N5 | それから、～ (sorekara、～) | ⬜ needs-triage |  | then, and then |
+| n5-085 | N5 | それから、～ (sorekara、～) | ✅ done | Sequence (And Then) | then, and then |
 | n5-086 | N5 | だいたい〜 (daitai〜) | ✅ done | Approximation (About / Approximately) | approximately, almost |
 | n5-087 | N5 | たいてい～ (taitei～) | — |  |  |
 | n5-088 | N5 | だから、～ (dakara、～) | ✅ done | Causality (Because / Since / Due to) | because, so, therefore |
@@ -870,17 +875,17 @@ Found while triaging: several of the measured gloss clusters are **incidental En
 | n5-096 | N5 | ～どうですか。 (〜dou desu ka.) | — |  |  |
 | n5-097 | N5 | どうやって～ (douyatte～) | — |  |  |
 | n5-098 | N5 | ～どう 言いますか。 (〜dou iimasu ka.) | — |  |  |
-| n5-099 | N5 | ～とき (〜toki) | ⬜ needs-triage |  | when, at the time |
+| n5-099 | N5 | ～とき (〜toki) | ✅ done | Temporal When (Verb Tense Variants) | when, at the time |
 | n5-100 | N5 | ときどき～ (tokidoki～) | — |  |  |
 | n5-101 | N5 | どこ～ (doko～) | — |  |  |
 | n5-102 | N5 | どこか～ (dokoka～) | — |  |  |
 | n5-103 | N5 | どこでも～ (dokodemo～) | — |  |  |
 | n5-104 | N5 | どこにも + Verb + ないです (doko ni mo + Verb + nai desu) | — |  |  |
-| n5-105 | N5 | どこにも + Verb + ません (doko ni mo + Verb + masen) | ⬜ needs-triage |  | nowhere |
+| n5-105 | N5 | どこにも + Verb + ません (doko ni mo + Verb + masen) | ✅ done | Nowhere (Not Anywhere) | nowhere |
 | n5-106 | N5 | どこへも Verb ないです (doko e mo + Verb + nai desu) | — |  |  |
 | n5-107 | N5 | どこへも Verb ません (doko e mo + Verb + masen) | — |  |  |
-| n5-108 | N5 | どこも Verb ないです (dokomo + Verb + naidesu) | ⬜ needs-triage |  | nowhere |
-| n5-109 | N5 | どこも Verb ません (dokomo + Verb + masen) | ⬜ needs-triage |  | nowhere |
+| n5-108 | N5 | どこも Verb ないです (dokomo + Verb + naidesu) | ✅ done | Nowhere (Not Anywhere) | nowhere |
+| n5-109 | N5 | どこも Verb ません (dokomo + Verb + masen) | ✅ done | Nowhere (Not Anywhere) | nowhere |
 | n5-110 | N5 | どちら～ (dochira～) | — |  |  |
 | n5-111 | N5 | どなた～ (donata～) | — |  |  |
 | n5-112 | N5 | どの Noun (dono Noun) | ⬜ needs-triage |  | which |
