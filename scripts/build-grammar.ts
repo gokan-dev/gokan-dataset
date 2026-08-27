@@ -28,6 +28,7 @@ const RAW_DIR = './data/raw/grammar';
 const SEARCH_INDEX_PATH = './compiled/index/search.json';
 const OUTPUT_DIR = './compiled/grammar';
 const FORMALITY_PATH = './data/raw/grammar/formality.json';
+const DUPLICATES_PATH = './data/raw/grammar/duplicates.json';
 
 const LEVEL_FILES: Record<number, string> = {
     5: 'grammar_ja_N5_full_alphabetical_0001.json',
@@ -58,8 +59,40 @@ interface FormalityEntry {
     formalityLevel?: GrammarPoint['formalityLevel'];
     usageNote?: string;
     family?: { id: string; name: string };
+    /**
+     * What this member adds over its family siblings, which is what decides
+     * whether they may be taught together - see docs/SCHEMA.md and the
+     * grammar-axis issue:
+     *  - 'register'   differs ONLY by formality. No new structure, so these
+     *                 group across JLPT levels (だが N2 belongs beside でも N5).
+     *  - 'constraint' adds a semantic restriction the learner can get wrong
+     *                 (おかげで is positive-only, ばかりに negative-only).
+     *                 Stays level-gated.
+     *  - 'variant'    no differentiator exists at all; the siblings are
+     *                 interchangeable stylistic choices. Taught as one
+     *                 recognition set, not as N independent points.
+     */
+    axis?: 'register' | 'constraint' | 'variant';
 }
 type FormalityMap = Record<string, FormalityEntry>;
+
+/**
+ * One entry of the hand-authored duplicates.json mapping: a point id that is
+ * the same pattern as `canonical`, ingested twice from the upstream
+ * alphabetical files (usually at two different JLPT levels). The duplicate is
+ * NOT emitted to compiled/grammar/points/, and its id is published in
+ * index/aliases.json so consumers holding stored progress against it can
+ * migrate rather than stranding it.
+ *
+ * `canonical` is the member a learner meets FIRST - the easiest level, i.e.
+ * the HIGHEST jlptLevel (5 = N5). Chains are resolved when the file is
+ * authored, so no canonical is itself a duplicate; the build asserts that.
+ */
+interface DuplicateEntry {
+    canonical: string;
+    note: string;
+}
+type DuplicateMap = Record<string, DuplicateEntry>;
 
 // Content POS categories eligible to become a blank - particles, symbols, and
 // auxiliary verbs are always shown literally (they carry the grammar
@@ -321,12 +354,36 @@ async function main() {
         ? JSON.parse(fs.readFileSync(FORMALITY_PATH, 'utf-8'))
         : {};
 
+    // Optional too - an empty/absent file simply means nothing is deduplicated.
+    const duplicateMap: DuplicateMap = fs.existsSync(DUPLICATES_PATH)
+        ? JSON.parse(fs.readFileSync(DUPLICATES_PATH, 'utf-8'))
+        : {};
+    const droppedIds = new Set(Object.keys(duplicateMap));
+
+    // A canonical that is itself dropped would leave consumers chasing an alias
+    // to a point that doesn't exist. Chains must be collapsed when the file is
+    // authored, so this is a hard error rather than a silent re-resolve.
+    for (const [dupId, entry] of Object.entries(duplicateMap)) {
+        if (droppedIds.has(entry.canonical)) {
+            throw new Error(
+                `duplicates.json: "${dupId}" points at canonical "${entry.canonical}", which is itself ` +
+                `listed as a duplicate. Collapse the chain so every canonical is a surviving point.`
+            );
+        }
+        if (dupId === entry.canonical) {
+            throw new Error(`duplicates.json: "${dupId}" is listed as its own canonical.`);
+        }
+    }
+
     // Group by family.id so `relatedPoints` can be derived rather than hand-
     // maintained, and so families.json can be emitted. Also catches a real
     // authoring mistake: the same family.id used with two different names.
+    // Dropped duplicates are excluded up front, so no family ever lists a
+    // member that was never written.
     const familyMembers = new Map<string, { name: string; ids: string[] }>();
     for (const [id, entry] of Object.entries(formalityMap)) {
         if (!entry.family) continue;
+        if (droppedIds.has(id)) continue;
         const existing = familyMembers.get(entry.family.id);
         if (existing) {
             if (existing.name !== entry.family.name) {
@@ -361,7 +418,11 @@ async function main() {
     let examplesAnchored = 0;
     const pointsWithNoAnchor: string[] = [];
     let pointsWithFormality = 0;
+    let droppedForDuplicate = 0;
     const seenIds = new Set<string>();
+    // Every id the raw files produce, including dropped duplicates - lets the
+    // build tell "typo in duplicates.json" apart from "correctly dropped".
+    const allRawIds = new Set<string>();
     const pointsWithNoTitleRomaji: string[] = [];
 
     for (const [levelStr, filename] of Object.entries(LEVEL_FILES)) {
@@ -371,6 +432,18 @@ async function main() {
 
         raw.forEach((entry, i) => {
             const id = `${levelSlug}-${String(i + 1).padStart(3, '0')}`;
+            allRawIds.add(id);
+
+            // Dropped duplicate: not emitted, not indexed. Ids stay positional
+            // (derived from the raw file index), so dropping one NEVER renumbers
+            // the survivors - the id space just becomes sparse. That's a
+            // guarantee consumers depend on, since they store these ids against
+            // user progress; see docs/SCHEMA.md.
+            if (droppedIds.has(id)) {
+                droppedForDuplicate++;
+                return;
+            }
+
             let pointAnchored = false;
 
             const examples: GrammarExample[] = entry.examples.map(ex => {
@@ -395,6 +468,7 @@ async function main() {
                     id: formality.family.id,
                     name: formality.family.name,
                     relatedPoints: (familyMembers.get(formality.family.id)?.ids ?? []).filter(memberId => memberId !== id),
+                    ...(formality.axis ? { axis: formality.axis } : {}),
                 }
                 : undefined;
 
@@ -432,11 +506,39 @@ async function main() {
     }
     fs.writeFileSync(path.join(OUTPUT_DIR, 'index', 'families.json'), JSON.stringify(familiesIndex));
 
+    // Aliases: dropped duplicate id -> the surviving canonical. Published so a
+    // consumer holding stored progress against a dropped id can transfer it
+    // instead of stranding an item it can no longer load. Kept as its own file
+    // (not folded into a point) precisely because the dropped point has no file.
+    const aliases: Record<string, string> = {};
+    for (const [dupId, entry] of Object.entries(duplicateMap)) aliases[dupId] = entry.canonical;
+    fs.writeFileSync(path.join(OUTPUT_DIR, 'index', 'aliases.json'), JSON.stringify(aliases));
+
     console.log(`✅ Grammar dataset written to ${OUTPUT_DIR}`);
     console.log(`   - Grammar points: ${totalPoints}`);
     console.log(`   - Words tokenized: ${totalWords} (${matchedWords} resolved to a vocab id, ${(100 * matchedWords / totalWords).toFixed(1)}%)`);
     console.log(`   - Pattern located: ${totalPoints - pointsWithNoAnchor.length}/${totalPoints} points (${(100 * (totalPoints - pointsWithNoAnchor.length) / totalPoints).toFixed(1)}%), ${examplesAnchored}/${totalExamples} examples (${(100 * examplesAnchored / totalExamples).toFixed(1)}%)`);
     console.log(`   - Formality metadata: ${pointsWithFormality}/${totalPoints} points (from ${FORMALITY_PATH})`);
+    console.log(`   - Duplicates dropped: ${droppedForDuplicate} (aliased in index/aliases.json, from ${DUPLICATES_PATH})`);
+
+    // A canonical that never got written means duplicates.json names an id the
+    // raw files don't produce - the alias would dangle. Hard error, not a warning.
+    const danglingCanonicals = [...new Set(Object.values(duplicateMap).map(e => e.canonical))].filter(id => !seenIds.has(id));
+    if (danglingCanonicals.length > 0) {
+        throw new Error(
+            `duplicates.json names ${danglingCanonicals.length} canonical id(s) that no grammar point was built for: ` +
+            danglingCanonicals.join(', ')
+        );
+    }
+    if (droppedForDuplicate !== droppedIds.size) {
+        // Every key in duplicates.json should have matched a raw entry. A
+        // mismatch means a typo'd id that would otherwise silently do nothing.
+        const unmatched = [...droppedIds].filter(id => !allRawIds.has(id));
+        throw new Error(
+            `duplicates.json lists ${droppedIds.size} id(s) but only ${droppedForDuplicate} matched a raw grammar entry. ` +
+            `Unmatched (typo?): ${unmatched.join(', ')}`
+        );
+    }
     console.log(`   - Families: ${familyMembers.size} (${[...familyMembers.values()].reduce((n, f) => n + f.ids.length, 0)} points total)`);
     console.log(`   - Title/romaji split: ${totalPoints - pointsWithNoTitleRomaji.length}/${totalPoints} points (${(100 * (totalPoints - pointsWithNoTitleRomaji.length) / totalPoints).toFixed(1)}%)`);
 
@@ -445,7 +547,10 @@ async function main() {
         pointsWithNoTitleRomaji.forEach(s => console.warn(`     ${s}`));
     }
 
-    const staleFormalityIds = Object.keys(formalityMap).filter(id => !seenIds.has(id));
+    // Dropped duplicates legitimately have a formality.json entry and no built
+    // point, so they're excluded here - otherwise every deduplicated id would
+    // show up as a false "typo" warning.
+    const staleFormalityIds = Object.keys(formalityMap).filter(id => !seenIds.has(id) && !droppedIds.has(id));
     if (staleFormalityIds.length > 0) {
         // Loud, not silent: a typo'd id in formality.json would otherwise silently
         // never apply and nobody would notice.

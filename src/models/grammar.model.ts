@@ -111,8 +111,67 @@ export interface GrammarPoint {
         name: string;
         /** Ids of the OTHER points in this family (excludes this point's own id). */
         relatedPoints: string[];
+        /**
+         * What this member adds over its siblings - the thing that decides
+         * whether they may be taught adjacently. 70 of 84 families span more
+         * than one JLPT level, and level alone can't say which of those spreads
+         * is safe to collapse:
+         *
+         *  - 'register'   differs ONLY by formality (でも casual / しかし formal /
+         *                 けれども literary). No new structure, so these group
+         *                 ACROSS levels - だが (N2) belongs beside でも (N5),
+         *                 because once you know でも it's a one-line register fact.
+         *  - 'constraint' adds a semantic restriction that can be got wrong
+         *                 (おかげで frames the cause favourably, ばかりに
+         *                 unfavourably). Stays level-gated as an escalation ladder.
+         *  - 'variant'    no differentiator exists - the siblings are
+         *                 interchangeable stylistic choices (9 of the 12
+         *                 regardless-a-or-b members share one usageNote verbatim).
+         *                 Taught as a single recognition set.
+         *
+         * Also tells a consumer WHAT to say when introducing the point, which is
+         * the other half of making adjacency safe: proximity without a stated
+         * differentiator is worse than scattering. Absent for members not yet
+         * classified. See docs/SCHEMA.md.
+         */
+        axis?: 'register' | 'constraint' | 'variant';
     };
 }
 
 /** JLPT level (1..5) -> grammar point ids, in the source's original order (alphabetical - grammar has no frequency data to sort by, unlike vocab). */
 export type GrammarJlptIndex = Record<number, string[]>;
+
+/**
+ * One chapter of the authored teaching order: a run of grammar points that are
+ * meant to be met together. Emitted as part of
+ * `compiled/grammar/index/teaching-order.json`.
+ */
+export interface GrammarChapter {
+    /** Stable slug, e.g. "n5-c17". Safe to store against user progress. */
+    id: string;
+    /** Short display name, e.g. "But: six ways, one meaning". */
+    title: string;
+    /** One or two sentences on what the chapter teaches, and why these points sit together. */
+    summary: string;
+    /**
+     * The level this chapter is placed at. A chapter can legitimately CONTAIN
+     * points from harder levels when they are register siblings of a point it
+     * already teaches (see GrammarPoint.family.axis) - so this is the chapter's
+     * position in the curriculum, not a claim about every member's own level.
+     */
+    jlptLevel: number;
+    /** Member point ids, in teaching order. */
+    points: string[];
+}
+
+/**
+ * The authored teaching order. `order` is every surviving point id in the
+ * sequence they should be introduced - the flattening of `chapters`, provided
+ * so a consumer that only needs "what comes next" doesn't have to flatten it
+ * itself. Every non-duplicate point appears in exactly one chapter, and the
+ * build fails if that isn't true.
+ */
+export interface GrammarTeachingOrder {
+    order: string[];
+    chapters: GrammarChapter[];
+}

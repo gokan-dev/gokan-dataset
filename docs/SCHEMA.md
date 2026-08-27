@@ -125,6 +125,7 @@ interface GrammarPoint {
     id: string;              // stable slug, e.g. "contradiction" - shared by every member
     name: string;             // display name, e.g. "Contradiction (But / However)"
     relatedPoints: string[]; // ids of the OTHER points in this family (derived at build time from every entry sharing this family.id, not hand-maintained)
+    axis?: 'register' | 'constraint' | 'variant'; // WHAT this member adds over its siblings - see below
   };
 }
 
@@ -143,6 +144,64 @@ interface GrammarExampleWord {
   baseForm?: string;        // kuromoji's dictionary/base form (e.g. "思う" for the conjugated token "思っ"), only set when it differs from `surface`. Lets pattern-location (and any future consumer) match a formation's dictionary-form literal against a conjugated token without fuzzy/edit-distance matching.
 }
 ```
+
+### `family.axis` — what a member adds over its siblings
+
+70 of the 84 families span more than one JLPT level, so level alone cannot say whether two siblings may be taught together. `axis` records what the member actually adds, which does:
+
+| value | meaning | consequence |
+|---|---|---|
+| `register` | differs ONLY by formality | groups **across** levels - だが (N2) belongs beside でも (N5), because once you know でも it is a one-line register fact with no new structure |
+| `constraint` | adds a semantic restriction that can be got wrong | stays level-gated as an escalation ladder (だけ → しか〜ない → しかない → に過ぎない) |
+| `variant` | no differentiator exists; siblings are interchangeable stylistic choices | one recognition set, not N independent points |
+
+`constraint` is the deliberate default for anything ambiguous, because it is the conservative choice: it leaves the point where its JLPT level puts it. `variant` is detected exactly (the `usageNote` is byte-identical to a sibling's - 9 of the 12 `regardless-a-or-b` members share one verbatim). The `register`/`constraint` split is seeded from the wording of each `usageNote` and **has not yet had a full hand pass**; see the grammar-axis issue.
+
+`axis` also tells a consumer *what to say* when introducing the point, which is the other half of making adjacency safe: proximity without a stated differentiator is worse than scattering.
+
+## `compiled/grammar/index/aliases.json` — deduplicated point ids
+
+40 points in the upstream files are the same pattern ingested twice, usually at two different JLPT levels (`～ても` appears as both `n3-052` and `n4-097`; `Verb ることができる` as both `n5-059` and `n4-065`). They are self-documented: the authored `usageNote` on each flags it. `data/raw/grammar/duplicates.json` (`{ [droppedId]: { canonical, note } }`) maps each one to the surviving point, and the build emits the flattened mapping here.
+
+The **canonical is the member a learner meets first** - the easiest level, i.e. the *highest* `jlptLevel` (5 = N5). Ties resolve to the lower id. Chains are collapsed when the file is authored (three existed: `n3-114` → `n3-112` → `n4-059`, all `ように`), and the build hard-errors if any canonical is itself a duplicate, or if a canonical names a point that was never built.
+
+```ts
+type GrammarAliasIndex = Record<string, string>; // dropped point id -> surviving canonical id
+```
+
+**Ids are never renumbered.** They are positional (`n5-001` = first entry in the N5 raw file), so dropping a duplicate leaves the id space sparse rather than shifting its neighbours. Consumers store these ids against user progress, so this is a guarantee, not an implementation detail. A consumer holding progress against a dropped id should transfer it to the canonical rather than stranding an item it can no longer load.
+
+Dropped points are not emitted to `points/`, do not appear in `index/jlpt.json`, and are excluded from `family.relatedPoints` and `families.json`.
+
+## `compiled/grammar/index/teaching-order.json` — the curriculum
+
+The order in which points should be **introduced**, replacing `index/jlpt.json`'s alphabetical order for that purpose. Built by `scripts/build-curriculum.ts` (`bun run build:curriculum`, chained from `build:grammar`) from the authored spine at `data/curriculum/chapters.json`.
+
+```ts
+interface GrammarTeachingOrder {
+  order: string[];              // every surviving point id, in introduction order (the flattening of `chapters`)
+  chapters: GrammarChapter[];
+}
+
+interface GrammarChapter {
+  id: string;                   // stable slug, e.g. "n5-c17" - safe to store against user progress
+  title: string;                // e.g. "But: one meaning, many registers"
+  summary: string;              // what the chapter teaches, and why these points sit together
+  jlptLevel: number;            // the chapter's POSITION in the curriculum, not a claim about every member's own level
+  points: string[];             // member ids, in teaching order
+}
+```
+
+Why this exists: `index/jlpt.json` follows the upstream files' alphabetical order, which puts the superlative first, then seven near-synonymous connectives (five of them meaning "well then"), and the case particles at positions 40+ (`Noun は` #40, `Noun を` #43, `Verb て` #46). For comparison, Genki reaches は and basic verb conjugation in chapter 3 of 23.
+
+Two tiers, deliberately:
+
+- **N5 and N4 are hand-sequenced** in `chapters.json` (40 chapters), because at those levels points genuinely depend on each other - `Verb た ことがある` is unteachable before the た-form.
+- **N3/N2/N1 chapters are generated** by clustering the remainder by family, then sweeping up unfamilied points into level-ordered "Further N*n* patterns" chapters. Above N3 the points are largely independent idiomatic expressions with no dependency chain. This tier is intentionally coarser, and its `summary` says so - the order within a "Further patterns" chapter carries no pedagogical claim.
+
+A chapter may declare `absorbRegisterFamilies`, which folds in the `axis: 'register'` members of those families **from any level** - the mechanism that puts だが (N2) in an N5 chapter. Absorption is capped at 3 levels of distance (2 for `very-formal-literary`), a guardrail over the not-yet-hand-reviewed `axis` values: `Verbる べからざる Noun` (N1) reads as "formal, literary" and was classified `register`, but it is an archaic noun-modifying form with no place in an N4 chapter. Points held back this way are listed at build time as hand-correction candidates. `constraint` members are never absorbed.
+
+**Every surviving point appears in exactly one chapter, and the build fails if not** - a point missing from the order would simply never be introduced, with nothing erroring at runtime.
 
 ## `compiled/grammar/index/jlpt.json` — grammar points by JLPT level
 
