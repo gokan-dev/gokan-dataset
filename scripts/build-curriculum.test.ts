@@ -34,7 +34,7 @@ describe.skipIf(!built)('compiled teaching order', () => {
         }
     });
 
-    it('introduces every compiled point exactly once', () => {
+    it('introduces every non-variant point exactly once', () => {
         const seen = new Set<string>();
         const duplicated: string[] = [];
         for (const id of order.order) {
@@ -43,9 +43,38 @@ describe.skipIf(!built)('compiled teaching order', () => {
         }
         expect(duplicated).toEqual([]);
 
-        const missing = [...points.keys()].filter(id => !seen.has(id)).sort();
+        // Realization variants are deliberately absent: the canonical member
+        // carries the chapter slot and the SRS entry.
+        const teachable = [...points.values()].filter(p => !p.variantOf);
+        const missing = teachable.filter(p => !seen.has(p.id)).map(p => p.id).sort();
         expect(missing).toEqual([]);
-        expect(order.order).toHaveLength(points.size);
+        expect(order.order).toHaveLength(teachable.length);
+    });
+
+    it('keeps realization variants out of the order entirely', () => {
+        const inOrder = new Set(order.order);
+        const leaked = [...points.values()].filter(p => p.variantOf && inOrder.has(p.id)).map(p => p.id);
+        expect(leaked).toEqual([]);
+    });
+
+    it('keeps every variant canonical IN the order', () => {
+        // A group whose canonical was dropped would make the whole rule unteachable.
+        const inOrder = new Set(order.order);
+        const orphaned = [...points.values()]
+            .filter(p => p.variantOf && !inOrder.has(p.variantOf))
+            .map(p => `${p.id} -> ${p.variantOf}`);
+        expect(orphaned).toEqual([]);
+    });
+
+    it('never points a variant at another variant, or at a missing point', () => {
+        const byId = new Map([...points.values()].map(p => [p.id, p]));
+        for (const p of points.values()) {
+            if (!p.variantOf) continue;
+            const canonical = byId.get(p.variantOf);
+            expect(canonical, `${p.id} points at missing ${p.variantOf}`).toBeDefined();
+            expect(canonical!.variantOf, `${p.id} -> ${p.variantOf} is a chain`).toBeUndefined();
+            expect(p.variantRelation, `${p.id} has no named relation`).toBeTruthy();
+        }
     });
 
     it('orders only ids that actually resolve to a point', () => {

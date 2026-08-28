@@ -102,7 +102,15 @@ function loadPoints(): Map<string, GrammarPoint> {
 function main() {
     console.log('🗂️  Building grammar teaching order...');
 
-    const points = loadPoints();
+    const allPoints = loadPoints();
+
+    // Realization variants are excluded from the order: the canonical member
+    // teaches the rule and the quiz rotates through the realizations against one
+    // SRS entry, so introducing each separately is the redundancy this removes
+    // (the どこにも chapter was six points for one rule). They stay in
+    // compiled/grammar/points/ and remain browsable.
+    const points = new Map([...allPoints].filter(([, p]) => !p.variantOf));
+    const variantCount = allPoints.size - points.size;
     const spine: { chapters: AuthoredChapter[] } = JSON.parse(fs.readFileSync(SPINE_PATH, 'utf-8'));
 
     const chapters: GrammarChapter[] = [];
@@ -129,6 +137,11 @@ function main() {
     for (const authored of spine.chapters) {
         members.set(authored.id, []);
         for (const id of authored.points) {
+            // A spine entry that is now a realization variant is silently skipped:
+            // its canonical carries the chapter slot. Authored before variants
+            // existed, and re-listing every group by hand would just duplicate
+            // variants.json.
+            if (allPoints.get(id)?.variantOf) continue;
             if (!points.has(id)) {
                 throw new Error(
                     `${SPINE_PATH}: chapter "${authored.id}" lists "${id}", which is not a compiled grammar point ` +
@@ -236,6 +249,16 @@ function main() {
     // --- Coverage: every surviving point in exactly one chapter --------------
     // A point missing from the order would silently never be introduced, which
     // is invisible at runtime - so this is a hard failure, not a warning.
+    // Coverage is asserted over non-variant points only; a variant is
+    // deliberately absent from the order.
+    const misplacedVariants = [...allPoints.values()].filter(p => p.variantOf && placed.has(p.id)).map(p => p.id);
+    if (misplacedVariants.length > 0) {
+        throw new Error(
+            `${misplacedVariants.length} realization variant(s) were placed in a chapter: ${misplacedVariants.join(', ')}. ` +
+            `Only the canonical member belongs in the introduction order.`
+        );
+    }
+
     const unplaced = [...points.keys()].filter(id => !placed.has(id)).sort();
     if (unplaced.length > 0) {
         throw new Error(
@@ -255,7 +278,7 @@ function main() {
     const authoredCount = spine.chapters.length;
     console.log(`✅ Teaching order written to ${OUTPUT_PATH}`);
     console.log(`   - Chapters: ${chapters.length} (${authoredCount} hand-authored N5/N4, ${chapters.length - authoredCount} generated N3-N1)`);
-    console.log(`   - Points ordered: ${order.length}/${points.size}`);
+    console.log(`   - Points ordered: ${order.length}/${points.size}  (${variantCount} realization variants excluded)`);
     console.log(`   - Register siblings pulled forward from a harder level: ${absorbedTotal}`);
     if (skippedTooFar.length > 0) {
         // Visible, not silent: each of these is a point the axis heuristic called

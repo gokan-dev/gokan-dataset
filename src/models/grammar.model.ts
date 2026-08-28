@@ -102,6 +102,21 @@ export interface GrammarPoint {
      * without one.
      */
     derives?: string;
+    /**
+     * Set when this point is a realization VARIANT of another: the same
+     * construction with one slot filled differently, enumerated separately by the
+     * upstream files (どこへも Verb ません is どこにも Verb ません with a different
+     * particle). Such a point is still emitted and browsable, but is kept out of
+     * `index/teaching-order.json` - the canonical member teaches the rule, and a
+     * consumer rotates through the realizations against one SRS entry.
+     *
+     * Never set for lexical siblings. でも / しかし / けれども are different words
+     * with the same function; no operation relates them, so they stay separate
+     * items.
+     */
+    variantOf?: string;
+    /** The operation relating this point to its canonical: politeness, particle, contraction, or a combination. */
+    variantRelation?: string;
     examples: GrammarExample[];
     /**
      * Register/formality of this point, for points that have one (most don't -

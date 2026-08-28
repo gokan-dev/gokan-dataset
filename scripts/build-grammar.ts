@@ -30,6 +30,7 @@ const OUTPUT_DIR = './compiled/grammar';
 const FORMALITY_PATH = './data/raw/grammar/formality.json';
 const DUPLICATES_PATH = './data/raw/grammar/duplicates.json';
 const KINDS_PATH = './data/raw/grammar/kinds.json';
+const VARIANTS_PATH = './data/raw/grammar/variants.json';
 
 const LEVEL_FILES: Record<number, string> = {
     5: 'grammar_ja_N5_full_alphabetical_0001.json',
@@ -112,6 +113,31 @@ interface KindEntry {
     note?: string;
 }
 type KindMap = Record<string, KindEntry>;
+
+/**
+ * One entry of the hand-authored variants.json mapping: a point that is the SAME
+ * construction as `variantOf` with one slot filled differently, which the
+ * upstream files enumerated as its own entry (どこにも / どこへも / どこも, each
+ * crossed with ないです / ません - six entries for one rule).
+ *
+ * Distinct from duplicates.json. A duplicate is the same pattern written twice
+ * and is dropped. A variant is a real, different surface form a learner should
+ * recognise, so it is still emitted and browsable - it is only kept out of the
+ * introduction order, because the canonical member teaches the rule and the quiz
+ * rotates through the realizations against a single SRS entry.
+ *
+ * `relation` must NAME the operation. That is the safeguard against collapsing
+ * lexical siblings: でも / しかし / けれども are different words with the same
+ * function, no operation relates them, so they can never appear here. If no
+ * operation can be named, the default is separate items - the pre-existing
+ * behaviour.
+ */
+interface VariantEntry {
+    variantOf: string;
+    relation: string;
+    note: string;
+}
+type VariantMap = Record<string, VariantEntry>;
 
 // Content POS categories eligible to become a blank - particles, symbols, and
 // auxiliary verbs are always shown literally (they carry the grammar
@@ -439,6 +465,33 @@ async function main() {
         Object.entries(kindMapRaw).filter(([key]) => !key.startsWith('_'))
     ) as KindMap;
 
+    const variantMapRaw: Record<string, unknown> = fs.existsSync(VARIANTS_PATH)
+        ? JSON.parse(fs.readFileSync(VARIANTS_PATH, 'utf-8'))
+        : {};
+    const variantMap: VariantMap = Object.fromEntries(
+        Object.entries(variantMapRaw).filter(([key]) => !key.startsWith('_'))
+    ) as VariantMap;
+
+    const ALLOWED_RELATIONS = new Set(['politeness', 'particle', 'contraction', 'particle+politeness']);
+    for (const [id, entry] of Object.entries(variantMap)) {
+        if (!ALLOWED_RELATIONS.has(entry.relation)) {
+            throw new Error(
+                `variants.json: "${id}" declares relation "${entry.relation}", which is not one of ` +
+                `${[...ALLOWED_RELATIONS].join(', ')}. A grouping claim must name a known operation - ` +
+                `if none applies the points are lexical siblings and must not be grouped.`
+            );
+        }
+        if (variantMap[entry.variantOf]) {
+            throw new Error(`variants.json: "${id}" points at "${entry.variantOf}", which is itself a variant. Collapse the chain.`);
+        }
+        if (droppedIds.has(entry.variantOf)) {
+            throw new Error(`variants.json: "${id}" points at "${entry.variantOf}", which is dropped as a duplicate.`);
+        }
+        if (id === entry.variantOf) {
+            throw new Error(`variants.json: "${id}" is its own canonical.`);
+        }
+    }
+
     // A canonical that is itself dropped would leave consumers chasing an alias
     // to a point that doesn't exist. Chains must be collapsed when the file is
     // authored, so this is a hard error rather than a silent re-resolve.
@@ -571,6 +624,7 @@ async function main() {
                 // requiring an entry for all 788 points.
                 kind: kindMap[id]?.kind ?? 'construction',
                 ...(kindMap[id]?.derives ? { derives: kindMap[id]!.derives } : {}),
+                ...(variantMap[id] ? { variantOf: variantMap[id].variantOf, variantRelation: variantMap[id].relation } : {}),
             };
 
             fs.writeFileSync(path.join(pointsDir, `${id}.json`), JSON.stringify(point));
@@ -598,6 +652,35 @@ async function main() {
     for (const [dupId, entry] of Object.entries(duplicateMap)) aliases[dupId] = entry.canonical;
     fs.writeFileSync(path.join(OUTPUT_DIR, 'index', 'aliases.json'), JSON.stringify(aliases));
 
+    // canonical id -> every realization of the rule, so a consumer can rotate
+    // through them against a single SRS entry instead of teaching each separately.
+    const variantGroups: Record<string, { id: string; relation: string; formalityLevel?: string; title: string }[]> = {};
+    const readPoint = (id: string): GrammarPoint => JSON.parse(fs.readFileSync(path.join(pointsDir, `${id}.json`), 'utf-8'));
+
+    for (const [id, entry] of Object.entries(variantMap)) {
+        if (!seenIds.has(id)) throw new Error(`variants.json names "${id}", which no grammar point was built for.`);
+        if (!seenIds.has(entry.variantOf)) throw new Error(`variants.json: "${id}" points at "${entry.variantOf}", which no grammar point was built for.`);
+        const point = readPoint(id);
+        const group = variantGroups[entry.variantOf] || (variantGroups[entry.variantOf] = []);
+        group.push({
+            id,
+            relation: entry.relation,
+            ...(point.formalityLevel ? { formalityLevel: point.formalityLevel } : {}),
+            title: point.title,
+        });
+    }
+    // The canonical is the first realization of its own group.
+    for (const canonicalId of Object.keys(variantGroups)) {
+        const canonical = readPoint(canonicalId);
+        variantGroups[canonicalId].unshift({
+            id: canonicalId,
+            relation: 'canonical',
+            ...(canonical.formalityLevel ? { formalityLevel: canonical.formalityLevel } : {}),
+            title: canonical.title,
+        });
+    }
+    fs.writeFileSync(path.join(OUTPUT_DIR, 'index', 'variant-groups.json'), JSON.stringify(variantGroups));
+
     // id -> kind, for consumers that need to filter the introduction pipeline by
     // kind without fetching all 788 point files just to read one field.
     const kindsIndex: Record<string, string> = {};
@@ -613,6 +696,7 @@ async function main() {
     const kindCounts = { construction: 0, inflection: 0, lexical: 0 } as Record<string, number>;
     for (const id of seenIds) kindCounts[kindMap[id]?.kind ?? 'construction']++;
     console.log(`   - Point kinds: ${kindCounts.construction} construction, ${kindCounts.inflection} inflection, ${kindCounts.lexical} lexical (from ${KINDS_PATH})`);
+    console.log(`   - Variant groups: ${Object.keys(variantGroups).length} canonicals, ${Object.keys(variantMap).length} realizations kept out of the introduction order`);
 
     const staleKindIds = Object.keys(kindMap).filter(id => !seenIds.has(id) && !droppedIds.has(id));
     if (staleKindIds.length > 0) {
