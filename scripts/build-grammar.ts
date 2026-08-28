@@ -121,13 +121,21 @@ const CONTENT_POS = new Set(['名詞', '動詞', '形容詞', '副詞']);
 export function buildVocabLookup(searchIndex: SearchIndex) {
     const byWrittenForm = new Map<string, { id: string; r: string }>();
     const byReading = new Map<string, { id: string; r: string }>();
+    // Readings claimed by more than one distinct written form. A reading match on
+    // an ambiguous reading is a coin flip between homophones, and the index is
+    // frequency-ordered, so "first wins" silently picks the commonest homophone -
+    // which is how あり (the stem of ある) came to be linked to 蟻 "ant".
+    const ambiguousReadings = new Set<string>();
 
     for (const entry of searchIndex) {
         if (!byWrittenForm.has(entry.w)) byWrittenForm.set(entry.w, { id: entry.id, r: entry.r });
-        if (!byReading.has(entry.r)) byReading.set(entry.r, { id: entry.id, r: entry.r });
+
+        const existing = byReading.get(entry.r);
+        if (!existing) byReading.set(entry.r, { id: entry.id, r: entry.r });
+        else if (existing.id !== entry.id) ambiguousReadings.add(entry.r);
     }
 
-    return { byWrittenForm, byReading };
+    return { byWrittenForm, byReading, ambiguousReadings };
 }
 
 function katakanaToHiragana(input: string): string {
@@ -191,16 +199,60 @@ function spanTokens(tokens: kuromoji.IpadicFeatures[]): SpannedToken[] {
 }
 
 /** Builds a single per-kuromoji-token GrammarExampleWord, the fallback for text a sentence-match didn't cover. */
+const KANA_ONLY = /^[ぁ-ゟ゠-ヿー]+$/;
+
+/**
+ * Resolves one kuromoji token to a vocab entry, or to null.
+ *
+ * Null is a perfectly good answer: an unlinked word is rendered literally, is
+ * never turned into a blank, and is never clickable - so precision matters far
+ * more than coverage here. A WRONG link is actively harmful, because
+ * `useGrammarOrchestration` feeds positive SRS credit to the linked vocabId when
+ * its blank is answered correctly: a mislinked word silently trains the wrong
+ * entry in the learner's vocab queue.
+ *
+ * The reading fallback below used to fire for any token that missed a
+ * written-form match, which produced systematically wrong links - 25.4% of all
+ * links were a kana surface resolved to a kanji entry, including あり -> 蟻
+ * ("ant", the reported bug), なく -> 泣く ("to cry"), なり -> 鳴り ("ringing"),
+ * し -> 死 ("death") and する -> 擦る ("to rub"). Two guards now apply:
+ *
+ *  1. Never look up a CONJUGATED surface's reading as if it were a dictionary
+ *     word. あり's reading is あり, but あり is not a word - ある is. Only the
+ *     dictionary form's own reading is looked up.
+ *  2. Never accept an AMBIGUOUS reading. Several entries sharing a reading means
+ *     the frequency-ordered index would just hand back the commonest homophone.
+ */
 function wordFromToken(token: kuromoji.IpadicFeatures, lookup: ReturnType<typeof buildVocabLookup>): GrammarExampleWord {
     let match: { id: string; r: string } | undefined;
 
     if (CONTENT_POS.has(token.pos)) {
         match = lookup.byWrittenForm.get(token.surface_form) ?? lookup.byWrittenForm.get(token.basic_form);
 
-        // Kana-only tokens (no kanji): also try a reading match, since they
-        // won't appear under a kanji written form in the search index.
-        if (!match && token.reading) {
-            match = lookup.byReading.get(katakanaToHiragana(token.reading));
+        if (!match) {
+            const hasBase = token.basic_form && token.basic_form !== '*';
+            const isInflected = hasBase && token.basic_form !== token.surface_form;
+            // Short inflected kana fragments are where kuromoji's analysis is
+            // least reliable, and a wrong basic_form sends the match to an
+            // unrelated lexeme: すれ (する's conditional stem) is analysed as a
+            // form of 擦れる "to chafe", せれ as 競る "to compete", てら as 照る
+            // "to shine". Requiring 3+ characters drops those while keeping real
+            // inflections like わから -> 分かる.
+            const tooShortToTrust = isInflected && token.surface_form.length < 3;
+            // A kana dictionary form is its own reading, so this reaches entries
+            // stored under a kanji written form (あります -> あり, base ある).
+            const dictionaryReading = tooShortToTrust ? null
+                : hasBase && KANA_ONLY.test(token.basic_form)
+                ? token.basic_form
+                // Otherwise only an uninflected kana token may be looked up by
+                // its reading (いつも, かたわら).
+                : (KANA_ONLY.test(token.surface_form) && token.basic_form === token.surface_form && token.reading)
+                    ? katakanaToHiragana(token.reading)
+                    : null;
+
+            if (dictionaryReading && !lookup.ambiguousReadings.has(dictionaryReading)) {
+                match = lookup.byReading.get(dictionaryReading);
+            }
         }
     }
 
