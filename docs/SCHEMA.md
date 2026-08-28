@@ -192,6 +192,47 @@ Authoring rules: only non-`construction` points appear in `kinds.json`; anything
 
 `axis` also tells a consumer *what to say* when introducing the point, which is the other half of making adjacency safe: proximity without a stated differentiator is worse than scattering.
 
+## `compiled/grammar/conjugations.json` — drill items for the inflection points
+
+Answer keys for the transformation quiz, one entry per `kind: 'inflection'` point. Built by `scripts/build-conjugations.ts` (`bun run build:conjugations`, chained from `build:grammar`).
+
+```ts
+type GrammarConjugations = Record<string, {   // grammar point id
+  form: ConjugationForm;      // 'te' | 'tai' | 'zu' | 'chatta' | 'toku' | 'causative'
+                              // | 'causative-passive' | 'passive' | 'potential'
+                              // | 'i-adj-adverbial' | 'i-adj-te'
+                              // | 'i-adj-negative-polite' | 'na-adj-adverbial'
+  formLabel: string;          // shown to the learner, e.g. "て-form"
+  items: {
+    vocabId: string;          // keyed on the vocab id, not the surface, so 入る (はいる/いる) is unambiguous
+    lemma: string;            // 飲む
+    lemmaReading: string;     // のむ
+    target: string;           // 飲んで
+    targetReading: string;    // のんで  - accepted as an alternative answer
+    alternatives?: string[];  // other correct answers, e.g. 書かされる for the causative-passive
+    wordClass: 'godan' | 'ichidan' | 'irregular' | 'i-adjective' | 'na-adjective';
+  }[];
+}>;
+```
+
+**No authored Japanese.** Lemmas come from the frequency-ordered vocab index; targets are computed by `src/utils/conjugator.ts`, which is tested per form × class.
+
+Class detection uses kuromoji's `conjugated_type`, which already encodes the て/た euphony subtype — the part that makes Japanese conjugation hard:
+
+```
+書く → 五段・カ行イ音便   (書いて)      行く → 五段・カ行促音便   (行って)
+買う → 五段・ワ行促音便   (買って)      帰る → 五段・ラ行  走る → 五段・ラ行
+```
+
+Four things it cannot do, handled explicitly:
+
+- **`する` comes back as 五段・ラ行**, colliding with 擦る (a real godan ラ行 verb also read する). Irregulars come from a hardcoded table. `する` is also *injected* into the inventory, since the vocab index carries it as 為る at position ~18,200.
+- **な-adjectives are 名詞 with `conjugated_type: '*'`** — detected from `pos_detail_1 === '形容動詞語幹'`.
+- **Passive and potential exclude ichidan verbs.** 食べられる is *both*, so an ichidan item cannot say which form was asked. Godan keeps them distinct (書かれる vs 書ける).
+- **Morphology cannot judge plausibility.** 見えたい is derivable and is not Japanese, because 見える is already stative. Stative verbs are excluded from the forms needing a volitional agent (たい, causative, causative-passive, potential). 分かる is also excluded from the potential, where 分かれる collides with 分かれる/別れる.
+
+Build guards: every inflection point must have a form mapping and at least 6 items, and a target identical to its lemma fails the build.
+
 ## `compiled/grammar/index/aliases.json` — deduplicated point ids
 
 40 points in the upstream files are the same pattern ingested twice, usually at two different JLPT levels (`～ても` appears as both `n3-052` and `n4-097`; `Verb ることができる` as both `n5-059` and `n4-065`). They are self-documented: the authored `usageNote` on each flags it. `data/raw/grammar/duplicates.json` (`{ [droppedId]: { canonical, note } }`) maps each one to the surviving point, and the build emits the flattened mapping here.

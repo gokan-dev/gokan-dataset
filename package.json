@@ -7,10 +7,11 @@
     "build:data": "rimraf ./compiled/vocab && rimraf ./compiled/sentences && bun run build:kanji && bun scripts/build-data.ts && bun run build:jlpt",
     "build:kanji": "bun scripts/build-kanji.ts",
     "build:jlpt": "bun scripts/build-jlpt-index.ts",
-    "build:grammar": "bun scripts/build-grammar.ts && bun run build:curriculum",
+    "build:grammar": "bun scripts/build-grammar.ts && bun run build:curriculum && bun run build:conjugations",
     "build:jpdb": "node scripts/jpdb-v2.2-tsv-to-json.js",
     "test": "vitest run",
-    "build:curriculum": "bun scripts/build-curriculum.ts"
+    "build:curriculum": "bun scripts/build-curriculum.ts",
+    "build:conjugations": "bun scripts/build-conjugations.ts"
   },
   "devDependencies": {
     "@types/kuromoji": "^0.1.3",
