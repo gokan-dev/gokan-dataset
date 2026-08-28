@@ -116,6 +116,15 @@ function matchVariant(words: GrammarExampleWord[], variant: string): VariantMatc
         const need = counts.get(lit) ?? 1;
         let foundCount = 0;
 
+        // Two rounds: every EXACT match is considered before any containment
+        // match is allowed. Taking the first match found regardless of kind let a
+        // one-character literal claim a bystander word that merely contains that
+        // kana - の matched この (index 0) before reaching the real の, and が
+        // matched 思いますが. Exact-first keeps containment available for the
+        // fused-suffix case it exists for (大人びた contains びた) without letting
+        // it outrank a genuine token.
+        for (let round = 0; round < 2 && foundCount < need; round++) {
+        const allowSubstringThisRound = round === 1;
         for (let spanLen = 1; spanLen <= MAX_SPAN && foundCount < need; spanLen++) {
             for (let start = 0; start + spanLen <= words.length && foundCount < need; start++) {
                 const span = words.slice(start, start + spanLen);
@@ -123,11 +132,16 @@ function matchVariant(words: GrammarExampleWord[], variant: string): VariantMatc
 
                 const combos = spanFormCombinations(span);
                 const readJoin = span.map(w => (w.reading ? kataToHira(w.reading) : '')).join('');
-                const allowSubstring = spanLen <= SUBSTRING_MAX_SPAN;
+                const allowSubstring = spanLen <= SUBSTRING_MAX_SPAN && allowSubstringThisRound;
 
+                // Reading matching is EXACT only. Containment on a reading is how
+                // a bare particle sneaks into a content word: ご飯's reading is
+                // ごはん, which contains は, so the literal は "matched" 晩ご飯's
+                // second token. Surface/baseForm containment is still allowed -
+                // point 4 above needs it (大人びた contains びた).
                 const isMatch =
                     combos.some(c => c === lit || (allowSubstring && c.includes(lit))) ||
-                    (readJoin.length > 0 && (readJoin === litHira || (allowSubstring && readJoin.includes(litHira))));
+                    (readJoin.length > 0 && readJoin === litHira);
 
                 if (isMatch) {
                     const idxs = Array.from({ length: spanLen }, (_, k) => start + k);
@@ -135,6 +149,7 @@ function matchVariant(words: GrammarExampleWord[], variant: string): VariantMatc
                     foundCount++;
                 }
             }
+        }
         }
 
         if (foundCount > 0) foundLiterals.add(lit);
@@ -148,17 +163,41 @@ function matchVariant(words: GrammarExampleWord[], variant: string): VariantMatc
     };
 }
 
+/** Length of the longest literal a match actually recovered - its distinctiveness. */
+function distinctiveness(match: VariantMatch): number {
+    return Array.from(match.foundLiterals).reduce((max, lit) => Math.max(max, lit.length), 0);
+}
+
 /**
- * Locates the pattern in one example. Prefers a variant where every distinct
- * literal is found (a full match); if no variant achieves that, falls back to
- * the best partial match, but ONLY if it recovered the single longest (most
- * distinctive) literal - a match that recovered nothing but a bare particle
- * like が or に would be barely more useful than the frequency-fallback bug
- * this whole mechanism replaces, so it's rejected rather than accepted as
- * "good enough". Returns null (not an empty array) when nothing qualifies, so
- * callers can distinguish "no literals at all" from "found nothing usable".
+ * Locates the pattern in one example.
+ *
+ * Full matches (every distinct literal found) are preferred, and among those the
+ * one that recovered the LONGEST literal wins. Taking the first full match
+ * instead - as this used to - meant a variant carrying nothing but a bare
+ * particle could win outright, because a single-literal variant trivially
+ * "fully matches" and so bypassed the bystander-particle guard below.
+ *
+ * That is what broke n5-096 (`～どうですか`). Its formation reads
+ * "Noun + は/が + どうですか / Verb-casual + の + どうですか / ...", and
+ * `variantsOf` splits on "/" - producing the variant "Noun + は", whose only
+ * literal is は. It fully matched and returned before any variant containing
+ * どうですか was tried, anchoring the quiz blank on は (or, via reading
+ * containment, on ご飯).
+ *
+ * Scoring by distinctiveness fixes that without needing to know whether a "/"
+ * separates two whole shapes or two alternatives inside one slot: どうですか
+ * (5 chars) simply outranks は (1 char). A point whose pattern genuinely IS a
+ * bare particle (n5-043 "Noun + を") still anchors, because it is then the only
+ * variant available.
+ *
+ * Falls back to the best partial match, but only if it recovered the single
+ * longest required literal - a match that found nothing but bystander particles
+ * is rejected rather than accepted as "good enough". Returns null (not an empty
+ * array) when nothing qualifies, so callers can distinguish "no literals at all"
+ * from "found nothing usable".
  */
 export function locatePattern(formation: string, words: GrammarExampleWord[]): number[] | null {
+    let bestFull: VariantMatch | null = null;
     let bestPartial: VariantMatch | null = null;
 
     for (const variant of variantsOf(formation)) {
@@ -166,18 +205,53 @@ export function locatePattern(formation: string, words: GrammarExampleWord[]): n
         if (!match) continue;
 
         if (match.foundLiterals.size === match.requiredLiterals.size) {
-            return match.indices; // full match - take it immediately, first variant to fully match wins
+            // Higher distinctiveness wins; on a tie, the TIGHTER anchor wins.
+            // Two variants of the same point often share their most distinctive
+            // literal and differ only in an extra particle - for `～どうですか`,
+            // both "Verb-casual + の + どうですか" and "い-Adjective + どうですか"
+            // recover どうですか, but the first also drags in a bystander when the
+            // sentence has no の (matching の inside この). Fewer indices means the
+            // blank covers the pattern and nothing else.
+            const better = !bestFull
+                || distinctiveness(match) > distinctiveness(bestFull)
+                || (distinctiveness(match) === distinctiveness(bestFull) && match.indices.length < bestFull.indices.length);
+            if (better) bestFull = match;
+            continue;
         }
 
-        if (!bestPartial || match.foundLiterals.size > bestPartial.foundLiterals.size) {
+        if (!bestPartial
+            || match.foundLiterals.size > bestPartial.foundLiterals.size
+            || (match.foundLiterals.size === bestPartial.foundLiterals.size && distinctiveness(match) > distinctiveness(bestPartial))) {
             bestPartial = match;
         }
     }
 
-    if (!bestPartial) return null;
+    // A partial match that recovered the point's distinctive marker is worth more
+    // than a FULL match on a bare particle. `variantsOf` splits on "/", and that
+    // slash is used both between whole shapes and inside a single slot - the
+    // spacing does not distinguish them reliably (n1-075 "のいかんだ/Noun" is
+    // unspaced but separates shapes; n1-002 "な-adjective / Noun" is spaced but
+    // alternates within a slot). So splitting inevitably produces junk variants
+    // like "Noun + は", which fully match on は alone.
+    //
+    // n5-122 ("Noun + は/が + なんと言いますか") is the case: the sentences have no
+    // が, so the variant carrying なんと言いますか can only ever match partially,
+    // while the junk "Noun + は" variant matches fully. Ranking both by what they
+    // actually recovered puts なんと言いますか (7 chars) ahead of は (1).
+    const usablePartial = (() => {
+        if (!bestPartial) return null;
+        const longestRequired = Array.from(bestPartial.requiredLiterals).sort((a, b) => b.length - a.length)[0];
+        // Still rejected if it found nothing but bystander particles rather than
+        // the variant's own most distinctive literal.
+        return bestPartial.foundLiterals.has(longestRequired) ? bestPartial : null;
+    })();
 
-    const longestRequired = Array.from(bestPartial.requiredLiterals).sort((a, b) => b.length - a.length)[0];
-    if (!bestPartial.foundLiterals.has(longestRequired)) return null; // rejected: only found bystander particles, not the distinctive marker
-
-    return bestPartial.indices;
+    if (bestFull && usablePartial) {
+        return distinctiveness(usablePartial) > distinctiveness(bestFull)
+            ? usablePartial.indices
+            : bestFull.indices;
+    }
+    if (bestFull) return bestFull.indices;
+    if (usablePartial) return usablePartial.indices;
+    return null;
 }

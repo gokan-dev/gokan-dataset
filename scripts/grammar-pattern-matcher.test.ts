@@ -78,3 +78,71 @@ describe('locatePattern', () => {
         expect(hit).toBeNull();
     });
 });
+
+describe('false anchors from formations that alternate inside a slot', () => {
+    /** Tokenizes with just the fields locatePattern reads. */
+    function words(...specs: [string, string?, string?][]): GrammarExampleWord[] {
+        return specs.map(([surface, reading, baseForm]) => ({
+            surface, vocabId: null,
+            ...(reading ? { reading } : {}),
+            ...(baseForm ? { baseForm } : {}),
+        }));
+    }
+
+    // "は/が" is an alternation INSIDE one slot, but variantsOf splits on "/",
+    // producing the junk variant "Noun + は" whose only literal is a bare particle.
+    const DOU_DESU_KA = 'Noun + は/が + どうですか / Verb-casual + の + どうですか / い-Adjective + どうですか / な-Adjective + な + どうですか';
+
+    it('anchors どうですか, not the は from the split slot', () => {
+        // Reported: 晩ご飯に寿司を食べるのはどうですか？ blanked ご飯.
+        const sentence = words(
+            ['晩', 'ばん'], ['ご飯', 'ごはん'], ['に'], ['寿司', 'すし'], ['を'],
+            ['食べる', 'たべる'], ['の'], ['は'], ['どう'], ['です'], ['か'], ['？'],
+        );
+        const hit = locatePattern(DOU_DESU_KA, sentence)!;
+        expect(hit.map(i => sentence[i].surface).join('')).toBe('どうですか');
+    });
+
+    it('never matches a particle inside a word by its READING', () => {
+        // ご飯's reading is ごはん, which CONTAINS は - that is how the literal は
+        // came to match 晩ご飯's second token.
+        const sentence = words(['ご飯', 'ごはん'], ['どう'], ['です'], ['か']);
+        const hit = locatePattern(DOU_DESU_KA, sentence)!;
+        expect(hit).not.toContain(0);
+    });
+
+    it('prefers the real particle over a word that merely contains it', () => {
+        // この contains の. Exact matches are considered before containment ones.
+        const sentence = words(['この'], ['映画', 'えいが'], ['は'], ['どう'], ['です'], ['か']);
+        const hit = locatePattern(DOU_DESU_KA, sentence)!;
+        expect(hit.map(i => sentence[i].surface).join('')).toBe('どうですか');
+        expect(hit).not.toContain(0);
+    });
+
+    it('prefers a partial match on the distinctive marker over a full match on a bare particle', () => {
+        // n5-122: the sentences contain no が, so the variant carrying
+        // なんと言いますか can only match partially, while the junk "Noun + は"
+        // variant matches fully. The distinctive marker must still win.
+        const formation = 'Noun + は/が + なんと言いますか';
+        const sentence = words(['この'], ['花', 'はな'], ['は'], ['なんと'], ['言います', 'いいます', '言う'], ['か'], ['。']);
+        const hit = locatePattern(formation, sentence)!;
+        const anchored = hit.map(i => sentence[i].surface).join('');
+        expect(anchored).toContain('なんと');
+        // 花 was the originally reported false anchor for this point.
+        expect(anchored).not.toContain('花');
+    });
+
+    it('still anchors a point whose pattern genuinely IS a bare particle', () => {
+        // The guards must not gut the simple case: n5-043 is "Noun + を".
+        const sentence = words(['本', 'ほん'], ['を'], ['読む', 'よむ']);
+        const hit = locatePattern('Noun + を', sentence)!;
+        expect(hit.map(i => sentence[i].surface).join('')).toBe('を');
+    });
+
+    it('prefers the tighter anchor when two variants recover the same marker', () => {
+        // Both "の + どうですか" and bare "どうですか" recover どうですか; the one
+        // that does not also drag in a bystander wins.
+        const sentence = words(['この'], ['部屋', 'へや'], ['は'], ['どう'], ['です'], ['か']);
+        expect(locatePattern(DOU_DESU_KA, sentence)!).toHaveLength(3);
+    });
+});
