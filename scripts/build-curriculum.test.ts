@@ -105,3 +105,52 @@ describe.skipIf(!built)('compiled teaching order', () => {
         expect(offenders).toEqual([]);
     });
 });
+
+describe.skipIf(!built)('point kinds', () => {
+    let points: GrammarPoint[];
+
+    beforeAll(() => {
+        points = fs.readdirSync(POINTS_DIR)
+            .filter(f => f.endsWith('.json'))
+            .map(f => JSON.parse(fs.readFileSync(path.join(POINTS_DIR, f), 'utf-8')));
+    });
+
+    it('gives every point a kind', () => {
+        expect(points.filter(p => !p.kind).map(p => p.id)).toEqual([]);
+    });
+
+    it('only uses known kinds', () => {
+        const known = new Set(['construction', 'inflection', 'lexical']);
+        expect(points.filter(p => !known.has(p.kind)).map(p => p.id)).toEqual([]);
+    });
+
+    it('gives every inflection point a `derives`', () => {
+        // The transformation quiz keys off `derives`; an inflection without one
+        // is classified but unteachable.
+        const missing = points.filter(p => p.kind === 'inflection' && !p.derives).map(p => p.id);
+        expect(missing).toEqual([]);
+    });
+
+    it('never puts `derives` on a non-inflection point', () => {
+        expect(points.filter(p => p.kind !== 'inflection' && p.derives).map(p => p.id)).toEqual([]);
+    });
+
+    it('classifies the load-bearing derivations as inflection', () => {
+        // Regression guard on the specific points that motivated the field. If any
+        // of these silently becomes a 'construction', it goes back to being drilled
+        // by blanking a fixed kana instead of asking for the conjugation.
+        const byId = new Map(points.map(p => [p.id, p]));
+        for (const id of ['n5-046', 'n4-021', 'n4-063', 'n4-020', 'n1-178']) {
+            expect(byId.get(id)?.kind, `${id} should be an inflection`).toBe('inflection');
+        }
+    });
+
+    it('keeps points that merely CONSUME a form as constructions', () => {
+        // The distinction the field exists to make: `Verb たほうがいい` presupposes
+        // the past tense but its answer key is always ほうがいい.
+        const byId = new Map(points.map(p => [p.id, p]));
+        for (const id of ['n4-025', 'n5-047', 'n5-049', 'n4-029']) {
+            expect(byId.get(id)?.kind, `${id} should be a construction`).toBe('construction');
+        }
+    });
+});

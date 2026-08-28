@@ -118,6 +118,8 @@ interface GrammarPoint {
   shortExplanation: string;
   longExplanation: string;
   formation: string;       // e.g. "Noun + が + いちばん + Adjective/Verb"
+  kind: 'construction' | 'inflection' | 'lexical'; // the NATURE of the point - which exercise can test it. See below.
+  derives?: string;        // inflection only: which derivation it teaches, e.g. "て-form"
   examples: GrammarExample[];
   formalityLevel?: 'casual' | 'neutral' | 'polite' | 'formal' | 'very-formal-literary'; // register, for points that have one - most don't
   usageNote?: string;      // short, quiz-card-length line covering whatever actually disambiguates this point from its near-synonyms (usually register, sometimes connotation/nuance instead)
@@ -144,6 +146,37 @@ interface GrammarExampleWord {
   baseForm?: string;        // kuromoji's dictionary/base form (e.g. "思う" for the conjugated token "思っ"), only set when it differs from `surface`. Lets pattern-location (and any future consumer) match a formation's dictionary-form literal against a conjugated token without fuzzy/edit-distance matching.
 }
 ```
+
+### `kind` — the nature of a point, and which exercise can test it
+
+The discriminating test is about the **answer key**, not the text:
+
+> **Can you write the correct answer without knowing which word it attaches to?**
+
+| kind | test | example | testable by |
+|---|---|---|---|
+| `construction` | **yes** — identity is a fixed string | `ので`, `しか〜ない`, `ことがある` | cloze on the marker |
+| `inflection` | **no** — identity is an operation; the answer differs per input word | て-form: 飲む→飲んで, 食べる→食べて, する→して | transformation drill only |
+| `lexical` | yes, but the answer is one dictionary word | `いつも`, `ほとんど` | cloze (arguably vocabulary) |
+
+Counts as of the last build: **768 construction, 20 inflection, 0 lexical** (`lexical` not yet populated).
+
+**Presupposing a form is not the same as teaching one.** 339 of 788 points have a `formation` that presupposes a conjugated form; only 20 teach a derivation. `Verb たほうがいい` consumes the past tense — its answer key is always `ほうがいい`, so it is a construction. `Verb て～` *is* the て-form — its answer key is a different string for every verb, so it is an inflection.
+
+That is why the classification is hand-authored in `data/raw/grammar/kinds.json` and not detected. Mechanical signals were measured and all over-fire, because most Japanese grammar attaches to a conjugated word:
+
+```
+anchor surface varies across examples : 284 / 788
+anchor includes a conjugated word     : 386 / 788
+formation mentions a stem/form        : 135 / 788
+union of the above                    : 464 / 788  (59% - useless)
+```
+
+Only explicit derivation language (`→`, `Replace`, `Group 1/2/3`, `godan`/`ichidan`) narrows it to a reviewable 40 candidates, of which 20 survive the answer-key test.
+
+Why it matters: `inflection` points cannot be tested by the cloze quiz, and the dataset proves it — `n1-178` (the potential form) is the **only** point in 828 with no locatable pattern, and it is a conjugation rule. The other 19 do get an anchor, but it is the wrong thing: `n5-046` (the て-form, presupposed by 74 later points) anchors on `て`, so the quiz blanks a fixed kana instead of asking for the conjugation.
+
+Authoring rules: only non-`construction` points appear in `kinds.json`; anything absent defaults to `construction`. An `inflection` entry **must** carry `derives` (the build fails otherwise), because that is what a transformation quiz keys off. An id in the file that no point was built for is also a build failure.
 
 ### `family.axis` — what a member adds over its siblings
 

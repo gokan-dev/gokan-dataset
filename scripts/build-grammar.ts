@@ -29,6 +29,7 @@ const SEARCH_INDEX_PATH = './compiled/index/search.json';
 const OUTPUT_DIR = './compiled/grammar';
 const FORMALITY_PATH = './data/raw/grammar/formality.json';
 const DUPLICATES_PATH = './data/raw/grammar/duplicates.json';
+const KINDS_PATH = './data/raw/grammar/kinds.json';
 
 const LEVEL_FILES: Record<number, string> = {
     5: 'grammar_ja_N5_full_alphabetical_0001.json',
@@ -93,6 +94,24 @@ interface DuplicateEntry {
     note: string;
 }
 type DuplicateMap = Record<string, DuplicateEntry>;
+
+/**
+ * One entry of the hand-authored kinds.json mapping. Only points that are NOT
+ * plain constructions appear; everything absent defaults to 'construction'.
+ *
+ * The discriminating test is about the ANSWER KEY, not about the text - see
+ * docs/SCHEMA.md. It cannot be detected mechanically: signals like "the located
+ * pattern includes a conjugated word" fire on 386 of 788 points, because most
+ * Japanese grammar attaches to a conjugated word. Presupposing a form is not the
+ * same as teaching one.
+ */
+interface KindEntry {
+    kind: 'construction' | 'inflection' | 'lexical';
+    /** For 'inflection': which derivation this point teaches, e.g. "て-form". */
+    derives?: string;
+    note?: string;
+}
+type KindMap = Record<string, KindEntry>;
 
 // Content POS categories eligible to become a blank - particles, symbols, and
 // auxiliary verbs are always shown literally (they carry the grammar
@@ -360,6 +379,14 @@ async function main() {
         : {};
     const droppedIds = new Set(Object.keys(duplicateMap));
 
+    // Keys beginning with '_' are documentation, not point ids.
+    const kindMapRaw: Record<string, unknown> = fs.existsSync(KINDS_PATH)
+        ? JSON.parse(fs.readFileSync(KINDS_PATH, 'utf-8'))
+        : {};
+    const kindMap: KindMap = Object.fromEntries(
+        Object.entries(kindMapRaw).filter(([key]) => !key.startsWith('_'))
+    ) as KindMap;
+
     // A canonical that is itself dropped would leave consumers chasing an alias
     // to a point that doesn't exist. Chains must be collapsed when the file is
     // authored, so this is a hard error rather than a silent re-resolve.
@@ -487,6 +514,11 @@ async function main() {
                 ...(formality?.formalityLevel ? { formalityLevel: formality.formalityLevel } : {}),
                 ...(formality?.usageNote ? { usageNote: formality.usageNote } : {}),
                 ...(family ? { family } : {}),
+                // Absent from kinds.json means a plain construction - the vast
+                // majority - so the default is applied here rather than
+                // requiring an entry for all 788 points.
+                kind: kindMap[id]?.kind ?? 'construction',
+                ...(kindMap[id]?.derives ? { derives: kindMap[id]!.derives } : {}),
             };
 
             fs.writeFileSync(path.join(pointsDir, `${id}.json`), JSON.stringify(point));
@@ -514,12 +546,34 @@ async function main() {
     for (const [dupId, entry] of Object.entries(duplicateMap)) aliases[dupId] = entry.canonical;
     fs.writeFileSync(path.join(OUTPUT_DIR, 'index', 'aliases.json'), JSON.stringify(aliases));
 
+    // id -> kind, for consumers that need to filter the introduction pipeline by
+    // kind without fetching all 788 point files just to read one field.
+    const kindsIndex: Record<string, string> = {};
+    for (const id of seenIds) kindsIndex[id] = kindMap[id]?.kind ?? 'construction';
+    fs.writeFileSync(path.join(OUTPUT_DIR, 'index', 'kinds.json'), JSON.stringify(kindsIndex));
+
     console.log(`✅ Grammar dataset written to ${OUTPUT_DIR}`);
     console.log(`   - Grammar points: ${totalPoints}`);
     console.log(`   - Words tokenized: ${totalWords} (${matchedWords} resolved to a vocab id, ${(100 * matchedWords / totalWords).toFixed(1)}%)`);
     console.log(`   - Pattern located: ${totalPoints - pointsWithNoAnchor.length}/${totalPoints} points (${(100 * (totalPoints - pointsWithNoAnchor.length) / totalPoints).toFixed(1)}%), ${examplesAnchored}/${totalExamples} examples (${(100 * examplesAnchored / totalExamples).toFixed(1)}%)`);
     console.log(`   - Formality metadata: ${pointsWithFormality}/${totalPoints} points (from ${FORMALITY_PATH})`);
     console.log(`   - Duplicates dropped: ${droppedForDuplicate} (aliased in index/aliases.json, from ${DUPLICATES_PATH})`);
+    const kindCounts = { construction: 0, inflection: 0, lexical: 0 } as Record<string, number>;
+    for (const id of seenIds) kindCounts[kindMap[id]?.kind ?? 'construction']++;
+    console.log(`   - Point kinds: ${kindCounts.construction} construction, ${kindCounts.inflection} inflection, ${kindCounts.lexical} lexical (from ${KINDS_PATH})`);
+
+    const staleKindIds = Object.keys(kindMap).filter(id => !seenIds.has(id) && !droppedIds.has(id));
+    if (staleKindIds.length > 0) {
+        throw new Error(`kinds.json names ${staleKindIds.length} id(s) that no grammar point was built for: ${staleKindIds.join(', ')}`);
+    }
+    const inflectionWithoutDerives = Object.entries(kindMap)
+        .filter(([, e]) => e.kind === 'inflection' && !e.derives)
+        .map(([id]) => id);
+    if (inflectionWithoutDerives.length > 0) {
+        // `derives` is what the transformation quiz keys off, so an inflection
+        // point without it would be classified but unteachable.
+        throw new Error(`kinds.json: inflection points missing \`derives\`: ${inflectionWithoutDerives.join(', ')}`);
+    }
 
     // A canonical that never got written means duplicates.json names an id the
     // raw files don't produce - the alias would dangle. Hard error, not a warning.

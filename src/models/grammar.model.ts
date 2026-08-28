@@ -69,6 +69,39 @@ export interface GrammarPoint {
     longExplanation: string;
     /** Formation template shown to the user, e.g. "Noun + が + いちばん + Adjective/Verb". */
     formation: string;
+    /**
+     * The NATURE of this point, which decides what exercise can test it.
+     *
+     * The discriminating test is about the answer key, not the text:
+     * **can you write the correct answer without knowing which word it attaches
+     * to?**
+     *
+     *  - 'construction' YES. The point's identity IS a fixed string (ので,
+     *                   しか〜ない, ことがある). A cloze blank on that string
+     *                   tests the point. The vast majority.
+     *  - 'inflection'   NO. The point's identity is an OPERATION, and the answer
+     *                   differs per input word (飲む→飲んで, 食べる→食べて,
+     *                   する→して). There is nothing invariant to blank, so a
+     *                   cloze quiz cannot test it - it needs a transformation
+     *                   drill.
+     *  - 'lexical'      YES, but the answer is a single dictionary word (いつも,
+     *                   ほとんど). Testable, though arguably vocabulary wearing
+     *                   a grammar hat. Not yet populated - see the kinds issue.
+     *
+     * Note that PRESUPPOSING a form is not the same as TEACHING one: 339 of 788
+     * points presuppose a conjugated form, but only 20 teach a derivation. This
+     * is why the classification is hand-authored (data/raw/grammar/kinds.json)
+     * and not detected - mechanical signals like "the located pattern includes a
+     * conjugated word" fire on 386 of 788.
+     */
+    kind: 'construction' | 'inflection' | 'lexical';
+    /**
+     * For `kind: 'inflection'` only: which derivation this point teaches, e.g.
+     * "て-form", "causative (させる)". This is what a transformation quiz keys
+     * off to generate its answer set, so the build rejects an inflection point
+     * without one.
+     */
+    derives?: string;
     examples: GrammarExample[];
     /**
      * Register/formality of this point, for points that have one (most don't -
