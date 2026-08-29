@@ -36,21 +36,21 @@ import type { GrammarExampleWord } from '../src/models/grammar.model';
  *    in the same fragment (来ます: surface "来" + baseForm-normalized "ます"
  *    from a conjugated "まし").
  *
- * 4. Multi-token spans additionally allow substring containment (not just
- *    exact equality) up to 2 tokens, to catch a productive suffix fused onto
- *    a content word's own surface by the tokenizer (大人びた: content word
- *    "大人び" + auxiliary "た" concatenate to "大人びた", which *contains* the
- *    literal "びた" without equaling it). Kept to 2 tokens specifically -
- *    wider substring search on longer spans risks accidental containment.
+ * 4. When no token span IS the literal, the literal is looked for in the
+ *    sentence's CHARACTER string, and the blank snaps to every token that
+ *    character range touches. The tokenizer regularly puts a marker inside a
+ *    token rather than on a boundary - 大人びた fuses the productive suffix
+ *    びた onto 大人び, 先生ともあろう者 glues 者 onto ろう, and 遅れるべきで
+ *    swallows べき whole - and no amount of span searching over whole tokens
+ *    reaches those.
  *
- * 5. Containment (point 4) additionally requires the literal to cover at least
- *    half of the token it was found inside. Without that, a 2-character literal
- *    can claim an entire unrelated conjugated word: `です` was found inside
- *    `売ってないです` (2 of 7 characters) and the quiz then blanked the
- *    whole verb. The case containment exists for sits right at the boundary
- *    (`びた` is 2 of `大人びた`'s 4), so half is the loosest threshold that
- *    separates them, and the ratio is measured against the concatenated span
- *    rather than any single token so a fused two-token span is judged as a whole.
+ * 5. That snapping is bounded by how far it would OVERSHOOT the marker, in
+ *    characters: `MAX_CONTAINMENT_RESIDUE`. A token count cannot express this
+ *    bound, which is why the old 2-token cap both blocked ともあろう (three
+ *    tokens, one character of overshoot) and would have allowed っけ to claim
+ *    面白かったっけ (one token, five characters of overshoot). Measured, raising
+ *    that cap gained 6 anchors and spoiled 3; the character bound gains the
+ *    same 6 and spoils none.
  *
  * 6. A pattern whose marker REPEATS (`A にしろ B にしろ`) must have every
  *    occurrence blanked, or the sentence hands over its own answer: with only
@@ -67,6 +67,12 @@ import type { GrammarExampleWord } from '../src/models/grammar.model';
  *    "〜し、〜し、〜"; と is contained by うと for "A うと B うと"). That test is
  *    what keeps `文A。そのうえ 文B。` out of it: 文 repeats, but the marker
  *    そのうえ is unrelated to it and stays single-occurrence.
+ *
+ * 8. A marker is also looked for in its politeness and voicing forms
+ *    (`markerAlternates`). `formation` writes ものではない while the sentence says
+ *    ものではありません, and nothing in the formation then appears at all. Each
+ *    generated form is matched EXACTLY, so this widens what is looked for
+ *    rather than loosening how it is compared.
  *
  * 7. Literals are matched longest-first, so a short, generic literal (a bare
  *    particle like を) can't claim a token index a longer, more distinctive
@@ -111,8 +117,59 @@ export function repeatedTitleLiterals(title: string): Set<string> {
     return new Set([...counts].filter(([, n]) => n > 1).map(([run]) => run));
 }
 
+/**
+ * Politeness and voicing alternates for a marker's TAIL, keyed by what
+ * `formation` writes. Each generated candidate is still matched EXACTLY - this
+ * expands the set of strings looked for rather than loosening the comparison,
+ * which matters because every loosening this file has tried produced false
+ * anchors (#16, #21, #23).
+ *
+ * `formation` names the marker in plain dictionary form, but a sentence is free
+ * to politen or voice it, and then no literal in the formation appears anywhere:
+ *
+ *   ものではない   ->  そんなことを言うものではありません。
+ *   つもりだ     ->  明日は早く起きるつもりです。
+ *   たらいい     ->  雨が止んだらいいな。
+ *
+ * Applied to the tail ONLY, and only when the marker actually ends in one of
+ * these. Substituting anywhere inside a marker would be a false-anchor
+ * generator: ない occurs inside plenty of markers that are not negated.
+ */
+const TAIL_ALTERNATES: [string, string[]][] = [
+    ['ない', ['ありません', 'ません', 'ないです']],
+    ['である', ['です']],
+    ['だ', ['です', 'でしょう', 'だった', 'でした', 'の']],
+];
+
+/**
+ * Initial-mora voicing, the euphony `conjugator.ts` applies in the other
+ * direction. Only for markers of 2+ characters: a bare て or た expanding to で
+ * or だ puts two of the commonest particles in the language into the candidate
+ * set, and measured, it cost n5-046 its て-form anchor to a stray で.
+ */
+const VOICED_HEADS: [string, string][] = [['て', 'で'], ['た', 'だ']];
+const MIN_VOICED_MARKER = 2;
+
+/**
+ * The marker, plus every politeness/voicing form a sentence might use instead.
+ * The marker itself always comes first, so an exact hit still wins.
+ */
+export function markerAlternates(marker: string): string[] {
+    const out = [marker];
+    for (const [tail, alternates] of TAIL_ALTERNATES) {
+        if (!marker.endsWith(tail) || marker === tail) continue;
+        const stem = marker.slice(0, marker.length - tail.length);
+        for (const alternate of alternates) out.push(stem + alternate);
+    }
+    if (marker.length >= MIN_VOICED_MARKER) {
+        for (const [plain, voiced] of VOICED_HEADS) {
+            if (marker.startsWith(plain)) out.push(voiced + marker.slice(plain.length));
+        }
+    }
+    return Array.from(new Set(out));
+}
+
 const MAX_SPAN = 8; // longest observed literal needing multi-token concatenation (ともなると = 4 tokens); generous headroom above that.
-const SUBSTRING_MAX_SPAN = 2; // see doc comment point 4 - kept narrow to avoid accidental containment on longer spans.
 /**
  * A containment match must cover at least this fraction of the token it was
  * found inside - see doc comment point 5.
@@ -157,6 +214,17 @@ function matchVariant(
     const allMatched: number[] = [];
     const foundLiterals = new Set<string>();
 
+    // Character offsets of every token, and the sentence they reconstruct.
+    // `words` concatenates back to the original sentence exactly - an invariant
+    // build-grammar.words.test.ts asserts - so these offsets are exact.
+    const offsets: [number, number][] = [];
+    let cursor = 0;
+    for (const w of words) {
+        offsets.push([cursor, cursor + w.surface.length]);
+        cursor += w.surface.length;
+    }
+    const text = words.map(w => w.surface).join('');
+
     for (const lit of orderedLiterals) {
         const litHira = kataToHira(lit);
         // A repeating marker takes every occurrence the sentence offers, not the
@@ -165,51 +233,74 @@ function matchVariant(
         const need = repeats ? Number.POSITIVE_INFINITY : (counts.get(lit) ?? 1);
         let foundCount = 0;
 
-        // Two rounds: every EXACT match is considered before any containment
-        // match is allowed. Taking the first match found regardless of kind let a
-        // one-character literal claim a bystander word that merely contains that
-        // kana - の matched この (index 0) before reaching the real の, and が
-        // matched 思いますが. Exact-first keeps containment available for the
-        // fused-suffix case it exists for (大人びた contains びた) without letting
-        // it outrank a genuine token.
-        for (let round = 0; round < 2 && foundCount < need; round++) {
-        const allowSubstringThisRound = round === 1;
+        const claim = (indices: number[]) => {
+            indices.forEach(i => { usedIndices.add(i); allMatched.push(i); });
+            foundCount++;
+        };
+
+        // Round 1, exact: a token span whose surface/baseForm combination - or
+        // whose reading - IS the literal. Every exact match is taken before any
+        // character-level one is considered. Mixing the two let a one-character
+        // literal claim a bystander that merely contains that kana: の matched
+        // この before reaching the real の, and が matched 思いますが.
+        //
+        // Reading matching is exact only, and stays that way. Containment on a
+        // reading is how a bare particle sneaks into a content word: ご飯's
+        // reading is ごはん, which contains は, so は "matched" 晩ご飯.
         for (let spanLen = 1; spanLen <= MAX_SPAN && foundCount < need; spanLen++) {
             for (let start = 0; start + spanLen <= words.length && foundCount < need; start++) {
                 const span = words.slice(start, start + spanLen);
                 if (span.some((_, k) => usedIndices.has(start + k))) continue;
 
-                const combos = spanFormCombinations(span);
                 const readJoin = span.map(w => (w.reading ? kataToHira(w.reading) : '')).join('');
-                const allowSubstring = spanLen <= SUBSTRING_MAX_SPAN && allowSubstringThisRound;
+                const isMatch = spanFormCombinations(span).some(c => c === lit)
+                    || (readJoin.length > 0 && readJoin === litHira);
 
-                // Reading matching is EXACT only. Containment on a reading is how
-                // a bare particle sneaks into a content word: ご飯's reading is
-                // ごはん, which contains は, so the literal は "matched" 晩ご飯's
-                // second token. Surface/baseForm containment is still allowed -
-                // point 4 above needs it (大人びた contains びた).
-                const isMatch =
-                    combos.some(c => c === lit
-                        || (allowSubstring
-                            && c.includes(lit)
-                            && c.length - lit.length <= MAX_CONTAINMENT_RESIDUE
-                            // A repeating marker may only be found as the SUFFIX
-                            // of a SINGLE token. Greedy matching multiplies every
-                            // containment heuristic by the number of occurrences,
-                            // and unconstrained it blanked 美味しい whole (し is
-                            // interior to it) and dragged 暑かっ into 暑かったり (a
-                            // two-token span). Both markers here attach to the END
-                            // of the word they follow, which is what this encodes:
-                            // り inside たり passes, し inside 美味しい does not.
-                            && (!repeats || (spanLen === 1 && c.endsWith(lit))))) ||
-                    (readJoin.length > 0 && readJoin === litHira);
-
-                if (isMatch) {
-                    const idxs = Array.from({ length: spanLen }, (_, k) => start + k);
-                    idxs.forEach(i => { usedIndices.add(i); allMatched.push(i); });
-                    foundCount++;
-                }
+                if (isMatch) claim(Array.from({ length: spanLen }, (_, k) => start + k));
             }
+        }
+
+        // Round 2, one token, surface OR baseForm. Kept separate from the
+        // character search below because that search only ever sees surfaces,
+        // and a productive suffix is often only visible in the DICTIONARY form:
+        // 大人びている carries baseForm 大人びる, which is the only place the
+        // literal びる appears at all.
+        for (let i = 0; i < words.length && foundCount < need; i++) {
+            if (usedIndices.has(i)) continue;
+            const hit = spanFormCombinations([words[i]]).some(c =>
+                c !== lit
+                && c.includes(lit)
+                && c.length - lit.length <= MAX_CONTAINMENT_RESIDUE
+                && (!repeats || c.endsWith(lit)));
+            if (hit) claim([i]);
+        }
+
+        // Round 3, character offsets - see doc comment point 4 - over the marker
+        // and its politeness/voicing alternates (point 8).
+        const candidates = markerAlternates(lit);
+        for (const candidate of candidates) {
+        if (foundCount >= need) break;
+        for (let at = text.indexOf(candidate); at >= 0 && foundCount < need; at = text.indexOf(candidate, at + 1)) {
+            const litEnd = at + candidate.length;
+            const touched: number[] = [];
+            for (let i = 0; i < offsets.length; i++) {
+                if (offsets[i][0] < litEnd && offsets[i][1] > at) touched.push(i);
+            }
+            if (touched.length === 0 || touched.some(i => usedIndices.has(i))) continue;
+
+            // The residue is what the blank would cover BEYOND the marker,
+            // measured in characters. A token count cannot express this: ともあろう
+            // needs three tokens (とも|あ|ろう者) and overshoots by one character,
+            // while っけ needs one token (面白かったっけ) and overshoots by five.
+            const spanStart = offsets[touched[0]][0];
+            const spanEnd = offsets[touched[touched.length - 1]][1];
+            if (spanEnd - spanStart - candidate.length > MAX_CONTAINMENT_RESIDUE) continue;
+
+            // A repeating marker must END a single token - see doc comment
+            // point 6. り inside たり passes; し inside 美味しい does not.
+            if (repeats && !(touched.length === 1 && spanEnd === litEnd)) continue;
+
+            claim(touched);
         }
         }
 

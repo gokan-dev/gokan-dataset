@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { locatePattern } from './grammar-pattern-matcher';
+import { locatePattern, markerAlternates } from './grammar-pattern-matcher';
 import type { GrammarExampleWord } from '../src/models/grammar.model';
 
 function w(surface: string, baseForm?: string, reading?: string): GrammarExampleWord {
@@ -196,6 +196,50 @@ describe('false anchors from formations that alternate inside a slot', () => {
         const tari = words(['暑かっ'], ['たり'], ['、'], ['寒かっ'], ['たり'], ['する']);
         const tariHit = locatePattern('Verb-ta + り + next verb-ta + り', tari, '～たり～たり')!;
         expect(tariHit).toEqual([1, 4]);
+    });
+
+    it('finds a marker the tokenizer glued into a token, and snaps to what it touches', () => {
+        // gokan-dev/gokan-dataset#25. 者 is glued onto ろう, so no span of whole
+        // tokens equals ともあろう - only the character range does. Three tokens
+        // wide, which the old 2-token containment cap rejected outright.
+        const sentence = words(['先生'], ['とも'], ['あ'], ['ろう者'], ['が'], ['。']);
+        const hit = locatePattern('Noun + ともあろう + Noun', sentence, 'Noun + ともあろう + Noun')!;
+        expect(hit).toEqual([1, 2, 3]);
+    });
+
+    it('bounds the snap by characters overshot, not by token count', () => {
+        // The same mechanism must not let っけ claim 面白かったっけ: one token, but five
+        // characters of overshoot. ともあろう above is three tokens and one character.
+        const sentence = words(['この'], ['映画'], ['、'], ['面白かったっけ', 'おもしろかったっけ', '面白い']);
+        expect(locatePattern('Verb-casual + っけ', sentence)).toBeNull();
+    });
+
+    it('matches a marker through politeness and voicing', () => {
+        // formation writes ものではない; the sentence says ものではありません.
+        const polite = words(['言う'], ['もの'], ['で'], ['は'], ['あり', 'あり', 'ある'], ['ませ', 'ませ', 'ます'], ['ん'], ['。']);
+        const politeHit = locatePattern('Verb-dictionary form + ものではない', polite)!;
+        expect(politeHit.map(i => polite[i].surface).join('')).toBe('ものではありません');
+
+        // たらいい voiced to だらいい after ん, and fused into the verb token.
+        const voiced = words(['雨'], ['が'], ['止んだら', 'やんだら', '止む'], ['いい'], ['な'], ['。']);
+        const voicedHit = locatePattern('Verb-casual-past + たらいい', voiced)!;
+        expect(voicedHit.map(i => voiced[i].surface).join('')).toBe('止んだらいい');
+    });
+
+    it('does not expand a bare て or た into a bare で or だ', () => {
+        // Those are two of the commonest particles in the language. Measured,
+        // expanding them cost n5-046 its て-form anchor to a stray で.
+        expect(markerAlternates('て')).toEqual(['て']);
+        expect(markerAlternates('た')).toEqual(['た']);
+        expect(markerAlternates('たらいい')).toContain('だらいい');
+    });
+
+    it('always tries the marker as written before any alternate', () => {
+        expect(markerAlternates('ものではない')[0]).toBe('ものではない');
+        expect(markerAlternates('ものではない')).toContain('ものではありません');
+        // A marker that IS the tail must not expand - ない alone would become
+        // ありません and match any polite negative in the sentence.
+        expect(markerAlternates('ない')).toEqual(['ない']);
     });
 
     it('prefers the tighter anchor when two variants recover the same marker', () => {
