@@ -184,6 +184,110 @@ describe.skipIf(!built)('point kinds', () => {
     });
 });
 
+describe.skipIf(!built)('banned glyphs', () => {
+    /**
+     * The em dash and the Unicode arrows render inconsistently across the app's
+     * fonts and are banned from every user-facing value project-wide. The
+     * upstream snapshot uses both freely, so `sanitizeGlyphs` strips them at
+     * build time - this asserts the output, which is what actually reaches the
+     * UI, rather than trusting the transform.
+     */
+    const BANNED = /[—→←↑↓⇒]/;
+    const RENDERED: (keyof GrammarPoint)[] = [
+        'title', 'romaji', 'shortExplanation', 'longExplanation', 'formation', 'usageNote', 'derives',
+    ];
+
+    it('leaves none in any rendered field of any compiled point', () => {
+        const offenders: string[] = [];
+        for (const file of fs.readdirSync(POINTS_DIR)) {
+            if (!file.endsWith('.json')) continue;
+            const point: GrammarPoint = JSON.parse(fs.readFileSync(path.join(POINTS_DIR, file), 'utf-8'));
+            for (const field of RENDERED) {
+                const value = point[field];
+                if (typeof value === 'string' && BANNED.test(value)) offenders.push(`${point.id}.${field}`);
+            }
+        }
+        expect(offenders).toEqual([]);
+    });
+
+    it('leaves none in a chapter title or summary', () => {
+        const order: GrammarTeachingOrder = JSON.parse(fs.readFileSync(ORDER_PATH, 'utf-8'));
+        const offenders = order.chapters
+            .filter(c => BANNED.test(c.title) || BANNED.test(c.summary ?? ''))
+            .map(c => c.id);
+        expect(offenders).toEqual([]);
+    });
+});
+
+describe.skipIf(!built)('contrast merges', () => {
+    /**
+     * A 'contrast' entry in duplicates.json collapses a pair that is NOT the
+     * same pattern - た vs る, affirmative vs negative, destination vs purpose -
+     * on the grounds that the cloze blanks a byte-identical string in both, so
+     * the difference is never the thing being asked. That trade is only safe if
+     * two things hold, and neither is visible at runtime if it breaks: the
+     * dropped side's examples must survive on the canonical (they are the only
+     * place the other setting appears at all), and the canonical must state the
+     * difference outright.
+     */
+    const DUPLICATES_PATH = './data/raw/grammar/duplicates.json';
+    let contrast: [string, { canonical: string; differentiator?: string }][];
+    let points: Map<string, GrammarPoint>;
+
+    beforeAll(() => {
+        const map: Record<string, { canonical: string; relation?: string; differentiator?: string }> =
+            JSON.parse(fs.readFileSync(DUPLICATES_PATH, 'utf-8'));
+        contrast = Object.entries(map).filter(([, e]) => e.relation === 'contrast') as typeof contrast;
+        points = new Map();
+        for (const file of fs.readdirSync(POINTS_DIR)) {
+            if (!file.endsWith('.json')) continue;
+            const point: GrammarPoint = JSON.parse(fs.readFileSync(path.join(POINTS_DIR, file), 'utf-8'));
+            points.set(point.id, point);
+        }
+    });
+
+    it('has at least one, so the rest of this block is not vacuous', () => {
+        expect(contrast.length).toBeGreaterThan(0);
+    });
+
+    it('keeps every canonical, and drops every donor', () => {
+        for (const [donor, entry] of contrast) {
+            expect(points.has(entry.canonical), `${donor}'s canonical ${entry.canonical} is missing`).toBe(true);
+            expect(points.has(donor), `${donor} was absorbed but still emitted`).toBe(false);
+        }
+    });
+
+    it('absorbs the donated examples rather than discarding them', () => {
+        // Four per raw entry upstream, so a canonical with one donor carries 8.
+        const donorsPerCanonical = new Map<string, number>();
+        for (const [, entry] of contrast) {
+            donorsPerCanonical.set(entry.canonical, (donorsPerCanonical.get(entry.canonical) ?? 0) + 1);
+        }
+        for (const [canonicalId, donors] of donorsPerCanonical) {
+            const point = points.get(canonicalId)!;
+            expect(point.examples.length, `${canonicalId} absorbed ${donors} donor(s)`)
+                .toBeGreaterThan(4 * donors);
+        }
+    });
+
+    it('states the differentiator on the surviving point', () => {
+        for (const [donor, entry] of contrast) {
+            expect(entry.differentiator, `${donor} has no differentiator`).toBeTruthy();
+            const note = points.get(entry.canonical)?.usageNote ?? '';
+            expect(note, `${entry.canonical} does not carry ${donor}'s differentiator`)
+                .toContain(entry.differentiator!);
+        }
+    });
+
+    it('never uses a banned glyph in a differentiator', () => {
+        // usageNote renders in the app, and em dashes / arrow glyphs are banned
+        // in user-facing values.
+        for (const [donor, entry] of contrast) {
+            expect(entry.differentiator!, `${donor}`).not.toMatch(/[—→←↑↓⇒]/);
+        }
+    });
+});
+
 describe.skipIf(!fs.existsSync('./compiled/grammar/index/browse.json'))('browse index', () => {
     let browse: {
         points: { id: string; kind: string; orderIndex: number | null; variantOf?: string; jlptLevel: number }[];

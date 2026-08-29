@@ -90,10 +90,30 @@ type FormalityMap = Record<string, FormalityEntry>;
  * `canonical` is the member a learner meets FIRST - the easiest level, i.e.
  * the HIGHEST jlptLevel (5 = N5). Chains are resolved when the file is
  * authored, so no canonical is itself a duplicate; the build asserts that.
+ *
+ * `relation` says what the duplicate IS, because the two kinds need opposite
+ * handling of the dropped point's examples:
+ *
+ *   'redundant' (the default) - the same pattern ingested twice. The examples
+ *       are redundant too, so discarding them loses nothing.
+ *
+ *   'contrast' - NOT the same pattern. The pair differs in a real way (た vs る,
+ *       affirmative vs negative, destination vs purpose) but the cloze quiz
+ *       blanks a byte-identical string in both, so the difference is always
+ *       GIVEN in the sentence and never tested. Two SRS items drilling one
+ *       identical blank is the redundancy this file exists to remove - but the
+ *       dropped side's examples are the only place the other setting appears,
+ *       so they are ABSORBED onto the canonical rather than discarded. A
+ *       'contrast' entry must carry `differentiator`, which is appended to the
+ *       canonical's usageNote: collapsing the pair is only honest if the point
+ *       then states outright what the two settings are.
  */
 interface DuplicateEntry {
     canonical: string;
     note: string;
+    relation?: 'redundant' | 'contrast';
+    /** Required for `relation: 'contrast'`. Appended to the canonical's usageNote. */
+    differentiator?: string;
 }
 type DuplicateMap = Record<string, DuplicateEntry>;
 
@@ -160,6 +180,33 @@ const CONTENT_POS = new Set(['名詞', '動詞', '形容詞', '副詞']);
 const KANA_RANK_LIMIT = 50000;
 
 const KANA_ONLY = /^[ぁ-ゟ゠-ヿー]+$/;
+
+/**
+ * Glyphs banned from every user-facing value, with what replaces them.
+ *
+ * The em dash and the Unicode arrows render inconsistently across the app's
+ * fonts and are banned project-wide. The upstream snapshot uses both freely
+ * (57 occurrences across 37 fields as of this build: 19 em dashes, mostly
+ * parenthetical asides in longExplanation, and 38 arrows, mostly derivations
+ * like 書く → 書ける in formation), so this is a build-time transform rather than
+ * an edit to the vendored files - the same discipline as duplicates.json.
+ *
+ * The arrow becomes ASCII `->` rather than a bare hyphen: it carries direction
+ * in every place it appears, and 書く - 書ける would read as a pair rather than a
+ * derivation. No Unicode glyph survives either way.
+ */
+const BANNED_GLYPHS: [RegExp, string][] = [
+    [/\s*[→⇒]\s*/g, ' -> '],
+    [/\s*[←↑↓]\s*/g, ' - '],
+    [/\s*—\s*/g, ' - '],
+];
+
+/** Applied to every upstream string that reaches the UI. */
+function sanitizeGlyphs(text: string): string {
+    return BANNED_GLYPHS.reduce((out, [pattern, replacement]) => out.replace(pattern, replacement), text)
+        .replace(/ {2,}/g, ' ')
+        .trim();
+}
 
 /**
  * The ids of vocab entries whose KANA spelling is a real written form of the
@@ -609,6 +656,22 @@ async function main() {
                 `listed as a duplicate. Collapse the chain so every canonical is a surviving point.`
             );
         }
+        if (entry.relation && entry.relation !== 'redundant' && entry.relation !== 'contrast') {
+            throw new Error(
+                `duplicates.json: "${dupId}" has relation "${entry.relation}"; allowed values are ` +
+                `"redundant" (the default) and "contrast".`
+            );
+        }
+        if (entry.relation === 'contrast' && !entry.differentiator?.trim()) {
+            throw new Error(
+                `duplicates.json: "${dupId}" is a 'contrast' merge but carries no differentiator. ` +
+                `Collapsing a contrastive pair is only honest if the surviving point says what the ` +
+                `two settings are - see DuplicateEntry.`
+            );
+        }
+        if (entry.relation !== 'contrast' && entry.differentiator) {
+            throw new Error(`duplicates.json: "${dupId}" has a differentiator but is not a 'contrast' merge.`);
+        }
         if (dupId === entry.canonical) {
             throw new Error(`duplicates.json: "${dupId}" is listed as its own canonical.`);
         }
@@ -637,6 +700,25 @@ async function main() {
         }
     }
 
+    // Pre-pass over the raw files, collecting what each 'contrast' merge donates
+    // to its canonical. Separate from the emit loop below because a donor can sit
+    // in a level file that is read AFTER its canonical's - N3 donates to N4 here.
+    // Keyed by canonical, so a canonical absorbing two donors gets both.
+    const absorbed = new Map<string, { donorId: string; differentiator: string; examples: RawGrammarEntry['examples'] }[]>();
+    const donorFormations: Record<string, string> = {};
+    for (const [levelStr, filename] of Object.entries(LEVEL_FILES)) {
+        const donorRaw: RawGrammarEntry[] = JSON.parse(fs.readFileSync(path.join(RAW_DIR, filename), 'utf-8'));
+        donorRaw.forEach((entry, i) => {
+            const id = `n${Number(levelStr)}-${String(i + 1).padStart(3, '0')}`;
+            const dup = duplicateMap[id];
+            if (dup?.relation !== 'contrast') return;
+            const list = absorbed.get(dup.canonical) ?? [];
+            list.push({ donorId: id, differentiator: dup.differentiator!, examples: entry.examples });
+            absorbed.set(dup.canonical, list);
+            donorFormations[id] = entry.formation;
+        });
+    }
+
     const tokenizer = await new Promise<kuromoji.Tokenizer<kuromoji.IpadicFeatures>>((resolve, reject) => {
         kuromoji.builder({ dicPath: 'node_modules/kuromoji/dict' }).build((err, t) => {
             if (err) reject(err);
@@ -648,6 +730,10 @@ async function main() {
     const pointsDir = path.join(OUTPUT_DIR, 'points');
     fs.rmSync(OUTPUT_DIR, { recursive: true, force: true });
     fs.mkdirSync(pointsDir, { recursive: true });
+
+    // A donated example set is only reachable through its canonical, so a
+    // canonical that never gets emitted would silently swallow it.
+    const emittedIds = new Set<string>();
 
     const index: GrammarJlptIndex = { 1: [], 2: [], 3: [], 4: [], 5: [] };
     let totalPoints = 0;
@@ -685,8 +771,19 @@ async function main() {
 
             let pointAnchored = false;
 
-            const examples: GrammarExample[] = entry.examples.map(ex => {
-                const { words, patternWordIndices } = buildExampleWords(tokenizer, sentenceTokenizer, vocabSet, lookup, ex.jp, entry.formation);
+            // A 'contrast' merge's donated sentences are anchored against the
+            // DONOR's own formation, not the canonical's - ないほうがいい's examples
+            // would not locate against "Verb (past tense) + ほうがいい". The blank
+            // lands on the same string either way, which is exactly why the two
+            // points collapsed.
+            const donated = absorbed.get(id) ?? [];
+            const sourceExamples: { ex: RawGrammarEntry['examples'][number]; formation: string }[] = [
+                ...entry.examples.map(ex => ({ ex, formation: entry.formation })),
+                ...donated.flatMap(d => d.examples.map(ex => ({ ex, formation: donorFormations[d.donorId] }))),
+            ];
+
+            const examples: GrammarExample[] = sourceExamples.map(({ ex, formation: exFormation }) => {
+                const { words, patternWordIndices } = buildExampleWords(tokenizer, sentenceTokenizer, vocabSet, lookup, ex.jp, exFormation);
                 totalWords += words.length;
                 matchedWords += words.filter(w => w.vocabId !== null).length;
 
@@ -711,20 +808,25 @@ async function main() {
                 }
                 : undefined;
 
-            const { title, romaji } = splitTitle(entry.title);
+            const { title, romaji } = splitTitle(sanitizeGlyphs(entry.title));
             if (!romaji) pointsWithNoTitleRomaji.push(`${id}: ${entry.title}`);
+
+            // A collapsed contrastive pair must say what its two settings are,
+            // otherwise the merge silently hides one of them.
+            const usageNote = [formality?.usageNote, ...donated.map(d => d.differentiator)]
+                .filter(Boolean).map(note => sanitizeGlyphs(note!)).join(' ') || undefined;
 
             const point: GrammarPoint = {
                 id,
                 title,
                 ...(romaji ? { romaji } : {}),
                 jlptLevel: level,
-                shortExplanation: entry.short_explanation,
-                longExplanation: entry.long_explanation,
-                formation: entry.formation,
+                shortExplanation: sanitizeGlyphs(entry.short_explanation),
+                longExplanation: sanitizeGlyphs(entry.long_explanation),
+                formation: sanitizeGlyphs(entry.formation),
                 examples,
                 ...(formality?.formalityLevel ? { formalityLevel: formality.formalityLevel } : {}),
-                ...(formality?.usageNote ? { usageNote: formality.usageNote } : {}),
+                ...(usageNote ? { usageNote } : {}),
                 ...(family ? { family } : {}),
                 // Absent from kinds.json means a plain construction - the vast
                 // majority - so the default is applied here rather than
@@ -736,6 +838,7 @@ async function main() {
 
             fs.writeFileSync(path.join(pointsDir, `${id}.json`), JSON.stringify(point));
             index[level].push(id);
+            emittedIds.add(id);
             totalPoints++;
         });
 
@@ -799,7 +902,17 @@ async function main() {
     console.log(`   - Words tokenized: ${totalWords} (${matchedWords} resolved to a vocab id, ${(100 * matchedWords / totalWords).toFixed(1)}%)`);
     console.log(`   - Pattern located: ${totalPoints - pointsWithNoAnchor.length}/${totalPoints} points (${(100 * (totalPoints - pointsWithNoAnchor.length) / totalPoints).toFixed(1)}%), ${examplesAnchored}/${totalExamples} examples (${(100 * examplesAnchored / totalExamples).toFixed(1)}%)`);
     console.log(`   - Formality metadata: ${pointsWithFormality}/${totalPoints} points (from ${FORMALITY_PATH})`);
+    const strandedDonations = [...absorbed.keys()].filter(id => !emittedIds.has(id));
+    if (strandedDonations.length > 0) {
+        throw new Error(
+            `duplicates.json: ${strandedDonations.length} 'contrast' canonical(s) absorbed examples but were ` +
+            `never emitted, so those sentences are lost: ${strandedDonations.join(', ')}`
+        );
+    }
+
+    const contrastMerges = Object.values(duplicateMap).filter(e => e.relation === 'contrast').length;
     console.log(`   - Duplicates dropped: ${droppedForDuplicate} (aliased in index/aliases.json, from ${DUPLICATES_PATH})`);
+    console.log(`       ${droppedForDuplicate - contrastMerges} redundant (examples discarded), ${contrastMerges} contrast (examples absorbed onto the canonical)`);
     const kindCounts = { construction: 0, inflection: 0, lexical: 0 } as Record<string, number>;
     for (const id of seenIds) kindCounts[kindMap[id]?.kind ?? 'construction']++;
     console.log(`   - Point kinds: ${kindCounts.construction} construction, ${kindCounts.inflection} inflection, ${kindCounts.lexical} lexical (from ${KINDS_PATH})`);
