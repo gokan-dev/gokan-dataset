@@ -157,6 +157,47 @@ describe('false anchors from formations that alternate inside a slot', () => {
         expect(locatePattern('Noun + びた', sentence)).toContain(2);
     });
 
+    it('blanks EVERY occurrence of a marker the title states twice', () => {
+        // gokan-dev/gokan-dataset#23: with only the first やら blanked, the second
+        // one stands in the sentence as the answer. The count cannot come from
+        // `formation`, which lists やら once per slot alternative.
+        const sentence = words(['寿题'], ['やら'], ['掲除'], ['やら'], ['。']);
+        const formation = 'Verb-casual + やら, い-Adjective + やら, Noun + やら';
+        const hit = locatePattern(formation, sentence, '～やら～やら')!;
+        expect(hit).toEqual([1, 3]);
+    });
+
+    it('leaves a coincidental recurrence alone when the title does NOT repeat', () => {
+        // 東京も大阪も has two も, but "Noun + も" is one Noun も twice over, not
+        // a repeating marker - blanking one is correct.
+        const sentence = words(['東京'], ['も'], ['大阪'], ['も'], ['。']);
+        const hit = locatePattern('Noun + も', sentence, 'Noun も～')!;
+        expect(hit).toHaveLength(1);
+    });
+
+    it('does not make a marker greedy because unrelated title scaffolding repeats', () => {
+        // "文A。そのうえ 文B。" repeats 文, which IS Japanese and so lands in the
+        // repeated set - but 文 is unrelated to the marker そのうえ, which stays
+        // single-occurrence. Three N4 points have this title shape.
+        const sentence = words(['この'], ['ソフト'], ['は'], ['使いやすい'], ['。'], ['そのうえ'], ['、'], ['安い'], ['。']);
+        const hit = locatePattern('文A。そのうえ 文B。', sentence, '文A。そのうえ 文B。')!;
+        expect(hit.map(i => sentence[i].surface).join('')).toBe('そのうえ');
+    });
+
+    it('finds a repeating marker only as the suffix of a single token', () => {
+        // Greedy matching multiplies the containment heuristic by the number of
+        // occurrences. Unconstrained, し was "found" interior to 美味しい and
+        // blanked the whole adjective; り inside たり must still be found.
+        const shi = words(['料理'], ['が'], ['美味しい'], ['し'], ['、'], ['安い'], ['し'], ['。']);
+        const shiHit = locatePattern('い-Adjective + し', shi, '～し、～し、～')!;
+        expect(shiHit).toEqual([3, 6]);
+        expect(shiHit).not.toContain(2);
+
+        const tari = words(['暑かっ'], ['たり'], ['、'], ['寒かっ'], ['たり'], ['する']);
+        const tariHit = locatePattern('Verb-ta + り + next verb-ta + り', tari, '～たり～たり')!;
+        expect(tariHit).toEqual([1, 4]);
+    });
+
     it('prefers the tighter anchor when two variants recover the same marker', () => {
         // Both "の + どうですか" and bare "どうですか" recover どうですか; the one
         // that does not also drag in a bystander wins.

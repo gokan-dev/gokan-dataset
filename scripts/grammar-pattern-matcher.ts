@@ -52,7 +52,23 @@ import type { GrammarExampleWord } from '../src/models/grammar.model';
  *    separates them, and the ratio is measured against the concatenated span
  *    rather than any single token so a fused two-token span is judged as a whole.
  *
- * 6. Literals are matched longest-first, so a short, generic literal (a bare
+ * 6. A pattern whose marker REPEATS (`A にしろ B にしろ`) must have every
+ *    occurrence blanked, or the sentence hands over its own answer: with only
+ *    the first にしろ blanked, 行く[__]行かないにしろ leaves the second one in
+ *    plain sight. The occurrence count cannot come from `formation`, which
+ *    lists the marker once per slot alternative
+ *    ("Verb + にしろ, い-Adjective + にしろ, ...") and is then split into
+ *    single-occurrence variants by `variantsOf`. It comes from the TITLE, which
+ *    is where the repetition is actually stated - 30 of 755 points repeat a
+ *    literal in their title, and every one is a genuine repeating pattern.
+ *
+ *    The literal being searched only counts as the repeated one if it contains
+ *    the title's repeated literal or is contained by it (だし contains し for
+ *    "〜し、〜し、〜"; と is contained by うと for "A うと B うと"). That test is
+ *    what keeps `文A。そのうえ 文B。` out of it: 文 repeats, but the marker
+ *    そのうえ is unrelated to it and stays single-occurrence.
+ *
+ * 7. Literals are matched longest-first, so a short, generic literal (a bare
  *    particle like を) can't claim a token index a longer, more distinctive
  *    literal also needs (をめぐって tokenizes as ONE fused token; を alone
  *    would happily "find" it via includes() and block めぐって from the same
@@ -83,6 +99,18 @@ function variantsOf(formation: string): string[] {
         .filter(Boolean);
 }
 
+/**
+ * The Japanese literals a title states more than once - see doc comment point 6.
+ * Scaffolding like A / B / 〜 is not Japanese so it never lands here, but 文
+ * ("sentence A ... sentence B") does, which is why callers must also check that
+ * the literal they are matching is related to it.
+ */
+export function repeatedTitleLiterals(title: string): Set<string> {
+    const counts = new Map<string, number>();
+    for (const run of title.matchAll(JP_RUN)) counts.set(run[0], (counts.get(run[0]) ?? 0) + 1);
+    return new Set([...counts].filter(([, n]) => n > 1).map(([run]) => run));
+}
+
 const MAX_SPAN = 8; // longest observed literal needing multi-token concatenation (ともなると = 4 tokens); generous headroom above that.
 const SUBSTRING_MAX_SPAN = 2; // see doc comment point 4 - kept narrow to avoid accidental containment on longer spans.
 /**
@@ -109,7 +137,11 @@ interface VariantMatch {
     requiredLiterals: Set<string>;
 }
 
-function matchVariant(words: GrammarExampleWord[], variant: string): VariantMatch | null {
+function matchVariant(
+    words: GrammarExampleWord[],
+    variant: string,
+    repeatedInTitle: Set<string>
+): VariantMatch | null {
     const occurrences = [...variant.matchAll(JP_RUN)].map(m => m[0]);
     if (occurrences.length === 0) return null;
 
@@ -117,7 +149,7 @@ function matchVariant(words: GrammarExampleWord[], variant: string): VariantMatc
     const counts = new Map<string, number>();
     for (const lit of occurrences) counts.set(lit, (counts.get(lit) ?? 0) + 1);
 
-    // Longest first (point 6): a more specific literal gets first claim on a
+    // Longest first (point 7): a more specific literal gets first claim on a
     // token span before a shorter, more generic one can steal it.
     const orderedLiterals = Array.from(requiredLiterals).sort((a, b) => b.length - a.length);
 
@@ -127,7 +159,10 @@ function matchVariant(words: GrammarExampleWord[], variant: string): VariantMatc
 
     for (const lit of orderedLiterals) {
         const litHira = kataToHira(lit);
-        const need = counts.get(lit) ?? 1;
+        // A repeating marker takes every occurrence the sentence offers, not the
+        // one the split-up variant happens to name - see doc comment point 6.
+        const repeats = [...repeatedInTitle].some(t => lit.includes(t) || t.includes(lit));
+        const need = repeats ? Number.POSITIVE_INFINITY : (counts.get(lit) ?? 1);
         let foundCount = 0;
 
         // Two rounds: every EXACT match is considered before any containment
@@ -157,7 +192,16 @@ function matchVariant(words: GrammarExampleWord[], variant: string): VariantMatc
                     combos.some(c => c === lit
                         || (allowSubstring
                             && c.includes(lit)
-                            && c.length - lit.length <= MAX_CONTAINMENT_RESIDUE)) ||
+                            && c.length - lit.length <= MAX_CONTAINMENT_RESIDUE
+                            // A repeating marker may only be found as the SUFFIX
+                            // of a SINGLE token. Greedy matching multiplies every
+                            // containment heuristic by the number of occurrences,
+                            // and unconstrained it blanked 美味しい whole (し is
+                            // interior to it) and dragged 暑かっ into 暑かったり (a
+                            // two-token span). Both markers here attach to the END
+                            // of the word they follow, which is what this encodes:
+                            // り inside たり passes, し inside 美味しい does not.
+                            && (!repeats || (spanLen === 1 && c.endsWith(lit))))) ||
                     (readJoin.length > 0 && readJoin === litHira);
 
                 if (isMatch) {
@@ -213,12 +257,17 @@ function distinctiveness(match: VariantMatch): number {
  * array) when nothing qualifies, so callers can distinguish "no literals at all"
  * from "found nothing usable".
  */
-export function locatePattern(formation: string, words: GrammarExampleWord[]): number[] | null {
+export function locatePattern(
+    formation: string,
+    words: GrammarExampleWord[],
+    title = ''
+): number[] | null {
     let bestFull: VariantMatch | null = null;
     let bestPartial: VariantMatch | null = null;
+    const repeatedInTitle = repeatedTitleLiterals(title);
 
     for (const variant of variantsOf(formation)) {
-        const match = matchVariant(words, variant);
+        const match = matchVariant(words, variant, repeatedInTitle);
         if (!match) continue;
 
         if (match.foundLiterals.size === match.requiredLiterals.size) {

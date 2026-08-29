@@ -478,13 +478,15 @@ export function buildExampleWords(
     vocabSet: Set<string>,
     lookup: ReturnType<typeof buildVocabLookup>,
     jp: string,
-    formation: string
+    formation: string,
+    /** The point's title - the only place a repeating marker is stated; see locatePattern. */
+    title = ''
 ): { words: GrammarExampleWord[]; patternWordIndices: number[] } {
     const spanned = spanTokens(tokenizer.tokenize(jp));
 
     // Fine-grained pass, purely to feed locatePattern - see doc comment.
     const fineWords = spanned.map(st => wordFromToken(st.token, lookup));
-    const fineHit = locatePattern(formation, fineWords) ?? [];
+    const fineHit = locatePattern(formation, fineWords, title) ?? [];
 
     const rawMatches = sentenceTokenizer.extractMatches(jp, vocabSet);
     const candidates: { term: string; start: number; length: number; reading?: string }[] = [];
@@ -706,6 +708,7 @@ async function main() {
     // Keyed by canonical, so a canonical absorbing two donors gets both.
     const absorbed = new Map<string, { donorId: string; differentiator: string; examples: RawGrammarEntry['examples'] }[]>();
     const donorFormations: Record<string, string> = {};
+    const donorTitles: Record<string, string> = {};
     for (const [levelStr, filename] of Object.entries(LEVEL_FILES)) {
         const donorRaw: RawGrammarEntry[] = JSON.parse(fs.readFileSync(path.join(RAW_DIR, filename), 'utf-8'));
         donorRaw.forEach((entry, i) => {
@@ -716,6 +719,7 @@ async function main() {
             list.push({ donorId: id, differentiator: dup.differentiator!, examples: entry.examples });
             absorbed.set(dup.canonical, list);
             donorFormations[id] = entry.formation;
+            donorTitles[id] = entry.title;
         });
     }
 
@@ -777,13 +781,15 @@ async function main() {
             // lands on the same string either way, which is exactly why the two
             // points collapsed.
             const donated = absorbed.get(id) ?? [];
-            const sourceExamples: { ex: RawGrammarEntry['examples'][number]; formation: string }[] = [
-                ...entry.examples.map(ex => ({ ex, formation: entry.formation })),
-                ...donated.flatMap(d => d.examples.map(ex => ({ ex, formation: donorFormations[d.donorId] }))),
+            const sourceExamples: { ex: RawGrammarEntry['examples'][number]; formation: string; title: string }[] = [
+                ...entry.examples.map(ex => ({ ex, formation: entry.formation, title: entry.title })),
+                ...donated.flatMap(d => d.examples.map(ex => ({
+                    ex, formation: donorFormations[d.donorId], title: donorTitles[d.donorId],
+                }))),
             ];
 
-            const examples: GrammarExample[] = sourceExamples.map(({ ex, formation: exFormation }) => {
-                const { words, patternWordIndices } = buildExampleWords(tokenizer, sentenceTokenizer, vocabSet, lookup, ex.jp, exFormation);
+            const examples: GrammarExample[] = sourceExamples.map(({ ex, formation: exFormation, title: exTitle }) => {
+                const { words, patternWordIndices } = buildExampleWords(tokenizer, sentenceTokenizer, vocabSet, lookup, ex.jp, exFormation, exTitle);
                 totalWords += words.length;
                 matchedWords += words.filter(w => w.vocabId !== null).length;
 
