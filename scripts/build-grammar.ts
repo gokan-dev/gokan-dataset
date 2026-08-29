@@ -32,6 +32,7 @@ const FORMALITY_PATH = './data/raw/grammar/formality.json';
 const DUPLICATES_PATH = './data/raw/grammar/duplicates.json';
 const KINDS_PATH = './data/raw/grammar/kinds.json';
 const VARIANTS_PATH = './data/raw/grammar/variants.json';
+const OVERRIDES_PATH = './data/raw/grammar/overrides.json';
 
 const LEVEL_FILES: Record<number, string> = {
     5: 'grammar_ja_N5_full_alphabetical_0001.json',
@@ -116,6 +117,28 @@ interface DuplicateEntry {
     differentiator?: string;
 }
 type DuplicateMap = Record<string, DuplicateEntry>;
+
+/**
+ * One entry of the hand-authored overrides.json: a correction to the vendored
+ * upstream snapshot, applied here rather than by editing
+ * data/raw/grammar/grammar_ja_N*.json - the same discipline as duplicates.json.
+ * See gokan-dev/gokan-dataset#24.
+ *
+ * `removeExamples` lists sentences VERBATIM rather than by index, and the build
+ * throws when one no longer matches. Indices would silently shift if the
+ * snapshot were ever refreshed; a text match turns that into a build failure.
+ */
+interface OverrideEntry {
+    /** Replaces the upstream formation string. Must differ from it. */
+    formation?: string;
+    /** Example `jp` values to drop, matched exactly. */
+    removeExamples?: string[];
+    note: string;
+}
+type OverrideMap = Record<string, OverrideEntry>;
+
+/** Below this a point serves the same handful of sentences forever. */
+const MIN_EXAMPLES_PER_POINT = 2;
 
 /**
  * One entry of the hand-authored kinds.json mapping. Only points that are NOT
@@ -608,6 +631,12 @@ async function main() {
         : {};
 
     // Optional too - an empty/absent file simply means nothing is deduplicated.
+    const overrideMap: OverrideMap = fs.existsSync(OVERRIDES_PATH)
+        ? Object.fromEntries(Object.entries(
+            JSON.parse(fs.readFileSync(OVERRIDES_PATH, 'utf-8')) as Record<string, OverrideEntry>
+        ).filter(([id]) => !id.startsWith('_')))
+        : {};
+
     const duplicateMap: DuplicateMap = fs.existsSync(DUPLICATES_PATH)
         ? JSON.parse(fs.readFileSync(DUPLICATES_PATH, 'utf-8'))
         : {};
@@ -748,6 +777,8 @@ async function main() {
     const pointsWithNoAnchor: string[] = [];
     let pointsWithFormality = 0;
     let droppedForDuplicate = 0;
+    let overriddenFormations = 0;
+    let overriddenExamples = 0;
     const seenIds = new Set<string>();
     // Every id the raw files produce, including dropped duplicates - lets the
     // build tell "typo in duplicates.json" apart from "correctly dropped".
@@ -780,9 +811,40 @@ async function main() {
             // would not locate against "Verb (past tense) + ほうがいい". The blank
             // lands on the same string either way, which is exactly why the two
             // points collapsed.
+            // Upstream corrections. Applied to the raw entry before anything else
+            // reads it, so locatePattern sees the corrected formation too - a
+            // wrong attachment in `formation` is a wrong anchor waiting to happen.
+            const override = overrideMap[id];
+            const entryFormation = override?.formation ?? entry.formation;
+            const removed = new Set(override?.removeExamples ?? []);
+            const keptExamples = entry.examples.filter(ex => !removed.has(ex.jp));
+            if (removed.size > 0) {
+                const missing = [...removed].filter(jp => !entry.examples.some(ex => ex.jp === jp));
+                if (missing.length > 0) {
+                    throw new Error(
+                        `overrides.json: "${id}" lists ${missing.length} example(s) to remove that no ` +
+                        `longer exist upstream - the snapshot has drifted, so re-check the correction: ` +
+                        `${missing.join(' | ')}`
+                    );
+                }
+                if (keptExamples.length < MIN_EXAMPLES_PER_POINT) {
+                    throw new Error(
+                        `overrides.json: removing ${removed.size} example(s) would leave "${id}" with ` +
+                        `${keptExamples.length}, below MIN_EXAMPLES_PER_POINT (${MIN_EXAMPLES_PER_POINT}).`
+                    );
+                }
+                overriddenExamples += removed.size;
+            }
+            if (override?.formation) {
+                if (override.formation === entry.formation) {
+                    throw new Error(`overrides.json: "${id}" restates the upstream formation verbatim - drop the entry.`);
+                }
+                overriddenFormations++;
+            }
+
             const donated = absorbed.get(id) ?? [];
             const sourceExamples: { ex: RawGrammarEntry['examples'][number]; formation: string; title: string }[] = [
-                ...entry.examples.map(ex => ({ ex, formation: entry.formation, title: entry.title })),
+                ...keptExamples.map(ex => ({ ex, formation: entryFormation, title: entry.title })),
                 ...donated.flatMap(d => d.examples.map(ex => ({
                     ex, formation: donorFormations[d.donorId], title: donorTitles[d.donorId],
                 }))),
@@ -829,7 +891,7 @@ async function main() {
                 jlptLevel: level,
                 shortExplanation: sanitizeGlyphs(entry.short_explanation),
                 longExplanation: sanitizeGlyphs(entry.long_explanation),
-                formation: sanitizeGlyphs(entry.formation),
+                formation: sanitizeGlyphs(entryFormation),
                 examples,
                 ...(formality?.formalityLevel ? { formalityLevel: formality.formalityLevel } : {}),
                 ...(usageNote ? { usageNote } : {}),
@@ -908,6 +970,18 @@ async function main() {
     console.log(`   - Words tokenized: ${totalWords} (${matchedWords} resolved to a vocab id, ${(100 * matchedWords / totalWords).toFixed(1)}%)`);
     console.log(`   - Pattern located: ${totalPoints - pointsWithNoAnchor.length}/${totalPoints} points (${(100 * (totalPoints - pointsWithNoAnchor.length) / totalPoints).toFixed(1)}%), ${examplesAnchored}/${totalExamples} examples (${(100 * examplesAnchored / totalExamples).toFixed(1)}%)`);
     console.log(`   - Formality metadata: ${pointsWithFormality}/${totalPoints} points (from ${FORMALITY_PATH})`);
+    const unknownOverrides = Object.keys(overrideMap).filter(id => !allRawIds.has(id));
+    if (unknownOverrides.length > 0) {
+        throw new Error(`overrides.json: ${unknownOverrides.length} unknown id(s): ${unknownOverrides.join(', ')}`);
+    }
+    const droppedOverrides = Object.keys(overrideMap).filter(id => droppedIds.has(id));
+    if (droppedOverrides.length > 0) {
+        throw new Error(
+            `overrides.json: ${droppedOverrides.length} id(s) are also listed in duplicates.json, so the ` +
+            `correction can never apply: ${droppedOverrides.join(', ')}. Move it to the canonical.`
+        );
+    }
+
     const strandedDonations = [...absorbed.keys()].filter(id => !emittedIds.has(id));
     if (strandedDonations.length > 0) {
         throw new Error(
@@ -917,6 +991,7 @@ async function main() {
     }
 
     const contrastMerges = Object.values(duplicateMap).filter(e => e.relation === 'contrast').length;
+    console.log(`   - Upstream corrections: ${overriddenFormations} formation(s) replaced, ${overriddenExamples} example(s) removed (from ${OVERRIDES_PATH})`);
     console.log(`   - Duplicates dropped: ${droppedForDuplicate} (aliased in index/aliases.json, from ${DUPLICATES_PATH})`);
     console.log(`       ${droppedForDuplicate - contrastMerges} redundant (examples discarded), ${contrastMerges} contrast (examples absorbed onto the canonical)`);
     const kindCounts = { construction: 0, inflection: 0, lexical: 0 } as Record<string, number>;

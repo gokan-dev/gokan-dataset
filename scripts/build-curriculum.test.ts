@@ -219,6 +219,64 @@ describe.skipIf(!built)('banned glyphs', () => {
     });
 });
 
+describe.skipIf(!built)('upstream corrections', () => {
+    /**
+     * overrides.json corrects the vendored snapshot at build time rather than by
+     * editing it. Both operations fail silently if they stop applying - a
+     * `removeExamples` entry that no longer matches leaves the bad sentence in
+     * place, and a `formation` override that is ignored leaves locatePattern
+     * anchoring against the wrong attachment. The build throws on drift; this
+     * asserts the output.
+     */
+    const OVERRIDES_PATH = './data/raw/grammar/overrides.json';
+    const hasOverrides = fs.existsSync(OVERRIDES_PATH);
+    let overrides: [string, { formation?: string; removeExamples?: string[] }][];
+    let points: Map<string, GrammarPoint>;
+
+    beforeAll(() => {
+        const raw: Record<string, { formation?: string; removeExamples?: string[] }> =
+            hasOverrides ? JSON.parse(fs.readFileSync(OVERRIDES_PATH, 'utf-8')) : {};
+        overrides = Object.entries(raw).filter(([id]) => !id.startsWith('_'));
+        points = new Map();
+        for (const file of fs.readdirSync(POINTS_DIR)) {
+            if (!file.endsWith('.json')) continue;
+            const point: GrammarPoint = JSON.parse(fs.readFileSync(path.join(POINTS_DIR, file), 'utf-8'));
+            points.set(point.id, point);
+        }
+    });
+
+    it.skipIf(!hasOverrides)('targets only points that actually survive to the output', () => {
+        // An override on a point dropped by duplicates.json can never apply.
+        expect(overrides.filter(([id]) => !points.has(id)).map(([id]) => id)).toEqual([]);
+    });
+
+    it.skipIf(!hasOverrides)('removes every example it says it removes', () => {
+        const survivors: string[] = [];
+        for (const [id, entry] of overrides) {
+            for (const jp of entry.removeExamples ?? []) {
+                if (points.get(id)!.examples.some(ex => ex.jp === jp)) survivors.push(`${id}: ${jp}`);
+            }
+        }
+        expect(survivors).toEqual([]);
+    });
+
+    it.skipIf(!hasOverrides)('uses the corrected formation, not the upstream one', () => {
+        for (const [id, entry] of overrides) {
+            if (!entry.formation) continue;
+            // Compared after glyph sanitisation, which also runs on formation.
+            expect(points.get(id)!.formation.replace(/\s+/g, ' '))
+                .toBe(entry.formation.replace(/\s+/g, ' '));
+        }
+    });
+
+    it('never leaves a point with fewer than two examples', () => {
+        // Removals are the only thing that can drive a point below its upstream
+        // four, and one example means the same sentence forever.
+        const thin = [...points.values()].filter(p => p.examples.length < 2).map(p => `${p.id} (${p.examples.length})`);
+        expect(thin).toEqual([]);
+    });
+});
+
 describe.skipIf(!built)('contrast merges', () => {
     /**
      * A 'contrast' entry in duplicates.json collapses a pair that is NOT the
