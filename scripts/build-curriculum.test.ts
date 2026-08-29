@@ -183,3 +183,58 @@ describe.skipIf(!built)('point kinds', () => {
         }
     });
 });
+
+describe.skipIf(!fs.existsSync('./compiled/grammar/index/browse.json'))('browse index', () => {
+    let browse: {
+        points: { id: string; kind: string; orderIndex: number | null; variantOf?: string; jlptLevel: number }[];
+        stats: Record<string, unknown> & { points: number; introduced: number; variants: number; byKind: Record<string, number> };
+    };
+    let pointIds: Set<string>;
+
+    beforeAll(() => {
+        browse = JSON.parse(fs.readFileSync('./compiled/grammar/index/browse.json', 'utf-8'));
+        pointIds = new Set(fs.readdirSync(POINTS_DIR).filter(f => f.endsWith('.json')).map(f => f.replace('.json', '')));
+    });
+
+    it('has exactly one row per compiled point', () => {
+        expect(browse.points).toHaveLength(pointIds.size);
+        const ids = new Set(browse.points.map(p => p.id));
+        expect(ids.size).toBe(browse.points.length);
+        expect([...pointIds].filter(id => !ids.has(id))).toEqual([]);
+    });
+
+    it('agrees with the teaching order about what is introduced', () => {
+        // The browse page shows "not introduced" from this field, so a drift here
+        // would misreport the dataset rather than merely look wrong.
+        const order: GrammarTeachingOrder = JSON.parse(fs.readFileSync(ORDER_PATH, 'utf-8'));
+        const introduced = browse.points.filter(p => p.orderIndex !== null);
+        expect(introduced).toHaveLength(order.order.length);
+
+        for (const row of browse.points) {
+            if (row.orderIndex === null) continue;
+            expect(order.order[row.orderIndex], `${row.id} claims order index ${row.orderIndex}`).toBe(row.id);
+        }
+    });
+
+    it('marks exactly the realization variants as excluded from the order', () => {
+        const excluded = browse.points.filter(p => p.orderIndex === null).map(p => p.id).sort();
+        const variants = browse.points.filter(p => p.variantOf).map(p => p.id).sort();
+        expect(excluded).toEqual(variants);
+    });
+
+    it('reports stats that match its own rows', () => {
+        expect(browse.stats.points).toBe(browse.points.length);
+        expect(browse.stats.introduced).toBe(browse.points.filter(p => p.orderIndex !== null).length);
+        expect(browse.stats.variants).toBe(browse.points.filter(p => p.variantOf).length);
+
+        const kindCounts: Record<string, number> = {};
+        for (const row of browse.points) kindCounts[row.kind] = (kindCounts[row.kind] ?? 0) + 1;
+        expect(browse.stats.byKind).toEqual(kindCounts);
+    });
+
+    it('is sorted introduction-order first, variants last', () => {
+        const firstNull = browse.points.findIndex(p => p.orderIndex === null);
+        if (firstNull === -1) return;
+        expect(browse.points.slice(firstNull).every(p => p.orderIndex === null)).toBe(true);
+    });
+});
