@@ -139,6 +139,24 @@ describe('false anchors from formations that alternate inside a slot', () => {
         expect(hit.map(i => sentence[i].surface).join('')).toBe('を');
     });
 
+    it('does not let a short literal claim a long token that merely contains it', () => {
+        // gokan-dev/gokan-dataset#21: です found inside 売ってないです (2 of 7
+        // characters) blanked the whole negated verb. The containment residue -
+        // what the literal did NOT cover - is a full verb plus its negation here,
+        // not a stem.
+        const sentence = words(['ここ'], ['で'], ['売ってないです', 'うってないです']);
+        // null, not a wrong index: refusing the anchor is the right outcome when
+        // the only candidate is a token the literal barely covers.
+        expect(locatePattern('Noun + です', sentence)).toBeNull();
+    });
+
+    it('still allows containment for the fused suffix it exists for', () => {
+        // びた is 2 of 大人びた's 4 - residue 大人, a stem. This is the case
+        // point 4 of the doc comment exists for and must survive the guard.
+        const sentence = words(['彼'], ['は'], ['大人びた', 'おとなびた']);
+        expect(locatePattern('Noun + びた', sentence)).toContain(2);
+    });
+
     it('prefers the tighter anchor when two variants recover the same marker', () => {
         // Both "の + どうですか" and bare "どうですか" recover どうですか; the one
         // that does not also drag in a bystander wins.

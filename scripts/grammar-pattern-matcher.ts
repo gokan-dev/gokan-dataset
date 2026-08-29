@@ -43,7 +43,16 @@ import type { GrammarExampleWord } from '../src/models/grammar.model';
  *    literal "びた" without equaling it). Kept to 2 tokens specifically -
  *    wider substring search on longer spans risks accidental containment.
  *
- * 5. Literals are matched longest-first, so a short, generic literal (a bare
+ * 5. Containment (point 4) additionally requires the literal to cover at least
+ *    half of the token it was found inside. Without that, a 2-character literal
+ *    can claim an entire unrelated conjugated word: `です` was found inside
+ *    `売ってないです` (2 of 7 characters) and the quiz then blanked the
+ *    whole verb. The case containment exists for sits right at the boundary
+ *    (`びた` is 2 of `大人びた`'s 4), so half is the loosest threshold that
+ *    separates them, and the ratio is measured against the concatenated span
+ *    rather than any single token so a fused two-token span is judged as a whole.
+ *
+ * 6. Literals are matched longest-first, so a short, generic literal (a bare
  *    particle like を) can't claim a token index a longer, more distinctive
  *    literal also needs (をめぐって tokenizes as ONE fused token; を alone
  *    would happily "find" it via includes() and block めぐって from the same
@@ -76,6 +85,11 @@ function variantsOf(formation: string): string[] {
 
 const MAX_SPAN = 8; // longest observed literal needing multi-token concatenation (ともなると = 4 tokens); generous headroom above that.
 const SUBSTRING_MAX_SPAN = 2; // see doc comment point 4 - kept narrow to avoid accidental containment on longer spans.
+/**
+ * A containment match must cover at least this fraction of the token it was
+ * found inside - see doc comment point 5.
+ */
+const MAX_CONTAINMENT_RESIDUE = 3;
 
 /** Every surface/baseForm combination for a token span, e.g. [来(baseForm none), まし(baseForm ます)] -> ["来まし", "来ます"]. */
 function spanFormCombinations(span: GrammarExampleWord[]): string[] {
@@ -103,7 +117,7 @@ function matchVariant(words: GrammarExampleWord[], variant: string): VariantMatc
     const counts = new Map<string, number>();
     for (const lit of occurrences) counts.set(lit, (counts.get(lit) ?? 0) + 1);
 
-    // Longest first (point 5): a more specific literal gets first claim on a
+    // Longest first (point 6): a more specific literal gets first claim on a
     // token span before a shorter, more generic one can steal it.
     const orderedLiterals = Array.from(requiredLiterals).sort((a, b) => b.length - a.length);
 
@@ -140,7 +154,10 @@ function matchVariant(words: GrammarExampleWord[], variant: string): VariantMatc
                 // second token. Surface/baseForm containment is still allowed -
                 // point 4 above needs it (大人びた contains びた).
                 const isMatch =
-                    combos.some(c => c === lit || (allowSubstring && c.includes(lit))) ||
+                    combos.some(c => c === lit
+                        || (allowSubstring
+                            && c.includes(lit)
+                            && c.length - lit.length <= MAX_CONTAINMENT_RESIDUE)) ||
                     (readJoin.length > 0 && readJoin === litHira);
 
                 if (isMatch) {

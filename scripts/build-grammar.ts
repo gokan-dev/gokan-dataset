@@ -26,6 +26,7 @@ import { SentenceTokenizer } from '../src/utils/tokenizer';
 
 const RAW_DIR = './data/raw/grammar';
 const SEARCH_INDEX_PATH = './compiled/index/search.json';
+const VOCAB_DIR = './compiled/vocab';
 const OUTPUT_DIR = './compiled/grammar';
 const FORMALITY_PATH = './data/raw/grammar/formality.json';
 const DUPLICATES_PATH = './data/raw/grammar/duplicates.json';
@@ -144,7 +145,67 @@ type VariantMap = Record<string, VariantEntry>;
 // construction itself, not a vocabulary item the user is being tested on).
 const CONTENT_POS = new Set(['名詞', '動詞', '形容詞', '副詞']);
 
-export function buildVocabLookup(searchIndex: SearchIndex) {
+/**
+ * A kanaRank worse than this is treated as "not actually written in kana".
+ * 語呂 carries 223,348, meaning the corpus has seen ごろ somewhere - which is not
+ * the same as ごろ being a spelling of 語呂. Everything the reading index
+ * legitimately needs is far inside this: the rarest kana spelling still wanted
+ * is 方々 かたがた at 31,997, then 寿司 すし at 27,587.
+ *
+ * The threshold does not have to separate 堂 どう (32,301) or 沿う そう (7,601)
+ * from those, and deliberately does not try - frequency cannot, since 賩やか
+ * (10,300, wanted) is rarer than 沿う. Ambiguity is what keeps どう and そう
+ * unlinked, which is why it is measured BEFORE this filter runs.
+ */
+const KANA_RANK_LIMIT = 50000;
+
+const KANA_ONLY = /^[ぁ-ゟ゠-ヿー]+$/;
+
+/**
+ * The ids of vocab entries whose KANA spelling is a real written form of the
+ * word, read from the full vocab records (`compiled/vocab/*.json`) because
+ * `search.json` carries only w/r/m.
+ *
+ * This is the discriminator for the second homophone defect
+ * (gokan-dev/gokan-dataset#22). The あります -> 蟻 fix blocked reading matches on
+ * AMBIGUOUS readings, which cannot catch a reading claimed by exactly one kanji
+ * entry that is a different word: さっき ("a moment ago", absent from the index)
+ * resolved to 殺気 "bloodlust", なん to 難 "difficulty", ごろ to 語呂 "pun".
+ * All three readings have exactly one claimant, so the ambiguity guard passes.
+ *
+ * Frequency is not the discriminator - 何時も (legitimate, rank 17,725) is rarer
+ * than 殺気 (wrong, rank 3,677). Neither is `writtenForm.alternatives`, which
+ * holds only other KANJI spellings (毆ど lists 毆んど / 幾ど; 何時も lists
+ * nothing). Two fields do separate them cleanly:
+ *
+ *   - JMDict's `uk` misc tag, "usually written using kana alone": on 何時も,
+ *     毆ど, 丸で, 有る, 居る - not on 殺気, 難, 語呂.
+ *   - `frequency.kanaRank`, present only when the kana spelling has measurable
+ *     corpus frequency: 時 has 215 (とき is a real spelling and `uk` is absent,
+ *     so this arm is load-bearing), 殺気 and 難 have none at all.
+ */
+export function buildKanaWritableIds(searchIndex: SearchIndex, vocabDir = VOCAB_DIR): Set<string> {
+    const ids = new Set<string>();
+    for (const entry of searchIndex) {
+        const file = path.join(vocabDir, `${entry.id}.json`);
+        if (!fs.existsSync(file)) continue;
+        const record = JSON.parse(fs.readFileSync(file, 'utf-8')) as {
+            frequency?: { kanaRank?: number };
+            senses?: Array<{ misc?: { rawTags?: string[] } }>;
+        };
+        const usuallyKana = (record.senses ?? []).some(sense => (sense.misc?.rawTags ?? []).includes('uk'));
+        const kanaRank = record.frequency?.kanaRank;
+        if (usuallyKana || (kanaRank != null && kanaRank <= KANA_RANK_LIMIT)) ids.add(entry.id);
+    }
+    return ids;
+}
+
+/**
+ * `kanaWritableIds` gates the reading index - see buildKanaWritableIds. Required
+ * rather than optional on purpose: an absent set would fail OPEN and silently
+ * restore the さっき -> 殺気 class of link.
+ */
+export function buildVocabLookup(searchIndex: SearchIndex, kanaWritableIds: Set<string>) {
     const byWrittenForm = new Map<string, { id: string; r: string }>();
     const byReading = new Map<string, { id: string; r: string }>();
     // Readings claimed by more than one distinct written form. A reading match on
@@ -152,13 +213,31 @@ export function buildVocabLookup(searchIndex: SearchIndex) {
     // frequency-ordered, so "first wins" silently picks the commonest homophone -
     // which is how あり (the stem of ある) came to be linked to 蟻 "ant".
     const ambiguousReadings = new Set<string>();
+    /** First entry seen per reading, for the ambiguity pass only. */
+    const readingClaimants = new Map<string, string>();
+
+    // Ambiguity is measured over EVERY entry, before the kana-spelling filter
+    // below removes any. Measuring it over the survivors instead would let the
+    // filter un-ambiguate a reading and mint links that had correctly been
+    // refused: with 堂 the last entry standing on どう, 37 examples linked どう
+    // to "temple", and 25 linked そう to 沿う "to run along". Frequency cannot
+    // separate those from the ones worth keeping (賩やか, wanted, is rarer than
+    // 沿う) - only the homophony that was already there can.
+    for (const entry of searchIndex) {
+        const claimant = readingClaimants.get(entry.r);
+        if (claimant === undefined) readingClaimants.set(entry.r, entry.id);
+        else if (claimant !== entry.id) ambiguousReadings.add(entry.r);
+    }
 
     for (const entry of searchIndex) {
         if (!byWrittenForm.has(entry.w)) byWrittenForm.set(entry.w, { id: entry.id, r: entry.r });
 
-        const existing = byReading.get(entry.r);
-        if (!existing) byReading.set(entry.r, { id: entry.id, r: entry.r });
-        else if (existing.id !== entry.id) ambiguousReadings.add(entry.r);
+        // An entry only enters the reading index if its reading is a spelling
+        // the word is actually written with - either because the written form IS
+        // kana, or because the vocab record says the kana spelling is current.
+        if (!KANA_ONLY.test(entry.w) && !kanaWritableIds.has(entry.id)) continue;
+
+        if (!byReading.has(entry.r)) byReading.set(entry.r, { id: entry.id, r: entry.r });
     }
 
     return { byWrittenForm, byReading, ambiguousReadings };
@@ -225,8 +304,6 @@ function spanTokens(tokens: kuromoji.IpadicFeatures[]): SpannedToken[] {
 }
 
 /** Builds a single per-kuromoji-token GrammarExampleWord, the fallback for text a sentence-match didn't cover. */
-const KANA_ONLY = /^[ぁ-ゟ゠-ヿー]+$/;
-
 /**
  * Resolves one kuromoji token to a vocab entry, or to null.
  *
@@ -385,6 +462,31 @@ export function buildExampleWords(
     }
     accepted.sort((a, b) => a.start - b.start);
 
+    // Merge-span guard. `SentenceTokenizer` extends a verb/adjective match over
+    // its whole conjugation chain, and when the point's own marker sits in that
+    // chain the merged word swallows it: 読みぬく became ONE word linked to 読む,
+    // so `~ぬく`'s blank asked for the entire conjugated verb instead of ぬく and
+    // graded it against 読む's accept-list. Same shape for 見ながら / ながら,
+    // 食べてしまう / てしまう and seven more points.
+    //
+    // The fine-grained pass already found the right anchor (just ぬく), so the
+    // fix is to refuse the merge rather than to re-map it: any match that covers
+    // an anchor token AND reaches beyond it is dropped, and `emitGap` then emits
+    // those tokens individually. The vocab link survives on the stem token
+    // (読み has basic_form 読む, which `byWrittenForm` resolves), so this costs the
+    // compound surface, not the linking.
+    const anchorSpans = fineHit.map(i => spanned[i]).filter(Boolean);
+    const merged = accepted.filter(m => {
+        const mEnd = m.start + m.length;
+        const covered = anchorSpans.filter(st => st.start >= m.start && st.end <= mEnd);
+        if (covered.length === 0) return true;
+        // Kept when the merge IS the anchor and nothing more - a marker that the
+        // vocab index happens to carry as a word is still a legitimate link.
+        const lo = Math.min(...covered.map(st => st.start));
+        const hi = Math.max(...covered.map(st => st.end));
+        return m.start === lo && mEnd === hi;
+    });
+
     const words: GrammarExampleWord[] = [];
     // Maps an original (fine-grained) token index to the index in `words[]` it
     // ended up merged into - lets a fine-grained patternWordIndices hit be
@@ -401,7 +503,7 @@ export function buildExampleWords(
         });
     };
 
-    for (const m of accepted) {
+    for (const m of merged) {
         emitGap(cursor, m.start);
 
         const surface = jp.slice(m.start, m.start + m.length);
@@ -439,7 +541,12 @@ async function main() {
     }
 
     const searchIndex: SearchIndex = JSON.parse(fs.readFileSync(SEARCH_INDEX_PATH, 'utf-8'));
-    const lookup = buildVocabLookup(searchIndex);
+    if (!fs.existsSync(VOCAB_DIR)) {
+        throw new Error(`${VOCAB_DIR} not found. Run 'bun run build:data' first - the kana-spelling gate in buildVocabLookup reads it.`);
+    }
+    const kanaWritableIds = buildKanaWritableIds(searchIndex);
+    console.log(`  ✓ ${kanaWritableIds.size} entries whose kana spelling is a real written form`);
+    const lookup = buildVocabLookup(searchIndex, kanaWritableIds);
     // Written forms only (matches build-data.ts's own vocabSet for its sentence
     // pipeline) - SentenceTokenizer matches literal surface text, not readings.
     const vocabSet = new Set(lookup.byWrittenForm.keys());

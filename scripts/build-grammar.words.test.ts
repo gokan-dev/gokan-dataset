@@ -19,6 +19,7 @@ describe('buildExampleWords (sentence-matching upgrade)', () => {
         { id: 'v-hayai', w: '早い', r: 'はやい', m: 'early, fast' },
         { id: 'v-kayou', w: '通う', r: 'かよう', m: 'to commute' },
         { id: 'v-warau', w: '笑う', r: 'わらう', m: 'to laugh' },
+        { id: 'v-yomu', w: '読む', r: 'よむ', m: 'to read' },
         // A particle-like JMDict entry, to exercise the content-POS rejection guard.
         { id: 'v-wa', w: 'は', r: 'は', m: 'topic marker' },
     ];
@@ -34,7 +35,7 @@ describe('buildExampleWords (sentence-matching upgrade)', () => {
     });
 
     function build(jp: string, formation: string) {
-        const lookup = buildVocabLookup(searchIndex);
+        const lookup = buildVocabLookup(searchIndex, new Set(searchIndex.map(e => e.id)));
         const vocabSet = new Set(lookup.byWrittenForm.keys());
         return buildExampleWords(tokenizer, sentenceTokenizer, vocabSet, lookup, jp, formation);
     }
@@ -65,6 +66,26 @@ describe('buildExampleWords (sentence-matching upgrade)', () => {
         // Every reported index must be valid against the MERGED output, not the
         // fine-grained one it was originally found against.
         for (const i of patternWordIndices) expect(words[i]).toBeDefined();
+    });
+
+    it('refuses a merge that would swallow the pattern anchor (gokan-dev/gokan-dataset#21)', () => {
+        // 読みぬく: SentenceTokenizer extends the 読む match over the whole
+        // conjugation chain, so ぬく - the point's entire marker - ended up inside
+        // one merged word linked to 読む. The blank then asked for the conjugated
+        // verb and graded it against 読む's accept-list.
+        const { words: out, patternWordIndices } = build('彼は本を読みぬく。', 'Verb-ますstem + ぬく');
+        const anchored = patternWordIndices.map(i => out[i].surface).join('');
+        expect(anchored).toBe('ぬく');
+        expect(out.some(word => word.surface === '読みぬく')).toBe(false);
+    });
+
+    it('keeps a merge whose span IS the anchor and nothing more', () => {
+        // The guard must only reject merges that reach BEYOND the anchor - a
+        // marker the vocab index happens to carry as a word stays linked.
+        const { words: out, patternWordIndices } = build('早い方がいい。', 'Adjective + 早い');
+        const anchored = patternWordIndices.map(i => out[i].surface).join('');
+        expect(anchored).toBe('早い');
+        expect(out.find(word => word.surface === '早い')?.vocabId).toBe('v-hayai');
     });
 
     it('does not resolve a matched particle-only span to a vocabId (content-POS guard)', () => {
@@ -103,10 +124,22 @@ describe('vocab linking precision (the あり -> 蟻 bug)', () => {
         // An uninflected kana word stored under a kanji written form - the case
         // the reading fallback legitimately exists for.
         { id: 'v-itsumo', w: '何時も', r: 'いつも', m: 'always' },
+        // 殺気 "bloodlust" is the ONLY claimant of the reading さっき, so the
+        // ambiguity guard cannot stop it - and さっき "a moment ago" is simply
+        // absent from the index. See gokan-dev/gokan-dataset#22.
+        { id: 'v-sakki-bloodlust', w: '殺気', r: 'さっき', m: 'thirst for blood, bloodlust' },
     ];
 
+    /**
+     * What `buildKanaWritableIds` would return for this index: 何時も / 有る / 或
+     * are `uk`-tagged in JMDict and 殺気 is not, which is the whole distinction.
+     * Kana-written entries do not need listing - `buildVocabLookup` admits those
+     * on its own.
+     */
+    const KANA_WRITABLE = new Set(['v-itsumo', 'v-aru', 'v-aru2']);
+
     function link(sentence: string) {
-        const lookup = buildVocabLookup(searchIndex);
+        const lookup = buildVocabLookup(searchIndex, KANA_WRITABLE);
         const vocabSet = new Set(lookup.byWrittenForm.keys());
         const sentenceTokenizer = new SentenceTokenizer(tokenizer);
         const { words } = buildExampleWords(tokenizer, sentenceTokenizer, vocabSet, lookup, sentence, '');
@@ -123,7 +156,7 @@ describe('vocab linking precision (the あり -> 蟻 bug)', () => {
 
     it('refuses an ambiguous reading rather than guessing a homophone', () => {
         // ある is claimed by both 有る and 或, so no link is the only honest answer.
-        const lookup = buildVocabLookup(searchIndex);
+        const lookup = buildVocabLookup(searchIndex, KANA_WRITABLE);
         expect(lookup.ambiguousReadings.has('ある')).toBe(true);
         const words = link('駅の近くにコンビニがあります。');
         expect(words.find(w => w.surface === 'あり')!.vocabId).toBeNull();
@@ -145,6 +178,15 @@ describe('vocab linking precision (the あり -> 蟻 bug)', () => {
         const words = link('いつも駅に行きます。');
         const itsumo = words.find(w => w.surface === 'いつも');
         expect(itsumo?.vocabId).toBe('v-itsumo');
+    });
+
+    it('never links a kana surface to a kanji word that is not written in kana', () => {
+        // さっき ("a moment ago") must not become 殺気 ("bloodlust"). The reading
+        // has exactly one claimant, so only the kana-spelling gate rejects it.
+        const words = link('さっき駅に行きました。');
+        const sakki = words.find(w => w.surface === 'さっき');
+        expect(sakki).toBeDefined();
+        expect(sakki!.vocabId).toBeNull();
     });
 
     it('still links words by their written form', () => {
