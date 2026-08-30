@@ -190,10 +190,25 @@ export function conjugate(
         const stem = irregular
             ? { written: irregular.stemWritten, reading: irregular.stemReading }
             : stems(lemma, lemmaReading);
-        const suffix = form === 'i-adj-adverbial' ? 'く'
-            : form === 'i-adj-te' ? 'くて'
-                : 'くないです';
-        return { written: stem.written + suffix, reading: stem.reading + suffix };
+        if (form === 'i-adj-adverbial') {
+            return { written: stem.written + 'く', reading: stem.reading + 'く' };
+        }
+        if (form === 'i-adj-te') {
+            return { written: stem.written + 'くて', reading: stem.reading + 'くて' };
+        }
+        // The polite negative has TWO standard forms and a learner may produce
+        // either: 高くないです and 高くありません. くないです is the more colloquial and
+        // is what the drill displays; くありません is the older, slightly more formal
+        // one and is equally correct, so it ships as an alternative rather than
+        // being graded wrong.
+        return {
+            written: stem.written + 'くないです',
+            reading: stem.reading + 'くないです',
+            alternatives: [{
+                written: stem.written + 'くありません',
+                reading: stem.reading + 'くありません',
+            }],
+        };
     }
 
     if (isAdjectiveForm) return null; // adjective form asked of a verb

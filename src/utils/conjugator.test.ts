@@ -195,6 +195,26 @@ describe('conjugator', () => {
             expect(form('面白い', 'おもしろい', 'i-adj-negative-polite')?.written).toBe('面白くないです');
         });
 
+        it('accepts くありません as well as くないです for the polite negative', () => {
+            // Both are standard and a learner may produce either, so grading only
+            // くないです marks a correct answer wrong.
+            const cls: WordClass = { kind: 'i-adjective' };
+            const result = conjugate('高い', 'たかい', cls, 'i-adj-negative-polite')!;
+            expect(result.written).toBe('高くないです');
+            expect(result.reading).toBe('たかくないです');
+            expect(result.alternatives).toEqual([
+                { written: '高くありません', reading: 'たかくありません' },
+            ]);
+        });
+
+        it('leaves the other adjective forms without alternatives', () => {
+            // く and くて have exactly one form each; an alternatives array here would
+            // mean the polite-negative special case had leaked.
+            const cls: WordClass = { kind: 'i-adjective' };
+            expect(conjugate('高い', 'たかい', cls, 'i-adj-adverbial')?.alternatives).toBeUndefined();
+            expect(conjugate('高い', 'たかい', cls, 'i-adj-te')?.alternatives).toBeUndefined();
+        });
+
         it('いい is irregular: よく, not いく', () => {
             const cls: WordClass = { kind: 'i-adjective' };
             expect(conjugate('いい', 'いい', cls, 'i-adj-adverbial')?.written).toBe('よく');
