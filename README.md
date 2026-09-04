@@ -1,36 +1,104 @@
+<div align="center">
+
 # gokan-dataset
 
-Open Japanese vocabulary/kanji/sentence dataset extracted from [gokan-srs](https://github.com/gokan-dev/gokan-srs) (see issue [#18](https://github.com/gokan-dev/gokan-srs/issues/18)). Compiles JMDict, KKLC, JPDB frequency data, JLPT level lists, and Tatoeba sentence pairs into flat, static JSON.
+**An open, cross-linked Japanese dataset: vocabulary, kanji, grammar, and tokenized example sentences, as flat static JSON.**
 
-**Not just for the app**: `compiled/` is meant to be usable on its own - see [docs/SCHEMA.md](docs/SCHEMA.md) for the full file-by-file format documentation if you want to consume this data directly, without gokan-srs.
+35,814 words &middot; 2,300 kanji &middot; 755 grammar points &middot; 31,355 sentence sets
 
-## Structure
+[Format documentation](docs/SCHEMA.md) &nbsp;&middot;&nbsp; [See it in use](https://gokan-srs.com/dictionary/) &nbsp;&middot;&nbsp; [The app it powers](https://github.com/gokan-dev/gokan-srs)
 
-- `data/raw/` - raw source datasets (JMDict, KKLC, JPDB, JLPT lists, Tatoeba sentence pairs + reading indices, hanabira grammar points). Git LFS tracked.
-- `scripts/` - the build pipeline.
-- `src/models/` - shared TypeScript types (mirrors the compiled output shape - see [docs/SCHEMA.md](docs/SCHEMA.md)).
-- `src/utils/tokenizer.ts` - Kuromoji-based `SentenceTokenizer` used to link sentences to vocabulary.
-- `compiled/` - build output: `kanji.json`, `vocab/{id}.json`, `sentences/{vocabId}.json`, `grammar/points/{id}.json`, `index/*.json`. **This is what consumers want.**
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/license-CC%20BY--SA%204.0-blue)](#license)
 
-## Consuming this data
+</div>
 
-Clone (or add as a git submodule) and read directly from `compiled/`, or point a static file host / CDN at this repo. There's no build step needed to *read* the data - only to regenerate it from raw sources.
+## What this is
 
-`gokan-srs` consumes this repo as a git submodule and deploys `compiled/` alongside its own app bundle.
+Several excellent Japanese datasets exist, and none of them talk to each other. JMDict knows what a word means but not how common it is. JPDB knows frequency but not which kanji a learner needs first. Tatoeba has hundreds of thousands of sentences with no link to the words inside them.
 
-## Building
+This repository does that joining once, at build time, and publishes the result as plain JSON files you can read with `fetch` or `JSON.parse`. No database, no API, no runtime.
+
+For every word you get its readings, meanings, part of speech, JLPT level, frequency rank, the kanji it contains, the words it is built from, the words that contain it, and example sentences with the position of every word inside them already resolved.
+
+## Quick look
+
+```bash
+curl https://raw.githubusercontent.com/gokan-dev/gokan-dataset/main/compiled/vocab/1589350.json
+```
+
+```jsonc
+{
+  "id": "1589350",
+  "writtenForm": { "kanji": "思う", "alternatives": ["想う", "憶う"], "containedKanji": ["思"] },
+  "reading": { "primary": "おもう", "alternatives": [] },
+  "frequency": { "kanjiRank": 191 },
+  "jlptLevel": 4,
+  "senses": [
+    { "pos": ["v5u", "vt"], "glosses": ["to think", "to consider", "to believe"] }
+  ]
+}
+```
+
+Sentences carry the offsets of every word they contain, so you can render a sentence with each word linked or glossed without tokenizing anything yourself:
+
+```jsonc
+{
+  "original": "長い目で見れば違ってくると思います。",
+  "en": [{ "text": "I suppose it's different when you think about it over the long term." }],
+  "matches": {
+    "1589350": [{ "start": 12, "length": 3, "reading": "おもい" }]
+  }
+}
+```
+
+## Layout
+
+```
+compiled/                 build output, and the only thing most consumers need
+  kanji.json              all 2,300 kanji with KKLC step, JLPT level, frequency
+  vocab/{id}.json         one file per word, keyed by JMDict id
+  sentences/{id}.json     example sentences for that word, with match offsets
+  grammar/points/{id}.json  grammar point with formation, explanation, examples
+  index/
+    frequency.json        word ids in frequency order
+    jlpt.json             JLPT level to word ids
+    kklc.json             KKLC step to word ids
+    kanji-vocab.json      kanji to the words containing it
+    search.json           compact search index: written form, reading, gloss
+data/raw/                 upstream sources, Git LFS tracked
+scripts/                  the build pipeline
+src/models/               TypeScript types mirroring the compiled shape
+```
+
+[docs/SCHEMA.md](docs/SCHEMA.md) documents every file and field.
+
+## Using it
+
+Read `compiled/` directly. Clone it, add it as a submodule, or point a CDN at it:
+
+```bash
+git clone --depth 1 https://github.com/gokan-dev/gokan-dataset.git
+```
+
+There is no build step required to read the data, only to regenerate it from source. `gokan-srs` consumes this repository as a git submodule and ships `compiled/` alongside its own bundle.
+
+If you are building a Japanese learning tool, a reading assistant, a frequency-ordered study list, or anything that needs vocabulary joined to kanji and real sentences, this is meant to save you the assembly work.
+
+## Rebuilding from source
+
+Only needed if you are changing the pipeline. It reads from `data/raw/`, which is Git LFS tracked.
 
 ```bash
 bun install
-bun run build:kanji   # kanji.json + index/kklc-kanji.json
-bun run build:data    # the full vocab + sentence pipeline (~1-2 min, tokenizes ~230k sentences)
-bun run build:jlpt    # index/jlpt.json (fast post-pass over the compiled vocab)
-bun run build:grammar # grammar/points/{id}.json + grammar/index/jlpt.json (needs build:data's search index first)
+bun run build:kanji    # kanji.json and index/kklc-kanji.json
+bun run build:data     # the full vocabulary and sentence pipeline, roughly 1 to 2 minutes
+bun run build:jlpt     # index/jlpt.json, a fast pass over compiled vocabulary
+bun run build:grammar  # grammar points, requires build:data to have run first
 ```
 
-Or `bun run build:data` alone, which chains `build:kanji` and `build:jlpt` around the main build.
+`bun run build:data` chains `build:kanji` and `build:jlpt` around the main build, so it is usually the only one you need.
 
-## Tests
+Sentence linking runs through a Kuromoji-based tokenizer (`src/utils/tokenizer.ts`) that handles compounds and deinflection, so 通っている resolves to 通う rather than splitting into fragments.
 
 ```bash
 bun run test
@@ -38,13 +106,17 @@ bun run test
 
 ## License
 
-The compiled output (`compiled/`) is a derivative work of several upstream sources, each with their own terms - check before redistributing:
+The code in this repository, meaning the build scripts and types, is CC BY-SA 4.0.
 
-- **JMDict** (dictionary entries, glosses): [EDRDG](https://www.edrdg.org/edrdg/licence.html), Creative Commons Attribution-ShareAlike 4.0. Attribution to the Electronic Dictionary Research and Development Group required.
-- **Tatoeba** (example sentences): individual sentences are contributed under varying Creative Commons licenses (mostly CC BY 2.0 FR) - see [tatoeba.org](https://tatoeba.org/en/terms_of_use).
-- **KKLC step data**: derived from [ppasupat/vocab-kanji](https://github.com/ppasupat/vocab-kanji) - check that repo's license.
-- **JPDB frequency data**: from [jpdb.io](https://jpdb.io) - check their terms before redistributing.
-- **JLPT level lists**: derived from [Bluskyo/JLPT_Vocabulary](https://github.com/Bluskyo/JLPT_Vocabulary), itself sourced from tanos.co.uk under CC BY (Jonathan Waller).
-- **Grammar points**: derived from [hanabira.org-japanese-content](https://github.com/tristcoil/hanabira.org-japanese-content), Creative Commons, attribution required (link back to hanabira.org).
+The compiled output is a derivative work of several upstream sources, each with its own terms. Check them before redistributing:
 
-This repo's own code (build scripts, types) and any originally-authored content is licensed CC BY-SA 4.0, matching JMDict's share-alike terms. If you plan to redistribute the compiled data itself, verify compliance with all of the above, not just this repo's license.
+| Source | Provides | Terms |
+|---|---|---|
+| [JMDict](https://www.edrdg.org/edrdg/licence.html) | Dictionary entries, glosses | CC BY-SA 4.0, attribution to EDRDG required |
+| [Tatoeba](https://tatoeba.org/en/terms_of_use) | Example sentences | Per-sentence, mostly CC BY 2.0 FR |
+| [ppasupat/vocab-kanji](https://github.com/ppasupat/vocab-kanji) | KKLC step data | See that repository |
+| [JPDB](https://jpdb.io) | Frequency data | See their terms |
+| [Bluskyo/JLPT_Vocabulary](https://github.com/Bluskyo/JLPT_Vocabulary) | JLPT level lists | CC BY, Jonathan Waller, via tanos.co.uk |
+| [hanabira.org-japanese-content](https://github.com/tristcoil/hanabira.org-japanese-content) | Grammar points | Creative Commons, link back to hanabira.org |
+
+If you redistribute the compiled data, verify compliance with all of the above, not only this repository's own license.
