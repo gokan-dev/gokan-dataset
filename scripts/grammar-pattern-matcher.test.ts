@@ -242,6 +242,34 @@ describe('false anchors from formations that alternate inside a slot', () => {
         expect(markerAlternates('ない')).toEqual(['ない']);
     });
 
+    it('places a literal next to the ones already matched, not at the leftmost occurrence', () => {
+        // n5-037 "Noun + に + 行きます" on 公園に遊びに行きます. 行きます is the longest
+        // literal so it is placed first; に then used to scan from the left and
+        // take 公園's, leaving the に that belongs to 行きます visible in the
+        // sentence and blanking a particle three tokens away instead.
+        const sentence = words(['公園'], ['に'], ['遊び'], ['に'], ['行きます'], ['。']);
+        const hit = locatePattern('Noun + に + 行きます', sentence)!;
+        expect(hit).toEqual([3, 4]);
+    });
+
+    it('still takes the leftmost position when nothing has been matched yet', () => {
+        // The preference is a TIE-BREAK against already-placed literals. With a
+        // single-literal variant there is nothing to be near, so placement must
+        // fall through to the old shortest-then-leftmost order.
+        const sentence = words(['本'], ['を'], ['読む'], ['と'], ['楽しい']);
+        expect(locatePattern('Noun + を', sentence)).toEqual([1]);
+    });
+
+    it('keeps the marker of a two-clause sentence in its own clause', () => {
+        // n5-050 "Verb-ない form + で + ください" on ここで走らないでください blanked
+        // ここ's で - a location particle in a different phrase - rather than the
+        // で of ないでください.
+        const sentence = words(['ここ'], ['で'], ['走ら'], ['ない'], ['で'], ['ください']);
+        const hit = locatePattern('Verb-ない form + で + ください', sentence)!;
+        expect(hit).toEqual([4, 5]);
+        expect(hit).not.toContain(1);
+    });
+
     it('prefers the tighter anchor when two variants recover the same marker', () => {
         // Both "の + どうですか" and bare "どうですか" recover どうですか; the one
         // that does not also drag in a bystander wins.

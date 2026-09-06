@@ -74,6 +74,22 @@ import type { GrammarExampleWord } from '../src/models/grammar.model';
  *    generated form is matched EXACTLY, so this widens what is looked for
  *    rather than loosening how it is compared.
  *
+ * 9. When a literal has several valid positions, the one CLOSEST to the
+ *    literals this variant has already placed wins - not the leftmost, which is
+ *    what the scan used to take.
+ *
+ *    `n5-037 Noun + に + 行きます` is the case. In 公園に遊びに行きます the longest
+ *    literal 行きます is placed first, then に scanned from the left and took
+ *    公園's に - leaving the に that actually belongs to 行きます sitting in the
+ *    sentence, and blanking a particle three tokens away instead. Six of that
+ *    point's eight examples were wrong this way, two of them blanking a TIME
+ *    marker (週末に, 夏休みに).
+ *
+ *    A pattern's literals belong together, so proximity is the right
+ *    tie-breaker. It also tends to make the span contiguous, which then merges
+ *    into a single input (point 10) - so the learner is asked for に行きます as
+ *    one unit rather than for one に in isolation.
+ *
  * 7. Literals are matched longest-first, so a short, generic literal (a bare
  *    particle like を) can't claim a token index a longer, more distinctive
  *    literal also needs (をめぐって tokenizes as ONE fused token; を alone
@@ -247,17 +263,35 @@ function matchVariant(
         // Reading matching is exact only, and stays that way. Containment on a
         // reading is how a bare particle sneaks into a content word: ご飯's
         // reading is ごはん, which contains は, so は "matched" 晩ご飯.
-        for (let spanLen = 1; spanLen <= MAX_SPAN && foundCount < need; spanLen++) {
-            for (let start = 0; start + spanLen <= words.length && foundCount < need; start++) {
-                const span = words.slice(start, start + spanLen);
-                if (span.some((_, k) => usedIndices.has(start + k))) continue;
+        //
+        // Among several valid positions the CLOSEST to what this variant has
+        // already matched wins, not the leftmost - see doc comment point 9.
+        while (foundCount < need) {
+            let best: { indices: number[]; distance: number } | null = null;
 
-                const readJoin = span.map(w => (w.reading ? kataToHira(w.reading) : '')).join('');
-                const isMatch = spanFormCombinations(span).some(c => c === lit)
-                    || (readJoin.length > 0 && readJoin === litHira);
+            for (let spanLen = 1; spanLen <= MAX_SPAN; spanLen++) {
+                for (let start = 0; start + spanLen <= words.length; start++) {
+                    const span = words.slice(start, start + spanLen);
+                    if (span.some((_, k) => usedIndices.has(start + k))) continue;
 
-                if (isMatch) claim(Array.from({ length: spanLen }, (_, k) => start + k));
+                    const readJoin = span.map(w => (w.reading ? kataToHira(w.reading) : '')).join('');
+                    const isMatch = spanFormCombinations(span).some(c => c === lit)
+                        || (readJoin.length > 0 && readJoin === litHira);
+                    if (!isMatch) continue;
+
+                    const indices = Array.from({ length: spanLen }, (_, k) => start + k);
+                    const distance = distanceToMatched(indices, allMatched);
+                    // Ties fall through to the shortest span, then the leftmost -
+                    // which is exactly the old order, so a variant whose literals
+                    // are unambiguous is placed identically to before.
+                    if (best === null || distance < best.distance) {
+                        best = { indices, distance };
+                    }
+                }
             }
+
+            if (best === null) break;
+            claim(best.indices);
         }
 
         // Round 2, one token, surface OR baseForm. Kept separate from the
@@ -313,6 +347,22 @@ function matchVariant(
         foundLiterals,
         requiredLiterals,
     };
+}
+
+/**
+ * Token-index gap between a candidate span and the indices this variant has
+ * already claimed. Zero when nothing is claimed yet, so the first literal placed
+ * is unaffected and falls through to the old shortest-then-leftmost order.
+ */
+function distanceToMatched(candidate: number[], matched: number[]): number {
+    if (matched.length === 0) return 0;
+    const lo = candidate[0];
+    const hi = candidate[candidate.length - 1];
+    let best = Number.POSITIVE_INFINITY;
+    for (const m of matched) {
+        best = Math.min(best, m < lo ? lo - m : m > hi ? m - hi : 0);
+    }
+    return best;
 }
 
 /** Length of the longest literal a match actually recovered - its distinctiveness. */
