@@ -6,7 +6,7 @@ import type { Sentence } from '../src/models/sentence.model';
 import type { Kanji } from '../src/models/kanji.model';
 import type kuromoji from 'kuromoji';
 import { JMDict, JLPTVocabDatasetDTO } from "../src/models/data.model";
-import { buildMiscFlags } from './build-common';
+import { buildMiscFlags, resolveJlptLevel } from './build-common';
 import { BUILD_LIMITS } from './build-constants';
 
 // --- Configuration ---
@@ -188,13 +188,13 @@ async function main() {
         const requiresContext =
             entry.kana.length > 1 || senses.some(s => s.misc.isSuffix);
 
-        // JLPT level: match by written form, preferring the entry whose reading
-        // matches this word's primary reading (a written form can carry different
-        // levels per reading), else falling back to the dataset's first entry.
-        const jlptEntries = jlptVocab[kanjiText];
-        const jlptLevel = jlptEntries?.length
-            ? (jlptEntries.find(e => e.reading === primaryReading) ?? jlptEntries[0]).level
-            : undefined;
+        // JLPT level: see resolveJlptLevel for why this tries alternative written
+        // forms and the reading as well as the kanji headword.
+        const jlptLevel = resolveJlptLevel(
+            jlptVocab,
+            [kanjiText, ...alternativeKanji],
+            [primaryReading, ...alternativeReadings],
+        );
 
         const vocabObj: BuildVocabulary = {
             id: entry.id,

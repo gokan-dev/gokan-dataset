@@ -22,7 +22,7 @@ interface Vocabulary {
     kanjiRank: number;            // JPDB frequency rank
     kanaRank?: number;
   };
-  jlptLevel?: number;             // 1 (N1, hardest) .. 5 (N5, easiest). Most entries have none - JMDict has ~40k+ words, the JLPT list covers ~8k.
+  jlptLevel?: number;             // 1 (N1, hardest) .. 5 (N5, easiest). Most entries have none - JMDict has ~40k+ words, the JLPT list covers ~8k. Matched on any of the word's written forms, then on its primary reading (for usually-kana words the JLPT list files under kana, e.g. 鞄 as かばん); see resolveJlptLevel.
   progression: {
     kklcStep: number;             // KKLC (Kanji Kentei) chapter step this word's kanji require. 99999 if its kanji fall outside the KKLC index.
   };
