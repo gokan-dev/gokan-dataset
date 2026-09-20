@@ -130,6 +130,17 @@ export interface GrammarPoint {
      */
     formalityLevel?: 'casual' | 'neutral' | 'polite' | 'formal' | 'very-formal-literary';
     /**
+     * The syntactic slot this point's marker occupies. Sourced from the same
+     * hand-authored data/raw/grammar/formality.json mapping. Exists so the app can
+     * decide whether one family sibling can grammatically stand in for another when
+     * grading a cloze blank: two near-synonyms are only interchangeable if they fill
+     * the same slot. けど (clause-final) and でも (sentence-initial) both gloss "but"
+     * and share the same family, but you cannot drop でも into a clause-final けど
+     * blank - the sentence becomes ungrammatical, so that substitution must grade
+     * wrong, not as a minor register slip. Absent where unclassified.
+     */
+    slot?: 'clause-final' | 'sentence-initial' | 'predicate-final' | 'pre-noun' | 'adverbial';
+    /**
      * One short, quiz-card-length line (~60-80 chars) covering whatever actually
      * disambiguates this point from its near-synonyms. Usually register, but for
      * some clusters (e.g. even-though/although/despite) the real differentiator is
@@ -244,26 +255,28 @@ export interface GrammarContrastUnit {
 }
 
 /**
- * A confusability-first sub-grouping of a family: a small set of members close
- * enough to be actively disambiguated together (like interleaving look-alike
- * kanji), bounded so it does not span the family's whole JLPT range.
+ * A CHUNK: a confusability-first sub-grouping of a family - a small set of
+ * members (target 5-6, soft cap) close enough to be actively disambiguated
+ * together, like interleaving look-alike kanji. A small family can be one chunk;
+ * a large one is split. A lesson (unit) is always a subset of one chunk.
  */
-export interface GrammarContrastCluster {
+export interface GrammarContrastChunk {
     /** Stable slug within the family, e.g. "reason-core". */
     id: string;
     /** Short display label, e.g. "から / ので". */
     label: string;
     /** The confusable members grouped here. */
     memberIds: string[];
+    /** Lessons taught within this chunk. Each unit's focus/vs are a subset of memberIds. */
     units: GrammarContrastUnit[];
 }
 
 /**
- * Family id -> its authored contrast clusters, from
+ * Family id -> its authored contrast chunks, from
  * compiled/grammar/index/contrasts.json. `variant`-axis families never appear
  * (their members are interchangeable, so there is nothing to disambiguate).
  */
 export type GrammarContrastIndex = Record<string, {
     name: string;
-    clusters: GrammarContrastCluster[];
+    chunks: GrammarContrastChunk[];
 }>;

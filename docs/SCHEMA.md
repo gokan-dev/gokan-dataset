@@ -293,16 +293,16 @@ type GrammarFamilyIndex = Record<string, { name: string; memberIds: string[] }>;
 
 Answers the question a `usageNote` cannot: *given a real situation, which member do I reach for, and why not the obvious alternative?* から and ので both gloss as "because", but only ので fits an apology. That fact is contrastive and lives in neither point's own entry.
 
-Authored by hand (AI-drafted, human-reviewed) in `data/raw/grammar/contrasts.json` and compiled by `build-grammar.ts`'s `compileContrasts` (pure, unit-tested). A family is partitioned into confusability-first **clusters** (small, level-bounded groups of members close enough to be actively disambiguated together, like interleaving look-alike kanji); each cluster carries directed **units**.
+Authored by hand (AI-drafted, human-reviewed) in `data/raw/grammar/contrasts.json` and compiled by `build-grammar.ts`'s `compileContrasts` (pure, unit-tested). A family is partitioned into confusability-first **chunks** (small groups of members - target 5-6, soft cap - close enough to be actively disambiguated together, like interleaving look-alike kanji; a small family can be one chunk, a large one is split); each chunk carries directed **units** (the lessons), and a lesson is always a subset of its chunk.
 
 ```ts
 type GrammarContrastIndex = Record<string, {   // familyId ->
   name: string;                                 // the family's display name (copied from families.json for convenience)
-  clusters: {
+  chunks: {
     id: string;                                 // stable slug within the family, e.g. "reason-core"
     label: string;                              // short display label, e.g. "から / ので"
     memberIds: string[];                        // the confusable members grouped here
-    units: {
+    units: {                                    // the lessons; focus/vs are a subset of memberIds
       focus: string;                            // the member this unit teaches the learner to reach for
       vs: string[];                             // the sibling(s) `focus` is most confused with
       situation: string;                        // a concrete situation where the choice matters
@@ -314,7 +314,11 @@ type GrammarContrastIndex = Record<string, {   // familyId ->
 
 A unit is **directed**: `focus` is authored as the member met LATER in the teaching order, so by the time it is introduced the `vs` siblings are already known and the contrast lands between two real memories. The consumer surfaces a unit at `focus`'s introduction (deferring it if a `vs` sibling isn't known yet) and on a revisitable family page.
 
-Validation is strict (each is a build error, not a silent drop): `focus`/`vs`/`memberIds` must be genuine, non-dropped members of the family; a unit may never reference a `variant`-axis point (interchangeable siblings have nothing to disambiguate); `vs` must be non-empty and exclude `focus`; `situation`/`guidance` must be non-blank. `variant`-axis families therefore never appear in this index.
+Validation is strict (each is a build error, not a silent drop): `focus`/`vs`/`memberIds` must be genuine, non-dropped members of the family; a unit may never reference a `variant`-axis point (interchangeable siblings have nothing to disambiguate); `vs` must be non-empty and exclude `focus`; every `focus`/`vs` id must be in its own chunk's `memberIds` (a lesson is a subset of its chunk); `situation`/`guidance` must be non-blank. A chunk larger than the soft cap (8) warns rather than failing, so a coherent register ladder (the "but" family is 7) is allowed. `variant`-axis families never appear in this index.
+
+### `GrammarPoint.slot` — syntactic position, for interchangeability grading
+
+A point may carry `slot?: 'clause-final' | 'sentence-initial' | 'predicate-final' | 'pre-noun' | 'adverbial'`, authored in `formality.json`. It exists so a consumer can decide whether one family sibling can grammatically stand in for another: two near-synonyms are interchangeable in a cloze blank only if they fill the **same slot**. けど (clause-final) and でも (sentence-initial) share the "but" family and the same gloss, but でも cannot drop into a clause-final けど blank, so that substitution must grade wrong, not as a minor register slip. Populated for family members that could plausibly be swapped; absent elsewhere.
 
 ## `compiled/index/*.json` — lookup indexes
 

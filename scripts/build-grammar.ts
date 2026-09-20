@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import kuromoji from 'kuromoji';
-import type { GrammarContrastCluster, GrammarContrastIndex, GrammarExample, GrammarExampleWord, GrammarJlptIndex, GrammarPoint } from '../src/models/grammar.model';
+import type { GrammarContrastChunk, GrammarContrastIndex, GrammarExample, GrammarExampleWord, GrammarJlptIndex, GrammarPoint } from '../src/models/grammar.model';
 import type { SearchIndex } from '../src/models/index.model';
 import { locatePattern } from './grammar-pattern-matcher';
 import { SentenceTokenizer } from '../src/utils/tokenizer';
@@ -78,6 +78,13 @@ interface FormalityEntry {
      *                 recognition set, not as N independent points.
      */
     axis?: 'register' | 'constraint' | 'variant';
+    /**
+     * The syntactic slot this point's marker fills - the gate for whether one
+     * family sibling can grammatically substitute for another (see GrammarPoint.slot
+     * in the model). Only meaningful for family members that could be swapped;
+     * absent elsewhere.
+     */
+    slot?: NonNullable<GrammarPoint['slot']>;
 }
 type FormalityMap = Record<string, FormalityEntry>;
 
@@ -371,13 +378,19 @@ export function splitTitle(raw: string): { title: string; romaji?: string } {
  * id would teach a contrast the sentence never shows.
  */
 export function compileContrasts(
-    raw: Record<string, { clusters: GrammarContrastCluster[] }>,
+    raw: Record<string, { chunks: GrammarContrastChunk[] }>,
     familyMembers: Map<string, { name: string; ids: string[] }>,
     axisOf: (id: string) => string | undefined,
     sanitize: (text: string) => string = (t) => t,
+    warn: (message: string) => void = (m) => console.warn(m),
 ): { index: GrammarContrastIndex; unitCount: number } {
     const index: GrammarContrastIndex = {};
     let unitCount = 0;
+
+    // Soft cap on chunk size: a chunk is meant to be a handful of confusable
+    // members (target 5-6), but a single coherent register ladder can run a
+    // little longer (the "but" family is 7), so this warns rather than fails.
+    const CHUNK_SOFT_CAP = 8;
 
     for (const [familyId, fam] of Object.entries(raw)) {
         const members = familyMembers.get(familyId);
@@ -394,16 +407,28 @@ export function compileContrasts(
             }
         };
 
-        for (const cluster of fam.clusters) {
-            cluster.memberIds.forEach(mid => assertMember(mid, `cluster "${cluster.id}"`));
-            for (const unit of cluster.units) {
-                assertMember(unit.focus, `cluster "${cluster.id}" focus`);
+        for (const chunk of fam.chunks) {
+            chunk.memberIds.forEach(mid => assertMember(mid, `chunk "${chunk.id}"`));
+            if (chunk.memberIds.length > CHUNK_SOFT_CAP) {
+                warn(`contrasts.json: family "${familyId}" chunk "${chunk.id}" has ${chunk.memberIds.length} members (soft cap ${CHUNK_SOFT_CAP}) - consider splitting.`);
+            }
+            const chunkMembers = new Set(chunk.memberIds);
+            for (const unit of chunk.units) {
+                assertMember(unit.focus, `chunk "${chunk.id}" focus`);
                 if (unit.vs.length === 0) {
                     throw new Error(`contrasts.json: family "${familyId}" unit for "${unit.focus}" has an empty vs list.`);
                 }
-                unit.vs.forEach(vid => assertMember(vid, `cluster "${cluster.id}" vs`));
+                unit.vs.forEach(vid => assertMember(vid, `chunk "${chunk.id}" vs`));
                 if (unit.vs.includes(unit.focus)) {
                     throw new Error(`contrasts.json: family "${familyId}" unit for "${unit.focus}" lists itself in vs.`);
+                }
+                // A lesson is a subset of its chunk: every point it names must be a
+                // member of the chunk it lives in, or the chunk stops being the unit
+                // of learning the lesson claims to sit inside.
+                for (const id of [unit.focus, ...unit.vs]) {
+                    if (!chunkMembers.has(id)) {
+                        throw new Error(`contrasts.json: family "${familyId}" chunk "${chunk.id}" has a lesson referencing "${id}", which is not in the chunk's memberIds (a lesson must be a subset of its chunk).`);
+                    }
                 }
                 if (!unit.situation?.trim() || !unit.guidance?.trim()) {
                     throw new Error(`contrasts.json: family "${familyId}" unit for "${unit.focus}" is missing situation or guidance text.`);
@@ -414,7 +439,7 @@ export function compileContrasts(
 
         index[familyId] = {
             name: members.name,
-            clusters: fam.clusters.map(c => ({
+            chunks: fam.chunks.map(c => ({
                 id: c.id,
                 label: sanitize(c.label),
                 memberIds: c.memberIds,
@@ -968,6 +993,7 @@ async function main() {
                 formation: sanitizeGlyphs(entryFormation),
                 examples,
                 ...(formality?.formalityLevel ? { formalityLevel: formality.formalityLevel } : {}),
+                ...(formality?.slot ? { slot: formality.slot } : {}),
                 ...(usageNote ? { usageNote } : {}),
                 ...(family ? { family } : {}),
                 // Absent from kinds.json means a plain construction - the vast
@@ -1000,7 +1026,7 @@ async function main() {
     // family members (data/raw/grammar/contrasts.json). Compiled and validated
     // by compileContrasts (pure, tested) against the family membership derived
     // above, then emitted as its own index. See docs/SCHEMA.md.
-    const contrastsRaw: Record<string, { clusters: GrammarContrastCluster[] }> = fs.existsSync(CONTRASTS_PATH)
+    const contrastsRaw: Record<string, { chunks: GrammarContrastChunk[] }> = fs.existsSync(CONTRASTS_PATH)
         ? JSON.parse(fs.readFileSync(CONTRASTS_PATH, 'utf-8'))
         : {};
     const { index: contrastsIndex, unitCount: contrastUnitCount } = compileContrasts(
