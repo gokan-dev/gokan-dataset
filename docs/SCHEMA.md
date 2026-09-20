@@ -289,6 +289,33 @@ type GrammarJlptIndex = Record<number, string[]>; // level (1..5) -> grammar poi
 type GrammarFamilyIndex = Record<string, { name: string; memberIds: string[] }>; // familyId -> display name + every member point id
 ```
 
+## `compiled/grammar/index/contrasts.json` — situational disambiguation lessons
+
+Answers the question a `usageNote` cannot: *given a real situation, which member do I reach for, and why not the obvious alternative?* から and ので both gloss as "because", but only ので fits an apology. That fact is contrastive and lives in neither point's own entry.
+
+Authored by hand (AI-drafted, human-reviewed) in `data/raw/grammar/contrasts.json` and compiled by `build-grammar.ts`'s `compileContrasts` (pure, unit-tested). A family is partitioned into confusability-first **clusters** (small, level-bounded groups of members close enough to be actively disambiguated together, like interleaving look-alike kanji); each cluster carries directed **units**.
+
+```ts
+type GrammarContrastIndex = Record<string, {   // familyId ->
+  name: string;                                 // the family's display name (copied from families.json for convenience)
+  clusters: {
+    id: string;                                 // stable slug within the family, e.g. "reason-core"
+    label: string;                              // short display label, e.g. "から / ので"
+    memberIds: string[];                        // the confusable members grouped here
+    units: {
+      focus: string;                            // the member this unit teaches the learner to reach for
+      vs: string[];                             // the sibling(s) `focus` is most confused with
+      situation: string;                        // a concrete situation where the choice matters
+      guidance: string;                         // which member fits, and why the obvious alternative does not
+    }[];
+  }[];
+}>;
+```
+
+A unit is **directed**: `focus` is authored as the member met LATER in the teaching order, so by the time it is introduced the `vs` siblings are already known and the contrast lands between two real memories. The consumer surfaces a unit at `focus`'s introduction (deferring it if a `vs` sibling isn't known yet) and on a revisitable family page.
+
+Validation is strict (each is a build error, not a silent drop): `focus`/`vs`/`memberIds` must be genuine, non-dropped members of the family; a unit may never reference a `variant`-axis point (interchangeable siblings have nothing to disambiguate); `vs` must be non-empty and exclude `focus`; `situation`/`guidance` must be non-blank. `variant`-axis families therefore never appear in this index.
+
 ## `compiled/index/*.json` — lookup indexes
 
 Precomputed so consumers don't have to scan the full `vocab/`/`kanji.json` for common lookups.

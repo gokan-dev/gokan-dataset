@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import kuromoji from 'kuromoji';
-import type { GrammarExample, GrammarExampleWord, GrammarJlptIndex, GrammarPoint } from '../src/models/grammar.model';
+import type { GrammarContrastCluster, GrammarContrastIndex, GrammarExample, GrammarExampleWord, GrammarJlptIndex, GrammarPoint } from '../src/models/grammar.model';
 import type { SearchIndex } from '../src/models/index.model';
 import { locatePattern } from './grammar-pattern-matcher';
 import { SentenceTokenizer } from '../src/utils/tokenizer';
@@ -33,6 +33,7 @@ const DUPLICATES_PATH = './data/raw/grammar/duplicates.json';
 const KINDS_PATH = './data/raw/grammar/kinds.json';
 const VARIANTS_PATH = './data/raw/grammar/variants.json';
 const OVERRIDES_PATH = './data/raw/grammar/overrides.json';
+const CONTRASTS_PATH = './data/raw/grammar/contrasts.json';
 
 const LEVEL_FILES: Record<number, string> = {
     5: 'grammar_ja_N5_full_alphabetical_0001.json',
@@ -355,6 +356,79 @@ export function splitTitle(raw: string): { title: string; romaji?: string } {
     if (!titlePart || !romajiPart) return { title: trimmed };
 
     return { title: titlePart, romaji: romajiPart };
+}
+
+/**
+ * Validate the authored contrast lessons against the family membership derived
+ * from formality.json, and compile them into the emitted index. Pure (no I/O)
+ * so it is unit-testable; the build wires in the real family map, axis lookup,
+ * and glyph sanitiser.
+ *
+ * A lesson may only reference points that are genuine, non-dropped members of
+ * the family it claims, and may never touch a `variant`-axis point (those
+ * siblings are interchangeable, so there is nothing to disambiguate). Every
+ * failure is a build error, not a silent drop: a lesson pointing at the wrong
+ * id would teach a contrast the sentence never shows.
+ */
+export function compileContrasts(
+    raw: Record<string, { clusters: GrammarContrastCluster[] }>,
+    familyMembers: Map<string, { name: string; ids: string[] }>,
+    axisOf: (id: string) => string | undefined,
+    sanitize: (text: string) => string = (t) => t,
+): { index: GrammarContrastIndex; unitCount: number } {
+    const index: GrammarContrastIndex = {};
+    let unitCount = 0;
+
+    for (const [familyId, fam] of Object.entries(raw)) {
+        const members = familyMembers.get(familyId);
+        if (!members) {
+            throw new Error(`contrasts.json: unknown family "${familyId}" - no member declares it in formality.json.`);
+        }
+        const memberSet = new Set(members.ids);
+        const assertMember = (id: string, where: string) => {
+            if (!memberSet.has(id)) {
+                throw new Error(`contrasts.json: family "${familyId}" ${where} references "${id}", which is not a (non-dropped) member of that family.`);
+            }
+            if (axisOf(id) === 'variant') {
+                throw new Error(`contrasts.json: "${id}" has axis 'variant' (interchangeable siblings), so it cannot carry a contrast lesson - remove it or reclassify the axis.`);
+            }
+        };
+
+        for (const cluster of fam.clusters) {
+            cluster.memberIds.forEach(mid => assertMember(mid, `cluster "${cluster.id}"`));
+            for (const unit of cluster.units) {
+                assertMember(unit.focus, `cluster "${cluster.id}" focus`);
+                if (unit.vs.length === 0) {
+                    throw new Error(`contrasts.json: family "${familyId}" unit for "${unit.focus}" has an empty vs list.`);
+                }
+                unit.vs.forEach(vid => assertMember(vid, `cluster "${cluster.id}" vs`));
+                if (unit.vs.includes(unit.focus)) {
+                    throw new Error(`contrasts.json: family "${familyId}" unit for "${unit.focus}" lists itself in vs.`);
+                }
+                if (!unit.situation?.trim() || !unit.guidance?.trim()) {
+                    throw new Error(`contrasts.json: family "${familyId}" unit for "${unit.focus}" is missing situation or guidance text.`);
+                }
+                unitCount++;
+            }
+        }
+
+        index[familyId] = {
+            name: members.name,
+            clusters: fam.clusters.map(c => ({
+                id: c.id,
+                label: sanitize(c.label),
+                memberIds: c.memberIds,
+                units: c.units.map(u => ({
+                    focus: u.focus,
+                    vs: u.vs,
+                    situation: sanitize(u.situation),
+                    guidance: sanitize(u.guidance),
+                })),
+            })),
+        };
+    }
+
+    return { index, unitCount };
 }
 
 /** kuromoji tokens annotated with their character-offset span in the original sentence. */
@@ -921,6 +995,22 @@ async function main() {
         familiesIndex[familyId] = { name, memberIds: ids };
     }
     fs.writeFileSync(path.join(OUTPUT_DIR, 'index', 'families.json'), JSON.stringify(familiesIndex));
+
+    // Contrast lessons: authored situational disambiguation between confusable
+    // family members (data/raw/grammar/contrasts.json). Compiled and validated
+    // by compileContrasts (pure, tested) against the family membership derived
+    // above, then emitted as its own index. See docs/SCHEMA.md.
+    const contrastsRaw: Record<string, { clusters: GrammarContrastCluster[] }> = fs.existsSync(CONTRASTS_PATH)
+        ? JSON.parse(fs.readFileSync(CONTRASTS_PATH, 'utf-8'))
+        : {};
+    const { index: contrastsIndex, unitCount: contrastUnitCount } = compileContrasts(
+        contrastsRaw,
+        familyMembers,
+        id => formalityMap[id]?.axis,
+        sanitizeGlyphs,
+    );
+    fs.writeFileSync(path.join(OUTPUT_DIR, 'index', 'contrasts.json'), JSON.stringify(contrastsIndex));
+    console.log(`   - contrast lessons: ${Object.keys(contrastsIndex).length} families, ${contrastUnitCount} units`);
 
     // Aliases: dropped duplicate id -> the surviving canonical. Published so a
     // consumer holding stored progress against a dropped id can transfer it

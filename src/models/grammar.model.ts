@@ -223,3 +223,47 @@ export interface GrammarTeachingOrder {
     order: string[];
     chapters: GrammarChapter[];
 }
+
+/**
+ * One directed contrast unit: teaches when to reach for `focus` rather than the
+ * `vs` sibling(s) it is most confused with, in a concrete situation. Authored in
+ * data/raw/grammar/contrasts.json (AI-drafted, human-reviewed) and compiled into
+ * compiled/grammar/index/contrasts.json. Directed so `focus` is the member met
+ * LATER in the teaching order, so by the time it is introduced the `vs` siblings
+ * are already known and the contrast lands between two real memories.
+ */
+export interface GrammarContrastUnit {
+    /** The point this unit teaches the learner to reach for. */
+    focus: string;
+    /** The sibling(s) `focus` is most confused with. */
+    vs: string[];
+    /** A concrete situation where the choice matters. */
+    situation: string;
+    /** Which member fits, and why the obvious alternative does not. */
+    guidance: string;
+}
+
+/**
+ * A confusability-first sub-grouping of a family: a small set of members close
+ * enough to be actively disambiguated together (like interleaving look-alike
+ * kanji), bounded so it does not span the family's whole JLPT range.
+ */
+export interface GrammarContrastCluster {
+    /** Stable slug within the family, e.g. "reason-core". */
+    id: string;
+    /** Short display label, e.g. "から / ので". */
+    label: string;
+    /** The confusable members grouped here. */
+    memberIds: string[];
+    units: GrammarContrastUnit[];
+}
+
+/**
+ * Family id -> its authored contrast clusters, from
+ * compiled/grammar/index/contrasts.json. `variant`-axis families never appear
+ * (their members are interchangeable, so there is nothing to disambiguate).
+ */
+export type GrammarContrastIndex = Record<string, {
+    name: string;
+    clusters: GrammarContrastCluster[];
+}>;
