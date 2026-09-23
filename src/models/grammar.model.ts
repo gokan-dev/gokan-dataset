@@ -269,6 +269,24 @@ export interface GrammarContrastChunk {
     memberIds: string[];
     /** Lessons taught within this chunk. Each unit's focus/vs are a subset of memberIds. */
     units: GrammarContrastUnit[];
+    /**
+     * The chapter this chunk's lesson can first be taught in: the chapter of
+     * whichever member is introduced LAST in the teaching order. Filled in by
+     * build-curriculum.ts (which is the only step that knows the chapters), so
+     * it is absent from the raw authored file and present in the compiled index.
+     *
+     * A contrast is only meaningful once every member it names is a real memory,
+     * so this is the earliest point at which the lesson is honest. The
+     * grammar-curriculum issue assumed the stronger rule that a chunk may not
+     * span chapters at all; that rule would delete the から/ので lesson the
+     * family-lessons issue opens with (から is introduced in n5-c16, ので in
+     * n4-c12), so what is enforced is the weaker, actually-load-bearing
+     * invariant: a unit's `focus` may never be introduced BEFORE one of its
+     * `vs` siblings. Chunks that do span chapters are counted in the build
+     * output, because a chunk confined to one chapter is still the better shape
+     * where it is achievable.
+     */
+    anchorChapterId?: string;
 }
 
 /**
@@ -279,4 +297,17 @@ export interface GrammarContrastChunk {
 export type GrammarContrastIndex = Record<string, {
     name: string;
     chunks: GrammarContrastChunk[];
+    /**
+     * Members whose `family.axis` is 'variant': genuinely interchangeable
+     * siblings with no differentiator to teach. Present only when there are two
+     * or more, and never overlapping with a chunk's members (a lesson naming a
+     * variant point is a build error). A family can have this and NO chunks at
+     * all, which is the normal shape for a pure variant family.
+     *
+     * The point of emitting it is that silence is worse than a one-line note: a
+     * learner who meets ten near-identical literary forms with no comment will
+     * assume a distinction exists and go looking for one. Render it as a note
+     * ("these are interchangeable, pick by feel"), not as a lesson.
+     */
+    interchangeable?: string[];
 }>;

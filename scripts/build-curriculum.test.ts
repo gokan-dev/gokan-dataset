@@ -1,7 +1,7 @@
 import { describe, it, expect, beforeAll } from 'vitest';
 import fs from 'fs';
 import path from 'path';
-import type { GrammarPoint, GrammarTeachingOrder } from '../src/models/grammar.model';
+import type { GrammarContrastIndex, GrammarPoint, GrammarTeachingOrder } from '../src/models/grammar.model';
 
 /**
  * Invariant tests over the COMPILED curriculum output, rather than unit tests of
@@ -16,6 +16,7 @@ import type { GrammarPoint, GrammarTeachingOrder } from '../src/models/grammar.m
 const POINTS_DIR = './compiled/grammar/points';
 const ORDER_PATH = './compiled/grammar/index/teaching-order.json';
 const ALIASES_PATH = './compiled/grammar/index/aliases.json';
+const CONTRASTS_PATH = './compiled/grammar/index/contrasts.json';
 const built = fs.existsSync(ORDER_PATH) && fs.existsSync(POINTS_DIR);
 
 describe.skipIf(!built)('compiled teaching order', () => {
@@ -128,6 +129,116 @@ describe.skipIf(!built)('compiled teaching order', () => {
                 if (point.jlptLevel >= chapter.jlptLevel) continue;
                 if (point.family?.axis !== 'register') {
                     offenders.push(`${id} (N${point.jlptLevel}, axis=${point.family?.axis ?? 'none'}) in ${chapter.id} (N${chapter.jlptLevel})`);
+                }
+            }
+        }
+        expect(offenders).toEqual([]);
+    });
+
+    it('has no alphabetical "Further patterns" bucket left', () => {
+        // The fallback still exists in build-curriculum.ts, deliberately, so a
+        // point added upstream is visibly unthemed rather than silently dropped.
+        // It should be empty against the dataset as it stands: 42% of the points
+        // sitting in alphabetical buckets of 20 is what themes.json replaced.
+        const buckets = order.chapters.filter(c => /-more-\d+$/.test(c.id));
+        expect(buckets.map(c => `${c.id} (${c.points.length})`)).toEqual([]);
+    });
+
+    it('keeps every chapter small enough to study in one sitting', () => {
+        const oversized = order.chapters
+            .filter(c => c.points.length > 12)
+            .map(c => `${c.id} (${c.points.length})`);
+        expect(oversized).toEqual([]);
+    });
+
+    it('absorbs a cross-level family only when it is a small, pure register ladder', () => {
+        // The absorb-vs-level-gate rule. A chapter holding members from more
+        // than one level, where every member shares one family, is an absorbed
+        // ladder - so it may not contain a constraint member, and may not be
+        // larger than the ladder cap. Anything bigger or mixed is level-gated
+        // instead, which shows up as a level-prefixed title.
+        const offenders: string[] = [];
+        for (const chapter of order.chapters) {
+            const members = chapter.points.map(id => points.get(id)!);
+            const families = new Set(members.map(p => p.family?.id));
+            const levels = new Set(members.map(p => p.jlptLevel));
+            if (families.size !== 1 || [...families][0] === undefined || levels.size < 2) continue;
+            if (chapter.jlptLevel >= 4) continue; // tier-1 N5/N4 spine, governed by its own absorb directive
+            if (members.length > 6) offenders.push(`${chapter.id}: ${members.length} members`);
+            const constraint = members.filter(p => p.family?.axis === 'constraint').map(p => p.id);
+            if (constraint.length > 0) offenders.push(`${chapter.id}: constraint member(s) ${constraint.join(', ')}`);
+        }
+        expect(offenders).toEqual([]);
+    });
+
+    it('names the level in the title of a family taught as level-gated waves', () => {
+        // Three chapters all titled "Concession (Even Though / Although /
+        // Despite)" are indistinguishable in a chapter list.
+        const byTitle = new Map<string, string[]>();
+        for (const chapter of order.chapters) {
+            byTitle.set(chapter.title, [...(byTitle.get(chapter.title) ?? []), chapter.id]);
+        }
+        const collisions = [...byTitle].filter(([, ids]) => ids.length > 1).map(([title, ids]) => `${title}: ${ids.join(', ')}`);
+        expect(collisions).toEqual([]);
+    });
+});
+
+describe.skipIf(!built)('contrast lessons against the teaching order', () => {
+    let order: GrammarTeachingOrder;
+    let contrasts: GrammarContrastIndex;
+    let position: Map<string, number>;
+    let chapterOf: Map<string, string>;
+
+    beforeAll(() => {
+        order = JSON.parse(fs.readFileSync(ORDER_PATH, 'utf-8'));
+        contrasts = JSON.parse(fs.readFileSync(CONTRASTS_PATH, 'utf-8'));
+        position = new Map(order.order.map((id, i) => [id, i]));
+        chapterOf = new Map();
+        for (const chapter of order.chapters) for (const id of chapter.points) chapterOf.set(id, chapter.id);
+    });
+
+    it('never teaches a focus that is introduced before one of its vs siblings', () => {
+        // The one invariant a contrast lesson has to satisfy: it teaches which
+        // of several KNOWN forms to reach for, so every sibling it names must
+        // already have been met by the time the focus arrives.
+        const offenders: string[] = [];
+        for (const [familyId, family] of Object.entries(contrasts)) {
+            for (const chunk of family.chunks) {
+                for (const unit of chunk.units) {
+                    for (const sibling of unit.vs) {
+                        if (position.get(sibling)! > position.get(unit.focus)!) {
+                            offenders.push(`${familyId}/${chunk.id}: ${unit.focus} before ${sibling}`);
+                        }
+                    }
+                }
+            }
+        }
+        expect(offenders).toEqual([]);
+    });
+
+    it('anchors every chunk to the chapter of its last-introduced member', () => {
+        const offenders: string[] = [];
+        for (const [familyId, family] of Object.entries(contrasts)) {
+            for (const chunk of family.chunks) {
+                const last = chunk.memberIds.reduce((a, b) => (position.get(a)! >= position.get(b)! ? a : b));
+                if (chunk.anchorChapterId !== chapterOf.get(last)) {
+                    offenders.push(`${familyId}/${chunk.id}: anchored to ${chunk.anchorChapterId}, last member ${last} is in ${chapterOf.get(last)}`);
+                }
+            }
+        }
+        expect(offenders).toEqual([]);
+    });
+
+    it('never names an interchangeable member in a lesson', () => {
+        // A 'variant' sibling has no differentiator, so a lesson about it would
+        // be inventing one. build-grammar.ts enforces this at compile time; this
+        // re-checks it against the emitted index, where both lists coexist.
+        const offenders: string[] = [];
+        for (const [familyId, family] of Object.entries(contrasts)) {
+            const interchangeable = new Set(family.interchangeable ?? []);
+            for (const chunk of family.chunks) {
+                for (const id of chunk.memberIds) {
+                    if (interchangeable.has(id)) offenders.push(`${familyId}/${chunk.id}: ${id}`);
                 }
             }
         }

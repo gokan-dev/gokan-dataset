@@ -453,6 +453,25 @@ export function compileContrasts(
         };
     }
 
+    // Interchangeable members: a `variant`-axis sibling has no differentiator to
+    // teach, so it never carries a lesson (asserted above). It still needs to be
+    // SAID, though - the regardless-a-or-b family is ten near-identical literary
+    // forms, and a learner met with ten cards and no comment will assume there
+    // must be a distinction and go looking for one that does not exist. So every
+    // family with two or more of them gets a flat list instead of a lesson, and
+    // the consumer renders it as "these are interchangeable, pick by feel".
+    //
+    // Emitted for families with no authored chunks at all, which is the usual
+    // case for a pure variant family - hence the merge into whatever `index`
+    // already holds rather than a second pass over `raw`.
+    for (const [familyId, family] of familyMembers) {
+        const interchangeable = family.ids.filter(id => axisOf(id) === 'variant');
+        if (interchangeable.length < 2) continue;
+        const existing = index[familyId];
+        if (existing) existing.interchangeable = interchangeable;
+        else index[familyId] = { name: family.name, chunks: [], interchangeable };
+    }
+
     return { index, unitCount };
 }
 
@@ -1036,7 +1055,8 @@ async function main() {
         sanitizeGlyphs,
     );
     fs.writeFileSync(path.join(OUTPUT_DIR, 'index', 'contrasts.json'), JSON.stringify(contrastsIndex));
-    console.log(`   - contrast lessons: ${Object.keys(contrastsIndex).length} families, ${contrastUnitCount} units`);
+    const interchangeableFamilies = Object.values(contrastsIndex).filter(f => f.interchangeable).length;
+    console.log(`   - contrast lessons: ${Object.keys(contrastsIndex).length} families, ${contrastUnitCount} units (${interchangeableFamilies} families also carry an interchangeable-members note)`);
 
     // Aliases: dropped duplicate id -> the surviving canonical. Published so a
     // consumer holding stored progress against a dropped id can transfer it

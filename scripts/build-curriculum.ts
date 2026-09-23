@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import type { GrammarChapter, GrammarPoint, GrammarTeachingOrder } from '../src/models/grammar.model';
+import type { GrammarChapter, GrammarContrastIndex, GrammarPoint, GrammarTeachingOrder } from '../src/models/grammar.model';
 
 /**
  * Compiles the authored curriculum spine (data/curriculum/chapters.json) into
@@ -20,12 +20,20 @@ import type { GrammarChapter, GrammarPoint, GrammarTeachingOrder } from '../src/
  *    particles at #40+.
  *
  *  - N3/N2/N1 chapters are GENERATED here by clustering the remaining points by
- *    near-synonym family, then sweeping up whatever has no family into
- *    level-ordered "further patterns" chapters. Above N3 the points are largely
+ *    near-synonym family, then placing whatever has no family into the authored
+ *    THEMES (data/curriculum/themes.json). Above N3 the points are largely
  *    independent idiomatic expressions with no dependency chain, so family
  *    clustering (which is what enables the differentiator to be taught) buys
- *    most of the available benefit and hand-sequencing buys little. This tier is
- *    intentionally coarser and is the obvious place to improve later.
+ *    most of the available benefit and hand-sequencing buys little. The themes
+ *    are the coarser second half of that: they do not sequence the points
+ *    against each other, they only guarantee a chapter has a subject.
+ *
+ * Themes replaced an alphabetical `FILL_CHAPTER_SIZE` dump that put 42% of the
+ * dataset into 18 buckets of 20 named "Further N2 patterns (3 of 5)" - a bucket
+ * held にほかならない, ということ, "whenever", "before" and "based-on" side by
+ * side for no reason other than adjacent ids. Anything still unthemed after a
+ * dataset rebuild falls back to that bucketing and is listed by name at the end
+ * of the run, so a newly-added point is visible rather than silently dumped.
  *
  * The register-absorb rule is the interesting part. A chapter may declare
  * `absorbRegisterFamilies`, which pulls in every `axis: 'register'` member of
@@ -42,11 +50,34 @@ import type { GrammarChapter, GrammarPoint, GrammarTeachingOrder } from '../src/
 const POINTS_DIR = './compiled/grammar/points';
 const OUTPUT_PATH = './compiled/grammar/index/teaching-order.json';
 const SPINE_PATH = './data/curriculum/chapters.json';
+const THEMES_PATH = './data/curriculum/themes.json';
+const CONTRASTS_PATH = './compiled/grammar/index/contrasts.json';
 
-/** Points with no family, grouped into chapters of at most this many. */
+/** Unthemed points, grouped into fallback chapters of at most this many. */
 const FILL_CHAPTER_SIZE = 20;
 /** A generated family chapter needs at least this many remaining members to be worth its own chapter. */
 const MIN_FAMILY_CHAPTER = 2;
+
+/**
+ * The absorb-vs-level-gate rule for an N3-N1 family (the grammar-curriculum
+ * issue, section 3). A family spread across levels is taught either as ONE
+ * chapter holding the whole ladder, or as one chapter per level.
+ *
+ * Absorbing is pedagogically ideal - the register ladder is only ever visible
+ * whole - but a large family absorbed becomes an unstudiable chapter
+ * (concession is 11 forms). So: absorb a ladder of at most this many members,
+ * level-gate anything larger, and let the family page carry the full ladder for
+ * the level-gated ones.
+ *
+ * Only a PURE register ladder is eligible. A family with any `constraint`
+ * member adds a semantic restriction that can be got wrong, and an escalation
+ * ladder of those is exactly what level-gating is for - so one constraint
+ * member disqualifies the whole family, regardless of size. The count is over
+ * the whole family, not just its register members: splitting a mixed family
+ * into an absorbed register half and a level-gated constraint half fragments it
+ * worse than either rule alone.
+ */
+const LADDER_ABSORB_MAX = 6;
 
 /**
  * How many JLPT levels a register sibling may be pulled forward.
@@ -84,6 +115,26 @@ interface AuthoredChapter {
     absorbRegisterFamilies?: string[];
 }
 
+/**
+ * One authored thematic chapter for the N3-N1 points that have no family, from
+ * data/curriculum/themes.json. Same shape as an authored chapter minus the
+ * absorb directive (a themed point has no family to absorb siblings from).
+ *
+ * A theme lists every point it WANTS; the build intersects that with what is
+ * actually still unplaced, because a point named here can later gain a family
+ * in formality.json and get claimed by a family chapter instead. That is a
+ * warning, not an error - the family chapter is the better home, and forcing
+ * every formality.json edit to be mirrored here by hand would just be a second
+ * copy of the same membership.
+ */
+interface AuthoredTheme {
+    id: string;
+    jlptLevel: number;
+    title: string;
+    summary: string;
+    points: string[];
+}
+
 const LEVEL_NAMES: Record<number, string> = { 5: 'N5', 4: 'N4', 3: 'N3', 2: 'N2', 1: 'N1' };
 
 function loadPoints(): Map<string, GrammarPoint> {
@@ -99,6 +150,65 @@ function loadPoints(): Map<string, GrammarPoint> {
     return points;
 }
 
+/**
+ * Stamp each authored contrast chunk with the chapter its lesson can first be
+ * taught in, and enforce the one invariant a contrast lesson has to satisfy:
+ * a unit teaches the learner to reach for `focus` INSTEAD OF its `vs` siblings,
+ * so `focus` may never be introduced before them. If it were, the lesson would
+ * fire contrasting a word the learner has just met against several they have
+ * not, which is the abstract-before-the-fact failure the lesson exists to avoid.
+ *
+ * Runs here rather than in build-grammar.ts (where the rest of the contrast
+ * validation lives) because the teaching order is only known at this step.
+ *
+ * See GrammarContrastChunk.anchorChapterId for why a chunk is allowed to span
+ * chapters at all.
+ */
+function anchorContrasts(
+    order: string[],
+    placed: Map<string, string>,
+): { crossChapter: number; anchoredChunks: number } {
+    if (!fs.existsSync(CONTRASTS_PATH)) return { crossChapter: 0, anchoredChunks: 0 };
+
+    const contrasts: GrammarContrastIndex = JSON.parse(fs.readFileSync(CONTRASTS_PATH, 'utf-8'));
+    const position = new Map(order.map((id, i) => [id, i]));
+    let crossChapter = 0;
+    let anchoredChunks = 0;
+
+    for (const [familyId, family] of Object.entries(contrasts)) {
+        for (const chunk of family.chunks ?? []) {
+            for (const unit of chunk.units) {
+                const focusAt = position.get(unit.focus);
+                if (focusAt === undefined) {
+                    throw new Error(`contrasts.json: family "${familyId}" chunk "${chunk.id}" teaches "${unit.focus}", which is in no chapter (a realization variant is never introduced on its own).`);
+                }
+                for (const sibling of unit.vs) {
+                    const siblingAt = position.get(sibling);
+                    if (siblingAt === undefined) {
+                        throw new Error(`contrasts.json: family "${familyId}" chunk "${chunk.id}" contrasts against "${sibling}", which is in no chapter.`);
+                    }
+                    if (siblingAt > focusAt) {
+                        throw new Error(
+                            `contrasts.json: family "${familyId}" chunk "${chunk.id}" teaches "${unit.focus}" instead of "${sibling}", ` +
+                            `but "${sibling}" is introduced LATER in the teaching order. Flip the unit's direction, or move one of them.`
+                        );
+                    }
+                }
+            }
+
+            const placedMembers = chunk.memberIds.filter(id => position.has(id));
+            if (placedMembers.length === 0) continue;
+            const anchor = placedMembers.reduce((a, b) => (position.get(a)! >= position.get(b)! ? a : b));
+            chunk.anchorChapterId = placed.get(anchor);
+            anchoredChunks++;
+            if (new Set(placedMembers.map(id => placed.get(id))).size > 1) crossChapter++;
+        }
+    }
+
+    fs.writeFileSync(CONTRASTS_PATH, JSON.stringify(contrasts));
+    return { crossChapter, anchoredChunks };
+}
+
 function main() {
     console.log('🗂️  Building grammar teaching order...');
 
@@ -112,11 +222,18 @@ function main() {
     const points = new Map([...allPoints].filter(([, p]) => !p.variantOf));
     const variantCount = allPoints.size - points.size;
     const spine: { chapters: AuthoredChapter[] } = JSON.parse(fs.readFileSync(SPINE_PATH, 'utf-8'));
+    const themes: { themes: AuthoredTheme[] } = fs.existsSync(THEMES_PATH)
+        ? JSON.parse(fs.readFileSync(THEMES_PATH, 'utf-8'))
+        : { themes: [] };
 
     const chapters: GrammarChapter[] = [];
     const placed = new Map<string, string>(); // point id -> chapter id that claimed it
     let absorbedTotal = 0;
     const skippedTooFar: string[] = [];
+    /** Points a theme lists that a family chapter claimed first - see AuthoredTheme. */
+    const stolenByFamily: string[] = [];
+    /** Points no theme covers, which fell back to alphabetical bucketing. */
+    const unthemed: string[] = [];
 
     const claim = (id: string, chapterId: string) => {
         const existing = placed.get(id);
@@ -194,7 +311,51 @@ function main() {
         });
     }
 
-    // --- Tier 2: generated chapters for whatever is left, easiest level first -
+    // --- Tier 2a: absorbed register ladders, before the per-level sweep -------
+    // A pure register ladder small enough to study in one sitting is taught as a
+    // single chapter at its easiest member's level, rather than as one wave per
+    // level that never shows the learner the ladder whole. See LADDER_ABSORB_MAX.
+    const unplacedByFamily = new Map<string, GrammarPoint[]>();
+    for (const point of points.values()) {
+        if (placed.has(point.id) || !point.family) continue;
+        const bucket = unplacedByFamily.get(point.family.id) ?? [];
+        bucket.push(point);
+        unplacedByFamily.set(point.family.id, bucket);
+    }
+
+    const absorbedLadders: string[] = [];
+    const levelGatedLadders = new Map<string, number>(); // family id -> member count
+    for (const familyId of [...unplacedByFamily.keys()].sort()) {
+        const familyMembers = unplacedByFamily.get(familyId)!;
+        if (familyMembers.length < MIN_FAMILY_CHAPTER) continue;
+        const levels = new Set(familyMembers.map(p => p.jlptLevel));
+        // A single-level family is already one chapter under the per-level sweep
+        // below; absorbing it would only rename the chapter.
+        if (levels.size < 2) continue;
+        const hasConstraint = familyMembers.some(p => p.family?.axis === 'constraint');
+        if (hasConstraint || familyMembers.length > LADDER_ABSORB_MAX) {
+            levelGatedLadders.set(familyId, familyMembers.length);
+            continue;
+        }
+
+        // Easiest first (jlptLevel 5 = N5), then by id for determinism - the same
+        // ordering the tier-1 absorb uses, so the base form is met before its
+        // higher-register siblings.
+        const ordered = familyMembers.slice().sort((a, b) => b.jlptLevel - a.jlptLevel || a.id.localeCompare(b.id));
+        const placeAt = ordered[0].jlptLevel;
+        const id = `${LEVEL_NAMES[placeAt].toLowerCase()}-fam-${familyId}`;
+        for (const member of ordered) claim(member.id, id);
+        chapters.push({
+            id,
+            title: ordered[0].family!.name,
+            summary: `The whole ${ordered[0].family!.name.replace(/\s*\(.*\)$/, '').toLowerCase()} ladder in one place, easiest register first. These differ only by formality, so they are taught together rather than one level at a time: once you know the first, each of the rest is a one-line register fact.`,
+            jlptLevel: placeAt,
+            points: ordered.map(m => m.id),
+        });
+        absorbedLadders.push(`${familyId} (${ordered.length} members, N${[...levels].sort((a, b) => b - a).map(l => l).join('/N')} -> ${id})`);
+    }
+
+    // --- Tier 2b: generated chapters for whatever is left, easiest level first -
     for (const level of [5, 4, 3, 2, 1]) {
         const remaining = [...points.values()]
             .filter(p => p.jlptLevel === level && !placed.has(p.id))
@@ -217,19 +378,51 @@ function main() {
             if (members.length < MIN_FAMILY_CHAPTER) continue;
             const id = `${LEVEL_NAMES[level].toLowerCase()}-fam-${familyId}`;
             for (const member of members) claim(member.id, id);
+            // A level-gated family gets its level in the title, because the same
+            // family name would otherwise head two or three chapters with no way
+            // to tell them apart in a chapter list.
+            const split = levelGatedLadders.has(familyId);
             chapters.push({
                 id,
-                title: members[0].family!.name,
-                summary: `${members.length} ways to express this at ${LEVEL_NAMES[level]}. What separates them is in each point's usage note - read that before drilling them, or they blur together.`,
+                title: split ? `${LEVEL_NAMES[level]}: ${members[0].family!.name}` : members[0].family!.name,
+                summary: split
+                    ? `The ${LEVEL_NAMES[level]} members of this family. The rest of it is taught at other levels - these ${members.length} are the ones worth telling apart from each other now, and the family page carries the full set.`
+                    : `${members.length} ways to express this at ${LEVEL_NAMES[level]}. What separates them is in each point's usage note - read that before drilling them, or they blur together.`,
                 jlptLevel: level,
                 points: members.map(m => m.id),
             });
         }
 
         // Then everything with no family (or a family too small for its own
-        // chapter), in source order, chunked into study-sized chapters. This
-        // tier is not sequenced - see the header comment.
+        // chapter), into the authored themes for this level. A theme is not
+        // sequenced internally - it only guarantees the chapter has a subject.
+        for (const theme of themes.themes.filter(t => t.jlptLevel === level)) {
+            const claimable = theme.points.filter(id => {
+                if (!points.has(id)) {
+                    if (allPoints.get(id)?.variantOf) return false;
+                    throw new Error(`${THEMES_PATH}: theme "${theme.id}" lists "${id}", which is not a compiled grammar point (dropped as a duplicate, or a typo).`);
+                }
+                if (placed.has(id)) {
+                    stolenByFamily.push(`${id} (theme "${theme.id}" -> chapter "${placed.get(id)}")`);
+                    return false;
+                }
+                return true;
+            });
+            if (claimable.length === 0) continue;
+            for (const id of claimable) claim(id, theme.id);
+            chapters.push({
+                id: theme.id,
+                title: theme.title,
+                summary: theme.summary,
+                jlptLevel: level,
+                points: claimable,
+            });
+        }
+
+        // Anything still unplaced falls back to the old alphabetical bucketing,
+        // and is named in the run's output so it can be themed - see the header.
         const leftovers = remaining.filter(p => !placed.has(p.id));
+        unthemed.push(...leftovers.map(p => p.id));
         for (let i = 0; i < leftovers.length; i += FILL_CHAPTER_SIZE) {
             const chunk = leftovers.slice(i, i + FILL_CHAPTER_SIZE);
             const part = Math.floor(i / FILL_CHAPTER_SIZE) + 1;
@@ -266,6 +459,11 @@ function main() {
         );
     }
 
+    const duplicateChapterIds = chapters.map(c => c.id).filter((id, i, all) => all.indexOf(id) !== i);
+    if (duplicateChapterIds.length > 0) {
+        throw new Error(`Duplicate chapter id(s): ${[...new Set(duplicateChapterIds)].join(', ')} - a theme id in ${THEMES_PATH} collides with a generated chapter id.`);
+    }
+
     const order = chapters.flatMap(c => c.points);
     if (order.length !== points.size) {
         throw new Error(`Teaching order has ${order.length} entries for ${points.size} points - duplicated somewhere.`);
@@ -275,9 +473,26 @@ function main() {
     fs.mkdirSync(path.dirname(OUTPUT_PATH), { recursive: true });
     fs.writeFileSync(OUTPUT_PATH, JSON.stringify(teachingOrder));
 
+    const { crossChapter, anchoredChunks } = anchorContrasts(order, placed);
+
     const authoredCount = spine.chapters.length;
+    const themedCount = chapters.filter(c => themes.themes.some(t => t.id === c.id)).length;
     console.log(`✅ Teaching order written to ${OUTPUT_PATH}`);
-    console.log(`   - Chapters: ${chapters.length} (${authoredCount} hand-authored N5/N4, ${chapters.length - authoredCount} generated N3-N1)`);
+    console.log(`   - Chapters: ${chapters.length} (${authoredCount} hand-authored N5/N4, ${themedCount} authored N3-N1 themes, ${chapters.length - authoredCount - themedCount} generated)`);
+    console.log(`   - Register ladders absorbed across levels: ${absorbedLadders.length}`);
+    absorbedLadders.forEach(s => console.log(`       ${s}`));
+    if (levelGatedLadders.size > 0) {
+        console.log(`   - Families left level-gated (too large, or not a pure register ladder): ${levelGatedLadders.size}`);
+    }
+    if (stolenByFamily.length > 0) {
+        console.log(`   - Themed points claimed by a family chapter instead: ${stolenByFamily.length}`);
+        stolenByFamily.forEach(s => console.log(`       ${s}`));
+    }
+    console.log(`   - Contrast chunks anchored to a chapter: ${anchoredChunks} (${crossChapter} span more than one chapter)`);
+    if (unthemed.length > 0) {
+        console.log(`   - UNTHEMED, fell back to alphabetical buckets: ${unthemed.length}`);
+        console.log(`       ${unthemed.join(' ')}`);
+    }
     console.log(`   - Points ordered: ${order.length}/${points.size}  (${variantCount} realization variants excluded)`);
     console.log(`   - Register siblings pulled forward from a harder level: ${absorbedTotal}`);
     if (skippedTooFar.length > 0) {

@@ -151,7 +151,24 @@ describe('compileContrasts', () => {
         )).toThrow(/missing situation or guidance/);
     });
 
-    it('returns an empty index for no authored contrasts', () => {
-        expect(compileContrasts({}, familyMembers, axisOf)).toEqual({ index: {}, unitCount: 0 });
+    it('lists a variant family as interchangeable even with no authored lesson', () => {
+        // The whole point of the interchangeable list: a family that can never
+        // carry a lesson still has to say so, rather than being absent entirely.
+        const { index, unitCount } = compileContrasts({}, familyMembers, axisOf);
+        expect(unitCount).toBe(0);
+        expect(index['regardless-a-or-b'].chunks).toEqual([]);
+        expect(index['regardless-a-or-b'].interchangeable).toEqual(['n1-100', 'n1-101']);
+        // A family with no variant members is not listed at all.
+        expect(index.causality).toBeUndefined();
+    });
+
+    it('merges the interchangeable list onto a family that also has lessons', () => {
+        const { index } = compileContrasts(
+            { causality: { chunks: [chunk()] } },
+            familyMembers,
+            axisOf,
+        );
+        expect(index.causality.interchangeable).toBeUndefined();
+        expect(index['regardless-a-or-b'].interchangeable).toHaveLength(2);
     });
 });
