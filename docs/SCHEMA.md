@@ -302,36 +302,38 @@ type GrammarFamilyIndex = Record<string, { name: string; memberIds: string[] }>;
 
 Answers the question a `usageNote` cannot: *given a real situation, which member do I reach for, and why not the obvious alternative?* から and ので both gloss as "because", but only ので fits an apology. That fact is contrastive and lives in neither point's own entry.
 
-Authored by hand (AI-drafted, human-reviewed) in `data/raw/grammar/contrasts.json` and compiled by `build-grammar.ts`'s `compileContrasts` (pure, unit-tested). A family is partitioned into confusability-first **chunks** (small groups of members - target 5-6, soft cap - close enough to be actively disambiguated together, like interleaving look-alike kanji; a small family can be one chunk, a large one is split); each chunk carries directed **units** (the lessons), and a lesson is always a subset of its chunk.
+Authored by hand (AI-drafted, human-reviewed) in `data/raw/grammar/contrasts.json` and compiled by `build-grammar.ts`'s `compileContrasts` (pure, unit-tested). A family is partitioned into confusability-first **lessons** (small groups of points - target 5-6, soft cap - close enough to be actively disambiguated together, like interleaving look-alike kanji; a small family can be one lesson, a large one is split). Each lesson carries directed **cases**: one concrete situation, which point to reach for in it, and why the obvious alternative does not fit. A case may only name points its own lesson covers.
 
 ```ts
 type GrammarContrastIndex = Record<string, {   // familyId ->
   name: string;                                 // the family's display name (copied from families.json for convenience)
-  chunks: {
+  lessons: {
     id: string;                                 // stable slug within the family, e.g. "reason-core"
-    label: string;                              // short display label, e.g. "から / ので"
-    memberIds: string[];                        // the confusable members grouped here
-    units: {                                    // the lessons; focus/vs are a subset of memberIds
-      focus: string;                            // the member this unit teaches the learner to reach for
+    title: string;                              // short display title, e.g. "から / ので"
+    points: string[];                           // the confusable points this lesson covers
+    cases: {                                    // the situations taught here; focus/vs are a subset of `points`
+      focus: string;                            // the point this case teaches the learner to reach for
       vs: string[];                             // the sibling(s) `focus` is most confused with
       situation: string;                        // a concrete situation where the choice matters
-      guidance: string;                         // which member fits, and why the obvious alternative does not
+      guidance: string;                         // which point fits, and why the obvious alternative does not
     }[];
-    anchorChapterId?: string;                   // chapter this chunk's lesson can first be taught in
+    taughtInChapterId?: string;                 // chapter this lesson can first be taught in
   }[];
   interchangeable?: string[];                   // `variant`-axis members: no lesson, a note instead
 }>;
 ```
 
-Coverage as of the last build: **66 families, 97 chunks, 141 units**, plus interchangeable-member notes on 2 families.
+Coverage as of the last build: **66 families, 96 lessons, 140 cases**, plus interchangeable-member notes on 2 families.
 
-A unit is **directed**: `focus` is the member met LATER in the teaching order, so by the time it is introduced the `vs` siblings are already known and the contrast lands between two real memories. The consumer surfaces a unit at `focus`'s introduction (deferring it if a `vs` sibling isn't known yet) and on a revisitable family page.
+> **A lesson is not a chapter**, and the two are easy to conflate. A chapter is a slot in the introduction order; a lesson is a set of points a learner actually mixes up. They cut across each other by design. (A lesson was called a "chunk" until 2026-09, which made the collision worse.) [GRAMMAR_TEACHING_MODEL.md](GRAMMAR_TEACHING_MODEL.md) explains the whole model in plain English, and [CURRICULUM.md](CURRICULUM.md) is the generated inventory of what currently exists.
 
-`anchorChapterId` is stamped by `build-curriculum.ts`, which is the only step that knows the chapters: it is the chapter of whichever member the chunk introduces last, so it is the earliest point at which every member the lesson names is a real memory. The curriculum design work assumed the stronger rule that a chunk may not span chapters at all; that rule would delete the から/ので lesson this section opens with (から is introduced in `n5-c16`, ので in `n4-c12`), so what is enforced instead is the invariant that actually carries the weight: **a unit's `focus` may never be introduced before one of its `vs` siblings**, a build error in `build-curriculum.ts`. Chunks that do span chapters are counted in the build output (3 of 97 currently), because a chunk confined to one chapter is still the better shape wherever it is achievable.
+A case is **directed**: `focus` is the point met LATER in the teaching order, so by the time it is introduced the `vs` siblings are already known and the contrast lands between two real memories. The consumer surfaces a case at `focus`'s introduction (deferring it if a `vs` sibling isn't known yet) and on a revisitable family page.
 
-`interchangeable` lists the family's `variant`-axis members, when it has two or more. Those siblings have no differentiator, so they can never carry a lesson (a build error) - but silence is worse than a one-line note: a learner who meets ten near-identical literary forms with no comment will assume a distinction exists and go looking for one. Render it as "these are interchangeable, pick by feel", not as a lesson. A family may have this and **no chunks at all**, which is the normal shape for a pure variant family, so `chunks: []` is not a bug.
+`taughtInChapterId` is stamped by `build-curriculum.ts`, which is the only step that knows the chapters: it is the chapter of whichever point the lesson covers is introduced last, so it is the earliest moment at which every point the lesson names is a real memory. The curriculum design work assumed the stronger rule that a lesson may not span chapters at all; that rule would delete the から/ので lesson this section opens with (から is introduced in `n5-c16`, ので in `n4-c12`), so what is enforced instead is the invariant that actually carries the weight: **a case's `focus` may never be introduced before one of its `vs` siblings**, a build error in `build-curriculum.ts`. Lessons that do span chapters are counted in the build output (3 of 96 currently), because a lesson confined to one chapter is still the better shape wherever it is achievable.
 
-Validation is strict (each is a build error, not a silent drop): `focus`/`vs`/`memberIds` must be genuine, non-dropped members of the family; a unit may never reference a `variant`-axis point; `vs` must be non-empty and exclude `focus`; every `focus`/`vs` id must be in its own chunk's `memberIds` (a lesson is a subset of its chunk); `situation`/`guidance` must be non-blank; and no `focus` may precede its `vs` in the teaching order. A chunk larger than the soft cap (8) warns rather than failing, so a coherent register ladder (the "but" family is 7) is allowed.
+`interchangeable` lists the family's `variant`-axis members, when it has two or more. Those siblings have no differentiator, so they can never carry a lesson (a build error) - but silence is worse than a one-line note: a learner who meets ten near-identical literary forms with no comment will assume a distinction exists and go looking for one. Render it as "these are interchangeable, pick by feel", not as a lesson. A family may have this and **no lessons at all**, which is the normal shape for a pure variant family, so `lessons: []` is not a bug.
+
+Validation is strict (each is a build error, not a silent drop): `focus`/`vs`/`points` must be genuine, non-dropped members of the family; a case may never reference a `variant`-axis point; `vs` must be non-empty and exclude `focus`; every `focus`/`vs` id must be one of its own lesson's `points`; `situation`/`guidance` must be non-blank; and no `focus` may precede its `vs` in the teaching order. A lesson covering more points than the soft cap (8) warns rather than failing, so a coherent register ladder (the "but" family is 7) is allowed.
 
 ### `GrammarPoint.slot` — syntactic position, for interchangeability grading
 

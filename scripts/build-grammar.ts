@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import kuromoji from 'kuromoji';
-import type { GrammarContrastChunk, GrammarContrastIndex, GrammarExample, GrammarExampleWord, GrammarJlptIndex, GrammarPoint } from '../src/models/grammar.model';
+import type { GrammarContrastLesson, GrammarContrastIndex, GrammarExample, GrammarExampleWord, GrammarJlptIndex, GrammarPoint } from '../src/models/grammar.model';
 import type { SearchIndex } from '../src/models/index.model';
 import { locatePattern } from './grammar-pattern-matcher';
 import { SentenceTokenizer } from '../src/utils/tokenizer';
@@ -378,19 +378,19 @@ export function splitTitle(raw: string): { title: string; romaji?: string } {
  * id would teach a contrast the sentence never shows.
  */
 export function compileContrasts(
-    raw: Record<string, { chunks: GrammarContrastChunk[] }>,
+    raw: Record<string, { lessons: GrammarContrastLesson[] }>,
     familyMembers: Map<string, { name: string; ids: string[] }>,
     axisOf: (id: string) => string | undefined,
     sanitize: (text: string) => string = (t) => t,
     warn: (message: string) => void = (m) => console.warn(m),
-): { index: GrammarContrastIndex; unitCount: number } {
+): { index: GrammarContrastIndex; caseCount: number } {
     const index: GrammarContrastIndex = {};
-    let unitCount = 0;
+    let caseCount = 0;
 
-    // Soft cap on chunk size: a chunk is meant to be a handful of confusable
-    // members (target 5-6), but a single coherent register ladder can run a
+    // Soft cap on lesson size: a lesson is meant to be a handful of confusable
+    // points (target 5-6), but a single coherent register ladder can run a
     // little longer (the "but" family is 7), so this warns rather than fails.
-    const CHUNK_SOFT_CAP = 8;
+    const LESSON_SOFT_CAP = 8;
 
     for (const [familyId, fam] of Object.entries(raw)) {
         const members = familyMembers.get(familyId);
@@ -407,47 +407,46 @@ export function compileContrasts(
             }
         };
 
-        for (const chunk of fam.chunks) {
-            chunk.memberIds.forEach(mid => assertMember(mid, `chunk "${chunk.id}"`));
-            if (chunk.memberIds.length > CHUNK_SOFT_CAP) {
-                warn(`contrasts.json: family "${familyId}" chunk "${chunk.id}" has ${chunk.memberIds.length} members (soft cap ${CHUNK_SOFT_CAP}) - consider splitting.`);
+        for (const lesson of fam.lessons) {
+            lesson.points.forEach(id => assertMember(id, `lesson "${lesson.id}"`));
+            if (lesson.points.length > LESSON_SOFT_CAP) {
+                warn(`contrasts.json: family "${familyId}" lesson "${lesson.id}" covers ${lesson.points.length} points (soft cap ${LESSON_SOFT_CAP}) - consider splitting.`);
             }
-            const chunkMembers = new Set(chunk.memberIds);
-            for (const unit of chunk.units) {
-                assertMember(unit.focus, `chunk "${chunk.id}" focus`);
-                if (unit.vs.length === 0) {
-                    throw new Error(`contrasts.json: family "${familyId}" unit for "${unit.focus}" has an empty vs list.`);
+            const covered = new Set(lesson.points);
+            for (const case_ of lesson.cases) {
+                assertMember(case_.focus, `lesson "${lesson.id}" focus`);
+                if (case_.vs.length === 0) {
+                    throw new Error(`contrasts.json: family "${familyId}" case for "${case_.focus}" has an empty vs list.`);
                 }
-                unit.vs.forEach(vid => assertMember(vid, `chunk "${chunk.id}" vs`));
-                if (unit.vs.includes(unit.focus)) {
-                    throw new Error(`contrasts.json: family "${familyId}" unit for "${unit.focus}" lists itself in vs.`);
+                case_.vs.forEach(vid => assertMember(vid, `lesson "${lesson.id}" vs`));
+                if (case_.vs.includes(case_.focus)) {
+                    throw new Error(`contrasts.json: family "${familyId}" case for "${case_.focus}" lists itself in vs.`);
                 }
-                // A lesson is a subset of its chunk: every point it names must be a
-                // member of the chunk it lives in, or the chunk stops being the unit
-                // of learning the lesson claims to sit inside.
-                for (const id of [unit.focus, ...unit.vs]) {
-                    if (!chunkMembers.has(id)) {
-                        throw new Error(`contrasts.json: family "${familyId}" chunk "${chunk.id}" has a lesson referencing "${id}", which is not in the chunk's memberIds (a lesson must be a subset of its chunk).`);
+                // A case may only name points its own lesson covers, or the lesson
+                // stops being the unit of learning the case claims to sit inside.
+                for (const id of [case_.focus, ...case_.vs]) {
+                    if (!covered.has(id)) {
+                        throw new Error(`contrasts.json: family "${familyId}" lesson "${lesson.id}" has a case naming "${id}", which is not one of the lesson's points.`);
                     }
                 }
-                if (!unit.situation?.trim() || !unit.guidance?.trim()) {
-                    throw new Error(`contrasts.json: family "${familyId}" unit for "${unit.focus}" is missing situation or guidance text.`);
+                if (!case_.situation?.trim() || !case_.guidance?.trim()) {
+                    throw new Error(`contrasts.json: family "${familyId}" case for "${case_.focus}" is missing situation or guidance text.`);
                 }
-                unitCount++;
+                caseCount++;
             }
         }
 
         index[familyId] = {
             name: members.name,
-            chunks: fam.chunks.map(c => ({
-                id: c.id,
-                label: sanitize(c.label),
-                memberIds: c.memberIds,
-                units: c.units.map(u => ({
-                    focus: u.focus,
-                    vs: u.vs,
-                    situation: sanitize(u.situation),
-                    guidance: sanitize(u.guidance),
+            lessons: fam.lessons.map(lesson => ({
+                id: lesson.id,
+                title: sanitize(lesson.title),
+                points: lesson.points,
+                cases: lesson.cases.map(c => ({
+                    focus: c.focus,
+                    vs: c.vs,
+                    situation: sanitize(c.situation),
+                    guidance: sanitize(c.guidance),
                 })),
             })),
         };
@@ -461,7 +460,7 @@ export function compileContrasts(
     // family with two or more of them gets a flat list instead of a lesson, and
     // the consumer renders it as "these are interchangeable, pick by feel".
     //
-    // Emitted for families with no authored chunks at all, which is the usual
+    // Emitted for families with no authored lessons at all, which is the usual
     // case for a pure variant family - hence the merge into whatever `index`
     // already holds rather than a second pass over `raw`.
     for (const [familyId, family] of familyMembers) {
@@ -469,10 +468,10 @@ export function compileContrasts(
         if (interchangeable.length < 2) continue;
         const existing = index[familyId];
         if (existing) existing.interchangeable = interchangeable;
-        else index[familyId] = { name: family.name, chunks: [], interchangeable };
+        else index[familyId] = { name: family.name, lessons: [], interchangeable };
     }
 
-    return { index, unitCount };
+    return { index, caseCount };
 }
 
 /** kuromoji tokens annotated with their character-offset span in the original sentence. */
@@ -1045,10 +1044,10 @@ async function main() {
     // family members (data/raw/grammar/contrasts.json). Compiled and validated
     // by compileContrasts (pure, tested) against the family membership derived
     // above, then emitted as its own index. See docs/SCHEMA.md.
-    const contrastsRaw: Record<string, { chunks: GrammarContrastChunk[] }> = fs.existsSync(CONTRASTS_PATH)
+    const contrastsRaw: Record<string, { lessons: GrammarContrastLesson[] }> = fs.existsSync(CONTRASTS_PATH)
         ? JSON.parse(fs.readFileSync(CONTRASTS_PATH, 'utf-8'))
         : {};
-    const { index: contrastsIndex, unitCount: contrastUnitCount } = compileContrasts(
+    const { index: contrastsIndex, caseCount: contrastUnitCount } = compileContrasts(
         contrastsRaw,
         familyMembers,
         id => formalityMap[id]?.axis,
@@ -1056,7 +1055,7 @@ async function main() {
     );
     fs.writeFileSync(path.join(OUTPUT_DIR, 'index', 'contrasts.json'), JSON.stringify(contrastsIndex));
     const interchangeableFamilies = Object.values(contrastsIndex).filter(f => f.interchangeable).length;
-    console.log(`   - contrast lessons: ${Object.keys(contrastsIndex).length} families, ${contrastUnitCount} units (${interchangeableFamilies} families also carry an interchangeable-members note)`);
+    console.log(`   - contrast lessons: ${Object.keys(contrastsIndex).length} families, ${contrastUnitCount} cases (${interchangeableFamilies} families also carry an interchangeable-members note)`);
 
     // Aliases: dropped duplicate id -> the surviving canonical. Published so a
     // consumer holding stored progress against a dropped id can transfer it

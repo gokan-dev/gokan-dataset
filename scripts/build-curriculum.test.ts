@@ -203,11 +203,11 @@ describe.skipIf(!built)('contrast lessons against the teaching order', () => {
         // already have been met by the time the focus arrives.
         const offenders: string[] = [];
         for (const [familyId, family] of Object.entries(contrasts)) {
-            for (const chunk of family.chunks) {
-                for (const unit of chunk.units) {
-                    for (const sibling of unit.vs) {
-                        if (position.get(sibling)! > position.get(unit.focus)!) {
-                            offenders.push(`${familyId}/${chunk.id}: ${unit.focus} before ${sibling}`);
+            for (const lesson of family.lessons) {
+                for (const case_ of lesson.cases) {
+                    for (const sibling of case_.vs) {
+                        if (position.get(sibling)! > position.get(case_.focus)!) {
+                            offenders.push(`${familyId}/${lesson.id}: ${case_.focus} before ${sibling}`);
                         }
                     }
                 }
@@ -216,13 +216,13 @@ describe.skipIf(!built)('contrast lessons against the teaching order', () => {
         expect(offenders).toEqual([]);
     });
 
-    it('anchors every chunk to the chapter of its last-introduced member', () => {
+    it('anchors every lesson to the chapter of its last-introduced member', () => {
         const offenders: string[] = [];
         for (const [familyId, family] of Object.entries(contrasts)) {
-            for (const chunk of family.chunks) {
-                const last = chunk.memberIds.reduce((a, b) => (position.get(a)! >= position.get(b)! ? a : b));
-                if (chunk.anchorChapterId !== chapterOf.get(last)) {
-                    offenders.push(`${familyId}/${chunk.id}: anchored to ${chunk.anchorChapterId}, last member ${last} is in ${chapterOf.get(last)}`);
+            for (const lesson of family.lessons) {
+                const last = lesson.points.reduce((a, b) => (position.get(a)! >= position.get(b)! ? a : b));
+                if (lesson.taughtInChapterId !== chapterOf.get(last)) {
+                    offenders.push(`${familyId}/${lesson.id}: anchored to ${lesson.taughtInChapterId}, last member ${last} is in ${chapterOf.get(last)}`);
                 }
             }
         }
@@ -236,9 +236,9 @@ describe.skipIf(!built)('contrast lessons against the teaching order', () => {
         const offenders: string[] = [];
         for (const [familyId, family] of Object.entries(contrasts)) {
             const interchangeable = new Set(family.interchangeable ?? []);
-            for (const chunk of family.chunks) {
-                for (const id of chunk.memberIds) {
-                    if (interchangeable.has(id)) offenders.push(`${familyId}/${chunk.id}: ${id}`);
+            for (const lesson of family.lessons) {
+                for (const id of lesson.points) {
+                    if (interchangeable.has(id)) offenders.push(`${familyId}/${lesson.id}: ${id}`);
                 }
             }
         }

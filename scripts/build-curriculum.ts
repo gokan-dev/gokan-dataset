@@ -151,9 +151,9 @@ function loadPoints(): Map<string, GrammarPoint> {
 }
 
 /**
- * Stamp each authored contrast chunk with the chapter its lesson can first be
+ * Stamp each authored contrast lesson with the chapter its lesson can first be
  * taught in, and enforce the one invariant a contrast lesson has to satisfy:
- * a unit teaches the learner to reach for `focus` INSTEAD OF its `vs` siblings,
+ * a case teaches the learner to reach for `focus` INSTEAD OF its `vs` siblings,
  * so `focus` may never be introduced before them. If it were, the lesson would
  * fire contrasting a word the learner has just met against several they have
  * not, which is the abstract-before-the-fact failure the lesson exists to avoid.
@@ -161,52 +161,52 @@ function loadPoints(): Map<string, GrammarPoint> {
  * Runs here rather than in build-grammar.ts (where the rest of the contrast
  * validation lives) because the teaching order is only known at this step.
  *
- * See GrammarContrastChunk.anchorChapterId for why a chunk is allowed to span
+ * See GrammarContrastLesson.taughtInChapterId for why a lesson is allowed to span
  * chapters at all.
  */
-function anchorContrasts(
+function anchorLessons(
     order: string[],
     placed: Map<string, string>,
-): { crossChapter: number; anchoredChunks: number } {
-    if (!fs.existsSync(CONTRASTS_PATH)) return { crossChapter: 0, anchoredChunks: 0 };
+): { crossChapter: number; anchoredLessons: number } {
+    if (!fs.existsSync(CONTRASTS_PATH)) return { crossChapter: 0, anchoredLessons: 0 };
 
     const contrasts: GrammarContrastIndex = JSON.parse(fs.readFileSync(CONTRASTS_PATH, 'utf-8'));
     const position = new Map(order.map((id, i) => [id, i]));
     let crossChapter = 0;
-    let anchoredChunks = 0;
+    let anchoredLessons = 0;
 
     for (const [familyId, family] of Object.entries(contrasts)) {
-        for (const chunk of family.chunks ?? []) {
-            for (const unit of chunk.units) {
-                const focusAt = position.get(unit.focus);
+        for (const lesson of family.lessons ?? []) {
+            for (const case_ of lesson.cases) {
+                const focusAt = position.get(case_.focus);
                 if (focusAt === undefined) {
-                    throw new Error(`contrasts.json: family "${familyId}" chunk "${chunk.id}" teaches "${unit.focus}", which is in no chapter (a realization variant is never introduced on its own).`);
+                    throw new Error(`contrasts.json: family "${familyId}" lesson "${lesson.id}" teaches "${case_.focus}", which is in no chapter (a realization variant is never introduced on its own).`);
                 }
-                for (const sibling of unit.vs) {
+                for (const sibling of case_.vs) {
                     const siblingAt = position.get(sibling);
                     if (siblingAt === undefined) {
-                        throw new Error(`contrasts.json: family "${familyId}" chunk "${chunk.id}" contrasts against "${sibling}", which is in no chapter.`);
+                        throw new Error(`contrasts.json: family "${familyId}" lesson "${lesson.id}" contrasts against "${sibling}", which is in no chapter.`);
                     }
                     if (siblingAt > focusAt) {
                         throw new Error(
-                            `contrasts.json: family "${familyId}" chunk "${chunk.id}" teaches "${unit.focus}" instead of "${sibling}", ` +
-                            `but "${sibling}" is introduced LATER in the teaching order. Flip the unit's direction, or move one of them.`
+                            `contrasts.json: family "${familyId}" lesson "${lesson.id}" teaches "${case_.focus}" instead of "${sibling}", ` +
+                            `but "${sibling}" is introduced LATER in the teaching order. Flip the case's direction, or move one of them.`
                         );
                     }
                 }
             }
 
-            const placedMembers = chunk.memberIds.filter(id => position.has(id));
+            const placedMembers = lesson.points.filter(id => position.has(id));
             if (placedMembers.length === 0) continue;
             const anchor = placedMembers.reduce((a, b) => (position.get(a)! >= position.get(b)! ? a : b));
-            chunk.anchorChapterId = placed.get(anchor);
-            anchoredChunks++;
+            lesson.taughtInChapterId = placed.get(anchor);
+            anchoredLessons++;
             if (new Set(placedMembers.map(id => placed.get(id))).size > 1) crossChapter++;
         }
     }
 
     fs.writeFileSync(CONTRASTS_PATH, JSON.stringify(contrasts));
-    return { crossChapter, anchoredChunks };
+    return { crossChapter, anchoredLessons };
 }
 
 function main() {
@@ -424,17 +424,17 @@ function main() {
         const leftovers = remaining.filter(p => !placed.has(p.id));
         unthemed.push(...leftovers.map(p => p.id));
         for (let i = 0; i < leftovers.length; i += FILL_CHAPTER_SIZE) {
-            const chunk = leftovers.slice(i, i + FILL_CHAPTER_SIZE);
+            const lesson = leftovers.slice(i, i + FILL_CHAPTER_SIZE);
             const part = Math.floor(i / FILL_CHAPTER_SIZE) + 1;
             const total = Math.ceil(leftovers.length / FILL_CHAPTER_SIZE);
             const id = `${LEVEL_NAMES[level].toLowerCase()}-more-${String(part).padStart(2, '0')}`;
-            for (const point of chunk) claim(point.id, id);
+            for (const point of lesson) claim(point.id, id);
             chapters.push({
                 id,
                 title: `Further ${LEVEL_NAMES[level]} patterns (${part} of ${total})`,
                 summary: `Independent ${LEVEL_NAMES[level]} patterns with no close synonym in the set. Not sequenced against each other - order here carries no pedagogical claim.`,
                 jlptLevel: level,
-                points: chunk.map(p => p.id),
+                points: lesson.map(p => p.id),
             });
         }
     }
@@ -473,7 +473,7 @@ function main() {
     fs.mkdirSync(path.dirname(OUTPUT_PATH), { recursive: true });
     fs.writeFileSync(OUTPUT_PATH, JSON.stringify(teachingOrder));
 
-    const { crossChapter, anchoredChunks } = anchorContrasts(order, placed);
+    const { crossChapter, anchoredLessons } = anchorLessons(order, placed);
 
     const authoredCount = spine.chapters.length;
     const themedCount = chapters.filter(c => themes.themes.some(t => t.id === c.id)).length;
@@ -488,7 +488,7 @@ function main() {
         console.log(`   - Themed points claimed by a family chapter instead: ${stolenByFamily.length}`);
         stolenByFamily.forEach(s => console.log(`       ${s}`));
     }
-    console.log(`   - Contrast chunks anchored to a chapter: ${anchoredChunks} (${crossChapter} span more than one chapter)`);
+    console.log(`   - Contrast lessons anchored to a chapter: ${anchoredLessons} (${crossChapter} span more than one chapter)`);
     if (unthemed.length > 0) {
         console.log(`   - UNTHEMED, fell back to alphabetical buckets: ${unthemed.length}`);
         console.log(`       ${unthemed.join(' ')}`);

@@ -236,15 +236,15 @@ export interface GrammarTeachingOrder {
 }
 
 /**
- * One directed contrast unit: teaches when to reach for `focus` rather than the
- * `vs` sibling(s) it is most confused with, in a concrete situation. Authored in
+ * One CASE inside a lesson: a concrete situation, plus which point to reach for
+ * in it and why the obvious alternative does not fit. Authored in
  * data/raw/grammar/contrasts.json (AI-drafted, human-reviewed) and compiled into
  * compiled/grammar/index/contrasts.json. Directed so `focus` is the member met
  * LATER in the teaching order, so by the time it is introduced the `vs` siblings
  * are already known and the contrast lands between two real memories.
  */
-export interface GrammarContrastUnit {
-    /** The point this unit teaches the learner to reach for. */
+export interface GrammarContrastCase {
+    /** The point this case teaches the learner to reach for. */
     focus: string;
     /** The sibling(s) `focus` is most confused with. */
     vs: string[];
@@ -255,53 +255,58 @@ export interface GrammarContrastUnit {
 }
 
 /**
- * A CHUNK: a confusability-first sub-grouping of a family - a small set of
- * members (target 5-6, soft cap) close enough to be actively disambiguated
- * together, like interleaving look-alike kanji. A small family can be one chunk;
- * a large one is split. A lesson (unit) is always a subset of one chunk.
+ * A LESSON: a confusability-first sub-grouping of a family - a small set of
+ * points (target 5-6, soft cap) close enough to be actively disambiguated
+ * together, like interleaving look-alike kanji. A small family can be one
+ * lesson; a large one is split into several. Every case belongs to one lesson,
+ * and may only name points that lesson covers.
+ *
+ * (This was called a "chunk" until the vocabulary was found to collide with
+ * "chapter" in practice. A lesson is a set of confusable points plus the cases
+ * that tell them apart; a chapter is a slot in the introduction order. They are
+ * unrelated groupings and a lesson may span chapters - see taughtInChapterId.)
  */
-export interface GrammarContrastChunk {
+export interface GrammarContrastLesson {
     /** Stable slug within the family, e.g. "reason-core". */
     id: string;
-    /** Short display label, e.g. "から / ので". */
-    label: string;
-    /** The confusable members grouped here. */
-    memberIds: string[];
-    /** Lessons taught within this chunk. Each unit's focus/vs are a subset of memberIds. */
-    units: GrammarContrastUnit[];
+    /** Short display title, e.g. "から / ので". */
+    title: string;
+    /** The confusable points this lesson covers. */
+    points: string[];
+    /** The situations taught here. Each case's focus/vs are a subset of `points`. */
+    cases: GrammarContrastCase[];
     /**
-     * The chapter this chunk's lesson can first be taught in: the chapter of
-     * whichever member is introduced LAST in the teaching order. Filled in by
+     * The chapter this lesson can first be taught in: the chapter of whichever
+     * point it covers is introduced LAST in the teaching order. Filled in by
      * build-curriculum.ts (which is the only step that knows the chapters), so
      * it is absent from the raw authored file and present in the compiled index.
      *
-     * A contrast is only meaningful once every member it names is a real memory,
+     * A contrast is only meaningful once every point it names is a real memory,
      * so this is the earliest point at which the lesson is honest. The
-     * grammar-curriculum issue assumed the stronger rule that a chunk may not
+     * grammar-curriculum issue assumed the stronger rule that a lesson may not
      * span chapters at all; that rule would delete the から/ので lesson the
      * family-lessons issue opens with (から is introduced in n5-c16, ので in
      * n4-c12), so what is enforced is the weaker, actually-load-bearing
-     * invariant: a unit's `focus` may never be introduced BEFORE one of its
-     * `vs` siblings. Chunks that do span chapters are counted in the build
-     * output, because a chunk confined to one chapter is still the better shape
+     * invariant: a case's `focus` may never be introduced BEFORE one of its
+     * `vs` siblings. Lessons that do span chapters are counted in the build
+     * output, because a lesson confined to one chapter is still the better shape
      * where it is achievable.
      */
-    anchorChapterId?: string;
+    taughtInChapterId?: string;
 }
 
 /**
- * Family id -> its authored contrast chunks, from
- * compiled/grammar/index/contrasts.json. `variant`-axis families never appear
- * (their members are interchangeable, so there is nothing to disambiguate).
+ * Family id -> its authored contrast lessons, from
+ * compiled/grammar/index/contrasts.json.
  */
 export type GrammarContrastIndex = Record<string, {
     name: string;
-    chunks: GrammarContrastChunk[];
+    lessons: GrammarContrastLesson[];
     /**
      * Members whose `family.axis` is 'variant': genuinely interchangeable
      * siblings with no differentiator to teach. Present only when there are two
-     * or more, and never overlapping with a chunk's members (a lesson naming a
-     * variant point is a build error). A family can have this and NO chunks at
+     * or more, and never overlapping with a lesson's points (a lesson naming a
+     * variant point is a build error). A family can have this and NO lessons at
      * all, which is the normal shape for a pure variant family.
      *
      * The point of emitting it is that silence is worse than a one-line note: a
