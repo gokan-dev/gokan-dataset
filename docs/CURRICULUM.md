@@ -270,7 +270,7 @@ Ordering events in time, and the とき clause.
 | --- | --- | --- | --- | --- |
 | `n5-083` | そして、～ | N5 | sequence-then (register) | The standard connector for sequential sentences - "and/and then"; common in writing too. |
 | `n5-085` | それから、～ | N5 | sequence-then (register) | Casual, everyday "after that/and then" - simple narrative sequencing. |
-| `n5-006` | A。それでは、～B。 <br>*(also A。じゃ、～B。, A。それじゃ、～B。)* | N5 | sequence-then (constraint) | "Well then/in that case" - acts on what was just said. Contracts to それじゃ, or じゃ with the それ dropped. |
+| `n5-006` | A。それでは、～B。 <br>*(also A。じゃ、～B。, A。それじゃ、～B。)* | N5 | sequence-then (constraint) | "Well then/in that case" - acts on what was just said. Also heard as それじゃ, or as bare じゃ. |
 | `n5-007` | A。 では、～B。 | N5 |  | The topic-restriction particle ("as for X, among X"), NOT the それでは connective it looks like. |
 | `n3-001` | A その上 B | N3 | addition (register) | Neutral "on top of that" - conversational-to-written. |
 | `n2-002` | A。おまけに B。 | N2 | addition (register) | Casual, conversational "on top of that". |

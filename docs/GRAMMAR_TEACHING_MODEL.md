@@ -38,7 +38,11 @@ POINT ──── belongs to exactly one ────► CHAPTER   (when you me
 
 One grammar item: a title, explanations, a formation template, and 3 to 5 example sentences. 755 of them, from the vendored upstream snapshot.
 
-Some points are **realization variants** of another point: the same construction with one slot filled differently, which upstream listed separately. それじゃ is それでは contracted; じゃ is それでは contracted with the それ dropped. Those are not three things to learn, they are one thing written three ways, so the dataset marks two of them `variantOf: "n5-006"`. A variant is never introduced on its own and never gets its own SRS card; it rotates inside the canonical's card instead. 12 points are variants, so 743 are actually introduced.
+Some points are **realization variants** of another point: the same construction with one slot filled differently, which upstream listed separately. The contraction では → じゃ gives じゃ on its own, and それじゃ once the anaphoric それ is fronted, so それでは / それじゃ / じゃ are not three things to learn but one thing written three ways. The dataset marks two of them `variantOf: "n5-006"` (それでは).
+
+Note what that field does and does not claim. A variant may not point at another variant, because the build rejects chains, so every realization is recorded against the group's canonical regardless of how it is actually derived. じゃ is filed under それでは, but it does not come *from* それでは: the contraction is では → じゃ, and それ is a separate prefix. `variantOf` says "same card as", not "descends from".
+
+A variant is never introduced on its own and never gets its own SRS card; it rotates inside the canonical's card instead. 12 points are variants, so 743 are actually introduced.
 
 This matters for confusion: if you find yourself mixing up two forms and it turns out one is `variantOf` the other, **you were never supposed to tell them apart**.
 
