@@ -774,7 +774,7 @@ async function main() {
         Object.entries(variantMapRaw).filter(([key]) => !key.startsWith('_'))
     ) as VariantMap;
 
-    const ALLOWED_RELATIONS = new Set(['politeness', 'particle', 'contraction', 'particle+politeness']);
+    const ALLOWED_RELATIONS = new Set(['politeness', 'particle', 'contraction', 'particle+politeness', 'rendaku']);
     for (const [id, entry] of Object.entries(variantMap)) {
         if (!ALLOWED_RELATIONS.has(entry.relation)) {
             throw new Error(
@@ -792,6 +792,36 @@ async function main() {
         if (id === entry.variantOf) {
             throw new Error(`variants.json: "${id}" is its own canonical.`);
         }
+    }
+
+    // A usageNote that names a realization operation is a claim that this point
+    // and some sibling are one form of one construction. Until this check
+    // existed the two mechanisms never met: 17 points asserted such a relation
+    // in prose and NOT ONE carried a variantOf, so じゃ / それじゃ was not an
+    // isolated miss but the one case that happened to get hand-fixed. Every
+    // other ている, もらう and んです card shipped as its own SRS entry.
+    //
+    // Deliberately narrow. It matches only an explicit derivational claim, not
+    // the weaker "near-interchangeable" wording the 11 axis: 'variant' points
+    // share - those are a product question (one recognition set, or N cards?)
+    // rather than a data error, and failing the build on them would force an
+    // answer this check has no business forcing.
+    const REALIZATION_CLAIM = /contraction of|contraction \(|contracted form of|counterpart of|rendaku/i;
+    const exemptRaw = (variantMapRaw['_exempt'] ?? {}) as Record<string, string>;
+    const exempt = new Set(Object.keys(exemptRaw).filter(key => !key.startsWith('_')));
+    const canonicalIds = new Set(Object.values(variantMap).map(entry => entry.variantOf));
+    for (const [id, entry] of Object.entries(formalityMap)) {
+        if (id.startsWith('_') || !entry.usageNote) continue;
+        if (!REALIZATION_CLAIM.test(entry.usageNote)) continue;
+        // Either end of the relation satisfies it: the canonical's own note
+        // describes the pair just as often as the variant's does.
+        if (variantMap[id] || canonicalIds.has(id) || exempt.has(id)) continue;
+        if (droppedIds.has(id)) continue;
+        throw new Error(
+            `formality.json: "${id}" says it is a realization of another point ("${entry.usageNote.trim()}") ` +
+            `but is neither a variant, nor the canonical of one, nor listed in variants.json's _exempt. ` +
+            `Either group it in variants.json or record in _exempt why it stays a separate point.`
+        );
     }
 
     // A canonical that is itself dropped would leave consumers chasing an alias
