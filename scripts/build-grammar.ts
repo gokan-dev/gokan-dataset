@@ -834,6 +834,19 @@ async function main() {
     for (const [id, entry] of Object.entries(formalityMap)) {
         if (!entry.family) continue;
         if (droppedIds.has(id)) continue;
+        // A realization variant is subsumed by its canonical, which carries the
+        // family; the variant must not ALSO be filed under one, or it shows up as
+        // an independent family member (and in its siblings' relatedPoints) while
+        // being taught only through the canonical's card - the exact inconsistency
+        // that left じゃ (n5-004) in the sequence-then family while それじゃ (n5-005)
+        // was not. Fail loudly so the authoring mistake is fixed, not carried.
+        if (variantMap[id]) {
+            throw new Error(
+                `formality.json: "${id}" is a realization variant (variants.json -> "${variantMap[id].variantOf}"), ` +
+                `so it must not also declare a family. The canonical carries the family; remove the ` +
+                `"family"/"axis" fields from this entry (keep formalityLevel/usageNote).`
+            );
+        }
         const existing = familyMembers.get(entry.family.id);
         if (existing) {
             if (existing.name !== entry.family.name) {
