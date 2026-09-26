@@ -1187,9 +1187,13 @@ async function main() {
     fs.writeFileSync(path.join(OUTPUT_DIR, 'index', 'variant-groups.json'), JSON.stringify(variantGroups));
 
     // id -> kind, for consumers that need to filter the introduction pipeline by
-    // kind without fetching all 788 point files just to read one field.
+    // kind without fetching all 788 point files just to read one field. Read from
+    // each emitted point rather than from kindMap: authored inflection points set
+    // their kind directly on the point (they are not in the raw kinds.json), so
+    // sourcing this index from kindMap would silently mislabel all 23 of them as
+    // 'construction' - the index must always agree with the point files.
     const kindsIndex: Record<string, string> = {};
-    for (const id of seenIds) kindsIndex[id] = kindMap[id]?.kind ?? 'construction';
+    for (const id of seenIds) kindsIndex[id] = readPoint(id).kind ?? 'construction';
     fs.writeFileSync(path.join(OUTPUT_DIR, 'index', 'kinds.json'), JSON.stringify(kindsIndex));
 
     console.log(`✅ Grammar dataset written to ${OUTPUT_DIR}`);
@@ -1222,8 +1226,8 @@ async function main() {
     console.log(`   - Duplicates dropped: ${droppedForDuplicate} (aliased in index/aliases.json, from ${DUPLICATES_PATH})`);
     console.log(`       ${droppedForDuplicate - contrastMerges} redundant (examples discarded), ${contrastMerges} contrast (examples absorbed onto the canonical)`);
     const kindCounts = { construction: 0, inflection: 0, lexical: 0 } as Record<string, number>;
-    for (const id of seenIds) kindCounts[kindMap[id]?.kind ?? 'construction']++;
-    console.log(`   - Point kinds: ${kindCounts.construction} construction, ${kindCounts.inflection} inflection, ${kindCounts.lexical} lexical (from ${KINDS_PATH})`);
+    for (const id of seenIds) kindCounts[readPoint(id).kind ?? 'construction']++;
+    console.log(`   - Point kinds: ${kindCounts.construction} construction, ${kindCounts.inflection} inflection, ${kindCounts.lexical} lexical (incl. authored inflection points)`);
     console.log(`   - Variant groups: ${Object.keys(variantGroups).length} canonicals, ${Object.keys(variantMap).length} realizations kept out of the introduction order`);
 
     const staleKindIds = Object.keys(kindMap).filter(id => !seenIds.has(id) && !droppedIds.has(id));
