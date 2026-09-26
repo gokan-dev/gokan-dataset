@@ -360,6 +360,29 @@ describe('conjugator', () => {
         });
     });
 
+    describe('negative て-form (なくて), the counterpart of the て-form', () => {
+        it('verbs: a-stem + なくて (わ for the ワ row)', () => {
+            expect(form('書く', 'かく', 'negative-te')?.written).toBe('書かなくて');
+            expect(form('買う', 'かう', 'negative-te')?.written).toBe('買わなくて');
+            expect(form('飲む', 'のむ', 'negative-te')?.written).toBe('飲まなくて');
+            expect(form('食べる', 'たべる', 'negative-te')?.written).toBe('食べなくて');
+            expect(form('する', 'する', 'negative-te')?.written).toBe('しなくて');
+            expect(form('来る', 'くる', 'negative-te')).toEqual({ written: '来なくて', reading: 'こなくて' });
+        });
+
+        it('い-adjective: くなくて (いい irregular)', () => {
+            expect(form('高い', 'たかい', 'i-adj-negative-te')?.written).toBe('高くなくて');
+            const cls: WordClass = { kind: 'i-adjective' };
+            expect(conjugate('いい', 'いい', cls, 'i-adj-negative-te')?.written).toBe('よくなくて');
+        });
+
+        it('copula: じゃなくて, with ではなくて as the formal alternative', () => {
+            const c = form('静か', 'しずか', 'na-adj-negative-te');
+            expect(c?.written).toBe('静かじゃなくて');
+            expect(c?.alternatives?.[0].written).toBe('静かではなくて');
+        });
+    });
+
     describe('refuses mismatched pairings instead of producing nonsense', () => {
         it('adjective form asked of a verb', () => {
             expect(form('飲む', 'のむ', 'i-adj-adverbial')).toBeNull();

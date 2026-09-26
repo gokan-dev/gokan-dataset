@@ -36,7 +36,7 @@ POINT ──── belongs to exactly one ────► CHAPTER   (when you me
 
 ## Point
 
-One grammar item: a title, explanations, a formation template, and 3 to 5 example sentences. 777 of them: 754 from the vendored upstream snapshot (one, `n3-120`, was a fourth ingestion of ている and is retired as a plain duplicate, aliased onto its canonical rather than kept as a card), plus 23 authored inflection points that teach conjugation (see "Inflection points and conjugation" below).
+One grammar item: a title, explanations, a formation template, and 3 to 5 example sentences. 780 of them: 754 from the vendored upstream snapshot (one, `n3-120`, was a fourth ingestion of ている and is retired as a plain duplicate, aliased onto its canonical rather than kept as a card), plus 26 authored inflection points that teach conjugation (see "Inflection points and conjugation" below).
 
 Some points are **realization variants** of another point: the same construction with one slot filled differently, which upstream listed separately. The contraction では → じゃ gives じゃ on its own, and それじゃ once the anaphoric それ is fronted, so それでは / それじゃ / じゃ are not three things to learn but one thing written three ways. それじゃ and じゃ are both marked `variantOf: "n5-006"` (それでは). It is not a one-off: 20 points across 15 canonicals are variants, spanning contractions (じゃ, なくちゃ, んです), plain/polite pairs (だから → ですから), particle alternations (どこにも / どこへも / どこも), and rendaku softenings (くらい → ぐらい).
 
@@ -62,10 +62,12 @@ The forms themselves are **computed, never authored**. `src/utils/conjugator.ts`
 There are two sources of inflection points:
 
 1. **14 upstream points** the snapshot happened to include (て-form, たい, causative, passive, potential, adjective adverbials, and a few more), reclassified as `inflection` in `kinds.json`.
-2. **23 authored points** (`data/raw/grammar/inflection-points.json`) for the base conjugation paradigm the snapshot never taught as its own items: it only ever taught patterns built *on* conjugation (Verb た ことがある) while assuming the learner could already form た. These fill that gap:
-   - **Verbs**: polite ます / ました / ません / ませんでした; plain past た, plain negative ない, plain past-negative なかった; volitional, imperative, prohibitive, and the ば conditional.
-   - **い-adjectives**: negative くない, past かった, past-negative くなかった, ば conditional ければ.
-   - **Copula** (covers な-adjectives *and* nouns, since a な-adjective is just noun + copula): だ / だった / じゃない / じゃなかった / です / でした / じゃないです / て-form で.
+2. **26 authored points** (`data/raw/grammar/inflection-points.json`) for the base conjugation paradigm the snapshot never taught as its own items: it only ever taught patterns built *on* conjugation (Verb た ことがある) while assuming the learner could already form た. These fill that gap:
+   - **Verbs**: polite ます / ました / ません / ませんでした; plain past た, plain negative ない, plain past-negative なかった; volitional, imperative, prohibitive, the ば conditional, and the negative て-form なくて.
+   - **い-adjectives**: negative くない, past かった, past-negative くなかった, ば conditional ければ, negative て-form くなくて.
+   - **Copula** (covers な-adjectives *and* nouns, since a な-adjective is just noun + copula): だ / だった / じゃない / じゃなかった / です / でした / じゃないです / て-form で / negative て-form じゃなくて.
+
+   The negative て-form (なくて / くなくて / じゃなくて) is the counterpart of the て-form: because the negative ない conjugates like an い-adjective, its て-form is なくて (parallel to 高い → 高くて). Deliberately distinct from ないで ("without doing"), which the snapshot already teaches as its own construction.
 
    Their ids use the per-level `9xx` range (`n5-901`, `n4-901`, …) so they cannot collide with the upstream snapshot, and they carry no example sentences: the drill is generated, so there is nothing to author or tokenize. The form each one drills is mapped in `build-conjugations.ts`; a few forms the snapshot already teaches as constructions (たら via `n4-087`, ましょう via `n5-054`) are deliberately NOT duplicated here.
 

@@ -70,6 +70,9 @@ const POINT_FORMS: Record<string, ConjugationForm> = {
     'n4-902': 'imperative',
     'n4-903': 'prohibitive',
     'n4-904': 'ba',
+    'n5-919': 'negative-te',
+    'n5-920': 'i-adj-negative-te',
+    'n5-921': 'na-adj-negative-te',
     'n5-908': 'i-adj-negative',
     'n5-909': 'i-adj-past',
     'n5-910': 'i-adj-past-negative',
@@ -117,6 +120,7 @@ const PREFERRED_CLASSES: Record<ConjugationForm, ClassKey[]> = {
     'imperative': ['godan', 'ichidan', 'irregular'],
     'prohibitive': ['godan', 'ichidan', 'irregular'],
     'ba': ['godan', 'ichidan', 'irregular'],
+    'negative-te': ['godan', 'ichidan', 'irregular'],
     'i-adj-adverbial': ['i-adjective'],
     'i-adj-te': ['i-adjective'],
     'i-adj-negative-polite': ['i-adjective'],
@@ -124,6 +128,7 @@ const PREFERRED_CLASSES: Record<ConjugationForm, ClassKey[]> = {
     'i-adj-past': ['i-adjective'],
     'i-adj-past-negative': ['i-adjective'],
     'i-adj-ba': ['i-adjective'],
+    'i-adj-negative-te': ['i-adjective'],
     'na-adj-adverbial': ['na-adjective'],
     'na-adj': ['na-adjective'],
     'na-adj-past': ['na-adjective'],
@@ -133,6 +138,7 @@ const PREFERRED_CLASSES: Record<ConjugationForm, ClassKey[]> = {
     'na-adj-past-polite': ['na-adjective'],
     'na-adj-negative-polite': ['na-adjective'],
     'na-adj-te': ['na-adjective'],
+    'na-adj-negative-te': ['na-adjective'],
 };
 
 /**

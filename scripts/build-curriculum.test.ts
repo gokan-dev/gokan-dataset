@@ -110,7 +110,10 @@ describe.skipIf(!built)('compiled teaching order', () => {
         expect(wa).toBeGreaterThanOrEqual(0);
         expect(wo).toBeGreaterThanOrEqual(0);
         expect(wa).toBeLessThan(10);
-        expect(wo).toBeLessThan(20);
+        // を sits a little later than the raw particle order would put it because
+        // the base-conjugation chapters (copula, polite ます) are deliberately
+        // taught first - still early, and nowhere near the 40+ regression.
+        expect(wo).toBeLessThan(25);
         // でも / しかし / けれども must all come after the case particles.
         for (const connective of ['n5-008', 'n5-003', 'n5-002']) {
             expect(at(connective)).toBeGreaterThan(wo);

@@ -52,6 +52,7 @@ export type ConjugationForm =
     | 'imperative'            // 書け
     | 'prohibitive'           // 書くな
     | 'ba'                    // 書けば
+    | 'negative-te'           // 書かなくて (the negative counterpart of the て-form)
     // --- i-adjective ---
     | 'i-adj-adverbial'
     | 'i-adj-te'
@@ -60,6 +61,7 @@ export type ConjugationForm =
     | 'i-adj-past'            // 高かった
     | 'i-adj-past-negative'   // 高くなかった
     | 'i-adj-ba'              // 高ければ
+    | 'i-adj-negative-te'     // 高くなくて
     // --- na-adjective / copula (also covers noun + copula) ---
     | 'na-adj-adverbial'
     | 'na-adj'               // 静かだ
@@ -69,7 +71,8 @@ export type ConjugationForm =
     | 'na-adj-polite'        // 静かです
     | 'na-adj-past-polite'   // 静かでした
     | 'na-adj-negative-polite' // 静かじゃないです
-    | 'na-adj-te';           // 静かで
+    | 'na-adj-te'            // 静かで
+    | 'na-adj-negative-te';  // 静かじゃなくて
 
 export interface Conjugation {
     /** The written form, e.g. 飲んで. */
@@ -142,6 +145,7 @@ const IRREGULARS: Record<'する' | '来る', Partial<Record<ConjugationForm, Co
         imperative: { written: 'しろ', reading: 'しろ', alternatives: [{ written: 'せよ', reading: 'せよ' }] },
         prohibitive: { written: 'するな', reading: 'するな' },
         ba: { written: 'すれば', reading: 'すれば' },
+        'negative-te': { written: 'しなくて', reading: 'しなくて' },
     },
     '来る': {
         te: { written: '来て', reading: 'きて' },
@@ -164,6 +168,7 @@ const IRREGULARS: Record<'する' | '来る', Partial<Record<ConjugationForm, Co
         imperative: { written: '来い', reading: 'こい' },
         prohibitive: { written: '来るな', reading: 'くるな' },
         ba: { written: '来れば', reading: 'くれば' },
+        'negative-te': { written: '来なくて', reading: 'こなくて' },
     },
 };
 
@@ -249,6 +254,7 @@ export function conjugate(
             case 'na-adj-past-polite': return add('でした');
             case 'na-adj-negative-polite': return add('じゃないです', 'じゃありません', 'ではありません');
             case 'na-adj-te': return add('で');
+            case 'na-adj-negative-te': return add('じゃなくて', 'ではなくて');
         }
         return null;
     }
@@ -270,6 +276,7 @@ export function conjugate(
             case 'i-adj-past': return add('かった');
             case 'i-adj-past-negative': return add('くなかった');
             case 'i-adj-ba': return add('ければ');
+            case 'i-adj-negative-te': return add('くなくて');
             case 'i-adj-negative-polite':
                 // Two standard forms; a learner may produce either. くないです is
                 // the more colloquial one shown by the drill; くありません is the
@@ -311,6 +318,7 @@ export function conjugate(
             case 'volitional': return add('よう');
             case 'imperative': return add('ろ');
             case 'ba': return add('れば');
+            case 'negative-te': return add('なくて');
             case 'potential': {
                 const formal = add('られる');
                 const colloquial = add('れる');
@@ -348,6 +356,7 @@ export function conjugate(
         case 'volitional': return add(row.o + 'う');
         case 'imperative': return add(row.e);
         case 'ba': return add(row.e + 'ば');
+        case 'negative-te': return add(row.a + 'なくて');
         case 'chatta': {
             // Must follow the て/で voicing: 飲んで -> 飲んじゃった, never 飲んちゃった.
             const voiced = wordClass.teKana.endsWith('で');
@@ -394,6 +403,7 @@ export const FORM_LABELS: Record<ConjugationForm, string> = {
     'imperative': 'imperative (command)',
     'prohibitive': 'prohibitive (な / do not)',
     'ba': 'ば conditional (if)',
+    'negative-te': 'negative て-form (なくて)',
     'i-adj-adverbial': 'adverbial く',
     'i-adj-te': 'て-form (くて)',
     'i-adj-negative-polite': 'negative polite (くないです)',
@@ -401,6 +411,7 @@ export const FORM_LABELS: Record<ConjugationForm, string> = {
     'i-adj-past': 'past (かった)',
     'i-adj-past-negative': 'past negative (くなかった)',
     'i-adj-ba': 'ば conditional (ければ)',
+    'i-adj-negative-te': 'negative て-form (くなくて)',
     'na-adj-adverbial': 'adverbial に',
     'na-adj': 'plain (だ)',
     'na-adj-past': 'plain past (だった)',
@@ -410,4 +421,5 @@ export const FORM_LABELS: Record<ConjugationForm, string> = {
     'na-adj-past-polite': 'polite past (でした)',
     'na-adj-negative-polite': 'negative polite (じゃないです)',
     'na-adj-te': 'て-form (で)',
+    'na-adj-negative-te': 'negative て-form (じゃなくて)',
 };
