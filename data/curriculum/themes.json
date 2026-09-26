@@ -1,0 +1,301 @@
+{
+  "_comment": "Thematic chapters for the N3-N1 points that belong to no near-synonym family. See scripts/build-curriculum.ts. A theme's job is to give the chapter a subject: the points inside it are related by function, not sequenced against each other. Anything not listed here falls back to alphabetical 'Further N* patterns' bucketing and is named at the end of a build:curriculum run.",
+  "themes": [
+    {
+      "id": "n3-t-time-and-moment",
+      "jlptLevel": 3,
+      "title": "Windows of time and the moment something happens",
+      "summary": "While a condition still holds, the instant one thing turns into another, and how to say something is partway done or freshly finished.",
+      "points": ["n3-002", "n3-005", "n3-034", "n3-037", "n3-038", "n3-064", "n3-131", "n3-008", "n3-010"]
+    },
+    {
+      "id": "n3-t-attempt-and-completion",
+      "jlptLevel": 3,
+      "title": "Trying, finishing, and leaving things as they are",
+      "summary": "Attempting something and failing, carrying an action through to the end, and the forms for an action left running or left undone.",
+      "points": ["n3-003", "n3-110", "n3-040", "n3-128", "n3-129", "n3-044", "n3-043"]
+    },
+    {
+      "id": "n3-t-without-and-denial",
+      "jlptLevel": 3,
+      "title": "Without doing, and degrees of denial",
+      "summary": "Doing one thing without another, and the adverbs and set phrases that scale a negative from 'rarely' to 'not at all' to 'not necessarily'.",
+      "points": ["n3-007", "n3-025", "n3-098", "n3-104", "n3-070", "n3-130", "n3-020"]
+    },
+    {
+      "id": "n3-t-rules-and-resolutions",
+      "jlptLevel": 3,
+      "title": "Rules, habits and resolutions",
+      "summary": "Personal rules you set yourself, arrangements decided for you, and the ように forms for an effort made or an ability gained.",
+      "points": ["n3-017", "n3-018", "n3-115", "n3-116", "n3-113", "n3-095", "n3-124"]
+    },
+    {
+      "id": "n3-t-conclusions-and-restating",
+      "jlptLevel": 3,
+      "title": "Drawing a conclusion, and restating it",
+      "summary": "The わけ family for what follows logically from what you just heard, plus the という forms for defining, restating and introducing a topic.",
+      "points": ["n3-121", "n3-122", "n3-123", "n3-045", "n3-057", "n3-058", "n3-056"]
+    },
+    {
+      "id": "n3-t-emphasis-and-degree",
+      "jlptLevel": 3,
+      "title": "Emphasis and degree",
+      "summary": "Singling something out as precisely the one that matters, and the patterns that measure how far a quality or a situation goes.",
+      "points": ["n3-014", "n3-022", "n3-021", "n3-096", "n3-091", "n3-013", "n3-068", "n3-074"]
+    },
+    {
+      "id": "n3-t-cause-and-result",
+      "jlptLevel": 3,
+      "title": "Cause and result",
+      "summary": "Naming what caused an outcome and what followed from it, including せいで for a cause you are blaming.",
+      "points": ["n3-026", "n3-028", "n3-029", "n3-081", "n3-039"]
+    },
+    {
+      "id": "n3-t-supposing-and-regret",
+      "jlptLevel": 3,
+      "title": "Supposing, hoping, regretting",
+      "summary": "Setting up a hypothetical, wishing it had gone differently, and the forms for a hope expressed about someone else.",
+      "points": ["n3-066", "n3-071", "n3-090", "n3-093", "n3-053", "n3-097", "n3-050"]
+    },
+    {
+      "id": "n3-t-standpoint-and-reference",
+      "jlptLevel": 3,
+      "title": "About, according to, compared with",
+      "summary": "The に-marked phrases that fix what a statement is about, whose standpoint it is from, and what it is measured against.",
+      "points": ["n3-075", "n3-079", "n3-080", "n3-082", "n3-083", "n3-084", "n3-085", "n3-067", "n3-077", "n3-059", "n3-061"]
+    },
+    {
+      "id": "n3-t-appearance-and-state",
+      "jlptLevel": 3,
+      "title": "How things look, and how they stay",
+      "summary": "Pretending, resembling, and the られた form for a state that resulted from an action rather than the action itself.",
+      "points": ["n3-094", "n3-101", "n3-119"]
+    },
+    {
+      "id": "n3-t-spoken-shortcuts",
+      "jlptLevel": 3,
+      "title": "Everyday spoken shortcuts",
+      "summary": "The contractions, softeners and set phrases that mark conversational N3: checking a half-remembered fact, relaying a request, offering a gentle try.",
+      "points": ["n3-042", "n3-047", "n3-048", "n3-062", "n3-031", "n3-046", "n3-019", "n3-088", "n3-092"]
+    },
+
+    {
+      "id": "n2-t-restating-and-implication",
+      "jlptLevel": 2,
+      "title": "In other words, which means",
+      "summary": "The connectives that restate a statement more precisely, or draw out what it implies.",
+      "points": ["n2-006", "n2-010", "n2-014", "n2-021", "n2-025", "n2-091", "n2-134", "n2-090"]
+    },
+    {
+      "id": "n2-t-based-on-and-centred-on",
+      "jlptLevel": 2,
+      "title": "Based on, centred on, in line with",
+      "summary": "The を- and に-marked phrases that name what something was built from, organised around, or made to follow.",
+      "points": ["n2-034", "n2-035", "n2-122", "n2-127", "n2-124", "n2-168", "n2-167", "n2-136", "n2-172", "n2-032"]
+    },
+    {
+      "id": "n2-t-worth-and-effort",
+      "jlptLevel": 2,
+      "title": "Worth the effort, or in vain",
+      "summary": "Whether the effort paid off: がい for something worth doing, かいがあって for effort rewarded, かいもなく for effort wasted.",
+      "points": ["n2-041", "n2-042", "n2-043", "n2-170", "n2-180"]
+    },
+    {
+      "id": "n2-t-partway-and-tendency",
+      "jlptLevel": 2,
+      "title": "Halfway, gradually, prone to",
+      "summary": "An action caught in progress, a change still underway, and the suffixes for what something tends towards or is covered in.",
+      "points": ["n2-044", "n2-076", "n2-045", "n2-073", "n2-078", "n2-189", "n2-095", "n2-174", "n2-173"]
+    },
+    {
+      "id": "n2-t-cannot-and-refusal",
+      "jlptLevel": 2,
+      "title": "Can't, won't, and polite refusal",
+      "summary": "かねる for a refusal phrased as inability, and the patterns for what cannot be endured or cannot be afforded.",
+      "points": ["n2-048", "n2-080", "n2-086", "n2-083", "n2-097", "n2-146", "n2-144"]
+    },
+    {
+      "id": "n2-t-dilemma-and-indecision",
+      "jlptLevel": 2,
+      "title": "Torn between two options",
+      "summary": "Weighing one course against another, and the forms for a wish that something could be made possible.",
+      "points": ["n2-050", "n2-092", "n2-159", "n2-140", "n2-101", "n2-103"]
+    },
+    {
+      "id": "n2-t-precisely-because",
+      "jlptLevel": 2,
+      "title": "Precisely because, and just because",
+      "summary": "からこそ for a reason you are insisting on, からといって for one you are rejecting, and the からsurrounding judgements in between.",
+      "points": ["n2-051", "n2-052", "n2-053", "n2-054", "n2-082", "n2-081", "n2-028"]
+    },
+    {
+      "id": "n2-t-as-expected",
+      "jlptLevel": 2,
+      "title": "As you would expect of it",
+      "summary": "だけあって for something living up to its reputation, にかけては for where someone excels, and the patterns for a saving grace.",
+      "points": ["n2-069", "n2-070", "n2-109", "n2-142", "n2-158", "n2-126"]
+    },
+    {
+      "id": "n2-t-far-from-it",
+      "jlptLevel": 2,
+      "title": "Far from it, let alone that",
+      "summary": "どころか and its neighbours: correcting an assumption by overshooting it, and setting one thing aside to get to another.",
+      "points": ["n2-096", "n2-141", "n2-143", "n2-157", "n2-176", "n2-087", "n2-181"]
+    },
+    {
+      "id": "n2-t-alongside-and-following",
+      "jlptLevel": 2,
+      "title": "Along with, in step with",
+      "summary": "Two things moving together, one following the other, and the markers for what preceded or triggered an event.",
+      "points": ["n2-100", "n2-110", "n2-113", "n2-120", "n2-166", "n2-099"]
+    },
+    {
+      "id": "n2-t-emotion-and-reaction",
+      "jlptLevel": 2,
+      "title": "Reacting, feeling, finding it unbearable",
+      "summary": "ことに for the feeling a fact provokes, ものがある for an impression you cannot name, and the forms for excess and indifference.",
+      "points": ["n2-061", "n2-039", "n2-151", "n2-149", "n2-152", "n2-154", "n2-148"]
+    },
+    {
+      "id": "n2-t-conditions-and-prerequisites",
+      "jlptLevel": 2,
+      "title": "Not without, not unless",
+      "summary": "The double-negative conditions: what cannot happen until something else does, and what has to be got out of the way first.",
+      "points": ["n2-036", "n2-037", "n2-027", "n2-182"]
+    },
+
+    {
+      "id": "n1-t-whether-and-alternatives",
+      "jlptLevel": 1,
+      "title": "Whether one or the other",
+      "summary": "The paired literary patterns for listing alternatives, and for admitting you cannot tell which of them applies.",
+      "points": ["n1-001", "n1-005", "n1-007", "n1-012", "n1-177"]
+    },
+    {
+      "id": "n1-t-parallel-and-combined",
+      "jlptLevel": 1,
+      "title": "Two things at once, two things alike",
+      "summary": "Doing one thing alongside another, roles held together, and the matched pairs that say two facts are of a piece.",
+      "points": ["n1-003", "n1-013", "n1-014", "n1-035", "n1-047", "n1-094", "n1-095", "n1-055", "n1-130"]
+    },
+    {
+      "id": "n1-t-only-and-unique",
+      "jlptLevel": 1,
+      "title": "Only this, and nothing else",
+      "summary": "ならでは for what only one thing can offer, をおいて他に for the one remaining candidate, and the patterns that dismiss the alternatives.",
+      "points": ["n1-015", "n1-052", "n1-096", "n1-226", "n1-235", "n1-234"]
+    },
+    {
+      "id": "n1-t-scale-and-extent",
+      "jlptLevel": 1,
+      "title": "Scale, quantity and extent",
+      "summary": "からある for a figure you are stressing as large, というところだ for one you are playing down, and the suffixes for entirety.",
+      "points": ["n1-018", "n1-038", "n1-040", "n1-022", "n1-111", "n1-092", "n1-182", "n1-043", "n1-232"]
+    },
+    {
+      "id": "n1-t-standpoint-literary",
+      "jlptLevel": 1,
+      "title": "From whose standpoint, on what grounds",
+      "summary": "The literary からの/から言わせれば forms for whose view a statement is, and the phrases that name the basis it rests on.",
+      "points": ["n1-019", "n1-020", "n1-021", "n1-068", "n1-102", "n1-109", "n1-112", "n1-209", "n1-236", "n1-173"]
+    },
+    {
+      "id": "n1-t-emphatic-though",
+      "jlptLevel": 1,
+      "title": "Granted that, but",
+      "summary": "こそ paired with a contrast: conceding one point emphatically in order to deny another.",
+      "points": ["n1-023", "n1-024", "n1-025", "n1-115", "n1-132", "n1-059"]
+    },
+    {
+      "id": "n1-t-likeness-and-pretence",
+      "jlptLevel": 1,
+      "title": "As if, seeming like, putting it on",
+      "summary": "The ごとく simile forms, the ぶる family for affecting a manner, and the suffixes for something that merely looks the part.",
+      "points": ["n1-026", "n1-080", "n1-183", "n1-228", "n1-229", "n1-230", "n1-231", "n1-233", "n1-136", "n1-211", "n1-212", "n1-238"]
+    },
+    {
+      "id": "n1-t-its-not-as-if",
+      "jlptLevel": 1,
+      "title": "It's not as if, it won't do",
+      "summary": "あるまいし for dismissing a premise, ではすまない for what cannot be left at that, and the forms for a duty that will not go away.",
+      "points": ["n1-027", "n1-034", "n1-029", "n1-189", "n1-033", "n1-146"]
+    },
+    {
+      "id": "n1-t-status-and-conduct",
+      "jlptLevel": 1,
+      "title": "Befitting the position, or not",
+      "summary": "たる for the standing something holds, ともあろう and にあるまじき for conduct that falls short of it.",
+      "points": ["n1-031", "n1-044", "n1-057", "n1-042", "n1-045", "n1-056", "n1-051", "n1-062"]
+    },
+    {
+      "id": "n1-t-turning-points",
+      "jlptLevel": 1,
+      "title": "Turning points and starting points",
+      "summary": "The moment a situation changed: を境に for the pivot, を皮切りに for the first of a series, を経て for the process passed through.",
+      "points": ["n1-103", "n1-104", "n1-105", "n1-108", "n1-065", "n1-131", "n1-190", "n1-196"]
+    },
+    {
+      "id": "n1-t-forced-and-unavoidable",
+      "jlptLevel": 1,
+      "title": "Forced into it, and the state it left",
+      "summary": "を余儀なくされる for a course forced on you, 始末だ for where it ended up, and the literary suffixes and exclamations for an extreme.",
+      "points": ["n1-100", "n1-175", "n1-084", "n1-085", "n1-245", "n1-242", "n1-194", "n1-195"]
+    },
+    {
+      "id": "n1-t-despite-and-regardless",
+      "jlptLevel": 1,
+      "title": "Unfazed by it, aside from it",
+      "summary": "をものともせずに for pressing on regardless, をよそに for ignoring it, はさておき for setting it aside.",
+      "points": ["n1-098", "n1-099", "n1-090", "n1-087", "n1-073", "n1-072", "n1-197"]
+    },
+    {
+      "id": "n1-t-endless-and-repeated",
+      "jlptLevel": 1,
+      "title": "No end to it",
+      "summary": "The きりがない patterns for something that cannot be exhausted, and ては/そばから for a cycle that keeps restarting.",
+      "points": ["n1-128", "n1-144", "n1-160", "n1-133", "n1-124", "n1-156", "n1-127"]
+    },
+    {
+      "id": "n1-t-without-and-unintended",
+      "jlptLevel": 1,
+      "title": "Without doing, without meaning to",
+      "summary": "The literary 'without' forms, ずじまい for a chance missed, and ともなく for something done without intending it.",
+      "points": ["n1-119", "n1-145", "n1-158", "n1-161", "n1-162", "n1-118", "n1-185", "n1-143", "n1-155", "n1-213", "n1-214", "n1-159"]
+    },
+    {
+      "id": "n1-t-not-impossible",
+      "jlptLevel": 1,
+      "title": "Not impossible, not unheard of",
+      "summary": "The hedged double negatives that concede a possibility without endorsing it, the literary potential form, and べからず for a flat prohibition.",
+      "points": ["n1-141", "n1-142", "n1-216", "n1-152", "n1-171", "n1-168", "n1-169", "n1-147", "n1-157", "n1-218", "n1-178"]
+    },
+    {
+      "id": "n1-t-worth-and-endurance",
+      "jlptLevel": 1,
+      "title": "Worth it, or unbearable",
+      "summary": "に堪える and に堪えない for what does or does not repay the attention, 足る and 足りない for what measures up.",
+      "points": ["n1-220", "n1-221", "n1-222", "n1-244", "n1-243", "n1-224", "n1-225", "n1-239", "n1-082", "n1-176"]
+    },
+    {
+      "id": "n1-t-reaching-the-point",
+      "jlptLevel": 1,
+      "title": "When it comes to that",
+      "summary": "The となると/となれば family for a situation reaching a threshold, and the conditionals that follow from it.",
+      "points": ["n1-202", "n1-203", "n1-204", "n1-201", "n1-223", "n1-179", "n1-113", "n1-227"]
+    },
+    {
+      "id": "n1-t-depends-on",
+      "jlptLevel": 1,
+      "title": "Depending on how it turns out",
+      "summary": "The のいかん set: one noun, three grammatical slots, all saying the outcome hangs on this.",
+      "points": ["n1-075", "n1-076", "n1-078"]
+    },
+    {
+      "id": "n1-t-naming-and-going-through-with-it",
+      "jlptLevel": 1,
+      "title": "Naming a thing, and seeing it through",
+      "summary": "The という forms that name or generalise, ぬく for carrying something through to the end, and the phrases for what you did it in spite of.",
+      "points": ["n1-037", "n1-039", "n1-054", "n1-074", "n1-135", "n1-126", "n1-083"]
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import kuromoji from 'kuromoji';
-import type { GrammarExample, GrammarExampleWord, GrammarJlptIndex, GrammarPoint } from '../src/models/grammar.model';
+import type { GrammarContrastLesson, GrammarContrastIndex, GrammarExample, GrammarExampleWord, GrammarJlptIndex, GrammarPoint } from '../src/models/grammar.model';
 import type { SearchIndex } from '../src/models/index.model';
 import { locatePattern } from './grammar-pattern-matcher';
 import { SentenceTokenizer } from '../src/utils/tokenizer';
@@ -33,6 +33,8 @@ const DUPLICATES_PATH = './data/raw/grammar/duplicates.json';
 const KINDS_PATH = './data/raw/grammar/kinds.json';
 const VARIANTS_PATH = './data/raw/grammar/variants.json';
 const OVERRIDES_PATH = './data/raw/grammar/overrides.json';
+const CONTRASTS_PATH = './data/raw/grammar/contrasts.json';
+const INFLECTION_POINTS_PATH = './data/raw/grammar/inflection-points.json';
 
 const LEVEL_FILES: Record<number, string> = {
     5: 'grammar_ja_N5_full_alphabetical_0001.json',
@@ -77,6 +79,13 @@ interface FormalityEntry {
      *                 recognition set, not as N independent points.
      */
     axis?: 'register' | 'constraint' | 'variant';
+    /**
+     * The syntactic slot this point's marker fills - the gate for whether one
+     * family sibling can grammatically substitute for another (see GrammarPoint.slot
+     * in the model). Only meaningful for family members that could be swapped;
+     * absent elsewhere.
+     */
+    slot?: NonNullable<GrammarPoint['slot']>;
 }
 type FormalityMap = Record<string, FormalityEntry>;
 
@@ -355,6 +364,115 @@ export function splitTitle(raw: string): { title: string; romaji?: string } {
     if (!titlePart || !romajiPart) return { title: trimmed };
 
     return { title: titlePart, romaji: romajiPart };
+}
+
+/**
+ * Validate the authored contrast lessons against the family membership derived
+ * from formality.json, and compile them into the emitted index. Pure (no I/O)
+ * so it is unit-testable; the build wires in the real family map, axis lookup,
+ * and glyph sanitiser.
+ *
+ * A lesson may only reference points that are genuine, non-dropped members of
+ * the family it claims, and may never touch a `variant`-axis point (those
+ * siblings are interchangeable, so there is nothing to disambiguate). Every
+ * failure is a build error, not a silent drop: a lesson pointing at the wrong
+ * id would teach a contrast the sentence never shows.
+ */
+export function compileContrasts(
+    raw: Record<string, { lessons: GrammarContrastLesson[] }>,
+    familyMembers: Map<string, { name: string; ids: string[] }>,
+    axisOf: (id: string) => string | undefined,
+    sanitize: (text: string) => string = (t) => t,
+    warn: (message: string) => void = (m) => console.warn(m),
+): { index: GrammarContrastIndex; caseCount: number } {
+    const index: GrammarContrastIndex = {};
+    let caseCount = 0;
+
+    // Soft cap on lesson size: a lesson is meant to be a handful of confusable
+    // points (target 5-6), but a single coherent register ladder can run a
+    // little longer (the "but" family is 7), so this warns rather than fails.
+    const LESSON_SOFT_CAP = 8;
+
+    for (const [familyId, fam] of Object.entries(raw)) {
+        const members = familyMembers.get(familyId);
+        if (!members) {
+            throw new Error(`contrasts.json: unknown family "${familyId}" - no member declares it in formality.json.`);
+        }
+        const memberSet = new Set(members.ids);
+        const assertMember = (id: string, where: string) => {
+            if (!memberSet.has(id)) {
+                throw new Error(`contrasts.json: family "${familyId}" ${where} references "${id}", which is not a (non-dropped) member of that family.`);
+            }
+            if (axisOf(id) === 'variant') {
+                throw new Error(`contrasts.json: "${id}" has axis 'variant' (interchangeable siblings), so it cannot carry a contrast lesson - remove it or reclassify the axis.`);
+            }
+        };
+
+        for (const lesson of fam.lessons) {
+            lesson.points.forEach(id => assertMember(id, `lesson "${lesson.id}"`));
+            if (lesson.points.length > LESSON_SOFT_CAP) {
+                warn(`contrasts.json: family "${familyId}" lesson "${lesson.id}" covers ${lesson.points.length} points (soft cap ${LESSON_SOFT_CAP}) - consider splitting.`);
+            }
+            const covered = new Set(lesson.points);
+            for (const case_ of lesson.cases) {
+                assertMember(case_.focus, `lesson "${lesson.id}" focus`);
+                if (case_.vs.length === 0) {
+                    throw new Error(`contrasts.json: family "${familyId}" case for "${case_.focus}" has an empty vs list.`);
+                }
+                case_.vs.forEach(vid => assertMember(vid, `lesson "${lesson.id}" vs`));
+                if (case_.vs.includes(case_.focus)) {
+                    throw new Error(`contrasts.json: family "${familyId}" case for "${case_.focus}" lists itself in vs.`);
+                }
+                // A case may only name points its own lesson covers, or the lesson
+                // stops being the unit of learning the case claims to sit inside.
+                for (const id of [case_.focus, ...case_.vs]) {
+                    if (!covered.has(id)) {
+                        throw new Error(`contrasts.json: family "${familyId}" lesson "${lesson.id}" has a case naming "${id}", which is not one of the lesson's points.`);
+                    }
+                }
+                if (!case_.situation?.trim() || !case_.guidance?.trim()) {
+                    throw new Error(`contrasts.json: family "${familyId}" case for "${case_.focus}" is missing situation or guidance text.`);
+                }
+                caseCount++;
+            }
+        }
+
+        index[familyId] = {
+            name: members.name,
+            lessons: fam.lessons.map(lesson => ({
+                id: lesson.id,
+                title: sanitize(lesson.title),
+                points: lesson.points,
+                cases: lesson.cases.map(c => ({
+                    focus: c.focus,
+                    vs: c.vs,
+                    situation: sanitize(c.situation),
+                    guidance: sanitize(c.guidance),
+                })),
+            })),
+        };
+    }
+
+    // Interchangeable members: a `variant`-axis sibling has no differentiator to
+    // teach, so it never carries a lesson (asserted above). It still needs to be
+    // SAID, though - the regardless-a-or-b family is ten near-identical literary
+    // forms, and a learner met with ten cards and no comment will assume there
+    // must be a distinction and go looking for one that does not exist. So every
+    // family with two or more of them gets a flat list instead of a lesson, and
+    // the consumer renders it as "these are interchangeable, pick by feel".
+    //
+    // Emitted for families with no authored lessons at all, which is the usual
+    // case for a pure variant family - hence the merge into whatever `index`
+    // already holds rather than a second pass over `raw`.
+    for (const [familyId, family] of familyMembers) {
+        const interchangeable = family.ids.filter(id => axisOf(id) === 'variant');
+        if (interchangeable.length < 2) continue;
+        const existing = index[familyId];
+        if (existing) existing.interchangeable = interchangeable;
+        else index[familyId] = { name: family.name, lessons: [], interchangeable };
+    }
+
+    return { index, caseCount };
 }
 
 /** kuromoji tokens annotated with their character-offset span in the original sentence. */
@@ -657,7 +775,7 @@ async function main() {
         Object.entries(variantMapRaw).filter(([key]) => !key.startsWith('_'))
     ) as VariantMap;
 
-    const ALLOWED_RELATIONS = new Set(['politeness', 'particle', 'contraction', 'particle+politeness']);
+    const ALLOWED_RELATIONS = new Set(['politeness', 'particle', 'contraction', 'particle+politeness', 'rendaku']);
     for (const [id, entry] of Object.entries(variantMap)) {
         if (!ALLOWED_RELATIONS.has(entry.relation)) {
             throw new Error(
@@ -675,6 +793,36 @@ async function main() {
         if (id === entry.variantOf) {
             throw new Error(`variants.json: "${id}" is its own canonical.`);
         }
+    }
+
+    // A usageNote that names a realization operation is a claim that this point
+    // and some sibling are one form of one construction. Until this check
+    // existed the two mechanisms never met: 17 points asserted such a relation
+    // in prose and NOT ONE carried a variantOf, so じゃ / それじゃ was not an
+    // isolated miss but the one case that happened to get hand-fixed. Every
+    // other ている, もらう and んです card shipped as its own SRS entry.
+    //
+    // Deliberately narrow. It matches only an explicit derivational claim, not
+    // the weaker "near-interchangeable" wording the 11 axis: 'variant' points
+    // share - those are a product question (one recognition set, or N cards?)
+    // rather than a data error, and failing the build on them would force an
+    // answer this check has no business forcing.
+    const REALIZATION_CLAIM = /contraction of|contraction \(|contracted form of|counterpart of|rendaku/i;
+    const exemptRaw = (variantMapRaw['_exempt'] ?? {}) as Record<string, string>;
+    const exempt = new Set(Object.keys(exemptRaw).filter(key => !key.startsWith('_')));
+    const canonicalIds = new Set(Object.values(variantMap).map(entry => entry.variantOf));
+    for (const [id, entry] of Object.entries(formalityMap)) {
+        if (id.startsWith('_') || !entry.usageNote) continue;
+        if (!REALIZATION_CLAIM.test(entry.usageNote)) continue;
+        // Either end of the relation satisfies it: the canonical's own note
+        // describes the pair just as often as the variant's does.
+        if (variantMap[id] || canonicalIds.has(id) || exempt.has(id)) continue;
+        if (droppedIds.has(id)) continue;
+        throw new Error(
+            `formality.json: "${id}" says it is a realization of another point ("${entry.usageNote.trim()}") ` +
+            `but is neither a variant, nor the canonical of one, nor listed in variants.json's _exempt. ` +
+            `Either group it in variants.json or record in _exempt why it stays a separate point.`
+        );
     }
 
     // A canonical that is itself dropped would leave consumers chasing an alias
@@ -717,6 +865,19 @@ async function main() {
     for (const [id, entry] of Object.entries(formalityMap)) {
         if (!entry.family) continue;
         if (droppedIds.has(id)) continue;
+        // A realization variant is subsumed by its canonical, which carries the
+        // family; the variant must not ALSO be filed under one, or it shows up as
+        // an independent family member (and in its siblings' relatedPoints) while
+        // being taught only through the canonical's card - the exact inconsistency
+        // that left じゃ (n5-004) in the sequence-then family while それじゃ (n5-005)
+        // was not. Fail loudly so the authoring mistake is fixed, not carried.
+        if (variantMap[id]) {
+            throw new Error(
+                `formality.json: "${id}" is a realization variant (variants.json -> "${variantMap[id].variantOf}"), ` +
+                `so it must not also declare a family. The canonical carries the family; remove the ` +
+                `"family"/"axis" fields from this entry (keep formalityLevel/usageNote).`
+            );
+        }
         const existing = familyMembers.get(entry.family.id);
         if (existing) {
             if (existing.name !== entry.family.name) {
@@ -894,6 +1055,7 @@ async function main() {
                 formation: sanitizeGlyphs(entryFormation),
                 examples,
                 ...(formality?.formalityLevel ? { formalityLevel: formality.formalityLevel } : {}),
+                ...(formality?.slot ? { slot: formality.slot } : {}),
                 ...(usageNote ? { usageNote } : {}),
                 ...(family ? { family } : {}),
                 // Absent from kinds.json means a plain construction - the vast
@@ -913,6 +1075,54 @@ async function main() {
         console.log(`   - N${level}: ${raw.length} grammar points`);
     }
 
+    // Authored inflection points: base-paradigm / mood / conditional forms that
+    // have no upstream point to reclassify (the vendored snapshot only teaches
+    // patterns built ON conjugation, never the conjugation itself - see
+    // docs/GRAMMAR_TEACHING_MODEL.md). They carry no examples: the drill is
+    // generated by build-conjugations.ts from the tested conjugator, so there is
+    // no authored Japanese to tokenize or pattern-match here. Ids use the
+    // per-level 9xx range, which cannot collide with the upstream snapshot
+    // (largest level is N1 at 245) and still carries the level in its prefix.
+    interface AuthoredInflectionPoint {
+        level: number;
+        title: string;
+        shortExplanation: string;
+        longExplanation: string;
+        formation: string;
+        derives: string;
+        examples?: GrammarExample[];
+    }
+    const inflectionPointsRaw: Record<string, AuthoredInflectionPoint> = fs.existsSync(INFLECTION_POINTS_PATH)
+        ? Object.fromEntries(Object.entries(
+            JSON.parse(fs.readFileSync(INFLECTION_POINTS_PATH, 'utf-8')) as Record<string, AuthoredInflectionPoint>
+        ).filter(([id]) => !id.startsWith('_')))
+        : {};
+    let authoredInflectionCount = 0;
+    for (const [id, entry] of Object.entries(inflectionPointsRaw)) {
+        if (seenIds.has(id)) throw new Error(`inflection-points.json: "${id}" collides with an existing point id.`);
+        if (!index[entry.level]) throw new Error(`inflection-points.json: "${id}" has an unknown level ${entry.level}.`);
+        const { title, romaji } = splitTitle(sanitizeGlyphs(entry.title));
+        const point: GrammarPoint = {
+            id,
+            title,
+            ...(romaji ? { romaji } : {}),
+            jlptLevel: entry.level,
+            shortExplanation: sanitizeGlyphs(entry.shortExplanation),
+            longExplanation: sanitizeGlyphs(entry.longExplanation),
+            formation: sanitizeGlyphs(entry.formation),
+            examples: entry.examples ?? [],
+            kind: 'inflection',
+            derives: entry.derives,
+        };
+        fs.writeFileSync(path.join(pointsDir, `${id}.json`), JSON.stringify(point));
+        index[entry.level].push(id);
+        seenIds.add(id);
+        emittedIds.add(id);
+        totalPoints++;
+        authoredInflectionCount++;
+    }
+    if (authoredInflectionCount) console.log(`   - authored inflection points: ${authoredInflectionCount}`);
+
     fs.mkdirSync(path.join(OUTPUT_DIR, 'index'), { recursive: true });
     fs.writeFileSync(path.join(OUTPUT_DIR, 'index', 'jlpt.json'), JSON.stringify(index));
 
@@ -921,6 +1131,23 @@ async function main() {
         familiesIndex[familyId] = { name, memberIds: ids };
     }
     fs.writeFileSync(path.join(OUTPUT_DIR, 'index', 'families.json'), JSON.stringify(familiesIndex));
+
+    // Contrast lessons: authored situational disambiguation between confusable
+    // family members (data/raw/grammar/contrasts.json). Compiled and validated
+    // by compileContrasts (pure, tested) against the family membership derived
+    // above, then emitted as its own index. See docs/SCHEMA.md.
+    const contrastsRaw: Record<string, { lessons: GrammarContrastLesson[] }> = fs.existsSync(CONTRASTS_PATH)
+        ? JSON.parse(fs.readFileSync(CONTRASTS_PATH, 'utf-8'))
+        : {};
+    const { index: contrastsIndex, caseCount: contrastUnitCount } = compileContrasts(
+        contrastsRaw,
+        familyMembers,
+        id => formalityMap[id]?.axis,
+        sanitizeGlyphs,
+    );
+    fs.writeFileSync(path.join(OUTPUT_DIR, 'index', 'contrasts.json'), JSON.stringify(contrastsIndex));
+    const interchangeableFamilies = Object.values(contrastsIndex).filter(f => f.interchangeable).length;
+    console.log(`   - contrast lessons: ${Object.keys(contrastsIndex).length} families, ${contrastUnitCount} cases (${interchangeableFamilies} families also carry an interchangeable-members note)`);
 
     // Aliases: dropped duplicate id -> the surviving canonical. Published so a
     // consumer holding stored progress against a dropped id can transfer it
@@ -960,9 +1187,13 @@ async function main() {
     fs.writeFileSync(path.join(OUTPUT_DIR, 'index', 'variant-groups.json'), JSON.stringify(variantGroups));
 
     // id -> kind, for consumers that need to filter the introduction pipeline by
-    // kind without fetching all 788 point files just to read one field.
+    // kind without fetching all 788 point files just to read one field. Read from
+    // each emitted point rather than from kindMap: authored inflection points set
+    // their kind directly on the point (they are not in the raw kinds.json), so
+    // sourcing this index from kindMap would silently mislabel all 23 of them as
+    // 'construction' - the index must always agree with the point files.
     const kindsIndex: Record<string, string> = {};
-    for (const id of seenIds) kindsIndex[id] = kindMap[id]?.kind ?? 'construction';
+    for (const id of seenIds) kindsIndex[id] = readPoint(id).kind ?? 'construction';
     fs.writeFileSync(path.join(OUTPUT_DIR, 'index', 'kinds.json'), JSON.stringify(kindsIndex));
 
     console.log(`✅ Grammar dataset written to ${OUTPUT_DIR}`);
@@ -995,8 +1226,8 @@ async function main() {
     console.log(`   - Duplicates dropped: ${droppedForDuplicate} (aliased in index/aliases.json, from ${DUPLICATES_PATH})`);
     console.log(`       ${droppedForDuplicate - contrastMerges} redundant (examples discarded), ${contrastMerges} contrast (examples absorbed onto the canonical)`);
     const kindCounts = { construction: 0, inflection: 0, lexical: 0 } as Record<string, number>;
-    for (const id of seenIds) kindCounts[kindMap[id]?.kind ?? 'construction']++;
-    console.log(`   - Point kinds: ${kindCounts.construction} construction, ${kindCounts.inflection} inflection, ${kindCounts.lexical} lexical (from ${KINDS_PATH})`);
+    for (const id of seenIds) kindCounts[readPoint(id).kind ?? 'construction']++;
+    console.log(`   - Point kinds: ${kindCounts.construction} construction, ${kindCounts.inflection} inflection, ${kindCounts.lexical} lexical (incl. authored inflection points)`);
     console.log(`   - Variant groups: ${Object.keys(variantGroups).length} canonicals, ${Object.keys(variantMap).length} realizations kept out of the introduction order`);
 
     const staleKindIds = Object.keys(kindMap).filter(id => !seenIds.has(id) && !droppedIds.has(id));

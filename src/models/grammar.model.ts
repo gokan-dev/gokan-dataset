@@ -130,6 +130,17 @@ export interface GrammarPoint {
      */
     formalityLevel?: 'casual' | 'neutral' | 'polite' | 'formal' | 'very-formal-literary';
     /**
+     * The syntactic slot this point's marker occupies. Sourced from the same
+     * hand-authored data/raw/grammar/formality.json mapping. Exists so the app can
+     * decide whether one family sibling can grammatically stand in for another when
+     * grading a cloze blank: two near-synonyms are only interchangeable if they fill
+     * the same slot. けど (clause-final) and でも (sentence-initial) both gloss "but"
+     * and share the same family, but you cannot drop でも into a clause-final けど
+     * blank - the sentence becomes ungrammatical, so that substitution must grade
+     * wrong, not as a minor register slip. Absent where unclassified.
+     */
+    slot?: 'clause-final' | 'sentence-initial' | 'predicate-final' | 'pre-noun' | 'adverbial';
+    /**
      * One short, quiz-card-length line (~60-80 chars) covering whatever actually
      * disambiguates this point from its near-synonyms. Usually register, but for
      * some clusters (e.g. even-though/although/despite) the real differentiator is
@@ -223,3 +234,85 @@ export interface GrammarTeachingOrder {
     order: string[];
     chapters: GrammarChapter[];
 }
+
+/**
+ * One CASE inside a lesson: a concrete situation, plus which point to reach for
+ * in it and why the obvious alternative does not fit. Authored in
+ * data/raw/grammar/contrasts.json (AI-drafted, human-reviewed) and compiled into
+ * compiled/grammar/index/contrasts.json. Directed so `focus` is the member met
+ * LATER in the teaching order, so by the time it is introduced the `vs` siblings
+ * are already known and the contrast lands between two real memories.
+ */
+export interface GrammarContrastCase {
+    /** The point this case teaches the learner to reach for. */
+    focus: string;
+    /** The sibling(s) `focus` is most confused with. */
+    vs: string[];
+    /** A concrete situation where the choice matters. */
+    situation: string;
+    /** Which member fits, and why the obvious alternative does not. */
+    guidance: string;
+}
+
+/**
+ * A LESSON: a confusability-first sub-grouping of a family - a small set of
+ * points (target 5-6, soft cap) close enough to be actively disambiguated
+ * together, like interleaving look-alike kanji. A small family can be one
+ * lesson; a large one is split into several. Every case belongs to one lesson,
+ * and may only name points that lesson covers.
+ *
+ * (This was called a "chunk" until the vocabulary was found to collide with
+ * "chapter" in practice. A lesson is a set of confusable points plus the cases
+ * that tell them apart; a chapter is a slot in the introduction order. They are
+ * unrelated groupings and a lesson may span chapters - see taughtInChapterId.)
+ */
+export interface GrammarContrastLesson {
+    /** Stable slug within the family, e.g. "reason-core". */
+    id: string;
+    /** Short display title, e.g. "から / ので". */
+    title: string;
+    /** The confusable points this lesson covers. */
+    points: string[];
+    /** The situations taught here. Each case's focus/vs are a subset of `points`. */
+    cases: GrammarContrastCase[];
+    /**
+     * The chapter this lesson can first be taught in: the chapter of whichever
+     * point it covers is introduced LAST in the teaching order. Filled in by
+     * build-curriculum.ts (which is the only step that knows the chapters), so
+     * it is absent from the raw authored file and present in the compiled index.
+     *
+     * A contrast is only meaningful once every point it names is a real memory,
+     * so this is the earliest point at which the lesson is honest. The
+     * grammar-curriculum issue assumed the stronger rule that a lesson may not
+     * span chapters at all; that rule would delete the から/ので lesson the
+     * family-lessons issue opens with (から is introduced in n5-c16, ので in
+     * n4-c12), so what is enforced is the weaker, actually-load-bearing
+     * invariant: a case's `focus` may never be introduced BEFORE one of its
+     * `vs` siblings. Lessons that do span chapters are counted in the build
+     * output, because a lesson confined to one chapter is still the better shape
+     * where it is achievable.
+     */
+    taughtInChapterId?: string;
+}
+
+/**
+ * Family id -> its authored contrast lessons, from
+ * compiled/grammar/index/contrasts.json.
+ */
+export type GrammarContrastIndex = Record<string, {
+    name: string;
+    lessons: GrammarContrastLesson[];
+    /**
+     * Members whose `family.axis` is 'variant': genuinely interchangeable
+     * siblings with no differentiator to teach. Present only when there are two
+     * or more, and never overlapping with a lesson's points (a lesson naming a
+     * variant point is a build error). A family can have this and NO lessons at
+     * all, which is the normal shape for a pure variant family.
+     *
+     * The point of emitting it is that silence is worse than a one-line note: a
+     * learner who meets ten near-identical literary forms with no comment will
+     * assume a distinction exists and go looking for one. Render it as a note
+     * ("these are interchangeable, pick by feel"), not as a lesson.
+     */
+    interchangeable?: string[];
+}>;
