@@ -1,6 +1,6 @@
 # How the grammar teaching model works
 
-Plain-English explanation of every moving part. The current *contents* (all 145 chapters, all 96 lessons) live in the generated [CURRICULUM.md](CURRICULUM.md); the exact field names and types live in [SCHEMA.md](SCHEMA.md). This file is the one that explains what any of it means.
+Plain-English explanation of every moving part. The current *contents* (all 145 chapters, all 95 lessons) live in the generated [CURRICULUM.md](CURRICULUM.md); the exact field names and types live in [SCHEMA.md](SCHEMA.md). This file is the one that explains what any of it means.
 
 ---
 
@@ -12,7 +12,7 @@ There are five groupings in the data, and they answer different questions. Most 
 | --- | --- | --- |
 | **Point** | One grammar item the learner studies. | 「～から、～」 (`n5-073`) |
 | **Chapter** | *When* is this point introduced? | `n5-c16` "Giving a reason" |
-| **Family** | Which points mean roughly the same thing? | `causality` (16 points) |
+| **Family** | Which points mean roughly the same thing? | `causality` (15 points) |
 | **Lesson** | Which points do learners actually mix up? | "から / ので" |
 | **Case** | In this concrete situation, which one, and why? | "Apologising → use ので" |
 
@@ -36,15 +36,22 @@ POINT ──── belongs to exactly one ────► CHAPTER   (when you me
 
 ## Point
 
-One grammar item: a title, explanations, a formation template, and 3 to 5 example sentences. 755 of them, from the vendored upstream snapshot.
+One grammar item: a title, explanations, a formation template, and 3 to 5 example sentences. 754 of them, from the vendored upstream snapshot (one, `n3-120`, was a fourth ingestion of ている and is retired as a plain duplicate, aliased onto its canonical rather than kept as a card).
 
-Some points are **realization variants** of another point: the same construction with one slot filled differently, which upstream listed separately. The contraction では → じゃ gives じゃ on its own, and それじゃ once the anaphoric それ is fronted, so それでは / それじゃ / じゃ are not three things to learn but one thing written three ways. The dataset marks two of them `variantOf: "n5-006"` (それでは).
+Some points are **realization variants** of another point: the same construction with one slot filled differently, which upstream listed separately. The contraction では → じゃ gives じゃ on its own, and それじゃ once the anaphoric それ is fronted, so それでは / それじゃ / じゃ are not three things to learn but one thing written three ways. それじゃ and じゃ are both marked `variantOf: "n5-006"` (それでは). It is not a one-off: 20 points across 15 canonicals are variants, spanning contractions (じゃ, なくちゃ, んです), plain/polite pairs (だから → ですから), particle alternations (どこにも / どこへも / どこも), and rendaku softenings (くらい → ぐらい).
 
 Note what that field does and does not claim. A variant may not point at another variant, because the build rejects chains, so every realization is recorded against the group's canonical regardless of how it is actually derived. じゃ is filed under それでは, but it does not come *from* それでは: the contraction is では → じゃ, and それ is a separate prefix. `variantOf` says "same card as", not "descends from".
 
-A variant is never introduced on its own and never gets its own SRS card; it rotates inside the canonical's card instead. 12 points are variants, so 743 are actually introduced.
+A variant is never introduced on its own and never gets its own SRS card; it rotates inside the canonical's card instead. 20 points are variants, so 734 are actually introduced.
 
 This matters for confusion: if you find yourself mixing up two forms and it turns out one is `variantOf` the other, **you were never supposed to tell them apart**.
+
+### Two build guards keep the variant and family models from drifting apart
+
+They are separate mechanisms that used to never meet, so a point could quietly belong to both, which is a contradiction: a variant is subsumed by its canonical, so it cannot also stand as an independent family member.
+
+1. **A point whose prose claims a realization must be grouped.** If a usage note says "contraction of", "rendaku", and so on, the point must be a variant, the canonical of one, or explicitly exempted. Before this check, 17 points asserted such a relation in prose and *not one* carried a `variantOf`: じゃ / それじゃ was not an isolated miss, it was the one case that happened to get hand-fixed, while every other ている, もらう and んです shipped as its own SRS card.
+2. **A variant may not also carry a family.** The canonical carries the family; the variant is one of its realizations, not a sibling of it. Before this check, じゃ (`n5-004`) had stayed a `sequence-then` family member while それじゃ (`n5-005`) did not, so the two contractions of one point were filed inconsistently and じゃ showed up in the family's related-points list as if it were a distinct point. The build now fails if a variant declares a family, and the 11 variants that did (`n5-004`, `n3-049`, the five どこにも forms, plus ぐらい, なくちゃ, んです and でしょう) had their family removed.
 
 ## Chapter
 
@@ -77,7 +84,7 @@ Currently 12 families are absorbed and 35 level-gated. A level-gated family puts
 
 ## Family
 
-The near-synonym group: points a learner asking "how do I say X?" would be shown together. 85 families, hand-assigned in `data/raw/grammar/formality.json`. 383 points have no family at all, which is fine and normal.
+The near-synonym group: points a learner asking "how do I say X?" would be shown together. 85 families, hand-assigned in `data/raw/grammar/formality.json`. 393 points have no family at all, which is fine and normal.
 
 Each member carries an **axis**, saying what it adds over its siblings:
 
@@ -89,17 +96,17 @@ Each member carries an **axis**, saying what it adds over its siblings:
 
 ## Lesson
 
-**A family is not a lesson.** The family is "what means roughly this"; the lesson is "what you actually mix up". The causality family has 16 members, and nobody confuses all 16 with each other. So a family is split into lessons of about 5 or 6 points each, and each lesson is a set that genuinely blurs together.
+**A family is not a lesson.** The family is "what means roughly this"; the lesson is "what you actually mix up". The causality family has 15 members, and nobody confuses all 15 with each other. So a family is split into lessons of about 5 or 6 points each, and each lesson is a set that genuinely blurs together.
 
 Splitting is also where a too-coarse family gets corrected. The *sequence-then* family lumped そして/それから (and-then) with じゃ/それでは (well then, in that case). Those are two different meanings, and one four-way lesson over them would be incoherent, so そして/それから is its own lesson.
 
-96 lessons across 66 families.
+95 lessons across 65 families.
 
 ### `taughtInChapterId`
 
 Every lesson is stamped with the chapter of whichever of its points is introduced **last**. That is the earliest moment the lesson is honest: a contrast is only meaningful once every point it names is a real memory.
 
-A lesson is **allowed to span chapters**, and 3 of the 96 do. The から/ので lesson is one: から is introduced in `n5-c16` and ので in `n4-c12`, so it anchors to `n4-c12` and fires there, by which time から has been known for a whole JLPT level.
+A lesson is **allowed to span chapters**, and 3 of the 95 do. The から/ので lesson is one: から is introduced in `n5-c16` and ので in `n4-c12`, so it anchors to `n4-c12` and fires there, by which time から has been known for a whole JLPT level.
 
 This was a deliberate decision against the original plan, which assumed a lesson could never span chapters. Enforcing that would have deleted the から/ので lesson, which is the motivating example for the whole feature. What *is* enforced is the rule that actually carries weight:
 
@@ -125,7 +132,7 @@ One concrete situation inside a lesson. Four fields:
 }
 ```
 
-A case is **directed**: `focus` is the one met later, so the lesson teaches the new thing against the known thing, never the reverse. 140 cases.
+A case is **directed**: `focus` is the one met later, so the lesson teaches the new thing against the known thing, never the reverse. 138 cases.
 
 ---
 
@@ -158,6 +165,9 @@ Those get an **interchangeable note**, not a lesson, and authoring a lesson that
 | `data/raw/grammar/formality.json` | yes | Family, axis, register and usage note per point |
 | `data/raw/grammar/contrasts.json` | yes | Lessons and cases |
 | `data/raw/grammar/variants.json` | yes | Which points are realizations of another |
+| `data/raw/grammar/duplicates.json` | yes | Which points are dropped as duplicates (retired, aliased to a canonical) |
 | `compiled/grammar/index/teaching-order.json` | generated | The chapters and the flat order |
 | `compiled/grammar/index/contrasts.json` | generated | Lessons, validated and anchored |
+| `compiled/grammar/index/variant-groups.json` | generated | Each canonical's realizations, for card rotation |
+| `compiled/grammar/index/aliases.json` | generated | Retired/duplicate id → canonical, for progress migration |
 | `docs/CURRICULUM.md` | generated | The full readable inventory |
