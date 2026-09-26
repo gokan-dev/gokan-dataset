@@ -227,6 +227,139 @@ describe('conjugator', () => {
         });
     });
 
+    describe('plain past follows the て/た euphony exactly', () => {
+        it.each([
+            ['書く', 'かく', '書いた'],   // イ音便
+            ['泳ぐ', 'およぐ', '泳いだ'],  // イ音便 voiced
+            ['飲む', 'のむ', '飲んだ'],   // ん + voicing
+            ['遊ぶ', 'あそぶ', '遊んだ'],
+            ['買う', 'かう', '買った'],   // 促音便 ワ行
+            ['待つ', 'まつ', '待った'],
+            ['帰る', 'かえる', '帰った'], // godan ラ行
+            ['話す', 'はなす', '話した'], // サ行 no euphony
+            ['行く', 'いく', '行った'],   // 促音便 exception
+            ['食べる', 'たべる', '食べた'], // ichidan
+        ])('%s -> %s', (lemma, reading, expected) => {
+            expect(form(lemma, reading, 'plain-past')?.written).toBe(expected);
+        });
+
+        it('irregulars', () => {
+            expect(form('する', 'する', 'plain-past')?.written).toBe('した');
+            expect(form('来る', 'くる', 'plain-past')).toEqual({ written: '来た', reading: 'きた' });
+        });
+    });
+
+    describe('plain negative uses the a-stem (わ for ワ行)', () => {
+        it.each([
+            ['書く', 'かく', '書かない'],
+            ['買う', 'かう', '買わない'],
+            ['飲む', 'のむ', '飲まない'],
+            ['帰る', 'かえる', '帰らない'],
+            ['食べる', 'たべる', '食べない'],
+        ])('%s -> %s', (lemma, reading, expected) => {
+            expect(form(lemma, reading, 'plain-negative')?.written).toBe(expected);
+        });
+
+        it('past negative', () => {
+            expect(form('書く', 'かく', 'plain-past-negative')?.written).toBe('書かなかった');
+            expect(form('食べる', 'たべる', 'plain-past-negative')?.written).toBe('食べなかった');
+        });
+
+        it('irregulars', () => {
+            expect(form('する', 'する', 'plain-negative')?.written).toBe('しない');
+            expect(form('来る', 'くる', 'plain-negative')).toEqual({ written: '来ない', reading: 'こない' });
+        });
+    });
+
+    describe('polite ます set uses the i-stem', () => {
+        it.each([
+            ['書く', 'かく', '書きます', '書きました', '書きません', '書きませんでした'],
+            ['飲む', 'のむ', '飲みます', '飲みました', '飲みません', '飲みませんでした'],
+            ['買う', 'かう', '買います', '買いました', '買いません', '買いませんでした'],
+            ['食べる', 'たべる', '食べます', '食べました', '食べません', '食べませんでした'],
+        ])('%s', (lemma, reading, masu, past, neg, pastNeg) => {
+            expect(form(lemma, reading, 'masu')?.written).toBe(masu);
+            expect(form(lemma, reading, 'masu-past')?.written).toBe(past);
+            expect(form(lemma, reading, 'masu-negative')?.written).toBe(neg);
+            expect(form(lemma, reading, 'masu-past-negative')?.written).toBe(pastNeg);
+        });
+
+        it('irregulars', () => {
+            expect(form('する', 'する', 'masu')?.written).toBe('します');
+            expect(form('来る', 'くる', 'masu')).toEqual({ written: '来ます', reading: 'きます' });
+        });
+    });
+
+    describe('volitional, imperative, prohibitive, ば', () => {
+        it('volitional: godan o-stem + う, ichidan stem + よう', () => {
+            expect(form('書く', 'かく', 'volitional')?.written).toBe('書こう');
+            expect(form('飲む', 'のむ', 'volitional')?.written).toBe('飲もう');
+            expect(form('買う', 'かう', 'volitional')?.written).toBe('買おう');
+            expect(form('食べる', 'たべる', 'volitional')?.written).toBe('食べよう');
+            expect(form('する', 'する', 'volitional')?.written).toBe('しよう');
+            expect(form('来る', 'くる', 'volitional')).toEqual({ written: '来よう', reading: 'こよう' });
+        });
+
+        it('imperative: godan e-stem, ichidan stem + ろ', () => {
+            expect(form('書く', 'かく', 'imperative')?.written).toBe('書け');
+            expect(form('飲む', 'のむ', 'imperative')?.written).toBe('飲め');
+            expect(form('食べる', 'たべる', 'imperative')?.written).toBe('食べろ');
+            expect(form('する', 'する', 'imperative')?.written).toBe('しろ');
+            expect(form('する', 'する', 'imperative')?.alternatives?.[0].written).toBe('せよ');
+            expect(form('来る', 'くる', 'imperative')).toEqual({ written: '来い', reading: 'こい' });
+        });
+
+        it('prohibitive: dictionary form + な', () => {
+            expect(form('書く', 'かく', 'prohibitive')?.written).toBe('書くな');
+            expect(form('食べる', 'たべる', 'prohibitive')?.written).toBe('食べるな');
+            expect(form('する', 'する', 'prohibitive')?.written).toBe('するな');
+            expect(form('来る', 'くる', 'prohibitive')).toEqual({ written: '来るな', reading: 'くるな' });
+        });
+
+        it('ば: godan e-stem + ば, ichidan stem + れば', () => {
+            expect(form('書く', 'かく', 'ba')?.written).toBe('書けば');
+            expect(form('飲む', 'のむ', 'ba')?.written).toBe('飲めば');
+            expect(form('食べる', 'たべる', 'ba')?.written).toBe('食べれば');
+            expect(form('する', 'する', 'ba')?.written).toBe('すれば');
+            expect(form('来る', 'くる', 'ba')).toEqual({ written: '来れば', reading: 'くれば' });
+        });
+    });
+
+    describe('i-adjective base paradigm', () => {
+        it('negative, past, past-negative, ば', () => {
+            expect(form('高い', 'たかい', 'i-adj-negative')?.written).toBe('高くない');
+            expect(form('高い', 'たかい', 'i-adj-past')?.written).toBe('高かった');
+            expect(form('高い', 'たかい', 'i-adj-past-negative')?.written).toBe('高くなかった');
+            expect(form('高い', 'たかい', 'i-adj-ba')?.written).toBe('高ければ');
+        });
+
+        it('いい is irregular across the paradigm: よ-, never い-', () => {
+            const cls: WordClass = { kind: 'i-adjective' };
+            expect(conjugate('いい', 'いい', cls, 'i-adj-past')?.written).toBe('よかった');
+            expect(conjugate('いい', 'いい', cls, 'i-adj-negative')?.written).toBe('よくない');
+            expect(conjugate('いい', 'いい', cls, 'i-adj-ba')?.written).toBe('よければ');
+        });
+    });
+
+    describe('na-adjective / copula conjugation', () => {
+        it('plain and polite tense/polarity', () => {
+            expect(form('静か', 'しずか', 'na-adj')?.written).toBe('静かだ');
+            expect(form('静か', 'しずか', 'na-adj-past')?.written).toBe('静かだった');
+            expect(form('静か', 'しずか', 'na-adj-negative')?.written).toBe('静かじゃない');
+            expect(form('静か', 'しずか', 'na-adj-past-negative')?.written).toBe('静かじゃなかった');
+            expect(form('静か', 'しずか', 'na-adj-polite')?.written).toBe('静かです');
+            expect(form('静か', 'しずか', 'na-adj-past-polite')?.written).toBe('静かでした');
+            expect(form('静か', 'しずか', 'na-adj-te')?.written).toBe('静かで');
+        });
+
+        it('offers ではない / ではありません as formal alternatives', () => {
+            expect(form('静か', 'しずか', 'na-adj-negative')?.alternatives?.[0].written).toBe('静かではない');
+            const negPolite = form('静か', 'しずか', 'na-adj-negative-polite');
+            expect(negPolite?.written).toBe('静かじゃないです');
+            expect(negPolite?.alternatives?.map(a => a.written)).toEqual(['静かじゃありません', '静かではありません']);
+        });
+    });
+
     describe('refuses mismatched pairings instead of producing nonsense', () => {
         it('adjective form asked of a verb', () => {
             expect(form('飲む', 'のむ', 'i-adj-adverbial')).toBeNull();

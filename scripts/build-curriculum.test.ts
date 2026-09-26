@@ -383,7 +383,15 @@ describe.skipIf(!built)('upstream corrections', () => {
     it('never leaves a point with fewer than two examples', () => {
         // Removals are the only thing that can drive a point below its upstream
         // four, and one example means the same sentence forever.
-        const thin = [...points.values()].filter(p => p.examples.length < 2).map(p => `${p.id} (${p.examples.length})`);
+        //
+        // Authored inflection points (base-paradigm / mood / conditional forms in
+        // inflection-points.json) are the one exception: they carry no examples by
+        // design, because they are drilled from the conjugator, not taught from
+        // sentences. Every example-BEARING point still must have >= 2.
+        const thin = [...points.values()]
+            .filter(p => p.examples.length < 2)
+            .filter(p => !(p.kind === 'inflection' && p.examples.length === 0))
+            .map(p => `${p.id} (${p.examples.length})`);
         expect(thin).toEqual([]);
     });
 });

@@ -29,6 +29,7 @@
 
 /** A derived form this module can produce. */
 export type ConjugationForm =
+    // --- verb: pre-existing derived forms ---
     | 'te'
     | 'tai'
     | 'zu'
@@ -38,10 +39,37 @@ export type ConjugationForm =
     | 'causative-passive'
     | 'passive'
     | 'potential'
+    // --- verb: base paradigm (tense x polarity x politeness) ---
+    | 'plain-past'            // 書いた
+    | 'plain-negative'        // 書かない
+    | 'plain-past-negative'   // 書かなかった
+    | 'masu'                  // 書きます
+    | 'masu-past'             // 書きました
+    | 'masu-negative'         // 書きません
+    | 'masu-past-negative'    // 書きませんでした
+    // --- verb: mood + conditional ---
+    | 'volitional'            // 書こう
+    | 'imperative'            // 書け
+    | 'prohibitive'           // 書くな
+    | 'ba'                    // 書けば
+    // --- i-adjective ---
     | 'i-adj-adverbial'
     | 'i-adj-te'
     | 'i-adj-negative-polite'
-    | 'na-adj-adverbial';
+    | 'i-adj-negative'        // 高くない
+    | 'i-adj-past'            // 高かった
+    | 'i-adj-past-negative'   // 高くなかった
+    | 'i-adj-ba'              // 高ければ
+    // --- na-adjective / copula (also covers noun + copula) ---
+    | 'na-adj-adverbial'
+    | 'na-adj'               // 静かだ
+    | 'na-adj-past'          // 静かだった
+    | 'na-adj-negative'      // 静かじゃない
+    | 'na-adj-past-negative' // 静かじゃなかった
+    | 'na-adj-polite'        // 静かです
+    | 'na-adj-past-polite'   // 静かでした
+    | 'na-adj-negative-polite' // 静かじゃないです
+    | 'na-adj-te';           // 静かで
 
 export interface Conjugation {
     /** The written form, e.g. 飲んで. */
@@ -68,16 +96,17 @@ type GodanRow = 'ka' | 'ga' | 'sa' | 'ta' | 'na' | 'ba' | 'ma' | 'ra' | 'wa';
  * The a-row for ワ行 is わ, not あ - 買う -> 買わない. That single irregularity is
  * the most commonly mis-generated form in naive conjugators.
  */
-const GODAN_ROWS: Record<GodanRow, { a: string; i: string; e: string; te: string }> = {
-    ka: { a: 'か', i: 'き', e: 'け', te: 'いて' },
-    ga: { a: 'が', i: 'ぎ', e: 'げ', te: 'いで' },
-    sa: { a: 'さ', i: 'し', e: 'せ', te: 'して' },
-    ta: { a: 'た', i: 'ち', e: 'て', te: 'って' },
-    na: { a: 'な', i: 'に', e: 'ね', te: 'んで' },
-    ba: { a: 'ば', i: 'び', e: 'べ', te: 'んで' },
-    ma: { a: 'ま', i: 'み', e: 'め', te: 'んで' },
-    ra: { a: 'ら', i: 'り', e: 'れ', te: 'って' },
-    wa: { a: 'わ', i: 'い', e: 'え', te: 'って' },
+const GODAN_ROWS: Record<GodanRow, { a: string; i: string; e: string; o: string; te: string }> = {
+    ka: { a: 'か', i: 'き', e: 'け', o: 'こ', te: 'いて' },
+    ga: { a: 'が', i: 'ぎ', e: 'げ', o: 'ご', te: 'いで' },
+    sa: { a: 'さ', i: 'し', e: 'せ', o: 'そ', te: 'して' },
+    ta: { a: 'た', i: 'ち', e: 'て', o: 'と', te: 'って' },
+    na: { a: 'な', i: 'に', e: 'ね', o: 'の', te: 'んで' },
+    ba: { a: 'ば', i: 'び', e: 'べ', o: 'ぼ', te: 'んで' },
+    ma: { a: 'ま', i: 'み', e: 'め', o: 'も', te: 'んで' },
+    ra: { a: 'ら', i: 'り', e: 'れ', o: 'ろ', te: 'って' },
+    // ワ行: the a-stem is わ (買わない) but the o-stem is お (買おう).
+    wa: { a: 'わ', i: 'い', e: 'え', o: 'お', te: 'って' },
 };
 
 const ROW_BY_LABEL: Record<string, GodanRow> = {
@@ -101,6 +130,18 @@ const IRREGULARS: Record<'する' | '来る', Partial<Record<ConjugationForm, Co
         causative: { written: 'させる', reading: 'させる' },
         'causative-passive': { written: 'させられる', reading: 'させられる' },
         passive: { written: 'される', reading: 'される' },
+        'plain-past': { written: 'した', reading: 'した' },
+        'plain-negative': { written: 'しない', reading: 'しない' },
+        'plain-past-negative': { written: 'しなかった', reading: 'しなかった' },
+        masu: { written: 'します', reading: 'します' },
+        'masu-past': { written: 'しました', reading: 'しました' },
+        'masu-negative': { written: 'しません', reading: 'しません' },
+        'masu-past-negative': { written: 'しませんでした', reading: 'しませんでした' },
+        volitional: { written: 'しよう', reading: 'しよう' },
+        // しろ is the everyday imperative; せよ is the written/formal alternative.
+        imperative: { written: 'しろ', reading: 'しろ', alternatives: [{ written: 'せよ', reading: 'せよ' }] },
+        prohibitive: { written: 'するな', reading: 'するな' },
+        ba: { written: 'すれば', reading: 'すれば' },
     },
     '来る': {
         te: { written: '来て', reading: 'きて' },
@@ -112,6 +153,17 @@ const IRREGULARS: Record<'する' | '来る', Partial<Record<ConjugationForm, Co
         'causative-passive': { written: '来させられる', reading: 'こさせられる' },
         passive: { written: '来られる', reading: 'こられる' },
         potential: { written: '来られる', reading: 'こられる' },
+        'plain-past': { written: '来た', reading: 'きた' },
+        'plain-negative': { written: '来ない', reading: 'こない' },
+        'plain-past-negative': { written: '来なかった', reading: 'こなかった' },
+        masu: { written: '来ます', reading: 'きます' },
+        'masu-past': { written: '来ました', reading: 'きました' },
+        'masu-negative': { written: '来ません', reading: 'きません' },
+        'masu-past-negative': { written: '来ませんでした', reading: 'きませんでした' },
+        volitional: { written: '来よう', reading: 'こよう' },
+        imperative: { written: '来い', reading: 'こい' },
+        prohibitive: { written: '来るな', reading: 'くるな' },
+        ba: { written: '来れば', reading: 'くれば' },
     },
 };
 
@@ -176,39 +228,55 @@ export function conjugate(
     wordClass: WordClass,
     form: ConjugationForm
 ): Conjugation | null {
-    const isAdjectiveForm = form.startsWith('i-adj-') || form.startsWith('na-adj-');
+    const isAdjectiveForm = form.startsWith('i-adj-') || form.startsWith('na-adj');
 
     if (wordClass.kind === 'na-adjective') {
-        if (form !== 'na-adj-adverbial') return null;
-        // な-adjective lemmas are stored as the bare stem (静か), so nothing to strip.
-        return { written: `${lemma}に`, reading: `${lemmaReading}に` };
+        // な-adjective lemmas are stored as the bare stem (静か), so nothing to
+        // strip; every form is stem + a copula ending. This is copula
+        // conjugation, so it doubles as noun + copula (学生だ/学生でした).
+        const add = (suffix: string, ...alts: string[]): Conjugation => ({
+            written: lemma + suffix,
+            reading: lemmaReading + suffix,
+            ...(alts.length ? { alternatives: alts.map(a => ({ written: lemma + a, reading: lemmaReading + a })) } : {}),
+        });
+        switch (form) {
+            case 'na-adj-adverbial': return add('に');
+            case 'na-adj': return add('だ');
+            case 'na-adj-past': return add('だった');
+            case 'na-adj-negative': return add('じゃない', 'ではない');
+            case 'na-adj-past-negative': return add('じゃなかった', 'ではなかった');
+            case 'na-adj-polite': return add('です');
+            case 'na-adj-past-polite': return add('でした');
+            case 'na-adj-negative-polite': return add('じゃないです', 'じゃありません', 'ではありません');
+            case 'na-adj-te': return add('で');
+        }
+        return null;
     }
 
     if (wordClass.kind === 'i-adjective') {
         if (!form.startsWith('i-adj-')) return null;
         const irregular = IRREGULAR_I_ADJECTIVES[lemma];
+        // Strip the final い to get the stem (高い -> 高). いい/良い are irregular:
+        // their whole paradigm is built on よ, not the written stem, so 良かった /
+        // よくない, never 良いかった.
         const stem = irregular
             ? { written: irregular.stemWritten, reading: irregular.stemReading }
             : stems(lemma, lemmaReading);
-        if (form === 'i-adj-adverbial') {
-            return { written: stem.written + 'く', reading: stem.reading + 'く' };
+        const add = (suffix: string): Conjugation => ({ written: stem.written + suffix, reading: stem.reading + suffix });
+        switch (form) {
+            case 'i-adj-adverbial': return add('く');
+            case 'i-adj-te': return add('くて');
+            case 'i-adj-negative': return add('くない');
+            case 'i-adj-past': return add('かった');
+            case 'i-adj-past-negative': return add('くなかった');
+            case 'i-adj-ba': return add('ければ');
+            case 'i-adj-negative-polite':
+                // Two standard forms; a learner may produce either. くないです is
+                // the more colloquial one shown by the drill; くありません is the
+                // older, slightly more formal equal, shipped as an alternative.
+                return { ...add('くないです'), alternatives: [{ written: stem.written + 'くありません', reading: stem.reading + 'くありません' }] };
         }
-        if (form === 'i-adj-te') {
-            return { written: stem.written + 'くて', reading: stem.reading + 'くて' };
-        }
-        // The polite negative has TWO standard forms and a learner may produce
-        // either: 高くないです and 高くありません. くないです is the more colloquial and
-        // is what the drill displays; くありません is the older, slightly more formal
-        // one and is equally correct, so it ships as an alternative rather than
-        // being graded wrong.
-        return {
-            written: stem.written + 'くないです',
-            reading: stem.reading + 'くないです',
-            alternatives: [{
-                written: stem.written + 'くありません',
-                reading: stem.reading + 'くありません',
-            }],
-        };
+        return null;
     }
 
     if (isAdjectiveForm) return null; // adjective form asked of a verb
@@ -216,6 +284,10 @@ export function conjugate(
     if (wordClass.kind === 'irregular') {
         return IRREGULARS[wordClass.lemma][form] ?? null;
     }
+
+    // Prohibitive is dictionary form + な for every regular verb class (書くな,
+    // 食べるな). する/来る carry their own entries above.
+    if (form === 'prohibitive') return { written: lemma + 'な', reading: lemmaReading + 'な' };
 
     if (wordClass.kind === 'ichidan') {
         const s = stems(lemma, lemmaReading);
@@ -229,6 +301,16 @@ export function conjugate(
             case 'causative': return add('させる');
             case 'causative-passive': return add('させられる');
             case 'passive': return add('られる');
+            case 'plain-past': return add('た');
+            case 'plain-negative': return add('ない');
+            case 'plain-past-negative': return add('なかった');
+            case 'masu': return add('ます');
+            case 'masu-past': return add('ました');
+            case 'masu-negative': return add('ません');
+            case 'masu-past-negative': return add('ませんでした');
+            case 'volitional': return add('よう');
+            case 'imperative': return add('ろ');
+            case 'ba': return add('れば');
             case 'potential': {
                 const formal = add('られる');
                 const colloquial = add('れる');
@@ -251,6 +333,21 @@ export function conjugate(
         case 'te': return add(wordClass.teKana);
         case 'tai': return add(row.i + 'たい');
         case 'zu': return add(row.a + 'ず');
+        case 'plain-past': {
+            // The past follows the て/た euphony exactly: て -> た, で -> だ.
+            // 書いて -> 書いた, 飲んで -> 飲んだ, 行って -> 行った.
+            const base = wordClass.teKana.slice(0, -1);
+            return add(base + (wordClass.teKana.endsWith('で') ? 'だ' : 'た'));
+        }
+        case 'plain-negative': return add(row.a + 'ない');
+        case 'plain-past-negative': return add(row.a + 'なかった');
+        case 'masu': return add(row.i + 'ます');
+        case 'masu-past': return add(row.i + 'ました');
+        case 'masu-negative': return add(row.i + 'ません');
+        case 'masu-past-negative': return add(row.i + 'ませんでした');
+        case 'volitional': return add(row.o + 'う');
+        case 'imperative': return add(row.e);
+        case 'ba': return add(row.e + 'ば');
         case 'chatta': {
             // Must follow the て/で voicing: 飲んで -> 飲んじゃった, never 飲んちゃった.
             const voiced = wordClass.teKana.endsWith('で');
@@ -286,8 +383,31 @@ export const FORM_LABELS: Record<ConjugationForm, string> = {
     'causative-passive': 'causative-passive (be made to do)',
     'passive': 'passive',
     'potential': 'potential (can do)',
+    'plain-past': 'plain past (た)',
+    'plain-negative': 'plain negative (ない)',
+    'plain-past-negative': 'plain past negative (なかった)',
+    'masu': 'polite (ます)',
+    'masu-past': 'polite past (ました)',
+    'masu-negative': 'polite negative (ません)',
+    'masu-past-negative': 'polite past negative (ませんでした)',
+    'volitional': "volitional (よう / let's)",
+    'imperative': 'imperative (command)',
+    'prohibitive': 'prohibitive (な / do not)',
+    'ba': 'ば conditional (if)',
     'i-adj-adverbial': 'adverbial く',
     'i-adj-te': 'て-form (くて)',
-    'i-adj-negative-polite': 'negative polite',
+    'i-adj-negative-polite': 'negative polite (くないです)',
+    'i-adj-negative': 'negative (くない)',
+    'i-adj-past': 'past (かった)',
+    'i-adj-past-negative': 'past negative (くなかった)',
+    'i-adj-ba': 'ば conditional (ければ)',
     'na-adj-adverbial': 'adverbial に',
+    'na-adj': 'plain (だ)',
+    'na-adj-past': 'plain past (だった)',
+    'na-adj-negative': 'negative (じゃない)',
+    'na-adj-past-negative': 'past negative (じゃなかった)',
+    'na-adj-polite': 'polite (です)',
+    'na-adj-past-polite': 'polite past (でした)',
+    'na-adj-negative-polite': 'negative polite (じゃないです)',
+    'na-adj-te': 'て-form (で)',
 };

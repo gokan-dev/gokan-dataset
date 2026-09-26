@@ -57,6 +57,31 @@ const POINT_FORMS: Record<string, ConjugationForm> = {
     'n5-017': 'i-adj-te',
     'n5-016': 'i-adj-negative-polite',
     'n5-018': 'na-adj-adverbial',
+    // Authored base-paradigm / mood / conditional points (data/raw/grammar/
+    // inflection-points.json). See docs/GRAMMAR_TEACHING_MODEL.md.
+    'n5-901': 'masu',
+    'n5-902': 'masu-past',
+    'n5-903': 'masu-negative',
+    'n5-904': 'masu-past-negative',
+    'n5-905': 'plain-past',
+    'n5-906': 'plain-negative',
+    'n5-907': 'plain-past-negative',
+    'n4-901': 'volitional',
+    'n4-902': 'imperative',
+    'n4-903': 'prohibitive',
+    'n4-904': 'ba',
+    'n5-908': 'i-adj-negative',
+    'n5-909': 'i-adj-past',
+    'n5-910': 'i-adj-past-negative',
+    'n4-905': 'i-adj-ba',
+    'n5-911': 'na-adj',
+    'n5-912': 'na-adj-past',
+    'n5-913': 'na-adj-negative',
+    'n5-914': 'na-adj-past-negative',
+    'n5-915': 'na-adj-polite',
+    'n5-916': 'na-adj-past-polite',
+    'n5-917': 'na-adj-negative-polite',
+    'n5-918': 'na-adj-te',
 };
 
 type ClassKey = 'godan' | 'ichidan' | 'irregular' | 'i-adjective' | 'na-adjective';
@@ -80,10 +105,34 @@ const PREFERRED_CLASSES: Record<ConjugationForm, ClassKey[]> = {
     'causative-passive': ['godan', 'ichidan', 'irregular'],
     'passive': ['godan'],
     'potential': ['godan'],
+    // Base paradigm, mood and conditionals apply to every verb class.
+    'plain-past': ['godan', 'ichidan', 'irregular'],
+    'plain-negative': ['godan', 'ichidan', 'irregular'],
+    'plain-past-negative': ['godan', 'ichidan', 'irregular'],
+    'masu': ['godan', 'ichidan', 'irregular'],
+    'masu-past': ['godan', 'ichidan', 'irregular'],
+    'masu-negative': ['godan', 'ichidan', 'irregular'],
+    'masu-past-negative': ['godan', 'ichidan', 'irregular'],
+    'volitional': ['godan', 'ichidan', 'irregular'],
+    'imperative': ['godan', 'ichidan', 'irregular'],
+    'prohibitive': ['godan', 'ichidan', 'irregular'],
+    'ba': ['godan', 'ichidan', 'irregular'],
     'i-adj-adverbial': ['i-adjective'],
     'i-adj-te': ['i-adjective'],
     'i-adj-negative-polite': ['i-adjective'],
+    'i-adj-negative': ['i-adjective'],
+    'i-adj-past': ['i-adjective'],
+    'i-adj-past-negative': ['i-adjective'],
+    'i-adj-ba': ['i-adjective'],
     'na-adj-adverbial': ['na-adjective'],
+    'na-adj': ['na-adjective'],
+    'na-adj-past': ['na-adjective'],
+    'na-adj-negative': ['na-adjective'],
+    'na-adj-past-negative': ['na-adjective'],
+    'na-adj-polite': ['na-adjective'],
+    'na-adj-past-polite': ['na-adjective'],
+    'na-adj-negative-polite': ['na-adjective'],
+    'na-adj-te': ['na-adjective'],
 };
 
 /**
@@ -115,7 +164,7 @@ const GUARANTEED_LEMMAS: { vocabId: string; lemma: string; lemmaReading: string 
  * ambiguous rather than merely unnatural.
  */
 const STATIVE_VERBS = new Set(['見える', '聞こえる', '分かる', '要る', 'できる', '思う', '感じる']);
-const NEEDS_VOLITION: ConjugationForm[] = ['tai', 'causative', 'causative-passive', 'potential'];
+const NEEDS_VOLITION: ConjugationForm[] = ['tai', 'causative', 'causative-passive', 'potential', 'volitional', 'imperative'];
 
 interface DrillItem {
     vocabId: string;

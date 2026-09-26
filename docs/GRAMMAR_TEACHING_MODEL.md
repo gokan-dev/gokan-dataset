@@ -1,6 +1,6 @@
 # How the grammar teaching model works
 
-Plain-English explanation of every moving part. The current *contents* (all 145 chapters, all 95 lessons) live in the generated [CURRICULUM.md](CURRICULUM.md); the exact field names and types live in [SCHEMA.md](SCHEMA.md). This file is the one that explains what any of it means.
+Plain-English explanation of every moving part. The current *contents* (all 151 chapters, all 95 lessons) live in the generated [CURRICULUM.md](CURRICULUM.md); the exact field names and types live in [SCHEMA.md](SCHEMA.md). This file is the one that explains what any of it means.
 
 ---
 
@@ -36,7 +36,7 @@ POINT ──── belongs to exactly one ────► CHAPTER   (when you me
 
 ## Point
 
-One grammar item: a title, explanations, a formation template, and 3 to 5 example sentences. 754 of them, from the vendored upstream snapshot (one, `n3-120`, was a fourth ingestion of ている and is retired as a plain duplicate, aliased onto its canonical rather than kept as a card).
+One grammar item: a title, explanations, a formation template, and 3 to 5 example sentences. 777 of them: 754 from the vendored upstream snapshot (one, `n3-120`, was a fourth ingestion of ている and is retired as a plain duplicate, aliased onto its canonical rather than kept as a card), plus 23 authored inflection points that teach conjugation (see "Inflection points and conjugation" below).
 
 Some points are **realization variants** of another point: the same construction with one slot filled differently, which upstream listed separately. The contraction では → じゃ gives じゃ on its own, and それじゃ once the anaphoric それ is fronted, so それでは / それじゃ / じゃ are not three things to learn but one thing written three ways. それじゃ and じゃ are both marked `variantOf: "n5-006"` (それでは). It is not a one-off: 20 points across 15 canonicals are variants, spanning contractions (じゃ, なくちゃ, んです), plain/polite pairs (だから → ですから), particle alternations (どこにも / どこへも / どこも), and rendaku softenings (くらい → ぐらい).
 
@@ -53,9 +53,27 @@ They are separate mechanisms that used to never meet, so a point could quietly b
 1. **A point whose prose claims a realization must be grouped.** If a usage note says "contraction of", "rendaku", and so on, the point must be a variant, the canonical of one, or explicitly exempted. Before this check, 17 points asserted such a relation in prose and *not one* carried a `variantOf`: じゃ / それじゃ was not an isolated miss, it was the one case that happened to get hand-fixed, while every other ている, もらう and んです shipped as its own SRS card.
 2. **A variant may not also carry a family.** The canonical carries the family; the variant is one of its realizations, not a sibling of it. Before this check, じゃ (`n5-004`) had stayed a `sequence-then` family member while それじゃ (`n5-005`) did not, so the two contractions of one point were filed inconsistently and じゃ showed up in the family's related-points list as if it were a distinct point. The build now fails if a variant declares a family, and the 11 variants that did (`n5-004`, `n3-049`, the five どこにも forms, plus ぐらい, なくちゃ, んです and でしょう) had their family removed.
 
+### Inflection points and conjugation
+
+A handful of points are `kind: 'inflection'`. These teach a *transformation* (書く → 書いて) rather than a fixed marker the cloze quiz can blank, so they are drilled differently: the learner is shown a dictionary form and a target form and produces the conjugation.
+
+The forms themselves are **computed, never authored**. `src/utils/conjugator.ts` conjugates any word from its dictionary form plus its class (godan row / ichidan / irregular する・来る / い-adjective / copula), and `build-conjugations.ts` runs it over common words from the frequency-ordered vocab index to generate the drill items in `compiled/grammar/conjugations.json`. So correctness lives in one function tested per form × class, not in thousands of hand-entered cells.
+
+There are two sources of inflection points:
+
+1. **14 upstream points** the snapshot happened to include (て-form, たい, causative, passive, potential, adjective adverbials, and a few more), reclassified as `inflection` in `kinds.json`.
+2. **23 authored points** (`data/raw/grammar/inflection-points.json`) for the base conjugation paradigm the snapshot never taught as its own items: it only ever taught patterns built *on* conjugation (Verb た ことがある) while assuming the learner could already form た. These fill that gap:
+   - **Verbs**: polite ます / ました / ません / ませんでした; plain past た, plain negative ない, plain past-negative なかった; volitional, imperative, prohibitive, and the ば conditional.
+   - **い-adjectives**: negative くない, past かった, past-negative くなかった, ば conditional ければ.
+   - **Copula** (covers な-adjectives *and* nouns, since a な-adjective is just noun + copula): だ / だった / じゃない / じゃなかった / です / でした / じゃないです / て-form で.
+
+   Their ids use the per-level `9xx` range (`n5-901`, `n4-901`, …) so they cannot collide with the upstream snapshot, and they carry no example sentences: the drill is generated, so there is nothing to author or tokenize. The form each one drills is mapped in `build-conjugations.ts`; a few forms the snapshot already teaches as constructions (たら via `n4-087`, ましょう via `n5-054`) are deliberately NOT duplicated here.
+
+An inflection point is only *teachable* once `conjugations.json` actually carries drill items for it, so the app filters out any that have none rather than serving an ungradable card.
+
 ## Chapter
 
-A run of points meant to be met together, and the unit of the introduction order. 145 of them.
+A run of points meant to be met together, and the unit of the introduction order. 151 of them.
 
 They exist because the upstream data is alphabetical, which is actively hostile: it put seven near-synonymous connectives first and the case particles at positions 40+. Genki reaches は and basic verb conjugation in chapter 3 of 23.
 
@@ -166,7 +184,10 @@ Those get an **interchangeable note**, not a lesson, and authoring a lesson that
 | `data/raw/grammar/contrasts.json` | yes | Lessons and cases |
 | `data/raw/grammar/variants.json` | yes | Which points are realizations of another |
 | `data/raw/grammar/duplicates.json` | yes | Which points are dropped as duplicates (retired, aliased to a canonical) |
+| `data/raw/grammar/inflection-points.json` | yes | Authored conjugation points (base paradigm, mood, conditionals) |
+| `src/utils/conjugator.ts` | code | The conjugation engine: dictionary form + class -> any form |
 | `compiled/grammar/index/teaching-order.json` | generated | The chapters and the flat order |
+| `compiled/grammar/conjugations.json` | generated | Drill items per inflection point, computed by the conjugator |
 | `compiled/grammar/index/contrasts.json` | generated | Lessons, validated and anchored |
 | `compiled/grammar/index/variant-groups.json` | generated | Each canonical's realizations, for card rotation |
 | `compiled/grammar/index/aliases.json` | generated | Retired/duplicate id → canonical, for progress migration |
