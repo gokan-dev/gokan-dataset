@@ -72,6 +72,12 @@ src/models/               TypeScript types mirroring the compiled shape
 
 [docs/SCHEMA.md](docs/SCHEMA.md) documents every file and field.
 
+For the grammar half specifically, three docs answer different questions:
+
+- **[docs/GRAMMAR_TEACHING_MODEL.md](docs/GRAMMAR_TEACHING_MODEL.md)** explains the model in plain English: what a point, chapter, family, lesson and case each are, how they relate, and why the curriculum is arranged the way it is. Start here.
+- **[docs/CURRICULUM.md](docs/CURRICULUM.md)** is the generated inventory: every chapter, the points in it, and the lessons it unlocks. Regenerated on every `bun run build:grammar`, so it cannot drift.
+- **[docs/SCHEMA.md](docs/SCHEMA.md)** has the exact field names and validation rules.
+
 ## Using it
 
 Read `compiled/` directly. Clone it, add it as a submodule, or point a CDN at it:

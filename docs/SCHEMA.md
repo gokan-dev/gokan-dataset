@@ -249,7 +249,7 @@ Dropped points are not emitted to `points/`, do not appear in `index/jlpt.json`,
 
 ## `compiled/grammar/index/teaching-order.json` — the curriculum
 
-The order in which points should be **introduced**, replacing `index/jlpt.json`'s alphabetical order for that purpose. Built by `scripts/build-curriculum.ts` (`bun run build:curriculum`, chained from `build:grammar`) from the authored spine at `data/curriculum/chapters.json`.
+The order in which points should be **introduced**, replacing `index/jlpt.json`'s alphabetical order for that purpose. Built by `scripts/build-curriculum.ts` (`bun run build:curriculum`, chained from `build:grammar`) from the authored spine at `data/curriculum/chapters.json` and the authored themes at `data/curriculum/themes.json`.
 
 ```ts
 interface GrammarTeachingOrder {
@@ -271,9 +271,18 @@ Why this exists: `index/jlpt.json` follows the upstream files' alphabetical orde
 Two tiers, deliberately:
 
 - **N5 and N4 are hand-sequenced** in `chapters.json` (40 chapters), because at those levels points genuinely depend on each other - `Verb た ことがある` is unteachable before the た-form.
-- **N3/N2/N1 chapters are generated** by clustering the remainder by family, then sweeping up unfamilied points into level-ordered "Further N*n* patterns" chapters. Above N3 the points are largely independent idiomatic expressions with no dependency chain. This tier is intentionally coarser, and its `summary` says so - the order within a "Further patterns" chapter carries no pedagogical claim.
+- **N3/N2/N1 chapters are generated** by clustering the remainder by family, then placing unfamilied points into the authored **themes** at `data/curriculum/themes.json`. Above N3 the points are largely independent idiomatic expressions with no dependency chain. This tier is intentionally coarser: a theme does not sequence its points against each other, it only guarantees the chapter has a subject.
 
-A chapter may declare `absorbRegisterFamilies`, which folds in the `axis: 'register'` members of those families **from any level** - the mechanism that puts だが (N2) in an N5 chapter. Absorption is capped at 3 levels of distance (2 for `very-formal-literary`), a guardrail over the not-yet-hand-reviewed `axis` values: `Verbる べからざる Noun` (N1) reads as "formal, literary" and was classified `register`, but it is an archaic noun-modifying form with no place in an N4 chapter. Points held back this way are listed at build time as hand-correction candidates. `constraint` members are never absorbed.
+Themes replaced an alphabetical dump that put 315 points (42% of the dataset) into 18 buckets of 20 named "Further N2 patterns (3 of 5)" - one bucket held `にほかならない`, `ということ`, "whenever", "before" and "based-on" side by side for no reason beyond adjacent ids. That fallback still exists in `build-curriculum.ts` and anything unthemed lands in it, but it is **empty** against the dataset as it stands, and the build names every unthemed point so a newly-added one is visible rather than silently dumped. Current shape: **145 chapters, median 5 points, max 12** (was 117 chapters, max 20).
+
+A tier-1 chapter may declare `absorbRegisterFamilies`, which folds in the `axis: 'register'` members of those families **from any level** - the mechanism that puts だが (N2) in an N5 chapter. Absorption is capped at 3 levels of distance (2 for `very-formal-literary`), a guardrail over the not-yet-hand-reviewed `axis` values: `Verbる べからざる Noun` (N1) reads as "formal, literary" and was classified `register`, but it is an archaic noun-modifying form with no place in an N4 chapter. Points held back this way are listed at build time as hand-correction candidates. `constraint` members are never absorbed.
+
+In tier 2 the same question is settled automatically, per family, by the **absorb-vs-level-gate rule**. A family spread across N3-N1 is taught either as one chapter holding the whole ladder, or as one chapter per level:
+
+- **Absorbed** when it is a *pure register ladder* (no `constraint` member) of **at most 6** members. The chapter is placed at its easiest member's level, easiest register first. This is the only way the ladder is ever visible whole.
+- **Level-gated** otherwise, and the chapter titles carry the level (`"N2: Concession (Even Though / Although / Despite)"`) so three chapters do not share one name. Cross-level relationships then live on the family page rather than in a chapter.
+
+The size test is over the **whole** family, not just its register members: splitting a mixed family into an absorbed register half and a level-gated constraint half fragments it worse than either rule alone. Absorbing concession would mean 11 forms at once, which is why the cap exists. 12 ladders are absorbed and 35 families level-gated as of the last build.
 
 **Every surviving point appears in exactly one chapter, and the build fails if not** - a point missing from the order would simply never be introduced, with nothing erroring at runtime.
 
@@ -288,6 +297,47 @@ type GrammarJlptIndex = Record<number, string[]>; // level (1..5) -> grammar poi
 ```ts
 type GrammarFamilyIndex = Record<string, { name: string; memberIds: string[] }>; // familyId -> display name + every member point id
 ```
+
+## `compiled/grammar/index/contrasts.json` — situational disambiguation lessons
+
+Answers the question a `usageNote` cannot: *given a real situation, which member do I reach for, and why not the obvious alternative?* から and ので both gloss as "because", but only ので fits an apology. That fact is contrastive and lives in neither point's own entry.
+
+Authored by hand (AI-drafted, human-reviewed) in `data/raw/grammar/contrasts.json` and compiled by `build-grammar.ts`'s `compileContrasts` (pure, unit-tested). A family is partitioned into confusability-first **lessons** (small groups of points - target 5-6, soft cap - close enough to be actively disambiguated together, like interleaving look-alike kanji; a small family can be one lesson, a large one is split). Each lesson carries directed **cases**: one concrete situation, which point to reach for in it, and why the obvious alternative does not fit. A case may only name points its own lesson covers.
+
+```ts
+type GrammarContrastIndex = Record<string, {   // familyId ->
+  name: string;                                 // the family's display name (copied from families.json for convenience)
+  lessons: {
+    id: string;                                 // stable slug within the family, e.g. "reason-core"
+    title: string;                              // short display title, e.g. "から / ので"
+    points: string[];                           // the confusable points this lesson covers
+    cases: {                                    // the situations taught here; focus/vs are a subset of `points`
+      focus: string;                            // the point this case teaches the learner to reach for
+      vs: string[];                             // the sibling(s) `focus` is most confused with
+      situation: string;                        // a concrete situation where the choice matters
+      guidance: string;                         // which point fits, and why the obvious alternative does not
+    }[];
+    taughtInChapterId?: string;                 // chapter this lesson can first be taught in
+  }[];
+  interchangeable?: string[];                   // `variant`-axis members: no lesson, a note instead
+}>;
+```
+
+Coverage as of the last build: **66 families, 96 lessons, 140 cases**, plus interchangeable-member notes on 2 families.
+
+> **A lesson is not a chapter**, and the two are easy to conflate. A chapter is a slot in the introduction order; a lesson is a set of points a learner actually mixes up. They cut across each other by design. (A lesson was called a "chunk" until 2026-09, which made the collision worse.) [GRAMMAR_TEACHING_MODEL.md](GRAMMAR_TEACHING_MODEL.md) explains the whole model in plain English, and [CURRICULUM.md](CURRICULUM.md) is the generated inventory of what currently exists.
+
+A case is **directed**: `focus` is the point met LATER in the teaching order, so by the time it is introduced the `vs` siblings are already known and the contrast lands between two real memories. The consumer surfaces a case at `focus`'s introduction (deferring it if a `vs` sibling isn't known yet) and on a revisitable family page.
+
+`taughtInChapterId` is stamped by `build-curriculum.ts`, which is the only step that knows the chapters: it is the chapter of whichever point the lesson covers is introduced last, so it is the earliest moment at which every point the lesson names is a real memory. The curriculum design work assumed the stronger rule that a lesson may not span chapters at all; that rule would delete the から/ので lesson this section opens with (から is introduced in `n5-c16`, ので in `n4-c12`), so what is enforced instead is the invariant that actually carries the weight: **a case's `focus` may never be introduced before one of its `vs` siblings**, a build error in `build-curriculum.ts`. Lessons that do span chapters are counted in the build output (3 of 96 currently), because a lesson confined to one chapter is still the better shape wherever it is achievable.
+
+`interchangeable` lists the family's `variant`-axis members, when it has two or more. Those siblings have no differentiator, so they can never carry a lesson (a build error) - but silence is worse than a one-line note: a learner who meets ten near-identical literary forms with no comment will assume a distinction exists and go looking for one. Render it as "these are interchangeable, pick by feel", not as a lesson. A family may have this and **no lessons at all**, which is the normal shape for a pure variant family, so `lessons: []` is not a bug.
+
+Validation is strict (each is a build error, not a silent drop): `focus`/`vs`/`points` must be genuine, non-dropped members of the family; a case may never reference a `variant`-axis point; `vs` must be non-empty and exclude `focus`; every `focus`/`vs` id must be one of its own lesson's `points`; `situation`/`guidance` must be non-blank; and no `focus` may precede its `vs` in the teaching order. A lesson covering more points than the soft cap (8) warns rather than failing, so a coherent register ladder (the "but" family is 7) is allowed.
+
+### `GrammarPoint.slot` — syntactic position, for interchangeability grading
+
+A point may carry `slot?: 'clause-final' | 'sentence-initial' | 'predicate-final' | 'pre-noun' | 'adverbial'`, authored in `formality.json`. It exists so a consumer can decide whether one family sibling can grammatically stand in for another: two near-synonyms are interchangeable in a cloze blank only if they fill the **same slot**. けど (clause-final) and でも (sentence-initial) share the "but" family and the same gloss, but でも cannot drop into a clause-final けど blank, so that substitution must grade wrong, not as a minor register slip. Populated for family members that could plausibly be swapped; absent elsewhere.
 
 ## `compiled/index/*.json` — lookup indexes
 
