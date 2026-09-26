@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "build:data": "rimraf ./compiled/vocab && rimraf ./compiled/sentences && bun run build:kanji && bun scripts/build-data.ts && bun run build:jlpt",
+    "build:data": "rimraf ./compiled/vocab && rimraf ./compiled/sentences && bun run build:kanji && bun scripts/build-data.ts && bun run build:jlpt && bun run build:synonyms",
     "build:kanji": "bun scripts/build-kanji.ts",
     "build:jlpt": "bun scripts/build-jlpt-index.ts",
     "build:grammar": "bun scripts/build-grammar.ts && bun run build:curriculum && bun run build:conjugations && bun run build:browse && bun run build:curriculum-doc",
@@ -13,7 +13,8 @@
     "build:curriculum": "bun scripts/build-curriculum.ts",
     "build:conjugations": "bun scripts/build-conjugations.ts",
     "build:browse": "bun scripts/build-browse-index.ts",
-    "build:curriculum-doc": "bun scripts/build-curriculum-doc.ts"
+    "build:curriculum-doc": "bun scripts/build-curriculum-doc.ts",
+    "build:synonyms": "bun scripts/build-synonyms.ts"
   },
   "devDependencies": {
     "@types/kuromoji": "^0.1.3",

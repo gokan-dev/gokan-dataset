@@ -352,6 +352,7 @@ Precomputed so consumers don't have to scan the full `vocab/`/`kanji.json` for c
 | `kanji-vocab.json` | `Record<character, vocabId[]>` | Reverse index: which vocab entries contain a given kanji, frequency-sorted. |
 | `search.json` | `Array<{ id, w: string, r: string, m: string }>` | Compact full-text search index: `w`=kanji, `r`=reading, `m`=first sense's glosses joined by ", ". |
 | `merged-map.json` | `Record<oldId, newId>` | Maps a homograph's original JMDict ID to the merged entry's ID it now lives under (see `mergedVocabs` above). |
+| `synonyms.json` | `Record<vocabId, Array<{ id: string; relation: "interchangeable" \| "confusable" }>>` | Symmetric near-synonym clusters for production-quiz grading. Membership auto-derived from same-POS gloss overlap (`scripts/build-synonyms.ts`), tier from `data/raw/vocab/synonyms.json` (auto pairs default to `confusable`; hand-authoring promotes to `interchangeable`, adds weak pairs, or excludes false positives). A word with no entry has no near-synonym handling. `interchangeable` = either word answers the cue; `confusable` = overlapping but distinct. |
 
 ## Notes for consumers
 
