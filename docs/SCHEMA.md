@@ -233,6 +233,17 @@ Four things it cannot do, handled explicitly:
 
 Build guards: every inflection point must have a form mapping and at least 6 items, and a target identical to its lemma fails the build.
 
+## `compiled/grammar/mined/{id}.json` — corpus sentences that use a point's construction
+
+One file per eligible construction point, each a `GrammarExample[]` (identical shape to `points/{id}.json`'s own `examples` - see above), mined from the vocab sentence corpus so a consumer can pick the sentence that best exercises the vocabulary a given learner is currently studying, instead of only the 3-5 curated examples. Built by `scripts/build-grammar-sentences.ts` (`bun run build:grammar-sentences`, chained from `build:grammar`); needs `build:data` (the sentence corpus + `index/search.json`) and `build:grammar` (the points) to have run first.
+
+Two matchers compose, and both are precision gates:
+
+1. **`src/utils/formationMiner.ts`** (morphology-aware) decides *whether* a sentence uses the construction, over ~228k arbitrary sentences where a purely literal test floods (a literal てある matches である/がある; てから matches 駅から). It compiles each point's `formation` into an ordered `Element[]` rule where an element is either a plain surface **literal** or a **morphological** constraint over kuromoji's POS / conjugation-form / 自立-vs-非自立 / base-form tags. The te-auxiliary family is the motivating class: "a 非自立 verb (base ∈ ある/いる/おく/しまう/みる/いく/くる/くださる) preceded by a 接続助詞 て/で preceded by a 動詞", which literal matching cannot express (てある dropped from 9,888 literal matches to 146 clean ones).
+2. **`buildExampleWords`** (shared with `build-grammar.ts`) then tokenizes the accepted sentence and runs `locatePattern` to place `patternWordIndices` the same way curated examples are processed - so a mined example is indistinguishable in shape from a hand-authored one, and a sentence whose pattern cannot be located is dropped.
+
+**Scope (first build): high-precision points only.** Every morphological rule, plus distinctive multi-char literals; the ~function-word literal over-matchers (こと/なら/だろう/まで/という/ところ/…) are deferred to a later morphology pass rather than shipped noisy - a length≥3 floor plus a small blocklist/allowlist (`isHighPrecision` in the build script). A point pool is capped at 60 (reservoir-sampled from all matches, so it is a stable, diverse slice rather than the first 60). The last build mined **15,178 examples across 477 points** (median pool 29, 187 at the cap). Points with no eligible rule, or deferred as low-precision, or with zero verified matches, simply have no file - the consumer falls back to the point's own curated `examples`.
+
 ## `compiled/grammar/index/aliases.json` — deduplicated point ids
 
 40 points in the upstream files are the same pattern ingested twice, usually at two different JLPT levels (`～ても` appears as both `n3-052` and `n4-097`; `Verb ることができる` as both `n5-059` and `n4-065`). They are self-documented: the authored `usageNote` on each flags it. `data/raw/grammar/duplicates.json` (`{ [droppedId]: { canonical, note } }`) maps each one to the surviving point, and the build emits the flattened mapping here.
