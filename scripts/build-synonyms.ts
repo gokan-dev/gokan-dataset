@@ -8,21 +8,26 @@ import path from 'path';
  *
  * MEMBERSHIP is auto-derived and deliberately LENIENT: two reasonably common
  * words cluster, REGARDLESS of part of speech, when either
- *   - their gloss sets look alike overall (`glossOverlap`: share >=1 sense that
- *     is a meaningful fraction of the smaller word's set), or
+ *   - their gloss sets look alike overall (`glossOverlap`), gated by a floor that
+ *     depends on the shared COUNT: >=2 shared senses cluster at a low fraction of
+ *     the smaller word (MULTI_SHARE_RATIO), a single shared sense needs a large
+ *     fraction (SINGLE_SHARE_RATIO). The split is what lets 縛る/締める (share
+ *     tie+fasten, 2/6 = 0.33) pair while a lone-shared English homograph at the
+ *     same 0.33 does not, or
  *   - one of them has a whole SENSE the other expresses entirely
  *     (`senseCovered`), which is what a flattened ratio dilutes away on a
  *     polysemous word: 一番 carries 18 glosses across 6 senses, so the 2 it
  *     shares with 最高 score 0.25 even though one entire sense is "best, most".
  * Leniency is the point: a learner who types 強い (i-adj) for 丈夫 (na-adj) in
- * "This string is strong" is giving a genuine answer the gloss cue cannot exclude,
- * and being marked flat wrong for it is the frustration this exists to remove.
- * Two earlier guards were dropped for being too strict: requiring a SHARED major
- * POS (blocked 強い/丈夫, which share four full glosses but are i-adj vs na-adj)
- * and requiring >=2 shared glosses. `MIN_OVERLAP_RATIO` is now the one remaining
- * precision knob on the overlap path; `senseCovered` keeps its own >=2-gloss-sense
- * floor so single coincidental senses still do not fire it. This is meant to scale
- * without hand-listing members; the override file below is for the residue.
+ * "This string is strong", or 締める for 縛る in "don't be bound by pride", is
+ * giving a genuine answer the gloss cue cannot exclude, and being marked flat wrong
+ * for it is the frustration this exists to remove. Two earlier guards were dropped
+ * for being too strict: requiring a SHARED major POS (blocked 強い/丈夫, which share
+ * four full glosses but are i-adj vs na-adj) and requiring >=2 shared glosses. The
+ * shared-count-tiered ratio floors are now the precision knobs on the overlap path;
+ * `senseCovered` keeps its own >=2-gloss-sense floor so single coincidental senses
+ * still do not fire it. This is meant to scale without hand-listing members; the
+ * override file below is for the residue.
  *
  * TIER is where curation happens. An auto-derived pair defaults to
  * `interchangeable` (graded `minor_error` by the app: real-but-reduced credit,
@@ -50,16 +55,19 @@ const OUTPUT_PATH = './compiled/index/synonyms.json';
 /** Only the most common words are drilled in production, and bounding the pool
  *  keeps the O(n) gloss-bucketing cheap and the index relevant. */
 const FREQUENCY_LIMIT = 8000;
-/** The one remaining precision knob on the overlap path (POS-match and the
- *  >=2-shared requirement were removed for leniency - see the file header). A
- *  shared sense counts only if the shared set is at least this fraction of the
- *  SMALLER word's set, so one shared "to do" among twenty glosses is still not
- *  synonymy. Raise this to tighten once false positives are worth cutting. */
-const MIN_OVERLAP_RATIO = 0.34;
-/** Minimum shared glosses outright. Lowered from 2 to 1 so weak-but-real pairs
- *  that share a single sense (必ず/常に share just "always") cluster automatically
- *  instead of needing a hand-added entry; the ratio floor above is what now keeps
- *  a lone shared common token from clustering a big-gloss word with everything. */
+/** The overlap floors, split by shared-count (see `glossOverlap`). The ratio
+ *  alone cannot separate a real 2-shared pair from a 1-shared homograph when they
+ *  land at the same fraction: 縛る/締める share {tie, fasten} = 2/6 = 0.33, and a
+ *  "leave" verb sharing only "leave" with a "leave = permission" noun is 1/3 =
+ *  0.33 too. The distinguishing signal is the shared COUNT, so the floors differ:
+ *  two or more shared senses is a strong signal and clusters at a low fraction;
+ *  a single shared sense is weak (English-gloss homographs) and must be a large
+ *  fraction of the smaller word. Raise either to tighten once false positives are
+ *  worth cutting. */
+const MULTI_SHARE_RATIO = 0.30;   // >= 2 shared senses
+const SINGLE_SHARE_RATIO = 0.50;  // exactly 1 shared sense
+/** Minimum shared glosses outright - 1, so a single strong-fraction sense (必ず/常に
+ *  share just "always", 1/2 = 0.5) can still cluster via the single-share floor. */
 const MIN_SHARED = 1;
 /** `senseCovered`'s own floor, kept at 2 and deliberately NOT tied to MIN_SHARED:
  *  a single-gloss sense wholly "covered" by another word is almost always a
@@ -118,12 +126,15 @@ export function sharedGlosses(a: Set<string>, b: Set<string>): number {
     return n;
 }
 
-/** Do two words cluster on gloss overlap? POS-agnostic now (see the file header):
- *  the only bar is >=MIN_SHARED shared senses meeting the MIN_OVERLAP_RATIO floor. */
+/** Do two words cluster on gloss overlap? POS-agnostic (see the file header). The
+ *  floor depends on the shared COUNT: >=2 shared senses cluster at MULTI_SHARE_RATIO,
+ *  exactly 1 at the stricter SINGLE_SHARE_RATIO (a lone shared English gloss is
+ *  often a homograph, so it must be a large fraction of the smaller word). */
 export function glossOverlap(a: Set<string>, b: Set<string>): boolean {
     const shared = sharedGlosses(a, b);
     if (shared < MIN_SHARED) return false;
-    return shared / Math.min(a.size, b.size) >= MIN_OVERLAP_RATIO;
+    const ratio = shared / Math.min(a.size, b.size);
+    return shared >= 2 ? ratio >= MULTI_SHARE_RATIO : ratio >= SINGLE_SHARE_RATIO;
 }
 
 /** A word this polysemous covers small senses by accident, so it is not allowed

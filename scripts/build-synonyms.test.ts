@@ -56,7 +56,7 @@ describe('sharedGlosses', () => {
     });
 });
 
-describe('glossOverlap (>=1 shared sense AND >=34% of the smaller set)', () => {
+describe('glossOverlap (shared-count-tiered: 2+ shared at >=30%, single at >=50%)', () => {
     it('clusters near-synonyms that share two or more senses', () => {
         // 思う vs 考える shape: heavy overlap.
         expect(glossOverlap(new Set(['think', 'consider', 'believe', 'reckon']), new Set(['think', 'consider']))).toBe(true);
@@ -64,18 +64,31 @@ describe('glossOverlap (>=1 shared sense AND >=34% of the smaller set)', () => {
         expect(glossOverlap(new Set(['state', 'condition', 'situation', 'circumstances']), new Set(['situation', 'circumstances', 'conditions']))).toBe(true);
     });
 
-    it('now clusters a single shared sense when it clears the ratio floor (the leniency)', () => {
-        // 強い/丈夫 shape: they share "strong"/"solid"/"durable"/"healthy" once POS
-        // is ignored - a genuine near-synonym the gloss cue cannot exclude.
-        expect(glossOverlap(new Set(['strong', 'potent']), new Set(['healthy', 'robust', 'strong', 'solid', 'durable']))).toBe(true);
-        // 必ず/常に share just "always" - previously needed a hand-added entry.
-        expect(glossOverlap(new Set(['certainly', 'surely', 'always']), new Set(['always', 'constantly']))).toBe(true);
+    it('clusters a 2-shared pair at the low multi floor (縛る/締める: tie+fasten, 2/6 = 0.33)', () => {
+        // The motivating case. Both are transitive "to tie/fasten" verbs; they
+        // share exactly {tie, fasten}, which is 2/6 of the smaller word - below the
+        // old flat 0.34 floor, above the 0.30 multi-share floor.
+        expect(glossOverlap(
+            new Set(['tie', 'bind', 'fasten', 'restrict', 'tie down', 'fetter']),
+            new Set(['tie', 'fasten', 'tighten', 'wear', 'put on', 'total', 'sum']),
+        )).toBe(true);
     });
 
-    it('still rejects a lone shared token that is a small fraction of the smaller set (ratio floor is the noise gate now)', () => {
-        // A word whose senses are {leave, permission, allowance} shares only "leave"
-        // with a big verb: 1 / 3 = 0.33 < 0.34, so it stays unclustered.
-        expect(glossOverlap(new Set(['leave', 'depart', 'go out', 'exit', 'quit', 'resign']), new Set(['leave', 'permission', 'allowance']))).toBe(false);
+    it('rejects a lone shared token at the SAME 0.33 fraction - the shared COUNT is the difference', () => {
+        // 1 shared of 3 = 0.33, identical ratio to 縛る/締める above, but a single
+        // shared English gloss ("leave" the verb vs "leave" = permission) is a
+        // homograph, so the stricter single-share floor (0.50) rejects it.
+        expect(glossOverlap(
+            new Set(['leave', 'depart', 'go out', 'exit', 'quit', 'resign']),
+            new Set(['leave', 'permission', 'allowance']),
+        )).toBe(false);
+    });
+
+    it('clusters a single shared sense only when it is a large fraction (>=50%)', () => {
+        // 強い/丈夫 reading-quiz shape: 1 shared of 2 = 0.5.
+        expect(glossOverlap(new Set(['strong', 'potent']), new Set(['healthy', 'robust', 'strong', 'solid', 'durable']))).toBe(true);
+        // 必ず/常に share just "always", 1 of 2 = 0.5 - previously needed a hand-added entry.
+        expect(glossOverlap(new Set(['certainly', 'surely', 'always']), new Set(['always', 'constantly']))).toBe(true);
     });
 
     it('rejects two big words that share only two of many senses (ratio floor)', () => {
