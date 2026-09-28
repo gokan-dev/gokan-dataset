@@ -1,22 +1,35 @@
 import { describe, it, expect } from 'vitest';
-import { coarsePos, normalizeGloss, sharedGlosses, glossOverlap } from './build-synonyms';
+import { coarsePosSet, sharesPos, normalizeGloss, sharedGlosses, glossOverlap, senseCovered } from './build-synonyms';
 
-describe('coarsePos', () => {
-    it('maps JMdict POS codes to a major class', () => {
-        expect(coarsePos(['v5u', 'vt'])).toBe('verb');
-        expect(coarsePos(['v1'])).toBe('verb');
-        expect(coarsePos(['adj-i'])).toBe('i-adj');
-        expect(coarsePos(['adj-na'])).toBe('na-adj');
-        expect(coarsePos(['adv'])).toBe('adv');
-        expect(coarsePos(['adv-to'])).toBe('adv');
-        expect(coarsePos(['n'])).toBe('noun');
-        expect(coarsePos(['n-adv'])).toBe('noun');
+const S = (...xs: string[]) => new Set(xs);
+
+describe('coarsePosSet', () => {
+    it('maps JMdict POS codes to major classes', () => {
+        expect([...coarsePosSet(['v5u', 'vt'])]).toEqual(['verb']);
+        expect([...coarsePosSet(['adj-i'])]).toEqual(['i-adj']);
+        expect([...coarsePosSet(['adj-na'])]).toEqual(['na-adj']);
+        expect([...coarsePosSet(['adv-to'])]).toEqual(['adv']);
+        expect([...coarsePosSet(['n-adv'])]).toEqual(['noun']);
     });
 
-    it('returns null for classes not drilled as production (particles, interjections)', () => {
-        expect(coarsePos(['int'])).toBeNull();
-        expect(coarsePos(['prt'])).toBeNull();
-        expect(coarsePos([])).toBeNull();
+    it('keeps EVERY class a word carries, not just the first recognised one', () => {
+        // The 一番 / 最高 defect: both are noun+adjectival, but JMdict lists their
+        // codes in a different order, so returning the first match made one a
+        // noun and the other a na-adj and they never reached the gloss check.
+        expect(coarsePosSet(['n', 'adj-no', 'adv'])).toEqual(S('noun', 'adv'));
+        expect(coarsePosSet(['adj-no', 'adj-na', 'n'])).toEqual(S('na-adj', 'noun'));
+        expect(sharesPos(coarsePosSet(['n', 'adj-no', 'adv']), coarsePosSet(['adj-no', 'adj-na', 'n']))).toBe(true);
+    });
+
+    it('is empty for classes not drilled as production (particles, interjections)', () => {
+        expect(coarsePosSet(['int']).size).toBe(0);
+        expect(coarsePosSet(['prt']).size).toBe(0);
+        expect(coarsePosSet([]).size).toBe(0);
+    });
+
+    it('sharesPos needs an actual intersection', () => {
+        expect(sharesPos(S('noun'), S('verb'))).toBe(false);
+        expect(sharesPos(S(), S('noun'))).toBe(false);
     });
 });
 
@@ -65,5 +78,32 @@ describe('glossOverlap (>=2 shared senses AND >=34% of the smaller set)', () => 
 
     it('rejects disjoint sense sets', () => {
         expect(glossOverlap(new Set(['always', 'constantly']), new Set(['certainly', 'surely']))).toBe(false);
+    });
+});
+
+describe('senseCovered (a whole sense expressible by the other word)', () => {
+    // The real shape: 一番 has six senses and 18 glosses, one of which is
+    // exactly {best, most}; 最高 carries both across its own two senses. The
+    // flattened ratio scores 2/min(18,8) = 0.25 and rejects them.
+    const ichiban = [S('number one', 'first', 'first place'), S('best', 'most'), S('game', 'round', 'bout')];
+    const saikou = S('best', 'supreme', 'wonderful', 'finest', 'highest', 'maximum', 'most', 'uppermost');
+
+    it('catches a sense wholly contained in the other word', () => {
+        expect(senseCovered(ichiban, saikou)).toBe(true);
+        expect(glossOverlap(new Set(ichiban.flatMap(s => [...s])), saikou)).toBe(false); // what it rescues
+    });
+
+    it('needs the WHOLE sense, not most of it', () => {
+        expect(senseCovered([S('best', 'cheapest')], saikou)).toBe(false);
+    });
+
+    it('ignores single-gloss senses, which match by coincidence', () => {
+        expect(senseCovered([S('best')], saikou)).toBe(false);
+    });
+
+    it('refuses a covering word polysemous enough to cover anything', () => {
+        // 取る carries 54 glosses and would otherwise absorb most of the verb index.
+        const huge = new Set(Array.from({ length: 20 }, (_, i) => `g${i}`).concat(['best', 'most']));
+        expect(senseCovered(ichiban, huge)).toBe(false);
     });
 });
