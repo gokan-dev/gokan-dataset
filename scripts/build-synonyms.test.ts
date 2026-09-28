@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { coarsePosSet, sharesPos, normalizeGloss, sharedGlosses, glossOverlap, senseCovered } from './build-synonyms';
+import { coarsePosSet, sharesPos, normalizeGloss, sharedGlosses, glossOverlap, senseCovered, kanjiStem, isTransitivityPair } from './build-synonyms';
 
 const S = (...xs: string[]) => new Set(xs);
 
@@ -56,7 +56,7 @@ describe('sharedGlosses', () => {
     });
 });
 
-describe('glossOverlap (shared-count-tiered: 2+ shared at >=30%, single at >=50%)', () => {
+describe('glossOverlap (flat floor: >=1 shared sense at >=30% of the smaller set)', () => {
     it('clusters near-synonyms that share two or more senses', () => {
         // 思う vs 考える shape: heavy overlap.
         expect(glossOverlap(new Set(['think', 'consider', 'believe', 'reckon']), new Set(['think', 'consider']))).toBe(true);
@@ -64,42 +64,90 @@ describe('glossOverlap (shared-count-tiered: 2+ shared at >=30%, single at >=50%
         expect(glossOverlap(new Set(['state', 'condition', 'situation', 'circumstances']), new Set(['situation', 'circumstances', 'conditions']))).toBe(true);
     });
 
-    it('clusters a 2-shared pair at the low multi floor (縛る/締める: tie+fasten, 2/6 = 0.33)', () => {
-        // The motivating case. Both are transitive "to tie/fasten" verbs; they
-        // share exactly {tie, fasten}, which is 2/6 of the smaller word - below the
-        // old flat 0.34 floor, above the 0.30 multi-share floor.
+    it('clusters a 2-shared pair at the floor (縛る/締める: tie+fasten, 2/6 = 0.33)', () => {
         expect(glossOverlap(
             new Set(['tie', 'bind', 'fasten', 'restrict', 'tie down', 'fetter']),
             new Set(['tie', 'fasten', 'tighten', 'wear', 'put on', 'total', 'sum']),
         )).toBe(true);
     });
 
-    it('rejects a lone shared token at the SAME 0.33 fraction - the shared COUNT is the difference', () => {
-        // 1 shared of 3 = 0.33, identical ratio to 縛る/締める above, but a single
-        // shared English gloss ("leave" the verb vs "leave" = permission) is a
-        // homograph, so the stricter single-share floor (0.50) rejects it.
-        expect(glossOverlap(
-            new Set(['leave', 'depart', 'go out', 'exit', 'quit', 'resign']),
-            new Set(['leave', 'permission', 'allowance']),
-        )).toBe(false);
-    });
-
-    it('clusters a single shared sense only when it is a large fraction (>=50%)', () => {
-        // 強い/丈夫 reading-quiz shape: 1 shared of 2 = 0.5.
+    it('clusters a single shared sense at the floor - English homographs are accepted by design', () => {
+        // 作文/作曲 share only "composition" (essay vs music), 1/3 = 0.33 >= 0.30.
+        // The product decision is to accept a gloss-matching answer rather than mark
+        // it wrong, even when the shared gloss is an English coincidence.
+        expect(glossOverlap(new Set(['writing', 'composition', 'composing']), new Set(['setting', 'composition', 'writing music']))).toBe(true);
+        // 強い/丈夫 reading shape: 1 of 2 = 0.5. 必ず/常に: "always", 1 of 2 = 0.5.
         expect(glossOverlap(new Set(['strong', 'potent']), new Set(['healthy', 'robust', 'strong', 'solid', 'durable']))).toBe(true);
-        // 必ず/常に share just "always", 1 of 2 = 0.5 - previously needed a hand-added entry.
         expect(glossOverlap(new Set(['certainly', 'surely', 'always']), new Set(['always', 'constantly']))).toBe(true);
     });
 
-    it('rejects two big words that share only two of many senses (ratio floor)', () => {
+    it('still rejects a shared sense below the floor (1 of 4 = 0.25 < 0.30)', () => {
+        expect(glossOverlap(new Set(['a', 'b', 'c', 'd']), new Set(['a', 'x', 'y', 'z', 'w']))).toBe(false);
+    });
+
+    it('rejects two big words that share only two of many senses (2/8 = 0.25 < 0.30)', () => {
         const a = new Set(['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']);
         const b = new Set(['a', 'b', 'x', 'y', 'z', 'w', 'v', 'u']);
         expect(sharedGlosses(a, b)).toBe(2);
-        expect(glossOverlap(a, b)).toBe(false); // 2 / 8 = 0.25 < 0.34
+        expect(glossOverlap(a, b)).toBe(false);
     });
 
     it('rejects disjoint sense sets', () => {
         expect(glossOverlap(new Set(['always', 'constantly']), new Set(['certainly', 'surely']))).toBe(false);
+    });
+});
+
+describe('kanjiStem', () => {
+    it('takes the leading run of kanji, stopping at okurigana', () => {
+        expect(kanjiStem('並ぶ')).toBe('並');
+        expect(kanjiStem('並べる')).toBe('並');
+        expect(kanjiStem('見つかる')).toBe('見');
+        expect(kanjiStem('取り引き')).toBe('取');
+        expect(kanjiStem('大丈夫')).toBe('大丈夫');
+    });
+
+    it('is empty for a kana-only or empty form', () => {
+        expect(kanjiStem('かばん')).toBe('');
+        expect(kanjiStem('')).toBe('');
+    });
+});
+
+describe('isTransitivityPair', () => {
+    const word = (o: { stem?: string; vi?: boolean; vt?: boolean; glosses?: string[] }) => ({
+        id: 'x', pos: S(), senses: [] as Set<string>[],
+        stem: o.stem ?? '', vi: o.vi ?? false, vt: o.vt ?? false,
+        glosses: S(...(o.glosses ?? [])),
+    });
+
+    it('pairs 並ぶ (vi) with 並べる (vt): same stem, opposite transitivity, shared gloss', () => {
+        const nabu = word({ stem: '並', vi: true, glosses: ['line up', 'stand in a line'] });
+        const naberu = word({ stem: '並', vt: true, glosses: ['line up', 'arrange in a line'] });
+        expect(isTransitivityPair(nabu, naberu)).toBe(true);
+        expect(isTransitivityPair(naberu, nabu)).toBe(true);
+    });
+
+    it('does not pair two words of the SAME transitivity', () => {
+        const a = word({ stem: '見', vt: true, glosses: ['see'] });
+        const b = word({ stem: '見', vt: true, glosses: ['see', 'show'] });
+        expect(isTransitivityPair(a, b)).toBe(false);
+    });
+
+    it('does not pair a different kanji stem', () => {
+        const a = word({ stem: '並', vi: true, glosses: ['line up'] });
+        const b = word({ stem: '揃', vt: true, glosses: ['line up'] });
+        expect(isTransitivityPair(a, b)).toBe(false);
+    });
+
+    it('needs at least one shared gloss (見る/見つかる: same stem, opposite transitivity, no overlap)', () => {
+        const miru = word({ stem: '見', vt: true, glosses: ['see', 'look at'] });
+        const mitsukaru = word({ stem: '見', vi: true, glosses: ['be found', 'be discovered'] });
+        expect(isTransitivityPair(miru, mitsukaru)).toBe(false);
+    });
+
+    it('does not pair kana-only words (empty stem)', () => {
+        const a = word({ stem: '', vi: true, glosses: ['line up'] });
+        const b = word({ stem: '', vt: true, glosses: ['line up'] });
+        expect(isTransitivityPair(a, b)).toBe(false);
     });
 });
 

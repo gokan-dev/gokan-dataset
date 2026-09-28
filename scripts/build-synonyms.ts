@@ -2,72 +2,72 @@ import fs from 'fs';
 import path from 'path';
 
 /**
- * Builds compiled/index/synonyms.json for the production quiz's synonym-aware
- * grading (gokan-srs#71 Part B): `vocabId -> [{ id, relation }]`, symmetric,
+ * Attaches each vocab's near-synonym list to its own compiled vocab file
+ * (`compiled/vocab/{id}.json` gains a `synonyms: [{ id, relation }]` field) for the
+ * production quiz's synonym-aware grading (gokan-srs#71 Part B). Symmetric,
  * relation ∈ { 'interchangeable', 'confusable' }.
  *
- * MEMBERSHIP is auto-derived and deliberately LENIENT: two reasonably common
- * words cluster, REGARDLESS of part of speech, when either
- *   - their gloss sets look alike overall (`glossOverlap`), gated by a floor that
- *     depends on the shared COUNT: >=2 shared senses cluster at a low fraction of
- *     the smaller word (MULTI_SHARE_RATIO), a single shared sense needs a large
- *     fraction (SINGLE_SHARE_RATIO). The split is what lets 縛る/締める (share
- *     tie+fasten, 2/6 = 0.33) pair while a lone-shared English homograph at the
- *     same 0.33 does not, or
- *   - one of them has a whole SENSE the other expresses entirely
- *     (`senseCovered`), which is what a flattened ratio dilutes away on a
- *     polysemous word: 一番 carries 18 glosses across 6 senses, so the 2 it
- *     shares with 最高 score 0.25 even though one entire sense is "best, most".
- * Leniency is the point: a learner who types 強い (i-adj) for 丈夫 (na-adj) in
- * "This string is strong", or 締める for 縛る in "don't be bound by pride", is
- * giving a genuine answer the gloss cue cannot exclude, and being marked flat wrong
- * for it is the frustration this exists to remove. Two earlier guards were dropped
- * for being too strict: requiring a SHARED major POS (blocked 強い/丈夫, which share
- * four full glosses but are i-adj vs na-adj) and requiring >=2 shared glosses. The
- * shared-count-tiered ratio floors are now the precision knobs on the overlap path;
- * `senseCovered` keeps its own >=2-gloss-sense floor so single coincidental senses
- * still do not fire it. This is meant to scale without hand-listing members; the
- * override file below is for the residue.
+ * DELIVERY is per-vocab, NOT a monolithic index. An earlier version wrote one
+ * compiled/index/synonyms.json the app loaded whole; at full vocab coverage with
+ * the lenient rules below that file is ~11MB, several times the largest other index
+ * (frequency.json ~3.2MB) and too heavy to hold in browser memory. The app already
+ * fetches the target's own vocab file to render a production card, so embedding the
+ * list there is lazy and free - no extra request, no big load. Candidates are still
+ * resolved by their own `loadVocab`, exactly as before.
+ *
+ * COVERAGE is the full vocab set (not just the top-N by frequency). Learners are
+ * drilled well past the old 8k cutoff - 作文/作曲 sit near rank 14k - and a word
+ * outside the pool got no synonym support at all. Per-vocab delivery makes full
+ * coverage affordable (each file grows by its own handful of entries).
+ *
+ * MEMBERSHIP is auto-derived and deliberately LENIENT, REGARDLESS of part of
+ * speech. Two words cluster when ANY of:
+ *   - their gloss sets overlap (`glossOverlap`): >= 1 shared normalized sense that
+ *     is at least OVERLAP_RATIO of the smaller word's set. This is deliberately low
+ *     enough to accept single-shared English homographs (作文 "essay" / 作曲 "music"
+ *     share only "composition", 1/3 = 0.33) - a decision to prefer accepting a
+ *     defensible answer over marking it wrong, even when the shared gloss is an
+ *     English coincidence (see the tier note), or
+ *   - one has a whole SENSE the other expresses entirely (`senseCovered`), which a
+ *     flattened ratio dilutes away on a polysemous word: 一番 has 18 glosses across
+ *     6 senses, so the 2 it shares with 最高 score 0.25 even though one whole sense
+ *     is "best, most", or
+ *   - they are a TRANSITIVITY PAIR (`isTransitivityPair`): same leading-kanji stem,
+ *     opposite transitivity (one vi, one vt), and >= 1 shared gloss. This catches
+ *     自他 pairs like 並ぶ/並べる that share only "line up" (ratio 0.2, below the
+ *     overlap floor) but are the same verb in different transitivity.
+ * Leniency is the point: a learner who types 強い for 丈夫, 締める for 縛る, 並べる for
+ * 並ぶ, or 作曲 for 作文 is giving an answer the gloss cue cannot exclude, and being
+ * marked flat wrong is the frustration this removes. Two earlier guards were dropped
+ * for being too strict: a required SHARED major POS (blocked 強い/丈夫) and a
+ * >=2-shared-gloss floor. `sharesPos` is kept exported so the POS check is a
+ * one-line re-tighten; raising OVERLAP_RATIO is the other precision knob.
  *
  * TIER is where curation happens. An auto-derived pair defaults to
- * `interchangeable` (graded `minor_error` by the app: real-but-reduced credit,
- * and moves on) rather than the old `confusable` (no credit, re-ask) - being
- * lenient means accepting a defensible near-synonym, not re-asking until the exact
- * word is produced. The hand-authored data/raw/vocab/synonyms.json then DEMOTES
- * genuinely non-interchangeable pairs to `confusable`, EXCLUDES false-positive
- * auto-clusters, and ADDS pairs that do not gloss-overlap but are still confused
- * (the file is the escape hatch for both directions). Policy: start lenient,
- * tighten the ratio (or re-introduce the POS check via `sharesPos`, still exported
- * for exactly this) once false positives are worth cutting.
+ * `interchangeable` (graded `minor_error` by the app: real-but-reduced credit, and
+ * moves on) rather than the old `confusable` (no credit, re-ask). The hand-authored
+ * data/raw/vocab/synonyms.json then DEMOTES genuinely non-interchangeable pairs to
+ * `confusable`, EXCLUDES false positives, and ADDS pairs that do not gloss-overlap
+ * (the escape hatch for both directions). Policy: start lenient, tighten later.
  *
- * Inert wherever absent: a word in no cluster gets no entry and grades exactly
- * as it does today.
+ * Inert wherever absent: a word in no cluster gets no `synonyms` field and grades
+ * exactly as it does today.
  *
- * Run: `bun run build:synonyms` (after build:data). Pure helpers are exported
- * for scripts/build-synonyms.test.ts.
+ * Run: `bun run build:synonyms` (after build:data - it reads the compiled vocab
+ * files and writes them back). Pure helpers are exported for the test file.
  */
 
 const VOCAB_DIR = './compiled/vocab';
 const FREQUENCY_PATH = './compiled/index/frequency.json';
 const OVERRIDES_PATH = './data/raw/vocab/synonyms.json';
-const OUTPUT_PATH = './compiled/index/synonyms.json';
 
-/** Only the most common words are drilled in production, and bounding the pool
- *  keeps the O(n) gloss-bucketing cheap and the index relevant. */
-const FREQUENCY_LIMIT = 8000;
-/** The overlap floors, split by shared-count (see `glossOverlap`). The ratio
- *  alone cannot separate a real 2-shared pair from a 1-shared homograph when they
- *  land at the same fraction: 縛る/締める share {tie, fasten} = 2/6 = 0.33, and a
- *  "leave" verb sharing only "leave" with a "leave = permission" noun is 1/3 =
- *  0.33 too. The distinguishing signal is the shared COUNT, so the floors differ:
- *  two or more shared senses is a strong signal and clusters at a low fraction;
- *  a single shared sense is weak (English-gloss homographs) and must be a large
- *  fraction of the smaller word. Raise either to tighten once false positives are
- *  worth cutting. */
-const MULTI_SHARE_RATIO = 0.30;   // >= 2 shared senses
-const SINGLE_SHARE_RATIO = 0.50;  // exactly 1 shared sense
-/** Minimum shared glosses outright - 1, so a single strong-fraction sense (必ず/常に
- *  share just "always", 1/2 = 0.5) can still cluster via the single-share floor. */
+/** The overlap floor (see `glossOverlap`): a shared normalized sense counts when
+ *  the shared set is at least this fraction of the SMALLER word's set. Low enough
+ *  to accept single-shared English homographs (作文/作曲 = 1/3) by design - the
+ *  product decision is to over-accept rather than mark a gloss-matching answer
+ *  wrong. Raise this to tighten once false positives are worth cutting. */
+const OVERLAP_RATIO = 0.30;
+/** Minimum shared glosses outright. */
 const MIN_SHARED = 1;
 /** `senseCovered`'s own floor, kept at 2 and deliberately NOT tied to MIN_SHARED:
  *  a single-gloss sense wholly "covered" by another word is almost always a
@@ -126,15 +126,15 @@ export function sharedGlosses(a: Set<string>, b: Set<string>): number {
     return n;
 }
 
-/** Do two words cluster on gloss overlap? POS-agnostic (see the file header). The
- *  floor depends on the shared COUNT: >=2 shared senses cluster at MULTI_SHARE_RATIO,
- *  exactly 1 at the stricter SINGLE_SHARE_RATIO (a lone shared English gloss is
- *  often a homograph, so it must be a large fraction of the smaller word). */
+/** Do two words cluster on gloss overlap? POS-agnostic (see the file header): at
+ *  least MIN_SHARED shared normalized senses, forming at least OVERLAP_RATIO of the
+ *  smaller word's set. The floor is low enough to accept single-shared English
+ *  homographs (作文/作曲 = 1/3) by design; `isTransitivityPair` and `senseCovered`
+ *  add the pairs this bag-ratio still misses. */
 export function glossOverlap(a: Set<string>, b: Set<string>): boolean {
     const shared = sharedGlosses(a, b);
     if (shared < MIN_SHARED) return false;
-    const ratio = shared / Math.min(a.size, b.size);
-    return shared >= 2 ? ratio >= MULTI_SHARE_RATIO : ratio >= SINGLE_SHARE_RATIO;
+    return shared / Math.min(a.size, b.size) >= OVERLAP_RATIO;
 }
 
 /** A word this polysemous covers small senses by accident, so it is not allowed
@@ -166,11 +166,37 @@ export function senseCovered(senses: Set<string>[], otherGlosses: Set<string>): 
     );
 }
 
+/** Leading run of CJK-ideograph characters of a written form - the shared stem of
+ *  a transitivity pair (並ぶ/並べる both "並"). Empty for a kana-only word. */
+export function kanjiStem(writtenForm: string): string {
+    const m = (writtenForm ?? '').match(/^[一-龯㐀-䶿々]+/);
+    return m ? m[0] : '';
+}
+
+/**
+ * Are `a` and `b` a transitivity pair (自他動詞)? Same leading-kanji stem, opposite
+ * transitivity (one intransitive, one transitive), and at least one shared gloss.
+ *
+ * 並ぶ (vi, "line up") and 並べる (vt, "line up / arrange") share only "line up"
+ * (1/5 = 0.2, under the overlap floor), but they are the same verb in different
+ * transitivity - the exact near-miss a learner makes. The stem + opposite-vi/vt
+ * combination is specific enough that the >=1 shared gloss stays honest (見る/見つかる
+ * share the 見 stem and opposite transitivity but no gloss, so they do not pair). */
+export function isTransitivityPair(a: Word, b: Word): boolean {
+    if (!a.stem || a.stem !== b.stem) return false;
+    const opposite = (a.vi && b.vt) || (a.vt && b.vi);
+    if (!opposite) return false;
+    return sharedGlosses(a.glosses, b.glosses) >= 1;
+}
+
 interface Word {
     id: string;
     pos: Set<string>;       // every coarse class the word carries
     glosses: Set<string>;   // normalized, flattened across senses
     senses: Set<string>[];  // normalized, kept per sense for senseCovered
+    stem: string;           // leading-kanji run of the primary written form
+    vi: boolean;            // carries an intransitive-verb sense
+    vt: boolean;            // carries a transitive-verb sense
 }
 
 interface RawOverrides {
@@ -190,9 +216,11 @@ async function main() {
     }
 
     const frequency: { id: string }[] = JSON.parse(fs.readFileSync(FREQUENCY_PATH, 'utf-8'));
-    const ids = frequency.slice(0, FREQUENCY_LIMIT).map(e => e.id);
+    // Full coverage - learners are drilled well past any top-N cutoff, and per-vocab
+    // delivery (below) makes covering everything affordable.
+    const ids = frequency.map(e => e.id);
 
-    // Load the common words, keeping only those with a major POS and glosses.
+    // Load every word with a major POS and glosses.
     const words: Word[] = [];
     for (const id of ids) {
         const p = path.join(VOCAB_DIR, `${id}.json`);
@@ -206,7 +234,12 @@ async function main() {
             .filter((s: Set<string>) => s.size > 0);
         if (senses.length === 0) continue;
         const glosses = new Set<string>(senses.flatMap(s => [...s]));
-        words.push({ id, pos, glosses, senses });
+        words.push({
+            id, pos, glosses, senses,
+            stem: kanjiStem(v.writtenForm?.kanji ?? ''),
+            vi: posCodes.includes('vi'),
+            vt: posCodes.includes('vt'),
+        });
     }
 
     // Bucket by (pos, normalized gloss) so only words that share at least one
@@ -238,14 +271,14 @@ async function main() {
                 // is intentionally disabled for leniency - clustering is cross-POS
                 // now, so 強い (i-adj) and 丈夫 (na-adj) can pair. sharesPos/pos are
                 // kept for the one-line re-tighten (see the file header).
-                // Two ways in. The flattened ratio catches words whose gloss sets
-                // look alike overall; sense coverage catches a polysemous word
-                // one of whose senses the other word expresses entirely, which
-                // the ratio dilutes away (一番 / 最高).
+                // Three ways in (see the file header): the flattened ratio for
+                // words whose gloss sets look alike, sense coverage for a
+                // polysemous word one of whose senses the other expresses (一番/
+                // 最高), and transitivity pairs the ratio misses (並ぶ/並べる).
                 const overlaps = glossOverlap(a.glosses, b.glosses);
                 const covered = sharedGlosses(a.glosses, b.glosses) >= MIN_SHARED
                     && (senseCovered(a.senses, b.glosses) || senseCovered(b.senses, a.glosses));
-                if (overlaps || covered) {
+                if (overlaps || covered || isTransitivityPair(a, b)) {
                     relations.set(key, 'interchangeable'); // lenient default; hand-demote to confusable / exclude
                     autoPairs++;
                 }
@@ -272,27 +305,46 @@ async function main() {
         }
     }
 
-    // Emit the symmetric adjacency index.
-    const index: Record<string, { id: string; relation: SynonymRelation }[]> = {};
+    // Build the symmetric adjacency, then embed each word's list into its OWN
+    // compiled vocab file (per-vocab delivery - see the file header) rather than one
+    // big index.
+    const index = new Map<string, { id: string; relation: SynonymRelation }[]>();
     const add = (from: string, to: string, relation: SynonymRelation) => {
-        (index[from] ??= []).push({ id: to, relation });
+        const list = index.get(from) ?? [];
+        list.push({ id: to, relation });
+        index.set(from, list);
     };
     for (const [key, relation] of relations) {
         const [a, b] = key.split(' ');
         add(a, b, relation);
         add(b, a, relation);
     }
-    for (const list of Object.values(index)) list.sort((x, y) => x.id.localeCompare(y.id));
+    for (const list of index.values()) list.sort((x, y) => x.id.localeCompare(y.id));
 
-    fs.writeFileSync(OUTPUT_PATH, JSON.stringify(index));
+    // Write each SCANNED word's file back with its `synonyms` field set (or cleared),
+    // skipping files whose stored value already matches so an unchanged rebuild
+    // touches nothing on disk (and git sees no diff).
+    let written = 0;
+    for (const w of words) {
+        const p = path.join(VOCAB_DIR, `${w.id}.json`);
+        const v = JSON.parse(fs.readFileSync(p, 'utf-8'));
+        const syn = index.get(w.id);
+        const current = JSON.stringify(v.synonyms ?? null);
+        const next = JSON.stringify(syn ?? null);
+        if (current === next) continue;
+        if (syn) v.synonyms = syn; else delete v.synonyms;
+        fs.writeFileSync(p, JSON.stringify(v));
+        written++;
+    }
 
     const total = relations.size;
     const inter = [...relations.values()].filter(r => r === 'interchangeable').length;
-    console.log(`✅ Synonym index written to ${OUTPUT_PATH}`);
-    console.log(`   - Words scanned: ${words.length} (top ${FREQUENCY_LIMIT} by frequency)`);
+    console.log(`✅ Synonyms embedded into compiled vocab files`);
+    console.log(`   - Words scanned: ${words.length} (full vocab coverage)`);
     console.log(`   - Pairs: ${total} (${inter} interchangeable, ${total - inter} confusable)`);
     console.log(`   - Auto ${autoPairs}, then hand: +${handAdded} added, ${promoted} promoted, ${excluded} excluded`);
-    console.log(`   - Words with at least one synonym: ${Object.keys(index).length}`);
+    console.log(`   - Words with at least one synonym: ${index.size}`);
+    console.log(`   - Vocab files rewritten: ${written}`);
 }
 
 if (import.meta.main) {
