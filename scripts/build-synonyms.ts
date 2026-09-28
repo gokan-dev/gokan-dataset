@@ -6,24 +6,34 @@ import path from 'path';
  * grading (gokan-srs#71 Part B): `vocabId -> [{ id, relation }]`, symmetric,
  * relation ∈ { 'interchangeable', 'confusable' }.
  *
- * MEMBERSHIP is auto-derived: two reasonably common words cluster when they
- * share a major part of speech (any of them, see `coarsePosSet`) and then either
- *   - their gloss sets look alike overall (`glossOverlap`), or
+ * MEMBERSHIP is auto-derived and deliberately LENIENT: two reasonably common
+ * words cluster, REGARDLESS of part of speech, when either
+ *   - their gloss sets look alike overall (`glossOverlap`: share >=1 sense that
+ *     is a meaningful fraction of the smaller word's set), or
  *   - one of them has a whole SENSE the other expresses entirely
  *     (`senseCovered`), which is what a flattened ratio dilutes away on a
  *     polysemous word: 一番 carries 18 glosses across 6 senses, so the 2 it
  *     shares with 最高 score 0.25 even though one entire sense is "best, most".
- * Both paths require MIN_SHARED glosses in common, so neither fires on a single
- * coincidental sense. This is meant to scale without hand-listing members; the
- * override file below is for the residue, not the rule.
+ * Leniency is the point: a learner who types 強い (i-adj) for 丈夫 (na-adj) in
+ * "This string is strong" is giving a genuine answer the gloss cue cannot exclude,
+ * and being marked flat wrong for it is the frustration this exists to remove.
+ * Two earlier guards were dropped for being too strict: requiring a SHARED major
+ * POS (blocked 強い/丈夫, which share four full glosses but are i-adj vs na-adj)
+ * and requiring >=2 shared glosses. `MIN_OVERLAP_RATIO` is now the one remaining
+ * precision knob on the overlap path; `senseCovered` keeps its own >=2-gloss-sense
+ * floor so single coincidental senses still do not fire it. This is meant to scale
+ * without hand-listing members; the override file below is for the residue.
  *
- * TIER is where curation happens. An auto-derived pair defaults to the SAFE
- * tier, `confusable` (no credit, no penalty, re-ask) - so shipping this never
- * hands out strength for a distinction the learner has not shown. The
- * hand-authored data/raw/vocab/synonyms.json then PROMOTES genuinely
- * interchangeable pairs, EXCLUDES false-positive auto-clusters, and ADDS pairs
- * that do not gloss-overlap but are still confused (the file is the escape hatch
- * for both directions).
+ * TIER is where curation happens. An auto-derived pair defaults to
+ * `interchangeable` (graded `minor_error` by the app: real-but-reduced credit,
+ * and moves on) rather than the old `confusable` (no credit, re-ask) - being
+ * lenient means accepting a defensible near-synonym, not re-asking until the exact
+ * word is produced. The hand-authored data/raw/vocab/synonyms.json then DEMOTES
+ * genuinely non-interchangeable pairs to `confusable`, EXCLUDES false-positive
+ * auto-clusters, and ADDS pairs that do not gloss-overlap but are still confused
+ * (the file is the escape hatch for both directions). Policy: start lenient,
+ * tighten the ratio (or re-introduce the POS check via `sharesPos`, still exported
+ * for exactly this) once false positives are worth cutting.
  *
  * Inert wherever absent: a word in no cluster gets no entry and grades exactly
  * as it does today.
@@ -40,15 +50,22 @@ const OUTPUT_PATH = './compiled/index/synonyms.json';
 /** Only the most common words are drilled in production, and bounding the pool
  *  keeps the O(n) gloss-bucketing cheap and the index relevant. */
 const FREQUENCY_LIMIT = 8000;
-/** A shared sense counts only if it is at least this fraction of the smaller
- *  word's sense set - one shared "to do" among twenty glosses is not synonymy. */
+/** The one remaining precision knob on the overlap path (POS-match and the
+ *  >=2-shared requirement were removed for leniency - see the file header). A
+ *  shared sense counts only if the shared set is at least this fraction of the
+ *  SMALLER word's set, so one shared "to do" among twenty glosses is still not
+ *  synonymy. Raise this to tighten once false positives are worth cutting. */
 const MIN_OVERLAP_RATIO = 0.34;
-/** ...and there must be at least this many shared senses outright. Two is the
- *  precision knob: one shared common sense ("to leave", "always") clusters a
- *  big-gloss verb with dozens of unrelated small words, so the auto pass demands
- *  two. Weak-but-real pairs that share only one sense (必ず/常に share just
- *  "always") are hand-added in data/raw/vocab/synonyms.json instead. */
-const MIN_SHARED = 2;
+/** Minimum shared glosses outright. Lowered from 2 to 1 so weak-but-real pairs
+ *  that share a single sense (必ず/常に share just "always") cluster automatically
+ *  instead of needing a hand-added entry; the ratio floor above is what now keeps
+ *  a lone shared common token from clustering a big-gloss word with everything. */
+const MIN_SHARED = 1;
+/** `senseCovered`'s own floor, kept at 2 and deliberately NOT tied to MIN_SHARED:
+ *  a single-gloss sense wholly "covered" by another word is almost always a
+ *  coincidence (best, most, ...), so the sense-coverage path still demands a
+ *  >=2-gloss sense even though the overlap path now accepts a single shared gloss. */
+const MIN_COVERED_SENSE = 2;
 
 export type SynonymRelation = 'interchangeable' | 'confusable';
 
@@ -101,7 +118,8 @@ export function sharedGlosses(a: Set<string>, b: Set<string>): number {
     return n;
 }
 
-/** Do two words cluster on gloss overlap? Same-POS is checked by the caller. */
+/** Do two words cluster on gloss overlap? POS-agnostic now (see the file header):
+ *  the only bar is >=MIN_SHARED shared senses meeting the MIN_OVERLAP_RATIO floor. */
 export function glossOverlap(a: Set<string>, b: Set<string>): boolean {
     const shared = sharedGlosses(a, b);
     if (shared < MIN_SHARED) return false;
@@ -127,13 +145,13 @@ const MAX_COVERING_GLOSSES = 12;
  * Deliberately asymmetric. The covered side may be as polysemous as it likes
  * (that is the case this exists for), while the covering side must be focused,
  * or a 54-gloss verb covers every two-word sense in the index by chance.
- * Callers pair this with a >= MIN_SHARED overall-overlap check, so one
- * coincidental sense is never enough on its own.
+ * The covered sense must be >= MIN_COVERED_SENSE glosses (its own floor, not the
+ * relaxed MIN_SHARED), so a single-gloss sense matching by coincidence never fires.
  */
 export function senseCovered(senses: Set<string>[], otherGlosses: Set<string>): boolean {
     if (otherGlosses.size > MAX_COVERING_GLOSSES) return false;
     return senses.some(sense =>
-        sense.size >= MIN_SHARED && sharedGlosses(sense, otherGlosses) === sense.size
+        sense.size >= MIN_COVERED_SENSE && sharedGlosses(sense, otherGlosses) === sense.size
     );
 }
 
@@ -205,18 +223,19 @@ async function main() {
                 const key = pairKey(a.id, b.id);
                 if (seen.has(key)) continue;
                 seen.add(key);
-                if (!sharesPos(a.pos, b.pos)) continue;
+                // NOTE: the POS guard (`if (!sharesPos(a.pos, b.pos)) continue;`)
+                // is intentionally disabled for leniency - clustering is cross-POS
+                // now, so 強い (i-adj) and 丈夫 (na-adj) can pair. sharesPos/pos are
+                // kept for the one-line re-tighten (see the file header).
                 // Two ways in. The flattened ratio catches words whose gloss sets
                 // look alike overall; sense coverage catches a polysemous word
                 // one of whose senses the other word expresses entirely, which
-                // the ratio dilutes away (一番 / 最高). Both still require
-                // MIN_SHARED glosses in common, so neither fires on one
-                // coincidental sense.
+                // the ratio dilutes away (一番 / 最高).
                 const overlaps = glossOverlap(a.glosses, b.glosses);
                 const covered = sharedGlosses(a.glosses, b.glosses) >= MIN_SHARED
                     && (senseCovered(a.senses, b.glosses) || senseCovered(b.senses, a.glosses));
                 if (overlaps || covered) {
-                    relations.set(key, 'confusable'); // safe default; hand-promote to interchangeable
+                    relations.set(key, 'interchangeable'); // lenient default; hand-demote to confusable / exclude
                     autoPairs++;
                 }
             }

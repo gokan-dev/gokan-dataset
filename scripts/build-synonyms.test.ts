@@ -56,7 +56,7 @@ describe('sharedGlosses', () => {
     });
 });
 
-describe('glossOverlap (>=2 shared senses AND >=34% of the smaller set)', () => {
+describe('glossOverlap (>=1 shared sense AND >=34% of the smaller set)', () => {
     it('clusters near-synonyms that share two or more senses', () => {
         // 思う vs 考える shape: heavy overlap.
         expect(glossOverlap(new Set(['think', 'consider', 'believe', 'reckon']), new Set(['think', 'consider']))).toBe(true);
@@ -64,9 +64,18 @@ describe('glossOverlap (>=2 shared senses AND >=34% of the smaller set)', () => 
         expect(glossOverlap(new Set(['state', 'condition', 'situation', 'circumstances']), new Set(['situation', 'circumstances', 'conditions']))).toBe(true);
     });
 
-    it('rejects a single shared common sense (the noise case)', () => {
-        // A big-gloss verb sharing only "leave" with a small word must NOT cluster.
-        expect(glossOverlap(new Set(['leave', 'depart', 'go out', 'exit', 'quit', 'resign']), new Set(['leave', 'permission']))).toBe(false);
+    it('now clusters a single shared sense when it clears the ratio floor (the leniency)', () => {
+        // 強い/丈夫 shape: they share "strong"/"solid"/"durable"/"healthy" once POS
+        // is ignored - a genuine near-synonym the gloss cue cannot exclude.
+        expect(glossOverlap(new Set(['strong', 'potent']), new Set(['healthy', 'robust', 'strong', 'solid', 'durable']))).toBe(true);
+        // 必ず/常に share just "always" - previously needed a hand-added entry.
+        expect(glossOverlap(new Set(['certainly', 'surely', 'always']), new Set(['always', 'constantly']))).toBe(true);
+    });
+
+    it('still rejects a lone shared token that is a small fraction of the smaller set (ratio floor is the noise gate now)', () => {
+        // A word whose senses are {leave, permission, allowance} shares only "leave"
+        // with a big verb: 1 / 3 = 0.33 < 0.34, so it stays unclustered.
+        expect(glossOverlap(new Set(['leave', 'depart', 'go out', 'exit', 'quit', 'resign']), new Set(['leave', 'permission', 'allowance']))).toBe(false);
     });
 
     it('rejects two big words that share only two of many senses (ratio floor)', () => {
