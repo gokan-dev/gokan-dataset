@@ -281,13 +281,13 @@ Ordering events in time, and the とき clause.
 | --- | --- | --- | --- | --- |
 | `n5-073` | ～から、～ | N5 | causality (register) | Everyday spoken default for stating a reason; emphasizes the speaker's subjective reason. |
 | `n5-074` | ～からです | N5 | causality (register) | Polite (です) form of から, typically answering "why?" directly. |
-| `n5-088` | だから、～ <br>*(also ですから～)* | N5 | causality (register) | Blunt, conversational "so"; can sound abrupt or child-like if overused in formal contexts. |
+| `n5-088` | A。だから、～B。 <br>*(also ですから～)* | N5 | causality (register) | Blunt, conversational "so"; can sound abrupt or child-like if overused in formal contexts. |
 | `n3-072` | ～なぜなら | N3 | causality (register) | Formal written connective introducing an explanation ("the reason is..."); essays, articles, speeches. |
 | `n2-060` | ～ことから | N2 | causality (register) | Descriptive/explanatory - "based on the fact that...", common in written explanations rather than casual speech. |
 
 **Lessons unlocked here** (every point they compare is known by the end of this chapter):
 
-- **だから / なぜなら / ことから** (family `causality`, 2 cases): ～から、～ / ～からです / だから、～ / ～なぜなら / ～ことから
+- **だから / なぜなら / ことから** (family `causality`, 2 cases): ～から、～ / ～からです / A。だから、～B。 / ～なぜなら / ～ことから
 
 ### n5-c17 (N5) But: one meaning, many registers
 
