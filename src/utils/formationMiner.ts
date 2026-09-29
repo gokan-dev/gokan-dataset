@@ -92,6 +92,12 @@ export interface MiningRule {
     leading: SlotKind | null;
     /** Whether a clause must follow the last element in the same sentence. */
     trailing: boolean;
+    /**
+     * The slot before each element after the first (`interior[k]` precedes
+     * `elements[k + 1]`). Checked like a leading slot, so "Noun1 を Noun2 として"
+     * rejects 誘惑しようとして, where the word before として is the volitional う.
+     */
+    interior: SlotKind[];
 }
 
 const kataToHira = (s: string) => s.replace(/[ァ-ヶ]/g, c => String.fromCharCode(c.charCodeAt(0) - 0x60));
@@ -196,6 +202,19 @@ function trailingOk(tokens: MorphToken[], end: number, rule: MiningRule): boolea
 const MAX_INTERIOR_GAP = 10;
 
 /**
+ * The token that must fill an interior slot ending just before token `j`. A
+ * noun slot may be followed by case particles before the marker (ヨーロッパへも,
+ * 毛虫をも, 恐怖からにしろ): the noun is the word before them.
+ */
+function slotEnd(tokens: MorphToken[], cursor: number, j: number, kind: SlotKind): MorphToken {
+    let k = j - 1;
+    if (kind === 'noun') {
+        while (k > cursor && tokens[k].pos === '助詞' && tokens[k].posDetail1 === '格助詞') k--;
+    }
+    return tokens[k];
+}
+
+/**
  * Where a rule matched: the first element's start token, the end of the last,
  * whether the first was glued, and each element's own token span (the tokens
  * BETWEEN elements are slot content, not marker).
@@ -212,9 +231,13 @@ export interface MarkerLexicon {
     tags: Map<string, Set<string>>;
     /** each curated marker's token surfaces, in order */
     markers: string[][];
+    /** whether any curated marker is glued onto a longer token */
+    glued: boolean;
+    /** tags of the token right after each curated marker ('' at the end of a sentence) */
+    followers: Set<string>;
 }
 
-export const emptyMarkerLexicon = (): MarkerLexicon => ({ tags: new Map(), markers: [] });
+export const emptyMarkerLexicon = (): MarkerLexicon => ({ tags: new Map(), markers: [], glued: false, followers: new Set() });
 
 /**
  * The main part of speech, plus the sub-tag for particles only. A content
@@ -247,6 +270,28 @@ export function learnMarker(lexicon: MarkerLexicon, tokens: MorphToken[], match:
         lexicon.tags.get(key)!.add(tagOf(t));
     }
     lexicon.markers.push(marker.map(t => kataToHira(t.surface)));
+    if (match.glued) lexicon.glued = true;
+    lexicon.followers.add(followerTag(tokens, match));
+}
+
+const followerTag = (tokens: MorphToken[], match: RuleMatch) => (match.end < tokens.length ? tagOf(tokens[match.end]) : '');
+
+/**
+ * A word right after the marker that signals a different construction, when
+ * the curated examples never show it there:
+ * - the topic particle は after a marker ending in と: quotative とは
+ *   (病気であろうとは思いもしなかった), not the concessive と. Not も: とも is
+ *   itself concessive (粗末であろうとも);
+ * - a noun right after a marker ending in の: genitive (記録されているものの２倍),
+ *   which kuromoji can mis-tag as the concessive ものの.
+ */
+function riskyFollower(tokens: MorphToken[], match: RuleMatch): boolean {
+    if (match.end >= tokens.length) return false;
+    const last = kataToHira(tokens[match.end - 1].surface);
+    const next = tokens[match.end];
+    if (last.endsWith('と') && next.pos === '助詞' && next.posDetail1 === '係助詞' && next.surface === 'は') return true;
+    if (last.endsWith('の') && next.pos === '名詞') return true;
+    return false;
 }
 
 /**
@@ -257,7 +302,8 @@ export function learnMarker(lexicon: MarkerLexicon, tokens: MorphToken[], match:
  *   (率直なものの言い方 is な+もの+の, not the concessive ものの). The curated
  *   examples are not self-consistent (それとも is both one token and それ+と+も),
  *   so only a cut they never make counts;
- * - a match glued onto a verb (見かけ, 出かけ) unless curated examples glue it too.
+ * - a glued match (べから, 見かけ) unless curated examples glue it too;
+ * - a follower that signals another construction (see riskyFollower).
  * An empty lexicon (no curated example matched any variant) accepts everything.
  */
 export function fitsMarkerLexicon(lexicon: MarkerLexicon, tokens: MorphToken[], match: RuleMatch): boolean {
@@ -272,10 +318,10 @@ export function fitsMarkerLexicon(lexicon: MarkerLexicon, tokens: MorphToken[], 
         if (morpheme.length < 2 || !cutAcrossTokens(surfaces, morpheme)) continue;
         if (!lexicon.markers.some(m => cutAcrossTokens(m, morpheme))) return false;
     }
-    if (match.glued && tokens[match.start].pos === '動詞') {
-        const tags = lexicon.tags.get(kataToHira(tokens[match.start].surface));
-        if (!tags || !tags.has(tagOf(tokens[match.start]))) return false;
-    }
+    // Glued only if the curated examples glue it too: べから(ず) and 無から (which
+    // kuromoji mis-reads as one adjective) are not Verb + から.
+    if (match.glued && !lexicon.glued) return false;
+    if (riskyFollower(tokens, match) && !lexicon.followers.has(followerTag(tokens, match))) return false;
     return true;
 }
 
@@ -292,15 +338,18 @@ export function findMatch(tokens: MorphToken[], rule: MiningRule, accept?: (m: R
         let cursor = first.end;
         const spans: [number, number][] = [[start, first.end]];
         let ok = true;
-        for (const element of rule.elements.slice(1)) {
+        for (const [k, element] of rule.elements.slice(1).entries()) {
             // Groups are only ever split by a slot, so each later group needs
             // content between it and the previous one - or the slot is glued
-            // into the matched token itself (早かれ遅[かれ]).
+            // into the matched token itself (早かれ遅[かれ]). A slot that names a
+            // part of speech must end in one, exactly like a leading slot.
+            const kind = rule.interior[k] ?? 'any';
             let next: number | null = null;
             for (let j = cursor; j <= cursor + MAX_INTERIOR_GAP && j < tokens.length; j++) {
                 const m = matchElementAt(tokens, element, j);
                 if (!m) continue;
-                if (m.glued || tokens.slice(cursor, j).some(isContent)) { next = m.end; spans.push([j, m.end]); break; }
+                const filled = m.glued || (tokens.slice(cursor, j).some(isContent) && (kind === 'any' || fillsSlot(slotEnd(tokens, cursor, j, kind), kind)));
+                if (filled) { next = m.end; spans.push([j, m.end]); break; }
             }
             if (next === null) { ok = false; break; }
             cursor = next;
@@ -413,11 +462,13 @@ function slotKind(text: string): SlotKind {
  * alternative beside longer ones is dropped: な/である一方 must not become a
  * bare な, which would match every な-adjective in the corpus.
  */
-export function variantShape(variant: string): { groups: string[][]; leading: SlotKind | null; trailing: boolean } {
+export function variantShape(variant: string): { groups: string[][]; leading: SlotKind | null; trailing: boolean; interior: SlotKind[] } {
     const groups: string[][] = [];
     let base: string[] = [''];   // forms of the current group before its current piece
     let piece: string[] = [''];  // alternatives of the current piece (after the last "+")
     let leadingText = '';
+    let slotText = '';           // the slot since the last group closed
+    const interior: SlotKind[] = [];
     let trailing = false;
     const closePiece = () => {
         const alts = piece.some(a => a.length >= 2) ? piece.filter(a => a.length >= 2) : piece;
@@ -431,26 +482,31 @@ export function variantShape(variant: string): { groups: string[][]; leading: Sl
         base = [''];
     };
     for (const seg of markScaffold(variant).match(/([぀-ゟ゠-ヿ一-鿿]+)|([^぀-ゟ゠-ヿ一-鿿]+)/g) ?? []) {
-        if (JP_CLASS.test(seg[0])) { piece[piece.length - 1] += kataToHira(seg); trailing = false; continue; }
+        if (JP_CLASS.test(seg[0])) {
+            if (slotText) { interior.push(slotKind(slotText)); slotText = ''; }
+            piece[piece.length - 1] += kataToHira(seg);
+            trailing = false;
+            continue;
+        }
+        const isSlot = (s: string) => {
+            closeGroup();
+            if (groups.length === 0) leadingText += s;
+            else { trailing = true; slotText += s; }
+        };
         // "etc." / "e.g." are prose, not a slot.
         if (!/[a-z]/i.test(seg.replace(/\b(?:etc|e\.g|i\.e)\b\.?/gi, ''))) {
             // "～" is content between literals ("ば + ～のに"), exactly like a lettered slot.
-            if (/[～〜]/.test(seg)) {
-                closeGroup();
-                if (groups.length === 0) leadingText += seg;
-                else trailing = true;
-                continue;
-            }
+            if (/[～〜]/.test(seg)) { isSlot(seg); continue; }
             if (seg.includes('+')) closePiece();
             if (seg.includes('/') && piece[piece.length - 1]) piece.push('');
             continue;
         }
-        closeGroup();
-        if (groups.length === 0) leadingText += seg;
-        else trailing = true;
+        isSlot(seg);
     }
     closeGroup();
-    return { groups, leading: /[a-z～〜]/i.test(leadingText) ? slotKind(leadingText) : null, trailing };
+    // Keep one interior kind per group boundary even if an alternation emptied a group.
+    const aligned = groups.slice(1).map((_, k) => interior[k] ?? 'any');
+    return { groups, leading: /[a-z～〜]/i.test(leadingText) ? slotKind(leadingText) : null, trailing, interior: aligned };
 }
 
 /** Does this variant declare a て-form verb slot? (Verb-て form / Verb て-form / Verb-て形 / causative-て) */
@@ -471,17 +527,23 @@ const combinations = (groups: string[][]): string[][] =>
 function compileVariant(variant: string, trailingFromTitle: boolean): MiningRule[] {
     const shape = variantShape(variant);
     const needsTrailing = shape.trailing || trailingFromTitle;
+    // "Verb-volitional + うが" / "+ まいか": the literal already carries the
+    // volitional, so the slot before it is just the verb (言お|うが, 受け|まいか).
+    const beforeGroup = (kind: SlotKind | null, next: string) =>
+        kind === 'volitional' && /^(?:う|よう|まい)/.test(next) ? 'verb' : kind;
     return combinations(shape.groups).flatMap((groups): MiningRule[] => {
+        const leading = beforeGroup(shape.leading, groups[0] ?? '');
+        const interior = shape.interior.map((kind, k) => beforeGroup(kind, groups[k + 1]) as SlotKind);
         const tail = groups[groups.length - 1];
         // te-auxiliary: Verb-て + 非自立 aux. The morphology guard makes the aux
         // list safe to key off directly; the element encodes its own leading verb.
         if (tail && TE_AUX_BASE[tail]) {
-            return [{ elements: [{ kind: 'teAux', bases: [TE_AUX_BASE[tail]] }], anchor: tail, leading: null, trailing: needsTrailing }];
+            return [{ elements: [{ kind: 'teAux', bases: [TE_AUX_BASE[tail]] }], anchor: tail, leading: null, trailing: needsTrailing, interior: [] }];
         }
         // te-form + over-matching particle (てから/ては/ても): the particle must sit
         // immediately after て, so this is one contiguous 3-token element.
         if (tail && TE_PARTICLE_TAILS.has(tail) && hasTeForm(variant)) {
-            return [{ elements: [{ kind: 'teParticle', forms: [tail] }], anchor: tail, leading: null, trailing: needsTrailing }];
+            return [{ elements: [{ kind: 'teParticle', forms: [tail] }], anchor: tail, leading: null, trailing: needsTrailing, interior: [] }];
         }
         // literal fallback: every group, in order (1-char particles like を included,
         // as ordering constraints), anchored on the longest one.
@@ -490,8 +552,9 @@ function compileVariant(variant: string, trailingFromTitle: boolean): MiningRule
         return [{
             elements: groups.map(g => ({ kind: 'lit' as const, forms: [g] })),
             anchor: distinctive.slice().sort((a, b) => b.length - a.length)[0],
-            leading: shape.leading,
+            leading,
             trailing: needsTrailing,
+            interior,
         }];
     });
 }

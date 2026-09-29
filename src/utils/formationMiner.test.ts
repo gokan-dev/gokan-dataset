@@ -31,7 +31,7 @@ const EKIKARA = [T('駅', '名詞', '一般'), T('から', '助詞', '格助詞'
 
 /** A literal rule with no slot requirements, for tests of the literal engine alone. */
 const lit = (groups: string[], extra: Partial<MiningRule> = {}): MiningRule =>
-    ({ elements: groups.map(g => ({ kind: 'lit' as const, forms: [g] })), anchor: groups[0], leading: null, trailing: false, ...extra });
+    ({ elements: groups.map(g => ({ kind: 'lit' as const, forms: [g] })), anchor: groups[0], leading: null, trailing: false, interior: groups.slice(1).map(() => 'any' as const), ...extra });
 
 describe('toMorphToken', () => {
     it('adapts kuromoji ipadic fields', () => {
@@ -84,12 +84,12 @@ describe('matchRule: literal-contiguous engine', () => {
 
 describe('variantShape: slots are read from the raw formation text', () => {
     it('reads a verb slot, and a scaffolded adjective slot the old stripper erased', () => {
-        expect(variantShape('Verb-casual + から')).toEqual({ groups: [['から']], leading: 'verb', trailing: false });
-        expect(variantShape('い-Adjective + から')).toEqual({ groups: [['から']], leading: 'iAdjective', trailing: false });
-        expect(variantShape('な-Adjective + だから')).toEqual({ groups: [['だから']], leading: 'naAdjective', trailing: false });
+        expect(variantShape('Verb-casual + から')).toEqual({ groups: [['から']], leading: 'verb', trailing: false, interior: [] });
+        expect(variantShape('い-Adjective + から')).toEqual({ groups: [['から']], leading: 'iAdjective', trailing: false, interior: [] });
+        expect(variantShape('な-Adjective + だから')).toEqual({ groups: [['だから']], leading: 'naAdjective', trailing: false, interior: [] });
     });
     it('reads a content slot on both sides of a connective', () => {
-        expect(variantShape('Sentence A + しかし + Sentence B.')).toEqual({ groups: [['しかし']], leading: 'any', trailing: true });
+        expect(variantShape('Sentence A + しかし + Sentence B.')).toEqual({ groups: [['しかし']], leading: 'any', trailing: true, interior: [] });
     });
     it('keeps a 1-char particle as its own group when a slot separates it', () => {
         expect(variantShape('Noun1 + を + Noun2 + として').groups).toEqual([['を'], ['として']]);
@@ -246,6 +246,73 @@ describe('ば～のに: a conditional form label is a literal, ～ is a content 
     it('accepts すればよかったのに', () => {
         const toks = [T('すれ', '動詞', '自立', 'する', '仮定形'), T('ば', '助詞', '接続助詞'), T('よかっ', '形容詞', '自立', 'よい'), T('た', '助動詞', '*', 'た'), T('のに', '助詞', '終助詞')];
         expect(matchRule(toks, rule)).toBe(true);
+    });
+});
+
+describe('residuals: interior part of speech, glued markers, risky followers (real kuromoji tokens)', () => {
+    it('Noun1 を Noun2 として rejects 誘惑しようとして (the word before として is volitional う, not a noun)', () => {
+        const [rule] = compileFormation('Noun1 + を + Noun2 + として', 'Noun を Noun として');
+        expect(rule.interior).toEqual(['noun']);
+        const trying = [T('彼女', '名詞', '代名詞'), T('を', '助詞', '格助詞'), T('誘惑', '名詞', 'サ変接続'), T('しよ', '動詞', '自立', 'する'), T('う', '助動詞', '*', 'う'), T('として', '助詞', '格助詞'), COMMA];
+        expect(matchRule(trying, rule)).toBe(false);
+        const as = [T('彼', '名詞', '代名詞'), T('を', '助詞', '格助詞'), T('先生', '名詞', '一般'), T('として', '助詞', '格助詞'), T('尊敬', '名詞', 'サ変接続')];
+        expect(matchRule(as, rule)).toBe(true);
+    });
+
+    const [karaRule] = compileFormation('Verb-casual + から', '～から、～');
+    const karaLexicon = emptyMarkerLexicon();
+    const karaCurated = [T('試験', '名詞', 'サ変接続'), T('が', '助詞', '格助詞'), T('ある', '動詞', '自立', 'ある'), T('から', '助詞', '接続助詞'), COMMA, T('勉強', '名詞', 'サ変接続')];
+    learnMarker(karaLexicon, karaCurated, findMatch(karaCurated, karaRule)!);
+    const accepts = (lexicon: MarkerLexicon, rule: MiningRule, toks: MorphToken[]) =>
+        findMatch(toks, rule, m => fitsMarkerLexicon(lexicon, toks, m)) !== null;
+
+    it('rejects から glued inside べから(ず) when curated から is never glued', () => {
+        const bekarazu = [T('捨てる', '動詞', '自立', '捨てる', '基本形'), T('べから', '助動詞', '*', 'べし', '未然形'), T('ず', '助動詞', '*', 'ぬ'), T('。', '記号', '句点')];
+        expect(accepts(karaLexicon, { ...karaRule, trailing: false }, bekarazu)).toBe(false);
+    });
+    it('rejects 無から, which kuromoji mis-reads as one adjective', () => {
+        const mukara = [T('は', '助詞', '係助詞'), COMMA, T('無から', '形容詞', '自立', '無い', '連用ゴザイ接続'), T('有', '名詞', 'サ変接続'), T('を', '助詞', '格助詞'), T('作る', '動詞', '自立')];
+        expect(accepts(karaLexicon, { ...karaRule, trailing: false }, mukara)).toBe(false);
+    });
+    it('rejects quotative であろうとは (a topic は right after と) when curated never shows it', () => {
+        const [rule] = compileFormation('Noun + であろうと', '～であろうと');
+        const lexicon = emptyMarkerLexicon();
+        const curated = [T('雨', '名詞', '一般'), T('で', '助動詞', '*', 'だ'), T('あろ', '助動詞', '*', 'ある'), T('う', '助動詞', '*', 'う'), T('と', '助詞', '格助詞'), COMMA, T('試合', '名詞', 'サ変接続')];
+        learnMarker(lexicon, curated, findMatch(curated, rule)!);
+        const quotative = [T('病気', '名詞', 'サ変接続'), T('で', '助動詞', '*', 'だ'), T('あろ', '助動詞', '*', 'ある'), T('う', '助動詞', '*', 'う'), T('と', '助詞', '格助詞'), T('は', '助詞', '係助詞'), T('思い', '名詞', '一般')];
+        expect(accepts(lexicon, rule, quotative)).toBe(false);
+    });
+    it('rejects the genitive ものの２倍 that kuromoji mis-tags as the concessive', () => {
+        const [rule] = compileFormation('Verb-casual + ものの', '～ものの、～');
+        const lexicon = emptyMarkerLexicon();
+        const curated = [T('行っ', '動詞', '自立', '行く'), T('た', '助動詞', '*', 'た'), T('ものの', '助詞', '接続助詞'), COMMA, T('会え', '動詞', '自立', '会える')];
+        learnMarker(lexicon, curated, findMatch(curated, rule)!);
+        const genitive = [T('い', '動詞', '非自立', 'いる'), T('る', '動詞', '非自立', 'いる'), T('ものの', '助詞', '接続助詞'), T('２', '名詞', '数'), T('倍', '名詞', '接尾'), T('ある', '動詞', '自立')];
+        expect(accepts(lexicon, { ...rule, trailing: false }, genitive)).toBe(false);
+        const concessive = [T('高い', '形容詞', '自立'), T('ものの', '助詞', '接続助詞'), COMMA, T('品質', '名詞', '一般'), T('は', '助詞', '係助詞'), T('いい', '形容詞', '自立')];
+        expect(accepts(lexicon, { ...rule, leading: 'adjective', trailing: false }, concessive)).toBe(true);
+    });
+});
+
+describe('refinements that keep valid sentences', () => {
+    it('a noun slot sees past case particles (アメリカはもちろん、ヨーロッパへも)', () => {
+        const [rule] = compileFormation('Noun1 + はもちろん + Noun2 + も', '～はもちろん～も');
+        const toks = [T('アメリカ', '名詞', '固有名詞'), T('は', '助詞', '係助詞'), T('もちろん', '副詞', '一般'), COMMA, T('ヨーロッパ', '名詞', '固有名詞'), T('へ', '助詞', '格助詞'), T('も', '助詞', '係助詞'), T('行っ', '動詞', '自立', '行く')];
+        expect(matchRule(toks, rule)).toBe(true);
+    });
+    it('a volitional slot before まいか is just a verb (受けようか受けまいか)', () => {
+        const [rule] = compileFormation('Verb-volitional + か + Verb-volitional + まいか', '～か～まいか');
+        expect(rule.interior).toEqual(['verb']);
+        const toks = [T('受けよ', '動詞', '自立', '受ける'), T('う', '助動詞', '*', 'う'), T('か', '助詞', '副助詞／並立助詞／終助詞'), T('受け', '動詞', '自立', '受ける'), T('まい', '助動詞', '*', 'まい'), T('か', '助詞', '副助詞／並立助詞／終助詞'), T('決め', '動詞', '自立', '決める')];
+        expect(matchRule(toks, rule)).toBe(true);
+    });
+    it('keeps the concessive であろうとも (も after と is not the quotative とは)', () => {
+        const [rule] = compileFormation('Noun + であろうと', '～であろうと');
+        const lexicon = emptyMarkerLexicon();
+        const curated = [T('雨', '名詞', '一般'), T('で', '助動詞', '*', 'だ'), T('あろ', '助動詞', '*', 'ある'), T('う', '助動詞', '*', 'う'), T('と', '助詞', '格助詞'), COMMA, T('試合', '名詞', 'サ変接続')];
+        learnMarker(lexicon, curated, findMatch(curated, rule)!);
+        const tomo = [T('粗末', '名詞', '形容動詞語幹'), T('で', '助動詞', '*', 'だ'), T('あろ', '助動詞', '*', 'ある'), T('う', '助動詞', '*', 'う'), T('と', '助詞', '格助詞'), T('も', '助詞', '係助詞'), T('我が家', '名詞', '一般')];
+        expect(findMatch(tomo, rule, m => fitsMarkerLexicon(lexicon, tomo, m))).not.toBeNull();
     });
 });
 
