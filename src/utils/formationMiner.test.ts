@@ -1,6 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import {
     blankFitsRule,
+    blankOpensClause,
     compileFormation,
     emptyMarkerLexicon,
     findMatch,
@@ -9,6 +10,7 @@ import {
     leaksAnswer,
     learnMarker,
     matchRule,
+    opensClause,
     toMorphToken,
     variantShape,
     type MarkerLexicon,
@@ -291,6 +293,25 @@ describe('residuals: interior part of speech, glued markers, risky followers (re
         expect(accepts(lexicon, { ...rule, trailing: false }, genitive)).toBe(false);
         const concessive = [T('高い', '形容詞', '自立'), T('ものの', '助詞', '接続助詞'), COMMA, T('品質', '名詞', '一般'), T('は', '助詞', '係助詞'), T('いい', '形容詞', '自立')];
         expect(accepts(lexicon, { ...rule, leading: 'adjective', trailing: false }, concessive)).toBe(true);
+    });
+});
+
+describe('sentence-initial connectives open a clause (real kuromoji tokens)', () => {
+    const [rule] = compileFormation('Sentence A + だから + Sentence B', 'A。だから、～B。');
+    it('rejects だから that kuromoji tags as the connective after a misparse (恥ずかしがりやだから)', () => {
+        const toks = [T('恥ずかし', '形容詞', '自立'), T('がり', '動詞', '接尾'), T('や', '助詞', '接続助詞'), T('だから', '接続詞', '*'), COMMA, T('かえって', '副詞', '一般'), T('好き', '名詞', '形容動詞語幹')];
+        expect(findMatch(toks, rule, m => opensClause(toks, m))).toBeNull();
+    });
+    it('accepts A。だから B and A、だから B', () => {
+        const period = [T('正直', '名詞', '形容動詞語幹'), T('だ', '助動詞', '*', 'だ'), T('。', '記号', '句点'), T('だから', '接続詞', '*'), T('好き', '名詞', '形容動詞語幹')];
+        expect(findMatch(period, rule, m => opensClause(period, m))).not.toBeNull();
+        const comma = [T('余る', '動詞', '自立'), COMMA, T('だから', '接続詞', '*'), T('審判', '名詞', 'サ変接続')];
+        expect(findMatch(comma, rule, m => opensClause(comma, m))).not.toBeNull();
+    });
+    it('blankOpensClause checks the placed blank the same way', () => {
+        const words = (...s: string[]) => s.map(surface => ({ surface }));
+        expect(blankOpensClause({ jp: '', words: words('正直', 'だ', '。', 'だから', '好き'), patternWordIndices: [3] })).toBe(true);
+        expect(blankOpensClause({ jp: '', words: words('恥ずかしがりや', 'だから', '、'), patternWordIndices: [1] })).toBe(false);
     });
 });
 

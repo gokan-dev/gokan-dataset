@@ -138,6 +138,17 @@ type DuplicateMap = Record<string, DuplicateEntry>;
  * snapshot were ever refreshed; a text match turns that into a build failure.
  */
 interface OverrideEntry {
+    /**
+     * Another raw entry whose teaching content (title, explanations, formation,
+     * examples) replaces this point's upstream content. Everything keyed on the
+     * id (family, formality, variants, curriculum placement, learner progress)
+     * stays. The adopted entry must be a duplicate already folded into this
+     * point, so its content has exactly one home. Used when the upstream text
+     * of a point contradicts what the rest of the dataset says it teaches.
+     */
+    adopt?: string;
+    /** Replaces the (upstream or adopted) title, e.g. to match sibling titles. */
+    title?: string;
     /** Replaces the upstream formation string. Must differ from it. */
     formation?: string;
     /** Example `jp` values to drop, matched exactly. */
@@ -899,10 +910,13 @@ async function main() {
     const absorbed = new Map<string, { donorId: string; differentiator: string; examples: RawGrammarEntry['examples'] }[]>();
     const donorFormations: Record<string, string> = {};
     const donorTitles: Record<string, string> = {};
+    // Every raw entry by id, for overrides.json's `adopt`.
+    const rawById = new Map<string, RawGrammarEntry>();
     for (const [levelStr, filename] of Object.entries(LEVEL_FILES)) {
         const donorRaw: RawGrammarEntry[] = JSON.parse(fs.readFileSync(path.join(RAW_DIR, filename), 'utf-8'));
         donorRaw.forEach((entry, i) => {
             const id = `n${Number(levelStr)}-${String(i + 1).padStart(3, '0')}`;
+            rawById.set(id, entry);
             const dup = duplicateMap[id];
             if (dup?.relation !== 'contrast') return;
             const list = absorbed.get(dup.canonical) ?? [];
@@ -912,6 +926,36 @@ async function main() {
             donorTitles[id] = entry.title;
         });
     }
+
+    /**
+     * A point's teaching content after overrides.json's `adopt` and `title`:
+     * the adopted entry's title, explanations, formation and examples replace
+     * the upstream ones. `formation` / `removeExamples` then apply on top.
+     */
+    const adoptedContent = (id: string, upstream: RawGrammarEntry): RawGrammarEntry => {
+        const override = overrideMap[id];
+        if (!override?.adopt && !override?.title) return upstream;
+        let content = upstream;
+        if (override.adopt) {
+            const adopted = rawById.get(override.adopt);
+            if (!adopted) throw new Error(`overrides.json: "${id}" adopts "${override.adopt}", which is not a raw grammar id.`);
+            if (duplicateMap[override.adopt]?.canonical !== id) {
+                throw new Error(
+                    `overrides.json: "${id}" adopts "${override.adopt}", which is not a duplicate folded into "${id}" ` +
+                    `in duplicates.json - its content would be taught twice.`
+                );
+            }
+            content = {
+                ...upstream,
+                title: adopted.title,
+                short_explanation: adopted.short_explanation,
+                long_explanation: adopted.long_explanation,
+                formation: adopted.formation,
+                examples: adopted.examples,
+            };
+        }
+        return override.title ? { ...content, title: override.title } : content;
+    };
 
     const tokenizer = await new Promise<kuromoji.Tokenizer<kuromoji.IpadicFeatures>>((resolve, reject) => {
         kuromoji.builder({ dicPath: 'node_modules/kuromoji/dict' }).build((err, t) => {
@@ -951,9 +995,10 @@ async function main() {
         const raw: RawGrammarEntry[] = JSON.parse(fs.readFileSync(path.join(RAW_DIR, filename), 'utf-8'));
         const levelSlug = `n${level}`;
 
-        raw.forEach((entry, i) => {
+        raw.forEach((upstreamEntry, i) => {
             const id = `${levelSlug}-${String(i + 1).padStart(3, '0')}`;
             allRawIds.add(id);
+            const entry = adoptedContent(id, upstreamEntry);
 
             // Dropped duplicate: not emitted, not indexed. Ids stay positional
             // (derived from the raw file index), so dropping one NEVER renumbers

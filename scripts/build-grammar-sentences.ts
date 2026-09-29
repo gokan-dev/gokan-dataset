@@ -35,8 +35,8 @@ import type { SearchIndex } from '../src/models/index.model';
 import { SentenceTokenizer } from '../src/utils/tokenizer';
 import { buildKanaWritableIds, buildVocabLookup, buildExampleWords } from './build-grammar';
 import {
-    blankFitsRule, compileFormation, emptyMarkerLexicon, findMatch, fitsMarkerLexicon, isExampleSized, isPredicateSlot, leaksAnswer, learnMarker,
-    toMorphToken, type MarkerLexicon, type MiningRule,
+    blankFitsRule, blankOpensClause, compileFormation, emptyMarkerLexicon, findMatch, fitsMarkerLexicon, isExampleSized, isPredicateSlot,
+    leaksAnswer, learnMarker, opensClause, toMorphToken, type MarkerLexicon, type MiningRule, type RuleMatch,
 } from '../src/utils/formationMiner';
 
 const SEARCH_INDEX_PATH = './compiled/index/search.json';
@@ -167,7 +167,10 @@ async function main() {
                 const lexicon = lexicons.get(e.point.id)!;
                 const t = toks;
                 const literal = rule.elements.every(el => el.kind === 'lit');
-                if (findMatch(t, rule, literal ? m => fitsMarkerLexicon(lexicon, t, m) : undefined)) { matched = rule; break; }
+                const sentenceInitial = e.point.slot === 'sentence-initial';
+                const accept = (m: RuleMatch) =>
+                    (!literal || fitsMarkerLexicon(lexicon, t, m)) && (!sentenceInitial || opensClause(t, m));
+                if (findMatch(t, rule, accept)) { matched = rule; break; }
             }
             if (!matched) continue;
             const total = seen.get(e.point.id)! + 1;
@@ -198,6 +201,7 @@ async function main() {
             // The locator runs separately from the miner and can blank a different
             // occurrence (a sentence-initial だから) than the one the rule accepted.
             if (!blankFitsRule(example, hit.rule)) { dropped.blankOffRule++; continue; }
+            if (e.point.slot === 'sentence-initial' && !blankOpensClause(example)) { dropped.blankOffRule++; continue; }
             if (leaksAnswer(example)) { dropped.leak++; continue; }
             examples.push(example);
         }

@@ -625,6 +625,22 @@ export function blankFitsRule(example: LocatedExample, rule: MiningRule): boolea
     return true;
 }
 
+/**
+ * For a point whose authored `slot` is 'sentence-initial' (a connective: しかし,
+ * だから, でも...): the marker must open a sentence or clause, i.e. follow
+ * punctuation. kuromoji can tag a mid-sentence だから as the connective after a
+ * misparse (恥ずかしがりやだから), so the tag alone cannot tell.
+ */
+export function opensClause(tokens: MorphToken[], match: RuleMatch): boolean {
+    return match.start > 0 && isPunct(tokens[match.start - 1]);
+}
+
+/** opensClause for the blank `locatePattern` placed (it may pick another occurrence). */
+export function blankOpensClause(example: LocatedExample): boolean {
+    const first = Math.min(...example.patternWordIndices);
+    return first > 0 && PUNCT_SURFACE.test(example.words[first - 1].surface);
+}
+
 /** The blanked marker (each contiguous run of pattern words) also appears unblanked, which gives the answer away. */
 export function leaksAnswer(example: LocatedExample): boolean {
     const p = [...example.patternWordIndices].sort((a, b) => a - b);
