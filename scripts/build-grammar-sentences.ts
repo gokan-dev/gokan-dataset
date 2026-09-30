@@ -87,6 +87,8 @@ export function isHighPrecision(rule: MiningRule): boolean {
     return DISTINCTIVE_2.has(a) || (isPredicateSlot(rule.leading) && rule.leading !== 'naAdjective');
 }
 
+/** FNV-1a: a stable 32-bit seed from a point id. */
+const seedOf = (s: string) => { let h = 0x811c9dc5; for (let i = 0; i < s.length; i++) h = Math.imul(h ^ s.charCodeAt(i), 0x01000193); return h >>> 0; };
 const mulberry32 = (seed: number) => () => { seed |= 0; seed = seed + 0x6D2B79F5 | 0; let t = Math.imul(seed ^ seed >>> 15, 1 | seed); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; };
 
 async function main() {
@@ -148,8 +150,12 @@ async function main() {
     }
     console.log(`  ✓ ${sentences.size} unique translated sentences`);
 
-    // Scan: reservoir-sample matchRule hits per point (bounded work).
-    const rnd = mulberry32(73);
+    // Scan: reservoir-sample matchRule hits per point (bounded work). Each point
+    // draws from its OWN random stream, seeded on its id: with one shared stream,
+    // adding or dropping any eligible point shifted the draws of every point
+    // scanned after it, reshuffling ~100 unrelated pools (and the sentences
+    // learners had been seeing) on a change that never touched them.
+    const rngs = new Map(eligible.map(e => [e.point.id, mulberry32(seedOf(e.point.id))]));
     type Hit = { id: string; rule: MiningRule };
     const hits = new Map<string, Hit[]>();     // pointId -> matched sentences (reservoir), with the variant that matched
     const seen = new Map<string, number>();      // pointId -> total hits seen
@@ -178,7 +184,7 @@ async function main() {
             const pool = hits.get(e.point.id)!;
             const hit = { id, rule: matched };
             if (pool.length < PRE_CAP) pool.push(hit);
-            else { const j = Math.floor(rnd() * total); if (j < PRE_CAP) pool[j] = hit; } // reservoir
+            else { const j = Math.floor(rngs.get(e.point.id)!() * total); if (j < PRE_CAP) pool[j] = hit; } // reservoir
         }
         if (++n % 25000 === 0) console.log(`  ...scanned ${n}/${sentences.size}`);
     }

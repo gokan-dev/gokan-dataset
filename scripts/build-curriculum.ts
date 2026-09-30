@@ -116,16 +116,14 @@ interface AuthoredChapter {
 }
 
 /**
- * One authored thematic chapter for the N3-N1 points that have no family, from
- * data/curriculum/themes.json. Same shape as an authored chapter minus the
- * absorb directive (a themed point has no family to absorb siblings from).
+ * One authored thematic chapter for N3-N1 points, from data/curriculum/themes.json.
+ * Same shape as an authored chapter minus the absorb directive.
  *
- * A theme lists every point it WANTS; the build intersects that with what is
- * actually still unplaced, because a point named here can later gain a family
- * in formality.json and get claimed by a family chapter instead. That is a
- * warning, not an error - the family chapter is the better home, and forcing
- * every formality.json edit to be mirrored here by hand would just be a second
- * copy of the same membership.
+ * A theme lists every point it WANTS and keeps them even when they have a
+ * family: Tier 2b's per-level family chapters skip a point a theme at its level
+ * lists (see the comment there for why). The build still intersects the list
+ * with what is unplaced, because an absorbed register ladder (Tier 2a) takes
+ * its members from anywhere, and that is reported as a warning, not an error.
  */
 interface AuthoredTheme {
     id: string;
@@ -225,6 +223,9 @@ function main() {
     const themes: { themes: AuthoredTheme[] } = fs.existsSync(THEMES_PATH)
         ? JSON.parse(fs.readFileSync(THEMES_PATH, 'utf-8'))
         : { themes: [] };
+    // Point id -> the level of the authored theme that lists it (see Tier 2b).
+    const themedAtLevel = new Map<string, number>();
+    for (const theme of themes.themes) for (const id of theme.points) themedAtLevel.set(id, theme.jlptLevel);
 
     const chapters: GrammarChapter[] = [];
     const placed = new Map<string, string>(); // point id -> chapter id that claimed it
@@ -364,9 +365,18 @@ function main() {
 
         // Family clusters first - grouping near-synonyms is what makes the
         // differentiator teachable, which is the whole point of clustering.
+        //
+        // Except for a point an authored theme at this level lists: the theme is
+        // its home. When families covered a small, curated subset, letting a
+        // family chapter claim a themed point was the better call. Once nearly
+        // every point has a family, that rule re-cut the authored N3-N1 themes
+        // into dozens of 1-2 point chapters (151 -> 197 chapters, median 5 -> 3),
+        // and the themes already group those same siblings by meaning. A family
+        // still gives a themed point its related points, differentiator and
+        // lessons; it just no longer decides the chapter.
         const byFamily = new Map<string, GrammarPoint[]>();
         for (const point of remaining) {
-            if (!point.family) continue;
+            if (!point.family || themedAtLevel.get(point.id) === level) continue;
             const bucket = byFamily.get(point.family.id) ?? [];
             bucket.push(point);
             byFamily.set(point.family.id, bucket);

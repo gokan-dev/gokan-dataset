@@ -4,6 +4,8 @@ Working checklist for [gokan-dataset#3](https://github.com/gokan-dev/gokan-datas
 
 **This list is a starting point, not a ground truth.** The clustering heuristic is crude (exact quoted-gloss overlap) - it will have false positives (points that share a gloss word but aren't actually near-synonyms needing differentiation) and false negatives (points with a real near-synonym elsewhere that happens to be glossed with different wording). Treat `needs-triage` as "worth a look," not "confirmed needs a formality entry" - some will turn out fine as-is (note that finding, don't just skip silently). `no-cluster-found` similarly isn't a guarantee the point has no synonym - just that this pass didn't surface one.
 
+> **Superseded as a to-do list.** The family-coverage pass (branch `feat/family-coverage`) reviewed every point that still had no family, level by level, and linked every one with a sibling a learner could confuse it with: 123 families now cover 665 points, and the 76 left without one are 40 conjugation drills plus one-off constructions. The per-point statuses below predate that pass and are kept as the record of the original triage; the current state is `data/raw/grammar/formality.json` itself, and [GRAMMAR_TEACHING_MODEL.md](GRAMMAR_TEACHING_MODEL.md) explains the model.
+
 ## Summary
 
 | Status | Count |

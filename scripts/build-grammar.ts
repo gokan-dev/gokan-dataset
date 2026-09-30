@@ -149,6 +149,14 @@ interface OverrideEntry {
     adopt?: string;
     /** Replaces the (upstream or adopted) title, e.g. to match sibling titles. */
     title?: string;
+    /**
+     * Replaces every upstream example with authored ones, for a point whose
+     * upstream examples do not exercise the construction at all (a compound verb
+     * point whose sentences use the bare verb). Mutually exclusive with
+     * `removeExamples`. Each example is tokenized and pattern-located exactly like
+     * an upstream one.
+     */
+    examples?: RawGrammarEntry['examples'];
     /** Replaces the upstream formation string. Must differ from it. */
     formation?: string;
     /** Example `jp` values to drop, matched exactly. */
@@ -352,6 +360,28 @@ function katakanaToHiragana(input: string): string {
  * sits mid-string rather than at the end) - about 1.3% of points (11/828 as
  * of the last build) - rather than guessing at an unparseable shape.
  */
+/**
+ * Top-level keys that appear more than once in a hand-authored JSON file.
+ * JSON.parse keeps the LAST duplicate without a word, so a second entry for the
+ * same point silently discards the first: an overrides.json correction was lost
+ * exactly that way. Keys are read as the file's two-space-indented top level.
+ */
+export function duplicateTopLevelKeys(text: string): string[] {
+    const counts = new Map<string, number>();
+    for (const m of text.matchAll(/^ {2}"([^"]+)"\s*:/gm)) counts.set(m[1], (counts.get(m[1]) ?? 0) + 1);
+    return [...counts].filter(([, n]) => n > 1).map(([key]) => key);
+}
+
+/** Reads a hand-authored grammar file, refusing one that repeats a top-level key. */
+function readAuthoredJson<T>(filePath: string): T {
+    const text = fs.readFileSync(filePath, 'utf-8');
+    const duplicates = duplicateTopLevelKeys(text);
+    if (duplicates.length > 0) {
+        throw new Error(`${filePath}: key(s) listed more than once, so all but the last are silently ignored: ${duplicates.join(', ')}. Merge the entries.`);
+    }
+    return JSON.parse(text) as T;
+}
+
 export function splitTitle(raw: string): { title: string; romaji?: string } {
     const trimmed = raw.trim();
     const normalized = trimmed.replace(/（/g, '(').replace(/）/g, ')');
@@ -756,18 +786,18 @@ async function main() {
     // this mapping. Points present get formalityLevel/usageNote/family merged
     // into their output; absent points build exactly as before.
     const formalityMap: FormalityMap = fs.existsSync(FORMALITY_PATH)
-        ? JSON.parse(fs.readFileSync(FORMALITY_PATH, 'utf-8'))
+        ? readAuthoredJson(FORMALITY_PATH)
         : {};
 
     // Optional too - an empty/absent file simply means nothing is deduplicated.
     const overrideMap: OverrideMap = fs.existsSync(OVERRIDES_PATH)
         ? Object.fromEntries(Object.entries(
-            JSON.parse(fs.readFileSync(OVERRIDES_PATH, 'utf-8')) as Record<string, OverrideEntry>
+            readAuthoredJson<Record<string, OverrideEntry>>(OVERRIDES_PATH)
         ).filter(([id]) => !id.startsWith('_')))
         : {};
 
     const duplicateMap: DuplicateMap = fs.existsSync(DUPLICATES_PATH)
-        ? JSON.parse(fs.readFileSync(DUPLICATES_PATH, 'utf-8'))
+        ? readAuthoredJson(DUPLICATES_PATH)
         : {};
     const droppedIds = new Set(Object.keys(duplicateMap));
 
@@ -780,7 +810,7 @@ async function main() {
     ) as KindMap;
 
     const variantMapRaw: Record<string, unknown> = fs.existsSync(VARIANTS_PATH)
-        ? JSON.parse(fs.readFileSync(VARIANTS_PATH, 'utf-8'))
+        ? readAuthoredJson(VARIANTS_PATH)
         : {};
     const variantMap: VariantMap = Object.fromEntries(
         Object.entries(variantMapRaw).filter(([key]) => !key.startsWith('_'))
@@ -934,7 +964,7 @@ async function main() {
      */
     const adoptedContent = (id: string, upstream: RawGrammarEntry): RawGrammarEntry => {
         const override = overrideMap[id];
-        if (!override?.adopt && !override?.title) return upstream;
+        if (!override?.adopt && !override?.title && !override?.examples) return upstream;
         let content = upstream;
         if (override.adopt) {
             const adopted = rawById.get(override.adopt);
@@ -953,6 +983,15 @@ async function main() {
                 formation: adopted.formation,
                 examples: adopted.examples,
             };
+        }
+        if (override.examples) {
+            if (override.removeExamples) {
+                throw new Error(`overrides.json: "${id}" sets both \`examples\` and \`removeExamples\` - \`examples\` already replaces every upstream one.`);
+            }
+            if (override.examples.length < MIN_EXAMPLES_PER_POINT) {
+                throw new Error(`overrides.json: "${id}" replaces its examples with ${override.examples.length}, below MIN_EXAMPLES_PER_POINT (${MIN_EXAMPLES_PER_POINT}).`);
+            }
+            content = { ...content, examples: override.examples };
         }
         return override.title ? { ...content, title: override.title } : content;
     };
@@ -1182,7 +1221,7 @@ async function main() {
     // by compileContrasts (pure, tested) against the family membership derived
     // above, then emitted as its own index. See docs/SCHEMA.md.
     const contrastsRaw: Record<string, { lessons: GrammarContrastLesson[] }> = fs.existsSync(CONTRASTS_PATH)
-        ? JSON.parse(fs.readFileSync(CONTRASTS_PATH, 'utf-8'))
+        ? readAuthoredJson(CONTRASTS_PATH)
         : {};
     const { index: contrastsIndex, caseCount: contrastUnitCount } = compileContrasts(
         contrastsRaw,

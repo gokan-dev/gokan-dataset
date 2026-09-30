@@ -1,6 +1,17 @@
 import { describe, it, expect } from 'vitest';
-import { splitTitle, compileContrasts } from './build-grammar';
+import { splitTitle, compileContrasts, duplicateTopLevelKeys } from './build-grammar';
 import type { GrammarContrastLesson } from '../src/models/grammar.model';
+
+describe('duplicateTopLevelKeys', () => {
+    it('finds a point listed twice, which JSON.parse would silently collapse to the last entry', () => {
+        const text = '{\n  "n4-070": {\n    "removeExamples": []\n  },\n  "n3-024": {},\n  "n4-070": {\n    "examples": []\n  }\n}\n';
+        expect(duplicateTopLevelKeys(text)).toEqual(['n4-070']);
+    });
+    it('ignores nested keys that repeat across entries', () => {
+        const text = '{\n  "a": { "note": "x" },\n  "b": {\n    "note": "y"\n  }\n}\n';
+        expect(duplicateTopLevelKeys(text)).toEqual([]);
+    });
+});
 
 describe('splitTitle', () => {
     it('splits the common case: trailing single-level parenthetical', () => {
