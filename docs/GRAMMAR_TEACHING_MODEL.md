@@ -1,6 +1,6 @@
 # How the grammar teaching model works
 
-Plain-English explanation of every moving part. The current *contents* (all 151 chapters, all 95 lessons) live in the generated [CURRICULUM.md](CURRICULUM.md); the exact field names and types live in [SCHEMA.md](SCHEMA.md). This file is the one that explains what any of it means.
+Plain-English explanation of every moving part. The current *contents* (all 148 chapters, all 99 lessons) live in the generated [CURRICULUM.md](CURRICULUM.md); the exact field names and types live in [SCHEMA.md](SCHEMA.md). This file is the one that explains what any of it means.
 
 ---
 
@@ -36,13 +36,13 @@ POINT ──── belongs to exactly one ────► CHAPTER   (when you me
 
 ## Point
 
-One grammar item: a title, explanations, a formation template, and 3 to 5 example sentences. 780 of them: 754 from the vendored upstream snapshot (one, `n3-120`, was a fourth ingestion of ている and is retired as a plain duplicate, aliased onto its canonical rather than kept as a card), plus 26 authored inflection points that teach conjugation (see "Inflection points and conjugation" below).
+One grammar item: a title, explanations, a formation template, and 3 to 5 example sentences. 766 of them: 740 from the vendored upstream snapshot, after 88 upstream entries that repeat another point (the same pattern ingested at two levels, or one suffix ingested once per inflection, like ぶる / ぶった / ぶって) are retired as duplicates and aliased onto their canonical rather than kept as cards, plus 26 authored inflection points that teach conjugation (see "Inflection points and conjugation" below).
 
-Some points are **realization variants** of another point: the same construction with one slot filled differently, which upstream listed separately. The contraction では → じゃ gives じゃ on its own, and それじゃ once the anaphoric それ is fronted, so それでは / それじゃ / じゃ are not three things to learn but one thing written three ways. それじゃ and じゃ are both marked `variantOf: "n5-006"` (それでは). It is not a one-off: 20 points across 15 canonicals are variants, spanning contractions (じゃ, なくちゃ, んです), plain/polite pairs (だから → ですから), particle alternations (どこにも / どこへも / どこも), and rendaku softenings (くらい → ぐらい).
+Some points are **realization variants** of another point: the same construction with one slot filled differently, which upstream listed separately. The contraction では → じゃ gives じゃ on its own, and それじゃ once the anaphoric それ is fronted, so それでは / それじゃ / じゃ are not three things to learn but one thing written three ways. それじゃ and じゃ are both marked `variantOf: "n5-006"` (それでは). It is not a one-off: 25 points across 20 canonicals are variants, spanning contractions (じゃ, なくちゃ, んです, ありゃしない), plain/polite pairs (だから → ですから, になる → になります), particle alternations (どこにも / どこへも / どこも), and rendaku softenings (くらい → ぐらい).
 
 Note what that field does and does not claim. A variant may not point at another variant, because the build rejects chains, so every realization is recorded against the group's canonical regardless of how it is actually derived. じゃ is filed under それでは, but it does not come *from* それでは: the contraction is では → じゃ, and それ is a separate prefix. `variantOf` says "same card as", not "descends from".
 
-A variant is never introduced on its own and never gets its own SRS card; it rotates inside the canonical's card instead. 20 points are variants, so 734 are actually introduced.
+A variant is never introduced on its own and never gets its own SRS card; it rotates inside the canonical's card instead. 25 points are variants, so 741 are actually introduced.
 
 This matters for confusion: if you find yourself mixing up two forms and it turns out one is `variantOf` the other, **you were never supposed to tell them apart**.
 
@@ -75,15 +75,15 @@ An inflection point is only *teachable* once `conjugations.json` actually carrie
 
 ## Chapter
 
-A run of points meant to be met together, and the unit of the introduction order. 151 of them.
+A run of points meant to be met together, and the unit of the introduction order. 148 of them.
 
 They exist because the upstream data is alphabetical, which is actively hostile: it put seven near-synonymous connectives first and the case particles at positions 40+. Genki reaches は and basic verb conjugation in chapter 3 of 23.
 
 Chapters come from three places:
 
-1. **Hand-written, N5 and N4** (`data/curriculum/chapters.json`, 40 chapters). At these levels points genuinely depend on each other: 「Verb た ことがある」 is unteachable before the た-form. So the sequence is authored by hand.
-2. **Generated from families, N3 to N1** (63 chapters). Above N3 points are largely independent idioms with no dependency chain, so the useful thing to do is group each family together and let the lessons do the teaching.
-3. **Hand-written themes, N3 to N1** (`data/curriculum/themes.json`, 42 chapters) for everything with no family. These replaced an alphabetical dump that put 42% of the whole dataset into 18 buckets of 20 named "Further N2 patterns (3 of 5)". One bucket held にほかならない, ということ, "whenever", "before" and "based-on" side by side, related only by having adjacent ids. A theme does not claim to sequence its points against each other; it only guarantees the chapter has a subject.
+1. **Hand-written, N5 and N4** (`data/curriculum/chapters.json`, 46 chapters). At these levels points genuinely depend on each other: 「Verb た ことがある」 is unteachable before the た-form. So the sequence is authored by hand.
+2. **Generated from families, N3 to N1** (60 chapters). Above N3 points are largely independent idioms with no dependency chain, so the useful thing to do is group each family together and let the lessons do the teaching.
+3. **Hand-written themes, N3 to N1** (`data/curriculum/themes.json`, 42 chapters) for the points a theme lists, family or not (see "A theme keeps the points it lists" below). These replaced an alphabetical dump that put 42% of the whole dataset into 18 buckets of 20 named "Further N2 patterns (3 of 5)". One bucket held にほかならない, ということ, "whenever", "before" and "based-on" side by side, related only by having adjacent ids. A theme does not claim to sequence its points against each other; it only guarantees the chapter has a subject.
 
 **A chapter's level is its position, not a claim about its contents.** `n5-c17` is an N5 chapter that contains だが (N2) and ものの (N2), because those are register variants of でも, and a register variant adds no new structure. Gating them behind two more JLPT levels would only mean the ladder is never seen whole.
 
@@ -100,11 +100,17 @@ The rule: **absorb a pure register ladder of 6 members or fewer, level-gate ever
 - *6 or fewer* because concession absorbed would be 11 forms in one chapter, which is not a chapter, it is a wall.
 - The count is over the **whole family**, not just its register members. Splitting a mixed family into an absorbed half and a level-gated half fragments it worse than either rule on its own.
 
-Currently 12 families are absorbed and 35 level-gated. A level-gated family puts the level in its chapter titles (`"N2: Concession (Even Though / Although / Despite)"`) so three chapters do not share one name.
+Currently 5 families are absorbed and 65 level-gated. A level-gated family puts the level in its chapter titles (`"N2: Concession (Even Though / Although / Despite)"`) so three chapters do not share one name.
+
+### A theme keeps the points it lists
+
+At N3 to N1, an authored theme that lists a point is that point's chapter, even when the point has a family. A generated family chapter only collects the members no theme claims. (Absorbed register ladders, above, still take their members from anywhere: teaching a small ladder whole is a stronger reason than a theme's topic.)
+
+It used to be the other way round, and that was right while families covered a curated few hundred points. Once the family-coverage pass linked nearly every point, "family beats theme" re-cut the 42 themes into dozens of one- and two-point chapters (151 chapters became 197, median size 5 fell to 3), even though the themes already group those same siblings by meaning: "As if, seeming like, putting it on" is the resemblance and pretending families. A family still gives a themed point its related points, its differentiator and its lessons. It just no longer decides the chapter.
 
 ## Family
 
-The near-synonym group: points a learner asking "how do I say X?" would be shown together. 85 families, hand-assigned in `data/raw/grammar/formality.json`. 393 points have no family at all, which is fine and normal.
+The near-synonym group: points a learner asking "how do I say X?" would be shown together. 123 families covering 665 points, hand-assigned in `data/raw/grammar/formality.json`. Of the 76 points with no family, 40 are conjugation drills and the rest are one-off constructions with no sibling a learner would confuse them with.
 
 Each member carries an **axis**, saying what it adds over its siblings:
 
@@ -120,7 +126,7 @@ Each member carries an **axis**, saying what it adds over its siblings:
 
 Splitting is also where a too-coarse family gets corrected. The *sequence-then* family lumped そして/それから (and-then) with じゃ/それでは (well then, in that case). Those are two different meanings, and one four-way lesson over them would be incoherent, so そして/それから is its own lesson.
 
-95 lessons across 65 families.
+99 lessons across 68 families, plus interchangeable-member notes on 6.
 
 ### `taughtInChapterId`
 
@@ -174,14 +180,15 @@ Those get an **interchangeable note**, not a lesson, and authoring a lesson that
 
 - **Confusion sets that cross families cannot be expressed.** A lesson lives inside one family. If a learner mixes up それでは (sequence-then) with しかし (contradiction), no lesson can pair them, because they are in different families. This is a real limitation of the model, not an authoring backlog.
 - **`axis` is heuristic-seeded and only partly hand-reviewed.** It was seeded from the wording of each point's usage note, which over-assigns `register` to anything whose note happens to mention only formality. The absorb rule is capped at 3 JLPT levels of distance as a guardrail, and points held back by that cap are printed at build time as hand-correction candidates.
-- **`formality.json` coverage is partial**, so a point with no family is invisible to the lesson system entirely, whether or not anyone confuses it.
+- **Lessons cover the worst confusions, not every family.** Since the family-coverage pass nearly every confusable point has a family and a usage note (which is what the quiz card shows), but only 68 of the 123 families have an authored lesson. A family with no lesson still gets its related points and differentiator on the detail page.
+- **The 76 unfamilied points are unfamilied on purpose**: 40 conjugation drills, and one-off constructions (を, ずつ, すぎる, …) with no sibling to confuse them with. A new upstream point with a real sibling should get a family in the same change that adds it.
 
 ## Where each thing is authored
 
 | File | Hand-written? | What it holds |
 | --- | --- | --- |
 | `data/curriculum/chapters.json` | yes | The N5/N4 chapter spine |
-| `data/curriculum/themes.json` | yes | N3-N1 thematic chapters for unfamilied points |
+| `data/curriculum/themes.json` | yes | N3-N1 thematic chapters; a theme keeps every point it lists |
 | `data/raw/grammar/formality.json` | yes | Family, axis, register and usage note per point |
 | `data/raw/grammar/contrasts.json` | yes | Lessons and cases |
 | `data/raw/grammar/variants.json` | yes | Which points are realizations of another |

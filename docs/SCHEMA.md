@@ -180,7 +180,7 @@ Authoring rules: only non-`construction` points appear in `kinds.json`; anything
 
 ### `family.axis` — what a member adds over its siblings
 
-70 of the 84 families span more than one JLPT level, so level alone cannot say whether two siblings may be taught together. `axis` records what the member actually adds, which does:
+99 of the 123 families span more than one JLPT level, so level alone cannot say whether two siblings may be taught together. `axis` records what the member actually adds, which does:
 
 | value | meaning | consequence |
 |---|---|---|
@@ -254,7 +254,7 @@ Two matchers compose, and both are precision gates:
 
 **Post-location filters.** The blank `locatePattern` places is re-checked against the matched rule (it may pick a different occurrence than the one the rule accepted); a sentence whose marker also appears unblanked (the answer would be visible) is dropped; and a sentence longer than 60 characters or more than two sentences (a speech transcript) is never an example.
 
-**Scope: high-precision points only.** Every morphological rule, distinctive multi-char literals, and 2-char markers whose formation pins the word before them to a verb or adjective (what separates reason から from source から); the ~function-word literal over-matchers (こと/なら/だろう/まで/という/ところ/…) stay deferred (`isHighPrecision` in the build script). A few variants whose grammatical sense cannot be told from a common literal one are excluded by hand (`EXCLUDED_VARIANTS`: の上に as "on top of", につけ as 身につける). A point pool is capped at 60 (reservoir-sampled from all matches, so it is a stable, diverse slice rather than the first 60). The last build mined **16,453 examples across 532 points** (median pool 27, 196 at the cap). Points with no eligible rule, or deferred as low-precision, or with zero verified matches, simply have no file - the consumer falls back to the point's own curated `examples`.
+**Scope: high-precision points only.** Every morphological rule, distinctive multi-char literals, and 2-char markers whose formation pins the word before them to a verb or adjective (what separates reason から from source から); the ~function-word literal over-matchers (こと/なら/だろう/まで/という/ところ/…) stay deferred (`isHighPrecision` in the build script). A few variants whose grammatical sense cannot be told from a common literal one are excluded by hand (`EXCLUDED_VARIANTS`: の上に as "on top of", につけ as 身につける). A point pool is capped at 60 (reservoir-sampled from all matches, so it is a stable, diverse slice rather than the first 60). Each point samples from its own random stream seeded on its id, so adding or dropping one point never reshuffles another point's pool (with one shared stream, it reshuffled ~100 unrelated pools, and with them the sentences learners had been seeing). The last build mined **16,023 examples across 522 points** (median pool 26, 188 at the cap). Points with no eligible rule, or deferred as low-precision, or with zero verified matches, simply have no file - the consumer falls back to the point's own curated `examples`.
 
 ## `compiled/grammar/index/aliases.json` — deduplicated point ids
 
@@ -294,7 +294,7 @@ Why this exists: `index/jlpt.json` follows the upstream files' alphabetical orde
 Two tiers, deliberately:
 
 - **N5 and N4 are hand-sequenced** in `chapters.json` (40 chapters), because at those levels points genuinely depend on each other - `Verb た ことがある` is unteachable before the た-form.
-- **N3/N2/N1 chapters are generated** by clustering the remainder by family, then placing unfamilied points into the authored **themes** at `data/curriculum/themes.json`. Above N3 the points are largely independent idiomatic expressions with no dependency chain. This tier is intentionally coarser: a theme does not sequence its points against each other, it only guarantees the chapter has a subject.
+- **N3/N2/N1 chapters are generated** from the authored **themes** at `data/curriculum/themes.json` (a theme keeps every point it lists, family or not) and from family clusters of whatever no theme lists. Above N3 the points are largely independent idiomatic expressions with no dependency chain. This tier is intentionally coarser: a theme does not sequence its points against each other, it only guarantees the chapter has a subject.
 
 Themes replaced an alphabetical dump that put 315 points (42% of the dataset) into 18 buckets of 20 named "Further N2 patterns (3 of 5)" - one bucket held `にほかならない`, `ということ`, "whenever", "before" and "based-on" side by side for no reason beyond adjacent ids. That fallback still exists in `build-curriculum.ts` and anything unthemed lands in it, but it is **empty** against the dataset as it stands, and the build names every unthemed point so a newly-added one is visible rather than silently dumped. Current shape: **145 chapters, median 5 points, max 12** (was 117 chapters, max 20).
 
@@ -346,7 +346,7 @@ type GrammarContrastIndex = Record<string, {   // familyId ->
 }>;
 ```
 
-Coverage as of the last build: **66 families, 96 lessons, 140 cases**, plus interchangeable-member notes on 2 families.
+Coverage as of the last build: **68 families, 99 lessons, 144 cases**, plus interchangeable-member notes on 6 families.
 
 > **A lesson is not a chapter**, and the two are easy to conflate. A chapter is a slot in the introduction order; a lesson is a set of points a learner actually mixes up. They cut across each other by design. (A lesson was called a "chunk" until 2026-09, which made the collision worse.) [GRAMMAR_TEACHING_MODEL.md](GRAMMAR_TEACHING_MODEL.md) explains the whole model in plain English, and [CURRICULUM.md](CURRICULUM.md) is the generated inventory of what currently exists.
 
