@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { coarsePosSet, sharesPos, normalizeGloss, sharedGlosses, glossOverlap, senseCovered, kanjiStem, isTransitivityPair } from './build-synonyms';
+import { coarsePosSet, sharesPos, normalizeGloss, sharedGlosses, glossOverlap, senseCovered, kanjiStem, isTransitivityPair, sharedGlossList, overlapScore, autoTier } from './build-synonyms';
 
 const S = (...xs: string[]) => new Set(xs);
 
@@ -175,5 +175,40 @@ describe('senseCovered (a whole sense expressible by the other word)', () => {
         // 取る carries 54 glosses and would otherwise absorb most of the verb index.
         const huge = new Set(Array.from({ length: 20 }, (_, i) => `g${i}`).concat(['best', 'most']));
         expect(senseCovered(ichiban, huge)).toBe(false);
+    });
+});
+
+describe('context-aware synonym entries', () => {
+    const word = (senses: string[][], extra: Partial<{ stem: string; vi: boolean; vt: boolean }> = {}) => {
+        const sets = senses.map(s => new Set(s));
+        return { senses: sets, glosses: new Set(sets.flatMap(s => [...s])), stem: '', vi: false, vt: false, ...extra };
+    };
+    // 狭い / 小さい and 人物 / 男: the two reported cases, one shared gloss each.
+    const semai = word([['narrow', 'confined', 'small', 'cramped'], ['limited', 'narrow-minded', 'confining']]);
+    const chiisai = word([['small', 'little', 'tiny'], ['slight', 'below average', 'minor', 'small'], ['low', 'soft'], ['unimportant', 'petty', 'insignificant', 'trifling', 'trivial'], ['young', 'juvenile']]);
+
+    it('records the shared glosses, sorted', () => {
+        expect(sharedGlossList(semai.glosses, chiisai.glosses)).toEqual(['small']);
+        expect(sharedGlossList(S('b', 'a', 'c'), S('c', 'a'))).toEqual(['a', 'c']);
+    });
+
+    it('scores overlap against the smaller gloss set, rounded', () => {
+        expect(overlapScore(semai.glosses, chiisai.glosses)).toBe(0.14);
+        expect(overlapScore(S('essay', 'composition', 'writing'), S('composition', 'music'))).toBe(0.5);
+        expect(overlapScore(S(), S('a'))).toBe(0);
+    });
+
+    it('gives a single-shared-gloss pair between polysemous words the no-credit tier', () => {
+        expect(autoTier(semai, chiisai)).toBe('confusable');
+    });
+
+    it('keeps the original rules as the minor-error tier', () => {
+        // ratio floor
+        expect(autoTier(word([['essay', 'composition', 'writing']]), word([['composition', 'music', 'song']]))).toBe('interchangeable');
+        // transitivity pair below the floor
+        expect(autoTier(
+            word([['line up', 'stand in a line', 'be in a row', 'queue', 'wait']], { stem: '並', vi: true }),
+            word([['line up', 'arrange', 'set out', 'display', 'enumerate']], { stem: '並', vt: true }),
+        )).toBe('interchangeable');
     });
 });
