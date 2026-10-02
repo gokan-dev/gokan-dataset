@@ -20,8 +20,8 @@ import path from 'path';
  * outside the pool got no synonym support at all. Per-vocab delivery makes full
  * coverage affordable (each file grows by its own handful of entries).
  *
- * MEMBERSHIP is auto-derived and deliberately LENIENT, REGARDLESS of part of
- * speech. Two words cluster when ANY of:
+ * OUT-OF-CONTEXT TIER is auto-derived and deliberately LENIENT, REGARDLESS of part
+ * of speech (see CONTEXT below for membership). A pair is `interchangeable` when ANY of:
  *   - their gloss sets overlap (`glossOverlap`): >= 1 shared normalized sense that
  *     is at least OVERLAP_RATIO of the smaller word's set. This is deliberately low
  *     enough to accept single-shared English homographs (作文 "essay" / 作曲 "music"
@@ -49,6 +49,19 @@ import path from 'path';
  * data/raw/vocab/synonyms.json then DEMOTES genuinely non-interchangeable pairs to
  * `confusable`, EXCLUDES false positives, and ADDS pairs that do not gloss-overlap
  * (the escape hatch for both directions). Policy: start lenient, tighten later.
+ *
+ * CONTEXT. The rules above decide a pair's tier only when the quiz
+ * is NOT using the shared meaning. Membership itself is now any shared gloss, and
+ * each entry records `shared` (the glosses both words carry) and `overlap` (the
+ * ratio score). The app checks `shared` against the text in front of the learner:
+ * "Japan is a small country" uses "small", so 小さい answers 狭い correctly there,
+ * while in a sentence about a narrow street the same pair falls back to its tier.
+ * Why: a word is a synonym of another only in a given sense, and a per-pair verdict
+ * computed once at build time cannot know which sense a quiz uses. Pairs the old
+ * rules missed (狭い / 小さい at 0.14, 人物 / 男 at 0.10) now exist with tier
+ * `confusable`, so out of context they cost nothing and earn nothing. A curated
+ * pair is flagged `curated` and the app never overrides its tier from context
+ * (必ず / 常に share "always" and stay confusable even in a sentence using it).
  *
  * Inert wherever absent: a word in no cluster gets no `synonyms` field and grades
  * exactly as it does today.
@@ -182,11 +195,52 @@ export function kanjiStem(writtenForm: string): string {
  * transitivity - the exact near-miss a learner makes. The stem + opposite-vi/vt
  * combination is specific enough that the >=1 shared gloss stays honest (見る/見つかる
  * share the 見 stem and opposite transitivity but no gloss, so they do not pair). */
-export function isTransitivityPair(a: Word, b: Word): boolean {
+export function isTransitivityPair(a: Pick<Word, 'stem' | 'vi' | 'vt' | 'glosses'>, b: Pick<Word, 'stem' | 'vi' | 'vt' | 'glosses'>): boolean {
     if (!a.stem || a.stem !== b.stem) return false;
     const opposite = (a.vi && b.vt) || (a.vt && b.vi);
     if (!opposite) return false;
     return sharedGlosses(a.glosses, b.glosses) >= 1;
+}
+
+/** The normalized glosses two words share, sorted so the output is stable across builds. */
+export function sharedGlossList(a: Set<string>, b: Set<string>): string[] {
+    return [...a].filter(g => b.has(g)).sort();
+}
+
+/** Shared glosses over the smaller word's gloss count, rounded to 2 decimals (the `overlap` field). */
+export function overlapScore(a: Set<string>, b: Set<string>): number {
+    const smaller = Math.min(a.size, b.size);
+    if (smaller === 0) return 0;
+    return Math.round((sharedGlosses(a, b) / smaller) * 100) / 100;
+}
+
+/**
+ * The OUT-OF-CONTEXT tier of an auto pair. Any shared gloss makes a
+ * pair; this decides what it earns when the quiz's own text does not use the
+ * shared meaning. The three original detection rules (ratio floor, sense
+ * coverage, transitivity) still mark a pair `interchangeable` (minor_error);
+ * every other pair, typically one shared gloss between two polysemous words
+ * (狭い / 小さい share only "small"), is `confusable` (no credit, no penalty).
+ * In context the app upgrades either to correct, so this tier only matters when
+ * the sentence or gloss cue uses a different sense.
+ */
+export function autoTier(a: Pick<Word, 'glosses' | 'senses' | 'stem' | 'vi' | 'vt'>, b: Pick<Word, 'glosses' | 'senses' | 'stem' | 'vi' | 'vt'>): SynonymRelation {
+    const overlaps = glossOverlap(a.glosses, b.glosses);
+    const covered = sharedGlosses(a.glosses, b.glosses) >= MIN_SHARED
+        && (senseCovered(a.senses, b.glosses) || senseCovered(b.senses, a.glosses));
+    return overlaps || covered || isTransitivityPair(a, b) ? 'interchangeable' : 'confusable';
+}
+
+/** One entry of a compiled vocab file's `synonyms` list. */
+export interface SynonymEntry {
+    id: string;
+    relation: SynonymRelation;
+    /** Normalized glosses both words carry; empty for a hand-added pair with no overlap. */
+    shared: string[];
+    /** shared / smaller word's gloss count (see overlapScore). */
+    overlap: number;
+    /** Set when data/raw/vocab/synonyms.json decided the tier; the app never overrides a curated tier from context. */
+    curated?: true;
 }
 
 interface Word {
@@ -256,7 +310,9 @@ async function main() {
         }
     }
 
-    const relations = new Map<string, SynonymRelation>(); // pairKey -> relation
+    type Pair = Omit<SynonymEntry, 'id'>;
+    const relations = new Map<string, Pair>(); // pairKey -> everything but the id
+    const byId = new Map(words.map(w => [w.id, w]));
     let autoPairs = 0;
     const seen = new Set<string>();
     for (const list of buckets.values()) {
@@ -267,26 +323,23 @@ async function main() {
                 const key = pairKey(a.id, b.id);
                 if (seen.has(key)) continue;
                 seen.add(key);
-                // NOTE: the POS guard (`if (!sharesPos(a.pos, b.pos)) continue;`)
-                // is intentionally disabled for leniency - clustering is cross-POS
-                // now, so 強い (i-adj) and 丈夫 (na-adj) can pair. sharesPos/pos are
-                // kept for the one-line re-tighten (see the file header).
-                // Three ways in (see the file header): the flattened ratio for
-                // words whose gloss sets look alike, sense coverage for a
-                // polysemous word one of whose senses the other expresses (一番/
-                // 最高), and transitivity pairs the ratio misses (並ぶ/並べる).
-                const overlaps = glossOverlap(a.glosses, b.glosses);
-                const covered = sharedGlosses(a.glosses, b.glosses) >= MIN_SHARED
-                    && (senseCovered(a.senses, b.glosses) || senseCovered(b.senses, a.glosses));
-                if (overlaps || covered || isTransitivityPair(a, b)) {
-                    relations.set(key, 'interchangeable'); // lenient default; hand-demote to confusable / exclude
-                    autoPairs++;
-                }
+                // ANY shared gloss makes a pair. Whether a word is a
+                // synonym depends on the sense the quiz is using, which only the app
+                // knows, so the build records WHICH glosses are shared and lets the
+                // app check them against the sentence or cue in front of the learner.
+                // The original three rules now only set the out-of-context tier
+                // (autoTier). The POS guard stays disabled, as before.
+                relations.set(key, {
+                    relation: autoTier(a, b),
+                    shared: sharedGlossList(a.glosses, b.glosses),
+                    overlap: overlapScore(a.glosses, b.glosses),
+                });
+                autoPairs++;
             }
         }
     }
 
-    // Hand-authored overrides: exclude false positives, then add/promote pairs.
+    // Hand-authored overrides: exclude false positives, then add/set curated tiers.
     const overrides: RawOverrides = fs.existsSync(OVERRIDES_PATH)
         ? JSON.parse(fs.readFileSync(OVERRIDES_PATH, 'utf-8'))
         : {};
@@ -300,7 +353,13 @@ async function main() {
             for (let j = i + 1; j < cids.length; j++) {
                 const key = pairKey(cids[i], cids[j]);
                 if (relations.has(key)) promoted++; else handAdded++;
-                relations.set(key, relation);
+                const a = byId.get(cids[i]), b = byId.get(cids[j]);
+                relations.set(key, {
+                    relation,
+                    shared: a && b ? sharedGlossList(a.glosses, b.glosses) : [],
+                    overlap: a && b ? overlapScore(a.glosses, b.glosses) : 0,
+                    curated: true,
+                });
             }
         }
     }
@@ -308,16 +367,16 @@ async function main() {
     // Build the symmetric adjacency, then embed each word's list into its OWN
     // compiled vocab file (per-vocab delivery - see the file header) rather than one
     // big index.
-    const index = new Map<string, { id: string; relation: SynonymRelation }[]>();
-    const add = (from: string, to: string, relation: SynonymRelation) => {
+    const index = new Map<string, SynonymEntry[]>();
+    const add = (from: string, to: string, pair: Pair) => {
         const list = index.get(from) ?? [];
-        list.push({ id: to, relation });
+        list.push({ id: to, ...pair });
         index.set(from, list);
     };
-    for (const [key, relation] of relations) {
+    for (const [key, pair] of relations) {
         const [a, b] = key.split(' ');
-        add(a, b, relation);
-        add(b, a, relation);
+        add(a, b, pair);
+        add(b, a, pair);
     }
     for (const list of index.values()) list.sort((x, y) => x.id.localeCompare(y.id));
 
@@ -338,7 +397,7 @@ async function main() {
     }
 
     const total = relations.size;
-    const inter = [...relations.values()].filter(r => r === 'interchangeable').length;
+    const inter = [...relations.values()].filter(r => r.relation === 'interchangeable').length;
     console.log(`✅ Synonyms embedded into compiled vocab files`);
     console.log(`   - Words scanned: ${words.length} (full vocab coverage)`);
     console.log(`   - Pairs: ${total} (${inter} interchangeable, ${total - inter} confusable)`);
