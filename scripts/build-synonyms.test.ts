@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { coarsePosSet, sharesPos, normalizeGloss, sharedGlosses, glossOverlap, senseCovered, kanjiStem, isTransitivityPair, sharedGlossList, overlapScore, autoTier } from './build-synonyms';
+import { coarsePosSet, sharesPos, normalizeGloss, sharedGlosses, glossOverlap, senseCovered, kanjiStem, isTransitivityPair, sharedGlossList, overlapScore, autoTier, synonymForms } from './build-synonyms';
 
 const S = (...xs: string[]) => new Set(xs);
 
@@ -210,5 +210,30 @@ describe('context-aware synonym entries', () => {
             word([['line up', 'stand in a line', 'be in a row', 'queue', 'wait']], { stem: '並', vi: true }),
             word([['line up', 'arrange', 'set out', 'display', 'enumerate']], { stem: '並', vt: true }),
         )).toBe('interchangeable');
+    });
+});
+describe('synonymForms (answerable forms embedded on each entry)', () => {
+    it('lists written forms then readings, primary first, with the readings of merged homographs', () => {
+        expect(synonymForms({
+            writtenForm: { kanji: '玄関', alternatives: ['玄關'] },
+            reading: { primary: 'げんかん', alternatives: [] },
+            mergedVocabs: [{ originalPrimaryReading: 'げんかんぐち' }],
+            senses: [{ pos: ['n'] }],
+        })).toEqual({ w: ['玄関', '玄關'], r: ['げんかん', 'げんかんぐち'] });
+    });
+
+    it('keeps only the POS codes that decide inflection, deduped and sorted', () => {
+        expect(synonymForms({
+            writtenForm: { kanji: '並べる', alternatives: [] },
+            reading: { primary: 'ならべる', alternatives: [] },
+            senses: [{ pos: ['v1', 'vt'] }, { pos: ['v1', 'vt', 'n'] }],
+        }).pos).toEqual(['v1']);
+        expect(synonymForms({ writtenForm: { kanji: '登場' }, reading: { primary: 'とうじょう' }, senses: [{ pos: ['n', 'vs', 'vi'] }] }).pos).toEqual(['vs']);
+    });
+
+    it('omits pos for a word that does not inflect, and drops empty or repeated forms', () => {
+        const forms = synonymForms({ writtenForm: { kanji: '', alternatives: ['あら'] }, reading: { primary: 'あら', alternatives: ['あら'] }, senses: [{ pos: ['n'] }] });
+        expect(forms).toEqual({ w: ['あら'], r: ['あら'] });
+        expect('pos' in forms).toBe(false);
     });
 });
