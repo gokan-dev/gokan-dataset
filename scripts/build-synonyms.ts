@@ -3,7 +3,8 @@ import path from 'path';
 
 /**
  * Attaches each vocab's near-synonym list to its own compiled vocab file
- * (`compiled/vocab/{id}.json` gains a `synonyms: [{ id, relation }]` field) for the
+ * (`compiled/vocab/{id}.json` gains a `synonyms: [{ id, relation, shared, overlap, w, r, pos }]`
+ * field, see SynonymEntry / SynonymForms) for the
  * production quiz's synonym-aware grading (gokan-srs#71 Part B). Symmetric,
  * relation ∈ { 'interchangeable', 'confusable' }.
  *
@@ -243,8 +244,52 @@ export interface SynonymEntry {
     curated?: true;
 }
 
+/**
+ * The OTHER word's answerable forms, embedded on each entry so a consumer can
+ * tell whether a typed answer is that word without fetching its vocab file
+ * (a word can list hundreds of pairs). Kept terse because it repeats on every
+ * one of ~475k entries.
+ */
+export interface SynonymForms {
+    /** Written forms: kanji first, then alternatives. */
+    w: string[];
+    /** Readings: primary first, then alternatives, then merged homographs' readings. */
+    r: string[];
+    /** The word's inflecting POS codes only (v5k, v1, vs, adj-i...), so its conjugated forms can be accepted too. */
+    pos?: string[];
+}
+
+/** POS codes that decide how a word inflects; every other code is irrelevant to matching an answer. */
+const INFLECTING_POS = new Set([
+    'v5u', 'v5u-s', 'v5k', 'v5k-s', 'v5g', 'v5s', 'v5t', 'v5n', 'v5b', 'v5m', 'v5r', 'v5r-i', 'v5aru',
+    'v1', 'v1-s', 'vk', 'vs-i', 'vs-s', 'vs', 'adj-i', 'adj-ix', 'adj-na',
+]);
+
+interface CompiledVocabForms {
+    writtenForm?: { kanji?: string; alternatives?: string[] };
+    reading?: { primary?: string; alternatives?: string[] };
+    mergedVocabs?: { originalPrimaryReading?: string }[];
+    senses?: { pos?: string[] }[];
+}
+
+export function synonymForms(v: CompiledVocabForms): SynonymForms {
+    const unique = (xs: (string | undefined)[]) => [...new Set(xs.filter((x): x is string => !!x))];
+    const forms: SynonymForms = {
+        w: unique([v.writtenForm?.kanji, ...(v.writtenForm?.alternatives ?? [])]),
+        r: unique([
+            v.reading?.primary,
+            ...(v.reading?.alternatives ?? []),
+            ...(v.mergedVocabs ?? []).map(m => m.originalPrimaryReading),
+        ]),
+    };
+    const pos = unique((v.senses ?? []).flatMap(s => s.pos ?? []).filter(p => INFLECTING_POS.has(p))).sort();
+    if (pos.length > 0) forms.pos = pos;
+    return forms;
+}
+
 interface Word {
     id: string;
+    forms: SynonymForms;
     pos: Set<string>;       // every coarse class the word carries
     glosses: Set<string>;   // normalized, flattened across senses
     senses: Set<string>[];  // normalized, kept per sense for senseCovered
@@ -290,6 +335,7 @@ async function main() {
         const glosses = new Set<string>(senses.flatMap(s => [...s]));
         words.push({
             id, pos, glosses, senses,
+            forms: synonymForms(v),
             stem: kanjiStem(v.writtenForm?.kanji ?? ''),
             vi: posCodes.includes('vi'),
             vt: posCodes.includes('vt'),
@@ -367,10 +413,12 @@ async function main() {
     // Build the symmetric adjacency, then embed each word's list into its OWN
     // compiled vocab file (per-vocab delivery - see the file header) rather than one
     // big index.
-    const index = new Map<string, SynonymEntry[]>();
+    const index = new Map<string, (SynonymEntry & Partial<SynonymForms>)[]>();
     const add = (from: string, to: string, pair: Pair) => {
         const list = index.get(from) ?? [];
-        list.push({ id: to, ...pair });
+        // A hand-added pair can name a word the scan skipped (no major POS);
+        // its entry then carries no forms and a consumer falls back to fetching it.
+        list.push({ id: to, ...pair, ...byId.get(to)?.forms });
         index.set(from, list);
     };
     for (const [key, pair] of relations) {
