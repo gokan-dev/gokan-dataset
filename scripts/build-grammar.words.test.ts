@@ -193,3 +193,60 @@ describe('vocab linking precision (the あり -> 蟻 bug)', () => {
         expect(link('駅の近くにコンビニがあります。').find(w => w.surface === '駅')?.vocabId).toBe('v-eki');
     });
 });
+
+describe('conjugated stems link to their verb, not a homograph', () => {
+    let tokenizer: kuromoji.Tokenizer<kuromoji.IpadicFeatures>;
+
+    beforeAll(async () => {
+        tokenizer = await new Promise((resolve, reject) => {
+            kuromoji.builder({ dicPath: 'node_modules/kuromoji/dict' }).build((err, t) => {
+                if (err) reject(err); else resolve(t);
+            });
+        });
+    }, 30000);
+
+    // 来 "next" (as in 来年) and 教え "teaching" are real entries spelled exactly
+    // like the stems of 来る and 教える.
+    const searchIndex: SearchIndex = [
+        { id: 'v-rai', w: '来', r: 'らい', m: 'next' },
+        { id: 'v-kuru', w: '来る', r: 'くる', m: 'to come' },
+        { id: 'v-oshie', w: '教え', r: 'おしえ', m: 'teaching' },
+        { id: 'v-oshieru', w: '教える', r: 'おしえる', m: 'to teach' },
+        { id: 'v-miru', w: '見る', r: 'みる', m: 'to see' },
+        { id: 'v-eiga', w: '映画', r: 'えいが', m: 'movie' },
+        { id: 'v-iu', w: '言う', r: 'いう', m: 'to say' },
+    ];
+
+    function build(jp: string, formation: string) {
+        const lookup = buildVocabLookup(searchIndex, new Set(searchIndex.map(e => e.id)));
+        const vocabSet = new Set(lookup.byWrittenForm.keys());
+        return buildExampleWords(tokenizer, new SentenceTokenizer(tokenizer), vocabSet, lookup, jp, formation);
+    }
+
+    it('links 来 in 見に来ました to 来る, read き (the reported bug)', () => {
+        const { words, patternWordIndices } = build('映画を見に来ました。', 'Noun + に + 来ます');
+        const ki = words.find(w => w.surface === '来');
+        expect(ki).toMatchObject({ vocabId: 'v-kuru', reading: 'き', baseForm: '来る' });
+        // The blank is に来まし; its kana must be what the learner types.
+        const blank = patternWordIndices.map(i => words[i]);
+        expect(blank.map(w => w.surface).join('')).toBe('に来まし');
+        expect(blank.map(w => w.reading ?? w.surface).join('')).toBe('にきまし');
+    });
+
+    it('links the stem 教え in a conjugation to 教える, not to the noun', () => {
+        const { words } = build('日本語を教えてください。', '');
+        const stem = words.find(w => w.surface.startsWith('教え'));
+        expect(stem?.vocabId).toBe('v-oshieru');
+    });
+
+    it('still links an uninflected noun spelled like a stem', () => {
+        const { words } = build('先生の教えを守る。', '');
+        expect(words.find(w => w.surface === '教え')?.vocabId).toBe('v-oshie');
+    });
+
+    it('never anchors a kana marker on a stem whose reading happens to match it', () => {
+        // 言い (in 言いたい) reads いい, the marker of ～ばいい.
+        const { words, patternWordIndices } = build('何を言いたいのか、どう言えばいいのか分からない。', 'Verb-ば-form + いい');
+        expect(patternWordIndices.map(i => words[i].surface)).not.toContain('言い');
+    });
+});
