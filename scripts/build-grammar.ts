@@ -557,13 +557,19 @@ function spanTokens(tokens: kuromoji.IpadicFeatures[]): SpannedToken[] {
  */
 function wordFromToken(token: kuromoji.IpadicFeatures, lookup: ReturnType<typeof buildVocabLookup>): GrammarExampleWord {
     let match: { id: string; r: string } | undefined;
+    const hasBase = token.basic_form && token.basic_form !== '*';
+    const isInflected = hasBase && token.basic_form !== token.surface_form;
 
     if (CONTENT_POS.has(token.pos)) {
-        match = lookup.byWrittenForm.get(token.surface_form) ?? lookup.byWrittenForm.get(token.basic_form);
+        // A conjugated token is looked up by its dictionary form FIRST. Its surface
+        // is a stem, and a stem is often also a different word: 来 (来る's stem in
+        // 来ました) is the entry 来 "next" (らい), so the surface-first lookup linked
+        // every 見に来ました to the wrong word and made the blank's kana らい.
+        match = isInflected
+            ? lookup.byWrittenForm.get(token.basic_form) ?? lookup.byWrittenForm.get(token.surface_form)
+            : lookup.byWrittenForm.get(token.surface_form);
 
         if (!match) {
-            const hasBase = token.basic_form && token.basic_form !== '*';
-            const isInflected = hasBase && token.basic_form !== token.surface_form;
             // Short inflected kana fragments are where kuromoji's analysis is
             // least reliable, and a wrong basic_form sends the match to an
             // unrelated lexeme: すれ (する's conditional stem) is analysed as a
@@ -594,8 +600,15 @@ function wordFromToken(token: kuromoji.IpadicFeatures, lookup: ReturnType<typeof
         ? token.basic_form
         : undefined;
 
+    // The reading of THIS occurrence, not of the dictionary form: 来 in 来ました is
+    // き, and くる is not something the learner can type into that blank. Matches
+    // what a merged sentence-match already carries (きます for 来ます).
+    const reading = match && isInflected && token.reading && token.reading !== '*'
+        ? katakanaToHiragana(token.reading)
+        : match?.r;
+
     return match
-        ? { surface: token.surface_form, vocabId: match.id, reading: match.r, baseForm }
+        ? { surface: token.surface_form, vocabId: match.id, reading, baseForm }
         : { surface: token.surface_form, vocabId: null, baseForm };
 }
 
@@ -667,7 +680,15 @@ export function buildExampleWords(
     const spanned = spanTokens(tokenizer.tokenize(jp));
 
     // Fine-grained pass, purely to feed locatePattern - see doc comment.
-    const fineWords = spanned.map(st => wordFromToken(st.token, lookup));
+    // A conjugated token offers no reading here. A stem's reading is a fragment
+    // that can equal a kana marker by accident (言い in 言いたい reads いい, the
+    // marker of ～ばいい), and the dictionary form's reading used to do the same
+    // (行こ carried いく and took the anchor of ～ていく). Its surface and base
+    // form still match normally.
+    const fineWords = spanned.map(st => {
+        const word = wordFromToken(st.token, lookup);
+        return word.baseForm ? { ...word, reading: undefined } : word;
+    });
     const fineHit = locatePattern(formation, fineWords, title) ?? [];
 
     const rawMatches = sentenceTokenizer.extractMatches(jp, vocabSet);

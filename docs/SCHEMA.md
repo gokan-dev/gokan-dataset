@@ -142,7 +142,7 @@ interface GrammarExample {
 interface GrammarExampleWord {
   surface: string;
   vocabId: string | null;  // resolved against compiled/index/search.json; null for particles/symbols/unmatched, which are never turned into a fill-in-the-blank
-  reading?: string;         // matched vocab's primary reading; only set when vocabId is set
+  reading?: string;         // reading of THIS occurrence when the word is conjugated (き for the 来 of 来ました), otherwise the matched vocab's primary reading; only set when vocabId is set
   baseForm?: string;        // kuromoji's dictionary/base form (e.g. "思う" for the conjugated token "思っ"), only set when it differs from `surface`. Lets pattern-location (and any future consumer) match a formation's dictionary-form literal against a conjugated token without fuzzy/edit-distance matching.
 }
 ```
