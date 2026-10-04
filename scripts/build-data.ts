@@ -6,7 +6,7 @@ import type { Sentence } from '../src/models/sentence.model';
 import type { Kanji } from '../src/models/kanji.model';
 import type kuromoji from 'kuromoji';
 import { JMDict, JLPTVocabDatasetDTO } from "../src/models/data.model";
-import { buildMiscFlags, resolveJlptLevel } from './build-common';
+import { buildKanaKeyOwners, buildMiscFlags, resolveJlptLevel, type KanaOwnerOverrides } from './build-common';
 import { BUILD_LIMITS } from './build-constants';
 
 // --- Configuration ---
@@ -16,6 +16,7 @@ const INPUT_KANJI_FILE = './compiled/kanji.json';
 const INPUT_SENTENCES_FILE = './data/raw/Sentence pairs in Japanese-English - 2026-02-15.tsv';
 const INPUT_INDICES_FILE = './data/raw/jpn_indices.csv';
 const INPUT_JLPT_VOCAB_FILE = './data/raw/jlpt-vocab.json';
+const INPUT_JLPT_KANA_OWNERS_FILE = './data/raw/vocab/jlpt-kana-owners.json';
 
 const OUTPUT_VOCAB_DIR = './compiled/vocab';
 const OUTPUT_SENTENCES_DIR = './compiled/sentences';
@@ -87,6 +88,8 @@ async function main() {
     // JLPT Vocabulary
     console.log('   - JLPT vocab...');
     const jlptVocab: JLPTVocabDatasetDTO = JSON.parse(fs.readFileSync(INPUT_JLPT_VOCAB_FILE, 'utf-8'));
+    const kanaOwnerOverrides: KanaOwnerOverrides = JSON.parse(fs.readFileSync(INPUT_JLPT_KANA_OWNERS_FILE, 'utf-8'));
+    const kanaOwners = buildKanaKeyOwners(jlptVocab, jmdict.words, jpdb, kanaOwnerOverrides);
 
     // 2. Build Candidate Vocabulary List
     console.log('🔎 Processing vocabulary candidates...');
@@ -189,11 +192,13 @@ async function main() {
             entry.kana.length > 1 || senses.some(s => s.misc.isSuffix);
 
         // JLPT level: see resolveJlptLevel for why this tries alternative written
-        // forms and the reading as well as the kanji headword.
+        // forms and the kana keys this entry owns as well as the kanji headword.
         const jlptLevel = resolveJlptLevel(
             jlptVocab,
+            entry.id,
             [kanjiText, ...alternativeKanji],
             [primaryReading, ...alternativeReadings],
+            kanaOwners,
         );
 
         const vocabObj: BuildVocabulary = {

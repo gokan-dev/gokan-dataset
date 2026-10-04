@@ -22,7 +22,7 @@ interface Vocabulary {
     kanjiRank: number;            // JPDB frequency rank
     kanaRank?: number;
   };
-  jlptLevel?: number;             // 1 (N1, hardest) .. 5 (N5, easiest). Most entries have none - JMDict has ~40k+ words, the JLPT list covers ~8k. Matched on any of the word's written forms, then on its primary reading (for usually-kana words the JLPT list files under kana, e.g. 鞄 as かばん); see resolveJlptLevel.
+  jlptLevel?: number;             // 1 (N1, hardest) .. 5 (N5, easiest). Most entries have none - JMDict has ~40k+ words, the JLPT list covers ~8k. Matched on any of the word's written forms, and on any JLPT kana key the word owns (the list files usually-kana words under kana, e.g. 鞄 as かばん; each kana key is awarded to one word, never to its homophones, see buildKanaKeyOwners and data/raw/vocab/jlpt-kana-owners.json). When both match, the easiest level wins (綺麗 is listed at N1, きれい at N5). Uncovered list entries are reported in docs/JLPT_COVERAGE.md; see resolveJlptLevel.
   progression: {
     kklcStep: number;             // KKLC (Kanji Kentei) chapter step this word's kanji require. 99999 if its kanji fall outside the KKLC index.
   };
