@@ -319,7 +319,11 @@ async function main() {
     // delivery (below) makes covering everything affordable.
     const ids = frequency.map(e => e.id);
 
-    // Load every word with a major POS and glosses.
+    // Load every word with glosses, whatever its part of speech. Pairing has been
+    // POS-agnostic for a while, but this loader still skipped any word without a
+    // major class: every expression, interjection and conjunction (気を付けて,
+    // お願いします, 従って) had no synonyms at all, so 気をつける graded wrong on a
+    // card for 気を付けて even though both mean "be careful" (reported).
     const words: Word[] = [];
     for (const id of ids) {
         const p = path.join(VOCAB_DIR, `${id}.json`);
@@ -327,7 +331,6 @@ async function main() {
         const v = JSON.parse(fs.readFileSync(p, 'utf-8'));
         const posCodes: string[] = (v.senses ?? []).flatMap((s: { pos: string[] }) => s.pos ?? []);
         const pos = coarsePosSet(posCodes);
-        if (pos.size === 0) continue;
         const senses: Set<string>[] = (v.senses ?? [])
             .map((s: { glosses: string[] }) => new Set<string>((s.glosses ?? []).map(normalizeGloss).filter(Boolean)))
             .filter((s: Set<string>) => s.size > 0);
