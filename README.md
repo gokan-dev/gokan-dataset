@@ -59,6 +59,8 @@ compiled/                 build output, and the only thing most consumers need
   vocab/{id}.json         one file per word, keyed by JMDict id
   sentences/{id}.json     example sentences for that word, with match offsets
   grammar/points/{id}.json  grammar point with formation, explanation, examples
+  media/index.json        the hand-picked anime in the listening library
+  media/{id}.json         one file per anime: each episode's vocabulary, with counts
   index/
     frequency.json        word ids in frequency order
     jlpt.json             JLPT level to word ids
@@ -100,9 +102,13 @@ bun run build:kanji    # kanji.json and index/kklc-kanji.json
 bun run build:data     # the full vocabulary and sentence pipeline, roughly 1 to 2 minutes
 bun run build:jlpt     # index/jlpt.json, a fast pass over compiled vocabulary
 bun run build:grammar  # grammar points, requires build:data to have run first
+bun run build:media    # media/, from the committed Jiten snapshots, offline
+bun run fetch:media    # refresh those snapshots from Jiten's API (network, run by hand)
 ```
 
-`bun run build:data` chains `build:kanji` and `build:jlpt` around the main build, so it is usually the only one you need.
+`bun run build:data` chains `build:kanji` and `build:jlpt` around the main build, and `build:media` after it, so it is usually the only one you need.
+
+The anime in `media/` are chosen by hand in `data/raw/media/selection.json`. Adding one means adding its Jiten deck id there, running `bun run fetch:media <id>` to snapshot it into `data/raw/media/jiten/`, then `bun run build:media`. Only selected titles are fetched: Jiten's terms rule out mirroring its whole database.
 
 Sentence linking runs through a Kuromoji-based tokenizer (`src/utils/tokenizer.ts`) that handles compounds and deinflection, so 通っている resolves to 通う rather than splitting into fragments.
 
@@ -124,5 +130,6 @@ The compiled output is a derivative work of several upstream sources, each with 
 | [JPDB](https://jpdb.io) | Frequency data | See their terms |
 | [Bluskyo/JLPT_Vocabulary](https://github.com/Bluskyo/JLPT_Vocabulary) | JLPT level lists | CC BY, Jonathan Waller, via tanos.co.uk |
 | [hanabira.org-japanese-content](https://github.com/tristcoil/hanabira.org-japanese-content) | Grammar points | Creative Commons, link back to hanabira.org |
+| [Jiten](https://jiten.moe) | Per-episode anime vocabulary and speech statistics (`media/`) | [CC BY-SA 4.0](https://jiten.moe/terms), attribution required |
 
 If you redistribute the compiled data, verify compliance with all of the above, not only this repository's own license.
