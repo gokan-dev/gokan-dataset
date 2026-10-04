@@ -380,6 +380,7 @@ interface MediaIndexEntry {
   speechSpeed: number;           // morae per minute across the series, 0 when unknown
   difficulty: number;            // Jiten's estimate, roughly 0 (easiest) to 5
   links: { anilist?: string; myanimelist?: string };
+  cover?: { url: string; urlHiRes: string; color?: string; source: 'AniList' };   // see below
   source: { name: 'Jiten'; url: string; license: 'CC BY-SA 4.0' };
 }
 
@@ -393,6 +394,8 @@ interface MediaEpisode {
 ```
 
 **Only words that resolve to a `vocab/{id}.json` are kept**, directly or through a merged homograph (`mergedVocabs`). Particles, kana-only words and loanwords are not in this dataset's vocabulary, so they drop out, and roughly a third of an episode's distinct words with them. Any coverage figure computed from `words` is therefore coverage of the episode's kanji vocabulary, not of everything said; `sourceUniqueWords` is there so a consumer can say how much was left out.
+
+**`cover` is a URL on AniList's CDN, not data this repository licenses.** `scripts/fetch-anilist-covers.ts` (`bun run fetch:covers`, network, run by hand) looks each title up by the AniList id in Jiten's links and writes `data/raw/media/covers.json`; `build:media` attaches it when present. `url` is about 230px wide (cards), `urlHiRes` about 460px (a title page), `color` AniList's dominant colour for a placeholder. The artwork belongs to its studio: load it from AniList at display time, do not copy it into a redistributed build.
 
 ## `compiled/index/*.json` — lookup indexes
 

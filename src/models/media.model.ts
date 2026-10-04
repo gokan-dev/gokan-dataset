@@ -53,6 +53,20 @@ export interface JitenMediaSnapshot {
     }[];
 }
 
+/**
+ * One entry of `data/raw/media/covers.json` (keyed by Jiten deck id), written by
+ * fetch-anilist-covers.ts. URLs only: the images stay on AniList's CDN.
+ */
+export interface MediaCoverSnapshot {
+    anilistId: number;
+    /** About 230px wide, for cards. */
+    url: string;
+    /** About 460px wide, for a title's own page. */
+    urlHiRes: string;
+    /** AniList's dominant colour for the art, a placeholder while it loads. */
+    color?: string;
+}
+
 /** A compiled word count: a Gokan vocab id and its occurrences. */
 export type MediaWordCount = [vocabId: string, occurrences: number];
 
@@ -79,6 +93,12 @@ export interface MediaIndexEntry {
     /** Jiten's difficulty estimate, roughly 0 (easiest) to 5. */
     difficulty: number;
     links: { anilist?: string; myanimelist?: string };
+    /**
+     * Cover art hosted by AniList. Not covered by this dataset's license: the
+     * artwork belongs to its studio, so only the URL is stored and a consumer
+     * loads it from AniList.
+     */
+    cover?: { url: string; urlHiRes: string; color?: string; source: 'AniList' };
     source: { name: 'Jiten'; url: string; license: 'CC BY-SA 4.0' };
 }
 

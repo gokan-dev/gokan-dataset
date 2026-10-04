@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import type { Vocabulary } from '../src/models/vocabulary.model';
-import type { JitenMediaSnapshot, MediaIndexEntry, MediaSelectionEntry, MediaTitle, MediaWordCount } from '../src/models/media.model';
+import type { JitenMediaSnapshot, MediaCoverSnapshot, MediaIndexEntry, MediaSelectionEntry, MediaTitle, MediaWordCount } from '../src/models/media.model';
 
 /**
  * Compiles the Jiten snapshots in `data/raw/media/jiten/` into
@@ -21,6 +21,7 @@ import type { JitenMediaSnapshot, MediaIndexEntry, MediaSelectionEntry, MediaTit
 
 const SELECTION_FILE = './data/raw/media/selection.json';
 const SNAPSHOT_DIR = './data/raw/media/jiten';
+const COVERS_FILE = './data/raw/media/covers.json';
 const VOCAB_DIR = './compiled/vocab';
 const OUTPUT_DIR = './compiled/media';
 
@@ -58,7 +59,7 @@ export function resolveWords(words: [number, number][], resolve: VocabResolver):
     return [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
 }
 
-export function compileTitle(snapshot: JitenMediaSnapshot, resolve: VocabResolver): MediaTitle {
+export function compileTitle(snapshot: JitenMediaSnapshot, resolve: VocabResolver, cover?: MediaCoverSnapshot): MediaTitle {
     const linkOf = (type: number) => snapshot.links.find(l => l.type === type)?.url;
     const year = snapshot.releaseDate ? Number(snapshot.releaseDate.slice(0, 4)) : NaN;
 
@@ -78,6 +79,9 @@ export function compileTitle(snapshot: JitenMediaSnapshot, resolve: VocabResolve
             ...(linkOf(LINK_TYPE_ANILIST) ? { anilist: linkOf(LINK_TYPE_ANILIST) } : {}),
             ...(linkOf(LINK_TYPE_MYANIMELIST) ? { myanimelist: linkOf(LINK_TYPE_MYANIMELIST) } : {}),
         },
+        ...(cover ? {
+            cover: { url: cover.url, urlHiRes: cover.urlHiRes, ...(cover.color ? { color: cover.color } : {}), source: 'AniList' as const },
+        } : {}),
         source: { name: 'Jiten', url: snapshot.sourceUrl, license: 'CC BY-SA 4.0' },
         episodes: snapshot.episodes.map(episode => ({
             number: episode.number,
@@ -108,6 +112,10 @@ async function main() {
     console.log('📺 Building media library...');
     const selection = JSON.parse(fs.readFileSync(SELECTION_FILE, 'utf-8')) as MediaSelectionEntry[];
     const resolve = buildVocabResolver(loadVocabs());
+    // Optional: a title without a cover still compiles, the library just shows a plain card.
+    const covers: Record<string, MediaCoverSnapshot> = fs.existsSync(COVERS_FILE)
+        ? JSON.parse(fs.readFileSync(COVERS_FILE, 'utf-8'))
+        : {};
 
     fs.rmSync(OUTPUT_DIR, { recursive: true, force: true });
     fs.mkdirSync(OUTPUT_DIR, { recursive: true });
@@ -119,7 +127,7 @@ async function main() {
             throw new Error(`No snapshot for selected deck ${jitenDeckId}. Run \`bun run fetch:media ${jitenDeckId}\` first.`);
         }
         const snapshot = JSON.parse(fs.readFileSync(snapshotPath, 'utf-8')) as JitenMediaSnapshot;
-        const title = compileTitle(snapshot, resolve);
+        const title = compileTitle(snapshot, resolve, covers[String(jitenDeckId)]);
         fs.writeFileSync(path.join(OUTPUT_DIR, `${title.id}.json`), JSON.stringify(title));
         index.push(toIndexEntry(title));
 

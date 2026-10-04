@@ -107,11 +107,12 @@ bun run build:jlpt-coverage  # docs/JLPT_COVERAGE.md, the JLPT entries no compil
 bun run build:grammar  # grammar points, requires build:data to have run first
 bun run build:media    # media/, from the committed Jiten snapshots, offline
 bun run fetch:media    # refresh those snapshots from Jiten's API (network, run by hand)
+bun run fetch:covers   # record each title's AniList cover URL (network, run by hand, after fetch:media)
 ```
 
 `bun run build:data` chains `build:kanji`, `build:jlpt` and `build:jlpt-coverage` around the main build, and `build:media` after it, so it is usually the only one you need.
 
-The anime in `media/` are chosen by hand in `data/raw/media/selection.json`. Adding one means adding its Jiten deck id there, running `bun run fetch:media <id>` to snapshot it into `data/raw/media/jiten/`, then `bun run build:media`. Only selected titles are fetched: Jiten's terms rule out mirroring its whole database.
+The anime in `media/` are chosen by hand in `data/raw/media/selection.json`. Adding one means adding its Jiten deck id there, running `bun run fetch:media <id>` to snapshot it into `data/raw/media/jiten/`, then `bun run fetch:covers` and `bun run build:media`. Only selected titles are fetched: Jiten's terms rule out mirroring its whole database.
 
 Sentence linking runs through a Kuromoji-based tokenizer (`src/utils/tokenizer.ts`) that handles compounds and deinflection, so 通っている resolves to 通う rather than splitting into fragments.
 
@@ -134,5 +135,6 @@ The compiled output is a derivative work of several upstream sources, each with 
 | [Bluskyo/JLPT_Vocabulary](https://github.com/Bluskyo/JLPT_Vocabulary) | JLPT level lists | CC BY, Jonathan Waller, via tanos.co.uk |
 | [hanabira.org-japanese-content](https://github.com/tristcoil/hanabira.org-japanese-content) | Grammar points | Creative Commons, link back to hanabira.org |
 | [Jiten](https://jiten.moe) | Per-episode anime vocabulary and speech statistics (`media/`) | [CC BY-SA 4.0](https://jiten.moe/terms), attribution required |
+| [AniList](https://anilist.co) | Cover image URLs in `media/` (`cover`) | URLs only, the images stay on AniList's CDN. The artwork belongs to each title's studio and is **not** covered by this repository's license |
 
 If you redistribute the compiled data, verify compliance with all of the above, not only this repository's own license.

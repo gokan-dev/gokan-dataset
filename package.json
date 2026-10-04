@@ -18,7 +18,8 @@
     "build:curriculum-doc": "bun scripts/build-curriculum-doc.ts",
     "build:synonyms": "bun scripts/build-synonyms.ts",
     "build:media": "bun scripts/build-media.ts",
-    "fetch:media": "bun scripts/fetch-jiten.ts"
+    "fetch:media": "bun scripts/fetch-jiten.ts",
+    "fetch:covers": "bun scripts/fetch-anilist-covers.ts"
   },
   "devDependencies": {
     "@types/kuromoji": "^0.1.3",

@@ -1,5 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { buildVocabResolver, compileTitle, resolveWords, toIndexEntry } from './build-media';
+import { anilistIdOf } from './fetch-anilist-covers';
 import type { JitenMediaSnapshot } from '../src/models/media.model';
 
 const resolver = buildVocabResolver([
@@ -81,6 +82,24 @@ describe('compileTitle', () => {
         const title = compileTitle(snapshot({ releaseDate: null }), resolver);
         expect(title.title).toEqual({ original: 'のんのんびより', romaji: 'Non Non Biyori' });
         expect('releaseYear' in title).toBe(false);
+    });
+});
+
+describe('covers', () => {
+    it('reads the AniList id from the link Jiten records', () => {
+        expect(anilistIdOf(snapshot())).toBe(17549);
+        expect(anilistIdOf(snapshot({ links: [] }))).toBeNull();
+    });
+
+    it('attaches an AniList cover URL, credited, when one was fetched', () => {
+        const title = compileTitle(snapshot(), resolver, {
+            anilistId: 17549, url: 'https://s4.anilist.co/a.png', urlHiRes: 'https://s4.anilist.co/b.png', color: '#50e4bb',
+        });
+        expect(title.cover).toEqual({ url: 'https://s4.anilist.co/a.png', urlHiRes: 'https://s4.anilist.co/b.png', color: '#50e4bb', source: 'AniList' });
+    });
+
+    it('leaves the cover out when none was fetched', () => {
+        expect('cover' in compileTitle(snapshot(), resolver)).toBe(false);
     });
 });
 
