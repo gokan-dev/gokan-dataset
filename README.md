@@ -72,6 +72,8 @@ src/models/               TypeScript types mirroring the compiled shape
 
 [docs/SCHEMA.md](docs/SCHEMA.md) documents every file and field.
 
+[docs/JLPT_COVERAGE.md](docs/JLPT_COVERAGE.md) lists every JLPT vocabulary entry no compiled word answers, grouped by why (no kanji spelling, dropped by the build, not in JMdict). Regenerated on every `bun run build:data`.
+
 For the grammar half specifically, three docs answer different questions:
 
 - **[docs/GRAMMAR_TEACHING_MODEL.md](docs/GRAMMAR_TEACHING_MODEL.md)** explains the model in plain English: what a point, chapter, family, lesson and case each are, how they relate, and why the curriculum is arranged the way it is. Start here.
@@ -99,10 +101,11 @@ bun install
 bun run build:kanji    # kanji.json and index/kklc-kanji.json
 bun run build:data     # the full vocabulary and sentence pipeline, roughly 1 to 2 minutes
 bun run build:jlpt     # index/jlpt.json, a fast pass over compiled vocabulary
+bun run build:jlpt-coverage  # docs/JLPT_COVERAGE.md, the JLPT entries no compiled word answers
 bun run build:grammar  # grammar points, requires build:data to have run first
 ```
 
-`bun run build:data` chains `build:kanji` and `build:jlpt` around the main build, so it is usually the only one you need.
+`bun run build:data` chains `build:kanji`, `build:jlpt` and `build:jlpt-coverage` around the main build, so it is usually the only one you need.
 
 Sentence linking runs through a Kuromoji-based tokenizer (`src/utils/tokenizer.ts`) that handles compounds and deinflection, so 通っている resolves to 通う rather than splitting into fragments.
 

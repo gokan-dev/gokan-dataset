@@ -4,9 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "build:data": "rimraf ./compiled/vocab && rimraf ./compiled/sentences && bun run build:kanji && bun scripts/build-data.ts && bun run build:jlpt && bun run build:synonyms",
+    "build:data": "rimraf ./compiled/vocab && rimraf ./compiled/sentences && bun run build:kanji && bun scripts/build-data.ts && bun run build:jlpt && bun run build:jlpt-coverage && bun run build:synonyms",
     "build:kanji": "bun scripts/build-kanji.ts",
     "build:jlpt": "bun scripts/build-jlpt-index.ts",
+    "build:jlpt-coverage": "bun scripts/build-jlpt-coverage.ts",
     "build:grammar": "bun scripts/build-grammar.ts && bun run build:curriculum && bun run build:conjugations && bun run build:browse && bun run build:curriculum-doc && bun run build:grammar-sentences",
   "build:grammar-sentences": "bun scripts/build-grammar-sentences.ts",
     "build:jpdb": "node scripts/jpdb-v2.2-tsv-to-json.js",
