@@ -74,6 +74,8 @@ src/models/               TypeScript types mirroring the compiled shape
 
 [docs/SCHEMA.md](docs/SCHEMA.md) documents every file and field.
 
+[docs/JLPT_COVERAGE.md](docs/JLPT_COVERAGE.md) lists every JLPT vocabulary entry no compiled word answers, grouped by why (no kanji spelling, dropped by the build, not in JMdict). Regenerated on every `bun run build:data`.
+
 For the grammar half specifically, three docs answer different questions:
 
 - **[docs/GRAMMAR_TEACHING_MODEL.md](docs/GRAMMAR_TEACHING_MODEL.md)** explains the model in plain English: what a point, chapter, family, lesson and case each are, how they relate, and why the curriculum is arranged the way it is. Start here.
@@ -101,12 +103,13 @@ bun install
 bun run build:kanji    # kanji.json and index/kklc-kanji.json
 bun run build:data     # the full vocabulary and sentence pipeline, roughly 1 to 2 minutes
 bun run build:jlpt     # index/jlpt.json, a fast pass over compiled vocabulary
+bun run build:jlpt-coverage  # docs/JLPT_COVERAGE.md, the JLPT entries no compiled word answers
 bun run build:grammar  # grammar points, requires build:data to have run first
 bun run build:media    # media/, from the committed Jiten snapshots, offline
 bun run fetch:media    # refresh those snapshots from Jiten's API (network, run by hand)
 ```
 
-`bun run build:data` chains `build:kanji` and `build:jlpt` around the main build, and `build:media` after it, so it is usually the only one you need.
+`bun run build:data` chains `build:kanji`, `build:jlpt` and `build:jlpt-coverage` around the main build, and `build:media` after it, so it is usually the only one you need.
 
 The anime in `media/` are chosen by hand in `data/raw/media/selection.json`. Adding one means adding its Jiten deck id there, running `bun run fetch:media <id>` to snapshot it into `data/raw/media/jiten/`, then `bun run build:media`. Only selected titles are fetched: Jiten's terms rule out mirroring its whole database.
 
