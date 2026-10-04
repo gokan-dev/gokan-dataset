@@ -1,7 +1,8 @@
 import fs from 'fs';
 import path from 'path';
 import type { Vocabulary } from '../src/models/vocabulary.model';
-import type { JitenMediaSnapshot, MediaCoverSnapshot, MediaIndexEntry, MediaSelectionEntry, MediaTitle, MediaWordCount } from '../src/models/media.model';
+import type { JitenMediaSnapshot, MediaCoverSnapshot, MediaIndexEntry, MediaLibraryWords, MediaSelectionEntry, MediaTitle, MediaWordCount } from '../src/models/media.model';
+import { JITEN_GENRES } from '../src/models/media.model';
 
 /**
  * Compiles the Jiten snapshots in `data/raw/media/jiten/` into
@@ -24,6 +25,10 @@ const SNAPSHOT_DIR = './data/raw/media/jiten';
 const COVERS_FILE = './data/raw/media/covers.json';
 const VOCAB_DIR = './compiled/vocab';
 const OUTPUT_DIR = './compiled/media';
+
+/** A tag is kept when at least this share of Jiten's voters agree, and at most MAX_TAGS of them. */
+const MIN_TAG_PERCENTAGE = 60;
+const MAX_TAGS = 5;
 
 /** Jiten's link types for the two catalogues worth linking to. */
 const LINK_TYPE_ANILIST = 4;
@@ -75,6 +80,8 @@ export function compileTitle(snapshot: JitenMediaSnapshot, resolve: VocabResolve
         episodeCount: snapshot.episodes.length,
         speechSpeed: snapshot.stats.speechSpeed,
         difficulty: snapshot.stats.difficulty,
+        genres: (snapshot.genres ?? []).map(id => JITEN_GENRES[id]).filter((name): name is string => Boolean(name)),
+        tags: (snapshot.tags ?? []).filter(t => t.percentage >= MIN_TAG_PERCENTAGE).slice(0, MAX_TAGS).map(t => t.name),
         links: {
             ...(linkOf(LINK_TYPE_ANILIST) ? { anilist: linkOf(LINK_TYPE_ANILIST) } : {}),
             ...(linkOf(LINK_TYPE_MYANIMELIST) ? { myanimelist: linkOf(LINK_TYPE_MYANIMELIST) } : {}),
@@ -91,6 +98,15 @@ export function compileTitle(snapshot: JitenMediaSnapshot, resolve: VocabResolve
             words: resolveWords(episode.words, resolve),
         })),
     };
+}
+
+/** A whole series' word list: every episode's counts summed, most frequent first. */
+export function seriesWords(title: MediaTitle): MediaWordCount[] {
+    const counts = new Map<string, number>();
+    for (const episode of title.episodes) {
+        for (const [vocabId, count] of episode.words) counts.set(vocabId, (counts.get(vocabId) ?? 0) + count);
+    }
+    return [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
 }
 
 export function toIndexEntry(title: MediaTitle): MediaIndexEntry {
@@ -120,16 +136,24 @@ async function main() {
     fs.rmSync(OUTPUT_DIR, { recursive: true, force: true });
     fs.mkdirSync(OUTPUT_DIR, { recursive: true });
 
+    // A selected title without a snapshot fails the build, unless --allow-missing:
+    // fetch:media over a long selection takes hours, and a partial library is
+    // worth shipping while it runs. The skipped ids are always listed.
+    const allowMissing = process.argv.includes('--allow-missing');
+    const missing: number[] = [];
     const index: MediaIndexEntry[] = [];
+    const library: MediaLibraryWords = {};
     for (const { jitenDeckId } of selection) {
         const snapshotPath = path.join(SNAPSHOT_DIR, `${jitenDeckId}.json`);
         if (!fs.existsSync(snapshotPath)) {
-            throw new Error(`No snapshot for selected deck ${jitenDeckId}. Run \`bun run fetch:media ${jitenDeckId}\` first.`);
+            if (allowMissing) { missing.push(jitenDeckId); continue; }
+            throw new Error(`No snapshot for selected deck ${jitenDeckId}. Run \`bun run fetch:media\` first (or build with --allow-missing).`);
         }
         const snapshot = JSON.parse(fs.readFileSync(snapshotPath, 'utf-8')) as JitenMediaSnapshot;
         const title = compileTitle(snapshot, resolve, covers[String(jitenDeckId)]);
         fs.writeFileSync(path.join(OUTPUT_DIR, `${title.id}.json`), JSON.stringify(title));
         index.push(toIndexEntry(title));
+        library[title.id] = seriesWords(title);
 
         const kept = title.episodes.reduce((n, e) => n + e.words.length, 0);
         const seen = title.episodes.reduce((n, e) => n + e.sourceUniqueWords, 0);
@@ -137,6 +161,10 @@ async function main() {
     }
 
     fs.writeFileSync(path.join(OUTPUT_DIR, 'index.json'), JSON.stringify(index));
+    // Separate from index.json, which the Main hub loads just for covers: only
+    // the library page needs every title's words, to rank them by coverage.
+    fs.writeFileSync(path.join(OUTPUT_DIR, 'library.json'), JSON.stringify(library));
+    if (missing.length > 0) console.warn(`   ⚠ ${missing.length} selected title(s) skipped, no snapshot yet: ${missing.join(', ')}`);
     console.log(`✅ ${index.length} title(s) written to ${OUTPUT_DIR}.`);
 }
 

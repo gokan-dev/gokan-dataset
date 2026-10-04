@@ -366,7 +366,7 @@ A point may carry `slot?: 'clause-final' | 'sentence-initial' | 'predicate-final
 
 Per-episode vocabulary for a small, hand-picked set of anime, so a consumer can tell a learner how much of an episode's vocabulary they already know. Sourced from [Jiten](https://jiten.moe) (derived data, CC BY-SA 4.0, attribution required). Neither Jiten nor this dataset distributes subtitles: what is stored is which words an episode uses and how often.
 
-The titles are listed in `data/raw/media/selection.json`; `scripts/fetch-jiten.ts` (`bun run fetch:media`, network, run by hand) snapshots each one into `data/raw/media/jiten/{deckId}.json`, and `scripts/build-media.ts` (`bun run build:media`, offline, chained from `build:data`) compiles the snapshots. Types are in `src/models/media.model.ts`.
+The titles are listed in `data/raw/media/selection.json` (hand-picked entries, plus `source: 'easiest'` entries added by `scripts/select-easiest-anime.ts`, `bun run select:media`, from Jiten's difficulty ranking); `scripts/fetch-jiten.ts` (`bun run fetch:media`, network, run by hand, only titles without a snapshot unless given ids or `--refresh`) snapshots each one into `data/raw/media/jiten/{deckId}.json`, and `scripts/build-media.ts` (`bun run build:media`, offline, chained from `build:data`) compiles the snapshots. Types are in `src/models/media.model.ts`.
 
 `media/index.json` is `MediaIndexEntry[]`, and `media/{id}.json` is one `MediaTitle` (the same fields plus `episodes`):
 
@@ -380,6 +380,8 @@ interface MediaIndexEntry {
   speechSpeed: number;           // morae per minute across the series, 0 when unknown
   difficulty: number;            // Jiten's estimate, roughly 0 (easiest) to 5
   links: { anilist?: string; myanimelist?: string };
+  genres: string[];              // Jiten genre names, e.g. "Comedy", "Slice of Life"
+  tags: string[];                // up to five Jiten community tags voted by at least 60%
   cover?: { url: string; urlHiRes: string; color?: string; source: 'AniList' };   // see below
   source: { name: 'Jiten'; url: string; license: 'CC BY-SA 4.0' };
 }
@@ -392,6 +394,8 @@ interface MediaEpisode {
   words: [vocabId: string, occurrences: number][];   // Gokan vocabulary only, most frequent first
 }
 ```
+
+`media/library.json` is `Record<id, [vocabId: string, occurrences: number][]>`: each title's words summed over every episode, so a consumer can rank the whole library by coverage without loading each title file. A film or special has a single episode.
 
 **Only words that resolve to a `vocab/{id}.json` are kept**, directly or through a merged homograph (`mergedVocabs`). Particles, kana-only words and loanwords are not in this dataset's vocabulary, so they drop out, and roughly a third of an episode's distinct words with them. Any coverage figure computed from `words` is therefore coverage of the episode's kanji vocabulary, not of everything said; `sourceUniqueWords` is there so a consumer can say how much was left out.
 

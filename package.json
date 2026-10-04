@@ -19,7 +19,8 @@
     "build:synonyms": "bun scripts/build-synonyms.ts",
     "build:media": "bun scripts/build-media.ts",
     "fetch:media": "bun scripts/fetch-jiten.ts",
-    "fetch:covers": "bun scripts/fetch-anilist-covers.ts"
+    "fetch:covers": "bun scripts/fetch-anilist-covers.ts",
+    "select:media": "bun scripts/select-easiest-anime.ts"
   },
   "devDependencies": {
     "@types/kuromoji": "^0.1.3",

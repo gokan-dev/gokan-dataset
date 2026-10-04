@@ -15,8 +15,9 @@ import type { JitenDeckStats, JitenMediaSnapshot, JitenWordCount, MediaSelection
  * titles, one request at a time with a pause between each. Its derived data is
  * CC BY-SA 4.0, attribution required (see README).
  *
- * Usage: `bun run fetch:media` refreshes every selected title; pass deck ids
- * (`bun run fetch:media 16685`) to refresh only those.
+ * Usage: `bun run fetch:media` snapshots every selected title that has no
+ * snapshot yet; `bun run fetch:media 16685 51581` (re)fetches those decks;
+ * `bun run fetch:media --refresh` refetches every selected title.
  */
 
 const API = 'https://api.jiten.moe/api';
@@ -40,6 +41,8 @@ interface ApiDeck {
     speechSpeed: number | null;
     difficultyRaw: number | null;
     links?: { linkType: number; url: string }[];
+    genres?: number[];
+    tags?: { name: string; percentage: number }[];
 }
 
 interface ApiVocabularyPage {
@@ -101,8 +104,10 @@ async function fetchTitle(deckId: number): Promise<JitenMediaSnapshot> {
     const { mainDeck, subDecks } = detail.data;
     console.log(`📺 ${mainDeck.originalTitle} (${subDecks.length} episodes)`);
 
+    // A film or a one-off special has no episode sub-decks: it is its own single episode.
+    const parts = subDecks.length > 0 ? subDecks : [{ ...mainDeck, originalTitle: 'Episode 1' }];
     const episodes: JitenMediaSnapshot['episodes'] = [];
-    for (const [position, sub] of subDecks.entries()) {
+    for (const [position, sub] of parts.entries()) {
         const words = await fetchWords(sub.deckId);
         episodes.push({
             deckId: sub.deckId,
@@ -125,23 +130,37 @@ async function fetchTitle(deckId: number): Promise<JitenMediaSnapshot> {
         releaseDate: mainDeck.releaseDate,
         links: (mainDeck.links ?? []).map(l => ({ type: l.linkType, url: l.url })),
         stats: statsOf(mainDeck),
+        genres: mainDeck.genres ?? [],
+        tags: (mainDeck.tags ?? [])
+            .map(t => ({ name: t.name, percentage: t.percentage }))
+            .sort((a, b) => b.percentage - a.percentage),
         episodes,
     };
 }
 
 async function main() {
     const selection = JSON.parse(fs.readFileSync(SELECTION_FILE, 'utf-8')) as MediaSelectionEntry[];
-    const only = new Set(process.argv.slice(2).map(Number));
-    const targets = selection.filter(s => only.size === 0 || only.has(s.jitenDeckId));
-    if (targets.length === 0) throw new Error('Nothing to fetch: no selected deck matches the given ids.');
+    const args = process.argv.slice(2);
+    const refreshAll = args.includes('--refresh');
+    const only = new Set(args.filter(a => /^[0-9]+$/.test(a)).map(Number));
+    const snapshotPath = (id: number) => path.join(OUTPUT_DIR, `${id}.json`);
+    const targets = selection.filter(s =>
+        only.size > 0 ? only.has(s.jitenDeckId) : refreshAll || !fs.existsSync(snapshotPath(s.jitenDeckId))
+    );
+    if (targets.length === 0) {
+        console.log('Nothing to fetch: every selected title already has a snapshot (pass --refresh or deck ids to refetch).');
+        return;
+    }
 
     fs.mkdirSync(OUTPUT_DIR, { recursive: true });
-    for (const { jitenDeckId } of targets) {
+    for (const [i, { jitenDeckId }] of targets.entries()) {
+        console.log(`[${i + 1}/${targets.length}]`);
         const snapshot = await fetchTitle(jitenDeckId);
         // Indented so a refresh diffs readably, with each [wordId, count] pair kept
-        // on one line rather than spread over four.
+        // on one line rather than spread over four. Written per title, so an
+        // interrupted run resumes where it stopped.
         const json = JSON.stringify(snapshot, null, 1).replace(/\[\s*(\d+),\s*(\d+)\s*\]/g, '[$1,$2]');
-        fs.writeFileSync(path.join(OUTPUT_DIR, `${jitenDeckId}.json`), json + '\n');
+        fs.writeFileSync(snapshotPath(jitenDeckId), json + '\n');
     }
     console.log(`✅ ${targets.length} title(s) snapshotted into ${OUTPUT_DIR}. Run build:media next.`);
 }

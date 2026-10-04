@@ -1,5 +1,6 @@
 import { describe, it, expect } from 'vitest';
-import { buildVocabResolver, compileTitle, resolveWords, toIndexEntry } from './build-media';
+import { buildVocabResolver, compileTitle, resolveWords, seriesWords, toIndexEntry } from './build-media';
+import { isEligible } from './select-easiest-anime';
 import { anilistIdOf } from './fetch-anilist-covers';
 import type { JitenMediaSnapshot } from '../src/models/media.model';
 
@@ -100,6 +101,45 @@ describe('covers', () => {
 
     it('leaves the cover out when none was fetched', () => {
         expect('cover' in compileTitle(snapshot(), resolver)).toBe(false);
+    });
+});
+
+describe('genres, tags and series words', () => {
+    it('names Jiten genre ids and keeps only strongly voted tags, at most five', () => {
+        const title = compileTitle(snapshot({
+            genres: [3, 14, 99],
+            tags: [
+                { name: 'Countryside', percentage: 95 }, { name: 'School', percentage: 71 }, { name: 'A', percentage: 70 },
+                { name: 'B', percentage: 65 }, { name: 'C', percentage: 61 }, { name: 'D', percentage: 60 }, { name: 'Weak', percentage: 40 },
+            ],
+        }), resolver);
+        expect(title.genres).toEqual(['Comedy', 'Slice of Life']);
+        expect(title.tags).toEqual(['Countryside', 'School', 'A', 'B', 'C']);
+    });
+
+    it('treats a snapshot taken before genres were recorded as having none', () => {
+        const title = compileTitle(snapshot(), resolver);
+        expect(title.genres).toEqual([]);
+        expect(title.tags).toEqual([]);
+    });
+
+    it('sums each word across every episode for the series list', () => {
+        const title = compileTitle(snapshot({
+            episodes: [
+                { deckId: 1, number: 1, title: 'Episode 1', stats, words: [[1358280, 3]] },
+                { deckId: 2, number: 2, title: 'Episode 2', stats, words: [[1358280, 2], [1000420, 4]] },
+            ],
+        }), resolver);
+        expect(seriesWords(title)).toEqual([['1358280', 5], ['1000420', 4]]);
+    });
+});
+
+describe('isEligible', () => {
+    it('keeps an ordinary title and skips adult, ecchi and long-running ones', () => {
+        expect(isEligible([3, 14], 12)).toBe(true);
+        expect(isEligible([3, 5], 12)).toBe(false);
+        expect(isEligible([18], 1)).toBe(false);
+        expect(isEligible([3], 53)).toBe(false);
     });
 });
 

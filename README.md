@@ -59,7 +59,8 @@ compiled/                 build output, and the only thing most consumers need
   vocab/{id}.json         one file per word, keyed by JMDict id
   sentences/{id}.json     example sentences for that word, with match offsets
   grammar/points/{id}.json  grammar point with formation, explanation, examples
-  media/index.json        the hand-picked anime in the listening library
+  media/index.json        the anime in the listening library
+  media/library.json      every title's whole-series vocabulary, for ranking them
   media/{id}.json         one file per anime: each episode's vocabulary, with counts
   index/
     frequency.json        word ids in frequency order
@@ -106,13 +107,14 @@ bun run build:jlpt     # index/jlpt.json, a fast pass over compiled vocabulary
 bun run build:jlpt-coverage  # docs/JLPT_COVERAGE.md, the JLPT entries no compiled word answers
 bun run build:grammar  # grammar points, requires build:data to have run first
 bun run build:media    # media/, from the committed Jiten snapshots, offline
-bun run fetch:media    # refresh those snapshots from Jiten's API (network, run by hand)
+bun run select:media   # add Jiten's easiest anime to the selection (network, run by hand)
+bun run fetch:media    # snapshot selected titles that have none yet (network, run by hand; --refresh for all)
 bun run fetch:covers   # record each title's AniList cover URL (network, run by hand, after fetch:media)
 ```
 
 `bun run build:data` chains `build:kanji`, `build:jlpt` and `build:jlpt-coverage` around the main build, and `build:media` after it, so it is usually the only one you need.
 
-The anime in `media/` are chosen by hand in `data/raw/media/selection.json`. Adding one means adding its Jiten deck id there, running `bun run fetch:media <id>` to snapshot it into `data/raw/media/jiten/`, then `bun run fetch:covers` and `bun run build:media`. Only selected titles are fetched: Jiten's terms rule out mirroring its whole database.
+The anime in `media/` are listed in `data/raw/media/selection.json`: a few picked by hand, plus Jiten's 100 easiest eligible anime added by `select:media` (Adult and Ecchi genres and titles over 52 episodes are skipped). Adding one by hand means adding its Jiten deck id there, running `bun run fetch:media <id>` to snapshot it into `data/raw/media/jiten/`, then `bun run fetch:covers` and `bun run build:media`. Only selected titles are fetched: Jiten's terms rule out mirroring its whole database.
 
 Sentence linking runs through a Kuromoji-based tokenizer (`src/utils/tokenizer.ts`) that handles compounds and deinflection, so 通っている resolves to 通う rather than splitting into fragments.
 

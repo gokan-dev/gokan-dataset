@@ -13,7 +13,7 @@ import type { JitenMediaSnapshot, MediaCoverSnapshot, MediaSelectionEntry } from
  * the title, so run `fetch:media` first for a newly selected title.
  *
  * Run by hand (`bun run fetch:covers`), like fetch:media. One GraphQL request
- * covers every title.
+ * per 50 titles (AniList's page size).
  */
 
 const SELECTION_FILE = './data/raw/media/selection.json';
@@ -47,20 +47,28 @@ async function main() {
     const anilistIdByDeck = new Map<number, number>();
     for (const { jitenDeckId } of selection) {
         const snapshotPath = path.join(SNAPSHOT_DIR, `${jitenDeckId}.json`);
-        if (!fs.existsSync(snapshotPath)) throw new Error(`No snapshot for ${jitenDeckId}. Run \`bun run fetch:media ${jitenDeckId}\` first.`);
+        if (!fs.existsSync(snapshotPath)) {
+            console.warn(`   ⚠ ${jitenDeckId} has no snapshot yet; skipped (run fetch:media, then this again).`);
+            continue;
+        }
         const anilistId = anilistIdOf(JSON.parse(fs.readFileSync(snapshotPath, 'utf-8')) as JitenMediaSnapshot);
         if (anilistId === null) console.warn(`   ⚠ ${jitenDeckId} has no AniList link; it will have no cover.`);
         else anilistIdByDeck.set(jitenDeckId, anilistId);
     }
 
-    const response = await fetch(ANILIST_API, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-        body: JSON.stringify({ query: QUERY, variables: { ids: [...anilistIdByDeck.values()] } }),
-    });
-    if (!response.ok) throw new Error(`AniList: ${response.status} ${response.statusText}`);
-    const body = await response.json() as { data: { Page: { media: AniListMedia[] } } };
-    const mediaById = new Map(body.data.Page.media.map(m => [m.id, m]));
+    const mediaById = new Map<number, AniListMedia>();
+    const ids = [...new Set(anilistIdByDeck.values())];
+    for (let i = 0; i < ids.length; i += 50) {
+        const response = await fetch(ANILIST_API, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+            body: JSON.stringify({ query: QUERY, variables: { ids: ids.slice(i, i + 50) } }),
+        });
+        if (!response.ok) throw new Error(`AniList: ${response.status} ${response.statusText}`);
+        const body = await response.json() as { data: { Page: { media: AniListMedia[] } } };
+        for (const media of body.data.Page.media) mediaById.set(media.id, media);
+        await new Promise(resolve => setTimeout(resolve, 1000));
+    }
 
     const covers: Record<string, MediaCoverSnapshot> = {};
     for (const [deckId, anilistId] of anilistIdByDeck) {

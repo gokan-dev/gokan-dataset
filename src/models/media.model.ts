@@ -12,6 +12,8 @@ export interface MediaSelectionEntry {
     jitenDeckId: number;
     /** Free text for whoever maintains the list; not compiled. */
     note?: string;
+    /** 'hand' for a title picked by hand (the default), 'easiest' for one added by select-easiest-anime.ts. */
+    source?: 'hand' | 'easiest';
 }
 
 /** A word as Jiten counts it: its JMdict id and how many times the deck uses it. */
@@ -43,6 +45,10 @@ export interface JitenMediaSnapshot {
     releaseDate: string | null;
     links: { type: number; url: string }[];
     stats: JitenDeckStats;
+    /** Jiten genre ids (see JITEN_GENRES). Absent in snapshots taken before genres were recorded. */
+    genres?: number[];
+    /** Jiten's community tags with their vote percentage, strongest first. */
+    tags?: { name: string; percentage: number }[];
     episodes: {
         deckId: number;
         number: number;
@@ -93,6 +99,10 @@ export interface MediaIndexEntry {
     /** Jiten's difficulty estimate, roughly 0 (easiest) to 5. */
     difficulty: number;
     links: { anilist?: string; myanimelist?: string };
+    /** Genre names, e.g. "Comedy", "Slice of Life". */
+    genres: string[];
+    /** Up to five of Jiten's strongest community tags, e.g. "Cute Girls Doing Cute Things". */
+    tags: string[];
     /**
      * Cover art hosted by AniList. Not covered by this dataset's license: the
      * artwork belongs to its studio, so only the URL is stored and a consumer
@@ -101,6 +111,16 @@ export interface MediaIndexEntry {
     cover?: { url: string; urlHiRes: string; color?: string; source: 'AniList' };
     source: { name: 'Jiten'; url: string; license: 'CC BY-SA 4.0' };
 }
+
+/** `compiled/media/library.json`: each title's whole-series word list, for ranking the library without loading every title file. */
+export type MediaLibraryWords = Record<string, MediaWordCount[]>;
+
+/** Jiten's genre enum (Jiten.Core/Data/Genre.cs). */
+export const JITEN_GENRES: Record<number, string> = {
+    1: 'Action', 2: 'Adventure', 3: 'Comedy', 4: 'Drama', 5: 'Ecchi', 6: 'Fantasy', 7: 'Horror', 8: 'Mecha',
+    9: 'Music', 10: 'Mystery', 11: 'Psychological', 12: 'Romance', 13: 'Sci-Fi', 14: 'Slice of Life',
+    15: 'Sports', 16: 'Supernatural', 17: 'Thriller', 18: 'Adult',
+};
 
 /** `compiled/media/{id}.json`. */
 export interface MediaTitle extends MediaIndexEntry {
