@@ -6,3 +6,7 @@
 * text=auto eol=lf
 
 data/raw/** filter=lfs diff=lfs merge=lfs -text
+
+# The listening library's selection is edited by hand and its Jiten snapshots are
+# small text that should diff readably, so they are plain git, not LFS.
+data/raw/media/** -filter -diff -merge text eol=lf
