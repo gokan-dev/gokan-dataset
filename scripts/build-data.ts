@@ -8,6 +8,7 @@ import type kuromoji from 'kuromoji';
 import { JMDict, JLPTVocabDatasetDTO } from "../src/models/data.model";
 import { buildKanaKeyOwners, buildMiscFlags, resolveJlptLevel, type KanaOwnerOverrides } from './build-common';
 import { BUILD_LIMITS } from './build-constants';
+import { disambiguateByReading, type ReadingVocab } from '../src/utils/readingDisambiguation';
 
 // --- Configuration ---
 const INPUT_JMDICT_FILE = './data/raw/jmdict.json';
@@ -349,8 +350,11 @@ async function main() {
     // Generate merged ID map for migration
     const mergedMap: Record<string, string> = {};
 
-    // Populate lookup map for sentence tokenizer using MERGED vocab
+    // Populate lookup map for sentence tokenizer using MERGED vocab. vocabById
+    // lets the matcher tell homographs apart by reading (see disambiguateByReading).
+    const vocabById = new Map<string, ReadingVocab>();
     for (const vocab of mergedCandidateVocab.values()) {
+        vocabById.set(vocab.id, vocab);
         const kanjiText = vocab.writtenForm.kanji;
         if (!writtenToVocabId.has(kanjiText)) {
             writtenToVocabId.set(kanjiText, []);
@@ -473,7 +477,14 @@ async function main() {
             const vocabIds = writtenToVocabId.get(term);
             if (!vocabIds) continue;
 
-            for (const vId of vocabIds) {
+            // A written form shared by differently-read homographs (遊ぶ is both
+            // あそぶ and the rare すさぶ) must send each occurrence only to the entry
+            // actually read that way - the span's reading tells them apart. Without
+            // this a すさぶ entry claims a sentence about playing, so its production
+            // cloze blanks 遊んでる and grades it correct against a "grow wild" cue.
+            const resolvedIds = disambiguateByReading(vocabIds, match.reading, vocabById);
+
+            for (const vId of resolvedIds) {
                 if (!matches[vId]) {
                     matches[vId] = [];
                     matchedVocabIds.push(vId);

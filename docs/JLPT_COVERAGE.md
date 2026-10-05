@@ -6,11 +6,11 @@ Every entry of the JLPT vocabulary list ([Bluskyo/JLPT_Vocabulary](https://githu
 
 | Level | List entries | Covered | Words with no kanji spelling | Katakana loanwords | Dropped by the build | Not found in JMdict |
 |---|---|---|---|---|---|---|
-| N5 | 673 | 584 (87%) | 15 | 50 | 21 | 3 |
+| N5 | 673 | 583 (87%) | 15 | 50 | 22 | 3 |
 | N4 | 636 | 552 (87%) | 15 | 38 | 30 | 1 |
 | N3 | 1698 | 1535 (90%) | 31 | 96 | 28 | 8 |
-| N2 | 1818 | 1571 (86%) | 33 | 124 | 66 | 24 |
-| N1 | 3300 | 2811 (85%) | 65 | 194 | 211 | 19 |
+| N2 | 1818 | 1570 (86%) | 33 | 124 | 67 | 24 |
+| N1 | 3300 | 2810 (85%) | 65 | 194 | 212 | 19 |
 
 - **Words with no kanji spelling**: JMdict has no kanji spelling for these, and the dataset only builds words that have one (build-data.ts skips any entry without kanji). Including them means accepting kana-only words.
 - **Katakana loanwords**: Loanwords have no kanji spelling, so the dataset skips them for the same reason as the kana-only words above.
@@ -94,10 +94,11 @@ Every entry of the JLPT vocabulary list ([Bluskyo/JLPT_Vocabulary](https://githu
 | テープレコーダー |  |  | tape recorder | 66121 |
 | ラジオカセット |  |  | radio-cassette; tape recorder | 179447 |
 
-### Dropped by the build (21)
+### Dropped by the build (22)
 
 | Word | Reading | Kanji in JMdict | Meaning | JPDB rank |
 |---|---|---|---|---|
+| する |  | 為る | to do; to carry out; to perform | 11 |
 | それ |  | 其れ、其 | that; it | 17 |
 | そして |  | 而して、然して | and; and then; thus | 88 |
 | そこ |  | 其処、其所 | there (place relatively near listener) | 98 |
@@ -600,7 +601,7 @@ Every entry of the JLPT vocabulary list ([Bluskyo/JLPT_Vocabulary](https://githu
 
 </details>
 
-<details><summary>Dropped by the build (66)</summary>
+<details><summary>Dropped by the build (67)</summary>
 
 | Word | Reading | Kanji in JMdict | Meaning | JPDB rank |
 |---|---|---|---|---|
@@ -631,6 +632,7 @@ Every entry of the JLPT vocabulary list ([Bluskyo/JLPT_Vocabulary](https://githu
 | コンクリート |  | 混凝土 | concrete | 8560 |
 | 何々 | なになに |  | what | 8886 |
 | おやつ |  | お八つ、御八つ | between-meal snack | 8998 |
+| 大凡 | おおよそ |  | about; roughly; approximately | 9093 |
 | ゴム |  | 護謨 | gum; rubber | 9334 |
 | もたれる |  | 凭れる、靠れる | to lean against; to lean on; to recline on | 9883 |
 | バケツ |  | 馬穴、馬尻 | bucket; pail | 10348 |
@@ -979,7 +981,7 @@ Every entry of the JLPT vocabulary list ([Bluskyo/JLPT_Vocabulary](https://githu
 
 </details>
 
-<details><summary>Dropped by the build (211)</summary>
+<details><summary>Dropped by the build (212)</summary>
 
 | Word | Reading | Kanji in JMdict | Meaning | JPDB rank |
 |---|---|---|---|---|
@@ -1020,6 +1022,7 @@ Every entry of the JLPT vocabulary list ([Bluskyo/JLPT_Vocabulary](https://githu
 | 齎らす | もたらす |  | to bring (news, knowledge, etc.); to introduce | 2459 |
 | 切っ掛け | きっかけ |  | chance; start; cue | 2639 |
 | お目出度う | おめでとう |  | congratulations!; well done!; best wishes! | 2680 |
+| こだわる |  | 拘る、拘わる | to be obsessive (about); to be overly concerned (with); to fuss (over) | 2956 |
 | 零す | こぼす |  | to spill; to drop; to shed (tears) | 3694 |
 | 些とも | ちっとも |  | (not) at all; (not) a bit; (not) in the least | 3899 |
 | 然も | さも |  | really (seem, appear, etc.); truly; evidently | 4281 |
