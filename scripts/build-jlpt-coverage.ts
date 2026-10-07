@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import type { Vocabulary } from '../src/models/vocabulary.model';
 import type { JLPTVocabDatasetDTO, JMDict, Word } from '../src/models/data.model';
-import { buildKanaKeyOwners, type JpdbFrequencies, type KanaOwnerOverrides } from './build-common';
+import { buildKanaKeyOwners, parseJpdbTsv, type JpdbFrequencies, type KanaOwnerOverrides } from './build-common';
 
 /**
  * Writes docs/JLPT_COVERAGE.md: every entry of the JLPT vocabulary list that no
@@ -76,15 +76,11 @@ function main() {
     // Display ranks come from the TSV rather than the JSON: the JSON keeps the
     // last row of a repeated term/reading pair, which buries common kana words
     // (はい reads 249201 there, 446 in the TSV).
-    const rankOf = new Map<string, number>();
-    for (const line of fs.readFileSync(JPDB_TSV_PATH, 'utf-8').split('\n').slice(1)) {
-        const [term, reading, freq, kanaFreq] = line.trim().split('\t');
-        if (!term || !reading || !freq) continue;
-        const rank = Number(kanaFreq) || Number(freq);
-        const id = `${term}|${reading}`;
-        if (rank < (rankOf.get(id) ?? NO_RANK)) rankOf.set(id, rank);
-    }
-    const rank = (term: string, reading: string) => rankOf.get(`${term}|${reading}`) ?? NO_RANK;
+    const jpdbRows = parseJpdbTsv(fs.readFileSync(JPDB_TSV_PATH, 'utf-8')).rows;
+    const rank = (term: string, reading: string) => Math.min(
+        NO_RANK,
+        ...(jpdbRows.get(`${term}|${reading}`) ?? []).map(row => row.kanaFrequency || row.frequency),
+    );
 
     // Every compiled id, including the homographs merged into a base entry,
     // and every written form a compiled word carries.

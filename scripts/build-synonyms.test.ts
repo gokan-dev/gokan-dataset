@@ -236,4 +236,10 @@ describe('synonymForms (answerable forms embedded on each entry)', () => {
         expect(forms).toEqual({ w: ['あら'], r: ['あら'] });
         expect('pos' in forms).toBe(false);
     });
+
+    it('marks a word learned in kana, and only such a word', () => {
+        const here = { writtenForm: { kanji: '此処' }, reading: { primary: 'ここ' }, senses: [{ pos: ['pn'] }] };
+        expect(synonymForms({ ...here, usuallyKana: true }).u).toBe(true);
+        expect('u' in synonymForms(here)).toBe(false);
+    });
 });

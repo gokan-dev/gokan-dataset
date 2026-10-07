@@ -12,8 +12,8 @@
   "reading": {
     "primary": "たたみ",
     "alternatives": [
-      "たとう",
-      "じょう"
+      "じょう",
+      "たとう"
     ]
   },
   "frequency": {
@@ -47,6 +47,28 @@
     },
     {
       "pos": [
+        "ctr"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": []
+      },
+      "glosses": [
+        "tatami mat (esp. as a measure of room size, either 1.82 sqm or 1.54 sqm)"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "じょう"
+      ]
+    },
+    {
+      "pos": [
         "n"
       ],
       "misc": {
@@ -69,28 +91,6 @@
       "appliesToReadings": [
         "たとう"
       ]
-    },
-    {
-      "pos": [
-        "ctr"
-      ],
-      "misc": {
-        "isAbbreviation": false,
-        "isSuffix": false,
-        "isPrefix": false,
-        "isArchaic": false,
-        "isRare": false,
-        "rawTags": []
-      },
-      "glosses": [
-        "tatami mat (esp. as a measure of room size, either 1.82 sqm or 1.54 sqm)"
-      ],
-      "related": {
-        "compounds": []
-      },
-      "appliesToReadings": [
-        "じょう"
-      ]
     }
   ],
   "usageHints": {
@@ -108,20 +108,20 @@
       ]
     },
     {
+      "id": "1356740",
+      "isBase": false,
+      "originalPrimaryReading": "じょう",
+      "originalGlosses": [
+        "tatami mat (esp. as a measure of room size, either 1.82 sqm or 1.54 sqm)"
+      ]
+    },
+    {
       "id": "2061060",
       "isBase": false,
       "originalPrimaryReading": "たとう",
       "originalGlosses": [
         "folding paper-case",
         "kimono wrapping paper"
-      ]
-    },
-    {
-      "id": "1356740",
-      "isBase": false,
-      "originalPrimaryReading": "じょう",
-      "originalGlosses": [
-        "tatami mat (esp. as a measure of room size, either 1.82 sqm or 1.54 sqm)"
       ]
     }
   ],
