@@ -13,8 +13,8 @@
   "reading": {
     "primary": "おおがしら",
     "alternatives": [
-      "だいがしら",
-      "おおあたま"
+      "おおあたま",
+      "だいがしら"
     ]
   },
   "frequency": {
@@ -119,15 +119,14 @@
         "rawTags": []
       },
       "glosses": [
-        "school of kowakamai dance founded by Yamamoto Sirozaemon"
+        "large head",
+        "person with a large head"
       ],
       "related": {
-        "compounds": [
-          "幸若舞"
-        ]
+        "compounds": []
       },
       "appliesToReadings": [
-        "だいがしら"
+        "おおあたま"
       ]
     },
     {
@@ -143,14 +142,15 @@
         "rawTags": []
       },
       "glosses": [
-        "large head",
-        "person with a large head"
+        "school of kowakamai dance founded by Yamamoto Sirozaemon"
       ],
       "related": {
-        "compounds": []
+        "compounds": [
+          "幸若舞"
+        ]
       },
       "appliesToReadings": [
-        "おおあたま"
+        "だいがしら"
       ]
     }
   ],
@@ -168,20 +168,20 @@
       ]
     },
     {
-      "id": "2427760",
-      "isBase": false,
-      "originalPrimaryReading": "だいがしら",
-      "originalGlosses": [
-        "school of kowakamai dance founded by Yamamoto Sirozaemon"
-      ]
-    },
-    {
       "id": "2427780",
       "isBase": false,
       "originalPrimaryReading": "おおあたま",
       "originalGlosses": [
         "large head",
         "person with a large head"
+      ]
+    },
+    {
+      "id": "2427760",
+      "isBase": false,
+      "originalPrimaryReading": "だいがしら",
+      "originalGlosses": [
+        "school of kowakamai dance founded by Yamamoto Sirozaemon"
       ]
     }
   ],

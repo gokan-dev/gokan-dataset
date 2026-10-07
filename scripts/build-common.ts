@@ -1,3 +1,6 @@
+import type { VocabIndexEntry } from '../src/models/index.model';
+import type { Vocabulary } from '../src/models/vocabulary.model';
+
 export function parseJPDBEntry(entry: string): {
     kanjiRank?: number;
     hiraganaRank?: number;
@@ -161,6 +164,191 @@ export function resolveJlptLevel(
 
     // Levels run 1 (N1, hardest) .. 5 (N5, easiest).
     return levels.length ? Math.max(...levels) : undefined;
+}
+
+/** One row of the JPDB frequency TSV: the spelling's rank, and its kana spelling's rank when JPDB lists one. */
+export interface JpdbRow {
+    frequency: number;
+    kanaFrequency: number | null;
+}
+
+/**
+ * The JPDB frequency TSV as rows keyed `${term}|${reading}`, in file order.
+ *
+ * The JSON build-data.ts also loads collapses a repeated key to its last row, and
+ * keys do repeat: ボタン|ボタン is both "button" (rank 3397) and the peony's katakana
+ * spelling (45485), and the TSV carries no entry id to tell them apart. Anything that
+ * must know a row is unambiguous reads it from here.
+ */
+export interface JpdbTable {
+    rows: Map<string, JpdbRow[]>;
+    /** Every term with at least one row, whatever its reading. */
+    terms: Set<string>;
+}
+
+export function parseJpdbTsv(text: string): JpdbTable {
+    const rows = new Map<string, JpdbRow[]>();
+    const terms = new Set<string>();
+    for (const line of text.split('\n').slice(1)) {
+        const [term, reading, frequency, kanaFrequency] = line.trim().split('\t');
+        if (!term || !reading || !frequency) continue;
+        const key = `${term}|${reading}`;
+        const row = { frequency: Number(frequency), kanaFrequency: kanaFrequency ? Number(kanaFrequency) : null };
+        const list = rows.get(key);
+        if (list) list.push(row);
+        else rows.set(key, [row]);
+        terms.add(term);
+    }
+    return { rows, terms };
+}
+
+const toKatakana = (text: string) => text.replace(/[ぁ-ゖ]/g, c => String.fromCharCode(c.charCodeAt(0) + 0x60));
+
+/** How much more often the kana spelling must appear than the kanji one for a `uk` word to be shown in kana. */
+export const USUALLY_KANA_RATIO = 2;
+
+export interface UsuallyKanaInput {
+    /** The entry's headword (writtenForm.kanji). */
+    kanji: string;
+    /** Its primary reading. */
+    reading: string;
+    /** Every reading the entry lists, primary included: a katakana spelling only counts when it is one of them. */
+    readings: string[];
+    /** JMdict tags the first sense `uk` (usually written using kana alone). */
+    firstSenseUk: boolean;
+    /** JMdict tags the headword `rK` (rarely used kanji form). */
+    rareKanjiForm: boolean;
+}
+
+export interface UsuallyKanaDecision {
+    usuallyKana: boolean;
+    /** Best JPDB rank of the word written in kana (hiragana or its own katakana spelling), when known. */
+    kanaRank: number | null;
+}
+
+/**
+ * Whether a word is learned in kana rather than through its kanji spelling: ここ,
+ * not 此処; あの, not 彼の. Chosen by benchmarking every available signal against
+ * 1,175 hand-labelled words (see docs/SCHEMA.md, "usuallyKana"):
+ *
+ *  - JMdict's `uk` tag alone flags 分かる, 眼鏡 and 大体: it is set per sense and
+ *    is noisy. JPDB's kana/kanji frequency alone flags 物, 所 and 訳, whose kanji
+ *    spellings are standard. Requiring both leaves almost only real cases.
+ *  - The kana side counts the word's own katakana spelling too (ゴミ, カルタ), but
+ *    only a row whose key is unique: ボタン is also "button".
+ *  - Only the row for the word's own reading is evidence. Borrowing another
+ *    reading's row made 皆/みな look usually-kana through みんな.
+ *  - When JPDB has no row at all for the kanji spelling, the standalone kana row
+ *    is the evidence (すみません, ございます), again only when unambiguous.
+ *  - JMdict's `rK` stands in for frequency JPDB cannot give: 此方/こちら has a
+ *    row only under こっち.
+ *
+ * Doubtful cases stay in kanji: the kanji spelling disambiguates homophones (いる
+ * is 居る and 要る), so a wrong kana display costs more than a missed one. The
+ * residue is excluded by hand in data/raw/vocab/usually-kana-overrides.json.
+ */
+export function decideUsuallyKana(input: UsuallyKanaInput, jpdb: JpdbTable): UsuallyKanaDecision {
+    const unique = (key: string) => {
+        const rows = jpdb.rows.get(key);
+        return rows?.length === 1 ? rows[0] : undefined;
+    };
+    const katakana = toKatakana(input.reading);
+    const katakanaRank = katakana !== input.reading && input.readings.includes(katakana)
+        ? unique(`${katakana}|${katakana}`)?.frequency ?? null
+        : null;
+    const best = (...ranks: (number | null | undefined)[]) => {
+        const known = ranks.filter((r): r is number => typeof r === 'number');
+        return known.length ? Math.min(...known) : null;
+    };
+
+    const own = jpdb.rows.get(`${input.kanji}|${input.reading}`)?.[0];
+    let kanjiRank: number | null;
+    let kanaRank: number | null;
+    if (own) {
+        kanjiRank = own.frequency;
+        kanaRank = best(own.kanaFrequency, katakanaRank);
+    } else if (jpdb.terms.has(input.kanji)) {
+        // JPDB knows this spelling only under another reading: no evidence either way.
+        kanjiRank = null;
+        kanaRank = null;
+    } else {
+        kanjiRank = Number.POSITIVE_INFINITY;
+        kanaRank = best(unique(`${input.reading}|${input.reading}`)?.frequency, katakanaRank);
+    }
+
+    const kanaDominant = kanjiRank !== null && kanaRank !== null && kanjiRank / kanaRank >= USUALLY_KANA_RATIO;
+    return {
+        usuallyKana: input.firstSenseUk && (kanaDominant || input.rareKanjiForm),
+        kanaRank,
+    };
+}
+
+/** Hand corrections to decideUsuallyKana (data/raw/vocab/usually-kana-overrides.json). */
+export interface UsuallyKanaOverrides {
+    /** Vocab id -> why it stays in kanji although the rule flags it. */
+    exclude: Record<string, { word: string; why: string }>;
+}
+
+/**
+ * The flagged ids minus the hand exclusions. An exclusion that names no compiled
+ * word, or a word the rule no longer flags, is an error: the list only holds live
+ * corrections, so a JPDB or JMdict update that fixes a case also cleans it up.
+ */
+export function applyUsuallyKanaOverrides(
+    flagged: ReadonlySet<string>,
+    compiledIds: ReadonlySet<string>,
+    overrides: UsuallyKanaOverrides,
+): Set<string> {
+    const kept = new Set(flagged);
+    for (const [id, { word }] of Object.entries(overrides.exclude)) {
+        if (!compiledIds.has(id)) {
+            throw new Error(`usually-kana-overrides: ${id} (${word}) is not a compiled vocab id.`);
+        }
+        if (!flagged.has(id)) {
+            throw new Error(`usually-kana-overrides: ${id} (${word}) is no longer flagged usually-kana; remove the exclusion.`);
+        }
+        kept.delete(id);
+    }
+    return kept;
+}
+
+/** The frequency a word is met at: its kana spelling's for a word learned in kana, else its kanji spelling's. */
+export function learningRank(vocab: Pick<Vocabulary, 'frequency' | 'usuallyKana'>): number {
+    return vocab.usuallyKana
+        ? vocab.frequency.kanaRank ?? vocab.frequency.kanjiRank
+        : vocab.frequency.kanjiRank;
+}
+
+/**
+ * A word's entry in the learning-order indexes (frequency.json, jlpt.json). Its
+ * `containedKanji` are the kanji the learner must know to be shown it, so a word
+ * learned in kana has none: ここ never waits on 此 and 処. The vocab file keeps the
+ * kanji spelling's real kanji for display.
+ */
+export function learningIndexEntry(vocab: Pick<Vocabulary, 'id' | 'writtenForm' | 'usuallyKana'>): VocabIndexEntry {
+    return vocab.usuallyKana
+        ? { id: vocab.id, containedKanji: [], usuallyKana: true }
+        : { id: vocab.id, containedKanji: vocab.writtenForm.containedKanji };
+}
+
+/**
+ * Orders homographs sharing a kanji spelling so the first becomes the merged
+ * entry's base, whose id, primary reading and senses the merged word takes.
+ *
+ * A reading JPDB has no row for gets its spelling's first row as a stand-in rank
+ * (build-data.ts), so a rare reading ties with the common one it borrowed from.
+ * The tie went to JMdict order: N4 点 was merged under ちょぼ instead of てん, 節
+ * under ノット, 種 under くさ. So a word JPDB ranks under one of its own readings
+ * (`ownRank`, the best such row) wins first, ordered by that rank. Any reading of
+ * the entry counts, not only the primary: JPDB files 此方 under こっち, which is the
+ * こちら entry's, and checking the primary alone handed 此方 to the archaic こなた.
+ */
+export function compareMergeBase(
+    a: { ownRank: number | null; frequency: { kanjiRank: number } },
+    b: { ownRank: number | null; frequency: { kanjiRank: number } },
+): number {
+    return Number(a.ownRank === null) - Number(b.ownRank === null)
+        || (a.ownRank ?? a.frequency.kanjiRank) - (b.ownRank ?? b.frequency.kanjiRank);
 }
 
 export function buildMiscFlags(misc: Array<string>) {

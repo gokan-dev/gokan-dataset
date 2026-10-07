@@ -16,15 +16,15 @@
     "alternatives": [
       "むざさび",
       "ムササビ",
-      "もみ",
       "ももんが",
       "ももんがあ",
-      "モモンガ"
+      "モモンガ",
+      "もみ"
     ]
   },
   "frequency": {
     "kanjiRank": 182323,
-    "kanaRank": 104714
+    "kanaRank": 63713
   },
   "progression": {
     "kklcStep": 99999
@@ -59,30 +59,6 @@
         "isAbbreviation": false,
         "isSuffix": false,
         "isPrefix": false,
-        "isArchaic": true,
-        "isRare": false,
-        "rawTags": [
-          "arch"
-        ]
-      },
-      "glosses": [
-        "flying squirrel"
-      ],
-      "related": {
-        "compounds": []
-      },
-      "appliesToReadings": [
-        "もみ"
-      ]
-    },
-    {
-      "pos": [
-        "n"
-      ],
-      "misc": {
-        "isAbbreviation": false,
-        "isSuffix": false,
-        "isPrefix": false,
         "isArchaic": false,
         "isRare": false,
         "rawTags": [
@@ -100,6 +76,30 @@
       "appliesToReadings": [
         "ももんが"
       ]
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": true,
+        "isRare": false,
+        "rawTags": [
+          "arch"
+        ]
+      },
+      "glosses": [
+        "flying squirrel"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "もみ"
+      ]
     }
   ],
   "usageHints": {
@@ -116,14 +116,6 @@
       ]
     },
     {
-      "id": "2761240",
-      "isBase": false,
-      "originalPrimaryReading": "もみ",
-      "originalGlosses": [
-        "flying squirrel"
-      ]
-    },
-    {
       "id": "1012680",
       "isBase": false,
       "originalPrimaryReading": "ももんが",
@@ -132,9 +124,18 @@
         "small Japanese flying squirrel",
         "Japanese dwarf flying squirrel"
       ]
+    },
+    {
+      "id": "2761240",
+      "isBase": false,
+      "originalPrimaryReading": "もみ",
+      "originalGlosses": [
+        "flying squirrel"
+      ]
     }
   ],
   "components": [
     "1397840"
-  ]
+  ],
+  "usuallyKana": true
 }

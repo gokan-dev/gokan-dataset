@@ -43,6 +43,13 @@ export interface Vocabulary {
 
     /** If this entry is a unified merged entry from multiple homographs sharing the exact kanji form */
     mergedVocabs?: MergedVocabInfo[];
+
+    /**
+     * Learned in kana: ここ, not 此処. The word is shown by its reading, needs no kanji
+     * to be learned, and sits outside the KKLC order. Absent otherwise. See
+     * decideUsuallyKana in scripts/build-common.ts.
+     */
+    usuallyKana?: true;
 }
 
 export interface MergedVocabInfo {

@@ -257,6 +257,8 @@ export interface SynonymForms {
     r: string[];
     /** The word's inflecting POS codes only (v5k, v1, vs, adj-i...), so its conjugated forms can be accepted too. */
     pos?: string[];
+    /** Learned in kana (Vocabulary.usuallyKana): a consumer naming the word shows `r[0]`, not `w[0]`. */
+    u?: true;
 }
 
 /** POS codes that decide how a word inflects; every other code is irrelevant to matching an answer. */
@@ -270,6 +272,7 @@ interface CompiledVocabForms {
     reading?: { primary?: string; alternatives?: string[] };
     mergedVocabs?: { originalPrimaryReading?: string }[];
     senses?: { pos?: string[] }[];
+    usuallyKana?: boolean;
 }
 
 export function synonymForms(v: CompiledVocabForms): SynonymForms {
@@ -284,6 +287,7 @@ export function synonymForms(v: CompiledVocabForms): SynonymForms {
     };
     const pos = unique((v.senses ?? []).flatMap(s => s.pos ?? []).filter(p => INFLECTING_POS.has(p))).sort();
     if (pos.length > 0) forms.pos = pos;
+    if (v.usuallyKana) forms.u = true;
     return forms;
 }
 

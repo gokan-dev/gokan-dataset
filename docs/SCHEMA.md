@@ -20,7 +20,7 @@ interface Vocabulary {
   };
   frequency: {
     kanjiRank: number;            // JPDB frequency rank
-    kanaRank?: number;
+    kanaRank?: number;            // JPDB rank of the word written in kana; for a usuallyKana word the best of its hiragana, own katakana and standalone kana rows
   };
   jlptLevel?: number;             // 1 (N1, hardest) .. 5 (N5, easiest). Most entries have none - JMDict has ~40k+ words, the JLPT list covers ~8k. Matched on any of the word's written forms, and on any JLPT kana key the word owns (the list files usually-kana words under kana, e.g. 鞄 as かばん; each kana key is awarded to one word, never to its homophones, see buildKanaKeyOwners and data/raw/vocab/jlpt-kana-owners.json). When both match, the easiest level wins (綺麗 is listed at N1, きれい at N5). Uncovered list entries are reported in docs/JLPT_COVERAGE.md; see resolveJlptLevel.
   progression: {
@@ -35,6 +35,7 @@ interface Vocabulary {
   };
   mergedVocabs?: MergedVocabInfo[]; // present if this entry absorbed one or more homographs sharing the same kanji form - see below
   isCommon: boolean;              // true if JMDict marks this word (or an absorbed homograph) as common. Not declared on the shared TS type but present on every emitted file.
+  usuallyKana?: true;             // learned in kana (ここ, not 此処): shown by its reading, needs no kanji, outside the KKLC order. Absent otherwise. See below.
 }
 
 interface Sense {
@@ -60,7 +61,14 @@ interface MergedVocabInfo {
 }
 ```
 
-**Homographs**: JMDict lists some words as separate entries purely because they share a kanji form with different readings/meanings (e.g. 上手, 上手い). The build pipeline merges these into a single `Vocabulary` entry keyed by the highest-frequency reading, keeping each absorbed reading's own senses (tagged via `appliesToReadings`) and a `mergedVocabs` audit trail of what was merged in.
+**Homographs**: JMDict lists some words as separate entries purely because they share a kanji form with different readings/meanings (e.g. 上手, 上手い). The build pipeline merges these into a single `Vocabulary` entry keyed by the highest-frequency reading, keeping each absorbed reading's own senses (tagged via `appliesToReadings`) and a `mergedVocabs` audit trail of what was merged in. The base is the entry JPDB ranks under one of its own readings, best rank first (`compareMergeBase`): a reading with no JPDB row of its own borrows its spelling's first row, and that borrowed rank used to tie and hand N4 点 to the rare reading ちょぼ instead of てん. When a base moves, the old base id appears in `index/merged-map.json`.
+
+**`usuallyKana`**: the word is learned in kana. Most such words have a rare kanji spelling JMDict lists first (此処, 彼の, 有る, 沢山), which is not what anyone learns; a consumer should show `reading.primary` as the headword and may mention `writtenForm.kanji` as the kanji spelling. The rule (`decideUsuallyKana` in `scripts/build-common.ts`) was chosen by benchmarking every available signal against 1,175 hand-labelled words:
+
+- the first sense is tagged `uk` in JMdict, **and**
+- either JPDB shows the kana spelling at least 2x as often as the kanji spelling (`USUALLY_KANA_RATIO`), counting the word's own katakana spelling and, when JPDB has no row at all for the kanji spelling, the standalone kana row, each only when that row's key is unique; or JMdict tags the headword `rK` (rarely used kanji form), which covers spellings JPDB has no evidence for.
+
+`uk` alone flags 分かる and 眼鏡; frequency alone flags 物 and 所; together they flag 591 words with about 1% false positives. Doubt resolves to kanji, since the kanji spelling disambiguates homophones (いる is 居る and 要る). The residue is excluded by hand in `data/raw/vocab/usually-kana-overrides.json` (`{ exclude: { [vocabId]: { word, why } } }`); the build fails on an exclusion that names no compiled word or a word the rule no longer flags. `scripts/usually-kana.test.ts` checks the compiled output against the labelled set (`scripts/usually-kana.labels.json`): no word labelled as learned with its kanji may be flagged.
 
 ## `compiled/sentences/{vocabId}.json` — example sentences, one file per word
 
@@ -407,15 +415,15 @@ Precomputed so consumers don't have to scan the full `vocab/`/`kanji.json` for c
 
 | File | Shape | What it's for |
 |---|---|---|
-| `frequency.json` | `Array<{ id: string; containedKanji: string[] }>` | All vocab, sorted by frequency rank. |
-| `kklc.json` | `Record<kklcStep, vocabId[]>` | Vocab grouped by the KKLC step that unlocks them. |
+| `frequency.json` | `Array<{ id: string; containedKanji: string[]; usuallyKana?: true }>` | All vocab, sorted by frequency rank: a `usuallyKana` word at its kana spelling's rank (ここ is #56, 此処 #10545). `containedKanji` are the kanji a learner must know to be shown the word, so a `usuallyKana` entry has none. |
+| `kklc.json` | `Record<kklcStep, vocabId[]>` | Vocab grouped by the KKLC step that unlocks them. `usuallyKana` words are left out: they teach no kanji. |
 | `kklc-kanji.json` | `Record<kklcStep, character[]>` | Kanji grouped by KKLC step. |
-| `jlpt.json` | `Record<jlptLevel, Array<{ id: string; containedKanji: string[] }>>` | Vocab grouped by JLPT level (1=N1..5=N5), frequency-sorted within a level. Levels are keys `"1"`..`"5"`. |
-| `kanji-vocab.json` | `Record<character, vocabId[]>` | Reverse index: which vocab entries contain a given kanji, frequency-sorted. |
-| `search.json` | `Array<{ id, w: string, r: string, m: string }>` | Compact full-text search index: `w`=kanji, `r`=reading, `m`=first sense's glosses joined by ", ". |
+| `jlpt.json` | `Record<jlptLevel, Array<{ id: string; containedKanji: string[]; usuallyKana?: true }>>` | Vocab grouped by JLPT level (1=N1..5=N5), frequency-sorted within a level, entries shaped as in `frequency.json`. Levels are keys `"1"`..`"5"`. |
+| `kanji-vocab.json` | `Record<character, vocabId[]>` | Reverse index: which vocab entries contain a given kanji in their kanji spelling (`usuallyKana` words included), frequency-sorted. |
+| `search.json` | `Array<{ id, w: string, r: string, m: string, u?: true }>` | Compact full-text search index: `w`=kanji, `r`=reading, `m`=first sense's glosses joined by ", ", `u`=`usuallyKana` (show `r` as the headword). |
 | `merged-map.json` | `Record<oldId, newId>` | Maps a homograph's original JMDict ID to the merged entry's ID it now lives under (see `mergedVocabs` above). |
 
-**Near-synonyms are not an index file.** They are embedded on each `vocab/{id}.json` as `synonyms?: Array<{ id: string; relation: "interchangeable" | "confusable"; shared: string[]; overlap: number; curated?: true; w?: string[]; r?: string[]; pos?: string[] }>`, symmetric, written by `scripts/build-synonyms.ts`. `w`/`r`/`pos` are the other word's answerable forms (written forms kanji-first, readings primary-first including merged homographs' readings, and only its inflecting POS codes), so a consumer can tell whether a typed answer is that word without fetching its vocab file: a word can list hundreds of pairs. They are absent only on a hand-added pair naming a word the scan skipped. Any two words sharing a normalized gloss (lowercased, leading "to"/article and parentheticals dropped) form a pair. `shared` lists those glosses and `overlap` is shared over the smaller word's gloss count. The pair is a synonym **in a given sense**, so a consumer is expected to check `shared` against the text it is quizzing on: a sentence or cue that uses a shared gloss makes the pair interchangeable there. `relation` is the out-of-context tier: `interchangeable` when the pair passes the ratio floor (0.30), sense coverage or the transitivity-pair rule, `confusable` otherwise. `curated: true` marks a tier set by `data/raw/vocab/synonyms.json`, which a consumer should not override from context (必ず / 常に share "always" and stay `confusable`). A word with no field has no near-synonym handling.
+**Near-synonyms are not an index file.** They are embedded on each `vocab/{id}.json` as `synonyms?: Array<{ id: string; relation: "interchangeable" | "confusable"; shared: string[]; overlap: number; curated?: true; w?: string[]; r?: string[]; pos?: string[]; u?: true }>`, symmetric, written by `scripts/build-synonyms.ts`. `w`/`r`/`pos` are the other word's answerable forms (written forms kanji-first, readings primary-first including merged homographs' readings, and only its inflecting POS codes), and `u` marks it `usuallyKana` (name it by `r[0]`), so a consumer can tell whether a typed answer is that word without fetching its vocab file: a word can list hundreds of pairs. They are absent only on a hand-added pair naming a word the scan skipped. Any two words sharing a normalized gloss (lowercased, leading "to"/article and parentheticals dropped) form a pair. `shared` lists those glosses and `overlap` is shared over the smaller word's gloss count. The pair is a synonym **in a given sense**, so a consumer is expected to check `shared` against the text it is quizzing on: a sentence or cue that uses a shared gloss makes the pair interchangeable there. `relation` is the out-of-context tier: `interchangeable` when the pair passes the ratio floor (0.30), sense coverage or the transitivity-pair rule, `confusable` otherwise. `curated: true` marks a tier set by `data/raw/vocab/synonyms.json`, which a consumer should not override from context (必ず / 常に share "always" and stay `confusable`). A word with no field has no near-synonym handling.
 
 ## Notes for consumers
 

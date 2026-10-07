@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import type { Vocabulary } from '../src/models/vocabulary.model';
 import type { JlptIndex } from '../src/models/index.model';
+import { learningIndexEntry, learningRank } from './build-common';
 
 /**
  * Builds `index/jlpt.json` (JLPT level -> vocab, frequency-sorted) from the
@@ -44,16 +45,14 @@ async function main() {
             continue;
         }
 
-        index[level].push({
-            id: vocab.id,
-            containedKanji: vocab.writtenForm.containedKanji,
-        });
-        rankById.set(vocab.id, vocab.frequency.kanjiRank);
+        index[level].push(learningIndexEntry(vocab));
+        rankById.set(vocab.id, learningRank(vocab));
         matched++;
     }
 
     // Within a level, common words first - a learner working through N5 should
-    // meet 人 before 湖. readdirSync order is filesystem-dependent, so this sort
+    // meet 人 before 湖, and ここ at its kana spelling's rank, not 此処's.
+    // readdirSync order is filesystem-dependent, so this sort
     // is what makes the index deterministic across machines.
     for (const entries of Object.values(index)) {
         entries.sort((a, b) => {

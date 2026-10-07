@@ -1,0 +1,204 @@
+[
+  {
+    "id": "125108",
+    "original": "天気は刻々と変わる。",
+    "en": [
+      {
+        "id": "278885",
+        "text": "The weather varies from hour to hour."
+      }
+    ],
+    "indices": "天気 は 刻々{刻々と} 変わる",
+    "vocabIds": [
+      "1510790",
+      "1438690",
+      "1285830"
+    ],
+    "matches": {
+      "1285830": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "こっこく"
+        }
+      ],
+      "1438690": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "てんき"
+        }
+      ],
+      "1510790": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "かわる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "143472",
+    "original": "世の中は刻々と変わっている。",
+    "en": [
+      {
+        "id": "271095",
+        "text": "The world is changing every minute."
+      }
+    ],
+    "indices": "世の中 は 刻々{刻々と} 変わる{変わっている}",
+    "vocabIds": [
+      "2517580",
+      "1373850",
+      "1285830"
+    ],
+    "matches": {
+      "1285830": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "こっこく"
+        }
+      ],
+      "1373850": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "よのなか"
+        }
+      ],
+      "2517580": [
+        {
+          "start": 7,
+          "length": 6,
+          "reading": "かわっている"
+        }
+      ]
+    }
+  },
+  {
+    "id": "146026",
+    "original": "状況は刻々と悪くなった。",
+    "en": [
+      {
+        "id": "268536",
+        "text": "The situation became worse by the minute."
+      }
+    ],
+    "indices": "状況 は 刻々{刻々と} 悪い(わるい){悪くなった}",
+    "vocabIds": [
+      "1356700",
+      "1285830",
+      "1151260"
+    ],
+    "matches": {
+      "1151260": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "わるく"
+        }
+      ],
+      "1285830": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "こっこく"
+        }
+      ],
+      "1356700": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じょうきょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "150623",
+    "original": "時間が刻々と迫っている。",
+    "en": [
+      {
+        "id": "263935",
+        "text": "Time is pressing every moment."
+      }
+    ],
+    "indices": "時間 が 刻々(こっこく){刻々}~ と 迫る{迫っている}~",
+    "vocabIds": [
+      "1475720",
+      "1315920",
+      "1285830"
+    ],
+    "matches": {
+      "1285830": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "こっこく"
+        }
+      ],
+      "1315920": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じかん"
+        }
+      ],
+      "1475720": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "せまっている"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11574774",
+    "original": "刻々と時間が迫ってくる。",
+    "en": [
+      {
+        "id": "9341631",
+        "text": "The clock's ticking."
+      },
+      {
+        "id": "1690480",
+        "text": "The clock is ticking."
+      },
+      {
+        "id": "9341629",
+        "text": "Clock's ticking."
+      }
+    ],
+    "vocabIds": [
+      "1475720",
+      "1285830",
+      "1315920"
+    ],
+    "matches": {
+      "1285830": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こっこく"
+        }
+      ],
+      "1315920": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "じかん"
+        }
+      ],
+      "1475720": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "せまってくる"
+        }
+      ]
+    }
+  }
+]

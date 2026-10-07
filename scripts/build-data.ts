@@ -4,15 +4,30 @@ import readline from 'readline';
 import type { Sense, Vocabulary } from '../src/models/vocabulary.model';
 import type { Sentence } from '../src/models/sentence.model';
 import type { Kanji } from '../src/models/kanji.model';
+import type { FrequencyIndex, KKLCIndex, SearchIndex } from '../src/models/index.model';
 import type kuromoji from 'kuromoji';
 import { JMDict, JLPTVocabDatasetDTO } from "../src/models/data.model";
-import { buildKanaKeyOwners, buildMiscFlags, resolveJlptLevel, type KanaOwnerOverrides } from './build-common';
+import {
+    applyUsuallyKanaOverrides,
+    buildKanaKeyOwners,
+    buildMiscFlags,
+    compareMergeBase,
+    decideUsuallyKana,
+    learningIndexEntry,
+    learningRank,
+    parseJpdbTsv,
+    resolveJlptLevel,
+    type KanaOwnerOverrides,
+    type UsuallyKanaOverrides,
+} from './build-common';
 import { BUILD_LIMITS } from './build-constants';
 import { disambiguateByReading, type ReadingVocab } from '../src/utils/readingDisambiguation';
 
 // --- Configuration ---
 const INPUT_JMDICT_FILE = './data/raw/jmdict.json';
 const INPUT_JPDB_FILE = './data/raw/jpdb_v2.2_freq_list_2024-10-13.json';
+const INPUT_JPDB_TSV_FILE = './data/raw/jpdb_v2.2_freq_list_2024-10-13.csv';
+const INPUT_USUALLY_KANA_OVERRIDES_FILE = './data/raw/vocab/usually-kana-overrides.json';
 const INPUT_KANJI_FILE = './compiled/kanji.json';
 const INPUT_SENTENCES_FILE = './data/raw/Sentence pairs in Japanese-English - 2026-02-15.tsv';
 const INPUT_INDICES_FILE = './data/raw/jpn_indices.csv';
@@ -33,18 +48,10 @@ type JPDBData = Record<string, Record<string, JPDBEntry>>;
 interface BuildVocabulary extends Vocabulary {
     kklcStep: number;
     isCommon: boolean;
-}
-
-interface FrequencyIndexEntry {
-    id: string;
-    containedKanji: string[];
-}
-
-interface SearchIndexEntry {
-    id: string;
-    w: string; // kanji
-    r: string; // reading
-    m: string; // meaning
+    /** Best JPDB rank of this spelling under one of the word's own readings, null when it has none (see compareMergeBase). Build-only. */
+    ownRank: number | null;
+    /** JMdict tags the headword `rK`, rarely used kanji form (see decideUsuallyKana). Build-only. */
+    rareKanjiForm: boolean;
 }
 
 // --- Main ---
@@ -85,6 +92,8 @@ async function main() {
     // JPDB
     console.log('   - JPDB...');
     const jpdb: JPDBData = JSON.parse(fs.readFileSync(INPUT_JPDB_FILE, 'utf-8'));
+    const jpdbTable = parseJpdbTsv(fs.readFileSync(INPUT_JPDB_TSV_FILE, 'utf-8'));
+    const usuallyKanaOverrides: UsuallyKanaOverrides = JSON.parse(fs.readFileSync(INPUT_USUALLY_KANA_OVERRIDES_FILE, 'utf-8'));
 
     // JLPT Vocabulary
     console.log('   - JLPT vocab...');
@@ -134,6 +143,10 @@ async function main() {
 
         // Match JPDB frequency
         const jpdbKanjiEntry = jpdb[kanjiText];
+        const ownRanks = entry.kana
+            .map(k => jpdbKanjiEntry?.[k.text]?.frequency)
+            .filter((rank): rank is number => rank !== undefined);
+        const ownRank = ownRanks.length ? Math.min(...ownRanks) : null;
         let jpdbEntry: { kanjiRank?: number; hiraganaRank?: number } | null = null;
 
         if (jpdbKanjiEntry) {
@@ -227,6 +240,8 @@ async function main() {
             },
             kklcStep,
             isCommon: primaryKanji.common,
+            ownRank,
+            rareKanjiForm: primaryKanji.tags.includes('rK'),
         };
 
         candidateVocab.set(entry.id, vocabObj);
@@ -255,8 +270,8 @@ async function main() {
             continue;
         }
 
-        // Sort by frequency (kanjiRank). Lower rank is better (more frequent)
-        group.sort((a, b) => a.frequency.kanjiRank - b.frequency.kanjiRank);
+        // Most frequent first, a word JPDB ranks under its own readings before one ranked on a stand-in.
+        group.sort(compareMergeBase);
 
         const base = group[0];
 
@@ -653,6 +668,35 @@ async function main() {
         }
     }
 
+    // 4.6 Words learned in kana (ここ, not 此処): see decideUsuallyKana.
+    console.log('🔤 Deciding which words are learned in kana...');
+    const usuallyKanaIds = new Set<string>();
+    const kanaRanks = new Map<string, number>();
+    for (const vocab of FINAL_VOCAB) {
+        const decision = decideUsuallyKana({
+            kanji: vocab.writtenForm.kanji,
+            reading: vocab.reading.primary,
+            readings: [vocab.reading.primary, ...vocab.reading.alternatives],
+            firstSenseUk: vocab.senses[0]?.misc.rawTags.includes('uk') ?? false,
+            rareKanjiForm: vocab.rareKanjiForm,
+        }, jpdbTable);
+        if (!decision.usuallyKana) continue;
+        usuallyKanaIds.add(vocab.id);
+        if (decision.kanaRank !== null) kanaRanks.set(vocab.id, decision.kanaRank);
+    }
+    const kept = applyUsuallyKanaOverrides(usuallyKanaIds, new Set(FINAL_VOCAB.map(v => v.id)), usuallyKanaOverrides);
+    for (const vocab of FINAL_VOCAB) {
+        if (!kept.has(vocab.id)) continue;
+        vocab.usuallyKana = true;
+        // The rank the word is met at is its kana spelling's, which the generic lookup
+        // misses when only a katakana or standalone kana row has it (ゴミ, ございます).
+        const kanaRank = kanaRanks.get(vocab.id);
+        if (kanaRank !== undefined && kanaRank < (vocab.frequency.kanaRank ?? Number.POSITIVE_INFINITY)) {
+            vocab.frequency.kanaRank = kanaRank;
+        }
+    }
+    console.log(`   - ${kept.size} words learned in kana (${usuallyKanaIds.size - kept.size} excluded by hand).`);
+
     // 5. Write Outputs
     console.log('💾 Writing compiled data...');
 
@@ -670,9 +714,9 @@ async function main() {
     if (fs.existsSync(`${OUTPUT_INDEX_DIR}/frequency.json`)) fs.unlinkSync(`${OUTPUT_INDEX_DIR}/frequency.json`);
 
     // Indices
-    const kklcIndex: Record<number, string[]> = {};
-    const frequencyIndex: FrequencyIndexEntry[] = [];
-    const searchIndex: SearchIndexEntry[] = [];
+    const kklcIndex: KKLCIndex = {};
+    const frequencyIndex: FrequencyIndex = [];
+    const searchIndex: SearchIndex = [];
     const kanjiVocabIndex: Record<string, string[]> = {};
     const kanjiRankById = new Map<string, number>();
 
@@ -680,7 +724,7 @@ async function main() {
     let sentencesWritten = 0;
 
     for (const vocab of FINAL_VOCAB) {
-        const { kklcStep, ...cleanVocab } = vocab;
+        const { kklcStep, ownRank: _ownRank, rareKanjiForm: _rareKanjiForm, ...cleanVocab } = vocab;
 
         // 1. Write Vocab File
         fs.writeFileSync(
@@ -700,22 +744,23 @@ async function main() {
         }
 
         // 3. Update Indexes
-        // KKLC
-        if (!kklcIndex[kklcStep]) kklcIndex[kklcStep] = [];
-        kklcIndex[kklcStep].push(vocab.id);
+        // KKLC: a step is reached by learning kanji, and a word learned in kana
+        // teaches none, so the kanji-driven order leaves it out.
+        if (!vocab.usuallyKana) {
+            if (!kklcIndex[kklcStep]) kklcIndex[kklcStep] = [];
+            kklcIndex[kklcStep].push(vocab.id);
+        }
 
-        // Frequency
-        frequencyIndex.push({
-            id: vocab.id,
-            containedKanji: vocab.writtenForm.containedKanji,
-        });
+        // Frequency (sorted by learningRank below)
+        frequencyIndex.push(learningIndexEntry(vocab));
 
         // Search
         searchIndex.push({
             id: vocab.id,
             w: vocab.writtenForm.kanji,
             r: vocab.reading.primary,
-            m: vocab.senses[0]?.glosses.slice(0, 2).join(', ') || ''
+            m: vocab.senses[0]?.glosses.slice(0, 2).join(', ') || '',
+            ...(vocab.usuallyKana ? { u: true as const } : {}),
         });
 
         // Kanji -> Vocab reverse index (for the Kanji Detail Page)
@@ -725,6 +770,12 @@ async function main() {
             kanjiVocabIndex[k].push(vocab.id);
         }
     }
+
+    // FINAL_VOCAB is in kanji-spelling order; a word learned in kana is met at its
+    // kana spelling's rank (ここ is #56, 此処 #10545). Array.sort is stable, so equal
+    // ranks keep their order and the file stays reproducible.
+    const rankById = new Map(FINAL_VOCAB.map(v => [v.id, learningRank(v)]));
+    frequencyIndex.sort((a, b) => rankById.get(a.id)! - rankById.get(b.id)!);
 
     // Sort each kanji's vocab list by frequency (most common first) so
     // capped/expandable UI lists surface common words before rare ones.

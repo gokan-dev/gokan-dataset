@@ -54,6 +54,55 @@
         "isArchaic": false,
         "isRare": false,
         "rawTags": [
+          "surname",
+          "given"
+        ]
+      },
+      "glosses": [
+        "Gan"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "がん"
+      ]
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
+          "work"
+        ]
+      },
+      "glosses": [
+        "The Wild Geese (1913 novel by Mori Ōgai)"
+      ],
+      "related": {
+        "compounds": []
+      },
+      "appliesToReadings": [
+        "がん"
+      ]
+    },
+    {
+      "pos": [
+        "n"
+      ],
+      "misc": {
+        "isAbbreviation": false,
+        "isSuffix": false,
+        "isPrefix": false,
+        "isArchaic": false,
+        "isRare": false,
+        "rawTags": [
           "uk"
         ]
       },
@@ -95,55 +144,6 @@
       "appliesToReadings": [
         "かり"
       ]
-    },
-    {
-      "pos": [
-        "n"
-      ],
-      "misc": {
-        "isAbbreviation": false,
-        "isSuffix": false,
-        "isPrefix": false,
-        "isArchaic": false,
-        "isRare": false,
-        "rawTags": [
-          "surname",
-          "given"
-        ]
-      },
-      "glosses": [
-        "Gan"
-      ],
-      "related": {
-        "compounds": []
-      },
-      "appliesToReadings": [
-        "がん"
-      ]
-    },
-    {
-      "pos": [
-        "n"
-      ],
-      "misc": {
-        "isAbbreviation": false,
-        "isSuffix": false,
-        "isPrefix": false,
-        "isArchaic": false,
-        "isRare": false,
-        "rawTags": [
-          "work"
-        ]
-      },
-      "glosses": [
-        "The Wild Geese (1913 novel by Mori Ōgai)"
-      ],
-      "related": {
-        "compounds": []
-      },
-      "appliesToReadings": [
-        "がん"
-      ]
     }
   ],
   "usageHints": {
@@ -160,19 +160,19 @@
       ]
     },
     {
-      "id": "2863845",
-      "isBase": false,
-      "originalPrimaryReading": "かり",
-      "originalGlosses": [
-        "wild goose"
-      ]
-    },
-    {
       "id": "5196415",
       "isBase": false,
       "originalPrimaryReading": "がん",
       "originalGlosses": [
         "Gan"
+      ]
+    },
+    {
+      "id": "2863845",
+      "isBase": false,
+      "originalPrimaryReading": "かり",
+      "originalGlosses": [
+        "wild goose"
       ]
     }
   ]
