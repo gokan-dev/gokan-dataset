@@ -42,6 +42,14 @@ describe('usuallyKana against the labelled set', () => {
         expect(flagged.length / present.length).toBeGreaterThanOrEqual(KANA_RECALL_FLOOR);
     });
 
+    it('flags a word whose only kanji forms are search-only (の: 乃 and 之 are both sK)', () => {
+        // JMdict tags 乃/之 `sK` (search-only, never displayed), not `rK`, and JPDB
+        // has no kanji frequency row for a particle, so without the sK signal the
+        // rule left の showing its search-only kanji 乃. See decideUsuallyKana.
+        const no = compiled('1469800');
+        if (no) expect(no.usuallyKana).toBe(true);
+    });
+
     it('flags the core N5 words the feature exists for', () => {
         const core = ['此処', '彼の', '此の', '其の', '此れ', '何処', '有る', '居る', '成る', '下さい', '未だ', '沢山'];
         const missing = core.filter(word => {

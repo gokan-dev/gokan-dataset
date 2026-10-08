@@ -50,7 +50,7 @@ interface BuildVocabulary extends Vocabulary {
     isCommon: boolean;
     /** Best JPDB rank of this spelling under one of the word's own readings, null when it has none (see compareMergeBase). Build-only. */
     ownRank: number | null;
-    /** JMdict tags the headword `rK`, rarely used kanji form (see decideUsuallyKana). Build-only. */
+    /** JMdict tags the headword `rK` (rarely used) or `sK` (search-only): not a normal display kanji (see decideUsuallyKana). Build-only. */
     rareKanjiForm: boolean;
 }
 
@@ -241,7 +241,7 @@ async function main() {
             kklcStep,
             isCommon: primaryKanji.common,
             ownRank,
-            rareKanjiForm: primaryKanji.tags.includes('rK'),
+            rareKanjiForm: primaryKanji.tags.includes('rK') || primaryKanji.tags.includes('sK'),
         };
 
         candidateVocab.set(entry.id, vocabObj);

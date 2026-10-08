@@ -216,7 +216,7 @@ export interface UsuallyKanaInput {
     readings: string[];
     /** JMdict tags the first sense `uk` (usually written using kana alone). */
     firstSenseUk: boolean;
-    /** JMdict tags the headword `rK` (rarely used kanji form). */
+    /** The headword has no normal display kanji: JMdict tags it `rK` (rarely used) or `sK` (search-only). */
     rareKanjiForm: boolean;
 }
 
@@ -240,8 +240,9 @@ export interface UsuallyKanaDecision {
  *    reading's row made 皆/みな look usually-kana through みんな.
  *  - When JPDB has no row at all for the kanji spelling, the standalone kana row
  *    is the evidence (すみません, ございます), again only when unambiguous.
- *  - JMdict's `rK` stands in for frequency JPDB cannot give: 此方/こちら has a
- *    row only under こっち.
+ *  - JMdict's `rK` (rarely used) and `sK` (search-only) kanji stand in for
+ *    frequency JPDB cannot give: 此方/こちら has a row only under こっち, and の's
+ *    only kanji (乃, 之) are both search-only, so JPDB never ranks it in kanji.
  *
  * Doubtful cases stay in kanji: the kanji spelling disambiguates homophones (いる
  * is 居る and 要る), so a wrong kana display costs more than a missed one. The
