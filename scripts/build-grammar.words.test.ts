@@ -1,7 +1,7 @@
 import { describe, it, expect, beforeAll } from 'vitest';
 import kuromoji from 'kuromoji';
 import { SentenceTokenizer } from '../src/utils/tokenizer';
-import { buildExampleWords, buildVocabLookup } from './build-grammar';
+import { buildExampleWords, buildVocabLookup, markerInflector } from './build-grammar';
 import type { SearchIndex } from '../src/models/index.model';
 
 /**
@@ -248,5 +248,48 @@ describe('conjugated stems link to their verb, not a homograph', () => {
         // 言い (in 言いたい) reads いい, the marker of ～ばいい.
         const { words, patternWordIndices } = build('何を言いたいのか、どう言えばいいのか分からない。', 'Verb-ば-form + いい');
         expect(patternWordIndices.map(i => words[i].surface)).not.toContain('言い');
+    });
+});
+
+describe('markers the sentence conjugates (gokan-dev/gokan-dataset#25)', () => {
+    let tokenizer: kuromoji.Tokenizer<kuromoji.IpadicFeatures>;
+    let sentenceTokenizer: SentenceTokenizer;
+
+    beforeAll(async () => {
+        tokenizer = await new Promise((resolve, reject) => {
+            kuromoji.builder({ dicPath: 'node_modules/kuromoji/dict' }).build((err, t) => {
+                if (err) reject(err);
+                else resolve(t);
+            });
+        });
+        sentenceTokenizer = new SentenceTokenizer(tokenizer);
+    });
+
+    function anchored(jp: string, formation: string): string {
+        const lookup = buildVocabLookup([], new Set());
+        const { words, patternWordIndices } = buildExampleWords(
+            tokenizer, sentenceTokenizer, new Set(), lookup, jp, formation, '', markerInflector(tokenizer));
+        return patternWordIndices.map(i => words[i].surface).join('+');
+    }
+
+    // The six examples that were unanchored: kuromoji gives each conjugated marker
+    // no dictionary form or the wrong one (みたい as "like", 切れ as 切れる, ぶっ as ぶつ).
+    it.each([
+        ['映画を見てみたいです。', 'Verb-て form + みる', 'みたい'],
+        ['先生に質問に答えてもらえますか？', 'Verb-て form + もらう', 'もらえ'],
+        ['彼女は常にお嬢様ぶっている。', 'Noun / (Adjective stem) + ぶる', 'ぶっ+て'],
+        ['友達と喧嘩して、何も言い切れなかった。', 'Verb-stem + 切る', '切れ'],
+        ['彼女は忙しくて遊びすぎはしない。', 'Verb-stem + すぎる', 'すぎ'],
+        ['お母さんにチョコレートをあげたいです。', 'Receiver + に + Object + を + あげます', 'に+を+あげ'],
+    ])('anchors %s', (jp, formation, expected) => {
+        expect(anchored(jp, formation)).toBe(expected);
+    });
+
+    it('keeps the blank on the marker, not its tense (させ, not させました)', () => {
+        expect(anchored('先生が生徒に宿題をさせました。', 'Group 3 Verbs: する -> させる')).toBe('さ+せ');
+    });
+
+    it('offers nothing for a marker that does not end in a verb', () => {
+        expect(markerInflector(tokenizer)('のいかんで')).toEqual([]);
     });
 });
