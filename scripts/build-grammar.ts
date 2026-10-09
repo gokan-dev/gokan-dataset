@@ -4,6 +4,9 @@ import kuromoji from 'kuromoji';
 import type { GrammarContrastLesson, GrammarContrastIndex, GrammarExample, GrammarExampleWord, GrammarJlptIndex, GrammarPoint } from '../src/models/grammar.model';
 import type { SearchIndex } from '../src/models/index.model';
 import { locatePattern } from './grammar-pattern-matcher';
+import type { MarkerInflector } from './grammar-pattern-matcher';
+import { classify, conjugate, FORM_LABELS } from '../src/utils/conjugator';
+import type { ConjugationForm } from '../src/utils/conjugator';
 import { SentenceTokenizer } from '../src/utils/tokenizer';
 
 /**
@@ -667,6 +670,70 @@ function wordFromToken(token: kuromoji.IpadicFeatures, lookup: ReturnType<typeof
  * keeps both properties: full pattern-location accuracy AND compound/
  * conjugation-aware vocab linking, rather than trading one for the other.
  */
+/** Derived forms that are themselves ichidan verbs: an auxiliary attaches to their stem (もらえ + ます, 切れ + なかった). */
+const ICHIDAN_DERIVED_FORMS: ConjugationForm[] = ['potential', 'passive', 'causative', 'causative-passive'];
+
+/**
+ * Shortest verb form looked for. A one-kana stem (み of みる, い of いる) occurs
+ * all over a sentence, and every such hit would be a false anchor.
+ */
+const MIN_INFLECTED_FORM = 2;
+
+/**
+ * The conjugated forms of a pattern marker that ends in a verb, for the matcher
+ * (grammar-pattern-matcher.ts, doc comment point 10): みる -> みたい, もらう ->
+ * もらえ, 切る -> 切れ, あげます -> あげたい. The marker is tokenized to find that
+ * verb and its class, and every form the dataset's conjugator produces is
+ * offered, plus the stems auxiliaries attach to: the ます-stem (すぎ in
+ * 遊びすぎはしない) and the stem of a derived ichidan form (もらえ in もらえますか).
+ * A marker that does not end in a verb gets nothing. Shortest form first. Memoized per marker, since
+ * a point's formation is matched against every one of its examples.
+ */
+export function markerInflector(tokenizer: kuromoji.Tokenizer<kuromoji.IpadicFeatures>): MarkerInflector {
+    const forms = Object.keys(FORM_LABELS) as ConjugationForm[];
+    const cache = new Map<string, string[]>();
+
+    return marker => {
+        const cached = cache.get(marker);
+        if (cached) return cached;
+
+        const tokens = tokenizer.tokenize(marker);
+        // The verb is the last token, or the one before a final polite ます (あげます).
+        let v = tokens.length - 1;
+        if (v > 0 && tokens[v].pos === '助動詞' && tokens[v].basic_form === 'ます') v--;
+        const verb = tokens[v];
+        const wordClass = verb && verb.pos === '動詞'
+            ? classify(verb.basic_form, verb.pos, verb.pos_detail_1, verb.conjugated_type)
+            : null;
+
+        const out = new Set<string>();
+        if (wordClass) {
+            const prefix = tokens.slice(0, v).map(t => t.surface_form).join('');
+            for (const form of forms) {
+                const conjugation = conjugate(verb.basic_form, verb.basic_form, wordClass, form);
+                if (!conjugation) continue;
+                for (const written of [conjugation.written, ...(conjugation.alternatives ?? []).map(a => a.written)]) {
+                    const candidates = [written];
+                    if (ICHIDAN_DERIVED_FORMS.includes(form) && written.endsWith('る')) candidates.push(written.slice(0, -1));
+                    if (form === 'masu' && written.endsWith('ます')) candidates.push(written.slice(0, -2));
+                    // The length floor is on the string actually searched for: させ (さ +
+                    // せる's stem) is as distinctive as any two-kana form.
+                    for (const c of candidates.map(c => prefix + c)) {
+                        if (c.length >= MIN_INFLECTED_FORM && c !== marker) out.add(c);
+                    }
+                }
+            }
+        }
+
+        // Shortest first: the matcher takes the first form it finds, and the blank
+        // should cover the marker and as little of its ending as possible (させ of
+        // させました, not the whole させました, which also asks for the tense).
+        const result = Array.from(out).sort((a, b) => a.length - b.length);
+        cache.set(marker, result);
+        return result;
+    };
+}
+
 export function buildExampleWords(
     tokenizer: kuromoji.Tokenizer<kuromoji.IpadicFeatures>,
     sentenceTokenizer: SentenceTokenizer,
@@ -675,7 +742,9 @@ export function buildExampleWords(
     jp: string,
     formation: string,
     /** The point's title - the only place a repeating marker is stated; see locatePattern. */
-    title = ''
+    title = '',
+    /** Conjugated forms of a verb marker (markerInflector); absent means markers are looked for as written. */
+    inflect?: MarkerInflector
 ): { words: GrammarExampleWord[]; patternWordIndices: number[] } {
     const spanned = spanTokens(tokenizer.tokenize(jp));
 
@@ -689,7 +758,7 @@ export function buildExampleWords(
         const word = wordFromToken(st.token, lookup);
         return word.baseForm ? { ...word, reading: undefined } : word;
     });
-    const fineHit = locatePattern(formation, fineWords, title) ?? [];
+    const fineHit = locatePattern(formation, fineWords, title, inflect) ?? [];
 
     const rawMatches = sentenceTokenizer.extractMatches(jp, vocabSet);
     const candidates: { term: string; start: number; length: number; reading?: string }[] = [];
@@ -1024,6 +1093,7 @@ async function main() {
         });
     });
     const sentenceTokenizer = new SentenceTokenizer(tokenizer);
+    const inflect = markerInflector(tokenizer);
 
     const pointsDir = path.join(OUTPUT_DIR, 'points');
     fs.rmSync(OUTPUT_DIR, { recursive: true, force: true });
@@ -1117,7 +1187,7 @@ async function main() {
             ];
 
             const examples: GrammarExample[] = sourceExamples.map(({ ex, formation: exFormation, title: exTitle }) => {
-                const { words, patternWordIndices } = buildExampleWords(tokenizer, sentenceTokenizer, vocabSet, lookup, ex.jp, exFormation, exTitle);
+                const { words, patternWordIndices } = buildExampleWords(tokenizer, sentenceTokenizer, vocabSet, lookup, ex.jp, exFormation, exTitle, inflect);
                 totalWords += words.length;
                 matchedWords += words.filter(w => w.vocabId !== null).length;
 

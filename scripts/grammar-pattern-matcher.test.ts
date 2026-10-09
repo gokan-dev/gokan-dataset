@@ -277,3 +277,31 @@ describe('false anchors from formations that alternate inside a slot', () => {
         expect(locatePattern(DOU_DESU_KA, sentence)!).toHaveLength(3);
     });
 });
+
+describe('conjugated markers (gokan-dev/gokan-dataset#25)', () => {
+    // A stand-in for the build's markerInflector: the forms the conjugator would offer.
+    const forms: Record<string, string[]> = {
+        'みる': ['みて', 'みた', 'みたい', 'みます'],
+        'する': ['させ', 'した', 'して', 'される'],
+        'させる': ['させ', 'させて', 'させました'],
+    };
+    const inflect = (marker: string) => forms[marker] ?? [];
+
+    it('finds a marker the sentence conjugates where kuromoji has no dictionary form for it', () => {
+        // 映画を見てみたいです。 kuromoji reads みたい as the auxiliary "like", with no base form.
+        const words = [w('映画'), w('を'), w('見', '見る'), w('て'), w('みたい'), w('です'), w('。')];
+        expect(locatePattern('Verb-て form + みる', words)).toBeNull();
+        expect(locatePattern('Verb-て form + みる', words, '', inflect)).toEqual([4]);
+    });
+
+    it('never matches a conjugated form that starts mid-token', () => {
+        // 宿題をさせました。 する's past した occurs inside まし|た, and must not take it.
+        const words = [w('宿題'), w('を'), w('さ', 'する'), w('せ', 'せる'), w('まし', 'ます'), w('た'), w('。')];
+        expect(locatePattern('する -> させる', words, '', inflect)).toEqual([2, 3]);
+    });
+
+    it('takes the first conjugated form offered, so the blank stays tight', () => {
+        const words = [w('宿題'), w('を'), w('さ', 'する'), w('せ', 'せる'), w('まし', 'ます'), w('た'), w('。')];
+        expect(locatePattern('Verb + させる', words, '', inflect)).toEqual([2, 3]);
+    });
+});
