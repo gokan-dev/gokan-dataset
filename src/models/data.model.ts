@@ -50,14 +50,6 @@ export interface ParsedJPDBFrequency {
  */
 export type JLPTKanjiDatasetDTO = Record<string, number>;
 
-/**
- * JLPT Vocabulary Dataset
- * Source: https://github.com/Bluskyo/JLPT_Vocabulary/blob/main/data/vocab/results/JLPT_vocab_ALL.json
- *
- * Written form -> one or more reading/level pairs (a word can appear at
- * different levels depending on its reading).
- */
-export type JLPTVocabDatasetDTO = Record<string, Array<{ reading: string; level: number }>>;
 
 
 export interface JMDict {

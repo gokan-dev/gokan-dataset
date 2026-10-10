@@ -57,18 +57,11 @@
     ],
     "indices": "彼(かれ) の 職業 は 大工 です",
     "vocabIds": [
-      "1000420",
       "1357510",
-      "1413690"
+      "1413690",
+      "1483070"
     ],
     "matches": {
-      "1000420": [
-        {
-          "start": 0,
-          "length": 2,
-          "reading": "かれの"
-        }
-      ],
       "1357510": [
         {
           "start": 2,
@@ -81,6 +74,13 @@
           "start": 5,
           "length": 2,
           "reading": "だいく"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
         }
       ]
     }
@@ -135,7 +135,7 @@
         {
           "start": 7,
           "length": 3,
-          "reading": "にわとりこや"
+          "reading": "にわとりごや"
         }
       ]
     }
@@ -199,19 +199,19 @@
         {
           "start": 10,
           "length": 2,
-          "reading": "いちにん"
+          "reading": "ひとり"
         },
         {
           "start": 19,
           "length": 2,
-          "reading": "いちにん"
+          "reading": "ひとり"
         }
       ],
       "2267340": [
         {
           "start": 26,
           "length": 4,
-          "reading": "もういちにん"
+          "reading": "もうひとり"
         }
       ]
     }
@@ -279,7 +279,7 @@
         {
           "start": 8,
           "length": 2,
-          "reading": "のちで"
+          "reading": "あとで"
         }
       ],
       "1304970": [
@@ -399,7 +399,7 @@
         {
           "start": 2,
           "length": 4,
-          "reading": "うでのよい"
+          "reading": "うでのいい"
         }
       ]
     }

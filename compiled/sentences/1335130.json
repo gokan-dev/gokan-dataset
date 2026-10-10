@@ -1,5 +1,52 @@
 [
   {
+    "id": "203370",
+    "original": "タバコ一箱は二十本入りです。",
+    "en": [
+      {
+        "id": "40608",
+        "text": "Each package contains a score of cigarettes."
+      }
+    ],
+    "indices": "煙草{タバコ} 一箱~ は 二 十本~ 入り[03] です",
+    "vocabIds": [
+      "2128520",
+      "1335130",
+      "1465410",
+      "1461140"
+    ],
+    "matches": {
+      "1335130": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "じっぽん"
+        }
+      ],
+      "1461140": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "に"
+        }
+      ],
+      "1465410": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "いり"
+        }
+      ],
+      "2128520": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ひとはこ"
+        }
+      ]
+    }
+  },
+  {
     "id": "1053547",
     "original": "私は十本のペンを持っています。",
     "en": [
@@ -32,7 +79,7 @@
         {
           "start": 2,
           "length": 2,
-          "reading": "じゅうほん"
+          "reading": "じっぽん"
         }
       ]
     }
@@ -83,7 +130,7 @@
         {
           "start": 5,
           "length": 2,
-          "reading": "じゅうほん"
+          "reading": "じっぽん"
         }
       ],
       "1407460": [

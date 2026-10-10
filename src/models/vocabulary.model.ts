@@ -24,6 +24,16 @@ export interface Vocabulary {
     /** JLPT level (1=N1 hardest ... 5=N5 easiest), if this word is JLPT-tagged. Descriptive/display-only - not used for learning order. */
     jlptLevel?: number;
 
+    /**
+     * Set only when the level is inferred rather than listed: the id of the listed word
+     * this one is formed from (一緒に from 一緒, お店 from 店, 早く from 早い), whose level
+     * it takes. See inheritJlptLevels in the dataset's scripts/jlpt-derived.ts.
+     */
+    jlptLevelFrom?: string;
+
+    /** Textbook lessons that teach this word (Genki, Intermediate Japanese), from Waller's JLPT decks. */
+    textbooks?: TextbookLesson[];
+
     /** Learning order constraints */
     progression: {
         kklcStep: number;
@@ -95,4 +105,10 @@ export interface UsageHints {
 
     /** True if reading depends on context (homograph warning) */
     requiresContext: boolean;
+}
+
+/** A lesson of a textbook that teaches a word. Genki runs 1-23 (I: 1-12, II: 13-23). */
+export interface TextbookLesson {
+    book: 'genki' | 'intermediate-japanese';
+    lesson: number;
 }

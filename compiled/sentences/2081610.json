@@ -37,7 +37,46 @@
         {
           "start": 7,
           "length": 2,
-          "reading": "だて"
+          "reading": "たて"
+        }
+      ]
+    }
+  },
+  {
+    "id": "124613",
+    "original": "塗り立てのペンキに触るな。",
+    "en": [
+      {
+        "id": "279381",
+        "text": "Don't touch the wet paint."
+      }
+    ],
+    "indices": "塗り立てる{塗り立て} の 番瀝青{ペンキ} に 触る な[01]",
+    "vocabIds": [
+      "2265610",
+      "2081610",
+      "1357980"
+    ],
+    "matches": {
+      "1357980": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "さわる"
+        }
+      ],
+      "2081610": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "たて"
+        }
+      ],
+      "2265610": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ぬり"
         }
       ]
     }
@@ -75,7 +114,7 @@
         {
           "start": 10,
           "length": 2,
-          "reading": "だて"
+          "reading": "たて"
         }
       ]
     }

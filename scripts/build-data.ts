@@ -6,22 +6,24 @@ import type { Sentence } from '../src/models/sentence.model';
 import type { Kanji } from '../src/models/kanji.model';
 import type { FrequencyIndex, KKLCIndex, SearchIndex } from '../src/models/index.model';
 import type kuromoji from 'kuromoji';
-import { JMDict, JLPTVocabDatasetDTO } from "../src/models/data.model";
+import { JMDict } from "../src/models/data.model";
 import {
     applyUsuallyKanaOverrides,
-    buildKanaKeyOwners,
     buildMiscFlags,
-    compareMergeBase,
+    chooseMergeBase,
     decideUsuallyKana,
     learningIndexEntry,
     learningRank,
+    mayShareHeadword,
     parseJpdbTsv,
-    resolveJlptLevel,
-    type KanaOwnerOverrides,
+    readSpokenCounts,
     type UsuallyKanaOverrides,
 } from './build-common';
+import { readWallerDecks, readWallerIdList, resolveJlptLevels, type JlptCorrections, type JmdictWordLike } from './jlpt-levels';
+import { inheritJlptLevels } from './jlpt-derived';
 import { BUILD_LIMITS } from './build-constants';
-import { disambiguateByReading, type ReadingVocab } from '../src/utils/readingDisambiguation';
+import { disambiguateByReading, inflects, particleSpelledIds, resolveSentenceMatch, type ReadingVocab } from '../src/utils/readingDisambiguation';
+import { annotationFor, curatedReading, occurrenceReading, parseIndices, type ReadingSource } from '../src/utils/sentenceReading';
 
 // --- Configuration ---
 const INPUT_JMDICT_FILE = './data/raw/jmdict.json';
@@ -31,8 +33,10 @@ const INPUT_USUALLY_KANA_OVERRIDES_FILE = './data/raw/vocab/usually-kana-overrid
 const INPUT_KANJI_FILE = './compiled/kanji.json';
 const INPUT_SENTENCES_FILE = './data/raw/Sentence pairs in Japanese-English - 2026-02-15.tsv';
 const INPUT_INDICES_FILE = './data/raw/jpn_indices.csv';
-const INPUT_JLPT_VOCAB_FILE = './data/raw/jlpt-vocab.json';
-const INPUT_JLPT_KANA_OWNERS_FILE = './data/raw/vocab/jlpt-kana-owners.json';
+const INPUT_JLPT_ID_LIST_DIR = './data/raw/jlpt/waller-ids';
+const INPUT_JLPT_DECKS_DIR = './data/raw/jlpt/waller-decks';
+const INPUT_JLPT_CORRECTIONS_FILE = './data/raw/vocab/jlpt-corrections.json';
+const INPUT_JITEN_DIR = './data/raw/media/jiten';
 
 const OUTPUT_VOCAB_DIR = './compiled/vocab';
 const OUTPUT_SENTENCES_DIR = './compiled/sentences';
@@ -52,6 +56,10 @@ interface BuildVocabulary extends Vocabulary {
     ownRank: number | null;
     /** JMdict tags the headword `rK` (rarely used) or `sK` (search-only): not a normal display kanji (see decideUsuallyKana). Build-only. */
     rareKanjiForm: boolean;
+    /** The headword is a normal spelling of this word, so it may merge with others written the same (see mayShareHeadword). Build-only. */
+    sharesHeadword: boolean;
+    /** How often anime says this exact JMdict entry (Jiten), for chooseMergeBase. Build-only. */
+    spoken: number;
 }
 
 // --- Main ---
@@ -95,11 +103,25 @@ async function main() {
     const jpdbTable = parseJpdbTsv(fs.readFileSync(INPUT_JPDB_TSV_FILE, 'utf-8'));
     const usuallyKanaOverrides: UsuallyKanaOverrides = JSON.parse(fs.readFileSync(INPUT_USUALLY_KANA_OVERRIDES_FILE, 'utf-8'));
 
-    // JLPT Vocabulary
-    console.log('   - JLPT vocab...');
-    const jlptVocab: JLPTVocabDatasetDTO = JSON.parse(fs.readFileSync(INPUT_JLPT_VOCAB_FILE, 'utf-8'));
-    const kanaOwnerOverrides: KanaOwnerOverrides = JSON.parse(fs.readFileSync(INPUT_JLPT_KANA_OWNERS_FILE, 'utf-8'));
-    const kanaOwners = buildKanaKeyOwners(jlptVocab, jmdict.words, jpdb, kanaOwnerOverrides);
+    // JLPT levels per JMdict id, from Waller's lists (see jlpt-levels.ts).
+    console.log('   - JLPT levels...');
+    const jlptCorrections: JlptCorrections = JSON.parse(fs.readFileSync(INPUT_JLPT_CORRECTIONS_FILE, 'utf-8'));
+    const jmdictById = new Map<string, JmdictWordLike>(jmdict.words.map(w => [w.id, {
+        id: w.id,
+        kanji: w.kanji.map(k => ({ text: k.text, tags: k.tags as unknown as string[] })),
+        kana: w.kana.map(k => ({ text: k.text, common: k.common, tags: k.tags as unknown as string[], appliesToKanji: k.appliesToKanji })),
+        sense: w.sense.map(s => ({ misc: s.misc as unknown as string[] })),
+    }]));
+    const jlpt = resolveJlptLevels(
+        jmdictById,
+        readWallerIdList(INPUT_JLPT_ID_LIST_DIR),
+        readWallerDecks(INPUT_JLPT_DECKS_DIR),
+        jlptCorrections,
+    );
+    console.log(`     ${jlpt.levels.size} JMdict entries levelled, ${jlpt.textbooks.size} with a textbook lesson.`);
+
+    // Per-entry anime usage, to choose a merged word's base (chooseMergeBase).
+    const spokenCounts = readSpokenCounts(INPUT_JITEN_DIR);
 
     // 2. Build Candidate Vocabulary List
     console.log('🔎 Processing vocabulary candidates...');
@@ -205,15 +227,9 @@ async function main() {
         const requiresContext =
             entry.kana.length > 1 || senses.some(s => s.misc.isSuffix);
 
-        // JLPT level: see resolveJlptLevel for why this tries alternative written
-        // forms and the kana keys this entry owns as well as the kanji headword.
-        const jlptLevel = resolveJlptLevel(
-            jlptVocab,
-            entry.id,
-            [kanjiText, ...alternativeKanji],
-            [primaryReading, ...alternativeReadings],
-            kanaOwners,
-        );
+        // JLPT level of this exact JMdict entry; see jlpt-levels.ts.
+        const jlptLevel = jlpt.levels.get(entry.id)?.level;
+        const textbooks = jlpt.textbooks.get(entry.id);
 
         const vocabObj: BuildVocabulary = {
             id: entry.id,
@@ -231,6 +247,7 @@ async function main() {
                 kanaRank: jpdbEntry.hiraganaRank,
             },
             jlptLevel,
+            ...(textbooks ? { textbooks: textbooks.map(t => ({ ...t })) } : {}),
             progression: {
                 kklcStep,
             },
@@ -242,6 +259,8 @@ async function main() {
             isCommon: primaryKanji.common,
             ownRank,
             rareKanjiForm: primaryKanji.tags.includes('rK') || primaryKanji.tags.includes('sK'),
+            sharesHeadword: mayShareHeadword(primaryKanji.tags as unknown as string[]),
+            spoken: spokenCounts.get(entry.id) ?? 0,
         };
 
         candidateVocab.set(entry.id, vocabObj);
@@ -250,30 +269,36 @@ async function main() {
     console.log(`   - Found ${candidateVocab.size} initial vocabulary entries from JMDict.`);
 
     // --- MERGE EXACT KANJI HOMOGRAPHS ---
+    // Only words for which the shared spelling is a normal one merge: あれ, whose
+    // kanji 彼 is rare, stays its own word beside 彼/かれ (see mayShareHeadword).
     console.log('   - Merging homographs with identical kanji forms...');
     const vocabGroups = new Map<string, BuildVocabulary[]>();
     for (const vocab of candidateVocab.values()) {
-        const kanji = vocab.writtenForm.kanji;
-        if (!vocabGroups.has(kanji)) {
-            vocabGroups.set(kanji, []);
+        const key = vocab.sharesHeadword ? vocab.writtenForm.kanji : `${vocab.writtenForm.kanji}#${vocab.id}`;
+        if (!vocabGroups.has(key)) {
+            vocabGroups.set(key, []);
         }
-        vocabGroups.get(kanji)!.push(vocab);
+        vocabGroups.get(key)!.push(vocab);
     }
 
     const mergedCandidateVocab = new Map<string, BuildVocabulary>();
     const mergedLogs: string[] = [];
+    const baseOverrides: string[] = [];
     let mergedCount = 0;
 
-    for (const [kanji, group] of vocabGroups.entries()) {
+    for (const group of vocabGroups.values()) {
         if (group.length === 1) {
             mergedCandidateVocab.set(group[0].id, group[0]);
             continue;
         }
+        const kanji = group[0].writtenForm.kanji;
 
-        // Most frequent first, a word JPDB ranks under its own readings before one ranked on a stand-in.
-        group.sort(compareMergeBase);
+        // JPDB's pick, unless the JLPT lists and anime both say it is the minor reading (see chooseMergeBase).
+        const listedBase = chooseMergeBase(group);
+        if (listedBase) baseOverrides.push(`${kanji}: ${listedBase.reading.primary}`);
 
         const base = group[0];
+        const baseReading = base.reading.primary;
 
         // Initialize merge tracking on base
         base.mergedVocabs = [{
@@ -348,6 +373,17 @@ async function main() {
                 base.isCommon = true;
             }
 
+            // A level or textbook lesson carries over only from a homograph read like
+            // the base: 辛い/からい (N5) must not make 辛い/つらい N5.
+            if (other.reading.primary === baseReading || other.reading.alternatives.includes(baseReading)) {
+                if (other.jlptLevel !== undefined && other.jlptLevel > (base.jlptLevel ?? 0)) base.jlptLevel = other.jlptLevel;
+                for (const lesson of other.textbooks ?? []) {
+                    if (!base.textbooks?.some(t => t.book === lesson.book && t.lesson === lesson.lesson)) {
+                        base.textbooks = [...(base.textbooks ?? []), lesson];
+                    }
+                }
+            }
+
             mergedCount++;
         }
 
@@ -361,6 +397,7 @@ async function main() {
     fs.writeFileSync(mergedLogPath, mergedLogs.join('\n\n'), 'utf-8');
 
     console.log(`   - Merged ${mergedCount} duplicate kanji forms out of the dataset.`);
+    console.log(`   - ${baseOverrides.length} merged words take the base the JLPT lists and anime agree on: ${baseOverrides.join(', ')}`);
 
     // Generate merged ID map for migration
     const mergedMap: Record<string, string> = {};
@@ -405,6 +442,8 @@ async function main() {
 
     // Sort vocab keys by length descending for greedy match
     const sortedVocabKeys = Array.from(writtenToVocabId.keys()).sort((a, b) => b.length - a.length);
+    // Words spelled as another word plus a particle (誰が): see resolveSentenceMatch, rule 6.
+    const particleSpelled = particleSpelledIds(mergedCandidateVocab.values());
 
     // Map: vocabId -> Use Count
     const vocabUsageCount = new Map<string, number>();
@@ -451,6 +490,7 @@ async function main() {
     }
 
     // Tokenize
+    const matchStats = sentenceMatchStats();
     let processedSentences = 0;
     const reportInterval = 5000;
     const vocabSet = new Set(writtenToVocabId.keys());
@@ -472,10 +512,31 @@ async function main() {
             }
         }
 
-        flatMatches.sort((a, b) => b.match.length - a.match.length || b.term.length - a.term.length);
-        const acceptedMatches: typeof flatMatches = [];
+        // Which words each span belongs to, decided BEFORE overlaps are settled, so a
+        // span that turns out to be no word (説明し matched as 説き明かし) leaves room
+        // for the shorter match that is right (説明する). See resolveSentenceMatch.
+        const indexed = parseIndices(sentence.indices);
+        const resolvedMatches = flatMatches.flatMap(({ term, match }) => {
+            const vocabIds = writtenToVocabId.get(term);
+            if (!vocabIds) return [];
+            const surface = text.slice(match.start, match.start + match.length);
+            const ids = resolveSentenceMatch(term, vocabIds, match.reading, vocabById, annotationFor(indexed, surface), particleSpelled);
+            for (const id of vocabIds) if (!ids.includes(id)) matchStats.dropped(term, id, match.reading, text);
+            return ids.length ? [{ term, match, ids }] : [];
+        });
 
-        for (const entry of flatMatches) {
+        // Whether a word is kept for being used in a sentence is decided as it always was
+        // (longest match, homographs split by reading), not by the stricter resolution
+        // above: that one chooses which sentences illustrate a word, and a word losing
+        // its last illustration must not vanish from the dataset and strand learners.
+        for (const id of legacyUsage(flatMatches, writtenToVocabId, vocabById)) {
+            vocabUsageCount.set(id, (vocabUsageCount.get(id) ?? 0) + 1);
+        }
+
+        resolvedMatches.sort((a, b) => b.match.length - a.match.length || b.term.length - a.term.length);
+        const acceptedMatches: typeof resolvedMatches = [];
+
+        for (const entry of resolvedMatches) {
             const { match } = entry;
             const isOverlapping = acceptedMatches.some(accepted => {
                 const acceptedEnd = accepted.match.start + accepted.match.length;
@@ -488,23 +549,26 @@ async function main() {
         const matches: Record<string, { start: number, length: number, reading?: string }[]> = {};
         const matchedVocabIds: string[] = [];
 
-        for (const { term, match } of acceptedMatches) {
-            const vocabIds = writtenToVocabId.get(term);
-            if (!vocabIds) continue;
-
-            // A written form shared by differently-read homographs (遊ぶ is both
-            // あそぶ and the rare すさぶ) must send each occurrence only to the entry
-            // actually read that way - the span's reading tells them apart. Without
-            // this a すさぶ entry claims a sentence about playing, so its production
-            // cloze blanks 遊んでる and grades it correct against a "grow wild" cue.
-            const resolvedIds = disambiguateByReading(vocabIds, match.reading, vocabById);
-
-            for (const vId of resolvedIds) {
+        for (const { term, match, ids } of acceptedMatches) {
+            const surface = text.slice(match.start, match.start + match.length);
+            for (const vId of ids) {
                 if (!matches[vId]) {
                     matches[vId] = [];
                     matchedVocabIds.push(vId);
                 }
-                matches[vId].push(match);
+                // The furigana this word shows here: Tatoeba's reading, else the
+                // tokenizer's when it agrees with the learned one, else the learned one.
+                const vocab = vocabById.get(vId)!;
+                const { reading, source } = occurrenceReading({
+                    term,
+                    surface,
+                    tokenizerReading: match.reading,
+                    primary: vocab.reading.primary,
+                    inflecting: inflects(vocab),
+                    curated: curatedReading(indexed, [vocab.writtenForm.kanji, ...vocab.writtenForm.alternatives], surface),
+                });
+                matchStats.reading(source, vocab, surface, match.reading, reading);
+                matches[vId].push({ start: match.start, length: match.length, ...(reading ? { reading } : {}) });
             }
         }
 
@@ -516,9 +580,6 @@ async function main() {
         sentence.matches = matches;
 
         for (const vid of matchedVocabIds) {
-            // Increment usage count for filtering
-            vocabUsageCount.set(vid, (vocabUsageCount.get(vid) ?? 0) + 1);
-
             // Store sentence for output (if vocab survives filter)
             if (!vocabSentencesMap.has(vid)) {
                 vocabSentencesMap.set(vid, []);
@@ -527,6 +588,7 @@ async function main() {
         }
     }
     console.log(`\n   - Done scanning.`);
+    matchStats.report('./compiled/sentence_matching.log');
 
     // 4. Filter Vocabulary
     console.log('✂️  Filtering vocabulary...');
@@ -540,6 +602,7 @@ async function main() {
     // Counters
     let keptByFrequency = 0;
     let keptByUsage = 0;
+    let keptByJlpt = 0;
     let dropped = 0;
 
     const limit = BUILD_LIMITS.ENABLED_LIMIT ? BUILD_LIMITS.MAX_VOCABULARY : Number.MAX_SAFE_INTEGER;
@@ -584,6 +647,13 @@ async function main() {
             }
             FINAL_VOCAB.push(vocab);
             keptByUsage++;
+        } else if (vocab.jlptLevel !== undefined) {
+            // On a JLPT list: a learner will be taught it whatever JMdict's common flag
+            // or the sentence corpus say. This is how する, それ, そこ and とても, whose
+            // only kanji (為る, 其れ, 其処, 迚も) are rare, reach the dataset as words
+            // learned in kana, like これ already did.
+            FINAL_VOCAB.push(vocab);
+            keptByJlpt++;
         } else {
             // Uncommon and unused. Drop.
             dropped++;
@@ -592,8 +662,18 @@ async function main() {
 
     console.log(`   - Kept ${keptByFrequency} common words.`);
     console.log(`   - Kept ${keptByUsage} uncommon words (used in sentences).`);
+    console.log(`   - Kept ${keptByJlpt} uncommon words (on a JLPT list).`);
     console.log(`   - Dropped ${dropped} words.`);
     console.log(`   - Final Dataset Size: ${FINAL_VOCAB.length} words.`);
+
+    // 4.4 Words formed from a listed word take its level (一緒に from 一緒); see jlpt-derived.ts.
+    const finalIds = new Set(FINAL_VOCAB.map(v => v.id));
+    for (const [id, { word }] of Object.entries(jlptCorrections.derivedExclude)) {
+        if (!finalIds.has(id)) throw new Error(`jlpt-corrections: derivedExclude ${id} (${word}) is not a compiled vocab id; remove it.`);
+    }
+    const derived = inheritJlptLevels(FINAL_VOCAB, new Set(Object.keys(jlptCorrections.derivedExclude)));
+    console.log(`   - ${derived.length} words take the JLPT level of the word they are formed from.`);
+    for (const vocab of FINAL_VOCAB) vocab.textbooks?.sort((a, b) => a.book.localeCompare(b.book) || a.lesson - b.lesson);
 
     // 4.5 Compute components and parents
     console.log('🧩 Computing components and parents...');
@@ -724,7 +804,7 @@ async function main() {
     let sentencesWritten = 0;
 
     for (const vocab of FINAL_VOCAB) {
-        const { kklcStep, ownRank: _ownRank, rareKanjiForm: _rareKanjiForm, ...cleanVocab } = vocab;
+        const { kklcStep, ownRank: _ownRank, rareKanjiForm: _rareKanjiForm, sharesHeadword: _sharesHeadword, spoken: _spoken, ...cleanVocab } = vocab;
 
         // 1. Write Vocab File
         fs.writeFileSync(
@@ -809,3 +889,59 @@ main().catch(err => {
     console.error(err);
     process.exit(1);
 });
+
+/**
+ * Counts what resolveSentenceMatch dropped and where each furigana came from, with
+ * samples, into compiled/sentence_matching.log (not committed) for review.
+ */
+function sentenceMatchStats() {
+    const dropped = new Map<string, { count: number; sample: string }>();
+    const sources: Record<ReadingSource, number> = { tatoeba: 0, tokenizer: 0, learned: 0 };
+    const changed = new Map<string, { count: number; sample: string }>();
+    const bump = (map: Map<string, { count: number; sample: string }>, key: string, sample: string) => {
+        const row = map.get(key);
+        if (row) row.count++;
+        else map.set(key, { count: 1, sample });
+    };
+    return {
+        dropped(term: string, id: string, reading: string | undefined, text: string) {
+            bump(dropped, `${term} -> ${id} (read ${reading ?? '?'})`, text);
+        },
+        reading(source: ReadingSource, vocab: ReadingVocab, surface: string, tokenizer: string | undefined, shown: string | undefined) {
+            sources[source]++;
+            if (shown !== tokenizer) bump(changed, `${surface}: ${tokenizer ?? '-'} -> ${shown ?? '-'} [${source}, learned ${vocab.reading.primary}]`, '');
+        },
+        report(file: string) {
+            const top = (map: Map<string, { count: number; sample: string }>) =>
+                [...map].sort((a, b) => b[1].count - a[1].count).map(([k, v]) => `${v.count}\t${k}${v.sample ? '\t' + v.sample : ''}`);
+            const droppedTotal = [...dropped.values()].reduce((n, v) => n + v.count, 0);
+            const changedTotal = [...changed.values()].reduce((n, v) => n + v.count, 0);
+            fs.writeFileSync(file, [
+                `furigana sources: ${JSON.stringify(sources)}; changed from the tokenizer: ${changedTotal}`,
+                `candidates dropped: ${droppedTotal}`,
+                '', '## dropped', ...top(dropped), '', '## furigana changed', ...top(changed),
+            ].join('\n'));
+            console.log(`   - Furigana: ${JSON.stringify(sources)}, ${changedTotal} changed from the tokenizer; ${droppedTotal} wrong word candidates dropped (see ${file}).`);
+        },
+    };
+}
+
+/** The vocab ids a sentence counted as using before resolveSentenceMatch: the build's inclusion rule. */
+function legacyUsage(
+    flatMatches: { term: string; match: { start: number; length: number; reading?: string } }[],
+    writtenToVocabId: Map<string, string[]>,
+    vocabById: Map<string, ReadingVocab>,
+): Set<string> {
+    const sorted = [...flatMatches].sort((a, b) => b.match.length - a.match.length || b.term.length - a.term.length);
+    const accepted: typeof sorted = [];
+    for (const entry of sorted) {
+        const end = entry.match.start + entry.match.length;
+        if (!accepted.some(a => entry.match.start < a.match.start + a.match.length && end > a.match.start)) accepted.push(entry);
+    }
+    const used = new Set<string>();
+    for (const { term, match } of accepted) {
+        const ids = writtenToVocabId.get(term);
+        if (ids) for (const id of disambiguateByReading(ids, match.reading, vocabById)) used.add(id);
+    }
+    return used;
+}

@@ -22,7 +22,9 @@ interface Vocabulary {
     kanjiRank: number;            // JPDB frequency rank
     kanaRank?: number;            // JPDB rank of the word written in kana; for a usuallyKana word the best of its hiragana, own katakana and standalone kana rows
   };
-  jlptLevel?: number;             // 1 (N1, hardest) .. 5 (N5, easiest). Most entries have none - JMDict has ~40k+ words, the JLPT list covers ~8k. Matched on any of the word's written forms, and on any JLPT kana key the word owns (the list files usually-kana words under kana, e.g. 鞄 as かばん; each kana key is awarded to one word, never to its homophones, see buildKanaKeyOwners and data/raw/vocab/jlpt-kana-owners.json). When both match, the easiest level wins (綺麗 is listed at N1, きれい at N5). Uncovered list entries are reported in docs/JLPT_COVERAGE.md; see resolveJlptLevel.
+  jlptLevel?: number;             // 1 (N1, hardest) .. 5 (N5, easiest), from Waller's JLPT lists resolved per JMdict id (see below). Most entries have none: the lists cover ~8k of JMdict's words.
+  jlptLevelFrom?: string;         // set only when jlptLevel is inferred: the id of the listed word this one is formed from by one affix (一緒に from 一緒). See below.
+  textbooks?: Array<{ book: 'genki' | 'intermediate-japanese'; lesson: number }>; // textbook lessons that teach the word, from Waller's decks. Absent otherwise.
   progression: {
     kklcStep: number;             // KKLC (Kanji Kentei) chapter step this word's kanji require. 99999 if its kanji fall outside the KKLC index.
   };
@@ -61,7 +63,19 @@ interface MergedVocabInfo {
 }
 ```
 
-**Homographs**: JMDict lists some words as separate entries purely because they share a kanji form with different readings/meanings (e.g. 上手, 上手い). The build pipeline merges these into a single `Vocabulary` entry keyed by the highest-frequency reading, keeping each absorbed reading's own senses (tagged via `appliesToReadings`) and a `mergedVocabs` audit trail of what was merged in. The base is the entry JPDB ranks under one of its own readings, best rank first (`compareMergeBase`): a reading with no JPDB row of its own borrows its spelling's first row, and that borrowed rank used to tie and hand N4 点 to the rare reading ちょぼ instead of てん. When a base moves, the old base id appears in `index/merged-map.json`.
+**Homographs**: JMDict lists some words as separate entries purely because they share a kanji form with different readings/meanings (e.g. 上手, 上手い). The build pipeline merges these into a single `Vocabulary` entry, keeping each absorbed reading's own senses (tagged via `appliesToReadings`) and a `mergedVocabs` audit trail of what was merged in.
+
+- **Who merges**: only words for which the shared spelling is a normal one (`mayShareHeadword`). A word whose headword JMdict tags `rK`, `sK`, `ateji`, `iK` or `oK` keeps its own entry: 彼 is how かれ is written but only a rare spelling of あれ, and 米 is ateji for メートル. Merging those folded different words into one (あれ became a reading of かれ and lost its N5 level and kana display). Two compiled entries can therefore share `writtenForm.kanji`; the split-off one is normally `usuallyKana`.
+- **Which base** (`chooseMergeBase`): the reading JPDB ranks best under its own row, as before (N4 点 is てん, not ちょぼ), except where two independent sources agree it picked a minor reading: another member is on Waller's lists at N5-N3, at least two levels easier, and anime says it at least twice as often and at least 10 times (Jiten, per JMdict id). That moves exactly 9 bases: 丈 だけ, 極 ごく, 御 お, 寺 てら, 種 たね, 盛り さかり, 内 うち (JPDB's 内|ない row is inflated by the auxiliary ない), 否 いや, 等 など. Ranking by the lists, by anime counts or by JMdict's common flag was tried and moved 53 to 91 bases, many wrongly.
+- **Levels across a merge**: a homograph's `jlptLevel` and `textbooks` carry over to the base only when it is read like the base. 辛い/からい (N5) does not make 辛い/つらい N5.
+
+When a base moves, the old base id appears in `index/merged-map.json`.
+
+**`jlptLevel`**: from two copies of Jonathan Waller's lists (tanos.co.uk, the data jisho.org shows), vendored under `data/raw/jlpt/` and resolved by `scripts/jlpt-levels.ts`. The id list gives every entry a hand-assigned JMdict id and is the authority. Waller's Anki decks only fill entries the id list lacks (顔, 母, 父, 頑張る), matched on exact spelling and reading, or for a kana entry (ない) on the one word usually written in kana whose common spelling it is; their N3 is a looser revision, so they never move a level. `data/raw/vocab/jlpt-corrections.json` holds the reviewed residue: 11 id-list rows sent to an interjection instead of the word Waller glosses (N5 これ to "hey; oi" instead of the pronoun 此れ), the hand-set の (N5), and the rows checked and kept. The build fails on any kana row of the id list that could be such a mistake and is not settled there. Every level is reported in `docs/JLPT_COVERAGE.md`.
+
+A word not on the lists but formed from a listed word by one affix takes that word's level, with `jlptLevelFrom` naming it (`scripts/jlpt-derived.ts`): X+に (一緒に), an adjective's く form (早く), お/ご+X (お店), X+たち (私たち), X+も (誰も). Both the spelling and the reading must follow the affix, the base must itself be listed, and idioms are excluded by hand (`derivedExclude`, e.g. 為に).
+
+A word on the lists is kept by the build even when JMdict does not mark it common and no sentence uses it: する, それ, そこ and とても, whose only kanji (為る, 其れ, 其処, 迚も) are rare, are in the dataset as words learned in kana.
 
 **`usuallyKana`**: the word is learned in kana. Most such words have a rare kanji spelling JMDict lists first (此処, 彼の, 有る, 沢山), which is not what anyone learns; a consumer should show `reading.primary` as the headword and may mention `writtenForm.kanji` as the kanji spelling. The rule (`decideUsuallyKana` in `scripts/build-common.ts`) was chosen by benchmarking every available signal against 1,175 hand-labelled words:
 
@@ -88,6 +102,10 @@ interface Sentence {
   //   An array because a word can appear more than once in the same sentence.
 }
 ```
+
+**Which word a span belongs to** (`resolveSentenceMatch`, `src/utils/readingDisambiguation.ts`): the tokenizer finds every written form of every word in the sentence, then candidates are removed on evidence. Tatoeba's own annotation (`indices`) decides first where it names the exact JMdict entry (`妻(#1294330)`); otherwise homographs are split by reading, a written form goes to the word it is the headword of (妻 is "wife", not 端/つま), a word matched through another spelling or spelled as another word plus a particle (誰が) needs the reading to agree unless Tatoeba lists it there, and a misread headword is dropped only when a Tatoeba reading contradicts it. Whether a word is kept for being used in a sentence is decided before this, as it always was, so these rules never remove a word from the dataset, only wrong example sentences.
+
+**`reading`** is the furigana of that occurrence (`occurrenceReading`, `src/utils/sentenceReading.ts`): Tatoeba's reading when its annotation gives one for the word (日米間 is かん, 一羽 is わ), else the tokenizer's when it agrees with the word's learned reading, conjugation included, else the learned reading with the sentence's okurigana (日本 にほん, not the tokenizer's にっぽん; 一週間 いっしゅうかん, not いちしゅうかん). So a learner sees either the reading they learned or one the sentence justifies.
 
 ## `compiled/kanji.json` — flat array, all kanji
 

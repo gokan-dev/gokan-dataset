@@ -11,18 +11,11 @@
     "indices": "彼女[01] は 彼(かれ)[01]{彼の} 実(じつ)[01]{実の} 母(はは) です",
     "vocabIds": [
       "1483150",
-      "1000420",
+      "2845746",
       "2272450",
       "1514990"
     ],
     "matches": {
-      "1000420": [
-        {
-          "start": 3,
-          "length": 2,
-          "reading": "かれの"
-        }
-      ],
       "1483150": [
         {
           "start": 0,
@@ -41,7 +34,14 @@
         {
           "start": 5,
           "length": 2,
-          "reading": "みの"
+          "reading": "じつの"
+        }
+      ],
+      "2845746": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かれの"
         }
       ]
     }
@@ -88,7 +88,7 @@
         {
           "start": 8,
           "length": 2,
-          "reading": "みの"
+          "reading": "じつの"
         }
       ]
     }
@@ -135,46 +135,7 @@
         {
           "start": 11,
           "length": 2,
-          "reading": "みの"
-        }
-      ]
-    }
-  },
-  {
-    "id": "149487",
-    "original": "実の重みで木がたわんでいた。",
-    "en": [
-      {
-        "id": "265070",
-        "text": "The tree bent under the weight of the fruit."
-      }
-    ],
-    "indices": "実(み)[01] の 重み で(#2028980) 木(き) が 撓む{たわんでいた}",
-    "vocabIds": [
-      "2272450",
-      "1589410",
-      "1534520"
-    ],
-    "matches": {
-      "1534520": [
-        {
-          "start": 5,
-          "length": 1,
-          "reading": "き"
-        }
-      ],
-      "1589410": [
-        {
-          "start": 2,
-          "length": 2,
-          "reading": "おもみ"
-        }
-      ],
-      "2272450": [
-        {
-          "start": 0,
-          "length": 2,
-          "reading": "みの"
+          "reading": "じつの"
         }
       ]
     }
@@ -229,7 +190,7 @@
         {
           "start": 5,
           "length": 2,
-          "reading": "みの"
+          "reading": "じつの"
         }
       ]
     }
@@ -268,7 +229,7 @@
         {
           "start": 9,
           "length": 2,
-          "reading": "みの"
+          "reading": "じつの"
         }
       ]
     }
@@ -298,7 +259,7 @@
         {
           "start": 8,
           "length": 2,
-          "reading": "みの"
+          "reading": "じつの"
         }
       ]
     }
@@ -344,7 +305,7 @@
         {
           "start": 6,
           "length": 2,
-          "reading": "みの"
+          "reading": "じつの"
         }
       ]
     }
@@ -390,7 +351,7 @@
         {
           "start": 0,
           "length": 2,
-          "reading": "みの"
+          "reading": "じつの"
         }
       ]
     }

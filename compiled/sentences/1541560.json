@@ -125,6 +125,53 @@
     }
   },
   {
+    "id": "169461",
+    "original": "傘を貸してくださってたいへん有り難うございました。",
+    "en": [
+      {
+        "id": "245025",
+        "text": "It was very kind of you to lend me an umbrella."
+      },
+      {
+        "id": "12455235",
+        "text": "Thank you very much for lending me your umbrella."
+      },
+      {
+        "id": "12455236",
+        "text": "Thanks a lot for lending your umbrella to me."
+      }
+    ],
+    "indices": "傘(かさ) を 貸す{貸して} 下さる{くださって} 大変{たいへん} 有難うございます{有り難うございました}",
+    "vocabIds": [
+      "1541560",
+      "1411160",
+      "1301940"
+    ],
+    "matches": {
+      "1301940": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かさ"
+        }
+      ],
+      "1411160": [
+        {
+          "start": 2,
+          "length": 8,
+          "reading": "かしてくださって"
+        }
+      ],
+      "1541560": [
+        {
+          "start": 14,
+          "length": 10,
+          "reading": "ありがたうございました"
+        }
+      ]
+    }
+  },
+  {
     "id": "204805",
     "original": "それは有難い。",
     "en": [
@@ -143,6 +190,45 @@
           "start": 3,
           "length": 3,
           "reading": "ありがたい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214609",
+    "original": "すてきな贈り物をいただきご親切に有り難うございました。",
+    "en": [
+      {
+        "id": "51902",
+        "text": "It was very kind of you to give me a nice gift."
+      }
+    ],
+    "indices": "素敵{すてきな} 贈り物 を 頂く{いただき} ご親切に[01]~ 有難うございます{有り難うございました}",
+    "vocabIds": [
+      "1541560",
+      "2772620",
+      "1589030"
+    ],
+    "matches": {
+      "1541560": [
+        {
+          "start": 16,
+          "length": 10,
+          "reading": "ありがたうございました"
+        }
+      ],
+      "1589030": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "おくりもの"
+        }
+      ],
+      "2772620": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "ごしんせつに"
         }
       ]
     }

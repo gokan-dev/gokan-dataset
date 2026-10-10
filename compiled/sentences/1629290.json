@@ -12,18 +12,18 @@
     "vocabIds": [
       "1379410",
       "1629290",
-      "1334560",
       "1461560",
+      "1160790",
+      "1578150",
       "1585310",
-      "1557630",
       "2084840"
     ],
     "matches": {
-      "1334560": [
+      "1160790": [
         {
           "start": 5,
-          "length": 2,
-          "reading": "いちきゅう"
+          "length": 1,
+          "reading": "いち"
         }
       ],
       "1379410": [
@@ -40,11 +40,11 @@
           "reading": "にがつ"
         }
       ],
-      "1557630": [
+      "1578150": [
         {
-          "start": 8,
+          "start": 6,
           "length": 1,
-          "reading": "ぜろ"
+          "reading": "きゅう"
         }
       ],
       "1585310": [
@@ -58,7 +58,7 @@
         {
           "start": 12,
           "length": 3,
-          "reading": "いちよんにち"
+          "reading": "じゅうよっか"
         }
       ],
       "2084840": [
@@ -85,24 +85,24 @@
       "1629290",
       "1424550",
       "1441250",
-      "1334560",
       "1162120",
+      "1160790",
       "1578150",
       "2084840"
     ],
     "matches": {
+      "1160790": [
+        {
+          "start": 25,
+          "length": 1,
+          "reading": "いち"
+        }
+      ],
       "1162120": [
         {
           "start": 30,
           "length": 2,
           "reading": "いちがつ"
-        }
-      ],
-      "1334560": [
-        {
-          "start": 25,
-          "length": 2,
-          "reading": "いちきゅう"
         }
       ],
       "1424550": [
@@ -128,6 +128,11 @@
       ],
       "1578150": [
         {
+          "start": 26,
+          "length": 1,
+          "reading": "きゅう"
+        },
+        {
           "start": 27,
           "length": 1,
           "reading": "きゅう"
@@ -142,7 +147,7 @@
         {
           "start": 32,
           "length": 3,
-          "reading": "いちよんにち"
+          "reading": "じゅうよっか"
         }
       ],
       "2084840": [
@@ -150,77 +155,6 @@
           "start": 29,
           "length": 1,
           "reading": "ねん"
-        }
-      ]
-    }
-  },
-  {
-    "id": "234919",
-    "original": "９月３０日から１０月１４日まで産休を取ります。",
-    "en": [
-      {
-        "id": "72297",
-        "text": "I'm taking maternity leave from September 30th to October 14th."
-      },
-      {
-        "id": "11724673",
-        "text": "I'm going on maternity leave from 30th September to 14th October."
-      },
-      {
-        "id": "11724674",
-        "text": "I'll be on maternity leave from 30 September to 14 October."
-      }
-    ],
-    "indices": "九月{９月} 日(にち)[02] から[01] 十月{１０月} 十四日{１４日} 迄{まで} 産休~ を 取る{取ります}",
-    "vocabIds": [
-      "1326980",
-      "1300670",
-      "1334570",
-      "1629290",
-      "1243660",
-      "1303760"
-    ],
-    "matches": {
-      "1243660": [
-        {
-          "start": 0,
-          "length": 2,
-          "reading": "くがつ"
-        }
-      ],
-      "1300670": [
-        {
-          "start": 2,
-          "length": 3,
-          "reading": "さんぜろにち"
-        }
-      ],
-      "1303760": [
-        {
-          "start": 15,
-          "length": 2,
-          "reading": "さんきゅう"
-        }
-      ],
-      "1326980": [
-        {
-          "start": 18,
-          "length": 4,
-          "reading": "とります"
-        }
-      ],
-      "1334570": [
-        {
-          "start": 7,
-          "length": 3,
-          "reading": "じゅうがつ"
-        }
-      ],
-      "1629290": [
-        {
-          "start": 10,
-          "length": 3,
-          "reading": "いちよんにち"
         }
       ]
     }
@@ -271,7 +205,7 @@
         {
           "start": 2,
           "length": 3,
-          "reading": "いちよんにち"
+          "reading": "じゅうよっか"
         }
       ]
     }
@@ -293,13 +227,21 @@
       "1332980",
       "1225130",
       "1198360",
-      "1335050",
       "1582670",
       "1339460",
+      "1160790",
+      "1583090",
       "2015400",
       "1579350"
     ],
     "matches": {
+      "1160790": [
+        {
+          "start": 23,
+          "length": 1,
+          "reading": "いち"
+        }
+      ],
       "1162120": [
         {
           "start": 0,
@@ -335,13 +277,6 @@
           "reading": "しゅうじつ"
         }
       ],
-      "1335050": [
-        {
-          "start": 23,
-          "length": 2,
-          "reading": "いちはち"
-        }
-      ],
       "1339460": [
         {
           "start": 31,
@@ -360,14 +295,21 @@
         {
           "start": 28,
           "length": 2,
-          "reading": "ににん"
+          "reading": "ふたり"
+        }
+      ],
+      "1583090": [
+        {
+          "start": 24,
+          "length": 1,
+          "reading": "はち"
         }
       ],
       "1629290": [
         {
           "start": 2,
           "length": 3,
-          "reading": "いちよんにち"
+          "reading": "じゅうよっか"
         }
       ],
       "2015400": [
@@ -375,134 +317,6 @@
           "start": 25,
           "length": 1,
           "reading": "しゃ"
-        }
-      ]
-    }
-  },
-  {
-    "id": "910443",
-    "original": "この年の正月は十四日から十七日まで四日間の雪を見た。",
-    "en": [
-      {
-        "id": "924136",
-        "text": "In the first month of that year, I saw that it snowed for four days from the 14th until the 17th."
-      },
-      {
-        "id": "973638",
-        "text": "In January of that year, we saw snow for four days, from the fourteenth to the seventeenth."
-      }
-    ],
-    "vocabIds": [
-      "1629290",
-      "2737800",
-      "1377030",
-      "2827650",
-      "1259290",
-      "2084840",
-      "1579470",
-      "1386500"
-    ],
-    "matches": {
-      "1259290": [
-        {
-          "start": 23,
-          "length": 2,
-          "reading": "みた"
-        }
-      ],
-      "1377030": [
-        {
-          "start": 4,
-          "length": 2,
-          "reading": "しょうがつ"
-        }
-      ],
-      "1386500": [
-        {
-          "start": 21,
-          "length": 1,
-          "reading": "ゆき"
-        }
-      ],
-      "1579470": [
-        {
-          "start": 17,
-          "length": 1,
-          "reading": "よん"
-        }
-      ],
-      "1629290": [
-        {
-          "start": 7,
-          "length": 3,
-          "reading": "じゅうよんにち"
-        }
-      ],
-      "2084840": [
-        {
-          "start": 2,
-          "length": 1,
-          "reading": "とし"
-        }
-      ],
-      "2737800": [
-        {
-          "start": 12,
-          "length": 3,
-          "reading": "じゅうななにち"
-        }
-      ],
-      "2827650": [
-        {
-          "start": 18,
-          "length": 2,
-          "reading": "にちかん"
-        }
-      ]
-    }
-  },
-  {
-    "id": "1897589",
-    "original": "二月十四日に、アメリカ人はバレンタイン・デーのお祝いをする。",
-    "en": [
-      {
-        "id": "1497180",
-        "text": "On February 14th, Americans celebrate Valentine's Day."
-      }
-    ],
-    "vocabIds": [
-      "1018890",
-      "1629290",
-      "1612770",
-      "1461560"
-    ],
-    "matches": {
-      "1018890": [
-        {
-          "start": 7,
-          "length": 5,
-          "reading": "あめりかじん"
-        }
-      ],
-      "1461560": [
-        {
-          "start": 0,
-          "length": 2,
-          "reading": "にがつ"
-        }
-      ],
-      "1612770": [
-        {
-          "start": 23,
-          "length": 3,
-          "reading": "おいわい"
-        }
-      ],
-      "1629290": [
-        {
-          "start": 2,
-          "length": 3,
-          "reading": "じゅうよんにち"
         }
       ]
     }
@@ -548,7 +362,7 @@
         {
           "start": 22,
           "length": 3,
-          "reading": "いちよんにち"
+          "reading": "じゅうよっか"
         }
       ]
     }

@@ -1,5 +1,64 @@
 [
   {
+    "id": "91532",
+    "original": "彼女はホテルのフロント係の人にその番号につなぐように頼んだ。",
+    "en": [
+      {
+        "id": "312181",
+        "text": "She has asked the man at the hotel desk to get her the number."
+      },
+      {
+        "id": "1332080",
+        "text": "She has asked the person at the front desk to connect her to that number."
+      }
+    ],
+    "indices": "彼女[01] は ホテル の フロント 係 の 人(ひと) に 其の[01]{その} 番号 に 繋ぐ{つなぐ} 様に{ように} 頼む[01]{頼んだ}",
+    "vocabIds": [
+      "1548370",
+      "1483150",
+      "1482290",
+      "1589840",
+      "1580640"
+    ],
+    "matches": {
+      "1482290": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "ばんごう"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1548370": [
+        {
+          "start": 26,
+          "length": 3,
+          "reading": "たのんだ"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ],
+      "1589840": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "かかり"
+        }
+      ]
+    }
+  },
+  {
     "id": "106298",
     "original": "彼は私たちのヨーロッパ旅行の準備係りだ。",
     "en": [
@@ -133,7 +192,7 @@
         {
           "start": 9,
           "length": 3,
-          "reading": "いちしゅうかん"
+          "reading": "いっしゅうかん"
         }
       ],
       "1357490": [
@@ -175,7 +234,7 @@
         {
           "start": 2,
           "length": 1,
-          "reading": "がかり"
+          "reading": "かかり"
         }
       ]
     }
@@ -211,7 +270,7 @@
         {
           "start": 8,
           "length": 2,
-          "reading": "のちで"
+          "reading": "あとで"
         }
       ],
       "1327980": [
@@ -239,7 +298,7 @@
         {
           "start": 13,
           "length": 1,
-          "reading": "がかり"
+          "reading": "かかり"
         }
       ],
       "1605150": [
@@ -356,7 +415,7 @@
         {
           "start": 2,
           "length": 1,
-          "reading": "がかり"
+          "reading": "かかり"
         }
       ]
     }
@@ -388,7 +447,7 @@
         {
           "start": 29,
           "length": 3,
-          "reading": "いちてに"
+          "reading": "いってに"
         }
       ],
       "1188330": [
@@ -437,7 +496,7 @@
         {
           "start": 20,
           "length": 1,
-          "reading": "がかり"
+          "reading": "かかり"
         }
       ],
       "1861770": [
@@ -482,7 +541,7 @@
         {
           "start": 3,
           "length": 1,
-          "reading": "がかり"
+          "reading": "かかり"
         }
       ]
     }
@@ -505,7 +564,7 @@
         {
           "start": 16,
           "length": 1,
-          "reading": "がかり"
+          "reading": "かかり"
         }
       ]
     }
@@ -572,7 +631,7 @@
         {
           "start": 2,
           "length": 1,
-          "reading": "がかり"
+          "reading": "かかり"
         }
       ]
     }
@@ -641,7 +700,7 @@
         {
           "start": 12,
           "length": 1,
-          "reading": "がかり"
+          "reading": "かかり"
         }
       ]
     }

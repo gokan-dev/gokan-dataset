@@ -88,7 +88,6 @@
       "1254790",
       "1250390",
       "1294330",
-      "1581610",
       "1496480",
       "1260670",
       "1313580"
@@ -157,18 +156,11 @@
           "reading": "なまえ"
         }
       ],
-      "1581610": [
-        {
-          "start": 11,
-          "length": 1,
-          "reading": "つま"
-        }
-      ],
       "2216950": [
         {
           "start": 0,
           "length": 3,
-          "reading": "かよいつま"
+          "reading": "かよいづま"
         }
       ]
     }
@@ -202,7 +194,7 @@
         {
           "start": 28,
           "length": 1,
-          "reading": "もと"
+          "reading": "す"
         }
       ],
       "1304700": [
@@ -338,7 +330,7 @@
         {
           "start": 17,
           "length": 1,
-          "reading": "もと"
+          "reading": "す"
         }
       ]
     }
@@ -367,7 +359,7 @@
         {
           "start": 14,
           "length": 1,
-          "reading": "もと"
+          "reading": "す"
         }
       ],
       "1281020": [
@@ -1094,15 +1086,22 @@
     ],
     "indices": "今回 の 選挙 は 激戦 で(#2028980) 旧(もと)[01]{元} 大臣 が 何人(なんにん)[02] も 落ちる[01]{落ちた}",
     "vocabIds": [
-      "1577150",
       "1548550",
       "1289070",
       "1392190",
       "1253680",
       "1414160",
+      "1189100",
       "1260670"
     ],
     "matches": {
+      "1189100": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "なんにん"
+        }
+      ],
       "1253680": [
         {
           "start": 6,
@@ -1143,13 +1142,6 @@
           "start": 16,
           "length": 3,
           "reading": "おちた"
-        }
-      ],
-      "1577150": [
-        {
-          "start": 13,
-          "length": 3,
-          "reading": "なんにんも"
         }
       ]
     }
@@ -2248,7 +2240,7 @@
         {
           "start": 0,
           "length": 2,
-          "reading": "ににん"
+          "reading": "ふたり"
         }
       ]
     }
@@ -2526,7 +2518,7 @@
         {
           "start": 11,
           "length": 3,
-          "reading": "そらしゅうごう"
+          "reading": "くうしゅうごう"
         }
       ],
       "1260670": [
@@ -2643,6 +2635,48 @@
     }
   },
   {
+    "id": "9518510",
+    "original": "トムがメアリーの元カレだってことが、分かったよ。",
+    "en": [
+      {
+        "id": "7508782",
+        "text": "I just found out that Tom is Mary's ex-boyfriend."
+      },
+      {
+        "id": "7512632",
+        "text": "I just found out Tom is Mary's ex-boyfriend."
+      },
+      {
+        "id": "12812389",
+        "text": "I now know that Tom is Mary's ex-boyfriend."
+      },
+      {
+        "id": "12812398",
+        "text": "I found out that Tom is Mary's ex-boyfriend."
+      }
+    ],
+    "vocabIds": [
+      "1606560",
+      "1260670"
+    ],
+    "matches": {
+      "1260670": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "もと"
+        }
+      ],
+      "1606560": [
+        {
+          "start": 18,
+          "length": 4,
+          "reading": "わかった"
+        }
+      ]
+    }
+  },
+  {
     "id": "9628755",
     "original": "彼って元ＦＢＩなんだよ。",
     "en": [
@@ -2668,6 +2702,90 @@
           "start": 0,
           "length": 1,
           "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10075615",
+    "original": "トムはメアリーの元カレのお兄ちゃんだよ。",
+    "en": [
+      {
+        "id": "2641296",
+        "text": "Tom is Mary's ex-boyfriend's brother."
+      }
+    ],
+    "vocabIds": [
+      "1001840",
+      "1260670"
+    ],
+    "matches": {
+      "1001840": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "おにいちゃん"
+        }
+      ],
+      "1260670": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "もと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "5845200",
+    "original": "私には新しい彼氏がいる。だけど、元カレはまだそのことを知らない。",
+    "en": [
+      {
+        "id": "3416677",
+        "text": "I have a new boyfriend, but my ex-boyfriend doesn't know about it yet."
+      }
+    ],
+    "vocabIds": [
+      "1420420",
+      "1361490",
+      "1483140",
+      "1311110",
+      "1260670"
+    ],
+    "matches": {
+      "1260670": [
+        {
+          "start": 16,
+          "length": 1,
+          "reading": "もと"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1361490": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "あたらしい"
+        }
+      ],
+      "1420420": [
+        {
+          "start": 27,
+          "length": 4,
+          "reading": "しらない"
+        }
+      ],
+      "1483140": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "かれし"
         }
       ]
     }
@@ -2841,6 +2959,66 @@
     }
   },
   {
+    "id": "11557513",
+    "original": "元カレに裏切られた。",
+    "en": [
+      {
+        "id": "7352566",
+        "text": "My ex cheated on me."
+      }
+    ],
+    "vocabIds": [
+      "1550380",
+      "1260670"
+    ],
+    "matches": {
+      "1260670": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "もと"
+        }
+      ],
+      "1550380": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "うらぎら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11557528",
+    "original": "元カレが浮気をした。",
+    "en": [
+      {
+        "id": "7352566",
+        "text": "My ex cheated on me."
+      }
+    ],
+    "vocabIds": [
+      "1497450",
+      "1260670"
+    ],
+    "matches": {
+      "1260670": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "もと"
+        }
+      ],
+      "1497450": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "うわき"
+        }
+      ]
+    }
+  },
+  {
     "id": "12249227",
     "original": "君は相変わらず物を元の場所に戻さないね。",
     "en": [
@@ -2898,6 +3076,74 @@
           "start": 14,
           "length": 4,
           "reading": "もどさない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11056138",
+    "original": "元カレの名前も思い出せないもん。",
+    "en": [
+      {
+        "id": "12488990",
+        "text": "I can't even remember my ex-boyfriend's name."
+      }
+    ],
+    "vocabIds": [
+      "1531710",
+      "1260670"
+    ],
+    "matches": {
+      "1260670": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "もと"
+        }
+      ],
+      "1531710": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "なまえ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "12703163",
+    "original": "間違って、元カレにこれ送っちゃった。",
+    "en": [
+      {
+        "id": "11808400",
+        "text": "I accidentally sent this to my ex."
+      }
+    ],
+    "vocabIds": [
+      "1402730",
+      "1611610",
+      "1260670"
+    ],
+    "matches": {
+      "1260670": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "もと"
+        }
+      ],
+      "1402730": [
+        {
+          "start": 11,
+          "length": 6,
+          "reading": "おくっちゃった"
+        }
+      ],
+      "1611610": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "まちがって"
         }
       ]
     }

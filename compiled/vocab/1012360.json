@@ -3,8 +3,7 @@
   "writtenForm": {
     "kanji": "鼯鼠",
     "alternatives": [
-      "鼺鼠",
-      "野衾"
+      "鼺鼠"
     ],
     "containedKanji": [
       "鼯",
@@ -15,11 +14,7 @@
     "primary": "むささび",
     "alternatives": [
       "むざさび",
-      "ムササビ",
-      "ももんが",
-      "ももんがあ",
-      "モモンガ",
-      "もみ"
+      "ムササビ"
     ]
   },
   "frequency": {
@@ -50,92 +45,20 @@
       "related": {
         "compounds": []
       }
-    },
-    {
-      "pos": [
-        "n"
-      ],
-      "misc": {
-        "isAbbreviation": false,
-        "isSuffix": false,
-        "isPrefix": false,
-        "isArchaic": false,
-        "isRare": false,
-        "rawTags": [
-          "uk"
-        ]
-      },
-      "glosses": [
-        "Japanese flying squirrel (Pteromys momonga)",
-        "small Japanese flying squirrel",
-        "Japanese dwarf flying squirrel"
-      ],
-      "related": {
-        "compounds": []
-      },
-      "appliesToReadings": [
-        "ももんが"
-      ]
-    },
-    {
-      "pos": [
-        "n"
-      ],
-      "misc": {
-        "isAbbreviation": false,
-        "isSuffix": false,
-        "isPrefix": false,
-        "isArchaic": true,
-        "isRare": false,
-        "rawTags": [
-          "arch"
-        ]
-      },
-      "glosses": [
-        "flying squirrel"
-      ],
-      "related": {
-        "compounds": []
-      },
-      "appliesToReadings": [
-        "もみ"
-      ]
     }
   ],
   "usageHints": {
     "requiresContext": true
   },
   "isCommon": false,
-  "mergedVocabs": [
-    {
-      "id": "1012360",
-      "isBase": true,
-      "originalPrimaryReading": "むささび",
-      "originalGlosses": [
-        "Japanese giant flying squirrel (Petaurista leucogenys)"
-      ]
-    },
-    {
-      "id": "1012680",
-      "isBase": false,
-      "originalPrimaryReading": "ももんが",
-      "originalGlosses": [
-        "Japanese flying squirrel (Pteromys momonga)",
-        "small Japanese flying squirrel",
-        "Japanese dwarf flying squirrel"
-      ]
-    },
-    {
-      "id": "2761240",
-      "isBase": false,
-      "originalPrimaryReading": "もみ",
-      "originalGlosses": [
-        "flying squirrel"
-      ]
-    }
-  ],
   "components": [
+    "2761240",
+    "1012680",
     "1397840"
+  ],
+  "parents": [
+    "2761240",
+    "1012680"
   ],
   "usuallyKana": true
 }

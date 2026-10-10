@@ -8,6 +8,7 @@ import type { MarkerInflector } from './grammar-pattern-matcher';
 import { classify, conjugate, FORM_LABELS } from '../src/utils/conjugator';
 import type { ConjugationForm } from '../src/utils/conjugator';
 import { SentenceTokenizer } from '../src/utils/tokenizer';
+import { occurrenceReading } from '../src/utils/sentenceReading';
 
 /**
  * Compiles the vendored hanabira.org-japanese-content grammar snapshot
@@ -330,9 +331,17 @@ export function buildVocabLookup(searchIndex: SearchIndex, kanaWritableIds: Set<
         else if (claimant !== entry.id) ambiguousReadings.add(entry.r);
     }
 
+    // A word learned in kana is not what its rare kanji spelling means in a sentence:
+    // 彼 is かれ, not あれ, which since the dataset stopped merging あれ into 彼 is its
+    // own entry written 彼. So those only claim a written form nobody else has.
+    for (const entry of searchIndex) {
+        if (!entry.u && !byWrittenForm.has(entry.w)) byWrittenForm.set(entry.w, { id: entry.id, r: entry.r });
+    }
     for (const entry of searchIndex) {
         if (!byWrittenForm.has(entry.w)) byWrittenForm.set(entry.w, { id: entry.id, r: entry.r });
+    }
 
+    for (const entry of searchIndex) {
         // An entry only enters the reading index if its reading is a spelling
         // the word is actually written with - either because the written form IS
         // kana, or because the vocab record says the kana spelling is current.
@@ -839,8 +848,14 @@ export function buildExampleWords(
             if (st.start >= m.start && st.end <= m.start + m.length) fineToMerged.set(fineIndex, mergedIndex);
         });
 
+        // The learned reading unless the tokenizer's agrees with it (see occurrenceReading):
+        // a compound it builds from several tokens glues their readings together (一週間
+        // as いちしゅうかん). A span written differently from its term is conjugated.
+        const reading = resolved
+            ? occurrenceReading({ term: m.term, surface, tokenizerReading: m.reading, primary: resolved.r, inflecting: m.term !== surface }).reading
+            : undefined;
         words.push(resolved
-            ? { surface, vocabId: resolved.id, reading: m.reading ?? resolved.r, baseForm }
+            ? { surface, vocabId: resolved.id, reading: reading ?? resolved.r, baseForm }
             : { surface, vocabId: null, baseForm });
 
         cursor = m.start + m.length;

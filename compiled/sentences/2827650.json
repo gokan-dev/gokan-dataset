@@ -41,7 +41,7 @@
         {
           "start": 8,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -96,7 +96,7 @@
         {
           "start": 4,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -151,7 +151,7 @@
         {
           "start": 5,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -206,7 +206,7 @@
         {
           "start": 13,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -261,7 +261,7 @@
         {
           "start": 7,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -279,10 +279,17 @@
     "vocabIds": [
       "1196000",
       "1483150",
-      "1579840",
-      "2827650"
+      "2827650",
+      "1160790"
     ],
     "matches": {
+      "1160790": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "いち"
+        }
+      ],
       "1196000": [
         {
           "start": 18,
@@ -297,18 +304,11 @@
           "reading": "かのじょ"
         }
       ],
-      "1579840": [
-        {
-          "start": 3,
-          "length": 2,
-          "reading": "いちぜろ"
-        }
-      ],
       "2827650": [
         {
           "start": 5,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -363,7 +363,7 @@
         {
           "start": 3,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -411,14 +411,14 @@
         {
           "start": 2,
           "length": 1,
-          "reading": "なん"
+          "reading": "なに"
         }
       ],
       "2827650": [
         {
           "start": 3,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -466,14 +466,14 @@
         {
           "start": 5,
           "length": 1,
-          "reading": "なん"
+          "reading": "なに"
         }
       ],
       "2827650": [
         {
           "start": 6,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -528,7 +528,7 @@
         {
           "start": 11,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -575,7 +575,7 @@
         {
           "start": 8,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -607,14 +607,14 @@
         {
           "start": 6,
           "length": 1,
-          "reading": "よん"
+          "reading": "し"
         }
       ],
       "2827650": [
         {
           "start": 7,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -630,12 +630,19 @@
     ],
     "indices": "彼(かれ)[01] は 凡そ(およそ){およそ} 十日{１０日} 間(かん) 欠席 為る(する){した}",
     "vocabIds": [
-      "1579840",
       "2827650",
       "1254020",
-      "1483070"
+      "1483070",
+      "1160790"
     ],
     "matches": {
+      "1160790": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "いち"
+        }
+      ],
       "1254020": [
         {
           "start": 9,
@@ -650,18 +657,11 @@
           "reading": "かれ"
         }
       ],
-      "1579840": [
-        {
-          "start": 5,
-          "length": 2,
-          "reading": "いちぜろ"
-        }
-      ],
       "2827650": [
         {
           "start": 7,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -713,14 +713,14 @@
         {
           "start": 6,
           "length": 1,
-          "reading": "よん"
+          "reading": "し"
         }
       ],
       "2827650": [
         {
           "start": 7,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -791,7 +791,7 @@
         {
           "start": 6,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -846,7 +846,7 @@
         {
           "start": 11,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -894,7 +894,7 @@
         {
           "start": 4,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ],
       "2862858": [
@@ -938,7 +938,7 @@
         {
           "start": 3,
           "length": 1,
-          "reading": "よん"
+          "reading": "し"
         }
       ],
       "1852520": [
@@ -952,7 +952,7 @@
         {
           "start": 4,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -969,23 +969,23 @@
     "indices": "雪 が 十日{１０日} 間(かん) も 降り続く{降り続いた}",
     "vocabIds": [
       "1852520",
-      "1579840",
       "2827650",
-      "1386500"
+      "1386500",
+      "1160790"
     ],
     "matches": {
+      "1160790": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "いち"
+        }
+      ],
       "1386500": [
         {
           "start": 0,
           "length": 1,
           "reading": "ゆき"
-        }
-      ],
-      "1579840": [
-        {
-          "start": 2,
-          "length": 2,
-          "reading": "いちぜろ"
         }
       ],
       "1852520": [
@@ -999,7 +999,7 @@
         {
           "start": 4,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -1050,7 +1050,7 @@
         {
           "start": 4,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -1090,14 +1090,14 @@
         {
           "start": 3,
           "length": 1,
-          "reading": "なん"
+          "reading": "なに"
         }
       ],
       "2827650": [
         {
           "start": 4,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -1156,99 +1156,7 @@
         {
           "start": 4,
           "length": 2,
-          "reading": "にちかん"
-        }
-      ]
-    }
-  },
-  {
-    "id": "144269",
-    "original": "人間は食べ物がなくても４０日まで生きられるが、水がないと７日間しか生きられない。",
-    "en": [
-      {
-        "id": "270296",
-        "text": "Human beings can live up to 40 days without food, but no more than 7 without water."
-      }
-    ],
-    "indices": "人間(にんげん)[01] は 食べ物 が 無い{なくて} も 日(ひ)[01] 迄{まで} 生きる{生きられる} が[03] 水(みず) が 無い{ない} と 七日[02]{７日}~ 間(かん) しか 生きる{生きられない}",
-    "vocabIds": [
-      "1358340",
-      "1378520",
-      "1366770",
-      "2827650",
-      "1579470",
-      "1557630",
-      "1463770",
-      "1371260",
-      "1319210"
-    ],
-    "matches": {
-      "1319210": [
-        {
-          "start": 28,
-          "length": 1,
-          "reading": "なな"
-        }
-      ],
-      "1358340": [
-        {
-          "start": 3,
-          "length": 3,
-          "reading": "たべもの"
-        }
-      ],
-      "1366770": [
-        {
-          "start": 0,
-          "length": 2,
-          "reading": "にんげん"
-        }
-      ],
-      "1371260": [
-        {
-          "start": 23,
-          "length": 1,
-          "reading": "みず"
-        }
-      ],
-      "1378520": [
-        {
-          "start": 16,
-          "length": 2,
-          "reading": "いき"
-        },
-        {
-          "start": 33,
-          "length": 2,
-          "reading": "いき"
-        }
-      ],
-      "1463770": [
-        {
-          "start": 13,
-          "length": 1,
-          "reading": "にち"
-        }
-      ],
-      "1557630": [
-        {
-          "start": 12,
-          "length": 1,
-          "reading": "ぜろ"
-        }
-      ],
-      "1579470": [
-        {
-          "start": 11,
-          "length": 1,
-          "reading": "よん"
-        }
-      ],
-      "2827650": [
-        {
-          "start": 29,
-          "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -1276,7 +1184,7 @@
         {
           "start": 5,
           "length": 1,
-          "reading": "えん"
+          "reading": "ほのお"
         }
       ],
       "1338180": [
@@ -1311,7 +1219,7 @@
         {
           "start": 3,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -1366,7 +1274,7 @@
         {
           "start": 3,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -1413,7 +1321,7 @@
         {
           "start": 6,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -1472,7 +1380,7 @@
         {
           "start": 5,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -1535,7 +1443,7 @@
         {
           "start": 8,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -1552,12 +1460,19 @@
     "indices": "私(わたし)[01] は イースター 島(とう) へ 十日{１０日} 間(かん) の 旅(たび) を 為る(する){した}",
     "vocabIds": [
       "1961580",
-      "1579840",
       "2827650",
       "1311110",
+      "1160790",
       "1553120"
     ],
     "matches": {
+      "1160790": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "いち"
+        }
+      ],
       "1311110": [
         {
           "start": 0,
@@ -1572,13 +1487,6 @@
           "reading": "たび"
         }
       ],
-      "1579840": [
-        {
-          "start": 9,
-          "length": 2,
-          "reading": "いちぜろ"
-        }
-      ],
       "1961580": [
         {
           "start": 2,
@@ -1590,7 +1498,7 @@
         {
           "start": 11,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -1645,7 +1553,7 @@
         {
           "start": 3,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -1700,7 +1608,7 @@
         {
           "start": 3,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -1755,7 +1663,7 @@
         {
           "start": 3,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -1810,7 +1718,7 @@
         {
           "start": 1,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -1857,7 +1765,7 @@
         {
           "start": 1,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -1883,7 +1791,7 @@
         {
           "start": 3,
           "length": 1,
-          "reading": "う"
+          "reading": "あめ"
         }
       ],
       "1579350": [
@@ -1904,7 +1812,7 @@
         {
           "start": 1,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -1931,7 +1839,7 @@
         {
           "start": 3,
           "length": 1,
-          "reading": "う"
+          "reading": "あめ"
         }
       ],
       "1282790": [
@@ -1959,7 +1867,7 @@
         {
           "start": 1,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -2006,7 +1914,7 @@
         {
           "start": 1,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -2057,7 +1965,7 @@
         {
           "start": 1,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -2096,7 +2004,7 @@
         {
           "start": 4,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -2113,12 +2021,19 @@
     "indices": "裁判 は 十日{１０日} 間(かん) 継続 為る(する){して} 行われる{行われた}",
     "vocabIds": [
       "1296120",
-      "1579840",
       "2827650",
       "1251810",
-      "1589060"
+      "1589060",
+      "1160790"
     ],
     "matches": {
+      "1160790": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "いち"
+        }
+      ],
       "1251810": [
         {
           "start": 7,
@@ -2133,13 +2048,6 @@
           "reading": "さいばん"
         }
       ],
-      "1579840": [
-        {
-          "start": 3,
-          "length": 2,
-          "reading": "いちぜろ"
-        }
-      ],
       "1589060": [
         {
           "start": 11,
@@ -2151,7 +2059,7 @@
         {
           "start": 5,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -2199,14 +2107,14 @@
         {
           "start": 5,
           "length": 1,
-          "reading": "なん"
+          "reading": "なに"
         }
       ],
       "2827650": [
         {
           "start": 6,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -2261,7 +2169,7 @@
         {
           "start": 19,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -2332,7 +2240,7 @@
         {
           "start": 7,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -2374,14 +2282,14 @@
         {
           "start": 0,
           "length": 1,
-          "reading": "なん"
+          "reading": "なに"
         }
       ],
       "1586770": [
         {
           "start": 11,
           "length": 2,
-          "reading": "あらの"
+          "reading": "こうや"
         }
       ],
       "2038160": [
@@ -2395,7 +2303,7 @@
         {
           "start": 1,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -2443,14 +2351,14 @@
         {
           "start": 0,
           "length": 1,
-          "reading": "なん"
+          "reading": "なに"
         }
       ],
       "2827650": [
         {
           "start": 1,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -2483,7 +2391,7 @@
         {
           "start": 2,
           "length": 1,
-          "reading": "よん"
+          "reading": "し"
         }
       ],
       "1852520": [
@@ -2497,7 +2405,7 @@
         {
           "start": 3,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -2544,7 +2452,7 @@
         {
           "start": 3,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -2595,7 +2503,7 @@
         {
           "start": 3,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -2650,7 +2558,7 @@
         {
           "start": 1,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -2701,7 +2609,7 @@
         {
           "start": 3,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -2772,7 +2680,7 @@
         {
           "start": 9,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -2805,7 +2713,7 @@
         {
           "start": 2,
           "length": 1,
-          "reading": "なな"
+          "reading": "しち"
         }
       ],
       "1852520": [
@@ -2819,7 +2727,7 @@
         {
           "start": 3,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -2858,7 +2766,7 @@
         {
           "start": 3,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -2897,7 +2805,7 @@
         {
           "start": 4,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -2968,7 +2876,7 @@
         {
           "start": 17,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -3019,7 +2927,7 @@
         {
           "start": 6,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -3074,7 +2982,7 @@
         {
           "start": 7,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -3121,7 +3029,7 @@
         {
           "start": 6,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -3168,7 +3076,7 @@
         {
           "start": 6,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -3235,7 +3143,7 @@
         {
           "start": 3,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -3261,7 +3169,7 @@
         {
           "start": 5,
           "length": 1,
-          "reading": "う"
+          "reading": "あめ"
         }
       ],
       "1579350": [
@@ -3282,7 +3190,7 @@
         {
           "start": 3,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -3300,10 +3208,17 @@
     "vocabIds": [
       "1436560",
       "2853260",
-      "1579840",
-      "2827650"
+      "2827650",
+      "1160790"
     ],
     "matches": {
+      "1160790": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "いち"
+        }
+      ],
       "1436560": [
         {
           "start": 14,
@@ -3311,18 +3226,11 @@
           "reading": "しまっていました"
         }
       ],
-      "1579840": [
-        {
-          "start": 10,
-          "length": 2,
-          "reading": "いちぜろ"
-        }
-      ],
       "2827650": [
         {
           "start": 12,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ],
       "2853260": [
@@ -3376,7 +3284,7 @@
         {
           "start": 1,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -3402,7 +3310,7 @@
         {
           "start": 3,
           "length": 1,
-          "reading": "う"
+          "reading": "あめ"
         }
       ],
       "1268060": [
@@ -3423,7 +3331,7 @@
         {
           "start": 1,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -3462,7 +3370,7 @@
         {
           "start": 1,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -3521,7 +3429,7 @@
         {
           "start": 1,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -3560,7 +3468,7 @@
         {
           "start": 1,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -3598,7 +3506,7 @@
         {
           "start": 3,
           "length": 1,
-          "reading": "う"
+          "reading": "あめ"
         }
       ],
       "1579350": [
@@ -3619,7 +3527,7 @@
         {
           "start": 1,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -3698,7 +3606,7 @@
         {
           "start": 3,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -3714,22 +3622,22 @@
     ],
     "indices": "十日{１０日} 間(かん) 経つ{たった}",
     "vocabIds": [
-      "1579840",
-      "2827650"
+      "2827650",
+      "1160790"
     ],
     "matches": {
-      "1579840": [
+      "1160790": [
         {
           "start": 0,
-          "length": 2,
-          "reading": "いちぜろ"
+          "length": 1,
+          "reading": "いち"
         }
       ],
       "2827650": [
         {
           "start": 2,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -3762,7 +3670,7 @@
         {
           "start": 6,
           "length": 1,
-          "reading": "ご"
+          "reading": "あと"
         }
       ],
       "1282440": [
@@ -3783,7 +3691,7 @@
         {
           "start": 8,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -3805,7 +3713,7 @@
         {
           "start": 1,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -3824,13 +3732,14 @@
       }
     ],
     "vocabIds": [
-      "1629290",
       "2737800",
       "1377030",
+      "1579860",
       "2827650",
       "1259290",
       "2084840",
       "1579470",
+      "1463770",
       "1386500"
     ],
     "matches": {
@@ -3855,39 +3764,46 @@
           "reading": "ゆき"
         }
       ],
+      "1463770": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "ひ"
+        }
+      ],
       "1579470": [
         {
           "start": 17,
           "length": 1,
-          "reading": "よん"
+          "reading": "し"
         }
       ],
-      "1629290": [
+      "1579860": [
         {
           "start": 7,
-          "length": 3,
-          "reading": "じゅうよんにち"
+          "length": 2,
+          "reading": "じゅうし"
         }
       ],
       "2084840": [
         {
           "start": 2,
           "length": 1,
-          "reading": "とし"
+          "reading": "ねん"
         }
       ],
       "2737800": [
         {
           "start": 12,
           "length": 3,
-          "reading": "じゅうななにち"
+          "reading": "じゅうしちにち"
         }
       ],
       "2827650": [
         {
           "start": 18,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -3925,7 +3841,7 @@
         {
           "start": 1,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -3963,7 +3879,7 @@
         {
           "start": 1,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -3981,24 +3897,24 @@
       "1282900",
       "1593070",
       "2827650",
-      "1334890",
       "1579350",
       "1406820",
-      "1557630"
+      "1160790",
+      "1461140"
     ],
     "matches": {
+      "1160790": [
+        {
+          "start": 20,
+          "length": 1,
+          "reading": "いち"
+        }
+      ],
       "1282900": [
         {
           "start": 16,
           "length": 3,
           "reading": "こうすいりょう"
-        }
-      ],
-      "1334890": [
-        {
-          "start": 20,
-          "length": 2,
-          "reading": "いちに"
         }
       ],
       "1406820": [
@@ -4008,16 +3924,11 @@
           "reading": "むら"
         }
       ],
-      "1557630": [
+      "1461140": [
         {
-          "start": 22,
+          "start": 21,
           "length": 1,
-          "reading": "ぜろ"
-        },
-        {
-          "start": 23,
-          "length": 1,
-          "reading": "ぜろ"
+          "reading": "に"
         }
       ],
       "1579350": [
@@ -4038,7 +3949,7 @@
         {
           "start": 11,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -4116,7 +4027,7 @@
         {
           "start": 12,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -4178,7 +4089,7 @@
         {
           "start": 22,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -4232,7 +4143,53 @@
         {
           "start": 17,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2133098",
+    "original": "学校長はトムを２日間の停学にした。",
+    "en": [
+      {
+        "id": "1960904",
+        "text": "The school principal suspended Tom for two days."
+      }
+    ],
+    "vocabIds": [
+      "2854778",
+      "2827650",
+      "1434910",
+      "1461140"
+    ],
+    "matches": {
+      "1434910": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "ていがく"
+        }
+      ],
+      "1461140": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "に"
+        }
+      ],
+      "2827650": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "にっかん"
+        }
+      ],
+      "2854778": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "がっこうちょう"
         }
       ]
     }
@@ -4270,7 +4227,7 @@
         {
           "start": 4,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -4308,7 +4265,7 @@
         {
           "start": 4,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -4339,7 +4296,7 @@
         {
           "start": 3,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ],
       "2839008": [
@@ -4392,7 +4349,7 @@
         {
           "start": 1,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -4462,7 +4419,7 @@
         {
           "start": 5,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -4492,7 +4449,7 @@
         {
           "start": 1,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -4531,14 +4488,14 @@
         {
           "start": 6,
           "length": 1,
-          "reading": "なん"
+          "reading": "なに"
         }
       ],
       "2827650": [
         {
           "start": 7,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -4568,7 +4525,7 @@
         {
           "start": 3,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -4610,7 +4567,7 @@
         {
           "start": 4,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -4656,7 +4613,7 @@
         {
           "start": 3,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -4702,7 +4659,53 @@
         {
           "start": 1,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9353503",
+    "original": "２日間雨が降り続いている。",
+    "en": [
+      {
+        "id": "7088803",
+        "text": "It's been raining for two days."
+      }
+    ],
+    "vocabIds": [
+      "1852520",
+      "2827650",
+      "1461140",
+      "1171900"
+    ],
+    "matches": {
+      "1171900": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "あめ"
+        }
+      ],
+      "1461140": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "に"
+        }
+      ],
+      "1852520": [
+        {
+          "start": 5,
+          "length": 7,
+          "reading": "ふりつづいている"
+        }
+      ],
+      "2827650": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "にっかん"
         }
       ]
     }
@@ -4772,7 +4775,7 @@
         {
           "start": 16,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -4818,7 +4821,7 @@
         {
           "start": 1,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -4856,7 +4859,7 @@
         {
           "start": 4,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -4902,7 +4905,65 @@
         {
           "start": 1,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10050022",
+    "original": "チケットの有効期限は、購入日を含めた２日間のみです。",
+    "en": [
+      {
+        "id": "471856",
+        "text": "Tickets are valid for just two days, including the day they are purchased on."
+      },
+      {
+        "id": "10181689",
+        "text": "Tickets are valid for just two days, including the day they're purchased."
+      }
+    ],
+    "vocabIds": [
+      "1541310",
+      "2846258",
+      "1216890",
+      "2827650",
+      "1461140"
+    ],
+    "matches": {
+      "1216890": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "ふくめた"
+        }
+      ],
+      "1461140": [
+        {
+          "start": 18,
+          "length": 1,
+          "reading": "に"
+        }
+      ],
+      "1541310": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "ゆうこうきげん"
+        }
+      ],
+      "2827650": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "にっかん"
+        }
+      ],
+      "2846258": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "こうにゅうび"
         }
       ]
     }
@@ -4940,7 +5001,7 @@
         {
           "start": 4,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -4971,14 +5032,14 @@
         {
           "start": 3,
           "length": 1,
-          "reading": "なん"
+          "reading": "なに"
         }
       ],
       "2827650": [
         {
           "start": 4,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -5033,7 +5094,7 @@
         {
           "start": 8,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -5055,7 +5116,7 @@
         {
           "start": 5,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -5086,14 +5147,14 @@
         {
           "start": 7,
           "length": 2,
-          "reading": "にっぽん"
+          "reading": "にほん"
         }
       ],
       "2827650": [
         {
           "start": 5,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -5139,7 +5200,7 @@
         {
           "start": 1,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -5171,14 +5232,14 @@
         {
           "start": 7,
           "length": 2,
-          "reading": "にっぽん"
+          "reading": "にほん"
         }
       ],
       "2827650": [
         {
           "start": 5,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ],
       "2862858": [
@@ -5243,14 +5304,14 @@
         {
           "start": 5,
           "length": 1,
-          "reading": "にち"
+          "reading": "ひ"
         }
       ],
       "1464700": [
         {
           "start": 18,
           "length": 3,
-          "reading": "にっぽんじん"
+          "reading": "にほんじん"
         }
       ],
       "1501930": [
@@ -5271,7 +5332,7 @@
         {
           "start": 10,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -5310,14 +5371,14 @@
         {
           "start": 3,
           "length": 1,
-          "reading": "なん"
+          "reading": "なに"
         }
       ],
       "2827650": [
         {
           "start": 4,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -5357,14 +5418,14 @@
         {
           "start": 2,
           "length": 1,
-          "reading": "なな"
+          "reading": "しち"
         }
       ],
       "2827650": [
         {
           "start": 3,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -5422,7 +5483,7 @@
         {
           "start": 5,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -5445,6 +5506,7 @@
       "2084840",
       "1255430",
       "1445160",
+      "2252690",
       "1580640",
       "1531940"
     ],
@@ -5500,7 +5562,7 @@
         {
           "start": 33,
           "length": 1,
-          "reading": "にん"
+          "reading": "ひと"
         }
       ],
       "1589260": [
@@ -5517,11 +5579,18 @@
           "reading": "ねん"
         }
       ],
+      "2252690": [
+        {
+          "start": 19,
+          "length": 1,
+          "reading": "ど"
+        }
+      ],
       "2827650": [
         {
           "start": 27,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -5543,6 +5612,7 @@
       "2084840",
       "1255430",
       "1445160",
+      "2252690",
       "1531330"
     ],
     "matches": {
@@ -5590,7 +5660,7 @@
         {
           "start": 31,
           "length": 1,
-          "reading": "めい"
+          "reading": "な"
         }
       ],
       "2084840": [
@@ -5600,11 +5670,18 @@
           "reading": "ねん"
         }
       ],
+      "2252690": [
+        {
+          "start": 17,
+          "length": 1,
+          "reading": "ど"
+        }
+      ],
       "2827650": [
         {
           "start": 25,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
@@ -5650,7 +5727,7 @@
         {
           "start": 1,
           "length": 2,
-          "reading": "にちかん"
+          "reading": "にっかん"
         }
       ]
     }
