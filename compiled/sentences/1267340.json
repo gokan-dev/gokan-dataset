@@ -152,7 +152,7 @@
         {
           "start": 2,
           "length": 1,
-          "reading": "た"
+          "reading": "ほか"
         }
       ],
       "1267340": [
@@ -205,15 +205,16 @@
     ],
     "indices": "狐[01] が 匹(ひき)[01] ひょっこり やって来る{やってきた}",
     "vocabIds": [
-      "1166060",
-      "1267340"
+      "1267340",
+      "1160790",
+      "1583370"
     ],
     "matches": {
-      "1166060": [
+      "1160790": [
         {
           "start": 2,
-          "length": 2,
-          "reading": "いちひき"
+          "length": 1,
+          "reading": "いち"
         }
       ],
       "1267340": [
@@ -221,6 +222,13 @@
           "start": 0,
           "length": 1,
           "reading": "きつね"
+        }
+      ],
+      "1583370": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "ひき"
         }
       ]
     }
@@ -415,7 +423,7 @@
         {
           "start": 0,
           "length": 2,
-          "reading": "むかし々"
+          "reading": "むかしむかし"
         }
       ]
     }
@@ -516,14 +524,14 @@
         {
           "start": 4,
           "length": 2,
-          "reading": "あくきつね"
+          "reading": "あっこ"
         }
       ],
       "2623660": [
         {
           "start": 7,
           "length": 2,
-          "reading": "ぜんきつね"
+          "reading": "ぜんこ"
         }
       ]
     }
@@ -766,6 +774,60 @@
     }
   },
   {
+    "id": "9344254",
+    "original": "トムとメアリーはファースーツを着て、犬と女狐の凌と凛になってたよ。",
+    "en": [
+      {
+        "id": "9344183",
+        "text": "Tom and Mary put on their fursuits and turned into Ryō and Rin, a dog and a vixen."
+      }
+    ],
+    "vocabIds": [
+      "1423000",
+      "1258330",
+      "1344930",
+      "1267340",
+      "1564320"
+    ],
+    "matches": {
+      "1258330": [
+        {
+          "start": 18,
+          "length": 1,
+          "reading": "いぬ"
+        }
+      ],
+      "1267340": [
+        {
+          "start": 21,
+          "length": 1,
+          "reading": "きつね"
+        }
+      ],
+      "1344930": [
+        {
+          "start": 20,
+          "length": 1,
+          "reading": "おんな"
+        }
+      ],
+      "1423000": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "きて"
+        }
+      ],
+      "1564320": [
+        {
+          "start": 25,
+          "length": 1,
+          "reading": "りん"
+        }
+      ]
+    }
+  },
+  {
     "id": "9344782",
     "original": "トムのファーソナはね、寧音って名の狐なんだ。",
     "en": [
@@ -775,7 +837,6 @@
       }
     ],
     "vocabIds": [
-      "1604870",
       "1576900",
       "1531330",
       "1267340"
@@ -799,14 +860,7 @@
         {
           "start": 12,
           "length": 1,
-          "reading": "おん"
-        }
-      ],
-      "1604870": [
-        {
-          "start": 11,
-          "length": 1,
-          "reading": "やすし"
+          "reading": "おと"
         }
       ]
     }
@@ -1093,7 +1147,7 @@
         {
           "start": 0,
           "length": 3,
-          "reading": "このあたり"
+          "reading": "このへん"
         }
       ],
       "1259290": [
@@ -1122,6 +1176,116 @@
           "start": 17,
           "length": 2,
           "reading": "めった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3714290",
+    "original": "ごんは、一人ぼっちの小狐で、しだの一ぱいしげった森の中に穴をほって住んでいました。そして、夜でも昼でも、あたりの村へ出て来て、いたずらばかりしました。",
+    "en": [
+      {
+        "id": "12197112",
+        "text": "Gon was a solitary little fox who dug and lived in a hole in a forest full of ferns. Night or day, he would come out and visit the neighboring village, where he would get up to nothing but mischief."
+      }
+    ],
+    "vocabIds": [
+      "1334040",
+      "1602040",
+      "1338240",
+      "1165670",
+      "2083540",
+      "1267340",
+      "1362490",
+      "1423310",
+      "1254480",
+      "1536350",
+      "1426250",
+      "1406820"
+    ],
+    "matches": {
+      "1165670": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "いっぱい"
+        }
+      ],
+      "1254480": [
+        {
+          "start": 28,
+          "length": 1,
+          "reading": "あな"
+        }
+      ],
+      "1267340": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "きつね"
+        }
+      ],
+      "1334040": [
+        {
+          "start": 33,
+          "length": 7,
+          "reading": "すんでいました"
+        }
+      ],
+      "1338240": [
+        {
+          "start": 58,
+          "length": 4,
+          "reading": "でてきて"
+        }
+      ],
+      "1362490": [
+        {
+          "start": 24,
+          "length": 1,
+          "reading": "もり"
+        }
+      ],
+      "1406820": [
+        {
+          "start": 56,
+          "length": 1,
+          "reading": "むら"
+        }
+      ],
+      "1423310": [
+        {
+          "start": 26,
+          "length": 1,
+          "reading": "なか"
+        }
+      ],
+      "1426250": [
+        {
+          "start": 48,
+          "length": 1,
+          "reading": "ひる"
+        }
+      ],
+      "1536350": [
+        {
+          "start": 45,
+          "length": 1,
+          "reading": "よる"
+        }
+      ],
+      "1602040": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "ひとりぼっち"
+        }
+      ],
+      "2083540": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "しょう"
         }
       ]
     }

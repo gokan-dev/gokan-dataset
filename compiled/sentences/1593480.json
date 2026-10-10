@@ -136,7 +136,7 @@
         {
           "start": 7,
           "length": 2,
-          "reading": "ねむ"
+          "reading": "ばくすい"
         }
       ]
     }
@@ -172,7 +172,7 @@
         {
           "start": 3,
           "length": 1,
-          "reading": "ま"
+          "reading": "あいだ"
         }
       ],
       "1406150": [
@@ -310,7 +310,7 @@
         {
           "start": 11,
           "length": 4,
-          "reading": "じゅんぷうまんほ"
+          "reading": "じゅんぷうまんぱん"
         }
       ],
       "1593480": [
@@ -430,20 +430,12 @@
       "1259140",
       "1539040",
       "1593480",
-      "1000420",
       "2845746",
       "1481000",
       "1217730",
       "1380440"
     ],
     "matches": {
-      "1000420": [
-        {
-          "start": 0,
-          "length": 2,
-          "reading": "かれの"
-        }
-      ],
       "1217730": [
         {
           "start": 2,
@@ -1093,7 +1085,7 @@
         {
           "start": 11,
           "length": 1,
-          "reading": "がお"
+          "reading": "かお"
         }
       ],
       "1255060": [
@@ -1353,7 +1345,7 @@
         {
           "start": 6,
           "length": 2,
-          "reading": "いちほ"
+          "reading": "いっぽ"
         }
       ],
       "1483090": [
@@ -1422,7 +1414,7 @@
         {
           "start": 3,
           "length": 2,
-          "reading": "せろん"
+          "reading": "よろん"
         }
       ]
     }
@@ -1485,7 +1477,7 @@
         {
           "start": 3,
           "length": 2,
-          "reading": "せろん"
+          "reading": "よろん"
         }
       ]
     }
@@ -2861,7 +2853,7 @@
         {
           "start": 0,
           "length": 1,
-          "reading": "ご"
+          "reading": "あと"
         }
       ],
       "1593480": [
@@ -3223,7 +3215,7 @@
         {
           "start": 2,
           "length": 2,
-          "reading": "いちにん"
+          "reading": "ひとり"
         }
       ],
       "1593480": [
@@ -3334,7 +3326,7 @@
         {
           "start": 14,
           "length": 1,
-          "reading": "のち"
+          "reading": "あと"
         }
       ],
       "1344410": [
@@ -4144,14 +4136,14 @@
         {
           "start": 4,
           "length": 4,
-          "reading": "わるぐちぞうごん"
+          "reading": "あっこうぞうごん"
         }
       ],
       "1269320": [
         {
           "start": 17,
           "length": 1,
-          "reading": "ご"
+          "reading": "あと"
         }
       ],
       "1547440": [
@@ -4298,7 +4290,7 @@
         {
           "start": 11,
           "length": 1,
-          "reading": "ご"
+          "reading": "あと"
         }
       ],
       "1593480": [
@@ -4383,7 +4375,7 @@
         {
           "start": 30,
           "length": 4,
-          "reading": "のあな"
+          "reading": "けつのあな"
         }
       ],
       "1236940": [
@@ -4760,7 +4752,7 @@
         {
           "start": 17,
           "length": 1,
-          "reading": "ちゅう"
+          "reading": "なか"
         }
       ],
       "1483150": [
@@ -4807,7 +4799,7 @@
         {
           "start": 17,
           "length": 1,
-          "reading": "のち"
+          "reading": "あと"
         }
       ],
       "1360010": [
@@ -4883,7 +4875,7 @@
         {
           "start": 0,
           "length": 2,
-          "reading": "やちゅう"
+          "reading": "よなか"
         }
       ],
       "1545710": [
@@ -4905,6 +4897,57 @@
           "start": 20,
           "length": 6,
           "reading": "ねむれなかった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1179918",
+    "original": "彼の兵士は彼を怖れ敬っていた。",
+    "en": [
+      {
+        "id": "805345",
+        "text": "His soldiers feared and respected him."
+      }
+    ],
+    "vocabIds": [
+      "1250700",
+      "1506420",
+      "1593480",
+      "1483070"
+    ],
+    "matches": {
+      "1250700": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "うやまっていた"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        },
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1506420": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "へいし"
+        }
+      ],
+      "1593480": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "こわ"
         }
       ]
     }
@@ -5472,6 +5515,73 @@
           "start": 3,
           "length": 2,
           "reading": "こわい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1736460",
+    "original": "地の人はこの川を「人食い川」と呼んで怖れている。",
+    "en": [
+      {
+        "id": "564277",
+        "text": "The locals call this river the man-eating river and fear it."
+      }
+    ],
+    "vocabIds": [
+      "1368240",
+      "1266440",
+      "1593480",
+      "1420730",
+      "1580640",
+      "1390020"
+    ],
+    "matches": {
+      "1266440": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "よんで"
+        }
+      ],
+      "1368240": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "ひとくい"
+        }
+      ],
+      "1390020": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "かわ"
+        },
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "かわ"
+        }
+      ],
+      "1420730": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ち"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ],
+      "1593480": [
+        {
+          "start": 18,
+          "length": 1,
+          "reading": "こわ"
         }
       ]
     }
@@ -6138,6 +6248,44 @@
           "start": 0,
           "length": 4,
           "reading": "こわかった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "5132405",
+    "original": "私たちは競争を怖れません。",
+    "en": [
+      {
+        "id": "5132195",
+        "text": "We're not afraid of competition."
+      }
+    ],
+    "vocabIds": [
+      "1311300",
+      "1234140",
+      "1593480"
+    ],
+    "matches": {
+      "1234140": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "きょうそう"
+        }
+      ],
+      "1311300": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1593480": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "こわ"
         }
       ]
     }
@@ -7188,7 +7336,7 @@
         {
           "start": 0,
           "length": 2,
-          "reading": "さくや"
+          "reading": "ゆうべ"
         }
       ],
       "1593480": [
@@ -7524,7 +7672,7 @@
         {
           "start": 0,
           "length": 2,
-          "reading": "いちにん"
+          "reading": "ひとり"
         }
       ],
       "1593480": [
@@ -7600,7 +7748,7 @@
         {
           "start": 0,
           "length": 2,
-          "reading": "さくや"
+          "reading": "ゆうべ"
         }
       ],
       "1593480": [
@@ -8044,7 +8192,7 @@
         {
           "start": 3,
           "length": 3,
-          "reading": "いちにんで"
+          "reading": "ひとりで"
         }
       ],
       "1593480": [
@@ -8427,7 +8575,7 @@
         {
           "start": 5,
           "length": 2,
-          "reading": "さくや"
+          "reading": "ゆうべ"
         }
       ],
       "1581930": [
@@ -8684,7 +8832,7 @@
         {
           "start": 9,
           "length": 1,
-          "reading": "ま"
+          "reading": "あいだ"
         }
       ],
       "1416840": [
@@ -8713,6 +8861,36 @@
           "start": 1,
           "length": 4,
           "reading": "こわいから"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11178858",
+    "original": "失敗を怖れるな。",
+    "en": [
+      {
+        "id": "3662409",
+        "text": "Never be afraid to make mistakes."
+      }
+    ],
+    "vocabIds": [
+      "1320140",
+      "1593480"
+    ],
+    "matches": {
+      "1320140": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しっぱい"
+        }
+      ],
+      "1593480": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "こわ"
         }
       ]
     }
@@ -8894,6 +9072,40 @@
     }
   },
   {
+    "id": "11748217",
+    "original": "誰もが、トムのことを怖れている。",
+    "en": [
+      {
+        "id": "7521382",
+        "text": "Everybody is afraid of Tom."
+      },
+      {
+        "id": "7521560",
+        "text": "Everyone is afraid of Tom."
+      }
+    ],
+    "vocabIds": [
+      "1416860",
+      "1593480"
+    ],
+    "matches": {
+      "1416860": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "だれも"
+        }
+      ],
+      "1593480": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "こわ"
+        }
+      ]
+    }
+  },
+  {
     "id": "11792752",
     "original": "怖い話して。",
     "en": [
@@ -8963,6 +9175,40 @@
           "start": 7,
           "length": 2,
           "reading": "こわい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11851936",
+    "original": "みんなあなたのことを怖れてるの。",
+    "en": [
+      {
+        "id": "10160099",
+        "text": "Everyone is afraid of you."
+      },
+      {
+        "id": "12297761",
+        "text": "Everybody is afraid of you."
+      },
+      {
+        "id": "12297762",
+        "text": "Everybody is scared of you."
+      },
+      {
+        "id": "12297763",
+        "text": "Everyone is scared of you."
+      }
+    ],
+    "vocabIds": [
+      "1593480"
+    ],
+    "matches": {
+      "1593480": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "こわ"
         }
       ]
     }
@@ -9217,7 +9463,7 @@
         {
           "start": 0,
           "length": 2,
-          "reading": "いちにん"
+          "reading": "ひとり"
         }
       ],
       "1593480": [
@@ -9354,18 +9600,10 @@
     ],
     "vocabIds": [
       "1593480",
-      "1294330",
-      "1581610"
+      "1294330"
     ],
     "matches": {
       "1294330": [
-        {
-          "start": 0,
-          "length": 1,
-          "reading": "つま"
-        }
-      ],
-      "1581610": [
         {
           "start": 0,
           "length": 1,

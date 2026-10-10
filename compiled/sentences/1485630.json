@@ -1,5 +1,36 @@
 [
   {
+    "id": "85589",
+    "original": "備えあれば患いなし。",
+    "en": [
+      {
+        "id": "318124",
+        "text": "Lay up for a rainy day."
+      }
+    ],
+    "indices": "備え 有る{あれば} 患い[01] 無し{なし}",
+    "vocabIds": [
+      "1485630",
+      "1212200"
+    ],
+    "matches": {
+      "1212200": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "わずらい"
+        }
+      ],
+      "1485630": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "そなえ"
+        }
+      ]
+    }
+  },
+  {
     "id": "86206",
     "original": "彼女は老後の備えをした。",
     "en": [
@@ -110,6 +141,37 @@
       "1485630": [
         {
           "start": 13,
+          "length": 2,
+          "reading": "そなえ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "369400",
+    "original": "備えあれば患い無し。",
+    "en": [
+      {
+        "id": "537823",
+        "text": "Well prepared means no worries."
+      }
+    ],
+    "indices": "",
+    "vocabIds": [
+      "1212200",
+      "1485630"
+    ],
+    "matches": {
+      "1212200": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "わずらいなし"
+        }
+      ],
+      "1485630": [
+        {
+          "start": 0,
           "length": 2,
           "reading": "そなえ"
         }

@@ -103,6 +103,10 @@ interface Sentence {
 }
 ```
 
+**Which word a span belongs to** (`resolveSentenceMatch`, `src/utils/readingDisambiguation.ts`): the tokenizer finds every written form of every word in the sentence, then candidates are removed on evidence. Tatoeba's own annotation (`indices`) decides first where it names the exact JMdict entry (`妻(#1294330)`); otherwise homographs are split by reading, a written form goes to the word it is the headword of (妻 is "wife", not 端/つま), a word matched through another spelling or spelled as another word plus a particle (誰が) needs the reading to agree unless Tatoeba lists it there, and a misread headword is dropped only when a Tatoeba reading contradicts it. Whether a word is kept for being used in a sentence is decided before this, as it always was, so these rules never remove a word from the dataset, only wrong example sentences.
+
+**`reading`** is the furigana of that occurrence (`occurrenceReading`, `src/utils/sentenceReading.ts`): Tatoeba's reading when its annotation gives one for the word (日米間 is かん, 一羽 is わ), else the tokenizer's when it agrees with the word's learned reading, conjugation included, else the learned reading with the sentence's okurigana (日本 にほん, not the tokenizer's にっぽん; 一週間 いっしゅうかん, not いちしゅうかん). So a learner sees either the reading they learned or one the sentence justifies.
+
 ## `compiled/kanji.json` — flat array, all kanji
 
 ```ts

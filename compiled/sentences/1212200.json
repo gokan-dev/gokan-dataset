@@ -57,7 +57,7 @@
         {
           "start": 0,
           "length": 2,
-          "reading": "にっぽん"
+          "reading": "にほん"
         }
       ],
       "1602440": [
@@ -79,6 +79,37 @@
           "start": 4,
           "length": 3,
           "reading": "しんぞうびょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "85589",
+    "original": "備えあれば患いなし。",
+    "en": [
+      {
+        "id": "318124",
+        "text": "Lay up for a rainy day."
+      }
+    ],
+    "indices": "備え 有る{あれば} 患い[01] 無し{なし}",
+    "vocabIds": [
+      "1485630",
+      "1212200"
+    ],
+    "matches": {
+      "1212200": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "わずらい"
+        }
+      ],
+      "1485630": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "そなえ"
         }
       ]
     }
@@ -126,6 +157,37 @@
           "start": 9,
           "length": 1,
           "reading": "ひと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "369400",
+    "original": "備えあれば患い無し。",
+    "en": [
+      {
+        "id": "537823",
+        "text": "Well prepared means no worries."
+      }
+    ],
+    "indices": "",
+    "vocabIds": [
+      "1212200",
+      "1485630"
+    ],
+    "matches": {
+      "1212200": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "わずらいなし"
+        }
+      ],
+      "1485630": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "そなえ"
         }
       ]
     }
@@ -508,8 +570,7 @@
     "vocabIds": [
       "1212200",
       "1472880",
-      "1294330",
-      "1581610"
+      "1294330"
     ],
     "matches": {
       "1212200": [
@@ -531,13 +592,6 @@
           "start": 2,
           "length": 2,
           "reading": "はいえん"
-        }
-      ],
-      "1581610": [
-        {
-          "start": 0,
-          "length": 1,
-          "reading": "つま"
         }
       ]
     }

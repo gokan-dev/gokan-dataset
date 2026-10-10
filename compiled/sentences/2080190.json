@@ -33,7 +33,54 @@
         {
           "start": 3,
           "length": 3,
-          "reading": "いちにんぶん"
+          "reading": "ひとりぶん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "194554",
+    "original": "もう１人分の空きはありますか。",
+    "en": [
+      {
+        "id": "31727",
+        "text": "Is there any space for one more person?"
+      },
+      {
+        "id": "1447897",
+        "text": "Is there space for one more person?"
+      },
+      {
+        "id": "1447905",
+        "text": "Is there space for another person?"
+      },
+      {
+        "id": "12429233",
+        "text": "Is there room for one more person?"
+      },
+      {
+        "id": "12429234",
+        "text": "Is there room for another person?"
+      }
+    ],
+    "indices": "もう 一人分{１人分}~ の 空き[01] は 有る{あります} か",
+    "vocabIds": [
+      "2080190",
+      "1609010"
+    ],
+    "matches": {
+      "1609010": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "あき"
+        }
+      ],
+      "2080190": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "ひとりぶん"
         }
       ]
     }

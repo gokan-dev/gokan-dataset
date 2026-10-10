@@ -22,7 +22,8 @@ import {
 import { readWallerDecks, readWallerIdList, resolveJlptLevels, type JlptCorrections, type JmdictWordLike } from './jlpt-levels';
 import { inheritJlptLevels } from './jlpt-derived';
 import { BUILD_LIMITS } from './build-constants';
-import { disambiguateByReading, type ReadingVocab } from '../src/utils/readingDisambiguation';
+import { disambiguateByReading, inflects, particleSpelledIds, resolveSentenceMatch, type ReadingVocab } from '../src/utils/readingDisambiguation';
+import { annotationFor, curatedReading, occurrenceReading, parseIndices, type ReadingSource } from '../src/utils/sentenceReading';
 
 // --- Configuration ---
 const INPUT_JMDICT_FILE = './data/raw/jmdict.json';
@@ -441,6 +442,8 @@ async function main() {
 
     // Sort vocab keys by length descending for greedy match
     const sortedVocabKeys = Array.from(writtenToVocabId.keys()).sort((a, b) => b.length - a.length);
+    // Words spelled as another word plus a particle (誰が): see resolveSentenceMatch, rule 6.
+    const particleSpelled = particleSpelledIds(mergedCandidateVocab.values());
 
     // Map: vocabId -> Use Count
     const vocabUsageCount = new Map<string, number>();
@@ -487,6 +490,7 @@ async function main() {
     }
 
     // Tokenize
+    const matchStats = sentenceMatchStats();
     let processedSentences = 0;
     const reportInterval = 5000;
     const vocabSet = new Set(writtenToVocabId.keys());
@@ -508,10 +512,31 @@ async function main() {
             }
         }
 
-        flatMatches.sort((a, b) => b.match.length - a.match.length || b.term.length - a.term.length);
-        const acceptedMatches: typeof flatMatches = [];
+        // Which words each span belongs to, decided BEFORE overlaps are settled, so a
+        // span that turns out to be no word (説明し matched as 説き明かし) leaves room
+        // for the shorter match that is right (説明する). See resolveSentenceMatch.
+        const indexed = parseIndices(sentence.indices);
+        const resolvedMatches = flatMatches.flatMap(({ term, match }) => {
+            const vocabIds = writtenToVocabId.get(term);
+            if (!vocabIds) return [];
+            const surface = text.slice(match.start, match.start + match.length);
+            const ids = resolveSentenceMatch(term, vocabIds, match.reading, vocabById, annotationFor(indexed, surface), particleSpelled);
+            for (const id of vocabIds) if (!ids.includes(id)) matchStats.dropped(term, id, match.reading, text);
+            return ids.length ? [{ term, match, ids }] : [];
+        });
 
-        for (const entry of flatMatches) {
+        // Whether a word is kept for being used in a sentence is decided as it always was
+        // (longest match, homographs split by reading), not by the stricter resolution
+        // above: that one chooses which sentences illustrate a word, and a word losing
+        // its last illustration must not vanish from the dataset and strand learners.
+        for (const id of legacyUsage(flatMatches, writtenToVocabId, vocabById)) {
+            vocabUsageCount.set(id, (vocabUsageCount.get(id) ?? 0) + 1);
+        }
+
+        resolvedMatches.sort((a, b) => b.match.length - a.match.length || b.term.length - a.term.length);
+        const acceptedMatches: typeof resolvedMatches = [];
+
+        for (const entry of resolvedMatches) {
             const { match } = entry;
             const isOverlapping = acceptedMatches.some(accepted => {
                 const acceptedEnd = accepted.match.start + accepted.match.length;
@@ -524,23 +549,26 @@ async function main() {
         const matches: Record<string, { start: number, length: number, reading?: string }[]> = {};
         const matchedVocabIds: string[] = [];
 
-        for (const { term, match } of acceptedMatches) {
-            const vocabIds = writtenToVocabId.get(term);
-            if (!vocabIds) continue;
-
-            // A written form shared by differently-read homographs (遊ぶ is both
-            // あそぶ and the rare すさぶ) must send each occurrence only to the entry
-            // actually read that way - the span's reading tells them apart. Without
-            // this a すさぶ entry claims a sentence about playing, so its production
-            // cloze blanks 遊んでる and grades it correct against a "grow wild" cue.
-            const resolvedIds = disambiguateByReading(vocabIds, match.reading, vocabById);
-
-            for (const vId of resolvedIds) {
+        for (const { term, match, ids } of acceptedMatches) {
+            const surface = text.slice(match.start, match.start + match.length);
+            for (const vId of ids) {
                 if (!matches[vId]) {
                     matches[vId] = [];
                     matchedVocabIds.push(vId);
                 }
-                matches[vId].push(match);
+                // The furigana this word shows here: Tatoeba's reading, else the
+                // tokenizer's when it agrees with the learned one, else the learned one.
+                const vocab = vocabById.get(vId)!;
+                const { reading, source } = occurrenceReading({
+                    term,
+                    surface,
+                    tokenizerReading: match.reading,
+                    primary: vocab.reading.primary,
+                    inflecting: inflects(vocab),
+                    curated: curatedReading(indexed, [vocab.writtenForm.kanji, ...vocab.writtenForm.alternatives], surface),
+                });
+                matchStats.reading(source, vocab, surface, match.reading, reading);
+                matches[vId].push({ start: match.start, length: match.length, ...(reading ? { reading } : {}) });
             }
         }
 
@@ -552,9 +580,6 @@ async function main() {
         sentence.matches = matches;
 
         for (const vid of matchedVocabIds) {
-            // Increment usage count for filtering
-            vocabUsageCount.set(vid, (vocabUsageCount.get(vid) ?? 0) + 1);
-
             // Store sentence for output (if vocab survives filter)
             if (!vocabSentencesMap.has(vid)) {
                 vocabSentencesMap.set(vid, []);
@@ -563,6 +588,7 @@ async function main() {
         }
     }
     console.log(`\n   - Done scanning.`);
+    matchStats.report('./compiled/sentence_matching.log');
 
     // 4. Filter Vocabulary
     console.log('✂️  Filtering vocabulary...');
@@ -863,3 +889,59 @@ main().catch(err => {
     console.error(err);
     process.exit(1);
 });
+
+/**
+ * Counts what resolveSentenceMatch dropped and where each furigana came from, with
+ * samples, into compiled/sentence_matching.log (not committed) for review.
+ */
+function sentenceMatchStats() {
+    const dropped = new Map<string, { count: number; sample: string }>();
+    const sources: Record<ReadingSource, number> = { tatoeba: 0, tokenizer: 0, learned: 0 };
+    const changed = new Map<string, { count: number; sample: string }>();
+    const bump = (map: Map<string, { count: number; sample: string }>, key: string, sample: string) => {
+        const row = map.get(key);
+        if (row) row.count++;
+        else map.set(key, { count: 1, sample });
+    };
+    return {
+        dropped(term: string, id: string, reading: string | undefined, text: string) {
+            bump(dropped, `${term} -> ${id} (read ${reading ?? '?'})`, text);
+        },
+        reading(source: ReadingSource, vocab: ReadingVocab, surface: string, tokenizer: string | undefined, shown: string | undefined) {
+            sources[source]++;
+            if (shown !== tokenizer) bump(changed, `${surface}: ${tokenizer ?? '-'} -> ${shown ?? '-'} [${source}, learned ${vocab.reading.primary}]`, '');
+        },
+        report(file: string) {
+            const top = (map: Map<string, { count: number; sample: string }>) =>
+                [...map].sort((a, b) => b[1].count - a[1].count).map(([k, v]) => `${v.count}\t${k}${v.sample ? '\t' + v.sample : ''}`);
+            const droppedTotal = [...dropped.values()].reduce((n, v) => n + v.count, 0);
+            const changedTotal = [...changed.values()].reduce((n, v) => n + v.count, 0);
+            fs.writeFileSync(file, [
+                `furigana sources: ${JSON.stringify(sources)}; changed from the tokenizer: ${changedTotal}`,
+                `candidates dropped: ${droppedTotal}`,
+                '', '## dropped', ...top(dropped), '', '## furigana changed', ...top(changed),
+            ].join('\n'));
+            console.log(`   - Furigana: ${JSON.stringify(sources)}, ${changedTotal} changed from the tokenizer; ${droppedTotal} wrong word candidates dropped (see ${file}).`);
+        },
+    };
+}
+
+/** The vocab ids a sentence counted as using before resolveSentenceMatch: the build's inclusion rule. */
+function legacyUsage(
+    flatMatches: { term: string; match: { start: number; length: number; reading?: string } }[],
+    writtenToVocabId: Map<string, string[]>,
+    vocabById: Map<string, ReadingVocab>,
+): Set<string> {
+    const sorted = [...flatMatches].sort((a, b) => b.match.length - a.match.length || b.term.length - a.term.length);
+    const accepted: typeof sorted = [];
+    for (const entry of sorted) {
+        const end = entry.match.start + entry.match.length;
+        if (!accepted.some(a => entry.match.start < a.match.start + a.match.length && end > a.match.start)) accepted.push(entry);
+    }
+    const used = new Set<string>();
+    for (const { term, match } of accepted) {
+        const ids = writtenToVocabId.get(term);
+        if (ids) for (const id of disambiguateByReading(ids, match.reading, vocabById)) used.add(id);
+    }
+    return used;
+}

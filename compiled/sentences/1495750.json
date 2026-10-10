@@ -16,7 +16,6 @@
       "1495750",
       "1587300",
       "1294330",
-      "1581610",
       "1158500"
     ],
     "matches": {
@@ -60,13 +59,6 @@
           "start": 10,
           "length": 2,
           "reading": "りょうり"
-        }
-      ],
-      "1581610": [
-        {
-          "start": 8,
-          "length": 1,
-          "reading": "つま"
         }
       ],
       "1587300": [
@@ -276,14 +268,65 @@
         {
           "start": 17,
           "length": 2,
-          "reading": "わたしども"
+          "reading": "わたくしども"
         }
       ],
       "2738190": [
         {
           "start": 2,
           "length": 3,
-          "reading": "にににち"
+          "reading": "にじゅうににち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "235802",
+    "original": "１月７日付けのお手紙、ありがとうございました。",
+    "en": [
+      {
+        "id": "73182",
+        "text": "Thank you very much for your letter of January 7th."
+      },
+      {
+        "id": "12455231",
+        "text": "Thank you for your letter dated January 7th."
+      }
+    ],
+    "indices": "一月(いちがつ){１月} 七日[01]{７日}~ 付け(づけ)~ の 御(お){お} 手紙 有難うございます{ありがとうございました}",
+    "vocabIds": [
+      "1162120",
+      "1579630",
+      "1495750",
+      "1327720"
+    ],
+    "matches": {
+      "1162120": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いちがつ"
+        }
+      ],
+      "1327720": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "てがみ"
+        }
+      ],
+      "1495750": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "づけ"
+        }
+      ],
+      "1579630": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "なのか"
         }
       ]
     }
@@ -343,7 +386,7 @@
         {
           "start": 15,
           "length": 2,
-          "reading": "づけ"
+          "reading": "つけ"
         }
       ]
     }

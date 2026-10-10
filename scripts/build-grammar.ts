@@ -8,6 +8,7 @@ import type { MarkerInflector } from './grammar-pattern-matcher';
 import { classify, conjugate, FORM_LABELS } from '../src/utils/conjugator';
 import type { ConjugationForm } from '../src/utils/conjugator';
 import { SentenceTokenizer } from '../src/utils/tokenizer';
+import { occurrenceReading } from '../src/utils/sentenceReading';
 
 /**
  * Compiles the vendored hanabira.org-japanese-content grammar snapshot
@@ -847,8 +848,14 @@ export function buildExampleWords(
             if (st.start >= m.start && st.end <= m.start + m.length) fineToMerged.set(fineIndex, mergedIndex);
         });
 
+        // The learned reading unless the tokenizer's agrees with it (see occurrenceReading):
+        // a compound it builds from several tokens glues their readings together (一週間
+        // as いちしゅうかん). A span written differently from its term is conjugated.
+        const reading = resolved
+            ? occurrenceReading({ term: m.term, surface, tokenizerReading: m.reading, primary: resolved.r, inflecting: m.term !== surface }).reading
+            : undefined;
         words.push(resolved
-            ? { surface, vocabId: resolved.id, reading: m.reading ?? resolved.r, baseForm }
+            ? { surface, vocabId: resolved.id, reading: reading ?? resolved.r, baseForm }
             : { surface, vocabId: null, baseForm });
 
         cursor = m.start + m.length;

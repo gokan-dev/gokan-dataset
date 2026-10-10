@@ -1,121 +1,5 @@
 [
   {
-    "id": "79088",
-    "original": "夕食は何時ごろですか。",
-    "en": [
-      {
-        "id": "324628",
-        "text": "What time will dinner be served?"
-      }
-    ],
-    "indices": "夕食 は 何時(なんじ) 頃(ころ){ごろ} ですか",
-    "vocabIds": [
-      "1188960",
-      "1542730"
-    ],
-    "matches": {
-      "1188960": [
-        {
-          "start": 3,
-          "length": 4,
-          "reading": "なんじごろ"
-        }
-      ],
-      "1542730": [
-        {
-          "start": 0,
-          "length": 2,
-          "reading": "ゆうしょく"
-        }
-      ]
-    }
-  },
-  {
-    "id": "174382",
-    "original": "午後何時ごろうかがいましょうか。",
-    "en": [
-      {
-        "id": "240088",
-        "text": "When shall I call on you this afternoon?"
-      }
-    ],
-    "indices": "午後 何時(なんじ) 頃(ころ){ごろ} 伺う[01]{うかがい} ましょうか",
-    "vocabIds": [
-      "1188960",
-      "1268990"
-    ],
-    "matches": {
-      "1188960": [
-        {
-          "start": 2,
-          "length": 4,
-          "reading": "なんじごろ"
-        }
-      ],
-      "1268990": [
-        {
-          "start": 0,
-          "length": 2,
-          "reading": "ごご"
-        }
-      ]
-    }
-  },
-  {
-    "id": "177923",
-    "original": "いつも何時頃に寝るの？",
-    "en": [
-      {
-        "id": "16775",
-        "text": "What time do you usually go to bed?"
-      }
-    ],
-    "indices": "何時も{いつも} 何時(なんじ) 頃(ころ) に 寝る[02] の",
-    "vocabIds": [
-      "1188960",
-      "1360010"
-    ],
-    "matches": {
-      "1188960": [
-        {
-          "start": 3,
-          "length": 3,
-          "reading": "なんじごろ"
-        }
-      ],
-      "1360010": [
-        {
-          "start": 7,
-          "length": 2,
-          "reading": "ねる"
-        }
-      ]
-    }
-  },
-  {
-    "id": "187461",
-    "original": "何時ごろ？",
-    "en": [
-      {
-        "id": "24599",
-        "text": "About what time?"
-      }
-    ],
-    "indices": "何時(なんじ) 頃(ころ){ごろ}",
-    "vocabIds": [
-      "1188960"
-    ],
-    "matches": {
-      "1188960": [
-        {
-          "start": 0,
-          "length": 4,
-          "reading": "なんじごろ"
-        }
-      ]
-    }
-  },
-  {
     "id": "203071",
     "original": "ダンスフロアは、何時頃混んできますか。",
     "en": [
@@ -134,7 +18,7 @@
         {
           "start": 8,
           "length": 3,
-          "reading": "なんじごろ"
+          "reading": "いつごろ"
         }
       ],
       "2849867": [
@@ -166,7 +50,7 @@
         {
           "start": 5,
           "length": 3,
-          "reading": "いつころ"
+          "reading": "いつごろ"
         }
       ],
       "1305130": [
@@ -203,7 +87,7 @@
         {
           "start": 6,
           "length": 3,
-          "reading": "いつころ"
+          "reading": "いつごろ"
         }
       ]
     }
@@ -231,7 +115,7 @@
         {
           "start": 0,
           "length": 3,
-          "reading": "いつころ"
+          "reading": "いつごろ"
         }
       ],
       "1559900": [
@@ -262,7 +146,7 @@
         {
           "start": 0,
           "length": 3,
-          "reading": "いつころ"
+          "reading": "いつごろ"
         }
       ],
       "1422970": [
@@ -301,7 +185,7 @@
         {
           "start": 0,
           "length": 3,
-          "reading": "いつころ"
+          "reading": "いつごろ"
         }
       ],
       "1535860": [
@@ -382,7 +266,7 @@
         {
           "start": 5,
           "length": 3,
-          "reading": "いつころ"
+          "reading": "いつごろ"
         }
       ],
       "1261310": [
@@ -423,74 +307,6 @@
     }
   },
   {
-    "id": "1697359",
-    "original": "何時ごろ犬の散歩をするんですか？",
-    "en": [
-      {
-        "id": "1697017",
-        "text": "What time do you walk the dog?"
-      }
-    ],
-    "vocabIds": [
-      "1188960",
-      "1303620",
-      "1258330"
-    ],
-    "matches": {
-      "1188960": [
-        {
-          "start": 0,
-          "length": 4,
-          "reading": "なんじごろ"
-        }
-      ],
-      "1258330": [
-        {
-          "start": 4,
-          "length": 1,
-          "reading": "いぬ"
-        }
-      ],
-      "1303620": [
-        {
-          "start": 6,
-          "length": 2,
-          "reading": "さんぽ"
-        }
-      ]
-    }
-  },
-  {
-    "id": "1697804",
-    "original": "テレビは何時ごろ見ますか？",
-    "en": [
-      {
-        "id": "1696966",
-        "text": "What time do you watch TV?"
-      }
-    ],
-    "vocabIds": [
-      "1188960",
-      "1259290"
-    ],
-    "matches": {
-      "1188960": [
-        {
-          "start": 4,
-          "length": 4,
-          "reading": "なんじごろ"
-        }
-      ],
-      "1259290": [
-        {
-          "start": 8,
-          "length": 3,
-          "reading": "みます"
-        }
-      ]
-    }
-  },
-  {
     "id": "2290105",
     "original": "何時ごろ出かけるの？",
     "en": [
@@ -521,7 +337,7 @@
         {
           "start": 0,
           "length": 4,
-          "reading": "なんじごろ"
+          "reading": "いつごろ"
         }
       ],
       "1598550": [
@@ -529,142 +345,6 @@
           "start": 4,
           "length": 4,
           "reading": "でかける"
-        }
-      ]
-    }
-  },
-  {
-    "id": "3059415",
-    "original": "着くの何時ごろになりそう？",
-    "en": [
-      {
-        "id": "3059420",
-        "text": "What time do you think you'll likely arrive?"
-      }
-    ],
-    "vocabIds": [
-      "1188960",
-      "1422970"
-    ],
-    "matches": {
-      "1188960": [
-        {
-          "start": 3,
-          "length": 4,
-          "reading": "なんじごろ"
-        }
-      ],
-      "1422970": [
-        {
-          "start": 0,
-          "length": 2,
-          "reading": "つく"
-        }
-      ]
-    }
-  },
-  {
-    "id": "3070028",
-    "original": "電車だと、横浜へは何時頃に着きますか？",
-    "en": [
-      {
-        "id": "2167910",
-        "text": "What time will the train arrive in Yokohama?"
-      }
-    ],
-    "vocabIds": [
-      "1422970",
-      "1188960",
-      "1443530",
-      "2164610"
-    ],
-    "matches": {
-      "1188960": [
-        {
-          "start": 9,
-          "length": 3,
-          "reading": "なんじごろ"
-        }
-      ],
-      "1422970": [
-        {
-          "start": 13,
-          "length": 4,
-          "reading": "つきます"
-        }
-      ],
-      "1443530": [
-        {
-          "start": 0,
-          "length": 2,
-          "reading": "でんしゃ"
-        }
-      ],
-      "2164610": [
-        {
-          "start": 5,
-          "length": 2,
-          "reading": "よこはま"
-        }
-      ]
-    }
-  },
-  {
-    "id": "8218562",
-    "original": "あなたはいつも何時ごろに昼寝をしますか？",
-    "en": [
-      {
-        "id": "8215769",
-        "text": "What time do you usually take your afternoon nap?"
-      }
-    ],
-    "vocabIds": [
-      "1188960",
-      "1426370"
-    ],
-    "matches": {
-      "1188960": [
-        {
-          "start": 7,
-          "length": 4,
-          "reading": "なんじごろ"
-        }
-      ],
-      "1426370": [
-        {
-          "start": 12,
-          "length": 2,
-          "reading": "ひるね"
-        }
-      ]
-    }
-  },
-  {
-    "id": "1751944",
-    "original": "何時ごろ来たの？",
-    "en": [
-      {
-        "id": "1900777",
-        "text": "When did you come?"
-      }
-    ],
-    "vocabIds": [
-      "1188960",
-      "1547720"
-    ],
-    "matches": {
-      "1188960": [
-        {
-          "start": 0,
-          "length": 4,
-          "reading": "なんじごろ"
-        }
-      ],
-      "1547720": [
-        {
-          "start": 4,
-          "length": 2,
-          "reading": "きた"
         }
       ]
     }
@@ -687,7 +367,7 @@
         {
           "start": 13,
           "length": 3,
-          "reading": "いつころ"
+          "reading": "いつごろ"
         }
       ],
       "1282440": [
@@ -718,7 +398,7 @@
         {
           "start": 5,
           "length": 3,
-          "reading": "いつころ"
+          "reading": "いつごろ"
         }
       ],
       "1357250": [
@@ -749,24 +429,16 @@
     "vocabIds": [
       "1361490",
       "1188960",
-      "1000420",
-      "2845746",
       "1348430",
-      "1477210"
+      "1477210",
+      "1483070"
     ],
     "matches": {
-      "1000420": [
-        {
-          "start": 0,
-          "length": 2,
-          "reading": "かれの"
-        }
-      ],
       "1188960": [
         {
           "start": 11,
           "length": 3,
-          "reading": "いつころ"
+          "reading": "いつごろ"
         }
       ],
       "1348430": [
@@ -790,11 +462,11 @@
           "reading": "はっかん"
         }
       ],
-      "2845746": [
+      "1483070": [
         {
           "start": 0,
-          "length": 2,
-          "reading": "かれの"
+          "length": 1,
+          "reading": "かれ"
         }
       ]
     }
@@ -817,14 +489,14 @@
         {
           "start": 12,
           "length": 3,
-          "reading": "いつころ"
+          "reading": "いつごろ"
         }
       ],
       "1582710": [
         {
           "start": 0,
           "length": 2,
-          "reading": "にっぽん"
+          "reading": "にほん"
         }
       ]
     }
@@ -871,7 +543,7 @@
         {
           "start": 13,
           "length": 3,
-          "reading": "いつころ"
+          "reading": "いつごろ"
         }
       ],
       "1333070": [
@@ -903,7 +575,7 @@
         {
           "start": 11,
           "length": 3,
-          "reading": "いつころ"
+          "reading": "いつごろ"
         }
       ],
       "1308305": [
@@ -990,7 +662,7 @@
         {
           "start": 4,
           "length": 3,
-          "reading": "いつころ"
+          "reading": "いつごろ"
         }
       ],
       "1342530": [
@@ -1027,7 +699,7 @@
         {
           "start": 0,
           "length": 3,
-          "reading": "いつころ"
+          "reading": "いつごろ"
         }
       ],
       "1553170": [
@@ -1035,64 +707,6 @@
           "start": 6,
           "length": 2,
           "reading": "りょこう"
-        }
-      ]
-    }
-  },
-  {
-    "id": "1751953",
-    "original": "何時ごろ帰るの？",
-    "en": [
-      {
-        "id": "2892632",
-        "text": "What time will you be home?"
-      },
-      {
-        "id": "10685559",
-        "text": "What time are you coming home?"
-      },
-      {
-        "id": "2923186",
-        "text": "What time will you be back home?"
-      },
-      {
-        "id": "398929",
-        "text": "When are you going home?"
-      },
-      {
-        "id": "10685560",
-        "text": "When will you be going home?"
-      },
-      {
-        "id": "6663056",
-        "text": "What time will you be going home?"
-      },
-      {
-        "id": "10685561",
-        "text": "What time are you going home?"
-      },
-      {
-        "id": "10685562",
-        "text": "What time are you going to go home?"
-      }
-    ],
-    "vocabIds": [
-      "1188960",
-      "1221270"
-    ],
-    "matches": {
-      "1188960": [
-        {
-          "start": 0,
-          "length": 4,
-          "reading": "なんじごろ"
-        }
-      ],
-      "1221270": [
-        {
-          "start": 4,
-          "length": 2,
-          "reading": "かえる"
         }
       ]
     }
@@ -1115,7 +729,7 @@
         {
           "start": 5,
           "length": 3,
-          "reading": "いつころ"
+          "reading": "いつごろ"
         }
       ],
       "1587300": [
@@ -1145,7 +759,7 @@
         {
           "start": 4,
           "length": 3,
-          "reading": "いつころ"
+          "reading": "いつごろ"
         }
       ],
       "1221430": [

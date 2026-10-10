@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { readingFitsVocab, disambiguateByReading, type ReadingVocab } from './readingDisambiguation';
+import { readingFitsVocab, disambiguateByReading, particleSpelledIds, resolveSentenceMatch, type ReadingVocab } from './readingDisambiguation';
 
 function vocab(
     id: string,
@@ -94,5 +94,71 @@ describe('disambiguateByReading', () => {
 
     it('does not disambiguate when there is no reading', () => {
         expect(disambiguateByReading([asobu.id, susabu.id], undefined, vocabById)).toEqual([asobu.id, susabu.id]);
+    });
+});
+
+describe('resolveSentenceMatch', () => {
+    const map = (...vs: ReadingVocab[]) => new Map(vs.map(v => [v.id, v]));
+
+    it('gives a written form to the word it is the headword of', () => {
+        // 妻 "wife" and 端/つま "edge" (also written 妻) both read つま.
+        const wife = vocab('wife', '妻', [], 'つま');
+        const edge = vocab('edge', '端', ['妻'], 'つま');
+        expect(resolveSentenceMatch('妻', ['wife', 'edge'], 'つま', map(wife, edge))).toEqual(['wife']);
+        // The other spelling still matches when nothing heads it.
+        expect(resolveSentenceMatch('妻', ['edge'], 'つま', map(edge))).toEqual(['edge']);
+    });
+
+    it('drops a match through another spelling when the reading disagrees', () => {
+        // 外に read そとに is not 他に (ほかに).
+        const hokani = vocab('hokani', '他に', ['外に'], 'ほかに', ['adv']);
+        expect(resolveSentenceMatch('外に', ['hokani'], 'そとに', map(hokani))).toEqual([]);
+        expect(resolveSentenceMatch('外に', ['hokani'], 'ほかに', map(hokani))).toEqual(['hokani']);
+        // Unless Tatoeba lists the word there: 一戸建 misread いちこけん is 一戸建て.
+        const house = vocab('house', '一戸建て', ['一戸建'], 'いっこだて');
+        expect(resolveSentenceMatch('一戸建', ['house'], 'いちこけん', map(house), { lists: () => true, contradicts: () => false })).toEqual(['house']);
+    });
+
+    it('follows the exact JMdict entry Tatoeba names, merged homographs included', () => {
+        const wife = vocab('1294330', '妻', [], 'つま');
+        const edge = vocab('2746070', '端', ['妻'], 'つま');
+        const pinned = { entryId: '1294330', lists: () => true, contradicts: () => false };
+        expect(resolveSentenceMatch('妻', ['1294330', '2746070'], 'つま', map(wife, edge), pinned)).toEqual(['1294330']);
+        const merged = { ...vocab('base', '開く', ['空く'], 'ひらく'), mergedVocabs: [{ id: 'base' }, { id: 'aku' }] };
+        expect(resolveSentenceMatch('空く', ['base'], 'あいて', map(merged), { entryId: 'aku', lists: () => true, contradicts: () => false })).toEqual(['base']);
+        expect(resolveSentenceMatch('空く', ['base'], 'あいて', map(merged), { entryId: 'other', lists: () => true, contradicts: () => false })).toEqual([]);
+    });
+
+    it('drops a word read otherwise only when the sentence annotation contradicts it', () => {
+        const taga = vocab('taga', '誰が', [], 'たが');
+        expect(resolveSentenceMatch('誰が', ['taga'], 'だれが', map(taga), { lists: () => false, contradicts: () => true })).toEqual([]);
+        // A misread compound with no contradicting annotation keeps its match.
+        const days = vocab('days', '数日間', [], 'すうじつかん');
+        expect(resolveSentenceMatch('数日間', ['days'], 'すうにちかん', map(days), { lists: () => false, contradicts: () => false })).toEqual(['days']);
+        expect(resolveSentenceMatch('数日間', ['days'], 'すうにちかん', map(days))).toEqual(['days']);
+    });
+
+    it('still tells homographs apart by reading first', () => {
+        expect(resolveSentenceMatch('遊ぶ', [asobu.id, susabu.id], 'あそんでる', map(asobu, susabu))).toEqual([asobu.id]);
+    });
+});
+
+describe('particleSpelledIds / words spelled as another word plus a particle', () => {
+    const map = (...vs: ReadingVocab[]) => new Map(vs.map(v => [v.id, v]));
+    const dare = vocab('dare', '誰', [], 'だれ');
+    const taga = vocab('taga', '誰が', [], 'たが');
+    const toki = vocab('toki', '時', [], 'とき');
+    const tokini = vocab('tokini', '時に', [], 'ときに', ['adv']);
+    const motto = vocab('motto', '最も', [], 'もっとも', ['adv']);
+    const sai = vocab('sai', '最', [], 'さい');
+
+    it('finds words not read as their parts', () => {
+        expect([...particleSpelledIds([dare, taga, toki, tokini, motto, sai])].sort()).toEqual(['motto', 'taga']);
+    });
+
+    it('drops such a word when misread, and keeps it when read as itself', () => {
+        const parts = particleSpelledIds([dare, taga, motto, sai]);
+        expect(resolveSentenceMatch('誰が', ['taga'], 'だれが', map(taga), undefined, parts)).toEqual([]);
+        expect(resolveSentenceMatch('最も', ['motto'], 'もっとも', map(motto), undefined, parts)).toEqual(['motto']);
     });
 });

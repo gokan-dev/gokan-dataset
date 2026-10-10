@@ -44,7 +44,7 @@
         {
           "start": 19,
           "length": 1,
-          "reading": "なに"
+          "reading": "なん"
         }
       ],
       "1587040": [
@@ -215,7 +215,7 @@
         {
           "start": 25,
           "length": 1,
-          "reading": "なに"
+          "reading": "なん"
         }
       ],
       "2019640": [
@@ -480,7 +480,7 @@
         {
           "start": 9,
           "length": 2,
-          "reading": "いちはい"
+          "reading": "いっぱい"
         }
       ],
       "1280770": [
@@ -659,7 +659,7 @@
         {
           "start": 0,
           "length": 1,
-          "reading": "なん"
+          "reading": "なに"
         }
       ],
       "2019640": [
@@ -871,6 +871,104 @@
     }
   },
   {
+    "id": "995162",
+    "original": "コーヒーを１杯いかがですか？",
+    "en": [
+      {
+        "id": "138867",
+        "text": "Do you want a cup of coffee?"
+      }
+    ],
+    "vocabIds": [
+      "1160790",
+      "2019640"
+    ],
+    "matches": {
+      "1160790": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "いち"
+        }
+      ],
+      "2019640": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "はい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "995163",
+    "original": "ちょっとコーヒーでも１杯どう？",
+    "en": [
+      {
+        "id": "138867",
+        "text": "Do you want a cup of coffee?"
+      }
+    ],
+    "vocabIds": [
+      "1160790",
+      "2019640"
+    ],
+    "matches": {
+      "1160790": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "いち"
+        }
+      ],
+      "2019640": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "はい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1153141",
+    "original": "コーヒー１杯で頭がすっきりしたよ。",
+    "en": [
+      {
+        "id": "27373",
+        "text": "A cup of coffee cleared my head."
+      }
+    ],
+    "vocabIds": [
+      "1160790",
+      "2019640",
+      "1582310"
+    ],
+    "matches": {
+      "1160790": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "いち"
+        }
+      ],
+      "1582310": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "あたま"
+        }
+      ],
+      "2019640": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "はい"
+        }
+      ]
+    }
+  },
+  {
     "id": "1220345",
     "original": "トムは毎朝コーヒーを少なくとも三杯飲みます。",
     "en": [
@@ -948,6 +1046,98 @@
       "2019640": [
         {
           "start": 3,
+          "length": 1,
+          "reading": "はい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2512185",
+    "original": "私たちは普段はパン１枚とコーヒー１杯です。",
+    "en": [
+      {
+        "id": "249092",
+        "text": "We usually have a slice of bread and a cup of coffee."
+      }
+    ],
+    "vocabIds": [
+      "1311300",
+      "1497180",
+      "1166710",
+      "1160790",
+      "2019640"
+    ],
+    "matches": {
+      "1160790": [
+        {
+          "start": 16,
+          "length": 1,
+          "reading": "いち"
+        }
+      ],
+      "1166710": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "いちまい"
+        }
+      ],
+      "1311300": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1497180": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ふだん"
+        }
+      ],
+      "2019640": [
+        {
+          "start": 17,
+          "length": 1,
+          "reading": "はい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2935905",
+    "original": "トムはコーヒーを１杯飲んだ。",
+    "en": [
+      {
+        "id": "1025888",
+        "text": "Tom drank a cup of coffee."
+      }
+    ],
+    "vocabIds": [
+      "1169870",
+      "1160790",
+      "2019640"
+    ],
+    "matches": {
+      "1160790": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "いち"
+        }
+      ],
+      "1169870": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "のんだ"
+        }
+      ],
+      "2019640": [
+        {
+          "start": 9,
           "length": 1,
           "reading": "はい"
         }
@@ -1058,6 +1248,44 @@
       "2019640": [
         {
           "start": 12,
+          "length": 1,
+          "reading": "はい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8916467",
+    "original": "トムはワインを１杯飲んだ。",
+    "en": [
+      {
+        "id": "1868338",
+        "text": "Tom drank a glass of wine."
+      }
+    ],
+    "vocabIds": [
+      "1169870",
+      "1160790",
+      "2019640"
+    ],
+    "matches": {
+      "1160790": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "いち"
+        }
+      ],
+      "1169870": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "のんだ"
+        }
+      ],
+      "2019640": [
+        {
+          "start": 8,
           "length": 1,
           "reading": "はい"
         }
@@ -1339,7 +1567,7 @@
         {
           "start": 9,
           "length": 1,
-          "reading": "すう"
+          "reading": "かず"
         }
       ],
       "1587290": [
@@ -1625,7 +1853,7 @@
         {
           "start": 7,
           "length": 1,
-          "reading": "なん"
+          "reading": "なに"
         }
       ],
       "1583870": [
@@ -1683,7 +1911,7 @@
         {
           "start": 6,
           "length": 1,
-          "reading": "なん"
+          "reading": "なに"
         }
       ],
       "1583870": [
@@ -1736,7 +1964,7 @@
         {
           "start": 3,
           "length": 1,
-          "reading": "なん"
+          "reading": "なに"
         }
       ],
       "2019640": [
@@ -2065,6 +2293,52 @@
     }
   },
   {
+    "id": "10493086",
+    "original": "パプリカを小さじ１杯、入れて。",
+    "en": [
+      {
+        "id": "2337359",
+        "text": "Add one teaspoon of paprika."
+      }
+    ],
+    "vocabIds": [
+      "1348140",
+      "1465610",
+      "1160790",
+      "2019640"
+    ],
+    "matches": {
+      "1160790": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "いち"
+        }
+      ],
+      "1348140": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "こさじ"
+        }
+      ],
+      "1465610": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "いれて"
+        }
+      ],
+      "2019640": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "はい"
+        }
+      ]
+    }
+  },
+  {
     "id": "10550478",
     "original": "今朝、コーヒーを３杯も飲んじゃった。",
     "en": [
@@ -2131,7 +2405,7 @@
         {
           "start": 12,
           "length": 2,
-          "reading": "いちはい"
+          "reading": "いっぱい"
         }
       ],
       "1169870": [
@@ -2168,6 +2442,106 @@
       "2019640": [
         {
           "start": 36,
+          "length": 1,
+          "reading": "はい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10546952",
+    "original": "１杯のコーヒーで、頭がクリアになる。",
+    "en": [
+      {
+        "id": "10630773",
+        "text": "With a cup of coffee your head becomes clear."
+      },
+      {
+        "id": "10631815",
+        "text": "One cup of coffee and your head will clear up."
+      }
+    ],
+    "vocabIds": [
+      "1160790",
+      "2019640",
+      "1582310"
+    ],
+    "matches": {
+      "1160790": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "いち"
+        }
+      ],
+      "1582310": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "あたま"
+        }
+      ],
+      "2019640": [
+        {
+          "start": 1,
+          "length": 1,
+          "reading": "はい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10758437",
+    "original": "当時はコーヒーが１杯２００円だったよ。",
+    "en": [
+      {
+        "id": "68694",
+        "text": "A cup of coffee cost 200 yen in those days."
+      },
+      {
+        "id": "7837560",
+        "text": "In those days, a cup of coffee cost 200 yen."
+      }
+    ],
+    "vocabIds": [
+      "1449090",
+      "1160790",
+      "2019640",
+      "1461140",
+      "1175570"
+    ],
+    "matches": {
+      "1160790": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "いち"
+        }
+      ],
+      "1175570": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "えん"
+        }
+      ],
+      "1449090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とうじ"
+        }
+      ],
+      "1461140": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "に"
+        }
+      ],
+      "2019640": [
+        {
+          "start": 9,
           "length": 1,
           "reading": "はい"
         }
@@ -2232,6 +2606,44 @@
           "start": 21,
           "length": 1,
           "reading": "はい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11058265",
+    "original": "お水を１杯いただけますか？",
+    "en": [
+      {
+        "id": "5146867",
+        "text": "Could I please have a glass of water?"
+      }
+    ],
+    "vocabIds": [
+      "2083290",
+      "1160790",
+      "2019640"
+    ],
+    "matches": {
+      "1160790": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "いち"
+        }
+      ],
+      "2019640": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "はい"
+        }
+      ],
+      "2083290": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おみず"
         }
       ]
     }
@@ -2462,14 +2874,14 @@
         {
           "start": 6,
           "length": 1,
-          "reading": "にち"
+          "reading": "ひ"
         }
       ],
       "1577100": [
         {
           "start": 8,
           "length": 1,
-          "reading": "なん"
+          "reading": "なに"
         }
       ],
       "2019640": [
