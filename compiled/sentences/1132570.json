@@ -1,0 +1,65 @@
+[
+  {
+    "id": "169785",
+    "original": "昨年は雨が多く米は不作だった。",
+    "en": [
+      {
+        "id": "244701",
+        "text": "We had a bad rice crop last year because it rained a lot."
+      }
+    ],
+    "indices": "昨年 は 雨 が 多い{多く} 米(こめ)[01] は 不作 だ{だった}",
+    "vocabIds": [
+      "1298230",
+      "1861770",
+      "1492500",
+      "1171900",
+      "1132570",
+      "1508750"
+    ],
+    "matches": {
+      "1132570": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "まい"
+        }
+      ],
+      "1171900": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "あめ"
+        }
+      ],
+      "1298230": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "さくねん"
+        }
+      ],
+      "1492500": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "ふさく"
+        }
+      ],
+      "1508750": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "まい"
+        }
+      ],
+      "1861770": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "おおく"
+        }
+      ]
+    }
+  }
+]

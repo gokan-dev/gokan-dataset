@@ -9,10 +9,7 @@
   },
   "reading": {
     "primary": "りゅう",
-    "alternatives": [
-      "ルーブル",
-      "ルーブリ"
-    ]
+    "alternatives": []
   },
   "frequency": {
     "kanjiRank": 20577
@@ -39,55 +36,14 @@
       "related": {
         "compounds": []
       }
-    },
-    {
-      "pos": [
-        "n"
-      ],
-      "misc": {
-        "isAbbreviation": false,
-        "isSuffix": false,
-        "isPrefix": false,
-        "isArchaic": false,
-        "isRare": false,
-        "rawTags": [
-          "uk"
-        ]
-      },
-      "glosses": [
-        "ruble (Russian currency)",
-        "rouble"
-      ],
-      "related": {
-        "compounds": []
-      },
-      "appliesToReadings": [
-        "ルーブル"
-      ]
     }
   ],
   "usageHints": {
     "requiresContext": false
   },
   "isCommon": false,
-  "mergedVocabs": [
-    {
-      "id": "2844190",
-      "isBase": true,
-      "originalPrimaryReading": "りゅう",
-      "originalGlosses": [
-        "stationary point"
-      ]
-    },
-    {
-      "id": "2844189",
-      "isBase": false,
-      "originalPrimaryReading": "ルーブル",
-      "originalGlosses": [
-        "ruble (Russian currency)",
-        "rouble"
-      ]
-    }
+  "components": [
+    "2844189"
   ],
   "parents": [
     "1552760",
@@ -96,6 +52,7 @@
     "1514030",
     "1639570",
     "1552750",
+    "2844189",
     "1304740",
     "1612260",
     "1552780",
