@@ -12,7 +12,7 @@ Levels come from Jonathan Waller's JLPT lists (tanos.co.uk, the data jisho.org s
 | N4 | 629 | 9 | 4 | 0 | 30 |
 | N3 | 1646 | 29 | 0 | 0 | 58 |
 | N2 | 1738 | 122 | 2 | 0 | 26 |
-| N1 | 3051 | 122 | 6 | 0 | 35 |
+| N1 | 3051 | 122 | 6 | 0 | 36 |
 
 - **Id list**: an entry of the id list, after the remaps below.
 - **Deck fill**: an entry only the decks have, matched on its exact spelling and reading.
@@ -24,11 +24,11 @@ Levels come from Jonathan Waller's JLPT lists (tanos.co.uk, the data jisho.org s
 
 | Level | Levelled entries | Covered | Words with no kanji spelling | Katakana loanwords | Merged under another reading | Not buildable |
 |---|---|---|---|---|---|---|
-| N5 | 688 | 618 (90%) | 15 | 52 | 1 | 2 |
+| N5 | 688 | 615 (89%) | 15 | 52 | 4 | 2 |
 | N4 | 642 | 590 (92%) | 15 | 36 | 0 | 1 |
-| N3 | 1675 | 1549 (92%) | 29 | 96 | 0 | 1 |
-| N2 | 1862 | 1697 (91%) | 30 | 128 | 6 | 1 |
-| N1 | 3179 | 2923 (92%) | 59 | 195 | 0 | 2 |
+| N3 | 1675 | 1539 (92%) | 29 | 96 | 9 | 2 |
+| N2 | 1862 | 1693 (91%) | 30 | 128 | 10 | 1 |
+| N1 | 3179 | 2908 (91%) | 59 | 195 | 10 | 7 |
 
 - **Words with no kanji spelling**: JMdict has no kanji spelling for these, and the dataset only builds words that have one (build-data.ts skips any entry without kanji). Including them means accepting kana-only words.
 - **Katakana loanwords**: Loanwords have no kanji spelling, so the dataset skips them for the same reason as the kana-only words above.
@@ -54,7 +54,7 @@ Levels come from Jonathan Waller's JLPT lists (tanos.co.uk, the data jisho.org s
 
 Reviewed and kept as the id list has them: あら, と, なんか, ガム, バン, ママ, ああ, いい, コップ.
 
-<details><summary>Derived levels (205)</summary>
+<details><summary>Derived levels (206)</summary>
 
 | Word | Reading | Level | Formed from |
 |---|---|---|---|
@@ -175,7 +175,6 @@ Reviewed and kept as the id list has them: あら, と, なんか, ガム, バ�
 | ご成功 | ごせいこう | N3 | 成功/せいこう |
 | ご機嫌 | ごきげん | N3 | 機嫌/きげん |
 | ご注文 | ごちゅうもん | N3 | 注文/ちゅうもん |
-| ご縁 | ごえん | N3 | 縁/ふち |
 | ご自身 | ごじしん | N3 | 自身/じしん |
 | ご苦労 | ごくろう | N3 | 苦労/くろう |
 | ご迷惑 | ごめいわく | N3 | 迷惑/めいわく |
@@ -193,6 +192,7 @@ Reviewed and kept as the id list has them: あら, と, なんか, ガム, バ�
 | 次々に | つぎつぎに | N3 | 次々/つぎつぎ |
 | 無しに | なしに | N3 | 無し/なし |
 | 無事に | ぶじに | N3 | 無事/ぶじ |
+| 直に | じきに | N3 | 直/じき |
 | 絶対に | ぜったいに | N3 | 絶対/ぜったい |
 | 親しく | したしく | N3 | 親しい/したしい |
 | 試しに | ためしに | N3 | 試し/ためし |
@@ -203,7 +203,6 @@ Reviewed and kept as the id list has them: あら, と, なんか, ガム, バ�
 | 順に | じゅんに | N3 | 順/じゅん |
 | 順番に | じゅんばんに | N3 | 順番/じゅんばん |
 | お受験 | おじゅけん | N2 | 受験/じゅけん |
-| お古 | おふる | N2 | 古/ふる |
 | お問い合わせ | おといあわせ | N2 | 問い合わせ/といあわせ |
 | お坊さん | おぼうさん | N2 | 坊さん/ぼうさん |
 | お坊ちゃん | おぼっちゃん | N2 | 坊ちゃん/ぼっちゃん |
@@ -226,10 +225,12 @@ Reviewed and kept as the id list has them: あら, と, なんか, ガム, バ�
 | 序でに | ついでに | N2 | 序で/ついで |
 | 御飾り | おかざり | N2 | 飾り/かざり |
 | 斜めに | ななめに | N2 | 斜め/ななめ |
+| 毎に | ごとに | N2 | 毎/まい |
 | 真っ先に | まっさきに | N2 | 真っ先/まっさき |
 | 順々に | じゅんじゅんに | N2 | 順々/じゅんじゅん |
 | お値打ち | おねうち | N1 | 値打ち/ねうち |
 | お勧め | おすすめ | N1 | 勧め/すすめ |
+| お古 | おふる | N1 | 古/いにしえ |
 | お嬢 | おじょう | N1 | 嬢/じょう |
 | お届け | おとどけ | N1 | 届/とどけ |
 | お情け | おなさけ | N1 | 情け/なさけ |
@@ -243,6 +244,7 @@ Reviewed and kept as the id list has them: あら, と, なんか, ガム, バ�
 | お見積もり | おみつもり | N1 | 見積もり/みつもり |
 | お見通し | おみとおし | N1 | 見通し/みとおし |
 | お詫び | おわび | N1 | 詫び/わび |
+| ご縁 | ごえん | N1 | 縁/えん |
 | ご褒美 | ごほうび | N1 | 褒美/ほうび |
 | それ故に | それゆえに | N1 | それ故/それゆえ |
 | 一心に | いっしんに | N1 | 一心/いっしん |
@@ -257,7 +259,6 @@ Reviewed and kept as the id list has them: あら, と, なんか, ガム, バ�
 | 察するに | さっするに | N1 | 察する/さっする |
 | 御膳 | ごぜん | N1 | 膳/ぜん |
 | 故に | ゆえに | N1 | 故/ゆえ |
-| 毎に | ごとに | N1 | 毎/ごと |
 | 気軽に | きがるに | N1 | 気軽/きがる |
 | 真っ二つに | まっぷたつに | N1 | 真っ二つ/まっぷたつ |
 | 自在に | じざいに | N1 | 自在/じざい |
@@ -345,11 +346,14 @@ Reviewed and kept as the id list has them: あら, と, なんか, ガム, バ�
 |  | テープレコーダー | tape recorder | 66121 |
 |  | ラジオカセット | radio-cassette; tape recorder | 179447 |
 
-### Merged under another reading (1)
+### Merged under another reading (4)
 
 | Word | Reading | Meaning | JPDB rank | Merged into |
 |---|---|---|---|---|
 | 時 | じ | hour; o'clock | 1101 | 時/とき (N3) |
+| 側 | そば | (place) near by; (place) close by; (place) right next to | 1512 | 側/がわ (N1) |
+| 開く | あく | to open (e.g. doors) | 3980 | 開く/ひらく (N4) |
+| 辛い | からい | spicy; hot | 14840 | 辛い/つらい (N3) |
 
 ### Not buildable (2)
 
@@ -568,11 +572,28 @@ Reviewed and kept as the id list has them: あら, と, なんか, ガム, バ�
 
 </details>
 
-<details><summary>Not buildable (1)</summary>
+<details><summary>Merged under another reading (9)</summary>
+
+| Word | Reading | Meaning | JPDB rank | Merged into |
+|---|---|---|---|---|
+| 値 | ね | price; cost | 19 | 値/あたい (N1) |
+| 相 | そう | aspect; appearance; look | 31 | 相/あい (N1) |
+| 様 | よう | appearing ...; looking ... | 144 | 様/さま (N1) |
+| 捲る | めくる | to turn over; to turn (pages); to leaf through (a book, etc.) | 3877 | 捲る/まくる (N1) |
+| 縁 | ふち | rim; brim; edge | 15962 | 縁/えん (N1) |
+| 実 | み | fruit; nut | 16402 | 実/じつ (N1) |
+| 灯 | ひ | light; lamp | 33203 | 灯/とう (no level) |
+| 札 | さつ | banknote; bill; note | 40591 | 札/ふだ (N1) |
+| 市場 | いちば | (town) market; (street) market; marketplace | 99276 | 市場/しじょう (N1) |
+
+</details>
+
+<details><summary>Not buildable (2)</summary>
 
 | Word | Reading | Meaning | JPDB rank |
 |---|---|---|---|
 | ＯＵＴ | アウト | out (of a ball; in tennis, etc.); outside the line | 7325 |
+| 偶 | たま | occasional; infrequent; rare | 9329 |
 
 </details>
 
@@ -750,16 +771,20 @@ Reviewed and kept as the id list has them: あら, と, なんか, ガム, バ�
 
 </details>
 
-<details><summary>Merged under another reading (6)</summary>
+<details><summary>Merged under another reading (10)</summary>
 
 | Word | Reading | Meaning | JPDB rank | Merged into |
 |---|---|---|---|---|
 | 振り | ぶり | way; manner; style | 1232 | 振り/ふり (N1) |
-| 毎 | まい | every (usu. with events, e.g. every weekend); each | 1368 | 毎/ごと (N1) |
-| 戦 | せん | war; battle | 2122 | 戦/いくさ (N1) |
-| 未 | み | not yet; un- | 10103 | 未/ひつじ (N1) |
+| 古 | ふる | used item; secondhand item | 2177 | 古/いにしえ (N1) |
+| 難い | がたい | very difficult to ...; nearly impossible to ... | 2555 | 難い/かたい (N1) |
+| 退く | どく | to step aside; to move (i.e. out of the way); to make way | 3659 | 退く/しりぞく (N1) |
+| 器 | き | device; instrument | 6202 | 器/うつわ (N1) |
 | 病 | びょう | disease | 10902 | 病/やまい (N1) |
+| 脅かす | おどかす | to threaten; to menace; to intimidate | 26252 | 脅かす/おびやかす (N1) |
 | 滴 | てき | counter for drops of liquid | 32286 | 滴/しずく (N1) |
+| 退ける | どける | to put something out of the way; to move (something, someone) aside | 35481 | 退ける/しりぞける (N1) |
+| 目下 | めした | subordinate; subordinates; inferior | 147811 | 目下/もっか (N1) |
 
 </details>
 
@@ -1041,12 +1066,34 @@ Reviewed and kept as the id list has them: あら, と, なんか, ガム, バ�
 
 </details>
 
-<details><summary>Not buildable (2)</summary>
+<details><summary>Merged under another reading (10)</summary>
+
+| Word | Reading | Meaning | JPDB rank | Merged into |
+|---|---|---|---|---|
+| 棟 | とう | large building; building with a long roof | 2664 | 棟/むね (no level) |
+| 蔵 | くら | warehouse; storehouse; cellar | 7581 | 蔵/ぞう (no level) |
+| 斑 | むら | unevenness (of colour, paint, etc.); irregularity; nonuniformity | 15477 | 斑/まだら (no level) |
+| 斑 | ぶち | spots; speckles; mottles | 15962 | 斑/まだら (no level) |
+| 疎か | おろそか | negligent; neglectful; careless | 26072 | 疎か/おろか (no level) |
+| 行 | ぎょう | line (of text); row; verse | 33017 | 行/こう (no level) |
+| 灯火 | ともしび | light; lamp; torch | 43747 | 灯火/とうか (no level) |
+| 公 | おおやけ | official; governmental; formal | 57546 | 公/こう (no level) |
+| 一目 | いちもく | look; glance; glimpse | 128221 | 一目/ひとめ (no level) |
+| 掛け | かけ | credit | 196994 | 掛け/がけ (no level) |
+
+</details>
+
+<details><summary>Not buildable (7)</summary>
 
 | Word | Reading | Meaning | JPDB rank |
 |---|---|---|---|
+| 丁々 | とうとう | with a chopping sound (of an axe); with a thump (when hammering a post into the ground) | 2465 |
 | ＯＫ | オッケー | OK; okay | 6005 |
+| 基 | もとい | basis; foundation; origin | 10511 |
+| 助 | じょ | help; rescue; assistant | 22859 |
+| 捩れる | ねじれる | to get twisted; to get crooked; to get warped | 23393 |
 | Ｇパン | ジーパン | jeans; dungarees | 41025 |
+| 出来物 | できもの | tumour; tumor; growth | 79216 |
 
 </details>
 

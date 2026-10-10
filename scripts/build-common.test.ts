@@ -1,10 +1,9 @@
 import { describe, it, expect } from 'vitest';
 import {
     applyUsuallyKanaOverrides,
+    chooseMergeBase,
     compareMergeBase,
-    sortMergeGroup,
     decideUsuallyKana,
-    isAffixOnly,
     learningIndexEntry,
     learningRank,
     mayShareHeadword,
@@ -109,46 +108,9 @@ describe('learning-order index helpers', () => {
 });
 
 describe('compareMergeBase', () => {
-    const candidate = (over: Partial<MergeCandidate>): MergeCandidate => ({ affixOnly: false, isCommon: false, spoken: 0, ownRank: null, frequency: { kanjiRank: 999999 }, ...over });
+    const candidate = (over: Partial<MergeCandidate>): MergeCandidate => ({ spoken: 0, ownRank: null, frequency: { kanjiRank: 999999 }, ...over });
 
-    it('puts a listed reading first, then a word that stands alone before an affix', () => {
-        // 時: the suffix じ ("o'clock") is listed at N5, the noun とき at N3.
-        const ji = candidate({ affixOnly: true, jlptLevel: 5, spoken: 900 });
-        const toki = candidate({ jlptLevel: 3, spoken: 300 });
-        expect([ji, toki].sort(compareMergeBase)).toEqual([toki, ji]);
-        // 達: the plural suffix たち is listed, the slang noun だち is not.
-        const tachi = candidate({ affixOnly: true, jlptLevel: 5 });
-        const dachi = candidate({ spoken: 50 });
-        expect([dachi, tachi].sort(compareMergeBase)).toEqual([tachi, dachi]);
-    });
-
-    it('demotes an affix only for a common standalone word in the group', () => {
-        // 時: とき is a common word, so the N5 suffix じ does not become the base.
-        const ji = candidate({ affixOnly: true, isCommon: true, jlptLevel: 5 });
-        const toki = candidate({ isCommon: true, jlptLevel: 3 });
-        expect(sortMergeGroup([ji, toki])).toEqual([toki, ji]);
-        // 氏: うじ "clan" (N1) is not common, so the level decides and し "Mr.; he" (N3) wins.
-        const shi = candidate({ affixOnly: true, isCommon: true, jlptLevel: 3 });
-        const uji = candidate({ jlptLevel: 1 });
-        expect(sortMergeGroup([uji, shi])).toEqual([shi, uji]);
-    });
-
-    it('puts the reading the JLPT lists put easiest first', () => {
-        // 上手: じょうず is N5, うわて N1, かみて unlisted.
-        const jouzu = candidate({ jlptLevel: 5, ownRank: 3000 });
-        const uwate = candidate({ jlptLevel: 1, ownRank: 100 });
-        const kamite = candidate({ ownRank: 50, spoken: 900 });
-        expect([kamite, uwate, jouzu].sort(compareMergeBase)).toEqual([jouzu, uwate, kamite]);
-    });
-
-    it('then the reading anime says most, over a JPDB row a homophone inflates', () => {
-        // 内: JPDB ranks 内|ない through the auxiliary ない; Jiten counts うち 1925 times.
-        const nai = candidate({ ownRank: 20, spoken: 19 });
-        const uchi = candidate({ ownRank: 4000, spoken: 1925 });
-        expect([nai, uchi].sort(compareMergeBase)).toEqual([uchi, nai]);
-    });
-
-    it('then a word ranked on its own reading before one ranked on a stand-in row', () => {
+    it('puts a word ranked on its own reading before one ranked on a stand-in row', () => {
         // 点/ちょぼ borrowed 点/てん's rank and tied with it.
         const chobo = candidate({ frequency: { kanjiRank: 829 } });
         const ten = candidate({ ownRank: 829, frequency: { kanjiRank: 829 } });
@@ -165,12 +127,34 @@ describe('compareMergeBase', () => {
     });
 });
 
-describe('isAffixOnly', () => {
-    it('is true only when every part of speech is an affix', () => {
-        expect(isAffixOnly(['suf'])).toBe(true);
-        expect(isAffixOnly(['n-suf', 'ctr'])).toBe(true);
-        expect(isAffixOnly(['suf', 'adj-na'])).toBe(false);
-        expect(isAffixOnly([])).toBe(false);
+describe('chooseMergeBase', () => {
+    const candidate = (over: Partial<MergeCandidate>): MergeCandidate => ({ spoken: 0, ownRank: null, frequency: { kanjiRank: 999999 }, ...over });
+
+    it('overrides JPDB when the lists and anime both name another reading', () => {
+        // 内: JPDB's row for ない is inflated by the auxiliary; うち is N4 and said 1925 times.
+        const nai = candidate({ ownRank: 781, jlptLevel: 2, spoken: 19 });
+        const uchi = candidate({ ownRank: 1801, jlptLevel: 4, spoken: 1925 });
+        const group = [nai, uchi];
+        expect(chooseMergeBase(group)).toBe(uchi);
+        expect(group).toEqual([uchi, nai]);
+    });
+
+    it('keeps JPDB when only one source disagrees', () => {
+        // 様: よう is N3, but anime says さま more.
+        const sama = candidate({ ownRank: 466, jlptLevel: 1, spoken: 1286 });
+        const you = candidate({ ownRank: 15701, jlptLevel: 3, spoken: 402 });
+        expect(chooseMergeBase([you, sama])).toBeNull();
+        // 側: そば is N5, but said 132 times against がわ's 128, not twice as often.
+        const gawa = candidate({ ownRank: 425, jlptLevel: 1, spoken: 128 });
+        const soba = candidate({ ownRank: 9202, jlptLevel: 5, spoken: 132 });
+        expect(chooseMergeBase([soba, gawa])).toBeNull();
+        // 札: さつ is N3, but said once: too little to override anything.
+        const fuda = candidate({ ownRank: 9880, jlptLevel: 1, spoken: 0 });
+        const satsu = candidate({ ownRank: 12002, jlptLevel: 3, spoken: 1 });
+        expect(chooseMergeBase([satsu, fuda])).toBeNull();
+        // An N2 reading never overrides, whatever anime says.
+        const n2 = candidate({ ownRank: 20000, jlptLevel: 2, spoken: 500 });
+        expect(chooseMergeBase([n2, candidate({ ownRank: 10, spoken: 1 })])).toBeNull();
     });
 });
 

@@ -184,61 +184,63 @@ export function learningIndexEntry(vocab: Pick<Vocabulary, 'id' | 'writtenForm' 
         : { id: vocab.id, containedKanji: vocab.writtenForm.containedKanji };
 }
 
-/** The fields compareMergeBase orders homographs by. */
+/** The fields a merge base is chosen by. */
 export interface MergeCandidate {
-    /** The first sense is only a suffix, prefix or counter (時/じ "o'clock", 君/くん): see isAffixOnly. */
-    affixOnly: boolean;
-    /** JMdict marks the headword common. */
-    isCommon: boolean;
+    ownRank: number | null;
+    frequency: { kanjiRank: number };
     /** JLPT level of this JMdict entry itself (5 = N5), undefined when not listed. */
     jlptLevel?: number;
     /** How often anime says this exact entry (Jiten, by JMdict id). */
     spoken: number;
-    ownRank: number | null;
-    frequency: { kanjiRank: number };
 }
 
 /**
- * Orders homographs sharing a kanji spelling so the first becomes the merged
- * entry's base, whose id, primary reading and senses the merged word takes.
- *
- *  1. A reading on Waller's JLPT lists before one that is not: 内 is うち (N4), not
- *     the rare ない; 達 is たち, not the slang だち.
- *  2. Then, when the group has a common word that stands alone, that word before an
- *     affix: the headword is shown alone, so 時 is とき, not the suffix じ ("o'clock",
- *     which the decks list at N5 while the id list has とき at N3), and 君 is きみ, not
- *     くん, which anime says more often. Only a COMMON standalone word: otherwise an
- *     obscure noun beat a core suffix (氏 went to うじ "clan", N1, over し "Mr.; he",
- *     N3), so without one the level decides.
- *  3. Then the easiest level: 上手 is じょうず (N5), not うわて (N1).
- *  4. Then the reading anime actually says, counted per JMdict entry by Jiten, so a
- *     JPDB row inflated by a homophone cannot win: JPDB ranks 内|ない through the
- *     auxiliary ない, while Jiten counts うち 1925 times and ない 19.
- *  5. Then JPDB, as before: a word JPDB ranks under one of its own readings
- *     (`ownRank`) before one ranked on its spelling's stand-in row (build-data.ts
- *     gives a reading with no row its spelling's first row). The tie used to go to
- *     JMdict order: N4 点 was merged under ちょぼ instead of てん.
+ * Orders homographs sharing a kanji spelling by JPDB: a word JPDB ranks under one of
+ * its own readings (`ownRank`) before one ranked on its spelling's stand-in row
+ * (build-data.ts gives a reading with no row its spelling's first row). The tie used
+ * to go to JMdict order: N4 点 was merged under ちょぼ instead of てん.
  */
-export function compareMergeBase(a: MergeCandidate, b: MergeCandidate, demoteAffixes = true): number {
-    return Number(a.jlptLevel === undefined) - Number(b.jlptLevel === undefined)
-        || (demoteAffixes ? Number(a.affixOnly) - Number(b.affixOnly) : 0)
-        || (b.jlptLevel ?? 0) - (a.jlptLevel ?? 0)
-        || b.spoken - a.spoken
-        || Number(a.ownRank === null) - Number(b.ownRank === null)
+export function compareMergeBase(a: MergeCandidate, b: MergeCandidate): number {
+    return Number(a.ownRank === null) - Number(b.ownRank === null)
         || (a.ownRank ?? a.frequency.kanjiRank) - (b.ownRank ?? b.frequency.kanjiRank);
 }
 
-/** Sorts a homograph group so its first member is the merged entry's base (see compareMergeBase). */
-export function sortMergeGroup<T extends MergeCandidate>(group: T[]): T[] {
-    const hasCommonWord = group.some(c => !c.affixOnly && c.isCommon);
-    return group.sort((a, b) => compareMergeBase(a, b, hasCommonWord));
-}
+/** How much more often anime must say a reading, and how often at least, to override JPDB's base. */
+export const BASE_OVERRIDE_SPOKEN_RATIO = 2;
+export const BASE_OVERRIDE_MIN_SPOKEN = 10;
 
-const AFFIX_POS = ['suf', 'n-suf', 'pref', 'n-pref', 'ctr'];
-
-/** Whether a sense's parts of speech are only affixes: 君/くん (suf), not 的/てき (suf, adj-na). */
-export function isAffixOnly(pos: string[]): boolean {
-    return pos.length > 0 && pos.every(p => AFFIX_POS.includes(p));
+/**
+ * Sorts a homograph group so its first member is the merged entry's base, whose id,
+ * primary reading and senses the merged word takes, and returns the member that
+ * displaced JPDB's choice, if any.
+ *
+ * JPDB decides (compareMergeBase), except where two independent sources agree that it
+ * picked a minor reading: another member is on Waller's JLPT lists at N5-N3, at least
+ * two levels easier than JPDB's pick (an unlisted pick counts as below N1), AND anime
+ * says it at least twice as often, at least 10 times (Jiten, counted per JMdict entry,
+ * so no homophone inflates it). JPDB's own row can be inflated that way: 内|ない
+ * ranks through the auxiliary ない, so 内 was merged under ない instead of うち.
+ *
+ * Over all 1,801 homograph groups this moves exactly 9 bases, each reviewed: 丈 だけ,
+ * 極 ごく, 御 お, 寺 てら, 種 たね, 盛り さかり, 内 うち, 否 いや, 等 など. Other rules
+ * were tried and rejected because their output could not be reviewed into a clean
+ * result: ranking by the lists first or by anime counts moved 91 bases, many on 1
+ * occurrence against 0 (一端 to いっぱし, 三重 to the prefecture); ranking JMdict's
+ * common flag first moved 53, among them 塵 to ちり over ごみ and 潜る to くぐる.
+ */
+export function chooseMergeBase<T extends MergeCandidate>(group: T[]): T | null {
+    group.sort(compareMergeBase);
+    const jpdbBase = group[0];
+    const floor = (jpdbBase.jlptLevel ?? 0) + 2;
+    const [better] = group
+        .filter(c => c !== jpdbBase
+            && c.jlptLevel !== undefined && c.jlptLevel >= 3 && c.jlptLevel >= floor
+            && c.spoken >= BASE_OVERRIDE_MIN_SPOKEN && c.spoken >= BASE_OVERRIDE_SPOKEN_RATIO * jpdbBase.spoken)
+        .sort((a, b) => b.jlptLevel! - a.jlptLevel! || b.spoken - a.spoken);
+    if (!better) return null;
+    group.splice(group.indexOf(better), 1);
+    group.unshift(better);
+    return better;
 }
 
 /** JMdict tags marking a spelling that is not how the word is normally written. */

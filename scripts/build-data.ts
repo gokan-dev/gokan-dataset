@@ -10,9 +10,8 @@ import { JMDict } from "../src/models/data.model";
 import {
     applyUsuallyKanaOverrides,
     buildMiscFlags,
-    sortMergeGroup,
+    chooseMergeBase,
     decideUsuallyKana,
-    isAffixOnly,
     learningIndexEntry,
     learningRank,
     mayShareHeadword,
@@ -58,10 +57,8 @@ interface BuildVocabulary extends Vocabulary {
     rareKanjiForm: boolean;
     /** The headword is a normal spelling of this word, so it may merge with others written the same (see mayShareHeadword). Build-only. */
     sharesHeadword: boolean;
-    /** How often anime says this exact JMdict entry (Jiten), for compareMergeBase. Build-only. */
+    /** How often anime says this exact JMdict entry (Jiten), for chooseMergeBase. Build-only. */
     spoken: number;
-    /** The first sense is only a suffix, prefix or counter, for compareMergeBase. Build-only. */
-    affixOnly: boolean;
 }
 
 // --- Main ---
@@ -122,7 +119,7 @@ async function main() {
     );
     console.log(`     ${jlpt.levels.size} JMdict entries levelled, ${jlpt.textbooks.size} with a textbook lesson.`);
 
-    // Per-entry anime usage, to choose a merged word's base (compareMergeBase).
+    // Per-entry anime usage, to choose a merged word's base (chooseMergeBase).
     const spokenCounts = readSpokenCounts(INPUT_JITEN_DIR);
 
     // 2. Build Candidate Vocabulary List
@@ -263,7 +260,6 @@ async function main() {
             rareKanjiForm: primaryKanji.tags.includes('rK') || primaryKanji.tags.includes('sK'),
             sharesHeadword: mayShareHeadword(primaryKanji.tags as unknown as string[]),
             spoken: spokenCounts.get(entry.id) ?? 0,
-            affixOnly: isAffixOnly(senses[0]?.pos ?? []),
         };
 
         candidateVocab.set(entry.id, vocabObj);
@@ -286,6 +282,7 @@ async function main() {
 
     const mergedCandidateVocab = new Map<string, BuildVocabulary>();
     const mergedLogs: string[] = [];
+    const baseOverrides: string[] = [];
     let mergedCount = 0;
 
     for (const group of vocabGroups.values()) {
@@ -295,8 +292,9 @@ async function main() {
         }
         const kanji = group[0].writtenForm.kanji;
 
-        // A listed reading, a common standalone word, the easiest level, then the one anime says most (see compareMergeBase).
-        sortMergeGroup(group);
+        // JPDB's pick, unless the JLPT lists and anime both say it is the minor reading (see chooseMergeBase).
+        const listedBase = chooseMergeBase(group);
+        if (listedBase) baseOverrides.push(`${kanji}: ${listedBase.reading.primary}`);
 
         const base = group[0];
         const baseReading = base.reading.primary;
@@ -398,6 +396,7 @@ async function main() {
     fs.writeFileSync(mergedLogPath, mergedLogs.join('\n\n'), 'utf-8');
 
     console.log(`   - Merged ${mergedCount} duplicate kanji forms out of the dataset.`);
+    console.log(`   - ${baseOverrides.length} merged words take the base the JLPT lists and anime agree on: ${baseOverrides.join(', ')}`);
 
     // Generate merged ID map for migration
     const mergedMap: Record<string, string> = {};
@@ -779,7 +778,7 @@ async function main() {
     let sentencesWritten = 0;
 
     for (const vocab of FINAL_VOCAB) {
-        const { kklcStep, ownRank: _ownRank, rareKanjiForm: _rareKanjiForm, sharesHeadword: _sharesHeadword, spoken: _spoken, affixOnly: _affixOnly, ...cleanVocab } = vocab;
+        const { kklcStep, ownRank: _ownRank, rareKanjiForm: _rareKanjiForm, sharesHeadword: _sharesHeadword, spoken: _spoken, ...cleanVocab } = vocab;
 
         // 1. Write Vocab File
         fs.writeFileSync(
