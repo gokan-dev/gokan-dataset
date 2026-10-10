@@ -26,8 +26,8 @@ Levels come from Jonathan Waller's JLPT lists (tanos.co.uk, the data jisho.org s
 |---|---|---|---|---|---|---|
 | N5 | 688 | 618 (90%) | 15 | 52 | 1 | 2 |
 | N4 | 642 | 590 (92%) | 15 | 36 | 0 | 1 |
-| N3 | 1675 | 1548 (92%) | 29 | 96 | 1 | 1 |
-| N2 | 1862 | 1695 (91%) | 30 | 128 | 8 | 1 |
+| N3 | 1675 | 1549 (92%) | 29 | 96 | 0 | 1 |
+| N2 | 1862 | 1697 (91%) | 30 | 128 | 6 | 1 |
 | N1 | 3179 | 2923 (92%) | 59 | 195 | 0 | 2 |
 
 - **Words with no kanji spelling**: JMdict has no kanji spelling for these, and the dataset only builds words that have one (build-data.ts skips any entry without kanji). Including them means accepting kana-only words.
@@ -568,14 +568,6 @@ Reviewed and kept as the id list has them: あら, と, なんか, ガム, バ�
 
 </details>
 
-<details><summary>Merged under another reading (1)</summary>
-
-| Word | Reading | Meaning | JPDB rank | Merged into |
-|---|---|---|---|---|
-| 氏 | し | Mr; Mrs; Ms | 58 | 氏/うじ (N1) |
-
-</details>
-
 <details><summary>Not buildable (1)</summary>
 
 | Word | Reading | Meaning | JPDB rank |
@@ -758,15 +750,13 @@ Reviewed and kept as the id list has them: あら, と, なんか, ガム, バ�
 
 </details>
 
-<details><summary>Merged under another reading (8)</summary>
+<details><summary>Merged under another reading (6)</summary>
 
 | Word | Reading | Meaning | JPDB rank | Merged into |
 |---|---|---|---|---|
-| 殿 | どの | Mr.; Mrs.; Miss | 1137 | 殿/しんがり (N1) |
 | 振り | ぶり | way; manner; style | 1232 | 振り/ふり (N1) |
 | 毎 | まい | every (usu. with events, e.g. every weekend); each | 1368 | 毎/ごと (N1) |
 | 戦 | せん | war; battle | 2122 | 戦/いくさ (N1) |
-| 反 | はん | anti- | 9230 | 反/たん (N1) |
 | 未 | み | not yet; un- | 10103 | 未/ひつじ (N1) |
 | 病 | びょう | disease | 10902 | 病/やまい (N1) |
 | 滴 | てき | counter for drops of liquid | 32286 | 滴/しずく (N1) |

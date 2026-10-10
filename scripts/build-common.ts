@@ -188,6 +188,8 @@ export function learningIndexEntry(vocab: Pick<Vocabulary, 'id' | 'writtenForm' 
 export interface MergeCandidate {
     /** The first sense is only a suffix, prefix or counter (時/じ "o'clock", 君/くん): see isAffixOnly. */
     affixOnly: boolean;
+    /** JMdict marks the headword common. */
+    isCommon: boolean;
     /** JLPT level of this JMdict entry itself (5 = N5), undefined when not listed. */
     jlptLevel?: number;
     /** How often anime says this exact entry (Jiten, by JMdict id). */
@@ -202,9 +204,12 @@ export interface MergeCandidate {
  *
  *  1. A reading on Waller's JLPT lists before one that is not: 内 is うち (N4), not
  *     the rare ない; 達 is たち, not the slang だち.
- *  2. Then a word that stands alone before an affix: the headword is shown alone, so
- *     時 is とき, not the suffix じ ("o'clock", which the decks list at N5 while the
- *     id list has とき at N3), and 君 is きみ, not くん, which anime says more often.
+ *  2. Then, when the group has a common word that stands alone, that word before an
+ *     affix: the headword is shown alone, so 時 is とき, not the suffix じ ("o'clock",
+ *     which the decks list at N5 while the id list has とき at N3), and 君 is きみ, not
+ *     くん, which anime says more often. Only a COMMON standalone word: otherwise an
+ *     obscure noun beat a core suffix (氏 went to うじ "clan", N1, over し "Mr.; he",
+ *     N3), so without one the level decides.
  *  3. Then the easiest level: 上手 is じょうず (N5), not うわて (N1).
  *  4. Then the reading anime actually says, counted per JMdict entry by Jiten, so a
  *     JPDB row inflated by a homophone cannot win: JPDB ranks 内|ない through the
@@ -214,13 +219,19 @@ export interface MergeCandidate {
  *     gives a reading with no row its spelling's first row). The tie used to go to
  *     JMdict order: N4 点 was merged under ちょぼ instead of てん.
  */
-export function compareMergeBase(a: MergeCandidate, b: MergeCandidate): number {
+export function compareMergeBase(a: MergeCandidate, b: MergeCandidate, demoteAffixes = true): number {
     return Number(a.jlptLevel === undefined) - Number(b.jlptLevel === undefined)
-        || Number(a.affixOnly) - Number(b.affixOnly)
+        || (demoteAffixes ? Number(a.affixOnly) - Number(b.affixOnly) : 0)
         || (b.jlptLevel ?? 0) - (a.jlptLevel ?? 0)
         || b.spoken - a.spoken
         || Number(a.ownRank === null) - Number(b.ownRank === null)
         || (a.ownRank ?? a.frequency.kanjiRank) - (b.ownRank ?? b.frequency.kanjiRank);
+}
+
+/** Sorts a homograph group so its first member is the merged entry's base (see compareMergeBase). */
+export function sortMergeGroup<T extends MergeCandidate>(group: T[]): T[] {
+    const hasCommonWord = group.some(c => !c.affixOnly && c.isCommon);
+    return group.sort((a, b) => compareMergeBase(a, b, hasCommonWord));
 }
 
 const AFFIX_POS = ['suf', 'n-suf', 'pref', 'n-pref', 'ctr'];

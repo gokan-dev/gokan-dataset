@@ -10,7 +10,7 @@ import { JMDict } from "../src/models/data.model";
 import {
     applyUsuallyKanaOverrides,
     buildMiscFlags,
-    compareMergeBase,
+    sortMergeGroup,
     decideUsuallyKana,
     isAffixOnly,
     learningIndexEntry,
@@ -295,8 +295,8 @@ async function main() {
         }
         const kanji = group[0].writtenForm.kanji;
 
-        // A standalone word, then the reading the JLPT lists put easiest, then the one anime says most (see compareMergeBase).
-        group.sort(compareMergeBase);
+        // A listed reading, a common standalone word, the easiest level, then the one anime says most (see compareMergeBase).
+        sortMergeGroup(group);
 
         const base = group[0];
         const baseReading = base.reading.primary;

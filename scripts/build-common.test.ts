@@ -2,6 +2,7 @@ import { describe, it, expect } from 'vitest';
 import {
     applyUsuallyKanaOverrides,
     compareMergeBase,
+    sortMergeGroup,
     decideUsuallyKana,
     isAffixOnly,
     learningIndexEntry,
@@ -108,7 +109,7 @@ describe('learning-order index helpers', () => {
 });
 
 describe('compareMergeBase', () => {
-    const candidate = (over: Partial<MergeCandidate>): MergeCandidate => ({ affixOnly: false, spoken: 0, ownRank: null, frequency: { kanjiRank: 999999 }, ...over });
+    const candidate = (over: Partial<MergeCandidate>): MergeCandidate => ({ affixOnly: false, isCommon: false, spoken: 0, ownRank: null, frequency: { kanjiRank: 999999 }, ...over });
 
     it('puts a listed reading first, then a word that stands alone before an affix', () => {
         // 時: the suffix じ ("o'clock") is listed at N5, the noun とき at N3.
@@ -119,6 +120,17 @@ describe('compareMergeBase', () => {
         const tachi = candidate({ affixOnly: true, jlptLevel: 5 });
         const dachi = candidate({ spoken: 50 });
         expect([dachi, tachi].sort(compareMergeBase)).toEqual([tachi, dachi]);
+    });
+
+    it('demotes an affix only for a common standalone word in the group', () => {
+        // 時: とき is a common word, so the N5 suffix じ does not become the base.
+        const ji = candidate({ affixOnly: true, isCommon: true, jlptLevel: 5 });
+        const toki = candidate({ isCommon: true, jlptLevel: 3 });
+        expect(sortMergeGroup([ji, toki])).toEqual([toki, ji]);
+        // 氏: うじ "clan" (N1) is not common, so the level decides and し "Mr.; he" (N3) wins.
+        const shi = candidate({ affixOnly: true, isCommon: true, jlptLevel: 3 });
+        const uji = candidate({ jlptLevel: 1 });
+        expect(sortMergeGroup([uji, shi])).toEqual([shi, uji]);
     });
 
     it('puts the reading the JLPT lists put easiest first', () => {
