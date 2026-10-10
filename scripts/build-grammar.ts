@@ -330,9 +330,17 @@ export function buildVocabLookup(searchIndex: SearchIndex, kanaWritableIds: Set<
         else if (claimant !== entry.id) ambiguousReadings.add(entry.r);
     }
 
+    // A word learned in kana is not what its rare kanji spelling means in a sentence:
+    // 彼 is かれ, not あれ, which since the dataset stopped merging あれ into 彼 is its
+    // own entry written 彼. So those only claim a written form nobody else has.
+    for (const entry of searchIndex) {
+        if (!entry.u && !byWrittenForm.has(entry.w)) byWrittenForm.set(entry.w, { id: entry.id, r: entry.r });
+    }
     for (const entry of searchIndex) {
         if (!byWrittenForm.has(entry.w)) byWrittenForm.set(entry.w, { id: entry.id, r: entry.r });
+    }
 
+    for (const entry of searchIndex) {
         // An entry only enters the reading index if its reading is a spelling
         // the word is actually written with - either because the written form IS
         // kana, or because the vocab record says the kana spelling is current.

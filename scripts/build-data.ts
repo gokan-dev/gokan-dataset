@@ -6,20 +6,22 @@ import type { Sentence } from '../src/models/sentence.model';
 import type { Kanji } from '../src/models/kanji.model';
 import type { FrequencyIndex, KKLCIndex, SearchIndex } from '../src/models/index.model';
 import type kuromoji from 'kuromoji';
-import { JMDict, JLPTVocabDatasetDTO } from "../src/models/data.model";
+import { JMDict } from "../src/models/data.model";
 import {
     applyUsuallyKanaOverrides,
-    buildKanaKeyOwners,
     buildMiscFlags,
     compareMergeBase,
     decideUsuallyKana,
+    isAffixOnly,
     learningIndexEntry,
     learningRank,
+    mayShareHeadword,
     parseJpdbTsv,
-    resolveJlptLevel,
-    type KanaOwnerOverrides,
+    readSpokenCounts,
     type UsuallyKanaOverrides,
 } from './build-common';
+import { readWallerDecks, readWallerIdList, resolveJlptLevels, type JlptCorrections, type JmdictWordLike } from './jlpt-levels';
+import { inheritJlptLevels } from './jlpt-derived';
 import { BUILD_LIMITS } from './build-constants';
 import { disambiguateByReading, type ReadingVocab } from '../src/utils/readingDisambiguation';
 
@@ -31,8 +33,10 @@ const INPUT_USUALLY_KANA_OVERRIDES_FILE = './data/raw/vocab/usually-kana-overrid
 const INPUT_KANJI_FILE = './compiled/kanji.json';
 const INPUT_SENTENCES_FILE = './data/raw/Sentence pairs in Japanese-English - 2026-02-15.tsv';
 const INPUT_INDICES_FILE = './data/raw/jpn_indices.csv';
-const INPUT_JLPT_VOCAB_FILE = './data/raw/jlpt-vocab.json';
-const INPUT_JLPT_KANA_OWNERS_FILE = './data/raw/vocab/jlpt-kana-owners.json';
+const INPUT_JLPT_ID_LIST_DIR = './data/raw/jlpt/waller-ids';
+const INPUT_JLPT_DECKS_DIR = './data/raw/jlpt/waller-decks';
+const INPUT_JLPT_CORRECTIONS_FILE = './data/raw/vocab/jlpt-corrections.json';
+const INPUT_JITEN_DIR = './data/raw/media/jiten';
 
 const OUTPUT_VOCAB_DIR = './compiled/vocab';
 const OUTPUT_SENTENCES_DIR = './compiled/sentences';
@@ -52,6 +56,12 @@ interface BuildVocabulary extends Vocabulary {
     ownRank: number | null;
     /** JMdict tags the headword `rK` (rarely used) or `sK` (search-only): not a normal display kanji (see decideUsuallyKana). Build-only. */
     rareKanjiForm: boolean;
+    /** The headword is a normal spelling of this word, so it may merge with others written the same (see mayShareHeadword). Build-only. */
+    sharesHeadword: boolean;
+    /** How often anime says this exact JMdict entry (Jiten), for compareMergeBase. Build-only. */
+    spoken: number;
+    /** The first sense is only a suffix, prefix or counter, for compareMergeBase. Build-only. */
+    affixOnly: boolean;
 }
 
 // --- Main ---
@@ -95,11 +105,25 @@ async function main() {
     const jpdbTable = parseJpdbTsv(fs.readFileSync(INPUT_JPDB_TSV_FILE, 'utf-8'));
     const usuallyKanaOverrides: UsuallyKanaOverrides = JSON.parse(fs.readFileSync(INPUT_USUALLY_KANA_OVERRIDES_FILE, 'utf-8'));
 
-    // JLPT Vocabulary
-    console.log('   - JLPT vocab...');
-    const jlptVocab: JLPTVocabDatasetDTO = JSON.parse(fs.readFileSync(INPUT_JLPT_VOCAB_FILE, 'utf-8'));
-    const kanaOwnerOverrides: KanaOwnerOverrides = JSON.parse(fs.readFileSync(INPUT_JLPT_KANA_OWNERS_FILE, 'utf-8'));
-    const kanaOwners = buildKanaKeyOwners(jlptVocab, jmdict.words, jpdb, kanaOwnerOverrides);
+    // JLPT levels per JMdict id, from Waller's lists (see jlpt-levels.ts).
+    console.log('   - JLPT levels...');
+    const jlptCorrections: JlptCorrections = JSON.parse(fs.readFileSync(INPUT_JLPT_CORRECTIONS_FILE, 'utf-8'));
+    const jmdictById = new Map<string, JmdictWordLike>(jmdict.words.map(w => [w.id, {
+        id: w.id,
+        kanji: w.kanji.map(k => ({ text: k.text, tags: k.tags as unknown as string[] })),
+        kana: w.kana.map(k => ({ text: k.text, common: k.common, tags: k.tags as unknown as string[], appliesToKanji: k.appliesToKanji })),
+        sense: w.sense.map(s => ({ misc: s.misc as unknown as string[] })),
+    }]));
+    const jlpt = resolveJlptLevels(
+        jmdictById,
+        readWallerIdList(INPUT_JLPT_ID_LIST_DIR),
+        readWallerDecks(INPUT_JLPT_DECKS_DIR),
+        jlptCorrections,
+    );
+    console.log(`     ${jlpt.levels.size} JMdict entries levelled, ${jlpt.textbooks.size} with a textbook lesson.`);
+
+    // Per-entry anime usage, to choose a merged word's base (compareMergeBase).
+    const spokenCounts = readSpokenCounts(INPUT_JITEN_DIR);
 
     // 2. Build Candidate Vocabulary List
     console.log('🔎 Processing vocabulary candidates...');
@@ -205,15 +229,9 @@ async function main() {
         const requiresContext =
             entry.kana.length > 1 || senses.some(s => s.misc.isSuffix);
 
-        // JLPT level: see resolveJlptLevel for why this tries alternative written
-        // forms and the kana keys this entry owns as well as the kanji headword.
-        const jlptLevel = resolveJlptLevel(
-            jlptVocab,
-            entry.id,
-            [kanjiText, ...alternativeKanji],
-            [primaryReading, ...alternativeReadings],
-            kanaOwners,
-        );
+        // JLPT level of this exact JMdict entry; see jlpt-levels.ts.
+        const jlptLevel = jlpt.levels.get(entry.id)?.level;
+        const textbooks = jlpt.textbooks.get(entry.id);
 
         const vocabObj: BuildVocabulary = {
             id: entry.id,
@@ -231,6 +249,7 @@ async function main() {
                 kanaRank: jpdbEntry.hiraganaRank,
             },
             jlptLevel,
+            ...(textbooks ? { textbooks: textbooks.map(t => ({ ...t })) } : {}),
             progression: {
                 kklcStep,
             },
@@ -242,6 +261,9 @@ async function main() {
             isCommon: primaryKanji.common,
             ownRank,
             rareKanjiForm: primaryKanji.tags.includes('rK') || primaryKanji.tags.includes('sK'),
+            sharesHeadword: mayShareHeadword(primaryKanji.tags as unknown as string[]),
+            spoken: spokenCounts.get(entry.id) ?? 0,
+            affixOnly: isAffixOnly(senses[0]?.pos ?? []),
         };
 
         candidateVocab.set(entry.id, vocabObj);
@@ -250,30 +272,34 @@ async function main() {
     console.log(`   - Found ${candidateVocab.size} initial vocabulary entries from JMDict.`);
 
     // --- MERGE EXACT KANJI HOMOGRAPHS ---
+    // Only words for which the shared spelling is a normal one merge: あれ, whose
+    // kanji 彼 is rare, stays its own word beside 彼/かれ (see mayShareHeadword).
     console.log('   - Merging homographs with identical kanji forms...');
     const vocabGroups = new Map<string, BuildVocabulary[]>();
     for (const vocab of candidateVocab.values()) {
-        const kanji = vocab.writtenForm.kanji;
-        if (!vocabGroups.has(kanji)) {
-            vocabGroups.set(kanji, []);
+        const key = vocab.sharesHeadword ? vocab.writtenForm.kanji : `${vocab.writtenForm.kanji}#${vocab.id}`;
+        if (!vocabGroups.has(key)) {
+            vocabGroups.set(key, []);
         }
-        vocabGroups.get(kanji)!.push(vocab);
+        vocabGroups.get(key)!.push(vocab);
     }
 
     const mergedCandidateVocab = new Map<string, BuildVocabulary>();
     const mergedLogs: string[] = [];
     let mergedCount = 0;
 
-    for (const [kanji, group] of vocabGroups.entries()) {
+    for (const group of vocabGroups.values()) {
         if (group.length === 1) {
             mergedCandidateVocab.set(group[0].id, group[0]);
             continue;
         }
+        const kanji = group[0].writtenForm.kanji;
 
-        // Most frequent first, a word JPDB ranks under its own readings before one ranked on a stand-in.
+        // A standalone word, then the reading the JLPT lists put easiest, then the one anime says most (see compareMergeBase).
         group.sort(compareMergeBase);
 
         const base = group[0];
+        const baseReading = base.reading.primary;
 
         // Initialize merge tracking on base
         base.mergedVocabs = [{
@@ -346,6 +372,17 @@ async function main() {
             // If any was common, base is common
             if (other.isCommon) {
                 base.isCommon = true;
+            }
+
+            // A level or textbook lesson carries over only from a homograph read like
+            // the base: 辛い/からい (N5) must not make 辛い/つらい N5.
+            if (other.reading.primary === baseReading || other.reading.alternatives.includes(baseReading)) {
+                if (other.jlptLevel !== undefined && other.jlptLevel > (base.jlptLevel ?? 0)) base.jlptLevel = other.jlptLevel;
+                for (const lesson of other.textbooks ?? []) {
+                    if (!base.textbooks?.some(t => t.book === lesson.book && t.lesson === lesson.lesson)) {
+                        base.textbooks = [...(base.textbooks ?? []), lesson];
+                    }
+                }
             }
 
             mergedCount++;
@@ -540,6 +577,7 @@ async function main() {
     // Counters
     let keptByFrequency = 0;
     let keptByUsage = 0;
+    let keptByJlpt = 0;
     let dropped = 0;
 
     const limit = BUILD_LIMITS.ENABLED_LIMIT ? BUILD_LIMITS.MAX_VOCABULARY : Number.MAX_SAFE_INTEGER;
@@ -584,6 +622,13 @@ async function main() {
             }
             FINAL_VOCAB.push(vocab);
             keptByUsage++;
+        } else if (vocab.jlptLevel !== undefined) {
+            // On a JLPT list: a learner will be taught it whatever JMdict's common flag
+            // or the sentence corpus say. This is how する, それ, そこ and とても, whose
+            // only kanji (為る, 其れ, 其処, 迚も) are rare, reach the dataset as words
+            // learned in kana, like これ already did.
+            FINAL_VOCAB.push(vocab);
+            keptByJlpt++;
         } else {
             // Uncommon and unused. Drop.
             dropped++;
@@ -592,8 +637,18 @@ async function main() {
 
     console.log(`   - Kept ${keptByFrequency} common words.`);
     console.log(`   - Kept ${keptByUsage} uncommon words (used in sentences).`);
+    console.log(`   - Kept ${keptByJlpt} uncommon words (on a JLPT list).`);
     console.log(`   - Dropped ${dropped} words.`);
     console.log(`   - Final Dataset Size: ${FINAL_VOCAB.length} words.`);
+
+    // 4.4 Words formed from a listed word take its level (一緒に from 一緒); see jlpt-derived.ts.
+    const finalIds = new Set(FINAL_VOCAB.map(v => v.id));
+    for (const [id, { word }] of Object.entries(jlptCorrections.derivedExclude)) {
+        if (!finalIds.has(id)) throw new Error(`jlpt-corrections: derivedExclude ${id} (${word}) is not a compiled vocab id; remove it.`);
+    }
+    const derived = inheritJlptLevels(FINAL_VOCAB, new Set(Object.keys(jlptCorrections.derivedExclude)));
+    console.log(`   - ${derived.length} words take the JLPT level of the word they are formed from.`);
+    for (const vocab of FINAL_VOCAB) vocab.textbooks?.sort((a, b) => a.book.localeCompare(b.book) || a.lesson - b.lesson);
 
     // 4.5 Compute components and parents
     console.log('🧩 Computing components and parents...');
@@ -724,7 +779,7 @@ async function main() {
     let sentencesWritten = 0;
 
     for (const vocab of FINAL_VOCAB) {
-        const { kklcStep, ownRank: _ownRank, rareKanjiForm: _rareKanjiForm, ...cleanVocab } = vocab;
+        const { kklcStep, ownRank: _ownRank, rareKanjiForm: _rareKanjiForm, sharesHeadword: _sharesHeadword, spoken: _spoken, affixOnly: _affixOnly, ...cleanVocab } = vocab;
 
         // 1. Write Vocab File
         fs.writeFileSync(

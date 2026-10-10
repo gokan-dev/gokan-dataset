@@ -75,7 +75,7 @@ src/models/               TypeScript types mirroring the compiled shape
 
 [docs/SCHEMA.md](docs/SCHEMA.md) documents every file and field.
 
-[docs/JLPT_COVERAGE.md](docs/JLPT_COVERAGE.md) lists every JLPT vocabulary entry no compiled word answers, grouped by why (no kanji spelling, dropped by the build, not in JMdict). Regenerated on every `bun run build:data`.
+[docs/JLPT_COVERAGE.md](docs/JLPT_COVERAGE.md) shows where every JLPT level comes from (id list, deck fill, hand-set, derived), every hand correction, and the JLPT entries no compiled word answers, grouped by why. Regenerated on every `bun run build:data`.
 
 For the grammar half specifically, three docs answer different questions:
 
@@ -134,7 +134,8 @@ The compiled output is a derivative work of several upstream sources, each with 
 | [Tatoeba](https://tatoeba.org/en/terms_of_use) | Example sentences | Per-sentence, mostly CC BY 2.0 FR |
 | [ppasupat/vocab-kanji](https://github.com/ppasupat/vocab-kanji) | KKLC step data | See that repository |
 | [JPDB](https://jpdb.io) | Frequency data | See their terms |
-| [Bluskyo/JLPT_Vocabulary](https://github.com/Bluskyo/JLPT_Vocabulary) | JLPT level lists | CC BY, Jonathan Waller, via tanos.co.uk |
+| [stephenmk/yomitan-jlpt-vocab](https://github.com/stephenmk/yomitan-jlpt-vocab) | JLPT levels with JMdict ids (`data/raw/jlpt/waller-ids`) | CC BY-SA 4.0; list data CC BY, Jonathan Waller, via tanos.co.uk |
+| [jamsinclair/open-anki-jlpt-decks](https://github.com/jamsinclair/open-anki-jlpt-decks) | JLPT decks and textbook lesson tags (`data/raw/jlpt/waller-decks`) | MIT; list data CC BY, Jonathan Waller, via tanos.co.uk |
 | [hanabira.org-japanese-content](https://github.com/tristcoil/hanabira.org-japanese-content) | Grammar points | Creative Commons, link back to hanabira.org |
 | [Jiten](https://jiten.moe) | Per-episode anime vocabulary and speech statistics (`media/`) | [CC BY-SA 4.0](https://jiten.moe/terms), attribution required |
 | [AniList](https://anilist.co) | Cover image URLs in `media/` (`cover`) | URLs only, the images stay on AniList's CDN. The artwork belongs to each title's studio and is **not** covered by this repository's license |
