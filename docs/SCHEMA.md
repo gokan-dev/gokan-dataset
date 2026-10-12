@@ -114,14 +114,58 @@ type KanjiFile = Kanji[];
 
 interface Kanji {
   character: string;
-  steps: {
-    kklc?: number;      // KKLC chapter step
-    jlpt?: number;       // 1 (N1) .. 5 (N5) - only ever set for kanji already in the KKLC set
-    frequency?: number;  // reserved, currently unused
-  };
-  frequency?: number;    // JPDB kanji frequency rank
+  steps: KanjiSteps;            // position in each learning order (below)
+  frequency?: number;           // JPDB kanji frequency rank
+  newspaperFrequency?: number;  // KANJIDIC2 newspaper rank, 1-2500
+  meanings: string[];           // English, KANJIDIC2 order
+  readings: { on: string[]; kun: string[]; nanori: string[] };  // kun in KANJIDIC2 notation: まな.ぶ, -がく
+  strokeCount: number;
+  grade?: number;               // 1-6 kyouiku, 8 the rest of the jouyou, 9-10 jinmeiyou
+  radical?: { number: number; character: string };  // Kangxi radical; absent only for 〇
+  components: string[];         // visual components (KRADFILE), real forms: 海 -> 氵 母 毋 𠂉
+}
+
+interface KanjiSteps {          // 1 = taught first; absent when the order does not teach the kanji
+  kklc?: number;                // Kodansha Kanji Learner's Course
+  rtk?: number;                 // Remembering the Kanji, 6th edition: 1-2200 book 1, 2201-3000 book 3
+  rtkLegacy?: number;           // Remembering the Kanji, editions 1-5
+  kanjiInContext?: number;      // Kanji in Context
+  kanjiKana?: number;           // Kanji & Kana, 2nd edition (the jouyou by school grade)
+  henshall?: number;            // A Guide to Remembering Japanese Characters
+  essentialKanji?: number;      // Essential Kanji (O'Neill)
+  kanjiFlashcards?: number;     // Japanese Kanji Flashcards (White Rabbit Press)
+  tuttleCards?: number;         // Tuttle Kanji Cards
+  maniette?: number;            // Les Kanjis dans la tête (French RTK adaptation)
+  jlpt?: number;                // a level, 5 (N5) .. 1 (N1), not a position
+  frequency?: number;           // reserved, currently unused
 }
 ```
+
+Built by `scripts/build-kanji.ts` from KKLC, the JLPT kanji list, JPDB, and KANJIDIC2, KRADFILE and RADKFILE (`data/raw/kanji/`, the [jmdict-simplified](https://github.com/scriptin/jmdict-simplified) JSON release). The book orders are KANJIDIC2's reference numbers for books that teach in sequence; lookup dictionaries (Nelson, Halpern, Morohashi, Kodansha Compact) number by radical and are left out. The build fails if two kanji share a position in one order.
+
+**Which kanji**: KKLC first, in its order (the KKLC position, and so every word's `kklcStep`, is unchanged), then by code point: every kanji a learning order teaches, the JLPT list, the jouyou and the jinmeiyou. Grade 10, an old form of a jouyou kanji allowed in names (德 for 徳), is kept only when an order teaches it. CJK compatibility ideographs (U+FA45 looks like 海) are never kept: NFC turns each into another kanji, so as a key or URL it would collide with it.
+
+**Components** are KRADFILE's, with RADKFILE's stand-ins replaced by the real forms (汁 is written for 氵, 邦 and 阡 for the right and left 阝, kept apart as ⻏ and ⻖). Six kanji outside KRADFILE's JIS set take the components of their common form, drawn the same but for a stroke detail: 𠮟 (叱) and 剝 (剥), the jouyou's own forms, and 俱 吞 簞 蟬. 〇 is a symbol, not a kanji: it has no radical or components.
+
+## `compiled/kanji/{character}.json`: one kanji
+
+The `Kanji` entry of `kanji.json` for that character (`kanji/学.json`), so a page showing one kanji reads about 1 KB instead of the whole list.
+
+## `compiled/index/kanji-orders/{order}.json`: one learning order
+
+```ts
+type KanjiOrderList = string[];  // the kanji in teaching order: rtk.json starts ["一", "二", "三", ...]
+```
+
+The first N entries are the kanji a learner N kanji into that method knows. One file per order: `kklc`, `rtk`, `rtkLegacy`, `kanjiInContext`, `kanjiKana`, `henshall`, `kanjiFlashcards`, `tuttleCards`, `maniette` (by their `steps` position, which every one of them numbers without gaps), and two derived orders: `jlpt` (N5 first, the most frequent first within a level) and `frequency` (KANJIDIC2's newspaper rank, the 2,434 ranked kanji). `frequency` deliberately does not use `Kanji.frequency`: JPDB ranks the kanji as a word on its own (学 is 5839, 海 722), not how often a reader meets it. Essential Kanji has no list: its numbering skips six positions, so a list index would drift from the book.
+
+## `compiled/index/kanji-components.json`: component → kanji
+
+```ts
+type KanjiComponentIndex = Record<string, { strokeCount: number; kanji: string[] }>;  // "氵" -> { 3, [海, 池, ...] }
+```
+
+Every component a kanji of `kanji.json` is drawn with, with its stroke count (for a picker grouped by strokes) and the kanji containing it, in `kanji.json` order.
 
 ## `compiled/grammar/points/{id}.json` — one file per grammar point
 

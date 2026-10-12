@@ -50,6 +50,58 @@ export interface ParsedJPDBFrequency {
  */
 export type JLPTKanjiDatasetDTO = Record<string, number>;
 
+/**
+ * KANJIDIC2, as JSON
+ * Source: https://github.com/scriptin/jmdict-simplified (release asset kanjidic2-all-{version}.json)
+ * Licence: CC BY-SA 4.0, EDRDG
+ *
+ * Only the fields the build reads are declared.
+ */
+export interface Kanjidic2DTO {
+    version: string;
+    dictDate: string;
+    characters: Kanjidic2CharacterDTO[];
+}
+
+export interface Kanjidic2CharacterDTO {
+    literal: string;                                  // "学"
+    radicals: { type: 'classical' | 'nelson_c'; value: number }[];
+    misc: {
+        grade: number | null;                         // 1-6 kyouiku, 8 other jouyou, 9-10 jinmeiyou
+        strokeCounts: number[];                       // first is the accepted count, the rest common miscounts
+        frequency: number | null;                     // newspaper rank, 1-2500
+        jlptLevel: number | null;                     // the pre-2010 four-level JLPT; not used
+    };
+    dictionaryReferences: { type: string; value: string }[];  // { type: "heisig6", value: "346" }
+    readingMeaning: {
+        groups: {
+            readings: { type: string; value: string }[];      // types ja_on, ja_kun, pinyin, korean_r...
+            meanings: { lang: string; value: string }[];
+        }[];
+        nanori: string[];                             // readings used only in names
+    } | null;
+}
+
+/**
+ * KRADFILE, as JSON (same release as KANJIDIC2)
+ * Licence: EDRDG licence (CC BY-SA 4.0)
+ *
+ * Kanji -> the visual components it is drawn with, in RADKFILE's notation: a component no
+ * character can show is written as a kanji containing it (汁 stands for 氵).
+ */
+export interface KradfileDTO {
+    version: string;
+    kanji: Record<string, string[]>;                  // "海" -> ["汁", "母", "毋", "乞"]
+}
+
+/**
+ * RADKFILE, as JSON (same release): component -> stroke count and the kanji containing it.
+ * `code` is set for the stand-in components, naming the glyph RADKFILE draws instead.
+ */
+export interface RadkfileDTO {
+    version: string;
+    radicals: Record<string, { strokeCount: number; code: string | null; kanji: string[] }>;
+}
 
 
 export interface JMDict {

@@ -55,7 +55,8 @@ Sentences carry the offsets of every word they contain, so you can render a sent
 
 ```
 compiled/                 build output, and the only thing most consumers need
-  kanji.json              all 2,300 kanji with KKLC step, JLPT level, frequency
+  kanji.json              3,128 kanji: meanings, readings, strokes, radical, components, and their place in each learning order (KKLC, RTK, ...)
+  kanji/{character}.json  one file per kanji, the same entry as in kanji.json
   vocab/{id}.json         one file per word, keyed by JMDict id
   sentences/{id}.json     example sentences for that word, with match offsets
   grammar/points/{id}.json  grammar point with formation, explanation, examples
@@ -67,6 +68,8 @@ compiled/                 build output, and the only thing most consumers need
     jlpt.json             JLPT level to word ids
     kklc.json             KKLC step to word ids
     kanji-vocab.json      kanji to the words containing it
+    kanji-components.json visual component to the kanji drawn with it
+    kanji-orders/{order}.json  the kanji of one learning order (KKLC, RTK, JLPT...) in teaching order
     search.json           compact search index: written form, reading, gloss
 data/raw/                 upstream sources, Git LFS tracked
 scripts/                  the build pipeline
@@ -101,7 +104,7 @@ Only needed if you are changing the pipeline. It reads from `data/raw/`, which i
 
 ```bash
 bun install
-bun run build:kanji    # kanji.json and index/kklc-kanji.json
+bun run build:kanji    # kanji.json, kanji/, index/kklc-kanji.json, index/kanji-orders/ and index/kanji-components.json
 bun run build:data     # the full vocabulary and sentence pipeline, roughly 1 to 2 minutes
 bun run build:jlpt     # index/jlpt.json, a fast pass over compiled vocabulary
 bun run build:jlpt-coverage  # docs/JLPT_COVERAGE.md, the JLPT entries no compiled word answers
@@ -131,6 +134,7 @@ The compiled output is a derivative work of several upstream sources, each with 
 | Source | Provides | Terms |
 |---|---|---|
 | [JMDict](https://www.edrdg.org/edrdg/licence.html) | Dictionary entries, glosses | CC BY-SA 4.0, attribution to EDRDG required |
+| [KANJIDIC2](https://www.edrdg.org/wiki/index.php/KANJIDIC_Project), [KRADFILE/RADKFILE](https://www.edrdg.org/krad/kradinf.html) | Kanji meanings, readings, strokes, grade, radical, book orders (`kanji.json`); components (`data/raw/kanji/`, as JSON from [jmdict-simplified](https://github.com/scriptin/jmdict-simplified) 3.6.2) | CC BY-SA 4.0, attribution to EDRDG required. KANJIDIC2's SKIP codes have commercial-use restrictions and are not used |
 | [Tatoeba](https://tatoeba.org/en/terms_of_use) | Example sentences | Per-sentence, mostly CC BY 2.0 FR |
 | [ppasupat/vocab-kanji](https://github.com/ppasupat/vocab-kanji) | KKLC step data | See that repository |
 | [JPDB](https://jpdb.io) | Frequency data | See their terms |
