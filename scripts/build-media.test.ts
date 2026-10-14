@@ -94,9 +94,9 @@ describe('covers', () => {
 
     it('attaches an AniList cover URL, credited, when one was fetched', () => {
         const title = compileTitle(snapshot(), resolver, {
-            anilistId: 17549, url: 'https://s4.anilist.co/a.png', urlHiRes: 'https://s4.anilist.co/b.png', color: '#50e4bb',
+            anilistId: 17549, urlSmall: 'https://s4.anilist.co/s.png', url: 'https://s4.anilist.co/a.png', urlHiRes: 'https://s4.anilist.co/b.png', color: '#50e4bb',
         });
-        expect(title.cover).toEqual({ url: 'https://s4.anilist.co/a.png', urlHiRes: 'https://s4.anilist.co/b.png', color: '#50e4bb', source: 'AniList' });
+        expect(title.cover).toEqual({ urlSmall: 'https://s4.anilist.co/s.png', url: 'https://s4.anilist.co/a.png', urlHiRes: 'https://s4.anilist.co/b.png', color: '#50e4bb', source: 'AniList' });
     });
 
     it('leaves the cover out when none was fetched', () => {

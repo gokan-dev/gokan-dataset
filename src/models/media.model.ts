@@ -65,6 +65,8 @@ export interface JitenMediaSnapshot {
  */
 export interface MediaCoverSnapshot {
     anilistId: number;
+    /** About 100px wide, for thumbnails (a hub row, a library list). */
+    urlSmall: string;
     /** About 230px wide, for cards. */
     url: string;
     /** About 460px wide, for a title's own page. */
@@ -108,7 +110,7 @@ export interface MediaIndexEntry {
      * artwork belongs to its studio, so only the URL is stored and a consumer
      * loads it from AniList.
      */
-    cover?: { url: string; urlHiRes: string; color?: string; source: 'AniList' };
+    cover?: { urlSmall: string; url: string; urlHiRes: string; color?: string; source: 'AniList' };
     source: { name: 'Jiten'; url: string; license: 'CC BY-SA 4.0' };
 }
 

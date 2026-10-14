@@ -87,7 +87,7 @@ export function compileTitle(snapshot: JitenMediaSnapshot, resolve: VocabResolve
             ...(linkOf(LINK_TYPE_MYANIMELIST) ? { myanimelist: linkOf(LINK_TYPE_MYANIMELIST) } : {}),
         },
         ...(cover ? {
-            cover: { url: cover.url, urlHiRes: cover.urlHiRes, ...(cover.color ? { color: cover.color } : {}), source: 'AniList' as const },
+            cover: { urlSmall: cover.urlSmall, url: cover.url, urlHiRes: cover.urlHiRes, ...(cover.color ? { color: cover.color } : {}), source: 'AniList' as const },
         } : {}),
         source: { name: 'Jiten', url: snapshot.sourceUrl, license: 'CC BY-SA 4.0' },
         episodes: snapshot.episodes.map(episode => ({

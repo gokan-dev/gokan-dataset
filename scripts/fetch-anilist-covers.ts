@@ -24,13 +24,13 @@ const ANILIST_LINK = /anilist\.co\/anime\/(\d+)/;
 
 const QUERY = `query ($ids: [Int]) {
   Page(perPage: 50) {
-    media(id_in: $ids, type: ANIME) { id coverImage { large extraLarge color } }
+    media(id_in: $ids, type: ANIME) { id coverImage { medium large extraLarge color } }
   }
 }`;
 
 interface AniListMedia {
     id: number;
-    coverImage: { large: string | null; extraLarge: string | null; color: string | null };
+    coverImage: { medium: string | null; large: string | null; extraLarge: string | null; color: string | null };
 }
 
 /** The AniList id a snapshot links to, or null when Jiten records none. */
@@ -80,6 +80,9 @@ async function main() {
         }
         covers[deckId] = {
             anilistId,
+            // AniList's API names its sizes one step up from its CDN paths:
+            // `medium` is the CDN's small (100px), `large` its medium (230px).
+            urlSmall: media.coverImage.medium ?? url,
             url,
             urlHiRes: media.coverImage.extraLarge ?? url,
             ...(media.coverImage.color ? { color: media.coverImage.color } : {}),
