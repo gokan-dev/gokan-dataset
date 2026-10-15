@@ -67,6 +67,46 @@ export function parseIndices(indices: string | undefined): IndexedWord[] {
     });
 }
 
+/** A span of a sentence written in kana that Tatoeba's annotation ties to an entry. */
+export interface AnnotatedKanaSpan {
+    start: number;
+    length: number;
+    /** The JMdict headword Tatoeba names: 其れ for それ, 為る for して. */
+    headword: string;
+    /** The exact JMdict entry, when Tatoeba names it: 抱く(#1584090){いだく}. */
+    entryId?: string;
+}
+
+const KANA_ONLY = /^[぀-ヿー]+$/;
+
+/**
+ * The kana spans of a sentence that Tatoeba's annotation ties to an entry: それ in
+ * 其れ{それ}, して in 為る(する){して}, ください in 下さい{ください}. The tokenizer finds a
+ * word by its written forms, so a word written in kana but listed under a kanji spelling
+ * (其れ, 此の, 為る) is invisible to it; the annotation names the entry, so linking the
+ * span guesses nothing. A kana headword counts only with an entry id: without one it
+ * names a spelling, not an entry (どう is also 堂).
+ *
+ * The annotation lists words in sentence order, so each is found after the previous one.
+ * A word whose written form is not found (a stale annotation) is skipped without moving
+ * on, and a span must start and end on a boundary of the sentence's tokens, so a kana run
+ * found inside another word (し in 話して) is never linked.
+ */
+export function annotatedKanaSpans(text: string, words: IndexedWord[], boundaries: ReadonlySet<number>): AnnotatedKanaSpan[] {
+    const spans: AnnotatedKanaSpan[] = [];
+    let cursor = 0;
+    for (const w of words) {
+        const written = w.surface ?? w.headword;
+        const start = text.indexOf(written, cursor);
+        if (start < 0) continue;
+        cursor = start + written.length;
+        if (!KANA_ONLY.test(written) || (KANA_ONLY.test(w.headword) && !w.entryId)) continue;
+        if (!boundaries.has(start) || !boundaries.has(cursor)) continue;
+        spans.push({ start, length: written.length, headword: w.headword, ...(w.entryId ? { entryId: w.entryId } : {}) });
+    }
+    return spans;
+}
+
 /**
  * The reading Tatoeba gives this word where it occurs as `surface`: an annotated word
  * spelled like the vocab (any of its written forms) whose surface is the span. Only

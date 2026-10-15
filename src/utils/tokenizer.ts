@@ -14,6 +14,7 @@ function katakanaToHiragana(katakana: string): string {
 
 export class SentenceTokenizer {
     private tokenizer: Tokenizer<IpadicFeatures>;
+    private last?: { text: string; tokens: IpadicFeatures[] };
 
     constructor(tokenizer: Tokenizer<IpadicFeatures>) {
         this.tokenizer = tokenizer;
@@ -28,7 +29,7 @@ export class SentenceTokenizer {
     public extractMatches(text: string, vocabularies: string[] | Set<string>): Record<string, TokenMatch[]> {
         const matches: Record<string, TokenMatch[]> = {};
         const vocabSet = vocabularies instanceof Set ? vocabularies : new Set(vocabularies);
-        const tokens = this.tokenizer.tokenize(text);
+        const tokens = this.tokenize(text);
 
         for (let i = 0; i < tokens.length; i++) {
             const token = tokens[i];
@@ -121,5 +122,18 @@ export class SentenceTokenizer {
         }
 
         return matches;
+    }
+
+    /** Where the sentence's tokens start and end, as character offsets (0 and its length included). */
+    public tokenBoundaries(text: string): Set<number> {
+        const boundaries = new Set<number>([0]);
+        for (const token of this.tokenize(text)) boundaries.add(token.word_position - 1 + token.surface_form.length);
+        return boundaries;
+    }
+
+    /** The last sentence's tokens are kept, so asking its boundaries after its matches tokenizes it once. */
+    private tokenize(text: string): IpadicFeatures[] {
+        if (this.last?.text !== text) this.last = { text, tokens: this.tokenizer.tokenize(text) };
+        return this.last.tokens;
     }
 }

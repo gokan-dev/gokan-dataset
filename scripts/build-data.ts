@@ -22,8 +22,8 @@ import {
 import { readWallerDecks, readWallerIdList, resolveJlptLevels, type JlptCorrections, type JmdictWordLike } from './jlpt-levels';
 import { inheritJlptLevels } from './jlpt-derived';
 import { BUILD_LIMITS } from './build-constants';
-import { disambiguateByReading, inflects, particleSpelledIds, resolveSentenceMatch, type ReadingVocab } from '../src/utils/readingDisambiguation';
-import { annotationFor, curatedReading, occurrenceReading, parseIndices, type ReadingSource } from '../src/utils/sentenceReading';
+import { disambiguateByReading, inflects, kataToHira, particleSpelledIds, resolveSentenceMatch, type ReadingVocab } from '../src/utils/readingDisambiguation';
+import { annotatedKanaSpans, annotationFor, curatedReading, occurrenceReading, parseIndices, type ReadingSource } from '../src/utils/sentenceReading';
 
 // --- Configuration ---
 const INPUT_JMDICT_FILE = './data/raw/jmdict.json';
@@ -489,6 +489,15 @@ async function main() {
         }
     }
 
+    // The words holding each JMdict entry, as their own id or a merged homograph, for
+    // annotations that name the entry (抱く(#1584090){いだく}).
+    const entryOwners = new Map<string, string[]>();
+    for (const vocab of vocabById.values()) {
+        for (const entryId of new Set([vocab.id, ...(vocab.mergedVocabs ?? []).map(m => m.id)])) {
+            entryOwners.set(entryId, [...(entryOwners.get(entryId) ?? []), vocab.id]);
+        }
+    }
+
     // Tokenize
     const matchStats = sentenceMatchStats();
     let processedSentences = 0;
@@ -522,8 +531,19 @@ async function main() {
             const surface = text.slice(match.start, match.start + match.length);
             const ids = resolveSentenceMatch(term, vocabIds, match.reading, vocabById, annotationFor(indexed, surface), particleSpelled);
             for (const id of vocabIds) if (!ids.includes(id)) matchStats.dropped(term, id, match.reading, text);
-            return ids.length ? [{ term, match, ids }] : [];
+            return ids.length ? [{ term, match, ids, annotated: false }] : [];
         });
+        // A word written in kana under a kanji headword (それ for 其れ) is found only
+        // through Tatoeba's annotation, which names the entry: see annotatedKanaSpans.
+        for (const span of annotatedKanaSpans(text, indexed, sentenceTokenizer.tokenBoundaries(text))) {
+            const surface = text.slice(span.start, span.start + span.length);
+            const candidates = [...new Set([...(writtenToVocabId.get(span.headword) ?? []), ...(span.entryId ? entryOwners.get(span.entryId) ?? [] : [])])];
+            const annotation = annotationFor(indexed, surface);
+            const reading = kataToHira(surface);
+            const ids = resolveSentenceMatch(span.headword, candidates, reading, vocabById, annotation && { ...annotation, ...(span.entryId ? { entryId: span.entryId } : {}) }, particleSpelled)
+                .filter(id => !resolvedMatches.some(r => r.match.start === span.start && r.match.length === span.length && r.ids.includes(id)));
+            if (ids.length) resolvedMatches.push({ term: span.headword, match: { start: span.start, length: span.length, reading }, ids, annotated: true });
+        }
 
         // Whether a word is kept for being used in a sentence is decided as it always was
         // (longest match, homographs split by reading), not by the stricter resolution
@@ -533,7 +553,8 @@ async function main() {
             vocabUsageCount.set(id, (vocabUsageCount.get(id) ?? 0) + 1);
         }
 
-        resolvedMatches.sort((a, b) => b.match.length - a.match.length || b.term.length - a.term.length);
+        // On the same span, the annotation names the entry where the tokenizer only matched a spelling.
+        resolvedMatches.sort((a, b) => b.match.length - a.match.length || Number(b.annotated) - Number(a.annotated) || b.term.length - a.term.length);
         const acceptedMatches: typeof resolvedMatches = [];
 
         for (const entry of resolvedMatches) {
@@ -549,7 +570,8 @@ async function main() {
         const matches: Record<string, { start: number, length: number, reading?: string }[]> = {};
         const matchedVocabIds: string[] = [];
 
-        for (const { term, match, ids } of acceptedMatches) {
+        for (const { term, match, ids, annotated } of acceptedMatches) {
+            if (annotated) matchStats.annotated(text.slice(match.start, match.start + match.length), term, ids, text);
             const surface = text.slice(match.start, match.start + match.length);
             for (const vId of ids) {
                 if (!matches[vId]) {
@@ -898,6 +920,7 @@ function sentenceMatchStats() {
     const dropped = new Map<string, { count: number; sample: string }>();
     const sources: Record<ReadingSource, number> = { tatoeba: 0, tokenizer: 0, learned: 0 };
     const changed = new Map<string, { count: number; sample: string }>();
+    const annotated = new Map<string, { count: number; sample: string }>();
     const bump = (map: Map<string, { count: number; sample: string }>, key: string, sample: string) => {
         const row = map.get(key);
         if (row) row.count++;
@@ -906,6 +929,10 @@ function sentenceMatchStats() {
     return {
         dropped(term: string, id: string, reading: string | undefined, text: string) {
             bump(dropped, `${term} -> ${id} (read ${reading ?? '?'})`, text);
+        },
+        /** A kana span linked through Tatoeba's annotation (annotatedKanaSpans), kept after overlaps. */
+        annotated(surface: string, headword: string, ids: string[], text: string) {
+            bump(annotated, `${surface} -> ${headword} (${ids.join(', ')})`, text);
         },
         reading(source: ReadingSource, vocab: ReadingVocab, surface: string, tokenizer: string | undefined, shown: string | undefined) {
             sources[source]++;
@@ -916,12 +943,15 @@ function sentenceMatchStats() {
                 [...map].sort((a, b) => b[1].count - a[1].count).map(([k, v]) => `${v.count}\t${k}${v.sample ? '\t' + v.sample : ''}`);
             const droppedTotal = [...dropped.values()].reduce((n, v) => n + v.count, 0);
             const changedTotal = [...changed.values()].reduce((n, v) => n + v.count, 0);
+            const annotatedSpans = [...annotated.values()].reduce((n, v) => n + v.count, 0);
             fs.writeFileSync(file, [
                 `furigana sources: ${JSON.stringify(sources)}; changed from the tokenizer: ${changedTotal}`,
                 `candidates dropped: ${droppedTotal}`,
+                `kana spans linked through the annotation: ${annotatedSpans}`,
                 '', '## dropped', ...top(dropped), '', '## furigana changed', ...top(changed),
+                '', '## linked through the annotation', ...top(annotated),
             ].join('\n'));
-            console.log(`   - Furigana: ${JSON.stringify(sources)}, ${changedTotal} changed from the tokenizer; ${droppedTotal} wrong word candidates dropped (see ${file}).`);
+            console.log(`   - Furigana: ${JSON.stringify(sources)}, ${changedTotal} changed from the tokenizer; ${droppedTotal} wrong word candidates dropped; ${annotatedSpans} kana spans linked through the annotation (see ${file}).`);
         },
     };
 }
