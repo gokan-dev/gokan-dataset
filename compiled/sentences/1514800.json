@@ -10,6 +10,7 @@
     ],
     "indices": "六月{６月} 末(まつ)[01] に 参加者 を 募る{募ったら} 一週間{１週間} 弱~ で(#2028980) 約 席(せき) が 予約 で(#2028980) 一杯{いっぱい} になる{になった}",
     "vocabIds": [
+      "1165670",
       "1514800",
       "1302110",
       "1163270",
@@ -27,6 +28,13 @@
           "start": 12,
           "length": 3,
           "reading": "いっしゅうかん"
+        }
+      ],
+      "1165670": [
+        {
+          "start": 26,
+          "length": 4,
+          "reading": "いっぱい"
         }
       ],
       "1268060": [
@@ -95,6 +103,101 @@
     }
   },
   {
+    "id": "75487",
+    "original": "高校時代からつきあっている彼氏はいるものの、つきあいが惰性になっていると感じ、不満をつのらせている。",
+    "en": [
+      {
+        "id": "328231",
+        "text": "She has a boyfriend she's been going out with since high school but feels their relationship has become a matter of habit and is increasingly dissatisfied."
+      },
+      {
+        "id": "1334078",
+        "text": "She has a boyfriend she's been going out with since high school, but she feels their relationship has stagnated, so she's become dissatisfied."
+      },
+      {
+        "id": "1334080",
+        "text": "She has a boyfriend she's been going out with since high school, but she feels their relationship is in a rut, so she's become discontented."
+      }
+    ],
+    "indices": "高校 時代 から 付き合う{つきあっている} 彼氏 は 居る(いる){いる} ものの 付き合い{つきあい} が 惰性[01]~ になる{になっている} と 感じる{感じ} 不満 を 募る[01]{つのらせている}",
+    "vocabIds": [
+      "1597790",
+      "1514800",
+      "1495640",
+      "2651120",
+      "1577980",
+      "1212260",
+      "1483140",
+      "1408570",
+      "1494970"
+    ],
+    "matches": {
+      "1212260": [
+        {
+          "start": 36,
+          "length": 2,
+          "reading": "かんじ"
+        }
+      ],
+      "1408570": [
+        {
+          "start": 27,
+          "length": 2,
+          "reading": "だせい"
+        }
+      ],
+      "1483140": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "かれし"
+        }
+      ],
+      "1494970": [
+        {
+          "start": 39,
+          "length": 2,
+          "reading": "ふまん"
+        }
+      ],
+      "1495640": [
+        {
+          "start": 22,
+          "length": 4,
+          "reading": "つきあい"
+        }
+      ],
+      "1514800": [
+        {
+          "start": 42,
+          "length": 7,
+          "reading": "つのらせている"
+        }
+      ],
+      "1577980": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "いる"
+        }
+      ],
+      "1597790": [
+        {
+          "start": 6,
+          "length": 7,
+          "reading": "つきあっている"
+        }
+      ],
+      "2651120": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "こうこうじだい"
+        }
+      ]
+    }
+  },
+  {
     "id": "76047",
     "original": "社会保険庁や厚生労働省への不信感は募る一方である。",
     "en": [
@@ -109,7 +212,8 @@
       "1980230",
       "2106140",
       "1514800",
-      "1166510"
+      "1166510",
+      "1469800"
     ],
     "matches": {
       "1166510": [
@@ -117,6 +221,13 @@
           "start": 19,
           "length": 2,
           "reading": "いっぽう"
+        }
+      ],
+      "1469800": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "の"
         }
       ],
       "1514800": [
@@ -150,6 +261,245 @@
     }
   },
   {
+    "id": "76271",
+    "original": "革命政府は、民衆から兵をつのって防戦するとともに、共和政治を確立して、捕らえていたルイ１６世を処刑しました。",
+    "en": [
+      {
+        "id": "327449",
+        "text": "The revolutionary government, while raising troops from the masses and fighting a defensive battle, established a republic and executed Louis XVI."
+      }
+    ],
+    "indices": "革命政府~ は 民衆 から 兵(へい)[01]~ を 募る[02]{つのって} 防戦~ 為る(する){する} と共に{とともに} 共和政治~ を[01] 確立 為る(する){して} 捕らえる{捕らえていた} 世(せい)[01] を[01] 処刑 為る(する){しました}",
+    "vocabIds": [
+      "1598960",
+      "1008830",
+      "1514800",
+      "1157170",
+      "2121820",
+      "1235370",
+      "1528920",
+      "1611520",
+      "1206030",
+      "1342430",
+      "2067560",
+      "1160790",
+      "1585310",
+      "1605810"
+    ],
+    "matches": {
+      "1008830": [
+        {
+          "start": 20,
+          "length": 4,
+          "reading": "とともに"
+        }
+      ],
+      "1157170": [
+        {
+          "start": 49,
+          "length": 4,
+          "reading": "しました"
+        },
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "する"
+        },
+        {
+          "start": 32,
+          "length": 2,
+          "reading": "して"
+        }
+      ],
+      "1160790": [
+        {
+          "start": 43,
+          "length": 1,
+          "reading": "いち"
+        }
+      ],
+      "1206030": [
+        {
+          "start": 30,
+          "length": 2,
+          "reading": "かくりつ"
+        }
+      ],
+      "1235370": [
+        {
+          "start": 25,
+          "length": 4,
+          "reading": "きょうわせいじ"
+        }
+      ],
+      "1342430": [
+        {
+          "start": 47,
+          "length": 2,
+          "reading": "しょけい"
+        }
+      ],
+      "1514800": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "つのって"
+        }
+      ],
+      "1528920": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "みんしゅう"
+        }
+      ],
+      "1585310": [
+        {
+          "start": 44,
+          "length": 1,
+          "reading": "ろく"
+        }
+      ],
+      "1598960": [
+        {
+          "start": 35,
+          "length": 6,
+          "reading": "とらえていた"
+        }
+      ],
+      "1605810": [
+        {
+          "start": 45,
+          "length": 1,
+          "reading": "せい"
+        }
+      ],
+      "1611520": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "ぼうせん"
+        }
+      ],
+      "2067560": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "へい"
+        }
+      ],
+      "2121820": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "かくめいせいふ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "76549",
+    "original": "つながれているという思いがつのった。",
+    "en": [
+      {
+        "id": "327171",
+        "text": "Thoughts of being trapped grew stronger."
+      }
+    ],
+    "indices": "繋がる{つながれている} と言う{という} 思い が 募る[01]{つのった}",
+    "vocabIds": [
+      "1251880",
+      "1514800",
+      "1922760",
+      "1589320"
+    ],
+    "matches": {
+      "1251880": [
+        {
+          "start": 0,
+          "length": 7,
+          "reading": "つながれている"
+        }
+      ],
+      "1514800": [
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "つのった"
+        }
+      ],
+      "1589320": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "おもい"
+        }
+      ],
+      "1922760": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "という"
+        }
+      ]
+    }
+  },
+  {
+    "id": "83799",
+    "original": "物価の上昇は消費者の不安をつのらせています。",
+    "en": [
+      {
+        "id": "319917",
+        "text": "Rising costs are fueling anxieties among consumers."
+      }
+    ],
+    "indices": "物価 の 上昇 は 消費者 の 不安 を 募る[01]{つのらせています}",
+    "vocabIds": [
+      "1514800",
+      "1350300",
+      "1502430",
+      "1353450",
+      "1491150"
+    ],
+    "matches": {
+      "1350300": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "しょうひしゃ"
+        }
+      ],
+      "1353450": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "じょうしょう"
+        }
+      ],
+      "1491150": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "ふあん"
+        }
+      ],
+      "1502430": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ぶっか"
+        }
+      ],
+      "1514800": [
+        {
+          "start": 13,
+          "length": 8,
+          "reading": "つのらせています"
+        }
+      ]
+    }
+  },
+  {
     "id": "143433",
     "original": "世界の航空産業は墜落事故についての懸念を募らせている。",
     "en": [
@@ -160,6 +510,7 @@
     ],
     "indices": "世界 の 航空 産業 は 墜落事故 に就いて{について} の 懸念~ を 募る[01]{募らせている}~",
     "vocabIds": [
+      "1009780",
       "1713670",
       "1373860",
       "1281270",
@@ -168,6 +519,13 @@
       "1514800"
     ],
     "matches": {
+      "1009780": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "について"
+        }
+      ],
       "1257720": [
         {
           "start": 17,
@@ -294,6 +652,45 @@
           "start": 3,
           "length": 3,
           "reading": "たいしょくしゃ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "231481",
+    "original": "あなたへの愛はつのる。",
+    "en": [
+      {
+        "id": "68846",
+        "text": "I'm more in love with you."
+      }
+    ],
+    "indices": "貴方(あなた)[01]{あなた} へ の 愛 は 募る[01]{つのる}",
+    "vocabIds": [
+      "1223615",
+      "1514800",
+      "1150410"
+    ],
+    "matches": {
+      "1150410": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "あい"
+        }
+      ],
+      "1223615": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あなた"
+        }
+      ],
+      "1514800": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "つのる"
         }
       ]
     }

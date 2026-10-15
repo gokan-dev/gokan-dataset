@@ -1,5 +1,327 @@
 [
   {
+    "id": "5171",
+    "original": "「おはよう」とトムは微笑みながら言った。",
+    "en": [
+      {
+        "id": "1780",
+        "text": "\"Good morning\", said Tom with a smile."
+      },
+      {
+        "id": "6701218",
+        "text": "\"Good morning,\" Tom said, smiling."
+      },
+      {
+        "id": "11569107",
+        "text": "\"Good morning,\" said Tom with a smile."
+      }
+    ],
+    "indices": "お早う{おはよう} と は[01] 微笑む{微笑み} 乍ら[01]{ながら} 言う{言った}",
+    "vocabIds": [
+      "1486030",
+      "1612820",
+      "1587040"
+    ],
+    "matches": {
+      "1486030": [
+        {
+          "start": 10,
+          "length": 6,
+          "reading": "ほほえみながら"
+        }
+      ],
+      "1587040": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "いった"
+        }
+      ],
+      "1612820": [
+        {
+          "start": 1,
+          "length": 4,
+          "reading": "おはよう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "75390",
+    "original": "「おはよう。今日は早いね」「アナタこそ、まだぐうすか寝てると思ってたのに」",
+    "en": [
+      {
+        "id": "328329",
+        "text": "\"Morning. You're early today.\" \"You too. I thought you'd still be dead to the world.\""
+      }
+    ],
+    "indices": "お早う{おはよう} 今日 は 早い ね 貴方(あなた)[01]{アナタ} こそ 未だ[01]{まだ} グースカ{ぐうすか}~ 寝る{寝てる} と 思う{思ってた} のに",
+    "vocabIds": [
+      "1589350",
+      "1612820",
+      "1223615",
+      "1289400",
+      "1360010",
+      "1527110",
+      "1404975"
+    ],
+    "matches": {
+      "1223615": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "あなた"
+        }
+      ],
+      "1289400": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "こんにちは"
+        }
+      ],
+      "1360010": [
+        {
+          "start": 26,
+          "length": 3,
+          "reading": "ねてる"
+        }
+      ],
+      "1404975": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "はやい"
+        }
+      ],
+      "1527110": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "まだ"
+        }
+      ],
+      "1589350": [
+        {
+          "start": 30,
+          "length": 6,
+          "reading": "おもってたのに"
+        }
+      ],
+      "1612820": [
+        {
+          "start": 1,
+          "length": 4,
+          "reading": "おはよう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "76823",
+    "original": "おはよう。春樹兄さん。寝癖ついてるよ。",
+    "en": [
+      {
+        "id": "326897",
+        "text": "Morning, Haruki. You've got bed hair."
+      },
+      {
+        "id": "525232",
+        "text": "Good morning, Haruki. Your hair got messed up while you were sleeping."
+      },
+      {
+        "id": "525233",
+        "text": "Good morning, Haruki. Your hair looks like you just got out of bed."
+      }
+    ],
+    "indices": "お早う{おはよう} 兄さん 寝癖[01] 付く(つく){ついてる} よ[01]",
+    "vocabIds": [
+      "1612820",
+      "1495740",
+      "1249910",
+      "1793060"
+    ],
+    "matches": {
+      "1249910": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "にいさん"
+        }
+      ],
+      "1495740": [
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "ついてる"
+        }
+      ],
+      "1612820": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "おはよう"
+        }
+      ],
+      "1793060": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "ねぐせ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "76824",
+    "original": "おはよう。ご飯をよそっても良いかしら？",
+    "en": [
+      {
+        "id": "326896",
+        "text": "Morning. Shall I dish up?"
+      }
+    ],
+    "indices": "お早う{おはよう}~ ご飯[02] を 装う(よそう)[01]{よそって}~ も 良い かしら",
+    "vocabIds": [
+      "1612820",
+      "1402280",
+      "1270590",
+      "1605820"
+    ],
+    "matches": {
+      "1270590": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ごはん"
+        }
+      ],
+      "1402280": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "よそって"
+        }
+      ],
+      "1605820": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "よい"
+        }
+      ],
+      "1612820": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "おはよう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "89586",
+    "original": "彼女は私に『おはよう』と挨拶をした。",
+    "en": [
+      {
+        "id": "314129",
+        "text": "She greeted me with \"Good morning.\""
+      }
+    ],
+    "indices": "彼女[01] は 私(わたし)[01] に お早う{おはよう} と 挨拶[01] を 為る(する){した}",
+    "vocabIds": [
+      "1612820",
+      "1157170",
+      "1483150",
+      "1151120",
+      "1311110"
+    ],
+    "matches": {
+      "1151120": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "あいさつ"
+        }
+      ],
+      "1157170": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "した"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1612820": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "おはよう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "89588",
+    "original": "彼女は私に「おはよう」とさえ言わなかった。",
+    "en": [
+      {
+        "id": "314127",
+        "text": "She did not so much as say \"Good morning\" to me."
+      }
+    ],
+    "indices": "彼女[01] は 私(わたし)[01] に お早う{おはよう} と さえ 言う{言わなかった}",
+    "vocabIds": [
+      "1587040",
+      "1612820",
+      "1483150",
+      "1311110"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1587040": [
+        {
+          "start": 14,
+          "length": 6,
+          "reading": "いわなかった"
+        }
+      ],
+      "1612820": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "おはよう"
+        }
+      ]
+    }
+  },
+  {
     "id": "182422",
     "original": "なぜ、早くないのに、「お早う」というのでしょう？",
     "en": [
@@ -24,6 +346,134 @@
         {
           "start": 11,
           "length": 3,
+          "reading": "おはよう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "184991",
+    "original": "皆さんおはよう。",
+    "en": [
+      {
+        "id": "22122",
+        "text": "Good morning, everybody."
+      },
+      {
+        "id": "22127",
+        "text": "Good morning, everyone."
+      }
+    ],
+    "indices": "皆さん お早う{おはよう}",
+    "vocabIds": [
+      "1612820",
+      "1202170"
+    ],
+    "matches": {
+      "1202170": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "みなさん"
+        }
+      ],
+      "1612820": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "おはよう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "193149",
+    "original": "やぁ、トム。おはよう。",
+    "en": [
+      {
+        "id": "30314",
+        "text": "Hello, Tom. Good morning."
+      }
+    ],
+    "indices": "やあ{やぁ} お早う{おはよう}",
+    "vocabIds": [
+      "1612820"
+    ],
+    "matches": {
+      "1612820": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "おはよう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "227563",
+    "original": "おはよう僕のかわいい犬。",
+    "en": [
+      {
+        "id": "64916",
+        "text": "Good morning, my sweet dog."
+      }
+    ],
+    "indices": "お早う{おはよう} 僕(ぼく)[01] の 可愛い(かわいい)[01]{かわいい} 犬[01]",
+    "vocabIds": [
+      "1612820",
+      "1577200",
+      "1521400",
+      "1258330"
+    ],
+    "matches": {
+      "1258330": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "いぬ"
+        }
+      ],
+      "1521400": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "ぼく"
+        }
+      ],
+      "1577200": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "かわいい"
+        }
+      ],
+      "1612820": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "おはよう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "227565",
+    "original": "おはよう、マイク。",
+    "en": [
+      {
+        "id": "64918",
+        "text": "Good morning, Mike."
+      }
+    ],
+    "indices": "お早う{おはよう}",
+    "vocabIds": [
+      "1612820"
+    ],
+    "matches": {
+      "1612820": [
+        {
+          "start": 0,
+          "length": 4,
           "reading": "おはよう"
         }
       ]

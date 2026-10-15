@@ -12,9 +12,17 @@
     "vocabIds": [
       "2179120",
       "1340450",
+      "1006730",
       "1502760"
     ],
     "matches": {
+      "1006730": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "そして"
+        }
+      ],
       "1340450": [
         {
           "start": 11,
@@ -34,6 +42,65 @@
           "start": 23,
           "length": 6,
           "reading": "ためいきをつく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "212793",
+    "original": "そのニュースを聞いて彼女はがっかりしてためいきをついた。",
+    "en": [
+      {
+        "id": "50078",
+        "text": "She sighed with disappointment at the news."
+      },
+      {
+        "id": "662618",
+        "text": "When she heard the news, she sighed disappointedly."
+      }
+    ],
+    "indices": "其の[01]{その} ニュース を 聞く{聞いて} 彼女[01] は がっかり 為る(する){して} ため息をつく{ためいきをついた}",
+    "vocabIds": [
+      "2179120",
+      "1591110",
+      "1006830",
+      "1157170",
+      "1483150"
+    ],
+    "matches": {
+      "1006830": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "その"
+        }
+      ],
+      "1157170": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "して"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1591110": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "きいて"
+        }
+      ],
+      "2179120": [
+        {
+          "start": 19,
+          "length": 8,
+          "reading": "ためいきをついた"
         }
       ]
     }

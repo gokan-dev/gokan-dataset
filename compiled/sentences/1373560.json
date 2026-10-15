@@ -39,6 +39,206 @@
     }
   },
   {
+    "id": "206739",
+    "original": "その坊やはツバメとスズメが区別できない。",
+    "en": [
+      {
+        "id": "43987",
+        "text": "The boy can't tell a swallow from a sparrow."
+      }
+    ],
+    "indices": "其の[01]{その} 坊や は 燕[01]{ツバメ} と 雀{スズメ} が 区別 出来る[01]{できない}",
+    "vocabIds": [
+      "1340450",
+      "1177350",
+      "1373560",
+      "1006830",
+      "1519060",
+      "1244250"
+    ],
+    "matches": {
+      "1006830": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "その"
+        }
+      ],
+      "1177350": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "つばめ"
+        }
+      ],
+      "1244250": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "くべつ"
+        }
+      ],
+      "1340450": [
+        {
+          "start": 15,
+          "length": 4,
+          "reading": "できない"
+        }
+      ],
+      "1373560": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "すずめ"
+        }
+      ],
+      "1519060": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ぼうや"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214689",
+    "original": "すずめ百まで踊り忘れず。",
+    "en": [
+      {
+        "id": "30103",
+        "text": "What is learned in the cradle is carried to the tomb."
+      }
+    ],
+    "indices": "雀{すずめ} 百 迄{まで} 踊り 忘れる{忘れず}",
+    "vocabIds": [
+      "1373560",
+      "1519210",
+      "1525680",
+      "1538440",
+      "1488000"
+    ],
+    "matches": {
+      "1373560": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "すずめ"
+        }
+      ],
+      "1488000": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "ひゃく"
+        }
+      ],
+      "1519210": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "わすれず"
+        }
+      ],
+      "1525680": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "まで"
+        }
+      ],
+      "1538440": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "おどり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214691",
+    "original": "スズメの鳴き声一つしなかった。",
+    "en": [
+      {
+        "id": "51984",
+        "text": "Not a single sparrow was to be heard."
+      },
+      {
+        "id": "11821664",
+        "text": "Not a single sparrow chirped."
+      }
+    ],
+    "indices": "雀{スズメ}~ の 鳴き声 一つ[04] 為る(する){しなかった}",
+    "vocabIds": [
+      "1157170",
+      "1373560",
+      "1532860",
+      "1160820"
+    ],
+    "matches": {
+      "1157170": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "しなかった"
+        }
+      ],
+      "1160820": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ひとつ"
+        }
+      ],
+      "1373560": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "すずめ"
+        }
+      ],
+      "1532860": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "なきごえ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214692",
+    "original": "すずめが飛び回っていた。",
+    "en": [
+      {
+        "id": "51985",
+        "text": "Sparrows were flying about."
+      }
+    ],
+    "indices": "雀{すずめ} が 飛び回る{飛び回っていた}",
+    "vocabIds": [
+      "1485270",
+      "1373560"
+    ],
+    "matches": {
+      "1373560": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "すずめ"
+        }
+      ],
+      "1485270": [
+        {
+          "start": 4,
+          "length": 7,
+          "reading": "とびまわっていた"
+        }
+      ]
+    }
+  },
+  {
     "id": "1127644",
     "original": "窓の外から聞こえてきた雀のチュンチュンという鳴き声で、夜が明けたことを知った。",
     "en": [

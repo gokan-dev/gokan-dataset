@@ -1,5 +1,445 @@
 [
   {
+    "id": "118121",
+    "original": "彼の右足はしびれていた。",
+    "en": [
+      {
+        "id": "285543",
+        "text": "His right leg was asleep."
+      }
+    ],
+    "indices": "彼(かれ)[01]{彼の} 右足[02] は 痺れる{しびれていた}",
+    "vocabIds": [
+      "1569620",
+      "2845746",
+      "1171170"
+    ],
+    "matches": {
+      "1171170": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "みぎあし"
+        }
+      ],
+      "1569620": [
+        {
+          "start": 5,
+          "length": 6,
+          "reading": "しびれていた"
+        }
+      ],
+      "2845746": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれの"
+        }
+      ]
+    }
+  },
+  {
+    "id": "139881",
+    "original": "足がしびれて立てなかった。",
+    "en": [
+      {
+        "id": "274460",
+        "text": "My feet went to sleep and I couldn't stand up."
+      },
+      {
+        "id": "10567928",
+        "text": "I couldn't stand up because my foot had gone to sleep."
+      }
+    ],
+    "indices": "足(あし) が 痺れる{しびれて} 立つ{立てなかった}",
+    "vocabIds": [
+      "1551530",
+      "1569620",
+      "1404630"
+    ],
+    "matches": {
+      "1404630": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "あし"
+        }
+      ],
+      "1551530": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "たてなかった"
+        }
+      ],
+      "1569620": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "しびれて"
+        }
+      ]
+    }
+  },
+  {
+    "id": "139882",
+    "original": "足がしびれている。",
+    "en": [
+      {
+        "id": "274459",
+        "text": "I have feeling in my legs."
+      }
+    ],
+    "indices": "足(あし) が 痺れる{しびれている}",
+    "vocabIds": [
+      "1569620",
+      "1404630"
+    ],
+    "matches": {
+      "1404630": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "あし"
+        }
+      ],
+      "1569620": [
+        {
+          "start": 2,
+          "length": 6,
+          "reading": "しびれている"
+        }
+      ]
+    }
+  },
+  {
+    "id": "139883",
+    "original": "足がしびれた。",
+    "en": [
+      {
+        "id": "274458",
+        "text": "I've got pins and needles in my leg."
+      },
+      {
+        "id": "9018399",
+        "text": "My legs have fallen asleep."
+      },
+      {
+        "id": "1479852",
+        "text": "My foot fell asleep."
+      }
+    ],
+    "indices": "足(あし) が 痺れる{しびれた}",
+    "vocabIds": [
+      "1569620",
+      "1404630"
+    ],
+    "matches": {
+      "1404630": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "あし"
+        }
+      ],
+      "1569620": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "しびれた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "163619",
+    "original": "左腕がしびれてるんだよ。",
+    "en": [
+      {
+        "id": "250893",
+        "text": "My left arm is asleep."
+      }
+    ],
+    "indices": "左腕[01] が 痺れる{しびれてるんだ} よ",
+    "vocabIds": [
+      "1569620",
+      "1614810"
+    ],
+    "matches": {
+      "1569620": [
+        {
+          "start": 3,
+          "length": 7,
+          "reading": "しびれてるんだ"
+        }
+      ],
+      "1614810": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "さわん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "170909",
+    "original": "左足がしびれた。",
+    "en": [
+      {
+        "id": "243571",
+        "text": "My left foot is asleep."
+      }
+    ],
+    "indices": "左足 が 痺れる{しびれた}",
+    "vocabIds": [
+      "1569620",
+      "1290970"
+    ],
+    "matches": {
+      "1290970": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ひだりあし"
+        }
+      ],
+      "1569620": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "しびれた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "170919",
+    "original": "左手がしびれるんです。",
+    "en": [
+      {
+        "id": "499957",
+        "text": "My left hand is numb."
+      }
+    ],
+    "indices": "左手(ひだりて)[01] が 痺れる{しびれるんです}",
+    "vocabIds": [
+      "1569620",
+      "1290900"
+    ],
+    "matches": {
+      "1290900": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ひだりて"
+        }
+      ],
+      "1569620": [
+        {
+          "start": 3,
+          "length": 7,
+          "reading": "しびれるんです"
+        }
+      ]
+    }
+  },
+  {
+    "id": "189898",
+    "original": "右足がしびれちゃった。",
+    "en": [
+      {
+        "id": "27054",
+        "text": "My right foot is sleeping."
+      }
+    ],
+    "indices": "右足[01] が 痺れる{しびれ} じゃう{ちゃった}",
+    "vocabIds": [
+      "1569620",
+      "1171170"
+    ],
+    "matches": {
+      "1171170": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "みぎあし"
+        }
+      ],
+      "1569620": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "しびれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "189908",
+    "original": "右手がしびれます。",
+    "en": [
+      {
+        "id": "27064",
+        "text": "My right hand is numb."
+      }
+    ],
+    "indices": "右手(みぎて)~ が 痺れる[01]{しびれます}~",
+    "vocabIds": [
+      "1569620",
+      "1171120"
+    ],
+    "matches": {
+      "1171120": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "みぎて"
+        }
+      ],
+      "1569620": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "しびれます"
+        }
+      ]
+    }
+  },
+  {
+    "id": "195414",
+    "original": "また足がしびれた。",
+    "en": [
+      {
+        "id": "32588",
+        "text": "My foot's asleep again!"
+      }
+    ],
+    "indices": "又{また} 足(あし)[01]~ が 痺れる{しびれた}",
+    "vocabIds": [
+      "1569620",
+      "1524930",
+      "1404630"
+    ],
+    "matches": {
+      "1404630": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "あし"
+        }
+      ],
+      "1524930": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "また"
+        }
+      ],
+      "1569620": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "しびれた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "207569",
+    "original": "その電線に触るとしびれるよ。",
+    "en": [
+      {
+        "id": "44823",
+        "text": "If you touch that wire, you will receive a shock."
+      }
+    ],
+    "indices": "其の[01]{その} 電線[01] に 触る と 痺れる{しびれる} よ[01]",
+    "vocabIds": [
+      "1569620",
+      "1006830",
+      "1443570",
+      "1357980"
+    ],
+    "matches": {
+      "1006830": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "その"
+        }
+      ],
+      "1357980": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "さわる"
+        }
+      ],
+      "1443570": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "でんせん"
+        }
+      ],
+      "1569620": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "しびれる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214653",
+    "original": "ずっと正座してたからか、足がしびれちゃって。",
+    "en": [
+      {
+        "id": "51946",
+        "text": "I've sat on my heels for so long my legs have fallen asleep."
+      }
+    ],
+    "indices": "ずっと 正座(せいざ)~ 為る(する){してた} から か 足(あし) が 痺れる{しびれ} じゃう{ちゃって}",
+    "vocabIds": [
+      "1569620",
+      "1157170",
+      "1595990",
+      "1404630"
+    ],
+    "matches": {
+      "1157170": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "してた"
+        }
+      ],
+      "1404630": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "あし"
+        }
+      ],
+      "1569620": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "しびれ"
+        }
+      ],
+      "1595990": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "せいざ"
+        }
+      ]
+    }
+  },
+  {
     "id": "223876",
     "original": "このからしは舌が痺れるほど辛い。",
     "en": [
@@ -10,11 +450,21 @@
     ],
     "indices": "此の{この} 辛子{からし} は 舌[01] が 痺れる[03]~ 程{ほど} 辛い(からい)[01]",
     "vocabIds": [
+      "1202390",
       "1569620",
+      "1582920",
+      "1436510",
       "1365860",
       "1387010"
     ],
     "matches": {
+      "1202390": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "からし"
+        }
+      ],
       "1365860": [
         {
           "start": 13,
@@ -29,11 +479,119 @@
           "reading": "した"
         }
       ],
+      "1436510": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "ほど"
+        }
+      ],
       "1569620": [
         {
           "start": 8,
           "length": 3,
           "reading": "しびれる"
+        }
+      ],
+      "1582920": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "この"
+        }
+      ]
+    }
+  },
+  {
+    "id": "235611",
+    "original": "２、３分で歯茎がしびれてきます。",
+    "en": [
+      {
+        "id": "72991",
+        "text": "Your gums will get numb in a few minutes."
+      }
+    ],
+    "indices": "分(ふん) で(#2028980) 歯茎 が 痺れる{しびれて} 来る(くる){きます}",
+    "vocabIds": [
+      "1569620",
+      "1547720",
+      "1814040",
+      "1313290",
+      "1461140"
+    ],
+    "matches": {
+      "1313290": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "はぐき"
+        }
+      ],
+      "1461140": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "に"
+        }
+      ],
+      "1547720": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "きます"
+        }
+      ],
+      "1569620": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "しびれて"
+        }
+      ],
+      "1814040": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "さんぷん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "236810",
+    "original": "彼の足はしびれていた。",
+    "en": [
+      {
+        "id": "1160622",
+        "text": "His feet were asleep."
+      }
+    ],
+    "indices": "彼(かれ)[01]{彼の} 足(あし) は 痺れる{しびれていた}",
+    "vocabIds": [
+      "1569620",
+      "2845746",
+      "1404630"
+    ],
+    "matches": {
+      "1404630": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "あし"
+        }
+      ],
+      "1569620": [
+        {
+          "start": 4,
+          "length": 6,
+          "reading": "しびれていた"
+        }
+      ],
+      "2845746": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれの"
         }
       ]
     }

@@ -1,5 +1,99 @@
 [
   {
+    "id": "4929",
+    "original": "「手伝ってくれてありがとう」「どういたしまして」",
+    "en": [
+      {
+        "id": "1518",
+        "text": "\"Thank you for helping me.\" \"Don't mention it.\""
+      },
+      {
+        "id": "508289",
+        "text": "\"Thanks for the help.\" \"Don't mention it.\""
+      },
+      {
+        "id": "73637",
+        "text": "\"Thank you for your help.\" \"It's my pleasure.\""
+      },
+      {
+        "id": "12258348",
+        "text": "\"Thank you for your help.\" \"You're welcome.\""
+      }
+    ],
+    "indices": "手伝う{手伝って} 呉れる{くれて} 有り難う{ありがとう} どう致しまして{どういたしまして}~",
+    "vocabIds": [
+      "1009030",
+      "1328190",
+      "1586820"
+    ],
+    "matches": {
+      "1009030": [
+        {
+          "start": 15,
+          "length": 8,
+          "reading": "どういたしまして"
+        }
+      ],
+      "1328190": [
+        {
+          "start": 1,
+          "length": 7,
+          "reading": "てつだってくれて"
+        }
+      ],
+      "1586820": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "ありがとう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "145950",
+    "original": "「色々どうも有難う」「どういたしまして」",
+    "en": [
+      {
+        "id": "268612",
+        "text": "\"Thank you very much for everything.\" \"You are welcome.\""
+      },
+      {
+        "id": "2783888",
+        "text": "\"Thank you for everything.\" \"You're welcome.\""
+      }
+    ],
+    "indices": "色々[01] どうも有難う どう致しまして{どういたしまして}",
+    "vocabIds": [
+      "1009030",
+      "1612720",
+      "1587850"
+    ],
+    "matches": {
+      "1009030": [
+        {
+          "start": 11,
+          "length": 8,
+          "reading": "どういたしまして"
+        }
+      ],
+      "1587850": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "いろいろ"
+        }
+      ],
+      "1612720": [
+        {
+          "start": 3,
+          "length": 6,
+          "reading": "どうもありがとう"
+        }
+      ]
+    }
+  },
+  {
     "id": "201101",
     "original": "どう致しまして。",
     "en": [

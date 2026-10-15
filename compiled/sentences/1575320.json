@@ -1,5 +1,496 @@
 [
   {
+    "id": "84038",
+    "original": "風が草をなびかせている。",
+    "en": [
+      {
+        "id": "319678",
+        "text": "The wind is blowing on the grass."
+      }
+    ],
+    "indices": "風(かぜ) が 草(くさ) を 靡く{なびかせている}",
+    "vocabIds": [
+      "1575320",
+      "1499720",
+      "1401910"
+    ],
+    "matches": {
+      "1401910": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "くさ"
+        }
+      ],
+      "1499720": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かぜ"
+        }
+      ],
+      "1575320": [
+        {
+          "start": 4,
+          "length": 7,
+          "reading": "なびかせている"
+        }
+      ]
+    }
+  },
+  {
+    "id": "86862",
+    "original": "彼女は風に髪をなびかせて、私のほうへ走ってきた。",
+    "en": [
+      {
+        "id": "316848",
+        "text": "She ran up to me, her hair flying in the wind."
+      }
+    ],
+    "indices": "彼女[01] は 風(かぜ) に 髪 を 靡く{なびかせて} 私(わたし)[01]{私の} 方(ほう){ほう} へ 走る{走って} 来る(くる){きた}",
+    "vocabIds": [
+      "1575320",
+      "1402540",
+      "1516930",
+      "1483150",
+      "1499720",
+      "1477950",
+      "1311110"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1402540": [
+        {
+          "start": 18,
+          "length": 5,
+          "reading": "はしってきた"
+        }
+      ],
+      "1477950": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "かみ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1499720": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "かぜ"
+        }
+      ],
+      "1516930": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "ほう"
+        }
+      ],
+      "1575320": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "なびかせて"
+        }
+      ]
+    }
+  },
+  {
+    "id": "87518",
+    "original": "彼女は髪を風になびかせながら浜辺に立っていた。",
+    "en": [
+      {
+        "id": "316190",
+        "text": "She stood on the beach with her hair waving in the wind."
+      }
+    ],
+    "indices": "彼女[01] は 髪 を 風(かぜ) に 靡く{なびかせながら} 浜辺 に 立つ{立っていた}",
+    "vocabIds": [
+      "1575320",
+      "1597040",
+      "1483150",
+      "1490720",
+      "1477950",
+      "1499720"
+    ],
+    "matches": {
+      "1477950": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "かみ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1490720": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "はまべ"
+        }
+      ],
+      "1499720": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "かぜ"
+        }
+      ],
+      "1575320": [
+        {
+          "start": 7,
+          "length": 7,
+          "reading": "なびかせながら"
+        }
+      ],
+      "1597040": [
+        {
+          "start": 17,
+          "length": 5,
+          "reading": "たっていた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "87519",
+    "original": "彼女は髪を風になびかせて、ドアのところに立っていた。",
+    "en": [
+      {
+        "id": "316189",
+        "text": "She stood at the door, her hair blown by the wind."
+      }
+    ],
+    "indices": "彼女[01] は 髪 を 風(かぜ) に 靡く{なびかせて} ドア の 所(ところ){ところ} に 立つ{立っていた}",
+    "vocabIds": [
+      "1575320",
+      "1597040",
+      "1343100",
+      "1483150",
+      "1477950",
+      "1499720"
+    ],
+    "matches": {
+      "1343100": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "ところ"
+        }
+      ],
+      "1477950": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "かみ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1499720": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "かぜ"
+        }
+      ],
+      "1575320": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "なびかせて"
+        }
+      ],
+      "1597040": [
+        {
+          "start": 20,
+          "length": 5,
+          "reading": "たっていた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "87520",
+    "original": "彼女は髪を風になびかせて、たたずんでいた。",
+    "en": [
+      {
+        "id": "316188",
+        "text": "She stood still with her hair flying in the wind."
+      }
+    ],
+    "indices": "彼女[01] は 髪 を 風(かぜ) に 靡く{なびかせて} 佇む{たたずんでいた}",
+    "vocabIds": [
+      "1563190",
+      "1575320",
+      "1483150",
+      "1477950",
+      "1499720"
+    ],
+    "matches": {
+      "1477950": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "かみ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1499720": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "かぜ"
+        }
+      ],
+      "1563190": [
+        {
+          "start": 13,
+          "length": 7,
+          "reading": "たたずんでいた"
+        }
+      ],
+      "1575320": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "なびかせて"
+        }
+      ]
+    }
+  },
+  {
+    "id": "87845",
+    "original": "彼女は長い髪を風になびかせてデッキに立っていた。",
+    "en": [
+      {
+        "id": "315862",
+        "text": "She stood on the deck with her long hair waving in the wind."
+      }
+    ],
+    "indices": "彼女[01] は 長い 髪 を 風(かぜ) に 靡く{なびかせて} デッキ[02]~ に 立つ{立っていた}",
+    "vocabIds": [
+      "1575320",
+      "1597040",
+      "1483150",
+      "1429750",
+      "1477950",
+      "1499720"
+    ],
+    "matches": {
+      "1429750": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ながい"
+        }
+      ],
+      "1477950": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "かみ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1499720": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "かぜ"
+        }
+      ],
+      "1575320": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "なびかせて"
+        }
+      ],
+      "1597040": [
+        {
+          "start": 18,
+          "length": 5,
+          "reading": "たっていた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "121284",
+    "original": "髪を風になびかせて、少女が走ってきた。",
+    "en": [
+      {
+        "id": "282722",
+        "text": "A girl came running, with her hair streaming in the wind."
+      }
+    ],
+    "indices": "髪 を 風(かぜ) に 靡く{なびかせて} 少女 が 走る{走って} 来る(くる){きた}",
+    "vocabIds": [
+      "1575320",
+      "1402540",
+      "1580290",
+      "1477950",
+      "1499720"
+    ],
+    "matches": {
+      "1402540": [
+        {
+          "start": 13,
+          "length": 5,
+          "reading": "はしってきた"
+        }
+      ],
+      "1477950": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かみ"
+        }
+      ],
+      "1499720": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "かぜ"
+        }
+      ],
+      "1575320": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "なびかせて"
+        }
+      ],
+      "1580290": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "しょうじょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "173482",
+    "original": "紅白の旗が風になびいていた。",
+    "en": [
+      {
+        "id": "240988",
+        "text": "A red and white flag was flying in the wind."
+      },
+      {
+        "id": "10045595",
+        "text": "The red and white flag fluttered in the wind."
+      }
+    ],
+    "indices": "紅白~ の 旗 が 風(かぜ) に 靡く{なびいていた}",
+    "vocabIds": [
+      "1575320",
+      "1280790",
+      "1220240",
+      "1499720"
+    ],
+    "matches": {
+      "1220240": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "はた"
+        }
+      ],
+      "1280790": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こうはく"
+        }
+      ],
+      "1499720": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "かぜ"
+        }
+      ],
+      "1575320": [
+        {
+          "start": 7,
+          "length": 6,
+          "reading": "なびいていた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "226491",
+    "original": "カーテンが風になびいた。",
+    "en": [
+      {
+        "id": "63836",
+        "text": "The curtains blew in the wind."
+      }
+    ],
+    "indices": "カーテン~ が 風(かぜ)~ に 靡く{なびいた}~",
+    "vocabIds": [
+      "1575320",
+      "1499720"
+    ],
+    "matches": {
+      "1499720": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "かぜ"
+        }
+      ],
+      "1575320": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "なびいた"
+        }
+      ]
+    }
+  },
+  {
     "id": "1787067",
     "original": "カーテンが風に靡いてる。",
     "en": [

@@ -1,0 +1,386 @@
+[
+  {
+    "id": "79795",
+    "original": "門にもたれている人は誰ですか。",
+    "en": [
+      {
+        "id": "323922",
+        "text": "Who is the man that is leaning against the gate?"
+      },
+      {
+        "id": "7810686",
+        "text": "Who's the man leaning against the gate?"
+      }
+    ],
+    "indices": "門(もん)[01] に 凭れる{もたれている} 人(ひと) は 誰 ですか",
+    "vocabIds": [
+      "1564380",
+      "1584800",
+      "1580640",
+      "1416830"
+    ],
+    "matches": {
+      "1416830": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "だれ"
+        }
+      ],
+      "1564380": [
+        {
+          "start": 2,
+          "length": 6,
+          "reading": "もたれている"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ],
+      "1584800": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "もん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "83468",
+    "original": "壁にもたれるな。",
+    "en": [
+      {
+        "id": "44088",
+        "text": "Don't lean against the wall."
+      }
+    ],
+    "indices": "壁 に 凭れる{もたれる} な[01]",
+    "vocabIds": [
+      "1564380",
+      "1509290"
+    ],
+    "matches": {
+      "1509290": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かべ"
+        }
+      ],
+      "1564380": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "もたれる"
+        }
+      ]
+    }
+  },
+  {
+    "id": "99538",
+    "original": "彼は木にもたれて立っていた。",
+    "en": [
+      {
+        "id": "304159",
+        "text": "He kept standing against a tree."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 木(き) に 凭れる{もたれて} 立つ{立っていた}",
+    "vocabIds": [
+      "1597040",
+      "1564380",
+      "1483070",
+      "1534520"
+    ],
+    "matches": {
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1534520": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "き"
+        }
+      ],
+      "1564380": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "もたれて"
+        }
+      ],
+      "1597040": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "たっていた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "100151",
+    "original": "彼は壁にもたれていた。",
+    "en": [
+      {
+        "id": "303544",
+        "text": "He was leaning against the wall."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 壁[01] に 凭れる{もたれていた}~",
+    "vocabIds": [
+      "1564380",
+      "1483070",
+      "1509290"
+    ],
+    "matches": {
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1509290": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "かべ"
+        }
+      ],
+      "1564380": [
+        {
+          "start": 4,
+          "length": 6,
+          "reading": "もたれていた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "111037",
+    "original": "彼は塀にもたれて立っていた。",
+    "en": [
+      {
+        "id": "292649",
+        "text": "He stood against the wall."
+      },
+      {
+        "id": "1065399",
+        "text": "He stood leaning against the fence."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 塀 に 凭れる{もたれて} 立つ{立っていた}",
+    "vocabIds": [
+      "1597040",
+      "1564380",
+      "1483070",
+      "1506870"
+    ],
+    "matches": {
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1506870": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "へい"
+        }
+      ],
+      "1564380": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "もたれて"
+        }
+      ],
+      "1597040": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "たっていた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "114666",
+    "original": "彼はいすの背にもたれている。",
+    "en": [
+      {
+        "id": "289005",
+        "text": "He is leaning on the back of the chair."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 椅子(いす)[01]{いす} の 背(せ)[02]~ に 凭れる{もたれている}",
+    "vocabIds": [
+      "1564380",
+      "1157070",
+      "1483070",
+      "2147990"
+    ],
+    "matches": {
+      "1157070": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "いす"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1564380": [
+        {
+          "start": 7,
+          "length": 6,
+          "reading": "もたれている"
+        }
+      ],
+      "2147990": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "せ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "154399",
+    "original": "私は彼が壁にもたれて座っているのに気づいた。",
+    "en": [
+      {
+        "id": "260143",
+        "text": "I noticed him sitting with his back against the wall."
+      }
+    ],
+    "indices": "私(わたし)[01] は 彼(かれ) が 壁[01] に 凭れる{もたれて} 座る[01]{座っている} のに 気付く{気づいた}",
+    "vocabIds": [
+      "1291800",
+      "1564380",
+      "1591330",
+      "1311110",
+      "1483070",
+      "1509290"
+    ],
+    "matches": {
+      "1291800": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "すわっている"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1509290": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "かべ"
+        }
+      ],
+      "1564380": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "もたれて"
+        }
+      ],
+      "1591330": [
+        {
+          "start": 17,
+          "length": 4,
+          "reading": "きづいた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "216416",
+    "original": "ジェーンは背を木にもたれかけて待っていた。",
+    "en": [
+      {
+        "id": "53720",
+        "text": "Jane was waiting with her back against the tree."
+      }
+    ],
+    "indices": "は 背(せ)[01] を 木(き) に 凭れる{もたれ} 架ける{かけて}~ 待つ[01]{待っていた}",
+    "vocabIds": [
+      "1410590",
+      "1564380",
+      "2208960",
+      "2147990",
+      "1534520"
+    ],
+    "matches": {
+      "1410590": [
+        {
+          "start": 15,
+          "length": 5,
+          "reading": "まっていた"
+        }
+      ],
+      "1534520": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "き"
+        }
+      ],
+      "1564380": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "もたれ"
+        }
+      ],
+      "2147990": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "せ"
+        }
+      ],
+      "2208960": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "かけて"
+        }
+      ]
+    }
+  }
+]

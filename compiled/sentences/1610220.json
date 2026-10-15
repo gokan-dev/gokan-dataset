@@ -1,5 +1,60 @@
 [
   {
+    "id": "173565",
+    "original": "校長は彼に無断欠勤の理由をただした。",
+    "en": [
+      {
+        "id": "240905",
+        "text": "The principal called him to account for being absent without an excuse."
+      }
+    ],
+    "indices": "校長 は 彼(かれ) に 無断 欠勤 の 理由 を 糺す{ただした}~",
+    "vocabIds": [
+      "1610220",
+      "2620230",
+      "1279590",
+      "1550140",
+      "1483070"
+    ],
+    "matches": {
+      "1279590": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こうちょう"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1550140": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "りゆう"
+        }
+      ],
+      "1610220": [
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "ただした"
+        }
+      ],
+      "2620230": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "むだんけっきん"
+        }
+      ]
+    }
+  },
+  {
     "id": "636300",
     "original": "社会の悪弊を糾すべきだ。",
     "en": [

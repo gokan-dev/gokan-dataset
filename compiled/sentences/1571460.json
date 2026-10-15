@@ -1,5 +1,175 @@
 [
   {
+    "id": "93339",
+    "original": "彼女はイチゴが好きで、姉はりんごが好きだ。",
+    "en": [
+      {
+        "id": "310369",
+        "text": "She likes strawberries and her sister apples."
+      }
+    ],
+    "indices": "彼女[01] は 苺{イチゴ} が 好き(すき) で(#2028980) 姉(あね) は 林檎(りんご){りんご} が 好き(すき) だ",
+    "vocabIds": [
+      "1555480",
+      "1571460",
+      "1483150",
+      "1277450",
+      "1307630"
+    ],
+    "matches": {
+      "1277450": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "すき"
+        },
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "すき"
+        }
+      ],
+      "1307630": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "あね"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1555480": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "りんご"
+        }
+      ],
+      "1571460": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "いちご"
+        }
+      ]
+    }
+  },
+  {
+    "id": "97493",
+    "original": "彼らは温室でいちごを栽培している。",
+    "en": [
+      {
+        "id": "306209",
+        "text": "They grow strawberries in their greenhouse."
+      }
+    ],
+    "indices": "彼ら(かれら) は 温室 で(#2028980) 苺{いちご} を 栽培 為る(する){している}",
+    "vocabIds": [
+      "1157170",
+      "1571460",
+      "1483090",
+      "1183390",
+      "1294910"
+    ],
+    "matches": {
+      "1157170": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "している"
+        }
+      ],
+      "1183390": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "おんしつ"
+        }
+      ],
+      "1294910": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "さいばい"
+        }
+      ],
+      "1483090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれら"
+        }
+      ],
+      "1571460": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "いちご"
+        }
+      ]
+    }
+  },
+  {
+    "id": "114655",
+    "original": "彼はイチゴでいっぱいのかごを持っている。",
+    "en": [
+      {
+        "id": "289016",
+        "text": "He has a basket full of strawberries."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 苺{イチゴ} で(#2028980) 一杯{いっぱい} の 籠{かご} を 持つ{持っている}",
+    "vocabIds": [
+      "1315720",
+      "1165670",
+      "1571460",
+      "1590200",
+      "1483070"
+    ],
+    "matches": {
+      "1165670": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "いっぱい"
+        }
+      ],
+      "1315720": [
+        {
+          "start": 14,
+          "length": 5,
+          "reading": "もっている"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1571460": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "いちご"
+        }
+      ],
+      "1590200": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "かご"
+        }
+      ]
+    }
+  },
+  {
     "id": "155399",
     "original": "私は全ての苺類が好きですが、特にストロベリーが好きです。",
     "en": [
@@ -107,6 +277,104 @@
     }
   },
   {
+    "id": "161433",
+    "original": "いちごを摘みに行ったんです。",
+    "en": [
+      {
+        "id": "253084",
+        "text": "We went strawberry-picking."
+      }
+    ],
+    "indices": "苺{いちご} を 摘む(つむ){摘み} に 行く[01]{行った} のです{んです}",
+    "vocabIds": [
+      "1571460",
+      "1578850",
+      "1437030"
+    ],
+    "matches": {
+      "1437030": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "つまみ"
+        }
+      ],
+      "1571460": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "いちご"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "いった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "161434",
+    "original": "私はイチゴと言うとショートケーキを連想する。",
+    "en": [
+      {
+        "id": "253083",
+        "text": "I associate strawberries with shortcake."
+      },
+      {
+        "id": "10998426",
+        "text": "When I speak of strawberries I associate them with shortcake."
+      }
+    ],
+    "indices": "私(わたし)[01] は 苺{イチゴ} と言うと[01] ショートケーキ~ を 連想 為る(する){する}",
+    "vocabIds": [
+      "2136030",
+      "1571460",
+      "1157170",
+      "1559600",
+      "1311110"
+    ],
+    "matches": {
+      "1157170": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "する"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1559600": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "れんそう"
+        }
+      ],
+      "1571460": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "いちご"
+        }
+      ],
+      "2136030": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "というと"
+        }
+      ]
+    }
+  },
+  {
     "id": "213286",
     "original": "かごは苺でいっぱいでした。",
     "en": [
@@ -121,13 +389,334 @@
     ],
     "indices": "籠{かご} は 苺 で(#2028980) 一杯[03]{いっぱい} です{でした}",
     "vocabIds": [
+      "1165670",
+      "1590200",
       "1571460"
     ],
     "matches": {
+      "1165670": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "いっぱい"
+        }
+      ],
       "1571460": [
         {
           "start": 3,
           "length": 1,
+          "reading": "いちご"
+        }
+      ],
+      "1590200": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かご"
+        }
+      ]
+    }
+  },
+  {
+    "id": "229056",
+    "original": "イチゴは冬は高値だ。",
+    "en": [
+      {
+        "id": "66415",
+        "text": "Strawberries sell at high prices in winter."
+      },
+      {
+        "id": "898997",
+        "text": "Strawberries are expensive in the winter."
+      },
+      {
+        "id": "898998",
+        "text": "Strawberries sell for a high price in the winter."
+      }
+    ],
+    "indices": "苺{イチゴ} は 冬 は 高値~ だ",
+    "vocabIds": [
+      "1571460",
+      "1283760",
+      "1446070"
+    ],
+    "matches": {
+      "1283760": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "たかね"
+        }
+      ],
+      "1446070": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "ふゆ"
+        }
+      ],
+      "1571460": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "いちご"
+        }
+      ]
+    }
+  },
+  {
+    "id": "229058",
+    "original": "イチゴは私たちが摘むはしから熟しかけていた。",
+    "en": [
+      {
+        "id": "66416",
+        "text": "The berries were ripening almost as fast as we could gather them."
+      }
+    ],
+    "indices": "苺{イチゴ} は 私たち が 摘む(つむ) 端(はし){はし} から 熟す(じゅくす){熟し} 掛ける{かけていた}",
+    "vocabIds": [
+      "1337800",
+      "1571460",
+      "1311300",
+      "1581610",
+      "1437060"
+    ],
+    "matches": {
+      "1311300": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1337800": [
+        {
+          "start": 14,
+          "length": 7,
+          "reading": "じゅくしかけていた"
+        }
+      ],
+      "1437060": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "つまむ"
+        }
+      ],
+      "1571460": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "いちご"
+        }
+      ],
+      "1581610": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "はし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "229059",
+    "original": "イチゴは今が旬です。",
+    "en": [
+      {
+        "id": "66417",
+        "text": "Strawberries are in season now."
+      },
+      {
+        "id": "66421",
+        "text": "Strawberries are in season at the moment."
+      },
+      {
+        "id": "66418",
+        "text": "Strawberries are now in season."
+      }
+    ],
+    "indices": "苺{イチゴ} は 今(いま) が 旬(しゅん)~ です",
+    "vocabIds": [
+      "1571460",
+      "1288850",
+      "1341350"
+    ],
+    "matches": {
+      "1288850": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "いま"
+        }
+      ],
+      "1341350": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "しゅん"
+        }
+      ],
+      "1571460": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "いちご"
+        }
+      ]
+    }
+  },
+  {
+    "id": "229060",
+    "original": "いちごは今が出盛りです。",
+    "en": [
+      {
+        "id": "66418",
+        "text": "Strawberries are now in season."
+      }
+    ],
+    "indices": "苺{いちご} は 今(いま) が 出盛り です",
+    "vocabIds": [
+      "1339440",
+      "1571460",
+      "1288850"
+    ],
+    "matches": {
+      "1288850": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "いま"
+        }
+      ],
+      "1339440": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "でさかりです"
+        }
+      ],
+      "1571460": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "いちご"
+        }
+      ]
+    }
+  },
+  {
+    "id": "229061",
+    "original": "イチゴは加工されてジャムになります。",
+    "en": [
+      {
+        "id": "66419",
+        "text": "Strawberries are made into jam."
+      }
+    ],
+    "indices": "苺{イチゴ} は 加工~ 為れる{されて} ジャム になる[01]{になります}",
+    "vocabIds": [
+      "2269820",
+      "1571460",
+      "1190120"
+    ],
+    "matches": {
+      "1190120": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "かこう"
+        }
+      ],
+      "1571460": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "いちご"
+        }
+      ],
+      "2269820": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "されて"
+        }
+      ]
+    }
+  },
+  {
+    "id": "229062",
+    "original": "イチゴはジャムに作られる。",
+    "en": [
+      {
+        "id": "66419",
+        "text": "Strawberries are made into jam."
+      }
+    ],
+    "indices": "苺{イチゴ} は ジャム~ に 作る[02]{作られる}",
+    "vocabIds": [
+      "1571460",
+      "1597890"
+    ],
+    "matches": {
+      "1571460": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "いちご"
+        }
+      ],
+      "1597890": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "つくら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "229063",
+    "original": "イチゴは今が旬だよ。",
+    "en": [
+      {
+        "id": "66417",
+        "text": "Strawberries are in season now."
+      },
+      {
+        "id": "66421",
+        "text": "Strawberries are in season at the moment."
+      },
+      {
+        "id": "5107359",
+        "text": "It's strawberry season."
+      }
+    ],
+    "indices": "苺{イチゴ} は 今(いま) が 旬(しゅん) だ よ",
+    "vocabIds": [
+      "1571460",
+      "1288850",
+      "1341350"
+    ],
+    "matches": {
+      "1288850": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "いま"
+        }
+      ],
+      "1341350": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "しゅん"
+        }
+      ],
+      "1571460": [
+        {
+          "start": 0,
+          "length": 3,
           "reading": "いちご"
         }
       ]

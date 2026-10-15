@@ -1,5 +1,233 @@
 [
   {
+    "id": "79624",
+    "original": "野球場にどうやって行ったらよいか教えていただけませんか。",
+    "en": [
+      {
+        "id": "324094",
+        "text": "Could you tell me how to get to the ballpark?"
+      }
+    ],
+    "indices": "野球場 に どうやって 行く[01]{行ったら} 良い{よい} か 教える{教えて} 頂ける[01]{いただけません} か",
+    "vocabIds": [
+      "1628260",
+      "1578850",
+      "1537310",
+      "1605820",
+      "1236890"
+    ],
+    "matches": {
+      "1236890": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "おしえ"
+        }
+      ],
+      "1537310": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "やきゅうじょう"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "いったら"
+        }
+      ],
+      "1605820": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "よい"
+        }
+      ],
+      "1628260": [
+        {
+          "start": 19,
+          "length": 7,
+          "reading": "いただけません"
+        }
+      ]
+    }
+  },
+  {
+    "id": "126866",
+    "original": "地図さえあれば、君に道を教えてあげられるのに。",
+    "en": [
+      {
+        "id": "277224",
+        "text": "If only I had a map, I could show you the way."
+      }
+    ],
+    "indices": "地図 さえあれば 君(きみ)[01] に 道(みち) を 教える{教えて} 上げる[23]{あげられる} のに",
+    "vocabIds": [
+      "1352320",
+      "1421290",
+      "1236890",
+      "1247250",
+      "1454080"
+    ],
+    "matches": {
+      "1236890": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "おしえ"
+        }
+      ],
+      "1247250": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "きみ"
+        }
+      ],
+      "1352320": [
+        {
+          "start": 15,
+          "length": 5,
+          "reading": "あげられる"
+        }
+      ],
+      "1421290": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ちず"
+        }
+      ],
+      "1454080": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "みち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "127003",
+    "original": "地下鉄へ行く道を教えていただけませんか。",
+    "en": [
+      {
+        "id": "277087",
+        "text": "Could you tell me how to get to the subway station?"
+      }
+    ],
+    "indices": "地下鉄 へ 行く 道(みち) を 教える[02]{教えて}~ 頂ける[01]{いただけません} か",
+    "vocabIds": [
+      "1628260",
+      "1420900",
+      "1578850",
+      "1236890",
+      "1454080"
+    ],
+    "matches": {
+      "1236890": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "おしえ"
+        }
+      ],
+      "1420900": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ちかてつ"
+        }
+      ],
+      "1454080": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "みち"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "いく"
+        }
+      ],
+      "1628260": [
+        {
+          "start": 11,
+          "length": 7,
+          "reading": "いただけません"
+        }
+      ]
+    }
+  },
+  {
+    "id": "127012",
+    "original": "地下鉄の駅までの道順を教えていただけませんか。",
+    "en": [
+      {
+        "id": "277078",
+        "text": "Can you give me directions to the subway station?"
+      }
+    ],
+    "indices": "地下鉄 の 駅 迄{まで} の 道順~ を 教える{教えて} 頂ける[01]{いただけません} か",
+    "vocabIds": [
+      "1628260",
+      "1420900",
+      "1525680",
+      "1611770",
+      "1236890",
+      "1175140"
+    ],
+    "matches": {
+      "1175140": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "えき"
+        }
+      ],
+      "1236890": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "おしえ"
+        }
+      ],
+      "1420900": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ちかてつ"
+        }
+      ],
+      "1525680": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "まで"
+        }
+      ],
+      "1611770": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "みちじゅん"
+        }
+      ],
+      "1628260": [
+        {
+          "start": 14,
+          "length": 7,
+          "reading": "いただけません"
+        }
+      ]
+    }
+  },
+  {
     "id": "142652",
     "original": "聖書には、賢い教えがたくさん見付かります。",
     "en": [
@@ -11,6 +239,7 @@
     "indices": "聖書 には 賢い 教え~ が 沢山{たくさん} 見つかる{見付かります}",
     "vocabIds": [
       "1604550",
+      "1415870",
       "1380340",
       "1260260",
       "1236890"
@@ -37,6 +266,13 @@
           "reading": "せいしょ"
         }
       ],
+      "1415870": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "たくさん"
+        }
+      ],
       "1604550": [
         {
           "start": 14,
@@ -57,8 +293,10 @@
     ],
     "indices": " 人々(ひとびと) の 性格 は 彼ら(かれら) に 与える[01]{与え} 得る(える)[02] 如何なる{いかなる} 教え よりも 其の[01]{その} 職業 に 基づく[01]",
     "vocabIds": [
+      "1466960",
       "1544730",
       "1605270",
+      "1006830",
       "1580650",
       "1375290",
       "1483090",
@@ -66,6 +304,13 @@
       "1357510"
     ],
     "matches": {
+      "1006830": [
+        {
+          "start": 24,
+          "length": 2,
+          "reading": "その"
+        }
+      ],
       "1236890": [
         {
           "start": 18,
@@ -85,6 +330,13 @@
           "start": 3,
           "length": 2,
           "reading": "せいかく"
+        }
+      ],
+      "1466960": [
+        {
+          "start": 14,
+          "length": 4,
+          "reading": "いかなる"
         }
       ],
       "1483090": [
@@ -118,6 +370,521 @@
     }
   },
   {
+    "id": "146423",
+    "original": "松茸の見つけ方を教えていただけませんか。",
+    "en": [
+      {
+        "id": "268139",
+        "text": "Can you tell me the art of recognizing matsutake mushrooms?"
+      }
+    ],
+    "indices": "松茸 の 見つける[01]{見つけ} 方(かた) を 教える{教えて} 頂ける[01]{いただけません} か",
+    "vocabIds": [
+      "1628260",
+      "1604570",
+      "1349910",
+      "1236890"
+    ],
+    "matches": {
+      "1236890": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "おしえ"
+        }
+      ],
+      "1349910": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "まつたけ"
+        }
+      ],
+      "1604570": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "みつけかた"
+        }
+      ],
+      "1628260": [
+        {
+          "start": 11,
+          "length": 7,
+          "reading": "いただけません"
+        }
+      ]
+    }
+  },
+  {
+    "id": "188853",
+    "original": "駅までの道を教えていただけませんか。",
+    "en": [
+      {
+        "id": "26000",
+        "text": "Please be so kind as to show me the way to the station."
+      },
+      {
+        "id": "26018",
+        "text": "Would you please tell me the way to the station?"
+      }
+    ],
+    "indices": "駅 迄{まで} の 道(みち) を 教える{教えて} 頂ける[01]{いただけません} か",
+    "vocabIds": [
+      "1628260",
+      "1525680",
+      "1236890",
+      "1175140",
+      "1454080"
+    ],
+    "matches": {
+      "1175140": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "えき"
+        }
+      ],
+      "1236890": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "おしえ"
+        }
+      ],
+      "1454080": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "みち"
+        }
+      ],
+      "1525680": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "まで"
+        }
+      ],
+      "1628260": [
+        {
+          "start": 9,
+          "length": 7,
+          "reading": "いただけません"
+        }
+      ]
+    }
+  },
+  {
+    "id": "188873",
+    "original": "駅へ行く道を教えていただけませんでしょうか。",
+    "en": [
+      {
+        "id": "26020",
+        "text": "Could you tell me the way to the station?"
+      },
+      {
+        "id": "26033",
+        "text": "Can you tell me how to get to the station?"
+      },
+      {
+        "id": "26025",
+        "text": "Could you tell me how to get to the station?"
+      }
+    ],
+    "indices": "駅 へ 行く 道(みち) を 教える{教えて} 頂ける[01]{いただけません} でしょうか",
+    "vocabIds": [
+      "1628260",
+      "1578850",
+      "1236890",
+      "1175140",
+      "1454080"
+    ],
+    "matches": {
+      "1175140": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "えき"
+        }
+      ],
+      "1236890": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "おしえ"
+        }
+      ],
+      "1454080": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "みち"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "いく"
+        }
+      ],
+      "1628260": [
+        {
+          "start": 9,
+          "length": 7,
+          "reading": "いただけません"
+        }
+      ]
+    }
+  },
+  {
+    "id": "188874",
+    "original": "駅へ行く道を教えていただけませんか。",
+    "en": [
+      {
+        "id": "491855",
+        "text": "Could you show me the way to the station?"
+      }
+    ],
+    "indices": "駅 へ 行く 道(みち) を 教える{教えて} 頂ける[01]{いただけません} か",
+    "vocabIds": [
+      "1628260",
+      "1578850",
+      "1236890",
+      "1175140",
+      "1454080"
+    ],
+    "matches": {
+      "1175140": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "えき"
+        }
+      ],
+      "1236890": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "おしえ"
+        }
+      ],
+      "1454080": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "みち"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "いく"
+        }
+      ],
+      "1628260": [
+        {
+          "start": 9,
+          "length": 7,
+          "reading": "いただけません"
+        }
+      ]
+    }
+  },
+  {
+    "id": "188879",
+    "original": "駅へはどう行ったらいいか教えていただけませんか。",
+    "en": [
+      {
+        "id": "26025",
+        "text": "Could you tell me how to get to the station?"
+      },
+      {
+        "id": "26033",
+        "text": "Can you tell me how to get to the station?"
+      },
+      {
+        "id": "25998",
+        "text": "Could you please tell me how to get to the station?"
+      }
+    ],
+    "indices": "駅 へ は 如何(どう){どう} 行く[01]{行ったら} いい(#2820690)[01] か 教える{教えて} 頂ける[01]{いただけません} か",
+    "vocabIds": [
+      "1628260",
+      "1578850",
+      "1008910",
+      "1236890",
+      "1175140"
+    ],
+    "matches": {
+      "1008910": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "どう"
+        }
+      ],
+      "1175140": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "えき"
+        }
+      ],
+      "1236890": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "おしえ"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "いったら"
+        }
+      ],
+      "1628260": [
+        {
+          "start": 15,
+          "length": 7,
+          "reading": "いただけません"
+        }
+      ]
+    }
+  },
+  {
+    "id": "188884",
+    "original": "駅への道を教えていただけませんか。",
+    "en": [
+      {
+        "id": "25999",
+        "text": "Will you tell me the way to the station?"
+      },
+      {
+        "id": "11935808",
+        "text": "Could you tell me how to get to the railway station, please?"
+      },
+      {
+        "id": "25998",
+        "text": "Could you please tell me how to get to the station?"
+      }
+    ],
+    "indices": "駅 へ の 道(みち) を 教える{教えて} 頂ける[01]{いただけません} か",
+    "vocabIds": [
+      "1628260",
+      "1236890",
+      "1175140",
+      "1454080"
+    ],
+    "matches": {
+      "1175140": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "えき"
+        }
+      ],
+      "1236890": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "おしえ"
+        }
+      ],
+      "1454080": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "みち"
+        }
+      ],
+      "1628260": [
+        {
+          "start": 8,
+          "length": 7,
+          "reading": "いただけません"
+        }
+      ]
+    }
+  },
+  {
+    "id": "188885",
+    "original": "駅への行き方を教えていただけませんか。",
+    "en": [
+      {
+        "id": "26033",
+        "text": "Can you tell me how to get to the station?"
+      },
+      {
+        "id": "26025",
+        "text": "Could you tell me how to get to the station?"
+      }
+    ],
+    "indices": "駅 へ の 行き方(いきかた) を 教える{教えて} 頂ける[01]{いただけません} か",
+    "vocabIds": [
+      "1628260",
+      "1578830",
+      "1236890",
+      "1175140"
+    ],
+    "matches": {
+      "1175140": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "えき"
+        }
+      ],
+      "1236890": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "おしえ"
+        }
+      ],
+      "1578830": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "いきかた"
+        }
+      ],
+      "1628260": [
+        {
+          "start": 10,
+          "length": 7,
+          "reading": "いただけません"
+        }
+      ]
+    }
+  },
+  {
+    "id": "188931",
+    "original": "駅に行く道を教えていただけませんか。",
+    "en": [
+      {
+        "id": "26078",
+        "text": "Could you tell me the way to the station, please?"
+      },
+      {
+        "id": "25998",
+        "text": "Could you please tell me how to get to the station?"
+      }
+    ],
+    "indices": "駅 に 行く 道(みち) を 教える{教えて} 頂ける[01]{いただけません} か",
+    "vocabIds": [
+      "1628260",
+      "1578850",
+      "1236890",
+      "1175140",
+      "1454080"
+    ],
+    "matches": {
+      "1175140": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "えき"
+        }
+      ],
+      "1236890": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "おしえ"
+        }
+      ],
+      "1454080": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "みち"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "いく"
+        }
+      ],
+      "1628260": [
+        {
+          "start": 9,
+          "length": 7,
+          "reading": "いただけません"
+        }
+      ]
+    }
+  },
+  {
+    "id": "188941",
+    "original": "駅にどういったらいいか教えていただけませんか。",
+    "en": [
+      {
+        "id": "26025",
+        "text": "Could you tell me how to get to the station?"
+      },
+      {
+        "id": "25998",
+        "text": "Could you please tell me how to get to the station?"
+      },
+      {
+        "id": "26033",
+        "text": "Can you tell me how to get to the station?"
+      }
+    ],
+    "indices": "駅 に 如何(どう){どう} 行く{いったら} いい(#2820690)[01] か 教える{教えて} 頂ける[01]{いただけません} か",
+    "vocabIds": [
+      "1628260",
+      "1578850",
+      "1008910",
+      "1236890",
+      "1175140"
+    ],
+    "matches": {
+      "1008910": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "どう"
+        }
+      ],
+      "1175140": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "えき"
+        }
+      ],
+      "1236890": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "おしえ"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "いったら"
+        }
+      ],
+      "1628260": [
+        {
+          "start": 14,
+          "length": 7,
+          "reading": "いただけません"
+        }
+      ]
+    }
+  },
+  {
     "id": "192703",
     "original": "よろしかったら、チェスのやり方をお教えしますよ。",
     "en": [
@@ -128,8 +895,10 @@
     ],
     "indices": "宜しかったら{よろしかったら} チェス の やり方 を 御(お){お} 教える{教えします} よ[01]",
     "vocabIds": [
+      "1915270",
       "1012960",
-      "1236890"
+      "1236890",
+      "2826528"
     ],
     "matches": {
       "1012960": [
@@ -144,6 +913,20 @@
           "start": 17,
           "length": 2,
           "reading": "おしえ"
+        }
+      ],
+      "1915270": [
+        {
+          "start": 0,
+          "length": 7,
+          "reading": "よろしかったら"
+        }
+      ],
+      "2826528": [
+        {
+          "start": 16,
+          "length": 1,
+          "reading": "お"
         }
       ]
     }
@@ -160,10 +943,18 @@
     "indices": "其の[01]{その} 駅 に 来る(くる)[01]{来たら} 教える{教えします} よ[01]",
     "vocabIds": [
       "1547720",
+      "1006830",
       "1236890",
       "1175140"
     ],
     "matches": {
+      "1006830": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "その"
+        }
+      ],
       "1175140": [
         {
           "start": 2,
@@ -183,6 +974,242 @@
           "start": 4,
           "length": 3,
           "reading": "きたら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214130",
+    "original": "すみませんが、郵便局へ行く道を教えていただけませんか。",
+    "en": [
+      {
+        "id": "51420",
+        "text": "Excuse me, but would you please tell me the way to the post office?"
+      }
+    ],
+    "indices": "済みません{すみません} が 郵便局 へ 行く 道(みち) を 教える{教えて} 頂ける[01]{いただけません} か",
+    "vocabIds": [
+      "1628260",
+      "1295060",
+      "1542430",
+      "1578850",
+      "1236890",
+      "1454080"
+    ],
+    "matches": {
+      "1236890": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "おしえ"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1454080": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "みち"
+        }
+      ],
+      "1542430": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "ゆうびんきょく"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "いく"
+        }
+      ],
+      "1628260": [
+        {
+          "start": 18,
+          "length": 7,
+          "reading": "いただけません"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214160",
+    "original": "すみませんが、駅へ行く道を教えていただけませんか。",
+    "en": [
+      {
+        "id": "26020",
+        "text": "Could you tell me the way to the station?"
+      }
+    ],
+    "indices": "済みません{すみません} が 駅 へ 行く 道(みち) を 教える{教えて} 頂ける[01]{いただけません} か",
+    "vocabIds": [
+      "1628260",
+      "1295060",
+      "1578850",
+      "1236890",
+      "1175140",
+      "1454080"
+    ],
+    "matches": {
+      "1175140": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "えき"
+        }
+      ],
+      "1236890": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "おしえ"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1454080": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "みち"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "いく"
+        }
+      ],
+      "1628260": [
+        {
+          "start": 16,
+          "length": 7,
+          "reading": "いただけません"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214171",
+    "original": "すみませんが、セントラルパークにはどうやって行ったらいいか教えていただけませんか。",
+    "en": [
+      {
+        "id": "51462",
+        "text": "Excuse me, but could you tell me how to get to Central Park?"
+      }
+    ],
+    "indices": "済みません{すみません} が には どうやって 行く[01]{行ったら} いい(#2820690)[01] か 教える{教えて} 頂ける[01]{いただけません} か",
+    "vocabIds": [
+      "1628260",
+      "1295060",
+      "1578850",
+      "1236890"
+    ],
+    "matches": {
+      "1236890": [
+        {
+          "start": 29,
+          "length": 2,
+          "reading": "おしえ"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 22,
+          "length": 4,
+          "reading": "いったら"
+        }
+      ],
+      "1628260": [
+        {
+          "start": 32,
+          "length": 7,
+          "reading": "いただけません"
+        }
+      ]
+    }
+  },
+  {
+    "id": "217013",
+    "original": "ご迷惑でしょうが、駅までの道を教えていただけませんか。",
+    "en": [
+      {
+        "id": "54320",
+        "text": "I'm sorry to trouble you, but could you tell me the way to the station?"
+      }
+    ],
+    "indices": "ご迷惑 でしょう[01] が 駅 迄{まで} の 道(みち) を 教える{教えて} 頂ける[01]{いただけません} か",
+    "vocabIds": [
+      "1628260",
+      "1270660",
+      "1525680",
+      "1236890",
+      "1175140",
+      "1454080"
+    ],
+    "matches": {
+      "1175140": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "えき"
+        }
+      ],
+      "1236890": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "おしえ"
+        }
+      ],
+      "1270660": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ごめいわく"
+        }
+      ],
+      "1454080": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "みち"
+        }
+      ],
+      "1525680": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "まで"
+        }
+      ],
+      "1628260": [
+        {
+          "start": 18,
+          "length": 7,
+          "reading": "いただけません"
         }
       ]
     }

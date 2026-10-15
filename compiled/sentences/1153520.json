@@ -133,6 +133,61 @@
     }
   },
   {
+    "id": "229358",
+    "original": "いい子にしていたら、あめをあげよう。",
+    "en": [
+      {
+        "id": "66716",
+        "text": "If you are a good girl, you shall have candy."
+      },
+      {
+        "id": "10668536",
+        "text": "If you behave well, I'll give you candy."
+      },
+      {
+        "id": "10669735",
+        "text": "If you behave yourself, I'll give you some candy."
+      }
+    ],
+    "indices": "好い子{いい子} に 為る(する){していたら} 飴{あめ} を 上げる[05]{あげよう}",
+    "vocabIds": [
+      "1157170",
+      "1352320",
+      "1835640",
+      "1153520"
+    ],
+    "matches": {
+      "1153520": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "あめ"
+        }
+      ],
+      "1157170": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "していたら"
+        }
+      ],
+      "1352320": [
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "あげよう"
+        }
+      ],
+      "1835640": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "いいこ"
+        }
+      ]
+    }
+  },
+  {
     "id": "424584",
     "original": "突然長女が「飴がほしい」と言い出しました。",
     "en": [
@@ -144,6 +199,7 @@
     "indices": "突然 長女 が 飴 が 欲しい{ほしい} と 言い出す{言い出しました}",
     "vocabIds": [
       "1587040",
+      "1547330",
       "1457040",
       "1430040",
       "1153520"
@@ -168,6 +224,13 @@
           "start": 0,
           "length": 2,
           "reading": "とつぜん"
+        }
+      ],
+      "1547330": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "ほしい"
         }
       ],
       "1587040": [

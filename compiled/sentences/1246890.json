@@ -65,11 +65,19 @@
     ],
     "indices": "栗鼠 が[01] 池 で(#2028980) 水浴び を 為る(する){しています}",
     "vocabIds": [
+      "1157170",
       "1618380",
       "1246890",
       "1421700"
     ],
     "matches": {
+      "1157170": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "しています"
+        }
+      ],
       "1246890": [
         {
           "start": 0,
@@ -89,6 +97,276 @@
           "start": 5,
           "length": 3,
           "reading": "みずあび"
+        }
+      ]
+    }
+  },
+  {
+    "id": "124369",
+    "original": "冬に備えてりすが木の実を蓄えている。",
+    "en": [
+      {
+        "id": "279625",
+        "text": "Squirrels are storing up nuts against the winter."
+      }
+    ],
+    "indices": "冬 に 備える[02]{備えて} 栗鼠[01]{りす} が 木の実 を 蓄える{蓄えている}",
+    "vocabIds": [
+      "1596860",
+      "2763540",
+      "1534550",
+      "1246890",
+      "1446070"
+    ],
+    "matches": {
+      "1246890": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "りす"
+        }
+      ],
+      "1446070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ふゆ"
+        }
+      ],
+      "1534550": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "きのみ"
+        }
+      ],
+      "1596860": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "たくわえている"
+        }
+      ],
+      "2763540": [
+        {
+          "start": 1,
+          "length": 4,
+          "reading": "にそなえて"
+        }
+      ]
+    }
+  },
+  {
+    "id": "192523",
+    "original": "リスは忙しく木の実を集めていた。",
+    "en": [
+      {
+        "id": "29687",
+        "text": "The squirrel was busy gathering nuts."
+      }
+    ],
+    "indices": "栗鼠[01]{リス} は 忙しい(いそがしい){忙しく} 木の実 を 集める{集めていた}",
+    "vocabIds": [
+      "1333560",
+      "1519290",
+      "1534550",
+      "1246890"
+    ],
+    "matches": {
+      "1246890": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "りす"
+        }
+      ],
+      "1333560": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "あつめていた"
+        }
+      ],
+      "1519290": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "いそがしく"
+        }
+      ],
+      "1534550": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "きのみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "192524",
+    "original": "リスは動きがすばやい。",
+    "en": [
+      {
+        "id": "29688",
+        "text": "Squirrels are quick of movement."
+      },
+      {
+        "id": "497132",
+        "text": "Squirrels move quickly."
+      }
+    ],
+    "indices": "栗鼠[01]{リス} は 動き が 素早い[01]{すばやい}",
+    "vocabIds": [
+      "1397310",
+      "1246890",
+      "1451180"
+    ],
+    "matches": {
+      "1246890": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "りす"
+        }
+      ],
+      "1397310": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "すばやい"
+        }
+      ],
+      "1451180": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "うごき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "192525",
+    "original": "リスは枝の中に隠れた。",
+    "en": [
+      {
+        "id": "29689",
+        "text": "A squirrel hid among the branches."
+      }
+    ],
+    "indices": "栗鼠[01]{リス}~ は 枝(えだ) の 中(なか) に 隠れる[01]{隠れた}",
+    "vocabIds": [
+      "1170660",
+      "1246890",
+      "1310530",
+      "1423310"
+    ],
+    "matches": {
+      "1170660": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "かくれた"
+        }
+      ],
+      "1246890": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "りす"
+        }
+      ],
+      "1310530": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "えだ"
+        }
+      ],
+      "1423310": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "なか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "192526",
+    "original": "リスはすばしこく木を登る。",
+    "en": [
+      {
+        "id": "29690",
+        "text": "Squirrels are nimble in climbing trees."
+      }
+    ],
+    "indices": "栗鼠[01]{リス} は すばしこい{すばしこく}~ 木(き) を 登る",
+    "vocabIds": [
+      "1246890",
+      "1352570",
+      "1534520"
+    ],
+    "matches": {
+      "1246890": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "りす"
+        }
+      ],
+      "1352570": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "のぼる"
+        }
+      ],
+      "1534520": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "き"
+        }
+      ]
+    }
+  },
+  {
+    "id": "228276",
+    "original": "ウサギはビーバーやリスと同族です。",
+    "en": [
+      {
+        "id": "65632",
+        "text": "Rabbits are related to beavers and squirrels."
+      }
+    ],
+    "indices": "兎{ウサギ} は ビーバー[01]~ や[01] 栗鼠[01]{リス} と 同族~ です",
+    "vocabIds": [
+      "1443970",
+      "1246890",
+      "1453020"
+    ],
+    "matches": {
+      "1246890": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "りす"
+        }
+      ],
+      "1443970": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "うさぎ"
+        }
+      ],
+      "1453020": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "どうぞく"
         }
       ]
     }

@@ -1,5 +1,166 @@
 [
   {
+    "id": "203562",
+    "original": "たとえいやでもその仕事はしなければいけないよ。",
+    "en": [
+      {
+        "id": "40800",
+        "text": "You must do the work, even if you do not like it."
+      },
+      {
+        "id": "65836",
+        "text": "You must do the work even if you don't like it."
+      }
+    ],
+    "indices": "仮令(たとえ){たとえ} 否でも{いやでも} 其の[01]{その} 仕事[01] は 為る(する){し} ねばならない{なければいけない} よ[01]",
+    "vocabIds": [
+      "2027050",
+      "1597125",
+      "1006830",
+      "1304970",
+      "1157170"
+    ],
+    "matches": {
+      "1006830": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "その"
+        }
+      ],
+      "1157170": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "し"
+        }
+      ],
+      "1304970": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "しごと"
+        }
+      ],
+      "1597125": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "たとえ"
+        }
+      ],
+      "2027050": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "いやでも"
+        }
+      ]
+    }
+  },
+  {
+    "id": "224498",
+    "original": "ここにいるといやでも感覚は研ぎ澄まされる。",
+    "en": [
+      {
+        "id": "61833",
+        "text": "I can't help but feel that when I come here, all my senses are sharper than usual."
+      }
+    ],
+    "indices": "此処[01]{ここ} に 居る(いる)[01]{いる} と 否でも{いやでも} 感覚 は 研ぎ澄ます{研ぎ澄まされる}~",
+    "vocabIds": [
+      "1655530",
+      "2027050",
+      "1288810",
+      "1577980",
+      "1212330"
+    ],
+    "matches": {
+      "1212330": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "かんかく"
+        }
+      ],
+      "1288810": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ここ"
+        }
+      ],
+      "1577980": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "いる"
+        }
+      ],
+      "1655530": [
+        {
+          "start": 13,
+          "length": 5,
+          "reading": "とぎすまさ"
+        }
+      ],
+      "2027050": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "いやでも"
+        }
+      ]
+    }
+  },
+  {
+    "id": "228478",
+    "original": "いやでもその仕事をしなければならない。",
+    "en": [
+      {
+        "id": "65836",
+        "text": "You must do the work even if you don't like it."
+      }
+    ],
+    "indices": "否でも{いやでも}~ 其の[01]{その} 仕事[01] を 為る(する){し} ねばならない{なければならない}",
+    "vocabIds": [
+      "2027050",
+      "1006830",
+      "1304970",
+      "1157170"
+    ],
+    "matches": {
+      "1006830": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "その"
+        }
+      ],
+      "1157170": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "し"
+        }
+      ],
+      "1304970": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "しごと"
+        }
+      ],
+      "2027050": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "いやでも"
+        }
+      ]
+    }
+  },
+  {
     "id": "11169524",
     "original": "否でも応でも、お前は行かなきゃいけないんだよ。",
     "en": [

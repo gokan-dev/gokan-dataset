@@ -1,0 +1,135 @@
+[
+  {
+    "id": "75159",
+    "original": "入院２週間したらニキビが急激に減りました。",
+    "en": [
+      {
+        "id": "328560",
+        "text": "Two weeks after being admitted to hospital my acne suddenly started to disappear."
+      }
+    ],
+    "indices": "入院 週間 為る(する){したら} 面皰(にきび){ニキビ} が 急激 に 減る{減りました}",
+    "vocabIds": [
+      "1263120",
+      "1157170",
+      "1533600",
+      "1461990",
+      "1465720",
+      "1228680"
+    ],
+    "matches": {
+      "1157170": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "したら"
+        }
+      ],
+      "1228680": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "きゅうげき"
+        }
+      ],
+      "1263120": [
+        {
+          "start": 15,
+          "length": 5,
+          "reading": "へりました"
+        }
+      ],
+      "1461990": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "にしゅうかん"
+        }
+      ],
+      "1465720": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "にゅういん"
+        }
+      ],
+      "1533600": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "にきび"
+        }
+      ]
+    }
+  },
+  {
+    "id": "94563",
+    "original": "彼女の顔はにきびだらけだ。",
+    "en": [
+      {
+        "id": "309143",
+        "text": "Her face is covered with pimples."
+      }
+    ],
+    "indices": "彼女[01]{彼女の} 顔(かお) は 面皰(にきび){にきび} だらけ だ",
+    "vocabIds": [
+      "1533600",
+      "1483150",
+      "1217730"
+    ],
+    "matches": {
+      "1217730": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "かお"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1533600": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "にきび"
+        }
+      ]
+    }
+  },
+  {
+    "id": "198796",
+    "original": "ニキビが治りません。",
+    "en": [
+      {
+        "id": "35991",
+        "text": "I can't get rid of my pimples."
+      }
+    ],
+    "indices": "面皰(にきび){ニキビ}~ が 治る[01]{治りません}",
+    "vocabIds": [
+      "1599400",
+      "1533600"
+    ],
+    "matches": {
+      "1533600": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "にきび"
+        }
+      ],
+      "1599400": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "なおりません"
+        }
+      ]
+    }
+  }
+]

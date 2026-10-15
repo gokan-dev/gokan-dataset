@@ -1,5 +1,44 @@
 [
   {
+    "id": "78553",
+    "original": "雷には稲妻がつきものだ。",
+    "en": [
+      {
+        "id": "325163",
+        "text": "Lightning normally accompanies thunder."
+      }
+    ],
+    "indices": "雷(かみなり)[01] には 稲妻 が 付き物{つきもの} だ",
+    "vocabIds": [
+      "1495730",
+      "1167860",
+      "1585060"
+    ],
+    "matches": {
+      "1167860": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "いなずま"
+        }
+      ],
+      "1495730": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "つきもの"
+        }
+      ],
+      "1585060": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かみなり"
+        }
+      ]
+    }
+  },
+  {
     "id": "80795",
     "original": "名声は必ずしも成功に付き物というわけではない。",
     "en": [
@@ -10,7 +49,9 @@
     ],
     "indices": "名声 は 必ずしも 成功 に 付き物 と言う{という} 訳ではない{わけではない}",
     "vocabIds": [
+      "2057560",
       "1487410",
+      "1922760",
       "1495730",
       "1531690",
       "1375690"
@@ -42,6 +83,145 @@
           "start": 0,
           "length": 2,
           "reading": "めいせい"
+        }
+      ],
+      "1922760": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "という"
+        }
+      ],
+      "2057560": [
+        {
+          "start": 16,
+          "length": 6,
+          "reading": "わけではない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "121411",
+    "original": "白ワインは魚料理にはつきものだ。",
+    "en": [
+      {
+        "id": "282595",
+        "text": "White wine is the usual companion of fish."
+      }
+    ],
+    "indices": "白[01] ワイン は 魚 料理[01] には 付き物{つきもの} だ",
+    "vocabIds": [
+      "1495730",
+      "2011830",
+      "2019850"
+    ],
+    "matches": {
+      "1495730": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "つきもの"
+        }
+      ],
+      "2011830": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "しろわいん"
+        }
+      ],
+      "2019850": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "さかなりょうり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "141287",
+    "original": "戦争には悲惨と悲しみがつきものだ。",
+    "en": [
+      {
+        "id": "273285",
+        "text": "The accompaniments of the war are misery and sorrow."
+      }
+    ],
+    "indices": "戦争 には 悲惨 と 悲しみ が 付き物{つきもの} だ",
+    "vocabIds": [
+      "1495730",
+      "1590550",
+      "1390360",
+      "1483290"
+    ],
+    "matches": {
+      "1390360": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "せんそう"
+        }
+      ],
+      "1483290": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ひさん"
+        }
+      ],
+      "1495730": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "つきもの"
+        }
+      ],
+      "1590550": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "かなしみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "144017",
+    "original": "人生に事故はつきもの。",
+    "en": [
+      {
+        "id": "38717",
+        "text": "Accidents will happen."
+      }
+    ],
+    "indices": "人生 に 事故 は 付き物{つきもの}",
+    "vocabIds": [
+      "1495730",
+      "1368370",
+      "1313850"
+    ],
+    "matches": {
+      "1313850": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "じこ"
+        }
+      ],
+      "1368370": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じんせい"
+        }
+      ],
+      "1495730": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "つきもの"
         }
       ]
     }
@@ -81,6 +261,84 @@
           "start": 6,
           "length": 3,
           "reading": "つきもの"
+        }
+      ]
+    }
+  },
+  {
+    "id": "144021",
+    "original": "人生には浮き沈みがつきものだ。",
+    "en": [
+      {
+        "id": "270545",
+        "text": "Life is full of ups and downs."
+      }
+    ],
+    "indices": "人生 には 浮き沈み~ が 付き物{つきもの}~ だ",
+    "vocabIds": [
+      "1495730",
+      "1748590",
+      "1368370"
+    ],
+    "matches": {
+      "1368370": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じんせい"
+        }
+      ],
+      "1495730": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "つきもの"
+        }
+      ],
+      "1748590": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "うきしずみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "182953",
+    "original": "飢饉に病気はつきものだ。",
+    "en": [
+      {
+        "id": "20074",
+        "text": "Disease and famine go together."
+      }
+    ],
+    "indices": "飢饉 に 病気 は 付き物{つきもの} だ",
+    "vocabIds": [
+      "1495730",
+      "1591080",
+      "1490230"
+    ],
+    "matches": {
+      "1490230": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "びょうき"
+        }
+      ],
+      "1495730": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "つきもの"
+        }
+      ],
+      "1591080": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ききん"
         }
       ]
     }

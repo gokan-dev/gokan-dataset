@@ -1,0 +1,92 @@
+[
+  {
+    "id": "92972",
+    "original": "彼女はきゅうりを切っている最中だった。",
+    "en": [
+      {
+        "id": "310737",
+        "text": "She was right in the middle of cutting cucumbers."
+      }
+    ],
+    "indices": "彼女[01] は 胡瓜{きゅうり} を 切る[01]{切っている} 最中(さいちゅう) だ{だった}",
+    "vocabIds": [
+      "1384830",
+      "1591500",
+      "1483150",
+      "1579210"
+    ],
+    "matches": {
+      "1384830": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "きっている"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1579210": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "さいちゅう"
+        }
+      ],
+      "1591500": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "きゅうり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "225802",
+    "original": "キュウリはスイカの親戚だ。",
+    "en": [
+      {
+        "id": "63140",
+        "text": "A cucumber is related to a watermelon."
+      },
+      {
+        "id": "1221425",
+        "text": "Cucumbers are related to watermelons."
+      }
+    ],
+    "indices": "胡瓜{キュウリ}~ は 西瓜{スイカ} の 親戚 だ",
+    "vocabIds": [
+      "1591500",
+      "1380890",
+      "1365230"
+    ],
+    "matches": {
+      "1365230": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "しんせき"
+        }
+      ],
+      "1380890": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "すいか"
+        }
+      ],
+      "1591500": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "きゅうり"
+        }
+      ]
+    }
+  }
+]

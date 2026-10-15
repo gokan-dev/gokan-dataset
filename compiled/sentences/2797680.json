@@ -1,0 +1,49 @@
+[
+  {
+    "id": "214049",
+    "original": "せきには塩水のうがいが効く。",
+    "en": [
+      {
+        "id": "1222697",
+        "text": "Gargling with salt water helps stop coughing."
+      }
+    ],
+    "indices": "咳(せき){せき}~ には 塩水~ の 含嗽{うがい}~ が 効く",
+    "vocabIds": [
+      "2797680",
+      "1204300",
+      "1576650",
+      "1591100"
+    ],
+    "matches": {
+      "1204300": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "せき"
+        }
+      ],
+      "1576650": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "しおみず"
+        }
+      ],
+      "1591100": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "きく"
+        }
+      ],
+      "2797680": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "がんそううがい"
+        }
+      ]
+    }
+  }
+]

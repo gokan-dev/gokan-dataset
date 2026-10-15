@@ -1,5 +1,154 @@
 [
   {
+    "id": "125624",
+    "original": "通りは買い物客でにぎわっている。",
+    "en": [
+      {
+        "id": "278368",
+        "text": "The streets are alive with shoppers."
+      }
+    ],
+    "indices": "通り(とおり) は 買い物客 で(#2028980) 賑わう{にぎわっている}",
+    "vocabIds": [
+      "1463500",
+      "2034510",
+      "1432920"
+    ],
+    "matches": {
+      "1432920": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とおり"
+        }
+      ],
+      "1463500": [
+        {
+          "start": 8,
+          "length": 7,
+          "reading": "にぎわっている"
+        }
+      ],
+      "2034510": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "かいものきゃく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "208243",
+    "original": "その大学は大学祭でにぎわっていた。",
+    "en": [
+      {
+        "id": "45501",
+        "text": "The university was alive with a festival."
+      }
+    ],
+    "indices": "其の[01]{その} 大学 は 大学 祭り{祭} で(#2028980) 賑わう{にぎわっていた}",
+    "vocabIds": [
+      "1463500",
+      "2160960",
+      "1006830",
+      "1413240"
+    ],
+    "matches": {
+      "1006830": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "その"
+        }
+      ],
+      "1413240": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "だいがく"
+        }
+      ],
+      "1463500": [
+        {
+          "start": 9,
+          "length": 7,
+          "reading": "にぎわっていた"
+        }
+      ],
+      "2160960": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "だいがくさい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "220511",
+    "original": "この町は以前ほどにぎわっていない。",
+    "en": [
+      {
+        "id": "57833",
+        "text": "This city is not so busy as it used to be."
+      },
+      {
+        "id": "7492761",
+        "text": "This city isn't as busy as it used to be."
+      },
+      {
+        "id": "12799904",
+        "text": "This town isn't as busy as it used to be."
+      }
+    ],
+    "indices": "此の{この} 町(まち) は 以前[02] 程{ほど} 賑わう{にぎわっていない}~",
+    "vocabIds": [
+      "1463500",
+      "1582920",
+      "1436510",
+      "1155150",
+      "1603990"
+    ],
+    "matches": {
+      "1155150": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "いぜん"
+        }
+      ],
+      "1436510": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ほど"
+        }
+      ],
+      "1463500": [
+        {
+          "start": 8,
+          "length": 8,
+          "reading": "にぎわっていない"
+        }
+      ],
+      "1582920": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "この"
+        }
+      ],
+      "1603990": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "まち"
+        }
+      ]
+    }
+  },
+  {
     "id": "8604615",
     "original": "海水浴場は海水浴客で賑わっていた。",
     "en": [

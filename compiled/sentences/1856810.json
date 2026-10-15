@@ -154,5 +154,48 @@
         }
       ]
     }
+  },
+  {
+    "id": "234325",
+    "original": "あてもなくあちこちを歩き回った。",
+    "en": [
+      {
+        "id": "71701",
+        "text": "I walked aimlessly about the street."
+      },
+      {
+        "id": "1318798",
+        "text": "I walked around aimlessly."
+      }
+    ],
+    "indices": "当ても無く{あてもなく}~ 彼方此方[01]{あちこち} を 歩き回る{歩き回った}",
+    "vocabIds": [
+      "1856810",
+      "1514310",
+      "1612620"
+    ],
+    "matches": {
+      "1514310": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "あるきまわった"
+        }
+      ],
+      "1612620": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "あちこち"
+        }
+      ],
+      "1856810": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "あてもなく"
+        }
+      ]
+    }
   }
 ]

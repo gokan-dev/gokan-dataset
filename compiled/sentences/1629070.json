@@ -10,11 +10,27 @@
     ],
     "indices": "豹~ は 其の[01]{その} 斑点~ を 変える 事が出来る{ことはできない}",
     "vocabIds": [
+      "1004550",
       "1510650",
+      "1006830",
       "1481340",
       "1629070"
     ],
     "matches": {
+      "1004550": [
+        {
+          "start": 10,
+          "length": 7,
+          "reading": "ことができことはできない"
+        }
+      ],
+      "1006830": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "その"
+        }
+      ],
       "1481340": [
         {
           "start": 4,
@@ -33,6 +49,100 @@
         {
           "start": 0,
           "length": 1,
+          "reading": "ひょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "115991",
+    "original": "彼の目はヒョウの様だ。",
+    "en": [
+      {
+        "id": "287678",
+        "text": "He has the eyes of a leopard."
+      },
+      {
+        "id": "1099583",
+        "text": "His eyes are like those of a leopard."
+      },
+      {
+        "id": "1099595",
+        "text": "His eyes look like those of a leopard."
+      }
+    ],
+    "indices": "彼(かれ) の 目(め)[01] は 豹{ヒョウ} の 様(よう) だ",
+    "vocabIds": [
+      "1629070",
+      "2409190",
+      "1483070",
+      "1604890"
+    ],
+    "matches": {
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1604890": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "め"
+        }
+      ],
+      "1629070": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "ひょう"
+        }
+      ],
+      "2409190": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "ようだ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "192689",
+    "original": "ライオンとヒョウの違いは何ですか。",
+    "en": [
+      {
+        "id": "29853",
+        "text": "What's the difference between lions and leopards?"
+      }
+    ],
+    "indices": "ライオン と 豹{ヒョウ} の 違う(ちがう)[01]{違い} は 何(なに)[01] ですか",
+    "vocabIds": [
+      "1629070",
+      "1158870",
+      "1577100"
+    ],
+    "matches": {
+      "1158870": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "ちがい"
+        }
+      ],
+      "1577100": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "なに"
+        }
+      ],
+      "1629070": [
+        {
+          "start": 5,
+          "length": 3,
           "reading": "ひょう"
         }
       ]

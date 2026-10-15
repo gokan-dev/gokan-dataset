@@ -1,5 +1,60 @@
 [
   {
+    "id": "165181",
+    "original": "私たちは浜辺にカメを見に行きました。",
+    "en": [
+      {
+        "id": "249325",
+        "text": "We went to see turtles on the beach."
+      }
+    ],
+    "indices": "私たち は 浜辺 に 亀{カメ} を 見に行く{見に行きました}",
+    "vocabIds": [
+      "1578850",
+      "1311300",
+      "1224260",
+      "1490720",
+      "1259290"
+    ],
+    "matches": {
+      "1224260": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "かめ"
+        }
+      ],
+      "1259290": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "み"
+        }
+      ],
+      "1311300": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1490720": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "はまべ"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "いきました"
+        }
+      ]
+    }
+  },
+  {
     "id": "188709",
     "original": "遠くからは、その小さな島は亀のように見えた。",
     "en": [
@@ -10,13 +65,29 @@
     ],
     "indices": "遠くから は 其の[01]{その} 小さな 島(しま)[01] は 亀 の様に[01]{のように} 見える(みえる){見えた}",
     "vocabIds": [
+      "1010030",
       "2136180",
       "1259140",
+      "1006830",
       "1177820",
       "1446760",
       "1224260"
     ],
     "matches": {
+      "1006830": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "その"
+        }
+      ],
+      "1010030": [
+        {
+          "start": 14,
+          "length": 4,
+          "reading": "のように"
+        }
+      ],
       "1177820": [
         {
           "start": 0,
@@ -50,6 +121,155 @@
           "start": 8,
           "length": 3,
           "reading": "ちいさな"
+        }
+      ]
+    }
+  },
+  {
+    "id": "228278",
+    "original": "うさぎはかめに追い越された。",
+    "en": [
+      {
+        "id": "65633",
+        "text": "The hare was outdistanced by the tortoise."
+      }
+    ],
+    "indices": "兎{うさぎ} は 亀{かめ} に 追い越す{追い越された}~",
+    "vocabIds": [
+      "1432280",
+      "1443970",
+      "1224260"
+    ],
+    "matches": {
+      "1224260": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "かめ"
+        }
+      ],
+      "1432280": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "おいこさ"
+        }
+      ],
+      "1443970": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "うさぎ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "228281",
+    "original": "うさぎとかめが競走した。",
+    "en": [
+      {
+        "id": "65636",
+        "text": "A hare raced with a tortoise."
+      },
+      {
+        "id": "10550590",
+        "text": "A rabbit and a tortoise raced against each other."
+      },
+      {
+        "id": "10550591",
+        "text": "The rabbit and the turtle raced each other."
+      }
+    ],
+    "indices": "兎{うさぎ} と 亀{かめ} が 競走 為る(する){した}",
+    "vocabIds": [
+      "1443970",
+      "1157170",
+      "1224260",
+      "1234190"
+    ],
+    "matches": {
+      "1157170": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "した"
+        }
+      ],
+      "1224260": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "かめ"
+        }
+      ],
+      "1234190": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "きょうそう"
+        }
+      ],
+      "1443970": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "うさぎ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "229804",
+    "original": "ある日、彼は弱いカメを助けた。",
+    "en": [
+      {
+        "id": "67167",
+        "text": "One day he helped a weak turtle."
+      }
+    ],
+    "indices": "ある日~ 彼(かれ)[01] は 弱い 亀{カメ}~ を 助ける[02]{助けた}",
+    "vocabIds": [
+      "1153630",
+      "1344410",
+      "1224260",
+      "1324520",
+      "1483070"
+    ],
+    "matches": {
+      "1153630": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あるひ"
+        }
+      ],
+      "1224260": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "かめ"
+        }
+      ],
+      "1324520": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "よわい"
+        }
+      ],
+      "1344410": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "たすけた"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "かれ"
         }
       ]
     }

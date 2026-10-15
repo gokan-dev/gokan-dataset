@@ -1,0 +1,45 @@
+[
+  {
+    "id": "76902",
+    "original": "あのチームはつわものぞろいだ。",
+    "en": [
+      {
+        "id": "326818",
+        "text": "That team has nothing but strong players."
+      },
+      {
+        "id": "473277",
+        "text": "That team has a strong lineup."
+      }
+    ],
+    "indices": "彼の(あの){あの} チーム は 強者(つわもの)[02]{つわもの}~ 揃い{ぞろい}~ だ",
+    "vocabIds": [
+      "2067560",
+      "1406100",
+      "1000420"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あの"
+        }
+      ],
+      "1406100": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "そろぞろい"
+        }
+      ],
+      "2067560": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "つわもの"
+        }
+      ]
+    }
+  }
+]

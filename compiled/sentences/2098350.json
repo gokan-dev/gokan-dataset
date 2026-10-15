@@ -46,9 +46,17 @@
     "indices": "都合のよろしい~ 時(とき){とき} に 居らっしゃる(いらっしゃる){いらして} 下さい",
     "vocabIds": [
       "2270320",
-      "2098350"
+      "2098350",
+      "1315840"
     ],
     "matches": {
+      "1315840": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "とき"
+        }
+      ],
       "2098350": [
         {
           "start": 10,
@@ -61,6 +69,225 @@
           "start": 0,
           "length": 7,
           "reading": "つごうのよろしい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "171994",
+    "original": "今日取りにいらしてください。",
+    "en": [
+      {
+        "id": "242481",
+        "text": "You can come and get it today."
+      }
+    ],
+    "indices": "今日 取る{取り} に いらして下さい{いらしてください}",
+    "vocabIds": [
+      "2098350",
+      "1464140",
+      "1288850"
+    ],
+    "matches": {
+      "1288850": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "いま"
+        }
+      ],
+      "1464140": [
+        {
+          "start": 1,
+          "length": 3,
+          "reading": "ひどり"
+        }
+      ],
+      "2098350": [
+        {
+          "start": 5,
+          "length": 8,
+          "reading": "いらしてください"
+        }
+      ]
+    }
+  },
+  {
+    "id": "205774",
+    "original": "それでしたら今日いらしてください。",
+    "en": [
+      {
+        "id": "43020",
+        "text": "In that case, I think you should come in today."
+      }
+    ],
+    "indices": "其れ[01]{それ} で(#2028980) 為る(する){したら} 今日 いらして下さい{いらしてください}",
+    "vocabIds": [
+      "2098350",
+      "1006970",
+      "1579110"
+    ],
+    "matches": {
+      "1006970": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "それ"
+        }
+      ],
+      "1579110": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "きょう"
+        }
+      ],
+      "2098350": [
+        {
+          "start": 8,
+          "length": 8,
+          "reading": "いらしてください"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214006",
+    "original": "ぜひ雑談でもしにいらしてください。",
+    "en": [
+      {
+        "id": "51294",
+        "text": "You must come and have a chat with us."
+      }
+    ],
+    "indices": "是非[01]{ぜひ} 雑談~ でも 為る(する){し} に いらして下さい{いらしてください}",
+    "vocabIds": [
+      "2098350",
+      "1374530",
+      "1299480"
+    ],
+    "matches": {
+      "1299480": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ざつだん"
+        }
+      ],
+      "1374530": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ぜひ"
+        }
+      ],
+      "2098350": [
+        {
+          "start": 8,
+          "length": 8,
+          "reading": "いらしてください"
+        }
+      ]
+    }
+  },
+  {
+    "id": "228841",
+    "original": "いつでも好きな時にいらしてください。",
+    "en": [
+      {
+        "id": "66199",
+        "text": "Please come whenever you like."
+      },
+      {
+        "id": "66200",
+        "text": "Come at any time you like."
+      },
+      {
+        "id": "66082",
+        "text": "Come whenever you like."
+      },
+      {
+        "id": "508379",
+        "text": "Come whenever you want."
+      },
+      {
+        "id": "1392640",
+        "text": "Come whenever you want to."
+      }
+    ],
+    "indices": "何時でも{いつでも} 好きな時に いらして下さい{いらしてください}~",
+    "vocabIds": [
+      "2098350",
+      "2762090",
+      "1577130"
+    ],
+    "matches": {
+      "1577130": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "いつでも"
+        }
+      ],
+      "2098350": [
+        {
+          "start": 9,
+          "length": 8,
+          "reading": "いらしてください"
+        }
+      ],
+      "2762090": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "すきなときに"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2786660",
+    "original": "いつでも事務所にいらしてください。",
+    "en": [
+      {
+        "id": "2785986",
+        "text": "Come to my office any time."
+      },
+      {
+        "id": "2785987",
+        "text": "Drop by my office any time."
+      },
+      {
+        "id": "5244506",
+        "text": "Please come to our offices any time."
+      }
+    ],
+    "indices": "何時でも{いつでも} 事務所 に いらして下さい{いらしてください}",
+    "vocabIds": [
+      "2098350",
+      "1577130",
+      "1314400"
+    ],
+    "matches": {
+      "1314400": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "じむしょ"
+        }
+      ],
+      "1577130": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "いつでも"
+        }
+      ],
+      "2098350": [
+        {
+          "start": 8,
+          "length": 8,
+          "reading": "いらしてください"
         }
       ]
     }

@@ -1,5 +1,290 @@
 [
   {
+    "id": "80024",
+    "original": "目がかゆいです。",
+    "en": [
+      {
+        "id": "323693",
+        "text": "My eyes feel itchy."
+      },
+      {
+        "id": "593273",
+        "text": "My eyes are itchy."
+      },
+      {
+        "id": "2769861",
+        "text": "My eyes itch."
+      }
+    ],
+    "indices": "目(め)[01] が 痒い{かゆい} です",
+    "vocabIds": [
+      "1569570",
+      "1604890"
+    ],
+    "matches": {
+      "1569570": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "かゆい"
+        }
+      ],
+      "1604890": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "め"
+        }
+      ]
+    }
+  },
+  {
+    "id": "123812",
+    "original": "頭皮がかゆいのです。",
+    "en": [
+      {
+        "id": "280183",
+        "text": "My scalp is very itchy."
+      }
+    ],
+    "indices": "頭皮~ が 痒い{かゆい}~ のです",
+    "vocabIds": [
+      "1569570",
+      "1450920"
+    ],
+    "matches": {
+      "1450920": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "とうひ"
+        }
+      ],
+      "1569570": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "かゆい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "137967",
+    "original": "体中がかゆいんです。",
+    "en": [
+      {
+        "id": "275269",
+        "text": "My body itches all over."
+      },
+      {
+        "id": "1205635",
+        "text": "My whole body itches."
+      }
+    ],
+    "indices": "体中 が 痒い{かゆい} のです{んです}",
+    "vocabIds": [
+      "1569570",
+      "1409600"
+    ],
+    "matches": {
+      "1409600": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "からだじゅう"
+        }
+      ],
+      "1569570": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "かゆい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "143657",
+    "original": "水虫がかゆいのです。",
+    "en": [
+      {
+        "id": "270910",
+        "text": "I have athlete's foot and it's very itchy."
+      }
+    ],
+    "indices": "水虫[01] が 痒い{かゆい} のです",
+    "vocabIds": [
+      "1569570",
+      "1371870"
+    ],
+    "matches": {
+      "1371870": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "みずむし"
+        }
+      ],
+      "1569570": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "かゆい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "150167",
+    "original": "耳がかゆいのです。",
+    "en": [
+      {
+        "id": "264389",
+        "text": "I have an itch in my ear."
+      }
+    ],
+    "indices": "耳[01] が 痒い{かゆい} のです",
+    "vocabIds": [
+      "1569570",
+      "1317170"
+    ],
+    "matches": {
+      "1317170": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "みみ"
+        }
+      ],
+      "1569570": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "かゆい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "195101",
+    "original": "みずぼうそうは子供たちにとってかゆい迷惑なものだ。",
+    "en": [
+      {
+        "id": "32275",
+        "text": "Chicken pox is an itchy nuisance for kids."
+      }
+    ],
+    "indices": "水疱瘡{みずぼうそう} は 子供たち に取って{にとって} 痒い{かゆい} 迷惑{迷惑な} 物(もの){もの} だ",
+    "vocabIds": [
+      "1372310",
+      "1009600",
+      "1307870",
+      "1569570",
+      "1502390",
+      "1532800"
+    ],
+    "matches": {
+      "1009600": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "にとって"
+        }
+      ],
+      "1307870": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "こどもたち"
+        }
+      ],
+      "1372310": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "みずぼうそう"
+        }
+      ],
+      "1502390": [
+        {
+          "start": 21,
+          "length": 2,
+          "reading": "もの"
+        }
+      ],
+      "1532800": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "めいわく"
+        }
+      ],
+      "1569570": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "かゆい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "213568",
+    "original": "そこらじゅう蚊に刺されてかゆくてしょうがない。",
+    "en": [
+      {
+        "id": "50855",
+        "text": "I got bit by mosquitoes all over this area, and it itches so badly I can't stand it."
+      }
+    ],
+    "indices": "そこら中{そこらじゅう}~ 蚊 に 刺す{刺されて} 痒い{かゆくて} 仕様が無い[05]{しょうがない}",
+    "vocabIds": [
+      "1305510",
+      "2396820",
+      "1569570",
+      "1306470",
+      "1196540"
+    ],
+    "matches": {
+      "1196540": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "か"
+        }
+      ],
+      "1305510": [
+        {
+          "start": 16,
+          "length": 6,
+          "reading": "しょうがない"
+        }
+      ],
+      "1306470": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "ささ"
+        }
+      ],
+      "1569570": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "かゆくて"
+        }
+      ],
+      "2396820": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "そこらじゅう"
+        }
+      ]
+    }
+  },
+  {
     "id": "886082",
     "original": "蚊に刺されて痒いよ。何か薬持ってない？",
     "en": [
@@ -57,6 +342,45 @@
           "start": 6,
           "length": 2,
           "reading": "かゆい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2733322",
+    "original": "先生、アソコがかゆいんです。",
+    "en": [
+      {
+        "id": "2733323",
+        "text": "Doctor, I've got an itch in my crotch."
+      }
+    ],
+    "indices": "先生(せんせい) 彼処(あそこ)[02]{アソコ}~ が 痒い{かゆいんです}",
+    "vocabIds": [
+      "1569570",
+      "1000320",
+      "1387990"
+    ],
+    "matches": {
+      "1000320": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "あそこ"
+        }
+      ],
+      "1387990": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "せんせい"
+        }
+      ],
+      "1569570": [
+        {
+          "start": 7,
+          "length": 6,
+          "reading": "かゆいんです"
         }
       ]
     }

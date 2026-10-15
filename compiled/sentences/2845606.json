@@ -1,5 +1,107 @@
 [
   {
+    "id": "74894",
+    "original": "コンタクトを入れるというのはいかがでしょう？",
+    "en": [
+      {
+        "id": "328826",
+        "text": "How about wearing contact lenses?"
+      }
+    ],
+    "indices": "コンタクト[02] を 入れる と言う{という} の は 如何(いかが)[01]{いかが}~ でしょう[01]",
+    "vocabIds": [
+      "1922760",
+      "2845606",
+      "1465610"
+    ],
+    "matches": {
+      "1465610": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "いれる"
+        }
+      ],
+      "1922760": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "という"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "74914",
+    "original": "お肉の焼き加減は、いかがなさいますか？",
+    "en": [
+      {
+        "id": "328805",
+        "text": "How would you like your steak cooked?"
+      }
+    ],
+    "indices": "御(お){お} 肉(にく)[02] の 焼く[01]{焼き} 加減[01]~ は 如何(いかが){いかが} 為さる{なさいます} か",
+    "vocabIds": [
+      "1157090",
+      "2845606",
+      "2265630",
+      "1190080",
+      "2826528",
+      "1463520"
+    ],
+    "matches": {
+      "1157090": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "なさいます"
+        }
+      ],
+      "1190080": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "かげん"
+        }
+      ],
+      "1463520": [
+        {
+          "start": 1,
+          "length": 1,
+          "reading": "にく"
+        }
+      ],
+      "2265630": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "やき"
+        }
+      ],
+      "2826528": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "お"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
     "id": "74943",
     "original": "畑違いの品質管理課は如何ですか？",
     "en": [
@@ -42,6 +144,6565 @@
           "start": 10,
           "length": 2,
           "reading": "どう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "74954",
+    "original": "「お飲み物はいかがですか？」「すいません、いいです」",
+    "en": [
+      {
+        "id": "328765",
+        "text": "\"Would you like something to drink?\" \"Sorry, no thanks.\""
+      },
+      {
+        "id": "543592",
+        "text": "\"Would you like something to drink?\" \"No, but thanks for offering.\""
+      }
+    ],
+    "indices": "御(お){お} 飲み物 は 如何(いかが){いかが} ですか すいません いい(#2820690)[02] です",
+    "vocabIds": [
+      "2845606",
+      "1600430",
+      "2826528"
+    ],
+    "matches": {
+      "1600430": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "のみもの"
+        }
+      ],
+      "2826528": [
+        {
+          "start": 1,
+          "length": 1,
+          "reading": "お"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "75086",
+    "original": "「どーした、もじもじして」「あーいや、何かパンツのゴム切れちゃったみたいで」",
+    "en": [
+      {
+        "id": "328633",
+        "text": "\"What's up? Fidgeting like that\" \"Er, well, it looks like the elastic's gone in my pants.\""
+      }
+    ],
+    "indices": "如何(どう){どー} 為る(する){した} もじもじ 為る(する){して} 嗚呼{あー} いや(#2830360)[02] 何か パンツ 之(の)[01]{の} 護謨[01]{ゴム} 切れる[02]{切れ} じゃう{ちゃった} みたい で",
+    "vocabIds": [
+      "1384860",
+      "1008910",
+      "2845606",
+      "1157170",
+      "1565440",
+      "1054570",
+      "1188270",
+      "1469800"
+    ],
+    "matches": {
+      "1008910": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "どうどー"
+        }
+      ],
+      "1054570": [
+        {
+          "start": 25,
+          "length": 2,
+          "reading": "ごむ"
+        }
+      ],
+      "1157170": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "した"
+        },
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "して"
+        }
+      ],
+      "1188270": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "なにか"
+        }
+      ],
+      "1384860": [
+        {
+          "start": 27,
+          "length": 6,
+          "reading": "きれちゃった"
+        }
+      ],
+      "1469800": [
+        {
+          "start": 24,
+          "length": 1,
+          "reading": "の"
+        }
+      ],
+      "1565440": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "あああー"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "どー"
+        }
+      ]
+    }
+  },
+  {
+    "id": "75403",
+    "original": "証拠隠滅どーすんのよ！普通は警察に連絡するもんでしょっ。",
+    "en": [
+      {
+        "id": "328316",
+        "text": "What does destroying evidence get you? The usual thing would be to contact the police, wouldn't it?"
+      }
+    ],
+    "indices": "証拠隠滅~ 如何(どう){どー} 為る(する){すん} の よ 普通 は 警察 に 連絡[01] 為る(する){する} 物(もの){もん} でしょう{でしょっ}",
+    "vocabIds": [
+      "1648140",
+      "1008910",
+      "2845606",
+      "1157170",
+      "1502390",
+      "1497190",
+      "1252390",
+      "1559900"
+    ],
+    "matches": {
+      "1008910": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "どうどー"
+        }
+      ],
+      "1157170": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "すん"
+        },
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "する"
+        }
+      ],
+      "1252390": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "けいさつ"
+        }
+      ],
+      "1497190": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "ふつう"
+        }
+      ],
+      "1502390": [
+        {
+          "start": 21,
+          "length": 2,
+          "reading": "ものもん"
+        }
+      ],
+      "1559900": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "れんらく"
+        }
+      ],
+      "1648140": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "しょうこいんめつ"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "どー"
+        }
+      ]
+    }
+  },
+  {
+    "id": "76521",
+    "original": "どーすんの、このお店！完ッ全に閑古鳥が鳴いちゃってるじゃない。",
+    "en": [
+      {
+        "id": "327199",
+        "text": "What happened to this place?! It's completely dead!"
+      }
+    ],
+    "indices": "如何(どう){どー} 為る(する){すん} の 此の{この} 御(お){お} 店(みせ) 完全{完ッ全} に 閑古鳥が鳴く{閑古鳥が鳴い} じゃう{ちゃってる} だ{じゃない}",
+    "vocabIds": [
+      "1532870",
+      "1757650",
+      "1008910",
+      "2845606",
+      "1157170",
+      "1582920",
+      "2842661",
+      "2067670",
+      "1394770"
+    ],
+    "matches": {
+      "1008910": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "どうどー"
+        }
+      ],
+      "1157170": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "すん"
+        }
+      ],
+      "1394770": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "ぜん"
+        }
+      ],
+      "1532870": [
+        {
+          "start": 19,
+          "length": 7,
+          "reading": "ないちゃってる"
+        }
+      ],
+      "1582920": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "この"
+        }
+      ],
+      "1757650": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "かんこどり"
+        }
+      ],
+      "2067670": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "かん"
+        }
+      ],
+      "2842661": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "おみせ"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "どー"
+        }
+      ]
+    }
+  },
+  {
+    "id": "77584",
+    "original": "列を上に下に歩き回る時、「ホットドッグはいかが。ホットドッグはいかが」と叫ぶ。",
+    "en": [
+      {
+        "id": "326134",
+        "text": "As they walk up and down the rows they shout, \"Get your hot dogs here! Get your hot dogs!\""
+      }
+    ],
+    "indices": "列 を 上(うえ) に 下(した) に 歩き回る 時(とき) ホットドッグ は 如何(いかが){いかが} ホットドッグ は 如何(いかが){いかが} と 叫ぶ",
+    "vocabIds": [
+      "1514310",
+      "2845606",
+      "1235910",
+      "1558330",
+      "1352130",
+      "1184140",
+      "1315840"
+    ],
+    "matches": {
+      "1184140": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "した"
+        }
+      ],
+      "1235910": [
+        {
+          "start": 36,
+          "length": 2,
+          "reading": "さけぶ"
+        }
+      ],
+      "1315840": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "とき"
+        }
+      ],
+      "1352130": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "うえ"
+        }
+      ],
+      "1514310": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "あるきまわる"
+        }
+      ],
+      "1558330": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "れつ"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 20,
+          "length": 3,
+          "reading": "いかが"
+        },
+        {
+          "start": 31,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "77685",
+    "original": "例の仕事はいかがでしょう？",
+    "en": [
+      {
+        "id": "326033",
+        "text": "How is that business progressing?"
+      },
+      {
+        "id": "1304544",
+        "text": "How's that business going?"
+      }
+    ],
+    "indices": "例の[02] 仕事[01] は 如何(いかが){いかが} でしょう[01]",
+    "vocabIds": [
+      "2845606",
+      "2176410",
+      "1304970"
+    ],
+    "matches": {
+      "1304970": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "しごと"
+        }
+      ],
+      "2176410": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "れいの"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "78832",
+    "original": "葉巻はいかが？",
+    "en": [
+      {
+        "id": "324884",
+        "text": "Have a cigar?"
+      },
+      {
+        "id": "10049524",
+        "text": "Would you like a cigar?"
+      }
+    ],
+    "indices": "葉巻 は 如何(いかが){いかが}",
+    "vocabIds": [
+      "2845606",
+      "1546580"
+    ],
+    "matches": {
+      "1546580": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "はまき"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "80303",
+    "original": "明日私たちと山中湖へドライブに行くのはいかがですか。",
+    "en": [
+      {
+        "id": "323414",
+        "text": "How about going for a drive to Lake Yamanaka with us tomorrow?"
+      }
+    ],
+    "indices": "明日 私たち と 湖(こ) へ ドライブ[01] に 行く の は 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606",
+      "1311300",
+      "1584660",
+      "1578850"
+    ],
+    "matches": {
+      "1311300": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "いく"
+        }
+      ],
+      "1584660": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あした"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 19,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "80648",
+    "original": "明日、東京見物をするのはいかがですか。",
+    "en": [
+      {
+        "id": "323067",
+        "text": "What do you say to doing the sights of Tokyo tomorrow?"
+      }
+    ],
+    "indices": "明日 東京 見物(けんぶつ) を 為る(する)[01]{する} の は 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606",
+      "1157170",
+      "1584660",
+      "1447690",
+      "1260000"
+    ],
+    "matches": {
+      "1157170": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "する"
+        }
+      ],
+      "1260000": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "けんぶつ"
+        }
+      ],
+      "1447690": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "とうきょう"
+        }
+      ],
+      "1584660": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あした"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "81065",
+    "original": "味はいかがですか。",
+    "en": [
+      {
+        "id": "322650",
+        "text": "How about the taste?"
+      },
+      {
+        "id": "594702",
+        "text": "Does it taste okay?"
+      },
+      {
+        "id": "8225106",
+        "text": "How's the taste?"
+      }
+    ],
+    "indices": "味(あじ) は 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606",
+      "1526960"
+    ],
+    "matches": {
+      "1526960": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "あじ"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "81107",
+    "original": "万事はその結果いかんにかかっている。",
+    "en": [
+      {
+        "id": "322608",
+        "text": "Much depends upon the result."
+      },
+      {
+        "id": "1437168",
+        "text": "Everything depends upon the results."
+      }
+    ],
+    "indices": "万事 は 其の[01]{その} 結果 如何(いかん)[01]{いかん} に 掛かる[14]{かかっている}",
+    "vocabIds": [
+      "1207590",
+      "2851217",
+      "2845606",
+      "1526080"
+    ],
+    "matches": {
+      "1207590": [
+        {
+          "start": 11,
+          "length": 6,
+          "reading": "かかっている"
+        }
+      ],
+      "1526080": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ばんじ"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "いかん"
+        }
+      ],
+      "2851217": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "そのけっか"
+        }
+      ]
+    }
+  },
+  {
+    "id": "84249",
+    "original": "葡萄酒を一杯いかがですか。",
+    "en": [
+      {
+        "id": "319466",
+        "text": "Would you like another glass of wine?"
+      }
+    ],
+    "indices": "ぶどう酒{葡萄酒} を 一杯 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606",
+      "1499250",
+      "1165670"
+    ],
+    "matches": {
+      "1165670": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "いっぱい"
+        }
+      ],
+      "1499250": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ぶどうしゅ"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "85684",
+    "original": "飛行機の旅はいかがでしたか。",
+    "en": [
+      {
+        "id": "513059",
+        "text": "How was your flight?"
+      }
+    ],
+    "indices": "飛行機 の 旅(たび) は 如何(いかが){いかが} です{でした} か",
+    "vocabIds": [
+      "2845606",
+      "1485470",
+      "1553120"
+    ],
+    "matches": {
+      "1485470": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ひこうき"
+        }
+      ],
+      "1553120": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "たび"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "116001",
+    "original": "彼の命は判決いかんにかかっている。",
+    "en": [
+      {
+        "id": "287668",
+        "text": "His life hangs on the judge's decision."
+      }
+    ],
+    "indices": "彼(かれ) の 命(いのち) は 判決 如何(いかん)[01]{いかん} に 掛かる[14]{かかっている}",
+    "vocabIds": [
+      "1207590",
+      "2845606",
+      "1478520",
+      "1483070",
+      "1531940"
+    ],
+    "matches": {
+      "1207590": [
+        {
+          "start": 10,
+          "length": 6,
+          "reading": "かかっている"
+        }
+      ],
+      "1478520": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "はんけつ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1531940": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "いのち"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "いかん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "117336",
+    "original": "彼の今度の小説はいかがでしたか。",
+    "en": [
+      {
+        "id": "286328",
+        "text": "How do you find his new novel?"
+      }
+    ],
+    "indices": "彼(かれ)[01]{彼の} 今度 の 小説 は 如何(いかが){いかが} です{でした} か",
+    "vocabIds": [
+      "2845606",
+      "2845746",
+      "1289370",
+      "1348430"
+    ],
+    "matches": {
+      "1289370": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "こんど"
+        }
+      ],
+      "1348430": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "しょうせつ"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ],
+      "2845746": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かれの"
+        }
+      ]
+    }
+  },
+  {
+    "id": "118570",
+    "original": "彼に助言を求めてはいかがですか。",
+    "en": [
+      {
+        "id": "285093",
+        "text": "Why don't we ask his advice?"
+      }
+    ],
+    "indices": "彼(かれ) に 助言 を 求める{求めて} は 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606",
+      "1229350",
+      "1580230",
+      "1483070"
+    ],
+    "matches": {
+      "1229350": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "もとめて"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1580230": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "じょげん"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "118710",
+    "original": "彼にもう一杯いかがかと問う。",
+    "en": [
+      {
+        "id": "284953",
+        "text": "Ask if he wants another drink."
+      },
+      {
+        "id": "3232665",
+        "text": "I'll ask him whether he wants another drink."
+      }
+    ],
+    "indices": "彼(かれ) に もう[03] 一杯[02] 如何(いかが){いかが} か と 問う[01]~",
+    "vocabIds": [
+      "2845606",
+      "1165670",
+      "1536000",
+      "1483070"
+    ],
+    "matches": {
+      "1165670": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "いっぱい"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1536000": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "とう"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "121483",
+    "original": "売り子が観客の列をあちこちと売り歩くとき、「ダックスフント・ソーセージはいかが」と叫んだ。",
+    "en": [
+      {
+        "id": "282522",
+        "text": "As the men walked up and down the rows of people, they shouted, \"Get your dachshund sausages!\""
+      }
+    ],
+    "indices": "売り子 が 観客 の 列 を 彼方此方[01]{あちこち} と 売る{売り} 歩く 時(とき){とき} ダックスフント ソーセージ は 如何(いかが){いかが} と 叫ぶ{叫んだ}",
+    "vocabIds": [
+      "1612620",
+      "1473940",
+      "2845606",
+      "1588520",
+      "1235910",
+      "1315840",
+      "1214810",
+      "1558330"
+    ],
+    "matches": {
+      "1214810": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "かんきゃく"
+        }
+      ],
+      "1235910": [
+        {
+          "start": 41,
+          "length": 3,
+          "reading": "さけんだ"
+        }
+      ],
+      "1315840": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "とき"
+        }
+      ],
+      "1473940": [
+        {
+          "start": 14,
+          "length": 4,
+          "reading": "うりあるく"
+        }
+      ],
+      "1558330": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "れつ"
+        }
+      ],
+      "1588520": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "うりこ"
+        }
+      ],
+      "1612620": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "あちこち"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 36,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "122522",
+    "original": "日本はいかがですか。",
+    "en": [
+      {
+        "id": "281481",
+        "text": "How do you like Japan?"
+      }
+    ],
+    "indices": "日本 は 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606",
+      "1582710"
+    ],
+    "matches": {
+      "1582710": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "にほん"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "125054",
+    "original": "天候のいかんにかかわらず駅へ迎えに参ります。",
+    "en": [
+      {
+        "id": "278939",
+        "text": "Rain or shine, I will come to meet you at the station."
+      }
+    ],
+    "indices": "天候 の 如何(いかん)[01]{いかん}~ に 関わらず[02]{かかわらず} 駅 へ 迎える[01]{迎え} に 参る{参ります}",
+    "vocabIds": [
+      "1589860",
+      "1302070",
+      "2845606",
+      "1253190",
+      "1438970",
+      "1175140"
+    ],
+    "matches": {
+      "1175140": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "えき"
+        }
+      ],
+      "1253190": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "むかえ"
+        }
+      ],
+      "1302070": [
+        {
+          "start": 17,
+          "length": 4,
+          "reading": "まいります"
+        }
+      ],
+      "1438970": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "てんこう"
+        }
+      ],
+      "1589860": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "かかわらず"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "いかん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "126375",
+    "original": "昼食後、コーヒーを一杯いかがですか。",
+    "en": [
+      {
+        "id": "277616",
+        "text": "How about a cup of coffee after lunch?"
+      }
+    ],
+    "indices": "昼食後 珈琲{コーヒー} を 一杯[01] 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "1049180",
+      "2845606",
+      "2103590",
+      "1165670"
+    ],
+    "matches": {
+      "1049180": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "こーひー"
+        }
+      ],
+      "1165670": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "いっぱい"
+        }
+      ],
+      "2103590": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ちゅうしょくご"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "126599",
+    "original": "着心地はいかがですか。",
+    "en": [
+      {
+        "id": "277449",
+        "text": "How does it fit you?"
+      }
+    ],
+    "indices": "着心地~ は 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606",
+      "1423120"
+    ],
+    "matches": {
+      "1423120": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "きごこち"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "137898",
+    "original": "滞在はいかがでしたか。",
+    "en": [
+      {
+        "id": "275338",
+        "text": "How was your stay?"
+      }
+    ],
+    "indices": "滞在 は 如何(いかが){いかが} です{でした} か",
+    "vocabIds": [
+      "2845606",
+      "1410930"
+    ],
+    "matches": {
+      "1410930": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "たいざい"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "141790",
+    "original": "先生、中東情勢についていかがお考えですか。",
+    "en": [
+      {
+        "id": "272780",
+        "text": "Professor, what do you think of the situation in the Middle East?"
+      }
+    ],
+    "indices": "先生(せんせい)[01] 中東 情勢 に就いて{について} 如何(いかが){いかが} 御(お){お} 考え ですか",
+    "vocabIds": [
+      "1009780",
+      "2845606",
+      "1387990",
+      "1425080",
+      "1356320",
+      "1281000",
+      "2826528"
+    ],
+    "matches": {
+      "1009780": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "について"
+        }
+      ],
+      "1281000": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "かんがえ"
+        }
+      ],
+      "1356320": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "じょうせい"
+        }
+      ],
+      "1387990": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "せんせい"
+        }
+      ],
+      "1425080": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ちゅうとう"
+        }
+      ],
+      "2826528": [
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "お"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "145372",
+    "original": "新しい職場はいかがですか。",
+    "en": [
+      {
+        "id": "269191",
+        "text": "How's your new job?"
+      }
+    ],
+    "indices": "新しい 職場 は 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606",
+      "1361490",
+      "1357540"
+    ],
+    "matches": {
+      "1357540": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "しょくば"
+        }
+      ],
+      "1361490": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あたらしい"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "145402",
+    "original": "新しい仕事はいかがですか。",
+    "en": [
+      {
+        "id": "269161",
+        "text": "How do you like your new job?"
+      },
+      {
+        "id": "3264675",
+        "text": "How's the new job?"
+      }
+    ],
+    "indices": "新しい 仕事[01] は 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606",
+      "1361490",
+      "1304970"
+    ],
+    "matches": {
+      "1304970": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "しごと"
+        }
+      ],
+      "1361490": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あたらしい"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "145497",
+    "original": "新しいクラスはいかがですか。",
+    "en": [
+      {
+        "id": "269066",
+        "text": "How do you like your new class?"
+      }
+    ],
+    "indices": "新しい クラス は 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606",
+      "1361490"
+    ],
+    "matches": {
+      "1361490": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あたらしい"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "145848",
+    "original": "食事の前にお飲物はいかがですか。",
+    "en": [
+      {
+        "id": "268714",
+        "text": "Would you like to have a drink before dinner?"
+      }
+    ],
+    "indices": "食事 の 前(まえ) に 御(お){お} 飲み物{飲物} は 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606",
+      "1358490",
+      "1392590",
+      "1600430",
+      "2826528"
+    ],
+    "matches": {
+      "1358490": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しょくじ"
+        }
+      ],
+      "1392590": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "まえに"
+        }
+      ],
+      "1600430": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "のみもの"
+        }
+      ],
+      "2826528": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "お"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "146383",
+    "original": "焼き立てのパンはいかがですか。",
+    "en": [
+      {
+        "id": "268179",
+        "text": "Won't you have some bread hot from the oven?"
+      }
+    ],
+    "indices": "焼き立て{焼き立ての} パン(#1103090)[01] は 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "1350590",
+      "2845606"
+    ],
+    "matches": {
+      "1350590": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "やきたて"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "151956",
+    "original": "私達の所に数日泊ったらいかがですか。",
+    "en": [
+      {
+        "id": "262597",
+        "text": "How about staying with us for a few days?"
+      }
+    ],
+    "indices": "私たち{私達} の 所(ところ) に 数日 泊まる[01]{泊ったら} 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "1474850",
+      "2845606",
+      "1311300",
+      "1373200",
+      "1343100"
+    ],
+    "matches": {
+      "1311300": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "わたしたち"
+        }
+      ],
+      "1343100": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "ところ"
+        }
+      ],
+      "1373200": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "すうじつ"
+        }
+      ],
+      "1474850": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "とまったら"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "163257",
+    "original": "私の新しい服はいかが？",
+    "en": [
+      {
+        "id": "251255",
+        "text": "How do you like my new suit?"
+      }
+    ],
+    "indices": "私(わたし)[01]{私の} 新しい 服(ふく)[01] は 如何(いかが){いかが}",
+    "vocabIds": [
+      "2845606",
+      "1361490",
+      "1311110",
+      "1500940"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1361490": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "あたらしい"
+        }
+      ],
+      "1500940": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "ふく"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "163987",
+    "original": "私の家はいかがでしたか。",
+    "en": [
+      {
+        "id": "38354",
+        "text": "How did you find my house?"
+      }
+    ],
+    "indices": "私(わたし)[01]{私の} 家(いえ)[01] は 如何(いかが){いかが} です{でした} か",
+    "vocabIds": [
+      "2845606",
+      "1311110",
+      "1191730"
+    ],
+    "matches": {
+      "1191730": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "いえ"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "166927",
+    "original": "私たちの新居をご覧になってはいかがですか。",
+    "en": [
+      {
+        "id": "247575",
+        "text": "What do you think of our new abode?"
+      }
+    ],
+    "indices": "私たち の 新居 を ご覧になる[01]{ご覧になって} は 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606",
+      "1311300",
+      "1361730",
+      "1270760"
+    ],
+    "matches": {
+      "1270760": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ごらん"
+        }
+      ],
+      "1311300": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1361730": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "しんきょ"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "169332",
+    "original": "散歩はいかがですか。",
+    "en": [
+      {
+        "id": "245154",
+        "text": "Would you care to go for a walk?"
+      }
+    ],
+    "indices": "散歩 は 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606",
+      "1303620"
+    ],
+    "matches": {
+      "1303620": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "さんぽ"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "169536",
+    "original": "雑誌か新聞、いかがですか。",
+    "en": [
+      {
+        "id": "244950",
+        "text": "Would you like a newspaper or magazine?"
+      }
+    ],
+    "indices": "雑誌 か 新聞 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606",
+      "1299400",
+      "1362360"
+    ],
+    "matches": {
+      "1299400": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ざっし"
+        }
+      ],
+      "1362360": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "しんぶん"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "171651",
+    "original": "今日の気分はいかがですか？",
+    "en": [
+      {
+        "id": "242491",
+        "text": "How are you feeling today?"
+      }
+    ],
+    "indices": "今日 の 御(ご){ご} 気分 は 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606",
+      "1579110",
+      "1222590"
+    ],
+    "matches": {
+      "1222590": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "きぶん"
+        }
+      ],
+      "1579110": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きょう"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "171782",
+    "original": "今日はご気分はいかがですか。",
+    "en": [
+      {
+        "id": "54489",
+        "text": "How do you feel today?"
+      },
+      {
+        "id": "388255",
+        "text": "How are you today?"
+      }
+    ],
+    "indices": "今日 は 御(ご){ご} 気分 は 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606",
+      "1289400",
+      "1222590",
+      "2826528"
+    ],
+    "matches": {
+      "1222590": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "きぶん"
+        }
+      ],
+      "1289400": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "こんにちは"
+        }
+      ],
+      "2826528": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "ご"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "171963",
+    "original": "今日の午後、ご一緒にお茶をいかがですか。",
+    "en": [
+      {
+        "id": "242511",
+        "text": "Would you like to tea with us this afternoon?"
+      },
+      {
+        "id": "1921841",
+        "text": "Would you like to have tea with us this afternoon?"
+      }
+    ],
+    "indices": "今日 の 午後 御(ご){ご} 一緒に[01] お茶[01] を 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606",
+      "2453950",
+      "1579110",
+      "1268990",
+      "1002430"
+    ],
+    "matches": {
+      "1002430": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "おちゃ"
+        }
+      ],
+      "1268990": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ごご"
+        }
+      ],
+      "1579110": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きょう"
+        }
+      ],
+      "2453950": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "ごいっしょ"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "172271",
+    "original": "今朝は気分はいかがですか。",
+    "en": [
+      {
+        "id": "242170",
+        "text": "How are you feeling this morning?"
+      }
+    ],
+    "indices": "今朝 は 気分 は 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606",
+      "1579100",
+      "1222590"
+    ],
+    "matches": {
+      "1222590": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "きぶん"
+        }
+      ],
+      "1579100": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "けさ"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "173485",
+    "original": "紅茶を一杯いかがですか。",
+    "en": [
+      {
+        "id": "240985",
+        "text": "How about a cup of tea?"
+      },
+      {
+        "id": "240984",
+        "text": "Would you care for a cup of tea?"
+      }
+    ],
+    "indices": "紅茶 を 一杯 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606",
+      "1280770",
+      "1165670"
+    ],
+    "matches": {
+      "1165670": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "いっぱい"
+        }
+      ],
+      "1280770": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こうちゃ"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "173487",
+    "original": "紅茶をもう少しいかがですか。",
+    "en": [
+      {
+        "id": "64204",
+        "text": "Would you like some more tea?"
+      }
+    ],
+    "indices": "紅茶 を もう少し 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2005870",
+      "2845606",
+      "1280770"
+    ],
+    "matches": {
+      "1280770": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こうちゃ"
+        }
+      ],
+      "2005870": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "もうすこし"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "173494",
+    "original": "紅茶またはコーヒーはいかが？",
+    "en": [
+      {
+        "id": "813321",
+        "text": "Would you like some tea or coffee?"
+      }
+    ],
+    "indices": "紅茶 又は{または}~ 珈琲{コーヒー} は 如何(いかが){いかが}",
+    "vocabIds": [
+      "1049180",
+      "1524990",
+      "2845606",
+      "1280770"
+    ],
+    "matches": {
+      "1049180": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "こーひー"
+        }
+      ],
+      "1280770": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こうちゃ"
+        }
+      ],
+      "1524990": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "または"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "173496",
+    "original": "紅茶は、いかがですか。",
+    "en": [
+      {
+        "id": "240974",
+        "text": "Would you care for some tea?"
+      }
+    ],
+    "indices": "紅茶 は 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606",
+      "1280770"
+    ],
+    "matches": {
+      "1280770": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こうちゃ"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "173507",
+    "original": "紅茶かコーヒーはいかがですか。",
+    "en": [
+      {
+        "id": "240963",
+        "text": "Care for tea or coffee?"
+      }
+    ],
+    "indices": "紅茶 か 珈琲{コーヒー} は 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "1049180",
+      "2845606",
+      "1280770"
+    ],
+    "matches": {
+      "1049180": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "こーひー"
+        }
+      ],
+      "1280770": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こうちゃ"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "174013",
+    "original": "公園を散歩するのはいかがですか。",
+    "en": [
+      {
+        "id": "240457",
+        "text": "What do you say to taking a walk in the park?"
+      }
+    ],
+    "indices": "公園 を 散歩 為る(する){する} の は 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606",
+      "1157170",
+      "1273270",
+      "1303620"
+    ],
+    "matches": {
+      "1157170": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "する"
+        }
+      ],
+      "1273270": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こうえん"
+        }
+      ],
+      "1303620": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "さんぽ"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "174269",
+    "original": "御急ぎでなかったら、御茶か何かいかがですか。",
+    "en": [
+      {
+        "id": "240200",
+        "text": "How about a cup of tea or something, if you aren't in a hurry?"
+      }
+    ],
+    "indices": "御(ご) 急ぎ だ{でなかったら} お茶{御茶} か 何か 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606",
+      "1228630",
+      "1002430",
+      "1188270",
+      "2826528"
+    ],
+    "matches": {
+      "1002430": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "おちゃ"
+        }
+      ],
+      "1188270": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "なにか"
+        }
+      ],
+      "1228630": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "いそぎ"
+        }
+      ],
+      "2826528": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ご"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "176524",
+    "original": "景気はいかがですか。",
+    "en": [
+      {
+        "id": "237940",
+        "text": "How are things with you?"
+      }
+    ],
+    "indices": "景気 は 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606",
+      "1250830"
+    ],
+    "matches": {
+      "1250830": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "けいき"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "179440",
+    "original": "空の旅はいかがでしたか。",
+    "en": [
+      {
+        "id": "513059",
+        "text": "How was your flight?"
+      }
+    ],
+    "indices": "空の旅 は 如何(いかが){いかが} です{でした} か",
+    "vocabIds": [
+      "2845606",
+      "2017660"
+    ],
+    "matches": {
+      "2017660": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "そらのたび"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "179838",
+    "original": "近頃はいかがですか。",
+    "en": [
+      {
+        "id": "18698",
+        "text": "How are you these days?"
+      }
+    ],
+    "indices": "近頃[01] は 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606",
+      "1242300"
+    ],
+    "matches": {
+      "1242300": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ちかごろ"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "179863",
+    "original": "近ごろはいかがお暮らしですか。",
+    "en": [
+      {
+        "id": "18699",
+        "text": "How are you getting along these days?"
+      }
+    ],
+    "indices": "近頃[01]{近ごろ} は 如何(いかが){いかが} 御(お){お} 暮らし ですか",
+    "vocabIds": [
+      "2845606",
+      "1242300",
+      "1514930",
+      "2826528"
+    ],
+    "matches": {
+      "1242300": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ちかごろ"
+        }
+      ],
+      "1514930": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "くらし"
+        }
+      ],
+      "2826528": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "お"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "181643",
+    "original": "京都はいかがですか。",
+    "en": [
+      {
+        "id": "19304",
+        "text": "How do you like Kyoto?"
+      }
+    ],
+    "indices": "京都 は 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606",
+      "1652350"
+    ],
+    "matches": {
+      "1652350": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きょうと"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "182010",
+    "original": "京都で途中下車して古都見物はいかがですか。",
+    "en": [
+      {
+        "id": "19329",
+        "text": "How about stopping over at Kyoto and sightseeing at the old capital?"
+      }
+    ],
+    "indices": "京都 で(#2028980) 途中下車 為る(する){して} 古都 見物(けんぶつ) は 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "1444920",
+      "2845606",
+      "1157170",
+      "1652350",
+      "1265960",
+      "1260000"
+    ],
+    "matches": {
+      "1157170": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "して"
+        }
+      ],
+      "1260000": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "けんぶつ"
+        }
+      ],
+      "1265960": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "こと"
+        }
+      ],
+      "1444920": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "とちゅうげしゃ"
+        }
+      ],
+      "1652350": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きょうと"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "182265",
+    "original": "牛乳をもう一杯いかがですか。",
+    "en": [
+      {
+        "id": "19456",
+        "text": "Won't you have another glass of milk?"
+      }
+    ],
+    "indices": "牛乳 を もう[03] 一杯 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606",
+      "1231590",
+      "1165670"
+    ],
+    "matches": {
+      "1165670": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "いっぱい"
+        }
+      ],
+      "1231590": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ぎゅうにゅう"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "182291",
+    "original": "牛乳の代わりにワインはいかがですか。",
+    "en": [
+      {
+        "id": "19475",
+        "text": "Will you drink wine instead of milk?"
+      }
+    ],
+    "indices": "牛乳 の 代わり に ワイン は 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "1590790",
+      "2845606",
+      "1231590"
+    ],
+    "matches": {
+      "1231590": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ぎゅうにゅう"
+        }
+      ],
+      "1590790": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "かわりに"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "182677",
+    "original": "休暇はいかがでしたか。",
+    "en": [
+      {
+        "id": "19808",
+        "text": "How did you enjoy your vacation?"
+      },
+      {
+        "id": "9344798",
+        "text": "Did you enjoy your vacation?"
+      }
+    ],
+    "indices": "休暇 は 如何(いかが){いかが} です{でした} か",
+    "vocabIds": [
+      "2845606",
+      "1227610"
+    ],
+    "matches": {
+      "1227610": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きゅうか"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "186799",
+    "original": "果物を何かいかがですか。",
+    "en": [
+      {
+        "id": "23936",
+        "text": "Won't you have some fruit?"
+      }
+    ],
+    "indices": "果物 を 何か 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606",
+      "1193060",
+      "1188270"
+    ],
+    "matches": {
+      "1188270": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "なにか"
+        }
+      ],
+      "1193060": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "くだもの"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "188052",
+    "original": "何か飲み物はいかがですか。",
+    "en": [
+      {
+        "id": "1504",
+        "text": "Would you like something to drink?"
+      }
+    ],
+    "indices": "何か 飲み物 は 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606",
+      "1600430",
+      "1188270"
+    ],
+    "matches": {
+      "1188270": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "なにか"
+        }
+      ],
+      "1600430": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "のみもの"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "188053",
+    "original": "何か飲み物はいかが？",
+    "en": [
+      {
+        "id": "2142351",
+        "text": "Would you like to drink something?"
+      }
+    ],
+    "indices": "何か 飲み物 は 如何(いかが){いかが}",
+    "vocabIds": [
+      "2845606",
+      "1600430",
+      "1188270"
+    ],
+    "matches": {
+      "1188270": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "なにか"
+        }
+      ],
+      "1600430": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "のみもの"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "188579",
+    "original": "塩梅はいかがですか。",
+    "en": [
+      {
+        "id": "25724",
+        "text": "How do you feel?"
+      }
+    ],
+    "indices": "塩梅(あんばい) は 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606",
+      "1586960"
+    ],
+    "matches": {
+      "1586960": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あんばい"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "189942",
+    "original": "飲物はいかが？",
+    "en": [
+      {
+        "id": "27098",
+        "text": "Would you care for a drink?"
+      },
+      {
+        "id": "1504",
+        "text": "Would you like something to drink?"
+      },
+      {
+        "id": "435197",
+        "text": "Would you like a drink?"
+      }
+    ],
+    "indices": "飲み物{飲物} は 如何(いかが){いかが}",
+    "vocabIds": [
+      "2845606",
+      "1600430"
+    ],
+    "matches": {
+      "1600430": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "のみもの"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "190070",
+    "original": "一服いかがですか。",
+    "en": [
+      {
+        "id": "27226",
+        "text": "How about a smoke?"
+      }
+    ],
+    "indices": "一服[01]~ 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606",
+      "1166260"
+    ],
+    "matches": {
+      "1166260": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いっぷく"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "190221",
+    "original": "一杯いかがですか。",
+    "en": [
+      {
+        "id": "27379",
+        "text": "Want a drink?"
+      },
+      {
+        "id": "435197",
+        "text": "Would you like a drink?"
+      },
+      {
+        "id": "562850",
+        "text": "Do you want a drink?"
+      }
+    ],
+    "indices": "一杯 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606",
+      "1165670"
+    ],
+    "matches": {
+      "1165670": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いっぱい"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "190524",
+    "original": "一緒に食事でもいかがですか。",
+    "en": [
+      {
+        "id": "27685",
+        "text": "Would you like to have lunch together?"
+      }
+    ],
+    "indices": "一緒に[01] 食事 でも 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606",
+      "1163420",
+      "1358490"
+    ],
+    "matches": {
+      "1163420": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "いっしょに"
+        }
+      ],
+      "1358490": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "しょくじ"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "192449",
+    "original": "リンゴをもう一ついかがですか。",
+    "en": [
+      {
+        "id": "29613",
+        "text": "Would you like another apple?"
+      }
+    ],
+    "indices": "林檎(りんご){リンゴ} を もう一つ 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2070970",
+      "1555480",
+      "2845606"
+    ],
+    "matches": {
+      "1555480": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "りんご"
+        }
+      ],
+      "2070970": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "もうひとつ"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "193140",
+    "original": "やあメグ、いかがでしたか。",
+    "en": [
+      {
+        "id": "30305",
+        "text": "Hello, Meg, how have you been?"
+      }
+    ],
+    "indices": "やあ 如何(いかが){いかが} です{でした} か",
+    "vocabIds": [
+      "2845606"
+    ],
+    "matches": {
+      "2845606": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "193343",
+    "original": "もっとクッキーはいかがですか。",
+    "en": [
+      {
+        "id": "30510",
+        "text": "Would you care for more cookies?"
+      }
+    ],
+    "indices": "もっと クッキー[01] は 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606"
+    ],
+    "matches": {
+      "2845606": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "193345",
+    "original": "もっとくだものをいかがですか、ゴロウ。",
+    "en": [
+      {
+        "id": "30508",
+        "text": "How about more fruit, Goro?"
+      }
+    ],
+    "indices": "もっと 果物{くだもの} を 如何(いかが){いかが} ですか NI{ゴロウ}",
+    "vocabIds": [
+      "1193060",
+      "2845606"
+    ],
+    "matches": {
+      "1193060": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "くだもの"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "193772",
+    "original": "もしよかったら、一緒にお昼いかがですか。",
+    "en": [
+      {
+        "id": "30940",
+        "text": "I'd like to invite you to lunch, if you're not busy."
+      }
+    ],
+    "indices": "若し(もし){もし} 良い{よかったら} 一緒に[01] お昼 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "1605820",
+      "2845606",
+      "1163420",
+      "1012500",
+      "1660100"
+    ],
+    "matches": {
+      "1012500": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "もし"
+        }
+      ],
+      "1163420": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "いっしょに"
+        }
+      ],
+      "1605820": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "よかったら"
+        }
+      ],
+      "1660100": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "おひる"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "194129",
+    "original": "もう少しビーフをいかがですか。",
+    "en": [
+      {
+        "id": "31298",
+        "text": "Would you like some more beef?"
+      }
+    ],
+    "indices": "もう少し ビーフ~ を 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2005870",
+      "2845606"
+    ],
+    "matches": {
+      "2005870": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "もうすこし"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "194137",
+    "original": "もう少しサラダはいかがですか。",
+    "en": [
+      {
+        "id": "31306",
+        "text": "Would you like some more salad?"
+      }
+    ],
+    "indices": "もう少し サラダ~ は 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2005870",
+      "2845606"
+    ],
+    "matches": {
+      "2005870": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "もうすこし"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "194140",
+    "original": "もう少しコーヒーはいかがですか。",
+    "en": [
+      {
+        "id": "31308",
+        "text": "Won't you have some more coffee?"
+      },
+      {
+        "id": "6071453",
+        "text": "Would you like some more coffee?"
+      }
+    ],
+    "indices": "もう少し 珈琲{コーヒー} は 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "1049180",
+      "2005870",
+      "2845606"
+    ],
+    "matches": {
+      "1049180": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "こーひー"
+        }
+      ],
+      "2005870": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "もうすこし"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "194148",
+    "original": "もう少しいてはいかがですか。",
+    "en": [
+      {
+        "id": "31317",
+        "text": "Why don't you stay a little while?"
+      }
+    ],
+    "indices": "もう少し 居る(いる){いて} は 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2005870",
+      "2845606",
+      "1577980"
+    ],
+    "matches": {
+      "1577980": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "いて"
+        }
+      ],
+      "2005870": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "もうすこし"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "194272",
+    "original": "もう一杯ビールはいかがですか。",
+    "en": [
+      {
+        "id": "31445",
+        "text": "Would you care for another glass of beer?"
+      },
+      {
+        "id": "553951",
+        "text": "How about another beer?"
+      }
+    ],
+    "indices": "もう 一杯[01] ビール(#2796520) は 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606",
+      "1165670"
+    ],
+    "matches": {
+      "1165670": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "いっぱい"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "194275",
+    "original": "もう一杯コーヒーはいかがですか。",
+    "en": [
+      {
+        "id": "31448",
+        "text": "Won't you have another cup of coffee?"
+      }
+    ],
+    "indices": "もう 一杯[01] 珈琲{コーヒー} は 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "1049180",
+      "2845606",
+      "1165670"
+    ],
+    "matches": {
+      "1049180": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "こーひー"
+        }
+      ],
+      "1165670": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "いっぱい"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "194278",
+    "original": "もう一杯お茶をいかがですか。",
+    "en": [
+      {
+        "id": "31451",
+        "text": "Will you have another cup of tea?"
+      }
+    ],
+    "indices": "もう 一杯[01] お茶[01] を 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606",
+      "1165670",
+      "1002430"
+    ],
+    "matches": {
+      "1002430": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "おちゃ"
+        }
+      ],
+      "1165670": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "いっぱい"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "194355",
+    "original": "もう一つケーキはいかがですか。",
+    "en": [
+      {
+        "id": "31528",
+        "text": "Would you like another piece of cake?"
+      }
+    ],
+    "indices": "もう一つ ケーキ は 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2070970",
+      "2845606"
+    ],
+    "matches": {
+      "2070970": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "もうひとつ"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "194539",
+    "original": "もう１杯紅茶をいかがですか。",
+    "en": [
+      {
+        "id": "31451",
+        "text": "Will you have another cup of tea?"
+      }
+    ],
+    "indices": "もう 一杯[01]{１杯} 紅茶 を 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606",
+      "1165670",
+      "1280770"
+    ],
+    "matches": {
+      "1165670": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "いっぱい"
+        }
+      ],
+      "1280770": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "こうちゃ"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "194540",
+    "original": "もう１杯いかがですか。",
+    "en": [
+      {
+        "id": "31713",
+        "text": "How about a second helping?"
+      }
+    ],
+    "indices": "もう 一杯[01]{１杯} 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606",
+      "1165670"
+    ],
+    "matches": {
+      "1165670": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "いっぱい"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "195038",
+    "original": "ミルクを一杯いかが。",
+    "en": [
+      {
+        "id": "32212",
+        "text": "Would you like a cup of milk?"
+      }
+    ],
+    "indices": "ミルク を 一杯[01] 如何(いかが){いかが}",
+    "vocabIds": [
+      "2845606",
+      "1165670"
+    ],
+    "matches": {
+      "1165670": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "いっぱい"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "195044",
+    "original": "ミルクはいかが？",
+    "en": [
+      {
+        "id": "32219",
+        "text": "How about some milk?"
+      }
+    ],
+    "indices": "ミルク は 如何(いかが){いかが}",
+    "vocabIds": [
+      "2845606"
+    ],
+    "matches": {
+      "2845606": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "195923",
+    "original": "ホワイト氏にあってみてはいかがですか。",
+    "en": [
+      {
+        "id": "33098",
+        "text": "I suggest that you see Mr White."
+      },
+      {
+        "id": "1477685",
+        "text": "I suggest that you see Mr. White."
+      }
+    ],
+    "indices": "氏(し)[01] に 会う[01]{あって} 見る[05]{みて} は 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "1198180",
+      "2845606",
+      "1259290",
+      "2101130"
+    ],
+    "matches": {
+      "1198180": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "あって"
+        }
+      ],
+      "1259290": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "みて"
+        }
+      ],
+      "2101130": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "し"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "196854",
+    "original": "ベーコンかソーセージはいかがか。",
+    "en": [
+      {
+        "id": "34033",
+        "text": "Would you like bacon or sausage?"
+      }
+    ],
+    "indices": "ベーコン~ か ソーセージ は 如何(いかが){いかが} か",
+    "vocabIds": [
+      "2845606"
+    ],
+    "matches": {
+      "2845606": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "197652",
+    "original": "ビールを一杯いかがですか。",
+    "en": [
+      {
+        "id": "34838",
+        "text": "What about a glass of beer?"
+      }
+    ],
+    "indices": "ビール(#2796520) を 一杯[01] 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606",
+      "1165670"
+    ],
+    "matches": {
+      "1165670": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "いっぱい"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "197653",
+    "original": "ビールをもっといかがですか。",
+    "en": [
+      {
+        "id": "34839",
+        "text": "Would you like some more beer?"
+      }
+    ],
+    "indices": "ビール(#2796520) を もっと 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606"
+    ],
+    "matches": {
+      "2845606": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3698210",
+    "original": "ビールもう一杯いかがですか？",
+    "en": [
+      {
+        "id": "34841",
+        "text": "Wouldn't you like another glass of beer?"
+      },
+      {
+        "id": "31445",
+        "text": "Would you care for another glass of beer?"
+      },
+      {
+        "id": "553951",
+        "text": "How about another beer?"
+      },
+      {
+        "id": "1406828",
+        "text": "Would you like to have another beer?"
+      },
+      {
+        "id": "3698987",
+        "text": "Would you like another beer?"
+      }
+    ],
+    "indices": "ビール(#2796520) もう[03] 一杯[01] 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606",
+      "1165670"
+    ],
+    "matches": {
+      "1165670": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "いっぱい"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "197672",
+    "original": "ビーフシチューはいかがですか。",
+    "en": [
+      {
+        "id": "34858",
+        "text": "How do you like your beef stew?"
+      }
+    ],
+    "indices": "ビーフシチュー~ は 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606"
+    ],
+    "matches": {
+      "2845606": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "198313",
+    "original": "パイをもう少しいかがですか。",
+    "en": [
+      {
+        "id": "35503",
+        "text": "Will you have some more pie?"
+      },
+      {
+        "id": "12446889",
+        "text": "Would you like some more pie?"
+      }
+    ],
+    "indices": "パイ を もう少し 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2005870",
+      "2845606"
+    ],
+    "matches": {
+      "2005870": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "もうすこし"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "198314",
+    "original": "パイをもう一ついかがですか。",
+    "en": [
+      {
+        "id": "35506",
+        "text": "Will you have another slice of pie?"
+      },
+      {
+        "id": "987506",
+        "text": "Would you like another piece of pie?"
+      },
+      {
+        "id": "992860",
+        "text": "Would you like another wedge of pie?"
+      }
+    ],
+    "indices": "パイ を もう一つ 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2070970",
+      "2845606"
+    ],
+    "matches": {
+      "2070970": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "もうひとつ"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "198315",
+    "original": "「パイをもう１ついかがですか？」「ええ、いただきます」",
+    "en": [
+      {
+        "id": "35507",
+        "text": "\"Will you have another slice of pie?\" \"Yes, please.\""
+      }
+    ],
+    "indices": "パイ を もう一つ{もう１つ} 如何(いかが){いかが} ですか ええ[01] 頂く{いただきます}",
+    "vocabIds": [
+      "1587290",
+      "2070970",
+      "2845606"
+    ],
+    "matches": {
+      "1587290": [
+        {
+          "start": 20,
+          "length": 6,
+          "reading": "いただきます"
+        }
+      ],
+      "2070970": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "もうひとつ"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "198333",
+    "original": "パイのおかわりをいかがですか。",
+    "en": [
+      {
+        "id": "35525",
+        "text": "Would you like another helping of pie?"
+      }
+    ],
+    "indices": "パイ の お代わり[01]{おかわり} を 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "1612800",
+      "2845606"
+    ],
+    "matches": {
+      "1612800": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "おかわり"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "198454",
+    "original": "パーティーはいかがでしたか。",
+    "en": [
+      {
+        "id": "35645",
+        "text": "How did you like the party?"
+      }
+    ],
+    "indices": "パーティー は 如何(いかが){いかが} です{でした} か",
+    "vocabIds": [
+      "2845606"
+    ],
+    "matches": {
+      "2845606": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "199756",
+    "original": "ドライブはいかがですか。",
+    "en": [
+      {
+        "id": "36959",
+        "text": "How about going for a drive?"
+      }
+    ],
+    "indices": "ドライブ は 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606"
+    ],
+    "matches": {
+      "2845606": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "203863",
+    "original": "タイ料理なんか、いかがですか。",
+    "en": [
+      {
+        "id": "41103",
+        "text": "How about Thai food?"
+      }
+    ],
+    "indices": "泰{タイ} 料理[01] だ{な} ん[04] か 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2682420",
+      "2845606"
+    ],
+    "matches": {
+      "2682420": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "たいりょうり"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214624",
+    "original": "ステーキの焼き具合は、いかがいたしましょうか。",
+    "en": [
+      {
+        "id": "51917",
+        "text": "How would you like your steak done?"
+      },
+      {
+        "id": "6976535",
+        "text": "How do you want your steak?"
+      }
+    ],
+    "indices": "ステーキ の 焼く[01]{焼き} 具合 は 如何(いかが){いかが} 致す{いたし} ましょうか",
+    "vocabIds": [
+      "2860168",
+      "2845606",
+      "1421900"
+    ],
+    "matches": {
+      "1421900": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "いたし"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ],
+      "2860168": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "やきぐあい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "215172",
+    "original": "シンガポールはいかがでしたか。",
+    "en": [
+      {
+        "id": "52471",
+        "text": "How did you like Singapore?"
+      }
+    ],
+    "indices": "新嘉坡{シンガポール} は 如何(いかが){いかが} です{でした} か",
+    "vocabIds": [
+      "1063410",
+      "2845606"
+    ],
+    "matches": {
+      "1063410": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "しんがぽーる"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "216696",
+    "original": "サラダをもう少しいかが？",
+    "en": [
+      {
+        "id": "31306",
+        "text": "Would you like some more salad?"
+      },
+      {
+        "id": "869540",
+        "text": "Would you like a little more salad?"
+      }
+    ],
+    "indices": "サラダ を もう少し 如何(いかが){いかが}",
+    "vocabIds": [
+      "2005870",
+      "2845606"
+    ],
+    "matches": {
+      "2005870": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "もうすこし"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "216913",
+    "original": "さあお茶を一杯いかがですか。",
+    "en": [
+      {
+        "id": "54219",
+        "text": "Would you like a cup of tea now?"
+      }
+    ],
+    "indices": "さあ お茶[01] を 一杯 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606",
+      "1002430",
+      "1165670"
+    ],
+    "matches": {
+      "1002430": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "おちゃ"
+        }
+      ],
+      "1165670": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "いっぱい"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "217184",
+    "original": "ご機嫌いかが？",
+    "en": [
+      {
+        "id": "373320",
+        "text": "How are you?"
+      }
+    ],
+    "indices": "ご機嫌 如何(いかが){いかが}",
+    "vocabIds": [
+      "2845606",
+      "1270280"
+    ],
+    "matches": {
+      "1270280": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ごきげん"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "217192",
+    "original": "ご家族はいかがですか。",
+    "en": [
+      {
+        "id": "54500",
+        "text": "How about your family?"
+      }
+    ],
+    "indices": "御(ご){ご} 家族 は 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606",
+      "1192150",
+      "2826528"
+    ],
+    "matches": {
+      "1192150": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "かぞく"
+        }
+      ],
+      "2826528": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ご"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "217199",
+    "original": "ご家族のみなさんはいかがですか。",
+    "en": [
+      {
+        "id": "54500",
+        "text": "How about your family?"
+      }
+    ],
+    "indices": "御(ご){ご} 家族 の 皆さん{みなさん} は 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "1202170",
+      "2845606",
+      "1192150",
+      "2826528"
+    ],
+    "matches": {
+      "1192150": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "かぞく"
+        }
+      ],
+      "1202170": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "みなさん"
+        }
+      ],
+      "2826528": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ご"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "217211",
+    "original": "ご一緒にお茶をいかがですか。",
+    "en": [
+      {
+        "id": "54518",
+        "text": "Won't you have tea with us?"
+      }
+    ],
+    "indices": "御(ご){ご} 一緒に[01] お茶[01] を 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606",
+      "2453950",
+      "1002430"
+    ],
+    "matches": {
+      "1002430": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "おちゃ"
+        }
+      ],
+      "2453950": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ごいっしょ"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "217212",
+    "original": "ご一緒にいかがですか。",
+    "en": [
+      {
+        "id": "54520",
+        "text": "Would you care to join me?"
+      }
+    ],
+    "indices": "御(ご){ご} 一緒に[01] 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606",
+      "2453950"
+    ],
+    "matches": {
+      "2453950": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ごいっしょ"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "217291",
+    "original": "こんにちは、今日のご機嫌はいかがですか。",
+    "en": [
+      {
+        "id": "54599",
+        "text": "Good day. How are you today?"
+      }
+    ],
+    "indices": "今日は{こんにちは} 今日 の ご機嫌 は 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "1289400",
+      "2845606",
+      "1270280",
+      "1579110"
+    ],
+    "matches": {
+      "1270280": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "ごきげん"
+        }
+      ],
+      "1289400": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "こんにちは"
+        }
+      ],
+      "1579110": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "きょう"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "218570",
+    "original": "これはとてもおいしいアイスクリームです。いかがですか。",
+    "en": [
+      {
+        "id": "55884",
+        "text": "This is very good ice cream. Won't you have some?"
+      }
+    ],
+    "indices": "此れ[01]{これ} は 迚も[01]{とても} 美味しい{おいしい} アイスクリーム です 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "1486650",
+      "1008630",
+      "2845606",
+      "1628530"
+    ],
+    "matches": {
+      "1008630": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "とても"
+        }
+      ],
+      "1486650": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "おいしい"
+        }
+      ],
+      "1628530": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "これ"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 20,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "220871",
+    "original": "この赤い帽子はいかがですか。",
+    "en": [
+      {
+        "id": "481882",
+        "text": "How about this red hat?"
+      }
+    ],
+    "indices": "此の{この} 赤い[01] 帽子 は 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606",
+      "1582920",
+      "1383240",
+      "1519170"
+    ],
+    "matches": {
+      "1383240": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "あかい"
+        }
+      ],
+      "1519170": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ぼうし"
+        }
+      ],
+      "1582920": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "この"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "221099",
+    "original": "この上着をお召しになってみてはいかがですか。そのズボンに似合いますよ。",
+    "en": [
+      {
+        "id": "58421",
+        "text": "Why don't you try this jacket on? It looks nice with your trousers."
+      }
+    ],
+    "indices": "此の{この} 上着 を 御(お){お} 召す[03]{召し} になる{になって} 見る[05]{みて} は 如何(いかが){いかが} ですか 其の[01]{その} ズボン に 似合う{似合います} よ[01]",
+    "vocabIds": [
+      "1314680",
+      "2845606",
+      "1002130",
+      "1582920",
+      "1259290",
+      "1006830",
+      "1580340"
+    ],
+    "matches": {
+      "1002130": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "おめし"
+        }
+      ],
+      "1006830": [
+        {
+          "start": 22,
+          "length": 2,
+          "reading": "その"
+        }
+      ],
+      "1259290": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "みて"
+        }
+      ],
+      "1314680": [
+        {
+          "start": 28,
+          "length": 5,
+          "reading": "にあいます"
+        }
+      ],
+      "1580340": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "うわぎ"
+        }
+      ],
+      "1582920": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "この"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "223460",
+    "original": "このところ調子はいかがですか。",
+    "en": [
+      {
+        "id": "60795",
+        "text": "How have you been getting on?"
+      }
+    ],
+    "indices": "この所{このところ} 調子 は 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "1725320",
+      "2845606",
+      "1429170"
+    ],
+    "matches": {
+      "1429170": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ちょうし"
+        }
+      ],
+      "1725320": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "このところ"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "224823",
+    "original": "ココアを一杯いかがですか。",
+    "en": [
+      {
+        "id": "62158",
+        "text": "How about a cup of cocoa?"
+      }
+    ],
+    "indices": "ココア~ を 一杯[01] 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606",
+      "1165670"
+    ],
+    "matches": {
+      "1165670": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "いっぱい"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "224849",
+    "original": "コーヒー一杯いかがですか。",
+    "en": [
+      {
+        "id": "62184",
+        "text": "Will you have a cup of coffee?"
+      }
+    ],
+    "indices": "珈琲{コーヒー} 一杯[01] 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "1049180",
+      "2845606",
+      "1165670"
+    ],
+    "matches": {
+      "1049180": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "こーひー"
+        }
+      ],
+      "1165670": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "いっぱい"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "224854",
+    "original": "コーヒーを少しいかがですか。",
+    "en": [
+      {
+        "id": "62189",
+        "text": "Would you like to have some coffee?"
+      }
+    ],
+    "indices": "珈琲{コーヒー} を 少し 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "1049180",
+      "2845606",
+      "1348870"
+    ],
+    "matches": {
+      "1049180": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "こーひー"
+        }
+      ],
+      "1348870": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "すこし"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "224869",
+    "original": "コーヒーを一杯いかがですか。",
+    "en": [
+      {
+        "id": "62204",
+        "text": "Would you like a cup of coffee?"
+      },
+      {
+        "id": "138867",
+        "text": "Do you want a cup of coffee?"
+      },
+      {
+        "id": "1702592",
+        "text": "How about a cup of coffee?"
+      }
+    ],
+    "indices": "珈琲{コーヒー} を 一杯[01] 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "1049180",
+      "2845606",
+      "1165670"
+    ],
+    "matches": {
+      "1049180": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "こーひー"
+        }
+      ],
+      "1165670": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "いっぱい"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "224870",
+    "original": "コーヒーを一杯いかがでしょうか。",
+    "en": [
+      {
+        "id": "62205",
+        "text": "What do you say to taking a cup of coffee?"
+      }
+    ],
+    "indices": "珈琲{コーヒー} を 一杯[01] 如何(いかが){いかが} でしょうか",
+    "vocabIds": [
+      "1049180",
+      "2845606",
+      "1165670"
+    ],
+    "matches": {
+      "1049180": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "こーひー"
+        }
+      ],
+      "1165670": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "いっぱい"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "224906",
+    "original": "コーヒーをもっといかがですか。",
+    "en": [
+      {
+        "id": "62207",
+        "text": "Would you care for more coffee?"
+      },
+      {
+        "id": "62241",
+        "text": "How about some more coffee?"
+      }
+    ],
+    "indices": "珈琲{コーヒー} を もっと 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "1049180",
+      "2845606"
+    ],
+    "matches": {
+      "1049180": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "こーひー"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "224874",
+    "original": "コーヒーをもっといかが？",
+    "en": [
+      {
+        "id": "62210",
+        "text": "Would you like more coffee?"
+      }
+    ],
+    "indices": "珈琲{コーヒー} を もっと 如何(いかが){いかが}",
+    "vocabIds": [
+      "1049180",
+      "2845606"
+    ],
+    "matches": {
+      "1049180": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "こーひー"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "224875",
+    "original": "コーヒーをもう少しいかがですか。",
+    "en": [
+      {
+        "id": "31308",
+        "text": "Won't you have some more coffee?"
+      }
+    ],
+    "indices": "珈琲{コーヒー} を もう少し 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "1049180",
+      "2005870",
+      "2845606"
+    ],
+    "matches": {
+      "1049180": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "こーひー"
+        }
+      ],
+      "2005870": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "もうすこし"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "224886",
+    "original": "コーヒーをいかがですか。",
+    "en": [
+      {
+        "id": "62220",
+        "text": "Would you like some coffee?"
+      }
+    ],
+    "indices": "珈琲{コーヒー} を 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "1049180",
+      "2845606"
+    ],
+    "matches": {
+      "1049180": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "こーひー"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "224894",
+    "original": "コーヒーもう一杯いかがですか。",
+    "en": [
+      {
+        "id": "62229",
+        "text": "How about another cup of coffee?"
+      }
+    ],
+    "indices": "珈琲{コーヒー} もう[03] 一杯[01] 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "1049180",
+      "2845606",
+      "1165670"
+    ],
+    "matches": {
+      "1049180": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "こーひー"
+        }
+      ],
+      "1165670": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "いっぱい"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "224923",
+    "original": "コーヒーのおかわりはいかがですか。",
+    "en": [
+      {
+        "id": "62256",
+        "text": "Would you like another cup of coffee?"
+      }
+    ],
+    "indices": "珈琲{コーヒー} の お代わり[01]{おかわり}~ は 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "1612800",
+      "1049180",
+      "2845606"
+    ],
+    "matches": {
+      "1049180": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "こーひー"
+        }
+      ],
+      "1612800": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "おかわり"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "224930",
+    "original": "コーヒーにクリームはいかがですか。",
+    "en": [
+      {
+        "id": "62265",
+        "text": "Would you like some cream in your coffee?"
+      }
+    ],
+    "indices": "珈琲{コーヒー} に クリーム は 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "1049180",
+      "2845606"
+    ],
+    "matches": {
+      "1049180": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "こーひー"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "224947",
+    "original": "コーヒーいかがですか。",
+    "en": [
+      {
+        "id": "62282",
+        "text": "Won't you have some coffee?"
+      }
+    ],
+    "indices": "珈琲{コーヒー} 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "1049180",
+      "2845606"
+    ],
+    "matches": {
+      "1049180": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "こーひー"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "225084",
+    "original": "ご一緒に食事でもいかがですか？",
+    "en": [
+      {
+        "id": "62419",
+        "text": "Would you dine with me?"
+      }
+    ],
+    "indices": "御(ご){ご} 一緒に[01] 食事 でも 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606",
+      "2453950",
+      "1358490"
+    ],
+    "matches": {
+      "1358490": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "しょくじ"
+        }
+      ],
+      "2453950": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ごいっしょ"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "225309",
+    "original": "ケーキをもう少しいかがですか。",
+    "en": [
+      {
+        "id": "62646",
+        "text": "Would you care for some more cake?"
+      },
+      {
+        "id": "31311",
+        "text": "Would you like some more cake?"
+      }
+    ],
+    "indices": "ケーキ を もう少し 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2005870",
+      "2845606"
+    ],
+    "matches": {
+      "2005870": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "もうすこし"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "225317",
+    "original": "ケーキもう１ついかが。",
+    "en": [
+      {
+        "id": "62654",
+        "text": "How about another piece of cake?"
+      }
+    ],
+    "indices": "ケーキ もう[03] 一つ[01]{１つ} 如何(いかが){いかが}",
+    "vocabIds": [
+      "2070970",
+      "2845606"
+    ],
+    "matches": {
+      "2070970": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "もうひとつ"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "225321",
+    "original": "ケーキのお代わりはいかが？",
+    "en": [
+      {
+        "id": "31311",
+        "text": "Would you like some more cake?"
+      },
+      {
+        "id": "31528",
+        "text": "Would you like another piece of cake?"
+      }
+    ],
+    "indices": "ケーキ の 御(お){お} 代わり は 如何(いかが){いかが}",
+    "vocabIds": [
+      "1612800",
+      "2845606"
+    ],
+    "matches": {
+      "1612800": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "おかわり"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "225444",
+    "original": "グレイビーをもう少しいかがですか。",
+    "en": [
+      {
+        "id": "62781",
+        "text": "Would you like some more gravy?"
+      }
+    ],
+    "indices": "グレイビー~ を もう少し 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2005870",
+      "2845606"
+    ],
+    "matches": {
+      "2005870": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "もうすこし"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "225664",
+    "original": "クッキーを少しいかがですか。",
+    "en": [
+      {
+        "id": "63001",
+        "text": "Would you like some of those cookies?"
+      },
+      {
+        "id": "2013095",
+        "text": "Would you like some cookies?"
+      }
+    ],
+    "indices": "クッキー[01] を 少し 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606",
+      "1348870"
+    ],
+    "matches": {
+      "1348870": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "すこし"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "226773",
+    "original": "お泊りになってはいかがですか。",
+    "en": [
+      {
+        "id": "64120",
+        "text": "What do you say to staying?"
+      }
+    ],
+    "indices": "御(お){お} 泊まり{泊り} になる{になって} は 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606",
+      "1897840",
+      "2826528"
+    ],
+    "matches": {
+      "1897840": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "とまり"
+        }
+      ],
+      "2826528": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "お"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "226852",
+    "original": "お茶を一杯いかが。",
+    "en": [
+      {
+        "id": "64200",
+        "text": "Would you like to have a cup of tea?"
+      }
+    ],
+    "indices": "お茶[01] を 一杯 如何(いかが){いかが}",
+    "vocabIds": [
+      "2845606",
+      "1002430",
+      "1165670"
+    ],
+    "matches": {
+      "1002430": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おちゃ"
+        }
+      ],
+      "1165670": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "いっぱい"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "226853",
+    "original": "お茶をもっといかがですか。",
+    "en": [
+      {
+        "id": "64201",
+        "text": "Will you have some more tea?"
+      }
+    ],
+    "indices": "お茶[01] を もっと 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606",
+      "1002430"
+    ],
+    "matches": {
+      "1002430": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おちゃ"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "226856",
+    "original": "お茶をもう少しいかがですか。",
+    "en": [
+      {
+        "id": "64204",
+        "text": "Would you like some more tea?"
+      }
+    ],
+    "indices": "お茶[01] を もう少し 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2005870",
+      "2845606",
+      "1002430"
+    ],
+    "matches": {
+      "1002430": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おちゃ"
+        }
+      ],
+      "2005870": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "もうすこし"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "226858",
+    "original": "お茶をもう一杯いかが。",
+    "en": [
+      {
+        "id": "64206",
+        "text": "Would you like another cup of tea?"
+      }
+    ],
+    "indices": "お茶[01] を もう[03] 一杯 如何(いかが){いかが}",
+    "vocabIds": [
+      "2845606",
+      "1002430",
+      "1165670"
+    ],
+    "matches": {
+      "1002430": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おちゃ"
+        }
+      ],
+      "1165670": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "いっぱい"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "226859",
+    "original": "お茶をもう一杯いかがですか。",
+    "en": [
+      {
+        "id": "64207",
+        "text": "Would you care for another cup of tea?"
+      }
+    ],
+    "indices": "お茶[01] を もう 一杯[01] 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606",
+      "1002430",
+      "1165670"
+    ],
+    "matches": {
+      "1002430": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おちゃ"
+        }
+      ],
+      "1165670": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "いっぱい"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "226861",
+    "original": "お茶を一杯いかがですか？",
+    "en": [
+      {
+        "id": "64209",
+        "text": "Would you like a cup of tea?"
+      }
+    ],
+    "indices": "お茶[01] を 一杯[01] 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606",
+      "1002430",
+      "1165670"
+    ],
+    "matches": {
+      "1002430": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おちゃ"
+        }
+      ],
+      "1165670": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "いっぱい"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "226862",
+    "original": "お茶をいかがですか。",
+    "en": [
+      {
+        "id": "64210",
+        "text": "Won't you have some tea?"
+      }
+    ],
+    "indices": "お茶[01] を 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606",
+      "1002430"
+    ],
+    "matches": {
+      "1002430": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おちゃ"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "226865",
+    "original": "お茶はいかがですか、それともコーヒーにしますか。",
+    "en": [
+      {
+        "id": "64213",
+        "text": "Would you like tea or coffee?"
+      }
+    ],
+    "indices": "お茶[01] は 如何(いかが){いかが} ですか 其れとも{それとも} 珈琲{コーヒー} に 為る(する){します} か",
+    "vocabIds": [
+      "1007010",
+      "1049180",
+      "2845606",
+      "1157170",
+      "1002430"
+    ],
+    "matches": {
+      "1002430": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おちゃ"
+        }
+      ],
+      "1007010": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "それとも"
+        }
+      ],
+      "1049180": [
+        {
+          "start": 14,
+          "length": 4,
+          "reading": "こーひー"
+        }
+      ],
+      "1157170": [
+        {
+          "start": 19,
+          "length": 3,
+          "reading": "します"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "226878",
+    "original": "お茶かコーヒーでもいかがですか。",
+    "en": [
+      {
+        "id": "64213",
+        "text": "Would you like tea or coffee?"
+      }
+    ],
+    "indices": "お茶[01] か 珈琲{コーヒー} でも[03] 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "1049180",
+      "2845606",
+      "1002430"
+    ],
+    "matches": {
+      "1002430": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おちゃ"
+        }
+      ],
+      "1049180": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "こーひー"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "226894",
+    "original": "お宅の皆さんはいかがですか。",
+    "en": [
+      {
+        "id": "64242",
+        "text": "How is it going with your family?"
+      }
+    ],
+    "indices": "お宅[01] の 皆さん は 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606",
+      "1202170",
+      "1002400"
+    ],
+    "matches": {
+      "1002400": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おたく"
+        }
+      ],
+      "1202170": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "みなさん"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "227116",
+    "original": "お子さんたちがみんな独立されて、いかがですか。",
+    "en": [
+      {
+        "id": "64465",
+        "text": "How are you and your wife doing, now that the birds have all flown the coop?"
+      }
+    ],
+    "indices": "お子さん 達{たち} が 皆{みんな} 独立 為れる{されて} 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "1002000",
+      "2269820",
+      "2845606",
+      "1202150",
+      "1416220",
+      "1456040"
+    ],
+    "matches": {
+      "1002000": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "おこさん"
+        }
+      ],
+      "1202150": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "みなみんな"
+        }
+      ],
+      "1416220": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "たち"
+        }
+      ],
+      "1456040": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "どくりつ"
+        }
+      ],
+      "2269820": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "されて"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "227171",
+    "original": "お互いに歩み寄ってはいかがでしょうか。",
+    "en": [
+      {
+        "id": "64520",
+        "text": "Can we effect a compromise?"
+      }
+    ],
+    "indices": "お互いに 歩み寄る{歩み寄って} は 如何(いかが){いかが} でしょうか",
+    "vocabIds": [
+      "1514340",
+      "2231160",
+      "2845606"
+    ],
+    "matches": {
+      "1514340": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "あゆみよって"
+        }
+      ],
+      "2231160": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "おたがいに"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "227299",
+    "original": "お急ぎでなかったら、お茶か何かいかがですか。",
+    "en": [
+      {
+        "id": "64650",
+        "text": "How about cup of tea or something, if you aren't in a hurry?"
+      }
+    ],
+    "indices": "急ぐ{お急ぎ} である{でなか} ったら[01] お茶[01] か 何か 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606",
+      "1228630",
+      "1002430",
+      "1188270"
+    ],
+    "matches": {
+      "1002430": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "おちゃ"
+        }
+      ],
+      "1188270": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "なにか"
+        }
+      ],
+      "1228630": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "いそぎ"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "227406",
+    "original": "お飲み物はいかがですか。",
+    "en": [
+      {
+        "id": "1504",
+        "text": "Would you like something to drink?"
+      },
+      {
+        "id": "64758",
+        "text": "Would you care for drinks?"
+      },
+      {
+        "id": "3871322",
+        "text": "Do you want to drink anything?"
+      },
+      {
+        "id": "27108",
+        "text": "May I offer you a drink?"
+      },
+      {
+        "id": "64760",
+        "text": "Do you want something to drink?"
+      }
+    ],
+    "indices": "御(お){お} 飲み物 は 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606",
+      "1600430",
+      "2826528"
+    ],
+    "matches": {
+      "1600430": [
+        {
+          "start": 1,
+          "length": 3,
+          "reading": "のみもの"
+        }
+      ],
+      "2826528": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "お"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "227407",
+    "original": "お飲み物はいかがでしょう？",
+    "en": [
+      {
+        "id": "1504",
+        "text": "Would you like something to drink?"
+      }
+    ],
+    "indices": "御(お){お} 飲み物 は 如何(いかが){いかが} でしょう[01]",
+    "vocabIds": [
+      "2845606",
+      "1600430",
+      "2826528"
+    ],
+    "matches": {
+      "1600430": [
+        {
+          "start": 1,
+          "length": 3,
+          "reading": "のみもの"
+        }
+      ],
+      "2826528": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "お"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "227408",
+    "original": "お飲み物はいかが？",
+    "en": [
+      {
+        "id": "64760",
+        "text": "Do you want something to drink?"
+      },
+      {
+        "id": "3871322",
+        "text": "Do you want to drink anything?"
+      },
+      {
+        "id": "1504",
+        "text": "Would you like something to drink?"
+      },
+      {
+        "id": "5036637",
+        "text": "Do you want to drink something?"
+      }
+    ],
+    "indices": "御(お){お} 飲み物 は 如何(いかが){いかが}",
+    "vocabIds": [
+      "2845606",
+      "1600430",
+      "2826528"
+    ],
+    "matches": {
+      "1600430": [
+        {
+          "start": 1,
+          "length": 3,
+          "reading": "のみもの"
+        }
+      ],
+      "2826528": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "お"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "229297",
+    "original": "いかがですか、テキサスは？",
+    "en": [
+      {
+        "id": "66656",
+        "text": "How do you like Texas so far?"
+      }
+    ],
+    "indices": "如何(いかが){いかが} ですか 得撒{テキサス} は",
+    "vocabIds": [
+      "1079240",
+      "2845606"
+    ],
+    "matches": {
+      "1079240": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "てきさす"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "229298",
+    "original": "いかがお暮らしですか。",
+    "en": [
+      {
+        "id": "66655",
+        "text": "How is it with you?"
+      }
+    ],
+    "indices": "如何(いかが){いかが} 御(お){お} 暮らし ですか",
+    "vocabIds": [
+      "2845606",
+      "1514930",
+      "2826528"
+    ],
+    "matches": {
+      "1514930": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "くらし"
+        }
+      ],
+      "2826528": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "お"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "229300",
+    "original": "いかがお過ごしでしたか。",
+    "en": [
+      {
+        "id": "64533",
+        "text": "How have you been?"
+      }
+    ],
+    "indices": "如何(いかが){いかが} 過ごす{お過ごし} です{でした} か",
+    "vocabIds": [
+      "2845606"
+    ],
+    "matches": {
+      "2845606": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "230182",
+    "original": "アメリカはいかがですか。",
+    "en": [
+      {
+        "id": "67548",
+        "text": "What's your impression of the United States?"
+      },
+      {
+        "id": "1355105",
+        "text": "What is your impression of the United States?"
+      },
+      {
+        "id": "354273",
+        "text": "What is your impression of America?"
+      }
+    ],
+    "indices": "亜米利加{アメリカ} は 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "1149830",
+      "2845606"
+    ],
+    "matches": {
+      "1149830": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "あめりか"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "230226",
+    "original": "アメリカの印象はいかがですか。",
+    "en": [
+      {
+        "id": "67592",
+        "text": "How does America impress you?"
+      },
+      {
+        "id": "354273",
+        "text": "What is your impression of America?"
+      }
+    ],
+    "indices": "亜米利加{アメリカ} の 印象 は 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "1149830",
+      "2845606",
+      "1168390"
+    ],
+    "matches": {
+      "1149830": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "あめりか"
+        }
+      ],
+      "1168390": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "いんしょう"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "231209",
+    "original": "あの映画はいかがでしたか。",
+    "en": [
+      {
+        "id": "68575",
+        "text": "How did you like that movie?"
+      }
+    ],
+    "indices": "彼の(あの){あの} 映画 は 如何(いかが){いかが} です{でした} か",
+    "vocabIds": [
+      "2845606",
+      "1000420",
+      "1173720"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あの"
+        }
+      ],
+      "1173720": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "えいが"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "231300",
+    "original": "あのテレビニュースはいかがです？",
+    "en": [
+      {
+        "id": "68667",
+        "text": "How do you like that TV news program?"
+      }
+    ],
+    "indices": "彼の(あの){あの} テレビ ニュース は 如何(いかが){いかが} です",
+    "vocabIds": [
+      "2845606",
+      "1000420"
+    ],
+    "matches": {
+      "1000420": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あの"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "233182",
+    "original": "あなたの上司の計画はいかがですか。",
+    "en": [
+      {
+        "id": "70552",
+        "text": "How do you like your boss's plan?"
+      }
+    ],
+    "indices": "貴方(あなた)[01]{あなた} の 上司 の 計画 は 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "1223615",
+      "2845606",
+      "1353260",
+      "1252090"
+    ],
+    "matches": {
+      "1223615": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あなた"
+        }
+      ],
+      "1252090": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "けいかく"
+        }
+      ],
+      "1353260": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "じょうし"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "233545",
+    "original": "あなたのご研究は、いかがですか。",
+    "en": [
+      {
+        "id": "70917",
+        "text": "How are your studies going?"
+      }
+    ],
+    "indices": "貴方(あなた)[01]{あなた} の 御(ご){ご} 研究 は 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "1223615",
+      "2845606",
+      "1258520",
+      "2826528"
+    ],
+    "matches": {
+      "1223615": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あなた"
+        }
+      ],
+      "1258520": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "けんきゅう"
+        }
+      ],
+      "2826528": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "ご"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "233577",
+    "original": "あなたのお母さんはいかがですか。",
+    "en": [
+      {
+        "id": "70949",
+        "text": "How is your mother?"
+      }
+    ],
+    "indices": "貴方(あなた)[01]{あなた} の お母さん は 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "1002650",
+      "1223615",
+      "2845606"
+    ],
+    "matches": {
+      "1002650": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "おかあさん"
+        }
+      ],
+      "1223615": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あなた"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "234906",
+    "original": "９時はいかがですか。",
+    "en": [
+      {
+        "id": "72284",
+        "text": "Can you come at nine?"
+      }
+    ],
+    "indices": "時(じ)[01] は 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606",
+      "2845349"
+    ],
+    "matches": {
+      "2845349": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "くじ"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "234944",
+    "original": "８時３０分ではご都合はいかがですか。",
+    "en": [
+      {
+        "id": "72321",
+        "text": "Would 8:30 be convenient for you?"
+      }
+    ],
+    "indices": "時(じ)[01] 分(ふん) で(#2028980) は 御(ご){ご} 都合 は 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606",
+      "2859157",
+      "2845368",
+      "1444980",
+      "2826528"
+    ],
+    "matches": {
+      "1444980": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "つごう"
+        }
+      ],
+      "2826528": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "ご"
+        }
+      ],
+      "2845368": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "はちじ"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ],
+      "2859157": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "さんじゅっぷん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "235484",
+    "original": "２時間後の便ではいかがでしょうか。",
+    "en": [
+      {
+        "id": "72864",
+        "text": "How about the one which starts two hours later?"
+      }
+    ],
+    "indices": "時間[02] 後(ご) の 便(びん)[01] で(#2028980) は 如何(いかが){いかが} でしょうか",
+    "vocabIds": [
+      "2845606",
+      "1315920",
+      "1461140",
+      "1269320",
+      "1512360"
+    ],
+    "matches": {
+      "1269320": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "ご"
+        }
+      ],
+      "1315920": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "じかん"
+        }
+      ],
+      "1461140": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "に"
+        }
+      ],
+      "1512360": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "びん"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "236207",
+    "original": "熱いダックスフント・ソーセージはいかが。",
+    "en": [
+      {
+        "id": "73583",
+        "text": "Get your hot dachshund sausages!"
+      }
+    ],
+    "indices": "熱い ダックスフント~ ソーセージ~ は 如何(いかが){いかが}",
+    "vocabIds": [
+      "2845606",
+      "1467720"
+    ],
+    "matches": {
+      "1467720": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "あつい"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 16,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "236330",
+    "original": "「今朝は調子はいかがですか」「かなりいいですよ、ありがとう」",
+    "en": [
+      {
+        "id": "73696",
+        "text": "\"How are you feeling this morning?\" \"Pretty good, thanks.\""
+      }
+    ],
+    "indices": "今朝 は 調子 は 如何(いかが){いかが} ですか 可也{かなり} いい(#2820690)[01] です よ 有り難う{ありがとう}",
+    "vocabIds": [
+      "1586820",
+      "2845606",
+      "1590560",
+      "1579100",
+      "1429170"
+    ],
+    "matches": {
+      "1429170": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ちょうし"
+        }
+      ],
+      "1579100": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "けさ"
+        }
+      ],
+      "1586820": [
+        {
+          "start": 24,
+          "length": 5,
+          "reading": "ありがとう"
+        }
+      ],
+      "1590560": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "かなり"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "236420",
+    "original": "「もっとコーヒーはいかがですか」「もう結構です。十分頂きました」",
+    "en": [
+      {
+        "id": "73786",
+        "text": "\"Will you have some more coffee?\" \"No, thanks. I've had enough.\""
+      }
+    ],
+    "indices": "もっと 珈琲{コーヒー} は 如何(いかが){いかが} ですか もう[01] 結構[03] です 十分(じゅうぶん)[03] 頂く[02]{頂きました}~",
+    "vocabIds": [
+      "1587290",
+      "1049180",
+      "2845606",
+      "1254760",
+      "1335080"
+    ],
+    "matches": {
+      "1049180": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "こーひー"
+        }
+      ],
+      "1254760": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "けっこう"
+        }
+      ],
+      "1335080": [
+        {
+          "start": 24,
+          "length": 2,
+          "reading": "じゅうぶん"
+        }
+      ],
+      "1587290": [
+        {
+          "start": 26,
+          "length": 5,
+          "reading": "いただきました"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "462089",
+    "original": "「そちらの天気はいかがですか」「晴れています」",
+    "en": [
+      {
+        "id": "462090",
+        "text": "\"What is the weather like over there?\" \"It's nice.\""
+      }
+    ],
+    "indices": "其方{そちら} の 天気 は 如何(いかが){いかが} ですか 晴れる[01]{晴れています}",
+    "vocabIds": [
+      "1376470",
+      "1006780",
+      "2845606",
+      "1438690"
+    ],
+    "matches": {
+      "1006780": [
+        {
+          "start": 1,
+          "length": 3,
+          "reading": "そちら"
+        }
+      ],
+      "1376470": [
+        {
+          "start": 16,
+          "length": 6,
+          "reading": "はれています"
+        }
+      ],
+      "1438690": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "てんき"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "いかが"
         }
       ]
     }
@@ -117,6 +6778,76 @@
         {
           "start": 6,
           "length": 2,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "195035",
+    "original": "ミルクを一杯いかがですか。",
+    "en": [
+      {
+        "id": "10365129",
+        "text": "How about a glass of milk?"
+      }
+    ],
+    "indices": "ミルク を 一杯[01] 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "2845606",
+      "1165670"
+    ],
+    "matches": {
+      "1165670": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "いっぱい"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "いかが"
+        }
+      ]
+    }
+  },
+  {
+    "id": "11557463",
+    "original": "こちらの絵、どれかいかがですか？",
+    "en": [
+      {
+        "id": "55256",
+        "text": "Would you like some of those pictures?"
+      }
+    ],
+    "indices": "此方(こちら){こちら} の 絵 どれか[02] 如何(いかが){いかが} ですか",
+    "vocabIds": [
+      "1004500",
+      "2845606",
+      "1202270"
+    ],
+    "matches": {
+      "1004500": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "こちら"
+        }
+      ],
+      "1202270": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "え"
+        }
+      ],
+      "2845606": [
+        {
+          "start": 9,
+          "length": 3,
           "reading": "いかが"
         }
       ]

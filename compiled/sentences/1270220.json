@@ -1,0 +1,119 @@
+[
+  {
+    "id": "227761",
+    "original": "おかげさまで助かりました。",
+    "en": [
+      {
+        "id": "65114",
+        "text": "Thank you very much for your help."
+      }
+    ],
+    "indices": "お陰様で{おかげさまで}~ 助かる{助かりました}",
+    "vocabIds": [
+      "1270220",
+      "1344380"
+    ],
+    "matches": {
+      "1270220": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "おかげさまで"
+        }
+      ],
+      "1344380": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "たすかりました"
+        }
+      ]
+    }
+  },
+  {
+    "id": "227762",
+    "original": "おかげさまで元気です。",
+    "en": [
+      {
+        "id": "65115",
+        "text": "I'm fine, thank you."
+      },
+      {
+        "id": "926934",
+        "text": "I am fine, thank you."
+      },
+      {
+        "id": "1194286",
+        "text": "I'm doing well, thank you."
+      }
+    ],
+    "indices": "お陰様で{おかげさまで} 元気 です",
+    "vocabIds": [
+      "1270220",
+      "1260720"
+    ],
+    "matches": {
+      "1260720": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "げんき"
+        }
+      ],
+      "1270220": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "おかげさまで"
+        }
+      ]
+    }
+  },
+  {
+    "id": "236625",
+    "original": "「ごきげんいかがですか」「おかげさまで元気です」",
+    "en": [
+      {
+        "id": "73914",
+        "text": "\"How are you?\" \"I am fine, thank you.\""
+      },
+      {
+        "id": "3104203",
+        "text": "\"How are you?\" \"I'm fine, thanks.\""
+      },
+      {
+        "id": "5248468",
+        "text": "\"How are you?\" \"I'm fine, thank you.\""
+      }
+    ],
+    "indices": "ご機嫌いかがですか{ごきげんいかがですか}~ お陰様で{おかげさまで} 元気 です",
+    "vocabIds": [
+      "2538350",
+      "1270220",
+      "1260720"
+    ],
+    "matches": {
+      "1260720": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "げんき"
+        }
+      ],
+      "1270220": [
+        {
+          "start": 13,
+          "length": 6,
+          "reading": "おかげさまで"
+        }
+      ],
+      "2538350": [
+        {
+          "start": 1,
+          "length": 10,
+          "reading": "ごきげんいかがですか"
+        }
+      ]
+    }
+  }
+]

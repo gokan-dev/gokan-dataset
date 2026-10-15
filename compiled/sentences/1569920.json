@@ -1,5 +1,68 @@
 [
   {
+    "id": "76349",
+    "original": "一生懸命指でまぶたを広げて目薬を差しました。",
+    "en": [
+      {
+        "id": "327371",
+        "text": "With great effort I held his eyelids open with my fingers and dropped in the eye medicine."
+      }
+    ],
+    "indices": "一生懸命 指 で(#2028980) 瞼{まぶた} を[01] 広げる{広げて} 目薬を差す{目薬を差しました}~",
+    "vocabIds": [
+      "1291330",
+      "1164010",
+      "1569920",
+      "1602370",
+      "1535690",
+      "1309650"
+    ],
+    "matches": {
+      "1164010": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "いっしょうけんめい"
+        }
+      ],
+      "1291330": [
+        {
+          "start": 16,
+          "length": 5,
+          "reading": "さしました"
+        }
+      ],
+      "1309650": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "ゆび"
+        }
+      ],
+      "1535690": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "めぐすり"
+        }
+      ],
+      "1569920": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "まぶた"
+        }
+      ],
+      "1602370": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "ひろげて"
+        }
+      ]
+    }
+  },
+  {
     "id": "77087",
     "original": "瞼が大きく開く。",
     "en": [
@@ -80,6 +143,45 @@
         {
           "start": 5,
           "length": 1,
+          "reading": "まぶた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "195323",
+    "original": "まぶたが熱を持っています。",
+    "en": [
+      {
+        "id": "32497",
+        "text": "My eyelid feels hot."
+      }
+    ],
+    "indices": "瞼{まぶた} が 熱(ねつ) を 持つ{持っています}",
+    "vocabIds": [
+      "1315720",
+      "1569920",
+      "1467710"
+    ],
+    "matches": {
+      "1315720": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "もっています"
+        }
+      ],
+      "1467710": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "ねつ"
+        }
+      ],
+      "1569920": [
+        {
+          "start": 0,
+          "length": 3,
           "reading": "まぶた"
         }
       ]

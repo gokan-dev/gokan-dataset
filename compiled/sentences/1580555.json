@@ -12,6 +12,7 @@
     "vocabIds": [
       "2082750",
       "1608890",
+      "1529520",
       "1483070",
       "1580555"
     ],
@@ -21,6 +22,13 @@
           "start": 7,
           "length": 1,
           "reading": "かれ"
+        }
+      ],
+      "1529520": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "ない"
         }
       ],
       "1580555": [
@@ -42,6 +50,165 @@
           "start": 0,
           "length": 6,
           "reading": "てはっちょうくちはっちょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "201768",
+    "original": "というのは、律法はモーセによって、恵みとまことはイエス・キリストによって実現したからである。",
+    "en": [
+      {
+        "id": "38979",
+        "text": "For the law was given through Moses; grace and truth came through Jesus Christ."
+      },
+      {
+        "id": "2717920",
+        "text": "For the law was given by Moses, but grace and truth came by Jesus Christ."
+      }
+    ],
+    "indices": "と言うのは[01]{というのは} 律法[02]~ は に因って{によって} 恵み と 誠[01]{まこと} は イエス(#1021010) 基督{キリスト} に因って{によって} 実現 為る(する){した} から である",
+    "vocabIds": [
+      "1008500",
+      "1009640",
+      "1042520",
+      "1580555",
+      "1157170",
+      "1739010",
+      "1250470",
+      "1321020"
+    ],
+    "matches": {
+      "1008500": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "というのは"
+        }
+      ],
+      "1009640": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "によって"
+        },
+        {
+          "start": 32,
+          "length": 4,
+          "reading": "によって"
+        }
+      ],
+      "1042520": [
+        {
+          "start": 28,
+          "length": 4,
+          "reading": "きりすと"
+        }
+      ],
+      "1157170": [
+        {
+          "start": 38,
+          "length": 2,
+          "reading": "した"
+        }
+      ],
+      "1250470": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "めぐみ"
+        }
+      ],
+      "1321020": [
+        {
+          "start": 36,
+          "length": 2,
+          "reading": "じつげん"
+        }
+      ],
+      "1580555": [
+        {
+          "start": 20,
+          "length": 3,
+          "reading": "まこと"
+        }
+      ],
+      "1739010": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "りっぽう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214422",
+    "original": "すべての人を照らすまことの光が世に来ようとしていた。",
+    "en": [
+      {
+        "id": "51714",
+        "text": "The true light that gives light to every man was coming into the world."
+      }
+    ],
+    "indices": "全て{すべての} 人(ひと) を[01] 照らす 誠[01]{まこと} の 光 が 世(よ) に 来る(くる){来よう} とする{としていた}",
+    "vocabIds": [
+      "1595730",
+      "1580555",
+      "1350840",
+      "1547720",
+      "1580640",
+      "1272780",
+      "1605810"
+    ],
+    "matches": {
+      "1272780": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "ひかり"
+        }
+      ],
+      "1350840": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "てらす"
+        }
+      ],
+      "1547720": [
+        {
+          "start": 17,
+          "length": 3,
+          "reading": "こよう"
+        }
+      ],
+      "1580555": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "まこと"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ],
+      "1595730": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "すべすべての"
+        }
+      ],
+      "1605810": [
+        {
+          "start": 15,
+          "length": 1,
+          "reading": "よ"
         }
       ]
     }

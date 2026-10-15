@@ -1,5 +1,44 @@
 [
   {
+    "id": "78789",
+    "original": "陽があかあかと沈む。",
+    "en": [
+      {
+        "id": "281052",
+        "text": "The sun goes down in a wild blaze of color."
+      }
+    ],
+    "indices": "日(ひ){陽} が 明々{あかあかと} 沈む",
+    "vocabIds": [
+      "1586200",
+      "1431670",
+      "2848543"
+    ],
+    "matches": {
+      "1431670": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "しずむ"
+        }
+      ],
+      "1586200": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "あかあかあかあかと"
+        }
+      ],
+      "2848543": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ひ"
+        }
+      ]
+    }
+  },
+  {
     "id": "187114",
     "original": "家には明々と明かりが付いていた。",
     "en": [

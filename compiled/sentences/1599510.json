@@ -98,6 +98,7 @@
     "vocabIds": [
       "1599510",
       "1012790",
+      "1922760",
       "1006900",
       "1609740",
       "1191080",
@@ -220,6 +221,13 @@
           "reading": "おおく"
         }
       ],
+      "1922760": [
+        {
+          "start": 49,
+          "length": 3,
+          "reading": "という"
+        }
+      ],
       "2744360": [
         {
           "start": 35,
@@ -232,6 +240,57 @@
           "start": 54,
           "length": 2,
           "reading": "みせ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "180080",
+    "original": "興奮した観客はコンサートホールになだれこんだ。",
+    "en": [
+      {
+        "id": "18940",
+        "text": "The excited audience ran into the concert hall."
+      },
+      {
+        "id": "13274264",
+        "text": "The excited audience rushed into the concert hall."
+      }
+    ],
+    "indices": "興奮 為る(する){した} 観客 は コンサートホール~ に 傾れ込む{なだれこんだ}~",
+    "vocabIds": [
+      "1599510",
+      "1157170",
+      "1238380",
+      "1214810"
+    ],
+    "matches": {
+      "1157170": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "した"
+        }
+      ],
+      "1214810": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "かんきゃく"
+        }
+      ],
+      "1238380": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こうふん"
+        }
+      ],
+      "1599510": [
+        {
+          "start": 16,
+          "length": 6,
+          "reading": "なだれこんだ"
         }
       ]
     }

@@ -1,0 +1,202 @@
+[
+  {
+    "id": "138014",
+    "original": "体全体がだるいです。",
+    "en": [
+      {
+        "id": "275221",
+        "text": "My whole body feels heavy."
+      }
+    ],
+    "indices": "体(からだ) 全体 が 怠い{だるい} です",
+    "vocabIds": [
+      "1007520",
+      "1395660",
+      "1409140"
+    ],
+    "matches": {
+      "1007520": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "だるい"
+        }
+      ],
+      "1395660": [
+        {
+          "start": 1,
+          "length": 2,
+          "reading": "ぜんたい"
+        }
+      ],
+      "1409140": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "からだ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "139880",
+    "original": "足がだるいです。",
+    "en": [
+      {
+        "id": "274461",
+        "text": "My legs feel heavy."
+      }
+    ],
+    "indices": "足(あし) が 怠い{だるい} です",
+    "vocabIds": [
+      "1007520",
+      "1404630"
+    ],
+    "matches": {
+      "1007520": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "だるい"
+        }
+      ],
+      "1404630": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "あし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "171828",
+    "original": "今日は、もうだるくてしょうがない。",
+    "en": [
+      {
+        "id": "242647",
+        "text": "I've had it for today. I'm too tired."
+      }
+    ],
+    "indices": "今日 は もう 怠い{だるくて} 仕様が無い[05]{しょうがない}~",
+    "vocabIds": [
+      "1305510",
+      "1007520",
+      "1289400"
+    ],
+    "matches": {
+      "1007520": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "だるくて"
+        }
+      ],
+      "1289400": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "こんにちは"
+        }
+      ],
+      "1305510": [
+        {
+          "start": 10,
+          "length": 6,
+          "reading": "しょうがない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "180162",
+    "original": "教授のだるい講演で寝てしまった。",
+    "en": [
+      {
+        "id": "19023",
+        "text": "The professor's boring lecture put me to sleep."
+      }
+    ],
+    "indices": "教授 の 怠い{だるい} 講演 で(#2028980) 寝る[01]{寝て} 仕舞う{しまった}",
+    "vocabIds": [
+      "1360010",
+      "1007520",
+      "1237160",
+      "1282240"
+    ],
+    "matches": {
+      "1007520": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "だるい"
+        }
+      ],
+      "1237160": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "きょうじゅ"
+        }
+      ],
+      "1282240": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "こうえん"
+        }
+      ],
+      "1360010": [
+        {
+          "start": 9,
+          "length": 6,
+          "reading": "ねてしまった"
+        }
+      ]
+    }
+  },
+  {
+    "id": "203252",
+    "original": "だるいし頭がずきずきする。",
+    "en": [
+      {
+        "id": "40488",
+        "text": "I feel listless and have a throbbing headache."
+      }
+    ],
+    "indices": "怠い{だるい}~ 為る(する){し} 頭(あたま) が ずきずき~ 為る(する){する}",
+    "vocabIds": [
+      "1007520",
+      "1157170",
+      "1582310"
+    ],
+    "matches": {
+      "1007520": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "だるい"
+        }
+      ],
+      "1157170": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "する"
+        },
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "し"
+        }
+      ],
+      "1582310": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "あたま"
+        }
+      ]
+    }
+  }
+]

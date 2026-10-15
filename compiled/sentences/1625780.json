@@ -23,6 +23,147 @@
     }
   },
   {
+    "id": "198254",
+    "original": "はじめまして、ジョーンズ夫人。",
+    "en": [
+      {
+        "id": "755288",
+        "text": "Nice to meet you, Mrs Jones."
+      }
+    ],
+    "indices": "初めまして{はじめまして} 夫人",
+    "vocabIds": [
+      "1625780",
+      "1496540"
+    ],
+    "matches": {
+      "1496540": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "ふじん"
+        }
+      ],
+      "1625780": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "はじめまして"
+        }
+      ]
+    }
+  },
+  {
+    "id": "198255",
+    "original": "はじめまして、アレンさんお目にかかれてうれしいです。",
+    "en": [
+      {
+        "id": "35447",
+        "text": "How do you do, Mrs. Allen? I'm pleased to meet you."
+      }
+    ],
+    "indices": "初めまして{はじめまして} さん お目に掛かる[01]{お目にかかれて} 嬉しい{うれしい} です",
+    "vocabIds": [
+      "1625780",
+      "1219510",
+      "2267210"
+    ],
+    "matches": {
+      "1219510": [
+        {
+          "start": 19,
+          "length": 4,
+          "reading": "うれしい"
+        }
+      ],
+      "1625780": [
+        {
+          "start": 0,
+          "length": 6,
+          "reading": "はじめまして"
+        }
+      ],
+      "2267210": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "おめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "236454",
+    "original": "「はじめまして、ジェイムズさん」「こちらこそ、あなたにお会いできて、こんなに嬉しいことはありません」",
+    "en": [
+      {
+        "id": "73820",
+        "text": "\"How do you do, Mr James?\" \"Fine, thanks for asking. Nice to meet you.\""
+      },
+      {
+        "id": "1349545",
+        "text": "\"How do you do, James?\" \"Fine, thanks for asking. Nice to meet you.\""
+      },
+      {
+        "id": "12143846",
+        "text": "\"Pleased to meet you, Mr. James.\" \"The pleasure is all mine. It's an honor to make your acquaintance.\""
+      }
+    ],
+    "indices": "初めまして{はじめまして}~ さん[01] こちらこそ~ 貴方(あなた)[01]{あなた} に 会う[01]{お会い} 出来る{できて} こんなに 嬉しい 事(こと){こと} は 有る{ありません}",
+    "vocabIds": [
+      "1625780",
+      "1296400",
+      "1198180",
+      "1223615",
+      "1219510",
+      "1313580"
+    ],
+    "matches": {
+      "1198180": [
+        {
+          "start": 28,
+          "length": 5,
+          "reading": "あいできて"
+        }
+      ],
+      "1219510": [
+        {
+          "start": 38,
+          "length": 3,
+          "reading": "うれしい"
+        }
+      ],
+      "1223615": [
+        {
+          "start": 23,
+          "length": 3,
+          "reading": "あなた"
+        }
+      ],
+      "1296400": [
+        {
+          "start": 44,
+          "length": 5,
+          "reading": "ありません"
+        }
+      ],
+      "1313580": [
+        {
+          "start": 41,
+          "length": 2,
+          "reading": "こと"
+        }
+      ],
+      "1625780": [
+        {
+          "start": 1,
+          "length": 6,
+          "reading": "はじめまして"
+        }
+      ]
+    }
+  },
+  {
     "id": "370795",
     "original": "キリルと申します、初めまして！",
     "en": [

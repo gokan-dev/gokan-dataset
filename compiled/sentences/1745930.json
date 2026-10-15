@@ -10,8 +10,11 @@
     ],
     "indices": "健康 は 失う{失われて} 有り難み{有難味} が 分かる{わかる} 点(てん) に於いて[02]{において} 親(おや) や 水(みず) 空気 と 同じよう{同じような} 物(もの){もの} です",
     "vocabIds": [
+      "1009550",
       "1451770",
+      "1606560",
       "1745930",
+      "1502390",
       "1256170",
       "1319750",
       "1245470",
@@ -20,6 +23,13 @@
       "1371260"
     ],
     "matches": {
+      "1009550": [
+        {
+          "start": 15,
+          "length": 4,
+          "reading": "において"
+        }
+      ],
       "1245470": [
         {
           "start": 24,
@@ -69,11 +79,287 @@
           "reading": "おなじよう"
         }
       ],
+      "1502390": [
+        {
+          "start": 32,
+          "length": 2,
+          "reading": "もの"
+        }
+      ],
+      "1606560": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "わかる"
+        }
+      ],
       "1745930": [
         {
           "start": 7,
           "length": 3,
           "reading": "ありがたみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "118763",
+    "original": "彼には彼女の忠告のありがたみが理解できなかった。",
+    "en": [
+      {
+        "id": "284900",
+        "text": "He could not comprehend the value of her advice."
+      }
+    ],
+    "indices": "彼(かれ) には 彼女[01]{彼女の} 忠告 の 有り難み{ありがたみ} が 理解 出来る{できなかった}",
+    "vocabIds": [
+      "1340450",
+      "1745930",
+      "1483150",
+      "1426140",
+      "1549910",
+      "1483070"
+    ],
+    "matches": {
+      "1340450": [
+        {
+          "start": 17,
+          "length": 6,
+          "reading": "できなかった"
+        }
+      ],
+      "1426140": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ちゅうこく"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1549910": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "りかい"
+        }
+      ],
+      "1745930": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "ありがたみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "143587",
+    "original": "随分尽くしてやったのに、それでも彼にはありがたみが無かった。",
+    "en": [
+      {
+        "id": "270980",
+        "text": "After all we had done, he was still ungrateful."
+      }
+    ],
+    "indices": "随分 尽くす{尽くして} 遣る[01]{やった} のに 其れでも{それでも} 彼(かれ) には 有り難み{ありがたみ}~ が 無い{無かった}",
+    "vocabIds": [
+      "1370090",
+      "1745930",
+      "1406060",
+      "1529520",
+      "1372800",
+      "1483070"
+    ],
+    "matches": {
+      "1370090": [
+        {
+          "start": 2,
+          "length": 9,
+          "reading": "つくしてやったのに"
+        }
+      ],
+      "1372800": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ずいぶん"
+        }
+      ],
+      "1406060": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "それでも"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 16,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1529520": [
+        {
+          "start": 25,
+          "length": 4,
+          "reading": "なかった"
+        }
+      ],
+      "1745930": [
+        {
+          "start": 19,
+          "length": 5,
+          "reading": "ありがたみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "175449",
+    "original": "健康を失って初めて健康のありがたみがわかる。",
+    "en": [
+      {
+        "id": "239016",
+        "text": "People do not know the blessing of good health until they lose it."
+      }
+    ],
+    "indices": "健康 を 失う{失って} 初めて 健康 の 有り難み{ありがたみ} が 分かる{わかる}",
+    "vocabIds": [
+      "1745930",
+      "1606560",
+      "1342550",
+      "1319750",
+      "1256170"
+    ],
+    "matches": {
+      "1256170": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "けんこう"
+        },
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "けんこう"
+        }
+      ],
+      "1319750": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "うしなって"
+        }
+      ],
+      "1342550": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "はじめて"
+        }
+      ],
+      "1606560": [
+        {
+          "start": 18,
+          "length": 3,
+          "reading": "わかる"
+        }
+      ],
+      "1745930": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "ありがたみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "175488",
+    "original": "健康の真のありがたみは健康を失ってはじめてわかる。",
+    "en": [
+      {
+        "id": "238977",
+        "text": "It is not till we lose our health that we realize its true value."
+      },
+      {
+        "id": "7492722",
+        "text": "It's not till we lose our health that we realize its true value."
+      },
+      {
+        "id": "7492721",
+        "text": "It isn't till we lose our health that we realize its true value."
+      }
+    ],
+    "indices": "健康 の 真の 有り難み{ありがたみ} は 健康 を 失う{失って} 初めて{はじめて} 分かる{わかる}",
+    "vocabIds": [
+      "1745930",
+      "1342550",
+      "1606560",
+      "1319750",
+      "1256170",
+      "1853530"
+    ],
+    "matches": {
+      "1256170": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "けんこう"
+        },
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "けんこう"
+        }
+      ],
+      "1319750": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "うしなって"
+        }
+      ],
+      "1342550": [
+        {
+          "start": 17,
+          "length": 4,
+          "reading": "はじめて"
+        }
+      ],
+      "1606560": [
+        {
+          "start": 21,
+          "length": 3,
+          "reading": "わかる"
+        }
+      ],
+      "1745930": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "ありがたみ"
+        }
+      ],
+      "1853530": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "しんの"
         }
       ]
     }

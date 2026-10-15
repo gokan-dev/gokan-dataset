@@ -1,0 +1,92 @@
+[
+  {
+    "id": "169476",
+    "original": "三郎はテーブルの上に出されたおやつをガッと取った。",
+    "en": [
+      {
+        "id": "245010",
+        "text": "Saburo snatched up all the snacks that were sitting on the table."
+      }
+    ],
+    "indices": "は テーブル の 上(うえ) に 出す{出された} お八つ[01]{おやつ}~ を ガッと~ 取る{取った}",
+    "vocabIds": [
+      "1589430",
+      "1326980",
+      "2800970",
+      "1338180",
+      "1352130"
+    ],
+    "matches": {
+      "1326980": [
+        {
+          "start": 21,
+          "length": 3,
+          "reading": "とった"
+        }
+      ],
+      "1338180": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "ださ"
+        }
+      ],
+      "1352130": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "うえ"
+        }
+      ],
+      "1589430": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "おやつ"
+        }
+      ],
+      "2800970": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "さぶろう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "227479",
+    "original": "おやつにプリンを食べた。",
+    "en": [
+      {
+        "id": "64832",
+        "text": "I had some custard pudding for an afternoon snack."
+      },
+      {
+        "id": "10624823",
+        "text": "I had some pudding for an afternoon snack."
+      }
+    ],
+    "indices": "お八つ[02]{おやつ}~ に プリン(#1116190)[01]~ を 食べる{食べた}",
+    "vocabIds": [
+      "1589430",
+      "1358280"
+    ],
+    "matches": {
+      "1358280": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "たべた"
+        }
+      ],
+      "1589430": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "おやつ"
+        }
+      ]
+    }
+  }
+]

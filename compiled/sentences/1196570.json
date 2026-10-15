@@ -1,0 +1,45 @@
+[
+  {
+    "id": "198682",
+    "original": "にわかに雨が降ってきた。",
+    "en": [
+      {
+        "id": "35875",
+        "text": "Suddenly, the rain fell."
+      },
+      {
+        "id": "1468208",
+        "text": "It suddenly started raining."
+      }
+    ],
+    "indices": "俄に{にわかに}~ 雨 が 降る(ふる){降って} 来る(くる){きた}",
+    "vocabIds": [
+      "1282790",
+      "1196570",
+      "1171900"
+    ],
+    "matches": {
+      "1171900": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "あめ"
+        }
+      ],
+      "1196570": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "にわかに"
+        }
+      ],
+      "1282790": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "ふってきた"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,151 @@
+[
+  {
+    "id": "90408",
+    "original": "彼女は金をばらまくのが好きだった。",
+    "en": [
+      {
+        "id": "313305",
+        "text": "She liked throwing her money about."
+      }
+    ],
+    "indices": "彼女[01] は 金(かね)[01] を 散蒔く{ばらまく} の が 好き(すき) だ{だった}",
+    "vocabIds": [
+      "1601320",
+      "1483150",
+      "1277450",
+      "1242590"
+    ],
+    "matches": {
+      "1242590": [
+        {
+          "start": 3,
+          "length": 1,
+          "reading": "かね"
+        }
+      ],
+      "1277450": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "すき"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1601320": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "ばらまく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "196618",
+    "original": "ベンは悪意から私の噂をばらまいた。",
+    "en": [
+      {
+        "id": "33797",
+        "text": "Ben spread a rumor about me out of malice."
+      }
+    ],
+    "indices": "は 悪意 から 私(わたし)[01]{私の} 噂 を 散蒔く{ばらまいた}~",
+    "vocabIds": [
+      "1601320",
+      "1151390",
+      "1311110",
+      "1172590"
+    ],
+    "matches": {
+      "1151390": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "あくい"
+        }
+      ],
+      "1172590": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "うわさ"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1601320": [
+        {
+          "start": 11,
+          "length": 5,
+          "reading": "ばらまいた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "210795",
+    "original": "その候補者は選挙で大金をばらまいた。",
+    "en": [
+      {
+        "id": "48065",
+        "text": "The candidate handed out a great amount of money in the election."
+      }
+    ],
+    "indices": "其の[01]{その} 候補者 は 選挙 で(#2028980) 大金 を 散蒔く{ばらまいた}",
+    "vocabIds": [
+      "1601320",
+      "1272740",
+      "1006830",
+      "1392190",
+      "1413500"
+    ],
+    "matches": {
+      "1006830": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "その"
+        }
+      ],
+      "1272740": [
+        {
+          "start": 2,
+          "length": 3,
+          "reading": "こうほしゃ"
+        }
+      ],
+      "1392190": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "せんきょ"
+        }
+      ],
+      "1413500": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "たいきん"
+        }
+      ],
+      "1601320": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "ばらまいた"
+        }
+      ]
+    }
+  }
+]

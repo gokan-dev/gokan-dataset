@@ -1,0 +1,150 @@
+[
+  {
+    "id": "145880",
+    "original": "食器用洗剤で手がかぶれました。",
+    "en": [
+      {
+        "id": "268682",
+        "text": "I got a rash on my hands from dishwasher detergent."
+      }
+    ],
+    "indices": "食器 用[02] 洗剤 で(#2028980) 手 が 気触れる[01]{かぶれました}",
+    "vocabIds": [
+      "1222350",
+      "1358430",
+      "1390950",
+      "1546200",
+      "1327190"
+    ],
+    "matches": {
+      "1222350": [
+        {
+          "start": 8,
+          "length": 6,
+          "reading": "かぶれました"
+        }
+      ],
+      "1327190": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "て"
+        }
+      ],
+      "1358430": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しょっき"
+        }
+      ],
+      "1390950": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "せんざい"
+        }
+      ],
+      "1546200": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "よう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "150169",
+    "original": "耳がかぶれています。",
+    "en": [
+      {
+        "id": "264388",
+        "text": "I have an ear infection."
+      }
+    ],
+    "indices": "耳[01] が 気触れる[01]{かぶれています}",
+    "vocabIds": [
+      "1222350",
+      "1317170"
+    ],
+    "matches": {
+      "1222350": [
+        {
+          "start": 2,
+          "length": 7,
+          "reading": "かぶれています"
+        }
+      ],
+      "1317170": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "みみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "188203",
+    "original": "化粧品にかぶれました。",
+    "en": [
+      {
+        "id": "25342",
+        "text": "I got a rash from cosmetics."
+      }
+    ],
+    "indices": "化粧品 に 気触れる[01]{かぶれました}",
+    "vocabIds": [
+      "1222350",
+      "1187110"
+    ],
+    "matches": {
+      "1187110": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "けしょうひん"
+        }
+      ],
+      "1222350": [
+        {
+          "start": 4,
+          "length": 6,
+          "reading": "かぶれました"
+        }
+      ]
+    }
+  },
+  {
+    "id": "202579",
+    "original": "ツタウルシにかぶれました。",
+    "en": [
+      {
+        "id": "39813",
+        "text": "I got a rash from poison ivy."
+      }
+    ],
+    "indices": "蔦漆{ツタウルシ}~ に 気触れる[01]{かぶれました}~",
+    "vocabIds": [
+      "1222350",
+      "2067430"
+    ],
+    "matches": {
+      "1222350": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "かぶれました"
+        }
+      ],
+      "2067430": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "つたうるし"
+        }
+      ]
+    }
+  }
+]

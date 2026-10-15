@@ -1,5 +1,52 @@
 [
   {
+    "id": "126902",
+    "original": "地震が突然、建物をゆさぶった。",
+    "en": [
+      {
+        "id": "277188",
+        "text": "The earthquake suddenly shook the buildings."
+      }
+    ],
+    "indices": "地震 が 突然 建物 を 揺さぶる[01]{ゆさぶった}~",
+    "vocabIds": [
+      "1545600",
+      "1421210",
+      "1457040",
+      "1257540"
+    ],
+    "matches": {
+      "1257540": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "たてもの"
+        }
+      ],
+      "1421210": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じしん"
+        }
+      ],
+      "1457040": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "とつぜん"
+        }
+      ],
+      "1545600": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "ゆさぶった"
+        }
+      ]
+    }
+  },
+  {
     "id": "180541",
     "original": "強い円が経済を揺さぶっている。",
     "en": [

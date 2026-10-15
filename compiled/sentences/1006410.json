@@ -1,5 +1,44 @@
 [
   {
+    "id": "88212",
+    "original": "彼女は全身ずぶぬれだった。",
+    "en": [
+      {
+        "id": "315495",
+        "text": "She was soaked from head to foot."
+      }
+    ],
+    "indices": "彼女[01] は 全身[01]~ ずぶ濡れ{ずぶぬれ}~ だ{だった}",
+    "vocabIds": [
+      "1006410",
+      "1483150",
+      "1395410"
+    ],
+    "matches": {
+      "1006410": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "ずぶぬれ"
+        }
+      ],
+      "1395410": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "ぜんしん"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ]
+    }
+  },
+  {
     "id": "91330",
     "original": "彼女は夕立に遭い、ずぶ濡れになった。",
     "en": [
@@ -47,6 +86,506 @@
     }
   },
   {
+    "id": "92678",
+    "original": "彼女はずぶぬれになった。",
+    "en": [
+      {
+        "id": "311031",
+        "text": "She got wet to the skin."
+      }
+    ],
+    "indices": "彼女[01] は ずぶ濡れ{ずぶぬれ} になる[01]{になった}",
+    "vocabIds": [
+      "1006410",
+      "1483150"
+    ],
+    "matches": {
+      "1006410": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "ずぶぬれ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "109827",
+    "original": "彼は雨でずぶぬれになった。",
+    "en": [
+      {
+        "id": "293863",
+        "text": "He was drenched by the rain."
+      },
+      {
+        "id": "489844",
+        "text": "He was wet to the skin from the rain."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 雨 で(#2028980) ずぶ濡れ{ずぶぬれ} になる[01]{になった}",
+    "vocabIds": [
+      "1006410",
+      "1483070",
+      "1171900"
+    ],
+    "matches": {
+      "1006410": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "ずぶぬれ"
+        }
+      ],
+      "1171900": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "あめ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "137679",
+    "original": "大雨のために私たちはずぶぬれになった。",
+    "en": [
+      {
+        "id": "275557",
+        "text": "Due to the heavy rain we were soaked to the skin."
+      }
+    ],
+    "indices": "大雨 の 為に{ために} 私たち は ずぶ濡れ{ずぶぬれ} になる[01]{になった}",
+    "vocabIds": [
+      "1006410",
+      "1157150",
+      "1311300",
+      "1413070"
+    ],
+    "matches": {
+      "1006410": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "ずぶぬれ"
+        }
+      ],
+      "1157150": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "ために"
+        }
+      ],
+      "1311300": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1413070": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おおあめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "141078",
+    "original": "船上の荷物はずぶぬれになった。",
+    "en": [
+      {
+        "id": "273494",
+        "text": "The freight on the ship got soaked."
+      }
+    ],
+    "indices": "船上 の 荷物[01] は ずぶ濡れ{ずぶぬれ} になる[01]{になった}",
+    "vocabIds": [
+      "1006410",
+      "2038280",
+      "1195430"
+    ],
+    "matches": {
+      "1006410": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "ずぶぬれ"
+        }
+      ],
+      "1195430": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "にもつ"
+        }
+      ],
+      "2038280": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "せんじょう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "152447",
+    "original": "私は夕立にあって、ずぶぬれになった。",
+    "en": [
+      {
+        "id": "262103",
+        "text": "I was caught in a shower and got wet to the skin."
+      }
+    ],
+    "indices": "私(わたし)[01] は 夕立{夕立にあって} ずぶ濡れ{ずぶぬれ} になる[01]{になった}",
+    "vocabIds": [
+      "1006410",
+      "1542820",
+      "1311110"
+    ],
+    "matches": {
+      "1006410": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "ずぶぬれ"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1542820": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ゆうだち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "159179",
+    "original": "私はにわか雨にあって、ずぶぬれになった。",
+    "en": [
+      {
+        "id": "35870",
+        "text": "I was caught in a shower and was drenched to the skin."
+      }
+    ],
+    "indices": "私(わたし)[01] は にわか雨 に 会う{あって} ずぶ濡れ{ずぶぬれ} になる[01]{になった}",
+    "vocabIds": [
+      "1006410",
+      "1599930",
+      "1198180",
+      "1311110"
+    ],
+    "matches": {
+      "1006410": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "ずぶぬれ"
+        }
+      ],
+      "1198180": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "あって"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1599930": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "にわかあめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "160501",
+    "original": "私はずぶぬれになった。",
+    "en": [
+      {
+        "id": "25356",
+        "text": "I got soaked to the skin."
+      },
+      {
+        "id": "254020",
+        "text": "I got wet to the skin."
+      }
+    ],
+    "indices": "私(わたし)[01] は ずぶ濡れ{ずぶぬれ} になる[01]{になった}",
+    "vocabIds": [
+      "1006410",
+      "1311110"
+    ],
+    "matches": {
+      "1006410": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "ずぶぬれ"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "166468",
+    "original": "私たちはずぶぬれになっていたが、とっても幸せだった。",
+    "en": [
+      {
+        "id": "248035",
+        "text": "We were soaked to the skin but very happy."
+      }
+    ],
+    "indices": "私たち は ずぶ濡れ{ずぶぬれ} になる{になっていた} が 迚も[01]{とっても} 幸せ だ{だった}",
+    "vocabIds": [
+      "1006410",
+      "1008630",
+      "1311300",
+      "1594060"
+    ],
+    "matches": {
+      "1006410": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "ずぶぬれ"
+        }
+      ],
+      "1008630": [
+        {
+          "start": 16,
+          "length": 4,
+          "reading": "とてとっても"
+        }
+      ],
+      "1311300": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ],
+      "1594060": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "しあわせ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "169714",
+    "original": "昨夜、にわか雨が降って、ずぶぬれになった。",
+    "en": [
+      {
+        "id": "244772",
+        "text": "Last night I was caught in a shower and got wet to the skin."
+      }
+    ],
+    "indices": "昨夜(ゆうべ)[02] にわか雨 が 降る(ふる){降って} ずぶ濡れ{ずぶぬれ} になる[01]{になった}",
+    "vocabIds": [
+      "1006410",
+      "1599930",
+      "1282790",
+      "1542640"
+    ],
+    "matches": {
+      "1006410": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "ずぶぬれ"
+        }
+      ],
+      "1282790": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "ふって"
+        }
+      ],
+      "1542640": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ゆうべ"
+        }
+      ],
+      "1599930": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "にわかあめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "177781",
+    "original": "君はずぶぬれだ。",
+    "en": [
+      {
+        "id": "16633",
+        "text": "You're wet through."
+      }
+    ],
+    "indices": "君(きみ)[01] は ずぶ濡れ{ずぶぬれ} だ",
+    "vocabIds": [
+      "1006410",
+      "1247250"
+    ],
+    "matches": {
+      "1006410": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "ずぶぬれ"
+        }
+      ],
+      "1247250": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "きみ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "178483",
+    "original": "君のレインコートがなければ、私はずぶぬれになっていただろう。",
+    "en": [
+      {
+        "id": "17335",
+        "text": "If it had not been for your raincoat, I would have been drenched to the skin."
+      }
+    ],
+    "indices": "君(きみ)[01]{君の} レインコート(#1144700) が 無ければ{なければ} 私(わたし)[01] は ずぶ濡れ{ずぶぬれ} になる[01]{になっていた} だろう",
+    "vocabIds": [
+      "2037140",
+      "1006410",
+      "1247250",
+      "1311110"
+    ],
+    "matches": {
+      "1006410": [
+        {
+          "start": 16,
+          "length": 4,
+          "reading": "ずぶぬれ"
+        }
+      ],
+      "1247250": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "きみ"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2037140": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "なければ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "178484",
+    "original": "君のレインコートがなかったら私はずぶぬれになっていただろう。",
+    "en": [
+      {
+        "id": "17336",
+        "text": "Had it not been for your raincoat, I would have been drenched to the skin."
+      }
+    ],
+    "indices": "君(きみ)[01]{君の} レインコート(#1144700) が 無い{なかったら} 私(わたし)[01] は ずぶ濡れ{ずぶぬれ} になる[01]{になっていた} だろう",
+    "vocabIds": [
+      "1529520",
+      "1006410",
+      "1247250",
+      "1311110"
+    ],
+    "matches": {
+      "1006410": [
+        {
+          "start": 16,
+          "length": 4,
+          "reading": "ずぶぬれ"
+        }
+      ],
+      "1247250": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "きみ"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1529520": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "なかったら"
+        }
+      ]
+    }
+  },
+  {
     "id": "180542",
     "original": "強い雨のため私はずぶ濡れになった。",
     "en": [
@@ -59,6 +598,7 @@
     "vocabIds": [
       "1006410",
       "2855642",
+      "1157080",
       "1311110"
     ],
     "matches": {
@@ -67,6 +607,13 @@
           "start": 8,
           "length": 4,
           "reading": "ずぶぬれ"
+        }
+      ],
+      "1157080": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "ため"
         }
       ],
       "1311110": [
@@ -81,6 +628,73 @@
           "start": 0,
           "length": 3,
           "reading": "つよいあめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "184500",
+    "original": "学校から帰宅途中で、にわか雨にあってずぶぬれになった。",
+    "en": [
+      {
+        "id": "21628",
+        "text": "On my way home from school, I was caught in a shower and got wet to the skin."
+      },
+      {
+        "id": "11193498",
+        "text": "I was caught in a shower on the way home from school and got soaking wet."
+      }
+    ],
+    "indices": "学校 から 帰宅 途中 で(#2028980) にわか雨 に 会う[02]{あって} ずぶ濡れ{ずぶぬれ} になる[01]{になった}",
+    "vocabIds": [
+      "1006410",
+      "1599930",
+      "1198180",
+      "1206730",
+      "1221430",
+      "1582200"
+    ],
+    "matches": {
+      "1006410": [
+        {
+          "start": 18,
+          "length": 4,
+          "reading": "ずぶぬれ"
+        }
+      ],
+      "1198180": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "あって"
+        }
+      ],
+      "1206730": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "がっこう"
+        }
+      ],
+      "1221430": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "きたく"
+        }
+      ],
+      "1582200": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "とちゅう"
+        }
+      ],
+      "1599930": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "にわかあめ"
         }
       ]
     }
@@ -150,6 +764,92 @@
       "1599930": [
         {
           "start": 9,
+          "length": 4,
+          "reading": "にわかあめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "198673",
+    "original": "にわか雨に降られてずぶぬれになった。",
+    "en": [
+      {
+        "id": "35866",
+        "text": "I was utterly soaked by the downpour."
+      }
+    ],
+    "indices": "にわか雨 に 降る(ふる){降られて} ずぶ濡れ{ずぶぬれ} になる[01]{になった}",
+    "vocabIds": [
+      "1006410",
+      "1599930",
+      "1282790"
+    ],
+    "matches": {
+      "1006410": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "ずぶぬれ"
+        }
+      ],
+      "1282790": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "ふら"
+        }
+      ],
+      "1599930": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "にわかあめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "198677",
+    "original": "にわか雨にあい、私はずぶぬれになった。",
+    "en": [
+      {
+        "id": "35870",
+        "text": "I was caught in a shower and was drenched to the skin."
+      }
+    ],
+    "indices": "にわか雨 に 会う[02]{あい} 私(わたし)[01] は ずぶ濡れ{ずぶぬれ} になる[01]{になった}",
+    "vocabIds": [
+      "1006410",
+      "1599930",
+      "1198180",
+      "1311110"
+    ],
+    "matches": {
+      "1006410": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "ずぶぬれ"
+        }
+      ],
+      "1198180": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "あい"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1599930": [
+        {
+          "start": 0,
           "length": 4,
           "reading": "にわかあめ"
         }

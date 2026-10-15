@@ -1,5 +1,44 @@
 [
   {
+    "id": "111104",
+    "original": "彼はフグにあたった。",
+    "en": [
+      {
+        "id": "292583",
+        "text": "He was poisoned by the globefish he ate."
+      }
+    ],
+    "indices": "彼(かれ)[01] は 河豚{フグ} に 当たる[10]{あたった}~",
+    "vocabIds": [
+      "1448810",
+      "1193570",
+      "1483070"
+    ],
+    "matches": {
+      "1193570": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "ふぐ"
+        }
+      ],
+      "1448810": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "あたった"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ]
+    }
+  },
+  {
     "id": "186769",
     "original": "河豚は食いたし命は惜しし。",
     "en": [
@@ -50,6 +89,45 @@
           "start": 3,
           "length": 4,
           "reading": "くいたし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "197187",
+    "original": "フグは日本の珍味だ。",
+    "en": [
+      {
+        "id": "34370",
+        "text": "Blowfish is a delicacy in Japan."
+      }
+    ],
+    "indices": "河豚{フグ}~ は 日本 の 珍味~ だ",
+    "vocabIds": [
+      "1193570",
+      "1582710",
+      "1431970"
+    ],
+    "matches": {
+      "1193570": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ふぐ"
+        }
+      ],
+      "1431970": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ちんみ"
+        }
+      ],
+      "1582710": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "にほん"
         }
       ]
     }

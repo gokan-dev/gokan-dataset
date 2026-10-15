@@ -1,5 +1,1106 @@
 [
   {
+    "id": "74042",
+    "original": "手が寒さで震えたは、少しオーバーですみません。",
+    "en": [
+      {
+        "id": "329678",
+        "text": "Sorry, \"my hands shuddered with the cold\" was a bit over the top."
+      }
+    ],
+    "indices": "手 が 寒い{寒} さ[01] で(#2028980) 震える{震えた} は 少し オーバー で(#2028980) 済みません{すみません}",
+    "vocabIds": [
+      "1295060",
+      "1366310",
+      "1210360",
+      "1348870",
+      "1327190"
+    ],
+    "matches": {
+      "1210360": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "さむさ"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 17,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1327190": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "て"
+        }
+      ],
+      "1348870": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "すこし"
+        }
+      ],
+      "1366310": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "ふるえた"
+        }
+      ]
+    }
+  },
+  {
+    "id": "74789",
+    "original": "余計なことをして、すみません。",
+    "en": [
+      {
+        "id": "328930",
+        "text": "Sorry, that was none of my business."
+      }
+    ],
+    "indices": "余計[02]{余計な} 事(こと){こと} を 為る(する){して} 済みません{すみません}",
+    "vocabIds": [
+      "1295060",
+      "1157170",
+      "1313580",
+      "1544090"
+    ],
+    "matches": {
+      "1157170": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "して"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1313580": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "こと"
+        }
+      ],
+      "1544090": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "よけい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "74889",
+    "original": "え？トナーが切れてるんですか？仕方ないですね。加藤さん、すみませんが職員室に取りに行って下さい。",
+    "en": [
+      {
+        "id": "328831",
+        "text": "Eh? Have we run out of toner? Oh well, sorry, but can you go the staff-room and get some, Katou?"
+      }
+    ],
+    "indices": "え[01] トナー~ が 切れる[05]{切れてる} のです{んです} か 仕方ない です ね さん 済みません{すみません} が 職員室 に 取る{取り} に 行く{行って} 下さい",
+    "vocabIds": [
+      "1578850",
+      "1295060",
+      "1305440",
+      "1384860",
+      "1357500",
+      "1326980"
+    ],
+    "matches": {
+      "1295060": [
+        {
+          "start": 28,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1305440": [
+        {
+          "start": 15,
+          "length": 4,
+          "reading": "しかたない"
+        }
+      ],
+      "1326980": [
+        {
+          "start": 38,
+          "length": 2,
+          "reading": "とり"
+        }
+      ],
+      "1357500": [
+        {
+          "start": 34,
+          "length": 3,
+          "reading": "しょくいんしつ"
+        }
+      ],
+      "1384860": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "きれてる"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 41,
+          "length": 6,
+          "reading": "いってください"
+        }
+      ]
+    }
+  },
+  {
+    "id": "75140",
+    "original": "ミスタイプです。すみません。",
+    "en": [
+      {
+        "id": "328579",
+        "text": "It's a typo. Sorry."
+      }
+    ],
+    "indices": "ミスタイプ[02]~ です 済みません{すみません}",
+    "vocabIds": [
+      "1295060"
+    ],
+    "matches": {
+      "1295060": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ]
+    }
+  },
+  {
+    "id": "75192",
+    "original": "トピずれです。すみません。",
+    "en": [
+      {
+        "id": "328527",
+        "text": "This is off-topic. Sorry."
+      }
+    ],
+    "indices": "トピずれ~ です 済みません{すみません}",
+    "vocabIds": [
+      "1295060"
+    ],
+    "matches": {
+      "1295060": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ]
+    }
+  },
+  {
+    "id": "75328",
+    "original": "すいません、タイポです。",
+    "en": [
+      {
+        "id": "328391",
+        "text": "Sorry, that's a typo."
+      }
+    ],
+    "indices": "済みません{すいません} タイポ です",
+    "vocabIds": [
+      "1295060"
+    ],
+    "matches": {
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すすいません"
+        }
+      ]
+    }
+  },
+  {
+    "id": "75329",
+    "original": "少し酔いが回ってしまったようですね。すみません、意味の分からないことを言って・・・。",
+    "en": [
+      {
+        "id": "328390",
+        "text": "It seems I've got a little tipsy. Sorry to have talked rubbish..."
+      }
+    ],
+    "indices": "少し 酔いが回る{酔いが回って}~ 仕舞う{しまった} 様(よう){よう} です ね 済みません{すみません} 意味 の 分かる{分からない} 事(こと){こと} を 言う{言って}",
+    "vocabIds": [
+      "1604300",
+      "1295060",
+      "1606560",
+      "1587040",
+      "1545790",
+      "1313580",
+      "1348870",
+      "1952930",
+      "1156800"
+    ],
+    "matches": {
+      "1156800": [
+        {
+          "start": 24,
+          "length": 2,
+          "reading": "いみ"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 18,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1313580": [
+        {
+          "start": 32,
+          "length": 2,
+          "reading": "こと"
+        }
+      ],
+      "1348870": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "すこし"
+        }
+      ],
+      "1545790": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "よう"
+        }
+      ],
+      "1587040": [
+        {
+          "start": 35,
+          "length": 3,
+          "reading": "いって"
+        }
+      ],
+      "1604300": [
+        {
+          "start": 5,
+          "length": 7,
+          "reading": "まわってしまった"
+        }
+      ],
+      "1606560": [
+        {
+          "start": 27,
+          "length": 5,
+          "reading": "わからない"
+        }
+      ],
+      "1952930": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "よい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "75447",
+    "original": "松葉杖ってけっこうムズいな・・・。「すみません、ストレッチャー通ります！」",
+    "en": [
+      {
+        "id": "328271",
+        "text": "Crutches are pretty tricky ... \"Excuse me, stretcher coming through!\""
+      }
+    ],
+    "indices": "松葉杖 って 結構[04]{けっこう} ムズい~ な 済みません{すみません} ストレッチャー~ 通る{通ります}",
+    "vocabIds": [
+      "1295060",
+      "1254760",
+      "1433030",
+      "1349960"
+    ],
+    "matches": {
+      "1254760": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "けっこう"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 18,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1349960": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "まつばづえ"
+        }
+      ],
+      "1433030": [
+        {
+          "start": 31,
+          "length": 4,
+          "reading": "とおります"
+        }
+      ]
+    }
+  },
+  {
+    "id": "76657",
+    "original": "すみません。また早とちりをしてしまいました。",
+    "en": [
+      {
+        "id": "327063",
+        "text": "Sorry, I've gone and jumped to conclusions again."
+      }
+    ],
+    "indices": "済みません{すみません} 又{また} 早とちり~ を 為る(する){して} 仕舞う{しまいました}",
+    "vocabIds": [
+      "1305380",
+      "1295060",
+      "1400160",
+      "1157170",
+      "1524930"
+    ],
+    "matches": {
+      "1157170": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "して"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1305380": [
+        {
+          "start": 15,
+          "length": 6,
+          "reading": "しまいました"
+        }
+      ],
+      "1400160": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "はやとちり"
+        }
+      ],
+      "1524930": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "また"
+        }
+      ]
+    }
+  },
+  {
+    "id": "76658",
+    "original": "すみません、お待たせしました。",
+    "en": [
+      {
+        "id": "54729",
+        "text": "I'm sorry to have kept you waiting so long."
+      },
+      {
+        "id": "54635",
+        "text": "I am sorry to have kept you waiting so long."
+      }
+    ],
+    "indices": "済みません{すみません} お待たせしました",
+    "vocabIds": [
+      "1295060",
+      "1410590"
+    ],
+    "matches": {
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1410590": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "また"
+        }
+      ]
+    }
+  },
+  {
+    "id": "77044",
+    "original": "「おしっこしたい」「ジョニー、そうじゃないだろ。『すみません。お手洗いにいきたいんですが』と言いなさい」",
+    "en": [
+      {
+        "id": "326675",
+        "text": "\"I have to pee.\" \"Jonny, that's not the right thing to say. Say, 'Excuse me. I need to go to the toilet.'\""
+      }
+    ],
+    "indices": "おしっこ[01] したい 然う[01]{そう} だ{じゃない} だろう{だろ} 済みません{すみません} お手洗い に 行く{いき} たい[01] のです{んです} が[03] と 言う{言い} 為さい{なさい}",
+    "vocabIds": [
+      "1295060",
+      "1587040",
+      "1002100",
+      "2137720",
+      "1578850"
+    ],
+    "matches": {
+      "1002100": [
+        {
+          "start": 31,
+          "length": 4,
+          "reading": "おてあらい"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 25,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 36,
+          "length": 2,
+          "reading": "いき"
+        }
+      ],
+      "1587040": [
+        {
+          "start": 46,
+          "length": 5,
+          "reading": "いいなさい"
+        }
+      ],
+      "2137720": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "そう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "81546",
+    "original": "本当にすみません。",
+    "en": [
+      {
+        "id": "322169",
+        "text": "Oh, I'm terribly sorry."
+      }
+    ],
+    "indices": "本当に 済みません{すみません}",
+    "vocabIds": [
+      "1295060",
+      "1611580"
+    ],
+    "matches": {
+      "1295060": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1611580": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ほんとうに"
+        }
+      ]
+    }
+  },
+  {
+    "id": "125913",
+    "original": "長くお待たせしてすみませんでした。",
+    "en": [
+      {
+        "id": "54635",
+        "text": "I am sorry to have kept you waiting so long."
+      }
+    ],
+    "indices": "長い[02]{長く} 待たせる{お待たせ} 為る(する){して} 済みません{すみませんでした}",
+    "vocabIds": [
+      "1295060",
+      "1157170",
+      "1429750",
+      "1410590"
+    ],
+    "matches": {
+      "1157170": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "して"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 8,
+          "length": 8,
+          "reading": "すすみませんでした"
+        }
+      ],
+      "1410590": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "また"
+        }
+      ],
+      "1429750": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ながく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "125944",
+    "original": "長い事お待たせしてすみません。",
+    "en": [
+      {
+        "id": "278048",
+        "text": "I'm sorry to have kept you waiting for such a long time."
+      },
+      {
+        "id": "54729",
+        "text": "I'm sorry to have kept you waiting so long."
+      },
+      {
+        "id": "54635",
+        "text": "I am sorry to have kept you waiting so long."
+      }
+    ],
+    "indices": "長いこと{長い事} 待たせる{お待たせ} 為る(する){して} 済みません{すみません}",
+    "vocabIds": [
+      "1295060",
+      "2038050",
+      "1157170",
+      "1410590"
+    ],
+    "matches": {
+      "1157170": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "して"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1410590": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "また"
+        }
+      ],
+      "2038050": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ながいこと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "125967",
+    "original": "長い間、お待たせしてすみませんでした。",
+    "en": [
+      {
+        "id": "278025",
+        "text": "I'm sorry I have kept you waiting so long."
+      },
+      {
+        "id": "7186010",
+        "text": "I'm sorry that I have kept you waiting so long."
+      }
+    ],
+    "indices": "長い間 待たせる{お待たせして} 済みません{すみませんでした}",
+    "vocabIds": [
+      "1295060",
+      "1429760",
+      "1410590"
+    ],
+    "matches": {
+      "1295060": [
+        {
+          "start": 10,
+          "length": 8,
+          "reading": "すすみませんでした"
+        }
+      ],
+      "1410590": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "また"
+        }
+      ],
+      "1429760": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ながいあいだ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "126671",
+    "original": "遅刻してすみません。",
+    "en": [
+      {
+        "id": "277407",
+        "text": "Excuse me for being late."
+      },
+      {
+        "id": "2544099",
+        "text": "I'm sorry about being late."
+      }
+    ],
+    "indices": "遅刻 為る(する){して} 済みません{すみません}",
+    "vocabIds": [
+      "1295060",
+      "1157170",
+      "1422050"
+    ],
+    "matches": {
+      "1157170": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "して"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1422050": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ちこく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "126710",
+    "original": "遅れてすみません。",
+    "en": [
+      {
+        "id": "277380",
+        "text": "Forgive me for being late."
+      }
+    ],
+    "indices": "遅れる{遅れて} 済みません{すみません}",
+    "vocabIds": [
+      "1295060",
+      "1589040"
+    ],
+    "matches": {
+      "1295060": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1589040": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "おくれて"
+        }
+      ]
+    }
+  },
+  {
+    "id": "139838",
+    "original": "足手まといになる子供をお頼みしてすみません。",
+    "en": [
+      {
+        "id": "274499",
+        "text": "I am sorry to encumber you with the children."
+      }
+    ],
+    "indices": "足手まとい~ になる[01] 子供 を 御(お){お} 頼む{頼み} 為る(する){して} 済みません{すみません}",
+    "vocabIds": [
+      "1295060",
+      "1663120",
+      "1157170",
+      "1307850",
+      "1548370",
+      "2826528"
+    ],
+    "matches": {
+      "1157170": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "して"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 16,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1307850": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "こども"
+        }
+      ],
+      "1548370": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "たのみ"
+        }
+      ],
+      "1663120": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "あしでまとい"
+        }
+      ],
+      "2826528": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "お"
+        }
+      ]
+    }
+  },
+  {
+    "id": "143865",
+    "original": "すみません、図書館はどこにありますか？",
+    "en": [
+      {
+        "id": "270701",
+        "text": "Excuse me, can you tell me the way to the library?"
+      }
+    ],
+    "indices": "済みません{すみません} 図書館 は 何処{どこ} に 有る{あります} か",
+    "vocabIds": [
+      "1295060",
+      "1296400",
+      "1370420",
+      "1577140"
+    ],
+    "matches": {
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1296400": [
+        {
+          "start": 13,
+          "length": 4,
+          "reading": "あります"
+        }
+      ],
+      "1370420": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "としょかん"
+        }
+      ],
+      "1577140": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "どこ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "144580",
+    "original": "人の物を預かっておいて、「無くしました、すみません」で済まそうという郵便局側の神経が理解できない。",
+    "en": [
+      {
+        "id": "269984",
+        "text": "I don't understand how in the world they can take your stuff for safekeeping, but then the post office guy has the nerve to tell you \"Sorry, we lost it\" and expect that to be the end of it."
+      }
+    ],
+    "indices": "人(ひと) の 物(もの)[01] を 預かる{預かって} 置く{おいて} 無い{無く} 為る(する){しました} 済みません{すみません} で(#2028980) 済ます[03]{済まそう} と言う{という} 郵便局 側(がわ)[01] の 神経 が 理解 出来る{できない}",
+    "vocabIds": [
+      "1544970",
+      "1529530",
+      "1295060",
+      "1340450",
+      "1295030",
+      "1922760",
+      "1542430",
+      "1364520",
+      "1549910",
+      "1580640",
+      "1502390",
+      "1581310"
+    ],
+    "matches": {
+      "1295030": [
+        {
+          "start": 27,
+          "length": 4,
+          "reading": "すまそう"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 20,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1340450": [
+        {
+          "start": 44,
+          "length": 4,
+          "reading": "できない"
+        }
+      ],
+      "1364520": [
+        {
+          "start": 39,
+          "length": 2,
+          "reading": "しんけい"
+        }
+      ],
+      "1502390": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "もの"
+        }
+      ],
+      "1529530": [
+        {
+          "start": 13,
+          "length": 6,
+          "reading": "なくしました"
+        }
+      ],
+      "1542430": [
+        {
+          "start": 34,
+          "length": 3,
+          "reading": "ゆうびんきょく"
+        }
+      ],
+      "1544970": [
+        {
+          "start": 4,
+          "length": 7,
+          "reading": "あずかっておいて"
+        }
+      ],
+      "1549910": [
+        {
+          "start": 42,
+          "length": 2,
+          "reading": "りかい"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ],
+      "1581310": [
+        {
+          "start": 37,
+          "length": 1,
+          "reading": "がわ"
+        }
+      ],
+      "1922760": [
+        {
+          "start": 31,
+          "length": 3,
+          "reading": "という"
+        }
+      ]
+    }
+  },
+  {
+    "id": "148903",
+    "original": "邪魔してすみません。",
+    "en": [
+      {
+        "id": "64416",
+        "text": "I'm sorry to bother you."
+      }
+    ],
+    "indices": "邪魔 為る(する){して} 済みません{すみません}",
+    "vocabIds": [
+      "1295060",
+      "1157170",
+      "1323500"
+    ],
+    "matches": {
+      "1157170": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "して"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1323500": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じゃま"
+        }
+      ]
+    }
+  },
+  {
+    "id": "149581",
+    "original": "失礼。すみません。",
+    "en": [
+      {
+        "id": "433504",
+        "text": "Excuse me."
+      }
+    ],
+    "indices": "失礼[02] 済みません{すみません}",
+    "vocabIds": [
+      "1295060",
+      "1320230"
+    ],
+    "matches": {
+      "1295060": [
+        {
+          "start": 3,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1320230": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "しつれい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "157793",
+    "original": "私は間違ってすみませんと謝った。",
+    "en": [
+      {
+        "id": "256738",
+        "text": "I asked forgiveness for the mistake I made."
+      }
+    ],
+    "indices": "私(わたし)[01] は 間違う{間違って} 済みません{すみません} と 謝る{謝った}",
+    "vocabIds": [
+      "1295060",
+      "1611610",
+      "1323010",
+      "1311110"
+    ],
+    "matches": {
+      "1295060": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1323010": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "あやまった"
+        }
+      ],
+      "1611610": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "まちがって"
+        }
+      ]
+    }
+  },
+  {
     "id": "170302",
     "original": "済みません。通してくれますか。",
     "en": [
@@ -65,6 +1166,5403 @@
           "start": 6,
           "length": 2,
           "reading": "でんわ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "171272",
+    "original": "今晩お会いできなくてすみません。",
+    "en": [
+      {
+        "id": "243205",
+        "text": "I'm sorry that I can't meet you tonight."
+      }
+    ],
+    "indices": "今晩 会う[01]{お会い} 出来る{できなくて} 済みません{すみません}",
+    "vocabIds": [
+      "1295060",
+      "1340450",
+      "1289470",
+      "1198180"
+    ],
+    "matches": {
+      "1198180": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "あい"
+        }
+      ],
+      "1289470": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "こんばん"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1340450": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "できなくて"
+        }
+      ]
+    }
+  },
+  {
+    "id": "185391",
+    "original": "会議に遅れてすみません。",
+    "en": [
+      {
+        "id": "22523",
+        "text": "Sorry I'm late for the meeting."
+      }
+    ],
+    "indices": "会議 に 遅れる{遅れて} 済みません{すみません}",
+    "vocabIds": [
+      "1295060",
+      "1589040",
+      "1198360"
+    ],
+    "matches": {
+      "1198360": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "かいぎ"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1589040": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "おくれて"
+        }
+      ]
+    }
+  },
+  {
+    "id": "193242",
+    "original": "もっと早く返事を出さないでいてすみません。",
+    "en": [
+      {
+        "id": "30407",
+        "text": "Sorry I didn't reply sooner."
+      },
+      {
+        "id": "1445499",
+        "text": "I'm sorry that I didn't reply sooner."
+      },
+      {
+        "id": "7185878",
+        "text": "I'm sorry I didn't reply sooner."
+      }
+    ],
+    "indices": "もっと 早く[01] 返事 を 出す{出さないで} 居る(いる){いて} 済みません{すみません}",
+    "vocabIds": [
+      "1338180",
+      "1295060",
+      "1404975",
+      "1512220"
+    ],
+    "matches": {
+      "1295060": [
+        {
+          "start": 15,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1338180": [
+        {
+          "start": 8,
+          "length": 7,
+          "reading": "ださないでいて"
+        }
+      ],
+      "1404975": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "はやく"
+        }
+      ],
+      "1512220": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "へんじ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "193255",
+    "original": "もっと早くＥメールしなくて、すみません。",
+    "en": [
+      {
+        "id": "30420",
+        "text": "Sorry I didn't e-mail you sooner."
+      },
+      {
+        "id": "1445494",
+        "text": "I'm sorry that I didn't email you sooner."
+      },
+      {
+        "id": "7185876",
+        "text": "I'm sorry I didn't email you sooner."
+      }
+    ],
+    "indices": "もっと 早く[01] メール(#1132620)[01] 為る(する){しなくて} 済みません{すみません}",
+    "vocabIds": [
+      "1295060",
+      "1157170",
+      "1404975"
+    ],
+    "matches": {
+      "1157170": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "しなくて"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 14,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1404975": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "はやく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "195379",
+    "original": "まちがってあなたの手紙を開けてしまってすみません。",
+    "en": [
+      {
+        "id": "32553",
+        "text": "Excuse me for opening your letter by mistake."
+      }
+    ],
+    "indices": "間違う{まちがって} 貴方(あなた)[01]{あなた} の 手紙 を 開ける(あける)[02]{開けて} 仕舞う{しまって} 済みません{すみません}",
+    "vocabIds": [
+      "1202450",
+      "1295060",
+      "1611610",
+      "1223615",
+      "1327720"
+    ],
+    "matches": {
+      "1202450": [
+        {
+          "start": 12,
+          "length": 7,
+          "reading": "あけてしまって"
+        }
+      ],
+      "1223615": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "あなた"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 19,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1327720": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "てがみ"
+        }
+      ],
+      "1611610": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "まちがって"
+        }
+      ]
+    }
+  },
+  {
+    "id": "195694",
+    "original": "誠にすみませんが、私のかわりにそれをやっていただけませんか。",
+    "en": [
+      {
+        "id": "32869",
+        "text": "Would you be good enough to do it for me?"
+      }
+    ],
+    "indices": "誠に 済みません{すみません} が 私(わたし)[01]{私の} 代わりに{かわりに} 其れ[01]{それ} を 遣る{やって} 頂ける[01]{いただけません} か",
+    "vocabIds": [
+      "1628260",
+      "1295060",
+      "1590790",
+      "1012980",
+      "1006970",
+      "1381160",
+      "1311110"
+    ],
+    "matches": {
+      "1006970": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "それ"
+        }
+      ],
+      "1012980": [
+        {
+          "start": 18,
+          "length": 3,
+          "reading": "やって"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 2,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1381160": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "まことに"
+        }
+      ],
+      "1590790": [
+        {
+          "start": 11,
+          "length": 4,
+          "reading": "かわりに"
+        }
+      ],
+      "1628260": [
+        {
+          "start": 21,
+          "length": 7,
+          "reading": "いただけません"
+        }
+      ]
+    }
+  },
+  {
+    "id": "203979",
+    "original": "たいそうご無理をお願いしてすみません。",
+    "en": [
+      {
+        "id": "41221",
+        "text": "I am sorry I have imposed so much on you."
+      }
+    ],
+    "indices": "大層{たいそう} 御(ご){ご} 無理 を お願い[02] 為る(する){して} 済みません{すみません}",
+    "vocabIds": [
+      "1295060",
+      "1414380",
+      "2036870",
+      "1157170",
+      "1530970",
+      "2826528"
+    ],
+    "matches": {
+      "1157170": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "して"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 13,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1414380": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "たいそう"
+        }
+      ],
+      "1530970": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "むり"
+        }
+      ],
+      "2036870": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "おねがい"
+        }
+      ],
+      "2826528": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "ご"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214127",
+    "original": "すみません紳士靴売り場はどこでしょう。",
+    "en": [
+      {
+        "id": "51417",
+        "text": "Excuse me, but where is the men's shoe department?"
+      }
+    ],
+    "indices": "済みません{すみません} 紳士靴~ 売り場 は 何処{どこ} でしょう[01]",
+    "vocabIds": [
+      "1295060",
+      "1883880",
+      "1588550",
+      "1577140"
+    ],
+    "matches": {
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1577140": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "どこ"
+        }
+      ],
+      "1588550": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "うりば"
+        }
+      ],
+      "1883880": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "しんしぐつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214128",
+    "original": "すみません火を貸してもらえますか。",
+    "en": [
+      {
+        "id": "51418",
+        "text": "May I trouble you for a light?"
+      }
+    ],
+    "indices": "済みません{すみません} 火(ひ) を 貸す{貸して} 貰う[02]{もらえます} か",
+    "vocabIds": [
+      "1411160",
+      "1295060",
+      "1193610"
+    ],
+    "matches": {
+      "1193610": [
+        {
+          "start": 5,
+          "length": 1,
+          "reading": "ひ"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1411160": [
+        {
+          "start": 7,
+          "length": 8,
+          "reading": "かしてもらえます"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214129",
+    "original": "すみません、ナイフを落としてしまいました。",
+    "en": [
+      {
+        "id": "51419",
+        "text": "I'm sorry, I dropped my knife."
+      }
+    ],
+    "indices": "済みません{すみません} ナイフ~ を 落とす[01]{落として} 仕舞う{しまいました}",
+    "vocabIds": [
+      "1589260",
+      "1295060"
+    ],
+    "matches": {
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1589260": [
+        {
+          "start": 10,
+          "length": 10,
+          "reading": "おとしてしまいました"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214130",
+    "original": "すみませんが、郵便局へ行く道を教えていただけませんか。",
+    "en": [
+      {
+        "id": "51420",
+        "text": "Excuse me, but would you please tell me the way to the post office?"
+      }
+    ],
+    "indices": "済みません{すみません} が 郵便局 へ 行く 道(みち) を 教える{教えて} 頂ける[01]{いただけません} か",
+    "vocabIds": [
+      "1628260",
+      "1295060",
+      "1542430",
+      "1578850",
+      "1236890",
+      "1454080"
+    ],
+    "matches": {
+      "1236890": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "おしえ"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1454080": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "みち"
+        }
+      ],
+      "1542430": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "ゆうびんきょく"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "いく"
+        }
+      ],
+      "1628260": [
+        {
+          "start": 18,
+          "length": 7,
+          "reading": "いただけません"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214131",
+    "original": "すみませんが娘の歯にフッソ塗布をしてください。",
+    "en": [
+      {
+        "id": "51421",
+        "text": "Please give her a fluoride treatment."
+      }
+    ],
+    "indices": "済みません{すみません} が 娘(むすめ) の 歯 に フッ素{フッソ}~ 塗布[01]~ を 為る(する){して} 下さい{ください}",
+    "vocabIds": [
+      "1295060",
+      "1184270",
+      "1111000",
+      "1157170",
+      "1444320",
+      "1531190",
+      "1313000"
+    ],
+    "matches": {
+      "1111000": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "ふっそ"
+        }
+      ],
+      "1157170": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "して"
+        }
+      ],
+      "1184270": [
+        {
+          "start": 18,
+          "length": 4,
+          "reading": "ください"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1313000": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "は"
+        }
+      ],
+      "1444320": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "とふ"
+        }
+      ],
+      "1531190": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "むすめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214132",
+    "original": "すみませんが電話に出てください。",
+    "en": [
+      {
+        "id": "51422",
+        "text": "Please answer the phone."
+      }
+    ],
+    "indices": "済みません{すみません} が 電話に出る{電話に出て} 下さい{ください}",
+    "vocabIds": [
+      "1338240",
+      "1295060",
+      "1443840"
+    ],
+    "matches": {
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1338240": [
+        {
+          "start": 9,
+          "length": 6,
+          "reading": "でてください"
+        }
+      ],
+      "1443840": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "でんわ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214133",
+    "original": "すみませんが駄目なんですよ。",
+    "en": [
+      {
+        "id": "51423",
+        "text": "I'm afraid you can't."
+      }
+    ],
+    "indices": "済みません{すみません} が 駄目 なんです よ[01]",
+    "vocabIds": [
+      "1295060",
+      "1409110"
+    ],
+    "matches": {
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1409110": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "だめ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214134",
+    "original": "すみませんが赤ん坊をねかせてくださいませんか。",
+    "en": [
+      {
+        "id": "51424",
+        "text": "Will you please put the baby to bed?"
+      },
+      {
+        "id": "1992379",
+        "text": "Could you please put the baby to bed?"
+      },
+      {
+        "id": "1992380",
+        "text": "Would you please put the baby to bed?"
+      }
+    ],
+    "indices": "済みません{すみません} が 赤ん坊 を 寝かせる[01]{ねかせて} 下さる{くださいません} か",
+    "vocabIds": [
+      "1184280",
+      "1295060",
+      "1359970",
+      "1383310"
+    ],
+    "matches": {
+      "1184280": [
+        {
+          "start": 14,
+          "length": 7,
+          "reading": "くださいません"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1359970": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "ねかせて"
+        }
+      ],
+      "1383310": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "あかんぼう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214135",
+    "original": "すみませんが小銭がありません。",
+    "en": [
+      {
+        "id": "51426",
+        "text": "I'm sorry, but I don't have any small change."
+      }
+    ],
+    "indices": "済みません{すみません} が 小銭 が[01] 有る{ありません}",
+    "vocabIds": [
+      "1295060",
+      "1296400",
+      "1348470"
+    ],
+    "matches": {
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1296400": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "ありません"
+        }
+      ],
+      "1348470": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "こぜに"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214137",
+    "original": "すみませんが私は英語がよくわかりません。",
+    "en": [
+      {
+        "id": "51428",
+        "text": "I'm sorry, but I don't understand English well."
+      }
+    ],
+    "indices": "済みません{すみません} が 私(わたし)[01] は 英語 が 良く[01]{よく} 分かる[01]{わかりません}",
+    "vocabIds": [
+      "1606560",
+      "1295060",
+      "1605870",
+      "1174420",
+      "1311110"
+    ],
+    "matches": {
+      "1174420": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "えいご"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1605870": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "よく"
+        }
+      ],
+      "1606560": [
+        {
+          "start": 13,
+          "length": 6,
+          "reading": "わかりません"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214138",
+    "original": "すみませんが在庫切れなのです。",
+    "en": [
+      {
+        "id": "51427",
+        "text": "I'm sorry, but they're out of stock."
+      }
+    ],
+    "indices": "済みません{すみません} が 在庫切れ なのだ{なのです}",
+    "vocabIds": [
+      "1295060",
+      "2260860"
+    ],
+    "matches": {
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "2260860": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "ざいこぎれ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214139",
+    "original": "すみませんが砂糖を取っていただけませんか。",
+    "en": [
+      {
+        "id": "51429",
+        "text": "May I trouble you for the sugar?"
+      },
+      {
+        "id": "3600829",
+        "text": "Excuse me, would you mind passing me the sugar?"
+      }
+    ],
+    "indices": "済みません{すみません} が 砂糖 を 取る{取って} 頂ける[01]{いただけません} か",
+    "vocabIds": [
+      "1628260",
+      "1295060",
+      "1291600",
+      "2809750"
+    ],
+    "matches": {
+      "1291600": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "さとう"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1628260": [
+        {
+          "start": 12,
+          "length": 7,
+          "reading": "いただけません"
+        }
+      ],
+      "2809750": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "とっ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214141",
+    "original": "すみませんがラジオの音を小さくしてくれませんか。",
+    "en": [
+      {
+        "id": "51432",
+        "text": "Would you mind turning down the radio?"
+      }
+    ],
+    "indices": "済みません{すみません} が ラジオ の 音(おと)[01] を 小さい{小さく} 為る(する){して} 呉れる{くれません} か",
+    "vocabIds": [
+      "1295060",
+      "1269130",
+      "1347750",
+      "1157170",
+      "1576900"
+    ],
+    "matches": {
+      "1157170": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "して"
+        }
+      ],
+      "1269130": [
+        {
+          "start": 17,
+          "length": 5,
+          "reading": "くれません"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1347750": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "ちいさく"
+        }
+      ],
+      "1576900": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "おと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214142",
+    "original": "すみませんがラジオのスイッチを切っていただけませんでしょうか。",
+    "en": [
+      {
+        "id": "51433",
+        "text": "Would you kindly switch off the radio?"
+      }
+    ],
+    "indices": "済みません{すみません} が ラジオ の スイッチを切る{スイッチを切って} 頂ける[01]{いただけません} でしょうか",
+    "vocabIds": [
+      "1628260",
+      "1295060"
+    ],
+    "matches": {
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1628260": [
+        {
+          "start": 18,
+          "length": 7,
+          "reading": "いただけません"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214143",
+    "original": "すみませんがこのおばあさんに席を譲っていただけませんか。",
+    "en": [
+      {
+        "id": "51434",
+        "text": "Would you kindly make room for this old woman?"
+      }
+    ],
+    "indices": "済みません{すみません} が 此の{この} お祖母さん[02]{おばあさん} に 席を譲る{席を譲って} 頂ける[01]{いただけません} か",
+    "vocabIds": [
+      "1628260",
+      "1295060",
+      "1002330",
+      "1582920",
+      "1382250"
+    ],
+    "matches": {
+      "1002330": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "おばあさん"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1382250": [
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "せき"
+        }
+      ],
+      "1582920": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "この"
+        }
+      ],
+      "1628260": [
+        {
+          "start": 19,
+          "length": 7,
+          "reading": "いただけません"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214144",
+    "original": "すみませんがコショウを取っていただけませんか。",
+    "en": [
+      {
+        "id": "51435",
+        "text": "May I trouble you for the pepper?"
+      }
+    ],
+    "indices": "済みません{すみません} が 胡椒{コショウ} を 取る{取って} 頂ける[01]{いただけません} か",
+    "vocabIds": [
+      "1628260",
+      "1295060",
+      "1267600",
+      "2809750"
+    ],
+    "matches": {
+      "1267600": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "こしょう"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1628260": [
+        {
+          "start": 14,
+          "length": 7,
+          "reading": "いただけません"
+        }
+      ],
+      "2809750": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "とっ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214145",
+    "original": "すみませんが、ここに本を置かせてもらえますか。",
+    "en": [
+      {
+        "id": "51436",
+        "text": "Excuse me, but may I put my books here?"
+      }
+    ],
+    "indices": "済みません{すみません} が 此処[01]{ここ} に 本(ほん)[01] を 置く[01]{置かせて} 貰う[02]{もらえます} か",
+    "vocabIds": [
+      "1295060",
+      "1535910",
+      "1288810",
+      "1421850",
+      "1522150"
+    ],
+    "matches": {
+      "1288810": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "ここ"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1421850": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "おか"
+        }
+      ],
+      "1522150": [
+        {
+          "start": 10,
+          "length": 1,
+          "reading": "ほん"
+        }
+      ],
+      "1535910": [
+        {
+          "start": 16,
+          "length": 5,
+          "reading": "もらえます"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214146",
+    "original": "すみませんがここではその処方薬は調合できません。",
+    "en": [
+      {
+        "id": "51437",
+        "text": "Sorry, we can't fill this prescription here."
+      }
+    ],
+    "indices": "済みません{すみません} が 此処[01]{ここ} で(#2028980) は 其の[01]{その} 処方薬~ は 調合~ 出来る[01]{できません}",
+    "vocabIds": [
+      "1295060",
+      "1340450",
+      "2472360",
+      "1288810",
+      "1006830",
+      "1429110"
+    ],
+    "matches": {
+      "1006830": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "その"
+        }
+      ],
+      "1288810": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ここ"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1340450": [
+        {
+          "start": 18,
+          "length": 5,
+          "reading": "できません"
+        }
+      ],
+      "1429110": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "ちょうごう"
+        }
+      ],
+      "2472360": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "しょほうやく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214147",
+    "original": "すみませんが、郵便局へ行く道を教えてくれませんか。",
+    "en": [
+      {
+        "id": "51420",
+        "text": "Excuse me, but would you please tell me the way to the post office?"
+      }
+    ],
+    "indices": "済みません{すみません} が 郵便局 へ 行く 道(みち) を 教える{教えて} 呉れる{くれません} か",
+    "vocabIds": [
+      "1236900",
+      "1295060",
+      "1542430",
+      "1578850",
+      "1454080"
+    ],
+    "matches": {
+      "1236900": [
+        {
+          "start": 15,
+          "length": 8,
+          "reading": "おしえてくれません"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1454080": [
+        {
+          "start": 13,
+          "length": 1,
+          "reading": "みち"
+        }
+      ],
+      "1542430": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "ゆうびんきょく"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "いく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214148",
+    "original": "すみませんが、郵便局はどこでしょうか。",
+    "en": [
+      {
+        "id": "51439",
+        "text": "Excuse me, but could you tell me where the post office is?"
+      }
+    ],
+    "indices": "済みません{すみません} が 郵便局 は 何処{どこ} でしょうか",
+    "vocabIds": [
+      "1295060",
+      "1542430",
+      "1577140"
+    ],
+    "matches": {
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1542430": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "ゆうびんきょく"
+        }
+      ],
+      "1577140": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "どこ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214149",
+    "original": "すみませんが、電話を使ってもよろしいですか。",
+    "en": [
+      {
+        "id": "51440",
+        "text": "Excuse me, but might I use the phone?"
+      },
+      {
+        "id": "1327467",
+        "text": "Excuse me, but may I use the phone?"
+      }
+    ],
+    "indices": "済みません{すみません} が 電話 を 使う[01]{使って} も 宜しい{よろしい} ですか",
+    "vocabIds": [
+      "1295060",
+      "1224880",
+      "1305990",
+      "1443840"
+    ],
+    "matches": {
+      "1224880": [
+        {
+          "start": 14,
+          "length": 4,
+          "reading": "よろしい"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1305990": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "つかって"
+        }
+      ],
+      "1443840": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "でんわ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214150",
+    "original": "すみませんが、窓をあけてくれませんか。",
+    "en": [
+      {
+        "id": "51442",
+        "text": "Will you open the window, please?"
+      }
+    ],
+    "indices": "済みません{すみません} が 窓 を 開ける(あける)[01]{あけて} 呉れる{くれません} か",
+    "vocabIds": [
+      "1295060",
+      "1269130",
+      "1202450",
+      "1401400"
+    ],
+    "matches": {
+      "1202450": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "あけて"
+        }
+      ],
+      "1269130": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "くれません"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1401400": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "まど"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214151",
+    "original": "すみませんが、図書館はどこですか。",
+    "en": [
+      {
+        "id": "51441",
+        "text": "Excuse me, but where is the library?"
+      }
+    ],
+    "indices": "済みません{すみません} が 図書館 は 何処{どこ} ですか",
+    "vocabIds": [
+      "1295060",
+      "1370420",
+      "1577140"
+    ],
+    "matches": {
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1370420": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "としょかん"
+        }
+      ],
+      "1577140": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "どこ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214152",
+    "original": "すみませんが、手伝っていただけませんか。",
+    "en": [
+      {
+        "id": "51443",
+        "text": "Excuse me, but can you help me?"
+      }
+    ],
+    "indices": "済みません{すみません} が 手伝う{手伝って} 頂ける[01]{いただけません} か",
+    "vocabIds": [
+      "1628260",
+      "1295060"
+    ],
+    "matches": {
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1628260": [
+        {
+          "start": 11,
+          "length": 7,
+          "reading": "いただけません"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214153",
+    "original": "すみませんが、私はこの知らせを彼女に直接会って話してあげたい。",
+    "en": [
+      {
+        "id": "51444",
+        "text": "Sorry, but I want to tell her this news face to face."
+      }
+    ],
+    "indices": "済みません{すみません} が 私(わたし)[01] は 此の{この} 知らせ を 彼女 に 直接 会う[01]{会って} 話す{話して} 上げる[23]{あげ} たい",
+    "vocabIds": [
+      "1562350",
+      "1295060",
+      "1420400",
+      "1198180",
+      "1582920",
+      "1483150",
+      "1431110",
+      "1311110"
+    ],
+    "matches": {
+      "1198180": [
+        {
+          "start": 20,
+          "length": 3,
+          "reading": "あって"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1420400": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "しらせ"
+        }
+      ],
+      "1431110": [
+        {
+          "start": 18,
+          "length": 2,
+          "reading": "ちょくせつ"
+        }
+      ],
+      "1483150": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "かのじょ"
+        }
+      ],
+      "1562350": [
+        {
+          "start": 23,
+          "length": 7,
+          "reading": "はなしてあげたい"
+        }
+      ],
+      "1582920": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "この"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214154",
+    "original": "すみませんが、私はこの知らせを彼に直接会って話してあげたい。",
+    "en": [
+      {
+        "id": "51445",
+        "text": "Sorry, but I want to tell him this news face to face."
+      }
+    ],
+    "indices": "済みません{すみません} が 私(わたし)[01] は 此の{この} 知らせ を 彼(かれ)[01] に 直接 会う[01]{会って} 話す{話して} 上げる[23]{あげ} たい",
+    "vocabIds": [
+      "1562350",
+      "1295060",
+      "1420400",
+      "1198180",
+      "1582920",
+      "1431110",
+      "1311110",
+      "1483070"
+    ],
+    "matches": {
+      "1198180": [
+        {
+          "start": 19,
+          "length": 3,
+          "reading": "あって"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1420400": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "しらせ"
+        }
+      ],
+      "1431110": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "ちょくせつ"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 15,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1562350": [
+        {
+          "start": 22,
+          "length": 7,
+          "reading": "はなしてあげたい"
+        }
+      ],
+      "1582920": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "この"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214155",
+    "original": "すみませんが、今日は出かける気がしないんです。",
+    "en": [
+      {
+        "id": "51447",
+        "text": "I'm sorry, but I don't feel like going out today."
+      }
+    ],
+    "indices": "済みません{すみません} が 今日 は 出かける 気がする{気がしない} のです{んです}",
+    "vocabIds": [
+      "1295060",
+      "1598550",
+      "1289400",
+      "1221520"
+    ],
+    "matches": {
+      "1221520": [
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "き"
+        }
+      ],
+      "1289400": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "こんにちは"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1598550": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "でかける"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214156",
+    "original": "すみませんが、今何時でしょうか。",
+    "en": [
+      {
+        "id": "51446",
+        "text": "Excuse me, do you have the time?"
+      },
+      {
+        "id": "385392",
+        "text": "Excuse me, what time is it?"
+      },
+      {
+        "id": "3789181",
+        "text": "Excuse me, do you know what time it is?"
+      }
+    ],
+    "indices": "済みません{すみません} が 今(いま) 何時(なんじ) でしょうか",
+    "vocabIds": [
+      "1295060",
+      "1188770",
+      "1288850"
+    ],
+    "matches": {
+      "1188770": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "なんじ"
+        }
+      ],
+      "1288850": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "いま"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214157",
+    "original": "すみませんが、急がなくてはなりません。このことを詳しく説明する時間はありません。",
+    "en": [
+      {
+        "id": "51448",
+        "text": "Sorry, but I have to hurry. I have no time to explain this in detail."
+      }
+    ],
+    "indices": "済みません{すみません} が 急ぐ{急が} 無くてはならない[02]{なくてはなりません} 此の{この} 事(こと){こと} を 詳しく 説明 為る(する){する} 時間[01] は 有る{ありません}",
+    "vocabIds": [
+      "2098150",
+      "1295060",
+      "1296400",
+      "1351730",
+      "1582920",
+      "1157170",
+      "1313580",
+      "1386460",
+      "1315920"
+    ],
+    "matches": {
+      "1157170": [
+        {
+          "start": 29,
+          "length": 2,
+          "reading": "する"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1296400": [
+        {
+          "start": 34,
+          "length": 5,
+          "reading": "ありません"
+        }
+      ],
+      "1313580": [
+        {
+          "start": 21,
+          "length": 2,
+          "reading": "こと"
+        }
+      ],
+      "1315920": [
+        {
+          "start": 31,
+          "length": 2,
+          "reading": "じかん"
+        }
+      ],
+      "1351730": [
+        {
+          "start": 24,
+          "length": 3,
+          "reading": "くわしく"
+        }
+      ],
+      "1386460": [
+        {
+          "start": 27,
+          "length": 2,
+          "reading": "せつめい"
+        }
+      ],
+      "1582920": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "この"
+        }
+      ],
+      "2098150": [
+        {
+          "start": 9,
+          "length": 9,
+          "reading": "ななくてはなりません"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214158",
+    "original": "すみませんが、駅まで行く道を教えてくれませんか。",
+    "en": [
+      {
+        "id": "51449",
+        "text": "Excuse me, but could you show me the way to the station?"
+      }
+    ],
+    "indices": "済みません{すみません} が 駅 迄{まで} 行く 道(みち) を 教える{教えて} 呉れる{くれません} か",
+    "vocabIds": [
+      "1236900",
+      "1295060",
+      "1525680",
+      "1578850",
+      "1175140",
+      "1454080"
+    ],
+    "matches": {
+      "1175140": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "えき"
+        }
+      ],
+      "1236900": [
+        {
+          "start": 14,
+          "length": 8,
+          "reading": "おしえてくれません"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1454080": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "みち"
+        }
+      ],
+      "1525680": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "まで"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "いく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214159",
+    "original": "すみませんが、駅へ行く道を教えて下さい。",
+    "en": [
+      {
+        "id": "51450",
+        "text": "Excuse me, but will you show me the way to the station?"
+      }
+    ],
+    "indices": "済みません{すみません} が 駅 へ 行く 道(みち) を 教える{教えて} 下さい",
+    "vocabIds": [
+      "1236900",
+      "1295060",
+      "1578850",
+      "1175140",
+      "1454080"
+    ],
+    "matches": {
+      "1175140": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "えき"
+        }
+      ],
+      "1236900": [
+        {
+          "start": 13,
+          "length": 6,
+          "reading": "おしえてください"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1454080": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "みち"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "いく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214160",
+    "original": "すみませんが、駅へ行く道を教えていただけませんか。",
+    "en": [
+      {
+        "id": "26020",
+        "text": "Could you tell me the way to the station?"
+      }
+    ],
+    "indices": "済みません{すみません} が 駅 へ 行く 道(みち) を 教える{教えて} 頂ける[01]{いただけません} か",
+    "vocabIds": [
+      "1628260",
+      "1295060",
+      "1578850",
+      "1236890",
+      "1175140",
+      "1454080"
+    ],
+    "matches": {
+      "1175140": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "えき"
+        }
+      ],
+      "1236890": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "おしえ"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1454080": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "みち"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "いく"
+        }
+      ],
+      "1628260": [
+        {
+          "start": 16,
+          "length": 7,
+          "reading": "いただけません"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214161",
+    "original": "すみませんが、一番近い地下鉄の駅を教えてくれませんか。",
+    "en": [
+      {
+        "id": "51453",
+        "text": "Excuse me. Can you direct me to the nearest subway station?"
+      }
+    ],
+    "indices": "済みません{すみません} が 一番(いちばん)[01] 近い 地下鉄 の 駅 を 教える{教えて} 呉れる{くれません} か",
+    "vocabIds": [
+      "1236900",
+      "1295060",
+      "1420900",
+      "1165970",
+      "1242130",
+      "1175140"
+    ],
+    "matches": {
+      "1165970": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "いちばん"
+        }
+      ],
+      "1175140": [
+        {
+          "start": 15,
+          "length": 1,
+          "reading": "えき"
+        }
+      ],
+      "1236900": [
+        {
+          "start": 17,
+          "length": 8,
+          "reading": "おしえてくれません"
+        }
+      ],
+      "1242130": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "ちかい"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1420900": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "ちかてつ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214162",
+    "original": "すみませんが、もう少しお茶をいただけませんか。",
+    "en": [
+      {
+        "id": "51452",
+        "text": "Would you please give me some more tea?"
+      }
+    ],
+    "indices": "済みません{すみません} が もう少し お茶[01] を 頂ける[01]{いただけません} か",
+    "vocabIds": [
+      "1628260",
+      "1295060",
+      "2005870",
+      "1002430"
+    ],
+    "matches": {
+      "1002430": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "おちゃ"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1628260": [
+        {
+          "start": 14,
+          "length": 7,
+          "reading": "いただけません"
+        }
+      ],
+      "2005870": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "もうすこし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214163",
+    "original": "すみませんが、もう行かせていただけませんか。",
+    "en": [
+      {
+        "id": "51454",
+        "text": "Will you please let me go now?"
+      }
+    ],
+    "indices": "済みません{すみません} が もう 行く[01]{行かせて} 頂ける[01]{いただけません} か",
+    "vocabIds": [
+      "1628260",
+      "1295060",
+      "1578850"
+    ],
+    "matches": {
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "いか"
+        }
+      ],
+      "1628260": [
+        {
+          "start": 13,
+          "length": 7,
+          "reading": "いただけません"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214164",
+    "original": "すみませんが、もう一度言って下さいますか。",
+    "en": [
+      {
+        "id": "51456",
+        "text": "I'm sorry, could you repeat that please?"
+      }
+    ],
+    "indices": "済みません{すみません} が もう一度 言う{言って} 下さる{下さいます} か",
+    "vocabIds": [
+      "1587040",
+      "1295060",
+      "2005860"
+    ],
+    "matches": {
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1587040": [
+        {
+          "start": 11,
+          "length": 8,
+          "reading": "いってくださいます"
+        }
+      ],
+      "2005860": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "もういちど"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214166",
+    "original": "すみませんが、ヒルトンホテルへ行く道を教えてください。",
+    "en": [
+      {
+        "id": "51457",
+        "text": "Excuse me, but will you tell me the way to the Hilton Hotel?"
+      },
+      {
+        "id": "12805801",
+        "text": "Excuse me, but could you tell me how to get to the Hilton Hotel?"
+      }
+    ],
+    "indices": "済みません{すみません} が ホテル へ 行く 道(みち) を 教える{教えて} 下さい{ください}",
+    "vocabIds": [
+      "1236900",
+      "1295060",
+      "1578850",
+      "1454080"
+    ],
+    "matches": {
+      "1236900": [
+        {
+          "start": 19,
+          "length": 7,
+          "reading": "おしえてください"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1454080": [
+        {
+          "start": 17,
+          "length": 1,
+          "reading": "みち"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "いく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214167",
+    "original": "すみませんが、バス停へはどう行けばいいでしょうか。",
+    "en": [
+      {
+        "id": "51458",
+        "text": "Excuse me, but could you tell me the way to the bus stop?"
+      }
+    ],
+    "indices": "済みません{すみません} が バス停 へ は 如何(どう){どう} 行く[01]{行けば} いい(#2820690)[01] でしょうか",
+    "vocabIds": [
+      "1295060",
+      "1098580",
+      "1578850",
+      "1008910"
+    ],
+    "matches": {
+      "1008910": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "どう"
+        }
+      ],
+      "1098580": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "ばすてい"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 14,
+          "length": 3,
+          "reading": "いけば"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214168",
+    "original": "すみませんが、どこで乗り換えたらいいか教えて下さい。",
+    "en": [
+      {
+        "id": "51459",
+        "text": "Excuse me, but will you tell me where to change trains?"
+      }
+    ],
+    "indices": "済みません{すみません} が 何処{どこ} で(#2028980) 乗り換える[01]{乗り換えたら} いい(#2820690)[01] か 教える{教えて} 下さい",
+    "vocabIds": [
+      "1600470",
+      "1236900",
+      "1295060",
+      "1577140"
+    ],
+    "matches": {
+      "1236900": [
+        {
+          "start": 19,
+          "length": 6,
+          "reading": "おしえてください"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1577140": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "どこ"
+        }
+      ],
+      "1600470": [
+        {
+          "start": 10,
+          "length": 6,
+          "reading": "のりかえたら"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214169",
+    "original": "すみませんが、その件に関してはあまり、興味がないんです。",
+    "en": [
+      {
+        "id": "51460",
+        "text": "Sorry, but I'm not very interested in that subject."
+      }
+    ],
+    "indices": "済みません{すみません} が 其の[01]{その} 件(けん) に関して は 余り[02]{あまり} 興味 が 無い{ない} のです{んです}",
+    "vocabIds": [
+      "1295060",
+      "1009740",
+      "1584930",
+      "1006830",
+      "1529520",
+      "1238410",
+      "1255940"
+    ],
+    "matches": {
+      "1006830": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "その"
+        }
+      ],
+      "1009740": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "にかんして"
+        }
+      ],
+      "1238410": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "きょうみ"
+        }
+      ],
+      "1255940": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "けん"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1529520": [
+        {
+          "start": 22,
+          "length": 2,
+          "reading": "ない"
+        }
+      ],
+      "1584930": [
+        {
+          "start": 15,
+          "length": 3,
+          "reading": "あまり"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214170",
+    "original": "すみませんが、そのラジオを切っていただけませんか。",
+    "en": [
+      {
+        "id": "51461",
+        "text": "Do me a favor by switching off that radio."
+      }
+    ],
+    "indices": "済みません{すみません} が 其の[01]{その} ラジオ を 切る[03]{切って} 頂ける[01]{いただけません} か",
+    "vocabIds": [
+      "1628260",
+      "1295060",
+      "1006830"
+    ],
+    "matches": {
+      "1006830": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "その"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1628260": [
+        {
+          "start": 16,
+          "length": 7,
+          "reading": "いただけません"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214171",
+    "original": "すみませんが、セントラルパークにはどうやって行ったらいいか教えていただけませんか。",
+    "en": [
+      {
+        "id": "51462",
+        "text": "Excuse me, but could you tell me how to get to Central Park?"
+      }
+    ],
+    "indices": "済みません{すみません} が には どうやって 行く[01]{行ったら} いい(#2820690)[01] か 教える{教えて} 頂ける[01]{いただけません} か",
+    "vocabIds": [
+      "1628260",
+      "1295060",
+      "1578850",
+      "1236890"
+    ],
+    "matches": {
+      "1236890": [
+        {
+          "start": 29,
+          "length": 2,
+          "reading": "おしえ"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 22,
+          "length": 4,
+          "reading": "いったら"
+        }
+      ],
+      "1628260": [
+        {
+          "start": 32,
+          "length": 7,
+          "reading": "いただけません"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214172",
+    "original": "すみませんが、このセーターを取り替えていただけませんか。",
+    "en": [
+      {
+        "id": "51463",
+        "text": "Excuse me, but may I exchange this sweater for another?"
+      }
+    ],
+    "indices": "済みません{すみません} が 此の{この} セーター を 取り替える{取り替えて} 頂ける[01]{いただけません} か",
+    "vocabIds": [
+      "1628260",
+      "1295060",
+      "1599020",
+      "1582920"
+    ],
+    "matches": {
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1582920": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "この"
+        }
+      ],
+      "1599020": [
+        {
+          "start": 14,
+          "length": 4,
+          "reading": "とりかえ"
+        }
+      ],
+      "1628260": [
+        {
+          "start": 19,
+          "length": 7,
+          "reading": "いただけません"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214173",
+    "original": "すみませんが、お金を少し貸していただけませんか。",
+    "en": [
+      {
+        "id": "51464",
+        "text": "Would you please lend me some money?"
+      }
+    ],
+    "indices": "済みません{すみません} が お金 を 少し 貸す{貸して} 頂ける[01]{いただけません} か",
+    "vocabIds": [
+      "1628260",
+      "1295060",
+      "1001820",
+      "1348870",
+      "1411110"
+    ],
+    "matches": {
+      "1001820": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "おかね"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1348870": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "すこし"
+        }
+      ],
+      "1411110": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "かし"
+        }
+      ],
+      "1628260": [
+        {
+          "start": 15,
+          "length": 7,
+          "reading": "いただけません"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214174",
+    "original": "すみませんが、お願いを聞いていただけますか。",
+    "en": [
+      {
+        "id": "51465",
+        "text": "Excuse me, but could you do me a favor?"
+      }
+    ],
+    "indices": "済みません{すみません} が お願いを聞く{お願いを聞いて} 頂ける[01]{いただけます} か",
+    "vocabIds": [
+      "1628260",
+      "1295060",
+      "2036870",
+      "1591110"
+    ],
+    "matches": {
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1591110": [
+        {
+          "start": 11,
+          "length": 3,
+          "reading": "きいて"
+        }
+      ],
+      "1628260": [
+        {
+          "start": 14,
+          "length": 6,
+          "reading": "いただけます"
+        }
+      ],
+      "2036870": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "おねがい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214175",
+    "original": "すみませんが、お願いをきいてくださいませんか。",
+    "en": [
+      {
+        "id": "51465",
+        "text": "Excuse me, but could you do me a favor?"
+      }
+    ],
+    "indices": "済みません{すみません} が お願いを聞く{お願いをきいて}~ 下さる{くださいません} か",
+    "vocabIds": [
+      "1184280",
+      "1295060",
+      "2036870"
+    ],
+    "matches": {
+      "1184280": [
+        {
+          "start": 14,
+          "length": 7,
+          "reading": "くださいません"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "2036870": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "おねがい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214176",
+    "original": "すみませんが、おっしゃったことをもう１度繰り返してくださいませんか。",
+    "en": [
+      {
+        "id": "51467",
+        "text": "I beg your pardon, but would you repeat what you said?"
+      }
+    ],
+    "indices": "済みません{すみません} が 仰っしゃる{おっしゃった} 事(こと){こと} を もう[03] 一度{１度} 繰り返す{繰り返して} 下さる{くださいません} か",
+    "vocabIds": [
+      "1247030",
+      "1238840",
+      "1295060",
+      "2005860",
+      "1313580"
+    ],
+    "matches": {
+      "1238840": [
+        {
+          "start": 7,
+          "length": 6,
+          "reading": "おっしゃった"
+        }
+      ],
+      "1247030": [
+        {
+          "start": 20,
+          "length": 12,
+          "reading": "くりかえしてくださいません"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1313580": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "こと"
+        }
+      ],
+      "2005860": [
+        {
+          "start": 16,
+          "length": 4,
+          "reading": "もういちど"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214177",
+    "original": "すみませんが、おっしゃったことが聞き取れませんでした。",
+    "en": [
+      {
+        "id": "51468",
+        "text": "Sorry, I couldn't catch what you said."
+      }
+    ],
+    "indices": "済みません{すみません} が 仰っしゃる{おっしゃった} 事(こと){こと} が 聞き取る{聞き取れませんでした}",
+    "vocabIds": [
+      "1238840",
+      "1295060",
+      "1313580"
+    ],
+    "matches": {
+      "1238840": [
+        {
+          "start": 7,
+          "length": 6,
+          "reading": "おっしゃった"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1313580": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "こと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214178",
+    "original": "すみませんが、あなたが間違っていると思います。",
+    "en": [
+      {
+        "id": "51469",
+        "text": "I'm sorry, but I think you're mistaken."
+      },
+      {
+        "id": "7897849",
+        "text": "I'm sorry, but I think that you're mistaken."
+      }
+    ],
+    "indices": "済みません{すみません} が 貴方(あなた)[01]{あなた} が 間違う[01]{間違っている} と 思う{思います}",
+    "vocabIds": [
+      "1611610",
+      "1295060",
+      "1589350",
+      "1223615"
+    ],
+    "matches": {
+      "1223615": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "あなた"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1589350": [
+        {
+          "start": 18,
+          "length": 4,
+          "reading": "おもいます"
+        }
+      ],
+      "1611610": [
+        {
+          "start": 11,
+          "length": 6,
+          "reading": "まちがっている"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214179",
+    "original": "すみませんが、２～３分時間をさいていただけませんか。お願いがあるんです。",
+    "en": [
+      {
+        "id": "51470",
+        "text": "Excuse me, could you spare me a few minutes? I have a favor to ask you."
+      }
+    ],
+    "indices": "済みません{すみません} が 分(ふん) 時間を割く{時間をさいて} 頂ける[01]{いただけません} か お願い[01] が[01] 有る{ある} のです{んです}",
+    "vocabIds": [
+      "1628260",
+      "1295060",
+      "2036870",
+      "1296400",
+      "1814040",
+      "1315920",
+      "1461140"
+    ],
+    "matches": {
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1296400": [
+        {
+          "start": 30,
+          "length": 2,
+          "reading": "ある"
+        }
+      ],
+      "1315920": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "じかん"
+        }
+      ],
+      "1461140": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "に"
+        }
+      ],
+      "1628260": [
+        {
+          "start": 17,
+          "length": 7,
+          "reading": "いただけません"
+        }
+      ],
+      "1814040": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "さんぷん"
+        }
+      ],
+      "2036870": [
+        {
+          "start": 26,
+          "length": 3,
+          "reading": "おねがい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214180",
+    "original": "すみません。突然の事で、まだ状況が把握できてないのですが。",
+    "en": [
+      {
+        "id": "51471",
+        "text": "Sorry, but it all came about so suddenly that I haven't got a handle on the situation yet."
+      }
+    ],
+    "indices": "済みません{すみません} 突然 之(の)[01]{の} 事(こと) で(#2028980) 未だ[02]{まだ} 状況 が 把握 出来る{できてない} のです が[03]",
+    "vocabIds": [
+      "1295060",
+      "1340450",
+      "1527110",
+      "1457040",
+      "1356700",
+      "1470910",
+      "1469800",
+      "1313580"
+    ],
+    "matches": {
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1313580": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "こと"
+        }
+      ],
+      "1340450": [
+        {
+          "start": 19,
+          "length": 5,
+          "reading": "できてない"
+        }
+      ],
+      "1356700": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "じょうきょう"
+        }
+      ],
+      "1457040": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "とつぜん"
+        }
+      ],
+      "1469800": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "の"
+        }
+      ],
+      "1470910": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "はあく"
+        }
+      ],
+      "1527110": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "まだ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214181",
+    "original": "すみません。今それだけしか置いてないんです。",
+    "en": [
+      {
+        "id": "51472",
+        "text": "I'm sorry, but that's all we have right now."
+      }
+    ],
+    "indices": "済みません{すみません} 今(いま) 其れ丈{それだけ} しか 置く[01]{置いてない} のです{んです}",
+    "vocabIds": [
+      "1295060",
+      "1421850",
+      "1006990",
+      "1288850"
+    ],
+    "matches": {
+      "1006990": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "それだけ"
+        }
+      ],
+      "1288850": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "いま"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1421850": [
+        {
+          "start": 13,
+          "length": 5,
+          "reading": "おいてない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214182",
+    "original": "すみません。もう一度。",
+    "en": [
+      {
+        "id": "51473",
+        "text": "Sorry? Pardon?"
+      }
+    ],
+    "indices": "済みません{すみません} もう一度",
+    "vocabIds": [
+      "1295060",
+      "2005860"
+    ],
+    "matches": {
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "2005860": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "もういちど"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214183",
+    "original": "すみません。ニューヨーク市外にいくシャトルバスはどのくらいの間隔で走っていますか。",
+    "en": [
+      {
+        "id": "51474",
+        "text": "Excuse me. How often do shuttle buses run to downtown New York?"
+      }
+    ],
+    "indices": "済みません{すみません} 紐育{ニューヨーク} 市外 に 行く{いく} シャトルバス~ は どの位{どのくらい} の 間隔 で(#2028980) 走る[02]{走っています} か",
+    "vocabIds": [
+      "1091940",
+      "1402540",
+      "1295060",
+      "1009250",
+      "1578850",
+      "1308170",
+      "1215380"
+    ],
+    "matches": {
+      "1009250": [
+        {
+          "start": 24,
+          "length": 5,
+          "reading": "どのくらい"
+        }
+      ],
+      "1091940": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "にゅーよーく"
+        }
+      ],
+      "1215380": [
+        {
+          "start": 30,
+          "length": 2,
+          "reading": "かんかく"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1308170": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "しがい"
+        }
+      ],
+      "1402540": [
+        {
+          "start": 33,
+          "length": 6,
+          "reading": "はしっています"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 15,
+          "length": 2,
+          "reading": "いく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214184",
+    "original": "すみません。ただいま話し中です。",
+    "en": [
+      {
+        "id": "51475",
+        "text": "Sorry, the line is busy now."
+      }
+    ],
+    "indices": "済みません{すみません} ただ今[02]{ただいま} 話し中 です",
+    "vocabIds": [
+      "1295060",
+      "1562350",
+      "1538960"
+    ],
+    "matches": {
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1538960": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "ただいま"
+        }
+      ],
+      "1562350": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "はなしちゅうです"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214185",
+    "original": "すみません。そこは私の席だと思うのですが。",
+    "en": [
+      {
+        "id": "51476",
+        "text": "Excuse me, I think you're sitting in my seat."
+      }
+    ],
+    "indices": "済みません{すみません} 其処(そこ){そこ} は 私(わたし)[01]{私の} 席(せき) だ と 思う のです が[03]",
+    "vocabIds": [
+      "1295060",
+      "1006670",
+      "1589350",
+      "1311110",
+      "1382250"
+    ],
+    "matches": {
+      "1006670": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "そこ"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1382250": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "せき"
+        }
+      ],
+      "1589350": [
+        {
+          "start": 14,
+          "length": 2,
+          "reading": "おもう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214186",
+    "original": "すみません。この電車はワシントン広場へいきますか。",
+    "en": [
+      {
+        "id": "51477",
+        "text": "Excuse me, does this train go to Washington Square?"
+      }
+    ],
+    "indices": "済みません{すみません} 此の{この} 電車 は NI{ワシントン広場} へ 行く{いきます} か",
+    "vocabIds": [
+      "5743154",
+      "1295060",
+      "1578850",
+      "1582920",
+      "1443530"
+    ],
+    "matches": {
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1443530": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "でんしゃ"
+        }
+      ],
+      "1578850": [
+        {
+          "start": 19,
+          "length": 4,
+          "reading": "いきます"
+        }
+      ],
+      "1582920": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "この"
+        }
+      ],
+      "5743154": [
+        {
+          "start": 11,
+          "length": 7,
+          "reading": "わしんとんひろば"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214187",
+    "original": "すみません。いま手が離せないんです。",
+    "en": [
+      {
+        "id": "51478",
+        "text": "I'm sorry, I'm busy right now."
+      }
+    ],
+    "indices": "済みません{すみません} 今(いま){いま} 手 が 離す{離せない}~ のです{んです}",
+    "vocabIds": [
+      "2125840",
+      "1295060",
+      "1288850"
+    ],
+    "matches": {
+      "1288850": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "いま"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "2125840": [
+        {
+          "start": 8,
+          "length": 6,
+          "reading": "てがはなせない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214188",
+    "original": "すみません、不在のようです。",
+    "en": [
+      {
+        "id": "51480",
+        "text": "Sorry sir, I'm afraid he may not be in."
+      }
+    ],
+    "indices": "済みません{すみません} 不在 の 様(よう){よう} です",
+    "vocabIds": [
+      "1295060",
+      "1545790",
+      "1492460"
+    ],
+    "matches": {
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1492460": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ふざい"
+        }
+      ],
+      "1545790": [
+        {
+          "start": 9,
+          "length": 2,
+          "reading": "よう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214189",
+    "original": "すみません。あなたに悪いことをしました。",
+    "en": [
+      {
+        "id": "51479",
+        "text": "I'm sorry I did you wrong."
+      }
+    ],
+    "indices": "済みません{すみません} 貴方(あなた)[01]{あなた} に 悪い(わるい) 事(こと){こと} を 為る(する){しました}",
+    "vocabIds": [
+      "1295060",
+      "1157170",
+      "1223615",
+      "1313580",
+      "1151260"
+    ],
+    "matches": {
+      "1151260": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "わるい"
+        }
+      ],
+      "1157170": [
+        {
+          "start": 15,
+          "length": 4,
+          "reading": "しました"
+        }
+      ],
+      "1223615": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "あなた"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1313580": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "こと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214190",
+    "original": "すみません、番号を間違えました。",
+    "en": [
+      {
+        "id": "51481",
+        "text": "I'm sorry, I dialed the wrong number."
+      }
+    ],
+    "indices": "済みません{すみません} 番号 を 間違える[01]{間違えました}",
+    "vocabIds": [
+      "1215330",
+      "1295060",
+      "1482290"
+    ],
+    "matches": {
+      "1215330": [
+        {
+          "start": 9,
+          "length": 6,
+          "reading": "まちがえました"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1482290": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ばんごう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214191",
+    "original": "すみません、通してください。",
+    "en": [
+      {
+        "id": "51483",
+        "text": "Excuse me. May I get by?"
+      },
+      {
+        "id": "51496",
+        "text": "Excuse me. May I get through?"
+      },
+      {
+        "id": "9353713",
+        "text": "Excuse me. Please let me through."
+      }
+    ],
+    "indices": "済みません{すみません} 通す{通して} 下さい{ください}",
+    "vocabIds": [
+      "1432900",
+      "1295060"
+    ],
+    "matches": {
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1432900": [
+        {
+          "start": 6,
+          "length": 7,
+          "reading": "とおしてください"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214192",
+    "original": "すみません、道に迷ってしまいました。",
+    "en": [
+      {
+        "id": "51482",
+        "text": "Excuse me, I'm lost."
+      }
+    ],
+    "indices": "済みません{すみません} 道に迷う{道に迷って} 仕舞う{しまいました}",
+    "vocabIds": [
+      "1532710",
+      "1295060",
+      "1454080"
+    ],
+    "matches": {
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1454080": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "みち"
+        }
+      ],
+      "1532710": [
+        {
+          "start": 8,
+          "length": 9,
+          "reading": "まよってしまいました"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214193",
+    "original": "すみません、先約があります。",
+    "en": [
+      {
+        "id": "51484",
+        "text": "I'm sorry. I have another appointment."
+      }
+    ],
+    "indices": "済みません{すみません} 先約 が[01] 有る{あります}",
+    "vocabIds": [
+      "1295060",
+      "1296400",
+      "1388660"
+    ],
+    "matches": {
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1296400": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "あります"
+        }
+      ],
+      "1388660": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "せんやく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214194",
+    "original": "すみません、少しもどってもらえますか。",
+    "en": [
+      {
+        "id": "51485",
+        "text": "I'm sorry. Would you mind turning around?"
+      }
+    ],
+    "indices": "済みません{すみません} 少し 戻る{もどって} 貰う[02]{もらえます} か",
+    "vocabIds": [
+      "1295060",
+      "1535910",
+      "1535880",
+      "1348870"
+    ],
+    "matches": {
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1348870": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "すこし"
+        }
+      ],
+      "1535880": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "もどって"
+        }
+      ],
+      "1535910": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "もらえます"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214195",
+    "original": "すみません。車を借りたいのですが。",
+    "en": [
+      {
+        "id": "51486",
+        "text": "Excuse me. I'd like to rent a car."
+      }
+    ],
+    "indices": "済みません{すみません} 車(くるま) を 借りる[02]{借り} たい[01] のです が[03]",
+    "vocabIds": [
+      "1295060",
+      "1323560",
+      "1323080"
+    ],
+    "matches": {
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1323080": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "くるま"
+        }
+      ],
+      "1323560": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "かりたい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214196",
+    "original": "すみません、次の停留所で降りなければならないのです。",
+    "en": [
+      {
+        "id": "51487",
+        "text": "Excuse me, I have to get off at the next stop."
+      }
+    ],
+    "indices": "済みません{すみません} 次(つぎ)[01]{次の} 停留所 で(#2028980) 降りる[02]{降り} ねばならない{なければならない} のです",
+    "vocabIds": [
+      "1589500",
+      "1295060",
+      "1435080",
+      "1316380"
+    ],
+    "matches": {
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1316380": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "つぎ"
+        }
+      ],
+      "1435080": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "ていりゅうじょ"
+        }
+      ],
+      "1589500": [
+        {
+          "start": 12,
+          "length": 10,
+          "reading": "おりなければならない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214197",
+    "original": "すみません、今ちょっと手が離せないんです。",
+    "en": [
+      {
+        "id": "51490",
+        "text": "Sorry, I've got my hands full now."
+      }
+    ],
+    "indices": "済みません{すみません} 今(いま) 一寸(ちょっと){ちょっと} 手が離せない のです{んです}",
+    "vocabIds": [
+      "2125840",
+      "1295060",
+      "1163940",
+      "1288850"
+    ],
+    "matches": {
+      "1163940": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "ちょっと"
+        }
+      ],
+      "1288850": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "いま"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "2125840": [
+        {
+          "start": 11,
+          "length": 6,
+          "reading": "てがはなせない"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214198",
+    "original": "すみません、禁止されています。",
+    "en": [
+      {
+        "id": "51489",
+        "text": "I'm sorry, you are not allowed to."
+      }
+    ],
+    "indices": "済みません{すみません} 禁止 為れる{されています}",
+    "vocabIds": [
+      "2269820",
+      "1295060",
+      "1241550"
+    ],
+    "matches": {
+      "1241550": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "きんし"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "2269820": [
+        {
+          "start": 8,
+          "length": 6,
+          "reading": "されています"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214199",
+    "original": "すみません、気分が悪いのですが。",
+    "en": [
+      {
+        "id": "51488",
+        "text": "Excuse me, but I feel sick."
+      }
+    ],
+    "indices": "済みません{すみません} 気分が悪い のです が[03]",
+    "vocabIds": [
+      "1295060",
+      "2211600"
+    ],
+    "matches": {
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "2211600": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "きぶんがわるい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214200",
+    "original": "すみません、何ていわれましたか。",
+    "en": [
+      {
+        "id": "51491",
+        "text": "I'm sorry, but I didn't catch what you said."
+      }
+    ],
+    "indices": "済みません{すみません} 何て 言う{いわれました} か",
+    "vocabIds": [
+      "1587040",
+      "1295060",
+      "1188370"
+    ],
+    "matches": {
+      "1188370": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "なんて"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1587040": [
+        {
+          "start": 8,
+          "length": 6,
+          "reading": "いわれました"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214201",
+    "original": "すみません、もう一度言っていただけますか。",
+    "en": [
+      {
+        "id": "51492",
+        "text": "Excuse me, would you mind repeating that?"
+      },
+      {
+        "id": "9870672",
+        "text": "Excuse me, could you say that again?"
+      }
+    ],
+    "indices": "済みません{すみません} もう一度 言う{言って} 頂ける[01]{いただけます} か",
+    "vocabIds": [
+      "1628260",
+      "1295060",
+      "2005860",
+      "1587040"
+    ],
+    "matches": {
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1587040": [
+        {
+          "start": 10,
+          "length": 3,
+          "reading": "いって"
+        }
+      ],
+      "1628260": [
+        {
+          "start": 13,
+          "length": 6,
+          "reading": "いただけます"
+        }
+      ],
+      "2005860": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "もういちど"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214202",
+    "original": "すみません、もう一度ゆっくり言ってください。",
+    "en": [
+      {
+        "id": "51493",
+        "text": "Excuse me, could you say that again more slowly?"
+      }
+    ],
+    "indices": "済みません{すみません} もう一度 ゆっくり 言う{言って} 下さい{ください}",
+    "vocabIds": [
+      "1587040",
+      "1295060",
+      "2005860"
+    ],
+    "matches": {
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1587040": [
+        {
+          "start": 14,
+          "length": 7,
+          "reading": "いってください"
+        }
+      ],
+      "2005860": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "もういちど"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214203",
+    "original": "すみません、なんとおっしゃいましたか。",
+    "en": [
+      {
+        "id": "51494",
+        "text": "Sorry. I beg your pardon?"
+      }
+    ],
+    "indices": "済みません{すみません} 何と{なんと} 仰っしゃる{おっしゃいました} か",
+    "vocabIds": [
+      "1238840",
+      "1295060",
+      "1188410"
+    ],
+    "matches": {
+      "1188410": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "なんと"
+        }
+      ],
+      "1238840": [
+        {
+          "start": 9,
+          "length": 8,
+          "reading": "おっしゃいました"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214204",
+    "original": "すみません、でも私たちも急いでいるんです。",
+    "en": [
+      {
+        "id": "51495",
+        "text": "Excuse me, but we're in a hurry, too."
+      }
+    ],
+    "indices": "済みません{すみません} でも 私たち も 急ぐ{急いでいる} のです{んです}",
+    "vocabIds": [
+      "1295060",
+      "1228650",
+      "1311300"
+    ],
+    "matches": {
+      "1228650": [
+        {
+          "start": 12,
+          "length": 5,
+          "reading": "いそいでいる"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1311300": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "わたしたち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214205",
+    "original": "すみません、ちょっと通して下さい。",
+    "en": [
+      {
+        "id": "51496",
+        "text": "Excuse me. May I get through?"
+      }
+    ],
+    "indices": "済みません{すみません} 一寸(ちょっと){ちょっと} 通す{通して} 下さい",
+    "vocabIds": [
+      "1432900",
+      "1295060",
+      "1163940"
+    ],
+    "matches": {
+      "1163940": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "ちょっと"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1432900": [
+        {
+          "start": 10,
+          "length": 6,
+          "reading": "とおしてください"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214206",
+    "original": "すみません、ご遠慮いただけますか。",
+    "en": [
+      {
+        "id": "51497",
+        "text": "Sorry, I wish you wouldn't."
+      }
+    ],
+    "indices": "済みません{すみません} 御(ご){ご} 遠慮 頂ける[01]{いただけます} か",
+    "vocabIds": [
+      "1628260",
+      "1295060",
+      "1178450",
+      "2826528"
+    ],
+    "matches": {
+      "1178450": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "えんりょ"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1628260": [
+        {
+          "start": 9,
+          "length": 6,
+          "reading": "いただけます"
+        }
+      ],
+      "2826528": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "ご"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214207",
+    "original": "すみません、この席あいていますか。",
+    "en": [
+      {
+        "id": "51498",
+        "text": "Excuse me, is this seat taken?"
+      }
+    ],
+    "indices": "済みません{すみません}~ 此の{この} 席(せき) 開く(あく)[03]{あいています} か",
+    "vocabIds": [
+      "1202440",
+      "1295060",
+      "1582920",
+      "1382250"
+    ],
+    "matches": {
+      "1202440": [
+        {
+          "start": 9,
+          "length": 6,
+          "reading": "あいています"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1382250": [
+        {
+          "start": 8,
+          "length": 1,
+          "reading": "せき"
+        }
+      ],
+      "1582920": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "この"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214209",
+    "original": "すみません、ここは私の席ですが。",
+    "en": [
+      {
+        "id": "51500",
+        "text": "Excuse me, but I think this is my seat."
+      }
+    ],
+    "indices": "済みません{すみません} 此処[02]{ここ} は 私(わたし)[01]{私の} 席(せき) です が[03]",
+    "vocabIds": [
+      "1295060",
+      "1288810",
+      "1311110",
+      "1382250"
+    ],
+    "matches": {
+      "1288810": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "ここ"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1382250": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "せき"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214210",
+    "original": "すみません、お役に立てなくて。",
+    "en": [
+      {
+        "id": "51501",
+        "text": "Sorry, I can't accommodate you."
+      }
+    ],
+    "indices": "済みません{すみません} 御(お){お} 役に立つ{役に立てなくて}",
+    "vocabIds": [
+      "1295060",
+      "1551530",
+      "2826528",
+      "1537970"
+    ],
+    "matches": {
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1537970": [
+        {
+          "start": 7,
+          "length": 1,
+          "reading": "やく"
+        }
+      ],
+      "1551530": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "たてなくて"
+        }
+      ],
+      "2826528": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "お"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214211",
+    "original": "すみません、おまわりさん。ここはどこですか。",
+    "en": [
+      {
+        "id": "51502",
+        "text": "Excuse me, officer, where are we now?"
+      }
+    ],
+    "indices": "済みません{すみません} お巡りさん{おまわりさん} 此処[01]{ここ} は 何処{どこ} ですか",
+    "vocabIds": [
+      "1002120",
+      "1295060",
+      "1288810",
+      "1577140"
+    ],
+    "matches": {
+      "1002120": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "おまわりさん"
+        }
+      ],
+      "1288810": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "ここ"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1577140": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "どこ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214669",
+    "original": "すっかり散財をおかけしてしまってすみません。",
+    "en": [
+      {
+        "id": "51962",
+        "text": "I'm sorry to put you to such great expense."
+      }
+    ],
+    "indices": "すっかり 散財~ を 掛ける[08]{おかけ} 為る(する)[12]{して} 仕舞う{しまって} 済みません{すみません}",
+    "vocabIds": [
+      "1295060",
+      "1305380",
+      "1207610",
+      "1157170",
+      "1303530"
+    ],
+    "matches": {
+      "1157170": [
+        {
+          "start": 10,
+          "length": 2,
+          "reading": "して"
+        }
+      ],
+      "1207610": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "かおかけ"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 16,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1303530": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "さんざい"
+        }
+      ],
+      "1305380": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "しまって"
+        }
+      ]
+    }
+  },
+  {
+    "id": "215135",
+    "original": "ずいぶんお手間をかけさせまして、すみませんでした。",
+    "en": [
+      {
+        "id": "52432",
+        "text": "It was nice of you to go to so much trouble."
+      }
+    ],
+    "indices": "随分{ずいぶん} 御(お){お} 手間を掛ける{手間をかけさせまして}~ 済みません{すみませんでした}",
+    "vocabIds": [
+      "1295060",
+      "1372800",
+      "1327410",
+      "2826528"
+    ],
+    "matches": {
+      "1295060": [
+        {
+          "start": 16,
+          "length": 8,
+          "reading": "すすみませんでした"
+        }
+      ],
+      "1327410": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "てま"
+        }
+      ],
+      "1372800": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "ずいぶん"
+        }
+      ],
+      "2826528": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "お"
+        }
+      ]
+    }
+  },
+  {
+    "id": "217005",
+    "original": "ご迷惑をかけてすみません。",
+    "en": [
+      {
+        "id": "54313",
+        "text": "I'm sorry to trouble you."
+      }
+    ],
+    "indices": "迷惑をかける{ご迷惑をかけて} 済みません{すみません}",
+    "vocabIds": [
+      "1295060",
+      "1270660"
+    ],
+    "matches": {
+      "1270660": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ごめいわく"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ]
+    }
+  },
+  {
+    "id": "217006",
+    "original": "ご迷惑をかけて本当にすみません。",
+    "en": [
+      {
+        "id": "54312",
+        "text": "I'm very sorry to have troubled you."
+      }
+    ],
+    "indices": "迷惑をかける{ご迷惑をかけて} 本当に 済みません{すみません}",
+    "vocabIds": [
+      "1295060",
+      "1270660",
+      "1611580"
+    ],
+    "matches": {
+      "1270660": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "ごめいわく"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 10,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1611580": [
+        {
+          "start": 7,
+          "length": 3,
+          "reading": "ほんとうに"
+        }
+      ]
+    }
+  },
+  {
+    "id": "217448",
+    "original": "こんなにご面倒をかけてすみません。",
+    "en": [
+      {
+        "id": "54757",
+        "text": "I'm sorry to trouble you so much."
+      }
+    ],
+    "indices": "こんなに 御(ご){ご} 面倒を掛ける{面倒をかけて}~ 済みません{すみません}",
+    "vocabIds": [
+      "1295060",
+      "1533550",
+      "2826528"
+    ],
+    "matches": {
+      "1295060": [
+        {
+          "start": 11,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1533550": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "めんどう"
+        }
+      ],
+      "2826528": [
+        {
+          "start": 4,
+          "length": 1,
+          "reading": "ご"
+        }
+      ]
+    }
+  },
+  {
+    "id": "219066",
+    "original": "ごめんどうかけてすみません。彼なら何をしても褒められるだろう。",
+    "en": [
+      {
+        "id": "56382",
+        "text": "I'm sorry to have troubled you. No matter what he may do, he will be praised."
+      }
+    ],
+    "indices": "御(ご){ご} 面倒{めんどう} 掛ける[08]{かけて} 済みません{すみません} 彼(かれ)[01] なら 何(なに)[01] を 為る(する){して} も[02] 褒める{褒められる} だろう",
+    "vocabIds": [
+      "1295060",
+      "1207610",
+      "1157170",
+      "1603550",
+      "2851233",
+      "1483070"
+    ],
+    "matches": {
+      "1157170": [
+        {
+          "start": 19,
+          "length": 2,
+          "reading": "して"
+        }
+      ],
+      "1207610": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "かけて"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 8,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1483070": [
+        {
+          "start": 14,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1603550": [
+        {
+          "start": 22,
+          "length": 2,
+          "reading": "ほめ"
+        }
+      ],
+      "2851233": [
+        {
+          "start": 17,
+          "length": 2,
+          "reading": "なにを"
+        }
+      ]
+    }
+  },
+  {
+    "id": "222150",
+    "original": "この件に関して、あまりお役に立てなくてすみません。",
+    "en": [
+      {
+        "id": "59475",
+        "text": "I apologize that I'm not able to give a better reference to this work."
+      }
+    ],
+    "indices": "此の{この} 件(けん) に関して 余り[02]{あまり} 御(お){お} 役に立つ{役に立てなくて} 済みません{すみません}",
+    "vocabIds": [
+      "1295060",
+      "1551530",
+      "1009740",
+      "1584930",
+      "1582920",
+      "2826528",
+      "1255940",
+      "1537970"
+    ],
+    "matches": {
+      "1009740": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "にかんして"
+        }
+      ],
+      "1255940": [
+        {
+          "start": 2,
+          "length": 1,
+          "reading": "けん"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 19,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1537970": [
+        {
+          "start": 12,
+          "length": 1,
+          "reading": "やく"
+        }
+      ],
+      "1551530": [
+        {
+          "start": 14,
+          "length": 5,
+          "reading": "たてなくて"
+        }
+      ],
+      "1582920": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "この"
+        }
+      ],
+      "1584930": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "あまり"
+        }
+      ],
+      "2826528": [
+        {
+          "start": 11,
+          "length": 1,
+          "reading": "お"
+        }
+      ]
+    }
+  },
+  {
+    "id": "224167",
+    "original": "こちらの手違いからご迷惑をおかけしてすみませんでした。",
+    "en": [
+      {
+        "id": "61504",
+        "text": "I'm sorry to have troubled you owing to our mistake."
+      }
+    ],
+    "indices": "此方(こちら){こちら} の 手違い から ご迷惑 を 掛ける[08]{おかけ} 為る(する)[12]{して} 済みません{すみませんでした}",
+    "vocabIds": [
+      "1295060",
+      "1207610",
+      "1004500",
+      "1327320",
+      "1270660",
+      "1157170"
+    ],
+    "matches": {
+      "1004500": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "こちら"
+        }
+      ],
+      "1157170": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "して"
+        }
+      ],
+      "1207610": [
+        {
+          "start": 13,
+          "length": 3,
+          "reading": "かおかけ"
+        }
+      ],
+      "1270660": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "ごめいわく"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 18,
+          "length": 8,
+          "reading": "すすみませんでした"
+        }
+      ],
+      "1327320": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "てちがい"
+        }
+      ]
+    }
+  },
+  {
+    "id": "226503",
+    "original": "お話し中すみません。",
+    "en": [
+      {
+        "id": "63848",
+        "text": "May I cut in?"
+      },
+      {
+        "id": "434012",
+        "text": "I'm sorry to interrupt you while you're talking."
+      },
+      {
+        "id": "434013",
+        "text": "I'm sorry to disturb you while you're talking."
+      }
+    ],
+    "indices": "お話し中 済みません{すみません}",
+    "vocabIds": [
+      "1295060",
+      "1002750"
+    ],
+    "matches": {
+      "1002750": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "おはなしちゅう"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 4,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ]
+    }
+  },
+  {
+    "id": "226506",
+    "original": "お話の途中ですみません。",
+    "en": [
+      {
+        "id": "63851",
+        "text": "Excuse me for interrupting you."
+      },
+      {
+        "id": "2738999",
+        "text": "Pardon me for interrupting."
+      }
+    ],
+    "indices": "御(お){お} 話(はなし) の 途中 で(#2028980) 済みません{すみません}",
+    "vocabIds": [
+      "1295060",
+      "2581590",
+      "1582200"
+    ],
+    "matches": {
+      "1295060": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1582200": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "とちゅう"
+        }
+      ],
+      "2581590": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おはなし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "226507",
+    "original": "お話の最中にすみません。",
+    "en": [
+      {
+        "id": "63853",
+        "text": "May I interrupt?"
+      }
+    ],
+    "indices": "御(お){お} 話(はなし) の 最中(さいちゅう) に 済みません{すみません}",
+    "vocabIds": [
+      "1295060",
+      "2581590",
+      "1579210"
+    ],
+    "matches": {
+      "1295060": [
+        {
+          "start": 6,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1579210": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "さいちゅう"
+        }
+      ],
+      "2581590": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "おはなし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "227090",
+    "original": "お邪魔してすみませんが、あなたに電話がかかっています。",
+    "en": [
+      {
+        "id": "64439",
+        "text": "I'm sorry to disturb you, but there's a phone call for you."
+      }
+    ],
+    "indices": "御(お){お} 邪魔 為る(する){して} 済みません{すみません} が 貴方(あなた)[01]{あなた} に 電話が掛かる{電話がかかっています}~",
+    "vocabIds": [
+      "1295060",
+      "1223615",
+      "2157330",
+      "1157170",
+      "1443840"
+    ],
+    "matches": {
+      "1157170": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "して"
+        }
+      ],
+      "1223615": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "あなた"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 5,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1443840": [
+        {
+          "start": 16,
+          "length": 2,
+          "reading": "でんわ"
+        }
+      ],
+      "2157330": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "おじゃま"
+        }
+      ]
+    }
+  },
+  {
+    "id": "227998",
+    "original": "ええ、届いたのをお知らせするのを忘れてしまってすみません。",
+    "en": [
+      {
+        "id": "65351",
+        "text": "Yes, sorry, I forgot to acknowledge it."
+      }
+    ],
+    "indices": "ええ[01] 届く[02]{届いた} の を お知らせ 為る(する){する} の を 忘れる{忘れて} 仕舞う{しまって} 済みません{すみません}",
+    "vocabIds": [
+      "1519210",
+      "1295060",
+      "1002420",
+      "1457200",
+      "1157170"
+    ],
+    "matches": {
+      "1002420": [
+        {
+          "start": 8,
+          "length": 4,
+          "reading": "おしらせ"
+        }
+      ],
+      "1157170": [
+        {
+          "start": 12,
+          "length": 2,
+          "reading": "する"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 23,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1457200": [
+        {
+          "start": 3,
+          "length": 3,
+          "reading": "とどいた"
+        }
+      ],
+      "1519210": [
+        {
+          "start": 16,
+          "length": 7,
+          "reading": "わすれてしまって"
+        }
+      ]
+    }
+  },
+  {
+    "id": "228447",
+    "original": "いろいろとお世話になって本当にすみませんでした。",
+    "en": [
+      {
+        "id": "65805",
+        "text": "Thank you very much for everything."
+      }
+    ],
+    "indices": "色々[01]{いろいろと} お世話になる{お世話になって} 本当に 済みません{すみませんでした}",
+    "vocabIds": [
+      "1295060",
+      "1587850",
+      "2144410",
+      "1611580"
+    ],
+    "matches": {
+      "1295060": [
+        {
+          "start": 15,
+          "length": 8,
+          "reading": "すすみませんでした"
+        }
+      ],
+      "1587850": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "いろいろと"
+        }
+      ],
+      "1611580": [
+        {
+          "start": 12,
+          "length": 3,
+          "reading": "ほんとうに"
+        }
+      ],
+      "2144410": [
+        {
+          "start": 5,
+          "length": 3,
+          "reading": "おせわ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "231454",
+    "original": "こんなに長い間待たせてすみません。",
+    "en": [
+      {
+        "id": "54635",
+        "text": "I am sorry to have kept you waiting so long."
+      }
+    ],
+    "indices": "こんなに 長い間 待たせる{待たせて} 済みません{すみません}",
+    "vocabIds": [
+      "1295060",
+      "1429760",
+      "1410590"
+    ],
+    "matches": {
+      "1295060": [
+        {
+          "start": 11,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1410590": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "また"
+        }
+      ],
+      "1429760": [
+        {
+          "start": 4,
+          "length": 3,
+          "reading": "ながいあいだ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "231455",
+    "original": "こんなに待たせて、すみません。",
+    "en": [
+      {
+        "id": "68822",
+        "text": "I'm sorry I've kept you waiting so long."
+      }
+    ],
+    "indices": "こんなに 待たせる{待たせて} 済みません{すみません}",
+    "vocabIds": [
+      "1295060",
+      "1410590"
+    ],
+    "matches": {
+      "1295060": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1410590": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "また"
+        }
+      ]
+    }
+  },
+  {
+    "id": "236436",
+    "original": "「ホテルの予約はしてありますか」「すみませんが、まだなんです」",
+    "en": [
+      {
+        "id": "73802",
+        "text": "\"Have you reserved a hotel room?\" \"Sorry, not yet.\""
+      }
+    ],
+    "indices": "ホテル の 予約[01]~ は 為る(する){してあります} か 済みません{すみません} が 未だ[02]{まだ} なんです",
+    "vocabIds": [
+      "1157170",
+      "1295060",
+      "1527110",
+      "1543750"
+    ],
+    "matches": {
+      "1157170": [
+        {
+          "start": 8,
+          "length": 6,
+          "reading": "してあります"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 17,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1527110": [
+        {
+          "start": 24,
+          "length": 2,
+          "reading": "まだ"
+        }
+      ],
+      "1543750": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "よやく"
+        }
+      ]
+    }
+  },
+  {
+    "id": "236802",
+    "original": "すみませんが胡椒をとって下さいませんか。",
+    "en": [
+      {
+        "id": "51425",
+        "text": "May I trouble you to pass me the pepper?"
+      },
+      {
+        "id": "518551",
+        "text": "Could you please pass me the pepper?"
+      },
+      {
+        "id": "1056331",
+        "text": "Could you pass me the pepper, please?"
+      }
+    ],
+    "indices": "済みません{すみません} が 胡椒 を 取る{とって} 下さる{下さいません} か",
+    "vocabIds": [
+      "1184280",
+      "1295060",
+      "1326980",
+      "1267600"
+    ],
+    "matches": {
+      "1184280": [
+        {
+          "start": 12,
+          "length": 6,
+          "reading": "くださいません"
+        }
+      ],
+      "1267600": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "こしょう"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1326980": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "とって"
+        }
+      ]
+    }
+  },
+  {
+    "id": "236843",
+    "original": "お手数をおかけしてすみません。",
+    "en": [
+      {
+        "id": "54313",
+        "text": "I'm sorry to trouble you."
+      }
+    ],
+    "indices": "御(お){お} 手数をかける{手数をおかけ} 為る(する){して} 済みません{すみません}",
+    "vocabIds": [
+      "1295060",
+      "1984090",
+      "1157170"
+    ],
+    "matches": {
+      "1157170": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "して"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 9,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1984090": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "おてすう"
+        }
+      ]
+    }
+  },
+  {
+    "id": "237148",
+    "original": "「ウィーンまでは歩くとどのくらいかかりますか」「すみません。この辺に詳しくないんです」",
+    "en": [
+      {
+        "id": "73945",
+        "text": "\"How long does it take to get to Vienna on foot?\" \"Sorry, I'm a stranger here.\""
+      }
+    ],
+    "indices": "迄{まで} は 歩く と どの位{どのくらい} 掛かる[01]{かかります} か 済みません{すみません} この辺 に 詳しく{詳しくない} のです{んです}",
+    "vocabIds": [
+      "1295060",
+      "1009250",
+      "1207590",
+      "1351730",
+      "1004750",
+      "1514320",
+      "1525680"
+    ],
+    "matches": {
+      "1004750": [
+        {
+          "start": 30,
+          "length": 3,
+          "reading": "このへん"
+        }
+      ],
+      "1009250": [
+        {
+          "start": 11,
+          "length": 5,
+          "reading": "どのくらい"
+        }
+      ],
+      "1207590": [
+        {
+          "start": 16,
+          "length": 5,
+          "reading": "かかります"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 24,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1351730": [
+        {
+          "start": 34,
+          "length": 5,
+          "reading": "くわしくない"
+        }
+      ],
+      "1514320": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "あるくと"
+        }
+      ],
+      "1525680": [
+        {
+          "start": 5,
+          "length": 2,
+          "reading": "まで"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2312026",
+    "original": "すみません、間違えました。",
+    "en": [
+      {
+        "id": "2312025",
+        "text": "Sorry, I made a mistake."
+      }
+    ],
+    "indices": "済みません{すみません} 間違える{間違えました}",
+    "vocabIds": [
+      "1215330",
+      "1295060"
+    ],
+    "matches": {
+      "1215330": [
+        {
+          "start": 6,
+          "length": 6,
+          "reading": "まちがえました"
+        }
+      ],
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2315862",
+    "original": "すみません、お名前が聞き取れませんでした。",
+    "en": [
+      {
+        "id": "1515043",
+        "text": "I'm sorry. I didn't catch your name."
+      },
+      {
+        "id": "2539728",
+        "text": "I'm sorry, I didn't catch your name."
+      }
+    ],
+    "indices": "済みません{すみません} 御(お){お} 名前 が 聞き取る{聞き取れませんでした}",
+    "vocabIds": [
+      "1295060",
+      "2853328"
+    ],
+    "matches": {
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "2853328": [
+        {
+          "start": 6,
+          "length": 3,
+          "reading": "おなまえ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "214208",
+    "original": "すみません、このチケットは変更できません。",
+    "en": [
+      {
+        "id": "11877836",
+        "text": "Sorry, I cannot make changes to this ticket."
+      }
+    ],
+    "indices": "済みません{すみません} 此の{この} チケット は 変更 出来る[01]{できません}",
+    "vocabIds": [
+      "1295060",
+      "1340450",
+      "1582920",
+      "1511040"
+    ],
+    "matches": {
+      "1295060": [
+        {
+          "start": 0,
+          "length": 5,
+          "reading": "すみません"
+        }
+      ],
+      "1340450": [
+        {
+          "start": 15,
+          "length": 5,
+          "reading": "できません"
+        }
+      ],
+      "1511040": [
+        {
+          "start": 13,
+          "length": 2,
+          "reading": "へんこう"
+        }
+      ],
+      "1582920": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "この"
         }
       ]
     }

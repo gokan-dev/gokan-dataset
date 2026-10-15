@@ -10,10 +10,18 @@
     ],
     "indices": "彼奴(あいつ)[01]{あいつ} は 町(まち) の 面汚し だ",
     "vocabIds": [
+      "1483160",
       "1533420",
       "1603990"
     ],
     "matches": {
+      "1483160": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あいつ"
+        }
+      ],
       "1533420": [
         {
           "start": 6,
@@ -26,6 +34,49 @@
           "start": 4,
           "length": 1,
           "reading": "まち"
+        }
+      ]
+    }
+  },
+  {
+    "id": "234629",
+    "original": "あいつは一家のつらよごし。",
+    "en": [
+      {
+        "id": "27841",
+        "text": "He is the black sheep of the family."
+      },
+      {
+        "id": "1133168",
+        "text": "He's the black sheep of the family."
+      }
+    ],
+    "indices": "彼奴(あいつ)[01]{あいつ} は 一家[01] の 面汚し{つらよごし}~",
+    "vocabIds": [
+      "1533420",
+      "1483160",
+      "1575940"
+    ],
+    "matches": {
+      "1483160": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あいつ"
+        }
+      ],
+      "1533420": [
+        {
+          "start": 7,
+          "length": 5,
+          "reading": "つらよごし"
+        }
+      ],
+      "1575940": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "いっか"
         }
       ]
     }

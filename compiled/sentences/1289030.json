@@ -1,5 +1,81 @@
 [
   {
+    "id": "76027",
+    "original": "純粋に、ミクシィユーザーが言うところの「変な人」ってどんな人なのか、私にはいまいちわからないのだ。",
+    "en": [
+      {
+        "id": "327691",
+        "text": "It's simply that I don't really understand what an \"oddball\" is when said by a Mixi user."
+      }
+    ],
+    "indices": "純粋{純粋に}~ ユーザー~ が 言う 所(ところ)[06]{ところ} の 変[01]{変な} 人(ひと) って どんな 人(ひと) だ{な} の か 私(わたし)[01] には 今一{いまいち} 分かる{わからない} のだ",
+    "vocabIds": [
+      "2128070",
+      "1606560",
+      "1289030",
+      "1341930",
+      "1510640",
+      "1580640",
+      "1311110"
+    ],
+    "matches": {
+      "1289030": [
+        {
+          "start": 37,
+          "length": 4,
+          "reading": "いまいち"
+        }
+      ],
+      "1311110": [
+        {
+          "start": 34,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "1341930": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "じゅんすい"
+        }
+      ],
+      "1510640": [
+        {
+          "start": 20,
+          "length": 1,
+          "reading": "へん"
+        }
+      ],
+      "1580640": [
+        {
+          "start": 22,
+          "length": 1,
+          "reading": "ひと"
+        },
+        {
+          "start": 29,
+          "length": 1,
+          "reading": "ひと"
+        }
+      ],
+      "1606560": [
+        {
+          "start": 41,
+          "length": 5,
+          "reading": "わからない"
+        }
+      ],
+      "2128070": [
+        {
+          "start": 13,
+          "length": 6,
+          "reading": "いうところの"
+        }
+      ]
+    }
+  },
+  {
     "id": "107155",
     "original": "彼は今一番会いたくない人だ。",
     "en": [
@@ -50,6 +126,146 @@
           "start": 4,
           "length": 1,
           "reading": "ばん"
+        }
+      ]
+    }
+  },
+  {
+    "id": "191581",
+    "original": "ん～、イマイチなんだよねえ。この脚のあたりの線とかさぁ。なんとかなんないの？",
+    "en": [
+      {
+        "id": "28745",
+        "text": "This drawing is less than great. He needs to do something with the line here at the back of the leg."
+      }
+    ],
+    "indices": "NI{ん} 今一{イマイチ} なのだ{なんだ} よ ね(#2029080)[01]{ねえ} 此の{この} 足(あし)[02]{脚}~ の 辺り(あたり)[01]{あたり} の 線 とか[01] さ{さぁ} 何とかなる{なんとかなんない}~ の",
+    "vocabIds": [
+      "1289030",
+      "1404630",
+      "1391780"
+    ],
+    "matches": {
+      "1289030": [
+        {
+          "start": 3,
+          "length": 4,
+          "reading": "いまいち"
+        }
+      ],
+      "1391780": [
+        {
+          "start": 21,
+          "length": 1,
+          "reading": "せん"
+        }
+      ],
+      "1404630": [
+        {
+          "start": 15,
+          "length": 1,
+          "reading": "あし"
+        }
+      ]
+    }
+  },
+  {
+    "id": "228558",
+    "original": "いまいち東芝は信用できない。",
+    "en": [
+      {
+        "id": "65916",
+        "text": "I can't really trust Toshiba."
+      }
+    ],
+    "indices": "今一{いまいち}~ NI{東芝} は 信用できる{信用できない}",
+    "vocabIds": [
+      "1289030",
+      "5554659",
+      "1359620"
+    ],
+    "matches": {
+      "1289030": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "いまいち"
+        }
+      ],
+      "1359620": [
+        {
+          "start": 7,
+          "length": 2,
+          "reading": "しんよう"
+        }
+      ],
+      "5554659": [
+        {
+          "start": 4,
+          "length": 2,
+          "reading": "とうしば"
+        }
+      ]
+    }
+  },
+  {
+    "id": "229345",
+    "original": "いい人だけどイマイチね。",
+    "en": [
+      {
+        "id": "66703",
+        "text": "He is nice, but he's not the one for me."
+      }
+    ],
+    "indices": "いい 人(ひと) だけど 今一{イマイチ} ね(#2029080)[01]",
+    "vocabIds": [
+      "1289030",
+      "1835630"
+    ],
+    "matches": {
+      "1289030": [
+        {
+          "start": 6,
+          "length": 4,
+          "reading": "いまいち"
+        }
+      ],
+      "1835630": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "いいひと"
+        }
+      ]
+    }
+  },
+  {
+    "id": "230762",
+    "original": "あの人のルックスはいまいちね。",
+    "en": [
+      {
+        "id": "68129",
+        "text": "He is not much to look at, I guess."
+      }
+    ],
+    "indices": "あの人 の ルックス は 今一{いまいち} ね(#2029080)[01]",
+    "vocabIds": [
+      "1289030",
+      "1000440"
+    ],
+    "matches": {
+      "1000440": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "あのひと"
+        }
+      ],
+      "1289030": [
+        {
+          "start": 9,
+          "length": 4,
+          "reading": "いまいち"
         }
       ]
     }

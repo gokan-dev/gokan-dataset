@@ -14,6 +14,7 @@
     ],
     "indices": "彼(かれ)[01]{彼の} 助け 無しには 遣って行く{やっていけない}",
     "vocabIds": [
+      "2082640",
       "2134700",
       "2845746",
       "1344390"
@@ -24,6 +25,13 @@
           "start": 2,
           "length": 2,
           "reading": "たすけ"
+        }
+      ],
+      "2082640": [
+        {
+          "start": 9,
+          "length": 7,
+          "reading": "やっていけない"
         }
       ],
       "2134700": [
@@ -90,6 +98,143 @@
     }
   },
   {
+    "id": "127068",
+    "original": "知恵は経験なしには得られない。",
+    "en": [
+      {
+        "id": "277022",
+        "text": "Wisdom cannot come without experience."
+      }
+    ],
+    "indices": "知恵[01] は 経験 無しには{なしには} 得る(える)[01]{得られない}",
+    "vocabIds": [
+      "2134700",
+      "1420530",
+      "1251270",
+      "1588760"
+    ],
+    "matches": {
+      "1251270": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "けいけん"
+        }
+      ],
+      "1420530": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "ちえ"
+        }
+      ],
+      "1588760": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "え"
+        }
+      ],
+      "2134700": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "なしには"
+        }
+      ]
+    }
+  },
+  {
+    "id": "151588",
+    "original": "私達は空気と水なしには生きられない。",
+    "en": [
+      {
+        "id": "262968",
+        "text": "We cannot live without air and water."
+      },
+      {
+        "id": "6873412",
+        "text": "We can't live without air and water."
+      }
+    ],
+    "indices": "私たち{私達} は 空気 と 水(みず) 無しには{なしには} 生きる{生きられない}",
+    "vocabIds": [
+      "2134700",
+      "1378520",
+      "1311300",
+      "1245470",
+      "1371260"
+    ],
+    "matches": {
+      "1245470": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "くうき"
+        }
+      ],
+      "1311300": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "わたしたち"
+        }
+      ],
+      "1371260": [
+        {
+          "start": 6,
+          "length": 1,
+          "reading": "みず"
+        }
+      ],
+      "1378520": [
+        {
+          "start": 11,
+          "length": 2,
+          "reading": "いき"
+        }
+      ],
+      "2134700": [
+        {
+          "start": 7,
+          "length": 4,
+          "reading": "なしには"
+        }
+      ]
+    }
+  },
+  {
+    "id": "159408",
+    "original": "私はテレビなしには過ごせない。",
+    "en": [
+      {
+        "id": "255115",
+        "text": "I can't dispense with watching television."
+      }
+    ],
+    "indices": "私(わたし)[01] は テレビ 無しには{なしには} 過ごす{過ごせない}",
+    "vocabIds": [
+      "2134700",
+      "1311110"
+    ],
+    "matches": {
+      "1311110": [
+        {
+          "start": 0,
+          "length": 1,
+          "reading": "わたし"
+        }
+      ],
+      "2134700": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "なしには"
+        }
+      ]
+    }
+  },
+  {
     "id": "179512",
     "original": "苦労無しには儲けも無い。",
     "en": [
@@ -137,6 +282,191 @@
     }
   },
   {
+    "id": "190281",
+    "original": "一日たりとも我々は水なしにはいきられない。",
+    "en": [
+      {
+        "id": "27439",
+        "text": "We can't even live for a day without water."
+      },
+      {
+        "id": "1312847",
+        "text": "We can not live without water, not even for one day."
+      },
+      {
+        "id": "1312849",
+        "text": "We can't live even one more day without water."
+      },
+      {
+        "id": "1312850",
+        "text": "We can't live another day without water."
+      }
+    ],
+    "indices": "一日(いちにち) 足りとも{たりとも} 我々 は 水(みず) 無しには{なしには} 生きる{いきられない}",
+    "vocabIds": [
+      "1378520",
+      "2068960",
+      "2134700",
+      "1576260",
+      "1607050",
+      "1371260"
+    ],
+    "matches": {
+      "1371260": [
+        {
+          "start": 9,
+          "length": 1,
+          "reading": "みず"
+        }
+      ],
+      "1378520": [
+        {
+          "start": 14,
+          "length": 6,
+          "reading": "いきられない"
+        }
+      ],
+      "1576260": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "いちにち"
+        }
+      ],
+      "1607050": [
+        {
+          "start": 6,
+          "length": 2,
+          "reading": "われわれ"
+        }
+      ],
+      "2068960": [
+        {
+          "start": 2,
+          "length": 4,
+          "reading": "たりとも"
+        }
+      ],
+      "2134700": [
+        {
+          "start": 10,
+          "length": 4,
+          "reading": "なしには"
+        }
+      ]
+    }
+  },
+  {
+    "id": "197136",
+    "original": "ぶどう酒なしには一日も過ごせない、と彼は言う。",
+    "en": [
+      {
+        "id": "34318",
+        "text": "He says he can't go without wine even for a day."
+      }
+    ],
+    "indices": "ぶどう酒 無しには{なしには} 一日(いちにち) も 過ごす{過ごせない} と 彼(かれ)[01] は 言う",
+    "vocabIds": [
+      "2134700",
+      "1499250",
+      "1576260",
+      "1587040",
+      "1483070"
+    ],
+    "matches": {
+      "1483070": [
+        {
+          "start": 18,
+          "length": 1,
+          "reading": "かれ"
+        }
+      ],
+      "1499250": [
+        {
+          "start": 0,
+          "length": 4,
+          "reading": "ぶどうしゅ"
+        }
+      ],
+      "1576260": [
+        {
+          "start": 8,
+          "length": 2,
+          "reading": "いちにち"
+        }
+      ],
+      "1587040": [
+        {
+          "start": 20,
+          "length": 2,
+          "reading": "いう"
+        }
+      ],
+      "2134700": [
+        {
+          "start": 4,
+          "length": 4,
+          "reading": "なしには"
+        }
+      ]
+    }
+  },
+  {
+    "id": "203108",
+    "original": "だれも努力なしには何事も成し遂げられない。",
+    "en": [
+      {
+        "id": "40344",
+        "text": "No one can achieve anything without effort."
+      }
+    ],
+    "indices": "誰も{だれも} 努力 無しには{なしには} 何事も[02] 成し遂げる{成し遂げられない}",
+    "vocabIds": [
+      "2134700",
+      "1375550",
+      "1416860",
+      "2179230",
+      "1445130"
+    ],
+    "matches": {
+      "1375550": [
+        {
+          "start": 12,
+          "length": 4,
+          "reading": "なしとげ"
+        }
+      ],
+      "1416860": [
+        {
+          "start": 0,
+          "length": 3,
+          "reading": "だれも"
+        }
+      ],
+      "1445130": [
+        {
+          "start": 3,
+          "length": 2,
+          "reading": "どりょく"
+        }
+      ],
+      "2134700": [
+        {
+          "start": 5,
+          "length": 4,
+          "reading": "なしには"
+        }
+      ],
+      "2179230": [
+        {
+          "start": 9,
+          "length": 3,
+          "reading": "なにごとも"
+        }
+      ]
+    }
+  },
+  {
     "id": "220722",
     "original": "この組織は君無しには成り立たない。",
     "en": [
@@ -149,6 +479,7 @@
     "vocabIds": [
       "1375600",
       "2134700",
+      "1582920",
       "1397630",
       "1247250"
     ],
@@ -174,9 +505,63 @@
           "reading": "そしき"
         }
       ],
+      "1582920": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "この"
+        }
+      ],
       "2134700": [
         {
           "start": 6,
+          "length": 4,
+          "reading": "なしには"
+        }
+      ]
+    }
+  },
+  {
+    "id": "221538",
+    "original": "この辞書なしには済まされない。",
+    "en": [
+      {
+        "id": "58862",
+        "text": "I can't do without this dictionary."
+      }
+    ],
+    "indices": "此の{この} 辞書[01] 無しには{なしには}~ 済ます[03]{済まされない}",
+    "vocabIds": [
+      "2134700",
+      "1295030",
+      "1582920",
+      "1318970"
+    ],
+    "matches": {
+      "1295030": [
+        {
+          "start": 8,
+          "length": 3,
+          "reading": "すまさ"
+        }
+      ],
+      "1318970": [
+        {
+          "start": 2,
+          "length": 2,
+          "reading": "じしょ"
+        }
+      ],
+      "1582920": [
+        {
+          "start": 0,
+          "length": 2,
+          "reading": "この"
+        }
+      ],
+      "2134700": [
+        {
+          "start": 4,
           "length": 4,
           "reading": "なしには"
         }
