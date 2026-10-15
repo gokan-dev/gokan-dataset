@@ -22,8 +22,8 @@ import {
 import { readWallerDecks, readWallerIdList, resolveJlptLevels, type JlptCorrections, type JmdictWordLike } from './jlpt-levels';
 import { inheritJlptLevels } from './jlpt-derived';
 import { BUILD_LIMITS } from './build-constants';
-import { disambiguateByReading, inflects, kataToHira, particleSpelledIds, resolveSentenceMatch, type ReadingVocab } from '../src/utils/readingDisambiguation';
-import { annotatedKanaSpans, annotationFor, curatedReading, occurrenceReading, parseIndices, type ReadingSource } from '../src/utils/sentenceReading';
+import { disambiguateByReading, inflects, particleSpelledIds, resolveSentenceMatch, type ReadingVocab } from '../src/utils/readingDisambiguation';
+import { annotatedKanaMatches, annotationFor, curatedReading, occurrenceReading, parseIndices, type ReadingSource } from '../src/utils/sentenceReading';
 
 // --- Configuration ---
 const INPUT_JMDICT_FILE = './data/raw/jmdict.json';
@@ -497,6 +497,7 @@ async function main() {
             entryOwners.set(entryId, [...(entryOwners.get(entryId) ?? []), vocab.id]);
         }
     }
+    const wordLookup = { bySpelling: writtenToVocabId, byEntry: entryOwners, vocabById, spelledAsParts: particleSpelled };
 
     // Tokenize
     const matchStats = sentenceMatchStats();
@@ -535,14 +536,9 @@ async function main() {
         });
         // A word written in kana under a kanji headword (それ for 其れ) is found only
         // through Tatoeba's annotation, which names the entry: see annotatedKanaSpans.
-        for (const span of annotatedKanaSpans(text, indexed, sentenceTokenizer.tokenBoundaries(text))) {
-            const surface = text.slice(span.start, span.start + span.length);
-            const candidates = [...new Set([...(writtenToVocabId.get(span.headword) ?? []), ...(span.entryId ? entryOwners.get(span.entryId) ?? [] : [])])];
-            const annotation = annotationFor(indexed, surface);
-            const reading = kataToHira(surface);
-            const ids = resolveSentenceMatch(span.headword, candidates, reading, vocabById, annotation && { ...annotation, ...(span.entryId ? { entryId: span.entryId } : {}) }, particleSpelled)
-                .filter(id => !resolvedMatches.some(r => r.match.start === span.start && r.match.length === span.length && r.ids.includes(id)));
-            if (ids.length) resolvedMatches.push({ term: span.headword, match: { start: span.start, length: span.length, reading }, ids, annotated: true });
+        for (const { term, start, length, reading, ids } of annotatedKanaMatches(text, indexed, sentenceTokenizer.tokenBoundaries(text), wordLookup)) {
+            const unseen = ids.filter(id => !resolvedMatches.some(r => r.match.start === start && r.match.length === length && r.ids.includes(id)));
+            if (unseen.length) resolvedMatches.push({ term, match: { start, length, reading }, ids: unseen, annotated: true });
         }
 
         // Whether a word is kept for being used in a sentence is decided as it always was

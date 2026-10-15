@@ -1,4 +1,4 @@
-import { kataToHira, readingFitsReading, type ReadingVocab, type SpanAnnotation } from './readingDisambiguation';
+import { kataToHira, readingFitsReading, resolveSentenceMatch, type ReadingVocab, type SpanAnnotation } from './readingDisambiguation';
 
 /**
  * The furigana of a word as it occurs in a sentence, so every card shows a reading
@@ -159,6 +159,35 @@ export function annotationFor(words: IndexedWord[], surface: string): SpanAnnota
         lists: (vocab: ReadingVocab) => here.some(w => w.headword === vocab.writtenForm.kanji || vocab.writtenForm.alternatives.includes(w.headword)),
         contradicts: (vocab: ReadingVocab) => annotationContradicts(words, surface, [vocab.reading.primary, ...vocab.reading.alternatives]),
     };
+}
+
+/** The build's word lookups, for linking an annotated span to the words it names. */
+export interface WordLookup {
+    /** Written form (headword or other spelling) to the words spelled so. */
+    bySpelling: ReadonlyMap<string, string[]>;
+    /** JMdict entry id to the words holding it, as their own id or a merged homograph. */
+    byEntry: ReadonlyMap<string, string[]>;
+    vocabById: Map<string, ReadingVocab>;
+    /** See particleSpelledIds. */
+    spelledAsParts: ReadonlySet<string>;
+}
+
+/**
+ * The words each annotated kana span (annotatedKanaSpans) belongs to: those spelled as
+ * the annotated headword, or holding the entry it names, kept by resolveSentenceMatch
+ * with the kana itself as the reading, so 其れ{それ} is それ and never a homograph 其れ
+ * read otherwise. A span no word survives is left out.
+ */
+export function annotatedKanaMatches(text: string, words: IndexedWord[], boundaries: ReadonlySet<number>, lookup: WordLookup): { term: string; start: number; length: number; reading: string; ids: string[] }[] {
+    return annotatedKanaSpans(text, words, boundaries).flatMap(span => {
+        const surface = text.slice(span.start, span.start + span.length);
+        const candidates = new Set([...(lookup.bySpelling.get(span.headword) ?? []), ...(span.entryId ? lookup.byEntry.get(span.entryId) ?? [] : [])]);
+        const here = annotationFor(words, surface);
+        const annotation = here && (span.entryId ? { ...here, entryId: span.entryId } : here);
+        const reading = kataToHira(surface);
+        const ids = resolveSentenceMatch(span.headword, [...candidates], reading, lookup.vocabById, annotation, lookup.spelledAsParts);
+        return ids.length ? [{ term: span.headword, start: span.start, length: span.length, reading, ids }] : [];
+    });
 }
 
 export interface OccurrenceInput {

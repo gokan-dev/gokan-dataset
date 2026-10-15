@@ -1,5 +1,6 @@
 import { describe, it, expect } from 'vitest';
-import { annotationContradicts, curatedReading, inflectReading, occurrenceReading, parseIndices } from './sentenceReading';
+import type { ReadingVocab } from './readingDisambiguation';
+import { annotatedKanaMatches, annotationContradicts, curatedReading, inflectReading, occurrenceReading, parseIndices, type WordLookup } from './sentenceReading';
 
 describe('inflectReading', () => {
     it('keeps the reading before the okurigana and takes the surface okurigana', () => {
@@ -76,5 +77,49 @@ describe('annotationContradicts', () => {
         expect(annotationContradicts(parseIndices('８ 分(ふん)'), '８分', ['はっぷん'])).toBe(false);
         // 一週 いっしゅう: 一(いち) doubled.
         expect(annotationContradicts(parseIndices('一(いち) 週'), '一週', ['いっしゅう'])).toBe(false);
+    });
+});
+
+describe('annotatedKanaMatches', () => {
+    const word = (id: string, kanji: string, alternatives: string[], primary: string, pos = ['n']): ReadingVocab =>
+        ({ id, writtenForm: { kanji, alternatives }, reading: { primary, alternatives: [] }, senses: [{ pos }] });
+    const words = [
+        word('1006970', '其れ', ['其'], 'それ', ['pn']),
+        word('1157170', '為る', [], 'する', ['vs-i']),
+        word('1584090', '抱く', [], 'いだく', ['v5k']),
+        word('1584080', '抱く', [], 'だく', ['v5k']),
+        word('2028980', 'で', [], 'で', ['prt']),
+    ];
+    const bySpelling = new Map<string, string[]>();
+    for (const w of words) for (const spelling of [w.writtenForm.kanji, ...w.writtenForm.alternatives]) bySpelling.set(spelling, [...(bySpelling.get(spelling) ?? []), w.id]);
+    const lookup: WordLookup = {
+        bySpelling,
+        byEntry: new Map(words.map(w => [w.id, [w.id]])),
+        vocabById: new Map(words.map(w => [w.id, w])),
+        spelledAsParts: new Set(),
+    };
+    const link = (text: string, indices: string, boundaries: number[]) => annotatedKanaMatches(text, parseIndices(indices), new Set(boundaries), lookup);
+
+    it('links a kana span to the word its kanji headword names', () => {
+        // それ|は|君|の|腕|次第|かな|。
+        expect(link('それは君の腕次第かな。', '其れ{それ} は 君(きみ) の 腕(うで)[02] 次第[01] かな', [0, 2, 3, 4, 5, 6, 8, 10, 11]))
+            .toEqual([{ term: '其れ', start: 0, length: 2, reading: 'それ', ids: ['1006970'] }]);
+        // 勉強|し|て|いる: the conjugated surface, read as する.
+        expect(link('勉強している', '勉強 為る(する){している}', [0, 2, 3, 4, 6]))
+            .toEqual([{ term: '為る', start: 2, length: 4, reading: 'している', ids: ['1157170'] }]);
+    });
+
+    it('links only the entry Tatoeba names', () => {
+        expect(link('夢をいだく', '夢 を 抱く(#1584090){いだく}', [0, 1, 2, 5]).map(m => m.ids)).toEqual([['1584090']]);
+        expect(link('駅で', '駅 で(#2028980)', [0, 1, 2]).map(m => m.ids)).toEqual([['2028980']]);
+    });
+
+    it('does not link a kana headword without an entry, or a span inside another word', () => {
+        // で names a spelling, not an entry: the tokenizer already handles kana headwords.
+        expect(link('駅で', '駅 で', [0, 1, 2])).toEqual([]);
+        // A stale annotation: the し it points at is inside 話して (話し|て|いる).
+        expect(link('話している', '為る(する){し}', [0, 2, 3, 5])).toEqual([]);
+        // Written in kanji: the tokenizer finds it.
+        expect(link('其れは', '其れ は', [0, 2, 3])).toEqual([]);
     });
 });
