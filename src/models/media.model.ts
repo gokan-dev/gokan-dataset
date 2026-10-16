@@ -93,7 +93,8 @@ export interface MediaEpisode {
 export interface MediaIndexEntry {
     id: string;
     kind: 'anime';
-    title: { original: string; romaji?: string; english?: string };
+    /** `reading`: the original title in hiragana, read by kuromoji (names are sometimes misread), for search. */
+    title: { original: string; reading: string; romaji?: string; english?: string };
     releaseYear?: number;
     episodeCount: number;
     /** Morae per minute across the whole series. 0 when unknown. */

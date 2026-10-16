@@ -446,7 +446,7 @@ The titles are listed in `data/raw/media/selection.json` (hand-picked entries, p
 interface MediaIndexEntry {
   id: string;                    // Jiten deck id
   kind: 'anime';
-  title: { original: string; romaji?: string; english?: string };
+  title: { original: string; reading: string; romaji?: string; english?: string };   // reading: see below
   releaseYear?: number;
   episodeCount: number;
   speechSpeed: number;           // morae per minute across the series, 0 when unknown
@@ -470,6 +470,8 @@ interface MediaEpisode {
 `media/library.json` is `Record<id, [vocabId: string, occurrences: number][]>`: each title's words summed over every episode, so a consumer can rank the whole library by coverage without loading each title file. A film or special has a single episode.
 
 **Only words that resolve to a `vocab/{id}.json` are kept**, directly or through a merged homograph (`mergedVocabs`). Particles, kana-only words and loanwords are not in this dataset's vocabulary, so they drop out, and roughly a third of an episode's distinct words with them. Any coverage figure computed from `words` is therefore coverage of the episode's kanji vocabulary, not of everything said; `sourceUniqueWords` is there so a consumer can say how much was left out.
+
+**`title.reading` is the original title in hiragana**, read by kuromoji at build time (`buildTitleReader`), so a consumer can find a title written in kanji by its kana or romaji without a dictionary of its own. Only tokens with kanji take kuromoji's reading; kana keep their spelling (the particle は stays は) and Latin, digits and punctuation are left as written. Names and coined readings are sometimes misread (古見 as ふるみ, 干物妹 as ほしものいもうと) and are not corrected by hand: AniList's `romaji` holds the right reading, so a search should match both.
 
 **`cover` is a URL on AniList's CDN, not data this repository licenses.** `scripts/fetch-anilist-covers.ts` (`bun run fetch:covers`, network, run by hand) looks each title up by the AniList id in Jiten's links and writes `data/raw/media/covers.json`; `build:media` attaches it when present. `urlSmall` is about 100px wide (thumbnails), `url` about 230px (cards), `urlHiRes` about 460px (a title page): AniList's three fixed sizes, so a consumer can list them in a `srcset` and let the browser pick, `color` AniList's dominant colour for a placeholder. The artwork belongs to its studio: load it from AniList at display time, do not copy it into a redistributed build.
 

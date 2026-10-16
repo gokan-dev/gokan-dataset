@@ -1,8 +1,10 @@
-import { describe, it, expect } from 'vitest';
-import { buildVocabResolver, compileTitle, resolveWords, seriesWords, toIndexEntry } from './build-media';
+import { describe, it, expect, beforeAll } from 'vitest';
+import kuromoji from 'kuromoji';
+import { buildTitleReader, buildVocabResolver, compileTitle, resolveWords, seriesWords, toIndexEntry } from './build-media';
 import { isEligible } from './select-easiest-anime';
 import { anilistIdOf } from './fetch-anilist-covers';
 import type { JitenMediaSnapshot } from '../src/models/media.model';
+import type { TitleReader } from './build-media';
 
 const resolver = buildVocabResolver([
     { id: '1358280' }, // 食べる
@@ -14,6 +16,9 @@ const resolver = buildVocabResolver([
         ],
     },
 ]);
+
+/** compileTitle's own tests do not need kuromoji: buildTitleReader is tested below. */
+const readTitle: TitleReader = () => 'のんのんびより';
 
 const stats = { characterCount: 0, wordCount: 0, uniqueWordCount: 0, uniqueKanjiCount: 0, speechSpeed: 290, difficulty: 1.01 };
 
@@ -66,23 +71,47 @@ describe('resolveWords', () => {
 
 describe('compileTitle', () => {
     it('keeps only Gokan vocabulary while recording how many words the episode had', () => {
-        const title = compileTitle(snapshot(), resolver);
+        const title = compileTitle(snapshot(), resolver, readTitle);
         expect(title.episodes[0].words).toEqual([['1000420', 7], ['1358280', 3]]);
         expect(title.episodes[0].sourceUniqueWords).toBe(4);
         expect(title.episodes[0].speechSpeed).toBe(295);
     });
 
     it('carries the catalogue links and the Jiten attribution', () => {
-        const title = compileTitle(snapshot(), resolver);
+        const title = compileTitle(snapshot(), resolver, readTitle);
         expect(title.links).toEqual({ anilist: 'https://anilist.co/anime/17549', myanimelist: 'https://myanimelist.net/anime/17549' });
         expect(title.source).toEqual({ name: 'Jiten', url: 'https://jiten.moe/decks/media/16685/detail', license: 'CC BY-SA 4.0' });
         expect(title.releaseYear).toBe(2013);
     });
 
     it('omits missing titles and an unknown release date rather than writing nulls', () => {
-        const title = compileTitle(snapshot({ releaseDate: null }), resolver);
-        expect(title.title).toEqual({ original: 'のんのんびより', romaji: 'Non Non Biyori' });
+        const title = compileTitle(snapshot({ releaseDate: null }), resolver, readTitle);
+        expect(title.title).toEqual({ original: 'のんのんびより', reading: 'のんのんびより', romaji: 'Non Non Biyori' });
         expect('releaseYear' in title).toBe(false);
+    });
+});
+
+describe('buildTitleReader', () => {
+    let read: TitleReader;
+
+    beforeAll(async () => {
+        const tokenizer = await new Promise<kuromoji.Tokenizer<kuromoji.IpadicFeatures>>((resolve, reject) =>
+            kuromoji.builder({ dicPath: 'node_modules/kuromoji/dict' }).build((err, t) => err ? reject(err) : resolve(t)));
+        read = buildTitleReader(tokenizer);
+    });
+
+    it('reads the kanji of a title in hiragana', () => {
+        expect(read('からかい上手の高木さん')).toBe('からかいじょうずのたかぎさん');
+    });
+
+    it('writes katakana in hiragana and keeps the particle は as spelled', () => {
+        expect(read('久保さんは僕を許さない')).toBe('くぼさんはぼくをゆるさない');
+        expect(read('ドラえもん')).toBe('どらえもん');
+    });
+
+    it('leaves Latin letters, digits and punctuation as written', () => {
+        expect(read('からかい上手の高木さん３')).toBe('からかいじょうずのたかぎさん３');
+        expect(read('GIRLS und PANZER')).toBe('GIRLS und PANZER');
     });
 });
 
@@ -93,14 +122,14 @@ describe('covers', () => {
     });
 
     it('attaches an AniList cover URL, credited, when one was fetched', () => {
-        const title = compileTitle(snapshot(), resolver, {
+        const title = compileTitle(snapshot(), resolver, readTitle, {
             anilistId: 17549, urlSmall: 'https://s4.anilist.co/s.png', url: 'https://s4.anilist.co/a.png', urlHiRes: 'https://s4.anilist.co/b.png', color: '#50e4bb',
         });
         expect(title.cover).toEqual({ urlSmall: 'https://s4.anilist.co/s.png', url: 'https://s4.anilist.co/a.png', urlHiRes: 'https://s4.anilist.co/b.png', color: '#50e4bb', source: 'AniList' });
     });
 
     it('leaves the cover out when none was fetched', () => {
-        expect('cover' in compileTitle(snapshot(), resolver)).toBe(false);
+        expect('cover' in compileTitle(snapshot(), resolver, readTitle)).toBe(false);
     });
 });
 
@@ -112,13 +141,13 @@ describe('genres, tags and series words', () => {
                 { name: 'Countryside', percentage: 95 }, { name: 'School', percentage: 71 }, { name: 'A', percentage: 70 },
                 { name: 'B', percentage: 65 }, { name: 'C', percentage: 61 }, { name: 'D', percentage: 60 }, { name: 'Weak', percentage: 40 },
             ],
-        }), resolver);
+        }), resolver, readTitle);
         expect(title.genres).toEqual(['Comedy', 'Slice of Life']);
         expect(title.tags).toEqual(['Countryside', 'School', 'A', 'B', 'C']);
     });
 
     it('treats a snapshot taken before genres were recorded as having none', () => {
-        const title = compileTitle(snapshot(), resolver);
+        const title = compileTitle(snapshot(), resolver, readTitle);
         expect(title.genres).toEqual([]);
         expect(title.tags).toEqual([]);
     });
@@ -129,7 +158,7 @@ describe('genres, tags and series words', () => {
                 { deckId: 1, number: 1, title: 'Episode 1', stats, words: [[1358280, 3]] },
                 { deckId: 2, number: 2, title: 'Episode 2', stats, words: [[1358280, 2], [1000420, 4]] },
             ],
-        }), resolver);
+        }), resolver, readTitle);
         expect(seriesWords(title)).toEqual([['1358280', 5], ['1000420', 4]]);
     });
 });
@@ -145,7 +174,7 @@ describe('isEligible', () => {
 
 describe('toIndexEntry', () => {
     it('is the title without its episodes', () => {
-        const entry = toIndexEntry(compileTitle(snapshot(), resolver));
+        const entry = toIndexEntry(compileTitle(snapshot(), resolver, readTitle));
         expect('episodes' in entry).toBe(false);
         expect(entry.episodeCount).toBe(1);
     });

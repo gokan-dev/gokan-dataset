@@ -12,7 +12,7 @@ export interface TokenSpan {
     pos: string;
 }
 
-function katakanaToHiragana(katakana: string): string {
+export function katakanaToHiragana(katakana: string): string {
     return katakana.replace(/[\u30A1-\u30F6]/g, function (match) {
         return String.fromCharCode(match.charCodeAt(0) - 0x60);
     });
