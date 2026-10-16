@@ -23,6 +23,7 @@ import { readWallerDecks, readWallerIdList, resolveJlptLevels, type JlptCorrecti
 import { inheritJlptLevels } from './jlpt-derived';
 import { BUILD_LIMITS } from './build-constants';
 import { disambiguateByReading, inflects, particleSpelledIds, resolveSentenceMatch, type ReadingVocab } from '../src/utils/readingDisambiguation';
+import { wordComponents } from '../src/utils/components';
 import { annotatedKanaMatches, annotationFor, curatedReading, occurrenceReading, parseIndices, type ReadingSource } from '../src/utils/sentenceReading';
 
 // --- Configuration ---
@@ -693,79 +694,6 @@ async function main() {
     console.log(`   - ${derived.length} words take the JLPT level of the word they are formed from.`);
     for (const vocab of FINAL_VOCAB) vocab.textbooks?.sort((a, b) => a.book.localeCompare(b.book) || a.lesson - b.lesson);
 
-    // 4.5 Compute components and parents
-    console.log('🧩 Computing components and parents...');
-
-    const finalVocabMap = new Map<string, string[]>();
-    for (const v of FINAL_VOCAB) {
-        const k = v.writtenForm.kanji;
-        if (!finalVocabMap.has(k)) finalVocabMap.set(k, []);
-        finalVocabMap.get(k)!.push(v.id);
-    }
-    const finalVocabSetToMatch = new Set(finalVocabMap.keys());
-
-    // Optimize components matching: Map each kanji character to the vocabulary candidates that start with it.
-    console.log('   - Indexing for component match...');
-    const candidateIndex = new Map<string, typeof FINAL_VOCAB>();
-    for (const vocab of FINAL_VOCAB) {
-        if (vocab.writtenForm.containedKanji.length === 0) continue;
-        const firstChar = vocab.writtenForm.kanji[0];
-        if (!candidateIndex.has(firstChar)) candidateIndex.set(firstChar, []);
-        candidateIndex.get(firstChar)!.push(vocab);
-    }
-
-    let componentProgress = 0;
-    for (const vocab of FINAL_VOCAB) {
-        componentProgress++;
-        if (componentProgress % 5000 === 0) {
-            process.stdout.write(`   - Components: ${componentProgress}/${FINAL_VOCAB.length} processed...\r`);
-        }
-
-        const targetWord = vocab.writtenForm.kanji;
-        const components = new Set<string>();
-
-        // We only need to check candidates that start with a character present in the targetWord.
-        const checkedCandidates = new Set<string>(); // avoid checking same candidate twice if it appears in multiple start positions (rare, but possible if index structured differently)
-
-        for (const char of targetWord) {
-            const possibleCandidates = candidateIndex.get(char);
-            if (!possibleCandidates) continue;
-
-            for (const candidate of possibleCandidates) {
-                if (checkedCandidates.has(candidate.id)) continue;
-                checkedCandidates.add(candidate.id);
-
-                if (candidate.id === vocab.id) continue;
-                const candidateWord = candidate.writtenForm.kanji;
-
-                if (targetWord.includes(candidateWord)) {
-                    components.add(candidate.id);
-                }
-            }
-        }
-
-        if (components.size > 0) {
-            vocab.components = Array.from(components);
-        }
-    }
-    console.log(`\n   - Done computing components.`);
-
-    // Pass 2: compute parents
-    const finalSelectedVocabMap = new Map(FINAL_VOCAB.map(v => [v.id, v]));
-    for (const vocab of FINAL_VOCAB) {
-        if (vocab.components) {
-            for (const componentId of vocab.components) {
-                const componentVocab = finalSelectedVocabMap.get(componentId);
-                if (componentVocab) {
-                    if (!componentVocab.parents) {
-                        componentVocab.parents = [];
-                    }
-                    componentVocab.parents.push(vocab.id);
-                }
-            }
-        }
-    }
-
     // 4.6 Words learned in kana (ここ, not 此処): see decideUsuallyKana.
     console.log('🔤 Deciding which words are learned in kana...');
     const usuallyKanaIds = new Set<string>();
@@ -794,6 +722,37 @@ async function main() {
         }
     }
     console.log(`   - ${kept.size} words learned in kana (${usuallyKanaIds.size - kept.size} excluded by hand).`);
+
+    // 4.7 Compute components and parents, once 4.6 has decided which words are learned in
+    // kana: those are also found by their kana spelling (する in 気がする), see wordComponents.
+    console.log('🧩 Computing components and parents...');
+    const componentsById = wordComponents(FINAL_VOCAB.map(vocab => ({
+        id: vocab.id,
+        written: vocab.writtenForm.kanji,
+        hasKanji: vocab.writtenForm.containedKanji.length > 0,
+        kana: vocab.usuallyKana ? { spelling: vocab.reading.primary, pos: vocab.senses.flatMap(sense => sense.pos) } : undefined,
+    })), text => sentenceTokenizer.tokenSpans(text));
+    for (const vocab of FINAL_VOCAB) {
+        const components = componentsById.get(vocab.id);
+        if (components) vocab.components = components;
+    }
+    console.log(`   - ${componentsById.size} words have components.`);
+
+    // Pass 2: compute parents
+    const finalSelectedVocabMap = new Map(FINAL_VOCAB.map(v => [v.id, v]));
+    for (const vocab of FINAL_VOCAB) {
+        if (vocab.components) {
+            for (const componentId of vocab.components) {
+                const componentVocab = finalSelectedVocabMap.get(componentId);
+                if (componentVocab) {
+                    if (!componentVocab.parents) {
+                        componentVocab.parents = [];
+                    }
+                    componentVocab.parents.push(vocab.id);
+                }
+            }
+        }
+    }
 
     // 5. Write Outputs
     console.log('💾 Writing compiled data...');

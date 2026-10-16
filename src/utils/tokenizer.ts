@@ -6,6 +6,12 @@ export interface TokenMatch {
     reading?: string;
 }
 
+export interface TokenSpan {
+    start: number;
+    end: number;
+    pos: string;
+}
+
 function katakanaToHiragana(katakana: string): string {
     return katakana.replace(/[\u30A1-\u30F6]/g, function (match) {
         return String.fromCharCode(match.charCodeAt(0) - 0x60);
@@ -126,9 +132,15 @@ export class SentenceTokenizer {
 
     /** Where the sentence's tokens start and end, as character offsets (0 and its length included). */
     public tokenBoundaries(text: string): Set<number> {
-        const boundaries = new Set<number>([0]);
-        for (const token of this.tokenize(text)) boundaries.add(token.word_position - 1 + token.surface_form.length);
-        return boundaries;
+        return new Set([0, ...this.tokenSpans(text).map(span => span.end)]);
+    }
+
+    /** Each token's span (character offsets) and part of speech (IPADIC's: 動詞, 助詞...). */
+    public tokenSpans(text: string): TokenSpan[] {
+        return this.tokenize(text).map(token => {
+            const start = token.word_position - 1;
+            return { start, end: start + token.surface_form.length, pos: token.pos };
+        });
     }
 
     /** The last sentence's tokens are kept, so asking its boundaries after its matches tokenizes it once. */

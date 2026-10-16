@@ -28,7 +28,7 @@ interface Vocabulary {
   progression: {
     kklcStep: number;             // KKLC (Kanji Kentei) chapter step this word's kanji require. 99999 if its kanji fall outside the KKLC index.
   };
-  components?: string[];          // IDs of other vocab entries contained within this one
+  components?: string[];          // IDs of other vocab entries contained within this one (a word learned in kana also by its kana, on whole tokens: する in 気がする; never a lone particle)
   parents?: string[];             // IDs of vocab entries this word is a component of
   senses: Sense[];
   usageHints?: {
