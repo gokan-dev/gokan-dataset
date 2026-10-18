@@ -1,5 +1,7 @@
 import { describe, it, expect } from 'vitest';
-import { coarsePosSet, sharesPos, normalizeGloss, sharedGlosses, glossOverlap, senseCovered, kanjiStem, isTransitivityPair, sharedGlossList, overlapScore, autoTier, synonymForms } from './build-synonyms';
+import { coarsePosSet, sharesPos, normalizeGloss, sharedGlosses, glossOverlap, senseCovered, kanjiStem, isTransitivityPair, sharedGlossList, overlapScore, autoTier, synonymForms, applyOverrides } from './build-synonyms';
+import type { SynonymEntry } from './build-synonyms';
+import fs from 'fs';
 
 const S = (...xs: string[]) => new Set(xs);
 
@@ -241,5 +243,83 @@ describe('synonymForms (answerable forms embedded on each entry)', () => {
         const here = { writtenForm: { kanji: '此処' }, reading: { primary: 'ここ' }, senses: [{ pos: ['pn'] }] };
         expect(synonymForms({ ...here, usuallyKana: true }).u).toBe(true);
         expect('u' in synonymForms(here)).toBe(false);
+    });
+});
+
+describe('applyOverrides (data/raw/vocab/synonyms.json)', () => {
+    const byId = new Map([['a', { glosses: S('stop', 'fill') }], ['b', { glosses: S('stop', 'cease') }], ['c', { glosses: S('cease') }]]);
+    const auto = (): Map<string, Omit<SynonymEntry, 'id'>> => new Map([
+        ['a b', { relation: 'interchangeable', shared: ['stop'], overlap: 0.5 }],
+        ['b c', { relation: 'confusable', shared: ['cease'], overlap: 1 }],
+    ]);
+
+    it('demotes a clustered pair and marks it curated, with its shared glosses', () => {
+        const relations = auto();
+        expect(applyOverrides(relations, { clusters: [{ ids: ['b', 'a'], relation: 'confusable' }] }, byId)).toEqual({ excluded: 0, promoted: 1, handAdded: 0 });
+        expect(relations.get('a b')).toEqual({ relation: 'confusable', shared: ['stop'], overlap: 0.5, curated: true });
+    });
+
+    it('drops an excluded pair', () => {
+        const relations = auto();
+        applyOverrides(relations, { exclude: [['c', 'b']] }, byId);
+        expect(relations.has('b c')).toBe(false);
+    });
+
+    it('fails on a cluster id the scan skipped', () => {
+        expect(() => applyOverrides(auto(), { clusters: [{ ids: ['a', 'zzz'], relation: 'confusable' }] }, byId)).toThrow(/zzz, which the scan skipped/);
+    });
+
+    it('fails on a pair both excluded and clustered, instead of re-adding it', () => {
+        expect(() => applyOverrides(auto(), { exclude: [['a', 'b']], clusters: [{ ids: ['a', 'b', 'c'], relation: 'confusable' }] }, byId))
+            .toThrow(/a b is both excluded and clustered/);
+    });
+
+    it('fails on one pair in two clusters with different tiers, instead of keeping the last', () => {
+        expect(() => applyOverrides(auto(), {
+            clusters: [{ ids: ['a', 'b'], relation: 'confusable' }, { ids: ['b', 'a', 'c'], relation: 'interchangeable' }],
+        }, byId)).toThrow(/a b is clustered as both confusable and interchangeable/);
+    });
+
+    it('accepts one pair in two clusters with the same tier', () => {
+        expect(() => applyOverrides(auto(), {
+            clusters: [{ ids: ['a', 'b'], relation: 'confusable' }, { ids: ['a', 'b', 'c'], relation: 'confusable' }],
+        }, byId)).not.toThrow();
+    });
+});
+
+/**
+ * Every synonym case reported against grading, on the compiled files: a build change
+ * (a threshold, the normaliser, an exclusion) that drops one fails here, before the
+ * pointer moves in gokan-srs, whose own suite grades the same cases end to end
+ * (src/services/exercise/reportedSynonyms.test.ts).
+ */
+describe('reported synonym pairs, as built', () => {
+    const REPORTED: { asked: string; typed: string; relation: 'interchangeable' | 'confusable'; curated?: true; shared: string[] }[] = [
+        { asked: '1487400', typed: '1355970', relation: 'confusable', curated: true, shared: ['always'] }, // 必ず / 常に
+        { asked: '1396130', typed: '1595730', relation: 'interchangeable', curated: true, shared: ['all', 'whole'] }, // 全部 / 全て
+        { asked: '1407980', typed: '1236650', relation: 'interchangeable', curated: true, shared: ['likely', 'probably'] }, // 多分 / 恐らく
+        { asked: '1165970', typed: '1293850', relation: 'interchangeable', shared: ['best', 'most'] }, // 一番 / 最高
+        { asked: '1476050', typed: '1436570', relation: 'interchangeable', shared: ['fasten', 'tie'] }, // 縛る / 締める
+        { asked: '1508390', typed: '1508380', relation: 'interchangeable', shared: ['line up'] }, // 並べる / 並ぶ
+        { asked: '1236070', typed: '1580480', relation: 'interchangeable', shared: ['strong'] }, // 強い / 丈夫
+        { asked: '1297650', typed: '1297960', relation: 'interchangeable', shared: ['composition'] }, // 作曲 / 作文
+        { asked: '1221870', typed: '1591990', relation: 'interchangeable', shared: ['be careful', 'take care'] }, // 気を付けて / 気をつける
+        { asked: '1237680', typed: '1347750', relation: 'confusable', shared: ['small'] }, // 狭い / 小さい
+        { asked: '1369070', typed: '1419990', relation: 'confusable', shared: ['man'] }, // 人物 / 男
+        { asked: '1524500', typed: '1310640', relation: 'confusable', curated: true, shared: ['stop'] }, // 埋める / 止む
+    ];
+    const entry = (from: string, to: string): Partial<SynonymEntry> | undefined => {
+        const v = JSON.parse(fs.readFileSync(`./compiled/vocab/${from}.json`, 'utf-8')) as { synonyms?: SynonymEntry[] };
+        return v.synonyms?.find(s => s.id === to);
+    };
+
+    it.each(REPORTED)('$asked / $typed', ({ asked, typed, relation, curated, shared }) => {
+        for (const [from, to] of [[asked, typed], [typed, asked]]) {
+            const e = entry(from, to);
+            expect(e, `${from} lists ${to}`).toBeDefined();
+            expect(e?.relation).toBe(relation);
+            expect(e?.curated).toBe(curated);
+            expect(e?.shared).toEqual(expect.arrayContaining(shared));
+        }
     });
 });

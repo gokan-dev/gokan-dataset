@@ -44,25 +44,28 @@ import path from 'path';
  * >=2-shared-gloss floor. `sharesPos` is kept exported so the POS check is a
  * one-line re-tighten; raising OVERLAP_RATIO is the other precision knob.
  *
- * TIER is where curation happens. An auto-derived pair defaults to
- * `interchangeable` (graded `minor_error` by the app: real-but-reduced credit, and
- * moves on) rather than the old `confusable` (no credit, re-ask). The hand-authored
- * data/raw/vocab/synonyms.json then DEMOTES genuinely non-interchangeable pairs to
- * `confusable`, EXCLUDES false positives, and ADDS pairs that do not gloss-overlap
- * (the escape hatch for both directions). Policy: start lenient, tighten later.
+ * TIER is where curation happens. The hand-authored data/raw/vocab/synonyms.json
+ * DEMOTES genuinely non-interchangeable pairs to `confusable`, EXCLUDES false
+ * positives, and ADDS pairs that do not gloss-overlap (the escape hatch for both
+ * directions). Policy: start lenient, tighten later; a reported false positive is
+ * corrected here by hand (止む / 埋める). `applyOverrides` fails the build on an id
+ * the scan skipped, a pair both excluded and clustered, and a pair given two tiers.
  *
  * CONTEXT. The rules above decide a pair's tier only when the quiz
  * is NOT using the shared meaning. Membership itself is now any shared gloss, and
  * each entry records `shared` (the glosses both words carry) and `overlap` (the
- * ratio score). The app checks `shared` against the text in front of the learner:
- * "Japan is a small country" uses "small", so 小さい answers 狭い correctly there,
- * while in a sentence about a narrow street the same pair falls back to its tier.
+ * ratio score). What an answer earns (gokan-srs services/exercise/wordRelation.ts,
+ * the one reader of these entries in the app):
+ *   - a curated `confusable` pair: neutral (no credit, no penalty), even in context
+ *     (必ず / 常に share "always" and stay confusable in a sentence using it);
+ *   - any other pair whose shared meaning the card's text uses: `correct`
+ *     ("Japan is a small country" uses "small", so 小さい answers 狭い there);
+ *   - out of context, an `interchangeable` pair (auto or curated): `minor_error`;
+ *   - out of context, an auto `confusable` pair: neutral.
  * Why: a word is a synonym of another only in a given sense, and a per-pair verdict
  * computed once at build time cannot know which sense a quiz uses. Pairs the old
- * rules missed (狭い / 小さい at 0.14, 人物 / 男 at 0.10) now exist with tier
- * `confusable`, so out of context they cost nothing and earn nothing. A curated
- * pair is flagged `curated` and the app never overrides its tier from context
- * (必ず / 常に share "always" and stay confusable even in a sentence using it).
+ * rules missed (狭い / 小さい at 0.14, 人物 / 男 at 0.10) exist with tier
+ * `confusable`, so out of context they cost nothing and earn nothing.
  *
  * Inert wherever absent: a word in no cluster gets no `synonyms` field and grades
  * exactly as it does today.
@@ -302,7 +305,7 @@ interface Word {
     vt: boolean;            // carries a transitive-verb sense
 }
 
-interface RawOverrides {
+export interface RawOverrides {
     clusters?: { ids: string[]; relation: SynonymRelation }[];
     exclude?: [string, string][];
 }
@@ -310,6 +313,58 @@ interface RawOverrides {
 /** Undirected pair key, order-independent. */
 function pairKey(a: string, b: string): string {
     return a < b ? `${a} ${b}` : `${b} ${a}`;
+}
+
+type OverridePair = Omit<SynonymEntry, 'id'>;
+
+/**
+ * Applies data/raw/vocab/synonyms.json to the auto pairs, in place: `exclude` drops a
+ * pair, then each cluster sets a curated tier on every pair inside it. Throws on a
+ * curation the build would otherwise apply silently and wrongly:
+ * - an id the scan skipped (a typo, or a word with no glosses): its pair would ship
+ *   with no forms, so grading could never match it;
+ * - a pair both excluded and clustered: the cluster used to re-add it unnoticed;
+ * - one pair in two clusters with different tiers: the last cluster used to win.
+ */
+export function applyOverrides(
+    relations: Map<string, OverridePair>,
+    overrides: RawOverrides,
+    byId: Map<string, Pick<Word, 'glosses'>>,
+): { excluded: number; promoted: number; handAdded: number } {
+    const excludedKeys = new Set((overrides.exclude ?? []).map(([a, b]) => pairKey(a, b)));
+    const curatedTier = new Map<string, SynonymRelation>();
+    const problems: string[] = [];
+    for (const [a, b] of overrides.exclude ?? []) {
+        for (const id of [a, b]) if (!byId.has(id)) problems.push(`exclude names ${id}, which the scan skipped`);
+    }
+    for (const { ids, relation } of overrides.clusters ?? []) {
+        for (const id of ids) if (!byId.has(id)) problems.push(`a cluster names ${id}, which the scan skipped`);
+        for (let i = 0; i < ids.length; i++) {
+            for (let j = i + 1; j < ids.length; j++) {
+                const key = pairKey(ids[i], ids[j]);
+                if (excludedKeys.has(key)) problems.push(`${key} is both excluded and clustered`);
+                const earlier = curatedTier.get(key);
+                if (earlier && earlier !== relation) problems.push(`${key} is clustered as both ${earlier} and ${relation}`);
+                curatedTier.set(key, relation);
+            }
+        }
+    }
+    if (problems.length > 0) throw new Error(`${OVERRIDES_PATH}:\n  ${problems.join('\n  ')}`);
+
+    let excluded = 0, promoted = 0, handAdded = 0;
+    for (const key of excludedKeys) if (relations.delete(key)) excluded++;
+    for (const [key, relation] of curatedTier) {
+        if (relations.has(key)) promoted++; else handAdded++;
+        const [x, y] = key.split(' ');
+        const a = byId.get(x), b = byId.get(y);
+        relations.set(key, {
+            relation,
+            shared: a && b ? sharedGlossList(a.glosses, b.glosses) : [],
+            overlap: a && b ? overlapScore(a.glosses, b.glosses) : 0,
+            curated: true,
+        });
+    }
+    return { excluded, promoted, handAdded };
 }
 
 async function main() {
@@ -396,26 +451,7 @@ async function main() {
     const overrides: RawOverrides = fs.existsSync(OVERRIDES_PATH)
         ? JSON.parse(fs.readFileSync(OVERRIDES_PATH, 'utf-8'))
         : {};
-    let excluded = 0, promoted = 0, handAdded = 0;
-    for (const [a, b] of overrides.exclude ?? []) {
-        if (relations.delete(pairKey(a, b))) excluded++;
-    }
-    for (const cluster of overrides.clusters ?? []) {
-        const { ids: cids, relation } = cluster;
-        for (let i = 0; i < cids.length; i++) {
-            for (let j = i + 1; j < cids.length; j++) {
-                const key = pairKey(cids[i], cids[j]);
-                if (relations.has(key)) promoted++; else handAdded++;
-                const a = byId.get(cids[i]), b = byId.get(cids[j]);
-                relations.set(key, {
-                    relation,
-                    shared: a && b ? sharedGlossList(a.glosses, b.glosses) : [],
-                    overlap: a && b ? overlapScore(a.glosses, b.glosses) : 0,
-                    curated: true,
-                });
-            }
-        }
-    }
+    const { excluded, promoted, handAdded } = applyOverrides(relations, overrides, byId);
 
     // Build the symmetric adjacency, then embed each word's list into its OWN
     // compiled vocab file (per-vocab delivery - see the file header) rather than one
@@ -423,8 +459,7 @@ async function main() {
     const index = new Map<string, (SynonymEntry & Partial<SynonymForms>)[]>();
     const add = (from: string, to: string, pair: Pair) => {
         const list = index.get(from) ?? [];
-        // A hand-added pair can name a word the scan skipped (no major POS);
-        // its entry then carries no forms and a consumer falls back to fetching it.
+        // Every curated id is a scanned word (applyOverrides), so every entry carries forms.
         list.push({ id: to, ...pair, ...byId.get(to)?.forms });
         index.set(from, list);
     };
