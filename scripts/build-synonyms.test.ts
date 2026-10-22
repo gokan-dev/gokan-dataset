@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { coarsePosSet, sharesPos, normalizeGloss, sharedGlosses, glossOverlap, senseCovered, kanjiStem, isTransitivityPair, sharedGlossList, overlapScore, autoTier, synonymForms, applyOverrides } from './build-synonyms';
+import { coarsePosSet, sharesPos, normalizeGloss, sharedGlosses, glossOverlap, senseCovered, kanjiStem, isTransitivityPair, sharedGlossList, overlapScore, autoTier, synonymForms, applyOverrides, isRanked } from './build-synonyms';
 import type { SynonymEntry } from './build-synonyms';
 import fs from 'fs';
 
@@ -246,6 +246,18 @@ describe('synonymForms (answerable forms embedded on each entry)', () => {
     });
 });
 
+describe('isRanked (whether an entry carries its frequency rank `f`)', () => {
+    it('is true for a word JPDB ranks by either spelling', () => {
+        expect(isRanked({ frequency: { kanjiRank: 120 } })).toBe(true);
+        expect(isRanked({ frequency: { kanjiRank: 999999, kanaRank: 4000 } })).toBe(true);
+    });
+
+    it("is false for build-data's placeholder, or no frequency at all", () => {
+        expect(isRanked({ frequency: { kanjiRank: 999999, kanaRank: 999999 } })).toBe(false);
+        expect(isRanked({})).toBe(false);
+    });
+});
+
 describe('applyOverrides (data/raw/vocab/synonyms.json)', () => {
     const byId = new Map([['a', { glosses: S('stop', 'fill') }], ['b', { glosses: S('stop', 'cease') }], ['c', { glosses: S('cease') }]]);
     const auto = (): Map<string, Omit<SynonymEntry, 'id'>> => new Map([
@@ -321,5 +333,12 @@ describe('reported synonym pairs, as built', () => {
             expect(e?.curated).toBe(curated);
             expect(e?.shared).toEqual(expect.arrayContaining(shared));
         }
+    });
+
+    it("carries the other word's frequency rank, its position in index/frequency.json", () => {
+        const frequency = JSON.parse(fs.readFileSync('./compiled/index/frequency.json', 'utf-8')) as { id: string }[];
+        const rank = frequency.findIndex(e => e.id === '1355970') + 1;
+        expect(rank).toBeGreaterThan(0);
+        expect((entry('1487400', '1355970') as { f?: number } | undefined)?.f).toBe(rank);
     });
 });

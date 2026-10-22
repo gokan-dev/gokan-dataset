@@ -262,6 +262,12 @@ export interface SynonymForms {
     pos?: string[];
     /** Learned in kana (Vocabulary.usuallyKana): a consumer naming the word shows `r[0]`, not `w[0]`. */
     u?: true;
+    /**
+     * The word's frequency rank: its 1-based position in index/frequency.json. Absent
+     * when JPDB does not rank it (those sit at the end of the file in no real order).
+     * Lets a word page order and cut its synonyms without loading that 3 MB index.
+     */
+    f?: number;
 }
 
 /** POS codes that decide how a word inflects; every other code is irrelevant to matching an answer. */
@@ -292,6 +298,15 @@ export function synonymForms(v: CompiledVocabForms): SynonymForms {
     if (pos.length > 0) forms.pos = pos;
     if (v.usuallyKana) forms.u = true;
     return forms;
+}
+
+/** The rank JPDB gives a word with none (build-data.ts): such a word has no real frequency rank. */
+const UNRANKED = 999999;
+
+/** Whether the word has a frequency rank of its own, rather than build-data's placeholder. */
+export function isRanked(v: { frequency?: { kanjiRank?: number; kanaRank?: number } }): boolean {
+    const { kanjiRank, kanaRank } = v.frequency ?? {};
+    return [kanjiRank, kanaRank].some(r => r !== undefined && r < UNRANKED);
 }
 
 interface Word {
@@ -377,6 +392,7 @@ async function main() {
     // Full coverage - learners are drilled well past any top-N cutoff, and per-vocab
     // delivery (below) makes covering everything affordable.
     const ids = frequency.map(e => e.id);
+    const rankOf = new Map(ids.map((id, i) => [id, i + 1]));
 
     // Load every word with glosses, whatever its part of speech. Pairing has been
     // POS-agnostic for a while, but this loader still skipped any word without a
@@ -397,7 +413,7 @@ async function main() {
         const glosses = new Set<string>(senses.flatMap(s => [...s]));
         words.push({
             id, pos, glosses, senses,
-            forms: synonymForms(v),
+            forms: { ...synonymForms(v), ...(isRanked(v) ? { f: rankOf.get(id) } : {}) },
             stem: kanjiStem(v.writtenForm?.kanji ?? ''),
             vi: posCodes.includes('vi'),
             vt: posCodes.includes('vt'),
