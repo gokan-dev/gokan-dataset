@@ -144,6 +144,19 @@ describe('sharedMeanings (a shared gloss counts only when both words use it the 
         expect(sharedMeanings(rai, ji)).toEqual(['next']);
     });
 
+    it('matches a bound-form sense with a word when they share at least 3 glosses that way (以外 / 他), not 2', () => {
+        const igai = word({ glosses: ['excluding', 'except (for)', 'apart from', 'other than', 'besides'], pos: ['n-suf'] });
+        const hoka = word({ glosses: ['another', 'other'], pos: ['n', 'adj-no'] }, { glosses: ['except', 'but', 'other than', 'apart from'], pos: ['n'] });
+        expect(sharedMeanings(igai, hoka)).toEqual(['apart from', 'except', 'other than']);
+        const two = word({ glosses: ['other than', 'apart from', 'aside'], pos: ['n'] });
+        const one = word({ glosses: ['other than', 'aside', 'beside'], pos: ['n'] });
+        expect(sharedMeanings(igai, two)).toEqual([]);
+        expect(sharedMeanings(igai, one)).toEqual([]);
+        // The other rules still apply to the glosses counted: a verb gloss never matches a noun one.
+        const verbs = word({ glosses: ['to except', 'to exclude', 'apart from', 'other than'], pos: ['v5r', 'vt'] });
+        expect(sharedMeanings(igai, verbs)).toEqual([]);
+    });
+
     it('matches an interjection only with an interjection or an expression, a conjunction with a conjunction, an adverb or an expression', () => {
         const stopInt = word({ glosses: ['stop!', 'cut it out!'], pos: ['int'] });
         const teisha = word({ glosses: ['stop (of a vehicle)', 'stopping'], pos: ['n', 'vs', 'vi'] });
@@ -413,6 +426,8 @@ describe('reported synonym pairs, as built', () => {
         { asked: '1496670', typed: '1345250', relation: 'interchangeable', shared: ['woman'] }, // 婦人 / 女性
         // and a pair dropping お目にかかる's rare sense would promote to "=".
         { asked: '1413180', typed: '1535140', relation: 'confusable', shared: ['meet'] }, // 大会 / お目にかかる
+        // A bound-form sense sharing 3 or more glosses with a word still pairs.
+        { asked: '1155090', typed: '1203260', relation: 'interchangeable', shared: ['apart from', 'besides', 'except', 'in addition to', 'other than', 'outside'] }, // 以外 / 他
     ];
     /** Pairs that share an English gloss used two different ways: never listed. */
     const UNRELATED: [string, string][] = [

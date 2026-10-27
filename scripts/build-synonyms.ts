@@ -28,7 +28,9 @@ import path from 'path';
  *     "state", 書く "to pen" and 筆 "pen". A suru noun's bare gloss stands for its verb
  *     too (利用 "use" and 使う "to use"), and an expression matches either;
  *   - a sense that is only a prefix, suffix or counter is a bound form, not a word:
- *     来 "next (year, spring, etc.)" is not a synonym of ここ "the next ... days";
+ *     来 "next (year, spring, etc.)" is not a synonym of ここ "the next ... days". Unless
+ *     the two share at least BOUND_FORM_SHARED glosses that way: 以外 (a suffix) and 他
+ *     share six, which an English coincidence never gives;
  *   - an interjection sense matches only an interjection or an expression (嫌 "stop!"
  *     is not 停車 "stop"), a conjunction sense only a conjunction, an adverb or an
  *     expression (ところで "now" is not これ "now");
@@ -320,15 +322,23 @@ function functionWordFits(x: GlossUse, y: GlossUse): boolean {
     return true;
 }
 
-/** Do two senses use a gloss they share the same way? See MEMBERSHIP in the file header. */
-export function usesMatch(x: GlossUse, y: GlossUse): boolean {
+/** Do two senses use a gloss they share the same way? See MEMBERSHIP in the file header.
+ *  `boundForms: false` leaves out the bound-form rule (`BOUND_FORM_SHARED`). */
+export function usesMatch(x: GlossUse, y: GlossUse, boundForms = true): boolean {
     // "to face" is the verb, "face" the noun; a suru noun's bare gloss stands for its
     // verb, and an expression for either.
     const sameKind = x.pos.includes('exp') || y.pos.includes('exp') || x.verb === y.verb
         || (!x.verb && x.pos.includes('vs')) || (!y.verb && y.pos.includes('vs'));
-    return sameKind && only(x.pos, AFFIX_POS) === only(y.pos, AFFIX_POS)
+    return sameKind && (!boundForms || only(x.pos, AFFIX_POS) === only(y.pos, AFFIX_POS))
         && functionWordFits(x, y) && functionWordFits(y, x);
 }
+
+/** A bound-form sense still pairs with a word when the two share this many glosses
+ *  that way: 以外 (a suffix) and 他 share six (apart from, besides, except...), which one
+ *  shared English word never does by chance. Measured on the pairs a page can show, 3
+ *  changes 120 of them, 27.5% confirmed by Japanese WordNet or JMdict cross-references
+ *  against 17.2% for all shown pairs; 2 changes 532 at 11% (gokan-srs docs/MODIFICATION_LOG.md). */
+const BOUND_FORM_SHARED = 3;
 
 /** An English verb gloss: "to face", "(to be) able to". */
 const isVerbGloss = (gloss: string) => /^to\s/i.test(gloss.replace(/^\s*\([^)]*\)\s*/, ''));
@@ -357,12 +367,15 @@ export function readSenses(compiled: CompiledSense[]): Pick<Word, 'senses' | 'gl
     return { senses, glosses: new Set(uses.keys()), uses, size };
 }
 
-/** The glosses two words share and use the same way (`usesMatch`), sorted so the output is stable. */
+/** The glosses two words share and use the same way (`usesMatch`), sorted so the output
+ *  is stable. Without the bound-form rule when that gives `BOUND_FORM_SHARED` or more. */
 export function sharedMeanings(a: Pick<Word, 'uses'>, b: Pick<Word, 'uses'>): string[] {
-    return [...a.uses]
-        .filter(([g, xs]) => (b.uses.get(g) ?? []).some(y => xs.some(x => usesMatch(x, y))))
+    const shared = (boundForms: boolean) => [...a.uses]
+        .filter(([g, xs]) => (b.uses.get(g) ?? []).some(y => xs.some(x => usesMatch(x, y, boundForms))))
         .map(([g]) => g)
         .sort();
+    const loose = shared(false);
+    return loose.length >= BOUND_FORM_SHARED ? loose : shared(true);
 }
 
 /** One entry of a compiled vocab file's `synonyms` list. */
