@@ -21,14 +21,37 @@ import path from 'path';
  * outside the pool got no synonym support at all. Per-vocab delivery makes full
  * coverage affordable (each file grows by its own handful of entries).
  *
+ * MEMBERSHIP is a shared normalized gloss that both words USE THE SAME WAY
+ * (`sharedMeanings`, `usesMatch`). Sharing the English word is not enough when it
+ * means two different things, and these cases can be told apart from the data alone:
+ *   - an English verb gloss is not a noun or adjective one: 述べる "to state" and 国家
+ *     "state", 書く "to pen" and 筆 "pen". A suru noun's bare gloss stands for its verb
+ *     too (利用 "use" and 使う "to use"), and an expression matches either;
+ *   - a sense that is only a prefix, suffix or counter is a bound form, not a word:
+ *     来 "next (year, spring, etc.)" is not a synonym of ここ "the next ... days". Unless
+ *     the two share at least BOUND_FORM_SHARED glosses that way: 以外 (a suffix) and 他
+ *     share six, which an English coincidence never gives;
+ *   - an interjection sense matches only an interjection or an expression (嫌 "stop!"
+ *     is not 停車 "stop"), a conjunction sense only a conjunction, an adverb or an
+ *     expression (ところで "now" is not これ "now");
+ *   - a rare, archaic or dated sense (`isRareSense`, the senses a word page hides) does
+ *     not count, unless the word has no other (婦人's one sense is dated).
+ * Measured on the pairs a word page can show (both words in the 10,000 most frequent):
+ * these remove 16% of them, about 10 times less often confirmed by Japanese WordNet
+ * than the pairs they keep, and keep every reported case (gokan-srs docs/MODIFICATION_LOG.md).
+ * What they cannot see is one polysemous English word shared in two meanings by
+ * two words of the same kind (国家 "state" / 容態 "state (of health)").
+ *
  * OUT-OF-CONTEXT TIER is auto-derived and deliberately LENIENT, REGARDLESS of part
- * of speech (see CONTEXT below for membership). A pair is `interchangeable` when ANY of:
- *   - their gloss sets overlap (`glossOverlap`): >= 1 shared normalized sense that
- *     is at least OVERLAP_RATIO of the smaller word's set. This is deliberately low
- *     enough to accept single-shared English homographs (作文 "essay" / 作曲 "music"
- *     share only "composition", 1/3 = 0.33) - a decision to prefer accepting a
- *     defensible answer over marking it wrong, even when the shared gloss is an
- *     English coincidence (see the tier note), or
+ * of speech (see CONTEXT below). A pair is `interchangeable` when ANY of:
+ *   - their gloss sets overlap (`overlaps`): the shared glosses are at least
+ *     OVERLAP_RATIO of the smaller word's glosses. This is deliberately low enough to
+ *     accept single-shared English homographs (作文 "essay" / 作曲 "music" share only
+ *     "composition", 1/3 = 0.33) - a decision to prefer accepting a defensible answer
+ *     over marking it wrong, even when the shared gloss is an English coincidence. One
+ *     shared gloss must also be at least SINGLE_GLOSS_RATIO of both words together
+ *     (1/√(|A|·|B|)): もう一人 shares only "another" with 今's 11 glosses, 1/3 but
+ *     1/√33 = 0.17, or
  *   - one has a whole SENSE the other expresses entirely (`senseCovered`), which a
  *     flattened ratio dilutes away on a polysemous word: 一番 has 18 glosses across
  *     6 senses, so the 2 it shares with 最高 score 0.25 even though one whole sense
@@ -40,29 +63,35 @@ import path from 'path';
  * Leniency is the point: a learner who types 強い for 丈夫, 締める for 縛る, 並べる for
  * 並ぶ, or 作曲 for 作文 is giving an answer the gloss cue cannot exclude, and being
  * marked flat wrong is the frustration this removes. Two earlier guards were dropped
- * for being too strict: a required SHARED major POS (blocked 強い/丈夫) and a
- * >=2-shared-gloss floor. `sharesPos` is kept exported so the POS check is a
- * one-line re-tighten; raising OVERLAP_RATIO is the other precision knob.
+ * for being too strict: a required SHARED major POS (blocked 強い/丈夫; checked per
+ * sense it loses 一番/最高, so `usesMatch` compares only what the gloss itself shows)
+ * and a >=2-shared-gloss floor. `sharesPos` stays exported for reference. Every
+ * ratio counts all of a word's glosses, rare senses included (`size`): leaving those
+ * senses out of membership must not make a word look more focused and promote its
+ * pairs (お目にかかる's one common gloss would score 1/1 against any word).
  *
- * TIER is where curation happens. An auto-derived pair defaults to
- * `interchangeable` (graded `minor_error` by the app: real-but-reduced credit, and
- * moves on) rather than the old `confusable` (no credit, re-ask). The hand-authored
- * data/raw/vocab/synonyms.json then DEMOTES genuinely non-interchangeable pairs to
- * `confusable`, EXCLUDES false positives, and ADDS pairs that do not gloss-overlap
- * (the escape hatch for both directions). Policy: start lenient, tighten later.
+ * TIER is where curation happens. The hand-authored data/raw/vocab/synonyms.json
+ * DEMOTES genuinely non-interchangeable pairs to `confusable`, EXCLUDES false
+ * positives, and ADDS pairs that do not gloss-overlap (the escape hatch for both
+ * directions). Policy: start lenient, tighten later; a reported false positive is
+ * corrected here by hand (止む / 埋める). `applyOverrides` fails the build on an id
+ * the scan skipped, a pair both excluded and clustered, and a pair given two tiers.
  *
  * CONTEXT. The rules above decide a pair's tier only when the quiz
- * is NOT using the shared meaning. Membership itself is now any shared gloss, and
- * each entry records `shared` (the glosses both words carry) and `overlap` (the
- * ratio score). The app checks `shared` against the text in front of the learner:
- * "Japan is a small country" uses "small", so 小さい answers 狭い correctly there,
- * while in a sentence about a narrow street the same pair falls back to its tier.
+ * is NOT using the shared meaning. Each entry records `shared` (the glosses both
+ * words use the same way) and `overlap` (the ratio score). What an answer earns
+ * (gokan-srs services/exercise/wordRelation.ts,
+ * the one reader of these entries in the app):
+ *   - a curated `confusable` pair: neutral (no credit, no penalty), even in context
+ *     (必ず / 常に share "always" and stay confusable in a sentence using it);
+ *   - any other pair whose shared meaning the card's text uses: `correct`
+ *     ("Japan is a small country" uses "small", so 小さい answers 狭い there);
+ *   - out of context, an `interchangeable` pair (auto or curated): `minor_error`;
+ *   - out of context, an auto `confusable` pair: neutral.
  * Why: a word is a synonym of another only in a given sense, and a per-pair verdict
  * computed once at build time cannot know which sense a quiz uses. Pairs the old
- * rules missed (狭い / 小さい at 0.14, 人物 / 男 at 0.10) now exist with tier
- * `confusable`, so out of context they cost nothing and earn nothing. A curated
- * pair is flagged `curated` and the app never overrides its tier from context
- * (必ず / 常に share "always" and stay confusable even in a sentence using it).
+ * rules missed (狭い / 小さい at 0.14, 人物 / 男 at 0.10) exist with tier
+ * `confusable`, so out of context they cost nothing and earn nothing.
  *
  * Inert wherever absent: a word in no cluster gets no `synonyms` field and grades
  * exactly as it does today.
@@ -81,6 +110,12 @@ const OVERRIDES_PATH = './data/raw/vocab/synonyms.json';
  *  product decision is to over-accept rather than mark a gloss-matching answer
  *  wrong. Raise this to tighten once false positives are worth cutting. */
 const OVERLAP_RATIO = 0.30;
+/** One shared gloss also needs this much of both words together, shared / √(|A|·|B|):
+ *  measured, it moves 10k of the 30k "=" pairs a page can show to "≈", and the "=" left
+ *  are more often confirmed by Japanese WordNet (36% instead of 29%). The same ratio
+ *  for every pair demoted real ones sharing several glosses (また / 再び) and promoted
+ *  two 4-gloss words sharing one (1/4 = 0.25), so it applies to one shared gloss only. */
+const SINGLE_GLOSS_RATIO = 0.25;
 /** Minimum shared glosses outright. */
 const MIN_SHARED = 1;
 /** `senseCovered`'s own floor, kept at 2 and deliberately NOT tied to MIN_SHARED:
@@ -140,15 +175,20 @@ export function sharedGlosses(a: Set<string>, b: Set<string>): number {
     return n;
 }
 
-/** Do two words cluster on gloss overlap? POS-agnostic (see the file header): at
- *  least MIN_SHARED shared normalized senses, forming at least OVERLAP_RATIO of the
- *  smaller word's set. The floor is low enough to accept single-shared English
- *  homographs (作文/作曲 = 1/3) by design; `isTransitivityPair` and `senseCovered`
- *  add the pairs this bag-ratio still misses. */
+/** Do `shared` glosses make words of `a` and `b` glosses overlap? POS-agnostic (see
+ *  the file header): at least MIN_SHARED, forming at least OVERLAP_RATIO of the
+ *  smaller word's glosses, and a single one at least SINGLE_GLOSS_RATIO of both. The
+ *  floor is low enough to accept single-shared English homographs (作文/作曲 = 1/3) by
+ *  design; `isTransitivityPair` and `senseCovered` add the pairs this bag-ratio still
+ *  misses. */
+export function overlaps(shared: number, a: number, b: number): boolean {
+    if (shared < MIN_SHARED || shared / Math.min(a, b) < OVERLAP_RATIO) return false;
+    return shared >= 2 || shared / Math.sqrt(a * b) >= SINGLE_GLOSS_RATIO;
+}
+
+/** `overlaps`, on two gloss sets. */
 export function glossOverlap(a: Set<string>, b: Set<string>): boolean {
-    const shared = sharedGlosses(a, b);
-    if (shared < MIN_SHARED) return false;
-    return shared / Math.min(a.size, b.size) >= OVERLAP_RATIO;
+    return overlaps(sharedGlosses(a, b), a.size, b.size);
 }
 
 /** A word this polysemous covers small senses by accident, so it is not allowed
@@ -172,11 +212,13 @@ const MAX_COVERING_GLOSSES = 12;
  * or a 54-gloss verb covers every two-word sense in the index by chance.
  * The covered sense must be >= MIN_COVERED_SENSE glosses (its own floor, not the
  * relaxed MIN_SHARED), so a single-gloss sense matching by coincidence never fires.
+ * `shared` is what the two words share (`sharedMeanings`), so a gloss the other word
+ * uses another way does not cover; `otherSize` is the covering word's every gloss.
  */
-export function senseCovered(senses: Set<string>[], otherGlosses: Set<string>): boolean {
-    if (otherGlosses.size > MAX_COVERING_GLOSSES) return false;
+export function senseCovered(senses: Set<string>[], otherSize: number, shared: Set<string>): boolean {
+    if (otherSize > MAX_COVERING_GLOSSES) return false;
     return senses.some(sense =>
-        sense.size >= MIN_COVERED_SENSE && sharedGlosses(sense, otherGlosses) === sense.size
+        sense.size >= MIN_COVERED_SENSE && sharedGlosses(sense, shared) === sense.size
     );
 }
 
@@ -208,28 +250,132 @@ export function sharedGlossList(a: Set<string>, b: Set<string>): string[] {
     return [...a].filter(g => b.has(g)).sort();
 }
 
-/** Shared glosses over the smaller word's gloss count, rounded to 2 decimals (the `overlap` field). */
-export function overlapScore(a: Set<string>, b: Set<string>): number {
-    const smaller = Math.min(a.size, b.size);
+/** `shared` glosses over the smaller word's gloss count, rounded to 2 decimals (the `overlap` field). */
+function overlapOf(shared: number, a: number, b: number): number {
+    const smaller = Math.min(a, b);
     if (smaller === 0) return 0;
-    return Math.round((sharedGlosses(a, b) / smaller) * 100) / 100;
+    return Math.round((shared / smaller) * 100) / 100;
 }
 
+/** `overlapOf`, on two gloss sets. */
+export function overlapScore(a: Set<string>, b: Set<string>): number {
+    return overlapOf(sharedGlosses(a, b), a.size, b.size);
+}
+
+type TierWord = Pick<Word, 'glosses' | 'senses' | 'size' | 'stem' | 'vi' | 'vt'>;
+
 /**
- * The OUT-OF-CONTEXT tier of an auto pair. Any shared gloss makes a
- * pair; this decides what it earns when the quiz's own text does not use the
- * shared meaning. The three original detection rules (ratio floor, sense
+ * The OUT-OF-CONTEXT tier of an auto pair. A shared gloss used the same way
+ * makes a pair; this decides what it earns when the quiz's own text does not use
+ * the shared meaning. The three original detection rules (ratio floor, sense
  * coverage, transitivity) still mark a pair `interchangeable` (minor_error);
  * every other pair, typically one shared gloss between two polysemous words
  * (狭い / 小さい share only "small"), is `confusable` (no credit, no penalty).
  * In context the app upgrades either to correct, so this tier only matters when
- * the sentence or gloss cue uses a different sense.
+ * the sentence or gloss cue uses a different sense. `shared` defaults to every
+ * gloss the two words carry.
  */
-export function autoTier(a: Pick<Word, 'glosses' | 'senses' | 'stem' | 'vi' | 'vt'>, b: Pick<Word, 'glosses' | 'senses' | 'stem' | 'vi' | 'vt'>): SynonymRelation {
-    const overlaps = glossOverlap(a.glosses, b.glosses);
-    const covered = sharedGlosses(a.glosses, b.glosses) >= MIN_SHARED
-        && (senseCovered(a.senses, b.glosses) || senseCovered(b.senses, a.glosses));
-    return overlaps || covered || isTransitivityPair(a, b) ? 'interchangeable' : 'confusable';
+export function autoTier(a: TierWord, b: TierWord, shared: Set<string> = new Set(sharedGlossList(a.glosses, b.glosses))): SynonymRelation {
+    if (shared.size < MIN_SHARED) return 'confusable';
+    const covered = senseCovered(a.senses, b.size, shared) || senseCovered(b.senses, a.size, shared);
+    return overlaps(shared.size, a.size, b.size) || covered || isTransitivityPair(a, b) ? 'interchangeable' : 'confusable';
+}
+
+/** Sense tags whose senses a word page hides: gokan-srs reads @gokan/dataset-schema's
+ *  RARE_SENSE_TAGS in isRareSense, and these must stay the same, or grading would pair
+ *  through a sense the page does not show. */
+const RARE_SENSE_TAGS = new Set(['arch', 'obs', 'rare', 'dated']);
+/** A sense carrying only these is a bound form (a prefix, suffix or counter), not a word. */
+const AFFIX_POS = new Set(['pref', 'suf', 'n-pref', 'n-suf', 'ctr']);
+const INTERJECTION_POS = new Set(['int']);
+const CONJUNCTION_POS = new Set(['conj']);
+
+/** A sense as a compiled vocab file stores it, the fields read here. */
+interface CompiledSense {
+    pos?: string[];
+    glosses?: string[];
+    misc?: { isArchaic?: boolean; isRare?: boolean; rawTags?: string[] };
+}
+
+/** A rare, archaic, obsolete or dated sense: one a word page hides (gokan-srs isRareSense). */
+export function isRareSense(sense: CompiledSense): boolean {
+    const misc = sense.misc ?? {};
+    return misc.isArchaic === true || misc.isRare === true || (misc.rawTags ?? []).some(tag => RARE_SENSE_TAGS.has(tag));
+}
+
+/** How a sense uses one of its glosses: what tells whether two words sharing it mean the same thing. */
+export interface GlossUse {
+    /** The English is a verb ("to face"), not a noun or adjective ("face"). */
+    verb: boolean;
+    /** The sense's POS codes. */
+    pos: string[];
+}
+
+const only = (pos: string[], codes: ReadonlySet<string>) => pos.length > 0 && pos.every(p => codes.has(p));
+
+/** One side of the function-word rule: an interjection sense ("stop!") fits only an
+ *  interjection or an expression, a conjunction ("now") a conjunction, an adverb or an
+ *  expression; any other sense fits anything. */
+function functionWordFits(x: GlossUse, y: GlossUse): boolean {
+    if (only(x.pos, INTERJECTION_POS)) return y.pos.includes('int') || y.pos.includes('exp');
+    if (only(x.pos, CONJUNCTION_POS)) return y.pos.some(p => p === 'conj' || p === 'adv' || p === 'exp');
+    return true;
+}
+
+/** Do two senses use a gloss they share the same way? See MEMBERSHIP in the file header.
+ *  `boundForms: false` leaves out the bound-form rule (`BOUND_FORM_SHARED`). */
+export function usesMatch(x: GlossUse, y: GlossUse, boundForms = true): boolean {
+    // "to face" is the verb, "face" the noun; a suru noun's bare gloss stands for its
+    // verb, and an expression for either.
+    const sameKind = x.pos.includes('exp') || y.pos.includes('exp') || x.verb === y.verb
+        || (!x.verb && x.pos.includes('vs')) || (!y.verb && y.pos.includes('vs'));
+    return sameKind && (!boundForms || only(x.pos, AFFIX_POS) === only(y.pos, AFFIX_POS))
+        && functionWordFits(x, y) && functionWordFits(y, x);
+}
+
+/** A bound-form sense still pairs with a word when the two share this many glosses
+ *  that way: 以外 (a suffix) and 他 share six (apart from, besides, except...), which one
+ *  shared English word never does by chance. Measured on the pairs a page can show, 3
+ *  changes 120 of them, 27.5% confirmed by Japanese WordNet or JMdict cross-references
+ *  against 17.2% for all shown pairs; 2 changes 532 at 11% (gokan-srs docs/MODIFICATION_LOG.md). */
+const BOUND_FORM_SHARED = 3;
+
+/** An English verb gloss: "to face", "(to be) able to". */
+const isVerbGloss = (gloss: string) => /^to\s/i.test(gloss.replace(/^\s*\([^)]*\)\s*/, ''));
+
+/**
+ * What the pair scan reads of a word's senses. A rare sense (`isRareSense`) is left
+ * out unless every sense is rare, so a word page and grading pair through the same
+ * senses; `size` still counts every gloss, rare senses included (see the file header).
+ */
+export function readSenses(compiled: CompiledSense[]): Pick<Word, 'senses' | 'glosses' | 'uses' | 'size'> {
+    const glossed = compiled.filter(s => (s.glosses ?? []).some(g => normalizeGloss(g)));
+    const common = glossed.filter(s => !isRareSense(s));
+    const senses: Set<string>[] = [];
+    const uses = new Map<string, GlossUse[]>();
+    for (const sense of common.length > 0 ? common : glossed) {
+        const set = new Set<string>();
+        for (const raw of sense.glosses ?? []) {
+            const g = normalizeGloss(raw);
+            if (!g) continue;
+            set.add(g);
+            uses.set(g, [...(uses.get(g) ?? []), { verb: isVerbGloss(raw), pos: sense.pos ?? [] }]);
+        }
+        senses.push(set);
+    }
+    const size = new Set(glossed.flatMap(s => (s.glosses ?? []).map(normalizeGloss).filter(Boolean))).size;
+    return { senses, glosses: new Set(uses.keys()), uses, size };
+}
+
+/** The glosses two words share and use the same way (`usesMatch`), sorted so the output
+ *  is stable. Without the bound-form rule when that gives `BOUND_FORM_SHARED` or more. */
+export function sharedMeanings(a: Pick<Word, 'uses'>, b: Pick<Word, 'uses'>): string[] {
+    const shared = (boundForms: boolean) => [...a.uses]
+        .filter(([g, xs]) => (b.uses.get(g) ?? []).some(y => xs.some(x => usesMatch(x, y, boundForms))))
+        .map(([g]) => g)
+        .sort();
+    const loose = shared(false);
+    return loose.length >= BOUND_FORM_SHARED ? loose : shared(true);
 }
 
 /** One entry of a compiled vocab file's `synonyms` list. */
@@ -259,6 +405,12 @@ export interface SynonymForms {
     pos?: string[];
     /** Learned in kana (Vocabulary.usuallyKana): a consumer naming the word shows `r[0]`, not `w[0]`. */
     u?: true;
+    /**
+     * The word's frequency rank: its 1-based position in index/frequency.json. Absent
+     * when JPDB does not rank it (those sit at the end of the file in no real order).
+     * Lets a word page order and cut its synonyms without loading that 3 MB index.
+     */
+    f?: number;
 }
 
 /** POS codes that decide how a word inflects; every other code is irrelevant to matching an answer. */
@@ -291,18 +443,29 @@ export function synonymForms(v: CompiledVocabForms): SynonymForms {
     return forms;
 }
 
+/** The rank JPDB gives a word with none (build-data.ts): such a word has no real frequency rank. */
+const UNRANKED = 999999;
+
+/** Whether the word has a frequency rank of its own, rather than build-data's placeholder. */
+export function isRanked(v: { frequency?: { kanjiRank?: number; kanaRank?: number } }): boolean {
+    const { kanjiRank, kanaRank } = v.frequency ?? {};
+    return [kanjiRank, kanaRank].some(r => r !== undefined && r < UNRANKED);
+}
+
 interface Word {
     id: string;
     forms: SynonymForms;
     pos: Set<string>;       // every coarse class the word carries
-    glosses: Set<string>;   // normalized, flattened across senses
-    senses: Set<string>[];  // normalized, kept per sense for senseCovered
+    glosses: Set<string>;   // normalized, flattened across the senses pairs are read from (readSenses)
+    senses: Set<string>[];  // the same, kept per sense for senseCovered
+    uses: Map<string, GlossUse[]>; // how each of those senses uses each gloss, for sharedMeanings
+    size: number;           // every normalized gloss, rare senses included: what the tier's ratios count
     stem: string;           // leading-kanji run of the primary written form
     vi: boolean;            // carries an intransitive-verb sense
     vt: boolean;            // carries a transitive-verb sense
 }
 
-interface RawOverrides {
+export interface RawOverrides {
     clusters?: { ids: string[]; relation: SynonymRelation }[];
     exclude?: [string, string][];
 }
@@ -310,6 +473,58 @@ interface RawOverrides {
 /** Undirected pair key, order-independent. */
 function pairKey(a: string, b: string): string {
     return a < b ? `${a} ${b}` : `${b} ${a}`;
+}
+
+type OverridePair = Omit<SynonymEntry, 'id'>;
+
+/**
+ * Applies data/raw/vocab/synonyms.json to the auto pairs, in place: `exclude` drops a
+ * pair, then each cluster sets a curated tier on every pair inside it. Throws on a
+ * curation the build would otherwise apply silently and wrongly:
+ * - an id the scan skipped (a typo, or a word with no glosses): its pair would ship
+ *   with no forms, so grading could never match it;
+ * - a pair both excluded and clustered: the cluster used to re-add it unnoticed;
+ * - one pair in two clusters with different tiers: the last cluster used to win.
+ */
+export function applyOverrides(
+    relations: Map<string, OverridePair>,
+    overrides: RawOverrides,
+    byId: Map<string, Pick<Word, 'glosses'>>,
+): { excluded: number; promoted: number; handAdded: number } {
+    const excludedKeys = new Set((overrides.exclude ?? []).map(([a, b]) => pairKey(a, b)));
+    const curatedTier = new Map<string, SynonymRelation>();
+    const problems: string[] = [];
+    for (const [a, b] of overrides.exclude ?? []) {
+        for (const id of [a, b]) if (!byId.has(id)) problems.push(`exclude names ${id}, which the scan skipped`);
+    }
+    for (const { ids, relation } of overrides.clusters ?? []) {
+        for (const id of ids) if (!byId.has(id)) problems.push(`a cluster names ${id}, which the scan skipped`);
+        for (let i = 0; i < ids.length; i++) {
+            for (let j = i + 1; j < ids.length; j++) {
+                const key = pairKey(ids[i], ids[j]);
+                if (excludedKeys.has(key)) problems.push(`${key} is both excluded and clustered`);
+                const earlier = curatedTier.get(key);
+                if (earlier && earlier !== relation) problems.push(`${key} is clustered as both ${earlier} and ${relation}`);
+                curatedTier.set(key, relation);
+            }
+        }
+    }
+    if (problems.length > 0) throw new Error(`${OVERRIDES_PATH}:\n  ${problems.join('\n  ')}`);
+
+    let excluded = 0, promoted = 0, handAdded = 0;
+    for (const key of excludedKeys) if (relations.delete(key)) excluded++;
+    for (const [key, relation] of curatedTier) {
+        if (relations.has(key)) promoted++; else handAdded++;
+        const [x, y] = key.split(' ');
+        const a = byId.get(x), b = byId.get(y);
+        relations.set(key, {
+            relation,
+            shared: a && b ? sharedGlossList(a.glosses, b.glosses) : [],
+            overlap: a && b ? overlapScore(a.glosses, b.glosses) : 0,
+            curated: true,
+        });
+    }
+    return { excluded, promoted, handAdded };
 }
 
 async function main() {
@@ -322,6 +537,7 @@ async function main() {
     // Full coverage - learners are drilled well past any top-N cutoff, and per-vocab
     // delivery (below) makes covering everything affordable.
     const ids = frequency.map(e => e.id);
+    const rankOf = new Map(ids.map((id, i) => [id, i + 1]));
 
     // Load every word with glosses, whatever its part of speech. Pairing has been
     // POS-agnostic for a while, but this loader still skipped any word without a
@@ -335,14 +551,11 @@ async function main() {
         const v = JSON.parse(fs.readFileSync(p, 'utf-8'));
         const posCodes: string[] = (v.senses ?? []).flatMap((s: { pos: string[] }) => s.pos ?? []);
         const pos = coarsePosSet(posCodes);
-        const senses: Set<string>[] = (v.senses ?? [])
-            .map((s: { glosses: string[] }) => new Set<string>((s.glosses ?? []).map(normalizeGloss).filter(Boolean)))
-            .filter((s: Set<string>) => s.size > 0);
-        if (senses.length === 0) continue;
-        const glosses = new Set<string>(senses.flatMap(s => [...s]));
+        const read = readSenses(v.senses ?? []);
+        if (read.senses.length === 0) continue;
         words.push({
-            id, pos, glosses, senses,
-            forms: synonymForms(v),
+            id, pos, ...read,
+            forms: { ...synonymForms(v), ...(isRanked(v) ? { f: rankOf.get(id) } : {}) },
             stem: kanjiStem(v.writtenForm?.kanji ?? ''),
             vi: posCodes.includes('vi'),
             vt: posCodes.includes('vt'),
@@ -376,16 +589,18 @@ async function main() {
                 const key = pairKey(a.id, b.id);
                 if (seen.has(key)) continue;
                 seen.add(key);
-                // ANY shared gloss makes a pair. Whether a word is a
-                // synonym depends on the sense the quiz is using, which only the app
-                // knows, so the build records WHICH glosses are shared and lets the
-                // app check them against the sentence or cue in front of the learner.
-                // The original three rules now only set the out-of-context tier
-                // (autoTier). The POS guard stays disabled, as before.
+                // A shared gloss both words use the same way makes a pair. Whether
+                // a word is a synonym depends on the sense the quiz is using, which
+                // only the app knows, so the build records WHICH glosses are shared
+                // and lets the app check them against the sentence or cue in front of
+                // the learner. The original three rules only set the out-of-context
+                // tier (autoTier).
+                const shared = sharedMeanings(a, b);
+                if (shared.length === 0) continue;
                 relations.set(key, {
-                    relation: autoTier(a, b),
-                    shared: sharedGlossList(a.glosses, b.glosses),
-                    overlap: overlapScore(a.glosses, b.glosses),
+                    relation: autoTier(a, b, new Set(shared)),
+                    shared,
+                    overlap: overlapOf(shared.length, a.size, b.size),
                 });
                 autoPairs++;
             }
@@ -396,26 +611,7 @@ async function main() {
     const overrides: RawOverrides = fs.existsSync(OVERRIDES_PATH)
         ? JSON.parse(fs.readFileSync(OVERRIDES_PATH, 'utf-8'))
         : {};
-    let excluded = 0, promoted = 0, handAdded = 0;
-    for (const [a, b] of overrides.exclude ?? []) {
-        if (relations.delete(pairKey(a, b))) excluded++;
-    }
-    for (const cluster of overrides.clusters ?? []) {
-        const { ids: cids, relation } = cluster;
-        for (let i = 0; i < cids.length; i++) {
-            for (let j = i + 1; j < cids.length; j++) {
-                const key = pairKey(cids[i], cids[j]);
-                if (relations.has(key)) promoted++; else handAdded++;
-                const a = byId.get(cids[i]), b = byId.get(cids[j]);
-                relations.set(key, {
-                    relation,
-                    shared: a && b ? sharedGlossList(a.glosses, b.glosses) : [],
-                    overlap: a && b ? overlapScore(a.glosses, b.glosses) : 0,
-                    curated: true,
-                });
-            }
-        }
-    }
+    const { excluded, promoted, handAdded } = applyOverrides(relations, overrides, byId);
 
     // Build the symmetric adjacency, then embed each word's list into its OWN
     // compiled vocab file (per-vocab delivery - see the file header) rather than one
@@ -423,8 +619,7 @@ async function main() {
     const index = new Map<string, (SynonymEntry & Partial<SynonymForms>)[]>();
     const add = (from: string, to: string, pair: Pair) => {
         const list = index.get(from) ?? [];
-        // A hand-added pair can name a word the scan skipped (no major POS);
-        // its entry then carries no forms and a consumer falls back to fetching it.
+        // Every curated id is a scanned word (applyOverrides), so every entry carries forms.
         list.push({ id: to, ...pair, ...byId.get(to)?.forms });
         index.set(from, list);
     };

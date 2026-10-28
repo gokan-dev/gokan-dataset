@@ -1,8 +1,10 @@
 import fs from 'fs';
 import path from 'path';
+import kuromoji from 'kuromoji';
 import type { Vocabulary } from '../src/models/vocabulary.model';
 import type { JitenMediaSnapshot, MediaCoverSnapshot, MediaIndexEntry, MediaLibraryWords, MediaSelectionEntry, MediaTitle, MediaWordCount } from '../src/models/media.model';
 import { JITEN_GENRES } from '../src/models/media.model';
+import { katakanaToHiragana } from '../src/utils/tokenizer';
 
 /**
  * Compiles the Jiten snapshots in `data/raw/media/jiten/` into
@@ -64,7 +66,27 @@ export function resolveWords(words: [number, number][], resolve: VocabResolver):
     return [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
 }
 
-export function compileTitle(snapshot: JitenMediaSnapshot, resolve: VocabResolver, cover?: MediaCoverSnapshot): MediaTitle {
+/** Reads a title in hiragana. */
+export type TitleReader = (text: string) => string;
+
+/**
+ * A title's reading from kuromoji, so the library's search can find a title
+ * written in kanji by its kana or romaji: the app cannot read kanji itself
+ * (kuromoji's dictionary is far too large for a search box). Only a token with
+ * kanji takes kuromoji's reading; kana keep their own spelling (は stays は, not
+ * わ) and anything else (Latin, digits, punctuation) is left as written. Names
+ * and coined readings are sometimes misread (古見 as ふるみ): the app searches
+ * AniList's romaji too, which holds the right one.
+ */
+export function buildTitleReader(tokenizer: kuromoji.Tokenizer<kuromoji.IpadicFeatures>): TitleReader {
+    return text => tokenizer.tokenize(text).map(token => {
+        const hasKanji = /\p{Script=Han}/u.test(token.surface_form);
+        const reading = token.reading && token.reading !== '*' ? token.reading : null;
+        return katakanaToHiragana(hasKanji && reading ? reading : token.surface_form);
+    }).join('');
+}
+
+export function compileTitle(snapshot: JitenMediaSnapshot, resolve: VocabResolver, readTitle: TitleReader, cover?: MediaCoverSnapshot): MediaTitle {
     const linkOf = (type: number) => snapshot.links.find(l => l.type === type)?.url;
     const year = snapshot.releaseDate ? Number(snapshot.releaseDate.slice(0, 4)) : NaN;
 
@@ -73,6 +95,7 @@ export function compileTitle(snapshot: JitenMediaSnapshot, resolve: VocabResolve
         kind: 'anime',
         title: {
             original: snapshot.title.original,
+            reading: readTitle(snapshot.title.original),
             ...(snapshot.title.romaji ? { romaji: snapshot.title.romaji } : {}),
             ...(snapshot.title.english ? { english: snapshot.title.english } : {}),
         },
@@ -128,6 +151,9 @@ async function main() {
     console.log('📺 Building media library...');
     const selection = JSON.parse(fs.readFileSync(SELECTION_FILE, 'utf-8')) as MediaSelectionEntry[];
     const resolve = buildVocabResolver(loadVocabs());
+    const tokenizer = await new Promise<kuromoji.Tokenizer<kuromoji.IpadicFeatures>>((resolve, reject) =>
+        kuromoji.builder({ dicPath: 'node_modules/kuromoji/dict' }).build((err, t) => err ? reject(err) : resolve(t)));
+    const readTitle = buildTitleReader(tokenizer);
     // Optional: a title without a cover still compiles, the library just shows a plain card.
     const covers: Record<string, MediaCoverSnapshot> = fs.existsSync(COVERS_FILE)
         ? JSON.parse(fs.readFileSync(COVERS_FILE, 'utf-8'))
@@ -150,7 +176,7 @@ async function main() {
             throw new Error(`No snapshot for selected deck ${jitenDeckId}. Run \`bun run fetch:media\` first (or build with --allow-missing).`);
         }
         const snapshot = JSON.parse(fs.readFileSync(snapshotPath, 'utf-8')) as JitenMediaSnapshot;
-        const title = compileTitle(snapshot, resolve, covers[String(jitenDeckId)]);
+        const title = compileTitle(snapshot, resolve, readTitle, covers[String(jitenDeckId)]);
         fs.writeFileSync(path.join(OUTPUT_DIR, `${title.id}.json`), JSON.stringify(title));
         index.push(toIndexEntry(title));
         library[title.id] = seriesWords(title);
