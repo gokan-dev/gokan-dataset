@@ -1,3 +1,5 @@
+import type { AudioRef } from './audio.model';
+
 /**
  * One tokenized word within a GrammarExample's Japanese sentence. `vocabId` is
  * resolved at build time by matching this word's surface/dictionary form against
@@ -36,6 +38,8 @@ export interface GrammarExample {
      * issue for the small set of points where this happens across all examples.
      */
     patternWordIndices: number[];
+    /** The example read aloud, when a clip of it exists (scripts/attach-audio.ts). */
+    audio?: AudioRef;
 }
 
 /**

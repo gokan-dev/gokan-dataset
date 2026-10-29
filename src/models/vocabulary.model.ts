@@ -1,3 +1,5 @@
+import type { AudioRef } from './audio.model';
+
 export interface Vocabulary {
     /** JMdict word ID (lexeme-level, stable) */
     id: string;
@@ -60,6 +62,9 @@ export interface Vocabulary {
      * decideUsuallyKana in scripts/build-common.ts.
      */
     usuallyKana?: true;
+
+    /** The word read aloud, when a clip of it exists (scripts/attach-audio.ts). */
+    audio?: AudioRef;
 }
 
 export interface MergedVocabInfo {
