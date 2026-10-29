@@ -3,7 +3,7 @@ import path from 'path';
 import { AUDIO_FORMATS, DEFAULT_PARAMS, sha256Hex, type AudioFormat } from '../src/audio/config';
 import { loadCompiled } from '../src/audio/compiled';
 import { encode } from '../src/audio/encode';
-import { planInput, type InputPlan } from '../src/audio/plan';
+import { planInput, type InputPlan, type Pronounce } from '../src/audio/plan';
 import { rankForNewLearner } from '../src/audio/ranking';
 import { grammarItem, selectScope, sentenceItem, wordItem, type AudioItem } from '../src/audio/scope';
 import { cachedAnalysis, DEFAULT_ENGINE_URL, Voicevox } from '../src/audio/voicevox';
@@ -11,15 +11,20 @@ import type { Sentence } from '../src/models/sentence.model';
 import type { Vocabulary } from '../src/models/vocabulary.model';
 
 /**
- * The listening test of gokan-srs#164: a page of clips in a few VOICEVOX voices, both
- * input variants, and the format check, for a person to choose the voice by ear. Also
- * measures, without listening, how often the engine reads a word differently from us and
- * how fast it synthesises. Run by hand, with the engine running:
+ * The listening test of gokan-srs#164: a page of clips in a few VOICEVOX voices, the
+ * forced-reading variant, and the format check, for a person to choose the voice by ear.
+ * Run by hand, with the engine running:
  *
  *   docker run -d --rm -p 127.0.0.1:50021:50021 voicevox/voicevox_engine:cpu-latest
- *   bun scripts/audio-sample.ts [--engine URL] [--measure 3000]
+ *   bun scripts/audio-sample.ts [--engine URL] [--per-level 6] [--grammar 5] [--words 15]
+ *   bun scripts/audio-sample.ts --measure 1000     # only the misreading measurement
  *
- * Writes data/audio/.sample/index.html (clips embedded, one file) and measure.json.
+ * Writes data/audio/.sample/index.html (clips embedded, one file), rewritten as clips are
+ * made so listening can start early; --measure writes measure.json instead: how often the
+ * engine reads one of our words differently, over a fixed sample of the whole scope.
+ *
+ * Which words the engine misreads does not depend on the voice (the text analysis is the
+ * same), so the forced variant is made in the first voice only.
  */
 
 const VOICES = [
@@ -28,10 +33,7 @@ const VOICES = [
     { speaker: '四国めたん', style: 'ノーマル' },
     { speaker: '玄野武宏', style: 'ノーマル' },
 ];
-const SENTENCES_PER_LEVEL = 36;
-const GRAMMAR_SENTENCES = 20;
-const WORDS = 50;
-const FORMAT_TEST = 8;
+const FORMAT_TEST = 6;
 /** Pairs told apart only by pitch, and words often misread out of context. */
 const CHOSEN_WORDS = ['箸', '橋', '端', '雨', '飴', '柿', '牡蠣', '神', '紙', '酒', '鮭', '花', '鼻', '今', '居間', '熱い', '厚い', '日本', '一日', '今日', '明日', '大人', '上手', '人気', '方'];
 const OUT_DIR = './data/audio/.sample';
@@ -56,14 +58,14 @@ interface SampleItem {
     plan?: InputPlan;
 }
 
-function pickSentences(vocab: Vocabulary[], sentencesByVocab: Map<string, Sentence[]>): SampleItem[] {
+function pickSentences(vocab: Vocabulary[], sentencesByVocab: Map<string, Sentence[]>, perLevel: number): SampleItem[] {
     const picked: SampleItem[] = [];
     const seen = new Set<string>();
     for (const level of [5, 4, 3, 2, 1]) {
         const words = byHash(vocab.filter(v => v.jlptLevel === level && (sentencesByVocab.get(v.id)?.length ?? 0) > 0), v => v.id);
         // Half from words whose reading depends on context, where a misreading is likeliest.
         const ordered = [...words.filter(v => v.usageHints?.requiresContext), ...words.filter(v => !v.usageHints?.requiresContext)];
-        const quota = [Math.ceil(SENTENCES_PER_LEVEL / 2), SENTENCES_PER_LEVEL];
+        const quota = [Math.ceil(perLevel / 2), perLevel];
         let count = 0;
         for (const v of ordered) {
             if (count >= (v.usageHints?.requiresContext ? quota[0] : quota[1])) continue;
@@ -73,20 +75,20 @@ function pickSentences(vocab: Vocabulary[], sentencesByVocab: Map<string, Senten
             const item = sentenceItem(top);
             picked.push({ item, kind: 'sentence', label: top.original, reading: '', english: top.en[0]?.text ?? '', level });
             count++;
-            if (count >= SENTENCES_PER_LEVEL) break;
+            if (count >= perLevel) break;
         }
     }
     return picked;
 }
 
-function pickWords(vocab: Vocabulary[]): SampleItem[] {
+function pickWords(vocab: Vocabulary[], count: number): SampleItem[] {
     const byForm = new Map<string, Vocabulary>();
     for (const v of [...vocab].sort((a, b) => a.frequency.kanjiRank - b.frequency.kanjiRank)) {
         if (!byForm.has(v.writtenForm.kanji)) byForm.set(v.writtenForm.kanji, v);
     }
     const chosen = CHOSEN_WORDS.flatMap(w => byForm.get(w) ?? []);
     const rest = byHash(vocab.filter(v => v.jlptLevel && v.usageHints?.requiresContext && !chosen.includes(v)), v => v.id);
-    return [...chosen, ...rest].slice(0, WORDS).map(v => ({
+    return [...chosen, ...rest].slice(0, count).map(v => ({
         item: wordItem(v),
         kind: 'word' as const,
         label: v.writtenForm.kanji || v.reading.primary,
@@ -98,9 +100,36 @@ function pickWords(vocab: Vocabulary[]): SampleItem[] {
 
 interface Clip { id: string; bytes: number; dataUri: string }
 
+/** Without listening: how often the engine reads one of our words differently, over a fixed sample of the whole scope. */
+async function measure(engineVersion: string, scope: AudioItem[], count: number, pronounce: Pronounce): Promise<void> {
+    console.log(`Measuring misreadings over ${count} items of ${scope.length}...`);
+    const sample = byHash(scope, i => i.id).slice(0, count);
+    const started = performance.now();
+    const blank = () => ({ items: 0, misread: 0, spans: 0, spansMisread: 0 });
+    const tally = { word: blank(), sentence: blank(), grammar: blank() };
+    for (const item of sample) {
+        const kind = item.id.startsWith('w:') ? 'word' : item.id.startsWith('s:') ? 'sentence' : 'grammar';
+        const plan = await planInput(item, pronounce);
+        tally[kind].items++;
+        tally[kind].spans += item.readings.length;
+        tally[kind].spansMisread += plan.misread.length;
+        if (plan.misread.length > 0) tally[kind].misread++;
+    }
+    const result = {
+        engineVersion,
+        scopeItems: scope.length,
+        scopeByKind: { word: scope.filter(i => i.id.startsWith('w:')).length, sentence: scope.filter(i => i.id.startsWith('s:')).length, grammar: scope.filter(i => i.id.startsWith('g:')).length },
+        misreadings: tally,
+        planningSecondsPerItem: (performance.now() - started) / 1000 / sample.length,
+    };
+    fs.mkdirSync(OUT_DIR, { recursive: true });
+    fs.writeFileSync(path.join(OUT_DIR, 'measure.json'), JSON.stringify(result, null, 2));
+    console.log(JSON.stringify(result, null, 2));
+}
+
 async function main(): Promise<void> {
     const engine = new Voicevox(arg('engine') ?? DEFAULT_ENGINE_URL);
-    const measureCount = Number(arg('measure') ?? 3000);
+    const measureCount = Number(arg('measure') ?? 0);
     const engineVersion = await engine.version();
     const speakers = await engine.speakers();
     const voices = await Promise.all(VOICES.map(async v => {
@@ -112,67 +141,54 @@ async function main(): Promise<void> {
 
     console.log(`VOICEVOX ${engineVersion}; loading the compiled dataset...`);
     const data = loadCompiled();
-    const scope = selectScope({ vocab: data.vocab, sentencesByVocab: data.sentencesByVocab, grammarExamples: data.grammarExamples, topSentences: 3 });
-    const sentenceTexts = new Set([...data.sentencesByVocab.values()].flat().map(s => s.original));
-    const grammar = byHash(data.grammarExamples.filter(e => !sentenceTexts.has(e.jp)), e => e.jp).slice(0, GRAMMAR_SENTENCES)
-        .map(e => ({ item: grammarItem(e), kind: 'grammar' as const, label: e.jp, reading: '', english: e.en }));
-    const items: SampleItem[] = [...pickSentences(data.vocab, data.sentencesByVocab), ...grammar, ...pickWords(data.vocab)];
-
     const analysis = cachedAnalysis(engine, voices[0].styleId);
+    if (measureCount > 0) {
+        const scope = selectScope({ vocab: data.vocab, sentencesByVocab: data.sentencesByVocab, grammarExamples: data.grammarExamples, topSentences: 3 });
+        await measure(engineVersion, scope, measureCount, analysis.pronounce);
+        return;
+    }
+    const sentenceTexts = new Set([...data.sentencesByVocab.values()].flat().map(s => s.original));
+    const grammar = byHash(data.grammarExamples.filter(e => !sentenceTexts.has(e.jp)), e => e.jp).slice(0, Number(arg('grammar') ?? 5))
+        .map(e => ({ item: grammarItem(e), kind: 'grammar' as const, label: e.jp, reading: '', english: e.en }));
+    const items: SampleItem[] = [
+        ...pickSentences(data.vocab, data.sentencesByVocab, Number(arg('per-level') ?? 6)),
+        ...grammar,
+        ...pickWords(data.vocab, Number(arg('words') ?? 15)),
+    ];
     for (const s of items) s.plan = await planInput(s.item, analysis.pronounce);
 
-    // Clips: every voice reads each item as written, and in kana where it misreads a word.
     const clips = new Map<string, Clip>();
     let synthMs = 0;
-    let synthCount = 0;
     const make = async (id: string, input: string, styleId: number, format: AudioFormat): Promise<void> => {
         const started = performance.now();
         const wav = await engine.synthesis(await engine.audioQuery(input, styleId), styleId, DEFAULT_PARAMS);
         synthMs += performance.now() - started;
-        synthCount++;
         const bytes = await encode(wav, format);
         clips.set(id, { id, bytes: bytes.length, dataUri: `data:${AUDIO_FORMATS[format].contentType};base64,${Buffer.from(bytes).toString('base64')}` });
     };
-    for (const [n, s] of items.entries()) {
-        for (const voice of voices) {
-            await make(`${s.item.id}|${voice.styleId}|written`, s.plan!.written, voice.styleId, 'opus-24k');
-            if (s.plan!.misread.length > 0) await make(`${s.item.id}|${voice.styleId}|forced`, s.plan!.forced, voice.styleId, 'opus-24k');
-        }
-        if (n % 20 === 0) console.log(`${n + 1}/${items.length} items, ${clips.size} clips`);
-    }
     const formatItems = items.filter(s => s.kind === 'sentence').slice(0, FORMAT_TEST);
-    for (const s of formatItems) await make(`${s.item.id}|${voices[0].styleId}|aac`, s.plan!.written, voices[0].styleId, 'aac-32k');
-
-    // Without listening: how often the engine reads one of our words differently, over a sample of the whole scope.
-    console.log(`Measuring misreadings over ${measureCount} items of ${scope.length}...`);
-    const sample = byHash(scope, i => i.id).slice(0, measureCount);
-    const measureStarted = performance.now();
-    const tally = { word: { items: 0, misread: 0, spans: 0, spansMisread: 0 }, sentence: { items: 0, misread: 0, spans: 0, spansMisread: 0 }, grammar: { items: 0, misread: 0, spans: 0, spansMisread: 0 } };
-    for (const item of sample) {
-        const kind = item.id.startsWith('w:') ? 'word' : item.id.startsWith('s:') ? 'sentence' : 'grammar';
-        const plan = await planInput(item, analysis.pronounce);
-        tally[kind].items++;
-        tally[kind].spans += item.readings.length;
-        tally[kind].spansMisread += plan.misread.length;
-        if (plan.misread.length > 0) tally[kind].misread++;
-    }
-    const measureSeconds = (performance.now() - measureStarted) / 1000;
-    const opusClips = [...clips.values()].filter(c => !c.id.endsWith('|aac'));
-    const measure = {
-        engineVersion,
-        scopeItems: scope.length,
-        scopeByKind: { word: scope.filter(i => i.id.startsWith('w:')).length, sentence: scope.filter(i => i.id.startsWith('s:')).length, grammar: scope.filter(i => i.id.startsWith('g:')).length },
-        misreadings: tally,
-        planningSecondsPerItem: measureSeconds / sample.length,
-        synthesisSecondsPerClip: synthMs / 1000 / synthCount,
-        meanOpusBytes: opusClips.reduce((n, c) => n + c.bytes, 0) / opusClips.length,
+    const write = (): void => {
+        fs.mkdirSync(OUT_DIR, { recursive: true });
+        fs.writeFileSync(path.join(OUT_DIR, 'index.html'), page(items, voices, clips, formatItems, engineVersion, synthMs / 1000 / Math.max(1, clips.size)));
     };
 
-    fs.mkdirSync(OUT_DIR, { recursive: true });
-    fs.writeFileSync(path.join(OUT_DIR, 'measure.json'), JSON.stringify(measure, null, 2));
-    fs.writeFileSync(path.join(OUT_DIR, 'index.html'), page(items, voices, clips, formatItems, measure));
-    console.log(JSON.stringify(measure, null, 2));
-    console.log(`Wrote ${OUT_DIR}/index.html (${(fs.statSync(path.join(OUT_DIR, 'index.html')).size / 1e6).toFixed(1)} MB)`);
+    // The format check first, so a phone can be tried while the rest is made.
+    for (const s of formatItems) {
+        await make(`${s.item.id}|${voices[0].styleId}|written`, s.plan!.written, voices[0].styleId, 'opus-24k');
+        await make(`${s.item.id}|${voices[0].styleId}|aac`, s.plan!.written, voices[0].styleId, 'aac-32k');
+    }
+    write();
+    // Every voice reads each item as written; the first voice also with our reading where the engine misreads a word.
+    for (const [n, s] of items.entries()) {
+        for (const voice of voices) await make(`${s.item.id}|${voice.styleId}|written`, s.plan!.written, voice.styleId, 'opus-24k');
+        if (s.plan!.misread.length > 0) await make(`${s.item.id}|${voices[0].styleId}|forced`, s.plan!.forced, voices[0].styleId, 'opus-24k');
+        if (n % 5 === 4) {
+            write();
+            console.log(`${n + 1}/${items.length} items, ${clips.size} clips`);
+        }
+    }
+    write();
+    console.log(`Wrote ${OUT_DIR}/index.html (${(fs.statSync(path.join(OUT_DIR, 'index.html')).size / 1e6).toFixed(1)} MB), ${clips.size} clips`);
 }
 
 function escapeHtml(text: string): string {
@@ -194,9 +210,10 @@ function markedText(s: SampleItem): string {
 
 type SampleVoice = { speaker: string; style: string; styleId: number; policy: string };
 
-function page(items: SampleItem[], voices: SampleVoice[], clips: Map<string, Clip>, formatItems: SampleItem[], measure: Record<string, unknown> & { misreadings: Record<string, { items: number; misread: number; spans: number; spansMisread: number }> }): string {
+function page(items: SampleItem[], voices: SampleVoice[], clips: Map<string, Clip>, formatItems: SampleItem[], engineVersion: string, secondsPerClip: number): string {
     const clipData = Object.fromEntries([...clips.values()].map(c => [c.id, c.dataUri]));
-    const pct = (a: number, b: number) => (b === 0 ? '0%' : `${((100 * a) / b).toFixed(1)}%`);
+    const opus = [...clips.values()].filter(c => !c.id.endsWith('|aac'));
+    const meanKb = opus.length === 0 ? 0 : opus.reduce((n, c) => n + c.bytes, 0) / opus.length / 1000;
     const button = (id: string, label: string) => clips.has(id)
         ? `<span class="clip"><button type="button" data-clip="${escapeHtml(id)}">${escapeHtml(label)}</button><label class="flag"><input type="checkbox" data-flag="${escapeHtml(id)}"> wrong</label></span>`
         : '';
@@ -206,9 +223,9 @@ function page(items: SampleItem[], voices: SampleVoice[], clips: Map<string, Cli
             ${s.reading ? `<p class="meta" lang="ja">${escapeHtml(s.reading)}</p>` : ''}
             <p class="en">${escapeHtml(s.english)}${s.level ? ` <span class="meta">N${s.level}</span>` : ''}</p>
             <div class="clips">${voices.map(v => button(`${s.item.id}|${v.styleId}|written`, v.speaker)).join('')}</div>
-            ${(s.plan?.misread.length ?? 0) > 0 ? `<div class="clips forced"><span class="meta">With our reading:</span>${voices.map(v => button(`${s.item.id}|${v.styleId}|forced`, v.speaker)).join('')}</div>` : ''}
+            ${(s.plan?.misread.length ?? 0) > 0 ? `<div class="clips forced"><span class="meta">With our reading:</span>${button(`${s.item.id}|${voices[0].styleId}|forced`, voices[0].speaker)}</div>` : ''}
         </li>`;
-    const m = measure.misreadings;
+    const pending = items.filter(s => !clips.has(`${s.item.id}|${voices[voices.length - 1].styleId}|written`)).length;
     return `<title>Gokan Voice Test</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -252,20 +269,15 @@ button.playing { background: var(--accent); color: var(--surface); }
 <main>
     <header style="display:grid;gap:8px">
         <h1>Gokan voice test</h1>
-        <p class="lead">Listen for wrong readings, wrong pitch accent and unnatural pauses. Tick "wrong" on any clip with a fault: the counts below add up per voice and are kept in this browser. Words the engine reads differently from our reading are marked, with our reading after them, and get a second row of clips that send our reading instead.</p>
+        <p class="lead">Listen for wrong readings, wrong pitch accent and unnatural pauses. Tick "wrong" on any clip with a fault: the counts below add up per voice and are kept in this browser. Words the engine reads differently from our reading are marked, with our reading after them, and get a second clip in ${escapeHtml(voices[0].speaker)}'s voice that sends our reading instead (which words are misread does not depend on the voice).</p>
+        ${pending > 0 ? `<p class="meta">Still being made: ${pending} of ${items.length} items. This page fills in as clips are made.</p>` : ''}
     </header>
     <section>
         <h2>Faults marked, per voice</h2>
         <div class="scroll"><table class="tally"><thead><tr><th>Voice</th><th>As written</th><th>With our reading</th></tr></thead><tbody>
-        ${voices.map(v => `<tr><td lang="ja">${escapeHtml(v.speaker)}</td><td data-count="${v.styleId}|written">0</td><td data-count="${v.styleId}|forced">0</td></tr>`).join('')}
+        ${voices.map((v, i) => `<tr><td lang="ja">${escapeHtml(v.speaker)}</td><td data-count="${v.styleId}|written">0</td><td ${i === 0 ? `data-count="${v.styleId}|forced"` : ''}>${i === 0 ? '0' : 'not made'}</td></tr>`).join('')}
         </tbody></table></div>
-    </section>
-    <section>
-        <h2>Measured without listening</h2>
-        <div class="scroll"><table><thead><tr><th>Items</th><th>Checked</th><th>Engine reads one of our words differently</th><th>Words misread</th></tr></thead><tbody>
-        ${(['word', 'sentence', 'grammar'] as const).map(k => `<tr><td>${k === 'word' ? 'Word readings' : k === 'sentence' ? 'Sentences' : 'Grammar examples'}</td><td>${m[k].items}</td><td>${m[k].misread} (${pct(m[k].misread, m[k].items)})</td><td>${m[k].spansMisread} of ${m[k].spans} (${pct(m[k].spansMisread, m[k].spans)})</td></tr>`).join('')}
-        </tbody></table></div>
-        <p class="meta">VOICEVOX ${escapeHtml(String(measure.engineVersion))}. First-build scope: ${String(measure.scopeItems)} items. Synthesis ${Number(measure.synthesisSecondsPerClip).toFixed(2)} s per clip on this machine (CPU), planning ${Number(measure.planningSecondsPerItem).toFixed(2)} s per item, ${(Number(measure.meanOpusBytes) / 1000).toFixed(1)} KB per Opus clip.</p>
+        <p class="meta">VOICEVOX ${escapeHtml(engineVersion)} on this machine's CPU: ${secondsPerClip.toFixed(1)} s per clip; ${meanKb.toFixed(1)} KB per Opus clip.</p>
     </section>
     <section>
         <h2>Format check</h2>
