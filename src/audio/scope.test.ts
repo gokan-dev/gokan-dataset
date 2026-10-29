@@ -29,6 +29,15 @@ describe('sentenceItem', () => {
     });
 });
 
+describe('a text with a character outside the BMP', () => {
+    it('is read as written: its offsets are not trusted, kana there could cut the character in half', () => {
+        // s:5058891: the span of 実数 starts inside the 𝑥 (two UTF-16 units).
+        const s = sentence('5058891', '𝑥（実数ではない）', ['a'], { a: [{ start: 2, length: 2, reading: 'じっすう' }] });
+        expect(sentenceItem(s).readings).toEqual([]);
+        expect(grammarItem({ jp: '𠮟る', words: [{ surface: '𠮟る', vocabId: '1', reading: 'しかる' }] }).readings).toEqual([]);
+    });
+});
+
 describe('grammarItem', () => {
     it('gives a reading only to uninflected words: an inflected one carries its dictionary form', () => {
         const item = grammarItem({

@@ -51,6 +51,14 @@ function nonOverlapping(spans: ReadingSpan[]): ReadingSpan[] {
     return kept;
 }
 
+/**
+ * A character outside the Basic Multilingual Plane (𝑥, 𠮟) is two UTF-16 units, and the
+ * match offsets after one are not reliable (s:5058891: 実数's span starts inside the 𝑥).
+ * Such a text is read as written: putting kana at a wrong offset would cut a character
+ * in half or replace the wrong word.
+ */
+const ASTRAL = /[\uD800-\uDFFF]/;
+
 export function sentenceItem(sentence: Pick<Sentence, 'id' | 'original' | 'matches'>): AudioItem {
     const spans: ReadingSpan[] = [];
     for (const matches of Object.values(sentence.matches ?? {})) {
@@ -58,7 +66,8 @@ export function sentenceItem(sentence: Pick<Sentence, 'id' | 'original' | 'match
             if (m.reading) spans.push({ start: m.start, length: m.length, reading: m.reading });
         }
     }
-    return { id: `s:${sentence.id}`, text: sentence.original, readings: nonOverlapping(spans) };
+    const readings = ASTRAL.test(sentence.original) ? [] : nonOverlapping(spans);
+    return { id: `s:${sentence.id}`, text: sentence.original, readings };
 }
 
 /**
@@ -75,7 +84,7 @@ export function grammarItem(example: Pick<GrammarExample, 'jp' | 'words'>): Audi
         }
         offset += word.surface.length;
     }
-    return { id: grammarItemId(example.jp), text: example.jp, readings: nonOverlapping(spans) };
+    return { id: grammarItemId(example.jp), text: example.jp, readings: ASTRAL.test(example.jp) ? [] : nonOverlapping(spans) };
 }
 
 export function grammarItemId(text: string): string {

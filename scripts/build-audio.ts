@@ -7,7 +7,7 @@ import { clipKey } from '../src/audio/key';
 import { LOCAL_CLIPS_DIR, LOCAL_INDEX_PATH, VOICE_PATH, parseManifest, serializeManifest, type ClipManifest } from '../src/audio/manifest';
 import { inputFor, planInput } from '../src/audio/plan';
 import { formatProgressLine, Progress } from '../src/audio/progress';
-import { generationOrder, selectScope, sourceHash } from '../src/audio/scope';
+import { generationOrder, selectScope, sourceHash, type AudioItem } from '../src/audio/scope';
 import { cachedAnalysis, DEFAULT_ENGINE_URL, Voicevox } from '../src/audio/voicevox';
 
 /**
@@ -32,6 +32,7 @@ import { cachedAnalysis, DEFAULT_ENGINE_URL, Voicevox } from '../src/audio/voice
  */
 
 const SAVE_EVERY = 200;
+const MAX_FAILURES_IN_A_ROW = 20;
 const REPORT_EVERY_MS = 10_000;
 
 function arg(name: string): string | undefined {
@@ -104,34 +105,61 @@ async function main(): Promise<void> {
     // Counted from the first clip, not from loading the dataset (about 30 s).
     const deadline = arg('minutes') ? Date.now() + Number(arg('minutes')) * 60_000 : Infinity;
 
-    const queue = [...todo];
-    await Promise.all(Array.from({ length: workers }, async (_, worker) => {
-        while (!stopping && Date.now() < deadline) {
-            const item = queue.shift();
-            if (!item) return;
-            if (fs.existsSync(stopFile)) { stopping = true; return; }
-            const clipInput = inputFor(await planInput(item, analysis.pronounce), config.variant);
-            const key = clipKey({ engine: config.engine, engineVersion: config.engineVersion, styleId: config.styleId, params: config.params, format: config.format, input: clipInput });
-            const file = fileOf(key);
-            // Two items with the same text share one clip.
-            if (!fs.existsSync(file)) {
-                const wav = await engine.synthesis(await analysis.query(clipInput), config.styleId, config.params);
-                const clip = await encode(wav, config.format);
-                // Written whole, then renamed: a run stopped mid-write leaves no broken clip.
-                fs.writeFileSync(`${file}.${worker}.tmp`, clip);
-                fs.renameSync(`${file}.${worker}.tmp`, file);
-                bytes += clip.length;
-            }
-            local.clips[item.id] = { clip: key, src: sourceHash(item) };
-            progress.tick(progress.done + 1, Date.now());
-            if (++sinceSave >= SAVE_EVERY) save();
+    const makeClip = async (item: AudioItem, worker: number): Promise<void> => {
+        const clipInput = inputFor(await planInput(item, analysis.pronounce), config.variant);
+        const key = clipKey({ engine: config.engine, engineVersion: config.engineVersion, styleId: config.styleId, params: config.params, format: config.format, input: clipInput });
+        const file = fileOf(key);
+        // Two items with the same text share one clip.
+        if (!fs.existsSync(file)) {
+            const wav = await engine.synthesis(await analysis.query(clipInput), config.styleId, config.params);
+            const clip = await encode(wav, config.format);
+            // Written whole, then renamed: a run stopped mid-write leaves no broken clip.
+            fs.writeFileSync(`${file}.${worker}.tmp`, clip);
+            fs.renameSync(`${file}.${worker}.tmp`, file);
+            bytes += clip.length;
         }
-    }));
-    clearInterval(timer);
-    save();
-    report();
-    if (progress.done < progress.total) {
+        local.clips[item.id] = { clip: key, src: sourceHash(item) };
+    };
+
+    // One item the engine cannot read is logged and skipped, not the end of the run; a run
+    // of failures means the engine itself is gone, and stops it.
+    const failuresPath = path.join(LOCAL_CLIPS_DIR, 'failures.log');
+    let failures = 0;
+    let failedInARow = 0;
+    const queue = [...todo];
+    try {
+        await Promise.all(Array.from({ length: workers }, async (_, worker) => {
+            while (!stopping && Date.now() < deadline) {
+                const item = queue.shift();
+                if (!item) return;
+                if (fs.existsSync(stopFile)) { stopping = true; return; }
+                try {
+                    await makeClip(item, worker);
+                    failedInARow = 0;
+                } catch (err) {
+                    failures++;
+                    const message = err instanceof Error ? err.message : String(err);
+                    fs.appendFileSync(failuresPath, `${new Date().toISOString()}\t${item.id}\t${JSON.stringify(item.text)}\t${message.split('\n')[0]}\n`);
+                    console.log(`Skipped ${item.id}: ${message.split('\n')[0]}`);
+                    if (++failedInARow >= MAX_FAILURES_IN_A_ROW) {
+                        stopping = true;
+                        console.log(`${MAX_FAILURES_IN_A_ROW} failures in a row: is the engine still running? Stopping.`);
+                    }
+                }
+                progress.tick(progress.done + 1, Date.now());
+                if (++sinceSave >= SAVE_EVERY) save();
+            }
+        }));
+    } finally {
+        clearInterval(timer);
+        save();
+        report();
+    }
+    if (failures > 0) console.log(`${failures} items failed and were skipped (see ${failuresPath}); running again retries them.`);
+    if (stopping || Date.now() >= deadline) {
         console.log(`Stopped with ${(progress.total - progress.done).toLocaleString('en-US')} items left. Run the same command again to continue.`);
+    } else if (failures > 0) {
+        console.log('Done, except the items that failed.');
     } else {
         console.log('Every clip is made. Next: bun run upload:audio -- --bucket NAME --dry-run');
     }
