@@ -1,3 +1,8 @@
 node_modules
 *.log
 .DS_Store
+# Audio (gokan-srs#164): the listening sample, clips waiting for upload, and planned inputs.
+# Clips live in the audio bucket, never here; only data/audio/voice.json and clips.json are committed.
+data/audio/.sample/
+data/audio/.stage/
+data/audio/.plan-cache.json
