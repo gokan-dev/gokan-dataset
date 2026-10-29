@@ -71,7 +71,9 @@ compiled/                 build output, and the only thing most consumers need
     kanji-components.json visual component to the kanji drawn with it
     kanji-orders/{order}.json  the kanji of one learning order (KKLC, RTK, JLPT...) in teaching order
     search.json           compact search index: written form, reading, gloss
+    audio.json            the voice clips are read in, and its credit (once clips exist)
 data/raw/                 upstream sources, Git LFS tracked
+data/audio/               voice.json (the chosen voice) and clips.json (which clips exist); the clips live in a bucket
 scripts/                  the build pipeline
 src/models/               TypeScript types mirroring the compiled shape
 ```
@@ -115,7 +117,19 @@ bun run fetch:media    # snapshot selected titles that have none yet (network, r
 bun run fetch:covers   # record each title's AniList cover URL (network, run by hand, after fetch:media)
 ```
 
-`bun run build:data` chains `build:kanji`, `build:jlpt` and `build:jlpt-coverage` around the main build, and `build:media` after it, so it is usually the only one you need.
+`bun run build:data` chains `build:kanji`, `build:jlpt` and `build:jlpt-coverage` around the main build, and `build:media` and `attach:audio` after it, so it is usually the only one you need.
+
+Audio (words, sentences and grammar examples read aloud, see [docs/SCHEMA.md](docs/SCHEMA.md), Audio) is text-to-speech from a running [VOICEVOX](https://voicevox.hiroshiba.jp/) engine, made by hand:
+
+```bash
+docker run -d --rm -p 127.0.0.1:50021:50021 voicevox/voicevox_engine:cpu-latest   # or the desktop app, or the nvidia image
+bun run sample:audio                                   # the listening test: data/audio/.sample/index.html
+bun run build:audio -- --bucket NAME --dry-run         # how many clips it would write, and what that costs
+bun run build:audio -- --bucket NAME --max-uploads 120000 --minutes 600
+bun run attach:audio                                   # offline: audio fields from data/audio/clips.json
+```
+
+`build:audio` writes only the clips the bucket lacks, at most `--max-uploads` (1,000 by default) per run, and refuses an engine whose version differs from `data/audio/voice.json`'s, since that would rename every clip. It is resumable: stop it at any time and run it again.
 
 The anime in `media/` are listed in `data/raw/media/selection.json`: a few picked by hand, plus Jiten's 100 easiest eligible anime added by `select:media` (Adult and Ecchi genres and titles over 52 episodes are skipped). Adding one by hand means adding its Jiten deck id there, running `bun run fetch:media <id>` to snapshot it into `data/raw/media/jiten/`, then `bun run fetch:covers` and `bun run build:media`. Only selected titles are fetched: Jiten's terms rule out mirroring its whole database.
 
@@ -143,5 +157,6 @@ The compiled output is a derivative work of several upstream sources, each with 
 | [hanabira.org-japanese-content](https://github.com/tristcoil/hanabira.org-japanese-content) | Grammar points | Creative Commons, link back to hanabira.org |
 | [Jiten](https://jiten.moe) | Per-episode anime vocabulary and speech statistics (`media/`) | [CC BY-SA 4.0](https://jiten.moe/terms), attribution required |
 | [AniList](https://anilist.co) | Cover image URLs in `media/` (`cover`) | URLs only, the images stay on AniList's CDN. The artwork belongs to each title's studio and is **not** covered by this repository's license |
+| [VOICEVOX](https://voicevox.hiroshiba.jp/) voice (`index/audio.json`) | Audio clips, by key (`audio.clip`) | The clips are **not** in this repository and **not** covered by its license: they are under the chosen voice's own terms, which require the credit `index/audio.json` gives |
 
 If you redistribute the compiled data, verify compliance with all of the above, not only this repository's own license.
