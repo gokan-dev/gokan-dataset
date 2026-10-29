@@ -18,6 +18,11 @@ import { cachedAnalysis, DEFAULT_ENGINE_URL, Voicevox } from '../src/audio/voice
  *   bun run build:audio -- --bucket NAME --dry-run           # what it would write, and its cost
  *   bun run build:audio -- --bucket NAME --max-uploads 120000 --minutes 600
  *
+ * On a GPU (VOICEVOX's Windows DirectML engine, `run.exe --use_gpu`) a clip takes about
+ * 0.54 s with the default two workers, so the first fill (~107k clips) is about 16 hours;
+ * on a CPU about three times that. The Docker NVIDIA image could not load the voice
+ * models under WSL2; the Windows engine has no such problem.
+ *
  * Every clip is written once, ever (S3 writes are what cost): its name is its content key,
  * the bucket is listed first and only missing keys are written, a run stops at
  * --max-uploads writes (default 1,000), and an engine whose version is not the one in
@@ -47,6 +52,7 @@ async function main(): Promise<void> {
     const maxUploads = Number(arg('max-uploads') ?? 1000);
     const deadline = Date.now() + Number(arg('minutes') ?? 60) * 60_000;
     const topSentences = Number(arg('top') ?? 3);
+    const workers = Math.max(1, Number(arg('workers') ?? 2));
     if (!bucket && !dryRun) throw new Error('--bucket is required (or --dry-run, which then assumes an empty bucket)');
 
     if (!fs.existsSync(VOICE_PATH)) throw new Error(`No voice chosen yet: ${VOICE_PATH} is written once the listening test is decided (gokan-srs#164)`);
@@ -122,15 +128,19 @@ async function main(): Promise<void> {
         fs.rmSync(STAGE_DIR, { recursive: true, force: true });
         fs.mkdirSync(STAGE_DIR, { recursive: true });
         const batch = uploads.write.slice(i, i + BATCH);
-        for (const key of batch) {
-            const item = itemOfKey.get(key);
-            if (!item) throw new Error(`No item for clip ${key}`);
-            // A key taken from clips.json whose clip is gone from the bucket is planned again; the same engine and voice give the same input.
-            const input = await inputOf(item);
-            if (keyFor(input) !== key) throw new Error(`${item.id} plans to another input than its clip ${key} was made from: rerun after removing its entry from clips.json`);
-            const wav = await engine.synthesis(await analysis.query(input), config.styleId, config.params);
-            fs.writeFileSync(path.join(STAGE_DIR, `${key}.${format.extension}`), await encode(wav, config.format));
-        }
+        const queue = [...batch];
+        // Two requests at once keep the engine busy while the previous clip is encoded (measured on a GPU: 0.54 s a clip against 0.72; four is no faster).
+        await Promise.all(Array.from({ length: workers }, async () => {
+            for (let key = queue.shift(); key !== undefined; key = queue.shift()) {
+                const item = itemOfKey.get(key);
+                if (!item) throw new Error(`No item for clip ${key}`);
+                // A key taken from clips.json whose clip is gone from the bucket is planned again; the same engine and voice give the same input.
+                const input = await inputOf(item);
+                if (keyFor(input) !== key) throw new Error(`${item.id} plans to another input than its clip ${key} was made from: rerun after removing its entry from clips.json`);
+                const wav = await engine.synthesis(await analysis.query(input), config.styleId, config.params);
+                fs.writeFileSync(path.join(STAGE_DIR, `${key}.${format.extension}`), await encode(wav, config.format));
+            }
+        }));
         uploadClips(STAGE_DIR, bucket, prefix, format.contentType);
         for (const key of batch) existing.add(key);
         written += batch.length;
