@@ -131,6 +131,8 @@ bun run attach:audio                                   # offline: audio fields f
 
 `build:audio` writes only the clips the bucket lacks, at most `--max-uploads` (1,000 by default) per run, and refuses an engine whose version differs from `data/audio/voice.json`'s, since that would rename every clip. It is resumable: stop it at any time and run it again.
 
+For the full build, use a GPU: VOICEVOX's Windows engine in its DirectML build (`voicevox_engine-windows-directml-<version>.7z` from the [engine releases](https://github.com/VOICEVOX/voicevox_engine/releases), then `run.exe --use_gpu`) makes a clip in about 0.54 s, about 16 hours for the first ~107k clips, against about three times that on a CPU. The Docker NVIDIA image could not load the voice models under WSL2.
+
 The anime in `media/` are listed in `data/raw/media/selection.json`: a few picked by hand, plus Jiten's 100 easiest eligible anime added by `select:media` (Adult and Ecchi genres and titles over 52 episodes are skipped). Adding one by hand means adding its Jiten deck id there, running `bun run fetch:media <id>` to snapshot it into `data/raw/media/jiten/`, then `bun run fetch:covers` and `bun run build:media`. Only selected titles are fetched: Jiten's terms rule out mirroring its whole database.
 
 Sentence linking runs through a Kuromoji-based tokenizer (`src/utils/tokenizer.ts`) that handles compounds and deinflection, so 通っている resolves to 通う rather than splitting into fragments.
