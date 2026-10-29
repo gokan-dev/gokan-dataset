@@ -3,6 +3,9 @@ import { sourceHash, type AudioItem } from './scope';
 
 export const VOICE_PATH = './data/audio/voice.json';
 export const MANIFEST_PATH = './data/audio/clips.json';
+/** The clips made on this machine, and their index (the same shape as clips.json): build:audio writes them, upload:audio reads them. Not committed. */
+export const LOCAL_CLIPS_DIR = './data/audio/.clips';
+export const LOCAL_INDEX_PATH = './data/audio/.clips/index.json';
 
 /** One item's clip: its key, and the hash of the text and readings it was made from. */
 export interface ClipEntry {

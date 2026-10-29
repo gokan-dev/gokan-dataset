@@ -100,6 +100,22 @@ export interface ScopeInput {
 }
 
 /**
+ * The order to make clips in: a word's reading and its sentences together, the most
+ * frequent words first, grammar examples last. A fill that stops halfway has then voiced
+ * the words a learner meets first.
+ */
+export function generationOrder(scope: readonly AudioItem[], input: ScopeInput, rankOf: (vocabId: string) => number): AudioItem[] {
+    const priority = new Map<string, number>();
+    const lower = (id: string, rank: number) => priority.set(id, Math.min(priority.get(id) ?? Infinity, rank));
+    for (const vocab of input.vocab) lower(`w:${vocab.id}`, rankOf(vocab.id));
+    for (const [vocabId, sentences] of input.sentencesByVocab) {
+        for (const s of rankForNewLearner(vocabId, sentences).slice(0, input.topSentences)) lower(`s:${s.id}`, rankOf(vocabId));
+    }
+    const p = (item: AudioItem) => priority.get(item.id) ?? Infinity;
+    return [...scope].sort((a, b) => p(a) - p(b) || (a.id < b.id ? -1 : a.id > b.id ? 1 : 0));
+}
+
+/**
  * The first build's scope (gokan-srs#164): every word's reading, each word's first
  * `topSentences` sentences for a new learner, and every grammar example. A grammar example
  * that is one of our sentences is that sentence's item, so one clip serves both. Sorted by

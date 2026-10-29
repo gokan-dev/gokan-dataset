@@ -23,6 +23,7 @@
     "select:media": "bun scripts/select-easiest-anime.ts",
     "attach:audio": "bun scripts/attach-audio.ts",
     "build:audio": "bun scripts/build-audio.ts",
+    "upload:audio": "bun scripts/upload-audio.ts",
     "sample:audio": "bun scripts/audio-sample.ts",
     "measure:audio": "bun scripts/measure-audio.ts"
   },

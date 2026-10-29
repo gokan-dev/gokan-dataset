@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import type { Sentence } from '../models/sentence.model';
-import { grammarItem, selectScope, sentenceItem, sourceHash, wordItem, type WordForAudio } from './scope';
+import { generationOrder, grammarItem, selectScope, sentenceItem, sourceHash, wordItem, type WordForAudio } from './scope';
 
 function sentence(id: string, original: string, vocabIds: string[], matches: Sentence['matches'] = {}): Sentence {
     return { id, original, en: [{ id: `e${id}`, text: '' }], vocabIds, matches };
@@ -70,6 +70,18 @@ describe('selectScope', () => {
             topSentences: 2,
         });
         expect(scope.map(i => i.id)).toEqual([expect.stringMatching(/^g:/), 's:11', 's:12', 'w:1']);
+    });
+
+    it('makes the most frequent words and their sentences first, grammar examples last', () => {
+        const input = {
+            vocab: [word('1', '今日', 'きょう'), word('2', '雨', 'あめ')],
+            sentencesByVocab: new Map([['2', [sentence('20', '雨。', ['2'])]], ...sentences]),
+            grammarExamples: [{ jp: '雨が降る。', words: [] }],
+            topSentences: 1,
+        };
+        const rank: Record<string, number> = { '1': 50, '2': 3 };
+        const order = generationOrder(selectScope(input), input, id => rank[id] ?? Infinity);
+        expect(order.map(i => i.id)).toEqual(['s:20', 'w:2', 's:11', 'w:1', expect.stringMatching(/^g:/)]);
     });
 
     it('serves a grammar example that is one of our sentences with that sentence', () => {
