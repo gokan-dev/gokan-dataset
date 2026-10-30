@@ -5,21 +5,23 @@ import { readJson } from '../src/audio/compiled';
 import { ensureLfsContent } from '../src/audio/lfs';
 import { CLIPS_DIR, CLIPS_REPO_DIR, MANIFEST_PATH, VOICE_PATH, clipPath, missingClipFiles, parseManifest } from '../src/audio/manifest';
 import { listClipKeys, uploadClips } from '../src/audio/s3';
-import { estimatedPutCost, planUploads } from '../src/audio/uploads';
+import { DEFAULT_MAX_UPLOADS, estimatedPutCost, overCapMessage, planUploads } from '../src/audio/uploads';
 
 /**
  * Puts the committed clips (data/audio/clips/, Git LFS) that the audio bucket lacks into it.
- * Run by gokan-srs's deploy before it publishes a dataset version, and by its "Audio: upload"
- * workflow for a first fill or a voice change, with the only key that can write the bucket.
+ * Run by gokan-srs's deploy before it publishes a dataset version, with the only key that can
+ * write the bucket.
  *
  *   bun run upload:audio -- --bucket NAME --dry-run                # how many it would write, and the cost
  *   bun run upload:audio -- --bucket NAME --max-uploads 120000
  *
  * Every clip is written once, ever (S3 writes are what cost): the bucket is listed first and
  * only the clips it lacks are written, one PUT each, never overwritten and never deleted
- * (staging and production may use different dataset versions). At most --max-uploads (1,000
- * by default) per run, the guard against a key bug rewriting the bucket; a run that leaves
- * clips for later fails, so the cap is never hit unnoticed. In a checkout without the clips'
+ * (staging and production may use different dataset versions). At most --max-uploads (2,000
+ * by default, as the deploy passes) per run, the guard against a key bug rewriting the
+ * bucket; a run that leaves clips for later fails, so the cap is never hit unnoticed. A
+ * re-run writes the next batch: a first fill or a voice change raises the cap instead
+ * (overCapMessage says how). In a checkout without the clips'
  * content (the default, see .lfsconfig) it fetches from LFS only the clips it writes.
  */
 
@@ -36,7 +38,7 @@ function main(): void {
     if (!bucket) throw new Error('--bucket is required');
     const prefix = arg('prefix') ?? 'audio/';
     const dryRun = process.argv.includes('--dry-run');
-    const maxUploads = Number(arg('max-uploads') ?? 1000);
+    const maxUploads = Number(arg('max-uploads') ?? DEFAULT_MAX_UPLOADS);
     if (!Number.isInteger(maxUploads) || maxUploads < 0) throw new Error(`--max-uploads must be a whole number, not ${arg('max-uploads')}`);
 
     const config = parseVoiceConfig(readJson<unknown>(VOICE_PATH));
@@ -70,9 +72,7 @@ function main(): void {
         console.log(`Uploaded ${Math.min(i + BATCH, plan.write.length).toLocaleString('en-US')} of ${plan.write.length.toLocaleString('en-US')}`);
     }
     fs.rmSync(STAGE_DIR, { recursive: true, force: true });
-    if (plan.overCap > 0) {
-        throw new Error(`${plan.overCap.toLocaleString('en-US')} clips are left for a later run by --max-uploads ${maxUploads}. If that many new clips is expected (a first fill, a voice change), run gokan-srs's "Audio: upload" workflow with a higher cap.`);
-    }
+    if (plan.overCap > 0) throw new Error(overCapMessage(plan.overCap, maxUploads));
 }
 
 try {
