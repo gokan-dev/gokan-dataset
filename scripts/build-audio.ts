@@ -24,9 +24,9 @@ import { cachedAnalysis, DEFAULT_ENGINE_URL, Voicevox } from '../src/audio/voice
  * - Order: the most frequent words and their sentences first, so a fill that stops halfway
  *   has voiced what a learner meets first.
  *
- * On a GPU (VOICEVOX's Windows DirectML engine, `run.exe --use_gpu`) a clip takes about
- * 0.54 s with two workers: about 16 hours for the first ~107k clips, ~470 MB in Opus. On a
- * CPU about three times that. The Docker NVIDIA image could not load the voice models under WSL2.
+ * On a GPU (VOICEVOX's Windows DirectML engine, `run.exe --use_gpu`) the first build's
+ * 107,307 clips took 18.7 hours with two workers (1.59 clips/s) and came to 710 MB in Opus.
+ * On a CPU about three times that. The Docker NVIDIA image could not load the voice models under WSL2.
  * An engine whose version is not the one in voice.json is refused: the version is part of
  * every key, so another would make every clip again.
  */
