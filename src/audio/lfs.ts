@@ -50,7 +50,8 @@ export function ensureLfsContent(files: readonly { file: string; repoPath: strin
     if (pointers.length === 0) return;
     console.log(`Fetching ${pointers.length.toLocaleString('en-US')} clips from Git LFS...`);
     for (const include of lfsIncludes(pointers.map(p => p.repoPath), folder)) {
-        const result = spawnSync('git', ['-c', 'lfs.fetchexclude=', 'lfs', 'pull', `--include=${include}`], { encoding: 'utf8', stdio: ['ignore', 'inherit', 'pipe'] });
+        // Many small files: parallel transfers matter more than bandwidth.
+        const result = spawnSync('git', ['-c', 'lfs.fetchexclude=', '-c', 'lfs.concurrenttransfers=32', 'lfs', 'pull', `--include=${include}`], { encoding: 'utf8', stdio: ['ignore', 'inherit', 'pipe'] });
         if (result.error) throw result.error;
         if (result.status !== 0) throw new Error(`git lfs pull failed: ${result.stderr}`);
     }
