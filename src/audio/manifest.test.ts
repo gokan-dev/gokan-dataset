@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { applyClip, serializeLike } from './attach';
-import { attachableClip, parseManifest, serializeManifest, type ClipManifest } from './manifest';
+import { attachableClip, missingClipFiles, parseManifest, serializeManifest, staleClipFiles, type ClipManifest } from './manifest';
 import { sourceHash, type AudioItem } from './scope';
 
 const item: AudioItem = { id: 's:1', text: '今日は雨。', readings: [{ start: 0, length: 2, reading: 'きょう' }] };
@@ -18,6 +18,19 @@ describe('attachableClip', () => {
     it('attaches nothing from a manifest made with another voice', () => {
         expect(attachableClip(manifest, 'other', item)).toBeUndefined();
         expect(attachableClip(null, 'cfg', item)).toBeUndefined();
+    });
+});
+
+describe('the clips folder against the manifest', () => {
+    const two: ClipManifest = { ...manifest, clips: { ...manifest.clips, 'w:2': { clip: 'def', src: 'x' }, 'w:3': { clip: 'def', src: 'y' } } };
+
+    it('finds the clips the manifest names that the folder lacks, each once', () => {
+        expect(missingClipFiles(two, ['abc.opus'], 'opus')).toEqual(['def.opus']);
+        expect(missingClipFiles(two, ['abc.opus', 'def.opus'], 'opus')).toEqual([]);
+    });
+
+    it('finds the clips no item uses any more, and leaves other files alone', () => {
+        expect(staleClipFiles(two, ['abc.opus', 'def.opus', 'old.opus', 'README.md'], 'opus')).toEqual(['old.opus']);
     });
 });
 

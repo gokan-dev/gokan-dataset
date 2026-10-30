@@ -1,8 +1,8 @@
 /**
  * A clip of a word or sentence read aloud. The file is `audio/{clip}.{extension}` on the
- * site, the extension given by `index/audio.json`. Clips are not in this repository: they
- * are text-to-speech in the voice `index/audio.json` names, under that voice's terms, not
- * this dataset's licence (see README, License, and docs/SCHEMA.md, Audio).
+ * site, the extension given by `index/audio.json`. Clips are committed in data/audio/clips/
+ * (Git LFS), but they are text-to-speech in the voice `index/audio.json` names, under that
+ * voice's terms, not this dataset's licence (see README, License, and docs/SCHEMA.md, Audio).
  */
 export interface AudioRef {
     /** The clip's content key: the same input, voice and engine always give the same key. */

@@ -1,0 +1,6 @@
+# The audio clips (data/audio/clips/, ~700 MB) are LFS content nothing but the upload needs: a
+# clone or pull checks out their pointer files only, which keeps the repository's LFS download
+# quota for what builds read. upload:audio fetches the clips it writes. To get them all:
+#   git -c lfs.fetchexclude= lfs pull --include="data/audio/clips/**"
+[lfs]
+	fetchexclude = data/audio/clips/**
