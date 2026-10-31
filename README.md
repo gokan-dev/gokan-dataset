@@ -73,7 +73,7 @@ compiled/                 build output, and the only thing most consumers need
     search.json           compact search index: written form, reading, gloss
     audio.json            the voice clips are read in, and its credit (once clips exist)
 data/raw/                 upstream sources, Git LFS tracked
-data/audio/               voice.json (the chosen voice) and clips.json (which clips exist); the clips live in a bucket
+data/audio/               voice.json (the chosen voice), clips/ (every clip, Git LFS) and clips.json (each item's clip)
 scripts/                  the build pipeline
 src/models/               TypeScript types mirroring the compiled shape
 ```
@@ -119,18 +119,19 @@ bun run fetch:covers   # record each title's AniList cover URL (network, run by 
 
 `bun run build:data` chains `build:kanji`, `build:jlpt` and `build:jlpt-coverage` around the main build, and `build:media` and `attach:audio` after it, so it is usually the only one you need.
 
-Audio (words, sentences and grammar examples read aloud, see [docs/SCHEMA.md](docs/SCHEMA.md), Audio) is text-to-speech from a running [VOICEVOX](https://voicevox.hiroshiba.jp/) engine, made by hand:
+Audio (words, sentences and grammar examples read aloud, see [docs/SCHEMA.md](docs/SCHEMA.md), Audio) is text-to-speech from a running [VOICEVOX](https://voicevox.hiroshiba.jp/) engine. The clips are made by hand and committed; the site's audio bucket is filled by gokan-srs's deploy alone:
 
 ```bash
 docker run -d --rm -p 127.0.0.1:50021:50021 voicevox/voicevox_engine:cpu-latest   # or the desktop app, or the nvidia image
 bun run sample:audio                                   # the listening test: data/audio/.sample/index.html
-bun run build:audio                                    # make the clips here, in data/audio/.clips/ (Ctrl+C stops, run again to continue)
-bun run upload:audio -- --bucket NAME --dry-run        # how many clips it would write, and what that costs
-bun run upload:audio -- --bucket NAME --max-uploads 120000
+bun run build:audio                                    # make the missing clips into data/audio/clips/ (Ctrl+C stops, run again to continue)
 bun run attach:audio                                   # offline: audio fields from data/audio/clips.json
+git add data/audio compiled                            # then a pull request, as for any dataset change
 ```
 
-`build:audio` prints progress every 10 seconds (done, clips per second, time left, space used; also in `data/audio/.clips/progress.json`), makes the most frequent words first, and refuses an engine whose version differs from `data/audio/voice.json`'s, since that would rename every clip. Ctrl+C, or a file `data/audio/.clips/STOP`, ends it cleanly; running it again continues. `upload:audio` writes only the clips the bucket lacks, at most `--max-uploads` (1,000 by default) per run, never overwrites or deletes, then writes `clips.json`.
+`build:audio` prints progress every 10 seconds (done, clips per second, time left, space used; also in `data/audio/.build/progress.json`), makes the most frequent words first, and refuses an engine whose version differs from `data/audio/voice.json`'s, since that would rename every clip. Ctrl+C, or a file `data/audio/.build/STOP`, ends it cleanly; running it again continues. A run that finishes removes the clips no item uses any more; the bucket keeps them.
+
+The clips are in Git LFS, and `.lfsconfig` keeps their content out of clones and pulls: a checkout has their pointer files, which is all `build:audio` and `attach:audio` need. Before gokan-srs publishes a dataset version (staging or production), its deploy runs `upload:audio` on it: it lists the bucket and writes the committed clips it lacks, one PUT each, never overwriting or deleting, fetching from LFS only those. A deploy writes at most 2,000 and fails over that, so a deployed dataset never names a clip the site lacks; a first fill or a voice change sets gokan-srs's `AUDIO_MAX_UPLOADS` variable (read by staging deploys only) for one staging deploy of that version, then deletes it. Its key can only list the bucket and add clips, and no other machine holds one.
 
 For the full build, use a GPU: VOICEVOX's Windows engine in its DirectML build (`voicevox_engine-windows-directml-<version>.7z` from the [engine releases](https://github.com/VOICEVOX/voicevox_engine/releases), then `run.exe --use_gpu`) made the first build's 107,307 clips in 18.7 hours of synthesis with two workers (1.59 clips/s), against about three times that on a CPU. They come to 710 MB in Opus: words 2.4 KiB a clip, sentences 8.5 KiB, grammar examples 9.1 KiB. The Docker NVIDIA image could not load the voice models under WSL2.
 
@@ -160,6 +161,6 @@ The compiled output is a derivative work of several upstream sources, each with 
 | [hanabira.org-japanese-content](https://github.com/tristcoil/hanabira.org-japanese-content) | Grammar points | Creative Commons, link back to hanabira.org |
 | [Jiten](https://jiten.moe) | Per-episode anime vocabulary and speech statistics (`media/`) | [CC BY-SA 4.0](https://jiten.moe/terms), attribution required |
 | [AniList](https://anilist.co) | Cover image URLs in `media/` (`cover`) | URLs only, the images stay on AniList's CDN. The artwork belongs to each title's studio and is **not** covered by this repository's license |
-| [VOICEVOX](https://voicevox.hiroshiba.jp/) voice (`index/audio.json`) | Audio clips, by key (`audio.clip`) | The clips are **not** in this repository and **not** covered by its license: they are under the chosen voice's own terms, which require the credit `index/audio.json` gives |
+| [VOICEVOX](https://voicevox.hiroshiba.jp/) voice (`index/audio.json`) | Audio clips in `data/audio/clips/`, by key (`audio.clip`) | **Not** covered by this repository's license: the clips are under the chosen voice's own terms (`termsUrl` in `index/audio.json`), which require its credit, `VOICEVOX:冥鳴ひまり` |
 
 If you redistribute the compiled data, verify compliance with all of the above, not only this repository's own license.

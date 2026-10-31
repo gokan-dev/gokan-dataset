@@ -3,7 +3,7 @@ import path from 'path';
 import { applyClip, serializeLike } from '../src/audio/attach';
 import { AUDIO_FORMATS, configHash, parseVoiceConfig, type VoiceConfig } from '../src/audio/config';
 import { GRAMMAR_MINED_DIR, GRAMMAR_POINTS_DIR, SENTENCES_DIR, VOCAB_DIR, COMPILED_DIR } from '../src/audio/compiled';
-import { MANIFEST_PATH, VOICE_PATH, attachableClip, parseManifest, type ClipManifest } from '../src/audio/manifest';
+import { CLIPS_DIR, MANIFEST_PATH, VOICE_PATH, attachableClip, missingClipFiles, parseManifest, type ClipManifest } from '../src/audio/manifest';
 import { grammarItem, sentenceItem, wordItem, type AudioItem } from '../src/audio/scope';
 import type { AudioIndex } from '../src/models/audio.model';
 import type { GrammarExample, GrammarPoint } from '../src/models/grammar.model';
@@ -14,9 +14,10 @@ import type { Vocabulary } from '../src/models/vocabulary.model';
  * Writes `audio` on every word, sentence and grammar example that has a clip in
  * data/audio/clips.json, removes it from those that no longer do, and writes
  * index/audio.json (the voice and its credit) when any clip is attached. Offline: it reads
- * only the committed manifest, never the bucket. Runs at the end of build:data and
- * build:grammar, and by hand after build:audio. Rewrites only files whose clips changed,
- * in their own formatting.
+ * only what is committed, never the bucket, and refuses a manifest naming a clip that
+ * data/audio/clips/ lacks (the deploy uploads only committed clips, so that one would be
+ * missing from the site). Runs at the end of build:data and build:grammar, and by
+ * hand after build:audio. Rewrites only files whose clips changed, in their own formatting.
  */
 
 const AUDIO_INDEX_PATH = path.join(COMPILED_DIR, 'index', 'audio.json');
@@ -40,6 +41,10 @@ function main(): void {
     const manifest: ClipManifest | null = fs.existsSync(MANIFEST_PATH) ? parseManifest(JSON.parse(fs.readFileSync(MANIFEST_PATH, 'utf8'))) : null;
     const current = config ? configHash(config) : null;
     if (manifest && manifest.config !== current) console.log('clips.json was made with another voice config: no clip is attached until build:audio makes them again.');
+    if (manifest && config && manifest.config === current) {
+        const missing = missingClipFiles(manifest, fs.existsSync(CLIPS_DIR) ? fs.readdirSync(CLIPS_DIR) : [], AUDIO_FORMATS[config.format].extension);
+        if (missing.length > 0) throw new Error(`clips.json names ${missing.length} clips that data/audio/clips/ lacks, such as ${missing[0]}: run build:audio again`);
+    }
 
     let attached = 0;
     let files = 0;

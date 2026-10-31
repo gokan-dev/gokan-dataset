@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { estimatedPutCost, planUploads } from './uploads';
+import { estimatedPutCost, overCapMessage, planUploads } from './uploads';
 
 describe('planUploads', () => {
     it('writes only keys the bucket lacks, each once', () => {
@@ -17,6 +17,13 @@ describe('planUploads', () => {
 
     it('writes nothing for a bucket that already has every clip', () => {
         expect(planUploads(['a', 'b'], new Set(['a', 'b']), 1000).write).toEqual([]);
+    });
+
+    it('sends a run over its cap to the variable that raises it, not to a workflow that does not exist', () => {
+        const message = overCapMessage(105_307, 2000);
+        expect(message).toContain('105,307 clips are left');
+        expect(message).toContain('AUDIO_MAX_UPLOADS');
+        expect(message).not.toMatch(/Audio: upload/);
     });
 
     it('prices the first fill at well under a dollar', () => {
