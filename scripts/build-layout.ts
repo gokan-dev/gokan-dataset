@@ -124,7 +124,9 @@ function main(): void {
     // Empties compiled/ rather than deleting it: Windows refuses to remove a folder an editor or a
     // shell has open, but not what is inside it.
     fs.mkdirSync(COMPILED_DIR, { recursive: true });
-    for (const entry of fs.readdirSync(COMPILED_DIR)) fs.rmSync(path.join(COMPILED_DIR, entry), { recursive: true, force: true });
+    // maxRetries: on Windows a scanner or an indexer holding a file open fails the removal with
+    // EBUSY for a moment; Node retries it, with a growing delay, instead of failing the build.
+    for (const entry of fs.readdirSync(COMPILED_DIR)) fs.rmSync(path.join(COMPILED_DIR, entry), { recursive: true, force: true, maxRetries: 10, retryDelay: 200 });
 
     for (const f of jsonFiles(path.join(ASSEMBLED_DIR, SPLIT.vocab))) {
         const vocab = readJson<Vocabulary>(path.join(ASSEMBLED_DIR, SPLIT.vocab, f));

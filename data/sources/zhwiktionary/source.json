@@ -1,0 +1,18 @@
+{
+  "id": "zhwiktionary",
+  "name": "Chinese Wiktionary, Japanese entries (kaikki.org extraction, headers 日語 and 日语)",
+  "url": "https://kaikki.org/zhwiktionary/",
+  "license": "CC-BY-SA-4.0",
+  "community": "zh.wiktionary",
+  "firstHand": "Chinese editors define Japanese words in Chinese; the bot entries Wjcdbot created in 2010 with no source named are left out (decision D5)",
+  "languages": ["zh", "zh-hans", "zh-hant"],
+  "roles": ["definition"],
+  "match": "spelling+reading",
+  "snapshot": {
+    "date": "2026-11-01",
+    "files": {
+      "data/sources/zhwiktionary/kaikki-ja-trad.jsonl.gz": "sha256:56f6dc723e8fc2c97edc5a5a90404ea879bf5e59ddb126ffe682b8df77698d68",
+      "data/sources/zhwiktionary/kaikki-ja-simp.jsonl.gz": "sha256:9fcb918360cbc87d361f5c9e15dffdc52a1b576cfa3c7c82c05ef225a407f341"
+    }
+  }
+}

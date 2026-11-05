@@ -24,7 +24,8 @@ const generator = createGenerator({
 });
 
 const types = [...new Set(RESOURCES.map(r => r.type))].sort();
-fs.rmSync(path.join(COMPILED_DIR, 'schemas'), { recursive: true, force: true });
+// maxRetries: a file held open for a moment on Windows (EBUSY) is retried, not fatal.
+fs.rmSync(path.join(COMPILED_DIR, 'schemas'), { recursive: true, force: true, maxRetries: 10, retryDelay: 200 });
 for (const type of types) {
     const schema = generator.createSchema(type);
     const file = path.join(COMPILED_DIR, schemaPath(type));

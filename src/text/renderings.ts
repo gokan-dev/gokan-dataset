@@ -7,6 +7,7 @@ import type {
     DefinitionSense,
     EntityKind,
     EntityText,
+    Equivalent,
     Label,
     LanguageTag,
     Prose,
@@ -59,6 +60,29 @@ export function languagesOf(text: TextByLanguage | undefined): LanguageTag[] {
 
 function renderingsIn(text: TextByLanguage | undefined, lang: LanguageTag): Rendering[] {
     return text?.[lang]?.renderings ?? [];
+}
+
+/** Every definition of a word in a language, optionally of one source, in order. */
+export function definitionsOf(text: TextByLanguage | undefined, lang: LanguageTag, source?: SourceId): Definition[] {
+    return renderingsIn(text, lang).filter((r): r is Definition => r.role === 'definition' && (source === undefined || r.source.source === source));
+}
+
+/** The equivalents of a word in a language, whole, in order. */
+export function equivalentsOf(text: TextByLanguage | undefined, lang: LanguageTag): Equivalent[] {
+    return renderingsIn(text, lang).filter((r): r is Equivalent => r.role === 'equivalent');
+}
+
+/**
+ * An entity's text without the renderings of the given sources, dropping a language left empty:
+ * a stage that adds its sources' text starts from this, so running it twice adds nothing twice.
+ */
+export function withoutSources(text: TextByLanguage, sources: ReadonlySet<SourceId>): TextByLanguage {
+    const kept: TextByLanguage = {};
+    for (const [lang, entity] of Object.entries(text)) {
+        const renderings = entity.renderings.filter(r => !sources.has(r.source.source));
+        if (renderings.length > 0 || entity.synonyms !== undefined) kept[lang] = { ...entity, renderings };
+    }
+    return kept;
 }
 
 /** One source's definition of a word in a language. */

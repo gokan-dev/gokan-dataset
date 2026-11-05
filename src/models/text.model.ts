@@ -61,6 +61,10 @@ export interface DefinitionSense {
     misc?: Sense['misc'];
     related?: Sense['related'];
     appliesToReadings?: string[];
+    /** The spellings the source says the sense applies to (Chinese Wiktionary's `飲む，呑む： 喝，饮`). */
+    appliesToSpellings?: string[];
+    /** The source's own labels for the sense (Chinese Wiktionary's `archaic`, a dialect's name). */
+    tags?: string[];
 }
 
 /** A source's own list of senses for a word, never merged with another source's. */

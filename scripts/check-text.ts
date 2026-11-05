@@ -6,8 +6,8 @@
 //   4. every source has a source.json with a compatible licence and a snapshot whose checksums match;
 //   5. every derived value names an allowlisted transform and its original;
 //   6. every review names a rendering that exists (no reviews are recorded yet).
-// Check 7 (schemas) is scripts/check-schemas.ts, 8 (determinism) is check-determinism.ts; 3
-// holds by construction (a rendering has one source) and 9 starts with phase 4's benchmark.
+// Check 7 (schemas) is scripts/check-schemas.ts, 8 (determinism) is check-determinism.ts, 9 (the
+// benchmark's floors) is benchmark.ts --check; 3 holds by construction (a rendering has one source).
 //
 // Run: bun run check:text (after bun run build).
 import { createHash } from 'node:crypto';

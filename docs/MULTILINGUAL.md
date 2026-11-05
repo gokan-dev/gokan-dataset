@@ -1,6 +1,6 @@
 # Explanation languages: the multilingual model
 
-**Status: design, proposed 2026-11-04. Nothing here is implemented yet.** This is the plan the dataset follows to explain Japanese in more than one language, Chinese first. The open decisions are listed at the end; settle them here, in this file, so the reasoning stays next to the model.
+**Status: design proposed 2026-11-04; built through phase 4 (Chinese, 2026-11-05), see each phase's "as built" note.** This is the plan the dataset follows to explain Japanese in more than one language, Chinese first. The open decisions are listed at the end; settle them here, in this file, so the reasoning stays next to the model.
 
 Decided so far (2026-11-04):
 
@@ -182,15 +182,15 @@ The rule is the same for every source; whether it can be checked depends on the 
 |---|---|---|---|---|
 | JMdict (EDRDG) | definitions, tag labels | en | edrdg | in use, moves into the text layer |
 | KANJIDIC2 (EDRDG) | kanji labels | en; fr, es, pt already vendored and unused | edrdg | in use; fr/es/pt in phase 3 |
-| Tatoeba | sentence translations | en; zh (Mandarin, both scripts) | tatoeba | in use for en; zh in phase 4 |
+| Tatoeba | sentence translations | en; zh (Mandarin, both scripts) | tatoeba | in use for en (`tatoeba`); Mandarin in use since phase 4 (`tatoeba-cmn`, its own snapshot of 2026-11-03) |
 | hanabira.org | grammar prose, example translations | en | hanabira | in use |
 | Gokan, hand-written | usage notes, families, lessons, cases, chapters | en | gokan | in use |
-| Chinese Wiktionary, Japanese entries | definitions, example translations | zh-hant, zh-hans | zh.wiktionary | phase 4 |
-| Japanese Wiktionary, translation tables | equivalents | zh | ja.wiktionary | phase 4 |
-| Japanese Wiktionary, Chinese entries read backwards | equivalents (信 is defined as 手紙) | zh | ja.wiktionary | phase 4 |
-| Wikidata lexemes and their concepts' labels | equivalents | zh | wikimedia | phase 4 |
-| Wikipedia, Japanese article to Chinese article | equivalents (checks only, never displayed) | zh | wikimedia | phase 4 |
-| Unihan (Unicode) | a kanji's Simplified and Traditional forms, Mandarin reading | zh | unicode | phase 4 |
+| Chinese Wiktionary, Japanese entries | definitions (example translations not read yet) | zh-hant, zh-hans | zh.wiktionary | in use since phase 4 (`zhwiktionary`) |
+| Japanese Wiktionary, translation tables | equivalents | zh, nan | ja.wiktionary | in use since phase 4 (`jawiktionary`, refs `<page>#日本語`) |
+| Japanese Wiktionary, Chinese entries read backwards | equivalents (信 is defined as 手紙) | zh, nan | ja.wiktionary | in use since phase 4 (`jawiktionary`, refs `<page>#中国語`) |
+| Wikidata lexemes and their concepts' labels | equivalents | zh | wikimedia | in use since phase 4 (`wikidata`) |
+| Wikipedia, Japanese article to Chinese article | equivalents (checks only, never displayed) | zh | wikimedia | in use since phase 4 as evidence only (`wikipedia`, no role) |
+| Unihan (Unicode) | a kanji's Simplified and Traditional forms, Mandarin reading | zh-hans, zh-hant, zh-latn-pinyin | unicode | in use since phase 4 (`unihan`) |
 
 ### Excluded, and why
 
@@ -210,7 +210,9 @@ An importer produces records in the source's own terms; the matcher attaches eac
 | `spelling+reading` | same written form and same reading | a Chinese Wiktionary entry 手紙 read てがみ |
 | `spelling` | same written form, no reading to confirm | a Japanese gloss 手紙 in a reverse entry; a Wikipedia title |
 
-A record that matches nothing, or more than one entity, is logged with the reason, never attached by guess. A reverse entry attaches only when a whole gloss, or a whole 、-separated part of one, is the word: 信 ("手紙。") attaches to 手紙, 久闊 ("長期間会わないこと。また、手紙を送らないこと。") does not. Two source conventions the benchmark found have to be followed, not worked around: Chinese Wiktionary keeps a native word's meanings on its kana page (のむ lists 飲む, 呑む and 喫む, and its kanji pages only redirect), and marks which spelling each sense applies to (`飲む，呑む： 喝，饮`).
+A record that matches nothing, or more than one entity, is logged with the reason, never attached by guess. A reverse entry attaches only when a whole gloss, or a whole 、-separated part of one, is the word: 信 ("手紙。") attaches to 手紙, 久闊 ("長期間会わないこと。また、手紙を送らないこと。") does not. Two source conventions the benchmark found have to be followed, not worked around: Chinese Wiktionary keeps a native word's meanings on its kana page (のむ lists 飲む, 呑む and 喫む, and its kanji pages only redirect), and marks which spelling each sense applies to (`飲む，呑む： 喝，饮`). A third, found while building phase 4: both Wiktionaries read a verbal noun's page as its verb (検索 as けんさくする), so such a reading is compared without its する.
+
+The matcher is `src/text/match.ts`; `bun run build:text` writes its counts per source and outcome, with samples, to `build/assembled/text_matching.log`. A Wiktionary rendering's `ref` is the page and its language section, as the page's anchor writes it (`手紙#日語`, `てがみ#日本語`, `信#中国語`), which also tells Japanese Wiktionary's translation tables from its Chinese entries.
 
 ## Corroboration and review
 
@@ -247,6 +249,7 @@ A new source is an importer and a `source.json`. A new language is a set of sour
     - the JMdict reader keeps each gloss's language (JMdict's `eng` becomes `en`);
     - the KANJIDIC2 reader keeps all four of its languages;
     - the Tatoeba reader tags its translations with its pairs file's language.
+    - the sources read after the core is assembled, the Chinese ones of phase 4, are one stage, `build:text` (`scripts/build-text.ts`), at the end of `build:data`: it imports each snapshot of `data/sources/` (one reader per source in `src/text/`), matches it, assembles and assesses the renderings (corroboration, the script transform) and adds them to each entity's `text`, so a mined grammar example built after it carries its sentence's Chinese too. It removes what its own sources gave before adding, so running it twice changes nothing.
   - **The last stage, `build:layout`,** writes `compiled/` from it. It names no language, so `compiled/text/{fr,es,pt}/kanji/` appear because KANJIDIC2 has them.
 - **Words.** Each JMdict entry a word holds keeps its own definition, under its own id: the word's own entry (matched by `id`), then each homograph merged into it (matched by `spelling`). A merged homograph's three-gloss summary is no longer stored. It is the first sense of that entry's definition.
 - **The search index** keeps each word's id, spelling and reading in `index/search.json`, and its short gloss per language in `compiled/text/<lang>/index/search.json`.
@@ -293,12 +296,12 @@ Where each runs (all after `bun run build`):
 - 3 holds by construction: a rendering has exactly one source.
 - 7: `bun run check:schemas`.
 - 8: `bun run check:determinism`, which rebuilds everything from the raw sources and compares every byte.
-- 9 starts with phase 4's benchmark stage.
+- 9: `bun run check:benchmark`, against `docs/multilingual-benchmark/floors.json`; `bun run build:benchmark`, the last step of `bun run build`, writes `docs/multilingual-benchmark/report.md` (see its [README](multilingual-benchmark/README.md)).
 - Two more prove phase 2: `bun run check:layout` (every split file joins back to what was assembled) and `bun run check:legacy` (the English view equals the old layout).
 
 ## What the benchmark measured
 
-Measured 2026-11-03 and 2026-11-04 on the compiled dataset of the time (35,872 words), against Tatoeba's exports of that week, kaikki.org's extractions of the Chinese and Japanese Wiktionaries (dumps of 2026-11-01), and Wikidata. The scripts, their output and the gold-set draft are in [multilingual-benchmark/](multilingual-benchmark/README.md); phase 4 brings them into the benchmark stage.
+Measured 2026-11-03 and 2026-11-04 on the compiled dataset of the time (35,872 words), against Tatoeba's exports of that week, kaikki.org's extractions of the Chinese and Japanese Wiktionaries (dumps of 2026-11-01), and Wikidata. The scripts, their output and the gold-set draft are in [multilingual-benchmark/](multilingual-benchmark/README.md); phase 4 made them the build's benchmark stage, whose numbers are in "Phase 4 as built" below.
 
 **Example sentences, Tatoeba, first hand only.** 16,266 direct Japanese-Mandarin links; the direction rule keeps 7,187 (6,153 Chinese written from the Japanese, 1,034 Japanese from the Chinese) and removes 8,501 Chinese translated from another language, 287 from a different Japanese sentence, 161 of unknown origin. That leaves 6,714 Japanese sentences with a first-hand Chinese translation, 5,483 of them already in our sentence pool (2.4% of its 228,767). Of those Chinese sentences, about 40% are recognisably Simplified, 24% Traditional, the rest undetermined.
 
@@ -346,16 +349,31 @@ The dataset work happens on gokan-dataset branches. A change of layout ships wit
 
 Two changes stay apart so neither hides a regression in the other. Phase 2 happens while the dictionary is still prerendered, so its check is that every page comes out byte-identical. The dictionary's move to rendering on request is its own change, checked the same way: every page the function renders is identical to the page the prerender makes from the same dataset. The dictionary's pages in other languages come after both, once phase 4 has data to show.
 
+**Phase 4 as built (2026-11-05).** Six sources, each a snapshot in `data/sources/` with its checksums and a reader in `src/text/`, read by one stage, `build:text`: Chinese Wiktionary (definitions), Japanese Wiktionary (equivalents, from its translation tables and its Chinese entries read backwards), Wikidata (equivalents), Wikipedia (evidence only), Tatoeba's Mandarin (`tatoeba-cmn`, sentence translations) and Unihan (kanji labels: `simplifiedForm`, `traditionalForm`, `mandarinReading`). The layout needed no change: it writes `compiled/text/zh-hans/` for 15,974 words, 3,127 kanji and 4,697 sentence files, `zh-hant/` for 15,254 words, 3,127 kanji and 3,093 sentence files, and `nan/` for 219 words. The English view is unchanged (`check:legacy`), and gokan-srs, which reads only it, sees nothing.
+
+- **Words.** One definition per Chinese Wiktionary page a word matches (its entries' senses in page order, each with its tags, the spellings it names and, for a word with several readings, the reading), and one equivalent per Chinese word another source gives. 40,455 bot entries are left out (D5). Matched records, and why the others were not: Chinese Wiktionary 15,364 matched, 892 read otherwise, 1,637 with no reading, 37 matching several words; translation tables 2,170 matched, 25 read otherwise, 462 with no reading, 16 several words; reverse entries 25,293 matched, 412 several words; Wikidata 3,469 matched, 65 read otherwise, 43 no reading, 9 several words; Wikipedia 1,713 matched, 2 several words.
+- **Script.** Every value is filed by its characters (D2, D3). The transform wrote 20,594 values in zh-hans; 892 renderings stayed out of zh-hans because a Traditional-only character in them has no single Simplified variant (鍾, 餘), and a text using Simplified-only characters is never in zh-hant. A text mixing both scripts (a Chinese Wiktionary definition often does: のむ's senses are `喝，饮` and `吸煙`) is tagged `zh`, converted for zh-hans and left out of zh-hant. Unihan lists some Simplified characters as their own Traditional variant (师, 恋), so the rule reads 老师 as the same in both scripts and serves it in zh-hant too: what Unihan says, not a guess of ours.
+- **Corroboration.** Of the 1,843 N5 to N3 words Chinese Wiktionary defines, 61.5% are corroborated by another community, 20.9% contradicted, 17.6% unchecked; over all words, 36.3%. Words with a corroborated text, per source: Japanese Wiktionary's translation tables 64.8%, Wikidata 58.8%, its reverse entries 39.1%.
+- **Search.** A word's gloss in `text/<lang>/index/search.json` is its first two corroborated equivalents, else the first gloss of its first definition, else its first two equivalents (`src/text/chineseText.ts`, `searchGloss`). Near-synonyms stay English only (D11).
+- **The benchmark** (`docs/multilingual-benchmark/report.md`, floors in `floors.json`, each a percentage one point below this run or a count 2% below) measures what the 2026-11-03/04 benchmark did, from the compiled output. Where its numbers differ, the cause is a rule of this design the research scripts did not follow:
+  - Japanese Wiktionary's reverse entries cover 65.5% of N5 words, not 73%: they attach on a whole gloss or a whole 、-part only, where the research split every gloss at every punctuation mark (and attached 久闊 to また).
+  - Wikipedia counts 22.4% of N5 words, not 28%: it is never displayed, so the compiled output shows it only where it corroborates.
+  - "2+ communities" (67.9% at N5) is not the research's "2+ sources" (75%): Japanese Wiktionary's two readings are one community, and Wikipedia counts only where it agrees.
+  - Translation tables cover 37.3% of N5 words, not 39%: a kanji page read several ways (私, 一) matches several words, and the matcher never chooses.
+  - Corroborated N5 to N3 words are 61.5%, not 64%, for the stricter reverse entries; a Wikipedia title that disagrees is invisible, so more words are unchecked (17.6%, not 14%) and fewer contradicted.
+  - Chinese Wiktionary (71.1% at N5), Wikidata (43.7%) and Tatoeba (84.6% of N5 words with a first-hand Chinese sentence, 5,482 pool sentences, one fewer than measured because its Japanese was edited since the pool's export) agree with the research. Unihan tells the script of far more sentences than the research's 40-character list: 3,010 Simplified, 1,887 Traditional, 968 the same in both.
+- **Decided while building.** Tatoeba's Mandarin export is its own source, `tatoeba-cmn` (community `tatoeba`), because a source has one snapshot and its date is not the English pairs' (2026-02-15). Pinyin is tagged `zh-latn-pinyin`. Japanese Wiktionary's Mandarin is `zh` and `cmn`, Southern Min `nan` (閩南語, 台湾語); senses and cells in Cantonese, Wu, Hakka or another Chinese language are left out until they have a tag here. The fetch scripts for Wikidata and Wikipedia are in `scripts/` (`fetch-wikidata-lexemes.ts`, `fetch-wikipedia-links.ts`). Chinese Wiktionary's example sentences are not read yet.
+
 ## Decisions
 
 | # | Decision | Recommendation | Status |
 |---|---|---|---|
 | D1 | Does the mechanism cover all text, English included? | Yes: otherwise English stays the source of truth. | decided 2026-11-04 |
-| D2 | How languages are tagged | BCP 47, lowercase everywhere. Chinese as `zh-hans` / `zh-hant` as written; bare `zh` only when the script cannot be told; another Chinese language its own tag (`nan`, `yue`). | lowercase decided 2026-11-04; the rest open |
-| D3 | Traditional to Simplified conversion | Allowed, as a derived value naming its original and the transform; the source text is kept. | open |
+| D2 | How languages are tagged | BCP 47, lowercase everywhere. Chinese as `zh-hans` / `zh-hant` as written; bare `zh` only when the script cannot be told; another Chinese language its own tag (`nan`, `yue`). | decided 2026-11-04 (lowercase) and 2026-11-05: tags lowercase; Chinese as written, `zh-hans` or `zh-hant` when its characters show the script (told from Unihan: a character with a kSimplifiedVariant other than itself is Traditional-only, one with a kTraditionalVariant other than itself Simplified-only), bare `zh` when they cannot, and a `zh` value is served in both `zh-hans` and `zh-hant`; another Chinese language its own tag (Southern Min, labelled 閩南語, is `nan`). Built: pinyin is `zh-latn-pinyin` |
+| D3 | Traditional to Simplified conversion | Allowed, as a derived value naming its original and the transform; the source text is kept. | decided 2026-11-05: allowed, as a derived value (`derivedFrom` with the original and `script:hant-to-hans`), from Unihan's kSimplifiedVariant, character by character, only where a character has exactly one Simplified variant (otherwise the text is not served in `zh-hans`); Simplified to Traditional is not allowed (one-to-many) |
 | D4 | How authored prose may be drafted | One rule for every language. The English contrast lessons are "AI-drafted, human-reviewed" (SCHEMA.md), which is looser than the rule for imported text. Either that holds for authored Chinese too, or authored text is written by a person. | for existing English, decided 2026-11-04: Gokan's hand-written text and its AI-drafted, human-reviewed text are `reviewed`, with a note saying how the text was made; for new languages, open |
-| D5 | Chinese Wiktionary's bot entries | Excluded until their origin is known. | open |
-| D6 | What corroborates | Agreement with a text from another community: zh.wiktionary; ja.wiktionary; wikimedia (Wikidata, Wikipedia); tatoeba; edrdg; gokan. | open |
+| D5 | Chinese Wiktionary's bot entries | Excluded until their origin is known. | decided 2026-11-05: excluded, recognised as the benchmark did (no part of speech, the first gloss opening with the headword and its reading in 【】); 40,455 entries left out (230 under 日語, 40,225 under 日语) |
+| D6 | What corroborates | Agreement with a text from another community: zh.wiktionary; ja.wiktionary; wikimedia (Wikidata, Wikipedia); tatoeba; edrdg; gokan. | decided 2026-11-05: agreement with a text from another community (those six); agreeing is sharing an equivalent once both are in Simplified characters, the benchmark's rule (a one-character item agrees with an item it starts); a corroborated rendering has status `corroborated` and `evidence` naming the agreeing sources and items; disagreement never rejects. Wikipedia is a check only: it appears as evidence, never as a rendering |
 | D7 | Reviews and the gold set | Reviews stored as data here, keyed by rendering identity. Who reviews Chinese is open. | open |
 | D8 | Compiled layout | One layout both apps read: core files where they are today, text under `compiled/text/<lang>/` mirroring them, per-language indexes. | decided 2026-11-04 |
 | D9 | Schemas | JSON Schema per compiled file type, validated at build; the tool chosen in phase 2. | decided 2026-11-04: generated from the TypeScript types by ts-json-schema-generator, validated with Ajv |
@@ -365,6 +383,6 @@ Two changes stay apart so neither hides a regression in the other. Phase 2 happe
 
 ## Open questions
 
-- **Snapshot size.** The Wiktionary extractions are 35 to 190 MB each. `data/raw/**` is already Git LFS; whether every snapshot is committed or only a fetch script and its checksums is a cost question for the LFS quota.
+- **Snapshot size.** The Wiktionary extractions are 35 to 190 MB each, 5 to 24 MB gzipped. Phase 4 commits every snapshot gzipped under Git LFS (`data/sources/**/*.gz`, 116 MB in all, 62 MB of it Tatoeba's sentences_base); whether that stays affordable as languages are added is a cost question for the LFS quota.
 - **kaikki.org's per-language files are deprecated** and may disappear. The importers should read wiktextract's full extraction, or parse the dumps, so a source does not vanish with a mirror.
-- **Kanji pages for Chinese readers** probably need the variant forms and readings more than meanings: 電 means what a Chinese reader expects, but its Simplified form is 电.
+- **Kanji pages for Chinese readers** probably need the variant forms and readings more than meanings: 電 means what a Chinese reader expects, but its Simplified form is 电. Phase 4 gives Unihan's Simplified and Traditional forms and Mandarin readings; a Japanese form Unihan relates to no Chinese one (図 for 圖, 駅 for 驛) gets no variant label, since reaching one would mean following Japanese-variant links, a choice of ours.

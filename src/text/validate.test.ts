@@ -35,6 +35,14 @@ describe('renderingProblems', () => {
         expect(renderingProblems({ ...label('paper'), value: 'pulp' }, 'kanji', '紙', 'en', sources).join()).toMatch(/does not match its content/);
     });
 
+    it('needs evidence on a corroborated rendering, from registered sources', () => {
+        const bare = rendering<Label>('kanji', '紙', 'en', { role: 'label', source: { source: 'kanjidic2', ref: '紙' }, match: 'id', status: 'corroborated', value: 'paper' });
+        expect(renderingProblems(bare, 'kanji', '紙', 'en', sources).join()).toMatch(/names no evidence/);
+        const unknown = { ...bare, evidence: [{ source: 'cedict', ref: '纸' }] };
+        expect(renderingProblems(unknown, 'kanji', '紙', 'en', sources).join()).toMatch(/evidence source "cedict" is not in data\/sources/);
+        expect(licenseProblem('Unicode-3.0')).toBeNull();
+    });
+
     it('rejects a derived value without an allowlisted transform', () => {
         const derived = { ...label('paper'), value: { value: 'paper', derivedFrom: { value: 'papier', lang: 'fr', transform: 'translate' } } } as unknown as Label;
         expect(renderingProblems(derived, 'kanji', '紙', 'en', sources).join()).toMatch(/allowlisted transform/);

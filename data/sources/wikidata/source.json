@@ -1,0 +1,18 @@
+{
+  "id": "wikidata",
+  "name": "Wikidata, Japanese lexemes whose sense links a concept, and that concept's Chinese labels",
+  "url": "https://www.wikidata.org/wiki/Wikidata:Lexicographical_data",
+  "license": "CC0-1.0",
+  "community": "wikimedia",
+  "firstHand": "Contributors link a Japanese word's sense to a concept item; the item's Chinese labels are written by Chinese editors",
+  "languages": ["zh", "zh-hans", "zh-hant"],
+  "roles": ["equivalent"],
+  "match": "spelling+reading",
+  "fetch": "bun scripts/fetch-wikidata-lexemes.ts",
+  "snapshot": {
+    "date": "2026-11-04",
+    "files": {
+      "data/sources/wikidata/lexemes-zh.json.gz": "sha256:63d711914f9de9fb3c15f4efa9b7383c920c1d82f4d64034878e6a5168b6b95a"
+    }
+  }
+}

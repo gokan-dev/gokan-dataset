@@ -23,7 +23,7 @@ const TRANSFORMS = new Set(['script:hant-to-hans']);
  * Licences a source may carry under the dataset's CC BY-SA 4.0. A `LicenseRef-` names terms
  * that are not an SPDX licence; its source.json then says what they are (`licenseNote`).
  */
-const COMPATIBLE_LICENSES = new Set(['CC-BY-SA-4.0', 'CC-BY-4.0', 'CC-BY-2.0', 'CC0-1.0', 'MIT']);
+const COMPATIBLE_LICENSES = new Set(['CC-BY-SA-4.0', 'CC-BY-4.0', 'CC-BY-2.0', 'CC0-1.0', 'MIT', 'Unicode-3.0']);
 
 export function isLowercaseTag(tag: string): boolean {
     return LOWERCASE_TAG.test(tag);
@@ -62,6 +62,9 @@ export function renderingProblems(rendering: Rendering, kind: EntityKind, entity
     }
     if (!MATCHES.has(rendering.match)) problems.push(`match "${rendering.match}" is not a known evidence`);
     if (!STATUSES.has(rendering.status)) problems.push(`status "${rendering.status}" is not a known status`);
+    // Corroboration is the only thing that sets `corroborated`, and it always names what agreed.
+    if (rendering.status === 'corroborated' && (rendering.evidence ?? []).length === 0) problems.push('a corroborated rendering names no evidence');
+    for (const e of rendering.evidence ?? []) if (!sources.has(e.source)) problems.push(`evidence source "${e.source}" is not in data/sources/`);
     for (const value of values(rendering)) {
         if (typeof value === 'string') continue;
         if (typeof value !== 'object' || value === null || !('derivedFrom' in value)) { problems.push('a value is neither text nor a derived value'); continue; }

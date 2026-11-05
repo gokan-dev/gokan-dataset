@@ -1,0 +1,18 @@
+{
+  "id": "unihan",
+  "name": "Unihan database (Unicode 18.0.0), variants and readings",
+  "url": "https://www.unicode.org/reports/tr38/",
+  "license": "Unicode-3.0",
+  "community": "unicode",
+  "firstHand": "Unicode's editors record each character's Simplified and Traditional variants and its Mandarin readings",
+  "languages": ["zh-hans", "zh-hant", "zh-latn-pinyin"],
+  "roles": ["label"],
+  "match": "id",
+  "snapshot": {
+    "date": "2026-07-31",
+    "files": {
+      "data/sources/unihan/Unihan_Variants.txt.gz": "sha256:96e3167b8949631855c1ba4ad9fb834e091b7f441315f023bcbc15bbee902b3e",
+      "data/sources/unihan/Unihan_Readings.txt.gz": "sha256:c7bc1ebe8c6efd5a21e3aac6f6417c9ce793326f7871e09bc333d0cb7bb88094"
+    }
+  }
+}
