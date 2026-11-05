@@ -1,0 +1,69 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string"
+      },
+      "original": {
+        "type": "string"
+      },
+      "indices": {
+        "type": "string"
+      },
+      "vocabIds": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "matches": {
+        "type": "object",
+        "additionalProperties": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "start": {
+                "type": "number"
+              },
+              "length": {
+                "type": "number"
+              },
+              "reading": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "start",
+              "length"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "audio": {
+        "type": "object",
+        "properties": {
+          "clip": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "clip"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "required": [
+      "id",
+      "original",
+      "vocabIds"
+    ],
+    "additionalProperties": false
+  },
+  "definitions": {},
+  "$id": "schemas/CompiledSentences.schema.json"
+}

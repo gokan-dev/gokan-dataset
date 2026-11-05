@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": {
+    "type": "array",
+    "items": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "relation": {
+          "type": "string"
+        },
+        "formalityLevel": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "relation",
+        "title"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "definitions": {},
+  "$id": "schemas/CompiledGrammarVariantGroups.schema.json"
+}

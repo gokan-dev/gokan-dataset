@@ -1,0 +1,169 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "episodes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "number": {
+            "type": "number"
+          },
+          "speechSpeed": {
+            "type": "number"
+          },
+          "sourceUniqueWords": {
+            "type": "number"
+          },
+          "words": {
+            "type": "array",
+            "items": {
+              "type": "array",
+              "minItems": 2,
+              "items": [
+                {
+                  "type": "string",
+                  "title": "vocabId"
+                },
+                {
+                  "type": "number",
+                  "title": "occurrences"
+                }
+              ],
+              "maxItems": 2
+            }
+          }
+        },
+        "required": [
+          "number",
+          "speechSpeed",
+          "sourceUniqueWords",
+          "words"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "id": {
+      "type": "string"
+    },
+    "kind": {
+      "type": "string",
+      "const": "anime"
+    },
+    "title": {
+      "type": "object",
+      "properties": {
+        "original": {
+          "type": "string"
+        },
+        "reading": {
+          "type": "string"
+        },
+        "romaji": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "original",
+        "reading"
+      ],
+      "additionalProperties": false
+    },
+    "releaseYear": {
+      "type": "number"
+    },
+    "episodeCount": {
+      "type": "number"
+    },
+    "speechSpeed": {
+      "type": "number"
+    },
+    "difficulty": {
+      "type": "number"
+    },
+    "links": {
+      "type": "object",
+      "properties": {
+        "anilist": {
+          "type": "string"
+        },
+        "myanimelist": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "genreIds": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      }
+    },
+    "cover": {
+      "type": "object",
+      "properties": {
+        "urlSmall": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        },
+        "urlHiRes": {
+          "type": "string"
+        },
+        "color": {
+          "type": "string"
+        },
+        "source": {
+          "type": "string",
+          "const": "AniList"
+        }
+      },
+      "required": [
+        "urlSmall",
+        "url",
+        "urlHiRes",
+        "source"
+      ],
+      "additionalProperties": false
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "const": "Jiten"
+        },
+        "url": {
+          "type": "string"
+        },
+        "license": {
+          "type": "string",
+          "const": "CC BY-SA 4.0"
+        }
+      },
+      "required": [
+        "name",
+        "url",
+        "license"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "difficulty",
+    "episodeCount",
+    "episodes",
+    "genreIds",
+    "id",
+    "kind",
+    "links",
+    "source",
+    "speechSpeed",
+    "title"
+  ],
+  "definitions": {},
+  "$id": "schemas/CompiledMediaTitle.schema.json"
+}

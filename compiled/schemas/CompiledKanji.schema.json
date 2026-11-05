@@ -1,0 +1,124 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "character": {
+      "type": "string"
+    },
+    "steps": {
+      "type": "object",
+      "properties": {
+        "kklc": {
+          "type": "number"
+        },
+        "rtk": {
+          "type": "number"
+        },
+        "rtkLegacy": {
+          "type": "number"
+        },
+        "kanjiInContext": {
+          "type": "number"
+        },
+        "kanjiKana": {
+          "type": "number"
+        },
+        "henshall": {
+          "type": "number"
+        },
+        "essentialKanji": {
+          "type": "number"
+        },
+        "kanjiFlashcards": {
+          "type": "number"
+        },
+        "tuttleCards": {
+          "type": "number"
+        },
+        "maniette": {
+          "type": "number"
+        },
+        "jlpt": {
+          "type": "number"
+        },
+        "frequency": {
+          "type": "number"
+        }
+      },
+      "additionalProperties": false
+    },
+    "frequency": {
+      "type": "number"
+    },
+    "newspaperFrequency": {
+      "type": "number"
+    },
+    "readings": {
+      "type": "object",
+      "properties": {
+        "on": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "kun": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "nanori": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "on",
+        "kun",
+        "nanori"
+      ],
+      "additionalProperties": false
+    },
+    "strokeCount": {
+      "type": "number"
+    },
+    "grade": {
+      "type": "number"
+    },
+    "radical": {
+      "type": "object",
+      "properties": {
+        "number": {
+          "type": "number"
+        },
+        "character": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "number",
+        "character"
+      ],
+      "additionalProperties": false
+    },
+    "components": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "character",
+    "steps",
+    "readings",
+    "strokeCount",
+    "components"
+  ],
+  "additionalProperties": false,
+  "definitions": {},
+  "$id": "schemas/CompiledKanji.schema.json"
+}

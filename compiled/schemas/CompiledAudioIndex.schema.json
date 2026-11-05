@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "engine": {
+      "type": "string",
+      "const": "voicevox"
+    },
+    "engineVersion": {
+      "type": "string"
+    },
+    "voice": {
+      "type": "string"
+    },
+    "style": {
+      "type": "string"
+    },
+    "credit": {
+      "type": "string"
+    },
+    "termsUrl": {
+      "type": "string"
+    },
+    "extension": {
+      "type": "string"
+    },
+    "contentType": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "engine",
+    "engineVersion",
+    "voice",
+    "style",
+    "credit",
+    "termsUrl",
+    "extension",
+    "contentType"
+  ],
+  "additionalProperties": false,
+  "definitions": {},
+  "$id": "schemas/CompiledAudioIndex.schema.json"
+}

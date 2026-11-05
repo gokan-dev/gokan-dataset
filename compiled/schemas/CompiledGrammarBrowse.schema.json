@@ -1,0 +1,136 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "points": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "romaji": {
+            "type": "string"
+          },
+          "jlptLevel": {
+            "type": "number"
+          },
+          "kind": {
+            "type": "string"
+          },
+          "formalityLevel": {
+            "type": "string"
+          },
+          "familyId": {
+            "type": "string"
+          },
+          "axis": {
+            "type": "string"
+          },
+          "variantOf": {
+            "type": "string"
+          },
+          "variantRelation": {
+            "type": "string"
+          },
+          "orderIndex": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "chapterId": {
+            "type": "string"
+          },
+          "exampleCount": {
+            "type": "number"
+          },
+          "anchoredExampleCount": {
+            "type": "number"
+          },
+          "conjugationItems": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "id",
+          "title",
+          "jlptLevel",
+          "kind",
+          "orderIndex",
+          "exampleCount",
+          "anchoredExampleCount"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "stats": {
+      "type": "object",
+      "properties": {
+        "points": {
+          "type": "number"
+        },
+        "introduced": {
+          "type": "number"
+        },
+        "variants": {
+          "type": "number"
+        },
+        "variantGroups": {
+          "type": "number"
+        },
+        "families": {
+          "type": "number"
+        },
+        "unfamilied": {
+          "type": "number"
+        },
+        "chapters": {
+          "type": "number"
+        },
+        "byLevel": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "number"
+          }
+        },
+        "byKind": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "number"
+          }
+        },
+        "byAxis": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "number"
+          }
+        }
+      },
+      "required": [
+        "points",
+        "introduced",
+        "variants",
+        "variantGroups",
+        "families",
+        "unfamilied",
+        "chapters",
+        "byLevel",
+        "byKind",
+        "byAxis"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "points",
+    "stats"
+  ],
+  "additionalProperties": false,
+  "definitions": {},
+  "$id": "schemas/CompiledGrammarBrowse.schema.json"
+}

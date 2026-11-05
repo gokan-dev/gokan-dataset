@@ -1,0 +1,129 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string"
+      },
+      "kind": {
+        "type": "string",
+        "const": "anime"
+      },
+      "title": {
+        "type": "object",
+        "properties": {
+          "original": {
+            "type": "string"
+          },
+          "reading": {
+            "type": "string"
+          },
+          "romaji": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "original",
+          "reading"
+        ],
+        "additionalProperties": false
+      },
+      "releaseYear": {
+        "type": "number"
+      },
+      "episodeCount": {
+        "type": "number"
+      },
+      "speechSpeed": {
+        "type": "number"
+      },
+      "difficulty": {
+        "type": "number"
+      },
+      "links": {
+        "type": "object",
+        "properties": {
+          "anilist": {
+            "type": "string"
+          },
+          "myanimelist": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "genreIds": {
+        "type": "array",
+        "items": {
+          "type": "number"
+        }
+      },
+      "cover": {
+        "type": "object",
+        "properties": {
+          "urlSmall": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          },
+          "urlHiRes": {
+            "type": "string"
+          },
+          "color": {
+            "type": "string"
+          },
+          "source": {
+            "type": "string",
+            "const": "AniList"
+          }
+        },
+        "required": [
+          "urlSmall",
+          "url",
+          "urlHiRes",
+          "source"
+        ],
+        "additionalProperties": false
+      },
+      "source": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "const": "Jiten"
+          },
+          "url": {
+            "type": "string"
+          },
+          "license": {
+            "type": "string",
+            "const": "CC BY-SA 4.0"
+          }
+        },
+        "required": [
+          "name",
+          "url",
+          "license"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "required": [
+      "id",
+      "kind",
+      "title",
+      "episodeCount",
+      "speechSpeed",
+      "difficulty",
+      "links",
+      "genreIds",
+      "source"
+    ],
+    "additionalProperties": false
+  },
+  "definitions": {},
+  "$id": "schemas/CompiledMediaIndex.schema.json"
+}
