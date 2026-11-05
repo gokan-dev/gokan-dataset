@@ -31,6 +31,18 @@
       ]
     },
     {
+      "title": "Japanese Wiktionary, Japanese entries' translation tables and Chinese entries (kaikki.org extraction, sections 日本語 and 中国語)",
+      "path": "https://kaikki.org/jawiktionary/",
+      "gokan:id": "jawiktionary",
+      "gokan:license": "CC-BY-SA-4.0",
+      "gokan:languages": [
+        "zh",
+        "zh-hans",
+        "zh-hant",
+        "nan"
+      ]
+    },
+    {
       "title": "Jiten, per-episode anime vocabulary and speech statistics",
       "path": "https://jiten.moe",
       "gokan:id": "jiten",
@@ -68,6 +80,62 @@
       "gokan:licenseNote": "Per sentence, mostly CC BY 2.0 FR, some CC0: https://tatoeba.org/en/terms_of_use",
       "gokan:languages": [
         "en"
+      ]
+    },
+    {
+      "title": "Tatoeba, Japanese and Mandarin sentences, their links, and which sentence each was translated from",
+      "path": "https://tatoeba.org/en/downloads",
+      "gokan:id": "tatoeba-cmn",
+      "gokan:license": "LicenseRef-Tatoeba",
+      "gokan:licenseNote": "Per sentence, mostly CC BY 2.0 FR, some CC0: https://tatoeba.org/en/terms_of_use",
+      "gokan:languages": [
+        "zh",
+        "zh-hans",
+        "zh-hant"
+      ]
+    },
+    {
+      "title": "Unihan database (Unicode 18.0.0), variants and readings",
+      "path": "https://www.unicode.org/reports/tr38/",
+      "gokan:id": "unihan",
+      "gokan:license": "Unicode-3.0",
+      "gokan:languages": [
+        "zh-hans",
+        "zh-hant",
+        "zh-latn-pinyin"
+      ]
+    },
+    {
+      "title": "Wikidata, Japanese lexemes whose sense links a concept, and that concept's Chinese labels",
+      "path": "https://www.wikidata.org/wiki/Wikidata:Lexicographical_data",
+      "gokan:id": "wikidata",
+      "gokan:license": "CC0-1.0",
+      "gokan:languages": [
+        "zh",
+        "zh-hans",
+        "zh-hant"
+      ]
+    },
+    {
+      "title": "Wikipedia, the Chinese article a Japanese article links to (through Wikidata's sitelinks), for every JLPT word's headword",
+      "path": "https://www.wikidata.org/wiki/Help:Sitelinks",
+      "gokan:id": "wikipedia",
+      "gokan:license": "CC-BY-SA-4.0",
+      "gokan:languages": [
+        "zh",
+        "zh-hans",
+        "zh-hant"
+      ]
+    },
+    {
+      "title": "Chinese Wiktionary, Japanese entries (kaikki.org extraction, headers 日語 and 日语)",
+      "path": "https://kaikki.org/zhwiktionary/",
+      "gokan:id": "zhwiktionary",
+      "gokan:license": "CC-BY-SA-4.0",
+      "gokan:languages": [
+        "zh",
+        "zh-hans",
+        "zh-hant"
       ]
     }
   ],
@@ -391,9 +459,11 @@
       "format": "json",
       "mediatype": "application/json",
       "schema": "schemas/CompiledTextFile.schema.json",
-      "gokan:files": 522,
+      "gokan:files": 823,
       "gokan:languages": [
-        "en"
+        "en",
+        "zh-hans",
+        "zh-hant"
       ]
     },
     {
@@ -427,12 +497,15 @@
       "format": "json",
       "mediatype": "application/json",
       "schema": "schemas/CompiledEntitiesIndex.schema.json",
-      "gokan:files": 4,
+      "gokan:files": 7,
       "gokan:languages": [
         "en",
         "es",
         "fr",
-        "pt"
+        "nan",
+        "pt",
+        "zh-hans",
+        "zh-hant"
       ]
     },
     {
@@ -442,9 +515,12 @@
       "format": "json",
       "mediatype": "application/json",
       "schema": "schemas/CompiledSearchGlosses.schema.json",
-      "gokan:files": 1,
+      "gokan:files": 4,
       "gokan:languages": [
-        "en"
+        "en",
+        "nan",
+        "zh-hans",
+        "zh-hant"
       ]
     },
     {
@@ -454,12 +530,14 @@
       "format": "json",
       "mediatype": "application/json",
       "schema": "schemas/CompiledTextFile.schema.json",
-      "gokan:files": 4,
+      "gokan:files": 6,
       "gokan:languages": [
         "en",
         "es",
         "fr",
-        "pt"
+        "pt",
+        "zh-hans",
+        "zh-hant"
       ]
     },
     {
@@ -469,12 +547,14 @@
       "format": "json",
       "mediatype": "application/json",
       "schema": "schemas/CompiledTextFile.schema.json",
-      "gokan:files": 9628,
+      "gokan:files": 15882,
       "gokan:languages": [
         "en",
         "es",
         "fr",
-        "pt"
+        "pt",
+        "zh-hans",
+        "zh-hant"
       ]
     },
     {
@@ -508,9 +588,11 @@
       "format": "json",
       "mediatype": "application/json",
       "schema": "schemas/CompiledTextFile.schema.json",
-      "gokan:files": 31289,
+      "gokan:files": 39079,
       "gokan:languages": [
-        "en"
+        "en",
+        "zh-hans",
+        "zh-hant"
       ]
     },
     {
@@ -520,9 +602,12 @@
       "format": "json",
       "mediatype": "application/json",
       "schema": "schemas/CompiledTextFile.schema.json",
-      "gokan:files": 35872,
+      "gokan:files": 67319,
       "gokan:languages": [
-        "en"
+        "en",
+        "nan",
+        "zh-hans",
+        "zh-hant"
       ]
     },
     {
