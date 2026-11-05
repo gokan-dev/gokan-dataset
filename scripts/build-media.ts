@@ -1,3 +1,4 @@
+import { episodeText, mediaTitleText } from '../src/text/media';
 import fs from 'fs';
 import path from 'path';
 import kuromoji from 'kuromoji';
@@ -25,8 +26,8 @@ import { katakanaToHiragana } from '../src/utils/tokenizer';
 const SELECTION_FILE = './data/raw/media/selection.json';
 const SNAPSHOT_DIR = './data/raw/media/jiten';
 const COVERS_FILE = './data/raw/media/covers.json';
-const VOCAB_DIR = './compiled/vocab';
-const OUTPUT_DIR = './compiled/media';
+const VOCAB_DIR = './build/assembled/vocab';
+const OUTPUT_DIR = './build/assembled/media';
 
 /** A tag is kept when at least this share of Jiten's voters agree, and at most MAX_TAGS of them. */
 const MIN_TAG_PERCENTAGE = 60;
@@ -89,6 +90,9 @@ export function buildTitleReader(tokenizer: kuromoji.Tokenizer<kuromoji.IpadicFe
 export function compileTitle(snapshot: JitenMediaSnapshot, resolve: VocabResolver, readTitle: TitleReader, cover?: MediaCoverSnapshot): MediaTitle {
     const linkOf = (type: number) => snapshot.links.find(l => l.type === type)?.url;
     const year = snapshot.releaseDate ? Number(snapshot.releaseDate.slice(0, 4)) : NaN;
+    // Only the genres Gokan has a name for, as before the text layer.
+    const genreIds = (snapshot.genres ?? []).filter(id => Boolean(JITEN_GENRES[id]));
+    const tags = (snapshot.tags ?? []).filter(t => t.percentage >= MIN_TAG_PERCENTAGE).slice(0, MAX_TAGS).map(t => t.name);
 
     return {
         id: String(snapshot.deckId),
@@ -97,14 +101,12 @@ export function compileTitle(snapshot: JitenMediaSnapshot, resolve: VocabResolve
             original: snapshot.title.original,
             reading: readTitle(snapshot.title.original),
             ...(snapshot.title.romaji ? { romaji: snapshot.title.romaji } : {}),
-            ...(snapshot.title.english ? { english: snapshot.title.english } : {}),
         },
         ...(Number.isFinite(year) && year > 1900 ? { releaseYear: year } : {}),
         episodeCount: snapshot.episodes.length,
         speechSpeed: snapshot.stats.speechSpeed,
         difficulty: snapshot.stats.difficulty,
-        genres: (snapshot.genres ?? []).map(id => JITEN_GENRES[id]).filter((name): name is string => Boolean(name)),
-        tags: (snapshot.tags ?? []).filter(t => t.percentage >= MIN_TAG_PERCENTAGE).slice(0, MAX_TAGS).map(t => t.name),
+        genreIds,
         links: {
             ...(linkOf(LINK_TYPE_ANILIST) ? { anilist: linkOf(LINK_TYPE_ANILIST) } : {}),
             ...(linkOf(LINK_TYPE_MYANIMELIST) ? { myanimelist: linkOf(LINK_TYPE_MYANIMELIST) } : {}),
@@ -113,9 +115,10 @@ export function compileTitle(snapshot: JitenMediaSnapshot, resolve: VocabResolve
             cover: { urlSmall: cover.urlSmall, url: cover.url, urlHiRes: cover.urlHiRes, ...(cover.color ? { color: cover.color } : {}), source: 'AniList' as const },
         } : {}),
         source: { name: 'Jiten', url: snapshot.sourceUrl, license: 'CC BY-SA 4.0' },
+        text: mediaTitleText(String(snapshot.deckId), snapshot.title.english, genreIds, tags),
         episodes: snapshot.episodes.map(episode => ({
             number: episode.number,
-            title: episode.title,
+            text: episodeText(String(snapshot.deckId), episode.number, episode.title),
             speechSpeed: episode.stats.speechSpeed,
             sourceUniqueWords: episode.words.length,
             words: resolveWords(episode.words, resolve),

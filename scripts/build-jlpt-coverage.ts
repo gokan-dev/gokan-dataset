@@ -21,7 +21,7 @@ import { readWallerDecks, readWallerIdList, resolveJlptLevels, type JlptCorrecti
  * Run: `bun run build:jlpt-coverage`.
  */
 
-const VOCAB_DIR = './compiled/vocab';
+const VOCAB_DIR = './build/assembled/vocab';
 const ID_LIST_DIR = './data/raw/jlpt/waller-ids';
 const DECKS_DIR = './data/raw/jlpt/waller-decks';
 const CORRECTIONS_PATH = './data/raw/vocab/jlpt-corrections.json';
@@ -98,7 +98,7 @@ function main() {
     // Compiled words, and each absorbed homograph -> the word it lives under.
     const compiled = new Map<string, Vocabulary>();
     const baseOf = new Map<string, Vocabulary>();
-    for (const file of fs.readdirSync(VOCAB_DIR)) {
+    for (const file of fs.readdirSync(VOCAB_DIR).sort()) {
         if (!file.endsWith('.json')) continue;
         const vocab: Vocabulary = JSON.parse(fs.readFileSync(path.join(VOCAB_DIR, file), 'utf-8'));
         compiled.set(vocab.id, vocab);
@@ -180,7 +180,7 @@ function main() {
     lines.push(`<details><summary>Derived levels (${derived.length})</summary>`, '');
     lines.push('| Word | Reading | Level | Formed from |');
     lines.push('|---|---|---|---|');
-    for (const v of derived.sort((a, b) => b.jlptLevel! - a.jlptLevel! || a.writtenForm.kanji.localeCompare(b.writtenForm.kanji))) {
+    for (const v of derived.sort((a, b) => b.jlptLevel! - a.jlptLevel! || (a.writtenForm.kanji < b.writtenForm.kanji ? -1 : a.writtenForm.kanji > b.writtenForm.kanji ? 1 : 0))) {
         const from = compiled.get(v.jlptLevelFrom!)!;
         lines.push(`| ${v.writtenForm.kanji} | ${v.reading.primary} | N${v.jlptLevel} | ${from.writtenForm.kanji}/${from.reading.primary} |`);
     }

@@ -1,6 +1,8 @@
 import { describe, it, expect } from 'vitest';
-import { splitTitle, compileContrasts, duplicateTopLevelKeys } from './build-grammar';
-import type { GrammarContrastLesson } from '../src/models/grammar.model';
+import { splitTitle, compileContrasts, duplicateTopLevelKeys, type AuthoredContrastLesson } from './build-grammar';
+import type { TextByLanguage } from '../src/models/text.model';
+import { contrastCaseId, grammarLabel } from '../src/text/grammarText';
+import { labelsOf, proseOf } from '../src/text/renderings';
 
 describe('duplicateTopLevelKeys', () => {
     it('finds a point listed twice, which JSON.parse would silently collapse to the last entry', () => {
@@ -54,15 +56,16 @@ describe('splitTitle', () => {
 });
 
 describe('compileContrasts', () => {
+    const named = (id: string, name: string): TextByLanguage => ({ en: { renderings: [grammarLabel('family', id, 'en', 'family', name, { source: 'gokan', ref: id })] } });
     const familyMembers = new Map([
-        ['causality', { name: 'Causality (Because / Since / Due to)', ids: ['n5-073', 'n4-110', 'n3-004', 'n2-139'] }],
-        ['regardless-a-or-b', { name: 'Regardless (Whether A or B)', ids: ['n1-100', 'n1-101'] }],
-        ['big', { name: 'Big family', ids: ['b1', 'b2', 'b3', 'b4', 'b5', 'b6', 'b7', 'b8', 'b9'] }],
+        ['causality', { text: named('causality', 'Causality (Because / Since / Due to)'), ids: ['n5-073', 'n4-110', 'n3-004', 'n2-139'] }],
+        ['regardless-a-or-b', { text: named('regardless-a-or-b', 'Regardless (Whether A or B)'), ids: ['n1-100', 'n1-101'] }],
+        ['big', { text: named('big', 'Big family'), ids: ['b1', 'b2', 'b3', 'b4', 'b5', 'b6', 'b7', 'b8', 'b9'] }],
     ]);
     const axisOf = (id: string): string | undefined =>
         id.startsWith('n1-10') ? 'variant' : 'register';
 
-    const lesson = (over: Partial<GrammarContrastLesson> = {}): GrammarContrastLesson => ({
+    const lesson = (over: Partial<AuthoredContrastLesson> = {}): AuthoredContrastLesson => ({
         id: 'reason-core',
         title: 'から / ので',
         points: ['n5-073', 'n4-110'],
@@ -75,10 +78,28 @@ describe('compileContrasts', () => {
             { causality: { lessons: [lesson()] } },
             familyMembers,
             axisOf,
+            'en',
         );
         expect(caseCount).toBe(1);
-        expect(index.causality.name).toBe('Causality (Because / Since / Due to)');
+        expect(labelsOf(index.causality.text, 'en', { field: 'family' })).toEqual(['Causality (Because / Since / Due to)']);
+        expect(index.causality.text).toBe(familyMembers.get('causality')?.text);
         expect(index.causality.lessons[0].cases[0].focus).toBe('n4-110');
+    });
+
+    it("writes a case's situation and guidance as Gokan's prose, identified by what the case contrasts", () => {
+        const { index } = compileContrasts({ causality: { lessons: [lesson()] } }, familyMembers, axisOf, 'en');
+        const case_ = index.causality.lessons[0].cases[0];
+        expect(proseOf(case_.text, 'en', 'situation')).toBe('Apologising.');
+        expect(proseOf(case_.text, 'en', 'guidance')).toBe('Use ので.');
+        const [situation] = case_.text.en?.renderings ?? [];
+        expect(situation?.source).toEqual({ source: 'gokan', ref: contrastCaseId('causality', 'reason-core', 'n4-110', ['n5-073']) });
+        expect(situation?.status).toBe('reviewed');
+        expect(case_).not.toHaveProperty('situation');
+    });
+
+    it('refuses two cases contrasting the same points in one lesson, which would share an id', () => {
+        const twice = lesson({ cases: [{ focus: 'n4-110', vs: ['n5-073'], situation: 'a', guidance: 'b' }, { focus: 'n4-110', vs: ['n5-073'], situation: 'c', guidance: 'd' }] });
+        expect(() => compileContrasts({ causality: { lessons: [twice] } }, familyMembers, axisOf, 'en')).toThrow(/two cases/);
     });
 
     it('applies the sanitiser to label, situation, and guidance', () => {
@@ -87,16 +108,17 @@ describe('compileContrasts', () => {
             { causality: { lessons: [lesson()] } },
             familyMembers,
             axisOf,
+            'en',
             shout,
         );
         const u = index.causality.lessons[0].cases[0];
         expect(index.causality.lessons[0].title).toBe('から / ので');
-        expect(u.situation).toBe('APOLOGISING.');
-        expect(u.guidance).toBe('USE ので.');
+        expect(proseOf(u.text, 'en', 'situation')).toBe('APOLOGISING.');
+        expect(proseOf(u.text, 'en', 'guidance')).toBe('USE ので.');
     });
 
     it('throws on an unknown family', () => {
-        expect(() => compileContrasts({ nope: { lessons: [lesson()] } }, familyMembers, axisOf))
+        expect(() => compileContrasts({ nope: { lessons: [lesson()] } }, familyMembers, axisOf, 'en'))
             .toThrow(/unknown family "nope"/);
     });
 
@@ -105,6 +127,7 @@ describe('compileContrasts', () => {
             { causality: { lessons: [lesson({ cases: [{ focus: 'n4-110', vs: ['n5-999'], situation: 's', guidance: 'g' }] })] } },
             familyMembers,
             axisOf,
+            'en',
         )).toThrow(/"n5-999", which is not a \(non-dropped\) member/);
     });
 
@@ -113,6 +136,7 @@ describe('compileContrasts', () => {
             { 'regardless-a-or-b': { lessons: [lesson({ points: ['n1-100', 'n1-101'], cases: [{ focus: 'n1-100', vs: ['n1-101'], situation: 's', guidance: 'g' }] })] } },
             familyMembers,
             axisOf,
+            'en',
         )).toThrow(/axis 'variant'/);
     });
 
@@ -122,6 +146,7 @@ describe('compileContrasts', () => {
             { causality: { lessons: [lesson({ points: ['n5-073', 'n4-110'], cases: [{ focus: 'n4-110', vs: ['n3-004'], situation: 's', guidance: 'g' }] })] } },
             familyMembers,
             axisOf,
+            'en',
         )).toThrow(/has a case naming/);
     });
 
@@ -131,6 +156,7 @@ describe('compileContrasts', () => {
             { big: { lessons: [lesson({ id: 'big-lesson', points: ['b1', 'b2', 'b3', 'b4', 'b5', 'b6', 'b7', 'b8', 'b9'], cases: [{ focus: 'b2', vs: ['b1'], situation: 's', guidance: 'g' }] })] } },
             familyMembers,
             axisOf,
+            'en',
             undefined,
             (m) => warnings.push(m),
         );
@@ -143,6 +169,7 @@ describe('compileContrasts', () => {
             { causality: { lessons: [lesson({ cases: [{ focus: 'n4-110', vs: ['n4-110'], situation: 's', guidance: 'g' }] })] } },
             familyMembers,
             axisOf,
+            'en',
         )).toThrow(/lists itself in vs/);
     });
 
@@ -151,6 +178,7 @@ describe('compileContrasts', () => {
             { causality: { lessons: [lesson({ cases: [{ focus: 'n4-110', vs: [], situation: 's', guidance: 'g' }] })] } },
             familyMembers,
             axisOf,
+            'en',
         )).toThrow(/empty vs list/);
     });
 
@@ -159,13 +187,14 @@ describe('compileContrasts', () => {
             { causality: { lessons: [lesson({ cases: [{ focus: 'n4-110', vs: ['n5-073'], situation: '  ', guidance: 'g' }] })] } },
             familyMembers,
             axisOf,
+            'en',
         )).toThrow(/missing situation or guidance/);
     });
 
     it('lists a variant family as interchangeable even with no authored lesson', () => {
         // The whole point of the interchangeable list: a family that can never
         // carry a lesson still has to say so, rather than being absent entirely.
-        const { index, caseCount } = compileContrasts({}, familyMembers, axisOf);
+        const { index, caseCount } = compileContrasts({}, familyMembers, axisOf, 'en');
         expect(caseCount).toBe(0);
         expect(index['regardless-a-or-b'].lessons).toEqual([]);
         expect(index['regardless-a-or-b'].interchangeable).toEqual(['n1-100', 'n1-101']);
@@ -178,6 +207,7 @@ describe('compileContrasts', () => {
             { causality: { lessons: [lesson()] } },
             familyMembers,
             axisOf,
+            'en',
         );
         expect(index.causality.interchangeable).toBeUndefined();
         expect(index['regardless-a-or-b'].interchangeable).toHaveLength(2);

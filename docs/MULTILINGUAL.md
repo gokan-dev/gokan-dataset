@@ -51,7 +51,7 @@ Lowercase is valid BCP 47: tags are case-insensitive ([RFC 5646, section 2.1.1](
 
 The core is today's compiled entities minus their explanation-language text. Japanese text stays: a sentence's `original`, a grammar point's `title`, every written form and reading. Two fields mix the two and have to be restructured before they can live in the core:
 
-- a grammar point's `formation` (`Noun + が + いちばん + Adjective/Verb`) writes its slot names in English;
+- a grammar point's title (`Noun + が + いちばん`) writes its slot names in English. The core writes slot codes instead (`{noun}`), named in each language's text; the `formation` (`Noun + が + いちばん + Adjective/Verb`) is mostly English prose, so it moves to the text layer whole;
 - a word's `senses` mix JMdict's English glosses with facts that are not English: each sense's part of speech, its flags (archaic, abbreviation...) and its cross-references. Those facts describe JMdict's own senses, and senses belong to their source (see Identity), so they travel with JMdict's definition. The core keeps what is true of the word itself: the union of its parts of speech, which conjugation needs.
 
 ### Text
@@ -107,7 +107,11 @@ interface Prose extends Rendering { role: 'prose'; field: string; value: Value }
 interface Note extends Rendering { role: 'note'; value: Value }                   // for one audience only
 ```
 
-This is a sketch: names are settled in phase 2, in `src/models/`, with the JSON Schemas.
+This was the sketch; the types are now in `src/models/text.model.ts`. They differ from it in three ways, all to keep files small (a renderings file repeats these on every sentence):
+
+- a rendering's language is its file's, and it carries `lang` only when it differs (a `zh` value in a `zh-hans` file);
+- a source's snapshot is recorded once, in its `source.json`, so a rendering's `source` is only `{ source, ref }`;
+- a value is a plain string, unless an allowlisted transform made it, when it is `{ value, derivedFrom }`.
 
 ### Language tags
 
@@ -121,11 +125,13 @@ Each entity uses the roles that fit it. There is no per-entity mechanism.
 
 | Entity | Roles | Today's English |
 |---|---|---|
-| Word | definition, equivalent, note | `senses[].glosses` (JMdict); `mergedVocabs[].originalGlosses` |
+| Word | definition, equivalent, note | `senses[].glosses` (JMdict); `mergedVocabs[].originalGlosses`, now derived from each merged entry's definition |
 | Kanji | label | `meanings` (KANJIDIC2) |
 | Sentence | translation | `en[]` (Tatoeba) |
-| Grammar point | prose, label; translation for examples | `shortExplanation`, `longExplanation`, `usageNote`, `examples[].en` (hanabira.org and hand-written) |
-| Family, lesson, case, chapter | label, prose | `family.name`, a case's `situation`/`guidance`, a chapter's `title`/`summary` (hand-written) |
+| Grammar point | prose, label; translation for examples | `shortExplanation`, `longExplanation`, `formation`, `usageNote`, `derives`, a title's name, `examples[].en` (hanabira.org and hand-written; mined examples' from Tatoeba) |
+| Grammar slot | label | the slot words of titles and romaji: Noun, Verb, A, い-Adjective (hand-written) |
+| Family, lesson, case, chapter | label, prose | `family.name`, a case's `situation`/`guidance`, a chapter's `title`/`summary` (hand-written); a lesson's title is Japanese |
+| Conjugation form | label | `formLabel` (hand-written) |
 | Tag (part of speech, register, field) | label | JMdict's tag descriptions |
 | Media title | label | `title.english`, genre names |
 
@@ -137,7 +143,7 @@ Each entity uses the roles that fit it. There is no per-entity mechanism.
 
 - Entities keep their ids (JMdict word ids, the kanji character, Tatoeba sentence ids, grammar point ids). Ids are never reused; a retired id is aliased, as grammar points already are. Ids never depend on a language.
 - **Senses have no identity across sources.** Every first-hand source divides a word's meanings its own way: Chinese Wiktionary's 手紙 has two senses and a dialect reading, JMdict's has its own. Aligning them sense by sense would be our editing, on top of the source; JMdict itself keeps its non-English glosses (German, Russian, French...) in senses of their own rather than aligned with the English ones, French only partly excepted. So a definition's senses belong to its source, and every rendering attaches to the word.
-- **A rendering is identified by its content**: a hash of entity kind, entity id, role, language, source, ref and value. A review is recorded against that identity, so it survives every rebuild and is dropped, automatically, when the source changes the text.
+- **A rendering is identified by its content**: a hash of entity kind, entity id, role, language, source, ref and value, and not of its status, match evidence or corroboration (`src/text/renderings.ts`). A review is recorded against that identity, so it survives every rebuild and is dropped, automatically, when the source changes the text.
 
 ## Sources
 
@@ -235,14 +241,35 @@ A new source is an importer and a `source.json`. A new language is a set of sour
 - **Core files** stay where they are, `compiled/vocab/`, `compiled/kanji/`, `compiled/sentences/`, `compiled/grammar/`..., without their explanation-language text.
 - **Text files** mirror them: `compiled/text/<lang>/` followed by the core file's own path, holding the renderings for every entity in that core file. Where a core file holds several entities, its text file keys them by entity id: a word's sentence file (手紙's holds 1,059 sentences) has one Chinese text file, `compiled/text/zh-hans/sentences/1327720.json`, not one file per sentence. A core file with no text in a language has no text file in it.
 - **Per-language indexes**, `compiled/text/<lang>/index/`: that language's search index and derived data, and the list of entities that have text in it (which pages exist in that language, its sitemap, its `hreflang` links).
-- **`compiled/datapackage.json`** lists every file type with its JSON Schema, and every source with its licence.
+- **A text file** is `{ kind, lang, entities }`: `entities` maps each entity id in the core file to its renderings, and, for a word, the near-synonyms computed from them.
+- **How the build makes it.** `bun run build` empties `build/` and runs every stage, from the raw sources, in a fixed order.
+  - **Every stage but the last** writes the dataset as it assembles it to `build/assembled/` (not committed). Each entity there carries its text in `text`, by language, made by the source's reader as it reads the source:
+    - the JMdict reader keeps each gloss's language (JMdict's `eng` becomes `en`);
+    - the KANJIDIC2 reader keeps all four of its languages;
+    - the Tatoeba reader tags its translations with its pairs file's language.
+  - **The last stage, `build:layout`,** writes `compiled/` from it. It names no language, so `compiled/text/{fr,es,pt}/kanji/` appear because KANJIDIC2 has them.
+- **Words.** Each JMdict entry a word holds keeps its own definition, under its own id: the word's own entry (matched by `id`), then each homograph merged into it (matched by `spelling`). A merged homograph's three-gloss summary is no longer stored. It is the first sense of that entry's definition.
+- **The search index** keeps each word's id, spelling and reading in `index/search.json`, and its short gloss per language in `compiled/text/<lang>/index/search.json`.
+- **Grammar.** A point's core keeps its Japanese: the title and romaji, with a slot code where hanabira writes an English slot word (`{noun} にもまして`, `{a} uga {b} uga`), its examples' Japanese and words, and its language-neutral facts.
+  - **Slots** are listed in `compiled/grammar/slots.json` (`src/text/grammarSlots.ts`): 8 codes, `noun`, `verb`, `a`, `b`, `na-adjective`, `i-adjective`, `noun1`, `noun2`, on 148, 141, 56, 55, 14, 10, 2 and 2 titles. Each has Gokan's label in each language, and its spelling inside a romanisation where that differs (`i-Adjective`). A slot word the module does not know fails the build.
+  - **A point's text** holds its prose (`shortExplanation`, `longExplanation`, `formation`, `usageNote`) and its labels: `derives`, `family` (the family's own rendering, carried by every member), `name` (the title's name, "Polite past" in "Polite past: Verb ました"). Where rendering the core in a language would not give back what the source wrote (4 points: hanabira's name after the pattern on n5-016, and the casing of "な-adjective" and "verb-ru"), the source's own `title` or `romaji` is kept as a label too.
+  - **The formation is prose**, moved whole: the pattern matcher and the formation miner read it, and the title, through the text accessors, and derive only language-neutral facts from them (which words are the pattern, which sentences use it).
+  - **An example** is identified by its point and a hash of its Japanese (`n5-001#f5f2c8d0e880`), not its position, which overrides.json changes. Its translation is a rendering from hanabira, or Gokan where overrides.json wrote the example; a mined example carries its sentence's Tatoeba rendering itself.
+  - **The indexes** with text are split the same way, keyed by entity: `families.json` and `contrasts.json` (a case is `<family>#<lesson>/<focus>><vs>`), the chapters of `teaching-order.json` (the generated ones from per-language templates), and `conjugations.json`, whose core keeps the form's Japanese marker (`たい`) and whose text holds its `formLabel`. `browse.json` is split like the search index: its rows' neutral fields in the core, their text as plain strings in `compiled/text/<lang>/grammar/index/browse.json`.
+- **Two checks:**
+  - `bun run check:layout` proves that every split file joins back to exactly what was assembled.
+  - `bun run check:legacy [ref] [--baseline <dir>]` proves that every word, kanji, sentence, search and grammar file, projected back to its old shape from its core and its English (`src/layout/legacy.ts`), equals that file at an earlier commit, and every copied file too. With `--baseline`, grammar, media and the other indexes are compared with a directory instead (an earlier build's), where the commit's copies differ for a reason of their own. It is the dataset half of phase 2's "nothing changes for a user", and gokan-srs's loaders do the same projection.
+- **Media** is split too: Jiten's English title, community tags and episode titles are labels (source `jiten`), and the genre names Gokan gives Jiten's genre ids are labels (source `gokan`); the core keeps the genre ids.
+- **`compiled/schemas/`** holds a JSON Schema for every file type (33), generated by `bun run build:schemas` from the types in `src/models/compiled.model.ts`. Objects are closed, so a field the types do not declare fails the build (one already did: `isCommon` on words, now typed). `src/layout/resources.ts` maps every file's path to its type, for the schemas, the datapackage and the check.
+- **`compiled/datapackage.json`** (`bun run build:datapackage`) lists every file type with its path pattern, file count, languages and schema, and every source with its licence. It holds no date, so it stays byte-identical between builds.
 - **The output is byte-reproducible**: rebuilding from unchanged inputs changes no byte, so a consumer that compares files (a content-addressed deploy, a cache) sees only real changes.
 
 ## Consumers
 
 Both apps read the same compiled dataset. How each one loads and serves it is the app's business, and the dataset never dictates it.
 
-- **gokan-srs** reads the core and `en` only. Its loaders assemble from them the values it uses today (a word's `senses` from the core and JMdict's `en` definition). Its build copies only what it reads: `scripts/sync-dataset.ts` copies the whole `compiled/` folder into the app today, which would upload every language's text to S3 for nothing.
+- **The English view** (`src/layout/english.ts`) gives back every file of the old layout, in its old shape, from its core and its English text. Both apps read the dataset through it, via `@gokan/dataset-schema/english`, so their code and their types are unchanged; `bun run check:legacy` proves it gives back exactly the old files, and no other file. It is a view, not a second copy: nothing it produces is committed here.
+- **gokan-srs** reads English only. Its `scripts/sync-dataset.ts` writes the English view into `public/data/compiled`, so the app's runtime requests and files keep their shape, and no other language's text is shipped or uploaded.
 - **gokan-dictionary** reads the core and every language it shows. Rendering on request, it reads a read-only database its deploy builds from the dataset, not the dataset's files one by one: a word's sentence file is 3 KB at the median but 481 KB at the 99th percentile and 32 MB at the largest, too much to fetch for each uncached page. The database is a copy rebuilt from the dataset at every deploy, as the prerender reads the dataset from the checkout today; the dataset stays the only source of truth.
 - **No serving format is committed here.** The canonical form is one JSON file per entity, readable by key from disk and diffable in review. A format built for serving (the dictionary's database, a search index tuned for one app) is produced from it by the app's build. Serving is where the cost is: in the 30 days to 2026-11-03 the dictionary's deploys uploaded 1.29 million files to S3, almost all of them in 33 deploys that rewrote every one of its 40,000 or so pages, and every language section would have multiplied that. Rendering on request replaces those uploads with one deploy of the function and its database.
 
@@ -259,6 +286,15 @@ Each rule is a check, so it cannot regress by review:
 7. Every compiled file validates against its schema.
 8. Rebuilding from unchanged inputs changes no byte of the output.
 9. The benchmark's coverage and agreement do not drop below their recorded floors.
+
+Where each runs (all after `bun run build`):
+
+- 1, 2, 4, 5 and 6: `bun run check:text`. Check 6 has nothing to check until phase 5 records reviews, and fails if a review appears before its check does.
+- 3 holds by construction: a rendering has exactly one source.
+- 7: `bun run check:schemas`.
+- 8: `bun run check:determinism`, which rebuilds everything from the raw sources and compares every byte.
+- 9 starts with phase 4's benchmark stage.
+- Two more prove phase 2: `bun run check:layout` (every split file joins back to what was assembled) and `bun run check:legacy` (the English view equals the old layout).
 
 ## What the benchmark measured
 
@@ -306,24 +342,26 @@ The dataset work happens on gokan-dataset branches. A change of layout ships wit
 4. **Chinese.** The importers listed above, the matcher's conventions, corroboration, the script transform if allowed, `compiled/text/zh-hans/`, and the benchmark as a build stage with recorded floors.
 5. **Review.** The gold set reviewed, review records, and the acceptance rule set from what the gold set shows.
 
+**Phase 2 as built (2026-11-04).** The English view equals the old layout for every file but one kind. 408 grammar points' mined example pools hold a different sample than origin/main's. A pool is a seeded sample of at most 60 sentences, and it used to depend on the order the filesystem listed the sentence files in, so a build on Linux and one on Windows could differ. The build now reads them sorted, which makes the sample the same on every machine. These 408 pools, and the 408 dictionary pages that show them, are the only change an app sees. They are a different, equally random sample, and the cause is the determinism fix, not the text layer: the English view equals, file for file, a build made with that fix before any text moved.
+
 Two changes stay apart so neither hides a regression in the other. Phase 2 happens while the dictionary is still prerendered, so its check is that every page comes out byte-identical. The dictionary's move to rendering on request is its own change, checked the same way: every page the function renders is identical to the page the prerender makes from the same dataset. The dictionary's pages in other languages come after both, once phase 4 has data to show.
 
 ## Decisions
 
 | # | Decision | Recommendation | Status |
 |---|---|---|---|
-| D1 | Does the mechanism cover all text, English included? | Yes: otherwise English stays the source of truth. | open |
+| D1 | Does the mechanism cover all text, English included? | Yes: otherwise English stays the source of truth. | decided 2026-11-04 |
 | D2 | How languages are tagged | BCP 47, lowercase everywhere. Chinese as `zh-hans` / `zh-hant` as written; bare `zh` only when the script cannot be told; another Chinese language its own tag (`nan`, `yue`). | lowercase decided 2026-11-04; the rest open |
 | D3 | Traditional to Simplified conversion | Allowed, as a derived value naming its original and the transform; the source text is kept. | open |
-| D4 | How authored prose may be drafted | One rule for every language. The English contrast lessons are "AI-drafted, human-reviewed" (SCHEMA.md), which is looser than the rule for imported text. Either that holds for authored Chinese too, or authored text is written by a person. | open |
+| D4 | How authored prose may be drafted | One rule for every language. The English contrast lessons are "AI-drafted, human-reviewed" (SCHEMA.md), which is looser than the rule for imported text. Either that holds for authored Chinese too, or authored text is written by a person. | for existing English, decided 2026-11-04: Gokan's hand-written text and its AI-drafted, human-reviewed text are `reviewed`, with a note saying how the text was made; for new languages, open |
 | D5 | Chinese Wiktionary's bot entries | Excluded until their origin is known. | open |
 | D6 | What corroborates | Agreement with a text from another community: zh.wiktionary; ja.wiktionary; wikimedia (Wikidata, Wikipedia); tatoeba; edrdg; gokan. | open |
 | D7 | Reviews and the gold set | Reviews stored as data here, keyed by rendering identity. Who reviews Chinese is open. | open |
-| D8 | Compiled layout | One layout both apps read: core files where they are today, text under `compiled/text/<lang>/` mirroring them, per-language indexes. | one layout for both apps decided 2026-11-04; the paths open |
-| D9 | Schemas | JSON Schema per compiled file type, validated at build; the tool chosen in phase 2. | open |
-| D10 | Dataset manifest | Frictionless `datapackage.json`. | open |
-| D11 | Where near-synonyms come from | Per language, computed from that language's renderings, as the English ones are today. A Japanese source of language-neutral synonyms can be measured later. | open |
-| D12 | What the dataset guarantees its consumers | One JSON file per entity and no serving format; per-language entity indexes; byte-reproducible output; ids that never depend on a language. | open |
+| D8 | Compiled layout | One layout both apps read: core files where they are today, text under `compiled/text/<lang>/` mirroring them, per-language indexes. | decided 2026-11-04 |
+| D9 | Schemas | JSON Schema per compiled file type, validated at build; the tool chosen in phase 2. | decided 2026-11-04: generated from the TypeScript types by ts-json-schema-generator, validated with Ajv |
+| D10 | Dataset manifest | Frictionless `datapackage.json`. | decided 2026-11-04 |
+| D11 | Where near-synonyms come from | Per language, computed from that language's renderings, as the English ones are today. A Japanese source of language-neutral synonyms can be measured later. | decided 2026-11-04 for now; a Japanese source stays open |
+| D12 | What the dataset guarantees its consumers | One JSON file per entity and no serving format; per-language entity indexes; byte-reproducible output; ids that never depend on a language. | decided 2026-11-04 |
 
 ## Open questions
 

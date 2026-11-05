@@ -3,7 +3,7 @@ import type { Sentence } from '../models/sentence.model';
 import { generationOrder, grammarItem, selectScope, sentenceItem, sourceHash, wordItem, type WordForAudio } from './scope';
 
 function sentence(id: string, original: string, vocabIds: string[], matches: Sentence['matches'] = {}): Sentence {
-    return { id, original, en: [{ id: `e${id}`, text: '' }], vocabIds, matches };
+    return { id, original, text: {}, vocabIds, matches };
 }
 
 const word = (id: string, kanji: string, reading: string, usuallyKana?: true): WordForAudio =>

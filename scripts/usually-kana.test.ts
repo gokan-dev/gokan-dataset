@@ -22,7 +22,7 @@ import labels from './usually-kana.labels.json';
  * build no longer compiles (merged away, dropped) is skipped.
  */
 
-const VOCAB_DIR = './compiled/vocab';
+const VOCAB_DIR = './build/assembled/vocab';
 const KANA_RECALL_FLOOR = 0.8;
 
 function compiled(id: string): Vocabulary | null {

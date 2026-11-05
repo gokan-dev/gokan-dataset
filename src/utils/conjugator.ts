@@ -381,7 +381,26 @@ export function conjugate(
     return null;
 }
 
-/** Human-readable name for a form, shown to the learner as the prompt. */
+/**
+ * The Japanese a form is named by, where it has one: language-neutral, so it stays in the core of
+ * compiled/grammar/conjugations.json, while each language's name for the form is text.
+ */
+export const FORM_MARKERS: Partial<Record<ConjugationForm, string>> = {
+    'te': 'て', 'tai': 'たい', 'zu': 'ず', 'chatta': 'ちゃった', 'toku': 'とく',
+    'plain-past': 'た', 'plain-negative': 'ない', 'plain-past-negative': 'なかった',
+    'masu': 'ます', 'masu-past': 'ました', 'masu-negative': 'ません', 'masu-past-negative': 'ませんでした',
+    'volitional': 'よう', 'prohibitive': 'な', 'ba': 'ば', 'negative-te': 'なくて',
+    'i-adj-adverbial': 'く', 'i-adj-te': 'くて', 'i-adj-negative-polite': 'くないです', 'i-adj-negative': 'くない',
+    'i-adj-past': 'かった', 'i-adj-past-negative': 'くなかった', 'i-adj-ba': 'ければ', 'i-adj-negative-te': 'くなくて',
+    'na-adj-adverbial': 'に', 'na-adj': 'だ', 'na-adj-past': 'だった', 'na-adj-negative': 'じゃない',
+    'na-adj-past-negative': 'じゃなかった', 'na-adj-polite': 'です', 'na-adj-past-polite': 'でした',
+    'na-adj-negative-polite': 'じゃないです', 'na-adj-te': 'で', 'na-adj-negative-te': 'じゃなくて',
+};
+
+/**
+ * Gokan's English name for a form, shown to the learner as the prompt. It goes to the text layer
+ * as the drill's `formLabel` label; it quotes the form's marker, as English prose quotes Japanese.
+ */
 export const FORM_LABELS: Record<ConjugationForm, string> = {
     'te': 'て-form',
     'tai': 'たい (want to)',

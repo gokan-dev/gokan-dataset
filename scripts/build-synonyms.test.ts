@@ -1,6 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import { coarsePosSet, sharesPos, normalizeGloss, sharedGlosses, glossOverlap, overlaps, senseCovered, kanjiStem, isTransitivityPair, sharedGlossList, overlapScore, autoTier, synonymForms, applyOverrides, isRanked, isRareSense, readSenses, sharedMeanings } from './build-synonyms';
 import type { SynonymEntry } from './build-synonyms';
+import type { TextByLanguage } from '../src/models/text.model';
 import fs from 'fs';
 
 const S = (...xs: string[]) => new Set(xs);
@@ -319,7 +320,7 @@ describe('synonymForms (answerable forms embedded on each entry)', () => {
             writtenForm: { kanji: '玄関', alternatives: ['玄關'] },
             reading: { primary: 'げんかん', alternatives: [] },
             mergedVocabs: [{ originalPrimaryReading: 'げんかんぐち' }],
-            senses: [{ pos: ['n'] }],
+            pos: ['n'],
         })).toEqual({ w: ['玄関', '玄關'], r: ['げんかん', 'げんかんぐち'] });
     });
 
@@ -327,13 +328,13 @@ describe('synonymForms (answerable forms embedded on each entry)', () => {
         expect(synonymForms({
             writtenForm: { kanji: '並べる', alternatives: [] },
             reading: { primary: 'ならべる', alternatives: [] },
-            senses: [{ pos: ['v1', 'vt'] }, { pos: ['v1', 'vt', 'n'] }],
+            pos: ['v1', 'vt', 'n'],
         }).pos).toEqual(['v1']);
-        expect(synonymForms({ writtenForm: { kanji: '登場' }, reading: { primary: 'とうじょう' }, senses: [{ pos: ['n', 'vs', 'vi'] }] }).pos).toEqual(['vs']);
+        expect(synonymForms({ writtenForm: { kanji: '登場' }, reading: { primary: 'とうじょう' }, pos: ['n', 'vs', 'vi'] }).pos).toEqual(['vs']);
     });
 
     it('omits pos for a word that does not inflect, and drops empty or repeated forms', () => {
-        const forms = synonymForms({ writtenForm: { kanji: '', alternatives: ['あら'] }, reading: { primary: 'あら', alternatives: ['あら'] }, senses: [{ pos: ['n'] }] });
+        const forms = synonymForms({ writtenForm: { kanji: '', alternatives: ['あら'] }, reading: { primary: 'あら', alternatives: ['あら'] }, pos: ['n'] });
         expect(forms).toEqual({ w: ['あら'], r: ['あら'] });
         expect('pos' in forms).toBe(false);
     });
@@ -436,8 +437,9 @@ describe('reported synonym pairs, as built', () => {
         ['1340820', '1286170'], // 述べる "to state" / 国家 "state"
     ];
     const entry = (from: string, to: string): Partial<SynonymEntry> | undefined => {
-        const v = JSON.parse(fs.readFileSync(`./compiled/vocab/${from}.json`, 'utf-8')) as { synonyms?: SynonymEntry[] };
-        return v.synonyms?.find(s => s.id === to);
+        // Near-synonyms are English-derived, so they are English text (docs/MULTILINGUAL.md, decision D11).
+        const v = JSON.parse(fs.readFileSync(`./build/assembled/vocab/${from}.json`, 'utf-8')) as { text?: TextByLanguage };
+        return v.text?.en?.synonyms?.find(s => s.id === to);
     };
 
     it.each(REPORTED)('$asked / $typed', ({ asked, typed, relation, curated, shared }) => {
@@ -456,7 +458,7 @@ describe('reported synonym pairs, as built', () => {
     });
 
     it("carries the other word's frequency rank, its position in index/frequency.json", () => {
-        const frequency = JSON.parse(fs.readFileSync('./compiled/index/frequency.json', 'utf-8')) as { id: string }[];
+        const frequency = JSON.parse(fs.readFileSync('./build/assembled/index/frequency.json', 'utf-8')) as { id: string }[];
         const rank = frequency.findIndex(e => e.id === '1355970') + 1;
         expect(rank).toBeGreaterThan(0);
         expect((entry('1487400', '1355970') as { f?: number } | undefined)?.f).toBe(rank);

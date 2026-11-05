@@ -1,8 +1,13 @@
 import fs from 'fs';
 import path from 'path';
 import kuromoji from 'kuromoji';
-import type { GrammarContrastLesson, GrammarContrastIndex, GrammarExample, GrammarExampleWord, GrammarJlptIndex, GrammarPoint } from '../src/models/grammar.model';
+import type { GrammarContrastLesson, GrammarContrastIndex, GrammarExample, GrammarExampleWord, GrammarFamilyIndex, GrammarJlptIndex, GrammarPoint } from '../src/models/grammar.model';
 import type { SearchIndex } from '../src/models/index.model';
+import type { Label, LanguageTag, Rendering, TextByLanguage } from '../src/models/text.model';
+import { grammarSlots, neutralTitle } from '../src/text/grammarSlots';
+import { contrastCaseId, grammarExampleId, grammarLabel, grammarProse, grammarTranslation, type GrammarTextSource } from '../src/text/grammarText';
+import { jmdictSenses } from '../src/text/jmdict';
+import { addRenderings, sharedFrom } from '../src/text/renderings';
 import { locatePattern } from './grammar-pattern-matcher';
 import type { MarkerInflector } from './grammar-pattern-matcher';
 import { classify, conjugate, FORM_LABELS } from '../src/utils/conjugator';
@@ -29,9 +34,9 @@ import { occurrenceReading } from '../src/utils/sentenceReading';
  */
 
 const RAW_DIR = './data/raw/grammar';
-const SEARCH_INDEX_PATH = './compiled/index/search.json';
-const VOCAB_DIR = './compiled/vocab';
-const OUTPUT_DIR = './compiled/grammar';
+const SEARCH_INDEX_PATH = './build/assembled/index/search.json';
+const VOCAB_DIR = './build/assembled/vocab';
+const OUTPUT_DIR = './build/assembled/grammar';
 const FORMALITY_PATH = './data/raw/grammar/formality.json';
 const DUPLICATES_PATH = './data/raw/grammar/duplicates.json';
 const KINDS_PATH = './data/raw/grammar/kinds.json';
@@ -39,6 +44,9 @@ const VARIANTS_PATH = './data/raw/grammar/variants.json';
 const OVERRIDES_PATH = './data/raw/grammar/overrides.json';
 const CONTRASTS_PATH = './data/raw/grammar/contrasts.json';
 const INFLECTION_POINTS_PATH = './data/raw/grammar/inflection-points.json';
+
+/** The language hanabira's snapshot and Gokan's authored grammar files are written in. */
+const SOURCE_LANG: LanguageTag = 'en';
 
 const LEVEL_FILES: Record<number, string> = {
     5: 'grammar_ja_N5_full_alphabetical_0001.json',
@@ -293,9 +301,9 @@ export function buildKanaWritableIds(searchIndex: SearchIndex, vocabDir = VOCAB_
         if (!fs.existsSync(file)) continue;
         const record = JSON.parse(fs.readFileSync(file, 'utf-8')) as {
             frequency?: { kanaRank?: number };
-            senses?: Array<{ misc?: { rawTags?: string[] } }>;
+            text?: TextByLanguage;
         };
-        const usuallyKana = (record.senses ?? []).some(sense => (sense.misc?.rawTags ?? []).includes('uk'));
+        const usuallyKana = jmdictSenses(record.text).some(sense => sense.misc.rawTags.includes('uk'));
         const kanaRank = record.frequency?.kanaRank;
         if (usuallyKana || (kanaRank != null && kanaRank <= KANA_RANK_LIMIT)) ids.add(entry.id);
     }
@@ -431,10 +439,16 @@ export function splitTitle(raw: string): { title: string; romaji?: string } {
  * failure is a build error, not a silent drop: a lesson pointing at the wrong
  * id would teach a contrast the sentence never shows.
  */
+/** A lesson as data/raw/grammar/contrasts.json writes it, each case's text inline, in `lang`. */
+export interface AuthoredContrastLesson extends Omit<GrammarContrastLesson, 'cases'> {
+    cases: { focus: string; vs: string[]; situation: string; guidance: string }[];
+}
+
 export function compileContrasts(
-    raw: Record<string, { lessons: GrammarContrastLesson[] }>,
-    familyMembers: Map<string, { name: string; ids: string[] }>,
+    raw: Record<string, { lessons: AuthoredContrastLesson[] }>,
+    familyMembers: Map<string, { ids: string[]; text: TextByLanguage }>,
     axisOf: (id: string) => string | undefined,
+    lang: LanguageTag,
     sanitize: (text: string) => string = (t) => t,
     warn: (message: string) => void = (m) => console.warn(m),
 ): { index: GrammarContrastIndex; caseCount: number } {
@@ -491,18 +505,29 @@ export function compileContrasts(
         }
 
         index[familyId] = {
-            name: members.name,
-            lessons: fam.lessons.map(lesson => ({
-                id: lesson.id,
-                title: sanitize(lesson.title),
-                points: lesson.points,
-                cases: lesson.cases.map(c => ({
-                    focus: c.focus,
-                    vs: c.vs,
-                    situation: sanitize(c.situation),
-                    guidance: sanitize(c.guidance),
-                })),
-            })),
+            lessons: fam.lessons.map(lesson => {
+                const caseIds = new Set<string>();
+                return {
+                    id: lesson.id,
+                    title: sanitize(lesson.title),
+                    points: lesson.points,
+                    cases: lesson.cases.map(c => {
+                        const caseId = contrastCaseId(familyId, lesson.id, c.focus, c.vs);
+                        if (caseIds.has(caseId)) {
+                            throw new Error(`contrasts.json: family "${familyId}" lesson "${lesson.id}" has two cases for "${c.focus}" against ${c.vs.join(', ')}: merge them.`);
+                        }
+                        caseIds.add(caseId);
+                        const from: GrammarTextSource = { source: 'gokan', ref: caseId };
+                        const text: TextByLanguage = {};
+                        addRenderings(text, lang, [
+                            grammarProse('family', caseId, lang, 'situation', sanitize(c.situation), from),
+                            grammarProse('family', caseId, lang, 'guidance', sanitize(c.guidance), from),
+                        ]);
+                        return { focus: c.focus, vs: c.vs, text };
+                    }),
+                };
+            }),
+            text: members.text,
         };
     }
 
@@ -522,7 +547,7 @@ export function compileContrasts(
         if (interchangeable.length < 2) continue;
         const existing = index[familyId];
         if (existing) existing.interchangeable = interchangeable;
-        else index[familyId] = { name: family.name, lessons: [], interchangeable };
+        else index[familyId] = { lessons: [], interchangeable, text: family.text };
     }
 
     return { index, caseCount };
@@ -869,6 +894,49 @@ export function buildExampleWords(
     return { words, patternWordIndices };
 }
 
+/** An example as the core keeps it: its translation is a rendering from wherever the example was read. */
+function assembledExample(
+    pointId: string,
+    raw: { jp: string; romaji: string; en: string },
+    located: Pick<GrammarExample, 'words' | 'patternWordIndices'>,
+    from: GrammarTextSource,
+    seen: Set<string>,
+): GrammarExample {
+    const exampleId = grammarExampleId(pointId, raw.jp);
+    if (seen.has(exampleId)) throw new Error(`${pointId}: the example "${raw.jp}" is listed twice, so it has no id of its own.`);
+    seen.add(exampleId);
+    const text: TextByLanguage = {};
+    if (raw.en) addRenderings(text, SOURCE_LANG, [grammarTranslation('grammar', exampleId, SOURCE_LANG, raw.en, from)]);
+    return { jp: raw.jp, romaji: raw.romaji, words: located.words, patternWordIndices: located.patternWordIndices, text };
+}
+
+/**
+ * A point's core title and romaji (slot codes for the source's slot words), and its text: the
+ * title's name and, where the core would not render back to it, the source's own spelling
+ * (src/text/grammarSlots.ts), then its prose fields and any further labels.
+ */
+function pointTitleAndText(
+    id: string,
+    upstream: { title: string; romaji?: string },
+    titleFrom: GrammarTextSource,
+    prose: [field: string, value: string | undefined, from: GrammarTextSource][],
+    labels: Label[],
+): { title: string; romaji?: string; text: TextByLanguage } {
+    const neutral = neutralTitle(upstream.title, upstream.romaji, SOURCE_LANG);
+    const titleLabel = (field: string, value: string | undefined): Label[] =>
+        value === undefined ? [] : [grammarLabel('grammar', id, SOURCE_LANG, field, value, titleFrom)];
+    const renderings: Rendering[] = [
+        ...titleLabel('name', neutral.name),
+        ...titleLabel('title', neutral.ownTitle),
+        ...titleLabel('romaji', neutral.ownRomaji),
+        ...prose.flatMap(([field, value, from]) => (value === undefined ? [] : [grammarProse('grammar', id, SOURCE_LANG, field, value, from)])),
+        ...labels,
+    ];
+    const text: TextByLanguage = {};
+    addRenderings(text, SOURCE_LANG, renderings);
+    return { title: neutral.title, ...(neutral.romaji !== undefined ? { romaji: neutral.romaji } : {}), text };
+}
+
 async function main() {
     console.log('📖 Building grammar dataset...');
 
@@ -1007,7 +1075,7 @@ async function main() {
     // authoring mistake: the same family.id used with two different names.
     // Dropped duplicates are excluded up front, so no family ever lists a
     // member that was never written.
-    const familyMembers = new Map<string, { name: string; ids: string[] }>();
+    const familyMembers = new Map<string, { name: string; ids: string[]; text: TextByLanguage }>();
     for (const [id, entry] of Object.entries(formalityMap)) {
         if (!entry.family) continue;
         if (droppedIds.has(id)) continue;
@@ -1034,7 +1102,11 @@ async function main() {
             }
             existing.ids.push(id);
         } else {
-            familyMembers.set(entry.family.id, { name: entry.family.name, ids: [id] });
+            // One rendering of the name, carried by the family's indexes and every member alike,
+            // so a review of it is recorded once.
+            const text: TextByLanguage = {};
+            addRenderings(text, SOURCE_LANG, [grammarLabel('family', entry.family.id, SOURCE_LANG, 'family', entry.family.name, { source: 'gokan', ref: entry.family.id })]);
+            familyMembers.set(entry.family.id, { name: entry.family.name, ids: [id], text });
         }
     }
 
@@ -1193,23 +1265,31 @@ async function main() {
                 overriddenFormations++;
             }
 
+            // Where each text was read from: the entry this point's content came from (its own, or
+            // the one overrides.json adopts), or Gokan where an override wrote it.
+            const contentFrom: GrammarTextSource = { source: 'hanabira', ref: override?.adopt ?? id };
+            const gokanFrom: GrammarTextSource = { source: 'gokan', ref: id };
+
             const donated = absorbed.get(id) ?? [];
-            const sourceExamples: { ex: RawGrammarEntry['examples'][number]; formation: string; title: string }[] = [
-                ...keptExamples.map(ex => ({ ex, formation: entryFormation, title: entry.title })),
+            const sourceExamples: { ex: RawGrammarEntry['examples'][number]; formation: string; title: string; from: GrammarTextSource }[] = [
+                ...keptExamples.map(ex => ({ ex, formation: entryFormation, title: entry.title, from: override?.examples ? gokanFrom : contentFrom })),
                 ...donated.flatMap(d => d.examples.map(ex => ({
-                    ex, formation: donorFormations[d.donorId], title: donorTitles[d.donorId],
+                    ex, formation: donorFormations[d.donorId], title: donorTitles[d.donorId], from: { source: 'hanabira', ref: d.donorId },
                 }))),
             ];
 
-            const examples: GrammarExample[] = sourceExamples.map(({ ex, formation: exFormation, title: exTitle }) => {
-                const { words, patternWordIndices } = buildExampleWords(tokenizer, sentenceTokenizer, vocabSet, lookup, ex.jp, exFormation, exTitle, inflect);
-                totalWords += words.length;
-                matchedWords += words.filter(w => w.vocabId !== null).length;
+            const exampleIds = new Set<string>();
+            const examples: GrammarExample[] = sourceExamples.map(({ ex, formation: exFormation, title: exTitle, from }) => {
+                // The matcher reads the upstream title and formation as written: it derives only
+                // language-neutral facts (which words are the pattern) from them.
+                const located = buildExampleWords(tokenizer, sentenceTokenizer, vocabSet, lookup, ex.jp, exFormation, exTitle, inflect);
+                totalWords += located.words.length;
+                matchedWords += located.words.filter(w => w.vocabId !== null).length;
 
                 totalExamples++;
-                if (patternWordIndices.length > 0) { examplesAnchored++; pointAnchored = true; }
+                if (located.patternWordIndices.length > 0) { examplesAnchored++; pointAnchored = true; }
 
-                return { jp: ex.jp, romaji: ex.romaji, en: ex.en, words, patternWordIndices };
+                return assembledExample(id, ex, located, from, exampleIds);
             });
 
             if (!pointAnchored) pointsWithNoAnchor.push(`${id}: ${entry.formation}`);
@@ -1218,42 +1298,48 @@ async function main() {
             const formality = formalityMap[id];
             if (formality) pointsWithFormality++;
 
+            const familyEntry = formality?.family ? familyMembers.get(formality.family.id) : undefined;
+            if (formality?.family && !familyEntry) throw new Error(`formality.json: "${id}" declares family "${formality.family.id}", which has no members.`);
             const family = formality?.family
                 ? {
                     id: formality.family.id,
-                    name: formality.family.name,
-                    relatedPoints: (familyMembers.get(formality.family.id)?.ids ?? []).filter(memberId => memberId !== id),
+                    relatedPoints: (familyEntry?.ids ?? []).filter(memberId => memberId !== id),
                     ...(formality.axis ? { axis: formality.axis } : {}),
                 }
                 : undefined;
 
-            const { title, romaji } = splitTitle(sanitizeGlyphs(entry.title));
-            if (!romaji) pointsWithNoTitleRomaji.push(`${id}: ${entry.title}`);
+            const upstream = splitTitle(sanitizeGlyphs(entry.title));
+            if (!upstream.romaji) pointsWithNoTitleRomaji.push(`${id}: ${entry.title}`);
 
             // A collapsed contrastive pair must say what its two settings are,
             // otherwise the merge silently hides one of them.
             const usageNote = [formality?.usageNote, ...donated.map(d => d.differentiator)]
                 .filter(Boolean).map(note => sanitizeGlyphs(note!)).join(' ') || undefined;
 
+            const derives = kindMap[id]?.derives;
+            const { title, romaji, text } = pointTitleAndText(id, upstream, override?.title ? gokanFrom : contentFrom, [
+                ['shortExplanation', sanitizeGlyphs(entry.short_explanation), contentFrom],
+                ['longExplanation', sanitizeGlyphs(entry.long_explanation), contentFrom],
+                ['formation', sanitizeGlyphs(entryFormation), override?.formation ? gokanFrom : contentFrom],
+                ['usageNote', usageNote, gokanFrom],
+            ], derives ? [grammarLabel('grammar', id, SOURCE_LANG, 'derives', derives, gokanFrom)] : []);
+            for (const [lang, familyText] of Object.entries(familyEntry?.text ?? {})) addRenderings(text, lang, familyText.renderings.map(r => sharedFrom(r, 'family', formality?.family?.id ?? '')));
+
             const point: GrammarPoint = {
                 id,
                 title,
-                ...(romaji ? { romaji } : {}),
+                ...(romaji !== undefined ? { romaji } : {}),
                 jlptLevel: level,
-                shortExplanation: sanitizeGlyphs(entry.short_explanation),
-                longExplanation: sanitizeGlyphs(entry.long_explanation),
-                formation: sanitizeGlyphs(entryFormation),
                 examples,
                 ...(formality?.formalityLevel ? { formalityLevel: formality.formalityLevel } : {}),
                 ...(formality?.slot ? { slot: formality.slot } : {}),
-                ...(usageNote ? { usageNote } : {}),
                 ...(family ? { family } : {}),
                 // Absent from kinds.json means a plain construction - the vast
                 // majority - so the default is applied here rather than
                 // requiring an entry for all 788 points.
                 kind: kindMap[id]?.kind ?? 'construction',
-                ...(kindMap[id]?.derives ? { derives: kindMap[id]!.derives } : {}),
                 ...(variantMap[id] ? { variantOf: variantMap[id].variantOf, variantRelation: variantMap[id].relation } : {}),
+                text,
             };
 
             fs.writeFileSync(path.join(pointsDir, `${id}.json`), JSON.stringify(point));
@@ -1280,7 +1366,7 @@ async function main() {
         longExplanation: string;
         formation: string;
         derives: string;
-        examples?: GrammarExample[];
+        examples?: (RawGrammarEntry['examples'][number] & Pick<GrammarExample, 'words' | 'patternWordIndices'>)[];
     }
     const inflectionPointsRaw: Record<string, AuthoredInflectionPoint> = fs.existsSync(INFLECTION_POINTS_PATH)
         ? Object.fromEntries(Object.entries(
@@ -1291,18 +1377,21 @@ async function main() {
     for (const [id, entry] of Object.entries(inflectionPointsRaw)) {
         if (seenIds.has(id)) throw new Error(`inflection-points.json: "${id}" collides with an existing point id.`);
         if (!index[entry.level]) throw new Error(`inflection-points.json: "${id}" has an unknown level ${entry.level}.`);
-        const { title, romaji } = splitTitle(sanitizeGlyphs(entry.title));
+        const from: GrammarTextSource = { source: 'gokan', ref: id };
+        const { title, romaji, text } = pointTitleAndText(id, splitTitle(sanitizeGlyphs(entry.title)), from, [
+            ['shortExplanation', sanitizeGlyphs(entry.shortExplanation), from],
+            ['longExplanation', sanitizeGlyphs(entry.longExplanation), from],
+            ['formation', sanitizeGlyphs(entry.formation), from],
+        ], [grammarLabel('grammar', id, SOURCE_LANG, 'derives', entry.derives, from)]);
+        const exampleIds = new Set<string>();
         const point: GrammarPoint = {
             id,
             title,
-            ...(romaji ? { romaji } : {}),
+            ...(romaji !== undefined ? { romaji } : {}),
             jlptLevel: entry.level,
-            shortExplanation: sanitizeGlyphs(entry.shortExplanation),
-            longExplanation: sanitizeGlyphs(entry.longExplanation),
-            formation: sanitizeGlyphs(entry.formation),
-            examples: entry.examples ?? [],
+            examples: (entry.examples ?? []).map(ex => assembledExample(id, ex, ex, from, exampleIds)),
             kind: 'inflection',
-            derives: entry.derives,
+            text,
         };
         fs.writeFileSync(path.join(pointsDir, `${id}.json`), JSON.stringify(point));
         index[entry.level].push(id);
@@ -1316,23 +1405,27 @@ async function main() {
     fs.mkdirSync(path.join(OUTPUT_DIR, 'index'), { recursive: true });
     fs.writeFileSync(path.join(OUTPUT_DIR, 'index', 'jlpt.json'), JSON.stringify(index));
 
-    const familiesIndex: Record<string, { name: string; memberIds: string[] }> = {};
-    for (const [familyId, { name, ids }] of familyMembers) {
-        familiesIndex[familyId] = { name, memberIds: ids };
+    const familiesIndex: GrammarFamilyIndex = {};
+    for (const [familyId, { ids, text }] of familyMembers) {
+        familiesIndex[familyId] = { memberIds: ids, text };
     }
     fs.writeFileSync(path.join(OUTPUT_DIR, 'index', 'families.json'), JSON.stringify(familiesIndex));
+
+    // The slots the titles name, with their labels: a title's core names them by code.
+    fs.writeFileSync(path.join(OUTPUT_DIR, 'slots.json'), JSON.stringify(grammarSlots()));
 
     // Contrast lessons: authored situational disambiguation between confusable
     // family members (data/raw/grammar/contrasts.json). Compiled and validated
     // by compileContrasts (pure, tested) against the family membership derived
     // above, then emitted as its own index. See docs/SCHEMA.md.
-    const contrastsRaw: Record<string, { lessons: GrammarContrastLesson[] }> = fs.existsSync(CONTRASTS_PATH)
+    const contrastsRaw: Record<string, { lessons: AuthoredContrastLesson[] }> = fs.existsSync(CONTRASTS_PATH)
         ? readAuthoredJson(CONTRASTS_PATH)
         : {};
     const { index: contrastsIndex, caseCount: contrastUnitCount } = compileContrasts(
         contrastsRaw,
         familyMembers,
         id => formalityMap[id]?.axis,
+        SOURCE_LANG,
         sanitizeGlyphs,
     );
     fs.writeFileSync(path.join(OUTPUT_DIR, 'index', 'contrasts.json'), JSON.stringify(contrastsIndex));

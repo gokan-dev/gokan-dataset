@@ -36,9 +36,9 @@ function gaku(overrides: Partial<Kanjidic2CharacterDTO> = {}): Kanjidic2Characte
 }
 
 describe('kanjidicFields', () => {
-    it('keeps the English meanings and the Japanese readings, in KANJIDIC2 order', () => {
+    it('keeps the meanings of every language and the Japanese readings, in KANJIDIC2 order', () => {
         const fields = kanjidicFields(gaku());
-        expect(fields.meanings).toEqual(['study', 'learning']);
+        expect(fields.meanings).toEqual({ en: ['study', 'learning'], fr: ['étudier'] });
         expect(fields.readings).toEqual({ on: ['ガク'], kun: ['まな.ぶ'], nanori: ['さと', 'たか'] });
         expect(fields).toMatchObject({ strokeCount: 8, grade: 1, newspaperFrequency: 63, radical: { number: 39, character: '子' } });
     });
@@ -48,7 +48,7 @@ describe('kanjidicFields', () => {
         expect(fields).not.toHaveProperty('grade');
         expect(fields).not.toHaveProperty('newspaperFrequency');
         expect(fields.strokeCount).toBe(8);
-        expect(fields.meanings).toEqual([]);
+        expect(fields.meanings).toEqual({});
     });
 
     it('fails on a kanji with no stroke count', () => {
@@ -80,7 +80,7 @@ describe('kangxiRadical', () => {
 
 describe('orderList', () => {
     const kanji = (character: string, steps: Kanji['steps'], newspaperFrequency?: number): Kanji => ({
-        character, steps, newspaperFrequency, meanings: [], readings: { on: [], kun: [], nanori: [] }, strokeCount: 1, components: [],
+        character, steps, newspaperFrequency, text: {}, readings: { on: [], kun: [], nanori: [] }, strokeCount: 1, components: [],
     });
     const KANJI = [
         kanji('海', { kklc: 106, rtk: 500, jlpt: 4 }, 200),

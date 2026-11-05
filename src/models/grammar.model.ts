@@ -1,4 +1,12 @@
 import type { AudioRef } from './audio.model';
+import type { LanguageTag, TextByLanguage } from './text.model';
+
+/**
+ * The grammar dataset as the build assembles it: every entity carries its explanation-language
+ * text in `text`, by language (docs/MULTILINGUAL.md, "Compiled output"). The layout writes each
+ * file without it as its core, and the text under compiled/text/<lang>/. The shapes the files had
+ * before the text layer are rebuilt by src/layout/legacy.ts.
+ */
 
 /**
  * One tokenized word within a GrammarExample's Japanese sentence. `vocabId` is
@@ -22,16 +30,16 @@ export interface GrammarExampleWord {
     baseForm?: string;
 }
 
+/** An example sentence. Its translation is a translation rendering in `text`. */
 export interface GrammarExample {
     jp: string;
     romaji: string;
-    en: string;
     words: GrammarExampleWord[];
     /**
      * Indices into `words[]` identifying this example's grammar-pattern markers
-     * (the literal, invariant part of `formation` - e.g. が and いちばん for
+     * (the literal, invariant part of the formation - e.g. が and いちばん for
      * "Noun + が + いちばん + Adjective/Verb"), located at build time by
-     * matching `formation` against `words[]` surface/baseForm/reading. Always
+     * matching the formation against `words[]` surface/baseForm/reading. Always
      * present (possibly empty) so the app never needs to run this matching
      * itself. Empty when the pattern could not be confidently located in this
      * specific example - see docs/SCHEMA.md and the grammar-pattern-location
@@ -40,39 +48,41 @@ export interface GrammarExample {
     patternWordIndices: number[];
     /** The example read aloud, when a clip of it exists (scripts/attach-audio.ts). */
     audio?: AudioRef;
+    text: TextByLanguage;
 }
 
 /**
- * A single grammar point (e.g. "A が いちばん～"). Sourced from the
+ * A single grammar point (e.g. "{a} が いちばん～"). Sourced from the
  * hanabira.org-japanese-content dataset (data/raw/grammar/*.json, CC license,
  * attribution required - see the credit link on the gokan-srs About page).
+ *
+ * Its text, by language: labels `name` (the title's name, "Polite past"),
+ * `derives`, `family` (the family's name, the family's own rendering), and
+ * `title` / `romaji` (the source's spelling, only where rendering the core
+ * would not give it back); prose `shortExplanation`, `longExplanation`,
+ * `formation` and `usageNote`.
  */
 export interface GrammarPoint {
     /** Stable id assigned at build time from this vendored snapshot (e.g. "n5-001") - the upstream dataset has no ids of its own. */
     id: string;
     /**
-     * The Japanese/pattern portion only, e.g. "～けど、～" - the upstream source
-     * bundled this together with a romaji transliteration in a trailing
-     * parenthetical (e.g. "～けど、～ (〜kedo、～)"); split apart at build time
-     * so a consumer can choose where to show which (see `romaji` below) instead
-     * of the two being welded into one string.
+     * The Japanese/pattern portion only, with slot codes where the source
+     * names a slot in English (`{noun} にもまして`, src/text/grammarSlots.ts).
+     * The upstream source bundled this together with a romaji transliteration
+     * in a trailing parenthetical (e.g. "～けど、～ (〜kedo、～)"); split apart
+     * at build time so a consumer can choose where to show which.
      */
     title: string;
     /**
      * Romaji transliteration split out of the upstream title's trailing
-     * parenthetical (e.g. "kedo" for title "～けど、～"). Absent for the small
-     * minority of points (~1.3%, 11/828 as of the last build) where the
-     * upstream title has no trailing parenthetical to split, or has one in an
+     * parenthetical, with slot codes like `title`. Absent where the upstream
+     * title has no trailing parenthetical to split, or has one in an
      * unparseable shape (mid-string rather than trailing) - those keep their
      * full original string as `title` unsplit rather than guessing.
      */
     romaji?: string;
     /** JLPT level (1 = N1 hardest .. 5 = N5 easiest), matching Vocabulary.jlptLevel's convention. Every grammar point carries one, since this dataset is itself organized by level. */
     jlptLevel: number;
-    shortExplanation: string;
-    longExplanation: string;
-    /** Formation template shown to the user, e.g. "Noun + が + いちばん + Adjective/Verb". */
-    formation: string;
     /**
      * The NATURE of this point, which decides what exercise can test it.
      *
@@ -87,7 +97,7 @@ export interface GrammarPoint {
      *                   differs per input word (飲む→飲んで, 食べる→食べて,
      *                   する→して). There is nothing invariant to blank, so a
      *                   cloze quiz cannot test it - it needs a transformation
-     *                   drill.
+     *                   drill. Its `derives` label names the derivation.
      *  - 'lexical'      YES, but the answer is a single dictionary word (いつも,
      *                   ほとんど). Testable, though arguably vocabulary wearing
      *                   a grammar hat. Not yet populated - see the kinds issue.
@@ -99,13 +109,6 @@ export interface GrammarPoint {
      * conjugated word" fire on 386 of 788.
      */
     kind: 'construction' | 'inflection' | 'lexical';
-    /**
-     * For `kind: 'inflection'` only: which derivation this point teaches, e.g.
-     * "て-form", "causative (させる)". This is what a transformation quiz keys
-     * off to generate its answer set, so the build rejects an inflection point
-     * without one.
-     */
-    derives?: string;
     /**
      * Set when this point is a realization VARIANT of another: the same
      * construction with one slot filled differently, enumerated separately by the
@@ -129,8 +132,7 @@ export interface GrammarPoint {
      * not derived at build time - see docs/SCHEMA.md and the grammar-formality issue
      * for the methodology. Exists specifically so gokan-srs can disambiguate quiz
      * points that are near-synonyms differing mainly by register (e.g. でも/しかし/
-     * けれども all gloss as "but") without relying on longExplanation, which is too
-     * long for a quiz card and doesn't consistently cover register today.
+     * けれども all gloss as "but"), alongside the point's `usageNote`.
      */
     formalityLevel?: 'casual' | 'neutral' | 'polite' | 'formal' | 'very-formal-literary';
     /**
@@ -145,33 +147,17 @@ export interface GrammarPoint {
      */
     slot?: 'clause-final' | 'sentence-initial' | 'predicate-final' | 'pre-noun' | 'adverbial';
     /**
-     * One short, quiz-card-length line (~60-80 chars) covering whatever actually
-     * disambiguates this point from its near-synonyms. Usually register, but for
-     * some clusters (e.g. even-though/although/despite) the real differentiator is
-     * connotation/nuance instead (criticism, surprise, unmet expectation) rather
-     * than a clean formality ladder - see the grammar-formality issue. Deliberately
-     * NOT a duplicate of longExplanation.
-     */
-    usageNote?: string;
-    /**
      * The near-synonym family this point belongs to, if any (most points don't
-     * have one - a plain construction with no close synonym leaves this unset).
-     * Replaces a flat, unlabeled `relatedPoints: string[]` (issue feedback: a bare
-     * list of linked ids gave the app nothing to call the relationship by - "but"
-     * and "because" were both just "related points"). `id`/`name` are the same for
-     * every member of a family (symmetric), sourced from the same hand-authored
-     * `data/raw/grammar/formality.json` mapping as formalityLevel/usageNote - see
-     * docs/SCHEMA.md. Not a strict "identical meaning" claim, just "a learner
+     * have one). `id` is the same for every member of a family (symmetric),
+     * sourced from the hand-authored `data/raw/grammar/formality.json` mapping -
+     * see docs/SCHEMA.md. Not a strict "identical meaning" claim, just "a learner
      * asking how to say X would be shown these together". Also emitted as
-     * `compiled/grammar/index/families.json` (familyId -> {name, memberIds}) for
-     * any future family-browsing view, so a consumer isn't forced to scan every
-     * point file to answer "what's in the Contradiction family".
+     * `compiled/grammar/index/families.json`. The family's name is its own label,
+     * carried in the point's text under the field `family`.
      */
     family?: {
         /** Stable slug, e.g. "contradiction" - shared by every member of this family. */
         id: string;
-        /** Display name, e.g. "Contradiction (But / However)". */
-        name: string;
         /** Ids of the OTHER points in this family (excludes this point's own id). */
         relatedPoints: string[];
         /**
@@ -199,23 +185,31 @@ export interface GrammarPoint {
          */
         axis?: 'register' | 'constraint' | 'variant';
     };
+    text: TextByLanguage;
+}
+
+/** A slot a title names (`noun`, `i-adjective`), with its label in each language: compiled/grammar/slots.json. */
+export interface GrammarSlot {
+    code: string;
+    text: TextByLanguage;
 }
 
 /** JLPT level (1..5) -> grammar point ids, in the source's original order (alphabetical - grammar has no frequency data to sort by, unlike vocab). */
 export type GrammarJlptIndex = Record<number, string[]>;
 
+/** Family id -> its members, from compiled/grammar/index/families.json. Its name is a label (field `family`) in `text`. */
+export type GrammarFamilyIndex = Record<string, { memberIds: string[]; text: TextByLanguage }>;
+
 /**
  * One chapter of the authored teaching order: a run of grammar points that are
  * meant to be met together. Emitted as part of
- * `compiled/grammar/index/teaching-order.json`.
+ * `compiled/grammar/index/teaching-order.json`. Its text: the label `title`
+ * ("But: six ways, one meaning") and the prose `summary` (what the chapter
+ * teaches, and why these points sit together).
  */
 export interface GrammarChapter {
     /** Stable slug, e.g. "n5-c17". Safe to store against user progress. */
     id: string;
-    /** Short display name, e.g. "But: six ways, one meaning". */
-    title: string;
-    /** One or two sentences on what the chapter teaches, and why these points sit together. */
-    summary: string;
     /**
      * The level this chapter is placed at. A chapter can legitimately CONTAIN
      * points from harder levels when they are register siblings of a point it
@@ -225,6 +219,7 @@ export interface GrammarChapter {
     jlptLevel: number;
     /** Member point ids, in teaching order. */
     points: string[];
+    text: TextByLanguage;
 }
 
 /**
@@ -246,16 +241,16 @@ export interface GrammarTeachingOrder {
  * compiled/grammar/index/contrasts.json. Directed so `focus` is the member met
  * LATER in the teaching order, so by the time it is introduced the `vs` siblings
  * are already known and the contrast lands between two real memories.
+ *
+ * Its text: the prose `situation` (where the choice matters) and `guidance`
+ * (which member fits, and why the obvious alternative does not).
  */
 export interface GrammarContrastCase {
     /** The point this case teaches the learner to reach for. */
     focus: string;
     /** The sibling(s) `focus` is most confused with. */
     vs: string[];
-    /** A concrete situation where the choice matters. */
-    situation: string;
-    /** Which member fits, and why the obvious alternative does not. */
-    guidance: string;
+    text: TextByLanguage;
 }
 
 /**
@@ -273,7 +268,7 @@ export interface GrammarContrastCase {
 export interface GrammarContrastLesson {
     /** Stable slug within the family, e.g. "reason-core". */
     id: string;
-    /** Short display title, e.g. "から / ので". */
+    /** Short display title in Japanese, e.g. "から / ので". */
     title: string;
     /** The confusable points this lesson covers. */
     points: string[];
@@ -301,10 +296,9 @@ export interface GrammarContrastLesson {
 
 /**
  * Family id -> its authored contrast lessons, from
- * compiled/grammar/index/contrasts.json.
+ * compiled/grammar/index/contrasts.json. The family's name is in `text`.
  */
 export type GrammarContrastIndex = Record<string, {
-    name: string;
     lessons: GrammarContrastLesson[];
     /**
      * Members whose `family.axis` is 'variant': genuinely interchangeable
@@ -319,4 +313,109 @@ export type GrammarContrastIndex = Record<string, {
      * ("these are interchangeable, pick by feel"), not as a lesson.
      */
     interchangeable?: string[];
+    text: TextByLanguage;
 }>;
+
+/** One realization in compiled/grammar/index/variant-groups.json. `title` is the point's core title. */
+export interface GrammarVariantRealization {
+    id: string;
+    relation: string;
+    formalityLevel?: string;
+    title: string;
+}
+
+/** Canonical id -> every realization of the rule, the canonical first. */
+export type GrammarVariantGroups = Record<string, GrammarVariantRealization[]>;
+
+/** One row of compiled/grammar/index/browse.json: what a browse card needs, without its text. */
+export interface GrammarBrowseRow {
+    id: string;
+    /** The point's core title and romaji, with slot codes. */
+    title: string;
+    romaji?: string;
+    jlptLevel: number;
+    /** Which exercise can test this point: 'construction' | 'inflection' | 'lexical'. */
+    kind: string;
+    formalityLevel?: string;
+    familyId?: string;
+    /** What this member adds over its family siblings: register | constraint | variant. */
+    axis?: string;
+    /** Set when this point is a realization variant taught via its canonical. */
+    variantOf?: string;
+    variantRelation?: string;
+    /**
+     * Zero-based position in the introduction order, or null when the point is
+     * deliberately excluded from it (a realization variant).
+     */
+    orderIndex: number | null;
+    chapterId?: string;
+    exampleCount: number;
+    /** Examples whose pattern was located; the rest fall back to a vocab-only blank. */
+    anchoredExampleCount: number;
+    /** Drill items available, for an inflection point. */
+    conjugationItems?: number;
+}
+
+/** A browse row's text in one language, as plain strings: compiled/text/<lang>/grammar/index/browse.json, by point id. */
+export interface GrammarBrowseText {
+    /** The title and romaji as the language writes them. */
+    title?: string;
+    romaji?: string;
+    /** For an inflection point, the derivation it teaches. */
+    derives?: string;
+    formation?: string;
+    shortExplanation?: string;
+    usageNote?: string;
+    familyName?: string;
+    chapterTitle?: string;
+}
+
+/** A browse row as the build assembles it: its text in every language it has some. */
+export interface AssembledGrammarBrowseRow extends GrammarBrowseRow {
+    text: Record<LanguageTag, GrammarBrowseText>;
+}
+
+export interface GrammarBrowseIndex<Row = GrammarBrowseRow> {
+    points: Row[];
+    stats: {
+        points: number;
+        introduced: number;
+        variants: number;
+        variantGroups: number;
+        families: number;
+        unfamilied: number;
+        chapters: number;
+        byLevel: Record<number, number>;
+        byKind: Record<string, number>;
+        byAxis: Record<string, number>;
+    };
+}
+
+/** compiled/text/<lang>/grammar/index/browse.json: each point's browse text in that language, by id. */
+export type GrammarBrowseTexts = Record<string, GrammarBrowseText>;
+
+/** One drill item of compiled/grammar/conjugations.json. */
+export interface GrammarDrillItem {
+    vocabId: string;
+    lemma: string;
+    lemmaReading: string;
+    target: string;
+    targetReading: string;
+    /** Equally correct alternatives, e.g. 書かされる for the causative-passive. */
+    alternatives?: string[];
+    wordClass: 'godan' | 'ichidan' | 'irregular' | 'i-adjective' | 'na-adjective';
+}
+
+/**
+ * An inflection point's drill. `marker` is the Japanese the form is named by (たい, ました),
+ * where it has one; the form's name in a language is the label `formLabel` in `text`.
+ */
+export interface GrammarConjugation {
+    form: string;
+    marker?: string;
+    items: GrammarDrillItem[];
+    text: TextByLanguage;
+}
+
+/** Point id -> its drill, compiled/grammar/conjugations.json. */
+export type GrammarConjugations = Record<string, GrammarConjugation>;

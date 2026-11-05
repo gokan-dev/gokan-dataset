@@ -1,9 +1,12 @@
+import type { TextByLanguage } from './text.model';
+
 export interface Kanji {
     character: string;
     steps: KanjiSteps;
     frequency?: number; // JPDB kanji frequency rank
     newspaperFrequency?: number; // KANJIDIC2 newspaper rank, 1-2500
-    meanings: string[]; // English, KANJIDIC2 order (the main sense first)
+    /** Its meanings in every language a source gives them, KANJIDIC2 order (the main sense first). */
+    text: TextByLanguage;
     readings: KanjiReadings;
     strokeCount: number;
     grade?: number; // school grade: 1-6 kyouiku, 8 the rest of the jouyou, 9-10 jinmeiyou (names)

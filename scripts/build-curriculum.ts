@@ -1,6 +1,9 @@
 import fs from 'fs';
 import path from 'path';
 import type { GrammarChapter, GrammarContrastIndex, GrammarPoint, GrammarTeachingOrder } from '../src/models/grammar.model';
+import type { LanguageTag, TextByLanguage } from '../src/models/text.model';
+import { grammarLabel, grammarProse } from '../src/text/grammarText';
+import { addRenderings, labelsOf } from '../src/text/renderings';
 
 /**
  * Compiles the authored curriculum spine (data/curriculum/chapters.json) into
@@ -47,11 +50,11 @@ import type { GrammarChapter, GrammarContrastIndex, GrammarPoint, GrammarTeachin
  * Run: `bun run build:curriculum` (chained from `bun run build:grammar`).
  */
 
-const POINTS_DIR = './compiled/grammar/points';
-const OUTPUT_PATH = './compiled/grammar/index/teaching-order.json';
+const POINTS_DIR = './build/assembled/grammar/points';
+const OUTPUT_PATH = './build/assembled/grammar/index/teaching-order.json';
 const SPINE_PATH = './data/curriculum/chapters.json';
 const THEMES_PATH = './data/curriculum/themes.json';
-const CONTRASTS_PATH = './compiled/grammar/index/contrasts.json';
+const CONTRASTS_PATH = './build/assembled/grammar/index/contrasts.json';
 
 /** Unthemed points, grouped into fallback chapters of at most this many. */
 const FILL_CHAPTER_SIZE = 20;
@@ -135,12 +138,76 @@ interface AuthoredTheme {
 
 const LEVEL_NAMES: Record<number, string> = { 5: 'N5', 4: 'N4', 3: 'N3', 2: 'N2', 1: 'N1' };
 
+/** The language data/curriculum/*.json is written in. */
+const AUTHORED_LANG: LanguageTag = 'en';
+
+interface ChapterWords {
+    title: string;
+    summary: string;
+}
+
+/**
+ * The words of the chapters this build makes rather than reads: each language writes its own,
+ * from the family's name in that language. A language without templates gets no text for them.
+ */
+interface GeneratedChapterTemplates {
+    /** An absorbed register ladder, the whole family in one chapter. */
+    ladder(family: string): ChapterWords;
+    /** One level of a family taught one level at a time. */
+    levelGated(level: string, family: string, members: number): ChapterWords;
+    /** A family's members at one level, the family taught there whole. */
+    family(level: string, family: string, members: number): ChapterWords;
+    /** A fallback bucket of points no theme covers. */
+    further(level: string, part: number, total: number): ChapterWords;
+}
+
+const GENERATED_CHAPTERS: Record<LanguageTag, GeneratedChapterTemplates> = {
+    en: {
+        ladder: family => ({
+            title: family,
+            summary: `The whole ${family.replace(/\s*\(.*\)$/, '').toLowerCase()} ladder in one place, easiest register first. These differ only by formality, so they are taught together rather than one level at a time: once you know the first, each of the rest is a one-line register fact.`,
+        }),
+        levelGated: (level, family, members) => ({
+            title: `${level}: ${family}`,
+            summary: `The ${level} members of this family. The rest of it is taught at other levels - these ${members} are the ones worth telling apart from each other now, and the family page carries the full set.`,
+        }),
+        family: (level, family, members) => ({
+            title: family,
+            summary: `${members} ways to express this at ${level}. What separates them is in each point's usage note - read that before drilling them, or they blur together.`,
+        }),
+        further: (level, part, total) => ({
+            title: `Further ${level} patterns (${part} of ${total})`,
+            summary: `Independent ${level} patterns with no close synonym in the set. Not sequenced against each other - order here carries no pedagogical claim.`,
+        }),
+    },
+};
+
+/** A chapter's title and summary, in each language given, as Gokan's text. */
+function chapterText(id: string, words: [LanguageTag, ChapterWords][]): TextByLanguage {
+    const text: TextByLanguage = {};
+    const from = { source: 'gokan', ref: id };
+    for (const [lang, { title, summary }] of words) {
+        addRenderings(text, lang, [grammarLabel('chapter', id, lang, 'title', title, from), grammarProse('chapter', id, lang, 'summary', summary, from)]);
+    }
+    return text;
+}
+
+/** A generated chapter's text in every language that has templates and, where it needs one, the family's name. */
+function generatedText(id: string, family: GrammarPoint | undefined, words: (templates: GeneratedChapterTemplates, family: string) => ChapterWords): TextByLanguage {
+    const byLang: [LanguageTag, ChapterWords][] = [];
+    for (const [lang, templates] of Object.entries(GENERATED_CHAPTERS).sort(([a], [b]) => (a < b ? -1 : 1))) {
+        const name = family ? labelsOf(family.text, lang, { field: 'family' })[0] : '';
+        if (name !== undefined) byLang.push([lang, words(templates, name)]);
+    }
+    return chapterText(id, byLang);
+}
+
 function loadPoints(): Map<string, GrammarPoint> {
     if (!fs.existsSync(POINTS_DIR)) {
         throw new Error(`${POINTS_DIR} not found. Run 'bun run build:grammar' first.`);
     }
     const points = new Map<string, GrammarPoint>();
-    for (const file of fs.readdirSync(POINTS_DIR)) {
+    for (const file of fs.readdirSync(POINTS_DIR).sort()) {
         if (!file.endsWith('.json')) continue;
         const point: GrammarPoint = JSON.parse(fs.readFileSync(path.join(POINTS_DIR, file), 'utf-8'));
         points.set(point.id, point);
@@ -305,10 +372,9 @@ function main() {
     for (const authored of spine.chapters) {
         chapters.push({
             id: authored.id,
-            title: authored.title,
-            summary: authored.summary,
             jlptLevel: authored.jlptLevel,
             points: members.get(authored.id)!,
+            text: chapterText(authored.id, [[AUTHORED_LANG, authored]]),
         });
     }
 
@@ -348,10 +414,9 @@ function main() {
         for (const member of ordered) claim(member.id, id);
         chapters.push({
             id,
-            title: ordered[0].family!.name,
-            summary: `The whole ${ordered[0].family!.name.replace(/\s*\(.*\)$/, '').toLowerCase()} ladder in one place, easiest register first. These differ only by formality, so they are taught together rather than one level at a time: once you know the first, each of the rest is a one-line register fact.`,
             jlptLevel: placeAt,
             points: ordered.map(m => m.id),
+            text: generatedText(id, ordered[0], (t, family) => t.ladder(family)),
         });
         absorbedLadders.push(`${familyId} (${ordered.length} members, N${[...levels].sort((a, b) => b - a).map(l => l).join('/N')} -> ${id})`);
     }
@@ -394,12 +459,11 @@ function main() {
             const split = levelGatedLadders.has(familyId);
             chapters.push({
                 id,
-                title: split ? `${LEVEL_NAMES[level]}: ${members[0].family!.name}` : members[0].family!.name,
-                summary: split
-                    ? `The ${LEVEL_NAMES[level]} members of this family. The rest of it is taught at other levels - these ${members.length} are the ones worth telling apart from each other now, and the family page carries the full set.`
-                    : `${members.length} ways to express this at ${LEVEL_NAMES[level]}. What separates them is in each point's usage note - read that before drilling them, or they blur together.`,
                 jlptLevel: level,
                 points: members.map(m => m.id),
+                text: generatedText(id, members[0], (t, family) => split
+                    ? t.levelGated(LEVEL_NAMES[level], family, members.length)
+                    : t.family(LEVEL_NAMES[level], family, members.length)),
             });
         }
 
@@ -422,10 +486,9 @@ function main() {
             for (const id of claimable) claim(id, theme.id);
             chapters.push({
                 id: theme.id,
-                title: theme.title,
-                summary: theme.summary,
                 jlptLevel: level,
                 points: claimable,
+                text: chapterText(theme.id, [[AUTHORED_LANG, theme]]),
             });
         }
 
@@ -441,10 +504,9 @@ function main() {
             for (const point of lesson) claim(point.id, id);
             chapters.push({
                 id,
-                title: `Further ${LEVEL_NAMES[level]} patterns (${part} of ${total})`,
-                summary: `Independent ${LEVEL_NAMES[level]} patterns with no close synonym in the set. Not sequenced against each other - order here carries no pedagogical claim.`,
                 jlptLevel: level,
                 points: lesson.map(p => p.id),
+                text: generatedText(id, undefined, t => t.further(LEVEL_NAMES[level], part, total)),
             });
         }
     }

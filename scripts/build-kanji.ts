@@ -1,5 +1,7 @@
 import fs from "fs";
 import { Kanji } from "../src/models/kanji.model";
+import type { Label, LanguageTag, TextByLanguage } from "../src/models/text.model";
+import { addRenderings, rendering } from "../src/text/renderings";
 import { parseJPDBEntry } from "./build-common";
 import { KKLCDatasetDTO, JLPTKanjiDatasetDTO, Kanjidic2DTO, KradfileDTO, RadkfileDTO } from "../src/models/data.model";
 import {
@@ -21,10 +23,27 @@ const kanjidic: Kanjidic2DTO = JSON.parse(fs.readFileSync(kanjidicPath, 'utf-8')
 const kradfile: KradfileDTO = JSON.parse(fs.readFileSync(kradfilePath, 'utf-8'));
 const radkfile: RadkfileDTO = JSON.parse(fs.readFileSync(radkfilePath, 'utf-8'));
 
-// 〇 is in KKLC but is a symbol, not a kanji: KANJIDIC2 and KRADFILE do not list it.
-const NOT_IN_KANJIDIC: Record<string, Pick<Kanji, 'meanings' | 'readings' | 'strokeCount' | 'components'>> = {
-    '〇': { meanings: ['zero'], readings: { on: ['レイ'], kun: [], nanori: [] }, strokeCount: 1, components: [] },
+// 〇 is in KKLC but is a symbol, not a kanji: KANJIDIC2 and KRADFILE do not list it, so its
+// meaning is written here, and credited to Gokan.
+const NOT_IN_KANJIDIC: Record<string, Pick<Kanji, 'readings' | 'strokeCount' | 'components'> & { meanings: Record<LanguageTag, string[]> }> = {
+    '〇': { meanings: { en: ['zero'] }, readings: { on: ['レイ'], kun: [], nanori: [] }, strokeCount: 1, components: [] },
 };
+
+/** A kanji's meanings as labels, one per meaning, in every language its source gives. */
+function meaningText(character: string, meanings: Record<LanguageTag, string[]>, source: 'kanjidic2' | 'gokan'): TextByLanguage {
+    const text: TextByLanguage = {};
+    for (const [lang, values] of Object.entries(meanings)) {
+        addRenderings(text, lang, values.map(value => rendering<Label>('kanji', character, lang, {
+            role: 'label',
+            source: { source, ref: character },
+            match: 'id',
+            // Gokan's own hand-written text is reviewed (decision D4).
+            status: source === 'gokan' ? 'reviewed' : 'imported',
+            value,
+        })));
+    }
+    return text;
+}
 
 const kanjidicByChar = new Map(kanjidic.characters.map(entry => [entry.literal, entry]));
 
@@ -73,7 +92,7 @@ const kanjis: Kanji[] = characters.map(char => {
         },
         frequency: jpdb[char] ? parseJPDBEntry(jpdb[char]).kanjiRank : undefined,
         newspaperFrequency: fields?.newspaperFrequency,
-        meanings: fields?.meanings ?? fallback?.meanings ?? [],
+        text: fields ? meaningText(char, fields.meanings, 'kanjidic2') : fallback ? meaningText(char, fallback.meanings, 'gokan') : {},
         readings: fields?.readings ?? fallback?.readings ?? { on: [], kun: [], nanori: [] },
         strokeCount: fields?.strokeCount ?? fallback?.strokeCount ?? 0,
         grade: fields?.grade,
@@ -97,24 +116,24 @@ for (const order of Object.keys(KANJIDIC_ORDERS) as KanjidicOrder[]) {
     }
 }
 
-fs.mkdirSync('./compiled/index', { recursive: true });
+fs.mkdirSync('./build/assembled/index', { recursive: true });
 
 fs.writeFileSync(
-    './compiled/kanji.json',
+    './build/assembled/kanji.json',
     JSON.stringify(kanjis, null, 2),
 );
 
 // One file per kanji, so a page showing one kanji does not download all of them.
-fs.rmSync('./compiled/kanji', { recursive: true, force: true });
-fs.mkdirSync('./compiled/kanji', { recursive: true });
+fs.rmSync('./build/assembled/kanji', { recursive: true, force: true });
+fs.mkdirSync('./build/assembled/kanji', { recursive: true });
 for (const kanji of kanjis) {
-    fs.writeFileSync(`./compiled/kanji/${kanji.character}.json`, JSON.stringify(kanji, null, 2));
+    fs.writeFileSync(`./build/assembled/kanji/${kanji.character}.json`, JSON.stringify(kanji, null, 2));
 }
 
-fs.rmSync('./compiled/index/kanji-orders', { recursive: true, force: true });
-fs.mkdirSync('./compiled/index/kanji-orders', { recursive: true });
+fs.rmSync('./build/assembled/index/kanji-orders', { recursive: true, force: true });
+fs.mkdirSync('./build/assembled/index/kanji-orders', { recursive: true });
 for (const order of KANJI_ORDER_LISTS) {
-    fs.writeFileSync(`./compiled/index/kanji-orders/${order}.json`, JSON.stringify(orderList(kanjis, order), null, 2));
+    fs.writeFileSync(`./build/assembled/index/kanji-orders/${order}.json`, JSON.stringify(orderList(kanjis, order), null, 2));
 }
 
 const kklcKanjiIndex: Record<number, string[]> = {};
@@ -131,7 +150,7 @@ for (const kanji of kanjis) {
 }
 
 fs.writeFileSync(
-    './compiled/index/kklc-kanji.json',
+    './build/assembled/index/kklc-kanji.json',
     JSON.stringify(kklcKanjiIndex, null, 2),
 );
 
@@ -153,7 +172,7 @@ for (const [component, entry] of Object.entries(componentIndex)) {
 }
 
 fs.writeFileSync(
-    './compiled/index/kanji-components.json',
+    './build/assembled/index/kanji-components.json',
     JSON.stringify(componentIndex, null, 2),
 );
 

@@ -18,9 +18,9 @@ import type { Vocabulary } from '../src/models/vocabulary.model';
  * licence: that is the recording a build would pick.
  */
 
-const SENTENCES_DIR = './compiled/sentences';
-const VOCAB_DIR = './compiled/vocab';
-const GRAMMAR_DIRS = ['./compiled/grammar/points', './compiled/grammar/mined'];
+const SENTENCES_DIR = './build/assembled/sentences';
+const VOCAB_DIR = './build/assembled/vocab';
+const GRAMMAR_DIRS = ['./build/assembled/grammar/points', './build/assembled/grammar/mined'];
 
 /** Most permissive first; '' is a recording whose owner gave no licence (Tatoeba only). */
 const LICENSE_ORDER = ['CC0 1.0', 'CC BY 4.0', 'CC BY-SA 4.0', 'CC BY-NC 4.0', 'CC BY-NC-ND 3.0', ''] as const;

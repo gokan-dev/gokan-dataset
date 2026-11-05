@@ -1,6 +1,6 @@
 import { describe, it, expect, beforeAll } from 'vitest';
 import kuromoji from 'kuromoji';
-import { classify, conjugate } from './conjugator';
+import { classify, conjugate, FORM_LABELS, FORM_MARKERS } from './conjugator';
 import type { ConjugationForm, WordClass } from './conjugator';
 
 /**
@@ -397,5 +397,13 @@ describe('conjugator', () => {
         it('i-adjective form asked of a na-adjective', () => {
             expect(form('静か', 'しずか', 'i-adj-adverbial')).toBeNull();
         });
+    });
+});
+
+describe('FORM_MARKERS', () => {
+    it('names each form by Japanese its English label quotes, so the core keeps what the label says in Japanese', () => {
+        const labels: Record<string, string> = FORM_LABELS;
+        const unquoted = Object.entries(FORM_MARKERS).filter(([form, marker]) => !(labels[form] ?? '').includes(marker ?? '-'));
+        expect(unquoted).toEqual([]);
     });
 });

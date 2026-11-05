@@ -1,10 +1,13 @@
 import fs from 'fs';
 import path from 'path';
 import readline from 'readline';
-import type { Sense, Vocabulary } from '../src/models/vocabulary.model';
+import type { Vocabulary } from '../src/models/vocabulary.model';
 import type { Sentence } from '../src/models/sentence.model';
+import type { TextByLanguage, Translation } from '../src/models/text.model';
+import { jmdictLanguage, jmdictText, type JmdictSense } from '../src/text/jmdict';
+import { rendering } from '../src/text/renderings';
 import type { Kanji } from '../src/models/kanji.model';
-import type { FrequencyIndex, KKLCIndex, SearchIndex } from '../src/models/index.model';
+import type { AssembledSearchIndexEntry, FrequencyIndex, KKLCIndex } from '../src/models/index.model';
 import type kuromoji from 'kuromoji';
 import { JMDict } from "../src/models/data.model";
 import {
@@ -31,17 +34,19 @@ const INPUT_JMDICT_FILE = './data/raw/jmdict.json';
 const INPUT_JPDB_FILE = './data/raw/jpdb_v2.2_freq_list_2024-10-13.json';
 const INPUT_JPDB_TSV_FILE = './data/raw/jpdb_v2.2_freq_list_2024-10-13.csv';
 const INPUT_USUALLY_KANA_OVERRIDES_FILE = './data/raw/vocab/usually-kana-overrides.json';
-const INPUT_KANJI_FILE = './compiled/kanji.json';
+const INPUT_KANJI_FILE = './build/assembled/kanji.json';
 const INPUT_SENTENCES_FILE = './data/raw/Sentence pairs in Japanese-English - 2026-02-15.tsv';
+/** The language of the translations in INPUT_SENTENCES_FILE, which holds Japanese-English pairs only. */
+const INPUT_SENTENCES_LANG = 'en';
 const INPUT_INDICES_FILE = './data/raw/jpn_indices.csv';
 const INPUT_JLPT_ID_LIST_DIR = './data/raw/jlpt/waller-ids';
 const INPUT_JLPT_DECKS_DIR = './data/raw/jlpt/waller-decks';
 const INPUT_JLPT_CORRECTIONS_FILE = './data/raw/vocab/jlpt-corrections.json';
 const INPUT_JITEN_DIR = './data/raw/media/jiten';
 
-const OUTPUT_VOCAB_DIR = './compiled/vocab';
-const OUTPUT_SENTENCES_DIR = './compiled/sentences';
-const OUTPUT_INDEX_DIR = './compiled/index';
+const OUTPUT_VOCAB_DIR = './build/assembled/vocab';
+const OUTPUT_SENTENCES_DIR = './build/assembled/sentences';
+const OUTPUT_INDEX_DIR = './build/assembled/index';
 
 // --- Types ---
 interface JPDBEntry {
@@ -50,7 +55,12 @@ interface JPDBEntry {
 }
 type JPDBData = Record<string, Record<string, JPDBEntry>>;
 
-interface BuildVocabulary extends Vocabulary {
+/**
+ * A word while the build assembles it: its JMdict senses, each knowing its entry and its glosses'
+ * language, stay a list until the word is written, when they become definitions (jmdictText).
+ */
+interface BuildVocabulary extends Omit<Vocabulary, 'pos' | 'text'> {
+    senses: JmdictSense[];
     kklcStep: number;
     isCommon: boolean;
     /** Best JPDB rank of this spelling under one of the word's own readings, null when it has none (see compareMergeBase). Build-only. */
@@ -61,6 +71,37 @@ interface BuildVocabulary extends Vocabulary {
     sharesHeadword: boolean;
     /** How often anime says this exact JMdict entry (Jiten), for chooseMergeBase. Build-only. */
     spoken: number;
+}
+
+/** A sentence while the build assembles it: its English translations as Tatoeba lists them. */
+interface BuildSentence extends Omit<Sentence, 'text'> {
+    en: { id: string; text: string }[];
+}
+
+/** The sentence as written: its translations as Tatoeba renderings in the pairs file's language. */
+function assembledSentence({ en, ...sentence }: BuildSentence): Sentence {
+    const text: TextByLanguage = {};
+    if (en.length > 0) {
+        text[INPUT_SENTENCES_LANG] = {
+            renderings: en.map(t => rendering<Translation>('sentence', sentence.id, INPUT_SENTENCES_LANG, {
+                role: 'translation',
+                source: { source: 'tatoeba', ref: t.id },
+                match: 'id',
+                status: 'imported',
+                value: t.text,
+            })),
+        };
+    }
+    return { ...sentence, text };
+}
+
+/** A word's short gloss for search, in each language: its first sense's first two glosses there. */
+function searchGlosses(senses: JmdictSense[]): Record<string, string> {
+    const glosses: Record<string, string> = {};
+    for (const lang of [...new Set(senses.map(s => s.lang))]) {
+        glosses[lang] = senses.find(s => s.lang === lang)?.glosses.slice(0, 2).join(', ') ?? '';
+    }
+    return glosses;
 }
 
 // --- Main ---
@@ -216,14 +257,22 @@ async function main() {
             .map(k => k.text)
             .filter(r => r !== primaryReading);
 
-        const senses: Sense[] = entry.sense.map(s => ({
-            pos: s.partOfSpeech,
-            misc: buildMiscFlags(s.misc as unknown as string[]),
-            glosses: s.gloss.map(g => g.text),
-            related: {
-                compounds: s.related.map(r => r[0]),
-            },
-        }));
+        // One sense per language its glosses are in (JMdict keeps each language's glosses in
+        // senses of their own, so this is one sense, as it was, for each JMdict sense). A sense
+        // with no gloss stays English, as it was before the text layer.
+        const senses: JmdictSense[] = entry.sense.flatMap(s => {
+            const languages = [...new Set(s.gloss.map(g => g.lang))];
+            return (languages.length > 0 ? languages : ['eng']).map(code => ({
+                pos: s.partOfSpeech,
+                misc: buildMiscFlags(s.misc as unknown as string[]),
+                glosses: s.gloss.filter(g => g.lang === code).map(g => g.text),
+                related: {
+                    compounds: s.related.map(r => r[0]),
+                },
+                entryId: entry.id,
+                lang: jmdictLanguage(code),
+            }));
+        });
 
         const requiresContext =
             entry.kana.length > 1 || senses.some(s => s.misc.isSuffix);
@@ -306,7 +355,6 @@ async function main() {
             id: base.id,
             isBase: true,
             originalPrimaryReading: base.reading.primary,
-            originalGlosses: base.senses[0]?.glosses.slice(0, 3) || []
         }];
 
         // Keep track of all readings to avoid exact duplicates
@@ -327,7 +375,6 @@ async function main() {
                 id: other.id,
                 isBase: false,
                 originalPrimaryReading: other.reading.primary,
-                originalGlosses: other.senses[0]?.glosses.slice(0, 3) || []
             });
 
             // Merge readings if new
@@ -393,7 +440,7 @@ async function main() {
     }
 
     // Write the merge log to a text file for review
-    const mergedLogPath = './compiled/merged_vocabs.log';
+    const mergedLogPath = './build/assembled/merged_vocabs.log';
     fs.mkdirSync(path.dirname(mergedLogPath), { recursive: true });
     fs.writeFileSync(mergedLogPath, mergedLogs.join('\n\n'), 'utf-8');
 
@@ -450,7 +497,7 @@ async function main() {
     const vocabUsageCount = new Map<string, number>();
 
     // Map: vocabId -> Sentence[] (Buffer for final output)
-    const vocabSentencesMap = new Map<string, Sentence[]>();
+    const vocabSentencesMap = new Map<string, BuildSentence[]>();
 
     // Load Indices
     const indicesMap = new Map<string, string>();
@@ -465,7 +512,7 @@ async function main() {
     }
 
     // Load Sentences
-    const sentencesMap = new Map<string, Sentence>();
+    const sentencesMap = new Map<string, BuildSentence>();
     const sentencesStream = fs.createReadStream(INPUT_SENTENCES_FILE);
     const sentencesReader = readline.createInterface({ input: sentencesStream, crlfDelay: Infinity });
 
@@ -607,7 +654,7 @@ async function main() {
         }
     }
     console.log(`\n   - Done scanning.`);
-    matchStats.report('./compiled/sentence_matching.log');
+    matchStats.report('./build/assembled/sentence_matching.log');
 
     // 4. Filter Vocabulary
     console.log('✂️  Filtering vocabulary...');
@@ -773,7 +820,7 @@ async function main() {
     // Indices
     const kklcIndex: KKLCIndex = {};
     const frequencyIndex: FrequencyIndex = [];
-    const searchIndex: SearchIndex = [];
+    const searchIndex: AssembledSearchIndexEntry[] = [];
     const kanjiVocabIndex: Record<string, string[]> = {};
     const kanjiRankById = new Map<string, number>();
 
@@ -781,12 +828,17 @@ async function main() {
     let sentencesWritten = 0;
 
     for (const vocab of FINAL_VOCAB) {
-        const { kklcStep, ownRank: _ownRank, rareKanjiForm: _rareKanjiForm, sharesHeadword: _sharesHeadword, spoken: _spoken, ...cleanVocab } = vocab;
+        const { kklcStep, ownRank: _ownRank, rareKanjiForm: _rareKanjiForm, sharesHeadword: _sharesHeadword, spoken: _spoken, senses, ...rest } = vocab;
+        const cleanVocab: Vocabulary = {
+            ...rest,
+            pos: [...new Set(senses.flatMap(s => s.pos))],
+            text: jmdictText(vocab.id, senses),
+        };
 
         // 1. Write Vocab File
         fs.writeFileSync(
             path.join(OUTPUT_VOCAB_DIR, `${vocab.id}.json`),
-            JSON.stringify(cleanVocab, null, 2)
+            JSON.stringify(cleanVocab)
         );
         vocabWritten++;
 
@@ -795,7 +847,7 @@ async function main() {
         if (sentences && sentences.length > 0) {
             fs.writeFileSync(
                 path.join(OUTPUT_SENTENCES_DIR, `${vocab.id}.json`),
-                JSON.stringify(sentences, null, 2)
+                JSON.stringify(sentences.map(assembledSentence), null, 2)
             );
             sentencesWritten++;
         }
@@ -816,7 +868,7 @@ async function main() {
             id: vocab.id,
             w: vocab.writtenForm.kanji,
             r: vocab.reading.primary,
-            m: vocab.senses[0]?.glosses.slice(0, 2).join(', ') || '',
+            m: searchGlosses(vocab.senses),
             ...(vocab.usuallyKana ? { u: true as const } : {}),
         });
 

@@ -1,0 +1,22 @@
+{
+  "id": "hanabira",
+  "name": "hanabira.org Japanese content, grammar points",
+  "url": "https://github.com/tristcoil/hanabira.org-japanese-content",
+  "license": "LicenseRef-hanabira",
+  "licenseNote": "Creative Commons, with a link back to hanabira.org",
+  "community": "hanabira",
+  "firstHand": "Grammar points explained in English, with example sentences and their translations",
+  "languages": ["en"],
+  "roles": ["prose", "label", "translation"],
+  "match": "id",
+  "snapshot": {
+    "date": "2026-08-06",
+    "files": {
+      "data/raw/grammar/grammar_ja_N1_full_alphabetical_0001.json": "sha256:09c60b090bbf265830f82569d538621c7a7c6d3a10fc178727ca606b4e8a590a",
+      "data/raw/grammar/grammar_ja_N2_full_alphabetical_0001.json": "sha256:4221a8a47e5b12d196f4b44274d186203e8ed5e47a661dc5d579e01ef275f71e",
+      "data/raw/grammar/grammar_ja_N3_full_alphabetical_0001.json": "sha256:d80c65d21c36caa0384b2e9ed8e581b6007f9c603cdbc14abc745523acb5fd98",
+      "data/raw/grammar/grammar_ja_N4_full_alphabetical_0001.json": "sha256:46ad799714f04a7e17658bb4a4799b4c680ed6cee5c8a1b6520b7bd1e11a08c6",
+      "data/raw/grammar/grammar_ja_N5_full_alphabetical_0001.json": "sha256:f30552f62b7aa7f0cbbf6a2da86e1b1860549ee5ef5518b877207ea3545c777c"
+    }
+  }
+}

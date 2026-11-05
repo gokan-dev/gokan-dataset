@@ -1,0 +1,19 @@
+{
+  "id": "tatoeba",
+  "name": "Tatoeba, Japanese-English sentence pairs and Japanese indices",
+  "url": "https://tatoeba.org/en/downloads",
+  "license": "LicenseRef-Tatoeba",
+  "licenseNote": "Per sentence, mostly CC BY 2.0 FR, some CC0: https://tatoeba.org/en/terms_of_use",
+  "community": "tatoeba",
+  "firstHand": "Contributors translate sentences between languages; sentences_base records from which",
+  "languages": ["en"],
+  "roles": ["translation"],
+  "match": "id",
+  "snapshot": {
+    "date": "2026-02-15",
+    "files": {
+      "data/raw/Sentence pairs in Japanese-English - 2026-02-15.tsv": "sha256:934480bac320b2a94b64b41699f04d9c12561db963d323e70440db557e1c6e1a",
+      "data/raw/jpn_indices.csv": "sha256:6c9e1fd99d04ff9f3f5cba2179ad812fdbe3dc2d0b61c225349622078b944dcb"
+    }
+  }
+}

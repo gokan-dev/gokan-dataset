@@ -27,11 +27,14 @@
  *
  * Run (needs build:data + build:grammar first): bun scripts/build-grammar-sentences.ts
  */
+import { languagesOf, proseOf, sharedFrom, translationRenderingsOf, translationsOf } from '../src/text/renderings';
 import fs from 'fs';
 import path from 'path';
 import kuromoji from 'kuromoji';
 import type { GrammarExample, GrammarPoint } from '../src/models/grammar.model';
 import type { SearchIndex } from '../src/models/index.model';
+import type { Sentence } from '../src/models/sentence.model';
+import type { LanguageTag, TextByLanguage } from '../src/models/text.model';
 import { SentenceTokenizer } from '../src/utils/tokenizer';
 import { buildKanaWritableIds, buildVocabLookup, buildExampleWords } from './build-grammar';
 import {
@@ -39,10 +42,17 @@ import {
     leaksAnswer, learnMarker, opensClause, toMorphToken, type MarkerLexicon, type MiningRule, type RuleMatch,
 } from '../src/utils/formationMiner';
 
-const SEARCH_INDEX_PATH = './compiled/index/search.json';
-const POINTS_DIR = './compiled/grammar/points';
-const SENTENCES_DIR = './compiled/sentences';
-const OUTPUT_DIR = './compiled/grammar/mined';
+const SEARCH_INDEX_PATH = './build/assembled/index/search.json';
+const POINTS_DIR = './build/assembled/grammar/points';
+const SENTENCES_DIR = './build/assembled/sentences';
+const OUTPUT_DIR = './build/assembled/grammar/mined';
+
+/**
+ * The language whose formation text the miner and the matcher parse ("Verb-て form + ある"): they
+ * derive language-neutral facts from it (does a sentence use the construction, which words are
+ * the pattern). It is also the language a mined sentence must have a translation in.
+ */
+const FORMATION_LANG: LanguageTag = 'en';
 
 /** Per-point pool cap: enough that dropping mastered vocab shifts the productivity argmax, bounded enough to load in one fetch. */
 const CAP = 60;
@@ -104,14 +114,15 @@ async function main() {
 
     // Eligible points: compiled construction points with at least one
     // high-precision variant. Only those variants are mined.
-    const points = fs.readdirSync(POINTS_DIR)
+    const points = fs.readdirSync(POINTS_DIR).sort()
         .map(f => JSON.parse(fs.readFileSync(path.join(POINTS_DIR, f), 'utf-8')) as GrammarPoint)
-        .filter(p => p.kind !== 'inflection' && !p.variantOf && p.formation);
-    const eligible: { point: GrammarPoint; rules: MiningRule[] }[] = [];
+        .map(point => ({ point, formation: proseOf(point.text, FORMATION_LANG, 'formation') ?? '' }))
+        .filter(({ point, formation }) => point.kind !== 'inflection' && !point.variantOf && formation);
+    const eligible: { point: GrammarPoint; formation: string; rules: MiningRule[] }[] = [];
     let deferredCount = 0;
-    for (const point of points) {
-        const rules = compileFormation(point.formation, point.title).filter(r => isHighPrecision(r) && !isExcluded(point.id, r));
-        if (rules.length > 0) eligible.push({ point, rules });
+    for (const { point, formation } of points) {
+        const rules = compileFormation(formation, point.title).filter(r => isHighPrecision(r) && !isExcluded(point.id, r));
+        if (rules.length > 0) eligible.push({ point, formation, rules });
         else deferredCount++;
     }
     const variantCount = eligible.reduce((n, e) => n + e.rules.length, 0);
@@ -138,14 +149,22 @@ async function main() {
     console.log(`  ✓ ${[...lexicons.values()].filter(l => l.tags.size > 0).length} points carry a curated marker lexicon`);
 
     // Unique sentences across all SentenceSets.
-    const sentences = new Map<string, { original: string; en: string }>();
-    for (const f of fs.readdirSync(SENTENCES_DIR)) {
-        const arr = JSON.parse(fs.readFileSync(path.join(SENTENCES_DIR, f), 'utf-8'));
-        for (const s of (Array.isArray(arr) ? arr : arr.sentences ?? [])) {
+    const sentences = new Map<string, { original: string; text: TextByLanguage }>();
+    // Sorted: the listing's order differs by filesystem, and the pool's order decides which sentences are sampled.
+    for (const f of fs.readdirSync(SENTENCES_DIR).sort()) {
+        // Output of build:data, already typed by it.
+        const arr = JSON.parse(fs.readFileSync(path.join(SENTENCES_DIR, f), 'utf-8')) as Sentence[];
+        for (const s of arr) {
             if (!s?.id || sentences.has(s.id)) continue;
-            const en = s.en?.[0]?.text;
-            if (!en) continue; // can't prompt a translation quiz without a translation
-            sentences.set(s.id, { original: s.original, en });
+            if (!translationsOf(s.text, FORMATION_LANG)[0]?.text) continue; // can't prompt a translation quiz without a translation
+            // A mined example carries its sentence's first translation in each language, the
+            // rendering itself, so its Tatoeba provenance (and any review of it) stays one.
+            const text: TextByLanguage = {};
+            for (const lang of languagesOf(s.text)) {
+                const first = translationRenderingsOf(s.text, lang)[0];
+                if (first) text[lang] = { renderings: [sharedFrom(first, 'sentence', s.id)] };
+            }
+            sentences.set(s.id, { original: s.original, text });
         }
     }
     console.log(`  ✓ ${sentences.size} unique translated sentences`);
@@ -201,9 +220,9 @@ async function main() {
             if (examples.length >= CAP) break;
             const s = sentences.get(hit.id)!;
             const { words, patternWordIndices } = buildExampleWords(
-                tokenizer, sentenceTokenizer, vocabSet, lookup, s.original, e.point.formation, e.point.title);
+                tokenizer, sentenceTokenizer, vocabSet, lookup, s.original, e.formation, e.point.title);
             if (patternWordIndices.length === 0) { dropped.unlocated++; continue; } // pattern couldn't be located - drop
-            const example: GrammarExample = { jp: s.original, romaji: '', en: s.en, words, patternWordIndices };
+            const example: GrammarExample = { jp: s.original, romaji: '', words, patternWordIndices, text: s.text };
             // The locator runs separately from the miner and can blank a different
             // occurrence (a sentence-initial だから) than the one the rule accepted.
             if (!blankFitsRule(example, hit.rule)) { dropped.blankOffRule++; continue; }

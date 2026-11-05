@@ -1,6 +1,9 @@
 import fs from 'fs';
 import path from 'path';
-import type { GrammarContrastIndex, GrammarPoint, GrammarTeachingOrder } from '../src/models/grammar.model';
+import type { GrammarContrastIndex, GrammarPoint, GrammarSlot, GrammarTeachingOrder } from '../src/models/grammar.model';
+import type { LanguageTag } from '../src/models/text.model';
+import { slotLabelsIn, titleIn } from '../src/text/grammarSlots';
+import { labelsOf, proseOf } from '../src/text/renderings';
 
 /**
  * Writes docs/CURRICULUM.md: the full, human-readable list of what the
@@ -19,27 +22,38 @@ import type { GrammarContrastIndex, GrammarPoint, GrammarTeachingOrder } from '.
  * Run: `bun run build:curriculum-doc` (chained from `bun run build:grammar`).
  */
 
-const POINTS_DIR = './compiled/grammar/points';
-const ORDER_PATH = './compiled/grammar/index/teaching-order.json';
-const CONTRASTS_PATH = './compiled/grammar/index/contrasts.json';
+const POINTS_DIR = './build/assembled/grammar/points';
+const ORDER_PATH = './build/assembled/grammar/index/teaching-order.json';
+const CONTRASTS_PATH = './build/assembled/grammar/index/contrasts.json';
+const SLOTS_PATH = './build/assembled/grammar/slots.json';
 const OUTPUT_PATH = './docs/CURRICULUM.md';
+
+/** The inventory is written in English, for the people who maintain the curriculum. */
+const DOC_LANG: LanguageTag = 'en';
 
 const LEVEL_NAMES: Record<number, string> = { 5: 'N5', 4: 'N4', 3: 'N3', 2: 'N2', 1: 'N1' };
 
+function readJson<T>(file: string): T {
+    // Output of this repository's own grammar stages, already typed by them.
+    return JSON.parse(fs.readFileSync(file, 'utf-8')) as T;
+}
+
 function main() {
-    const order: GrammarTeachingOrder = JSON.parse(fs.readFileSync(ORDER_PATH, 'utf-8'));
-    const contrasts: GrammarContrastIndex = JSON.parse(fs.readFileSync(CONTRASTS_PATH, 'utf-8'));
+    const order = readJson<GrammarTeachingOrder>(ORDER_PATH);
+    const contrasts = readJson<GrammarContrastIndex>(CONTRASTS_PATH);
+    const slots = slotLabelsIn(readJson<GrammarSlot[]>(SLOTS_PATH), DOC_LANG);
 
     const points = new Map<string, GrammarPoint>();
-    for (const file of fs.readdirSync(POINTS_DIR)) {
+    for (const file of fs.readdirSync(POINTS_DIR).sort()) {
         if (!file.endsWith('.json')) continue;
-        const point: GrammarPoint = JSON.parse(fs.readFileSync(path.join(POINTS_DIR, file), 'utf-8'));
+        const point = readJson<GrammarPoint>(path.join(POINTS_DIR, file));
         points.set(point.id, point);
     }
+    const titleOf = (p: GrammarPoint): string => titleIn(p, DOC_LANG, slots) ?? p.title;
 
     // Lessons, grouped by the chapter they are anchored to, so a chapter can
     // list the lessons that become available once it is finished.
-    const lessonsByChapter = new Map<string, { familyId: string; familyName: string; title: string; points: string[]; caseCount: number }[]>();
+    const lessonsByChapter = new Map<string, { familyId: string; title: string; points: string[]; caseCount: number }[]>();
     let lessonCount = 0;
     let caseCount = 0;
     for (const [familyId, family] of Object.entries(contrasts)) {
@@ -48,7 +62,7 @@ function main() {
             caseCount += lesson.cases.length;
             const key = lesson.taughtInChapterId ?? '(unanchored)';
             const list = lessonsByChapter.get(key) ?? [];
-            list.push({ familyId, familyName: family.name, title: lesson.title, points: lesson.points, caseCount: lesson.cases.length });
+            list.push({ familyId, title: lesson.title, points: lesson.points, caseCount: lesson.cases.length });
             lessonsByChapter.set(key, list);
         }
     }
@@ -84,18 +98,18 @@ function main() {
     out.push('');
 
     for (const chapter of order.chapters) {
-        out.push(`### ${chapter.id} (${LEVEL_NAMES[chapter.jlptLevel]}) ${chapter.title}`);
+        out.push(`### ${chapter.id} (${LEVEL_NAMES[chapter.jlptLevel]}) ${labelsOf(chapter.text, DOC_LANG, { field: 'title' })[0] ?? ''}`);
         out.push('');
-        out.push(chapter.summary);
+        out.push(proseOf(chapter.text, DOC_LANG, 'summary') ?? '');
         out.push('');
         out.push('| Point | Form | Level | Family | Note |');
         out.push('| --- | --- | --- | --- | --- |');
         for (const id of chapter.points) {
             const p = points.get(id)!;
             const realizations = [...points.values()].filter(v => v.variantOf === id);
-            const form = p.title + (realizations.length > 0 ? ` <br>*(also ${realizations.map(r => r.title).join(', ')})*` : '');
+            const form = titleOf(p) + (realizations.length > 0 ? ` <br>*(also ${realizations.map(titleOf).join(', ')})*` : '');
             const family = p.family ? `${p.family.id}${p.family.axis ? ` (${p.family.axis})` : ''}` : '';
-            out.push(`| \`${id}\` | ${form} | ${LEVEL_NAMES[p.jlptLevel]} | ${family} | ${(p.usageNote ?? '').replace(/\|/g, '\\|')} |`);
+            out.push(`| \`${id}\` | ${form} | ${LEVEL_NAMES[p.jlptLevel]} | ${family} | ${(proseOf(p.text, DOC_LANG, 'usageNote') ?? '').replace(/\|/g, '\\|')} |`);
         }
         out.push('');
 
@@ -104,7 +118,7 @@ function main() {
             out.push(`**Lessons unlocked here** (every point they compare is known by the end of this chapter):`);
             out.push('');
             for (const lesson of lessons) {
-                const forms = lesson.points.map(id => points.get(id)?.title ?? id).join(' / ');
+                const forms = lesson.points.map(id => { const p = points.get(id); return p ? titleOf(p) : id; }).join(' / ');
                 out.push(`- **${lesson.title}** (family \`${lesson.familyId}\`, ${lesson.caseCount} case${lesson.caseCount === 1 ? '' : 's'}): ${forms}`);
             }
             out.push('');
@@ -117,7 +131,8 @@ function main() {
     out.push('');
     for (const [familyId, family] of Object.entries(contrasts)) {
         if (!family.interchangeable) continue;
-        out.push(`- **${family.name}** (\`${familyId}\`): ${family.interchangeable.map(id => points.get(id)?.title ?? id).join(', ')}`);
+        const name = labelsOf(family.text, DOC_LANG, { field: 'family' })[0] ?? familyId;
+        out.push(`- **${name}** (\`${familyId}\`): ${family.interchangeable.map(id => { const p = points.get(id); return p ? titleOf(p) : id; }).join(', ')}`);
     }
     out.push('');
 

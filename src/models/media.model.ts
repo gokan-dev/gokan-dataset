@@ -1,3 +1,5 @@
+import type { TextByLanguage } from './text.model';
+
 /**
  * Media (anime) vocabulary data, for the listening library.
  *
@@ -80,7 +82,8 @@ export type MediaWordCount = [vocabId: string, occurrences: number];
 
 export interface MediaEpisode {
     number: number;
-    title: string;
+    /** Its title as Jiten gives it (`Episode 3`): a label in the text layer. */
+    text: TextByLanguage;
     /** Morae per minute. 0 when unknown. */
     speechSpeed: number;
     /** Every word Jiten counted in the episode, Gokan vocabulary or not. */
@@ -94,7 +97,7 @@ export interface MediaIndexEntry {
     id: string;
     kind: 'anime';
     /** `reading`: the original title in hiragana, read by kuromoji (names are sometimes misread), for search. */
-    title: { original: string; reading: string; romaji?: string; english?: string };
+    title: { original: string; reading: string; romaji?: string };
     releaseYear?: number;
     episodeCount: number;
     /** Morae per minute across the whole series. 0 when unknown. */
@@ -102,10 +105,13 @@ export interface MediaIndexEntry {
     /** Jiten's difficulty estimate, roughly 0 (easiest) to 5. */
     difficulty: number;
     links: { anilist?: string; myanimelist?: string };
-    /** Genre names, e.g. "Comedy", "Slice of Life". */
-    genres: string[];
-    /** Up to five of Jiten's strongest community tags, e.g. "Cute Girls Doing Cute Things". */
-    tags: string[];
+    /** Jiten's genre ids (JITEN_GENRES); their names are labels in the text layer. */
+    genreIds: number[];
+    /**
+     * Its explanation-language text: its English title, its genres' names and up to five of Jiten's
+     * strongest community tags ("Cute Girls Doing Cute Things"), each a label (src/text/media.ts).
+     */
+    text: TextByLanguage;
     /**
      * Cover art hosted by AniList. Not covered by this dataset's license: the
      * artwork belongs to its studio, so only the URL is stored and a consumer

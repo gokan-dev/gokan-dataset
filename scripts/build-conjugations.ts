@@ -1,9 +1,12 @@
 import fs from 'fs';
 import path from 'path';
 import kuromoji from 'kuromoji';
-import type { GrammarPoint } from '../src/models/grammar.model';
+import type { GrammarConjugation, GrammarConjugations, GrammarDrillItem, GrammarPoint } from '../src/models/grammar.model';
 import type { SearchIndex } from '../src/models/index.model';
-import { classify, conjugate, FORM_LABELS } from '../src/utils/conjugator';
+import type { LanguageTag, TextByLanguage } from '../src/models/text.model';
+import { grammarLabel } from '../src/text/grammarText';
+import { addRenderings } from '../src/text/renderings';
+import { classify, conjugate, FORM_LABELS, FORM_MARKERS } from '../src/utils/conjugator';
 import type { ConjugationForm, WordClass } from '../src/utils/conjugator';
 
 /**
@@ -22,9 +25,9 @@ import type { ConjugationForm, WordClass } from '../src/utils/conjugator';
  * Run: `bun run build:conjugations` (chained from `bun run build:grammar`).
  */
 
-const POINTS_DIR = './compiled/grammar/points';
-const SEARCH_INDEX_PATH = './compiled/index/search.json';
-const OUTPUT_PATH = './compiled/grammar/conjugations.json';
+const POINTS_DIR = './build/assembled/grammar/points';
+const SEARCH_INDEX_PATH = './build/assembled/index/search.json';
+const OUTPUT_PATH = './build/assembled/grammar/conjugations.json';
 
 /** Drill items generated per point. */
 const ITEMS_PER_POINT = 12;
@@ -87,7 +90,10 @@ const POINT_FORMS: Record<string, ConjugationForm> = {
     'n5-918': 'na-adj-te',
 };
 
-type ClassKey = 'godan' | 'ichidan' | 'irregular' | 'i-adjective' | 'na-adjective';
+type ClassKey = GrammarDrillItem['wordClass'];
+
+/** The language of FORM_LABELS, Gokan's names for the forms. */
+const FORM_LABELS_LANG: LanguageTag = 'en';
 
 /**
  * Which word classes each form may draw from.
@@ -172,21 +178,14 @@ const GUARANTEED_LEMMAS: { vocabId: string; lemma: string; lemmaReading: string 
 const STATIVE_VERBS = new Set(['見える', '聞こえる', '分かる', '要る', 'できる', '思う', '感じる']);
 const NEEDS_VOLITION: ConjugationForm[] = ['tai', 'causative', 'causative-passive', 'potential', 'volitional', 'imperative'];
 
-interface DrillItem {
-    vocabId: string;
-    lemma: string;
-    lemmaReading: string;
-    target: string;
-    targetReading: string;
-    /** Equally correct alternatives, e.g. 書かされる for the causative-passive. */
-    alternatives?: string[];
-    wordClass: ClassKey;
-}
+type DrillItem = GrammarDrillItem;
 
-interface PointConjugations {
-    form: ConjugationForm;
-    formLabel: string;
-    items: DrillItem[];
+/** A point's drill: the form, its Japanese marker, and Gokan's name for the form as text. */
+function pointConjugations(pointId: string, form: ConjugationForm, items: DrillItem[]): GrammarConjugation {
+    const text: TextByLanguage = {};
+    addRenderings(text, FORM_LABELS_LANG, [grammarLabel('conjugation', pointId, FORM_LABELS_LANG, 'formLabel', FORM_LABELS[form], { source: 'gokan', ref: pointId })]);
+    const marker = FORM_MARKERS[form];
+    return { form, ...(marker !== undefined ? { marker } : {}), items, text };
 }
 
 function classKeyOf(cls: WordClass): ClassKey {
@@ -217,7 +216,7 @@ async function main() {
         throw new Error(`${SEARCH_INDEX_PATH} not found. Run 'bun run build:data' first.`);
     }
 
-    const points: GrammarPoint[] = fs.readdirSync(POINTS_DIR)
+    const points: GrammarPoint[] = fs.readdirSync(POINTS_DIR).sort()
         .filter(f => f.endsWith('.json'))
         .map(f => JSON.parse(fs.readFileSync(path.join(POINTS_DIR, f), 'utf-8')));
     const inflectionPoints = points.filter(p => p.kind === 'inflection');
@@ -295,7 +294,7 @@ async function main() {
         console.log(`       ${key.padEnd(13)} ${byClass.get(key)?.length ?? 0}`);
     }
 
-    const output: Record<string, PointConjugations> = {};
+    const output: GrammarConjugations = {};
     const failures: string[] = [];
 
     for (const point of inflectionPoints) {
@@ -358,7 +357,7 @@ async function main() {
             failures.push(`${point.id} (${form}): only ${items.length} item(s), need ${MIN_ITEMS_PER_POINT}`);
         }
 
-        output[point.id] = { form, formLabel: FORM_LABELS[form], items };
+        output[point.id] = pointConjugations(point.id, form, items);
     }
 
     if (failures.length > 0) {
