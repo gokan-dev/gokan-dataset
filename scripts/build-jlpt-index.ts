@@ -15,8 +15,8 @@ import { learningIndexEntry, learningRank } from './build-common';
  * the two never drift.
  */
 
-const INPUT_VOCAB_DIR = './compiled/vocab';
-const OUTPUT_INDEX_DIR = './compiled/index';
+const INPUT_VOCAB_DIR = './build/assembled/vocab';
+const OUTPUT_INDEX_DIR = './build/assembled/index';
 
 async function main() {
     console.log('📖 Building JLPT index...');

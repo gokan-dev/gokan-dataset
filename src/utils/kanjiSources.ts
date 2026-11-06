@@ -3,6 +3,7 @@
 
 import type { Kanjidic2CharacterDTO } from '../models/data.model';
 import type { Kanji, KanjiRadical, KanjiSteps } from '../models/kanji.model';
+import type { LanguageTag } from '../models/text.model';
 
 /**
  * The learning orders KANJIDIC2 carries, by the reference type that holds each book's sequence.
@@ -88,9 +89,18 @@ export function isCompatibilityIdeograph(char: string): boolean {
     return (codePoint >= 0xf900 && codePoint <= 0xfaff) || (codePoint >= 0x2f800 && codePoint <= 0x2fa1f);
 }
 
-export type KanjidicFields = Pick<Kanji, 'meanings' | 'readings' | 'strokeCount' | 'grade' | 'radical' | 'newspaperFrequency'> & {
+export type KanjidicFields = Pick<Kanji, 'readings' | 'strokeCount' | 'grade' | 'radical' | 'newspaperFrequency'> & {
     steps: Pick<KanjiSteps, KanjidicOrder>;
+    /** Every language KANJIDIC2 gives meanings in, by lowercase BCP 47 tag, each in KANJIDIC2 order. */
+    meanings: Record<LanguageTag, string[]>;
 };
+
+/** KANJIDIC2's meanings grouped by language, in the order they come. */
+function meaningsByLanguage(meanings: { lang: string; value: string }[]): Record<LanguageTag, string[]> {
+    const byLanguage: Record<LanguageTag, string[]> = {};
+    for (const { lang, value } of meanings) (byLanguage[lang.toLowerCase()] ??= []).push(value);
+    return byLanguage;
+}
 
 /** What KANJIDIC2 says about one kanji, in the compiled shape. */
 export function kanjidicFields(entry: Kanjidic2CharacterDTO): KanjidicFields {
@@ -101,7 +111,7 @@ export function kanjidicFields(entry: Kanjidic2CharacterDTO): KanjidicFields {
     if (strokeCount === undefined) throw new Error(`KANJIDIC2 gives ${entry.literal} no stroke count`);
 
     return {
-        meanings: groups.flatMap(group => group.meanings.filter(m => m.lang === 'en').map(m => m.value)),
+        meanings: meaningsByLanguage(groups.flatMap(group => group.meanings)),
         readings: { on: readingsOf('ja_on'), kun: readingsOf('ja_kun'), nanori: entry.readingMeaning?.nanori ?? [] },
         strokeCount,
         ...(entry.misc.grade !== null ? { grade: entry.misc.grade } : {}),

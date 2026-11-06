@@ -1,0 +1,623 @@
+{
+  "$schema": "https://datapackage.org/profiles/2.0/datapackage.json",
+  "name": "gokan-dataset",
+  "title": "Gokan dataset: Japanese words, kanji, sentences, grammar and media, explained per language",
+  "homepage": "https://github.com/gokan-dev/gokan-dataset",
+  "licenses": [
+    {
+      "name": "CC-BY-SA-4.0",
+      "path": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "title": "Creative Commons Attribution-ShareAlike 4.0"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Gokan, hand-written text in this repository",
+      "path": "https://github.com/gokan-dev/gokan-dataset",
+      "gokan:id": "gokan",
+      "gokan:license": "CC-BY-SA-4.0",
+      "gokan:languages": [
+        "en",
+        "zh-hans"
+      ]
+    },
+    {
+      "title": "hanabira.org Japanese content, grammar points",
+      "path": "https://github.com/tristcoil/hanabira.org-japanese-content",
+      "gokan:id": "hanabira",
+      "gokan:license": "LicenseRef-hanabira",
+      "gokan:licenseNote": "Creative Commons, with a link back to hanabira.org",
+      "gokan:languages": [
+        "en"
+      ]
+    },
+    {
+      "title": "Japanese Wiktionary, Japanese entries' translation tables and Chinese entries (kaikki.org extraction, sections 日本語 and 中国語)",
+      "path": "https://kaikki.org/jawiktionary/",
+      "gokan:id": "jawiktionary",
+      "gokan:license": "CC-BY-SA-4.0",
+      "gokan:languages": [
+        "zh",
+        "zh-hans",
+        "zh-hant",
+        "nan"
+      ]
+    },
+    {
+      "title": "Jiten, per-episode anime vocabulary and speech statistics",
+      "path": "https://jiten.moe",
+      "gokan:id": "jiten",
+      "gokan:license": "CC-BY-SA-4.0",
+      "gokan:languages": [
+        "en"
+      ]
+    },
+    {
+      "title": "JMdict, English (jmdict-simplified 3.6.1)",
+      "path": "https://www.edrdg.org/jmdict/j_jmdict.html",
+      "gokan:id": "jmdict",
+      "gokan:license": "CC-BY-SA-4.0",
+      "gokan:languages": [
+        "en"
+      ]
+    },
+    {
+      "title": "KANJIDIC2, all languages (jmdict-simplified 3.6.2)",
+      "path": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project",
+      "gokan:id": "kanjidic2",
+      "gokan:license": "CC-BY-SA-4.0",
+      "gokan:languages": [
+        "en",
+        "fr",
+        "es",
+        "pt"
+      ]
+    },
+    {
+      "title": "Tatoeba, Japanese-English sentence pairs and Japanese indices",
+      "path": "https://tatoeba.org/en/downloads",
+      "gokan:id": "tatoeba",
+      "gokan:license": "LicenseRef-Tatoeba",
+      "gokan:licenseNote": "Per sentence, mostly CC BY 2.0 FR, some CC0: https://tatoeba.org/en/terms_of_use",
+      "gokan:languages": [
+        "en"
+      ]
+    },
+    {
+      "title": "Tatoeba, Japanese and Mandarin sentences, their links, and which sentence each was translated from",
+      "path": "https://tatoeba.org/en/downloads",
+      "gokan:id": "tatoeba-cmn",
+      "gokan:license": "LicenseRef-Tatoeba",
+      "gokan:licenseNote": "Per sentence, mostly CC BY 2.0 FR, some CC0: https://tatoeba.org/en/terms_of_use",
+      "gokan:languages": [
+        "zh",
+        "zh-hans",
+        "zh-hant"
+      ]
+    },
+    {
+      "title": "Unihan database (Unicode 18.0.0), variants and readings",
+      "path": "https://www.unicode.org/reports/tr38/",
+      "gokan:id": "unihan",
+      "gokan:license": "Unicode-3.0",
+      "gokan:languages": [
+        "zh-hans",
+        "zh-hant",
+        "zh-latn-pinyin"
+      ]
+    },
+    {
+      "title": "Wikidata, Japanese lexemes whose sense links a concept, and that concept's Chinese labels",
+      "path": "https://www.wikidata.org/wiki/Wikidata:Lexicographical_data",
+      "gokan:id": "wikidata",
+      "gokan:license": "CC0-1.0",
+      "gokan:languages": [
+        "zh",
+        "zh-hans",
+        "zh-hant"
+      ]
+    },
+    {
+      "title": "Wikipedia, the Chinese article a Japanese article links to (through Wikidata's sitelinks), for every JLPT word's headword",
+      "path": "https://www.wikidata.org/wiki/Help:Sitelinks",
+      "gokan:id": "wikipedia",
+      "gokan:license": "CC-BY-SA-4.0",
+      "gokan:languages": [
+        "zh",
+        "zh-hans",
+        "zh-hant"
+      ]
+    },
+    {
+      "title": "Chinese Wiktionary, Japanese entries (kaikki.org extraction, headers 日語 and 日语)",
+      "path": "https://kaikki.org/zhwiktionary/",
+      "gokan:id": "zhwiktionary",
+      "gokan:license": "CC-BY-SA-4.0",
+      "gokan:languages": [
+        "zh",
+        "zh-hans",
+        "zh-hant"
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "name": "grammar-conjugations",
+      "path": "grammar/conjugations.json",
+      "gokan:pathPattern": "grammar/conjugations.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "schema": "schemas/CompiledGrammarConjugations.schema.json",
+      "gokan:files": 1
+    },
+    {
+      "name": "grammar-index-aliases",
+      "path": "grammar/index/aliases.json",
+      "gokan:pathPattern": "grammar/index/aliases.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "schema": "schemas/CompiledGrammarAliases.schema.json",
+      "gokan:files": 1
+    },
+    {
+      "name": "grammar-index-browse",
+      "path": "grammar/index/browse.json",
+      "gokan:pathPattern": "grammar/index/browse.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "schema": "schemas/CompiledGrammarBrowse.schema.json",
+      "gokan:files": 1
+    },
+    {
+      "name": "grammar-index-contrasts",
+      "path": "grammar/index/contrasts.json",
+      "gokan:pathPattern": "grammar/index/contrasts.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "schema": "schemas/CompiledGrammarContrasts.schema.json",
+      "gokan:files": 1
+    },
+    {
+      "name": "grammar-index-families",
+      "path": "grammar/index/families.json",
+      "gokan:pathPattern": "grammar/index/families.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "schema": "schemas/CompiledGrammarFamilies.schema.json",
+      "gokan:files": 1
+    },
+    {
+      "name": "grammar-index-jlpt",
+      "path": "grammar/index/jlpt.json",
+      "gokan:pathPattern": "grammar/index/jlpt.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "schema": "schemas/CompiledGrammarJlpt.schema.json",
+      "gokan:files": 1
+    },
+    {
+      "name": "grammar-index-kinds",
+      "path": "grammar/index/kinds.json",
+      "gokan:pathPattern": "grammar/index/kinds.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "schema": "schemas/CompiledGrammarKinds.schema.json",
+      "gokan:files": 1
+    },
+    {
+      "name": "grammar-index-teaching-order",
+      "path": "grammar/index/teaching-order.json",
+      "gokan:pathPattern": "grammar/index/teaching-order.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "schema": "schemas/CompiledGrammarTeachingOrder.schema.json",
+      "gokan:files": 1
+    },
+    {
+      "name": "grammar-index-variant-groups",
+      "path": "grammar/index/variant-groups.json",
+      "gokan:pathPattern": "grammar/index/variant-groups.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "schema": "schemas/CompiledGrammarVariantGroups.schema.json",
+      "gokan:files": 1
+    },
+    {
+      "name": "grammar-mined-pointid",
+      "path": "grammar/mined/example.json",
+      "gokan:pathPattern": "grammar/mined/{pointId}.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "schema": "schemas/CompiledGrammarExamples.schema.json",
+      "gokan:files": 522
+    },
+    {
+      "name": "grammar-points-pointid",
+      "path": "grammar/points/example.json",
+      "gokan:pathPattern": "grammar/points/{pointId}.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "schema": "schemas/CompiledGrammarPoint.schema.json",
+      "gokan:files": 766
+    },
+    {
+      "name": "grammar-slots",
+      "path": "grammar/slots.json",
+      "gokan:pathPattern": "grammar/slots.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "schema": "schemas/CompiledGrammarSlots.schema.json",
+      "gokan:files": 1
+    },
+    {
+      "name": "index-audio",
+      "path": "index/audio.json",
+      "gokan:pathPattern": "index/audio.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "schema": "schemas/CompiledAudioIndex.schema.json",
+      "gokan:files": 1
+    },
+    {
+      "name": "index-frequency",
+      "path": "index/frequency.json",
+      "gokan:pathPattern": "index/frequency.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "schema": "schemas/CompiledFrequencyIndex.schema.json",
+      "gokan:files": 1
+    },
+    {
+      "name": "index-jlpt",
+      "path": "index/jlpt.json",
+      "gokan:pathPattern": "index/jlpt.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "schema": "schemas/CompiledJlptIndex.schema.json",
+      "gokan:files": 1
+    },
+    {
+      "name": "index-kanji-components",
+      "path": "index/kanji-components.json",
+      "gokan:pathPattern": "index/kanji-components.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "schema": "schemas/CompiledKanjiComponents.schema.json",
+      "gokan:files": 1
+    },
+    {
+      "name": "index-kanji-orders-order",
+      "path": "index/kanji-orders/example.json",
+      "gokan:pathPattern": "index/kanji-orders/{order}.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "schema": "schemas/CompiledKanjiOrder.schema.json",
+      "gokan:files": 11
+    },
+    {
+      "name": "index-kanji-vocab",
+      "path": "index/kanji-vocab.json",
+      "gokan:pathPattern": "index/kanji-vocab.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "schema": "schemas/CompiledKanjiVocabIndex.schema.json",
+      "gokan:files": 1
+    },
+    {
+      "name": "index-kklc-kanji",
+      "path": "index/kklc-kanji.json",
+      "gokan:pathPattern": "index/kklc-kanji.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "schema": "schemas/CompiledKklcKanjiIndex.schema.json",
+      "gokan:files": 1
+    },
+    {
+      "name": "index-kklc",
+      "path": "index/kklc.json",
+      "gokan:pathPattern": "index/kklc.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "schema": "schemas/CompiledKklcIndex.schema.json",
+      "gokan:files": 1
+    },
+    {
+      "name": "index-merged-map",
+      "path": "index/merged-map.json",
+      "gokan:pathPattern": "index/merged-map.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "schema": "schemas/CompiledMergedMap.schema.json",
+      "gokan:files": 1
+    },
+    {
+      "name": "index-search",
+      "path": "index/search.json",
+      "gokan:pathPattern": "index/search.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "schema": "schemas/CompiledSearchIndex.schema.json",
+      "gokan:files": 1
+    },
+    {
+      "name": "kanji",
+      "path": "kanji.json",
+      "gokan:pathPattern": "kanji.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "schema": "schemas/CompiledKanjiList.schema.json",
+      "gokan:files": 1
+    },
+    {
+      "name": "kanji-character",
+      "path": "kanji/example.json",
+      "gokan:pathPattern": "kanji/{character}.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "schema": "schemas/CompiledKanji.schema.json",
+      "gokan:files": 3128
+    },
+    {
+      "name": "media-index",
+      "path": "media/index.json",
+      "gokan:pathPattern": "media/index.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "schema": "schemas/CompiledMediaIndex.schema.json",
+      "gokan:files": 1
+    },
+    {
+      "name": "media-library",
+      "path": "media/library.json",
+      "gokan:pathPattern": "media/library.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "schema": "schemas/CompiledMediaLibrary.schema.json",
+      "gokan:files": 1
+    },
+    {
+      "name": "media-titleid",
+      "path": "media/example.json",
+      "gokan:pathPattern": "media/{titleId}.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "schema": "schemas/CompiledMediaTitle.schema.json",
+      "gokan:files": 104
+    },
+    {
+      "name": "sentences-wordid",
+      "path": "sentences/example.json",
+      "gokan:pathPattern": "sentences/{wordId}.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "schema": "schemas/CompiledSentences.schema.json",
+      "gokan:files": 31289
+    },
+    {
+      "name": "text-lang-grammar-conjugations",
+      "path": "text/example/grammar/conjugations.json",
+      "gokan:pathPattern": "text/{lang}/grammar/conjugations.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "schema": "schemas/CompiledTextFile.schema.json",
+      "gokan:files": 1,
+      "gokan:languages": [
+        "en"
+      ]
+    },
+    {
+      "name": "text-lang-grammar-index-browse",
+      "path": "text/example/grammar/index/browse.json",
+      "gokan:pathPattern": "text/{lang}/grammar/index/browse.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "schema": "schemas/CompiledGrammarBrowseTexts.schema.json",
+      "gokan:files": 1,
+      "gokan:languages": [
+        "en"
+      ]
+    },
+    {
+      "name": "text-lang-grammar-index-contrasts",
+      "path": "text/example/grammar/index/contrasts.json",
+      "gokan:pathPattern": "text/{lang}/grammar/index/contrasts.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "schema": "schemas/CompiledTextFile.schema.json",
+      "gokan:files": 1,
+      "gokan:languages": [
+        "en"
+      ]
+    },
+    {
+      "name": "text-lang-grammar-index-families",
+      "path": "text/example/grammar/index/families.json",
+      "gokan:pathPattern": "text/{lang}/grammar/index/families.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "schema": "schemas/CompiledTextFile.schema.json",
+      "gokan:files": 1,
+      "gokan:languages": [
+        "en"
+      ]
+    },
+    {
+      "name": "text-lang-grammar-index-teaching-order",
+      "path": "text/example/grammar/index/teaching-order.json",
+      "gokan:pathPattern": "text/{lang}/grammar/index/teaching-order.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "schema": "schemas/CompiledTextFile.schema.json",
+      "gokan:files": 1,
+      "gokan:languages": [
+        "en"
+      ]
+    },
+    {
+      "name": "text-lang-grammar-mined-pointid",
+      "path": "text/example/grammar/mined/example.json",
+      "gokan:pathPattern": "text/{lang}/grammar/mined/{pointId}.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "schema": "schemas/CompiledTextFile.schema.json",
+      "gokan:files": 823,
+      "gokan:languages": [
+        "en",
+        "zh-hans",
+        "zh-hant"
+      ]
+    },
+    {
+      "name": "text-lang-grammar-points-pointid",
+      "path": "text/example/grammar/points/example.json",
+      "gokan:pathPattern": "text/{lang}/grammar/points/{pointId}.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "schema": "schemas/CompiledTextFile.schema.json",
+      "gokan:files": 766,
+      "gokan:languages": [
+        "en"
+      ]
+    },
+    {
+      "name": "text-lang-grammar-slots",
+      "path": "text/example/grammar/slots.json",
+      "gokan:pathPattern": "text/{lang}/grammar/slots.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "schema": "schemas/CompiledTextFile.schema.json",
+      "gokan:files": 1,
+      "gokan:languages": [
+        "en"
+      ]
+    },
+    {
+      "name": "text-lang-index-entities",
+      "path": "text/example/index/entities.json",
+      "gokan:pathPattern": "text/{lang}/index/entities.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "schema": "schemas/CompiledEntitiesIndex.schema.json",
+      "gokan:files": 7,
+      "gokan:languages": [
+        "en",
+        "es",
+        "fr",
+        "nan",
+        "pt",
+        "zh-hans",
+        "zh-hant"
+      ]
+    },
+    {
+      "name": "text-lang-index-search",
+      "path": "text/example/index/search.json",
+      "gokan:pathPattern": "text/{lang}/index/search.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "schema": "schemas/CompiledSearchGlosses.schema.json",
+      "gokan:files": 3,
+      "gokan:languages": [
+        "en",
+        "zh-hans",
+        "zh-hant"
+      ]
+    },
+    {
+      "name": "text-lang-kanji",
+      "path": "text/example/kanji.json",
+      "gokan:pathPattern": "text/{lang}/kanji.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "schema": "schemas/CompiledTextFile.schema.json",
+      "gokan:files": 6,
+      "gokan:languages": [
+        "en",
+        "es",
+        "fr",
+        "pt",
+        "zh-hans",
+        "zh-hant"
+      ]
+    },
+    {
+      "name": "text-lang-kanji-character",
+      "path": "text/example/kanji/example.json",
+      "gokan:pathPattern": "text/{lang}/kanji/{character}.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "schema": "schemas/CompiledTextFile.schema.json",
+      "gokan:files": 15882,
+      "gokan:languages": [
+        "en",
+        "es",
+        "fr",
+        "pt",
+        "zh-hans",
+        "zh-hant"
+      ]
+    },
+    {
+      "name": "text-lang-media-index",
+      "path": "text/example/media/index.json",
+      "gokan:pathPattern": "text/{lang}/media/index.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "schema": "schemas/CompiledTextFile.schema.json",
+      "gokan:files": 1,
+      "gokan:languages": [
+        "en"
+      ]
+    },
+    {
+      "name": "text-lang-media-titleid",
+      "path": "text/example/media/example.json",
+      "gokan:pathPattern": "text/{lang}/media/{titleId}.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "schema": "schemas/CompiledTextFile.schema.json",
+      "gokan:files": 104,
+      "gokan:languages": [
+        "en"
+      ]
+    },
+    {
+      "name": "text-lang-sentences-wordid",
+      "path": "text/example/sentences/example.json",
+      "gokan:pathPattern": "text/{lang}/sentences/{wordId}.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "schema": "schemas/CompiledTextFile.schema.json",
+      "gokan:files": 39079,
+      "gokan:languages": [
+        "en",
+        "zh-hans",
+        "zh-hant"
+      ]
+    },
+    {
+      "name": "text-lang-vocab-wordid",
+      "path": "text/example/vocab/example.json",
+      "gokan:pathPattern": "text/{lang}/vocab/{wordId}.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "schema": "schemas/CompiledTextFile.schema.json",
+      "gokan:files": 67325,
+      "gokan:languages": [
+        "en",
+        "nan",
+        "zh-hans",
+        "zh-hant"
+      ]
+    },
+    {
+      "name": "vocab-wordid",
+      "path": "vocab/example.json",
+      "gokan:pathPattern": "vocab/{wordId}.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "schema": "schemas/CompiledVocab.schema.json",
+      "gokan:files": 35872
+    }
+  ]
+}

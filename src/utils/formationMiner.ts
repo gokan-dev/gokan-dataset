@@ -512,8 +512,12 @@ export function variantShape(variant: string): { groups: string[][]; leading: Sl
 /** Does this variant declare a て-form verb slot? (Verb-て form / Verb て-form / Verb-て形 / causative-て) */
 const hasTeForm = (variant: string) => /(?:て|de)\s*[-ー]?\s*(?:form|形)/i.test(variant) || /causative\s*form.*ください/i.test(variant);
 
-/** A title ending in ～ (～から、～ / A。しかし、～B。) declares a following clause the formation text often omits. */
-const titleRequiresTrailing = (title: string) => /[～〜][A-ZＡ-Ｚ]?[。.]?\s*$/.test(title.trim());
+/**
+ * A title ending in ～ (～から、～ / A。しかし、～B。) declares a following clause the formation text
+ * often omits. The clause may be named by a one-letter slot, as an upstream title writes it (～B)
+ * or as a core title does (～{b}, src/text/grammarSlots.ts).
+ */
+export const titleRequiresTrailing = (title: string) => /[～〜](?:[A-ZＡ-Ｚ]|\{[a-z]\})?[。.]?\s*$/.test(title.trim());
 
 /** Every combination of one form per group (にする / になる). */
 const combinations = (groups: string[][]): string[][] =>

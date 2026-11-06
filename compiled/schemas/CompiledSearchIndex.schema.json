@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string"
+      },
+      "w": {
+        "type": "string"
+      },
+      "r": {
+        "type": "string"
+      },
+      "u": {
+        "type": "boolean",
+        "const": true
+      }
+    },
+    "required": [
+      "id",
+      "w",
+      "r"
+    ],
+    "additionalProperties": false
+  },
+  "definitions": {},
+  "$id": "schemas/CompiledSearchIndex.schema.json"
+}

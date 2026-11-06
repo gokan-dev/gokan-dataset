@@ -1,0 +1,17 @@
+{
+  "id": "kanjidic2",
+  "name": "KANJIDIC2, all languages (jmdict-simplified 3.6.2)",
+  "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project",
+  "license": "CC-BY-SA-4.0",
+  "community": "edrdg",
+  "firstHand": "KANJIDIC2 contributors give each kanji's meanings in English, French, Spanish and Portuguese",
+  "languages": ["en", "fr", "es", "pt"],
+  "roles": ["label"],
+  "match": "id",
+  "snapshot": {
+    "date": "2026-10-05",
+    "files": {
+      "data/raw/kanji/kanjidic2-all-3.6.2.json": "sha256:f6e2c30f8994e9d9df65f45f028a3020cd1844b65a02e31badd0270b90f8d0be"
+    }
+  }
+}

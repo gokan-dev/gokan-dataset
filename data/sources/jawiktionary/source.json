@@ -1,0 +1,18 @@
+{
+  "id": "jawiktionary",
+  "name": "Japanese Wiktionary, Japanese entries' translation tables and Chinese entries (kaikki.org extraction, sections 日本語 and 中国語)",
+  "url": "https://kaikki.org/jawiktionary/",
+  "license": "CC-BY-SA-4.0",
+  "community": "ja.wiktionary",
+  "firstHand": "Japanese editors give a Japanese word's Chinese translations, and define Chinese words in Japanese (read backwards: 信 is defined as 手紙)",
+  "languages": ["zh", "zh-hans", "zh-hant", "nan"],
+  "roles": ["equivalent"],
+  "match": "spelling+reading",
+  "snapshot": {
+    "date": "2026-11-01",
+    "files": {
+      "data/sources/jawiktionary/kaikki-ja.jsonl.gz": "sha256:6249baf909422cde12e475a48fe6a6ce90098de95aa45691a10eb1ed9ea24e6e",
+      "data/sources/jawiktionary/kaikki-zh.jsonl.gz": "sha256:19953383f85f2e80c69bdca246b040857fae51cee167aa9e0098e8cb663c9173"
+    }
+  }
+}

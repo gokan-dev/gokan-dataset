@@ -1,0 +1,288 @@
+t2s map: 1469 characters
+
+Coverage (share of words; Wikipedia asked for JLPT words only)
+level      words  zh.wikt defin ja.wikt trans ja.wikt rever      Wikidata     Wikipedia   any source  def or 2+ equiv   2+ sources
+N5           664            71%           39%           73%           44%           28%          90%              81%          75%
+N4           616            67%           18%           73%           33%           26%          91%              78%          67%
+N3          1557            62%           15%           71%           30%           28%          89%              74%          64%
+N2          1674            55%           11%           56%           20%           23%          82%              64%          50%
+N1          2817            48%            6%           53%           15%           19%          76%              56%          41%
+no level   28544            23%            4%           21%            6%            0%          37%              25%          12%
+all        35872            30%            5%           29%            9%            5%          47%              33%          21%
+
+What each source adds: words it alone covers
+  zh.wikt definitions    N5-N3:   265   all:   4488
+  ja.wikt translations   N5-N3:    13   all:    179
+  ja.wikt reverse        N5-N3:   307   all:   3997
+  Wikidata               N5-N3:    31   all:    508
+  Wikipedia              N5-N3:    13   all:     73
+
+Agreement between sources (words both cover: share where they share an equivalent)
+  zh.wikt definitions    x ja.wikt translations     1350 words     80% agree
+  zh.wikt definitions    x ja.wikt reverse          5343 words     61% agree
+  zh.wikt definitions    x Wikidata                 2081 words     64% agree
+  zh.wikt definitions    x Wikipedia                1170 words     61% agree
+  zh.wikt definitions    x zh.wikt bot entries       131 words     53% agree
+  ja.wikt translations   x ja.wikt reverse          1436 words     84% agree
+  ja.wikt translations   x Wikidata                  653 words     79% agree
+  ja.wikt translations   x Wikipedia                 417 words     77% agree
+  ja.wikt translations   x zh.wikt bot entries       283 words     75% agree
+  ja.wikt reverse        x Wikidata                 2145 words     66% agree
+  ja.wikt reverse        x Wikipedia                1369 words     70% agree
+  ja.wikt reverse        x zh.wikt bot entries      2532 words     71% agree
+  Wikidata               x Wikipedia                1038 words     89% agree
+  Wikidata               x zh.wikt bot entries       509 words     61% agree
+  Wikipedia              x zh.wikt bot entries       276 words     62% agree
+
+zh.wikt definitions, checked against the equivalent sources
+  N5-N4-N3   1850 words: corroborated    64%, contradicted    22%, unchecked    14%
+  N2-N1      2267 words: corroborated    45%, contradicted    25%, unchecked    29%
+  no level   6643 words: corroborated    28%, contradicted    18%, unchecked    54%
+
+--- corroborated N5-N3 words (every 40th): the pair that agreed
+彼処 (あそこ) en there, over there: "那里" ~ "那里" (jaRev)
+頁 (ページ) en page: "页" ~ "页" (jaTrans)
+稲 (いね) en rice plant (Oryza sativa): "水稻" ~ "水稻" (wikidata)
+化学 (かがく) en chemistry: "化学" ~ "化学" (jaRev)
+灰皿 (はいざら) en ashtray: "烟灰缸" ~ "烟灰缸" (wikipedia)
+関係 (かんけい) en relation, relationship: "关系" ~ "关系" (jaRev)
+共通 (きょうつう) en common, shared: "共同" ~ "共同" (jaRev)
+計画 (けいかく) en plan, project: "计划" ~ "计划" (jaRev)
+個 (こ) en counter for (small) things or pieces: "个" ~ "个" (jaRev)
+高等学校 (こうとうがっこう) en senior high school, high school: "高级中学" ~ "高级中学" (jaTrans)
+雑誌 (ざっし) en magazine, journal: "杂志" ~ "杂志" (jaTrans)
+時間 (じかん) en time: "小时" ~ "小时" (jaTrans)
+秋 (あき) en autumn, fall: "秋天" ~ "秋天" (jaTrans)
+少ない (すくない) en few, little: "少的" ~ "少" (jaTrans)
+心配 (しんぱい) en worry, concern: "忧心忡忡" ~ "忧心" (jaRev)
+生物 (せいぶつ) en living thing, organism: "生物" ~ "生物" (wikipedia)
+走る (はしる) en to run: "跑" ~ "跑" (jaTrans)
+短い (みじかい) en short: "短的" ~ "短" (jaTrans)
+駐車場 (ちゅうしゃじょう) en parking lot, car park: "停车场" ~ "停车场" (jaTrans)
+刀 (かたな) en sword (esp. Japanese single-edged), katana: "刀" ~ "刀" (wikidata)
+猫 (ねこ) en cat (esp. the domestic cat, Felis catus): "猫" ~ "猫" (wikidata)
+批判 (ひはん) en criticism, judgement: "批评" ~ "批" (jaRev)
+複雑 (ふくざつ) en complex, complicated: "复杂的" ~ "复杂" (jaTrans)
+僕 (ぼく) en I, me: "下级官吏" ~ "下级" (jaRev)
+優しい (やさしい) en tender, kind: "温柔的" ~ "温柔" (jaRev)
+緑 (みどり) en green: "绿色" ~ "绿色" (jaTrans)
+今日 (きょう) en today, this day: "今天" ~ "今天" (jaTrans)
+選ぶ (えらぶ) en to choose, to select: "挑" ~ "挑" (jaRev)
+出会う (であう) en to meet (by chance), to come across: "碰到" ~ "碰" (jaRev)
+如何か (どうか) en please, if you would: "请" ~ "请" (jaTrans)
+
+--- contradicted N5-N3 words (every 12th)
+居らっしゃる (いらっしゃる) N4: en to come, to go | to be (doing)
+   zh.wikt definitions    去，到；行く (iku) 的尊敬語 | 來，到；来る (kuru) 的尊敬語 | 在，存在，有；居る (iru) 的尊敬語 | 在；……著；是；「…（て）いる」、「…（で）ある」 的尊敬語，用於表示動
+   ja.wikt reverse        賁臨 | 贲临
+如何 (どう) N5: en how, in what way
+   zh.wikt definitions    如何，怎样。
+   ja.wikt reverse        点 | 點 | 怎么着 | 怎麼著
+為 (ため) N4: en good, advantage | sake, purpose
+   zh.wikt definitions    做 | 導致，成為 | 原因，理由。 | 为了…而…。
+   Wikidata               優點
+衛星 (えいせい) N3: en (natural) satellite, moon | (artificial) satellite
+   zh.wikt definitions    環繞行星周圍運行的天體
+   ja.wikt reverse        衛星 | 卫星
+   Wikipedia              衛星
+解決 (かいけつ) N3: en settlement, solution
+   zh.wikt definitions    疏解，處理清楚 | 音樂從不穩定（緊張）狀態進行到穩定狀態的過程
+   ja.wikt reverse        解決 | 解决
+   Wikipedia              解决
+感覚 (かんかく) N3: en sense, sensation
+   zh.wikt definitions    感知事物的能力 | 內心的感受
+   ja.wikt reverse        感觉 | 感覺 | 味道 | 知觉
+   Wikidata               感官
+   Wikipedia              感官
+幾ら (いくら) N5: en how much | something over, and something
+   zh.wikt definitions    见幾ら。
+   ja.wikt reverse        几何 | 幾何 | 多少钱 | 幾分
+去る (さる) N3: en to leave, to go away | to pass, to elapse
+   zh.wikt definitions    離開 | （時間）過去 | （時間、空間）距，距離 | 消失
+   ja.wikt reverse        来去 | 來去
+経由 (けいゆ) N3: en going through, going via
+   zh.wikt definitions    经由，途径。
+   ja.wikt reverse        由 | 路过 | 路過 | 行经
+現代 (げんだい) N3: en present age, present day | modern era, modern times
+   zh.wikt definitions    當下所處的時代
+   ja.wikt reverse        现代 | 現代 | 当代 | 當代
+講堂 (こうどう) N4: en auditorium, lecture hall
+   zh.wikt definitions    講解儒家經典或佛經的廳堂 | 演講廳
+   ja.wikt reverse        礼堂 | 禮堂
+作品 (さくひん) N3: en work (e.g. book, film, painting, composition), piece
+   zh.wikt definitions    文學藝術方面創作的成品
+   ja.wikt reverse        作品
+   Wikidata               作品
+試す (ためす) N3: en to try (out), to have a try (at)
+   zh.wikt definitions    嘗試，試驗
+   ja.wikt reverse        撞
+取る (とる) N5: en to take, to pick up | to pass, to hand
+   zh.wikt definitions    握、牽 | 捕獲 | 撿 | 了解到、注意到
+   ja.wikt reverse        𱬶
+出席 (しゅっせき) N4: en attendance, presence
+   zh.wikt definitions    到場參加
+   ja.wikt reverse        出席 | 出勤
+食料品 (しょくりょうひん) N4: en foodstuff, groceries
+   zh.wikt definitions    食品，雜貨
+   Wikidata               食物
+是非 (ぜひ) N4: en certainly, without fail | right and wrong, pros and cons
+   zh.wikt definitions    是非，好坏。
+   ja.wikt reverse        短長 | 短长
+青年 (せいねん) N3: en youth, young man
+   zh.wikt definitions    年輕人
+   ja.wikt reverse        子弟 | 後生 | 后生
+   Wikipedia              青年
+全員 (ぜんいん) N3: en all members, all hands
+   zh.wikt definitions    全體人員
+   ja.wikt reverse        個個 | 个个 | 每人
+騒ぐ (さわぐ) N4: en to make noise, to make racket | to rustle, to swoosh
+   zh.wikt definitions    騒ぐ： | ; 发出喧闹的声音 | ; 心情变得紧张兴奋 | 发出喧闹的声音
+   ja.wikt reverse        哄 | 鬨 | 吵闹 | 吵鬧
+大半 (たいはん) N3: en majority, more than half | mostly, largely
+   zh.wikt definitions    大部分，超過一半
+   ja.wikt reverse        太半 | 多半
+調べる (しらべる) N4: en to examine, to look up
+   zh.wikt definitions    調查，研究，查找 | 檢查，審查
+   ja.wikt reverse        驗 | 查阅 | 查閱
+当てる (あてる) N3: en to hit | to expose
+   zh.wikt definitions    碰，撞，打，投，击 | 中，命中，击中，对，对准 | 猜(中)，推测 | 贴，加，放，补，量，垫
+   ja.wikt reverse        熨
+如何しても (どうしても) N3: en by all means, at any cost | whether (one is) willing or not, willingly or unwillingly
+   zh.wikt definitions    [下接否定]怎么也。 | 一定，务必。
+   ja.wikt reverse        偏偏 | 死活
+不安 (ふあん) N3: en anxiety, uneasiness
+   zh.wikt definitions    不安 | 不安，担心。
+   Wikipedia              焦慮
+平等 (びょうどう) N3: en equality, impartiality
+   zh.wikt definitions    均等，相等 | 公平，公正
+   ja.wikt reverse        平等
+又 (また) N5: en again, once more | also, too
+   zh.wikt definitions    而且，此外 | 再，再次 | 同时，也 | 间接的
+   ja.wikt reverse        整数 | 整數 | 久闊 | 加油
+   Wikidata               和
+役 (やく) N3: en role, assignment | position (of responsibility), post
+   zh.wikt definitions    职责，使命 | 役，能够得分的牌组合 | 扮演...的人，行使...职责的人 | 战斗，战役
+   ja.wikt translations   角色 | 角
+   ja.wikt reverse        角 | 角色
+立場 (たちば) N3: en position, situation | viewpoint, standpoint
+   zh.wikt definitions    觀點，態度；處境
+   ja.wikt reverse        立场 | 旗帜 | 旗幟 | 田地
+居る (おる) N3: en to be (animate), to be | to be ...-ing
+   zh.wikt definitions    有；存在 | 正在（表示持續或進行；-ておる (-te oru)常縮略作とる (-toru)） | 正在（表示持續，常作よる (yoru)）
+   ja.wikt reverse        在
+空く (すく) N4: en to become less crowded, to thin out | to be hungry
+   zh.wikt definitions    空曠，稀疏，人的數量少 | 空腹 | 順暢，通暢，舒暢，阻礙消失 | 有空，有閒，有餘暇
+   ja.wikt translations   喜欢 | 喜歡
+精々 (せいぜい) N3: en at the most, at best | to the utmost, as much as possible
+   zh.wikt definitions    尽量 | 最多，充其量
+   ja.wikt reverse        至多 | 大不了
+乗り換える (のりかえる) N4: en to transfer (trains), to change (bus, train) | to change (to another ideology, party, company, etc.), to switch (to a different system, method, etc.)
+   zh.wikt definitions    換乘，轉乘，倒車 | 改變；跳槽
+   ja.wikt reverse        转车 | 轉車
+集まり (あつまり) N3: en gathering, meeting
+   zh.wikt definitions    聚集 | 集會 | 收集
+   ja.wikt reverse        晚会 | 晚會
+
+Wikipedia: article titles matched exactly through Wikidata sitelinks, no redirects followed (0 via redirect)
+
+--- probes
+手紙 (てがみ) N5: en letter
+   zh.wikt definitions    信，信件 | 箋
+   ja.wikt translations   信 | 函件
+   ja.wikt reverse        信 | 批 | 疊 | 叠
+   Wikidata               書信 | 书信
+   Wikipedia              书信
+勉強 (べんきょう) N5: en study | diligence | experience
+   zh.wikt definitions    學習，用功
+   ja.wikt translations   学习
+   ja.wikt reverse        学习 | 學習 | 读书 | 讀書
+   Wikidata               勤勉 | 勤奋 | 回扣
+先生 (せんせい) N5: en teacher | sensei | intimate or teasing form of address
+   ja.wikt translations   老師 | 老师
+   ja.wikt reverse        先生
+   Wikidata               教師 | 教师
+   Wikipedia              先生
+本 (ほん) N5: en book | this | main
+   zh.wikt definitions    書，書籍。 | 支，根。（細長之物的計算單位）
+   ja.wikt translations   書 | 书
+   ja.wikt reverse        書 | 冊 | 册 | 书
+   Wikidata               图书 | 書籍 | 圖書
+   Wikipedia              图书
+即ち (すなわち) N3: en that is (to say) | precisely | (and) then
+   zh.wikt definitions    立即 | 已經 | 即，就是 | 表明結果的事實是根據前件的事實自然成立的
+   ja.wikt reverse        零点 | 零點
+一月 (ひとつき) N5: en one month
+   zh.wikt definitions    陰曆一月 | 一個月份 | 滿月
+   ja.wikt reverse        一月
+上手 (じょうず) N5: en skillful | flattery | upper part
+橋 (はし) N5: en bridge | pons
+   ja.wikt translations   橋 | 桥
+   ja.wikt reverse        桥 | 蝃蝀 | 螮蝀
+   Wikidata               橋 | 桥
+   Wikipedia              橋
+紙 (かみ) N5: en paper | newspaper | paper
+   ja.wikt reverse        纸张 | 紙張 | 四友
+   Wikidata               報紙 | 报纸 | 紙 | 纸
+   Wikipedia              纸
+箱 (はこ) N5: en box | car (of a train, etc.) | shamisen case
+   ja.wikt reverse        箱子
+   Wikidata               盒子
+   Wikipedia              盒
+少し (すこし) N5: en a little | a little while | a little way
+   zh.wikt definitions    稍微，一点。
+   ja.wikt reverse        少 | 稍 | 有些 | 有点儿
+宿題 (しゅくだい) N5: en homework | pending issue
+   zh.wikt definitions    作業
+   ja.wikt translations   作业
+   ja.wikt reverse        作業 | 作业 | 功课 | 功課
+   Wikidata               作业 | 功課
+   Wikipedia              功課
+汽車 (きしゃ) N4: en train (esp. a long-distance train) | steam train
+   zh.wikt definitions    火車
+   ja.wikt reverse        火车 | 火車
+   Wikidata               铁路列车 | 鐵路列車
+娘 (むすめ) N4: en daughter | girl (i.e. a young, unmarried woman)
+   zh.wikt definitions    女儿
+   ja.wikt reverse        女儿 | 女兒 | 闺女 | 閨女
+   Wikidata               女兒 | 女儿
+   Wikipedia              女兒
+大丈夫 (だいじょうぶ) N5: en safe | certainly | no thanks
+   zh.wikt definitions    大丈夫，男子汉 | 没事的，没有大碍的，安然无恙的 | 没事的，还能用的 | 正确的，肯定的
+   ja.wikt reverse        没关系 | 没问题 | 沒問題 | 差不多
+新聞 (しんぶん) N5: en newspaper
+   zh.wikt definitions    新聞，消息 | 報紙
+   ja.wikt translations   报纸
+   ja.wikt reverse        新聞 | 报纸 | 報紙 | 報
+   Wikidata               報紙 | 报纸
+   Wikipedia              報紙
+走る (はしる) N5: en to run | to run (of a vehicle) | to rush (to)
+   zh.wikt definitions    跑 | 順地移動；滑 | 逃跑、逃離 | 匆忙
+   ja.wikt translations   跑 | 奔跑
+   ja.wikt reverse        跑 | 跑步 | 行驶 | 行駛
+   Wikipedia              跑步
+飲む (のむ) N5: en to drink | to smoke (tobacco) | to swallow up
+   zh.wikt definitions    喝，饮 | 吸煙 | 饮泣吞声，忍耐 | 服藥，吃藥
+   ja.wikt translations   喝 | 飲/饮 | 啉 | 吃药
+   ja.wikt reverse        喝
+   Wikidata               吞嚥
+   Wikipedia              飲
+学生 (がくせい) N5: en student (esp. a university student) | Heian-period student of government administration | Buddhist scholar
+   zh.wikt definitions    學生（通常指大學生，有時指高中生）
+   ja.wikt reverse        生徒 | 學生 | 学生
+   Wikipedia              学生
+醤油 (しょうゆ) N5: en soy sauce
+   zh.wikt definitions    醬油 | 醤油
+   ja.wikt translations   醬油 | 酱油
+   ja.wikt reverse        酱油 | 豆油 | 醬油
+   Wikidata               酱油 | 醬油
+   Wikipedia              酱油
+愛人 (あいじん) no level: en lover
+   zh.wikt definitions    情夫，情婦，小三；法定配偶以外的第三者 | 情人，戀人
+   ja.wikt translations   戀人 | 恋人 | 情人 | 愛人
+   ja.wikt reverse        第三者 | 小三 | 相好
+   Wikidata               情婦 | 情妇
+丈夫 (じょうぶ) N5: en healthy | hero
+   zh.wikt definitions    健康的 | 坚固的，结实的 | 优秀的男性 | 健康，健壯
+   Wikipedia              丈夫
+
+review sheet: 300 words

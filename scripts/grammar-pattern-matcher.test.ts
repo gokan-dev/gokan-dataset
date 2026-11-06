@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { locatePattern, markerAlternates } from './grammar-pattern-matcher';
+import { locatePattern, markerAlternates, repeatedTitleLiterals } from './grammar-pattern-matcher';
 import type { GrammarExampleWord } from '../src/models/grammar.model';
 
 function w(surface: string, baseForm?: string, reading?: string): GrammarExampleWord {
@@ -303,5 +303,14 @@ describe('conjugated markers (gokan-dev/gokan-dataset#25)', () => {
     it('takes the first conjugated form offered, so the blank stays tight', () => {
         const words = [w('宿題'), w('を'), w('さ', 'する'), w('せ', 'せる'), w('まし', 'ます'), w('た'), w('。')];
         expect(locatePattern('Verb + させる', words, '', inflect)).toEqual([2, 3]);
+    });
+});
+
+describe('repeatedTitleLiterals', () => {
+    it('reads a core title, with slot codes, exactly as the upstream title it came from', () => {
+        expect([...repeatedTitleLiterals('{a} にしろ {b} にしろ')]).toEqual(['にしろ']);
+        expect(repeatedTitleLiterals('{a} にしろ {b} にしろ')).toEqual(repeatedTitleLiterals('A にしろ B にしろ'));
+        expect([...repeatedTitleLiterals('文{a}。それで 文{b}')]).toEqual(['文']);
+        expect([...repeatedTitleLiterals('{noun1} が {noun1} なら、 {noun2} も {noun2} だ')]).toEqual([]);
     });
 });

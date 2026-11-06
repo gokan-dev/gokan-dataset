@@ -4,6 +4,7 @@ import {
     blankOpensClause,
     compileFormation,
     emptyMarkerLexicon,
+    titleRequiresTrailing,
     findMatch,
     fitsMarkerLexicon,
     isExampleSized,
@@ -438,5 +439,21 @@ describe('post-location checks', () => {
         expect(isExampleSized('彼は疲れていた。しかし、宿題を終わらせた。')).toBe(true);
         expect(isExampleSized('一。二。三。')).toBe(false);
         expect(isExampleSized('あ'.repeat(61))).toBe(false);
+    });
+});
+
+describe('titleRequiresTrailing', () => {
+    it('reads a trailing clause in a core title, named by a one-letter slot code, as in the upstream title', () => {
+        expect(titleRequiresTrailing('{a}。しかし、～{b}。')).toBe(true);
+        expect(titleRequiresTrailing('A。しかし、～B。')).toBe(true);
+        expect(titleRequiresTrailing('～から、～')).toBe(true);
+        // A word slot after ～ never declared a clause: "～Noun" did not, and nor does "～{noun}".
+        expect(titleRequiresTrailing('～と言わんばかりの～Noun')).toBe(false);
+        expect(titleRequiresTrailing('～と言わんばかりの～{noun}')).toBe(false);
+    });
+
+    it('compiles the same rules from a core title as from its upstream title', () => {
+        expect(compileFormation('Sentence A + しかし + Sentence B.', '{a}。しかし、～{b}。'))
+            .toEqual(compileFormation('Sentence A + しかし + Sentence B.', 'A。しかし、～B。'));
     });
 });

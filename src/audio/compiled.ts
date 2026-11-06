@@ -4,7 +4,7 @@ import type { GrammarExample, GrammarPoint } from '../models/grammar.model';
 import type { Sentence } from '../models/sentence.model';
 import type { Vocabulary } from '../models/vocabulary.model';
 
-export const COMPILED_DIR = './compiled';
+export const COMPILED_DIR = './build/assembled';
 export const VOCAB_DIR = path.join(COMPILED_DIR, 'vocab');
 export const SENTENCES_DIR = path.join(COMPILED_DIR, 'sentences');
 export const GRAMMAR_POINTS_DIR = path.join(COMPILED_DIR, 'grammar', 'points');

@@ -1,3 +1,4 @@
+import { labelsOf } from '../src/text/renderings';
 import { describe, it, expect, beforeAll } from 'vitest';
 import kuromoji from 'kuromoji';
 import { buildTitleReader, buildVocabResolver, compileTitle, resolveWords, seriesWords, toIndexEntry } from './build-media';
@@ -11,8 +12,8 @@ const resolver = buildVocabResolver([
     {
         id: '1000420', // あの, with かの merged into it
         mergedVocabs: [
-            { id: '1000420', isBase: true, originalPrimaryReading: 'あの', originalGlosses: [] },
-            { id: '2845746', isBase: false, originalPrimaryReading: 'かの', originalGlosses: [] },
+            { id: '1000420', isBase: true, originalPrimaryReading: 'あの' },
+            { id: '2845746', isBase: false, originalPrimaryReading: 'かの' },
         ],
     },
 ]);
@@ -142,14 +143,16 @@ describe('genres, tags and series words', () => {
                 { name: 'B', percentage: 65 }, { name: 'C', percentage: 61 }, { name: 'D', percentage: 60 }, { name: 'Weak', percentage: 40 },
             ],
         }), resolver, readTitle);
-        expect(title.genres).toEqual(['Comedy', 'Slice of Life']);
-        expect(title.tags).toEqual(['Countryside', 'School', 'A', 'B', 'C']);
+        expect(title.genreIds).toEqual([3, 14]);
+        expect(labelsOf(title.text, 'en', { field: 'genre' })).toEqual(['Comedy', 'Slice of Life']);
+        expect(labelsOf(title.text, 'en', { field: 'tag' })).toEqual(['Countryside', 'School', 'A', 'B', 'C']);
     });
 
     it('treats a snapshot taken before genres were recorded as having none', () => {
         const title = compileTitle(snapshot(), resolver, readTitle);
-        expect(title.genres).toEqual([]);
-        expect(title.tags).toEqual([]);
+        expect(title.genreIds).toEqual([]);
+        expect(labelsOf(title.text, 'en', { field: 'genre' })).toEqual([]);
+        expect(labelsOf(title.text, 'en', { field: 'tag' })).toEqual([]);
     });
 
     it('sums each word across every episode for the series list', () => {

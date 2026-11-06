@@ -1,3 +1,5 @@
+import { jmdictSenses } from '../src/text/jmdict';
+import { translationsOf } from '../src/text/renderings';
 import fs from 'fs';
 import path from 'path';
 import { AUDIO_FORMATS, DEFAULT_PARAMS, sha256Hex, type AudioFormat } from '../src/audio/config';
@@ -73,7 +75,7 @@ function pickSentences(vocab: Vocabulary[], sentencesByVocab: Map<string, Senten
             if (!top || seen.has(top.id)) continue;
             seen.add(top.id);
             const item = sentenceItem(top);
-            picked.push({ item, kind: 'sentence', label: top.original, reading: '', english: top.en[0]?.text ?? '', level });
+            picked.push({ item, kind: 'sentence', label: top.original, reading: '', english: translationsOf(top.text, 'en')[0]?.text ?? '', level });
             count++;
             if (count >= perLevel) break;
         }
@@ -93,7 +95,7 @@ function pickWords(vocab: Vocabulary[], count: number): SampleItem[] {
         kind: 'word' as const,
         label: v.writtenForm.kanji || v.reading.primary,
         reading: v.reading.primary,
-        english: v.senses[0]?.glosses.slice(0, 3).join(', ') ?? '',
+        english: jmdictSenses(v.text)[0]?.glosses.slice(0, 3).join(', ') ?? '',
         level: v.jlptLevel,
     }));
 }
@@ -149,7 +151,7 @@ async function main(): Promise<void> {
     }
     const sentenceTexts = new Set([...data.sentencesByVocab.values()].flat().map(s => s.original));
     const grammar = byHash(data.grammarExamples.filter(e => !sentenceTexts.has(e.jp)), e => e.jp).slice(0, Number(arg('grammar') ?? 5))
-        .map(e => ({ item: grammarItem(e), kind: 'grammar' as const, label: e.jp, reading: '', english: e.en }));
+        .map(e => ({ item: grammarItem(e), kind: 'grammar' as const, label: e.jp, reading: '', english: translationsOf(e.text, 'en')[0]?.text ?? '' }));
     const items: SampleItem[] = [
         ...pickSentences(data.vocab, data.sentencesByVocab, Number(arg('per-level') ?? 6)),
         ...grammar,

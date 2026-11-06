@@ -80,6 +80,8 @@ src/models/               TypeScript types mirroring the compiled shape
 
 [docs/SCHEMA.md](docs/SCHEMA.md) documents every file and field.
 
+[docs/MULTILINGUAL.md](docs/MULTILINGUAL.md) is the design, not yet built, for explaining Japanese in languages beyond English, Chinese first: one mechanism for every entity, first-hand sources only, and the benchmark behind the choice of sources.
+
 [docs/JLPT_COVERAGE.md](docs/JLPT_COVERAGE.md) shows where every JLPT level comes from (id list, deck fill, hand-set, derived), every hand correction, and the JLPT entries no compiled word answers, grouped by why. Regenerated on every `bun run build:data`.
 
 For the grammar half specifically, three docs answer different questions:

@@ -16,12 +16,12 @@ describe('buildExampleWords (sentence-matching upgrade)', () => {
     let sentenceTokenizer: SentenceTokenizer;
 
     const searchIndex: SearchIndex = [
-        { id: 'v-hayai', w: '早い', r: 'はやい', m: 'early, fast' },
-        { id: 'v-kayou', w: '通う', r: 'かよう', m: 'to commute' },
-        { id: 'v-warau', w: '笑う', r: 'わらう', m: 'to laugh' },
-        { id: 'v-yomu', w: '読む', r: 'よむ', m: 'to read' },
+        { id: 'v-hayai', w: '早い', r: 'はやい' },
+        { id: 'v-kayou', w: '通う', r: 'かよう' },
+        { id: 'v-warau', w: '笑う', r: 'わらう' },
+        { id: 'v-yomu', w: '読む', r: 'よむ' },
         // A particle-like JMDict entry, to exercise the content-POS rejection guard.
-        { id: 'v-wa', w: 'は', r: 'は', m: 'topic marker' },
+        { id: 'v-wa', w: 'は', r: 'は' },
     ];
 
     beforeAll(async () => {
@@ -114,20 +114,20 @@ describe('vocab linking precision (the あり -> 蟻 bug)', () => {
      * linked to the あり in あります.
      */
     const searchIndex: SearchIndex = [
-        { id: 'v-ari-ant', w: '蟻', r: 'あり', m: 'ant' },
-        { id: 'v-aru', w: '有る', r: 'ある', m: 'to be, to exist' },
-        { id: 'v-aru2', w: '或', r: 'ある', m: 'a certain, some' },
-        { id: 'v-naku-cry', w: '泣く', r: 'なく', m: 'to cry' },
-        { id: 'v-shi-death', w: '死', r: 'し', m: 'death' },
-        { id: 'v-suru-rub', w: '擦る', r: 'する', m: 'to rub' },
-        { id: 'v-eki', w: '駅', r: 'えき', m: 'station' },
+        { id: 'v-ari-ant', w: '蟻', r: 'あり' },
+        { id: 'v-aru', w: '有る', r: 'ある' },
+        { id: 'v-aru2', w: '或', r: 'ある' },
+        { id: 'v-naku-cry', w: '泣く', r: 'なく' },
+        { id: 'v-shi-death', w: '死', r: 'し' },
+        { id: 'v-suru-rub', w: '擦る', r: 'する' },
+        { id: 'v-eki', w: '駅', r: 'えき' },
         // An uninflected kana word stored under a kanji written form - the case
         // the reading fallback legitimately exists for.
-        { id: 'v-itsumo', w: '何時も', r: 'いつも', m: 'always' },
+        { id: 'v-itsumo', w: '何時も', r: 'いつも' },
         // 殺気 "bloodlust" is the ONLY claimant of the reading さっき, so the
         // ambiguity guard cannot stop it - and さっき "a moment ago" is simply
         // absent from the index. See gokan-dev/gokan-dataset#22.
-        { id: 'v-sakki-bloodlust', w: '殺気', r: 'さっき', m: 'thirst for blood, bloodlust' },
+        { id: 'v-sakki-bloodlust', w: '殺気', r: 'さっき' },
     ];
 
     /**
@@ -208,13 +208,13 @@ describe('conjugated stems link to their verb, not a homograph', () => {
     // 来 "next" (as in 来年) and 教え "teaching" are real entries spelled exactly
     // like the stems of 来る and 教える.
     const searchIndex: SearchIndex = [
-        { id: 'v-rai', w: '来', r: 'らい', m: 'next' },
-        { id: 'v-kuru', w: '来る', r: 'くる', m: 'to come' },
-        { id: 'v-oshie', w: '教え', r: 'おしえ', m: 'teaching' },
-        { id: 'v-oshieru', w: '教える', r: 'おしえる', m: 'to teach' },
-        { id: 'v-miru', w: '見る', r: 'みる', m: 'to see' },
-        { id: 'v-eiga', w: '映画', r: 'えいが', m: 'movie' },
-        { id: 'v-iu', w: '言う', r: 'いう', m: 'to say' },
+        { id: 'v-rai', w: '来', r: 'らい' },
+        { id: 'v-kuru', w: '来る', r: 'くる' },
+        { id: 'v-oshie', w: '教え', r: 'おしえ' },
+        { id: 'v-oshieru', w: '教える', r: 'おしえる' },
+        { id: 'v-miru', w: '見る', r: 'みる' },
+        { id: 'v-eiga', w: '映画', r: 'えいが' },
+        { id: 'v-iu', w: '言う', r: 'いう' },
     ];
 
     function build(jp: string, formation: string) {

@@ -1,4 +1,5 @@
 import type { AudioRef } from './audio.model';
+import type { TextByLanguage } from './text.model';
 
 export interface Vocabulary {
     /** JMdict word ID (lexeme-level, stable) */
@@ -47,11 +48,20 @@ export interface Vocabulary {
     /** IDs of other vocabularies this word is a component of */
     parents?: string[];
 
-    /** Linguistic senses (kept separate, structured) */
-    senses: Sense[];
+    /** Its parts of speech: the union of its JMdict senses', in the order they first name them. */
+    pos: string[];
+
+    /**
+     * Its explanation-language text, by language: each JMdict entry it holds (itself, and the
+     * homographs merged into it) as one definition, and its near-synonyms. See src/text/jmdict.ts.
+     */
+    text: TextByLanguage;
 
     /** Derived helpers for card generation (optional but useful) */
     usageHints?: UsageHints;
+
+    /** JMdict marks its headword spelling as common (a news or frequency list has it). */
+    isCommon: boolean;
 
     /** If this entry is a unified merged entry from multiple homographs sharing the exact kanji form */
     mergedVocabs?: MergedVocabInfo[];
@@ -74,8 +84,6 @@ export interface MergedVocabInfo {
     isBase: boolean;
     /** The original primary reading for this specific word */
     originalPrimaryReading: string;
-    /** A quick summary of what this specific reading meant (e.g. its main glosses) */
-    originalGlosses: string[];
 }
 
 export interface Sense {

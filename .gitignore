@@ -6,3 +6,6 @@ node_modules
 data/audio/.sample/
 data/audio/.build/
 data/audio/.stage/
+# The dataset as the build assembles it, before build:layout splits it into compiled/
+# (docs/MULTILINGUAL.md, "Compiled output").
+build/

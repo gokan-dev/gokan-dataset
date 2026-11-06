@@ -136,9 +136,12 @@ function variantsOf(formation: string): string[] {
 
 /**
  * The Japanese literals a title states more than once - see doc comment point 6.
- * Scaffolding like A / B / 〜 is not Japanese so it never lands here, but 文
- * ("sentence A ... sentence B") does, which is why callers must also check that
- * the literal they are matching is related to it.
+ * Scaffolding like 〜 and the slot codes of a core title ({a}, {noun}: see
+ * src/text/grammarSlots.ts) is not Japanese so it never lands here, and nor do
+ * the English slot words of an upstream title, but 文 ("sentence A ... sentence
+ * B") does, which is why callers must also check that the literal they are
+ * matching is related to it. A core title and the upstream title it came from
+ * give the same set for every point.
  */
 export function repeatedTitleLiterals(title: string): Set<string> {
     const counts = new Map<string, number>();

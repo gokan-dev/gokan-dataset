@@ -1,7 +1,16 @@
 import { describe, it, expect, beforeAll } from 'vitest';
 import fs from 'fs';
 import path from 'path';
-import type { GrammarContrastIndex, GrammarPoint, GrammarTeachingOrder } from '../src/models/grammar.model';
+import type { GrammarChapter, GrammarContrastIndex, GrammarPoint, GrammarTeachingOrder } from '../src/models/grammar.model';
+import type { TextByLanguage } from '../src/models/text.model';
+import { labelsOf, proseOf, valueText } from '../src/text/renderings';
+
+/** The English the app reads: a chapter's title, a point's labels and prose. */
+const chapterTitle = (chapter: GrammarChapter): string | undefined => labelsOf(chapter.text, 'en', { field: 'title' })[0];
+const derivesOf = (point: GrammarPoint): string | undefined => labelsOf(point.text, 'en', { field: 'derives' })[0];
+/** Every text value an entity carries, in every language. */
+const textValues = (text: TextByLanguage): string[] =>
+    Object.values(text).flatMap(t => t.renderings.flatMap(r => ('value' in r ? [valueText(r.value)] : [])));
 
 /**
  * Invariant tests over the COMPILED curriculum output, rather than unit tests of
@@ -13,10 +22,10 @@ import type { GrammarContrastIndex, GrammarPoint, GrammarTeachingOrder } from '.
  * Skips itself when compiled/grammar is absent, so a fresh clone that hasn't run
  * `bun run build:grammar` yet doesn't fail the suite.
  */
-const POINTS_DIR = './compiled/grammar/points';
-const ORDER_PATH = './compiled/grammar/index/teaching-order.json';
-const ALIASES_PATH = './compiled/grammar/index/aliases.json';
-const CONTRASTS_PATH = './compiled/grammar/index/contrasts.json';
+const POINTS_DIR = './build/assembled/grammar/points';
+const ORDER_PATH = './build/assembled/grammar/index/teaching-order.json';
+const ALIASES_PATH = './build/assembled/grammar/index/aliases.json';
+const CONTRASTS_PATH = './build/assembled/grammar/index/contrasts.json';
 const built = fs.existsSync(ORDER_PATH) && fs.existsSync(POINTS_DIR);
 
 describe.skipIf(!built)('compiled teaching order', () => {
@@ -179,7 +188,8 @@ describe.skipIf(!built)('compiled teaching order', () => {
         // Despite)" are indistinguishable in a chapter list.
         const byTitle = new Map<string, string[]>();
         for (const chapter of order.chapters) {
-            byTitle.set(chapter.title, [...(byTitle.get(chapter.title) ?? []), chapter.id]);
+            const title = chapterTitle(chapter) ?? '';
+            byTitle.set(title, [...(byTitle.get(title) ?? []), chapter.id]);
         }
         const collisions = [...byTitle].filter(([, ids]) => ids.length > 1).map(([title, ids]) => `${title}: ${ids.join(', ')}`);
         expect(collisions).toEqual([]);
@@ -270,12 +280,12 @@ describe.skipIf(!built)('point kinds', () => {
     it('gives every inflection point a `derives`', () => {
         // The transformation quiz keys off `derives`; an inflection without one
         // is classified but unteachable.
-        const missing = points.filter(p => p.kind === 'inflection' && !p.derives).map(p => p.id);
+        const missing = points.filter(p => p.kind === 'inflection' && !derivesOf(p)).map(p => p.id);
         expect(missing).toEqual([]);
     });
 
     it('never puts `derives` on a non-inflection point', () => {
-        expect(points.filter(p => p.kind !== 'inflection' && p.derives).map(p => p.id)).toEqual([]);
+        expect(points.filter(p => p.kind !== 'inflection' && derivesOf(p)).map(p => p.id)).toEqual([]);
     });
 
     it('classifies the load-bearing derivations as inflection', () => {
@@ -307,18 +317,14 @@ describe.skipIf(!built)('banned glyphs', () => {
      * UI, rather than trusting the transform.
      */
     const BANNED = /[—→←↑↓⇒]/;
-    const RENDERED: (keyof GrammarPoint)[] = [
-        'title', 'romaji', 'shortExplanation', 'longExplanation', 'formation', 'usageNote', 'derives',
-    ];
 
-    it('leaves none in any rendered field of any compiled point', () => {
+    it('leaves none in the title, the romaji or any text of any compiled point', () => {
         const offenders: string[] = [];
         for (const file of fs.readdirSync(POINTS_DIR)) {
             if (!file.endsWith('.json')) continue;
             const point: GrammarPoint = JSON.parse(fs.readFileSync(path.join(POINTS_DIR, file), 'utf-8'));
-            for (const field of RENDERED) {
-                const value = point[field];
-                if (typeof value === 'string' && BANNED.test(value)) offenders.push(`${point.id}.${field}`);
+            for (const value of [point.title, point.romaji ?? '', ...textValues(point.text)]) {
+                if (BANNED.test(value)) offenders.push(`${point.id}: ${value}`);
             }
         }
         expect(offenders).toEqual([]);
@@ -327,9 +333,11 @@ describe.skipIf(!built)('banned glyphs', () => {
     it('leaves none in a chapter title or summary', () => {
         const order: GrammarTeachingOrder = JSON.parse(fs.readFileSync(ORDER_PATH, 'utf-8'));
         const offenders = order.chapters
-            .filter(c => BANNED.test(c.title) || BANNED.test(c.summary ?? ''))
+            .filter(c => textValues(c.text).some(value => BANNED.test(value)))
             .map(c => c.id);
         expect(offenders).toEqual([]);
+        // Not vacuous: every chapter has its English title and summary.
+        expect(order.chapters.filter(c => !chapterTitle(c) || !proseOf(c.text, 'en', 'summary')).map(c => c.id)).toEqual([]);
     });
 });
 
@@ -378,7 +386,7 @@ describe.skipIf(!built)('upstream corrections', () => {
         for (const [id, entry] of overrides) {
             if (!entry.formation) continue;
             // Compared after glyph sanitisation, which also runs on formation.
-            expect(points.get(id)!.formation.replace(/\s+/g, ' '))
+            expect((proseOf(points.get(id)!.text, 'en', 'formation') ?? '').replace(/\s+/g, ' '))
                 .toBe(entry.formation.replace(/\s+/g, ' '));
         }
     });
@@ -453,7 +461,7 @@ describe.skipIf(!built)('contrast merges', () => {
     it('states the differentiator on the surviving point', () => {
         for (const [donor, entry] of contrast) {
             expect(entry.differentiator, `${donor} has no differentiator`).toBeTruthy();
-            const note = points.get(entry.canonical)?.usageNote ?? '';
+            const note = proseOf(points.get(entry.canonical)?.text, 'en', 'usageNote') ?? '';
             expect(note, `${entry.canonical} does not carry ${donor}'s differentiator`)
                 .toContain(entry.differentiator!);
         }
@@ -468,7 +476,7 @@ describe.skipIf(!built)('contrast merges', () => {
     });
 });
 
-describe.skipIf(!fs.existsSync('./compiled/grammar/index/browse.json'))('browse index', () => {
+describe.skipIf(!fs.existsSync('./build/assembled/grammar/index/browse.json'))('browse index', () => {
     let browse: {
         points: { id: string; kind: string; orderIndex: number | null; variantOf?: string; jlptLevel: number }[];
         stats: Record<string, unknown> & { points: number; introduced: number; variants: number; byKind: Record<string, number> };
@@ -476,7 +484,7 @@ describe.skipIf(!fs.existsSync('./compiled/grammar/index/browse.json'))('browse 
     let pointIds: Set<string>;
 
     beforeAll(() => {
-        browse = JSON.parse(fs.readFileSync('./compiled/grammar/index/browse.json', 'utf-8'));
+        browse = JSON.parse(fs.readFileSync('./build/assembled/grammar/index/browse.json', 'utf-8'));
         pointIds = new Set(fs.readdirSync(POINTS_DIR).filter(f => f.endsWith('.json')).map(f => f.replace('.json', '')));
     });
 

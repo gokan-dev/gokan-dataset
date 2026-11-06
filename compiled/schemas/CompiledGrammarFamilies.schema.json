@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": {
+    "type": "object",
+    "properties": {
+      "memberIds": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "required": [
+      "memberIds"
+    ],
+    "additionalProperties": false
+  },
+  "definitions": {},
+  "$id": "schemas/CompiledGrammarFamilies.schema.json"
+}

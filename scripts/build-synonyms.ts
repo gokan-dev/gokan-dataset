@@ -1,5 +1,7 @@
 import fs from 'fs';
 import path from 'path';
+import type { Vocabulary } from '../src/models/vocabulary.model';
+import { jmdictSenses } from '../src/text/jmdict';
 
 /**
  * Attaches each vocab's near-synonym list to its own compiled vocab file
@@ -100,8 +102,10 @@ import path from 'path';
  * files and writes them back). Pure helpers are exported for the test file.
  */
 
-const VOCAB_DIR = './compiled/vocab';
-const FREQUENCY_PATH = './compiled/index/frequency.json';
+const VOCAB_DIR = './build/assembled/vocab';
+/** The language whose glosses the rules below read (normalizeGloss, the "to " verb test): English. */
+const SYNONYMS_LANG = 'en';
+const FREQUENCY_PATH = './build/assembled/index/frequency.json';
 const OVERRIDES_PATH = './data/raw/vocab/synonyms.json';
 
 /** The overlap floor (see `glossOverlap`): a shared normalized sense counts when
@@ -423,7 +427,7 @@ interface CompiledVocabForms {
     writtenForm?: { kanji?: string; alternatives?: string[] };
     reading?: { primary?: string; alternatives?: string[] };
     mergedVocabs?: { originalPrimaryReading?: string }[];
-    senses?: { pos?: string[] }[];
+    pos?: string[];
     usuallyKana?: boolean;
 }
 
@@ -437,7 +441,7 @@ export function synonymForms(v: CompiledVocabForms): SynonymForms {
             ...(v.mergedVocabs ?? []).map(m => m.originalPrimaryReading),
         ]),
     };
-    const pos = unique((v.senses ?? []).flatMap(s => s.pos ?? []).filter(p => INFLECTING_POS.has(p))).sort();
+    const pos = unique((v.pos ?? []).filter(p => INFLECTING_POS.has(p))).sort();
     if (pos.length > 0) forms.pos = pos;
     if (v.usuallyKana) forms.u = true;
     return forms;
@@ -548,10 +552,11 @@ async function main() {
     for (const id of ids) {
         const p = path.join(VOCAB_DIR, `${id}.json`);
         if (!fs.existsSync(p)) continue;
-        const v = JSON.parse(fs.readFileSync(p, 'utf-8'));
-        const posCodes: string[] = (v.senses ?? []).flatMap((s: { pos: string[] }) => s.pos ?? []);
+        // Output of this repository's own build-data stage, already typed by it.
+        const v = JSON.parse(fs.readFileSync(p, 'utf-8')) as Vocabulary;
+        const posCodes = v.pos;
         const pos = coarsePosSet(posCodes);
-        const read = readSenses(v.senses ?? []);
+        const read = readSenses(jmdictSenses(v.text, SYNONYMS_LANG));
         if (read.senses.length === 0) continue;
         words.push({
             id, pos, ...read,
@@ -636,12 +641,14 @@ async function main() {
     let written = 0;
     for (const w of words) {
         const p = path.join(VOCAB_DIR, `${w.id}.json`);
-        const v = JSON.parse(fs.readFileSync(p, 'utf-8'));
+        const v = JSON.parse(fs.readFileSync(p, 'utf-8')) as Vocabulary;
         const syn = index.get(w.id);
-        const current = JSON.stringify(v.synonyms ?? null);
+        const text = v.text[SYNONYMS_LANG];
+        const current = JSON.stringify(text?.synonyms ?? null);
         const next = JSON.stringify(syn ?? null);
-        if (current === next) continue;
-        if (syn) v.synonyms = syn; else delete v.synonyms;
+        if (current === next || !text) continue;
+        // Near-synonyms are computed from English glosses, so they are English text (decision D11).
+        if (syn) text.synonyms = syn; else delete text.synonyms;
         fs.writeFileSync(p, JSON.stringify(v));
         written++;
     }

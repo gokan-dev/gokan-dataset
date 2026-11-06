@@ -1,0 +1,12 @@
+{
+  "id": "gokan",
+  "name": "Gokan, hand-written text in this repository",
+  "url": "https://github.com/gokan-dev/gokan-dataset",
+  "license": "CC-BY-SA-4.0",
+  "community": "gokan",
+  "firstHand": "Written for Gokan from the Japanese: usage notes, families, lessons, cases, chapters, grammar slots and form names, corrected example translations; notes for Chinese readers on false friends (data/reviews/notes-<lang>.jsonl, AI-drafted, imported until a person checks them)",
+  "languages": ["en", "zh-hans"],
+  "roles": ["prose", "label", "note", "translation"],
+  "match": "id",
+  "inRepository": true
+}

@@ -1,0 +1,1191 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "kind": {
+      "type": "string",
+      "enum": [
+        "vocab",
+        "kanji",
+        "sentence",
+        "grammar",
+        "grammarSlot",
+        "family",
+        "chapter",
+        "conjugation",
+        "media"
+      ]
+    },
+    "lang": {
+      "type": "string"
+    },
+    "entities": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "synonyms": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "w": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "r": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "pos": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "u": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "f": {
+                  "type": "number"
+                },
+                "id": {
+                  "type": "string"
+                },
+                "relation": {
+                  "type": "string",
+                  "enum": [
+                    "interchangeable",
+                    "confusable"
+                  ]
+                },
+                "shared": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "overlap": {
+                  "type": "number"
+                },
+                "curated": {
+                  "type": "boolean",
+                  "const": true
+                }
+              },
+              "required": [
+                "id",
+                "overlap",
+                "relation",
+                "shared"
+              ]
+            }
+          },
+          "renderings": {
+            "type": "array",
+            "items": {
+              "anyOf": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "lang": {
+                      "type": "string"
+                    },
+                    "source": {
+                      "type": "object",
+                      "properties": {
+                        "source": {
+                          "type": "string"
+                        },
+                        "ref": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "source"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "match": {
+                      "type": "string",
+                      "enum": [
+                        "id",
+                        "spelling+reading",
+                        "spelling"
+                      ]
+                    },
+                    "status": {
+                      "type": "string",
+                      "enum": [
+                        "imported",
+                        "corroborated",
+                        "reviewed",
+                        "rejected"
+                      ]
+                    },
+                    "evidence": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "source": {
+                            "type": "string"
+                          },
+                          "ref": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                          "source"
+                        ],
+                        "additionalProperties": false
+                      }
+                    },
+                    "review": {
+                      "type": "object",
+                      "properties": {
+                        "by": {
+                          "type": "string"
+                        },
+                        "basis": {
+                          "type": "string"
+                        },
+                        "date": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "by",
+                        "basis",
+                        "date"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "of": {
+                      "type": "object",
+                      "properties": {
+                        "kind": {
+                          "type": "string",
+                          "enum": [
+                            "vocab",
+                            "kanji",
+                            "sentence",
+                            "grammar",
+                            "grammarSlot",
+                            "family",
+                            "chapter",
+                            "conjugation",
+                            "media"
+                          ]
+                        },
+                        "id": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "kind",
+                        "id"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "role": {
+                      "type": "string",
+                      "const": "definition"
+                    },
+                    "senses": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "glosses": {
+                            "type": "array",
+                            "items": {
+                              "anyOf": [
+                                {
+                                  "type": "string"
+                                },
+                                {
+                                  "type": "object",
+                                  "properties": {
+                                    "value": {
+                                      "type": "string"
+                                    },
+                                    "derivedFrom": {
+                                      "type": "object",
+                                      "properties": {
+                                        "value": {
+                                          "type": "string"
+                                        },
+                                        "lang": {
+                                          "type": "string"
+                                        },
+                                        "transform": {
+                                          "type": "string",
+                                          "const": "script:hant-to-hans"
+                                        }
+                                      },
+                                      "required": [
+                                        "value",
+                                        "lang",
+                                        "transform"
+                                      ],
+                                      "additionalProperties": false
+                                    }
+                                  },
+                                  "required": [
+                                    "value",
+                                    "derivedFrom"
+                                  ],
+                                  "additionalProperties": false
+                                }
+                              ]
+                            }
+                          },
+                          "pos": {
+                            "type": "array",
+                            "items": {
+                              "type": "string"
+                            }
+                          },
+                          "misc": {
+                            "type": "object",
+                            "properties": {
+                              "isAbbreviation": {
+                                "type": "boolean"
+                              },
+                              "isSuffix": {
+                                "type": "boolean"
+                              },
+                              "isPrefix": {
+                                "type": "boolean"
+                              },
+                              "isArchaic": {
+                                "type": "boolean"
+                              },
+                              "isRare": {
+                                "type": "boolean"
+                              },
+                              "rawTags": {
+                                "type": "array",
+                                "items": {
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "required": [
+                              "rawTags"
+                            ],
+                            "additionalProperties": false
+                          },
+                          "related": {
+                            "type": "object",
+                            "properties": {
+                              "compounds": {
+                                "type": "array",
+                                "items": {
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "required": [
+                              "compounds"
+                            ],
+                            "additionalProperties": false
+                          },
+                          "appliesToReadings": {
+                            "type": "array",
+                            "items": {
+                              "type": "string"
+                            }
+                          },
+                          "appliesToSpellings": {
+                            "type": "array",
+                            "items": {
+                              "type": "string"
+                            }
+                          },
+                          "tags": {
+                            "type": "array",
+                            "items": {
+                              "type": "string"
+                            }
+                          }
+                        },
+                        "required": [
+                          "glosses"
+                        ],
+                        "additionalProperties": false
+                      }
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "match",
+                    "role",
+                    "senses",
+                    "source",
+                    "status"
+                  ],
+                  "additionalProperties": false
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "lang": {
+                      "type": "string"
+                    },
+                    "source": {
+                      "type": "object",
+                      "properties": {
+                        "source": {
+                          "type": "string"
+                        },
+                        "ref": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "source"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "match": {
+                      "type": "string",
+                      "enum": [
+                        "id",
+                        "spelling+reading",
+                        "spelling"
+                      ]
+                    },
+                    "status": {
+                      "type": "string",
+                      "enum": [
+                        "imported",
+                        "corroborated",
+                        "reviewed",
+                        "rejected"
+                      ]
+                    },
+                    "evidence": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "source": {
+                            "type": "string"
+                          },
+                          "ref": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                          "source"
+                        ],
+                        "additionalProperties": false
+                      }
+                    },
+                    "review": {
+                      "type": "object",
+                      "properties": {
+                        "by": {
+                          "type": "string"
+                        },
+                        "basis": {
+                          "type": "string"
+                        },
+                        "date": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "by",
+                        "basis",
+                        "date"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "of": {
+                      "type": "object",
+                      "properties": {
+                        "kind": {
+                          "type": "string",
+                          "enum": [
+                            "vocab",
+                            "kanji",
+                            "sentence",
+                            "grammar",
+                            "grammarSlot",
+                            "family",
+                            "chapter",
+                            "conjugation",
+                            "media"
+                          ]
+                        },
+                        "id": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "kind",
+                        "id"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "role": {
+                      "type": "string",
+                      "const": "equivalent"
+                    },
+                    "value": {
+                      "anyOf": [
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "value": {
+                              "type": "string"
+                            },
+                            "derivedFrom": {
+                              "type": "object",
+                              "properties": {
+                                "value": {
+                                  "type": "string"
+                                },
+                                "lang": {
+                                  "type": "string"
+                                },
+                                "transform": {
+                                  "type": "string",
+                                  "const": "script:hant-to-hans"
+                                }
+                              },
+                              "required": [
+                                "value",
+                                "lang",
+                                "transform"
+                              ],
+                              "additionalProperties": false
+                            }
+                          },
+                          "required": [
+                            "value",
+                            "derivedFrom"
+                          ],
+                          "additionalProperties": false
+                        }
+                      ]
+                    },
+                    "category": {
+                      "type": "string",
+                      "enum": [
+                        "direct",
+                        "cultural",
+                        "lexical"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "match",
+                    "role",
+                    "source",
+                    "status",
+                    "value"
+                  ],
+                  "additionalProperties": false
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "lang": {
+                      "type": "string"
+                    },
+                    "source": {
+                      "type": "object",
+                      "properties": {
+                        "source": {
+                          "type": "string"
+                        },
+                        "ref": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "source"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "match": {
+                      "type": "string",
+                      "enum": [
+                        "id",
+                        "spelling+reading",
+                        "spelling"
+                      ]
+                    },
+                    "status": {
+                      "type": "string",
+                      "enum": [
+                        "imported",
+                        "corroborated",
+                        "reviewed",
+                        "rejected"
+                      ]
+                    },
+                    "evidence": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "source": {
+                            "type": "string"
+                          },
+                          "ref": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                          "source"
+                        ],
+                        "additionalProperties": false
+                      }
+                    },
+                    "review": {
+                      "type": "object",
+                      "properties": {
+                        "by": {
+                          "type": "string"
+                        },
+                        "basis": {
+                          "type": "string"
+                        },
+                        "date": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "by",
+                        "basis",
+                        "date"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "of": {
+                      "type": "object",
+                      "properties": {
+                        "kind": {
+                          "type": "string",
+                          "enum": [
+                            "vocab",
+                            "kanji",
+                            "sentence",
+                            "grammar",
+                            "grammarSlot",
+                            "family",
+                            "chapter",
+                            "conjugation",
+                            "media"
+                          ]
+                        },
+                        "id": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "kind",
+                        "id"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "role": {
+                      "type": "string",
+                      "const": "translation"
+                    },
+                    "value": {
+                      "anyOf": [
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "value": {
+                              "type": "string"
+                            },
+                            "derivedFrom": {
+                              "type": "object",
+                              "properties": {
+                                "value": {
+                                  "type": "string"
+                                },
+                                "lang": {
+                                  "type": "string"
+                                },
+                                "transform": {
+                                  "type": "string",
+                                  "const": "script:hant-to-hans"
+                                }
+                              },
+                              "required": [
+                                "value",
+                                "lang",
+                                "transform"
+                              ],
+                              "additionalProperties": false
+                            }
+                          },
+                          "required": [
+                            "value",
+                            "derivedFrom"
+                          ],
+                          "additionalProperties": false
+                        }
+                      ]
+                    },
+                    "direction": {
+                      "type": "string",
+                      "enum": [
+                        "fromJapanese",
+                        "toJapanese"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "match",
+                    "role",
+                    "source",
+                    "status",
+                    "value"
+                  ],
+                  "additionalProperties": false
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "lang": {
+                      "type": "string"
+                    },
+                    "source": {
+                      "type": "object",
+                      "properties": {
+                        "source": {
+                          "type": "string"
+                        },
+                        "ref": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "source"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "match": {
+                      "type": "string",
+                      "enum": [
+                        "id",
+                        "spelling+reading",
+                        "spelling"
+                      ]
+                    },
+                    "status": {
+                      "type": "string",
+                      "enum": [
+                        "imported",
+                        "corroborated",
+                        "reviewed",
+                        "rejected"
+                      ]
+                    },
+                    "evidence": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "source": {
+                            "type": "string"
+                          },
+                          "ref": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                          "source"
+                        ],
+                        "additionalProperties": false
+                      }
+                    },
+                    "review": {
+                      "type": "object",
+                      "properties": {
+                        "by": {
+                          "type": "string"
+                        },
+                        "basis": {
+                          "type": "string"
+                        },
+                        "date": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "by",
+                        "basis",
+                        "date"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "of": {
+                      "type": "object",
+                      "properties": {
+                        "kind": {
+                          "type": "string",
+                          "enum": [
+                            "vocab",
+                            "kanji",
+                            "sentence",
+                            "grammar",
+                            "grammarSlot",
+                            "family",
+                            "chapter",
+                            "conjugation",
+                            "media"
+                          ]
+                        },
+                        "id": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "kind",
+                        "id"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "role": {
+                      "type": "string",
+                      "const": "label"
+                    },
+                    "field": {
+                      "type": "string"
+                    },
+                    "value": {
+                      "anyOf": [
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "value": {
+                              "type": "string"
+                            },
+                            "derivedFrom": {
+                              "type": "object",
+                              "properties": {
+                                "value": {
+                                  "type": "string"
+                                },
+                                "lang": {
+                                  "type": "string"
+                                },
+                                "transform": {
+                                  "type": "string",
+                                  "const": "script:hant-to-hans"
+                                }
+                              },
+                              "required": [
+                                "value",
+                                "lang",
+                                "transform"
+                              ],
+                              "additionalProperties": false
+                            }
+                          },
+                          "required": [
+                            "value",
+                            "derivedFrom"
+                          ],
+                          "additionalProperties": false
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "match",
+                    "role",
+                    "source",
+                    "status",
+                    "value"
+                  ],
+                  "additionalProperties": false
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "lang": {
+                      "type": "string"
+                    },
+                    "source": {
+                      "type": "object",
+                      "properties": {
+                        "source": {
+                          "type": "string"
+                        },
+                        "ref": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "source"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "match": {
+                      "type": "string",
+                      "enum": [
+                        "id",
+                        "spelling+reading",
+                        "spelling"
+                      ]
+                    },
+                    "status": {
+                      "type": "string",
+                      "enum": [
+                        "imported",
+                        "corroborated",
+                        "reviewed",
+                        "rejected"
+                      ]
+                    },
+                    "evidence": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "source": {
+                            "type": "string"
+                          },
+                          "ref": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                          "source"
+                        ],
+                        "additionalProperties": false
+                      }
+                    },
+                    "review": {
+                      "type": "object",
+                      "properties": {
+                        "by": {
+                          "type": "string"
+                        },
+                        "basis": {
+                          "type": "string"
+                        },
+                        "date": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "by",
+                        "basis",
+                        "date"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "of": {
+                      "type": "object",
+                      "properties": {
+                        "kind": {
+                          "type": "string",
+                          "enum": [
+                            "vocab",
+                            "kanji",
+                            "sentence",
+                            "grammar",
+                            "grammarSlot",
+                            "family",
+                            "chapter",
+                            "conjugation",
+                            "media"
+                          ]
+                        },
+                        "id": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "kind",
+                        "id"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "role": {
+                      "type": "string",
+                      "const": "prose"
+                    },
+                    "field": {
+                      "type": "string"
+                    },
+                    "value": {
+                      "anyOf": [
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "value": {
+                              "type": "string"
+                            },
+                            "derivedFrom": {
+                              "type": "object",
+                              "properties": {
+                                "value": {
+                                  "type": "string"
+                                },
+                                "lang": {
+                                  "type": "string"
+                                },
+                                "transform": {
+                                  "type": "string",
+                                  "const": "script:hant-to-hans"
+                                }
+                              },
+                              "required": [
+                                "value",
+                                "lang",
+                                "transform"
+                              ],
+                              "additionalProperties": false
+                            }
+                          },
+                          "required": [
+                            "value",
+                            "derivedFrom"
+                          ],
+                          "additionalProperties": false
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "field",
+                    "id",
+                    "match",
+                    "role",
+                    "source",
+                    "status",
+                    "value"
+                  ],
+                  "additionalProperties": false
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "lang": {
+                      "type": "string"
+                    },
+                    "source": {
+                      "type": "object",
+                      "properties": {
+                        "source": {
+                          "type": "string"
+                        },
+                        "ref": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "source"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "match": {
+                      "type": "string",
+                      "enum": [
+                        "id",
+                        "spelling+reading",
+                        "spelling"
+                      ]
+                    },
+                    "status": {
+                      "type": "string",
+                      "enum": [
+                        "imported",
+                        "corroborated",
+                        "reviewed",
+                        "rejected"
+                      ]
+                    },
+                    "evidence": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "source": {
+                            "type": "string"
+                          },
+                          "ref": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                          "source"
+                        ],
+                        "additionalProperties": false
+                      }
+                    },
+                    "review": {
+                      "type": "object",
+                      "properties": {
+                        "by": {
+                          "type": "string"
+                        },
+                        "basis": {
+                          "type": "string"
+                        },
+                        "date": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "by",
+                        "basis",
+                        "date"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "of": {
+                      "type": "object",
+                      "properties": {
+                        "kind": {
+                          "type": "string",
+                          "enum": [
+                            "vocab",
+                            "kanji",
+                            "sentence",
+                            "grammar",
+                            "grammarSlot",
+                            "family",
+                            "chapter",
+                            "conjugation",
+                            "media"
+                          ]
+                        },
+                        "id": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "kind",
+                        "id"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "role": {
+                      "type": "string",
+                      "const": "note"
+                    },
+                    "value": {
+                      "anyOf": [
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "value": {
+                              "type": "string"
+                            },
+                            "derivedFrom": {
+                              "type": "object",
+                              "properties": {
+                                "value": {
+                                  "type": "string"
+                                },
+                                "lang": {
+                                  "type": "string"
+                                },
+                                "transform": {
+                                  "type": "string",
+                                  "const": "script:hant-to-hans"
+                                }
+                              },
+                              "required": [
+                                "value",
+                                "lang",
+                                "transform"
+                              ],
+                              "additionalProperties": false
+                            }
+                          },
+                          "required": [
+                            "value",
+                            "derivedFrom"
+                          ],
+                          "additionalProperties": false
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "match",
+                    "role",
+                    "source",
+                    "status",
+                    "value"
+                  ],
+                  "additionalProperties": false
+                }
+              ]
+            }
+          }
+        },
+        "required": [
+          "renderings"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "kind",
+    "lang",
+    "entities"
+  ],
+  "additionalProperties": false,
+  "definitions": {},
+  "$id": "schemas/CompiledTextFile.schema.json"
+}

@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": {
+    "type": "array",
+    "items": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "containedKanji": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "usuallyKana": {
+          "type": "boolean",
+          "const": true
+        }
+      },
+      "required": [
+        "id",
+        "containedKanji"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "definitions": {},
+  "$id": "schemas/CompiledJlptIndex.schema.json"
+}

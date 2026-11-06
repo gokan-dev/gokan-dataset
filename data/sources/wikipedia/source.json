@@ -1,0 +1,19 @@
+{
+  "id": "wikipedia",
+  "name": "Wikipedia, the Chinese article a Japanese article links to (through Wikidata's sitelinks), for every JLPT word's headword",
+  "url": "https://www.wikidata.org/wiki/Help:Sitelinks",
+  "license": "CC-BY-SA-4.0",
+  "community": "wikimedia",
+  "firstHand": "Editors link articles on one subject across languages; an article title is a name, not a definition, so it only ever corroborates another text",
+  "languages": ["zh", "zh-hans", "zh-hant"],
+  "roles": [],
+  "evidenceOnly": true,
+  "match": "spelling",
+  "fetch": "bun scripts/fetch-wikipedia-links.ts",
+  "snapshot": {
+    "date": "2026-11-04",
+    "files": {
+      "data/sources/wikipedia/ja-zh-sitelinks.json.gz": "sha256:293d61b9f50271a978f03f84811e357aa0967ec7fd5003531754422caf6db6f4"
+    }
+  }
+}

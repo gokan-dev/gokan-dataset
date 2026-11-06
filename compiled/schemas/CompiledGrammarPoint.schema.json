@@ -1,0 +1,156 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "examples": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "jp": {
+            "type": "string"
+          },
+          "romaji": {
+            "type": "string"
+          },
+          "words": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "surface": {
+                  "type": "string"
+                },
+                "vocabId": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "reading": {
+                  "type": "string"
+                },
+                "baseForm": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "surface",
+                "vocabId"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "patternWordIndices": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            }
+          },
+          "audio": {
+            "type": "object",
+            "properties": {
+              "clip": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "clip"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "jp",
+          "romaji",
+          "words",
+          "patternWordIndices"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "romaji": {
+      "type": "string"
+    },
+    "jlptLevel": {
+      "type": "number"
+    },
+    "kind": {
+      "type": "string",
+      "enum": [
+        "construction",
+        "inflection",
+        "lexical"
+      ]
+    },
+    "variantOf": {
+      "type": "string"
+    },
+    "variantRelation": {
+      "type": "string"
+    },
+    "formalityLevel": {
+      "type": "string",
+      "enum": [
+        "casual",
+        "neutral",
+        "polite",
+        "formal",
+        "very-formal-literary"
+      ]
+    },
+    "slot": {
+      "type": "string",
+      "enum": [
+        "clause-final",
+        "sentence-initial",
+        "predicate-final",
+        "pre-noun",
+        "adverbial"
+      ]
+    },
+    "family": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "relatedPoints": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "axis": {
+          "type": "string",
+          "enum": [
+            "register",
+            "constraint",
+            "variant"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "relatedPoints"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "examples",
+    "id",
+    "jlptLevel",
+    "kind",
+    "title"
+  ],
+  "definitions": {},
+  "$id": "schemas/CompiledGrammarPoint.schema.json"
+}

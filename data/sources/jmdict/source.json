@@ -1,0 +1,17 @@
+{
+  "id": "jmdict",
+  "name": "JMdict, English (jmdict-simplified 3.6.1)",
+  "url": "https://www.edrdg.org/jmdict/j_jmdict.html",
+  "license": "CC-BY-SA-4.0",
+  "community": "edrdg",
+  "firstHand": "EDRDG editors define Japanese words in English",
+  "languages": ["en"],
+  "roles": ["definition"],
+  "match": "id",
+  "snapshot": {
+    "date": "2026-01-05",
+    "files": {
+      "data/raw/jmdict.json": "sha256:950e7666de458cd0e70820445487adc62f964229ff2cec4c1cf403543281c85b"
+    }
+  }
+}

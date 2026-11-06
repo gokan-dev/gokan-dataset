@@ -1,0 +1,21 @@
+{
+  "id": "tatoeba-cmn",
+  "name": "Tatoeba, Japanese and Mandarin sentences, their links, and which sentence each was translated from",
+  "url": "https://tatoeba.org/en/downloads",
+  "license": "LicenseRef-Tatoeba",
+  "licenseNote": "Per sentence, mostly CC BY 2.0 FR, some CC0: https://tatoeba.org/en/terms_of_use",
+  "community": "tatoeba",
+  "firstHand": "Contributors translate sentences between languages; sentences_base records from which, and only a Mandarin sentence translated from the Japanese (or the Japanese from it) is kept",
+  "languages": ["zh", "zh-hans", "zh-hant"],
+  "roles": ["translation"],
+  "match": "id",
+  "snapshot": {
+    "date": "2026-11-03",
+    "files": {
+      "data/sources/tatoeba-cmn/cmn_sentences.tsv.gz": "sha256:a4bcc962f68c7514a47d13574d24e7ba1887c0391aebfde6ac4bf1ce02a98cdb",
+      "data/sources/tatoeba-cmn/jpn_sentences.tsv.gz": "sha256:4bd2067f6164a163b07acebeb37398b3fb55ae9415684efecdc8d28729592121",
+      "data/sources/tatoeba-cmn/jpn-cmn_links.tsv.gz": "sha256:1be94a7805decff91f81a9220464b560859438954659cbb4808de75aad3d5689",
+      "data/sources/tatoeba-cmn/sentences_base.csv.gz": "sha256:0b3085a4e669ed9f58572345cf2f3ef42ba7a87d440a574c257c958c7241b4e6"
+    }
+  }
+}

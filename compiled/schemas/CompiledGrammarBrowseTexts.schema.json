@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": {
+    "type": "object",
+    "properties": {
+      "title": {
+        "type": "string"
+      },
+      "romaji": {
+        "type": "string"
+      },
+      "derives": {
+        "type": "string"
+      },
+      "formation": {
+        "type": "string"
+      },
+      "shortExplanation": {
+        "type": "string"
+      },
+      "usageNote": {
+        "type": "string"
+      },
+      "familyName": {
+        "type": "string"
+      },
+      "chapterTitle": {
+        "type": "string"
+      }
+    },
+    "additionalProperties": false
+  },
+  "definitions": {},
+  "$id": "schemas/CompiledGrammarBrowseTexts.schema.json"
+}
