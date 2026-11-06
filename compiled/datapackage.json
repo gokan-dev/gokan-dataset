@@ -17,7 +17,8 @@
       "gokan:id": "gokan",
       "gokan:license": "CC-BY-SA-4.0",
       "gokan:languages": [
-        "en"
+        "en",
+        "zh-hans"
       ]
     },
     {
@@ -515,10 +516,9 @@
       "format": "json",
       "mediatype": "application/json",
       "schema": "schemas/CompiledSearchGlosses.schema.json",
-      "gokan:files": 4,
+      "gokan:files": 3,
       "gokan:languages": [
         "en",
-        "nan",
         "zh-hans",
         "zh-hant"
       ]
@@ -602,7 +602,7 @@
       "format": "json",
       "mediatype": "application/json",
       "schema": "schemas/CompiledTextFile.schema.json",
-      "gokan:files": 67319,
+      "gokan:files": 67325,
       "gokan:languages": [
         "en",
         "nan",
