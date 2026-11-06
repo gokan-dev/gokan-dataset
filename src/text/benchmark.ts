@@ -4,6 +4,7 @@
 // files; everything here is pure. Each number has a floor in a committed file, and a number
 // falling below its floor fails the check.
 import type { Rendering, SourceId, SourceRef } from '../models/text.model';
+import { goldGuarded, goldReportLines } from './goldBenchmark';
 
 export const LEVELS = ['N5', 'N4', 'N3', 'N2', 'N1', 'no level'] as const;
 export type Level = (typeof LEVELS)[number];
@@ -54,7 +55,8 @@ export function benchmarkWord(level: Level, renderings: Rendering[], community: 
         if (!column) continue;
         word.covered.add(column);
         word.communities.add(community(r.source.source));
-        if (r.status === 'corroborated') word.corroborated.add(column);
+        // By its evidence, not its status: a review replaces `corroborated` but keeps what agreed.
+        if (r.status === 'corroborated' || (r.evidence ?? []).length > 0) word.corroborated.add(column);
         for (const e of r.evidence ?? []) {
             if (e.source !== 'wikipedia') continue;
             word.covered.add('wikipedia');
@@ -131,6 +133,7 @@ export function measure(words: BenchmarkWord[], totals: BenchmarkTotals): Metric
  * has a floor.
  */
 export function guarded(key: string): boolean {
+    if (key.startsWith('gold.') || key.startsWith('rules.')) return goldGuarded(key);
     return !/\.(contradicted|unchecked)$/.test(key) && !key.startsWith('tatoeba.script.') && key !== 'script.derivedValues';
 }
 
@@ -213,6 +216,7 @@ export function reportMarkdown(metrics: Metrics): string {
         '',
         `${percent(m('kanji.labelled'))} of kanji have a Unihan label (a Mandarin reading, a Simplified or Traditional form). ${integer(m('script.derivedValues'))} values in zh-hans were written in Simplified by the transform \`script:hant-to-hans\` (decision D3).`,
         '',
+        ...goldReportLines(metrics),
     ];
     return lines.join('\n');
 }

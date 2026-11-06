@@ -2,20 +2,27 @@
 // Build check 9 (docs/MULTILINGUAL.md, "Build checks"): the Chinese benchmark, computed from
 // compiled/ (src/text/benchmark.ts). Writes docs/multilingual-benchmark/report.md; with --check,
 // fails when a number is below its floor in docs/multilingual-benchmark/floors.json; with
-// --set-floors, writes that file from this run (a deliberate act, reviewed in the diff).
+// --set-floors, writes that file from this run, and with --add-floors only the floors it lacks (both
+// deliberate acts, reviewed in the diff). The gold set's numbers read data/reviews/ too.
 //
 // Run: bun run build:benchmark (part of bun run build), bun run check:benchmark.
 import fs from 'node:fs';
 import path from 'node:path';
+import { gunzipSync } from 'node:zlib';
 import type { Sentence } from '../src/models/sentence.model';
 import type { Rendering, SourceId, TextFile } from '../src/models/text.model';
 import {
     benchmarkWord, floorProblems, floorsFrom, LEVELS, measure, reportMarkdown, type BenchmarkTotals, type BenchmarkWord, type Level, type Metrics,
 } from '../src/text/benchmark';
+import { MANDARIN_FILES } from '../src/text/chineseText';
+import { measureGold, type FiledRendering, type TextTally } from '../src/text/goldBenchmark';
+import { parseUnihanVariants } from '../src/text/hanScript';
 import { sourceCommunities } from '../src/text/registry';
+import { readReviews } from '../src/text/reviewFiles';
 
 const COMPILED_DIR = './compiled';
 const SOURCES_DIR = './data/sources';
+const REVIEWS_DIR = './data/reviews';
 const OUT_DIR = './docs/multilingual-benchmark';
 const REPORT = path.join(OUT_DIR, 'report.md');
 const FLOORS = path.join(OUT_DIR, 'floors.json');
@@ -107,7 +114,28 @@ function main(): Metrics {
         kanjiLabelled: labelled.size,
         derivedValues: derived.size,
     };
-    return measure(words, totals);
+    return { ...measure(words, totals), ...goldMetrics() };
+}
+
+/** The gold set's numbers: the reviews of data/reviews/ against the compiled words' Chinese text. */
+function goldMetrics(): Metrics {
+    const { reviews, problems } = readReviews(REVIEWS_DIR);
+    if (problems.length > 0) throw new Error(`data/reviews/ has ${problems.length} problem(s):\n  ${problems.join('\n  ')}`);
+    const goldWords = new Set(reviews.gold.map(g => g.word));
+    const renderingsOf = new Map<string, FiledRendering[]>();
+    const allWords = new Map<string, TextTally[][]>();
+    for (const lang of MANDARIN_FILES) {
+        const tallies: TextTally[][] = [];
+        for (const f of jsonFiles(textDir(lang, 'vocab'))) {
+            for (const [id, entity] of Object.entries(read<TextFile>(path.join(textDir(lang, 'vocab'), f)).entities)) {
+                tallies.push(entity.renderings.map(r => ({ source: r.source.source, status: r.status })));
+                if (goldWords.has(id)) renderingsOf.set(id, [...(renderingsOf.get(id) ?? []), ...entity.renderings.map(rendering => ({ lang, rendering }))]);
+            }
+        }
+        allWords.set(lang, tallies);
+    }
+    const variants = parseUnihanVariants(gunzipSync(fs.readFileSync(path.join(SOURCES_DIR, 'unihan', 'Unihan_Variants.txt.gz'))).toString('utf8').split('\n'));
+    return measureGold({ gold: reviews.gold, verdicts: reviews.verdicts, renderingsOf, allWords, variants });
 }
 
 /** Counts each value the transform wrote once, by its rendering and position (a sentence is in many files). */
@@ -121,6 +149,13 @@ const mode = process.argv[2];
 if (mode === '--set-floors') {
     fs.writeFileSync(FLOORS, `${JSON.stringify(floorsFrom(metrics), null, 2)}\n`);
     console.log(`[benchmark] floors written to ${FLOORS} from this run.`);
+} else if (mode === '--add-floors') {
+    // Floors for numbers that have none yet, from this run, leaving every existing floor as it is.
+    const floors = read<Metrics>(FLOORS);
+    const added = Object.entries(floorsFrom(metrics)).filter(([key]) => !(key in floors));
+    const merged = Object.fromEntries([...Object.entries(floors), ...added].sort(([a], [b]) => (a < b ? -1 : 1)));
+    fs.writeFileSync(FLOORS, `${JSON.stringify(merged, null, 2)}\n`);
+    console.log(`[benchmark] ${added.length} floors added to ${FLOORS} from this run.`);
 } else if (mode === '--check') {
     if (!fs.existsSync(FLOORS)) throw new Error(`${FLOORS} not found: set the floors with bun scripts/benchmark.ts --set-floors.`);
     const problems = floorProblems(metrics, read<Metrics>(FLOORS));

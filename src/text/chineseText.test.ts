@@ -67,8 +67,23 @@ describe("a word's Chinese text", () => {
 
     it("gives a search gloss per language from the corroborated equivalents first", () => {
         expect(searchGloss(text, 'zh-hans')).toBe('信，书信');
-        expect(searchGloss(text, 'nan')).toBe('批');
+        // 批 is a single source's imported equivalent: the acceptance rule (D13) shows it only once
+        // corroborated or reviewed, so it is no gloss yet (the test below reviews it).
+        expect(searchGloss(text, 'nan')).toBeUndefined();
         expect(searchGloss({}, 'zh-hans')).toBeUndefined();
+    });
+
+    it('never chooses a rejected text for the search gloss, and ranks a reviewed one with the corroborated', () => {
+        const decide = (status: 'reviewed' | 'rejected', value: string) => ({
+            'zh-hans': { renderings: (text['zh-hans']?.renderings ?? []).map(r => (r.role === 'equivalent' && r.value === value ? { ...r, status } : r)) },
+        });
+        expect(searchGloss(decide('rejected', '信'), 'zh-hans')).toBe('书信');
+        const onlyDefinition = { 'zh-hans': { renderings: (text['zh-hans']?.renderings ?? []).filter(r => r.role === 'definition') } };
+        expect(searchGloss(onlyDefinition, 'zh-hans')).toBe('信，信件');
+        const rejectedDefinition = { 'zh-hans': { renderings: (onlyDefinition['zh-hans'].renderings).map(r => ({ ...r, status: 'rejected' as const })) } };
+        expect(searchGloss(rejectedDefinition, 'zh-hans')).toBeUndefined();
+        const nan = text.nan?.renderings ?? [];
+        expect(searchGloss({ nan: { renderings: nan.map(r => ({ ...r, status: 'reviewed' as const })) } }, 'nan')).toBe('批');
     });
 });
 

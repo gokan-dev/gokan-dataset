@@ -22,11 +22,11 @@ type Unidentified<R extends Rendering> = R extends Rendering ? Omit<R, 'id'> : n
 
 /**
  * A rendering's identity: a hash of the entity, the language, the source and what the rendering
- * says. Not its status, match evidence or corroboration: a review records a decision against this
- * id, so reviewing or corroborating a text must not change it.
+ * says. Not its status, match evidence, corroboration or review: a review records a decision
+ * against this id, so reviewing or corroborating a text must not change it.
  */
 export function renderingId(kind: EntityKind, entityId: string, lang: LanguageTag, rendering: Unidentified<Rendering>): string {
-    const { status: _status, match: _match, evidence: _evidence, of: _of, ...said } = rendering;
+    const { status: _status, match: _match, evidence: _evidence, of: _of, review: _review, ...said } = rendering;
     return createHash('sha256').update(JSON.stringify([kind, entityId, lang, said])).digest('hex').slice(0, 16);
 }
 
@@ -77,9 +77,14 @@ export function equivalentsOf(text: TextByLanguage | undefined, lang: LanguageTa
  * a stage that adds its sources' text starts from this, so running it twice adds nothing twice.
  */
 export function withoutSources(text: TextByLanguage, sources: ReadonlySet<SourceId>): TextByLanguage {
+    return withoutRenderings(text, r => sources.has(r.source.source));
+}
+
+/** An entity's text without the renderings `drop` names, dropping a language left empty (see withoutSources). */
+export function withoutRenderings(text: TextByLanguage, drop: (rendering: Rendering, lang: LanguageTag) => boolean): TextByLanguage {
     const kept: TextByLanguage = {};
     for (const [lang, entity] of Object.entries(text)) {
-        const renderings = entity.renderings.filter(r => !sources.has(r.source.source));
+        const renderings = entity.renderings.filter(r => !drop(r, lang));
         if (renderings.length > 0 || entity.synonyms !== undefined) kept[lang] = { ...entity, renderings };
     }
     return kept;

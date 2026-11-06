@@ -43,6 +43,13 @@ describe('renderingProblems', () => {
         expect(licenseProblem('Unicode-3.0')).toBeNull();
     });
 
+    it('accepts a review only on a reviewed or rejected rendering, with who, how and when', () => {
+        const review = { by: 'claude-opus-5-5', basis: 'ai-provisional', date: '2026-11-06' };
+        expect(renderingProblems({ ...label('paper'), status: 'rejected', review }, 'kanji', '紙', 'en', sources)).toEqual([]);
+        expect(renderingProblems({ ...label('paper'), review }, 'kanji', '紙', 'en', sources)).toEqual(['a review is recorded on a rendering whose status is imported']);
+        expect(renderingProblems({ ...label('paper'), status: 'reviewed', review: { ...review, date: 'today' } }, 'kanji', '紙', 'en', sources)).toEqual(['a review needs "by", "basis" and a YYYY-MM-DD "date"']);
+    });
+
     it('rejects a derived value without an allowlisted transform', () => {
         const derived = { ...label('paper'), value: { value: 'paper', derivedFrom: { value: 'papier', lang: 'fr', transform: 'translate' } } } as unknown as Label;
         expect(renderingProblems(derived, 'kanji', '紙', 'en', sources).join()).toMatch(/allowlisted transform/);

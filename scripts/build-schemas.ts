@@ -9,6 +9,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { createGenerator } from 'ts-json-schema-generator';
 import { RESOURCES, schemaPath } from '../src/layout/resources';
+import { removeTree } from '../src/utils/removeTree';
 
 const COMPILED_DIR = './compiled';
 
@@ -24,8 +25,7 @@ const generator = createGenerator({
 });
 
 const types = [...new Set(RESOURCES.map(r => r.type))].sort();
-// maxRetries: a file held open for a moment on Windows (EBUSY) is retried, not fatal.
-fs.rmSync(path.join(COMPILED_DIR, 'schemas'), { recursive: true, force: true, maxRetries: 10, retryDelay: 200 });
+removeTree(path.join(COMPILED_DIR, 'schemas'));
 for (const type of types) {
     const schema = generator.createSchema(type);
     const file = path.join(COMPILED_DIR, schemaPath(type));

@@ -7,7 +7,7 @@ Two things live here: the benchmark the build runs (build check 9 in [../MULTILI
 | File | What it is |
 |---|---|
 | `report.md` | Written by `bun run build:benchmark` (the last step of `bun run build`) from `compiled/`: coverage per source and JLPT level, corroboration across communities, first-hand sentence coverage. No date, so an unchanged dataset leaves it unchanged. Do not edit it: rebuild. |
-| `floors.json` | Each guarded number's floor. `bun run check:benchmark` fails when a number falls below its floor. Set from a run with `bun scripts/benchmark.ts --set-floors` (a percentage one point below the measured value, a count 2% below), and changed only on purpose, in a reviewed diff. |
+| `floors.json` | Each guarded number's floor. `bun run check:benchmark` fails when a number falls below its floor. Set from a run with `bun scripts/benchmark.ts --set-floors` (a percentage one point below the measured value, a count 2% below), or, for numbers that have no floor yet, `--add-floors`, which leaves the others as they are; changed only on purpose, in a reviewed diff. The gold set's precision, coverage and rejection shares have floors; its counts and the acceptance rule candidates do not. |
 
 The code is `scripts/benchmark.ts` (reads `compiled/`) and `src/text/benchmark.ts` (the numbers, pure and tested). The sources it measures are read by `bun run build:text` (`scripts/build-text.ts`) from their snapshots in `data/sources/`.
 

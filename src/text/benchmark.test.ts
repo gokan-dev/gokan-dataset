@@ -44,6 +44,11 @@ describe('the benchmark', () => {
         expect(metrics['corroboration.zhwiktionary']).toBe(25);
     });
 
+    it('still counts a corroborated text once a review has set its status', () => {
+        const reviewed = { ...equivalent('zhwiktionary', 'a#日語', { source: 'wikidata', ref: 'L1' }), status: 'rejected' as const };
+        expect([...benchmarkWord('N5', [reviewed], community, 0, 0).corroborated]).toEqual(['zhwiktionary']);
+    });
+
     it('fails a number below its floor, and a floor nothing measures; sets floors a little below a run', () => {
         expect(floorProblems({ a: 70.2, b: 5 }, { a: 70, b: 6, c: 1 })).toEqual(['b: 5 is below its floor 6', 'c: has a floor (1) but the benchmark no longer measures it']);
         const floors = floorsFrom({ 'coverage.N5.any': 90.4, 'words.N5': 664, 'zhwiktionary.N5-N3.unchecked': 14, 'tatoeba.script.hans': 3 });

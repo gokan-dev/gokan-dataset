@@ -64,6 +64,12 @@ export function renderingProblems(rendering: Rendering, kind: EntityKind, entity
     if (!STATUSES.has(rendering.status)) problems.push(`status "${rendering.status}" is not a known status`);
     // Corroboration is the only thing that sets `corroborated`, and it always names what agreed.
     if (rendering.status === 'corroborated' && (rendering.evidence ?? []).length === 0) problems.push('a corroborated rendering names no evidence');
+    // A review pointer records who set a review status, so it never sits on any other status.
+    if (rendering.review !== undefined) {
+        if (rendering.status !== 'reviewed' && rendering.status !== 'rejected') problems.push(`a review is recorded on a rendering whose status is ${rendering.status}`);
+        const { by, basis, date } = rendering.review;
+        if (!by || !basis || !/^\d{4}-\d{2}-\d{2}$/.test(date)) problems.push('a review needs "by", "basis" and a YYYY-MM-DD "date"');
+    }
     for (const e of rendering.evidence ?? []) if (!sources.has(e.source)) problems.push(`evidence source "${e.source}" is not in data/sources/`);
     for (const value of values(rendering)) {
         if (typeof value === 'string') continue;

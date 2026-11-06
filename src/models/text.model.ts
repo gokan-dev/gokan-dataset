@@ -32,6 +32,16 @@ export interface SourceRef {
     ref?: string;
 }
 
+/** The provenance of one review decision (data/reviews/<lang>.jsonl). */
+export interface ReviewProvenance {
+    /** The reviewer: a person's name, or a model id for a provisional AI review. */
+    by: string;
+    /** How the decision was made: `ai-provisional` until a person confirms it. */
+    basis: string;
+    /** The day of the decision, YYYY-MM-DD. */
+    date: string;
+}
+
 interface RenderingBase {
     /** A hash of what the rendering says and where it comes from; reviews are recorded against it. */
     id: string;
@@ -42,6 +52,12 @@ interface RenderingBase {
     status: TextStatus;
     /** The independent texts that corroborate it. */
     evidence?: SourceRef[];
+    /**
+     * Who decided a `reviewed` or `rejected` status recorded in data/reviews/, so a consumer can tell
+     * a provisional AI review from a person's without reading the review files. Absent where the
+     * status is the source's own (Gokan's hand-written English is `reviewed` by decision D4).
+     */
+    review?: ReviewProvenance;
     /**
      * Set when an entity carries a rendering that belongs to another: a mined grammar example
      * carries its sentence's translation, a grammar point its family's name. The id is that

@@ -2,6 +2,7 @@
 // (docs/MULTILINGUAL.md, "Pipeline": assemble, then assess). Each source's text stays its own
 // rendering; corroboration across communities sets its status and evidence; each value is filed
 // under the language its characters show, converted to Simplified where the transform allows.
+import { isShown } from './acceptance';
 import type {
     Definition, DefinitionSense, Equivalent, LanguageTag, MatchEvidence, SourceId, SourceRef, TextByLanguage, TextStatus, Translation, Value,
 } from '../models/text.model';
@@ -195,17 +196,18 @@ export function chineseSentenceText(sentenceId: string, source: SourceId, transl
 }
 
 /**
- * A word's short gloss for search in one language: its first two corroborated equivalents, else
+ * A word's short gloss for search in one language: its first two corroborated (or reviewed) equivalents, else
  * the first gloss of its first definition, else its first two equivalents. Equivalents are what a
- * reader types; a corroborated one is the likeliest to be right.
+ * reader types; a corroborated one is the likeliest to be right. A rejected text is never chosen
+ * (it stays in the text only to be inspected and reviewed again).
  */
 export function searchGloss(text: TextByLanguage, lang: LanguageTag): string | undefined {
-    const equivalents = equivalentsOf(text, lang);
+    // Only what a learner is shown (src/text/acceptance.ts): an unconfirmed equivalent is never a gloss.
+    const equivalents = equivalentsOf(text, lang).filter(isShown);
     const distinct = (list: Equivalent[]): string[] => [...new Set(list.map(e => valueText(e.value)))].slice(0, 2);
-    const corroborated = distinct(equivalents.filter(e => e.status === 'corroborated'));
+    // Reviewed counts as corroborated: accepting a text must not push it behind an unchecked one.
+    const corroborated = distinct(equivalents.filter(e => e.status === 'corroborated' || e.status === 'reviewed'));
     if (corroborated.length > 0) return corroborated.join('，');
-    const first = definitionsOf(text, lang)[0]?.senses[0]?.glosses[0];
-    if (first !== undefined) return valueText(first);
-    const any = distinct(equivalents);
-    return any.length > 0 ? any.join('，') : undefined;
+    const first = definitionsOf(text, lang).find(isShown)?.senses[0]?.glosses[0];
+    return first !== undefined ? valueText(first) : undefined;
 }

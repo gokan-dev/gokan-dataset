@@ -51,3 +51,53 @@ A text is corroborated when a text from another community shares an equivalent w
 ## Kanji and script
 
 100.0% of kanji have a Unihan label (a Mandarin reading, a Simplified or Traditional form). 20,594 values in zh-hans were written in Simplified by the transform `script:hant-to-hans` (decision D3).
+
+## Gold set
+
+The gold words' texts as they were before review (`seen` in data/reviews/), scored by the review: precision is the share of reviewed texts accepted. Reviews are provisional (basis `ai-provisional`) until a person confirms them. 300 gold words in zh-hans.
+
+| Level | zh-hans, corroborated | zh-hans, imported | zh-hant, corroborated | zh-hant, imported |
+|---|---:|---:|---:|---:|
+| N5 | 96.1% of 129 | 64.5% of 121 | 96.0% of 126 | 65.6% of 122 |
+| N4 | 96.5% of 114 | 62.1% of 116 | 96.2% of 105 | 62.6% of 99 |
+| N3 | 100.0% of 93 | 69.3% of 163 | 100.0% of 85 | 70.9% of 148 |
+| N2 | 96.0% of 50 | 75.9% of 79 | 96.2% of 52 | 70.8% of 72 |
+| N1 | 100.0% of 40 | 81.6% of 76 | 100.0% of 37 | 81.3% of 64 |
+| all | 97.4% of 426 | 69.4% of 555 | 97.3% of 405 | 69.3% of 505 |
+
+| Source | zh-hans, corroborated | zh-hans, imported | zh-hant, corroborated | zh-hant, imported |
+|---|---:|---:|---:|---:|
+| jawiktionary | 99.2% of 243 | 63.3% of 409 | 99.2% of 239 | 64.5% of 380 |
+| wikidata | 88.0% of 75 | 64.8% of 54 | 89.0% of 82 | 65.5% of 55 |
+| zhwiktionary | 100.0% of 108 | 98.9% of 92 | 100.0% of 84 | 98.6% of 70 |
+
+Coverage is the share of the gold senses for which a text of the word that is not rejected, in zh-hans or zh-hant, agrees with one of the accepted words (the corroboration rule, in Simplified characters). A note never counts.
+
+| zh-hans | Words | Senses | Covered | Words with a rejected text |
+|---|---:|---:|---:|---:|
+| N5 | 60 | 124 | 66.9% | 45.0% |
+| N4 | 60 | 114 | 67.5% | 36.7% |
+| N3 | 60 | 110 | 64.5% | 36.7% |
+| N2 | 60 | 110 | 58.2% | 23.3% |
+| N1 | 60 | 119 | 47.9% | 15.0% |
+| all | 300 | 577 | 61.0% | 31.3% |
+
+## Acceptance rule candidates
+
+Which Chinese texts of a word to show is still to be chosen. For each candidate: the word texts it shows now, across the dataset (after review); its precision on the gold words, applied to their texts as they were before review; and the gold senses those texts cover. A note (source `gokan`, `imported`) is shown by C only, since the gold set measures no precision for it.
+
+zh-hans: 43,542 texts on 15,980 words. Rule B admits `zhwiktionary` (imported precision at least 85%).
+
+| Rule | Texts shown | Words with a text | Precision on the gold set | Gold senses covered |
+|---|---:|---:|---:|---:|
+| A: reviewed or corroborated only | 14,753 | 4,686 | 97.4% of 426 | 32.1% |
+| B: reviewed, corroborated, or imported from a source whose imported precision on the gold set is at least 85% | 21,556 | 11,011 | 97.7% of 518 | 50.6% |
+| C: everything not rejected | 43,361 | 15,973 | 81.5% of 981 | 61.7% |
+
+zh-hant: 40,730 texts on 15,254 words. Rule B admits `zhwiktionary` (imported precision at least 85%).
+
+| Rule | Texts shown | Words with a text | Precision on the gold set | Gold senses covered |
+|---|---:|---:|---:|---:|
+| A: reviewed or corroborated only | 14,060 | 4,685 | 97.3% of 405 | 30.7% |
+| B: reviewed, corroborated, or imported from a source whose imported precision on the gold set is at least 85% | 20,068 | 10,267 | 97.5% of 475 | 43.8% |
+| C: everything not rejected | 40,564 | 15,249 | 81.8% of 910 | 55.1% |

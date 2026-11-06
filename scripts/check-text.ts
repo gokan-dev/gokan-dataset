@@ -5,7 +5,9 @@
 //   2. no explanation-language text left in a core file;
 //   4. every source has a source.json with a compatible licence and a snapshot whose checksums match;
 //   5. every derived value names an allowlisted transform and its original;
-//   6. every review names a rendering that exists (no reviews are recorded yet).
+//   6. every review names a rendering that exists: each verdict of data/reviews/ is on its rendering,
+//      in its language, with its status and who decided it; each note is emitted; each gold word
+//      exists. build:text fails first on a stale verdict; this proves the compiled output kept them.
 // Check 7 (schemas) is scripts/check-schemas.ts, 8 (determinism) is check-determinism.ts, 9 (the
 // benchmark's floors) is benchmark.ts --check; 3 holds by construction (a rendering has one source).
 //
@@ -13,7 +15,9 @@
 import { createHash } from 'node:crypto';
 import fs from 'node:fs';
 import path from 'node:path';
-import type { TextFile } from '../src/models/text.model';
+import type { Rendering, TextFile } from '../src/models/text.model';
+import { readReviews } from '../src/text/reviewFiles';
+import { compiledVerdictProblems, noteRenderings } from '../src/text/reviews';
 import { isLowercaseTag, licenseProblem, textFileProblems, type SourceInfo } from '../src/text/validate';
 
 const COMPILED_DIR = './compiled';
@@ -62,6 +66,16 @@ for (const id of fs.readdirSync(SOURCES_DIR).sort()) {
     sources.set(id, { id, license: raw.license, languages, roles: strings(raw.roles) as SourceInfo['roles'] });
 }
 
+// The reviews, read first so the walk keeps only the word renderings check 6 needs.
+const { reviews, problems: reviewProblems } = readReviews(REVIEWS_DIR);
+const keyOf = (lang: string, entityId: string, renderingId: string): string => `${lang}\u0000${entityId}\u0000${renderingId}`;
+const wantedKeys = new Set([
+    ...reviews.verdicts.map(v => keyOf(v.lang, v.entity.id, v.rendering)),
+    ...[...noteRenderings(reviews.notes)].flatMap(([word, list]) => list.flatMap(({ lang, renderings: notes }) => notes.map(n => keyOf(lang, word, n.id)))),
+]);
+/** The word renderings a review names, and every one that records a review. */
+const vocabRenderings = new Map<string, Rendering>();
+
 // ---- 1, 5. every text file
 let renderings = 0;
 const counts = new Map<string, number>();
@@ -75,9 +89,13 @@ function walk(dir: string, lang: string): void {
         if (!isTextFile(raw)) continue;
         const file = raw;
         for (const p of textFileProblems(file, lang, sources)) problems.push(`${path.relative(TEXT_DIR, full)}: ${p}`);
-        for (const entity of Object.values(file.entities)) {
+        for (const [entityId, entity] of Object.entries(file.entities)) {
             for (const r of entity.renderings) {
                 renderings++;
+                if (file.kind === 'vocab') {
+                    const key = keyOf(lang, entityId, r.id);
+                    if (r.review || wantedKeys.has(key)) vocabRenderings.set(key, r);
+                }
                 const key = `${lang} ${r.source.source} ${r.status}`;
                 counts.set(key, (counts.get(key) ?? 0) + 1);
             }
@@ -115,9 +133,21 @@ for (const [dir, fields] of Object.entries(LEGACY_FIELDS)) {
     if (Array.isArray(search) && search.some(e => isRecord(e) && 'm' in e)) problems.push('index/search.json: core has glosses ("m")');
 }
 
-// ---- 6. reviews
-if (fs.existsSync(REVIEWS_DIR) && fs.readdirSync(REVIEWS_DIR).length > 0) {
-    problems.push('data/reviews/ has files, but nothing reads reviews yet: add the check that each names a rendering that exists (phase 5)');
+// ---- 6. reviews: each verdict's rendering is in its language with the verdict's status and review,
+// each note is there, each gold word exists, and no rendering claims a review no file records.
+{
+    for (const p of reviewProblems) problems.push(p);
+    const verdictKeys = new Set(reviews.verdicts.map(v => keyOf(v.lang, v.entity.id, v.rendering)));
+    problems.push(...compiledVerdictProblems(reviews.verdicts, v => vocabRenderings.get(keyOf(v.lang, v.entity.id, v.rendering))));
+    for (const [key, r] of vocabRenderings) {
+        if (r.review && !verdictKeys.has(key)) problems.push(`compiled/text: rendering ${r.id} records a review (${r.review.by}) that data/reviews/ does not`);
+    }
+    for (const [word, list] of noteRenderings(reviews.notes)) {
+        for (const { lang, renderings: notes } of list) {
+            for (const n of notes) if (!vocabRenderings.has(keyOf(lang, word, n.id))) problems.push(`data/reviews/notes-${lang}.jsonl: the note on word ${word} is not in compiled/text/${lang}/vocab/`);
+        }
+    }
+    for (const g of reviews.gold) if (!fs.existsSync(path.join(COMPILED_DIR, 'vocab', `${g.word}.json`))) problems.push(`data/reviews/gold-${g.lang}.jsonl: word ${g.word} (${g.headword}) is not in compiled/vocab/`);
 }
 
 if (problems.length > 0) {

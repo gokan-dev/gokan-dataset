@@ -113,6 +113,8 @@ This was the sketch; the types are now in `src/models/text.model.ts`. They diffe
 - a source's snapshot is recorded once, in its `source.json`, so a rendering's `source` is only `{ source, ref }`;
 - a value is a plain string, unless an allowlisted transform made it, when it is `{ value, derivedFrom }`.
 
+Since phase 5, a rendering whose status a review set (`reviewed` or `rejected`) also carries `review: { by, basis, date }` (see "Corroboration and review").
+
 ### Language tags
 
 - A text is tagged with the language its source wrote it in. Chinese is `zh-hans` or `zh-hant` when its characters tell the script (Tatoeba tags Mandarin only as `cmn`; 给 makes a sentence Simplified), and bare `zh` only when they cannot.
@@ -218,8 +220,14 @@ The matcher is `src/text/match.ts`; `bun run build:text` writes its counts per s
 
 - **Corroborated** means a text from another community agrees: shares an equivalent, after both are converted to Simplified characters. Communities, not sources, because sources of one community copy each other: Wikidata's Chinese labels largely follow Chinese Wikipedia's titles (89% agreement), Japanese Wiktionary's two sources share editors (84%).
 - **Disagreement is a review signal, never a rejection.** The benchmark's hand check found agreement trustworthy and disagreement mostly a false alarm (see below).
-- **Reviews are data**, `data/reviews/<lang>.jsonl`: the rendering's identity, the decision (`reviewed` or `rejected`), who, when, and a note. A review whose rendering no longer exists fails the build, so a stale decision is noticed.
-- **The gold set** is a fixed sample of words (60 per JLPT level, drawn with a fixed seed, plus known false friends) for which a reviewer writes, from the Japanese, the acceptable equivalents of each main sense. It turns agreement rates into error rates and calibrates the agreement test.
+- **Reviews are data**, in `data/reviews/`, JSON Lines written by hand, read and narrowed once by `src/text/reviews.ts`. A file's name says what it holds, and any other name fails the build:
+  - `<lang>.jsonl`, one verdict per line on a rendering in that language: its id (`rendering`), its entity (`{ kind, id }`, words only so far), the `decision` (`reviewed` or `rejected`), an optional `reason`, the status it had when reviewed (`seen`), its `source` and `value` (for a person reading the file; the id is what identifies the text), and the provenance every record carries: `by`, `basis`, `date`, `confidence` (`high`, `medium`, `low`);
+  - `gold-<lang>.jsonl`, the gold set written in that language: per word, its id, `headword`, `reading`, `level` and, per main sense, the JMdict `sense` and the words to `accept`;
+  - `notes-<lang>.jsonl`, notes for that language's readers (a false friend): the word, its `headword`, the `value`.
+- **How build:text applies them.** After it assembles a word's Chinese text, it adds the word's notes, as `note` renderings of source `gokan`, status `imported` (written by an AI, not yet checked by a person, decision D4), then sets every rendering a verdict names to the verdict's status, before choosing the search gloss: a `rejected` text stays in the compiled text, to be inspected and reviewed again, and is never chosen as a gloss (a `reviewed` one ranks with the corroborated). Nothing else of the rendering changes, so its id stays valid: the id ignores status and review. A reviewed or rejected rendering records who decided, `review: { by, basis, date }`, so a consumer can tell a provisional AI review from a person's without reading `data/reviews/`; the reason and confidence stay in the review files, which are the full record. A note is a rendering like any other, so a verdict on its id reviews it.
+- **A stale review fails the build**: a verdict whose rendering no longer exists in its language (the source changed the text, which changes the id), or a gold or note record naming a word that does not exist or by a spelling it does not have.
+- **The reviews so far are provisional.** No Chinese-speaking reviewer has been found yet, so the gold set, its verdicts and its notes were written by an AI (`by: "claude-opus-5-5"`, `basis: "ai-provisional"`), recorded so that a person can confirm or correct each one. To correct a verdict, edit its line, or replace it, keeping the `rendering` id, and set `by` to the person and `basis` to how they judged (`native-speaker`, for example); to confirm one, change only `by`, `basis` and `date`. A gold or note record is corrected the same way. A note is checked by adding a verdict on its rendering id.
+- **The gold set** is a fixed sample of words (60 per JLPT level, drawn with a fixed seed, plus known false friends) for which a reviewer writes, from the Japanese, the acceptable equivalents of each main sense. It turns agreement rates into error rates and calibrates the agreement test. The benchmark scores it: the precision of the texts by the status they had before review, per level and source; the share of gold senses some text not rejected agrees with; the share of gold words with a rejected text; and the candidate acceptance rules (see "Phase 5 as built").
 
 ## Pipeline
 
@@ -285,14 +293,14 @@ Each rule is a check, so it cannot regress by review:
 3. Renderings from different sources are never merged.
 4. Every source has a `source.json` with an SPDX licence compatible with CC-BY-SA-4.0, and a snapshot whose checksums match.
 5. Every derived value names an allowlisted transform and its original.
-6. Every review names a rendering that exists.
+6. Every review names a rendering that exists, and every gold or note record a word that exists.
 7. Every compiled file validates against its schema.
 8. Rebuilding from unchanged inputs changes no byte of the output.
 9. The benchmark's coverage and agreement do not drop below their recorded floors.
 
 Where each runs (all after `bun run build`):
 
-- 1, 2, 4, 5 and 6: `bun run check:text`. Check 6 has nothing to check until phase 5 records reviews, and fails if a review appears before its check does.
+- 1, 2, 4, 5 and 6: `bun run check:text`. Check 6 runs twice: `build:text` fails on a review file it cannot read, a verdict no assembled rendering takes, or a gold or note record naming an unknown word; `check:text` then proves the compiled output kept them, each verdict's rendering in its language with the verdict's status and `review`, each note emitted, each gold word in `compiled/vocab/`, and no rendering claiming a review that `data/reviews/` does not record.
 - 3 holds by construction: a rendering has exactly one source.
 - 7: `bun run check:schemas`.
 - 8: `bun run check:determinism`, which rebuilds everything from the raw sources and compares every byte.
@@ -364,6 +372,13 @@ Two changes stay apart so neither hides a regression in the other. Phase 2 happe
   - Chinese Wiktionary (71.1% at N5), Wikidata (43.7%) and Tatoeba (84.6% of N5 words with a first-hand Chinese sentence, 5,482 pool sentences, one fewer than measured because its Japanese was edited since the pool's export) agree with the research. Unihan tells the script of far more sentences than the research's 40-character list: 3,010 Simplified, 1,887 Traditional, 968 the same in both.
 - **Decided while building.** Tatoeba's Mandarin export is its own source, `tatoeba-cmn` (community `tatoeba`), because a source has one snapshot and its date is not the English pairs' (2026-02-15). Pinyin is tagged `zh-latn-pinyin`. Japanese Wiktionary's Mandarin is `zh` and `cmn`, Southern Min `nan` (閩南語, 台湾語); senses and cells in Cantonese, Wu, Hakka or another Chinese language are left out until they have a tag here. The fetch scripts for Wikidata and Wikipedia are in `scripts/` (`fetch-wikidata-lexemes.ts`, `fetch-wikipedia-links.ts`). Chinese Wiktionary's example sentences are not read yet.
 
+**Phase 5 as built (2026-11-06).** The gold set is the benchmark's 300-word draft (60 per JLPT level, seed 20261104; the known false friends are among them, not added), reviewed provisionally by an AI (D7) and recorded in `data/reviews/`: 981 verdicts in zh-hans (800 reviewed, 181 rejected) and 910 in zh-hant (744, 166) on 249 of the 300 words (50 have no Chinese text), 577 gold senses, and 26 notes on false friends, emitted as `note` renderings in zh-hans. Every verdict found its rendering, at the status it was reviewed at. The numbers below are in `docs/multilingual-benchmark/report.md`, with floors one point below them:
+
+- **Precision by the status before review** (zh-hans): corroborated texts 97.4% accepted (of 426), imported 69.4% (of 555), from 64.5% at N5 to 81.6% at N1. By source, imported: Chinese Wiktionary 98.9% (of 92), Japanese Wiktionary 63.3% (of 409), Wikidata 64.8% (of 54); corroborated: 100%, 99.2% and 88.0%. zh-hant agrees within two points. Corroboration is as trustworthy as the hand calibration found; an imported equivalent is right two times in three, an imported Chinese Wiktionary definition almost always.
+- **Gold coverage**: 61.0% of the gold senses have a text not rejected that agrees with an accepted word (66.9% at N5, 47.9% at N1); 31.3% of the gold words have at least one rejected text (45.0% at N5, where words are most polysemous and Japanese Wiktionary's reverse entries attach most).
+- **Acceptance rule candidates**, still to be chosen (counts of word texts in zh-hans after review; precision and gold coverage on the texts as they were before review): (A) reviewed or corroborated only, 14,753 texts on 4,686 words, 97.4%, 32.1% of gold senses; (B) A plus imported texts of a source whose imported precision is at least 85%, which admits Chinese Wiktionary only, 21,556 texts on 11,011 words, 97.7%, 50.6%; (C) everything not rejected, 43,361 texts on 15,973 words, 81.5%, 61.7%.
+- **Decided while building.** A reviewed or rejected rendering records `review: { by, basis, date }` (about 1,900 renderings, a few dozen bytes each); the reason and confidence stay in `data/reviews/`. The search gloss never takes a rejected text, and ranks a reviewed equivalent with the corroborated ones, so accepting a text never demotes it. `gokan`'s `source.json` lists `zh-hans` for its notes.
+
 ## Decisions
 
 | # | Decision | Recommendation | Status |
@@ -374,12 +389,13 @@ Two changes stay apart so neither hides a regression in the other. Phase 2 happe
 | D4 | How authored prose may be drafted | One rule for every language. The English contrast lessons are "AI-drafted, human-reviewed" (SCHEMA.md), which is looser than the rule for imported text. Either that holds for authored Chinese too, or authored text is written by a person. | for existing English, decided 2026-11-04: Gokan's hand-written text and its AI-drafted, human-reviewed text are `reviewed`, with a note saying how the text was made; for new languages, open |
 | D5 | Chinese Wiktionary's bot entries | Excluded until their origin is known. | decided 2026-11-05: excluded, recognised as the benchmark did (no part of speech, the first gloss opening with the headword and its reading in 【】); 40,455 entries left out (230 under 日語, 40,225 under 日语) |
 | D6 | What corroborates | Agreement with a text from another community: zh.wiktionary; ja.wiktionary; wikimedia (Wikidata, Wikipedia); tatoeba; edrdg; gokan. | decided 2026-11-05: agreement with a text from another community (those six); agreeing is sharing an equivalent once both are in Simplified characters, the benchmark's rule (a one-character item agrees with an item it starts); a corroborated rendering has status `corroborated` and `evidence` naming the agreeing sources and items; disagreement never rejects. Wikipedia is a check only: it appears as evidence, never as a rendering |
-| D7 | Reviews and the gold set | Reviews stored as data here, keyed by rendering identity. Who reviews Chinese is open. | open |
+| D7 | Reviews and the gold set | Reviews stored as data here, keyed by rendering identity. Who reviews Chinese is open. | 2026-11-06: provisional AI review of the 300-word gold set by claude-opus-5-5, recorded as data; a Chinese-speaking reviewer to confirm or correct it |
 | D8 | Compiled layout | One layout both apps read: core files where they are today, text under `compiled/text/<lang>/` mirroring them, per-language indexes. | decided 2026-11-04 |
 | D9 | Schemas | JSON Schema per compiled file type, validated at build; the tool chosen in phase 2. | decided 2026-11-04: generated from the TypeScript types by ts-json-schema-generator, validated with Ajv |
 | D10 | Dataset manifest | Frictionless `datapackage.json`. | decided 2026-11-04 |
 | D11 | Where near-synonyms come from | Per language, computed from that language's renderings, as the English ones are today. A Japanese source of language-neutral synonyms can be measured later. | decided 2026-11-04 for now; a Japanese source stays open |
 | D12 | What the dataset guarantees its consumers | One JSON file per entity and no serving format; per-language entity indexes; byte-reproducible output; ids that never depend on a language. | decided 2026-11-04 |
+| D13 | Which Chinese text a learner is shown (the acceptance rule) | Shown when reviewed or corroborated, or imported from a source reliable on its own (Chinese Wiktionary's definitions, Tatoeba's first-hand Mandarin, Unihan); never when rejected. On the gold set this shows 11,011 words at 97.7% precision, against 4,686 at 97.4% for reviewed-or-corroborated only and 15,973 at 81.5% for everything not rejected. One function, `isShown` in `src/text/acceptance.ts`, decides for every consumer; the search gloss uses it. | provisional 2026-11-06, set from the AI review of the gold set; to confirm with a Chinese-speaking reviewer |
 
 ## Open questions
 

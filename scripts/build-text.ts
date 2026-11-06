@@ -31,7 +31,9 @@ import { reverseRecords, translationRecords } from '../src/text/jawiktionary';
 import { parseKaikkiEntry, type KaikkiEntry } from '../src/text/kaikki';
 import { MatchLog, matchHeadword, matchSpelling, matchSpellingAndReading, wordIndex, type MatchResult, type MatchWord } from '../src/text/match';
 import { sourceCommunities } from '../src/text/registry';
-import { addRenderings, withoutSources } from '../src/text/renderings';
+import { addRenderings, withoutRenderings, withoutSources } from '../src/text/renderings';
+import { readReviews } from '../src/text/reviewFiles';
+import { applyVerdicts, isReviewNote, noteRenderings, staleVerdicts, unknownWords, verdictIndex } from '../src/text/reviews';
 import { directionOf, linkKind, sentenceBase, tsvRows, type LinkKind } from '../src/text/tatoebaCmn';
 import { parseMandarinReadings, unihanText } from '../src/text/unihan';
 import { parseLexemes, parseSitelinks, wikidataRecord } from '../src/text/wikimedia';
@@ -39,6 +41,7 @@ import { isBotEntry, zhWiktionaryRecords } from '../src/text/zhwiktionary';
 
 const ASSEMBLED_DIR = './build/assembled';
 const SOURCES_DIR = './data/sources';
+const REVIEWS_DIR = './data/reviews';
 const LOG_FILE = path.join(ASSEMBLED_DIR, 'text_matching.log');
 
 /** The sources this stage reads: what they gave is removed before they are read again. */
@@ -104,6 +107,17 @@ async function main(): Promise<void> {
         readingCount.set(v.id, new Set(readings).size);
     }
     const index = wordIndex(words);
+
+    // ---- the reviews (build check 6): every record readable, every word it names real, before the long reads
+    const { reviews, problems: reviewProblems } = readReviews(REVIEWS_DIR);
+    const forms = new Map(words.map(w => [w.id, { forms: [...w.spellings, ...w.readings] }]));
+    const { index: verdicts, problems: duplicateVerdicts } = verdictIndex(reviews.verdicts);
+    const reviewFailures = [...reviewProblems, ...duplicateVerdicts, ...unknownWords(reviews, forms)];
+    if (reviewFailures.length > 0) throw new Error(`data/reviews/ has ${reviewFailures.length} problem(s):\n  ${reviewFailures.join('\n  ')}`);
+    const notes = noteRenderings(reviews.notes);
+    const noteLanguages = new Set(reviews.notes.map(n => n.lang));
+    const ownText = (text: TextByLanguage): TextByLanguage => withoutRenderings(text, (r, lang) => OWN_SOURCES.has(r.source.source) || isReviewNote(r, noteLanguages, lang));
+
     const spellingRank = new Map(words.map(w => [w.id, w.spellings]));
     const inputs = new Map<string, { definitions: DefinitionInput[]; equivalents: EquivalentInput[]; checks: CheckInput[] }>();
     const inputsOf = (id: string) => {
@@ -206,10 +220,14 @@ async function main(): Promise<void> {
         const original = fs.readFileSync(file, 'utf8');
         // Output of build:data, already typed by it.
         const v = JSON.parse(original) as Vocabulary;
-        const text = withoutSources(v.text, OWN_SOURCES);
+        const text = ownText(v.text);
         const own = inputs.get(v.id);
-        if (own) {
-            const chinese = chineseWordText(v.id, own, community, variants, stats);
+        const wordNotes = notes.get(v.id);
+        if (own || wordNotes) {
+            const assembled = own ? chineseWordText(v.id, own, community, variants, stats) : {};
+            for (const n of wordNotes ?? []) addRenderings(assembled, n.lang, n.renderings);
+            // Reviews before the search gloss, so a rejected text is never chosen.
+            const chinese = applyVerdicts(assembled, 'vocab', v.id, verdicts);
             for (const [lang, entity] of Object.entries(chinese)) {
                 addRenderings(text, lang, entity.renderings);
                 wordsByLang.set(lang, (wordsByLang.get(lang) ?? 0) + 1);
@@ -223,6 +241,14 @@ async function main(): Promise<void> {
         }
         if (rewrite(file, original, { ...v, text })) wordsWritten++;
     }
+    const stale = staleVerdicts(verdicts);
+    if (stale.length > 0) throw new Error(`${stale.length} verdict(s) in data/reviews/ name a rendering that does not exist (build check 6):\n  ${stale.join('\n  ')}`);
+    const decided = new Map<string, number>();
+    for (const v of reviews.verdicts) {
+        const key = `${v.lang} ${v.decision}`;
+        decided.set(key, (decided.get(key) ?? 0) + 1);
+    }
+    console.log(`   - Reviews applied: ${[...decided].sort(([a], [b]) => (a < b ? -1 : 1)).map(([k, n]) => `${k} ${n}`).join(', ')}; ${verdicts.statusChanged} reviewed at another status than they have now; ${reviews.notes.length} notes; ${reviews.gold.length} gold words`);
     for (const entry of search) {
         for (const lang of GLOSS_LANGUAGES) delete entry.m[lang];
         Object.assign(entry.m, glossById.get(entry.id) ?? {});
