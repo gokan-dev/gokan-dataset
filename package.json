@@ -18,7 +18,7 @@
     "build:schemas": "bun scripts/build-schemas.ts",
     "build:datapackage": "bun scripts/build-datapackage.ts",
     "check:layout": "bun scripts/check-layout.ts",
-    "check:legacy": "bun scripts/check-legacy.ts",
+    "check:english": "bun scripts/check-english.ts",
     "check:text": "bun scripts/check-text.ts",
     "check:schemas": "bun scripts/check-schemas.ts",
     "check:determinism": "bun scripts/check-determinism.ts",

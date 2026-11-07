@@ -1,7 +1,7 @@
 // The dataset's files as they were before the text layer, rebuilt from a core file and its
-// English text. scripts/check-legacy.ts compares these with an earlier commit's files to prove
-// that the text layer changed nothing for an app that reads English (docs/MULTILINGUAL.md,
-// "Phases", phase 2), and gokan-srs's loaders do the same projection.
+// English text: the shape both apps read, through the English view (english.ts). The text layer
+// was proven to change nothing for an app that reads English (docs/MULTILINGUAL.md, "Phases",
+// phase 2); scripts/check-english.ts now proves the view changes only on purpose.
 import type {
     GrammarBrowseIndex, GrammarBrowseRow, GrammarBrowseText, GrammarBrowseTexts, GrammarChapter, GrammarConjugation, GrammarContrastCase,
     GrammarContrastIndex, GrammarContrastLesson, GrammarExample, GrammarFamilyIndex, GrammarPoint, GrammarTeachingOrder, GrammarVariantGroups,
