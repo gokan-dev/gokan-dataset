@@ -1,7 +1,7 @@
 // The dataset's English view: every compiled file in the shape it had before the text layer,
 // built from its core and its English text. The apps that read English (gokan-srs, and
 // gokan-dictionary until it shows other languages) read the dataset through this, so their code
-// is unchanged; scripts/check-legacy.ts proves it gives back exactly the old files. Node only
+// is unchanged; scripts/check-english.ts proves it changes only on purpose. Node only
 // (it reads compiled/ from disk), and nothing here is a second source of truth: it is a view.
 import fs from 'node:fs';
 import path from 'node:path';
