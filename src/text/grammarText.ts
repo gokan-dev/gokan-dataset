@@ -2,9 +2,9 @@
 // dataset's own ids: hanabira's entries (which have no ids of their own, so a point's positional
 // id names the entry it was read from) and Gokan's hand-written files (keyed by point, family,
 // chapter or case). So every rendering is matched by `id`, and `ref` is that id.
-import { createHash } from 'node:crypto';
 import type { EntityKind, Label, LanguageTag, Prose, SourceId, TextStatus, Translation } from '../models/text.model';
 import { rendering } from './renderings';
+import { sha256Hex } from './sha256';
 
 /** Where a grammar text was read from: the source, and the id of the item in it. */
 export interface GrammarTextSource {
@@ -55,7 +55,7 @@ export function grammarTranslation(kind: EntityKind, id: string, lang: LanguageT
  * build asserts it); hashed, so a key stays short.
  */
 export function grammarExampleId(pointId: string, jp: string): string {
-    return `${pointId}#${createHash('sha256').update(jp).digest('hex').slice(0, 12)}`;
+    return `${pointId}#${sha256Hex(jp).slice(0, 12)}`;
 }
 
 /** A contrast case's id: its family, its lesson, and what it contrasts, which is unique within the lesson. */

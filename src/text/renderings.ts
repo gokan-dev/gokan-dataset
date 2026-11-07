@@ -1,7 +1,6 @@
 // Building and reading explanation-language text (docs/MULTILINGUAL.md, "The model"). A source
 // reader makes renderings with `rendering`, as it reads its source; every later stage reads them
 // through the accessors here, never by language-specific fields.
-import { createHash } from 'node:crypto';
 import type {
     Definition,
     DefinitionSense,
@@ -17,6 +16,7 @@ import type {
     Translation,
     Value,
 } from '../models/text.model';
+import { sha256Hex } from './sha256';
 
 type Unidentified<R extends Rendering> = R extends Rendering ? Omit<R, 'id'> : never;
 
@@ -27,7 +27,7 @@ type Unidentified<R extends Rendering> = R extends Rendering ? Omit<R, 'id'> : n
  */
 export function renderingId(kind: EntityKind, entityId: string, lang: LanguageTag, rendering: Unidentified<Rendering>): string {
     const { status: _status, match: _match, evidence: _evidence, of: _of, review: _review, ...said } = rendering;
-    return createHash('sha256').update(JSON.stringify([kind, entityId, lang, said])).digest('hex').slice(0, 16);
+    return sha256Hex(JSON.stringify([kind, entityId, lang, said])).slice(0, 16);
 }
 
 /** A rendering with its identity, for the entity it explains. */
