@@ -6,14 +6,17 @@ import { englishFile, englishInputs, englishTextPath } from './englishFile';
 
 const COMPILED_DIR = './compiled';
 
-/** Every module `entry` reaches through value imports (type-only imports are erased), relative to src/. */
-function valueImports(entry: string): Map<string, string[]> {
+/**
+ * Every module `entry` reaches through value imports (type-only imports are erased), or through
+ * every import with `withTypes`, each with the specifiers it imports.
+ */
+function valueImports(entry: string, withTypes = false): Map<string, string[]> {
     const seen = new Map<string, string[]>();
     const visit = (file: string): void => {
         if (seen.has(file)) return;
         const source = fs.readFileSync(file, 'utf8');
         const specifiers = [...source.matchAll(/^(?:import|export)\s+(type\s+)?(?:[^'";]*?\sfrom\s+)?['"]([^'"]+)['"]/gms)]
-            .filter(m => !m[1])
+            .filter(m => withTypes || !m[1])
             .map(m => m[2]);
         seen.set(file, specifiers);
         for (const s of specifiers) if (s.startsWith('.')) visit(path.resolve(path.dirname(file), `${s}.ts`));
@@ -26,6 +29,15 @@ describe('englishFile', () => {
     it('imports nothing from node: anywhere below it, so it runs in a browser', () => {
         const offenders = [...valueImports('src/layout/englishFile.ts')]
             .flatMap(([file, specifiers]) => specifiers.filter(s => s.startsWith('node:') || !s.startsWith('.')).map(s => `${path.relative('.', file)}: ${s}`));
+        expect(offenders).toEqual([]);
+    });
+
+    it('reaches no Node script through its types either, so an app built for a browser type-checks it', () => {
+        // A type import is erased at runtime but still checked: gokan-srs's browser build has no
+        // Node types, and text.model.ts once took the synonym types from scripts/build-synonyms.ts.
+        const offenders = [...valueImports('src/layout/englishFile.ts', true)]
+            .filter(([file, specifiers]) => !path.relative('src', file).split(path.sep)[0].match(/^(models|text|layout)$/) || specifiers.some(s => !s.startsWith('.')))
+            .map(([file]) => path.relative('.', file));
         expect(offenders).toEqual([]);
     });
 
