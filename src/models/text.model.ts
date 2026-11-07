@@ -1,6 +1,6 @@
 // Explanation-language text: what one source says about one entity, in one language
 // (docs/MULTILINGUAL.md, "The model"). Every language is held this way, English included.
-import type { SynonymEntry, SynonymForms } from '../../scripts/build-synonyms';
+import type { SynonymEntry, SynonymForms } from './synonym.model';
 import type { Sense } from './vocabulary.model';
 
 /** BCP 47, always lowercase: `en`, `zh-hans`, `nan`. */

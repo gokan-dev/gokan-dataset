@@ -1,6 +1,9 @@
 import fs from 'fs';
 import path from 'path';
+import type { SynonymEntry, SynonymForms, SynonymRelation } from '../src/models/synonym.model';
 import type { Vocabulary } from '../src/models/vocabulary.model';
+
+export type { SynonymEntry, SynonymForms, SynonymRelation };
 import { jmdictSenses } from '../src/text/jmdict';
 
 /**
@@ -127,8 +130,6 @@ const MIN_SHARED = 1;
  *  coincidence (best, most, ...), so the sense-coverage path still demands a
  *  >=2-gloss sense even though the overlap path now accepts a single shared gloss. */
 const MIN_COVERED_SENSE = 2;
-
-export type SynonymRelation = 'interchangeable' | 'confusable';
 
 /**
  * EVERY major part of speech a word carries, coarse enough that 必ず and 常に
@@ -380,41 +381,6 @@ export function sharedMeanings(a: Pick<Word, 'uses'>, b: Pick<Word, 'uses'>): st
         .sort();
     const loose = shared(false);
     return loose.length >= BOUND_FORM_SHARED ? loose : shared(true);
-}
-
-/** One entry of a compiled vocab file's `synonyms` list. */
-export interface SynonymEntry {
-    id: string;
-    relation: SynonymRelation;
-    /** Normalized glosses both words carry; empty for a hand-added pair with no overlap. */
-    shared: string[];
-    /** shared / smaller word's gloss count (see overlapScore). */
-    overlap: number;
-    /** Set when data/raw/vocab/synonyms.json decided the tier; the app never overrides a curated tier from context. */
-    curated?: true;
-}
-
-/**
- * The OTHER word's answerable forms, embedded on each entry so a consumer can
- * tell whether a typed answer is that word without fetching its vocab file
- * (a word can list hundreds of pairs). Kept terse because it repeats on every
- * one of ~475k entries.
- */
-export interface SynonymForms {
-    /** Written forms: kanji first, then alternatives. */
-    w: string[];
-    /** Readings: primary first, then alternatives, then merged homographs' readings. */
-    r: string[];
-    /** The word's inflecting POS codes only (v5k, v1, vs, adj-i...), so its conjugated forms can be accepted too. */
-    pos?: string[];
-    /** Learned in kana (Vocabulary.usuallyKana): a consumer naming the word shows `r[0]`, not `w[0]`. */
-    u?: true;
-    /**
-     * The word's frequency rank: its 1-based position in index/frequency.json. Absent
-     * when JPDB does not rank it (those sit at the end of the file in no real order).
-     * Lets a word page order and cut its synonyms without loading that 3 MB index.
-     */
-    f?: number;
 }
 
 /** POS codes that decide how a word inflects; every other code is irrelevant to matching an answer. */
