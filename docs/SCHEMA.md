@@ -209,7 +209,15 @@ interface GrammarExample {
   romaji: string;
   en: string;
   words: GrammarExampleWord[]; // tokenized `jp`, in order - concatenating every `surface` reconstructs `jp` exactly
+  host?: GrammarExampleHost;    // the conjugated word the pattern attaches to, where an exercise should ask for its form: see "host" below
+  ruledOut?: string[];          // ids of the family siblings that cannot stand in this example's blank, by connection alone: see "ruledOut" below
   patternWordIndices: number[]; // indices into `words[]` that are this grammar point's literal, invariant markers (が/いちばん for "Noun + が + いちばん + Adjective/Verb") - located at build time by scripts/grammar-pattern-matcher.ts, matching `formation`'s literal Japanese against `words[]` surface/baseForm/reading. Always present; empty when the pattern couldn't be confidently located in this specific example (99.9% of points have at least one non-empty example as of the last build - see the pattern-location issue for the one documented exception and the matching methodology).
+}
+
+interface GrammarExampleHost {
+  wordIndices: number[]; // indices into `words[]`, contiguous, ending where the pattern starts (on an inflection point, the pattern's own word)
+  lemma: string;         // its dictionary form (する), as an exercise gives it
+  reading: string;       // the host words in kana, as this sentence reads them (して)
 }
 
 interface GrammarExampleWord {
@@ -219,6 +227,29 @@ interface GrammarExampleWord {
   baseForm?: string;        // kuromoji's dictionary/base form (e.g. "思う" for the conjugated token "思っ"), only set when it differs from `surface`. Lets pattern-location (and any future consumer) match a formation's dictionary-form literal against a conjugated token without fuzzy/edit-distance matching.
 }
 ```
+
+### `GrammarExample.host`: the word a pattern attaches to
+
+A formation such as `Verb-て form + から` teaches two things: the marker and the form before it. `patternWordIndices` covers only the marker, so a blank over it asks for から and leaves して written. `host` names the conjugated word, so an exercise can give its dictionary form and ask for the whole attachment (する, answer してから).
+
+- **When it is set.** Only where the point's formation demands a form of the word before the marker (て-form, た-form, ない-form, a stem, volitional, ば, potential, causative, passive: `demandsHostForm` in `src/utils/hostWord.ts`), and that word is written differently from its dictionary form. The dictionary and plain forms are left out on purpose: there the host is written as the learner knows it, and asking for it would add a question about tense, not about the point. On an `inflection` point the host is always kept, and is the pattern itself where the conjugated word was found by conjugating (see the mined pools below).
+- **How it is found.** On the fine-grained kuromoji tokens, like the pattern: from the token before the marker, walking back over auxiliaries, a connective て and bound verbs (させ, られ) to an independent verb or い-adjective (`hostHead`). A marker after a noun or a particle has no host. The token run is then mapped onto the merged `words[]`; it must be contiguous and end where the pattern starts.
+- **`reading`** is the kana of those tokens as kuromoji reads them. Most hosts link to no vocab entry, so there is no other reading, and the answer is typed in kana.
+
+The last build marks 591 curated examples, on 154 construction points and 13 inflection points.
+
+### `GrammarExample.ruledOut`: siblings the sentence excludes by connection
+
+The ids of the point's family siblings that cannot stand in this example's blank, because the word before the blank is in a form they never attach to (にしろ after a volitional, べからず after a て-form). These are the wrong answers a choice exercise may offer: the learner can rule them out by the form in front of the blank.
+
+It is deliberately narrow (`src/utils/attachment.ts`), because a wrong exclusion tells a learner that a valid sentence is wrong. Formation texts are loose about ordinary attachment (`Noun + にせよ` also follows a plain verb, and a mined pool only repeats what its formation says), so **nothing is concluded from a noun, a plain form or an adjective before the blank**. A first version that did excluded にせよ after 降る. Nor from a verb stem, which is also a noun (買い物をしに帰る is valid, though に帰ります is only ever shown after a noun): a second version excluded it. Only two forms are marked enough to conclude from, the て-form and the volitional (`hostFormOf`). A sibling is listed only when:
+
+- the word before the blank is a て-form or a volitional, and neither the sibling's formation nor any of its own examples (curated and mined) shows that form; or
+- the sibling attaches to marked forms only (its formation names a て-form, a volitional or a stem and no ordinary attachment, and every one of its examples follows one), and the word before the blank is an ordinary one.
+
+A sibling whose marker opens with て is never listed after a て-form (してても is the spoken していても, not a clean wrong answer). Inflection points take no part: they have no marker to weigh. Whether a sibling that does attach means the wrong thing is a claim about meaning and is not made here.
+
+Written by `scripts/build-grammar-ruled-out.ts`, after the mined pools exist. The last build lists a sibling on 3,182 examples across 132 points; 80 points have an example ruling out two or more.
 
 ### `kind` — the nature of a point, and which exercise can test it
 
@@ -328,6 +359,10 @@ Two matchers compose, and both are precision gates:
 **Post-location filters.** The blank `locatePattern` places is re-checked against the matched rule (it may pick a different occurrence than the one the rule accepted); a sentence whose marker also appears unblanked (the answer would be visible) is dropped; and a sentence longer than 60 characters or more than two sentences (a speech transcript) is never an example.
 
 **Scope: high-precision points only.** Every morphological rule, distinctive multi-char literals, and 2-char markers whose formation pins the word before them to a verb or adjective (what separates reason から from source から); the ~function-word literal over-matchers (こと/なら/だろう/まで/という/ところ/…) stay deferred (`isHighPrecision` in the build script). A few variants whose grammatical sense cannot be told from a common literal one are excluded by hand (`EXCLUDED_VARIANTS`: の上に as "on top of", につけ as 身につける). A point pool is capped at 60 (reservoir-sampled from all matches, so it is a stable, diverse slice rather than the first 60). Each point samples from its own random stream seeded on its id, so adding or dropping one point never reshuffles another point's pool (with one shared stream, it reshuffled ~100 unrelated pools, and with them the sentences learners had been seeing). The last build mined **16,023 examples across 522 points** (median pool 26, 188 at the cap). Points with no eligible rule, or deferred as low-precision, or with zero verified matches, simply have no file - the consumer falls back to the point's own curated `examples`.
+
+**Inflection points have a pool too.** They are excluded from the mining above (no marker to mine by). Their sentences are the ones that write the form they teach, found by `src/utils/inflectedForms.ts`: every independent verb, い-adjective and な-adjective in a sentence is conjugated into every form the conjugator knows, and the sentence is checked for the result. The match must end on a token boundary (食べた is not found in 食べたい), the longest form at a word wins (高く is not found in 高くない), a form the sentence conjugates further is dropped (食べたら), two forms written alike (the ichidan passive and potential) name nothing, and a bound verb or adjective (れる, せる, the ない after a verb) is never a word of its own. A sentence qualifies for a point when exactly one of its words is in the point's form (`POINT_FORMS`), of a class its drill allows (`PREFERRED_CLASSES`), and is not ない. The conjugated word is both the example's `patternWordIndices` and its `host` (`inflectedWordIn`). Same cap, same per-point random stream. The curated examples of an inflection point are located the same way, in `build-grammar.ts`, which is surer than their formation's literal.
+
+Five forms are not mined, because a corpus sentence cannot be trusted to show them (`UNMINED_FORMS`): the prohibitive (泣くな is written like the exclamation in 当てはまるな), a な-adjective's に and で (健康に気を遣う is the noun with a particle), the potential (書ける is tokenized as a verb of its own) and ず (the corpus has the literary sentence-final 得ず, the point teaches ずに). Their points keep to their curated examples and the drill. 1,914 examples across the 35 mined inflection points as of the last build.
 
 ## `compiled/grammar/index/aliases.json` — deduplicated point ids
 

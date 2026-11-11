@@ -30,6 +30,22 @@ export interface GrammarExampleWord {
     baseForm?: string;
 }
 
+/**
+ * The conjugated word a pattern attaches to in one example (し in してから), so an
+ * exercise can give its dictionary form and ask for the form together with the
+ * marker. Recorded only where the point's formation demands a form of that word
+ * (src/utils/hostWord.ts), or the point is an inflection, whose conjugated word
+ * is the whole answer.
+ */
+export interface GrammarExampleHost {
+    /** Indices into `words[]`, contiguous: the word and whatever conjugates with it, up to the pattern (or the pattern's own word, on an inflection point). */
+    wordIndices: number[];
+    /** Its dictionary form (する), as the exercise gives it. */
+    lemma: string;
+    /** The host words in kana, as this sentence reads them (して), for an answer typed in kana. */
+    reading: string;
+}
+
 /** An example sentence. Its translation is a translation rendering in `text`. */
 export interface GrammarExample {
     jp: string;
@@ -46,6 +62,15 @@ export interface GrammarExample {
      * issue for the small set of points where this happens across all examples.
      */
     patternWordIndices: number[];
+    /** The word the pattern attaches to, when the exercise should ask for its form (GrammarExampleHost). */
+    host?: GrammarExampleHost;
+    /**
+     * The family siblings that cannot stand in this example's blank, on the ground
+     * of connection alone: the word before the blank is nothing their formation or
+     * their own examples attach to (src/utils/attachment.ts). The wrong answers a
+     * choice exercise may offer. Absent when there is none.
+     */
+    ruledOut?: string[];
     /** The example read aloud, when a clip of it exists (scripts/attach-audio.ts). */
     audio?: AudioRef;
     text: TextByLanguage;

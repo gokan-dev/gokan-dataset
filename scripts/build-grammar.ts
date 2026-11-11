@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import kuromoji from 'kuromoji';
-import type { GrammarContrastLesson, GrammarContrastIndex, GrammarExample, GrammarExampleWord, GrammarFamilyIndex, GrammarJlptIndex, GrammarPoint } from '../src/models/grammar.model';
+import type { GrammarContrastLesson, GrammarContrastIndex, GrammarExample, GrammarExampleHost, GrammarExampleWord, GrammarFamilyIndex, GrammarJlptIndex, GrammarPoint } from '../src/models/grammar.model';
 import type { SearchIndex } from '../src/models/index.model';
 import type { Label, LanguageTag, Rendering, TextByLanguage } from '../src/models/text.model';
 import { grammarSlots, neutralTitle } from '../src/text/grammarSlots';
@@ -11,7 +11,11 @@ import { addRenderings, sharedFrom } from '../src/text/renderings';
 import { locatePattern } from './grammar-pattern-matcher';
 import type { MarkerInflector } from './grammar-pattern-matcher';
 import { classify, conjugate, FORM_LABELS } from '../src/utils/conjugator';
+import { createFormFinder, formTokens, type FoundForm } from '../src/utils/inflectedForms';
+import { POINT_FORMS } from './build-conjugations';
 import type { ConjugationForm } from '../src/utils/conjugator';
+import { toMorphToken } from '../src/utils/formationMiner';
+import { demandsHostForm, hostHead } from '../src/utils/hostWord';
 import { SentenceTokenizer } from '../src/utils/tokenizer';
 import { occurrenceReading } from '../src/utils/sentenceReading';
 
@@ -779,7 +783,7 @@ export function buildExampleWords(
     title = '',
     /** Conjugated forms of a verb marker (markerInflector); absent means markers are looked for as written. */
     inflect?: MarkerInflector
-): { words: GrammarExampleWord[]; patternWordIndices: number[] } {
+): { words: GrammarExampleWord[]; patternWordIndices: number[]; host?: GrammarExampleHost } {
     const spanned = spanTokens(tokenizer.tokenize(jp));
 
     // Fine-grained pass, purely to feed locatePattern - see doc comment.
@@ -891,14 +895,140 @@ export function buildExampleWords(
         fineHit.map(i => fineToMerged.get(i)).filter((i): i is number => i !== undefined)
     )).sort((a, b) => a - b);
 
-    return { words, patternWordIndices };
+    const host = hostOf(spanned, fineHit, fineToMerged, words, patternWordIndices);
+    return { words, patternWordIndices, ...(host ? { host } : {}) };
+}
+
+/**
+ * The conjugated word the located pattern attaches to, on the merged `words[]`
+ * (src/utils/hostWord.ts). Found on the fine-grained tokens, where a verb and
+ * its auxiliaries are separate, then mapped like the pattern itself. Undefined
+ * unless the words from the host's head up to the pattern are one contiguous
+ * run that is written differently from the dictionary form: an unconjugated
+ * host leaves nothing to ask for.
+ */
+function hostOf(
+    spanned: SpannedToken[],
+    fineHit: number[],
+    fineToMerged: Map<number, number>,
+    words: GrammarExampleWord[],
+    patternWordIndices: number[],
+): GrammarExampleHost | undefined {
+    if (fineHit.length === 0 || patternWordIndices.length === 0) return undefined;
+    const markerStart = Math.min(...fineHit);
+    const head = hostHead(spanned.map(st => toMorphToken(st.token)), markerStart);
+    if (head === null) return undefined;
+
+    const wordIndices: number[] = [];
+    for (let i = head; i < markerStart; i++) {
+        const merged = fineToMerged.get(i);
+        if (merged === undefined) return undefined;
+        if (!wordIndices.includes(merged)) wordIndices.push(merged);
+    }
+    const first = wordIndices[0];
+    const contiguous = wordIndices.every((w, k) => w === first + k);
+    if (!contiguous || wordIndices.some(w => patternWordIndices.includes(w))) return undefined;
+    if (wordIndices[wordIndices.length - 1] !== patternWordIndices[0] - 1) return undefined;
+
+    // A merged word starting before the head (勉強 of 勉強して) names its own
+    // dictionary form; without one, the lemma would not cover what the learner types.
+    const wordStart = words.slice(0, first).reduce((n, w) => n + w.surface.length, 0);
+    const lemma = words[first].baseForm ?? (wordStart === spanned[head].start ? spanned[head].token.basic_form : undefined);
+    if (!lemma || lemma === '*') return undefined;
+    const surface = wordIndices.map(w => words[w].surface).join('');
+    if (surface === lemma) return undefined;
+
+    // The kana of the host as this sentence reads it, token by token: a host that
+    // links to no entry (most do not) has no other reading, and the answer is typed in kana.
+    let reading = '';
+    for (const [i, st] of spanned.entries()) {
+        const merged = fineToMerged.get(i);
+        if (merged === undefined || !wordIndices.includes(merged)) continue;
+        const kana = st.token.reading && st.token.reading !== '*' ? katakanaToHiragana(st.token.reading) : st.token.surface_form;
+        if (!KANA_ONLY.test(kana)) return undefined;
+        reading += kana;
+    }
+    return { wordIndices, lemma, reading };
+}
+
+/**
+ * The host an example keeps: only where the exercise should ask for it
+ * (GrammarExampleHost). An inflection point always asks for its conjugated word.
+ */
+export function keptHost(
+    located: Pick<GrammarExample, 'host'>,
+    point: { kind: GrammarPoint['kind']; formation: string },
+): GrammarExampleHost | undefined {
+    return point.kind === 'inflection' || demandsHostForm(point.formation) ? located.host : undefined;
+}
+
+/**
+ * What a curated example of an inflection point asks for. In order:
+ * 1. the word before a located ending, with it (笑わ + ずに): the matcher found
+ *    the point's marker and a conjugated word in front of it;
+ * 2. the one word the sentence writes in the point's form, found by conjugating
+ *    (飲んで in 飲んで、出かけます, where the matcher's literal て is ambiguous);
+ * 3. the located pattern's own word, when it is conjugated and the sentence has
+ *    no word in the form as the conjugator writes it (食べたいです, whose です
+ *    continues the form; 褒められ in 褒められました).
+ * Otherwise the pattern as located, with no host: the point stays on its drill.
+ */
+function inflectionBlank(
+    located: Pick<GrammarExample, 'words' | 'patternWordIndices' | 'host'>,
+    raw: kuromoji.IpadicFeatures[],
+    findForms: ReturnType<typeof createFormFinder>,
+    form: ConjugationForm,
+    jp: string,
+): Pick<GrammarExample, 'patternWordIndices' | 'host'> {
+    if (located.host) return { patternWordIndices: located.patternWordIndices, host: located.host };
+    const inForm = findForms(formTokens(raw), jp).filter(f => f.form === form);
+    const inflected = inForm.length === 1 ? inflectedWordIn(located.words, raw, inForm[0]) : null;
+    if (inflected) return inflected;
+
+    const indices = located.patternWordIndices;
+    const own = inForm.length === 0 && indices.length > 0 && indices.every((w, k) => w === indices[0] + k)
+        ? located.words[indices[0]].baseForm
+        : undefined;
+    const reading = indices.map(i => located.words[i].reading ?? located.words[i].surface).join('');
+    return {
+        patternWordIndices: indices,
+        ...(own && KANA_ONLY.test(reading) ? { host: { wordIndices: indices, lemma: own, reading } } : {}),
+    };
+}
+
+/**
+ * A conjugated word of a sentence as an inflection point's blank: the form the
+ * finder located (inflectedForms.ts) is both the pattern and its own host, given
+ * as its dictionary form. Null when a word of `words[]` straddles the form's
+ * edge, or a token in it has no kana reading.
+ */
+export function inflectedWordIn(
+    words: GrammarExampleWord[],
+    raw: kuromoji.IpadicFeatures[],
+    found: Pick<FoundForm, 'start' | 'end' | 'lemma'>,
+): Required<Pick<GrammarExample, 'patternWordIndices' | 'host'>> | null {
+    const wordIndices: number[] = [];
+    let offset = 0;
+    for (const [i, w] of words.entries()) {
+        const wordEnd = offset + w.surface.length;
+        if (offset >= found.start && wordEnd <= found.end) wordIndices.push(i);
+        else if (offset < found.end && wordEnd > found.start) return null;
+        offset = wordEnd;
+    }
+    let reading = '';
+    for (const st of spanTokens(raw)) {
+        if (st.start < found.start || st.end > found.end) continue;
+        reading += st.token.reading && st.token.reading !== '*' ? katakanaToHiragana(st.token.reading) : st.token.surface_form;
+    }
+    if (wordIndices.length === 0 || !KANA_ONLY.test(reading)) return null;
+    return { patternWordIndices: wordIndices, host: { wordIndices, lemma: found.lemma, reading } };
 }
 
 /** An example as the core keeps it: its translation is a rendering from wherever the example was read. */
 function assembledExample(
     pointId: string,
     raw: { jp: string; romaji: string; en: string },
-    located: Pick<GrammarExample, 'words' | 'patternWordIndices'>,
+    located: Pick<GrammarExample, 'words' | 'patternWordIndices' | 'host'>,
     from: GrammarTextSource,
     seen: Set<string>,
 ): GrammarExample {
@@ -907,7 +1037,7 @@ function assembledExample(
     seen.add(exampleId);
     const text: TextByLanguage = {};
     if (raw.en) addRenderings(text, SOURCE_LANG, [grammarTranslation('grammar', exampleId, SOURCE_LANG, raw.en, from)]);
-    return { jp: raw.jp, romaji: raw.romaji, words: located.words, patternWordIndices: located.patternWordIndices, text };
+    return { jp: raw.jp, romaji: raw.romaji, words: located.words, patternWordIndices: located.patternWordIndices, ...(located.host ? { host: located.host } : {}), text };
 }
 
 /**
@@ -1196,6 +1326,8 @@ async function main() {
     let matchedWords = 0;
     let totalExamples = 0;
     let examplesAnchored = 0;
+    let examplesWithHost = 0;
+    const findForms = createFormFinder();
     const pointsWithNoAnchor: string[] = [];
     let pointsWithFormality = 0;
     let droppedForDuplicate = 0;
@@ -1289,7 +1421,14 @@ async function main() {
                 totalExamples++;
                 if (located.patternWordIndices.length > 0) { examplesAnchored++; pointAnchored = true; }
 
-                return assembledExample(id, ex, located, from, exampleIds);
+                // An inflection point's own form is found by conjugating, which is surer
+                // than its formation's literal: the て of the て-form is in every sentence.
+                const form = POINT_FORMS[id];
+                const asked = form
+                    ? inflectionBlank(located, tokenizer.tokenize(ex.jp), findForms, form, ex.jp)
+                    : { patternWordIndices: located.patternWordIndices, host: keptHost(located, { kind: kindMap[id]?.kind ?? 'construction', formation: entryFormation }) };
+                if (asked.host) examplesWithHost++;
+                return assembledExample(id, ex, { words: located.words, ...asked }, from, exampleIds);
             });
 
             if (!pointAnchored) pointsWithNoAnchor.push(`${id}: ${entry.formation}`);
@@ -1483,6 +1622,7 @@ async function main() {
     console.log(`   - Grammar points: ${totalPoints}`);
     console.log(`   - Words tokenized: ${totalWords} (${matchedWords} resolved to a vocab id, ${(100 * matchedWords / totalWords).toFixed(1)}%)`);
     console.log(`   - Pattern located: ${totalPoints - pointsWithNoAnchor.length}/${totalPoints} points (${(100 * (totalPoints - pointsWithNoAnchor.length) / totalPoints).toFixed(1)}%), ${examplesAnchored}/${totalExamples} examples (${(100 * examplesAnchored / totalExamples).toFixed(1)}%)`);
+    console.log(`   - Host word marked (the form the pattern attaches to): ${examplesWithHost} examples`);
     console.log(`   - Formality metadata: ${pointsWithFormality}/${totalPoints} points (from ${FORMALITY_PATH})`);
     const unknownOverrides = Object.keys(overrideMap).filter(id => !allRawIds.has(id));
     if (unknownOverrides.length > 0) {

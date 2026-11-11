@@ -45,7 +45,7 @@ const INVENTORY_SCAN_LIMIT = 4000;
  * `n1-178` already drills the potential and the two are homophonous for ichidan
  * verbs (see PREFERRED_CLASSES).
  */
-const POINT_FORMS: Record<string, ConjugationForm> = {
+export const POINT_FORMS: Record<string, ConjugationForm> = {
     'n5-046': 'te',
     'n5-045': 'tai',
     'n3-025': 'zu',
@@ -104,7 +104,7 @@ const FORM_LABELS_LANG: LanguageTag = 'en';
  * from a correct answer to the other. Godan keeps them apart (書かれる vs 書ける),
  * which is the whole point of the drill.
  */
-const PREFERRED_CLASSES: Record<ConjugationForm, ClassKey[]> = {
+export const PREFERRED_CLASSES: Record<ConjugationForm, ClassKey[]> = {
     'te': ['godan', 'ichidan', 'irregular'],
     'tai': ['godan', 'ichidan', 'irregular'],
     'zu': ['godan', 'ichidan', 'irregular'],
@@ -152,7 +152,7 @@ const PREFERRED_CLASSES: Record<ConjugationForm, ClassKey[]> = {
  * correct form would mislead. ある is godan ラ行 so `zu` yields あらず - attested
  * but archaic, while the form a learner needs for ある is the irregular ない.
  */
-const EXCLUDED_LEMMAS = new Set(['ある', '居る', 'いる']);
+export const EXCLUDED_LEMMAS = new Set(['ある', '居る', 'いる']);
 
 /**
  * Injected rather than discovered. する is one of only two irregular verbs in

@@ -36,7 +36,10 @@ import type { SearchIndex } from '../src/models/index.model';
 import type { Sentence } from '../src/models/sentence.model';
 import type { LanguageTag, TextByLanguage } from '../src/models/text.model';
 import { SentenceTokenizer } from '../src/utils/tokenizer';
-import { buildKanaWritableIds, buildVocabLookup, buildExampleWords } from './build-grammar';
+import { buildKanaWritableIds, buildVocabLookup, buildExampleWords, inflectedWordIn, keptHost } from './build-grammar';
+import { EXCLUDED_LEMMAS, POINT_FORMS, PREFERRED_CLASSES } from './build-conjugations';
+import { createFormFinder, formTokens, type FoundForm } from '../src/utils/inflectedForms';
+import type { ConjugationForm } from '../src/utils/conjugator';
 import {
     blankFitsRule, blankOpensClause, compileFormation, emptyMarkerLexicon, findMatch, fitsMarkerLexicon, isExampleSized, isPredicateSlot,
     leaksAnswer, learnMarker, opensClause, toMorphToken, type MarkerLexicon, type MiningRule, type RuleMatch,
@@ -97,6 +100,19 @@ export function isHighPrecision(rule: MiningRule): boolean {
     return DISTINCTIVE_2.has(a) || (isPredicateSlot(rule.leading) && rule.leading !== 'naAdjective');
 }
 
+/**
+ * Forms a corpus sentence cannot be trusted to show, so their points keep to
+ * their curated examples and the drill:
+ * - the prohibitive: 泣くな is written like the exclamation in 当てはまるな;
+ * - a な-adjective's に and で: 健康に気を遣う is the noun with a particle, and
+ *   kuromoji tags the word alike in both;
+ * - the potential: 書ける is tokenized as a verb of its own, so only rare ones are found;
+ * - ず: the corpus has the literary sentence-final 得ず, the point teaches ずに.
+ */
+const UNMINED_FORMS = new Set<ConjugationForm>(['prohibitive', 'na-adj-adverbial', 'na-adj-te', 'potential', 'zu']);
+/** Besides the drill's own exclusions: ない is "there is not", whose forms read as a verb's negative. */
+const UNMINED_LEMMAS = new Set([...EXCLUDED_LEMMAS, 'ない']);
+
 /** FNV-1a: a stable 32-bit seed from a point id. */
 const seedOf = (s: string) => { let h = 0x811c9dc5; for (let i = 0; i < s.length; i++) h = Math.imul(h ^ s.charCodeAt(i), 0x01000193); return h >>> 0; };
 const mulberry32 = (seed: number) => () => { seed |= 0; seed = seed + 0x6D2B79F5 | 0; let t = Math.imul(seed ^ seed >>> 15, 1 | seed); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; };
@@ -118,6 +134,13 @@ async function main() {
         .map(f => JSON.parse(fs.readFileSync(path.join(POINTS_DIR, f), 'utf-8')) as GrammarPoint)
         .map(point => ({ point, formation: proseOf(point.text, FORMATION_LANG, 'formation') ?? '' }))
         .filter(({ point, formation }) => point.kind !== 'inflection' && !point.variantOf && formation);
+    // Inflection points have no marker to mine by. Their sentences are the ones
+    // that write the form they teach, found by conjugating (inflectedForms.ts).
+    const inflectionIds = fs.readdirSync(POINTS_DIR).sort()
+        .map(f => (JSON.parse(fs.readFileSync(path.join(POINTS_DIR, f), 'utf-8')) as GrammarPoint))
+        .filter(point => point.kind === 'inflection' && !point.variantOf && POINT_FORMS[point.id] && !UNMINED_FORMS.has(POINT_FORMS[point.id]))
+        .map(point => point.id);
+    const findForms = createFormFinder();
     const eligible: { point: GrammarPoint; formation: string; rules: MiningRule[] }[] = [];
     let deferredCount = 0;
     for (const { point, formation } of points) {
@@ -179,16 +202,35 @@ async function main() {
     const hits = new Map<string, Hit[]>();     // pointId -> matched sentences (reservoir), with the variant that matched
     const seen = new Map<string, number>();      // pointId -> total hits seen
     for (const e of eligible) { hits.set(e.point.id, []); seen.set(e.point.id, 0); }
+    const formRngs = new Map(inflectionIds.map(id => [id, mulberry32(seedOf(id))]));
+    type FormHit = { id: string; found: FoundForm };
+    const formHits = new Map<string, FormHit[]>(inflectionIds.map(id => [id, []]));
+    const formSeen = new Map<string, number>(inflectionIds.map(id => [id, 0]));
     let n = 0;
     for (const [id, s] of sentences) {
         // Size is a property of the sentence alone: skip transcripts before tokenizing.
         if (!isExampleSized(s.original)) { n++; continue; }
+        const raw = tokenizer.tokenize(s.original);
+        const forms = findForms(formTokens(raw), s.original);
+        for (const pointId of forms.length > 0 ? inflectionIds : []) {
+            const form = POINT_FORMS[pointId];
+            // Exactly one word in the form: a second one beside the blank would show the answer's ending.
+            const inForm = forms.filter(f => f.form === form);
+            if (inForm.length !== 1) continue;
+            const [found] = inForm;
+            if (!PREFERRED_CLASSES[form].includes(found.wordClass) || UNMINED_LEMMAS.has(found.lemma)) continue;
+            const total = formSeen.get(pointId)! + 1;
+            formSeen.set(pointId, total);
+            const pool = formHits.get(pointId)!;
+            if (pool.length < PRE_CAP) pool.push({ id, found });
+            else { const j = Math.floor(formRngs.get(pointId)!() * total); if (j < PRE_CAP) pool[j] = { id, found }; }
+        }
         let toks: ReturnType<typeof toMorphToken>[] | null = null;
         for (const e of eligible) {
             let matched: MiningRule | null = null;
             for (const rule of e.rules) {
                 if (!s.original.includes(rule.anchor)) continue;
-                if (!toks) toks = tokenizer.tokenize(s.original).map(toMorphToken);
+                if (!toks) toks = raw.map(toMorphToken);
                 const lexicon = lexicons.get(e.point.id)!;
                 const t = toks;
                 const literal = rule.elements.every(el => el.kind === 'lit');
@@ -219,10 +261,12 @@ async function main() {
         for (const hit of hits.get(e.point.id)!) {
             if (examples.length >= CAP) break;
             const s = sentences.get(hit.id)!;
-            const { words, patternWordIndices } = buildExampleWords(
+            const located = buildExampleWords(
                 tokenizer, sentenceTokenizer, vocabSet, lookup, s.original, e.formation, e.point.title);
+            const { words, patternWordIndices } = located;
             if (patternWordIndices.length === 0) { dropped.unlocated++; continue; } // pattern couldn't be located - drop
-            const example: GrammarExample = { jp: s.original, romaji: '', words, patternWordIndices, text: s.text };
+            const host = keptHost(located, { kind: e.point.kind, formation: e.formation });
+            const example: GrammarExample = { jp: s.original, romaji: '', words, patternWordIndices, ...(host ? { host } : {}), text: s.text };
             // The locator runs separately from the miner and can blank a different
             // occurrence (a sentence-initial だから) than the one the rule accepted.
             if (!blankFitsRule(example, hit.rule)) { dropped.blankOffRule++; continue; }
@@ -234,6 +278,27 @@ async function main() {
         fs.writeFileSync(path.join(OUTPUT_DIR, `${e.point.id}.json`), JSON.stringify(examples));
         emittedPoints++; emittedExamples += examples.length; poolSizes.push(examples.length);
     }
+    // Inflection points: the blank is the conjugated word itself, given as its
+    // dictionary form (the example's host), so the pattern and the host are one.
+    let inflectionPoints = 0, inflectionExamples = 0;
+    const emptyInflections: string[] = [];
+    for (const pointId of inflectionIds) {
+        const examples: GrammarExample[] = [];
+        for (const hit of formHits.get(pointId)!) {
+            if (examples.length >= CAP) break;
+            const s = sentences.get(hit.id)!;
+            const { words } = buildExampleWords(tokenizer, sentenceTokenizer, vocabSet, lookup, s.original, '', '');
+            const inflected = inflectedWordIn(words, tokenizer.tokenize(s.original), hit.found);
+            if (!inflected) continue;
+            examples.push({ jp: s.original, romaji: '', words, ...inflected, text: s.text });
+        }
+        if (examples.length === 0) { emptyInflections.push(pointId); continue; }
+        fs.writeFileSync(path.join(OUTPUT_DIR, `${pointId}.json`), JSON.stringify(examples));
+        inflectionPoints++; inflectionExamples += examples.length;
+    }
+    console.log(`   inflection points: ${inflectionExamples} examples across ${inflectionPoints} of ${inflectionIds.length} points`
+        + (emptyInflections.length > 0 ? `; none for ${emptyInflections.join(', ')}` : ''));
+
     poolSizes.sort((a, b) => a - b);
     const median = poolSizes[Math.floor(poolSizes.length / 2)] ?? 0;
     console.log(`\n✅ Mined ${emittedExamples} examples across ${emittedPoints} points (median pool ${median}, max ${poolSizes[poolSizes.length - 1] ?? 0})`);
