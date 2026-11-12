@@ -1,7 +1,7 @@
 import { describe, it, expect, beforeAll } from 'vitest';
 import kuromoji from 'kuromoji';
 import { SentenceTokenizer } from '../src/utils/tokenizer';
-import { buildExampleWords, buildVocabLookup, markerInflector } from './build-grammar';
+import { buildExampleWords, buildVocabLookup, inflectedWordIn, keptHost, markerInflector } from './build-grammar';
 import type { SearchIndex } from '../src/models/index.model';
 
 /**
@@ -291,5 +291,79 @@ describe('markers the sentence conjugates (gokan-dev/gokan-dataset#25)', () => {
 
     it('offers nothing for a marker that does not end in a verb', () => {
         expect(markerInflector(tokenizer)('のいかんで')).toEqual([]);
+    });
+});
+
+describe('the host word a pattern attaches to (gokan-dev/gokan-dataset#59)', () => {
+    let tokenizer: kuromoji.Tokenizer<kuromoji.IpadicFeatures>;
+    let sentenceTokenizer: SentenceTokenizer;
+
+    beforeAll(async () => {
+        tokenizer = await new Promise((resolve, reject) => {
+            kuromoji.builder({ dicPath: 'node_modules/kuromoji/dict' }).build((err, t) => {
+                if (err) reject(err);
+                else resolve(t);
+            });
+        });
+        sentenceTokenizer = new SentenceTokenizer(tokenizer);
+    });
+
+    const searchIndex: SearchIndex = [
+        { id: 'v-taberu', w: '食べる', r: 'たべる' },
+        { id: 'v-hayai', w: '速い', r: 'はやい' },
+    ];
+
+    /** The host as the learner meets it: what is given, and what is typed with the pattern. */
+    function host(jp: string, formation: string, kind: 'construction' | 'inflection' = 'construction'): string | null {
+        const lookup = buildVocabLookup(searchIndex, new Set(searchIndex.map(e => e.id)));
+        const located = buildExampleWords(
+            tokenizer, sentenceTokenizer, new Set(lookup.byWrittenForm.keys()), lookup, jp, formation, '', markerInflector(tokenizer));
+        const kept = keptHost(located, { kind, formation });
+        if (!kept) return null;
+        const typed = [...new Set([...kept.wordIndices, ...located.patternWordIndices])].sort((a, b) => a - b);
+        return `${kept.lemma} -> ${typed.map(i => located.words[i].surface).join('')}`;
+    }
+
+    it.each([
+        ['宿題をしてから、遊びます。', 'Verb-て form + から', 'する -> してから'],
+        ['朝ご飯を食べないで学校へ行きました。', 'Verb-ない-form + で', '食べる -> 食べないで'],
+        ['ここで待たせてください。', 'Verb-causative form + ください', '待つ -> 待たせてください'],
+    ])('marks the conjugated word before the marker in %s', (jp, formation, expected) => {
+        expect(host(jp, formation)).toBe(expected);
+    });
+
+    it('marks nothing where the formation demands no form', () => {
+        expect(host('雨が降ったから、行きません。', 'Verb-casual + から')).toBeNull();
+    });
+
+    it('marks nothing where the marker follows a noun', () => {
+        expect(host('三日にわたって雨が降った。', 'Noun + にわたって')).toBeNull();
+    });
+
+    it('keeps an inflection point\'s host whatever its formation says', () => {
+        expect(host('宿題をしてから、遊びます。', 'する -> して', 'inflection')).toBeNull();
+        expect(host('朝ご飯を食べないで学校へ行きました。', 'Verb + で', 'inflection')).toBe('食べる -> 食べないで');
+        expect(host('朝ご飯を食べないで学校へ行きました。', 'Verb + で')).toBeNull();
+    });
+
+    it('locates a conjugated word as an inflection point\'s blank: pattern and host are one', () => {
+        const jp = '彼は速く走りました。';
+        const lookup = buildVocabLookup(searchIndex, new Set(searchIndex.map(e => e.id)));
+        const { words } = buildExampleWords(tokenizer, sentenceTokenizer, new Set(lookup.byWrittenForm.keys()), lookup, jp, '');
+        const start = jp.indexOf('速く');
+        const inflected = inflectedWordIn(words, tokenizer.tokenize(jp), { start, end: start + 2, lemma: '速い' });
+        expect(inflected?.host).toEqual({ wordIndices: inflected?.patternWordIndices, lemma: '速い', reading: 'はやく' });
+        expect(inflected?.patternWordIndices.map(i => words[i].surface).join('')).toBe('速く');
+        // A form that ends inside a word of the sentence is not one of its words.
+        expect(inflectedWordIn(words, tokenizer.tokenize(jp), { start, end: start + 1, lemma: '速い' })).toBeNull();
+    });
+
+    it('keeps the host contiguous with the pattern and inside the sentence', () => {
+        const lookup = buildVocabLookup(searchIndex, new Set(searchIndex.map(e => e.id)));
+        const located = buildExampleWords(
+            tokenizer, sentenceTokenizer, new Set(lookup.byWrittenForm.keys()), lookup, '宿題をしてから、遊びます。', 'Verb-て form + から');
+        const kept = keptHost(located, { kind: 'construction', formation: 'Verb-て form + から' });
+        expect(kept).toBeDefined();
+        expect(kept!.wordIndices[kept!.wordIndices.length - 1]).toBe(located.patternWordIndices[0] - 1);
     });
 });

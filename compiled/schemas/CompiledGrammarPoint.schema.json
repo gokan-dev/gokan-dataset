@@ -48,6 +48,35 @@
               "type": "number"
             }
           },
+          "host": {
+            "type": "object",
+            "properties": {
+              "wordIndices": {
+                "type": "array",
+                "items": {
+                  "type": "number"
+                }
+              },
+              "lemma": {
+                "type": "string"
+              },
+              "reading": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "wordIndices",
+              "lemma",
+              "reading"
+            ],
+            "additionalProperties": false
+          },
+          "ruledOut": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
           "audio": {
             "type": "object",
             "properties": {

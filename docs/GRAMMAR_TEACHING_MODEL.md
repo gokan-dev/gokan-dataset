@@ -73,6 +73,8 @@ There are two sources of inflection points:
 
 An inflection point is only *teachable* once `conjugations.json` actually carries drill items for it, so the app filters out any that have none rather than serving an ungradable card.
 
+An inflection point is also asked **inside a sentence**. Its mined pool (`compiled/grammar/mined/{id}.json`, see SCHEMA.md) holds corpus sentences that write the form, with the conjugated word marked as the example's `host`, so the app can blank it and give its dictionary form: the bare drill for the first reviews, the sentence after.
+
 ## Chapter
 
 A run of points meant to be met together, and the unit of the introduction order. 148 of them.
@@ -166,6 +168,7 @@ A case is **directed**: `focus` is the one met later, so the lesson teaches the 
 
 - **At introduction.** When a point is introduced and it is the `focus` of a case, the app shows that case. It is deferred if any `vs` sibling is not known yet, so the contrast always lands between two real memories.
 - **On the family page** (`/grammar/family/:familyId`). Every lesson and case for that family, regardless of what has been introduced. This is where you go back to compare deliberately.
+- **In the exercises.** Two facts are computed per example for the cards (SCHEMA.md): `host`, the conjugated word a pattern attaches to, so a card can ask for the form with the marker; and `ruledOut`, the family siblings the sentence excludes by connection, which are the wrong options of the choice card. A sibling excluded by meaning is not marked: that needs an authored claim (a case, or a per-example exclusion).
 - **Nowhere else yet.** Chapters are not surfaced in the UI at all: the app reads the flat introduction order and nothing else. `taughtInChapterId` exists so an end-of-chapter review could be built later.
 
 ## When there is nothing to teach
