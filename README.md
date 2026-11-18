@@ -119,7 +119,14 @@ bun run fetch:media    # snapshot selected titles that have none yet (network, r
 bun run fetch:covers   # record each title's AniList cover URL (network, run by hand, after fetch:media)
 ```
 
-`bun run build:data` chains `build:kanji`, `build:jlpt` and `build:jlpt-coverage` around the main build, and `build:media` and `attach:audio` after it, so it is usually the only one you need.
+`bun run build:data` chains `build:kanji`, `build:jlpt` and `build:jlpt-coverage` around the main build, and `build:media`, `attach:audio` and `attach:accent` after it, so it is usually the only one you need.
+
+Pitch accents (`pitchAccent` on a word, see [docs/SCHEMA.md](docs/SCHEMA.md)) come from two committed snapshots in `data/raw/accents/`, which `attach:accent` reads offline. Refreshing them is by hand:
+
+```bash
+bun run fetch:accents:wiktionary                       # Wiktionary's {{ja-pron}} accents, through its API (about 15 minutes, resumable)
+bun run extract:accents:unidic <unidic-cwj-3.1.0/lex_3_1.csv>   # UniDic's dictionary-form accents, from its downloaded lexicon
+```
 
 Audio (words, sentences and grammar examples read aloud, see [docs/SCHEMA.md](docs/SCHEMA.md), Audio) is text-to-speech from a running [VOICEVOX](https://voicevox.hiroshiba.jp/) engine. The clips are made by hand and committed; the site's audio bucket is filled by gokan-srs's deploy alone:
 
@@ -160,6 +167,8 @@ The compiled output is a derivative work of several upstream sources, each with 
 | [JPDB](https://jpdb.io) | Frequency data | See their terms |
 | [stephenmk/yomitan-jlpt-vocab](https://github.com/stephenmk/yomitan-jlpt-vocab) | JLPT levels with JMdict ids (`data/raw/jlpt/waller-ids`) | CC BY-SA 4.0; list data CC BY, Jonathan Waller, via tanos.co.uk |
 | [jamsinclair/open-anki-jlpt-decks](https://github.com/jamsinclair/open-anki-jlpt-decks) | JLPT decks and textbook lesson tags (`data/raw/jlpt/waller-decks`) | MIT; list data CC BY, Jonathan Waller, via tanos.co.uk |
+| [Wiktionary](https://en.wiktionary.org/wiki/Wiktionary:Copyrights) | Pitch accents (`pitchAccent`, `source: "wiktionary"`), from its `{{ja-pron}}` templates (`data/raw/accents/wiktionary.tsv`) | CC BY-SA 4.0, attribution to Wiktionary's contributors |
+| [UniDic](https://clrd.ninjal.ac.jp/unidic/) (unidic-cwj 3.1.0, NINJAL) | Pitch accents Wiktionary lacks (`source: "unidic"`), from its lexicon's `aType` (`data/raw/accents/unidic.tsv`) | Used under its New BSD option; its notice is `data/raw/accents/UNIDIC-BSD-LICENSE` |
 | [hanabira.org-japanese-content](https://github.com/tristcoil/hanabira.org-japanese-content) | Grammar points | Creative Commons, link back to hanabira.org |
 | [Jiten](https://jiten.moe) | Per-episode anime vocabulary and speech statistics (`media/`) | [CC BY-SA 4.0](https://jiten.moe/terms), attribution required |
 | [AniList](https://anilist.co) | Cover image URLs in `media/` (`cover`) | URLs only, the images stay on AniList's CDN. The artwork belongs to each title's studio and is **not** covered by this repository's license |

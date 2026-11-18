@@ -75,6 +75,24 @@ export interface Vocabulary {
 
     /** The word read aloud, when a clip of it exists (scripts/attach-audio.ts). */
     audio?: AudioRef;
+
+    /**
+     * Its Tokyo pitch accent, one entry per reading a source covers, in its reading order
+     * (scripts/attach-accent.ts). Absent when no source covers any of its readings.
+     */
+    pitchAccent?: PitchAccent[];
+}
+
+/** Where a word's pitch accent comes from: Wiktionary (CC BY-SA 4.0), else UniDic (New BSD). */
+export type PitchAccentSource = 'wiktionary' | 'unidic';
+
+/** One reading's pitch accent. */
+export interface PitchAccent {
+    /** One of the word's readings, as the word writes it. */
+    reading: string;
+    /** Its accepted patterns, most usual first: 0 heiban (no drop), n a drop after mora n. */
+    downsteps: number[];
+    source: PitchAccentSource;
 }
 
 export interface MergedVocabInfo {
