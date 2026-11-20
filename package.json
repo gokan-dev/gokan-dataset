@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "build": "rimraf ./build && bun run build:data && bun run build:grammar && bun run build:layout && bun run build:schemas && bun run build:datapackage && bun run build:benchmark",
-    "build:data": "rimraf ./build/assembled/vocab && rimraf ./build/assembled/sentences && bun run build:kanji && bun scripts/build-data.ts && bun run build:jlpt && bun run build:jlpt-coverage && bun run build:synonyms && bun run build:media && bun run attach:audio && bun run build:text",
+    "build:data": "rimraf ./build/assembled/vocab && rimraf ./build/assembled/sentences && bun run build:kanji && bun scripts/build-data.ts && bun run build:jlpt && bun run build:jlpt-coverage && bun run build:synonyms && bun run build:media && bun run attach:audio && bun run attach:accent && bun run build:text",
     "build:text": "bun scripts/build-text.ts",
     "build:kanji": "bun scripts/build-kanji.ts",
     "build:jlpt": "bun scripts/build-jlpt-index.ts",
@@ -35,6 +35,9 @@
     "fetch:covers": "bun scripts/fetch-anilist-covers.ts",
     "select:media": "bun scripts/select-easiest-anime.ts",
     "attach:audio": "bun scripts/attach-audio.ts",
+    "attach:accent": "bun scripts/attach-accent.ts",
+    "fetch:accents:wiktionary": "bun scripts/fetch-wiktionary-accents.ts",
+    "extract:accents:unidic": "bun scripts/extract-unidic-accents.ts",
     "build:audio": "bun scripts/build-audio.ts",
     "upload:audio": "bun scripts/upload-audio.ts",
     "sample:audio": "bun scripts/audio-sample.ts",

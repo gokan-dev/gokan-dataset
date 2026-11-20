@@ -180,6 +180,36 @@
         "clip"
       ],
       "additionalProperties": false
+    },
+    "pitchAccent": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "reading": {
+            "type": "string"
+          },
+          "downsteps": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            }
+          },
+          "source": {
+            "type": "string",
+            "enum": [
+              "wiktionary",
+              "unidic"
+            ]
+          }
+        },
+        "required": [
+          "reading",
+          "downsteps",
+          "source"
+        ],
+        "additionalProperties": false
+      }
     }
   },
   "required": [

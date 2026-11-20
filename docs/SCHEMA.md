@@ -38,6 +38,12 @@ interface Vocabulary {
   mergedVocabs?: MergedVocabInfo[]; // present if this entry absorbed one or more homographs sharing the same kanji form - see below
   isCommon: boolean;              // true if JMDict marks this word (or an absorbed homograph) as common. Not declared on the shared TS type but present on every emitted file.
   usuallyKana?: true;             // learned in kana (ここ, not 此処): shown by its reading, needs no kanji, outside the KKLC order. Absent otherwise. See below.
+  audio?: { clip: string };       // the word read aloud, when a clip exists (see Audio below)
+  pitchAccent?: Array<{           // Tokyo pitch accent, one entry per reading a source covers, in reading order. See below.
+    reading: string;              // one of the word's readings, as the word writes it
+    downsteps: number[];          // accepted patterns, most usual first: 0 heiban, n a drop after mora n
+    source: "wiktionary" | "unidic";
+  }>;
 }
 
 interface Sense {
@@ -83,6 +89,12 @@ A word on the lists is kept by the build even when JMdict does not mark it commo
 - either JPDB shows the kana spelling at least 2x as often as the kanji spelling (`USUALLY_KANA_RATIO`), counting the word's own katakana spelling and, when JPDB has no row at all for the kanji spelling, the standalone kana row, each only when that row's key is unique; or JMdict tags the headword `rK` (rarely used kanji form), which covers spellings JPDB has no evidence for.
 
 `uk` alone flags 分かる and 眼鏡; frequency alone flags 物 and 所; together they flag 591 words with about 1% false positives. Doubt resolves to kanji, since the kanji spelling disambiguates homophones (いる is 居る and 要る). The residue is excluded by hand in `data/raw/vocab/usually-kana-overrides.json` (`{ exclude: { [vocabId]: { word, why } } }`); the build fails on an exclusion that names no compiled word or a word the rule no longer flags. `scripts/usually-kana.test.ts` checks the compiled output against the labelled set (`scripts/usually-kana.labels.json`): no word labelled as learned with its kanji may be flagged.
+
+**`pitchAccent`** (gokan-srs#176): where the reading drops. A mora is a kana with any small ゃゅょぁぃぅぇぉゎ after it; っ, ん and ー are morae of their own. With `n` the downstep, mora 1 is high when `n` is 1 and low otherwise; from mora 2, a mora is high up to and including mora `n` (every one when `n` is 0) and low after it. A particle after the word stays high only for 0 (heiban), which is what tells 端 (0) from 橋 (2, odaka), both はし.
+
+- **Sources**, both committed snapshots read offline by `attach:accent` (the end of `build:data`): Wiktionary's `{{ja-pron}}` accents (`data/raw/accents/wiktionary.tsv`, `fetch:accents:wiktionary`), then UniDic's `aType` for what Wiktionary lacks (`data/raw/accents/unidic.tsv`, `extract:accents:unidic`). On words both cover they share a pattern 98% of the time; where they differ Wiktionary is usually the dictionary value (お金: 0, UniDic 2), hence the order. `source` names the one used.
+- **Matching** (`src/accent/pitchAccent.ts`): by written form (the word's spellings) and reading, katakana and hiragana alike. A word without kanji or learned in kana is also looked up by its reading; a kanji word never is, since a kana page (はし) can hold another word's accent.
+- **Left out**: Wiktionary's per-part accents (`3+0`, for compounds and phrases), an unnumbered nakadaka, and a number beyond the reading's morae; the build fails on any written accent the app could not draw (`assertPitchAccent`). Multi-word expressions (にとって, ことができる) and particles have no single accent in either source, and no field.
 
 ## `compiled/sentences/{vocabId}.json` — example sentences, one file per word
 
