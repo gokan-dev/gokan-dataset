@@ -8,6 +8,9 @@
 //
 // Files with no text (media, the other indexes) are copied as they are.
 //
+// compiled/ is written in place (src/pipeline/syncedTree.ts): a file only when its bytes change, and
+// the files this run no longer produces are removed, so the tree ends as a clean rebuild leaves it.
+//
 // Run: bun run build:layout (the last step of bun run build).
 import fs from 'node:fs';
 import path from 'node:path';
@@ -18,11 +21,14 @@ import type { Kanji } from '../src/models/kanji.model';
 import type { Sentence } from '../src/models/sentence.model';
 import type { EntityKind, EntityText, LanguageTag, TextByLanguage, TextFile } from '../src/models/text.model';
 import type { Vocabulary } from '../src/models/vocabulary.model';
-import { removeTree } from '../src/utils/removeTree';
+import { SyncedTree } from '../src/pipeline/syncedTree';
 
 const ASSEMBLED_DIR = './build/assembled';
 const COMPILED_DIR = './compiled';
-const TEXT_DIR = path.join(COMPILED_DIR, 'text');
+const TEXT_DIR = 'text';
+
+/** What later stages write into compiled/: build:schemas and build:datapackage. */
+const OWNED_BY_LATER_STAGES = ['schemas', 'datapackage.json'];
 
 /** The paths, relative to compiled/, whose files are split; everything else is copied. */
 const SPLIT = {
@@ -40,12 +46,12 @@ interface Split<Core> {
 
 /** The core files and, per language, the ids of the files with text in it. */
 const filesWithText: Record<LanguageTag, Record<string, string[]>> = {};
-let written = 0;
+/** compiled/: each file written only when its bytes change, and what the run no longer produces removed. */
+const out = new SyncedTree(COMPILED_DIR, OWNED_BY_LATER_STAGES);
 
+/** Writes a file at `file`, relative to compiled/. */
 function writeJson(file: string, value: unknown, indented: boolean): void {
-    fs.mkdirSync(path.dirname(file), { recursive: true });
-    fs.writeFileSync(file, indented ? JSON.stringify(value, null, 2) : JSON.stringify(value));
-    written++;
+    out.write(file, indented ? JSON.stringify(value, null, 2) : JSON.stringify(value));
 }
 
 function readJson<T>(file: string): T {
@@ -64,7 +70,7 @@ function jsonFiles(dir: string): string[] {
  */
 function writeSplit<Core>(relative: string, kind: EntityKind, entities: Split<Core>[], options: { list: boolean; indented: boolean; group?: string }): void {
     const cores = entities.map(e => e.core);
-    writeJson(path.join(COMPILED_DIR, relative), options.list ? cores : cores[0], options.indented);
+    writeJson(relative, options.list ? cores : cores[0], options.indented);
 
     const languages = [...new Set(entities.flatMap(e => Object.keys(e.text)))].sort();
     for (const lang of languages) {
@@ -95,7 +101,7 @@ function writeHolders(relative: string, spec: HolderSpec, group?: string): void 
     const file: unknown = readJson(path.join(ASSEMBLED_DIR, relative));
     const name = path.basename(relative, '.json');
     const byLang = splitText(file, spec, name);
-    writeJson(path.join(COMPILED_DIR, relative), file, false);
+    writeJson(relative, file, false);
     for (const [lang, entities] of Object.entries(byLang).sort(([a], [b]) => (a < b ? -1 : 1))) {
         const textFile: TextFile = { kind: spec.kind, lang, entities };
         writeJson(path.join(TEXT_DIR, lang, relative), textFile, false);
@@ -104,16 +110,15 @@ function writeHolders(relative: string, spec: HolderSpec, group?: string): void 
 }
 
 /** Copies everything that is not split, skipping the build's logs. */
-function copyUnsplit(from: string, to: string, relative = ''): number {
+function copyUnsplit(from: string, relative = ''): number {
     let copied = 0;
     for (const entry of fs.readdirSync(path.join(from, relative), { withFileTypes: true }).sort((a, b) => (a.name < b.name ? -1 : 1))) {
         const rel = path.join(relative, entry.name).split(path.sep).join('/');
         if (SPLIT_PATHS.includes(rel)) continue;
         if (entry.isDirectory()) {
-            copied += copyUnsplit(from, to, rel);
+            copied += copyUnsplit(from, rel);
         } else if (!entry.name.endsWith('.log')) {
-            fs.mkdirSync(path.join(to, relative), { recursive: true });
-            fs.copyFileSync(path.join(from, rel), path.join(to, rel));
+            out.copy(path.join(from, rel), rel);
             copied++;
         }
     }
@@ -122,11 +127,6 @@ function copyUnsplit(from: string, to: string, relative = ''): number {
 
 function main(): void {
     if (!fs.existsSync(ASSEMBLED_DIR)) throw new Error(`${ASSEMBLED_DIR} not found: run bun run build.`);
-    // Empties compiled/ rather than deleting it: Windows refuses to remove a folder an editor or a
-    // shell has open, but not what is inside it.
-    fs.mkdirSync(COMPILED_DIR, { recursive: true });
-    for (const entry of fs.readdirSync(COMPILED_DIR)) removeTree(path.join(COMPILED_DIR, entry));
-
     for (const f of jsonFiles(path.join(ASSEMBLED_DIR, SPLIT.vocab))) {
         const vocab = readJson<Vocabulary>(path.join(ASSEMBLED_DIR, SPLIT.vocab, f));
         writeSplit(`${SPLIT.vocab}/${f}`, 'vocab', [{ id: vocab.id, ...withoutText(vocab) }], { list: false, indented: false, group: 'vocab' });
@@ -152,7 +152,7 @@ function main(): void {
         for (const [lang, gloss] of Object.entries(m)) (glossesByLang[lang] ??= {})[entry.id] = gloss;
         return entry;
     });
-    writeJson(path.join(COMPILED_DIR, SPLIT.search), searchCore, false);
+    writeJson(SPLIT.search, searchCore, false);
     for (const [lang, glosses] of Object.entries(glossesByLang)) writeJson(path.join(TEXT_DIR, lang, SPLIT.search), glosses, false);
 
     // Grammar (points and their examples, mined examples, the indexes with text) and media.
@@ -176,7 +176,7 @@ function main(): void {
             return row;
         }),
     };
-    writeJson(path.join(COMPILED_DIR, SPLIT.grammarBrowse), browseCore, false);
+    writeJson(SPLIT.grammarBrowse, browseCore, false);
     for (const [lang, texts] of Object.entries(browseByLang).sort(([a], [b]) => (a < b ? -1 : 1))) writeJson(path.join(TEXT_DIR, lang, SPLIT.grammarBrowse), texts, false);
 
     // Which core files have text in each language: the pages that exist in it.
@@ -184,11 +184,12 @@ function main(): void {
         writeJson(path.join(TEXT_DIR, lang, 'index', 'entities.json'), groups, true);
     }
 
-    const copied = copyUnsplit(ASSEMBLED_DIR, COMPILED_DIR);
+    const copied = copyUnsplit(ASSEMBLED_DIR);
+    const removed = out.prune();
     const summary = Object.entries(filesWithText)
         .map(([lang, groups]) => `${lang}: ${Object.entries(groups).map(([g, ids]) => `${ids.length} ${g}`).join(', ')}`)
         .join('; ');
-    console.log(`[layout] wrote ${written} split files (${summary}); copied ${copied} other files as they are.`);
+    console.log(`[layout] split files: ${summary}; ${copied} other files copied as they are. compiled/: ${out.written} files written, ${out.unchanged} unchanged, ${removed} removed.`);
 }
 
 main();

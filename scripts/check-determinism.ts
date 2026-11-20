@@ -1,6 +1,7 @@
 #!/usr/bin/env bun
 // Build check 8 (docs/MULTILINGUAL.md, "Build checks"): the build is deterministic. Hashes every
-// file in compiled/, rebuilds everything from the raw sources (bun run build), hashes again, and
+// file in compiled/, rebuilds everything from the raw sources (bun scripts/build.ts --force: build/
+// and its stage stamps deleted, every stage run, so nothing is skipped), hashes again, and
 // fails on any file that changed, appeared or disappeared. Run it on a tree that was itself just
 // built, so a difference can only come from the build, not from an edit.
 //
@@ -23,8 +24,8 @@ function hashes(dir: string, relative = '', out = new Map<string, string>()): Ma
 
 const before = hashes(COMPILED_DIR);
 console.log(`[check-determinism] ${before.size} files hashed; rebuilding from the raw sources...`);
-const build = spawnSync('bun', ['run', 'build'], { stdio: 'inherit', shell: process.platform === 'win32' });
-if (build.status !== 0) throw new Error(`bun run build exited ${build.status}`);
+const build = spawnSync('bun', ['scripts/build.ts', '--force'], { stdio: 'inherit', shell: process.platform === 'win32' });
+if (build.status !== 0) throw new Error(`bun scripts/build.ts --force exited ${build.status}`);
 const after = hashes(COMPILED_DIR);
 
 const changed = [...before].filter(([p, h]) => after.has(p) && after.get(p) !== h).map(([p]) => p);

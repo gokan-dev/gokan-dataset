@@ -252,13 +252,13 @@ A new source is an importer and a `source.json`. A new language is a set of sour
 - **Text files** mirror them: `compiled/text/<lang>/` followed by the core file's own path, holding the renderings for every entity in that core file. Where a core file holds several entities, its text file keys them by entity id: a word's sentence file (手紙's holds 1,059 sentences) has one Chinese text file, `compiled/text/zh-hans/sentences/1327720.json`, not one file per sentence. A core file with no text in a language has no text file in it.
 - **Per-language indexes**, `compiled/text/<lang>/index/`: that language's search index and derived data, and the list of entities that have text in it (which pages exist in that language, its sitemap, its `hreflang` links).
 - **A text file** is `{ kind, lang, entities }`: `entities` maps each entity id in the core file to its renderings, and, for a word, the near-synonyms computed from them.
-- **How the build makes it.** `bun run build` empties `build/` and runs every stage, from the raw sources, in a fixed order.
+- **How the build makes it.** `bun run build` runs every stage in a fixed order, skipping each one whose inputs are unchanged since its last successful run (`scripts/build.ts`, see the README's Building section); `--force` deletes `build/` first and runs them all, from the raw sources.
   - **Every stage but the last** writes the dataset as it assembles it to `build/assembled/` (not committed). Each entity there carries its text in `text`, by language, made by the source's reader as it reads the source:
     - the JMdict reader keeps each gloss's language (JMdict's `eng` becomes `en`);
     - the KANJIDIC2 reader keeps all four of its languages;
     - the Tatoeba reader tags its translations with its pairs file's language.
     - the sources read after the core is assembled, the Chinese ones of phase 4, are one stage, `build:text` (`scripts/build-text.ts`), at the end of `build:data`: it imports each snapshot of `data/sources/` (one reader per source in `src/text/`), matches it, assembles and assesses the renderings (corroboration, the script transform) and adds them to each entity's `text`, so a mined grammar example built after it carries its sentence's Chinese too. It removes what its own sources gave before adding, so running it twice changes nothing.
-  - **The last stage, `build:layout`,** writes `compiled/` from it. It names no language, so `compiled/text/{fr,es,pt}/kanji/` appear because KANJIDIC2 has them.
+  - **The last stage, `build:layout`,** writes `compiled/` from it, in place: a file only when its bytes change, and the files it no longer produces removed. It names no language, so `compiled/text/{fr,es,pt}/kanji/` appear because KANJIDIC2 has them.
 - **Words.** Each JMdict entry a word holds keeps its own definition, under its own id: the word's own entry (matched by `id`), then each homograph merged into it (matched by `spelling`). A merged homograph's three-gloss summary is no longer stored. It is the first sense of that entry's definition.
 - **The search index** keeps each word's id, spelling and reading in `index/search.json`, and its short gloss per language in `compiled/text/<lang>/index/search.json`.
 - **Grammar.** A point's core keeps its Japanese: the title and romaji, with a slot code where hanabira writes an English slot word (`{noun} にもまして`, `{a} uga {b} uga`), its examples' Japanese and words, and its language-neutral facts.
@@ -304,7 +304,7 @@ Where each runs (all after `bun run build`):
 - 1, 2, 4, 5 and 6: `bun run check:text`. Check 6 runs twice: `build:text` fails on a review file it cannot read, a verdict no assembled rendering takes, or a gold or note record naming an unknown word; `check:text` then proves the compiled output kept them, each verdict's rendering in its language with the verdict's status and `review`, each note emitted, each gold word in `compiled/vocab/`, and no rendering claiming a review that `data/reviews/` does not record.
 - 3 holds by construction: a rendering has exactly one source.
 - 7: `bun run check:schemas`.
-- 8: `bun run check:determinism`, which rebuilds everything from the raw sources and compares every byte.
+- 8: `bun run check:determinism`, which rebuilds everything from the raw sources (`bun scripts/build.ts --force`) and compares every byte. CI runs it on every push to main.
 - 9: `bun run check:benchmark`, against `docs/multilingual-benchmark/floors.json`; `bun run build:benchmark`, the last step of `bun run build`, writes `docs/multilingual-benchmark/report.md` (see its [README](multilingual-benchmark/README.md)).
 - Two more prove phase 2: `bun run check:layout` (every split file joins back to what was assembled) and `bun run check:english` (the English view equals the one at a ref, so it changes only on purpose).
 

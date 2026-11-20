@@ -1,0 +1,136 @@
+# Builds the dataset on every push and commits compiled/ back to the branch. Nobody builds the
+# dataset by hand any more: a change to the sources, the scripts or the types is pushed, and this
+# workflow runs the tests, runs the build incrementally (scripts/build.ts skips every stage whose
+# inputs are unchanged, src/pipeline/stamps.ts) from the build/ a previous run cached, and commits
+# what changed in compiled/ and the generated docs. On main it also rebuilds everything from the
+# raw sources and checks the result is byte-identical (check:determinism).
+#
+# The commit it pushes does not start another run: a push made with GITHUB_TOKEN starts no
+# workflow, and the commit carries [skip ci] and the bot as its author, which the job also checks.
+name: Build
+
+on:
+  push:
+    branches: ['**']
+  workflow_dispatch:
+    inputs:
+      force:
+        description: Rebuild every stage from the raw sources (bun scripts/build.ts --force)
+        type: boolean
+        default: false
+
+# One build per branch at a time. On a branch a newer push supersedes the run in progress (its
+# commit would be refused anyway); on main every run finishes, since each one checks determinism.
+concurrency:
+  group: build-${{ github.ref }}
+  cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    if: github.actor != 'github-actions[bot]' && !contains(github.event.head_commit.message, '[skip ci]')
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    env:
+      # The stage stamps hold Bun's version: a pinned one keeps a Bun release from rebuilding everything.
+      BUN_VERSION: 1.4.4
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          lfs: false
+
+      # The raw sources are in Git LFS (about 420 MB): cached, so a run downloads only what changed
+      # and the repository's LFS bandwidth goes on new files. .lfsconfig keeps the audio clips out.
+      - name: List the LFS files the build reads
+        run: git lfs ls-files --long --exclude="data/audio/clips/**" | sort > .lfs-ids
+      - name: Cache LFS objects
+        uses: actions/cache@v4
+        with:
+          path: .git/lfs/objects
+          key: lfs-${{ hashFiles('.lfs-ids') }}
+          restore-keys: lfs-
+      - name: Fetch LFS files
+        run: git lfs pull
+
+      # Bun from GitHub Releases + an Actions cache, as gokan-srs's workflows do (bun.sh's
+      # download fails intermittently).
+      - name: Cache Bun
+        uses: actions/cache@v4
+        with:
+          path: ~/.bun/bin
+          key: bun-${{ runner.os }}-${{ runner.arch }}-${{ env.BUN_VERSION }}
+      - name: Setup Bun
+        run: |
+          set -euo pipefail
+          BIN="$HOME/.bun/bin"
+          echo "$BIN" >> "$GITHUB_PATH"
+          if [ -x "$BIN/bun" ]; then "$BIN/bun" --version; exit 0; fi
+          mkdir -p "$BIN"
+          curl -fsSL --retry 5 --retry-all-errors \
+            "https://github.com/oven-sh/bun/releases/download/bun-v$BUN_VERSION/bun-linux-x64.zip" -o "$RUNNER_TEMP/bun.zip"
+          unzip -q "$RUNNER_TEMP/bun.zip" -d "$RUNNER_TEMP/bun-dl"
+          mv "$RUNNER_TEMP/bun-dl/bun-linux-x64/bun" "$BIN/bun"
+          chmod +x "$BIN/bun"
+          "$BIN/bun" --version
+      - name: Cache dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.bun/install/cache
+          key: bun-deps-${{ runner.os }}-${{ hashFiles('bun.lock') }}
+          restore-keys: bun-deps-${{ runner.os }}-
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+
+      # build/ (build/assembled/ and the stage stamps in build/.stamps/), keyed by every build input.
+      # The latest build/ of the same inputs is restored, else the latest of any (this branch's,
+      # else main's), and the stamps decide which stages run again. Each run that ran a stage saves
+      # under its own key, even when a later stage failed: a stage leaves a stamp only once it has
+      # succeeded, so what it finished is not built again.
+      - name: Inputs hash
+        id: inputs
+        run: echo "hash=${{ hashFiles('data/raw/**', 'data/sources/**', 'data/reviews/**', 'data/curriculum/**', 'data/audio/*.json', 'scripts/**', 'src/**', 'bun.lock', 'tsconfig.json') }}" >> "$GITHUB_OUTPUT"
+      - name: Restore build/
+        uses: actions/cache/restore@v4
+        with:
+          path: build
+          key: build-${{ runner.os }}-${{ steps.inputs.outputs.hash }}-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: |
+            build-${{ runner.os }}-${{ steps.inputs.outputs.hash }}-
+            build-${{ runner.os }}-
+
+      - name: Build
+        id: build
+        run: bun scripts/build.ts ${{ inputs.force && '--force' || '' }}
+
+      - name: Save build/
+        if: (success() || failure()) && steps.build.outputs.ran != '0'
+        uses: actions/cache/save@v4
+        with:
+          path: build
+          key: build-${{ runner.os }}-${{ steps.inputs.outputs.hash }}-${{ github.run_id }}-${{ github.run_attempt }}
+
+      # After the build, so the suites that read build/assembled/ run too.
+      - name: Test
+        run: bun run test
+
+      - name: Commit compiled/
+        run: |
+          set -euo pipefail
+          git add -A compiled docs/JLPT_COVERAGE.md docs/CURRICULUM.md docs/multilingual-benchmark/report.md
+          if git diff --cached --quiet; then
+            echo "compiled/ and the generated docs are unchanged: nothing to commit." | tee -a "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          git diff --cached --shortstat | sed 's/^/Committing:/' | tee -a "$GITHUB_STEP_SUMMARY"
+          git -c user.name='github-actions[bot]' -c user.email='41898099+github-actions[bot]@users.noreply.github.com' \
+            commit -q -m "Build compiled/ from ${GITHUB_SHA::10}" -m "[skip ci]"
+          git push origin "HEAD:refs/heads/${GITHUB_REF_NAME}"
+
+      # A full rebuild from the raw sources (build/ and its stamps deleted) must give the same
+      # compiled/: the build is deterministic, and the incremental build left nothing a clean one would not.
+      - name: Check determinism
+        if: github.ref == 'refs/heads/main'
+        run: bun run check:determinism

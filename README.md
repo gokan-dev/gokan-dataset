@@ -104,22 +104,24 @@ If you are building a Japanese learning tool, a reading assistant, a frequency-o
 
 ## Rebuilding from source
 
-Only needed if you are changing the pipeline. It reads from `data/raw/`, which is Git LFS tracked.
+Only needed if you are changing the pipeline. It reads from `data/raw/` and `data/sources/`, which are Git LFS tracked.
+
+**CI builds the dataset; you do not.** Push your change (sources, scripts or types) to a branch. The Build workflow (`.github/workflows/build.yml`) runs the build incrementally from the `build/` an earlier run cached, runs the tests, and commits whatever changed in `compiled/` and the generated docs back to your branch, as a `github-actions[bot]` commit. Pull it before you push again. If nothing changed, it commits nothing. On `main` it also runs `check:determinism`: a full rebuild from the raw sources that must leave every byte of `compiled/` as it was. A full build on CI's Ubuntu runner takes about 20 to 40 minutes. A change that only reruns the grammar stages takes a fraction of that, and a change that leaves every stage's inputs alone takes a few minutes.
+
+`bun run build` (`scripts/build.ts`) runs the stages in a fixed order and skips each stage whose inputs are unchanged since its last successful run. A stage's inputs are its source files, its script and every module the script imports, the toolchain (Bun's version, `bun.lock`) and the stages whose output it reads. Each run's stamp is kept in `build/.stamps/` (`src/pipeline/stamps.ts`). A stage that rewrites another stage's files in place also reruns that stage, so a change to any part of `build:data` reruns all of `build:data`, and the same goes for `build:grammar`. `build:layout` writes `compiled/` in place: it writes a file only when its bytes change, and removes the files it no longer produces.
 
 ```bash
 bun install
-bun run build:kanji    # kanji.json, kanji/, index/kklc-kanji.json, index/kanji-orders/ and index/kanji-components.json
-bun run build:data     # the full vocabulary and sentence pipeline, roughly 1 to 2 minutes
-bun run build:jlpt     # index/jlpt.json, a fast pass over compiled vocabulary
-bun run build:jlpt-coverage  # docs/JLPT_COVERAGE.md, the JLPT entries no compiled word answers
-bun run build:grammar  # grammar points, requires build:data to have run first
-bun run build:media    # media/, from the committed Jiten snapshots, offline
+bun run build                       # every stage that is out of date
+bun scripts/build.ts --dry-run      # which stages would run, without running them
+bun scripts/build.ts --force        # delete build/ and run every stage from the raw sources (or DATASET_BUILD_FORCE=1)
+bun run build:data                  # only the vocabulary, kanji and sentence stages (also build:grammar, build:layout, build:kanji...)
 bun run select:media   # add Jiten's easiest anime to the selection (network, run by hand)
 bun run fetch:media    # snapshot selected titles that have none yet (network, run by hand; --refresh for all)
 bun run fetch:covers   # record each title's AniList cover URL (network, run by hand, after fetch:media)
 ```
 
-`bun run build:data` chains `build:kanji`, `build:jlpt` and `build:jlpt-coverage` around the main build, and `build:media`, `attach:audio` and `attach:accent` after it, so it is usually the only one you need.
+Every `build:*` script runs its stage through `scripts/build.ts`, so its stamp stays true. Running a stage's script directly (`bun scripts/build-media.ts --allow-missing`) skips the stamps, so the next `bun run build` does not know that the stage ran, and the stages after it are not rerun. A full local build rewrites about 160,000 files in `build/` and takes over an hour on Windows, so leave it to CI.
 
 Pitch accents (`pitchAccent` on a word, see [docs/SCHEMA.md](docs/SCHEMA.md)) come from two committed snapshots in `data/raw/accents/`, which `attach:accent` reads offline. Refreshing them is by hand:
 
@@ -134,8 +136,7 @@ Audio (words, sentences and grammar examples read aloud, see [docs/SCHEMA.md](do
 docker run -d --rm -p 127.0.0.1:50021:50021 voicevox/voicevox_engine:cpu-latest   # or the desktop app, or the nvidia image
 bun run sample:audio                                   # the listening test: data/audio/.sample/index.html
 bun run build:audio                                    # make the missing clips into data/audio/clips/ (Ctrl+C stops, run again to continue)
-bun run attach:audio                                   # offline: audio fields from data/audio/clips.json
-git add data/audio compiled                            # then a pull request, as for any dataset change
+git add data/audio                                     # then push: CI attaches the clips (attach:audio) and commits compiled/
 ```
 
 `build:audio` prints progress every 10 seconds (done, clips per second, time left, space used; also in `data/audio/.build/progress.json`), makes the most frequent words first, and refuses an engine whose version differs from `data/audio/voice.json`'s, since that would rename every clip. Ctrl+C, or a file `data/audio/.build/STOP`, ends it cleanly; running it again continues. A run that finishes removes the clips no item uses any more; the bucket keeps them.
