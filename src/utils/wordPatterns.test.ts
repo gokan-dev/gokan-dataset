@@ -10,7 +10,7 @@ beforeAll(async () => {
     });
 });
 
-const HEADWORDS: Record<string, string> = { fushigi: '不思議', omou: '思う', toshi: '年', toru: '取る', hito: '人', watashi: '私', miru: '見る', hayai: '早い', naru: 'なる', ki: '気', suru: 'する', me: '目', kagayaku: '輝く', te: '手', ireru: '入れる', byousha: '描写', gakkou: '学校', iku: '行く' };
+const HEADWORDS: Record<string, string> = { fushigi: '不思議', omou: '思う', toshi: '年', toru: '取る', hito: '人', watashi: '私', miru: '見る', hayai: '早い', naru: 'なる', ki: '気', suru: 'する', me: '目', kagayaku: '輝く', te: '手', ireru: '入れる', byousha: '描写', gakkou: '学校', iku: '行く', kekka: '結果', himitsu: '秘密', shiraseru: '知らせる', uchiakeru: '打ち明ける' };
 const text = (parts: readonly PatternPart[]): string => patternText(parts, id => HEADWORDS[id]);
 
 /** The candidates of a word in `sentence`, written out; each word is [id, its spelling there]. */
@@ -64,6 +64,11 @@ describe('patternCandidates', () => {
     it('keeps a passive, and a causative passive', () => {
         expect(candidates('手に入れられた。', ['ireru', '入れ'], 'verb', [['te', '手']])).toEqual(['手に入れられる']);
         expect(candidates('目を輝かせられた。', ['kagayaku', '輝か'], 'verb', [['me', '目']])).toEqual(['目を輝かせられる']);
+    });
+
+    it('takes a word that is itself a causative as it is (知らせる), and derives a compound from its last part (打ち明けさせる)', () => {
+        expect(candidates('結果を知らせた。', ['shiraseru', '知らせ'], 'verb', [['kekka', '結果']])).toEqual(['結果を知らせる']);
+        expect(candidates('秘密を打ち明けさせた。', ['uchiakeru', '打ち明け'], 'verb', [['himitsu', '秘密']])).toEqual(['秘密を打ち明けさせる']);
     });
 
     it('writes a derived verb from a headword in kana as well', () => {
@@ -145,8 +150,7 @@ describe('patternText', () => {
 });
 
 describe('headFormProblems', () => {
-    const at = (sentence: string, verb: string) => derivationAt(tokenizer.tokenize(sentence), sentence.indexOf(verb));
-    const tokenize = (t: string) => tokenizer.tokenize(t);
+    const at = (sentence: string, verb: string) => derivationAt(tokenizer.tokenize(sentence), { start: sentence.indexOf(verb), length: verb.length });
 
     it('reads how the verb is derived where it occurs', () => {
         expect(at('目を輝かせた。', '輝か')).toBe('せる');
@@ -154,9 +158,16 @@ describe('headFormProblems', () => {
         expect(at('目が輝いた。', '輝い')).toBe('');
     });
 
+    it('reads a word that is itself a causative or passive as not derived (知らせる, 打ちひしがれる)', () => {
+        expect(at('彼に知らせた。', '知らせ')).toBe('');
+        expect(at('悲しみに打ちひしがれた。', '打ちひしがれ')).toBe('');
+    });
+
     it('flags a pattern whose verb is not the form most of its sentences use (目を輝く over 目を輝かせた)', () => {
         const heads = ['目を輝かせた。', '目を輝かせている。', '目が輝いた。'].map(s => ({ pattern: 0, derivation: at(s, '輝') }));
-        expect(headFormProblems([{ text: '目を輝く' }], heads, tokenize)).toEqual(['目を輝く: 2 of its 3 sentences derive the verb otherwise (せる)']);
-        expect(headFormProblems([{ text: '目を輝かせる' }], heads, tokenize)).toEqual([]);
+        expect(headFormProblems([{ text: '目を輝く' }], heads, '輝く')).toEqual(['目を輝く: 2 of its 3 sentences use 輝く derived (せる)']);
+        expect(headFormProblems([{ text: '目を輝かせる' }], heads, '輝く')).toEqual([]);
+        const plain = ['悲しみに打ちひしがれた。', '悲しみに打ちひしがれている。'].map(s => ({ pattern: 0, derivation: at(s, '打ちひしがれ') }));
+        expect(headFormProblems([{ text: '悲しみに打ちひしがれる' }], plain, '打ちひしがれる')).toEqual([]);
     });
 });

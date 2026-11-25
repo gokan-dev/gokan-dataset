@@ -138,27 +138,38 @@ function derivedOf(tokens: readonly IpadicFeatures[], i: number): Derived | unde
 }
 
 /**
- * How the verb at a word's occurrence is derived (せる, or せる+られる; '' when it is not), read from
- * the sentence's tokens: what the head of its pattern must say (headFormProblems).
+ * The last token of a word's occurrence (明け in 打ち明け, せ in 知らせ): what a causative or passive
+ * follows, so a word that is itself one (知らせる) is not read as derived.
  */
-export function derivationAt(tokens: readonly IpadicFeatures[], start: number): string {
-    const i = tokens.findIndex(t => startOf(t) === start);
-    return i < 0 ? '' : derivingAfter(tokens, i).map(t => t.basic_form).join('+');
+function lastTokenOf(tokens: readonly IpadicFeatures[], at: Pick<Occurrence, 'start' | 'length'>): number {
+    let last = -1;
+    tokens.forEach((t, k) => { if (startOf(t) >= at.start && startOf(t) < at.start + at.length) last = k; });
+    return last;
 }
 
 /**
- * The patterns whose head does not say how most of their sentences use the verb (目を輝く over
- * sentences of 目を輝かせる): each pattern's written text is tokenized again, and its last verb's
- * derivation compared with each sentence's (`derivationAt`). The build fails on any.
+ * How the verb at a word's occurrence is derived (せる, or せる+られる; '' when it is not), read from
+ * the sentence's tokens: what the head of its pattern must say (headFormProblems).
  */
-export function headFormProblems(patterns: readonly { text: string }[], heads: readonly { pattern: number; derivation: string }[], tokenize: (text: string) => readonly IpadicFeatures[]): string[] {
+export function derivationAt(tokens: readonly IpadicFeatures[], at: Pick<Occurrence, 'start' | 'length'>): string {
+    const last = lastTokenOf(tokens, at);
+    return last < 0 ? '' : derivingAfter(tokens, last).map(t => t.basic_form).join('+');
+}
+
+/**
+ * The patterns whose verb does not say how most of their sentences use it (目を輝く over sentences
+ * of 目を輝かせる): a pattern written with the verb's headword (`headword`, its last part) says it
+ * is not derived, any other says it is, compared with each sentence's (`derivationAt`). The build
+ * fails on any.
+ */
+export function headFormProblems(patterns: readonly { text: string }[], heads: readonly { pattern: number; derivation: string }[], headword: string): string[] {
     return patterns.flatMap(({ text }, index) => {
-        const tokens = tokenize(text);
-        const verb = tokens.filter(t => t.pos === '動詞' && t.pos_detail_1 === '自立').at(-1);
-        const says = verb === undefined ? '' : derivationAt(tokens, startOf(verb));
+        const derived = !text.endsWith(headword);
         const held = heads.filter(h => h.pattern === index);
-        const other = held.filter(h => h.derivation !== says).length;
-        return other * 2 > held.length ? [`${text}: ${other} of its ${held.length} sentences derive the verb otherwise (${held.find(h => h.derivation !== says)!.derivation || 'not derived'})`] : [];
+        const other = held.filter(h => (h.derivation !== '') !== derived);
+        return other.length * 2 > held.length
+            ? [`${text}: ${other.length} of its ${held.length} sentences use ${headword} ${derived ? 'not derived' : `derived (${other[0].derivation})`}`]
+            : [];
     });
 }
 
@@ -182,7 +193,7 @@ export function patternCandidates(tokens: readonly IpadicFeatures[], at: Occurre
         if (!namesWhat(tokens[i - 2])) return [];
         const before = spans.find(s => s.id !== at.id && s.start + s.length === startOf(particle));
         if (!before) return [];
-        const derived = derivedOf(tokens, i);
+        const derived = derivedOf(tokens, lastTokenOf(tokens, at));
         return [[{ id: before.id }, particle.surface_form, derived ? { id: at.id, derived } : { id: at.id }]];
     }
 

@@ -663,7 +663,7 @@ async function main() {
             for (const match of found) {
                 const candidates = patternCandidates(tokens, { id: vId, start: match.start, length: match.length }, kindOf(vId), spans);
                 if (candidates.length > 0) candidatesOf.set(match, candidates);
-                if (kindOf(vId) === 'verb') derivationOf.set(match, derivationAt(tokens, match.start));
+                if (kindOf(vId) === 'verb') derivationOf.set(match, derivationAt(tokens, match));
             }
         }
 
@@ -851,7 +851,7 @@ async function main() {
         }
         if (kindOf(vocab.id) === 'verb') {
             const heads = occurrences.flatMap(({ match }) => match.pattern === undefined ? [] : [{ pattern: match.pattern, derivation: derivationOf.get(match) ?? '' }]);
-            headProblems.push(...headFormProblems(patterns, heads, text => sentenceTokenizer.tokens(text)).map(p => `${vocab.id}: ${p}`));
+            headProblems.push(...headFormProblems(patterns, heads, headword(vocab.id)).map(p => `${vocab.id}: ${p}`));
         }
     }
     if (headProblems.length > 0) throw new Error(`Common patterns whose verb is not the form their sentences use:\n  ${headProblems.join('\n  ')}`);
