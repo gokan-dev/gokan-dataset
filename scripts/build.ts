@@ -47,7 +47,7 @@ const STAGES: StageSpec[] = [
         name: 'jlpt-coverage', script: 'scripts/build-jlpt-coverage.ts', after: ['jlpt'], restart: DATA_RESTART, tracked: ['docs/JLPT_COVERAGE.md'],
         inputs: ['data/raw/jlpt', 'data/raw/vocab', 'data/raw/jmdict.json', 'data/raw/jpdb_v2.2_freq_list_2024-10-13.csv'],
     },
-    { name: 'synonyms', script: 'scripts/build-synonyms.ts', inputs: ['data/raw/vocab/synonyms.json'], after: ['jlpt-coverage'], restart: DATA_RESTART },
+    { name: 'synonyms', script: 'scripts/build-synonyms.ts', inputs: ['data/raw/vocab/synonyms.json', 'data/raw/synonym-nuances.json'], after: ['jlpt-coverage'], restart: DATA_RESTART },
     { name: 'media', script: 'scripts/build-media.ts', inputs: ['data/raw/media'], after: ['synonyms'], restart: DATA_RESTART },
     { name: 'attach-audio-data', script: 'scripts/attach-audio.ts', inputs: AUDIO_INPUTS, after: ['media'], restart: DATA_RESTART },
     { name: 'accent', script: 'scripts/attach-accent.ts', inputs: ['data/raw/accents'], after: ['attach-audio-data'], restart: DATA_RESTART },

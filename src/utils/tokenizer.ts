@@ -143,6 +143,11 @@ export class SentenceTokenizer {
         });
     }
 
+    /** The sentence's tokens as kuromoji gives them, for a word's patterns (src/utils/wordPatterns.ts). */
+    public tokens(text: string): readonly IpadicFeatures[] {
+        return this.tokenize(text);
+    }
+
     /** The last sentence's tokens are kept, so asking its boundaries after its matches tokenizes it once. */
     private tokenize(text: string): IpadicFeatures[] {
         if (this.last?.text !== text) this.last = { text, tokens: this.tokenizer.tokenize(text) };

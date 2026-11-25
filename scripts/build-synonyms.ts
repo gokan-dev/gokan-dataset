@@ -110,6 +110,7 @@ const VOCAB_DIR = './build/assembled/vocab';
 const SYNONYMS_LANG = 'en';
 const FREQUENCY_PATH = './build/assembled/index/frequency.json';
 const OVERRIDES_PATH = './data/raw/vocab/synonyms.json';
+const NUANCES_PATH = './data/raw/synonym-nuances.json';
 
 /** The overlap floor (see `glossOverlap`): a shared normalized sense counts when
  *  the shared set is at least this fraction of the SMALLER word's set. Low enough
@@ -497,6 +498,52 @@ export function applyOverrides(
     return { excluded, promoted, handAdded };
 }
 
+/**
+ * One line of data/raw/synonym-nuances.json (outside data/raw/vocab, an input of build-data, so an
+ * edited line reruns this stage only): how a pair of closest synonyms differ
+ * (gokan-srs#177), drafted by a model from both words' meanings and examples, then read and
+ * edited by a person in the PR that adds it. `words` names the pair as a reader of the file sees
+ * it ("奇妙 / 不思議"), checked against the ids so a line never drifts onto another pair.
+ */
+export interface RawNuance {
+    ids: [string, string];
+    words: string;
+    nuance: string;
+}
+
+/** A nuance line's longest: one line under the pair on a phone. */
+export const NUANCE_MAX_LENGTH = 120;
+
+/** How the file names a word: its headword, kana for a word learned in kana. */
+export function nuanceHeadword(forms: Pick<SynonymForms, 'w' | 'r' | 'u'>): string {
+    return forms.u ? forms.r[0] : forms.w[0] ?? forms.r[0];
+}
+
+/**
+ * Sets each curated nuance on its pair, in place (both words then carry it). Throws on a line
+ * the build would otherwise ship wrong: a pair that is no longer a synonym pair (the glosses
+ * moved on), a pair named twice, `words` that do not name its ids, a line over
+ * NUANCE_MAX_LENGTH, or an em dash (the project's writing rule).
+ */
+export function applyNuances(relations: Map<string, OverridePair>, nuances: readonly RawNuance[], headwordOf: (id: string) => string | undefined): number {
+    const problems: string[] = [];
+    const seen = new Set<string>();
+    for (const { ids: [a, b], words, nuance } of nuances) {
+        const key = pairKey(a, b);
+        const named = `${headwordOf(a) ?? a} / ${headwordOf(b) ?? b}`;
+        if (seen.has(key)) problems.push(`${key} (${words}) is listed twice`);
+        seen.add(key);
+        if (!relations.has(key)) problems.push(`${key} (${words}) is no longer a synonym pair`);
+        if (words !== named) problems.push(`${key} is named "${words}", but its ids are ${named}`);
+        if (nuance.length > NUANCE_MAX_LENGTH) problems.push(`${key} (${words}) is ${nuance.length} characters, over ${NUANCE_MAX_LENGTH}`);
+        if (nuance.includes('—')) problems.push(`${key} (${words}) has an em dash`);
+        if (nuance.trim() === '') problems.push(`${key} (${words}) is empty`);
+    }
+    if (problems.length > 0) throw new Error(`${NUANCES_PATH}:\n  ${problems.join('\n  ')}`);
+    for (const { ids: [a, b], nuance } of nuances) relations.get(pairKey(a, b))!.nuance = nuance;
+    return nuances.length;
+}
+
 async function main() {
     console.log('🔗 Building production synonym index...');
     if (!fs.existsSync(FREQUENCY_PATH)) {
@@ -583,6 +630,12 @@ async function main() {
         ? JSON.parse(fs.readFileSync(OVERRIDES_PATH, 'utf-8'))
         : {};
     const { excluded, promoted, handAdded } = applyOverrides(relations, overrides, byId);
+    // Curated nuance lines, on pairs as they stand after the overrides.
+    const nuances: { nuances: RawNuance[] } = fs.existsSync(NUANCES_PATH) ? JSON.parse(fs.readFileSync(NUANCES_PATH, 'utf-8')) : { nuances: [] };
+    const withNuance = applyNuances(relations, nuances.nuances, id => {
+        const forms = byId.get(id)?.forms;
+        return forms ? nuanceHeadword(forms) : undefined;
+    });
 
     // Build the symmetric adjacency, then embed each word's list into its OWN
     // compiled vocab file (per-vocab delivery - see the file header) rather than one
@@ -625,6 +678,7 @@ async function main() {
     console.log(`   - Words scanned: ${words.length} (full vocab coverage)`);
     console.log(`   - Pairs: ${total} (${inter} interchangeable, ${total - inter} confusable)`);
     console.log(`   - Auto ${autoPairs}, then hand: +${handAdded} added, ${promoted} promoted, ${excluded} excluded`);
+    console.log(`   - Pairs with a nuance line: ${withNuance}`);
     console.log(`   - Words with at least one synonym: ${index.size}`);
     console.log(`   - Vocab files rewritten: ${written}`);
 }
