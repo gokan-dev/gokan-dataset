@@ -3,7 +3,7 @@ import path from 'path';
 import readline from 'readline';
 import type { Vocabulary } from '../src/models/vocabulary.model';
 import type { Sentence, SentenceMatch } from '../src/models/sentence.model';
-import { patternCandidates, patternKind, patternText, selectPatterns, type Occurrence, type PatternKind, type PatternPart } from '../src/utils/wordPatterns';
+import { derivationAt, headFormProblems, patternCandidates, patternKind, patternText, selectPatterns, type Occurrence, type PatternKind, type PatternPart } from '../src/utils/wordPatterns';
 import type { TextByLanguage, Translation } from '../src/models/text.model';
 import { jmdictLanguage, jmdictText, type JmdictSense } from '../src/text/jmdict';
 import { rendering } from '../src/text/renderings';
@@ -556,6 +556,9 @@ async function main() {
     // Each occurrence's candidate patterns, found while its sentence's tokens are at hand; a
     // word's patterns are chosen once every sentence is read (4.8).
     const candidatesOf = new Map<SentenceMatch, PatternPart[][]>();
+    // How a verb is derived where it occurs (輝かせ: せる), read apart from its candidates, to
+    // check each verb's patterns against their sentences (headFormProblems).
+    const derivationOf = new Map<SentenceMatch, string>();
     const kinds = new Map<string, PatternKind>();
     const kindOf = (id: string): PatternKind => {
         let kind = kinds.get(id);
@@ -660,6 +663,7 @@ async function main() {
             for (const match of found) {
                 const candidates = patternCandidates(tokens, { id: vId, start: match.start, length: match.length }, kindOf(vId), spans);
                 if (candidates.length > 0) candidatesOf.set(match, candidates);
+                if (kindOf(vId) === 'verb') derivationOf.set(match, derivationAt(tokens, match.start));
             }
         }
 
@@ -833,6 +837,7 @@ async function main() {
         return word.usuallyKana ? word.reading.primary : word.writtenForm.kanji || word.reading.primary;
     };
     let withPatterns = 0;
+    const headProblems: string[] = [];
     for (const vocab of FINAL_VOCAB) {
         const sentences = vocabSentencesMap.get(vocab.id) ?? [];
         const occurrences = sentences.flatMap(s => (s.matches?.[vocab.id] ?? []).map(match => ({ sentence: s.id, match, candidates: candidatesOf.get(match) ?? [] })));
@@ -844,7 +849,12 @@ async function main() {
             const index = indexOf(candidates);
             if (index !== undefined) match.pattern = index;
         }
+        if (kindOf(vocab.id) === 'verb') {
+            const heads = occurrences.flatMap(({ match }) => match.pattern === undefined ? [] : [{ pattern: match.pattern, derivation: derivationOf.get(match) ?? '' }]);
+            headProblems.push(...headFormProblems(patterns, heads, text => sentenceTokenizer.tokens(text)).map(p => `${vocab.id}: ${p}`));
+        }
     }
+    if (headProblems.length > 0) throw new Error(`Common patterns whose verb is not the form their sentences use:\n  ${headProblems.join('\n  ')}`);
     console.log(`   - ${withPatterns} words have common patterns.`);
 
     // 5. Write Outputs

@@ -514,6 +514,21 @@ export interface RawNuance {
 /** A nuance line's longest: one line under the pair on a phone. */
 export const NUANCE_MAX_LENGTH = 120;
 
+/**
+ * A nuance line's longest Japanese run (帽子を取る), in characters: the app keeps each run on one
+ * line (MixedText's `unbroken`), so a longer one would overflow a 320px row. The longest drafted
+ * is 12 (毎度ありがとうございます).
+ */
+export const NUANCE_JAPANESE_RUN_MAX = 12;
+
+/** Kana, kanji, CJK punctuation and full-width forms: the runs the app sets in a Japanese face (gokan-srs's japaneseRuns). */
+const JAPANESE_RUN = /[\u3000-\u303F\u3040-\u30FF\u3400-\u4DBF\u4E00-\u9FFF\uFF00-\uFFEF]+/g;
+
+/** The Japanese runs of a nuance line over NUANCE_JAPANESE_RUN_MAX. */
+export function longJapaneseRuns(nuance: string): string[] {
+    return (nuance.match(JAPANESE_RUN) ?? []).filter(run => run.length > NUANCE_JAPANESE_RUN_MAX);
+}
+
 /** How the file names a word: its headword, kana for a word learned in kana. */
 export function nuanceHeadword(forms: Pick<SynonymForms, 'w' | 'r' | 'u'>): string {
     return forms.u ? forms.r[0] : forms.w[0] ?? forms.r[0];
@@ -523,7 +538,7 @@ export function nuanceHeadword(forms: Pick<SynonymForms, 'w' | 'r' | 'u'>): stri
  * Sets each curated nuance on its pair, in place (both words then carry it). Throws on a line
  * the build would otherwise ship wrong: a pair that is no longer a synonym pair (the glosses
  * moved on), a pair named twice, `words` that do not name its ids, a line over
- * NUANCE_MAX_LENGTH, or an em dash (the project's writing rule).
+ * NUANCE_MAX_LENGTH or a Japanese run over NUANCE_JAPANESE_RUN_MAX, or an em dash (the project's writing rule).
  */
 export function applyNuances(relations: Map<string, OverridePair>, nuances: readonly RawNuance[], headwordOf: (id: string) => string | undefined): number {
     const problems: string[] = [];
@@ -536,6 +551,7 @@ export function applyNuances(relations: Map<string, OverridePair>, nuances: read
         if (!relations.has(key)) problems.push(`${key} (${words}) is no longer a synonym pair`);
         if (words !== named) problems.push(`${key} is named "${words}", but its ids are ${named}`);
         if (nuance.length > NUANCE_MAX_LENGTH) problems.push(`${key} (${words}) is ${nuance.length} characters, over ${NUANCE_MAX_LENGTH}`);
+        for (const run of longJapaneseRuns(nuance)) problems.push(`${key} (${words}) has a Japanese run of ${run.length} characters (${run}), over ${NUANCE_JAPANESE_RUN_MAX}`);
         if (nuance.includes('—')) problems.push(`${key} (${words}) has an em dash`);
         if (nuance.trim() === '') problems.push(`${key} (${words}) is empty`);
     }

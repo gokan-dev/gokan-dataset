@@ -8,14 +8,33 @@ import type { IpadicFeatures } from 'kuromoji';
  * then a verb ends it), or, for a verb, the word and particle before it (年を取る): what follows a
  * verb is its own inflection, and what a learner needs is which nouns it takes. An inflected token
  * counts in its dictionary form (思った as 思う, 不思議だった as 不思議だ, です as だ), so one
- * pattern is one entry however the sentences conjugate it.
+ * pattern is one entry however the sentences conjugate it; a verb keeps its causative and passive,
+ * which make another verb (目を輝かせた is 目を輝かせる, never 目を輝く).
+ *
+ * Two rules drop what the page already says: a word followed only by する (描写する: Meanings
+ * says it is a する noun) is no pattern, and に and へ before 行く or 来る are one pattern
+ * (学校に行く), written with the particle most of its sentences use.
  *
  * Words are kept as ids until the pattern is written (patternText), so a pattern names each word
  * by its headword, kana for a word learned in kana, decided after the sentences are scanned.
  */
 
-/** A word, named by its headword when the pattern is written (`ku`: its adverbial く form, 早く), or a literal. */
-export type PatternPart = { id: string; ku?: true } | string;
+/**
+ * A verb derived into another by a causative or passive (輝か|せる), as the pattern writes it: its
+ * headword's ending `basicTail` (く) becomes `tail` (かせる), or, for a headword that does not
+ * end so, the sentence's own spelling `written` (輝かせる).
+ */
+export interface Derived {
+    basicTail: string;
+    tail: string;
+    written: string;
+}
+
+/**
+ * A word, named by its headword when the pattern is written (`ku`: its adverbial く form, 早く;
+ * `derived`: its causative or passive, 輝かせる), or a literal.
+ */
+export type PatternPart = { id: string; ku?: true; derived?: Derived } | string;
 
 /**
  * How a word's patterns are read: a verb by what comes before it, an i-adjective from its く form,
@@ -54,6 +73,10 @@ const LIGHT_VERBS = new Set(['する', 'なる', 'ある', 'いる', 'できる'
 /** Auxiliaries that only inflect what comes before them (past, polite, volitional): folded into its dictionary form. */
 const INFLECTING = new Set(['た', 'ます', 'う']);
 const MAX_FOLLOWING = 3;
+/** Auxiliary verbs that derive another verb (causative, passive): kept in a verb's pattern. */
+const DERIVING = new Set(['せる', 'させる', 'れる', 'られる']);
+/** Before these, に and へ say the same (学校に行く, 学校へ行く): one pattern. */
+const GO_COME = new Set(['行く', '来る', 'いく', 'くる']);
 
 const startOf = (t: IpadicFeatures): number => t.word_position - 1;
 const isParticle = (t: IpadicFeatures): boolean => t.pos === '助詞' && t.pos_detail_1 !== '終助詞';
@@ -92,6 +115,53 @@ function endsWell(t: IpadicFeatures, part: PatternPart, kind: PatternKind, posit
     return t.pos === '助詞' && t.pos_detail_1 === '副詞化';
 }
 
+/** The causative and passive auxiliaries right after the verb at `i` (輝か|せ|られ). */
+function derivingAfter(tokens: readonly IpadicFeatures[], i: number): IpadicFeatures[] {
+    const found: IpadicFeatures[] = [];
+    for (let k = i + 1; k < tokens.length; k++) {
+        const t = tokens[k];
+        if (t.pos !== '動詞' || t.pos_detail_1 !== '接尾' || !DERIVING.has(t.basic_form)) break;
+        found.push(t);
+    }
+    return found;
+}
+
+/** The verb at `i` with its causative or passive, as a pattern writes it (輝か + せ → 輝かせる). */
+function derivedOf(tokens: readonly IpadicFeatures[], i: number): Derived | undefined {
+    const deriving = derivingAfter(tokens, i);
+    if (deriving.length === 0) return undefined;
+    const verb = tokens[i];
+    let same = 0;
+    while (same < verb.basic_form.length && verb.basic_form[same] === verb.surface_form[same]) same++;
+    const ending = deriving.slice(0, -1).map(t => t.surface_form).join('') + deriving.at(-1)!.basic_form;
+    return { basicTail: verb.basic_form.slice(same), tail: verb.surface_form.slice(same) + ending, written: verb.surface_form + ending };
+}
+
+/**
+ * How the verb at a word's occurrence is derived (せる, or せる+られる; '' when it is not), read from
+ * the sentence's tokens: what the head of its pattern must say (headFormProblems).
+ */
+export function derivationAt(tokens: readonly IpadicFeatures[], start: number): string {
+    const i = tokens.findIndex(t => startOf(t) === start);
+    return i < 0 ? '' : derivingAfter(tokens, i).map(t => t.basic_form).join('+');
+}
+
+/**
+ * The patterns whose head does not say how most of their sentences use the verb (目を輝く over
+ * sentences of 目を輝かせる): each pattern's written text is tokenized again, and its last verb's
+ * derivation compared with each sentence's (`derivationAt`). The build fails on any.
+ */
+export function headFormProblems(patterns: readonly { text: string }[], heads: readonly { pattern: number; derivation: string }[], tokenize: (text: string) => readonly IpadicFeatures[]): string[] {
+    return patterns.flatMap(({ text }, index) => {
+        const tokens = tokenize(text);
+        const verb = tokens.filter(t => t.pos === '動詞' && t.pos_detail_1 === '自立').at(-1);
+        const says = verb === undefined ? '' : derivationAt(tokens, startOf(verb));
+        const held = heads.filter(h => h.pattern === index);
+        const other = held.filter(h => h.derivation !== says).length;
+        return other * 2 > held.length ? [`${text}: ${other} of its ${held.length} sentences derive the verb otherwise (${held.find(h => h.derivation !== says)!.derivation || 'not derived'})`] : [];
+    });
+}
+
 /** The word before a verb's particle names what the verb takes (年を取る): a content noun, not 私, それ or こと. */
 function namesWhat(t: IpadicFeatures | undefined): boolean {
     return t !== undefined && t.pos === '名詞' && !['代名詞', '非自立', '数', '接尾'].includes(t.pos_detail_1);
@@ -111,7 +181,9 @@ export function patternCandidates(tokens: readonly IpadicFeatures[], at: Occurre
         if (!particle || particle.pos !== '助詞' || particle.pos_detail_1 !== '格助詞' || particle.surface_form === 'の') return [];
         if (!namesWhat(tokens[i - 2])) return [];
         const before = spans.find(s => s.id !== at.id && s.start + s.length === startOf(particle));
-        return before ? [[{ id: before.id }, particle.surface_form, { id: at.id }]] : [];
+        if (!before) return [];
+        const derived = derivedOf(tokens, i);
+        return [[{ id: before.id }, particle.surface_form, derived ? { id: at.id, derived } : { id: at.id }]];
     }
 
     let head: PatternPart, next: number;
@@ -132,6 +204,8 @@ export function patternCandidates(tokens: readonly IpadicFeatures[], at: Occurre
         const t = tokens[k];
         if (parts.length > 0 && t.pos === '助動詞' && INFLECTING.has(t.basic_form)) continue;
         if (!allowed(t, parts.length)) break;
+        // The word and する alone (描写する) only says it is a する noun, which Meanings does.
+        if (parts.length === 0 && t.pos === '動詞' && t.basic_form === 'する') break;
         const part = partOf(t, spans, at.id);
         parts.push(part);
         if (endsWell(t, part, kind, parts.length - 1)) candidates.push([head, ...parts]);
@@ -159,20 +233,33 @@ export interface WordPatterns {
  * as a word of its own. A pattern is kept when enough sentences use it beyond its kept longer forms
  * (不思議に is dropped when nearly all of it is 不思議に思う), the most used PATTERN_LIMITS.max of
  * them; each occurrence then belongs to its longest kept pattern, and a pattern's count is the
- * sentences that hold it, so the filter it opens shows exactly that many.
+ * sentences that hold it, so the filter it opens shows exactly that many. に and へ before 行く or
+ * 来る count as one pattern (`keyOf`), written as most of its sentences spell it.
  */
 export function selectPatterns(uses: readonly PatternUse[], sentenceCount: number, text: (parts: readonly PatternPart[]) => string): WordPatterns {
     const min = Math.max(PATTERN_LIMITS.minSentences, Math.ceil(sentenceCount * PATTERN_LIMITS.minShare));
-    const found = new Map<string, { length: number; prefixes: Set<string>; sentences: Set<string> }>();
+    const keyOf = (parts: readonly PatternPart[]): string => {
+        const n = parts.length;
+        const goCome = n >= 2 && parts[n - 2] === 'へ' && GO_COME.has(text(parts.slice(n - 1)));
+        return text(goCome ? [...parts.slice(0, n - 2), 'に', parts[n - 1]] : parts);
+    };
+    const found = new Map<string, { length: number; prefixes: Set<string>; sentences: Set<string>; spellings: Map<string, Set<string>> }>();
     for (const { sentence, candidates } of uses) {
         for (const parts of candidates) {
-            const key = text(parts);
-            const entry = found.get(key) ?? { length: parts.length, prefixes: new Set<string>(), sentences: new Set<string>() };
-            for (let n = 1; n < parts.length; n++) entry.prefixes.add(text(parts.slice(0, n)));
+            const key = keyOf(parts);
+            const entry = found.get(key) ?? { length: parts.length, prefixes: new Set<string>(), sentences: new Set<string>(), spellings: new Map<string, Set<string>>() };
+            for (let n = 1; n < parts.length; n++) entry.prefixes.add(keyOf(parts.slice(0, n)));
             entry.sentences.add(sentence);
+            const spelling = text(parts);
+            entry.spellings.set(spelling, (entry.spellings.get(spelling) ?? new Set()).add(sentence));
             found.set(key, entry);
         }
     }
+    /** A merged pattern as most of its sentences spell it (学校に行く over 学校へ行く), the key on a tie. */
+    const written = (key: string): string => {
+        const spellings = [...found.get(key)!.spellings.entries()];
+        return spellings.sort(([ka, a], [kb, b]) => b.size - a.size || (ka === key ? -1 : kb === key ? 1 : ka < kb ? -1 : 1))[0][0];
+    };
 
     const longestFirst = [...found.entries()].sort(([ka, a], [kb, b]) =>
         b.length - a.length || b.sentences.size - a.sentences.size || (ka < kb ? -1 : 1));
@@ -185,7 +272,7 @@ export function selectPatterns(uses: readonly PatternUse[], sentenceCount: numbe
     const chosen = new Set(kept.sort((a, b) => b.residual - a.residual || (a.key < b.key ? -1 : 1)).slice(0, PATTERN_LIMITS.max).map(k => k.key));
 
     const longestChosen = (candidates: readonly PatternPart[][]): string | undefined =>
-        candidates.map(text).filter(key => chosen.has(key)).at(-1);
+        candidates.map(keyOf).filter(key => chosen.has(key)).at(-1);
     const holding = new Map<string, Set<string>>();
     for (const { sentence, candidates } of uses) {
         const key = longestChosen(candidates);
@@ -194,7 +281,7 @@ export function selectPatterns(uses: readonly PatternUse[], sentenceCount: numbe
     const ordered = [...holding.entries()].sort(([ka, a], [kb, b]) => b.size - a.size || (ka < kb ? -1 : 1));
     const index = new Map(ordered.map(([key], i) => [key, i]));
     return {
-        patterns: ordered.map(([key, sentences]) => ({ text: key, sentences: sentences.size })),
+        patterns: ordered.map(([key, sentences]) => ({ text: written(key), sentences: sentences.size })),
         indexOf: candidates => {
             const key = longestChosen(candidates);
             return key === undefined ? undefined : index.get(key);
@@ -202,11 +289,18 @@ export function selectPatterns(uses: readonly PatternUse[], sentenceCount: numbe
     };
 }
 
-/** A pattern as a learner reads it: each word by its headword (an i-adjective in its く form), then the literals. */
+/**
+ * A pattern as a learner reads it: each word by its headword (an i-adjective in its く form, a
+ * derived verb with its causative or passive), then the literals.
+ */
 export function patternText(parts: readonly PatternPart[], headword: (id: string) => string): string {
     return parts.map(part => {
         if (typeof part === 'string') return part;
         const word = headword(part.id);
+        if (part.derived) {
+            const { basicTail, tail, written } = part.derived;
+            return word.endsWith(basicTail) ? word.slice(0, word.length - basicTail.length) + tail : written;
+        }
         return part.ku ? word.replace(/い$/, 'く') : word;
     }).join('');
 }

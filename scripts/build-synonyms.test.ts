@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { coarsePosSet, sharesPos, normalizeGloss, sharedGlosses, glossOverlap, overlaps, senseCovered, kanjiStem, isTransitivityPair, sharedGlossList, overlapScore, autoTier, synonymForms, applyOverrides, applyNuances, NUANCE_MAX_LENGTH, nuanceHeadword, isRanked, isRareSense, readSenses, sharedMeanings } from './build-synonyms';
+import { coarsePosSet, sharesPos, normalizeGloss, sharedGlosses, glossOverlap, overlaps, senseCovered, kanjiStem, isTransitivityPair, sharedGlossList, overlapScore, autoTier, synonymForms, applyOverrides, applyNuances, NUANCE_MAX_LENGTH, NUANCE_JAPANESE_RUN_MAX, longJapaneseRuns, nuanceHeadword, isRanked, isRareSense, readSenses, sharedMeanings } from './build-synonyms';
 import type { SynonymEntry } from './build-synonyms';
 import type { TextByLanguage } from '../src/models/text.model';
 import fs from 'fs';
@@ -422,6 +422,13 @@ describe('applyNuances (data/raw/synonym-nuances.json)', () => {
     it('fails on a line over 120 characters, and on an em dash', () => {
         expect(() => applyNuances(pairs(), [{ ...line, nuance: 'x'.repeat(NUANCE_MAX_LENGTH + 1) }], headwordOf)).toThrow(/121 characters, over 120/);
         expect(() => applyNuances(pairs(), [{ ...line, nuance: '奇妙 leans eerie — 不思議 does not.' }], headwordOf)).toThrow(/has an em dash/);
+    });
+
+    it('fails on a Japanese run over 12 characters, which the app keeps on one line', () => {
+        expect(NUANCE_JAPANESE_RUN_MAX).toBe(12);
+        expect(longJapaneseRuns('毎度ありがとうございます is a shop\'s greeting.')).toEqual([]);
+        expect(longJapaneseRuns('Said as 長らくお待たせいたしました; 待つ is plain.')).toEqual(['長らくお待たせいたしました']);
+        expect(() => applyNuances(pairs(), [{ ...line, nuance: '奇妙 is like 奇妙なことが起こりましたね, eerie.' }], headwordOf)).toThrow(/a Japanese run of 13 characters \(奇妙なことが起こりましたね\), over 12/);
     });
 
     it('fails on words that do not name its ids, and on a pair listed twice', () => {
