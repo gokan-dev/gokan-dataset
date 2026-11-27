@@ -44,6 +44,10 @@ interface Vocabulary {
     downsteps: number[];          // accepted patterns, most usual first: 0 heiban, n a drop after mora n
     source: "wiktionary" | "unidic";
   }>;
+  patterns?: Array<{              // common patterns (不思議に思う, 年を取る), the most used first, at most 5. See below.
+    text: string;                 // as a learner reads it; 不思議な〜 for the form before a noun
+    sentences: number;            // how many of the word's sentences hold it (those whose match has its index as `pattern`)
+  }>;
 }
 
 interface Sense {
@@ -96,6 +100,13 @@ A word on the lists is kept by the build even when JMdict does not mark it commo
 - **Matching** (`src/accent/pitchAccent.ts`): by written form (the word's spellings) and reading, katakana and hiragana alike. A word without kanji or learned in kana is also looked up by its reading; a kanji word never is, since a kana page (はし) can hold another word's accent.
 - **Left out**: Wiktionary's per-part accents (`3+0`, for compounds and phrases), an unnumbered nakadaka, and a number beyond the reading's morae; the build fails on any written accent the app could not draw (`assertPitchAccent`). Multi-word expressions (にとって, ことができる) and particles have no single accent in either source, and no field.
 
+**`patterns`** (gokan-srs#177): the frequent forms a word takes in its own sentences, counted by `build:data` from kuromoji's tokens (`src/utils/wordPatterns.ts`), with no model and no outside source.
+
+- **What a pattern is**: the word and what follows it, up to three tokens (particles, the copula, ない, and a verb, which ends it): 気がする, 手に入れる, 不思議ではない. Right after the word only a light verb may follow (する, なる, ある, いる, できる, 思う, 言う, 見える, 感じる: 勉強する); after a particle any verb may (気を失う). A verb's pattern is the content noun and case particle before it instead (年を取る, 連絡を取る), since what follows a verb is its own inflection, except a causative or passive, which makes another verb and stays (目を輝かせた is 目を輝かせる, never 目を輝く: the build fails on a verb's pattern that does not say whether most of its sentences derive the verb, `headFormProblems`); a pronoun or こと there names nothing (私を見る, ことができる are not patterns). An i-adjective's is read from its く form (早くなる). The word and する alone (描写する) is no pattern: Meanings already says the word is a する noun.
+- **Dictionary forms**: an inflected token counts in its dictionary form (思った as 思う, 不思議だった as 不思議だ, です as だ), so one pattern is one entry. The copula alone (不思議だ, 不思議な〜) is a pattern of a na-adjective only: for a noun, 人だ says nothing. A pattern never ends on a bare は or を.
+- **Which are kept**: those held by at least 3 of the word's sentences and 2% of them (tuned on 不思議, 取る, 気 and 手: 5% left 取る, 1,030 sentences, with none), counting a pattern's sentences beyond its kept longer forms, so 不思議に goes when nearly every one is 不思議に思う; then the 5 most used. Words are named by their headwords, kana for a word learned in kana, and a pattern is counted by how it is written, so 勉強する is one pattern whether or not する was matched as a word of its own; に and へ before 行く or 来る are one pattern (学校に行く, 学校へ行く), written with the particle most of its sentences use.
+- **In sentences**: each occurrence that is a kept pattern carries its index (`matches[vocabId][n].pattern`, below), its longest kept form, so a pattern's `sentences` is exactly how many sentences a consumer filtering on it shows.
+
 ## `compiled/sentences/{vocabId}.json` — example sentences, one file per word
 
 Only vocab with at least one matched sentence get a file (most files: 3-5 sentences; not every word has one).
@@ -109,9 +120,10 @@ interface Sentence {
   en: { id: string; text: string }[]; // one or more English translations
   indices?: string;                 // reading hints/furigana, if available
   vocabIds: string[];               // every vocab entry (by id) found in this sentence
-  matches?: Record<string, { start: number; length: number; reading?: string }[]>;
+  matches?: Record<string, { start: number; length: number; reading?: string; pattern?: number }[]>;
   // ^ vocabId -> where it occurs in `original` (character offset + length), for highlighting.
-  //   An array because a word can appear more than once in the same sentence.
+  //   An array because a word can appear more than once in the same sentence. `pattern` is the
+  //   index, in that word's `patterns`, of the common pattern this occurrence is (absent: none).
   audio?: { clip: string };         // the sentence read aloud, when a clip exists (see Audio below)
 }
 ```
@@ -548,6 +560,8 @@ A word (`vocab/{id}.json`), a sentence (in every `sentences/{vocabId}.json` it a
 - **How it gets there:** `bun run build:audio` (by hand, the engine running) makes the missing clips into `data/audio/clips/` and lists them in `data/audio/clips.json`: each item's key and a hash of the text and readings it was made from. Both are committed. `attach:audio` (the end of `build:data` and `build:grammar`, offline) writes `audio` only where that hash still matches, so an edited sentence loses its clip until it is made again, and fails if `clips.json` names a clip the folder lacks. Before gokan-srs deploys a dataset version, it writes that version's committed clips the bucket lacks (`upload:audio`), and fails rather than deploy short of them, so a deployed dataset never names a clip the site does not have.
 
 **Near-synonyms are not an index file.** They are embedded on each `vocab/{id}.json` as `synonyms?: Array<{ id: string; relation: "interchangeable" | "confusable"; shared: string[]; overlap: number; curated?: true; w?: string[]; r?: string[]; pos?: string[]; u?: true }>`, symmetric, written by `scripts/build-synonyms.ts`. `w`/`r`/`pos` are the other word's answerable forms (written forms kanji-first, readings primary-first including merged homographs' readings, and only its inflecting POS codes), and `u` marks it `usuallyKana` (name it by `r[0]`), so a consumer can tell whether a typed answer is that word without fetching its vocab file: a word can list hundreds of pairs. They are absent only on a hand-added pair naming a word the scan skipped. Any two words sharing a normalized gloss (lowercased, leading "to"/article and parentheticals dropped) form a pair. `shared` lists those glosses and `overlap` is shared over the smaller word's gloss count. The pair is a synonym **in a given sense**, so a consumer is expected to check `shared` against the text it is quizzing on: a sentence or cue that uses a shared gloss makes the pair interchangeable there. `relation` is the out-of-context tier: `interchangeable` when the pair passes the ratio floor (0.30), sense coverage or the transitivity-pair rule, `confusable` otherwise. `curated: true` marks a tier set by `data/raw/vocab/synonyms.json`, which a consumer should not override from context (必ず / 常に share "always" and stay `confusable`). A word with no field has no near-synonym handling.
+
+**`nuance`** on a pair (gokan-srs#177): one line, the same on both words, saying how the two differ (register, connotation, typical use), in the style of Merriam-Webster's "Choose the right synonym": "奇妙 leans eerie or uneasy, while 不思議 can also be a pleasant wonder." The lines are English text, kept with the English synonyms, and written in `data/raw/synonym-nuances.json` (`{ nuances: [{ ids, words, nuance }] }`, `words` naming the pair for a reader of the file). A model drafts them from both words' meanings, their shared glosses and three example sentences of each; a person reads and edits every line in the PR that adds it, and nothing unreviewed ships. They cover the pairs a word page shows as its Closest synonyms (the first sense's section, up to 5, = or ≈), in batches by the word's frequency rank: the 1,000 most frequent words first (4,101 pairs). The build (`applyNuances`) fails on a line whose pair is no longer a synonym pair, a pair listed twice, `words` that do not name its ids, a line over 120 characters, a Japanese run over 12 characters (the app keeps each on one line, so a longer one would overflow a phone's row; the longest drafted is 毎度ありがとうございます), an em dash, or a semicolon (two clauses are joined by a comma and a word such as "while", or written as two sentences).
 
 ## Notes for consumers
 

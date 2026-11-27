@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { coarsePosSet, sharesPos, normalizeGloss, sharedGlosses, glossOverlap, overlaps, senseCovered, kanjiStem, isTransitivityPair, sharedGlossList, overlapScore, autoTier, synonymForms, applyOverrides, isRanked, isRareSense, readSenses, sharedMeanings } from './build-synonyms';
+import { coarsePosSet, sharesPos, normalizeGloss, sharedGlosses, glossOverlap, overlaps, senseCovered, kanjiStem, isTransitivityPair, sharedGlossList, overlapScore, autoTier, synonymForms, applyOverrides, applyNuances, NUANCE_MAX_LENGTH, NUANCE_JAPANESE_RUN_MAX, longJapaneseRuns, nuanceHeadword, isRanked, isRareSense, readSenses, sharedMeanings } from './build-synonyms';
 import type { SynonymEntry } from './build-synonyms';
 import type { TextByLanguage } from '../src/models/text.model';
 import fs from 'fs';
@@ -396,6 +396,51 @@ describe('applyOverrides (data/raw/vocab/synonyms.json)', () => {
         expect(() => applyOverrides(auto(), {
             clusters: [{ ids: ['a', 'b'], relation: 'confusable' }, { ids: ['a', 'b', 'c'], relation: 'confusable' }],
         }, byId)).not.toThrow();
+    });
+});
+
+describe('applyNuances (data/raw/synonym-nuances.json)', () => {
+    const headwords = new Map([['a', '奇妙'], ['b', '不思議'], ['c', 'すごい']]);
+    const headwordOf = (id: string) => headwords.get(id);
+    const pairs = (): Map<string, Omit<SynonymEntry, 'id'>> => new Map([
+        ['a b', { relation: 'interchangeable', shared: ['strange'], overlap: 0.5 }],
+        ['b c', { relation: 'confusable', shared: ['amazing'], overlap: 1 }],
+    ]);
+    const line = { ids: ['a', 'b'] as [string, string], words: '奇妙 / 不思議', nuance: '奇妙 leans eerie or uneasy, while 不思議 can also be a pleasant wonder.' };
+
+    it('sets the line on its pair, whichever order the file names it in', () => {
+        const relations = pairs();
+        expect(applyNuances(relations, [{ ...line, ids: ['b', 'a'], words: '不思議 / 奇妙' }], headwordOf)).toBe(1);
+        expect(relations.get('a b')?.nuance).toBe(line.nuance);
+        expect(relations.get('b c')?.nuance).toBeUndefined();
+    });
+
+    it('fails on a pair that is no longer a synonym pair', () => {
+        expect(() => applyNuances(pairs(), [{ ...line, ids: ['a', 'c'], words: '奇妙 / すごい' }], headwordOf)).toThrow(/a c \(奇妙 \/ すごい\) is no longer a synonym pair/);
+    });
+
+    it('fails on a line over 120 characters, on an em dash and on a semicolon', () => {
+        expect(() => applyNuances(pairs(), [{ ...line, nuance: 'x'.repeat(NUANCE_MAX_LENGTH + 1) }], headwordOf)).toThrow(/121 characters, over 120/);
+        expect(() => applyNuances(pairs(), [{ ...line, nuance: '奇妙 leans eerie — 不思議 does not.' }], headwordOf)).toThrow(/has an em dash/);
+        expect(() => applyNuances(pairs(), [{ ...line, nuance: '奇妙 leans eerie; 不思議 does not.' }], headwordOf)).toThrow(/has a semicolon/);
+        expect(() => applyNuances(pairs(), [{ ...line, nuance: '奇妙 leans eerie；不思議 does not.' }], headwordOf)).toThrow(/has a semicolon/);
+    });
+
+    it('fails on a Japanese run over 12 characters, which the app keeps on one line', () => {
+        expect(NUANCE_JAPANESE_RUN_MAX).toBe(12);
+        expect(longJapaneseRuns('毎度ありがとうございます is a shop\'s greeting.')).toEqual([]);
+        expect(longJapaneseRuns('Said as 長らくお待たせいたしました; 待つ is plain.')).toEqual(['長らくお待たせいたしました']);
+        expect(() => applyNuances(pairs(), [{ ...line, nuance: '奇妙 is like 奇妙なことが起こりましたね, eerie.' }], headwordOf)).toThrow(/a Japanese run of 13 characters \(奇妙なことが起こりましたね\), over 12/);
+    });
+
+    it('fails on words that do not name its ids, and on a pair listed twice', () => {
+        expect(() => applyNuances(pairs(), [{ ...line, words: '奇妙 / すごい' }], headwordOf)).toThrow(/is named "奇妙 \/ すごい", but its ids are 奇妙 \/ 不思議/);
+        expect(() => applyNuances(pairs(), [line, line], headwordOf)).toThrow(/a b \(奇妙 \/ 不思議\) is listed twice/);
+    });
+
+    it('names a word learned in kana by its kana', () => {
+        expect(nuanceHeadword({ w: ['凄い'], r: ['すごい'], u: true })).toBe('すごい');
+        expect(nuanceHeadword({ w: ['不思議'], r: ['ふしぎ'] })).toBe('不思議');
     });
 });
 

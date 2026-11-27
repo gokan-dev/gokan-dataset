@@ -14,6 +14,12 @@ export interface SynonymEntry {
     overlap: number;
     /** Set when data/raw/vocab/synonyms.json decided the tier; the app never overrides a curated tier from context. */
     curated?: true;
+    /**
+     * How the two words differ (register, connotation, typical use), one line, the same on both
+     * words of the pair: written in data/raw/synonym-nuances.json, read by a person before
+     * it was merged (scripts/build-synonyms.ts, applyNuances). Absent for most pairs.
+     */
+    nuance?: string;
 }
 
 /**

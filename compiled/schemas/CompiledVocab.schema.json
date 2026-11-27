@@ -210,6 +210,25 @@
         ],
         "additionalProperties": false
       }
+    },
+    "patterns": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string"
+          },
+          "sentences": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "text",
+          "sentences"
+        ],
+        "additionalProperties": false
+      }
     }
   },
   "required": [

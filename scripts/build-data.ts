@@ -2,7 +2,8 @@ import fs from 'fs';
 import path from 'path';
 import readline from 'readline';
 import type { Vocabulary } from '../src/models/vocabulary.model';
-import type { Sentence } from '../src/models/sentence.model';
+import type { Sentence, SentenceMatch } from '../src/models/sentence.model';
+import { derivationAt, headFormProblems, patternCandidates, patternKind, patternText, selectPatterns, type Occurrence, type PatternKind, type PatternPart } from '../src/utils/wordPatterns';
 import type { TextByLanguage, Translation } from '../src/models/text.model';
 import { jmdictLanguage, jmdictText, type JmdictSense } from '../src/text/jmdict';
 import { rendering } from '../src/text/renderings';
@@ -552,6 +553,21 @@ async function main() {
     let processedSentences = 0;
     const reportInterval = 5000;
     const vocabSet = new Set(writtenToVocabId.keys());
+    // Each occurrence's candidate patterns, found while its sentence's tokens are at hand; a
+    // word's patterns are chosen once every sentence is read (4.8).
+    const candidatesOf = new Map<SentenceMatch, PatternPart[][]>();
+    // How a verb is derived where it occurs (輝かせ: せる), read apart from its candidates, to
+    // check each verb's patterns against their sentences (headFormProblems).
+    const derivationOf = new Map<SentenceMatch, string>();
+    const kinds = new Map<string, PatternKind>();
+    const kindOf = (id: string): PatternKind => {
+        let kind = kinds.get(id);
+        if (kind === undefined) {
+            kind = patternKind(mergedCandidateVocab.get(id)?.senses.flatMap(s => s.pos) ?? []);
+            kinds.set(id, kind);
+        }
+        return kind;
+    };
 
     for (const [_, sentence] of sentencesMap) {
         processedSentences++;
@@ -611,7 +627,7 @@ async function main() {
             if (!isOverlapping) acceptedMatches.push(entry);
         }
 
-        const matches: Record<string, { start: number, length: number, reading?: string }[]> = {};
+        const matches: Record<string, SentenceMatch[]> = {};
         const matchedVocabIds: string[] = [];
 
         for (const { term, match, ids, annotated } of acceptedMatches) {
@@ -640,6 +656,16 @@ async function main() {
 
         // Filter out sentences that matched no vocabulary
         if (matchedVocabIds.length === 0) continue;
+
+        const spans: Occurrence[] = Object.entries(matches).flatMap(([id, found]) => found.map(({ start, length }) => ({ id, start, length })));
+        const tokens = sentenceTokenizer.tokens(text);
+        for (const [vId, found] of Object.entries(matches)) {
+            for (const match of found) {
+                const candidates = patternCandidates(tokens, { id: vId, start: match.start, length: match.length }, kindOf(vId), spans);
+                if (candidates.length > 0) candidatesOf.set(match, candidates);
+                if (kindOf(vId) === 'verb') derivationOf.set(match, derivationAt(tokens, match));
+            }
+        }
 
         // Save results
         sentence.vocabIds = matchedVocabIds;
@@ -800,6 +826,36 @@ async function main() {
             }
         }
     }
+
+    // 4.8 Common patterns (不思議に思う, 年を取る): chosen from every sentence's candidates, once
+    // 4.6 has decided which words are named in kana, and before any sentence file is written,
+    // since a sentence is written into the file of every word it holds.
+    console.log('🧷 Choosing common patterns...');
+    const headword = (id: string): string => {
+        const word = mergedCandidateVocab.get(id);
+        if (!word) throw new Error(`A pattern names ${id}, which is not a word`);
+        return word.usuallyKana ? word.reading.primary : word.writtenForm.kanji || word.reading.primary;
+    };
+    let withPatterns = 0;
+    const headProblems: string[] = [];
+    for (const vocab of FINAL_VOCAB) {
+        const sentences = vocabSentencesMap.get(vocab.id) ?? [];
+        const occurrences = sentences.flatMap(s => (s.matches?.[vocab.id] ?? []).map(match => ({ sentence: s.id, match, candidates: candidatesOf.get(match) ?? [] })));
+        const { patterns, indexOf } = selectPatterns(occurrences, sentences.length, parts => patternText(parts, headword));
+        if (patterns.length === 0) continue;
+        vocab.patterns = patterns;
+        withPatterns++;
+        for (const { match, candidates } of occurrences) {
+            const index = indexOf(candidates);
+            if (index !== undefined) match.pattern = index;
+        }
+        if (kindOf(vocab.id) === 'verb') {
+            const heads = occurrences.flatMap(({ match }) => match.pattern === undefined ? [] : [{ pattern: match.pattern, derivation: derivationOf.get(match) ?? '' }]);
+            headProblems.push(...headFormProblems(patterns, heads, headword(vocab.id)).map(p => `${vocab.id}: ${p}`));
+        }
+    }
+    if (headProblems.length > 0) throw new Error(`Common patterns whose verb is not the form their sentences use:\n  ${headProblems.join('\n  ')}`);
+    console.log(`   - ${withPatterns} words have common patterns.`);
 
     // 5. Write Outputs
     console.log('💾 Writing compiled data...');

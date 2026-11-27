@@ -81,6 +81,21 @@ export interface Vocabulary {
      * (scripts/attach-accent.ts). Absent when no source covers any of its readings.
      */
     pitchAccent?: PitchAccent[];
+
+    /**
+     * The frequent forms it takes in its sentences (不思議に思う, 気がする, 年を取る), the most
+     * used first, counted at build time (src/utils/wordPatterns.ts). Each sentence occurrence
+     * that is one names it (`SentenceMatch.pattern`). Absent when none is frequent enough.
+     */
+    patterns?: WordPattern[];
+}
+
+/** One of a word's common patterns: Japanese text and a count, so language-neutral (core). */
+export interface WordPattern {
+    /** As a learner reads it: each word by its headword, 不思議な〜 for a form that goes before a noun. */
+    text: string;
+    /** How many of the word's sentences hold it. */
+    sentences: number;
 }
 
 /** Where a word's pitch accent comes from: Wiktionary (CC BY-SA 4.0), else UniDic (New BSD). */
