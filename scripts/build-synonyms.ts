@@ -538,7 +538,7 @@ export function nuanceHeadword(forms: Pick<SynonymForms, 'w' | 'r' | 'u'>): stri
  * Sets each curated nuance on its pair, in place (both words then carry it). Throws on a line
  * the build would otherwise ship wrong: a pair that is no longer a synonym pair (the glosses
  * moved on), a pair named twice, `words` that do not name its ids, a line over
- * NUANCE_MAX_LENGTH or a Japanese run over NUANCE_JAPANESE_RUN_MAX, or an em dash (the project's writing rule).
+ * NUANCE_MAX_LENGTH or a Japanese run over NUANCE_JAPANESE_RUN_MAX, or an em dash or a semicolon (the project's writing rules).
  */
 export function applyNuances(relations: Map<string, OverridePair>, nuances: readonly RawNuance[], headwordOf: (id: string) => string | undefined): number {
     const problems: string[] = [];
@@ -553,6 +553,8 @@ export function applyNuances(relations: Map<string, OverridePair>, nuances: read
         if (nuance.length > NUANCE_MAX_LENGTH) problems.push(`${key} (${words}) is ${nuance.length} characters, over ${NUANCE_MAX_LENGTH}`);
         for (const run of longJapaneseRuns(nuance)) problems.push(`${key} (${words}) has a Japanese run of ${run.length} characters (${run}), over ${NUANCE_JAPANESE_RUN_MAX}`);
         if (nuance.includes('—')) problems.push(`${key} (${words}) has an em dash`);
+        // Two clauses joined by a ";" read as machine-written, as an em dash does: a comma and a joining word, or two sentences.
+        if (/[;；]/.test(nuance)) problems.push(`${key} (${words}) has a semicolon`);
         if (nuance.trim() === '') problems.push(`${key} (${words}) is empty`);
     }
     if (problems.length > 0) throw new Error(`${NUANCES_PATH}:\n  ${problems.join('\n  ')}`);

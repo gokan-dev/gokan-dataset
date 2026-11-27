@@ -23,7 +23,7 @@ For every word you get its readings, meanings, part of speech, JLPT level, frequ
 Two things are Gokan's own, made from that joined data:
 
 - **Common patterns** (不思議に思う, 気がする, 年を取る): counted at build time from the example sentences with the kuromoji tokenizer, no model involved. See `patterns` in [docs/SCHEMA.md](docs/SCHEMA.md).
-- **Synonym nuance lines** ("奇妙 leans eerie or uneasy; 不思議 can also be a pleasant wonder."): drafted by a model from both words' meanings and examples, then read and edited by a person before they are merged (`data/raw/synonym-nuances.json`). See `nuance` in [docs/SCHEMA.md](docs/SCHEMA.md).
+- **Synonym nuance lines** ("奇妙 leans eerie or uneasy, while 不思議 can also be a pleasant wonder."): drafted by a model from both words' meanings and examples, then read and edited by a person before they are merged (`data/raw/synonym-nuances.json`). See `nuance` in [docs/SCHEMA.md](docs/SCHEMA.md).
 
 ## Quick look
 
